@@ -3,9 +3,9 @@ title: Importación de segmentos de Adobe Audience Manager para la segmentación
 description: Obtenga información sobre cómo importar su [!DNL Adobe] audiencias en Advertising DSP y Buscar con Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ DSP publicitarias y [!DNL Advertising Search] puede cada uno extraer metadatos, 
 
 * Segmentos de Adobe Analytics que se publican en Adobe Experience Cloud
 
-* Segmentos que se crean en Adobe Experience Cloud usando la variable [!DNL People core service]
+* Segmentos que se crean con Adobe Experience Cloud [!DNL Audience Library]
 
 * Segmentos que se crean en Adobe Experience Platform y se envían a Adobe de publicidad a través del Audience Manager
 

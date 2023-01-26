@@ -3,9 +3,9 @@ title: Integraciones de publicidad de Adobe con Adobe Audience Manager
 description: Obtenga información sobre las distintas formas en que la publicidad de Adobe puede intercambiar datos con Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Puede integrar Publicidad de Adobe con Audience Manager de las siguientes manera
 
 *Anunciantes de inclusión con [!DNL Advertising Search] only*
 
-Dentro de [!DNL [!DNL Search]], puede crear [!DNL Google Ads] Los clientes de Google hacen coincidir audiencias de ID de usuario usando segmentos de Audience Manager existentes que tengan [!UICONTROL Adobe Media Optimizer (HTTP)] y [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] es un nombre anterior para [!DNL [!DNL Search]].) Esto incluye los segmentos de Adobe Analytics que se publican en Adobe Experience Cloud y los segmentos que se crean en Adobe Experience Cloud mediante la [!DNL People core service]. Para obtener más información, consulte la ayuda del producto en [!DNL [!DNL Search]].
+Dentro de [!DNL [!DNL Search]], puede crear [!DNL Google Ads] Los clientes de Google hacen coincidir audiencias de ID de usuario usando segmentos de Audience Manager existentes que tengan [!UICONTROL Adobe Media Optimizer (HTTP)] y [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] es un nombre anterior para [!DNL [!DNL Search]].) Esto incluye los segmentos de Adobe Analytics que se publican en Adobe Experience Cloud y los segmentos que se crean mediante Adobe Experience Cloud [!DNL Audience Library]. Para obtener más información, consulte la ayuda del producto en [!DNL [!DNL Search]].
 
 [Audiencias de coincidencia del cliente con ID de usuario](https://support.google.com/google-ads/answer/9199250) funcionan como las audiencias basadas en etiquetas de sitios web, pero se asigna un ID que no es de PII a miembros de audiencia únicos para obtener ventajas distintas con respecto a las audiencias estándar de coincidencia de clientes y las basadas en etiquetas de sitios web.
 
