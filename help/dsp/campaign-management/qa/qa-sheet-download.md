@@ -3,7 +3,7 @@ title: Descargar la configuración de colocación de una campaña
 description: Obtenga información sobre cómo descargar la configuración de colocación de una campaña mediante hojas de cálculo de control de calidad de Excel.
 feature: DSP Placements
 exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Si es necesario, puede editar posteriormente [seleccionar campos](qa-sheet-colum
 
 1. Realice una de las siguientes acciones:
 
-   * Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   * Haga clic en el nombre de la campaña para ver sus detalles. En la esquina superior derecha, haga clic en **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * Haga clic en el nombre de la campaña para ver sus detalles. En la esquina superior derecha, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
    Un mensaje de notificación indica cuándo puede descargarse el archivo.
 

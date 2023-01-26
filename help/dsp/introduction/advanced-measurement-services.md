@@ -2,7 +2,7 @@
 title: Soluciones de medición avanzadas
 description: Consulte una lista de las soluciones disponibles para obtener mediciones avanzadas.
 exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%

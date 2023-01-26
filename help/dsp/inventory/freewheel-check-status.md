@@ -3,9 +3,9 @@ title: Comprobar el estado de las publicidades para un [!DNL [!DNL FreeWheel]] O
 description: Obtenga información sobre cómo encontrar el estado de las publicidades para [!DNL Freewheel] ofertas garantizadas mediante programación.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

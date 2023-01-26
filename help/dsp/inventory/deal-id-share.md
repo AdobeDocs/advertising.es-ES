@@ -3,7 +3,7 @@ title: Editar las cuentas con acceso a un acuerdo privado
 description: Aprenda a compartir y dejar de compartir un acuerdo privado con distintas cuentas.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Puede dejar de compartir una operación con cuentas para eliminar las capacidade
 
 1. Para que cada cuenta comparta:
 
-1. Introduzca la variable **[!UICONTROL Email Address]** para la cuenta con acceso a la operación.
+   1. Introduzca la variable **[!UICONTROL Email Address]** para la cuenta con acceso a la operación.
 
-1. Haga clic **[!UICONTROL Share]**.
+   1. Haga clic **[!UICONTROL Share]**.
 
 ## Dejar de compartir un ID de acuerdo con cuentas
 

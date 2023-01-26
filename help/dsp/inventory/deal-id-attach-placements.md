@@ -3,10 +3,10 @@ title: Especificar ubicaciones y publicidades para un acuerdo privado
 description: Aprenda a utilizar una oferta privada con ubicaciones y publicidades adicionales.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 669cadcf-021b-4129-95d5-3d24af4a4b88
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

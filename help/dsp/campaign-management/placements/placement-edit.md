@@ -3,9 +3,9 @@ title: Editar una colocación
 description: Aprenda a editar una colocación.
 feature: DSP Placements
 exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

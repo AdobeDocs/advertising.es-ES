@@ -2,10 +2,10 @@
 title: Editar el perfil de usuario
 description: Obtenga información sobre cómo editar su perfil de usuario.
 exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,7 @@ Su perfil de cuenta incluye sus credenciales de inicio de sesión y otra informa
       1. Junto al **[!UICONTROL Email address]**, haga clic en **[!UICONTROL Edit]**.
 
       1. Introduzca la nueva dirección de correo electrónico y la contraseña existente para la cuenta de usuario.
+
       1. Haga clic **[!UICONTROL Continue]**.
    * Para editar la contraseña de la cuenta de usuario:
 

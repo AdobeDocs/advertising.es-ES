@@ -3,7 +3,7 @@ title: Editar la programación de publicidad de una colocación
 description: Aprenda a cambiar las programaciones de anuncios de las publicidades adjuntas a una ubicación.
 feature: DSP Placements
 exl-id: 880522d3-efcd-4ff9-8cef-bf6be626869c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%

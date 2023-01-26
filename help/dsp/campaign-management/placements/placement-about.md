@@ -3,7 +3,7 @@ title: Acerca de la administración de la ubicación en los DSP publicitarios
 description: Obtenga información sobre la administración de ubicaciones.
 feature: DSP Placements
 exl-id: 1d1382d9-b6c8-44bf-a708-8458769a39c6
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -49,6 +49,5 @@ Para cada ubicación, puede abrir una vista detallada ([el [!UICONTROL Inspector
 >* [Crear una colocación](placement-create.md)
 >* [Ver el registro de cambios de una colocación](placement-change-log.md)
 >* [Configuración de colocación](placement-settings.md)
-
-   >*[Resolución de problemas del rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Resolución de problemas del rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
 

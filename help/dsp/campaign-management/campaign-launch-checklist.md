@@ -3,9 +3,9 @@ title: Lista de comprobación de Campaign Launch
 description: Conozca lo que debe hacer antes de iniciar una campaña.
 feature: DSP Placements, DSP Ads
 exl-id: bf0147d0-0b58-435d-a2de-5b98e0d3488c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

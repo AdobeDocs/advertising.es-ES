@@ -3,7 +3,7 @@ title: Enviar una publicidad para un acuerdo de PG a [!DNL FreeWheel]
 description: Obtenga información sobre cómo solicitar la aprobación de una publicidad para una oferta garantizada mediante programación con un editor en [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 6cb41f3b-29e4-4feb-9c31-578ab40bd4f7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 2459ae8803e26c68d9fca3a1bcf5b744eaafb72c
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -32,7 +32,9 @@ Una vez que [aceptar un acuerdo garantizado programático con un editor en FreeW
 
       Por ejemplo, en la siguiente dirección URL, la clave de publicidad es `3NtNC5ZbaGZtqbei8jD3`
 
-      `https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
+      ```
+      https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
+      ```
 
 1. Enviar la publicidad a [!DNL Freewheel]:
 

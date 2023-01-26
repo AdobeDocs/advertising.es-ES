@@ -3,9 +3,9 @@ title: Compatibilidad publicitaria del Adobe con el Reglamento General de Protec
 description: Obtenga información sobre los tipos de solicitudes de datos compatibles, los valores de campo y configuración necesarios, y ejemplos de solicitudes de acceso a API que utilizan ID de productos heredados y campos de datos devueltos
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Todos estos pasos son necesarios para la publicidad de Adobe. Para obtener más 
 
 ## Valores de campo requeridos en solicitudes JSON de publicidad de Adobe
 
-&quot;contexto de empresa&quot;:
+`"company context":`
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*su valor de ID de organización de IMS*>

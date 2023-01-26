@@ -3,10 +3,10 @@ title: Adjuntar una colocación a un paquete
 description: Aprenda a adjuntar una colocación a un paquete.
 feature: DSP Packages
 exl-id: 443aa1a3-c8b9-4949-87be-5a37e67f00a8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
