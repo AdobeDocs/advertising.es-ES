@@ -2,8 +2,8 @@
 title: Por qué los datos de canal pueden variar entre la publicidad de Adobe y [!DNL Marketing Channels]
 description: Descubra por qué los datos de canal rastreados por el ID de AMO pueden variar de los datos de canal rastreados por [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: 4605dc7d-43d7-414f-a509-6096c6cf5fd2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -34,5 +34,5 @@ Para obtener más información sobre posibles variaciones de datos entre los dat
 >* [Aspectos básicos de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Uso de ID de publicidad de Adobe para crear [!DNL Marketing Channels] Reglas de procesamiento](mc-ids.md)
 >* [Uso [!DNL Analytics Marketing Channels] con datos publicitarios de Adobe](mc-ac-data.md)
->* [Vídeo: Uso [!DNL Marketing Channels] para informes publicitarios de Adobe](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Vídeo: Uso [!DNL Marketing Channels] para informes publicitarios de Adobe](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 

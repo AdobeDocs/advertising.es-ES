@@ -2,10 +2,10 @@
 title: Casos de uso
 description: Obtenga información sobre casos de uso para compartir sus datos de medios de DSP publicitarios con Audience Manager
 feature: Integration with Adobe Audience Manager
-exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
-source-git-commit: 48cab1494ee36e6ab2f12b2e87adedf62a21374f
+exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -34,23 +34,17 @@ Para ejecutar este ejemplo en Audience Manager, debe seguir estos pasos:<!-- The
 
    Por ejemplo, para asignar un nombre al rasgo `Creative Trait 123`, utilice la siguiente regla de rasgos:
 
-   ```
-   d_creative == 123 AND d_event == imp
-   ```
+   `d_creative == 123 AND d_event == imp`
 
 1. Cree una característica para capturar a los usuarios que hacen clic o convierten.
 
    Por ejemplo, para asignar un nombre a este rasgo `Click and Converter`, utilice la siguiente regla de rasgos:
 
-   ```
-   d_event == click OR d_event=conv
-   ```
+   `d_event == click OR d_event=conv`
 
 1. Cree un segmento llamado `Retarget Users` para rellenar con usuarios que vieron el elemento creativo `123` pero no hizo clic ni convirtió. Utilice la siguiente regla de rasgos:
 
-   ```
-   Creative Trait 123 AND NOT Click and Converter
-   ```
+   `Creative Trait 123 AND NOT Click and Converter`
 
 1. Asignación del segmento `Retarget Users` a un destino y dirija los usuarios de destino con creative `456`.
 

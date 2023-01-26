@@ -2,8 +2,8 @@
 title: Uso de ID de publicidad de Adobe para crear [!DNL Marketing Channels] Reglas
 description: Aprenda a utilizar los ID de publicidad de Adobe para crear reglas de procesamiento para [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
-exl-id: 4fcdd586-e9c5-4405-a6dc-7799d2bac93e
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 525761b4-607f-4b03-9020-8051009a13c6
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 0%
@@ -93,6 +93,6 @@ Para crear un canal de visualización de visualización, cree una regla en la qu
 >* [Aspectos básicos de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Por qué los datos de canal pueden variar entre la publicidad de Adobe y [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Uso [!DNL Analytics Marketing Channels] con datos publicitarios de Adobe](mc-ac-data.md)
->* [Vídeo: Uso [!DNL Marketing Channels] para informes publicitarios de Adobe](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Vídeo: Uso [!DNL Marketing Channels] para informes publicitarios de Adobe](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [ID de publicidad de Adobe utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
 

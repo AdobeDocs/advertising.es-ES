@@ -2,8 +2,8 @@
 title: Recopilar datos de clics e impresiones de campañas de publicidad DSP
 description: Aprenda a capturar impresiones basadas en cookies y eventos de clics de anuncios DSP anuncios mediante píxeles de Audience Manager
 feature: Integration with Adobe Audience Manager
-exl-id: eb717148-00ab-428a-97b9-e8396a5c47b0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%

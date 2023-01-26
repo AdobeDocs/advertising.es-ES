@@ -2,8 +2,8 @@
 title: Acerca de los informes en la plataforma
 description: Obtenga información sobre los datos de informes incluidos en las vistas de administración de campañas.
 feature: DSP Campaign Data Views
-exl-id: e9f7dafe-e0db-4fec-bf5b-858cbcfdde45
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 7af97704-2053-4862-a851-12db009e6776
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%

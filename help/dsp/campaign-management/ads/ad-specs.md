@@ -2,8 +2,8 @@
 title: Especificaciones de la publicidad
 description: Haga referencia a las especificaciones generales y específicas del publicador.
 feature: DSP Ads
-exl-id: 905dfd9b-e7a3-4eb6-988f-b49d4b282dd2
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 0%
@@ -177,6 +177,7 @@ Puede utilizar hojas de etiquetas desde [!DNL DCM], [!DNL Flashtalking], [!DNL I
    * Tipo de archivo: JPEG, JPG, PNG, GIF, HTML
    * Tamaño máximo del archivo: 2 MB
    * Dimension: 300 x 250
+ 
 
 ## Anuncios en pantalla nativos
 

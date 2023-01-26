@@ -2,10 +2,10 @@
 title: Requisitos previos e información clave para la implementación [!DNL Analytics for Advertising]
 description: Requisitos previos e información clave para la implementación [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
-exl-id: 08e54e2b-ed9b-4489-8de5-ab1379b7133c
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Revise la siguiente información antes de integrar Publicidad de Adobe con Adobe
 ## Requisitos para compartir segmentos de Analytics con publicidad de Adobe
 
 * Servicio de identidad de Experience Cloud: `visitorAPI.js` versión 2.1 o superior
-* Adobe Analytics: `appMeasurement.js` versión 1.8 o superior
+* Adobe Analytics: `!DNL appMeasurement.js` versión 1.8 o superior
 
 ## Requisitos para la creación de informes [!DNL Analytics] Datos en publicidad de Adobe
 

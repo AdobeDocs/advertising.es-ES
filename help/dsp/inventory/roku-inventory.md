@@ -2,8 +2,8 @@
 title: Uso [!DNL Roku] Inventario
 description: Obtenga información sobre DSP asociación con [!DNL Roku], incluidas las opciones de inventario, los proveedores de seguimiento de terceros aprobados y las prácticas recomendadas para [!DNL Roku]ubicaciones específicas de .
 feature: DSP On Demand Inventory, DSP Private Inventory
-exl-id: 0cd42782-f006-4aa8-b879-322f86cfac4b
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%

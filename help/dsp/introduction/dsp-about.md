@@ -2,8 +2,8 @@
 title: Acerca de las DSP publicitarias de Adobe
 description: Acerca de las DSP publicitarias de Adobe
 feature: DSP Introduction
-exl-id: def006b2-eb51-4942-b277-a2e673bccc7f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2a5df455-673b-483f-91a6-4fc5678b7f8a
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -28,6 +28,6 @@ Adobe Advertising DSP (DSP) eleva las estrategias de medios de los anunciantes a
 
 >[!MORELIKETHIS]
 >
->* [Vídeo: Introducción a la DSP publicitaria](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/intro.html)
->* [Vídeo: Estructura de la cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/ui.html)
+>* [Vídeo: Introducción a la DSP publicitaria](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
+>* [Vídeo: Estructura de la cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
 

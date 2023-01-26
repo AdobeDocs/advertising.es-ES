@@ -2,8 +2,8 @@
 title: Activar segmentos autenticados de socios de ID duraderos
 description: Obtenga información sobre la activación de audiencias autenticadas mediante una solución de ID duradera.
 feature: DSP Audiences
-exl-id: 44635b74-1874-4781-bd1a-a4dadae049e0
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -59,6 +59,6 @@ Para obtener más información sobre la integración de DSP con [!DNL LiveRamp],
 >* [Acerca de la activación de segmentos autenticados desde fuentes de audiencia](source-about.md)
 >* [Crear una fuente de audiencias para activar las audiencias de origen](source-create.md)
 >* [Configuración de fuente de audiencia](source-settings.md)
->* [Adobe Publicidad DSP conexión](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Publicidad DSP conexión](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* [Acerca de la gestión de público](/help/dsp/audiences/audience-about.md)
 

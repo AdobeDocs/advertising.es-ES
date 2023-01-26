@@ -1,10 +1,10 @@
 ---
 title: Configuración de pruebas A/B para publicidad de Adobe en Adobe Target
 description: Obtenga información sobre cómo configurar una prueba A/B en [!DNL Target] para su DSP y [!DNL Search] anuncios.
-exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Este caso de uso requiere los siguientes productos e integraciones:
 
 ![Marco de pulsaciones](/help/integrations/assets/target-ct-framework.png)
 
-Cuando agrega DSP macros a una URL de pulsación (la URL que se muestra cuando un usuario hace clic en un anuncio y llega a la página de aterrizaje), DSP captura automáticamente la clave de colocación incluyendo `${TM_PLACEMENT_ID}` en la URL de pulsación. Esta macro captura la clave de colocación alfanumérica y no la ID de colocación numérica.
+Cuando agrega DSP macros a una URL de pulsación (la URL que se muestra cuando un usuario hace clic en un anuncio y llega a la página de aterrizaje), DSP captura automáticamente la clave de colocación incluyendo ```${TM_PLACEMENT_ID}``` en la URL de pulsación. Esta macro captura la clave de colocación alfanumérica y no la ID de colocación numérica.
 
 ![Dirección URL de pulsación anexada a la dirección URL de la página de aterrizaje](/help/integrations/assets/target-ct-url.jpg)
 
@@ -98,7 +98,7 @@ Al agregar un píxel de evento de impresión de Audience Manager en la configura
 
    1. En el **Fuente de datos** menú desplegable, seleccione **Ad Cloud**.
 
-   1. En el Generador de expresiones, agregue `d_event` en el campo Clave y `imp` en el **Valor** campo, seleccione **Agregar regla** y, a continuación, guarde el rasgo.
+   1. En el Generador de expresiones, agregue ```d_event``` en el campo Clave y ```imp``` en el **Valor** campo, seleccione **Agregar regla** y, a continuación, guarde el rasgo.
 
    ![Captura de pantalla de un rasgo basado en reglas](/help/integrations/assets/target-am-trait.png)
 
@@ -115,7 +115,7 @@ Al agregar un píxel de evento de impresión de Audience Manager en la configura
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-Las siguientes instrucciones destacan la información relativa al caso de uso DSP. Para obtener instrucciones completas, consulte &quot;[Crear una prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html).&quot;
+Las siguientes instrucciones destacan la información relativa al caso de uso DSP. Para obtener instrucciones completas, consulte &quot;[Crear una prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html.&quot;
 
 1. [Iniciar sesión en Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -129,7 +129,7 @@ Las siguientes instrucciones destacan la información relativa al caso de uso DS
 
    >[!NOTE]
    >
-   >Puede usar varias direcciones URL para probar la entrada al sitio de visualización. Para obtener más información, consulte &quot;[Actividad de varias páginas](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Puede identificar fácilmente las entradas principales por dirección URL de la página creando una [Informe de entrada al sitio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) en Analytics.
+   >Puede usar varias direcciones URL para probar la entrada al sitio de visualización. Para obtener más información, consulte &quot;[Actividad de varias páginas](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Puede identificar fácilmente las entradas principales por dirección URL de la página creando una [Informe de entrada al sitio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) en Analytics.
 
 1. En el **Objetivo** , introduzca la métrica de éxito de la prueba.
 
@@ -208,7 +208,7 @@ En Analysis Workspace, si observa que los datos de actividades y experiencias so
 
 * En la misma página de aterrizaje, compruebe que a) el nombre de host mostrado en Adobe Debugger en Soluciones > Target coincide con b) el servidor de seguimiento mostrado en [!DNL Target] para la actividad (en Objetivos y configuración > Configuración de informes).
 
-   [!DNL Analytics For Target] requiere un [!DNL Analytics] servidor de seguimiento que se enviará en llamadas desde [!DNL Target] a [!DNL Modstats] servidor de recopilación de datos para Analytics.<!-- just "to Analytics?"-->
+   [!DNL Analytics For Target] requiere un [!DNL Analytics] servidor de seguimiento que se enviará en llamadas desde [!DNL Target] a [!DNL Modstats] servidor de recopilación de datos para Analytics.&lt;!— solo &quot;¿a Analytics?&quot;>
 
 [Valor de nombre de host en Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

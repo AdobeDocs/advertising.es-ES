@@ -1,9 +1,10 @@
 ---
 title: Políticas y directrices de Adobe Advertising
 description: Obtenga información sobre las políticas y directrices para la búsqueda de publicidad DSP y publicidad.
+index: true
 cloud: Experience Cloud
 product: advertising cloud
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 23%

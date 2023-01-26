@@ -2,10 +2,10 @@
 title: Seguridad de la marca y calidad de los medios
 description: Obtenga más información sobre la seguridad de la marca y las funciones de calidad de los medios.
 feature: DSP Introduction
-exl-id: df5be5d4-490e-479f-b76d-4fda4acd4201
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---

@@ -2,8 +2,8 @@
 title: Al usar la variable [!DNL Last Event Service] Biblioteca JavaScript con [!DNL Web SDK]
 description: Aprenda los pasos para evitar usar la variable [!DNL Analytics] [!DNL visitorAPI] a la biblioteca [!DNL Experience Platform] [!DNL Web SDK] biblioteca para su [!DNL Analytics for Advertising] implementación.
 feature: Integration with Adobe Analytics
-exl-id: 96537244-1c5c-4d9a-a44e-ba7fcea9381d
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 764724a2-536a-43b9-955d-28d6146db29a
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%

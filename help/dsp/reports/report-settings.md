@@ -2,10 +2,10 @@
 title: Configuración de informes personalizados
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
-exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Para aplicar uno o más filtros, haga lo siguiente:
 
 **[!UICONTROL Select To Add As Report Headers]:**  Las columnas de datos, o encabezados, que se incluirán en el informe. Para agregar una columna, expanda la categoría y seleccione la casilla de verificación situada junto al nombre de la columna. Todas las métricas no disponibles están deshabilitadas. Las categorías de datos disponibles incluyen:
 
-* [!UICONTROL Dimensions]
+* [!UICONTROL  Dimensions]
 * [!UICONTROL Metrics]
 * [!UICONTROL Conversion Metrics] (ordenado por anunciante)
 * [!UICONTROL Custom Goals] (ordenado por anunciante)
@@ -142,5 +142,5 @@ Para aplicar uno o más filtros, haga lo siguiente:
 >* [Ejecutar un informe personalizado](/help/dsp/reports/report-run-now.md)
 >* [Configuración de informes personalizados](/help/dsp/reports/report-settings.md)
 >* [Acerca de los destinos de informe](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 
+* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)

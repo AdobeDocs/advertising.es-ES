@@ -2,8 +2,8 @@
 title: Acerca de la corrección de la configuración de colocación de una campaña utilizando hojas de cálculo
 description: Obtenga información sobre cómo revisar y editar la configuración de colocación de claves para una campaña mediante hojas de cálculo de control de calidad de Excel.
 feature: DSP Placements
-exl-id: 9e90488f-157d-4569-8011-da51c5b05c1d
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%

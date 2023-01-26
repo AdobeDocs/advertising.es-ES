@@ -2,8 +2,8 @@
 title: Información general sobre [!DNL Analytics for Advertising]
 description: Información general sobre [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
-exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Beneficios principales:
 
 >[!TIP]
 >
-> Ver un [introducción de vídeo a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
+> Ver un [introducción de vídeo a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
 
 ## Uso de Analytics para informes de medios pagados
 
@@ -94,19 +94,19 @@ Para obtener más información sobre el servicio Audiencias de Experience Cloud,
 
 ### Uso de datos publicitarios de Adobe en Analysis Workspace
 
-Para aprender a utilizar los datos de publicidad de Adobe para crear informes visuales en Analysis Workspace, consulte el vídeo &quot;[Introducción a Workspace e informes](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+Para aprender a utilizar los datos de publicidad de Adobe para crear informes visuales en Analysis Workspace, consulte el vídeo &quot;[Introducción a Workspace e informes](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
 ### Creación de paneles publicitarios de Adobe
 
-Para obtener información sobre cómo realizar un seguimiento de los datos publicitarios de Adobe en relación con sus objetivos en Analysis Workspace, consulte el vídeo &quot;[Creación de paneles publicitarios de Adobe con Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+Para obtener información sobre cómo realizar un seguimiento de los datos publicitarios de Adobe en relación con sus objetivos en Analysis Workspace, consulte el vídeo &quot;[Creación de paneles publicitarios de Adobe con Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
 ### Uso del ID de publicidad de Adobe para el análisis de entrada al sitio
 
-Para ver cómo se puede crear un informe de entrada al sitio de publicidad de Adobe para supervisar las influencias de día de la semana, hora del día, navegador y geográficas, consulte el vídeo &quot;[Creación de informes de entrada al sitio de publicidad de Adobe](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+Para ver cómo se puede crear un informe de entrada al sitio de publicidad de Adobe para supervisar las influencias de día de la semana, hora del día, navegador y geográficas, consulte el vídeo &quot;[Creación de informes de entrada al sitio de publicidad de Adobe](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Vídeo: Introducción a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html)
+>* [Vídeo: Introducción a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
 >* [Requisitos previos e información clave para la implementación [!DNL Analytics for Advertising]](prerequisites.md)
 >* [ID de publicidad de Adobe utilizados por Analytics](ids.md)
 >* [Código JavaScript para Analytics for Advertising](/help/integrations/analytics/javascript.md)

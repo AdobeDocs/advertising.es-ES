@@ -2,8 +2,8 @@
 title: Información general sobre el envío de datos de exposición DSP medios a Adobe Audience Manager
 description: Aprenda a utilizar píxeles de evento de Audience Manager para capturar datos de nivel de impresión y de nivel de clic de campañas de DSP publicitarias
 feature: Integration with Adobe Audience Manager
-exl-id: 916b7deb-511e-4fbf-96d9-b274a48dc748
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%

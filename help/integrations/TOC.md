@@ -2,7 +2,8 @@
 user-guide-title: Integraciones con Adobe Experience Cloud
 user-guide-description: Obtenga información acerca las integraciones de Advertising DSP y Advertising Search con otros productos y servicios de Adobe Experience Cloud.
 breadcrumb-title: Integraciones con Experience Cloud
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+index: true
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 12%
@@ -43,4 +44,4 @@ ht-degree: 12%
       + [Casos de uso](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [Audience Analytics de Adobe para clientes publicitarios](/help/integrations/audience-manager/audience-analytics.md)
 + [Configuración de pruebas A/B en Adobe Target para anuncios de DSP](/help/integrations/target/overview-ab-tests.md)
-+ [Vídeos Tutorials sobre las integraciones de publicidad de Adobe](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Vídeos Tutorials sobre las integraciones de publicidad de Adobe](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
