@@ -2,13 +2,13 @@
 type: Documentation
 role: User, Admin
 cloud: Experience Cloud
-solution: Advertising Cloud
+solution: Advertising, Advertising Cloud
 product: advertising cloud
 user-guide-title: Guía de DSP de publicidad
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 5%
