@@ -2,8 +2,8 @@
 title: Crear una audiencia reutilizable
 description: Aprenda a crear audiencias reutilizables compuestas por segmentos de audiencia y otras audiencias guardadas.
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Puede guardar y administrar audiencias reutilizables, que son grupos de segmentos de audiencia e incluso otras audiencias guardadas, que puede utilizar como destinos o exclusiones para varias ubicaciones.
 
-1. En el menú principal, haga clic en **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**.
+1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]**.
 
@@ -62,9 +62,9 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 
       1. Copie la lógica de segmentos de la audiencia existente de cualquiera de las siguientes maneras:
 
-         * En la vista Todas las audiencias , mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * En la vista Todas las audiencias , mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * En la configuración de la audiencia existente, en la parte superior del panel lógico de segmento, haga clic en **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * En la configuración de la audiencia existente, en la parte superior del panel lógico de segmento, haga clic en **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * En un editor de texto, cree manualmente la lógica del segmento utilizando ID de segmento alfanuméricos y [Sintaxis booleana](audience-segment-logic-syntax.md)y cópielo en el portapapeles.
       1. Haga clic en **[!UICONTROL paste in an audience rule to begin building]**, pegue la lógica de segmento existente en el campo de entrada y, a continuación, haga clic en **[!UICONTROL Apply]**.

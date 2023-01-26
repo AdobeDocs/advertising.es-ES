@@ -2,8 +2,8 @@
 title: Archivar o desarchivar un paquete
 description: Aprenda a archivar o desarchivar un paquete.
 feature: DSP Packages
-exl-id: a8840f9e-e0ee-481d-80c2-66b56fc1882f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 12d1b498-2239-401a-8571-9210956e32b2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Puede desarchivar un paquete para restaurar su estado anterior en cualquier mome
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña para abrir el [!UICONTROL Packages] vista.
-1. Junto al nombre del paquete, haga clic en  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. Junto al nombre del paquete, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -31,7 +31,7 @@ Puede desarchivar un paquete para restaurar su estado anterior en cualquier mome
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña para abrir el [!UICONTROL Packages] vista.
-1. Junto al nombre del paquete, haga clic en  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Junto al nombre del paquete, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

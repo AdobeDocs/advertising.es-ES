@@ -2,10 +2,10 @@
 title: Crear una fuente de audiencias para activar las audiencias de origen
 description: Obtenga información sobre cómo crear una fuente para importar audiencias en su cuenta o en una cuenta de anunciante.
 feature: DSP Audiences
-exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Cree un origen para importar audiencias a su cuenta de DSP o a una cuenta de anu
 >
 >Después de crear un origen para la variable [!DNL Real-Time CDP], deberá activar su [!DNL Real-Time CDP] audiencias a través del Adobe Publicidad DSP destino dentro de [!DNL Real-Time CDP] para comenzar a importarlas. Consulte [los pasos del flujo de trabajo de activación](source-about.md#workflow-sources).
 
-1. En el menú principal, haga clic en **[!UICONTROL Audiences] > [!UICONTROL Sources (BETA)].
+1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
 
 1. Haga clic [!UICONTROL Add Source].
 
@@ -40,13 +40,13 @@ Cree un origen para importar audiencias a su cuenta de DSP o a una cuenta de anu
 
 1. En el Experience Platform, cree una conexión de destino de Advertising DSP utilizando la variable [!UICONTROL Source Key] que se generó en la configuración de origen de DSP.
 
-   Para obtener instrucciones sobre la activación de la conexión de destino de DSP, la selección de segmentos y el acceso a los permisos de control, consulte &quot;[Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+Para obtener instrucciones sobre la activación de la conexión de destino de DSP, la selección de segmentos y el acceso a los permisos de control, consulte &quot;[Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Configuración de fuente de audiencia](source-settings.md)
 >* [Acerca de la activación de segmentos autenticados desde fuentes de audiencia](source-about.md)
 >* [Activar segmentos autenticados de socios de ID duraderos](source-durable-id.md)<!-- title?-->
->* [Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* [Acerca de la gestión de público](/help/dsp/audiences/audience-about.md)
 

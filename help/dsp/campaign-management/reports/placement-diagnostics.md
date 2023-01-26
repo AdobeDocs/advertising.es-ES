@@ -2,8 +2,8 @@
 title: Ver los informes de diagnóstico de colocación
 description: Aprenda a diagnosticar problemas con la configuración de la ubicación y el ritmo.
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Las siguientes herramientas pueden ayudarle a diagnosticar problemas con la conf
    1. Abra la configuración de ubicación:
       1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
       1. Haga clic en el nombre de la campaña y, a continuación, haga clic en **[!UICONTROL Placements]**.
-      1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. En la esquina superior derecha, haga clic en ![Diagnósticos de ubicación](/help/dsp/assets/placement-diagnostics.png) o **[!UICONTROL Diagnostic]**.
 1. Realice una de las siguientes acciones:
    * Para ver el registro de cambios:

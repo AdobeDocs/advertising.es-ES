@@ -2,8 +2,8 @@
 title: Editar las cuentas con acceso a un acuerdo privado
 description: Aprenda a compartir y dejar de compartir un acuerdo privado con distintas cuentas.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -22,21 +22,21 @@ Puede dejar de compartir una operación con cuentas para eliminar las capacidade
 
 ## Uso compartido de un ID de acuerdo con cuentas
 
-1. En el menú principal, haga clic en **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. En la fila de acuerdo, haga clic en **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. En la fila de acuerdo, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. Para que cada cuenta comparta:
 
-   1. Introduzca la variable **[!UICONTROL Email Address]** para la cuenta con acceso a la operación.
+1. Introduzca la variable **[!UICONTROL Email Address]** para la cuenta con acceso a la operación.
 
-   1. Haga clic **[!UICONTROL Share]**.
+1. Haga clic **[!UICONTROL Share]**.
 
 ## Dejar de compartir un ID de acuerdo con cuentas
 
-1. En el menú principal, haga clic en **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. En la fila de acuerdo, haga clic en **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. En la fila de acuerdo, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. Al lado de la variable [!UICONTROL Account Email] valor, haga clic en **[!UICONTROL Unshare].**
 

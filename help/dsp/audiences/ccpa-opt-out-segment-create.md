@@ -2,10 +2,10 @@
 title: Creación e implementación de un segmento de exclusión de venta de CCPA
 description: Obtenga información sobre cómo crear e implementar un segmento para rastrear los ID de usuario de solicitudes de exclusión de venta de clientes.
 feature: CCPA, DSP Segments
-exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Una vez implementada la etiqueta de píxeles del segmento, la publicidad de Adob
 
 >[!NOTE]
 >
->* Para obtener información sobre cómo comunicar las solicitudes de exclusión de CCPA a Adobe de publicidad mediante la API de Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html).
+>* Para obtener información sobre cómo comunicar las solicitudes de exclusión de CCPA a Adobe de publicidad mediante la API de Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Para rastrear a los usuarios que visitan páginas web con fines no relacionados con el seguimiento de eventos de exclusión de CCPA, así como a los usuarios expuestos a anuncios de dispositivos de escritorio, móviles y CTV, cree un [segmento personalizado](/help/dsp/audiences/custom-segment-create.md).
 
 
@@ -38,7 +38,7 @@ Una vez implementada la etiqueta de píxeles del segmento, la publicidad de Adob
 
 1. Copie e implemente una etiqueta de píxeles para rastrear el segmento:
 
-   1. Volver a **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. Volver a **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. En la fila de segmento, mantenga el cursor sobre el nuevo segmento y haga clic en **[!UICONTROL Get pixel]**.
 
@@ -61,7 +61,7 @@ Una vez implementada la etiqueta de píxeles del segmento, la publicidad de Adob
 
 >[!MORELIKETHIS]
 >
->* [Soporte publicitario de Adobe para la Ley de Privacidad del Consumidor de California: Compatibilidad con la exclusión del consumidor](/help/privacy/ccpa-opt-out-of-sale.md)
+>* [Soporte publicitario de Adobe para la Ley de Privacidad del Consumidor de California: Compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Acerca de [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e informes](ccpa-opt-out-about.md)
 >* [Recuperar informes de exclusión de ventas de consumidores](ccpa-opt-out-segment-report-retrieve.md)
 >* [Crear e implementar un segmento personalizado](custom-segment-create.md)

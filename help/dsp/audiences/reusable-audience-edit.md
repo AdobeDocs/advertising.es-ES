@@ -2,10 +2,10 @@
 title: Editar una audiencia reutilizable
 description: Aprenda a editar una audiencia reutilizable.
 feature: DSP Audiences
-exl-id: 6a3145b9-2d30-4040-8893-0fb7b3f86597
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Cuando edita una audiencia que se utiliza en cualquier ubicación u otra audiencia reutilizable, los cambios se aplican inmediatamente a esas ubicaciones y audiencias.<!-- verify -->
 
-1. En el menú principal, haga clic en **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL Edit]**.
 
@@ -51,9 +51,9 @@ Cuando edita una audiencia que se utiliza en cualquier ubicación u otra audienc
 
       1. Copie la lógica de segmentos de la audiencia existente de cualquiera de las siguientes maneras:
 
-         * En la vista Todas las audiencias , mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * En la vista Todas las audiencias , mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * En la configuración de la audiencia existente, en la parte superior del panel lógico de segmento, haga clic en **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * En la configuración de la audiencia existente, en la parte superior del panel lógico de segmento, haga clic en **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * En un editor de texto, cree manualmente la lógica del segmento utilizando ID de segmento alfanuméricos y [Sintaxis booleana](audience-segment-logic-syntax.md)y cópielo en el portapapeles.
       1. Haga clic en **[!UICONTROL paste in an audience rule to begin building]**, pegue la lógica de segmento existente en el campo de entrada y, a continuación, haga clic en **[!UICONTROL Apply]**.

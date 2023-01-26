@@ -1,8 +1,8 @@
 ---
 title: Desinvitar a un usuario pendiente
 description: Obtenga información sobre cómo rescindir una invitación de usuario pendiente.
-exl-id: a67290f7-27ae-4891-a1d4-8283e8426f72
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Puede desinvitar a un usuario con una invitación pendiente. Al no invitar a un 
 
 1. Realice una de las siguientes acciones:
 
-   * En el menú principal, haga clic en **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * En el menú principal, haga clic en **[!UICONTROL Settings]>[!UICONTROL Account]** y, a continuación, haga clic en **[!UICONTROL Edit users]**.
+   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y, a continuación, haga clic en **[!UICONTROL Edit users]**.
 
 1. En el **[!UICONTROL Invitations]** , haga clic en **[!UICONTROL X]** junto a la invitación.
 

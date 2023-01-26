@@ -2,8 +2,8 @@
 title: Exportar detalles sobre una audiencia reutilizable
 description: Obtenga información sobre cómo ver la configuración, el tamaño de la audiencia y las ubicaciones de destino para una audiencia reutilizable.
 feature: DSP Audiences
-exl-id: a4c946f1-8968-4e55-9935-76e6376561f1
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puede descargar un [!DNL Microsoft Excel] archivo de hoja de cálculo con la regla de configuración de audiencia, el número de miembros de audiencia activos y totales por tipo de dispositivo, detalles sobre cada segmento en la audiencia y todas las ubicaciones que se dirigen a la audiencia.
 
-1. En el menú principal, haga clic en **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL Export XLS]**.
 

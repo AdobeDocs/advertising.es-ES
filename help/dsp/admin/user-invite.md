@@ -1,8 +1,8 @@
 ---
 title: Invitar a un nuevo usuario a su cuenta de organización
 description: Obtenga información sobre cómo invitar a un nuevo usuario a unirse a la cuenta.
-exl-id: 5394d4e8-e081-4db4-909b-38bd366ce4fc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -19,9 +19,9 @@ Si es necesario, puede desinvitar a un usuario con una invitación pendiente.
 
 1. Realice una de las siguientes acciones:
 
-   * En el menú principal, haga clic en **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * En el menú principal, haga clic en **[!UICONTROL Settings]>[!UICONTROL Account]** y, a continuación, haga clic en **[!UICONTROL Edit users]**.
+   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y, a continuación, haga clic en **[!UICONTROL Edit users]**.
 
 1. En el **[!UICONTROL Invitations]** , haga clic en **[!UICONTROL Send Invite]**.
 

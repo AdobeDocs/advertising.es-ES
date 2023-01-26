@@ -2,10 +2,10 @@
 title: Comprobar el estado de las publicidades para un [!DNL [!DNL FreeWheel]] Oferta PG
 description: Obtenga información sobre cómo encontrar el estado de las publicidades para [!DNL Freewheel] ofertas garantizadas mediante programación.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Para cualquier pregunta o problema adicional con el reenvío, póngase en contac
 
 1. En el submenú, haga clic en **[!UICONTROL Ads]**.
 
-1. Junto al nombre del anuncio, haga clic en  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
+1. Junto al nombre del anuncio, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
 
-1. (Opcional) Para volver a enviar una publicidad para su aprobación, mantenga el cursor sobre la fila del anuncio y haga clic en **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Opcional) Para volver a enviar una publicidad para su aprobación, mantenga el cursor sobre la fila del anuncio y haga clic en **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 ## Compruebe el estado en la sección [!UICONTROL Deals] Ver
 
-1. En el menú principal, haga clic en **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Realice una de las siguientes acciones:
 
@@ -44,7 +44,7 @@ Para cualquier pregunta o problema adicional con el reenvío, póngase en contac
 
    Para los envíos fallidos, la variable [!UICONTROL API] La columna Respuesta indica el error. Para obtener una lista completa de los códigos de error de los envíos fallidos y los pasos siguientes para corregirlos, consulte &quot;[Códigos de error para [!DNL FreeWheel] Envíos de publicidad](freewheel-error-codes.md).&quot;
 
-1. (Opcional) Para volver a enviar una publicidad para su aprobación, mantenga el cursor sobre la fila del anuncio y haga clic en **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Opcional) Para volver a enviar una publicidad para su aprobación, mantenga el cursor sobre la fila del anuncio y haga clic en **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 >[!MORELIKETHIS]
 >

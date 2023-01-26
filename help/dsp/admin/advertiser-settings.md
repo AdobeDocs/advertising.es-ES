@@ -1,7 +1,7 @@
 ---
 title: Configuración de la cuenta del anunciante
 description: Consulte las descripciones de la configuración del anunciante disponible.
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Si selecciona *[!UICONTROL Other]*, el anunciante no podrá acceder a DSP [!DNL On Demand Inventory].
 
-**[!UICONTROL Advertiser URL]:** La página principal del anunciante o la URL del sitio web principal (comenzando por `http://` o `https://`).
+**[!UICONTROL Advertiser URL]:** La página de inicio del anunciante o la URL del sitio web principal (comenzando por `http://` o `https://`).
 
 **[!UICONTROL Share all private exchange feeds into this advertiser]:** (Solo cuentas de anunciante nuevas) Pone a disposición del anunciante todas las fuentes de intercambio privadas configuradas para la cuenta de DSP de la organización.
 
@@ -38,9 +38,9 @@ Los anunciantes con productos adicionales de Adobe Experience Cloud pueden compa
 
 (Opcional) Productos de Experience Cloud adicionales vinculados a la cuenta de DSP. Los productos deben estar asociados con el mismo ID de organización de Experience Cloud que se proporciona en la variable [!UICONTROL Adobe IMS IDs] para obtener más información.
 
-**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Adobe Advertising Search] o que utilizan píxeles de conversión de anuncios de Adobe) A [!DNL Search] cuenta con la que DSP intercambiar datos de atribución.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Adobe Advertising Search] o que utilizan píxeles de conversión de anuncios de Adobe) A [!DNL Search] cuenta con la que DSP intercambiar datos de atribución.
 
-**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (Anunciantes con Adobe Analytics; opcional; solo aplicable a los datos recopilados mediante las etiquetas de seguimiento de conversión de publicidad de Adobe que incluyen una [!DNL EF Redirect] y solo token) Uno o más [!DNL Analytics] grupos de informes a los que DSP enviarán datos que recopila de editores y socios de suministro. Analytics también enviará los datos que recopila del sitio del cliente a DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Anunciantes con Adobe Analytics; opcional; solo aplicable a los datos recopilados mediante las etiquetas de seguimiento de conversión de publicidad de Adobe que incluyen una [!DNL EF Redirect] y solo token) Uno o más [!DNL Analytics] grupos de informes a los que DSP enviarán datos que recopila de editores y socios de suministro. Analytics también enviará los datos que recopila del sitio del cliente a DSP.
 
 Para que los datos aparezcan en los grupos de informes, la variable [!DNL Search] configuración de nivel de anunciante en &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; debe estar habilitado. Además, el [!DNL Analytics] debe configurarse para recibir datos de la publicidad de Adobe.
 
@@ -50,7 +50,7 @@ Para que los datos aparezcan en los grupos de informes, la variable [!DNL Search
 
 Para obtener más información sobre la integración con [!DNL Analytics], consulte &quot;[Información general sobre [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (Anunciantes con Adobe Audience Manager o Adobe Analytics; opcional) Un Audience Manager o [!DNL Analytics] cuenta desde la cual DSP extraerá metadatos de segmento, datos de jerarquía y datos de audiencia únicos para todas las audiencias de Adobe del anunciante. Esto incluye datos para:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Anunciantes con Adobe Audience Manager o Adobe Analytics; opcional) Un Audience Manager o [!DNL Analytics] cuenta desde la cual DSP extraerá metadatos de segmento, datos de jerarquía y datos de audiencia únicos para todas las audiencias de Adobe del anunciante. Esto incluye datos para:
 
 * segmentos del Audience Manager
 * [!DNL Analytics] segmentos que se publican en Adobe Experience Cloud

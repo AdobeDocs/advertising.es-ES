@@ -2,8 +2,8 @@
 title: Volver a solicitar [!DNL On Demand] Ofertas de inventario Premium
 description: Obtenga información sobre cómo volver a solicitar [!DNL On Demand] tratos que anteriormente se negaron.
 feature: DSP On Demand Inventory
-exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Una vez que el acuerdo es [aprobado](/help/dsp/inventory/on-demand-inventory-vie
 
 1. Confirme que la categoría del anunciante para la cuenta del anunciante aplicable sea correcta:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Settings]> [!UICONTROL Advertisers].**
+   1. En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
 
    1. Mantenga el cursor sobre la fila del anunciante y haga clic en **[!UICONTROL Edit]**.
 
@@ -34,7 +34,7 @@ Una vez que el acuerdo es [aprobado](/help/dsp/inventory/on-demand-inventory-vie
 
 1. Vuelva a solicitar el inventario:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+   1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
    1. Filtre las ofertas disponibles para incluir las ofertas que ha solicitado (**[!UICONTROL Currently subscribed to]**)**.
 

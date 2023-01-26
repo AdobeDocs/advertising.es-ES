@@ -2,8 +2,7 @@
 title: Edición de las etiquetas de atributo de un ID de oferta
 description: Obtenga información sobre cómo crear y editar las etiquetas de atributos para un ID de oferta.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9a0190e7-26d0-4236-abbb-f1264b5d61e9
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -14,7 +13,7 @@ ht-degree: 0%
 
 Puede crear y asignar etiquetas a los ID de acuerdo para agrupar acuerdos similares. Al crear o editar una ubicación, puede buscar el inventario disponible por nombre de etiqueta.
 
-1. En el menú principal, haga clic en **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. En la fila de acuerdo, haga clic en ![Menú Opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
 

@@ -2,8 +2,8 @@
 title: Suscribirse y solicitar acceso a [!DNL On Demand] Ofertas de inventario Premium
 description: Obtenga información sobre cómo suscribirse a y solicitar acceso a,[!DNL On Demand] ofertas.
 feature: DSP On Demand Inventory
-exl-id: e66e5bad-526e-4b71-8072-332dd173f105
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Una vez que el acuerdo es [aprobado](/help/dsp/inventory/on-demand-inventory-vie
 
 ## Suscripción a todos los acuerdos de un publicador
 
-1. En el menú principal, haga clic en **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Opcional) Filtre las ofertas o editores disponibles según cualquiera de los siguientes criterios:
 
@@ -36,7 +36,8 @@ Una vez que el acuerdo es [aprobado](/help/dsp/inventory/on-demand-inventory-vie
 
    * Ofertas de **[!UICONTROL TV Broadcasters]**
 
-   * Ofertas de editores que aceptan creativos de &quot;sintonización&quot; (**[!UICONTROL Tune-In]**)
+   * Ofertas de editores que aceptan creativos de &quot;sintonización&quot;
+      **[!UICONTROL Tune-In]**)
 
    * Ofertas para las que el editor ha aplicado más de 21 objetivos y acepta anuncios en alcohol (**[!UICONTROL Legal drinking age]**)
 
@@ -48,7 +49,7 @@ Una vez que el acuerdo es [aprobado](/help/dsp/inventory/on-demand-inventory-vie
 
 ## Solicitud de acceso a ofertas individuales
 
-1. En el menú principal, haga clic en **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Opcional) Filtre las ofertas o editores disponibles según cualquiera de los siguientes criterios:
 
@@ -64,7 +65,8 @@ Una vez que el acuerdo es [aprobado](/help/dsp/inventory/on-demand-inventory-vie
 
    * Ofertas de **[!UICONTROL TV Broadcasters]**
 
-   * Ofertas de editores que aceptan creativos de &quot;sintonización&quot; (**[!UICONTROL Tune-In]**)
+   * Ofertas de editores que aceptan creativos de &quot;sintonización&quot;
+      **[!UICONTROL Tune-In]**)
 
    * Ofertas para las que el editor ha aplicado más de 21 objetivos y acepta anuncios en alcohol (**[!UICONTROL Legal drinking age]**)
 

@@ -2,10 +2,10 @@
 title: Configuración de colocación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
-exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3418'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Incluya un código postal por línea o introduzca varios valores separados por c
 
    Puede buscar en la lista por palabra clave, clave, ID de oferta o etiqueta personalizada.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Todo [premium, no garantizado [!UICONTROL On Demand] inventario](/help/dsp/inventory/on-demand-inventory-about.md) (o [!UICONTROL On Demand] [!DNL Roku] ofertas para [!DNL Roku] ubicaciones) a las que se ha suscrito [!DNL DSP]. Puede incluir y excluir [!UICONTROL On Demand] inventario.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Todo [premium, no garantizado [!UICONTROL On Demand] inventario](/help/dsp/inventory/on-demand-inventory-about.md) (o [!UICONTROL On Demand] [!DNL] Ofertas de Roku para [!DNL Roku] ubicaciones) a las que se ha suscrito [!DNL DSP]. Puede incluir y excluir [!UICONTROL On Demand] inventario.
 
    Puede ver la lista por fuente o por fuente. Cuando ve la lista por fuente, puede buscar por nombre de fuente, clave de fuente o una región del editor, etiqueta de categoría o etiqueta característica seleccionada.
 
@@ -188,14 +188,14 @@ Para especificar el objetivo de inventario:
    1. Active la casilla de verificación situada junto al nombre del tipo de inventario.
    1. (Opcional) Cambie las fuentes para incluir:
       1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] y [!UICONTROL On Demand] inventory) Haga clic en **[!UICONTROL View by Source]** o **[!UICONTROL View by Feed]** para cambiar cómo se muestran las fuentes.
+      1. ([!UICONTROL Public] y [!UICONTROL On Demand] inventory) Haga clic en *[!UICONTROL *View by Source]** o **[!UICONTROL View by Feed]** para cambiar cómo se muestran las fuentes.
       1. (Cuando corresponda) Filtre el inventario según sea necesario.
       1. Especifique las fuentes que desea incluir y excluir:
          * Para incluir un [!UICONTROL Public] o [!UICONTROL On Demand] fuente, haga clic en **[!UICONTROL Include]** junto al nombre de origen.
          * Para incluir [!UICONTROL Private] fuentes:
             * Para incluir todo el inventario en una oferta, haga clic en **[!UICONTROL Include all]** junto al nombre de la oferta.
             * Para incluir un origen de inventario individual, expanda el nombre de la oferta y, a continuación, haga clic en la casilla de verificación situada junto al nombre del origen.
-         * Para excluir un [!UICONTROL Public] o [!UICONTROL On source], haga clic en **[!UICONTROL Exclude]** junto al nombre de origen.
+         * Para excluir un [!UICONTROL Public] o [!UICONTROL On ] fuente, haga clic en **[!UICONTROL Exclude]** junto al nombre de origen.
    1. (Opcional) Para descargar un archivo CSV con la información de objetivo en la ubicación Descargas del explorador, haga clic en **[!UICONTROL Save & Export]**.
    1. Haga clic **[!UICONTROL Save]**.
 
@@ -311,7 +311,6 @@ Si lo desea, puede exportar la lista de sitios bloqueados y con objetivo como ar
 **[!UICONTROL Secondary Cap]:** (Opcional; disponible al incluir un [!UICONTROL Placement Cap]) Una limitación adicional dentro de los límites del límite de colocación principal. Seleccione el número de impresiones y el período de tiempo (por ejemplo, 3 por 12 horas).
 
 **[!UICONTROL Day Parting]:** (Opcional) Días específicos de la semana y hora del día en que se pueden ejecutar los anuncios. Para especificar intervalos de partición de días:
-
 1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
 1. Seleccione la zona horaria correspondiente.
 1. Especifique los intervalos:
@@ -448,7 +447,7 @@ Para especificar el objetivo de temas:
          * **[!UICONTROL Notes]:** (Opcional) Una descripción u otra información sobre el píxel.
       1. Haga clic **[!UICONTROL Create and attach]**.
       1. Implemente el píxel de conversión en las páginas web relevantes:
-         1. En el menú principal, vaya a **[!UICONTROL Resources]>[!UICONTROL Conversion pixels]**.
+         1. En el menú principal, vaya a **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**.
          1. En la fila de píxeles, haga clic en **[!UICONTROL edit]**.
          1. Copie los valores en la [!UICONTROL HTML Tag] y [!UICONTROL Flash Tag] , según sea necesario, para proporcionar al anunciante o al contacto del sitio web.
 

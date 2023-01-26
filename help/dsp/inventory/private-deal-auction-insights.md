@@ -2,8 +2,8 @@
 title: Ver perspectivas de subasta para un acuerdo privado
 description: Aprenda a utilizar perspectivas de subasta para analizar la composición de las operaciones de acuerdo con el contrato privado.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 subastas Insights es una herramienta de resolución de problemas que le permite analizar la composición de las ofertas privadas garantizadas y no garantizadas. Con las visualizaciones de datos, esta herramienta muestra la tendencia y las proporciones relativas de los valores recibidos para [atributos de subasta clave](#auction-attributes) en un período de tiempo específico.
 
-1. En el menú principal, haga clic en **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. En la fila de acuerdo, haga clic en  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
+1. En la fila de acuerdo, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->Las perspectivas de subasta también están disponibles a través de la colocación [!UICONTROL Inspector] herramienta. Para abrirlas, [abra la ubicación [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) a [!UICONTROL Inventory tab]y, a continuación, haga clic en **[!UICONTROL ...]>[!UICONTROL Auction Insights]** en la fila de acuerdo.
+>Las perspectivas de subasta también están disponibles a través de la colocación [!UICONTROL Inspector] herramienta. Para abrirlas, [abra la ubicación [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) a [!UICONTROL Inventory tab]y, a continuación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** en la fila de acuerdo.
 
 ## Atributos de subasta {#auction-attributes}
 

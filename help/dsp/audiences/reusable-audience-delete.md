@@ -2,8 +2,8 @@
 title: Eliminar una audiencia reutilizable
 description: Obtenga información sobre cómo eliminar una audiencia reutilizable.
 feature: DSP Audiences
-exl-id: 037f85b1-8676-4ac7-b1a2-ae7d5550b377
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puede eliminar una audiencia que no se utilice en ninguna ubicación u otra audi
 
 Si se utiliza una audiencia, tendrá la opción de exportar una [!DNL Microsoft Excel] hoja de cálculo que muestra todas las ubicaciones y audiencias que utilizan la audiencia.
 
-1. En el menú principal, haga clic en **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL Delete]**.
 

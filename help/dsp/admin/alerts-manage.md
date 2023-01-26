@@ -1,8 +1,8 @@
 ---
 title: Administrar suscripciones de alertas
 description: Obtenga información sobre cómo administrar alertas de correo electrónico automáticas.
-exl-id: 415c3c60-66dc-436f-b731-78970e0df77c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Agregar una suscripción
 
-1. En el menú principal, haga clic en **[!UICONTROL Settings]>[!UICONTROL Notifications]**.
+1. En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Notifications]**.
 
 1. En la parte superior de la lista Notificaciones, haga clic en **[!UICONTROL Add Subscription]**.
 

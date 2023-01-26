@@ -2,8 +2,8 @@
 title: Ver el estado de su [!DNL On Demand] Solicitudes de ofertas y suscripciones
 description: Obtenga información sobre cómo ver el estado de su [!DNL On Demand] gestionar solicitudes y suscripciones.
 feature: DSP On Demand Inventory
-exl-id: 8dd6d922-c4a3-4ddb-bca9-f6f782da1320
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Después de solicitar un acuerdo individual o suscribirse a todas las ofertas de un editor, compruebe si el editor ha aprobado o rechazado cada acuerdo para cada anunciante de su cuenta.
 
-1. En el menú principal, haga clic en **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 1. Filtre las ofertas disponibles para incluir las ofertas que ha solicitado o suscrito a (**[!UICONTROL Currently subscribed to]**)**.
 1. Realice una de las siguientes acciones:
    * Para ver las ofertas de la [!UICONTROL Deal] ver, haga clic en **[!UICONTROL Deal view]**.

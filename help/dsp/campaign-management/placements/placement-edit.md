@@ -2,10 +2,10 @@
 title: Editar una colocación
 description: Aprenda a editar una colocación.
 feature: DSP Placements
-exl-id: 135adad3-0bc0-4402-ac4a-a4fc71f78edf
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Puede editar la configuración de una sola ubicación o de varias ubicaciones a 
 
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 
-1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Edite el [configuración de ubicación](placement-settings.md).
 
@@ -88,5 +88,5 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >* [Configuración de colocación](placement-settings.md)
 >* [Métodos abreviados del teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Acerca de la corrección de la configuración de colocación de una campaña utilizando hojas de cálculo](/help/dsp/campaign-management/qa/qa-about.md)
->* [Vídeo: Editar ubicaciones mediante herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vídeo: Editar ubicaciones mediante herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 
