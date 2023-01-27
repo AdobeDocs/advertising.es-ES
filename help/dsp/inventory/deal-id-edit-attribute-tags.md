@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear y editar las etiquetas de at
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo configurar una prueba A/B en [!DNL
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

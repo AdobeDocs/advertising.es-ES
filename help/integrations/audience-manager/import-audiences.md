@@ -5,7 +5,7 @@ feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

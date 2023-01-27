@@ -3,9 +3,9 @@ title: Crear un objetivo personalizado
 description: Crear un objetivo personalizado
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Para crear un objetivo personalizado, la cuenta de DSP debe estar vinculada a un
 >
 >Consulte la [prácticas recomendadas para crear objetivos personalizados](custom-goal-best-practices.md) para obtener sugerencias sobre cómo configurar los objetivos personalizados.
 
-1. Iniciar sesión [!DNL Adobe Advertising Search] at (empresas estadounidenses) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) o (empresas de todos los demás países) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. Iniciar sesión [!DNL Adobe Advertising Search] at (usuarios de Norteamérica) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) o (todos los demás usuarios) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Asegúrese de que las métricas que desea incluir en su objetivo se hayan rastreado, estén disponibles en el producto e incluyan un nombre para mostrar:
    1. En el menú principal, haga clic en **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. Busque la métrica y asegúrese de que **[!UICONTROL Show in UI and Reports]** está habilitado para la métrica.
