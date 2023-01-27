@@ -3,7 +3,7 @@ title: Duplicar una campaña
 description: Obtenga información sobre cómo duplicar una campaña.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Consulte &quot;[Novedades no duplicadas](#campaign-not-duplicated)&quot; para ob
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-1. Junto al nombre de la campaña, haga clic en **... >[!UICONTROL Duplicate]**.
+1. Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. Especifique la nueva configuración de campaña:
 

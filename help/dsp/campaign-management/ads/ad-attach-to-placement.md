@@ -3,7 +3,7 @@ title: Adjuntar una publicidad a una colocación
 description: Aprenda a adjuntar una publicidad a una ubicación.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 1. En el submenú, haga clic en **[!UICONTROL Ads]**.
 
-1. Junto al nombre del anuncio, haga clic en  **... >[!UICONTROL Add to Placements]**.
+1. Junto al nombre del anuncio, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
 1. En la pantalla Colocar publicidad , realice una de las acciones siguientes:
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 
-1. Junto al nombre de la ubicación, haga clic en  **... > [!UICONTROL Attach Ads].**
+1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
 1. En el [!UICONTROL Add Ad to Placement] , realice una de las acciones siguientes:
 
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. Haga clic **[!UICONTROL Select an Ad].**
 
       1. Especifique las publicidades:
+
          * Para agregar una publicidad a la vez:
 
             1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select].**

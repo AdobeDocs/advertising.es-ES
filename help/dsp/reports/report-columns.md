@@ -3,9 +3,9 @@ title: Columnas de informe disponibles
 description: Consulte las descripciones de las columnas disponibles en los informes personalizados.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | La suma de [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)]y [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | El porcentaje de vistas que vieron el anuncio en su totalidad. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Número de vistas que vieron el anuncio en su totalidad. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | 100 % de finalización visible (%)] | El porcentaje de impresiones visibles[!UICONTROL que vio el anuncio en su totalidad. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | El porcentaje de impresiones visibles que vieron el anuncio en su totalidad. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completion Rate] | El porcentaje de vistas que vieron al menos un cuartil del anuncio. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completions] | Número de vistas que vieron al menos un cuartil del anuncio. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completion Rate] | El porcentaje de vistas que vieron al menos dos cuartiles del anuncio. |

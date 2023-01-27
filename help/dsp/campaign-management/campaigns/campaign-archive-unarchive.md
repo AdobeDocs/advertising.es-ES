@@ -3,7 +3,7 @@ title: Archivar o desarchivar una campaña
 description: Obtenga información sobre cómo archivar o desarchivar una campaña.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Puede desarchivar una campaña para restaurar su estado anterior en cualquier mo
 ## Archivar una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
-1. Junto al nombre de la campaña, haga clic en  **... >[!UICONTROL Archive]**.
+1. Junto al nombre de la campaña, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -29,7 +29,7 @@ Puede desarchivar una campaña para restaurar su estado anterior en cualquier mo
 ## Desarchivar una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
-1. Junto al nombre de la campaña, haga clic en  **... >[!UICONTROL Unarchive]**.
+1. Junto al nombre de la campaña, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

@@ -3,7 +3,7 @@ title: Enumerar las ubicaciones asociadas a una publicidad
 description: Obtenga información sobre cómo ver las ubicaciones asociadas a una publicidad.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Vea una lista de ubicaciones asociadas con una publicidad para ver los datos de 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Ads]**.
-1. Junto al nombre del anuncio, haga clic en  **... >[!UICONTROL See placements]**.
+1. Junto al nombre del anuncio, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >

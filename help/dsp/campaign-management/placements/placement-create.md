@@ -3,9 +3,9 @@ title: Crear una colocación
 description: Aprenda a crear una colocación.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 
       1. Reduzca la audiencia. Esto incluye la selección de segmentos de audiencia para dirigirse dentro de la ubicación.
 
-         Para [!DNL] Colocaciones Roku, puede aprovechar [La audiencia única de DSP coincide con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) al incluir uno o más segmentos de audiencia que se puedan comparar con el [!DNL Roku] conjunto de datos determinísticos (incluido).
+         Para [!DNL Roku] ubicaciones, puede aprovechar [La audiencia única de DSP coincide con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) al incluir uno o más segmentos de audiencia que se puedan comparar con el [!DNL Roku] conjunto de datos determinísticos (incluido).
    1. (Para campañas con segmentación entre dispositivos a nivel de personas; (opcional) cuando la ubicación se dirige a una o más audiencias específicas, habilite la segmentación entre dispositivos basada en personas para la ubicación.
 
       La segmentación entre dispositivos basada en personas la proporciona [!DNL LiveRamp] utilizando solo datos de EE. UU. El servicio está disponible para todos los anunciantes a un CPM de 0,35 $ para impresiones que se entregan utilizando la variable [!DNL LiveRamp] gráfico de dispositivos (es decir, para dispositivos no encontrados dentro de los segmentos de audiencia de destino).
@@ -73,56 +73,56 @@ ht-degree: 1%
    1. Haga clic **[!UICONTROL Attach an ad]**.
 
    1. Realice una de las siguientes acciones:
-   * Para crear una publicidad nueva:
 
-      1. Haga clic **[!UICONTROL Create a New Ad].**
+      * Para crear una publicidad nueva:
 
-      1. Especifique la configuración de publicidad para [anuncios de audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV conectada](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [anuncios en pantalla](/help/dsp/campaign-management/ads/ad-settings-display.md), [anuncios móviles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [anuncios nativos](/help/dsp/campaign-management/ads/ad-settings-native.md), [anuncios previos a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)o [anuncios universales en vídeo](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+         1. Haga clic **[!UICONTROL Create a New Ad].**
 
-      1. Haga clic **[!UICONTROL Save & Submit for Review]**.
+         1. Especifique la configuración de publicidad para [anuncios de audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV conectada](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [anuncios en pantalla](/help/dsp/campaign-management/ads/ad-settings-display.md), [anuncios móviles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [anuncios nativos](/help/dsp/campaign-management/ads/ad-settings-native.md), [anuncios previos a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)o [anuncios universales en vídeo](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
-      1. (Opcional) Para cada publicidad adicional que desee crear para la ubicación, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita los pasos del 1 al 3.
+         1. Haga clic **[!UICONTROL Save & Submit for Review]**.
 
-      1. Si no adjunta ninguna publicidad existente, haga clic en **[!UICONTROL I'm done for now]**.
-   * Para adjuntar anuncios existentes en la campaña:
+         1. (Opcional) Para cada publicidad adicional que desee crear para la ubicación, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita los pasos del 1 al 3.
 
-      1. Haga clic **[!UICONTROL Select an Ad]**.
+         1. Si no adjunta ninguna publicidad existente, haga clic en **[!UICONTROL I'm done for now]**.
+      * Para adjuntar anuncios existentes en la campaña:
 
-      1. Realice una de las siguientes acciones:
-
-         * Para agregar una publicidad a la vez:
-
-            1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select].**
-
-            1. (Opcional) Para cada publicidad adicional que desee adjuntar, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita el proceso.
-         * Para agregar hasta 20 anuncios a la vez:
-
-            1. Seleccione la casilla de verificación situada encima de la lista de anuncios.
-
-            1. Seleccione la casilla de verificación situada junto a cada publicidad que desee agregar.
-
-            1. Haga clic **[!UICONTROL Attach]**.
-
-            1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select]**.
-      1. (Opcional) Para anular el periodo de vuelo predeterminado y la rotación de anuncios para anuncios específicos en la ubicación:
-
-         1. Haga clic **[!UICONTROL Custom Schedule Ads]**.
+         1. Haga clic **[!UICONTROL Select an Ad]**.
 
          1. Realice una de las siguientes acciones:
 
-            * Para añadir un vuelo, haga clic en **[!UICONTROL Add Flight]** y, a continuación, especifique la fecha de inicio y la fecha de finalización.
+            * Para agregar una publicidad a la vez:
 
-            * Para añadir un vuelo existente a un anuncio, haga clic en **[!UICONTROL +]** en la fila de publicidad de la columna &quot;flight&quot;.
+               1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select].**
 
-            * Para eliminar un vuelo existente de un anuncio, haga clic en **[!UICONTROL x]** en la fila de publicidad de la columna &quot;flight&quot;.
+               1. (Opcional) Para cada publicidad adicional que desee adjuntar, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita el proceso.
+            * Para agregar hasta 20 anuncios a la vez:
 
-            * (Cuando varios anuncios tengan el mismo vuelo) Para girar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, introduzca el peso relativo por el que debe rotar cada anuncio, como porcentaje.
+               1. Seleccione la casilla de verificación situada encima de la lista de anuncios.
 
-               El peso total debe ser igual a 100.
-         1. En la esquina superior derecha, haga clic en **[!UICONTROL Continue]**.
+               1. Seleccione la casilla de verificación situada junto a cada publicidad que desee agregar.
 
-         1. Revise los detalles del vuelo y haga clic en **[!UICONTROL Save & Finish]**.
+               1. Haga clic **[!UICONTROL Attach]**.
 
+               1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select]**.
+         1. (Opcional) Para anular el periodo de vuelo predeterminado y la rotación de anuncios para anuncios específicos en la ubicación:
+
+            1. Haga clic **[!UICONTROL Custom Schedule Ads]**.
+
+            1. Realice una de las siguientes acciones:
+
+               * Para añadir un vuelo, haga clic en **[!UICONTROL Add Flight]** y, a continuación, especifique la fecha de inicio y la fecha de finalización.
+
+               * Para añadir un vuelo existente a un anuncio, haga clic en **[!UICONTROL +]** en la fila de publicidad de la columna &quot;flight&quot;.
+
+               * Para eliminar un vuelo existente de un anuncio, haga clic en **[!UICONTROL x]** en la fila de publicidad de la columna &quot;flight&quot;.
+
+               * (Cuando varios anuncios tengan el mismo vuelo) Para girar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, introduzca el peso relativo por el que debe rotar cada anuncio, como porcentaje.
+
+                  El peso total debe ser igual a 100.
+            1. En la esquina superior derecha, haga clic en **[!UICONTROL Continue]**.
+
+            1. Revise los detalles del vuelo y haga clic en **[!UICONTROL Save & Finish]**.
 
 
 
@@ -137,7 +137,6 @@ ht-degree: 1%
 >* [Ver el registro de cambios de una colocación](placement-change-log.md)
 >* [Configuración de colocación](placement-settings.md)
 >* [Métodos abreviados del teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-
-   >*[Resolución de problemas del rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Resolución de problemas del rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
 >* [Vídeo: Cómo crear una colocación de visualización estándar](https://video.tv.adobe.com/v/340454)
 

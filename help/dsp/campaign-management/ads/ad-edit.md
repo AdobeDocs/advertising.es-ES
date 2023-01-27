@@ -3,7 +3,7 @@ title: Editar una publicidad
 description: Aprenda a editar una publicidad.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. En el submenú, haga clic en **[!UICONTROL Ads]**.
 
-1. Junto al nombre del anuncio, haga clic en  **... >[!UICONTROL Edit]**.
+1. Junto al nombre del anuncio, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
 1. Editar la configuración de publicidad para [anuncios de audio](ad-settings-audio.md), [TV conectada](ad-settings-connected-tv.md), [anuncios en pantalla](ad-settings-display.md), [anuncios móviles](ad-settings-mobile.md), [anuncios nativos](ad-settings-native.md), [anuncios previos a la emisión](ad-settings-pre-roll.md)o [anuncios universales en vídeo](ad-settings-universal-video.md).
 
