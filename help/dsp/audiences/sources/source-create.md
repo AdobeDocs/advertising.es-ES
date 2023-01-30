@@ -3,7 +3,7 @@ title: Crear una fuente de audiencias para activar las audiencias de origen
 description: Obtenga información sobre cómo crear una fuente para importar audiencias en su cuenta o en una cuenta de anunciante.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Cree un origen para importar audiencias a su cuenta de DSP o a una cuenta de anu
 
 1. En el Experience Platform, cree una conexión de destino de Advertising DSP utilizando la variable [!UICONTROL Source Key] que se generó en la configuración de origen de DSP.
 
-   Para obtener instrucciones sobre la activación de la conexión de destino de DSP, la selección de segmentos y el acceso a los permisos de control, consulte &quot;[Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
+   Para obtener instrucciones sobre la activación de la conexión de destino de DSP, la selección de segmentos y el acceso a los permisos de control, consulte &quot;[Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Configuración de fuente de audiencia](source-settings.md)
 >* [Acerca de la activación de segmentos autenticados desde fuentes de audiencia](source-about.md)
 >* [Activar segmentos autenticados de socios de ID duraderos](source-durable-id.md)<!-- title?-->
->* [Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
+>* [Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Acerca de la gestión de público](/help/dsp/audiences/audience-about.md)
 
