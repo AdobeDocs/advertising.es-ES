@@ -2,9 +2,9 @@
 title: Configuración de pruebas A/B para publicidad de Adobe en Adobe Target
 description: Obtenga información sobre cómo configurar una prueba A/B en [!DNL Target] para su DSP y [!DNL Search] anuncios.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1644'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Las siguientes instrucciones destacan la información relativa al caso de uso DS
 
    >[!NOTE]
    >
-   >Puede usar varias direcciones URL para probar la entrada al sitio de visualización. Para obtener más información, consulte &quot;[Actividad de varias páginas](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Puede identificar fácilmente las entradas principales por dirección URL de la página creando una [Informe de entrada al sitio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) en Analytics.
+   >Puede usar varias direcciones URL para probar la entrada al sitio de visualización. Para obtener más información, consulte &quot;[Actividad de varias páginas](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Puede identificar fácilmente las entradas principales por dirección URL de la página creando una [Informe de entrada al sitio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) en Analytics.
 
 1. En el **Objetivo** , introduzca la métrica de éxito de la prueba.
 
