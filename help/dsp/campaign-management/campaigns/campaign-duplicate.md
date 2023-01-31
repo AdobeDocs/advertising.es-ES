@@ -3,9 +3,9 @@ title: Duplicar una campaña
 description: Obtenga información sobre cómo duplicar una campaña.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -55,5 +55,6 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 >* [Acerca de Campaign Management](campaign-about.md)
 >* [Creación de una campaña](campaign-create.md)
 >* [Editar una campaña](campaign-edit.md)
+>* [Ver el registro de cambios de una campaña](campaign-change-log.md)
 >* [Configuración de campaña](campaign-settings.md)
 
