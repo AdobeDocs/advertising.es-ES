@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising, Advertising Cloud
 product: advertising cloud
-user-guide-title: Guía de DSP de publicidad
+user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 5%
+source-wordcount: '879'
+ht-degree: 6%
 
 ---
 
 
-# Guía de DSP de publicidad {#dsp}
+# Guía de Advertising DSP {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -106,8 +106,8 @@ ht-degree: 5%
          + [Filtrar datos de campaña](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [Ordenar una columna](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [Administrar visualizaciones de datos](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + Corrección de la configuración de colocación de una campaña mediante hojas de cálculo {#qa-spreadsheet}
-      + [Acerca de la corrección de la configuración de colocación de una campaña utilizando hojas de cálculo](/help/dsp/campaign-management/qa/qa-about.md)
+   + Corrección de la configuración de colocación mediante hojas de cálculo {#qa-spreadsheet}
+      + [Acerca de la corrección de la configuración de colocación mediante hojas de cálculo](/help/dsp/campaign-management/qa/qa-about.md)
       + [Descargar la configuración de colocación de una campaña](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [Cargar la configuración de colocación de una campaña](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Columnas de hojas de cálculo descargadas o cargadas](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 5%
    + [Resolución de problemas del rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
 + Audiencias {#audiences}
    + [Acerca de la gestión de público](/help/dsp/audiences/audience-about.md)
-   + Administrar segmentos {#segments}
+   + Segmentos {#segments}
       + [Crear e implementar un segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] Segmentos {#ccpa-opt-out-of-sale-segments}
          + [Acerca de [!UICONTROL CCPA Opt-out-of-Sale] Segmentos](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 5%
       + [Compartir o dejar de compartir un segmento](/help/dsp/audiences/segment-share.md)
       + [Ver píxeles de seguimiento de un segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Eliminar un segmento](/help/dsp/audiences/segment-delete.md)
-   + Administrar audiencias {#reusable-audiences}
+   + Audiencias {#reusable-audiences}
       + [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 5%
       + [Eliminar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-delete.md)
       + [Configuración de audiencia](/help/dsp/audiences/audience-settings.md)
       + [Sintaxis para la lógica del segmento de audiencia](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + Administrar fuentes {#sources}
+   + Fuentes {#sources}
       + [Acerca de la activación de segmentos autenticados desde fuentes de audiencia](/help/dsp/audiences/sources/source-about.md)
       + [Activar segmentos autenticados de socios de ID duraderos](/help/dsp/audiences/sources/source-durable-id.md)
       + [Crear una fuente de audiencias para activar las audiencias de origen](/help/dsp/audiences/sources/source-create.md)

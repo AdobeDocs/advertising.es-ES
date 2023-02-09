@@ -3,9 +3,9 @@ title: 'Compatibilidad de Adobe Advertising con la Ley de Privacidad del Consumi
 description: Obtenga información sobre los tipos de solicitudes de datos compatibles, los valores de campo y configuración necesarios, y ejemplos de solicitudes de acceso a API que utilizan ID de productos heredados y campos de datos devueltos.
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bc0015c134406fb020370def45a8588b5032587e
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---

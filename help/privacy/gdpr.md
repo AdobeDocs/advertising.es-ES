@@ -3,9 +3,9 @@ title: Compatibilidad publicitaria del Adobe con el Reglamento General de Protec
 description: Obtenga información sobre los tipos de solicitudes de datos compatibles, los valores de campo y configuración necesarios, y ejemplos de solicitudes de acceso a API que utilizan ID de productos heredados y campos de datos devueltos
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 99ebf339504e053578dc90dbde41437c5f3774f6
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Para realizar solicitudes de acceso y eliminación de datos para la publicidad d
    >
    >Las solicitudes a algunas soluciones de Adobe Experience Cloud no requieren la biblioteca JavaScript, pero las solicitudes de Adobe de publicidad sí lo requieren.
 
-   Debe implementar la biblioteca en la página web desde la que los interesados pueden enviar solicitudes de acceso y eliminación, como el portal de privacidad de su empresa. La biblioteca de ayuda a recuperar las cookies de Adobe (ID de área de nombres: `gsurferID`) para poder enviar estas identidades como parte de las solicitudes de acceso y eliminación a través de la API de Adobe Experience Platform Privacy Service.
+   Debe implementar la biblioteca en la página web desde la que el interesado puede enviar solicitudes de acceso y eliminación, como el portal de privacidad de su empresa. La biblioteca de ayuda a recuperar las cookies de Adobe (ID de área de nombres: `gsurferID`) para poder enviar estas identidades como parte de las solicitudes de acceso y eliminación a través de la API de Adobe Experience Platform Privacy Service.
 
    Cuando el interesado solicita la eliminación de datos personales, la biblioteca también elimina la cookie del interesado del explorador del interesado.
 
