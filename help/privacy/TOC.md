@@ -5,13 +5,13 @@ cloud: Experience Cloud
 solution: Advertising, Advertising Cloud
 product: advertising cloud
 user-guide-title: Compatibilidad de Adobe Advertising con la privacidad del consumidor
-user-guide-description: Obtenga información sobre los controles de seguridad y privacidad que proporciona Adobe Advertising para ayudar a los clientes anunciantes a cumplir con las leyes de privacidad del consumidor.
+user-guide-description: Obtenga información acerca los controles de seguridad y privacidad que proporciona Adobe Advertising para ayudar a los clientes anunciantes a cumplir con las leyes de privacidad del consumidor.
 breadcrumb-title: Compatibilidad con la privacidad del consumidor
 index: true
 source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 25%
+ht-degree: 56%
 
 ---
 
