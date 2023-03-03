@@ -1,31 +1,31 @@
 ---
-title: Códigos de error para [!DNL FreeWheel] Envíos de publicidad
-description: Haga referencia a los códigos de error devueltos para los envíos de anuncios a [!DNL FreeWheel].
+title: Códigos de error para [!DNL FreeWheel] Envíos de anuncios
+description: Hacer referencia a los códigos de error que se devuelven para los envíos de anuncios a [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
 
-# Códigos de error para [!DNL FreeWheel] Envíos de publicidad
+# Códigos de error para [!DNL FreeWheel] Envíos de anuncios
 
-Los mensajes de error para los envíos de anuncios fallidos pueden provenir de la DSP publicitaria o de [!DNL FreeWheel]. Los mensajes de error se muestran en la sección [!UICONTROL API Response] en la columna [[!UICONTROL Freewheel Status] cuadro de diálogo](freewheel-check-status.md).
+DSP Los mensajes de error para los envíos de anuncios fallidos pueden proceder de Advertising o de [!DNL FreeWheel]. Los mensajes de error se muestran en la [!UICONTROL API Response] en la columna [[!UICONTROL Freewheel Status] diálogo](freewheel-check-status.md).
 
-## Errores internos DSP publicidad
+## DSP Errores internos de Advertising
 
 | Mensaje de error | Descripción | Pasos siguientes |
 |--- |--- |--- |
-| [!DNL Awaiting status response from [!DNL FreeWheel]] | [!DNL FreeWheel] aún no ha respondido que el envío se haya realizado correctamente o que haya fallado. | Vuelva a comprobar el estado en 10 minutos. |
-| [!DNL The submitted ad does not have a clock number assigned.] | [!DNL FreeWheel] no acepta anuncios del Reino Unido sin números de reloj asignados. | Asigne un número de reloj a la publicidad y vuelva a enviarla. |
-| [!DNL The ad you are attempting to submit has not yet finished transcoding. Please wait ten minutes then try again.] | El transcodificador no había terminado de transcodificar la publicidad cuando intentaste enviarla. | Espere diez minutos y vuelva a enviar la publicidad. |
-| [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | El acuerdo presentado no se configura como un acuerdo garantizado programático. [!DNL FreeWheel] solo acepta ofertas garantizadas. | Configure el ID de acuerdo como una oferta garantizada mediante programación. El anuncio se envía automáticamente a [!DNL FreeWheel] al guardar la colocación predeterminada garantizada mediante programación al final del flujo de trabajo de ID de acuerdo. |
-| [!DNL Invalid external_deal_id:] \&lt;deal_id> | El ID de la oferta enviada no existe o no está activo en el extremo del Adobe. | Asegúrese de que la oferta esté activa y luego vuelva a enviarla. |
-| [!DNL \[public_id=]\&lt;deal>] no existe | El id. de la oferta enviada no existe en el [!DNL FreeWheel] final. | Póngase en contacto con su [!DNL FreeWheel] representante para confirmar el ID de la oferta. |
-| [!DNL Ad with identifier] \&lt;*nombre del anuncio*\> [!DNL was not found.] | La clave de publicidad enviada no existe o no está activa en el final del Adobe. | Busque la clave de publicidad correcta y luego vuelva a enviarla. |
-| [!DNL Pending Submission] | La presentación sigue pendiente. | Actualice la página. |
+| [!DNL Awaiting status response from [!DNL FreeWheel]] | [!DNL FreeWheel] aún no ha respondido que el envío se haya realizado correctamente o no. | Vuelva a comprobar el estado en 10 minutos. |
+| [!DNL The submitted ad does not have a clock number assigned.] | [!DNL FreeWheel] no acepta anuncios del Reino Unido sin números de reloj asignados. | Asigne un número de reloj al anuncio y vuelva a enviarlo. |
+| [!DNL The ad you are attempting to submit has not yet finished transcoding. Please wait ten minutes then try again.] | El transcodificador no había terminado de transcodificar el anuncio cuando intentó enviarlo. | Espere diez minutos y vuelva a enviar el anuncio. |
+| [!DNL The deal id you input is not setup as a guaranteed feed. Please submit guaranteed deals only.] | El acuerdo enviado no se establece como un acuerdo programático garantizado. [!DNL FreeWheel] solo acepta ofertas garantizadas. | Configure el ID de la oferta como una oferta programática garantizada. El anuncio se envía automáticamente a [!DNL FreeWheel] al guardar la ubicación predeterminada programática garantizada al final del flujo de trabajo del ID de la oferta. |
+| [!DNL Invalid external_deal_id:] \&lt;deal_id> | El ID de oferta enviado no existe o no está activo en el extremo del Adobe. | Asegúrese de que la oferta esté activa y vuelva a enviar el anuncio. |
+| [!DNL \[public_id=]\&lt;deal>] no existe | El ID de acuerdo enviado no existe en [!DNL FreeWheel] fin. | Póngase en contacto con su [!DNL FreeWheel] para confirmar el ID de la oferta. |
+| [!DNL Ad with identifier] \&lt;*nombre del anuncio*\> [!DNL was not found.] | La clave de anuncio enviada no existe o no está activa en el extremo del Adobe. | Busque la clave de anuncio correcta y, a continuación, vuelva a enviar el anuncio. |
+| [!DNL Pending Submission] | El envío aún está pendiente. | Actualice la página. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -33,13 +33,13 @@ Los mensajes de error para los envíos de anuncios fallidos pueden provenir de l
 
 | Código | Significado | Descripción | Pasos siguientes |
 |--- |--- |--- |--- |
-| 401 | No autorizado | Credenciales de acceso incorrectas, faltantes o no válidas. | Póngase en contacto con su [!DNL Adobe] equipo de la cuenta. |
-| 403 | Prohibido | El servidor entendió la solicitud, pero se niega a autorizarla. | Póngase en contacto con su [!DNL Adobe] equipo de la cuenta. |
-| 404 | No encontrado | El recurso solicitado no está disponible. Si no se encuentra el ID creativo en la operación de PUT, se devuelve un error 404. | Póngase en contacto con su [!DNL Adobe] equipo de la cuenta. |
-| 405 | Método no permitido | Se ha realizado una solicitud de un recurso utilizando un método de solicitud no admitido por ese recurso (por ejemplo, utilizando GET en un método que requiere que el POST envíe los datos o utilizando un PUT en un recurso de solo lectura). | Póngase en contacto con su [!DNL Adobe] equipo de la cuenta. |
-| 408 | Tiempo de espera de solicitud | Se agotó el tiempo de espera mientras se procesaba esta solicitud. Normalmente, los tiempos de espera se deben a solicitudes simultáneas de acceso exclusivo a determinados recursos. | Vuelva a enviar la solicitud cuando reciba este estado. Si el problema persiste, póngase en contacto con su [!DNL Adobe] equipo de la cuenta. |
-| 422 | Entidad no procesable | Recurso no válido. Este error ocurre cuando el cuerpo de la solicitud no es válido o el recurso creado/actualizado no es válido (por ejemplo, si no se encontró el ID de acuerdo). Consulte [Errores de la API 422 de FreeWheel](#freewheel-422-errors) para obtener más información. | Póngase en contacto con su [!DNL Adobe] equipo de la cuenta. |
-| 500 | Error interno del servidor | Error del sistema de API. | Póngase en contacto con su [!DNL Adobe] equipo de la cuenta. |
+| 401 | No autorizado | Credenciales de acceso incorrectas, inexistentes o no válidas. | Póngase en contacto con el equipo de cuenta de Adobe. |
+| 403 | Prohibido | El servidor entiende la solicitud, pero se niega a autorizarla. | Póngase en contacto con el equipo de cuenta de Adobe. |
+| 404 | No encontrado | El recurso solicitado no está disponible. Si no se encuentra el ID del creativo en la operación del PUT, se devuelve un error 404. | Póngase en contacto con el equipo de cuenta de Adobe. |
+| 405 | Método no permitido | Se realizó una solicitud de un recurso mediante un método de solicitud no admitido por ese recurso (por ejemplo, mediante el uso de GET en un método que requiere que el POST envíe los datos, o mediante el uso de PUT en un recurso de solo lectura). | Póngase en contacto con el equipo de cuenta de Adobe. |
+| 408 | Tiempo de espera de solicitud | Se agotó el tiempo de espera mientras se procesaba esta solicitud. Los tiempos de espera suelen deberse a solicitudes simultáneas de acceso exclusivo a determinados recursos. | Vuelva a enviar la solicitud cuando reciba este estado. Si el problema persiste, póngase en contacto con el equipo de cuenta de Adobe. |
+| 422 | Entidad no procesable | Medio no válido. Este error se produce cuando el cuerpo de la solicitud no es válido o el recurso creado/actualizado no es válido (por ejemplo, si no se encontró el ID de acuerdo). Consulte [Errores de API 422 de FreeWheel](#freewheel-422-errors) para obtener más información. | Póngase en contacto con el equipo de cuenta de Adobe. |
+| 500 | Error interno del servidor | Error del sistema de API. | Póngase en contacto con el equipo de cuenta de Adobe. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -47,17 +47,17 @@ Los mensajes de error para los envíos de anuncios fallidos pueden provenir de l
 
 | Código | Código HTTP | Descripción |
 |--- |--- |--- |
-| DATA_UNMARSHALL_FAILURE | 422 | Los datos de la solicitud tienen un formato json no válido. Consulte el mensaje de error para obtener más información. |
-| DATA_VALIDATION_FAILURE | 422 | A los datos de la solicitud les faltan campos obligatorios o tienen un tipo de datos no válido. Consulte el mensaje de error para obtener más información. |
-| DATA_DEAL_INVALID | 422 | La operación está configurada incorrectamente o no existe. Consulte el mensaje de error para obtener más información. |
-| DATA_DEAL_GET_FAILURE | 422 | No se encontró el acuerdo o su configuración tiene un problema. Consulte el mensaje de error para obtener más información. |
-| DATA_CREATIVE_INGEST_FAILURE | 422 | La dirección URL creativa no es válida. Consulte el mensaje de error para obtener más información. |
-| DATA_CREATIVE_LINK_FAILURE | 422 | El creativo no estaba vinculado a los nodos de unidad de publicidad de la oferta. Consulte el mensaje de error para obtener más información. |
-| DATA_CREATIVE_UPDATE_FAILURE | 422 | El creativo no se actualizó. Consulte el mensaje de error para obtener más información. |
-| DATA_DSP_GET_FAILURE | 422 | El DSP no existe en el sistema. |
-| DATA_CREATIVE_UNLINK_FAILURE | 422 | El elemento creativo no se desvinculaba de las unidades de publicidad. |
-| DATA_CREATIVE_DELETE_FAILURE | 422 | El creativo no se eliminó. |
-| DATA_CREATIVE_DETECTION_FAILURE | 422 | No se detectó la dirección URL. |
+| DATA_UNMARSHALL_FAILURE | 422 | Los datos solicitados no tienen un formato json válido. Consulte el mensaje de error para obtener más detalles. |
+| DATA_VALIDATION_FAILURE | 422 | A los datos de la solicitud les faltan campos obligatorios o tienen un tipo de datos no válido. Consulte el mensaje de error para obtener más detalles. |
+| DATA_DEAL_INVALID | 422 | La oferta se ha configurado incorrectamente o no existe. Consulte el mensaje de error para obtener más detalles. |
+| DATA_DEAL_GET_FAILURE | 422 | No se ha encontrado la oferta o su configuración tiene un problema. Consulte el mensaje de error para obtener más detalles. |
+| DATA_CREATIVE_INGEST_FAILURE | 422 | La URL de creatividad no es válida. Consulte el mensaje de error para obtener más detalles. |
+| DATA_CREATIVE_LINK_FAILURE | 422 | El creativo no estaba vinculado a los nodos de la unidad publicitaria del acuerdo. Consulte el mensaje de error para obtener más detalles. |
+| DATA_CREATIVE_UPDATE_FAILURE | 422 | El elemento creativo no se ha actualizado. Consulte el mensaje de error para obtener más detalles. |
+| DSP DATA__GET_FAILURE | 422 | DSP El elemento no existe dentro del sistema. |
+| DATA_CREATIVE_UNLINK_FAILURE | 422 | El creativo no se ha desvinculado de las unidades de publicidad. |
+| DATA_CREATIVE_DELETE_FAILURE | 422 | No se ha eliminado el elemento creativo. |
+| DATA_CREATIVE_DETECTION_FAILURE | 422 | No se ha detectado la dirección URL. |
 | DATA_ENTITY_NOT_FOUND | 422 | El creativo no existe. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -65,7 +65,7 @@ Los mensajes de error para los envíos de anuncios fallidos pueden provenir de l
 >[!MORELIKETHIS]
 >
 >* [Información general sobre la configuración de ofertas garantizadas mediante programación en [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [Aceptar un acuerdo en la bandeja de entrada del Deal ID](deal-id-inbox-accept.md)
->* [Enviar una publicidad para un acuerdo garantizado programático a [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [Compruebe el estado de las publicidades para [!DNL FreeWheel] Ofertas garantizadas mediante programación](/help/dsp/inventory/freewheel-check-status.md)
+>* [Aceptar un acuerdo en la bandeja de entrada de Deal ID](deal-id-inbox-accept.md)
+>* [Envíe un anuncio de oferta programática garantizada a [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [Comprobar el estado de los anuncios para [!DNL FreeWheel] Ofertas programáticas garantizadas](/help/dsp/inventory/freewheel-check-status.md)
 

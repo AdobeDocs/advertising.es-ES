@@ -1,22 +1,22 @@
 ---
-title: Proveedores de datos de terceros disponibles en DSP publicitarios
-description: Consulte una lista de todos los proveedores de datos de terceros disponibles.
+title: DSP Proveedores de datos de terceros disponibles en Advertising
+description: Consulte la lista de proveedores de datos de terceros disponibles.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
 
 <!-- feature: audiences -->
 
-# Proveedores de datos de terceros disponibles en DSP publicitarios
+# DSP Proveedores de datos de terceros disponibles en Advertising
 
-Las categorías de datos y los segmentos para los siguientes proveedores de datos de terceros están disponibles como destinos de ubicación en DSP. Estos segmentos están disponibles principalmente para audiencias de EE. UU.
+DSP Las categorías de datos y los segmentos de los siguientes proveedores de datos de terceros están disponibles como objetivos de ubicación en la. Estos segmentos están disponibles principalmente para audiencias de EE. UU.
 
-La tarifa por usar cada segmento se muestra junto al nombre del segmento en la configuración de ubicación y en la configuración de audiencia guardada.
+La tarifa por utilizar cada segmento se muestra junto al nombre del segmento en la configuración de colocación y en la configuración de audiencia guardada.
 
 * [!DNL Acxiom]
 * [!DNL Adsquare]
@@ -51,11 +51,11 @@ La tarifa por usar cada segmento se muestra junto al nombre del segmento en la c
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-Para obtener más información sobre la importación de segmentos de terceros personalizados para su cuenta, póngase en contacto con su [!DNL Adobe] equipo de la cuenta.
+Para obtener más información sobre la importación de segmentos de terceros personalizados para su cuenta, póngase en contacto con el equipo de cuenta de Adobe.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la gestión de público](audience-about.md)
+>* [Acerca de Audience Management](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Configuración de audiencia](audience-settings.md)
 
