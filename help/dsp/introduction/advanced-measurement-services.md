@@ -1,23 +1,23 @@
 ---
-title: Soluciones de medición avanzadas
-description: Consulte una lista de las soluciones disponibles para obtener mediciones avanzadas.
+title: Soluciones de medición avanzada
+description: Consulte la lista de soluciones disponibles para la medición avanzada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2207d7293920987db72c37ae25245574a5c0fcf5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
-# Soluciones de medición avanzadas
+# Soluciones de medición avanzada
 
-Los anunciantes a menudo tienen dificultades para comprender dónde se debe gastar su mejor próximo dólar de medios, o para cuantificar el impacto de sus anuncios en línea. En un entorno multimedia basado en datos, la medición de atribución proporciona una solución a este desafío. La variable [!DNL Strategic Advertising Consulting] el equipo ayuda a los socios de marca y agencia a medir cómo los elementos de sus [!DNL Adobe] las conexiones cobran vida a través de la publicidad. Con una sólida oferta de medición de atribuciones, el equipo ayuda a implementar estrategias de objetivo depuradas mediante un sofisticado marco de medición, lo que facilita a las marcas la conexión de sus decisiones de medios con resultados reales que impulsan sus negocios. El equipo puede ayudarle a:
+Los anunciantes a menudo tienen dificultades para entender dónde se debe gastar su mejor próximo dólar de medios, o para cuantificar el impacto de sus anuncios en línea. En un panorama de medios impulsado por datos, la medición de atribución proporciona una solución a este desafío. El [!DNL Strategic Advertising Consulting] El equipo de ayuda a los socios de marca y agencia a medir cómo los elementos de su [!DNL Adobe] las conexiones cobran vida a través de la publicidad. Con sólidas ofertas de medición de atribución, el equipo ayuda a implementar estrategias de segmentación depuradas mediante un sofisticado marco de medición, lo que facilita a las marcas conectar sus decisiones de medios con resultados del mundo real que impulsan sus negocios. El equipo puede ayudarle a lo siguiente:
 
-* Activar estudios de medición en campañas de medios digitales de canal completo
+* Activación de estudios de medición en campañas de medios digitales de canal completo
 
-* Implemente la narración de historias de su campaña con soluciones de informes empaquetadas
+* Mejore la narración de su campaña con las soluciones de informes empaquetadas
 
-* Evolucione su práctica publicitaria aprendiendo y mejorando la eficacia de las campañas a lo largo del tiempo
+* Evolucione sus prácticas publicitarias aprendiendo y mejorando la eficacia de las campañas a lo largo del tiempo
 
 ## Paquetes de soluciones
 
@@ -25,72 +25,72 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
 
 * **Alcance, frecuencia y conversiones basados en el hogar**
 
-   Comprender el alcance total de la campaña a nivel del hogar, así como la contribución de las pantallas individuales. Las opciones de informes incluyen:
+   Comprenda el alcance total de la campaña a nivel familiar, así como la contribución de las pantallas individuales. Las opciones de informes incluyen:
 
    * Informes de TV conectada (CTV)
    * Incrementalidad de la aplicación CTV
-   * Informes en pantalla cruzada (digital y CTV)
-   * Informes Plus en pantalla cruzada (digital, CTV y TV)
-   * Alcance y frecuencia del segmento digital
+   * Creación de informes en varias pantallas (digital y de CTV)
+   * Creación de informes multipantalla (digital, de CTV y de TV)
+   * Alcance y frecuencia digital en el segmento
 
 * **Alcance basado en personas**
 
-   Comprenda cómo las audiencias y las tácticas se superponen en el nivel de la persona, incluida la exposición en varios entornos digitales, como escritorio, móvil, nativo y audio.
+   Comprenda cómo las audiencias y las tácticas se superponen en el nivel de persona, lo que incluye exposiciones en varios entornos digitales, como escritorio, móvil, nativo y audio.
 
 * **[!DNL Dynata]Encuestas basadas en paneles**
 
-   Realice estudios de control/exposición para determinar el efecto de la exposición de la publicidad en métricas como la conciencia, la familiaridad y la intención.
+   Realice encuestas de control/exposición para determinar el efecto de la exposición a la publicidad en métricas como la concienciación, la familiaridad y la intención.
 
-* **Tráfico de pies**
+* **Tráfico a pie**
 
-   Comprenda la incrementalidad impulsada por la exposición a los anuncios y cómo la inversión en medios está causando cambios en el comportamiento de compra y en las visitas incrementales con métricas como el efecto de aumento, el coste por visita incremental y la perspectiva de visitas.
+   Comprenda la incrementalidad impulsada por la exposición a la publicidad y cómo la inversión en medios está causando cambios en el comportamiento de compra y las visitas incrementales con métricas como el efecto de incrementalidad, el coste por visita incremental y las perspectivas de visita.
 
-* **Perspectivas de transacciones**
+* **Información de transacción**
 
-   Enriquezca su estrategia de campaña con datos determinísticos sobre las ventas de crédito y débito a través de análisis de segmentos, mercados competitivos y compradores.
+   Enriquezca su estrategia de campaña con datos de ventas deterministas de crédito y débito a través de análisis de segmentos, mercados competitivos y compradores.
 
-* **Medición de transacciones**
+* **Medida de transacción**
 
-   Determinar la influencia de la exposición publicitaria en las ventas utilizando datos sólidos y determinísticos sobre las ventas de crédito y débito.
+   Determinar la influencia de la exposición del anuncio en las ventas utilizando datos de ventas de crédito y débito sólidos y determinísticos.
 
 * **Diseñador de experimentos (prueba A/B)**
 
-   Compare el comportamiento y la opinión de los grupos de muestra aleatorios y mutuamente excluyentes con pruebas A/B simples y limpias.
+   Compare el comportamiento y la opinión de grupos de muestras aleatorios mutuamente excluyentes con pruebas A/B simples y limpias.
 
-## Búsqueda del ajuste de medición perfecto: Soluciones por vertical
+## Encontrar el ajuste perfecto de la medición: Soluciones por Vertical
 
 * **Cualquier vertical:**
 
-   * Diseñador de experimentos (prueba A/B y placebo)
+   * Diseñador de experimentos (pruebas A/B y placebo)
 
    * Alcance basado en personas
 
-      Cualquier organización que busque medir en varias tácticas digitales; organizaciones que buscan mostrar el valor del audio
+      Cualquier organización que busque medir en varias tácticas digitales; organizaciones que busquen mostrar el valor del audio
 
-   * Medición de alcance, frecuencia y conversión basada en el hogar
+   * Alcance basado en el hogar, frecuencia y medición de conversión
 
-      Cualquier cliente que busque comprender el alcance/alcance incremental y las eficiencias y/o métricas de conversión basadas en costos en varias tácticas digitales
+      Cualquier cliente que busque comprender el alcance/el alcance incremental y la eficiencia basada en costes o las métricas de conversión en varias tácticas digitales
 
-   * Medición de alcance, frecuencia y conversión entre pantallas
+   * Alcance, frecuencia y medición de conversión entre pantallas
 
-      Cualquier cliente que busque comprender el alcance/alcance incremental y las eficiencias y/o métricas de conversión basadas en costos en múltiples tácticas digitales en relación a la inversión en televisión lineal
+      Cualquier cliente que desee comprender el alcance/alcance incremental y las eficiencias basadas en costes o las métricas de conversión en múltiples tácticas digitales en relación con la inversión en televisión lineal.
 
    * Encuestas basadas en paneles de Dynata
 
-      Cualquier cliente que busque medir la percepción y la percepción de la marca en varias pantallas; más adecuado para audiencias de nicho
+      Cualquier cliente que busque medir la imagen y la percepción de la marca en varias pantallas; más adecuado para audiencias específicas
 
-* **QSR, minorista (ladrillo y mortero):**
+* **QSR, Venta minorista (ladrillo y mortero):**
 
-   * Medición de transacciones
+   * Medida de transacción
 
-   * Medición del tráfico de pies de página
+   * Medición del tráfico de pies
 
-* **QSR, Venta minorista, Viajes:**
+* **QSR, comercio minorista, viajes:**
 
-   * Perspectivas de transacciones
+   * Información de transacción
 
-      Cualquier cliente que busque llegar a un tipo particular de comprador para dirigir las ventas en tienda y en línea
+      Cualquier cliente que busque un tipo particular de comprador para dirigir las ventas en línea y en la tienda
 
 ## Más información
 
-Para obtener información sobre todas las soluciones de medición avanzadas, esbozar la información de precios, así como los formatos y regiones disponibles para cada solución, póngase en contacto con su [!DNL Adobe] gestor de éxito del cliente. También se pueden solicitar estudios de casos específicos de soluciones.
+Para obtener información sobre todas las soluciones de medición avanzadas, información de precios resumida, así como los formatos y regiones disponibles para cada solución, póngase en contacto con el equipo de cuenta de Adobe. También se pueden solicitar estudios de casos específicos de soluciones.
