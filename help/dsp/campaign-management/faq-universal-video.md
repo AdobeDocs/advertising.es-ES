@@ -2,14 +2,14 @@
 title: Preguntas frecuentes sobre el vídeo universal
 description: Obtenga más información sobre los anuncios universales en vídeo.
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# # Preguntas frecuentes sobre el vídeo universal
+# Preguntas frecuentes sobre el vídeo universal
 
 ## ¿Cómo se crean colocaciones y publicidades de vídeo universales?
 
@@ -23,7 +23,11 @@ Puede crearlos de forma similar a como crea otros tipos de ubicaciones y vídeos
 
 1. En la misma campaña que la colocación universal de vídeo, [crear una sola publicidad de vídeo universal](/help/dsp/campaign-management/ads/ad-create.md) o [crear varios anuncios de vídeo universal](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   Si crea varias publicidades, asegúrese de especificar &quot;[!UICONTROL Universal Video]&quot; como el [!UICONTROL Ad Type]. Para [!DNL Google] o [!DNL Flashtalking] publicidades, después de cargar el archivo, haga clic en el campo Tipo de publicidad en el[!UICONTROL Review ad types]&quot; y edítela. Para otros tipos de etiquetas de publicidad, especifique el tipo de publicidad dentro del archivo de hoja de cálculo que carga.
+   Si crea varias publicidades, asegúrese de especificar &quot;[!UICONTROL Universal Video]&quot; como el [!UICONTROL Ad Type]:
+
+   * Para [!DNL Google] o [!DNL Flashtalking] anuncios: En el[!UICONTROL Review ad types]&quot; después de cargar el archivo, haga clic en el **[!UICONTROL Ad Type]** y seleccione **[!UICONTROL Universal Video]**.
+
+   * Para otros tipos de etiquetas de publicidad: En el archivo de hoja de cálculo que cargue, especifique el campo Tipo de anuncio para cada anuncio como **[!UICONTROL Universal Video]**.
 
 1. [Abra la configuración de publicidad](/help/dsp/campaign-management/ads/ad-edit.md) para cada anuncio nuevo y seleccione el formato de vídeo aplicable:
 
