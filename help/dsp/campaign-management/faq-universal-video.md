@@ -2,9 +2,9 @@
 title: Preguntas frecuentes sobre el vídeo universal
 description: Obtenga más información sobre los anuncios universales en vídeo.
 feature: DSP Placements, DSP Ads
-source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
+source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,8 @@ Los objetivos que son incompatibles con las ubicaciones de TV conectadas estánd
 
 Uso **[!UICONTROL VAST]** en cualquiera de los siguientes escenarios:
 
-* La ubicación se dirigirá al inventario de TV conectado.
-* La ubicación se dirigirá al inventario de vídeo de Google Ad Manager, Appnexus, SpotX o Freewheel. Estos SSP no admiten el formato de vídeo VPAID y VAST.
+* La ubicación se dirige al inventario de TV conectado.
+* La ubicación se dirige al inventario de vídeo de Google Ad Manager, Appnexus, SpotX o Freewheel. Estos SSP no admiten el formato de vídeo VPAID y VAST.
 
 ## ¿Es posible adjuntar varios anuncios de vídeo universales a la misma ubicación de vídeo universal?
 
