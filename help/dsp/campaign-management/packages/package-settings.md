@@ -3,7 +3,7 @@ title: Configuración de paquetes
 description: Consulte las descripciones de la configuración de paquetes disponible.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 32d74703d9aecbddc5a5f3e0526a2cefbf1f2266
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Para los paquetes con delimitación personalizada, el intervalo presupuestario s
 
 * *[!UICONTROL Aggressive Frontload]:* Acelera el envío para que esté entre un 75 y un 85% a mitad del vuelo.
 
-**[!UICONTROL Intraday pacing]:** (Paquetes solo con ritmo de nivel de paquete) Cómo rastrear el envío de anuncios a lo largo de cada día dentro del vuelo:
+**[!UICONTROL Intraday pacing]:** (Paquetes solo con ritmo de nivel de paquete) Cómo rastrear la entrega de anuncios a lo largo de cada día dentro del vuelo:
 
 * *[!UICONTROL Even]:* (El valor predeterminado) Escala la entrega según la disponibilidad del inventario. Por lo general, se entregan más anuncios por hora durante el día, cuando el volumen de la subasta es mayor, y se entregan menos anuncios por la mañana y por la noche.
 
@@ -121,5 +121,5 @@ Para cada vuelo, introduzca la fecha de inicio, la fecha de finalización y el n
 >* [Editar un paquete](package-edit.md)
 >* [Adjuntar una colocación a un paquete](package-attach-placement.md)
 >* [Ver el registro de cambios de un paquete](package-change-log.md)
->* [Preguntas frecuentes sobre Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Preguntas frecuentes sobre Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
 

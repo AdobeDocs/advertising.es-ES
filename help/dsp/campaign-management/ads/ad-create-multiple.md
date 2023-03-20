@@ -3,9 +3,9 @@ title: Crear varias publicidades de terceros
 description: Aprenda a crear varias publicidades de terceros a la vez.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,15 @@ Puede cargar: [!DNL DoubleClick] y [!DNL Flashtalking] etiquetas de o un archivo
 
       1. Haga clic **[!UICONTROL Save & submit for review]**.
 
+>[!NOTE]
+>
+>Los anuncios de vídeo universales solo se pueden adjuntar a las ubicaciones de vídeo universales.
+
 >[!MORELIKETHIS]
 >
 >* [Acerca de la administración de publicidad](ad-about.md)
 >* [Especificaciones de la publicidad](ad-specs.md)
 >* [Crear una sola publicidad](ad-create.md)
 >* [Vídeo: Cómo cargar de forma masiva etiquetas de publicidad de terceros](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Preguntas frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 
