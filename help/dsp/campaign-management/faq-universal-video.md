@@ -2,9 +2,9 @@
 title: Preguntas frecuentes sobre el vídeo universal
 description: Obtenga más información sobre los anuncios universales en vídeo.
 feature: DSP Placements, DSP Ads
-source-git-commit: 58cbb5b85a1dc790aaf762ba55fd2badeef6fe68
+source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
