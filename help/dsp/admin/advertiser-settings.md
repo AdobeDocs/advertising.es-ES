@@ -1,7 +1,7 @@
 ---
 title: Configuración de la cuenta del anunciante
 description: Consulte las descripciones de la configuración del anunciante disponible.
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -38,11 +38,11 @@ Los anunciantes con productos adicionales de Adobe Experience Cloud pueden compa
 
 (Opcional) Productos de Experience Cloud adicionales vinculados a la cuenta de DSP. Los productos deben estar asociados con el mismo ID de organización de Experience Cloud que se proporciona en la variable [!UICONTROL Adobe IMS IDs] para obtener más información.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Adobe Advertising Search] o que utilizan píxeles de conversión de anuncios de Adobe) A [!DNL Search] cuenta con la que DSP intercambiar datos de atribución.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Advertising Search, Social, & Commerce] o que utilizan píxeles de conversión de anuncios de Adobe) A [!DNL Search, Social, & Commerce] cuenta con la que DSP intercambiar datos de atribución.
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Anunciantes con Adobe Analytics; opcional; solo aplicable a los datos recopilados mediante las etiquetas de seguimiento de conversión de publicidad de Adobe que incluyen una [!DNL EF Redirect] y solo token) Uno o más [!DNL Analytics] grupos de informes a los que DSP enviarán datos que recopila de editores y socios de suministro. Analytics también enviará los datos que recopila del sitio del cliente a DSP.
 
-Para que los datos aparezcan en los grupos de informes, la variable [!DNL Search] configuración de nivel de anunciante en &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; debe estar habilitado. Además, el [!DNL Analytics] debe configurarse para recibir datos de la publicidad de Adobe.
+Para que los datos aparezcan en los grupos de informes, la variable [!DNL Search, Social, & Commerce] configuración de nivel de anunciante en &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; debe estar habilitado. Además, el [!DNL Analytics] debe configurarse para recibir datos de la publicidad de Adobe.
 
 >[!WARNING]
 >

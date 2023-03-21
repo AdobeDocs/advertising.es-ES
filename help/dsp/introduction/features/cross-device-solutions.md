@@ -1,9 +1,9 @@
 ---
 title: Soluciones entre dispositivos
-description: Obtenga más información acerca de las funciones entre dispositivos.
+description: Obtenga más información sobre las funciones entre dispositivos.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -12,108 +12,108 @@ ht-degree: 0%
 
 # Soluciones entre dispositivos
 
-DSP La integración de Advertising con [!DNL LiveRamp] permite ampliar la audiencia a todos los dispositivos conocidos de una persona, no solo a los dispositivos de los que ha hecho un seguimiento su marca. La integración también proporciona límite de frecuencia y medición de atribución en todos los dispositivos.
+La integración de Advertising DSP con [!DNL LiveRamp] permite ampliar la audiencia a todos los dispositivos conocidos de una persona, no solo a los dispositivos de su marca. La integración también proporciona restricción de frecuencia y medición de atribución en todos los dispositivos.
 
-Cuando utiliza un gráfico de dispositivos basado en personas compatible, puede:
+Al utilizar un gráfico de dispositivos basado en personas compatible, puede:
 
-* Haga coincidir audiencias en varios canales y dispositivos para enviar anuncios a personas y hogares, en lugar de a dispositivos.
-* Equilibrio y exposición al comprender y limitar la frecuencia entre individuos.
-* Estrategias de prueba que exponen o convierten audiencias en varios canales o dispositivos.
+* Haga coincidir las audiencias de los canales y dispositivos para enviar anuncios a personas y hogares, en lugar de a dispositivos.
+* Equilibrar la exposición publicitaria mediante la comprensión y restricción de la frecuencia entre individuos.
+* Pruebe estrategias que expongan y conviertan audiencias entre canales o dispositivos.
 
-## Ventajas de la [!DNL LiveRamp] Gráfico del dispositivo
+## Ventajas de [!DNL LiveRamp] Gráfico de dispositivos
 
-* Proporciona un grupo de datos determinístico, incluidos los datos de clientes sin conexión
+* Proporciona un grupo de datos determinísticos, que incluye datos de clientes sin conexión
 
-* Proporciona una cobertura uniforme entre los ID de cookie y los ID de dispositivos móviles
+* Proporciona cobertura uniforme entre ID de cookies e ID de dispositivos móviles
 
-* Incluye datos principalmente de Estados Unidos
+* Incluye datos procedentes principalmente de los Estados Unidos
 
-* Está libre para la restricción de frecuencia y la medición de atribución
+* Es libre de restricción de frecuencia y medición de atribución
 
-* Precio de 0,35 $ CPM para impresiones extendidas (impresiones que se entregan únicamente mediante el uso de [!DNL LiveRamp] gráfico de dispositivos, en lugar de en dispositivos ubicados dentro de los segmentos de audiencia de destino)
+* Precio de 0,35 CPM de USD para impresiones extendidas (impresiones que se entregan únicamente mediante el uso de la variable [!DNL LiveRamp] gráfico de dispositivos en lugar de en dispositivos encontrados dentro de los segmentos de audiencia de destino)
 
-   La tarifa se refleja en su tarjeta de tarifa de la cuenta.
+   La tasa se refleja en la tarjeta de tasa de la cuenta.
 
 ## Administración de frecuencia basada en personas
 
-La gestión de frecuencias basada en personas permite especificar límites de frecuencia en el nivel de la persona, en lugar de en el nivel del dispositivo, para un verdadero control de la exposición a los medios.
+La administración de frecuencias basada en personas permite especificar límites de frecuencia a nivel de persona, en lugar de a nivel de dispositivo, para un control de exposición real de medios.
 
-### Activar la administración de frecuencias basada en personas
+### Activar la administración de frecuencia basada en personas
 
-* **Campañas:** Al crear una nueva campaña, puede especificar una [!UICONTROL Cross-Device Level] configuración. Habilitar &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot; y seleccione un gráfico de dispositivos. El gráfico de dispositivo especificado se utiliza tanto para la segmentación entre dispositivos en el nivel de ubicación como para la administración de frecuencias basada en personas en el nivel de campaña, paquete y ubicación. Los límites de frecuencia se aplican a todos los dispositivos conocidos de una persona.
+* **Campañas:** Al crear una nueva campaña, puede especificar una [!UICONTROL Cross-Device Level] configuración. Habilitar &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot; y seleccione un gráfico de dispositivos. El gráfico de dispositivos especificado se utiliza tanto para la segmentación entre dispositivos en el nivel de ubicación como para la administración de frecuencias basada en personas en el nivel de campaña, paquete y ubicación. Los límites de frecuencia se aplican a todos los dispositivos conocidos de una persona.
 
 Para obtener más información, consulte [Configuración de campaña](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
 Una vez guardada una campaña, no se puede cambiar su [!UICONTROL Cross Device Level] configuración.
 
-* **Paquetes:**  Si lo desea, puede definir límites de frecuencia adicionales en el nivel de paquete. DSP respetará el límite de frecuencia más estricto en la jerarquía de campañas.
+* **Paquetes:**  Opcionalmente, puede establecer límites de frecuencia adicionales en el nivel del paquete. DSP respetará el límite de frecuencia más estricto de la jerarquía de campañas.
 
-* **Ubicaciones:** Si lo desea, puede definir límites de frecuencia adicionales en el nivel de posición. DSP respetará el límite de frecuencia más estricto en la jerarquía de campañas.
+* **Ubicaciones:** Si lo desea, puede establecer límites de frecuencia adicionales en el nivel de ubicación. DSP respetará el límite de frecuencia más estricto de la jerarquía de campañas.
 
 ## Segmentación basada en personas
 
-La segmentación basada en personas permite encontrar clientes en equipos de escritorio y dispositivos móviles.
+La segmentación basada en personas le permite encontrar clientes en equipos de escritorio y móviles.
 
-### Activar segmentación basada en personas
+### Activar Segmentación basada en personas
 
 * **Campañas:** Al crear una nueva campaña, puede especificar una [!UICONTROL Cross-Device Level] configuración. Habilitar &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People],&quot; y seleccione un gráfico de dispositivos. El gráfico de dispositivos especificado se utiliza tanto para la segmentación entre dispositivos en el nivel de ubicación como para la administración de frecuencias basada en personas.
 
 Para obtener más información, consulte [Configuración de campaña](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-* **Ubicaciones:** Al seleccionar objetivos de audiencia para una ubicación en una campaña con un gráfico de dispositivos especificado, se muestra un [!UICONTROL Cross-Device Targeting] Esta opción le permite ampliar el direccionamiento a todos los dispositivos conocidos de una persona (según el gráfico de dispositivos especificado en la configuración de la campaña), incluso a los dispositivos que no están en los segmentos especificados.
+* **Ubicaciones:** Cuando selecciona segmentos de audiencia para una colocación en una campaña con un gráfico de dispositivos especificado, una [!UICONTROL Cross-Device Targeting] permite ampliar los objetivos a todos los dispositivos conocidos de una persona (según el gráfico de dispositivos especificado en la configuración de campaña), incluso a los dispositivos que no están en los segmentos especificados.
 
 ### Configuración de informes para segmentación basada en personas
 
-Puede incluir las siguientes métricas en los informes personalizados:
+Puede incluir las métricas siguientes en los informes personalizados:
 
-* **Impresiones extendidas:** (En el [!UICONTROL Build Your Report] sección debajo de [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) El volumen de impresiones incrementales que arroja el uso de un gráfico de dispositivos (que no se encuentra dentro de los segmentos de audiencia originales). Esta métrica también se utiliza para calcular las tarifas aplicables asociadas con el uso de un gráfico de dispositivos de terceros.
+* **Impresiones extendidas:** (En el [!UICONTROL Build Your Report] sección bajo [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) El volumen de impresiones incrementales que se entrega aprovechando un gráfico de dispositivos (y que no se encuentra dentro de los segmentos de audiencia originales). Esta métrica también se utiliza para calcular las tarifas aplicables asociadas con el uso de un gráfico de dispositivos de terceros.
 
    Para determinar el coste de las impresiones extendidas durante un período de tiempo, ejecute un informe personalizado que incluya la variable [!UICONTROL Extended Impressions] y luego multiplicar el número total de impresiones extendidas por 0,00035 $ (0,35 $/1000 impresiones).
 
-   El coste agregado también se incluye en la [!UICONTROL Billable Other Net Spend] columna (debajo de [!UICONTROL Metrics] > [!UICONTROL Spend]), aunque esa métrica también incluye otras tarifas de campaña que puede haber agregado.
+   El coste agregado también se incluye en la variable [!UICONTROL Billable Other Net Spend] en [!UICONTROL Metrics] > [!UICONTROL Spend]), aunque esa métrica también incluye otras tarifas de campaña que podría haber añadido.
 
-* **Gráfico del dispositivo:** (En el [!UICONTROL Build Your Report] sección debajo de [!UICONTROL Dimensions] > [!UICONTROL Campaign]) El gráfico del dispositivo seleccionado para una campaña, paquete o ubicación en particular.
+* **Device Graph:** (En el [!UICONTROL Build Your Report] sección bajo [!UICONTROL Dimensions] > [!UICONTROL Campaign]) El gráfico de dispositivos seleccionado para una campaña, paquete o ubicación en particular.
 
 ## Medición de atribución basada en personas
 
-*Solo anunciantes con seguimiento de conversión de publicidad de Adobe*
+*Anunciantes con solo seguimiento de conversión de publicidad de Adobe*
 
-Con la atribución basada en personas, puede atribuir conversiones que se produjeron en un dispositivo diferente al dispositivo en el que se produjo la exposición a los medios. DSP La medición de atribución basada en personas está disponible en todas las áreas de trabajo, y es: [!DNL Adobe Advertising Creative], y [!DNL Adobe Advertising Search] para anunciantes que hayan implementado píxeles de conversión de publicidad de Adobe en sus sitios.
+Con la atribución basada en personas, puede atribuir conversiones que se produjeron en un dispositivo diferente al dispositivo en el que se produjo la exposición al contenido. La medición de atribución basada en personas está disponible en DSP, [!DNL Adobe Advertising Creative]y [!DNL Adobe Advertising Search, Social, & Commerce] para anunciantes que hayan implementado píxeles de conversión de publicidad de Adobe en sus sitios.
 
 ### Habilitar la medición de atribución basada en personas
 
-Si desea activar la medición de atribución entre dispositivos, póngase en contacto con el equipo de cuenta de Adobe.
+Si desea activar la medición de atribución entre dispositivos, póngase en contacto con el equipo de cuentas de Adobe.
 
-### Configuración de informes de conversión para atribución de conversión entre dispositivos
+### Configurar informes de conversión para la atribución de conversión entre dispositivos
 
-#### Configuración del informe de conversión
+#### Configuración de informes de conversión
 
-Cuando un gráfico de dispositivo está habilitado para la medición de atribución, la variable [!UICONTROL Conversion] El informe incluye un [!UICONTROL Cross-Device Breakout] , que le permite incluir hasta tres columnas independientes para cada métrica de conversión, lo que incluye:
+Cuando un gráfico de dispositivo está habilitado para la medición de atribución, la variable [!UICONTROL Conversion] El informe incluye un [!UICONTROL Cross-Device Breakout] , que le permite incluir hasta tres columnas independientes para cada métrica de conversión, entre las que se incluyen:
 
-* &lt;*Conversión*>[!UICONTROL (tp)]: Incluye las conversiones totales (personas totales), que incluyen tanto las conversiones del mismo dispositivo como las conversiones entre dispositivos (si corresponde). En el informe, &quot;[!UICONTROL (tp)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Responses(le)(tl)(tp)&quot;).
+* &lt;*Conversión*>[!UICONTROL (tp)]: Incluye las conversiones totales (personas totales), que incluyen conversiones entre dispositivos y entre dispositivos (si corresponde). En el informe, &quot;[!UICONTROL (tp)]&quot; se anexa al nombre de la métrica de conversión, al tipo de regla y a los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Responses(le)(tl)(tp)&quot;).
 
-* &lt;*Conversión*>[!UICONTROL (sd)]: (Opcional) incluye solo las conversiones para las que se ha rastreado un solo dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (sd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Responses(le)(tl)(sd)&quot;).
+* &lt;*Conversión*>[!UICONTROL (sd)]: (Opcional) Solo incluye conversiones para las que se rastreó un solo dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (sd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Responses(le)(tl)(sd)&quot;).
 
-* &lt;*Conversión*>[!UICONTROL (xd)]: (opcional) incluye solo las conversiones para las que se ha rastreado más de un dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (xd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Responses(le)(tl)(xd)&quot;).
+* &lt;*Conversión*>[!UICONTROL (xd)]: (Opcional) Solo incluye conversiones para las que se ha realizado un seguimiento de más de un dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (xd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Responses(le)(tl)(xd)&quot;).
 
-#### Interpretación del informe de conversión
+#### Cómo interpretar el informe de conversión
 
-Si ordena el porcentaje del total de conversiones entre dispositivos ([!UICONTROL (xd)]/[!UICONTROL (tl)]) de alto a bajo, comprenderá lo que impulsa conversiones entre dispositivos por encima del promedio. Puede utilizarlo para informar su estrategia creativa o de segmentación de modo que la inversión en mensajería y canal coincida con el comportamiento del usuario.
+Si ordena el porcentaje de conversiones totales entre dispositivos ([!UICONTROL (xd)]/[!UICONTROL (tl)]) de mayor a menor, comprenderá lo que está impulsando conversiones entre dispositivos superiores a la media. Puede utilizarlo para informar a su estrategia creativa o de segmentación a fin de que la mensajería y la inversión de canal coincidan con el comportamiento del usuario.
 
-* Paquetes: vea qué paquetes generan la mayor cantidad de conversiones totales y cuáles tienen un alto porcentaje de conversiones entre dispositivos. Esto puede ayudarle a comprender dónde concentrar los gastos.
+* Paquetes : ver qué paquetes generan la mayor cantidad de conversiones totales y cuáles tienen un alto porcentaje de conversiones entre dispositivos. Esto puede ayudarle a comprender dónde concentrar el gasto.
 
-* Ubicaciones: compare el rendimiento de la ubicación y la atribución (por ejemplo, un anuncio web móvil puede generar conversiones en el escritorio). Sin un gráfico de dispositivo para la atribución, es posible que se pierda el impacto de una ubicación web móvil en las conversiones de escritorio, o que quede enterrada si la mayoría de los usuarios realizan la conversión en una web de escritorio y no en una web móvil.
+* Ubicaciones : Compare el rendimiento de la ubicación y la atribución (por ejemplo, un anuncio web móvil puede generar conversiones en el escritorio). Sin un gráfico del dispositivo para la atribución, puede perder el impacto de una ubicación web móvil en las conversiones del escritorio, o puede quedar enterrado si la mayoría de los usuarios convierte en escritorio y no en web móvil.
 
-* Anuncios: descubra qué anuncios generan conversiones más altas y cuantifique su valor y su impacto tanto en los navegadores web como en los entornos de aplicaciones móviles.
+* Anuncios : Descubra qué anuncios generan mayores conversiones y cuantifique su valor y su impacto tanto en los navegadores web como en los entornos de aplicaciones móviles.
 
-* Sitios: optimice los sitios en lugar de excluir los sitios manualmente por completo. Si un sitio web genera conversiones entre dispositivos, puede ver en qué dispositivos se produce este comportamiento.
+* Sitios : optimice los sitios en lugar de excluirlos manualmente por completo. Si un sitio web genera conversiones entre dispositivos, puede ver en qué dispositivos se produce este comportamiento.
 
-* Ofertas: mejore la optimización manual comprobando qué ofertas de inventario ofrecen conversiones entre dispositivos y, a continuación, decida si debe ampliar su segmentación para incluir más dispositivos y canales en esas ofertas.
+* Ofertas : mejore la optimización manual comprobando qué ofertas de inventario proporcionan conversiones entre dispositivos y luego decidiendo si debe ampliar el objetivo para incluir más dispositivos y canales en esas ofertas.
 
 >[!MORELIKETHIS]
 >
 >* [Configuración de informes](/help/dsp/reports/report-settings.md)
 >* [Configuración de campaña](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Configuración de paquetes](/help/dsp/campaign-management/packages/package-settings.md)
->* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Configuración de colocación](/help/dsp/campaign-management/placements/placement-settings.md)
 

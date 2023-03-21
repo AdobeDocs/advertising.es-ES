@@ -3,9 +3,9 @@ title: Casos de uso
 description: Obtenga información sobre casos de uso para compartir sus datos de medios de DSP publicitarios con Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Para ejecutar este ejemplo en Audience Manager, debe seguir estos pasos:<!-- The
 
 Una vez que los datos de clics e impresiones de la campaña están disponibles en Audience Manager, puede crear rasgos y segmentos de usuarios que han estado expuestos a una campaña o táctica determinada o con los que han interactuado. Con un [[!DNL Audience Analytics] integración](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html), los segmentos del Audience Manager se pueden sincronizar con [!DNL Analytics] para un análisis más detallado. Entre los posibles casos de uso se incluyen los siguientes:
 
-* **Análisis de la interacción entre DSP y [!DNL Adobe Advertising Search] anuncios:** La [[!DNL Analytics for Advertising] integración](/help/integrations/analytics/overview.md) no proporciona perspectivas sobre la interacción entre DSP y [!DNL Search] porque ambos canales utilizan ID de AMO que siguen reglas de atribución de ID de AMO, para los que un clic de búsqueda anula una visualización. Al crear un segmento de exposición DSP en el Audience Manager, puede usar [!DNL Audience Analytics] para analizar la interacción entre DSP y [!DNL Search] anuncios en [!DNL Analytics].
+* **Análisis de la interacción entre DSP y [!DNL Advertising Search, Social, & Commerce] anuncios:** La [[!DNL Analytics for Advertising] integración](/help/integrations/analytics/overview.md) no proporciona perspectivas sobre la interacción entre DSP y [!DNL Search, Social, & Commerce] porque ambos canales utilizan ID de AMO que siguen reglas de atribución de ID de AMO, para los que un clic de búsqueda anula una visualización. Al crear un segmento de exposición DSP en el Audience Manager, puede usar [!DNL Audience Analytics] para analizar la interacción entre DSP y [!DNL Search, Social, & Commerce] anuncios en [!DNL Analytics].
 
 * **Análisis de frecuencia:** Puede crear segmentos en el Audience Manager en función de cuántas veces se ha expuesto un usuario a un anuncio o campaña en particular. A continuación, puede analizar los diferentes segmentos de exposición en Analytics para ver cómo cambia el comportamiento del usuario en función del número de exposiciones DSP.
 

@@ -3,7 +3,7 @@ title: Optimización
 description: Obtenga más información sobre las funciones de optimización.
 feature: DSP Introduction, DSP Optimization
 exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Al configurar una campaña programática, uno de los elementos clave a considera
 
 La publicidad DSP optimiza las métricas que más le interesen en dos fases. En primer lugar, desplaza el gasto a las ubicaciones o tácticas que están teniendo el mejor rendimiento, según el objetivo de optimización del paquete. En segundo lugar, ajusta las ofertas de subasta en tiempo real para reflejar el valor económico puntual que equilibra a) la necesidad de entregar su presupuesto en su totalidad con b) los KPI seleccionados. En conjunto, estas fases de optimización garantizan que el presupuesto se invierta de forma eficaz para lograr los objetivos de su campaña.
 
-Para cada una de sus ubicaciones y paquetes, puede elegir un objetivo de optimización. Los objetivos de optimización disponibles incluyen opciones preestablecidas, como &quot;[!UICONTROL Lowest Cost per Click],&quot; y objetivos personalizados que ha configurado como objetivos en [!DNL Adobe Advertising Search].
+Para cada una de sus ubicaciones y paquetes, puede elegir un objetivo de optimización. Los objetivos de optimización disponibles incluyen opciones preestablecidas, como &quot;[!UICONTROL Lowest Cost per Click],&quot; y objetivos personalizados que ha configurado como objetivos en [!DNL Advertising Search, Social, & Commerce].
 
 >[!MORELIKETHIS]
 >

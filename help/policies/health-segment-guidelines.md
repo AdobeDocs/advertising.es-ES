@@ -3,7 +3,7 @@ title: Adobe Publicidad Segmentos de Salud Aceptables
 description: Consulte las directrices para segmentos de audiencia relacionados con el estado aceptables y las tácticas para utilizarlos como alternativas para segmentar segmentos de audiencia relacionados con el estado.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Directrices de segmentos de mantenimiento aceptables para publicidad de Adobe
 
-*Para DSP publicitarias de Adobe y[!DNL Adobe Advertising Search]*
+*Para DSP publicitarias de Adobe y[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 Las siguientes directrices describen segmentos de audiencia inaceptables y aceptables relacionados con el estado de salud. También recomiendan tácticas para usar como alternativas a la segmentación de segmentos de audiencia relacionados con el estado.
 
