@@ -3,9 +3,9 @@ title: Integraciones de publicidad de Adobe con Adobe Analytics
 description: Obtenga información sobre cómo la publicidad de Adobe puede intercambiar datos con Adobe Analytics y cómo puede utilizar los datos en Buscar, Social y Comercio.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: def6a3a8d1de1f9f80dee6ecd1a18667afc79fd3
+source-git-commit: 06996ee9eb635fe204c0c3938e6937e8871c8a90
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Puede integrar la publicidad de Adobe con Analytics de las siguientes maneras.
 
-## Intercambiar datos entre [!AAnalytics] y publicidad de Adobe
+## Intercambiar datos entre [!DNL Analytics] y publicidad de Adobe
 
-### Pull [!AAnalytics] Datos en publicidad de Adobe
+### Pull [!DNL Analytics] Datos en publicidad de Adobe
 
 con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] y DSP extraer:
 
@@ -24,9 +24,9 @@ con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 * **[!DNL Analytics]métricas de participación del sitio**
 
-* **[!DNL Analytics]Métricas estándar, personalizadas y reservadas**
+* **[!DNL Analytics]métricas estándar, personalizadas y reservadas**
 
-### Enviar datos publicitarios de Adobe a [!AAnalytics]
+### Enviar datos publicitarios de Adobe a [!DNL Analytics]
 
 * **Métricas de tráfico de la publicidad de Adobe**
 
