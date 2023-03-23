@@ -2,16 +2,16 @@
 title: Preguntas frecuentes sobre el vídeo universal
 description: Obtenga más información sobre los anuncios universales en vídeo.
 feature: DSP Placements, DSP Ads
-source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
+source-git-commit: 2caacfcbdb3c9d0d91ca26829de5829654f9ab8a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # Preguntas frecuentes sobre el vídeo universal
 
-[Anuncios de vídeo universales](/help/dsp/campaign-management/ads/ad-about.md) permite segmentar el inventario de vídeo desde entornos de escritorio, móviles y TV conectada para el inventario VPAID y VAST mediante una única ubicación de vídeo.
+[Anuncios de vídeo universales](/help/dsp/campaign-management/ads/ad-about.md#ad-types) permite segmentar el inventario de vídeo desde entornos de escritorio, móviles y TV conectada para el inventario VPAID y VAST mediante una única ubicación de vídeo.
 
 ## ¿Cómo se crean colocaciones y publicidades de vídeo universales?
 
