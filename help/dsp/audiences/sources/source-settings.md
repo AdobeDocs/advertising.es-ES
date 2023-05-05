@@ -3,16 +3,14 @@ title: Configuración de fuente de audiencia
 description: Obtenga información sobre la configuración de las fuentes de audiencia.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 4dbc2331570f6ab88a224e25a78532c10df9d311
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
 # Configuración de fuente de audiencia
-
-*Función beta*
 
 **[!UICONTROL Data Visibility Level]:** Si los segmentos están disponibles para un único anunciante con acceso a la cuenta (*[!UICONTROL Advertiser]*) o a todos los anunciantes con acceso a la cuenta *[!UICONTROL Account]*.
 
