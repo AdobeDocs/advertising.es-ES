@@ -1,9 +1,9 @@
 ---
 title: Preguntas frecuentes sobre [!UICONTROL Household] Informe
 description: Obtenga más información sobre [!UICONTROL Household] informe, incluida su diferencia con respecto a otros informes y solución de problemas.
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ No se admiten las métricas de conversión y los objetivos personalizados.
 
 ## ¿Cuál es la diferencia entre las métricas de superposición y no superposición?
 
-La siguiente figura muestra tres métricas (Hogar único, Hogar incremental y Hogar incremental (superposición)) para tres campañas (A, B y C).
+En la siguiente figura se muestran tres métricas (Se llegó a un hogar único, Se llegó a un hogar incremental y Hogar incremental (Superposición)) para tres campañas (A, B y C).
 
 ![Ilustración de las métricas de superposición de hogares](/help/dsp/assets/household-overlap-metrics-illustration.png "Ilustración de las métricas de superposición de hogares")
 
-* El Hogar único alcanzado (total) proporciona el Hogar único alcanzado por cada una de las campañas o el área total de cada uno de los círculos. En la figura, Hogar único alcanzado por A = Hogar incremental alcanzado por A + (A+C) + (A+B) +(A+B+C)
+* El Hogar único alcanzado (total) proporciona el Hogar único alcanzado por cada una de las campañas o el área total de cada uno de los círculos. En la figura, Hogar único alcanzado por A = Hogar incremental alcanzado por A + (A+B) + (A+C) +(A+B+C)
 
-* El Hogar Incremental Alcanzado es el Hogar Único al que solo se ha llegado mediante una campaña. En la cifra, el hogar incremental al que se llega mediante A, B y C es el hogar incremental al que llegan A través de A, B y C, respectivamente.
+* El Hogar Incremental Alcanzado es el Hogar Único al que solo se ha llegado mediante una campaña. En la cifra, el hogar incremental al que llegan A nivel A, B y C es el hogar incremental al que llegan A nivel A, B y C, respectivamente.
 
-* El Hogar incremental (superposición) es el Hogar único alcanzado por la campaña o combinación de campañas. En la figura, el Hogar Incremental alcanzado por A, C es A+C.
+* El Hogar incremental (superposición) es el Hogar único alcanzado por la campaña o combinación de campañas. En la figura, el Hogar Incremental Alcanzado por A, C es A+C.
 
 ## Flujo de trabajo
 
