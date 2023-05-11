@@ -3,9 +3,9 @@ title: Configuración de informes personalizados
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** El nombre del informe. La longitud máxima es de 180 caracteres.
 
-**[!UICONTROL Report Type]** Tipo de informe: *[!UICONTROL Custom]* (que incluye las opciones más disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]* o *[!UICONTROL Site]*.
+**[!UICONTROL Report Type]** Tipo de informe: *[!UICONTROL Custom]* (que incluye las opciones más disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]* o *[!UICONTROL Household]*.
 
 ## [!UICONTROL Apply Filters] Sección
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Last Calendar Month]:** Incluye datos del mes del calendario anterior.
 
-**[!UICONTROL Add Filters]:** (Opcional) Dimensiones adicionales según las cuales filtrar los datos, independientemente de si las dimensiones se incluyen como columnas en el informe: *[!UICONTROL Account]*,\* *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Placement]*, *[!UICONTROL Ad]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Video]*, *[!UICONTROL Video Duration]*, *[!UICONTROL Country]* y *[!UICONTROL Package]*.
+**[!UICONTROL Add Filters]:** (Opcional) Dimensiones adicionales según las cuales filtrar los datos, independientemente de si las dimensiones se incluyen como columnas en el informe o no. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* y *[!UICONTROL Video Duration]*.
 
 \* *[!UICONTROL Account]* solo está disponible para los siguientes tipos de informes cuando su organización está configurada para [informes entre cuentas](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]y [!UICONTROL Conversion]. Póngase en contacto con su equipo de cuentas de Adobe para obtener más información sobre los informes entre cuentas.
 
@@ -42,12 +42,25 @@ Para aplicar uno o más filtros, haga lo siguiente:
 
 ## [!UICONTROL Build Your Report] Sección
 
-**[!UICONTROL Select To Add As Report Headers]:**  Las columnas de datos, o encabezados, que se incluirán en el informe. Para agregar una columna, expanda la categoría y seleccione la casilla de verificación situada junto al nombre de la columna. Todas las métricas no disponibles están deshabilitadas. Las categorías de datos disponibles incluyen:
+**[!UICONTROL Select To Add As Report Headers]:**  Las columnas de datos, o encabezados, que se incluirán en el informe. Para agregar una columna, expanda la categoría y seleccione la casilla de verificación situada junto al nombre de la columna. Las columnas disponibles varían según el informe y todas las métricas no disponibles están deshabilitadas. Las categorías de datos disponibles incluyen:
 
 * [!UICONTROL Dimensions]
+
+   >[!NOTE]
+   >
+   > La variable [!UICONTROL Household] El informe solo puede incluir una dimensión.
+
 * [!UICONTROL Metrics]
+
+   >[!NOTE]
+   >
+   >La variable [!UICONTROL Household] puede incluir métricas de superposición o métricas que no sean de superposición, pero no ambas.
+
 * [!UICONTROL Conversion Metrics] (ordenado por anunciante)
+
 * [!UICONTROL Custom Goals] (ordenado por anunciante)
+
+Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para obtener descripciones de todas las opciones.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Orden de los encabezados de columna. Puede arrastrar y soltar cualquier columna para personalizar el orden.
 
