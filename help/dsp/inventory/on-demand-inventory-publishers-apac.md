@@ -1,11 +1,11 @@
 ---
-title: '[!DNL On Demand] Editores de inventario Premium en Asia-Pacífico'
-description: Consulte los [!DNL On Demand] editores de inventario premium en la región de Asia-Pacífico.
+title: '[!DNL On Demand] Premium Inventory Publishers in Asia-Pacífico'
+description: Consulte los disponibles [!DNL On Demand] editores de inventario premium en la región de Asia y el Pacífico.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| Editor | Geografía |
+| Editor | Geo |
 |-----------------------------|---------------|
 | [!DNL BBC] | Buena China |
 | [!DNL Bloomberg] | Buena China |
@@ -367,13 +367,13 @@ ht-degree: 0%
 | [!DNL Yan.vn] | Vietnam |
 | [!DNL Zing.vn] | Vietnam |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de [!DNL On Demand] Inventario Premium](on-demand-inventory-about.md)
 >* [Suscribirse y solicitar acceso a [!DNL On Demand] Inventario Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Editores de inventario Premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Editores de Inventario Premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Editores de inventario Premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium] Editores de inventario en Norteamérica](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand Premium] Editores de inventario en América del Norte](on-demand-inventory-publishers-na.md)
 

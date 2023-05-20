@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Documentación de políticas y directrices sobre publicidad de Adobe
+# Documentación sobre directivas y directrices para publicidad de Adobe
 
-Esta es la carpeta de documentación de ayuda sobre las directivas y directrices de publicidad entre Adobes.
+Esta es la carpeta para la documentación de ayuda sobre las políticas y directrices de publicidad en Adobes múltiples.
 
-**Nota: Esta página no se publica en la documentación de cara al cliente.**
+**Nota: Esta página no se publica en la documentación de cliente.**

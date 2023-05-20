@@ -1,6 +1,6 @@
 ---
-title: Duplicar un informe personalizado
-description: Aprenda a crear un informe personalizado duplicando un informe existente.
+title: Duplicación de un informe personalizado
+description: Obtenga información sobre cómo crear un informe personalizado mediante la duplicación de un informe existente.
 feature: DSP Custom Reports
 exl-id: 20542bf8-69e9-44e0-9637-56b27f2de9ec
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Duplicar un informe personalizado
+# Duplicación de un informe personalizado
 
 Duplique un informe personalizado para crear un nuevo informe con una configuración similar.
 
@@ -27,8 +27,8 @@ Duplique un informe personalizado para crear un nuevo informe con una configurac
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
->* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
->* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
->* [Configuración de informes personalizados](/help/dsp/reports/report-settings.md)
+>* [Creación de un informe personalizado](/help/dsp/reports/report-create.md)
+>* [Edición de un informe personalizado](/help/dsp/reports/report-edit.md)
+>* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 

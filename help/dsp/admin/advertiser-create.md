@@ -3,8 +3,8 @@ title: Crear una cuenta de anunciante
 description: Obtenga información sobre cómo crear una cuenta de anunciante.
 source-git-commit: ace64d46a8e0394d460f3894fe8823b048c28dc0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 *No disponible para usuarios de solo lectura*
 
-Los anunciantes están disponibles para todos los usuarios de la cuenta de organización.
+Los anunciantes están disponibles para todos los usuarios de la cuenta de la organización.
 
 1. En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. Haga clic **[!UICONTROL Create]**.
 
-1. Especifique la variable [configuración del anunciante](advertiser-settings.md):
+1. Especifique el [configuración del anunciante](advertiser-settings.md):
 
    1. En el [!UICONTROL General] configuración:
 
-      1. Especifique la variable [!UICONTROL General] configuración.
+      1. Especifique el [!UICONTROL General] configuración.
 
-      1. (Opcional) Para configurar integraciones entre DSP y otros productos de Adobe Experience Cloud, introduzca el ID de organización de Experience Cloud del anunciante en la [!UICONTROL Adobe IMS IDs] y, a continuación, configure las integraciones de productos en la sección [!UICONTROL Integrations] para obtener más información.
-   1. (Opcional) En la [!UICONTROL Targeting] , especifique los objetivos predeterminados para cada nueva ubicación.
+      1. DSP (Opcional) Para configurar integraciones entre los productos de Adobe Experience Cloud y los de, introduzca el ID de organización Experience Cloud del anunciante en la variable [!UICONTROL Adobe IMS IDs] y, a continuación, configure las integraciones de producto en la sección [!UICONTROL Integrations] sección.
+   1. (Opcional) En el [!UICONTROL Targeting] en las secciones, especifique los destinos por defecto para cada nueva ubicación.
 
-      Puede anular los objetivos predeterminados para cualquier ubicación que cree.
+      Puede anular los destinos por defecto de cualquier ubicación que cree.
 
 
 1. Haga clic **[!UICONTROL Save]**.

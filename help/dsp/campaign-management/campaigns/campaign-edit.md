@@ -1,5 +1,5 @@
 ---
-title: Editar una campaña
+title: Edición de una campaña
 description: Obtenga información sobre cómo editar una campaña.
 feature: DSP Campaigns
 exl-id: d0cbcd11-138a-41be-a027-e5e49e24afa2
@@ -10,7 +10,7 @@ ht-degree: 2%
 
 ---
 
-# Editar una campaña
+# Edición de una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Junto al nombre de la campaña, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
@@ -21,6 +21,6 @@ ht-degree: 2%
 >
 >* [Acerca de Campaign Management](campaign-about.md)
 >* [Creación de una campaña](campaign-create.md)
->* [Ver el registro de cambios de una campaña](campaign-change-log.md)
+>* [Visualización del registro de cambios de una campaña](campaign-change-log.md)
 >* [Configuración de campaña](campaign-settings.md)
 

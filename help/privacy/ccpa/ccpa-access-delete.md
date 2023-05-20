@@ -1,6 +1,6 @@
 ---
-title: 'Compatibilidad de Adobe Advertising con la Ley de Privacidad del Consumidor de California : Compatibilidad con el acceso y la eliminación de datos del consumidor'
-description: Obtenga información sobre los tipos de solicitudes de datos compatibles, los valores de campo y configuración necesarios, y ejemplos de solicitudes de acceso a API que utilizan ID de productos heredados y campos de datos devueltos.
+title: 'Adobe Compatibilidad de Advertising con la Ley de Privacidad del Consumidor de California : Compatibilidad de acceso y eliminación de datos del consumidor'
+description: Obtenga información sobre los tipos de solicitud de datos admitidos, los valores de configuración y campo requeridos, y ejemplos de solicitudes de acceso a la API que utilizan ID de productos heredados y campos de datos devueltos.
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
@@ -10,72 +10,72 @@ ht-degree: 0%
 
 ---
 
-# Soporte publicitario de Adobe para la Ley de Privacidad del Consumidor de California: Compatibilidad con el acceso y la eliminación de datos del consumidor
+# Adobe Compatibilidad de publicidad con la Ley de Privacidad del Consumidor de California: Compatibilidad de acceso y eliminación de datos del consumidor
 
-*Para [!DNL Adobe Advertising Search, Social, & Commerce]; DSP publicitario de Adobe; Creativo de publicidad de Adobe; y Adobe Advertising DCO*
+*Para [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe DSP Advertising, Adobe Advertising Creative; y Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
 >El contenido de este documento no constituye asesoramiento jurídico y no está pensado para sustituir el asesoramiento jurídico. Consulte con su asesor legal para obtener asesoramiento sobre la Ley de Privacidad del Consumidor de California.
 
-La Ley de Privacidad del Consumidor de California (CCPA) es la nueva ley de privacidad de California, que entró en vigor el 1 de enero de 2020. La CCPA otorga a los residentes de California nuevos derechos con respecto a su información personal e impone responsabilidades de protección de datos a ciertas entidades que operen en California. La CCPA otorga a los consumidores el derecho de acceder a su información personal y eliminarla, así como el derecho de exclusión de determinadas actividades que pueden considerarse &quot;vendedoras&quot; de información personal a terceros.
+La Ley de Privacidad del Consumidor de California (CCPA) es la nueva ley de privacidad de California que entró en vigor el 1 de enero de 2020. La CCPA otorga a los residentes de California nuevos derechos con respecto a su información personal e impone responsabilidades de protección de datos a ciertas entidades que hacen negocios en California. La CCPA otorga a los consumidores el derecho de acceder a sus datos personales y suprimirlos, así como el derecho de exclusión de determinadas actividades que pueden considerarse &quot;vendedoras&quot; de información personal a terceros.
 
 Como empresa, determinará los datos personales que Adobe Experience Cloud procesa y almacena en su nombre.
 
-Como proveedor de servicios, Adobe Advertising proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone la CCPA y que son aplicables al uso de los productos y servicios de Adobe Advertising, incluida la gestión de solicitudes de acceso y eliminación de información personal y la gestión de solicitudes de exclusión de la venta de información personal.
+Como proveedor de servicio, Adobe Advertising proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone CCPA y que son aplicables al uso de los productos y servicios de Adobe Advertising, incluida la gestión de solicitudes de acceso y eliminación de información personal y la gestión de solicitudes de exclusión de la venta de información personal.
 
-Este documento describe cómo [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; DSP publicitario (Demand Side Platform); y [!DNL Advertising DCO] — como proveedores de servicios — apoyar los derechos de los consumidores a acceder y suprimir información personal mediante el Adobe [!DNL Experience Platform Privacy Service API] y [!DNL Privacy Service UI].
+Este documento describe cómo [!DNL Advertising Search, Social, & Commerce]DSP ; Advertising Creative; Advertising (Demand Side Platform); y [!DNL Advertising DCO] — como proveedores de servicios — respaldar los derechos de los consumidores a acceder a información personal y suprimirla mediante el Adobe [!DNL Experience Platform Privacy Service API] y [!DNL Privacy Service UI].
 
-Para obtener información sobre cómo la DSP publicitaria admite el derecho del consumidor a excluirse de la venta de información personal, consulte [Soporte publicitario de Adobe para la Ley de Privacidad del Consumidor de California: Compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+DSP Para obtener información sobre cómo Advertising respalda el derecho del consumidor a excluirse de la venta de información personal, consulte [Adobe Compatibilidad con publicidad para la Ley de Privacidad del Consumidor de California: Compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-Para obtener más información sobre los servicios de privacidad de Adobe para la CCPA, consulte la [Centro de privacidad de Adobe](https://www.adobe.com/privacy/ccpa.html).
+Para obtener más información sobre los servicios de privacidad de Adobe de la CCPA, consulte la [Centro de privacidad de Adobe](https://www.adobe.com/privacy/ccpa.html).
 
-## Tipos de solicitudes de datos compatibles con la publicidad de Adobe
+## Tipos de solicitud de datos compatibles con la publicidad de Adobe
 
-Adobe Experience Platform permite a las empresas realizar las siguientes tareas:
+Adobe Experience Platform permite a las empresas completar las siguientes tareas:
 
-* Acceda a los datos de nivel de cookie de un consumidor o a los datos de nivel de ID de dispositivo (para anuncios en aplicaciones móviles) dentro de [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]o [!DNL DCO].
-* Eliminar datos de nivel de cookie almacenados dentro de [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]o [!DNL DCO] para los consumidores que utilicen un navegador; o eliminar datos de nivel de ID almacenados en [!DNL DSP] para consumidores que usan aplicaciones en dispositivos móviles.
-* Compruebe el estado de una solicitud o de todas las solicitudes existentes.
+* Acceda a los datos de un consumidor en el nivel de cookies o a los datos en el nivel de ID del dispositivo (para anuncios en aplicaciones móviles) en [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], o [!DNL DCO].
+* Eliminar datos de nivel de cookie almacenados en [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], o [!DNL DCO] para consumidores que utilicen un explorador, o bien eliminar los datos de nivel de ID almacenados en [!DNL DSP] para consumidores que utilizan aplicaciones en dispositivos móviles.
+* Compruebe el estado de una o todas las solicitudes existentes.
 
 ## Configuración necesaria para enviar solicitudes de publicidad de Adobe
 
-Para realizar solicitudes de acceso y eliminación de información personal del consumidor de la publicidad de Adobe, deberá:
+Para realizar solicitudes de acceso y eliminación de información personal del consumidor de Adobe Advertising, deberá:
 
 1. Implemente una biblioteca JavaScript para recuperar y eliminar las cookies del cliente. La misma biblioteca, `AdobePrivacy.js`, se utiliza para todas las soluciones de Adobe Experience Cloud.
 
    >[!IMPORTANT]
    >
-   >Las solicitudes a algunas soluciones de Experience Cloud no requieren la biblioteca JavaScript, pero las solicitudes de Adobe de publicidad sí lo requieren.
+   >Las solicitudes a algunas soluciones de Experience Cloud no requieren la biblioteca JavaScript, pero las solicitudes a la publicidad de Adobe sí la requieren.
 
-   Debe implementar la biblioteca en la página web desde la que los clientes pueden enviar solicitudes de acceso y eliminación, como el portal de privacidad de su empresa. La biblioteca de ayuda a recuperar las cookies de Adobe (ID de área de nombres: `gsurferID`) para poder enviar estas identidades como parte de las solicitudes de acceso y eliminación a través de la función [!DNL Adobe Experience Platform Privacy Service API].
+   Debe implementar la biblioteca en la página web desde la que los clientes pueden enviar solicitudes de acceso y eliminación, como el portal de privacidad de la compañía. La biblioteca de ayuda a recuperar las cookies de Adobe (ID de área de nombres: `gsurferID`) para que pueda enviar estas identidades como parte de las solicitudes de acceso y eliminación a través de [!DNL Adobe Experience Platform Privacy Service API].
 
    Cuando el cliente solicita eliminar datos personales, la biblioteca también elimina la cookie del cliente del explorador del cliente.
 
    >[!NOTE]
    >
-   >La eliminación de datos personales es diferente a la exclusión, que detiene la segmentación de un usuario final con segmentos de audiencia. Sin embargo, cuando un consumidor solicita eliminar datos personales de [!DNL Creative], [!DNL DSP]o [!DNL DCO], la biblioteca también envía una solicitud a Adobe Advertising para excluir al cliente de la segmentación. Para anunciantes con [!DNL Search, Social, & Commerce], le recomendamos que proporcione un vínculo a los clientes de [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), que explica cómo desactivar la segmentación de segmentos de audiencia.
+   >La eliminación de datos personales es diferente a la exclusión, lo que detiene el direccionamiento de un usuario final con segmentos de audiencia. Sin embargo, cuando un consumidor solicita eliminar datos personales de [!DNL Creative], [!DNL DSP], o [!DNL DCO]Además, la biblioteca también envía una solicitud a la publicidad de Adobe para excluir al cliente de la segmentación de segmentos. Para anunciantes con [!DNL Search, Social, & Commerce], le recomendamos que proporcione a sus clientes un vínculo a [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), que explica cómo excluirse de la segmentación de segmentos de audiencia.
 
-1. Identifique su ID de organización de Experience Cloud y asegúrese de que esté vinculado a sus cuentas publicitarias de Adobe.
+1. Identifique su ID de organización de Experience Cloud y asegúrese de que esté vinculado a sus cuentas de publicidad de Adobe.
 
-   Un ID de organización de Experience Cloud es una cadena alfanumérica de 24 caracteres anexada a &quot;@AdobeOrg&quot;. A la mayoría de los clientes Experience Cloud se les ha asignado un ID de organización. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen su ID de organización o no están seguros de si se ha aprovisionado, póngase en contacto con el servicio de atención al cliente de Adobe en gdprsupport@adobe.com. Necesitará el ID de organización para enviar solicitudes a la API de privacidad mediante el `imsOrgID` espacio de nombres.
+   Un ID de organización de Experience Cloud es una cadena alfanumérica de 24 caracteres anexada a &quot;@AdobeOrg&quot;. A la mayoría de los clientes de Experience Cloud se les ha asignado un ID de organización. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen el ID de la organización o no están seguros de si se ha proporcionado, póngase en contacto con el servicio de atención al cliente de Adobe en gdprsupport@adobe.com. Necesitará el ID de organización para enviar solicitudes a la API de privacidad mediante `imsOrgID` namespace.
 
    >[!IMPORTANT]
    >
-   >Póngase en contacto con el representante publicitario de Adobe de su empresa para confirmar que todas las cuentas publicitarias de Adobe de su organización, incluidas [!DNL DSP] cuentas o anunciantes, [!DNL Search, Social, & Commerce] cuentas y [!DNL Creative] o [!DNL DCO] cuentas: están vinculadas a su ID de organización de Experience Cloud.
+   >Póngase en contacto con el representante de publicidad de Adobe de su compañía para confirmar que todas las cuentas de publicidad de Adobe de su organización, incluidas [!DNL DSP] cuentas o anunciantes, [!DNL Search, Social, & Commerce] cuentas, y [!DNL Creative] o [!DNL DCO] cuentas: están vinculadas a su ID de organización de Experience Cloud.
 
-1. Utilice cualquiera de las opciones [API de Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitudes automatizadas) o [IU de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (para solicitudes ad hoc) presentar solicitudes de acceso y eliminación de información personal a Adobe Advertising en nombre de los consumidores, y comprobar el estado de las solicitudes existentes.
+1. Utilice cualquiera de las [API de Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitudes automatizadas) o la [IU de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es) (en el caso de solicitudes ad hoc) para enviar solicitudes de acceso y eliminación de información personal a Adobe Advertising en nombre de los consumidores, y para comprobar el estado de las solicitudes existentes.
 
-   Para anunciantes que tienen una aplicación móvil para interactuar con clientes e iniciar campañas con [!DNL DSP], deberá descargar los SDK para móviles preparados para la privacidad para el Experience Cloud. Los SDK móviles permiten a las empresas establecer indicadores de estado de exclusión y recuperar el ID del dispositivo del consumidor (ID de espacio de nombres: `deviceID`) y enviar solicitudes a la API de Privacy Service. La aplicación móvil necesitará una versión 4.15.0 o buena del SDK.
+   Para anunciantes que tienen una aplicación móvil para interactuar con clientes e iniciar campañas con [!DNL DSP], deberá descargar los SDK móviles preparados para la privacidad para Experience Cloud. Los SDK móviles permiten a las empresas establecer indicadores de estado de exclusión y recuperar el ID de dispositivo del consumidor (ID de área de nombres: `deviceID`) y envíe solicitudes a la API de Privacy Service. La aplicación móvil requiere una versión 4.15.0 o buena del SDK.
 
-   Al enviar una solicitud de acceso de consumidor, la API de Privacy Service devuelve la información de un consumidor en función de la cookie o el ID de dispositivo especificados, que debe devolver al consumidor.
+   Cuando envía una solicitud de acceso de consumidor, la API de Privacy Service devuelve la información de un consumidor en función de la cookie especificada o el ID de dispositivo, que debe devolver al consumidor.
 
-   Cuando envía una solicitud de eliminación de consumidor, el ID de cookie o ID de dispositivo y todos los datos de costes, clics e ingresos asociados con la cookie se eliminan del servidor.
+   Cuando envía una solicitud de eliminación de consumidor, el ID de cookie o el ID de dispositivo y todos los datos de costes, clics e ingresos asociados con la cookie se eliminan del servidor.
 
    >[!NOTE]
-   Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de publicidad de Adobe ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]y [!DNL DCO]), con una cuenta por subsolución.
+   Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de publicidad de Adobe ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], y [!DNL DCO]), con una cuenta por subsolución.
 
-Todos estos pasos son necesarios para recibir soporte de la Publicidad de Adobe. Para obtener más información sobre estas y otras tareas relacionadas que debe realizar con Adobe Experience Platform Privacy Service, y dónde encontrar los elementos que necesita, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información sobre estas y otras tareas relacionadas que debe realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos que necesita, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Valores de campo requeridos en solicitudes JSON de publicidad de Adobe
 
@@ -86,21 +86,21 @@ Todos estos pasos son necesarios para recibir soporte de la Publicidad de Adobe.
 
 &quot;usuarios&quot;:
 
-* `"key":` &lt;*normalmente el nombre del cliente*>
+* `"key":` &lt;*normalmente es el nombre del cliente*>
 
-* `"action":` o `**access**` o `**delete**`
+* `"action":` o bien `**access**` o `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (lo que indica el espacio de cookies de adcloud)
+   * `"namespace": **411**` (que indica el espacio de cookies de adcloud)
 
-   * `"value":` &lt;*el valor de ID de cookie del cliente real recuperado de`AdobePrivacy.js`*>
+   * `"value":` &lt;*el valor real del ID de cookie del cliente recuperado de`AdobePrivacy.js`*>
 
 * `"include": **adCloud**` (que es el producto de Adobe que se aplica a la solicitud)
 
 * `"regulation": **ccpa**` (que es la norma de privacidad que se aplica a la solicitud)
 
-## Ejemplo de solicitud enviada por un consumidor mediante un ID de usuario publicitario de Adobe recuperado de AdobePrivacy.js
+## Ejemplo de solicitud enviada por un consumidor con un ID de usuario de publicidad de Adobe recuperado de AdobePrivacy.js
 
 ```
 {
@@ -132,9 +132,9 @@ Todos estos pasos son necesarios para recibir soporte de la Publicidad de Adobe.
 }
 ```
 
-## Campos de datos que se devuelven para solicitudes de acceso
+## Campos de datos que se devuelven para las solicitudes de acceso
 
-El siguiente es un ejemplo de una respuesta de acceso a información personal para la publicidad de Adobe.
+A continuación se muestra un ejemplo de una respuesta de acceso a información personal para la publicidad de Adobe.
 
 ```
 {

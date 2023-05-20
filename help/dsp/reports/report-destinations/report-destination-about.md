@@ -1,6 +1,6 @@
 ---
 title: Acerca de [!UICONTROL Report Destinations]
-description: Obtenga información sobre la administración de ubicaciones de envío para los informes personalizados.
+description: Obtenga información sobre la administración de ubicaciones de entrega para los informes personalizados.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -12,35 +12,35 @@ ht-degree: 0%
 
 # Acerca de [!UICONTROL Report Destinations]
 
-Puede crear y administrar ubicaciones de envío, llamadas *[!DNL report destinations]*, para sus informes personalizados. Una vez configurados los destinos de los informes, puede configurar cada uno de los informes personalizados para que se envíen a una o más ubicaciones de un solo tipo de destino. Una vez guardado el informe, no se puede cambiar el tipo de destino.
+Puede crear y administrar ubicaciones de entrega, denominadas *[!DNL report destinations]*, para sus informes personalizados. Una vez configurados los destinos de los informes, puede configurar cada uno de los informes personalizados para que se envíen a una o varias ubicaciones de un solo tipo de destino. Una vez guardado un informe, no se puede cambiar el tipo de destino.
 
 ## Disponible [!UICONTROL Destination Types]
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
-* FTP SSL (en versión beta)
+* SSL de FTP (en versión beta)
 
 >[!NOTE]
 >
-> También puede enviar sus informes personalizados a los destinatarios de correo electrónico, que no necesitan un destino de informe guardado. Puede especificar destinatarios de correo electrónico, en lugar de destinos guardados, dentro de la configuración del informe.
+> También puede enviar los informes personalizados a los destinatarios de correo electrónico, que no requieren un destino de informe guardado. Puede especificar destinatarios de correo electrónico, en lugar de destinos guardados, dentro de la configuración del informe.
 
-## La variable [!UICONTROL Report Destinations] Ver
+## El [!UICONTROL Report Destinations] Ver
 
-La variable [!UICONTROL Report Destinations] la vista muestra todos los destinos existentes y el número de informes vinculados a cada uno. Puede filtrar la lista por tipo de destino.
+El [!UICONTROL Report Destinations] La vista muestra todos los destinos existentes y el número de informes vinculados a cada uno. Puede filtrar la lista por tipo de destino.
 
-Desde esta vista puede crear nuevos destinos y editar y eliminar los existentes.
+Puede crear nuevos destinos y editar y eliminar destinos existentes desde esta vista.
 
 >[!NOTE]
 >
->La actualización de las credenciales de los destinos de informe existentes no interrumpirá el envío del informe, siempre que las credenciales sean válidas.
+>La actualización de las credenciales de los destinos de informe existentes no interrumpirá la entrega de informes, siempre y cuando las credenciales sean válidas.
 
 ![Destinos del informe](/help/dsp/assets/report-destinations.png)
 
 >[!MORELIKETHIS]
 >
->* [Cree un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Crear un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Configuración](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Editar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Editar una [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
 

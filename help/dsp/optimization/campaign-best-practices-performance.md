@@ -102,7 +102,7 @@ A continuación se indican las opciones de colocación recomendadas para las cam
 Configurará la optimización de CPA o ROAS en el nivel de paquete (consulte Paso 3: Creación de paquetes), pero puede agregar ajustes de nivel de ubicación adicionales.
 
 * **Puja máxima:**
-   * Para las ubicaciones de prospección, utilice una oferta máxima baja ($5).
+   * Para las ubicaciones de prospección, utilice una oferta máxima baja (5 dólares).
    * Para volver a segmentar reemplazos, usa una puja máxima alta (12 dólares).
 
 * **Filtros de ofertas previas:** Minimice o, idealmente, evite establecer filtros de oferta previa agresivos, lo que impide que la ubicación alcance la escala. Las prácticas recomendadas incluyen las siguientes:

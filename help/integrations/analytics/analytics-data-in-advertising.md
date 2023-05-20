@@ -12,31 +12,31 @@ ht-degree: 0%
 
 # [!DNL Analytics] Datos en publicidad de Adobe
 
-*Anunciantes con Adobe de solo integración de Advertising-Adobe Analytics*
+*Anunciantes con una integración de Adobe de Advertising-Adobe Analytics solamente*
 
 ## Segmentos de Analytics
 
-Todos los segmentos creados en [!DNL Analytics] y publicado para el Experience Cloud.
+Todos los segmentos creados en [!DNL Analytics] y publicado en el Experience Cloud.
 
-Los nuevos segmentos tardan entre 24 y 48 horas en aparecer en la publicidad de Adobe. Las actualizaciones de los segmentos existentes se sincronizan en un plazo aproximado de ocho horas.
+Los nuevos segmentos tardan entre 24 y 48 horas en aparecer en la publicidad de Adobe. Las actualizaciones de los segmentos existentes se sincronizan en unas ocho horas.
 
 <!-- I added "metric" to some of the links below, even though it looks redundant, because of syntax limitations: If you use [!DNL] or [!UICONTROL] as the sole text of a link (such as [[!UICONTROL Revenue]], the tag is included in the link text (such as "[!UICONTROL Revenue]") when it's published. -->
 
-## Métricas de participación en el sitio
+## Métricas de participación del sitio
 
 >[!NOTE]
 >
->* [!DNL Analytics] pasa eventos para el eVar de EF ID a la publicidad de Adobe.  La integración predeterminada no admite el envío de métricas calculadas u otras dimensiones (eVars) a Publicidad de Adobe. Sin embargo, si la métrica calculada se puede capturar por completo en un evento personalizado, la publicidad de Adobe puede ingerir el evento personalizado.
->* [!DNL Analytics] pasa datos a Adobe Advertising por hora.
+>* [!DNL Analytics] pasa eventos para el eVar de EF ID a la publicidad de Adobe.  La integración predeterminada no admite el envío de métricas calculadas u otras dimensiones (eVars) a la publicidad de Adobe. Sin embargo, si la métrica calculada se puede capturar por completo en un evento personalizado, la publicidad de Adobe puede introducir el evento personalizado.
+>* [!DNL Analytics] pasa datos a Adobe Advertising cada hora.
 
 
-* [!UICONTROL Timespent_secs_1stvisit]: El número de segundos empleados en el sitio durante la primera visita del visitante.
-* [!UICONTROL Timespent_secs_total]: Número total de segundos empleados en el sitio en todas las visitas dentro de la ventana de retrospectiva de clics.
-* [!UICONTROL Pageviews_1stvisit]: Número de vistas de página del sitio durante la primera visita del visitante.
-* [!UICONTROL Pageviews_total]: Número total de vistas de página del sitio en todas las visitas dentro de la ventana retrospectiva de clics.
+* [!UICONTROL Timespent_secs_1stvisit]: el número de segundos empleados en el sitio durante la primera visita del visitante.
+* [!UICONTROL Timespent_secs_total]: El número total de segundos empleados en el sitio en todas las visitas dentro de la ventana retrospectiva de clics.
+* [!UICONTROL Pageviews_1stvisit]: el número de vistas de página en el sitio durante la primera visita del visitante.
+* [!UICONTROL Pageviews_total]: El número total de vistas de página en el sitio en todas las visitas dentro de la ventana retrospectiva de clics.
 * [[!UICONTROL Bounces] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
 * [[!UICONTROL Visits] métrica](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
-* [!UICONTROL ef_id_instances]: El número de veces que [!DNL Analytics] recopilan un [!UICONTROL EF ID].
+* [!UICONTROL ef_id_instances]: el número de veces que [!DNL Analytics] ha recopilado un [!UICONTROL EF ID].
 
 ## Métricas de conversión
 
@@ -63,6 +63,6 @@ Estas métricas son específicas del grupo de informes, por lo que las métricas
 
 >[!MORELIKETHIS]
 >
->* [Información general sobre [!DNL Analytics for Advertising]](overview.md)
+>* [Información general de [!DNL Analytics for Advertising]](overview.md)
 >* [Métricas de publicidad de Adobe en Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 

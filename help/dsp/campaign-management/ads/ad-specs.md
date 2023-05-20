@@ -1,66 +1,66 @@
 ---
-title: Especificaciones de la publicidad
-description: Haga referencia a las especificaciones generales y específicas del publicador.
+title: Especificaciones del anuncio
+description: Consulte las especificaciones generales y específicas del editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
-# Especificaciones para los tipos de publicidad admitidos
+# Especificaciones para tipos de publicidad admitidos
 
 ## Anuncios de vídeo (anuncio previo a la emisión, CTV y vídeo universal)
 
 ### Pantallas compatibles
 
-Los anuncios se entregan de forma predeterminada en dispositivos de escritorio, móviles y TV conectados. La segmentación por dispositivo está disponible para ajustar la entrega.
+Los anuncios se entregan de forma predeterminada en equipos de escritorio, dispositivos móviles y dispositivos de TV conectados. La segmentación de dispositivos está disponible para ajustar la entrega.
 
 ### Servidores de publicidad de terceros compatibles
 
-Puede utilizar hojas de etiquetas desde [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Socios certificados de servicio de publicidad](certified-ad-servers.md).&quot;
+Puede utilizar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid], y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners de servicio de publicidad certificados](certified-ad-servers.md).&quot;
 
 ### Requisitos para los recursos de vídeo de alta definición (obligatorio)
 
-**Tipo de etiqueta de vídeo:** VPAID 2.0 JavaScript o VAST (CTV). Todas las unidades de anuncios VPAID deben adherirse a la variable [Especificación de VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) tal como se define en la asociación Interactive Advertising Bureau (IAB).
+**Tipo de etiqueta de vídeo:** VPAID 2.0 JavaScript o VAST (CTV). Todas las unidades de anuncios VPAID deben cumplir con las [Especificación de VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) según lo definido por el Interactive Advertising Bureau (IAB).
 
 **Códec de vídeo:** MP4/H.264
 
 **Resolución:** 1280x720 para 720p, 1920x1080 para 1080p
 
-**Velocidad de bits:** De 1500 a 2500 kbps para 720p, de 2500 a 3500 kbps para 1080p
+**Velocidad de bits:** 1.500-2.500 kbps para 720p, 2.500-3.500 kbps para 1080p
 
-**Perfil/Nivel H.264:** Alto perfil, nivel 3.1 para 720p; Alto perfil, nivel 4.0 para 1080p
+**Perfil/nivel H.264:** Perfil alto, nivel 3.1 para 720p; perfil alto, nivel 4.0 para 1080p
 
-**Velocidad de fotogramas de vídeo:** 29,970 fps (comúnmente conocidos como 30 fps) para países NTSC, 25 fps para países PAL, 23,976 fps (comúnmente denominados 24 fps) para contenido con aspecto cinematográfico
+**Velocidad de fotogramas de vídeo:** 29,970 fps (denominada comúnmente como 30 fps) para países NTSC, 25 fps para países PAL, 23,976 fps (denominada comúnmente como 24 fps) para contenido con aspecto cinematográfico
 
 **Espacio de color del vídeo:** 4:2:0 Submuestreo de croma YUV
 
-**Interlineado de vídeo:** Escaneo progresivo, es decir, no entrelazado. Sin movimiento dentro del campo (marcos de mezcla) o entrelazado.
+**Entrelazado de vídeo:** Exploración progresiva, es decir, no entrelazada. Sin movimiento en el interior del campo (fusión de fotogramas) ni entrelazado.
 
-**Líderes (pizarra):** No permitido
+**Responsables (pizarra):** No permitido
 
 **Códec de audio:** AAC-LC o HE-AACv1
 
-**Velocidad de bits de audio:** 128 a 192 kbps para AAC-LC, 64 a 128 kbps para HE-AACv1
+**Velocidad de audio:** 128-192 kbps para AAC-LC, 64-128 kbps para HE-AACv1
 
-**Canal de audio:** Mezcla estéreo de 2 canales
+**Canal de audio:** Mezcla estéreo de dos canales
 
-**Frecuencia de muestra de audio:** 44,1 kHz o 48 kHz, según el material de origen
+**Velocidad de muestreo de audio:** 44,1 kHz o 48 kHz, según el material de origen
 
-**Niveles de audio:** 24 LKFS (+/- 2,0 dB) en EE.UU. según ATSC A/85; 23 LUFS (+/- 1,0) en la UE según EBU R128
+**Niveles de audio:** 24 LKFS (+/- 2,0 dB) en los Estados Unidos según ATSC A/85; 23 LUFS (+/- 1,0) en la UE según EBU R128
 
 #### Requisitos adicionales del editor para anuncios de TV conectados
 
-* **Red A+E:** Consulte la [especificaciones del anuncio](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
+* **Red A+E:** Consulte la red A+E [especificaciones del anuncio](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf)
 
-* **Descubrimiento:** Consulte Discovery&#39;s [especificaciones del anuncio](/help/dsp/assets/discovery-networks-ad-specs.pdf).
+* **Descubrimiento:** Consulte Detección de [especificaciones del anuncio](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
-* **Disney (incl. Hulu):** Consulte Disney&#39;s [especificaciones del anuncio](https://hulu.disneyadsales.com/ad-products/video-commercial/).
+* **Disney (incluye Hulu):** Ver Disney&#39;s [especificaciones del anuncio](https://hulu.disneyadsales.com/ad-products/video-commercial/).
 
-* **HBO Max:** Consulte HBO Max&#39;s [especificaciones del anuncio](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
+* **HBO máximo:** Consulte HBO Max&#39;s [especificaciones del anuncio](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
 
 * **NBCUniversal:**
 
@@ -68,39 +68,39 @@ Puede utilizar hojas de etiquetas desde [!DNL DCM], [!DNL Flashtalking], [!DNL I
 
    * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [Peacock](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+   * [Pavo Real](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
-* **Importe principal:** Consulte Paramount&#39;s [especificaciones del anuncio](https://www.paramount.com/digital-ads).
+* **Primordial:** Consulte Paramount&#39;s [especificaciones del anuncio](https://www.paramount.com/digital-ads).
 
-## Publicidades de visualización
+## Publicidad en pantalla
 
 ### Pantallas compatibles
 
-Los anuncios se entregan de forma predeterminada en dispositivos de escritorio y móviles. La segmentación por dispositivo está disponible para ajustar la entrega.
+Los anuncios se entregan de forma predeterminada en equipos de escritorio y dispositivos móviles. La segmentación de dispositivos está disponible para ajustar la entrega.
 
 ### Tipos de archivo compatibles
 
 **Imagen:** GIF, JPG/JPEG, PNG
 
-**HTML5:** Tipos de archivos de imagen: GIF, JPG/JPEG, PNG, SVG
+**HTML 5:** Tipos de archivo de imagen: GIF, JPG/JPEG, PNG, SVG
 
 ### Requisitos para los recursos de imagen (obligatorio)
 
 Se admite la visualización universal.
 
-**Tamaños de anuncio recomendados:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250, 300x60 0, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
+**Tamaños de anuncio recomendados:** 120 x 60, 160 x 600, 180 x 150, 300 x 50, 300 x 100, 300 x 1050, 300 x 250, 300 x 600, 320 x 50, 320 x 480, 480 x 60, 640 480, 88 x 31, 728 x 90, 970 x 250, 970 x 90
 
-**Servidores de publicidad de terceros compatibles:** Puede utilizar hojas de etiquetas desde [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Socios certificados de servicio de publicidad](certified-ad-servers.md).&quot;
+**Servidores de publicidad de terceros compatibles:** Puede utilizar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid], y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners de servicio de publicidad certificados](certified-ad-servers.md).&quot;
 
 ## Anuncios de audio
 
 ### Pantallas compatibles
 
-Escritorio, móvil, tableta, altavoces inteligentes y TV conectada
+Escritorio, Móvil, Tablet, Altavoces inteligentes y TV conectada
 
 ### Servidores de publicidad de terceros compatibles
 
-Puede utilizar hojas de etiquetas desde [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Socios certificados de servicio de publicidad](certified-ad-servers.md).&quot;
+Puede utilizar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid], y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners de servicio de publicidad certificados](certified-ad-servers.md).&quot;
 
 ### Requisitos para los recursos de audio (obligatorio)
 
@@ -108,46 +108,46 @@ Puede utilizar hojas de etiquetas desde [!DNL DCM], [!DNL Flashtalking], [!DNL I
 
 **Líderes (pizarra):**  No permitido
 
-**Tamaño máximo del archivo:** 2 MB
+**Tamaño máximo de archivo:** 2 MB
 
 **Velocidad de bits:** 128
 
-**Longitud del archivo:** 0-60
+**Longitud del archivo:** 0-60s
 
 #### Requisitos adicionales del editor
 
 * **[!DNL iHeartRadio]**
-   * Longitud: 5, 15, 30 o 60 segundos
+   * Duración: 5, 15, 30 o 60 segundos
    * Tipo de archivo: MP3
-   * Tamaño máximo del archivo: 320 kbps
+   * Tamaño máximo de archivo: 320 kbps
    * Volumen: 44,1 kHz
 
 * **[!DNL Pandora]**
-   * Longitud: 15 o 30 segundos
-   * Tipo de archivo: MP4 (en la aplicación), MP3 (en el escritorio)
-   * Tamaño máximo del archivo: 2,2 MB
+   * Duración: 15 o 30 segundos
+   * Tipo de archivo: MP4 (en la aplicación), MP3 (escritorio)
+   * Tamaño máximo de archivo: 2,2 MB
 
 * **[!DNL SoundCloud]**
-   * Longitud: 6, 15 o 30 segundos
+   * Duración: 6, 15 o 30 segundos
    * Tipo de archivo: MP3
-   * Tamaño máximo del archivo: 5 MB
+   * Tamaño máximo de archivo: 5 MB
 
 * **[!DNL Spotify]**
-   * Longitud: Hasta 30 segundos
+   * Duración: hasta 30 segundos
    * Tipo de archivo: OGG
-   * Tamaño máximo del archivo: 500 MB
-   * Volumen: EMR normalizado a -14; Pico dBFS normalizado a -0,2 dBFS
+   * Tamaño máximo de archivo: 500 MB
+   * Volumen: RMS normalizado a -14; dBFS pico normalizado a -0,2 dBFS
 
 * **[!DNL TargetSpot]**
-   * Longitud: 15, 30 o 60 segundos
+   * Duración: 15, 30 o 60 segundos
    * Tipo de archivo: MP3
 
 * **[!DNL TuneIn]**
-   * Longitud: 10, 15 o 30 segundos
-   * Tipo de archivo: MP3, OGG
+   * Duración: 10, 15 o 30 segundos
+   * Tipo de archivo: MP3, OG
    * Volumen: 44,1 kHz
 
-### Requisitos para anuncios de titular Companion (opcional)
+### Requisitos para anuncios de banner de Companion (opcional)
 
 **Tamaños compatibles:** 300 x 250, 500 x 500, 640 x 640, 1024 x 1024
 
@@ -155,91 +155,91 @@ Puede utilizar hojas de etiquetas desde [!DNL DCM], [!DNL Flashtalking], [!DNL I
 
 * **[!DNL iHeartRadio]:**
    * Tipo de archivo: JPEG, JPG, PNG, GIF, SWF, HTML
-   * Tamaño máximo del archivo: 2,2 MB
-   * Dimension: 300 x 250
+   * Tamaño máximo de archivo: 2,2 MB
+   * Dimension: 300x250
 
 * **[!DNL Pandora]:**
    * Tipo de archivo: JPEG, GIF
-   * Tamaño máximo del archivo: Tamaño: 100 KB
-   * Dimension: 300x250 (móvil o escritorio) o 500x500 (escritorio)
+   * Tamaño máximo de archivo: Tamaño: 100 KB
+   * Dimension: 300 x 250 (móvil o sobremesa) o 500 x 500 (sobremesa)
 
 * **[!DNL SoundCloud]:**
    * Tipo de archivo: JPG estático, PNG
-   * Tamaño máximo del archivo: Menos de 400 KB
-   * Dimension: 1024x1024
+   * Tamaño máximo de archivo: menos de 400 KB
+   * Dimension: 1024 x 1024
 
 * **[!DNL Spotify]:**
    * Tipo de archivo: JPG estático, PNG
-   * Tamaño máximo del archivo: 200 KB
-   * Dimension: 300 x 250
+   * Tamaño máximo de archivo: 200 KB
+   * Dimension: 300x250
 
 * **[!DNL TuneIn]:**
    * Tipo de archivo: JPEG, JPG, PNG, GIF, HTML
-   * Tamaño máximo del archivo: 2 MB
-   * Dimension: 300 x 250
+   * Tamaño máximo de archivo: 2 MB
+   * Dimension: 300x250
 
 ## Anuncios en pantalla nativos
 
-Cada anuncio puede incluir una imagen fija o un GIF en movimiento (párrafo cinematográfico).
+Cada anuncio puede incluir una imagen fija o un GIF en movimiento (cinemagrafía).
 
 ### Pantallas compatibles
 
-Los anuncios se entregan de forma predeterminada en dispositivos de escritorio y móviles. La segmentación por dispositivo está disponible para ajustar la entrega.
+Los anuncios se entregan de forma predeterminada en equipos de escritorio y dispositivos móviles. La segmentación de dispositivos está disponible para ajustar la entrega.
 
-### Recursos necesarios para todos los formatos nativos en la fuente
+### Recursos necesarios para todos los formatos de entrada nativos
 
 #### Recurso de imagen
 
-**Resolución:** Mínimo de 600 x 600 píxeles; Mínimo recomendado de 1200 x 627 px
+**Resolución:** Mínimo 600 x 600 px; mínimo recomendado 1200 x 627 px
 
-**Tipo de archivo:** JPEG (imagen de anuncio de imagen o imagen de portada de anuncio de vídeo), GIF (cinemograma)
+**Tipo de archivo:** JPEG (imagen publicitaria o imagen de portada de anuncio de vídeo), GIF (cinemógrafo)
 
-**Tamaño del archivo:** Menos de 1 MB (la imagen debe estar libre de texto).
+**Tamaño de archivo:** Menos de 1 MB (la imagen no debe contener texto).
 
 #### Logotipo del anunciante
 
-**Resolución:** Mínimo 80x80px; Mínimo recomendado de 300 x 300 píxeles
+**Resolución:** Mínimo de 80 x 80 px; mínimo recomendado de 300 x 300 px
 
 **Tipo de archivo:** JPEG o PNG.
 
-**Relación de aspecto:**  Relación 1x1
+**Proporción de aspecto:**  Relación 1x1
 
 >[!NOTE]
 >
->En función de la imagen sobre la que se superponga, elija entre recursos de logotipo claros u oscuros.
+>Según la imagen sobre la que se superponga, elija entre recursos de logotipo claros u oscuros.
 
 #### Texto/Copiar
 
-**Titular:** máximo 200 caracteres; 25 caracteres recomendados
+**Titular:** Máximo de 200 caracteres; se recomiendan 25 caracteres
 
-**Pie de ilustración:** máximo 200 caracteres; Se recomiendan 100 caracteres
+**Rótulo:** Máximo de 200 caracteres; se recomiendan 100 caracteres
 
-**Patrocinado Por:** máximo 200 caracteres; Se recomiendan 30 caracteres
+**Patrocinado por:** Máximo de 200 caracteres; se recomiendan 30 caracteres
 
-**Llamada a acción (solo MoPub):** Máximo de 15 caracteres
+**Llamada a acción (solo MoPub):** 15 caracteres como máximo
 
 >[!NOTE]
 >
->El editor define el diseño final durante la ejecución. Si una publicidad supera el recuento de caracteres recomendado, es posible que algunos proveedores de inventario no la entreguen, o que el editor o el SSP trunquen el texto.
+>El editor define el diseño final durante la ejecución. Si un anuncio supera el recuento de caracteres recomendado, es posible que algunos proveedores de inventario no entreguen el anuncio o que el editor o el SSP trunquen el texto.
 
-#### Dirección URL de la página de aterrizaje
+#### URL de página de aterrizaje
 
-Dirección URL de pulsación con rastreadores de clics opcionales.
+La URL de pulsación con rastreadores de clics opcionales.
 
-Requisitos para rastreadores de clics:
+Requisitos para los rastreadores de clics:
 
-* Píxeles de seguimiento de impresión de terceros: Solo formato de URL de imagen 1x1
+* Píxeles de seguimiento de impresiones de terceros: solo formato de URL de imagen 1x1
 
-* Seguimiento de JavaScript de visualizaciones: Sólo compatible con IAS; Imágenes 1x1 solo en formato JS.append
+* Rastreadores de JavaScript de visibilidad: compatibles solo con IAS; imágenes 1x1 solo en formato JS.append
 
-* Píxeles de seguimiento de clics de terceros: Debe redirigir a la página de aterrizaje incrustada en la dirección URL (redireccionamiento HTTP 302)
+* Píxeles de seguimiento de clics de terceros: deben redirigir a la página de aterrizaje incrustada en la dirección URL (redirección HTTP 302)
 
-* No se admiten rastreadores de clics de la plataforma de administración de datos (DMP) con 200 o más respuestas.
+* Los rastreadores de clics de la plataforma de administración de datos (DMP) con 200 o más respuestas no son compatibles.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de publicidad](ad-about.md)
->* [Crear una sola publicidad](ad-create.md)
->* [Crear varias publicidades de terceros](ad-create-multiple.md)
->* [Editar una publicidad](ad-edit.md)
+>* [Acerca de la administración de anuncios](ad-about.md)
+>* [Crear un solo anuncio](ad-create.md)
+>* [Creación de varios anuncios de terceros](ad-create-multiple.md)
+>* [Editar un anuncio](ad-edit.md)
 

@@ -1,24 +1,24 @@
 ---
-title: Ver un informe detallado de un grupo privado, [!UICONTROL On Demand]o [!UICONTROL Simple Ad Serving] Acuerdo
-description: Obtenga información sobre cómo abrir un informe de nivel de oferta.
+title: Ver un informe detallado de una actividad privada, [!UICONTROL On Demand], o [!UICONTROL Simple Ad Serving] Acuerdo
+description: Aprenda a abrir un informe de nivel de acuerdo.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-# Ver un informe detallado de un acuerdo
+# Ver un informe detallado de una oferta
 
-El informe de nivel de acuerdo incluye el número de subastas, la tasa de puja, la tasa de ganancia, el número de impresiones, el gasto neto total, la CMP efectiva (eCPM) y la tasa de finalización. Puede ver métricas de rendimiento adicionales por anunciante, campaña, ubicación, tipo de publicidad y sitio.
+El informe a nivel de acuerdo incluye el número de subastas, la tasa de oferta, la tasa de ganancia, el número de impresiones, el gasto neto total, el CMP efectivo (eCPM) y la tasa de finalización. Puede ver métricas de rendimiento adicionales por anunciante, campaña, ubicación, tipo de anuncio y sitio.
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. En la fila de acuerdo, haga clic en **[!UICONTROL ...]** > **[!UICONTROL View Report]**.
+1. En la fila de la oferta, haga clic en **[!UICONTROL ...]** > **[!UICONTROL View Report]**.
 
-1. (Opcional) Personalice el intervalo de fechas cuyos datos desee ver.
+1. (Opcional) Personalice el intervalo de fechas para el que desea ver los datos.
 
 >[!MORELIKETHIS]
 >

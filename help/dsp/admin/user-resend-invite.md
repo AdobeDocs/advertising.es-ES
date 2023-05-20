@@ -13,20 +13,20 @@ ht-degree: 0%
 
 *Solo usuarios administradores*
 
-Puede reenviar una invitación a un usuario con una invitación pendiente para la cuenta de organización.
+Puede reenviar una invitación a un usuario con una invitación pendiente para la cuenta de la organización.
 
-1. Realice una de las siguientes acciones:
+1. Realice una de las acciones siguientes:
 
    * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y, a continuación, haga clic en **[!UICONTROL Edit users]**.
+   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y haga clic en **[!UICONTROL Edit users]**.
 
-1. En el **Invitaciones** , haga clic en ![Volver a enviar](/help/dsp/assets/resend.png).
+1. En el **Invitaciones** , haga clic en ![Reenviar](/help/dsp/assets/resend.png).
 
 >[!MORELIKETHIS]
 >
 >* [Invitar a un nuevo usuario a su cuenta de organización](user-invite.md)
->* [Desinvitar a un usuario pendiente](user-uninvite.md)
+>* [Anular la invitación de un usuario pendiente](user-uninvite.md)
 
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

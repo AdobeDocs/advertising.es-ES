@@ -1,5 +1,5 @@
 ---
-title: Editar [!UICONTROL Simple Ad Serving] Configuración de ofertas
+title: Editar [!UICONTROL Simple Ad Serving] Configuración de acuerdo
 description: Obtenga información sobre cómo editar la configuración de un [!UICONTROL Simple Ad Serving] trato.
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
@@ -10,26 +10,26 @@ ht-degree: 1%
 
 ---
 
-# Editar [!UICONTROL Simple Ad Serving] Configuración de ofertas
+# Editar [!UICONTROL Simple Ad Serving] Configuración de acuerdo
 
-Puede editar algunas opciones de configuración para un [!UICONTROL Simple Ad Serving] trato que no ha terminado.
+Puede editar algunos ajustes de una [!UICONTROL Simple Ad Serving] acuerdo que no ha finalizado.
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. En la fila de acuerdo, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. En la fila de la oferta, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Edite el [configuración de acuerdo](simple-deal-settings.md).
+1. Edite el [configuración de tratos](simple-deal-settings.md).
 
-   Puede editar el [!UICONTROL Deal Name], [!UICONTROL Publisher maximum ad length], [!UICONTROL Publisher minimum ad length], [!UICONTROL CPM], [!UICONTROL Flight dates]y [!UICONTROL Impressions].
+   Puede editar la variable [!UICONTROL Deal Name], [!UICONTROL Publisher maximum ad length], [!UICONTROL Publisher minimum ad length], [!UICONTROL CPM], [!UICONTROL Flight dates], y [!UICONTROL Impressions].
 
 1. Haga clic **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [Cree un [!UICONTROL Simple Ad Serving] Acuerdo](simple-deal-create.md)
+>* [Crear un [!UICONTROL Simple Ad Serving] Acuerdo](simple-deal-create.md)
 >* [[!UICONTROL Simple Ad Serving] Configuración](simple-deal-settings.md)
->* [Ver un informe detallado de un acuerdo](/help/dsp/inventory/deal-view-report.md)
+>* [Ver un informe detallado de una oferta](/help/dsp/inventory/deal-view-report.md)
 
 
 <!-- add back when reimplemented:

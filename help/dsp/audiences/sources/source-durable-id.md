@@ -1,6 +1,6 @@
 ---
 title: Activar segmentos autenticados de socios de ID duraderos
-description: Obtenga información sobre la activación de audiencias autenticadas mediante una solución de ID duradera.
+description: Obtenga información acerca de la activación de audiencias autenticadas mediante una solución de ID duradera.
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
 source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
@@ -14,51 +14,51 @@ ht-degree: 0%
 
 *Función beta*
 
-Para activar audiencias autenticadas a través de una solución de ID duradera dentro de Advertising DSP, los segmentos deben traducirse a [!DNL RampIDs], que son reconocibles en un entorno bisible. Esto se puede lograr mediante:
+DSP Para activar audiencias autenticadas a través de una solución de ID duradera en Advertising, los segmentos deben traducirse a [!DNL RampIDs], que son reconocibles en un entorno de oferta. Para ello, puede hacer lo siguiente:
 
-* Aprovechamiento de la integración DSP con [!DNL Adobe Real-Time Customer Data Profile (CDP)] y [!DNL Adobe-LiveRamp Retrieval API].
+* DSP Aprovechamiento de la integración de la con [!DNL Adobe Real-Time Customer Data Profile (CDP)] y el [!DNL Adobe-LiveRamp Retrieval API].
 
-* Envío manual de segmentos autenticados a DSP desde el [!DNL LiveRamp] [!DNL Connect] tablero.
+* DSP Envío manual de segmentos autenticados a los que se va a realizar una autenticación desde el [!DNL LiveRamp] [!DNL Connect] panel.
 
 ## Tareas
 
-1. Para cualquiera de las opciones, póngase en contacto con `adcloud-support@adobe.com` para habilitar la siguiente configuración en DSP, que le permitirá dirigirse a segmentos autenticados en DSP campañas una vez [se han completado todos los pasos del flujo de trabajo de activación](source-about.md#workflow-sources):
+1. Para cualquier opción, póngase en contacto con `adcloud-support@adobe.com` DSP DSP para habilitar la siguiente configuración en la, que le permitirá dirigirse a segmentos autenticados en campañas de una sola vez [se han completado todos los pasos del flujo de trabajo de activación](source-about.md#workflow-sources):
 
-   1. [!DNL LiveRamp] [!DNL RampID] configuración de campaña antes de compartir segmentos de [!DNL Real-Time CDP].
+   1. [!DNL LiveRamp] [!DNL RampID] configuración de campaña antes del uso compartido de segmentos de [!DNL Real-Time CDP].
 
-   1. El nivel de cuenta &quot;[!UICONTROL LiveRamp segments]&quot;.
+   1. El nivel de cuenta &quot;[!UICONTROL LiveRamp segments]Opción &quot;.
 
-1. (Usuarios que comparten manualmente segmentos autenticados desde [!DNL LiveRamp]) Complete los siguientes pasos en la sección [!DNL LiveRamp] [!DNL Connect] tablero:
+1. (Los usuarios comparten manualmente segmentos autenticados de [!DNL LiveRamp]) Complete los siguientes pasos en la [!DNL LiveRamp] [!DNL Connect] panel:
 
    1. Activar el mosaico de destino **[!DNL AAC API 1P Onboarding]**.
 
-   1. Establezca [!DNL Identifier Settings] a **[!DNL Ramp ID]** solo.
+   1. Establecer [!DNL Identifier Settings] hasta **[!DNL Ramp ID]** solo.
 
       ![Configuración de identificador](/help/dsp/assets/liveramp-tile-settings.png)
 
-   1. (Opcional) Si todavía desea recibir identificadores basados en cookies, cree un segundo [!DNL AAC API 1P Onboarding] mosaico de destino con &quot;[!DNL Cookies],&quot;[!DNL IDFA],&quot; y &quot;[!DNL AAID]&quot; seleccionado.
+   1. (Opcional) Si desea seguir recibiendo identificadores basados en cookies, cree un segundo [!DNL AAC API 1P Onboarding] mosaico de destino con &quot;[!DNL Cookies],&quot; &quot;[!DNL IDFA],&quot; y &quot;[!DNL AAID]&quot; seleccionado.
 
 ## Prácticas recomendadas para pruebas y validación de datos
 
-* **Target [!DNL RampID]Segmentos basados en cookies y segmentos basados en cookies en campañas independientes.**
+* **Target [!DNL RampID]Segmentos basados en y cookies en campañas independientes.**
 
-   * La configuración de campaña permite priorizar solo un identificador.
+   * La configuración de la campaña solo permite priorizar un identificador.
 
-   * Actualmente, [!DNL RampIDs] no se pueden recuperar durante los eventos en el sitio. Esto significa que algunos objetivos personalizados, como la CPA más baja y el ROAS, no están disponibles con el uso de segmentos autenticados. Utilice segmentos basados en cookies solo si tiene un KPI de rendimiento restrictivo.
+   * Actualmente, [!DNL RampIDs] no se pueden recuperar durante los eventos en el sitio. Esto significa que algunos objetivos personalizados, como CPA más baja y ROAS, no están disponibles con el uso de segmentos autenticados. Utilice segmentos basados en cookies únicamente si tiene un KPI de rendimiento restrictivo.
 
 * **Cree una ubicación en ambas [!DNL RampID] y campañas basadas en cookies.**
 
-   * Segmente los segmentos compartidos desde [!DNL LiveRamp] mediante el proceso de activación de segmentos estándar.
+   * Oriente los segmentos que se comparten desde [!DNL LiveRamp] mediante el proceso de activación de segmentos estándar.
 
-   * Póngase en contacto con el equipo de soporte técnico de Advertising de Adobe para validar la distribución de datos adecuada.
+   * Póngase en contacto con el equipo de asistencia de Adobe Advertising para validar la correcta distribución de los datos.
 
-Para obtener más información sobre la integración de DSP con [!DNL LiveRamp], póngase en contacto con `adcloud-support@adobe.com`.
+DSP Para obtener más información sobre la integración de la con [!DNL LiveRamp], contacto `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la activación de segmentos autenticados desde fuentes de audiencia](source-about.md)
->* [Crear una fuente de audiencias para activar las audiencias de origen](source-create.md)
->* [Configuración de fuente de audiencia](source-settings.md)
->* [Adobe Publicidad DSP conexión](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [Acerca de la gestión de público](/help/dsp/audiences/audience-about.md)
+>* [Acerca de la activación de segmentos autenticados a partir de fuentes de audiencia](source-about.md)
+>* [Crear una fuente de audiencia para activar audiencias de origen](source-create.md)
+>* [Configuración de origen de audiencia](source-settings.md)
+>* [Conexión de Adobe DSP Advertising](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
 

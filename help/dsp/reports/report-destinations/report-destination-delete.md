@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Eliminar un destino de informe
 
-La eliminación de un destino de informe afecta al envío de todos los informes personalizados vinculados.
+La eliminación de un destino de informe afecta a la entrega de todos los informes personalizados vinculados.
 
 1. En el menú principal, haga clic en **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
@@ -23,7 +23,7 @@ La eliminación de un destino de informe afecta al envío de todos los informes 
 >[!MORELIKETHIS]
 >
 >* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Cree un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Crear un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Configuración](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Editar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Editar una [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Crear una fuente de audiencias para activar las audiencias de origen
-description: Obtenga información sobre cómo crear una fuente para importar audiencias en su cuenta o en una cuenta de anunciante.
+title: Crear una fuente de audiencia para activar audiencias de origen
+description: Obtenga información sobre cómo crear un origen para importar audiencias a su cuenta de o a una cuenta de anunciante.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
 source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
@@ -10,15 +10,15 @@ ht-degree: 3%
 
 ---
 
-# Crear una fuente de audiencias para activar las audiencias de origen
+# Crear una fuente de audiencia para activar audiencias de origen
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
-Cree un origen para importar audiencias a su cuenta de DSP o a una cuenta de anunciante. Actualmente, puede importar audiencias desde [el [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es).
+DSP Cree un origen para importar audiencias a su cuenta de o a una cuenta de anunciante. Actualmente, puede importar audiencias de [el [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es).
 
 >[!NOTE]
 >
->Después de crear un origen para la variable [!DNL Real-Time CDP], deberá activar su [!DNL Real-Time CDP] audiencias a través del Adobe Publicidad DSP destino dentro de [!DNL Real-Time CDP] para comenzar a importarlas. Consulte [los pasos del flujo de trabajo de activación](source-about.md#workflow-sources).
+>Después de crear un origen para [!DNL Real-Time CDP], tendrá que activar su [!DNL Real-Time CDP] audiencias a través del Adobe DSP Publicidad Destino de la publicidad dentro de [!DNL Real-Time CDP] para comenzar a importarlos. Consulte [los pasos del flujo de trabajo de activación](source-about.md#workflow-sources).
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
@@ -26,25 +26,25 @@ Cree un origen para importar audiencias a su cuenta de DSP o a una cuenta de anu
 
 1. En el [!UICONTROL Select a Type] , seleccione el tipo de origen.
 
-   *[!UICONTROL RT-CDP]*: Este tipo de origen, para [el [!DNL Adobe Real-Time Customer Data Profile]](source-about.md), es la única opción.
+   *[!UICONTROL RT-CDP]*: este tipo de origen, para [el [!DNL Adobe Real-Time Customer Data Profile]](source-about.md), es la única opción.
 
-1. Especifique la variable [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* o *[!UICONTROL Account]*.
+1. Especifique el [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* o *[!UICONTROL Account]*.
 
-1. Escriba el resto [configuración de origen](source-settings.md).
+1. Introduzca el resto [configuración de origen](source-settings.md).
 
-   Guarde una copia del [!UICONTROL Source Key] que se genera. Necesitará el valor más tarde.
+   Conserve una copia del [!UICONTROL Source Key] que se genera. Necesitará el valor más tarde.
 
 1. Haga clic **[!UICONTROL Save]**.
 
-1. En el Experience Platform, cree una conexión de destino de Advertising DSP utilizando la variable [!UICONTROL Source Key] que se generó en la configuración de origen de DSP.
+1. En Experience Platform DSP, cree una conexión de destino de Advertising con el [!UICONTROL Source Key] DSP que se generó en la configuración de origen de la.
 
-   Para obtener instrucciones sobre la activación de la conexión de destino de DSP, la selección de segmentos y el acceso a los permisos de control, consulte &quot;[Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+   DSP Para obtener instrucciones sobre cómo activar la conexión de destino de la, seleccionar segmentos y acceder a permisos de control, consulte &quot;[Conexión de Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Configuración de fuente de audiencia](source-settings.md)
->* [Acerca de la activación de segmentos autenticados desde fuentes de audiencia](source-about.md)
+>* [Configuración de origen de audiencia](source-settings.md)
+>* [Acerca de la activación de segmentos autenticados a partir de fuentes de audiencia](source-about.md)
 >* [Activar segmentos autenticados de socios de ID duraderos](source-durable-id.md)<!-- title?-->
->* [Conexión Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* [Acerca de la gestión de público](/help/dsp/audiences/audience-about.md)
+>* [Conexión de Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
 

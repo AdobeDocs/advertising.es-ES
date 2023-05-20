@@ -12,31 +12,31 @@ ht-degree: 0%
 
 # Eliminar una audiencia reutilizable
 
-Puede eliminar una audiencia que no se utilice en ninguna ubicación u otra audiencia reutilizable.
+Puede eliminar una audiencia que no se utilice en ninguna ubicación u otras audiencias reutilizables.
 
-Si se utiliza una audiencia, tendrá la opción de exportar una [!DNL Microsoft Excel] hoja de cálculo que muestra todas las ubicaciones y audiencias que utilizan la audiencia.
+Si se utiliza una audiencia actualmente, tiene la opción de exportar un [!DNL Microsoft Excel] hoja de cálculo que muestra todas las ubicaciones y audiencias que utilizan la audiencia.
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL Delete]**.
 
-1. (Si la audiencia se utiliza en cualquier ubicación u otra audiencia reutilizable; opcional) Haga clic en **[!UICONTROL Export XLS]** para descargar un archivo de hoja de cálculo (en formato XLSX) según el procedimiento normal del explorador.
+1. (Si la audiencia se utiliza en ubicaciones u otras audiencias reutilizables; opcional) Haga clic en **[!UICONTROL Export XLS]** para descargar un archivo de hoja de cálculo (en formato XLSX) según el procedimiento normal del explorador.
 
    El nombre de archivo incluye el nombre y la fecha de la audiencia.
 
-1. (Si se puede eliminar la audiencia) En el mensaje de confirmación, haga clic en **[!UICONTROL Continue]**.
+1. (Si la audiencia se puede eliminar) En el mensaje de confirmación, haga clic en **[!UICONTROL Continue]**.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la gestión de público](audience-about.md)
+>* [Acerca de Audience Management](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
->* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
+>* [Duplicación de una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles de una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)
->* [Copiar la clave de segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
+>* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
 >* [Configuración de audiencia](audience-settings.md)
->* [Sintaxis para la lógica del segmento de audiencia](audience-segment-logic-syntax.md)
+>* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
 

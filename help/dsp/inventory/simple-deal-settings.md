@@ -5,7 +5,7 @@ feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | **[!UICONTROL Ad Creation]** | (Solo nuevas ofertas) Si desea:<ul><li>*[!UICONTROL Create New]:* Para crear un anuncio para este acuerdo.</li><li>*[!UICONTROL Select Ads]:* Para usar un anuncio existente para este acuerdo.</li></ul> |
 | **[!UICONTROL Ad Type]** | El tipo de anuncio de esta oferta. Si va a crear anuncios para la oferta, incluya el tamaño del anuncio o la duración, según se solicite. Las opciones disponibles varían según el tipo de medio. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Select Ad(s)]
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | **[!UICONTROL Deal Name]** | El nombre del trato. Introduzca un nombre o seleccione *[!UICONTROL Auto Generate Deal Name]* DSP para permitir que los clientes generen un nombre basado en los detalles de la oferta.<br><br>Ejemplo de nombre generado automáticamente: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | (Solo lectura) Los anuncios que forman parte de la oferta. Para editar un anuncio, haga clic en su nombre. Para eliminar un anuncio de la oferta, haga clic en **[!UICONTROL X]** junto al nombre del anuncio. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- 
 ## Existing Simple Ad Serving Deals

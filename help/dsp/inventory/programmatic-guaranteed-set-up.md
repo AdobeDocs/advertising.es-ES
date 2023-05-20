@@ -1,68 +1,68 @@
 ---
-title: Configuración de un acuerdo garantizado programático
-description: Aprenda a configurar un acuerdo garantizado mediante programación (PG) que haya negociado con un editor.
+title: Configurar una oferta garantizada programática
+description: Aprenda a configurar un acuerdo programático garantizado (PG) que haya negociado con un editor.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
-# Configuración de un acuerdo garantizado programático
+# Configurar una oferta garantizada programática
 
-*[Solo plataformas de suministro compatibles](programmatic-guaranteed-about.md)*
+*[Solo plataformas del lado de suministro compatibles](programmatic-guaranteed-about.md)*
 
-Después de negociar un acuerdo de garantía programática (PG) con un publicador admitido, puede configurar el acuerdo dentro de DSP utilizando la variable [!DNL Deal ID inbox] o introduciendo manualmente los detalles de la operación.
+DSP Después de negociar un acuerdo programático garantizado (PG) con un editor admitido, puede configurar el acuerdo dentro de las dos opciones, ya sea mediante el uso de la variable [!DNL Deal ID inbox] o introduciendo manualmente los detalles de la operación.
 
 >[!NOTE]
 >
-> Para las ofertas PG, el editor gestiona todo el ritmo del presupuesto, el límite del presupuesto y la segmentación. Todos los SSP que permiten PG a través de DSP confirman que el editor puede configurar límites presupuestarios.
+> Para las ofertas de PG, el editor gestiona todo el ritmo, el límite y la segmentación del presupuesto. DSP Todos los SSP que permiten el PG a través de la confirmación de que el editor puede configurar un límite presupuestario.
 >
-> Configuración de acuerdos garantizados programáticos con editores en [!DNL FreeWheel] requiere permisos y pasos adicionales. Consulte &quot;[Información general sobre la configuración de ofertas garantizadas mediante programación en [!DNL FreeWheel]](freewheel-overview.md)&quot; para obtener más información.
+> Configuración de acuerdos programáticos garantizados con editores en [!DNL FreeWheel] requiere permisos y pasos adicionales. Consulte &quot;[Información general sobre la configuración de ofertas garantizadas mediante programación en [!DNL FreeWheel]](freewheel-overview.md)&quot; para obtener más información.
 
-## Configure un acuerdo garantizado mediante programación usando la variable [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
+## Configurar una oferta garantizada mediante programación utilizando [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
-El siguiente método es el procedimiento preferido para [!DNL FreeWheel], [!DNL Google Authorized Buyers]y [!DNL Magnite DV+].
+El siguiente método es el procedimiento preferido para [!DNL FreeWheel], [!DNL Google Authorized Buyers], y [!DNL Magnite DV+].
 
-1. [Aceptar el acuerdo](deal-id-inbox-accept.md).
+1. [Aceptar el trato](deal-id-inbox-accept.md).
 
-1. Después de guardar la oferta, seleccione las publicidades que se utilizarán para la oferta y cree una colocación predeterminada garantizada mediante programación (PG), según se le solicite.
+1. Después de guardar la oferta, seleccione los anuncios que se utilizarán para la oferta y cree una colocación predeterminada programática garantizada (PG), según se le solicite.
 
-   La creación de una colocación de PG predeterminada para la oferta es obligatoria para entregar el 100% de su compra. Este tipo de ubicación no tiene segmentación, por lo que DSP devolver una oferta a cada solicitud de oferta del editor.
+   La creación de una colocación de PG predeterminada para la oferta es obligatoria para entregar el 100% de su compra. DSP Este tipo de ubicación no tiene objetivo, por lo que puede devolver una oferta a cada solicitud de oferta del editor.
 
-   * Si acepta una única oferta, se le redirige automáticamente al flujo de trabajo de creación de ubicación predeterminada de PG.
+   * Si acepta una sola oferta, se le redirigirá automáticamente al flujo de trabajo de creación de ubicaciones predeterminado de PG.
 
-      Todo [!DNL FreeWheel] las ofertas se proponen como una única operación.
+      Todo [!DNL FreeWheel] los acuerdos se proponen como una sola operación.
 
-   * Si está aceptando una propuesta con varios ID de oferta de PG, identifique cada ubicación predeterminada de PG que necesita crear. Una vez que haya creado todas las ubicaciones necesarias, el botón Continuar estará activado.
+   * Si acepta una propuesta con varios ID de acuerdo de PG, identifique cada ubicación predeterminada de PG que necesite crear. Una vez que haya creado todas las ubicaciones necesarias, el botón Continuar estará activado.
 
-1. (Opcional) Para dirigir la operación PG a ubicaciones PG adicionales o que no sean PG, haga clic en ![Menú Opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (Opcional) Oriente la oferta de PG en ubicaciones de PG o no PG adicionales haciendo clic en ![Menú Opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
    Una oferta puede dirigirse a varias ubicaciones que admitan cualquier combinación de tipos de medios (como TV, escritorio y audio conectados).
 
-## Configuración manual de un acuerdo garantizado programático
+## Configurar manualmente una oferta garantizada mediante programación
 
 Utilice este método para todos los demás SSP.
 
-1. [Configuración manual de los detalles del ID de la oferta](deal-id-create.md).
+1. [Configurar manualmente los detalles del ID de la oferta](deal-id-create.md).
 
-1. Después de guardar la oferta, seleccione las publicidades que se utilizarán para la oferta y cree una colocación predeterminada de PG, según se le solicite.
+1. Después de guardar la oferta, seleccione los anuncios que se utilizarán para la oferta y cree una ubicación predeterminada PG, según se le solicite.
 
-   La creación de una colocación predeterminada de PG para la oferta es obligatoria para entregar el 100% de su compra. Este tipo de ubicación no tiene segmentación, por lo que DSP devolver una oferta a cada solicitud de oferta del editor.
+   La creación de una ubicación predeterminada de PG para la oferta es obligatoria para entregar el 100% de su compra. DSP Este tipo de ubicación no tiene objetivo, por lo que puede devolver una oferta a cada solicitud de oferta del editor.
 
-1. (Opcional) Para dirigir la operación PG a ubicaciones PG adicionales o que no sean PG, haga clic en ![Menú Opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (Opcional) Oriente la oferta de PG en ubicaciones de PG o no PG adicionales haciendo clic en ![Menú Opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
    Una oferta puede dirigirse a varias ubicaciones que admitan cualquier combinación de tipos de medios (como TV, escritorio y audio conectados).
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los Ofertas Garantizadas mediante Programación](programmatic-guaranteed-about.md)
->* [Sugerencias para negociar un acuerdo garantizado mediante programación](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Enviar una publicidad para un acuerdo garantizado programático con [!DNL FreeWheel]](freewheel-submit.md)
->* [Aceptar un acuerdo en la bandeja de entrada del Deal ID](deal-id-inbox-accept.md)
->* [Crear manualmente detalles de ID de acuerdo](deal-id-create.md)
+>* [Acerca de Ofertas Programáticas Garantizadas](programmatic-guaranteed-about.md)
+>* [Sugerencias para negociar un acuerdo garantizado programático](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Envíe un anuncio para un acuerdo garantizado programático con [!DNL FreeWheel]](freewheel-submit.md)
+>* [Aceptar un acuerdo en la bandeja de entrada de Deal ID](deal-id-inbox-accept.md)
+>* [Creación manual de detalles de ID de acuerdo](deal-id-create.md)
 >* [Socios de SSP](ssp-partners.md)
->* [Descripción general de las funciones de inventario](inventory-overview.md)
+>* [Resumen de las Funciones de Inventario](inventory-overview.md)
 

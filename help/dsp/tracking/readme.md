@@ -9,4 +9,4 @@ ht-degree: 0%
 
 Esta es la carpeta de trabajo de este capítulo.
 
-**Nota: Esta página no se publica en la documentación de cara al cliente.**
+**Nota: Esta página no se publica en la documentación de cliente.**

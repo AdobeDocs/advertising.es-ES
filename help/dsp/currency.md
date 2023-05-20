@@ -12,36 +12,36 @@ ht-degree: 0%
 
 # Monedas admitidas en la publicidad de Adobe
 
-Adobe La publicidad admite las siguientes monedas.
+Adobe Advertising admite las siguientes divisas.
 
 
 >[!NOTE]
 >
->Compatibilidad con Adobe Analytics [un conjunto mayor de monedas](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
+>Adobe Analytics admite [un mayor conjunto de monedas](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
 ## DSP y creativo
 
 | Código | Nombre de moneda |
 | ------ | -------------- |
 | AUD | Dólar australiano |
-| BRL | Real de Brasil |
+| BRL | Real brasileño |
 | CAD | Dólar canadiense |
 | CLP | Peso chileno |
 | CNY | Renminbi chino |
 | DKK | Corona danesa |
 | EUR | Euro |
-| GBP | Libra esterlina |
+| GBP | Libra (Reino Unido) |
 | HKD | Dólar de Hong Kong |
 | INR | Rupia india |
 | JPY | Yen japonés |
 | MXN | Peso mexicano |
-| MYR | Ringgit malayo |
+| MYR | Ringgit malasio |
 | NZD | Dólar neozelandés |
-| RUB | Rublo ruso |
+| FROTAR | Rublos rusos |
 | SGD | Dólar de Singapur |
 | THB | Baht tailandés |
-| TRY | Lira turca |
-| USD | Dólar estadounidense |
+| PROBAR | Lira turca |
+| USD | Dólar (Estados Unidos) |
 
 >[!NOTE]
 >
@@ -49,5 +49,5 @@ Adobe La publicidad admite las siguientes monedas.
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-Todas las monedas admitidas por los motores de búsqueda admitidos. Esto es igual que [aquellos admitidos por [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
+Todas las monedas admitidas por los motores de búsqueda admitidos. Esto es lo mismo que [los admitidos por [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
 

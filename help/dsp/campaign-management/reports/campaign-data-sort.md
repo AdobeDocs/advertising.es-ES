@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Puede ordenar cualquier columna de datos en orden ascendente (A a Z o 1 a 10) o descendente (Z a A o 10 a 1).
 
-* Haga clic en el encabezado de la columna para cambiar entre el orden ascendente y el descendente.
+* Haga clic en el encabezado de la columna para cambiar entre orden ascendente y descendente.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes en la plataforma](campaign-reports-about.md)
 >* [Crear una vista de columna personalizada](column-view-create.md)
->* [Cambiar la vista de columna](column-view-change.md)
->* [Filtrar datos de campaña](campaign-data-filter.md)
+>* [Cambio de la vista de columna](column-view-change.md)
+>* [Filtrado de datos de Campaign](campaign-data-filter.md)
 >* [Administrar visualizaciones de datos](campaign-data-visualization-manage.md)
 

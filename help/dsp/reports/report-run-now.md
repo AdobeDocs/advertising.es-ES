@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->También puede ejecutar un informe personalizado cuando [crear](report-create.md) o [editar](report-edit.md) es así.
+>También puede ejecutar un informe personalizado cuando [crear](report-create.md) o [editar](report-edit.md) it.
 
 1. En el menú principal, haga clic en **[!UICONTROL Reports]**.
 
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL OK]**.
 
-   Cuando el informe se completa, se envía a todas las direcciones de correo electrónico especificadas en la configuración del informe.
+   Cuando se completa el informe, se envía a todas las direcciones de correo electrónico especificadas en la configuración del informe.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
->* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
->* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
->* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
->* [Configuración de informes personalizados](/help/dsp/reports/report-settings.md)
+>* [Creación de un informe personalizado](/help/dsp/reports/report-create.md)
+>* [Duplicación de un informe personalizado](/help/dsp/reports/report-copy.md)
+>* [Edición de un informe personalizado](/help/dsp/reports/report-edit.md)
+>* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 

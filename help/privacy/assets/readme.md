@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Documentación diversa para la publicidad de Adobe
+# Documentación miscelánea para publicidad de Adobe
 
-Esta carpeta es para archivos de imagen y otros archivos de recursos solo para archivos de la carpeta /privacy/ .
+Esta carpeta es solo para archivos de imagen y otros archivos de recursos para archivos de la carpeta /privacy/.
 
-**Nota: Esta página no se publica en la documentación de cara al cliente.**
+**Nota: Esta página no se publica en la documentación de cliente.**

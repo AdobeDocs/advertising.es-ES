@@ -1,6 +1,6 @@
 ---
-title: Acerca de las suscripciones de alertas
-description: Obtenga información sobre las alertas de correo electrónico automáticas.
+title: Acerca de las suscripciones de alerta
+description: Obtenga información sobre las alertas automáticas por correo electrónico.
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
@@ -9,17 +9,17 @@ ht-degree: 0%
 
 ---
 
-# Acerca de las suscripciones de alertas
+# Acerca de las suscripciones de alerta
 
-Puede crear grupos de alertas de correo electrónico automáticas, denominadas suscripciones, que envíen notificaciones por correo electrónico cuando se cumplan los parámetros especificados de cuenta, campaña, publicidad y acuerdo de inventario privado.
+Puede crear grupos de alertas de correo electrónico automáticas, denominadas suscripciones, que envían notificaciones por correo electrónico cuando se cumplen los parámetros de cuenta, campaña, publicidad y acuerdo de inventario privado especificados.
 
-Por ejemplo, puede recibir una alerta cuando una campaña haya gastado una cantidad específica de su presupuesto. También puede recibir una alerta cuando un acuerdo de inventario privado haya recibido menos de una tasa de ganancias especificada en los últimos N días.
+Por ejemplo, puede recibir una alerta cuando una campaña haya gastado una cantidad especificada de su presupuesto. También puede recibir una alerta cuando un acuerdo de inventario privado haya recibido menos de una tasa de ganancia especificada en los últimos N días.
 
-Puede añadir o eliminar alertas de una suscripción, editar los usuarios que reciben notificaciones por correo electrónico para una suscripción, desactivar y volver a habilitar suscripciones de alerta y eliminar suscripciones de alerta.
+Puede añadir o eliminar alertas de una suscripción, editar los usuarios que reciben notificaciones por correo electrónico de una suscripción, desactivar y volver a activar las suscripciones de alerta y eliminar las suscripciones de alerta.
 
 >[!TIP]
 >
-> Si no está comprobando activamente los informes de campaña, configure los informes por correo electrónico lo antes posible después de iniciar una campaña.
+> Si no está comprobando activamente los informes de campaña, configure los informes de correo electrónico lo antes posible después de iniciar una campaña.
 
 ## Alertas disponibles
 
@@ -35,25 +35,25 @@ Puede añadir o eliminar alertas de una suscripción, editar los usuarios que re
 
    * Sin gasto en campaña
 
-   * Gasto en campañas
+   * Gasto en campaña
 
-   * Gasto de campaña % en capital
+   * % de gasto de campaña del límite
 
    * Sin impresiones de campaña
 
-   * eCPM de campaña
+   * Campaign eCPM
 
-* Publicidades
+* Anuncios
 
    * Rechazos de publicidad
 
-* Fuentes (Ofertas de inventario privadas)
+* Fuentes (Ofertas de inventario privado)
 
-   * Tasa de ganancias de la fuente
+   * Tasa de ganancias de fuente
 
-   * Tasa de oferta de la fuente
+   * Tarifa de puja de fuente
 
-   * Sin gastos de fuente
+   * Sin gasto en fuente
 
    * Sin impresiones de fuente
 
@@ -61,4 +61,4 @@ Puede añadir o eliminar alertas de una suscripción, editar los usuarios que re
 
 >[!MORELIKETHIS]
 >
->[Administrar suscripciones de alertas](alerts-manage.md)
+>[Administrar suscripciones de alerta](alerts-manage.md)

@@ -5,7 +5,7 @@ feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
-| Editor | Geografía |
+| Editor | Geo |
 |-------------------------|-------------|
 | [!DNL Aufeminin] | Francia |
 | [!DNL BBC] | Francia |
@@ -90,51 +90,51 @@ ht-degree: 0%
 | [!DNL Targetspot] | Países Bajos |
 | [!DNL U.S. News] | Países Bajos |
 | [!DNL USA Today] | Países Bajos |
-| [!DNL Aller SE] | Nordics |
-| [!DNL BBC] | Nordics |
-| [!DNL Bloomberg] | Nordics |
-| [!DNL DailyMail] | Nordics |
-| [!DNL eDreams Odigeo] | Nordics |
-| [!DNL Future] | Nordics |
-| [!DNL IDG Tech] | Nordics |
-| [!DNL IP Belgium] | Nordics |
-| [!DNL Key Mobile] | Nordics |
-| [!DNL King] | Nordics |
-| [!DNL Leeads] | Nordics |
-| [!DNL Life of Svea] | Nordics |
-| [!DNL NBC Universal] | Nordics |
-| [!DNL Publicidad] | Nordics |
-| [!DNL Skyscanner] | Nordics |
-| [!DNL Tapjoy] | Nordics |
-| [!DNL Targetspot] | Nordics |
-| [!DNL TV2.DK] | Nordics |
-| [!DNL U.S. News] | Nordics |
-| [!DNL USA Today] | Nordics |
-| [!DNL Vox Media] | Nordics |
-| [!DNL Vungle] | Nordics |
-| [!DNL BBC] | Otros |
-| [!DNL Bloomberg] | Otros |
-| [!DNL DailyMail] | Otros |
-| [!DNL ESI Media] | Otros |
-| [!DNL Future] | Otros |
-| [!DNL Gentside] | Otros |
-| [!DNL Goldbach] | Otros |
-| [!DNL IP Belgium] | Otros |
-| [!DNL KeyMobile] | Otros |
-| [!DNL King] | Otros |
-| [!DNL New York Times] | Otros |
-| [!DNL OhMyMag] | Otros |
-| [!DNL Publicidad] | Otros |
-| [!DNL SBS] | Otros |
-| [!DNL Skyscanner] | Otros |
-| [!DNL Snack Media] | Otros |
-| [!DNL Tapjoy] | Otros |
-| [!DNL Targetspot] | Otros |
-| [!DNL U.S. News] | Otros |
-| [!DNL United Internet Media] | Otros |
-| [!DNL USA Today] | Otros |
-| [!DNL Vox Media] | Otros |
-| [!DNL Vungle] | Otros |
+| [!DNL Aller SE] | nórdicos |
+| [!DNL BBC] | nórdicos |
+| [!DNL Bloomberg] | nórdicos |
+| [!DNL DailyMail] | nórdicos |
+| [!DNL eDreams Odigeo] | nórdicos |
+| [!DNL Future] | nórdicos |
+| [!DNL IDG Tech] | nórdicos |
+| [!DNL IP Belgium] | nórdicos |
+| [!DNL Key Mobile] | nórdicos |
+| [!DNL King] | nórdicos |
+| [!DNL Leeads] | nórdicos |
+| [!DNL Life of Svea] | nórdicos |
+| [!DNL NBC Universal] | nórdicos |
+| [!DNL Publicidad] | nórdicos |
+| [!DNL Skyscanner] | nórdicos |
+| [!DNL Tapjoy] | nórdicos |
+| [!DNL Targetspot] | nórdicos |
+| [!DNL TV2.DK] | nórdicos |
+| [!DNL U.S. News] | nórdicos |
+| [!DNL USA Today] | nórdicos |
+| [!DNL Vox Media] | nórdicos |
+| [!DNL Vungle] | nórdicos |
+| [!DNL BBC] | Otras UE |
+| [!DNL Bloomberg] | Otras UE |
+| [!DNL DailyMail] | Otras UE |
+| [!DNL ESI Media] | Otras UE |
+| [!DNL Future] | Otras UE |
+| [!DNL Gentside] | Otras UE |
+| [!DNL Goldbach] | Otras UE |
+| [!DNL IP Belgium] | Otras UE |
+| [!DNL KeyMobile] | Otras UE |
+| [!DNL King] | Otras UE |
+| [!DNL New York Times] | Otras UE |
+| [!DNL OhMyMag] | Otras UE |
+| [!DNL Publicidad] | Otras UE |
+| [!DNL SBS] | Otras UE |
+| [!DNL Skyscanner] | Otras UE |
+| [!DNL Snack Media] | Otras UE |
+| [!DNL Tapjoy] | Otras UE |
+| [!DNL Targetspot] | Otras UE |
+| [!DNL U.S. News] | Otras UE |
+| [!DNL United Internet Media] | Otras UE |
+| [!DNL USA Today] | Otras UE |
+| [!DNL Vox Media] | Otras UE |
+| [!DNL Vungle] | Otras UE |
 | [!DNL BBC] | Portugal |
 | [!DNL Bloomberg] | Portugal |
 | [!DNL DailyMail] | Portugal |
@@ -223,13 +223,13 @@ ht-degree: 0%
 | [!DNL Vungle] | RU |
 | [!DNL Yahoo] | RU |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de [!DNL On Demand] Inventario Premium](on-demand-inventory-about.md)
 >* [Suscribirse y solicitar acceso a [!DNL On Demand] Inventario Premium](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] Editores de inventario Premium en Asia-Pacífico](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Editores de inventario Premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editores de inventario Premium en Norteamérica](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand] Editores de Inventario Premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Editores de inventario Premium en América del Norte](on-demand-inventory-publishers-na.md)
 

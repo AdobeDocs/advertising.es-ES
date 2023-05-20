@@ -1,51 +1,51 @@
 ---
-title: Sugerencias para negociar un acuerdo garantizado mediante programación
-description: Conozca sugerencias para negociar un acuerdo con garantía programática (PG) y listas de las responsabilidades del comprador y del editor.
+title: Sugerencias para negociar un acuerdo garantizado programático
+description: Conozca sugerencias para negociar un acuerdo programático garantizado (PG) y listas de las responsabilidades del comprador y del editor.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Sugerencias para negociar un acuerdo garantizado mediante programación
+# Sugerencias para negociar un acuerdo garantizado programático
 
-Al negociar un acuerdo garantizado programático, el comprador y el editor deben discutir y confirmar los siguientes puntos:
+Al negociar un acuerdo programático garantizado, el comprador y el editor deben discutir y confirmar los siguientes artículos:
 
 * Fecha de vuelo
 * Geos
 * Tipos de inventario
-* Longitud creativa
+* Longitudes creativas
 * Tamaños de visualización
-* Objetivos de rendimiento
-* Requisitos de seguridad de la marca
-* Audiencia objetivo
+* Metas de rendimiento
+* Requisitos de seguridad de marca
+* Audiencia de destino
 * Impresiones
 * Presupuesto
 * CPM
 * Frecuencia
-* Partición de días
+* Dayparting
 * Proceso de activación
 
-## Responsabilidades de Comprador para un Contrato Programático Garantizado
+## Responsabilidades del comprador para un acuerdo programado garantizado
 
-* Configuración y activación de acuerdos
-* Creación de una colocación garantizada mediante programación
+* Configuración y activación del acuerdo
+* Creación de una colocación programática garantizada
 * Resolución de problemas
-* Supervisión de entregas
-* Ejecución de una tasa de oferta/respuesta del 95 %-100 %
+* Monitorización de envíos
+* Ejecución de una tasa de oferta/respuesta del 95 % al 100 %
 
 ## Responsabilidades del editor para un acuerdo garantizado programático
 
-* Entrega del presupuesto negociado, impresiones, CPM, geos, audiencia, frecuencia y parrilla de programación dentro de las fechas de vuelo requeridas
-* Cumplir los requisitos de KPI y seguridad de marca en las fechas de vuelo requeridas
+* Entrega del presupuesto negociado, impresiones, CPM, ubicación geográfica, audiencia, frecuencia y partición del día dentro de las fechas de vuelo requeridas
+* Cumplir los requisitos de KPI y seguridad de la marca dentro de las fechas de vuelo requeridas
 * Resolución de problemas
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los Ofertas Garantizadas mediante Programación](programmatic-guaranteed-about.md)
->* [Configuración de un acuerdo garantizado programático](programmatic-guaranteed-set-up.md)
+>* [Acerca de Ofertas Programáticas Garantizadas](programmatic-guaranteed-about.md)
+>* [Configurar una oferta garantizada programática](programmatic-guaranteed-set-up.md)
 >* [Socios de SSP](ssp-partners.md)
 

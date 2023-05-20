@@ -1,63 +1,63 @@
 ---
-title: Especificar ubicaciones y publicidades para un acuerdo privado
-description: Aprenda a utilizar una oferta privada con ubicaciones y publicidades adicionales.
+title: Especificar ubicaciones y anuncios para una oferta privada
+description: Aprenda a utilizar un acuerdo privado con ubicaciones y anuncios adicionales.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 1%
 
 ---
 
-# Especificar ubicaciones y publicidades para un acuerdo privado
+# Especificar ubicaciones y anuncios para una oferta privada
 
-Para las ofertas no garantizadas, puede especificar la oferta como objetivo de inventario para las nuevas ubicaciones desde la variable [!UICONTROL Placements] vista.
+Para ofertas no garantizadas, puede especificar la oferta como un objetivo de inventario para nuevas ubicaciones desde el [!UICONTROL Placements] vista.
 
-Para las ofertas garantizadas mediante programación (PG), puede crear ubicaciones con anuncios especificados desde la variable [!UICONTROL Deals] vista.
+Para ofertas programáticas garantizadas (PG), puede crear ubicaciones con anuncios especificados desde el [!UICONTROL Deals] vista.
 
-También puede [adjuntar nuevas publicidades a ubicaciones existentes](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) asociados con PG y operaciones no garantizadas en cualquier momento.
+También puede [adjuntar anuncios nuevos a ubicaciones existentes](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) asociadas con PG y ofertas no garantizadas en cualquier momento.
 
 ## Especificar un acuerdo no garantizado como destino de inventario para una ubicación
 
-* [Cree una ubicación desde el [!UICONTROL Placements] ver](/help/dsp/campaign-management/placements/placement-create.md). En el [!UICONTROL Inventory Targeting] , seleccione la oferta privada.
+* [Cree una ubicación desde el [!UICONTROL Placements] vista](/help/dsp/campaign-management/placements/placement-create.md). En el [!UICONTROL Inventory Targeting] , seleccione la oferta privada.
 
-## Adjuntar colocaciones y publicidades a un acuerdo de PG
+## Adjuntar ubicaciones y anuncios a una oferta de PG
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. En la fila de acuerdo, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
+1. En la fila de la oferta, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Attach New Placement]**.
 
-1. En el [!UICONTROL Ad & Campaign Selection] , seleccione las publicidades que desee utilizar para la colocación:
+1. En el [!UICONTROL Ad & Campaign Selection] , seleccione los anuncios que se utilizarán para la ubicación:
 
-       1. Seleccione el anunciante, la campaña y el tipo de publicidad. De forma opcional, seleccione un estado de publicidad mediante el cual filtrar las publicidades.
+       1. Seleccione el anunciante, la campaña y el tipo de anuncio. Si lo desea, seleccione un estado de anuncio según el cual filtrar los anuncios.
        
-       1. En la lista de publicidades disponibles, active la casilla de verificación situada junto a cada publicidad que se utilizará para la oferta.
+       1. En la lista de anuncios disponibles, seleccione la casilla de verificación situada junto a cada anuncio que se utilizará para la oferta.
        
        1. Haga clic **[!UICONTROL Apply]**.
    
    1. En la pantalla de configuración de ubicación:
 
-      1. Introduzca el nombre de la colocación.
+      1. Introduzca el nombre de la ubicación.
 
-      1. (Opcional) Edite el [configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md), incluida la sobrescritura de la oferta predeterminada, que se rellena automáticamente con el valor CPM de la oferta; cambiar el intervalo de fechas; o adjuntar más anuncios.
+      1. (Opcional) Edite el [configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md), incluida la sobrescritura de la oferta predeterminada, que se rellena automáticamente con el valor CPM de la oferta, el cambio del intervalo de fechas o la adición de más anuncios.
 
-      La oferta se segmenta automáticamente en la sección Destinos de inventario . Todas las demás opciones de segmentación no son aplicables.
+      El acuerdo se establece automáticamente como objetivo en la sección Destinos de inventario. Todas las demás opciones de segmentación no son aplicables.
 
       1. Haga clic **[!UICONTROL Create placement]**.
 
 
-La ubicación empezará a ejecutarse después de que el editor active su ID de oferta de PG.
+La ubicación empezará a ejecutarse después de que el editor active su ID de acuerdo de PG.
 
 >[!NOTE]
 >
-> No es necesario que envíe la etiqueta de oferta al editor para que la verifique.
+> No es necesario que envíe la etiqueta de la oferta al editor para su verificación.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
->* [Lista de colocaciones y publicidades de un acuerdo privado](/help/dsp/inventory/private-deal-view-placements.md)
->* [Crear manualmente detalles de ID de acuerdo](deal-id-create.md)
->* [Configuración manual del ID de trato](deal-id-settings.md)
->* [Configuración de un acuerdo garantizado programático](programmatic-guaranteed-set-up.md)
+>* [Enumerar las ubicaciones y los anuncios para una oferta privada](/help/dsp/inventory/private-deal-view-placements.md)
+>* [Creación manual de detalles de ID de acuerdo](deal-id-create.md)
+>* [Configuración del ID de acuerdo manual](deal-id-settings.md)
+>* [Configurar una oferta garantizada programática](programmatic-guaranteed-set-up.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Acerca de [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e informes
-description: Obtenga información sobre la creación de segmentos para rastrear los ID de solicitudes de exclusión de venta de CCPA y cómo recuperar informes de los ID.
+description: Obtenga información sobre la creación de segmentos para rastrear los ID de las solicitudes de exclusión de la venta de la CCPA y cómo recuperar informes de los ID.
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 # Acerca de [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e informes
 
-Puede realizar un seguimiento de los ID de los usuarios procedentes de solicitudes de exclusión de venta de clientes en su sitio web, de acuerdo con la Ley de privacidad del consumidor de California (CCPA), mediante [creación e implementación de un segmento de exclusión de la venta de CCPA](ccpa-opt-out-segment-create.md). Los usuarios permanecen en segmentos de exclusión de la venta de la CCPA indefinidamente.
+Puede rastrear los ID de usuario de solicitudes de exclusión de venta de consumidores en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA), mediante [creación e implementación de un segmento de exclusión de la venta de CCPA](ccpa-opt-out-segment-create.md). Los usuarios permanecen indefinidamente en los segmentos de exclusión de la venta de la CCPA.
 
-Una vez implementada la etiqueta de píxeles del segmento, la publicidad de Adobe empezará a recopilar un grupo de ID en nombre del anunciante.
+Una vez implementada la etiqueta de píxel de segmento, la publicidad de Adobe empezará a recopilar un grupo de ID en nombre del anunciante.
 
-## Informes de exclusión de ventas del consumidor
+## Informes de exclusión de venta de consumidores
 
-La publicidad de Adobe genera informes mensuales de los ID que los clientes han enviado para solicitudes de exclusión de venta de la cuenta. Los datos consolidan las solicitudes capturadas mediante segmentos de exclusión de venta de CCPA creados en DSP y cualquier envío realizado mediante la API de Privacy Service.  Los informes se generan el primer día de cada mes del mes anterior. Por ejemplo, la lista mensual de usuarios de junio está disponible el 1 de julio.
+Adobe Advertising genera informes mensuales de los ID que los clientes han enviado para solicitudes de exclusión de venta de la cuenta. DSP Los datos consolidan las solicitudes capturadas mediante los segmentos de exclusión de la venta de la CCPA creados en y en cualquier envío realizado a través de la API de Privacy Service.  Los informes se generan el primer día de cada mes del mes anterior. Por ejemplo, la lista de usuarios mensual de para junio está disponible el 1 de julio.
 
-Cada informe está disponible como un archivo de texto separado por tabuladores comprimido en formato GZIP. Los ID de usuario capturados en segmentos de exclusión de la venta de la CCPA se identifican por segmento y por anunciante.
+Cada informe está disponible como archivo de texto separado por tabulaciones comprimido en formato GZIP. Los ID de usuario capturados en los segmentos de exclusión de la venta de la CCPA se identifican por segmento y por anunciante.
 
-Puede [recuperar vínculos a los informes mensuales](ccpa-opt-out-segment-report-retrieve.md) que se crearon en los tres meses anteriores, ya sea desde dentro de DSP o mediante el uso de la DSP [!DNL Trafficking API]. Cada vínculo es válido durante siete días, pero se actualiza cada vez que un cliente intenta recuperar uno.
+Puede [recuperar vínculos a informes mensuales](ccpa-opt-out-segment-report-retrieve.md) DSP DSP que se hayan creado en los tres meses anteriores, ya sea desde el interior de la aplicación o mediante el uso de la aplicación de la aplicación de tipo de datos de la aplicación de la [!DNL Trafficking API]. Cada vínculo es válido durante siete días, pero se actualiza cada vez que un cliente intenta recuperar uno.
 
 >[!MORELIKETHIS]
 >
->* [Soporte publicitario de Adobe para la Ley de Privacidad del Consumidor de California: Compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Cree e implemente un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
->* [Recuperar informes de exclusión de ventas de consumidores](ccpa-opt-out-segment-report-retrieve.md)
->* [Acerca de la gestión de público](audience-about.md)
+>* [Adobe Compatibilidad con publicidad para la Ley de Privacidad del Consumidor de California: Compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Creación e implementación de un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
+>* [Recuperación de informes de exclusión de venta de consumidores](ccpa-opt-out-segment-report-retrieve.md)
+>* [Acerca de Audience Management](audience-about.md)
 

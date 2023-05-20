@@ -32,7 +32,7 @@ También hay disponibles tipos de audiencia adicionales para la segmentación de
 
 DSP Puede importar sus propios segmentos de datos de origen desde su plataforma de administración de datos (DMP) y proporcionarlos a cualquier conjunto de anunciantes, según sea necesario.
 
-DSP es un destino integrado para [el [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), lo que le permite compartir segmentos de origen autenticados con anunciantes y usuarios aprobados para la activación de campañas. Para obtener más información sobre la integración de Real-Time CDP, consulte la [Sección Fuentes](/help/dsp/audiences/sources/source-about.md).
+DSP es un destino integrado para [el [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), lo que le permite compartir segmentos de origen autenticados con anunciantes y usuarios aprobados para la activación de campañas. Para obtener más información sobre la integración de Real-Time CDP, consulte la [Sección Fuentes](/help/dsp/audiences/sources/source-about.md).
 
 DSP También puede importar segmentos de terceros personalizados, incluidas combinaciones complejas de segmentos de terceros. Puede proporcionar los segmentos a cualquier conjunto de anunciantes, según sea necesario.
 

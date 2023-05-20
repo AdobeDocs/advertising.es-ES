@@ -19,9 +19,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
->* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
->* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
->* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
->* [Configuración de informes personalizados](/help/dsp/reports/report-settings.md)
+>* [Creación de un informe personalizado](/help/dsp/reports/report-create.md)
+>* [Duplicación de un informe personalizado](/help/dsp/reports/report-copy.md)
+>* [Edición de un informe personalizado](/help/dsp/reports/report-edit.md)
+>* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 

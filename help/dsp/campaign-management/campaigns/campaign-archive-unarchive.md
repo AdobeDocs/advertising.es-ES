@@ -1,5 +1,5 @@
 ---
-title: Archivar o desarchivar una campaña
+title: Archivado o desarchivado de una campaña
 description: Obtenga información sobre cómo archivar o desarchivar una campaña.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Archivar o desarchivar una campaña
+# Archivado o desarchivado de una campaña
 
-Oculte una campaña que no se esté utilizando archivándola. La única acción que puede realizar en una campaña archivada es desarchivarla. Las campañas archivadas no se muestran de forma predeterminada, pero siguen estando disponibles para los informes.
+Oculte una campaña que no se esté utilizando para archivarla. La única acción que puede realizar en una campaña archivada es desarchivarla. Las campañas archivadas no se muestran de forma predeterminada, pero siguen estando disponibles para la creación de informes.
 
 Puede desarchivar una campaña para restaurar su estado anterior en cualquier momento.
 
@@ -24,7 +24,7 @@ Puede desarchivar una campaña para restaurar su estado anterior en cualquier mo
 
 >[!NOTE]
 >
->Para ver las campañas archivadas, filtre el [!UICONTROL Campaigns] vista: click ![Botón Filtro](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Campaign status]** y seleccione **[!UICONTROL Archived]** y, a continuación, haga clic en **[!UICONTROL Apply].**
+>Para ver campañas archivadas, filtre la variable [!UICONTROL Campaigns] vista: clic ![Botón Filtro](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Campaign status]** y seleccione **[!UICONTROL Archived]** y haga clic en **[!UICONTROL Apply].**
 
 ## Desarchivar una campaña
 
@@ -34,5 +34,5 @@ Puede desarchivar una campaña para restaurar su estado anterior en cualquier mo
 
 >[!MORELIKETHIS]
 >
->* [Editar una campaña](campaign-edit.md)
->* [Ver el registro de cambios de una campaña](campaign-change-log.md)
+>* [Edición de una campaña](campaign-edit.md)
+>* [Visualización del registro de cambios de una campaña](campaign-change-log.md)
