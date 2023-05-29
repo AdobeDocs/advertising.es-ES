@@ -3,9 +3,9 @@ title: Creación de una campaña
 description: Obtenga información sobre cómo crear una campaña.
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -28,4 +28,5 @@ ht-degree: 0%
 >* [Edición de una campaña](campaign-edit.md)
 >* [Visualización del registro de cambios de una campaña](campaign-change-log.md)
 >* [Configuración de campaña](campaign-settings.md)
+>* [Pausar o activar una campaña](campaign-pause-activate.md)
 

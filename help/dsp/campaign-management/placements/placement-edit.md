@@ -3,9 +3,9 @@ title: Editar una ubicación
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 
 1. Seleccione la casilla de verificación situada junto a cada ubicación que desee editar.
 
-1. En la barra de menús, haga clic en **[!UICONTROL Edit]**.
+1. En la barra de menús de operaciones por lotes, haga clic en **[!UICONTROL Edit]**.
 
 1. Para cada configuración que desee cambiar:
 

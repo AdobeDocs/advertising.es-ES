@@ -3,9 +3,9 @@ title: Crear un paquete
 description: Obtenga información sobre cómo crear un paquete.
 feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ Una vez creado un paquete, puede asignarle ubicaciones.
 >* [Edición de un paquete](package-edit.md)
 >* [Adjuntar una ubicación a un paquete](package-attach-placement.md)
 >* [Visualización del registro de cambios de un paquete](package-change-log.md)
+>* [Pausar o activar un paquete](package-pause-activate.md)
 >* [Configuración de paquetes](package-settings.md)
 >* [Vídeo: Cómo crear un paquete](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
 

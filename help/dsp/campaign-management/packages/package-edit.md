@@ -3,9 +3,9 @@ title: Edición de un paquete
 description: Obtenga información sobre cómo editar un paquete.
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '61'
 ht-degree: 1%
 
 ---
@@ -24,5 +24,6 @@ ht-degree: 1%
 >* [Crear un paquete](package-create.md)
 >* [Duplicación de un paquete](package-duplicate.md)
 >* [Visualización del registro de cambios de un paquete](package-change-log.md)
+>* [Pausar o activar un paquete](package-pause-activate.md)
 >* [Configuración de paquetes](package-settings.md)
 
