@@ -9,7 +9,7 @@ user-guide-description: En esta guía se explican las principales funciones, tar
 breadcrumb-title: Guía de Advertising Search, Social y Commerce
 index: false
 hide: true
-source-git-commit: cd8367fbae2234cfdb937c5da8f21f94a615e92a
+source-git-commit: c42ad5b5944f9595431786e05dbab670f1eab02e
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 0%
@@ -404,5 +404,5 @@ ht-degree: 0%
       + [Ver las propiedades de transacción rastreadas de un anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
       + [Cambiar las propiedades de transacción disponibles en vistas de administración e informes](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
       + [Cambiar el nombre para mostrar de una propiedad de transacción](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
-   + [Obtener ayuda](get-help.md)
-   + [Glosario](glossary.md)
++ [Obtener ayuda](get-help.md)
++ [Glosario](glossary.md)
