@@ -1,9 +1,9 @@
 ---
 title: Editar la configuración directamente dentro de una fila
 description: Obtenga información sobre cómo editar datos en vistas de administración dentro de la fila.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -25,4 +25,5 @@ ht-degree: 0%
    * (Valores en formato libre) Introduzca un nuevo valor y haga clic en ![Guardar](/help/search-social-commerce/assets/select.png "Guardar") o pulse el botón **Entrar** clave.
    >[!MORELIKETHIS]
    >
-   >*[Cree y edite datos de campaña por lotes mediante Copiar y Pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [Cree y edite datos de campaña por lotes mediante Copiar y Pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+
