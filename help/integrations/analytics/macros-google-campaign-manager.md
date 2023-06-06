@@ -3,9 +3,9 @@ title: Añadir [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign M
 description: Descubra por qué y cómo añadir [!DNL Analytics for Advertising] macros a su [!DNL Google Campaign Manager 360] etiquetas de publicidad
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 ```
 
 >[!NOTE]
->
->
 >* Si la dirección URL de la página de aterrizaje incluye el símbolo hash (#), que no es común, coloque el `amo` antes del símbolo hash.
->* Si no se incluyen otros parámetros después de `amo` y después agregue un parámetro (por ejemplo, &amp;a=b). Ejemplo:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+
+>
+>* >Si no se incluyen otros parámetros después de `amo` y después agregue un parámetro (por ejemplo, &amp;a=b). Ejemplo:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
 ### Configurar el sufijo de URL de la página de aterrizaje de nivel del anunciante
@@ -83,8 +83,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 Cuando un usuario hace clic en el anuncio, [!DNL Google Campaign Manager 360] ve `%pamo` en el sufijo URL e inserta dinámicamente el valor del `amo` en la dirección URL.
 
 >[!MORELIKETHIS]
->
->* [Información general de [!DNL Analytics for Advertising]](overview.md)
->* [ID de publicidad de Adobe utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Añadir [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de publicidad](macros-flashtalking.md)
+* [Información general de [!DNL Analytics for Advertising]](overview.md)
+* [ID de publicidad de Adobe utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
+* [Añadir [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de publicidad](macros-flashtalking.md)
 

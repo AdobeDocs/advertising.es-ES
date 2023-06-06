@@ -1,9 +1,9 @@
 ---
 title: Glosario
 description: Consulte las definiciones de términos clave.
-source-git-commit: 7ecba48f473e8d1c5f193327d9890759536c1d40
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

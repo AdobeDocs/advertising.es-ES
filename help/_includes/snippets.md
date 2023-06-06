@@ -1,10 +1,63 @@
 ---
-source-git-commit: b025662e7823f1f3f45dc94ab4cbd608658ebc96
+source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '1'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 # Fragmentos
 
-## [!DNL Search, Social, & Commerce]{#search-product-name}
+## Campo Plantilla de seguimiento para entidades de Google Ads {#tracking-template-google}
+
+<!-- Duplicated from include file because one file has multiple occurrences, which ExL doesn't support. -->
+
+**[!UICONTROL Tracking Template]:** (Opcional) La plantilla de seguimiento o la URL de seguimiento, que especifica todas las redirecciones de dominios fuera del aterrizaje y los parámetros de seguimiento, e incrusta también la dirección URL final/de la página de aterrizaje en una [!DNL ValueTrack] parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
+
+Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce añadirá automáticamente como prefijo su propio código de seguimiento y redirección al guardar el registro.
+
+* Para ver los parámetros admitidos para incrustar la dirección URL final, consulte los [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] formatos](https://support.google.com/google-ads/answer/6305348). (Vaya a los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros de ValueTrack disponibles&quot;).
+
+* Opcionalmente, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separado por el símbolo et (&amp;), como {lpurl}?matchtype={matchtype}&amp;device={device}.
+
+* Si lo desea, puede añadir redirecciones y seguimiento de terceros.
+
+>[!NOTE]
+>
+>* Evite utilizar macros que no sustituyan los clics de fuentes que habilitan el seguimiento en paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
+>* La plantilla de seguimiento en el nivel más granular anula los valores en todos los niveles superiores. Por ejemplo, si tanto la configuración de la cuenta como la configuración de la palabra clave incluyen un valor, se aplica el valor de la palabra clave.
+>* Si actualiza una plantilla de seguimiento en el nivel de anuncio, vínculo de sitio o palabra clave, los anuncios relevantes se vuelven a enviar para su revisión. Puede actualizar las plantillas de seguimiento en los niveles de cuenta, campaña o grupo de publicidad sin volver a enviar los anuncios para su aprobación.
+
+
+## Campo de plantilla de seguimiento para entidades de Microsoft Advertising {#tracking-template-microsoft}
+
+<!-- Search CRUD and bulk edit of Microsoft entity settings -->
+
+**[!UICONTROL Tracking Template]:** (Opcional) La plantilla de seguimiento o la URL de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje remoto y los parámetros de seguimiento, e incrusta la dirección URL de la página de aterrizaje/final en un parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
+
+Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce añadirá automáticamente como prefijo su propio código de seguimiento y redirección al guardar el registro.
+
+* Para ver los parámetros admitidos para incrustar la dirección URL final, consulte los [[!DNL Microsoft Advertising] documentación sobre los parámetros para indicar la dirección URL final](https://help.ads.microsoft.com/#apex/3/en/56799).
+
+* Opcionalmente, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separado por el símbolo et (&amp;), como {lpurl}?matchtype={matchtype}&amp;device={device}.
+
+* Si lo desea, puede añadir redirecciones y seguimiento de terceros.
+
+<!-- Some entities may need additional/different notes. Try to keep this applicable to all MS entities. -->
+
+>[!NOTE]
+>
+>* La plantilla de seguimiento en el nivel más granular anula los valores en todos los niveles superiores. Por ejemplo, si tanto la configuración de la cuenta como la configuración de la palabra clave incluyen un valor, se aplica el valor de la palabra clave.
+>* Puede actualizar las plantillas de seguimiento en cualquier nivel sin volver a enviar los anuncios para su aprobación.
+
+
+## Texto y plantilla: nota que explica cómo insertar un parámetro dinámico {#inventory-feed-template-insert-dynamic-parameter}
+
+Para insertar un nombre de columna o un grupo de modificadores como parámetro dinámico, haga clic en el campo de entrada y, a continuación, haga clic en un nombre de columna en la lista de columnas o en un [nombre de modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) en la lista Modificadores. Para insertar el [!DNL Param1] o [!DNL Param2] , introduzca el valor `{param1:default text}` o `{param2:default text}`, donde &quot;texto predeterminado&quot; es el texto que se utiliza si la columna de parámetro del archivo de fuente está vacía para una fila de anuncio.
+
+## Plantilla de anuncio de texto: nota que explica cómo insertar un personalizador de publicidad {#inventory-feed-template-insert-ad-customizer}
+
+Para insertar un personalizador de anuncios, utilice los siguientes formatos, donde `Default text` es un valor opcional que se inserta cuando el archivo de fuente no incluye un valor válido:
+
+* [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, como `{CUSTOMIZER.Discount:10%}`
+
+* [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, como `{CUSTOMIZER.Discount:10%}`

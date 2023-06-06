@@ -1,0 +1,44 @@
+---
+title: Asociar [!DNL Google Ads] extensiones de llamadas compartidas con campañas o grupos de anuncios
+description: Obtenga información sobre cómo asignar [!DNL Google Ads] extensiones de llamadas compartidas a campañas o grupos de anuncios.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
+
+---
+
+# Asociar [!DNL Google Ads] extensiones de llamadas compartidas con campañas o grupos de anuncios
+
+*[!DNL Google Ads]solo cuentas*
+
+Puede crear y asignar extensiones de llamada a cualquier [compatible [!DNL Google Ads] campaña o grupo de publicidad](/help/search-social-commerce/introduction/supported-inventory.md) en la red de búsqueda dentro de un [sincronizado [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+
+Asigne al menos dos llamadas por campaña o grupo de anuncios para que sus anuncios puedan aparecer con llamadas.
+
+1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+
+1. En la barra de herramientas sobre la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear"), y luego seleccione **[!UICONTROL Callout]**.
+
+1. Seleccione la red publicitaria y el nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Continue]**.
+
+1. Asignar llamadas a una campaña o grupo de anuncios:
+
+   1. En el [!UICONTROL Callouts] , seleccione las llamadas aplicables de una lista de todas las llamadas de la biblioteca.
+
+   1. En el [!UICONTROL Assignment] , seleccione las campañas y los grupos de anuncios a los que se asignan los rótulos seleccionados:
+
+      * (Opcional) Para expandir una campaña y ver sus grupos de anuncios secundarios, haga clic en el nombre de la campaña.
+
+      * (Opcional) Para filtrar una lista de campañas o de grupos de publicidad por una cadena de texto incluida en el nombre, haga clic en ![Filtrar](/help/search-social-commerce/assets/filter.png "Filtrar"), introduzca o pegue la cadena de texto en el campo de entrada y, a continuación, pulse el botón **Entrar** clave.
+
+      * Para seleccionar una entidad, haga clic en el círculo que hay junto a ella (![Seleccionar](/help/search-social-commerce/assets/include.png "Seleccionar")).
+   1. Haga clic **[!UICONTROL Post]**.
+
+
+>[!MORELIKETHIS]
+>
+>* [Acerca de [!DNL Google Ads] extensiones de llamada](callout-extension-about.md)
+>* [Administrar [!DNL Google Ads] extensiones de llamada](callout-extension-manage.md)
+>* [Eliminar asociaciones de extensión de publicidad con campañas y grupos de publicidad](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
+
