@@ -9,9 +9,9 @@ user-guide-description: En esta guía se explican las principales funciones, tar
 breadcrumb-title: Guía de Advertising Search, Social y Commerce
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + Herramientas {#tools}
    + [Cambiar la contraseña](/help/search-social-commerce/tools/password-change.md)
-   + Herramientas para el seguimiento de etiquetas {#tracking}
-      + [Herramientas para crear y descodificar el seguimiento basado en píxeles]{#pixel}
-         + [Acerca de las herramientas para crear y descodificar etiquetas de seguimiento](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [Generar una URL de seguimiento de clics](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [Descodificación de una dirección URL de seguimiento de clics](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [Generación de una etiqueta de conversión de publicidad de Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + Herramientas para crear y descodificar etiquetas de seguimiento{#tracking}
+      + [Acerca de las herramientas para crear y descodificar etiquetas de seguimiento](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [Generar una URL de seguimiento de clics](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [Descodificación de una dirección URL de seguimiento de clics](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [Generación de una etiqueta de conversión de publicidad de Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Carga de datos de conversión en redes de publicidad {#upload-ad-networks}
       + [Cargar métricas de conversión en [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Habilitar la carga de objetivos en las redes de publicidad](/help/search-social-commerce/tools/objective-upload-to-networks.md)
