@@ -1,9 +1,9 @@
 ---
 title: Administrar archivos de fuente de datos de inventario
 description: Obtenga información sobre cómo configurar las opciones que controlan cómo se procesan los datos de fuentes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Puede abrir o descargar cualquier archivo de fuente que se haya cargado manualme
 
 Para obtener más información, consulte la ayuda en línea del explorador.
 
-## Cargar manualmente un archivo de fuente [#feed-file-upload]
+## Cargar manualmente un archivo de fuente {#feed-file-upload}
 
 >[!NOTE]
 > Si asocia una plantilla con un archivo cargado manualmente pero luego carga por FTP otro archivo con el mismo nombre, extensión y formato gramatical, se utilizará al propagar los datos por la plantilla. Por ejemplo, myfile.csv reemplaza a myfile.csv, pero Myfile.CSV no.
