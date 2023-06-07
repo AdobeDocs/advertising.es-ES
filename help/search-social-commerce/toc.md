@@ -9,9 +9,9 @@ user-guide-description: En esta guía se explican las principales funciones, tar
 breadcrumb-title: Guía de Advertising Search, Social y Commerce
 index: false
 hide: true
-source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
+source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1721'
 ht-degree: 0%
 
 ---
@@ -369,7 +369,11 @@ ht-degree: 0%
       + [Ver alertas personalizadas](/help/search-social-commerce/alerts/alert-view.md)
       + [Exportar datos para alertas personalizadas](/help/search-social-commerce/alerts/alert-export-data.md)
    + [Ver el informe Historial de Cambios](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations {#recommendations}
+   + Recommendations y perspectivas del editor {#recommendations}
+      + [Acerca de las recomendaciones del editor y la compatibilidad con perspectivas](/help/search-social-commerce/recommendations/recommendation-support.md)
+      + [Ver el registro de recomendaciones de un [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [Aplique o descarte una [!DNL Google Ads] recomendación](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [Prácticas recomendadas para usar recomendaciones de editores y perspectivas con portafolios](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Herramientas {#tools}
    + [Cambiar la contraseña](/help/search-social-commerce/tools/password-change.md)
    + Herramientas para crear y descodificar etiquetas de seguimiento{#tracking}

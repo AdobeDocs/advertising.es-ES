@@ -1,9 +1,9 @@
 ---
 title: Aplique o descarte una [!DNL Google Ads] recomendación
 description: Obtenga información sobre cómo ver una [!DNL Google Ads] y cómo aplicar o rechazar la recomendación.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Ver las acciones recomendadas y una explicación de por qué las acciones sería
 >
 >Aunque las recomendaciones le ayudan a mejorar el rendimiento de las campañas, es posible que algunas no se alineen con sus objetivos más amplios. Como resultado, es mejor consultar con el equipo de cuenta de Adobe antes de implementar cualquier recomendación.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
-1. En la parte superior derecha, seleccione la cuenta.
+1. En la parte superior derecha, seleccione la red publicitaria y la cuenta.
 
 1. (Opcional) Filtre las recomendaciones por categoría y tipo.
 
@@ -36,7 +36,7 @@ Ver las acciones recomendadas y una explicación de por qué las acciones sería
 
 >[!MORELIKETHIS]
 >
->* [Prácticas recomendadas para usar [!DNL Google Ads] recomendaciones con portafolios de Search, Social y Commerce](google-recommendation-best-practices.md)
->* [Acerca de [!DNL Google Ads] soporte de recommendations](google-recommendation-support.md)
+>* [Acerca de las recomendaciones del editor y la compatibilidad con perspectivas](recommendation-support.md)
 >* [Ver el registro de recomendaciones de un [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Prácticas recomendadas para usar recomendaciones de editores y perspectivas con portafolios](recommendation-best-practices.md)
 
