@@ -1,7 +1,7 @@
 ---
 title: Inventario admitido
 description: Haga referencia a las redes de publicidad, los tipos de campaña y los tipos de publicidad admitidos.
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 A continuación se indican las redes de anuncios compatibles, los tipos de campaña y los tipos de publicidad, así como la funcionalidad disponible para cada uno.
 
 | Origen | Red | Tipo de campaña | Tipo de anuncio | Sincronizar y ver | Crear/editar | Seguimiento[^1] | Optimización | Informe[^2] | Asistencia de Adobe Analytics[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | Buscar red | Manual | Texto | Automático mediante API | Uso de [vistas de administración de campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) y [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Sí | Campañas solo con estrategia de oferta de CPC manual | Datos de nivel de anuncio | Datos de Analytics para Search, Social y Commerce<br><br>Datos de nivel de anuncio de Search, Social y Commerce a Analytics |
 | [!DNL Google Ads] | Todo [!DNL Google] fuentes | Descubrimiento (función beta) | Descubrimiento (anuncios de una sola imagen)<br><br>Carrusel de descubrimiento (anuncios de carrusel de varias imágenes) | Automático mediante API | — | Sí | Solo en portafolios híbridos<br><br>Los objetivos de las ofertas y la estrategia de oferta se establecen en el nivel de campaña, junto con los presupuestos de campaña, según corresponda al tipo de optimización. | Datos de nivel de anuncio | Añadir datos de nivel de anuncio a Buscar, Social y Comercio (con el [código de seguimiento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>Datos de nivel de anuncio de Search, Social y Commerce a Analytics |
 |  | Todo | Rendimiento estándar máximo (función beta) | Todos los tipos | Automático mediante API | Cree/edite recursos de campañas y cárguelos dentro de la configuración de campaña en la vista Campañas<br><br>Solo están disponibles las configuraciones necesarias. Para ver la configuración opcional y enumerar grupos, inicie sesión en [!DNL [!DNL Google Ads] Ads] editor. | Sí | Solo en portafolios híbridos<br><br>Los objetivos de la estrategia de oferta se establecen en el nivel de campaña, junto con los presupuestos de campaña. | Datos de nivel de campaña<br><br>Los datos para enumerar grupos no están disponibles y la red de anuncios no proporciona datos de nivel de anuncio. | Datos de Analytics para Search, Social y Commerce<br><br>Datos de nivel de campaña de Search, Social y Commerce a Analytics. Requiere la actualización [código de seguimiento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
