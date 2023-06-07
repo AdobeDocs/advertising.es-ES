@@ -1,9 +1,9 @@
 ---
 title: Datos de hoja de edición masiva requeridos para [!DNL Google Ads] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Google Ads] cuentas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '6276'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Para crear y actualizar [!DNL Google Ads] Para realizar campañas masivas de dat
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
 
 | Campo | Descripción |
-| ---- | ---- | ---- |
+| ---- | ---- |
 | Plataforma | (Incluida en las hojas de edición masiva generadas con fines informativos) La plataforma de publicidad. Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
 | Nombre de cuenta | El nombre único que identifica una cuenta de red de publicidad. Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
 | Nombre de campaña | El nombre único que identifica una campaña para una cuenta. |
