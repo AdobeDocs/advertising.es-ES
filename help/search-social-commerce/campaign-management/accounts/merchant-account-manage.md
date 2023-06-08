@@ -1,9 +1,9 @@
 ---
 title: Administrar cuentas de comerciante
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta de un centro de comerciantes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Para ver los datos del producto y generar plantillas de seguimiento para una cue
 
    1. En el [!UICONTROL Product Source] , seleccione el centro de comerciantes.
 
-   1. (Necesario para [!DNL Google Ads] cuentas; opcional para [!DNL Microsoft Advertising] cuentas) Permita que Search, Social y Commerce accedan a la cuenta utilizando [[!DNL OAuth] protocolo de autorización](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+   1. (Necesario para [!DNL Google Ads] cuentas; opcional para [!DNL Microsoft Advertising] cuentas) Permita que Search, Social y Commerce accedan a la cuenta utilizando [[!DNL OAuth] protocolo de autorización](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] solo cuentas) Seleccione **[!UICONTROL oAuth]**.
 
@@ -98,13 +98,13 @@ Al deshabilitar una cuenta de comerciante, Search, Social y Commerce no inician 
 
 **[!UICONTROL Product Source]:** La red comercial. No puede cambiar el valor de una cuenta existente.
 
-**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] solo cuentas) El token de la cuenta para autorizar inicios de sesión con la variable [[!DNL OAuth] protocolo de autorización](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] solo cuentas) El token de la cuenta para autorizar inicios de sesión con la variable [[!DNL OAuth] protocolo de autorización](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]:** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] (solo) Si se autorizan los inicios de sesión en la cuenta mediante:
 
 * *[!UICONTROL Client login]:* Para utilizar el inicio de sesión del cliente.
 
-* *[!UICONTROL oAuth]* (el valor predeterminado): Para utilizar la variable [[!DNL OAuth] protocolo de autorización](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (el valor predeterminado): Para utilizar la variable [[!DNL OAuth] protocolo de autorización](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] solo) La clave de acceso que utilizará la cuenta de desarrollador.
 
@@ -130,4 +130,3 @@ Al deshabilitar una cuenta de comerciante, Search, Social y Commerce no inician 
 >
 >* [Acerca de las cuentas de red de publicidad](ad-network-account-about.md)
 >* [Administrar las cuentas de red de publicidad](ad-network-account-manage.md)
-

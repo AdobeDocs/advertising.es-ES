@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Yahoo! Japan Ads] configuración de palabras clave"
 description: Haga referencia a la configuración de [!DNL Yahoo! Japan Ads] Palabras clave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Puede escribir o pegar hasta 2000 palabras clave. Separe varias palabras clave c
 >* Puede crear palabras clave negativas desde el [!UICONTROL Keywords] > [!UICONTROL Negatives] vea y en el grupo de publicidad y en la configuración de la campaña.
 >* Yahoo! Las palabras clave y los tipos de coincidencia de Japón son mutables, lo que significa que puede editarlos sin eliminar la palabra clave existente.
 
-
 **[!UICONTROL Status]:** El estado de visualización de la palabra clave: *Activo* o *Pausado*. El valor predeterminado para las palabras clave nuevas es *Activo*.
 
 ## [!UICONTROL Bids]
@@ -32,9 +31,9 @@ Puede escribir o pegar hasta 2000 palabras clave. Separe varias palabras clave c
 
 ## Marcadores
 
-**[!UICONTROL Param1]:** La cadena que se utilizará como valor de sustitución si la dirección URL base o la plantilla de seguimiento contienen el valor `{param1}` [parámetro personalizado](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param1]:** La cadena que se utilizará como valor de sustitución si la dirección URL base o la plantilla de seguimiento contienen el valor `{param1}` [parámetro personalizado](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** La cadena que se utilizará como valor de sustitución si la dirección URL base o la plantilla de seguimiento contienen el valor `{param2}` [parámetro personalizado](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param2]:** La cadena que se utilizará como valor de sustitución si la dirección URL base o la plantilla de seguimiento contienen el valor `{param2}` [parámetro personalizado](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## Opciones de URL
 
@@ -49,4 +48,3 @@ Puede escribir o pegar hasta 2000 palabras clave. Separe varias palabras clave c
 >[!MORELIKETHIS]
 >
 >* [Administrar palabras clave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

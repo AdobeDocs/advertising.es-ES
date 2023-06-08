@@ -1,9 +1,9 @@
 ---
 title: Administrar [!DNL Google Ads] ubicaciones
 description: Aprenda a crear y administrar ubicaciones de oferta para [!DNL Google Ads] grupos de anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,3 @@ Puede crear y editar ubicaciones para grupos de anuncios en [tipos de campaña a
 >* [Acerca de las ubicaciones](placement-about.md)
 >* [Creación de ubicaciones negativas](placement-negative-create.md)
 >* [Cambiar el estado de las ubicaciones y las ubicaciones negativas](placement-status-edit.md)
-

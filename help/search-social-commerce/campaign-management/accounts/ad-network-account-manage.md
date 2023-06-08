@@ -1,9 +1,9 @@
 ---
 title: Administrar las cuentas de red de publicidad
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para habilitar la sincronización o el seguimiento de una cuenta, debe crear un 
 
    1. En el **[!UICONTROL Account Details]** , introduzca los detalles de la cuenta.
 
-      Para redes de publicidad que utilizan el tipo de autorización de inicio de sesión &quot;[!UICONTROL oAuth],&quot; permiten que Search, Social y Commerce accedan a la cuenta mediante [Protocolo de autorización de OAuth](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+      Para redes de publicidad que utilizan el tipo de autorización de inicio de sesión &quot;[!UICONTROL oAuth],&quot; permiten que Search, Social y Commerce accedan a la cuenta mediante [Protocolo de autorización de OAuth](https://oauth.net/2/):
 
       1. Introduzca el **[!UICONTROL Login]** para la cuenta, introduzca la contraseña de forma opcional y, a continuación, haga clic en **[!UICONTROL Authenticate]**.
 
@@ -45,8 +45,8 @@ Para habilitar la sincronización o el seguimiento de una cuenta, debe crear un 
       1. Copie la cadena de autenticación en la ventana emergente que se abre y péguela en el **[!UICONTROL oAuth Token]** field.
 
       1. Especifique los detalles de la cuenta restante.
-   1. Clic **[!UICONTROL Set Account Tracking]** e introduzca la configuración de seguimiento.
 
+   1. Clic **[!UICONTROL Set Account Tracking]** e introduzca la configuración de seguimiento.
 
 1. Haga clic **[!UICONTROL Post]**.
 
@@ -82,7 +82,7 @@ Si cambian las credenciales de la cuenta, desea cambiar los parámetros de segui
 
 *Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
-Si Search, Social y Commerce acceden a la cuenta utilizando [Protocolo de autorización de OAuth](http://tools.ietf.org/html/draft-ietf-oauth-v2-22) y cambian las credenciales de la cuenta, o si se requiere acceso adicional para admitir nuevas funciones en Search, Social y Commerce, debe obtener un nuevo token de acceso para la cuenta.
+Si Search, Social y Commerce acceden a la cuenta utilizando [Protocolo de autorización de OAuth](https://oauth.net/2/) y cambian las credenciales de la cuenta, o si se requiere acceso adicional para admitir nuevas funciones en Search, Social y Commerce, debe obtener un nuevo token de acceso para la cuenta.
 
 El equipo de cuenta de Adobe le informará si las nuevas funciones requieren un token nuevo.
 
@@ -146,7 +146,7 @@ Cuando habilita una cuenta de red de publicidad, Search, Social y Commerce sincr
 
 **[!UICONTROL Login Details]: \[Tipo de inicio de sesión\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] (solo) Si se autorizan los inicios de sesión en la cuenta mediante:
 
-* *[!UICONTROL oAuth]* (el valor predeterminado): Para utilizar la variable [[!DNL OAuth] protocolo de autorización](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (el valor predeterminado): Para utilizar la variable [[!DNL OAuth] protocolo de autorización](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* Para utilizar la contraseña del cliente.
 
@@ -154,7 +154,7 @@ Para [!DNL Microsoft Advertising] sólo cuentas [!DNL oAuth]Se pueden utilizar i
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Todas las redes de anuncios excepto [!DNL Naver]) El nombre o ID de inicio de sesión para habilitar el acceso de la API a la cuenta.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled y todas las demás redes excepto [!DNL Baidu], [!DNL Meta], y [!DNL Yandex]) El token de la cuenta para autorizar inicios de sesión con el [[!DNL OAuth] protocolo de autorización](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled y todas las demás redes excepto [!DNL Baidu], [!DNL Meta], y [!DNL Yandex]) El token de la cuenta para autorizar inicios de sesión con el [[!DNL OAuth] protocolo de autorización](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas las redes de anuncios excepto [!DNL Naver]) Contraseña de la cuenta. Para cuentas habilitadas con contraseña en [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], y [!DNL Yandex], este campo es obligatorio. Para [!DNL oAuth]En las cuentas habilitadas para, este campo es opcional; utilícelo cuando desee cifrar y guardar la contraseña para que el administrador de cuentas pueda actualizar los tokens según sea necesario.
 
@@ -172,7 +172,6 @@ Las cuentas que utilizan el rastreo de clics de Adobe Advertising deben incluir 
 >
 >* El campo no se actualiza en [!UICONTROL Auto Upload] configuración de seguimiento.
 >* Los sufijos finales de URL en los niveles inferiores anulan el sufijo de nivel de cuenta. Para facilitar el mantenimiento, utilice únicamente el sufijo de nivel de cuenta a menos que sea necesario realizar un seguimiento diferente para los componentes de cuenta individuales. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, utilice el editor de la red de anuncios.
-
 
 **Zona horaria:** (Todas las redes de publicidad excepto [!DNL Baidu] y [!DNL Yahoo! Display Network]) Zona horaria del anunciante. Este campo es editable y opcional para los nuevos [!DNL Naver] cuentas. Para todas las demás redes de búsqueda, el valor se rellena automáticamente con la zona horaria configurada para la cuenta de Search, Social y Commerce del anunciante una vez guardado el registro.
 
@@ -200,7 +199,6 @@ Las cuentas que utilizan el rastreo de clics de Adobe Advertising deben incluir 
 >* Para [!DNL Google Ads], evite utilizar macros que no sustituyan los clics de fuentes que habiliten el seguimiento paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
 >* La plantilla de seguimiento en el nivel más granular anula los valores en todos los niveles superiores. Por ejemplo, si tanto la configuración de la cuenta como la configuración de la palabra clave incluyen un valor, se aplica el valor de la palabra clave.
 >* Si actualiza una plantilla de seguimiento en el nivel de anuncio, vínculo de sitio o palabra clave, los anuncios relevantes se vuelven a enviar para su revisión. Puede actualizar las plantillas de seguimiento en los niveles de cuenta, campaña o grupo de publicidad sin volver a enviar los anuncios para su aprobación.
-
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] solo cuentas) El ID de una cuenta de agencia/administración asociada a la cuenta.
 
@@ -259,4 +257,3 @@ Para que los datos aparezcan en los grupos de informes, ya sea (a) el s\_kwcid d
 >* [Acerca de las cuentas de red de publicidad](ad-network-account-about.md)
 >* [Administrar cuentas de centros de comerciantes](merchant-account-manage.md)
 >* [Actualice el código de seguimiento s\_kwcid para un [!DNL Google Ads] account](update-skwcid-google.md)
-
