@@ -2,9 +2,9 @@
 title: Configuración de pruebas A/B para anuncios publicitarios de Adobe en Adobe Target
 description: Obtenga información sobre cómo configurar una prueba A/B en [!DNL Target] DSP para su y [!DNL Search, Social, & Commerce] anuncios.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -85,11 +85,12 @@ Al añadir un píxel de evento de impresión Audience Manager en la configuraci�
 
    1. Ir a **Audience Manager** > **Datos de audiencia** > **Señales** y, a continuación, seleccione **Buscar** en la parte superior izquierda.
 
-   1. Introduzca el **Clave** y **Valor** para la señal que determina a qué nivel se agrupan los usuarios del segmento. Utilice un [clave admitida](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=en) con un valor que corresponde a una macro agregada al píxel del evento de impresión del Audience Manager.
+   1. Introduzca el **Clave** y **Valor** para la señal que determina a qué nivel se agrupan los usuarios del segmento. Utilice un [clave admitida](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) con un valor que corresponde a una macro agregada al píxel del evento de impresión del Audience Manager.
 
       Por ejemplo, para agrupar usuarios para una ubicación determinada, utilice el `d_placement` clave. DSP Para el valor, utilice un ID de colocación numérica real (como 2501853 en la captura de pantalla anterior) que capture la macro `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
       Si el campo Recuento total muestra los recuentos de usuarios para el par clave-valor, lo que indica que el píxel se colocó correctamente y los datos fluyen, puede continuar con el siguiente paso.
+
    ![Señales de búsqueda](/help/integrations/assets/target-am-signals.png)
 
 1. [Crear un rasgo basado en reglas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) para la creación de segmentos en Audience Manager.
@@ -109,6 +110,7 @@ Al añadir un píxel de evento de impresión Audience Manager en la configuraci�
    1. Asigne un nombre al segmento y seleccione `Ad Cloud` como el **Fuente de datos** y, a continuación, guarde el segmento.
 
       Audience Manager divide automáticamente el segmento en un grupo de control que recibe la experiencia de página de aterrizaje estándar y un grupo de prueba que recibió una experiencia en el sitio personalizada.
+
    ![Captura de pantalla de un segmento de prueba](/help/integrations/assets/target-am-segment.png)
 
 ## Paso 3: Configurar una actividad &quot;Prueba A/B&quot; en Target
@@ -164,6 +166,7 @@ DSP Las siguientes instrucciones resaltan la información relacionada con el cas
    * Experiencia A: no edite porque es la experiencia predeterminada/de control de página de aterrizaje sin personalización.
 
    * Experiencia B: usar el [!DNL Target] interfaz de usuario para personalizar la plantilla de página de aterrizaje en función de los recursos incluidos en la prueba (como titulares, textos, ubicación de botones y material creativo).
+
    >[!NOTE]
    >
    >Por ejemplo, en casos de uso de pruebas creativas, póngase en contacto con el equipo de cuenta de Adobe.
@@ -182,7 +185,7 @@ En Analysis Workspace, configure las [!DNL Analytics for Target panel] para anal
 
 #### Métricas
 
-* Cree un panel dentro del espacio de trabajo específico para la campaña, el paquete o la ubicación de publicidad de Adobe para el que se ejecutó la prueba. Utilice visualizaciones de resumen para mostrar las métricas de publicidad de Adobe en el mismo informe que el rendimiento de la prueba de Target.
+* Cree un panel dentro del espacio de trabajo específico para la campaña, el paquete o la ubicación de publicidad de Adobe para el que se ejecutó la prueba. Utilice visualizaciones de resumen para mostrar las métricas de Adobe Advertising en el mismo informe que el rendimiento de la prueba de Target.
 
 * Priorice el uso de métricas en el sitio (como visitas y conversiones) para medir el rendimiento.
 
@@ -206,9 +209,9 @@ En Analysis Workspace, si observa que los datos de actividad y experiencias son 
 
 [Valores de ID de datos suplementarios (SDID) en Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* En la misma página de aterrizaje, compruebe que a) el nombre de host que se muestra en Adobe Debugger en Soluciones > Target coincide con b) el servidor de seguimiento que se muestra en [!DNL Target] para la actividad (en Objetivos y configuración > Configuración de informes).
+* En la misma página de aterrizaje, compruebe que a) el nombre de host mostrado en el Adobe Debugger en Soluciones > Target coincida con b) el servidor de seguimiento mostrado en [!DNL Target] para la actividad (en Objetivos y configuración > Configuración de informes).
 
-   [!DNL Analytics For Target] requiere un [!DNL Analytics] servidor de seguimiento para enviar en llamadas desde [!DNL Target] a la [!DNL Modstats] servidor de recopilación de datos para Analytics.<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target] requiere un [!DNL Analytics] servidor de seguimiento para enviar en llamadas desde [!DNL Target] a la [!DNL Modstats] servidor de recopilación de datos para Analytics.<!-- just "to Analytics?"-->
 
 [Valor de nombre de host en Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

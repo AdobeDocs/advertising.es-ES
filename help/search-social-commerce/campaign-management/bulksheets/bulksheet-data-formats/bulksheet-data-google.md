@@ -1,9 +1,9 @@
 ---
 title: Datos de hoja de edición masiva requeridos para [!DNL Google Ads] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Google Ads] cuentas.
-source-git-commit: 6c1e9bffd072979975a933fceb1c6e1253399373
+source-git-commit: a1201866bab44b260c6e1e68ba215162504e618f
 workflow-type: tm+mt
-source-wordcount: '8631'
+source-wordcount: '8662'
 ht-degree: 1%
 
 ---
@@ -114,6 +114,8 @@ Para crear y actualizar [!DNL Google Ads] Para realizar campañas masivas de dat
 
 <table style="table-layout:auto">
 
+[^1]: [!DNL Excel] convierte números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
+
 ## Campos necesarios para crear, editar o eliminar cada componente de la cuenta
 
 ### Campos de Campaign
@@ -122,24 +124,24 @@ Para crear y actualizar [!DNL Google Ads] Para realizar campañas masivas de dat
 | ---- | ---- |
 | Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
 | Nombre de campaña | Requerido | El nombre único que identifica una campaña para una cuenta. |
-| Presupuesto de campaña | Requerido: crear<br><br>>Opcional: editar o eliminar | Un límite diario de gasto para la campaña, con o sin símbolos monetarios y puntuación. Este valor anula pero no puede superar el presupuesto de la cuenta. |
-| Método de envío | Requerido: crear<br><br>Opcional: editar o eliminar |
-| Tipo de canal | Requerido: crear<br><br>Opcional: editar o eliminar |
-| Redes | Requerido: crear<br><br>Opcional: editar o eliminar |
-| Nombre de dominio DSA | Requerido: crear<br><br>Opcional: editar o eliminar |
-| Idioma del dominio DSA | Requerido: crear<br><br>Opcional: editar o eliminar |
-| Prioridad de campaña | Obligatorio/Opcional: crear<br><br>Opcional / n/a: editar o eliminar |
-| ID de comerciante | Obligatorio/Opcional: crear<br><br>Opcional / n/a: editar o eliminar |
-| País de ventas | Obligatorio/Opcional: crear<br><br>Opcional / n/a: editar o eliminar |
-| Filtro de ámbito del producto | Opcional |
+| Presupuesto de campaña | Necesario para crear una campaña. | Un límite diario de gasto para la campaña, con o sin símbolos monetarios y puntuación. Este valor anula pero no puede superar el presupuesto de la cuenta. |
+| Método de envío | Necesario para crear una campaña. |
+| Tipo de canal | Necesario para crear una campaña. |
+| Redes | Necesario para crear una campaña. |
+| Nombre de dominio DSA | Necesario para crear una campaña en la red de búsqueda que tenga anuncios dinámicos de búsqueda. |
+| Idioma del dominio DSA | Necesario para crear una campaña en la red de búsqueda que tenga anuncios dinámicos de búsqueda. |
+| Prioridad de campaña | Necesario para crear una campaña de compras. |
+| ID de comerciante | Necesario para crear una campaña de compras. |
+| País de ventas | Necesario para crear una campaña de compras. |
+| Filtro de ámbito del producto | (Campañas de compra) Opcional |
 | Idiomas | Opcional |
 | Destinos del dispositivo | Opcional |
 | Destinos del sistema operativo del dispositivo (Google AdWords) | Opcional |
 | Operadores de telefonía móvil (Google AdWords) | Opcional |
 | Método de destino de audiencia | n/a |
-| Sufijo de página de aterrizaje | <p>Opcional |
+| Sufijo de página de aterrizaje | Opcional |
 | Plantilla de seguimiento | Opcional |
-| Estado de campaña | Opcional: crear o editar<br><br>Obligatorio: eliminar |
+| Estado de campaña | Solo es necesario para eliminar una campaña. |
 | \[Clasificación de etiquetas específica del anunciante\] | Opcional |
 | Restricciones | Opcional |
 | ID de campaña | Solo es necesario cuando cambia el nombre de la campaña, a menos que la fila incluya un &quot;AMO ID&quot; para la campaña. |
@@ -154,12 +156,12 @@ Para crear y actualizar [!DNL Google Ads] Para realizar campañas masivas de dat
 | Redes | n/a |
 | Nivel de oferta personalizada GDN | Opcional |
 | Nombre del grupo de publicidad | Requerido |
-| Tipo de grupo de publicidad | Requerido |
+| Tipo de grupo de publicidad | Necesario para crear un grupo de anuncios. |
 | CPC máximo | Opcional |
 | CPC de contenido máximo | Opcional |
 | Método de destino de audiencia | Requerido |
 | Plantilla de seguimiento | Opcional |
-| Estado del grupo de publicidad | Opcional: crear o editar<br><br>Obligatorio: eliminar |
+| Estado del grupo de publicidad | Solo es necesario para eliminar un grupo de anuncios. |
 | \[Clasificación de etiquetas específica del anunciante\] | Opcional |
 | Restricciones | Opcional |
 | ID de grupo de publicidad | Solo es necesario cuando cambia el nombre del grupo de anuncios, a menos que la fila incluya un &quot;ID de AMO&quot; para el grupo de anuncios. |
@@ -174,13 +176,13 @@ Para crear y actualizar [!DNL Google Ads] Para realizar campañas masivas de dat
 | Nombre del grupo de publicidad | Requerido |
 | CPC máximo | Opcional |
 | Palabra clave | Requerido |
-| Tipo de coincidencia | Opcional: crear<br><br>Obligatorio/Opcional: editar o eliminar |
+| Tipo de coincidencia | Se requiere un valor para el tipo de coincidencia o el ID de palabra clave para editar o eliminar una palabra clave con varios tipos de coincidencia. |
 | Plantilla de seguimiento | Opcional |
 | URL base/URL final | Opcional |
 | Parámetro de URL personalizado | Opcional |
 | Param1 | Opcional |
 | Param2 | Opcional |
-| Estado de palabra clave | Opcional: crear o editar<br><br>Obligatorio: eliminar |
+| Estado de palabra clave | Necesario solo para eliminar una palabra clave. |
 | \[Clasificación de etiquetas específica del anunciante\] | Opcional |
 | Restricciones | Opcional |
 | ID de campaña | Opcional |
@@ -212,7 +214,7 @@ Para crear y actualizar [!DNL Google Ads] Para realizar campañas masivas de dat
 
 ### Anuncio de búsqueda dinámica ampliado
 
-Este tipo de anuncio ahora se denomina &quot;anuncio de búsqueda dinámica&quot; en [!DNL Google Ads]. Para obtener más información sobre la creación de anuncios dinámicos de búsqueda, consulte &quot;[Implementación [!DNL Google Ads] anuncios dinámicos de búsqueda](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html?lang=en).&quot;
+Este tipo de anuncio ahora se denomina &quot;anuncio de búsqueda dinámica&quot; en [!DNL Google Ads]. Para obtener más información sobre la creación de anuncios dinámicos de búsqueda, consulte &quot;[Implementación [!DNL Google Ads] anuncios dinámicos de búsqueda](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html).&quot;
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
@@ -235,7 +237,7 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 ### Campos de anuncio de compra/listado de productos
 
-Para obtener más información sobre la creación de anuncios de compra, consulte &quot;[Implementación de campañas de compra de Google Ads](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html?lang=en).&quot;
+Para obtener más información sobre la creación de anuncios de compra, consulte &quot;[Implementación de campañas de compra de Google Ads](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html).&quot;
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
@@ -266,9 +268,9 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Responsive Search 
 | Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
 | Nombre de campaña | Requerido |
 | Nombre del grupo de publicidad | Requerido | |
-| Título de anuncio, Título de anuncio 2-15 | Para los anuncios adaptables de búsqueda, se requieren los campos Título de anuncio, Título de anuncio 2 y Título de anuncio 3, y todos los demás campos de título de anuncio son opcionales. Para eliminar el valor existente de un campo no obligatorio, utilice el valor `[delete]` (incluidos los corchetes). |
+| Título de anuncio, Título de anuncio 2-15 | Para los anuncios de búsqueda adaptable, se requieren Título de anuncio, Título de anuncio 2 y Título de anuncio 3 para crear un anuncio, y todos los demás campos de título de anuncio son opcionales. Para eliminar el valor existente de un campo no obligatorio, utilice el valor `[delete]` (incluidos los corchetes). |
 | Posición 1-15 del título del anuncio | Opcional |
-| Línea de Descripción 1-4 | Para los anuncios adaptables de búsqueda, se requieren la Línea de descripción 1 y la Línea de descripción 2, y la Línea de descripción 3 y la Línea de descripción 4 son opcionales. Para eliminar el valor existente, utilice el valor `[delete]` (incluidos los corchetes). |
+| Línea de Descripción 1-4 | Para los anuncios adaptables de búsqueda, se requieren la Línea de descripción 1 y la Línea de descripción 2 para crear un anuncio, y la Línea de descripción 3 y la Línea de descripción 4 son opcionales. Para eliminar el valor existente, utilice el valor `[delete]` (incluidos los corchetes). |
 | Línea de descripción Posición 1-4 | Opcional |
 | Ruta de visualización 1 | Opcional |
 | Ruta de visualización 2 | Opcional |
@@ -324,6 +326,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | Expresión de segmentación automática | Necesario cuando la configuración de la campaña &quot;Usar el contenido de mi sitio web para segmentar los anuncios&quot; no está habilitada; opcional en caso contrario. |
 | Tipo de coincidencia | Opcional |
 | Estado de destino | Necesario para eliminar un destino |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| Restricciones | Opcional |
 | ID de campaña | Opcional |
 | ID de grupo de publicidad | Opcional |
 | ID de destino | Solo es necesario cuando se cambia o elimina el destino automático, a menos que la fila incluya un &quot;ID de AMO&quot; para el destino. |
@@ -376,14 +380,14 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | ---- | ---- | ---- |
 | Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
 | Nombre de campaña | Requerido |
-| Ubicación | Necesario para crear o editar un destino de ubicación. |
+| Ubicación | Requerido |
 | Tipo de ubicación | Opcional |
 | Ajuste de oferta | Opcional |
 | Estado de ubicación | Necesario solo para eliminar un destino de ubicación. |
 | ID de campaña | Opcional |
 | ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de campaña.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
-## Campos de destino de dispositivos de nivel de campaña y de nivel de grupo de anuncios
+### Campos de destino de dispositivos de nivel de campaña y de nivel de grupo de anuncios
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -398,7 +402,7 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | ID de destino del dispositivo | Solo es necesario cuando se cambia o elimina el destino, a menos que la fila incluya un &quot;ID de AMO&quot; para el destino. |
 | ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de destinatario del dispositivo.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
-## Campos de objetivo/exclusión de RLSA a nivel de campaña y de grupo de anuncios
+### Campos de objetivo/exclusión de RLSA a nivel de campaña y de grupo de anuncios
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -413,8 +417,6 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | ID de grupo de publicidad | Opcional; aplicable solo para destinos y exclusiones de nivel de grupo de anuncios. |
 | ID de destino de RLSA | Solo es necesario cuando se cambia o elimina el destino, a menos que la fila incluya un &quot;ID de AMO&quot; para el destino. |
 | ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de destino de RLSA.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
-
-[^1]: [!DNL Excel] convierte números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
 
 >[!MORELIKETHIS]
 >

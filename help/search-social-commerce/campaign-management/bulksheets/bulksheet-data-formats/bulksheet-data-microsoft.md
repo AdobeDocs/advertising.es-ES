@@ -1,10 +1,10 @@
 ---
 title: Datos de hoja de edición masiva requeridos para [!DNL Microsoft Advertising] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Microsoft Advertising] cuentas.
-source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
+source-git-commit: 964ee8431d9f1d03b0c9eec8906ab5a0b7940222
 workflow-type: tm+mt
-source-wordcount: '5147'
-ht-degree: 0%
+source-wordcount: '7615'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ Para crear y actualizar [!DNL Microsoft Advertising] Para realizar campañas mas
 | Tipo de partición | El tipo de partición para el grupo de productos: <i>subdivisión</i> (cuando tiene grupos de productos secundarios) o <i>unidad</i> (cuando no tiene grupos de productos secundarios). |
 | Título de anuncio, Título de anuncio 2-15 | (Solo anuncios de texto expandidos, anuncios multimedia, anuncios adaptables y anuncios de búsqueda adaptables) Los titulares de un anuncio. La longitud máxima de cada campo de título de anuncio es de 30 caracteres o 15 caracteres de doble byte, incluido cualquier texto dinámico (como los valores de las palabras clave, `{Param2}` y `{Param3}` variables de sustitución dinámica y personalizadores de publicidad).<br><br> Para los anuncios adaptables de búsqueda, inserte un personalizador de anuncios con el siguiente formato, donde &quot;Texto predeterminado&quot; es un valor opcional que se inserta cuando el archivo de fuente no incluye un valor válido: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>Para los anuncios de texto expandido, se requieren el Título de anuncio y el Título de anuncio 2, y el Título de anuncio 3 es opcional. Microsoft Advertising dejó de utilizar los anuncios de texto expandidos en agosto de 2022 y ahora solo puede informar sobre ellos y eliminarlos.<br><br>Para los anuncios multimedia, los anuncios interactivos y los anuncios de búsqueda interactivos, se requieren los campos Título de anuncio, Título de anuncio 2 y Título de anuncio 3, y todos los demás campos de título de anuncio son opcionales.<br><br>Para eliminar el valor existente de un campo no obligatorio, utilice el valor `[delete]` (incluidos los corchetes).<br><br>Para todos los tipos de anuncio, excepto para los anuncios de texto expandidos, al cambiar la copia de anuncio se elimina el anuncio existente y se crea un nuevo anuncio con las mismas propiedades. |
 | Posición 1-15 del título del anuncio | (Solo anuncios de búsqueda interactivos; opcional) Una posición en la que fijar el título del anuncio correspondiente: `[null]` (sin valor, lo que hace que el título del anuncio sea apto para todas las posiciones), 1, 2 o 3. Por ejemplo, si Posición del título de anuncio tiene un valor de 1, Título de anuncio solo aparecerá en la Posición 1. De forma predeterminada, todos los títulos de los anuncios son nulos (no tienen valores). Para eliminar el valor existente, utilice el valor `[delete]` (incluidos los corchetes).<br><br><b>Nota:</b> Puede fijar varios títulos de anuncios en la misma posición. La red de anuncios utilizará uno de los títulos de anuncios anclados en la posición. Es posible que los títulos anclados a la posición 3 no se muestren con el anuncio. |
-| Línea de Descripción 1-4 | (Solo anuncios de texto, anuncios dinámicos de búsqueda, anuncios multimedia, anuncios adaptables, anuncios de búsqueda adaptables y vínculos de sitio mejorados de nivel de campaña) El cuerpo de un anuncio o un vínculo de sitio.<br><br>Para los vínculos de sitio, puede utilizar tanto la Línea de descripción 1 como la Línea de descripción 2 para incluir texto adicional que la red de publicidad pueda mostrar debajo del texto del vínculo. Cada campo de descripción puede incluir hasta 35 caracteres de un solo byte o 17 de doble byte.<br><br>Para los anuncios, la longitud máxima de cada campo de descripción es de 90 caracteres o 45 caracteres de doble byte, incluido cualquier texto dinámico (como los valores de las palabras clave y los personalizadores de anuncios).<br><br>Para los anuncios adaptables de búsqueda, inserte un personalizador de anuncios con el siguiente formato, donde Texto predeterminado es un valor opcional que se inserta cuando el archivo de fuente no incluye un valor válido: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>Para los anuncios de texto y los anuncios dinámicos de búsqueda, se requiere la Línea de descripción 1 y la Línea de descripción 2 es opcional.<br><br>Para anuncios multimedia, anuncios interactivos y anuncios de búsqueda interactivos, se requieren la Línea de descripción 1 y la Línea de descripción 2, y la Línea de descripción 3 y la Línea de descripción 4 son opcionales.<br><br>Para eliminar el valor existente, utilice el valor `[delete]` (incluidos los corchetes).<br><br><b>Notas:</b><ul><li>(Anuncios de texto estándar) El título y el texto combinados deben tener al menos tres palabras.</li><li>(Anuncios de texto expandidos) Este campo puede incluir opcionalmente las variables de sustitución dinámica {Param2} y {Param3}. Si es así, la longitud máxima del texto del anuncio es de 300 caracteres de un solo byte o 150 de doble byte. Microsoft Advertising dejó de utilizar los anuncios de texto expandidos en agosto de 2022 y ahora solo puede informar sobre ellos y eliminarlos.</li><li>(Anuncios dinámicos de búsqueda) No se permite el texto de sustitución dinámico.</li><li>Para todos los tipos de anuncio, excepto los anuncios de texto expandidos, al cambiar la copia de anuncio se elimina el anuncio existente y se crea uno nuevo.</li></ul> |
+| Línea de Descripción 1-4 | (Solo anuncios de texto, anuncios dinámicos de búsqueda, anuncios multimedia, anuncios adaptables, anuncios de búsqueda adaptables y vínculos de sitio mejorados de nivel de campaña) El cuerpo de un anuncio o un vínculo de sitio.<br><br>Para los vínculos de sitio, puede utilizar tanto la Línea de descripción 1 como la Línea de descripción 2 para incluir texto adicional que la red de publicidad pueda mostrar debajo del texto del vínculo. Cada campo de descripción puede incluir hasta 35 caracteres de un solo byte o 17 de doble byte.<br><br>Para los anuncios, la longitud máxima de cada campo de descripción es de 90 caracteres o 45 caracteres de doble byte, incluido cualquier texto dinámico (como los valores de las palabras clave y los personalizadores de anuncios).<br><br>Para los anuncios adaptables de búsqueda, inserte un personalizador de anuncios con el siguiente formato, donde Texto predeterminado es un valor opcional que se inserta cuando el archivo de fuente no incluye un valor válido: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>Para los anuncios de texto y los anuncios dinámicos de búsqueda, se requiere la Línea de descripción 1 y la Línea de descripción 2 es opcional.<br><br>Para anuncios multimedia, anuncios interactivos y anuncios de búsqueda interactivos, se requieren la Línea de descripción 1 y la Línea de descripción 2, y la Línea de descripción 3 y la Línea de descripción 4 son opcionales.<br><br>Para eliminar el valor existente, utilice el valor `[delete]` (incluidos los corchetes).<br><br><b>Notas:</b><ul><li>(Anuncios de texto estándar) El título y el texto combinados deben tener al menos tres palabras.</li><li>(Anuncios de texto expandidos) Este campo puede incluir de forma opcional la variable {Param2} y {Param3} variables de sustitución dinámica. Si es así, la longitud máxima del texto del anuncio es de 300 caracteres de un solo byte o 150 de doble byte. Microsoft Advertising dejó de utilizar los anuncios de texto expandidos en agosto de 2022 y ahora solo puede informar sobre ellos y eliminarlos.</li><li>(Anuncios dinámicos de búsqueda) No se permite el texto de sustitución dinámico.</li><li>Para todos los tipos de anuncio, excepto los anuncios de texto expandidos, al cambiar la copia de anuncio se elimina el anuncio existente y se crea uno nuevo.</li></ul> |
 | Línea de descripción Posición 1-4 | (Solo anuncios de búsqueda interactivos; opcional) Una posición en la que anclar la descripción correspondiente: `[null]` (sin valor, lo que hace que la descripción sea apta para todas las posiciones), 1, 2 o 3. Por ejemplo, si Descripción 1 Posición tiene un valor de 1, entonces Descripción 1 aparecerá solo en la Posición 1. De forma predeterminada, no se anclan descripciones a una posición.<br><br>Para eliminar el valor existente, utilice el valor `[delete]` (incluidos los corchetes).<br><br><b>Nota:</b> Puede anclar varias descripciones a la misma posición. La red publicitaria utilizará una de las descripciones ancladas a la posición. Las descripciones ancladas a la posición 2 pueden no mostrarse con el anuncio. |
 | Nombre de empresa | (Solo anuncios multimedia) El nombre comercial, con un máximo de 25 caracteres. |
 | Línea de promoción | (Solo anuncios de listado de productos) Una línea de promoción única que se incluirá con el listado de productos en los resultados de búsqueda (como &quot;Envío gratuito ahora&quot;). La longitud máxima es de 45 caracteres.<br><br>La línea de promoción puede aparecer en diferentes ubicaciones relacionadas con el anuncio (por ejemplo, debajo del anuncio), en función de dónde aparezca el anuncio en la página. |
@@ -110,96 +110,317 @@ Para crear y actualizar [!DNL Microsoft Advertising] Para realizar campañas mas
 
 <table style="table-layout:auto">
 
-<!-- EDIT ALL -- Copied from Google page -->
+[^1]: [!DNL Excel] convierte números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
 
-<!-- 
+## Campos necesarios para crear, editar o eliminar cada componente de la cuenta
 
-## Fields required to create, edit, or delete each account component
+### Campos de Campaign
 
-### Campaign fields
+| Campo | ¿Requerido? |
+| ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido | El nombre único que identifica una campaña para una cuenta. |
+| Presupuesto de campaña | Necesario para crear una campaña. | Un límite diario de gasto para la campaña, con o sin símbolos monetarios y puntuación. Este valor anula pero no puede superar el presupuesto de la cuenta. |
+| Tipo de canal | Necesario para crear una campaña. |
+| Método de envío | Opcional |
+| Prioridad de campaña | Necesario para crear una campaña de compras. |
+| ID de comerciante | Necesario para crear una campaña de compras. |
+| País de ventas | Necesario para crear una campaña de compras. |
+| Filtro de ámbito del producto | (Campañas de compra) Opcional |
+| Nombre de dominio DSA | Necesario para crear una campaña de tipo a) &quot;DynamicSearchAds&quot; o b) &quot;Search&quot; cuando el elemento ExperimentId no está establecido) |
+| Idioma del dominio DSA | Necesario para crear una campaña de tipo a) &quot;DynamicSearchAds&quot; o b) &quot;Search&quot; cuando el elemento ExperimentId no está establecido) |
+| Plantilla de seguimiento | Opcional |
+| Sufijo de página de aterrizaje | <p>Opcional |
+| Tipo de presupuesto | Necesario para crear una campaña. |
+| Dispositivo | Opcional |
+| Ajuste de oferta | Opcional |
+| Estado de campaña | Solo es necesario para eliminar una campaña. |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| Restricciones | Opcional |
+| ID de campaña | Solo es necesario cuando cambia el nombre de la campaña, a menos que la fila incluya un &quot;AMO ID&quot; para la campaña. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
-Campaign Name
-Campaign Budget
-Campaign Status
-Delivery Method
-Device OS Targets (Google Adwords)
-Device Targets
-Languages
-Mobile Carriers (Google Adwords)
-Networks
-Tracking Template
-Channel Type
-Campaign Priority
-Merchant ID
-Sales Country
-Product Scope Filter
-Audience Target Method
-DSA Domain Name
-DSA Domain Language
-Landing Page Suffix
-Label Classification
+### Campos del grupo de anuncios
 
-### Ad group fields
+| Campo | ¿Requerido? |
+| ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Requerido |
+| Tipo de grupo de publicidad | Necesario para crear un grupo de anuncios. |
+| Método de destino de audiencia | Solo es necesario para crear grupos de anuncios de audiencia. |
+| Fecha de inicio del grupo de anuncios | Opcional |
+| Fecha de finalización del grupo de anuncios | Opcional |
+| Plantilla de seguimiento | Opcional |
+| Buscar estado de red | (Solo campañas en la red de búsqueda) Opcional |
+| Idiomas | Opcional |
+| Dispositivo | Opcional |
+| Ajuste de oferta | Opcional |
+| Estado del grupo de publicidad | Solo es necesario para eliminar un grupo de anuncios. |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| Restricciones | Opcional |
+| ID de grupo de publicidad | Solo es necesario cuando cambia el nombre del grupo de anuncios, a menos que la fila incluya un &quot;ID de AMO&quot; para el grupo de anuncios. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
-Campaign Name
-Ad Group Name
-Ad Group Type
-Networks
-Ad Group Status
-Max CPC
-Max Content CPC
-Tracking Template
-Audience Target Method
-Label Classification
+### Campos de palabra clave
 
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Requerido |
+| Palabra clave | Requerido |
+| Tipo de coincidencia | Se requiere un valor para el tipo de coincidencia o el ID de palabra clave para editar o eliminar una palabra clave con varios tipos de coincidencia. |
+| CPC máximo | Opcional |
+| URL base/URL final | Opcional |
+| Parámetro de URL personalizado | Opcional |
+| Plantilla de seguimiento | Opcional |
+| Param1 | Opcional |
+| Param2 | Opcional |
+| Estado de palabra clave | Necesario solo para eliminar una palabra clave. |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| Restricciones | Opcional |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional |
+| ID de palabra clave | Solo es necesario cuando edita o elimina la palabra clave, a menos que la fila incluya a) suficientes columnas de propiedad para identificar la palabra clave o b) un &quot;ID de AMO&quot;. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
-## Keyword fields
+### Campos de anuncios de búsqueda dinámica
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
-Tracking Template
-URLs (Base URL/Final URL, Destination URL)
-Exemption Request (Google Adwords)
-First Page Bid
-Keyword
-Match Type
-Param1
-Param2
-Quality Score
-Custom URL Param
-Label Classification
+>[!NOTE]
+>
+>La compatibilidad con la creación de no está disponible.
 
+Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
-### Text/Product ad fields
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Requerido |
+| Línea de descripción 1-2 | Necesario para editar la descripción. <b>Nota:</b> Para este tipo de anuncio, al cambiar la copia de anuncio se elimina el anuncio existente y se crea uno nuevo. |
+| Ruta de visualización 1 | Requerido para editar el campo. |
+| Ruta de visualización 2 | Requerido para editar el campo. |
+| Tipo creativo | Necesario para crear o editar el estado de un anuncio de producto. |
+| Dispositivos preferidos Creative | Opcional |
+| Estado del anuncio | Necesario para eliminar un anuncio. |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional |
+| ID de anuncio | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a) suficientes columnas de propiedad del anuncio para identificar el anuncio o b) un &quot;ID de AMO&quot;. Sin embargo, si no incluye el ID de anuncio ni el ID de AMO y las columnas de propiedad de anuncio coinciden con varios anuncios, solo cambiará el estado de uno de ellos. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
-Uses "Creative (except RSA)" row in Download Bulksheet dialog
+### Campos de publicidad de productos (compras)
 
-### Dynamic search ad fields
+Para obtener más información sobre la creación de anuncios de compra, consulte &quot;[Implementación de campañas de compra de Microsoft Advertising](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html).&quot;
 
-Note: Create support not available
+Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
-### Multimedia/Responsive ad fields
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Requerido |
+| Línea de promoción | Opcional |
+| URL base/URL final | Opcional |
+| Parámetro de URL personalizado | Opcional |
+| Tipo creativo | Necesario para crear o editar el estado de un anuncio de producto. |
+| Plantilla de seguimiento | Opcional |
+| Estado del anuncio | Necesario para eliminar un anuncio. |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| Restricciones | Opcional |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional |
+| ID de anuncio | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a) suficientes columnas de propiedad del anuncio para identificar el anuncio o b) un &quot;ID de AMO&quot;. Sin embargo, si no incluye el ID de anuncio ni el ID de AMO y las columnas de propiedad de anuncio coinciden con varios anuncios, solo cambiará el estado de uno de ellos. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
-### Responsive search ad fields
+### Campos de anuncios interactivos (multimedia)
 
-Uses "Responsive Search Ad" row in Download Bulksheet dialog
+Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
-### Dynamic search target (auto target) fields
-Note: Create support not available
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Requerido |
+| Título de anuncio, Título de anuncio 2-15 | Para los anuncios adaptables, se requieren los campos Título de anuncio, Título de anuncio 2 y Título de anuncio 3 para crear anuncios, y todos los demás campos de título de anuncio son opcionales. Para eliminar el valor existente de un campo no obligatorio, utilice el valor `[delete]` (incluidos los corchetes). <b>Nota:</b> Para este tipo de anuncio, al cambiar la copia de anuncio se elimina el anuncio existente y se crea uno nuevo. |
+| Línea de Descripción 1-4 | La línea de descripción 1 y la línea de descripción 2 son necesarias para crear anuncios, mientras que la línea de descripción 3 y la línea de descripción 4 son opcionales. <b>Nota:</b> Para este tipo de anuncio, al cambiar la copia de anuncio se elimina el anuncio existente y se crea uno nuevo. |
+| Nombre de empresa | Necesario para crear o eliminar un anuncio. |
+| Llamada a acción | Necesario para crear un anuncio. |
+| Lenguaje de llamada a la acción | Necesario para crear un anuncio. |
+| URL base/URL final | Necesario para crear un anuncio. |
+| Tipo creativo | Opcional. |
+| Plantilla de seguimiento | Opcional |
+| Estado del anuncio | Necesario para eliminar un anuncio. |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional |
+| ID de anuncio | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a) suficientes columnas de propiedad del anuncio para identificar el anuncio o b) un &quot;ID de AMO&quot;. Sin embargo, si no incluye el ID de anuncio ni el ID de AMO y las columnas de propiedad de anuncio coinciden con varios anuncios, solo cambiará el estado de uno de ellos. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
-### Shopping product group fields
+### Campos de anuncios de búsqueda interactivos
 
-### Campaign-level sitelink fields
+Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Responsive Search Ad]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
-### Location Target fields
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Requerido | |
+| Título de anuncio, Título de anuncio 2-15 | Para los anuncios de búsqueda adaptable, se requieren Título de anuncio, Título de anuncio 2 y Título de anuncio 3 para crear un anuncio, y todos los demás campos de título de anuncio son opcionales. Para eliminar el valor existente de un campo no obligatorio, utilice el valor `[delete]` (incluidos los corchetes). |
+| Posición 1-15 del título del anuncio | Opcional |
+| Línea de Descripción 1-4 | Para los anuncios adaptables de búsqueda, se requieren la Línea de descripción 1 y la Línea de descripción 2 para crear un anuncio, y la Línea de descripción 3 y la Línea de descripción 4 son opcionales. Para eliminar el valor existente, utilice el valor `[delete]` (incluidos los corchetes). |
+| Línea de descripción Posición 1-4 | Opcional |
+| Ruta de visualización 1 | Opcional |
+| Ruta de visualización 2 | Opcional |
+| URL base/URL final | Necesario para crear un anuncio. |
+| Parámetro de URL personalizado | Opcional |
+| Tipo creativo | Opcional |
+| Plantilla de seguimiento | Opcional |
+| Estado del anuncio | Necesario para eliminar un anuncio. |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional |
+| ID de anuncio | Es necesario para editar o eliminar anuncios a menos que la fila incluya un &quot;ID de AMO&quot;. |
+| ID de AMO | Es necesario para editar o eliminar anuncios a menos que incluya el ID de anuncio. |
 
-### Device Target fields
+### Campos de anuncios de texto
 
-### RLSA Target
+Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
--->
+>[!NOTE]
+>
+>Los anuncios de texto expandidos estaban en desuso. Solo puede eliminar anuncios de texto existentes.
+
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Requerido |
+| Título de anuncio, Título de anuncio 2-3 | Solo lectura |
+| Línea de descripción 1-2 | Solo lectura |
+| Mostrar URL | Solo lectura |
+| Ruta de visualización 1 | Solo lectura |
+| Ruta de visualización 2 | Solo lectura |
+| URL base/URL final | Solo lectura |
+| Parámetro de URL personalizado | Solo lectura |
+| Tipo creativo | Opcional |
+| Plantilla de seguimiento | Solo lectura |
+| Dispositivos preferidos Creative | Solo lectura |
+| Estado del anuncio | Requerido |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional |
+| ID de anuncio | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya un &quot;ID de AMO&quot;. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que incluya el ID de anuncio.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
+
+### Campos de destino de búsqueda dinámica (destino automático)
+
+>[!NOTE]
+>
+>La compatibilidad con la creación de no está disponible.
+
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Requerido |
+| Expresión de segmentación automática | Requerido. |
+| Tipo de coincidencia | Opcional |
+| CPC máximo | Opcional |
+| Parámetro de URL personalizado | Opcional |
+| Estado de destino | Necesario para eliminar un destino |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| Restricciones | Opcional |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional |
+| ID de destino | Solo es necesario cuando se cambia o elimina el destino automático, a menos que la fila incluya un &quot;ID de AMO&quot; para el destino. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
+
+### Campos del grupo de productos de compra
+
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Requerido |
+| Tipo de coincidencia | Necesario para crear un grupo de productos. |
+| CPC máximo | Necesario para crear un grupo de productos. |
+| Agrupaciones de productos principales | Requerido |
+| Agrupación de productos | Requerido |
+| Tipo de partición | Necesario para crear un grupo de productos. |
+| URL base/URL final | Requerido |
+| Plantilla de seguimiento | Opcional |
+| Estado de grupo de productos | Solo es necesario para eliminar un grupo de productos. |
+| \[Clasificación de etiquetas específica del anunciante\] | Opcional |
+| Restricciones | Opcional |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional |
+| Identificador de grupo de productos | Solo es necesario cuando cambia o elimina el grupo de productos, a menos que la fila incluya a) suficientes columnas de propiedad para identificar el grupo de productos o b) un &quot;ID de AMO&quot;. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
+
+### Campos de vínculo de sitio de nivel de campaña
+
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Línea de descripción 1 | Opcional |
+| Línea de descripción 2 | Opcional |
+| Fecha de inicio | Opcional |
+| Fecha de finalización | Opcional |
+| URL base/URL final | Requerido |
+| Parámetro de URL personalizado | Opcional |
+| Plantilla de seguimiento | Opcional |
+| Dispositivos preferidos Creative | Opcional |
+| Nombre del vínculo | Requerido |
+| Estado de enlace de sitio | Solo es necesario para eliminar un vínculo de sitio. |
+| ID de campaña | Opcional |
+| ID de enlace de sitio | Solo es necesario cuando se cambia o elimina el vínculo de sitio, a menos que la fila incluya a) suficientes columnas de propiedad para identificar el vínculo de sitio o b) un &quot;ID de AMO&quot;. Sin embargo, si no incluye ni ID de anuncio de vínculo de sitio ni ID de AMO y las columnas de propiedad coinciden con varios vínculos de sitio, solo cambiará el estado de uno de ellos.<br><br><b>Nota:</b> Si edita las columnas de propiedad de vínculos de sitios excepto Estado para un vínculo de sitio existente y no incluye el ID de vínculo de sitio ni el ID de AMO, se creará un nuevo vínculo de sitio y el vínculo de sitio existente no se cambiará. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
+
+### Campos de destino de ubicación
+
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Ubicación | Requerido |
+| Tipo de ubicación | Necesario para crear un destino |
+| Ajuste de oferta | Opcional |
+| Estado de ubicación | Necesario solo para eliminar un destino de ubicación. |
+| ID de campaña | Opcional |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de campaña.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
+
+### Campos de destino de dispositivos de nivel de campaña y de nivel de grupo de anuncios
+
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Dispositivo | Necesario para eliminar un destino de dispositivo. |
+| Ajuste de oferta | Opcional |
+| Nombre del grupo de publicidad | Necesario para destinos de dispositivo en el nivel de grupo de anuncios. No aplicable a los destinos de dispositivo en el nivel de campaña. |
+| Estado de destino del dispositivo | Solo es necesario para eliminar un destino de dispositivo. |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional; aplicable solo para destinos de dispositivo en el nivel de grupo de anuncios. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de destinatario del dispositivo.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
+
+### Campos de destino de RLSA de nivel de campaña y de nivel de grupo de anuncios
+
+| Campo | ¿Requerido? | Descripción |
+| ---- | ---- | ---- |
+| Nombre de cuenta | Obligatorio a menos que cada fila incluya un &quot;ID de AMO&quot; para la entidad. |
+| Nombre de campaña | Requerido |
+| Nombre del grupo de publicidad | Necesario para destinos de nivel de grupo de anuncios. No aplicable a destinos de nivel de campaña. |
+| Audiencia | Necesario para crear un nuevo destino. |
+| Tipo de destino | Opcional |
+| Ajuste de oferta | Opcional |
+| Estado de destino de RLSA | Necesario para eliminar un destino. |
+| ID de campaña | Opcional |
+| ID de grupo de publicidad | Opcional; aplicable solo para destinos de nivel de grupo de anuncios. |
+| ID de destino de RLSA | Solo es necesario cuando se cambia o elimina el destino, a menos que la fila incluya un &quot;ID de AMO&quot; para el destino. |
+| ID de AMO | Es necesario para editar o eliminar los datos a menos que se incluya el ID de destino de RLSA.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 >[!MORELIKETHIS]
 >
@@ -209,4 +430,3 @@ Note: Create support not available
 >* [Descargar/crear un archivo de hoja de edición masiva](../bulksheet-download.md)
 >* [Formatos de rastreo de clics para [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Cargar un archivo de hoja de edición masiva o un archivo de error corregido](../bulksheet-upload.md)
-

@@ -1,9 +1,9 @@
 ---
 title: Crear [!DNL Google Ads] audiencias de coincidencia de cliente de [!DNL Adobe] audiencias
 description: Aprenda a crear [!DNL Google Ads] audiencias de coincidencia de clientes de las audiencias de Adobe Analytics y Audience Manager existentes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Cada nuevo [!DNL Google] La audiencia tiene el mismo nombre que el original [!DN
 
    1. (Para crear audiencias de lista de remarketing de ID de usuario) Una [!DNL Adobe] el usuario administrador o el administrador de cuentas deben seleccionar la configuración de nivel de anunciante para habilitar las audiencias de coincidencia de clientes. La configuración difiere entre anunciantes con Audience Manager y anunciantes con [!DNL Analytics] solo.
 
-   1. Implementación de [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) versión 2.0 o superior.
+   1. Implementación de [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) versión 2.0 o superior.
 
    1. Implemente la siguiente etiqueta lo más alto posible en las páginas web del anunciante desde las que se debe realizar el seguimiento de la audiencia
 
@@ -80,11 +80,9 @@ Cada nuevo [!DNL Google] La audiencia tiene el mismo nombre que el original [!DN
 >
 >* Consulte [[!DNL Google Ads] documentación sobre cómo funciona la coincidencia de clientes y limitaciones](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [Acerca de las audiencias](audience-about.md)
 >* [Crear un [!DNL Google Ads] audiencia de customer match de una lista de correo electrónico de Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Administrar audiencias de coincidencia de clientes mediante listas de datos de clientes](audience-from-customer-data-list.md)
 >* [Administración de audiencias de remarketing dinámico](audience-dynamic-remarketing-manage.md)
-
