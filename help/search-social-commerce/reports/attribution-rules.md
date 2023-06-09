@@ -1,16 +1,16 @@
 ---
 title: Cálculo de las reglas de atribución
 description: Descubra cómo Adobe Advertising calcula cada tipo de regla de atribución.
-source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
+source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
 
-# Cálculo de las reglas de atribución para la publicidad de Adobe
+# Cálculo de las reglas de atribución para el Adobe Advertising
 
-*Anunciantes con solo seguimiento de conversión de publicidad de Adobe*
+*Anunciantes solo con seguimiento de conversión de Adobe Advertising*
 
 <!-- Verify statements about cross-device events -->
 
@@ -21,7 +21,7 @@ En los informes, las vistas predeterminadas y personalizadas para Advertising Se
 >[!NOTE]
 >
 >* Las reglas de atribución se aplican a los clics en anuncios pagados en cualquier canal y a las impresiones en pantallas y anuncios sociales. No se aplican a las impresiones de anuncios de búsqueda de pago, que no se pueden rastrear en el nivel de evento.
->* Adobe Advertising siempre almacena los siguientes eventos para cada internauta antes de una conversión: a) el primer clic de pago; b) hasta 10 clics para cada canal (búsqueda, social o visualización), incluido el primer clic; y c) hasta 10 impresiones de visualización. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* El Adobe Advertising siempre almacena los siguientes eventos para cada internauta antes de una conversión: a) el primer clic de pago; b) hasta 10 clics para cada canal (búsqueda, red social o visualización), incluido el primer clic; y c) hasta 10 impresiones de visualización. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 * DSP En Advertising y Advertising Creative, las definiciones entre dispositivos solo tienen en cuenta la ruta de evento de la regla de atribución seleccionada.<!-- cross-device attribution via LiveRamp only -->
 * En las vistas de informes y administración, el número de decimales que se muestran para un valor depende de la divisa, pero el Adobe Advertising almacena valores más precisos.
 
@@ -209,7 +209,7 @@ Como la serie de eventos incluye impresiones y clics, el peso de anulación de i
 
 Atribución: impresión 1 = 6 USD, clic 1 = 54 USD, impresión 2 = 6 USD, clic 2 = 54 USD (120 USD en total)
 
-#### Uso (solo para Advertising Adobe DSP) de sin peso de anulación de impresión o (solo para Search, Social y Commerce) de un &quot;peso de anulación de impresión&quot; del 0 %
+#### Uso (solo Adobe Advertising DSP) de sin peso de anulación de impresión o (solo búsqueda, medios sociales y comercio) de un &quot;peso de anulación de impresión&quot; del 0 %
 
 Como la serie de eventos incluye impresiones y clics, estas se omiten.
 
@@ -237,7 +237,7 @@ Atribuye la conversión a todos los eventos de la serie que se produjeron dentro
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de publicidad de Adobe tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
 
@@ -295,13 +295,13 @@ Atribuye la conversión a todos los eventos de la serie que se produjeron dentro
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de publicidad de Adobe tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
 
 * DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
 
-<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
+![Porcentajes de atribución en forma de U](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "Porcentajes de atribución en forma de U")
 
 <!-- start examples as collapsible content -->
 
