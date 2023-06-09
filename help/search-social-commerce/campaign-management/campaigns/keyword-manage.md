@@ -1,7 +1,7 @@
 ---
 title: Administrar palabras clave por puja
 description: Aprenda a crear y administrar palabras clave que se pueden pujar para grupos de anuncios de búsqueda.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,8 +22,7 @@ Puede crear y editar palabras clave para grupos de anuncios de búsqueda en [tip
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. En la barra de herramientas sobre la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
+1. En la barra de herramientas sobre la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
 1. Seleccione la red de anuncios, la cuenta, la campaña y el grupo de anuncios y, a continuación, haga clic en **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ La palabra clave existente se elimina y se crea otra cuando:
 >* [[!DNL Yandex] configuración de palabras clave](keyword-settings-yandex.md)
 >* [Creación de palabras clave negativas](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Cambiar el estado de las palabras clave y las palabras clave negativas](keyword-status-edit.md)
-

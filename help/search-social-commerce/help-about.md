@@ -1,9 +1,9 @@
 ---
 title: Acerca de esta guía
 description: Descubra lo que se cubre en cada capítulo de esta guía.
-source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
+source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En los siguientes capítulos de ayuda encontrará información sobre grupos espe
 
 * &quot;Administración de campañas&quot; explica cómo configurar y administrar los componentes de campaña para las cuentas de red de anuncios.
 
-* &quot;Insights and reports&quot; explica cómo generar perspectivas de publicidad, generar informes detallados y automatizar la producción de informes, crear y supervisar alertas, ver un registro de los cambios realizados en la cuenta del anunciante y ver y aplicar [!DNL Google Ads]Recomendaciones generadas por para sus cuentas de.
+* &quot;Insights and reports&quot; explica cómo generar perspectivas de publicidad, generar informes detallados y automatizar la producción de informes, crear y supervisar alertas, ver un registro de los cambios realizados en la cuenta del anunciante y ver y aplicar recomendaciones generadas por la red de anuncios para sus cuentas.
 
 * En &quot;Herramientas&quot; se explica cómo cambiar la contraseña, cómo usar las herramientas para generar etiquetas de rastreo de clics y de seguimiento de conversión, y cómo cargar las métricas de conversión a [!DNL Google Ads] y sus objetivos de portafolio a las redes de anuncios para la optimización híbrida, cargue métricas para rastrear campañas y duplique sus [!DNL Google Ads] campañas en su [!DNL Microsoft Advertising] cuentas.
 

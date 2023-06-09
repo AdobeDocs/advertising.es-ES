@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft® Ads] configuración de plantillas de anuncios de compras para fuentes de inventario"
 description: Haga referencia a la configuración de [!DNL Microsoft® Ads] plantillas de anuncios de compras para fuentes de inventario.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ Utilice plantillas de anuncios de compras para configurar los anuncios de compra
 >[!NOTE]
 >
 >* Los siguientes caracteres están reservados para designar nombres de columna y nombres de modificador en la plantilla y, por lo tanto, están prohibidos como texto en todos los campos de atributo:  `[ ] < > `
-
 
 
 ## \[Sobre todas las fichas\]
@@ -118,7 +117,7 @@ Utilice plantillas de anuncios de compras para configurar los anuncios de compra
 
 **[!UICONTROL Ad Group Tracking Template]:** (Opcional) Una plantilla de seguimiento de nivel de grupo de anuncios, que especifica todas las redirecciones de dominios de aterrizaje y parámetros de seguimiento e incrusta la dirección URL final en un parámetro. Este valor anula la configuración de nivel de cuenta y de campaña, pero las plantillas de seguimiento a niveles más granulares anulan este valor.
 
-Para el seguimiento de conversiones de anuncios publicitarios de Adobe, no es necesario que introduzca un valor. El valor de nivel de campaña es suficiente.
+Para el seguimiento de conversiones de Adobe Advertising, no es necesario introducir un valor. El valor de nivel de campaña es suficiente.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor.
 
@@ -150,7 +149,7 @@ Para redirecciones y seguimiento de terceros, introduzca un valor.
 
 **[!UICONTROL Tracking Template]:** (Unidades sin grupos de productos secundarios; opcional) La plantilla de seguimiento del grupo de productos, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento e incrusta la dirección URL final en un parámetro ValueTrack. Esta plantilla anula las plantillas de los niveles superiores.
 
-Para el seguimiento de conversiones de anuncios publicitarios de Adobe, no es necesario que introduzca un valor. El valor de nivel de campaña es suficiente.
+Para el seguimiento de conversiones de Adobe Advertising, no es necesario introducir un valor. El valor de nivel de campaña es suficiente.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor.
 
@@ -171,9 +170,7 @@ Para redirecciones y seguimiento de terceros, introduzca un valor.
 >[!MORELIKETHIS]
 >
 >* [Automatización de la administración de anuncios mediante fuentes de inventario](../inventory-feeds-about.md)
->* [Flujo de trabajo para administrar datos de campaña mediante fuentes de inventario](../inventory-feeds-workflow.md)
 >* [Administración de modificadores](../modifiers-manage.md)
 >* [Administrar archivos de fuente de datos de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Propagación de datos de fuentes mediante plantillas](../feed-data-propagate.md)
 >* [Publicar datos de campaña de fuentes de inventario en redes de publicidad](../propagated-data-post.md)
-

@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes sobre el seguimiento
 description: Obtenga respuestas a preguntas comunes sobre el seguimiento, incluidos problemas de resolución de problemas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ## Funciones de seguimiento
 
-+++¿Puedo hacer un seguimiento de las campañas que Adobe Advertising no administra?
++++¿Puedo rastrear campañas que el Adobe Advertising no administra?
 
 Sí. Si Search, Social y Commerce está sincronizando una de las cuentas de red de publicidad, rastreará los datos de clics de la red de publicidad para todos [tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md) en esa cuenta. También realiza un seguimiento de los datos de conversión si ha añadido el redireccionamiento de Search, Social y Commerce a las URL de destino de publicidad o palabra clave o a las plantillas de seguimiento, y si ha implementado el seguimiento de conversión en sus páginas de conversión. Aclarar con el equipo de cuenta de Adobe qué campañas desea que Search, Social y Commerce rastreen simplemente y cuáles desea que administren.
 +++
 
 +++¿Cómo obtengo la atribución de varios eventos?
 
-Para los anunciantes que utilizan las etiquetas de seguimiento de conversión Search, Social y Commerce o Adobe Analytics, la publicidad de Adobe ofrece varias opciones para atribuir datos de conversión en una serie de eventos que generan una conversión. Una configuración de nivel de anunciante determina cómo atribuir datos de conversión entre eventos, incluso cuando se producen en varios canales de publicidad, siempre y cuando los canales permitan el seguimiento de impresiones en el nivel de evento. De forma predeterminada, las conversiones se atribuyen al último evento (el más reciente), pero la configuración puede ser diferente, como atribuir conversiones al primer evento o ponderar todos los eventos de forma uniforme. Cambiar la regla de atribución afecta a cómo se calculan las ofertas futuras.
+Para los anunciantes que utilizan las etiquetas de seguimiento de conversión Search, Social y Commerce o Adobe Analytics, Adobe Advertising proporciona varias opciones para atribuir datos de conversión en una serie de eventos que generan una conversión. Una configuración de nivel de anunciante determina cómo atribuir datos de conversión entre eventos, incluso cuando se producen en varios canales de publicidad, siempre y cuando los canales permitan el seguimiento de impresiones en el nivel de evento. De forma predeterminada, las conversiones se atribuyen al último evento (el más reciente), pero la configuración puede ser diferente, como atribuir conversiones al primer evento o ponderar todos los eventos de forma uniforme. Cambiar la regla de atribución afecta a cómo se calculan las ofertas futuras.
 
 Los anunciantes que proporcionan todos los datos de conversión en un archivo de fuente deben atribuir la conversión a los propios eventos de transacción relacionados.
 
@@ -29,24 +29,24 @@ Los anunciantes que proporcionan todos los datos de conversión en un archivo de
 
 +++
 
-+++¿Cómo identifica la publicidad de Adobe las transacciones duplicadas?
++++¿Cómo identifica el Adobe Advertising las transacciones duplicadas?
 
-Las transacciones duplicadas pueden producirse cuando un usuario actualiza la página de confirmación después de completar una transacción. Adobe La publicidad utiliza el `ev_transid` para eliminar transacciones duplicadas con el mismo ID de transacción y valor de propiedad.
+Las transacciones duplicadas pueden producirse cuando un usuario actualiza la página de confirmación después de completar una transacción. El Adobe Advertising utiliza el `ev_transid` para eliminar transacciones duplicadas con el mismo ID de transacción y valor de propiedad.
 
-A continuación se muestra la lógica de deduplicación de Adobe Advertising:
+La siguiente es la lógica de deduplicación de Adobe Advertising:
 
 * **Cuando un cliente envía un valor para `ev_transid` atributo:** Las solicitudes de píxeles posteriores se consideran duplicados de la anterior si todas las siguientes son iguales: `ev_transid`; el ID de seguimiento para la misma palabra clave, anuncio o ubicación; y el valor de una propiedad de transacción específica.
 
-   Por ejemplo, si varias solicitudes de préstamo tienen el mismo ID de aplicación y el mismo importe de préstamo para la misma palabra clave en una red de publicidad específica, se consideran duplicados y solo se cuenta la primera solicitud de préstamo.
+  Por ejemplo, si varias solicitudes de préstamo tienen el mismo ID de aplicación y el mismo importe de préstamo para la misma palabra clave en una red de publicidad específica, se consideran duplicados y solo se cuenta la primera solicitud de préstamo.
 
 * **Cuando un cliente no envía un valor para `ev_transid` atributo:** Las transacciones posteriores se consideran duplicados de la anterior si comparten un ID de seguimiento para la misma palabra clave, anuncio o ubicación, y el mismo valor para una propiedad de transacción específica.
 
-   Por ejemplo, si varias solicitudes de préstamo tienen el mismo ID de palabra clave y el mismo importe de préstamo, se consideran duplicados y solo se cuenta la primera solicitud de préstamo.
+  Por ejemplo, si varias solicitudes de préstamo tienen el mismo ID de palabra clave y el mismo importe de préstamo, se consideran duplicados y solo se cuenta la primera solicitud de préstamo.
 +++
 
 ## Tipos de implementación de seguimiento
 
-+++Quiero dejar de usar el servicio de seguimiento de conversiones de publicidad de Adobe para una o varias campañas o cuentas de. ¿Cómo puedo eliminar rápidamente el código de seguimiento de las direcciones URL de seguimiento?
++++Quiero dejar de usar el servicio de seguimiento de conversión de Adobe Advertising para una o más campañas o cuentas. ¿Cómo puedo eliminar rápidamente el código de seguimiento de las direcciones URL de seguimiento?
 
 En primer lugar, consulte con su equipo de cuenta de Adobe para comprender las implicaciones de eliminar las URL de seguimiento.
 
@@ -57,18 +57,18 @@ En la cuenta o campaña, cambie el método de seguimiento a &quot;[!UICONTROL No
 
 +++¿Cómo sé qué propiedad de transacción es de una fuente de datos o se rastrea con la etiqueta de seguimiento de conversión de la publicidad de Adobe?
 
-En un [!UICONTROL Transaction Report], puede saber si el píxel de seguimiento de conversión de Advertising de Adobe ha rastreado una propiedad de transacción incluida si incluye la columna personalizada &quot;[!UICONTROL Tracking URL].&quot; Las direcciones URL de seguimiento con el píxel de seguimiento de publicidad de Adobe comienzan por `http://pixel.everesttech.net`.
+En un [!UICONTROL Transaction Report], puede saber si el píxel de seguimiento de conversión de Adobe Advertising ha rastreado una propiedad de transacción incluida si incluye la columna personalizada &quot;[!UICONTROL Tracking URL].&quot; Las direcciones URL de seguimiento con el píxel de seguimiento de Adobe Advertising comienzan por `http://pixel.everesttech.net`.
 +++
 
 +++¿Qué son las transacciones huérfanas?
 
-Las transacciones huérfanas son eventos de transacción que no se pueden asociar con una palabra clave o publicidad específica. Adobe La publicidad atribuye las transacciones/ingresos a una palabra clave o anuncio haciendo coincidir los ID de seguimiento recibidos con el evento de ingresos con el ID de seguimiento único en la URL de seguimiento de la palabra clave o del anuncio.
+Las transacciones huérfanas son eventos de transacción que no se pueden asociar con una palabra clave o publicidad específica. Adobe Advertising atribuye los /ingresos a una palabra clave o anuncio haciendo coincidir los ID de seguimiento recibidos con el evento de ingresos con el ID de seguimiento único de la URL de seguimiento de la palabra clave o del anuncio.
 
 Cuando un equipo de cuenta de Adobes sospecha que las transacciones huérfanas son responsables de una caída en los ingresos, el equipo del Servicio de atención al cliente comprueba si hay huérfanos y, si encuentra alguno, investiga el problema.
 
 Los huérfanos se producen en las siguientes situaciones.
 
-## Implementaciones de píxeles
+**Implementaciones de píxeles**
 
 Las transacciones huérfanas casi nunca ocurren en implementaciones de píxeles. Sin embargo, se han producido huérfanos de píxeles cuando:
 
@@ -76,7 +76,7 @@ Las transacciones huérfanas casi nunca ocurren en implementaciones de píxeles.
 
 * Los registros de clics no se procesan antes que los registros de conversión.
 
-## Implementaciones de fuentes
+**Implementaciones de fuentes**
 
 * El ID de seguimiento enviado en la fuente procede de una cuenta que Search, Social y Commerce no conocen.
 
@@ -88,11 +88,11 @@ Las transacciones huérfanas casi nunca ocurren en implementaciones de píxeles.
 
 * En el archivo de configuración, la expresión regular utilizada para extraer el ID de seguimiento de las direcciones URL es incorrecta o está obsoleta. A veces, el anunciante cambia el ID de seguimiento en la dirección URL o adopta un sistema de seguimiento completamente nuevo, que requiere que el equipo de implementación de Search, Social y Commerce actualice la expresión regular. En estos casos, una parte importante de los ingresos se queda huérfana.
 
-## Implementaciones de fuentes mediante un ID de transacción
+**Implementaciones de fuentes mediante un ID de transacción**
 
 No hay transacciones en línea disponibles antes de las fechas para las que los datos están disponibles en la fuente sin conexión.
 
-## Implementaciones de fuentes mediante un token (ef_id)
+**Implementaciones de fuentes mediante un token (ef_id)**
 
 Search, Social y Commerce no pueden encontrar el clic correspondiente en su servidor o en la red de publicidad. Esto puede deberse a que los datos de clics no están disponibles para la fecha de clics de la conversión o (en raras ocasiones) a que los registros de clics no se procesaban antes que los registros de conversión. Cuando Search, Social y Commerce reciben los datos de clics de la red de anuncios o se procesan los registros de clics, los datos se asignan a la conversión.
 +++

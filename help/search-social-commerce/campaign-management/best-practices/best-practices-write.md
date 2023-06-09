@@ -1,9 +1,9 @@
 ---
 title: Escribir texto efectivo y copiar
 description: Conozca las prácticas recomendadas para escribir textos publicitarios eficaces.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 6b93a29d121bd5a1cd887bf17023811e59fe85c3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * Escriba titulares poderosos para atraer clientes potenciales.
 
-* Incluya palabras clave en su titular porque eso es lo que la mayoría de la gente está buscando. [^1]
+* Incluya palabras clave en su titular porque eso es lo que la mayoría de la gente está buscando. [*]
 
 * Crear un texto publicitario diseñado para la audiencia a la que va dirigido.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * Si ofrece un descuento, incluya la cantidad o el porcentaje específico del descuento (por ejemplo, &quot;20% de descuento&quot; o &quot;Ahorre 20 $ en la primera compra&quot;).
 
-* Si es posible, utilice la palabra clave tanto en el titular/título como en ambas líneas de la descripción/cuerpo. [^1]
+* Si es posible, utilice la palabra clave tanto en el titular/título como en ambas líneas de la descripción/cuerpo. [*]
 
 * Incluya siempre una llamada a la acción en el texto, como &quot;Ver&quot;, &quot;Finalizar compra&quot;, &quot;Pedido&quot; o &quot;Registrarse&quot;, para aumentar la tasa de pulsaciones. En el caso de los anuncios con imágenes, incluya la llamada a la acción en un botón que se vincule al sitio web; en el caso de los anuncios con medios enriquecidos, incluya la llamada a la acción en un fotograma anterior.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * Investigue lo que están haciendo sus competidores. Examine los anuncios principales de un espacio (en sitios como www.spyfu.com) y trate de comprender qué anuncios funcionan.
 
-[^1]: si utiliza la inserción de palabras clave, utilice las mayúsculas y minúsculas correctas para el código de inserción:
+[*]: si utiliza la inserción de palabras clave, utilice las mayúsculas y minúsculas correctas para el código de inserción:
 
 `{keyword:default}` = cortadoras de césped
 
@@ -84,4 +84,3 @@ ht-degree: 0%
 >
 >* [Analice los informes para restringir las palabras clave y la configuración de campañas](best-practices-analyze.md)
 >* [Optimización de las páginas de aterrizaje del sitio web](best-practices-optimize.md)
-

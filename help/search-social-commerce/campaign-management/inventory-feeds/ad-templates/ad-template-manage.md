@@ -1,9 +1,9 @@
 ---
 title: Administrar plantillas de publicidad para fuentes de inventario
 description: Obtenga información acerca de la administración de plantillas de publicidad a través de las cuales se pueden procesar los datos de inventario para administrar la estructura de cuentas y enviar anuncios dinámicos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Cree plantillas independientes para anuncios de texto y expandidos/extendidos, a
       1. Seleccione la casilla de verificación situada junto a la plantilla que desee copiar.
 
       1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Create/Clone]** y, a continuación, seleccione la red publicitaria aplicable.
-   * (Para editar una plantilla existente) Junto al nombre de la plantilla, haga clic en ![Ver/editar configuración](/help/search-social-commerce/assets/settings.png "Ver/editar configuración").
 
+   * (Para editar una plantilla existente) Junto al nombre de la plantilla, haga clic en ![Ver/editar configuración](/help/search-social-commerce/assets/settings.png "Ver/editar configuración").
 
 1. Especifique la configuración para [plantilla de anuncio de texto](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] plantilla de anuncio de compra](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), o [[!DNL Microsoft® Advertising] plantilla de anuncio de compra](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
@@ -66,7 +66,6 @@ Cree plantillas independientes para anuncios de texto y expandidos/extendidos, a
       >* Cada grupo de anuncios puede incluir hasta tres anuncios de búsqueda adaptables habilitados.
       >* No puede editar las variaciones de anuncios de texto estándar existentes y las plantillas existentes ya no generan anuncios de texto estándar.
       >* Si cambia una plantilla de variación de anuncio, los anuncios existentes se pueden eliminar y se pueden crear nuevos anuncios al propagar datos a través de la plantilla, [según el tipo de anuncio y la red de publicidad](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * Para agregar una variación de anuncio, haga lo siguiente:
 
@@ -107,6 +106,7 @@ Cree plantillas independientes para anuncios de texto y expandidos/extendidos, a
                >* Puede especificar hasta cuatro alternativas para cada campo de copia de anuncio.
 
          * Para quitar una variación de anuncio, haga clic en **[!UICONTROL Remove ETA Variation]** (para anuncios de texto expandidos/extendidos) o **[!UICONTROL Remove RSA Variation]** (para anuncios de búsqueda adaptables) junto a él, según corresponda.
+
    1. (Solo plantillas de compra) Haga clic en **[!UICONTROL Product Groups]** y, a continuación, especifique información sobre los grupos de productos a los que desea dirigirse.
 
    1. (Opcional) Haga clic en **[!UICONTROL Feed Filters]** y, a continuación, especifique qué filas del archivo de fuente se van a propagar.
@@ -120,10 +120,6 @@ Cree plantillas independientes para anuncios de texto y expandidos/extendidos, a
          1. Haga clic **[!UICONTROL Add Label Classification]**.
 
          1. Seleccione la clasificación de etiquetas y, a continuación, seleccione un valor existente o introduzca un nuevo valor.
-
-
-
-
 
 1. Guarde la plantilla:
 
@@ -158,9 +154,7 @@ Puede activar cualquier plantilla de fuente de datos en pausa o pausar cualquier
 >[!MORELIKETHIS]
 >
 >* [Automatización de la administración de anuncios mediante fuentes de inventario](../inventory-feeds-about.md)
->* [Flujo de trabajo para administrar datos de campaña mediante fuentes de inventario](../inventory-feeds-workflow.md)
 >* [Configuración de anuncios de texto y plantillas de anuncios de búsqueda adaptables](template-text-rsa.md)
 >* [[!DNL Google Ads] configuración de plantilla de anuncio de compras](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] configuración de plantilla de anuncio de compras](template-microsoft-shopping.md)
 >* [Propagación de datos de fuentes mediante plantillas](../feed-data-propagate.md)
-
