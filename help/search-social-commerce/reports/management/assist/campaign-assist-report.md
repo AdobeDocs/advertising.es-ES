@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: Obtenga información acerca de [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Puede ver los datos de los 18 meses anteriores.
 Las siguientes son las columnas disponibles para cada informe. Las columnas predeterminadas se incluyen automáticamente de forma predeterminada. Puede agregar las columnas personalizadas disponibles desde la sección Columnas de la configuración del informe.
 
 | Columna | ¿Predeterminado? | Descripción |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] hasta [!UICONTROL 5th Campaign] | Predeterminado | Las cinco campañas más antiguas de la ruta de conversión que se produjeron en el [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j).<br><br>Si ha incluido cualquiera de las opciones de informe para indicar la red de publicidad, el nombre de cuenta o el tipo de evento después del nombre de entidad, esa información se incluye después del nombre de campaña (por ejemplo, `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Predeterminado | El número de campañas en la ruta de conversión que se produjeron dentro del [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | Predeterminado | La primera campaña de la ruta de conversión. |
@@ -57,4 +57,3 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 >* [El [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Configuración del informe de asistencia](assist-report-settings.md)
 >* [Generar un informe de asistencia](assist-report-generate.md)
-

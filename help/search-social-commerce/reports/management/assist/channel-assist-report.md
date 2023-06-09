@@ -1,9 +1,9 @@
 ---
 title: "[!UICONTROL Channel Assist Report]"
 description: Obtenga información acerca de [!UICONTROL Channel Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Puede ver los datos de los 18 meses anteriores.
 Las siguientes son las columnas disponibles para cada informe. Las columnas predeterminadas se incluyen automáticamente de forma predeterminada. Puede agregar las columnas personalizadas disponibles desde la sección Columnas de la configuración del informe.
 
 | Columna | ¿Predeterminado? | Descripción |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Event] hasta [!UICONTROL 5th Event] | Predeterminado | Los cinco tipos de evento más antiguos de la ruta de conversión que se produjeron en el [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Path Size] | Predeterminado | El número de tipos de eventos en la ruta de conversión que se produjeron dentro del [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | Predeterminado | El tipo de evento del primer (primer) evento de la ruta de conversión. |
@@ -47,4 +47,3 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 >* [El [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Configuración del informe de asistencia](assist-report-settings.md)
 >* [Generar un informe de asistencia](assist-report-generate.md)
-

@@ -1,9 +1,9 @@
 ---
 title: Cálculo de las reglas de atribución
 description: Descubra cómo Adobe Advertising calcula cada tipo de regla de atribución.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
 workflow-type: tm+mt
-source-wordcount: '2438'
+source-wordcount: '2431'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,8 @@ En los informes, las vistas predeterminadas y personalizadas para Advertising Se
 >
 >* Las reglas de atribución se aplican a los clics en anuncios pagados en cualquier canal y a las impresiones en pantallas y anuncios sociales. No se aplican a las impresiones de anuncios de búsqueda de pago, que no se pueden rastrear en el nivel de evento.
 >* Adobe Advertising siempre almacena los siguientes eventos para cada internauta antes de una conversión: a) el primer clic de pago; b) hasta 10 clics para cada canal (búsqueda, social o visualización), incluido el primer clic; y c) hasta 10 impresiones de visualización. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-
 * DSP En Advertising y Advertising Creative, las definiciones entre dispositivos solo tienen en cuenta la ruta de evento de la regla de atribución seleccionada.<!-- cross-device attribution via LiveRamp only -->
-* En las vistas de informes y administración, el número de decimales que se muestran para un valor depende de la moneda, pero la publicidad de Adobe almacena valores más precisos.
+* En las vistas de informes y administración, el número de decimales que se muestran para un valor depende de la divisa, pero el Adobe Advertising almacena valores más precisos.
 
 ## Último evento (valor predeterminado)
 
@@ -186,9 +185,6 @@ Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los 
 
 ![Porcentajes de atribución pares](/help/search-social-commerce/assets/attribution-percent-even.png "Porcentajes de atribución pares")
 
-<!-- Add in
-Examples of event calculations
-
 <!-- start examples as collapsible content -->
 
 +++Ejemplos de cálculos de eventos
@@ -299,13 +295,13 @@ Atribuye la conversión a todos los eventos de la serie que se produjeron dentro
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de publicidad de Adobe tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
 
 * DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
 
-![Porcentajes de atribución en forma de U](/help/search-social-commerce/assets/attribution-percent-u-shaped-event.png "Porcentajes de atribución de evento en forma de U")
+<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
 
 <!-- start examples as collapsible content -->
 

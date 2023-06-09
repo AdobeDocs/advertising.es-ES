@@ -1,9 +1,9 @@
 ---
 title: Escribir texto efectivo y copiar
 description: Conozca las prácticas recomendadas para escribir textos publicitarios eficaces.
-source-git-commit: 6b93a29d121bd5a1cd887bf17023811e59fe85c3
+source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * Escriba titulares poderosos para atraer clientes potenciales.
 
-* Incluya palabras clave en su titular porque eso es lo que la mayoría de la gente está buscando. [*]
+* Incluya palabras clave en su titular porque eso es lo que la mayoría de la gente está buscando. [1]
 
 * Crear un texto publicitario diseñado para la audiencia a la que va dirigido.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * Si ofrece un descuento, incluya la cantidad o el porcentaje específico del descuento (por ejemplo, &quot;20% de descuento&quot; o &quot;Ahorre 20 $ en la primera compra&quot;).
 
-* Si es posible, utilice la palabra clave tanto en el titular/título como en ambas líneas de la descripción/cuerpo. [*]
+* Si es posible, utilice la palabra clave tanto en el titular/título como en ambas líneas de la descripción/cuerpo. [1]
 
 * Incluya siempre una llamada a la acción en el texto, como &quot;Ver&quot;, &quot;Finalizar compra&quot;, &quot;Pedido&quot; o &quot;Registrarse&quot;, para aumentar la tasa de pulsaciones. En el caso de los anuncios con imágenes, incluya la llamada a la acción en un botón que se vincule al sitio web; en el caso de los anuncios con medios enriquecidos, incluya la llamada a la acción en un fotograma anterior.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * Investigue lo que están haciendo sus competidores. Examine los anuncios principales de un espacio (en sitios como www.spyfu.com) y trate de comprender qué anuncios funcionan.
 
-[*]: si utiliza la inserción de palabras clave, utilice las mayúsculas y minúsculas correctas para el código de inserción:
+[1]: si utiliza la inserción de palabras clave, utilice las mayúsculas y minúsculas correctas para el código de inserción:
 
 `{keyword:default}` = cortadoras de césped
 

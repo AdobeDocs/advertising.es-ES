@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: Obtenga información acerca de [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # El [!UICONTROL Keyword Assist Report]
 
-*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones de Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
+*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
 
 El [!UICONTROL Keyword Assist Report] indica qué palabras clave o ubicaciones generan clics. El informe muestra cada patrón de palabras clave de búsqueda pagada o ubicaciones que recibieron clics en una ruta de conversión e indica cómo ese patrón contribuyó a las conversiones generales. Por ejemplo, puede ver cuántas conversiones se produjeron cuando los usuarios hicieron clic en un anuncio por primera vez como resultado de una búsqueda de palabra clave de &quot;zapatos de cuero&quot;, luego hicieron clic en un anuncio después de una búsqueda de palabra clave de &quot;zapatos de ante&quot; y luego hicieron un pedido, o puede ver cuántas conversiones se produjeron después de que los usuarios hicieron clic en anuncios que resultaron de más de 10 palabras clave.
 
@@ -29,7 +29,7 @@ Puede ver los datos de los 18 meses anteriores.
 Las siguientes son las columnas disponibles para cada informe. Las columnas predeterminadas se incluyen automáticamente de forma predeterminada. Puede agregar las columnas personalizadas disponibles desde la sección Columnas de la configuración del informe.
 
 | Columna | ¿Predeterminado? | Descripción |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] hasta [!UICONTROL 5th Keyword] | Predeterminado | Los cinco clics de ubicación o palabra clave de búsqueda pagada más antiguos en la ruta de conversión que se produjeron dentro de la variable del anunciante [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Nota:</b> Si el informe incluye ubicaciones de campañas de búsqueda con contenido habilitado (que no incluyen palabras clave), estas columnas muestran los nombres de grupos de publicidad aplicables, como &quot;Nombre de su grupo de publicidad&quot; en su lugar. |
 | [!UICONTROL Path Size] | Predeterminado | El número de palabras clave o ubicaciones en la ruta de conversión que se produjeron dentro de la propiedad del anunciante. [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Predeterminado | La primera palabra clave o ubicación en la ruta de conversión. |
@@ -51,4 +51,3 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 >* [El [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Configuración del informe de asistencia](assist-report-settings.md)
 >* [Generar un informe de asistencia](assist-report-generate.md)
-

@@ -1,9 +1,9 @@
 ---
 title: Acerca de las notificaciones
 description: Obtenga información acerca de las notificaciones, incluidos los distintos tipos y categorías.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Puede configurar los ajustes de notificación para suscribirse o cancelar la sus
 
 * Desde una [!UICONTROL Notification Center] aplicación web, que se abre [!UICONTROL Notification Center] en una ventana independiente fuera de Buscar, Social y Comercio.
 
-   La aplicación se carga más rápido que la versión normal del explorador y se actualiza automáticamente. Puede instalar la aplicación y administrarla mediante el administrador de aplicaciones del explorador.
+  La aplicación se carga más rápido que la versión normal del explorador y se actualiza automáticamente. Puede instalar la aplicación y administrarla mediante el administrador de aplicaciones del explorador.
 
 * Desde notificaciones push al explorador.
 
-   Cuando se habilitan las notificaciones push, aparecen según las convenciones de notificación del explorador.
+  Cuando se habilitan las notificaciones push, aparecen según las convenciones de notificación del explorador.
 
 Puede ver las notificaciones, marcarlas como leídas o no leídas y eliminarlas.
 
@@ -50,7 +50,7 @@ Puede ver las notificaciones, marcarlas como leídas o no leídas y eliminarlas.
 
    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: Notificaciones que indican que la variable [!UICONTROL Landing Page Suffix] el valor es incorrecto, falta o contiene una plantilla SKWCID incorrecta; o está anulado en un nivel inferior por un valor incorrecto.
 
-   * **[!UICONTROL Manager Account Missing ]**: Notificaciones de que Search, Social y Commerce no tienen las credenciales de un [cuenta de administrador de red de anuncios](/help/search-social-commerce/admin/manager-accounts.md), que son para la correcta configuración de funciones críticas.
+   * **[!UICONTROL Manager Account Missing]**: Notificaciones de que Search, Social y Commerce no tienen las credenciales de un [cuenta de administrador de red de anuncios](/help/search-social-commerce/admin/manager-accounts.md), que son para la correcta configuración de funciones críticas.
 
 * [!UICONTROL Network Errors]
 
@@ -76,4 +76,3 @@ Puede ver las notificaciones, marcarlas como leídas o no leídas y eliminarlas.
 >* [Editar la configuración de notificaciones](notification-edit.md)
 >* [Habilitar y deshabilitar notificaciones push desde [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Instale y desinstale el [!UICONTROL Notification Center] aplicación web](notification-app-install-uninstall.md)
-
