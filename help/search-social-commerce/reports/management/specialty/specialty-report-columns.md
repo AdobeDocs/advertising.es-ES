@@ -1,7 +1,7 @@
 ---
 title: Columnas de informes para informes de especialidades
 description: Obtenga información sobre las columnas de datos disponibles para los informes de especialidades.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: c2a6e14fe97d46185094dd4df3e75db35a505925
 workflow-type: tm+mt
 source-wordcount: '1925'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] solo; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], y [!UICONTROL Keyword Daily Impression Share Report]) El porcentaje de impresiones de su anuncio que se muestran como el primer anuncio por encima de los resultados de búsqueda orgánica. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] solo; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report], y [!UICONTROL Keyword Daily Impression Share Report]) El porcentaje de impresiones de publicidad que se muestra encima de los resultados de búsqueda orgánica. |
 | [!UICONTROL Impressions] | El número de impresiones de publicidad durante el intervalo de fechas especificado. |
-| [!UICONTROL Keyword] | La palabra clave.<br><br><b>Nota:</i> Si el informe incluye datos de grupos de anuncios en campañas de búsqueda con contenido habilitado, esta columna incluye los nombres de grupos de anuncios aplicables, como &quot;(contenido de grupos de anuncios) Su nombre de grupo de anuncios&quot;. Para una ubicación de destino de sitio en una campaña de búsqueda, esta columna no tiene ningún valor. |
+| [!UICONTROL Keyword] | La palabra clave.<br><br><b>Nota:</b> Si el informe incluye datos de grupos de anuncios en campañas de búsqueda con contenido habilitado, esta columna incluye los nombres de grupos de anuncios aplicables, como &quot;(contenido de grupos de anuncios) Su nombre de grupo de anuncios&quot;. Para una ubicación de destino de sitio en una campaña de búsqueda, esta columna no tiene ningún valor. |
 | [!UICONTROL Keyword ID] | El ID numérico que Search, Social y Commerce asignan a la palabra clave. |
 | [!UICONTROL Keyword Status] | El estado de la palabra clave con la que coincidió el término de búsqueda: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*, o[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) El idioma de destino. |
@@ -119,4 +119,3 @@ ht-degree: 0%
 >* [Acerca de los informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [Generar un informe de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 >* [Configuración de informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-
