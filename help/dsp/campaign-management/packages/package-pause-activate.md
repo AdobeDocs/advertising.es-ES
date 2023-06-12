@@ -2,7 +2,7 @@
 title: Pausar o activar un paquete
 description: Obtenga información sobre cómo pausar o activar un paquete.
 feature: DSP Packages
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -36,4 +36,3 @@ Todas las ubicaciones en pausa dentro de un paquete antes de pausar el paquete e
 >* [Edición de un paquete](package-edit.md)
 >* [Visualización del registro de cambios de un paquete](package-change-log.md)
 >* [Archivar un paquete](package-archive-unarchive.md)
-
