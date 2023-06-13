@@ -236,7 +236,7 @@ Los campos de datos del archivo de fuente pueden tener un máximo de 25 caracter
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] (solo plantillas) La cadena que se utilizará como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contienen el valor `{Param3}` cadena de sustitución dinámica. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima del elemento de anuncio en el que lo utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
 
 ## [!UICONTROL Ads]
 
