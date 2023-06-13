@@ -1,9 +1,9 @@
 ---
 title: Administrar las cuentas de red de publicidad
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Para [!DNL Microsoft Advertising] sólo cuentas [!DNL oAuth]Se pueden utilizar i
 
 Ejemplo: `param1=value1&param2=value2`
 
-Las cuentas que utilizan el rastreo de clics de Adobe Advertising deben incluir el identificador de clics de la red de publicidad (`msclkid` para [!DNL Microsoft Advertising]; `gclid` para Google) en el sufijo. Las cuentas con una integración de Adobe Analytics deben utilizar el `s_kwcid` parámetro. Si la cuenta tiene una implementación s\_kwcid del lado del servidor, el parámetro se agrega automáticamente cuando un usuario hace clic en un anuncio; de lo contrario, debe agregarlo aquí manualmente. Consulte la [formatos de sufijo necesarios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) y [formatos de sufijo necesarios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Las cuentas que utilizan el rastreo de clics con Adobe Advertising deben incluir el identificador de clic ( ) de la red de publicidad`msclkid` para [!DNL Microsoft Advertising]; `gclid` para Google) en el sufijo. Las cuentas con una integración de Adobe Analytics deben utilizar el `s_kwcid` parámetro. Si la cuenta tiene una implementación s\_kwcid del lado del servidor, el parámetro se agrega automáticamente cuando un usuario hace clic en un anuncio; de lo contrario, debe agregarlo aquí manualmente. Consulte la [formatos de sufijo necesarios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) y [formatos de sufijo necesarios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -184,7 +184,7 @@ Las cuentas que utilizan el rastreo de clics de Adobe Advertising deben incluir 
 
 * Para incrustar la dirección URL final:
 
-   * ([!DNL Google Ads] y [!DNL Microsoft Advertising] (solo) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, consulte el ([!DNL Microsoft Advertising] solo) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección de &quot;Parámetros de ValueTrack disponibles&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] y [!DNL Microsoft Advertising] (solo) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, consulte el ([!DNL Microsoft Advertising] solo) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Disponible&quot; [!DNL ValueTrack] Parámetros&quot; en el [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] (solo) Utilice el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
 
@@ -238,7 +238,7 @@ Las cuentas que utilizan el rastreo de clics de Adobe Advertising deben incluir 
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **Formato S\_kwcid** - (Existente) [!DNL Google Ads] cuentas para anunciantes con una integración de Advertising-Adobe Analytics de Adobe y para los que s\_kwcid aún no se ha migrado)
+* **Formato S\_kwcid** - (Existente) [!DNL Google Ads] cuentas para anunciantes con una integración Adobe Advertising-Adobe Analytics y para los que s\_kwcid aún no se ha migrado)
 
 Esta cuenta utiliza el formato heredado para el código de seguimiento s\_kwcid, que permite que la publicidad de Adobe comparta datos sobre la cuenta con Adobe Analytics. El [último formato](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) incluye parámetros para el ID de campaña y el ID de grupo de publicidad, que son necesarios para informar con precisión en los niveles de campaña y grupo de publicidad para [!DNL Google Ads] campañas Máximo rendimiento de, y borradores y experimentos de campañas en Analytics:
 

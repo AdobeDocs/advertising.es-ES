@@ -1,9 +1,9 @@
 ---
 title: "Actualice el código de seguimiento s\_kwcid para un [!DNL Google Ads] account"
 description: Aprenda a cambiar al último código de seguimiento s\_kwcid para una [!DNL Google Ads] cuenta.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,8 @@ Todo nuevo [!DNL Google Ads] las cuentas utilizan automáticamente el nuevo form
 
 1. Una vez iniciada la migración, actualice la configuración del sufijo de la página de aterrizaje (denominado &quot;sufijo URL final&quot; en algunas redes publicitarias) según sea necesario:
 
-   * Cuando la función &quot;Carga automática&quot; está habilitada en la configuración de seguimiento, Search, Social y Commerce actualizan automáticamente el código de seguimiento en el sufijo de página de aterrizaje de esta cuenta y sus campañas. Usted no tiene que hacer nada.
-   * Cuando la función &quot;Carga automática&quot; no está activada y no utiliza s-kwcid del lado del servidor, debe actualizar manualmente el parámetro s\_kwcid en la configuración del sufijo de la página de aterrizaje. Puede cambiar manualmente los sufijos de nivel de cuenta y de campaña en la configuración de cuenta y campaña o cargando los cambios en una hoja de edición por lotes. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, utilice el [!DNL Google Ads] editor.
+   * Si la variable [!UICONTROL Auto Upload]La función &quot; está habilitada en la configuración de seguimiento, Search, Social y Commerce actualizan automáticamente el código de seguimiento en el sufijo de página de aterrizaje de esta cuenta y sus campañas. Usted no tiene que hacer nada.
+   * Si la variable [!UICONTROL Auto Upload]&quot; no está activada y no utiliza el s-kwcid del lado del servidor, debe actualizar manualmente el parámetro s\_kwcid en la configuración del sufijo de página de aterrizaje. Puede cambiar manualmente los sufijos de nivel de cuenta y de campaña en la configuración de cuenta y campaña o cargando los cambios en una hoja de edición por lotes. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, utilice el [!DNL Google Ads] editor.
    * Si incluye s\_kwcid en la configuración de URL base para cualquier componente de campaña, muévalo a la configuración de Sufijo de página de aterrizaje correspondiente.
 
 1. (Recomendado) Compruebe los datos de esta cuenta en Analytics antes de migrar cuentas adicionales.

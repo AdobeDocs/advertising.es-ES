@@ -1,9 +1,9 @@
 ---
 title: Configuración de anuncios de texto y plantillas de anuncios de búsqueda adaptables para fuentes de inventario
 description: Haga referencia a la configuración de las plantillas de anuncios de búsqueda interactivos y de anuncios de texto para las fuentes de inventario.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3317'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 
 * Para incrustar la dirección URL final:
 
-   * ([!DNL Google Ads] y [!DNL Microsoft® Advertising] (solo) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, consulte el ([!DNL Microsoft® Advertising] solo) [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799/2) o ([!DNL Google Ads] solo) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección de &quot;Parámetros de ValueTrack disponibles&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] y [!DNL Microsoft® Advertising] (solo) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, consulte el ([!DNL Microsoft® Advertising] solo) [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799/2) o ([!DNL Google Ads] solo) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Disponible&quot; [!DNL ValueTrack] Parámetros&quot; en el [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] (solo) Utilice el parámetro `!{unescapedurl}` para indicar la dirección URL de la página de aterrizaje.
 
@@ -134,13 +134,13 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 
 **[!UICONTROL Ad Group Tracking Template]:** (Cuentas solo con direcciones URL finales/avanzadas) La plantilla de seguimiento de nivel de grupo de anuncios, que especifica todas las redirecciones de dominios de aterrizaje y parámetros de seguimiento e incrusta la dirección URL final en un parámetro.
 
-Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;Redireccionamiento de EF&quot; y &quot;Carga automática&quot;, Search, Social y Commerce adjunta automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar la dirección URL de la página de aterrizaje:
 
 * Para Yahoo! Cuentas de anuncios de Japón, utilice el parámetro {lpurl}.
 
-* Para ver los parámetros disponibles para las cuentas de Microsoft® Advertising y Google Ads, consulte la [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección de &quot;Parámetros de ValueTrack disponibles&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+* Para ver los parámetros disponibles para las cuentas de Microsoft® Advertising y Google Ads, consulte la [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Disponible&quot; [!DNL ValueTrack] Parámetros&quot; en el [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
 Este valor anula la configuración de nivel de cuenta y de campaña, pero las plantillas de seguimiento a niveles más granulares (con palabra clave como valor más granular) anulan este valor.
 
@@ -198,13 +198,13 @@ Si usa un [!DNL Google Merchant Center] e incluir este valor en la fuente &quot;
 
 **[!UICONTROL Keyword Tracking Template]:** (Cuentas con direcciones URL finales/avanzadas; opcional) La plantilla de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento, e incrusta la dirección URL final en un parámetro. La plantilla de seguimiento en el nivel más granular (con la palabra clave como valor más granular) anula los valores en todos los demás niveles.
 
-* Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;Redireccionamiento de EF&quot; y &quot;Carga automática&quot;, Search, Social y Commerce adjunta automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+* Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 * Si lo desea, puede introducir redirecciones y seguimiento de terceros.
 
 * Para indicar la dirección URL de la página de aterrizaje:
 
-   * ([!DNL Google Ads] y [!DNL Microsoft® Advertising] (solo) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, consulte el ([!DNL Microsoft® Advertising] solo) [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección de &quot;Parámetros de ValueTrack disponibles&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] y [!DNL Microsoft® Advertising] (solo) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, consulte el ([!DNL Microsoft® Advertising] solo) [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Disponible&quot; [!DNL ValueTrack] Parámetros&quot; en el [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] (solo) Utilice el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
 
@@ -316,7 +316,7 @@ Para anuncios adaptables de búsqueda, inserte un personalizador de anuncios con
 
 [!DNL Microsoft® Advertising] y [!DNL Yahoo! Japan Ads] han desaprobado la creación y edición de anuncios de texto estándar.
 
-**[!UICONTROL Base URL]:** (Cuentas solo con direcciones URL de destino) La página a la que se llevan los usuarios. Puede incluir redirección de terceros y código de seguimiento. Si utiliza el servicio de seguimiento de conversiones de publicidad Adobe y la configuración de la campaña incluye el uso de [!UICONTROL EF Redirect] y agregando seguimiento en el nivel de anuncio; a continuación, Search, Social y Commerce añadirán automáticamente su propia redirección y código de seguimiento al anuncio.
+**[!UICONTROL Base URL]:** (Cuentas solo con direcciones URL de destino) La página a la que se llevan los usuarios. Puede incluir redirección de terceros y código de seguimiento. Si utiliza el servicio de seguimiento de conversión de Adobe Advertising y la configuración de la campaña incluye el uso del [!UICONTROL EF Redirect] y agregando seguimiento en el nivel de anuncio; a continuación, Search, Social y Commerce añadirán automáticamente su propia redirección y código de seguimiento al anuncio.
 
 Para insertar un nombre de columna o un grupo de modificadores como parámetro dinámico, haga clic en el campo de entrada y, a continuación, haga clic en un nombre de columna en la lista de columnas o en un [nombre de modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) en el [!UICONTROL Modifiers] lista.
 
@@ -337,7 +337,7 @@ Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar 
 
 * Para Yahoo! Cuentas de anuncios de Japón, utilice el parámetro {lpurl}.
 
-* Para ver los parámetros disponibles para las cuentas de Microsoft® Advertising y Google Ads, consulte la [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección de &quot;Parámetros de ValueTrack disponibles&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+* Para ver los parámetros disponibles para las cuentas de Microsoft® Advertising y Google Ads, consulte la [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Disponible&quot; [!DNL ValueTrack] Parámetros&quot; en el [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
 **\[Campos de anuncio alternativos debajo de los campos de anuncio originales\]:** (Opcional) Un conjunto alternativo de copias de anuncio para un anuncio que puede utilizarse si alguna de las líneas del anuncio original supera la longitud máxima permitida una vez que algún parámetro dinámico se rellena con datos durante la propagación.
 

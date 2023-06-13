@@ -1,9 +1,9 @@
 ---
 title: Datos de hoja de edición masiva para [!DNL Yahoo! Display Network] cuentas
 description: Hacer referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para [!DNL Yahoo! Display Network] cuentas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,10 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Ad Group ID] | n/a | Si se incluye | Si se incluye | ID único que identifica un grupo de anuncios existente. |
 | [!UICONTROL Keyword ID] | n/a | n/a | Si se incluye | Identificador exclusivo que identifica una palabra clave existente. |
 | [!UICONTROL AMO ID] | n/a | n/a | n/a | (En hojas de edición masiva generadas) Identificador único generado por el Adobe para una entidad sincronizada. |
-| [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de Search, Social y Commerce con respecto a los datos de la fila; los mensajes de error se incluyen en los archivos de errores de EF. |
+| [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Se incluye en las hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de Search, Social y Commerce con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL EF Errors] archivos. |
 
 <table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
 >* [Descargar/crear un archivo de hoja de edición masiva](../bulksheet-download.md)
-

@@ -1,9 +1,9 @@
 ---
 title: Administrar vínculos de sitios compartidos
 description: Obtenga información sobre cómo crear y administrar extensiones de vínculos de sitios compartidos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ Una vez guardado el registro, la dirección URL base incluye cualquier parámetr
 >* ([!DNL Google Ads]Cada vínculo de sitio de una campaña o grupo de anuncios debe tener una página de aterrizaje única y el contenido de cada página de aterrizaje de vínculo de sitio debe tener aproximadamente un 80 % de contenido único. Por ejemplo, no puede tener vínculos de sitio con vínculos a varios anclajes dentro de la misma página.
 >* ([!DNL Google Ads]) Evite utilizar macros que no sustituyan los clics de fuentes que habilitan el seguimiento en paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
 
-
 **[!UICONTROL Tracking Template]:** (Opcional) La plantilla de seguimiento o la URL de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje remoto y los parámetros de seguimiento, e incrusta la dirección URL de la página de aterrizaje/final en un parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
 
-* Para el seguimiento de conversión de la publicidad de Adobe, que se aplica cuando la configuración de la campaña incluye &quot;Redireccionamiento de EF&quot; y &quot;Carga automática&quot;, Search, Social y Commerce añadirán automáticamente como prefijo su propio código de seguimiento de clics al guardar el registro.
+* Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;Carga automática&quot;, Search, Social y Commerce prefieren automáticamente su propio código de seguimiento de clics al guardar el registro.
 
-* Para ver los parámetros admitidos para incrustar la dirección URL final, consulte el ([!DNL Microsoft Advertising] solo) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección de &quot;Parámetros de ValueTrack disponibles&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+* Para ver los parámetros admitidos para incrustar la dirección URL final, consulte el ([!DNL Microsoft Advertising] solo) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Disponible&quot; [!DNL ValueTrack] Parámetros&quot; en el [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
 * Opcionalmente, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separado por el símbolo &amp;, como `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ Una vez guardado el registro, la dirección URL base incluye cualquier parámetr
 >* ([!DNL Microsoft Advertising]) Puede actualizar sus plantillas de seguimiento en cualquier nivel sin volver a enviar los anuncios para su aprobación.
 >* Para [!DNL Google Ads], evite utilizar macros que no sustituyan los clics de fuentes que habiliten el seguimiento paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
 
-
 >[!MORELIKETHIS]
 >
 >* [Acerca de las extensiones sitelink](sitelink-extension-about.md)
 >* [Asociar vínculos de sitios compartidos con cuentas, campañas y grupos de anuncios](sitelink-extension-associate.md)
-
