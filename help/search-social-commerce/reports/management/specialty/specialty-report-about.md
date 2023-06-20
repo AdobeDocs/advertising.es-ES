@@ -1,9 +1,10 @@
 ---
 title: Acerca de los informes especiales
 description: Más información sobre los informes de especialidad.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a5232434-cdb5-451f-aa65-6536c97c4a52
+source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -38,9 +39,14 @@ La mayoría de los informes de especialidades consisten únicamente en datos rec
 
 * [El [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
 
+* [El [!UICONTROL MSA Ad Extension by Ad Report]](msa-ad-extension-detail-report.md)
+
+* [El [!UICONTROL MSA Ad Extension by Keyword Report]](msa-ad-extension-by-keyword-report.md)
+
+* [El [!UICONTROL MSA Ad Extension Detail Report]](msa-ad-extension-by-ad-report.md)
+
 >[!MORELIKETHIS]
+>
 * [Generar un informe de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 * [Configuración de informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 * [Columnas de informes para informes de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
-
-
