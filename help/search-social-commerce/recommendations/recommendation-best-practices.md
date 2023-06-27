@@ -1,14 +1,17 @@
 ---
 title: Prácticas recomendadas para usar recomendaciones de editores y perspectivas con portafolios
 description: Conozca las prácticas recomendadas para usar [!DNL Google Ads] recomendaciones con sus portafolios de Search, Social y Commerce.
-source-git-commit: 0c2b4648b3f0d6d7e4ed60f03a3a9bce56e9cdd7
+exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Prácticas recomendadas para usar recomendaciones de editores y perspectivas con portafolios
+
+<!-- If we don't come up with similar ones for MS, then rename this file "... Google Ads ..." -->
 
 ## [!DNL Google Ads] Recommendations
 
@@ -25,6 +28,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Acerca de las recomendaciones del editor y la compatibilidad con perspectivas](recommendation-support.md)
->* [Ver el registro de recomendaciones de un [!DNL Google Ads] account](google-recommendation-view-log.md)
+>* [Vea las recomendaciones del editor y las perspectivas de rendimiento](recommendation-view.md)
 >* [Aplique o descarte una [!DNL Google Ads] recomendación](google-recommendation-apply-dismiss.md)
-
+>* [Ver el registro de recomendaciones de un [!DNL Google Ads] account](google-recommendation-view-log.md)
