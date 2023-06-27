@@ -1,17 +1,13 @@
 ---
-type: Documentation
-role: User, Admin
-cloud: Experience Cloud
-solution: Advertising
-product: advertising cloud
+role: User
 user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +24,7 @@ ht-degree: 6%
 
 + [Novedades de la versión](/help/dsp/home.md)
 + Introducción {#introduction}
-   + [Introducción a Adobe DSP Advertising](/help/dsp/introduction/dsp-about.md)
+   + [Introducción al Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
    + Características principales {#features}
       + [Optimización](/help/dsp/introduction/features/optimization.md)
       + [Seguridad de marca y calidad de medios](/help/dsp/introduction/features/brand-safety-media-quality.md)

@@ -1,10 +1,11 @@
 ---
 title: Acerca de las suscripciones de alerta
 description: Obtenga información sobre las alertas automáticas por correo electrónico.
+role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

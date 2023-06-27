@@ -1,9 +1,10 @@
 ---
 title: Configuración de cuenta del anunciante
 description: Consulte las descripciones de la configuración de anunciante disponible.
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+role: User, Admin
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -38,11 +39,11 @@ Los anunciantes con productos de Adobe Experience Cloud adicionales pueden compa
 
 (Opcional) Productos de Experience Cloud DSP adicionales vinculados a la cuenta de la. Los productos deben estar asociados con el mismo ID de organización de Experience Cloud proporcionado en la variable [!UICONTROL Adobe IMS IDs] sección.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Advertising Search, Social, & Commerce] o que utilizan píxeles de conversión de publicidad en Adobe) A [!DNL Search, Social, & Commerce] DSP cuenta con la que los intercambiarán datos de atribución.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Advertising Search, Social, & Commerce] o que utilizan píxeles de conversión de Adobe Advertising) A [!DNL Search, Social, & Commerce] DSP cuenta con la que los intercambiarán datos de atribución.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Anunciantes con Adobe Analytics; opcional; aplicable solo a los datos recopilados mediante las etiquetas de seguimiento de conversión de publicidad de Adobe que incluyen un [!DNL EF Redirect] y solo token) Uno o más [!DNL Analytics] DSP grupos de informes a los que los grupos de informes enviarán los datos que recopile de los editores y los socios de suministro. DSP Analytics también enviará los datos que recopila del sitio del cliente a la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico del cliente.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Anunciantes con Adobe Analytics; opcional; aplicable solo a los datos recopilados mediante las etiquetas de seguimiento de conversión de Adobe Advertising que incluyen un [!DNL EF Redirect] y solo token) Uno o más [!DNL Analytics] DSP grupos de informes a los que los grupos de informes enviarán los datos que recopile de los editores y los socios de suministro. DSP Analytics también enviará los datos que recopila del sitio del cliente a la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico del cliente.
 
-Para que los datos aparezcan en los grupos de informes, la variable [!DNL Search, Social, & Commerce] configuración de nivel de anunciante en &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; debe estar habilitado. Además, el del anunciante [!DNL Analytics] La cuenta de debe estar configurada para recibir datos de Adobe Advertising.
+Para que los datos aparezcan en los grupos de informes, la variable [!DNL Search, Social, & Commerce] configuración de nivel de anunciante en &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; debe estar habilitado. Además, el del anunciante [!DNL Analytics] La cuenta de debe estar configurada para recibir datos del Adobe Advertising de.
 
 >[!WARNING]
 >
@@ -55,7 +56,7 @@ Para obtener más información sobre la integración de con [!DNL Analytics], co
 * Segmentos de Audience Manager
 * [!DNL Analytics] segmentos publicados en Adobe Experience Cloud
 * Segmentos que se crean con Adobe Experience Cloud [!DNL Audience Library]
-* Segmentos creados en Adobe Experience Platform y enviados a publicidad de Adobe mediante Audience Manager
+* Segmentos creados en Adobe Experience Platform y enviados al Adobe Advertising mediante un Audience Manager
 
 La sincronización inicial dura unas 24 horas. Después, los datos se sincronizan en tiempo real, con un retraso de uno a dos segundos.
 <!-- I don't think this is true anymore:
@@ -144,6 +145,5 @@ Puede anular la configuración de nivel de anunciante en el nivel de ubicación.
 >[!MORELIKETHIS]
 >
 >* [Crear una cuenta de anunciante](/help/dsp/admin/advertiser-create.md)
-
 
 <!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->

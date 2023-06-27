@@ -1,10 +1,12 @@
 ---
 title: Editar una [!DNL Google Analytics] fuente de datos
 description: Obtenga información sobre cómo editar la configuración de un [!DNL Google Analytics] fuente de datos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: a23444f7-8f4c-42ba-b5fe-a325fb18136d
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,4 +33,3 @@ ht-degree: 1%
 >* [Volver a autenticar un [!DNL Google Analytics] fuente de datos](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configuración de fuente de datos](data-source-settings.md)
 >* [Apéndice: disponible [!DNL Google Analytics] métricas](data-source-ga-metrics.md)
-

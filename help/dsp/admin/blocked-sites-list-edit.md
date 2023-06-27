@@ -1,10 +1,11 @@
 ---
 title: Editar una lista de sitios bloqueados a nivel de cuenta o de anunciante
 description: Obtenga información sobre cómo administrar la lista de sitios bloqueados para una cuenta o anunciante.
+role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,6 +27,7 @@ ht-degree: 0%
       1. (Si algún valor se identifica como no válido) Haga clic en el **Pegar en sitios y aplicaciones** , corrija los valores y haga clic en **Continuar**.
 
       1. Clic **Finalizar**.
+
    * (Opcional) Para eliminar uno o varios valores, realice una de las acciones siguientes:
 
       * Para quitar todos los valores, haga clic en **Borrar todo**. En el mensaje de confirmación, haga clic en **OK**.
@@ -33,13 +35,11 @@ ht-degree: 0%
       * Para quitar uno o varios valores, active la casilla de verificación situada junto a cada uno y haga clic en **Eliminar activado**.
 
       * Para quitar un solo valor, haga clic en **X** junto al valor.
+
    * (Opcional) Para exportar la lista a una hoja de cálculo de Microsoft Excel en formato de valores separados por comas (CSV), haga clic en **Exportar**.
-
-
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las listas de sitios bloqueados a nivel de cuenta y de anunciante](/help/dsp/admin/blocked-sites-list-about.md)
-   > [Seguridad de marca y calidad de medios](/help/dsp/introduction/features/brand-safety-media-quality.md)
+> [Seguridad de marca y calidad de medios](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-

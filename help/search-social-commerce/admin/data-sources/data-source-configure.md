@@ -1,7 +1,9 @@
 ---
 title: Configurar un [!DNL Google Analytics] ver como fuente de datos
 description: Obtenga información sobre cómo configurar una fuente de datos desde un [!DNL Google Analytics] vista.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -42,9 +44,10 @@ Para integrar métricas de varias propiedades o de varias vistas para una sola p
          >
          >Si posteriormente cambia la contraseña de esta cuenta de correo electrónico, se cierran todas las conexiones abiertas a la cuenta de correo electrónico. Para reanudar la sincronización de datos, vuelva a esta página y [volver a autenticar](data-source-reauthenticate.md).
 
-      1. Seleccione la casilla de verificación para autorizar a la publicidad de Adobe a acceder a las métricas de la cuenta.
+      1. Seleccione la casilla de verificación para autorizar al Adobe Advertising a acceder a las métricas de la cuenta.
 
       1. Haga clic **[!UICONTROL Authenticate]**.
+
    1. En el [!UICONTROL Account Details] , especifique la propiedad y la vista de las métricas que desea importar. Además, especifique la dimensión personalizada que se rellena con el valor del parámetro de cadena de consulta &quot;ef_id&quot;.
 
    1. En el [!UICONTROL Import Metrics] , especifique las métricas que desea incluir en las fuentes.
@@ -56,7 +59,6 @@ Para integrar métricas de varias propiedades o de varias vistas para una sola p
       >[!DNL Google Analytics] permite hasta 10 métricas en una sola fuente de datos. Search, Social y Commerce pueden admitir hasta dos fuentes con un total de 20 métricas, pero el uso de una segunda fuente duplica las llamadas de API a [!DNL Google Analytics]. Si tiene muchas métricas, seleccione solo las que desee utilizar en los objetivos de optimización. Ver más sobre [cuotas y límites de llamadas para solicitudes de API a [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. En el [!UICONTROL Metric Tag] , introduzca el nombre de la etiqueta que se anexará a cada métrica para la fuente de datos.
-
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ Para integrar métricas de varias propiedades o de varias vistas para una sola p
 >* [Volver a autenticar un [!DNL Google Analytics] fuente de datos](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configuración de fuente de datos](data-source-settings.md)
 >* [Apéndice: disponible [!DNL Google Analytics] métricas](data-source-ga-metrics.md)
-

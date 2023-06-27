@@ -1,10 +1,11 @@
 ---
 title: Administrar suscripciones de alerta
 description: Obtenga información sobre cómo administrar las alertas de correo electrónico automáticas.
+role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 * Para añadir un suscriptor a una suscripción, introduzca las direcciones de correo electrónico en el campo de entrada en **[!UICONTROL Subscribers]**.
 
-   Separe las direcciones con espacios.
+  Separe las direcciones con espacios.
 
 * Para eliminar un suscriptor de una suscripción, haga clic en **[!UICONTROL X]** junto a la dirección de correo electrónico debajo de **[!UICONTROL Subscribers]**.
 

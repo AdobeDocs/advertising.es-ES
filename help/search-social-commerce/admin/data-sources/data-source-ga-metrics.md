@@ -1,9 +1,11 @@
 ---
 title: Disponible [!DNL Google Analytics] métricas
 description: Haga referencia a [!DNL Google Analytics] métricas disponibles para fuentes de datos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,4 +44,3 @@ Las siguientes métricas, excepto las exclusiones mencionadas, están disponible
 >* [Pausar la sincronización de un origen de datos](data-source-pause.md)
 >* [Volver a autenticar un [!DNL Google Analytics] fuente de datos](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] configuración de fuente de datos](data-source-settings.md)
-

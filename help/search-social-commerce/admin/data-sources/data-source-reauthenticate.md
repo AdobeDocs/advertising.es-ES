@@ -1,7 +1,9 @@
 ---
 title: Volver a autenticar un [!DNL Google Analytics] fuente de datos
 description: Obtenga información sobre cómo volver a autenticar un [!DNL Google Analytics] fuente de datos si cambia la contraseña asociada o si el certificado caduca.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -29,10 +31,10 @@ Si cambia la contraseña de la cuenta de correo electrónico utilizada para una 
          >[!TIP]
          >
          >Para asegurarse de que solo específico [!DNL Google Analytics] Las propiedades y vistas están disponibles en Search, Social y Commerce. Inicie sesión con una dirección de correo electrónico que solo tenga acceso a esas propiedades y vistas.
+
    1. Seleccione la casilla de verificación para autorizar a Search, Social y Commerce a acceder a las métricas de la cuenta.
 
    1. Haga clic **[!UICONTROL Re-Authenticate]**.
-
 
 1. Haga clic **[!UICONTROL Post]**.
 
@@ -45,4 +47,3 @@ Si cambia la contraseña de la cuenta de correo electrónico utilizada para una 
 >* [Pausar la sincronización de un origen de datos](data-source-pause.md)
 >* [[!DNL Google Analytics] configuración de fuente de datos](data-source-settings.md)
 >* [Apéndice: disponible [!DNL Google Analytics] métricas](data-source-ga-metrics.md)
-
