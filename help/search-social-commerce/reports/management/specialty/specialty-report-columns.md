@@ -2,9 +2,9 @@
 title: Columnas de informes para informes de especialidades
 description: Obtenga información sobre las columnas de datos disponibles para los informes de especialidades.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+source-git-commit: b6279bdf5f0cf3fbd144414f789a105af87040cc
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2280'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | El número de impresiones de publicidad durante el intervalo de fechas especificado. |
 | [!UICONTROL Keyword] | La palabra clave.<br><br><b>Nota:</b> Si el informe incluye datos de grupos de anuncios en campañas de búsqueda con contenido habilitado, esta columna incluye los nombres de grupos de anuncios aplicables, como &quot;(contenido de grupos de anuncios) Su nombre de grupo de anuncios&quot;. Para una ubicación de destino de sitio en una campaña de búsqueda, esta columna no tiene ningún valor. |
 | [!UICONTROL Keyword ID] | El ID numérico que Search, Social y Commerce asignan a la palabra clave. |
-| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) ID de extensión de anuncio asignado por la red de publicidad. |
-| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) ID de extensión de anuncio asignado por la red de publicidad. |
+| [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) El ID numérico que la red de publicidad asigna a la extensión de publicidad. |
+| [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Atributo de versión de la extensión de anuncio. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) El tipo de extensión de anuncio. |
 | [!UICONTROL Keyword Status] | El estado de la palabra clave con la que coincidió el término de búsqueda: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*, o[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) El idioma de destino. |
