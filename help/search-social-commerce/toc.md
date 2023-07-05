@@ -1,17 +1,17 @@
 ---
 role: User
-user-guide-title: Guía de Advertising Search, Social y Commerce
-user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, rastrear e informar sobre las campañas de anuncios de búsqueda, medios sociales y comerciales.
-breadcrumb-title: Guía de Advertising Search, Social y Commerce
+user-guide-title: Guía de Advertising Search, Social, & Commerce
+user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
+breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
 source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Guía de Advertising Search, Social y Commerce {#search-social-commerce}
+# Guía de Advertising Search, Social, &amp; Commerce {#search-social-commerce}
 
 <!-- When we  use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
