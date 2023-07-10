@@ -1,7 +1,7 @@
 ---
 title: '[!DNL Microsoft Advertising] datos de conversión'
 description: Obtenga información acerca de los tipos de [!DNL Microsoft Advertising]Datos de conversión no rastreados disponibles en en Search, Social y Commerce.
-source-git-commit: f5788c483564e34129b1703638a07497b527fb11
+source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -80,4 +80,4 @@ En Buscar, Social y Comercio, utilice la opción Ver o informar para ver las con
 >
 >* [Información general sobre la implementación de cuentas y campañas de red de publicidad](campaign-implemention-overview.md)
 >* [Monitorizar y administrar el rendimiento de las campañas de red de anuncios](monitor-performance-campaigns.md)
->* [Ver las propiedades de transacción rastreadas de un anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.html?lang=en)
+>* [Ver las propiedades de transacción rastreadas de un anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
