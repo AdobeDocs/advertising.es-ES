@@ -4,10 +4,10 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
+source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1737'
+ht-degree: 2%
 
 ---
 
@@ -250,13 +250,13 @@ ht-degree: 0%
       + [Quitar valores de clasificación de etiquetas de componentes de cuenta](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Eliminar valores de clasificación de etiquetas](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Eliminar clasificaciones de etiquetas](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
+   + Administración de recursos publicitarios {#assets}
+      + [Acerca de [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [Creación y carga de recursos](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + Prácticas recomendadas para campañas de búsqueda {#best-practices-search}
       + [Analice los informes para restringir las palabras clave y la configuración de campañas](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Escribir texto efectivo y copiar](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [Optimización de las páginas de aterrizaje del sitio web](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
-   + Administración de recursos publicitarios {#assets}
-      + [Acerca de [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [Creación y carga de recursos](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [Número máximo de objetos por cuenta de red de publicidad](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [Preguntas frecuentes sobre la administración de campañas](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + Perspectivas e informes {#insights-reports}
