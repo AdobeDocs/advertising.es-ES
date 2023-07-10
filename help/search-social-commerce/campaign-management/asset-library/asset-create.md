@@ -1,9 +1,9 @@
 ---
 title: Creación y carga de recursos
 description: Obtenga información sobre cómo crear recursos de imagen, vídeo y texto reutilizables y cargarlos en su [!DNL Google Ads] biblioteca de recursos de nivel de cuenta.
-source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
+source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
          1. Clic **[!UICONTROL +]** y seleccione imágenes de su dispositivo o red.
 
-        Cada imagen puede tener un máximo de 10 MB. Puede cargar un máximo de 200 MB de imágenes a la vez.
+            Cada imagen puede tener un máximo de 10 MB. Puede cargar un máximo de 200 MB de imágenes a la vez.
 
          1. Para cada imagen:
 
@@ -48,16 +48,16 @@ ht-degree: 0%
 
       * Para los recursos de vídeo, introduzca la dirección URL de una [!DNL YouTube] vídeo de al menos 10 segundos de duración. Para agregar otro recurso de vídeo, haga clic en **+ Agregar** e introduzca otra dirección URL.
 
-      Puede publicar hasta 10 direcciones URL de vídeo a la vez.
+        Puede publicar hasta 10 direcciones URL de vídeo a la vez.
 
       * Para los recursos de texto, introduzca la cadena de texto. Para agregar otro recurso de texto, haga clic en **+ Agregar** e introduzca otra cadena de texto.
 
-      Cada recurso de texto puede tener un máximo de 1000 caracteres. Puede cargar un máximo de 10 recursos de texto a la vez.
+        Cada recurso de texto puede tener un máximo de 1000 caracteres. Puede cargar un máximo de 10 recursos de texto a la vez.
 
-      Posteriormente, puede utilizar los recursos de texto para cualquier elemento de anuncio que elija (como titular o descripción breve), siempre que cumplan los límites de caracteres para ese elemento de anuncio.
+        Posteriormente, puede utilizar los recursos de texto para cualquier elemento de anuncio que elija (como titular o descripción breve), siempre que cumplan los límites de caracteres para ese elemento de anuncio.
 
 1. Haga clic **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
->*[Acerca de [!UICONTROL Asset Library]](asset-library-about.md)
+>* [Acerca de [!UICONTROL Asset Library]](asset-library-about.md)
