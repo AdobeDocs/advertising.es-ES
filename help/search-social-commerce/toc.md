@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
+source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -106,7 +106,8 @@ ht-degree: 2%
       + [Acerca de la administración de campañas en Search, Social y Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [Información general sobre la implementación de cuentas y campañas de red de publicidad](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [Monitorizar y administrar el rendimiento de las campañas de red de anuncios](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [Datos de conversión de Google Ads en Search, Social y Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Google Ads] datos de conversión en Search, Social y Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] datos de conversión en Search, Social y Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + Configuración de cuentas {#campaign-management-accounts}
       + Cuentas de red de publicidad {#ad-network-accounts}
          + [Acerca de las cuentas de red de publicidad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
