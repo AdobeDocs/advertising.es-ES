@@ -1,9 +1,10 @@
 ---
 title: Replicar [!DNL Google Ads] campañas en [!DNL Microsoft® Advertising]
 description: Obtenga información sobre cómo exportar las campañas sincronizadas en una [!DNL Google Ads] cuenta directamente en un [!DNL Microsoft® Advertising] cuenta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Puede replicar los siguientes tipos de campañas y su estructura:
 
 * [!DNL Google Display Network] campañas de, incluidas imágenes de publicidad, en [!DNL Microsoft® Advertising] campañas de audiencia en Microsoft® Audience Network.
 
-   Si desea duplicar las campañas de visualización basadas en fuentes de compras, primero debe duplicar la [!DNL Google Merchant Center] ofertas de productos a [!DNL Microsoft® Merchant Center]. Cuando duplique las campañas, seleccione la opción [!DNL Microsoft® Merchant Center] almacene en las Opciones de importación para vincular la tienda a las campañas de audiencia basadas en fuentes.
+  Si desea duplicar las campañas de visualización basadas en fuentes de compras, primero debe duplicar la [!DNL Google Merchant Center] ofertas de productos a [!DNL Microsoft® Merchant Center]. Cuando duplique las campañas, seleccione la opción [!DNL Microsoft® Merchant Center] almacene en las Opciones de importación para vincular la tienda a las campañas de audiencia basadas en fuentes.
 
 * [!DNL Google Ads] campañas de rendimiento máximo de, incluidos los anuncios de inventario local, en [!DNL Microsoft® Advertising] campañas de compras inteligentes.
 
@@ -58,7 +59,7 @@ Consulte [de qué se importa [!DNL Google Ads] campañas](https://help.ads.micro
 
 1. (Opcional) Añada el seguimiento de búsqueda, social y comercial dentro de la variable [account](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [grupo de publicidad](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), o [anuncio](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) configuración.
 
-## Editar detalles de un trabajo de importación de campaña
+## Editar la configuración de programación de un trabajo de importación de campañas
 
 Consulte [de qué se importa [!DNL Google Ads] campañas](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ Consulte [de qué se importa [!DNL Google Ads] campañas](https://help.ads.micro
 
 1. Seleccione la casilla de verificación situada junto al trabajo de importación y haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. Edite el [importar configuración](#campaign-import-settings).
-
-   1. En el **[!UICONTROL Select accounts]** , seleccione las cuentas de origen y destino y el ID de credencial que [!DNL Microsoft® Advertising] requiere.
-
-   1. En el **[!UICONTROL Select campaigns & ad groups]** , especifique las campañas y los grupos de anuncios que desea importar.
-
-   1. En el **[!UICONTROL Customize your import]** , especifique los tipos de elementos que desea importar.
-
-   1. En el **[!UICONTROL Set schedule]** , especifique cuándo ejecutar el trabajo de importación.
+1. En el **[!UICONTROL Set schedule]** , especifique la [configuración de programación](#campaign-import-settings).
 
 1. Haga clic **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ Puede enumerar todos los trabajos de importación, incluido el de origen [!DNL G
 
    * En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      De forma predeterminada, la vista se abre en [!UICONTROL List of Import Jobs] pestaña.
+     De forma predeterminada, la vista se abre en [!UICONTROL List of Import Jobs] pestaña.
 
    * Desde el [[!UICONTROL Import Logs] pestaña](#campaign-import-log), haga clic en **[!UICONTROL List of Import Jobs]** pestaña.
 
