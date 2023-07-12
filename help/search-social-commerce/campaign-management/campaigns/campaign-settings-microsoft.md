@@ -1,9 +1,10 @@
 ---
-title: "[!DNL Microsoft Advertising] configuración de campaña"
+title: '''[!DNL Microsoft Advertising] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Microsoft Advertising] campañas.
-source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
+exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
+source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -176,6 +177,12 @@ Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsof
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** Si se desea *[!UICONTROL Use account conversion goals for this campaign]* (el valor predeterminado) o *[!UICONTROL Use campaign specific conversion goals]*. Si decide especificar las metas de conversión para la campaña, seleccione las metas de la lista de todas las metas disponibles. **Nota:** Las metas se sincronizan a diario, por lo que es posible que no se incluyan en la lista las metas creadas en las 24 horas anteriores. Para actualizar la lista, [sincronizar manualmente los datos de red de anuncios](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+Si la campaña forma parte de un portafolio, utilice los mismos objetivos de conversión que el objetivo del portafolio. El uso de diferentes objetivos de conversión puede afectar al rendimiento del portafolio.
 
 >[!MORELIKETHIS]
 >
