@@ -2,9 +2,9 @@
 title: Replicar [!DNL Google Ads] campañas en [!DNL Microsoft® Advertising]
 description: Obtenga información sobre cómo exportar las campañas sincronizadas en una [!DNL Google Ads] cuenta directamente en un [!DNL Microsoft® Advertising] cuenta.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
+source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,19 @@ No toda la información de la campaña se duplica y es posible que tenga que agr
 
 Consulte [de qué se importa [!DNL Google Ads] campañas](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. Obtener un ID de credencial de importación de [!DNL Microsoft® Advertising] para representar a su [!DNL Google Ads] credenciales.
-
-   Generación automática de [!DNL Microsoft® Advertising] las credenciales para la importación no están disponibles debido a [!DNL Microsoft® Advertising] Limitaciones de API. Póngase en contacto con el servicio de asistencia técnica de Adobe o con su equipo de cuenta de Adobe para que creen las credenciales y le proporcionen el ID.
-
-   Debe tener el ID para configurar el trabajo de importación.
-
 1. En el menú principal Buscar, Social y Comercio, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Haga clic **[!UICONTROL +Import]**.
 
 1. Especifique el [importar configuración](#campaign-import-settings):
 
-   1. En el **[!UICONTROL Select accounts]** , seleccione las cuentas de origen y destino y el ID de credencial que [!DNL Microsoft® Advertising] requiere.
+   1. En el **[!UICONTROL Select accounts]** sección:
+
+      1. Seleccione las cuentas de origen y destino.
+
+      1. Haga clic **[!UICONTROL Get Credential Id from MSA]**.
+
+      1. Inicie sesión en el destino [!DNL Microsoft Advertising] cuenta, copie el ID de credencial que se muestra y pegue el valor en la variable **[!UICONTROL Credential ID]** field.
 
    1. En el **[!UICONTROL Select campaigns & ad groups]** , especifique las campañas y los grupos de anuncios que desea importar.
 
