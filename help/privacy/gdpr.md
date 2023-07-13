@@ -2,8 +2,9 @@
 title: Cumplimiento del Adobe Advertising del Reglamento General de Protección de Datos
 description: Obtenga información sobre los tipos de solicitud de datos admitidos, los valores de configuración y campo requeridos, y ejemplos de solicitudes de acceso a la API que utilizan ID de productos heredados y campos de datos devueltos
 feature: GDPR
+role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -42,7 +43,7 @@ Para realizar solicitudes de acceso y eliminación de datos para el Adobe Advert
 
    >[!IMPORTANT]
    >
-   >Las solicitudes a algunas soluciones de Adobe Experience Cloud no requieren la biblioteca JavaScript, pero las solicitudes a la publicidad de Adobe sí la requieren.
+   >Las solicitudes a algunas soluciones de Adobe Experience Cloud no requieren la biblioteca JavaScript, pero las solicitudes a la Adobe Advertising sí la requieren.
 
    Debe implementar la biblioteca en la página web desde la que los interesados pueden enviar solicitudes de acceso y eliminación, como el portal de privacidad de la empresa. La biblioteca de ayuda a recuperar las cookies de Adobe (ID de área de nombres: `gsurferID`) para que pueda enviar estas identidades como parte de las solicitudes de acceso y eliminación mediante la API de Adobe Experience Platform Privacy Service.
 
@@ -60,7 +61,7 @@ Para realizar solicitudes de acceso y eliminación de datos para el Adobe Advert
    >
    >Póngase en contacto con el representante de publicidad de Adobe de su compañía para confirmar que todas las cuentas de publicidad de Adobe de su organización, incluidas [!DNL DSP] cuentas o anunciantes, [!DNL Search, Social, & Commerce] cuentas, y [!DNL Creative] o [!DNL DCO] cuentas: están vinculadas a su ID de organización de Experience Cloud.
 
-1. Utilice cualquiera de las [API de Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitudes automatizadas) o la [IU de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es) (en el caso de solicitudes ad hoc) para enviar solicitudes de acceso y eliminación al Adobe Advertising por cuenta de los interesados, y para comprobar el estado de las solicitudes existentes.
+1. Utilice cualquiera de las [API de Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitudes automatizadas) o la [IU de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es) (en el caso de solicitudes ad hoc) para enviar solicitudes de acceso y eliminación a Adobe Advertising en nombre de los interesados y para comprobar el estado de las solicitudes existentes.
 
    DSP Para que los anunciantes que tengan una aplicación móvil interactúen con los interesados y lancen campañas con, deberá descargar los SDK móviles preparados para la privacidad para Experience Cloud de, que están preparados para la aplicación. Los SDK móviles permiten a los controladores de datos establecer indicadores de estado de exclusión, recuperar el ID de dispositivo del interesado (ID de área de nombres: deviceID) y enviar solicitudes a la API de Privacy Service. La aplicación móvil requiere una versión 4.15.0 o buena del SDK.
 
@@ -97,34 +98,34 @@ Todos estos pasos son necesarios para el Adobe Advertising. Para obtener más in
 
 * `"regulation": **gdpr**` (que es la norma de privacidad que se aplica a la solicitud)
 
-## Ejemplo de solicitud enviada por un sujeto de datos mediante un ID de usuario de publicidad de Adobe recuperado de `AdobePrivacy.js`
+## Ejemplo de solicitud enviada por el sujeto de datos mediante un ID de usuario de Adobe Advertising recuperado de `AdobePrivacy.js`
 
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"gdpr"
+      "adCloud"
+   ],
+    "regulation":"gdpr"
 }
 }
 ```
