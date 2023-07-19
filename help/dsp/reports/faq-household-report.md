@@ -2,9 +2,9 @@
 title: Preguntas frecuentes sobre informes de hogares
 description: Obtenga más información acerca del alcance, la frecuencia y los datos de conversión del hogar, incluido cómo los informes del hogar son diferentes de otros informes y la resolución de problemas.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Si su organización tiene [!DNL Analytics for Advertising], utilice ambos tipos 
 
 ## [!UICONTROL Household Reach & Frequency] y [!UICONTROL Household Conversions] Informes frente a datos de [!DNL Advanced Measurement Services]
 
-Para obtener informes avanzados sobre el alcance y la frecuencia basados en el hogar para las conversiones, se utilizan los siguientes [[!DNL Strategic Advertising Consulting] equipo](/help/dsp/introduction/advanced-measurement-services.md) puede proporcionar informes altamente personalizables junto con recomendaciones estratégicas integrales. Para obtener más información acerca de [!DNL Advanced Measurement Services], póngase en contacto con el equipo de cuenta de Adobe.
+Para la elaboración de informes avanzados sobre el alcance y la frecuencia o las conversiones basados en el hogar, la variable [[!DNL Strategic Advertising Consulting] equipo](/help/dsp/introduction/advanced-measurement-services.md) puede proporcionar informes altamente personalizables junto con recomendaciones estratégicas integrales. Para obtener más información acerca de [!DNL Advanced Measurement Services], póngase en contacto con el equipo de cuenta de Adobe.
 
 ### Si ya estoy utilizando [!DNL Advanced Measurement Services], ¿por qué debería usar el [!UICONTROL Household Reach & Frequency] y [!UICONTROL Household Conversions] ¿informes?
 
