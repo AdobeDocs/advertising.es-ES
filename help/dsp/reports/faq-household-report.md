@@ -2,9 +2,9 @@
 title: Preguntas frecuentes sobre informes de hogares
 description: Obtenga más información acerca del alcance, la frecuencia y los datos de conversión del hogar, incluido cómo los informes del hogar son diferentes de otros informes y la resolución de problemas.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
+source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Cuando una ubicación incluye varias etiquetas, el informe considera toda la cad
 
 Se admiten dos tipos de métodos de atribución:
 
-* Único: Cuenta el número de veces que un valor de dimensión (como un dispositivo o una ubicación) estaba en la ruta de conversión.
+* [!UICONTROL Unique]: Cuenta el número de veces que un valor de dimensión (como un dispositivo o una ubicación) estaba en la ruta de conversión.
 
-* MTA (Atribución multitáctil): distribuye el crédito de cada conversión en función de la frecuencia con la que se produjo el valor de dimensión (como un dispositivo o una ubicación) en la ruta a la conversión. Por ejemplo, si había un total de 10 impresiones antes de la conversión, con 8 en CTV y 2 en Mobile, entonces el 80% del crédito (0,8) se da a las pantallas CTV y 0,2 a Mobile.
+* [!UICONTROL Multi-Touch Attribution (MTA)]: distribuye el crédito de cada conversión en función de la frecuencia con la que se produjo el valor de dimensión (como un dispositivo o una ubicación) en la ruta a la conversión. Por ejemplo, si había un total de 10 impresiones antes de la conversión, con 8 en CTV y 2 en Mobile, entonces el 80% del crédito (0,8) se da a las pantallas CTV y 0,2 a Mobile.
 
 ### ¿En qué se diferencian los informes de conversión doméstica de los informes de visualización de CTV en Adobe Analytics?
 

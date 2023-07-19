@@ -3,9 +3,9 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
+source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,22 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Orden de los encabezados de columna. Puede arrastrar y soltar cualquier columna para personalizar el orden.
 
-## [!UICONTROL Multi-Touch Conversion Options] Sección
-
 **[!UICONTROL Format]:** Si se genera un informe en *[!UICONTROL CSV]* (valores separados por comas) o *[!UICONTROL Tab]* formato (valores separados por tabulaciones).
 
-**[!UICONTROL Report Headers]:** Si se desea *[!UICONTROL Include]* o *[!UICONTROL Do Not Include]* encabezados de columna.
+**[!UICONTROL Headers]:** Si se desea *[!UICONTROL Include]* o *[!UICONTROL Do Not Include]* encabezados de columna.
 
-**[!UICONTROL Attribution Rule Settings]:** (Todos) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], y [!UICONTROL Site] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas; anunciantes con seguimiento de conversión de Adobe Advertising solamente) En el informe, se explica cómo atribuir datos de conversión en una serie de eventos que generan una conversión. Puede elegir más de una regla si desea comparar las diferencias entre las reglas.
+## [!UICONTROL Multi-Touch Conversion Options] Sección
+
+
+### [!UICONTROL Attribution Rule Settings]
+
+**\[Tipo de atribución\]:** ([!UICONTROL Household Conversion] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas; anunciantes con seguimiento de conversión de Adobe Advertising solamente) En el informe, se explica cómo atribuir datos de conversión en una serie de eventos que generan una conversión:
+
+* [!UICONTROL Unique]: (Valor predeterminado) Cuenta el número de veces que un valor de dimensión (como un dispositivo o una ubicación) estaba en la ruta de conversión.
+
+* [!UICONTROL Multi-Touch Attribution (MTA)]: distribuye el crédito de cada conversión en función de la frecuencia con la que se produjo el valor de dimensión (como un dispositivo o una ubicación) en la ruta a la conversión. Por ejemplo, si había un total de 10 impresiones antes de la conversión, con 8 en CTV y 2 en Mobile, entonces el 80% del crédito (0,8) se da a las pantallas CTV y 0,2 a Mobile.
+
+**\[Tipo de regla\]:** (Todos) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], y [!UICONTROL Site] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas; anunciantes con seguimiento de conversión de Adobe Advertising solamente) En el informe, se explica cómo atribuir datos de conversión en una serie de eventos que generan una conversión. Puede elegir más de una regla si desea comparar las diferencias entre las reglas.
 
 >[!NOTE]
 >
