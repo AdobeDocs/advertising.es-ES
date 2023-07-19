@@ -3,9 +3,9 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
+source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -70,38 +70,41 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 ## [!UICONTROL Multi-Touch Conversion Options] Sección
 
+**[!UICONTROL Attribution Rule Settings]** La configuración varía según el tipo de informe:
 
-### [!UICONTROL Attribution Rule Settings]
+* **\[Tipo de atribución\]:** ([!UICONTROL Household Conversion] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas; anunciantes con seguimiento de conversión de Adobe Advertising solamente) En el informe, se explica cómo atribuir datos de conversión en una serie de eventos que generan una conversión:
 
-**\[Tipo de atribución\]:** ([!UICONTROL Household Conversion] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas; anunciantes con seguimiento de conversión de Adobe Advertising solamente) En el informe, se explica cómo atribuir datos de conversión en una serie de eventos que generan una conversión:
+   * [!UICONTROL Unique]: (Valor predeterminado) Cuenta el número de veces que un valor de dimensión (como un dispositivo o una ubicación) estaba en la ruta de conversión.
 
-* [!UICONTROL Unique]: (Valor predeterminado) Cuenta el número de veces que un valor de dimensión (como un dispositivo o una ubicación) estaba en la ruta de conversión.
+   * [!UICONTROL Multi-Touch Attribution (MTA)]: distribuye el crédito de cada conversión en función de la frecuencia con la que se produjo el valor de dimensión (como un dispositivo o una ubicación) en la ruta a la conversión. Por ejemplo, si había un total de 10 impresiones antes de la conversión, con 8 en CTV y 2 en Mobile, entonces el 80% del crédito (0,8) se da a las pantallas CTV y 0,2 a Mobile.
 
-* [!UICONTROL Multi-Touch Attribution (MTA)]: distribuye el crédito de cada conversión en función de la frecuencia con la que se produjo el valor de dimensión (como un dispositivo o una ubicación) en la ruta a la conversión. Por ejemplo, si había un total de 10 impresiones antes de la conversión, con 8 en CTV y 2 en Mobile, entonces el 80% del crédito (0,8) se da a las pantallas CTV y 0,2 a Mobile.
+* **\[Tipo de regla\]:** (Todos) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], y [!UICONTROL Site] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas; anunciantes con seguimiento de conversión de Adobe Advertising solamente) En el informe, se explica cómo atribuir datos de conversión en una serie de eventos que generan una conversión. Puede elegir más de una regla si desea comparar las diferencias entre las reglas.
 
-**\[Tipo de regla\]:** (Todos) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], y [!UICONTROL Site] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas; anunciantes con seguimiento de conversión de Adobe Advertising solamente) En el informe, se explica cómo atribuir datos de conversión en una serie de eventos que generan una conversión. Puede elegir más de una regla si desea comparar las diferencias entre las reglas.
+  >[!NOTE]
+  >
+  >Las rutas de conversión incluyen cualquier impresión y clic dentro de las ventanas retrospectivas de impresiones o clics del anunciante, que se configuran en [!DNL Advertising Search, Social, & Commerce]. Los clics tienen preferencia sobre las impresiones durante la atribución de conversión. Cualquier clic en una ruta de conversión recibe crédito total según la regla de atribución. Las impresiones solo reciben crédito cuando no se rastrean clics en la ruta de conversión.
 
->[!NOTE]
->
->Las rutas de conversión incluyen cualquier impresión y clic dentro de las ventanas retrospectivas de impresiones o clics del anunciante, que se configuran en [!DNL Advertising Search, Social, & Commerce]. Los clics tienen preferencia sobre las impresiones durante la atribución de conversión. Cualquier clic en una ruta de conversión recibe crédito total según la regla de atribución. Las impresiones solo reciben crédito cuando no se rastrean clics en la ruta de conversión.
+   * *[!UICONTROL Last Event]:* Atribuye las conversiones al último clic o impresión de la ruta de conversión.
 
-* *[!UICONTROL Last Event]:* Atribuye las conversiones al último clic o impresión de la ruta de conversión.
+   * *[!UICONTROL Weight Last More]:* Atribuye las conversiones a todos los eventos de la ruta de conversión, pero da el mayor peso al último evento y sucesivamente menos peso a los eventos anteriores.
 
-* *[!UICONTROL Weight Last More]:* Atribuye las conversiones a todos los eventos de la ruta de conversión, pero da el mayor peso al último evento y sucesivamente menos peso a los eventos anteriores.
+   * *[!UICONTROL Even Distribution]:* Atribuye las conversiones de forma equitativa a cada evento de la ruta de conversión.
 
-* *[!UICONTROL Even Distribution]:* Atribuye las conversiones de forma equitativa a cada evento de la ruta de conversión.
+   * *[!UICONTROL Weight First More]:* Atribuye las conversiones a todos los eventos de la ruta de conversión, pero da el mayor peso al primer evento y sucesivamente menos peso a los siguientes eventos.
 
-* *[!UICONTROL Weight First More]:* Atribuye las conversiones a todos los eventos de la ruta de conversión, pero da el mayor peso al primer evento y sucesivamente menos peso a los siguientes eventos.
+   * *[!UICONTROL First Event]:* Atribuye las conversiones al primer clic o impresión de la ruta de conversión.
 
-* *[!UICONTROL First Event]:* Atribuye las conversiones al primer clic o impresión de la ruta de conversión.
+   * *[!UICONTROL U-shaped]:* Atribuye la conversión a todos los eventos de la ruta de conversión, pero da el mayor peso a los eventos primero y último, sucesivamente con menos peso a los eventos en medio de la ruta de conversión.
 
-* *[!UICONTROL U-shaped]:* Atribuye la conversión a todos los eventos de la ruta de conversión, pero da el mayor peso a los eventos primero y último, sucesivamente con menos peso a los eventos en medio de la ruta de conversión.
+   * *[!UICONTROL Display Only]:*  DSP Atribuye las conversiones al último clic o impresión de la en la ruta de conversión. Esto incluye vídeo y anuncios de TV conectados y excluye clics en [!DNL Advertising Search, Social, & Commerce] anuncios.
 
-* *[!UICONTROL Display Only]:*  DSP Atribuye las conversiones al último clic o impresión de la en la ruta de conversión. Esto incluye vídeo y anuncios de TV conectados y excluye clics en [!DNL Advertising Search, Social, & Commerce] anuncios.
+   * *[!UICONTROL Social Only]:* Obsoleto
 
-* *[!UICONTROL Social Only]:* Obsoleto
+  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+<!--
+* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
+-->
 
 **[!UICONTROL Paths as Columns]:**  (Todos) [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment], y [!UICONTROL Site] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas) Qué tipos de conversiones se notificarán cuando se produjeron eventos anteriores en el mismo dispositivo. Se pueden incluir hasta tres tipos. Para cada tipo seleccionado, se incluye una columna independiente para cada métrica de conversión y se anexa el sufijo especificado ([!UICONTROL (tl)], [!UICONTROL (ct)], o [!UICONTROL (vt)]):
 
