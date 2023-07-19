@@ -3,7 +3,7 @@ title: Información general de [!DNL Analytics for Advertising]
 description: Información general de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e1edbc29e9306afc68f805d198ef3e5ec7f25695
+source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Beneficios primarios:
 * Uso [!DNL Analytics] eventos personalizados y estándar como señales de conversión para optimizar la publicidad en medios de pago.
 * Aproveche las ventajas de [!DNL Analytics] Analysis Workspace para comprender mejor los puntos de entrada al sitio y el comportamiento de las visitas.
 * Permite una colaboración más estrecha entre los analistas web y los equipos de medios de pago.
-* Usar ID de pulsaciones y vistas de Adobe Advertising persistentes dentro de [!DNL Analytics] para comprender la participación en el sitio.
+* Usar ID de pulsaciones y visualizaciones de Adobe persistente en [!DNL Analytics] para comprender la participación en el sitio.
 * Mejore los informes de medios de pago tradicionales en Analysis Workspace DSP con métricas, dimensiones personalizadas y actividad del sitio personalizadas que no se pueden conseguir al exportar datos o píxeles a servidores de publicidad u otros servicios de publicidad
 * Aproveche las ventajas de [!DNL Analytics] ya hay código en su sitio web para el seguimiento y la optimización dentro del Adobe Advertising.
 
@@ -40,14 +40,14 @@ Beneficios primarios:
 
 [!DNL Analytics for Advertising] mejora los informes y la perspectiva de cómo la publicidad impulsa el comportamiento del sitio, lo que le permite:
 
-* Usar ID de pulsaciones y vistas de Adobe Advertising persistentes dentro de [!DNL Analytics] para comprender la participación en el sitio.
+* Usar ID de pulsaciones y visualizaciones de Adobe persistente en [!DNL Analytics] para comprender la participación en el sitio.
 * Aproveche Analysis Workspace para comprender mejor los puntos de entrada al sitio y el comportamiento de las visitas. Puede acceder a los datos de dimensiones y eventos de medios de pago, que incluyen nombres de entidades de campaña de Adobe Advertising (hasta ubicaciones y anuncios) y sus métricas asociadas, como clics, impresiones y costes.
 
 Para usar [!DNL Analytics] como herramienta de informes de medios de pago, su organización necesita un inicio de sesión de Experience Cloud con acceso a Analysis Workspace. Su equipo de Adobe Advertising le ayudará a asignar los datos de Adobe Advertising a grupos de informes individuales en Analysis Workspace. Puede enviar datos de Adobe Advertising a cualquier grupo de informes, pero debe tener en cuenta los grupos de informes que se han asignado al Adobe Advertising y los que no. En función del grupo de informes, esto puede cambiar los datos de los informes.
 
-[ID de Adobe Advertising dentro de [!DNL Analytics]](ids.md) funciona como otras eVars, con una caducidad personalizada y persistente. De forma predeterminada, la ventana retrospectiva de atribución se establece en 60 días durante la implementación de la publicidad de Adobe. Para cambiar esta configuración, colabore con su equipo de cuenta de Adobe.
+[ID de Adobe Advertising dentro de [!DNL Analytics]](ids.md) funciona como otras eVars, con una caducidad personalizada y persistente. De forma predeterminada, la ventana retrospectiva de atribución se establece en 60 días durante la implementación del Adobe Advertising. Para cambiar esta configuración, colabore con su equipo de cuenta de Adobe.
 
-Las dimensiones de Adobe Advertising se anexan con el sufijo &quot;(AMO ID)&quot; (como &quot;Tipo de anuncio (AMO ID)&quot;). Consulte &quot;[Métricas de Adobe Advertising en Analysis Workspace](advertising-metrics-in-analytics.md)&quot; para obtener una lista de las dimensiones disponibles.
+Las dimensiones de Adobe Advertising se anexan con el sufijo &quot;(AMO ID)&quot; (como &quot;Tipo de anuncio (AMO ID)&quot;). Consulte &quot;[Métricas de publicidad de Adobe en Analysis Workspace](advertising-metrics-in-analytics.md)&quot; para obtener una lista de las dimensiones disponibles.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Las dimensiones de Adobe Advertising se anexan con el sufijo &quot;(AMO ID)&quot
 
 ## Uso de Analytics para impulsar campañas y Portfolio de Adobe Advertising
 
-Sin necesidad de píxeles adicionales, [!DNL Analytics for Advertising] permite una mejor optimización y una segmentación de audiencia más sencilla mediante el envío de dos señales principales a la publicidad de Adobe:
+Sin necesidad de píxeles adicionales, [!DNL Analytics for Advertising] permite una mejor optimización y una segmentación más sencilla de la audiencia al enviar dos señales principales al Adobe Advertising:
 
 * Métricas de conversión que se utilizarán como señales de oferta:
    * métricas estándar, como [!UICONTROL Revenue] y [!UICONTROL Cart Views].
@@ -100,9 +100,9 @@ Para obtener información sobre cómo utilizar los datos de Adobe Advertising pa
 
 *DSP Solo usuarios de Advertising*
 
-Puede medir la eficacia del canal completo de sus campañas de TV conectadas (CTV) vinculando la exposición de la publicidad en dispositivos CTV a conversiones in situ. Para ver las métricas de conversión de visualizaciones de CTV, utilice la vista Ubicación o la vista Canal de marketing en Analysis Workspace.
+Puede medir la eficacia del canal completo de sus campañas de TV conectadas (CTV) vinculando la exposición de la publicidad en dispositivos CTV a conversiones in situ. El nuevo [!UICONTROL Landing Type] filter &quot;[!UICONTROL View-through (CTV)]&quot; divide las conversiones en filas independientes para [!UICONTROL Click Through], [!UICONTROL View Through], y [!UICONTROL View Through (CTV)] valores.
 
-El nuevo [!UICONTROL Landing Type] filter &quot;[!UICONTROL View-through (CTV)]&quot; divide las conversiones en filas independientes para [!UICONTROL Click Through], [!UICONTROL View Through], y [!UICONTROL View Through (CTV)] valores.
+Para ver las métricas de conversión de visualizaciones de CTV, utilice la vista Ubicación o la vista Canal de marketing en Analysis Workspace.
 
 Uso de la vista Ubicación:
 
@@ -134,7 +134,7 @@ Para obtener información sobre cómo realizar un seguimiento de los datos de Ad
 
 ### Uso del ID de Adobe Advertising para el análisis de entrada al sitio
 
-Para ver cómo puede crear un informe de entrada al sitio de Adobe Advertising para monitorizar las influencias del día de la semana, la hora del día, el explorador y la zona geográfica, consulte el vídeo &quot;[Crear informes de entrada al sitio de publicidad de Adobe](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+Para ver cómo puede crear un informe de entrada al sitio de Adobe Advertising para monitorizar las influencias del día de la semana, la hora del día, el explorador y la zona geográfica, consulte el vídeo &quot;[Crear informes de entrada al sitio de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 >[!MORELIKETHIS]
 >
