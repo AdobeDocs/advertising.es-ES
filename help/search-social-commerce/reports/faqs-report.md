@@ -1,14 +1,15 @@
 ---
-title: Preguntas frecuentes sobre los informes
+title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# Preguntas frecuentes sobre los informes
+# Preguntas frecuentes sobre informes personalizados
 
 ## Preguntas generales
 
@@ -208,12 +209,12 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 +++
 
 +++Algunos informes avanzados no incluyen los datos de conversión proporcionados por una fuente del anunciante.
-El [!UICONTROL Geo Distribution Report] y [!UICONTROL Domain Referral Report] utilice los datos capturados mediante el servicio de seguimiento de conversión de publicidad de Adobe y solo se pueden generar para los anunciantes que tengan el servicio. Los informes no incluyen datos de conversión rastreados fuera del sistema de seguimiento de conversiones de Adobe Advertising.
+El [!UICONTROL Geo Distribution Report] y [!UICONTROL Domain Referral Report] utilice los datos capturados mediante el servicio de seguimiento de conversión de Adobe Advertising y solo se pueden generar para anunciantes con el servicio. Los informes no incluyen datos de conversión rastreados fuera del sistema de seguimiento de conversiones de Adobe Advertising.
 +++
 
 +++Los datos de ingresos son diferentes de los datos de ingresos propios del anunciante.
 
-**Anunciantes con etiquetas de conversión de publicidad de Adobe**
+**Anunciantes que usan etiquetas de conversión de Adobe Advertising**
 
 *Posibles causas:*
 

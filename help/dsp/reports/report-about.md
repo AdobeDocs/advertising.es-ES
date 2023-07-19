@@ -3,7 +3,7 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
+source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -88,7 +88,7 @@ La configuración de su cuenta en [!UICONTROL Settings] > [!UICONTROL Account] i
 >
 >* [Creación de un informe personalizado](/help/dsp/reports/report-create.md)
 >* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
->* [Preguntas frecuentes sobre [!UICONTROL Household] Informe](/help/dsp/reports/faq-household-report.md)
+>* [Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md)
 >* [Acerca de los informes en la plataforma](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 >* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

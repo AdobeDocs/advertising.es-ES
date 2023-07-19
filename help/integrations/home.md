@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 08a95c392df4fefa927c2714a04dbfabae51ac58
+source-git-commit: 085e2c40ae65a5bb93c3d1a13036342d2670226b
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 19 de julio de 2023 | Informes | DSP (los usuarios de la con [!DNL Analytics for Advertising]) Las conversiones de visualización para ubicaciones de TV conectada (CTV) ya están disponibles en un nuevo [!UICONTROL Household Conversions Report]. Anteriormente, solo se incluían en Adobe Analytics. | Consulte &quot;[Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md).&quot; |
 | 13 de julio de 2023 | Informes | DSP (los usuarios de la con [!DNL Analytics for Advertising]) Las conversiones de visualización para ubicaciones de TV conectada (CTV) ahora se incluyen en los datos de conversión disponibles en Adobe Analytics. | Consulte la sección sobre &quot;Ejemplos de cómo utilizar la integración&quot; en &quot;[Información general de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 1 de noviembre de 2022 | Ayuda | DSP En un nuevo documento se explica cómo implementar el uso compartido de señales de clics y visualizaciones entre Advertising y Adobe Target, y cómo configurar una actividad de prueba A/B en [!DNL Target] DSP para sus anuncios de y cómo configurar Adobe Analytics Analysis Workspace para ver los datos de prueba. | Consulte &quot;[Configuración de pruebas A/B en Adobe Target DSP para anuncios de Advertising](/help/integrations/target/overview-ab-tests.md).&quot; |
 | 17 de agosto de 2022 | Ayuda | En un nuevo capítulo se explican todas las formas en que Adobe Advertising se integra con Adobe Audience Manager. | Consulte el capítulo sobre Integración con Adobe Audience Manager, que incluye una descripción general de[Integraciones de Adobe Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md).&quot; |
