@@ -3,9 +3,9 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
+source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -36,30 +36,28 @@ Puede generar informes una vez o programarlos para que se generen diariamente, s
 
    * **[!UICONTROL Billing]:** Utilice este informe para comprender las métricas de facturación clave como las métricas de gasto para la facturación de medios por campaña.
 
-      >[!NOTE]
-      >
-      >Este informe incluye datos sobre el segmento de facturación. Si a un usuario o dispositivo se le sirve una impresión que pertenece a varios segmentos, solo se acredita un segmento facturable con la impresión.
+     >[!NOTE]
+     >
+     >Este informe incluye datos sobre el segmento de facturación. Si a un usuario o dispositivo se le sirve una impresión que pertenece a varios segmentos, solo se acredita un segmento facturable con la impresión.
 
-   * **[!UICONTROL Conversion]:** Utilice este informe para comprender el rendimiento de sus campañas en función de las métricas de conversión capturadas mediante el seguimiento de conversión de la publicidad de Adobe. Este informe incluye la atribución de múltiples contactos.
+   * **[!UICONTROL Conversion]:** Utilice este informe para comprender el rendimiento de sus campañas en función de las métricas de conversión capturadas mediante el seguimiento de conversión de Adobe Advertising. Este informe incluye la atribución de múltiples contactos.
 
    * **[!UICONTROL Device]:** Utilice esta plantilla previamente rellenada para ver las métricas clave por dimensiones relacionadas con el dispositivo.
 
    * **[!UICONTROL Frequency (by Impression)]:** Utilice este informe para comprender la distribución de impresiones que se muestran a espectadores únicos (por ejemplo, cuántos espectadores únicos vieron una impresión, dos impresiones, tres impresiones, etc.). Los datos están disponibles por ubicación o campaña.
 
-      >[!NOTE]
-      >
-      >* Los datos estarán disponibles a partir del 1 de marzo de 2019.
-      >* La frecuencia se calcula a partir de una muestra de datos.
-      >* En algunos inventarios, los editores no transmiten un identificador de dispositivo, lo que impide el seguimiento de la frecuencia. Este informe incluye solo las impresiones para las que había un identificador de dispositivo disponible.
-
+     >[!NOTE]
+     >
+     >* Los datos estarán disponibles a partir del 1 de marzo de 2019.
+     >* La frecuencia se calcula a partir de una muestra de datos.
+     >* En algunos inventarios, los editores no transmiten un identificador de dispositivo, lo que impide el seguimiento de la frecuencia. Este informe incluye solo las impresiones para las que había un identificador de dispositivo disponible.
 
    * **[!UICONTROL Frequency (by App/Site)]:** Utilice este informe para comprender cuántos usuarios únicos se contactaron por aplicación o por sitio. También puede ver cuántos usuarios únicos se alcanzaron a través de una sola aplicación o sitio en particular (&quot;usuarios únicos distintos&quot;).
 
-      >[!NOTE]
-      >
-      >* Los datos estarán disponibles a partir del 15 de noviembre de 2018.
-      >* En algunos inventarios privados, los editores no transmiten un identificador de dispositivo, lo que impide el seguimiento de la frecuencia.
-
+     >[!NOTE]
+     >
+     >* Los datos estarán disponibles a partir del 15 de noviembre de 2018.
+     >* En algunos inventarios privados, los editores no transmiten un identificador de dispositivo, lo que impide el seguimiento de la frecuencia.
 
    * **[!UICONTROL Geo]**: utilice esta plantilla previamente rellenada para ver las métricas clave por dimensiones geográficas.
 
@@ -67,15 +65,16 @@ Puede generar informes una vez o programarlos para que se generen diariamente, s
 
    * **[!UICONTROL Segment]:** Utilice esta plantilla previamente rellenada para ver las métricas clave por segmento.
 
-      >[!NOTE]
-      >
-      >* El objetivo de este informe es mostrar el rendimiento de los distintos segmentos segmentados. Utiliza datos de abono de segmentos. Cuando se sirve una impresión a una persona o dispositivo que pertenece a dos o más segmentos de destino, este informe incluye una fila para cada segmento. Por este motivo, es posible que los totales de este informe no coincidan con la entrega real.
-      >* Las métricas de conversión y los datos de objetivo personalizados para segmentos están disponibles a partir del 2 de agosto de 2019. El resto de los datos de los segmentos estarán disponibles a partir del 1 de junio de 2018.
-
+     >[!NOTE]
+     >
+     >* El objetivo de este informe es mostrar el rendimiento de los distintos segmentos segmentados. Utiliza datos de abono de segmentos. Cuando se sirve una impresión a una persona o dispositivo que pertenece a dos o más segmentos de destino, este informe incluye una fila para cada segmento. Por este motivo, es posible que los totales de este informe no coincidan con la entrega real.
+     >* Las métricas de conversión y los datos de objetivo personalizados para segmentos están disponibles a partir del 2 de agosto de 2019. El resto de los datos de los segmentos estarán disponibles a partir del 1 de junio de 2018.
 
    * **[!UICONTROL Site]:** De forma predeterminada, incluye las métricas estándar, el gasto neto total en medios y el gasto neto total facturable por sitio.
 
-   * **[!UICONTROL Household]:** Utilice este informe para ver las impresiones, el alcance y la frecuencia de una sola dimensión en todos los formatos de publicidad a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para optimizar la combinación de medios, mejorar el rendimiento e identificar oportunidades de alcance incremental. Consulte &quot;[Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información.
+   * **[!UICONTROL Household Reach & Frequency]:** Utilice este informe para ver las impresiones, el alcance y la frecuencia de una sola dimensión en todos los formatos de publicidad a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para optimizar la combinación de medios, mejorar el rendimiento e identificar oportunidades de alcance incremental. Consulte &quot;[Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información.
+
+   * **[!UICONTROL Household Conversions]:** Utilice este informe para ver las conversiones de visualizaciones a nivel de hogar en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para medir y optimizar el rendimiento de la campaña. Consulte &quot;[Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información.
 
 ## Informes entre cuentas {#cross-account-reporting}
 
@@ -93,4 +92,3 @@ La configuración de su cuenta en [!UICONTROL Settings] > [!UICONTROL Account] i
 >* [Acerca de los informes en la plataforma](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 >* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-
