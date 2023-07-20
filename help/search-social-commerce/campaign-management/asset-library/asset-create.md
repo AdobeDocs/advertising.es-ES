@@ -1,9 +1,9 @@
 ---
 title: Creación y carga de recursos
 description: Obtenga información sobre cómo crear recursos de imagen, vídeo y texto reutilizables y cargarlos en su [!DNL Google Ads] biblioteca de recursos de nivel de cuenta.
-source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
+source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 *Para [!DNL Google Ads] solo cuentas*
 
-*Función beta*
+*Abrir función beta*
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library (Beta)]**.
 

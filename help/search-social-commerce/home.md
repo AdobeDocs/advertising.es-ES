@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: 4e8ea89826d40b44fe5f27dc4235b000cee94c95
+source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
-| 30 de junio de 2023 | [!UICONTROL Asset Library] | (Función beta; [!DNL Google Ads] cuentas) En [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)], puede crear recursos de imagen, vídeo y texto reutilizables y cargarlos en su [!DNL Google Ads] biblioteca de recursos de nivel de cuenta. Puede utilizar sus recursos para las publicidades cuando cree o edite campañas dentro de [!DNL Google Ads] editor. | Consulte &quot;[Creación y carga de recursos](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
+| 30 de junio de 2023 | [!UICONTROL Asset Library] | (Abrir función beta; [!DNL Google Ads] cuentas) En [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)], puede crear recursos de imagen, vídeo y texto reutilizables y cargarlos en su [!DNL Google Ads] biblioteca de recursos de nivel de cuenta. Puede utilizar sus recursos para las publicidades cuando cree o edite campañas dentro de [!DNL Google Ads] editor. | Consulte &quot;[Creación y carga de recursos](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
 | | [!UICONTROL Google Import] | Ahora puede generar su propio ID de credencial de importación desde [!DNL Microsoft® Advertising] al configurar un trabajo de importación de campaign para [!DNL Google Ads]. Anteriormente, el servicio de asistencia técnica de Adobe o el equipo de cuenta de Adobe proporcionaban el ID. | Consulte &quot;[Replicar [!DNL Google Ads] campañas en [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md).&quot; |
 | 27 de junio de 2023 | [!UICONTROL Campaigns] | (Función beta; [!DNL Microsoft® Advertising] cuentas de ) Ahora puede especificar objetivos de conversión de nivel de campaña en [!DNL Microsoft® Advertising] configuración de campaña. Anteriormente, al crear una campaña en Search, Social y Commerce, se utilizaban los objetivos de nivel de cuenta. | Consulte &quot;[[!DNL Microsoft® Advertising] configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).&quot; |
 | 10 de junio de 2023 | [!UICONTROL Recommendations and Publisher Insights] | (Abrir versión beta) [!UICONTROL Microsoft® Advertising] las perspectivas de rendimiento y las recomendaciones sugeridas en los últimos 30 días están disponibles en [!UICONTROL Optimization] > [!UICONTROL Recommendations and Publisher Insights].<br><br><b>Nota:</b> Aunque las recomendaciones le ayudan a mejorar el rendimiento de las campañas, es posible que algunas no se alineen con sus objetivos más amplios. Como resultado, es mejor consultar con el equipo de cuenta de Adobe antes de implementar cualquier recomendación. | Consulte &quot;[Acerca de las recomendaciones del editor y la compatibilidad con perspectivas](/help/search-social-commerce/recommendations/recommendation-support.md).&quot; |
