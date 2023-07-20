@@ -3,9 +3,9 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
+source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 ## [!UICONTROL Multi-Touch Conversion Options] Sección
 
-**[!UICONTROL Attribution Rule Settings]** La configuración varía según el tipo de informe:
+**[!UICONTROL Attribution Rule Settings]:** La configuración varía según el tipo de informe:
 
 * **\[Tipo de atribución\]:** ([!UICONTROL Household Conversion] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas; anunciantes con seguimiento de conversión de Adobe Advertising solamente) En el informe, se explica cómo atribuir datos de conversión en una serie de eventos que generan una conversión:
 
@@ -150,7 +150,7 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 ## [!UICONTROL Save Report] Sección
 
-**[!UICONTROL Send & Save]:** Cuándo enviar el informe: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. Los informes programados se entregarán a las 09:00 en el huso horario de la cuenta.
+**[!UICONTROL Send & Save]:** Cuándo enviar el informe: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. Los informes programados se entregan a las 09:00 en el huso horario de la cuenta.
 
 >[!NOTE]
 >
