@@ -2,9 +2,9 @@
 title: Datos de hoja de edición masiva requeridos para [!DNL Microsoft Advertising] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Microsoft Advertising] cuentas.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '6744'
+source-wordcount: '6900'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ A continuación se muestra una tabla con todos los campos de datos disponibles y
 
 En la tabla siguiente se describen todos los campos de datos disponibles.
 
-Para los campos de datos relevantes para las entidades de cuenta, consulte &quot;[Campos necesarios para crear, editar o eliminar cada componente de la cuenta](#bulksheet-fields-per-component-microsoft).
+Para los campos de datos relevantes para las entidades de cuenta, consulte &quot;[Campos necesarios para crear, editar o eliminar cada componente de la cuenta](#bulksheet-fields-per-component-microsoft).&quot;
 
 | Campo | Descripción |
 |----|----|
@@ -121,13 +121,13 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 
 Las secciones siguientes incluyen los campos correspondientes a entidades de cuenta específicas.
 
-Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
-
 >[!NOTE]
 >
 >Cuando un campo no es aplicable a una acción, se ignora cualquier valor introducido en el campo.
 
 ### Campos de Campaign
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | ¿Requerido? |
 | ---- | ---- |
@@ -155,6 +155,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 ### Campos del grupo de anuncios
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | ¿Requerido? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -176,6 +178,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de palabra clave
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -206,6 +210,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -229,6 +235,8 @@ Para obtener más información sobre la creación de anuncios de compra, consult
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -250,6 +258,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 ### Campos de anuncios interactivos (multimedia)
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -274,6 +284,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 ### Campos de anuncios de búsqueda interactivos
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Responsive Search Ad]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -305,6 +317,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 >
 >Los anuncios de texto expandidos estaban en desuso. Solo puede eliminar anuncios de texto existentes.
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -333,6 +347,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 >
 >La compatibilidad con la creación de no está disponible.
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -351,6 +367,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos del grupo de productos de compra
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -374,6 +392,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 ### Campos de vínculo de sitio de nivel de campaña
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -394,6 +414,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 ### Campos de destino de ubicación
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -406,6 +428,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de campaña.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de destino de dispositivos de nivel de campaña y de nivel de grupo de anuncios
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -420,6 +444,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de destinatario del dispositivo.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de destino de RLSA de nivel de campaña y de nivel de grupo de anuncios
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |

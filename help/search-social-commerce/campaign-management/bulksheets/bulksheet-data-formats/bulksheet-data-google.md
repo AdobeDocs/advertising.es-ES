@@ -2,9 +2,9 @@
 title: Datos de hoja de edición masiva requeridos para [!DNL Google Ads] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Google Ads] cuentas.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7884'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ A continuación se muestra una tabla con todos los campos de datos disponibles y
 
 En la tabla siguiente se describen todos los campos de datos disponibles.
 
-Para los campos de datos relevantes para las entidades de cuenta, consulte &quot;[Campos necesarios para crear, editar o eliminar cada componente de la cuenta](#bulksheet-fields-per-component-google).
+Para los campos de datos relevantes para las entidades de cuenta, consulte &quot;[Campos necesarios para crear, editar o eliminar cada componente de la cuenta](#bulksheet-fields-per-component-google).&quot;
 
 >[!NOTE]
 >
@@ -132,13 +132,13 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 
 Las secciones siguientes incluyen los campos correspondientes a entidades de cuenta específicas.
 
-Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
-
 >[!NOTE]
 >
 >Cuando un campo no es aplicable a una acción, se ignora cualquier valor introducido en el campo.
 
 ### Campos de Campaign
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 | Campo | ¿Requerido? |
 | ---- | ---- |
@@ -169,6 +169,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 ### Campos del grupo de anuncios
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
+
 | Campo | ¿Requerido? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -188,6 +190,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de palabra clave
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -211,6 +215,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de colocación
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -238,6 +244,8 @@ Este tipo de anuncio ahora se denomina &quot;anuncio de búsqueda dinámica&quot
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -261,6 +269,8 @@ Para obtener más información sobre la creación de anuncios de compra, consult
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -282,6 +292,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 ### Campos de anuncios de búsqueda interactivos
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Responsive Search Ad]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -308,6 +320,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Responsive Search 
 ### Campos de anuncios de texto
 
 Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except RSA)]&quot; en la fila [!UICONTROL Download Bulksheet] diálogo.
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >
@@ -337,6 +351,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 ### Campos de destino de búsqueda dinámica (destino automático)
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -354,6 +370,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos del grupo de productos de compra
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -377,6 +395,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 ### Campos de vínculo de sitio de nivel de campaña y de nivel de grupo de anuncios
 
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
+
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
@@ -394,7 +414,9 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | [!UICONTROL Sitelink ID] | Solo es necesario cuando cambia o elimina el vínculo de sitio, a menos que la fila incluya a) suficientes columnas de propiedad para identificar el vínculo de sitio o b) un &quot;[!UICONTROL AMO ID].&quot; Sin embargo, si no incluye ninguna de estas opciones [!UICONTROL Sitelink ID] ni [!UICONTROL AMO ID]  y las columnas de propiedad coinciden con varios vínculos de sitio, por lo que solo cambiará el estado de uno de ellos.<br><br><b>Nota:</b> Si edita las columnas de propiedades de vínculos de sitios excepto [!UICONTROL Status] para un vínculo de sitio existente, y no se incluyen las variables [!UICONTROL Sitelink ID] ni [!UICONTROL AMO ID], se crea un nuevo vínculo de sitio y el vínculo de sitio existente no se cambia. |
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
-### Campos de destino de ubicación
+### Destino de ubicación
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -408,6 +430,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | [!UICONTROL AMO ID] | Necesario para editar o eliminar los datos a menos que se incluya el [!UICONTROL Campaign ID].<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de destino de dispositivos de nivel de campaña y de nivel de grupo de anuncios
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
@@ -423,6 +447,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de destinatario del dispositivo.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de objetivo/exclusión de RLSA a nivel de campaña y de grupo de anuncios
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 | Campo | ¿Requerido? | Descripción |
 | ---- | ---- | ---- |
