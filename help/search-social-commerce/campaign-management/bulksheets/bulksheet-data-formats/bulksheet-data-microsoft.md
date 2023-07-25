@@ -2,9 +2,9 @@
 title: Datos de hoja de edición masiva requeridos para [!DNL Microsoft Advertising] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Microsoft Advertising] cuentas.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 9cdfe415c9ec2d7e7b65d5a46d208329d66ca14a
 workflow-type: tm+mt
-source-wordcount: '6900'
+source-wordcount: '6888'
 ht-degree: 1%
 
 ---
@@ -181,8 +181,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -212,8 +212,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -237,8 +237,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -261,8 +261,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -287,8 +287,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Responsive Search 
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido | |
@@ -319,8 +319,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -349,8 +349,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -370,8 +370,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -394,8 +394,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | Línea de descripción 1 | Opcional |
@@ -416,8 +416,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Location] | Requerido |
@@ -431,8 +431,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Device] | Necesario para eliminar un destino de dispositivo. |
@@ -447,8 +447,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Necesario para destinos de nivel de grupo de anuncios. No aplicable a destinos de nivel de campaña. |
