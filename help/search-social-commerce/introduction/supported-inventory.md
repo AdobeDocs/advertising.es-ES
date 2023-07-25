@@ -56,6 +56,6 @@ A continuación se indican las redes de anuncios compatibles, los tipos de campa
 
 [^2]: consulte &quot;Tipos de portafolios aptos por estrategia de oferta de campaña&quot; en la Guía de optimización, disponible en Buscar, Social y Comercio.
 
-[^3]: Requiere una integración con Adobe Analytics. Consulte &quot;[Descripción general de Analytics para publicidad en Adobe](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
+[^3]: Requiere una integración con Adobe Analytics. Consulte &quot;[Descripción general de Analytics para Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
 [^4]: [!DNL Analytics] Los datos de se envían a Search, Social y Commerce mediante el parámetro de seguimiento s_kwcid actualizado, independientemente del formato s_kwcid que utilice normalmente para la cuenta. Si normalmente utiliza la versión anterior de s_kwcid, le recomendamos actualizar al nuevo formato s_kwcid para disfrutar de la mejor experiencia. Sin embargo, aunque los datos de clics/costes y los datos de ingresos se rastreen con s_kwcids diferentes, ambos conjuntos de datos se clasifican y agregan completamente en la misma campaña y cuenta.
