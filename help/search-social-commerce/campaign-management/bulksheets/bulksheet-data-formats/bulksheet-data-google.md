@@ -2,9 +2,9 @@
 title: Datos de hoja de edición masiva requeridos para [!DNL Google Ads] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Google Ads] cuentas.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7839'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 | Campo | ¿Requerido? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
-| [!UICONTROL Campaign Name] | Requerido | El nombre único que identifica una campaña para una cuenta. |
-| [!UICONTROL Campaign Budget] | Necesario para crear una campaña. | Un límite diario de gasto para la campaña, con o sin símbolos monetarios y puntuación. Este valor anula pero no puede superar el presupuesto de la cuenta. |
+| [!UICONTROL Campaign Name] | Requerido |
+| [!UICONTROL Campaign Budget] | Necesario para crear una campaña. |
 | [!UICONTROL Delivery Method] | Necesario para crear una campaña. |
 | [!UICONTROL Channel Type] | Necesario para crear una campaña. |
 | [!UICONTROL Networks] | Necesario para crear una campaña. |
@@ -193,8 +193,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -218,8 +218,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -246,8 +246,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -271,8 +271,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Creative (except R
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -295,8 +295,8 @@ Para este tipo de anuncio, utilice el icono &quot;[!UICONTROL Responsive Search 
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido | |
@@ -327,8 +327,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 >
 >Los anuncios de texto expandidos quedaron obsoletos en junio de 2022. Solo puede eliminar anuncios de texto existentes.
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -353,8 +353,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -373,8 +373,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
@@ -397,8 +397,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Necesario para vínculos de sitios de nivel de grupo de anuncios. No aplicable a los vínculos de sitio de nivel de campaña. |
@@ -418,8 +418,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Location] | Requerido |
@@ -433,8 +433,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Device] | Necesario para crear o editar un destino de dispositivo. |
@@ -450,8 +450,8 @@ Para ver una descripción de cada campo de datos, consulte[Todos los campos de d
 
 Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
-| Campo | ¿Requerido? | Descripción |
-| ---- | ---- | ---- |
+| Campo | ¿Requerido? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya un signo &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Bid Adjustment] | Opcional |
