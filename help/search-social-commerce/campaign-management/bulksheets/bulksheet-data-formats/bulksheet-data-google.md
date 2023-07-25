@@ -2,9 +2,9 @@
 title: Datos de hoja de edición masiva requeridos para [!DNL Google Ads] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Google Ads] cuentas.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '7706'
+source-wordcount: '7729'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Cada hoja de edición masiva debe incluir los campos de encabezado y los campos 
 
 A continuación se muestra una tabla con todos los campos de datos disponibles y tablas adicionales que indican qué campos son necesarios para agregar, editar o eliminar datos para entidades individuales (como campañas y palabras clave).
 
-## Todos los campos de datos disponibles
+## Todos los campos de datos disponibles {#bulksheet-fields-all-google}
 
-La siguiente tabla muestra todos los campos de datos disponibles.
+En la tabla siguiente se describen todos los campos de datos disponibles.
 
 Para los campos de datos relevantes para las entidades de cuenta, consulte &quot;[Campos necesarios para crear, editar o eliminar cada componente de la cuenta](#bulksheet-fields-per-component-google).
 
@@ -129,6 +129,10 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 [^1]: [!DNL Excel] convierte números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
 
 ## Campos necesarios para crear, editar o eliminar cada componente de la cuenta {#bulksheet-fields-per-component-google}
+
+Las secciones siguientes incluyen los campos correspondientes a entidades de cuenta específicas.
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >

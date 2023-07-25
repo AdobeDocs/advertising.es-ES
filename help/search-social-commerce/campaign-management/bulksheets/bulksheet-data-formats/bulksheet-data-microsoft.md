@@ -2,9 +2,9 @@
 title: Datos de hoja de edición masiva requeridos para [!DNL Microsoft Advertising] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Microsoft Advertising] cuentas.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '6721'
+source-wordcount: '6744'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Cada hoja de edición masiva debe incluir los campos de encabezado y los campos 
 
 A continuación se muestra una tabla con todos los campos de datos disponibles y tablas adicionales que indican qué campos son necesarios para agregar, editar o eliminar datos para entidades individuales (como campañas y palabras clave).
 
-## Todos los campos de datos disponibles
+## Todos los campos de datos disponibles {#bulksheet-fields-all-microsoft}
 
-La siguiente tabla muestra todos los campos de datos disponibles.
+En la tabla siguiente se describen todos los campos de datos disponibles.
 
 Para los campos de datos relevantes para las entidades de cuenta, consulte &quot;[Campos necesarios para crear, editar o eliminar cada componente de la cuenta](#bulksheet-fields-per-component-microsoft).
 
@@ -118,6 +118,10 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 [^1]: [!DNL Excel] convierte números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
 
 ## Campos necesarios para crear, editar o eliminar cada componente de la cuenta {#bulksheet-fields-per-component-microsoft}
+
+Las secciones siguientes incluyen los campos correspondientes a entidades de cuenta específicas.
+
+Para ver una descripción de cada campo de datos, consulte[Todos los campos de datos disponibles](#bulksheet-fields-all-microsoft).&quot;
 
 >[!NOTE]
 >
