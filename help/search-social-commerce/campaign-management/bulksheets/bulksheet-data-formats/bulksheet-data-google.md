@@ -1,9 +1,10 @@
 ---
 title: Datos de hoja de edición masiva requeridos para [!DNL Google Ads] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Google Ads] cuentas.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
+source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
 workflow-type: tm+mt
-source-wordcount: '7515'
+source-wordcount: '7706'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,22 @@ ht-degree: 1%
 
 Para crear y actualizar [!DNL Google Ads] Para realizar campañas masivas de datos, puede utilizar archivos de hoja de edición masiva de Search, Social y Commerce con el formato específico para [!DNL Google Ads] cuentas. Puede hacer lo siguiente: [generar archivos de hojas de edición masiva para cuentas existentes](../bulksheet-download.md) en el formato de archivo requerido o b) crearlos manualmente (consulte &quot;[Formatos de archivo de hojas de edición masiva admitidos](bulksheet-file-formats.md)&quot; para obtener información general sobre los formatos de archivo admitidos).
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+Cada hoja de edición masiva debe incluir los campos de encabezado y los campos de datos correspondientes necesarios para la [operaciones específicas que desea realizar](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (como crear un anuncio). Cuando un campo no es obligatorio, puede omitirlo del encabezado y de las filas de datos. Todas las columnas personalizadas se eliminan al cargar el archivo de hoja de edición masiva.
+
+A continuación se muestra una tabla con todos los campos de datos disponibles y tablas adicionales que indican qué campos son necesarios para agregar, editar o eliminar datos para entidades individuales (como campañas y palabras clave).
 
 ## Todos los campos de datos disponibles
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+La siguiente tabla muestra todos los campos de datos disponibles.
+
+Para los campos de datos relevantes para las entidades de cuenta, consulte &quot;[Campos necesarios para crear, editar o eliminar cada componente de la cuenta](#bulksheet-fields-per-component-google).
+
+>[!NOTE]
+>
+>* Los valores de todas las columnas de texto distinguen entre mayúsculas y minúsculas.
+>* Cuando se crea un nuevo registro y no se incluyen valores para todos los campos de datos requeridos, algunos de esos campos se asignan a los valores predeterminados especificados.
+>* Para los campos que no se especifican a continuación, se utiliza el valor predeterminado para la red publicitaria.
+>* Para obtener una lista de las filas de hoja de edición masiva disponibles en [!UICONTROL Download Bulksheet] diálogo, consulte &quot;[Filas de hojas de edición masiva por red de anuncios](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
 
 | Campo | Descripción |
 | ---- | ---- |
@@ -116,7 +128,11 @@ Para crear y actualizar [!DNL Google Ads] Para realizar campañas masivas de dat
 
 [^1]: [!DNL Excel] convierte números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
 
-## Campos necesarios para crear, editar o eliminar cada componente de la cuenta
+## Campos necesarios para crear, editar o eliminar cada componente de la cuenta {#bulksheet-fields-per-component-google}
+
+>[!NOTE]
+>
+>Cuando un campo no es aplicable a una acción, se ignora cualquier valor introducido en el campo.
 
 ### Campos de Campaign
 
