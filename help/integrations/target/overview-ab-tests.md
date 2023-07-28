@@ -1,15 +1,17 @@
 ---
-title: Configuración de pruebas A/B para anuncios publicitarios de Adobe en Adobe Target
-description: Obtenga información sobre cómo configurar una prueba A/B en [!DNL Target] DSP para su y [!DNL Search, Social, & Commerce] anuncios.
+title: Configuración de pruebas A/B para anuncios de Adobe Advertising en Adobe Target
+description: Obtenga información sobre cómo configurar una prueba A/B en [!DNL Target] DSP para sus anuncios de la.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: f68aa3a48ff9676fec8c38af920cff1c3a7d6caa
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
 
-# Configuración de pruebas A/B en Adobe Target DSP para Advertising y [!DNL Advertising Search, Social, & Commerce] Anuncios
+# Configuración de pruebas A/B en Adobe Target DSP para anuncios de Advertising
+
+<!-- In title and Heading1:  DSP and [!DNL Advertising Search, Social, & Commerce] Ads -->
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 
@@ -185,11 +187,11 @@ En Analysis Workspace, configure las [!DNL Analytics for Target panel] para anal
 
 #### Métricas
 
-* Cree un panel dentro del espacio de trabajo específico para la campaña, el paquete o la ubicación de publicidad de Adobe para el que se ejecutó la prueba. Utilice visualizaciones de resumen para mostrar las métricas de Adobe Advertising en el mismo informe que el rendimiento de la prueba de Target.
+* Cree un panel dentro del espacio de trabajo específico para la campaña de Adobe Advertising, el paquete o la ubicación para los que se ejecutó la prueba. Utilice visualizaciones de resumen para mostrar las métricas de Adobe Advertising en el mismo informe que el rendimiento de la prueba de Target.
 
 * Priorice el uso de métricas en el sitio (como visitas y conversiones) para medir el rendimiento.
 
-* Tenga en cuenta que las métricas de medios agregadas de la publicidad de Adobe (como impresiones, clics y costes) no se pueden comparar con las métricas de Target.
+* Tenga en cuenta que las métricas de medios agregadas de los Adobes Advertising (como impresiones, clics y costes) no se pueden comparar con las métricas de Target.
 
 #### Dimension
 
