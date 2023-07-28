@@ -1,7 +1,9 @@
 ---
 title: Información general sobre la implementación de Search, Social y Commerce
 description: Aprender
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -42,13 +44,13 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
 
    * Si las cuentas aún no contienen datos de campaña, agregue campañas, grupos de anuncios, palabras clave, anuncios y ubicaciones desde Buscar, Social y Comercio o desde la red de anuncios.
 
-      Para obtener más información sobre la configuración de campañas de búsqueda, consulte el capítulo de ayuda en Campaign Management.
+     Para obtener más información sobre la configuración de campañas de búsqueda, consulte el capítulo de ayuda en Campaign Management.
 
-1. Configure el seguimiento de todos los anuncios para los que desee que la publicidad de Adobe realice un seguimiento de las conversiones:
+1. Configure el seguimiento de todos los anuncios para los que desee que el Adobe Advertising rastree las conversiones:
 
    1. (Si es necesario) Configure el rastreo de clics para los anuncios y, opcionalmente, para las palabras clave, [!DNL Google Ads] ubicaciones, y [!DNL Google Ads] extensiones generando y cargando URL de seguimiento de clics.
 
-      Las URL de rastreo de clics de los anunciantes con el servicio de seguimiento de conversiones basado en píxeles de Adobe Advertising incluyen un redireccionamiento a [!DNL Adobe] servidores.
+      Las URL de rastreo de clics de los anunciantes con el servicio de seguimiento de conversiones basado en píxeles de Adobe Advertising incluyen una redirección a [!DNL Adobe] servidores.
 
    1. Configure el seguimiento de conversiones. Según la implementación, esto puede implicar agregar etiquetas de seguimiento de conversión a las páginas web adecuadas o configurar una colocación diaria de fuentes para los datos de conversión que haya recopilado con su propio método.
 
@@ -56,7 +58,7 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
 
 1. Configurar integraciones con productos adicionales:
 
-   1. (Anunciantes con Adobe Analytics o Adobe Audience Manager) Configure integraciones entre las distintas cuentas para que la publicidad de Adobe pueda intercambiar datos con ellas.
+   1. (Anunciantes con Adobe Analytics o Adobe Audience Manager) Configure integraciones entre las distintas cuentas para que Adobe Advertising pueda intercambiar datos con ellas.
 
       Consulte la guía de &quot;[Integraciones con Experience Cloud](/help/integrations/home.md).&quot;
 
@@ -73,6 +75,7 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
       >Search, Social y Commerce siguen realizando un seguimiento de los datos de las campañas que no están asignadas a los portafolios, y los informes correspondientes, pero no optimizan las ofertas para ellos.
 
    1. Una vez que se disponga de datos suficientes para crear una línea de base, el equipo podrá iniciar el portafolio, lo que permitirá a Search, Social y Commerce optimizar las ofertas o los presupuestos del portafolio en función del tipo de optimización.
+
    Para obtener más información sobre la configuración y el inicio de portafolios, consulte la ayuda de &quot;Optimización&quot;, disponible en [!UICONTROL Help] menú (![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda")), en la parte superior derecha de cualquier página dentro de Buscar, Social y Comercio.
 
 1. Monitorice el rendimiento de sus portafolios:

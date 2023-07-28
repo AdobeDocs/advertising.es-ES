@@ -1,7 +1,9 @@
 ---
 title: Generar una URL de seguimiento de clics
 description: Obtenga información sobre cómo generar manualmente una URL de seguimiento de clics de Search, Social y Commerce.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Generar una URL de seguimiento de clics de Search, Social y Commerce con la herramienta URL de seguimiento
 
-*Anunciantes con solo seguimiento de conversión de publicidad de Adobe*
+*Anunciantes solo con seguimiento de conversión de Adobe Advertising*
 
 Para obtener información sobre cuándo debe generar e implementar manualmente una URL de seguimiento de clics, consulte &quot;[Cuándo y cómo generar URL de seguimiento de clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

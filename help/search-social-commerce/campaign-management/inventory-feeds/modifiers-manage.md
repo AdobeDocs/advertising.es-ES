@@ -1,7 +1,9 @@
 ---
 title: Administrar modificadores
 description: Obtenga información sobre cómo configurar y administrar modificadores para las plantillas de publicidad para las fuentes de datos de inventario.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -70,4 +72,3 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 >
 >* [Acerca de las fuentes de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [Administración de plantillas de publicidad](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
-

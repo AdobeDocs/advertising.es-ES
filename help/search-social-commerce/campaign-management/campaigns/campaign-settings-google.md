@@ -2,7 +2,8 @@
 title: '''[!DNL Google Ads] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Google Ads] campañas.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
-source-git-commit: a71ea7b20cf1c72a2acfd7c743311c513e4239fc
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -55,7 +56,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:** (Campañas dirigidas únicamente a la red de búsqueda, incluidas las campañas de compras) Muestra sus anuncios en las redes de socios de búsqueda de la red de anuncios. De forma predeterminada, esta opción es *[!UICONTROL Off]*.
+**[!UICONTROL Search Partners]:** (Campañas dirigidas únicamente a la red de búsqueda, incluidas las campañas de compra) Muestra sus anuncios en las redes de socios de búsqueda de la red de anuncios. De forma predeterminada, esta opción es *[!UICONTROL Off]*.
 
 ## [!UICONTROL Budget Options]
 

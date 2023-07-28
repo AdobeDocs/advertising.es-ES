@@ -1,7 +1,9 @@
 ---
 title: Iniciar sesión
 description: Aprenda formas de iniciar sesión.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -37,4 +39,3 @@ Puede iniciar sesión en Search, Social y Commerce directamente o desde Adobe Ex
 >* [Cerrar sesión](log-out.md)
 >* [Cambiar la contraseña](/help/search-social-commerce/tools/password-change.md)
 >* [Organización de la interfaz de usuario](user-interface.md)
-

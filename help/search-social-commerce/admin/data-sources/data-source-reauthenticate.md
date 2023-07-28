@@ -3,9 +3,10 @@ title: Volver a autenticar un [!DNL Google Analytics] fuente de datos
 description: Obtenga información sobre cómo volver a autenticar un [!DNL Google Analytics] fuente de datos si cambia la contraseña asociada o si el certificado caduca.
 role: User, Admin
 exl-id: 9233e004-8607-444a-ba99-f63cb83a8b7a
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---

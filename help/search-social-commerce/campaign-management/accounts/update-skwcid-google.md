@@ -1,7 +1,9 @@
 ---
-title: "Actualice el código de seguimiento s\_kwcid para un [!DNL Google Ads] account"
+title: Actualice el código de seguimiento s kwcid para un [!DNL Google Ads] account
 description: Aprenda a cambiar al último código de seguimiento s\_kwcid para una [!DNL Google Ads] cuenta.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%

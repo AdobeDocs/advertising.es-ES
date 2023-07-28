@@ -1,7 +1,9 @@
 ---
 title: Cree y edite datos de campaña por lotes utilizando copiar y pegar
 description: Obtenga información sobre cómo administrar los datos de campaña por lotes mediante la función de copiar y pegar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -43,8 +45,8 @@ Puede utilizar esta función para editar objetos de campaña existentes (con cam
       * Para los objetos existentes que desea editar, debe incluir todas las columnas de ID., nombres de entidad y el atributo relevantes que desea editar. No edite el ID numérico del objeto.
 
       * Para los nuevos objetos de campaña, incluya todos los nombres y atributos de entidad relevantes, pero no incluya los ID de objeto (que se generan automáticamente). Por ejemplo, si crea un anuncio nuevo, deje la variable [!UICONTROL Ad ID] en blanco. La red publicitaria crea automáticamente un ID al publicar el objeto.
-   * El valor de cualquier columna no requerida puede ser nulo (en blanco), pero cada fila debe tener el mismo número de valores separados por tabulaciones.
 
+   * El valor de cualquier columna no requerida puede ser nulo (en blanco), pero cada fila debe tener el mismo número de valores separados por tabulaciones.
 
 1. Guarde los datos como valores separados por tabulaciones.
 
@@ -81,4 +83,3 @@ Puede utilizar esta función para editar objetos de campaña existentes (con cam
 >* [Administrar grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
 >* [Administrar palabras clave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Administración de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Asignar valores de clasificación a componentes de cuenta mediante hojas de edición masiva
 description: Aprenda a utilizar hojas de edición masiva para asignar valores de clasificación a componentes de cuenta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 7%
@@ -28,7 +30,7 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
    * Seleccione cada clasificación para la que desee incluir una columna en el archivo de hoja de edición masiva.
 
-      Por ejemplo, si incluye las clasificaciones de etiquetas &quot;Color&quot; y &quot;Geo&quot;, la hoja de edición masiva incluirá las columnas &quot;Color&quot; y &quot;Geo&quot;.
+     Por ejemplo, si incluye las clasificaciones de etiquetas &quot;Color&quot; y &quot;Geo&quot;, la hoja de edición masiva incluirá las columnas &quot;Color&quot; y &quot;Geo&quot;.
 
 1. Abra el archivo en un editor y añada valores de etiqueta a las columnas de clasificación de etiquetas de las entidades con las que desea asociarlos. La longitud máxima de cada valor es de 100 caracteres, y puede incluir caracteres ASCII y no ASCII.
 
@@ -46,15 +48,15 @@ Este ejemplo incluye columnas para las clasificaciones de etiquetas &quot;Color&
 
 | Cuenta | Campaign | Grupo de publicidad | Palabra clave | Anuncio | Ubicación | Etiquetas | Color | Geo |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 |  |  |  |  |  | Verde |  |
-| Acct1 | C1 | AG1 |  |  |  |  |  |  |
-| Acct1 | C1 | AG1 | K1 |  |  |  |  | RU |
-| Acct1 | C1 | AG1 | K2 |  |  |  | Rojo | AU |
-| Acct1 | C1 | AG1 | K3 |  |  |  | Azul | DE |
-| Acct1 | C1 | AG1 |  | A1 |  |  |  |  |
-| Acct1 | C1 | AG1 |  | A1 |  |  | Rojo |  |
-| Acct1 | C1 | AG1 |  |  | P1 |  | Rojo | AU |
-| Acct1 | C1 | AG1 |  |  | P2 |  | Azul | DE |
+| Acct1 | C1 | | | | | | Verde | |
+| Acct1 | C1 | AG1 | | | | | | |
+| Acct1 | C1 | AG1 | K1 | | | | | RU |
+| Acct1 | C1 | AG1 | K2 | | | | Rojo | AU |
+| Acct1 | C1 | AG1 | K3 | | | | Azul | DE |
+| Acct1 | C1 | AG1 | | A1 | | | | |
+| Acct1 | C1 | AG1 | | A1 | | | Rojo | |
+| Acct1 | C1 | AG1 | | | P1 | | Rojo | AU |
+| Acct1 | C1 | AG1 | | | P2 | | Azul | DE |
 
 >[!MORELIKETHIS]
 >
@@ -64,4 +66,3 @@ Este ejemplo incluye columnas para las clasificaciones de etiquetas &quot;Color&
 >* [Quitar valores de clasificación de etiquetas de componentes de cuenta](classification-values-remove.md)
 >* [Eliminar valores de clasificación de etiquetas](classification-values-delete.md)
 >* [Eliminar clasificaciones de etiquetas](classification-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Acerca de las palabras clave
 description: Obtenga información sobre las opciones para palabras clave pujables y negativas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -27,4 +29,3 @@ Puede crear palabras clave para un grupo de anuncios de búsqueda desde el [!UIC
 >* [Administrar palabras clave por puja](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Creación de palabras clave negativas](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Cambiar el estado de las palabras clave y las palabras clave negativas](keyword-status-edit.md)
-

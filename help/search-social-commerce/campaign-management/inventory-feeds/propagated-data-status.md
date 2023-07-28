@@ -1,9 +1,11 @@
 ---
 title: Estados de los datos generados a partir de las fuentes
 description: Obtenga información sobre los estados de los datos generados a partir de las fuentes de datos de inventario.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e5e7649-a16b-4634-896a-7c216185b367
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -31,4 +33,3 @@ Cada componente puede tener uno de los siguientes estados:
 >* [Editar datos generados a partir de fuentes](propagated-data-edit.md)
 >* [Publicar datos de campaña generados a partir de fuentes en redes de publicidad](propagated-data-post.md)
 >* [Detener un trabajo de registro para los datos de fuente de inventario](stop-job.md)
-

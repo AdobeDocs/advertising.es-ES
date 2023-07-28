@@ -1,9 +1,11 @@
 ---
 title: Formatos de archivo de hojas de edición masiva admitidos
 description: Consulte los requisitos generales de archivo para hojas de edición masiva.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -45,7 +47,7 @@ Los campos de datos de los archivos TSV y los archivos TXT delimitados por pesta
 
 * Los campos de cada registro están separados por caracteres de tabulación. Para omitir un valor para un campo, utilice solo el carácter de tabulación.
 
-   Ejemplo: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
+  Ejemplo: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
 
 * Los campos no pueden contener caracteres de tabulación incrustados.
 
@@ -55,23 +57,23 @@ Los campos de datos de los archivos CSV y los archivos TXT delimitados por comas
 
 * Los campos de un registro están separados por comas. Para omitir un valor para un campo, utilice solo la coma.
 
-   Ejemplo: `Cruises,5000,Caribbean,,,`
+  Ejemplo: `Cruises,5000,Caribbean,,,`
 
 * Cualquier campo puede incluirse opcionalmente entre comillas dobles (`""`).
 
-   Ejemplo:  `"Cruises","5000","Caribbean",`
+  Ejemplo:  `"Cruises","5000","Caribbean",`
 
 * Los campos con comas incrustados deben estar entre comillas dobles (`""`).
 
-   Ejemplo: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
+  Ejemplo: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
 * Los campos con comillas dobles incrustadas deben estar entre comillas dobles (`""`).
 
-   Ejemplo: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
+  Ejemplo: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
 * Los campos con espacios iniciales o finales deben estar entre comillas dobles (`""`).
 
-   Ejemplo: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
+  Ejemplo: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
 >[!MORELIKETHIS]
 >
@@ -79,4 +81,3 @@ Los campos de datos de los archivos CSV y los archivos TXT delimitados por comas
 >* [Operaciones que se pueden realizar en hojas de edición masiva](bulksheet-operations.md)
 >* [Apéndice: Errores de hojas de edición masiva](../bulksheet-errors.md)
 >* [Descargar/crear un archivo de hoja de edición masiva](../bulksheet-download.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Acerca de la administración de campañas en Search, Social y Commerce
 description: Obtenga información acerca de las funciones de administración de campañas en Search, Social y Commerce.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 0%
@@ -22,7 +24,7 @@ En el caso de las cuentas sincronizadas mediante la API de la red de publicidad,
 
 ## Rastreo de clics para enlazar los clics con las conversiones
 
-Si utiliza el servicio de seguimiento de conversiones de Adobe Advertising, debe incluir el código de seguimiento de clics de Search, Social y Commerce en el sufijo de la página de aterrizaje, en las plantillas de seguimiento y en las URL de destino final para anuncios, palabras clave y ubicaciones, vínculos de sitios y listas de productos. Para [redes de anuncios compatibles y tipos de campañas](/help/search-social-commerce/introduction/supported-inventory.md) cuya configuración de campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente su propio código de seguimiento y redirección al guardar el registro, por lo que no es necesario agregarlo manualmente. De lo contrario, debe agregar manualmente el código a las plantillas de seguimiento o a las direcciones URL finales.
+Si utiliza el servicio de seguimiento de conversión de Adobe Advertising, debe incluir el código de seguimiento de clics de Search, Social y Commerce en el sufijo de la página de aterrizaje, en las plantillas de seguimiento y en las URL de destino/final para anuncios, palabras clave y ubicaciones, vínculos de sitios y listas de productos. Para [redes de anuncios compatibles y tipos de campañas](/help/search-social-commerce/introduction/supported-inventory.md) cuya configuración de campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente su propio código de seguimiento y redirección al guardar el registro, por lo que no es necesario agregarlo manualmente. De lo contrario, debe agregar manualmente el código a las plantillas de seguimiento o a las direcciones URL finales.
 
 Para obtener más información sobre el seguimiento, consulte el capítulo sobre seguimiento.
 
@@ -38,9 +40,9 @@ Las vistas de administración de campañas le permiten supervisar y administrar 
 
 * **[!UICONTROL Campaigns]** — El [!UICONTROL Campaigns] las vistas muestran datos de cada cuenta conectada a ad network. Puede ver datos de costes, clics, impresiones e ingresos de todas las cuentas de red de publicidad y de cuentas, campañas, grupos de publicidad, palabras clave, anuncios, grupos de productos de compras, ubicaciones, destinos automáticos (destinos de búsqueda dinámica), audiencias y bibliotecas de extensión de publicidad, así como sus entidades de cuenta asociadas. Para [tipos de campaña admitidos en redes de publicidad admitidas](/help/search-social-commerce/introduction/supported-inventory.md), puede crear y editar datos para campañas individuales y componentes de campaña directamente en la interfaz. Si lo desea, puede exportar los datos de la mayoría de las subvistas a un archivo de hoja de cálculo.
 
-   >[!NOTE]
-   >
-   >Los datos de nivel de anuncio no están disponibles para [!DNL Google Ads] anuncio de búsqueda dinámica (DSA), rendimiento máximo, compras inteligentes y [!DNL YouTube] campañas.
+  >[!NOTE]
+  >
+  >Los datos de nivel de anuncio no están disponibles para [!DNL Google Ads] anuncio de búsqueda dinámica (DSA), rendimiento máximo, compras inteligentes y [!DNL YouTube] campañas.
 
 * **[!UICONTROL Products]** — El [!UICONTROL Products] vistas mostrar datos de cada [[!DNL Google] or [!DNL Microsoft] cuenta del centro de comerciantes sincronizada](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). El valor predeterminado [!UICONTROL Accounts] la subvista enumera todas las cuentas sincronizadas; algunos tipos de usuarios pueden agregar nuevas cuentas desde esta vista. El [!UICONTROL Products] la subvista enumera cada producto dentro de la cuenta.
 
@@ -57,4 +59,3 @@ Las vistas de administración de campañas le permiten supervisar y administrar 
 >* [Información general sobre la implementación de cuentas y campañas de red de publicidad](campaign-implemention-overview.md)
 >* [Monitorizar y administrar el rendimiento de las campañas de red de anuncios](monitor-performance-campaigns.md)
 >* [Datos de conversión de Google Ads en Search, Social y Commerce](google-conversion-data.md)
-

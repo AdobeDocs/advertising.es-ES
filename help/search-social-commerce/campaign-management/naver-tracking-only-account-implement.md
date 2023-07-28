@@ -1,9 +1,11 @@
 ---
 title: Implementación [!DNL Naver] cuentas solo de seguimiento
 description: Obtenga información sobre cómo configurar campañas de seguimiento para su [!DNL Naver] cuentas de para que pueda rastrear, informar y visualizar el rendimiento de los anuncios que compra directamente desde la red de anuncios.
-source-git-commit: c4848da6c5489a5128a0424eef6a12f2c51caa12
+exl-id: 8013d4e8-0b4f-41a7-9c1b-10c55349930f
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -47,6 +49,7 @@ Puede rastrear las métricas de rendimiento de todas sus campañas y de cualquie
 1. Configure el seguimiento de las campañas:
 
    1. En Búsqueda, Social Y Comercio, [descargar un nuevo archivo de hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) uso de la opción para &quot;[!UICONTROL Generate Tracking URLs].&quot;
+
    Uso de &quot;[!UICONTROL Generate Tracking URLs]&quot; rellena la opción [!UICONTROL Destination URL] para cada palabra clave con el código de seguimiento Buscar, Social y Comercial con el prefijo [!UICONTROL Base URL] valor.
 
    A continuación se muestra un ejemplo de la dirección URL de destino con seguimiento:
@@ -57,12 +60,11 @@ Puede rastrear las métricas de rendimiento de todas sus campañas y de cualquie
 
       Es posible que pueda añadir las direcciones URL a las entidades relevantes cargando el archivo en la red dentro del editor de la red de publicidad. En ese caso, es posible que tenga que quitar algunas columnas, según los requisitos de datos de la red. De lo contrario, debe introducir las direcciones URL manualmente en la red.
 
-
 1. Descargue periódicamente datos sobre clics y costes acumulados diariamente desde la red de anuncios para las palabras clave o los anuncios de marca a nivel de grupo de anuncios que esté rastreando y, a continuación, [cargar los datos de clics y costes](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md) a Búsqueda, Social y Comercio en la [formato requerido](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md).
 
    Incluya la jerarquía de cuentas completa y las métricas que desee incluir. Search, Social y Commerce hacen coincidir los datos cargados con los datos de las campañas existentes.
 
-1. (Opcional) Si utiliza las etiquetas del servicio de seguimiento de conversiones de Adobe Advertising en sus páginas web para rastrear conversiones que no se rastrean en la red de publicidad, envíe archivos de fuentes que contengan datos de conversión agregados diariamente para agregarlos a sus campañas de seguimiento.
+1. (Opcional) Si utiliza las etiquetas del servicio de seguimiento de conversiones de Adobe Advertising en sus páginas web para rastrear conversiones que no se rastrean en la red de anuncios, envíe archivos de fuentes que contengan datos de conversión agregados diariamente para agregarlos a sus campañas de seguimiento.
 
    Para obtener más información, póngase en contacto con el equipo de cuenta de Adobe.
 
@@ -74,4 +76,3 @@ Todos los datos de seguimiento cargados están disponibles en [!UICONTROL Search
 >* [Cargar métricas de tráfico y conversión para [!DNL Naver] cuentas solo de seguimiento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >* [Requisitos de datos de métricas para [!DNL Naver] cuentas solo de seguimiento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
 >* [Formatos de rastreo de clics para [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-

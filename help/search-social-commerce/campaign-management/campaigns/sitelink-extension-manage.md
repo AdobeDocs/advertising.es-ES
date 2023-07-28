@@ -1,7 +1,9 @@
 ---
 title: Administrar vínculos de sitios compartidos
 description: Obtenga información sobre cómo crear y administrar extensiones de vínculos de sitios compartidos.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
@@ -94,7 +96,7 @@ Una vez guardado el registro, la dirección URL base incluye cualquier parámetr
 
 **[!UICONTROL Tracking Template]:** (Opcional) La plantilla de seguimiento o la URL de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje remoto y los parámetros de seguimiento, e incrusta la dirección URL de la página de aterrizaje/final en un parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
 
-* Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;Carga automática&quot;, Search, Social y Commerce prefieren automáticamente su propio código de seguimiento de clics al guardar el registro.
+* Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;Carga automática&quot;, Search, Social y Commerce prefieren automáticamente su propio código de seguimiento de clics al guardar el registro.
 
 * Para ver los parámetros admitidos para incrustar la dirección URL final, consulte el ([!DNL Microsoft Advertising] solo) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solo) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Disponible&quot; [!DNL ValueTrack] Parámetros&quot; en el [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 

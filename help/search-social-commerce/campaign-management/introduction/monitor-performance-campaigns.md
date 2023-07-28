@@ -1,9 +1,11 @@
 ---
 title: Monitorización y administración del rendimiento de las campañas
 description: Aprenda a monitorizar el rendimiento de cada campaña y portafolio, y a hacer cambios para cumplir con sus objetivos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -38,11 +40,10 @@ En función del rendimiento, es posible que necesite realizar operaciones comerc
 
 * (Cuando corresponda) Ajustar las estrategias de la cartera para mejorar el rendimiento y aprovechar las oportunidades de crecimiento.
 
-   Para obtener más información, consulte la Guía de optimización, que está disponible en Buscar, Social y Comercio.<!-- verify convention for referencing Optimization Guide here -->
+  Para obtener más información, consulte la Guía de optimización, que está disponible en Buscar, Social y Comercio.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de la administración de campañas en Search, Social y Commerce](campaign-management-about.md)
 >* [Información general sobre la implementación de cuentas y campañas de red de publicidad](campaign-implemention-overview.md)
 >* [Datos de conversión de Google Ads en Search, Social y Commerce](google-conversion-data.md)
-

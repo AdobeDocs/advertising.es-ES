@@ -1,9 +1,11 @@
 ---
 title: Ver datos generados a partir de fuentes
 description: Obtenga información sobre cómo ver los datos generados a partir de las fuentes de datos de inventario.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 961155ac-a9d3-42e4-904b-b968e9f3383b
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -18,7 +20,7 @@ Cuando propaga datos de fuente sin publicarlos simultáneamente en la red de pub
 
 * Si utilizó la opción para &quot;[!UICONTROL Propagate only],&quot; y vea los datos generados dentro de una vista de jerarquía de campañas desde el [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], y [!UICONTROL Ads] pestañas.
 
-   Las vistas de jerarquía de campañas muestran solo los datos generados a partir del archivo de fuente, no los componentes de cuenta existentes. Una vez que los datos de un componente y todos sus subcomponentes se publican en la red de publicidad, ya no aparecen en la vista de jerarquía de campañas.
+  Las vistas de jerarquía de campañas muestran solo los datos generados a partir del archivo de fuente, no los componentes de cuenta existentes. Una vez que los datos de un componente y todos sus subcomponentes se publican en la red de publicidad, ya no aparecen en la vista de jerarquía de campañas.
 
    1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre a la [!UICONTROL Templates] pestaña.
 
@@ -27,13 +29,13 @@ Cuando propaga datos de fuente sin publicarlos simultáneamente en la red de pub
       1. Haga clic en el nombre de la plantilla.
 
       1. En el [!UICONTROL Accounts] en el panel de navegación izquierdo, expanda el nodo red de publicidad y el nodo cuenta de red de publicidad y, a continuación, active la casilla de verificación situada junto al nombre de la plantilla.
+
    1. Haga clic en **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]**, o **[!UICONTROL Ads]** , en función de los componentes que desee ver.
 
       >[!NOTE]
       >
       >* A menos que vea los datos de una plantilla específica, la variable [!UICONTROL Ad Groups], [!UICONTROL Keywords], y [!UICONTROL Ads] las pestañas enumeran todos los grupos de anuncios, palabras clave y anuncios creados a partir de todas las plantillas y archivos de fuentes. Grupos de productos utilizados para [!DNL Google Ads] los anuncios de compras aparecen en la [!UICONTROL Keywords] pestaña.
       >* Para ver solo los subcomponentes de una campaña específica, comience por ver la [!UICONTROL Campaigns] pestaña. Del mismo modo, para ver solo los subcomponentes de un grupo de publicidad específico, comience por ver el [!UICONTROL Ad Groups] pestaña.
-
 
    1. (Opcional) Para ver más información, siga uno de estos procedimientos:
 
@@ -47,7 +49,6 @@ Cuando propaga datos de fuente sin publicarlos simultáneamente en la red de pub
 
          * Para enumerar todos los anuncios de un grupo de anuncios, haga clic en el nombre del grupo de anuncios y, a continuación, haga clic en [!UICONTROL Ads] pestaña.
 
-
 >[!MORELIKETHIS]
 >
 >* [Acerca de las fuentes de inventario](inventory-feeds-about.md)
@@ -55,4 +56,3 @@ Cuando propaga datos de fuente sin publicarlos simultáneamente en la red de pub
 >* [Publicar datos de campaña generados a partir de fuentes en redes de publicidad](propagated-data-post.md)
 >* [Detener un trabajo de registro para los datos de fuente de inventario](stop-job.md)
 >* [Estados de los datos generados a partir de las fuentes](propagated-data-status.md)
-

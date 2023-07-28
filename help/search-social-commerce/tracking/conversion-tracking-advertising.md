@@ -1,7 +1,9 @@
 ---
 title: Acerca de las etiquetas de seguimiento de conversión de Adobe Advertising
-description: Obtenga información acerca del uso de las etiquetas de seguimiento de conversión de Adobe Advertising.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Obtenga información acerca del uso de etiquetas de seguimiento de conversión de Adobe Advertising.
+exl-id: 07403d60-6db2-47e7-977b-4b59c8797c3d
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -10,13 +12,13 @@ ht-degree: 0%
 
 # Acerca de las etiquetas de seguimiento de conversión de Adobe Advertising
 
-Adobe Advertising realiza un seguimiento de las conversiones resultantes de los clics en las publicidades utilizando las etiquetas de seguimiento de conversión de Adobe Advertising que se insertan en las páginas web que se abren cuando se produce un evento de conversión, como una página de &quot;éxito&quot;. Las etiquetas incluyen información incrustada para enviar los datos de transacción, junto con la cookie de publicidad de Adobe del usuario, a un servidor de seguimiento, desde el cual la transacción se acredita al clic o impresión del anuncio correspondiente (según la configuración de atribución de conversión del anunciante).
+El seguimiento de conversiones mediante Adobe Advertising rastrea las conversiones resultantes de los clics en las publicidades utilizando las etiquetas de seguimiento de conversiones mediante Adobe Advertising que se insertan en las páginas web que se abren cuando se produce un evento de conversión, como una página de &quot;éxito&quot;. Las etiquetas incluyen información incrustada para enviar los datos de la transacción, junto con la cookie de Adobe Advertising del usuario, a un servidor de seguimiento, desde el cual la transacción se acredita al clic o impresión del anuncio correspondiente (según la configuración de atribución de conversión del anunciante).
 
 >[!NOTE]
 >
->Si el usuario no tiene una cookie válida, la publicidad en Adobe no informa de la conversión.
+>Si el usuario no tiene una cookie válida, el Adobe Advertising no informa de la conversión.
 
-Para cada conjunto de métricas de conversión que desee rastrear, debe crear una etiqueta de conversión independiente. Proporcione las etiquetas al anunciante o a la agencia con una lista de páginas web en las que insertar cada una. Puede generar cualquiera de los siguientes tipos de etiquetas de conversión. Consulte &quot;[Generación de una etiqueta de conversión de publicidad de Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot; para obtener instrucciones.
+Para cada conjunto de métricas de conversión que desee rastrear, debe crear una etiqueta de conversión independiente. Proporcione las etiquetas al anunciante o a la agencia con una lista de páginas web en las que insertar cada una. Puede generar cualquiera de los siguientes tipos de etiquetas de conversión. Consulte &quot;[Generación de una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot; para obtener instrucciones.
 
 * (Recomendado) Etiquetas JavaScript (versión 3 o 2), que no son visibles en las páginas web.
 
@@ -29,10 +31,9 @@ Para obtener más información sobre las diferencias entre los tipos de etiqueta
 >* Esta función no agrega etiquetas de imagen ni etiquetas JavaScript a las páginas web del anunciante. Las etiquetas deben añadirse según el procedimiento normal del anunciante para actualizar páginas web.
 >* Asegúrese de tener en cuenta cuánto tiempo se tardará en implementar las etiquetas. Según las políticas de la empresa, la implementación puede tardar semanas o incluso meses.
 
-
 ## Características de las etiquetas de seguimiento de conversión de Adobe Advertising
 
-El píxel de seguimiento de conversión permite a la publicidad de Adobe hacer lo siguiente:
+El píxel de seguimiento de conversión permite al Adobe Advertising hacer lo siguiente:
 
 * Rastree e informe de datos de conversión en el nivel de palabra clave para campañas de búsqueda.
 
@@ -53,10 +54,9 @@ El píxel de seguimiento de conversión permite a la publicidad de Adobe hacer l
 >[!MORELIKETHIS]
 >
 >* [Opciones de seguimiento de conversión](conversion-tracking-about.md)
->* [Generación de una etiqueta de conversión de publicidad de Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generación de una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3](format-conversion-tag-jsv3.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](format-conversion-tag-jsv2.md)
 >* [Formato de las etiquetas de seguimiento de conversión de imagen](format-conversion-tag-image.md)
 >* [Preguntas frecuentes sobre las etiquetas de conversión y seguimiento de vista de página](faqs-conversion-page-view-tracking-tags.md)
->* [La etiqueta de asignación de conversión JavaScript de Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
-
+>* [La etiqueta de asignación de conversión de JavaScript de Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

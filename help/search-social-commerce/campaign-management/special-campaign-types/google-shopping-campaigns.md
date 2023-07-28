@@ -1,9 +1,11 @@
 ---
 title: Implementación [!DNL Google Ads] campañas de compra
 description: Obtenga información sobre el flujo de trabajo para configurar [!DNL Google Ads] campañas de compras.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -35,6 +37,7 @@ Puede anular la oferta predeterminada para grupos de productos individuales.
    1. [Crear un grupo de productos &quot;Todos los productos&quot;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
 
    1. (Opcional) [Crear grupos de productos secundarios](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
+
    >[!NOTE]
    >No es necesario crear anuncios de compra. Incluso si el grupo de anuncios no incluye entidades de publicidad, [!DNL Google Ads] sigue mostrando anuncios de los productos.
 
@@ -54,4 +57,3 @@ Puede anular la oferta predeterminada para grupos de productos individuales.
 >
 >* Consulte los campos obligatorios para gestionar [!DNL Google Shopping] campañas y grupos de productos que utilizan [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md) y [plantillas de fuente de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md).
 >* Para obtener más información acerca de [!DNL Google Shopping] campañas, consulte la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/2454022).
-

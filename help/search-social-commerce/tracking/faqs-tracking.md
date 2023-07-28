@@ -1,7 +1,9 @@
 ---
 title: Preguntas frecuentes sobre el seguimiento
 description: Obtenga respuestas a preguntas comunes sobre el seguimiento, incluidos problemas de resolución de problemas.
-source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
+exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -55,7 +57,7 @@ En la cuenta o campaña, cambie el método de seguimiento a &quot;[!UICONTROL No
 
 ## Preguntas de datos
 
-+++¿Cómo sé qué propiedad de transacción es de una fuente de datos o se rastrea con la etiqueta de seguimiento de conversión de la publicidad de Adobe?
++++¿Cómo sé qué propiedad de transacción procede de una fuente de datos o se rastrea con la etiqueta de seguimiento de conversión de Adobe Advertising?
 
 En un [!UICONTROL Transaction Report], puede saber si el píxel de seguimiento de conversión de Adobe Advertising ha rastreado una propiedad de transacción incluida si incluye la columna personalizada &quot;[!UICONTROL Tracking URL].&quot; Las direcciones URL de seguimiento con el píxel de seguimiento de Adobe Advertising comienzan por `http://pixel.everesttech.net`.
 +++

@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Baidu] configuración de palabras clave"
+title: '[!DNL Baidu] configuración de palabras clave'
 description: Haga referencia a la configuración de [!DNL Baidu] Palabras clave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 70ecb5da-1056-4d87-82ba-ac03e0c81761
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -26,7 +28,6 @@ Puede escribir o pegar hasta 2000 palabras clave. Separe varias palabras clave c
 >* Puede crear palabras clave negativas desde el [!UICONTROL Keywords] > [!UICONTROL Negatives] vea y en el grupo de publicidad y en la configuración de la campaña.
 >* Cambio de una [!DNL Baidu] elimina la palabra clave existente y crea una nueva con un nuevo ID de palabra clave. Sin embargo, al cambiar el tipo de coincidencia no se elimina la palabra clave existente.
 
-
 **[!UICONTROL Status]:** El estado de visualización de la palabra clave: *Activo* o *Pausado*. El valor predeterminado para las palabras clave nuevas es *Activo*.
 
 ## [!UICONTROL Bids]
@@ -41,9 +42,8 @@ Puede escribir o pegar hasta 2000 palabras clave. Separe varias palabras clave c
 
 Una vez guardado el registro, la dirección URL base incluye cualquier parámetro de datos anexados configurado para la campaña o cuenta.
 
-Si utiliza el servicio de seguimiento de conversión de la publicidad Adobe y la configuración de la campaña incluye el uso de [!UICONTROL EF Redirect] y agregar seguimiento en el nivel de palabra clave, Search, Social y Commerce añadirán automáticamente su propio código de seguimiento de clics.
+Si utiliza el servicio de seguimiento de conversión de Adobe Advertising y la configuración de campaña incluye el uso de la variable [!UICONTROL EF Redirect] y agregar seguimiento en el nivel de palabra clave, Search, Social y Commerce añadirán automáticamente su propio código de seguimiento de clics.
 
 >[!MORELIKETHIS]
 >
 >* [Administrar palabras clave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

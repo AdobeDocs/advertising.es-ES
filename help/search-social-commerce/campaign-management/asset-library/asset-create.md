@@ -1,7 +1,8 @@
 ---
 title: Creación y carga de recursos
 description: Obtenga información sobre cómo crear recursos de imagen, vídeo y texto reutilizables y cargarlos en su [!DNL Google Ads] biblioteca de recursos de nivel de cuenta.
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%

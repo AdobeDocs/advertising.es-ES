@@ -1,7 +1,9 @@
 ---
 title: Administrar archivos de fuente de datos de inventario
 description: Obtenga información sobre cómo configurar las opciones que controlan cómo se procesan los datos de fuentes.
-source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
+exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Puede cargar y procesar archivos de fuentes de datos de cualquiera de las siguie
 
 * **Automáticamente mediante FTP:** Puede cargar archivos directamente en un directorio FTP; el servicio de fuentes comprueba los archivos nuevos cada dos horas. Después de cargar un archivo por primera vez, puede asociarlo a una plantilla específica de la red de publicidad. Posteriormente, todos los archivos que cargue con el mismo nombre se asociarán automáticamente a la misma plantilla. Dependiendo de cómo [configuración de los datos de fuente](feed-settings-manage.md), Search, Social y Commerce pueden propagar automáticamente los datos de la fuente a través de todas las plantillas aplicables y, opcionalmente, publicar los datos de la campaña y la publicidad resultantes en las redes de publicidad relevantes.
 
-   Para configurar un directorio FTP para depositar y procesar automáticamente archivos de datos, póngase en contacto con el equipo de cuenta de Adobe.
+  Para configurar un directorio FTP para depositar y procesar automáticamente archivos de datos, póngase en contacto con el equipo de cuenta de Adobe.
 
 * **Procesamiento manual:** Puede hacerlo manualmente [cargar archivos de fuente](#feed-file-upload) desde el [!UICONTROL Advanced] (ACM). Después de asociar un archivo de fuente con uno o más anuncios específicos de la red, [templates](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md), puede generar datos de campañas y anuncios usando [propagación de los datos de fuente a través de las plantillas](feed-data-propagate.md) según el [configuración de datos de fuente](feed-settings-manage.md). Si lo desea, puede obtener una vista previa de los datos generados en las vistas de jerarquía de campañas, generar un archivo de hoja de edición masiva para su revisión o generar un archivo de hoja de edición masiva para su publicación inmediata en la red de anuncios. Si no publica los datos inmediatamente, puede hacerlo [previsualizarlo](propagated-data-view.md) y [publicarlo](propagated-data-post.md) más tarde. Puede hacerlo más tarde [reemplazar el archivo de fuente existente por un nuevo archivo](#feed-file-replace) sin perder ninguna asociación de plantilla existente.
 
@@ -122,6 +124,7 @@ Cuando reemplaza un archivo de fuente (incluso si el nuevo archivo tiene un nomb
    * En el [!UICONTROL Feed] para cualquier plantilla aplicable, haga clic en ![Más opciones](/help/search-social-commerce/assets/options.png "Más opciones") y seleccione **[!UICONTROL Re-upload]**.
 
    * En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Feeds]**. En la lista de archivos de fuentes, active la casilla situada junto al nombre del archivo existente. Sobre la tabla de datos, haga clic en **[!UICONTROL Upload]**.
+
    >[!NOTE]
    >
    >El origen del archivo de fuente (&quot;[!UICONTROL FTP]&quot; o &quot;&amp;mdash&quot; para archivos cargados manualmente) se incluye en la [!UICONTROL Source] columna.
@@ -157,4 +160,3 @@ Puede eliminar cualquier archivo de fuente que se haya cargado manualmente o med
 >* [Publicar datos de campaña generados a partir de fuentes en redes de publicidad](propagated-data-post.md)
 >* [Detener un trabajo de registro para los datos de fuente de inventario](stop-job.md)
 >* [Estados de los datos generados a partir de las fuentes](propagated-data-status.md)
-

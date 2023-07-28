@@ -1,9 +1,11 @@
 ---
 title: Operaciones que se pueden realizar en hojas de edición masiva
 description: Consulte información general sobre cómo agregar, editar y eliminar datos de campaña mediante hojas de edición por lotes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 82969bb8-dff8-48e7-b37d-1446a2a90072
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -24,7 +26,7 @@ Las siguientes reglas se aplican al trabajo con componentes de campaña y sus pr
 
 * Para editar una propiedad para un componente existente, incluya todos los campos necesarios para editar ese componente más el campo de la propiedad.
 
-   Si deja en blanco el campo de propiedad, se conserva el valor existente.
+  Si deja en blanco el campo de propiedad, se conserva el valor existente.
 
 * Eliminando:
 
@@ -48,4 +50,3 @@ Las siguientes reglas se aplican al trabajo con componentes de campaña y sus pr
 >* [Formatos de archivo de hojas de edición masiva admitidos](bulksheet-file-formats.md)
 >* [Apéndice: Errores de hojas de edición masiva](../bulksheet-errors.md)
 >* [Descargar/crear un archivo de hoja de edición masiva](../bulksheet-download.md)
-

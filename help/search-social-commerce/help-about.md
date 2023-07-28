@@ -1,7 +1,9 @@
 ---
 title: Acerca de esta guía
 description: Descubra lo que se cubre en cada capítulo de esta guía.
-source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
+exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%

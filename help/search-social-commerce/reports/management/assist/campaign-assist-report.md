@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Assist Report]"
+title: '[!UICONTROL Campaign Assist Report]'
 description: Obtenga información acerca de [!UICONTROL Campaign Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # El [!UICONTROL Campaign Assist Report]
 
-*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones de Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
+*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
 
 El [!UICONTROL Campaign Assist Report] indica qué campañas han ayudado en el proceso de conversión. Los informes muestran cómo cada patrón de campañas cuyos anuncios produjeron una o más conversiones ha contribuido a las conversiones generales. Por ejemplo, puede ver cuántas conversiones se produjeron cuando los usuarios vieron un anuncio por primera vez desde la Campaña A, luego hicieron clic en un anuncio de la Campaña B y, por último, realizaron un pedido. Del mismo modo, puede ver cuántas conversiones se produjeron después de que los usuarios interactuaran con los anuncios de más de 10 campañas.
 

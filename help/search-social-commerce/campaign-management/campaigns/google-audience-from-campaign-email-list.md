@@ -1,9 +1,11 @@
 ---
 title: Crear un [!DNL Google Ads] audiencia de customer match de una lista de correo electrónico de Adobe Campaign
 description: Obtenga información sobre cómo crear un [!DNL Google Ads] audiencia de customer match de una lista de correo electrónico de Adobe Campaign existente.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 967580fc-52c3-42f5-8d60-18cb83bc714a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -31,6 +33,7 @@ Para ello, debe acceder a su [!DNL Campaign] y un archivo XML que contiene el fl
       1. Introduzca la dirección URL y el número de puerto del [!DNL Adobe] Servidor SFTP y nombre de carpeta, nombre de usuario y contraseña del anunciante.
 
       1. Haga clic **[!UICONTROL Save]**.
+
    1. Entrada [!DNL Campaign Client], instale el paquete de datos que incluye el flujo de trabajo necesario para enviar datos de correo electrónico:
 
       1. En la barra de menús, vaya a **[!UICONTROL Tools]> [!UICONTROL Advanced] >[!UICONTROL Import Package]**.
@@ -40,6 +43,7 @@ Para ello, debe acceder a su [!DNL Campaign] y un archivo XML que contiene el fl
       1. Busque el archivo del paquete de datos (`AMO_Workflow.xml`) en el dispositivo o red y, a continuación, haga clic en **[!UICONTROL Next]**.
 
       1. Clic **[!UICONTROL Start]** y espere a que se instale el flujo de trabajo.
+
    1. Edite el flujo de trabajo instalado para, opcionalmente, editar los filtros de la consulta de datos e identificar el nuevo nombre de audiencia y la cuenta SFTP externa:
 
       1. Ir a **[!UICONTROL Administration]> [!UICONTROL Configuration] > [!UICONTROL Package management] >[!UICONTROL Installed packages]** y abra el paquete.
@@ -51,29 +55,31 @@ Para ello, debe acceder a su [!DNL Campaign] y un archivo XML que contiene el fl
          * Edite las expresiones de filtro.
 
          * Haga clic **[!UICONTROL Finish]**.
+
       1. Asigne un nombre al segmento:
 
          * En el flujo de trabajo, haga doble clic en la actividad **[!UICONTROL Data extraction (File)]**.
 
          * En el **[!UICONTROL Data extraction (File)]** , en la pestaña **[!UICONTROL File name]** , introduzca el nombre del segmento con la extensión &quot;`.added`&quot; (como PaidSubscribers.added).
 
-            El nombre del segmento no debe existir ya. El nombre del segmento distingue entre mayúsculas y minúsculas y debe constar de caracteres ASCII, pero no puede incluir guiones bajos (`_`).
+           El nombre del segmento no debe existir ya. El nombre del segmento distingue entre mayúsculas y minúsculas y debe constar de caracteres ASCII, pero no puede incluir guiones bajos (`_`).
 
-            Sin embargo, si desea agregar el segmento a un segmento específico [!DNL Google Ad] cuenta, y añada el nombre del segmento con un guion bajo y la etiqueta [!UICONTROL User SE Account ID] (ID de Search, Social y Commerce para [!DNL Google Ads] cuenta, no el identificador de cuenta de red):
+           Sin embargo, si desea agregar el segmento a un segmento específico [!DNL Google Ad] cuenta, y añada el nombre del segmento con un guion bajo y la etiqueta [!UICONTROL User SE Account ID] (ID de Search, Social y Commerce para [!DNL Google Ads] cuenta, no el identificador de cuenta de red):
 
-            `_<User SE Account ID>`
+           `_<User SE Account ID>`
 
-            Ejemplo: Paid_Subscribers_1234.added
+           Ejemplo: Paid_Subscribers_1234.added
 
-            >[!NOTE]
-            >
-            >Esta es una excepción a la regla que prohíbe los guiones bajos en el nombre del archivo.
+           >[!NOTE]
+           >
+           >Esta es una excepción a la regla que prohíbe los guiones bajos en el nombre del archivo.
 
-            De lo contrario, el segmento se agregará a todo [!DNL Google Ads] cuentas que Search, Social y Commerce están sincronizando para el anunciante.
+           De lo contrario, el segmento se agregará a todo [!DNL Google Ads] cuentas que Search, Social y Commerce están sincronizando para el anunciante.
 
          * Deje la opción en **[!UICONTROL Generate an outbound transition]** seleccionados.
 
          * Haga clic **[!UICONTROL Ok]**.
+
       1. Especifique la cuenta externa a la que desea enviar los datos:
 
          * En el flujo de trabajo, haga doble clic en la actividad **[!UICONTROL File Transfer]**.
@@ -86,13 +92,9 @@ Para ello, debe acceder a su [!DNL Campaign] y un archivo XML que contiene el fl
 
          * (Opcional) En el **[!UICONTROL Schedule]** pestaña, especifique una programación diferente para la transferencia de archivos.
 
-            De forma predeterminada, el flujo de trabajo se ejecuta a las 00:00 (medianoche), lo que garantiza que se procesen todos los registros. Para minimizar la latencia, programe el flujo de trabajo para que se ejecute antes de las 18:00.
+           De forma predeterminada, el flujo de trabajo se ejecuta a las 00:00 (medianoche), lo que garantiza que se procesen todos los registros. Para minimizar la latencia, programe el flujo de trabajo para que se ejecute antes de las 18:00.
 
          * Haga clic **[!UICONTROL Ok]**.
-
-
-
-
 
 Search, Social y Commerce comprueba el directorio cada 30 minutos (en NN:30 y NN:59 en el huso horario del anunciante), mueve los archivos que encuentra a otra ubicación y, a continuación, crea automáticamente una audiencia a partir de los datos y la envía a Google a las 22:00 (10 p. m.). Search, Social y Commerce siguen buscando actualizaciones (adiciones y restas) en la lista de correo electrónico cada 30 minutos y actualizan la audiencia en [!DNL Google Ads] en consecuencia a las 22:00 diariamente.
 
@@ -106,11 +108,9 @@ Search, Social y Commerce comprueba el directorio cada 30 minutos (en NN:30 y NN
 >
 >* Consulte [[!DNL Google Ads] documentación sobre cómo funciona la coincidencia de clientes y limitaciones](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [Acerca de las audiencias](audience-about.md)
 >* [Crear [!DNL Google Ads] audiencias de coincidencia de cliente de [!DNL Adobe] audiencias](google-audience-from-adobe-audience.md)
 >* [Administrar audiencias de coincidencia de clientes mediante listas de datos de clientes](audience-from-customer-data-list.md)
 >* [Administración de audiencias de remarketing dinámico](audience-dynamic-remarketing-manage.md)
-

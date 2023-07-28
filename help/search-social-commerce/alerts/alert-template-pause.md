@@ -1,7 +1,9 @@
 ---
 title: Pausar una plantilla de alerta personalizada
 description: Obtenga información sobre cómo pausar una plantilla de alerta activa.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a588ac21-7f77-4254-a773-a6f68c9f1090
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Puede pausar las plantillas de alerta activas.
 
    * (Para pausar una o varias plantillas) Active la casilla de verificación situada junto a cada plantilla de alerta que desee pausar. En la barra de herramientas, haga clic en ![Pausar](/help/search-social-commerce/assets/pause.png "Pausar") En el cuadro de diálogo, haga clic en **[!UICONTROL Pause]**.
 
-      Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ Puede pausar las plantillas de alerta activas.
 >* [Configuración de plantilla de alerta personalizada](alert-template-settings.md)
 >* [Ver alertas personalizadas](alert-view.md)
 >* [Exportar datos para alertas personalizadas](alert-export-data.md)
-

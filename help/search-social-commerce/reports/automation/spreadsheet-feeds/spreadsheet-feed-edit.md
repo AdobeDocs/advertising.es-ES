@@ -1,9 +1,11 @@
 ---
 title: Editar configuración de fuente de informes de hoja de cálculo
 description: Obtenga información sobre cómo editar la configuración de las fuentes de hojas de cálculo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -24,7 +26,7 @@ Puede cambiar la plantilla de informe, [!DNL Microsoft® Excel] La plantilla y o
 
    * (Opcional) Para utilizar una plantilla de informe diferente o actualizada para la fuente, [crear un nuevo [!DNL Excel] plantilla para la plantilla de informe](spreadsheet-feed-create-excel-template.md).
 
-      Deberá cargar tanto la plantilla de informe como el nuevo [!DNL Excel] en el paso siguiente.
+     Deberá cargar tanto la plantilla de informe como el nuevo [!DNL Excel] en el paso siguiente.
 
    * (Opcional) Para agregar simplemente columnas personalizadas al [!DNL Excel] , inserte las columnas a la derecha de las columnas de la plantilla de informe y, a continuación, guarde el archivo como una [!DNL Excel] hoja de cálculo en formato .XLSX. Tendrá que cargar el nuevo [!DNL Excel] en el paso siguiente.
 
@@ -40,11 +42,11 @@ Puede cambiar la plantilla de informe, [!DNL Microsoft® Excel] La plantilla y o
 
    * (Opcional) Una vez que la fuente [!UICONTROL Update Status] es *[!UICONTROL Finished]*, haga clic en **[!UICONTROL XLSX]** junto a la fuente y, a continuación, abra o guarde el archivo según el procedimiento normal del explorador.
 
-      >[!NOTE]
-      >
-      > Si la plantilla de informe asociada con la fuente se elimina posteriormente, también se eliminará la fuente.
+     >[!NOTE]
+     >
+     > Si la plantilla de informe asociada con la fuente se elimina posteriormente, también se eliminará la fuente.
 
-      Las fuentes de hoja de cálculo se actualizan automáticamente a las 08:00 todos los días en el huso horario del anunciante. Si la plantilla de informe incluye direcciones de cualquier destinatario de correo electrónico, esas direcciones recibirán notificaciones cuando se actualice la hoja de cálculo.
+     Las fuentes de hoja de cálculo se actualizan automáticamente a las 08:00 todos los días en el huso horario del anunciante. Si la plantilla de informe incluye direcciones de cualquier destinatario de correo electrónico, esas direcciones recibirán notificaciones cuando se actualice la hoja de cálculo.
 
 >[!MORELIKETHIS]
 >
@@ -55,4 +57,3 @@ Puede cambiar la plantilla de informe, [!DNL Microsoft® Excel] La plantilla y o
 >* [Configuración de fuente de informe de hoja de cálculo](spreadsheet-feed-settings.md)
 >* [Ver o guardar un archivo de fuente de informes de hoja de cálculo](spreadsheet-feed-view-or-save.md)
 >* [Actualizar manualmente fuentes de informes de hoja de cálculo](spreadsheet-feed-refresh.md)
-

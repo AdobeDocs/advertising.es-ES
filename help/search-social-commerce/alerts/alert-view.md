@@ -1,9 +1,11 @@
 ---
 title: Ver alerta personalizada
 description: Obtenga información sobre cómo enumerar las instancias de alerta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a2ba2a8c-7334-4a6e-9873-8a4f59b9717c
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -28,11 +30,11 @@ Si desea editar las campañas o entidades de campaña identificadas en una alert
 
       * (Opcional) Para abrir una vista filtrada de las entidades en la vista de administración de campañas correspondiente, haga clic en **[!UICONTROL Live View]**.
 
-         Por ejemplo, para una alerta de nivel de campaña, esta acción abre el [!UICONTROL Campaigns] ver con una lista de las campañas que cumplen los criterios de alerta.
+        Por ejemplo, para una alerta de nivel de campaña, esta acción abre el [!UICONTROL Campaigns] ver con una lista de las campañas que cumplen los criterios de alerta.
 
-         >[!NOTE]
-         >
-         >Si Search, Social y Commerce han recibido actualizaciones de ingresos o si la red de publicidad ha actualizado las métricas de tráfico desde que se activó la alerta, los valores de las métricas en la vista de administración de campañas pueden diferir de los valores de las métricas en la alerta original.
+        >[!NOTE]
+        >
+        >Si Search, Social y Commerce han recibido actualizaciones de ingresos o si la red de publicidad ha actualizado las métricas de tráfico desde que se activó la alerta, los valores de las métricas en la vista de administración de campañas pueden diferir de los valores de las métricas en la alerta original.
 
       * (Opcional) Para descargar el informe de alertas, haga clic en **[!UICONTROL Download]** y seleccione el formato de archivo.
 
@@ -54,11 +56,11 @@ Si desea editar las campañas o entidades de campaña identificadas en una alert
 
       * (Opcional) Para abrir una vista filtrada de las entidades en la vista de administración de campañas correspondiente, desde la cual puede interactuar con los registros de entidades, haga clic en **[!UICONTROL Live View]**.
 
-         Por ejemplo, para una alerta de nivel de campaña, esta acción abre el [!UICONTROL Campaigns] ver con una lista de las campañas que cumplen los criterios de alerta.
+        Por ejemplo, para una alerta de nivel de campaña, esta acción abre el [!UICONTROL Campaigns] ver con una lista de las campañas que cumplen los criterios de alerta.
 
-         >[!NOTE]
-         >
-         >Si Search, Social y Commerce han recibido actualizaciones de ingresos o si la red de publicidad ha actualizado las métricas de tráfico desde que se activó la alerta, los valores de las métricas en la vista de administración de campañas pueden diferir de los valores de las métricas en la alerta original.
+        >[!NOTE]
+        >
+        >Si Search, Social y Commerce han recibido actualizaciones de ingresos o si la red de publicidad ha actualizado las métricas de tráfico desde que se activó la alerta, los valores de las métricas en la vista de administración de campañas pueden diferir de los valores de las métricas en la alerta original.
 
       * (Opcional) Para descargar el informe de alertas, haga clic en **[!UICONTROL Download]** y seleccione el formato de archivo.
 
@@ -73,4 +75,3 @@ Si desea editar las campañas o entidades de campaña identificadas en una alert
 >* [Eliminar una plantilla de alerta personalizada](alert-template-delete.md)
 >* [Configuración de plantilla de alerta personalizada](alert-template-settings.md)
 >* [Exportar datos para alertas personalizadas](alert-export-data.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Eliminar asociaciones de extensión de publicidad con campañas y grupos de publicidad
 description: Obtenga información sobre cómo desasociar extensiones de publicidad con campañas y grupos de publicidad.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Puede eliminar asociaciones de nivel de campaña y de grupo de publicidad con cu
 >* [Administrar [!DNL Google Ads] extensiones de llamada](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
 >* [Administrar extensiones de ubicación](location-extension-manage.md)
 >* [Administrar extensiones de vínculos de sitios](sitelink-extension-manage.md)
-

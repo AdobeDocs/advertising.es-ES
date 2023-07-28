@@ -1,7 +1,9 @@
 ---
 title: Exportar un archivo de hoja de edición masiva generado o cargado
 description: Obtenga información sobre cómo descargar un archivo de hoja de edición masiva, incluidos los archivos de error y los archivos de validación de página de aterrizaje.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a6b5d6a6-c719-45a5-a68a-91cf05a2b4e2
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Puede descargar cualquier archivo de hoja de edición masiva generado o cargado,
 >* [Validación de páginas de aterrizaje en archivos de hoja de edición masiva](bulksheet-validate-landing-pages.md)
 >* [Publicación de hojas de edición masiva o archivos de error corregidos](bulksheet-post.md)
 >* [Configuración de una cuenta FTP para cargar hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
-

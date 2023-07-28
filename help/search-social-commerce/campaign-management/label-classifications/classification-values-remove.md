@@ -1,7 +1,9 @@
 ---
 title: Quitar valores de clasificación de etiquetas de componentes de cuenta
 description: Obtenga información sobre cómo eliminar asociaciones entre valores de clasificación de etiquetas y componentes de cuenta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0e7ef344-7f23-40bc-9841-dc0354ad7f07
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Al eliminar un valor de clasificación, se elimina la asociación con el compone
 
       * Active la casilla de verificación situada junto a cada fila.
 
-         Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * En la barra de herramientas sobre la tabla de datos, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más")y haga clic en **[!UICONTROL Classification]**.
 
@@ -54,4 +56,3 @@ Al eliminar un valor de clasificación, se elimina la asociación con el compone
 >* [Asignar valores de clasificación a componentes de cuenta mediante hojas de edición masiva](classification-values-assign-bulksheets.md)
 >* [Eliminar valores de clasificación de etiquetas](classification-values-delete.md)
 >* [Eliminar clasificaciones de etiquetas](classification-delete.md)
-

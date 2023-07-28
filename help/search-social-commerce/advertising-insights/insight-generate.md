@@ -1,9 +1,11 @@
 ---
 title: Generación de un [!DNL Advertising Insight]
 description: Obtenga información sobre cómo crear un [!DNL Advertising Insight].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 242095c9-25f0-4954-b1a8-5ea3db312afd
+feature: Search Advertising Insights
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,6 +31,7 @@ ht-degree: 0%
       1. Seleccione el **[!UICONTROL Operation]**: *[!UICONTROL Extract events]* (para cargar una [!UICONTROL Channel Assist Report] o [!UICONTROL Campaign Assist Report] y clasificar los eventos de usuario en distintos grupos para su análisis) o *[!UICONTROL Analyze classified events]* (para cargar grupos de eventos y utilizarlos para generar la perspectiva).
 
       1. Clic **[!UICONTROL Select]** para localizar un archivo en formato XLSX y ZIP (XLSX comprimido), y haga clic en **[!UICONTROL Upload]**.
+
    4. ([!UICONTROL Google Account Audit] solo Insight) Haga lo siguiente:
 
       1. Introduzca el **[!UICONTROL Advertiser Name]** y **[!UICONTROL Account Name]**.
@@ -38,6 +41,7 @@ ht-degree: 0%
       1. Clic **[!UICONTROL Select]** para localizar los informes de campaña, palabra clave e historial de cambios descargados para la cuenta desde [!DNL Google Ads] interfaz de usuario web y un archivo de hoja de edición masiva descargado para la cuenta desde el [!DNL Google Ads Editor] aplicación. Luego haga clic en **[!UICONTROL Upload]**.
 
          Todos los archivos deben tener el formato CSV, TSV, TXT o ZIP (CSV comprimido, TSV o TXT).
+
    5. ([!UICONTROL Location Target Performance] solo perspectiva; opcional) Para agregar los datos diariamente en lugar de como resumen, seleccione la variable **[!UICONTROL Time Aggregation]** de *[!UICONTROL Daily]*.
 
    6. ([!UICONTROL Normalized Sim (Combined)] solo Insight) Haga lo siguiente:
@@ -49,14 +53,12 @@ ht-degree: 0%
          * *[!UICONTROL Optimized Multi-portfolio]*: genera una sola simulación en varios portafolios con el mismo objetivo y moneda.
 
          * *[!UICONTROL Individual Normalized]*: genera una simulación individual para cada portafolio seleccionado. Las carteras pueden tener diferentes objetivos y monedas.
+
    7. ([!UICONTROL Portfolio Launch] solo perspectiva; opcional) Para especificar una fecha de lanzamiento futura, especifique una fecha en la variable **[!UICONTROL Optional Date]** field.
 
    8. ([!UICONTROL Quality Score] solo Insight) Seleccione la red de publicidad aplicable.
 
    9. ([!UICONTROL Query Cross Matching] solo perspectiva) En el **[!UICONTROL Google Accounts]** , seleccione la cuenta.
-
-
-
 
 4. Haga clic **[!UICONTROL Generate Insight]**.
 
@@ -67,4 +69,3 @@ ht-degree: 0%
 >* [Acerca de [!UICONTROL Advertising Insights]](insight-about.md)
 >* [Ver o guardar un [!DNL Advertising Insight]](insight-view-save.md)
 >* [Eliminar un [!DNL Advertising Insight]](insight-delete.md)
-

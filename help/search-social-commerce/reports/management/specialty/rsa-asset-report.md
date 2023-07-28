@@ -1,9 +1,11 @@
 ---
-title: "[!UICONTROL RSA Asset Report]"
+title: '[!UICONTROL RSA Asset Report]'
 description: Obtenga información acerca de [!UICONTROL RSA Asset Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 76a7c698-5d05-4b48-bd50-5d126c0c4386
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -39,4 +41,3 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 >* [Acerca de los informes especiales](specialty-report-about.md)
 >* [Generar un informe de especialidad](specialty-report-generate.md)
 >* [Configuración de informes especiales](specialty-report-settings.md)
-

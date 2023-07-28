@@ -1,9 +1,11 @@
 ---
 title: Información general sobre la implementación de cuentas y campañas de red de publicidad
 description: Obtenga información acerca de las tareas relacionadas con la configuración, sincronización y administración de las cuentas de red de anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -43,14 +45,14 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads y solo cuentas de Yandex) Cargar [archivos de hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) que contenga tantos datos como desee para una cuenta y, a continuación, los publique en las redes de anuncios.
 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads y solo cuentas de Yandex) Introduzca datos de componentes individuales directamente en la interfaz. Para la mayoría de las campañas y tipos de publicidad, puede crear datos en los niveles de campaña, grupo de publicidad y palabra clave, ubicación y nivel de publicidad individuales.
+
       Sin embargo, algunos tipos de campañas y anuncios requieren flujos de trabajo únicos. Consulte las instrucciones para configurar [[!DNL Microsoft Advertising] campañas de compra](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] anuncios dinámicos de búsqueda](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] campañas de rendimiento máximo](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md), y [[!DNL Google Ads] campañas de compra](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
 
    1. ([!DNL Naver] solo cuentas de solo seguimiento) Cargar [archivos de hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) con datos para replicar las campañas, grupos de anuncios y palabras clave existentes en Search, Social y Commerce sin publicarlos en [!DNL Naver].
 
+1. Configure el seguimiento de todos los anuncios para los que el Adobe Advertising realizará un seguimiento de las conversiones:
 
-1. Configure el seguimiento para todos los anuncios para los que la publicidad de Adobe realizará un seguimiento de las conversiones:
-
-   1. (Anunciantes con el servicio de seguimiento de conversión de publicidad de Adobe) Si es necesario, [configuración del rastreo de clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) para los anuncios y, opcionalmente, para las palabras clave, las ubicaciones y las extensiones de publicidad, generando y cargando URL de seguimiento de clics de Search, Social y Commerce.
+   1. (Anunciantes con el servicio de seguimiento de conversión de Adobe Advertising) Si es necesario, [configuración del rastreo de clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) para los anuncios y, opcionalmente, para las palabras clave, las ubicaciones y las extensiones de publicidad, generando y cargando URL de seguimiento de clics de Search, Social y Commerce.
 
       Para [!DNL Google Ads] campañas de rendimiento máximo, configure todo el seguimiento en la [configuración de seguimiento de la campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
@@ -58,13 +60,13 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
 
    1. Configure el seguimiento de conversiones. Según la implementación, esto puede implicar la adición de etiquetas de seguimiento de conversión a las páginas web del anunciante o la configuración de una entrega diaria de fuentes para los datos de conversión que el anunciante haya recopilado por separado.
 
-      Si utiliza el servicio de seguimiento de conversiones de Adobe Advertising, puede generar etiquetas de seguimiento de conversiones [dentro de Search, Social y Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) o [uso de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Si utiliza el servicio de seguimiento de conversión de Adobes Advertising, puede generar etiquetas de seguimiento de conversión [dentro de Search, Social y Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) o [uso de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
 
    1. Valide los datos de los que se realiza un seguimiento.
 
    Para obtener más información sobre la configuración del seguimiento, consulte el capítulo sobre seguimiento.
 
-1. (Anunciantes con Adobe Analytics) [Integración de Adobe Advertising and Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que puedan intercambiar datos.
+1. (Anunciantes con Adobe Analytics) [Integración de Adobe Advertising y Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que puedan intercambiar datos.
 
 1. (Para permitir que Search, Social y Commerce optimicen las ofertas o los presupuestos de campaña; [tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md) solo) [Asignar la campaña a un portafolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
@@ -88,4 +90,3 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
 >* [Monitorizar y administrar el rendimiento de las campañas de red de anuncios](monitor-performance-campaigns.md)
 >* [Datos de conversión de Google Ads en Search, Social y Commerce](google-conversion-data.md)
 >* [Inventario admitido](/help/search-social-commerce/introduction/supported-inventory.md)
-

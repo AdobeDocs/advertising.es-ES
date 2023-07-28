@@ -1,7 +1,9 @@
 ---
 title: Datos de hoja de edición masiva para [!DNL Yahoo! Display Network] cuentas
 description: Hacer referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para [!DNL Yahoo! Display Network] cuentas.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%

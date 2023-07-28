@@ -1,9 +1,11 @@
 ---
 title: Configuración de fuente de informe de hoja de cálculo
 description: Obtenga información acerca de la configuración de las fuentes de hoja de cálculo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9a7e0a21-5db4-4829-a191-cacaa51f6cb6
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,3 @@ ht-degree: 0%
 >* [Ver o guardar un archivo de fuente de informes de hoja de cálculo](spreadsheet-feed-view-or-save.md)
 >* [Actualizar manualmente fuentes de informes de hoja de cálculo](spreadsheet-feed-refresh.md)
 >* [Eliminar fuentes de informes de hoja de cálculo](spreadsheet-feed-delete.md)
-

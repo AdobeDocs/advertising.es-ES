@@ -1,9 +1,11 @@
 ---
 title: Crear un [!DNL Excel] plantilla para una fuente de informes de hoja de cálculo
 description: Aprenda a crear plantillas de hoja de cálculo con formato especial.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,6 @@ Para crear fuentes de hoja de cálculo, primero debe crear fuentes con formato e
    >
    > * Puede crear fuentes de hoja de cálculo para [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword], y [!UICONTROL Forecast Accuracy] informes. Si usa el [!UICONTROL Ad Group Report], limite el número de grupos de publicidad incluidos para obtener resultados más rápidos.
    > * El [!UICONTROL Date Range] La unidad definida en la plantilla no se utiliza. Cuando configure la fuente de la hoja de cálculo más adelante, definirá las fechas en las que desea actualizar los datos.
-
 
 1. Una vez generado el informe, vaya a **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** y exporte una versión TSV o XLS de la salida del informe a un archivo.
 
@@ -43,10 +44,10 @@ Para crear fuentes de hoja de cálculo, primero debe crear fuentes con formato e
          Este nombre de ficha específico permite actualizar los datos.
 
       4. (Opcional) Agregue columnas personalizadas a la derecha de las columnas de la plantilla del informe, según sea necesario.
+
    1. (Opcional) En una hoja de cálculo independiente, cree una tabla dinámica. Una vez finalizado, haga clic con el botón derecho en cualquier celda de la tabla dinámica y seleccione **[!UICONTROL Pivot Table Options]**, haga clic en **[!UICONTROL Data]** , y luego seleccione **[!UICONTROL Refresh data when opening the file]**.
 
    1. Guarde el archivo como una [!DNL Excel] hoja de cálculo en formato .XLSX.
-
 
 >[!MORELIKETHIS]
 >
@@ -57,4 +58,3 @@ Para crear fuentes de hoja de cálculo, primero debe crear fuentes con formato e
 >* [Ver o guardar un archivo de fuente de informes de hoja de cálculo](spreadsheet-feed-view-or-save.md)
 >* [Actualizar manualmente fuentes de informes de hoja de cálculo](spreadsheet-feed-refresh.md)
 >* [Eliminar fuentes de informes de hoja de cálculo](spreadsheet-feed-delete.md)
-

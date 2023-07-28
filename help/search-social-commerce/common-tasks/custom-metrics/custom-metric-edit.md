@@ -1,7 +1,9 @@
 ---
 title: Editar una métrica personalizada
 description: Aprenda a editar las métricas personalizadas, que se calculan a partir de métricas estándar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7b0c18d3-e4ed-49ad-aef7-d05b2a67ba2e
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
@@ -53,8 +55,8 @@ Si edita una métrica personalizada que se incluye como columna en una de las vi
 1. Haga clic **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
+>
 * [Acerca de las métricas personalizadas](custom-metric-about.md)
 * [Creación de una métrica personalizada](custom-metric-create.md)
 * [Eliminar una métrica personalizada](custom-metric-delete.md)
 * [Configuración de métricas personalizadas](custom-metric-settings.md)
-

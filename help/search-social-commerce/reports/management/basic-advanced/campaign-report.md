@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Report]"
+title: '[!UICONTROL Campaign Report]'
 description: Obtenga información acerca de [!UICONTROL Campaign Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a241535a-d32a-4f84-9e0e-addb68d75496
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -40,4 +42,3 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 >* [Acerca de los informes básicos y avanzados](basic-advanced-report-about.md)
 >* [Generación de un informe básico o avanzado](basic-advanced-report-generate.md)
 >* [Configuración de informes básica y avanzada](basic-advanced-report-settings.md)
-

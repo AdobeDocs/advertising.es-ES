@@ -1,7 +1,8 @@
 ---
 title: '[!DNL Microsoft Advertising] datos de conversión'
 description: Obtenga información acerca de los tipos de [!DNL Microsoft Advertising]Datos de conversión no rastreados disponibles en en Search, Social y Commerce.
-source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -38,7 +39,7 @@ Los datos están disponibles en función de la hora del clic y de la conversión
 
 >[!NOTE]
 >
->* Si tiene varias cuentas con los mismos nombres de conversión, es posible que vea nombres de conversión duplicados en la publicidad de Adobe. Si esto sucede, [cambiar el nombre para mostrar](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) para una de las métricas duplicadas en [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Los informes no son precisos cuando dos métricas diferentes tienen el mismo nombre.
+>* Si tiene varias cuentas con los mismos nombres de conversión, es posible que vea nombres de conversión duplicados en el Adobe Advertising. Si esto sucede, [cambiar el nombre para mostrar](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) para una de las métricas duplicadas en [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Los informes no son precisos cuando dos métricas diferentes tienen el mismo nombre.
 >* Los datos en el nivel de unidad de oferta coinciden con los datos en la red de publicidad en el mismo nivel. Sin embargo, los datos de conversión propios de la red de anuncios para niveles superiores pueden incluir conversiones adicionales que no se atribuyen a las unidades de oferta secundarias. Los datos de Search, Social y Commerce siempre se acumulan desde el nivel de unidad de oferta, por lo que, por ejemplo, un informe de nivel de campaña podría no tener los mismos totales que un informe de nivel de campaña en la red de publicidad.
 >* La variación de datos suele ser menor después de la sincronización matinal que más tarde en el día, cuando aún no se han sincronizado conversiones adicionales. Se recomienda validar los datos por la mañana.
 >* Los datos no están disponibles en el nivel de audiencia o de ubicación geográfica y, por lo tanto, no se utilizan para optimizar automáticamente los ajustes de oferta de RLSA y ubicación.

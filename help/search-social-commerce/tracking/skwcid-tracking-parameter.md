@@ -1,7 +1,9 @@
 ---
 title: El parámetro de seguimiento s_kwcid
-description: Obtenga información acerca del parámetro de seguimiento utilizado para compartir datos de publicidad de Adobe con Adobe Analytics.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+description: Obtenga información acerca del parámetro de seguimiento utilizado para compartir datos de Adobe Advertising con Adobe Analytics.
+exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%

@@ -1,7 +1,9 @@
 ---
 title: Sincronizar manualmente datos de red de anuncios
 description: Obtenga información sobre cómo almacenar en déclencheur manualmente la sincronización de la estructura de la campaña y las entidades de campaña para las redes de publicidad admitidas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -37,4 +39,3 @@ Puede seguir el estado del trabajo de sincronización en la [!UICONTROL Workspac
 >[!MORELIKETHIS]
 >
 >* [Descargar/crear un archivo de hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
-

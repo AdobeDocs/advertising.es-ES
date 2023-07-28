@@ -1,7 +1,9 @@
 ---
 title: Administración de exclusiones de audiencia para campañas y grupos de anuncios
 description: Obtenga información sobre cómo configurar y administrar las exclusiones de audiencia para su [!DNL Google Ads] y [!DNL Microsoft® Advertising] campañas y grupos de publicidad.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -70,4 +72,3 @@ También puede eliminar exclusiones de audiencia.
 >
 >* [Acerca de las audiencias](audience-about.md)
 >* [Administrar destinatarios de audiencia para campañas y grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-

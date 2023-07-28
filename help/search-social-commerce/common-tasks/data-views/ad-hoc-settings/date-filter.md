@@ -1,7 +1,9 @@
 ---
 title: Filtrar datos por intervalo de fechas
 description: Aprenda a utilizar el filtro de intervalo de fechas global.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +24,6 @@ Cuando se guarda un intervalo de fechas específico para una vista predeterminad
 >* Para ver datos anteriores, vaya a [[!UICONTROL Reports] vista](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) y ejecutar un informe básico.
 >* También puede guardar un intervalo de fecha para una [vista predeterminada o vista personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-
 ## Cambio del filtro de fecha global en las vistas de campaña
 
 1. Sobre cualquier tabla de datos de Buscar \> Campañas \> Campañas, haga clic en el intervalo de fechas actual.
@@ -33,7 +34,7 @@ Cuando se guarda un intervalo de fechas específico para una vista predeterminad
 
    * Para un rango específico: seleccione **[!UICONTROL Custom Date Range]** y, a continuación, especifique la fecha inicial y la fecha final.
 
-      Introduzca las fechas en formato MM/DD/AAAA o MM-DD-AAAA, o haga clic en ![Icono de calendario](/help/search-social-commerce/assets/calendar.png "Icono de calendario") junto a cada campo para abrir el calendario y seleccionar una fecha.
+     Introduzca las fechas en formato MM/DD/AAAA o MM-DD-AAAA, o haga clic en ![Icono de calendario](/help/search-social-commerce/assets/calendar.png "Icono de calendario") junto a cada campo para abrir el calendario y seleccionar una fecha.
 
 1. (Opcional) Compare los datos del intervalo de fechas especificado con los datos de un segundo intervalo de fechas:
 

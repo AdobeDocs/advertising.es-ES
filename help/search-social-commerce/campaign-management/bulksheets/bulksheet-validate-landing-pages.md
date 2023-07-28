@@ -1,9 +1,11 @@
 ---
 title: Validación de páginas de aterrizaje en archivos de hoja de edición masiva
 description: Obtenga información sobre cómo validar las direcciones URL de destino en un archivo de hoja de edición masiva de una sola cuenta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf703687-1151-46f6-9540-12a83d41dfc8
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -22,7 +24,6 @@ Más tarde puede descargar el archivo, corregir los errores y cargar el archivo 
 >
 >* Esta función no valida los valores de la columna Dirección URL base/Dirección URL final.
 >* Puede publicar archivos de hojas de edición masiva mientras se validan, o incluso si se encuentran errores.
-
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
@@ -47,7 +48,6 @@ Cuando comienza la tarea, se agrega una nueva fila al [!UICONTROL Bulksheets vie
 >* Los archivos grandes tardan más en validarse.
 >* Los archivos de hojas de edición masiva para varias campañas pueden contener hasta 500 000 filas de datos. Si genera datos para varias campañas y los datos combinados constan de más de 500 000 filas, los datos se dividen por campaña en dos o más archivos llamados `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`, etc.
 
-
 >[!MORELIKETHIS]
 >
 >* [Administración de datos de campaña mediante hojas de edición masiva](bulksheet-about.md)
@@ -56,4 +56,3 @@ Cuando comienza la tarea, se agrega una nueva fila al [!UICONTROL Bulksheets vie
 >* [Detener un trabajo de hoja de edición masiva en curso](bulksheet-stop-job.md)
 >* [Cargar una hoja de edición masiva o un archivo de error corregido](bulksheet-upload.md)
 >* [Exportar un archivo de hoja de edición masiva generado o cargado](bulksheet-export.md)
-

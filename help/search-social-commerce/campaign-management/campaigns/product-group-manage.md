@@ -1,7 +1,9 @@
 ---
 title: Administrar grupos de productos de compras
 description: Obtenga información sobre cómo crear y administrar grupos de productos de compras en campañas de compras.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 25912abd-1ddb-443f-a16d-7efe57093677
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Una vez que hayas creado al menos un todo incluido &quot;[!UICONTROL All Product
 
 ## Editar configuración del nodo del grupo de productos
 
-Puede editar la plantilla de oferta y seguimiento para los nodos de grupo de productos de unidades (grupos de productos sin nodos de grupo de productos secundarios) que se incluyen para un grupo de publicidad. No se puede editar ninguna información para grupos de productos de unidades excluidas o para nodos de subdivisiones incluidos o excluidos, que son grupos de productos con nodos de grupos de productos secundarios.
+Puede editar la plantilla de oferta y seguimiento para los nodos de grupo de productos de unidades (grupos de productos sin nodos de grupo de productos secundarios) que se incluyen para un grupo de publicidad. No se puede editar ninguna información para grupos de productos de unidades excluidas o para nodos de subdivisiones incluidas o excluidas, que son grupos de productos con nodos de grupos de productos secundarios.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
@@ -109,4 +111,3 @@ Puede eliminar cualquier grupo de productos (excepto el grupo &quot;Todo lo dem�
 >* [Acerca de los grupos de productos](product-group-about.md)
 >* [[!DNL Google Ads] configuración de grupo de productos](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] configuración de grupo de productos](product-group-settings-microsoft.md)
-

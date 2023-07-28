@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] configuración del grupo de anuncios"
+title: '''[!DNL Google Ads] configuración del grupo de publicidad"'
 description: Haga referencia a la configuración de [!DNL Google Ads] grupos de anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -39,7 +41,6 @@ Si la campaña utiliza una estrategia de oferta de oferta inteligente (como [!UI
 >* Cuando pujes por palabra clave, crea plantillas de seguimiento en el nivel de palabra clave. Del mismo modo, cuando puje por ubicación, cree plantillas de seguimiento en el nivel de ubicación. Para todas las demás dimensiones, cree plantillas de seguimiento en el nivel de anuncio.
 >* Al realizar ofertas por edad, sexo, interés y lista o vertical para campañas en portafolios, la capacidad de optimización no optimiza las ofertas para la dimensión. Además, toda la atribución se aplica al grupo de anuncios.
 >* Los anuncios de la red de búsqueda siempre utilizan ofertas de palabras clave.
-
 
 ## [!UICONTROL Budget Options]
 
@@ -88,4 +89,3 @@ Si la campaña utiliza una estrategia de oferta de oferta inteligente (como [!UI
 >[!MORELIKETHIS]
 >
 >* [Administrar grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

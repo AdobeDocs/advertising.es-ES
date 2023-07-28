@@ -1,9 +1,11 @@
 ---
 title: Alertas personalizadas
 description: Obtenga información sobre las alertas personalizadas, incluido cómo crear plantillas de alerta y cuándo se activan.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d5264837-797c-4528-afbb-78e3a95a5b59
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -34,4 +36,3 @@ Dentro de [!UICONTROL Custom Alerts] vista, el [!UICONTROL Alert Templates] ver 
 >* [Configuración de plantilla de alerta personalizada](alert-template-settings.md)
 >* [Ver alertas personalizadas](alert-view.md)
 >* [Exportar datos para alertas personalizadas](alert-export-data.md)
-

@@ -1,9 +1,11 @@
 ---
 title: Acerca del seguimiento para Search, Social y Commerce
 description: Obtenga información acerca de las opciones de seguimiento para Search, Social y Commerce.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -20,15 +22,15 @@ Si desea rastrear campañas en redes de anuncios con las que Search, Social y Co
 
 ### Etiquetas de rastreo de clics
 
-Su equipo de implementación de Search, Social y Commerce configura el rastreo de clics actualizando las plantillas de seguimiento y las URL de destino para las extensiones de anuncios, palabras clave, ubicaciones, grupos de productos y vínculos de sitios en sus campañas de anuncios sincronizados para incluir una cadena de ID de seguimiento única y un redireccionamiento de publicidad de Adobe. También agregan seguimiento a los sufijos de la página de aterrizaje (sufijos finales de la URL) para su [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas y campañas.
+Su equipo de implementación de Search, Social y Commerce configura el rastreo de clics actualizando las plantillas de seguimiento y las URL de destino para las extensiones de anuncios, palabras clave, ubicaciones, grupos de productos y vínculos de sitios en sus campañas de anuncios sincronizados para incluir una cadena de ID de seguimiento única y una redirección de Adobe Advertising. También agregan seguimiento a los sufijos de la página de aterrizaje (sufijos finales de la URL) para su [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas y campañas.
 
-Los parámetros de seguimiento permiten que la publicidad de Adobe rastree los clics en un nivel de palabra clave individual (campañas de búsqueda) o de variación de anuncio (campañas de búsqueda con direccionamiento de contenido o sitio, campañas de visualización y campañas sociales). Cada vez que un usuario ve un anuncio en pantalla/contenido o hace clic en uno de sus anuncios, la red de anuncios envía el evento a los servidores de píxeles de Adobe Advertising mediante una etiqueta de seguimiento de clics asociada a la palabra clave o al anuncio. Para clics:
+Los parámetros de seguimiento permiten que el Adobe Advertising rastree los clics en un nivel de palabra clave individual (campañas de búsqueda) o de variación de anuncio (campañas de búsqueda con objetivo de contenido o sitio, campañas de visualización y campañas sociales). Cada vez que un usuario ve un anuncio en pantalla/contenido o hace clic en uno de sus anuncios, la red de anuncios envía el evento a los servidores de píxeles de Adobe Advertising mediante una etiqueta de seguimiento de clics asociada con la palabra clave o el anuncio. Para clics:
 
-* En el caso de los anuncios de Google Ads y los anuncios publicitarios de Microsoft en exploradores que admiten el seguimiento paralelo, la red de anuncios envía primero el clic a su sitio web y, a continuación, a los servidores de píxeles de Adobe Advertising, que luego colocan una cookie en el equipo del usuario, si es que aún no existe.
+* En el caso de los anuncios de Google Ads y los anuncios publicitarios de Microsoft en exploradores que admiten el seguimiento paralelo, la red de anuncios envía primero el clic a su sitio web y, a continuación, a los servidores de píxeles de Adobe Advertising, que luego colocan una cookie en el equipo del usuario si aún no existe ninguna.
 
-* En todos los demás casos, la red de publicidad envía el clic directamente a los servidores de píxeles de Adobe Advertising. El servidor de píxeles coloca una cookie en el equipo del usuario (si aún no existe) y luego redirige al usuario a la URL correspondiente del sitio web. La experiencia general para el usuario final es la misma que sería sin una redirección.
+* En todos los demás casos, la red publicitaria envía el clic directamente a los servidores de píxeles de Adobe Advertising. El servidor de píxeles coloca una cookie en el equipo del usuario (si aún no existe) y luego redirige al usuario a la URL correspondiente del sitio web. La experiencia general para el usuario final es la misma que sería sin una redirección.
 
-La cookie se establece en [!DNL Adobe] dominio (`everesttech.net`) como cookie de origen. Después de una redirección, el usuario se encuentra en el dominio del anunciante y la cookie se trata como una cookie de terceros. Para obtener más información sobre las cookies de Adobe Advertising, consulte &quot;[Adobe Cookies publicitarias](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html).&quot;
+La cookie se establece en [!DNL Adobe] dominio (`everesttech.net`) como cookie de origen. Después de una redirección, el usuario se encuentra en el dominio del anunciante y la cookie se trata como una cookie de terceros. Para obtener más información sobre las cookies de Adobe Advertising, consulte &quot;[cookies de Adobe Advertising](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html).&quot;
 
 ## Datos de conversión
 
@@ -40,8 +42,8 @@ El anunciante desempeña un papel en el suministro de los datos de conversión p
 
 Puede utilizar [etiquetas de conversión de varios proveedores](/help/search-social-commerce/tracking/conversion-tracking-about.md).
 
-Cuando utiliza una etiqueta de conversión de publicidad de Adobe y un usuario completa una transacción correcta y aterriza en una página de &quot;éxito&quot;, el servidor de píxeles de publicidad de Adobe comprueba la existencia de la cookie en el equipo del usuario, que se configuró en el momento de la redirección de clics. Cuando encuentra una cookie, la información sobre el evento de transacción se pasa mediante el parámetro ef_transid y la transacción se reconoce como una conversión y se acredita a la impresión de clic o visualización anterior.
+Cuando utiliza una etiqueta de conversión de Adobe Advertising y un usuario completa una transacción correcta y aterriza en una página de &quot;éxito&quot;, el servidor de píxeles de Adobe Advertising comprueba la existencia de la cookie en el equipo del usuario, que se configuró en el momento de la redirección de clics. Cuando encuentra una cookie, la información sobre el evento de transacción se pasa mediante el parámetro ef_transid y la transacción se reconoce como una conversión y se acredita a la impresión de clic o visualización anterior.
 
-Si el usuario hizo clic en más de uno de sus anuncios, Adobe Advertising acredita la transacción al clic final del anuncio o (para campañas de visualización o vídeo) a la impresión final del anuncio a menos que especifique lo contrario. Su [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j) determine el número de días después de que se produzca un clic de pago o una impresión de visualización/vídeo (respectivamente) en los que el evento puede atribuirse a una conversión.
+Si el usuario hizo clic en más de uno de los anuncios, Adobe Advertising acredita la transacción al clic final del anuncio o (para campañas de visualización o vídeo) a la impresión final del anuncio, a menos que se especifique lo contrario. Su [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j) determine el número de días después de que se produzca un clic de pago o una impresión de visualización/vídeo (respectivamente) en los que el evento puede atribuirse a una conversión.
 
-El equipo de implementación de la publicidad de Adobe trabaja con el anunciante para determinar el formato de las etiquetas de conversión que este debe implementar, identificar las páginas web en las que debe insertarse cada etiqueta de conversión y, a continuación, proporcionarle las etiquetas de conversión que debe implementar.
+El equipo de implementación de Adobes Advertising trabaja con el anunciante para determinar el formato de las etiquetas de conversión que debe implementar, identificar las páginas web en las que debe insertar cada etiqueta de conversión y, a continuación, proporcionar las etiquetas de conversión que debe implementar.

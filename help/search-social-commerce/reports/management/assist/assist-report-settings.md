@@ -1,16 +1,18 @@
 ---
 title: Configuración del informe de asistencia
 description: Obtenga información acerca de la configuración necesaria y opcional para los informes de asistencia.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f5b4f4ee-c13c-4d16-a786-a2225d136efe
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2176'
 ht-degree: 0%
 
 ---
 
 # Configuración del informe de asistencia
 
-*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones de Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
+*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
 
 | Ficha | Parámetro | Descripción |
 |----|----|----|
@@ -43,4 +45,3 @@ ht-degree: 0%
 >* [El [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Generar un informe de asistencia](assist-report-generate.md)
 >* [Acerca de los informes](/help/search-social-commerce/reports/report-about.md)
-

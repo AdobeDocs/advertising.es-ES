@@ -1,9 +1,11 @@
 ---
 title: Generar un informe de precisión de modelo
 description: Obtenga información sobre cómo generar informes de precisión del modelo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2ae8b344-7c05-4208-9457-174efd05fe53
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -42,4 +44,3 @@ Si ha introducido direcciones de correo electrónico para la notificación, cada
 >* [El [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 >* [El [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Eliminar informes](/help/search-social-commerce/reports/management/report-delete.md)
-

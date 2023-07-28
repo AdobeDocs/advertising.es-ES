@@ -1,7 +1,9 @@
 ---
 title: Administrar audiencias de coincidencia de clientes mediante listas de datos de clientes
 description: Obtenga información sobre cómo crear y editar [!DNL Google Ads] y [!DNL Microsoft® Advertising] audiencias de coincidencia de clientes de sus listas de datos de clientes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 734d8cb1-3915-410f-a0cc-0669d6575eab
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
@@ -52,11 +54,12 @@ Para [!DNL Microsoft® Advertising] cuentas, el archivo puede incluir direccione
 
          * ([!DNL Android™] apps) El [!DNL Android™] nombre del paquete en [!DNL Google Play], identificado por &quot;`id=<package_name>`.&quot;
 
-            Por ejemplo, en https://play.google.com/store/apps/details?id=com.example.game, el nombre del paquete es com.example.game.
+           Por ejemplo, en https://play.google.com/store/apps/details?id=com.example.game, el nombre del paquete es com.example.game.
 
          * ([!DNL iOS] apps) El ID de aplicación dentro de la [!DNL iTunes App Store], identificado por &quot;`<idNNNNNNNNN>`&quot; al final de la dirección URL. También está disponible en el [!DNL iOS Developer Console].
 
-            Por ejemplo, en https://itunes.apple.com/us/app/id284882215, el ID es id284882215.
+           Por ejemplo, en https://itunes.apple.com/us/app/id284882215, el ID es id284882215.
+
          Su equipo de desarrollo tiene acceso a [!UICONTROL App ID] para la plataforma correspondiente.
 
       1. En el [!UICONTROL Select File] , haga clic en **[!UICONTROL Choose File]** y seleccione el archivo en la red o dispositivo.
@@ -64,6 +67,7 @@ Para [!DNL Microsoft® Advertising] cuentas, el archivo puede incluir direccione
       1. Active la casilla de verificación para indicar que está de acuerdo con los términos del [!DNL Adobe] y políticas de privacidad de la red publicitaria.
 
       1. Haga clic **[!UICONTROL Upload File]**.
+
    1. Especifique el número de **[!UICONTROL Membership Days]**, que es el número de días que la cookie de un usuario permanece en la audiencia.
 
    Utilice el periodo de tiempo durante el cual espera que el anuncio sea relevante para el usuario. Las listas de clientes no caducan a menos que escriba un valor.
@@ -74,7 +78,6 @@ Para [!DNL Microsoft® Advertising] cuentas, el archivo puede incluir direccione
 >
 >* La red de anuncios puede tardar hasta 24 horas en procesar el archivo.
 >* Consulte [[!DNL Google Ads] documentación sobre cómo funciona la coincidencia de clientes y limitaciones](https://support.google.com/displayvideo/answer/9539301).
-
 
 ## Edición de una audiencia afín de clientes mediante una lista de datos de clientes
 
@@ -114,4 +117,3 @@ El nombre y los apellidos, las direcciones de correo electrónico y los números
 >* [Crear [!DNL Google Ads] audiencias de coincidencia de cliente de [!DNL Adobe] audiencias](google-audience-from-adobe-audience.md)
 >* [Crear un [!DNL Google Ads] audiencia de customer match de una lista de correo electrónico de Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Administración de audiencias de remarketing dinámico](audience-dynamic-remarketing-manage.md)
-

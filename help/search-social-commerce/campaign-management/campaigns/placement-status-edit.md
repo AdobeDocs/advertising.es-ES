@@ -1,7 +1,9 @@
 ---
 title: Cambiar el estado de las ubicaciones y las ubicaciones negativas
 description: Aprenda a cambiar el estado de las ubicaciones y las ubicaciones negativas de [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7f025ba2-e71f-40bf-9057-f7d7abbea5da
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -35,4 +37,3 @@ También se puede borrar una posición activa o en pausa, o una posición negati
 >* [Acerca de las ubicaciones](placement-about.md)
 >* [Administrar ubicaciones pujables](placement-manage.md)
 >* [Creación de ubicaciones negativas](placement-negative-create.md)
-

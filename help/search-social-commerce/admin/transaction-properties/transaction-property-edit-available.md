@@ -1,16 +1,18 @@
 ---
 title: Cambiar las propiedades de transacción disponibles en vistas de administración e informes
 description: Obtenga información sobre cómo hacer que las propiedades de transacción estén disponibles en las vistas de administración y en los informes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
 
 # Cambiar las propiedades de transacción disponibles en vistas de administración e informes
 
-Cuando Adobe Advertising rastrea un [propiedad de transacción](/help/search-social-commerce/glossary.md#s-t) para un anunciante, inicialmente se excluye de los objetivos del portafolio, los informes y las vistas de administración. Para que una propiedad esté visible, debe habilitarla explícitamente y, opcionalmente, cambiar el nombre para mostrar predeterminado, que es el nombre que se muestra. La única excepción es que las conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft® Advertising] las etiquetas de seguimiento de eventos universales están disponibles y son visibles automáticamente.
+Cuando el Adobe Advertising rastrea un [propiedad de transacción](/help/search-social-commerce/glossary.md#s-t) para un anunciante, inicialmente se excluye de los objetivos del portafolio, los informes y las vistas de administración. Para que una propiedad esté visible, debe habilitarla explícitamente y, opcionalmente, cambiar el nombre para mostrar predeterminado, que es el nombre que se muestra. La única excepción es que las conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft® Advertising] las etiquetas de seguimiento de eventos universales están disponibles y son visibles automáticamente.
 
 Del mismo modo, puede ocultar una propiedad de los objetivos del portafolio, los informes y las vistas de administración. Si oculta una propiedad que anteriormente estaba visible, se elimina de cualquier métrica derivada que contenga la propiedad.
 
@@ -24,7 +26,7 @@ De la lista de propiedades disponibles, cada usuario con acceso a los datos del 
 
    * Para buscar un nombre de propiedad específico o un nombre para mostrar, haga clic en ![Buscar](/help/search-social-commerce/assets/search.png "Buscar"), introduzca la palabra o cadena en el campo de entrada y, a continuación, pulse la tecla **[!DNL Enter]** clave.
 
-      Puede buscar cadenas que aparezcan en cualquier lugar dentro de la frase (como la primera letra o las últimas tres letras) y los términos de búsqueda no [distinguir entre mayúsculas y minúsculas](/help/search-social-commerce/glossary.md#c-d).
+     Puede buscar cadenas que aparezcan en cualquier lugar dentro de la frase (como la primera letra o las últimas tres letras) y los términos de búsqueda no [distinguir entre mayúsculas y minúsculas](/help/search-social-commerce/glossary.md#c-d).
 
    * Para buscar propiedades por su disponibilidad en vistas de administración e informes, haga clic en ![Filtrar](/help/search-social-commerce/assets/filter.png "Filtrar")y seleccione el filtro **[!UICONTROL Show in UI and Reports]**. A continuación, seleccione **[!UICONTROL Show]** (para ver las propiedades disponibles para incluir en informes y vistas de administración) o **[!UICONTROL Hide]** (para ver las propiedades que no están disponibles en las vistas Informes y Administración).
 
@@ -48,10 +50,10 @@ De la lista de propiedades disponibles, cada usuario con acceso a los datos del 
 
 >[!NOTE]
 >
->Si Adobe Advertising recopila datos para nuevas propiedades, entonces las nuevas propiedades, excepto para las conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft® Advertising] etiquetas universales de seguimiento de eventos: se excluyen automáticamente de las vistas de administración y de los informes hasta que se incluyen. Nuevas conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft® Advertising] las etiquetas de seguimiento de eventos universales siempre están disponibles automáticamente.
+>Si el Adobe Advertising recopila datos para nuevas propiedades, entonces las nuevas propiedades, excepto para las conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft® Advertising] etiquetas universales de seguimiento de eventos: se excluyen automáticamente de las vistas de administración y de los informes hasta que se incluyen. Nuevas conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft® Advertising] las etiquetas de seguimiento de eventos universales siempre están disponibles automáticamente.
 
 >[!MORELIKETHIS]
+>
 * [Administración de las propiedades de transacción de un anunciante](transaction-property-about.md)
 * [Ver las propiedades de transacción rastreadas de un anunciante](transaction-property-view-tracked.md)
 * [Cambiar el nombre para mostrar de una propiedad de transacción](transaction-property-edit-display-name.md)
-

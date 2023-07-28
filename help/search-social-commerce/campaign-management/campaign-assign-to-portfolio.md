@@ -1,7 +1,9 @@
 ---
 title: Asignación de campañas a un portafolio
 description: Obtenga información sobre cómo incluir campañas en portafolios para la optimización.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -45,12 +47,12 @@ No todos los tipos de campaña y redes de anuncios son aptos para la optimizaci�
       1. Expanda un grupo de portafolios en sus portafolios secundarios haciendo clic en [!UICONTROL Portfolio Group] nombre.
 
       1. Seleccione el portafolio.
+
    * Para buscar un portafolio:
 
       1. Introduzca al menos tres letras en el campo de entrada.
 
       1. En los resultados de la búsqueda, haga clic en **[!UICONTROL Select]** junto al nombre del portafolio.
-
 
 1. (Opcional) Haga clic en **[!UICONTROL Additional Details]** y, opcionalmente, introduzca un nombre y una descripción de proyecto.
 
@@ -79,4 +81,3 @@ No todos los tipos de campaña y redes de anuncios son aptos para la optimizaci�
 >[!MORELIKETHIS]
 >
 >* [Eliminación de campañas de un portafolio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
-

@@ -1,9 +1,11 @@
 ---
 title: Acerca de los grupos de productos
 description: Obtenga información sobre los grupos de productos de compras en campañas de compras.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c91e6fb5-3be1-4d21-b508-09f974058fc7
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -44,9 +46,9 @@ Puede crear y editar grupos de productos y eliminar grupos de productos y sus gr
 
 * (Necesario para [!DNL Google Ads]; práctica recomendada para [!DNL Microsoft Advertising]) Añada la URL de seguimiento a [!DNL Tracking Template] en la configuración de cuenta, campaña o grupo de productos. Para facilitar el mantenimiento, añádalos al nivel más alto posible. No se incluye ningún parámetro de datos anexados especificado para la cuenta o campaña.
 
-   >[!CAUTION]
-   >
-   >([!DNL Microsoft Advertising]) Utilice esta opción solo cuando no incluya direcciones URL de seguimiento de búsqueda, medios sociales y comercio en una columna personalizada dentro de la fuente del producto. Si realiza ambas acciones, las direcciones URL incluirán dos redirecciones y provocarán vínculos rotos.
+  >[!CAUTION]
+  >
+  >([!DNL Microsoft Advertising]) Utilice esta opción solo cuando no incluya direcciones URL de seguimiento de búsqueda, medios sociales y comercio en una columna personalizada dentro de la fuente del producto. Si realiza ambas acciones, las direcciones URL incluirán dos redirecciones y provocarán vínculos rotos.
 
 * ([!DNL Microsoft Advertising] solo) Añada la URL de seguimiento a los datos del producto dentro de la variable [!DNL Microsoft Merchant Center] cuenta. Para ello, incluya la dirección URL de seguimiento junto con el valor en la variable `link` o `mobile_link` , según corresponda, en una columna personalizada denominada [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) en la fuente del producto. Las direcciones URL generadas con este método no incluyen ningún parámetro de seguimiento especificado en la configuración de la cuenta o la campaña en Search, Social y Commerce.
 
@@ -59,4 +61,3 @@ Puede ver datos sobre grupos de productos en [el [!UICONTROL Product Group Repor
 >* [Implementación [!DNL Google Ads] campañas de compra](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] configuración de grupo de productos](product-group-settings-microsoft.md)
 >* [Implementación [!DNL Microsoft® Advertising] campañas de compra](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-

@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yahoo! Japan Ads] configuración de campaña"
+title: '''[!DNL Yahoo! Japan Ads] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Yahoo! Japan Ads] campañas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -93,4 +95,3 @@ Si asigna esta campaña a un portafolio para el que los límites presupuestarios
 >[!MORELIKETHIS]
 >
 >* [Administración de campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

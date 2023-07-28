@@ -1,9 +1,11 @@
 ---
-title: "[!UICONTROL Forecast Accuracy Report]"
+title: '[!UICONTROL Forecast Accuracy Report]'
 description: Obtenga información sobre el informe de precisión de la previsión, incluidas las columnas de datos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -23,7 +25,6 @@ Puede ver los datos de los 18 meses anteriores.
 >* Para las previsiones de costes, se considera aceptable una desviación del 10% en los últimos siete días, por lo que el gasto real que está entre el 90% y el 110% del gasto previsto está bien. Para las previsiones de ingresos, se considera aceptable una desviación del 15% en los últimos siete días, por lo que los ingresos reales que están entre el 85% y el 115% del gasto previsto están bien. Deben investigarse los pronósticos con desviaciones más altas.
 >
 >* Cuando las palabras clave de la cartera están asociadas con restricciones de desplazamiento de ofertas, la cartera gasta más o menos de lo debido en la cantidad total causada por el cambio de ofertas. Como resultado, las columnas de coste previsto se desvían del gasto objetivo por el aumento o la disminución del gasto.
-
 
 ## Columnas disponibles
 
@@ -56,4 +57,3 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 >* [El [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Generar un informe de precisión de modelo](model-accuracy-report-generate.md)
 >* [Configuración del informe de precisión de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
-

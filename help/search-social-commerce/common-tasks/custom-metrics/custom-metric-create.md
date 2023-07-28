@@ -1,10 +1,12 @@
 ---
 title: Creación de una métrica personalizada
 description: Aprenda a configurar métricas personalizadas, que se calculan a partir de métricas estándar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14a768f5-3c7f-4e8e-bcd0-66b176052a25
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '160'
+ht-degree: 1%
 
 ---
 
@@ -52,4 +54,3 @@ ht-degree: 0%
 >* [Editar una métrica personalizada](custom-metric-edit.md)
 >* [Eliminar una métrica personalizada](custom-metric-delete.md)
 >* [Configuración de métricas personalizadas](custom-metric-settings.md)
-

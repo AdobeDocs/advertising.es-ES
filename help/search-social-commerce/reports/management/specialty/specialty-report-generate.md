@@ -1,7 +1,9 @@
 ---
 title: Generar un informe de especialidad
 description: Obtenga información sobre cómo generar un informe de especialidad.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5edf7b11-37ae-4488-962a-7b4f50e7c569
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -46,4 +48,3 @@ Si ha introducido direcciones de correo electrónico para la notificación, cada
 >* [Configuración de informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
 >* [Columnas de informes para informes de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
 >* [Eliminar informes](/help/search-social-commerce/reports/management/report-delete.md)
-

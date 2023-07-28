@@ -1,7 +1,9 @@
 ---
 title: Configurar el rastreo de clics basado en cookies
 description: Obtenga información sobre cómo configurar y validar etiquetas de seguimiento de clics.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -86,4 +88,3 @@ Compruebe que se abre la página de aterrizaje correcta para la URL de seguimien
 >[!MORELIKETHIS]
 >
 >* [Cuándo y cómo generar URL de seguimiento de clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-

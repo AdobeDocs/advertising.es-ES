@@ -1,7 +1,9 @@
 ---
 title: Formatos de rastreo de clics para [!DNL Google Ads]
 description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Google Ads] cuentas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de la publicidad de Adobe.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
 >
 >* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
 >
@@ -40,7 +42,6 @@ Ejemplo:
 >
 >* (Vínculos de sitio) Puede ver qué conversiones resultaron de un clic en un vínculo de sitio al generar un [!UICONTROL Transaction Report]. El [!UICONTROL Link Type] el valor de columna para un vínculo de sitio es `sl:<Sitelink text>`, como `sl:See Current Offers`.
 
-
 ### Red de compras
 
 El siguiente formato se aplica a los anuncios de compras y grupos de productos en redes de compras. Puede especificar una plantilla de seguimiento en los niveles de cuenta, campaña, grupo de publicidad o grupo de productos.
@@ -53,7 +54,7 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de la publicidad de Adobe.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
 >
 >* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
 >
@@ -63,36 +64,33 @@ Ejemplo:
 >
 >* Puede ver qué conversiones resultaron de un clic en un anuncio de compra al generar un [!UICONTROL Transaction Report]. El [!UICONTROL Link Type] valor de columna para un anuncio de producto:`<product ID>`, como `pla:8525822`.
 
-
 ## Formatos de sufijo de página de aterrizaje (sufijo de URL final)
 
-Las cuentas que utilizan el seguimiento de conversión de publicidad Adobe deben incluir el identificador de clic ( ) de la red de publicidad`gclid` para [!DNL Google Ads]) en el sufijo:
+Las cuentas que utilizan el seguimiento de conversión de Adobe Advertising deben incluir el identificador de clic ( ) de la red de publicidad`gclid` para [!DNL Google Ads]) en el sufijo:
 
 * Cuando el anunciante tiene una integración de Adobe Analytics, el sufijo debe incluir uno de los siguientes:
 
    * [!DNL Google Ads] cuentas que utilizan la última versión `s_kwcid` , que admite los informes de nivel de campaña y de grupo de publicidad para campañas de rendimiento máximo y borradores y experimentos de campañas:
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-      Si la cuenta tiene una implementación s_kwcid del lado del servidor y la configuración de cuenta o campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitado y, a continuación, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente.
+     Si la cuenta tiene una implementación s_kwcid del lado del servidor y la configuración de cuenta o campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitado y, a continuación, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente.
 
    * Todos los demás [!DNL Google Ads] cuentas:
 
-      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * Cuando el anunciante no tiene una integración de Adobe Analytics, el sufijo debe incluir lo siguiente:
 
-   `&ev_efid={gclid}:G:s`
+  `&ev_efid={gclid}:G:s`
 
 >[!NOTE]
 >
 >* Los sufijos de la página de aterrizaje en niveles inferiores anulan el sufijo de nivel de cuenta. Para facilitar el mantenimiento, utilice únicamente el sufijo de nivel de cuenta a menos que sea necesario realizar un seguimiento diferente para los componentes de cuenta individuales. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, utilice el editor de la red de anuncios.
 >
->* (Anuncios dinámicos de búsqueda; anunciantes con Adobe Analytics y sin seguimiento del lado del servidor) Si desea incluir el seguimiento de la fuente inversa de Publicidad de Adobe a Analytics, añada la variable `s_kwcid` código de seguimiento al final del sufijo de página de aterrizaje de nivel de cuenta.
-
+>* (Anuncios dinámicos de búsqueda; anunciantes con Adobe Analytics y sin seguimiento del lado del servidor) Si desea incluir el seguimiento de la fuente inversa de Adobe Advertising a Analytics, añada la variable `s_kwcid` código de seguimiento al final del sufijo de página de aterrizaje de nivel de cuenta.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversiones de Adobe Advertising](formats-click-tracking-about.md)
+>* [Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising](formats-click-tracking-about.md)
 >* [Formatos para el código de seguimiento s\_kwcid](skwcid-tracking-parameter.md)
-

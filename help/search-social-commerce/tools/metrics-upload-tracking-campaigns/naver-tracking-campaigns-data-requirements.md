@@ -1,7 +1,9 @@
 ---
 title: Requisitos de datos para métricas de conversión y tráfico para [!DNL Naver] cuentas solo de seguimiento
 description: Consulte los requisitos de carga de datos para [!DNL Naver] cuentas solo de seguimiento.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f79730b-f8d6-4a7f-9d31-f42fe63e6b5d
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Los siguientes campos de encabezado son obligatorios y opcionales. Cada fila de 
 >* [Implementación [!DNL Naver] cuentas solo de seguimiento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [Apéndice: Datos de hojas de edición masiva requeridos para [!DNL Naver] cuentas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md))
 >* [Cargar métricas de tráfico y conversión para [!DNL Naver] cuentas solo de seguimiento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-

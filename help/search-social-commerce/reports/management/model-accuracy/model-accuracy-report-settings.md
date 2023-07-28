@@ -1,7 +1,9 @@
 ---
 title: Configuración del informe de precisión de modelo
 description: Obtenga información acerca de la configuración necesaria y opcional de los informes de precisión de modelo.
-source-git-commit: 8dff84a28407bb01b9fd62f5f018fb43432b3e25
+exl-id: 0d0e6ace-3cb3-4cf4-8cbf-3dd5a356f35e
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 0%

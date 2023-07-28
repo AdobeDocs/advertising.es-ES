@@ -1,7 +1,9 @@
 ---
 title: Cambiar el nombre para mostrar de una propiedad de transacción
 description: Aprenda a cambiar el nombre de la propiedad de transacción que se muestra en los encabezados de columna en las vistas de administración y en los informes.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 322be2d5-0d66-4d0c-a17a-619a1f6c0644
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -31,4 +33,3 @@ No puede eliminar un nombre para mostrar existente.
 >* [Administración de las propiedades de transacción de un anunciante](transaction-property-about.md)
 >* [Ver las propiedades de transacción rastreadas de un anunciante](transaction-property-view-tracked.md)
 >* [Cambiar las propiedades de transacción disponibles en vistas de administración e informes](transaction-property-edit-available.md)
-

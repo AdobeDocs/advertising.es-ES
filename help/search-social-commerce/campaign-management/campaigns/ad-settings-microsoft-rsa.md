@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] configuración de anuncios de búsqueda adaptable"
+title: '''[!DNL Microsoft® Advertising] configuración de anuncios de búsqueda adaptable'
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] anuncios de búsqueda adaptables.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 4ee3c81a-38f4-448d-aea5-c062ab0a6f2a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 0%
@@ -53,4 +55,3 @@ El formato de anuncio de búsqueda interactivo está disponible para los anuncio
 >* [[!DNL Microsoft® Advertising] configuración de publicidad multimedia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] configuración de publicidad del producto](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] configuración de anuncios adaptables (audiencia)](ad-settings-microsoft-responsive.md)
-

@@ -1,9 +1,11 @@
 ---
 title: Implementación [!DNL Google Ads] campañas de rendimiento máximo
 description: Obtenga información sobre el flujo de trabajo para configurar [!DNL Google Ads] campañas de rendimiento máximo.
-source-git-commit: 333d32963b96d2add1d99b2e27d7725341b4cfdf
+exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -19,7 +21,6 @@ Puede ver las campañas Máximo rendimiento existentes, con datos de rendimiento
 >* Debe cargar manualmente todos los archivos de imagen. Vínculos a [!DNL Google Merchant Center] las fuentes de productos de no son compatibles.
 >* Solo están disponibles las configuraciones necesarias. Para obtener una configuración opcional, inicie sesión en [!DNL Google Ads] editor.
 >* La compatibilidad con la lista de grupos no está disponible. Para administrar y ver los datos de los grupos de listas, inicie sesión en [!DNL Google Ads] editor.
-
 
 ## Pasos para la configuración [!DNL Google Ads] campañas de rendimiento máximo
 

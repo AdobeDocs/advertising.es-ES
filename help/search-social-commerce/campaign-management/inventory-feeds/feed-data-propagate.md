@@ -1,7 +1,9 @@
 ---
 title: Propagación de datos de fuentes de inventario mediante plantillas
 description: Obtenga información acerca de la propagación de datos desde las fuentes de inventario a través de plantillas de publicidad para administrar la estructura de cuentas y enviar anuncios dinámicos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Después de crear una plantilla de fuente específica de la red de anuncios y asociar un archivo de fuente o una [!DNL Google] o [!DNL Microsoft®] cuenta del centro de comerciantes con él, puede crear anuncios de forma dinámica propagando los datos de fuente a través de la plantilla según el [configuración de datos de fuente](feed-settings-manage.md). Durante la propagación, los nombres de columna de la plantilla se sustituyen por valores de datos en la fuente y las campañas generadas y sus componentes tienen la configuración predeterminada a menos que la plantilla especifique lo contrario. Según las opciones de plantilla, Buscar, Social y Comercio crea una nueva estructura de cuenta (campañas, grupos de anuncios y palabras clave) para los anuncios o asigna los anuncios a la estructura de cuenta existente.
 
-Cuando los nuevos datos de fuente contienen nuevos valores de datos para un elemento o la plantilla ha cambiado, los anuncios existentes se eliminan y se crean nuevos. Si el único cambio es la designación de [!DNL Google Ads] Param 1 y Param 2, entonces solo se actualizan esos valores. Los anuncios duplicados (la misma copia de anuncio y la misma página de aterrizaje) nunca se crean.
+Cuando los nuevos datos de fuente contienen nuevos valores de datos para un elemento o la plantilla ha cambiado, los anuncios existentes se eliminan y se crean nuevos. Si el único cambio es la designación de [!DNL Google Ads] Param 1 y Param 2, entonces solo se actualizan esos valores. Los anuncios duplicados (la misma copia de anuncio y página de aterrizaje) nunca se crean.
 
 Al propagar datos, puede obtener una vista previa de los datos generados en una vista de jerarquía de campañas, generar un archivo de hoja de edición masiva para revisarlos o generar un archivo de hoja de edición masiva para su publicación inmediata en la red de anuncios. Cuando se completa cada acción de propagación, se añade un resumen de propagación a la pestaña Propagations, indicando el número de cada tipo de entidad que se ha creado, pausado o eliminado en función de la propagación. Si no publica los datos inmediatamente, puede previsualizarlos y publicarlos más adelante.
 
@@ -30,11 +32,12 @@ Al propagar datos, puede obtener una vista previa de los datos generados en una 
 
    * **[!UICONTROL Propagate and Preview]:** Para crear un archivo de hoja de edición masiva (denominado &quot;`<feed file name>_<template name>`&quot;), que está disponible en el [!UICONTROL Bulksheets] ver para revisión (pero no en el [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], y [!UICONTROL Ads] pestañas). Posteriormente, puede publicar el archivo de hoja de edición masiva desde el [!UICONTROL Bulksheets] vista.
 
-      Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP. No es necesario descomprimir el archivo para publicarlo.
+     Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP. No es necesario descomprimir el archivo para publicarlo.
 
    * **[!UICONTROL Propagate and Post to SE]:** Para crear un archivo de hoja de edición masiva (denominado &quot;`<feed file name>_<template name>`&quot;) que se pone inmediatamente en cola para su publicación en la red publicitaria. El archivo de hoja de edición masiva está disponible en la [!UICONTROL Bulksheets] vista, pero no está disponible en la [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], y [!UICONTROL Ads] pestañas.
 
-      Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP.
+     Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP.
+
    La &quot;Última prop. La columna Estado muestra el estado del trabajo para las plantillas aplicables.
 
    Cuando se completa cada acción de propagación, se añade un resumen de propagación a [!UICONTROL Propagations] , que indica el número de cada tipo de entidad que se creó, pausó o eliminó en función de la propagación. La estimación no incluye los cambios realizados desde el editor de anuncios propio de la red de publicidad.
@@ -53,11 +56,11 @@ Al propagar datos, puede obtener una vista previa de los datos generados en una 
 
    * **[!UICONTROL Propagate and Preview]:** Para crear un archivo de hoja de edición masiva (denominado &quot;`<feed file name>_<template name>`&quot;), que está disponible en el [!UICONTROL Bulksheets] ver para revisión (pero no en el [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], y [!UICONTROL Ads] pestañas). Posteriormente, puede publicar el archivo de hoja de edición masiva desde el [!UICONTROL Bulksheets] vista.
 
-      Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP. No es necesario descomprimir el archivo para publicarlo.
+     Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP. No es necesario descomprimir el archivo para publicarlo.
 
    * **[!UICONTROL Propagate and Post to SE]:** Para crear un archivo de hoja de edición masiva (denominado &quot;`<feed file name>_<template name>`&quot;) que se pone inmediatamente en cola para su publicación en la red publicitaria. El archivo de hoja de edición masiva está disponible en la [!UICONTROL Bulksheets] vista, pero no está disponible en la [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], y [!UICONTROL Ads] pestañas.
 
-      Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP.
+     Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP.
 
 1. En la ventana emergente, active la casilla de verificación situada junto a cada plantilla a través de la cual desee propagar datos desde el archivo de fuente y, a continuación, haga clic en **[!UICONTROL Propagate Feed]**.
 
@@ -92,4 +95,3 @@ Puede detener un trabajo de propagación de datos de fuentes de inventario mient
 >* [Publicar datos de campaña generados a partir de fuentes en redes de publicidad](propagated-data-post.md)
 >* [Detener un trabajo de registro para los datos de fuente de inventario](stop-job.md)
 >* [Estados de los datos generados a partir de las fuentes](propagated-data-status.md)
-

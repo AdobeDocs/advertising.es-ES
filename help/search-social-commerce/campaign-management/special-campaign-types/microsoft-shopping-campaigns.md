@@ -1,9 +1,11 @@
 ---
 title: Implementación [!DNL Microsoft® Advertising] campañas de compra
 description: Obtenga información sobre el flujo de trabajo para configurar [!DNL Microsoft® Advertising] campañas de compras.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3fb19b92-5bc0-414e-9234-68310082d0ed
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -62,4 +64,3 @@ Puede anular la oferta predeterminada para grupos de productos individuales.
 >
 >* Consulte los campos obligatorios para gestionar [!DNL Microsoft® Shopping] campañas y grupos de productos que utilizan [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md) y [plantillas de fuente de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md).
 >* Para obtener más información acerca de [!DNL Microsoft® Shopping] campañas, consulte la [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/50903).
-

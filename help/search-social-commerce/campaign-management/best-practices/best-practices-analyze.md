@@ -1,9 +1,11 @@
 ---
 title: Analice los informes para restringir las palabras clave y la configuración de campañas
 description: Conozca las prácticas recomendadas para utilizar los informes con el fin de restringir las palabras clave y la configuración de campañas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fe32561d-e910-40e0-8c37-889184b4e9c6
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -28,4 +30,3 @@ Para obtener más información sobre cómo ajustar las palabras clave y la confi
 >
 >* [Escribir texto efectivo y copiar](best-practices-write.md)
 >* [Optimización de las páginas de aterrizaje del sitio web](best-practices-optimize.md)
-

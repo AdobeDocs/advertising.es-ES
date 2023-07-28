@@ -1,9 +1,11 @@
 ---
 title: Eliminar hojas de edición masiva y archivos de error cargados
 description: Obtenga información sobre cómo eliminar los archivos de hojas de edición masiva y los archivos de error.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d4769ae4-f39c-4d33-b8c7-66e97e63a56f
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -29,4 +31,3 @@ Puede eliminar manualmente archivos de hojas de edición masiva, archivos de err
 >* [Administración de datos de campaña mediante hojas de edición masiva](bulksheet-about.md)
 >* [Detener un trabajo de hoja de edición masiva en curso](bulksheet-stop-job.md)
 >* [Exportar un archivo de hoja de edición masiva generado o cargado](bulksheet-export.md)
-

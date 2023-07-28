@@ -1,7 +1,9 @@
 ---
 title: Asignar valores de clasificación a componentes de cuenta desde las vistas de administración de campañas
 description: Obtenga información sobre cómo asignar valores de clasificación a componentes de cuenta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e55d7d8-5e12-409b-ad5d-c53cbf24c7c9
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
       * Seleccione la casilla de verificación situada junto a cada fila correspondiente.
 
-         Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * En la barra de herramientas sobre la tabla de datos, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más")y haga clic en **[!UICONTROL Classification]**.
 
@@ -38,17 +40,17 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
    * Para cambiar los valores de clasificaciones existentes por valores nuevos, seleccione **[!UICONTROL Set To]**.
 
-      La longitud máxima de cada valor es de 100 caracteres, y puede incluir caracteres ASCII y no ASCII.
+     La longitud máxima de cada valor es de 100 caracteres, y puede incluir caracteres ASCII y no ASCII.
 
    * Para asignar los valores de clasificación especificados sin eliminar los valores existentes, seleccione **[!UICONTROL Assign]**.
 
    * Para eliminar valores de clasificación específicos asignados actualmente, seleccione **[!UICONTROL Remove]**.
 
-      Cuando se elimina un valor de clasificación, los datos del informe del valor ya no están disponibles para los componentes de cuenta especificados.
+     Cuando se elimina un valor de clasificación, los datos del informe del valor ya no están disponibles para los componentes de cuenta especificados.
 
    * Para eliminar los valores de clasificación especificados, seleccione **[!UICONTROL Delete]**.
 
-      Al eliminar un valor de clasificación, no estará disponible para uso futuro y los datos del informe ya no estarán disponibles para el valor. Se eliminan todas las asignaciones entre los valores y los componentes de cuenta específicos, pero no los componentes de cuenta.
+     Al eliminar un valor de clasificación, no estará disponible para uso futuro y los datos del informe ya no estarán disponibles para el valor. Se eliminan todas las asignaciones entre los valores y los componentes de cuenta específicos, pero no los componentes de cuenta.
 
 1. Para cada valor de clasificación aplicable, haga lo siguiente:
 
@@ -58,15 +60,15 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
       * Para crear una clasificación, haga clic en [!UICONTROL +]. En el campo de entrada, introduzca el nombre de la clasificación y haga clic en ![Guardar](/help/search-social-commerce/assets/select.png "Guardar") para guardar inmediatamente la clasificación.
 
-         El nombre debe constar de [Caracteres ASCII 32-126](https://www.asciitable.com/)y la longitud máxima es de 27 caracteres de un solo byte.
+        El nombre debe constar de [Caracteres ASCII 32-126](https://www.asciitable.com/)y la longitud máxima es de 27 caracteres de un solo byte.
+
    1. En el **[!UICONTROL Value Name]** , especifique el nombre del valor:
 
       * Para utilizar un valor existente, haga clic en el nombre del valor para seleccionarlo.
 
       * Para crear un valor, haga clic en [!UICONTROL +]. En el campo de entrada, introduzca el valor y haga clic en ![Guardar](/help/search-social-commerce/assets/select.png "Guardar") para guardar inmediatamente el valor.
 
-         La longitud máxima es de 100 caracteres y puede incluir caracteres ASCII y no ASCII.
-
+        La longitud máxima es de 100 caracteres y puede incluir caracteres ASCII y no ASCII.
 
 1. (Opcional) Introduzca detalles adicionales:
 
@@ -84,4 +86,3 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 >* [Quitar valores de clasificación de etiquetas de componentes de cuenta](classification-values-remove.md)
 >* [Eliminar valores de clasificación de etiquetas](classification-values-delete.md)
 >* [Eliminar clasificaciones de etiquetas](classification-delete.md)
-

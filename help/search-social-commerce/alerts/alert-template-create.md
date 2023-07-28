@@ -1,9 +1,11 @@
 ---
 title: Crear una plantilla de alerta personalizada
 description: Obtenga información sobre cómo crear una plantilla para generar alertas personalizadas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1acc6224-3e6c-4443-8efe-9ae8545d6da0
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -56,4 +58,3 @@ Para desplazarse entre las fichas, haga clic en el nombre de la ficha (por ejemp
 >* [Configuración de plantilla de alerta personalizada](alert-template-settings.md)
 >* [Ver alertas personalizadas](alert-view.md)
 >* [Exportar datos para alertas personalizadas](alert-export-data.md)
-

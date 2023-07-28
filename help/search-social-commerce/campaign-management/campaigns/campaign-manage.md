@@ -2,7 +2,8 @@
 title: Administración de campañas
 description: Aprenda a crear y administrar campañas publicitarias.
 exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
-source-git-commit: 7c4f3b5b7745f846817c85364006a67fd644bd3b
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%

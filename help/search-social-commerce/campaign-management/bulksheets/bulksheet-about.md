@@ -1,7 +1,9 @@
 ---
 title: Administración de datos de campaña mediante hojas de edición masiva
 description: Obtenga información acerca de la funcionalidad de hojas de edición masiva disponible por red de anuncios, el flujo de trabajo de hojas de edición masiva y la gestión de errores.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -26,11 +28,11 @@ Todas las hojas de edición masiva, los archivos de error de validación de pág
 
 * **Descargar y cargar solo:** [!DNL Naver] cuentas
 
-   Puede cargar [!DNL Naver] datos para usar en Search, Social y Commerce, pero no se pueden publicar en la red de anuncios. También puede descargar los datos existentes (sin sincronizar).
+  Puede cargar [!DNL Naver] datos para usar en Search, Social y Commerce, pero no se pueden publicar en la red de anuncios. También puede descargar los datos existentes (sin sincronizar).
 
 * **Descargar solo datos:**  [!DNL Pinterest], [!DNL Yahoo Native], y [!DNL Yahoo! Display Network] cuentas
 
-   Puede descargar los datos existentes (no sincronizados).
+  Puede descargar los datos existentes (no sincronizados).
 
 ## Información general sobre el uso de hojas de edición masiva
 
@@ -84,4 +86,3 @@ La información de cada archivo incluye el estado actual de la tarea y el porcen
 >* [Cargar una hoja de edición masiva o un archivo de error corregido](bulksheet-upload.md)
 >* [Publicación de hojas de edición masiva o archivos de error corregidos](bulksheet-post.md)
 >* [Exportar un archivo de hoja de edición masiva generado o cargado](bulksheet-export.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Administrar palabras clave por puja
 description: Aprenda a crear y administrar palabras clave que se pueden pujar para grupos de anuncios de búsqueda.
-source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
+exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%

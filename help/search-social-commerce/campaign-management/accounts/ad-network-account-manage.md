@@ -1,7 +1,9 @@
 ---
 title: Administrar las cuentas de red de publicidad
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -240,7 +242,7 @@ Las cuentas que utilizan el rastreo de clics con Adobe Advertising deben incluir
 
 * **Formato S\_kwcid** - (Existente) [!DNL Google Ads] cuentas para anunciantes con una integración Adobe Advertising-Adobe Analytics y para los que s\_kwcid aún no se ha migrado)
 
-Esta cuenta utiliza el formato heredado para el código de seguimiento s\_kwcid, que permite que la publicidad de Adobe comparta datos sobre la cuenta con Adobe Analytics. El [último formato](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) incluye parámetros para el ID de campaña y el ID de grupo de publicidad, que son necesarios para informar con precisión en los niveles de campaña y grupo de publicidad para [!DNL Google Ads] campañas Máximo rendimiento de, y borradores y experimentos de campañas en Analytics:
+Esta cuenta utiliza el formato heredado para el código de seguimiento s\_kwcid, que permite a Adobe Advertising compartir datos sobre la cuenta con Adobe Analytics. El [último formato](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) incluye parámetros para el ID de campaña y el ID de grupo de publicidad, que son necesarios para informar con precisión en los niveles de campaña y grupo de publicidad para [!DNL Google Ads] campañas Máximo rendimiento de, y borradores y experimentos de campañas en Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -248,7 +250,7 @@ Si esta cuenta necesita crear informes en los niveles de campaña y de grupo de 
 
 Para obtener instrucciones completas, consulte &quot;[Actualice el código de seguimiento s\_kwcid para un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
 
-**Nombres de grupos de informes** : (para redireccionamiento de EF solo con token; anunciantes con una integración de Advertising-Adobe Analytics de Adobe; opcional) uno o más grupos de informes de Analytics a los que Search, Social y Commerce envían los datos que recopila de la red de publicidad, incluidas las clasificaciones de entidades y los datos de clics de la cuenta. Esta función solo está disponible para las redes de publicidad admitidas.
+**Nombres de grupos de informes** : (para redireccionamiento de EF solo con token; anunciantes con integración de Adobe Advertising-Adobe Analytics; opcional) uno o más grupos de informes de Analytics a los que Search, Social y Commerce envían los datos que recopila de la red de anuncios, incluidas las clasificaciones de entidades y los datos de clics de la cuenta. Esta función solo está disponible para las redes de publicidad admitidas.
 
 Para que los datos aparezcan en los grupos de informes, ya sea (a) el s\_kwcid del lado del servidor debe estar configurado para la cuenta o (b) la configuración del nivel de anunciante a &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; debe estar habilitado. Además, la cuenta de Analytics del anunciante debe configurarse para recibir datos de Search, Social y Commerce. Para obtener más información, póngase en contacto con el administrador de cuentas de Adobe.
 

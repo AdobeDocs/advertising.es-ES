@@ -3,9 +3,10 @@ title: Disponible [!DNL Google Analytics] métricas
 description: Haga referencia a [!DNL Google Analytics] métricas disponibles para fuentes de datos.
 role: User, Admin
 exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---

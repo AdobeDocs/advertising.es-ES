@@ -1,7 +1,9 @@
 ---
 title: Configuración de plantilla de alerta personalizada
 description: Obtenga información acerca de la configuración de las plantillas de alerta personalizadas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5ba98f48-c396-4b20-91dc-d45164097f9c
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 |  | [!UICONTROL Comparing] | (Disponible cuando la alerta rastrea aumentos o disminuciones en una o más columnas de métricas; solo lectura) Los dos intervalos de fechas para los que se comparan los datos. |
 |  | [!UICONTROL Date Comparison Format] | (Disponible cuando la alerta rastrea aumentos o disminuciones en una o más columnas de métricas) Cómo expresar la diferencia entre los datos en los dos intervalos de fechas:<ul><li><p><i>[!UICONTROL Variance]</i> (el valor por defecto) — muestra la diferencia como un valor numérico.</p></li><li><p><i>[!UICONTROL % Change]</i> — muestra la diferencia en forma de porcentaje.</p></li></ul> |
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Name] | El nombre de la alerta. Debe incluir al menos cinco caracteres. |
-|  | [!UICONTROL Trigger this Alert] [cuando] | La frecuencia con la que la alerta comprueba los filtros de condición especificados y, cuando se cumplen todas las condiciones, envía notificaciones por correo electrónico:<ul><li><p>[!UICONTROL Daily at <*NN*> [AMPM]]</p></li><li><p>[!UICONTROL Weekly on <*Day of Week*> at <*NN*> [AMPM]]</p></li><li><p>[!UICONTROL Every month on <*Day NN*> at <*NN*> [AMPM]]</p></li></ul>**Nota:** Este valor no afecta al periodo de evaluación. |
+|  | [!UICONTROL Trigger this Alert] [cuando] | La frecuencia con la que la alerta comprueba los filtros de condición especificados y, cuando se cumplen todas las condiciones, envía notificaciones por correo electrónico:<ul><li><p>[!UICONTROL Daily at <*NN*> [AM|PM]]</p></li><li><p>[!UICONTROL Weekly on <*Day of Week*> at <*NN*> [AM|PM]]</p></li><li><p>[!UICONTROL Every month on <*Day NN*> at <*NN*> [AM|PM]]</p></li></ul>**Nota:** Este valor no afecta al periodo de evaluación. |
 |  | [!UICONTROL Email Recipients] | (Editable solo por el creador de la plantilla de alerta; solo lectura para todos los demás) Direcciones de correo electrónico a las que se envían notificaciones cuando se genera una alerta. De forma predeterminada, se introduce la dirección del creador de la plantilla.<br><br>Para agregar una dirección, escríbala y haga clic en **[!UICONTROL Add]**. Para especificar varias direcciones, sepárelas con comas o espacios, o agréguelas por separado.<br><br>Cuando la alerta incluye hasta 1000 registros, se adjunta una versión CSV de la alerta al mensaje de correo electrónico. |
 
 >[!MORELIKETHIS]
@@ -30,4 +32,3 @@ ht-degree: 0%
 >* [Eliminar una plantilla de alerta personalizada](alert-template-delete.md)
 >* [Ver alertas personalizadas](alert-view.md)
 >* [Exportar datos para alertas personalizadas](alert-export-data.md)
-

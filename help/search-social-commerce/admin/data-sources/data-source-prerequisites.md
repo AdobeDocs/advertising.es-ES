@@ -3,9 +3,10 @@ title: Requisitos previos para configurar una [!DNL Google Analytics] fuente de 
 description: Obtenga información acerca de los pasos que debe completar antes de configurar una [!DNL Google Analytics] fuente de datos.
 role: User, Admin
 exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---

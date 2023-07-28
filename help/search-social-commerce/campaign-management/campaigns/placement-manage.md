@@ -1,7 +1,9 @@
 ---
 title: Administrar [!DNL Google Ads] ubicaciones
 description: Aprenda a crear y administrar ubicaciones de oferta para [!DNL Google Ads] grupos de anuncios.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+exl-id: 91fee1eb-d1d5-4a1b-b1a6-369b98269100
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%

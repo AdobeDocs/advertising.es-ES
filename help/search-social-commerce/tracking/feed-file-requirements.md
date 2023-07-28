@@ -1,7 +1,9 @@
 ---
 title: Requisitos de archivo para archivos de fuentes de conversión
 description: Consulte los requisitos para los archivos de fuentes de conversión.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -16,11 +18,11 @@ A continuación se indican los requisitos para el formato de archivo, los campos
 
 El archivo de datos debe tener el formato de texto sin formato (TXT), valores separados por comas (CSV) o valores separados por tabuladores (TSV). El archivo puede constar de una fila de encabezado y filas de datos con valores separados por tabulaciones, comas u otro carácter (pero no espacios):
 
-* **Fila de encabezado:** (Opcional) La primera línea del archivo es un encabezado, que especifica los nombres de campo necesarios (o nombres de columna) en un orden específico, separados por tabulaciones o comas. Los nombres de columna requeridos incluyen las propiedades de transacción que Adobe Advertising está rastreando como conversiones.
+* **Fila de encabezado:** (Opcional) La primera línea del archivo es un encabezado, que especifica los nombres de campo necesarios (o nombres de columna) en un orden específico, separados por tabulaciones o comas. Los nombres de columna requeridos incluyen las propiedades de transacción que el Adobe Advertising está rastreando como conversiones.
 
 * **Filas de datos:** Cada línea posterior incluye campos de datos en el mismo orden que el encabezado y separados por tabulaciones o comas. Si el primer registro no es un encabezado, cada fila de datos debe incluir todos los campos posibles, en el orden especificado. Los valores de todos los ID y las propiedades de transacción deben ser alfanuméricos.
 
-   Cuando varios clics en uno o varios anuncios conducen a una transacción, debe determinar el ID de clic y el ID de seguimiento a los que atribuir la transacción. Dado que se informa de un ID único para cada transacción, puede actualizar las transacciones individuales.
+  Cuando varios clics en uno o varios anuncios conducen a una transacción, debe determinar el ID de clic y el ID de seguimiento a los que atribuir la transacción. Dado que se informa de un ID único para cada transacción, puede actualizar las transacciones individuales.
 
 ## Convenciones de nomenclatura de archivos
 
@@ -32,10 +34,9 @@ Envíe el archivo a través del protocolo de transferencia SFTP mediante el puer
 
 >[!TIP]
 >
->Las fuentes de datos de conversión se procesan varias veces al día. Cargue la fuente diaria lo antes posible después de las 12:00 de la medianoche (hora local) para que Adobe Advertising pueda procesar sus datos y ponerlos a disposición en la interfaz de usuario de informes por la mañana temprano.
+>Las fuentes de datos de conversión se procesan varias veces al día. Cargue la fuente diaria lo antes posible después de las 12:00 de la medianoche (hora local) para que el Adobe Advertising pueda procesar los datos y ponerlos a disposición en la interfaz de usuario del sistema de informes por la mañana temprano.
 
 >[!MORELIKETHIS]
 >
 >* [Requisitos de datos para fuentes de datos que utilizan EF ID](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
 >* [Requisitos de datos para fuentes de datos que utilizan un ID de transacción](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
-

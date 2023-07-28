@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] configuración de publicidad solo para llamadas"
+title: '[!DNL Google Ads] configuración de anuncios solo para llamada'
 description: Haga referencia a la configuración de [!DNL Google Ads] anuncios solo para llamadas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1f810c2b-9c30-43c6-bda6-07609423ef79
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -58,4 +60,3 @@ Puede crear y administrar acciones de conversión en [!DNL Google Ads].
 >* [Administración de anuncios](ad-manage.md)
 >* [[!DNL Google Ads] configuración de anuncios dinámicos de búsqueda expandida](ad-settings-google-dsa.md)
 >* [[!DNL Google Ads] configuración de anuncios de búsqueda adaptable](ad-settings-google-rsa.md)
-

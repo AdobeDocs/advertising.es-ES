@@ -1,7 +1,9 @@
 ---
 title: Seguimiento de conversión mediante una fuente de ID de EF
 description: Obtenga información acerca del uso de una fuente de ID de EF para los datos de seguimiento de conversión.
-source-git-commit: 46e918418bf2e5c412efa8825dda22bc1953e439
+exl-id: db722a54-a9bf-4a31-a285-a82e6d79c34a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -32,7 +34,7 @@ Con este método, Advertising Cloud recopila un `ef_id` valor cada vez que un us
 
 1. El anunciante carga un archivo con la variable [datos de conversión necesarios](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) a la ubicación designada del servidor.
 
-1. Los servicios técnicos analizan los datos de conversión de los archivos cargados y, a continuación, cargan los datos en la publicidad de Adobe. A continuación, el Adobe Advertising realiza un seguimiento de los datos con palabras clave, anuncios y ubicaciones individuales y crea previsiones de ingresos para cada uno.
+1. Los servicios técnicos analizan los datos de conversión de los archivos cargados y, a continuación, cargan los datos en el Adobe Advertising. A continuación, Adobe Advertising realiza un seguimiento de los datos con palabras clave, anuncios y ubicaciones individuales y crea una previsión de ingresos para cada uno.
 
 1. Los servicios técnicos validan los datos procesados con los datos de las fuentes y comprueban la existencia de cualquier [transacciones huérfanas](/help/search-social-commerce/glossary.md#o-p).
 
@@ -40,5 +42,3 @@ Con este método, Advertising Cloud recopila un `ef_id` valor cada vez que un us
 >
 >* [Requisitos de archivo para archivos de fuentes de conversión](feed-file-requirements.md)
 >* [Requisitos de datos para fuentes de datos que utilizan EF ID](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-
-

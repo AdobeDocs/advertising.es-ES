@@ -1,7 +1,9 @@
 ---
 title: Especificar una fecha con el calendario
 description: Obtenga información sobre cómo seleccionar fechas mediante el calendario.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b07c0db5-4b7a-4b60-9383-ca07b99404de
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -25,4 +27,5 @@ ht-degree: 0%
    * (Para avanzar o retroceder un mes) Haga clic en **`<`** o **`>`**, respectivamente.
 
    * (Para seleccionar otro mes o año) Haga clic en el nombre del mes o del año y, a continuación, haga clic en el mes o el año.
+
    (Para resaltar la fecha actual) Haga clic en **[!UICONTROL Today]**.

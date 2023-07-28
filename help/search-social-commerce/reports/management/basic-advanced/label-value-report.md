@@ -1,9 +1,11 @@
 ---
-title: "[!UICONTROL Label Value Report]"
+title: '[!UICONTROL Label Value Report]'
 description: Obtenga información acerca de [!UICONTROL Label Value Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6fc7efca-9189-48f9-a2db-dc324b73bef6
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -39,4 +41,3 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 >* [Acerca de los informes básicos y avanzados](basic-advanced-report-about.md)
 >* [Generación de un informe básico o avanzado](basic-advanced-report-generate.md)
 >* [Configuración de informes básica y avanzada](basic-advanced-report-settings.md)
-

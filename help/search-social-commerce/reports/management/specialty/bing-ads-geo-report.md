@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Bing Ads Geo Report]"
+title: '[!UICONTROL Bing Ads Geo Report]'
 description: Obtenga información acerca de [!UICONTROL Bing Ads Geo Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14e5039-4af6-43de-925c-429f537dad6a
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Puede ver los datos de los dos meses anteriores.
 >
 >* Los totales de este informe pueden diferir de los totales de las mismas campañas y períodos de tiempo en el [!UICONTROL Geo Distribution Report] (que Search, Social y Commerce compila) debido a los diferentes proveedores y metodologías para determinar las ubicaciones geográficas.
 >* Los datos de este informe se recuperan todos los días el día anterior a las 23:00 (23:00 h). Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
-
 
 ## Columnas predeterminadas
 
@@ -46,7 +47,7 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 * [!UICONTROL Ad Distribution]
 
 >[!MORELIKETHIS]
+>
 * [Acerca de los informes especiales](specialty-report-about.md)
 * [Generar un informe de especialidad](specialty-report-generate.md)
 * [Configuración de informes especiales](specialty-report-settings.md)
-

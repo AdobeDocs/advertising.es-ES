@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] configuración de plantillas de anuncios de compras para fuentes de inventario"
+title: '''[!DNL Google Ads] configuración de plantillas de anuncios de compras para fuentes de inventario'
 description: Haga referencia a la configuración de [!DNL Google Ads] plantillas de anuncios de compras para fuentes de inventario.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: c154e1b3-70eb-437d-80f6-abf6ac192697
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Utilice plantillas de anuncios de compras para configurar los anuncios de compra
 
 **[!UICONTROL Campaign Tracking Template]:** (Opcional para plantillas de archivos de fuentes de cliente) La plantilla de seguimiento de nivel de campaña, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento, e incrusta la dirección URL final en un parámetro. Este valor anula la configuración de nivel de cuenta, pero las plantillas de seguimiento a niveles más granulares (con palabra clave como valor más granular) anulan este valor.
 
-Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; use el [formato de plantilla de seguimiento para campañas de compra de Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Si toda la cuenta está dedicada a anuncios de compra, puede definir una plantilla de seguimiento en el nivel de cuenta.
+Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; use el [formato de plantilla de seguimiento para campañas de compra de Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Si toda la cuenta está dedicada a anuncios de compra, puede definir una plantilla de seguimiento en el nivel de cuenta.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor.
 
@@ -136,7 +138,7 @@ Para redirecciones y seguimiento de terceros, introduzca un valor.
 
 **[!UICONTROL Tracking Template]:** (Unidades sin grupos de productos secundarios; opcional) La plantilla de seguimiento del grupo de productos, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento e incrusta la dirección URL final en una [!DNL ValueTrack] parámetro. Esta plantilla anula las plantillas de los niveles superiores.
 
-Para el seguimiento de conversiones de anuncios publicitarios de Adobe, no es necesario que introduzca un valor. El valor de nivel de campaña es suficiente.
+Para el seguimiento de conversiones de Adobe Advertising, no es necesario introducir un valor. El valor de nivel de campaña es suficiente.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor.
 

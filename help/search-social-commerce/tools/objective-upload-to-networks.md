@@ -1,7 +1,9 @@
 ---
 title: Habilitar la carga de objetivos en las redes de publicidad
 description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft® Advertising].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 *Anunciantes habilitados solo para la optimización híbrida*
 
-Si la cuenta del anunciante está configurada para utilizar la optimización híbrida, la publicidad de Adobe puede, opcionalmente, cargar los objetivos de las carteras de la cuenta en [!DNL Google Ads] y [!DNL Microsoft® Advertising] como conversiones, de modo que pueda utilizarlas para la optimización híbrida.
+Si la cuenta del anunciante está configurada para utilizar la optimización híbrida, Adobe Advertising puede, opcionalmente, cargar los objetivos de las carteras de la cuenta en [!DNL Google Ads] y [!DNL Microsoft® Advertising] como conversiones, de modo que pueda utilizarlas para la optimización híbrida.
 
 Al habilitar esta opción, se déclencheur automáticamente la carga de contenido para portafolios que contengan campañas con estrategias de oferta inteligente. Search, Social y Commerce crean una conversión en la red de anuncios para cada combinación de objetivo y portafolio aplicable. Cada conversión tiene el nombre `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, donde `<portfolio_id>` es el ID de portafolio numérico y `<se_acctid/conversion_manager_se_acctid>` es el identificador numérico de la cuenta de red de publicidad o de la cuenta de administrador. La conversión representa todas las propiedades de transacción ponderadas en el objetivo.
 
@@ -36,4 +38,3 @@ Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horar
 >
 >* [Administración de las propiedades de transacción de un anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
 >* [Cargar métricas de conversión en [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
-

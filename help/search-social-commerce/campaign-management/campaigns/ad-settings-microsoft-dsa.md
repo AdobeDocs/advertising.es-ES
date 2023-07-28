@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] configuración de anuncios dinámicos de búsqueda expandida"
+title: '''[!DNL Microsoft® Advertising] configuración de anuncios de búsqueda dinámica expandida'
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] anuncios dinámicos de búsqueda expandidos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 73ac6cca-717e-46d2-a060-f1eafd754245
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -40,4 +42,3 @@ Los anuncios dinámicos de búsqueda expandidos (eDSA) solo están disponibles e
 >* [[!DNL Microsoft® Advertising] configuración de publicidad del producto](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] configuración de anuncios adaptables (audiencia)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)
-

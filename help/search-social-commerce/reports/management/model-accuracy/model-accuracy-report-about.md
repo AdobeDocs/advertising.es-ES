@@ -1,7 +1,9 @@
 ---
 title: Acerca de los informes de precisión de modelo
 description: Obtenga información sobre los informes que indican la precisión de los modelos de costes e ingresos que se utilizan para optimizar las ofertas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8aeb2308-8775-4a6d-9d25-ba5378490344
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -27,4 +29,3 @@ Las imprecisiones pueden indicar problemas de rendimiento y, como resultado, es 
 >* [Generar un informe de precisión de modelo](model-accuracy-report-generate.md)
 >* [Configuración del informe de precisión de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
 >* [Acerca de los informes](/help/search-social-commerce/reports/report-about.md)
-

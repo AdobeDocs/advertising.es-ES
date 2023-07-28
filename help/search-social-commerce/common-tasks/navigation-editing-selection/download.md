@@ -1,7 +1,9 @@
 ---
 title: Descarga de datos desde una vista de administración de campañas
 description: Obtenga información sobre cómo descargar datos de la mayoría de las vistas de administración de campañas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -16,9 +18,9 @@ Puede descargar datos desde el [!UICONTROL Search] > [!UICONTROL Campaigns] > [!
 
 * Archivo de hoja de edición masiva en formato TXT que incluye todas las entidades secundarias relevantes. Si selecciona filas para entidades en varias redes de publicidad, se crea un archivo para cada red de publicidad relevante. Si no selecciona ninguna fila, se crea un archivo para cada red de publicidad representada en la vista. Los archivos de hojas de edición masiva generados para diferentes redes de anuncios incluyen diferentes columnas de datos.
 
-   Si genera datos para varias campañas y los datos combinados constan de más de 500 000 filas, los datos se dividen además por campaña en dos o más archivos, según sea necesario, con el nombre `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt`, etc.
+  Si genera datos para varias campañas y los datos combinados constan de más de 500 000 filas, los datos se dividen además por campaña en dos o más archivos, según sea necesario, con el nombre `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt`, etc.
 
-   Cada archivo de hoja de edición masiva del [!UICONTROL Downloads] el panel también aparece en la [!UICONTROL Bulksheets] vista. Cuando se crea el archivo, recibe una notificación por correo electrónico con un vínculo desde el que puede descargar el archivo; según la cantidad de datos que se compile, la notificación puede tardar varios minutos o más. Sin embargo, si falla la generación del archivo, aparece un archivo de error en la vista Hojas de edición masiva y recibe una notificación por correo electrónico con un vínculo al archivo de error. Eliminación de un archivo de hoja de edición masiva desde [!UICONTROL Download] o el [!UICONTROL Bulksheets] La pestaña lo elimina de ambas ubicaciones.
+  Cada archivo de hoja de edición masiva del [!UICONTROL Downloads] el panel también aparece en la [!UICONTROL Bulksheets] vista. Cuando se crea el archivo, recibe una notificación por correo electrónico con un vínculo desde el que puede descargar el archivo; según la cantidad de datos que se compile, la notificación puede tardar varios minutos o más. Sin embargo, si falla la generación del archivo, aparece un archivo de error en la vista Hojas de edición masiva y recibe una notificación por correo electrónico con un vínculo al archivo de error. Eliminación de un archivo de hoja de edición masiva desde [!UICONTROL Download] o el [!UICONTROL Bulksheets] La pestaña lo elimina de ambas ubicaciones.
 
 1. (Opcional) Seleccione las filas individuales que desea incluir en el archivo.
 
@@ -32,7 +34,7 @@ Puede descargar datos desde el [!UICONTROL Search] > [!UICONTROL Campaigns] > [!
 
    * Para abrir o guardar el archivo según el procedimiento normal del explorador, haga clic en ![Descargar hoja de cálculo](/help/search-social-commerce/assets/download-spreadsheet.png "Descargar hoja de cálculo").
 
-      Para obtener más información sobre el procedimiento del explorador, consulte la ayuda en línea del explorador.
+     Para obtener más información sobre el procedimiento del explorador, consulte la ayuda en línea del explorador.
 
    * Para eliminar el archivo, haga clic en ![Eliminar](/help/search-social-commerce/assets/delete.png "Eliminar").
 

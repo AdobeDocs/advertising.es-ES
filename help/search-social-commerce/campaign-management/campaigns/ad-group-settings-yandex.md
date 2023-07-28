@@ -1,9 +1,11 @@
 ---
-title: "[!DNL Yandex] configuración del grupo de anuncios"
+title: '''[!DNL Yandex] configuración del grupo de publicidad"'
 description: Haga referencia a la configuración de [!DNL Yandex] grupos de anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8b313502-4101-46a0-a0c9-692eb754cc3d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
@@ -19,4 +21,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Administrar grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

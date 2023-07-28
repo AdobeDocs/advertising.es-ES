@@ -1,9 +1,11 @@
 ---
 title: Eliminar fuentes de informes de hoja de cálculo
 description: Obtenga información sobre cómo eliminar fuentes de hoja de cálculo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: fbe8a578-8bcb-4755-96d0-e82aab313e5e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -33,4 +35,3 @@ ht-degree: 0%
 >* [Configuración de fuente de informe de hoja de cálculo](spreadsheet-feed-settings.md)
 >* [Ver o guardar un archivo de fuente de informes de hoja de cálculo](spreadsheet-feed-view-or-save.md)
 >* [Actualizar manualmente fuentes de informes de hoja de cálculo](spreadsheet-feed-refresh.md)
-

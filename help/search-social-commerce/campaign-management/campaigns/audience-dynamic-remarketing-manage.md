@@ -1,7 +1,9 @@
 ---
 title: Administrar [!DNL Microsoft Advertising] audiencias de remarketing dinámico
 description: Obtenga información sobre cómo crear y administrar [!DNL Microsoft Advertising] audiencias de remarketing dinámico.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -94,4 +96,3 @@ Puede cambiar el nombre y la fuente de datos de una [!DNL Microsoft Advertising]
 >* [Crear [!DNL Google Ads] audiencias de coincidencia de cliente de [!DNL Adobe] audiencias](google-audience-from-adobe-audience.md)
 >* [Crear un [!DNL Google Ads] audiencia de customer match de una lista de correo electrónico de Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Administrar audiencias de coincidencia de clientes mediante listas de datos de clientes](audience-from-customer-data-list.md)
-

@@ -2,7 +2,8 @@
 title: Columnas de informes para informes básicos y avanzados
 description: Obtenga información sobre las columnas de datos disponibles para los informes básicos y avanzados.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
-source-git-commit: e121445d39d50599c40a77996f5674b536d60ede
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '3583'
 ht-degree: 0%

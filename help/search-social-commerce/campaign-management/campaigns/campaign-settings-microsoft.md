@@ -2,7 +2,8 @@
 title: '''[!DNL Microsoft Advertising] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Microsoft Advertising] campañas.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
-source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Shopping Network]:* Muestra anuncios de productos, para sus productos en [!DNL Microsoft Merchant Center] catálogo de productos: en la red de compras
 
-* *[!UICONTROL Audience]:* Muestra anuncios nativos/de visualización en [!DNL Microsoft Audience Network]. Puede: a) generar automáticamente anuncios basados en fuentes vinculando la campaña a una tienda de un centro comercial en [!UICONTROL Shopping Settings] o b) cree anuncios adaptables con recursos de texto e imágenes cargadas. Ambas opciones requieren que cree grupos de anuncios con segmentación de usuarios.
+* *[!UICONTROL Audience]:* Muestra anuncios nativos/de visualización en [!DNL Microsoft Audience Network]. Puede: a) generar automáticamente anuncios basados en fuentes vinculando la campaña a una tienda de centro comercial en [!UICONTROL Shopping Settings] o b) cree anuncios adaptables con recursos de texto e imágenes cargadas. Ambas opciones requieren que cree grupos de anuncios con segmentación de usuarios.
 
 ## [!UICONTROL Campaign Details]
 

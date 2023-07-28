@@ -1,7 +1,9 @@
 ---
 title: Eliminar valores de clasificación de etiquetas
 description: Obtenga información sobre cómo eliminar valores en clasificaciones de etiquetas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 97c07598-4740-4e55-85e9-ef4e4e46daeb
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -40,4 +42,3 @@ Al eliminar los valores de clasificación de etiquetas, no estarán disponibles 
 >* [Asignar valores de clasificación a componentes de cuenta mediante hojas de edición masiva](classification-values-assign-bulksheets.md)
 >* [Quitar valores de clasificación de etiquetas de componentes de cuenta](classification-values-remove.md)
 >* [Eliminar clasificaciones de etiquetas](classification-delete.md)
-

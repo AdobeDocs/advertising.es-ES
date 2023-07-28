@@ -1,9 +1,11 @@
 ---
-title: "[!DNL Yandex] configuración de campaña"
+title: '''[!DNL Yandex] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Yandex] campañas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -77,4 +79,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Administración de campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

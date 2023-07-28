@@ -1,9 +1,11 @@
 ---
 title: Mostrar y ocultar un gráfico de tendencias
 description: Obtenga información sobre cómo ver y ocultar un gráfico de tendencias para los datos en algunas vistas de administración de campañas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9360e0c1-a326-4b1f-8c80-a4a5049ff024
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---

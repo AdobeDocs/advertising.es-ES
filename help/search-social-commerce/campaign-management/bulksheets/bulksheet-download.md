@@ -1,7 +1,9 @@
 ---
 title: Descargar/crear un archivo de hoja de edición masiva
 description: Aprenda a crear archivos de hojas de edición masiva descargando datos de cuenta para las redes de anuncios.
-source-git-commit: 313e63fdbe3f9c0853dfef0ed29148d5119e482c
+exl-id: 42558276-b930-49de-90a0-445433ee66b9
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1756'
 ht-degree: 0%

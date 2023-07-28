@@ -1,7 +1,9 @@
 ---
 title: Editar filtros de columna
 description: Obtenga información sobre cómo editar filtros de columna.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6e42e006-089b-44b9-b9b1-66835b680413
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -28,15 +30,15 @@ ht-degree: 0%
 
          * (Filtros con campos de entrada) Seleccione un operador en el segundo menú, introduzca el valor aplicable y, a continuación, haga clic en ![Actualizar filtro](/help/search-social-commerce/assets/select.png "Actualizar filtro").
 
-            Por ejemplo, si ha seleccionado la opción &quot;[!UICONTROL Clicks]&quot; y desea devolver solo filas con más de 100 clics, luego seleccione *[!UICONTROL greater than]*&quot; e introduzca `100` en el campo de entrada.
+           Por ejemplo, si ha seleccionado la opción &quot;[!UICONTROL Clicks]&quot; y desea devolver solo filas con más de 100 clics, luego seleccione *[!UICONTROL greater than]*&quot; e introduzca `100` en el campo de entrada.
 
-            Según el tipo de datos, los operadores disponibles pueden incluir *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, o *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*, o *[!UICONTROL no date].*
+           Según el tipo de datos, los operadores disponibles pueden incluir *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, o *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*, o *[!UICONTROL no date].*
 
-            **Nota:** Los valores de texto no distinguen entre mayúsculas y minúsculas. Por ejemplo, si busca campañas con &quot;préstamo&quot; en el nombre, los resultados incluyen &quot;Préstamos al consumidor&quot; y &quot;solicitudes de préstamo&quot;.
+           **Nota:** Los valores de texto no distinguen entre mayúsculas y minúsculas. Por ejemplo, si busca campañas con &quot;préstamo&quot; en el nombre, los resultados incluyen &quot;Préstamos al consumidor&quot; y &quot;solicitudes de préstamo&quot;.
+
    * Para editar un filtro existente, haga clic en el filtro, cambie la definición del filtro y, a continuación, haga clic en ![Actualizar filtro](/help/search-social-commerce/assets/select.png "Actualizar filtro").
 
    * Para eliminar un filtro existente, haga clic en **[!UICONTROL X]** junto a la definición del filtro.
-
 
 1. ([!UICONTROL Keywords] ver solo; opcional) Seleccione o anule la selección de la opción &quot;[!UICONTROL Include rows with no performance data].&quot;
 
@@ -62,8 +64,8 @@ ht-degree: 0%
 
       * (Filtros con campos de entrada) Seleccione un operador en el segundo menú, introduzca el valor aplicable y, a continuación, haga clic en ![Actualizar filtro](/help/search-social-commerce/assets/select.png "Actualizar filtro").
 
-         Por ejemplo, si ha seleccionado la opción &quot;[!UICONTROL Clicks]&quot; y desea devolver solo filas con más de 100 clics, luego seleccione *[!UICONTROL greater than]*&quot; e introduzca `100` en el campo de entrada
+        Por ejemplo, si ha seleccionado la opción &quot;[!UICONTROL Clicks]&quot; y desea devolver solo filas con más de 100 clics, luego seleccione *[!UICONTROL greater than]*&quot; e introduzca `100` en el campo de entrada
 
-         Según el tipo de datos, los operadores disponibles pueden incluir *[!UICONTROL greater than]*, *menor que*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *not contains*, o *empieza por.*
+        Según el tipo de datos, los operadores disponibles pueden incluir *[!UICONTROL greater than]*, *menor que*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *not contains*, o *empieza por.*
 
-         **Nota:** Los valores de texto no distinguen entre mayúsculas y minúsculas. Por ejemplo, si busca campañas con &quot;préstamo&quot; en el nombre, los resultados incluyen &quot;Préstamos al consumidor&quot; y &quot;solicitudes de préstamo&quot;.
+        **Nota:** Los valores de texto no distinguen entre mayúsculas y minúsculas. Por ejemplo, si busca campañas con &quot;préstamo&quot; en el nombre, los resultados incluyen &quot;Préstamos al consumidor&quot; y &quot;solicitudes de préstamo&quot;.

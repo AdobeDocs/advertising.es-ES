@@ -1,9 +1,11 @@
 ---
 title: Administrar [!DNL Google Ads] extensiones de ubicación
 description: Obtenga información sobre cómo crear y administrar [!DNL Google Ads] extensiones de ubicación.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1a1aeb51-563e-453e-bd6f-ea1fa31b8f37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---

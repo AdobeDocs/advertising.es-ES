@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords and Bing Audience Target Report]"
+title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Obtenga información acerca de [!UICONTROL AdWords and Bing Audience Target Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 02c12266-f11b-4478-a511-8ee464dbb061
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -21,7 +23,6 @@ Se pueden ver los datos de hasta el año anterior.
 >* [!DNL Google Ads] no proporciona los medios para realizar el seguimiento de los datos de ingresos de las audiencias del mercado.
 >* Los datos de este informe se recuperan todos los días el día anterior a las 23:00 (23:00 h). Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
 
-
 ## Columnas predeterminadas
 
 Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informes para informes de especialidades](specialty-report-columns.md).&quot;
@@ -40,7 +41,7 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 * [!UICONTROL Avg Position]
 
 >[!MORELIKETHIS]
+>
 * [Acerca de los informes especiales](specialty-report-about.md)
 * [Generar un informe de especialidad](specialty-report-generate.md)
 * [Configuración de informes especiales](specialty-report-settings.md)
-

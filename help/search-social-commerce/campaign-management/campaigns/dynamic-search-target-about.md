@@ -1,9 +1,11 @@
 ---
 title: Acerca de [!DNL Google Ads] destinos de búsqueda dinámica
 description: Más información [!DNL Google Ads] destinos de búsqueda dinámica.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,7 @@ Según la configuración de la campaña, los destinos de búsqueda dinámica pue
 
 * Si lo desea, puede crear destinos de búsqueda dinámica cuando especifique un dominio de sitio web y un idioma en el de la campaña &quot;[!UICONTROL DSA Options]&quot; sección.
 
-   [!DNL Google Ads] muestra automáticamente sus anuncios dinámicos de búsqueda en función del contenido de un sitio web especificado con esta configuración.
+  [!DNL Google Ads] muestra automáticamente sus anuncios dinámicos de búsqueda en función del contenido de un sitio web especificado con esta configuración.
 
 Para realizar el mejor seguimiento del rendimiento, configure la campaña con un grupo de anuncios por cada destino de búsqueda dinámica e incluya un grupo de anuncios que se ajuste a todos los criterios.
 
@@ -35,4 +37,3 @@ También puede [aplicar una etiqueta](/help/search-social-commerce/campaign-mana
 >[!MORELIKETHIS]
 >
 >* [Administrar [!DNL Google Ads] destinos de búsqueda dinámica](dynamic-search-target-manage.md)
-

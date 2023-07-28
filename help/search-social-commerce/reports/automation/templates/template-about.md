@@ -1,9 +1,11 @@
 ---
 title: Plantillas de informe
 description: Obtenga información sobre las plantillas de informe reutilizables.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 15f05c8c-7dcf-4965-9ded-155d79346634
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -24,4 +26,3 @@ Puede mantener hasta 100 plantillas a la vez.
 >* [Edición de una plantilla de informe](template-edit.md)
 >* [Ver una plantilla de informe](template-view.md)
 >* [Eliminar plantillas de informe](template-delete.md)
-

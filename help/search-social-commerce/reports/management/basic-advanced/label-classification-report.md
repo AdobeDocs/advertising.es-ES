@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Label Classification Report]"
+title: '[!UICONTROL Label Classification Report]'
 description: Obtenga información acerca de [!UICONTROL Label Classification Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 97f3b1d5-ec25-49c4-8efe-66395285f0da
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -18,7 +20,6 @@ Puede ver los datos de los 36 meses anteriores.
 >
 >* Los informes por clasificaciones de etiquetas de nivel de anuncio no están disponibles para [!DNL Microsoft® Advertising] campañas de anuncios dinámicos de búsqueda (DSA).
 >* Se puede aplicar más de una clasificación de etiquetas a la misma entidad, por lo que el total de cada métrica puede ser superior al total real de la entidad. Por ejemplo, supongamos que una palabra clave &quot;zapatos de ante&quot; tiene dos valores de etiqueta, &quot;ante&quot; y &quot;calzado&quot;, y la palabra clave recibió 100 clics. La columna Clics mostraría &quot;100&quot; para cada uno de esos valores de etiqueta, por lo que el total para ambas filas será &quot;200&quot;.
-
 * Cualquier cambio que realice en las clasificaciones de etiquetas y en los valores de etiquetas secundarias de una entidad será visible en aproximadamente una hora.
 
 ## Columnas predeterminadas
@@ -42,4 +43,3 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 >* [Acerca de los informes básicos y avanzados](basic-advanced-report-about.md)
 >* [Generación de un informe básico o avanzado](basic-advanced-report-generate.md)
 >* [Configuración de informes básica y avanzada](basic-advanced-report-settings.md)
-

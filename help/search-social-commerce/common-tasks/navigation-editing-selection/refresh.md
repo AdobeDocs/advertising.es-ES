@@ -1,9 +1,11 @@
 ---
 title: Seleccionar varias filas
 description: Obtenga información sobre cómo actualizar los datos en las vistas de administración de campañas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 63ce1753-3bfb-454d-ac18-ef67bf95eabc
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---

@@ -1,9 +1,11 @@
 ---
 title: Ver o guardar un archivo de fuente de informes de hoja de cálculo
 description: Obtenga información sobre cómo ver una fuente de hoja de cálculo y guardarla en un archivo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3f8af6fb-6652-4434-bd88-ef1a0e10efd1
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -27,5 +29,3 @@ Puede ver cualquier fuente de hoja de cálculo generada o guardarla en un archiv
 >* [Configuración de fuente de informe de hoja de cálculo](spreadsheet-feed-settings.md)
 >* [Actualizar manualmente fuentes de informes de hoja de cálculo](spreadsheet-feed-refresh.md)
 >* [Eliminar fuentes de informes de hoja de cálculo](spreadsheet-feed-delete.md)
-
-

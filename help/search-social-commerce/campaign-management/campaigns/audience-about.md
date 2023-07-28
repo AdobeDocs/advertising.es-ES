@@ -1,7 +1,9 @@
 ---
 title: Acerca de las audiencias
 description: Obtenga información acerca de las opciones para rastrear, crear y administrar [!DNL Google Ads] y [!DNL Microsoft® Advertising] audiencias.
-source-git-commit: 0b77c54ee9214021c841b4c1cca0b3439ea71f6f
+exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]y [!DNL Microsoft® Advertising] solamente*
 
-La Biblioteca de audiencias enumera todas las [!DNL Google Ads] audiencias basadas en datos de clientes, en el mercado y similares, y su [!DNL Microsoft® Advertising] remarketing y remarketing dinámico, personalizado, coincidencia de clientes, en el mercado y audiencias similares. Puede utilizar cualquiera de las [!DNL Google Ads] audiencias como [!DNL Google Ads] objetivos y exclusiones a nivel de campaña y de grupo de publicidad, y puede utilizar cualquiera de los [!DNL Microsoft® Advertising] audiencias como [!DNL Microsoft® Advertising] objetivos y exclusiones a nivel de campaña y de grupo de publicidad (solo para audiencias de remarketing dinámico). Puede añadir o editar un ajuste de oferta para cualquier destinatario de audiencia.
+La Biblioteca de audiencias enumera todas las [!DNL Google Ads] audiencias basadas en datos de clientes, en el mercado y similares, y su [!DNL Microsoft® Advertising] remarketing y remarketing dinámico, personalizado, coincidencia de clientes, en el mercado y audiencias similares. Puede utilizar cualquiera de las [!DNL Google Ads] audiencias como [!DNL Google Ads] objetivos y exclusiones a nivel de campaña y de grupo de publicidad, y puede utilizar cualquiera de las [!DNL Microsoft® Advertising] audiencias como [!DNL Microsoft® Advertising] objetivos y exclusiones a nivel de campaña y de grupo de publicidad (solo para audiencias de remarketing dinámico). Puede añadir o editar un ajuste de oferta para cualquier destinatario de audiencia.
 
 También puede crear y administrar audiencias mediante segmentos o listas de correo electrónico de sus audiencias de Adobe Experience Cloud existentes y de varios tipos de datos de clientes de su sistema de administración de la relación con los clientes (CRM):
 

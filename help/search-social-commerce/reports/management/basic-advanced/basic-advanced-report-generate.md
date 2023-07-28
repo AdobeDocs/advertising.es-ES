@@ -1,9 +1,11 @@
 ---
 title: Generar un informe básico o avanzado
 description: Obtenga información sobre cómo generar un informe básico o avanzado personalizado.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cad5183c-cd21-439a-ab3e-033b2bb187ec
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -52,4 +54,3 @@ Si ha introducido direcciones de correo electrónico para la notificación, cada
 >* [Configuración de informes básica y avanzada](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [Columnas de informes para informes básicos y avanzados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
 >* [Eliminar informes](/help/search-social-commerce/reports/management/report-delete.md)
-

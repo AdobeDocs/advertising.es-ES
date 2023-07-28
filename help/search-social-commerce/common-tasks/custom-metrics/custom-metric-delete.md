@@ -1,9 +1,11 @@
 ---
 title: Eliminar una métrica personalizada
 description: Obtenga información sobre cómo eliminar métricas personalizadas, que se calculan a partir de métricas estándar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 531da1f7-6e20-4124-9e8c-e1816929c4d7
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -48,4 +50,3 @@ Si la métrica personalizada se incluye como una columna en la vista actual, al 
 >* [Creación de una métrica personalizada](custom-metric-create.md)
 >* [Editar una métrica personalizada](custom-metric-edit.md)
 >* [Configuración de métricas personalizadas](custom-metric-settings.md)
-

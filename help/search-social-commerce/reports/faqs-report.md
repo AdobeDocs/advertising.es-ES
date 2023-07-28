@@ -2,7 +2,8 @@
 title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -59,7 +60,7 @@ Si no desea que los datos del periodo afecten a las pujas futuras, puede optar p
 +++
 
 +++¿Puedo crear un informe con una métrica de propiedad específica, como [!UICONTROL Device] o [!UICONTROL Objective Name]?
-Para informes de entidad de campaña ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], y [!UICONTROL Product Group Report]), los datos de las métricas se agregan dinámicamente mediante las columnas de propiedad que se incluyen en el informe. Si lo desea, puede quitar la columna de clave del informe e incluir solo las columnas de propiedades de las que desea agregar datos.
+Para informes de entidad de campaña ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], y [!UICONTROL Product Group Report]), los datos de las métricas se agregan dinámicamente mediante las columnas de propiedad que se incluyen en el informe. Si lo desea, puede quitar la columna de clave del informe e incluir sólo las columnas de propiedades de las que desea agregar datos.
 
 Por ejemplo, si genera un [!UICONTROL Keyword Report] que incluye el [!UICONTROL Ad Group] y  De forma predeterminada, las columnas Dispositivo agregan métricas para cada palabra clave por grupo de anuncios y tipo de dispositivo. Sin embargo, si elimina el [!UICONTROL Keyword] antes de generar el informe, el informe genera dinámicamente métricas para los grupos de anuncios especificados por tipo de dispositivo.
 

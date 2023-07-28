@@ -1,7 +1,9 @@
 ---
 title: Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2
 description: Consulte el formato de las etiquetas de seguimiento de conversión de JavaScript versión 2.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c4845694-10ac-41f8-bafb-ca813e42d190
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -43,16 +45,15 @@ donde:
 
 * `<transid>` es un ID de transacción único (como un ID de pedido real) que el anunciante genera y pasa para identificar una transacción. Se incluye solo cuando el parámetro &quot;[!UICONTROL Include unique transaction IDs]La opción &quot; está seleccionada.
 
-   Search, Social y Commerce utilizan el ID de transacción para eliminar las transacciones duplicadas con el mismo ID de transacción y valor de propiedad. El ID de transacción se incluye en la [!UICONTROL Transaction Report], que puede utilizar para validar datos dentro de Adobe Advertising con los datos del anunciante. **Nota:** Si los datos del anunciante no incluyen un ID único por transacción, Search, Social y Commerce seguirán generando uno en función del tiempo de transacción.
+  Search, Social y Commerce utilizan el ID de transacción para eliminar las transacciones duplicadas con el mismo ID de transacción y valor de propiedad. El ID de transacción se incluye en la [!UICONTROL Transaction Report], que puede utilizar para validar datos dentro del Adobe Advertising con los datos del anunciante. **Nota:** Si los datos del anunciante no incluyen un ID único por transacción, Search, Social y Commerce seguirán generando uno en función del tiempo de transacción.
 
 <!-- add more links -->
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las etiquetas de seguimiento de conversión de Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Generación de una etiqueta de conversión de publicidad de Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generación de una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Preguntas frecuentes sobre las etiquetas de conversión y seguimiento de vista de página](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](format-conversion-tag-jsv2.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3](format-conversion-tag-jsv3.md)
 >* [Formato de las etiquetas de seguimiento de conversión de imagen](format-conversion-tag-image.md)
-

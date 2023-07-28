@@ -1,9 +1,11 @@
 ---
 title: Acerca de las extensiones sitelink
 description: Obtenga información acerca de las extensiones de vínculos de sitios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bf4ef112-7a9f-4e8a-8f04-06ed123c862a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -32,4 +34,3 @@ Entrada [!DNL Google Ads] y [!DNL Microsoft® Advertising], puede ver los datos 
 >
 >* [Administrar extensiones de vínculos de sitios compartidos](sitelink-extension-manage.md)
 >* [Asociar extensiones de vínculos de sitios compartidos con campañas o grupos de anuncios](sitelink-extension-associate.md)
-

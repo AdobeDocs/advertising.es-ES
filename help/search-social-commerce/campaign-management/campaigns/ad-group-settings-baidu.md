@@ -1,9 +1,11 @@
 ---
-title: "[!DNL Baidu] configuración del grupo de anuncios"
+title: '''[!DNL Baidu] configuración del grupo de publicidad"'
 description: Haga referencia a la configuración de [!DNL Baidu] grupos de anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 940c5d62-8646-4686-ad34-1fbabe69e1b3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
@@ -35,4 +37,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Administrar grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

@@ -1,7 +1,9 @@
 ---
 title: ¿Cuándo las fuentes de inventario crean o eliminan componentes de cuenta?
 description: Descubra qué situaciones crean y eliminan componentes de cuenta al publicar fuentes de inventario.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 0%

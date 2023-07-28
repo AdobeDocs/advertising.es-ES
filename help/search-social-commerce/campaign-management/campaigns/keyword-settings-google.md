@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] configuración de palabras clave"
+title: '[!DNL Google Ads] configuración de palabras clave'
 description: Haga referencia a la configuración de [!DNL Google Ads] Palabras clave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8834e852-214b-4b2c-9a95-4b1c802e800d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -27,7 +29,6 @@ Puede escribir o pegar hasta 2000 palabras clave. Separe varias palabras clave c
 >
 >* Puede crear palabras clave negativas desde el [!UICONTROL Keywords] > [!UICONTROL Negatives] vea y en el grupo de publicidad y en la configuración de la campaña.
 >* Cambio de una [!DNL Google Ads] keyword o match type elimina la palabra clave existente y crea una nueva.
-
 
 **[!UICONTROL Status]:** El estado de visualización de la palabra clave: *Activo* o *Pausado*. El valor predeterminado para las palabras clave nuevas es *Activo*.
 
@@ -60,4 +61,3 @@ Puede escribir o pegar hasta 2000 palabras clave. Separe varias palabras clave c
 >[!MORELIKETHIS]
 >
 >* [Administrar palabras clave](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

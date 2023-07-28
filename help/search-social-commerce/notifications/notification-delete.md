@@ -1,9 +1,11 @@
 ---
 title: Eliminación de una notificación
 description: Obtenga información sobre cómo eliminar una notificación.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: abf37a77-02e4-429f-adac-13ac954a78e7
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [Editar la configuración de notificaciones](notification-edit.md)
 >* [Habilitar y deshabilitar notificaciones push desde [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Instale y desinstale el [!UICONTROL Notification Center] aplicación web](notification-app-install-uninstall.md)
-

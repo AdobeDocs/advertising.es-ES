@@ -1,9 +1,11 @@
 ---
 title: Detener un trabajo de hoja de edición masiva en curso
 description: Aprenda a detener un trabajo de hoja de edición masiva mientras está en proceso.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -28,4 +30,3 @@ Puede detener cualquier trabajo de hoja de edición masiva, incluido el envío d
 >
 >* [Administración de datos de campaña mediante hojas de edición masiva](bulksheet-about.md)
 >* [Eliminar hojas de edición masiva y archivos de error cargados](bulksheet-delete.md)
-

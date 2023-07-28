@@ -1,9 +1,11 @@
 ---
 title: Cargar métricas de tráfico y conversión para [!DNL Naver] cuentas solo de seguimiento
 description: Obtenga información sobre cómo cargar métricas de tráfico y conversión para seguimiento y creación de informes solo para [!DNL Naver] cuentas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cfc8178c-0be0-445d-a387-abe826e1ca8a
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -29,4 +31,3 @@ Search, Social y Commerce no sincronizan los datos con la red de publicidad ni r
 >* [Implementación [!DNL Naver] cuentas solo de seguimiento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [Apéndice: Datos de hojas de edición masiva requeridos para [!DNL Naver] cuentas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
 >* [Requisitos de datos de métricas para [!DNL Naver] cuentas solo de seguimiento](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
-

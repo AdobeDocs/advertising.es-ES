@@ -1,7 +1,9 @@
 ---
 title: Datos de hoja de edición masiva requeridos para [!DNL Naver] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Naver] cuentas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bd6e3dab-47b0-428a-825d-bd9c21494fb0
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 1%
@@ -62,4 +64,3 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 >* [Formatos de rastreo de clics para [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Cargar un archivo de hoja de edición masiva o un archivo de error corregido](../bulksheet-upload.md)
 >* [Implementación [!DNL Naver] cuentas solo de seguimiento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
-

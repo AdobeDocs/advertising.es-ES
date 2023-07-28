@@ -3,9 +3,10 @@ title: Configurar un [!DNL Google Analytics] ver como fuente de datos
 description: Obtenga información sobre cómo configurar una fuente de datos desde un [!DNL Google Analytics] vista.
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---

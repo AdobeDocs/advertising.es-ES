@@ -1,7 +1,9 @@
 ---
 title: Exportar datos para alertas personalizadas
 description: Obtenga información sobre cómo exportar datos de una alerta activada a un archivo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -36,4 +38,3 @@ Puede exportar datos de una alerta activada o datos de la alerta activada más r
 >* [Eliminar una plantilla de alerta personalizada](alert-template-delete.md)
 >* [Configuración de plantilla de alerta personalizada](alert-template-settings.md)
 >* [Ver alertas personalizadas](alert-view.md)
-

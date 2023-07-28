@@ -1,9 +1,11 @@
 ---
 title: Eliminar una plantilla de alerta personalizada
 description: Obtenga información sobre cómo eliminar las plantillas de alerta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7044ee80-ad90-4fad-8443-300f5ff0cee7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,3 @@ Sólo puede eliminar las plantillas de alerta que ha creado.
 >* [Configuración de plantilla de alerta personalizada](alert-template-settings.md)
 >* [Ver alertas personalizadas](alert-view.md)
 >* [Exportar datos para alertas personalizadas](alert-export-data.md)
-

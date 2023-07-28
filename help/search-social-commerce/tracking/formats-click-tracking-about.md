@@ -1,24 +1,26 @@
 ---
-title: Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversiones de Adobe Advertising
+title: Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising
 description: Obtenga información acerca de los formatos de seguimiento de clics para redes de publicidad admitidas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 12148caf-fde6-4ac2-b8b4-222409895dd7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
-# Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversiones de Adobe Advertising
+# Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising
 
-Las plantillas de seguimiento, los sufijos de la página de aterrizaje (sufijos finales de la URL) y las direcciones URL de destino para las cuentas de publicidad y las campañas que utilizan el servicio de seguimiento de conversión de la publicidad de Adobe tienen el siguiente formato:
+Las plantillas de seguimiento, los sufijos de la página de aterrizaje (sufijos finales de la URL) y las direcciones URL de destino para las cuentas de publicidad y las campañas que utilizan el servicio de seguimiento de conversión de Adobe Advertising tienen el siguiente formato:
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
 donde:
 
-* `http://pixel.everesttech.net` redirige al usuario a los servidores de píxeles de la publicidad de Adobe.
+* `http://pixel.everesttech.net` redirige al usuario a los servidores de píxeles de Adobe Advertising.
 
-* `<advertiser_ID>` es una variable para el ID de usuario único asignado al anunciante en la publicidad de Adobe.
+* `<advertiser_ID>` es una variable para el ID de usuario único asignado al anunciante dentro del Adobe Advertising.
 
 * `<token passing parameter>` es una variable para una de las siguientes opciones:
 
@@ -43,4 +45,3 @@ Consulte las páginas independientes que indican la [[!DNL Baidu] formatos](form
 >* [Formatos de rastreo de clics para anuncios patrocinados en [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Formatos de rastreo de clics para anuncios patrocinados en [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [Formatos de rastreo de clics para anuncios patrocinados en [!DNL Yandex]](formats-click-tracking-yandex.md)
-

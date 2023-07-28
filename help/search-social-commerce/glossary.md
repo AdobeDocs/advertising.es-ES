@@ -1,9 +1,11 @@
 ---
 title: Glosario
 description: Consulte las definiciones de términos clave.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 **campaign:** Conjunto de grupos de anuncios de una sola cuenta de publicidad que comparten un presupuesto, un lapso de tiempo, un objetivo y otra configuración. **Nota:** [!DNL Baidu] no tiene el concepto de campañas, pero Search, Social y Commerce crea pseudocampañas para cada conjunto de grupos de anuncios relacionados en [!DNL Baidu] que se sincronizan en Search, Social y Commerce.
 
-**campo que distingue entre mayúsculas y minúsculas:** Una consulta o campo que distingue entre mayúsculas y minúsculas trata las letras mayúsculas (como C) de forma diferente a las minúsculas (como c). Por ejemplo, Coche se trata como un valor diferente al coche.
+**campo que distingue entre mayúsculas y minúsculas:** Una consulta o campo que distingue entre mayúsculas y minúsculas trata las letras mayúsculas (como C) de manera diferente a las minúsculas (como c). Por ejemplo, Coche se trata como un valor diferente al coche.
 
 **clic:** Un solo usuario hace clic en un anuncio en línea o dentro de él.
 
@@ -154,7 +156,7 @@ ht-degree: 0%
 
 **estrategia de gasto:** (Anunciantes con portafolios) La estrategia seleccionada para optimizar las ofertas de palabras clave/anuncios para un portafolio.
 
-**`s_kwcid`:** Un código de seguimiento que permite a la publicidad de Adobe compartir datos sobre campañas de búsqueda con Adobe Analytics.
+**`s_kwcid`:** Código de seguimiento que permite al Adobe Advertising compartir datos sobre campañas de búsqueda con Adobe Analytics.
 
 **URL de seguimiento:** Una plantilla de seguimiento o una dirección URL de destino con parámetros adicionales añadidos para rastrear información sobre clics en el anuncio. Puede incluir una URL de redireccionamiento para enviar primero a los usuarios a un servidor de seguimiento antes de redirigirlos a la página de aterrizaje del anunciante.
 

@@ -1,9 +1,11 @@
 ---
 title: Asociar [!DNL Google Ads] extensiones de llamadas compartidas con campañas o grupos de anuncios
 description: Obtenga información sobre cómo asignar [!DNL Google Ads] extensiones de llamadas compartidas a campañas o grupos de anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -33,12 +35,11 @@ Asigne al menos dos llamadas por campaña o grupo de anuncios para que sus anunc
       * (Opcional) Para filtrar una lista de campañas o de grupos de publicidad por una cadena de texto incluida en el nombre, haga clic en ![Filtrar](/help/search-social-commerce/assets/filter.png "Filtrar"), introduzca o pegue la cadena de texto en el campo de entrada y, a continuación, pulse el botón **Entrar** clave.
 
       * Para seleccionar una entidad, haga clic en el círculo que hay junto a ella (![Seleccionar](/help/search-social-commerce/assets/include.png "Seleccionar")).
-   1. Haga clic **[!UICONTROL Post]**.
 
+   1. Haga clic **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de [!DNL Google Ads] extensiones de llamada](callout-extension-about.md)
 >* [Administrar [!DNL Google Ads] extensiones de llamada](callout-extension-manage.md)
 >* [Eliminar asociaciones de extensión de publicidad con campañas y grupos de publicidad](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
-

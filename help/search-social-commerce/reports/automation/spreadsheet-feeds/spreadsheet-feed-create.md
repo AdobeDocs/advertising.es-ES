@@ -1,9 +1,11 @@
 ---
 title: Crear una fuente de informes de hoja de cálculo
 description: Obtenga información sobre cómo configurar fuentes de hojas de cálculo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ed793de5-0df1-4fc3-be59-29adec4959f7
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -43,4 +45,3 @@ Configurar fuentes de hoja de cálculo con formatos especiales [!DNL Excel] plan
 >* [Ver o guardar un archivo de fuente de informes de hoja de cálculo](spreadsheet-feed-view-or-save.md)
 >* [Actualizar manualmente fuentes de informes de hoja de cálculo](spreadsheet-feed-refresh.md)
 >* [Eliminar fuentes de informes de hoja de cálculo](spreadsheet-feed-delete.md)
-

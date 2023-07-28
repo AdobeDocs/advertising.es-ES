@@ -1,7 +1,9 @@
 ---
 title: Ver o guardar un informe
 description: Obtenga información sobre cómo ver un informe generado o guardarlo como archivo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7e2e93f2-5c59-48e7-9acc-7b7ccf777f2e
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Puede ver un informe en el explorador web o abrir o guardar los datos del inform
 
       * **[!UICONTROL XLS]:**   Para un [!DNL Excel] libro con una sola hoja de cálculo (formato XLSX). El informe incluye una hoja de cálculo etiquetada en la parte superior con los parámetros, con una fila para cada componente cuando los datos del componente están disponibles. Se omiten las filas sin datos.
 
-         Los informes básicos incluyen un total para cada columna numérica.
+        Los informes básicos incluyen un total para cada columna numérica.
 
       * **[!UICONTROL TSV]:** Para un archivo TSV. El informe incluye los parámetros y una fila para cada componente incluido en el informe.
 
@@ -42,4 +44,3 @@ Puede ver un informe en el explorador web o abrir o guardar los datos del inform
 >* [Generación de informes a partir de una plantilla](/help/search-social-commerce/reports/management/report-generate-from-template.md)
 >* [Generación de un informe a partir de un informe existente](/help/search-social-commerce/reports/management/report-generate-from-existing.md)
 >* [Eliminar informes](/help/search-social-commerce/reports/management/report-delete.md)
-

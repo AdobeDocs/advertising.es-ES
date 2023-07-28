@@ -1,7 +1,9 @@
 ---
 title: Configuración de anuncios de texto y plantillas de anuncios de búsqueda adaptables para fuentes de inventario
 description: Haga referencia a la configuración de las plantillas de anuncios de búsqueda interactivos y de anuncios de texto para las fuentes de inventario.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3317'
 ht-degree: 0%
@@ -64,7 +66,7 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 
 **[!UICONTROL Campaign Tracking Template]:** (Cuentas solo con direcciones URL finales/avanzadas; opcional) La plantilla de seguimiento de nivel de campaña, que especifica todas las redirecciones de dominios de aterrizaje y los parámetros de seguimiento e incrusta la dirección URL final en un parámetro. Este valor anula la configuración de nivel de cuenta, pero las plantillas de seguimiento a niveles más granulares (con palabra clave como valor más granular) anulan este valor.
 
-* Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+* Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 * Para incrustar la dirección URL final:
 
@@ -134,7 +136,7 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 
 **[!UICONTROL Ad Group Tracking Template]:** (Cuentas solo con direcciones URL finales/avanzadas) La plantilla de seguimiento de nivel de grupo de anuncios, que especifica todas las redirecciones de dominios de aterrizaje y parámetros de seguimiento e incrusta la dirección URL final en un parámetro.
 
-Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar la dirección URL de la página de aterrizaje:
 
@@ -198,7 +200,7 @@ Si usa un [!DNL Google Merchant Center] e incluir este valor en la fuente &quot;
 
 **[!UICONTROL Keyword Tracking Template]:** (Cuentas con direcciones URL finales/avanzadas; opcional) La plantilla de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento, e incrusta la dirección URL final en un parámetro. La plantilla de seguimiento en el nivel más granular (con la palabra clave como valor más granular) anula los valores en todos los demás niveles.
 
-* Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+* Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 * Si lo desea, puede introducir redirecciones y seguimiento de terceros.
 
@@ -236,7 +238,7 @@ Los campos de datos del archivo de fuente pueden tener un máximo de 25 caracter
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] (solo plantillas) La cadena que se utilizará como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contienen el valor `{Param3}` cadena de sustitución dinámica. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima del elemento de anuncio en el que lo utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
 
 ## [!UICONTROL Ads]
 
@@ -331,7 +333,7 @@ Si usa un [!DNL Google Merchant] Centrar fuente e incluir este valor en &quot;[!
 
 **[!UICONTROL Tracking Template]:** (Cuentas con direcciones URL finales/avanzadas; opcional) La plantilla de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento, e incrusta la dirección URL final en un parámetro. La plantilla de seguimiento en el nivel más granular (con la palabra clave como valor más granular) anula los valores en todos los demás niveles.
 
-Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar la dirección URL de la página de aterrizaje:
 

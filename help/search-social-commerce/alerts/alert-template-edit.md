@@ -1,7 +1,9 @@
 ---
 title: Editar una plantilla de alerta personalizada
 description: Obtenga información sobre cómo editar una plantilla para generar alertas personalizadas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14051d02-108c-4b0e-8a52-9ae18a95fe2e
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -34,4 +36,3 @@ ht-degree: 0%
 >* [Configuración de plantilla de alerta personalizada](alert-template-settings.md)
 >* [Ver alertas personalizadas](alert-view.md)
 >* [Exportar datos para alertas personalizadas](alert-export-data.md)
-

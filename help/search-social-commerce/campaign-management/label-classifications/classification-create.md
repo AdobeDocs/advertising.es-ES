@@ -1,9 +1,11 @@
 ---
 title: Crear una clasificación de etiquetas
 description: Obtenga información sobre cómo crear una clasificación de etiquetas para agrupar los componentes de la cuenta.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,3 @@ Una vez creada una clasificación de etiquetas, puede crear valores de etiqueta 
 >* [Quitar valores de clasificación de etiquetas de componentes de cuenta](classification-values-remove.md)
 >* [Eliminar valores de clasificación de etiquetas](classification-values-delete.md)
 >* [Eliminar clasificaciones de etiquetas](classification-delete.md)
-

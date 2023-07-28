@@ -1,7 +1,9 @@
 ---
 title: Administrar grupos de anuncios
 description: Obtenga información sobre cómo crear y administrar grupos de anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -54,7 +56,7 @@ Puede editar la configuración de grupos de anuncios individuales. También pued
 
       * Seleccione la casilla de verificación situada junto a cada grupo de anuncios.
 
-         Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * En la barra de herramientas sobre la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
@@ -98,4 +100,3 @@ También puede eliminar cualquier grupo de anuncios de búsqueda activo o pausad
 >* [Configuración del grupo de anuncios de Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
 >* [Yahoo! Configuración de grupos de anuncios de Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [Configuración del grupo de anuncios Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
-

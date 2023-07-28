@@ -1,9 +1,11 @@
 ---
 title: Filtrado de datos con el panel de navegación izquierdo
 description: Obtenga información sobre cómo filtrar datos mediante el panel de navegación izquierdo.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a0e88e85-e470-45dd-8d39-afddd27fd95b
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---

@@ -1,7 +1,9 @@
 ---
 title: Administrar destinatarios de audiencia para campañas y grupos de anuncios
 description: Obtenga información sobre cómo configurar y administrar los destinatarios de audiencia para su [!DNL Google Ads] y [!DNL Microsoft® Advertising] campañas y grupos de publicidad.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -46,7 +48,6 @@ Puede configurar los objetivos de audiencia, editar los modificadores de oferta 
 
       No se puede configurar un objetivo tanto para una campaña principal como para un grupo de anuncios secundarios (que utiliza automáticamente el objetivo).
 
-
 1. Haga clic **[!UICONTROL Post]**.
 
 1. (Opcional) Defina un ajuste de oferta para el objetivo de una de las siguientes maneras desde el [!UICONTROL Targets] ver:
@@ -60,7 +61,6 @@ Puede configurar los objetivos de audiencia, editar los modificadores de oferta 
    * *0 %:* No ajustar las ofertas de anuncios para esta audiencia.
 
    * /[*Otros valores desde -90% a 900%*/]: Para aumentar o reducir la oferta de anuncios para esta audiencia. Por ejemplo, si la oferta en el nivel de palabra clave es 1 USD y el ajuste de oferta para un objetivo de audiencia específico es del 50 %, la oferta para esa audiencia aumenta a 1,50 USD.
-
 
 ## Editar el modificador de oferta para destinos de audiencia
 
@@ -100,7 +100,6 @@ Puede cambiar el modificador de oferta y el estado de los objetivos de audiencia
 
       1. Haga clic **[!UICONTROL Post]**.
 
-
 ## Cambio del estado de los destinatarios de audiencia
 
 Puede pausar un destinatario de audiencia activo para deshabilitar las pujas en él. Más tarde, puedes reanudar las pujas cambiando el estado de nuevo a activo.
@@ -127,4 +126,3 @@ También puede eliminar un destinatario de audiencia de búsqueda activo o pausa
 >
 >* [Acerca de las audiencias](audience-about.md)
 >* [Administración de exclusiones de audiencia para campañas y grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
-

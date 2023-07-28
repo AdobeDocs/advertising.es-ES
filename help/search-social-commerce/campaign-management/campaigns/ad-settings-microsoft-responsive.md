@@ -1,9 +1,11 @@
 ---
-title: "[!DNL Microsoft® Advertising] configuración de publicidad adaptable"
+title: '[!DNL Microsoft® Advertising] configuración de publicidad adaptable'
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] anuncios adaptables.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
@@ -52,4 +54,3 @@ Para anuncios de audiencia, [!DNL Microsoft® Advertising] recorta automáticame
 >* [[!DNL Microsoft® Advertising] configuración de publicidad multimedia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] configuración de publicidad del producto](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)
-

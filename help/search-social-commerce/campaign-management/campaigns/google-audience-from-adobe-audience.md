@@ -1,7 +1,9 @@
 ---
 title: Crear [!DNL Google Ads] audiencias de coincidencia de cliente de [!DNL Adobe] audiencias
 description: Aprenda a crear [!DNL Google Ads] audiencias de coincidencia de clientes de las audiencias de Adobe Analytics y Audience Manager existentes.
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%

@@ -1,7 +1,9 @@
 ---
 title: Organización de la interfaz de usuario
 description: Descubra dónde acceder a las distintas funcionalidades.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -18,9 +20,9 @@ La parte superior de cada página incluye el menú principal y otros menús basa
 
 Las opciones del menú principal de nivel superior se basan en los canales publicitarios disponibles. Solo verá los canales publicitarios que se aplican a usted:
 
-* **[!UICONTROL DSP]** — (Cuando tenga acceso a Adobe DSP Advertising (Demand Side Platform)) Para administrar su pantalla y la publicidad de TV conectada. A por separado [DSP Guía de](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) está disponible.
+* **[!UICONTROL DSP]** — (Cuando tenga acceso al Adobe Advertising DSP (Demand Side Platform)) Para administrar la visualización y la publicidad de TV conectada. A por separado [DSP Guía de](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) está disponible.
 
-* **[!UICONTROL Creative]** — (Cuando tenga acceso a Adobe Advertising Creative) Automatizar experiencias publicitarias personalizadas en tiempo real y optimizar los anuncios en el nivel de elemento creativo. Hay disponible ayuda independiente desde Creative.
+* **[!UICONTROL Creative]** — (Cuando tenga acceso al Adobe Advertising Creative) Para automatizar experiencias de publicidad personalizadas en tiempo real y optimizar los anuncios en el nivel de elemento creativo. Hay disponible ayuda independiente desde Creative.
 
 * **[!UICONTROL Search]** — Para administrar las cuentas de red de anuncios en Search, Social y Commerce, incluidas aquellas para las que Search, Social y Commerce realiza un seguimiento, pero no realiza pujas.
 
@@ -32,7 +34,7 @@ En el [!UICONTROL Search] opción, verá los siguientes submenús. Las opciones 
 
 * **[!UICONTROL Optimization]** — Este menú tiene opciones para administrar objetivos de negocio, administrar portafolios basados en sus objetivos de negocio y supervisar el rendimiento del portafolio, generar el portafolio cruzado [!UICONTROL Spend Recommendation Report], administrar las restricciones de oferta y ver y (algunos usuarios) administrar su [!DNL Google Ads] reglas de valor de conversión.
 
-   Puede encontrar documentación independiente sobre estas funciones en el [!UICONTROL Help] menú (![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda")).
+  Puede encontrar documentación independiente sobre estas funciones en el [!UICONTROL Help] menú (![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda")).
 
 * **[!UICONTROL Insights & Reports]** — Este menú incluye opciones para generar perspectivas e informes detallados, automatizar la producción de informes mediante fuentes de hoja de cálculo, crear y supervisar alertas, configurar los ajustes de notificación, ver las recomendaciones de la red de anuncios y ver un registro de los cambios realizados en la cuenta del anunciante.
 
@@ -46,7 +48,7 @@ En el [!UICONTROL Search] opción, verá los siguientes submenús. Las opciones 
 
 * ![Notificaciones de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificaciones de alerta") Un panel que enumera sus notificaciones de búsqueda, medios sociales y comercio.
 
-   Cuando estás... [ha iniciado sesión mediante Adobe Experience Cloud](log-in.md), este panel muestra las notificaciones del Experience Cloud.
+  Cuando estás... [ha iniciado sesión mediante Adobe Experience Cloud](log-in.md), este panel muestra las notificaciones del Experience Cloud.
 
 * ![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda") Un menú de ayuda que incluye vínculos a documentación y otra información.
 
@@ -54,10 +56,9 @@ En el [!UICONTROL Search] opción, verá los siguientes submenús. Las opciones 
 
 * ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar la sesión.
 
-   Cuando estás... [ha iniciado sesión mediante Adobe Experience Cloud](log-in.md), también puede editar su perfil de Experience Cloud, incluida la contraseña de Experience Cloud y la configuración de notificaciones.
+  Cuando estás... [ha iniciado sesión mediante Adobe Experience Cloud](log-in.md), también puede editar su perfil de Experience Cloud, incluida la contraseña de Experience Cloud y la configuración de notificaciones.
 
 >[!MORELIKETHIS]
 >
 >* [Iniciar sesión](log-in.md)
 >* [Cerrar sesión](log-out.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Preguntas frecuentes sobre campañas
 description: Consulte respuestas a preguntas sobre administración de campañas y vistas de datos de campañas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -79,11 +81,11 @@ Puede usar el complemento [!DNL Google Ads] [!DNL ValueTrack] parámetros `{ifmo
 
 * Incluya la designación móvil como servidor host mediante `{ifmobile:m}{ifnotmobile:www}`.
 
-   Por ejemplo, `http://{ifmobile:m}{ifnotmobile:www}.example.com` lleva a los usuarios móviles a m.example.com y a los usuarios no móviles a www.example.com.
+  Por ejemplo, `http://{ifmobile:m}{ifnotmobile:www}.example.com` lleva a los usuarios móviles a m.example.com y a los usuarios no móviles a www.example.com.
 
 * Incluya la designación móvil como dominio de nivel superior mediante `{ifmobile:mobi}{ifnotmobile:com}`.
 
-   Por ejemplo, `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` lleva los usuarios móviles a www.example.mobi y los usuarios no móviles a www.example.com.
+  Por ejemplo, `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` lleva los usuarios móviles a www.example.mobi y los usuarios no móviles a www.example.com.
 
 En ambos casos, las direcciones URL base con seguimiento de búsqueda, social y comercial incluyen el código no codificado `{}` y cualquier parámetro adicional anexado a la dirección URL base.
 

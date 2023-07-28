@@ -1,7 +1,9 @@
 ---
 title: Creación de una plantilla de informe
 description: Obtenga información sobre cómo crear una plantilla de informe reutilizable.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Puede guardar varias plantillas de informe para cualquier tipo de informe de ren
 
       * Especifique la configuración del informe.
 
-         El &quot;[!UICONTROL Save as Template]La configuración &quot; se selecciona automáticamente.
+        El &quot;[!UICONTROL Save as Template]La configuración &quot; se selecciona automáticamente.
 
 * Para crear una plantilla basada en una plantilla existente:
 
@@ -44,4 +46,3 @@ Puede guardar varias plantillas de informe para cualquier tipo de informe de ren
 >* [Edición de una plantilla de informe](template-edit.md)
 >* [Ver una plantilla de informe](template-view.md)
 >* [Eliminar plantillas de informe](template-delete.md)
-

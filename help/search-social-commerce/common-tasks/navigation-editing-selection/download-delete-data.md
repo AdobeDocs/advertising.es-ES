@@ -1,7 +1,9 @@
 ---
 title: Elimine un informe de datos de rendimiento o un archivo de hoja de edición masiva del [!UICONTROL Downloads] menú
 description: Obtenga información sobre cómo eliminar un informe o un archivo de hoja de edición masiva descargado desde una vista de administración de campañas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bb25c2f1-3ade-44ad-b10a-b5684feffd8f
+feature: Search Common Tasks
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%

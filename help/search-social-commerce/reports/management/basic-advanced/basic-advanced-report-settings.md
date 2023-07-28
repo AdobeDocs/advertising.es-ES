@@ -1,7 +1,9 @@
 ---
 title: Configuración de informes básica y avanzada
 description: Obtenga información acerca de la configuración necesaria y opcional para los informes básicos y avanzados.
-source-git-commit: 94a4b2555517c535dd3ba2a5d32451f9ea2eb308
+exl-id: 70453b24-f638-45d0-9d1e-e942a78a98d8
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '3666'
 ht-degree: 0%

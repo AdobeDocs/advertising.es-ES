@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] configuración de publicidad de productos"
+title: '''[!DNL Microsoft® Advertising] configuración de anuncios de productos'
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] anuncios de productos.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6a2d0549-d8fc-4ec8-bdec-7e49a43aeb7b
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -32,4 +34,3 @@ La línea de promoción puede aparecer en diferentes ubicaciones relacionadas co
 >* [[!DNL Microsoft® Advertising] configuración de publicidad multimedia](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] configuración de anuncios adaptables (audiencia)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)
-

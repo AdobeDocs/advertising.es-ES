@@ -1,7 +1,9 @@
 ---
 title: Cambiar el estado de las palabras clave y las palabras clave negativas
 description: Aprenda a cambiar el estado de las palabras clave y las palabras clave negativas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c1562104-048e-486d-b20c-3c15f089324d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -35,4 +37,3 @@ También puede eliminar palabras clave de búsqueda activas o en pausa, o palabr
 >* [Acerca de las palabras clave](keyword-about.md)
 >* [Administrar palabras clave por puja](keyword-manage.md)
 >* [Creación de palabras clave negativas](keyword-negative-create.md)
-

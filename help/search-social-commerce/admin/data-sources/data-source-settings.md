@@ -3,9 +3,10 @@ title: '[!DNL Google Analytics] configuración de fuente de datos'
 description: Haga referencia a la configuración necesaria para [!DNL Google Analytics] fuentes de datos.
 role: User, Admin
 exl-id: 531351b4-07f1-43ef-a3d2-892a49ffb5ca
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Data Sources
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---

@@ -1,7 +1,8 @@
 ---
 title: Ver recomendaciones del editor y perspectivas de rendimiento
 description: Obtenga información sobre cómo ver la [!DNL Google Ads] recomendaciones y [!DNL Microsoft® Advertising] perspectivas de rendimiento para sus cuentas de red de anuncios.
-source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%

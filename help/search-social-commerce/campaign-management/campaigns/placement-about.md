@@ -1,9 +1,11 @@
 ---
 title: Acerca de [!DNL Google Ads] ubicaciones
 description: Obtenga información sobre las opciones de ubicaciones pujables y negativas para [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2f390a39-99e9-4b0d-8576-e724882185ef
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -31,4 +33,3 @@ Puede crear ubicaciones para un grupo de anuncios desde el [!UICONTROL Placement
 >* [Administrar ubicaciones pujables](placement-manage.md)
 >* [Creación de ubicaciones negativas](placement-negative-create.md)
 >* [Cambiar el estado de las ubicaciones y las ubicaciones negativas](placement-status-edit.md)
-

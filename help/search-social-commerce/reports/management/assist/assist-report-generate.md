@@ -1,7 +1,9 @@
 ---
 title: Generar un informe de asistencia
 description: Obtenga información sobre cómo generar informes de asistencia.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8f91f837-71a8-451e-8c72-dfd21956a402
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Generar un informe de asistencia
 
-*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones de Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
+*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
@@ -46,4 +48,3 @@ Si ha introducido direcciones de correo electrónico para la notificación, cada
 >* [El [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Acerca de los informes](/help/search-social-commerce/reports/report-about.md)
 >* [Eliminar informes](/help/search-social-commerce/reports/management/report-delete.md)
-

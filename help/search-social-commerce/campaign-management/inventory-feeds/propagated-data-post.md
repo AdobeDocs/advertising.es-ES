@@ -1,7 +1,9 @@
 ---
 title: Publicar datos de campaña generados a partir de fuentes en redes de publicidad
 description: Obtenga información sobre cómo publicar datos generados a partir de fuentes de datos de inventario en redes de publicidad.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -18,17 +20,17 @@ Para que la publicación se realice correctamente, todos los grupos de anuncios 
 
 * Si utilizó la opción para &quot;[!UICONTROL Propagate and Preview],&quot; entonces [publicar el archivo de hoja de edición masiva generado](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-post.md) (denominado &quot;`<feed file name>_<template name>`&quot;) del [!UICONTROL Bulksheets] vista.
 
-   Si no lo ha hecho anteriormente [validación de las páginas de aterrizaje](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md), puede hacerlo antes de publicar el archivo.
+  Si no lo ha hecho anteriormente [validación de las páginas de aterrizaje](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md), puede hacerlo antes de publicar el archivo.
 
 * Si utilizó la opción para &quot;[!UICONTROL Propagate only],&quot; puede publicar los datos generados para los componentes con el [[!UICONTROL New] status](propagated-data-status.md) dentro de una vista de jerarquía de campañas desde el [!UICONTROL Templates] pestaña.
 
-   >[!NOTE]
-   >
-   >Los componentes activos o eliminados pueden incluir subcomponentes nuevos, que se pueden publicar si los datos son válidos.
+  >[!NOTE]
+  >
+  >Los componentes activos o eliminados pueden incluir subcomponentes nuevos, que se pueden publicar si los datos son válidos.
 
-   >[!TIP]
-   >
-   >Si anteriormente no validó las páginas de aterrizaje y desea hacerlo, [propagar datos y previsualizarlos](feed-data-propagate.md) desde el [!UICONTROL Bulksheets] en lugar de publicarlo en la red de anuncios. Puede hacer lo siguiente [validación de las direcciones URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) antes de publicar manualmente el archivo en la red de publicidad.
+  >[!TIP]
+  >
+  >Si anteriormente no validó las páginas de aterrizaje y desea hacerlo, [propagar datos y previsualizarlos](feed-data-propagate.md) desde el [!UICONTROL Bulksheets] en lugar de publicarlo en la red de anuncios. Puede hacer lo siguiente [validación de las direcciones URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) antes de publicar manualmente el archivo en la red de publicidad.
 
    1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre a la [!UICONTROL Templates] pestaña.
 
@@ -50,21 +52,21 @@ Para que la publicación se realice correctamente, todos los grupos de anuncios 
 
             * **[!UICONTROL End Time]:** Una fecha y hora futuras en las que los anuncios publicados pueden pausarse o eliminarse en función de la [configuración de datos de fuente](feed-settings-manage.md#feed-data-settings) para &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; De forma predeterminada, la hora de finalización es 00:00 (12:00 a.m.) dentro de 30 días a partir de hoy. Seleccionar **[!UICONTROL None]** para mantener los datos activos indefinidamente (o hasta que propague nuevos datos para la plantilla), o especifique una fecha y una hora.
 
-               Para especificar una fecha, utilice el formato DD/MM/AAAA o D/M/AAAA o haga clic en [Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") para abrir el calendario y [seleccionar una fecha](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para cambiar una hora, introdúzcala en formato de 24 horas HH/MM o H/M o seleccione una hora (en intervalos de 30 minutos) de la lista.
+              Para especificar una fecha, utilice el formato DD/MM/AAAA o D/M/AAAA o haga clic en [Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") para abrir el calendario y [seleccionar una fecha](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para cambiar una hora, introdúzcala en formato de 24 horas HH/MM o H/M o seleccione una hora (en intervalos de 30 minutos) de la lista.
+
          * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un archivo de hoja en bloque que está disponible en el [!UICONTROL Search] > [!UICONTROL Bulksheets] vista. Si lo desea, puede publicar el archivo desde allí.
 
-            Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP. No es necesario descomprimir el archivo para publicarlo.
+           Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP. No es necesario descomprimir el archivo para publicarlo.
+
       * **[!UICONTROL Generate Tracking URLs]:** Si se incluyen direcciones URL de seguimiento para palabras clave y variaciones de anuncios en el archivo de hoja de edición masiva: *[!UICONTROL Yes]* (el valor predeterminado) o *[!UICONTROL No]*.
 
-         Si selecciona *[!UICONTROL Yes]*, las direcciones URL se generan a partir de las direcciones URL base para las palabras clave y los anuncios según el [!UICONTROL Tracking Methods] Parámetros de en [configuración de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) o, si está asignando datos a campañas existentes, a la variable [!UICONTROL Tracking Methods] parámetros en el [configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
+        Si selecciona *[!UICONTROL Yes]*, las direcciones URL se generan a partir de las direcciones URL base para las palabras clave y los anuncios según el [!UICONTROL Tracking Methods] Parámetros de en [configuración de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) o, si está asignando datos a campañas existentes, a la variable [!UICONTROL Tracking Methods] parámetros en el [configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
 
-         Si existen direcciones URL de seguimiento para los elementos relevantes, no se regeneran a menos que se necesiten nuevas (como si el tipo de coincidencia de palabra clave, el texto creativo o los parámetros de seguimiento de la cuenta han cambiado).
+        Si existen direcciones URL de seguimiento para los elementos relevantes, no se regeneran a menos que se necesiten nuevas (como si el tipo de coincidencia de palabra clave, el texto creativo o los parámetros de seguimiento de la cuenta han cambiado).
 
       * **[!UICONTROL Bulksheet Name]:** Nombre del archivo de hoja de edición masiva que se va a crear a partir de los datos de fuente propagados. El nombre predeterminado del archivo es `<feed file name_file extension>_<feed template name>_<creation date in the format YYYYMMDDHHMMSS>.txt`. Puede cambiar el nombre del archivo como desee, pero debe terminar con una de las siguientes extensiones de archivo: `.tsv` (para valores separados por tabulaciones), `.txt` (para texto ASCII), `.csv` (para valores separados por comas), o `.zip` (para un archivo TSV comprimido). Para datos que incluyen caracteres internacionales, utilice el formato TSV o TXT.
 
-         El archivo publicado está disponible en el [!UICONTROL Bulksheets] visualizarlo durante 30 días, lo publique o no en la red de publicidad.
-
-
+        El archivo publicado está disponible en el [!UICONTROL Bulksheets] visualizarlo durante 30 días, lo publique o no en la red de publicidad.
 
 El &quot;[!UICONTROL Last Prop. Status]La columna &quot; muestra el estado del trabajo para las plantillas aplicables.
 
@@ -77,7 +79,6 @@ Cuando se crea la hoja de edición masiva, aparece en la [!UICONTROL Bulksheets]
 >* Todos los datos publicados están sujetos al proceso editorial de la red.
 >* Antes de publicar un archivo de hoja de edición por lotes, puede [cancelar el registro](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md).
 
-
 >[!MORELIKETHIS]
 >
 >* [Acerca de las fuentes de inventario](inventory-feeds-about.md)
@@ -85,4 +86,3 @@ Cuando se crea la hoja de edición masiva, aparece en la [!UICONTROL Bulksheets]
 >* [Editar datos generados a partir de fuentes](propagated-data-edit.md)
 >* [Detener un trabajo de registro para los datos de fuente de inventario](stop-job.md)
 >* [Estados de los datos generados a partir de las fuentes](propagated-data-status.md)
-

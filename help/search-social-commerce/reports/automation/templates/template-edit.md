@@ -1,9 +1,11 @@
 ---
 title: Edición de una plantilla de informe
 description: Obtenga información sobre cómo editar la configuración de las plantillas de informe reutilizables.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -32,4 +34,3 @@ Puede cambiar la configuración de cualquier plantilla de informe que haya cread
 >* [Creación de una plantilla de informe](template-create.md)
 >* [Ver una plantilla de informe](template-view.md)
 >* [Eliminar plantillas de informe](template-delete.md)
-

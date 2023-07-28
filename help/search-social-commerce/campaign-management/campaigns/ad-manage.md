@@ -1,7 +1,9 @@
 ---
 title: Administración de anuncios
 description: Aprenda a crear y administrar anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -36,11 +38,11 @@ Puede crear, editar y cambiar el estado de las publicidades desde el [!UICONTROL
 
    >[!NOTE]
    >
-   >(Campañas con seguimiento de conversión de publicidad de Adobe) Si la configuración de la cuenta o la campaña especifica un seguimiento solo en el nivel de palabra clave, Search, Social y Commerce no generarán seguimiento de anuncios.
+   >(Campañas con seguimiento de conversión de Adobe Advertising) Si la configuración de la cuenta o de la campaña especifica solo seguimiento en el nivel de palabra clave, Search, Social y Commerce no generan seguimiento de anuncios.
 
 1. Haga clic **[!UICONTROL Post]**.
 
-1. (Compras de anuncios en campañas con seguimiento de conversión de publicidad de Adobe; opcional) Para rastrear clics en el anuncio, [generación de una URL de seguimiento con la herramienta URL de seguimiento](/help/search-social-commerce/tools/click-tracking-url-generate.md)y añadirlo manualmente a la configuración de la cuenta, la campaña o el grupo de productos.
+1. (Compras de anuncios en campañas con seguimiento de conversión de Adobe Advertising; opcional) Para rastrear clics en el anuncio, [generación de una URL de seguimiento con la herramienta URL de seguimiento](/help/search-social-commerce/tools/click-tracking-url-generate.md)y añadirlo manualmente a la configuración de la cuenta, la campaña o el grupo de productos.
 
 ## Editar configuración de publicidad
 
@@ -49,7 +51,6 @@ Puede crear, editar y cambiar el estado de las publicidades desde el [!UICONTROL
 >* Los siguientes tipos de anuncio son *mutable*, lo que significa que puede cambiar el texto o la imagen del anuncio y conservar el mismo ID de anuncio: todo [!DNL Google Ads] tipos de anuncio excepto anuncios dinámicos de búsqueda y [!DNL Microsoft Advertising] anuncios de texto expandidos.
 >* Todos los demás anuncios admitidos son *no mutable*, lo que significa que al cambiar la copia o imagen del anuncio se elimina el anuncio existente y se crea uno nuevo. El rendimiento del nuevo anuncio puede ser volátil durante un par de semanas, mientras que Search, Social y Commerce recopila datos suficientes para optimizar las ofertas.
 >* No se puede editar el contenido de un anuncio de producto, excepto la línea de promoción de [!DNL Microsoft Advertising] anuncios de productos. Sin embargo, puede pausar o eliminar un anuncio.
-
 
 >[!TIP]
 >
@@ -114,4 +115,3 @@ También puede eliminar cualquier anuncio de búsqueda activo o pausado. Los anu
 >* [[!DNL Microsoft Advertising] configuración de anuncios adaptables (audiencia)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)
 >* [[!DNL Yandex] configuración de anuncios de texto](ad-settings-yandex-text.md)
-

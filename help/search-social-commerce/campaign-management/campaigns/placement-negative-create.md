@@ -1,9 +1,11 @@
 ---
 title: Creación de ubicaciones negativas
 description: Obtenga información sobre cómo crear ubicaciones negativas para [!DNL Google Ads] campañas y grupos de publicidad.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8bddfc12-de95-46c3-aa2d-bcce2a5e0de9
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -41,4 +43,3 @@ Puede crear ubicaciones negativas para una [!DNL Google Ads] grupo de anuncios e
 >* [Acerca de las ubicaciones](placement-about.md)
 >* [Administrar ubicaciones pujables](placement-manage.md)
 >* [Cambiar el estado de las ubicaciones y las ubicaciones negativas](placement-status-edit.md)
-

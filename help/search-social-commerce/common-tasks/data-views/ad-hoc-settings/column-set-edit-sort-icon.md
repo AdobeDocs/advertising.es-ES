@@ -1,9 +1,11 @@
 ---
 title: Edite y ordene el conjunto de columnas de la [!UICONTROL Custom Columns] icono
 description: Aprenda a cambiar las columnas visibles con el personalizador de columnas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9b8ddb3d-c598-4393-85f2-0e586ebe0df3
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -28,7 +30,7 @@ Puede cambiar las columnas visibles en cualquiera de las vistas desde la barra d
 
    * (Para cambiar la posición horizontal de una columna) En el [!UICONTROL Selected Columns & Ordering] , haga clic en el nombre de la columna y arrástrela a la posición deseada o haga clic en ![Mover columna hacia arriba](/help/search-social-commerce/assets/chevron-up.png "Mover columna hacia arriba") o ![Mover columna hacia abajo](/help/search-social-commerce/assets/chevron-down.png "Mover columna hacia abajo") para moverlo allí.
 
-      El nombre de la columna superior aparece en la columna izquierda.
+     El nombre de la columna superior aparece en la columna izquierda.
 
    * (Para quitar una columna) En el [!UICONTROL Selected Columns & Ordering] , haga clic en el nombre de una columna y arrástrela a la lista [!UICONTROL Available Columns] lista o clic ![Eliminar](/help/search-social-commerce/assets/chevron-left.png "Eliminar") para moverlo allí.
 

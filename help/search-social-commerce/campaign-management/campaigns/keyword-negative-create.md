@@ -1,7 +1,9 @@
 ---
 title: Creación de palabras clave negativas
 description: Aprenda a crear palabras clave negativas para campañas de búsqueda y grupos de anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -44,7 +46,6 @@ Puede crear palabras clave negativas para un grupo de anuncios de búsqueda o un
 
    * [!DNL Yandex]: cada palabra clave puede tener un máximo de siete palabras, excluidas las palabras de detención. Cada [!DNL Yandex ad group] puede incluir un máximo de 200 palabras clave.
 
-
 1. Haga clic **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
@@ -52,4 +53,3 @@ Puede crear palabras clave negativas para un grupo de anuncios de búsqueda o un
 >* [Acerca de las palabras clave](keyword-about.md)
 >* [Administrar palabras clave por puja](keyword-manage.md)
 >* [Cambiar el estado de las palabras clave y las palabras clave negativas](keyword-status-edit.md)
-

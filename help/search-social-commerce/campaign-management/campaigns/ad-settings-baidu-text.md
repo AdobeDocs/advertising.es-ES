@@ -1,9 +1,11 @@
 ---
-title: "[!DNL Baidu] configuración del anuncio de texto"
+title: '[!DNL Baidu] configuración de anuncios de texto'
 description: Haga referencia a la configuración de [!DNL Baidu] anuncios de texto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -44,4 +46,3 @@ ht-degree: 0%
 >
 >* [Acerca de los anuncios](ad-about.md)
 >* [Administración de anuncios](ad-manage.md)
-

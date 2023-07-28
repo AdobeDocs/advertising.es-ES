@@ -1,9 +1,11 @@
 ---
-title: "[!DNL Microsoft Advertising] configuración del grupo de anuncios"
+title: '''[!DNL Microsoft Advertising] configuración del grupo de publicidad"'
 description: Haga referencia a la configuración de [!DNL Microsoft Advertising] grupos de anuncios.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -78,7 +80,7 @@ Para [!DNL Microsoft Advertising] grupos de anuncios en la red de audiencias, lo
 
 * Para excluir un valor, haga clic dos veces en el círculo que aparece junto a él, de modo que aparezca una marca de verificación roja (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
 
-**[!UICONTROL Industry]:** (Grupos de anuncios de audiencia; opcional) Industrias específicas que se deben incluir o excluir como objetivos. De forma predeterminada, todos los sectores están segmentados. Las exclusiones siempre anulan las inclusiones.
+**[!UICONTROL Industry]:** (Grupos de anuncios de audiencia; opcional) Industrias específicas que se deben incluir o excluir como objetivos. De forma predeterminada, todas las industrias están segmentadas. Las exclusiones siempre anulan las inclusiones.
 
 * Para dirigirse a todos los valores, no seleccione ningún valor.
 
@@ -123,4 +125,3 @@ Para obtener información sobre la disponibilidad, consulte la ayuda de Microsof
 >[!MORELIKETHIS]
 >
 >* [Administrar grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

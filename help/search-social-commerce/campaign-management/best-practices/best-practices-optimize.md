@@ -1,7 +1,9 @@
 ---
 title: Optimización de las páginas de aterrizaje del sitio web
 description: Conozca las prácticas recomendadas para optimizar las páginas de aterrizaje de su sitio web.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -56,4 +58,3 @@ Para ver el impacto de cambiar la página de aterrizaje (cuando todo lo demás s
 >
 >* [Analice los informes para restringir las palabras clave y la configuración de campañas](best-practices-analyze.md)
 >* [Escribir texto efectivo y copiar](best-practices-write.md)
-

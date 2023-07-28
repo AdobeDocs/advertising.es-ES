@@ -1,7 +1,9 @@
 ---
 title: Seguimiento de conversión de Adobe Analytics
 description: Obtenga información acerca del uso del seguimiento de conversión de Adobe Analytics para sus campañas en Adobe Advertising.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%

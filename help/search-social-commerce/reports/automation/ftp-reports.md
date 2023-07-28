@@ -1,9 +1,11 @@
 ---
 title: Acceso FTP a informes
 description: Obtenga información sobre cómo recibir informes en una ubicación FTP de solo lectura.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -18,7 +20,7 @@ El acceso FTP a los informes requiere el acceso a una cuenta de FTP específica.
 
 * Póngase en contacto con el equipo de cuenta de Adobe para configurar una cuenta de FTP para el acceso al informe.
 
-   El equipo le proporcionará su nombre de usuario y contraseña.
+  El equipo le proporcionará su nombre de usuario y contraseña.
 
 ## Configuración de plantillas de informes para envío por FTP
 
@@ -39,6 +41,7 @@ Para generar informes en el directorio FTP designado, cree un [plantilla de info
       * `[SDATE]` — Para incluir la fecha de inicio del intervalo de fechas del informe.
 
       * `[EDATE]` — Para incluir la fecha de finalización del intervalo de fechas del informe.
+
    * (Opcional) `[CSV]` (en letras mayúsculas y entre corchetes) para crear archivos en formato CSV en lugar del formato TSV predeterminado.
 
    Ejemplo: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` crearía un archivo como 202305051656-Portfolio-FTP-20230428-20110504.csv.
@@ -51,7 +54,6 @@ Para generar informes en el directorio FTP designado, cree un [plantilla de info
 >
 >* Para enviar los informes completados por correo electrónico, simplemente introduzca las direcciones de todos los destinatarios de correo electrónico al generar el informe o la plantilla.
 >* Los informes se ejecutan según las programaciones especificadas y se envían a la cuenta de FTP en el plazo de una hora después de completarse.
-
 
 ## Acceso a informes en un repositorio FTP
 
@@ -68,4 +70,3 @@ Para acceder a sus informes, conéctese a uno de los siguientes hosts de FTP med
 >[!MORELIKETHIS]
 >
 >* [Creación de una plantilla de informe](/help/search-social-commerce/reports/automation/templates/template-create.md)
-

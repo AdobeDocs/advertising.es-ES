@@ -1,7 +1,9 @@
 ---
 title: Formato de las etiquetas de seguimiento de conversión de imagen
 description: Haga referencia al formato de las etiquetas de seguimiento de conversión de imagen.
-source-git-commit: b230c593d93dfa868b8f075939fc9940ea74fa13
+exl-id: 019981cd-37b6-4b80-bb48-26e0d7ac7665
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -37,7 +39,7 @@ donde:
 >[!MORELIKETHIS]
 >
 >* [Acerca de las etiquetas de seguimiento de conversión de Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Generación de una etiqueta de conversión de publicidad de Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generación de una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Preguntas frecuentes sobre las etiquetas de conversión y seguimiento de vista de página](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](format-conversion-tag-jsv2.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3](format-conversion-tag-jsv3.md)

@@ -1,7 +1,9 @@
 ---
 title: Formatos de rastreo de clics para [!DNL Yahoo! Japan Ads]
 description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Yahoo! Japan Ads] cuentas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 4584f2c4-8090-4931-bd44-0df42f350755
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -24,15 +26,13 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de la publicidad de Adobe.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
 >
 >* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
 >
 >* `<the landing page>` es una variable que representa la dirección URL del sitio a la que se dirige a los usuarios finales.
 
-
 >[!MORELIKETHIS]
 >
->* [Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversiones de Adobe Advertising](formats-click-tracking-about.md)
+>* [Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising](formats-click-tracking-about.md)
 >* [Formatos para el código de seguimiento s\_kwcid](skwcid-tracking-parameter.md)
-

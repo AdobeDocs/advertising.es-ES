@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] configuración de publicidad multimedia"
+title: '''[!DNL Microsoft® Advertising] configuración de publicidad multimedia"'
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] anuncios multimedia.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -56,4 +58,3 @@ Consulte las proporciones y dimensiones de aspecto permitidas para [anuncios mul
 >* [[!DNL Microsoft® Advertising] configuración de publicidad del producto](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] configuración de anuncios adaptables (audiencia)](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)
-

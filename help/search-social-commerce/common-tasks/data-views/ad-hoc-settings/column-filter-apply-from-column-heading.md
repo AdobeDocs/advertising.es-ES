@@ -1,9 +1,11 @@
 ---
 title: Aplicar filtros de datos desde un menú de encabezado de columna
 description: Obtenga información sobre cómo filtrar los datos de página desde el menú de encabezado de una columna.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ad745599-fd98-4f34-b181-085070adb685
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
@@ -20,10 +22,9 @@ Puede aplicar tantos filtros como desee a una columna, uno a la vez. Todos los f
 
    * (Filtros con campos de entrada) Seleccione un operador en el segundo menú, introduzca el valor aplicable y, a continuación, haga clic en ![Actualizar filtro](/help/search-social-commerce/assets/select.png "Actualizar filtro").
 
-      Por ejemplo, si ha seleccionado la opción &quot;[!UICONTROL Clicks]&quot; y desea devolver solo filas con más de 100 clics, luego seleccione *[!UICONTROL greater than]*&quot; e introduzca `100` en el campo de entrada Según el tipo de datos, los operadores disponibles pueden incluir *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*, o *[!UICONTROL no date].*
+     Por ejemplo, si ha seleccionado la opción &quot;[!UICONTROL Clicks]&quot; y desea devolver solo filas con más de 100 clics, luego seleccione *[!UICONTROL greater than]*&quot; e introduzca `100` en el campo de entrada Según el tipo de datos, los operadores disponibles pueden incluir *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*, o *[!UICONTROL no date].*
 
-      >[!NOTE]
-      >
-      >* Los valores de texto no distinguen entre mayúsculas y minúsculas. Por ejemplo, si filtra por campañas con &quot;préstamo&quot; en el nombre, los resultados incluyen &quot;Préstamos al consumidor&quot; y &quot;solicitudes de préstamo&quot;.
-      >* Solo se puede aplicar un filtro numérico simple (por ejemplo, [!UICONTROL Impressions] \> 100) por columna.
-
+     >[!NOTE]
+     >
+     >* Los valores de texto no distinguen entre mayúsculas y minúsculas. Por ejemplo, si filtra por campañas con &quot;préstamo&quot; en el nombre, los resultados incluyen &quot;Préstamos al consumidor&quot; y &quot;solicitudes de préstamo&quot;.
+     >* Solo se puede aplicar un filtro numérico simple (por ejemplo, [!UICONTROL Impressions] \> 100) por columna.

@@ -1,7 +1,9 @@
 ---
 title: Marcar una notificación como leída o no leída
 description: Obtenga información sobre cómo indicar si ha leído o no una notificación.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -30,4 +32,3 @@ Notificaciones marcadas como *leer* están en un texto de color más claro, pero
 >* [Editar la configuración de notificaciones](notification-edit.md)
 >* [Habilitar y deshabilitar notificaciones push desde [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Instale y desinstale el [!UICONTROL Notification Center] aplicación web](notification-app-install-uninstall.md)
-

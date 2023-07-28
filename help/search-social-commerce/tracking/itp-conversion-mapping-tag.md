@@ -1,20 +1,22 @@
 ---
-title: La etiqueta de asignación de conversión de la publicidad de Adobe
-description: Obtenga información acerca de la etiqueta de asignación de conversión basada en JavaScript para ITP 2.2, que permite a la publicidad de Adobe realizar un seguimiento de un evento de conversión que se produce en una página que no es la página de aterrizaje.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: La etiqueta de asignación de conversión de Adobe Advertising
+description: Obtenga información acerca de la Adobe Advertising de asignación de conversiones basada en JavaScript para ITP 2.2, que permite realizar un seguimiento de un evento de conversión que se produce en una página que no es la página de aterrizaje.
+exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
-# La etiqueta de asignación de conversión JavaScript de Adobe Advertising
+# La etiqueta de asignación de conversión de JavaScript de Adobe Advertising
 
-*Anunciantes con solo seguimiento de conversión de publicidad de Adobe*
+*Anunciantes solo con seguimiento de conversión de Adobe Advertising*
 
-La etiqueta de asignación de conversión basada en JavaScript de publicidad de Adobe, cuando se utiliza además de la etiqueta de seguimiento de conversión de JavaScript de publicidad de Adobe v2 o v3, permite a la publicidad de Adobe rastrear un evento de conversión que se produce en una página que no es la página de aterrizaje. La solución ITP 2.2 almacena la cookie de un usuario en el almacenamiento local en un iFrame propiedad del anunciante. El almacenamiento local puede entonces mantener el valor de la cookie desde el clic descendente hasta la página de conversión.
+La etiqueta de asignación de conversión basada en JavaScript de Adobe Advertising, cuando se utiliza además de la etiqueta de seguimiento de conversión de JavaScript v2 o v3 de Adobe Advertising, permite al Adobe Advertising rastrear un evento de conversión que se produce en una página que no es la página de aterrizaje. La solución ITP 2.2 almacena la cookie de un usuario en el almacenamiento local en un iFrame propiedad del anunciante. El almacenamiento local puede entonces mantener el valor de la cookie desde el clic descendente hasta la página de conversión.
 
-Utilice la etiqueta de asignación de Adobe para asegurarse de que la publicidad de conversión puede realizar un seguimiento de todas las conversiones que se producen en los exploradores Apple Safari y Mozilla Firefox, lo que limita la persistencia de cookies de origen. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+Utilice la etiqueta de asignación de Adobe Advertising para asegurarse de que puede realizar un seguimiento de todas las conversiones que se producen en los exploradores Apple Safari y Mozilla Firefox, lo que limita la persistencia de las cookies de origen. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 Para utilizar la etiqueta de asignación de conversión:
 
@@ -32,15 +34,15 @@ Para utilizar la etiqueta de asignación de conversión:
 
 * Si su organización utiliza un único ID de organización, que se utiliza en su cuenta de Search, Social y Commerce, utilice la siguiente etiqueta:
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-   dónde se reemplaza `{AMO User ID}` con el ID de usuario único para su cuenta de Search, Social y Commerce.
+  dónde se reemplaza `{AMO User ID}` con el ID de usuario único para su cuenta de Search, Social y Commerce.
 
 * Si su organización utiliza varios ID de organización, utilice la siguiente etiqueta:
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
 
-   donde:
+  donde:
 
    * reemplace el valor `{xxxxxx@AdobeOrg}` con el ID de organización para el que se realiza un seguimiento de las conversiones de la página. Utilice el mismo ID de organización para todas las páginas de conversión.
 
@@ -48,30 +50,30 @@ Para utilizar la etiqueta de asignación de conversión:
 
 * Si utiliza un sistema de administración de etiquetas que no admite la adición de `imsorgid` a la etiqueta de script y, a continuación, utilice el siguiente código en su lugar:
 
-   *Si su organización utiliza un solo ID de organización:
+  *Si su organización utiliza un solo ID de organización:
 
-   ```
-   <script>
-   window.ad_cloud = window.ad_cloud || {};
-   window.ad_cloud.userid = "{AMO User ID}"
-   </script>
-   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-   ```
+  ```
+  <script>
+  window.ad_cloud = window.ad_cloud || {};
+  window.ad_cloud.userid = "{AMO User ID}"
+  </script>
+  <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+  ```
 
-   dónde se reemplaza `{AMO User ID}` con el ID de usuario único para su cuenta de Search, Social y Commerce.
+  dónde se reemplaza `{AMO User ID}` con el ID de usuario único para su cuenta de Search, Social y Commerce.
 
    * Si su organización utiliza varios ID de organización:
 
-      ```
-      <script>
-      window.ad_cloud = window.ad_cloud || {};
-      window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-      window.ad_cloud.userid = "{AMO User ID}"
-      </script>
-      <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-      ```
+     ```
+     <script>
+     window.ad_cloud = window.ad_cloud || {};
+     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+     window.ad_cloud.userid = "{AMO User ID}"
+     </script>
+     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+     ```
 
-      donde:
+     donde:
 
       * reemplace el valor `{xxxxxx@AdobeOrg}` con el ID de organización para el que se realiza un seguimiento de las conversiones de la página. Utilice el mismo ID de organización para todas las páginas de conversión.
 

@@ -1,7 +1,9 @@
 ---
 title: Cálculo de las reglas de atribución
 description: Descubra cómo Adobe Advertising calcula cada tipo de regla de atribución.
-source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
+exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2439'
 ht-degree: 0%
@@ -115,7 +117,7 @@ Atribuye la conversión a todos los eventos de la serie que se produjeron dentro
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de publicidad de Adobe tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
 
@@ -177,7 +179,7 @@ Atribuye la conversión de forma equitativa a cada evento de la serie que se pro
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de publicidad de Adobe tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
 
@@ -295,7 +297,7 @@ Atribuye la conversión a todos los eventos de la serie que se produjeron dentro
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de publicidad de Adobe tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
 
