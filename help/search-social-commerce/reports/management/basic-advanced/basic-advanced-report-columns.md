@@ -3,9 +3,9 @@ title: Columnas de informes para informes básicos y avanzados
 description: Obtenga información sobre las columnas de datos disponibles para los informes básicos y avanzados.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
 workflow-type: tm+mt
-source-wordcount: '3583'
+source-wordcount: '3606'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,8 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | El ID del grupo de publicidad asignado por la red. |
 | [!UICONTROL Network Campaign ID] | El ID de campaña asignado por la red. |
 | [!UICONTROL Objective Name] | El objetivo de la cartera. |
+| [!UICONTROL Objective Value] | Las conversiones ponderadas totales se calculan de acuerdo con el objetivo actual de la cartera. Consulte &quot;[valor objetivo](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value Calculation] | El cálculo utilizado para derivar el valor objetivo. |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] (anuncios) El número de clics en vínculos dentro de anuncios que llevan a la gente fuera [!DNL Meta]Propiedades de propiedad del usuario. |
 | [!UICONTROL Parent Product Groupings] | La jerarquía completa de los grupos de productos principales, con `>>` entre niveles (como `All Products>>CategoryL1=Animals`), cuando corresponda. |
 | [!UICONTROL Partition Type] | El tipo de grupo de productos: <i>[!UICONTROL Sub-Division]</i> (grupos de productos principales) o <i>[!UICONTROL Unit]</i> (el nivel más bajo de grupos de productos secundarios, que tiene una oferta). |
@@ -173,8 +175,17 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) El ID del usuario que completó la transacción. |
 | [!UICONTROL Through Plays] | ([!DNL Meta] anuncios) El número de vistas que vieron el anuncio en su totalidad. |
 | [!UICONTROL Top of Page CPC] | (Solo campañas de Google) El coste por clic (CPC) de los anuncios que aparecen en la parte superior de las páginas de resultados de búsqueda durante el intervalo de fechas especificado. |
-
-| [!UICONTROL Tracking URL] | (Solo palabras clave de destino de búsqueda) La plantilla de seguimiento o la URL de destino incrustada con (cuando corresponda) el código de seguimiento de búsqueda, social y comercial. | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) La propiedad de transacción específica del anunciante a la que se acredita la transacción. | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Hora a la que se abonó la propiedad de transacción especificada. | | [!UICONTROL User Account Type] | Obsoleto | | [!UICONTROL User SE Account ID] | El ID numérico que Search, Social y Commerce asignan a la red de anuncios. | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] (anuncios) El tiempo promedio que se reprodujo un vídeo, incluido el tiempo empleado en reproducirlo, para una sola impresión. | | [!UICONTROL Video Plays] | ([!DNL Meta] anuncios) El número de veces que el vídeo empieza a reproducirse, excluidas las reproducciones. | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], y [!UICONTROL VideoQuartile100Rate] | (Anuncios de vídeo) El porcentaje de vídeos reproducidos en el 25 %, 50 %, 75 % o 100 % del recorrido. | | [!UICONTROL View Rate] | (Anuncios de vídeo) El número de vistas o participaciones dividido por el número de veces que se mostró el anuncio (impresiones de vídeo y miniaturas). | | [!UICONTROL Views] | (Anuncios en vídeo) La cantidad de veces que las personas vieron o interactuaron con su anuncio. | | [!UICONTROL ViewThroughConversions] | (Anuncios en la red de audiencia) El número de conversiones que resultaron de una o más impresiones pero no de clics. |
+| [!UICONTROL Tracking URL] | (Solo palabras clave con fines de búsqueda) La plantilla de seguimiento o la dirección URL de destino incrustada con el código de seguimiento de búsqueda, social y comercial (cuando corresponda). |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) La propiedad de transacción específica del anunciante a la que se acredita la transacción. |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Hora a la que se abonó la propiedad de transacción especificada. |
+| [!UICONTROL User Account Type] | Obsoleto |
+| [!UICONTROL User SE Account ID] | El ID numérico que Search, Social y Commerce asignan a la red de anuncios. |
+| [!UICONTROL Video Average Play Time] | ([!DNL Meta] (anuncios) El tiempo promedio que se reprodujo un vídeo, incluido el tiempo empleado en reproducirlo, para una sola impresión. |
+| [!UICONTROL Video Plays] | ([!DNL Meta] anuncios) El número de veces que el vídeo empieza a reproducirse, excluidas las reproducciones. |
+| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], y [!UICONTROL VideoQuartile100Rate] | (Anuncios de vídeo) El porcentaje de vídeos reproducidos en el 25 %, 50 %, 75 % o 100 % del recorrido. |
+| [!UICONTROL View Rate] | (Anuncios de vídeo) El número de vistas o participaciones dividido por el número de veces que se mostró el anuncio (impresiones de vídeo y miniaturas). |
+| [!UICONTROL Views] | (Anuncios en vídeo) La cantidad de veces que las personas vieron o interactuaron con su anuncio. |
+| [!UICONTROL ViewThroughConversions] | (Anuncios en la red de audiencia) El número de conversiones que resultaron de una o más impresiones pero no de clics. |
 
 <table style="table-layout:auto">
 

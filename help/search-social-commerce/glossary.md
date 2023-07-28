@@ -3,9 +3,9 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2073'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 
 **coste marginal:** El cambio en el coste total cuando la cantidad cambia en una unidad.
 
+**valor coste-objetivo marginal:** El cambio en el costo necesario para aumentar el valor objetivo en uno (1). Tiene el mismo valor que la columna heredada &quot;Coste marginal a ingresos&quot;.
+
 **tipo de coincidencia:** Una opción que especifica cómo se comparan los términos de búsqueda con los anuncios. Las opciones varían según la red de anuncios.
 
 **puja mínima:** 1) La cantidad mínima a pagar por impresión o por 1000 impresiones. 2) En el caso de las palabras clave de búsqueda, la oferta mínima requerida para una palabra clave determinada en función de su puntuación de calidad. La puja mínima suele ser la cantidad mínima que puedes pagar por clic para que tu palabra clave muestre anuncios.
@@ -113,6 +115,14 @@ ht-degree: 0%
 ## O-P {#o-p}
 
 **objetivo:** (Anunciantes con portafolios) Un objetivo que un cliente establece para cumplir su objetivo comercial de una cartera específica o una campaña de visualización, como maximizar los beneficios o cumplir un objetivo de ventas específico. Un objetivo consiste en las métricas de conversión (también denominadas propiedades de transacción) que se van a rastrear y optimizar para el portafolio, y las ponderaciones relativas de esas métricas.
+
+**valor objetivo:** (Anunciantes con portafolios) Las conversiones ponderadas totales calculadas según el objetivo actual de la cartera, incluidas:
+
+* todas las conversiones, teniendo en cuenta: a) las ponderaciones asignadas a cada conversión en la función objetivo de la cartera y, cuando corresponda, b) la ponderación de visualizaciones para las visualizaciones.
+
+* todos los clics, que la capacidad de optimización considera una sola conversión y se ponderan según el valor de clic del objetivo.
+
+Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
 **capacidad de optimización:** (Anunciantes con portafolios) Tecnología de oferta de palabras clave de Search, Social y Commerce, que determina la estrategia óptima de oferta y administración del presupuesto para un portafolio en función de su objetivo comercial.
 
@@ -178,11 +188,7 @@ ht-degree: 0%
 
 ## W-X {#w-x}
 
-**ingresos ponderados:** (Anunciantes con portafolios) Ingresos totales, que incluyen:
-
-* todos los ingresos, teniendo en cuenta a) las ponderaciones asignadas a cada propiedad de transacción en el objetivo de la cartera y, cuando corresponda, b) la ponderación de visualizaciones para visualizaciones/visualizaciones sociales.
-
-* todos los clics, que la capacidad de optimización considera una propiedad de transacción única y se ponderan según el valor de clic del objetivo.
+**ingresos ponderados:** Consulte &quot;Valor objetivo&quot;.
 
 **XLS** o **XLSX**: un formato de archivo binario para [!DNL Microsoft Office Excel] libros.
 
