@@ -3,9 +3,9 @@ title: Generación de una etiqueta de seguimiento de conversión de Adobe Advert
 description: Obtenga información sobre cómo crear una etiqueta de conversión de Adobe Advertising para realizar un seguimiento de los eventos de conversión.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Cree una etiqueta de conversión independiente para cada conjunto de métricas q
 
 Para obtener más información sobre las diferencias entre los tipos de etiquetas, consulte &quot;[Preguntas frecuentes sobre la conversión de Adobe Advertising y las etiquetas de seguimiento de vista de página](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
 
-**[!UICONTROL Tag Properties]:** Se rastrearán una o más propiedades de transacción (métricas) cuando un usuario final vea una página que contenga la etiqueta de conversión. Para añadir una métrica a la lista, introduzca el nombre de la métrica en la sección &quot;[!UICONTROL Add new property]&quot; y haga clic en **[!UICONTROL Add]**.
+**[!UICONTROL Tag Properties]:** Una o más métricas de conversión que se deben rastrear cuando un usuario final ve una página que contiene la etiqueta de conversión. Para añadir una métrica a la lista, introduzca el nombre de la métrica en la sección &quot;[!UICONTROL Add new property]&quot; y haga clic en **[!UICONTROL Add]**.
 
 Cuando se realiza el seguimiento de varias métricas, se unen mediante un signo &amp; (`&`) en la etiqueta, como `ev_Property1=<Property1>&ev_Property2=<Property2>`.
 
 >[!NOTE]
 >
->Las métricas agregadas a esta lista no se guardan en ninguna parte ni se integran con el del cliente [!UICONTROL Transaction Properties] en la lista [!UICONTROL Admin] pestaña. Sin embargo, las métricas se añaden a la variable [!UICONTROL Transaction Properties] enumera automáticamente una vez que el Adobe Advertising de conversión recopila datos para una métrica, lo que sucede cuando la etiqueta de conversión se implementa en una página y un usuario final completa una transacción que abre esa página.
+>Las métricas agregadas a esta lista no se guardan en ninguna parte ni se integran con el del cliente [!UICONTROL Conversions] en la lista [!UICONTROL Admin] pestaña. Sin embargo, las métricas se añaden a la variable [!UICONTROL Conversions] enumera automáticamente una vez que el Adobe Advertising de conversión recopila datos para una métrica, lo que sucede cuando la etiqueta de conversión se implementa en una página y un usuario final completa una transacción que abre esa página.
 
 **[!UICONTROL Include unique transaction IDs]:** (Opcional) Incluye una propiedad de ID de transacción (`ev_transid=<transid>`) en la etiqueta. La opción está seleccionada de forma predeterminada.
 

@@ -3,7 +3,7 @@ title: Integración con soluciones y servicios de Adobe Experience Cloud
 description: Obtenga información acerca de las integraciones de Search, Social y Commerce con las soluciones y los servicios de Adobe Experience Cloud.
 exl-id: e8b521f5-f426-4c50-9df4-361a047c9ff0
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
