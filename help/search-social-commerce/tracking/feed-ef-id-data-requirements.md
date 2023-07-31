@@ -3,7 +3,7 @@ title: Requisitos de datos para fuentes de datos que utilizan EF ID
 description: Haga referencia a los requisitos de datos para fuentes de datos mediante EF ID.
 exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,7 +27,7 @@ A continuación se muestran los campos de encabezado y los campos de datos corre
 
 ## Ejemplo
 
-El siguiente archivo de ejemplo incluye datos para dos propiedades de transacción (Product e Revenue).
+El siguiente archivo de ejemplo incluye datos para dos métricas de conversión (Producto e Ingresos).
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue

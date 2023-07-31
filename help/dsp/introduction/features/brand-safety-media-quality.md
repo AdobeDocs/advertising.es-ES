@@ -3,7 +3,7 @@ title: Seguridad de marca y calidad de medios
 description: Obtenga más información sobre la seguridad de la marca y las funciones de calidad de los medios.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -60,13 +60,13 @@ La asignación de inventario es el proceso detallado de revisión e incorporaci�
 
 * **Intervalos:** Examinamos holísticamente la presencia de la marca en el ecosistema general para clasificar el inventario en diferentes niveles. Puede [segmentar las ubicaciones](/help/dsp/campaign-management/placements/placement-settings.md) Vaya a estos niveles para obtener el nivel de alcance deseado:
 
-   * **[!UICONTROL T1]** - Sitios de marca reconocida internacionalmente
+   * **[!UICONTROL T1]** — Sitios de marca reconocida internacionalmente
 
-   * **[!UICONTROL T2]** - Sitios de aspecto Bueno que son actuales, actualizados, sin contenido generado por el usuario, y por lo general carecen de reconocimiento global
+   * **[!UICONTROL T2]** — sitios de aspecto Bueno que son actuales, actualizados, sin contenido generado por el usuario y que generalmente carecen de reconocimiento global
 
-   * **[!UICONTROL T3]** : contenido generado por el usuario y contenido especializado
+   * **[!UICONTROL T3]** — Contenido generado por el usuario y contenido especializado
 
-* **Categorización del sitio:** DSP Para garantizar una segmentación y un bloqueo de contenido sencillos, etiquetamos cada propiedad con una categoría de sitio definida por el usuario según el contenido de la propiedad. Puede [dirija o excluya estas categorías de sitio para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md) en función de los objetivos de colocación.
+* **Categorización del sitio:** DSP Para garantizar una segmentación y un bloqueo de contenido sencillos, etiquetamos cada propiedad con una categoría de sitio definida por el usuario en función del contenido de la propiedad. Puede [dirija o excluya estas categorías de sitio para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md) en función de los objetivos de colocación.
 
 ### Soporte completo para el bloqueo de sitios
 
@@ -145,5 +145,4 @@ Para obtener más información sobre la funcionalidad, póngase en contacto con 
 >[!MORELIKETHIS]
 >
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-
 <!-- >* [Advertiser Account Settings](/help/dsp/admin/advertiser-settings.md) -->

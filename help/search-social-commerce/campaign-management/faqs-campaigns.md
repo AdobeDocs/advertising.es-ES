@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre campañas
 description: Consulte respuestas a preguntas sobre administración de campañas y vistas de datos de campañas.
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Según la variable [configuración de datos de fuente](/help/search-social-comme
 
 +++()[!DNL Google Ads] campañas) Cambios en los nombres para mostrar de mi [!DNL Google]Se han revertido las conversiones no rastreadas.
 
-Si cambia los nombres para mostrar de las propiedades de transacción en Buscar, Social y Comercio, los cambios se sobrescriben con los nombres configurados en [!DNL Google Ads]. Realice cualquier cambio de nombre en [!DNL Google Ads].
+Si cambia los nombres para mostrar de las métricas de conversión en Buscar, Social y Comercio, los cambios se sobrescribirán con los nombres configurados en [!DNL Google Ads]. Realice cualquier cambio de nombre en [!DNL Google Ads].
 +++
 
 +++(Campañas de Google Ads) ¿Puedo utilizar un presupuesto compartido para campañas en portafolios?

@@ -3,9 +3,9 @@ title: Acerca de los objetivos personalizados
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: d1ebb6a12a04b969ba8558912c3ac76bb1632b3c
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -16,16 +16,15 @@ Las metas personalizadas definen los eventos de éxito que un anunciante necesit
 
 ![metas personalizadas](/help/dsp/assets/objective-goals.png)
 
-Cada objetivo personalizado consta de una o más métricas, o *propiedades de transacción* y los pesos relativos de esas propiedades de transacción. Las propiedades de transacción disponibles incluyen todas las métricas rastreadas con el píxel de conversión de la publicidad de Adobe y a través de Adobe Analytics.
+Cada objetivo personalizado consta de una o más métricas de conversión y de los pesos relativos de esas métricas. Las métricas de conversión disponibles incluyen todas las métricas rastreadas con el píxel de conversión de Adobe Advertising y a través de Adobe Analytics.
 
 >[!NOTE]
 >
->* [!DNL Analytics] Las dimensiones y los segmentos no están disponibles para la optimización de publicidad de Adobe.
+>* [!DNL Analytics] las dimensiones y los segmentos no están disponibles para la optimización de Adobe Advertising.
 >* DSP Para utilizar eventos de Analytics en la creación de informes, trabaje con su equipo de cuenta de Adobe de para configurar una integración de nivel de anunciante.
 >* [!DNL Analytics] los eventos personalizados siguen esta convención de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Ejemplo: `custom_event_16_examplersid`
 
-
-Por ejemplo, supongamos que tres métricas (propiedades de transacción) son relevantes para un paquete específico en una de sus campañas: &quot;Descarga del PDF&quot; valorada en 20 USD, &quot;Suscripción por correo electrónico&quot; valorada en 30 USD y &quot;Confirmación de pedido&quot; valorada en 40 USD. Si desea dar peso según el valor monetario único de la acción del cliente, los pesos relativos de las propiedades serían 1, 2 y 1,5.
+Por ejemplo, supongamos que hay tres métricas de conversión relevantes para un paquete específico en una de las campañas: &quot;Descarga de PDF&quot; valorada en 20 USD, &quot;Suscripción por correo electrónico&quot; valorada en 30 USD y &quot;Confirmación de pedido&quot; valorada en 40 USD. Si desea dar peso según el valor monetario único de la acción del cliente, los pesos relativos de las propiedades serían 1, 2 y 1,5.
 
 Consulte la [prácticas recomendadas para crear objetivos personalizados](custom-goal-best-practices.md) para obtener sugerencias sobre cómo configurar los objetivos personalizados.
 
@@ -38,4 +37,3 @@ Una vez que [crear una meta personalizada](custom-goal-create.md), puede [asigna
 >* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
 >* [Configuración de paquetes](/help/dsp/campaign-management/packages/package-settings.md)
 > * [DSP Optimización de las campañas con la](optimization-how-dsp-optimizes-campaigns.md)
-

@@ -3,7 +3,7 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: Obtenga información acerca de [!UICONTROL Keyword Assist Report].
 exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 | [!UICONTROL First Keyword] | Predeterminado | La primera palabra clave o ubicación en la ruta de conversión. |
 | [!UICONTROL Last Keyword] | Predeterminado | La última palabra clave o ubicación que resultó en conversiones (incluso si la última palabra clave está fuera del tamaño de ruta especificado). |
 | \[Métricas personalizadas (derivadas) específicas del anunciante\] | Personalizado | El valor de una métrica personalizada que ha creado y que se calcula a partir de las métricas existentes. |
-| \[Propiedades de transacción específicas del anunciante\] | Personalizado | Número de conversiones de una propiedad de transacción o métrica de participación del sitio especificada. |
-| [!UICONTROL % of Total] \[propiedad de transacción\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe para cada propiedad de transacción incluida) El porcentaje de conversiones generales entre portafolios atribuido a la palabra clave o al patrón de ubicación. |
+| \[Métricas de conversión específicas del anunciante\] | Personalizado | Número de conversiones de una métrica de conversión o una métrica de participación del sitio especificadas. |
+| [!UICONTROL % of Total] \[métrica de conversión\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe para cada métrica de conversión incluida) El porcentaje de conversiones generales entre portafolios atribuido a la palabra clave o al patrón de ubicación. |
 | [!UICONTROL 6th Keyword] hasta [!UICONTROL 10th Keyword] | Personalizado | La palabra clave de búsqueda pagada sexta a décima o la ubicación hace clic en la ruta de conversión que se produjo dentro de la dirección del anunciante [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Nota:</b> Si el informe incluye ubicaciones de campañas de búsqueda con contenido habilitado (que no incluyen palabras clave), estas columnas muestran los nombres de grupos de publicidad aplicables, como &quot;Nombre de su grupo de publicidad&quot; en su lugar. |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[propiedad de transacción\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe para cada propiedad de transacción incluida) La latencia promedio en días desde el primer evento (en la primera palabra clave o ubicación) hasta una conversión. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[propiedad de transacción\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe) La latencia promedio en días desde el último evento (en la última palabra clave o ubicación) hasta una conversión. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[métrica de conversión\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe para cada métrica de conversión incluida) La latencia promedio en días desde el primer evento (en la primera palabra clave o ubicación) a una conversión. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[métrica de conversión\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe) La latencia promedio en días desde el último evento (en la última palabra clave o ubicación) hasta una conversión. |
 | [!UICONTROL Path Frequency] | Personalizado | El número de veces que la ruta de esta fila se produjo antes de la conversión. |
 
 >[!MORELIKETHIS]

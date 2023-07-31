@@ -3,9 +3,9 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **restricción:** (Anunciantes con portafolios; aplicable solo para unidades de oferta en portafolios estándar) Una regla para pujar por una palabra clave o anuncio específico. Anula cualquier límite de nivel de portafolio y la estrategia de oferta recomendada.
 
-**conversión:** Finalización de una acción después de que un usuario final haga clic en un anuncio, generalmente capturado como métrica; algunos ejemplos son registros o compras. Una conversión puede consistir en uno o más eventos de transacción, pero los términos &quot;conversión&quot; y &quot;transacción&quot; se suelen utilizar indistintamente.
+**conversión:** Finalización de una acción después de que un usuario final haga clic en un anuncio, generalmente capturada como métrica. Algunos ejemplos son los registros y las compras, que pueden representar recuentos o importes monetarios. Una conversión puede consistir en uno o más eventos de transacción, pero los términos &quot;conversión&quot; y &quot;transacción&quot; se suelen utilizar indistintamente.
 
 **seguimiento de conversión:** El seguimiento de conversión utiliza cookies para rastrear a) los clics en los anuncios de un anunciante en las redes de anuncios y b) las transacciones resultantes en el sitio web del anunciante.
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ## O-P {#o-p}
 
-**objetivo:** (Anunciantes con portafolios) Un objetivo que un cliente establece para cumplir su objetivo comercial de una cartera específica o una campaña de visualización, como maximizar los beneficios o cumplir un objetivo de ventas específico. Un objetivo consiste en las métricas de conversión (también denominadas propiedades de transacción) que se van a rastrear y optimizar para el portafolio, y las ponderaciones relativas de esas métricas.
+**objetivo:** (Anunciantes con portafolios) Un objetivo que un cliente establece para cumplir su objetivo comercial de una cartera específica o una campaña de visualización, como maximizar los beneficios o cumplir un objetivo de ventas específico. Un objetivo consiste en las métricas de conversión que se van a rastrear y optimizar para el portafolio, y los pesos relativos de esas métricas.
 
 **valor objetivo:** (Anunciantes con portafolios) Las conversiones ponderadas totales calculadas según el objetivo actual de la cartera, incluidas:
 
@@ -138,9 +138,9 @@ Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
 **PPC:** Consulte &quot;Pago por clic&quot;.
 
-**propiedad:** Consulte &quot;propiedad de transacción&quot;.
+**propiedad:** Consulte &quot;Métrica de conversión&quot;.
 
-**tiempo de la propiedad:** Hora a la que se produce una transacción individual. Cuando una transacción incluye transacciones de seguimiento relacionadas (como un cliente que primero se registra para una prueba gratuita y luego se suscribe a un servicio de pago), cada transacción tiene su propia propiedad en el tiempo.
+**tiempo de la propiedad:** Hora a la que se produce un evento de conversión individual. Cuando un evento incluye eventos de seguimiento relacionados (como un cliente que se registra primero para una prueba gratuita y luego se suscribe a un servicio de pago), cada evento tiene su propia propiedad y hora.
 
 ## Q-R {#q-r}
 
@@ -174,7 +174,7 @@ Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
 **ID de transacción:** ID especificado por el anunciante que identifica una transacción. Cuando una transacción incluye varios eventos, todos tienen el mismo ID de transacción.
 
-**propiedad de transacción:** Un atributo de una transacción, como el tipo de transacción/conversión, el importe en dólares de una venta o un tipo de producto vendido (por ejemplo, &quot;Posibles clientes&quot;, &quot;Importe de venta&quot; o &quot;1 año. Registros&quot;, respectivamente). En Search, Social y Commerce, las propiedades de transacción se miden para el objetivo de un portafolio y se identifican en el ID de seguimiento. Los términos &quot;propiedad de transacción&quot; y &quot;conversión&quot;<!-- type-->&quot; suelen utilizarse indistintamente.
+**propiedad de transacción:** Consulte &quot;Conversión&quot;.
 
 **tiempo de transacción:** Hora a la que un clic o impresión se convierte en una transacción. Cuando una transacción consta de varios eventos de transacción (como cuando un cliente se registra por primera vez para una prueba gratuita y posteriormente se suscribe a un servicio de pago), el tiempo de transacción procede del primer evento de la cadena (registro para la prueba gratuita).
 

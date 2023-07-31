@@ -3,7 +3,7 @@ title: Columnas de informes para informes de especialidades
 description: Obtenga información sobre las columnas de datos disponibles para los informes de especialidades.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 | Columna | Descripción |
 |----|----|
 | \[Métricas personalizadas (derivadas) específicas del anunciante\] | El valor de una métrica personalizada que ha creado y que se calcula a partir de las métricas existentes. |
-| \[Propiedades de transacción específicas del anunciante\] | Número de conversiones de una propiedad de transacción o métrica de participación del sitio especificada. |
+| \[Métricas de conversión específicas del anunciante\] | Número de conversiones de una métrica de conversión o una métrica de participación del sitio especificadas. |
 | [!UICONTROL Account Name] | El nombre de la cuenta. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] informes) Identificador de cuenta asignado por la red de publicidad. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] informes) El estado de la cuenta: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, o *[!UICONTROL Inactive]*. |

@@ -3,7 +3,7 @@ title: Acerca de esta guía
 description: Descubra lo que se cubre en cada capítulo de esta guía.
 exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -28,7 +28,7 @@ En los siguientes capítulos de ayuda encontrará información sobre grupos espe
 
 * En &quot;Herramientas&quot; se explica cómo cambiar la contraseña, cómo usar las herramientas para generar etiquetas de rastreo de clics y de seguimiento de conversión, y cómo cargar las métricas de conversión a [!DNL Google Ads] y sus objetivos de portafolio a las redes de anuncios para la optimización híbrida, cargue métricas para rastrear campañas y duplique sus [!DNL Google Ads] campañas en su [!DNL Microsoft Advertising] cuentas.
 
-* &quot;Administración&quot; explica cómo administrar los datos del anunciante, incluidas las propiedades de transacción que se recopilan y las fechas que se deben excluir de las previsiones del portafolio; sincronizar las métricas de conversión de un [!DNL Google Analytics] cuenta; configurar varias opciones de nivel de anunciante; y (algunas funciones) administrar cuentas de usuario, de agencia y de anunciante.
+* &quot;Administración&quot; explica cómo administrar los datos del anunciante, incluidas las métricas de conversión que se recopilan y las fechas que se deben excluir de las previsiones del portafolio; sincronizar las métricas de conversión de un [!DNL Google Analytics] cuenta; configurar varias opciones de nivel de anunciante; y (algunas funciones) administrar cuentas de usuario, de agencia y de anunciante.
 
 >[!NOTE]
 >

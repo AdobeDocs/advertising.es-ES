@@ -3,7 +3,7 @@ title: '[!UICONTROL Transaction Report]'
 description: Obtenga información acerca de [!UICONTROL Transaction Report].
 exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
 feature: Search Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 El [!UICONTROL Transaction Report] proporciona detalles de transacciones para palabras clave actuales en grupos de anuncios en campañas de búsqueda y visualización, y para conjuntos de anuncios en campañas sociales, dentro de portafolios especificados (cuando corresponda) o cuentas de publicidad. Opcionalmente, puede incluir métricas de conversión. Puede comparar los resultados de este informe con los datos de transacción del anunciante para verificar que Search, Social y Commerce informan de todas las transacciones del anunciante.
 
-De forma predeterminada, el informe incluye datos para las transacciones que se produjeron dentro del intervalo de fechas especificado. Los datos de cada transacción incluyen el ID de transacción, los tiempos de transacción y de clics/impresiones, el tipo de conversión, la propiedad de transacción y los datos de ingresos de la propiedad de transacción (como 1 para un registro o 12 para un pedido de 12 $) para cada combinación de palabra clave o grupo de publicidad/campaña/portafolio. De forma predeterminada, las filas están en orden ascendente, primero por hora de transacción y luego por hora de clic.
+De forma predeterminada, el informe incluye datos para las transacciones que se produjeron dentro del intervalo de fechas especificado. Los datos de cada transacción incluyen el ID de transacción, los tiempos de transacción y de clics/impresiones, el tipo de conversión, la métrica de conversión y los datos de ingresos de la métrica de conversión (como 1 para un registro o 12 para un pedido de 12 $) de cada combinación de palabra clave, grupo de publicidad/campaña/portafolio. De forma predeterminada, las filas están en orden ascendente, primero por hora de transacción y luego por hora de clic.
 
 Puede ver los datos de los 45 días anteriores.
 

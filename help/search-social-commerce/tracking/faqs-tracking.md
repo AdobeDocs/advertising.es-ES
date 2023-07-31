@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre el seguimiento
 description: Obtenga respuestas a preguntas comunes sobre el seguimiento, incluidos problemas de resolución de problemas.
 exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Las transacciones duplicadas pueden producirse cuando un usuario actualiza la p�
 
 La siguiente es la lógica de deduplicación de Adobe Advertising:
 
-* **Cuando un cliente envía un valor para `ev_transid` atributo:** Las solicitudes de píxeles posteriores se consideran duplicados de la anterior si todas las siguientes son iguales: `ev_transid`; el ID de seguimiento para la misma palabra clave, anuncio o ubicación; y el valor de una propiedad de transacción específica.
+* **Cuando un cliente envía un valor para `ev_transid` atributo:** Las solicitudes de píxeles posteriores se consideran duplicados de la anterior si todas las siguientes son iguales: `ev_transid`; el ID de seguimiento para la misma palabra clave, anuncio o ubicación; y el valor de una métrica de conversión específica.
 
   Por ejemplo, si varias solicitudes de préstamo tienen el mismo ID de aplicación y el mismo importe de préstamo para la misma palabra clave en una red de publicidad específica, se consideran duplicados y solo se cuenta la primera solicitud de préstamo.
 
-* **Cuando un cliente no envía un valor para `ev_transid` atributo:** Las transacciones posteriores se consideran duplicados de la anterior si comparten un ID de seguimiento para la misma palabra clave, anuncio o ubicación, y el mismo valor para una propiedad de transacción específica.
+* **Cuando un cliente no envía un valor para `ev_transid` atributo:** Las transacciones posteriores se consideran duplicados de la anterior si comparten un ID de seguimiento para la misma palabra clave, anuncio o ubicación y el mismo valor para una métrica de conversión específica.
 
   Por ejemplo, si varias solicitudes de préstamo tienen el mismo ID de palabra clave y el mismo importe de préstamo, se consideran duplicados y solo se cuenta la primera solicitud de préstamo.
 +++
@@ -57,9 +57,9 @@ En la cuenta o campaña, cambie el método de seguimiento a &quot;[!UICONTROL No
 
 ## Preguntas de datos
 
-+++¿Cómo sé qué propiedad de transacción procede de una fuente de datos o se rastrea con la etiqueta de seguimiento de conversión de Adobe Advertising?
++++¿Cómo sé qué métrica de conversión es de una fuente de datos o se rastrea con la etiqueta de seguimiento de conversión de Adobe Advertising?
 
-En un [!UICONTROL Transaction Report], puede saber si el píxel de seguimiento de conversión de Adobe Advertising ha rastreado una propiedad de transacción incluida si incluye la columna personalizada &quot;[!UICONTROL Tracking URL].&quot; Las direcciones URL de seguimiento con el píxel de seguimiento de Adobe Advertising comienzan por `http://pixel.everesttech.net`.
+En un [!UICONTROL Transaction Report], puede saber si el píxel de seguimiento de conversión de Adobe Advertising rastreó una métrica de conversión incluida si incluye la columna personalizada &quot;[!UICONTROL Tracking URL].&quot; Las direcciones URL de seguimiento con el píxel de seguimiento de Adobe Advertising comienzan por `http://pixel.everesttech.net`.
 +++
 
 +++¿Qué son las transacciones huérfanas?

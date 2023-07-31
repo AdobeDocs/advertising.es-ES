@@ -3,7 +3,7 @@ title: Requisitos de archivo para archivos de fuentes de conversión
 description: Consulte los requisitos para los archivos de fuentes de conversión.
 exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -18,9 +18,9 @@ A continuación se indican los requisitos para el formato de archivo, los campos
 
 El archivo de datos debe tener el formato de texto sin formato (TXT), valores separados por comas (CSV) o valores separados por tabuladores (TSV). El archivo puede constar de una fila de encabezado y filas de datos con valores separados por tabulaciones, comas u otro carácter (pero no espacios):
 
-* **Fila de encabezado:** (Opcional) La primera línea del archivo es un encabezado, que especifica los nombres de campo necesarios (o nombres de columna) en un orden específico, separados por tabulaciones o comas. Los nombres de columna requeridos incluyen las propiedades de transacción que el Adobe Advertising está rastreando como conversiones.
+* **Fila de encabezado:** (Opcional) La primera línea del archivo es un encabezado, que especifica los nombres de campo necesarios (o nombres de columna) en un orden específico, separados por tabulaciones o comas. Los nombres de columna requeridos incluyen las métricas de conversión que el Adobe Advertising está rastreando como conversiones.
 
-* **Filas de datos:** Cada línea posterior incluye campos de datos en el mismo orden que el encabezado y separados por tabulaciones o comas. Si el primer registro no es un encabezado, cada fila de datos debe incluir todos los campos posibles, en el orden especificado. Los valores de todos los ID y las propiedades de transacción deben ser alfanuméricos.
+* **Filas de datos:** Cada línea posterior incluye campos de datos en el mismo orden que el encabezado y separados por tabulaciones o comas. Si el primer registro no es un encabezado, cada fila de datos debe incluir todos los campos posibles, en el orden especificado. Los valores de todos los ID y las métricas de conversión deben ser alfanuméricos.
 
   Cuando varios clics en uno o varios anuncios conducen a una transacción, debe determinar el ID de clic y el ID de seguimiento a los que atribuir la transacción. Dado que se informa de un ID único para cada transacción, puede actualizar las transacciones individuales.
 
