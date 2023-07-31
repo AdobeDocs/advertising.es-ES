@@ -3,7 +3,7 @@ title: Inventario admitido
 description: Haga referencia a las redes de publicidad, los tipos de campaña y los tipos de publicidad admitidos.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ A continuación se indican las redes de anuncios compatibles, los tipos de campa
 | [!DNL Yahoo Native] (La compatibilidad de sincronización finalizó en 2022) | Red nativa | Nativo | Texto | —<br><br>La información de la cuenta heredada hasta el 10 de marzo de 2022 está disponible como de solo lectura. | — | — | — | —<br><br>Datos de nivel de anuncio heredados que se sincronizaron hasta el 10 de marzo de 2022. | Datos de Analytics para Search, Social y Commerce, pero no viceversa |
 | [!DNL Yandex] | Buscar red | Buscar | Texto | Automático mediante API | Uso de [vistas de administración de campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), y [fuentes de administración de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Sí | Campañas solo con estrategia de oferta de CPC | Datos de nivel de anuncio | Datos de Analytics para Search, Social y Commerce<br><br>Datos de nivel de anuncio de Search, Social y Commerce a Analytics |
 | | Mostrar red | Visualización/Contenido | Texto | Automático mediante API | Uso de [vistas de administración de campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), y [fuentes de administración de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Sí | Campañas solo con estrategia de oferta de CPC | Datos de nivel de anuncio | Datos de Analytics para Search, Social y Commerce<br><br>Datos de nivel de anuncio de Search, Social y Commerce a Analytics |
-
-<table style="table-layout:auto">
 
 [^1]: Para la mayoría de las redes de anuncios y tipos de campañas, al habilitar la opción &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload]&quot; configuración de seguimiento para una campaña activa (ya sea establecida en el nivel de campaña o heredada de la configuración de la cuenta), Search, Social y Commerce crea y carga automáticamente direcciones URL de seguimiento para los componentes del grupo de anuncios en la red de anuncios cada vez que se sincroniza con ella. De lo contrario, debe generar direcciones URL de seguimiento y agregarlas a la configuración de la cuenta, la campaña o el componente de campaña. Consulte &quot;[Cuándo y cómo generar URL de seguimiento de clics por red de anuncios y objeto](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

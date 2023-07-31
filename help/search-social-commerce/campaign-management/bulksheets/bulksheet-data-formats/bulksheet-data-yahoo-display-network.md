@@ -3,7 +3,7 @@ title: Datos de hoja de edición masiva para [!DNL Yahoo! Display Network] cuent
 description: Hacer referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para [!DNL Yahoo! Display Network] cuentas.
 exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -52,8 +52,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Keyword ID] | n/a | n/a | Si se incluye | Identificador exclusivo que identifica una palabra clave existente. |
 | [!UICONTROL AMO ID] | n/a | n/a | n/a | (En hojas de edición masiva generadas) Identificador único generado por el Adobe para una entidad sincronizada. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Se incluye en las hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de Search, Social y Commerce con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL EF Errors] archivos. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

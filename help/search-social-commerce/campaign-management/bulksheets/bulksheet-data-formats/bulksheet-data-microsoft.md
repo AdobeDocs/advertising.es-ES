@@ -3,7 +3,7 @@ title: Datos de hoja de edición masiva requeridos para [!DNL Microsoft Advertis
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Microsoft Advertising] cuentas.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '6888'
 ht-degree: 1%
@@ -113,8 +113,6 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 | [!UICONTROL SE Error Message] | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de la red de publicidad con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL SE Errors] archivos. Este valor no se publica en la red de anuncios. |
 | [!UICONTROL Exemption Request] | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar los nombres y el texto de cualquier política publicitaria de Google que infrinja un anuncio. |
 | [!UICONTROL Retail Hash] | (Se incluye con fines informativos en las hojas de edición masiva generadas mediante Advanced Campaign Management) Código hash alfanumérico (como f9639f40cdf56524b541e5dacf55a991) que indica que el elemento se generó mediante la vista Advanced (ACM). |
-
-<table style="table-layout:auto">
 
 [^1]: [!DNL Excel] convierte números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
 

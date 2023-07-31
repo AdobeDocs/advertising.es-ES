@@ -3,7 +3,7 @@ title: '[!UICONTROL Forecast Accuracy Report]'
 description: Obtenga información sobre el informe de precisión de la previsión, incluidas las columnas de datos.
 exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -48,8 +48,6 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 | [!UICONTROL EF Portfolio Group ID] | Predeterminado | El ID numérico del grupo de portafolios al que pertenece el portafolio. |
 | [!UICONTROL Portfolio Group Name] | Predeterminado | El nombre del grupo de portafolios al que pertenece el portafolio. |
 | [!UICONTROL Portfolio ID] | Predeterminado | El ID numérico del portafolio. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

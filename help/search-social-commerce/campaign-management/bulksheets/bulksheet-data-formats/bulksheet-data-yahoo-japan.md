@@ -3,7 +3,7 @@ title: Datos de hoja de edición masiva para [!DNL Yahoo! Japan] cuentas
 description: Hacer referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para [!DNL Yahoo! Japan] cuentas.
 exl-id: b68edbc1-0054-4dac-be3f-4df3c4e00ba9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 1%
@@ -68,8 +68,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL AMO ID] | n/a: Crear<br><br>Opcional: editar o eliminar | n/a: Crear<br><br>Opcional: editar o eliminar | n/a: Crear<br><br>Opcional: editar o eliminar | n/a: Crear<br><br>Opcional: editar o eliminar | n/a | (En hojas de edición masiva generadas) Un [!DNL Adobe]Identificador único generado por el usuario para una entidad sincronizada. Para los anuncios adaptables de búsqueda, la variable [!UICONTROL AMO ID] es necesario para editar o eliminar anuncios a menos que incluya el [!UICONTROL Ad ID]. Para editar los datos de todos los demás tipos de entidad con una [!UICONTROL AMO ID], el [!UICONTROL AMO ID] es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce utilizan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | n/a | n/a | (Se incluye en las hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de Search, Social y Commerce con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL EF Errors] archivos. Este valor no se publica en la red de anuncios. |
 | [!UICONTROL SE Error Message] | n/a | n/a | n/a | n/a | n/a | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de la red de publicidad con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL SE Errors] archivos. Este valor no se publica en la red de anuncios. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel convierte números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
 

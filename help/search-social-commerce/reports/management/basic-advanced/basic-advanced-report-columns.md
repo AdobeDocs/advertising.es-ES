@@ -3,7 +3,7 @@ title: Columnas de informes para informes básicos y avanzados
 description: Obtenga información sobre las columnas de datos disponibles para los informes básicos y avanzados.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3603'
 ht-degree: 0%
@@ -186,8 +186,6 @@ ht-degree: 0%
 | [!UICONTROL View Rate] | (Anuncios de vídeo) El número de vistas o participaciones dividido por el número de veces que se mostró el anuncio (impresiones de vídeo y miniaturas). |
 | [!UICONTROL Views] | (Anuncios en vídeo) La cantidad de veces que las personas vieron o interactuaron con su anuncio. |
 | [!UICONTROL ViewThroughConversions] | (Anuncios en la red de audiencia) El número de conversiones que resultaron de una o más impresiones pero no de clics. |
-
-<table style="table-layout:auto">
 
 <!-- HOW IS MARKET TYPE DIFFERENT FROM CHANNEL TYPE? And what are all possible values for each? -->
 

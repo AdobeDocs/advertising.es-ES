@@ -3,7 +3,7 @@ title: Datos de hoja de edición masiva requeridos para [!DNL Yandex] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Yandex] cuentas.
 exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 1%
@@ -67,8 +67,6 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | \[Clasificación de etiquetas específica del anunciante\] | Opcional | Opcional | Opcional | Opcional | n/a | (Nombrado para una clasificación de etiquetas específica del anunciante, como &quot;Color&quot; para una clasificación de etiquetas denominada Color) Un valor para la clasificación especificada que está asociada a la entidad. Solo se puede incluir un valor por clasificación por entidad (como &quot;rojo&quot; para la clasificación de etiquetas &quot;Color&quot; para la Campaña A). La longitud máxima es de 100 caracteres y el valor puede incluir caracteres ASCII y no ASCII.<br><br>Las clasificaciones de etiquetas y sus valores se aplican a todos los componentes secundarios; los nuevos componentes que se añadan más adelante se asocian automáticamente a la etiqueta. Las clasificaciones de etiquetas para los grupos de productos se aplican al nivel de unidad (más granular).<br><br>El nombre de la clasificación y el valor de la clasificación no distinguen entre mayúsculas y minúsculas. |
 | [!UICONTROL Constraints] | Opcional | Opcional | Opcional | n/a | n/a | Una restricción asignada a la entidad. Sólo se puede asignar una restricción por entidad.<br><br>Las entidades secundarias heredan las restricciones, por lo que no es necesario introducir valores para entidades secundarias a menos que desee anular los valores heredados. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | n/a | n/a | (Se incluye en las hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de Search, Social y Commerce con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL EF Errors] archivos. Este valor no se publica en la red de anuncios. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel convierte números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
 

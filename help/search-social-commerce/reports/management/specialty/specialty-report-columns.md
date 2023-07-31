@@ -3,7 +3,7 @@ title: Columnas de informes para informes de especialidades
 description: Obtenga información sobre las columnas de datos disponibles para los informes de especialidades.
 exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2280'
 ht-degree: 0%
@@ -154,8 +154,6 @@ ht-degree: 0%
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] informes) El número de clics cuando el elemento de anuncio estaba presente en la copia de anuncio, independientemente de si se hizo clic en él o no. |
 | [!UICONTROL User SE Account ID] | El ID numérico que Search, Social y Commerce asignan a la red de anuncios. |
 | [!UICONTROL ViewThroughConversions] | ([!UICONTROL Bing Ads Geo Report]; anuncios en la red de audiencia) El número de conversiones que resultaron de una o más impresiones pero no de clics. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

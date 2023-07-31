@@ -3,7 +3,7 @@ title: Configuración de informes básica y avanzada
 description: Obtenga información acerca de la configuración necesaria y opcional para los informes básicos y avanzados.
 exl-id: 70453b24-f638-45d0-9d1e-e942a78a98d8
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '3666'
 ht-degree: 0%
@@ -43,8 +43,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Opcional; disponible solo cuando el operador &quot;[!UICONTROL Save as template]&quot; opción está seleccionada) Cuándo ejecutar el informe: <i>[!UICONTROL Now]</i> (para ejecutar el informe una vez; opción predeterminada), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Día de la semana]</i>, o <i>[!UICONTROL Every Month] [Día del mes]</i>. Para todos los periodos de tiempo excepto para <i>[!UICONTROL Now]</i>, seleccione la hora en el huso horario del anunciante a partir de las 09:00. |
 |  | [!UICONTROL Email Recipients] | <b>Nota:</b>  Esta configuración solo se utiliza cuando se envían notificaciones por correo electrónico para [!UICONTROL Reports] son [activado en [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Direcciones de correo electrónico de los usuarios registrados de Search, Social y Commerce a los que se enviarán notificaciones cuando se complete el informe o se cancele debido a errores. De forma predeterminada, se introduce la dirección de la cuenta de usuario. Para especificar varias direcciones, sepárelas con comas, espacios o líneas nuevas. Cuando se programa la ejecución repetida del informe, se envía una notificación cada vez que se completa el informe. |
 |  | [!UICONTROL Email Notification] | <b>Nota:</b>  Esta configuración solo se utiliza cuando se envían notificaciones por correo electrónico para [!UICONTROL Reports] son [activado en [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Cuándo [!UICONTROL Email Recipients] (se especifican) Qué incluir en las notificaciones por correo electrónico a cualquier dirección especificada:<ul><li><i>[!UICONTROL Notification Only]</i> (predeterminado): Para enviar solo una notificación de la finalización o el error del informe, sin archivos adjuntos. La notificación incluye vínculos de descarga temporales para todos los formatos de informe.</li><li><i>[!UICONTROL XLS Attachment]:</i> Incluir una copia del informe completado en formato XLS si el archivo tiene menos de 10 MB aproximadamente. Los archivos de más de 1 MB están comprimidos.</li><li><i>[!UICONTROL TSV Attachment]:</i> Incluir una copia del informe completado en formato TSV si el archivo tiene menos de 10 MB aproximadamente. Los archivos de más de 1 MB están comprimidos.</li><li><i>[!UICONTROL CSV Attachment]:</i> Incluir una copia del informe completado en formato CSV si el archivo tiene menos de 10 MB aproximadamente. Los archivos de más de 1 MB están comprimidos. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
