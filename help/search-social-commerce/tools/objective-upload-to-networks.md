@@ -3,7 +3,7 @@ title: Habilitar la carga de objetivos en las redes de publicidad
 description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft® Advertising].
 exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Si la cuenta del anunciante está configurada para utilizar la optimización híbrida, Adobe Advertising puede, opcionalmente, cargar los objetivos de las carteras de la cuenta en [!DNL Google Ads] y [!DNL Microsoft® Advertising] como conversiones, de modo que pueda utilizarlas para la optimización híbrida.
 
-Al habilitar esta opción, se déclencheur automáticamente la carga de contenido para portafolios que contengan campañas con estrategias de oferta inteligente. Search, Social y Commerce crean una conversión en la red de anuncios para cada combinación de objetivo y portafolio aplicable. Cada conversión tiene el nombre `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, donde `<portfolio_id>` es el ID de portafolio numérico y `<se_acctid/conversion_manager_se_acctid>` es el identificador numérico de la cuenta de red de publicidad o de la cuenta de administrador. La conversión representa todas las propiedades de transacción ponderadas en el objetivo.
+Al habilitar esta opción, se déclencheur automáticamente la carga de contenido para portafolios que contengan campañas con estrategias de oferta inteligente. Search, Social y Commerce crean una conversión en la red de anuncios para cada combinación de objetivo y portafolio aplicable. Cada conversión tiene el nombre `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, donde `<portfolio_id>` es el ID de portafolio numérico y `<se_acctid/conversion_manager_se_acctid>` es el identificador numérico de la cuenta de red de publicidad o de la cuenta de administrador. La conversión representa todas las métricas de conversión ponderadas en el objetivo.
 
 Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horario del anunciante. Cargas en [!DNL Microsoft® Advertising] se producen diariamente a las 09:00 en el huso horario del anunciante.
 

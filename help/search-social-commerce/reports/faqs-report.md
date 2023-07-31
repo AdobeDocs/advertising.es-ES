@@ -3,9 +3,9 @@ title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ La capacidad de optimización crea diariamente sus modelos de ingresos para cada
 Si no desea que los datos del periodo afecten a las pujas futuras, puede optar por excluir esas fechas del modelo. Póngase en contacto con el equipo de cuenta de Adobe para excluir las fechas.
 +++
 
-+++¿Puedo crear un informe con una métrica de propiedad específica, como [!UICONTROL Device] o [!UICONTROL Objective Name]?
++++¿Puedo crear un informe con una métrica de propiedad de una cuenta específica, como [!UICONTROL Device] o [!UICONTROL Objective Name]?
 Para informes de entidad de campaña ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], y [!UICONTROL Product Group Report]), los datos de las métricas se agregan dinámicamente mediante las columnas de propiedad que se incluyen en el informe. Si lo desea, puede quitar la columna de clave del informe e incluir sólo las columnas de propiedades de las que desea agregar datos.
 
 Por ejemplo, si genera un [!UICONTROL Keyword Report] que incluye el [!UICONTROL Ad Group] y  De forma predeterminada, las columnas Dispositivo agregan métricas para cada palabra clave por grupo de anuncios y tipo de dispositivo. Sin embargo, si elimina el [!UICONTROL Keyword] antes de generar el informe, el informe genera dinámicamente métricas para los grupos de anuncios especificados por tipo de dispositivo.
@@ -107,7 +107,7 @@ Pueden producirse problemas en los datos de ingresos debido a un problema con el
 De forma predeterminada, todos los datos monetarios de los informes se muestran en formato de dólares estadounidenses (por ejemplo, 1000,00). Para mostrar el valor en el formato de moneda correcto (pero sin símbolos de moneda en los formatos CSV y TSV), agregue el símbolo &quot;[!UICONTROL Currency]&quot; al informe. Si el informe incluye datos de cuentas con distintas monedas, cualquier &quot;[!UICONTROL Total]&quot; los valores monetarios son simplemente la suma de todos los números de la columna, independientemente de la moneda.
 +++
 
-+++¿Por qué veo valores decimales para una propiedad de transacción que debería ser un número natural (1, 2, etc.)?
++++¿Por qué veo valores decimales para una métrica de conversión que debería ser un número natural (1, 2, etc.)?
 Puede ver valores decimales en los siguientes casos:
 
 * Si ejecutó el informe utilizando cualquier parámetro de regla de atribución de conversión distinto de [!UICONTROL Last Event] o [!UICONTROL First Event], los ingresos se pueden dividir entre varios eventos en la ruta de conversión.
@@ -162,13 +162,13 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 * La etiqueta de seguimiento de conversión no se ha implementado correctamente en todas las páginas web aplicables o se ha editado.
 
-* Las propiedades de transacción que Search, Social y Commerce están rastreando se excluyen de los informes y, por lo tanto, no están visibles.
+* Las métricas de conversión de las que realiza el seguimiento de Search, Social y Commerce se excluyen de los informes y, por lo tanto, no son visibles.
 
 * No se ha implementado el analizador de ingresos para el cliente.
 
 *Posible solución o solución alternativa:*
 
-1. Compruebe que se incluyen las columnas correctas en los informes o en las vistas de datos. Si no se pueden agregar las columnas correctas, usted o su equipo de cuenta de Adobe deben [hacer que las propiedades de transacción estén disponibles para los informes](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Compruebe que se incluyen las columnas correctas en los informes o en las vistas de datos. Si no se pueden agregar las columnas correctas, usted o su equipo de cuenta de Adobe deben [poner las métricas de conversión a disposición de los informes](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Compruebe que las etiquetas de seguimiento de conversión correctas están implementadas en todas las páginas web aplicables. Si es necesario, pídale al equipo de cuenta de Adobe que cree una transacción de prueba para cada etiqueta de seguimiento de conversión aplicable y que capture los detalles de la transacción, como la `transactionid` y detalles de la cookie (como la `trackingid`, `clickid`, etc.).
 
@@ -188,7 +188,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 * El archivo de fuente no se ha entregado, no se ha analizado completamente o la fuente contenía transacciones huérfanas.
 
-* Las propiedades de transacción relevantes se excluyen de los informes y, por lo tanto, no son visibles.
+* Las métricas de conversión relevantes se excluyen de los informes y, por lo tanto, no son visibles.
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 *Posible solución o solución alternativa:*
 
-1. Compruebe que se incluyen las columnas correctas en los informes o en las vistas de datos. Si no se pueden agregar las columnas correctas, usted o su equipo de cuenta de Adobe deben [hacer que las propiedades de transacción estén disponibles para los informes](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Compruebe que se incluyen las columnas correctas en los informes o en las vistas de datos. Si no se pueden agregar las columnas correctas, usted o su equipo de cuenta de Adobe deben [poner las métricas de conversión a disposición de los informes](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Ejecute el [!UICONTROL Portfolio Report]. Si está vacío, ejecute el [!UICONTROL Campaign Report] y [!UICONTROL Search Engine Report] para ver si los ingresos aparecen en esos informes. Si es así, es posible que las campañas no se asignen al portafolio adecuado.
 
@@ -313,8 +313,8 @@ El [!UICONTROL Portfolio Report] muestra datos solo para las campañas asignadas
 Las redes de anuncios no proporcionan el identificador necesario para atribuir ingresos a un anuncio individual para esas campañas. Por lo tanto, los datos de rendimiento de nivel de anuncio no están disponibles para esos tipos de campaña en la [!UICONTROL Ads] ver o en la [!UICONTROL Ad Variation Report]. Se esperan discrepancias entre el total de datos de nivel de anuncio de una campaña y el total de datos de la campaña.
 +++
 
-+++En el [!UICONTROL Transaction Report]Sin embargo, ¿cómo sé qué propiedad de transacción es de una fuente de datos o se rastrea mediante el píxel de seguimiento de Adobe Advertising?
-En un informe de transacciones, puede saber si el píxel de seguimiento de Adobe Advertising ha rastreado una propiedad de transacción incluida si incluye la columna personalizada &quot;[!UICONTROL Tracking URL].&quot; Las direcciones URL de seguimiento con el píxel de seguimiento de Adobe Advertising comienzan por &quot;`http://pixel.everesttech.net`.&quot;
++++En el [!UICONTROL Transaction Report]Sin embargo, ¿cómo sé qué métrica de conversión es de una fuente de datos o se rastrea con el píxel de seguimiento de Adobe Advertising?
+En un informe de transacciones, puede saber si el píxel de seguimiento de Adobe Advertising ha rastreado una métrica de conversión incluida si incluye la columna personalizada &quot;[!UICONTROL Tracking URL].&quot; Las direcciones URL de seguimiento con el píxel de seguimiento de Adobe Advertising comienzan por &quot;`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Los datos de mi [!UICONTROL Transaction Report] no coincide con los datos de mi [!UICONTROL Keyword Report].

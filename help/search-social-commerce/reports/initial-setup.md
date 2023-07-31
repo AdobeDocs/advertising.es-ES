@@ -3,7 +3,7 @@ title: Las tareas de configuración iniciales para los informes
 description: Obtenga información sobre cómo hacer que las métricas estén disponibles en los informes y cómo automatizar los informes.
 exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Los nuevos usuarios deben realizar las siguientes tareas de configuración inicial:
 
-* Realizar las propiedades de transacción que el Adobe Advertising está rastreando para un anunciante [disponible para informes y otras vistas](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md), y opcionalmente [cambie el nombre de cualquiera de las propiedades](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) que se muestran en los encabezados de columna para mayor legibilidad.
+* Realizar las métricas de conversión que el Adobe Advertising está rastreando para un anunciante [disponible para informes y otras vistas](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md), y opcionalmente [cambie el nombre de cualquiera de las métricas de conversión](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) que se muestran en los encabezados de columna para mayor legibilidad.
 
   Las propiedades de transacciones no están disponibles para los informes a menos que las ponga a disposición específicamente.
 
-  Si más adelante empieza a realizar el seguimiento de una nueva propiedad de transacción, deberá repetir esta tarea.
+  Si más adelante empieza a rastrear una nueva métrica de conversión, deberá repetir esta tarea.
 
 * (Opcional) Automatice la generación de informes:
 

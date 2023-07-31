@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [¿Qué hay de nuevo?](home.md)
 + [Acerca de esta guía](help-about.md)
 + Introducción {#intro}
-   + [Acerca de Adobe Advertising Search, Social y Commerce](/help/search-social-commerce/introduction/about.md)
+   + [Acerca de Búsqueda de Adobe Advertising, Social y Comercio](/help/search-social-commerce/introduction/about.md)
    + [Inventario admitido](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integración con Adobe Experience Cloud {#integrations}
       + [Integración con soluciones y servicios de Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
@@ -84,12 +84,12 @@ ht-degree: 2%
       + [El parámetro de seguimiento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Seguimiento de conversión {#conversion-tracking}
       + [Opciones de seguimiento de conversión](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Adobe Seguimiento de conversión de publicidad {#advertising-conversion-tracking}
+      + Seguimiento de conversión de Adobe Advertising {#advertising-conversion-tracking}
          + [Acerca de las etiquetas de seguimiento de conversión de Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Formato de las etiquetas de seguimiento de conversión de imagen](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [La etiqueta de asignación de conversión JavaScript de Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [La etiqueta de asignación de conversión de JavaScript de Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Preguntas frecuentes sobre las etiquetas de conversión y seguimiento de vista de página](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Seguimiento de conversión de Adobe Analytics](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Conversiones rastreadas por el anunciante mediante fuentes{#conversion-feeds}
@@ -382,7 +382,7 @@ ht-degree: 2%
       + [Acerca de las herramientas para crear y descodificar etiquetas de seguimiento](/help/search-social-commerce/tools/tracking-tools-about.md)
       + [Generar una URL de seguimiento de clics](/help/search-social-commerce/tools/click-tracking-url-generate.md)
       + [Descodificación de una dirección URL de seguimiento de clics](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-      + [Generación de una etiqueta de conversión de publicidad de Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+      + [Generación de una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Carga de datos de conversión en redes de publicidad {#upload-ad-networks}
       + [Cargar métricas de conversión en [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Habilitar la carga de objetivos en las redes de publicidad](/help/search-social-commerce/tools/objective-upload-to-networks.md)
