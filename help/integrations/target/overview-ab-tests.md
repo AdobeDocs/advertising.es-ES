@@ -2,9 +2,9 @@
 title: Configuración de pruebas A/B para anuncios de Adobe Advertising en Adobe Target
 description: Obtenga información sobre cómo configurar una prueba A/B en [!DNL Target] DSP para sus anuncios de la.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: f68aa3a48ff9676fec8c38af920cff1c3a7d6caa
+source-git-commit: 7b5d8b20e7efa3178f9c43c806f37b85d8ae3f62
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -85,83 +85,67 @@ Al añadir un píxel de evento de impresión Audience Manager en la configuraci�
 
 1. Configure un segmento de Audience Manager DSP a partir de los datos de impresión de la:
 
-   1. Ir a **Audience Manager** > **Datos de audiencia** > **Señales** y, a continuación, seleccione **Buscar** en la parte superior izquierda.
+   1. Compruebe que los datos del segmento están disponibles:
 
-   1. Introduzca el **Clave** y **Valor** para la señal que determina a qué nivel se agrupan los usuarios del segmento. Utilice un [clave admitida](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) con un valor que corresponde a una macro agregada al píxel del evento de impresión del Audience Manager.
+      1. [Buscar la señal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) para el [par clave-valor](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) que determina a qué nivel se agrupan los usuarios del segmento.
 
-      Por ejemplo, para agrupar usuarios para una ubicación determinada, utilice el `d_placement` clave. DSP Para el valor, utilice un ID de colocación numérica real (como 2501853 en la captura de pantalla anterior) que capture la macro `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
+         Utilice un [clave admitida](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) con un valor que corresponde a una macro agregada al píxel del evento de impresión del Audience Manager.
 
-      Si el campo Recuento total muestra los recuentos de usuarios para el par clave-valor, lo que indica que el píxel se colocó correctamente y los datos fluyen, puede continuar con el siguiente paso.
+         Por ejemplo, para agrupar usuarios para una ubicación determinada, utilice el `d_placement` clave. DSP Para el valor, utilice un ID de colocación numérica real (como 2501853) capturado por la macro de `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
-   ![Señales de búsqueda](/help/integrations/assets/target-am-signals.png)
+         Si los resultados de la búsqueda muestran los recuentos de usuarios para el par clave-valor, lo que indica que el píxel se colocó correctamente y los datos están fluyendo, continúe con el siguiente paso.
 
-1. [Crear un rasgo basado en reglas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) para la creación de segmentos en Audience Manager.
+   1. [Crear un rasgo basado en reglas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) para la creación de segmentos en Audience Manager.
 
-   1. Asigne un nombre al rasgo para que se pueda identificar fácilmente dentro de las actividades de prueba. Almacene el rasgo en la carpeta que prefiera.
+      * Asigne un nombre al rasgo para que se pueda identificar fácilmente dentro de las actividades de prueba. Almacene el rasgo en la carpeta que prefiera.
 
-   1. Desde el **Fuente de datos** menú desplegable, seleccione **Ad Cloud**.
+      * Seleccionar `Ad Cloud` como el **Fuente de datos**.
 
-   1. En el Generador de expresiones, añada `d_event` en el campo Clave y `imp` en el **Valor** , seleccione **Agregar regla** y, a continuación, guarde el rasgo.
+      * Para la expresión de rasgos, utilice `d_event` como el **Clave** y `imp` como el **Valor**.
 
-   ![Captura de pantalla de un rasgo basado en reglas](/help/integrations/assets/target-am-trait.png)
-
-1. Configure un segmento de prueba en Audience Manager:
-
-   1. En la parte superior de la página, vaya a **Datos de audiencia** > **Características** y busque el nombre completo del rasgo. Seleccione la casilla de verificación situada junto al nombre de la característica y haga clic en **Crear segmento**.
-
-   1. Asigne un nombre al segmento y seleccione `Ad Cloud` como el **Fuente de datos** y, a continuación, guarde el segmento.
+   1. [Configuración de un segmento de prueba](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) para el nuevo rasgo en Audience Manager, seleccione `Ad Cloud` como el **Fuente de datos**.
 
       Audience Manager divide automáticamente el segmento en un grupo de control que recibe la experiencia de página de aterrizaje estándar y un grupo de prueba que recibió una experiencia en el sitio personalizada.
-
-   ![Captura de pantalla de un segmento de prueba](/help/integrations/assets/target-am-segment.png)
 
 ## Paso 3: Configurar una actividad &quot;Prueba A/B&quot; en Target
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-DSP Las siguientes instrucciones resaltan la información relacionada con el caso de uso de la. Para obtener instrucciones completas, consulte &quot;[Crear una prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)&quot;.
+DSP Las siguientes instrucciones resaltan la información relacionada con el caso de uso de la. Para obtener instrucciones completas, consulte &quot;&quot;.
 
 1. [Iniciar sesión en Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. Desde el **Actividades** , haga clic en **Crear actividad** > **Prueba A/B**.
+1. [Creación de una prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 
-   ![Crear una actividad de prueba A/B](/help/integrations/assets/target-create-ab.png)
+   1. En el **Introducir URL de actividad** , introduzca la dirección URL de la página de aterrizaje para la prueba.
 
-1. En el **Introducir URL de actividad***, introduzca la dirección URL de la página de aterrizaje para la prueba.
+      >[!NOTE]
+      >
+      >Puede utilizar varias direcciones URL para probar la entrada del sitio de visualización. Para obtener más información, consulte &quot;[Actividad de varias páginas](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Puede identificar fácilmente las entradas principales por dirección URL de página creando un [Informe de entrada al sitio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) en Analytics.
 
-   ![Introducir campo URL de actividad](/help/integrations/assets/target-create-ab-url.png)
+   1. En el **Meta** , introduzca la métrica de éxito de la prueba.
 
-   >[!NOTE]
-   >
-   >Puede utilizar varias direcciones URL para probar la entrada del sitio de visualización. Para obtener más información, consulte &quot;[Actividad de varias páginas](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Puede identificar fácilmente las entradas principales por dirección URL de página creando un [Informe de entrada al sitio](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) en Analytics.
+      >[!NOTE]
+      >
+      >Asegúrese de que [!DNL Analytics] está habilitado como fuente de datos dentro de [!DNL Target]y que esté seleccionado el grupo de informes correcto.
 
-1. En el **Meta** , introduzca la métrica de éxito de la prueba.
+   1. Configure las variables **Prioridad** hasta `High` o `999` para evitar conflictos cuando los usuarios del segmento de prueba reciben una experiencia en el sitio incorrecta.
 
-   >[!NOTE]
-   >
-   >Asegúrese de que [!DNL Analytics] está habilitado como fuente de datos dentro de [!DNL Target]y que esté seleccionado el grupo de informes correcto.
+   1. En **Configuración de informes**, seleccione la **Nombre de empresa** y **Grupo de informes** DSP conectado a su cuenta de la cuenta de la.
 
-1. Configure las variables **Prioridad** hasta `High` o `999` para evitar conflictos cuando los usuarios del segmento de prueba reciben una experiencia en el sitio incorrecta.
+      Para obtener más sugerencias sobre los informes, consulte[Informe sobre prácticas recomendadas y solución de problemas](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
 
-1. En **Configuración de informes**, seleccione la **Nombre de empresa** y **Grupo de informes** DSP conectado a su cuenta de la cuenta de la.
+   1. En el **Intervalo de fechas** , introduzca las fechas de inicio y finalización adecuadas para la prueba.
 
-   Para obtener más sugerencias sobre los informes, consulte[Informe sobre prácticas recomendadas y solución de problemas](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
+   1. Añada audiencias a la actividad:
 
-1. En el **Intervalo de fechas** , introduzca las fechas de inicio y finalización adecuadas para la prueba.
+      1. Elija la [segmento que creó anteriormente en Audience Manager para probar las audiencias de visualización](#view-through-framework).
 
-1. Añada audiencias a la actividad:
+      1. Seleccionar **Páginas del sitio** > **Página de aterrizaje** > **Consulta** DSP , e introduzca la clave de ubicación de la en **Valor** para utilizar los parámetros de cadena de consulta de Target para audiencias de pulsación.
 
-   1. Elija la [segmento que creó anteriormente en Audience Manager para probar las audiencias de visualización](#view-through-framework).
+   1. Para el **Método de asignación de tráfico**, seleccione **Manual (predeterminado)** y dividió la audiencia al 50/50.
 
-      ![Añadir audiencias a la actividad](/help/integrations/assets/target-create-ab-audiences.png)
-
-   1. Seleccionar **Páginas del sitio** > **Página de aterrizaje** > **Consulta** DSP , e introduzca la clave de ubicación de la en **Valor** para utilizar los parámetros de cadena de consulta de Target para audiencias de pulsación.
-
-      ![Captura de pantalla de una audiencia de clics de destinatario](/help/integrations/assets/target-click-audience.jpg)
-
-1. Para el **Método de asignación de tráfico**, seleccione **Manual (predeterminado)** y dividió la audiencia al 50/50.
-
-1. Guarde la actividad.
+   1. Guarde la actividad.
 
 1. Uso [!DNL Target] [Compositor de experiencias visuales](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) para realizar cambios de diseño en la plantilla de página de aterrizaje de prueba A/B.
 
@@ -179,7 +163,7 @@ DSP Las siguientes instrucciones resaltan la información relacionada con el cas
 
 [!DNL Analytics for Target] (A4T) es una integración de soluciones cruzadas que permite a los anunciantes crear [!DNL Target] actividades basadas en [!DNL Analytics] métricas de conversión y segmentos de audiencia y, a continuación, mida los resultados utilizando [!DNL Analytics] como fuente de informes. Todos los informes y la segmentación de esa actividad se basan en [!DNL Analytics] recopilación de datos.
 
-Para obtener más información acerca de [!DNL Analytics for Target], incluido un vínculo a las instrucciones de implementación, consulte &#39;[Adobe Analytics como fuente de informes para Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;.
+Para obtener más información acerca de [!DNL Analytics for Target], incluido un vínculo a las instrucciones de implementación, consulte &quot;[Adobe Analytics como fuente de informes para Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;.
 
 ### Configure las variables [!DNL Analytics for Target] Panel
 
