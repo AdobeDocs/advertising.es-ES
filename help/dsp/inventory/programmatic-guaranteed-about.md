@@ -3,9 +3,9 @@ title: Acerca de Ofertas Programáticas Garantizadas
 description: Obtenga información acerca de las ofertas programáticas garantizadas (PG) y los SSP certificados para proporcionarlas.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 700a38baba3e9abc871e23e95faba6715d661eb9
+source-git-commit: 1a684a2fc2834b03e010eaaefaa5132c439796a3
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Una oferta programática garantizada (PG) es una compra garantizada directamente
 * Normalmente, la oferta tiene una prioridad mayor en el servidor de publicidad del editor.
 * Las solicitudes de puja no son exclusivas de un único acuerdo o comprador.
 * Se admiten varios tipos de vídeo en un solo ID de oferta.
-* Los anuncios administrados por publicadores se aceptan a través del SSP de compradores autorizados de Google.
+* Los anuncios gestionados por el editor se aceptan mediante [!DNL Google Authorized Buyers] SSP.
 * Los SSP y los editores tienen SLA de entrega.
 
-DSP Las ofertas de PG requieren una ubicación y anuncios predeterminados de PG (o 1x1 píxeles para los anuncios administrados por el editor) para que puedan devolver una solicitud a cada solicitud de oferta y cumplir los SLA de entrega con los SSP. Una vez configurada la ubicación predeterminada de PG obligatoria, también puede segmentar la oferta de PG en otras ubicaciones.
+DSP Las ofertas de PG requieren una ubicación y unos anuncios predeterminados de PG (o un píxel 1x1 para los anuncios administrados por el editor) para que pueda devolver una solicitud a cada solicitud de oferta y cumplir los SLA de entrega con los SSP. Una vez configurada la ubicación predeterminada de PG obligatoria, también puede segmentar la oferta de PG en otras ubicaciones.
 
 ## DSP SSPs Certificados para PG Deals en el sector de la
 
