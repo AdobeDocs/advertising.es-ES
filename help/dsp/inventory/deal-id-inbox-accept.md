@@ -3,9 +3,9 @@ title: Aceptar un acuerdo en [!UICONTROL Deal ID Inbox]
 description: Aprenda a aceptar un acuerdo privado en el que ya haya negociado con un editor [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anteriormente conocido como [!DNL AdX]), and [!DNL Magnite DV+] (anteriormente [!DNL Rubicon]) usando la Bandeja de entrada de Deal ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: c4816e7cebe9db2a344f7268ed5615bb672f387d
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Utilice el [!UICONTROL Deal ID inbox] para aceptar rápidamente un acuerdo priva
 
    1. Haga clic **[!UICONTROL Save]**.
 
-1. (Solo ofertas programáticas garantizadas) Siga las indicaciones para seleccionar un anuncio o un píxel de seguimiento 1x1 para los anuncios administrados por el editor para el acuerdo y cree una ubicación predeterminada programática garantizada que se dirija al acuerdo.
+1. (Solo ofertas programáticas garantizadas) Siga las indicaciones para seleccionar un anuncio (o un píxel de seguimiento 1x1 para anuncios administrados por el editor) para la oferta y cree una ubicación predeterminada programática garantizada que se dirija a la oferta.
 
 Una vez que aceptas un trato, se mueve de la [!UICONTROL Deal ID inbox] a la [!UICONTROL Inventory] > [!UICONTROL Deals] y la oferta está disponible como un origen de inventario privado en el [!UICONTROL Inventory Targeting] sección.
 
