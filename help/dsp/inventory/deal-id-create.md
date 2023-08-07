@@ -3,9 +3,9 @@ title: Creación manual de detalles de ID de acuerdo
 description: Obtenga información sobre cómo introducir manualmente los detalles de un ID de acuerdo.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       1. En la lista de anuncios disponibles, seleccione la casilla de verificación situada junto a cada anuncio que desee utilizar para la oferta.
 
-      1. En el caso de los anuncios administrados por el editor, se aplica automáticamente un píxel de seguimiento 1x1 después de seleccionar el anunciante y la campaña.
+         Para cada anuncio administrado por el editor, se aplica automáticamente un píxel de seguimiento 1x1 después de seleccionar un anunciante y una campaña.
 
       1. Haga clic **[!UICONTROL Apply]**.
 
