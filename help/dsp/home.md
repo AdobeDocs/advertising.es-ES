@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: a616228e40df2ed49b0eb354f3c626a2076524e3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 19 de julio de 2023 | Inventario | Ahora puede ejecutar anuncios administrados por el editor para obtener ofertas programáticas garantizadas con Google Authorized Buyers SSP. DSP Al alojar sus anuncios directamente con el editor, en lugar de en el editor, puede aprovechar los formatos de anuncios personalizados con medios enriquecidos. DSP Los formatos de anuncio personalizados suelen ejecutarse mediante reservas directas, por lo que la capacidad de seleccionar anuncios administrados por el editor en las reservas también le permite cambiar los presupuestos de reservas directas al ecosistema programático. | Consulte &quot;[Acerca de Ofertas Programáticas Garantizadas](/help/dsp/inventory/programmatic-guaranteed-about.md)&quot; y &quot;[Configurar una oferta garantizada programática](/help/dsp/inventory/programmatic-guaranteed-set-up.md).&quot; |
 | 19 de julio de 2023 | Informes | El nuevo [!UICONTROL Household Conversions Report] muestra las conversiones de visualización en el nivel del hogar en función de la dirección IP, en lugar de en el nivel de dispositivo/cookie. | Consulte &quot;[Acerca de los informes](/help/dsp/reports/report-about.md)&quot; y &quot;[Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md).&quot; |
 | 29 de mayo de 2023 | [!UICONTROL Campaigns] | Ahora puede pausar o activar campañas, paquetes y anuncios. Ya puede pausar y activar las ubicaciones. | Consulte &quot;[Pausar o activar una campaña](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[Pausar o activar un paquete](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; y &quot;[Pausar o activar un anuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 24 de mayo de 2023 | [!UICONTROL Campaigns] | Las ubicaciones y los anuncios universales de vídeo ya están disponibles de forma general. | Consulte &quot;[Preguntas frecuentes sobre Universal Video](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[Configuración de anuncio de vídeo universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot; y &quot;[Crear un anuncio](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
@@ -42,7 +43,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 | 31 de mayo de 2022 | Fuentes de audiencia | DSP (Función beta) Advertising ahora puede introducir segmentos de origen compuestos de señales autenticadas creadas dentro de una plataforma de datos del cliente (CDP). | Consulte &quot;[Acerca de la activación de segmentos autenticados a partir de fuentes de audiencia](/help/dsp/audiences/sources/source-about.md).&quot; |
 | 25 de mayo de 2022 | Objetivos de optimización | Ahora, el vídeo y las ubicaciones nativas se pueden incluir en paquetes con los objetivos personalizados ROAS más alto y CPA más bajo. | Consulte &quot;[Objetivos de optimización y cómo utilizarlos](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 12 de abril de 2022 | Campaign Management | Se han actualizado las especificaciones del anuncio para reflejar la compatibilidad actual. | Consulte &quot;[Especificaciones para tipos de publicidad admitidos](/help/dsp/campaign-management/ads/ad-specs.md).&quot; |
-| 17 de febrero de 2022 | Tutoriales en vídeo | Hay disponible un nuevo vídeo sobre &quot;Cómo crear una ubicación de visualización estándar&quot;. | Consulte [Tutorials de publicidad de Adobe](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/placement-create.html). |
+| 17 de febrero de 2022 | Tutoriales en vídeo | Hay disponible un nuevo vídeo sobre &quot;Cómo crear una ubicación de visualización estándar&quot;. | Consulte [TUTORIALS DE ADOBE ADVERTISING](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/placement-create.html). |
 | 31 de enero de 2022 | Ayuda | Información adicional sobre [!DNL Deal IDs] y [!DNL Simple Ad Serving] ya está disponible. | Consulte el subcapítulo en Inventario > Inventario privado. |
 | 10 de diciembre de 2021 | Tutoriales en vídeo | DSP Hay disponibles nuevos tutoriales de vídeo: &quot;Introducción a Advertising&quot;, &quot;Estructura de cuenta e interfaz de usuario&quot;, &quot;Cómo crear un paquete&quot;, &quot;Cómo cargar masivamente etiquetas de publicidad de terceros&quot; y &quot;Cómo editar ubicaciones mediante las herramientas de edición masiva&quot;. | Consulte &quot;[TUTORIALS DE ADOBE ADVERTISING](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html).&quot; |
 | 12 de noviembre de 2021 | [!UICONTROL Deal IDs] | En el [!UICONTROL Deal ID] configuración, &quot;[!DNL Rubicon]&quot; se ha cambiado a &quot;[!DNL Magnite DV+],&quot; donde [!DNL DV+] significa pantalla, vídeo y otros formatos, como audio. Esta denominación refleja la nueva marca de [!DNL Magnite] SSP. **Nota:** [!DNL Magnite DV+] sigue apareciendo como &quot;[!DNL Rubicon]&quot; en el [!UICONTROL Deal ID Inbox]. | Consulte &quot;[Socios de SSP](/help/dsp/inventory/ssp-partners.md).&quot; |

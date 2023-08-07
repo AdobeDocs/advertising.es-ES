@@ -3,9 +3,9 @@ title: Creación manual de detalles de ID de acuerdo
 description: Obtenga información sobre cómo introducir manualmente los detalles de un ID de acuerdo.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
+source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. Haga clic **[!UICONTROL Save]**.
 
-1. (Solo ofertas garantizadas) Seleccione los anuncios que desea utilizar para la oferta (o el píxel 1x1 para las publicidades administradas por el editor) y cree una ubicación programática garantizada (PG) predeterminada.
+1. (Solo ofertas garantizadas) Seleccione los anuncios que desea utilizar para la oferta (o el píxel 1x1 para anuncios administrados por el editor) y cree una ubicación programática garantizada (PG) predeterminada.
 
    Las ubicaciones de PG predeterminadas garantizan que la oferta siempre devuelva una oferta por cada solicitud de oferta. Si no crea una ubicación PG predeterminada, las ubicaciones que se dirijan a la oferta no realizarán pujas a menos que estén configuradas correctamente. Siempre debe crear una ubicación PG predeterminada. En el [!UICONTROL Placements] vista, las ubicaciones de PG predeterminadas tienen un [!UICONTROL Sub-type] valor de columna de &quot;[!UICONTROL PG Default].&quot;
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
       1. En la lista de anuncios disponibles, seleccione la casilla de verificación situada junto a cada anuncio que desee utilizar para la oferta.
 
-      1. Para los anuncios administrados por el editor, se aplica automáticamente un píxel de seguimiento 1x1 después de seleccionar el anunciante y la campaña.
+      1. En el caso de los anuncios administrados por el editor, se aplica automáticamente un píxel de seguimiento 1x1 después de seleccionar el anunciante y la campaña.
 
       1. Haga clic **[!UICONTROL Apply]**.
 
