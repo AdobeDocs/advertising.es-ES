@@ -2,9 +2,9 @@
 title: Configuración de cuenta del anunciante
 description: Consulte las descripciones de la configuración de anunciante disponible.
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Los anunciantes con productos de Adobe Experience Cloud adicionales pueden compa
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Anunciantes con Adobe Analytics; opcional; aplicable solo a los datos recopilados mediante las etiquetas de seguimiento de conversión de Adobe Advertising que incluyen un [!DNL EF Redirect] y solo token) Uno o más [!DNL Analytics] DSP grupos de informes a los que los grupos de informes enviarán los datos que recopile de los editores y los socios de suministro. DSP Analytics también enviará los datos que recopila del sitio del cliente a la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico del cliente.
 
-Para que los datos aparezcan en los grupos de informes, la variable [!DNL Search, Social, & Commerce] configuración de nivel de anunciante en &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; debe estar habilitado. Además, el del anunciante [!DNL Analytics] La cuenta de debe estar configurada para recibir datos del Adobe Advertising de.
+Para que los datos aparezcan en los grupos de informes, la variable [!DNL Search, Social, & Commerce] la configuración de nivel de anunciante debe estar habilitada. Además, el del anunciante [!DNL Analytics] La cuenta de debe estar configurada para recibir datos del Adobe Advertising de.
 
 >[!WARNING]
 >
