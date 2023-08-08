@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: a1a8c1b563d419090ddbefacc55be869c1ee7bcf
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **[!UICONTROL Landing Page Suffix]:** ([!DNL Google Ads] y [!DNL Microsoft Advertising] solo cuentas; opcional) Cualquier parámetro que se adjunte al final de las direcciones URL finales para rastrear la información; incluya todos los parámetros que su empresa debe rastrear. Ejemplo: `param1=value1&param2=value2`
 
-Las cuentas que utilizan el seguimiento de conversión de publicidad Adobe deben incluir el identificador de clic ( ) de la red de publicidad`gclid` para [!DNL Google Ads] o `msclkid` para [!DNL Microsoft Advertising]) en el sufijo.
+Las cuentas que utilizan el seguimiento de conversión de Adobe Advertising deben incluir el identificador de clic ( ) de la red de publicidad`gclid` para [!DNL Google Ads] o `msclkid` para [!DNL Microsoft Advertising]) en el sufijo.
 
 Las cuentas con una integración de Adobe Analytics deben utilizar el parámetro s_kwcid. Si la cuenta tiene una implementación s_kwcid del lado del servidor, el parámetro se agrega automáticamente cuando un usuario hace clic en un anuncio; de lo contrario, debe agregarlo aquí manualmente. Consulte la [formatos de sufijo necesarios para Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md) y [formatos de sufijo necesarios para Microsoft Advertising](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
