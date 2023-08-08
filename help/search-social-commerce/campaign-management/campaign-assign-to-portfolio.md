@@ -3,9 +3,9 @@ title: Asignación de campañas a un portafolio
 description: Obtenga información sobre cómo incluir campañas en portafolios para la optimización.
 exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a041b44550b56a01d817d8e1bc9d91a025a4e721
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Asignar una campaña a un portafolio optimizado permite a Search, Social y Commerce optimizar las ofertas y los presupuestos de campaña para las palabras clave y los anuncios de la campaña. Puede asignar campañas a un portafolio desde el [!UICONTROL Campaigns] vista, al crear el portafolio o al editar su configuración.
 
-No todos los tipos de campaña y redes de anuncios son aptos para la optimización; consulte la lista de [tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md) que puede incluir en un portafolio. Además, compruebe la compatibilidad con la optimización de cada estrategia de oferta de campaña consultando &quot;Tipos de Portfolio aptos por estrategia de oferta de campaña&quot; en el capítulo Guía de optimización &quot;Administración de Portfolio&quot;, disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+No todos los tipos de campaña y redes de anuncios son aptos para la optimización; consulte la lista de [tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md) que puede incluir en un portafolio. Además, compruebe la compatibilidad con la optimización de cada estrategia de oferta de campaña consultando &quot;Tipos de Portfolio aptos por estrategia de oferta de campaña&quot; en el capítulo Guía de optimización &quot;Portfolio&quot;, disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >

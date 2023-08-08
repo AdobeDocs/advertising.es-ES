@@ -3,9 +3,9 @@ title: Acerca de la administración de campañas en Search, Social y Commerce
 description: Obtenga información acerca de las funciones de administración de campañas en Search, Social y Commerce.
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Para obtener más información sobre el seguimiento, consulte el capítulo sobre
 
 Para [redes de anuncios compatibles y tipos de campañas](/help/search-social-commerce/introduction/supported-inventory.md), puede agrupar sus campañas en portafolios, cada uno con un objetivo comercial específico y un presupuesto o objetivo de rendimiento específico. En portafolios estándar, Search, Social y Commerce optimiza las ofertas de palabras clave CPC y los presupuestos de campaña. Los portafolios híbridos combinan tecnologías de optimización de Search, Social y Commerce con las redes de anuncios.
 
-Para obtener más información sobre las opciones de portafolio disponibles y cómo configurarlas, consulte el capítulo Guía de optimización sobre &quot;Administración de Portfolio&quot;, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Para obtener más información sobre las opciones de portafolio disponibles y cómo configurarlas, consulte el capítulo Guía de optimización sobre &quot;Portfolio&quot;, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Las vistas de administración de campañas
 

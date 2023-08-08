@@ -3,7 +3,7 @@ title: Acerca de las audiencias
 description: Obtenga información acerca de las opciones para rastrear, crear y administrar [!DNL Google Ads] y [!DNL Microsoft® Advertising] audiencias.
 exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ También puede crear y administrar audiencias mediante segmentos o listas de cor
 
    * (Anunciantes con cuentas de Audience Manager) Puede crear lo siguiente [!DNL Google Ads] audiencias de coincidencia de clientes que usan ID de usuario de segmentos de Audience Manager que tienen como destino Search, Social y Commerce. Esto puede incluir segmentos de Adobe Analytics que se publican en Adobe Experience Cloud y segmentos creados con la biblioteca de audiencias de Adobe Experience Cloud.
 
-  Para crear audiencias coincidentes con el cliente, el del anunciante [!DNL Google Ads] la cuenta debe ser [apto para coincidencia personalizada](https://support.google.com/adspolicy/answer/6299717) y se ha suscrito para [segmentos de ID de usuario](https://support.google.com/google-ads/answer/9199250). Además, la cuenta del anunciante en Buscar, Social y Comercio debe configurarse para permitir la creación de audiencias de coincidencia de clientes.<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  Para crear audiencias coincidentes con el cliente, el del anunciante [!DNL Google Ads] la cuenta debe ser [apto para coincidencia personalizada](https://support.google.com/adspolicy/answer/6299717) y se ha suscrito para [segmentos de ID de usuario](https://support.google.com/google-ads/answer/9199250). Además, la cuenta del anunciante en Buscar, Social y Comercio debe configurarse para permitir la creación de audiencias de coincidencia de clientes.
 
   [!DNL Adobe] los archivos de sincronización de cookies y datos de segmentos para las audiencias basadas en datos del cliente se sincronizan con [!DNL Google Ads] diariamente.
 
