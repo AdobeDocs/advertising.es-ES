@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 45e9e52f1eff2e60eb03b930b6902b97e2d452dc
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
-| 8 de agosto de 2023 | [!DNL Analytics for Advertising] | Algunos [!DNL Analytics] DSP Las métricas de evento de éxito de, incluidas las métricas de conversión estándar, personalizadas y reservadas y las métricas de tráfico, están disponibles automáticamente en Búsqueda y búsqueda, Social y Comercio de. Ahora, también puede configurar sus propias métricas de éxito en función de sus [!DNL Analytics] [!DNL eVars] y [!DNL props] por canalización [!DNL eVar]- y [!DNL prop]datos de nivel de en un evento de éxito personalizado. | Consulte &quot;[Crear métricas de conversión desde Adobe Analytics [!DNL eVars] y [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
+| 8 de agosto de 2023 | [!DNL Analytics for Advertising] | Algunos [!DNL Analytics] DSP Las métricas de evento de éxito de, incluidas las métricas de conversión estándar, personalizadas y reservadas y las métricas de tráfico, están disponibles automáticamente en y en Búsqueda, Social y Comercio. Ahora, también puede configurar sus propias métricas de éxito en función de sus [!DNL Analytics] [!DNL eVars] y [!DNL props] por canalización [!DNL eVar]- y [!DNL prop]datos de nivel de en un evento de éxito personalizado. | Consulte &quot;[Crear métricas de conversión desde Adobe Analytics [!DNL eVars] y [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
 | 13 de julio de 2023 | Informes | DSP (los usuarios de la con [!DNL Analytics for Advertising]) Las conversiones de visualización para ubicaciones de TV conectada (CTV) ahora se incluyen en los datos de conversión disponibles en Adobe Analytics. | Consulte la sección sobre &quot;Ejemplos de cómo utilizar la integración&quot; en &quot;[Información general de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 1 de noviembre de 2022 | Ayuda | DSP En un nuevo documento se explica cómo implementar el uso compartido de señales de clics y visualizaciones entre Advertising y Adobe Target, y cómo configurar una actividad de prueba A/B en [!DNL Target] DSP para sus anuncios de y cómo configurar Adobe Analytics Analysis Workspace para ver los datos de prueba. | Consulte &quot;[Configuración de pruebas A/B en Adobe Target DSP para anuncios de Advertising](/help/integrations/target/overview-ab-tests.md).&quot; |
 | 17 de agosto de 2022 | Ayuda | En un nuevo capítulo se explican todas las formas en que Adobe Advertising se integra con Adobe Audience Manager. | Consulte el capítulo sobre Integración con Adobe Audience Manager, que incluye una descripción general de[Integraciones de Adobe Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md).&quot; |
