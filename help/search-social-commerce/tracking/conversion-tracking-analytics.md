@@ -3,9 +3,9 @@ title: Seguimiento de conversión de Adobe Analytics
 description: Obtenga información acerca del uso del seguimiento de conversión de Adobe Analytics para sus campañas en Adobe Advertising.
 exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Consulte &quot;[Información general de [!DNL Analytics for Advertising]](https:
 
 1. Entrada [!DNL Analytics], su equipo de implementación de Search, Social y Commerce modifica las siguientes opciones de configuración para cada grupo de informes:
 
-   * La caducidad del `ef_id` El eVar se cambia para que coincida con la ventana retrospectiva de clics del anunciante para el Adobe Advertising.
+   * La caducidad del `ef_id` [!DNL eVar] se cambia para que coincida con la ventana retrospectiva de clics del anunciante para el Adobe Advertising.
 
    * El ID de usuario de Adobe Advertising.
 
