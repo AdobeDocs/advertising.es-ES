@@ -4,9 +4,9 @@ user-guide-description: Obtenga información acerca las integraciones de Adverti
 breadcrumb-title: Integraciones con Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: ab2c48798fd2f2b4306f5bde2117e3fec61b919e
+source-git-commit: 6f486ac4664ff58813d55c9c09a2d59b6bd47473
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '205'
 ht-degree: 12%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 12%
       + [Uso de ID de Adobe Advertising para crear [!DNL Marketing Channels] Reglas de procesamiento](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [Uso de [!DNL Marketing Channels] con datos de Adobe Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [Por qué los datos de canal pueden variar entre el Adobe Advertising y [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
+   + [Crear métricas de conversión a partir de eVars y props de Adobe Analytics](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + Integración con Adobe Audience Manager {#audience-manager}
    + [Integraciones de Adobe Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
    + [Importar segmentos de Audience Manager al Adobe Advertising](/help/integrations/audience-manager/import-audiences.md)
