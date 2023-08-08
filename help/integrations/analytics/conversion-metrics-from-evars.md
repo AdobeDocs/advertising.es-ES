@@ -2,9 +2,9 @@
 title: "Crear métricas de conversión desde Adobe Analytics [!DNL eVars] y props"
 description: '"Configurar métricas de eventos de éxito personalizadas con [!DNL eVar]- y [!DNL prop]datos de nivel de aplicación".'
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: f6f3e0b3cc867b817ce40c7ba06c76885948edbe
+source-git-commit: 71ffd021b31154a2ed2a522049f656a13d364d00
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Anunciantes con solo integración de Adobe Advertising-Adobe Analytics*
 
-DSP Puede utilizar métricas de eventos de éxito para optimizar paquetes de soluciones y campañas de búsqueda, medios sociales y comerciales basadas en datos del sitio de Adobe Analytics que se ajusten mejor a los objetivos de su marca. Puede configurar métricas de eventos de éxito personalizadas basadas en lo siguiente [su existente [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) y [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) por canalización [!DNL eVar]- y [!DNL prop]datos de nivel de en un evento. Otros [!DNL Analytics] DSP Las métricas de, incluidas las métricas de conversión estándar, personalizadas y reservadas, y las métricas de tráfico, están disponibles automáticamente en Búsqueda y búsqueda de, Social y Comercio.
+DSP Puede utilizar métricas de eventos de éxito para optimizar paquetes de soluciones y campañas de búsqueda, medios sociales y comerciales basadas en datos del sitio de Adobe Analytics que se ajusten mejor a los objetivos de su marca. Puede configurar métricas de eventos de éxito personalizadas basadas en las [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) y [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) por canalización [!DNL eVar]- y [!DNL prop]datos de nivel de en un evento. Otros [!DNL Analytics] DSP Las métricas de, incluidas las métricas de conversión estándar, personalizadas y reservadas, y las métricas de tráfico, están disponibles automáticamente en Búsqueda y búsqueda de, Social y Comercio.
 
 ![Ejemplo de uso](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Ejemplo de uso")
 
@@ -35,7 +35,7 @@ La mayoría de las tareas siguientes deben ser realizadas por un [!DNL Analytics
 
    No es necesario implementar el nuevo evento en el sitio web de la marca, ya que utiliza datos existentes ya capturados.
 
-1. Creación de una regla de procesamiento en [!DNL Analytics]:
+1. Creación y validación de una regla de procesamiento en [!DNL Analytics]:
 
    >[!NOTE]
    >
