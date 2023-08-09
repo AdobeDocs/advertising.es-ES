@@ -2,9 +2,9 @@
 title: Obtener ayuda
 description: Obtenga información sobre cómo ver la ayuda en línea y los recursos de la comunidad, y cómo obtener asistencia técnica.
 exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
-source-git-commit: e0bcead14a3638ee013925336b38382ab205d69d
+source-git-commit: 56d6c890616c23ec64234705d84dddb41442eb87
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -29,15 +29,14 @@ Puede abrir la ayuda en línea desde cualquier página de la interfaz de usuario
 
 Busque respuestas a sus preguntas en la [foros de la comunidad de Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
-## Adobe de contacto
+## Contacto [!DNL Adobe]
 
-| Para... | Póngase en contacto con nosotros en |
-| ---- | ---- |
-| Problemas de producto o cuenta de Search, Social y Commerce | Póngase en contacto con el equipo de cuenta de Adobe. |
-| Comentarios sobre Search, Social y Commerce | En el menú superior, haga clic en ![Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Ayuda") > **[!UICONTROL Provide Feedback]**, introduzca el mensaje y, a continuación, haga clic en **[!UICONTROL Send Feedback]**. |
+Para problemas de producto o cuenta de Search, Social y Commerce, realice una de las acciones siguientes:
 
-### Información que se debe incluir para problemas del producto
+* Póngase en contacto con el equipo de cuenta de Adobe.
 
-Proporcione pasos detallados para reproducir el problema, el nombre y la versión del explorador, cualquier dato relevante e información acerca de la solución de problemas preliminar que haya realizado.
+* En el menú superior, haga clic en ![Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Ayuda") > **[!UICONTROL Provide Feedback]**, introduzca el mensaje y, a continuación, haga clic en **[!UICONTROL Send Feedback]**. |
+
+Proporcione pasos detallados para reproducir el problema, los datos relevantes y la información acerca de la solución de problemas preliminar que ha realizado. Si va a informar del problema a su equipo de cuenta de Adobe, incluya también el nombre y la versión del explorador.
 
 Para los problemas de informes, no elimine el informe y proporcione el nombre y la dirección URL del informe.
