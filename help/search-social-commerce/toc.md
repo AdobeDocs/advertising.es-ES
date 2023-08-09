@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -404,10 +404,12 @@ ht-degree: 2%
       + [Volver a autenticar un [!DNL Google Analytics] fuente de datos](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] configuración de fuente de datos](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [Apéndice: disponible [!DNL Google Analytics] métricas](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
-   + Administración de las propiedades de transacción de un anunciante{#transaction-properties}
-      + [Administración de las propiedades de transacción de un anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
-      + [Ver las propiedades de transacción rastreadas de un anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
-      + [Cambiar las propiedades de transacción disponibles en vistas de administración e informes](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
-      + [Cambiar el nombre para mostrar de una propiedad de transacción](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
+   + Administración de las métricas de conversión de un anunciante{#conversion-metrics}
+      + [Acerca de la administración de las métricas de conversión de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+      + [Ver las métricas de conversión rastreadas de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+      + [Cambiar las métricas de conversión disponibles en las vistas de administración y en los informes](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
+      + [Cambiar el nombre para mostrar de una métrica de conversión](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
+      + Administración de etiquetas de conversión {#conversion-tags}
+         + [Cree una etiqueta de conversión para [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
 + [Obtener ayuda](get-help.md)
 + [Glosario](glossary.md)

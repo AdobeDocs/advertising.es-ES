@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '3912'
 ht-degree: 0%
@@ -168,7 +168,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 *Posible solución o solución alternativa:*
 
-1. Compruebe que se incluyen las columnas correctas en los informes o en las vistas de datos. Si no se pueden agregar las columnas correctas, usted o su equipo de cuenta de Adobe deben [poner las métricas de conversión a disposición de los informes](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Compruebe que se incluyen las columnas correctas en los informes o en las vistas de datos. Si no se pueden agregar las columnas correctas, usted o su equipo de cuenta de Adobe deben [poner las métricas de conversión a disposición de los informes](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Compruebe que las etiquetas de seguimiento de conversión correctas están implementadas en todas las páginas web aplicables. Si es necesario, pídale al equipo de cuenta de Adobe que cree una transacción de prueba para cada etiqueta de seguimiento de conversión aplicable y que capture los detalles de la transacción, como la `transactionid` y detalles de la cookie (como la `trackingid`, `clickid`, etc.).
 
@@ -196,7 +196,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 *Posible solución o solución alternativa:*
 
-1. Compruebe que se incluyen las columnas correctas en los informes o en las vistas de datos. Si no se pueden agregar las columnas correctas, usted o su equipo de cuenta de Adobe deben [poner las métricas de conversión a disposición de los informes](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Compruebe que se incluyen las columnas correctas en los informes o en las vistas de datos. Si no se pueden agregar las columnas correctas, usted o su equipo de cuenta de Adobe deben [poner las métricas de conversión a disposición de los informes](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Ejecute el [!UICONTROL Portfolio Report]. Si está vacío, ejecute el [!UICONTROL Campaign Report] y [!UICONTROL Search Engine Report] para ver si los ingresos aparecen en esos informes. Si es así, es posible que las campañas no se asignen al portafolio adecuado.
 

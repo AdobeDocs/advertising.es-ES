@@ -2,10 +2,10 @@
 title: '[!DNL Google Ads] datos de conversión'
 description: Obtenga información acerca de los tipos de [!DNL Google Ads]Datos de conversión no rastreados disponibles en en Search, Social y Commerce.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
-feature: Search Campaign Management
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+feature: Search Campaign Management, Conversions
+source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ Search, Social y Commerce sincronizan los datos de las conversiones para las que
 
 Hasta tres métricas para cada uno [[!DNL Google Ads]Conversión con seguimiento automático](https://support.google.com/google-ads/answer/4677036) (que configuró en [!DNL Google Ads]) están disponibles automáticamente en Search, Social y Commerce, con los nombres de conversión configurados en [!DNL Google Ads]. Las métricas de cada conversión incluyen:
 
+<!--
+
+* `<conversion-name>` &mdash; (When you track it) The conversion value for the keyword, beginning with the "GGL" prefix (such as GGL Purchase).
+
+`CT_<conversion-name>` &mdash; The number (count) of conversions, beginning with the "GGL_CT" prefix (such as GGL_CT_Purchase).
+
+* `XD_<conversion-name>` &mdash; (When available for the conversion type, when you track them) The number (count) of cross-device conversions, as measured by Google, beginning with the "GGL_XD_CT_" prefix (such as GGL_XD_CT_Purchase).
+
+-->
+
 * `GGL*` — (Al realizar el seguimiento) El valor de conversión de la palabra clave, comenzando por el prefijo &quot;GGL&quot; (como Compra GGL).
 
 * `GGL_CT*` — el número (recuento) de conversiones, comenzando por el prefijo &quot;GGL_CT&quot; (por ejemplo, GGL_CT_Purchase).
@@ -32,7 +42,7 @@ Hasta tres métricas para cada uno [[!DNL Google Ads]Conversión con seguimiento
 
 >[!NOTE]
 >
->* Si tiene varias cuentas con los mismos nombres de conversión, es posible que vea nombres de conversión duplicados en el Adobe Advertising. Si esto sucede, [cambiar el nombre para mostrar](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) para una de las métricas duplicadas en [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Los informes no son precisos cuando dos métricas diferentes tienen el mismo nombre.
+>* Si tiene varias cuentas con los mismos nombres de conversión, es posible que vea nombres de conversión duplicados en el Adobe Advertising. Si esto sucede, [cambiar el nombre para mostrar](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md para una de las métricas duplicadas en [!UICONTROL Admin] > [!UICONTROL Conversions]. Los informes no son precisos cuando dos métricas diferentes tienen el mismo nombre.
 >* Los datos en el nivel de unidad de oferta coinciden con los datos en [!DNL Google Ads] en el mismo nivel. Sin embargo, [!DNL Google Ads]Los datos de conversión propios de para niveles superiores pueden incluir conversiones adicionales que no se atribuyen a las unidades de oferta secundarias. Los datos de Search, Social y Commerce siempre se acumulan desde el nivel de unidad de oferta, por lo que, por ejemplo, un informe de nivel de campaña podría no tener los mismos totales que un informe de nivel de campaña en Google Ads.
 >* La variación de datos suele ser menor después de la sincronización matinal que más tarde en el día, cuando aún no se han sincronizado conversiones adicionales. Se recomienda validar los datos por la mañana.
 >* Los datos de conversión no están disponibles para [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App], y [!DNL YouTube] anuncios. Filtrar esos tipos de anuncios al comparar los datos en [!DNL Google Ads] con datos en Search, Social y Commerce.
@@ -94,4 +104,5 @@ En Buscar, Social y Comercio, utilice la opción Ver o informar para ver las con
 >
 >* [Información general sobre la implementación de cuentas y campañas de red de publicidad](campaign-implemention-overview.md)
 >* [Monitorizar y administrar el rendimiento de las campañas de red de anuncios](monitor-performance-campaigns.md)
->* [Ver las propiedades de transacción rastreadas de un anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+>* [Ver las métricas de conversión rastreadas de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+>* [Cree una etiqueta de conversión para [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)

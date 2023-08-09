@@ -3,7 +3,7 @@ title: Información general sobre la implementación de cuentas y campañas de r
 description: Obtenga información acerca de las tareas relacionadas con la configuración, sincronización y administración de las cuentas de red de anuncios.
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
 
    Para obtener más información sobre los portafolios, consulte la Guía de optimización, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
-1. (Si se rastreará alguna nueva conversión para el anunciante) [Hacer que las conversiones estén disponibles](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) para informes, vistas de administración de campañas y objetivos de portafolio.
+1. (Si se rastreará alguna nueva conversión para el anunciante) [Hacer que las conversiones estén disponibles](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) para informes, vistas de administración de campañas y objetivos de portafolio.
 
 1. Para cada campaña, compruebe que Search, Social y Commerce reciben datos de clics y costes de la red de anuncios y valide los datos de ingresos que se muestran en Search, Social y Commerce con los datos de ingresos propios del anunciante.
 

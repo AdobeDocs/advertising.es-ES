@@ -3,7 +3,7 @@ title: Generación de una etiqueta de seguimiento de conversión de Adobe Advert
 description: Obtenga información sobre cómo crear una etiqueta de conversión de Adobe Advertising para realizar un seguimiento de los eventos de conversión.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Cree una etiqueta de conversión independiente para cada conjunto de métricas q
 
 >[!NOTE]
 >
->Cada métrica de la nueva etiqueta de conversión se enumera automáticamente en [!UICONTROL Admin] > [!UICONTROL Transaction Properties], incluso si no está implementado o si las páginas web en las que está no han recibido ningún clic. Este comportamiento es diferente al comportamiento de las métricas en las etiquetas creadas manualmente o en otro sitio, que no aparecen en [!UICONTROL Admin] > [!UICONTROL Transaction Properties] hasta que una de las páginas web en las que se encuentra reciba un clic. Sin embargo, en todos los casos, cada métrica se excluye inicialmente de los objetivos del portafolio, los informes y las vistas hasta que las ponga a disposición explícitamente. Sin embargo, antes de agregar las métricas a los objetivos del portafolio, considere primero la posibilidad de hacer que las métricas estén disponibles y agregarlas a los informes para verificar cuándo reciben clics.
+>Cada métrica de la nueva etiqueta de conversión se enumera automáticamente en [!UICONTROL Admin] > [!UICONTROL Conversions], incluso si no está implementado o si las páginas web en las que está no han recibido ningún clic. Este comportamiento es diferente al comportamiento de las métricas en las etiquetas creadas manualmente o en otro sitio, que no aparecen en [!UICONTROL Admin] > [!UICONTROL Conversions] hasta que una de las páginas web en las que se encuentra reciba un clic. Sin embargo, en todos los casos, cada métrica se excluye inicialmente de los objetivos del portafolio, los informes y las vistas hasta que las ponga a disposición explícitamente. Sin embargo, antes de agregar las métricas a los objetivos del portafolio, considere primero la posibilidad de hacer que las métricas estén disponibles y agregarlas a los informes para verificar cuándo reciben clics.
 
 ## Configuración de etiquetas de conversión de Adobe Advertising {#conversion-tag-settings}
 
@@ -81,4 +81,4 @@ Consulte &quot;[Preguntas frecuentes sobre la conversión de Adobe Advertising y
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Formato de las etiquetas de seguimiento de conversión de imagen](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [La etiqueta de asignación de conversión de JavaScript de Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [Administración de las propiedades de transacción de un anunciante](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [Acerca de la administración de las métricas de conversión de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

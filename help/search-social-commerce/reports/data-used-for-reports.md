@@ -3,7 +3,7 @@ title: Los datos utilizados para los informes
 description: Obtenga información sobre los distintos tipos de datos disponibles en las vistas de datos y los informes personalizados.
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Search, Social y Commerce incluyen un conjunto completo de informes de rendimiento basados en datos de conversión y clics. Puede ver los datos de rendimiento básicos de los distintos componentes de una cartera de productos o una cuenta de publicidad en [!UICONTROL Portfolios] y [!UICONTROL Campaigns] vistas, así como mediante la generación de varios informes básicos y avanzados.
 
-Los anunciantes que utilizan el servicio de seguimiento de conversiones también pueden identificar el número de clics de una ubicación geográfica o el nombre de dominio de un sitio web de referencia, cómo los anuncios de cada canal y los distintos eventos que llevan a una Adobe Advertising contribuyen a la tasa de conversión general y la distribución de conversiones para un solo sitio [métrica de conversión](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) por canal de marketing. Los informes disponibles varían según el tipo de cuenta de usuario. El equipo de cuenta de Adobe tiene acceso a todos los informes.
+Los anunciantes que utilizan el servicio de seguimiento de conversiones también pueden identificar el número de clics de una ubicación geográfica o el nombre de dominio de un sitio web de referencia, cómo los anuncios de cada canal y los distintos eventos que llevan a una Adobe Advertising contribuyen a la tasa de conversión general y la distribución de conversiones para un solo sitio [métrica de conversión](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Los informes disponibles varían según el tipo de cuenta de usuario. El equipo de cuenta de Adobe tiene acceso a todos los informes.
 
 La mayoría de los informes se pueden personalizar para mostrar únicamente la información que desee ver. Las siguientes métricas estándar están disponibles en la mayoría de los informes y se calculan a nivel de anuncio:
 
