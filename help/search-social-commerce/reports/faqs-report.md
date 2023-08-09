@@ -3,9 +3,9 @@ title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3912'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Las siguientes son razones comunes para la falta de datos sobre clics.
 
 | Causa | Detección/análisis | Resolución |
 |---|---|---|
-| Error en el proceso que recupera los datos de clics de la cuenta de publicidad. | No hay una forma sistemática de detectar este problema, pero es posible que observe que una campaña no muestra información de coste o clics aunque la cuenta de publicidad gastó dinero. | Póngase en contacto con Atención al cliente en &lt;*su cuenta de usuario de Search, Social y Commerce*>@support\.efrontier\.com.<!-- Escaped periods and using HTML code for angle brackets --><br><br>Si faltan datos durante más de 24 horas, excluya esas fechas de las previsiones de costes hasta que se recuperen los datos. El equipo de cuenta de Adobe puede excluir las fechas. |
+| Error en el proceso que recupera los datos de clics de la cuenta de publicidad. | No hay una forma sistemática de detectar este problema, pero es posible que observe que una campaña no muestra información de coste o clics aunque la cuenta de publicidad gastó dinero. | Póngase en contacto con el equipo de cuenta de Adobe.<br><br>Si faltan datos durante más de 24 horas, excluya esas fechas de las previsiones de costes hasta que se recuperen los datos. El equipo de cuenta de Adobe puede excluir las fechas. |
 | Un problema de facturación entre el anunciante y la red de anuncios impide que la cuenta de publicidad gaste. | No hay una forma sistemática de detectar este problema, pero puede observar que una campaña no muestra información sobre costos o clics. | Si sabe que una cuenta publicitaria no pudo gastar debido a un problema de facturación, excluya esas fechas de las previsiones de costes. El equipo de cuenta de Adobe puede excluir las fechas. |
 +++
 
