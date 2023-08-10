@@ -2,7 +2,7 @@
 title: Cree una etiqueta de conversión para [!DNL Google Ads]
 description: Obtenga información sobre cómo crear un [!DNL Google Ads] etiqueta de conversión.
 feature: Conversions
-source-git-commit: 8f08151013ec63df14843733a0c83badcceba4c3
+source-git-commit: 395421c69214c3b0370523909047a924af23ea55
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Una vez que añada las etiquetas a su sitio web y comiencen a activarse, [!DNL G
 
 **[!UICONTROL Conversion Name]:** Un nombre único para la métrica de conversión.
 
-**\[Categoría de objetivo\]:** La categoría de conversión. Las categorías disponibles varían según el tipo de conversión. Para *[!UICONTROL Calls to a phone number on your website]* y *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; está seleccionado de forma predeterminada.
+**\[Categoría de conversión\]:** La categoría de conversión. Las categorías disponibles varían según el tipo de conversión. Para *[!UICONTROL Calls to a phone number on your website]* y *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; está seleccionado de forma predeterminada.
 
 **\[Tipo de acción\]:** Si el objetivo es un *[!UICONTROL Primary action used for bidding optimization]* o una *[!UICONTROL Secondary action not used for bidding optimization]*.
 
