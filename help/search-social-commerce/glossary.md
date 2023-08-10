@@ -3,9 +3,9 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **grupo de publicidad:** Un conjunto de anuncios y sus palabras clave, ubicaciones y grupos de productos relacionados para una campaña.
 
 **variación de anuncio:** Cualquier anuncio dentro de un grupo de anuncios o una estrategia de publicidad.
+
+**ID de AMO:** Código de seguimiento que permite al Adobe Advertising compartir datos sobre campañas con Adobe Analytics. Comienza con `s_kwcid=`.
 
 **unidad de oferta:** Término de búsqueda, medios sociales y comercio para una unidad en la que se colocan ofertas. Para la mayoría de las campañas de la mayoría de las redes, se trata de una palabra clave y su tipo de coincidencia para una campaña de búsqueda o de contenido, un grupo de productos de nivel de unidad (el nivel más bajo de subdivisión) para una campaña de compras o un objetivo de búsqueda dinámica para una campaña de publicidad de búsqueda dinámica. Cuando la misma combinación de palabra clave y tipo de coincidencia, el mismo grupo de productos o el mismo objetivo de búsqueda dinámica se producen en varios grupos de anuncios en una sola campaña, todas las instancias se consideran la misma unidad de oferta y, por lo tanto, tienen la misma oferta.
 
@@ -166,7 +168,7 @@ Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
 **estrategia de gasto:** (Anunciantes con portafolios) La estrategia seleccionada para optimizar las ofertas de palabras clave/anuncios para un portafolio.
 
-**`s_kwcid`:** Código de seguimiento que permite al Adobe Advertising compartir datos sobre campañas de búsqueda con Adobe Analytics.
+**`s_kwcid`:** Consulte &quot;ID de AMO&quot;.
 
 **URL de seguimiento:** Una plantilla de seguimiento o una dirección URL de destino con parámetros adicionales añadidos para rastrear información sobre clics en el anuncio. Puede incluir una URL de redireccionamiento para enviar primero a los usuarios a un servidor de seguimiento antes de redirigirlos a la página de aterrizaje del anunciante.
 

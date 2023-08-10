@@ -3,9 +3,9 @@ title: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 description: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '3267'
+source-wordcount: '3268'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Entrada [!DNL Analytics], una de las formas más sencillas de validar [!DNL Anal
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] representa el número de veces que los ID de AMO (`s_kwcid` parámetros) se rastrean en el sitio. Cada vez que se hace clic en un anuncio, aparece un `s_kwcid` se añade a la dirección URL de la página de aterrizaje. El número de [!UICONTROL AMO ID Instances], por lo tanto, es análogo al número de clics y se puede validar con clics de anuncios reales. Normalmente, vemos una tasa de coincidencia del 80 % para [!DNL Search, Social, & Commerce] y una tasa de coincidencia del 30 % para [!DNL DSP] tráfico (cuando se filtra para incluir solo pulsaciones) [!UICONTROL AMO ID Instances]). La diferencia de expectativas entre la búsqueda y la visualización se puede explicar por el comportamiento de tráfico esperado. La búsqueda captura la intención y, como tal, los usuarios suelen hacer clic en los resultados de búsqueda de su consulta. Sin embargo, es más probable que los usuarios que ven un anuncio en pantalla o en vídeo en línea hagan clic en el anuncio de forma involuntaria y luego reboten en el sitio o abandonen la nueva ventana que se carga antes de que se rastree la actividad de la página.
+[!UICONTROL AMO ID Instances] representa el número de veces que [ID de AMO](ids.md) se rastrean en el sitio. Cada vez que se hace clic en un anuncio, se crea un ID de AMO (`s_kwcid`) parámetro se añade a la dirección URL de la página de aterrizaje. El número de [!UICONTROL AMO ID Instances], por lo tanto, es análogo al número de clics y se puede validar con clics de anuncios reales. Normalmente, vemos una tasa de coincidencia del 80 % para [!DNL Search, Social, & Commerce] y una tasa de coincidencia del 30 % para [!DNL DSP] tráfico (cuando se filtra para incluir solo pulsaciones) [!UICONTROL AMO ID Instances]). La diferencia de expectativas entre la búsqueda y la visualización se puede explicar por el comportamiento de tráfico esperado. La búsqueda captura la intención y, como tal, los usuarios suelen hacer clic en los resultados de búsqueda de su consulta. Sin embargo, es más probable que los usuarios que ven un anuncio en pantalla o en vídeo en línea hagan clic en el anuncio de forma involuntaria y luego reboten en el sitio o abandonen la nueva ventana que se carga antes de que se rastree la actividad de la página.
 
 En los informes de Adobe Advertising, puede comparar de forma similar los clics con las instancias mediante el uso de &quot;[!UICONTROL ef_id_instances]&quot; en lugar de [!UICONTROL AMO ID Instances]:
 

@@ -3,9 +3,9 @@ title: Administrar las cuentas de red de publicidad
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -240,22 +240,22 @@ Las cuentas que utilizan el rastreo de clics con Adobe Advertising deben incluir
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **Formato S\_kwcid** - (Existente) [!DNL Google Ads] cuentas para anunciantes con una integración Adobe Advertising-Adobe Analytics y para los que el ID de AMO (s\_kwcid) aún no se ha migrado
+* **Formato S_kwcid** - (Existente) [!DNL Google Ads] cuentas para anunciantes con una integración Adobe Advertising-Adobe Analytics y para los que el ID de AMO (s_kwcid) aún no se ha migrado
 
 Esta cuenta utiliza el formato heredado para el código de seguimiento de ID de AMO, que permite que Adobe Advertising comparta datos sobre la cuenta con Adobe Analytics. El [último formato](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) incluye parámetros para el ID de campaña y el ID de grupo de publicidad, que son necesarios para informar con precisión en los niveles de campaña y grupo de publicidad para [!DNL Google Ads] campañas Máximo rendimiento de, y borradores y experimentos de campañas en Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-Si esta cuenta necesita crear informes en los niveles de campaña y de grupo de publicidad, haga clic en el botón [!UICONTROL Edit] Icono (lápiz) y luego **[!UICONTROL Migrate to new s\_kwcid format]** para cambiar al nuevo formato. Para las cuentas que no incluyen estos tipos de campaña, la migración al nuevo formato es opcional pero se recomienda.
+Si esta cuenta necesita crear informes en los niveles de campaña y de grupo de publicidad, haga clic en el botón [!UICONTROL Edit] Icono (lápiz) y luego **[!UICONTROL Migrate to new s_kwcid format]** para cambiar al nuevo formato. Para las cuentas que no incluyen estos tipos de campaña, la migración al nuevo formato es opcional pero se recomienda.
 
 Para obtener instrucciones completas, consulte &quot;[Actualización del código de seguimiento de ID de AMO para un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
 **Nombres de grupos de informes** : (para redireccionamiento de EF solo con token; anunciantes con integración de Adobe Advertising-Adobe Analytics; opcional) uno o más grupos de informes de Analytics a los que Search, Social y Commerce envían los datos que recopila de la red de anuncios, incluidas las clasificaciones de entidades y los datos de clics de la cuenta. Esta función solo está disponible para las redes de publicidad admitidas.
 
-Para que los datos aparezcan en los grupos de informes, ya sea (a) el s\_kwcid del lado del servidor debe estar configurado para la cuenta o (b) la configuración del nivel de anunciante a &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; debe estar habilitado. Además, la cuenta de Analytics del anunciante debe configurarse para recibir datos de Search, Social y Commerce. Para obtener más información, póngase en contacto con el administrador de cuentas de Adobe.
+Para que los datos aparezcan en los grupos de informes, ya sea (a) la función de ID de AMO del lado del servidor debe estar configurada para la cuenta o (b) la configuración de nivel de anunciante a &quot;[!UICONTROL Enable tracking for SAINT feeds]&quot; debe estar habilitado. Además, la cuenta de Analytics del anunciante debe configurarse para recibir datos de Search, Social y Commerce. Para obtener más información, póngase en contacto con el administrador de cuentas de Adobe.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las cuentas de red de publicidad](ad-network-account-about.md)
 >* [Administrar cuentas de centros de comerciantes](merchant-account-manage.md)
->* [Actualice el código de seguimiento s\_kwcid para un [!DNL Google Ads] account](update-amo-id-google.md)
+>* [Actualizar el código de seguimiento s_kwcid para un [!DNL Google Ads] account](update-amo-id-google.md)
