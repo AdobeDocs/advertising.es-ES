@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '1728'
 ht-degree: 2%
@@ -112,7 +112,7 @@ ht-degree: 2%
       + Cuentas de red de publicidad {#ad-network-accounts}
          + [Acerca de las cuentas de red de publicidad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Administrar las cuentas de red de publicidad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Actualice el código de seguimiento s\_kwcid para un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md)
+         + [Actualización del código de seguimiento de ID de AMO para un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Administrar cuentas de centros de comerciantes](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Implementación [!DNL Naver] cuentas solo de seguimiento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Administración de campañas {#management}

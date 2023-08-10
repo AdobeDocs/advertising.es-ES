@@ -3,7 +3,7 @@ title: Implementación [!DNL Google Ads] anuncios dinámicos de búsqueda
 description: Obtenga información sobre el flujo de trabajo para configurar [!DNL Google Ads] anuncios dinámicos de búsqueda.
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Puede configurar anuncios dinámicos de búsqueda ya sea de forma individual o m
 
    1. (Opcional) Configure una plantilla de seguimiento de nivel de campaña, que anula la plantilla de seguimiento de nivel de cuenta, pero que se puede sobrescribir en los niveles inferiores.
 
-      (Anunciantes con Adobe Analytics sin seguimiento del lado del servidor) Si desea incluir el seguimiento de la fuente inversa de Search, Social y Commerce en Analytics, agregue el código de seguimiento s_kwcid a los parámetros de datos anexados del nivel de la cuenta, que agregan el código a la dirección URL final. Consulte &quot;[El parámetro de seguimiento s_kwcid](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
+      (Anunciantes con Adobe Analytics sin seguimiento del lado del servidor) Si desea incluir el seguimiento de la fuente inversa de Search, Social y Commerce en Analytics, agregue el código de seguimiento de ID de AMO a los parámetros de datos anexados del nivel de la cuenta, que agregan el código a la dirección URL final. Consulte &quot;[El parámetro de seguimiento de ID de AMO](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
 
 1. [Crear un grupo de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) dentro de la campaña, incluidos los pasos siguientes:
 

@@ -3,7 +3,7 @@ title: Formatos de rastreo de clics para [!DNL Naver]
 description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Naver] cuentas.
 exl-id: ff243eb5-d768-4e5c-b5b3-015fe22c9d5a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -31,4 +31,4 @@ Ejemplo:
 >[!MORELIKETHIS]
 >
 >* [Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos para el código de seguimiento s\_kwcid](skwcid-tracking-parameter.md)
+>* [Formatos para el código de seguimiento de ID de AMO](skwcid-tracking-parameter.md)
