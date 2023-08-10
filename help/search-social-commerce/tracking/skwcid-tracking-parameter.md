@@ -1,34 +1,38 @@
 ---
-title: El parámetro de seguimiento s_kwcid
+title: El parámetro de seguimiento de ID de AMO (s_kwcid)
 description: Obtenga información acerca del parámetro de seguimiento utilizado para compartir datos de Adobe Advertising con Adobe Analytics.
 exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 47cb00bc456601ef943c37de14a2047220f756f1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-# El parámetro de seguimiento s_kwcid
+# El parámetro de seguimiento de ID de AMO (s_kwcid)
 
 *Anunciantes solo con una integración de Adobe Advertising y Adobe Analytics*
 
-<!-- Where should this go? It probably belongs in the Analytics integration chapter, but I'll need to fit it in/create context around it/explain more about implementation and how this works.  SPECIFICALLY, I'll need to update the second section that explains when/where to add the code for DSP clients. -->
+<!-- This should go in the Analytics integration chapter > IDs page, under "AMO IDs."  But I'll need to update with when/where to add the code for DSP clients. -->
 
-Adobe Advertising comparte datos sobre sus campañas con Adobe Analytics mediante la variable `s_kwcid` parámetro append, que consiste en elementos específicos del canal de publicidad y de la red de publicidad. El parámetro se añade a las direcciones URL de seguimiento de una de las siguientes maneras:
+Adobe Advertising comparte datos sobre sus campañas con Adobe Analytics mediante el parámetro de datos anexados de ID de AMO, también denominado `s_kwcid` , que consiste en elementos específicos del canal de publicidad y de la red de publicidad.
 
-* (Recomendado)<!--; the only option for Advertising DSP-->) Se ha implementado la función s_kwcid del lado del servidor.
+<!-- add everything below to IDs page -->
 
-  Para [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas con el [!UICONTROL Auto Upload] configuración habilitada para la cuenta o campaña, el servidor de píxeles anexa automáticamente el parámetro s_kwcid a los sufijos de la página de aterrizaje cuando un usuario final hace clic en un anuncio <!-- click a search ad or views a display ad --> con el píxel de Adobe Advertising.
+El parámetro se añade a las direcciones URL de seguimiento de una de las siguientes maneras:
 
-  Para otras redes de publicidad, o [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas con el [!UICONTROL Auto Upload] Si la opción está desactivada, añada manualmente el parámetro a los parámetros de adición de nivel de cuenta, que lo adjuntan a las direcciones URL base.
+* (Recomendado) Se implementa la función de inserción del lado del servidor.
 
-* <!-- (Search, Social, & Commerce only) -->La función s_kwcid del lado del servidor no está implementada y debe añadir manualmente el parámetro s_kwcid a su ([!DNL Google Ads] y [!DNL Microsoft Advertising]) sufijos de página de aterrizaje o (otras redes de anuncios) parámetros de datos anexados de nivel de cuenta.
+  Para [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas con el [!UICONTROL Auto Upload] Con la configuración habilitada para la cuenta o campaña, el servidor de píxeles anexa automáticamente el parámetro de ID de AMO a los sufijos de la página de aterrizaje cuando un usuario final hace clic en un anuncio <!-- click a search ad or views a display ad --> con el píxel de Adobe Advertising.
 
-Para implementar la función s_kwcid del lado del servidor o para determinar la mejor opción para su empresa, hable con el equipo de cuenta de Adobe.
+  Para otras redes de publicidad, o [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas con el [!UICONTROL Auto Upload] Si la opción está deshabilitada, agregue manualmente el parámetro de ID de AMO a los parámetros de datos anexados de nivel de cuenta, los cuales lo adjuntarán a las direcciones URL base.
 
-## DSP Formato s_kwcid para anuncios de Advertising
+* <!-- (Search, Social, & Commerce only) -->La función de inserción del lado del servidor no está implementada y debe agregar manualmente el parámetro de ID de AMO a su ([!DNL Google Ads] y [!DNL Microsoft Advertising]) sufijos de página de aterrizaje o (otras redes de anuncios) parámetros de datos anexados de nivel de cuenta.
+
+Para implementar la función de inserción del lado del servidor o para determinar la mejor opción para su empresa, hable con el equipo de cuenta de Adobe.
+
+## DSP Formato de ID de AMO para anuncios de Advertising
 
 `s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
@@ -40,7 +44,7 @@ donde:
 
 * `{TM_PLACEMENT_ID}` es la clave de ubicación alfanumérica.
 
-## Formatos s_kwcid para anuncios de Search, Social y Commerce
+## Formatos de ID de AMO para anuncios de Search, Social y Commerce
 
 Los parámetros varían según la red de anuncios, pero los siguientes parámetros son comunes a todos los operadores:
 
@@ -58,7 +62,7 @@ Los parámetros varían según la red de anuncios, pero los siguientes parámetr
 
 Estos incluyen campañas de compra que utilizan [!DNL Google Merchant Center].
 
-* Cuentas que utilizan el formato s_kwcid más reciente, que admite informes de nivel de campaña y de grupo de publicidad para campañas Máximo rendimiento de, así como campañas de borradores y experimentos:
+* Cuentas que utilizan el formato de ID de AMO más reciente, que admite la creación de informes de nivel de campaña y de grupo de publicidad para campañas Máximo rendimiento de, así como campañas de borradores y experimentos:
 
   `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -70,7 +74,7 @@ Estos incluyen campañas de compra que utilizan [!DNL Google Merchant Center].
 >
 >* Para los anuncios dinámicos de búsqueda, {keyword} se rellena con el destino automático.
 >* Cuando se genera un seguimiento para [!DNL Google] anuncios de compra, un parámetro de ID de producto, `{adwords_producttargetid}`, se inserta antes del parámetro keyword. El parámetro de ID de producto no aparece en la [!DNL Google Ads] parámetros de seguimiento a nivel de cuenta y de campaña.
->* Para utilizar el código de seguimiento s_kwcid más reciente, consulte &quot;[Actualizar el código de seguimiento s_kwcid para un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
+>* Para utilizar el código de seguimiento de ID de AMO más reciente, consulte[Actualización del código de seguimiento de ID de AMO para un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
 
 <!--
 
