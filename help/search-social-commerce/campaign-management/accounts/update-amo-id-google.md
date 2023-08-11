@@ -3,7 +3,7 @@ title: Actualizar el código de seguimiento de ID de AMO (s_kwcid) para un [!DNL
 description: Obtenga información sobre cómo cambiar al código de seguimiento de ID de AMO más reciente para un [!DNL Google Ads] cuenta.
 exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-El formato heredado para [Código de seguimiento de ID de AMO](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) para los existentes [!DNL Google Ads] Las cuentas de no admiten algunas funciones de Analytics, como la creación de informes en los niveles de campaña y grupo de publicidad para [!DNL Google Ads] campañas de rendimiento máximo, campañas de borradores y experimentos, y otros casos de uso en los que existe la misma combinación de tipo anuncio+palabra clave+coincidencia en varias campañas.
+El formato heredado para [Código de seguimiento de ID de AMO](/help/integrations/analytics/ids.md#amo-id-formats) para los existentes [!DNL Google Ads] Las cuentas de no admiten algunas funciones de Analytics, como la creación de informes en los niveles de campaña y grupo de publicidad para [!DNL Google Ads] campañas de rendimiento máximo, campañas de borradores y experimentos, y otros casos de uso en los que existe la misma combinación de tipo anuncio+palabra clave+coincidencia en varias campañas.
 
 El formato más reciente incluye parámetros para el ID de campaña y el ID de grupo de publicidad:
 
@@ -58,7 +58,7 @@ Todo nuevo [!DNL Google Ads] Las cuentas de utilizan automáticamente el nuevo f
 
    * Si la variable [!UICONTROL Auto Upload]La función &quot; está habilitada en la configuración de seguimiento, Search, Social y Commerce actualizan automáticamente el código de seguimiento en el sufijo de página de aterrizaje de esta cuenta y sus campañas. Usted no tiene que hacer nada.
 
-   * Si la variable [!UICONTROL Auto Upload]&quot; no está activada y no se utiliza la función &quot; [Función de ID de AMO del lado del servidor](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md), debe actualizar manualmente el parámetro de ID de AMO en la configuración del sufijo de la página de aterrizaje. Puede cambiar manualmente los sufijos de nivel de cuenta y de campaña en la configuración de cuenta y campaña o cargando los cambios en una hoja de edición por lotes. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, utilice el [!DNL Google Ads] editor.
+   * Si la variable [!UICONTROL Auto Upload]&quot; no está activada y no se utiliza la función &quot; [Función de ID de AMO del lado del servidor](/help/integrations/analytics/ids.md#amo-id-formats), debe actualizar manualmente el parámetro de ID de AMO en la configuración del sufijo de la página de aterrizaje. Puede cambiar manualmente los sufijos de nivel de cuenta y de campaña en la configuración de cuenta y campaña o cargando los cambios en una hoja de edición por lotes. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, utilice el [!DNL Google Ads] editor.
 
    * Si incluye el ID de AMO en la configuración de URL base para cualquier componente de campaña, muévalo a la configuración de Sufijo de página de aterrizaje correspondiente.
 
@@ -67,5 +67,5 @@ Todo nuevo [!DNL Google Ads] Las cuentas de utilizan automáticamente el nuevo f
 >[!MORELIKETHIS]
 >
 >* [Administrar las cuentas de red de publicidad](ad-network-account-manage.md)
->* [El parámetro de seguimiento de ID de AMO](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
+>* [ID de Adobe Advertising utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

@@ -3,9 +3,9 @@ title: El parámetro de seguimiento de ID de AMO (s_kwcid)
 description: Obtenga información acerca del parámetro de seguimiento utilizado para compartir datos de Adobe Advertising con Adobe Analytics.
 exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
 feature: Search Tracking
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: a150a55fd8d97db83cc269c787a1c67d557b7e3a
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -32,91 +32,12 @@ El parámetro se añade a las direcciones URL de seguimiento de una de las sigui
 
 Para implementar la función de inserción del lado del servidor o para determinar la mejor opción para su empresa, hable con el equipo de cuenta de Adobe.
 
-## DSP Formato de ID de AMO para anuncios de Advertising
-
-`s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
-
-donde:
-
-* `AC` indica el canal de visualización.
-
-* `{TM_AD_ID}` es la clave de anuncio alfanumérica.
-
-* `{TM_PLACEMENT_ID}` es la clave de ubicación alfanumérica.
-
-## Formatos de ID de AMO para anuncios de Search, Social y Commerce
-
-Los parámetros varían según la red de anuncios, pero los siguientes parámetros son comunes a todos los operadores:
-
-* `AL` indica el canal de búsqueda. <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
-
-* `{userid}` es un ID de usuario único asignado al anunciante.
-
-* `{sid}` se sustituye por el ID numérico de la cuenta de red de publicidad del anunciante: *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo! Display Network], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL Yahoo! Japan Ads], *105* para [!DNL Yahoo Native] (obsoleto), o *106* para [!DNL Pinterest] (obsoleto).
-
-### [!DNL Baidu]
-
-`s_kwcid=AL!{userid}!{sid}!{creative}!{placement}!{keywordid}`
-
-### [!DNL Google Ads]
-
-Estos incluyen campañas de compra que utilizan [!DNL Google Merchant Center].
-
-* Cuentas que utilizan el formato de ID de AMO más reciente, que admite la creación de informes de nivel de campaña y de grupo de publicidad para campañas Máximo rendimiento de, así como campañas de borradores y experimentos:
-
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
-
-* Otras cuentas:
-
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
-
->[!NOTE]
->
->* Para los anuncios dinámicos de búsqueda, {keyword} se rellena con el destino automático.
->* Cuando se genera un seguimiento para [!DNL Google] anuncios de compra, un parámetro de ID de producto, `{adwords_producttargetid}`, se inserta antes del parámetro keyword. El parámetro de ID de producto no aparece en la [!DNL Google Ads] parámetros de seguimiento a nivel de cuenta y de campaña.
->* Para utilizar el código de seguimiento de ID de AMO más reciente, consulte[Actualización del código de seguimiento de ID de AMO para un [!DNL Google Ads] account](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
-
-<!--
-
-### [!DNL Meta]
-
-`s_kwcid=AL!{userid}!{sid}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
-
-where:
-
-* `{{ad.id}}` is the unique numeric ID for the ad/creative.
-
-* `{{campaign.id}}` is the unique ID for the campaign.
-
-* `{{adset.id}}` is the unique ID for the ad set.
-
--->
-
-### [!DNL Microsoft Advertising]
-
-* Buscar campañas:
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
-
-* Campañas de compra (con [!DNL Microsoft Merchant Center]):
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
-
-* Campañas de Audience Network:
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}`
-
-### [!DNL Yahoo! Japan Ads]
-
-`s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{network}!{keyword}`
-
-### [!DNL Yandex]
-
-`s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
+DSP Para los formatos de ID de AMO para los servicios de búsqueda, búsqueda, medios sociales y comercio de, consulte &quot;[ID de Adobe Advertising utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Información general de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
+>* [ID de Adobe Advertising utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id){target="_blank"}
 >* [Administrar las cuentas de red de publicidad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
 >* [Configuración de campaña de Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [Configuración de campañas de Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
