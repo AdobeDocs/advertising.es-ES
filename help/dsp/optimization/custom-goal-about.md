@@ -3,16 +3,16 @@ title: Acerca de los objetivos personalizados
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: d1ebb6a12a04b969ba8558912c3ac76bb1632b3c
+source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
 
 # Acerca de los objetivos personalizados
 
-Las metas personalizadas definen los eventos de éxito que un anunciante necesita para alcanzar sus objetivos comerciales. Cada paquete que utiliza los objetivos de optimización &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; o &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; debe incluir un objetivo personalizado que ayude a lograr el objetivo de optimización general. Puede crear objetivos personalizados como *objetivos* in [!DNL Advertising Search, Social, & Commerce].
+Las metas personalizadas definen los eventos de éxito que un anunciante necesita para alcanzar sus objetivos comerciales. Cada paquete que utiliza un objetivo de optimización que termina con &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;) debe incluir un objetivo personalizado que ayude a lograr el objetivo de optimización general. Puede crear objetivos personalizados como *objetivos* in [!DNL Advertising Search, Social, & Commerce].
 
 ![metas personalizadas](/help/dsp/assets/objective-goals.png)
 

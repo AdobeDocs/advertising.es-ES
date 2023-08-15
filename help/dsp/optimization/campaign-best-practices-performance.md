@@ -3,9 +3,9 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1255'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Consulte las siguientes prácticas recomendadas para campañas de rendimiento:
 
 ## Paso 1: Definición de la meta
 
-Es importante entender si el objetivo de la campaña es lograr el ROAS más alto posible o el CPA más bajo posible. Para cada paquete de la campaña, debe especificar el objetivo objetivo en consecuencia como *[!UICONTROL Highest ROAS - Custom Goal]* o *[!UICONTROL Lowest CPA - Custom Goal]*.
+Es importante comprender el objetivo de la campaña, como lograr el ROAS más alto posible o el CPA más bajo posible. Las campañas de rendimiento tienen [objetivos de optimización](/help/dsp/optimization/optimization-goals.md) que terminan con &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Para cada paquete de la campaña, debe especificar el objetivo objetivo en consecuencia.
 
 ![objetivo de optimización](/help/dsp/assets/optimization-goals.png)
 
@@ -73,7 +73,7 @@ Además, utilice la siguiente configuración.
 
 * **Fechas de vuelo:** (Paquetes de prospección) Cuando la campaña se ejecute durante más de 25 días, utilice el [!UICONTROL Activate Custom Flighting] función. En primer lugar, establezca un vuelo personalizado para los primeros 10 días en aproximadamente el 75% del presupuesto diario necesario para reducir el gasto durante el *fase aprendizaje*. Luego establezca un segundo vuelo personalizado para el resto del presupuesto.
 
-   Por ejemplo, si tiene 100 000 $ para gastar en 30 días, establezca el presupuesto del vuelo 1 (días 1-10) en 25 000 $ (75 % x 100 000 $/30 días = 2 500 $ por día). Utilice el presupuesto restante de $75,000 para el Vuelo 2 (Días 11-30).
+  Por ejemplo, si tiene 100 000 $ para gastar en 30 días, establezca el presupuesto del vuelo 1 (días 1-10) en 25 000 $ (75 % x 100 000 $/30 días = 2 500 $ por día). Utilice el presupuesto restante de $75,000 para el Vuelo 2 (Días 11-30).
 
 * **Presupuesto:** DSP siempre intentará asignar el 100 % del presupuesto del paquete de forma uniforme entre todas las ubicaciones de un paquete. Si una ubicación tiene un gasto bajo o ninguno, se recomienda limitar el presupuesto a la ubicación para permitir que se asigne más del presupuesto a las ubicaciones con escala. Espere entre 24 y 48 horas para que se calibran los cambios de presupuesto.
 
@@ -85,9 +85,9 @@ Además, utilice la siguiente configuración.
 
 * **Ritmo de vuelo y ritmo intradía:** Para ambos tipos de ritmo, seleccione *[!UICONTROL Even]* para maximizar sus objetivos de rendimiento mediante un ritmo uniforme durante todo el día y durante todo el vuelo.
 
-   >[!CAUTION]
-   >
-   >Uso *[!UICONTROL FrontLoad]* y *[!UICONTROL Aggressive Front Load]* para el ritmo de vuelo y *[!UICONTROL ASAP]* ritmo para el ritmo intradía solo cuando prioriza por completo la entrega y el gasto sobre la optimización del rendimiento, porque esas estrategias pueden afectar negativamente a los KPI de rendimiento deseados.
+  >[!CAUTION]
+  >
+  >Uso *[!UICONTROL FrontLoad]* y *[!UICONTROL Aggressive Front Load]* para el ritmo de vuelo y *[!UICONTROL ASAP]* ritmo para el ritmo intradía solo cuando prioriza por completo la entrega y el gasto sobre la optimización del rendimiento, porque esas estrategias pueden afectar negativamente a los KPI de rendimiento deseados.
 
 ## Paso 4: Creación de una estructura de ubicación
 
@@ -102,7 +102,7 @@ A continuación se indican las opciones de colocación recomendadas para las cam
 Configurará la optimización de CPA o ROAS en el nivel de paquete (consulte Paso 3: Creación de paquetes), pero puede agregar ajustes de nivel de ubicación adicionales.
 
 * **Puja máxima:**
-   * Para las ubicaciones de prospección, utilice una oferta máxima baja (5 dólares).
+   * Para las ubicaciones de prospección, utilice una oferta máxima baja ($5).
    * Para volver a segmentar reemplazos, usa una puja máxima alta (12 dólares).
 
 * **Filtros de ofertas previas:** Minimice o, idealmente, evite establecer filtros de oferta previa agresivos, lo que impide que la ubicación alcance la escala. Las prácticas recomendadas incluyen las siguientes:
@@ -165,4 +165,3 @@ Uso del filtrado contextual, bloqueo de fraude de oferta previa, o [!UICONTROL A
 >* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
 >* [Filtros previos a la oferta de nivel de ubicación y cómo utilizarlos](optimization-pre-bid-filters.md)
 >* [Lista de comprobación de Campaign Launch](/help/dsp/campaign-management/campaign-launch-checklist.md)
-
