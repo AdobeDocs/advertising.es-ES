@@ -3,9 +3,9 @@ title: ID de Adobe Advertising utilizados por [!DNL Analytics]
 description: ID de Adobe Advertising utilizados por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,20 @@ ht-degree: 0%
 
 El Adobe Advertising de utiliza dos ID para el seguimiento del rendimiento en el sitio: el *EF ID* y el *ID de AMO*.
 
-Cuando se produce una impresión de un anuncio, el Adobe Advertising crea los valores de ID de AMO e ID de EF y los almacena. Cuando un visitante que ha visto un anuncio entra en el sitio sin hacer clic en un anuncio, [!DNL Analytics] llama a estos valores desde el Adobe Advertising hasta el [!DNL Analytics for Advertising] Código JavaScript. Para el tráfico de visualización, [!DNL Analytics] genera un ID suplementario (`SDID`), que se utiliza para unir el EF ID y el AMO ID en [!DNL Analytics]. Para el tráfico de clics, estos ID se incluyen en la dirección URL de la página de aterrizaje utilizando `s_kwcid` y `ef_id` parámetros de cadena de consulta.
+Cuando se produce una impresión de un anuncio, el Adobe Advertising crea los valores de ID de AMO e ID de EF y los almacena. Cuando un visitante que ha visto un anuncio entra en el sitio sin hacer clic en un anuncio, [!DNL Analytics] llama a estos valores desde el Adobe Advertising hasta el [!DNL Analytics for Advertising] Código JavaScript. Para el tráfico de visualización, [!DNL Analytics] genera un ID suplementario (`SDID`), que se utiliza para unir el EF ID y el AMO ID en [!DNL Analytics]. Para el tráfico de clics, estos ID se incluyen en la dirección URL de la página de aterrizaje utilizando `ef_id` y `s_kwcid` (para el ID de AMO) Parámetros de cadena de consulta.
 
 El Adobe Advertising distingue entre una entrada de pulsaciones o visualizaciones al sitio web según los siguientes criterios:
 
 * Se registra una entrada de visualización cuando un usuario visita el sitio después de ver un anuncio, pero sin hacer clic en él. [!DNL Analytics] registra una visualización si se cumplen dos condiciones:
+
    * El visitante no tiene pulsaciones para una [!DNL DSP] o [!DNL Search, Social, & Commerce] anuncio durante la [haga clic en ventana retrospectiva](#lookback-a4adc).
+
    * El visitante ha visto al menos uno [!DNL DSP] anuncio durante la [ventana retrospectiva de impresiones](#lookback-a4adc). La última impresión se pasa como la visualización.
+
 * Se captura una entrada de pulsación cuando un visitante del sitio hace clic en un anuncio antes de entrar en el sitio. [!DNL Analytics] registra una pulsación cuando se da cualquiera de las siguientes condiciones:
+
    * La dirección URL incluye un EF ID y un AMO ID, añadidos por Adobe Advertising a la dirección URL de la página de aterrizaje.
+
    * La dirección URL no contiene códigos de seguimiento, pero el código JavaScript de Adobe Advertising detecta un clic en los últimos dos minutos.
 
 ![Adobe Advertising basado en vistas [!DNL Analytics] integración](/help/integrations/assets/a4adc-view-through-process.png)
@@ -39,7 +44,7 @@ El Adobe Advertising distingue entre una entrada de pulsaciones o visualizacione
 
 ## ID de EF de Adobe Advertising
 
-El EF ID es un token único que utiliza el Adobe Advertising para asociar la actividad con un clic en línea o una exposición de publicidad. El ID de EF se almacena en [un [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o [!DNL rVar] (reservado [!DNL eVar]) (Adobe Advertising EF ID) y rastrea cada clic o exposición de publicidad en el nivel de navegador o dispositivo individual. Los ID de EF actúan principalmente como claves para el envío [!DNL Analytics] datos al Adobe Advertising para informes y optimización de ofertas dentro del Adobe Advertising.
+El EF ID es un token único que utiliza el Adobe Advertising para asociar la actividad con un clic en línea o una exposición de publicidad. El ID de EF se almacena en [un [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o [!DNL rVar] (reservado [!DNL eVar]) (ID de EF de Adobe Advertising) y rastrea cada clic o exposición de publicidad en el nivel de navegador o dispositivo individual. Los ID de EF actúan principalmente como claves para el envío [!DNL Analytics] datos al Adobe Advertising para informes y optimización de ofertas dentro del Adobe Advertising.
 
 ### Formato de ID de EF
 
@@ -100,6 +105,38 @@ Los EF ID están sujetos al límite de 500 000 identificadores únicos en Analys
 El ID de AMO realiza un seguimiento de cada combinación de publicidad única en un nivel menos granular y se utiliza para [!DNL Analytics] clasificación de datos e ingesta de métricas de publicidad (como impresiones, clics y costes) de Adobes Advertising. El ID de AMO se almacena en un [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o la dimensión rVar (ID de AMO) y se utiliza exclusivamente para la creación de informes en [!DNL Analytics].
 
 El ID de AMO también se denomina `s_kwcid`, que a veces se pronuncia como &quot;[!DNL the squid].&quot;
+
+### Formas de implementar el ID de AMO
+
+El parámetro se añade a las direcciones URL de seguimiento de una de las siguientes maneras:
+
+* (Recomendado) Se implementa la función de inserción del lado del servidor.
+
+   * DSP Clientes de: El servidor de píxeles anexa automáticamente el parámetro s_kwcid a los sufijos de la página de aterrizaje cuando un usuario final ve un anuncio en pantalla con el píxel de Adobe Advertising.
+
+   * Clientes de Search, Social y Commerce:
+
+      * Para [!DNL Google Ads] y [!DNL Microsoft® Advertising] cuentas con el [!UICONTROL Auto Upload] con la configuración habilitada para la cuenta o campaña, el servidor de píxeles anexa automáticamente el parámetro s_kwcid a los sufijos de la página de aterrizaje cuando un usuario final hace clic en un anuncio con el píxel de Adobe Advertising.
+
+      * Para otras redes de publicidad, o [!DNL Google Ads] y [!DNL Microsoft® Advertising] cuentas con el [!UICONTROL Auto Upload] Si la opción está desactivada, añada manualmente el parámetro a los parámetros de adición de nivel de cuenta, que lo adjuntan a las direcciones URL base.
+
+* La función de inserción del lado del servidor no está implementada:
+
+   * DSP clientes de:
+
+      * Para [!DNL Flashtalking] Para agregar etiquetas, inserte manualmente macros adicionales por &quot;[Añadir [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de publicidad](/help/integrations/analytics/macros-flashtalking.md).&quot;
+
+      * Para [!DNL Google Campaign Manager 360] Para agregar etiquetas, inserte manualmente macros adicionales por &quot;[Añadir [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Etiquetas de publicidad](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
+  <!--  * For all other ads, XXXX. -->
+
+   * Clientes de Search, Social y Commerce:
+
+      * Para ([!DNL Google Ads] y [!DNL Microsoft® Advertising]), agregue manualmente el parámetro de ID de AMO a los sufijos de la página de aterrizaje.
+
+      * Para los anuncios del resto de redes de anuncios, agregue manualmente el parámetro de ID de AMO a los parámetros de datos anexados de nivel de cuenta, que lo adjuntan a las direcciones URL base.
+
+Para implementar la función de inserción del lado del servidor o para determinar la mejor opción para su empresa, hable con el equipo de cuenta de Adobe.
 
 ### Formatos de ID de AMO {#amo-id-formats}
 
