@@ -3,9 +3,9 @@ title: Formatos de rastreo de clics para [!DNL Google Ads]
 description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Google Ads] cuentas.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
+source-git-commit: ceb2fc07eb5116b3a2bb01cf72fd779f78bba1f0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Las cuentas que utilizan el seguimiento de conversión de Adobe Advertising debe
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Si la cuenta tiene una implementación de AMO ID del lado del servidor y la configuración de la cuenta o la campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitado y, a continuación, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente. Consulte &quot;Formas de implementar el ID de AMO&quot; en &quot;[ID de Adobe Advertising utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
+     Si la cuenta tiene una implementación de AMO ID del lado del servidor y la configuración de la cuenta o la campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitado y, a continuación, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente. Consulte &quot;[ID de Adobe Advertising utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * Todos los demás [!DNL Google Ads] cuentas:
 
