@@ -3,7 +3,7 @@ title: Añadir [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign M
 description: Descubra por qué y cómo añadir [!DNL Analytics for Advertising] macros a su [!DNL Google Campaign Manager 360] etiquetas de publicidad
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
+source-git-commit: aa41ba08ba83bfacbc2541c0f0d90336b3c36305
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -43,7 +43,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 >[!NOTE]
 >
 >>* Si la dirección URL de la página de aterrizaje incluye el símbolo hash (#), que no es común, coloque el `amo` antes del símbolo hash.
->* Si no se incluyen otros parámetros después de `amo` y después agregue un parámetro (por ejemplo, &amp;a=b). Ejemplo:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+>* Si no se incluyen otros parámetros después de `amo` y después agregue un parámetro (por ejemplo, &amp;a=b). Ejemplo: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configurar el sufijo de URL de la página de aterrizaje de nivel del anunciante
 
