@@ -3,7 +3,7 @@ title: ID de Adobe Advertising utilizados por [!DNL Analytics]
 description: ID de Adobe Advertising utilizados por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: d5c894f4eaae5aaec72ca6f525ed625d08c9420d
+source-git-commit: 38f94db19b94f4cb7a6965ccf5da6d83a31154af
 workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 0%
@@ -106,7 +106,7 @@ El ID de AMO realiza un seguimiento de cada combinación de publicidad única en
 
 El ID de AMO también se denomina `s_kwcid`, que a veces se pronuncia como &quot;[!DNL the squid].&quot;
 
-### Formas de implementar el ID de AMO
+### Formas de implementar el ID de AMO {#amo-id-implement}
 
 El parámetro se añade a las direcciones URL de seguimiento de una de las siguientes maneras:
 

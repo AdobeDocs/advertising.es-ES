@@ -3,9 +3,9 @@ title: Formatos de rastreo de clics para [!DNL Google Ads]
 description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Google Ads] cuentas.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 0c2603303dd9401b2d6fad2893f5a84cb457ed3a
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Las cuentas que utilizan el seguimiento de conversión de Adobe Advertising debe
 
 * Cuando el anunciante tiene una integración de Adobe Analytics, el sufijo debe incluir uno de los siguientes:
 
-   * [!DNL Google Ads] cuentas que utilizan el formato de ID de AMO más reciente (comenzando por `s_kwcid`), que admite la creación de informes de nivel de campaña y de grupo de publicidad para campañas Máximo rendimiento de y campañas de borradores y experimentos:
+   * [!DNL Google Ads] cuentas que utilizan la última versión [Formato de ID de AMO](/help/integrations/analytics/ids.md#amo-id-formats) (comenzando por `s_kwcid`), que admite la creación de informes de nivel de campaña y de grupo de publicidad para campañas Máximo rendimiento de y campañas de borradores y experimentos:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Si la cuenta tiene una implementación de AMO ID del lado del servidor y la configuración de la cuenta o la campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitado y, a continuación, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente.
+     Si la cuenta tiene una implementación de AMO ID del lado del servidor y la configuración de la cuenta o la campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitado y, a continuación, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente. Consulte &quot;Formas de implementar el ID de AMO&quot; en &quot;[ID de Adobe Advertising utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
    * Todos los demás [!DNL Google Ads] cuentas:
 

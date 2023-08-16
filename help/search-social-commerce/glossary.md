@@ -3,7 +3,7 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **variación de anuncio:** Cualquier anuncio dentro de un grupo de anuncios o una estrategia de publicidad.
 
-**ID de AMO:** Código de seguimiento que permite al Adobe Advertising compartir datos sobre campañas con Adobe Analytics. Comienza con `s_kwcid=`.
+**[ID de AMO](/help/integrations/analytics/ids.md#amo-id):** Código de seguimiento que permite al Adobe Advertising compartir datos sobre campañas con Adobe Analytics. Comienza con `s_kwcid=`.
 
 **unidad de oferta:** Término de búsqueda, medios sociales y comercio para una unidad en la que se colocan ofertas. Para la mayoría de las campañas de la mayoría de las redes, se trata de una palabra clave y su tipo de coincidencia para una campaña de búsqueda o de contenido, un grupo de productos de nivel de unidad (el nivel más bajo de subdivisión) para una campaña de compras o un objetivo de búsqueda dinámica para una campaña de publicidad de búsqueda dinámica. Cuando la misma combinación de palabra clave y tipo de coincidencia, el mismo grupo de productos o el mismo objetivo de búsqueda dinámica se producen en varios grupos de anuncios en una sola campaña, todas las instancias se consideran la misma unidad de oferta y, por lo tanto, tienen la misma oferta.
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 **campaign:** Conjunto de grupos de anuncios de una sola cuenta de publicidad que comparten un presupuesto, un lapso de tiempo, un objetivo y otra configuración. **Nota:** [!DNL Baidu] no tiene el concepto de campañas, pero Search, Social y Commerce crea pseudocampañas para cada conjunto de grupos de anuncios relacionados en [!DNL Baidu] que se sincronizan en Search, Social y Commerce.
 
-**campo que distingue entre mayúsculas y minúsculas:** Una consulta o campo que distingue entre mayúsculas y minúsculas trata las letras mayúsculas (como C) de manera diferente a las minúsculas (como c). Por ejemplo, Coche se trata como un valor diferente al coche.
+**campo que distingue entre mayúsculas y minúsculas:** Una consulta o campo que distingue entre mayúsculas y minúsculas trata las letras mayúsculas (como C) de forma diferente a las minúsculas (como c). Por ejemplo, Coche se trata como un valor diferente al coche.
 
 **clic:** Un solo usuario hace clic en un anuncio en línea o dentro de él.
 
