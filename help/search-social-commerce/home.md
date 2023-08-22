@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: cbbbd4260fc7545fb778b14d0b82cd4911e9a5a5
+source-git-commit: 846c85525059d1cbd2e61b6a494fb62f88db0096
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 15 de agosto de 2023 | Métricas de conversión | [!UICONTROL Admin] > [!DNL Transaction Properties] ahora incluye un &quot;[!UICONTROL Source]&quot;, que indica el origen de cada métrica, como [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], o [!UICONTROL Custom Feed]. | Consulte &quot;[Ver las métricas de conversión rastreadas de un anunciante](conversion-metric-view-tracked.md).&quot; |
 | 9 de agosto de 2023 | Métricas de conversión | [!UICONTROL Admin] > [!DNL Transaction Properties] cambió el nombre [!UICONTROL Conversions]. | Consulte &quot;[Acerca de la administración de las métricas de conversión de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot; |
 |  | [!DNL Google] etiquetas de seguimiento de conversión | Se ha actualizado la pantalla para crear [!DNL Google] las etiquetas de seguimiento de conversión están disponibles en [!UICONTROL Admin] > [!UICONTROL Conversions]. La pantalla heredada en [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] se eliminarán en el futuro. | Consulte &quot;[Cree una etiqueta de conversión para [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
 |  | [!DNL Google] etiquetas de seguimiento de conversión | Al crear un [!DNL Google] etiqueta de seguimiento de conversión, ahora puede especificar una categoría de conversión para realizar el seguimiento. | Consulte &quot;[Cree una etiqueta de conversión para [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
