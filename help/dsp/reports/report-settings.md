@@ -3,9 +3,9 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
+source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,13 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 * *[!UICONTROL sFTP]:* Para enviar el informe completado a una o varias ubicaciones SFTP, especifique en la variable **[!UICONTROL Destination Name]** field.
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, especifique en la variable **[!UICONTROL Destination Name]** field.
 * *[!UICONTROL FTP SSL](Actualmente en versión beta):* Para enviar el informe completado a una o varias ubicaciones SSL de FTP, especifique en la variable **[!UICONTROL Destination Name]** field.
-* *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o las notificaciones completados si el informe se cancela debido a errores. Para especificar varias direcciones, sepárelas con comas o espacios.
+* *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o las notificaciones completados si el informe se cancela debido a errores.
 
 >[!NOTE]
 >
 > Una vez guardado el informe, no se puede cambiar el tipo de destino.
+
+**[!UICONTROL Email]:** (Solo tipo de destino de correo electrónico) Para cada dirección, introduzca la dirección y haga clic en **+**.
 
 **[!UICONTROL Destination Name]:** (Solo tipos de destino S3, FTP, sFTP y FTP SSL) Los nombres de los destinos de informes a los que se enviará el informe personalizado.
 
@@ -148,9 +150,13 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 **[!UICONTROL Frequency]:** (Para cada [!UICONTROL Destination Name]) La frecuencia con la que se envía el informe al destino: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, o *[!UICONTROL Monthly]*.
 
+**[!UICONTROL Start Day]:** (Para cada [!UICONTROL Destination Name] con un [!UICONTROL Frequency] de *[!UICONTROL Weekly]* o *[!UICONTROL Monthly]*) Qué día generar el informe. Para los informes semanales, seleccione el día de la semana. Para los informes mensuales, seleccione el día numérico del mes.
+
 ## [!UICONTROL Save Report] Sección
 
-**[!UICONTROL Send & Save]:** Cuándo enviar el informe: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. Los informes programados se entregan a las 09:00 en el huso horario de la cuenta.
+**[!UICONTROL When to Generate]:** Cuándo generar el informe: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. Los informes programados se entregan a las 09:00 en el huso horario de la cuenta.
+
+**[!UICONTROL End Date]:** La fecha de caducidad del informe, que puede ser dentro de cuatro meses. Antes de que caduque un informe, todos los destinatarios de correo electrónico especificados reciben una alerta por correo electrónico siete días y un día antes de la fecha de caducidad. Para prolongar el informe, cambie la fecha de caducidad en la configuración del informe.
 
 >[!NOTE]
 >
