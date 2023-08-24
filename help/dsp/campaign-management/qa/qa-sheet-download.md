@@ -3,7 +3,7 @@ title: Descargar configuración de ubicación para una campaña
 description: Obtenga información sobre cómo descargar la configuración de ubicación de una campaña mediante hojas de cálculo de control de calidad de Excel.
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 735bbe90e313dfe93408d72875654830d96f0889
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -31,7 +31,8 @@ Si es necesario, puede editarlo más adelante [seleccionar campos](qa-sheet-colu
    * En el mensaje de notificación, haga clic en **[!UICONTROL Download].**
 
    * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Clic **[!UICONTROL Download]** junto al trabajo.
-   El archivo se guarda en la carpeta de descarga del explorador. Consulte &quot;[Columnas en hojas de cálculo descargadas o cargadas](qa-sheet-columns.md)&quot; para obtener una lista de las columnas incluidas.
+
+   El archivo se guarda en la carpeta Descargas del explorador. Consulte &quot;[Columnas en hojas de cálculo descargadas o cargadas](qa-sheet-columns.md)&quot; para obtener una lista de las columnas incluidas.
 
 >[!MORELIKETHIS]
 >
@@ -39,4 +40,3 @@ Si es necesario, puede editarlo más adelante [seleccionar campos](qa-sheet-colu
 >* [Configuración de carga de ubicación para una campaña](qa-sheet-upload.md)
 >* [Columnas en hojas de cálculo descargadas o cargadas](qa-sheet-columns.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-

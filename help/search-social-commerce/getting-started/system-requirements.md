@@ -3,9 +3,9 @@ title: Requisitos del sistema
 description: Obtenga información acerca de los requisitos de software y cuenta.
 exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,13 @@ Necesita el siguiente software e información de cuenta.
 
 Para iniciar sesión, necesita un nombre de usuario y una contraseña. El equipo de cuenta de Adobe configura su cuenta de usuario y crea su nombre de usuario y contraseña.
 
-## Configuración de idioma del equipo y el explorador
+## Configuración del equipo y del explorador
+
+### Configuración del sitio del explorador
+
+Para ver las vistas previas de imágenes de algunos tipos de anuncios/recursos, deshabilite los bloqueadores de anuncios/bloqueadores de contenido para `efrontier.com` al permitir una excepción para el sitio. Administre los bloqueadores de anuncios en la configuración del sitio web/sitio del explorador o (en Firefox) editando la configuración de cualquier extensión de explorador de bloqueador de anuncios que haya instalado.
+
+### Configuración de idioma del equipo y el explorador
 
 La siguiente información determina qué conjuntos de caracteres utilizar y qué formatos utilizar para mostrar números, fechas, horas y monedas:
 
