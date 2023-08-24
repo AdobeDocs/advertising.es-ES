@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 + [Novedades de la versión](/help/dsp/home.md)
 + Introducción {#introduction}
-   + [Introducción a Adobe DSP Advertising](/help/dsp/introduction/dsp-about.md)
+   + [Introducción al Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
    + Características principales {#features}
       + [Optimización](/help/dsp/introduction/features/optimization.md)
       + [Seguridad de marca y calidad de medios](/help/dsp/introduction/features/brand-safety-media-quality.md)
@@ -107,8 +107,8 @@ ht-degree: 6%
       + [Administrar visualizaciones de datos](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
    + Configuración de ubicación correcta mediante hojas de cálculo {#qa-spreadsheet}
       + [Corrección de configuración de colocación mediante hojas de cálculo](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Descargar configuración de ubicación para una campaña](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Configuración de carga de ubicación para una campaña](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
+      + [Descargar configuración de ubicación en una hoja de cálculo](/help/dsp/campaign-management/qa/qa-sheet-download.md)
+      + [Cargar configuración de ubicación en una hoja de cálculo](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Columnas en hojas de cálculo descargadas o cargadas](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP macros](/help/dsp/campaign-management/macros.md)
    + [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)

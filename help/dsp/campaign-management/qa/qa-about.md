@@ -1,18 +1,18 @@
 ---
-title: Corrección de la configuración de ubicación de una campaña mediante hojas de cálculo
-description: Obtenga información sobre cómo revisar y editar la configuración de ubicación de claves para una campaña mediante hojas de cálculo de control de calidad de Excel.
+title: Corrección de configuración de colocación mediante hojas de cálculo
+description: Obtenga información sobre cómo revisar y editar la configuración de ubicación de claves mediante hojas de cálculo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
-# Corrección de la configuración de ubicación de una campaña mediante hojas de cálculo
+# Corrección de configuración de colocación mediante hojas de cálculo
 
-La función de hoja de cálculo de control de calidad permite descargar la configuración de ubicación de una campaña en formato XLSX (hoja de cálculo de Excel) para su revisión. Utilice esta función para revisar rápidamente detalles como los siguientes:
+Puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX (hoja de cálculo de Excel) para su revisión. Utilice esta función para revisar rápidamente detalles como los siguientes:
 
 * A qué audiencias se dirige la campaña.
 * Cuándo empiezan a entregarse las ubicaciones y cuándo se detendrán.
@@ -22,11 +22,10 @@ DSP A continuación, puede realizar cambios en los campos seleccionados y public
 
 >[!TIP]
 >
->Para realizar cambios más exhaustivos en la configuración de ubicación, utilice la función de edición masiva.<!-- add link once we have help on it -->
+>Para realizar cambios más exhaustivos en la configuración de ubicación, utilice la variable [función de edición masiva](/help/dsp/campaign-management/placements/placement-edit.md).
 
 >[!MORELIKETHIS]
 >
->* [Descargar configuración de ubicación para una campaña](qa-sheet-download.md)
->* [Configuración de carga de ubicación para una campaña](qa-sheet-upload.md)
+>* [Descargar configuración de ubicación en una hoja de cálculo](qa-sheet-download.md)
+>* [Cargar configuración de ubicación en una hoja de cálculo](qa-sheet-upload.md)
 >* [Columnas en hojas de cálculo descargadas o cargadas](qa-sheet-columns.md)
-

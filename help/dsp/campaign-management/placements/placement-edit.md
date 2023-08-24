@@ -3,9 +3,9 @@ title: Editar una ubicación
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -71,8 +71,8 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
       * **Pausar** (para pausar los anuncios)
 
       * **Eliminar** (para eliminar los valores especificados)
-   1. Edite el [configuración de ubicación](placement-settings.md).
 
+   1. Edite el [configuración de ubicación](placement-settings.md).
 
 1. Haga clic **[!UICONTROL Submit]**.
 
@@ -87,6 +87,5 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Corrección de la configuración de ubicación de una campaña mediante hojas de cálculo](/help/dsp/campaign-management/qa/qa-about.md)
+>* [Corrección de configuración de colocación mediante hojas de cálculo](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-
