@@ -3,9 +3,9 @@ title: Crear una ubicación
 description: Obtenga información sobre cómo crear una ubicación.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0b8162a757c9695504ffdfdc450ed7254d823825
+source-git-commit: c86493663b096854ab3ac2e07244619459ac004c
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '669'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ ht-degree: 1%
       1. (Para campañas con segmentación entre dispositivos por personas; opcional) Cuando la ubicación se dirija a una o más audiencias específicas, habilite la segmentación entre dispositivos por personas para la ubicación.
 
          La segmentación multidispositivo basada en personas la proporciona [!DNL LiveRamp] usar solo datos de EE. UU. El servicio está disponible para todos los anunciantes a $0.35 CPM para impresiones que se entregan usando el [!DNL LiveRamp] gráfico de dispositivos (es decir, para dispositivos que no se encuentran dentro de los segmentos de audiencia de destino).
+
    1. (Opcional) En el [!DNL Brand Safety and Media Targeting] , aplique restricciones de seguridad de marca para sus ubicaciones.
 
    1. (Opcional) En el [!DNL Tracking] , introduzca píxeles de evento de terceros o píxeles de conversión para los anuncios en la ubicación.
@@ -64,7 +65,6 @@ ht-degree: 1%
       >[!NOTE]
       >
       >([!DNL Roku] ubicaciones) Proveedores de píxeles de terceros aprobados por [!DNL Roku] include [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], y [!DNL Research Now].
-
 
 1. Haga clic **[!UICONTROL Create Placement]**.
 
@@ -79,16 +79,19 @@ ht-degree: 1%
          1. Haga clic **[!UICONTROL Create a New Ad].**
 
          1. Especificar la configuración de publicidad para [anuncios de audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [televisión conectada](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [anuncios de display](/help/dsp/campaign-management/ads/ad-settings-display.md), [anuncios móviles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [anuncios nativos](/help/dsp/campaign-management/ads/ad-settings-native.md), [anuncios previos a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), o [anuncios de vídeo universales](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
-         >[!NOTE]
-         >
-         >Las ubicaciones de vídeo universales solo pueden contener anuncios de vídeo universales.
+
+        >[!NOTE]
+        >
+        >Las ubicaciones de vídeo universales solo pueden contener anuncios de vídeo universales.
 
          1. Haga clic **[!UICONTROL Save & Submit for Review]**.
 
          1. (Opcional) Para cada anuncio adicional que desee crear para la ubicación, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita los pasos 1-3.
 
          1. Si no va a adjuntar anuncios existentes, haga clic en **[!UICONTROL I'm done for now]**.
+
       * Para adjuntar anuncios existentes en la campaña:
+
       1. Haga clic **[!UICONTROL Select an Ad]**.
 
       1. Realice una de las acciones siguientes:
@@ -98,6 +101,7 @@ ht-degree: 1%
             1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select].**
 
             1. (Opcional) Para cada anuncio adicional que desee adjuntar, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita el proceso.
+
          * Para agregar hasta 20 anuncios a la vez:
 
             1. Seleccione la casilla de verificación situada encima de la lista de anuncios.
@@ -107,6 +111,7 @@ ht-degree: 1%
             1. Haga clic **[!UICONTROL Attach]**.
 
             1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select]**.
+
       1. (Opcional) Para anular el período de vuelo y la rotación de publicidad predeterminados para anuncios específicos de la ubicación:
 
          1. Haga clic **[!UICONTROL Custom Schedule Ads]**.
@@ -121,16 +126,11 @@ ht-degree: 1%
 
             * (Cuando varios anuncios tienen el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, introduzca el peso relativo por el que girar cada anuncio, como porcentaje.
 
-               El peso total debe ser igual a 100.
+              El peso total debe ser igual a 100.
+
          1. En la esquina superior derecha, haga clic en **[!UICONTROL Continue]**.
 
          1. Revise los detalles del vuelo y haga clic en **[!UICONTROL Save & Finish]**.
-
-
-
-
-
-
 
 >[!MORELIKETHIS]
 >
@@ -140,8 +140,8 @@ ht-degree: 1%
 >* [Pausar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
+>* [Ver el informe Previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Preguntas frecuentes sobre Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Solución de problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
 >* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/340454)
-

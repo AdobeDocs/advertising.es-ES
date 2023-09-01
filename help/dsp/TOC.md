@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 99f580547f4f0463418dfca52481e58927339169
+source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '907'
 ht-degree: 6%
 
 ---
@@ -96,6 +96,7 @@ ht-degree: 6%
       + [Acerca de los informes en la plataforma](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportar datos desde una vista de Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Ver los sitios, anuncios y detalles de frecuencia de una ubicación](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [Ver el informe Previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Ver los informes de diagnóstico de ubicación](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + Administrar vistas de datos {#data-views}
          + [Acerca de las vistas de datos de Campaign](/help/dsp/campaign-management/reports/campaign-data-views-about.md)

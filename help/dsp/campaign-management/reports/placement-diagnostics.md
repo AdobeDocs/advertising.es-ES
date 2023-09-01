@@ -3,9 +3,9 @@ title: Ver los informes de diagnóstico de ubicación
 description: Aprenda a diagnosticar problemas con la configuración y el ritmo de la ubicación.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Las siguientes herramientas pueden ayudarle a diagnosticar problemas con la conf
       1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
       1. Haga clic en el nombre de la campaña y luego haga clic en **[!UICONTROL Placements]**.
       1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-   1. En la esquina superior derecha, haga clic en ![Diagnóstico de ubicación](/help/dsp/assets/placement-diagnostics.png) o **[!UICONTROL Diagnostic]**.
+   1. En la esquina superior derecha, haga clic en ![Diagnóstico de ubicación](/help/dsp/assets/placement-diagnostics.png).
 1. Realice una de las siguientes acciones:
    * Para ver el registro de cambios:
       1. Haga clic **[!UICONTROL Change Log]**.
@@ -35,7 +35,7 @@ Las siguientes herramientas pueden ayudarle a diagnosticar problemas con la conf
          * En el menú de la derecha, filtre el informe por una configuración de ubicación específica.
    * Para ver el estado de las aprobaciones de anuncios:
       1. En la esquina superior derecha, haga clic en **[!UICONTROL Ad Approvals]**.
-      1. (Opcional) Para pausar o activar el anuncio, haga clic en el botón de estado (![Conmutador de estado](/help/dsp/assets/status-switch.png)) en la columna Anuncio ).
+      1. (Opcional) Para pausar o activar el anuncio, haga clic en el botón de cambio de estado (![Conmutador de estado](/help/dsp/assets/status-switch.png)) en la columna Anuncio ).
       1. (Opcional) Para abrir la configuración de un anuncio, haga clic en **[!UICONTROL View Ad]** junto al anuncio.
    * DSP Para ver por qué no se ha pujado por la ubicación, haga lo siguiente:
       1. En la esquina superior derecha, haga clic en **[!UICONTROL Non Bids]**.
@@ -46,5 +46,5 @@ Las siguientes herramientas pueden ayudarle a diagnosticar problemas con la conf
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes en la plataforma](campaign-reports-about.md)
+>* [Ver el informe Previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-
