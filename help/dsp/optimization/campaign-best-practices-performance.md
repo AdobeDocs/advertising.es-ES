@@ -3,18 +3,16 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: eda0459472c1e4a8297daf69454de0fcb3d4f8ca
+source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
 
 # Prácticas recomendadas para configurar campañas de rendimiento
 
-DSP Puede optimizar sus campañas centradas en el rendimiento para ubicaciones con el menor coste por adquisición (CPA) o el mayor retorno de la inversión en publicidad (ROAS).
-
-Consulte las siguientes prácticas recomendadas para campañas de rendimiento:
+DSP Puede optimizar sus campañas centradas en el rendimiento. Consulte las siguientes prácticas recomendadas para campañas de rendimiento:
 
 * Paso 1: Definición de la meta
 * Paso 2: Definición de la estrategia
@@ -24,7 +22,7 @@ Consulte las siguientes prácticas recomendadas para campañas de rendimiento:
 
 ## Paso 1: Definición de la meta
 
-Es importante comprender el objetivo de la campaña, como lograr el ROAS más alto posible o el CPA más bajo posible. Las campañas de rendimiento tienen [objetivos de optimización](/help/dsp/optimization/optimization-goals.md) que terminan con &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Para cada paquete de la campaña, debe especificar el objetivo objetivo en consecuencia.
+Es importante comprender el objetivo de la campaña, como lograr el ROAS más alto posible o el CPA más bajo posible. Las campañas de rendimiento tienen [objetivos de optimización](/help/dsp/optimization/optimization-goals.md) que terminan con &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Para cada paquete de la campaña, debe especificar el objetivo de optimización correspondiente.
 
 ![objetivo de optimización](/help/dsp/assets/optimization-goals.png)
 
