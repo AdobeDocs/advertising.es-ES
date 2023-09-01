@@ -3,9 +3,9 @@ title: Crear [!DNL Google Ads] audiencias de coincidencia de cliente de [!DNL Ad
 description: Aprenda a crear [!DNL Google Ads] audiencias de coincidencia de clientes de las audiencias de Adobe Analytics y Audience Manager existentes.
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Cada nuevo [!DNL Google] La audiencia tiene el mismo nombre que el original [!DN
 
 1. Complete los requisitos previos según sea necesario:
 
-   1. (Para crear audiencias de lista de remarketing de ID de usuario) Una [!DNL Adobe] el usuario administrador o el administrador de cuentas deben seleccionar la configuración de nivel de anunciante para habilitar las audiencias de coincidencia de clientes. La configuración difiere entre anunciantes con Audience Manager y anunciantes con [!DNL Analytics] solo.
+   1. (Para crear audiencias de lista de remarketing de ID de usuario) Una [!DNL Adobe] el usuario administrador o el administrador de cuentas deben seleccionar la configuración de nivel de anunciante para habilitar las audiencias de coincidencia de clientes.
 
    1. Implementación de [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) versión 2.0 o superior.
 
@@ -40,7 +40,9 @@ Cada nuevo [!DNL Google] La audiencia tiene el mismo nombre que el original [!DN
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      donde `Advertising_Cloud_UserID` es el ID de usuario único asignado al anunciante. Ejemplo:  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      donde `Advertising_Cloud_UserID` es el ID de usuario numérico único asignado al anunciante.
+
+      Ejemplo: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. (Si no se ha completado aún) Un usuario autorizado debe configurar la cuenta del anunciante en [sincronizar con la cuenta de organización del anunciante en Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
