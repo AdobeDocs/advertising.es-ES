@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: c5acb7d4064dadbec5dbdc20184c21287f9facc7
+source-git-commit: ba500532712d002547e5e067d1a0af4e3202daad
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 14 de septiembre de 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] campañas Máximo rendimiento de ) En los grupos de recursos de una campaña, ahora puede seleccionar entre los recursos de texto existentes en su [!UICONTROL Asset Library]. También puede cargar nuevos recursos de texto. | — |
 | 5 de septiembre de 2023 | Campañas | ([!DNL Google Ads] campañas) Para todos los tipos de campaña disponibles, ahora puede elegir los objetivos de conversión existentes o crear nuevos objetivos, dentro de la configuración de la campaña.</li> | Consulte &quot;[[!DNL Google Ads] configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | Campañas | ([!DNL Google Ads] rendimiento máximo (campañas de ) Las nuevas funciones le permiten lo siguiente:<ul><li>Elija los objetivos de conversión existentes o cree nuevos objetivos para una campaña, como se ha mencionado anteriormente.</li><li>Seleccione entre los recursos existentes en su [!UICONTROL Asset Library] para imágenes, logotipos y vídeos dentro de la configuración de campañas de rendimiento máximo. También puede cargar nuevos recursos.</li><li>(Opcional) Proporcione señales de audiencia para los grupos de recursos máximos de rendimiento seleccionando [!DNL Google Ads] audiencias. [!DNL Google Ads] los modelos de aprendizaje automático utilizan las audiencias para buscar internautas similares a target y también pueden mostrar anuncios a audiencias que no están especificadas como señales para ayudarle a alcanzar sus objetivos de rendimiento. **Nota:** Las señales de audiencia son diferentes de [objetivos de audiencia a nivel de campaña y de grupo de publicidad](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | Consulte &quot;[[!DNL Google Ads] configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 15 de agosto de 2023 | Métricas de conversión | [!UICONTROL Admin] > [!DNL Transaction Properties] ahora incluye un &quot;[!UICONTROL Source]&quot;, que indica el origen de cada métrica, como [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], o [!UICONTROL Custom Feed]. | Consulte &quot;[Ver las métricas de conversión rastreadas de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).&quot; |
