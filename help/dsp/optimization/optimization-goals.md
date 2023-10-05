@@ -3,7 +3,7 @@ title: Objetivos de optimización y cómo utilizarlos
 description: Consulte los objetivos de optimización disponibles y vea cuándo utilizarlos.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 900a8e876e99b3d826c8934a266a3c4e1b226a1c
+source-git-commit: 42f10200bb28f4509a04ac69d415e7254537b769
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -34,6 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Moat - MRC)] | Con la optimización a nivel de paquete, la asignación de presupuesto prioriza las ubicaciones con los vCPM más bajos.<br><br>Las valoraciones de subasta dan prioridad a vCPM. DSP Si se están alcanzando los objetivos de gasto, entonces la intenta equilibrar la reducción de las CPM con un aumento de la visibilidad. | Tipo de campaña: marca<br><br>Referencia: CPM eficiente y vCPM más alto<br><br>Tipos de anuncios: anuncio previo a la emisión, visualización<br><br><b>Nota:</b> Utilice este objetivo para lograr el mejor vCPM posible.<br><br>Para garantizar un CPM máximo, utilícelo como la puja máxima para la ubicación.<br><br>Esta configuración funciona mejor cuando datos de terceros de [!DNL Moat] está informando al algoritmo. Utilice este objetivo solo cuando haya habilitado el [!DNL Moat] integración para la campaña. |
 | [!UICONTROL Always Max Bid and Maximize Reach] | Este objetivo intenta lograr el máximo alcance en el hogar con un número determinado de impresiones, siempre utilizando la Oferta máxima de nivel de colocación. DSP Si se cumplen los objetivos de gasto, el presupuesto se vuelve más selectivo y las ofertas para una subasta solo se realizan cuando existe la posibilidad de lograr un alcance único incremental. | Tipo de campaña: marca<br><br>Referencia: Maximizar el alcance<br><br>Tipos de anuncios: anuncio previo a la emisión, pantalla, CTV, nativo, audio y vídeo universal |
 | [!UICONTROL Lowest Cost per Reach] | Este objetivo intenta alcanzar el máximo alcance en el hogar con un presupuesto determinado. DSP Si se cumplen los objetivos de gasto, la cantidad de ofertas varía en función de la oportunidad de alcanzar un alcance único incremental. | Tipo de campaña: marca<br><br>Referencia: Coste por alcance eficiente<br><br>Tipos de anuncios: anuncio previo a la emisión, pantalla, CTV, nativo, audio y vídeo universal |
+
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
