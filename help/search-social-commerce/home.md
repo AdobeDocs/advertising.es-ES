@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: 4c851ce01c69460b3d1f1c7357af377718eb8488
+source-git-commit: b431d7e0a1c2a5c254adb399a9008ebadad11913
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
 | 7 de octubre de 2023 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | Dos nuevos informes de especialidad para [!DNL Microsoft Advertising] Las cuentas de muestran el rendimiento de nivel de campaña por distribución de publicidad (búsqueda o audiencia) y/o red (como [!DNL Microsoft] sitios y seleccione tráfico o audiencia):<ul><li>[!UICONTROL MSA Network Performance Report]: incluye métricas de tráfico básicas (coste, clics, impresiones), conversiones e ingresos.</li><li>[!UICONTROL MSA Network Impression Share Report]: incluye métricas de cuota de impresiones y métricas de tráfico básicas (coste, clics, impresiones).</li></ul> | — |
-| 14 de septiembre de 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] campañas Máximo rendimiento de ) En los grupos de recursos de una campaña, ahora puede seleccionar entre los recursos de texto existentes en su [!UICONTROL Asset Library]. También puede cargar nuevos recursos de texto. | — |
+| 14 de septiembre de 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] campañas Máximo rendimiento de ) En los grupos de recursos de una campaña, ahora puede seleccionar entre los recursos de texto existentes en su [!UICONTROL Asset Library]. También puede cargar nuevos recursos de texto. | Consulte &quot;[[!DNL Google Ads] configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 5 de septiembre de 2023 | Campañas | ([!DNL Google Ads] campañas) Para todos los tipos de campaña disponibles, ahora puede elegir los objetivos de conversión existentes o crear nuevos objetivos, dentro de la configuración de la campaña.</li> | Consulte &quot;[[!DNL Google Ads] configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | Campañas | ([!DNL Google Ads] rendimiento máximo (campañas de ) Las nuevas funciones le permiten lo siguiente:<ul><li>Elija los objetivos de conversión existentes o cree nuevos objetivos para una campaña, como se ha mencionado anteriormente.</li><li>Seleccione entre los recursos existentes en su [!UICONTROL Asset Library] para imágenes, logotipos y vídeos dentro de la configuración de campañas de rendimiento máximo. También puede cargar nuevos recursos.</li><li>(Opcional) Proporcione señales de audiencia para los grupos de recursos máximos de rendimiento seleccionando [!DNL Google Ads] audiencias. [!DNL Google Ads] los modelos de aprendizaje automático utilizan las audiencias para buscar internautas similares a target y también pueden mostrar anuncios a audiencias que no están especificadas como señales para ayudarle a alcanzar sus objetivos de rendimiento. **Nota:** Las señales de audiencia son diferentes de [objetivos de audiencia a nivel de campaña y de grupo de publicidad](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | Consulte &quot;[[!DNL Google Ads] configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 15 de agosto de 2023 | Métricas de conversión | [!UICONTROL Admin] > [!DNL Transaction Properties] ahora incluye un &quot;[!UICONTROL Source]&quot;, que indica el origen de cada métrica, como [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], o [!UICONTROL Custom Feed]. | Consulte &quot;[Ver las métricas de conversión rastreadas de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).&quot; |
