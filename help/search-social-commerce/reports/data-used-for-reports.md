@@ -1,9 +1,9 @@
 ---
 title: Los datos utilizados para los informes
 description: Obtenga información sobre los distintos tipos de datos disponibles en las vistas de datos y los informes personalizados.
-exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
+exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Según la regla de atribución que especifique para el informe, los datos de cad
 | [!UICONTROL Assist Reports] | Todo | Los 18 meses anteriores. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | El año anterior. |
 | | [!UICONTROL RSA Assets Report] | A partir del 10 de agosto de 2022. |
-| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report] | Los últimos 180 días. |
+| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | Los últimos 180 días. |
 | | Todos los demás [!UICONTROL Specialty Reports] | Los dos (2) meses anteriores. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | Los 18 meses anteriores. |
 | [!UICONTROL Change History Report] | — | Los 31 días anteriores. |
