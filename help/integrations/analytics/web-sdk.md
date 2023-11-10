@@ -3,7 +3,7 @@ title: Uso del [!DNL Last Event Service] Biblioteca JavaScript con [!DNL Web SDK
 description: Conozca los pasos para dejar de utilizar el [!DNL Analytics] [!DNL visitorAPI] a la biblioteca de [!DNL Experience Platform] [!DNL Web SDK] biblioteca para su [!DNL Analytics for Advertising] implementación.
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 687f146b27765d59f172284e4cff7ab5c0e57b50
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Uso del [!DNL Last Event Service] Biblioteca JavaScript con Adobe Experience Platform [!DNL Web SDK]
 
-*Anunciantes con una integración de Adobe de Advertising-Adobe Analytics solamente*
+*Anunciantes con solo integración de Adobe Advertising-Adobe Analytics*
 
 Si su organización utiliza el Adobe Analytics heredado `visitorAPI.js` para la recopilación de datos, puede cambiar a con la variable [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) biblioteca (`alloy.js`), que le permite interactuar con los distintos servicios de Experience Cloud a través de [!DNL Edge Network].
 
@@ -27,7 +27,7 @@ En el [!DNL Analytics for Advertising] [!DNL Last Event Service] que utilice en 
 ```
 <script>
      if("undefined" != typeof AdCloudEvent) 
-          AdCloudEvent('IMS ORG Id');
+          AdCloudEvent('IMS ORG Id','rsid');
 </script>
 ```
 
@@ -36,7 +36,7 @@ En el [!DNL Analytics for Advertising] [!DNL Last Event Service] que utilice en 
 ```
 <script>
      if("undefined" != typeof AdCloudEvent) 
-          stitchId = AdCloudEvent('IMS ORG Id').generateRandomId();
+          stitchId = AdCloudEvent('IMS ORG Id''rsid').generateRandomId();
 </script>
 ```
 
@@ -75,4 +75,3 @@ Inserte la siguiente propiedad en su [!DNL Web SDK] `sendEvent` para enviar el [
 >
 >* [Información general de [!DNL Analytics for Advertising]](overview.md)
 >* [Código JavaScript para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
-
