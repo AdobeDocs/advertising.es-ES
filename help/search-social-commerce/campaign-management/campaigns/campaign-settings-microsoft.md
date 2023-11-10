@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] campañas.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: c83663a65d5ec6d672c648c3fd59ae75ee3823d8
+source-git-commit: 1a4f802c51f29b2d7811ff21a9c7f0f20feb30ba
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Muestra anuncios nativos/de visualización en [!DNL Microsoft® Audience Network]. Puede: a) generar automáticamente anuncios basados en fuentes vinculando la campaña a una tienda de centro comercial en [!UICONTROL Shopping Settings] o b) cree anuncios adaptables con recursos de texto e imágenes cargadas. Ambas opciones requieren que cree grupos de anuncios con segmentación de usuarios.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Funcionalidad beta) Promociona sus productos a través de minoristas vinculados en las redes de búsqueda y audiencia. Puede crear grupos de anuncios secundarios y grupos de productos (aplicaciones para promocionar) para la campaña, y [!DNL Microsoft® Advertising] crea automáticamente anuncios para los grupos de productos.
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Funcionalidad beta) Promociona sus productos a través de minoristas vinculados en las redes de búsqueda y audiencia. Puede crear grupos de anuncios secundarios y grupos de productos (aplicaciones para promocionar), así como anuncios de productos opcionales para la campaña. [!DNL Microsoft® Advertising] crea automáticamente anuncios para los grupos de productos.
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Funcionalidad beta) Promociona sus aplicaciones y juegos disponibles en el [!DNL Microsoft® Store]. Puede crear grupos de anuncios secundarios y grupos de productos para la campaña, y [!DNL Microsoft® Advertising] crea automáticamente anuncios para los grupos de productos.
+* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Funcionalidad beta) Promociona sus aplicaciones y juegos disponibles en el [!DNL Microsoft® Store]. Puede crear grupos de anuncios secundarios, grupos de productos y anuncios de productos opcionales para la campaña; [!DNL Microsoft® Advertising] crea automáticamente anuncios para los grupos de productos.
 
 * *[!UICONTROL Audience Video]:* (Función beta) Muestra anuncios de vídeo en la red de audiencias.
 
 * *[!UICONTROL Audience Video]:* (Funcionalidad beta) Muestra anuncios de vídeo de TV conectada (CTV) en la red de audiencia.
 
-* *[!UICONTROL Performance Max]:* (Función beta) Muestra varios tipos de anuncios en todas las redes.
+* *[!UICONTROL Performance Max]:* (Función beta) Muestra varios tipos de anuncios en todas las redes. Asigne grupos de recursos por separado en la [!DNL Microsoft® Advertising] editor de anuncios.
 
 ## [!UICONTROL Campaign Details]
 
