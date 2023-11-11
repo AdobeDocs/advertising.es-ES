@@ -3,9 +3,9 @@ title: Socios de SSP
 description: Consulte la lista de la plataforma de suministro (SSP) disponible y los socios de intercambio abierto.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 1c3698292d520ef380e44efc0da763a34737ea74
+source-git-commit: 351350960ed4bc8ef500181b98a6d120035835fa
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL AppNexus] | [!DNL Xandr] | ID del asiento de vídeo: 9094<br>Mostrar ID de puesto: 3939 | No | Global | USD | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] | n/a | [!DNL TubeMogul] o ADOBE ADVERTISING | No | EE. UU. + EMEA | USD, EUR | x | x | x | x | x |  |  |
 | [!DNL DistrictM] |  | Adobe | No | US/CA | USD |  |  |  | x | x |  |  |
-| [!DNL EMX Digital] |  | Adobe Advertising | No | US/CA | USD | x | x | x | x | x |  |  |
+| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | No | US/CA | USD | x | x | x | x | x |  |  |
 | [!DNL Equativ] (anteriormente [!DNL SmartAdServer]) |  | [!DNL TubeMogul] o ADOBE ADVERTISING | No | Global | USD, EUR | x | x |  | x | x |  |  |
 | [!DNL FreeWheel] (anteriormente [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Fyber]/[!DNL Inneractive] |  | [!DNL TubeMogul] | No | Global | USD | x | x |  |  |  |  |  |
@@ -37,7 +37,7 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL Magnite CTV] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | USD | x | x | x | x | x |  | x |
 | [!DNL MoPub] | [!DNL Twitter] | [!DNL TubeMogul] | No | Global | USD |  | x |  |  |  |  |  |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | USD | x |  |  | x | x |  |  |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | USD | x | x | x | x | x |  |  |
 | [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] o ADOBE ADVERTISING | No | Global | USD | x | x | x | x | x |  |  |
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] o ADOBE ADVERTISING | No | Global | USD | x | x | x | x | x | x |  |
 | [!DNL SmartClip] |  | Adobe Advertising | No | EMEA | Todas las monedas | x | x | x | x | x |  |  |
