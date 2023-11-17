@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ Cuando agrega una campaña con eCPC a un portafolio optimizado de Search, Social
    * (Ubicaciones cerca de una dirección; solo destinos incluidos) Haga clic en **[!UICONTROL Radius Target]** (![Destino de radio](/help/search-social-commerce/assets/radius-target.png "Destino de radio")) y haga clic en **[!UICONTROL Address]**. Introduzca la dirección y el radio en millas o kilómetros alrededor de la dirección de destino y, a continuación, haga clic en **[!UICONTROL Add]**.
 
    * (Ubicaciones cerca de coordenadas geográficas; solo destinos incluidos) Haga clic **[!UICONTROL Radius Target]** (![Destino de radio](/help/search-social-commerce/assets/radius-target.png "Destino de radio")) y haga clic en **[!UICONTROL Coordinate]**. Introduzca la latitud y longitud y el radio en millas o kilómetros alrededor de la ubicación de destino y, a continuación, haga clic en **[!UICONTROL Add]**.
-
-   * (Ubicaciones cercanas a su [!DNL My Business] ubicaciones que están disponibles como extensiones de ubicación; solo destinos incluidos) Haga clic en **[!UICONTROL Location Group Target]** (![Grupo de ubicación](/help/search-social-commerce/assets/location-group.png "Grupo de ubicación")); si lo desea, puede introducir un país, estado, región metropolitana o ciudad para reducir la lista de ubicaciones disponibles y, a continuación, seleccionar una o varias ubicaciones de la lista de [!DNL Google My Business] ubicaciones. Especifique el radio en millas o kilómetros alrededor de las ubicaciones de destino y, a continuación, haga clic en **[!UICONTROL Add]**.
 
 * (Para añadir un ajuste de oferta para una ubicación de destino incluida) Introduzca un valor de ajuste de oferta:
 
