@@ -3,16 +3,16 @@ title: Inventario admitido
 description: Haga referencia a las redes de publicidad, los tipos de campaña y los tipos de publicidad admitidos.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
+source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2712'
 ht-degree: 0%
 
 ---
 
 # Inventario admitido
 
-A continuación se indican las redes de anuncios compatibles, los tipos de campaña y los tipos de publicidad, así como la funcionalidad disponible para cada uno.
+A continuación se indican las redes de anuncios compatibles, los tipos de campaña y los tipos de publicidad, así como la funcionalidad disponible para cada tipo de anuncio.
 
 >[!TIP]
 >
