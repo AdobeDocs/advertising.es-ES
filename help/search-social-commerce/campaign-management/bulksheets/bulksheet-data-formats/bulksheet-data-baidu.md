@@ -1,11 +1,11 @@
 ---
 title: Datos de hoja de edición masiva requeridos para [!DNL Baidu] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Baidu] cuentas.
-exl-id: 9066f3d5-5de1-4efe-bd61-6c877e106920
+exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1930'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 ## Campos de datos disponibles
 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+
+>[!TIP]
+>
+>La siguiente tabla es amplia. Si es necesario, utilice la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido. Si lo desea, también puede ocultar temporalmente la tabla de contenido haciendo clic en ![Ocultar tabla de contenido](/help/search-social-commerce/assets/hide-toc.png "Ocultar tabla de contenido") en la parte superior del panel izquierdo.
 
 | Campo | Campaign | Grupo de publicidad | Palabra clave | Anuncio de texto | Destino de ubicación | Descripción |
 |----|----|----|----|----|----|----|

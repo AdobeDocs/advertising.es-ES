@@ -1,11 +1,11 @@
 ---
 title: Datos de hoja de edición masiva requeridos para [!DNL Yandex] cuentas
 description: Hacer referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para [!DNL Yandex] cuentas.
-exl-id: c43ea56b-5435-4bbf-8764-beda1bb9b410
+exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 85a828367ebce0c9bdb851bd7b639cd2f870012a
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1905'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,10 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 ## Campos de datos disponibles
 
 {{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+
+>[!TIP]
+>
+>La siguiente tabla es amplia. Si es necesario, utilice la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido. Si lo desea, también puede ocultar temporalmente la tabla de contenido haciendo clic en ![Ocultar tabla de contenido](/help/search-social-commerce/assets/hide-toc.png "Ocultar tabla de contenido") en la parte superior del panel izquierdo.
 
 | Campo | Campaign | Grupo de publicidad | Palabra clave | Anuncio de texto | Sitelink | Descripción |
 |----|----|-----|-----|----|----|----|
