@@ -3,9 +3,9 @@ title: Datos de hoja de edición masiva para [!DNL Yahoo! Japan] cuentas
 description: Hacer referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para [!DNL Yahoo! Japan] cuentas.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 5583128ec1c93b3a6244afb040e94c3b539c9db4
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2631'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->La siguiente tabla es amplia. Si es necesario, utilice la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido. Si lo desea, también puede ocultar temporalmente la tabla de contenido haciendo clic en ![Ocultar tabla de contenido](/help/search-social-commerce/assets/hide-toc.png "Ocultar tabla de contenido") en la parte superior del panel izquierdo.
+>La siguiente tabla es amplia. Si es necesario, utilice la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido. Si lo desea, también puede ocultar temporalmente la tabla de contenido o el panel derecho haciendo clic en ![Ocultar panel](/help/search-social-commerce/assets/hide-pane.png "Ocultar panel") en la parte superior del panel izquierdo o derecho.
 
 | Campo | Campaign | Grupo de publicidad | Palabra clave | Anuncio de texto | Destino de ubicación de Campaign | Descripción |
 |----|----|----|----|----|----|----|
