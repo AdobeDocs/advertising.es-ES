@@ -3,9 +3,9 @@ title: Inventario admitido
 description: Haga referencia a las redes de publicidad, los tipos de campaña y los tipos de publicidad admitidos.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2728'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ A continuación se indican las redes de anuncios compatibles, los tipos de campa
 
 >[!TIP]
 >
->La siguiente tabla es amplia. Si es necesario, utilice la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido. Si lo desea, también puede ocultar temporalmente la tabla de contenido o el panel derecho haciendo clic en ![Ocultar panel](/help/search-social-commerce/assets/hide-pane.png "Ocultar panel") en la parte superior del panel izquierdo o derecho.
+>La siguiente tabla es amplia. Si es necesario, utilice la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido. Si lo desea, también puede ocultar temporalmente la tabla de contenido o el panel derecho haciendo clic en ![Ocultar panel izquierdo](/help/search-social-commerce/assets/hide-left-pane.png "Ocultar panel izquierdo") en la parte superior del panel izquierdo o ![Ocultar panel derecho](/help/search-social-commerce/assets/hide-right-pane.png "Ocultar panel derecho") en la parte superior del panel derecho.
 
 | Origen | Red | Tipo de campaña | Tipo de anuncio | Sincronizar y ver | Crear/editar | Seguimiento[^1] | Optimización | Informe[^2] | Asistencia de Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|
