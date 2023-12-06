@@ -4,10 +4,10 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 6%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -215,6 +215,15 @@ ht-degree: 6%
       + [Editar una [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Configuración](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ Planificador {#planner}
+   + [DSP Acerca de la herramienta Planificador de](/help/dsp/planner/planner-about.md)
+   + [Crear un plan de alcance de TV conectado](/help/dsp/planner/planner-create.md)
+   + [Duplicar un plan de alcance de TV conectado](/help/dsp/planner/planner-duplicate.md)
+   + [Editar un plan de alcance de TV conectado](/help/dsp/planner/planner-edit.md)
+   + [Configuración de los planes de alcance de TV conectado](/help/dsp/planner/planner-settings.md)
+   + [Exportar una previsión para un plan de alcance de TV conectado](/help/dsp/planner/planner-export.md)
+   + [Regeneración de la Previsión para un Plan de Alcance de TV Conectado](/help/dsp/planner/planner-forecast.md)
+   + [Archivar un plan de alcance de TV conectado](/help/dsp/planner/planner-archive.md)
 + Administration {#admin}
    + [Editar su perfil](/help/dsp/admin/user-own-profile-edit.md)
    + Usuarios {#users}
