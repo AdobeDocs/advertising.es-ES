@@ -3,9 +3,9 @@ title: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 description: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
+source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
 workflow-type: tm+mt
-source-wordcount: '3265'
+source-wordcount: '3217'
 ht-degree: 0%
 
 ---
@@ -246,7 +246,7 @@ Sin embargo, si ve el [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe 
 
 ### Uso de [!UICONTROL AMO ID Instances] como sustituto de los clics con Dimension que no son de Adobe Advertising
 
-Ya que no puede usar [!UICONTROL Adobe Advertising Clicks] con las dimensiones en el sitio, es posible que desee encontrar un equivalente a clics. Puede que tenga la tentación de utilizar las visitas como sustituto, pero no son la mejor opción, ya que cada visitante puede tener varias visitas. (Consulte &quot;[Diferencia entre clics y visitas](#clicks-vs-visits).&quot; En su lugar, recomendamos utilizar [!UICONTROL AMO ID Instances], que es el número de veces que se captura el ID de AMO. While [!UICONTROL AMO ID Instances] no coincide con [!UICONTROL Adobe Advertising Clicks] exactamente, son la mejor opción para medir el tráfico de clics en el sitio. Para obtener más información, consulte &quot;[Validación de datos para [!DNL Analytics for Advertising]](#data-validation).&quot;
+Ya que no puede usar [!UICONTROL AMO Clicks] con las dimensiones en el sitio, es posible que desee encontrar un equivalente a clics. Puede que tenga la tentación de utilizar las visitas como sustituto, pero no son la mejor opción, ya que cada visitante puede tener varias visitas. (Consulte &quot;[Diferencia entre clics y visitas](#clicks-vs-visits).&quot; En su lugar, recomendamos utilizar [!UICONTROL AMO ID Instances], que es el número de veces que se captura el ID de AMO. While [!UICONTROL AMO ID Instances] no coincide con [!UICONTROL AMO Clicks] exactamente, son la mejor opción para medir el tráfico de clics en el sitio. Para obtener más información, consulte &quot;[Validación de datos de clics para [!DNL Analytics for Advertising]](#data-validation).&quot;
 
 ![Ejemplo de [!UICONTROL AMO ID Instances] en lugar de [!UICONTROL Adobe Advertising Clicks] para una dimensión no admitida](/help/integrations/assets/a4adc-amo-id-instances.png)
 
