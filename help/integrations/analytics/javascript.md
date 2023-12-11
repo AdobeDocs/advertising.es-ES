@@ -3,22 +3,20 @@ title: Código JavaScript para [!DNL Analytics for Advertising]
 description: Código JavaScript para [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 8689bc2b5532b0e75ebf3cee14a42fa733d5ded5
+source-git-commit: 9158ed3fc8b35b5f79f217b619c2ff8e596895ab
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
 
 # Código JavaScript para [!DNL Analytics for Advertising]
 
-*Anunciantes con solo integración de Adobe Advertising-Adobe Analytics*
-
 *DSP Solo anunciantes con Advertising*
 
-DSP Para Advertising, la variable [!DNL Analytics for Advertising] La integración de rastrea las interacciones del sitio de visualizaciones y clics. Las visitas de clics se rastrean mediante el código estándar de Adobe Analytics en sus páginas web; la variable [!DNL Analytics] El código de captura los parámetros AMO ID y EF ID en la dirección URL de la página de aterrizaje y los rastrea en sus eVars reservadas respectivas. Puede realizar un seguimiento de las visitas de visualización mediante la implementación de un fragmento de JavaScript en sus páginas web.
+DSP Para Advertising, la variable [!DNL Analytics for Advertising] La integración de rastrea las interacciones del sitio de visualizaciones y clics. Las visitas de clics se rastrean mediante el código estándar de Adobe Analytics en sus páginas web; la variable [!DNL Analytics] captura los parámetros de ID de AMO y de EF ID en la dirección URL de la página de aterrizaje y los rastrea en sus respectivos parámetros reservados [!DNL eVars]. Puede realizar un seguimiento de las visitas de visualización mediante la implementación de un fragmento de JavaScript en sus páginas web.
 
-En la primera vista de página de una visita al sitio, el código JavaScript de Adobe Advertising comprueba si el visitante ha visto o hecho clic anteriormente en un anuncio. Si el usuario ha entrado anteriormente en el sitio mediante un clic o no ha visto un anuncio, se ignora al visitante. Si el visitante ha visto un anuncio y no ha entrado en el sitio mediante una pulsación durante el [haga clic en ventana retrospectiva](/help/integrations/analytics/prerequisites.md#lookback-a4adc) configurado en Adobe Advertising, el código JavaScript de Adobe Advertising a) utiliza el [Servicio de ID de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) para generar un ID suplementario (`SDID`) o b) utiliza el Adobe Experience Platform [!DNL Web SDK] `generateRandomID` método para generar un `[!DNL StitchID]`. Cualquiera de los ID se utiliza para unir los datos del Adobe Advertising con la visita de Adobe Analytics del visitante. A continuación, Adobe Analytics consulta al Adobe Advertising el ID de AMO y el ID de EF asociados con la exposición del anuncio. A continuación, los ID de AMO y EF se rellenan en sus respectivas eVars. Estos valores persisten durante un periodo designado (de forma predeterminada, 60 días).
+En la primera vista de página de una visita al sitio, el código JavaScript de Adobe Advertising comprueba si el visitante ha visto o hecho clic anteriormente en un anuncio. Si el usuario ha entrado anteriormente en el sitio mediante un clic o no ha visto un anuncio, se ignora al visitante. Si el visitante ha visto un anuncio y no ha entrado en el sitio mediante una pulsación durante el [haga clic en ventana retrospectiva](/help/integrations/analytics/prerequisites.md#lookback-a4adc) configurado en Adobe Advertising, el código JavaScript de Adobe Advertising a) utiliza el [Servicio de ID de Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html) para generar un ID suplementario (`SDID`) o b) utiliza el Adobe Experience Platform [!DNL Web SDK] `generateRandomID` método para generar un `[!DNL StitchID]`. Cualquiera de los ID se utiliza para unir los datos del Adobe Advertising con la visita de Adobe Analytics del visitante. A continuación, Adobe Analytics consulta al Adobe Advertising el ID de AMO y el ID de EF asociados con la exposición del anuncio. A continuación, los ID de AMO y EF se rellenan en sus respectivos [!DNL eVars]. Estos valores persisten durante un periodo designado (de forma predeterminada, 60 días).
 
 [!DNL Analytics] envía métricas de tráfico del sitio (como vistas de página, visitas y tiempo empleado) y cualquier [!DNL Analytics] eventos personalizados o estándar para almacenar en Adobe Advertising cada hora, utilizando el ID de EF como clave. Estos [!DNL Analytics] a continuación, las métricas se ejecutan mediante el sistema de atribución de Adobes Advertising para conectar las conversiones al historial de clics y exposiciones.
 
@@ -107,8 +105,8 @@ Puede realizar la validación utilizando cualquier tipo de herramienta de analiz
 1. Abra el [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) en su página de inicio.
 1. Vaya a la [!UICONTROL Network] pestaña.
 1. En el [!UICONTROL Solutions Filter] , haga clic en [!UICONTROL Adobe Advertising] y [!UICONTROL Analytics].
-1. En el [!UICONTROL Request URL – Hostname] fila de parámetros, localizar `lasteventf-tm.everesttech.net`.
-1. En el [!UICONTROL Request – Parameters] , audite las señales generadas, de forma similar al Paso 3 en &quot;[Cómo confirmar el código con [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
+1. En el [!UICONTROL Request URL - Hostname] fila de parámetros, localizar `lasteventf-tm.everesttech.net`.
+1. En el [!UICONTROL Request - Parameters] , audite las señales generadas, de forma similar al Paso 3 en &quot;[Cómo confirmar el código con [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Implementaciones que utilizan el servicio de identidad de Experience Cloud `visitorAPI.js` Código) Asegúrese de que la variable `Sdid` El parámetro coincide con `Supplemental Data ID` en el filtro Adobe Analytics.
    * (Implementaciones que utilizan el Experience Platform [!DNL Web SDK] `alloy.js`Código) Asegúrese de que el valor de `advertisingStitchID` El parámetro coincide con `Sdid` enviado a la red perimetral del Experience Platform.
    * Si el código no se está generando, asegúrese de que la cookie de Adobe Advertising se haya eliminado en la [!UICONTROL Application] pestaña. Una vez eliminada, actualice la página y repita el proceso.
