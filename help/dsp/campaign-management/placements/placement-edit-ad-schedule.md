@@ -1,16 +1,48 @@
 ---
-title: Editar la programación de anuncios de una ubicación
-description: Aprenda a cambiar los programas de anuncios de los anuncios adjuntos a una ubicación.
+title: Editar horarios de anuncios para ubicaciones
+description: Aprenda a cambiar los programas de anuncios de los anuncios adjuntos a las ubicaciones.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0b89d346aa7d1443e50605e1300a6a3645fe9b21
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
 
-# Editar la programación de anuncios de una ubicación
+# Editar horarios de anuncios para ubicaciones
+
+<!--
+
+## Edit the Ad Schedules for One or More Placements
+
+You can change the scheduled flight dates and ad rotation for the ads attached to multiple placements using a [!DNL Microsoft Excel] spreadsheet. Each ad can be active during multiple flights.
+
+1. In the main menu, click **[!UICONTROL Campaigns]**.
+
+1. Click the name of the campaign.
+
+1. In the submenu, click **[!UICONTROL Placements]**.
+
+1. Select the check box next to each placement whose ad data you want to download.
+
+1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
+
+1. When the file is available, click **[!UICONTROL Download]** in the notification at the top of the browser page to download a worksheet file (in XLSX format) according to your browser's normal procedure..
+
+   ![Download Ready notification](/help/dsp/assets/download-ready.png "Download Ready notification")
+
+1. Open the downloaded file and edit the flight dates as needed.
+
+1. Upload the edited ad schedule template:
+
+   1. Select the check box next to each applicable placement.
+
+   1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**, and specify the file to upload.
+
+-->
+
+## Editar la programación de anuncios de una sola ubicación
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- just simple ad serving placements (PG ones seem okay)? And anything else? -->
 
@@ -34,11 +66,11 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad pa
 
       * (Cuando varios anuncios tienen el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, introduzca el peso relativo por el que girar cada anuncio, como porcentaje.
 
-         El peso total debe ser igual a 100.
+        El peso total debe ser igual a 100.
+
    1. En la esquina superior derecha, haga clic en **[!UICONTROL Continue]**.
 
    1. Revise los detalles del vuelo y haga clic en **[!UICONTROL Save & Finish]**.
-
 
 >[!MORELIKETHIS]
 >
@@ -46,4 +78,3 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad pa
 >* [Editar una ubicación](placement-edit.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
-
