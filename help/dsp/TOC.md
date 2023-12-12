@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 3%
       + [Editar rápidamente la configuración de colocación de claves](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [Duplicar una ubicación](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Adjuntar un anuncio a una ubicación](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
-      + [Editar la programación de anuncios de una ubicación](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+      + [Editar los horarios de anuncios de las ubicaciones](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Ver un informe detallado de una ubicación](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [Ver el registro de cambios de una ubicación](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [Pausar o activar una ubicación](/help/dsp/campaign-management/placements/placement-pause-activate.md)

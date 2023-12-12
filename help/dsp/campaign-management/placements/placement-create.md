@@ -3,10 +3,10 @@ title: Crear una ubicación
 description: Obtenga información sobre cómo crear una ubicación.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: c86493663b096854ab3ac2e07244619459ac004c
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 1%
+source-wordcount: '673'
+ht-degree: 0%
 
 ---
 
@@ -66,17 +66,17 @@ ht-degree: 1%
       >
       >([!DNL Roku] ubicaciones) Proveedores de píxeles de terceros aprobados por [!DNL Roku] include [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], y [!DNL Research Now].
 
-1. Haga clic **[!UICONTROL Create Placement]**.
+1. Clic **[!UICONTROL Create Placement]**.
 
 1. (Opcional) Adjunte anuncios a la ubicación:
 
-   1. Haga clic **[!UICONTROL Attach an ad]**.
+   1. Clic **[!UICONTROL Attach an ad]**.
 
    1. Realice una de las acciones siguientes:
 
       * Para crear un anuncio nuevo:
 
-         1. Haga clic **[!UICONTROL Create a New Ad].**
+         1. Clic **[!UICONTROL Create a New Ad].**
 
          1. Especificar la configuración de publicidad para [anuncios de audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [televisión conectada](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [anuncios de display](/help/dsp/campaign-management/ads/ad-settings-display.md), [anuncios móviles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [anuncios nativos](/help/dsp/campaign-management/ads/ad-settings-native.md), [anuncios previos a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), o [anuncios de vídeo universales](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
@@ -84,7 +84,7 @@ ht-degree: 1%
         >
         >Las ubicaciones de vídeo universales solo pueden contener anuncios de vídeo universales.
 
-         1. Haga clic **[!UICONTROL Save & Submit for Review]**.
+         1. Clic **[!UICONTROL Save & Submit for Review]**.
 
          1. (Opcional) Para cada anuncio adicional que desee crear para la ubicación, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita los pasos 1-3.
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 
       * Para adjuntar anuncios existentes en la campaña:
 
-      1. Haga clic **[!UICONTROL Select an Ad]**.
+      1. Clic **[!UICONTROL Select an Ad]**.
 
       1. Realice una de las acciones siguientes:
 
@@ -108,13 +108,13 @@ ht-degree: 1%
 
             1. Seleccione la casilla de verificación situada junto a cada anuncio que desee añadir.
 
-            1. Haga clic **[!UICONTROL Attach]**.
+            1. Clic **[!UICONTROL Attach]**.
 
             1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select]**.
 
       1. (Opcional) Para anular el período de vuelo y la rotación de publicidad predeterminados para anuncios específicos de la ubicación:
 
-         1. Haga clic **[!UICONTROL Custom Schedule Ads]**.
+         1. Clic **[!UICONTROL Custom Schedule Ads]**.
 
          1. Realice una de las siguientes acciones:
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 >
 >* [Acerca de la administración de ubicación](placement-about.md)
 >* [Editar una ubicación](placement-edit.md)
->* [Editar la programación de anuncios de una ubicación](placement-edit-ad-schedule.md)
+>* [Editar los horarios de anuncios de las ubicaciones](placement-edit-ad-schedule.md)
 >* [Pausar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)

@@ -3,9 +3,9 @@ title: Editar una ubicación
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e0bd3d4ff50b32dd44ba413b83445866de6f3a75
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Puede editar la configuración de una sola ubicación o de varias ubicaciones a 
 
 1. Edite el [configuración de ubicación](placement-settings.md).
 
-1. Haga clic **[!UICONTROL Update placement]**.
+1. Clic **[!UICONTROL Update placement]**.
 
 ## Editar varias ubicaciones {#edit-multiple-placements}
 
@@ -74,7 +74,7 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 
    1. Edite el [configuración de ubicación](placement-settings.md).
 
-1. Haga clic **[!UICONTROL Submit]**.
+1. Clic **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
@@ -82,7 +82,7 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >* [Editar rápidamente la configuración de colocación de claves](placement-quick-edit.md)
 >* [Crear una ubicación](placement-create.md)
 >* [Duplicar una ubicación](placement-duplicate.md)
->* [Editar la programación de anuncios de una ubicación](placement-edit-ad-schedule.md)
+>* [Editar los horarios de anuncios de las ubicaciones](placement-edit-ad-schedule.md)
 >* [Pausar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)

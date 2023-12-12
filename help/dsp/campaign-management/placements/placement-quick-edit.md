@@ -3,9 +3,9 @@ title: Editar rápidamente la configuración de colocación de claves
 description: Aprenda a cambiar rápidamente la configuración de ubicación de las claves.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presu
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
 1. Editar cualquiera de los disponibles [configuración de ubicación](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, y **[!UICONTROL Budget]**.
-1. Haga clic **[!UICONTROL Apply]**.
+1. Clic **[!UICONTROL Apply]**.
 
 >[!MORELIKETHIS]
 >
@@ -33,9 +33,8 @@ Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presu
 >* [Crear una ubicación](placement-create.md)
 >* [Editar una ubicación](placement-edit.md)
 >* [Duplicar una ubicación](placement-duplicate.md)
->* [Editar la programación de anuncios de una ubicación](placement-edit-ad-schedule.md)
+>* [Editar los horarios de anuncios de las ubicaciones](placement-edit-ad-schedule.md)
 >* [Pausar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
 >* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-
