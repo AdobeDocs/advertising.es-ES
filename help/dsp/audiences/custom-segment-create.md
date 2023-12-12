@@ -3,16 +3,16 @@ title: Creación e implementación de un segmento personalizado
 description: Obtenga información sobre cómo crear e implementar un segmento personalizado para rastrear usuarios expuestos a anuncios o usuarios que visitan sus páginas web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Creación e implementación de un segmento personalizado
 
-DSP Puede recopilar sus propios datos de audiencia de origen creando e implementando un segmento de audiencia personalizado de. Puede utilizar el segmento para rastrear a) usuarios expuestos a anuncios desde dispositivos de escritorio, móviles y CTV, y b) usuarios que visitan páginas web específicas. Más adelante, puede redireccionar a los usuarios del segmento con anuncios adicionales o evitar que los usuarios del segmento reciban anuncios adicionales.
+DSP Puede recopilar sus propios datos de audiencia de origen creando e implementando un segmento de audiencia personalizado de. Puede utilizar el segmento para rastrear a) a los usuarios expuestos a anuncios desde dispositivos de escritorio y móviles y b) a los usuarios que visitan páginas web específicas. Más adelante, puede redireccionar a los usuarios del segmento con anuncios adicionales o evitar que los usuarios del segmento reciban anuncios adicionales.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
       La ventana predeterminada es de 45 días. Introduzca un valor de uno (1) a 365.
 
-   1. Haga clic **[!UICONTROL Save]**.
+   1. Clic **[!UICONTROL Save]**.
 
 1. Copie e implemente etiquetas para realizar el seguimiento del segmento, según sea necesario:
 
@@ -47,10 +47,10 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
          1. Proporcione la etiqueta al anunciante o al contacto del sitio web para su implementación.
 
             Es posible que el departamento de TI del anunciante u otro grupo tengan que programar la implementación de etiquetas o recibir información al respecto.
-      * Para hacer un seguimiento de los usuarios expuestos a una unidad de publicidad en dispositivos de escritorio, móviles o CTV:
+
+      * Para hacer un seguimiento de los usuarios expuestos a una unidad de publicidad en equipos de escritorio o dispositivos móviles:
 
          1. Copie la etiqueta de seguimiento de impresiones, que tiene la etiqueta &quot;[!UICONTROL Desktop or mobile ads].&quot;
-
 
 1. Agregue la etiqueta a la variable [!UICONTROL Pixel] para cada anuncio relevante o para el [!UICONTROL Event Pixels] de la sección [[!UICONTROL Tracking] configuración para cada ubicación relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
@@ -71,4 +71,3 @@ Una vez implementada una etiqueta de seguimiento, puede utilizar el segmento en 
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-
