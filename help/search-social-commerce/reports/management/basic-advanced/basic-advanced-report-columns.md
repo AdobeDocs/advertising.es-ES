@@ -3,9 +3,9 @@ title: Columnas de informes para informes básicos y avanzados
 description: Obtenga información sobre las columnas de datos disponibles para los informes básicos y avanzados.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
+source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3749'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
 | [!UICONTROL User SE Account ID] | El ID numérico que Search, Social y Commerce asignan a la red de anuncios. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] (Solo campañas de ) El tiempo promedio que se reprodujo un vídeo, incluido el tiempo empleado en reproducirlo, para una sola impresión. |
 | [!UICONTROL Video Plays] | ([!DNL Meta] solo campañas de ) El número de veces que el vídeo empieza a reproducirse, excluidas las reproducciones. |
-| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], y [!UICONTROLVVídeo reproducido con un recuento del 100 %] | (Anuncios de vídeo) El número de vídeos reproducidos en el 25 %, 50 %, 75 % o 100 % del recorrido. |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count], y [!UICONTROL Video Played at 100 Percent Count] | (Anuncios de vídeo) El número de vídeos reproducidos en el 25 %, 50 %, 75 % o 100 % del recorrido. |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate], y [!UICONTROL VideoQuartile100Rate] | (Anuncios de vídeo) El porcentaje de vídeos reproducidos en el 25 %, 50 %, 75 % o 100 % del recorrido. |
 | [!UICONTROL View Rate] | (Anuncios de vídeo) El número de vistas o participaciones dividido por el número de veces que se mostró el anuncio (impresiones de vídeo y miniaturas). |
 | [!UICONTROL Views] | (Anuncios en vídeo) La cantidad de veces que las personas vieron o interactuaron con su anuncio. |
