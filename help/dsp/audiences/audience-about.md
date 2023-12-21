@@ -3,7 +3,7 @@ title: DSP Acerca de la Gestión de público en Advertising
 description: Obtenga información sobre las funciones de gestión de público.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
+source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 0%
@@ -32,7 +32,7 @@ También hay disponibles tipos de audiencia adicionales para la segmentación de
 
 DSP Puede importar sus propios segmentos de datos de origen desde su plataforma de administración de datos (DMP) y proporcionarlos a cualquier conjunto de anunciantes, según sea necesario.
 
-DSP es un destino integrado para [el [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), lo que le permite compartir segmentos de origen autenticados con anunciantes y usuarios aprobados para la activación de campañas. Para obtener más información sobre la integración de Real-Time CDP, consulte la [Sección Fuentes](/help/dsp/audiences/sources/source-about.md).
+DSP es un destino integrado para [el [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), lo que le permite compartir segmentos de origen autenticados con anunciantes y usuarios aprobados para la activación de campañas. Para obtener más información sobre la integración de Real-Time CDP, consulte la [Sección Fuentes](/help/dsp/audiences/sources/source-about.md).
 
 DSP También puede importar segmentos de terceros personalizados, incluidas combinaciones complejas de segmentos de terceros. Puede proporcionar los segmentos a cualquier conjunto de anunciantes, según sea necesario.
 

@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e1ae2bb601bc00dad8c611a00cb6ba88c9c57dee
+source-git-commit: 6b2ed619b5f902207720b646693253244cd7b567
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 21 de diciembre de 2023 | [!UICONTROL Audiences] | La documentación ya está disponible para compartir datos de origen desde [!DNL Tealium] DSP plataforma de datos del cliente con el uso de [!DNL Amazon Web Services]. DSP Puede segmentar las ubicaciones de los segmentos mediante las siguientes opciones: [!DNL RampIDs]. Dentro de la configuración de ubicación para [!UICONTROL Audience Targeting], los segmentos compartidos están disponibles en el [!UICONTROL First Party Segments] lista. | Consulte &quot;[Acerca de la activación de segmentos autenticados a partir de fuentes de audiencia](/help/dsp/audiences/sources/source-about.md)&quot; y &quot;[DSP Flujo de trabajo para usar la integración de la con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 6 de diciembre de 2023 | Planificador | (Funcionalidad beta) La nueva herramienta de planificación ayuda a prever el alcance único a nivel doméstico de las ubicaciones de TV conectada (CTV) según el presupuesto especificado y los criterios de segmentación. Después de evaluar varios planes, puede implementar paquetes y ubicaciones que se alineen mejor con los resultados deseados. | Consulte &quot;[DSP Acerca de la herramienta Planificador de](/help/dsp/planner/planner-about.md).&quot; |
 |  | Optimización | Hay dos nuevos objetivos de optimización basados en clics disponibles para todos los usuarios: **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** y **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | Consulte &quot;[Objetivos de optimización y cómo utilizarlos](/help/dsp/optimization/optimization-goals.md)&quot; y &quot;[Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
 | 27 de septiembre de 2023 | Optimización | Dos nuevos objetivos de optimización basados en el alcance, **[!UICONTROL Always Max Bid and Maximize Reach]** y **[!UICONTROL Lowest Cost per Reach]**, le ayuda a llegar a tantos hogares únicos como sea posible utilizando el mismo nivel de impresiones o gasto, respectivamente. Ambos objetivos están disponibles tanto en el nivel de paquete como de ubicación. | Consulte &quot;[Objetivos de optimización y cómo utilizarlos](/help/dsp/optimization/optimization-goals.md).&quot; |

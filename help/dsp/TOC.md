@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -150,7 +150,11 @@ ht-degree: 3%
       + [Sintaxis de la lógica de segmento de audiencia](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Fuentes {#sources}
       + [Acerca de la activación de segmentos autenticados a partir de fuentes de audiencia](/help/dsp/audiences/sources/source-about.md)
-      + [Activar segmentos autenticados de socios de ID duraderos](/help/dsp/audiences/sources/source-durable-id.md)
+      + Flujos de trabajo por Customer Data Platform {#sources-workflows}
+         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
+            + [DSP Flujo de trabajo para usar la integración de la con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+            + [Activar segmentos autenticados de socios de ID universales](/help/dsp/audiences/sources/source-universal-id.md)
+         + [DSP Flujo de trabajo para usar la integración de la con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
       + [Crear una fuente de audiencia para activar audiencias de origen](/help/dsp/audiences/sources/source-create.md)
       + [Configuración de origen de audiencia](/help/dsp/audiences/sources/source-settings.md)
    + [Proveedores de datos de terceros disponibles](/help/dsp/audiences/third-party-data-providers.md)

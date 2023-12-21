@@ -3,43 +3,45 @@ title: Acerca de la activación de segmentos autenticados a partir de fuentes de
 description: Obtenga información acerca de la ingesta de segmentos de origen desde una plataforma de datos de clientes.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 68095fc77659826fae43f2453d17022ef1880807
+source-git-commit: e3e8753db31bc835c49eb2037fdcd7696a895a8c
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 2%
+source-wordcount: '282'
+ht-degree: 0%
 
 ---
 
 # Acerca de la activación de segmentos autenticados a partir de fuentes de audiencia
 
-<!-- Doesn't specifically explain what you can do in our UI -->
+DSP Puede introducir segmentos de origen compuestos de ID de correo electrónico con hash o ID universales creados dentro de una plataforma de datos del cliente (CDP). Puede utilizar los segmentos ingeridos como destinos para sus ubicaciones.
 
-DSP puede introducir segmentos de origen compuestos de señales autenticadas creadas dentro de una plataforma de datos del cliente (CDP). Puede utilizar los segmentos ingeridos como destinos para sus ubicaciones.
+DSP Los siguientes CDP tienen conectores establecidos, pero el usuario también puede conectarse a cualquier CDP mediante el uso compartido de datos por lotes, por streaming o basados en API. Para integrarse con un nuevo CDP, póngase en contacto con su equipo de cuenta de Adobe.
 
-## [!DNL Adobe Real-Time Customer Data Profile]
+## [!DNL Adobe Real-Time Customer Data Platform]
 
-DSP La integración de con el se ha integrado con el [el [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), que forma parte de Adobe Experience Platform.
+DSP está integrado con [el [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), que forma parte de Adobe Experience Platform.
 
-Entrada [!DNL Real-time CDP], *destinos* son conexiones a plataformas de datos externas que permiten la activación de datos sin problemas. DSP Por ejemplo, puede utilizar destinos para activar sus relaciones con los clientes conocidas (como las direcciones de correo electrónico con hash) para la publicidad de destino en todos los formatos digitales admitidos por el servicio de correo electrónico de.
+Entrada [!DNL Real-Time CDP], *destinos* son conexiones a plataformas de datos externas que permiten la activación de datos sin problemas. DSP Por ejemplo, puede utilizar destinos para activar sus relaciones con los clientes conocidas (como las direcciones de correo electrónico con hash) para la publicidad de destino en todos los formatos digitales admitidos por el servicio de correo electrónico de. Para obtener más información sobre los destinos, consulte el Experience Platform [Guía de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), incluida una descripción general del producto, instrucciones para [creación de espacios de trabajo de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) y [creación de conexiones de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), y [activación de datos en destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-Para obtener más información sobre los destinos, consulte el Experience Platform [Guía de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), incluida una descripción general del producto, instrucciones para [creación de espacios de trabajo de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) y [creación de conexiones de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), y [activación de datos en destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
+Consulte &quot;[DSP Flujo de trabajo para usar la integración de la con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 
-### DSP Flujo de trabajo para usar la integración de la con [!DNL Real-time CDP] {#workflow-sources}
+## [!DNL ActionIQ]
 
-1. [DSP Permitir la traducción de segmentos de datos de clientes a [!DNL LiveRamp RampIDs]](source-durable-id.md) que son reconocibles en un entorno de oferta.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
+Puede compartir los datos de origen de su organización desde el [!DNL Action IQ] DSP plataforma de datos del cliente con la plataforma de datos de. DSP A continuación, puede segmentar las ubicaciones de los segmentos mediante el uso de la variable [!DNL RampIDs] o [!DNL Unified IDs 2.0].
 
-1. [Crear una fuente de audiencia](source-create.md) DSP para importar audiencias a su cuenta de o a una cuenta de anunciante de.
+Esta integración requiere personalización. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
 
-1. [Configurar un [!DNL Real-Time CDP] conexión de destino en Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
+## [!DNL Tealium]
 
-Para obtener soporte adicional, póngase en contacto con el equipo de cuenta de Adobe o `adcloud-support@adobe.com`.
+Puede compartir los datos de origen de su organización desde el [!DNL Tealium] plataforma de datos del cliente mediante [!DNL Amazon Web Services]. DSP A continuación, puede segmentar las ubicaciones de los segmentos mediante el uso de la variable [!DNL RampIDs]. Consulte &quot;[DSP Flujo de trabajo para usar la integración de la con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Activar segmentos autenticados de socios de ID duraderos](source-durable-id.md)
+>* [DSP Flujo de trabajo para usar la integración de la con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [DSP Flujo de trabajo para usar la integración de la con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
 >* [Crear una fuente de audiencia para activar audiencias de origen](source-create.md)
 >* [Configuración de origen de audiencia](source-settings.md)
->* [Conexión de Adobe DSP Advertising](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [Resumen del catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
 
+<!--
+>* [Workflow for Using the DSP Integration with [!DNL ActionIQ]](/help/dsp/audiences/sources/source-actioniq.md)
+-->
