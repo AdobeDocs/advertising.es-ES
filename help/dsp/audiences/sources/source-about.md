@@ -3,9 +3,9 @@ title: Acerca de la activación de segmentos autenticados a partir de fuentes de
 description: Obtenga información acerca de la ingesta de segmentos de origen desde una plataforma de datos de clientes.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: e3e8753db31bc835c49eb2037fdcd7696a895a8c
+source-git-commit: f01cfbf22628cec0510f4a860ad927b333d5946a
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSP está integrado con [el [!DNL Adobe Real-Time Customer Data Platform (CDP)]]
 
 Entrada [!DNL Real-Time CDP], *destinos* son conexiones a plataformas de datos externas que permiten la activación de datos sin problemas. DSP Por ejemplo, puede utilizar destinos para activar sus relaciones con los clientes conocidas (como las direcciones de correo electrónico con hash) para la publicidad de destino en todos los formatos digitales admitidos por el servicio de correo electrónico de. Para obtener más información sobre los destinos, consulte el Experience Platform [Guía de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), incluida una descripción general del producto, instrucciones para [creación de espacios de trabajo de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) y [creación de conexiones de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), y [activación de datos en destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-Consulte &quot;[DSP Flujo de trabajo para usar la integración de la con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
+Para obtener más información, consulte &quot;[DSP Flujo de trabajo para usar la integración de la con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 
 ## [!DNL ActionIQ]
 
@@ -32,7 +32,7 @@ Esta integración requiere personalización. Póngase en contacto con el equipo 
 
 ## [!DNL Tealium]
 
-Puede compartir los datos de origen de su organización desde el [!DNL Tealium] plataforma de datos del cliente mediante [!DNL Amazon Web Services]. DSP A continuación, puede segmentar las ubicaciones de los segmentos mediante el uso de la variable [!DNL RampIDs]. Consulte &quot;[DSP Flujo de trabajo para usar la integración de la con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
+Puede compartir los datos de origen de su organización desde el [!DNL Tealium] plataforma de datos del cliente mediante [!DNL Amazon Web Services]. DSP A continuación, puede segmentar las ubicaciones de los segmentos mediante el uso de la variable [!DNL RampIDs]. Para obtener más información, consulte &quot;[DSP Flujo de trabajo para usar la integración de la con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
 
 >[!MORELIKETHIS]
 >
