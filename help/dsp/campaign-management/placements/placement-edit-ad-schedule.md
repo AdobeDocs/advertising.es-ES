@@ -3,9 +3,9 @@ title: Editar horarios de anuncios para ubicaciones
 description: Aprenda a cambiar los programas de anuncios de los anuncios adjuntos a las ubicaciones.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
+source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,15 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad de
 
    ![Descargar notificación lista](/help/dsp/assets/download-ready.png "Descargar notificación lista")
 
-1. Abra el archivo descargado, edite la información de vuelo según sea necesario y guarde el archivo actualizado:
+1. Abra el archivo descargado, edite los campos de información de vuelo de cada fila de anuncio que desee incluir en el vuelo y guarde el archivo actualizado:
 
-   * Para añadir un vuelo, especifique las fechas de vuelo de cada fila de anuncio que quiera incluir en el vuelo utilizando **[!UICONTROL Flight N Start Date]** y **[!UICONTROL Flight N End Date]** columnas. Utilice el formato AAAA-MM-DD para cada fecha.
+   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (como [!UICONTROL Flight 1 Start Date] y [!UICONTROL Flight 1 End Date]): Las primeras y últimas fechas del vuelo. Utilice el formato AAAA-MM-DD para cada fecha. Todos los anuncios con campos de fecha de vuelo vacíos se tratan como anuncios no participantes.
 
-     Por ejemplo, para los anuncios del primer vuelo, introduzca valores en la variable [!UICONTROL Flight 1 Start Date] y [!UICONTROL Flight 1 End Date] campos. Si las filas de anuncio aún no están incluidas en el archivo, introduzca la información de anuncio necesaria en filas nuevas.
+   **[!UICONTROL Flight N Weight]** (como [!UICONTROL Flight 1 Weight]): Cómo girar los anuncios de un vuelo. Introduzca un valor:
 
-     Todos los anuncios con campos de fecha de vuelo vacíos se tratan como anuncios no participantes.
+   * Para rotar los anuncios de un vuelo uniformemente, escriba &quot;**[!UICONTROL Even]**&quot;.
 
-   * Para rotar los anuncios de un vuelo uniformemente, escriba &quot;**[!UICONTROL Even]**&quot; en el **[!UICONTROL Flight N Weight]** campos (como [!UICONTROL Flight 1 Weight]).
-
-   * Para rotar los anuncios de un vuelo de forma desigual, introduzca el peso relativo por el que desea rotar cada anuncio, como porcentaje, en el **[!UICONTROL Flight N Weight]** campos (como [!UICONTROL Flight 1 Weight]).
-
-     El peso total de cada vuelo debe ser igual a 100.
+   * Para rotar los anuncios de un vuelo de forma desigual, introduzca el peso relativo por el que desea rotar cada anuncio como porcentaje. El peso total del vuelo debe ser igual a 100.
 
 1. Cargue la plantilla de programación de anuncios editada:
 
