@@ -3,44 +3,52 @@ title: Editar horarios de anuncios para ubicaciones
 description: Aprenda a cambiar los programas de anuncios de los anuncios adjuntos a las ubicaciones.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 0b89d346aa7d1443e50605e1300a6a3645fe9b21
+source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Editar horarios de anuncios para ubicaciones
 
-<!--
+## Editar los horarios de anuncios de una o más ubicaciones
 
-## Edit the Ad Schedules for One or More Placements
+Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad de los anuncios adjuntos a varias ubicaciones mediante una [!DNL Microsoft Excel] hoja de cálculo. Cada anuncio puede estar activo durante varios vuelos.
 
-You can change the scheduled flight dates and ad rotation for the ads attached to multiple placements using a [!DNL Microsoft Excel] spreadsheet. Each ad can be active during multiple flights.
+1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-1. In the main menu, click **[!UICONTROL Campaigns]**.
+1. Haga clic en el nombre de la campaña.
 
-1. Click the name of the campaign.
+1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 
-1. In the submenu, click **[!UICONTROL Placements]**.
+1. Seleccione la casilla de verificación situada junto a cada ubicación cuyos datos de publicidad desee descargar.
 
-1. Select the check box next to each placement whose ad data you want to download.
+1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
 
-1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
+1. Cuando el archivo esté disponible, haga clic en **[!UICONTROL Download]** en la notificación situada en la parte superior de la página del explorador para descargar un archivo de hoja de cálculo (en formato XLSX) según el procedimiento normal del explorador.
 
-1. When the file is available, click **[!UICONTROL Download]** in the notification at the top of the browser page to download a worksheet file (in XLSX format) according to your browser's normal procedure..
+   ![Descargar notificación lista](/help/dsp/assets/download-ready.png "Descargar notificación lista")
 
-   ![Download Ready notification](/help/dsp/assets/download-ready.png "Download Ready notification")
+1. Abra el archivo descargado, edite la información de vuelo según sea necesario y guarde el archivo actualizado:
 
-1. Open the downloaded file and edit the flight dates as needed.
+   * Para añadir un vuelo, especifique las fechas de vuelo de cada fila de anuncio que quiera incluir en el vuelo utilizando **[!UICONTROL Flight N Start Date]** y **[!UICONTROL Flight N End Date]** columnas. Utilice el formato AAAA-MM-DD para cada fecha.
 
-1. Upload the edited ad schedule template:
+     Por ejemplo, para los anuncios del primer vuelo, introduzca valores en la variable [!UICONTROL Flight 1 Start Date] y [!UICONTROL Flight 1 End Date] campos. Si las filas de anuncio aún no están incluidas en el archivo, introduzca la información de anuncio necesaria en filas nuevas.
 
-   1. Select the check box next to each applicable placement.
+     Todos los anuncios con campos de fecha de vuelo vacíos se tratan como anuncios no participantes.
 
-   1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**, and specify the file to upload.
+   * Para rotar los anuncios de un vuelo uniformemente, escriba &quot;**[!UICONTROL Even]**&quot; en el **[!UICONTROL Flight N Weight]** campos (como [!UICONTROL Flight 1 Weight]).
 
--->
+   * Para rotar los anuncios de un vuelo de forma desigual, introduzca el peso relativo por el que desea rotar cada anuncio, como porcentaje, en el **[!UICONTROL Flight N Weight]** campos (como [!UICONTROL Flight 1 Weight]).
+
+     El peso total de cada vuelo debe ser igual a 100.
+
+1. Cargue la plantilla de programación de anuncios editada:
+
+   1. Seleccione la casilla situada junto a cada posición aplicable.
+
+   1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]** y especifique el archivo que desea cargar.
 
 ## Editar la programación de anuncios de una sola ubicación
 
