@@ -3,9 +3,9 @@ title: Editar horarios de anuncios para ubicaciones
 description: Aprenda a cambiar los programas de anuncios de los anuncios adjuntos a las ubicaciones.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
+source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad de
 
       * Para rotar los anuncios de un vuelo uniformemente, escriba `[!UICONTROL Even]`.
 
-      * Para rotar los anuncios de un vuelo de forma desigual, introduzca el peso relativo por el que desea rotar cada anuncio como porcentaje. El peso total del vuelo debe ser igual a 100.
+      * Para rotar los anuncios de un vuelo de forma desigual, introduzca el peso relativo por el que desea rotar cada anuncio como porcentaje (por ejemplo, `40` para el 40 %). El peso total del vuelo debe ser igual a 100.
 
 1. Cargue la plantilla de programación de anuncios editada:
 
