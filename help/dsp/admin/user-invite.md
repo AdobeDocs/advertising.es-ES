@@ -3,18 +3,16 @@ title: Invitar a un nuevo usuario a su cuenta de organización
 description: Obtenga información sobre cómo invitar a un nuevo usuario a unirse a la cuenta.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
+source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
 # Invitar a un nuevo usuario a su cuenta de organización
 
-*Solo usuarios administradores*
-
-Puede invitar a un nuevo usuario a la cuenta. Una vez que el usuario acepta la invitación, puede acceder a todos los anunciantes de la cuenta. Los nuevos usuarios tienen acceso de solo lectura de forma predeterminada.
+Los usuarios administradores pueden invitar a un nuevo usuario a la cuenta. Una vez que el usuario acepta la invitación, puede acceder a todos los anunciantes de la cuenta. Los nuevos usuarios tienen acceso de solo lectura de forma predeterminada.
 
 Si es necesario, puede anular la invitación de un usuario con una invitación pendiente.
 
@@ -28,7 +26,7 @@ Si es necesario, puede anular la invitación de un usuario con una invitación p
 
 1. En el **[!UICONTROL User Email]** , introduzca la dirección de correo electrónico a la que desea enviar la invitación.
 
-1. Haga clic **[!UICONTROL Send Invite]**.
+1. Clic **[!UICONTROL Send Invite]**.
 
 >[!MORELIKETHIS]
 >
