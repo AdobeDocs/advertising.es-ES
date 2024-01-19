@@ -1,11 +1,11 @@
 ---
 title: Glosario
 description: Consulte las definiciones de términos clave.
-exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## C-D {#c-d}
 
-**campaign:** Conjunto de grupos de anuncios de una sola cuenta de publicidad que comparten un presupuesto, un lapso de tiempo, un objetivo y otra configuración. **Nota:** [!DNL Baidu] no tiene el concepto de campañas, pero Search, Social y Commerce crea pseudocampañas para cada conjunto de grupos de anuncios relacionados en [!DNL Baidu] que se sincronizan en Search, Social y Commerce.
+**campaign:** Conjunto de grupos de anuncios de una sola cuenta de publicidad que comparten un presupuesto, un lapso de tiempo, un objetivo y otra configuración. **Nota:** [!DNL Baidu] no tiene el concepto de campañas, pero Search, Social y Commerce crea pseudocampañas para cada conjunto de grupos de anuncios relacionados en campañas existentes [!DNL Baidu] Cuentas de que se sincronizan en Search, Social y Commerce.
 
 **campo que distingue entre mayúsculas y minúsculas:** Una consulta o campo que distingue entre mayúsculas y minúsculas trata las letras mayúsculas (como C) de forma diferente a las minúsculas (como c). Por ejemplo, Coche se trata como un valor diferente al coche.
 

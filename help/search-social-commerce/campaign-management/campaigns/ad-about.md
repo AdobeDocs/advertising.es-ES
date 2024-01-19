@@ -1,18 +1,18 @@
 ---
 title: Administración de anuncios
 description: Obtenga información acerca de los anuncios en Search, Social y Commerce, incluidos los tipos de anuncios disponibles.
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # Acerca de los anuncios
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], y existentes [!DNL Baidu] solo cuentas*
 
 Un anuncio se puede mostrar en un sitio web de destino (para contenido o campañas con objetivo de ubicación); cuando un usuario busca una de las palabras clave en el grupo de anuncios (para campañas de búsqueda) o contenido en su sitio web (anuncios dinámicos de búsqueda en [!DNL Google Ads] campañas de solo búsqueda); o cuando un usuario realiza una búsqueda relacionada con uno de los elementos de su [!DNL Google Merchant Center] o [!DNL Microsoft® Merchant Center] fuente de productos (anuncios de compras en ) [!DNL Google Ads] o anuncios de productos en [!DNL Microsoft® Advertising] campañas de ).
 

@@ -1,18 +1,18 @@
 ---
 title: Administrar grupos de anuncios
 description: Obtenga información sobre cómo crear y administrar grupos de anuncios.
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # Administrar grupos de anuncios
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], y existentes [!DNL Baidu] solo cuentas*
 
 Un grupo de anuncios incluye un conjunto de anuncios y sus palabras clave relacionadas. Un grupo de anuncios en una campaña que segmenta la red de visualización también puede incluir ubicaciones, que son ubicaciones en la red de visualización en la que pueden aparecer los anuncios. La configuración del grupo de publicidad, que se aplica a todos los componentes del grupo de publicidad, varía según la red de publicidad.
 
@@ -34,7 +34,7 @@ Puede crear grupos de anuncios desde Buscar, Social y Comercio para un [tipo de 
 
    Según la red de publicidad, la configuración se puede agrupar en [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting], y [!UICONTROL URL Options]. Para establecer la configuración de [!UICONTROL Negative Keywords] o [!UICONTROL Negative Websites], cuando estén disponibles, haga clic en **[!UICONTROL Add Negative Keywords]** o **[!UICONTROL Add Negative Websites]**, respectivamente.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 Posteriormente, si lo desea, puede anular las ofertas de nivel de grupo de anuncios definiendo ofertas para palabras clave o ubicaciones individuales en el grupo de anuncios.
 

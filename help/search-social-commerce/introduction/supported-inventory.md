@@ -3,9 +3,9 @@ title: Inventario admitido
 description: Haga referencia a las redes de publicidad, los tipos de campaña y los tipos de publicidad admitidos.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2728'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ A continuación se indican las redes de anuncios compatibles, los tipos de campa
 
 | Origen | Red | Tipo de campaña | Tipo de anuncio | Sincronizar y ver | Crear/editar | Seguimiento[^1] | Optimización | Informe[^2] | Asistencia de Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|
-| [!DNL Baidu] | Buscar red | Manual | Texto | Automático mediante API | Uso de [vistas de administración de campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) y [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Sí | Campañas solo con estrategia de oferta de CPC manual | Datos de nivel de anuncio | Datos de Analytics para Search, Social y Commerce<br><br>Datos de nivel de anuncio de Search, Social y Commerce a Analytics |
+| [!DNL Baidu]: Cuentas existentes solo en Search, Social y Commerce; no se admiten nuevas cuentas | Buscar red | Manual | Texto | Automático mediante API | Editar y eliminar mediante [vistas de administración de campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) y [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Sí | Campañas solo con estrategia de oferta de CPC manual | Datos de nivel de anuncio | Datos de Analytics para Search, Social y Commerce<br><br>Datos de nivel de anuncio de Search, Social y Commerce a Analytics |
 | [!DNL Google Ads] | Todo [!DNL Google] fuentes | Descubrimiento (función beta) | Descubrimiento (anuncios de una sola imagen)<br><br>Carrusel de descubrimiento (anuncios de carrusel de varias imágenes) | Automático mediante API | — | Sí | Solo en portafolios híbridos<br><br>Los objetivos de las ofertas y la estrategia de oferta se establecen en el nivel de campaña, junto con los presupuestos de campaña, según corresponda al tipo de optimización. | Datos de nivel de anuncio | Datos de nivel de anuncio en Search, Social y Commerce [uso del código de seguimiento de ID de AMO actualizado](/help/integrations/analytics/ids.md#amo-id-formats)[^4]<br><br>Datos de nivel de anuncio de Search, Social y Commerce a Analytics |
 | | Todo | Rendimiento estándar máximo (función beta) | Todos los tipos | Automático mediante API | Cree/edite recursos de campañas y cárguelos dentro de la configuración de campañas en [!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>Solo están disponibles las configuraciones necesarias. Para ver la configuración opcional y enumerar grupos, inicie sesión en [!DNL [!DNL Google Ads] Ads] editor. | Sí | Solo en portafolios híbridos<br><br>Los objetivos de la estrategia de oferta se establecen en el nivel de campaña, junto con los presupuestos de campaña. | Datos de nivel de campaña<br><br>Los datos para enumerar grupos no están disponibles y la red de anuncios no proporciona datos de nivel de anuncio. | Datos de Analytics para Search, Social y Commerce<br><br>Datos de nivel de campaña de Search, Social y Commerce a Analytics. Requiere la actualización [Código de seguimiento de ID de AMO](/help/integrations/analytics/ids.md#amo-id-formats). |
 | | Mostrar red | Pantalla estándar | Imagen | Automático mediante API | Editar URL y estado solo mediante [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Sí, cuando agrega manualmente etiquetas de rastreo de clics a plantillas de seguimiento dentro de la red de publicidad | — | Datos de nivel de anuncio, pero sin datos de visualización | Datos de Analytics para Search, Social y Commerce<br><br>Datos de nivel de anuncio de Search, Social y Commerce a Analytics, pero sin datos de visualización |

@@ -1,20 +1,20 @@
 ---
 title: Sincronizar manualmente datos de red de anuncios
 description: Obtenga información sobre cómo almacenar en déclencheur manualmente la sincronización de la estructura de la campaña y las entidades de campaña para las redes de publicidad admitidas.
-exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Sincronizar manualmente datos de red de anuncios
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising] (anteriormente [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising] (anteriormente [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex], y existentes [!DNL Baidu] solo cuentas*
 
-La sincronización es el proceso mediante el cual Search, Social y Commerce recopila información actualizada para las cuentas de red de anuncios de cada anunciante en [redes de publicidad admitidas](/help/search-social-commerce/introduction/supported-inventory.md). Estos datos incluyen la estructura de campañas del anunciante y las entidades de campaña, incluidos la mayoría de sus atributos que se administran o comunican en Buscar, Social y Comercio. No incluye datos de clics, ni ofertas y modificadores de oferta introducidos fuera de Search, Social y Commerce, que se recopilan por separado.
+La sincronización es el proceso mediante el cual Search, Social y Commerce recopila información actualizada para las cuentas de red de anuncios conectadas de cada anunciante en [redes de publicidad admitidas](/help/search-social-commerce/introduction/supported-inventory.md). Estos datos incluyen la estructura de campañas del anunciante y las entidades de campaña, incluidos la mayoría de sus atributos que se administran o comunican en Buscar, Social y Comercio. No incluye datos de clics, ni ofertas y modificadores de oferta introducidos fuera de Search, Social y Commerce, que se recopilan por separado.
 
 Search, Social y Commerce se sincroniza (sincroniza) automáticamente con sus cuentas de red de anuncios una vez al día, y también siempre que detecta una nueva campaña en una de sus redes de anuncios. Además, envía inmediatamente a la red de anuncios todos los cambios realizados en los datos de campaña desde Search, Social y Commerce.
 

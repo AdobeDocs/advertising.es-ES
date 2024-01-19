@@ -1,18 +1,18 @@
 ---
 title: Administración de anuncios
 description: Aprenda a crear y administrar anuncios.
-exl-id: 9108bbfd-61e7-49fa-90ba-4eb276eb0897
+exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # Administración de anuncios
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], y existentes [!DNL Baidu] solo cuentas*
 
 Puede crear, editar y cambiar el estado de las publicidades desde el [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Ads] vista.
 
@@ -40,7 +40,7 @@ Puede crear, editar y cambiar el estado de las publicidades desde el [!UICONTROL
    >
    >(Campañas con seguimiento de conversión de Adobe Advertising) Si la configuración de la cuenta o de la campaña especifica solo seguimiento en el nivel de palabra clave, Search, Social y Commerce no generan seguimiento de anuncios.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 1. (Compras de anuncios en campañas con seguimiento de conversión de Adobe Advertising; opcional) Para rastrear clics en el anuncio, [generación de una URL de seguimiento con la herramienta URL de seguimiento](/help/search-social-commerce/tools/click-tracking-url-generate.md)y añadirlo manualmente a la configuración de la cuenta, la campaña o el grupo de productos.
 

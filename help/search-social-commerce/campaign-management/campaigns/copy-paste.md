@@ -1,18 +1,18 @@
 ---
 title: Cree y edite datos de campaña por lotes utilizando copiar y pegar
 description: Obtenga información sobre cómo administrar los datos de campaña por lotes mediante la función de copiar y pegar.
-exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
 # Cree y edite datos de campaña por lotes utilizando copiar y pegar
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], y existentes [!DNL Baidu] solo cuentas*
 
 *[!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], y [!UICONTROL Ads] vistas*
 
@@ -72,7 +72,7 @@ Puede utilizar esta función para editar objetos de campaña existentes (con cam
 
    * Introduzca un opcional **[!UICONTROL Job Name]** y/o opcional **[!UICONTROL Job Description]**.
 
-1. Haga clic **[!UICONTROL Post Now]**.
+1. Clic **[!UICONTROL Post Now]**.
 
 
 >[!MORELIKETHIS]

@@ -1,11 +1,11 @@
 ---
 title: Acerca de las cuentas de red de publicidad
 description: Obtenga información acerca de las cuentas de red de anuncios en Search, Social y Commerce.
-exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Search, Social y Commerce pueden rastrear cualquiera de las cuentas de un anunci
 
 ## Cuentas sincronizadas mediante API
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] (anteriormente [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], y [!DNL Yandex] cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (anteriormente [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex], y existentes [!DNL Baidu] cuentas*
 
 Search, Social y Commerce se sincronizan con (*sincroniza*) con cuentas de red de anuncios admitidas para que pueda realizar el seguimiento de sus anuncios, informar sobre ellos y visualizar su rendimiento. Para todas las redes de publicidad excepto para [!DNL Yahoo! Display Network], puede administrar de forma opcional las campañas de su cuenta en Buscar, Social y Comercio; [!DNL Yahoo! Display Network], las campañas son de solo lectura. En todas las redes de anuncios, puede permitir que la capacidad de optimización optimice las ofertas de anuncios en cuentas administradas añadiéndolas a portafolios.
 

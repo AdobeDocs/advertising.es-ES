@@ -1,18 +1,18 @@
 ---
 title: Administrar palabras clave por puja
 description: Aprenda a crear y administrar palabras clave que se pueden pujar para grupos de anuncios de búsqueda.
-exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # Administrar palabras clave por puja
 
-*[!DNL Baidu], [!DNL Google Ads] y [!DNL Microsoft® Advertising], y [!DNL Yahoo! Japan Ads], y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads]y [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], y existentes [!DNL Baidu] solo cuentas*
 
 Puede crear y editar palabras clave para grupos de anuncios de búsqueda en [tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md) que se dirigen a la búsqueda y muestran/nativas redes dentro de un [cuenta de red de publicidad sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
@@ -36,7 +36,7 @@ Puede crear y editar palabras clave para grupos de anuncios de búsqueda en [tip
 
    Si la configuración de la cuenta o la campaña requiere un seguimiento solo en el nivel creativo (publicidad), no se puede generar un seguimiento de palabras clave.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 ## Editar configuración de palabras clave
 

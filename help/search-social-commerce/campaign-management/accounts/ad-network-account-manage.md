@@ -1,11 +1,11 @@
 ---
 title: Administrar las cuentas de red de publicidad
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
-exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,18 @@ ht-degree: 0%
 
 A continuación se indican las instrucciones para crear y editar los detalles de la cuenta de red de publicidad, actualizando el [!DNL oAuth] token para una cuenta y desactivación de cuentas.
 
+Para obtener más información sobre las funciones disponibles para cada red de publicidad, consulte[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+
 ## Crear y agregar detalles de cuenta de red {#create-account}
 
 *Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
-Para habilitar la sincronización o el seguimiento de una cuenta, debe crear un registro de cuenta correspondiente que contenga las credenciales de acceso a la cuenta y las opciones de seguimiento y con el estado *activo*. Para obtener más información sobre las funciones disponibles para cada red de publicidad, consulte[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+Para habilitar la sincronización o el seguimiento de una cuenta, debe crear un registro de cuenta correspondiente que contenga las credenciales de acceso a la cuenta y las opciones de seguimiento y con el estado *activo*.
 
 >[!NOTE]
 >
->Para crear una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
+>* La compatibilidad no está disponible para nuevas versiones [!DNL Baidu] cuentas.
+>* Para crear una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -50,7 +53,7 @@ Para habilitar la sincronización o el seguimiento de una cuenta, debe crear un 
 
    1. Clic **[!UICONTROL Set Account Tracking]** e introduzca la configuración de seguimiento.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
    Los datos recientes de costes y clics de todas las campañas de la cuenta están disponibles en Search, Social y Commerce en unas 24 horas. De forma predeterminada, los datos están disponibles durante los últimos 5 a 10 días, según la red de publicidad. Sin embargo, si es necesario, el equipo de inicio del proyecto puede recuperar los datos durante los últimos 60 días.
 
@@ -74,7 +77,7 @@ Si cambian las credenciales de la cuenta, desea cambiar los parámetros de segui
 
    1. (Opcional) Haga clic en **[!UICONTROL Set Account Tracking]** y edite la configuración de seguimiento.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
    >[!NOTE]
    >
@@ -96,7 +99,7 @@ El equipo de cuenta de Adobe le informará si las nuevas funciones requieren un 
 
 1. Obtenga un nuevo token de acceso:
 
-   1. Haga clic **[!UICONTROL Get oAuth Token]**.
+   1. Clic **[!UICONTROL Get oAuth Token]**.
 
    1. (Si no ha iniciado sesión en la cuenta del anunciante) Inicie sesión en la cuenta publicitaria del anunciante. La práctica recomendada es utilizar las credenciales de para el acceso de la API a la cuenta.
 
@@ -104,7 +107,7 @@ El equipo de cuenta de Adobe le informará si las nuevas funciones requieren un 
 
    1. Copie la cadena de autenticación en la ventana emergente que se abre y péguela en el **[!UICONTROL oAuth Token]** field.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 ## Habilitar o deshabilitar las cuentas de red de publicidad {#enable-disable-account}
 
@@ -156,11 +159,11 @@ Para [!DNL Microsoft Advertising] sólo cuentas [!DNL oAuth]Se pueden utilizar i
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Todas las redes de anuncios excepto [!DNL Naver]) El nombre o ID de inicio de sesión para habilitar el acceso de la API a la cuenta.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled y todas las demás redes excepto [!DNL Baidu], [!DNL Meta], y [!DNL Yandex]) El token de la cuenta para autorizar inicios de sesión con el [[!DNL OAuth] protocolo de autorización](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-enabled y todas las demás redes excepto [!DNL Meta] y [!DNL Yandex]) El token de la cuenta para autorizar inicios de sesión con el [[!DNL OAuth] protocolo de autorización](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas las redes de anuncios excepto [!DNL Naver]) Contraseña de la cuenta. Para cuentas habilitadas con contraseña en [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], y [!DNL Yandex], este campo es obligatorio. Para [!DNL oAuth]En las cuentas habilitadas para, este campo es opcional; utilícelo cuando desee cifrar y guardar la contraseña para que el administrador de cuentas pueda actualizar los tokens según sea necesario.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas las redes de anuncios excepto [!DNL Naver]) Contraseña de la cuenta. Para cuentas habilitadas con contraseña en [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], y [!DNL Yandex], este campo es obligatorio. Para [!DNL oAuth]En las cuentas habilitadas para, este campo es opcional; utilícelo cuando desee cifrar y guardar la contraseña para que el administrador de cuentas pueda actualizar los tokens según sea necesario.
 
-**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] y [!DNL Yandex] solo cuentas) La clave de acceso para la cuenta de desarrollador que se va a utilizar.
+**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Yandex] solo cuentas) La clave de acceso para la cuenta de desarrollador que se va a utilizar.
 
 **[!UICONTROL Currency]:** La abreviatura de la moneda utilizada para la cuenta. Este campo se puede editar para nuevo [!DNL Naver] cuentas. Para todas las demás redes de búsqueda, el valor se rellena automáticamente con la moneda configurada para la cuenta en la red de publicidad una vez que se guarda el registro.
 

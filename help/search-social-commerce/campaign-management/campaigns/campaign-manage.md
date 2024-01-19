@@ -1,18 +1,18 @@
 ---
 title: Administración de campañas
 description: Aprenda a crear y administrar campañas publicitarias.
-exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Administración de campañas
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], y existentes [!DNL Baidu] solo cuentas*
 
 Una campaña es el componente principal de una cuenta de red de publicidad. Para la mayoría de los tipos de campaña, consiste en un conjunto de grupos de anuncios o conjuntos de anuncios. La configuración de la campaña incluye parámetros de presupuesto de campaña, objetivos de publicidad y parámetros de seguimiento opcionales para todos los anuncios de la campaña. Los parámetros de seguimiento de nivel de campaña anulan los parámetros de nivel de cuenta, pero pueden anularse a su vez en un nivel inferior.
 
@@ -37,7 +37,7 @@ Una vez que [hacer accesible una cuenta de red de publicidad](/help/search-socia
 
    Según la red de publicidad, la configuración se puede agrupar en [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], y [!UICONTROL (Google) DSA Options]. Para configurar opciones adicionales, cuando estén disponibles, para [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups], o [!UICONTROL Campaign Goals], haga clic en **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]**, o **[!UICONTROL Set Campaign Goals]**, respectivamente.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 Según la red de publicidad en la que se creó la campaña, es posible que tenga que crear grupos de publicidad y anuncios asociados antes de que la campaña se inserte en la red de publicidad.
 
