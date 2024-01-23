@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] campañas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Conversion Value]:* (Redes de búsqueda y compras/compras inteligentes, campañas Máximo rendimiento de ). La red de anuncios, no de Búsqueda, Social y Comercio, optimiza las ofertas para maximizar el valor de conversión. Si lo desea, introduzca un **[!UICONTROL Target Return on Ad Spend]** (ROAS) como porcentaje. **Nota:** Utilice esta opción para campañas en portafolios híbridos, pero no estándar.
 
-* *[!UICONTROL Maximize Conversions]:* (Campañas en la red de búsqueda) <!-- future: and audience network -->, campañas de rendimiento máximo) La red de anuncios (no Buscar, Social y Comercio) optimiza las ofertas para maximizar las conversiones. Si lo desea, introduzca un **[!UICONTROL Target CPC]** (coste por clic)<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **Nota:** Utilice esta opción para campañas en portafolios híbridos, pero no estándar.
+* *[!UICONTROL Maximize Conversions]:* (Campañas y campañas de rendimiento máximo en la red de búsqueda o de audiencia (pero no en vídeos de audiencia o TV conectada)) La red de publicidad (no en Search, Social y Commerce) optimiza las ofertas para maximizar las conversiones. Si lo desea, introduzca un **[!UICONTROL Target CPC]** (coste por clic). Para las campañas de audiencia, también puede introducir un **[!UICONTROL Target CPA]** (coste por adquisición). **Nota:** Utilice esta opción para campañas en portafolios híbridos, pero no estándar.
 
 * *[!UICONTROL Target CPA]:* (Campañas en la red de búsqueda) La red de anuncios (no Buscar, Social y Comercio) optimiza las ofertas en función de un **[!UICONTROL Target CPA]** (coste por adquisición), que es la cantidad promedio de 30 días que desea pagar por una adquisición (conversión). **Nota:** Utilice esta opción para campañas en portafolios híbridos (pero no estándar) con cualquier estrategia de gasto excepto [!UICONTROL Weekly] o [!UICONTROL Google Target CPA].
 
