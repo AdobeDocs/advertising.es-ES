@@ -3,9 +3,9 @@ title: Editar una ubicación
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,6 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
    1. Seleccione el **[!UICONTROL Edit Mode]**.
 
       Las opciones varían según la configuración, pero pueden incluir lo siguiente:
-
-      * **Añadir** (para adjuntar anuncios)
 
       * **Añadir** (para conservar los valores existentes y agregar nuevos valores)
 

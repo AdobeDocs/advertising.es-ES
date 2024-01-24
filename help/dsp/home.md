@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: b013270066876069d4c548bc821dc9d932f0f0d7
+source-git-commit: 48c37e0c85f34ec462631055dd207c1133809065
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 24 de enero de 2024 | [!UICONTROL Placements] y [!UICONTROL Ads] | Se ha rediseñado el flujo de trabajo para adjuntar anuncios a las ubicaciones. | Consulte &quot;[Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 10 de enero de 2024 | [!UICONTROL Placements] | Ahora puede personalizar rápidamente la programación de anuncios para varias ubicaciones mediante una hoja de cálculo:<ul><li>Puede descargar una plantilla de programación de anuncios para las ubicaciones. Puede editar las fechas de vuelo y la rotación de anuncios en el archivo descargado según sea necesario.</li><li>A continuación, puede cargar la plantilla de programación de anuncios editada.</li></ul> | Consulte &quot;[Editar los horarios de anuncios de las ubicaciones](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
 | 21 de diciembre de 2023 | [!UICONTROL Audiences] | La documentación ya está disponible para compartir datos de origen desde [!DNL Tealium] DSP plataforma de datos del cliente con el uso de [!DNL Amazon Web Services]. DSP Puede segmentar las ubicaciones de los segmentos mediante las siguientes opciones: [!DNL RampIDs]. Dentro de la configuración de ubicación para [!UICONTROL Audience Targeting], los segmentos compartidos están disponibles en el [!UICONTROL First Party Segments] lista. | Consulte &quot;[Acerca de la activación de segmentos autenticados a partir de fuentes de audiencia](/help/dsp/audiences/sources/source-about.md)&quot; y &quot;[DSP Flujo de trabajo para usar la integración de la con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 6 de diciembre de 2023 | Planificador | (Funcionalidad beta) La nueva herramienta de planificación ayuda a prever el alcance único a nivel doméstico de las ubicaciones de TV conectada (CTV) según el presupuesto especificado y los criterios de segmentación. Después de evaluar varios planes, puede implementar paquetes y ubicaciones que se alineen mejor con los resultados deseados. | Consulte &quot;[DSP Acerca de la herramienta Planificador de](/help/dsp/planner/planner-about.md).&quot; |

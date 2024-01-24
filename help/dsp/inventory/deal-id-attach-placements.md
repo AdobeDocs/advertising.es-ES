@@ -3,10 +3,10 @@ title: Especificar ubicaciones y anuncios para una oferta privada
 description: Aprenda a utilizar un acuerdo privado con ubicaciones y anuncios adicionales.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Para ofertas no garantizadas, puede especificar la oferta como un objetivo de in
 
 Para ofertas programáticas garantizadas (PG), puede crear ubicaciones con anuncios especificados desde el [!UICONTROL Deals] vista.
 
-También puede [adjuntar anuncios nuevos a ubicaciones existentes](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) asociadas con PG y ofertas no garantizadas en cualquier momento.
+También puede [adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) asociadas con PG y ofertas no garantizadas en cualquier momento.
 
 ## Especificar un acuerdo no garantizado como destino de inventario para una ubicación
 
@@ -34,7 +34,7 @@ También puede [adjuntar anuncios nuevos a ubicaciones existentes](/help/dsp/cam
        
        1. En la lista de anuncios disponibles, seleccione la casilla de verificación situada junto a cada anuncio que se utilizará para la oferta.
        
-       1. Haga clic **[!UICONTROL Apply]**.
+       1. Haga clic en **[!UICONTROL Apply]**.
    
    1. En la pantalla de configuración de ubicación:
 
@@ -44,8 +44,7 @@ También puede [adjuntar anuncios nuevos a ubicaciones existentes](/help/dsp/cam
 
       El acuerdo se establece automáticamente como objetivo en la sección Destinos de inventario. Todas las demás opciones de segmentación no son aplicables.
 
-      1. Haga clic **[!UICONTROL Create placement]**.
-
+      1. Clic **[!UICONTROL Create placement]**.
 
 La ubicación empezará a ejecutarse después de que el editor active su ID de acuerdo de PG.
 
@@ -60,4 +59,3 @@ La ubicación empezará a ejecutarse después de que el editor active su ID de a
 >* [Creación manual de detalles de ID de acuerdo](deal-id-create.md)
 >* [Configuración del ID de acuerdo manual](deal-id-settings.md)
 >* [Configurar una oferta garantizada programática](programmatic-guaranteed-set-up.md)
-

@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
+source-git-commit: 4e620124d066e048ffffd8025cb98058f46ff42a
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '945'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 3%
       + [Editar una ubicación](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Editar rápidamente la configuración de colocación de claves](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [Duplicar una ubicación](/help/dsp/campaign-management/placements/placement-duplicate.md)
-      + [Adjuntar un anuncio a una ubicación](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [Editar los horarios de anuncios de las ubicaciones](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Ver un informe detallado de una ubicación](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [Ver el registro de cambios de una ubicación](/help/dsp/campaign-management/placements/placement-change-log.md)
@@ -78,7 +78,7 @@ ht-degree: 3%
       + [Creación de anuncios con [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicar un anuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Adjuntar un anuncio a una ubicación](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Adjuntar anuncios a ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausar o activar un anuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
