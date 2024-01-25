@@ -3,9 +3,9 @@ title: Acerca de los informes en la plataforma
 description: Obtenga información acerca de los datos de informes incluidos en las vistas de administración de campañas.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 833e3d3a15546518ec627f859d601285e30381b7
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ De forma predeterminada, cada fila de campaña incluye métricas de ritmo y entr
 
 Puede hacer lo siguiente [personalizar las tablas de datos](campaign-data-views-about.md) de formas adicionales y [filtrar los datos visibles](campaign-data-filter.md).
 
+<!--
+An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
+-->
+
 Para ver una campaña con más detalle, haga clic en su nombre.
 
 ## Informes de campaña única {#single-campaign-reporting}
@@ -55,17 +59,21 @@ Consulte la [Sección &quot;Visualización de gráfico&quot; sobre las métricas
 
 En cada pestaña de entidad, cada fila incluye métricas de ritmo y envío de forma predeterminada, pero se puede [cambiar la vista de columna](column-view-change.md) o incluso [crear una vista de columna personalizada](column-view-create.md) para aplicar en todas las subpestañas de la campaña. Puede hacer lo siguiente [personalizar las tablas de datos](campaign-data-views-about.md) de formas adicionales. Cada tabla de datos incluye una [!UICONTROL Subtotals] fila, que muestra la suma o el valor promedio de cada métrica en todas las filas visibles.
 
+<!--
+An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
+-->
+
 ### Ubicación [!UICONTROL Inspector] {#placement-inspector}
 
 En cada ubicación puede hacer lo siguiente [abrir un (vista de detalles) [!UICONTROL Inspector])](placement-details-view.md), que incluye los siguientes datos exhaustivos:
 
 * **[!UICONTROL Sites]:** Todos los sitios en los que la ubicación ha tenido impresiones.
 
-   El [!UICONTROL Sites] La pestaña incluye funciones de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas que están disponibles en la página principal y una [!UICONTROL Exclude] en cada fila para poder excluir rápidamente un sitio de la ubicación.
+  El [!UICONTROL Sites] La pestaña incluye funciones de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas que están disponibles en la página principal y una [!UICONTROL Exclude] en cada fila para poder excluir rápidamente un sitio de la ubicación.
 
 * **[!UICONTROL Ads]:** Todos los anuncios de la ubicación.
 
-   El [!UICONTROL Ads] La pestaña incluye funciones de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas que están disponibles en la página principal y botones de acción rápida en cada fila, como [!UICONTROL Pause] (para pausar rápidamente un anuncio).
+  El [!UICONTROL Ads] La pestaña incluye funciones de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas que están disponibles en la página principal y botones de acción rápida en cada fila, como [!UICONTROL Pause] (para pausar rápidamente un anuncio).
 
 * **[!UICONTROL Frequency]:** Datos de cada nivel de frecuencia de anuncio para la ubicación, incluidos:
    * el nivel de frecuencia de anuncio (como &quot;1&quot; para todas las instancias en las que los usuarios vieron un anuncio una vez)
@@ -75,21 +83,21 @@ En cada ubicación puede hacer lo siguiente [abrir un (vista de detalles) [!UICO
 
 * **[!UICONTROL Inventory]:** Información sobre todas las ofertas segmentadas por la ubicación.
 
-   El [!UICONTROL Inventory] La pestaña de permite una solución de problemas rápida mostrando estadísticas de rendimiento, como [!UICONTROL Auctions], [!UICONTROL Bids], y [!UICONTROL Win Rate]. La pestaña incluye funciones de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas disponibles en la página principal y botones de acción rápida en cada fila, como [!UICONTROL Edit], [!UICONTROL View Report], y [[!UICONTROL Auction Insights] para una mayor resolución de problemas](/help/dsp/inventory/private-deal-auction-insights.md).
+  El [!UICONTROL Inventory] La pestaña de permite una solución de problemas rápida mostrando estadísticas de rendimiento, como [!UICONTROL Auctions], [!UICONTROL Bids], y [!UICONTROL Win Rate]. La pestaña incluye funciones de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas disponibles en la página principal y botones de acción rápida en cada fila, como [!UICONTROL Edit], [!UICONTROL View Report], y [[!UICONTROL Auction Insights] para una mayor resolución de problemas](/help/dsp/inventory/private-deal-auction-insights.md).
 
 #### Solucionar problemas de inventario
 
 | Problema | Causa posible | Acciones que se deben realizar |
 | -----------| ---------- | ---------- |
 | [!UICONTROL Zero Auctions] | El publicador no ha comenzado a enviar solicitudes de oferta. | Póngase en contacto con el editor para activar la oferta. |
-|  | La operación se configuró incorrectamente, por ejemplo, introduciendo un ID de oferta externa incorrecto. | Confirme los detalles de la oferta y edite la oferta. |
+| | La operación se configuró incorrectamente, por ejemplo, introduciendo un ID de oferta externa incorrecto. | Confirme los detalles de la oferta y edite la oferta. |
 | [!UICONTROL Auctions but no Bids] | La segmentación de ubicación no coincide con las solicitudes de oferta entrantes para la oferta. <br><br> Por ejemplo, una ubicación podría estar dirigida a una ubicación geográfica que no cumpla los requisitos para la oferta. | Edite los destinos de colocación según sea necesario para evitar discrepancias en los objetivos. |
-|  | La ubicación no tiene un anuncio activo con el tipo de medios requerido para la oferta. | Cree y adjunte un anuncio con el tipo de medio correcto a la ubicación. |
-|  | La ubicación no tiene un presupuesto adecuado. | Aumente el presupuesto de colocación para permitir pujas en las solicitudes entrantes. |
-|  | Las fechas de vuelo de la ubicación no se superponen con las fechas de entrega de la impresión para la oferta. | Edite las fechas de vuelo de la ubicación según sea necesario. |
+| | La ubicación no tiene un anuncio activo con el tipo de medios requerido para la oferta. | Cree y adjunte un anuncio con el tipo de medio correcto a la ubicación. |
+| | La ubicación no tiene un presupuesto adecuado. | Aumente el presupuesto de colocación para permitir pujas en las solicitudes entrantes. |
+| | Las fechas de vuelo de la ubicación no se superponen con las fechas de entrega de la impresión para la oferta. | Edite las fechas de vuelo de la ubicación según sea necesario. |
 | [!UICONTROL Low Win Rate] | La puja máxima de la ubicación (mínima o fija) está por debajo del mínimo requerido por la oferta. | Aumente el de la ubicación [!UICONTROL Max Bid] según sea necesario. |
-|  | La ubicación utiliza filtros de oferta previa que limitan las ofertas. | Reduzca los umbrales de los filtros de oferta previa para permitir más ofertas. |
-|  | La segmentación de audiencia para la ubicación es demasiado restrictiva. | Compruebe si los objetivos de audiencia especificados tienen suficientes usuarios activos y expanda la audiencia si es posible. |
+| | La ubicación utiliza filtros de oferta previa que limitan las ofertas. | Reduzca los umbrales de los filtros de oferta previa para permitir más ofertas. |
+| | La segmentación de audiencia para la ubicación es demasiado restrictiva. | Compruebe si los objetivos de audiencia especificados tienen suficientes usuarios activos y expanda la audiencia si es posible. |
 
 ![ubicación Inspector](/help/dsp/assets/placement-inspector.png)
 
@@ -108,4 +116,3 @@ Para otros desgloses de datos, consulte [las páginas de informes de nivel de ca
 >* [Administrar visualizaciones de datos](campaign-data-visualization-manage.md)
 >* [Exportar datos desde una vista de Campaign Management](campaign-export-data.md)
 >* [Ver un informe detallado de una campaña](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
-
