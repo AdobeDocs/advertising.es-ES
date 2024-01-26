@@ -3,9 +3,9 @@ title: Descripción general de Campaign Management DSP en Advertising
 description: Obtenga información acerca de la jerarquía y los componentes de administración de campañas.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ DSP Las campañas de tienen la siguiente jerarquía:
    * Paquete(s)
       * Ubicación(ones)
          * Anuncio(s)
-
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
@@ -55,7 +54,6 @@ Todos los anuncios activos y aprobados de una ubicación activa en una campaña 
 >* [Acerca de la administración de anuncios](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Lista de comprobación de Campaign Launch](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Acerca de los informes en la plataforma](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Acerca de las vistas de datos de Campaign](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
+>* [Acerca de los informes de rendimiento en las vistas de Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Administrar Las Vistas De Datos De Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
 >* [DSP Vídeo: Estructura de cuenta y interfaz de usuario de](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-

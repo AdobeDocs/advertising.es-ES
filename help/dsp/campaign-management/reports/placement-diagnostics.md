@@ -3,9 +3,9 @@ title: Ver los informes de diagnóstico de ubicación
 description: Aprenda a diagnosticar problemas con la configuración y el ritmo de la ubicación.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 622d971a0c583cfde8610025f0a83481c4ae2188
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Las siguientes herramientas pueden ayudarle a diagnosticar problemas con la conf
    1. En la esquina superior derecha, haga clic en ![Diagnóstico de ubicación](/help/dsp/assets/placement-diagnostics.png).
 1. Realice una de las siguientes acciones:
    * Para ver el registro de cambios:
-      1. Haga clic **[!UICONTROL Change Log]**.
+      1. Clic **[!UICONTROL Change Log]**.
       1. (Opcional) Filtre los resultados del informe:
          * En el menú de fecha, cambie el periodo del informe de Últimos 14 días predeterminado a otro periodo (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* o *[!UICONTROL Last 1 year]*).
          * En el menú de la izquierda, filtre el informe por un nombre de usuario específico.
@@ -45,6 +45,6 @@ Las siguientes herramientas pueden ayudarle a diagnosticar problemas con la conf
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes en la plataforma](campaign-reports-about.md)
+>* [Acerca de los informes de rendimiento en las vistas de Campaign Management](campaign-reports-about.md)
 >* [Ver el informe Previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

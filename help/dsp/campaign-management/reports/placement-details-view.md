@@ -3,9 +3,9 @@ title: Ver los detalles de sitios, anuncios, frecuencia e inventario de una ubic
 description: Obtenga información sobre cómo ver los sitios segmentados, los anuncios, la frecuencia y los datos de inventario de una ubicación.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ La ubicación [!UICONTROL Inspector] enumera todos los sitios segmentados, los a
       1. Haga clic en el nombre de la campaña.
 
       1. Haga clic en **[!UICONTROL Placements]** pestaña.
+
    * Ver todas las ubicaciones dentro del paquete principal:
 
       1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
@@ -32,7 +33,6 @@ La ubicación [!UICONTROL Inspector] enumera todos los sitios segmentados, los a
       1. Haga clic en **[!UICONTROL Packages]** pestaña.
 
       1. Haga clic en el nombre del paquete principal.
-
 
 1. Mantenga el cursor sobre la fila de colocación y haga clic en **[!UICONTROL More]** y, a continuación, haga clic en una opción:
 
@@ -44,12 +44,9 @@ La ubicación [!UICONTROL Inspector] enumera todos los sitios segmentados, los a
 
    * Para ver todas las ofertas a las que se dirige la ubicación, haga clic en **[!UICONTROL Inventory]**.
 
-1. (Opcional) [Cambio de la vista de columna](column-view-change.md) según sea necesario para ver las métricas requeridas.
+1. (Opcional) [Cambio de la vista de columna](campaign-data-views-manage.md#column-view-change) según sea necesario para ver las métricas requeridas.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes en la plataforma](campaign-reports-about.md)
->* [Acerca de las vistas de datos de Campaign](campaign-data-views-about.md)
->* [Cambio de la vista de columna](column-view-change.md)
->* [Administrar visualizaciones de datos](campaign-data-visualization-manage.md)
-
+>* [Acerca de los informes de rendimiento en las vistas de Campaign Management](campaign-reports-about.md)
+>* [Administrar Las Vistas De Datos De Campaign](campaign-data-views-manage.md)
