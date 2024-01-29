@@ -2,9 +2,9 @@
 title: Administrar Las Vistas De Datos De Campaign
 description: Descubra cómo puede personalizar las vistas de datos para campañas, paquetes, ubicaciones y anuncios.
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ En la parte inferior derecha de cualquier página, junto a **[!UICONTROL Items p
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes de rendimiento en las vistas de Campaign Management](campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en las vistas de Campaign Management](campaign-reports-about.md)
 >* [Ver los sitios, anuncios y detalles de frecuencia de una ubicación](placement-details-view.md)
 >* [Ver el informe Previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Ver los informes de diagnóstico de ubicación](placement-diagnostics.md)

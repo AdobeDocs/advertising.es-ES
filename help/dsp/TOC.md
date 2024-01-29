@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -93,9 +93,9 @@ ht-degree: 3%
          + [Configuración de anuncio de vídeo universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Especificaciones para tipos de publicidad admitidos](/help/dsp/campaign-management/ads/ad-specs.md)
    + Informes de rendimiento en las vistas de Campaign Management {#campaign-reports}
-      + [Acerca de los informes de rendimiento en las vistas de Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Tipos de informes de rendimiento en las vistas de Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportar datos desde una vista de Campaign Management](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [Ver los sitios, anuncios y detalles de frecuencia de una ubicación](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [Ver los detalles de sitios, anuncios, frecuencia e inventario de una ubicación](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Ver el informe Previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Ver los informes de diagnóstico de ubicación](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Administrar Las Vistas De Datos De Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

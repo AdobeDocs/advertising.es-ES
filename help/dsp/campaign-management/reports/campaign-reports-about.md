@@ -1,16 +1,16 @@
 ---
-title: Acerca de los informes de rendimiento en las vistas de Campaign Management
+title: Tipos de informes de rendimiento en las vistas de Campaign Management
 description: Obtenga información acerca de los datos de informes incluidos en las vistas de administración de campañas.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-# Acerca de los informes de rendimiento en las vistas de Campaign Management
+# Tipos de informes de rendimiento en las vistas de Campaign Management
 
 Las vistas de administración de campañas incluyen datos de informe completos. Los informes disponibles le ayudan a identificar los paquetes y las ubicaciones que tienen un buen rendimiento y aquellos que necesitan su atención. Los botones de acción rápida también le hacen más productivo.
 
@@ -62,49 +62,26 @@ En cada pestaña de entidad, cada fila incluye métricas de ritmo y envío de fo
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
 -->
 
-### Ubicación [!UICONTROL Inspector] {#placement-inspector}
-
-En cada ubicación puede hacer lo siguiente [abrir un (vista de detalles) [!UICONTROL Inspector])](placement-details-view.md), que incluye los siguientes datos exhaustivos:
-
-* **[!UICONTROL Sites]:** Todos los sitios en los que la ubicación ha tenido impresiones.
-
-  El [!UICONTROL Sites] La pestaña incluye funciones de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas que están disponibles en la página principal y una [!UICONTROL Exclude] en cada fila para poder excluir rápidamente un sitio de la ubicación.
-
-* **[!UICONTROL Ads]:** Todos los anuncios de la ubicación.
-
-  El [!UICONTROL Ads] La pestaña incluye funciones de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas que están disponibles en la página principal y botones de acción rápida en cada fila, como [!UICONTROL Pause] (para pausar rápidamente un anuncio).
-
-* **[!UICONTROL Frequency]:** Datos de cada nivel de frecuencia de anuncio para la ubicación, incluidos:
-   * el nivel de frecuencia de anuncio (como &quot;1&quot; para todas las instancias en las que los usuarios vieron un anuncio una vez)
-   * el número único estimado de dispositivos, exploradores o personas (según el especificado). [!UICONTROL Cross Device Level] para la campaña) que recibieron impresiones en el nivel de frecuencia especificado
-   * el número estimado de impresiones en el nivel de frecuencia especificado
-   * la frecuencia media estimada para el nivel de frecuencia especificado. Este valor es igual a (Impresiones estimadas)/(Valores exclusivos estimados).
-
-* **[!UICONTROL Inventory]:** Información sobre todas las ofertas segmentadas por la ubicación.
-
-  El [!UICONTROL Inventory] La pestaña de permite una solución de problemas rápida mostrando estadísticas de rendimiento, como [!UICONTROL Auctions], [!UICONTROL Bids], y [!UICONTROL Win Rate]. La pestaña incluye funciones de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas disponibles en la página principal y botones de acción rápida en cada fila, como [!UICONTROL Edit], [!UICONTROL View Report], y [[!UICONTROL Auction Insights] para una mayor resolución de problemas](/help/dsp/inventory/private-deal-auction-insights.md).
-
-#### Solucionar problemas de inventario
-
-| Problema | Causa posible | Acciones que se deben realizar |
-| -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | El publicador no ha comenzado a enviar solicitudes de oferta. | Póngase en contacto con el editor para activar la oferta. |
-| | La operación se configuró incorrectamente, por ejemplo, introduciendo un ID de oferta externa incorrecto. | Confirme los detalles de la oferta y edite la oferta. |
-| [!UICONTROL Auctions but no Bids] | La segmentación de ubicación no coincide con las solicitudes de oferta entrantes para la oferta. <br><br> Por ejemplo, una ubicación podría estar dirigida a una ubicación geográfica que no cumpla los requisitos para la oferta. | Edite los destinos de colocación según sea necesario para evitar discrepancias en los objetivos. |
-| | La ubicación no tiene un anuncio activo con el tipo de medios requerido para la oferta. | Cree y adjunte un anuncio con el tipo de medio correcto a la ubicación. |
-| | La ubicación no tiene un presupuesto adecuado. | Aumente el presupuesto de colocación para permitir pujas en las solicitudes entrantes. |
-| | Las fechas de vuelo de la ubicación no se superponen con las fechas de entrega de la impresión para la oferta. | Edite las fechas de vuelo de la ubicación según sea necesario. |
-| [!UICONTROL Low Win Rate] | La puja máxima de la ubicación (mínima o fija) está por debajo del mínimo requerido por la oferta. | Aumente el de la ubicación [!UICONTROL Max Bid] según sea necesario. |
-| | La ubicación utiliza filtros de oferta previa que limitan las ofertas. | Reduzca los umbrales de los filtros de oferta previa para permitir más ofertas. |
-| | La segmentación de audiencia para la ubicación es demasiado restrictiva. | Compruebe si los objetivos de audiencia especificados tienen suficientes usuarios activos y expanda la audiencia si es posible. |
-
-![ubicación Inspector](/help/dsp/assets/placement-inspector.png)
-
-Puede exportar los datos en el [!UICONTROL Sites], [!UICONTROL Ads], o [!UICONTROL Frequency] a la carpeta de descarga predeterminada del explorador como un informe en formato XLSM.
-
 ### Otros tipos de informes de nivel de campaña
 
-Para otros desgloses de datos, consulte [las páginas de informes de nivel de campaña](/help/dsp/campaign-management/campaigns/campaign-view-report.md). El <!--legacy --> el informe incluye secciones sobre [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], y [!UICONTROL Audience Performance] datos.
+Para otros desgloses de datos, consulte [las páginas de informes de nivel de campaña](/help/dsp/campaign-management/campaigns/campaign-view-report.md). El informe incluye secciones sobre [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], y [!UICONTROL Audience Performance] datos.
+
+### Otros tipos de informes de nivel de ubicación
+
+Para otros desgloses de datos, consulte [las páginas de informes de nivel de ubicación](/help/dsp/campaign-management/placements/placement-view-report.md). El informe incluye secciones sobre [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications], y [!UICONTROL Ads] datos.
+
+Además, puede ver los siguientes datos dentro de la configuración de ubicación:
+
+* [A (vista de detalles) [!UICONTROL Inspector])](placement-details-view.md), que muestra todos los sitios segmentados, los anuncios, los datos de frecuencia y las ofertas de una ubicación.
+
+* A [informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
+
+* [Informes de diagnóstico de ubicación](/help/dsp/campaign-management/reports/placement-diagnostics.md).
+
+
+### Otros tipos de informes de nivel de anuncios
+
+Para otros desgloses de datos, consulte [las páginas de informes de nivel de anuncio](/help/dsp/campaign-management/ads/ad-view-report.md). El informe incluye [!UICONTROL Overview], [!UICONTROL Geography], y [!UICONTROL Viewability] datos.
 
 >[!MORELIKETHIS]
 >
