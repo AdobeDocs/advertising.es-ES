@@ -3,9 +3,9 @@ title: ID de Adobe Advertising utilizados por [!DNL Analytics]
 description: ID de Adobe Advertising utilizados por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
+source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ El ID de AMO también se denomina `s_kwcid`, que a veces se pronuncia como &quot
 
 El parámetro se añade a las direcciones URL de seguimiento de una de las siguientes maneras:
 
-* (Recomendado) Se implementa la función de inserción del lado del servidor.
+* (Recomendado) Cuando se implementa la función de inserción del lado del servidor.
 
    * DSP Clientes de: El servidor de píxeles anexa automáticamente el parámetro s_kwcid a los sufijos de la página de aterrizaje cuando un usuario final ve un anuncio en pantalla con el píxel de Adobe Advertising.
 
@@ -120,7 +120,7 @@ El parámetro se añade a las direcciones URL de seguimiento de una de las sigui
 
       * Para otras redes de publicidad, o [!DNL Google Ads] y [!DNL Microsoft® Advertising] cuentas con el [!UICONTROL Auto Upload] configuración deshabilitada, agregue manualmente el parámetro a la [parámetros de adición de nivel de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que lo anexan a las direcciones URL base.
 
-* La función de inserción del lado del servidor no está implementada:
+* Cuando la función de inserción del lado del servidor no está implementada:
 
    * DSP clientes de la: [Código JavaScript](javascript.md) registra automáticamente las pulsaciones y las visualizaciones. Cuando un explorador no admite cookies de terceros, puede seguir realizando el seguimiento de las conversiones basadas en clics para los siguientes tipos de anuncios:
 
@@ -152,7 +152,7 @@ donde:
 
 Ejemplo de ID de AMO: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### Formatos de ID de AMO para anuncios de Search, Social y Commerce
+#### Formatos de ID de AMO para anuncios de Search, Social y Commerce {#amo-id-format-search}
 
 Los parámetros varían según la red de anuncios, pero los siguientes parámetros son comunes a todos los operadores:
 

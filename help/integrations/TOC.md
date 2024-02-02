@@ -4,9 +4,9 @@ user-guide-description: Obtenga información acerca las integraciones de Adverti
 breadcrumb-title: Integraciones con Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 5b72ac7dccfd72a1173347e91fe582a55d58fd7b
+source-git-commit: 41029d46df032a7fdf5b215df1c9413b4ae08a8c
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 11%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 11%
    + [ID de Adobe Advertising utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
    + Planificación de la implementación {#planning}
       + [Requisitos previos e información clave para la implementación [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
-      + [Código JavaScript para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
+      + [DSP () Código JavaScript para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
       + [Uso del [!DNL Last Event Service] Biblioteca JavaScript con Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
-      + Macros para etiquetas de publicidad {#macros}
+      + DSP () Macros para etiquetas de publicidad {#macros}
          + [Añadir [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de publicidad](/help/integrations/analytics/macros-flashtalking.md)
          + [Añadir [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Etiquetas de publicidad](/help/integrations/analytics/macros-google-campaign-manager.md)
    + Datos intercambiados {#data}
