@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Microsoft Advertising] configuración del grupo de publicidad"'
 description: Haga referencia a la configuración de [!DNL Microsoft Advertising] grupos de anuncios.
-exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** El estado de visualización del grupo de anuncios: *Activo* o *Pausado*. El valor predeterminado para los nuevos grupos de anuncios es *Activo*.
 
-**[!UICONTROL Ad Language]:** El idioma de destino de los anuncios.<!-- Which campaign types? Not there for audience image-based ad groups. -->
+**[!UICONTROL Ad Language]:** (Campañas de búsqueda) El idioma de destino de los anuncios.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Networks]
 
-**[!UICONTROL Networks]:** Cómo y dónde colocar los anuncios dentro del grupo de anuncios:
+**[!UICONTROL Networks]:** (Buscar anuncios) Cómo y dónde colocar los anuncios dentro del grupo de anuncios:
 
 * *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (el valor predeterminado): Para colocar ofertas de anuncios en la red de búsqueda.
 
@@ -105,6 +105,8 @@ Para [!DNL Microsoft Advertising] grupos de anuncios en la red de audiencias, lo
 <!-- **[!UICONTROL Custom Parameters]:** -->
 
 {{$include /help/_includes/custom-parameters.md}}
+
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (Opcional) El número de veces que se mostrarán anuncios a un cliente desde el grupo de anuncios. Introduzca un valor y seleccione la unidad de tiempo (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, o *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 
