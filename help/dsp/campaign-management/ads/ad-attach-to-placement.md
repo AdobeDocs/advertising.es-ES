@@ -3,9 +3,9 @@ title: Adjuntar anuncios a ubicaciones
 description: Obtenga información sobre cómo adjuntar anuncios a ubicaciones.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 55a9dd36d64fa42b7ff21714bae6e5afd04d1389
+source-git-commit: 972284a41dda4a7d7948f1763ba3674413a22954
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    1. (Opcional) Localice ubicaciones y anuncios específicos de cualquiera de las siguientes maneras:
 
-      * Sobre las tablas, haga clic en ![Filtrar](/help/dsp/assets/filter.png) y filtre las listas por tipo de ubicación, estado de ubicación, tipo de anuncio o estado de anuncio.
+      * Sobre la tabla izquierda, haga clic en ![Filtrar](/help/dsp/assets/filter.png) y filtrar las listas por paquete, tipo de ubicación, estado de ubicación, tipo de anuncio o estado de anuncio.
 
       * En las tablas derecha e izquierda, busque cadenas de texto específicas en los nombres de ubicación y anuncio.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. (Opcional) Localice ubicaciones y anuncios específicos según sea necesario:
 
-   * Sobre la tabla de la izquierda, filtre las listas por paquete, tipo de ubicación, estado de ubicación, tipo de anuncio o estado de anuncio.
+   * Sobre la tabla izquierda, haga clic en ![Filtrar](/help/dsp/assets/filter.png) y filtrar las listas por paquete, tipo de ubicación, estado de ubicación, tipo de anuncio o estado de anuncio.
 
    * En las tablas derecha e izquierda, busque cadenas de texto específicas en la ubicación o en el nombre del anuncio.
 
