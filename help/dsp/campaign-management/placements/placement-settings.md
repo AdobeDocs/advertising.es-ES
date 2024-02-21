@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0836206b41789749a92bd9557a984896e710ec3a
+source-git-commit: 820fbfb2b572df628976b03d186e5704ecd092a9
 workflow-type: tm+mt
-source-wordcount: '3433'
+source-wordcount: '3511'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    * Para reutilizar tipos de destino individuales de una plantilla, expanda el nombre de la plantilla y active la casilla de verificación situada junto a los tipos de destino que desea reutilizar.
 
-1. Haga clic **[!UICONTROL Apply]**.
+1. Clic **[!UICONTROL Apply]**.
 
 **[!UICONTROL Ad specs for forecast]:** (Solo formatos de anuncio de vídeo) La duración del anuncio o las especificaciones del anuncio, que se utilizan para calcular la proyección de Forecast a la derecha. Los campos varían según el tipo de anuncio.
 
@@ -46,7 +46,7 @@ En los informes personalizados, la dimensión de nivel de ubicación &quot;Entor
 
 ## Metas
 
-**[!UICONTROL Package]:** (Opcional) Un paquete al que se asigna la ubicación. Clic ![Editar](/help/dsp/assets/edit.png) para seleccionar un paquete existente o crear un nuevo paquete. Al asignar la ubicación a un paquete, la variable [!UICONTROL Goals] se actualiza con las fechas de vuelo, el objetivo de envío y el presupuesto del paquete.
+**[!UICONTROL Package]:** (Opcional) Un paquete al que se asigna la ubicación. Clic ![Editar](/help/dsp/assets/edit.png) para seleccionar un paquete existente o crear un paquete. Al asignar la ubicación a un paquete, la variable [!UICONTROL Goals] se actualiza con las fechas de vuelo, el objetivo de envío y el presupuesto del paquete.
 
 **[!UICONTROL Flight Dates]:** La fecha de inicio y la fecha de finalización de la ubicación. Los anuncios aprobados pueden ejecutarse durante el vuelo cuando la ubicación esté activa y asignada a un paquete o campaña activos.
 
@@ -56,13 +56,16 @@ Las fechas del paquete (cuando corresponda) o de la campaña se rellenan automá
 >
 >* Las fechas de vuelo deben incluirse en las fechas de vuelo de la campaña y en las fechas de vuelo del paquete.
 
-
 ### Ubicaciones asignadas a paquetes con ritmo de nivel de paquete
 
 **[!UICONTROL Placement Funding]:** Cómo presupuestar la ubicación:
 
 * *[!UICONTROL Optimize based on performance]:* Controla el presupuesto en el nivel de paquete.
-* *[!UICONTROL Set a fixed budget cap]:* Le permite establecer un presupuesto de ubicación diario, semanal, mensual o permanente. Introduzca un valor y la duración (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
+* *[!UICONTROL Set a Fixed Minimum or Maximum Budget]:* Permite establecer un presupuesto de colocación mínimo o máximo. Especifique al menos un tipo de presupuesto:
+
+   * *[!UICONTROL Maximum Budget]*: introduzca un valor y la duración (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
+
+   * *[!UICONTROL Minimum Budget]*: el presupuesto mínimo como porcentaje del presupuesto del paquete. Cuando se especifica un límite de intervalo, el valor de presupuesto mínimo siempre se calcula como un porcentaje del límite de intervalo. De lo contrario, se calcula como un porcentaje del presupuesto del paquete.
 
 **[!UICONTROL Max Bid]:** El máximo para pagar 1000 impresiones.
 
@@ -71,10 +74,10 @@ Las fechas del paquete (cuando corresponda) o de la campaña se rellenan automá
 1. Clic ![Editar](/help/dsp/assets/edit.png).
 1. Realice una de las acciones siguientes:
    * Para añadir un filtro:
-      1. Haga clic **[!UICONTROL Add Filter]**.
+      1. Clic **[!UICONTROL Add Filter]**.
       1. Junto a **[!UICONTROL Only bid if]**, seleccione una métrica y, a continuación, introduzca un valor.
    * Para quitar un filtro, haga clic en **[!UICONTROL X]** en la fila de filtro.
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 Consulte las descripciones de cada filtro de oferta previa en &quot;[Filtros previos a la oferta de nivel de ubicación y cómo utilizarlos](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot;
 
@@ -92,7 +95,7 @@ Consulte las descripciones de cada filtro de oferta previa en &quot;[Filtros pre
 >
 >Este campo es solo un punto de referencia y no se utiliza para la toma de decisiones.
 
-**[!UICONTROL Pace on]:** En qué se basará el ritmo:
+**[!UICONTROL Pace on]:** La base del ritmo:
 
 * **[!UICONTROL Budget goal]:** (Predeterminado) Esta opción ofrece tantas impresiones como sea posible dentro del presupuesto asignado.
 
@@ -116,19 +119,19 @@ Consulte las descripciones de cada filtro de oferta previa en &quot;[Filtros pre
 
 * *[!UICONTROL ASAP]:* (El valor predeterminado) Acelera la entrega al doble de velocidad que *Uniforme*.
 
-   >[!CAUTION]
-   >
-   >Esta opción puede afectar negativamente al rendimiento. Utilícelo únicamente cuando priorice completamente la entrega y gaste en lugar de optimizar el rendimiento.
+  >[!CAUTION]
+  >
+  >Esta opción puede afectar negativamente al rendimiento. Utilícelo únicamente cuando priorice completamente la entrega y gaste en lugar de optimizar el rendimiento.
 
 **[!UICONTROL Placement Pre-bid Filters]:** (Opcional) Hasta cinco filtros que deben cumplirse para que se produzca la puja. Puede usar filtros de oferta previa como tácticas de optimización, pero tenga en cuenta que cada regla puede limitar las oportunidades en las que esta ubicación puede pujar. Para añadir o editar filtros:
 
 1. Clic ![Editar](/help/dsp/assets/edit.png).
 1. Realice una de las acciones siguientes:
    * Para añadir un filtro:
-      1. Haga clic **[!UICONTROL Add Filter]**.
+      1. Clic **[!UICONTROL Add Filter]**.
       1. Junto a **[!UICONTROL Only bid if]**, seleccione una métrica y, a continuación, introduzca un valor.
    * Para quitar un filtro, haga clic en **[!UICONTROL X]** en la fila de filtro.
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## [!UICONTROL Geo-Targeting]
 
@@ -147,25 +150,24 @@ Para especificar ubicaciones:
       1. (Según sea necesario) Haga clic en una ubicación para expandirla.
       1. Junto a la ubicación, haga clic en *[!UICONTROL Include]* para incluirlo como destino o *[!UICONTROL Exclude]* para excluirlo como objetivo.
    * Para buscar un código postal e incluir o excluir todos los resultados seleccionados:
-      1. Haga clic **[!UICONTROL Search Postal Code]**.
+      1. Clic **[!UICONTROL Search Postal Code]**.
       1. Seleccione el país.
       1. Introduzca el nombre de la ciudad y haga clic en ![Editar](/help/dsp/assets/search.png).
       1. Haga clic en el resultado de búsqueda correcto.
       1. Clic *[!UICONTROL Include All]* para incluir todas las ubicaciones como destinos o *[!UICONTROL Exclude All]* para excluir todas las ubicaciones como destinos.
    * Para introducir o pegar códigos postales e incluirlos o excluirlos todos:
-      1. Haga clic **[!UICONTROL Paste Postal Code]**.
+      1. Clic **[!UICONTROL Paste Postal Code]**.
       1. Seleccione el país.
       1. Introduzca o pegue hasta 1000 códigos postales.
 Incluya un código postal por línea o introduzca varios valores separados por comas o tabulaciones.
       1. Clic *[!UICONTROL Include All]* para incluir todas las ubicaciones como destinos o *[!UICONTROL Exclude All]* para excluir todas las ubicaciones como destinos.
    * Para quitar una ubicación de [!UICONTROL Included] o [!UICONTROL Excluded] , haga clic en **[!UICONTROL X]** situado junto a la ubicación en la columna derecha.
-1. Haga clic **[!UICONTROL Done]**.
+1. Clic **[!UICONTROL Done]**.
 
 >[!NOTE]
 >
 >* No todos los países tienen ubicaciones de estado, ciudad o código postal.
 >* DMA (área de mercado designada), distritos legislativos federales y distritos legislativos estatales solo están disponibles para ubicaciones de EE. UU.
-
 
 ## [!UICONTROL Inventory Targeting]
 
@@ -173,15 +175,19 @@ Incluya un código postal por línea o introduzca varios valores separados por c
 
 * [!UICONTROL Public]DSP : (Todos los tipos de ubicación excepto Roku) Todos los inventarios de intercambio abiertos a los que tiene acceso la. Puede incluir y excluir el inventario público.
 
-   Puede ver la lista por origen o por fuente. Cuando vea la lista por fuente, puede buscar por nombre de fuente, clave de fuente o una etiqueta de característica seleccionada.
+  Puede ver la lista por origen o por fuente. Cuando vea la lista por fuente, puede buscar por nombre de fuente, clave de fuente o una etiqueta de característica seleccionada.
 
 * [!UICONTROL Private] | [!UICONTROL Roku Private]: sus ofertas privadas existentes (o las ofertas privadas existentes) [!DNL Roku] ofertas para [!DNL Roku] DSP ubicaciones) con los editores que ha configurado en el sitio de trabajo de la versión de la aplicación de. Puede incluir, pero no excluir, el inventario público.
 
-   Puede buscar en la lista por palabra clave, clave, ID de oferta o etiqueta personalizada.
+  Puede buscar en la lista por palabra clave, clave, ID de oferta o etiqueta personalizada.
+
+   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Opcional) Anula el algoritmo de precio de oferta para pujar al menos los precios fijos y mínimos de las ofertas.
 
 * [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: todos [premium, no garantizado [!UICONTROL On Demand] inventario](/help/dsp/inventory/on-demand-inventory-about.md) (o [!UICONTROL On Demand] [!DNL Roku] ofertas para [!DNL Roku] ubicaciones) a las que se ha suscrito en [!DNL DSP]. Puede incluir y excluir [!UICONTROL On Demand] inventario.
 
-   Puede ver la lista por origen o por fuente. Cuando vea la lista por fuente, puede buscar por nombre de fuente, clave de fuente o una región de editor, etiqueta de categoría o etiqueta característica seleccionada.
+  Puede ver la lista por origen o por fuente. Cuando vea la lista por fuente, puede buscar por nombre de fuente, clave de fuente o una región de editor, etiqueta de categoría o etiqueta característica seleccionada.
+
+   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Opcional) Anula el algoritmo de precio de oferta para pujar al menos los precios fijos y mínimos de las ofertas.
 
 Para especificar la segmentación de inventario:
 
@@ -199,7 +205,7 @@ Para especificar la segmentación de inventario:
             * Para incluir un origen de inventario individual, expanda el nombre de la oferta y, a continuación, haga clic en la casilla de verificación situada junto al nombre del origen.
          * Para excluir un [!UICONTROL Public] o [!UICONTROL On source], haga clic en **[!UICONTROL Exclude]** junto al nombre de origen.
    1. (Opcional) Para descargar un archivo CSV con la información de objetivo en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Save & Export]**.
-   1. Haga clic **[!UICONTROL Save]**.
+   1. Clic **[!UICONTROL Save]**.
 
 >[!TIP]
 >
@@ -216,8 +222,11 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 **[!UICONTROL Site tier]:** (Disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) La calidad de los sitios de destino. DSP Los niveles 1-3 son todos seguros para la marca y han sido evaluados y aprobados por el equipo de mapeo de la.
 
 * *[!UICONTROL Tier 1]:* Sitios y aplicaciones Premium reconocibles a nivel nacional.
+
 * *[!UICONTROL Tier 2]:* Se dirige al nivel 1, así como a sitios y aplicaciones de calidad menos conocidos que el nivel 1.
-* *[!UICONTROL Tier 3]:* Se dirige a los niveles 1-2, así como a sitios y aplicaciones legítimos y seguros para la marca que se adaptan a una audiencia específica. Utilice el nivel 3 para las compras de alcance o segmentación de datos.
+
+* *[!UICONTROL Tier 3]:* Se dirige a los niveles 1-2, además de sitios y aplicaciones legítimos y seguros para la marca que se adaptan a una audiencia específica. Utilice el nivel 3 para las compras de alcance o segmentación de datos.
+
 * *[!UICONTROL All Sites]:* Se dirige a los niveles 1-3 y al nuevo inventario que no se ha examinado ni clasificado, y que puede utilizar para llegar a ellos.
 
 >[!NOTE]
@@ -228,40 +237,39 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 >
 >Para las campañas de rendimiento, la práctica recomendada es seleccionar *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (Opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Categorías de sitio dentro de los niveles de sitio seleccionados para incluirlas o excluirlas (pero no ambas) como destinos. DSP Elija entre las listas verticales de sitios que ha asignado el sitio en función del asunto del sitio:
+**[!UICONTROL Site Categories]:** (Opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Categorías de sitio dentro de los niveles de sitio seleccionados para incluirlas o excluirlas (pero no ambas) como destinos. DSP Elija entre las listas verticales de sitios que ha asignado el usuario en función del asunto:
 
 1. Clic ![Editar](/help/dsp/assets/edit.png).
 1. Especifique las categorías del sitio que se incluirán o excluirán:
    * Para incluir categorías de sitio:
-      1. Haga clic **[!UICONTROL Include categories]**.
+      1. Clic **[!UICONTROL Include categories]**.
       1. Seleccione la casilla de verificación situada junto a cada categoría de destino.
    * Para excluir las categorías del sitio:
-      1. Haga clic **[!UICONTROL Exclude categories]**.
+      1. Clic **[!UICONTROL Exclude categories]**.
       1. Seleccione la casilla de verificación situada junto a cada categoría que desee excluir.
 1. (Opcional) Para descargar un archivo CSV con la información de objetivo en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 **[!UICONTROL Exclude Sites]:** (Opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Sitios que excluir. Puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio:
 
 1. Clic ![Editar](/help/dsp/assets/edit.png).
 1. Especifique los sitios:
    * Para buscar un sitio:
-      1. Haga clic **[!UICONTROL Search]**.
+      1. Clic **[!UICONTROL Search]**.
       1. Introduzca una palabra clave, seleccione un nivel de sitio y/o seleccione una categoría de sitio.
       1. En los resultados de búsqueda, seleccione los sitios que desea excluir:
          * Para excluir un sitio individual, active la casilla de verificación situada junto a él.
          * (Cuando haya más de 50 resultados disponibles) Para excluir los primeros 50 resultados, haga clic en **[!UICONTROL Exclude these 50]**. Para excluir todos los resultados de la búsqueda, haga clic en **[!UICONTROL Exclude these \<*NN *\>]**.
    * Para introducir nombres de dominio:
-      1. Haga clic **[!UICONTROL Paste]**.
+      1. Clic **[!UICONTROL Paste]**.
       1. Escriba uno o varios nombres de dominio en líneas independientes.
-      1. Haga clic **[!UICONTROL Exclude All]**.
+      1. Clic **[!UICONTROL Exclude All]**.
 1. Clic **[!UICONTROL Done]** cuando hayas terminado.
 
 >[!NOTE]
 >
 >* DSP También se aplican listas de sitios bloqueados a nivel de cuenta y de anunciante, además de la lista de sitios bloqueados a nivel de [lista de sitios bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md), que incluye sitios considerados inseguros para los anuncios.
 >* Las listas de sitios bloqueados siempre anulan las listas de sitios de destino. Si una ubicación excluye e incluye el mismo destino para un anuncio, se excluye el destino.
-
 
 **[!UICONTROL Language]:** (Opcional) Un solo idioma de destino.
 
@@ -278,37 +286,37 @@ Si lo desea, puede exportar la lista de sitios de destino y bloqueados como arch
 1. Clic ![Editar](/help/dsp/assets/edit.png).
 1. Especifique los sitios:
    * Para buscar un sitio:
-      1. Haga clic **[!UICONTROL Search]**.
+      1. Clic **[!UICONTROL Search]**.
       1. Introduzca una palabra clave, seleccione un nivel de sitio y/o seleccione una categoría de sitio.
       1. En los resultados de búsqueda, seleccione los sitios que desea incluir:
          * Para excluir un sitio individual, active la casilla de verificación situada junto a él.
-         * (Cuando haya más de 50 resultados disponibles) Para incluir los 50 primeros resultados, haga clic en **[!UICONTROL Include these 50]**. Para incluir todos los resultados de la búsqueda, haga clic en **[!UICONTROL Include these \<*NN *\>]**.
+         * (Cuando haya más de 50 resultados disponibles) Para incluir los 50 primeros resultados, haga clic en **[!UICONTROL Include these 50]**. Para incluir todos los resultados de búsqueda, haga clic en **[!UICONTROL Include these \<*NN *\>]**.
    * Para introducir nombres de dominio:
       1. click **[!UICONTROL Paste]**.
       1. Escriba uno o varios nombres de dominio en líneas independientes.
-      1. Haga clic **[!UICONTROL Include All]**.
-1. Haga clic **[!UICONTROL Done]**.
+      1. Clic **[!UICONTROL Include All]**.
+1. Clic **[!UICONTROL Done]**.
 
 ## [!UICONTROL Audience Targeting]
 
-**[!UICONTROL Included Audiences]:** Cualquier destinatario de audiencia para la ubicación, incluidos [segmentos de terceros, segmentos de origen, segmentos de Adobe, segmentos personalizados y audiencias guardadas](/help/dsp/audiences/audience-settings.md). También se muestra el tamaño de audiencia deduplicada total y activa en todos los segmentos seleccionados y en las audiencias guardadas. Puede seleccionar una audiencia existente, crear una audiencia nueva que pueda reutilizar posteriormente o seleccionar segmentos de audiencia específicos:
+**[!UICONTROL Included Audiences]:** Cualquier destinatario de audiencia para la ubicación, incluidos [segmentos de terceros, segmentos de origen, segmentos de Adobe, segmentos personalizados y audiencias guardadas](/help/dsp/audiences/audience-settings.md). También se muestra el tamaño de audiencia deduplicada total y activa en todos los segmentos seleccionados y en las audiencias guardadas. Puede seleccionar una audiencia existente, crear una audiencia que pueda reutilizar posteriormente o seleccionar segmentos de audiencia específicos:
 
 * Para seleccionar una audiencia existente, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) junto a [!UICONTROL Included Audiences]y, a continuación, seleccione la audiencia.
-* Para crear una audiencia nueva, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) junto a [!UICONTROL Included Audiences], y luego seleccione **[!UICONTROL + Create Audience]**. Para obtener instrucciones, consulte [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md), empezando por el paso 3.
+* Para crear una audiencia, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) junto a [!UICONTROL Included Audiences], y luego seleccione **[!UICONTROL + Create Audience]**. Para obtener instrucciones, consulte [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md), empezando por el paso 3.
 * Para seleccionar segmentos de audiencia específicos, haga clic en **[!UICONTROL Select segments for this placement only]**. Seleccione la lógica del segmento; para obtener instrucciones, consulte el paso 6 en &quot;[Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md).&quot; Cuando haya terminado, haga clic en **Guardar**.
 
 **[!UICONTROL Excluded Audiences]:** Cualquier audiencia que se excluya para la ubicación, incluidas las audiencias con [segmentos de terceros, segmentos de origen, segmentos de Adobe, segmentos personalizados y audiencias guardadas](/help/dsp/audiences/audience-settings.md). También se muestra el tamaño de audiencia deduplicada total y activa en todas las audiencias excluidas. Puede seleccionar una audiencia existente o crear una nueva que pueda reutilizar más adelante:
 
 * Para seleccionar una audiencia existente, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) junto a [!UICONTROL Excluded Audiences]y, a continuación, seleccione la audiencia.
-* Para crear una audiencia nueva, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) junto a [!UICONTROL Excluded Audiences], y luego seleccione **+ Crear audiencia**. Para obtener instrucciones, consulte [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md), empezando por el paso 3.
+* Para crear una audiencia, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) junto a [!UICONTROL Excluded Audiences], y luego seleccione **+ Crear audiencia**. Para obtener instrucciones, consulte [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md), empezando por el paso 3.
 
-**[!UICONTROL Cross Device Targeting]:** (Disponible cuando selecciona al menos un segmento o audiencia y la variable [campaign está configurada para la segmentación entre dispositivos basada en personas](/help/dsp/campaign-management/campaigns/campaign-settings.md). Permite ampliar el direccionamiento a todos los dispositivos conocidos de una persona (según el gráfico del dispositivo especificado en la configuración de la campaña), incluso a los dispositivos que no están en los segmentos especificados. Se pueden aplicar tarifas según el gráfico especificado para la campaña. Actualmente, los datos de gráficos de dispositivos solo están disponibles en Norteamérica.
+**[!UICONTROL Cross Device Targeting]:** (Disponible cuando selecciona al menos un segmento o audiencia y la variable [campaign está configurada para la segmentación entre dispositivos basada en personas](/help/dsp/campaign-management/campaigns/campaign-settings.md). Permite ampliar el direccionamiento a todos los dispositivos conocidos de una persona (según el gráfico del dispositivo especificado en la configuración de la campaña), incluso a los dispositivos que no están en los segmentos especificados. Se pueden aplicar tarifas según el gráfico especificado para la campaña. Los datos de gráficos de dispositivos solo están disponibles en Norteamérica.
 
-**[!UICONTROL Placement Cap]:** (Opcional) El número de veces que un dispositivo o una persona únicos (según el especificado) [!UICONTROL Cross Device Level] para la campaña) se mostrarán anuncios desde la ubicación. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
+**[!UICONTROL Placement Cap]:** (Opcional) El número de veces que un dispositivo o una persona únicos (según el especificado) [!UICONTROL Cross Device Level] para la campaña) se muestran en los anuncios desde la ubicación. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
 
 >[!NOTE]
 >
-> Puede establecer límites de frecuencia en los niveles de campaña, paquete y ubicación. DSP respetará el límite de frecuencia más estricto en la jerarquía de campañas.
+> Puede establecer límites de frecuencia en los niveles de campaña, paquete y ubicación. DSP respeta el límite de frecuencia más estricto de la jerarquía de campañas.
 
 **[!UICONTROL Secondary Cap]:** (Opcional; disponible cuando se incluye un valor numérico) [!UICONTROL Placement Cap]) Una limitación adicional dentro de los límites del límite de ubicación principal. Seleccione el número de impresiones y el período de tiempo (por ejemplo, 3 por 12 horas).
 
@@ -319,7 +327,7 @@ Si lo desea, puede exportar la lista de sitios de destino y bloqueados como arch
 1. Especifique los intervalos:
    * Para seleccionar un intervalo preestablecido, haga clic en uno de los botones de intervalo. Las opciones incluyen *[!UICONTROL Weekends]**, *[!UICONTROL Weekdays]*, *[!UICONTROL Morning]*, *[!UICONTROL Lunch]*, *[!UICONTROL Dinner]*, o *[!UICONTROL Prime]* (primetime).
    * Para seleccionar manualmente un intervalo, haga clic dentro de una celda y, opcionalmente, arrastre para seleccionarlo.
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 **[!UICONTROL Topic Targeting]:** (Opcional; disponible para anunciantes configurados con [!DNL Comscore] y [!DNL Grapeshot] segmentos) Nombres de segmentos específicos o ID de [!DNL Comscore] y [!DNL Grapeshot] para incluirlos como destinos. Se pueden aplicar tarifas adicionales para esta función. Para activar esta función y configurar segmentos de temas, póngase en contacto con el equipo de cuenta de Adobe.
 
@@ -330,14 +338,13 @@ Para especificar la segmentación de temas:
    1. En la columna izquierda, seleccione el socio (*[!UICONTROL Comscore]* o *[!UICONTROL Grapeshot]*).
    1. En el campo de entrada, introduzca los nombres o ID de los segmentos.
 1. (Opcional) Para descargar un archivo CSV con la información del tema en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 >[!TIP]
 >
 >* La segmentación de temas limita el inventario en el que se puede pujar, por lo que debe utilizar la segmentación de temas solo para un pequeño porcentaje de la compra general.
 >
 >* Configure cualquier objetivo negativo dentro del segmento en [!DNL Comscore] o [!DNL Grapeshot].
-
 
 **[!UICONTROL Device Targeting]:** (Opcional) Información específica del dispositivo, incluidos los tipos de dispositivo, los fabricantes, los sistemas operativos, los navegadores y los tipos de conectividad, que se deben incluir y excluir como objetivos. Para especificar la segmentación del dispositivo:
 
@@ -348,22 +355,22 @@ Para especificar la segmentación de temas:
       * Para incluir un valor, haga clic en **[!UICONTROL Include]** junto al nombre del valor.
       * Para excluir un valor, haga clic en **[!UICONTROL Exclude]** junto al nombre del valor.
 1. (Opcional) Para descargar un archivo CSV con la información de segmentación del dispositivo en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 **[!UICONTROL ISP Targeting]:** (Opcional) Los proveedores de servicios de Internet (ISP) específicos deben incluir o excluir (pero no ambos) como destinatarios. Para especificar la segmentación del ISP:
 
 1. Clic ![Editar](/help/dsp/assets/edit.png).
 1. Especifique los ISP que desea incluir o excluir:
    * Para incluir ISP:
-      1. Haga clic **[!UICONTROL Include ISPs]**.
+      1. Clic **[!UICONTROL Include ISPs]**.
       1. (Opcional) Filtre la lista por palabra clave.
       1. Seleccione la casilla de verificación situada junto a cada ISP que desee segmentar.
    * Para excluir los ISP:
-      1. Haga clic **[!UICONTROL Exclude ISPs]**.
+      1. Clic **[!UICONTROL Exclude ISPs]**.
       1. (Opcional) Filtre la lista por palabra clave.
       1. Seleccione la casilla de verificación situada junto a cada ISP que desee excluir.
 1. (Opcional) Para descargar un archivo CSV con la información de segmentación del ISP en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## [!UICONTROL Brand Safety and Media Targeting]
 
@@ -391,21 +398,21 @@ Para especificar la segmentación de temas:
 
 * [!UICONTROL DoubleVerify]:
 
-   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** De forma predeterminada, bloquea todo el tráfico 100 % inválido, incluido el tráfico en dispositivos pirateados, para las nuevas ubicaciones. Se pueden aplicar tarifas adicionales.
+   * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** De forma predeterminada, bloquea todo el tráfico 100 % inválido, incluido el tráfico en dispositivos secuestrados, para las nuevas ubicaciones. Se pueden aplicar tarifas adicionales.
 
-   * **[!UICONTROL Also block sites with]:** DSP (Opcional) Un nivel adicional de fraude y tráfico no válido que hará que los anuncios se bloqueen de forma predeterminada por parte de los:  *[!UICONTROL None]* (el valor predeterminado, que no bloquea el tráfico adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*, o *[!UICONTROL >25% Average Fraud/IVT levels]*. Se pueden aplicar tarifas adicionales.
+   * **[!UICONTROL Also block sites with]:** DSP (Opcional) Un nivel adicional de fraude y tráfico no válido que hace que los anuncios se bloqueen de forma predeterminada por parte de los usuarios de la siguiente manera:  *[!UICONTROL None]* (el valor predeterminado, que no bloquea el tráfico adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*, o *[!UICONTROL >25% Average Fraud/IVT levels]*. Se pueden aplicar tarifas adicionales.
 
 * [!UICONTROL Peer 39]:
 
-   * **[!UICONTROL Block sites that are]:** DSP (Opcional) Uno o más tipos de fraude que causarán que los anuncios se bloqueen de forma predeterminada de la manera más frecuente que se puede hacer: *[!UICONTROL Fraud]* (que bloquea todos los sitios con fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, y/o *[!UICONTROL Fraud: Zero Ads]*. Se pueden aplicar tarifas adicionales.
+   * **[!UICONTROL Block sites that are]:** DSP (Opcional) Uno o más tipos de fraude que causan que los anuncios se bloqueen de forma predeterminada con la ayuda de la siguiente manera: *[!UICONTROL Fraud]* (que bloquea todos los sitios con fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, y/o *[!UICONTROL Fraud: Zero Ads]*. Se pueden aplicar tarifas adicionales.
 
 * [!UICONTROL Integral Ad Science]:
 
-   * **[!UICONTROL Block sites that are]:** DSP (Opcional) Un tipo de actividad sospechosa de un sitio web o una aplicación que hará que los usuarios bloqueen los anuncios de forma predeterminada: *[!UICONTROL None]* (el valor predeterminado, que no bloquea los anuncios en función de la actividad sospechosa), *[!UICONTROL Suspicious Activity - High Risk]*, o *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Se pueden aplicar tarifas adicionales.
+   * **[!UICONTROL Block sites that are]:** DSP (Opcional) Un tipo de actividad sospechosa de un sitio web o una aplicación que hace que los anuncios se bloqueen de forma predeterminada de la siguiente manera: *[!UICONTROL None]* (el valor predeterminado, que no bloquea los anuncios en función de la actividad sospechosa), *[!UICONTROL Suspicious Activity - High Risk]*, o *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Se pueden aplicar tarifas adicionales.
 
 **[!UICONTROL Ads.txt filtering]:**
 
-Qué nivel de [Ads.txt](https://iabtechlab.com/ads-txt-about/) Filtro de ofertas previas que se usará aprovechando la lista de vendedores digitales autorizados de cada editor. El nivel de anunciante predeterminado está seleccionado para nuevas ubicaciones, pero puede cambiar la configuración:
+Qué nivel de [Ads.txt](https://iabtechlab.com/ads-txt-about/) Filtro de ofertas previas que se usará aplicando la lista de vendedores digitales autorizados de cada editor. El nivel de anunciante predeterminado está seleccionado para nuevas ubicaciones, pero puede cambiar la configuración:
 
 * *[!UICONTROL Opt out of ads.txt (default)]*: para comprar inventario a todos los vendedores.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: para priorizar la compra de inventario a los vendedores directos y revendedores autorizados de un dominio.
@@ -425,37 +432,37 @@ Qué nivel de [Ads.txt](https://iabtechlab.com/ads-txt-about/) Filtro de ofertas
 1. Clic ![Editar](/help/dsp/assets/edit.png).
 1. Realice una de las siguientes acciones:
    * Para seleccionar un píxel existente, marque la casilla de verificación en la fila de píxeles.
-   * Para crear un píxel nuevo:
-      1. Haga clic **[!UICONTROL Create]**.
+   * Para crear un píxel:
+      1. Clic **[!UICONTROL Create]**.
       1. Introduzca la siguiente información:
          * **[!UICONTROL Pixel name]:** Nombre del píxel; la longitud máxima es de 500 caracteres. Utilice un nombre que le ayude a identificar fácilmente el píxel.
          * **[!UICONTROL Pixel event fires on]:** Evento que déclencheur el píxel que se va a activar. Los eventos disponibles varían según el tipo de anuncio.
          * **[!UICONTROL Pixel type]:** Si el píxel es un *[!UICONTROL IMG URL]* (archivo de imagen de 1x1 píxeles), *[!UICONTROL HTML]*, o *[!UICONTROL JavaScript URL]*.
          * **[!UICONTROL Pixel URL]:** La URL de la imagen de píxel.
-      1. Haga clic **[!UICONTROL Create and attach]**.
-   1. Haga clic **[!UICONTROL Save]**.
+      1. Clic **[!UICONTROL Create and attach]**.
+   1. Clic **[!UICONTROL Save]**.
 
-**[!UICONTROL Conversion Pixels]:** (Opcional) Píxeles de seguimiento de conversión que se adjuntarán de forma predeterminada a todos los anuncios nuevos de la ubicación. Para especificar píxeles de conversión:
+**[!UICONTROL Conversion Pixels]:** (Opcional) Los píxeles de seguimiento de conversión se adjuntarán de forma predeterminada a todos los anuncios nuevos de la ubicación. Para especificar píxeles de conversión:
 
 1. Clic ![Editar](/help/dsp/assets/edit.png).
 1. Realice una de las siguientes acciones:
    * Para seleccionar un píxel existente, marque la casilla de verificación en la fila de píxeles.
-   * Para crear un píxel nuevo:
-      1. Haga clic **[!UICONTROL Create]**.
+   * Para crear un píxel:
+      1. Clic **[!UICONTROL Create]**.
       1. Introduzca la siguiente información:
          * **[!UICONTROL Conversion pixel name]:** Nombre del píxel; la longitud máxima es de 500 caracteres. Utilice un nombre que le ayude a identificar fácilmente el píxel.
          * **[!UICONTROL Conversion category]:** El tipo de conversión.
          * **[!UICONTROL Impression conversion window]:** El número de días después de que se produzca una impresión de anuncio en los que la impresión puede atribuirse a una conversión. El valor predeterminado es de 30 días.
          * **[!UICONTROL Click conversion window]:** El número de días después de que se produzca un clic en un anuncio en los que el clic puede atribuirse a una conversión. El valor predeterminado es de 30 días.
          * **[!UICONTROL Notes]:** (Opcional) Una descripción u otra información sobre el píxel.
-      1. Haga clic **[!UICONTROL Create and attach]**.
+      1. Clic **[!UICONTROL Create and attach]**.
       1. Implemente el píxel de conversión en las páginas web relevantes:
          1. En el menú principal, vaya a **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**.
          1. En la fila de píxeles, haga clic en **[!UICONTROL edit]**.
          1. Copie los valores en la variable [!UICONTROL HTML Tag] y [!UICONTROL Flash Tag] campos, según sea necesario, para proporcionar al anunciante o al contacto del sitio web.
 
             Es posible que el departamento de TI del anunciante u otro grupo tengan que programar la implementación de etiquetas o recibir información al respecto.
-   1. Haga clic **[!UICONTROL Save]**.
+   1. Clic **[!UICONTROL Save]**.
 
 **[!UICONTROL 3rd-party Fees]:** (Opcional) Una tarifa estática de terceros que se rastreará como un coste no facturable por 1000 impresiones. El valor predeterminado de nivel de paquete se aplica automáticamente a las nuevas ubicaciones, cuando corresponda, a menos que introduzca un valor diferente.
 
@@ -471,4 +478,3 @@ Qué nivel de [Ads.txt](https://iabtechlab.com/ads-txt-about/) Filtro de ofertas
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Preguntas frecuentes sobre Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
-
