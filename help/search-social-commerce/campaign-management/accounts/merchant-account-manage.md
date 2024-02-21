@@ -1,11 +1,11 @@
 ---
 title: Administrar cuentas de comerciante
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta de un centro de comerciantes.
-exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,19 @@ Para ver los datos del producto y generar plantillas de seguimiento para una cue
 
    1. En el [!UICONTROL Product Source] , seleccione el centro de comerciantes.
 
+   <!--
+
+   1. ([!DNL Meta Ads] accounts only) Log in to the [!DNL Meta Ads] account.
+
+   And are there additional steps just for Meta? If so, create a separate procedure for it.
+   
+   -->
+
    1. (Necesario para [!DNL Google Ads] cuentas; opcional para [!DNL Microsoft Advertising] cuentas) Permita que Search, Social y Commerce accedan a la cuenta utilizando [[!DNL OAuth] protocolo de autorización](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] solo cuentas) Seleccione **[!UICONTROL oAuth]**.
 
-      1. Haga clic **[!UICONTROL Enable Connection]**.
+      1. Clic **[!UICONTROL Enable Connection]**.
 
       1. (Si no ha iniciado sesión en la cuenta del anunciante) Inicie sesión en la cuenta del anunciante. Una práctica recomendada es utilizar las credenciales para el acceso de la API de contenido a la cuenta del centro de comerciantes.
 
@@ -52,7 +60,7 @@ Para ver los datos del producto y generar plantillas de seguimiento para una cue
 
       1. Especifique el resto de configuraciones de la cuenta.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
    Los datos de atributos de todos los productos de la cuenta están disponibles en Search, Social y Commerce después del siguiente proceso de sincronización diario (sobre las 06:00 en la zona horaria local del usuario). A continuación, puede utilizar los datos del producto para automatizar la creación de anuncios mediante fuentes de inventario.
 
@@ -72,7 +80,7 @@ Si las credenciales de la cuenta cambian o desea dejar de recuperar y utilizar d
 
 1. Edite el [configuración de cuenta de comerciante](#merchant-account-settings).
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -90,7 +98,7 @@ Al deshabilitar una cuenta de comerciante, Search, Social y Commerce no inician 
 
 1. Cambie el [!UICONTROL EF Account Type] hasta **[!UICONTROL Disabled]**.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## Configuración de cuenta de comerciante {#merchant-account-settings}
 
