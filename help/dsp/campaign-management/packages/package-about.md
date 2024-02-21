@@ -3,9 +3,9 @@ title: DSP Acerca de la administración de paquetes en Advertising
 description: Obtenga información acerca de la administración de paquetes.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ También muestra, de forma predeterminada, las métricas de ritmo y envío por p
 >
 >Puede personalizar aún más el contenido y el envío de los informes de paquetes mediante [informes personalizados](/help/dsp/reports/report-about.md).
 
-Para ver todas las ubicaciones dentro de un paquete, haga clic en el nombre del paquete.
+Para ver todas las ubicaciones dentro de un paquete y las fechas de vuelo del paquete, haga clic en el nombre del paquete.
 
 >[!MORELIKETHIS]
 >
@@ -39,4 +39,3 @@ Para ver todas las ubicaciones dentro de un paquete, haga clic en el nombre del 
 >* [Adjuntar una ubicación a un paquete](package-attach-placement.md)
 >* [Visualización del registro de cambios de un paquete](package-change-log.md)
 >* [Configuración de paquetes](package-settings.md)
-
