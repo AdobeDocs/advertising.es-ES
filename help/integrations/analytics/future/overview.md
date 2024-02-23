@@ -1,11 +1,11 @@
 ---
 title: Integraciones de Adobe Advertising con Adobe Analytics
-description: Obtenga información sobre cómo la publicidad de Adobe puede intercambiar datos con Adobe Analytics y cómo puede utilizar los datos en Search, Social y Commerce.
+description: Obtenga información sobre cómo Adobe Advertising puede intercambiar datos con Adobe Analytics y cómo puede utilizar los datos en Search, Social y Commerce.
 feature: Integration with Adobe Analytics
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 06996ee9eb635fe204c0c3938e6937e8871c8a90
+source-git-commit: 78f69587771d9e72eb137f1e0866d782ed5c4d01
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Puede integrar Adobe Advertising con Analytics de las siguientes maneras.
 
-## Intercambio de datos entre [!DNL Analytics] Publicidad de Adobe y
+## Intercambio de datos entre [!DNL Analytics] y ADOBE ADVERTISING
 
-### Extraer [!DNL Analytics] Datos en publicidad de Adobe
+### Extraer [!DNL Analytics] Datos en Adobe Advertising
 
 Con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md),[!DNL Search, Social, & Commerce] DSP y arrastre de forma hacia dentro:
 
@@ -26,11 +26,11 @@ Con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 * **[!DNL Analytics]métricas estándar, personalizadas y reservadas**
 
-### Envío de datos publicitarios de Adobe a [!DNL Analytics]
+### Envío de datos de Adobe Advertising a [!DNL Analytics]
 
 * **Métricas de tráfico de Adobe Advertising**
 
-* **Dimension de Adobe Advertising**
+* **Dimension del Adobe Advertising**
 
 >[!NOTE]
 >
@@ -42,11 +42,11 @@ Con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics
 
 <!-- Verify all -->
 
-En [!DNL Search, Social, & Commerce], puede crear [!DNL Google Ads] Las audiencias de coincidencia de clientes de Google de los ID de usuario de utilizan sus [!DNL Analytics] segmentos. Esto incluye segmentos de Adobe Analytics que se publican en Adobe Experience Cloud y segmentos que se crean con Adobe Experience Cloud [!DNL Audience Library]. Para obtener más información, consulte la ayuda del producto dentro de [!DNL Search, Social, & Commerce].
+En [!DNL Search, Social, & Commerce], puede crear [!DNL Google Ads] Las audiencias de coincidencia de clientes de Google de los ID de usuario de utilizan sus [!DNL Analytics] segmentos. Esto incluye segmentos de Adobe Analytics que se publican en Adobe Experience Cloud y segmentos que se crean con Adobe Experience Cloud [!DNL Audience Library]. Para obtener más información, consulte &quot;[Crear [!DNL Google Ads] audiencias de coincidencia de cliente de [!DNL Adobe] audiencias](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md).&quot;
 
 [Audiencias de coincidencia de clientes a partir de ID de usuario](https://support.google.com/google-ads/answer/9199250) funcionan como las audiencias basadas en etiquetas de sitios web, pero se asigna un ID sin PII a los miembros de audiencia única para obtener beneficios distintos sobre las audiencias estándar basadas en etiquetas de sitio web y en coincidencias de clientes.
 
-Para crear los ID de usuario necesarios, debe utilizar una etiqueta JavaScript de publicidad de Adobe <!-- with a user ID parameter -->en sus sitios web. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Para crear los ID de usuario necesarios, debe utilizar una etiqueta JavaScript de Adobe Advertising <!-- with a user ID parameter -->en sus sitios web. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
 
 ![proceso de creación de segmentos](/help/integrations/assets/ad_search_user_id_pic.png)
 
@@ -58,4 +58,4 @@ Una vez creadas las audiencias, puede utilizarlas en [!DNL Google Ads] campañas
 
 * DSP (Anunciantes con el servicio de publicidad Puede utilizar el [!DNL Analytics] segmentos como destinatarios para sus ubicaciones de anuncios. Si lo desea, puede incluir los segmentos en audiencias reutilizables, que puede utilizar como destinos o exclusiones para varias ubicaciones.
 
-* (Anunciantes con Advertising Creative) Puede utilizar sus [!DNL Analytics] Segmentos como destinatarios de elementos creativos específicos en sus experiencias publicitarias.
+* (Anunciantes con Advertising Creative) Puede utilizar su [!DNL Analytics] Segmentos como destinatarios de elementos creativos específicos en sus experiencias publicitarias.
