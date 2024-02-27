@@ -4,7 +4,7 @@ description: Consulte la directiva para el uso de ID universales.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: e809a521efc35442b912375cda19516b6be7e90b
+source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Si recibe una exclusión después de los datos efectivos, ya no utilizará el ID
 
 Usted no puede utilizar los Servicios para participar en la discriminación en violación de la ley, incluyendo mediante la orientación errónea de grupos específicos de personas para la publicidad, la exclusión errónea de grupos específicos de personas de ver anuncios, o con contenido discriminatorio en los anuncios. Usted es responsable de utilizar los Servicios de forma responsable para evitar la discriminación contra las clases protegidas, incluyendo, pero no limitado a, garantizar que sus Anuncios no tengan un impacto diferente en las clases protegidas.
 
-## PRUEBA A: PAÍSES PROHIBIDOS {#prohibited-countries}
+## Prueba A: Países prohibidos {#prohibited-countries}
 
 ### Países de UE
 
