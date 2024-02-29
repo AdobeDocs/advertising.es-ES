@@ -1,11 +1,11 @@
 ---
 title: Habilitar la carga de objetivos en las redes de publicidad
 description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft® Advertising].
-exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
+exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 0fb03410e67be28d24496c948b52399c8465e041
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,9 @@ Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horar
 
    Esta opción solo está disponible si su cuenta de anunciante está configurada para utilizar la optimización híbrida. Para habilitar la optimización híbrida, póngase en contacto con el equipo de cuenta de Adobe.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. (Anunciantes con [!DNL Google Ads] cuentas que realizan negocios en el Espacio Económico Europeo (EEE) o en el Reino Unido (Reino Unido); (opcional) Si ha obtenido el consentimiento de los usuarios del EEE y del Reino Unido para cargar sus datos con fines publicitarios, active la casilla de verificación situada junto a **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+
+1. Clic **[!UICONTROL Save]**.
 
 1. (Si las conversiones se rastrean en el nivel de cuenta de responsable) [Añadir credenciales para la cuenta de responsable](/help/search-social-commerce/admin/manager-accounts.md) en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
