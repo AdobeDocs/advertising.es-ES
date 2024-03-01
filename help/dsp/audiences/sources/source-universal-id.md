@@ -3,16 +3,16 @@ title: Activar segmentos autenticados de socios de ID universales
 description: Obtenga información acerca de la activación de audiencias autenticadas mediante una solución de ID universal.
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: e9ff454428d0256402a2ef2fa74f8bd45bd7592f
+source-git-commit: 5d031fe746dc5051320e5d2092f9148b5a8a1bd5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # Activar segmentos autenticados de socios de ID universales
 
-DSP Para activar audiencias autenticadas a través de una solución de ID universal en Advertising, los segmentos deben traducirse a [!DNL RampIDs], que son reconocibles en un entorno de oferta. Para ello, puede hacer lo siguiente:
+DSP Para activar audiencias autenticadas a través de una solución de ID universal en Advertising, los segmentos deben traducirse a [!DNL RampIDs], que son reconocibles en un entorno de oferta. Para ello, haga lo siguiente:
 
 * DSP Aprovechamiento de la integración de la con [!DNL Adobe Real-Time Customer Data Platform (CDP)] y el [!DNL Adobe-LiveRamp Retrieval API].
 
@@ -22,9 +22,9 @@ DSP Para activar audiencias autenticadas a través de una solución de ID univer
 
 1. Para cualquier opción, póngase en contacto con `adcloud-support@adobe.com` DSP DSP para habilitar la siguiente configuración en la, que le permitirá dirigirse a segmentos autenticados en campañas de una sola vez [se han completado todos los pasos del flujo de trabajo de activación](source-adobe-rtcdp.md):
 
-   1. [!DNL LiveRamp] [!DNL RampID] configuración de campaña antes del uso compartido de segmentos de [!DNL Real-Time CDP].
+   * [!DNL LiveRamp] [!DNL RampID] configuración de campaña antes del uso compartido de segmentos desde [!DNL Real-Time CDP]
 
-   1. El nivel de cuenta &quot;[!UICONTROL LiveRamp segments]Opción &quot;.
+   * El nivel de cuenta &quot;[!UICONTROL LiveRamp segments]&quot; opción
 
 1. (Los usuarios comparten manualmente segmentos autenticados de [!DNL LiveRamp]) Complete los siguientes pasos en la [!DNL LiveRamp] [!DNL Connect] panel:
 
