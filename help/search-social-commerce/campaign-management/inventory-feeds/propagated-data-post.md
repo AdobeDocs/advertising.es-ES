@@ -1,11 +1,11 @@
 ---
 title: Publicar datos de campaña generados a partir de fuentes en redes de publicidad
 description: Obtenga información sobre cómo publicar datos generados a partir de fuentes de datos de inventario en redes de publicidad.
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Para que la publicación se realice correctamente, todos los grupos de anuncios 
 
               Para especificar una fecha, utilice el formato DD/MM/AAAA o D/M/AAAA o haga clic en [Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") para abrir el calendario y [seleccionar una fecha](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para cambiar una hora, introdúzcala en formato de 24 horas HH/MM o H/M o seleccione una hora (en intervalos de 30 minutos) de la lista.
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un archivo de hoja en bloque que está disponible en el [!UICONTROL Search] > [!UICONTROL Bulksheets] vista. Si lo desea, puede publicar el archivo desde allí.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un archivo de hoja de edición masiva que está disponible en el [!UICONTROL Search] > [!UICONTROL Bulksheets] vista. Si lo desea, puede publicar el archivo desde allí.
 
            Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP. No es necesario descomprimir el archivo para publicarlo.
 
