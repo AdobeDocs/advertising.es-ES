@@ -3,7 +3,7 @@ title: Publicar datos de campaña generados a partir de fuentes en redes de publ
 description: Obtenga información sobre cómo publicar datos generados a partir de fuentes de datos de inventario en redes de publicidad.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Para que la publicación se realice correctamente, todos los grupos de anuncios 
 
             * **[!UICONTROL End Time]:** Una fecha y hora futuras en las que los anuncios publicados pueden pausarse o eliminarse en función de la [configuración de datos de fuente](feed-settings-manage.md#feed-data-settings) para &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; De forma predeterminada, la hora de finalización es 00:00 (12:00 a.m.) dentro de 30 días a partir de hoy. Seleccionar **[!UICONTROL None]** para mantener los datos activos indefinidamente (o hasta que propague nuevos datos para la plantilla), o especifique una fecha y una hora.
 
-              Para especificar una fecha, utilice el formato DD/MM/AAAA o D/M/AAAA o haga clic en [Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") para abrir el calendario y [seleccionar una fecha](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para cambiar una hora, introdúzcala en formato de 24 horas HH/MM o H/M o seleccione una hora (en intervalos de 30 minutos) de la lista.
+              Para especificar una fecha, utilice el formato DD/MM/AAAA o D/M/AAAA o haga clic en ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") para abrir el calendario y [seleccionar una fecha](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para cambiar una hora, introdúzcala en formato de 24 horas HH/MM o H/M o seleccione una hora (en intervalos de 30 minutos) de la lista.
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un archivo de hoja de edición masiva que está disponible en el [!UICONTROL Search] > [!UICONTROL Bulksheets] vista. Si lo desea, puede publicar el archivo desde allí.
 
