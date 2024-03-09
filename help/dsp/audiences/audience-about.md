@@ -3,9 +3,9 @@ title: DSP Acerca de la Gestión de público en Advertising
 description: Obtenga información sobre las funciones de gestión de público.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
+source-git-commit: e2387f7e373e69c72e97ee83eff8f6a7ce9ceed5
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ También hay disponibles tipos de audiencia adicionales para la segmentación de
 
 ## Importación de segmentos de datos de origen y de terceros
 
-DSP Puede importar sus propios segmentos de datos de origen desde su plataforma de administración de datos (DMP) y proporcionarlos a cualquier conjunto de anunciantes, según sea necesario.
+DSP Puede traducir sus segmentos de origen a ID universales para una segmentación sin cookies y puede ponerlos a disposición de cualquier anunciante o cuenta. DSP ha establecido conectores para la [el [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es) y otras CDP. Para obtener más información, consulte la [Sección Fuentes](/help/dsp/audiences/sources/source-about.md).
 
-DSP es un destino integrado para [el [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), lo que le permite compartir segmentos de origen autenticados con anunciantes y usuarios aprobados para la activación de campañas. Para obtener más información sobre la integración de Real-Time CDP, consulte la [Sección Fuentes](/help/dsp/audiences/sources/source-about.md).
+DSP También puede importar el resto de segmentos de datos de origen directamente desde su plataforma de administración de datos (DMP) y proporcionarlos a cualquier conjunto de anunciantes, según sea necesario.
 
-DSP También puede importar segmentos de terceros personalizados, incluidas combinaciones complejas de segmentos de terceros. Puede proporcionar los segmentos a cualquier conjunto de anunciantes, según sea necesario.
+DSP Además, puede importar segmentos personalizados de terceros, incluidas combinaciones complejas de segmentos de terceros. Puede proporcionar los segmentos a cualquier conjunto de anunciantes, según sea necesario.
 
 Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
 
