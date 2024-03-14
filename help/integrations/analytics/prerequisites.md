@@ -3,9 +3,9 @@ title: Requisitos previos e información clave para la implementación [!DNL Ana
 description: Requisitos previos e información clave para la implementación [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Revise la siguiente información antes de integrar Adobe Advertising con Adobe A
    * Servicio de identidad del Experience Cloud: `visitorAPI.js` versión 2.0 o superior
 * Cualquier versión de Adobe Analytics (incluidas [!DNL Prime], [!DNL Premium], o [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versión 2.1 o superior
+* DSP (Clientes de Advertising) Un [DSP Fragmento de JavaScript de Advertising](javascript.md) implementado en sus páginas web para realizar un seguimiento de las visitas de visualización.
 
 >[!TIP]
 >
@@ -89,7 +90,7 @@ Póngase en contacto con su equipo de cuenta de Adobe para conocer los entornos 
 
 * La integración pasa solamente [!DNL Analytics] eventos estándar y personalizados con el Adobe Advertising para la optimización de ofertas de los esfuerzos posteriores de medios de pago y publicidad. No pasa... [!DNL Analytics] segmentos, métricas calculadas y [!DNL eVars] al Adobe Advertising para la optimización de ofertas.
 
-* El Adobe Advertising crea ID persistentes dentro de [!DNL Analytics] se basa en el último anuncio en el que se hizo clic o se visualizó antes de que el usuario entre en el sitio, según la variable [ventanas retrospectivas de clics y visualizaciones](#lookback-a4adc) configurado en el Adobe Advertising. Si el visitante de un sitio tuviera ambos tipos de interacciones de entrada al sitio dentro de su perfil y el clic se encontrara dentro del período retrospectivo, el ID de pulsación del visitante anularía el ID de visualización para la creación de informes de sitio.
+* El Adobe Advertising crea ID persistentes dentro de [!DNL Analytics] se basa en el último anuncio en el que se hizo clic o se visualizó antes de que el usuario entre en el sitio, según la variable [ventanas retrospectivas de clics y visualizaciones](#lookback-a4adc) configurado en el Adobe Advertising. Si el visitante de un sitio tiene ambos tipos de interacciones de entrada al sitio dentro de su perfil y el clic se encuentra dentro del período retrospectivo, el ID de pulsación del visitante anula el ID de visualización para la creación de informes de sitio.
 
 * [!DNL Analytics for Advertising] el seguimiento de conversión en Adobe Analytics utiliza una ventana retrospectiva de seguimiento configurable (de forma predeterminada, 60 días). Los informes de Adobe Advertising reflejan las conversiones del sitio y la participación a través del final de esta ventana retrospectiva de seguimiento.
 
