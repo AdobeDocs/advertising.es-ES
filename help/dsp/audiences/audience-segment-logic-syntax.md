@@ -3,7 +3,7 @@ title: Sintaxis de la lógica de segmento de audiencia
 description: Haga referencia a la sintaxis que puede utilizar para definir la lógica de los segmentos de audiencia.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -23,7 +23,6 @@ Cuando cree audiencias reutilizables, puede definir manualmente la lógica de se
 >
 >* Se incluyen todos los grupos de segmentos especificados a menos que estén precedidos por ! (lo que los excluye).
 >* Puede [búsqueda del ID de segmento de una audiencia](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
-
 
 Por ejemplo, la lógica siguiente:
 
@@ -48,4 +47,3 @@ significa (en inglés)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Configuración de audiencia](audience-settings.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
-

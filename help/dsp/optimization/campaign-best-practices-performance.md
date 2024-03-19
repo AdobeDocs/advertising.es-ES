@@ -3,9 +3,9 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
+source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -151,8 +151,8 @@ Uso del filtrado contextual, bloqueo de fraude de oferta previa, o [!UICONTROL A
 
 ## Paso 5: Uso de los recursos creativos adecuados
 
-* La práctica recomendada es incluir tantos tamaños de anuncio únicos como sea posible para maximizar el alcance. La plantilla de visualización universal le permite cargar cualquier tamaño de anuncio de visualización estándar.
-* Asegúrese de que todas las ubicaciones contengan *al menos* todos los tamaños de anuncios de pantallas principales (300 x 250, 728 x 90, 160 x 600, 300 x 600, 320 x 50 y 300 x 50).
+* La práctica recomendada es incluir tantos tamaños de anuncio únicos como sea posible para maximizar el alcance. La plantilla de visualización universal le permite cargar cualquier tamaño de anuncio de visualización estándar.
+* Asegúrese de que todas las ubicaciones contengan *al menos* todos los tamaños de anuncios de pantallas principales (300 x 250, 728 x 90, 160 x 600, 300 x 600, 320 x 50 y 300 x 50).
 * Actualice los elementos creativos con frecuencia para evitar la fatiga creativa.
 
 >[!MORELIKETHIS]
