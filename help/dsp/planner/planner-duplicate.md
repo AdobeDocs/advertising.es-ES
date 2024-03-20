@@ -2,16 +2,15 @@
 title: Duplicar un plan de alcance de TV conectado
 description: Aprenda a crear un plan de alcance de TV conectado utilizando la configuración de un plan existente.
 feature: DSP Planner
-source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
+exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # Duplicar un plan de alcance de TV conectado
-
-*Función beta*
 
 1. En el menú principal, haga clic en **[!UICONTROL Planner]**.
 

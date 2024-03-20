@@ -5,19 +5,20 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0a8bf1a457ecfa84164fb5ee4ff75aa95487edd2
+source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
 workflow-type: tm+mt
-source-wordcount: '2221'
+source-wordcount: '2241'
 ht-degree: 0%
 
 ---
 
-# ¿Qué hay de nuevo?
+# Novedades
 
 Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 20 de marzo de 2024 | Planificador | La nueva herramienta de planificación ya no está en modo beta. | Consulte &quot;[DSP Acerca de la herramienta Planificador de](/help/dsp/planner/planner-about.md).&quot; |
 | 21 de febrero de 2024 | [!UICONTROL Alerts] para [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads], y [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] en el menú [!UICONTROL Campaigns], [!UICONTROL Packages] y detalles del paquete, [!UICONTROL Placements], y [!UICONTROL Ads] vistas indica si hay alertas disponibles para los elementos de la vista. Puede abrir el panel para ver cada alerta y, opcionalmente, abrir la vista correspondiente (por ejemplo, la variable [!UICONTROL Placements] ver con la ubicación aplicable (enumeradas) para poder editar la configuración según sea necesario para resolver el problema. Si lo desea, también puede descartar cualquier alerta.<br><br>Además, la variable [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], y [!UICONTROL Ads] las vistas incluyen un &quot;[!UICONTROL Alerts]&quot; que indica cuándo un elemento o cualquiera de sus componentes tiene un problema.<br><br>Las alertas están disponibles en los niveles de campaña, paquete, ubicación, anuncio y acuerdo. | Consulte &quot;[Ver alertas y notificaciones](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |
 |  | [!UICONTROL Placements] | La nueva configuración de ubicación permite especificar a) un presupuesto de ubicación mínimo para anular la asignación de presupuesto a nivel de paquete siempre que haya suficiente presupuesto disponible y b) anular el algoritmo de precio de oferta para ofrecer al menos los precios fijos y mínimos para las ofertas:<ul><li>En la configuración de las ubicaciones que pertenecen a paquetes, ahora puede especificar un presupuesto mínimo como porcentaje del presupuesto del paquete. Para utilizar la función, seleccione la opción de financiación de colocación en &quot;[!UICONTROL Set a Fixed Minimum or Maximum Budget]&quot; (anteriormente &quot;[!UICONTROL Set a fixed budget cap]&quot;). Puede seguir introduciendo un [!UICONTROL Maximum Budget] en USD (como antes para el límite presupuestario), y también puede introducir una [!UICONTROL Minimum Budget] como porcentaje del presupuesto del paquete. Para las ubicaciones existentes, la configuración existente se conserva con los nuevos nombres de campo.</li><li>En el [!UICONTROL Inventory Targeting] configuración, una nueva opción para [!UICONTROL On Demand] el inventario y el inventario privado le permiten &quot;[!UICONTROL Ensure Fixed or Floor Price for the bid].&quot;</li></ul> | Consulte &quot;[Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 7 de febrero de 2024 | [!UICONTROL Placements] y [!UICONTROL Ads] | El [!UICONTROL Ads Tool] ahora tiene un filtro de paquete. | Consulte &quot;[Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
