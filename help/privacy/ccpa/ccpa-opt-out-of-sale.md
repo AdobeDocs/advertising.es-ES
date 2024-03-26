@@ -4,9 +4,9 @@ description: Obtenga información acerca de la compatibilidad para capturar soli
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7613d49698bf303afad521e94471c11cd2a3e556
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
 
 1. Identifique su ID de organización de Experience Cloud y asegúrese de que esté vinculado a sus cuentas de Adobe Advertising.
 
-   Un ID de organización de Experience Cloud es una cadena alfanumérica de 24 caracteres anexada a &quot;@AdobeOrg&quot;. A la mayoría de los clientes de Experience Cloud se les ha asignado un ID de organización. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen el ID de la organización o no están seguros de si se ha proporcionado, póngase en contacto con el servicio de atención al cliente de Adobe en gdprsupport@adobe.com. Necesitará el ID de organización para enviar solicitudes a la API de privacidad mediante `imsOrgID` namespace.
+   Un ID de organización de Experience Cloud es una cadena alfanumérica de 24 caracteres anexada a &quot;@AdobeOrg&quot;. A la mayoría de los clientes de Experience Cloud se les ha asignado un ID de organización. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen el ID de la organización o no están seguros de si se ha proporcionado, póngase en contacto con el equipo de cuenta de Adobe. Necesitará el ID de organización para enviar solicitudes a la API de privacidad mediante `imsOrgID` namespace.
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
 
    >[!NOTE]
    >
-   Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], y [!DNL DCO]), con una cuenta por subsolución.
+   >Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], y [!DNL DCO]), con una cuenta por subsolución.
 
 Todos estos pasos son necesarios para recibir asistencia del Adobe Advertising. Para obtener más información sobre estas y otras tareas relacionadas que debe realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos que necesita, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -90,7 +90,7 @@ DSP DSP Puede recuperar vínculos a los informes mensuales creados en los tres m
 
 ### DSP Método 2: Recuperación de informes de exclusión de la venta de consumidores mediante el servicio de publicidad de la aplicación de la publicidad de la aplicación de la [!DNL Trafficking API]
 
-Esta función está disponible para las organizaciones que utilizan [!DNL Trafficking API]. Consulte la documentación de [!DNL Trafficking API] para obtener más información.
+Esta función está disponible para las organizaciones que utilizan [!DNL Trafficking API]. Consulte la documentación de [!DNL Trafficking API] para obtener más información.<!-- Add link to API doc once it's published. -->
 
 Si su organización no utiliza el [!DNL Trafficking API] Si desea obtener más información, póngase en contacto con el equipo de cuenta de Adobe.
 

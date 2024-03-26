@@ -4,9 +4,9 @@ description: Obtenga información sobre los tipos de solicitud de datos admitido
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Adobe Experience Platform permite a las empresas completar las siguientes tareas
 * Eliminar datos de nivel de cookie almacenados en [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], o [!DNL DCO] para consumidores que utilicen un explorador, o bien eliminar los datos de nivel de ID almacenados en [!DNL DSP] para consumidores que utilizan aplicaciones en dispositivos móviles.
 * Compruebe el estado de una o todas las solicitudes existentes.
 
-## Configuración necesaria para enviar solicitudes de publicidad de Adobe
+## Configuración requerida para enviar solicitudes de Adobe Advertising
 
 Para realizar solicitudes de acceso y eliminación de información personal del consumidor desde el Adobe Advertising, deberá:
 
@@ -59,7 +59,7 @@ Para realizar solicitudes de acceso y eliminación de información personal del 
 
 1. Identifique su ID de organización de Experience Cloud y asegúrese de que esté vinculado a sus cuentas de Adobe Advertising.
 
-   Un ID de organización de Experience Cloud es una cadena alfanumérica de 24 caracteres anexada a &quot;@AdobeOrg&quot;. A la mayoría de los clientes de Experience Cloud se les ha asignado un ID de organización. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen el ID de la organización o no están seguros de si se ha proporcionado, póngase en contacto con el servicio de atención al cliente de Adobe en gdprsupport@adobe.com. Necesitará el ID de organización para enviar solicitudes a la API de privacidad mediante `imsOrgID` namespace.
+   Un ID de organización de Experience Cloud es una cadena alfanumérica de 24 caracteres anexada a &quot;@AdobeOrg&quot;. A la mayoría de los clientes de Experience Cloud se les ha asignado un ID de organización. Si su equipo de marketing o [!DNL Adobe] el administrador del sistema no conoce su ID de organización o no está seguro de si se ha proporcionado y, a continuación, póngase en contacto con el equipo de cuenta de Adobe. Necesitará el ID de organización para enviar solicitudes a la API de privacidad mediante `imsOrgID` namespace.
 
    >[!IMPORTANT]
    >
@@ -67,7 +67,7 @@ Para realizar solicitudes de acceso y eliminación de información personal del 
 
 1. Utilice cualquiera de las [API de Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitudes automatizadas) o la [IU de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es) (en el caso de solicitudes ad hoc) enviar solicitudes de acceso y eliminación de información personal al Adobe Advertising en nombre de los consumidores, y comprobar el estado de las solicitudes existentes.
 
-   Para anunciantes que tienen una aplicación móvil para interactuar con clientes e iniciar campañas con [!DNL DSP], deberá descargar los SDK móviles preparados para la privacidad para Experience Cloud. Los SDK móviles permiten a las empresas establecer indicadores de estado de exclusión y recuperar el ID de dispositivo del consumidor (ID de área de nombres: `deviceID`) y envíe solicitudes a la API de Privacy Service. La aplicación móvil requiere una versión 4.15.0 o buena del SDK.
+   Para anunciantes que tienen una aplicación móvil para interactuar con clientes e iniciar campañas con [!DNL DSP], deberá descargar los SDK móviles preparados para la privacidad para Experience Cloud. Los SDK móviles permiten a las empresas establecer indicadores de estado de exclusión y recuperar el ID de dispositivo del consumidor (ID de área de nombres: `deviceID`) y envíe solicitudes a la API de Privacy Service. Su aplicación móvil requerirá una versión 4.15.0 o superior del SDK.
 
    Cuando envía una solicitud de acceso de consumidor, la API de Privacy Service devuelve la información de un consumidor en función de la cookie especificada o el ID de dispositivo, que debe devolver al consumidor.
 
@@ -75,9 +75,9 @@ Para realizar solicitudes de acceso y eliminación de información personal del 
 
    >[!NOTE]
    >
-   Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], y [!DNL DCO]), con una cuenta por subsolución.
+   >Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], y [!DNL DCO]), con una cuenta por subsolución.
 
-Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información sobre estas y otras tareas relacionadas que debe realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos que necesita, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Todos estos pasos son necesarios para recibir asistencia del Adobe Advertising. Para obtener más información sobre estas y otras tareas relacionadas que debe realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos que necesita, consulte [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Valores de campo requeridos en solicitudes JSON de Adobe Advertising
 
@@ -94,11 +94,11 @@ Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. P
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (que indica el espacio de cookies de adcloud)
+   * `"namespace": **411**` (lo que indica que [!DNL adcloud] cookie space)
 
    * `"value":` &lt;*el valor real del ID de cookie del cliente recuperado de`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (que es el producto de Adobe que se aplica a la solicitud)
+* `"include": **adCloud**` (que es el [!DNL Adobe] producto que se aplica a la solicitud)
 
 * `"regulation": **ccpa**` (que es la norma de privacidad que se aplica a la solicitud)
 
@@ -107,30 +107,29 @@ Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. P
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"ccpa"
-}
+      "adCloud"
+   ],
+    "regulation":"ccpa"
 }
 ```
 
