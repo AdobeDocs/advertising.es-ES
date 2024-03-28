@@ -4,9 +4,9 @@ description: Obtenga información sobre los tipos de solicitud de datos admitido
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 40bd2cfb3d16e3c88679617ad95706e0a2ac971a
+source-git-commit: 403fdb9a54ea79390ae535f31287b327ebf71d5f
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ Para obtener más información sobre el significado del RGPD para su empresa, co
 
 Adobe Experience Platform permite a las empresas completar las siguientes tareas:
 
-* Acceder a los datos de un interesado en cuanto a cookies o a los datos en cuanto a ID de dispositivo (para anuncios en aplicaciones móviles) en [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], o [!DNL DCO].
-* Eliminar datos de nivel de cookie almacenados en [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], o [!DNL DCO] para interesados que utilicen un explorador, o eliminar datos de nivel de ID almacenados en [!DNL DSP] para interesados que utilizan aplicaciones en dispositivos móviles.
+* Acceder a los datos de nivel de cookie de un interesado en [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], o [!DNL DCO]; datos de nivel de ID de dispositivo para anuncios en aplicaciones móviles en [!DNL DSP]; o datos de correo electrónico asociados a un ID de Unified ID 2.0 en [!DNL DSP].
+
+* Eliminar datos de nivel de cookie almacenados en [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], o [!DNL DCO] para interesados que utilicen un explorador; elimine los datos de nivel de ID almacenados en [!DNL DSP] para interesados que utilicen aplicaciones en dispositivos móviles; o elimine los datos con hash a nivel de correo electrónico asociados con un ID 2.0 unificado almacenados en [!DNL DSP].<!-- stored within DSP? I thought we don't store the email addresses but dump them as soon as they're translated to a universal ID? -->
+
 * Compruebe el estado de una o todas las solicitudes existentes.
 
 ## Configuración requerida para enviar solicitudes de Adobe Advertising
@@ -67,7 +69,7 @@ Para realizar solicitudes de acceso y eliminación de datos para el Adobe Advert
 
    Al enviar la solicitud de acceso de un interesado, la API de Privacy Service devuelve la información de dicho interesado en función de la cookie o el ID de dispositivo especificados, que debe devolver al interesado.
 
-   Al enviar la solicitud de eliminación de un interesado, se eliminan del servidor el ID de cookie o el ID de dispositivo y todos los datos de costes, clics e ingresos asociados con la cookie.
+   Al enviar la solicitud de eliminación de un interesado, el ID de cookie o el ID de dispositivo se eliminan del servidor. Para solicitudes a [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], y [!DNL DCO], todos los datos de costes, clics e ingresos asociados con el ID de cookie también se eliminan del servidor.
 
    >[!NOTE]
    >
@@ -81,6 +83,11 @@ Todos estos pasos son necesarios para el Adobe Advertising. Para obtener más in
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*su ID de organización de Experience Cloud*>
+  `"users":`  cuando reemplace esto por la variable [solicitudes basadas en cookies](#gdpr-request-fields-cookie) o el [solicitudes basadas en correo electrónico](#gdpr-request-fields-email)<!-- wording? -->.
+
+<!-- Complete this section -->
+
+### Solicitudes basadas en cookies {#gdpr-request-fields-cookie}<!-- Header? -->
 
 `"users":`
 
@@ -90,7 +97,7 @@ Todos estos pasos son necesarios para el Adobe Advertising. Para obtener más in
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (lo que indica que [!DNL adcloud] cookie space)
+   * `"namespace": **411**` (lo que indica que [!DNL adCloud] cookie space)&lt;!>— El valor numérico es realmente &quot;namespaceId&quot;, no &quot;namespace&quot;, por https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix>
 
    * `"value":` &lt;*el valor real de la ID de cookie del interesado recuperado de`AdobePrivacy.js`*>
 
@@ -98,15 +105,79 @@ Todos estos pasos son necesarios para el Adobe Advertising. Para obtener más in
 
 * `"regulation": **gdpr**` (que es la norma de privacidad que se aplica a la solicitud)
 
+## Solicitudes basadas en correo electrónico con hash {#gdpr-request-fields-email}<!-- Header? -->
+
+`"users":`
+
+* `"key":` &lt;*normalmente, el nombre del interesado*>
+
+* `"action":` o bien `**access**` o `**delete**`
+
+* `"user IDs":`
+
+   * `"namespace": **Email_LC_SHA256**` (que indica el espacio de correo electrónico con hash)
+
+   * `"type": **standard**`
+
+   * `"value":` &lt;*el valor real de correo electrónico con hash en SHA256*>
+
+   * `"namespaceId": **411**` (lo que indica que [!DNL adCloud] cookie space)&lt;!>— El valor numérico es realmente &quot;namespaceId&quot;, no &quot;namespace&quot;, por https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix>
+
+* `"include": **adCloud**` (que es el [!DNL Adobe] producto que se aplica a la solicitud)
+
+* `"regulation": **gdpr**` (que es la norma de privacidad que se aplica a la solicitud)
+
 ## Ejemplo de solicitud enviada por el sujeto de datos mediante un ID de usuario de Adobe Advertising recuperado de `AdobePrivacy.js`
 
+El siguiente ejemplo muestra una solicitud de acceso para la información basada en cookies (con el área de nombres ) `411`) e información basada en correo electrónico con hash (con el área de nombres ) `Email_LC_SHA256`) para un solo usuario.
+
 ```
+...
+`{
+    "companyContexts": [
+      {
+        "namespace": "imsOrgID",
+        "value": "5AB13068374019BC@AdobeOrg"
+      }
+    ],
+    "users": [
+      {
+        "key": "John Doe",
+        "action": ["access"],
+        "userIDs": [
+          {
+            "namespace": "411",
+            "value": "Wqersioejr-wdg",
+            "type":"namespaceId",
+            "deletedClientSide":false
+          },
+          {
+            "namespace":"Email_LC_SHA256",
+            "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
+            "type":"standard",
+            "deletedClientSide":false
+          }
+        ]
+      },
+    ],
+    "include": ["adCloud"],
+    "regulation": "gdpr"
+}'
+```
+
+<!-- old format with just cookie-level data
+```
+
+{
+    "companyContexts": [
+      {
+        
 {
 "companyContexts":[
     {
         "namespace":"imsOrgID",
         "value":"5AB13068374019BC@AdobeOrg"
-      }
+    }
    ],
    "users": [
 {
@@ -118,6 +189,12 @@ Todos estos pasos son necesarios para el Adobe Advertising. Para obtener más in
         "value":"Wqersioejr-wdg",
         "type":"namespaceId",
         "deletedClientSide":false
+      },
+      {
+        "namespace":"Email_LC_SHA256",
+        "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
+        "type":"standard",
+        "deletedClientSide":false
       }
    ]
 }
@@ -128,12 +205,76 @@ Todos estos pasos son necesarios para el Adobe Advertising. Para obtener más in
     "regulation":"gdpr"
 }
 ```
+ -->
 
 ## Campos de datos que se devuelven para las solicitudes de acceso
 
 A continuación se muestra un ejemplo de una respuesta de acceso para el Adobe Advertising.
 
 ```
+{
+    "jobId": "6fc09b53-c24f-4a6c-9ca2-c6076b0842b6",
+    "action":"access",
+    "product":"adCloud",
+    "status":"complete",
+    "results":{
+        "userIDs":[
+            {
+                "namespace": "411",
+                "userID":"Wqersioejr-wdg"
+            },
+            {
+                "namespace": "Email_LC_SHA256",
+                "type":"standard",
+                "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
+                "isDeletedClientSide":false
+            }
+        ],
+        "receiptData":{
+            "impressionCount":"100",
+            "clickCount":5,
+            "geo":[
+                "United States of America",
+                "San Francisco CA"
+            ],
+            "profile":[
+                {
+                    "pixelid":"111",
+                    "ut1":"abc",
+                    "ut2":"def",
+                    "ut3":"ghi",
+                    "ut4":"jkl",
+                    "ut5":"mno"
+                },
+                {
+                    "pixelid":"123",
+                    "ut1":"abc",
+                    "ut2":"def",
+                    "ut3":"ghi",
+                    "ut4":"jkl",
+                    "ut5":"mno"
+                }
+            ],
+            "matchingSegments":[
+                {
+                    "segmentName":"AP4 - Art/Culture - In-Market",
+                    "segmentID":"kV1mPa2aqPNWKSNtf325",
+                    "serviceProvider":"Adobe"
+                },
+                {
+                    "segmentName":"EMEA - UK - Health Food Buyers",
+                    "segmentID":"eP2oJ2UPsfsDVDhvlGewx",
+                    "serviceProvider":"BlueKai"
+                }
+            ]
+        }
+    }
+}
+```
+
+<!-- old format with just cookie-level data
+```
+...
 {
     "jobId":"12345AD43E",
     "action":"access",
@@ -187,3 +328,4 @@ A continuación se muestra un ejemplo de una respuesta de acceso para el Adobe A
     }
 }
 ```
+-->
