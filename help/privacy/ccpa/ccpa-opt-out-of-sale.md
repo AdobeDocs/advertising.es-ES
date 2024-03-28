@@ -4,7 +4,7 @@ description: Obtenga información acerca de la compatibilidad para capturar soli
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 158d3de4eeb534a374ddc2a037ac95c60ab56063
+source-git-commit: 7378ea6e6907aa4067bd3e73160a8e71c925ec9d
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -121,7 +121,7 @@ curl -X POST \
             "type": "standard"
           },
           {
-            "namespace": "AdCloud",
+            "namespace": "adCloud",
             "type": "standard",
             "value":  "Wqersioejr-wdg",
           }
@@ -133,5 +133,5 @@ curl -X POST \
 
 donde:
 
-* `"namespace": "AdCloud"` indica el `AdCloud` espacio de cookies, y el valor correspondiente es el ID de cookie del cliente recuperado de `AdobePrivacy.js`
+* `"namespace": "adCloud"` indica el `adCloud` espacio de cookies, y el valor correspondiente es el ID de cookie del cliente recuperado de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que la solicitud se aplica al Adobe Advertising
