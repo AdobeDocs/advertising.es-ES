@@ -2,9 +2,9 @@
 title: Soluciones de medición avanzada
 description: Consulte la lista de soluciones disponibles para la medición avanzada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
+source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
 
   Comprenda cómo las audiencias y las tácticas se superponen en el nivel de persona, lo que incluye exposiciones en varios entornos digitales, como escritorio, móvil, nativo y audio.
 
-* **Alcance basado en personas de ID cruzado**
+   * **Alcance basado en personas de ID cruzado**
 
-  Cuantifique el alcance y la superposición únicos entre las cookies y los RampID, así como el coste por métrica por tipo de ID. Demuestre la eficacia de las pruebas de RampID para encontrar un alcance incremental en relación con los segmentos basados en cookies en varios entornos digitales, como escritorio, móvil, nativo y audio.
+     Cuantifique el alcance y la superposición únicos entre las cookies y los RampID, así como el coste por métrica por tipo de ID. Demuestre la eficacia de las pruebas de RampID para encontrar un alcance incremental en relación con los segmentos basados en cookies en varios entornos digitales, como escritorio, móvil, nativo y audio.
 
 * **[!DNL Dynata]Encuestas basadas en paneles**
 
@@ -76,10 +76,6 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
    * Alcance basado en el hogar, frecuencia y medición de conversión
 
      Cualquier cliente que busque comprender el alcance/el alcance incremental y la eficiencia basada en costes o las métricas de conversión en varias tácticas digitales
-
-   * Alcance basado en personas de ID cruzado
-
-     Cualquier cliente que busque cuantificar el alcance y la superposición únicos entre las cookies y los RampID y el coste por métrica por tipo de ID en varias tácticas digitales
 
    * Alcance, frecuencia y medición de conversión entre pantallas
 
