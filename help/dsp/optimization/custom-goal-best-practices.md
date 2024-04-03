@@ -3,9 +3,9 @@ title: Prácticas recomendadas para crear una meta personalizada
 description: Conozca las prácticas recomendadas para crear objetivos personalizados y definir los eventos de éxito.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Los siguientes ejemplos muestran cómo se pueden configurar objetivos dirigidos a una única métrica de conversión.
 
-### Ejemplo de una campaña con &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; Objetivo de optimización
+### Ejemplo de una campaña con &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; Objetivo de optimización
 
-Si el objetivo de la campaña son los ingresos ([!UICONTROL Highest ROAS - Custom Goal]), entonces su objetivo personalizado (objetivo) incluirá la &quot;[!UICONTROL Revenue]&quot; métrica con un peso de uno (1).
+Si el objetivo de la campaña son los ingresos ([!UICONTROL Highest Return on Ad Spend (ROAS)]), entonces su objetivo personalizado (objetivo) incluirá la &quot;[!UICONTROL Revenue]&quot; métrica con un peso de uno (1).
 
 ![Ejemplo de un objetivo personalizado ROAS con una única métrica de conversión](/help/dsp/assets/custom-goal-roas.png)
 
@@ -28,7 +28,7 @@ Si el objetivo de la campaña son los ingresos ([!UICONTROL Highest ROAS - Custo
 >
 > Por ejemplo, una conversión de 250 $ con una ponderación de uno se registra como 250 $. Si a la métrica de conversión se le asigna una ponderación de 0,5, la conversión de 250 $ se registra como 125 $ en Adobes Advertising (conversión de 250 $ * 0,5 [!UICONTROL Property Weight] = 125 $).
 
-### Ejemplo de una campaña con &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; Objetivo de optimización
+### Ejemplo de una campaña con &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; Objetivo de optimización
 
 Si el objetivo de la campaña es el menor coste por adquisición (CPA) y solo requiere un evento de éxito, incluirá esa métrica (en el siguiente ejemplo, &quot;Envío de solicitud&quot;). La práctica recomendada es establecer el peso como uno (1).
 
@@ -48,7 +48,7 @@ Existen dos escenarios en los que se pueden utilizar varias propiedades en un ob
 
   ![ejemplo de un objetivo personalizado con varias propiedades](/help/dsp/assets/custom-goal-multiple-properties.png)
 
-* La única métrica de conversión de su objetivo personalizado no alcanza el mínimo de 10 conversiones al día necesarias para un rendimiento optimizado. Esto puede ocurrir debido a un gasto diario mínimo en paquetes o a un número limitado de conversiones naturales. Añadir propiedades de compatibilidad adicionales al objetivo personalizado puede ayudarle a alcanzar el umbral de 10 conversiones al día. Diez eventos de soporte pueden ayudar a un paquete a alcanzar el umbral de 10/día, incluso cuando cada uno de sus pesos es inferior a uno (1). Sin embargo, es posible que no tenga que agregar tantos eventos.
+* La métrica de conversión única del objetivo personalizado no alcanza el mínimo de 10 conversiones al día necesarias para un rendimiento optimizado. Esto puede ocurrir debido a un gasto diario mínimo en paquetes o a un número limitado de conversiones naturales. Añadir propiedades de compatibilidad adicionales al objetivo personalizado puede ayudarle a alcanzar el umbral de 10 conversiones al día. Diez eventos de soporte pueden ayudar a un paquete a alcanzar el umbral de 10/día, incluso cuando cada uno de sus pesos es inferior a uno (1). Sin embargo, es posible que no tenga que agregar tantos eventos.
 
   Cuando añada propiedades de compatibilidad a un objetivo personalizado, pondere estas según su importancia relativa al evento de éxito principal y tenga en cuenta la cantidad de puntos de datos. Esto permite que el algoritmo de Adobe Sensei equilibre varias propiedades y optimice el logro de su objetivo.
 
