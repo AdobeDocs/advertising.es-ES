@@ -3,9 +3,9 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSP Puede optimizar sus campañas centradas en el rendimiento. Consulte las sigu
 
 ## Paso 1: Definición de la meta
 
-Es importante comprender el objetivo de la campaña, como lograr el ROAS más alto posible o el CPA más bajo posible. Las campañas de rendimiento tienen [objetivos de optimización](/help/dsp/optimization/optimization-goals.md) que terminan con &quot;[!UICONTROL - Custom Goal]&quot; (como &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). Para cada paquete de la campaña, debe especificar el objetivo de optimización correspondiente.
+Es importante comprender el objetivo de la campaña, como lograr el ROAS más alto posible o el CPA más bajo posible. Las campañas de rendimiento tienen el [objetivos de optimización](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Para cada paquete de la campaña, debe especificar el objetivo de optimización correspondiente.
 
 ![objetivo de optimización](/help/dsp/assets/optimization-goals.png)
 
@@ -75,7 +75,7 @@ Además, utilice la siguiente configuración.
 
 * **Presupuesto:** DSP siempre intentará asignar el 100 % del presupuesto del paquete de forma uniforme entre todas las ubicaciones de un paquete. Si una ubicación tiene un gasto bajo o ninguno, se recomienda limitar el presupuesto a la ubicación para permitir que se asigne más del presupuesto a las ubicaciones con escala. Espere entre 24 y 48 horas para que se calibran los cambios de presupuesto.
 
-* **Objetivos de optimización:** Utilice uno de los dos objetivos de optimización de rendimiento, *[!UICONTROL Highest ROAS]* o *[!UICONTROL Lowest CPA]*, según el objetivo del paquete. Estos objetivos optimizan automáticamente el paquete hacia las ubicaciones de ROAS más alta o CPA más baja, respectivamente.
+* **Objetivos de optimización:** Utilice uno de los dos objetivos de optimización de rendimiento, *[!UICONTROL Highest Return on Ad Spend]* o *[!UICONTROL Lowest Cost per Acquisition]*, según el objetivo del paquete. Estos objetivos optimizan automáticamente el paquete hacia las ubicaciones de ROAS más alta o CPA más baja, respectivamente.
 
 * **Objetivos personalizados:**
    * Si un paquete nuevo tiene el mismo objetivo que un paquete existente, puede, opcionalmente, vincular el paquete existente para que el algoritmo pueda utilizar los datos de aprendizaje automático existentes.
