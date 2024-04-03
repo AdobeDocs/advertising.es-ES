@@ -1,7 +1,7 @@
 ---
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+source-git-commit: 92bf7768be91e75f029e1577c7f4e7e790c5a934
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 **[!UICONTROL Tracking Template]:** (Opcional) La plantilla de seguimiento o la URL de seguimiento, que especifica todas las redirecciones de dominios fuera del aterrizaje y los parámetros de seguimiento, e incrusta también la dirección URL final/de la página de aterrizaje en una [!DNL ValueTrack] parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
 
-Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce añadirá automáticamente como prefijo su propio código de seguimiento y redirección al guardar el registro.
+Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce añadirá automáticamente como prefijo su propio código de seguimiento y redirección al guardar el registro.
 
-* Para ver los parámetros admitidos para incrustar la dirección URL final, consulte los [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] formatos](https://support.google.com/google-ads/answer/6305348). (Vaya a los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Disponible&quot; [!DNL ValueTrack] Parámetros.&quot;)
+* Para ver los parámetros admitidos para incrustar la dirección URL final, consulte los [[!DNL Google Ads] documentación de la versión de [!DNL ValueTrack] formatos](https://support.google.com/google-ads/answer/6305348). (Vaya a los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Disponible&quot; [!DNL ValueTrack] Parámetros.&quot;)
 
 * Opcionalmente, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separado por el símbolo &amp;, como {lpurl}?matchtype={matchtype}&amp;device={device}.
 
@@ -27,13 +27,13 @@ Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando 
 >* La plantilla de seguimiento en el nivel más granular anula los valores en todos los niveles superiores. Por ejemplo, si tanto la configuración de la cuenta como la configuración de la palabra clave incluyen un valor, se aplica el valor de la palabra clave.
 >* Si actualiza una plantilla de seguimiento en el nivel de anuncio, vínculo de sitio o palabra clave, los anuncios relevantes se vuelven a enviar para su revisión. Puede actualizar las plantillas de seguimiento en los niveles de cuenta, campaña o grupo de publicidad sin volver a enviar los anuncios para su aprobación.
 
-## Campo de plantilla de seguimiento para entidades de Microsoft Advertising {#tracking-template-microsoft}
+## Campo de plantilla de seguimiento para [!DNL Microsoft Advertising] entidades {#tracking-template-microsoft}
 
 <!-- Search CRUD and bulk edit of Microsoft entity settings -->
 
 **[!UICONTROL Tracking Template]:** (Opcional) La plantilla de seguimiento o la URL de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje remoto y los parámetros de seguimiento, e incrusta la dirección URL de la página de aterrizaje/final en un parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
 
-Para el seguimiento de conversión de la publicidad Adobe, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce añadirá automáticamente como prefijo su propio código de seguimiento y redirección al guardar el registro.
+Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce añadirá automáticamente como prefijo su propio código de seguimiento y redirección al guardar el registro.
 
 * Para ver los parámetros admitidos para incrustar la dirección URL final, consulte los [[!DNL Microsoft Advertising] documentación sobre los parámetros para indicar la dirección URL final](https://help.ads.microsoft.com/#apex/3/en/56799).
 

@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
+source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- When we  use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
-+ [¿Qué hay de nuevo?](home.md)
++ [Novedades](home.md)
 + [Acerca de esta guía](help-about.md)
 + Introducción {#intro}
    + [Acerca de Búsqueda de Adobe Advertising, Social y Comercio](/help/search-social-commerce/introduction/about.md)
@@ -163,8 +163,8 @@ ht-degree: 2%
          + Grupos de productos {#product-groups}
             + [Grupos de productos](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [Administrar grupos de productos](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-            + [Configuración del grupo de productos de Google Ads](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-            + [Configuración del grupo de productos de Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+            + [[!DNL Google Ads] configuración de grupo de productos](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+            + [[!DNL Microsoft Advertising] configuración de grupo de productos](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
             + [Filtros del producto de campaña de compras](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
          + Ubicaciones {#placements}
             + [Acerca de las ubicaciones](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)
