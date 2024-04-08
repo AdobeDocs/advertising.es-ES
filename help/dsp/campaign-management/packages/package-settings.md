@@ -3,9 +3,9 @@ title: Configuración de paquetes
 description: Consulte las descripciones de la configuración del paquete disponible.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
+source-git-commit: cb57ada624bdc810a0d6921e89deba832a2b16d9
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Para paquetes con vuelo personalizado, el intervalo presupuestario siempre es *[
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Opcional; paquetes con &quot;[!UICONTROL Highest Return on Ad Spend]&quot; y &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; (Solo objetivos de optimización) Indica al modelo de optimización que aprenda solo de las conversiones basadas en clics. De lo contrario, el modelo de optimización aprende de las conversiones basadas en clics e impresiones.
 
-**[!UICONTROL Conversion Metric]:** (Opcional; paquetes con &quot;[!UICONTROL Highest Return on Ad Spend]&quot; y &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;Solo objetivos de optimización&quot;) El evento de conversión final (como las suscripciones) o el importe de evento/venta de ingresos (como compras y valores de compra) que se utilizará para calcular la rentabilidad del gasto en publicidad o el coste por adquisición. Seleccione de una lista todos los eventos asignados al objetivo personalizado seleccionado.
+**[!UICONTROL Conversion Metric]:** (Opcional; paquetes con &quot;[!UICONTROL Highest Return on Ad Spend]&quot; y &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;Solo objetivos de optimización&quot;) El evento de conversión final (como las suscripciones) o el importe de evento/venta de ingresos (como compras y valores de compra) que se utilizará para calcular la rentabilidad del gasto en publicidad o el coste por adquisición. Seleccione de una lista de todos los eventos principales (&quot;métricas de objetivo&quot;) asignados al objetivo personalizado seleccionado. Si la lista está vacía, edite el objetivo personalizado para incluir al menos uno de los eventos subyacentes como métrica de objetivo.
 
 **[!UICONTROL Package Goal Type]:** (Solo paquetes con objetivos de optimización personalizados) El propósito del paquete. Esta configuración ayuda a determinar cómo optimizar el paquete:
 
