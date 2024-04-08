@@ -2,9 +2,9 @@
 title: Objetivos personalizados
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
-source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
+source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ DSP Para crear un objetivo personalizado, la cuenta de la debe estar vinculada a
 
 DSP En la configuración del paquete de la para paquetes que utilizan el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; el nombre del objetivo ahora se incluye en la [!UICONTROL Custom Goals] lista. Al seleccionar el objetivo como objetivo personalizado para un paquete, la variable [!UICONTROL Conversion Metric] La lista incluye todas las métricas de objetivo del objetivo.
 
-## Prácticas recomendadas para crear una meta personalizada [#custom-goal-best-practices]
+## Prácticas recomendadas para crear una meta personalizada {#custom-goal-best-practices}
 
 ### Objetivos personalizados con una sola métrica
 
