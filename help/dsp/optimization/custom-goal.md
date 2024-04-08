@@ -2,7 +2,7 @@
 title: Objetivos personalizados
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
-source-git-commit: f05d0f909cda6248260eaafd2fd24a8eca7f47e5
+source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -57,11 +57,11 @@ DSP Para crear un objetivo personalizado, la cuenta de la debe estar vinculada a
       >* [!DNL Analytics] los eventos personalizados siguen esta convención de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Ejemplo: `custom_event_16_examplersid`
       >* [!DNL Analytics] las dimensiones y los segmentos no están disponibles para la optimización de Adobe Advertising.
 
-DSP En la configuración del paquete de la para paquetes que utilizan el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; el nombre del objetivo ahora se incluye en la [!UICONTROL Custom Goals] lista. Al seleccionar el objetivo como objetivo personalizado para un paquete, la variable [!UICONTROL Conversion Metric] La lista incluye todas las métricas de objetivo del objetivo.
+      >[!TIP]
+      >
+      >Para obtener un rendimiento óptimo, las métricas combinadas en el objetivo personalizado (objetivo) deben sumar al menos diez conversiones al día. Si no es así, se recomienda añadir al objetivo métricas de conversión compatibles adicionales, como páginas de productos o inicios de aplicaciones. Consulte [Prácticas recomendadas para crear una meta personalizada](#custom-goal-best-practices) para obtener directrices.
 
->[!TIP]
->
->Para obtener un rendimiento óptimo, las métricas combinadas en el objetivo personalizado (objetivo) deben sumar al menos diez conversiones al día. Si no es así, se recomienda añadir al objetivo métricas de conversión compatibles adicionales, como páginas de productos o inicios de aplicaciones. Consulte [Prácticas recomendadas para crear una meta personalizada](custom-goal-best-practices.md) para obtener directrices.
+DSP En la configuración del paquete de la para paquetes que utilizan el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; el nombre del objetivo ahora se incluye en la [!UICONTROL Custom Goals] lista. Al seleccionar el objetivo como objetivo personalizado para un paquete, la variable [!UICONTROL Conversion Metric] La lista incluye todas las métricas de objetivo del objetivo.
 
 ## Prácticas recomendadas para crear una meta personalizada [#custom-goal-best-practices]
 

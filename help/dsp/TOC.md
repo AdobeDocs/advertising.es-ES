@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 1e5dee912a4c3cdbab5c389725b9d48a354d0b7d
+source-git-commit: 1b58c38858532dc41a467fd86a6a28e3383386be
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
@@ -113,10 +113,7 @@ ht-degree: 3%
    + [Cómo [!DNL DSP] Optimiza sus campañas](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Objetivos de optimización y cómo utilizarlos](/help/dsp/optimization/optimization-goals.md)
    + [Filtros de ofertas previas de nivel de ubicación y cómo utilizarlos](/help/dsp/optimization/optimization-pre-bid-filters.md)
-   + Objetivos personalizados {#custom-goals}
-      + [Acerca de los objetivos personalizados](/help/dsp/optimization/custom-goal-about.md)
-      + [Crear una meta personalizada](/help/dsp/optimization/custom-goal-create.md)
-      + [Prácticas recomendadas para crear objetivos personalizados](/help/dsp/optimization/custom-goal-best-practices.md)
+   + [Objetivos personalizados](/help/dsp/optimization/custom-goal.md)
    + [Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [Solución de problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
 + Audiencias {#audiences}
