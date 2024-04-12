@@ -3,9 +3,9 @@ title: Parámetros de seguimiento opcionales para URL de seguimiento de clics
 description: Obtenga información acerca de los parámetros opcionales de seguimiento de búsqueda, medios sociales y comerciales y los parámetros de seguimiento específicos de la red de publicidad que puede agregar a sus direcciones URL de seguimiento de clics.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: c750d9872dc15d541883f397d88a4c3c4d4aeaf0
+source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -66,16 +66,8 @@ Consulte [https://support.google.com/google-ads/answer/2375447](https://support.
 
 Consulte [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Actualizado en sentido ascendente
-## [!DNL Yahoo Native] parámetros de seguimiento dinámico
-
-Consulte [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
-
-## [!DNL Yahoo! Japan Ads] parámetros de seguimiento dinámico
-=======
 ## Yahoo! Parámetros de seguimiento dinámico de anuncios de Japón
->>>>>>>>>>Cambios ocultos
-> 
+
 Consulte [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] parámetros de seguimiento dinámico
@@ -84,4 +76,4 @@ Consulte [https://yandex.com/support/direct/statistics/url-tags.html](https://ya
 
 >[!MORELIKETHIS]
 >
-* [Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
