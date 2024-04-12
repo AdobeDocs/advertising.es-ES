@@ -3,7 +3,7 @@ title: Parámetros de seguimiento opcionales para URL de seguimiento de clics
 description: Obtenga información acerca de los parámetros opcionales de seguimiento de búsqueda, medios sociales y comerciales y los parámetros de seguimiento específicos de la red de publicidad que puede agregar a sus direcciones URL de seguimiento de clics.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
+source-git-commit: c750d9872dc15d541883f397d88a4c3c4d4aeaf0
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Parámetros de seguimiento opcionales para URL de seguimiento de clics
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo Native], [!DNL Yahoo! Japan], y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan], y [!DNL Yandex] solo cuentas*
 
 En lugar de utilizar únicamente los parámetros de seguimiento estándar para una dirección URL final o una dirección URL de destino, puede agregar más parámetros para rastrear datos específicos de una cuenta de red de publicidad. Puede agregar cualquier combinación de los siguientes parámetros en la configuración de la cuenta o de la campaña:
 
