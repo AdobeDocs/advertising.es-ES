@@ -2,9 +2,9 @@
 title: Administrar multiplicadores de oferta para ubicaciones
 description: Obtenga información sobre cómo crear y editar multiplicadores de oferta para objetivos de ubicación especificados.
 feature: DSP Placements
-source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
+source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Solo puede configurar modificadores de oferta para destinos incluidos, no exclui
 
 * **Destinos de audiencia:** segmentos, partes del día y temas
 
-* **targets ads.txt:** (Cuando se excluye de ads.txt) solo vendedores de ads.txt, vendedores directos de ads.txt y vendedores de ads.txt más sitios sin ads.txt.
+* **targets ads.txt:** (Cuando se excluye de ads.txt, que le permite comprar inventario de todos los vendedores) solo vendedores de ads.txt, vendedores directos de ads.txt y vendedores de ads.txt más sitios sin ads.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## Número máximo de multiplicadores de oferta por tipo de destino {#bid-multiplier-limits-by-target}
 
