@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 820fbfb2b572df628976b03d186e5704ecd092a9
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3516'
 ht-degree: 0%
 
 ---
@@ -475,6 +475,7 @@ Qué nivel de [Ads.txt](https://iabtechlab.com/ads-txt-about/) Filtro de ofertas
 >* [Acerca de la administración de ubicación](placement-about.md)
 >* [Crear una ubicación](placement-create.md)
 >* [Editar una ubicación](placement-edit.md)
+>* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Preguntas frecuentes sobre Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)

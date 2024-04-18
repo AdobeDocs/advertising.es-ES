@@ -3,9 +3,9 @@ title: Editar rápidamente la configuración de colocación de claves
 description: Aprenda a cambiar rápidamente la configuración de ubicación de las claves.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presu
 >* [Crear una ubicación](placement-create.md)
 >* [Editar una ubicación](placement-edit.md)
 >* [Duplicar una ubicación](placement-duplicate.md)
+>* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Editar los horarios de anuncios de las ubicaciones](placement-edit-ad-schedule.md)
 >* [Pausar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)

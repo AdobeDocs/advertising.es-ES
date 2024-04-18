@@ -3,16 +3,16 @@ title: DSP Acerca de la administración de ubicaciones en Advertising
 description: Obtenga información acerca de la administración de ubicaciones.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # DSP Acerca de la administración de ubicaciones en Advertising
 
-Una ubicación incluye parámetros de segmentación para uno o varios anuncios del mismo tipo de anuncio. Puede crear una ubicación para una sola campaña o paquete y luego asignarle anuncios. Cada campaña o ubicación puede incluir varias ubicaciones, con una rotación de anuncio especificada. De forma predeterminada, los anuncios se giran uniformemente.
+Una ubicación incluye parámetros de segmentación para uno o varios anuncios del mismo tipo de anuncio. Puede crear una ubicación para una sola campaña o paquete y luego asignarle anuncios. Cada campaña o ubicación puede incluir varias ubicaciones, con una rotación de anuncio especificada. De forma predeterminada, los anuncios se giran uniformemente. Puede configurar por separado los multiplicadores de oferta para varios tipos de destino de ubicación.
 
 Una vez que asigne una ubicación activa a un paquete o campaña activos, todos los anuncios activos y aprobados de la ubicación pueden ejecutarse en función de los parámetros de segmentación de la ubicación.
 
@@ -47,7 +47,7 @@ Para cada ubicación, puede abrir una vista detallada ([el [!UICONTROL Inspector
 >[!MORELIKETHIS]
 >
 >* [Crear una ubicación](placement-create.md)
+>* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
 >* [Solución de problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
-

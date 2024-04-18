@@ -3,9 +3,9 @@ title: Editar una ubicación
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >* [Editar rápidamente la configuración de colocación de claves](placement-quick-edit.md)
 >* [Crear una ubicación](placement-create.md)
 >* [Duplicar una ubicación](placement-duplicate.md)
+>* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Editar los horarios de anuncios de las ubicaciones](placement-edit-ad-schedule.md)
 >* [Pausar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
