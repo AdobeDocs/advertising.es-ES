@@ -1,13 +1,15 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 # Campo Destinos de ubicación en algunas configuraciones de campaña y de grupo de publicidad de MS
 
-**[!UICONTROL Location Targets]:** Ubicaciones geográficas específicas de los usuarios que se incluirán o excluirán como destinos. De forma predeterminada, todas las ubicaciones están segmentadas. Puede incluir y excluir usuarios en cualquier combinación de ubicaciones. Las exclusiones siempre anulan las inclusiones.
+<!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
+
+**[!UICONTROL Location Targets]:** (Cuando está disponible) Ubicaciones geográficas de usuarios específicas que se deben incluir o excluir como objetivos. De forma predeterminada, todas las ubicaciones están segmentadas. Puede incluir y excluir usuarios en cualquier combinación de ubicaciones. Las exclusiones siempre anulan las inclusiones.
 
 * Para segmentar todas las ubicaciones, no seleccione ninguna ubicación.
 
