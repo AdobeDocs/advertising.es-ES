@@ -3,9 +3,9 @@ title: Socios de SSP
 description: Consulte la lista de la plataforma de suministro (SSP) disponible y los socios de intercambio abierto.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 222dd3c9c4ebf807a224162628184ccfc861ac41
+source-git-commit: 1fd67d0996fa877441a2a309d8cffdce40d41144
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | No | US/CA | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (anteriormente [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Google Authorized Buyers] (anteriormente [!DNL Google AdX]) | [!DNL Google] | ADOBE NA - 44912714<br>ADOBE APAC y UE - 89185975 | Sí | Global | USD, BRL | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe Advertising | No | US/CA | USD | x | x |  | x | x |  |  |
+| [!DNL GumGum] |  | Adobe Advertising | No | Global | USD | x | x |  | x | x |  |  |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | No | Global | USD | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | USD | x | x | x | x | x |  | x |
