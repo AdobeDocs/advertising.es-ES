@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] campañas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
+source-git-commit: cfac578e173e82ffeffcbd5094304c1132b5f177
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* (Función beta) Muestra anuncios de vídeo estándar en la red de audiencias.
 
-* *[!UICONTROL Performance Max]:* (Función beta) Muestra varios tipos de anuncios en todas las redes mediante [!DNL Microsoft Advertising] oferta inteligente. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, una llamada a la acción opcional y señales de audiencia. La red de anuncios combina automáticamente los recursos para publicar anuncios en función del canal.
+* *[!UICONTROL Performance Max]:* (Función beta) Muestra varios tipos de anuncios en todas las redes mediante [!DNL Microsoft® Advertising] oferta inteligente. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, una llamada a la acción opcional y señales de audiencia. La red de anuncios combina automáticamente los recursos para publicar anuncios en función del canal.
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** La estrategia de oferta para la campaña:
 
-* *[!UICONTROL Cost per Sale]:* (Solo campañas de compra) La red de anuncios, no Search, Social y Commerce, optimiza las ofertas según la variable **[!UICONTROL Target CPS]** (coste por venta). Usted paga solamente cuando un clic en su producto y resulta en una venta dentro de las 24 horas. **Nota:** Utilice esta opción para campañas en portafolios híbridos, pero no estándar.<!-- Verify all -->
+* *[!UICONTROL Cost per Sale]:* (Solo campañas de compra) La red de anuncios, no Search, Social y Commerce, optimiza las ofertas según la variable **[!UICONTROL Target CPS]** (coste por venta). Usted paga solamente cuando un clic en su producto y resulta en una venta dentro de las 24 horas. **Nota:** No incluya campañas con esta estrategia de oferta en portafolios. La optimización de búsqueda, social y Commerce no está disponible para campañas con esta estrategia de oferta.
 
   Una vez guardada una campaña de compra para marcas con esta estrategia de oferta, no se puede cambiar la estrategia de oferta. Para otros tipos de campañas de compra, esta estrategia solo está disponible para nuevas campañas.
 
@@ -68,15 +68,15 @@ ht-degree: 0%
 
   Cuando agrega una campaña con eCPC a un portafolio optimizado de Search, Social y Commerce, Search, Social y Commerce optimiza las ofertas de base y cuando el &quot;[!UICONTROL Auto adjust campaign budget limits]La opción &quot; está activada: el presupuesto de la campaña. La red de anuncios optimiza todos los ajustes de oferta y puede cambiar las ofertas generadas por Search, Social y Commerce en el momento de la consulta del usuario en función de los datos propietarios y las perspectivas. **Precaución:** Utilice campañas eCPC en portafolios solo cuando las conversiones totales rastreadas en la red de publicidad se alineen con el objetivo del portafolio.
 
-* *[!UICONTROL Manual CPC]*: (Campañas de compra para marcas; [!DNL Microsoft Store Ads] campañas; obsoleto por [!DNL Microsoft® Advertising] en 2021 para otros tipos de campaña) Utiliza el modelo de coste por clic (CPC). Para algunos tipos de anuncio, puede permitir que la red de anuncios cambie las ofertas de la campaña:
+* *[!UICONTROL Manual CPC]*: (Campañas de compra para marcas; [!DNL Microsoft® Store Ads] campañas; obsoleto por [!DNL Microsoft® Advertising] en 2021 para otros tipos de campaña) Utiliza el modelo de coste por clic (CPC). Para algunos tipos de anuncio, puede permitir que la red de anuncios cambie las ofertas de la campaña:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (desactivado de forma predeterminada): Es lo mismo que usar el &quot;[!UICONTROL Enhanced CPC]Opción &quot;.
+   * **[!UICONTROL Enable Enhanced CPC]** (desactivado de forma predeterminada): Esta opción es la misma que utilizar el &quot;[!UICONTROL Enhanced CPC]Opción &quot;.
 
-* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] campañas de ) Utiliza el modelo de coste por adquisición (CPA).
+* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft® Store Ads] campañas de ) Utiliza el modelo de coste por adquisición (CPA).
 
 * *[!UICONTROL Manual CPM]* (Solo campañas de audiencia y campañas de vídeo de audiencia) Utiliza el modelo de coste por mil impresiones (CPM), para el que especifica lo que desea gastar por cada 1000 impresiones vistas. Las campañas con esta estrategia de oferta no están optimizadas cuando se incluyen en portafolios.
 
-* *[!UICONTROL Maximize Clicks]:* (Campañas de búsqueda y compra) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para maximizar los clics. Si lo desea, introduzca un **[!UICONTROL Max CPC]** (coste por clic) para garantizar que la red de publicidad no pague más de una cantidad específica por cada clic. **Precaución:** Al añadir una campaña con esta estrategia a un portafolio, las ofertas se basan en la ponderación de los clics, no en el objetivo del portafolio.
+* *[!UICONTROL Maximize Clicks]:* (Campañas de búsqueda y compra) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para maximizar los clics. Si lo desea, introduzca un **[!UICONTROL Max CPC]** (coste por clic) para garantizar que la red de publicidad no pague más de una cantidad específica por cada clic. **Precaución:** Cuando añade una campaña con esta estrategia a un portafolio, la ponderación de los clics (no el objetivo del portafolio) genera ofertas.
 
 * *[!UICONTROL Maximize Conversion Value]:* (Redes de búsqueda y compras/compras inteligentes, campañas Máximo rendimiento de ). La red de publicidad (no Buscar, Social y Commerce) optimiza las ofertas para maximizar el valor de conversión. Si lo desea, introduzca un **[!UICONTROL Target Return on Ad Spend]** (ROAS) como porcentaje. **Nota:** Utilice esta opción para campañas en portafolios híbridos, pero no estándar.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Target Impression Share]:* (Campañas en la red de búsqueda) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para lograr un porcentaje de impresión y una posición de anuncio objetivo. Si lo desea, introduzca un **[!UICONTROL Target Impression Share]** como porcentaje, la variable **[!UICONTROL Target Ad Position]**, y a **[!UICONTROL Max CPC]** (coste por clic). **Nota:** Esta opción no se admite en portafolios híbridos.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (Campañas en las redes de búsqueda y compras) La red de anuncios (no en Search, Social y Commerce) optimiza las ofertas en función de las **[!UICONTROL Target ROAS]** (retorno de la inversión en publicidad), especificado como porcentaje. Si lo desea, introduzca un **[!UICONTROL Max CPC]** (coste por clic) para garantizar que la red de publicidad no pague más de una cantidad específica por cada clic. **Nota:** Utilice esta opción para campañas en portafolios híbridos (pero no estándar) con cualquier estrategia de gasto excepto [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* (Campañas en las redes de búsqueda y compras) La red de anuncios (no en Search, Social y Commerce) optimiza las ofertas en función de las **[!UICONTROL Target ROAS]** (retorno de la inversión en publicidad), especificado como porcentaje. Si lo desea, introduzca un **[!UICONTROL Max CPC]** (coste por clic) para garantizar que la red de publicidad no pague más de una cantidad específica por cada clic. **Nota:** Utilice esta opción para campañas en portafolios híbridos (pero no estándar) con cualquier estrategia de gasto excepto [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
 
   Los datos de oferta de CPC y posición promedio no están disponibles para campañas con esta estrategia de oferta.
 
@@ -116,7 +116,7 @@ Una vez que vincula la campaña a una tienda y guarda la configuración, no se p
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** (Solo campañas de rendimiento máximo) El idioma del anuncio, que debe coincidir con el idioma de los sitios en los que aparecerá el anuncio. [!DNL Microsoft Advertising] determina el idioma de un usuario a partir de diversas señales, incluidas la consulta del usuario, el país del editor y la configuración de idioma del usuario.
+**[!UICONTROL Languages]:** (Solo campañas de rendimiento máximo) El idioma del anuncio, que debe coincidir con el idioma de los sitios en los que puede aparecer el anuncio. [!DNL Microsoft® Advertising] determina el idioma de un usuario a partir de diversas señales, incluidas la consulta del usuario, el país del editor y la configuración de idioma del usuario.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -206,7 +206,7 @@ Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsof
 
 **[!UICONTROL Final URL]:** La dirección URL final de todos los anuncios creados a partir del grupo de recursos.
 
-**[!UICONTROL Images]:** Hasta 20 imágenes para el anuncio, incluida al menos una imagen cuadrada y una imagen horizontal. Consulte la [[!DNL Microsoft Advertising] directrices de imagen](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puede cargar imágenes o seleccionarlas en la [!UICONTROL Asset Library] — pero no ambas en la misma operación.
+**[!UICONTROL Images]:** Hasta 20 imágenes para el anuncio, incluida al menos una imagen cuadrada y una imagen horizontal. Consulte la [[!DNL Microsoft® Advertising] directrices de imagen](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puede cargar imágenes o seleccionarlas en la [!UICONTROL Asset Library] — pero no ambas en la misma operación.
 
 * Para cargar imágenes:
 
@@ -228,7 +228,7 @@ Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsof
 
 * Para seleccionar imágenes de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione las imágenes.
 
-**[!UICONTROL Logos]:** Al menos un logotipo. Se pueden incluir hasta cinco. Consulte la [[!DNL Microsoft Advertising] directrices de recursos](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puede cargar imágenes o seleccionarlas en la [!UICONTROL Asset Library] — pero no ambas en la misma operación.
+**[!UICONTROL Logos]:** Al menos un logotipo. Se pueden incluir hasta cinco. Consulte la [[!DNL Microsoft® Advertising] directrices de recursos](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puede cargar imágenes o seleccionarlas en la [!UICONTROL Asset Library] — pero no ambas en la misma operación.
 
 * Para cargar imágenes:
 
@@ -284,7 +284,7 @@ Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsof
 
 **[!UICONTROL Business Name]:** El nombre comercial, con un máximo de 25 caracteres. No puede contener secuencias de comandos, HTML u otro lenguaje de marcado.
 
-**[!UICONTROL Audience Signal]:** (Opcional) [!DNL Microsoft Advertising] audiencias que se utilizarán como señales de audiencia para la campaña. [!DNL Microsoft Advertising] los modelos de aprendizaje automático utilizan las audiencias para buscar internautas similares a target y también pueden mostrar anuncios a audiencias que no están especificadas como señales para ayudarle a alcanzar sus objetivos de rendimiento. Elija las audiencias que tienen más probabilidades de convertirse.
+**[!UICONTROL Audience Signal]:** (Opcional) [!DNL Microsoft® Advertising] audiencias que se utilizarán como señales de audiencia para la campaña. [!DNL Microsoft® Advertising] los modelos de aprendizaje automático utilizan las audiencias para buscar internautas similares a target y también pueden mostrar anuncios a audiencias que no están especificadas como señales para ayudarle a alcanzar sus objetivos de rendimiento. Elija las audiencias que tienen más probabilidades de convertirse.
 
 >[!NOTE]
 >Las señales de audiencia son diferentes de [objetivos de audiencia de nivel de grupo de anuncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
