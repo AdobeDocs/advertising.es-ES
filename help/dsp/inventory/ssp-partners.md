@@ -3,7 +3,7 @@ title: Socios de SSP
 description: Consulte la lista de la plataforma de suministro (SSP) disponible y los socios de intercambio abierto.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 1fd67d0996fa877441a2a309d8cffdce40d41144
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -54,3 +54,4 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 >[!MORELIKETHIS]
 >
 >* [Resumen de las Funciones de Inventario](inventory-overview.md)
+
