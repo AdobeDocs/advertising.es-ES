@@ -3,7 +3,7 @@ title: Creación e implementación de un segmento personalizado
 description: Obtenga información sobre cómo crear e implementar un segmento personalizado para rastrear usuarios expuestos a anuncios o usuarios que visitan sus páginas web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 9fc4c123fb682bbc2aee0ae72931c63d31f020be
+source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -30,7 +30,7 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
    1. Agregue el siguiente parámetro a sus páginas web antes o dentro de la variable [Código JavaScript necesario para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — en cualquier lugar antes de que se inicialice el último servicio de eventos.
 
-      `window.id5PartnerId=Your_ID5_PartnerID;`
+      ```window.id5PartnerId=Your_ID5_PartnerID;```
 
       Ejemplo:
 
