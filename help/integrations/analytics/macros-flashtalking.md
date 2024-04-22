@@ -3,7 +3,7 @@ title: Añadir [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Eti
 description: Descubra por qué y cómo añadir [!DNL Analytics for Advertising] macros a su [!DNL Flashtalking] etiquetas de publicidad
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 2a124481f98a5b5f17d613becacb0bdfa6935836
+source-git-commit: c6a7d99875d54d7ff807f94b8fdd7a903c05b6e5
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Dentro de [!DNL Flashtalking] Para agregar la configuración de etiqueta, anexe 
 [ftqs:[AdobeAMO]]
 ```
 
-Es la primera o la única cadena de consulta después de la dirección URL base y, a continuación, sepárela de la dirección URL base con un `?`. Si la dirección URL base va a incluir varias cadenas de consulta, comience la primera cadena con un `?` y cada cadena posterior con un `&`.
+Si es la primera o la única cadena de consulta después de la dirección URL base, sepárela con un `?`. Si la dirección URL base va a incluir varias cadenas de consulta, comience la primera cadena con un `?` y cada cadena posterior con un `&`.
 
 Ejemplos:
 
@@ -52,7 +52,7 @@ Dentro de [!DNL Flashtalking] Para agregar la configuración de etiqueta, anexe 
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Es la primera o la única cadena de consulta después de la dirección URL base y, a continuación, sepárela de la dirección URL base con un `?`. Si la dirección URL base va a incluir varias cadenas de consulta, comience la primera cadena con un `?` y cada cadena posterior con un `&`.
+Si es la primera o la única cadena de consulta después de la dirección URL base, sepárela con un `?`. Si la dirección URL base va a incluir varias cadenas de consulta, comience la primera cadena con un `?` y cada cadena posterior con un `&`.
 
 Ejemplos:
 
