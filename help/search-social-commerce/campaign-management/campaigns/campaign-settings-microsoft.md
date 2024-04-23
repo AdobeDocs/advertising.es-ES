@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] campañas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** La estrategia de oferta para la campaña:
 
-* *[!UICONTROL Cost per Sale]:* (Solo campañas de compra) La red de anuncios, no Search, Social y Commerce, optimiza las ofertas según la variable **[!UICONTROL Target CPS]** (coste por venta). Usted paga solamente cuando un clic en su producto y resulta en una venta dentro de las 24 horas. **Nota:** No incluya campañas con esta estrategia de oferta en portafolios. La optimización de búsqueda, social y Commerce no está disponible para campañas con esta estrategia de oferta.
+* *[!UICONTROL Cost per Sale]:* (Solo campañas de compra) La red de anuncios, no Search, Social y Commerce, optimiza las ofertas según la variable [!UICONTROL Target CPS] (coste por venta). Usted paga solamente cuando un clic en su producto y resulta en una venta dentro de las 24 horas. **Nota:** No incluya campañas con esta estrategia de oferta en portafolios. La optimización de búsqueda, social y Commerce no está disponible para campañas con esta estrategia de oferta.
 
   Una vez guardada una campaña de compra para marcas con esta estrategia de oferta, no se puede cambiar la estrategia de oferta. Para otros tipos de campañas de compra, esta estrategia solo está disponible para nuevas campañas.
 
