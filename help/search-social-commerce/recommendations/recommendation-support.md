@@ -3,9 +3,9 @@ title: Acerca de las recomendaciones del editor y la compatibilidad con perspect
 description: Obtenga información acerca de la compatibilidad para ver y administrar recomendaciones y perspectivas del editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,27 @@ ht-degree: 0%
 
 *Función beta para [!DNL Microsoft® Advertising] cuentas*
 
-[!DNL Google Ads] recomendaciones y [!DNL Microsoft® Advertising] las perspectivas de rendimiento son sugerencias de la red de anuncios para ayudar a mejorar el rendimiento y la eficacia de sus campañas:
+[!DNL Google Ads] y [!DNL Microsoft® Advertising] recomendaciones y perspectivas son sugerencias de la red de anuncios para ayudar a mejorar el rendimiento y la eficacia de sus campañas:
 
 * Cada [!DNL Google Ads] La recomendación proporciona sugerencias personalizadas sobre diferentes aspectos de rendimiento de una campaña (desde añadir un recurso a aumentar el presupuesto) en función del historial de rendimiento de la cuenta, la configuración de la campaña y las tendencias en [!DNL Google Ads].
 
-* Cada [!DNL Microsoft® Advertising] información sobre el rendimiento le alerta de una fluctuación significativa en una cuenta de administrador, una cuenta de anunciante o una campaña; identifica las posibles causas y sugiere acciones para optimizar el rendimiento.
+* Cada [!DNL Microsoft® Advertising] performance insight and recommendation sugiere cambios para optimizar el rendimiento de la campaña en función de los algoritmos de aprendizaje automático y las prácticas recomendadas.
 
 ## El [!UICONTROL Recommendations & Publisher Insights] vista
 
 En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights], puede:
 
-* Vea de un vistazo todas las recomendaciones compatibles en las que no se ha actuado durante un [!DNL Google Ads] cuenta para todas las perspectivas de rendimiento generadas en los últimos 30 días para una [Microsoft® Advertising] cuenta. La información de cada entrada incluye los detalles de la recomendación/perspectiva y las entidades afectadas. Para [!DNL Google Ads] En las cuentas de, los incrementos previstos en las métricas se resaltan en verde.
+* Vea de un vistazo todas las recomendaciones admitidas de que no se han llevado a cabo para una cuenta. La información de cada entrada incluye el tipo de recomendación, el [!DNL Adobe] recomendación, las métricas afectadas, la entidad afectada y un vínculo para obtener más detalles. Los incrementos previstos en las métricas se resaltan en verde.
 
   ![IU de Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "IU de Recommendations")
 
   Los datos están disponibles en tiempo real al abrir la vista. Para actualizar los datos, haga clic en ![Actualizar](/help/search-social-commerce/assets/refresh.png "Actualizar") en la parte inferior izquierda de la página.
 
-* Para [!DNL Google Ads] cuentas:
+* Para [Microsoft® Advertising] cuentas, consulte de un vistazo cada perspectiva de rendimiento generada en los últimos 30 días para obtener una [Microsoft® Advertising] cuenta. Las perspectivas proporcionan información similar a las recomendaciones, pero en un formato diferente. Cada perspectiva incluye la fecha, una descripción del problema, la entidad afectada, la causa raíz (que puede incluir vínculos a más detalles) y la acción sugerida con un vínculo para abrir el editor de publicidad de Microsoft®, desde el cual puede actuar sobre la perspectiva específica.
 
-   * Ver los detalles de la recomendación y aplicar o descartar directamente una recomendación.
+* Vea los detalles de una recomendación y aplique o descarte directamente la recomendación.
 
-   * Permite ver un registro de cada recomendación que se aplicó a la cuenta, incluidas las entidades afectadas, que aplicaron la recomendación y la marca de tiempo.
-
-* Para [Microsoft® Advertising] cuentas, abra el [!DNL Microsoft® Advertising] editor, desde el cual puede actuar sobre una perspectiva específica.
+* Permite ver un registro de cada recomendación que se aplicó a la cuenta, incluidas las entidades afectadas, que aplicaron la recomendación y la marca de tiempo.
 
 >[!NOTE]
 >
@@ -80,9 +78,17 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | | [!UICONTROL Search partners opt in] | Amplíe el alcance con [!DNL Google] buscar socios |
 | | [!UICONTROL Use broad match keyword] | Utilice la búsqueda de coincidencias generales para las campañas basadas en conversiones con pujas totalmente automatizadas basadas en conversiones |
 
+## Tipos de recomendación admitidos para [!DNL Microsoft Advertising]
+
+| Categoría de recomendación | Tipo de recomendación | Descripción |
+| --- | --- | --- |
+| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | Añadir nuevo anuncio de búsqueda adaptable |
+| [!UICONTROL Bidding and budgets] | [!UICONTROL Campaign budget] | Corrección de campañas limitadas por el presupuesto |
+| [!UICONTROL Keywords and targeting] | [!UICONTROL Keyword] | Añadir nuevas palabras clave de todas las fuentes |
+
 >[!MORELIKETHIS]
 >
 >* [Vea las recomendaciones del editor y las perspectivas de rendimiento](recommendation-view.md)
->* [Aplique o descarte una [!DNL Google Ads] recomendación](google-recommendation-apply-dismiss.md)
->* [Ver el registro de recomendaciones de un [!DNL Google Ads] account](google-recommendation-view-log.md)
->* [Prácticas recomendadas para usar recomendaciones de editores y perspectivas con portafolios](recommendation-best-practices.md)
+>* [Aplicar o descartar una recomendación del editor](recommendation-apply-dismiss.md)
+>* [Ver el registro de recomendaciones del editor de una cuenta](recommendation-view-log.md)
+>* [Prácticas recomendadas para usar recomendaciones de editores con portafolios](recommendation-best-practices.md)

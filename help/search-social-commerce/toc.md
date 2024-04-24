@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [Novedades](home.md)
 + [Acerca de esta guía](help-about.md)
 + Introducción {#intro}
-   + [Acerca de Búsqueda de Adobe Advertising, Social y Comercio](/help/search-social-commerce/introduction/about.md)
+   + [Acerca de Búsqueda de Adobe Advertising, Social y Commerce](/help/search-social-commerce/introduction/about.md)
    + [Inventario admitido](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integración con Adobe Experience Cloud {#integrations}
       + [Integración con soluciones y servicios de Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
@@ -374,9 +374,9 @@ ht-degree: 2%
    + Recommendations y perspectivas del editor {#recommendations}
       + [Acerca de las recomendaciones del editor y la compatibilidad con perspectivas](/help/search-social-commerce/recommendations/recommendation-support.md)
       + [Vea las recomendaciones del editor y las perspectivas de rendimiento](/help/search-social-commerce/recommendations/recommendation-view.md)
-      + [Aplique o descarte una [!DNL Google Ads] recomendación](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
-      + [Ver el registro de recomendaciones de un [!DNL Google Ads] account](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
-      + [Prácticas recomendadas para usar recomendaciones de editores y perspectivas con portafolios](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
+      + [Aplicar o descartar una recomendación del editor](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)
+      + [Ver el registro de recomendaciones del editor de una cuenta](/help/search-social-commerce/recommendations/recommendation-view-log.md)
+      + [Prácticas recomendadas para usar recomendaciones de editores con portafolios](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Herramientas {#tools}
    + [Cambiar la contraseña](/help/search-social-commerce/tools/password-change.md)
    + Herramientas para crear y descodificar etiquetas de seguimiento{#tracking}
