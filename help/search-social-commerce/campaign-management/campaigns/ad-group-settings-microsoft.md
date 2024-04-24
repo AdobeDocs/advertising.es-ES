@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] configuración del grupo de publicidad"
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] grupos de anuncios.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
+source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 Para [!DNL Microsoft® Advertising] grupos de anuncios en la red de audiencias, los modificadores de oferta para los destinos de ubicación no están optimizados en los portafolios estándar con la etiqueta &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
-**[!UICONTROL Genre]:** (Grupos de publicidad en [!UICONTROL Audience CTV Video] campañas; disponible en EE. UU., CA, BR, MX, Reino Unido, DE, ES, FR, IT, AU, MY y TH<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Los géneros objetivo, que determinan los programas y canales en los que aparecen los anuncios:
+**[!UICONTROL Genre]:** (Grupos de publicidad en [!UICONTROL Audience CTV Video] campañas; disponible en EE. UU., CA, BR, MX, Reino Unido, DE, ES, FR, IT, AU, MY y TH<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Los géneros objetivo, que determinan los programas y canales en los que aparecen los anuncios:
 
 * *[!UICONTROL All genres]:* (El valor predeterminado) Se dirige a todos los géneros.
 
