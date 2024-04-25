@@ -1,11 +1,11 @@
 ---
 title: Generar una URL de seguimiento de clics
 description: Obtenga información sobre cómo generar manualmente una URL de seguimiento de clics de Search, Social y Commerce.
-exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Para obtener información sobre cuándo debe generar e implementar manualmente u
 
            El archivo puede incluir hasta 10 000 líneas.
 
-         * ([!DNL Google Merchant Center] grupos de productos y [Microsoft® Advertising] anuncios de productos) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] grupos de productos y [DNL Microsoft® Advertising] anuncios de productos) `product name <tab> ** <tab> landing_page`
 
            donde `product name` es el nombre del producto y `landing_page` es una dirección URL de la página de aterrizaje o una dirección URL base válidas.
 
@@ -76,7 +76,7 @@ Para obtener información sobre cuándo debe generar e implementar manualmente u
 
            Ejemplo: Acme PR208**http://www.example.com/travel.html
 
-   1. Haga clic **[!UICONTROL Generate Tracking URLs]**.
+   1. Clic **[!UICONTROL Generate Tracking URLs]**.
 
 1. (Opcional) Copie las direcciones URL (empezando por &quot;http&quot; o &quot;https&quot;) de la pantalla o la página de salida e impleméntelas en la cuenta de búsqueda o social.
 
