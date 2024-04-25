@@ -3,7 +3,7 @@ title: Ver el registro de recomendaciones del editor de una cuenta
 description: Obtenga información sobre cómo ver un registro de cada recomendación que se aplicó a una [!DNL Google Ads] o [!DNL Microsoft Advertising] cuenta.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -32,3 +32,4 @@ Las recomendaciones descartadas no están disponibles en la red de anuncios.
 >* [Vea las recomendaciones del editor y las perspectivas de rendimiento](recommendation-view.md)
 >* [Aplicar o descartar una recomendación del editor](recommendation-apply-dismiss.md)
 >* [Prácticas recomendadas para usar recomendaciones de editores con portafolios](recommendation-best-practices.md)
+

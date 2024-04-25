@@ -3,7 +3,7 @@ title: Aplicar o descartar una recomendación del editor
 description: Obtenga información sobre cómo ver, aplicar o descartar una recomendación del editor.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -48,3 +48,4 @@ Vea las acciones recomendadas y una explicación de por qué las acciones sería
 >* [Vea las recomendaciones del editor y las perspectivas de rendimiento](recommendation-view.md)
 >* [Ver el registro de recomendaciones del editor de una cuenta](recommendation-view-log.md)
 >* [Prácticas recomendadas para usar recomendaciones de editores con portafolios](recommendation-best-practices.md)
+
