@@ -3,9 +3,9 @@ title: Generar una URL de seguimiento de clics
 description: Obtenga información sobre cómo generar manualmente una URL de seguimiento de clics de Search, Social y Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
+source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Para obtener información sobre cuándo debe generar e implementar manualmente u
 
            El archivo puede incluir hasta 10 000 líneas.
 
-         * ([!DNL Google Merchant Center] grupos de productos y [DNL Microsoft® Advertising] anuncios de productos) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] grupos de productos y [!DNL Microsoft® Advertising] anuncios de productos) `product name <tab> ** <tab> landing_page`
 
            donde `product name` es el nombre del producto y `landing_page` es una dirección URL de la página de aterrizaje o una dirección URL base válidas.
 
