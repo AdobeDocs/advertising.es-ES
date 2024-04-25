@@ -3,9 +3,9 @@ title: Acerca de las recomendaciones del editor y la compatibilidad con perspect
 description: Obtenga información acerca de la compatibilidad para ver y administrar recomendaciones y perspectivas del editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 7f45a89dbff37592eec9991c47ade3094ca024a8
+source-git-commit: 331b11620d99f9e43b9eb69db04aac4e1149d64f
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
   Los datos están disponibles en tiempo real al abrir la vista. Para actualizar los datos, haga clic en ![Actualizar](/help/search-social-commerce/assets/refresh.png "Actualizar") en la parte inferior izquierda de la página.
 
-* Para [DNL Microsoft® Advertising] cuentas, consulte de un vistazo cada perspectiva de rendimiento generada en los últimos 30 días para obtener una [DNL Microsoft® Advertising] cuenta. Las perspectivas proporcionan información similar a las recomendaciones, pero en un formato diferente. Cada perspectiva incluye la fecha, una descripción del problema, la entidad afectada, la causa raíz (que puede incluir vínculos a más detalles) y la acción sugerida con un vínculo para abrir el editor de publicidad de Microsoft®, desde el cual puede actuar sobre la perspectiva específica.
+* Para [!DNL Microsoft® Advertising] cuentas, consulte de un vistazo cada perspectiva de rendimiento generada en los últimos 30 días para obtener una [!DNL Microsoft® Advertising] cuenta. Las perspectivas proporcionan información similar a las recomendaciones, pero en un formato diferente. Cada perspectiva incluye la fecha, una descripción del problema, la entidad afectada, la causa raíz (que puede incluir vínculos a más detalles) y la acción sugerida con un vínculo para abrir [!DNL Microsoft® Advertising] editor, desde el cual puede actuar sobre la perspectiva específica.
 
 * Vea los detalles de una recomendación y aplique o descarte directamente la recomendación.
 
