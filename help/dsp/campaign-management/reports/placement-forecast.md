@@ -3,9 +3,9 @@ title: Ver el informe Previsión de ubicación
 description: Ver el número de impresiones, el gasto y la oferta máxima óptima prevista para una estrategia de segmentación determinada para una ubicación.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1596fb810d8eb0c3e7ebb0a955bf82ed5bbc22f5
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ La herramienta de previsión de ubicación muestra el número previsto de impres
 
 >[!NOTE]
 >
+>* Los códigos postales no se tienen en cuenta en los cálculos de previsión de ubicación.
 >* No se genera ninguna previsión para las ubicaciones con una segmentación programática garantizada (PG) únicamente porque la disponibilidad y el gasto son deterministas.
 
 ## Información en la previsión
