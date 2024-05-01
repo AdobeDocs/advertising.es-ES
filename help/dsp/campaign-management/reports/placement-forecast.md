@@ -3,7 +3,7 @@ title: Ver el informe Previsión de ubicación
 description: Ver el número de impresiones, el gasto y la oferta máxima óptima prevista para una estrategia de segmentación determinada para una ubicación.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 1596fb810d8eb0c3e7ebb0a955bf82ed5bbc22f5
+source-git-commit: e901087b9128779bb4d55194cebfdc84c7c2ba2a
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
