@@ -3,9 +3,9 @@ title: Configuración de anuncios de audio
 description: Consulte las descripciones de los ajustes de publicidad disponibles para anuncios de audio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 
 **[!UICONTROL Integration Event]:** Evento que déclencheur el píxel que se va a activar. Para este tipo de anuncio, utilice píxeles que se activen en *[!UICONTROL Impression]* o *[!UICONTROL Click-through]*.
 
-**[!UICONTROL Pixel Type]:** Si el píxel es un *[!UICONTROL IMG UR]L* (archivo de imagen de 1x1 píxeles), *[!UICONTROL HTML]*, o *[!UICONTROL JavaScript URL]*.
+**[!UICONTROL Pixel Type]:** Si el píxel es un *[!UICONTROL IMG URL]* (archivo de imagen de 1x1 píxeles), *[!UICONTROL HTML]*, o *[!UICONTROL JavaScript URL]*.
 
 **[!UICONTROL Pixel URL or Code]:** La URL de la imagen de píxel, en el formato adecuado para el Tipo de píxel especificado.
 
 **[!UICONTROL Pixel Name]:** El nombre del píxel. Utilice un nombre que le ayude a identificar fácilmente el píxel.
 
-**[!UICONTROL Pixel Provider]:** El proveedor de píxeles: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, o *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** El proveedor de píxeles:*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*..
 
 >[!MORELIKETHIS]
 >
@@ -69,4 +69,3 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 >* [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)
 >* [DSP macros](/help/dsp/campaign-management/macros.md)
-

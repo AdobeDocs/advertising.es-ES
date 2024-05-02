@@ -3,7 +3,7 @@ title: Configuración de anuncios de TV conectados
 description: Consulte las descripciones de la configuración de anuncios disponibles para anuncios de TV conectados.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 
 **[!UICONTROL Pixel Name]:** El nombre del píxel. Utilice un nombre que le ayude a identificar fácilmente el píxel.
 
-**[!UICONTROL Pixel Provider]:** El proveedor de píxeles: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, o *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** El proveedor de píxeles: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -85,4 +85,3 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 >* [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)
 >* [DSP macros](/help/dsp/campaign-management/macros.md)
-

@@ -3,7 +3,7 @@ title: Configuración de anuncio de vídeo universal
 description: Consulte las descripciones de los ajustes de publicidad disponibles para los anuncios de vídeo universales.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: d4af504a84d8fb356b2aca6d324e20fc0fb8fbbe
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 
 **[!UICONTROL Pixel Name]:** El nombre del píxel. Utilice un nombre que le ayude a identificar fácilmente el píxel.
 
-**[!UICONTROL Pixel Provider]:** El proveedor de píxeles: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, o *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** El proveedor de píxeles: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -80,4 +80,3 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 >* [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)
 >* [DSP macros](/help/dsp/campaign-management/macros.md)
-

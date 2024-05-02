@@ -3,7 +3,7 @@ title: Configuración de anuncio de visualización
 description: Consulte las descripciones de las configuraciones de anuncios disponibles para los anuncios en pantalla.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 
 **[!UICONTROL Pixel Name]:** El nombre del píxel. Utilice un nombre que le ayude a identificar fácilmente el píxel.
 
-**[!UICONTROL Pixel Provider]:** El proveedor de píxeles: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, o *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** El proveedor de píxeles: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, o *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -69,4 +69,3 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 >* [Enumeración de las ubicaciones asociadas a un anuncio](ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)
 >* [DSP macros](/help/dsp/campaign-management/macros.md)
-
