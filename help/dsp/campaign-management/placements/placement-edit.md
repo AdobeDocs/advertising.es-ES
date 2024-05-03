@@ -3,9 +3,9 @@ title: Editar una ubicación
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
+source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Editar una ubicación
 
 Puede editar la configuración de una sola ubicación o de varias ubicaciones a la vez.
+
+>[!NOTE]
+>
+>DSP También puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX (hoja de cálculo de Excel); realizar cambios en un subconjunto de campos y cargarlos de nuevo en todos los campos a la vez. Consulte &quot;[Revisión y corrección de la configuración de ubicación mediante hojas de cálculo](placement-qa.md).&quot;
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
