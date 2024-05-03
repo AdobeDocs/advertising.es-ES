@@ -3,9 +3,9 @@ title: Editar horarios de anuncios para ubicaciones
 description: Aprenda a cambiar los programas de anuncios de los anuncios adjuntos a las ubicaciones.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,6 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad pa
 >[!MORELIKETHIS]
 >
 >* [Acerca de la administración de ubicación](placement-about.md)
->* [Editar una ubicación](placement-edit.md)
+>* [Editar ubicaciones](placement-edit.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)

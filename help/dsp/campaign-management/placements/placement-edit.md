@@ -1,16 +1,16 @@
 ---
-title: Editar una ubicación
+title: Editar ubicaciones
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
-# Editar una ubicación
+# Editar ubicaciones
 
 Puede editar la configuración de una sola ubicación o de varias ubicaciones a la vez.
 
@@ -18,7 +18,7 @@ Puede editar la configuración de una sola ubicación o de varias ubicaciones a 
 
 >[!NOTE]
 >
->DSP También puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX (hoja de cálculo de Excel); realizar cambios en un subconjunto limitado de campos clave y cargarlos de nuevo en las páginas de inicio de sesión de una sola vez. Consulte &quot;[Revisión y corrección de la configuración de ubicación mediante hojas de cálculo](placement-qa.md).&quot;
+>DSP También puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX (hoja de cálculo de Excel); realizar cambios en un subconjunto limitado de campos clave y cargarlos de nuevo en las páginas de inicio de sesión de una sola vez. Consulte &quot;[Revisar y editar la configuración de ubicación mediante hojas de cálculo](placement-qa.md).&quot;
 
 ## Editar rápidamente la configuración de colocación de claves {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >[!MORELIKETHIS]
 >
 >* [Acerca de la administración de ubicación](placement-about.md)
->* [Revisión y corrección de la configuración de ubicación mediante hojas de cálculo](placement-qa.md)
+>* [Revisar y editar la configuración de ubicación mediante hojas de cálculo](placement-qa.md)
 >* [Crear una ubicación](placement-create.md)
 >* [Duplicar una ubicación](placement-duplicate.md)
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)

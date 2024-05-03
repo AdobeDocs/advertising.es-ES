@@ -2,9 +2,9 @@
 title: Administrar multiplicadores de oferta para ubicaciones
 description: Obtenga información sobre cómo crear y editar multiplicadores de oferta para objetivos de ubicación especificados.
 feature: DSP Placements
-source-git-commit: 8d1cb46c8756c7312c6bd23e7a30118a8835ffd6
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ See if any of these procedures are implemented; may need to be edited and/or re-
 
 Puede cambiar los multiplicadores de oferta para los destinos de colocación existentes mediante esta función.
 
-Para cambiar los destinos seleccionados para las ubicaciones, consulte[Editar una ubicación](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+Para cambiar los destinos seleccionados para las ubicaciones, consulte[Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 ## Administrar los multiplicadores de oferta para una o más ubicaciones
 
@@ -108,7 +108,7 @@ no engañado aquí
 >[!MORELIKETHIS]
 >
 >* [About Placement Management](placement-about.md)
->* [Edit a Placement](placement-edit.md)
+>* [Edit Placements](placement-edit.md)
 >* [View the Change Log for a Placement](placement-change-log.md)
 >* [Placement Settings](placement-settings.md)
  -->

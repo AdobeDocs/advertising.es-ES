@@ -1,16 +1,16 @@
 ---
-title: Revisión y corrección de la configuración de ubicación mediante hojas de cálculo
+title: Revisar y editar la configuración de ubicación mediante hojas de cálculo
 description: Obtenga información sobre cómo revisar y editar la configuración de ubicación de claves mediante hojas de cálculo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# Revisión y corrección de la configuración de ubicación mediante hojas de cálculo
+# Revisar y editar la configuración de ubicación mediante hojas de cálculo
 
 Puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX (hoja de cálculo de Excel) para su revisión. Utilice esta función para revisar rápidamente detalles como los siguientes:
 
@@ -22,7 +22,7 @@ DSP A continuación, puede realizar cambios en los campos seleccionados y cargar
 
 >[!TIP]
 >
->Para realizar cambios más exhaustivos en la configuración de ubicación, utilice la variable [función de edición masiva](/help/dsp/campaign-management/placements/placement-edit.md).
+>Para editar más campos para una o más ubicaciones, consulte &quot;[Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 ## Descargar configuración para todas las ubicaciones en una campaña
 
@@ -193,5 +193,5 @@ El archivo se guarda automáticamente en la carpeta de descarga del explorador. 
 
 >[!MORELIKETHIS]
 >
->* [Editar una ubicación](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

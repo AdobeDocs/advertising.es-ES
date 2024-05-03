@@ -3,9 +3,9 @@ title: Enumeración de las ubicaciones asociadas a un anuncio
 description: Obtenga información sobre cómo ver las ubicaciones asociadas a un anuncio.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: c3844b70aee5102e47dc8676064ea5a1e6cacaac
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,5 @@ Consulte también &quot;[Ver anuncios adjuntos a ubicaciones](/help/dsp/campaign
 >
 >* [Acerca de la administración de anuncios](ad-about.md)
 >* [Editar un anuncio](ad-edit.md)
->* [Editar una ubicación](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Ver un informe detallado de una ubicación](/help/dsp/campaign-management/placements/placement-view-report.md)

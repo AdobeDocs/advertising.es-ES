@@ -3,9 +3,9 @@ title: Ubicaciones duplicadas
 description: Obtenga información sobre cómo duplicar una o más ubicaciones.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Consulte &quot;[Qué no está duplicado](#placement-not-duplicated)&quot; para o
 
    Cuando se crean varias ubicaciones, a los nuevos nombres de ubicación se les anexa un número, en secuencia, utilizando la convención &lt;*#N original_placement_name*>, como &quot;Mi ubicación #2&quot;.
 
-1. Haga clic **[!UICONTROL Submit]**.
+1. Clic **[!UICONTROL Submit]**.
 
 ## Qué no está duplicado {#placement-not-duplicated}
 
@@ -73,7 +73,6 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 >
 >* [Acerca de la administración de ubicación](placement-about.md)
 >* [Crear una ubicación](placement-create.md)
->* [Editar una ubicación](placement-edit.md)
+>* [Editar ubicaciones](placement-edit.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
-
