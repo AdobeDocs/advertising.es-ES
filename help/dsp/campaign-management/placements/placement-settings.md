@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: caab8c3163a7ffdbc0b5ef28176b2ee73f83b6e8
 workflow-type: tm+mt
-source-wordcount: '3516'
+source-wordcount: '3540'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,7 @@ Si lo desea, puede exportar la lista de sitios de destino y bloqueados como arch
 
 * Para seleccionar una audiencia existente, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) junto a [!UICONTROL Excluded Audiences]y, a continuación, seleccione la audiencia.
 * Para crear una audiencia, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) junto a [!UICONTROL Excluded Audiences], y luego seleccione **+ Crear audiencia**. Para obtener instrucciones, consulte [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md), empezando por el paso 3.
+* Para seleccionar segmentos de audiencia específicos, haga clic en **[!UICONTROL Select segments for this placement only]**. Seleccione la lógica del segmento; para obtener instrucciones, consulte el paso 6 en &quot;[Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md).&quot; Cuando haya terminado, haga clic en **Guardar**.
 
 **[!UICONTROL Cross Device Targeting]:** (Disponible cuando selecciona al menos un segmento o audiencia y la variable [campaign está configurada para la segmentación entre dispositivos basada en personas](/help/dsp/campaign-management/campaigns/campaign-settings.md). Permite ampliar el direccionamiento a todos los dispositivos conocidos de una persona (según el gráfico del dispositivo especificado en la configuración de la campaña), incluso a los dispositivos que no están en los segmentos especificados. Se pueden aplicar tarifas según el gráfico especificado para la campaña. Los datos de gráficos de dispositivos solo están disponibles en Norteamérica.
 
