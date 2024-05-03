@@ -3,7 +3,7 @@ title: Crear una audiencia reutilizable
 description: Obtenga información sobre cómo crear audiencias reutilizables compuestas de segmentos de audiencia y otras audiencias guardadas.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -20,13 +20,13 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 
 1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]**.
 
-1. Introduzca un único [!UICONTROL Audience Name].
+1. Introduzca un único **[!UICONTROL Audience Name]**.
 
 1. (Opcional) Anule la selección de la opción **[!UICONTROL Share with all advertisers in my account]**.
 
    Al compartir una audiencia, esta pasa a estar disponible como objetivo o exclusión para todos los anunciantes de la cuenta. Sin embargo, los segmentos individuales de la audiencia solo están disponibles para los usuarios con los que se comparten los segmentos. Por ejemplo, si comparte una audiencia que contiene segmentos de Adobe Analytics con un anunciante que no está asignado al mismo [!DNL Analytics] , el segmento no se previsualizará en esa audiencia para ese anunciante. En la audiencia solo se previsualizarán los segmentos disponibles para ese anunciante.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 1. Cree la audiencia:
 
@@ -49,6 +49,7 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
          1. Busque el nuevo segmento en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
 
             El grupo de segmentos se actualiza automáticamente con el nuevo segmento.
+
       * Para agregar un nuevo grupo de segmentos:
 
          1. Clic **[!UICONTROL + New Group]** en el panel derecho.
@@ -58,6 +59,7 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
          1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
 
          1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*, o *[!UICONTROL Exclude All]*, según sea necesario.
+
    * Para usar la lógica de segmento de una audiencia existente:
 
       1. Copie la lógica de segmento de la audiencia existente de cualquiera de las siguientes maneras:
@@ -67,16 +69,14 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
          * En la configuración de la audiencia existente, en la parte superior del panel de lógica de segmento, haga clic en **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * En un editor de texto, cree manualmente la lógica de segmento mediante ID de segmento alfanuméricos y [Sintaxis booleana](audience-segment-logic-syntax.md)y cópielo en el portapapeles.
+
       1. Clic **[!UICONTROL paste in an audience rule to begin building]**, pegue la lógica de segmento existente en el campo de entrada y, a continuación, haga clic en **[!UICONTROL Apply]**.
 
          >[!NOTE]
          >
          >Si la audiencia ya incluye cualquier lógica de segmento, al pegar la nueva lógica de segmento se sobrescribe la lógica existente.
 
-
-
-
-1. Haga clic **[!UICONTROL Create]**.
+1. Clic **[!UICONTROL Create]**.
 
 >[!MORELIKETHIS]
 >
@@ -87,4 +87,3 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 >* [Creación e implementación de un segmento personalizado](custom-segment-create.md)
 >* [Creación e implementación de un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-
