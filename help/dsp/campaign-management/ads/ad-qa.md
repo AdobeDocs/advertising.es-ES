@@ -2,9 +2,9 @@
 title: Revisar La Configuración De Anuncio Mediante Hojas De Cálculo
 description: Obtenga información sobre cómo revisar la configuración de la publicidad mediante hojas de cálculo.
 feature: DSP Ads
-source-git-commit: c67e0c83ba8836462ce83fad24721cd1b27de318
+source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -43,5 +43,4 @@ Puede descargar la configuración de todos los anuncios de una campaña en forma
 >[!MORELIKETHIS]
 >
 >* [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
->* [Configuración de publicidad](/help/dsp/campaign-management/ads/ad-settings.md)
 >* [Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
