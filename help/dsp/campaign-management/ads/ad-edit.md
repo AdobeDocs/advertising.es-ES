@@ -3,14 +3,18 @@ title: Editar un anuncio
 description: Obtenga información sobre cómo editar un anuncio.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
 # Editar un anuncio
+
+>[!TIP]
+>
+>Para cambiar los píxeles de seguimiento de terceros para varios anuncios a la vez, consulte &quot;[Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -26,13 +30,13 @@ ht-degree: 0%
    >
    >Para cambiar la dirección URL de un anuncio, vuelva a traficar primero el anuncio en el servidor de publicidad.
 
-1. Haga clic **[!UICONTROL Save and Close]**.
+1. Clic **[!UICONTROL Save and Close]**.
 
    El anuncio editado pasa por un nuevo [revisión de anuncio](ad-about.md), que tarda de 24 a 48 horas e incluye comprobaciones de categorías confidenciales, funcionalidad de clic en URL y previsualización del procesamiento. El [!UICONTROL Status] DSP indica si el anuncio ha sido aprobado por el usuario. Los anuncios rotos pueden tener un estado pendiente durante más de 24 a 48 horas, por lo que tiene tiempo para corregir los errores antes de que se rechacen.
 
    >[!NOTE]
    >
-   >DSP Su anuncio solo se publicará si tanto la SSP como el administrador de la plataforma de marketing han aprobado el creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
+   >DSP Su anuncio solo se puede publicar si tanto el proveedor de servicios como el proveedor de servicios compartidos (SSP) han aprobado el creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
 
 >[!MORELIKETHIS]
 >
@@ -42,4 +46,3 @@ ht-degree: 0%
 >* [Duplicar un anuncio](ad-duplicate.md)
 >* [Enumeración de las ubicaciones asociadas a un anuncio](ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)
-
