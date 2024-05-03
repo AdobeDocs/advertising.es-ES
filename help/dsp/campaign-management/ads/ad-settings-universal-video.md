@@ -3,9 +3,9 @@ title: Configuración de anuncio de vídeo universal
 description: Consulte las descripciones de los ajustes de publicidad disponibles para los anuncios de vídeo universales.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Uso [!UICONTROL VAST], que no permite la medición de la visibilidad, cuando se 
 
 ### [!UICONTROL Pixel]
 
-Todos los píxeles de seguimiento de evento existentes para la ubicación se adjuntan automáticamente. Puede separar los píxeles existentes y crear nuevos píxeles según sea necesario, según sus necesidades de seguimiento para el anuncio individual.
+Todos los píxeles de seguimiento de evento existentes para la ubicación se adjuntan automáticamente. Puede separar los píxeles existentes y crear nuevos píxeles según sea necesario, según sus necesidades de seguimiento para el anuncio individual. **Sugerencia:** Para editar los píxeles de seguimiento de terceros para varios anuncios en una ubicación a la vez utilizando [!UICONTROL Ad Tools] ver, consulte &quot;[Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 Los siguientes ajustes se aplican a cada píxel que cree o edite.
 

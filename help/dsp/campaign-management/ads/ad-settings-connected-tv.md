@@ -3,9 +3,9 @@ title: Configuración de anuncios de TV conectados
 description: Consulte las descripciones de la configuración de anuncios disponibles para anuncios de TV conectados.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Esto es lo mismo que el **[!UICONTROL Height]** field.
 
 ### [!UICONTROL Pixel]
 
-Todos los píxeles de seguimiento de evento existentes para la ubicación se adjuntan automáticamente. Puede separar los píxeles existentes y crear nuevos píxeles según sea necesario, según sus necesidades de seguimiento para el anuncio individual.
+Todos los píxeles de seguimiento de evento existentes para la ubicación se adjuntan automáticamente. Puede separar los píxeles existentes y crear nuevos píxeles según sea necesario, según sus necesidades de seguimiento para el anuncio individual. **Sugerencia:** Para editar los píxeles de seguimiento de terceros para varios anuncios en una ubicación a la vez utilizando [!UICONTROL Ad Tools] ver, consulte &quot;[Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 Los siguientes ajustes se aplican a cada píxel que cree o edite.
 
