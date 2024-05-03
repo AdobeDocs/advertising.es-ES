@@ -3,9 +3,9 @@ title: Editar una ubicación
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
+source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,13 @@ ht-degree: 0%
 
 Puede editar la configuración de una sola ubicación o de varias ubicaciones a la vez.
 
+<!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
 >[!NOTE]
 >
->DSP También puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX (hoja de cálculo de Excel); realizar cambios en un subconjunto de campos y cargarlos de nuevo en todos los campos a la vez. Consulte &quot;[Revisión y corrección de la configuración de ubicación mediante hojas de cálculo](placement-qa.md).&quot;
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+>DSP También puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX (hoja de cálculo de Excel); realizar cambios en un subconjunto limitado de campos clave y cargarlos de nuevo en las páginas de inicio de sesión de una sola vez. Consulte &quot;[Revisión y corrección de la configuración de ubicación mediante hojas de cálculo](placement-qa.md).&quot;
 
 ## Editar rápidamente la configuración de colocación de claves {#placement-quick-edit}
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presupuesto sin abrir la configuración de ubicación completa.
 
