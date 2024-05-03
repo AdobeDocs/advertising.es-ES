@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4f73beed93be30187148a4425e5062d5bcd05dc9
+source-git-commit: 21ccaa24d65a6942507c4b5cf2eb7d0a1721fff7
 workflow-type: tm+mt
-source-wordcount: '2723'
+source-wordcount: '2758'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,14 @@ ht-degree: 0%
 # Novedades
 
 Las siguientes funciones son nuevas o han cambiado recientemente.
-
+<!--
+|  | Ads, Pixels |  |  | 
+-->
+>>
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
-| 2 de mayo de 2024 | Ubicaciones, anuncios | El [!UICONTROL Ad Tools] La vista ahora incluye la capacidad de adjuntar varios píxeles de seguimiento de terceros a uno o varios anuncios y separar los píxeles de seguimiento de terceros existentes de los anuncios. | Consulte &quot;[Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
+| 2 de mayo de 2024 | Anuncios, píxeles | El [!UICONTROL Ad Tools] ver > [!UICONTROL Attach Pixels] Esta pestaña muestra los píxeles de seguimiento de terceros que están adjuntos a sus anuncios y proporciona un nuevo flujo de trabajo para adjuntar píxeles a uno o más anuncios y para desasociar los píxeles existentes. | Consulte &quot;[Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
+|  | Ubicaciones, Audiencias | Ahora puede excluir segmentos de audiencia individuales o audiencias no reutilizables de las ubicaciones mediante las herramientas de edición masiva o el editor de ubicaciones. | Consulte &quot;[Editar una ubicación](/help/dsp/campaign-management/placements/placement-edit.md)&quot; y &quot;[Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 18 de abril de 2024 | Ubicaciones | Ahora puede crear y administrar modificadores de oferta, por los cuales se multiplica una oferta para aumentar o disminuir la oferta, para tipos de objetivo especificados para una ubicación. El modificador de oferta predeterminado es 1,00, lo que significa que no hay aumento ni disminución; los valores pueden variar de 0,10 a 10,00. Por ejemplo, un modificador de oferta de 0,50 reduce una oferta de 6 USD a 3 USD (0,50 x 6). Cuando una subasta cumple los requisitos para varios modificadores de oferta, se multiplican todos los modificadores de oferta aplicables. Los modificadores de oferta nunca aumentan la oferta por encima de la oferta máxima. | Consulte &quot;[Administrar multiplicadores de oferta para ubicaciones](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 | 3 de abril de 2024 | Socios de inventario | El puesto Adobe Advertising de la UE para [!DNL Google Authorized Buyers] se ha fusionado con el puesto existente de APAC. | Consulte &quot;[Socios de SSP](/help/dsp/inventory/ssp-partners.md).&quot; |
 |   | Optimización | Nuevo `CPA` (coste por adquisición) y `ROAS` Las métricas (retorno de la inversión en publicidad) del paquete, la ubicación y las tablas relacionadas proporcionan un seguimiento del rendimiento más preciso para los paquetes y las ubicaciones con objetivos relacionados. La nueva métrica de CPA solo tiene en cuenta el evento de conversión final (como las suscripciones) para calcular el coste por adquisición, lo que ofrece una imagen más precisa del CPA real que la métrica de objetivo personalizada heredada, que también incluía eventos de canal superior (como visitas de página y adiciones al carro de compras) en su cálculo. Del mismo modo, la nueva métrica ROAS considera solo el evento de ingresos finales (como compras y valores de compra), que es más confiable que la métrica de objetivo personalizada heredada para rastrear el rendimiento.<br><br>Ahora, al configurar un paquete con un objetivo de optimización basado en CPA o ROAS, debe especificar el evento de conversión o ingresos final, así como un objetivo personalizado que incluya el evento de conversión o ingresos; el objetivo personalizado puede incluir opcionalmente eventos de canal superior ponderados adicionales (como visitas a la página y adiciones al carro de compras) que se utilizarán además de la métrica CPA o ROAS para la optimización de paquetes.<br><br>Además, los objetivos de optimización centrados en el rendimiento se combinaron para simplificar:<ul><li>El nuevo &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; el objetivo reemplaza al heredado &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; y [!UICONTROL Highest ROAS (click focused) - Custom Goal],&quot; con opciones para lograr cualquiera de los escenarios heredados.</li><li>El nuevo &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; el objetivo reemplaza al heredado &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; y [!UICONTROL Lowest CPA (click focused) - Custom Goal],&quot; con opciones para lograr cualquiera de los escenarios heredados.</li></ul>Los paquetes existentes que usaban las metas heredadas se migraron automáticamente a las nuevas metas con la configuración relevante y no es necesario actualizar nada manualmente. | Consulte &quot;[Objetivos de optimización y cómo utilizarlos](/help/dsp/optimization/optimization-goals.md),&quot; &quot;[Configuración de paquetes](/help/dsp/campaign-management/packages/package-settings.md),&quot; y &quot;[Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
