@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [Acerca de la administración de ubicación](/help/dsp/campaign-management/placements/placement-about.md)
       + [Crear una ubicación](/help/dsp/campaign-management/placements/placement-create.md)
       + [Editar una ubicación](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Editar rápidamente la configuración de colocación de claves](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [Revisión y corrección de la configuración de ubicación mediante hojas de cálculo](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Duplicar una ubicación](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Administrar multiplicadores de oferta para ubicaciones](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [Ver los informes de diagnóstico de ubicación](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Ver alertas](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Administrar Las Vistas De Datos De Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + Configuración de ubicación correcta mediante hojas de cálculo {#qa-spreadsheet}
-      + [Corrección de configuración de colocación mediante hojas de cálculo](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Descargar configuración de ubicación en una hoja de cálculo](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Cargar configuración de ubicación en una hoja de cálculo](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [Columnas en hojas de cálculo descargadas o cargadas](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP macros](/help/dsp/campaign-management/macros.md)
    + [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Preguntas frecuentes sobre Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)

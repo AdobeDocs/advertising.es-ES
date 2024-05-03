@@ -3,9 +3,9 @@ title: Editar una ubicación
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ Puede editar la configuración de una sola ubicación o de varias ubicaciones a 
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## Editar rápidamente la configuración de colocación de claves {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presupuesto sin abrir la configuración de ubicación completa.
+
+1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
+1. Haga clic en el nombre de la campaña.
+1. En el submenú, haga clic en **[!UICONTROL Placements]**.
+1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Editar cualquiera de los disponibles [configuración de ubicación](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, y **[!UICONTROL Budget]**.
+1. Clic **[!UICONTROL Apply]**.
+
 ## Editar una sola ubicación
 
 >[!TIP]
 >
-> Para editar solo el nombre de la ubicación, el estado, la oferta máxima y el presupuesto, consulte &quot;[Editar rápidamente la configuración de colocación de claves](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> Para editar solo el nombre de la ubicación, el estado, la oferta máxima y el presupuesto, consulte &quot;[Editar rápidamente la configuración de colocación de claves](#placement-quick-edit).&quot;
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >[!MORELIKETHIS]
 >
 >* [Acerca de la administración de ubicación](placement-about.md)
->* [Editar rápidamente la configuración de colocación de claves](placement-quick-edit.md)
+>* [Revisión y corrección de la configuración de ubicación mediante hojas de cálculo](placement-qa.md)
 >* [Crear una ubicación](placement-create.md)
 >* [Duplicar una ubicación](placement-duplicate.md)
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >* [Configuración de ubicación](placement-settings.md)
 >* [Ver el informe Previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Corrección de configuración de colocación mediante hojas de cálculo](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
