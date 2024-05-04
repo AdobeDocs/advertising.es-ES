@@ -2,7 +2,7 @@
 title: Revisar Detalles De Anuncios Con Hojas De Cálculo
 description: Obtenga información sobre cómo revisar los detalles del anuncio, incluida la configuración del anuncio y las ubicaciones asociadas, mediante hojas de cálculo.
 feature: DSP Ads
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: fd197543d9f96bfb29784402a4510bd200888b60
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
