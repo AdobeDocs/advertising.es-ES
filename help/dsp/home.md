@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 17635ae4b61913d631ccb2a875ee550602831178
+source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
 workflow-type: tm+mt
 source-wordcount: '2771'
 ht-degree: 0%
@@ -15,10 +15,7 @@ ht-degree: 0%
 # Novedades
 
 Las siguientes funciones son nuevas o han cambiado recientemente.
-<!--
-|  | Ads, Pixels |  |  | 
--->
->>
+
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
 | 2 de mayo de 2024 | Anuncios, píxeles | Puede descargar la configuración de todos los anuncios de una campaña en formato XLSX (hoja de cálculo de Excel) para su revisión desde [!UICONTROL Ad Tools] vista. | Consulte &quot;[Revisar La Configuración De Anuncio Mediante Hojas De Cálculo](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
