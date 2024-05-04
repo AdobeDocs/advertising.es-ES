@@ -2,9 +2,9 @@
 title: Revisar La Configuración De Anuncio Mediante Hojas De Cálculo
 description: Obtenga información sobre cómo revisar la configuración de la publicidad mediante hojas de cálculo.
 feature: DSP Ads
-source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
+source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Puede descargar la configuración de todos los anuncios de una campaña en formato XLSX (hoja de cálculo de Excel) para su revisión.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
 
->[!TIP]
+>[!NOTE]
 >
->*Para editar la configuración del anuncio, utilice el [función de edición masiva](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Para editar la configuración de la publicidad, consulte [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md).
 >*Para cambiar los píxeles de seguimiento de terceros para varios anuncios a la vez o para adjuntar anuncios a ubicaciones, consulte &quot;[Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
