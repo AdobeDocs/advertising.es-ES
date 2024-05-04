@@ -2,7 +2,8 @@
 title: Revisar Detalles De Anuncios Con Hojas De Cálculo
 description: Obtenga información sobre cómo revisar los detalles del anuncio, incluida la configuración del anuncio y las ubicaciones asociadas, mediante hojas de cálculo.
 feature: DSP Ads
-source-git-commit: fd197543d9f96bfb29784402a4510bd200888b60
+exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
+source-git-commit: 64a1d623bd505764d1fb320e95706e0f702b1d23
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -11,7 +12,7 @@ ht-degree: 0%
 
 # Revisar Detalles De Anuncios Con Hojas De Cálculo
 
-Puede descargar detalles sobre todos los anuncios de una campaña en formato XLSX (hoja de cálculo de Excel) para revisarlos. Los detalles incluyen la configuración del anuncio y las ubicaciones asociadas.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
+Puede descargar detalles sobre todos los anuncios de una campaña en formato XLSX (hoja de cálculo de Excel) para revisarlos. Los detalles incluyen la configuración del anuncio y las ubicaciones asociadas.<!-- Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
 
 >[!NOTE]
 >
