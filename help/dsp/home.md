@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
-| 2 de mayo de 2024 | Anuncios, píxeles | Puede descargar la configuración de todos los anuncios de una campaña en formato XLSX (hoja de cálculo de Excel) para su revisión desde [!UICONTROL Ad Tools] vista. | Consulte &quot;[Revisar La Configuración De Anuncio Mediante Hojas De Cálculo](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
+| 2 de mayo de 2024 | Anuncios, píxeles | Puede descargar la configuración de la publicidad y las asociaciones de ubicación de todos los anuncios de una campaña en formato XLSX (hoja de cálculo de Excel) para su revisión desde [!UICONTROL Ad Tools] vista. | Consulte &quot;[Revisar Detalles De Anuncios Con Hojas De Cálculo](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | El [!UICONTROL Ad Tools] ver > [!UICONTROL Attach Pixels] Esta pestaña muestra los píxeles de seguimiento de terceros que están adjuntos a sus anuncios y proporciona un nuevo flujo de trabajo para adjuntar píxeles a uno o más anuncios y para desasociar los píxeles existentes. | Consulte &quot;[Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Ubicaciones, Audiencias | Ahora puede excluir segmentos de audiencia individuales o audiencias no reutilizables de las ubicaciones mediante las herramientas de edición masiva o el editor de ubicaciones. | Consulte &quot;[Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)&quot; y &quot;[Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 18 de abril de 2024 | Ubicaciones | Ahora puede crear y administrar modificadores de oferta, por los cuales se multiplica una oferta para aumentar o disminuir la oferta, para tipos de objetivo especificados para una ubicación. El modificador de oferta predeterminado es 1,00, lo que significa que no hay aumento ni disminución; los valores pueden variar de 0,10 a 10,00. Por ejemplo, un modificador de oferta de 0,50 reduce una oferta de 6 USD a 3 USD (0,50 x 6). Cuando una subasta cumple los requisitos para varios modificadores de oferta, se multiplican todos los modificadores de oferta aplicables. Los modificadores de oferta nunca aumentan la oferta por encima de la oferta máxima. | Consulte &quot;[Administrar multiplicadores de oferta para ubicaciones](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
