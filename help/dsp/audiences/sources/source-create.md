@@ -3,9 +3,9 @@ title: Crear una fuente de audiencia para activar audiencias de origen
 description: Obtenga información sobre cómo crear un origen para importar audiencias a su cuenta de o a una cuenta de anunciante.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Para ver los pasos adicionales necesarios para introducir segmentos de plataform
 
 >[!NOTE]
 >
->Después de crear una fuente para la plataforma de datos del cliente, deberá completar los pasos adicionales. Consulte la [flujo de trabajo de activación para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> y el [flujo de trabajo de activación para [!DNL Tealium]](source-tealium.md).
+>Después de crear una fuente para la plataforma de datos del cliente, debe completar los pasos adicionales. Consulte la [flujo de trabajo de activación para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> y el [flujo de trabajo de activación para [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >

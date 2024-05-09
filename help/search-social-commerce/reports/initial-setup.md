@@ -1,9 +1,9 @@
 ---
 title: Las tareas de configuración iniciales para los informes
 description: Obtenga información sobre cómo hacer que las métricas estén disponibles en los informes y cómo automatizar los informes.
-exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
+exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
 feature: Search Reports
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Los nuevos usuarios deben realizar las siguientes tareas de configuración inici
 
   Las propiedades de transacciones no están disponibles para los informes a menos que las ponga a disposición específicamente.
 
-  Si más adelante empieza a rastrear una nueva métrica de conversión, deberá repetir esta tarea.
+  Si más adelante empieza a rastrear una nueva métrica de conversión, debe repetir esta tarea.
 
 * (Opcional) Automatice la generación de informes:
 

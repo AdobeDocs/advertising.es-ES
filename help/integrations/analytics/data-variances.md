@@ -3,9 +3,9 @@ title: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 description: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ La ventana retrospectiva para [!DNL Marketing Channels] se puede personalizar. E
 
 Los informes de Adobe Advertising capturan solo los medios de pago traficados a través del Adobe Advertising (búsqueda de pago para [!DNL Advertising Search, Social, & Commerce] DSP anuncios y visualización para anuncios de Advertising), mientras que [!DNL Marketing Channels] los informes pueden realizar un seguimiento de todos los canales digitales. Esto puede provocar una discrepancia en el canal para el que se atribuye una conversión.
 
-Por ejemplo, la búsqueda de pago y los canales de búsqueda natural a menudo tienen una relación simbiótica, en la que cada canal ayuda al otro. El [!DNL Marketing Channels] El informe atribuirá a la búsqueda natural algunas conversiones que el Adobe Advertising no atribuirá porque no realiza el seguimiento de la búsqueda natural.
+Por ejemplo, la búsqueda de pago y los canales de búsqueda natural a menudo tienen una relación simbiótica, en la que cada canal ayuda al otro. El [!DNL Marketing Channels] El informe atribuye algunas conversiones a la búsqueda natural que el Adobe Advertising no atribuye a porque no realiza el seguimiento de la búsqueda natural.
 
 Piense también en un cliente que ve un anuncio en pantalla, hace clic en un anuncio de búsqueda de pago, hace clic dentro de un mensaje de correo electrónico y, a continuación, realiza un pedido de 30 USD. Incluso si el Adobe Advertising y [!DNL Marketing Channels] Si ambos utilizan el modelo de atribución de último contacto, la conversión se atribuiría de forma diferente a cada uno. El Adobe Advertising no tiene acceso a [!UICONTROL Email] canal, de modo que acreditaría la búsqueda de pago de la conversión. [!DNL Marketing Channels], sin embargo, tiene acceso a los tres canales, por lo que tendría crédito [!UICONTROL Email] para la conversión.
 

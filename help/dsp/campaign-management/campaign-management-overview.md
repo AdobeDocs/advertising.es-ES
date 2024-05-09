@@ -3,9 +3,9 @@ title: Descripción general de Campaign Management DSP en Advertising
 description: Obtenga información acerca de la jerarquía y los componentes de administración de campañas.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A [ubicación](/help/dsp/campaign-management/placements/placement-about.md) alma
 
 [Anuncios](/help/dsp/campaign-management/ads/ad-about.md) incluya recursos creativos y direcciones URL de seguimiento. Puede cargar etiquetas de servicios de publicidad de terceros de forma individual o masiva mediante hojas de etiquetas de socios o la plantilla de etiquetas masiva. DSP También puede crear manualmente anuncios en pantalla nativos para que se publiquen los que se van a publicar en el servidor de.
 
-Una vez configurados los anuncios, deberá adjuntar cada anuncio a una ubicación. Puede adjuntar un solo anuncio a una o varias ubicaciones.
+Una vez configurados los anuncios, debe adjuntar cada anuncio a una ubicación para comenzar a ejecutarlo. Puede adjuntar un solo anuncio a una o varias ubicaciones.
 
 Todos los anuncios activos y aprobados de una ubicación activa en una campaña activa pueden ejecutarse en función de los parámetros de segmentación de ubicación.
 

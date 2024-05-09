@@ -2,9 +2,9 @@
 title: Configuración de cuenta del anunciante
 description: Consulte las descripciones de la configuración de anunciante disponible.
 role: User, Admin
-source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Si selecciona *[!UICONTROL Other]* DSP , el anunciante no podrá acceder a la información de la cuenta de usuario de la página de la página de [!DNL On Demand Inventory].
+>Si selecciona *[!UICONTROL Other]* DSP , el anunciante no podrá acceder a la aplicación de la forma que se le haya solicitado [!DNL On Demand Inventory].
 
 **[!UICONTROL Advertiser URL]:** Página de inicio del anunciante o URL del sitio web principal (que comienza con `http://` o `https://`).
 
