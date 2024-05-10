@@ -3,9 +3,9 @@ title: Administrar plantillas de publicidad para fuentes de inventario
 description: Obtenga información acerca de la administración de plantillas de publicidad a través de las cuales se pueden procesar los datos de inventario para administrar la estructura de cuentas y enviar anuncios dinámicos.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Cree plantillas independientes para anuncios de texto y expandidos/extendidos, a
                >* Si la copia de anuncio original cumple los requisitos de longitud del motor de búsqueda, se descarta la copia de anuncio alternativa.
                >* Puede especificar hasta cuatro alternativas para cada campo de copia de anuncio.
 
-         * Para quitar una variación de anuncio, haga clic en **[!UICONTROL Remove ETA Variation]** (para anuncios de texto expandidos/extendidos) o **[!UICONTROL Remove RSA Variation]** (para anuncios de búsqueda adaptables) junto a él, según corresponda.
+         * Para quitar una variación de anuncio, haga clic en **[!UICONTROL Remove ETA Variation]** (para anuncios de texto expandidos/extendidos) o **[!UICONTROL Remove RSA Variation]** (para anuncios de búsqueda adaptables) junto a la variación de anuncio, según corresponda.
 
    1. (Solo plantillas de compra) Haga clic en **[!UICONTROL Product Groups]** y, a continuación, especifique información sobre los grupos de productos a los que desea dirigirse.
 

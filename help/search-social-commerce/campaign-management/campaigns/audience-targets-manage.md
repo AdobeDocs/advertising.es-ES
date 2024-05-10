@@ -1,11 +1,11 @@
 ---
 title: Administrar destinatarios de audiencia para campañas y grupos de anuncios
 description: Obtenga información sobre cómo configurar y administrar los destinatarios de audiencia para su [!DNL Google Ads] y [!DNL Microsoft® Advertising] campañas y grupos de publicidad.
-exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Puede configurar los objetivos de audiencia, editar los modificadores de oferta 
 
       1. (Opcional) Para filtrar una lista de campañas o de grupos de publicidad por una cadena de texto incluida en el nombre, haga clic en ![Filtrar](/help/search-social-commerce/assets/filter.png "Filtrar") , introduzca o pegue la cadena de texto en el campo de entrada y, a continuación, pulse el botón **[!UICONTROL Enter]** clave.
 
-      1. Especifique el destino de cada campaña y grupo de publicidad para la red de publicidad especificada haciendo clic en el círculo vacío junto a ella, de modo que la marca de verificación azul (![Seleccionar](/help/search-social-commerce/assets/include.png "Seleccionar")) aparece.
+      1. Especifique el objetivo de cada campaña y grupo de publicidad para la red de publicidad especificada haciendo clic en el círculo vacío adyacente para que la marca de verificación azul (![Seleccionar](/help/search-social-commerce/assets/include.png "Seleccionar")) aparece.
 
       No se puede configurar un objetivo tanto para una campaña principal como para un grupo de anuncios secundarios (que utiliza automáticamente el objetivo).
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 1. (Opcional) Defina un ajuste de oferta para el objetivo de una de las siguientes maneras desde el [!UICONTROL Targets] ver:
 
@@ -98,7 +98,7 @@ Puede cambiar el modificador de oferta y el estado de los objetivos de audiencia
 
       1. (Opcional) Haga clic en **[!UICONTROL Additional Details]** y, opcionalmente, introduzca un nombre y una descripción de proyecto.
 
-      1. Haga clic **[!UICONTROL Post]**.
+      1. Clic **[!UICONTROL Post]**.
 
 ## Cambio del estado de los destinatarios de audiencia
 

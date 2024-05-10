@@ -1,11 +1,11 @@
 ---
 title: Asociar [!DNL Google Ads] extensiones de llamadas compartidas con campañas o grupos de anuncios
 description: Obtenga información sobre cómo asignar [!DNL Google Ads] extensiones de llamadas compartidas a campañas o grupos de anuncios.
-exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Asigne al menos dos llamadas por campaña o grupo de anuncios para que sus anunc
 
       * (Opcional) Para filtrar una lista de campañas o de grupos de publicidad por una cadena de texto incluida en el nombre, haga clic en ![Filtrar](/help/search-social-commerce/assets/filter.png "Filtrar"), introduzca o pegue la cadena de texto en el campo de entrada y, a continuación, pulse el botón **Entrar** clave.
 
-      * Para seleccionar una entidad, haga clic en el círculo que hay junto a ella (![Seleccionar](/help/search-social-commerce/assets/include.png "Seleccionar")).
+      * Para seleccionar una entidad, haga clic en el círculo adyacente (![Seleccionar](/help/search-social-commerce/assets/include.png "Seleccionar")).
 
-   1. Haga clic **[!UICONTROL Post]**.
+   1. Clic **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >

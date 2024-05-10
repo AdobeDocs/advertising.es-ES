@@ -1,11 +1,11 @@
 ---
 title: Administración de exclusiones de audiencia para campañas y grupos de anuncios
 description: Obtenga información sobre cómo configurar y administrar las exclusiones de audiencia para su [!DNL Google Ads] y [!DNL Microsoft® Advertising] campañas y grupos de publicidad.
-exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,11 @@ También puede eliminar exclusiones de audiencia.
 
       1. Realice una de las siguientes acciones:
 
-         * Especifique la exclusión de cada grupo de publicidad haciendo clic en el círculo que hay junto a él, de modo que la marca de verificación roja (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
+         * Especifique la exclusión de cada grupo de publicidad haciendo clic en el círculo adyacente para que se muestre una marca de verificación roja (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
 
-         * Especifique la exclusión de cada campaña haciendo clic en el círculo situado junto a ella, de modo que la marca de verificación roja ( ).![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
+         * Especifique la exclusión de cada campaña haciendo clic en el círculo adyacente para que la marca de verificación ( ) sea roja.![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 ## Eliminar exclusiones de audiencia
 

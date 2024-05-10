@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] configuración del grupo de publicidad"
 description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] grupos de anuncios.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ La colocación de anuncios de TV conectada (CTV) depende de la calidad del víde
 
 * Para dirigirse a todos los valores, no seleccione ningún valor.
 
-* Para incluir un valor, haga clic en el círculo que hay junto a él una vez para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece. Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada sexo objetivo.
+* Para incluir un valor, haga clic una vez en el círculo adyacente para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece. Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada sexo objetivo.
 
-* Para excluir un valor, haga clic dos veces en el círculo que aparece junto a él, de modo que aparezca una marca de verificación roja (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
+* Para excluir un valor, haga clic dos veces en el círculo adyacente para que la marca de verificación (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
 
 **[!UICONTROL Age]:** (Audiencia y grupos; opcional) Categorías de edad específicas que se deben incluir o excluir como objetivos: *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]*, y *[!UICONTROL Unknown]*. De forma predeterminada, todas las páginas están segmentadas. Las exclusiones siempre anulan las inclusiones.
 
 * Para dirigirse a todos los valores, no seleccione ningún valor.
 
-* Para incluir un valor, haga clic en el círculo que hay junto a él una vez para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece. Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada página de destino.
+* Para incluir un valor, haga clic una vez en el círculo adyacente para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece. Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada página de destino.
 
-* Para excluir un valor, haga clic dos veces en el círculo que aparece junto a él, de modo que aparezca una marca de verificación roja (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
+* Para excluir un valor, haga clic dos veces en el círculo adyacente para que la marca de verificación (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
 
 **[!UICONTROL Industry]:** (Grupos de anuncios de audiencia; opcional) Industrias específicas que se deben incluir o excluir como objetivos. De forma predeterminada, todas las industrias están segmentadas. Las exclusiones siempre anulan las inclusiones.
 
 * Para dirigirse a todos los valores, no seleccione ningún valor.
 
-* Para incluir un valor, haga clic en el círculo que hay junto a él una vez para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece. Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada sector de destino.
+* Para incluir un valor, haga clic una vez en el círculo adyacente para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece. Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada sector de destino.
 
-* Para excluir un valor, haga clic dos veces en el círculo que aparece junto a él, de modo que aparezca una marca de verificación roja (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
+* Para excluir un valor, haga clic dos veces en el círculo adyacente para que la marca de verificación (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
 
 **[!UICONTROL Job Function Targets]:** (Audiencia y grupos; opcional) Funciones de trabajo específicas que se deben incluir o excluir como destinatarios. De forma predeterminada, todas las funciones de trabajo están segmentadas. Las exclusiones siempre anulan las inclusiones.
 
 * Para dirigirse a todos los valores, no seleccione ningún valor.
 
-* Para incluir un valor, haga clic en el círculo que hay junto a él una vez para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece. Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada función de trabajo de destino.
+* Para incluir un valor, haga clic una vez en el círculo adyacente para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece. Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada función de trabajo de destino.
 
-* Para excluir un valor, haga clic dos veces en el círculo que aparece junto a él, de modo que aparezca una marca de verificación roja (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
+* Para excluir un valor, haga clic dos veces en el círculo adyacente para que la marca de verificación (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
 
 ## [!UICONTROL URL Options]
 

@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -136,9 +136,9 @@ Cuando agrega una campaña con eCPC a un portafolio optimizado de Search, Social
 
    * (Países, estados, regiones metropolitanas o ciudades) Haga clic **[!UICONTROL Location Target]** (![Destino de ubicación](/help/search-social-commerce/assets/location-target.png "Destino de ubicación")) y busque las ubicaciones que desea incluir y excluir:
 
-      * Para incluir una ubicación y sus ubicaciones secundarias, haga clic una vez en el círculo situado junto a ella para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece.
+      * Para incluir una ubicación y sus ubicaciones secundarias, haga clic una vez en el círculo adyacente para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece.
 
-      * Para excluir una ubicación, haga clic dos veces en el círculo que aparece junto a ella, de modo que aparezca una marca de verificación roja (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
+      * Para excluir una ubicación, haga clic dos veces en el círculo adyacente para que la marca de verificación (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
 
       * Para expandir una ubicación en sus subcomponentes (como estados, regiones metropolitanas o ciudades de Estados Unidos), haga clic en el nombre de la ubicación.
 

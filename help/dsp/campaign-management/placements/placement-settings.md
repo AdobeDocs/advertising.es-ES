@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3535'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
       1. Clic **[!UICONTROL Search]**.
       1. Introduzca una palabra clave, seleccione un nivel de sitio y/o seleccione una categoría de sitio.
       1. En los resultados de búsqueda, seleccione los sitios que desea excluir:
-         * Para excluir un sitio individual, active la casilla de verificación situada junto a él.
+         * Para excluir un sitio individual, active la casilla de verificación adyacente.
          * (Cuando haya más de 50 resultados disponibles) Para excluir los primeros 50 resultados, haga clic en **[!UICONTROL Exclude these 50]**. Para excluir todos los resultados de la búsqueda, haga clic en **[!UICONTROL Exclude these \<*NN *\>]**.
    * Para introducir nombres de dominio:
       1. Clic **[!UICONTROL Paste]**.
@@ -289,7 +289,7 @@ Si lo desea, puede exportar la lista de sitios de destino y bloqueados como arch
       1. Clic **[!UICONTROL Search]**.
       1. Introduzca una palabra clave, seleccione un nivel de sitio y/o seleccione una categoría de sitio.
       1. En los resultados de búsqueda, seleccione los sitios que desea incluir:
-         * Para excluir un sitio individual, active la casilla de verificación situada junto a él.
+         * Para excluir un sitio individual, active la casilla de verificación adyacente.
          * (Cuando haya más de 50 resultados disponibles) Para incluir los 50 primeros resultados, haga clic en **[!UICONTROL Include these 50]**. Para incluir todos los resultados de búsqueda, haga clic en **[!UICONTROL Include these \<*NN *\>]**.
    * Para introducir nombres de dominio:
       1. click **[!UICONTROL Paste]**.
