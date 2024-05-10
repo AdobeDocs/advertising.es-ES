@@ -3,9 +3,9 @@ title: Configuración de destino del informe
 description: Consulte los detalles necesarios para los destinos de informe, por tipo de destino.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Los detalles necesarios para los destinos de informe que no son de correo electr
 
 **[!UICONTROL Name]:** Un nombre para ayudarle a identificar el destino.
 
-**[!UICONTROL S3 Bucket URL]:** La ruta completa a la carpeta en el [!DNL Amazon Simple Storage Service] (S3) bloque al que se cargará el informe. Ejemplo: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** La ruta completa a la carpeta en el [!DNL Amazon Simple Storage Service] (S3) bloque en el que se carga el informe. Ejemplo: `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** La ID de la clave de acceso a ([!DNL Amazon S3]) cubo (proporcionado por [!DNL Amazon]).
 
@@ -40,7 +40,7 @@ Los detalles necesarios para los destinos de informe que no son de correo electr
 
 **[!UICONTROL Password]:** Contraseña para iniciar sesión en el servidor.
 
-**[!UICONTROL Path (Optional)]:** Ruta de servidor a la que se cargarán los archivos.
+**[!UICONTROL Path (Optional)]:** Ruta del servidor en el que se cargan los archivos.
 
 ## [!UICONTROL SFTP]
 
@@ -54,7 +54,7 @@ Los detalles necesarios para los destinos de informe que no son de correo electr
 
 **[!UICONTROL Password]:** Contraseña para iniciar sesión en el servidor.
 
-**[!UICONTROL Path (Optional)]:** Ruta de servidor a la que se cargarán los archivos.
+**[!UICONTROL Path (Optional)]:** Ruta del servidor en el que se cargan los archivos.
 
 ## [!UICONTROL FTP SSL]
 
@@ -68,7 +68,7 @@ Los detalles necesarios para los destinos de informe que no son de correo electr
 
 **[!UICONTROL Password]:** Contraseña para iniciar sesión en el servidor.
 
-**[!UICONTROL Path (Optional)]:** Ruta de servidor a la que se cargarán los archivos.
+**[!UICONTROL Path (Optional)]:** Ruta del servidor en el que se cargan los archivos.
 
 >[!MORELIKETHIS]
 >
@@ -76,4 +76,3 @@ Los detalles necesarios para los destinos de informe que no son de correo electr
 >* [Crear un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Editar una [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

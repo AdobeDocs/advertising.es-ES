@@ -3,9 +3,9 @@ title: Sintaxis de la lógica de segmento de audiencia
 description: Haga referencia a la sintaxis que puede utilizar para definir la lógica de los segmentos de audiencia.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ significa (en inglés)
 
 >[!NOTE]
 >
->En la configuración de colocación, puede utilizar audiencias guardadas como audiencias para dirigirse explícitamente o como audiencias independientes para excluir de la segmentación. Asegúrese de que la lógica del segmento refleje el propósito para el que utilizará la audiencia.
+>En la configuración de colocación, puede utilizar audiencias guardadas como audiencias para dirigirse explícitamente o como audiencias independientes para excluir de la segmentación. Asegúrese de que la lógica del segmento refleje el propósito de usar la audiencia.
 
 >[!MORELIKETHIS]
 >

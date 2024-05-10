@@ -3,9 +3,9 @@ title: Configurar una oferta garantizada programática
 description: Aprenda a configurar un acuerdo programático garantizado (PG) que haya negociado con un editor.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: f887524a22dd5d665dcfc38b1a4ce2a1242638d7
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Utilice este método para todos los demás SSP.
 
 1. [Configurar manualmente los detalles del ID de la oferta](deal-id-create.md).
 
-1. Después de guardar la oferta, seleccione los anuncios (o píxeles de seguimiento 1x1 para anuncios administrados por el editor) que se utilizarán para la oferta y cree una ubicación predeterminada PG, según se le solicite.
+1. Después de guardar la oferta, seleccione los anuncios (o píxeles de seguimiento 1x1 para anuncios administrados por el editor) que desea utilizar para la oferta y cree una ubicación predeterminada PG, según se le solicite.
 
    La creación de una ubicación predeterminada de PG para la oferta es obligatoria para entregar el 100% de su compra. DSP Este tipo de ubicación no tiene objetivo, por lo que puede devolver una oferta a cada solicitud de oferta del editor.
 

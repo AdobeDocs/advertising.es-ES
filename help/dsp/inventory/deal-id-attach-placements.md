@@ -3,9 +3,9 @@ title: Especificar ubicaciones y anuncios para una oferta privada
 description: Aprenda a utilizar un acuerdo privado con ubicaciones y anuncios adicionales.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ También puede [adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/a
 
        1. Seleccione el anunciante, la campaña y el tipo de anuncio. Si lo desea, seleccione un estado de anuncio según el cual filtrar los anuncios.
        
-       1. En la lista de anuncios disponibles, seleccione la casilla de verificación situada junto a cada anuncio que se utilizará para la oferta.
+       1. En la lista de anuncios disponibles, seleccione la casilla de verificación situada junto a cada anuncio que desee utilizar para la oferta.
        
        1. Haga clic en **[!UICONTROL Apply]**.
    
@@ -46,7 +46,7 @@ También puede [adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/a
 
       1. Clic **[!UICONTROL Create placement]**.
 
-La ubicación empezará a ejecutarse después de que el editor active su ID de acuerdo de PG.
+La ubicación comienza a ejecutarse después de que el editor active su ID de acuerdo de PG.
 
 >[!NOTE]
 >

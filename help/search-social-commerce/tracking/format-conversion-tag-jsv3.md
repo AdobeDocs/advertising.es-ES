@@ -1,11 +1,11 @@
 ---
 title: Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3
 description: Consulte el formato de las etiquetas de seguimiento de conversión de JavaScript versión 3.
-exl-id: 1e177c52-f93c-4800-afb5-28f2336117b9
+exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ donde:
 
 * `<ef-userid>` es un ID de usuario numérico y único que Search, Social y Commerce asigna al anunciante.
 
-* `<propertyname>` es la conversión de la que se realizará un seguimiento. Por ejemplo, si está rastreando una conversión llamada &quot;registro&quot;, la etiqueta incluiría el parámetro `ev_registration=<registration>`y deberá pasar los ingresos reales de cada transacción (por ejemplo, `ev_registration=1`). Cuando se realiza el seguimiento de varias propiedades, se unen mediante un signo &amp; (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por ejemplo, `ev_registration=1&ev_sale=12.99`). **Nota:**  El nombre de la propiedad no puede incluir caracteres especiales.
+* `<propertyname>` es la conversión que se va a rastrear. Por ejemplo, si está rastreando una conversión llamada &quot;registro&quot;, la etiqueta incluiría el parámetro `ev_registration=<registration>`y deberá pasar los ingresos reales de cada transacción (por ejemplo, `ev_registration=1`). Cuando se realiza el seguimiento de varias propiedades, se unen mediante un signo &amp; (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por ejemplo, `ev_registration=1&ev_sale=12.99`). **Nota:**  El nombre de la propiedad no puede incluir caracteres especiales.
 
 * `<transid>` es un ID de transacción único (como un ID de pedido real) que el anunciante genera y pasa para identificar una transacción. Se incluye solo cuando el parámetro &quot;[!UICONTROL Include unique transaction IDs]La opción &quot; está seleccionada.
 

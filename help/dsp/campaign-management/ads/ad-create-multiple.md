@@ -3,9 +3,9 @@ title: Creación de varios anuncios de terceros
 description: Obtenga información sobre cómo crear varios anuncios de terceros al mismo tiempo.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Puede realizar la carga [!DNL DoubleClick] y [!DNL Flashtalking] hojas de etique
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-1. Haga clic en el nombre de la campaña en la que se incluirá el anuncio.
+1. Haga clic en el nombre de la campaña en la que desea incluir el anuncio.
 
 1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]**. En la sección Tipos de anuncio del menú, haga clic en **[!UICONTROL Bulk upload ads]**.
 
@@ -58,7 +58,7 @@ Puede realizar la carga [!DNL DoubleClick] y [!DNL Flashtalking] hojas de etique
 
 1. Realice una de las siguientes acciones:
 
-   * Haga clic **[!UICONTROL Done]**.
+   * Clic **[!UICONTROL Done]**.
 
    * (Si se rechaza un anuncio, opcional) Para editar el registro de anuncio y volver a enviarlo para su revisión:
 
@@ -66,7 +66,7 @@ Puede realizar la carga [!DNL DoubleClick] y [!DNL Flashtalking] hojas de etique
 
       1. Edite la configuración del anuncio.
 
-      1. Haga clic **[!UICONTROL Save & submit for review]**.
+      1. Clic **[!UICONTROL Save & submit for review]**.
 
 >[!NOTE]
 >
@@ -79,4 +79,3 @@ Puede realizar la carga [!DNL DoubleClick] y [!DNL Flashtalking] hojas de etique
 >* [Crear un solo anuncio](ad-create.md)
 >* [Vídeo: Carga masiva de etiquetas de publicidad de terceros](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [Preguntas frecuentes sobre Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
-

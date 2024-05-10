@@ -3,9 +3,9 @@ title: Creación manual de detalles de ID de acuerdo
 description: Obtenga información sobre cómo introducir manualmente los detalles de un ID de acuerdo.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 93600a6e5afe7e0ae3f22111c0adb0ccc3b5b4bb
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 
    1. (Solo usuarios administradores; opcional) En el [!UICONTROL Technical] , edite la configuración predeterminada según sea necesario.
 
-   1. Haga clic **[!UICONTROL Save]**.
+   1. Clic **[!UICONTROL Save]**.
 
-1. (Solo ofertas garantizadas) Seleccione los anuncios que desea utilizar para la oferta (o el píxel 1x1 para anuncios administrados por el editor) y cree una ubicación programática garantizada (PG) predeterminada.
+1. (Solo ofertas garantizadas) Seleccione los anuncios que desea utilizar para la oferta (o el píxel 1x1 para los anuncios administrados por el editor) y cree una ubicación programática garantizada (PG) predeterminada.
 
    Las ubicaciones de PG predeterminadas garantizan que la oferta siempre devuelva una oferta por cada solicitud de oferta. Si no crea una ubicación PG predeterminada, las ubicaciones que se dirijan a la oferta no realizarán pujas a menos que estén configuradas correctamente. Siempre debe crear una ubicación PG predeterminada. En el [!UICONTROL Placements] vista, las ubicaciones de PG predeterminadas tienen un [!UICONTROL Sub-type] valor de columna de &quot;[!UICONTROL PG Default].&quot;
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
          Para cada anuncio administrado por el editor, se aplica automáticamente un píxel de seguimiento 1x1 después de seleccionar un anunciante y una campaña.
 
-      1. Haga clic **[!UICONTROL Apply]**.
+      1. Clic **[!UICONTROL Apply]**.
 
    1. En la pantalla de configuración de ubicación:
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
       El acuerdo se establece automáticamente como objetivo en la sección Destinos de inventario. Todas las demás opciones de segmentación no son aplicables.
 
-      1. Haga clic **[!UICONTROL Create placement]**.
+      1. Clic **[!UICONTROL Create placement]**.
 
 Después de crear la oferta, puede utilizarla como objetivo de inventario para varias ubicaciones.
 

@@ -3,9 +3,9 @@ title: Ver el informe Previsión de ubicación
 description: Ver el número de impresiones, el gasto y la oferta máxima óptima prevista para una estrategia de segmentación determinada para una ubicación.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ La previsión incluye la siguiente información:
 
    * La ubicación utiliza un nuevo tipo de anuncio para la campaña.
 
-     Una ubicación suele ser una colección de varias plantillas de publicidad, tal como se definen en las plataformas del lado del suministro. Por lo tanto, aunque la ubicación haya existido durante mucho tiempo, la plantilla de anuncio subyacente puede ser nueva y la herramienta de previsión no podrá realizar previsiones.
+     Una ubicación suele ser una colección de varias plantillas de publicidad, tal como se definen en las plataformas del lado del suministro. Por lo tanto, aunque la ubicación haya existido durante mucho tiempo, si la plantilla de anuncio subyacente es nueva, la herramienta de previsión no puede crear una previsión.
 
 ## Abrir el informe Previsión de ubicación
 

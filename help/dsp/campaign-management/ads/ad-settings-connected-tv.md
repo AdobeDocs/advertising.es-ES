@@ -3,9 +3,9 @@ title: Configuración de anuncios de TV conectados
 description: Consulte las descripciones de la configuración de anuncios disponibles para anuncios de TV conectados.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: la URL de etiqueta VAST.
 
-**[!UICONTROL Title]**: un nombre para el archivo, que se utilizará en la vista Anuncios e informes.
+**[!UICONTROL Title]**: un nombre para el archivo, que se utiliza en la vista Anuncios e informes.
 
 >[!TIP]
 >

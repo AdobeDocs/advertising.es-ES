@@ -3,9 +3,9 @@ title: Configuración de publicidad móvil
 description: Consulte las descripciones de las configuraciones de anuncios disponibles para anuncios móviles.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **\[Origen del anuncio\]**: (solo lectura) *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL Display Code]:** La URL del recurso creativo de terceros. Cualquiera [timestamp] y [[timestamp]] parámetros se reemplazarán con valores reales.
+**[!UICONTROL Display Code]:** La URL del recurso creativo de terceros. Cualquiera [timestamp] y [[timestamp]] parámetros se reemplazan por valores reales.
 
 **[!UICONTROL Final Display Code]:** La URL del recurso creativo de terceros, con los necesarios [DSP Macros de seguimiento de Advertising](/help/dsp/campaign-management/macros.md) insertado, si procede.
 
