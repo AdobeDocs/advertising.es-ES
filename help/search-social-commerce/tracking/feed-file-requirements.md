@@ -1,11 +1,11 @@
 ---
 title: Requisitos de archivo para archivos de fuentes de conversión
 description: Consulte los requisitos para los archivos de fuentes de conversión.
-exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
+exl-id: abc28394-3e00-447f-a04e-078fa9883a64
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ El nombre de archivo debe incluir la fecha y ser coherente. Por ejemplo, si util
 
 ## Protocolo de transferencia de archivos
 
-Envíe el archivo a través del protocolo de transferencia SFTP mediante el puerto 22. Debe proporcionar la información de clave pública.  El equipo de cuenta de Adobe o el equipo de implementación le proporcionarán la ubicación del servidor junto con las credenciales necesarias para que su sistema transfiera los archivos.
+Envíe el archivo a través del protocolo de transferencia SFTP mediante el puerto 22. Debe proporcionar la información de clave pública.  El equipo de cuenta de Adobe o el equipo de implementación le proporcionan la ubicación del servidor junto con las credenciales necesarias para que el sistema transfiera los archivos.
 
 >[!TIP]
 >

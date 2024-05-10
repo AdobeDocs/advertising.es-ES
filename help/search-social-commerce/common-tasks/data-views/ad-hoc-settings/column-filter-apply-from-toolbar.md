@@ -1,9 +1,9 @@
 ---
 title: Aplicación de filtros de datos desde la barra de herramientas
 description: Obtenga información sobre cómo filtrar los datos de página desde la barra de herramientas.
-exl-id: 922cc148-e6dc-428b-a7f3-1da3780df326
+exl-id: fc1dca75-b0e5-48fd-90ee-f09c158e3e8b
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -44,4 +44,4 @@ Puede aplicar tantos filtros como desee a una vista. Todos los filtros se unen m
 
    * Para eliminar un filtro existente, haga clic en **[!UICONTROL X]** junto a la definición del filtro.
 
-1. Haga clic **[!UICONTROL Apply]**.
+1. Clic **[!UICONTROL Apply]**.

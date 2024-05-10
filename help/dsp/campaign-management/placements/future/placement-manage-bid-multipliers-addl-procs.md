@@ -2,9 +2,9 @@
 title: Administrar multiplicadores de oferta para ubicaciones
 description: Obtenga información sobre cómo crear y editar multiplicadores de oferta para objetivos de ubicación especificados.
 feature: DSP Placements
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,13 @@ Para todas las ubicaciones seleccionadas, puede editar valores manualmente o car
 
    * Para ajustar manualmente los valores del multiplicador de oferta, vaya a cada pestaña específica de destinatario ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], y[!UICONTROL Brand Safety]) y edite los valores existentes para los destinos de colocación.
 
-   Se realizarán los mismos cambios en todas las ubicaciones seleccionadas.
+   Los mismos cambios se aplican a todas las ubicaciones seleccionadas.
 
    * Para cargar un archivo CSV con valores de multiplicador de oferta que sobrescriban los valores existentes:
 
      >[!NOTE]
      >
-     >Si deja un campo vacío, se eliminan todos los valores de ese tipo de destino.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there will be only one data row applicable for all. -->
+     >Si deja un campo vacío, se eliminan todos los valores de ese tipo de destino.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
 
       1. Clic **[!UICONTROL CSV Edit]** en la parte superior derecha.
 

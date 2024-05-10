@@ -3,9 +3,9 @@ title: Configuración de campaña
 description: Consulte las descripciones de las configuraciones de campaña disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Al elegir *[!UICONTROL Yes],* especifique el tipo de margen y la cantidad:
 
 Si lo desea, puede añadir un presupuesto bruto diario, semanal o mensual adicional:
 
-1. Haga clic **[!UICONTROL Add an additional Gross Budget]**.
+1. Clic **[!UICONTROL Add an additional Gross Budget]**.
 
 1. Introduzca el **[!UICONTROL Gross Budget]** y seleccione el intervalo presupuestario: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* o *[!UICONTROL Monthly]*.
 
@@ -58,7 +58,7 @@ El presupuesto neto total, que es el límite de gasto de la campaña, se calcula
 
 Para calcular los impuestos retenidos:
 
-1. Haga clic **[!UICONTROL Update rates here]**.
+1. Clic **[!UICONTROL Update rates here]**.
 
 1. Especifique el **[!UICONTROL Estimated tax rate]**, como porcentaje.
 
@@ -70,7 +70,7 @@ Para calcular los impuestos retenidos:
 
    * *[!UICONTROL Include estimated tax - data fee]:* DSP Se aplica a todos los datos gastados en Advertising.
 
-1. Haga clic **[!UICONTROL Submit]**.
+1. Clic **[!UICONTROL Submit]**.
 
 >[!NOTE]
 >
@@ -78,20 +78,19 @@ Para calcular los impuestos retenidos:
 >
 >* También puede configurar estos valores en la configuración de tarifas de la cuenta.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-
 **[!UICONTROL Cross Device Level]:** DSP (Solo lectura para campañas existentes creadas desde el 22 de junio de 2020; no disponible para campañas creadas antes del 22 de junio de 2020) Nivel al que se dirigirán los anuncios y se aplicarán límites de frecuencia: *Mismo dispositivo* para dirigirse a un dispositivo o *People* para dirigirse a una persona en todos sus dispositivos conocidos.
 
 **[!UICONTROL Device Graph]:** (Solo lectura para campañas existentes; campañas con segmentación multidispositivo basada en personas únicamente) El gráfico de dispositivos que se utilizará para la segmentación multidispositivo y la administración de frecuencias:
 
 * *[!UICONTROL LiveRamp - U.S. only]:* Disponible para todos los anunciantes para direccionamiento entre dispositivos a 0,35 $ CPM para impresiones que se entregan mediante el [!DNL LiveRamp] gráfico de dispositivos (es decir, para dispositivos que no se encuentran dentro de los segmentos de audiencia de destino). Puede configurar la segmentación entre dispositivos en el nivel de ubicación.
 
-   Esta opción también está disponible para todos los anunciantes, sin ningún cargo, para la administración de frecuencias y la medición de atribución.
+  Esta opción también está disponible para todos los anunciantes, sin ningún cargo, para la administración de frecuencias y la medición de atribución.
 
-**[!UICONTROL Frequency Cap]:** (Opcional) El número de veces que un dispositivo o una persona únicos (según el especificado) [!UICONTROL Cross Device Level]) se mostrarán en los anuncios de la campaña. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
+**[!UICONTROL Frequency Cap]:** (Opcional) El número de veces que un dispositivo o una persona únicos (según el especificado) [!UICONTROL Cross Device Level]) pueden ser anuncios publicados de la campaña. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
 
 >[!NOTE]
 >
-> Puede establecer límites de frecuencia en los niveles de campaña, paquete y ubicación. DSP respetará el límite de frecuencia más estricto en la jerarquía de campañas.
+> Puede establecer límites de frecuencia en los niveles de campaña, paquete y ubicación. DSP respeta el límite de frecuencia más estricto de la jerarquía de campañas.
 
 **[!UICONTROL Packages]:** El [paquetes](/help/dsp/campaign-management/packages/package-about.md) para incluirlo en la campaña. Seleccione los paquetes existentes o cree los paquetes que desea incluir. Si crea paquetes, consulte las descripciones acerca de [configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md) para obtener más información.
 
@@ -109,9 +108,9 @@ Para calcular los impuestos retenidos:
 
 * **[!UICONTROL Measure On]:** El inventario en el que se va a medir: *[!UICONTROL Display and VPAID video inventory]* (el valor predeterminado) o *[!UICONTROL Display, VPAID & VAST video inventory]*.
 
-   >[!NOTE]
-   >
-   >La visibilidad del vídeo solo se puede medir en el inventario VPAID.
+  >[!NOTE]
+  >
+  >La visibilidad del vídeo solo se puede medir en el inventario VPAID.
 
 * **[!UICONTROL IAS Account ID (AnID)]:** (Anunciantes con su propio [!DNL IAS] cuentas; opcional) La organización [!DNL IAS] ID de cuenta, que [!DNL IAS] facturará directamente por su uso.
 
@@ -127,7 +126,7 @@ Para calcular los impuestos retenidos:
 
 * **[!UICONTROL Target Age]:** El intervalo de edad al que se dirige. Utilice los deslizadores izquierdo y derecho para reducir el rango según sea necesario.
 
-* **[!UICONTROL Target Country]:** (Opcional) Un país de destino. [!DNL Nielsen] medirá las impresiones servidas únicamente en los países admitidos.
+* **[!UICONTROL Target Country]:** (Opcional) Un país de destino. [!DNL Nielsen] las impresiones de medidas se sirven únicamente en los países apoyados.
 
 **[!UICONTROL comScore vCE]:** (Opcional) Habilita [!DNL Comscore validated Campaign Essentials (vCE)] medición e informes de la verificación de audiencias con la configuración especificada. Se aplican tarifas adicionales.
 
@@ -135,7 +134,7 @@ Para calcular los impuestos retenidos:
 
 * **[!UICONTROL Target Age]:** El intervalo de edad al que se dirige. Utilice los deslizadores izquierdo y derecho para reducir el rango según sea necesario.
 
-* **[!UICONTROL Target Country]:** (Opcional) Un país de destino. [!DNL Comscore] medirá las impresiones servidas únicamente en los países admitidos.
+* **[!UICONTROL Target Country]:** (Opcional) Un país de destino. [!DNL Comscore] las impresiones de medidas se sirven únicamente en los países apoyados.
 
 ### [!UICONTROL 1st Party Metrics]
 
@@ -151,4 +150,3 @@ Para calcular los impuestos retenidos:
 >* [Creación de una campaña](campaign-create.md)
 >* [Edición de una campaña](campaign-edit.md)
 >* [Visualización del registro de cambios de una campaña](campaign-change-log.md)
-

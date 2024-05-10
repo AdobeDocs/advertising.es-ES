@@ -1,11 +1,11 @@
 ---
 title: Filtrar datos por intervalo de fechas
 description: Aprenda a utilizar el filtro de intervalo de fechas global.
-exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 El mismo filtro de intervalo de fechas global se aplica a la mayoría de las vistas de datos de campaña, en todos los anunciantes, excepto en las vistas predeterminadas y personalizadas para las que ha guardado intervalos de fechas específicos. El intervalo de fechas predeterminado del sistema para las vistas de administración de campañas es &quot;Ayer&quot;.
 
-La configuración del intervalo de fechas se guarda en una cookie específica del explorador, por lo que todos los cambios en el filtro de intervalo de fechas se utilizan para todos los anunciantes cada vez que inicia sesión con la misma aplicación de explorador hasta que cambia el filtro o elimina la cookie. Cada aplicación de explorador que utilice almacenará la configuración del filtro de intervalo de fechas en una cookie diferente.
+La configuración del intervalo de fechas se guarda en una cookie específica del explorador, por lo que todos los cambios en el filtro de intervalo de fechas se utilizan para todos los anunciantes cada vez que inicia sesión con la misma aplicación de explorador hasta que cambia el filtro o elimina la cookie. Cada aplicación de explorador que utilice almacena la configuración del filtro de intervalo de fechas en una cookie diferente.
 
 Cuando se guarda un intervalo de fechas específico para una vista predeterminada o personalizada, ese intervalo se aplica siempre que se aplica la vista, independientemente de la aplicación del explorador que se utilice.
 
@@ -50,4 +50,4 @@ Cuando se guarda un intervalo de fechas específico para una vista predeterminad
 
       * *[!UICONTROL % Change]:*  Muestra la diferencia en forma de porcentaje.
 
-1. Haga clic **[!UICONTROL Apply]**.
+1. Clic **[!UICONTROL Apply]**.

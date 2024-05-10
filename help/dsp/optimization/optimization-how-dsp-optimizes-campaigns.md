@@ -3,9 +3,9 @@ title: DSP Optimización de las campañas con la
 description: DSP Descubra cómo optimiza los paquetes en sus campañas.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Los objetivos de optimización de paquetes operan en dos niveles:
 
 * DSP Para cada colocación/subasta del paquete: calcula el valor de KPI económico en tiempo real de cada subasta por cada colocación y, a continuación, utiliza este valor para determinar la oferta.
 
-   >[!NOTE]
-   >
-   >El valor económico se puede ponderar fuertemente en función de lo bien que esté gastando una colocación. Si una colocación está detrás de su objetivo de gasto, entonces se le permitirá comprar subastas de menor calidad. Si una ubicación cumple fácilmente su objetivo de gasto, entonces se centrará en subastas de mayor calidad.
+  >[!NOTE]
+  >
+  >El valor económico se puede ponderar fuertemente en función de lo bien que esté gastando una colocación. Si una ubicación está detrás de su objetivo de gasto, entonces se le permite comprar subastas de menor calidad. Si una ubicación cumple fácilmente su objetivo de gasto, el enfoque cambia a subastas de mayor calidad.
 
 ## Optimización de paquetes
 
@@ -32,7 +32,7 @@ DSP Puede optimizar su envío de dos formas fundamentales, con 20 variaciones di
 
 * Priorice el equilibrio entre la eficiencia de costes y la tasa de rendimiento
 
-Consulte [Objetivos de optimización y cómo utilizarlos](optimization-goals.md) para determinar qué objetivo de optimización le ayudará a lograr sus KPI.
+Consulte [Objetivos de optimización y cómo utilizarlos](optimization-goals.md) para determinar qué objetivo de optimización puede ayudarle a lograr sus KPI.
 
 ### Paquetes que dan prioridad a la tasa de rendimiento
 
@@ -48,9 +48,9 @@ Este modo de optimización funciona bien si:
 
 #### Lógica de ritmo {#pacing-logic-performance}
 
-* Si el gasto va a buen ritmo, las pujas se volverán más selectivas, por lo que solo pujarás en las subastas en las que se predice que las tasas de rendimiento serán altas.
+* Si el gasto va a buen ritmo, las pujas se vuelven más selectivas, por lo que solo se puja en las subastas en las que se prevé que las tasas de rendimiento sean altas.
 
-* Si el gasto va por detrás del ritmo, las pujas se volverán menos selectivas, por lo que pujarás por subastas en las que se prediga que tendrán tasas de rendimiento más bajas para alcanzar el objetivo de ritmo.
+* Si el gasto va por detrás del ritmo, las pujas se vuelven menos selectivas, por lo que se puede pujar en subastas en las que se predice que tendrán tasas de rendimiento más bajas para alcanzar el objetivo de ritmo.
 
 #### Sombreado de puja/precio de liquidación {#clearing-price-performance}
 
@@ -80,7 +80,7 @@ Los filtros de preoferta de colocación son la forma más estricta de garantizar
 >
 >Los filtros de pujas previas disponibles varían según el tipo de anuncio. Por ejemplo, para una ubicación de visualización estándar, puede filtrar por tasa de pulsaciones y visibilidad, pero no por tasa de finalización.
 
-Consulte [Filtros previos a la oferta de nivel de ubicación y cómo utilizarlos](optimization-pre-bid-filters.md) para determinar qué filtro de oferta previa le ayudará a lograr sus KPI.
+Consulte [Filtros previos a la oferta de nivel de ubicación y cómo utilizarlos](optimization-pre-bid-filters.md) para determinar qué filtro de oferta previa puede ayudarle a lograr sus KPI.
 
 >[!MORELIKETHIS]
 >
@@ -89,4 +89,3 @@ Consulte [Filtros previos a la oferta de nivel de ubicación y cómo utilizarlos
 >* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
 >* [Filtros previos a la oferta de nivel de ubicación y cómo utilizarlos](optimization-pre-bid-filters.md)
 >* [Solución de problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
-

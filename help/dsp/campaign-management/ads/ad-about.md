@@ -3,9 +3,9 @@ title: DSP Acerca de la administración de anuncios en Advertising
 description: Obtenga información acerca de la administración de anuncios.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: 9073400eb26957c63378bee90929009fcc82f78f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ DSP Todos los tipos de anuncio siguientes están disponibles en la versión de. 
 
 * **Anuncios de audio (solo de terceros)**: los anuncios de audio se reproducen entre contenido en sitios de editores digitales y se pueden ejecutar de forma independiente como archivos de audio o junto con titulares complementarios. El audio se utiliza mejor para impulsar la imagen de marca y atraer audiencias sobre la marcha. Los indicadores clave de rendimiento para el audio incluyen [!UICONTROL Completion Rate] y [!UICONTROL Cost per Completion].
 
-* **Publicidad en pantalla (solo de terceros)**: los anuncios de visualización son imágenes animadas o estáticas que se muestran en navegadores web o en aplicaciones. Al hacer clic en la unidad de publicidad, se lleva al usuario a un sitio o micrositio con marca. La visualización se utiliza mejor para impulsar CPM eficientes, aumentar la asociación de mensajes, añadir puntos de contacto de productos o marcas adicionales y dirigir a los usuarios hacia abajo en el canal de compras. Los indicadores de rendimiento clave para la visualización incluyen [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions], y [!UICONTROL Cost per Conversion]. DSP admite una amplia variedad de tamaños de anuncios de banners de visualización.
+* **Publicidad en pantalla (solo de terceros)**: los anuncios de visualización son imágenes animadas o estáticas que se muestran en navegadores web o aplicaciones. Al hacer clic en la unidad de publicidad, se lleva al usuario a un sitio o micrositio con marca. La visualización se utiliza mejor para impulsar CPM eficientes, aumentar la asociación de mensajes, añadir puntos de contacto de productos o marcas adicionales y dirigir a los usuarios hacia abajo en el canal de compras. Los indicadores de rendimiento clave para la visualización incluyen [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions], y [!UICONTROL Cost per Conversion]. DSP admite una amplia variedad de tamaños de anuncios de banners de visualización.
 
 * **Anuncios móviles (solo de terceros)**: los anuncios para móviles pueden mostrarse en formato de vídeo previo a la emisión (VAST, MRAID) o en formato de visualización estándar. El vídeo móvil previo a la emisión puede reproducirse automáticamente o con un clic, y se utiliza mejor para llegar a los espectadores de todas las pantallas. La visualización estándar móvil es una imagen estática que se muestra en navegadores web móviles o en aplicaciones; se utiliza principalmente para complementar las compras de vídeo digital, impulsar la asociación de mensajes y añadir puntos de contacto de productos o marcas adicionales. Los anuncios móviles también pueden funcionar como adquisiciones a pantalla completa o como intersticiales móviles, que son anuncios móviles de alto impacto y pantalla completa que se utilizan mejor para desarrollar la imagen de marca de las audiencias móviles y dirigir las conversiones.
 
@@ -39,27 +39,26 @@ DSP Todos los tipos de anuncio siguientes están disponibles en la versión de. 
 
 * **Anuncios de vídeo universales (solo de terceros)**: los anuncios de vídeo universales le permiten segmentar el inventario de vídeos de entornos de escritorio, móviles y de TV conectada para el inventario VPAID y VAST con una sola ubicación de vídeo. Combinan todas las funciones de la TV conectada, el anuncio previo a la emisión y los anuncios previos a la emisión móviles, y se muestran antes y durante el contenido de vídeo. Los indicadores de rendimiento clave para el vídeo universal incluyen [!UICONTROL Completion Rate] y [!UICONTROL Viewability Rate].
 
-   Los anuncios de vídeo universales solo se pueden adjuntar a ubicaciones de vídeo universales.
+  Los anuncios de vídeo universales solo se pueden adjuntar a ubicaciones de vídeo universales.
 
-   Consulte &quot;[Preguntas frecuentes sobre Universal Video](/help/dsp/campaign-management/faq-universal-video.md)&quot; para obtener más información sobre los anuncios de vídeo universales.
+  Consulte &quot;[Preguntas frecuentes sobre Universal Video](/help/dsp/campaign-management/faq-universal-video.md)&quot; para obtener más información sobre los anuncios de vídeo universales.
 
 ## DSP Aprobaciones de anuncios
 
 DSP Cuando cree un anuncio, lo revisa para categorías confidenciales, hace clic en Funcionalidad de URL y previsualiza el procesamiento.
 
-Inicialmente, verá un punto rojo en la etiqueta [!UICONTROL Status] columna. El proceso de revisión suele durar entre 24 y 48 horas. Sin embargo, un anuncio roto puede tener un estado pendiente durante más de 48 horas, por lo que tiene tiempo para corregir errores antes de que se rechace el anuncio. Los anuncios rechazados incluyen un motivo para el rechazo.
+Inicialmente, el anuncio está [!UICONTROL Status] muestra un punto rojo. El proceso de revisión suele durar entre 24 y 48 horas. Sin embargo, un anuncio roto puede tener un estado pendiente durante más de 48 horas, por lo que tiene tiempo para corregir errores antes de que se rechace el anuncio. Los anuncios rechazados incluyen un motivo para el rechazo.
 
-DSP Cuando el usuario aprueba un anuncio, aparece un punto verde en la columna Estado.
+DSP Cuando el usuario aprueba un anuncio, la columna Estado del anuncio muestra un punto verde.
 
 ![indicador de aprobación en [!UICONTROL Status] columna](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
->DSP Su anuncio solo se publicará si tanto la SSP como el administrador de la plataforma de marketing han aprobado el creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
+>DSP Su anuncio solo se puede publicar si tanto el proveedor de servicios como el proveedor de servicios compartidos (SSP) han aprobado el creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
 
 >[!MORELIKETHIS]
 >
 >* [Crear un solo anuncio](ad-create.md)
 >* [Creación de varios anuncios de terceros](ad-create-multiple.md)
 >* [Especificaciones del anuncio](ad-specs.md)
-

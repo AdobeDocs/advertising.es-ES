@@ -3,9 +3,9 @@ title: Creación e implementación de un segmento personalizado
 description: Obtenga información sobre cómo crear e implementar un segmento personalizado para rastrear usuarios expuestos a anuncios o usuarios que visitan sus páginas web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
       La ventana predeterminada es de 45 días. Introduzca un valor de uno (1) a 365.
 
-   1. Clic **[!UICONTROL Advanced]** para expandir la configuración avanzada y, a continuación, seleccione los tipos de identificadores de usuario que rastreará la etiqueta de segmento:
+   1. Clic **[!UICONTROL Advanced]** para expandir la configuración avanzada y, a continuación, seleccione los tipos de identificadores de usuario que rastrea la etiqueta de segmento:
 
-      * *[!UICONTROL Cookies]:* (El valor predeterminado) La etiqueta de segmento rastreará las cookies.
+      * *[!UICONTROL Cookies]:* (El valor predeterminado) La etiqueta de segmento rastrea las cookies.
 
       * [!UICONTROL Universal IDs (Beta)]:
 
-         * *[!UICONTROL ID5]:* La etiqueta del segmento realizará el seguimiento [!DNL ID5] ID. No se incurre en cargos por impresiones entregadas a ID universales.
+         * *[!UICONTROL ID5]:* La etiqueta de segmento rastrea [!DNL ID5] ID. No se incurre en cargos por impresiones entregadas a ID universales.
 
         **[!UICONTROL Terms of Service]:** El contrato de términos de servicio para usar un identificador universal. DSP Usted u otro usuario de la cuenta debe aceptar los términos una vez, a fin de poder usar identificadores universales para un nuevo tipo de ID. Para los clientes con contratos de servicio gestionado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
 

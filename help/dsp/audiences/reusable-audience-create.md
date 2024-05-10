@@ -3,9 +3,9 @@ title: Crear una audiencia reutilizable
 description: Obtenga información sobre cómo crear audiencias reutilizables compuestas de segmentos de audiencia y otras audiencias guardadas.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 
 1. (Opcional) Anule la selección de la opción **[!UICONTROL Share with all advertisers in my account]**.
 
-   Al compartir una audiencia, esta pasa a estar disponible como objetivo o exclusión para todos los anunciantes de la cuenta. Sin embargo, los segmentos individuales de la audiencia solo están disponibles para los usuarios con los que se comparten los segmentos. Por ejemplo, si comparte una audiencia que contiene segmentos de Adobe Analytics con un anunciante que no está asignado al mismo [!DNL Analytics] , el segmento no se previsualizará en esa audiencia para ese anunciante. En la audiencia solo se previsualizarán los segmentos disponibles para ese anunciante.
+   Al compartir una audiencia, esta pasa a estar disponible como objetivo o exclusión para todos los anunciantes de la cuenta. Sin embargo, los segmentos individuales de la audiencia solo están disponibles para los usuarios con los que se comparten los segmentos. Por ejemplo, si comparte una audiencia que contiene segmentos de Adobe Analytics con un anunciante que no está asignado al mismo [!DNL Analytics] , el segmento no se previsualiza en esa audiencia para ese anunciante. En la audiencia solo se obtiene una vista previa de los segmentos disponibles para ese anunciante.
 
 1. Clic **[!UICONTROL Save]**.
 

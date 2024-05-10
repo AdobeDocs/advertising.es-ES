@@ -3,9 +3,9 @@ title: Importación de segmentos de Adobe Audience Manager para la segmentación
 description: Obtenga información sobre cómo importar su [!DNL Adobe] DSP Audiencias de en Advertising y Search con Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ DSP Advertising y [!DNL Advertising Search, Social, & Commerce] puede extraer me
 
 * Segmentos que se crean con Adobe Experience Cloud [!DNL Audience Library]
 
-* Segmentos creados en Adobe Experience Platform y enviados a publicidad de Adobe mediante Audience Manager
+* Segmentos creados en Adobe Experience Platform y enviados al Adobe Advertising mediante un Audience Manager
 
 Para acceder a [!DNL Adobe] DSP Audiencias en el entorno de o [!DNL Creative]DSP , debe importar las audiencias en la interfaz de usuario de. Para acceder a [!DNL Adobe] audiencias en [!DNL Search, Social, & Commerce], debe importar las audiencias en [!DNL Search, Social, & Commerce].
 
@@ -28,11 +28,11 @@ Para acceder a [!DNL Adobe] DSP Audiencias en el entorno de o [!DNL Creative]DSP
 
 * El anunciante debe implementar [el [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) versión 2.0 o superior. El [!DNL Identity Service] proporciona un ID universal y persistente que identifica a los visitantes en todas las soluciones de Experience Cloud.
 
-   La implementación incluye añadir el [!DNL Identity service] codifique a cada página web en los sitios del anunciante.
+  La implementación incluye añadir el [!DNL Identity service] codifique a cada página web en los sitios del anunciante.
 
 * La organización debe ser [habilitado para servicios de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html) y tenga un Experience Cloud [!DNL Organization ID] (anteriormente denominado [!DNL IMS org ID]).
 
-   El [!UICONTROL Organization ID] permite a las organizaciones con varios productos de Adobe Experience Cloud compartir datos entre algunos de los productos.
+  El [!UICONTROL Organization ID] permite a las organizaciones con varios productos de Adobe Experience Cloud compartir datos entre algunos de los productos.
 
 * (Anunciantes con [!DNL Analytics]) El anunciante debe [implementar [!DNL Analytics] usando `appMeasurement.js`](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) versión 1.6.4 o superior.
 
@@ -40,13 +40,13 @@ Para acceder a [!DNL Adobe] DSP Audiencias en el entorno de o [!DNL Creative]DSP
 
 * (Se recomienda cuando el anunciante utiliza Audience Manager y [!DNL Analytics]) Para reducir las llamadas a cada página web, elimine el Audience Manager existente [!DNL Data Integration Library] código para la recopilación de datos y habilitar el reenvío del lado del servidor para cada [!DNL Analytics] grupo de informes en su lugar. Para obtener más información, consulte &quot;[Resumen del reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
-* (Recomendado) Para tasas de coincidencia más altas, envíe solo datos de sitios web de origen a Adobe Advertising. Si el anunciante agrupa datos de terceros o datos sin conexión de un sistema de administración de la relación con los clientes, la fuga de datos puede reducir las tasas de coincidencia.
+* (Recomendado) Para tasas de coincidencia más altas, envíe solo datos del sitio web de origen al Adobe Advertising. Si el anunciante agrupa datos de terceros o datos sin conexión de un sistema de administración de la relación con los clientes, la fuga de datos puede reducir las tasas de coincidencia.
 
 ## Importación de audiencias de Audience Manager DSP a la
 
 ### DSP Pasos para importar audiencias a los grupos de trabajo
 
-El [!DNL Adobe] Los equipos de operaciones de datos y cuentas de realizarán los siguientes pasos.
+El [!DNL Adobe] Los equipos de operaciones de datos y cuentas de realizan los siguientes pasos.
 
 1. El equipo de cuenta de Adobe debe configurar la opción de nivel de anunciante &quot;[!UICONTROL Adobe Analytics Cloud].&quot;
 
@@ -64,7 +64,7 @@ La API hace lo siguiente automáticamente:
 
 * Asigna los dos destinos a todos los segmentos del Audience Manager, lo que permite que el Audience Manager DSP comparta los segmentos con la cuenta del anunciante de la aplicación asociada con el mismo Experience Cloud. [!DNL Organization ID] se usa para el Audience Manager. <!-- Verify -->
 
-   La organización puede, opcionalmente, eliminar segmentos innecesarios de los destinos dentro de Audience Manager.
+  La organización puede, opcionalmente, eliminar segmentos innecesarios de los destinos dentro de Audience Manager.
 
 * Agrega el siguiente píxel de sincronización de cookies de Exchange al contenedor de Audience Manager de la organización para mejorar el alcance de las campañas de los clientes:
 
@@ -74,7 +74,7 @@ La API hace lo siguiente automáticamente:
 
 ### Pasos para importar audiencias en [!DNL Search, Social, & Commerce]
 
-[!DNL Adobe] el personal realizará la mayoría o la totalidad de los pasos siguientes.
+[!DNL Adobe] el personal realiza la mayoría o la totalidad de los pasos siguientes.
 
 1. El equipo de cuenta de Adobe debe enviar una solicitud al equipo de operaciones de datos para configurar una integración entre [!DNL Search, Social, & Commerce] y Audience Manager. Incluya los nombres de los segmentos de Audience Manager a los que desea exportar [!DNL Search, Social, & Commerce].
 
@@ -96,7 +96,7 @@ La API hace lo siguiente automáticamente:
 
 ### ¿Qué cambios resultan en Audience Manager?
 
-La organización verá dos [!DNL Search, Social, & Commerce] destinos en Audience Manager:
+Dos [!DNL Search, Social, & Commerce] Los destinos de están disponibles para la organización en Audience Manager:
 
 * **[!UICONTROL Adobe Media Optimizer (HTTP)]**
 * **[!UICONTROL Adobe Media Optimizer Batch Destination])**
@@ -155,4 +155,3 @@ Para cada [!DNL Google] audiencia que cree, [!DNL Google] proporciona el tamaño
 >[!MORELIKETHIS]
 >
 >* [Integraciones de Adobe Advertising con Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
-

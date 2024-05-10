@@ -3,9 +3,9 @@ title: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 description: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
@@ -32,13 +32,13 @@ Si se modifica una ventana retrospectiva de creación de informes o un modelo de
 
 * **Ejemplo de discrepancias causadas por diferentes ventanas retrospectivas:**
 
-  Supongamos que el Adobe Advertising tiene una ventana retrospectiva de clics de 60 días y [!DNL Analytics] tiene una ventana retrospectiva de 30 días. Y supongamos que un usuario llega al sitio a través de un anuncio con seguimiento de Adobes Advertising, sale, y luego regresa el día 45 y se convierte. Adobe Advertising atribuirá la conversión a la visita inicial porque esta se produjo dentro de la ventana retrospectiva de 60 días. [!DNL Analytics]Sin embargo, no puede atribuir la conversión a la visita inicial porque la conversión se produjo después de que caducara la ventana retrospectiva de 30 días. En este ejemplo, Adobe Advertising notificaría un número de conversiones mayor que [!DNL Analytics] lo haría.
+  Supongamos que el Adobe Advertising tiene una ventana retrospectiva de clics de 60 días y [!DNL Analytics] tiene una ventana retrospectiva de 30 días. Y supongamos que un usuario llega al sitio a través de un anuncio con seguimiento de Adobes Advertising, sale, y luego regresa el día 45 y se convierte. Adobe Advertising atribuye la conversión a la visita inicial porque esta se produjo dentro de la ventana retrospectiva de 60 días. [!DNL Analytics]Sin embargo, no puede atribuir la conversión a la visita inicial porque la conversión se produjo después de que caducara la ventana retrospectiva de 30 días. En este ejemplo, Adobe Advertising informa de un número de conversiones mayor que [!DNL Analytics] sí.
 
   ![Ejemplo de una conversión atribuida en Adobe Advertising pero no en [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **Ejemplo de discrepancias causadas por diferentes modelos de atribución:**
 
-  Supongamos que un usuario interactúa con tres anuncios de Adobe Advertising diferentes antes de la conversión, con ingresos como tipo de conversión. Si un informe de Adobes Advertising utiliza un modelo de distribución par para la atribución, atribuirá los ingresos de forma uniforme en todos los anuncios. If [!DNL Analytics] utiliza el modelo de atribución de último contacto; sin embargo, los ingresos se atribuirán al último anuncio. En el ejemplo siguiente, los Adobes Advertising atribuyen un valor par 10 USD de los 30 USD de ingresos capturados a cada uno de los tres anuncios, mientras que [!DNL Analytics] atribuye los 30 USD de ingresos al último anuncio visto por el usuario. Al comparar informes de Adobe Advertising y [!DNL Analytics], verá el impacto de la diferencia en la atribución.
+  Supongamos que un usuario interactúa con tres anuncios de Adobe Advertising diferentes antes de la conversión, con ingresos como tipo de conversión. Si un informe de Adobes Advertising utiliza un modelo de distribución par para la atribución, atribuye los ingresos de forma uniforme en todos los anuncios. If [!DNL Analytics] utiliza el modelo de atribución de último contacto; sin embargo, luego atribuye los ingresos al último anuncio. En el ejemplo siguiente, los Adobes Advertising atribuyen un valor par 10 USD de los 30 USD de ingresos capturados a cada uno de los tres anuncios, mientras que [!DNL Analytics] atribuye los 30 USD de ingresos al último anuncio visto por el usuario. Al comparar informes de Adobe Advertising y [!DNL Analytics], verá el impacto de la diferencia en la atribución.
 
   ![Ingresos distintos atribuidos a los Adobes Advertising y [!DNL Analytics] basado en diferentes modelos de atribución](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -58,7 +58,7 @@ En el siguiente ejemplo, supongamos que a un visitante se le sirvió un anuncio 
 
 ![Ejemplo de una conversión de visualización atribuida en [!DNL Analytics] pero no Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-Otra causa de discrepancias es que, en Adobe Advertising, puede asignar conversiones de visualización como personalizadas *ponderación de visualizaciones* que es relativo al peso atribuido a una conversión basada en clics. La ponderación de visualizaciones predeterminada es del 40 %, lo que significa que una conversión de visualizaciones se cuenta como el 40 % del valor de una conversión basada en clics. [!DNL Analytics] no proporciona dicha ponderación de las conversiones de visualización. Por ejemplo, un pedido de ingresos de 100 USD capturado en [!DNL Analytics] Se descontará hasta 40 USD en Adobes Advertising si utiliza el peso de visualización predeterminado: una diferencia de 60 USD.
+Otra causa de discrepancias es que, en Adobe Advertising, puede asignar conversiones de visualización como personalizadas *ponderación de visualizaciones* que es relativo al peso atribuido a una conversión basada en clics. La ponderación de visualizaciones predeterminada es del 40 %, lo que significa que una conversión de visualizaciones se cuenta como el 40 % del valor de una conversión basada en clics. [!DNL Analytics] no proporciona dicha ponderación de las conversiones de visualización. Por ejemplo, un pedido de ingresos de 100 USD capturado en [!DNL Analytics] se descuenta en 40 USD en Adobes Advertising si utiliza el peso de visualización predeterminado: una diferencia de 60 USD.
 
 Tenga en cuenta estas diferencias al comparar las conversiones de visualización entre Adobe Advertising y [!DNL Analytics] informes.
 
@@ -96,7 +96,7 @@ Si ha iniciado sesión en [!DNL Search, Social, & Commerce], puede encontrar una
 
 #### Atribución de fecha del evento en Adobe Advertising
 
-En Adobe Advertising, se pueden generar informes de los datos de conversión indicando la fecha del evento o el clic asociado (la fecha del evento de impresión o clic) o la fecha de la transacción (la fecha de conversión). El concepto de informe de fechas de eventos/clics no existe en [!DNL Analytics]; todas las conversiones rastreadas en [!DNL Analytics] se notifican por fecha de transacción. Como resultado, se puede informar de la misma conversión con fechas de Adobe Advertising y fechas diferentes [!DNL Analytics]. Por ejemplo, piense en un usuario que hace clic en un anuncio el 1 de enero y convierte el 5 de enero. Si visualiza los datos de conversión por fecha de evento en Adobe Advertising, se enviará un informe de la conversión el 1 de enero, cuando se produjo el clic. Entrada [!DNL Analytics], se informaría de la misma conversión el 5 de enero.
+En Adobe Advertising, se pueden generar informes de los datos de conversión indicando la fecha del evento o el clic asociado (la fecha del evento de impresión o clic) o la fecha de la transacción (la fecha de conversión). El concepto de informe de fechas de eventos/clics no existe en [!DNL Analytics]; todas las conversiones rastreadas en [!DNL Analytics] se notifican por fecha de transacción. Como resultado, se puede informar de la misma conversión con fechas de Adobe Advertising y fechas diferentes [!DNL Analytics]. Por ejemplo, piense en un usuario que hace clic en un anuncio el 1 de enero y convierte el 5 de enero. Si visualiza los datos de conversión por fecha de evento en Adobe Advertising, se informa de la conversión el 1 de enero, cuando se produjo el clic. Entrada [!DNL Analytics], la misma conversión se notificará el 5 de enero.
 
 ![Ejemplo de una conversión atribuida a diferentes fechas](/help/integrations/assets/a4adc-conversions-based-on.png)
 
@@ -110,7 +110,7 @@ En Adobe Advertising, se pueden generar informes de los datos de conversión ind
 
 ### Modelos de atribución potencialmente diferentes en [!DNL Marketing Channels]
 
-Más [!DNL Marketing Channels] los informes se configuran con [!UICONTROL Last Touch] atribución, para la cual el último canal de marketing detectado tiene asignado el 100 % del valor de conversión. Uso de diferentes modelos de atribución para [!DNL Marketing Channels] Los informes de y los informes de Adobes Advertising producirán discrepancias en las conversiones atribuidas.
+Más [!DNL Marketing Channels] los informes se configuran con [!UICONTROL Last Touch] atribución, para la cual el último canal de marketing detectado tiene asignado el 100 % del valor de conversión. Uso de diferentes modelos de atribución para [!DNL Marketing Channels] Los informes de y los informes de Adobes Advertising de producen discrepancias en las conversiones atribuidas.
 
 ### Una ventana retrospectiva potencialmente diferente en [!DNL Marketing Channels]
 
@@ -236,11 +236,11 @@ Los datos de clics también se pueden registrar en entornos que no pueden regist
 
 Adobe Advertising proporciona a Analytics [métricas de tráfico específicas de la publicidad y las dimensiones relacionadas de [!DNL DSP] y [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Las métricas proporcionadas por el Adobe Advertising solo son aplicables a las dimensiones de Adobe Advertising especificadas y los datos no están disponibles para otras dimensiones en [!DNL Analytics].
 
-Por ejemplo, si ve la variable [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] métricas por Cuenta, que es una dimensión de Adobe Advertising, y verá el total [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] por cuenta.
+Por ejemplo, si ve la variable [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] métricas por cuenta, que es una dimensión de Adobe Advertising, y el total [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] se muestran por cuenta.
 
 ![Ejemplo de métricas de Adobe Advertising en un informe con una dimensión de Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Sin embargo, si ve el [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] métricas calculadas por una dimensión en la página (como Página), para la que el Adobe Advertising no proporciona datos, la variable [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] cada página será cero (0).
+Sin embargo, si ve el [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] métricas calculadas por una dimensión en la página (como Página), para la que el Adobe Advertising no proporciona datos, la variable [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] para cada página son cero (0).
 
 ![Ejemplo de métricas de Adobe Advertising en un informe con una dimensión no admitida](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 

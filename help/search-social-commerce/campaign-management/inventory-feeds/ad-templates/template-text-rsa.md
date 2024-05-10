@@ -1,11 +1,11 @@
 ---
 title: Configuración de anuncios de texto y plantillas de anuncios de búsqueda adaptables para fuentes de inventario
 description: Haga referencia a la configuración de las plantillas de anuncios de búsqueda interactivos y de anuncios de texto para las fuentes de inventario.
-exl-id: ee3956f9-4367-40e4-bdb3-f04a8da9a5f1
+exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 
 **[!UICONTROL Campaign Tracking Template]:** (Cuentas solo con direcciones URL finales/avanzadas; opcional) La plantilla de seguimiento de nivel de campaña, que especifica todas las redirecciones de dominios de aterrizaje y los parámetros de seguimiento e incrusta la dirección URL final en un parámetro. Este valor anula la configuración de nivel de cuenta, pero las plantillas de seguimiento a niveles más granulares (con palabra clave como valor más granular) anulan este valor.
 
-* Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+* Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Buscar, Social y Commerce anexan automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 * Para incrustar la dirección URL final:
 
@@ -136,7 +136,7 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 
 **[!UICONTROL Ad Group Tracking Template]:** (Cuentas solo con direcciones URL finales/avanzadas) La plantilla de seguimiento de nivel de grupo de anuncios, que especifica todas las redirecciones de dominios de aterrizaje y parámetros de seguimiento e incrusta la dirección URL final en un parámetro.
 
-Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Buscar, Social y Commerce anexan automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar la dirección URL de la página de aterrizaje:
 
@@ -184,8 +184,8 @@ Para insertar un nombre de columna o un grupo de modificadores como parámetro d
 >
 >* Puede incluir manualmente varios valores modificadores en el campo Palabras clave incluyendo entre paréntesis los valores separados por comas antes o después de un parámetro de palabra clave (pero no en ambos lugares). Por ejemplo, `(cheap, discount, affordable)[product]` produce tres anuncios independientes para cada producto.
 >* Si no se especifica ningún tipo de coincidencia, se utilizará el tipo de coincidencia predeterminado &quot;broad&quot;.
-* No se admiten coincidencias negativas.
-* Los modificadores de coincidencia amplia de Google ahora tienen el mismo comportamiento de coincidencia de frases para algunos idiomas y no se pueden crear nuevas palabras clave de modificadores de coincidencia amplia. Consulte la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/10286719) para obtener más información.
+>* No se admiten coincidencias negativas.
+>* Los modificadores de coincidencia amplia de Google ahora tienen el mismo comportamiento de coincidencia de frases para algunos idiomas y no se pueden crear nuevas palabras clave de modificadores de coincidencia amplia. Consulte la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/10286719) para obtener más información.
 
 **[!UICONTROL Map Only]:** Añade anuncios nuevos a grupos de anuncios (o a campañas para [!DNL Yandex] cuentas) en las que se encuentran las palabras clave especificadas, en lugar de crear nuevas palabras clave. Para activar esta opción, marque la casilla de verificación. Cuando esta opción está habilitada, cualquier variable de parámetro 1 y parámetro 2 de las palabras clave especificadas no se aplica porque existen palabras clave.
 
@@ -195,12 +195,12 @@ Si usa un [!DNL Google Merchant Center] e incluir este valor en la fuente &quot;
 
 >[!NOTE]
 >
-* Si genera direcciones URL de seguimiento al publicar datos propagados a través de la plantilla, los parámetros de seguimiento se anexan a este valor en función de la configuración de seguimiento de la cuenta.
-* ([!DNL Google Ads] cuentas) Evite utilizar macros que no sustituyan los clics de fuentes que habilitan el seguimiento paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
+>* Si genera direcciones URL de seguimiento al publicar datos propagados a través de la plantilla, los parámetros de seguimiento se anexan a este valor en función de la configuración de seguimiento de la cuenta.
+>* ([!DNL Google Ads] cuentas) Evite utilizar macros que no sustituyan los clics de fuentes que habilitan el seguimiento paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
 
 **[!UICONTROL Keyword Tracking Template]:** (Cuentas con direcciones URL finales/avanzadas; opcional) La plantilla de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento, e incrusta la dirección URL final en un parámetro. La plantilla de seguimiento en el nivel más granular (con la palabra clave como valor más granular) anula los valores en todos los demás niveles.
 
-* Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+* Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Buscar, Social y Commerce anexan automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 * Si lo desea, puede introducir redirecciones y seguimiento de terceros.
 
@@ -216,7 +216,7 @@ Si utiliza cualquiera de los parámetros, tiene la opción de aplicar el paráme
 
 * **[!UICONTROL Do Not Apply to Existing Keywords]** (predeterminado): simplemente inserta el valor del parámetro para las nuevas palabras clave que se crean con la plantilla.
 
-* **[!UICONTROL Apply to Existing Keywords: Constant]:** Además de crear nuevas palabras clave a partir de la fuente, Search, Social y Commerce también actualizan el valor del parámetro para todas las palabras clave existentes en el grupo de anuncios que no se crearon con la plantilla. Introduzca un solo valor numérico que se utilice para todas esas palabras clave. La plantilla debe contener al menos una palabra clave.
+* **[!UICONTROL Apply to Existing Keywords: Constant]:** Además de crear nuevas palabras clave a partir de la fuente, Search, Social y Commerce también actualizan el valor del parámetro para todas las palabras clave existentes en el grupo de publicidad que no se crearon con la plantilla. Introduzca un solo valor numérico que se utilice para todas esas palabras clave. La plantilla debe contener al menos una palabra clave.
 
 * **[!UICONTROL Apply to Existing Keywords: Min]:** Además de crear nuevas palabras clave a partir de la fuente, Search, Social y Commerce también actualizan el valor del parámetro para todas las palabras clave existentes en el grupo de anuncios que no se crearon con la plantilla, siempre que el archivo de fuente contenga valores numéricos para el parámetro, con hasta un punto decimal pero sin comas, símbolos o códigos de moneda o cualquier otro carácter. El valor mínimo del parámetro en el archivo de fuente se utiliza para todas las palabras clave existentes. Por ejemplo, si el archivo de fuente tiene [!UICONTROL Param1] valores de 21500 y 22000, luego el [!UICONTROL Param1] Los valores de las palabras clave existentes se cambian a 21500. La plantilla debe contener al menos una palabra clave. **Sugerencia:** Utilice esta opción solo cuando tenga grupos de anuncios con temáticas ajustadas, de modo que tenga sentido que las palabras clave tengan el mismo valor.
 
@@ -234,9 +234,9 @@ Los campos de datos del archivo de fuente pueden tener un máximo de 25 caracter
 
    * Se pueden incrustar dos números con una barra diagonal. Por ejemplo, 4/1 y 0.95/0.45 son válidos.
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] plantillas\]:** ([!DNL Microsoft® Advertising] (solo plantillas) La cadena que se utilizará como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contienen el valor `{Param2}` cadena de sustitución dinámica. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima del elemento de anuncio en el que lo utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
+**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] plantillas\]:** ([!DNL Microsoft® Advertising] (solo plantillas) La cadena que se utilizará como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contienen el valor `{Param2}` cadena de sustitución dinámica. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos publicitarios en los que la utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
 
-**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] (solo plantillas) La cadena que se utilizará como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contienen el valor `{Param3}` cadena de sustitución dinámica. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima del elemento de anuncio en el que lo utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
+**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] (solo plantillas) La cadena que se utilizará como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contienen el valor `{Param3}` cadena de sustitución dinámica. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos publicitarios en los que la utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
 
@@ -318,7 +318,7 @@ Para anuncios adaptables de búsqueda, inserte un personalizador de anuncios con
 
 [!DNL Microsoft® Advertising] y [!DNL Yahoo! Japan Ads] han desaprobado la creación y edición de anuncios de texto estándar.
 
-**[!UICONTROL Base URL]:** (Cuentas solo con direcciones URL de destino) La página a la que se llevan los usuarios. Puede incluir redirección de terceros y código de seguimiento. Si utiliza el servicio de seguimiento de conversión de Adobe Advertising y la configuración de la campaña incluye el uso del [!UICONTROL EF Redirect] y agregando seguimiento en el nivel de anuncio; a continuación, Search, Social y Commerce añadirán automáticamente su propia redirección y código de seguimiento al anuncio.
+**[!UICONTROL Base URL]:** (Cuentas solo con direcciones URL de destino) La página a la que se llevan los usuarios. Puede incluir redirección de terceros y código de seguimiento. Si utiliza el servicio de seguimiento de conversión de Adobe Advertising y la configuración de la campaña incluye el uso del [!UICONTROL EF Redirect] y agregando seguimiento en el nivel de anuncio; a continuación, Search, Social y Commerce añaden automáticamente su propia redirección y código de seguimiento al anuncio.
 
 Para insertar un nombre de columna o un grupo de modificadores como parámetro dinámico, haga clic en el campo de entrada y, a continuación, haga clic en un nombre de columna en la lista de columnas o en un [nombre de modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) en el [!UICONTROL Modifiers] lista.
 
@@ -328,12 +328,12 @@ Si usa un [!DNL Google Merchant] Centrar fuente e incluir este valor en &quot;[!
 
 >[!NOTE]
 >
-* Si genera direcciones URL de seguimiento al publicar datos propagados a través de la plantilla, los parámetros de seguimiento se anexan a este valor en función de la configuración de seguimiento de cuentas.
-* ([!DNL Google Ads] cuentas ) Evite utilizar macros que no sustituyan los clics de fuentes que habiliten el seguimiento paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
+>* Si genera direcciones URL de seguimiento al publicar datos propagados a través de la plantilla, los parámetros de seguimiento se anexan a este valor en función de la configuración de seguimiento de cuentas.
+>* ([!DNL Google Ads] cuentas ) Evite utilizar macros que no sustituyan los clics de fuentes que habiliten el seguimiento paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
 
 **[!UICONTROL Tracking Template]:** (Cuentas con direcciones URL finales/avanzadas; opcional) La plantilla de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento, e incrusta la dirección URL final en un parámetro. La plantilla de seguimiento en el nivel más granular (con la palabra clave como valor más granular) anula los valores en todos los demás niveles.
 
-Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce anexa automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
+Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Buscar, Social y Commerce anexan automáticamente el código de redireccionamiento y seguimiento al guardar el registro.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar la dirección URL de la página de aterrizaje:
 
@@ -345,9 +345,9 @@ Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar 
 
 >[!NOTE]
 >
-* Si la variable [!UICONTROL Prefill] está seleccionada, los campos alternativos se rellenan previamente con los campos originales y puede editarlos según sea necesario.
-* Solo los campos de copia de anuncio que superen la longitud máxima se sustituyen por el valor alternativo. Por ejemplo, si solo un titular o título original es demasiado largo, la variación de anuncio generada utiliza el titular o título alternativo y las descripciones originales. Por lo tanto, asegúrese de que la copia de anuncio alternativa tenga sentido cuando se combine con la copia de anuncio original.
-* Si la copia de anuncio original cumple los requisitos de longitud del motor de búsqueda, se descarta la copia de anuncio alternativa.
+>* Si la variable [!UICONTROL Prefill] está seleccionada, los campos alternativos se rellenan previamente con los campos originales y puede editarlos según sea necesario.
+>* Solo los campos de copia de anuncio que superen la longitud máxima se sustituyen por el valor alternativo. Por ejemplo, si solo un titular o título original es demasiado largo, la variación de anuncio generada utiliza el titular o título alternativo y las descripciones originales. Por lo tanto, asegúrese de que la copia de anuncio alternativa tenga sentido cuando se combine con la copia de anuncio original.
+>* Si la copia de anuncio original cumple los requisitos de longitud del motor de búsqueda, se descarta la copia de anuncio alternativa.
 
 **\[Componente\] [!UICONTROL Ad Label Classifications] > \[Clasificación de etiquetas y valor\]:** (Opcional) Valores de hasta cinco clasificaciones de etiquetas existentes para asignarlas a las variaciones de anuncios que se crean o editan con la plantilla. Para cada componente de campaña al que desea asignar clasificaciones de etiquetas:
 
@@ -357,7 +357,7 @@ Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar 
 
    * Para cada clasificación de etiqueta y valor que asignar al componente, haga lo siguiente:
 
-      1. Haga clic **[!UICONTROL Add Label Classification]**.
+      1. Clic **[!UICONTROL Add Label Classification]**.
 
       1. Seleccione la clasificación de etiquetas existente y, a continuación, seleccione un valor existente o introduzca un nuevo valor.
 
@@ -385,8 +385,8 @@ Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar 
 
 >[!MORELIKETHIS]
 >
-* [Automatización de la administración de anuncios mediante fuentes de inventario](../inventory-feeds-about.md)
-* [Administración de modificadores](../modifiers-manage.md)
-* [Administrar archivos de fuente de datos de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
-* [Propagación de datos de fuentes mediante plantillas](../feed-data-propagate.md)
-* [Publicar datos de campaña de fuentes de inventario en redes de publicidad](../propagated-data-post.md)
+>* [Automatización de la administración de anuncios mediante fuentes de inventario](../inventory-feeds-about.md)
+>* [Administración de modificadores](../modifiers-manage.md)
+>* [Administrar archivos de fuente de datos de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
+>* [Propagación de datos de fuentes mediante plantillas](../feed-data-propagate.md)
+>* [Publicar datos de campaña de fuentes de inventario en redes de publicidad](../propagated-data-post.md)

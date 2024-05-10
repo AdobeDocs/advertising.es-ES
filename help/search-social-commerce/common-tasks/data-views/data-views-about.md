@@ -1,11 +1,11 @@
 ---
 title: Acerca de la personalización de datos en vistas de administración de campañas
 description: Obtenga información acerca de los tipos de datos que puede personalizar en las vistas de datos de Campaign.
-exl-id: a8e4020a-ed8e-4ccc-9aaf-8ba115fb9ea3
+exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ En la mayoría de las vistas de datos de campaña, puede personalizar los datos 
 
    * Examine o busque campañas por portafolio o grupo de portafolios, y filtre por el estado de la entidad y el estado del grupo de portafolios, portafolios y campaña. Haga clic en cualquier grupo del portafolio, portafolio o campaña del panel para cargar datos del grupo del portafolio, portafolio o campaña dentro de la vista de entidad actual.
 
-   * Acceda, edite y restablezca sus vistas predeterminadas; y acceda, edite y elimine sus vistas personalizadas. Al hacer clic en cualquier nombre de vista, se cargará la vista adecuada.
+   * Acceda, edite y restablezca sus vistas predeterminadas; y acceda, edite y elimine sus vistas personalizadas. Al hacer clic en cualquier nombre de vista, se carga la vista adecuada.
 
 * Aplique filtros a cualquier columna de datos disponible para cambiar los datos que se muestran en la pestaña actual. Puede crear filtros a partir de los encabezados de columna o de un botón de la barra de herramientas. Los filtros se mantienen cuando se abren entidades secundarias. Por ejemplo, si ve campañas con \> 100 clics y luego abre un grupo de anuncios dentro de esa campaña, solo se muestran los grupos de anuncios con \> 100 clics.
 

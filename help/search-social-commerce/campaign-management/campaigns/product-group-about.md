@@ -3,9 +3,9 @@ title: Acerca de los grupos de productos
 description: Obtenga información sobre los grupos de productos de compras en campañas de compras.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 4ed0d225dafcb07e8a563ef7e723cd247da5e1a9
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Puede crear y editar grupos de productos y eliminar grupos de productos y sus gr
 
   >[!CAUTION]
   >
-  >([!DNL Microsoft® Advertising]) Utilice esta opción solo cuando no incluya direcciones URL de seguimiento de búsqueda, medios sociales y comercio en una columna personalizada dentro de la fuente del producto. Si realiza ambas acciones, las direcciones URL incluirán dos redirecciones y provocarán vínculos rotos.
+  >([!DNL Microsoft® Advertising]) Utilice esta opción solo cuando no incluya direcciones URL de seguimiento de búsqueda, medios sociales y Commerce en una columna personalizada dentro de la fuente del producto. Si realiza ambas acciones, las direcciones URL incluirán dos redirecciones y provocarán que se rompan los vínculos.
 
 * ([!DNL Microsoft® Advertising] solo) Añada la URL de seguimiento a los datos del producto dentro de la variable [!DNL Microsoft® Merchant Center] cuenta. Para ello, incluya la dirección URL de seguimiento junto con el valor en la variable `link` o `mobile_link` , según corresponda, en una columna personalizada denominada [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) en la fuente del producto. Las direcciones URL generadas con este método no incluyen ningún parámetro de seguimiento especificado en la configuración de la cuenta o la campaña en Search, Social y Commerce.
 

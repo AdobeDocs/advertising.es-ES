@@ -1,11 +1,11 @@
 ---
 title: Acerca de [!DNL Google Ads] destinos de búsqueda dinámica
 description: Más información [!DNL Google Ads] destinos de búsqueda dinámica.
-exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-Los objetivos de búsqueda dinámica definen si la red de anuncios utilizará todas las páginas del sitio web o un subconjunto de ellas para segmentar los anuncios de búsqueda dinámica. Configure los objetivos de búsqueda dinámica en el nivel de grupo de anuncios; se aplican a todos los anuncios de búsqueda dinámica en el mismo grupo de anuncios.
+Los objetivos de búsqueda dinámica definen si la red de anuncios utiliza todas las páginas del sitio web o un subconjunto de ellas para segmentar los anuncios de búsqueda dinámica. Configure los objetivos de búsqueda dinámica en el nivel de grupo de anuncios; se aplican a todos los anuncios de búsqueda dinámica en el mismo grupo de anuncios.
 
 Según la configuración de la campaña, los destinos de búsqueda dinámica pueden ser obligatorios u opcionales:
 

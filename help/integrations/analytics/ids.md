@@ -3,9 +3,9 @@ title: ID de Adobe Advertising utilizados por [!DNL Analytics]
 description: ID de Adobe Advertising utilizados por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ El EF ID es un token único que utiliza el Adobe Advertising para asociar la act
 
 >[!NOTE]
 >
->Los ID de EF distinguen entre mayúsculas y minúsculas. Si un [!DNL Analytics] La implementación fuerza el seguimiento de URL a minúsculas y, a continuación, el Adobe Advertising no reconocerá el EF ID. Esto afectará a las ofertas de Adobes Advertising y a los informes, pero no a los informes de Adobes Advertising dentro de [!DNL Analytics].
+>Los ID de EF distinguen entre mayúsculas y minúsculas. Si un [!DNL Analytics] La implementación fuerza el seguimiento de URL a minúsculas y, a continuación, el Adobe Advertising no reconoce el EF ID. Esto afecta a las ofertas de Adobes Advertising y a los informes, pero no afecta a los informes de Adobes Advertising dentro de [!DNL Analytics].
 
 #### [!DNL Google Ads] anuncios de búsqueda
 

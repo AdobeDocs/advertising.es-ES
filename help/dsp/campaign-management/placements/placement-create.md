@@ -3,7 +3,7 @@ title: Crear una ubicación
 description: Obtenga información sobre cómo crear una ubicación.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-1. Haga clic en el nombre de la campaña en la que se incluirá la ubicación.
+1. Haga clic en el nombre de la campaña en la que desea incluir la ubicación.
 
 1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]**. En el [!UICONTROL Placement Types] del menú, haga clic en el tipo de ubicación.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
       Algunos campos tienen valores predeterminados que se pueden anular.
 
-      Si el paquete al que se asigna la ubicación tiene un ritmo de nivel de paquete, los objetivos y la configuración de ritmo reflejarán la configuración del paquete.
+      Si el paquete al que se asigna la ubicación tiene un ritmo de nivel de paquete, los objetivos y la configuración del ritmo reflejarán la configuración del paquete.
 
    1. (Opcional) En el [!UICONTROL Geo-Targeting] , reduzca las ubicaciones que se incluyen o excluyen.
 

@@ -3,9 +3,9 @@ title: Administrar cuentas de comerciante
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta de un centro de comerciantes.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
-Search, Social y Commerce pueden descargar y mostrar datos de productos todos los días de cualquiera de las cuentas de Google Merchant Center o Microsoft Merchant Center de un anunciante. Además, Search, Social y Commerce pueden automatizar la creación de anuncios en función del contenido de la cuenta de comerciante. Para trabajar directamente con los datos del producto en Search, Social y Commerce, debe crear un registro de cuenta correspondiente que contenga las credenciales de acceso a la cuenta y con acceso a *activado*.
+Search, Social y Commerce pueden descargar y mostrar datos de productos todos los días para cualquiera de las cuentas de Google Merchant Center o Microsoft Merchant Center de un anunciante. Además, Search, Social y Commerce pueden automatizar la creación de anuncios en función del contenido de la cuenta de comerciante. Para trabajar directamente con los datos del producto en Search, Social y Commerce, debe crear un registro de cuenta correspondiente que contenga las credenciales de acceso a la cuenta y con acceso a *activado*.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Al deshabilitar una cuenta de comerciante, Search, Social y Commerce no inician 
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] solo) La clave de acceso que utilizará la cuenta de desarrollador.
 
-**[!UICONTROL Account Name]:** El nombre que se muestra para la cuenta en Buscar, Social y Comercio.
+**[!UICONTROL Account Name]:** El nombre mostrado para la cuenta en Buscar, Social y Commerce.
 
 **[!UICONTROL Login]:** El nombre de inicio de sesión o ID de la cuenta.
 
@@ -126,9 +126,9 @@ Al deshabilitar una cuenta de comerciante, Search, Social y Commerce no inician 
 
 **[!UICONTROL Confirm Password]:** Contraseña de la cuenta.
 
-**[!UICONTROL EF Account Type]:** Si Search, Social y Commerce accederán a la cuenta:
+**[!UICONTROL EF Account Type]:** Si Search, Social y Commerce acceden a la cuenta:
 
-* *[!UICONTROL Enabled]* (opción predeterminada): Search, Social y Commerce pueden iniciar sesión en la cuenta de para recuperar los datos del producto.
+* *[!UICONTROL Enabled]* (opción predeterminada): Search, Social y Commerce pueden iniciar sesión en la cuenta de para recuperar datos de productos.
 
 * *[!UICONTROL Disabled]:* Search, Social y Commerce no inician sesión en la cuenta y, por lo tanto, no recuperan los datos actualizados del producto. Los datos recopilados mientras la cuenta estaba habilitada se seguirán almacenando y los anuncios existentes creados con datos de productos no se actualizarán, pausarán ni eliminarán según la plantilla de fuente y la configuración de los datos de fuente.
 

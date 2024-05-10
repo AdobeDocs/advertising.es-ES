@@ -1,11 +1,11 @@
 ---
 title: Administrar plantillas de publicidad para fuentes de inventario
 description: Obtenga información acerca de la administración de plantillas de publicidad a través de las cuales se pueden procesar los datos de inventario para administrar la estructura de cuentas y enviar anuncios dinámicos.
-exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Cree plantillas independientes para anuncios de texto y expandidos/extendidos, a
 
       1. Para cada clasificación de etiquetas que asignar al componente, haga lo siguiente:
 
-         1. Haga clic **[!UICONTROL Add Label Classification]**.
+         1. Clic **[!UICONTROL Add Label Classification]**.
 
          1. Seleccione la clasificación de etiquetas y, a continuación, seleccione un valor existente o introduzca un nuevo valor.
 

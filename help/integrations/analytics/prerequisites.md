@@ -3,9 +3,9 @@ title: Requisitos previos e información clave para la implementación [!DNL Ana
 description: Requisitos previos e información clave para la implementación [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Revise la siguiente información antes de integrar Adobe Advertising con Adobe A
 
 Proporcione al equipo de implementación del Adobe Advertising lo siguiente:
 
-* El [!DNL Analytics] ID del grupo de informes que se utilizará para la creación de informes sobre la actividad de medios de pago y para la actividad del sitio de alimentación para la optimización y la creación de informes en el Adobe Advertising
+* El [!DNL Analytics] ID del grupo de informes que se utilizará para los informes sobre la actividad de medios de pago y para alimentar la actividad del sitio para la optimización y los informes en Adobe Advertising
 * ID de organización del Experience Cloud de la empresa (ID de organización).
 
 Puede encontrar ambos ID en la página [Pestaña Resumen de Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
@@ -82,7 +82,7 @@ Póngase en contacto con su equipo de cuenta de Adobe para conocer los entornos 
 
 ## Aspectos que debe saber antes de implementar
 
-* El equipo de implementación del Adobe Advertising configurará la integración.
+* El equipo de implementación de Adobe Advertising configura la integración.
 
 * No se facturan costes adicionales por esta integración, ni las llamadas al servidor resultan en costes adicionales [!DNL Analytics] o tarifas de Adobe Advertising.
 

@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2430'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,7 @@ Para crear un objetivo de conversión personalizado, haga clic en **[!UICONTROL 
 
 >[!TIP]
 >
->Para las campañas en portafolios híbridos para las que carga objetivos en la red de publicidad, la práctica recomendada es utilizar objetivos de nivel de campaña que coincidan con los objetivos de conversión del objetivo del portafolio. Sin embargo, si los objetivos de la campaña incluyen [!DNL Google]Conversiones rastreadas por y, a continuación, agréguelas dentro de [!DNL Google Ads] editor, ya que no se vuelven a cargar en la red de anuncios con el objetivo. Además, dentro de [!DNL Google Ads] Para eliminar las acciones de conversión de la campaña como objetivos predeterminados de la cuenta, márquelas como objetivos secundarios (no principales).
+>Para las campañas en portafolios híbridos para las que carga objetivos en la red de publicidad, la práctica recomendada es utilizar objetivos de nivel de campaña que coincidan con los objetivos de conversión del objetivo del portafolio. Sin embargo, si los objetivos de la campaña incluyen [!DNL Google]Conversiones rastreadas por y, a continuación, agréguelas dentro de [!DNL Google Ads] editor porque no se vuelven a cargar en la red de anuncios con el objetivo. Además, dentro de [!DNL Google Ads] Para eliminar las acciones de conversión de la campaña como objetivos predeterminados de la cuenta, márquelas como objetivos secundarios (no principales).
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

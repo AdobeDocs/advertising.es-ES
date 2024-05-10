@@ -1,13 +1,13 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
 # Codificar el campo URL base en la configuración de cuenta y campaña
 
-**[!UICONTROL Encode Base URL]:** (Cuentas con direcciones URL de destino y el tipo de seguimiento) [!UICONTROL EF Redirect] solo) Si el usuario final verá la codificación de caracteres (como `%3D` en lugar de `=`) en la dirección URL dentro de la barra de direcciones del explorador:
+**[!UICONTROL Encode Base URL]:** (Cuentas con direcciones URL de destino y el tipo de seguimiento) [!UICONTROL EF Redirect] solo) Si la dirección URL de la barra de direcciones del explorador del usuario final incluye codificación de caracteres (como `%3D` en lugar de `=`):
 
 * *[!UICONTROL On]* (el valor predeterminado): Para mostrar la codificación de caracteres en las direcciones URL.
 

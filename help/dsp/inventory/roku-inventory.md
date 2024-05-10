@@ -1,11 +1,11 @@
 ---
 title: Uso de [!DNL Roku] Inventario
-description: DSP Obtenga más información sobre la asociación con la [!DNL Roku], incluidas las opciones de inventario, los proveedores de seguimiento de terceros aprobados y las prácticas recomendadas para [!DNL Roku]Ubicaciones específicas de.
+description: DSP Obtenga más información sobre la asociación de la con [!DNL Roku], incluidas las opciones de inventario, los proveedores de seguimiento de terceros aprobados y las prácticas recomendadas para [!DNL Roku]Ubicaciones específicas de.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Puede: a) configurar ID de acuerdos privados directamente con [!DNL Roku] DSP y,
 >
 >[!DNL Roku] el inventario no está disponible en mercados e intercambios abiertos.
 
-* Para sus ofertas privadas, [DSP configuración de información sobre los ID de acuerdo en la](/help/dsp/inventory/deal-id-create.md) y luego target &quot;[!UICONTROL Roku Network – Audience]&quot; y &quot;[!UICONTROL The Roku Channel – Audience]&quot; en [!DNL Roku] ubicaciones.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals will show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* Para sus ofertas privadas, [DSP configuración de información sobre los ID de acuerdo en la](/help/dsp/inventory/deal-id-create.md) y luego target &quot;[!UICONTROL Roku Network – Audience]&quot; y &quot;[!UICONTROL The Roku Channel – Audience]&quot; en [!DNL Roku] ubicaciones.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * Puede [suscribirse a lo siguiente [!DNL Roku] inventario dentro de [!DNL On Demand] Galería](/help/dsp/inventory/on-demand-inventory-subscribe.md)y, a continuación, establezca como objetivo cualquiera de las ofertas aprobadas dentro de [!DNL Roku] ubicaciones:
 
@@ -83,4 +83,3 @@ A escala máxima:
 >* [Creación manual de detalles de ID de acuerdo](/help/dsp/inventory/deal-id-create.md)
 > * [Suscribirse y solicitar acceso a [!DNL On Demand] Ofertas de inventario Premium](/help/dsp/inventory/on-demand-inventory-subscribe.md)
 >* [Crear una ubicación](/help/dsp/campaign-management/placements/placement-create.md)
-

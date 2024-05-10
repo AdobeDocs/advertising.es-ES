@@ -3,9 +3,9 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: c2c2ddb18b100dc0592d07af3ed1d9f030178eca
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ DSP Puede optimizar sus campañas centradas en el rendimiento. Consulte las sigu
 
 ## Paso 1: Definición de la meta
 
-Es importante comprender el objetivo de la campaña, como lograr el ROAS más alto posible o el CPA más bajo posible. Las campañas de rendimiento tienen el [objetivos de optimización](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Para cada paquete de la campaña, debe especificar el objetivo de optimización correspondiente.
+Es importante comprender el objetivo de la campaña, como lograr el ROAS más alto posible o el CPA más bajo posible. Las campañas de rendimiento tienen el [objetivos de optimización](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Especifique el objetivo de optimización correspondiente para cada paquete de la campaña.
 
 ![objetivo de optimización](/help/dsp/assets/optimization-goals.png)
 
-También debe determinar los eventos de éxito que llevarán a la meta general y crear metas personalizadas en consecuencia. Para cada paquete, especificará un objetivo personalizado que se utilizará con el objetivo de optimización general para la optimización algorítmica y de informes utilizando [!DNL Adobe Sensei]. Para obtener más información sobre la creación de objetivos personalizados, consulte la [Prácticas recomendadas para crear una meta personalizada](custom-goal.md#custom-goal-best-practices).
+También debe determinar los eventos de éxito que conducen a la meta general y crear metas personalizadas en consecuencia. Para cada paquete, especifique un objetivo personalizado que se utilizará con el objetivo de optimización general para la optimización algorítmica y de informes con [!DNL Adobe Sensei]. Para obtener más información sobre la creación de objetivos personalizados, consulte la [Prácticas recomendadas para crear una meta personalizada](custom-goal.md#custom-goal-best-practices).
 
 ![metas personalizadas](/help/dsp/assets/objective-goals.png)
 
@@ -73,7 +73,7 @@ Además, utilice la siguiente configuración.
 
   Por ejemplo, si tiene 100 000 $ para gastar en 30 días, establezca el presupuesto del vuelo 1 (días 1-10) en 25 000 $ (75 % x 100 000 $/30 días = 2 500 $ por día). Utilice el presupuesto restante de $75,000 para el Vuelo 2 (Días 11-30).
 
-* **Presupuesto:** DSP siempre intentará asignar el 100 % del presupuesto del paquete de forma uniforme entre todas las ubicaciones de un paquete. Si una ubicación tiene un gasto bajo o ninguno, se recomienda limitar el presupuesto a la ubicación para permitir que se asigne más del presupuesto a las ubicaciones con escala. Espere entre 24 y 48 horas para que se calibran los cambios de presupuesto.
+* **Presupuesto:** DSP siempre intenta asignar el 100 % del presupuesto del paquete de forma uniforme entre todas las ubicaciones de un paquete. Si una ubicación tiene un gasto bajo o ninguno, se recomienda limitar el presupuesto a la ubicación para permitir que se asigne más del presupuesto a las ubicaciones con escala. Espere entre 24 y 48 horas para que se calibran los cambios de presupuesto.
 
 * **Objetivos de optimización:** Utilice uno de los dos objetivos de optimización de rendimiento, *[!UICONTROL Highest Return on Ad Spend]* o *[!UICONTROL Lowest Cost per Acquisition]*, según el objetivo del paquete. Estos objetivos optimizan automáticamente el paquete hacia las ubicaciones de ROAS más alta o CPA más baja, respectivamente.
 
@@ -97,7 +97,7 @@ A continuación se indican las opciones de colocación recomendadas para las cam
 
 ### Metas
 
-Configurará la optimización de CPA o ROAS en el nivel de paquete (consulte Paso 3: Creación de paquetes), pero puede agregar ajustes de nivel de ubicación adicionales.
+Debe configurar la optimización de CPA o ROAS en el nivel de paquete (consulte Paso 3: Creación de paquetes), pero puede agregar ajustes de nivel de ubicación adicionales.
 
 * **Puja máxima:**
    * Para las ubicaciones de prospección, utilice una oferta máxima baja ($5).
@@ -105,7 +105,7 @@ Configurará la optimización de CPA o ROAS en el nivel de paquete (consulte Pas
 
 * **Filtros de ofertas previas:** Minimice o, idealmente, evite establecer filtros de oferta previa agresivos, lo que impide que la ubicación alcance la escala. Las prácticas recomendadas incluyen las siguientes:
 
-   * Utilice un (1) filtro de oferta previa por ubicación. Para poder usar varios filtros de preoferta, es necesario que se cumplan ambos, lo que reduce la escala.
+   * Utilice un (1) filtro de oferta previa por ubicación. El uso de varios filtros de oferta previa requiere que se cumplan ambos, lo que reduce la escala.
 
    * Considere la posibilidad de establecer filtros de oferta previa menos estrictos en los casos en que se aplique una segmentación adicional (como segmentación por audiencia, ubicación geográfica y sitio).
 
@@ -132,7 +132,7 @@ Para maximizar la escala, utilice [!UICONTROL Public] (Open Exchange) y [!UICONT
 
 >[!NOTE]
 >
->Tus anuncios funcionarán mejor si solo se puede llegar a un usuario en una ubicación. Una superposición significativa en los usuarios entre ubicaciones puede causar competencia, lo que da lugar a un ciclo de ofertas que aumentan continuamente, lo que aumenta el coste por usuario. Por lo tanto, si incluye varias audiencias, asegúrese de que no estén formadas por usuarios o miembros de audiencia superpuestos.
+>Tus anuncios funcionan mejor si solo se puede llegar a un usuario en una ubicación. Una superposición significativa en los usuarios entre ubicaciones puede causar competencia, lo que da lugar a un ciclo de ofertas que aumentan continuamente, lo que aumenta el coste por usuario. Por lo tanto, si incluye varias audiencias, asegúrese de que no estén formadas por usuarios o miembros de audiencia superpuestos.
 >
 > Puede evitar audiencias superpuestas creando audiencias en niveles para poder suprimir los niveles más altos e inclusivos de las ubicaciones según sea necesario.
 
@@ -147,7 +147,7 @@ Para maximizar la escala, utilice [!UICONTROL Public] (Open Exchange) y [!UICONT
 
 ### Seguridad de marca y calidad de medios
 
-Uso del filtrado contextual, bloqueo de fraude de oferta previa, o [!UICONTROL Ads.txt] el filtrado limitará la escala de sus ubicaciones, pero utilícelas si es necesario.
+Uso del filtrado contextual, bloqueo de fraude de oferta previa, o [!UICONTROL Ads.txt] El filtrado limita la escala de las ubicaciones, pero puede utilizarlas si es necesario.
 
 ## Paso 5: Uso de los recursos creativos adecuados
 

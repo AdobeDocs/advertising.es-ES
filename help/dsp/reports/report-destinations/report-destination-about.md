@@ -3,7 +3,7 @@ title: Acerca de [!UICONTROL Report Destinations]
 description: Obtenga información sobre la administración de ubicaciones de entrega para los informes personalizados.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Puede crear nuevos destinos y editar y eliminar destinos existentes desde esta v
 
 >[!NOTE]
 >
->La actualización de las credenciales de los destinos de informe existentes no interrumpirá la entrega de informes, siempre y cuando las credenciales sean válidas.
+>La actualización de las credenciales de los destinos de informe existentes no interrumpe la entrega de informes siempre que las credenciales sean válidas.
 
 ![Destinos del informe](/help/dsp/assets/report-destinations.png)
 
@@ -43,4 +43,3 @@ Puede crear nuevos destinos y editar y eliminar destinos existentes desde esta v
 >* [[!UICONTROL Report Destination] Configuración](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Editar una [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

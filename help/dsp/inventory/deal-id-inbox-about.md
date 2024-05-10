@@ -3,7 +3,7 @@ title: Acerca de [!UICONTROL Deal ID Inbox]
 description: Obtenga información acerca de [!UICONTROL Deal ID inbox] función, que le permite aceptar acuerdos privados en los que ya ha negociado con editores [!DNL FreeWheel], [!DNL Google Authorized Buyers] (anteriormente conocido como [!DNL AdX]), and [!DNL Magnite DV+] (anteriormente [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -35,11 +35,11 @@ DSP El cliente actualiza automáticamente todos los detalles de la oferta todos 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 >[!NOTE]
 >
->Para ofertas programáticas garantizadas mediante [!DNL Google Authorized Buyers], debes cumplir al menos el 90% de tu presupuesto o tu cuenta perderá acceso a [!DNL Google] ofertas en [!UICONTROL Deal ID inbox].
+>Para ofertas programáticas garantizadas mediante [!DNL Google Authorized Buyers], debes cumplir al menos el 90% de tu presupuesto o tu cuenta perderá el acceso a [!DNL Google] ofertas en [!UICONTROL Deal ID inbox].
 
 ## Implementación de [!UICONTROL Deal ID Inbox]
 
-Para recibir sus ofertas en la [!UICONTROL Deal ID inbox]DSP , las cuentas de SSP deben asignar la cuenta de SSP de la organización a la cuenta de la cuenta de la cuenta de la organización de SSP. DSP compartirá los nombres de cuenta de la organización con los SSP relevantes. Póngase en contacto con el equipo de cuenta de Adobe para obtener instrucciones.
+Para recibir sus ofertas en la [!UICONTROL Deal ID inbox]DSP , las cuentas de SSP deben asignar la cuenta de SSP de la organización a la cuenta de la cuenta de la cuenta de la organización de SSP. DSP Puede compartir los nombres de cuenta de la organización con los SSP relevantes. Póngase en contacto con el equipo de cuenta de Adobe para obtener instrucciones.
 
 DSP Durante las negociaciones, dile al editor que envíe la oferta a tu comprador en lugar de a la cuenta de la empresa matriz de la que se ha realizado el contrato. El identificador de la operación puede ser un nombre o un ID, según el SSP.
 
@@ -75,4 +75,3 @@ Los detalles del acuerdo incluyen la razón por la que el acuerdo no está dispo
 >
 >* [Aceptar un acuerdo en la bandeja de entrada de Deal ID](deal-id-inbox-accept.md)
 >* [Resumen de las Funciones de Inventario](inventory-overview.md)
-

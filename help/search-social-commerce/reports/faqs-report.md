@@ -1,11 +1,11 @@
 ---
 title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
-exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '3922'
 ht-degree: 0%
 
 ---
@@ -53,14 +53,14 @@ Puede ver qué conversiones resultaron de un clic en una [!DNL Google Ads] exten
 Cuando la fila incluye datos para campañas de búsqueda con contenido habilitado, campañas de visualización o campañas sociales (que no incluyen palabras clave), la variable [!UICONTROL Keyword] La columna muestra el nombre del grupo de anuncios aplicable en su lugar.
 +++
 
-+++Debido a cambios estacionales o de mercado, mis informes muestran datos atípicos. ¿Afectará esto a las ofertas una vez que cambien las condiciones?
++++Debido a cambios estacionales o de mercado, mis informes muestran datos atípicos. ¿Afecta esto a las ofertas una vez que cambian las condiciones?
 La capacidad de optimización crea diariamente sus modelos de ingresos para cada unidad de oferta para garantizar que identifique las tendencias y responda inmediatamente a ellas, y los modelos incorporan datos históricos a largo plazo para ayudar a predecir el rendimiento estacional. Configuración de la semivida del modelo de ingresos de la cartera<!-- add link to glossary? --> también determina la ponderación de los datos de ingresos recientes. La práctica recomendada es reducir la semivida durante un período de rendimiento atípico, pero aumentarla después de ajustar el modelo de ingresos. Si tiene alguna pregunta sobre si es necesario ajustar la semivida, póngase en contacto con el equipo de cuenta de Adobe.
 
 Si no desea que los datos del periodo afecten a las pujas futuras, puede optar por excluir esas fechas del modelo. Póngase en contacto con el equipo de cuenta de Adobe para excluir las fechas.
 +++
 
 +++¿Puedo crear un informe con una métrica de propiedad de una cuenta específica, como [!UICONTROL Device] o [!UICONTROL Objective Name]?
-Para informes de entidad de campaña ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], y [!UICONTROL Product Group Report]), los datos de las métricas se agregan dinámicamente mediante las columnas de propiedad que se incluyen en el informe. Si lo desea, puede quitar la columna de clave del informe e incluir sólo las columnas de propiedades de las que desea agregar datos.
+Para informes de entidad de campaña ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report], y [!UICONTROL Product Group Report]), los datos de las métricas se agregan dinámicamente mediante las columnas de propiedad que se incluyen en el informe. Si lo desea, puede quitar la columna de clave del informe e incluir solo las columnas de propiedades de las que desea agregar datos.
 
 Por ejemplo, si genera un [!UICONTROL Keyword Report] que incluye el [!UICONTROL Ad Group] y  De forma predeterminada, las columnas Dispositivo agregan métricas para cada palabra clave por grupo de anuncios y tipo de dispositivo. Sin embargo, si elimina el [!UICONTROL Keyword] antes de generar el informe, el informe genera dinámicamente métricas para los grupos de anuncios especificados por tipo de dispositivo.
 
@@ -127,23 +127,23 @@ Las siguientes son razones comunes para la falta de datos sobre clics.
 +++
 
 +++Los datos de rendimiento son diferentes de los datos del editor de red de publicidad.
-Cuando la red de anuncios envía actualizaciones a datos anteriores (a menudo porque han atribuido un fraude de clics a algunos clics), Search, Social y Commerce no actualiza los datos a menos que haya más de un 5 % de discrepancia y el equipo de cuenta de Adobe presente una solicitud.
+Cuando la red de anuncios envía actualizaciones a datos anteriores (a menudo porque han atribuido un fraude de clics a algunos clics), Search, Social y Commerce no actualiza los datos a menos que haya más de un 5 % de discrepancia y el equipo de la cuenta de Adobe presente una solicitud.
 
-Además, cuando compara datos de uso compartido de impresiones agregados en un intervalo de fechas, los datos de los informes de búsqueda, medios sociales y comercio pueden diferir de los datos de los informes de la red de publicidad. Esta diferencia se debe a la forma en que la API de la red de publicidad, que Search, Social y Commerce utiliza para extraer los datos, genera informes sobre ellos. Por ejemplo, para [!DNL Google Ads] datos:
+Además, cuando compara datos de uso compartido de impresiones agregados en un intervalo de fechas, los datos de los informes Buscar, Social y Commerce pueden diferir de los datos de los informes de la red de anuncios. Esta diferencia se debe a la forma en que la API de la red de publicidad informa los datos, que Search, Social y Commerce utiliza para extraer los datos. Por ejemplo, para [!DNL Google Ads] datos:
 
-* Para la mayoría de las métricas de cuota de impresiones, [!DNL Google Ads] limita el extremo inferior o superior de los valores notificados para valores inferiores al 10 % o buenos al 90 %. Los datos se presentan como 0,0999 para &lt;10% y 0,9001 para >90%
+* Para la mayoría de las métricas de cuota de impresiones, [!DNL Google Ads] limita el extremo inferior o superior de los valores notificados para valores inferiores al 10 % o superiores al 90 %. Los datos se presentan como 0,0999 para &lt;10% y 0,9001 para >90%
 
-* Cuando hay una combinación de datos restringidos y sin límite dentro del intervalo de fechas, Buscar, Social y Comercio agrega datos de uso compartido de impresiones utilizando los valores enviados en la API tal cual, con 0,0999 para filas con &lt;10% y 0,9001 para filas con >90%. Esta agregación podría provocar una desviación del [!DNL Google Ads] datos preagregados porque [!DNL Google Ads] puede utilizar valores de porcentaje reales, como 7 % o 97 %.
+* Cuando hay una combinación de datos restringidos y no restringidos dentro del intervalo de fechas, Buscar, Social y Commerce agregan datos de uso compartido de impresiones utilizando los valores enviados en la API tal cual, con 0,0999 para filas con &lt;10% y 0,9001 para filas con >90%. Esta agregación podría provocar una desviación del [!DNL Google Ads] datos preagregados porque [!DNL Google Ads] puede utilizar valores de porcentaje reales, como 7 % o 97 %.
 +++
 
 +++Los datos de rendimiento de los informes son diferentes de los de [!DNL Google Analytics].
 Los dos sistemas miden datos diferentes, por lo que debería esperar ver datos diferentes. Por ejemplo:
 
-* Search, Social y Commerce (y Google Ads) rastrean clics, mientras que [!DNL Google Analytics] registra las visitas por sesión de explorador de 30 minutos. Por ejemplo, si un usuario hace clic en el anuncio una vez, hace clic en el botón Atrás y, a continuación, hace clic de nuevo en el anuncio, Buscar, Social y Comercio registra dos clics pero [!DNL Google Analytics] registra una visita.
+* Search, Social y Commerce (y Google Ads) rastrean clics, mientras que [!DNL Google Analytics] registra las visitas por sesión de explorador de 30 minutos. Por ejemplo, si un usuario hace clic en el anuncio una vez, hace clic en el botón Atrás y, a continuación, hace clic de nuevo en el anuncio, Buscar, Social y Commerce registra dos clics, pero [!DNL Google Analytics] registra una visita.
 
 * [!DNL Google Analytics] muestra todos los datos de tráfico, mientras que Search, Social y Commerce (y [!DNL Google Ads]) filtra los clics no válidos (como clics excesivos y repetidos).
 
-* [!DNL Google Analytics] incluye datos de clics e ingresos de todos los clics. Search, Social y Commerce no pueden rastrear los datos de clics e ingresos de anuncios y palabras clave con URL de seguimiento incorrectas o que faltan.
+* [!DNL Google Analytics] incluye datos de clics e ingresos de todos los clics. Search, Social y Commerce no pueden rastrear los datos de clics e ingresos de anuncios y palabras clave con direcciones URL de seguimiento incorrectas o que faltan.
 +++
 
 ## Métricas de conversión
@@ -158,7 +158,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 *Posibles causas:*
 
-* Se han agregado palabras clave o anuncios sin prefijar el prefijo de rastreo de clics de Search, Social y Commerce en las plantillas de seguimiento o en las direcciones URL de destino, o bien el prefijo de seguimiento es incorrecto.
+* Las palabras clave o los anuncios se han agregado sin anteponer el prefijo de rastreo de clics de Search, Social y Commerce a las plantillas de rastreo o a las URL de destino, o bien el prefijo de rastreo es incorrecto.
 
 * La etiqueta de seguimiento de conversión no se ha implementado correctamente en todas las páginas web aplicables o se ha editado.
 
@@ -172,7 +172,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 1. Compruebe que las etiquetas de seguimiento de conversión correctas están implementadas en todas las páginas web aplicables. Si es necesario, pídale al equipo de cuenta de Adobe que cree una transacción de prueba para cada etiqueta de seguimiento de conversión aplicable y que capture los detalles de la transacción, como la `transactionid` y detalles de la cookie (como la `trackingid`, `clickid`, etc.).
 
-1. Si la variable [!UICONTROL Auto Upload] Esta opción está desactivada para la campaña y has añadido palabras clave o anuncios. A continuación, asegúrate de haber generado una plantilla de seguimiento o una URL de destino que incluya el rastreo de clics de Search, Social y Commerce para cada una. El equipo de cuenta de Adobe puede ejecutar un informe interno para ver si faltan direcciones URL de rastreo de clics (plantillas de seguimiento o direcciones URL de destino) o si tienen un formato incorrecto.
+1. Si la variable [!UICONTROL Auto Upload] Esta opción está desactivada para la campaña y has añadido palabras clave o anuncios. A continuación, asegúrate de haber creado una plantilla de seguimiento o una URL de destino que incluya el rastreo de clics de Search, Social y Commerce para cada una. El equipo de cuenta de Adobe puede ejecutar un informe interno para ver si faltan direcciones URL de rastreo de clics (plantillas de seguimiento o direcciones URL de destino) o si tienen un formato incorrecto.
 
    Si es necesario, genere el seguimiento creando un archivo de hoja de edición masiva con las direcciones URL correctas y publique el archivo en la cuenta correspondiente utilizando **Generar URL de seguimiento** opción.
 
@@ -206,7 +206,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 1. Si se envió el archivo, [Contactar con Atención al cliente](/help/search-social-commerce/get-help.md).
 
-   El Servicio de atención al cliente comprobará si el archivo se ha recibido y analizado. Si el archivo se procesó sin errores, comprobarán si hay transacciones huérfanas.
+   El Servicio de atención al cliente comprobará si el archivo se ha recibido y analizado. Si el archivo se ha procesado sin errores, comprueba si hay transacciones huérfanas.
 +++
 
 +++Algunos informes avanzados no incluyen los datos de conversión proporcionados por una fuente del anunciante.
@@ -219,7 +219,7 @@ El [!UICONTROL Geo Distribution Report] y [!UICONTROL Domain Referral Report] ut
 
 *Posibles causas:*
 
-* Search, Social y Commerce no tiene en cuenta los ingresos cuando la cookie caduca o se elimina, pero el anunciante puede considerarla un ingreso válido.
+* Search, Social y Commerce no tienen en cuenta los ingresos cuando la cookie caduca o se elimina, pero el anunciante puede considerarla una ganancia válida.
 
 * El tráfico a la página del anunciante provino de un marcador o una búsqueda orgánica en lugar de un anuncio.
 
@@ -245,7 +245,7 @@ Consulte las posibles causas y soluciones para implementaciones de píxeles más
 
 *Posibles causas:*
 
-* Search, Social y Commerce no tiene en cuenta los ingresos cuando la cookie caduca o se elimina, pero el anunciante puede considerarla un ingreso válido.
+* Search, Social y Commerce no tienen en cuenta los ingresos cuando la cookie caduca o se elimina, pero el anunciante puede considerarla una ganancia válida.
 
 * El tráfico a la página del anunciante provino de un marcador o una búsqueda orgánica en lugar de un anuncio.
 
@@ -265,13 +265,13 @@ Consulte las posibles causas y soluciones para implementaciones de píxeles más
 
 *Posibles causas:*
 
-* Search, Social y Commerce no tiene en cuenta los ingresos cuando la cookie caduca o se elimina, pero el anunciante puede considerarla un ingreso válido.
+* Search, Social y Commerce no tienen en cuenta los ingresos cuando la cookie caduca o se elimina, pero el anunciante puede considerarla una ganancia válida.
 
 * El tráfico a la página del anunciante provino de un marcador o una búsqueda orgánica en lugar de un anuncio.
 
 * No hay [transacciones huérfanas](/help/search-social-commerce/glossary.md#o-p), por lo que Search, Social y Commerce no cuentan todos los ingresos que deberían.
 
-* El anunciante validó un informe de búsqueda, medios sociales y comercio con un conjunto de datos diferente al que envió en la fuente.
+* El anunciante validó un informe de Search, Social y Commerce con un conjunto de datos diferente al que envió en la fuente.
 
 * Los ID de transacción (`ev_transid` valores) no se han enviado, no son únicos o son incorrectos.
 
@@ -279,7 +279,7 @@ Consulte las posibles causas y soluciones para implementaciones de píxeles más
 
 * Se han producido errores al analizar el archivo.
 
-* La lógica de desvinculación del anunciante difiere de la lógica de búsqueda, social y comercial.
+* La lógica de deduplicación del anunciante difiere de la lógica de búsqueda, social y Commerce.
 
 *Posible solución o solución alternativa:*
 

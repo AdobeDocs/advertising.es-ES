@@ -3,9 +3,9 @@ title: Actualizar el código de seguimiento de ID de AMO (s_kwcid) para un [!DNL
 description: Obtenga información sobre cómo cambiar al código de seguimiento de ID de AMO más reciente para un [!DNL Google Ads] cuenta.
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ Todo nuevo [!DNL Google Ads] Las cuentas de utilizan automáticamente el formato
 
    >[!NOTE]
    >
-   >Todas las pulsaciones que se hayan producido antes de la migración seguirán informando de los datos de conversión basados en el formato antiguo.
+   >Todas las pulsaciones que se produjeron antes de la migración siguen informando de los datos de conversión basados en el formato antiguo.
 
 1. Una vez iniciada la migración, actualice la configuración del sufijo de la página de aterrizaje (denominado &quot;sufijo URL final&quot; en algunas redes publicitarias) según sea necesario:
 
-   * Si la variable [!UICONTROL Auto Upload]La función &quot; está habilitada en la configuración de seguimiento, Search, Social y Commerce actualizan automáticamente el código de seguimiento en el sufijo de página de aterrizaje de esta cuenta y sus campañas. Usted no tiene que hacer nada.
+   * Si la variable [!UICONTROL Auto Upload]La función &quot; está habilitada en la configuración de seguimiento, Buscar, Social y Commerce actualizan automáticamente el código de seguimiento en el sufijo de página de aterrizaje de esta cuenta y sus campañas. Usted no tiene que hacer nada.
 
    * Si la variable [!UICONTROL Auto Upload]&quot; no está activada y no se utiliza la función &quot; [Función de ID de AMO del lado del servidor](/help/integrations/analytics/ids.md#amo-id-formats), debe actualizar manualmente el parámetro de ID de AMO en la configuración del sufijo de la página de aterrizaje. Puede cambiar manualmente los sufijos de nivel de cuenta y de campaña en la configuración de cuenta y campaña o cargando los cambios en una hoja de edición por lotes. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, utilice el [!DNL Google Ads] editor.
 

@@ -1,11 +1,11 @@
 ---
 title: Seguimiento de conversión de Adobe Analytics
 description: Obtenga información acerca del uso del seguimiento de conversión de Adobe Analytics para sus campañas en Adobe Advertising.
-exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Consulte &quot;[Información general de [!DNL Analytics for Advertising]](https:
 
 >[!PREREQUISITES]
 >
-> Zonas horarias en la cuenta del anunciante de Search, Social y Commerce, [!DNL Analytics] los grupos de informes y las cuentas de red de publicidad deben coincidir. Si no coinciden, existirán variaciones de datos entre sistemas.
+> Husos horarios en la cuenta del anunciante de Search, Social y Commerce, la variable [!DNL Analytics] los grupos de informes y las cuentas de red de publicidad deben coincidir. Si no coinciden, se producen variaciones de datos en todos los sistemas.
 
 ## Resumen de implementación
 
@@ -34,7 +34,7 @@ Consulte &quot;[Información general de [!DNL Analytics for Advertising]](https:
 
 1. En Search, Social y Commerce, su equipo de implementación:
 
-   1. Sincroniza la jerarquía de cuentas de red de anuncios existente en Buscar, Social y Comercio.
+   1. Sincroniza la jerarquía de cuentas de red de anuncios existente en Buscar, Social y Commerce.
 
    1. Agrega redirecciones con &quot;`ef_id`&quot; pasando a las URL de seguimiento y las publica en la red de publicidad.
 

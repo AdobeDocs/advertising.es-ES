@@ -3,9 +3,9 @@ title: Crear un solo anuncio
 description: Obtenga información sobre cómo crear un solo anuncio de terceros.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 4af30f6fa6a81ce7f1a6879244178c84580caa0f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Para crear varios anuncios de terceros a la vez, consulte [Creación de varios a
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-1. Haga clic en el nombre de la campaña en la que se incluirá el anuncio.
+1. Haga clic en el nombre de la campaña en la que desea incluir el anuncio.
 
 1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]**. En el [!UICONTROL Ad Types] del menú, haga clic en el icono [tipo de anuncio](ad-about.md#ad-types).
 
@@ -46,7 +46,7 @@ Para crear varios anuncios de terceros a la vez, consulte [Creación de varios a
 
    >[!NOTE]
    >
-   >DSP Su anuncio solo se publicará si tanto la SSP como el administrador de la plataforma de marketing han aprobado el creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
+   >DSP Su anuncio solo se puede publicar si tanto el proveedor de servicios como el proveedor de servicios compartidos (SSP) han aprobado el creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
 
 >[!MORELIKETHIS]
 >
@@ -55,4 +55,3 @@ Para crear varios anuncios de terceros a la vez, consulte [Creación de varios a
 >* [Editar un anuncio](ad-edit.md)
 >* [Especificaciones del anuncio](ad-specs.md)
 >* [Preguntas frecuentes sobre Universal Video](/help/dsp/campaign-management/faq-universal-video.md)
-

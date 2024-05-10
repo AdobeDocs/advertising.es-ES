@@ -3,7 +3,7 @@ title: Soluciones entre dispositivos
 description: Obtenga más información acerca de las funciones entre dispositivos.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Cuando utiliza un gráfico de dispositivos basado en personas compatible, puede:
 
 * Precio de 0,35 $ CPM para impresiones extendidas (impresiones que se entregan únicamente mediante el uso de [!DNL LiveRamp] gráfico de dispositivos, en lugar de en dispositivos ubicados dentro de los segmentos de audiencia de destino)
 
-   La tarifa se refleja en su tarjeta de tarifa de la cuenta.
+  La tarifa se refleja en su tarjeta de tarifa de la cuenta.
 
 ## Administración de frecuencia basada en personas
 
@@ -46,9 +46,9 @@ Para obtener más información, consulte [Configuración de campaña](/help/dsp/
 
 Una vez guardada una campaña, no se puede cambiar su [!UICONTROL Cross Device Level] configuración.
 
-* **Paquetes:**  Si lo desea, puede definir límites de frecuencia adicionales en el nivel de paquete. DSP respetará el límite de frecuencia más estricto en la jerarquía de campañas.
+* **Paquetes:**  Si lo desea, puede definir límites de frecuencia adicionales en el nivel de paquete. DSP respeta el límite de frecuencia más estricto de la jerarquía de campañas.
 
-* **Ubicaciones:** Si lo desea, puede definir límites de frecuencia adicionales en el nivel de posición. DSP respetará el límite de frecuencia más estricto en la jerarquía de campañas.
+* **Ubicaciones:** Si lo desea, puede definir límites de frecuencia adicionales en el nivel de posición. DSP respeta el límite de frecuencia más estricto de la jerarquía de campañas.
 
 ## Segmentación basada en personas
 
@@ -68,17 +68,17 @@ Puede incluir las siguientes métricas en los informes personalizados:
 
 * **Impresiones extendidas:** (En el [!UICONTROL Build Your Report] sección debajo de [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) El volumen de impresiones incrementales que arroja el uso de un gráfico de dispositivos (que no se encuentra dentro de los segmentos de audiencia originales). Esta métrica también se utiliza para calcular las tarifas aplicables asociadas con el uso de un gráfico de dispositivos de terceros.
 
-   Para determinar el coste de las impresiones extendidas durante un período de tiempo, ejecute un informe personalizado que incluya la variable [!UICONTROL Extended Impressions] y luego multiplicar el número total de impresiones extendidas por 0,00035 $ (0,35 $/1000 impresiones).
+  Para determinar el coste de las impresiones extendidas durante un período de tiempo, ejecute un informe personalizado que incluya la variable [!UICONTROL Extended Impressions] y luego multiplicar el número total de impresiones extendidas por 0,00035 $ (0,35 $/1000 impresiones).
 
-   El coste agregado también se incluye en la [!UICONTROL Billable Other Net Spend] columna (debajo de [!UICONTROL Metrics] > [!UICONTROL Spend]), aunque esa métrica también incluye otras tarifas de campaña que puede haber agregado.
+  El coste agregado también se incluye en la [!UICONTROL Billable Other Net Spend] columna (debajo de [!UICONTROL Metrics] > [!UICONTROL Spend]), aunque esa métrica también incluye otras tarifas de campaña que puede haber agregado.
 
 * **Gráfico del dispositivo:** (En el [!UICONTROL Build Your Report] sección debajo de [!UICONTROL Dimensions] > [!UICONTROL Campaign]) El gráfico del dispositivo seleccionado para una campaña, paquete o ubicación en particular.
 
 ## Medición de atribución basada en personas
 
-*Solo anunciantes con seguimiento de conversión de publicidad de Adobe*
+*Anunciantes solo con seguimiento de conversión de Adobe Advertising*
 
-Con la atribución basada en personas, puede atribuir conversiones que se produjeron en un dispositivo diferente al dispositivo en el que se produjo la exposición a los medios. DSP La medición de atribución basada en personas está disponible en todas las áreas de trabajo, y es: [!DNL Adobe Advertising Creative], y [!DNL Adobe Advertising Search, Social, & Commerce] para anunciantes que hayan implementado píxeles de conversión de publicidad de Adobe en sus sitios.
+Con la atribución basada en personas, puede atribuir conversiones que se produjeron en un dispositivo diferente al dispositivo en el que se produjo la exposición a los medios. DSP La medición de atribución basada en personas está disponible en todas las áreas de trabajo, y es: [!DNL Adobe Advertising Creative], y [!DNL Adobe Advertising Search, Social, & Commerce] para anunciantes que hayan implementado píxeles de conversión de Adobe Advertising en sus sitios.
 
 ### Habilitar la medición de atribución basada en personas
 
@@ -98,15 +98,15 @@ Cuando un gráfico de dispositivo está habilitado para la medición de atribuci
 
 #### Interpretación del informe de conversión
 
-Si ordena el porcentaje del total de conversiones entre dispositivos ([!UICONTROL (xd)]/[!UICONTROL (tl)]) de alto a bajo, comprenderá lo que impulsa conversiones entre dispositivos por encima del promedio. Puede utilizarlo para informar su estrategia creativa o de segmentación de modo que la inversión en mensajería y canal coincida con el comportamiento del usuario.
+Ordene el porcentaje del total de conversiones entre dispositivos ([!UICONTROL (xd)]/[!UICONTROL (tl)]) de alto a bajo para comprender qué es lo que impulsa conversiones entre dispositivos por encima de la media. Puede utilizarlo para informar su estrategia creativa o de segmentación de modo que la inversión en mensajería y canal coincida con el comportamiento del usuario.
 
 * Paquetes: vea qué paquetes generan la mayor cantidad de conversiones totales y cuáles tienen un alto porcentaje de conversiones entre dispositivos. Esto puede ayudarle a comprender dónde concentrar los gastos.
 
-* Ubicaciones: compare el rendimiento de la ubicación y la atribución (por ejemplo, un anuncio web móvil puede generar conversiones en el escritorio). Sin un gráfico de dispositivo para la atribución, es posible que se pierda el impacto de una ubicación web móvil en las conversiones de escritorio, o que quede enterrada si la mayoría de los usuarios realizan la conversión en una web de escritorio y no en una web móvil.
+* Ubicaciones: compare el rendimiento de la ubicación y la atribución (por ejemplo, un anuncio en la web móvil puede generar conversiones en el escritorio). Sin un gráfico de dispositivo para la atribución, es posible que se pierda el impacto de una ubicación web móvil en las conversiones de escritorio, o que quede enterrada si la mayoría de los usuarios realizan la conversión en una web de escritorio y no en una web móvil.
 
 * Anuncios: descubra qué anuncios generan conversiones más altas y cuantifique su valor y su impacto tanto en los navegadores web como en los entornos de aplicaciones móviles.
 
-* Sitios: optimice los sitios en lugar de excluir los sitios manualmente por completo. Si un sitio web genera conversiones entre dispositivos, puede ver en qué dispositivos se produce este comportamiento.
+* Sitios: optimice los sitios en lugar de excluirlos manualmente por completo. Si un sitio web genera conversiones entre dispositivos, puede ver en qué dispositivos se produce este comportamiento.
 
 * Ofertas: mejore la optimización manual comprobando qué ofertas de inventario ofrecen conversiones entre dispositivos y, a continuación, decida si debe ampliar su segmentación para incluir más dispositivos y canales en esas ofertas.
 
@@ -116,4 +116,3 @@ Si ordena el porcentaje del total de conversiones entre dispositivos ([!UICONTRO
 >* [Configuración de campaña](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Configuración de paquetes](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-

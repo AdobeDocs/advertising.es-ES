@@ -3,9 +3,9 @@ title: Información general de [!DNL Analytics for Advertising]
 description: Información general de [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Beneficios primarios:
 [!DNL Analytics for Advertising] mejora los informes y la perspectiva de cómo la publicidad impulsa el comportamiento del sitio, lo que le permite:
 
 * Usar ID de pulsaciones y vistas de Adobe Advertising persistentes dentro de [!DNL Analytics] para comprender la participación en el sitio.
-* Aproveche Analysis Workspace para comprender mejor los puntos de entrada al sitio y el comportamiento de las visitas. Puede acceder a los datos de dimensiones y eventos de medios de pago, que incluyen nombres de entidades de campaña de Adobe Advertising (hasta ubicaciones y anuncios) y sus métricas asociadas, como clics, impresiones y costes.
+* Aproveche Analysis Workspace para comprender mejor los puntos de entrada del sitio y el comportamiento de las visitas. Puede acceder a los datos de dimensiones y eventos de medios de pago, que incluyen nombres de entidades de campaña de Adobe Advertising (hasta ubicaciones y anuncios) y sus métricas asociadas, como clics, impresiones y costes.
 
 Para usar [!DNL Analytics] como herramienta de informes de medios de pago, su organización necesita un inicio de sesión de Experience Cloud con acceso a Analysis Workspace. Su equipo de Adobe Advertising le ayudará a asignar los datos de Adobe Advertising a grupos de informes individuales en Analysis Workspace. Puede enviar datos de Adobe Advertising a cualquier grupo de informes, pero debe tener en cuenta los grupos de informes que se han asignado al Adobe Advertising y los que no. En función del grupo de informes, esto puede cambiar los datos de los informes.
 
@@ -76,7 +76,7 @@ Puede utilizar los eventos estándar y los eventos personalizados desde [!DNL An
 >
 > No se pueden asignar métricas calculadas desde [!DNL Analytics] en el Adobe Advertising.
 
-Su equipo de Adobe Advertising le ayudará a identificar y asignar los eventos aplicables al rendimiento de los medios de pago en Adobe Advertising, donde aparecerán en [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
+Su equipo de Adobe Advertising le ayudará a identificar y asignar los eventos aplicables al rendimiento de los medios de pago en Adobe Advertising, donde se enumeran en [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 Consulte &quot;[Métricas de Analytics en Adobe Advertising](analytics-data-in-advertising.md)&quot; para obtener una lista de las métricas disponibles.
 

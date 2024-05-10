@@ -3,9 +3,9 @@ title: DSP Macros de Advertising
 description: Haga referencia a las macros disponibles para el seguimiento general y para rastrear clics en anuncios en pantalla de terceros.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Para obtener macros adicionales disponibles específicamente para [[!DNL Analyti
 
 Cuando agregue macros al código, asegúrese de utilizar la sintaxis exacta de la macro. DSP Al validar las macros, comprueba que la macro coincida exactamente con una de las macros válidas.
 
-Los errores se generan si faltan caracteres desde el principio o el final del nombre de la macro. Por ejemplo, verá un mensaje de error si:
+Los errores se generan si faltan caracteres desde el principio o el final del nombre de la macro. Por ejemplo, se muestra un mensaje de error si:
 
 * Se olvidan uno o más caracteres al principio del nombre de la macro, como `${`. Si no se incluye la sintaxis completa, la entrada no se reconoce como una macro válida.
 * La macro no termina con un conjunto de caracteres válido, como `}`.

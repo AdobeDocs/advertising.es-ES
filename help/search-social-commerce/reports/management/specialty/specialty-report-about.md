@@ -3,9 +3,9 @@ title: Acerca de los informes especiales
 description: Más información sobre los informes de especialidad.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 879cc2fa13475c90e92367b9fa0a9fa3d6203d7d
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ La mayoría de los informes de especialidades consisten únicamente en datos rec
 
 >[!NOTE]
 >
->Para la mayoría de los informes de especialidades, los datos se recuperan todos los días el día anterior a las 23:00 (11:00 p.m.). Por ejemplo, a las 23:00 del 18 de junio, extraerá los datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00. Esta sincronización de datos se aplica a todos los [!DNL Google Ads] informes de especialidad y al [!UICONTROL Bing Ads Geo Report] y [!UICONTROL Bing Ads Search Query Report].
+>Para la mayoría de los informes de especialidades, los datos se recuperan todos los días el día anterior a las 23:00 (11:00 p.m.). Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00. Esta sincronización de datos se aplica a todos los [!DNL Google Ads] informes de especialidad y al [!UICONTROL Bing Ads Geo Report] y [!UICONTROL Bing Ads Search Query Report].
 
 ## Tipos de informes especiales
 
@@ -52,6 +52,6 @@ La mayoría de los informes de especialidades consisten únicamente en datos rec
 
 >[!MORELIKETHIS]
 >
-* [Generar un informe de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
-* [Configuración de informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-* [Columnas de informes para informes de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [Generar un informe de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [Configuración de informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [Columnas de informes para informes de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

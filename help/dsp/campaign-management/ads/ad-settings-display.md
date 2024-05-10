@@ -3,9 +3,9 @@ title: Configuración de anuncio de visualización
 description: Consulte las descripciones de las configuraciones de anuncios disponibles para los anuncios en pantalla.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,15 @@ Los siguientes ajustes son para anuncios en pantalla estándar.
 
 **[!UICONTROL Certified Vendors]:** (Solo anuncios de banners ampliables de terceros) El proveedor certificado para el que está disponible el anuncio: *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers]), *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]*, o *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]:** (Solo anuncios de terceros) La URL del recurso creativo de terceros. Cualquiera [timestamp] y [[timestamp]] parámetros se reemplazarán con valores reales.
+**[!UICONTROL Display Code]:** (Solo anuncios de terceros) La URL del recurso creativo de terceros. Cualquiera [timestamp] y [[timestamp]] parámetros se reemplazan por valores reales.
 
 **[!UICONTROL Final Display Code]:** (Solo anuncios de terceros) La URL del recurso creativo de terceros, con los necesarios [DSP Macros de seguimiento de Advertising](/help/dsp/campaign-management/macros.md) insertado, si procede.
 
-**[!UICONTROL Ad Size]:** La anchura y altura del anuncio. Debe ser un [tamaño de anuncio de visualización estándar admitido](ad-specs.md). Puede introducir manualmente el tamaño del anuncio antes de cargar el anuncio o introducir un [!UICONTROL Display Code]. Si no introduce el tamaño del anuncio, las dimensiones del anuncio cargado o de la etiqueta de anuncio se introducen automáticamente como de solo lectura. Tenga en cuenta que el anuncio en pantalla no se guardará si las dimensiones no se encuentran dentro de la visualización estándar como tamaños (por ejemplo, 301 x 250 en lugar de 300 x 250).
+**[!UICONTROL Ad Size]:** La anchura y altura del anuncio. Debe ser un [tamaño de anuncio de visualización estándar admitido](ad-specs.md). Puede introducir manualmente el tamaño del anuncio antes de cargar el anuncio o introducir un [!UICONTROL Display Code]. Si no introduce el tamaño del anuncio, las dimensiones del anuncio cargado o de la etiqueta de anuncio se introducen automáticamente como de solo lectura.
 
 >[!IMPORTANT]
 >
-> El tamaño del anuncio declarado en los campos de anchura y altura coincidirá con las solicitudes de oferta entrantes. Puede experimentar problemas de envío si las dimensiones del anuncio no coinciden con el tamaño del anuncio declarado.
+> El tamaño del anuncio declarado en los campos de anchura y altura coincide con las solicitudes de oferta entrantes. Puede experimentar problemas de envío si las dimensiones del anuncio no coinciden con el tamaño del anuncio declarado.
 
 ### [!UICONTROL Pixel]
 

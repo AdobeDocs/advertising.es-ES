@@ -2,9 +2,10 @@
 title: Pausar o activar una campaña
 description: Obtenga información sobre cómo pausar o activar una campaña en directo.
 feature: DSP Campaigns
-source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
+exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Pausar una campaña en vivo o activar una campaña en pausa cuando esté dentro de la programación de vuelos configurada.
 
-Todas las ubicaciones en pausa antes de pausar una campaña permanecerán en pausa tras su activación.
+Todas las ubicaciones que se pausan antes de pausar una campaña permanecen en pausa tras su activación.
 
 ## Pausa de una campaña
 

@@ -3,9 +3,9 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -114,18 +114,18 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 **[!UICONTROL Conversion Reporting Based On]:**  Cómo informar sobre los datos de conversión:
 
-* *[!UICONTROL Conversion Timestamp]:* (Valor predeterminado) Las conversiones se asociarán con la fecha de conversión.
+* *[!UICONTROL Conversion Timestamp]:* (Valor predeterminado) Las conversiones están asociadas con la fecha de conversión.
 
-* *[!UICONTROL Event Timestamp]:* Las conversiones se registrarán en función de la fecha de la impresión o del clic que provocó la conversión, según lo determinado por el especificado [!UICONTROL Attribution Rule Settings].
+* *[!UICONTROL Event Timestamp]:* Las conversiones se informan en función de la fecha de la impresión o el clic que provocó la conversión, según lo determinado por el especificado [!UICONTROL Attribution Rule Settings].
 
 ## [!UICONTROL Add Report Destinations] Sección
 
 **[!UICONTROL Destination Type]:** Elija uno de los siguientes tipos de destino:
 
-* *[!UICONTROL S3]:* Para enviar el informe completado a uno o varios [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) ubicaciones, que especificará en la variable **[!UICONTROL Destination Name]** field.
-* *[!UICONTROL sFTP]:* Para enviar el informe completado a una o varias ubicaciones SFTP, especifique en la variable **[!UICONTROL Destination Name]** field.
-* *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, especifique en la variable **[!UICONTROL Destination Name]** field.
-* *[!UICONTROL FTP SSL](Actualmente en versión beta):* Para enviar el informe completado a una o varias ubicaciones SSL de FTP, especifique en la variable **[!UICONTROL Destination Name]** field.
+* *[!UICONTROL S3]:* Para enviar el informe completado a uno o varios [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) ubicaciones, que debe especificar en la variable **[!UICONTROL Destination Name]** field.
+* *[!UICONTROL sFTP]:* Para enviar el informe completado a una o más ubicaciones SFTP, que debe especificar en la variable **[!UICONTROL Destination Name]** field.
+* *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, debe especificar en la variable **[!UICONTROL Destination Name]** field.
+* *[!UICONTROL FTP SSL](Actualmente en versión beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe especificar en la variable **[!UICONTROL Destination Name]** field.
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o las notificaciones completados si el informe se cancela debido a errores.
 
 >[!NOTE]
@@ -134,7 +134,7 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 **[!UICONTROL Email]:** (Solo tipo de destino de correo electrónico) Para cada dirección, introduzca la dirección y haga clic en **+**.
 
-**[!UICONTROL Destination Name]:** (Solo tipos de destino S3, FTP, sFTP y FTP SSL) Los nombres de los destinos de informes a los que se enviará el informe personalizado.
+**[!UICONTROL Destination Name]:** (Solo tipos de destino S3, FTP, sFTP y FTP SSL) Los nombres de los destinos de informes a los que se envía el informe personalizado.
 
 * Para especificar un destino existente, seleccione un nombre de destino de la lista. Puede seleccionar varios nombres de destino por separado.
 

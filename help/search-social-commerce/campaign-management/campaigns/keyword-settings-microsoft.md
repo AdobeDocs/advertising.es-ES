@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Microsoft Advertising] configuración de palabras clave'
 description: Haga referencia a la configuración de [!DNL Microsoft Advertising] Palabras clave.
-exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+exl-id: 82eee01f-db4b-4d1a-ae24-1ef65f8c6953
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Puede escribir o pegar hasta 2000 palabras clave. Separe varias palabras clave c
 
 ## Marcadores
 
-**[!UICONTROL Param2]:** Cadena que se utiliza como valor de sustitución si la dirección URL base de la palabra clave o el título, la descripción o la dirección URL base del anuncio contienen [el `{Param2}` cadena de sustitución dinámica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima del elemento publicitario en el que lo utiliza (por ejemplo, el Título 1 y el Título 2 combinados pueden tener un máximo de 76 caracteres).
+**[!UICONTROL Param2]:** Cadena que se utiliza como valor de sustitución si la dirección URL base de la palabra clave o el título, la descripción o la dirección URL base del anuncio contienen [el `{Param2}` cadena de sustitución dinámica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos de publicidad en los que la utiliza (por ejemplo, el Título 1 y el Título 2 combinados pueden tener un máximo de 76 caracteres).
 
-**[!UICONTROL Param3]:** Cadena que se utiliza como valor de sustitución si la dirección URL base de la palabra clave o el título, la descripción o la dirección URL base del anuncio contienen [el `{Param3}` cadena de sustitución dinámica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima del elemento publicitario en el que lo utiliza (por ejemplo, el Título 1 y el Título 2 combinados pueden tener un máximo de 76 caracteres).
+**[!UICONTROL Param3]:** Cadena que se utiliza como valor de sustitución si la dirección URL base de la palabra clave o el título, la descripción o la dirección URL base del anuncio contienen [el `{Param3}` cadena de sustitución dinámica](https://help.bingads.microsoft.com/#apex/3/en/53079/0). La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos de publicidad en los que la utiliza (por ejemplo, el Título 1 y el Título 2 combinados pueden tener un máximo de 76 caracteres).
 
 ## Opciones de URL
 

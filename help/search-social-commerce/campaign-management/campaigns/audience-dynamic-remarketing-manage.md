@@ -1,11 +1,11 @@
 ---
 title: Administrar [!DNL Microsoft Advertising] audiencias de remarketing dinámico
 description: Obtenga información sobre cómo crear y administrar [!DNL Microsoft Advertising] audiencias de remarketing dinámico.
-exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Para obtener más información sobre el remarketing dinámico y cómo implementa
 
    1. Introduzca el **[!UICONTROL Audience Name]**.
 
-   1. De una lista de todas las etiquetas disponibles para la cuenta de motor de búsqueda, seleccione el nombre del [!DNL Microsoft Advertising] Etiqueta de UET que se incluye en las páginas web cuyos usuarios formarán la audiencia.
+   1. De una lista de todas las etiquetas disponibles para la cuenta de motor de búsqueda, seleccione el nombre del [!DNL Microsoft Advertising] Etiqueta UET que se incluye en las páginas web cuyos usuarios forman la audiencia.
 
    1. Seleccione el tipo de visitante para la audiencia, que se basa en las acciones del visitante en las páginas web relevantes: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, o *[!UICONTROL Shopping Cart Abandoners]*.
 
@@ -50,7 +50,7 @@ Para obtener más información sobre el remarketing dinámico y cómo implementa
 
       Utilice el periodo de tiempo durante el cual espera que el anuncio sea relevante para el usuario.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 >[!NOTE]
 >
@@ -72,11 +72,11 @@ Puede cambiar el nombre y la fuente de datos de una [!DNL Microsoft Advertising]
 
    1. (Opcional) Cambie el **[!UICONTROL Audience Name]**.
 
-   1. (Opcional) Cambie el nombre de la cuenta de red de publicidad de una lista de todas las etiquetas disponibles [!DNL Microsoft Advertising] Etiqueta de UET que se incluye en las páginas web cuyos usuarios formarán la audiencia.
+   1. (Opcional) Cambie el nombre de la cuenta de red de publicidad de una lista de todas las etiquetas disponibles [!DNL Microsoft Advertising] Etiqueta UET que se incluye en las páginas web cuyos usuarios forman la audiencia.
 
    1. (Opcional) Cambie el tipo de visitante para la audiencia, que se basa en las acciones del visitante en las páginas web relevantes: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, o *[!UICONTROL Shopping Cart Abandoners]*.
 
-   1. Haga clic **[!UICONTROL Post]**.
+   1. Clic **[!UICONTROL Post]**.
 
 ## Eliminación de una audiencia de remarketing dinámico
 

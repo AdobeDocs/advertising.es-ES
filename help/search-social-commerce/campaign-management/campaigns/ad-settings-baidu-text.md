@@ -1,11 +1,11 @@
 ---
 title: '[!DNL Baidu] configuración de anuncios de texto'
 description: Haga referencia a la configuración de [!DNL Baidu] anuncios de texto.
-exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display URL]:** Dirección URL mostrada en un anuncio. La longitud máxima es de 35 caracteres de un solo byte.
 
-**[!UICONTROL Mobile Preferred]:** (Opcional) Permite que la red intente mostrar la extensión del anuncio o la publicidad a los usuarios de dispositivos móviles en lugar de a los usuarios de equipos de escritorio o tabletas. De forma predeterminada, la opción no está habilitada y el anuncio aparecerá en cualquier tipo de dispositivo.
+**[!UICONTROL Mobile Preferred]:** (Opcional) Permite que la red intente mostrar la extensión del anuncio o la publicidad a los usuarios de dispositivos móviles en lugar de a los usuarios de equipos de escritorio o tabletas. De forma predeterminada, la opción no está habilitada y el anuncio puede aparecer en cualquier tipo de dispositivo.
 
 >[!NOTE]
 >

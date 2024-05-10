@@ -2,9 +2,9 @@
 title: Configuración de cuenta del anunciante
 description: Consulte las descripciones de la configuración de anunciante disponible.
 role: User, Admin
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -39,19 +39,19 @@ Los anunciantes con productos de Adobe Experience Cloud adicionales pueden compa
 
 (Opcional) Productos de Experience Cloud DSP adicionales vinculados a la cuenta de la. Los productos deben estar asociados con el mismo ID de organización de Experience Cloud proporcionado en la variable [!UICONTROL Adobe IMS IDs] sección.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Advertising Search, Social, & Commerce] o que utilizan píxeles de conversión de Adobe Advertising) A [!DNL Search, Social, & Commerce] DSP cuenta con la que los intercambiarán datos de atribución.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Advertising Search, Social, & Commerce] o que utilizan píxeles de conversión de Adobe Advertising) A [!DNL Search, Social, & Commerce] DSP cuenta con la que el intercambia datos de atribución.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Anunciantes con Adobe Analytics; opcional; aplicable solo a los datos recopilados mediante las etiquetas de seguimiento de conversión de Adobe Advertising que incluyen un [!DNL EF Redirect] y solo token) Uno o más [!DNL Analytics] DSP grupos de informes a los que los grupos de informes enviarán los datos que recopile de los editores y los socios de suministro. DSP Analytics también enviará los datos que recopila del sitio del cliente a la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico del cliente.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Anunciantes con Adobe Analytics; opcional; aplicable solo a los datos recopilados mediante las etiquetas de seguimiento de conversión de Adobe Advertising que incluyen un [!DNL EF Redirect] y solo token) Uno o más [!DNL Analytics] DSP grupos de informes a los que envía los datos que recopila de los editores y los socios de suministro, de manera que los datos se envían a los grupos de informes. DSP Analytics también envía los datos que recopila del sitio del cliente a la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico.
 
 Para que los datos aparezcan en los grupos de informes, la variable [!DNL Search, Social, & Commerce] la configuración de nivel de anunciante debe estar habilitada. Además, el del anunciante [!DNL Analytics] La cuenta de debe estar configurada para recibir datos del Adobe Advertising de.
 
 >[!WARNING]
 >
->DSP Si elimina un grupo de informes enlazado anteriormente, ya no se intercambiarán datos con ese grupo de informes, ya no se podrá realizar el intercambio de datos con ese grupo de informes. Es de esperar que se produzcan fluctuaciones de datos.
+>DSP Si elimina un grupo de informes enlazado anteriormente, ya no intercambiará datos con ese grupo de informes, ya no lo hará con el grupo de informes enlazado anteriormente. Es de esperar que se produzcan fluctuaciones de datos.
 
 Para obtener más información sobre la integración de con [!DNL Analytics], consulte &quot;[Información general de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Anunciantes con Adobe Audience Manager o Adobe Analytics; opcional) Un Audience Manager o [!DNL Analytics] DSP cuenta desde la que los extraerán los metadatos del segmento, los datos de jerarquía y los datos de audiencia única para todas las audiencias de Adobe del anunciante. Esto incluye datos para:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Anunciantes con Adobe Audience Manager o Adobe Analytics; opcional) Un Audience Manager o [!DNL Analytics] DSP cuenta de la que se extraen los metadatos del segmento, los datos de jerarquía y los datos de audiencia únicos para todas las audiencias de Adobe del anunciante. Esto incluye datos para:
 
 * Segmentos de Audience Manager
 * [!DNL Analytics] segmentos publicados en Adobe Experience Cloud
@@ -110,15 +110,15 @@ Tipos de sitios que bloquear según el tráfico fraudulento y las actividades so
 
 **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** De forma predeterminada, bloquea todo el tráfico 100 % inválido, incluido el tráfico en dispositivos secuestrados, para las nuevas ubicaciones. Se pueden aplicar tarifas adicionales.
 
-**[!UICONTROL Also block sites with]:** DSP (Opcional) Un nivel adicional de fraude y tráfico no válido que hará que los anuncios se bloqueen de forma predeterminada por parte de los:  *[!UICONTROL None]* (el valor predeterminado, que no bloquea el tráfico adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*, o *[!UICONTROL >25% Average Fraud/IVT levels]*. Se pueden aplicar tarifas adicionales.
+**[!UICONTROL Also block sites with]:** DSP (Opcional) Un nivel adicional de fraude y tráfico no válido que hace que los anuncios se bloqueen de forma predeterminada por parte de los usuarios de la siguiente manera:  *[!UICONTROL None]* (el valor predeterminado, que no bloquea el tráfico adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]*, o *[!UICONTROL >25% Average Fraud/IVT levels]*. Se pueden aplicar tarifas adicionales.
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** DSP (Opcional) Uno o más tipos de fraude que causarán que los anuncios se bloqueen de forma predeterminada de la manera más frecuente que se puede hacer: *[!UICONTROL Fraud]* (que bloquea todos los sitios con fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, y/o *[!UICONTROL Fraud: Zero Ads]*. Se pueden aplicar tarifas adicionales.
+**[!UICONTROL Block sites that are]:** DSP (Opcional) Uno o más tipos de fraude que causan que los anuncios se bloqueen de forma predeterminada con la ayuda de la siguiente manera: *[!UICONTROL Fraud]* (que bloquea todos los sitios con fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, y/o *[!UICONTROL Fraud: Zero Ads]*. Se pueden aplicar tarifas adicionales.
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** DSP (Opcional) Un tipo de actividad sospechosa de un sitio web o una aplicación que hará que los usuarios bloqueen los anuncios de forma predeterminada: *[!UICONTROL None]* (el valor predeterminado, que no bloquea los anuncios en función de la actividad sospechosa), *[!UICONTROL Suspicious Activity - High Risk]*, o *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Se pueden aplicar tarifas adicionales.
+**[!UICONTROL Block sites that are]:** DSP (Opcional) Un tipo de actividad sospechosa de un sitio web o una aplicación que hace que los anuncios se bloqueen de forma predeterminada de la siguiente manera: *[!UICONTROL None]* (el valor predeterminado, que no bloquea los anuncios en función de la actividad sospechosa), *[!UICONTROL Suspicious Activity - High Risk]*, o *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Se pueden aplicar tarifas adicionales.
 
 #### [!UICONTROL Ads.text]
 

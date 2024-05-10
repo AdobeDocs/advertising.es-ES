@@ -3,9 +3,9 @@ title: Código JavaScript para [!DNL Analytics for Advertising]
 description: Código JavaScript para [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -84,13 +84,13 @@ Puede realizar la validación utilizando cualquier tipo de herramienta de analiz
 
    ![Filtrado en `/b/ss`](/help/integrations/assets/a4adc-code-validation-filter-bss.png)
 
-1. (Implementaciones que utilizan el Experience Platform [!DNL Web SDK] `alloy.js`(código) Filtrar por `/interact` para comprobar que la carga útil de la solicitud a la red perimetral contiene `advertisingStitchID`.
+1. (Implementaciones que utilizan el Experience Platform [!DNL Web SDK] `alloy.js`(código) Filtrar por `/interact` para comprobar que la carga útil de la solicitud al Edge Network contiene `advertisingStitchID`.
 
    ![Filtrado en `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
 
-1. Compare los valores de ID entre las dos visitas. Todos los valores se encuentran en parámetros de cadena de consulta, excepto el ID de grupo de informes de la visita de Analytics, que es la ruta de URL inmediatamente después de `/b/ss/`.
+1. Compare los valores de ID entre las dos visitas. Todos los valores deben estar en parámetros de cadena de consulta, excepto el ID del grupo de informes en la visita de Analytics, que es la ruta de URL inmediatamente después de `/b/ss/`.
 
-   | ID | Parámetro de Analytics | Red perimetral | Parámetro de Adobe Advertising |
+   | ID | Parámetro de Analytics | Edge Network | Parámetro de Adobe Advertising |
    | --- | --- | --- | --- |
    | Organización de IMS de Experience Cloud | `mcorgid` |  | `_les_imsOrgid` |
    | ID de datos suplementario | sdid |  | `_les_sdid` |
@@ -98,7 +98,7 @@ Puede realizar la validación utilizando cualquier tipo de herramienta de analiz
    | Analytics Report Suite | El valor después de `/b/ss/` | | `_les_rsid` |
    | ID de visitante de Experience Cloud | mid |  | `_les_mid` |
 
-   Si los valores de ID coinciden, se confirma la implementación de JavaScript. El Adobe Advertising enviará el [!DNL Analytics] datos de seguimiento de clics o visualizaciones del servidor, si los hay.
+   Si los valores de ID coinciden, se confirma la implementación de JavaScript. El Adobe Advertising envía el [!DNL Analytics] datos de seguimiento de clics o visualizaciones del servidor, si los hay.
 
 #### Cómo confirmar el código con [!DNL Adobe Experience Cloud Debugger]
 
@@ -108,7 +108,7 @@ Puede realizar la validación utilizando cualquier tipo de herramienta de analiz
 1. En el [!UICONTROL Request URL - Hostname] fila de parámetros, localizar `lasteventf-tm.everesttech.net`.
 1. En el [!UICONTROL Request - Parameters] , audite las señales generadas, de forma similar al Paso 3 en &quot;[Cómo confirmar el código con [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Implementaciones que utilizan el servicio de identidad de Experience Cloud `visitorAPI.js` Código) Asegúrese de que la variable `Sdid` El parámetro coincide con `Supplemental Data ID` en el filtro Adobe Analytics.
-   * (Implementaciones que utilizan el Experience Platform [!DNL Web SDK] `alloy.js`Código) Asegúrese de que el valor de `advertisingStitchID` El parámetro coincide con `Sdid` enviado a la red perimetral del Experience Platform.
+   * (Implementaciones que utilizan el Experience Platform [!DNL Web SDK] `alloy.js`Código) Asegúrese de que el valor de `advertisingStitchID` El parámetro coincide con `Sdid` enviado al Edge Network Experience Platform.
    * Si el código no se está generando, asegúrese de que la cookie de Adobe Advertising se haya eliminado en la [!UICONTROL Application] pestaña. Una vez eliminada, actualice la página y repita el proceso.
 
    ![Auditoría [!DNL Analytics for Advertising] Código JavaScript en [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)

@@ -1,11 +1,11 @@
 ---
 title: Formatos de rastreo de clics para [!DNL Microsoft Advertising]
 description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Microsoft Advertising] cuentas.
-exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
+exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Ejemplo:
 >
 >* `{TargetId}` representa el ID de a) la palabra clave o b) la palabra clave y la lista de remarketing (audiencia) que activaron el anuncio (por ejemplo, &quot;kwd-123:aud-456&quot; para una palabra clave y una lista de remarketing o &quot;kwd-123&quot; solo para palabra clave).
 >
->* (Opcional) En lugar de introducir plantillas de seguimiento en el nivel de cuenta, campaña, grupo de publicidad o grupo de productos, puede añadir la URL de seguimiento a los datos del producto dentro de la variable [!DNL Microsoft Merchant Center] cuenta. Para ello, incluya la URL de seguimiento, junto con el valor en la`link`&quot; o &quot;`mobile_link`&quot; campo, según corresponda, en una columna personalizada &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; en la fuente del producto. El valor en &quot;`bingads_redirect`&quot; reemplazará los valores del campo &quot;`link`&quot; y &quot;`mobile_link`&quot; campos. Las direcciones URL generadas con este método no incluyen ningún parámetro de seguimiento especificado en la configuración de la cuenta de Search, Social y Commerce o de la campaña.
+>* (Opcional) En lugar de introducir plantillas de seguimiento en el nivel de cuenta, campaña, grupo de publicidad o grupo de productos, puede añadir la URL de seguimiento a los datos del producto dentro de la variable [!DNL Microsoft Merchant Center] cuenta. Para ello, incluya la URL de seguimiento, junto con el valor en la`link`&quot; o &quot;`mobile_link`&quot; campo, según corresponda, en una columna personalizada &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; en la fuente del producto. El valor en &quot;`bingads_redirect`&quot; reemplaza los valores del campo &quot;`link`&quot; y &quot;`mobile_link`&quot; campos. Las direcciones URL generadas con este método no incluyen ningún parámetro de seguimiento especificado en la configuración de la cuenta de Search, Social y Commerce o de la campaña.
 
 ## Formatos de sufijo de página de aterrizaje (sufijo de URL final)
 

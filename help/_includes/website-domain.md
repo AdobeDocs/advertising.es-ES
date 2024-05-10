@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Campo Dominio del sitio web en la configuración de campañas de búsqueda de GGL y MS
 
-**[!UICONTROL Website Domain]:** (Solo red de búsqueda; aplicable solo a anuncios dinámicos de búsqueda expandidos) El dominio raíz (como example.com) o subdominio (como shoes.example.com) del sitio web cuyo contenido la red de publicidad utilizará para segmentar los anuncios dinámicos de búsqueda.
+**[!UICONTROL Website Domain]:** (Solo red de búsqueda; aplicable solo a anuncios dinámicos de búsqueda expandidos) El dominio raíz (como example.com) o subdominio (como shoes.example.com) del sitio web cuyo contenido la red de publicidad debe utilizar para segmentar los anuncios dinámicos de búsqueda.
 
 **Notas:**
 

@@ -1,9 +1,9 @@
 ---
 title: Acceso FTP a informes
 description: Obtenga información sobre cómo recibir informes en una ubicación FTP de solo lectura.
-exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -20,7 +20,7 @@ El acceso FTP a los informes requiere el acceso a una cuenta de FTP específica.
 
 * Póngase en contacto con el equipo de cuenta de Adobe para configurar una cuenta de FTP para el acceso al informe.
 
-  El equipo le proporcionará su nombre de usuario y contraseña.
+  El equipo de le proporciona su nombre de usuario y contraseña.
 
 ## Configuración de plantillas de informes para envío por FTP
 

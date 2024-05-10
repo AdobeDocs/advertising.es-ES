@@ -3,9 +3,9 @@ title: Seguridad de marca y calidad de medios
 description: Obtenga más información sobre la seguridad de la marca y las funciones de calidad de los medios.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ La asignación de inventario es el proceso detallado de revisión e incorporaci�
 
    * **[!UICONTROL T1]** — Sitios de marca reconocida internacionalmente
 
-   * **[!UICONTROL T2]** — sitios de aspecto Bueno que son actuales, actualizados, sin contenido generado por el usuario y que generalmente carecen de reconocimiento global
+   * **[!UICONTROL T2]** — Sitios de gran aspecto que son actuales, actualizados, sin contenido generado por el usuario y que generalmente carecen de reconocimiento global
 
    * **[!UICONTROL T3]** — Contenido generado por el usuario y contenido especializado
 
@@ -78,7 +78,7 @@ DSP mantiene una lista de sitios bloqueados globalmente en los que se considera 
 
 Como parte de nuestra iniciativa de seguridad de marca para erradicar las actividades que defraudan a los anunciantes, todos los sitios se examinan utilizando las medidas de la lista de sitios bloqueados del gráfico. Todos los sitios que no pasan las comprobaciones de seguridad de la marca se agregan a la lista de sitios bloqueados globalmente. DSP Debido a que administra esta lista de forma dinámica, los sitios pueden moverse dentro o fuera de la lista en cualquier momento, según el análisis de seguridad de marca más reciente.
 
-Cuando se incluye un sitio en la lista de sitios bloqueados globalmente como destino de ubicación, el sitio se marca con un signo de exclamación rojo (!). Esto indica que los anuncios no se ejecutarán en el sitio marcado.
+Cuando se incluye un sitio en la lista de sitios bloqueados globalmente como destino de ubicación, el sitio se marca con un signo de exclamación rojo (!). Esto indica que los anuncios no se ejecutan en el sitio marcado.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Puede establecer filtros de visibilidad predeterminados para cada anunciante<!--
 
 ### Segmentación de temas
 
-DSP La segmentación de temas le permite segmentar o bloquear listas de palabras clave mediante el uso de socios contextuales líderes en el sector [!DNL Comscore] y [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). La segmentación de temas le ayuda a garantizar que los anuncios se publiquen siempre en un entorno que se ajuste a su marca, ya sea bloqueando contenido perjudicial o asegurando un gasto en un contexto que garantice un bueno resultado.
+DSP La segmentación de temas le permite segmentar o bloquear listas de palabras clave mediante el uso de socios contextuales líderes en el sector [!DNL Comscore] y [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). La segmentación de temas le ayuda a garantizar que los anuncios se publiquen siempre en un entorno que se ajuste a su marca, ya sea bloqueando contenido perjudicial o asegurando un gasto en un contexto que garantice un mayor resultado.
 
 El direccionamiento de temas requiere que cree segmentos de temas personalizados directamente con [!DNL Comscore] o [!DNL Grapeshot] (con [!DNL Oracle Data Cloud]). Una vez creados en la plataforma de socio, puede [segmentar o excluir un ID de segmento en la [!UICONTROL Audience Targeting] para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Se pueden aplicar tarifas adicionales para esta función.
 

@@ -3,9 +3,9 @@ title: Habilitar la carga de objetivos en las redes de publicidad
 description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Al habilitar esta opción, se almacenarán automáticamente en déclencheur las 
 
   donde `<portfolio_id>` es el ID de portafolio numérico y `<se_acctid/conversion_manager_se_acctid>` es el identificador numérico de la cuenta de red de publicidad o de la cuenta de administrador.
 
-  El equipo de cuenta de Adobe trabajará con usted para migrar los nombres de acción de conversión existentes dentro de la red de publicidad antes de que el formato antiguo quede obsoleto. Durante el periodo de migración, las cargas de formato antiguo y nuevo se ejecutarán en paralelo. El modelado y la optimización no se ven afectados porque las nuevas acciones de conversión aparecerán inicialmente con estado &quot;secundario&quot; (no optimizado) y con 90 días de datos de relleno.
+  El equipo de cuenta de Adobe trabajará con usted para migrar los nombres de acción de conversión existentes dentro de la red de publicidad antes de que el formato antiguo quede obsoleto. Durante el periodo de migración, las cargas de formato antiguo y nuevo se ejecutarán en paralelo. El modelado y la optimización no se ven afectados porque las nuevas acciones de conversión aparecen inicialmente con estado &quot;secundario&quot; (no optimizado) y con 90 días de datos de relleno.
 
 Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horario del anunciante. Cargas en [!DNL Microsoft® Advertising] se producen diariamente a las 09:00 en el huso horario del anunciante.
 

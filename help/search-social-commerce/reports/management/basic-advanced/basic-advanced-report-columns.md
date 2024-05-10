@@ -3,9 +3,9 @@ title: Columnas de informes para informes básicos y avanzados
 description: Obtenga información sobre las columnas de datos disponibles para los informes básicos y avanzados.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3749'
+source-wordcount: '3747'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report]) Precisión media de la previsión de costes de los siete días anteriores, sin incluir el día actual (y no para el intervalo de fechas especificado en el informe), expresada como porcentaje. |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report]) La precisión promedio de la previsión de ingresos de los siete días anteriores, sin incluir el día actual (y no para el intervalo de fechas especificado en el informe), expresada como porcentaje. |
 | [!UICONTROL Account] | El nombre de la cuenta. |
-| [!UICONTROL Account Status] | El estado de la cuenta en Search, Social y Commerce: <ul><li><i>[!UICONTROL Enabled]:</i> (El valor predeterminado) Para las redes de anuncios sincronizadas, Search, Social y Commerce pueden iniciar sesión en la cuenta de la red de publicidad para recuperar los datos de campaña y se habilitan otras funciones aplicables, como la optimización y la generación de seguimiento.<br><br>En el caso de las redes de anuncios no sincronizadas, están disponibles las funciones aplicables, como la optimización o la generación de seguimiento.</li><li><i>[!UICONTROL Disabled]:</i> Para las redes de anuncios sincronizadas, Search, Social y Commerce no inician sesión en la cuenta de la red de publicidad y, por lo tanto, no recuperan los datos de la campaña. Además, otras funciones aplicables, como la optimización y la generación de seguimiento, están desactivadas. Los datos recopilados mientras la cuenta estaba habilitada se siguen almacenando, pero todas las vistas de administración de campañas y todos los informes que cree en el futuro no incluirán datos para el período de tiempo en el que la cuenta está deshabilitada.<br><br>En las redes de anuncios no sincronizadas, las funciones aplicables, como la optimización o la generación de seguimiento, no están disponibles.</li></ul> |
+| [!UICONTROL Account Status] | El estado de la cuenta en Search, Social y Commerce: <ul><li><i>[!UICONTROL Enabled]:</i> (El valor predeterminado) Para las redes de anuncios sincronizadas, Search, Social y Commerce pueden iniciar sesión en la cuenta de la red de publicidad para recuperar los datos de campaña, y otras funciones aplicables, como la optimización y la generación de seguimiento, están habilitadas.<br><br>En el caso de las redes de anuncios no sincronizadas, están disponibles las funciones aplicables, como la optimización o la generación de seguimiento.</li><li><i>[!UICONTROL Disabled]:</i> En las redes de anuncios sincronizadas, Search, Social y Commerce no inician sesión en la cuenta de la red de publicidad y, por lo tanto, no recuperan los datos de la campaña, y otras funciones aplicables, como la optimización y la generación de seguimiento, están desactivadas. Los datos recopilados mientras la cuenta estaba habilitada se siguen almacenando, pero todas las vistas de administración de campañas y todos los informes que cree en el futuro no incluyen datos del período de tiempo en el que la cuenta está deshabilitada.<br><br>En las redes de anuncios no sincronizadas, las funciones aplicables, como la optimización o la generación de seguimiento, no están disponibles.</li></ul> |
 | [!UICONTROL Active Ad Groups] | Número de grupos de anuncios activos. |
 | [!UICONTROL Active Ads/Creatives] | Número de anuncios/creativos activos. |
 | [!UICONTROL Active Campaigns] | Número de campañas activas. |
@@ -33,15 +33,15 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Type] | El tipo de grupo de publicidad, como <i>[!UICONTROL Audience]</i> (solo para campañas de audiencia), <i>[!UICONTROL Discovery]</i> (solo para campañas de detección), <i>[!UICONTROL Display]</i> (solo para campañas de visualización), <i>[!UICONTROL Search Dynamic]</i> (solo para anuncios dinámicos de búsqueda), <i>[!UICONTROL Search Standard]</i> (solo para anuncios de búsqueda interactivos y anuncios de texto expandido existentes), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i> (solo para campañas de compra estándar), o <i>[!UICONTROL Shopping Smart]</i> (para campañas de compras inteligentes). Para algunos tipos de campaña, una sola campaña puede incluir varios tipos de publicidad. |
 | [!UICONTROL Ad Groups] | Número de grupos de anuncios a los que se asigna el valor de etiqueta. |
 | [!UICONTROL AD Name] | El nombre del grupo de anuncios; el mismo valor que [!UICONTROL Ad Group]. |
-| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] (Solo campañas de ) El número estimado de personas que recordarán su anuncio en un plazo de dos días. |
-| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] (Solo campañas de ) El número estimado de personas que recordarán su anuncio en un plazo de dos días dividido por el número de personas que ha llegado a, como porcentaje. |
+| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] (Solo campañas de ) El número estimado de personas que recuerdan su anuncio en un plazo de dos días. |
+| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] (Solo campañas de ) El número estimado de personas que recuerdan su anuncio en un plazo de dos días dividido por el número de personas que ha llegado a, como porcentaje. |
 | [!UICONTROL Ad Size] | Las dimensiones del anuncio. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] anuncios de búsqueda adaptables) La eficacia del anuncio: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i>, o <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising], y [!DNL Yahoo! Japan Ads] campañas) El ajuste de oferta móvil actual a nivel de grupo de anuncios, que determina cómo se ajustan las ofertas cuando el anuncio se muestra en un dispositivo móvil. |
 | [!UICONTROL Advertiser] | El nombre del anunciante. |
-| [!UICONTROL Advertiser ID] | El ID numérico de la cuenta de Search, Social y Commerce del anunciante. |
+| [!UICONTROL Advertiser ID] | ID numérico de la cuenta de Search, Social y Commerce del anunciante. |
 | [!UICONTROL Avg Position] | Posición promedio de los anuncios durante el intervalo de fechas especificado.<br><br>Para [!DNL Google Ads] y [!DNL Yahoo! Japan Ads] campañas, estos datos solo están disponibles hasta septiembre de 2019. Para [!DNL Microsoft Advertising]Sin embargo, estos datos solo están disponibles hasta el 22 de enero de 2021. |
-| [!UICONTROL Base URL] | La dirección URL base de la palabra clave, incluidos los parámetros de adición configurados para la campaña o cuenta. No incluye ningún código de seguimiento y redirección de búsqueda, social y comercial. |
+| [!UICONTROL Base URL] | La dirección URL base de la palabra clave, incluidos los parámetros de adición configurados para la campaña o cuenta. No incluye ningún código de seguimiento y redirección de Search, Social y Commerce. |
 | [!UICONTROL Bid Strategy] | (La mayoría de las redes de publicidad) Para las campañas o los componentes de campaña, esta es la estrategia de oferta de la campaña. Para las cuentas de red de publicidad vinculadas a una cuenta de administrador, esta es la estrategia de oferta entre cuentas. Los valores disponibles varían según la red de anuncios. |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising] anuncios adaptables) El nombre comercial. |
 | [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] anuncios interactivos y multimedia) La llamada a la acción incluida en el anuncio. |
@@ -74,7 +74,7 @@ ht-degree: 0%
 | [!UICONTROL Cost] | El coste total de los anuncios durante el intervalo de fechas especificado. |
 | [!UICONTROL Country] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) País desde el que se originaron los clics. Se determina a partir de la dirección IP del usuario. |
 | [!UICONTROL CPC] | El coste por clic (CPC) de los anuncios durante el intervalo de fechas especificado. |
-| [!UICONTROL Creative Base URL] | La dirección URL base del anuncio, incluidos los parámetros de adición configurados para la campaña o cuenta. No incluye ningún código de seguimiento y redirección de búsqueda, social y comercial. |
+| [!UICONTROL Creative Base URL] | La dirección URL base del anuncio, incluidos los parámetros de adición configurados para la campaña o cuenta. No incluye ningún código de seguimiento y redirección de Search, Social y Commerce. |
 | [!UICONTROL Creative Destination URL] | La URL final o la URL de destino (incluidos los parámetros de seguimiento) del anuncio. |
 | [!UICONTROL Creative Name] | ([!DNL Yahoo! Japan] solo) El nombre de la imagen del anuncio. |
 | [!UICONTROL Creative Title], [!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | Los títulos o titulares del anuncio. Los distintos tipos de creatividad tienen diferentes números de líneas de título opcionales y obligatorias. Para ver [!UICONTROL Creative Title4] y columnas superiores en [!DNL Microsoft Advertising] anuncios adaptables o anuncios multimedia, incluir el &quot;[!UICONTROL Creative Titles]&quot; en la configuración del informe. |
@@ -105,8 +105,8 @@ ht-degree: 0%
 | [!UICONTROL Engagement Rate] | (Anuncios de vídeo) El número de participaciones dividido por el número de veces que se mostró su anuncio. |
 | [!UICONTROL Engagements] | (Anuncios en vídeo) La cantidad de veces que los usuarios vieron su anuncio durante al menos 10 segundos, o el anuncio completo si es inferior a 10 segundos. |
 | [!UICONTROL Est. Clicks] | ([!UICONTROL Geo Distribution Report]; solo campañas de búsqueda y visualización) El número estimado de clics para la combinación de grupo de anuncios, campaña o portafolios. Este valor puede ser diferente al valor proporcionado por las redes de publicidad. |
-| [!UICONTROL Estimated Cost] | El coste total estimado de los anuncios asociados de los que Search, Social y Commerce ha realizado un seguimiento. Este valor puede ser diferente al valor proporcionado por las redes de publicidad. |
-| [!UICONTROL Estimated Impressions] | (Mostrar solo campañas) El número estimado de impresiones de publicidad que Search, Social y Commerce ha rastreado. Este valor puede ser diferente al valor de [!UICONTROL Impressions] (cuando está disponible), que muestra el valor proporcionado por las redes de publicidad. |
+| [!UICONTROL Estimated Cost] | El coste total estimado de los anuncios asociados de los que Search, Social y Commerce han realizado un seguimiento. Este valor puede ser diferente al valor proporcionado por las redes de publicidad. |
+| [!UICONTROL Estimated Impressions] | (Solo mostrar campañas) El número estimado de impresiones de publicidad que Search, Social y Commerce han rastreado. Este valor puede ser diferente al valor de [!UICONTROL Impressions] (cuando está disponible), que muestra el valor proporcionado por las redes de publicidad. |
 | [!UICONTROL Exclude (yes/no)] | Si se excluyen las pujas (<i>[!UICONTROL Yes]</i>) o las pujas están permitidas (<i>[!UICONTROL No]</i>) para anuncios de productos coincidentes. |
 | [!UICONTROL First Page CPC] | (Solo campañas de Google) El coste por clic (CPC) de los anuncios que aparecen en la primera página de resultados de búsqueda durante el intervalo de fechas especificado. |
 | [!UICONTROL Frequency] | ([!DNL Meta] (Solo campañas de ) El número promedio de veces que alguien vio su anuncio. |
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Product Groupings] | El grupo de productos principal. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] anuncios de listas de productos) El ID del producto que se muestra con el anuncio.<br><br><b>Nota:</b> El ID solo se captura cuando la lista de productos incluye el parámetro de seguimiento `ev_plx=<GMC product ID>`, que debe agregar en [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Los ingresos de la métrica de conversión (por ejemplo, 1 por un registro o 12 por un pedido de 12 USD). Si varias unidades de oferta tienen el mismo ID de transacción, los ingresos del ID de seguimiento se dividen según el número de clics en la fecha de clic especificada (cuando los datos de clics están disponibles). |
-| [!UICONTROL Reach] | ([!DNL Meta] solo campañas de ) El número de personas que vieron sus anuncios al menos una vez. Nota: [!DNL Meta] los deduplicados alcanzan los perfiles de usuario diariamente, por lo que los números notificados por [!DNL Meta] y por Buscar, Social y Comercio pueden diferir. |
+| [!UICONTROL Reach] | ([!DNL Meta] solo campañas de ) El número de personas que vieron sus anuncios al menos una vez. Nota: [!DNL Meta] los deduplicados alcanzan los perfiles de usuario diariamente, por lo que los números notificados por [!DNL Meta] y por Buscar, Social y Commerce pueden diferir. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]Una región o estado de EE. UU./Canadá en el que se originaron las impresiones o los clics. Se determina a partir de la dirección IP del usuario. |
 | [!UICONTROL SE Creative ID] | ID de anuncio asignado por la red. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] y [!DNL Microsoft Advertising]) Las impresiones que ha recibido en la ubicación superior absoluta (el primer anuncio por encima de los resultados de búsqueda orgánica) divididas por el número estimado de impresiones que podía recibir en la ubicación superior. Los porcentajes por debajo del 10 % se indican como &quot;`<10%`&quot; o &quot;`0.0999`.&quot; |
@@ -182,7 +182,7 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) El ID del usuario que completó la transacción. |
 | [!UICONTROL Thru Plays] | ([!DNL Meta] solo campañas de ) El número de vistas que vieron el anuncio en su totalidad. |
 | [!UICONTROL Top of Page CPC] | (Solo campañas de Google) El coste por clic (CPC) de los anuncios que aparecen en la parte superior de las páginas de resultados de búsqueda durante el intervalo de fechas especificado. |
-| [!UICONTROL Tracking URL] | (Solo palabras clave con fines de búsqueda) La plantilla de seguimiento o la dirección URL de destino incrustada con el código de seguimiento de búsqueda, social y comercial (cuando corresponda). |
+| [!UICONTROL Tracking URL] | (Solo palabras clave con fines de búsqueda) La plantilla de seguimiento o la dirección URL de destino incrustada con el código de seguimiento de búsqueda, social y Commerce (cuando corresponda). |
 | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) La métrica de conversión específica del anunciante en la que se acredita la transacción. |
 | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Hora a la que se acreditó la métrica de conversión especificada. |
 | [!UICONTROL Two Second Continuous Video Plays] | ([!DNL Meta] solo campañas de ) El número de veces que se reprodujo el vídeo durante al menos dos segundos continuos. |
