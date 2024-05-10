@@ -1,11 +1,11 @@
 ---
 title: Editar configuración de fuente de informes de hoja de cálculo
 description: Obtenga información sobre cómo editar la configuración de las fuentes de hojas de cálculo.
-exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo para informes básicos e informes de precisión de modelo*
 
-Puede cambiar la plantilla de informe, [!DNL Microsoft® Excel] La plantilla y otros parámetros se utilizan para una fuente de hoja de cálculo.
+Puede cambiar la plantilla de informe, [!DNL Microsoft Excel] La plantilla y otros parámetros se utilizan para una fuente de hoja de cálculo.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Puede cambiar la plantilla de informe, [!DNL Microsoft® Excel] La plantilla y o
 
    * En el [!UICONTROL Edit Spreadsheet Feed] diálogo, cambie la [configuración de fuentes de hoja de cálculo](spreadsheet-feed-settings.md).
 
-   * Haga clic **[!UICONTROL Submit]**.
+   * Clic **[!UICONTROL Submit]**.
 
    * (Opcional) Una vez que la fuente [!UICONTROL Update Status] es *[!UICONTROL Finished]*, haga clic en **[!UICONTROL XLSX]** junto a la fuente y, a continuación, abra o guarde el archivo según el procedimiento normal del explorador.
 

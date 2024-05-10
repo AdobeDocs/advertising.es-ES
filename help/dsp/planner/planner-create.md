@@ -3,7 +3,7 @@ title: Crear un plan de alcance de TV conectado
 description: Aprenda a crear un plan de alcance de TV conectado.
 feature: DSP Planner
 exl-id: 88b1fb23-f856-44ed-a955-844a329efb98
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    Una vez guardado el plan, se muestra el resultado previsto.
 
-1. (Opcional) Para exportar la variable [!UICONTROL Budget vs Reach] previsión a un [!DNL Microsoft® Excel] hoja de cálculo**, haga clic en **[!UICONTROL ...]** en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Export]**.
+1. (Opcional) Para exportar la variable [!UICONTROL Budget vs Reach] previsión a un [!DNL Microsoft Excel] hoja de cálculo**, haga clic en **[!UICONTROL ...]** en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

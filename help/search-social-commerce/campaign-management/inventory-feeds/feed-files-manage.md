@@ -1,9 +1,9 @@
 ---
 title: Administrar archivos de fuente de datos de inventario
 description: Obtenga información sobre cómo configurar las opciones que controlan cómo se procesan los datos de fuentes.
-exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Administrar archivos de fuente de datos de inventario
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
 Si envía sus propios datos de fuente, debe cargar archivos que contengan los datos del producto para crear dinámicamente la estructura de la campaña, los anuncios y las palabras clave, en función de los datos del producto. A continuación, puede asociarlos con plantillas de publicidad específicas de la red de publicidad y procesar los datos a través de las plantillas para, finalmente, publicar los datos en las redes de publicidad relevantes. Puede asociar varias plantillas a un archivo de fuente, pero cada plantilla solo puede asociarse a un archivo de fuente.
 
@@ -109,7 +109,7 @@ Para obtener más información, consulte la ayuda en línea del explorador.
 
 1. Especifique el archivo que desea cargar introduciendo la ruta de acceso completa y el nombre del archivo o haciendo clic en **[!UICONTROL Browse]** para localizar el archivo en su dispositivo o red.
 
-1. Haga clic **[!UICONTROL Upload].
+1. Haga clic en **[!UICONTROL Upload].
 
 Se validan todos los campos del archivo. No puede enviar elementos con longitudes de campo no válidas más adelante hasta que corrija los valores. Todos los nombres de columna del archivo estarán disponibles en las plantillas como parámetros dinámicos.
 
@@ -133,7 +133,7 @@ Cuando reemplaza un archivo de fuente (incluso si el nuevo archivo tiene un nomb
 
 Incluso si el nuevo archivo tiene un nombre o una extensión diferente, el archivo existente se sobrescribe con el nuevo archivo.
 
-1. Haga clic **[!UICONTROL Re-Upload]**.
+1. Clic **[!UICONTROL Re-Upload]**.
 
 Se validan todos los campos del archivo. No puede enviar elementos con longitudes de campo no válidas más adelante hasta que corrija los valores. Todos los nombres de columna del archivo estarán disponibles en las plantillas como parámetros dinámicos.
 

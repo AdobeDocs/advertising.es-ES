@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Obtenga información acerca de [!UICONTROL AdWords and Bing Audience Target Report].
-exl-id: 02c12266-f11b-4478-a511-8ee464dbb061
+exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords and Bing Audience Target Report]
 
-*[!DNL Google Ads]y [!DNL Microsoft® Advertising] solo cuentas*
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] solo cuentas*
 
-El [!UICONTROL AdWords and Bing Audience Target Report] incluye datos de coste, clics, impresiones y (opcionalmente) métricas derivadas por destino de audiencia ([!DNL Google Ads] audiencias basadas en datos de clientes, en el mercado y similares, y su [!DNL Microsoft® Advertising] remarketing, personalizado, coincidencia de clientes, similar y audiencias en el mercado ) para uno o varios grupos de anuncios o campañas. De forma predeterminada, los datos incluyen una fila para cada audiencia que recibió al menos una impresión o clic para cada grupo de anuncios aplicable y para cada unidad de tiempo en el intervalo de fechas especificado. Las filas están en orden ascendente por nombre de grupo de anuncios y, a continuación, por audiencia de forma predeterminada. El informe incluye datos de conversión rastreados por [!DNL Adobe] solo para destinos de lista de remarketing.
+El [!UICONTROL AdWords and Bing Audience Target Report] incluye datos de coste, clics, impresiones y (opcionalmente) métricas derivadas por destino de audiencia ([!DNL Google Ads] audiencias basadas en datos de clientes, en el mercado y similares, y su [!DNL Microsoft Advertising] remarketing, personalizado, coincidencia de clientes, similar y audiencias en el mercado ) para uno o varios grupos de anuncios o campañas. De forma predeterminada, los datos incluyen una fila para cada audiencia que recibió al menos una impresión o clic para cada grupo de anuncios aplicable y para cada unidad de tiempo en el intervalo de fechas especificado. Las filas están en orden ascendente por nombre de grupo de anuncios y, a continuación, por audiencia de forma predeterminada. El informe incluye datos de conversión rastreados por [!DNL Adobe] solo para destinos de lista de remarketing.
 
 Se pueden ver los datos de hasta el año anterior.
 
@@ -42,6 +42,6 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 
 >[!MORELIKETHIS]
 >
-* [Acerca de los informes especiales](specialty-report-about.md)
-* [Generar un informe de especialidad](specialty-report-generate.md)
-* [Configuración de informes especiales](specialty-report-settings.md)
+>* [Acerca de los informes especiales](specialty-report-about.md)
+>* [Generar un informe de especialidad](specialty-report-generate.md)
+>* [Configuración de informes especiales](specialty-report-settings.md)

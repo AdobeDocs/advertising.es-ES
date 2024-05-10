@@ -1,9 +1,9 @@
 ---
 title: Operaciones que se pueden realizar en hojas de edición masiva
 description: Consulte información general sobre cómo agregar, editar y eliminar datos de campaña mediante hojas de edición por lotes.
-exl-id: 82969bb8-dff8-48e7-b37d-1446a2a90072
+exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Las siguientes reglas se aplican al trabajo con componentes de campaña y sus pr
 
       * ([!UICONTROL Google Ads] solo) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
 
-      * ([!DNL Google Ads] y [!DNL Microsoft® Advertising] solo) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
+      * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solo) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
 
 >[!NOTE]
 >

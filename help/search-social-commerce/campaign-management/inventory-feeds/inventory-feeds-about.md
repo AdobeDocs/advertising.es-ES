@@ -1,28 +1,28 @@
 ---
 title: Automatización de la administración de anuncios mediante fuentes de inventario
 description: Obtenga información acerca de la administración avanzada de campañas, que le permite administrar automáticamente la estructura de cuentas y enviar anuncios dinámicos basados en los datos sobre el inventario de productos o servicios.
-exl-id: 2cbf08ce-728e-4d5b-b0a4-01aa244a6e29
+exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Automatización de la administración de anuncios mediante fuentes de inventario
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
-El [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] la vista para administración avanzada de campañas le permite crear y actualizar automáticamente la estructura de cuentas de red de publicidad y publicar anuncios dinámicos basados en los datos de su inventario de productos o servicios. Puede cargar nuevos archivos con datos de productos diariamente o con la frecuencia que desee, o vincular directamente a un [!DNL Google] o [!DNL Microsoft®] cuenta del centro de comerciantes. Utilice esta función para lo siguiente:
+El [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] la vista para administración avanzada de campañas le permite crear y actualizar automáticamente la estructura de cuentas de red de publicidad y publicar anuncios dinámicos basados en los datos de su inventario de productos o servicios. Puede cargar nuevos archivos con datos de productos diariamente o con la frecuencia que desee, o vincular directamente a un [!DNL Google] o [!DNL Microsoft] cuenta del centro de comerciantes. Utilice esta función para lo siguiente:
 
 * Cree nuevas campañas a partir de fuentes de datos ordenadas.
 
-* Actualizar dinámicamente el texto y los anuncios de búsqueda adaptables, [!DNL Google Ads] anuncios de compra, o [!DNL Microsoft® Advertising] anuncios de compra cada vez que se procesan nuevos datos, utilizando variables dinámicas para elementos de datos modificables (como el precio o la cantidad). Cada vez que cambia los datos, se eliminan los anuncios existentes y se crean nuevos.
+* Actualizar dinámicamente el texto y los anuncios de búsqueda adaptables, [!DNL Google Ads] anuncios de compra, o [!DNL Microsoft Advertising] anuncios de compra cada vez que se procesan nuevos datos, utilizando variables dinámicas para elementos de datos modificables (como el precio o la cantidad). Cada vez que cambia los datos, se eliminan los anuncios existentes y se crean nuevos.
 
 * Ponga en pausa o elimine automáticamente los grupos de anuncios, las palabras clave y los anuncios cuando el stock caiga por debajo de un nivel específico, según una fecha de finalización especificada o cuando se omita un componente existente de los datos de fuente.
 
-Para configurar los anuncios, cree plantillas de fuentes de inventario que contengan variables (marcadores de posición) y, a continuación, sustituya las variables por columnas de datos reales de un archivo cargado o un [Cuenta de Google o Microsoft® merchant center sincronizada](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Las variables también pueden incluir grupos de modificadores configurados en un archivo o filas individuales del archivo para crear varios anuncios, palabras clave, campañas o grupos de anuncios para cada fila aplicable del archivo de datos. Por ejemplo, si utiliza una variable de grupo de modificadores en un titular de anuncio y el grupo de modificadores incluye dos modificadores (&quot;barato&quot; y &quot;con descuento&quot;), se crean dos anuncios independientes para cada producto, uno para cada modificador. Para [!DNL Google Ads] y [!DNL Microsoft® Advertising] anuncios dinámicos de búsqueda, también puede incluir valores para personalizadores de anuncios.
+Para configurar los anuncios, cree plantillas de fuentes de inventario que contengan variables (marcadores de posición) y, a continuación, sustituya las variables por columnas de datos reales de un archivo cargado o un [Cuenta de Google o Microsoft Merchant Center sincronizada](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). Las variables también pueden incluir grupos de modificadores configurados en un archivo o filas individuales del archivo para crear varios anuncios, palabras clave, campañas o grupos de anuncios para cada fila aplicable del archivo de datos. Por ejemplo, si utiliza una variable de grupo de modificadores en un titular de anuncio y el grupo de modificadores incluye dos modificadores (&quot;barato&quot; y &quot;con descuento&quot;), se crean dos anuncios independientes para cada producto, uno para cada modificador. Para [!DNL Google Ads] y [!DNL Microsoft Advertising] anuncios dinámicos de búsqueda, también puede incluir valores para personalizadores de anuncios.
 
 | [!UICONTROL Ad Variation] Sección de plantilla | Modificadores en Search, Social y Commerce | Contenido de fuente | Anuncios resultantes |
 |----|----|----|----|
@@ -35,7 +35,7 @@ Una vez generados los anuncios, puede revisarlos opcionalmente y luego publicarl
 
 ## Flujo de trabajo para administrar datos de campaña mediante fuentes de inventario
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
 Inicialmente, pruebe al menos un archivo de fuentes o una cuenta y, a continuación, podrá automatizar completamente el proceso o seguir controlándolo en cada paso:
 
@@ -49,7 +49,7 @@ Inicialmente, pruebe al menos un archivo de fuentes o una cuenta y, a continuaci
 
    Si utiliza un FTP, no publique automáticamente los datos en las redes publicitarias inicialmente. Después de comprobar el resultado del primer archivo y estar satisfecho con los resultados, puede cambiar la configuración.
 
-1. Cargue un archivo de datos en el directorio FTP, [cargar manualmente un archivo de datos](feed-files-manage.md) en el [!UICONTROL Advanced (ACM) view], o [habilitar el acceso a una cuenta de Google o Microsoft® merchant center](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. Cargue un archivo de datos en el directorio FTP, [cargar manualmente un archivo de datos](feed-files-manage.md) en el [!UICONTROL Advanced (ACM) view], o [habilitar el acceso a una cuenta de Google o Microsoft merchant center](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 Para cargar archivos manualmente, puede esperar hasta que cree una plantilla que utilice el archivo de datos.
 
@@ -57,7 +57,7 @@ Para cargar archivos manualmente, puede esperar hasta que cree una plantilla que
 
 1. [Cree una o más plantillas](ad-templates/ad-template-manage.md) que utilizan las columnas de datos para crear campañas, grupos de anuncios, palabras clave o copias de publicidad para una cuenta específica de la red de publicidad.
 
-1. [Propagación de datos de fuentes mediante las plantillas](feed-data-propagate.md), que sustituye los nombres de columna de la plantilla por los datos del archivo o la cuenta. Según las opciones de plantilla, Buscar, Social y Comercio crea una nueva estructura de cuenta (campañas, grupos de anuncios y palabras clave) para los anuncios con la configuración predeterminada o asigna los anuncios a la estructura de cuenta existente.
+1. [Propagación de datos de fuentes mediante las plantillas](feed-data-propagate.md), que sustituye los nombres de columna de la plantilla por los datos del archivo o la cuenta. Según las opciones de plantilla, Buscar, Social y Commerce crean una nueva estructura de cuentas (campañas, grupos de anuncios y palabras clave) para los anuncios con la configuración predeterminada o asignan los anuncios a la estructura de cuentas existente.
 
 1. (Opcional) [Previsualización de la salida](propagated-data-view.md) en el [!UICONTROL Advanced (ACM)] vistas y, opcionalmente, ver un resumen de los cambios de datos en la [!UICONTROL Propagations] pestaña.
 

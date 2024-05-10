@@ -1,9 +1,9 @@
 ---
 title: Estados de los datos generados a partir de las fuentes
 description: Obtenga información sobre los estados de los datos generados a partir de las fuentes de datos de inventario.
-exl-id: 8e5e7649-a16b-4634-896a-7c216185b367
+exl-id: 45c93fb2-0ed2-4336-9883-e150c292a7a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Estados de los datos generados a partir de las fuentes
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
 Cada componente puede tener uno de los siguientes estados:
 

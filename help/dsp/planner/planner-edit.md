@@ -3,7 +3,7 @@ title: Editar un plan de alcance de TV conectado
 description: Aprenda a editar la configuración de un plan de alcance de TV conectado.
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -24,7 +24,7 @@ La edición de la configuración del plan genera una nueva previsión.
 
    Una vez guardado el plan, se muestra el resultado previsto.
 
-1. (Opcional) Para exportar la variable [!UICONTROL Budget vs Reach] previsión a un [!DNL Microsoft® Excel] hoja de cálculo**, haga clic en **[!UICONTROL ...]** en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Export]**.
+1. (Opcional) Para exportar la variable [!UICONTROL Budget vs Reach] previsión a un [!DNL Microsoft Excel] hoja de cálculo**, haga clic en **[!UICONTROL ...]** en la esquina superior derecha y, a continuación, haga clic en **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

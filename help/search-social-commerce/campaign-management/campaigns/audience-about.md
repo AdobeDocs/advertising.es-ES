@@ -1,20 +1,20 @@
 ---
 title: Acerca de las audiencias
-description: Obtenga información acerca de las opciones para rastrear, crear y administrar [!DNL Google Ads] y [!DNL Microsoft® Advertising] audiencias.
-exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
+description: Obtenga información acerca de las opciones para rastrear, crear y administrar [!DNL Google Ads] y [!DNL Microsoft Advertising] audiencias.
+exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
-# Acerca de la administración [!DNL Google Ads] y [!DNL Microsoft® Advertising] audiencias en Search, Social y Commerce
+# Acerca de la administración [!DNL Google Ads] y [!DNL Microsoft Advertising] audiencias en Search, Social y Commerce
 
-*[!DNL Google Ads]y [!DNL Microsoft® Advertising] solamente*
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] solamente*
 
-La Biblioteca de audiencias enumera todas las [!DNL Google Ads] audiencias basadas en datos de clientes, en el mercado y similares, y su [!DNL Microsoft® Advertising] remarketing y remarketing dinámico, personalizado, coincidencia de clientes, en el mercado y audiencias similares. Puede utilizar cualquiera de las [!DNL Google Ads] audiencias como [!DNL Google Ads] objetivos y exclusiones a nivel de campaña y de grupo de publicidad, y puede utilizar cualquiera de las [!DNL Microsoft® Advertising] audiencias como [!DNL Microsoft® Advertising] objetivos y exclusiones a nivel de campaña y de grupo de publicidad (solo para audiencias de remarketing dinámico). Puede añadir o editar un ajuste de oferta para cualquier destinatario de audiencia.
+La Biblioteca de audiencias enumera todas las [!DNL Google Ads] audiencias basadas en datos de clientes, en el mercado y similares, y su [!DNL Microsoft Advertising] remarketing y remarketing dinámico, personalizado, coincidencia de clientes, en el mercado y audiencias similares. Puede utilizar cualquiera de las [!DNL Google Ads] audiencias como [!DNL Google Ads] objetivos y exclusiones a nivel de campaña y de grupo de publicidad, y puede utilizar cualquiera de los [!DNL Microsoft Advertising] audiencias como [!DNL Microsoft Advertising] objetivos y exclusiones a nivel de campaña y de grupo de publicidad (solo para audiencias de remarketing dinámico). Puede añadir o editar un ajuste de oferta para cualquier destinatario de audiencia.
 
 También puede crear y administrar audiencias mediante segmentos o listas de correo electrónico de sus audiencias de Adobe Experience Cloud existentes y de varios tipos de datos de clientes de su sistema de administración de la relación con los clientes (CRM):
 
@@ -24,15 +24,15 @@ También puede crear y administrar audiencias mediante segmentos o listas de cor
 
    * (Anunciantes con cuentas de Audience Manager) Puede crear lo siguiente [!DNL Google Ads] audiencias de coincidencia de clientes que usan ID de usuario de segmentos de Audience Manager que tienen como destino Search, Social y Commerce. Esto puede incluir segmentos de Adobe Analytics que se publican en Adobe Experience Cloud y segmentos creados con la biblioteca de audiencias de Adobe Experience Cloud.
 
-  Para crear audiencias coincidentes con el cliente, el del anunciante [!DNL Google Ads] la cuenta debe ser [apto para coincidencia personalizada](https://support.google.com/adspolicy/answer/6299717) y se ha suscrito para [segmentos de ID de usuario](https://support.google.com/google-ads/answer/9199250). Además, la cuenta del anunciante en Buscar, Social y Comercio debe configurarse para permitir la creación de audiencias de coincidencia de clientes.
+  Para crear audiencias coincidentes con el cliente, el del anunciante [!DNL Google Ads] la cuenta debe ser [apto para coincidencia personalizada](https://support.google.com/adspolicy/answer/6299717) y se ha suscrito para [segmentos de ID de usuario](https://support.google.com/google-ads/answer/9199250). Además, la cuenta del anunciante en Buscar, Social y Commerce debe configurarse para permitir la creación de audiencias de coincidencia de clientes.
 
   [!DNL Adobe] los archivos de sincronización de cookies y datos de segmentos para las audiencias basadas en datos del cliente se sincronizan con [!DNL Google Ads] diariamente.
 
 * **Listas de correo electrónico de Adobe Campaign:** El equipo de cuenta de Adobe puede ayudarle a configurar un flujo de trabajo para crear y actualizar una cuenta de [!DNL Google Ads] audiencia de coincidencia de clientes de una lista de correo electrónico en [!DNL Campaign].
 
-* **Listas de datos de clientes:** Anunciantes con [!DNL Google Ads] o [!DNL Microsoft® Advertising] las cuentas de elegibles para la segmentación por lista de clientes pueden crear y actualizar una audiencia basada en datos de clientes específica de la red de publicidad &lt;!>— o audiencia de remarketing dinámico — incluida en la audiencia basada en datos del cliente, al menos durante [!DNL Google Ads]?—> cargando un archivo CSV con identificadores principales.
+* **Listas de datos de clientes:** Anunciantes con [!DNL Google Ads] o [!DNL Microsoft Advertising] las cuentas de elegibles para la segmentación por lista de clientes pueden crear y actualizar una audiencia basada en datos de clientes específica de la red de publicidad &lt;!>— o audiencia de remarketing dinámico — incluida en la audiencia basada en datos del cliente, al menos durante [!DNL Google Ads]?—> cargando un archivo CSV con identificadores principales.
 
-* **Listas de remarketing dinámico:** Anunciantes con [!DNL Microsoft® Advertising] Las cuentas de pueden crear y administrar audiencias de remarketing dinámico, que pueden utilizarse para redireccionar a clientes potenciales que hayan interactuado recientemente con sus productos de una o varias formas (como visualizadores de productos o compradores anteriores). Las audiencias de remarketing dinámico requieren que utilice la etiqueta de seguimiento de conversión y audiencia de JavaScript de la red de publicidad en sus páginas web. Utilice listas de remarketing dinámico con campañas de compra en las redes de búsqueda y audiencia para redireccionar las audiencias con anuncios de productos, así como con campañas de búsqueda para redireccionar las audiencias con anuncios de texto y anuncios dinámicos de búsqueda. <!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
+* **Listas de remarketing dinámico:** Anunciantes con [!DNL Microsoft Advertising] Las cuentas de pueden crear y administrar audiencias de remarketing dinámico, que pueden utilizarse para redireccionar a clientes potenciales que hayan interactuado recientemente con sus productos de una o varias formas (como visualizadores de productos o compradores anteriores). Las audiencias de remarketing dinámico requieren que utilice la etiqueta de seguimiento de conversión y audiencia de JavaScript de la red de publicidad en sus páginas web. Utilice listas de remarketing dinámico con campañas de compra en las redes de búsqueda y audiencia para redireccionar las audiencias con anuncios de productos, así como con campañas de búsqueda para redireccionar las audiencias con anuncios de texto y anuncios dinámicos de búsqueda. <!--[For [!DNL Google Ads], these are technically included in a customer data-based audience, so word this all carefully when we add support for them.]-->
 
   >[!NOTE]
   >
@@ -40,7 +40,7 @@ También puede crear y administrar audiencias mediante segmentos o listas de cor
 
 >[!NOTE]
 >
->Search, Social y Commerce no almacenan ninguno de los datos de clientes que carga o del [!DNL Adobe] segmentos utilizados para crear o editar un [!DNL Google Ads] o [!DNL Microsoft® Advertising] audiencia.
+>Search, Social y Commerce no almacenan ninguno de los datos de clientes que carga o del [!DNL Adobe] segmentos utilizados para crear o editar un [!DNL Google Ads] o [!DNL Microsoft Advertising] audiencia.
 
 >[!MORELIKETHIS]
 >

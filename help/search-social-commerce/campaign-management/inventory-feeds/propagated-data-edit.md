@@ -1,9 +1,9 @@
 ---
 title: Editar datos generados a partir de fuentes
 description: Obtenga información sobre cómo editar los datos generados a partir de las fuentes de datos de inventario.
-exl-id: 5f866557-e44b-4fd9-9683-f7fbaf6d308b
+exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Editar datos generados a partir de fuentes
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
 Cuando propaga datos de fuentes sin publicarlos simultáneamente en la red de publicidad, puede editar los datos de cualquiera de las siguientes maneras. Más adelante puede, opcionalmente [publicar datos](propagated-data-post.md) desde cualquier ubicación a las redes de publicidad relevantes:
 

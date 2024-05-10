@@ -1,11 +1,11 @@
 ---
 title: Crear una clasificación de etiquetas
 description: Obtenga información sobre cómo crear una clasificación de etiquetas para agrupar los componentes de la cuenta.
-exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Cada anunciante puede tener hasta 30 clasificaciones de etiquetas.
 
 1. Introduzca un nombre de clasificación de etiqueta único y haga clic en **[!UICONTROL Save]**.
 
-   El nombre debe ser único para la cuenta del anunciante y constar de [Caracteres ASCII 32-126](https://www.asciitable.com/)y la longitud máxima es de 27 caracteres de un solo byte. El nombre no puede ser idéntico al nombre de una columna de informe existente o de una columna de hoja de edición masiva existente. Consulte los nombres de las columnas de hojas de edición masiva para [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Anuncios de Japón](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Mostrar red](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), y [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   El nombre debe ser único para la cuenta del anunciante y constar de [Caracteres ASCII 32-126](https://www.asciitable.com/)y la longitud máxima es de 27 caracteres de un solo byte. El nombre no puede ser idéntico al nombre de una columna de informe existente o de una columna de hoja de edición masiva existente. Consulte los nombres de las columnas de hojas de edición masiva para [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Anuncios de Japón](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Mostrar red](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), y [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 Una vez creada una clasificación de etiquetas, puede crear valores de etiqueta específicos para la clasificación y asignar los valores de etiqueta a entidades de cuenta desde el [vistas de administración de campañas](classification-values-assign-campaign-management.md) o [uso de hojas de edición masiva](classification-values-assign-bulksheets.md).
 

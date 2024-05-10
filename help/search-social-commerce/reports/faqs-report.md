@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -326,17 +326,17 @@ Cuando se generan ambos informes por portafolio, los datos son diferentes si se 
 +++La salida del informe incluye una combinación de intervalos de fechas.
 Puede ver diferentes intervalos de fechas si la fuente agrega datos con cualquier nivel de agregación de datos distinto de &quot;[!UICONTROL Daily].&quot;
 
-Para resolver el problema, actualice la fuente de la hoja de cálculo para incluir los datos agregados diariamente. Esta tarea incluye actualizar la plantilla del informe, generar un informe con la plantilla y crear un personalizado [!DNL Microsoft® Excel] plantilla mediante el informe y, a continuación, actualizando la configuración de fuente para incluir la nueva plantilla de Excel. Para obtener más información, consulte &quot;[Editar configuración de fuente de informes de hoja de cálculo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Para resolver el problema, actualice la fuente de la hoja de cálculo para incluir los datos agregados diariamente. Esta tarea incluye actualizar la plantilla del informe, generar un informe con la plantilla y crear un personalizado [!DNL Microsoft Excel] plantilla mediante el informe y, a continuación, actualizando la configuración de fuente para incluir la nueva plantilla de Excel. Para obtener más información, consulte &quot;[Editar configuración de fuente de informes de hoja de cálculo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Una fuente de hoja de cálculo provoca un error interno.
-Este error puede producirse si cambia las columnas en la plantilla de informe pero no actualiza la variable [!DNL Microsoft® Excel] plantilla en consecuencia.
+Este error puede producirse si cambia las columnas en la plantilla de informe pero no actualiza la variable [!DNL Microsoft Excel] plantilla en consecuencia.
 
 Para resolver el problema, actualice la fuente de la hoja de cálculo para incluir las columnas nuevas. Esta tarea incluye actualizar la plantilla del informe, generar un informe con la plantilla y crear un personalizado [!DNL Excel] plantilla mediante el informe y, a continuación, actualizando la configuración de fuente para incluir la nueva plantilla de Excel. Para obtener más información, consulte &quot;[Editar configuración de fuente de informes de hoja de cálculo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Cuando intento abrir una fuente de hoja de cálculo en [!DNL Excel], [!DNL Excel] informa de un error de &quot;contenido ilegible&quot; y los datos se eliminan del contenido recuperado.
-Si la variable [!DNL Microsoft® Excel] La plantilla no ordena los datos por fecha de inicio en orden ascendente, la fuente de la hoja de cálculo puede incluir filas en blanco. En particular, [!DNL Excel] informa del error &quot;Excel ha encontrado contenido ilegible en &#39;&lt;*nombre del informe*>.xlsx.&#39; ¿Desea recuperar el contenido del libro? Si confía en el origen de este libro, haga clic en sí.&quot; Si hace clic en &quot;Sí&quot;, recibe el siguiente mensaje: &quot;Registros eliminados: Información de celda de la parte /xl/worksheets/sheet1.xml&quot; y la fuente de la hoja de cálculo incluye filas en blanco.
+Si la variable [!DNL Microsoft Excel] La plantilla no ordena los datos por fecha de inicio en orden ascendente, la fuente de la hoja de cálculo puede incluir filas en blanco. En particular, [!DNL Excel] informa del error &quot;Excel ha encontrado contenido ilegible en &#39;&lt;*nombre del informe*>.xlsx.&#39; ¿Desea recuperar el contenido del libro? Si confía en el origen de este libro, haga clic en sí.&quot; Si hace clic en &quot;Sí&quot;, recibe el siguiente mensaje: &quot;Registros eliminados: Información de celda de la parte /xl/worksheets/sheet1.xml&quot; y la fuente de la hoja de cálculo incluye filas en blanco.
 
 Para resolver el problema, edite el [!DNL Excel] plantilla asociada a la fuente por la que ordenar los datos [!DNL Start date in Ascending (Oldest to Newest) order]y, a continuación, cargue la plantilla actualizada a través de la configuración de fuentes de hoja de cálculo. Para obtener más información, consulte &quot;[Editar fuentes de informes de hoja de cálculo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

@@ -2,13 +2,13 @@
 title: DSP Acerca de la herramienta Planificador de
 description: Obtenga información acerca de la herramienta de planificación para prever el alcance único de las ubicaciones de TV conectada (CTV) según el presupuesto especificado y los criterios de segmentación.
 feature: DSP Planner
-source-git-commit: 9799ff5464d48e6258026ec997c5d5091576b9c6
+exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
 
 ---
-
 
 # DSP Acerca de la herramienta Planificador de
 
@@ -69,7 +69,7 @@ El planificador genera previsiones basadas en los últimos datos observados, por
 
 +++¿Puedo guardar el resultado de previsión del planificador?
 
-Sí, puede exportar una previsión a un [!DNL Microsoft® Excel] hoja de cálculo haciendo clic en **[!UICONTROL ...]** > **[!UICONTROL Export]** en la parte superior derecha. La hoja de cálculo captura la información mostrada en la curva de presupuesto de alcance utilizando dos columnas de datos: [!UICONTROL Budget] y [!UICONTROL Reach].
+Sí, puede exportar una previsión a un [!DNL Microsoft Excel] hoja de cálculo haciendo clic en **[!UICONTROL ...]** > **[!UICONTROL Export]** en la parte superior derecha. La hoja de cálculo captura la información mostrada en la curva de presupuesto de alcance utilizando dos columnas de datos: [!UICONTROL Budget] y [!UICONTROL Reach].
 
 >[!MORELIKETHIS]
 >

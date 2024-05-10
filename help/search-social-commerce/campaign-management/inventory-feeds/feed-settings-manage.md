@@ -1,18 +1,18 @@
 ---
 title: Configuración de los datos de fuente
 description: Obtenga información sobre cómo configurar las opciones que controlan cómo se procesan los datos de fuentes.
-exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # Configuración de los datos de fuente
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
 Puede configurar cómo gestionar grupos de anuncios, palabras clave y anuncios en archivos de datos de fuentes y cómo procesar los datos en archivos FTP específicamente, a través de la configuración de fuentes.
 
@@ -28,7 +28,7 @@ Puede configurar cómo gestionar grupos de anuncios, palabras clave y anuncios e
 
    1. En el [!UICONTROL Miscellaneous Auto-Processing] , seleccione información en los campos.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## Configuración de datos de fuente {#feed-data-settings}
 

@@ -1,11 +1,11 @@
 ---
 title: Administración de datos de campaña mediante hojas de edición masiva
 description: Obtenga información acerca de la funcionalidad de hojas de edición masiva disponible por red de anuncios, el flujo de trabajo de hojas de edición masiva y la gestión de errores.
-exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Una hoja de edición masiva es un archivo que contiene datos de campaña en un f
 
 Puede generar hojas de edición masiva con todos los datos que desee, o bien crearlas manualmente y cargarlas (consulte el capítulo sobre &quot;Datos requeridos/incluidos en las hojas de edición masiva&quot;).
 
-Una vez creada una hoja de edición masiva, puede identificar cualquier página de aterrizaje rota que necesite corregirse o datos adicionales para agregar o editar. A continuación, puede editar el archivo y cargarlo en Search, Social y Commerce. Opcionalmente, puede programarlo para que se publique en la red de publicidad correspondiente inmediatamente o más tarde. También puede publicar una hoja de edición masiva disponible inmediatamente o más tarde.
+Una vez creada una hoja de edición masiva, puede identificar cualquier página de aterrizaje rota que necesite corregirse o datos adicionales para agregar o editar. A continuación, puede editar el archivo y cargarlo en Search, Social y Commerce, y, opcionalmente, programarlo para que se publique en la red de publicidad correspondiente inmediatamente o más tarde. También puede publicar una hoja de edición masiva disponible inmediatamente o más tarde.
 
 Si lo desea, puede cargar archivos de hojas de edición masiva en una cuenta de FTP específica para recuperarlos y publicarlos automáticamente. El directorio se analiza cada hora y los nuevos archivos se publican en la red de búsqueda en el orden en que se reciben.
 
@@ -24,11 +24,11 @@ Todas las hojas de edición masiva, los archivos de error de validación de pág
 
 ## Funcionalidad por red de anuncios
 
-* **Descargar, cargar y publicar:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], y [!DNL Yandex] cuentas
+* **Descargar, cargar y publicar:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], y [!DNL Yandex] cuentas
 
 * **Descargar y cargar solo:** [!DNL Naver] cuentas
 
-  Puede cargar [!DNL Naver] datos para usar en Search, Social y Commerce, pero no se pueden publicar en la red de anuncios. También puede descargar los datos existentes (sin sincronizar).
+  Puede cargar [!DNL Naver] datos para usar en Search, Social y Commerce, pero no pueden publicarlos en la red de anuncios. También puede descargar los datos existentes (sin sincronizar).
 
 * **Descargar solo datos:**  [!DNL Pinterest], [!DNL Yahoo Native], y [!DNL Yahoo! Display Network] cuentas
 
@@ -48,9 +48,9 @@ Los pasos estándar para utilizar hojas de edición masiva para cuentas sincroni
 
 1. Cuando necesite añadir datos o realizar correcciones:
 
-   1. [Exportación del archivo](bulksheet-export.md) a su escritorio y edítelo en [!DNL Microsoft® Excel].
+   1. [Exportación del archivo](bulksheet-export.md) a su escritorio y edítelo en [!DNL Microsoft Excel].
 
-   1. [Cargar manualmente el archivo editado](bulksheet-upload.md) a Buscar, Social y Comercio, o [cargar el archivo en una cuenta de FTP específica](bulksheet-ftp-account.md) para el registro automático.
+   1. [Cargar manualmente el archivo editado](bulksheet-upload.md) a Buscar, Social y Commerce, o [cargar el archivo en una cuenta de FTP específica](bulksheet-ftp-account.md) para el registro automático.
 
 1. (Para archivos cargados manualmente) [Publicar el archivo](bulksheet-post.md) a la red de publicidad a medida que la carga o más tarde.
 
@@ -58,7 +58,7 @@ Los pasos estándar para utilizar hojas de edición masiva para cuentas sincroni
 
 ## Administración de errores al cargar y publicar datos de campaña
 
-Search, Social y Commerce carga y publica tantas filas de datos como pueda de una hoja de edición masiva de campañas, incluidas las direcciones URL de seguimiento que genera cuando es necesario.
+Search, Social y Commerce cargan y publican tantas filas de datos como puedan desde una hoja de edición masiva de campañas, incluidas las direcciones URL de seguimiento que generan cuando son necesarias.
 
 Cuando se producen errores durante la operación de la hoja de edición masiva, se genera uno de los dos tipos siguientes de archivos de error:
 

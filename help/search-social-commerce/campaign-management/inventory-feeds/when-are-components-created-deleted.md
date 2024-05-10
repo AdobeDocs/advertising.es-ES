@@ -1,18 +1,18 @@
 ---
 title: ¿Cuándo las fuentes de inventario crean o eliminan componentes de cuenta?
 description: Descubra qué situaciones crean y eliminan componentes de cuenta al publicar fuentes de inventario.
-exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # ¿Cuándo las fuentes de inventario crean o eliminan componentes de cuenta?
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
 Cuando se propaga un archivo de fuente de inventario a través de una plantilla, los componentes de cuenta se crean y eliminan de la siguiente manera.
 
@@ -23,9 +23,9 @@ Cuando se propaga un archivo de fuente de inventario a través de una plantilla,
 | Escenario | Ejemplo | Acción |
 |----|----|----|
 | Los datos de fuente incluyen un nuevo valor para una columna que se utiliza en el nombre de una campaña, el nombre de un grupo de anuncios, una palabra clave o un grupo de productos. | Archivos anteriores:<br>Campaign=Hats<br>Campaign=Gloves<br><br>Nuevo archivo:<br>Campaign=Shoes | Se crea una nueva campaña, grupo de anuncios, palabra clave o grupo de productos si no existe en la red de anuncios. |
-| Los datos de la fuente contienen un nuevo valor para una columna que se utiliza en un anuncio. | Archivo anterior: Un anuncio incluido precio=20<br><br>Nuevo archivo: Para el mismo anuncio, precio=10 | Cuando el anuncio se copie para [!DNL Microsoft® Advertising] anuncios de texto expandidos, [!DNL Yahoo! Japan ads], o [!DNL Yandex] se cambia el anuncio existente, se elimina y se crea uno nuevo.<br><br>Cuando se cambia la copia de anuncio para otros tipos de anuncio o cuando se utiliza la columna aplicable para un anuncio. [!DNL Google Ads] parámetro de anuncio ({param1} o {param2}) en un anuncio, el anuncio existente se actualiza. |
+| Los datos de la fuente contienen un nuevo valor para una columna que se utiliza en un anuncio. | Archivo anterior: Un anuncio incluido precio=20<br><br>Nuevo archivo: Para el mismo anuncio, precio=10 | Cuando el anuncio se copie para [!DNL Microsoft Advertising] anuncios de texto expandidos, [!DNL Yahoo! Japan ads], o [!DNL Yandex] se cambia el anuncio existente, se elimina y se crea uno nuevo.<br><br>Cuando se cambia la copia de anuncio para otros tipos de anuncio o cuando se utiliza la columna aplicable para un anuncio. [!DNL Google Ads] parámetro de anuncio ({param1} o {param2}) en un anuncio, el anuncio existente se actualiza. |
 | La configuración de la plantilla para la campaña, el grupo de anuncios, la palabra clave o el grupo de productos ha cambiado desde la última propagación. | Configuración anterior:Palabra clave=[Palabra clave]<br><br>Nueva configuración: Palabra clave=&lt;color>[Palabra clave] | Se crea una nueva campaña, grupo de anuncios, palabra clave o grupo de productos si no existe en la red de anuncios. |
-| La configuración de la plantilla para un anuncio ha cambiado desde la última propagación. | Configuración anterior: Descripción del anuncio=&quot;Buy&quot; [categoría] ahora&quot;.<br><br>Nueva configuración: Descripción del anuncio=&quot;Comprar [marca] ahora&quot;. | Cuando el anuncio se copie para [!DNL Microsoft® Advertising] anuncios de texto expandidos, [!DNL Yahoo! Japan ads], o [!DNL Yandex] se cambia el anuncio existente, se elimina y se crea uno nuevo.<br><br>Cuando se cambia la copia de anuncio para otros tipos de anuncio o cuando el cambio refleja un cambio en la columna utilizada para un único anuncio [!DNL Google Ads] parámetro de anuncio ({param1} o {param2}) en un anuncio, el anuncio existente se actualiza. |
+| La configuración de la plantilla para un anuncio ha cambiado desde la última propagación. | Configuración anterior: Descripción del anuncio=&quot;Buy&quot; [categoría] ahora&quot;.<br><br>Nueva configuración: Descripción del anuncio=&quot;Comprar [marca] ahora&quot;. | Cuando el anuncio se copie para [!DNL Microsoft Advertising] anuncios de texto expandidos, [!DNL Yahoo! Japan ads], o [!DNL Yandex] se cambia el anuncio existente, se elimina y se crea uno nuevo.<br><br>Cuando se cambia la copia de anuncio para otros tipos de anuncio o cuando el cambio refleja un cambio en la columna utilizada para un único anuncio [!DNL Google Ads] parámetro de anuncio ({param1} o {param2}) en un anuncio, el anuncio existente se actualiza. |
 | Los nuevos datos de fuente no incluyen una fila para una campaña o grupo de anuncios existente. | n/a | Las campañas y grupos de anuncios existentes permanecen tal cual. |
 | Los nuevos datos de fuente no incluyen una fila para un grupo de anuncios, anuncio, palabra clave o grupo de productos existente. | n/a | El grupo de anuncios, el anuncio, la palabra clave o el grupo de productos existentes permanecen tal cual, se pausan o se eliminan, según el [configuración de datos de fuente](feed-settings-manage.md#feed-data-settings). |
 | Los nuevos datos de fuente de un grupo de productos principal existente no incluyen filas para sus grupos de productos secundarios existentes. | n/a | El grupo de productos principal existente permanece tal cual o se elimina, según el [configuración de datos de fuente](feed-settings-manage.md#feed-data-settings). <b>Nota:</b> Si la configuración de los datos de fuente está configurada para poner en pausa los elementos de línea que faltan, el grupo de productos principal se eliminará porque no se pueden poner en pausa los grupos de productos. |

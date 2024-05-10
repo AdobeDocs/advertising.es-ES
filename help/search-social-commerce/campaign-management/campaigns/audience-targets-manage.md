@@ -1,20 +1,20 @@
 ---
 title: Administrar destinatarios de audiencia para campañas y grupos de anuncios
-description: Obtenga información sobre cómo configurar y administrar los destinatarios de audiencia para su [!DNL Google Ads] y [!DNL Microsoft® Advertising] campañas y grupos de publicidad.
+description: Obtenga información sobre cómo configurar y administrar los destinatarios de audiencia para su [!DNL Google Ads] y [!DNL Microsoft Advertising] campañas y grupos de publicidad.
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
 
 ---
 
-# Administre los destinatarios de audiencia para sus [!DNL Google Ads] y [!DNL Microsoft® Advertising] campañas y grupos de publicidad
+# Administre los destinatarios de audiencia para sus [!DNL Google Ads] y [!DNL Microsoft Advertising] campañas y grupos de publicidad
 
-*[!DNL Google Ads]y [!DNL Microsoft® Advertising] solamente*
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] solamente*
 
-[!DNL Google Ads] campañas y grupos de publicidad, y [!DNL Microsoft® Advertising] los grupos de anuncios pueden dirigirse a audiencias específicas desde la misma red de anuncios. La red de anuncios determina el tamaño de la audiencia a la que se debe dirigir.
+[!DNL Google Ads] campañas y grupos de publicidad, y [!DNL Microsoft Advertising] los grupos de anuncios pueden dirigirse a audiencias específicas desde la misma red de anuncios. La red de anuncios determina el tamaño de la audiencia a la que se debe dirigir.
 
 >[!NOTE]
 >

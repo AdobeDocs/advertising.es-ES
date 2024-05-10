@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Bing Ads Geo Report]'
 description: Obtenga información acerca de [!UICONTROL Bing Ads Geo Report].
-exl-id: b14e5039-4af6-43de-925c-429f537dad6a
+exl-id: 8829ac72-d622-485d-abfb-310778f266b7
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Bing Ads Geo Report]
 
-*[!DNL Microsoft® Advertising]solo cuentas*
+*[!DNL Microsoft Advertising]solo cuentas*
 
 El [!UICONTROL Bing Ads Geo Report] incluye datos de coste, clics, impresiones y (opcionalmente) métricas derivadas por combinaciones de país/región/código de metro/ciudad para cada grupo de anuncios en una o más cuentas. De forma predeterminada, los datos incluyen una fila para cada combinación de país, región, código de metro o ciudad que recibió al menos una impresión o clic para cada grupo de anuncios aplicable y para cada unidad de tiempo en el intervalo de fechas especificado. Las filas están en orden ascendente por nombre de campaña y luego por país, región, código de metro, ciudad y luego grupo de anuncios, de forma predeterminada. El informe no incluye datos de conversión rastreados por [!DNL Microsoft Advertising] ni [!DNL Adobe].
 
@@ -20,7 +20,7 @@ Puede ver los datos de los dos meses anteriores.
 
 >[!NOTE]
 >
->* Los totales de este informe pueden diferir de los totales de las mismas campañas y períodos de tiempo en el [!UICONTROL Geo Distribution Report] (que Search, Social y Commerce compila) debido a los diferentes proveedores y metodologías para determinar las ubicaciones geográficas.
+>* Los totales de este informe pueden diferir de los totales de las mismas campañas y períodos de tiempo en el [!UICONTROL Geo Distribution Report] (que Search, Social y Commerce compilan) debido a los diferentes proveedores y metodologías para determinar las ubicaciones geográficas.
 >* Los datos de este informe se recuperan todos los días el día anterior a las 23:00 (23:00 h). Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
 
 ## Columnas predeterminadas
@@ -48,6 +48,6 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 
 >[!MORELIKETHIS]
 >
-* [Acerca de los informes especiales](specialty-report-about.md)
-* [Generar un informe de especialidad](specialty-report-generate.md)
-* [Configuración de informes especiales](specialty-report-settings.md)
+>* [Acerca de los informes especiales](specialty-report-about.md)
+>* [Generar un informe de especialidad](specialty-report-generate.md)
+>* [Configuración de informes especiales](specialty-report-settings.md)

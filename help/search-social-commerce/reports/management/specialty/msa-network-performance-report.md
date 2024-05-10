@@ -3,22 +3,22 @@ title: El [!UICONTROL MSA Network Performance Report]
 description: Obtenga información acerca de [!UICONTROL MSA Network Performance Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: da2b85e9-5e78-4a1c-9268-8686f025e80c
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
 # El [!UICONTROL MSA Network Performance Report]
 
-*[!DNL Microsoft® Advertising]solo cuentas*
+*[!DNL Microsoft Advertising]solo cuentas*
 
-Este informe muestra el rendimiento a nivel de campaña (coste, clics, impresiones y [!DNL Microsoft® Advertising]ingresos rastreados) por distribución de publicidad (búsqueda o audiencia) para [!DNL Microsoft® Advertising] cuentas.
+Este informe muestra el rendimiento a nivel de campaña (coste, clics, impresiones y [!DNL Microsoft Advertising]ingresos rastreados) por distribución de publicidad (búsqueda o audiencia) para [!DNL Microsoft Advertising] cuentas.
 
 Cuando se ejecuta un informe solo con columnas de métricas y sin dimensiones, el informe generado contiene dos filas duplicadas: una con datos agregados y otra con todas las métricas.
 
-Puede ver los datos de los últimos 180 días. Search, Social y Commerce extrae los datos de [!DNL Microsoft Advertising] en tiempo real y puede tardar varios minutos en generar informes con un volumen de datos mayor.
+Puede ver los datos de los últimos 180 días. Search, Social y Commerce extraen los datos de [!DNL Microsoft Advertising] en tiempo real y puede tardar varios minutos en generar informes con un volumen de datos mayor.
 
 >[!NOTE]
 >

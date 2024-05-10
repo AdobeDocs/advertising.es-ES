@@ -1,9 +1,9 @@
 ---
 title: Exportar datos para alertas personalizadas
 description: Obtenga información sobre cómo exportar datos de una alerta activada a un archivo.
-exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Exportar datos para alertas personalizadas
 
-Puede exportar datos de una alerta activada o datos de la alerta activada más recientemente para una plantilla de alerta como [!DNL Microsoft® Excel] libro ([XLS](/help/search-social-commerce/glossary.md#w-x) ), valores separados por tabulaciones ([TSV](/help/search-social-commerce/glossary.md#s-t)) o un archivo de valores separados por comas ([CSV](/help/search-social-commerce/glossary.md#c-d)) archivo. Los informes descargables están disponibles durante diez días después de activarse la alerta y, a continuación, se eliminan automáticamente.
+Puede exportar datos de una alerta activada o datos de la alerta activada más recientemente para una plantilla de alerta como [!DNL Microsoft Excel] libro ([XLS](/help/search-social-commerce/glossary.md#w-x) ), valores separados por tabulaciones ([TSV](/help/search-social-commerce/glossary.md#s-t)) o un archivo de valores separados por comas ([CSV](/help/search-social-commerce/glossary.md#c-d)) archivo. Los informes descargables están disponibles durante diez días después de activarse la alerta y, a continuación, se eliminan automáticamente.
 
 1. Realice una de las acciones siguientes:
 

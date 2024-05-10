@@ -3,7 +3,7 @@ title: Acerca del seguimiento para Search, Social y Commerce
 description: Obtenga información acerca de las opciones de seguimiento para Search, Social y Commerce.
 exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Acerca del seguimiento para Search, Social y Commerce
 
-Para realizar un seguimiento del rendimiento de sus anuncios, busque, Social y Commerce necesita datos de impresión, clics, costes y conversiones (transacciones) para sus anuncios. Search, Social y Commerce utilizan estos datos para crear los modelos de previsión de datos que necesita para optimizar sus portafolios de anuncios.
+Para realizar un seguimiento del rendimiento de las publicidades, busque, Social y Commerce necesita datos de impresión, clics, costes y conversiones (transacciones) para sus anuncios. Search, Social y Commerce utilizan estos datos para crear los modelos de previsión de datos que necesita para optimizar sus portafolios de anuncios.
 
 ## Datos de costos, clics e impresiones
 
-Search, Social y Commerce recupera datos de impresiones, clics y costes directamente de [redes de publicidad admitidas](/help/search-social-commerce/introduction/supported-inventory.md) cada día. Además, Search, Social y Commerce pueden añadir un código de seguimiento de clics único (incluida la redirección a un servidor de seguimiento) en las plantillas de seguimiento y en las URL de destino para rastrear las impresiones de visualización/contenido, los clics y el coste, y luego enlazar los eventos a las conversiones.
+Search, Social y Commerce recuperan los datos de impresiones, clics y costes directamente de [redes de publicidad admitidas](/help/search-social-commerce/introduction/supported-inventory.md) cada día. Además, Search, Social y Commerce pueden agregar un código de seguimiento de clics único (que incluye una redirección a un servidor de seguimiento) en las plantillas de seguimiento y en las direcciones URL de destino para rastrear las impresiones de visualización/contenido, los clics y el coste, y luego enlazar los eventos a las conversiones.
 
-Si desea rastrear campañas en redes de anuncios con las que Search, Social y Commerce no sincroniza datos, debe proporcionar datos para esas campañas enviando un archivo de fuente diario con los datos de impresión, clics y costes.
+Si desea realizar un seguimiento de las campañas en redes publicitarias con las que Search, Social y Commerce no sincroniza datos, debe proporcionar datos para esas campañas enviando un archivo de fuente diario con los datos de impresiones, clics y costes.
 
 ### Etiquetas de rastreo de clics
 
-Su equipo de implementación de Search, Social y Commerce configura el rastreo de clics actualizando las plantillas de seguimiento y las URL de destino para las extensiones de anuncios, palabras clave, ubicaciones, grupos de productos y vínculos de sitios en sus campañas de anuncios sincronizados para incluir una cadena de ID de seguimiento única y una redirección de Adobe Advertising. También agregan seguimiento a los sufijos de la página de aterrizaje (sufijos finales de la URL) para su [!DNL Google Ads] y [!DNL Microsoft® Advertising] cuentas y campañas.
+Su equipo de implementación de Search, Social y Commerce configura el rastreo de clics actualizando las plantillas de seguimiento y las URL de destino para las extensiones de anuncios, palabras clave, ubicaciones, grupos de productos y vínculos de sitios en sus campañas de anuncios sincronizados para incluir una cadena de ID de seguimiento única y una redirección de Adobe Advertising. También agregan seguimiento a los sufijos de la página de aterrizaje (sufijos finales de la URL) para su [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas y campañas.
 
 Los parámetros de seguimiento permiten que el Adobe Advertising rastree los clics en un nivel de palabra clave individual (campañas de búsqueda) o de variación de anuncio (campañas de búsqueda con objetivo de contenido o sitio, campañas de visualización y campañas sociales). Cada vez que un usuario ve un anuncio en pantalla/contenido o hace clic en uno de sus anuncios, la red de anuncios envía el evento a los servidores de píxeles de Adobe Advertising mediante una etiqueta de seguimiento de clics asociada con la palabra clave o el anuncio. Para clics:
 
-* Para [!DNL Google Ads] y [!DNL Microsoft® Advertising] anuncios en exploradores que admiten el seguimiento paralelo, la red de anuncios envía el clic a su sitio web primero y, a continuación, a los servidores de píxeles de Adobe Advertising, que luego colocan una cookie en el equipo del usuario, si no existe todavía.
+* Para [!DNL Google Ads] y [!DNL Microsoft Advertising] anuncios en exploradores que admiten el seguimiento paralelo, la red de anuncios envía el clic a su sitio web primero y, a continuación, a los servidores de píxeles de Adobe Advertising, que luego colocan una cookie en el equipo del usuario, si no existe todavía.
 
 * En todos los demás casos, la red publicitaria envía el clic directamente a los servidores de píxeles de Adobe Advertising. El servidor de píxeles coloca una cookie en el equipo del usuario (si aún no existe) y luego redirige al usuario a la URL correspondiente del sitio web. La experiencia general para el usuario final es la misma que sería sin una redirección.
 
@@ -34,7 +34,7 @@ La cookie se establece en [!DNL Adobe] dominio (`everesttech.net`) como cookie d
 
 ## Datos de conversión
 
-Cuando un cliente hace clic en un anuncio o visualiza un anuncio en pantalla o social, Search, Social y Commerce deben asignar cada conversión resultante de nuevo al clic o a la impresión de visualización/social que lo origina.
+Cuando un cliente hace clic en un anuncio o visualiza un anuncio en pantalla o en medios sociales, Search, Social y Commerce deben asignar cada conversión resultante de nuevo al clic o a la impresión social o de visualización de origen.
 
 El anunciante desempeña un papel en el suministro de los datos de conversión para todos los clics y visualizaciones/impresiones sociales. Los datos de conversión pueden incluir información sobre cualquier tipo de evento que se produce en un sitio web y que puede utilizarse para la optimización de ofertas. Puede proporcionar datos de conversión implementando el código de seguimiento de conversión en las páginas de conversión del anunciante (como la página de &quot;éxito&quot; que se muestra después de que un cliente complete una transacción) o enviando un archivo de fuente diario con datos de conversión capturados por otro método.
 

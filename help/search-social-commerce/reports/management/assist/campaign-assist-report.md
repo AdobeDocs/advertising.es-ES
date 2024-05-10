@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Campaign Assist Report]'
 description: Obtenga información acerca de [!UICONTROL Campaign Assist Report].
-exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
+exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
 
 # El [!UICONTROL Campaign Assist Report]
 
-*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
+*Anunciantes con seguimiento de clics de Search, Social y Commerce, y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con un [!DNL Analytics] integración de ), o se proporciona en fuentes mediante un token (`ef_id`) solamente*
 
 El [!UICONTROL Campaign Assist Report] indica qué campañas han ayudado en el proceso de conversión. Los informes muestran cómo cada patrón de campañas cuyos anuncios produjeron una o más conversiones ha contribuido a las conversiones generales. Por ejemplo, puede ver cuántas conversiones se produjeron cuando los usuarios vieron un anuncio por primera vez desde la Campaña A, luego hicieron clic en un anuncio de la Campaña B y, por último, realizaron un pedido. Del mismo modo, puede ver cuántas conversiones se produjeron después de que los usuarios interactuaran con los anuncios de más de 10 campañas.
 
@@ -46,7 +46,7 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[métrica de conversión\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe) La latencia promedio en días desde el último evento (en la última campaña) hasta una conversión. |
 | [!UICONTROL EF Campaign ID] | Personalizado | El ID numérico que Search, Social y Commerce asignan a la campaña. |
 | [!UICONTROL EF Portfolio Group ID] | Personalizado | El ID numérico del grupo de portafolios al que pertenece el portafolio. |
-| [!UICONTROL EF Search Engine ID] | Personalizado | El ID numérico que Search, Social y Commerce asignan a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto), o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | Personalizado | El ID numérico que Search, Social y Commerce asignan a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto), o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL Portfolio ID] | El ID numérico del portafolio. |
 | [!UICONTROL User SE Account ID] | El ID numérico que Search, Social y Commerce asignan a la red de anuncios. |
 

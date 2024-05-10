@@ -1,11 +1,11 @@
 ---
 title: Descarga de datos desde una vista de administración de campañas
 description: Obtenga información sobre cómo descargar datos de la mayoría de las vistas de administración de campañas.
-exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puede descargar datos desde el [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] vistas, excepto la [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences], y [!UICONTROL Extensions] vistas. Puede descargar lo siguiente:
 
-* Un informe en [!DNL XLSM] (habilitado para macros [!DNL Microsoft® Excel] hoja de cálculo). Si selecciona filas específicas en la vista, el informe incluye una fila para cada fila seleccionada. Si no selecciona ninguna fila, se crea una fila para cada fila de la vista.
+* Un informe en [!DNL XLSM] (habilitado para macros [!DNL Microsoft Excel] hoja de cálculo). Si selecciona filas específicas en la vista, el informe incluye una fila para cada fila seleccionada. Si no selecciona ninguna fila, se crea una fila para cada fila de la vista.
 
 * Archivo de hoja de edición masiva en formato TXT que incluye todas las entidades secundarias relevantes. Si selecciona filas para entidades en varias redes de publicidad, se crea un archivo para cada red de publicidad relevante. Si no selecciona ninguna fila, se crea un archivo para cada red de publicidad representada en la vista. Los archivos de hojas de edición masiva generados para diferentes redes de anuncios incluyen diferentes columnas de datos.
 

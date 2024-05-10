@@ -1,9 +1,9 @@
 ---
 title: Ver datos generados a partir de fuentes
 description: Obtenga información sobre cómo ver los datos generados a partir de las fuentes de datos de inventario.
-exl-id: 961155ac-a9d3-42e4-904b-b968e9f3383b
+exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Ver datos generados a partir de fuentes
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
 Cuando propaga datos de fuente sin publicarlos simultáneamente en la red de publicidad, puede obtener una vista previa de los datos de una de las siguientes maneras. Más adelante puede, opcionalmente [publicar datos](propagated-data-post.md) desde cualquier ubicación a las redes de publicidad relevantes.
 

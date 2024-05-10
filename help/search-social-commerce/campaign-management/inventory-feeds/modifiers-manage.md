@@ -1,9 +1,9 @@
 ---
 title: Administrar modificadores
 description: Obtenga información sobre cómo configurar y administrar modificadores para las plantillas de publicidad para las fuentes de datos de inventario.
-exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Administración de modificadores
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
 Los modificadores son adjetivos o adverbios que se pueden agregar o quitar de una frase sin cambiar la estructura básica de la oración. Puede crear grupos de modificadores para utilizarlos como variables en varios campos de datos en plantillas de datos de fuentes. Al incluir modificadores en los campos de estructura de cuenta (campaña y grupo de publicidad), palabras clave, direcciones URL base y anuncios, se crea un valor para cada modificador asociado. Por ejemplo, si utiliza una variable de grupo de modificadores en un titular de anuncio y el grupo de modificadores incluye tres modificadores (&quot;barato&quot;, &quot;descuento&quot; y &quot;asequible&quot;), se crean tres anuncios independientes para cada fila de datos de la fuente de datos, uno para cada modificador. Del mismo modo, si se incluye un grupo de modificadores con varios valores en la dirección URL base de un grupo de anuncios, se crea un conjunto de palabras clave para cada una de las direcciones URL base resultantes.
 
@@ -32,7 +32,7 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 
    **[!UICONTROL Modifiers]:** Los valores modificadores del grupo (uno por línea).
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## Editar un grupo de modificadores
 
@@ -48,7 +48,7 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 
    **[!UICONTROL Modifiers]:** Los valores modificadores del grupo (uno por línea).
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## Eliminar grupos de modificadores
 

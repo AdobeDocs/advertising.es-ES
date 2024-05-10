@@ -1,34 +1,34 @@
 ---
 title: Administrar audiencias de coincidencia de clientes mediante listas de datos de clientes
-description: Obtenga información sobre cómo crear y editar [!DNL Google Ads] y [!DNL Microsoft® Advertising] audiencias de coincidencia de clientes de sus listas de datos de clientes.
+description: Obtenga información sobre cómo crear y editar [!DNL Google Ads] y [!DNL Microsoft Advertising] audiencias de coincidencia de clientes de sus listas de datos de clientes.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# Administrar [!DNL Google Ads] y [!DNL Microsoft® Advertising] audiencias de coincidencia de clientes que usan listas de datos de clientes
+# Administrar [!DNL Google Ads] y [!DNL Microsoft Advertising] audiencias de coincidencia de clientes que usan listas de datos de clientes
 
-Puede crear [!DNL Google Ads] y [!DNL Microsoft® Advertising] audiencias de coincidencia de clientes de sus listas de datos de clientes. También puede actualizar cualquier [!DNL Google Ads] o [!DNL Microsoft® Advertising] audiencia de coincidencia de clientes excepto para [!DNL Google Ads] audiencias creadas a partir de un [!DNL Adobe] audiencia.
+Puede crear [!DNL Google Ads] y [!DNL Microsoft Advertising] audiencias de coincidencia de clientes de sus listas de datos de clientes. También puede actualizar cualquier [!DNL Google Ads] o [!DNL Microsoft Advertising] audiencia de coincidencia de clientes excepto para [!DNL Google Ads] audiencias creadas a partir de un [!DNL Adobe] audiencia.
 
 ## Crear una audiencia afín de clientes a partir de una lista de datos de clientes
 
-*[!DNL Google Ads]y [!DNL Microsoft® Advertising] cuentas elegibles solo para la confrontación con clientes*
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] cuentas elegibles solo para la confrontación con clientes*
 
-Puede crear un [!DNL Google Ads] o [!DNL Microsoft® Advertising] lista basada en datos de cliente a partir de un archivo de datos que genere desde su sistema de administración de la relación con los clientes (CRM).
+Puede crear un [!DNL Google Ads] o [!DNL Microsoft Advertising] lista basada en datos de cliente a partir de un archivo de datos que genere desde su sistema de administración de la relación con los clientes (CRM).
 
-Para [!DNL Microsoft® Advertising] cuentas, el archivo puede incluir direcciones de correo electrónico. Para [!DNL Google Ads] En el caso de las cuentas de, el archivo puede incluir direcciones de correo electrónico, direcciones de correo o números de teléfono; ID de usuario o ID de dispositivo móvil de su CRM.
+Para [!DNL Microsoft Advertising] cuentas, el archivo puede incluir direcciones de correo electrónico. Para [!DNL Google Ads] En el caso de las cuentas de, el archivo puede incluir direcciones de correo electrónico, direcciones de correo o números de teléfono; ID de usuario o ID de dispositivo móvil de su CRM.
 
 >[!NOTE]
 >
->Search, Social y Commerce no almacenan ninguno de los datos de clientes que carga o del [!DNL Adobe] segmentos utilizados para crear o editar un [!DNL Google Ads] o [!DNL Microsoft® Advertising] audiencia.
+>Search, Social y Commerce no almacenan ninguno de los datos de clientes que carga o del [!DNL Adobe] segmentos utilizados para crear o editar un [!DNL Google Ads] o [!DNL Microsoft Advertising] audiencia.
 
 1. Genere un archivo con los datos del cliente en el formato requerido.
 
-   El nombre y los apellidos, las direcciones de correo electrónico y los números de teléfono deben tener un cifrado hash con el algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] audiencias, consulte las [!DNL Google Ads] documentación sobre &quot;[Directrices de formato para cargar datos con hash](https://support.google.com/google-ads/answer/7476159)&quot; para obtener una lista de los campos y requisitos de información de contacto permitidos. Para [!DNL Microsoft® Advertising] audiencias, consulte las [!DNL Microsoft® Advertising] documentación sobre [preparación de listas de coincidencia de clientes](https://help.ads.microsoft.com/#apex/ads/en/56921. Si lo desea, puede descargar un [!DNL Microsoft® Excel] plantilla para información de contacto.
+   El nombre y los apellidos, las direcciones de correo electrónico y los números de teléfono deben tener un cifrado hash con el algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] audiencias, consulte las [!DNL Google Ads] documentación sobre &quot;[Directrices de formato para cargar datos con hash](https://support.google.com/google-ads/answer/7476159)&quot; para obtener una lista de los campos y requisitos de información de contacto permitidos. Para [!DNL Microsoft Advertising] audiencias, consulte las [!DNL Microsoft Advertising] documentación sobre [preparación de listas de coincidencia de clientes](https://help.ads.microsoft.com/#apex/ads/en/56921. Si lo desea, puede descargar un [!DNL Microsoft Excel] plantilla para información de contacto.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -85,13 +85,13 @@ Para [!DNL Microsoft® Advertising] cuentas, el archivo puede incluir direccione
 
 ## Edición de una audiencia afín de clientes mediante una lista de datos de clientes
 
-Puede actualizar cualquier [!DNL Google Ads] o [!DNL Microsoft® Advertising] audiencia de coincidencia de clientes excepto para [!DNL Google Ads] audiencias creadas a partir de un [!DNL Adobe] audiencia. Puede cargar datos para agregar, eliminar o reemplazar todos los datos existentes de la audiencia.
+Puede actualizar cualquier [!DNL Google Ads] o [!DNL Microsoft Advertising] audiencia de coincidencia de clientes excepto para [!DNL Google Ads] audiencias creadas a partir de un [!DNL Adobe] audiencia. Puede cargar datos para agregar, eliminar o reemplazar todos los datos existentes de la audiencia.
 
 Los datos deben ser del mismo tipo que la lista de clientes original (direcciones de correo electrónico, direcciones de correo electrónico, números de teléfono, ID de usuario o ID de dispositivo móvil para una aplicación específica en un sistema operativo móvil específico).
 
 1. Genere un archivo con los datos del cliente en el formato requerido para el tipo de datos existente.
 
-El nombre y los apellidos, las direcciones de correo electrónico y los números de teléfono deben tener un cifrado hash con el algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] audiencias, consulte las [!DNL Google Ads] documentación sobre &quot;[Directrices de formato para cargar datos con hash](https://support.google.com/google-ads/answer/7476159)&quot; para obtener una lista de los campos y requisitos de información de contacto permitidos. Para [!DNL Microsoft® Advertising] audiencias, consulte las [!DNL Microsoft® Advertising] documentación sobre [preparación de listas de coincidencia de clientes](https://help.ads.microsoft.com/#apex/ads/en/56921. Si lo desea, puede descargar un [!DNL Microsoft® Excel] plantilla para información de contacto.
+El nombre y los apellidos, las direcciones de correo electrónico y los números de teléfono deben tener un cifrado hash con el algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para [!DNL Google Ads] audiencias, consulte las [!DNL Google Ads] documentación sobre &quot;[Directrices de formato para cargar datos con hash](https://support.google.com/google-ads/answer/7476159)&quot; para obtener una lista de los campos y requisitos de información de contacto permitidos. Para [!DNL Microsoft Advertising] audiencias, consulte las [!DNL Microsoft Advertising] documentación sobre [preparación de listas de coincidencia de clientes](https://help.ads.microsoft.com/#apex/ads/en/56921. Si lo desea, puede descargar un [!DNL Microsoft Excel] plantilla para información de contacto.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

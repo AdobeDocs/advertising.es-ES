@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre campañas
 description: Consulte respuestas a preguntas sobre administración de campañas y vistas de datos de campañas.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Además, [!DNL Google Ads] las métricas de rendimiento de nivel de campaña en 
 
 >[!NOTE]
 >
->(Anunciantes con portafolios) Espere que el rendimiento de las nuevas combinaciones de tipo palabra clave y tipo de coincidencia sea volátil mientras Search, Social y Commerce recopila datos para crear modelos para ellas.
+>(Anunciantes con portafolios) Espere que el rendimiento de las nuevas combinaciones de tipo palabra clave y tipo de coincidencia sea volátil mientras Search, Social y Commerce recopilan datos para crear modelos para ellas.
 
 **Acciones en la [!UICONTROL Search] > [!UICONTROL Campaigns] vistas, en el proceso de publicación de hojas de edición masiva y en el propio editor de ad network:**
 
@@ -38,11 +38,11 @@ La palabra clave o anuncio existente se elimina y se crea otro cuando:
 
 * ([!DNL Baidu], [!DNL Google Ads], y [!DNL Yandex]) Puede editar el nombre de una palabra clave.
 
-* ([!DNL Google Ads], [!DNL Microsoft® Advertising], y [!DNL Yandex]) Cambia el tipo de coincidencia de una palabra clave.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising], y [!DNL Yandex]) Cambia el tipo de coincidencia de una palabra clave.
 
 * Las palabras clave se mueven de un grupo de anuncios a otro.
 
-* ([!DNL Google Ads] anuncios dinámicos de búsqueda, [!DNL Microsoft® Advertising] anuncios de texto expandidos y todos los tipos de anuncios en otras redes de publicidad admitidas) Puede editar una copia de anuncio (titular, título o descripción) o una imagen de anuncio.
+* ([!DNL Google Ads] anuncios dinámicos de búsqueda, [!DNL Microsoft Advertising] anuncios de texto expandidos y todos los tipos de anuncios en otras redes de publicidad admitidas) Puede editar una copia de anuncio (titular, título o descripción) o una imagen de anuncio.
 
 * Puede mover un anuncio entre grupos de anuncios.
 
@@ -67,7 +67,7 @@ Según la variable [configuración de datos de fuente](/help/search-social-comme
 
 +++()[!DNL Google Ads] campañas) Cambios en los nombres para mostrar de mi [!DNL Google]Se han revertido las conversiones no rastreadas.
 
-Si cambia los nombres para mostrar de las métricas de conversión en Buscar, Social y Comercio, los cambios se sobrescribirán con los nombres configurados en [!DNL Google Ads]. Realice cualquier cambio de nombre en [!DNL Google Ads].
+Si cambia los nombres para mostrar de las métricas de conversión en Buscar, Social y Commerce, los cambios se sobrescribirán con los nombres configurados en [!DNL Google Ads]. Realice cualquier cambio de nombre en [!DNL Google Ads].
 +++
 
 +++(Campañas de Google Ads) ¿Puedo utilizar un presupuesto compartido para campañas en portafolios?
@@ -87,7 +87,7 @@ Puede usar el complemento [!DNL Google Ads] [!DNL ValueTrack] parámetros `{ifmo
 
   Por ejemplo, `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` lleva los usuarios móviles a www.example.mobi y los usuarios no móviles a www.example.com.
 
-En ambos casos, las direcciones URL base con seguimiento de búsqueda, social y comercial incluyen el código no codificado `{}` y cualquier parámetro adicional anexado a la dirección URL base.
+En ambos casos, las direcciones URL base con seguimiento de búsqueda, social y Commerce incluyen el código no codificado `{}` y cualquier parámetro adicional anexado a la dirección URL base.
 
 >[!NOTE]
 >
@@ -109,24 +109,24 @@ En el [!UICONTROL Campaigns] en ambas etiquetas [!UICONTROL Search] > [!UICONTRO
 
 +++¿Cuál es la diferencia entre una plantilla de seguimiento y un sufijo de página de aterrizaje?
 
-Utilice un sufijo de página de aterrizaje solo para redes de anuncios que admitan el seguimiento paralelo. En Search, Social y Commerce, tanto las plantillas de seguimiento como los sufijos de la página de aterrizaje deben incluir un identificador de clic de la red de publicidad, pero las plantillas de seguimiento incluyen parámetros de seguimiento adicionales.
+Utilice un sufijo de página de aterrizaje solo para redes de anuncios que admitan el seguimiento paralelo. En Search, Social y Commerce, tanto las plantillas de seguimiento como los sufijos de página de aterrizaje deben incluir un identificador de clic de la red de publicidad, pero las plantillas de seguimiento incluyen parámetros de seguimiento adicionales.
 
 Consulte las siguientes preguntas frecuentes sobre [compatibilidad con seguimiento paralelo](#parallel-tracking) para obtener más información acerca de cómo se cargan las plantillas de seguimiento y los sufijos de página de aterrizaje cuando un usuario hace clic en un anuncio.
 
 +++
 
-+++()[!DNL Google Ads] y [!DNL Microsoft® Advertising]) ¿Search, Social y Commerce admiten el seguimiento paralelo de anuncios en? [!DNL Google Ads] o [!DNL Microsoft® Advertising]? {#parallel-tracking}
++++()[!DNL Google Ads] y [!DNL Microsoft Advertising]) ¿Search, Social y Commerce admiten el seguimiento paralelo de anuncios en? [!DNL Google Ads] o [!DNL Microsoft Advertising]? {#parallel-tracking}
 
 El seguimiento paralelo envía a los clientes directamente desde su anuncio a la dirección URL final, que puede incluir parámetros añadidos desde un sufijo de dirección URL final o un &quot;sufijo de página de aterrizaje&quot;. La dirección URL de la plantilla de seguimiento (con parámetros adicionales para la medición de clics) se carga por separado en segundo plano; como resultado, la página de aterrizaje se carga más rápido.
 
-Search, Social y Commerce admiten el seguimiento paralelo de campañas de búsqueda y compras mediante el identificador de clic ( ) de la red de publicidad`msclkid` para [!DNL Microsoft® Advertising]; `gclid` para [!DNL Google Ads]). Utilice un [account-level](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) o [campaign-level](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (llamado &quot;[!DNL final URL suffix]&quot; en las redes de anuncios), que se anexa a las direcciones URL de la página de aterrizaje para rastrear clics en anuncios secundarios de exploradores que admiten el seguimiento paralelo. Consulte la [formatos de sufijo necesarios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) y [formatos de sufijo necesarios para [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Search, Social y Commerce admiten el seguimiento paralelo para campañas de búsqueda y compra que utilizan el identificador de clic ( ) de la red de publicidad`msclkid` para [!DNL Microsoft Advertising]; `gclid` para [!DNL Google Ads]). Utilice un [account-level](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) o [campaign-level](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (llamado &quot;[!DNL final URL suffix]&quot; en las redes de anuncios), que se anexa a las direcciones URL de la página de aterrizaje para rastrear clics en anuncios secundarios de exploradores que admiten el seguimiento paralelo. Consulte la [formatos de sufijo necesarios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) y [formatos de sufijo necesarios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-Cuando un usuario ve su anuncio en un navegador que no admite el seguimiento paralelo, la red de anuncios utiliza el seguimiento secuencial en su lugar: los clientes se envían primero a la URL de la plantilla de seguimiento, lo que puede redirigir a los clientes a servidores de seguimiento intermedios antes de redirigirlos a la URL final (que puede incluir parámetros adicionales en un sufijo de página de aterrizaje). Todas las plantillas de seguimiento de una cuenta de red de publicidad deben incluir el mismo parámetro de identificador de clic que utiliza en la [!UICONTROL Landing Page Suffix]. Consulte la [formatos de plantilla de seguimiento para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) y el [formatos de plantilla de seguimiento para [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Cuando un usuario ve su anuncio en un navegador que no admite el seguimiento paralelo, la red de anuncios utiliza el seguimiento secuencial en su lugar: los clientes se envían primero a la URL de la plantilla de seguimiento, lo que puede redirigir a los clientes a servidores de seguimiento intermedios antes de redirigirlos a la URL final (que puede incluir parámetros adicionales en un sufijo de página de aterrizaje). Todas las plantillas de seguimiento de una cuenta de red de publicidad deben incluir el mismo parámetro de identificador de clic que utiliza en la [!UICONTROL Landing Page Suffix]. Consulte la [formatos de plantilla de seguimiento para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) y el [formatos de plantilla de seguimiento para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++¿Por qué las direcciones URL de seguimiento para mis anuncios incluyen?`&EV_HASH={<hash>}`?&quot;
 
-Al cargar anuncios mediante una variable [fuente de inventario de productos](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) para una cuenta con el redireccionamiento de píxeles de Search, Social y Commerce y con seguimiento de nivel creativo y de palabra clave, Search, Social y Commerce agrega el parámetro hash y el valor a la plantilla de seguimiento o a la URL de destino del anuncio para identificar que se creó con la función de fuente de inventario.
+Al cargar anuncios mediante una variable [fuente de inventario de productos](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) Para una cuenta con el redireccionamiento de píxeles de Search, Social y Commerce y con el seguimiento de nivel creativo y de palabra clave, Search, Social y Commerce añaden el parámetro hash y el valor a la plantilla de seguimiento o la dirección URL de destino del anuncio para identificar que se creó con la función de fuente de inventario.
 +++
 
 ## Fuentes de inventario

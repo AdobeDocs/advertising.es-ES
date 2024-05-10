@@ -1,20 +1,20 @@
 ---
 title: Asociar vínculos de sitios compartidos con cuentas, campañas y grupos de anuncios
 description: Obtenga información sobre cómo asignar extensiones de vínculos de sitios compartidos a cuentas, campañas y grupos de anuncios.
-exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # Asociar vínculos de sitios compartidos con cuentas, campañas y grupos de anuncios
 
-*[!DNL Google Ads]y [!DNL Microsoft® Advertising] solamente*
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] solamente*
 
-Puede crear extensiones de anuncio asignando vínculos de sitio desde su [!DNL Sitelinks] biblioteca para entidades de cuenta, solo para uso en la red de búsqueda. Para [!DNL Google Ads] En las cuentas de, puede asignar vínculos de sitios a cuentas de o a campañas y grupos de anuncios en la red de búsqueda. Para [!DNL Microsoft® Advertising] cuentas, puede asignar vínculos de sitios a campañas en la red de búsqueda (y a cuentas y grupos de anuncios) desde el [!DNL Microsoft® Advertising] administrador de anuncios).
+Puede crear extensiones de anuncio asignando vínculos de sitio desde su [!DNL Sitelinks] biblioteca para entidades de cuenta, solo para uso en la red de búsqueda. Para [!DNL Google Ads] En las cuentas de, puede asignar vínculos de sitios a cuentas de o a campañas y grupos de anuncios en la red de búsqueda. Para [!DNL Microsoft Advertising] cuentas, puede asignar vínculos de sitios a campañas en la red de búsqueda (y a cuentas y grupos de anuncios) desde el [!DNL Microsoft Advertising] administrador de anuncios).
 
 Debe tener al menos seis vínculos de sitio activos tanto para escritorio como para móvil para que los vínculos de sitio aparezcan con anuncios. Puede asignar hasta 20 vínculos de sitio por cuenta, campaña o grupo de anuncios.
 
@@ -38,7 +38,7 @@ Debe tener al menos seis vínculos de sitio activos tanto para escritorio como p
 
    * Seleccione el círculo (![Seleccionar](/help/search-social-commerce/assets/include.png "Seleccionar")) junto a cada entidad a la que se asignan los vínculos de sitio.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >

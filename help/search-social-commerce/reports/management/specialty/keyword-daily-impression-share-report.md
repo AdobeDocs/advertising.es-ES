@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
 description: Obtenga información acerca de [!UICONTROL Keyword Daily Impression Share Report].
-exl-id: 177f7c9e-407f-4200-90a6-57b2fd569cf4
+exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Daily Impression Share Report]
 
-*[!DNL Google Ads]y [!DNL Microsoft® Advertising] solo cuentas*
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] solo cuentas*
 
 El [!UICONTROL Keyword Daily Impression Share Report] incluye métricas de cuota de impresiones diarias para cada palabra clave, el tipo de coincidencia correspondiente y el tipo de dispositivo correspondiente para uno o varios grupos de anuncios o campañas. De forma predeterminada, los datos incluyen una fila por cada palabra clave, tipo de coincidencia y dispositivo que recibió al menos una impresión o clic para cada grupo de anuncios aplicable y para cada día del intervalo de fechas especificado. De forma predeterminada, las filas están en orden ascendente según la fecha. El informe puede incluir opcionalmente datos rastreados por [!DNL Adobe] y métricas derivadas.
 

@@ -1,9 +1,9 @@
 ---
 title: Crear un [!DNL Excel] plantilla para una fuente de informes de hoja de cálculo
 description: Aprenda a crear plantillas de hoja de cálculo con formato especial.
-exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo para informes básicos e informes de precisión de modelo*
 
-Para crear fuentes de hoja de cálculo, primero debe crear fuentes con formato especial [!DNL Microsoft® Excel] plantillas de hoja de cálculo que utilizan plantillas de informe normales. Si lo desea, puede personalizar [!DNL Excel] para incluir columnas y gráficos adicionales.
+Para crear fuentes de hoja de cálculo, primero debe crear fuentes con formato especial [!DNL Microsoft Excel] plantillas de hoja de cálculo que utilizan plantillas de informe normales. Si lo desea, puede personalizar [!DNL Excel] para incluir columnas y gráficos adicionales.
 
 1. Entrada **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, genere el tipo de informe deseado con una [!UICONTROL Date Aggregation] unidad de &quot;[!UICONTROL Daily]&quot; y con todos los demás parámetros de datos que desee, guardando el informe como plantilla.
 

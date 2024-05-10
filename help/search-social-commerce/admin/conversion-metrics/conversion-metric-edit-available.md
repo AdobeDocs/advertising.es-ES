@@ -2,8 +2,8 @@
 title: Cambiar las métricas de conversión disponibles en las vistas de administración y en los informes
 description: Obtenga información sobre cómo hacer que las métricas de conversión estén disponibles en sus vistas de administración e informes.
 feature: Conversions
-exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Cambiar las métricas de conversión disponibles en las vistas de administración y en los informes
 
-Cuando el Adobe Advertising rastrea un [conversión](/help/search-social-commerce/glossary.md#c-d) para un anunciante, inicialmente se excluye de los objetivos del portafolio, los informes y las vistas de administración. Para que una métrica de conversión sea visible, debe habilitarla explícitamente y, opcionalmente, cambiar el nombre para mostrar predeterminado, que es el nombre que se muestra. La única excepción es que las conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft® Advertising] las etiquetas de seguimiento de eventos universales están disponibles y son visibles automáticamente.
+Cuando el Adobe Advertising rastrea un [conversión](/help/search-social-commerce/glossary.md#c-d) para un anunciante, inicialmente se excluye de los objetivos del portafolio, los informes y las vistas de administración. Para que una métrica de conversión sea visible, debe habilitarla explícitamente y, opcionalmente, cambiar el nombre para mostrar predeterminado, que es el nombre que se muestra. La única excepción es que las conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft Advertising] las etiquetas de seguimiento de eventos universales están disponibles y son visibles automáticamente.
 
 Del mismo modo, puede ocultar una métrica de conversión de objetivos de portafolio, informes y vistas de administración. Si oculta una métrica de conversión que anteriormente era visible, se elimina de cualquier métrica derivada que contenga la métrica de conversión.
 
@@ -50,10 +50,10 @@ De la lista de métricas de conversión disponibles, cada usuario con acceso a l
 
 >[!NOTE]
 >
->Si Adobe Advertising recopila datos para las nuevas métricas de conversión, entonces las nuevas métricas, excepto para las conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft® Advertising] etiquetas universales de seguimiento de eventos: se excluyen automáticamente de las vistas de administración y de los informes hasta que se incluyen. Nuevas conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft® Advertising] las etiquetas de seguimiento de eventos universales siempre están disponibles automáticamente.
+>Si Adobe Advertising recopila datos para las nuevas métricas de conversión, entonces las nuevas métricas, excepto para las conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft Advertising] etiquetas universales de seguimiento de eventos: se excluyen automáticamente de las vistas de administración y de los informes hasta que se incluyen. Nuevas conversiones rastreadas por [!DNL Google Ads], [!DNL Google Analytics], y [!DNL Microsoft Advertising] las etiquetas de seguimiento de eventos universales siempre están disponibles automáticamente.
 
 >[!MORELIKETHIS]
 >
-* [Acerca de la administración de las métricas de conversión de un anunciante](conversion-metric-about.md)
-* [Ver las métricas de conversión rastreadas de un anunciante](conversion-metric-view-tracked.md)
-* [Cambiar el nombre para mostrar de una métrica de conversión](conversion-metric-edit-display-name.md)
+>* [Acerca de la administración de las métricas de conversión de un anunciante](conversion-metric-about.md)
+>* [Ver las métricas de conversión rastreadas de un anunciante](conversion-metric-view-tracked.md)
+>* [Cambiar el nombre para mostrar de una métrica de conversión](conversion-metric-edit-display-name.md)

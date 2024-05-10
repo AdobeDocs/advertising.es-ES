@@ -3,7 +3,7 @@ title: Administrar plantillas de publicidad para fuentes de inventario
 description: Obtenga información acerca de la administración de plantillas de publicidad a través de las cuales se pueden procesar los datos de inventario para administrar la estructura de cuentas y enviar anuncios dinámicos.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Administrar plantillas de publicidad para fuentes de inventario
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
-Antes o después de cargar los datos, puede crear plantillas de publicidad específicas para motores de búsqueda a través de las cuales se pueden procesar los datos. Puede crear plantillas para anuncios de texto y anuncios de texto expandidos/extendidos, [!DNL Google Ads] y [!DNL Microsoft® Advertising] anuncios de búsqueda adaptables, y para [!DNL Google Ads] y [!DNL Microsoft® Advertising] anuncios de compras.
+Antes o después de cargar los datos, puede crear plantillas de publicidad específicas para motores de búsqueda a través de las cuales se pueden procesar los datos. Puede crear plantillas para anuncios de texto y anuncios de texto expandidos/extendidos, [!DNL Google Ads] y [!DNL Microsoft Advertising] anuncios de búsqueda adaptables, y para [!DNL Google Ads] y [!DNL Microsoft Advertising] anuncios de compras.
 
-Puede asociar cada plantilla con un archivo de fuente, [!DNL Google Merchant Center] cuenta, o [!DNL Microsoft® Merchant Center] y puede asociar varias plantillas con el mismo archivo de fuente o cuenta. Una plantilla de anuncio puede incluir variables que se sustituyen por columnas de datos reales de un archivo cargado o una cuenta. En la mayoría de los casos, las variables también pueden incluir [un grupo de modificadores](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) puede configurar en Search, Social y Commerce para crear varios anuncios, palabras clave, campañas o grupos de anuncios para cada fila aplicable del archivo de datos. Las opciones de plantilla le permiten crear una nueva estructura de cuentas (campañas, grupos de anuncios, palabras clave) para los anuncios o asignar los anuncios a la estructura de cuentas existente.
+Puede asociar cada plantilla con un archivo de fuente, [!DNL Google Merchant Center] cuenta, o [!DNL Microsoft Merchant Center] y puede asociar varias plantillas con el mismo archivo de fuente o cuenta. Una plantilla de anuncio puede incluir variables que se sustituyen por columnas de datos reales de un archivo cargado o una cuenta. En la mayoría de los casos, las variables también pueden incluir [un grupo de modificadores](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) puede configurar en Search, Social y Commerce para crear varios anuncios, palabras clave, campañas o grupos de anuncios para cada fila aplicable del archivo de datos. Las opciones de plantilla le permiten crear una nueva estructura de cuentas (campañas, grupos de anuncios, palabras clave) para los anuncios o asignar los anuncios a la estructura de cuentas existente.
 
 Además de crear nuevas plantillas desde cero, también puede crear nuevas plantillas clonando las existentes y editando las existentes.
 
@@ -26,7 +26,7 @@ Cualquier plantilla se puede activar, pausar o eliminar. Los datos de fuente se 
 
 ## Crear, clonar o editar una plantilla de fuente
 
-Cree plantillas independientes para anuncios de texto y expandidos/extendidos, anuncios de búsqueda interactivos, [!DNL Google Ads] anuncios de compra y [!DNL Microsoft® Advertising] anuncios de compras.
+Cree plantillas independientes para anuncios de texto y expandidos/extendidos, anuncios de búsqueda interactivos, [!DNL Google Ads] anuncios de compra y [!DNL Microsoft Advertising] anuncios de compras.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre a la [!UICONTROL Templates] pestaña.
 
@@ -42,7 +42,7 @@ Cree plantillas independientes para anuncios de texto y expandidos/extendidos, a
 
    * (Para editar una plantilla existente) Junto al nombre de la plantilla, haga clic en ![Ver/editar configuración](/help/search-social-commerce/assets/settings.png "Ver/editar configuración").
 
-1. Especifique la configuración para [plantilla de anuncio de texto](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] plantilla de anuncio de compra](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), o [[!DNL Microsoft® Advertising] plantilla de anuncio de compra](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
+1. Especifique la configuración para [plantilla de anuncio de texto](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] plantilla de anuncio de compra](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), o [[!DNL Microsoft Advertising] plantilla de anuncio de compra](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
    1. En la parte superior de la ventana de configuración de la plantilla, especifique el nombre de la plantilla y la cuenta aplicable.
 
@@ -158,5 +158,5 @@ Puede activar cualquier plantilla de fuente de datos en pausa o pausar cualquier
 >* [Automatización de la administración de anuncios mediante fuentes de inventario](../inventory-feeds-about.md)
 >* [Configuración de anuncios de texto y plantillas de anuncios de búsqueda adaptables](template-text-rsa.md)
 >* [[!DNL Google Ads] configuración de plantilla de anuncio de compras](template-google-shopping.md)
->* [[!DNL Microsoft® Advertising] configuración de plantilla de anuncio de compras](template-microsoft-shopping.md)
+>* [[!DNL Microsoft Advertising] configuración de plantilla de anuncio de compras](template-microsoft-shopping.md)
 >* [Propagación de datos de fuentes mediante plantillas](../feed-data-propagate.md)

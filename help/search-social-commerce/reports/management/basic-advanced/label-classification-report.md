@@ -3,7 +3,7 @@ title: '[!UICONTROL Label Classification Report]'
 description: Obtenga información acerca de [!UICONTROL Label Classification Report].
 exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puede ver los datos de los 36 meses anteriores.
 
 >[!NOTE]
 >
->* Los informes por clasificaciones de etiquetas de nivel de anuncio no están disponibles para [!DNL Microsoft® Advertising] campañas de anuncios dinámicos de búsqueda (DSA).
+>* Los informes por clasificaciones de etiquetas de nivel de anuncio no están disponibles para [!DNL Microsoft Advertising] campañas de anuncios dinámicos de búsqueda (DSA).
 >* Se puede aplicar más de una clasificación de etiquetas a la misma entidad, por lo que el total de cada métrica puede ser superior al total real de la entidad. Por ejemplo, supongamos que una palabra clave &quot;zapatos de ante&quot; tiene dos valores de etiqueta, &quot;ante&quot; y &quot;calzado&quot;, y la palabra clave recibió 100 clics. La columna Clics mostraría &quot;100&quot; para cada uno de esos valores de etiqueta, por lo que el total para ambas filas sería &quot;200&quot;.
 * Cualquier cambio que realice en las clasificaciones de etiquetas y en los valores de etiquetas secundarias de una entidad será visible en aproximadamente una hora.
 

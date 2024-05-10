@@ -1,11 +1,11 @@
 ---
 title: Errores de hoja de edición masiva
 description: Razones potenciales de referencia para cada error de hoja de edición masiva.
-exl-id: 0a259aca-2e9a-4e24-b4db-f8d0249d25d4
+exl-id: dc3559b0-05c0-4896-b9e9-67084f56ab80
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Los siguientes errores pueden estar incluidos en la [!UICONTROL EF Error] column
 |----|----|----|
 | General | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | Error total en la operación. Si el problema persiste, póngase en contacto con el equipo de cuenta de Adobe. |
 | Todas las entidades | [!UICONTROL Invalid Fields.] \[campos y errores no válidos\] | Faltan los datos especificados o no son válidos. |
-|  | [!UICONTROL Invalid Reference Given] | El ID de la entidad en la red de publicidad o el ID de una entidad principal (como el ID de cuenta) no corresponde a una entidad en Search, Social y Commerce. Esto puede ocurrir cuando editó el ID en la hoja de edición masiva. |
+|  | [!UICONTROL Invalid Reference Given] | El ID de la entidad en la red de publicidad o el ID de una entidad principal (como el ID de cuenta) no se corresponde con una entidad de Search, Social y Commerce. Esto puede ocurrir cuando editó el ID en la hoja de edición masiva. |
 |  | [!UICONTROL <Entity> is deleted or expired] | La entidad ha caducado o se ha eliminado y no puede cambiar sus propiedades. La entidad se puede eliminar cuando alguien edita el estado manualmente. |
 |  | [!UICONTROL <Entity> status should be Active or Paused] | (Nuevas entidades) Una nueva entidad solo puede estar &quot;Activa&quot; o &quot;En pausa&quot;. |
 |  | [!UICONTROL Duplicate Entries are present] | Se incluyen varias filas para la misma entidad, con atributos diferentes en cada fila. Consolide los cambios en una fila. |
 |  | [!UICONTROL Invalid AMO ID given] | El ID de AMO de la fila no existe. Esto puede ocurrir si editó el ID en la hoja de edición masiva. |
 |  | [!UICONTROL Invalid row given] | La fila no incluye información suficiente para determinar el tipo de entidad. Edite la fila para incluir todos los campos obligatorios para el tipo de entidad. |
 | Cuentas | [!UICONTROL Provide Valid Account Details] | (Hojas de edición masiva para varias cuentas) Los identificadores de cuenta no se incluyen en todas las filas. Introduzca valores para cualquiera de las siguientes combinaciones de columnas para cada fila: a) &quot;[!UICONTROL AMO ID]&quot; o b) &quot;[!UICONTROL Account Name]&quot; y &quot;[!UICONTROL Platform].&quot; |
-|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search, Social y Commerce no tienen acceso a la cuenta de la red de publicidad, por lo que no puede crear ni editar datos de campañas. Asegúrese de que las credenciales de la cuenta de búsqueda sean correctas y de que la cuenta esté habilitada. |
-| Campaign | [!UICONTROL Invalid Shopping Country specified] | (Campañas de compra) El valor de la variable &quot;[!UICONTROL Sales Country]El campo &quot; no es válido. Ver una lista de países válidos [para [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) y [para [!DNL Microsoft® Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
+|  | [!UICONTROL Account is disabled. Disabled Accounts cannot be processed] | Search, Social y Commerce no tienen acceso a la cuenta de red de publicidad, por lo que no puede crear ni editar datos de campaña. Asegúrese de que las credenciales de la cuenta de búsqueda sean correctas y de que la cuenta esté habilitada. |
+| Campaign | [!UICONTROL Invalid Shopping Country specified] | (Campañas de compra) El valor de la variable &quot;[!UICONTROL Sales Country]El campo &quot; no es válido. Ver una lista de países válidos [para [!DNL Google Ads]](https://support.google.com/merchants/answer/160637#countrytable) y [para [!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/3/en/51083). |
 | Todos los componentes de campaña | [!UICONTROL Campaign creation failed] | No se creó la campaña principal, por lo que no se creó esta entidad. Asegúrese de que todas las entidades padre contienen todos los campos obligatorios. |
 | Grupo de publicidad | [!UICONTROL Campaign Row missing] | La campaña principal especificada no existe, por lo que no se creó el grupo de anuncios. Cree la campaña principal en una nueva fila. |
 |  | [!UICONTROL New adgroup has both keywords and placement] | Un grupo de anuncios puede contener palabras clave o ubicaciones, pero no ambas. Cree grupos de anuncios independientes para palabras clave y ubicaciones. |
@@ -83,7 +83,7 @@ Los siguientes errores se producen en [!UICONTROL EF Errors] solo archivos. La m
 | Categoría | Mensaje | Descripción |
 |----|----|----|
 | General | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | Error total en la operación. Si el problema persiste, póngase en contacto con el equipo de cuenta de Adobe. |
-| Todas las entidades | [!UICONTROL Entity] se publica en la red de anuncios | La entidad se publicó en la red de publicidad, pero no se sincronizó con Buscar, Social y Comercio al mismo tiempo, por lo que los datos de la entidad no están disponibles inmediatamente en Buscar, Social y Comercio. El proceso de sincronización se activa automáticamente en este momento.<br><br>Cuando se sincronizan grandes cantidades de datos, es posible que estos no estén disponibles en Search, Social y Commerce durante varias horas o más. |
+| Todas las entidades | [!UICONTROL Entity] se publica en la red de anuncios | La entidad se publicó en la red de anuncios, pero no se sincronizó con Buscar, Social y Commerce al mismo tiempo, por lo que los datos de entidad no están disponibles inmediatamente en Buscar, Social y Commerce. El proceso de sincronización se activa automáticamente en este momento.<br><br>Cuando se sincronizan grandes cantidades de datos, es posible que estos no estén disponibles en Search, Social y Commerce durante varias horas o más. |
 | | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | No se pudo crear la entidad principal, por lo que no se creó esta entidad secundaria. |
 
 >[!MORELIKETHIS]

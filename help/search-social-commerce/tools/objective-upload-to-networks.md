@@ -1,9 +1,9 @@
 ---
 title: Habilitar la carga de objetivos en las redes de publicidad
-description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft® Advertising].
+description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Habilitar la carga de objetivos en las redes de publicidad
 
-*Anunciantes con [!DNL Google Ads] y [!DNL Microsoft® Advertising] solo cuentas*
+*Anunciantes con [!DNL Google Ads] y [!DNL Microsoft Advertising] solo cuentas*
 
 *Anunciantes habilitados solo para la optimización híbrida*
 
-Search, Social y Commerce pueden cargar los objetivos de los portafolios de una cuenta de anunciante en [!DNL Google Ads] y [!DNL Microsoft® Advertising] para que pueda utilizarlos para la optimización híbrida. Los objetivos cargados están disponibles como acciones de conversión para los objetivos de conversión personalizados de nivel de cuenta y de campaña.
+Search, Social y Commerce pueden cargar los objetivos de los portafolios de una cuenta de anunciante en [!DNL Google Ads] y [!DNL Microsoft Advertising] para que pueda utilizarlos para la optimización híbrida. Los objetivos cargados están disponibles como acciones de conversión para los objetivos de conversión personalizados de nivel de cuenta y de campaña.
 
 Al habilitar esta opción, se almacenarán automáticamente en déclencheur las cargas para los objetivos de los portafolios que contengan campañas con estrategias de oferta inteligente. Search, Social y Commerce crean una conversión en la red de anuncios para cada objetivo aplicable. La conversión representa todas las métricas de conversión ponderadas en el objetivo. Cada conversión tiene uno de los siguientes nombres:
 
@@ -30,7 +30,7 @@ Al habilitar esta opción, se almacenarán automáticamente en déclencheur las 
 
   El equipo de cuenta de Adobe trabajará con usted para migrar los nombres de acción de conversión existentes dentro de la red de publicidad antes de que el formato antiguo quede obsoleto. Durante el periodo de migración, las cargas de formato antiguo y nuevo se ejecutarán en paralelo. El modelado y la optimización no se ven afectados porque las nuevas acciones de conversión aparecen inicialmente con estado &quot;secundario&quot; (no optimizado) y con 90 días de datos de relleno.
 
-Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horario del anunciante. Cargas en [!DNL Microsoft® Advertising] se producen diariamente a las 09:00 en el huso horario del anunciante.
+Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horario del anunciante. Cargas en [!DNL Microsoft Advertising] se producen diariamente a las 09:00 en el huso horario del anunciante.
 
 >[!IMPORTANT]
 >

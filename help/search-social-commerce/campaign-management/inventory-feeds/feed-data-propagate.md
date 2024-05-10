@@ -1,22 +1,22 @@
 ---
 title: Propagación de datos de fuentes de inventario mediante plantillas
 description: Obtenga información acerca de la propagación de datos desde las fuentes de inventario a través de plantillas de publicidad para administrar la estructura de cuentas y enviar anuncios dinámicos.
-exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # Propagación de datos de fuentes de inventario mediante plantillas
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
-Después de crear una plantilla de fuente específica de la red de anuncios y asociar un archivo de fuente o una [!DNL Google] o [!DNL Microsoft®] cuenta del centro de comerciantes con él, puede crear anuncios de forma dinámica propagando los datos de fuente a través de la plantilla según el [configuración de datos de fuente](feed-settings-manage.md). Durante la propagación, los nombres de columna de la plantilla se sustituyen por valores de datos en la fuente y las campañas generadas y sus componentes tienen la configuración predeterminada a menos que la plantilla especifique lo contrario. Según las opciones de plantilla, Buscar, Social y Comercio crea una nueva estructura de cuenta (campañas, grupos de anuncios y palabras clave) para los anuncios o asigna los anuncios a la estructura de cuenta existente.
+Después de crear una plantilla de fuente específica de la red de anuncios y asociar un archivo de fuente o una [!DNL Google] o [!DNL Microsoft] cuenta del centro de comerciantes con él, puede crear anuncios de forma dinámica propagando los datos de fuente a través de la plantilla según el [configuración de datos de fuente](feed-settings-manage.md). Durante la propagación, los nombres de columna de la plantilla se sustituyen por valores de datos en la fuente y las campañas generadas y sus componentes tienen la configuración predeterminada a menos que la plantilla especifique lo contrario. Según las opciones de plantilla, Buscar, Social y Commerce crean una nueva estructura de cuenta (campañas, grupos de anuncios y palabras clave) para los anuncios o asignan los anuncios a la estructura de cuenta existente.
 
-Cuando los nuevos datos de fuente contienen nuevos valores de datos para un elemento o la plantilla ha cambiado, los anuncios existentes se eliminan y se crean nuevos. Si el único cambio es la designación de [!DNL Google Ads] Param 1 y Param 2, entonces solo se actualizan esos valores. Los anuncios duplicados (la misma copia de anuncio y página de aterrizaje) nunca se crean.
+Cuando los nuevos datos de fuente contienen nuevos valores de datos para un elemento o la plantilla ha cambiado, los anuncios existentes se eliminan y se crean nuevos. Si el único cambio es la designación de [!DNL Google Ads] Param 1 y Param 2, entonces solo se actualizan esos valores. Los anuncios duplicados (la misma copia de anuncio y la misma página de aterrizaje) nunca se crean.
 
 Al propagar datos, puede obtener una vista previa de los datos generados en una vista de jerarquía de campañas, generar un archivo de hoja de edición masiva para revisarlos o generar un archivo de hoja de edición masiva para su publicación inmediata en la red de anuncios. Cuando se completa cada acción de propagación, se añade un resumen de propagación a la pestaña Propagations, indicando el número de cada tipo de entidad que se ha creado, pausado o eliminado en función de la propagación. Si no publica los datos inmediatamente, puede previsualizarlos y publicarlos más adelante.
 

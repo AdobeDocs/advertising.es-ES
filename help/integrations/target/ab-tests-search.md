@@ -1,8 +1,8 @@
 ---
-title: Configuración de las pruebas A/B para la búsqueda de Adobe Advertising, medios sociales y anuncios comerciales en Adobe Target
-description: Obtenga información sobre cómo configurar una prueba A/B en [!DNL Target] para su [!DNL Google Ads] y [!DNL Microsoft® Advertising] anuncios en Search, Social y Commerce.
+title: Configuración de las pruebas A/B para la búsqueda de Adobe Advertising, medios sociales y anuncios de Commerce en Adobe Target
+description: Obtenga información sobre cómo configurar una prueba A/B en [!DNL Target] para su [!DNL Google Ads] y [!DNL Microsoft Advertising] anuncios en Search, Social y Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Configuración de pruebas A/B en Adobe Target para anuncios de Advertising Search, Social y Commerce
 
-*Solo anunciantes con Advertising Search, Social y Commerce*
+*Anunciantes solo con Advertising Search, Social y Commerce*
 
-*[!DNL Google Ads]y [!DNL Microsoft® Advertising] solo cuentas*
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] solo cuentas*
 
-Adobe Advertising y Adobe Target facilitan la configuración de pruebas A/B de experiencia de página de aterrizaje para el tráfico de publicidad digital [!DNL Google Ads] y [!DNL Microsoft® Advertising] hasta:
+Adobe Advertising y Adobe Target facilitan la configuración de pruebas A/B de experiencia de página de aterrizaje para el tráfico de publicidad digital [!DNL Google Ads] y [!DNL Microsoft Advertising] hasta:
 
 * Mejorar las tasas de conversión (CVR) y las medidas de eficiencia de adquisición (como CPA, CPL y CAC).
 
@@ -29,7 +29,7 @@ Consulte las secciones siguientes para conocer los requisitos previos e instrucc
 
 ### Productos requeridos
 
-* Búsqueda, Social Y Comercio
+* Buscar, Social y Commerce
 * [!DNL Target]
 
 ### Productos e integraciones recomendados
@@ -65,7 +65,7 @@ Las siguientes instrucciones resaltan información relacionada con el caso de us
 
    1. En el **[!UICONTROL Date Range]** , introduzca las fechas de inicio y finalización adecuadas para la prueba.
 
-   1. Seleccionar **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. En el **[!UICONTROL Value]** , introduzca la variable [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], o [!UICONTROL Network Ad ID] para la entidad de red de publicidad relevante en Buscar, Social y Comercio. Esto le permite utilizar la variable [!DNL Target] parámetros de cadena de consulta para audiencias de pulsaciones para la entidad.
+   1. Seleccionar **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. En el **[!UICONTROL Value]** , introduzca la variable [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], o [!UICONTROL Network Ad ID] para la entidad de red de publicidad relevante en Search, Social y Commerce. Esto le permite utilizar la variable [!DNL Target] parámetros de cadena de consulta para audiencias de pulsaciones para la entidad.
 
       Puede encontrar el ID de la siguiente manera: [adición de la columna de ID relevante a la vista de entidades](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
@@ -134,7 +134,7 @@ En Analysis Workspace, si observa que los datos de actividad y experiencias son 
 ## Lectura adicional
 
 * [Integración de Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Explica cómo configurar [!DNL Target] creación de informes en Analysis Workspace.
-* [Información general sobre las pruebas A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) : Describe actividades de prueba A/B que puede utilizar con anuncios de Search, Social y Commerce.
+* [Información general sobre las pruebas A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) : describe actividades de prueba A/B que puede utilizar con anuncios de Search, Social y Commerce.
 * [Descripción general de Analytics para publicidad](/help/integrations/analytics/overview.md) : presenta Analytics para publicidad, que le permite rastrear las interacciones del sitio de clics y visualizaciones en las instancias de Analytics.
 
 >[!MORELIKETHIS]

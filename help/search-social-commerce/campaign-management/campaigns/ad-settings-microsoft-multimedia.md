@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] configuración de publicidad multimedia"'
-description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] anuncios multimedia.
-exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+title: '''[!DNL Microsoft Advertising] configuración de publicidad multimedia"'
+description: Haga referencia a la configuración de [!DNL Microsoft Advertising] anuncios multimedia.
+exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] configuración de publicidad multimedia
+# [!DNL Microsoft Advertising] configuración de publicidad multimedia
 
 Los anuncios multimedia están disponibles en la red de búsqueda. La red de anuncios organiza de forma dinámica anuncios multimedia utilizando las combinaciones más eficaces de elementos publicitarios.
 
@@ -54,7 +54,7 @@ Consulte las proporciones y dimensiones de aspecto permitidas para [anuncios mul
 >
 >* [Acerca de los anuncios](ad-about.md)
 >* [Administración de anuncios](ad-manage.md)
->* [[!DNL Microsoft® Advertising] configuración de anuncios dinámicos de búsqueda expandida](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] configuración de publicidad del producto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] configuración de anuncios adaptables (audiencia)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] configuración de anuncios dinámicos de búsqueda expandida](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] configuración de publicidad del producto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configuración de anuncios adaptables (audiencia)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)

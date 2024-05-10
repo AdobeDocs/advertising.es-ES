@@ -1,18 +1,18 @@
 ---
-title: '[!DNL Microsoft® Advertising] configuración de publicidad adaptable'
-description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] anuncios adaptables.
+title: '[!DNL Microsoft Advertising] configuración de publicidad adaptable'
+description: Haga referencia a la configuración de [!DNL Microsoft Advertising] anuncios adaptables.
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] configuración de anuncios adaptables (audiencia)
+# [!DNL Microsoft Advertising] configuración de anuncios adaptables (audiencia)
 
-El formato de anuncio interactivo está disponible para anuncios de audiencia basados en imágenes, vídeos y TV conectados basados en vídeo en [!DNL Microsoft® Audience Network]. La red de anuncios organiza de forma dinámica anuncios interactivos mediante las combinaciones más eficaces de elementos publicitarios.
+El formato de anuncio interactivo está disponible para anuncios de audiencia basados en imágenes, vídeos y TV conectados basados en vídeo en [!DNL Microsoft Audience Network]. La red de anuncios organiza de forma dinámica anuncios interactivos mediante las combinaciones más eficaces de elementos publicitarios.
 
 ## [!UICONTROL Ad Settings] (para anuncios de vídeo) y [!UICONTROL Audience CTV Video Ad Details]
 
@@ -28,7 +28,7 @@ El formato de anuncio interactivo está disponible para anuncios de audiencia ba
 
 **[!UICONTROL Images]:** Hasta 15 imágenes en JPEG o PNG para el anuncio. Incluir al menos una imagen con una relación de aspecto de 1,91:1 Consulte las proporciones y dimensiones de aspecto permitidas para [Audiencia e imágenes](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
-Para anuncios de audiencia, [!DNL Microsoft® Advertising] recorta automáticamente esta imagen para todas las relaciones de aspecto posibles.
+Para anuncios de audiencia, [!DNL Microsoft Advertising] recorta automáticamente esta imagen para todas las relaciones de aspecto posibles.
 
 <!-- Instructions -->
 
@@ -56,7 +56,7 @@ Para anuncios de audiencia, [!DNL Microsoft® Advertising] recorta automáticame
 >
 >* [Acerca de los anuncios](ad-about.md)
 >* [Administración de anuncios](ad-manage.md)
->* [[!DNL Microsoft® Advertising] configuración de anuncios dinámicos de búsqueda expandida](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] configuración de publicidad multimedia](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] configuración de publicidad del producto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] configuración de anuncios dinámicos de búsqueda expandida](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] configuración de publicidad multimedia](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] configuración de publicidad del producto](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)

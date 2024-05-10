@@ -3,7 +3,7 @@ title: Acerca de las recomendaciones del editor y la compatibilidad con perspect
 description: Obtenga información acerca de la compatibilidad para ver y administrar recomendaciones y perspectivas del editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Acerca de las recomendaciones del editor y la compatibilidad con perspectivas
 
-*[!DNL Google Ads]y [!DNL Microsoft® Advertising] cuentas*
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] cuentas*
 
-*Función beta para [!DNL Microsoft® Advertising] cuentas*
+*Función beta para [!DNL Microsoft Advertising] cuentas*
 
-[!DNL Google Ads] y [!DNL Microsoft® Advertising] recomendaciones y perspectivas son sugerencias de la red de anuncios para ayudar a mejorar el rendimiento y la eficacia de sus campañas:
+[!DNL Google Ads] y [!DNL Microsoft Advertising] recomendaciones y perspectivas son sugerencias de la red de anuncios para ayudar a mejorar el rendimiento y la eficacia de sus campañas:
 
 * Cada [!DNL Google Ads] La recomendación proporciona sugerencias personalizadas sobre diferentes aspectos de rendimiento de una campaña (desde añadir un recurso a aumentar el presupuesto) en función del historial de rendimiento de la cuenta, la configuración de la campaña y las tendencias en [!DNL Google Ads].
 
-* Cada [!DNL Microsoft® Advertising] performance insight and recommendation sugiere cambios para optimizar el rendimiento de la campaña en función de los algoritmos de aprendizaje automático y las prácticas recomendadas.
+* Cada [!DNL Microsoft Advertising] performance insight and recommendation sugiere cambios para optimizar el rendimiento de la campaña en función de los algoritmos de aprendizaje automático y las prácticas recomendadas.
 
 ## El [!UICONTROL Recommendations & Publisher Insights] vista
 
@@ -32,7 +32,7 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
   Los datos están disponibles en tiempo real al abrir la vista. Para actualizar los datos, haga clic en ![Actualizar](/help/search-social-commerce/assets/refresh.png "Actualizar") en la parte inferior izquierda de la página.
 
-* Para [!DNL Microsoft® Advertising] cuentas, consulte de un vistazo cada perspectiva de rendimiento generada en los últimos 30 días para obtener una [!DNL Microsoft® Advertising] cuenta. Las perspectivas proporcionan información similar a las recomendaciones, pero en un formato diferente. Cada perspectiva incluye la fecha, una descripción del problema, la entidad afectada, la causa raíz (que puede incluir vínculos a más detalles) y la acción sugerida con un vínculo para abrir [!DNL Microsoft® Advertising] editor, desde el cual puede actuar sobre la perspectiva específica.
+* Para [!DNL Microsoft Advertising] cuentas, consulte de un vistazo cada perspectiva de rendimiento generada en los últimos 30 días para obtener una [!DNL Microsoft Advertising] cuenta. Las perspectivas proporcionan información similar a las recomendaciones, pero en un formato diferente. Cada perspectiva incluye la fecha, una descripción del problema, la entidad afectada, la causa raíz (que puede incluir vínculos a más detalles) y la acción sugerida con un vínculo para abrir [!DNL Microsoft Advertising] editor, desde el cual puede actuar sobre la perspectiva específica.
 
 * Vea los detalles de una recomendación y aplique o descarte directamente la recomendación.
 

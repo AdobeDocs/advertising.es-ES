@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] configuración de campaña"'
-description: Haga referencia a la configuración de [!DNL Microsoft® Advertising] campañas.
+title: '''[!DNL Microsoft Advertising] configuración de campaña"'
+description: Haga referencia a la configuración de [!DNL Microsoft Advertising] campañas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1966'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] configuración de campaña
+# [!DNL Microsoft Advertising] configuración de campaña
 
 ## \[Pantalla de creación de campaña\]
 
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Search]:* Muestra anuncios de texto en la red de búsqueda.
 
-* *[!UICONTROL Shopping Network]:* Muestra anuncios de productos, para sus productos en [!DNL Microsoft® Merchant Center] catálogo de productos: en la red de compras.
+* *[!UICONTROL Shopping Network]:* Muestra anuncios de productos, para sus productos en [!DNL Microsoft Merchant Center] catálogo de productos: en la red de compras.
 
-* *[!UICONTROL Audience]:* Muestra anuncios nativos/de visualización en [!DNL Microsoft® Audience Network]. Puede: a) generar automáticamente anuncios basados en fuentes vinculando la campaña a una tienda de centro comercial en [!UICONTROL Shopping Settings] o b) cree anuncios adaptables con recursos de texto e imágenes cargadas. Ambas opciones requieren que cree grupos de anuncios con segmentación de usuarios.
+* *[!UICONTROL Audience]:* Muestra anuncios nativos/de visualización en [!DNL Microsoft Audience Network]. Puede: a) generar automáticamente anuncios basados en fuentes vinculando la campaña a una tienda de centro comercial en [!UICONTROL Shopping Settings] o b) cree anuncios adaptables con recursos de texto e imágenes cargadas. Ambas opciones requieren que cree grupos de anuncios con segmentación de usuarios.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Funcionalidad beta) Promociona sus productos a través de minoristas vinculados en las redes de búsqueda y audiencia. Puede crear grupos de anuncios secundarios y grupos de productos (aplicaciones para promocionar), así como anuncios de productos opcionales para la campaña. [!DNL Microsoft® Advertising] crea automáticamente anuncios para los grupos de productos. Para campañas de compra de marcas, utilice la estrategia de oferta [!UICONTROL Manual CPC]; para las promociones de compra de marcas, utilice la estrategia de oferta [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Funcionalidad beta) Promociona sus productos a través de minoristas vinculados en las redes de búsqueda y audiencia. Puede crear grupos de anuncios secundarios y grupos de productos (aplicaciones para promocionar), así como anuncios de productos opcionales para la campaña. [!DNL Microsoft Advertising] crea automáticamente anuncios para los grupos de productos. Para campañas de compra de marcas, utilice la estrategia de oferta [!UICONTROL Manual CPC]; para las promociones de compra de marcas, utilice la estrategia de oferta [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Funcionalidad beta) Promociona sus aplicaciones y juegos disponibles en el [!DNL Microsoft® Store]. Puede crear grupos de anuncios secundarios, grupos de productos y anuncios de productos opcionales para la campaña; [!DNL Microsoft® Advertising] crea automáticamente anuncios para los grupos de productos.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* (Funcionalidad beta) Promociona sus aplicaciones y juegos disponibles en el [!DNL Microsoft Store]. Puede crear grupos de anuncios secundarios, grupos de productos y anuncios de productos opcionales para la campaña; [!DNL Microsoft Advertising] crea automáticamente anuncios para los grupos de productos.
 
 * *[!UICONTROL Audience CTV Video]:* (Funcionalidad beta) Muestra anuncios de vídeo de TV conectada (CTV) en la red de audiencia.
 
 * *[!UICONTROL Audience Video]:* (Función beta) Muestra anuncios de vídeo estándar en la red de audiencias.
 
-* *[!UICONTROL Performance Max]:* (Función beta) Muestra varios tipos de anuncios en todas las redes mediante [!DNL Microsoft® Advertising] oferta inteligente. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, una llamada a la acción opcional y señales de audiencia. La red de anuncios combina automáticamente los recursos para publicar anuncios en función del canal.
+* *[!UICONTROL Performance Max]:* (Función beta) Muestra varios tipos de anuncios en todas las redes mediante [!DNL Microsoft Advertising] oferta inteligente. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, una llamada a la acción opcional y señales de audiencia. La red de anuncios combina automáticamente los recursos para publicar anuncios en función del canal.
 
 ## [!UICONTROL Campaign Details]
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
   Cuando agrega una campaña con eCPC a un portafolio optimizado de Search, Social y Commerce, Search, Social y Commerce optimiza las ofertas de base y cuando el &quot;[!UICONTROL Auto adjust campaign budget limits]La opción &quot; está activada: el presupuesto de la campaña. La red de anuncios optimiza todos los ajustes de oferta y puede cambiar las ofertas generadas por Search, Social y Commerce en el momento de la consulta del usuario en función de los datos propietarios y las perspectivas. **Precaución:** Utilice campañas eCPC en portafolios solo cuando las conversiones totales rastreadas en la red de publicidad se alineen con el objetivo del portafolio.
 
-* *[!UICONTROL Manual CPC]*: (Campañas de compra para marcas; [!DNL Microsoft® Store Ads] campañas; obsoleto por [!DNL Microsoft® Advertising] en 2021 para otros tipos de campaña) Utiliza el modelo de coste por clic (CPC). Para algunos tipos de anuncio, puede permitir que la red de anuncios cambie las ofertas de la campaña:
+* *[!UICONTROL Manual CPC]*: (Campañas de compra para marcas; [!DNL Microsoft Store Ads] campañas; obsoleto por [!DNL Microsoft Advertising] en 2021 para otros tipos de campaña) Utiliza el modelo de coste por clic (CPC). Para algunos tipos de anuncio, puede permitir que la red de anuncios cambie las ofertas de la campaña:
 
    * **[!UICONTROL Enable Enhanced CPC]** (desactivado de forma predeterminada): Esta opción es la misma que utilizar el &quot;[!UICONTROL Enhanced CPC]Opción &quot;.
 
-* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft® Store Ads] campañas de ) Utiliza el modelo de coste por adquisición (CPA).
+* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] campañas de ) Utiliza el modelo de coste por adquisición (CPA).
 
 * *[!UICONTROL Manual CPM]* (Solo campañas de audiencia y campañas de vídeo de audiencia) Utiliza el modelo de coste por mil impresiones (CPM), para el que especifica lo que desea gastar por cada 1000 impresiones vistas. Las campañas con esta estrategia de oferta no están optimizadas cuando se incluyen en portafolios.
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft® Merchant Center]:** (Solo campañas de audiencia; opcional) Vincula la campaña con una tienda de centro comercial específica para anuncios automatizados basados en fuentes en lugar de anuncios adaptables. Cuando seleccione esta opción, especifique el [!UICONTROL Merchant ID] y [!UICONTROL Products]. Debe crear grupos de anuncios para la campaña, pero no es necesario que cree anuncios.
+**[!UICONTROL Link with Microsoft Merchant Center]:** (Solo campañas de audiencia; opcional) Vincula la campaña con una tienda de centro comercial específica para anuncios automatizados basados en fuentes en lugar de anuncios adaptables. Cuando seleccione esta opción, especifique el [!UICONTROL Merchant ID] y [!UICONTROL Products]. Debe crear grupos de anuncios para la campaña, pero no es necesario que cree anuncios.
 
 Una vez que vincula la campaña a una tienda y guarda la configuración, no se puede cambiar esta opción.
 
@@ -116,7 +116,7 @@ Una vez que vincula la campaña a una tienda y guarda la configuración, no se p
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** (Solo campañas de rendimiento máximo) El idioma del anuncio, que debe coincidir con el idioma de los sitios en los que puede aparecer el anuncio. [!DNL Microsoft® Advertising] determina el idioma de un usuario a partir de diversas señales, incluidas la consulta del usuario, el país del editor y la configuración de idioma del usuario.
+**[!UICONTROL Languages]:** (Solo campañas de rendimiento máximo) El idioma del anuncio, que debe coincidir con el idioma de los sitios en los que puede aparecer el anuncio. [!DNL Microsoft Advertising] determina el idioma de un usuario a partir de diversas señales, incluidas la consulta del usuario, el país del editor y la configuración de idioma del usuario.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -164,7 +164,7 @@ Una vez que vincula la campaña a una tienda y guarda la configuración, no se p
 
 **[!UICONTROL Negative Websites]:** (Campañas solo en la red de visualización/nativa; opcional) Sitios en la red de visualización en los que no desea que se muestren los anuncios. Introduzca una URL válida, como www.example.com. Para especificar varias cadenas, sepárelas con comas o introdúzcalas en líneas independientes.
 
-Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsoft® Advertising a &quot;[Impedir que aparezcan anuncios en sitios web específicos](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsoft Advertising a &quot;[Impedir que aparezcan anuncios en sitios web específicos](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -206,7 +206,7 @@ Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsof
 
 **[!UICONTROL Final URL]:** La dirección URL final de todos los anuncios creados a partir del grupo de recursos.
 
-**[!UICONTROL Images]:** Hasta 20 imágenes para el anuncio, incluida al menos una imagen cuadrada y una imagen horizontal. Consulte la [[!DNL Microsoft® Advertising] directrices de imagen](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puede cargar imágenes o seleccionarlas en la [!UICONTROL Asset Library] — pero no ambas en la misma operación.
+**[!UICONTROL Images]:** Hasta 20 imágenes para el anuncio, incluida al menos una imagen cuadrada y una imagen horizontal. Consulte la [[!DNL Microsoft Advertising] directrices de imagen](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puede cargar imágenes o seleccionarlas en la [!UICONTROL Asset Library] — pero no ambas en la misma operación.
 
 * Para cargar imágenes:
 
@@ -228,7 +228,7 @@ Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsof
 
 * Para seleccionar imágenes de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione las imágenes.
 
-**[!UICONTROL Logos]:** Al menos un logotipo. Se pueden incluir hasta cinco. Consulte la [[!DNL Microsoft® Advertising] directrices de recursos](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puede cargar imágenes o seleccionarlas en la [!UICONTROL Asset Library] — pero no ambas en la misma operación.
+**[!UICONTROL Logos]:** Al menos un logotipo. Se pueden incluir hasta cinco. Consulte la [[!DNL Microsoft Advertising] directrices de recursos](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Puede cargar imágenes o seleccionarlas en la [!UICONTROL Asset Library] — pero no ambas en la misma operación.
 
 * Para cargar imágenes:
 
@@ -284,7 +284,7 @@ Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsof
 
 **[!UICONTROL Business Name]:** El nombre comercial, con un máximo de 25 caracteres. No puede contener secuencias de comandos, HTML u otro lenguaje de marcado.
 
-**[!UICONTROL Audience Signal]:** (Opcional) [!DNL Microsoft® Advertising] audiencias que se utilizarán como señales de audiencia para la campaña. [!DNL Microsoft® Advertising] los modelos de aprendizaje automático utilizan las audiencias para buscar internautas similares a target y también pueden mostrar anuncios a audiencias que no están especificadas como señales para ayudarle a alcanzar sus objetivos de rendimiento. Elija las audiencias que tienen más probabilidades de convertirse.
+**[!UICONTROL Audience Signal]:** (Opcional) [!DNL Microsoft Advertising] audiencias que se utilizarán como señales de audiencia para la campaña. [!DNL Microsoft Advertising] los modelos de aprendizaje automático utilizan las audiencias para buscar internautas similares a target y también pueden mostrar anuncios a audiencias que no están especificadas como señales para ayudarle a alcanzar sus objetivos de rendimiento. Elija las audiencias que tienen más probabilidades de convertirse.
 
 >[!NOTE]
 >Las señales de audiencia son diferentes de [objetivos de audiencia de nivel de grupo de anuncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).

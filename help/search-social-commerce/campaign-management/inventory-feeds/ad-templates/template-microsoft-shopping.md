@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Ads] configuración de plantillas de anuncios de compras para fuentes de inventario'
-description: Haga referencia a la configuración de [!DNL Microsoft® Ads] plantillas de anuncios de compras para fuentes de inventario.
-exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+title: '''[!DNL Microsoft Ads] configuración de plantillas de anuncios de compras para fuentes de inventario'
+description: Haga referencia a la configuración de [!DNL Microsoft Ads] plantillas de anuncios de compras para fuentes de inventario.
+exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Ads] configuración de plantillas de anuncios de compras para fuentes de inventario
+# [!DNL Microsoft Ads] configuración de plantillas de anuncios de compras para fuentes de inventario
 
 Utilice plantillas de anuncios de compras para configurar los anuncios de compras.
 
@@ -61,7 +61,7 @@ Utilice plantillas de anuncios de compras para configurar los anuncios de compra
 
 * Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; realice una de las siguientes acciones&quot;:
 
-   * (Recomendado) Utilice la variable [formato de plantilla de seguimiento para campañas de compra de Microsoft®](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Si toda la cuenta está dedicada a anuncios de compra, puede definir una plantilla de seguimiento en el nivel de cuenta.
+   * (Recomendado) Utilice la variable [formato de plantilla de seguimiento para campañas de compras de Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Si toda la cuenta está dedicada a anuncios de compra, puede definir una plantilla de seguimiento en el nivel de cuenta.
 
    * Si, en su lugar, incluye un valor para cada producto en la fuente mediante el complemento &quot;[!DNL bingads_redirect]&quot; (con la variable [formato correcto](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) e introduzca el parámetro `{lpurl}`. Si lo desea, puede agregar redirecciones de terceros y seguimiento a `{lpurl}` parámetro.
 

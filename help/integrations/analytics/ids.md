@@ -3,7 +3,7 @@ title: ID de Adobe Advertising utilizados por [!DNL Analytics]
 description: ID de Adobe Advertising utilizados por [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 0%
@@ -116,9 +116,9 @@ El parámetro se añade a las direcciones URL de seguimiento de una de las sigui
 
    * Clientes de Search, Social y Commerce:
 
-      * Para [!DNL Google Ads] y [!DNL Microsoft® Advertising] cuentas con el [!UICONTROL Auto Upload] con la configuración habilitada para la cuenta o campaña, el servidor de píxeles anexa automáticamente el parámetro s_kwcid a los sufijos de la página de aterrizaje cuando un usuario final hace clic en un anuncio con el píxel de Adobe Advertising.
+      * Para [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas con el [!UICONTROL Auto Upload] con la configuración habilitada para la cuenta o campaña, el servidor de píxeles anexa automáticamente el parámetro s_kwcid a los sufijos de la página de aterrizaje cuando un usuario final hace clic en un anuncio con el píxel de Adobe Advertising.
 
-      * Para otras redes de publicidad, o [!DNL Google Ads] y [!DNL Microsoft® Advertising] cuentas con el [!UICONTROL Auto Upload] configuración deshabilitada, agregue manualmente el parámetro a la [parámetros de adición de nivel de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que lo anexan a las direcciones URL base.
+      * Para otras redes de publicidad, o [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas con el [!UICONTROL Auto Upload] configuración deshabilitada, agregue manualmente el parámetro a la [parámetros de adición de nivel de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que lo anexan a las direcciones URL base.
 
 * Cuando la función de inserción del lado del servidor no está implementada:
 
@@ -130,7 +130,7 @@ El parámetro se añade a las direcciones URL de seguimiento de una de las sigui
 
    * Clientes de Search, Social y Commerce:
 
-      * Para ([!DNL Google Ads] y [!DNL Microsoft® Advertising]), agregue manualmente el parámetro de ID de AMO a los sufijos de la página de aterrizaje. De ser posible, haga lo siguiente en [nivel de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} a menos que sea necesario un seguimiento diferente para los componentes de cuenta individuales.
+      * Para ([!DNL Google Ads] y [!DNL Microsoft Advertising]), agregue manualmente el parámetro de ID de AMO a los sufijos de la página de aterrizaje. De ser posible, haga lo siguiente en [nivel de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} a menos que sea necesario un seguimiento diferente para los componentes de cuenta individuales.
 
       * Para los anuncios de todas las demás redes de publicidad, añada manualmente el parámetro de ID de AMO a su [parámetros de adición de nivel de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que lo anexan a las direcciones URL base.
 

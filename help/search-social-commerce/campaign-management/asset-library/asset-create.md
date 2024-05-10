@@ -1,18 +1,18 @@
 ---
 title: Creación y carga de recursos
-description: Obtenga información sobre cómo crear recursos de imagen, vídeo y texto reutilizables y cargarlos en su [!DNL Google Ads] y [!DNL Microsoft® Advertising] bibliotecas de recursos de nivel de cuenta.
+description: Obtenga información sobre cómo crear recursos de imagen, vídeo y texto reutilizables y cargarlos en su [!DNL Google Ads] y [!DNL Microsoft Advertising] bibliotecas de recursos de nivel de cuenta.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
 # Creación y carga de recursos
 
-*Para [!DNL Google Ads] y [!DNL Microsoft® Advertising] solo cuentas*
+*Para [!DNL Google Ads] y [!DNL Microsoft Advertising] solo cuentas*
 
 *Abrir función beta*
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
                Se crea un recurso para cada relación de aspecto seleccionada.
 
-            1. Haga clic **[!UICONTROL Proceed]**.
+            1. Clic **[!UICONTROL Proceed]**.
 
       * Para los recursos de vídeo, introduzca la dirección URL de una [!DNL YouTube] vídeo de al menos 10 segundos de duración. Para agregar otro recurso de vídeo, haga clic en **+ Agregar** e introduzca otra dirección URL.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
         Posteriormente, puede utilizar los recursos de texto para cualquier elemento de anuncio que elija (como titular o descripción breve), siempre que cumplan los límites de caracteres para ese elemento de anuncio.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >

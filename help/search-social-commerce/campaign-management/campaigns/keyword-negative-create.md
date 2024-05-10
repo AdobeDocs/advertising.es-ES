@@ -3,7 +3,7 @@ title: Creación de palabras clave negativas
 description: Aprenda a crear palabras clave negativas para campañas de búsqueda y grupos de anuncios.
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Creación de palabras clave negativas
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], y existentes [!DNL Baidu] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], y existentes [!DNL Baidu] solo cuentas*
 
 Puede crear palabras clave negativas para un grupo de anuncios de búsqueda o una campaña que esté dirigido a la red de búsqueda, de visualización o nativa. Las palabras clave negativas no déclencheur los anuncios.
 
@@ -30,7 +30,7 @@ Puede crear palabras clave negativas para un grupo de anuncios de búsqueda o un
 
 1. Introduzca las palabras clave negativas. Utilice la siguiente sintaxis, sin un signo menos (`-`):
 
-   * Coincidencia amplia negativa: `keyword` (no compatible con [!DNL Microsoft® Advertising])
+   * Coincidencia amplia negativa: `keyword` (no compatible con [!DNL Microsoft Advertising])
 
    * Coincidencia de frase negativa: `"keyword"`
 
@@ -38,7 +38,7 @@ Puede crear palabras clave negativas para un grupo de anuncios de búsqueda o un
 
    Separe varios valores con comas o introdúzcalos en líneas independientes. Puede escribir o pegar hasta 2000 palabras clave negativas en una operación. Consulte también los siguientes requisitos y restricciones:
 
-   * Longitudes máximas de caracteres: [!DNL Baidu]: 30 de byte simple o 15 de byte doble; [!DNL Microsoft® Advertising]: 100 de byte simple o 50 de byte doble; [!DNL Google Ads] y [!DNL Yahoo! Japan Ads]: 80 de byte simple o 40 de byte doble.
+   * Longitudes máximas de caracteres: [!DNL Baidu]: 30 de byte simple o 15 de byte doble; [!DNL Microsoft Advertising]: 100 de byte simple o 50 de byte doble; [!DNL Google Ads] y [!DNL Yahoo! Japan Ads]: 80 de byte simple o 40 de byte doble.
 
    * [!DNL Baidu] solo permite un tipo de coincidencia por palabra clave y grupo de anuncios. Por ejemplo, el grupo de anuncios 1 no puede incluir ambos `"keyword"` y `[keyword]`.
 

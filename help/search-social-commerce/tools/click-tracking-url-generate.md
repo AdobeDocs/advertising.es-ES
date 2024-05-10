@@ -3,7 +3,7 @@ title: Generar una URL de seguimiento de clics
 description: Obtenga información sobre cómo generar manualmente una URL de seguimiento de clics de Search, Social y Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Para obtener información sobre cuándo debe generar e implementar manualmente u
 
            Ejemplo: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
+         * ([!DNL Microsoft Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
 
            donde `sitelink` es el nombre del vínculo de sitio y `landing_page` es una dirección URL de la página de aterrizaje o una dirección URL base válidas.
 
@@ -48,7 +48,7 @@ Para obtener información sobre cuándo debe generar e implementar manualmente u
 
            El archivo puede incluir hasta 10 000 líneas.
 
-         * ([!DNL Google Merchant Center] grupos de productos y [!DNL Microsoft® Advertising] anuncios de productos) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] grupos de productos y [!DNL Microsoft Advertising] anuncios de productos) `product name <tab> ** <tab> landing_page`
 
            donde `product name` es el nombre del producto y `landing_page` es una dirección URL de la página de aterrizaje o una dirección URL base válidas.
 
@@ -64,13 +64,13 @@ Para obtener información sobre cuándo debe generar e implementar manualmente u
 
            Ejemplo: http://www.example.com/travel.html
 
-         * ([!DNL Microsoft® Advertising] sitelinks) `sitelink**landing_page`
+         * ([!DNL Microsoft Advertising] sitelinks) `sitelink**landing_page`
 
            donde `sitelink` es el nombre del vínculo de sitio y `landing_page` es una dirección URL de la página de aterrizaje o una dirección URL base válidas.
 
            Ejemplo: `Careers**http://www.example.com/careers.html`
 
-         * ([!DNL Google Merchant Center] grupos de productos y [!DNL Microsoft® Advertising] anuncios de productos) `product name**landing_page`
+         * ([!DNL Google Merchant Center] grupos de productos y [!DNL Microsoft Advertising] anuncios de productos) `product name**landing_page`
 
            donde `product name` es el nombre del producto y `landing_page` es una dirección URL de la página de aterrizaje o una dirección URL base válidas.
 
@@ -82,7 +82,7 @@ Para obtener información sobre cuándo debe generar e implementar manualmente u
 
 En el caso de las cuentas con direcciones URL de destino, introduzca los valores en la variable [!UICONTROL Base URL] campos.
 
-Para cuentas con direcciones URL finales, introduzca el valor en pantalla en la variable correspondiente [!UICONTROL Tracking Template] field. Debe agregar un parámetro para la dirección URL final después de `&url=` parámetro (como `{lpurl}`). Para [!DNL Yahoo! Japan Ads] cuentas, utilice el parámetro `{lpurl}`. Para obtener una lista de [!DNL Google Ads] y [!DNL Microsoft® Advertising] parámetros para indicar las direcciones URL finales en las plantillas de seguimiento, consulte los [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348) (consulte los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección sobre &quot;Disponible [!DNL ValueTrack] Parámetros&quot;) y el [[!DNL Microsoft® Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+Para cuentas con direcciones URL finales, introduzca el valor en pantalla en la variable correspondiente [!UICONTROL Tracking Template] field. Debe agregar un parámetro para la dirección URL final después de `&url=` parámetro (como `{lpurl}`). Para [!DNL Yahoo! Japan Ads] cuentas, utilice el parámetro `{lpurl}`. Para obtener una lista de [!DNL Google Ads] y [!DNL Microsoft Advertising] parámetros para indicar las direcciones URL finales en las plantillas de seguimiento, consulte los [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348) (consulte los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección sobre &quot;Disponible [!DNL ValueTrack] Parámetros&quot;) y el [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >
