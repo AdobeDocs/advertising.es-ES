@@ -1,11 +1,11 @@
 ---
 title: Administrar vínculos de sitios compartidos
 description: Obtenga información sobre cómo crear y administrar extensiones de vínculos de sitios compartidos.
-exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Crear y administrar vínculos de sitios compartidos de nivel de cuenta para cual
 
 1. Introduzca el [configuración de vínculos de sitios compartidos](#shared-sitelink-settings).
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
-Una vez creado un vínculo de sitio, puede [asígnelo a una cuenta, campaña o grupo de anuncios](sitelink-extension-associate.md).
+Una vez creado un vínculo de sitio, puede [asígnelo a una cuenta, campaña o grupo de publicidad](sitelink-extension-associate.md).
 
 ## Editar configuración de vínculos de sitios compartidos
 
@@ -42,7 +42,7 @@ Puede editar un vínculo de sitio compartido a la vez.
 
 1. Edite el [configuración de vínculos de sitios compartidos](#shared-sitelink-settings).
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Clic **[!UICONTROL Post]**.
 
 ## Eliminar vínculos de sitios compartidos
 
@@ -58,7 +58,7 @@ Puede editar un vínculo de sitio compartido a la vez.
 
 ## Configuración de vínculos de sitios compartidos {#shared-sitelink-settings}
 
-Para ver las políticas y motivos adicionales de desaprobación de vínculos de sitios, consulte la [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) y [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) requisitos de extensión de sitelink.
+Para ver las políticas y motivos adicionales de desaprobación de vínculos de sitios, consulte la [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) y [[!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/ext60206) requisitos de extensión de sitelink.
 
 ### [!UICONTROL Sitelink]
 
@@ -106,7 +106,7 @@ Una vez guardado el registro, la dirección URL base incluye cualquier parámetr
 
 >[!NOTE]
 >
->* Cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce añadirá automáticamente como prefijo su propio código de seguimiento y redirección al guardar el registro.
+>* Cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; Search, Social y Commerce añadirán automáticamente como prefijo su propio código de seguimiento y redirección al guardar el registro.
 >* La plantilla de seguimiento en el nivel más granular anula los valores en todos los niveles superiores. Por ejemplo, si tanto la configuración de la cuenta como la configuración de la palabra clave incluyen un valor, se aplica el valor de la palabra clave.
 >* ([!DNL Google Ads]) Si actualiza una plantilla de seguimiento en el nivel de vínculo de sitio o palabra clave, los anuncios relevantes se vuelven a enviar para su revisión. Puede actualizar las plantillas de seguimiento en los niveles de cuenta, campaña o grupo de publicidad sin volver a enviar los anuncios para su aprobación.
 >* ([!DNL Microsoft Advertising]) Puede actualizar sus plantillas de seguimiento en cualquier nivel sin volver a enviar los anuncios para su aprobación.
