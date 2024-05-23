@@ -3,9 +3,9 @@ title: Administrar multiplicadores de oferta para ubicaciones
 description: Aprenda a crear y editar multiplicadores de oferta para sus destinos de colocación.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
+source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '543'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ Esta función funciona con los destinos de colocación existentes. Para cambiar 
 
 1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. Ajuste manualmente los multiplicadores de oferta para los objetivos aptos o cargando un archivo CSV con valores de objetivo:
+1. Ajuste de los multiplicadores de oferta para los objetivos aptos:
 
-   * Para ajustar manualmente los valores del multiplicador de oferta, cambie a cada [ficha específica de target](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], y [!UICONTROL Brand Safety]) y edite los valores existentes para los destinos de colocación. La mayoría de las categorías de destino muestran subcategorías a la izquierda. Haga clic en una subcategoría para administrar los multiplicadores de oferta de esa subcategoría, cuando corresponda.
+   * Para ajustar manualmente los valores del multiplicador de oferta, cambie a cada [ficha específica de target](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience], y [!UICONTROL Brand Safety]) y edite los valores existentes para los destinos de colocación.
+
+     La mayoría de las categorías de destino muestran subcategorías a la izquierda. Haga clic en una subcategoría para administrar los multiplicadores de oferta de esa subcategoría, según corresponda.
 
    * Para cargar un archivo CSV con valores de multiplicador de oferta y sobrescribir los valores existentes:
 
