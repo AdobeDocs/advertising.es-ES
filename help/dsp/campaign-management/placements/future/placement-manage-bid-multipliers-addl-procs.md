@@ -2,7 +2,7 @@
 title: Administrar multiplicadores de oferta para ubicaciones
 description: Conozca xxx
 feature: DSP Placements
-source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
+source-git-commit: c0dd18a3ce8759214813b7303c590a28febf1b37
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
       1. Haga clic en **[!UICONTROL Download Template]** y editar el archivo o b) editar una plantilla descargada previamente. Guarde el archivo editado en su dispositivo o red.
 
-         Las plantillas descargadas incluyen una hoja para cada tipo de destino (como País, Fuentes y Categoría del sitio). Solo se incluyen los multiplicadores de oferta existentes con valores distintos de 1,0.
+         Las hojas de cálculo descargadas incluyen una hoja para cada tipo de destino (como País, Fuentes y Categoría del sitio). Solo se incluyen los multiplicadores de oferta existentes con valores &lt; 1,0 o > 1,0.
 
          * Para agregar un multiplicador de oferta para un destino existente, introduzca el destino utilizando la misma sintaxis visible en la interfaz de usuario y el valor del multiplicador de oferta correspondiente.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
    1. Haga clic en **[!UICONTROL Download Template]** y editar el archivo o b) editar una plantilla descargada previamente. Guarde el archivo editado en su dispositivo o red.
 
-      Las plantillas descargadas incluyen una hoja para cada tipo de destino (como País, Fuentes y Categoría del sitio). Solo se incluyen los multiplicadores de oferta existentes con valores distintos de 1,0.
+      Las hojas de cálculo descargadas incluyen una hoja para cada tipo de destino (como País, Fuentes y Categoría del sitio). Solo se incluyen los multiplicadores de oferta existentes con valores &lt; 1,0 o > 1,0.
 
       * Para agregar un multiplicador de oferta para un destino existente, introduzca el destino utilizando la misma sintaxis visible en la interfaz de usuario y el valor del multiplicador de oferta correspondiente.
 
