@@ -2,9 +2,9 @@
 title: Administrar multiplicadores de oferta para ubicaciones
 description: Conozca xxx
 feature: DSP Placements
-source-git-commit: 85e1338b841cd9615f7d2881185487ae79743303
+source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,19 @@ ht-degree: 0%
 
      La mayoría de las categorías de destino muestran subcategorías a la izquierda. Haga clic en una subcategoría para administrar los multiplicadores de oferta de esa subcategoría, según corresponda.
 
-   * Para cargar un archivo CSV con valores de multiplicador de oferta y sobrescribir los valores existentes:
+   * Para cargar un archivo CSV con valores de multiplicador de oferta y sobrescribir todos los valores existentes:
 
       1. Clic **[!UICONTROL CSV File Edit]** en la parte superior derecha.
 
-      1. Haga clic en **[!UICONTROL Download Template]** e introduzca los objetivos utilizando la misma sintaxis visible en la interfaz de usuario y los valores del multiplicador de oferta correspondientes o b) edite una plantilla descargada anteriormente con la misma información. Guarde el archivo editado en su dispositivo o red.
+      1. Haga clic en **[!UICONTROL Download Template]** y editar el archivo o b) editar una plantilla descargada previamente. Guarde el archivo editado en su dispositivo o red.
+
+         Las plantillas descargadas incluyen una hoja para cada tipo de destino (como País, Fuentes y Categoría del sitio). Solo se incluyen los multiplicadores de oferta existentes con valores distintos de 1,0.
+
+         * Para agregar un multiplicador de oferta para un destino existente, introduzca el destino utilizando la misma sintaxis visible en la interfaz de usuario y el valor del multiplicador de oferta correspondiente.
+
+         * Para quitar un modificador de oferta, establezca el valor del multiplicador de oferta en 1,0 o elimine toda la información de la fila.
+
+         ![Fila de ejemplo en un archivo de hoja de cálculo del multiplicador de ofertas](/help/dsp/assets/bid-multiplier-spreadsheet.png "Fila de ejemplo en un archivo de hoja de cálculo del multiplicador de ofertas")
 
       1. Clic **[!UICONTROL Next]** para desplazarse a [!UICONTROL Upload File] y a) arrastre y suelte el archivo editado en el cuadro o b) haga clic dentro del cuadro para seleccionar el archivo desde el dispositivo o la red.
 
@@ -59,17 +67,25 @@ ht-degree: 0%
 
    Los mismos cambios se aplican a todas las ubicaciones seleccionadas.
 
-   * Para cargar un archivo CSV con valores de multiplicador de oferta que sobrescriban los valores existentes:
+* Para cargar un archivo CSV con valores de multiplicador de oferta y sobrescribir todos los valores existentes:
 
-     >[!NOTE]
-     >
-     >Si deja un campo vacío, se eliminan todos los valores de ese tipo de destino.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
+   1. Clic **[!UICONTROL CSV File Edit]** en la parte superior derecha.
 
-      1. Clic **[!UICONTROL CSV Edit]** en la parte superior derecha.
+   1. Haga clic en **[!UICONTROL Download Template]** y editar el archivo o b) editar una plantilla descargada previamente. Guarde el archivo editado en su dispositivo o red.
 
-      1. Haga clic en **[!UICONTROL Download Template]** y editar los valores del multiplicador de oferta o b) editar una plantilla descargada anteriormente. Guarde el archivo editado en su dispositivo o red.
+      Las plantillas descargadas incluyen una hoja para cada tipo de destino (como País, Fuentes y Categoría del sitio). Solo se incluyen los multiplicadores de oferta existentes con valores distintos de 1,0.
 
-      1. A) arrastre y suelte el archivo editado en el cuadro o b) haga clic dentro del cuadro para seleccionar el archivo desde el dispositivo o la red.
+      * Para agregar un multiplicador de oferta para un destino existente, introduzca el destino utilizando la misma sintaxis visible en la interfaz de usuario y el valor del multiplicador de oferta correspondiente.
+
+      * Para quitar un modificador de oferta, establezca el valor del multiplicador de oferta en 1,0 o elimine toda la información de la fila.
+
+      ![Fila de ejemplo en un archivo de hoja de cálculo del multiplicador de ofertas](/help/dsp/assets/bid-multiplier-spreadsheet.png "Fila de ejemplo en un archivo de hoja de cálculo del multiplicador de ofertas")
+
+   1. Clic **[!UICONTROL CSV Edit]** en la parte superior derecha.
+
+   1. Haga clic en **[!UICONTROL Download Template]** y editar los valores del multiplicador de oferta o b) editar una plantilla descargada anteriormente. Guarde el archivo editado en su dispositivo o red.
+
+   1. A) arrastre y suelte el archivo editado en el cuadro o b) haga clic dentro del cuadro para seleccionar el archivo desde el dispositivo o la red.
 
    1. Clic **[!UICONTROL Upload]**.
 
