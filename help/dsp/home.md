@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 0d96c6dcdc498e9c96e7c13b24c805bf5c3bdcae
+source-git-commit: 3ffd3fdbe61d66a7c3a181e07559727b5db83a7e
 workflow-type: tm+mt
-source-wordcount: '2857'
+source-wordcount: '2912'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
-| 20 de mayo de 2024 | Anuncios de TV conectados, píxeles, segmentos de redireccionamiento | (Beta abierta; disponible solo en EE. UU. y AUS) Ahora puede redireccionar los segmentos de audiencia expuestos a una campaña de CTV con anuncios adicionales para mejorar la publicidad en canales múltiples:<ul><li>Configure un segmento de exposición de publicidad y copie la etiqueta de seguimiento de impresiones en la ubicación de CTV o publicidad deseada para iniciar el seguimiento del segmento.</li><li>En la ubicación de retargeting, seleccione el segmento de exposición de CTV en la [!UICONTROL Audience Targeting] sección.</li></ul> | Consulte &quot;[Creación e implementación de un segmento personalizado](/help/dsp/audiences/custom-segment-create.md)&quot; y &quot;[Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
+| 22 de mayo de 2024 | Optimización para paquetes de CTV | En paquetes con los objetivos de optimización de &quot;CPA más bajo&quot; y &quot;ROAS más alto&quot;, los modelos de rendimiento para anuncios de TV conectados ahora utilizan datos de varios puntos de contacto en la ruta de conversión para un aprendizaje automático más rápido y robusto. Los paquetes existentes se actualizan para utilizar la optimización multitáctil y no se requiere ninguna acción. | — |
+| 20 de mayo de 2024 | Anuncios de TV conectados, píxeles, segmentos de redireccionamiento | (Beta abierta; disponible solo en EE. UU. y AUS) Ahora puede redireccionar los segmentos de audiencia expuestos a una campaña de CTV con anuncios adicionales para mejorar la publicidad en canales múltiples:<ol><li>Configure un segmento de exposición de publicidad y copie la etiqueta de seguimiento de impresiones en la ubicación de CTV o publicidad deseada para iniciar el seguimiento del segmento.</li><li>En la ubicación de retargeting, seleccione el segmento de exposición de CTV en la [!UICONTROL Audience Targeting] sección.</li></ol> | Consulte &quot;[Creación e implementación de un segmento personalizado](/help/dsp/audiences/custom-segment-create.md)&quot; y &quot;[Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2 de mayo de 2024 | Anuncios, píxeles | Puede descargar la configuración de la publicidad y las asociaciones de ubicación de todos los anuncios de una campaña en formato XLSX (hoja de cálculo de Excel) para su revisión desde [!UICONTROL Ad Tools] vista. | Consulte &quot;[Revisar Detalles De Anuncios Con Hojas De Cálculo](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | El [!UICONTROL Ad Tools] ver > [!UICONTROL Attach Pixels] Esta pestaña muestra los píxeles de seguimiento de terceros que están adjuntos a sus anuncios y proporciona un nuevo flujo de trabajo para adjuntar píxeles a uno o más anuncios y para desasociar los píxeles existentes. | Consulte &quot;[Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Ubicaciones, Audiencias | Ahora puede excluir segmentos de audiencia individuales o audiencias no reutilizables de las ubicaciones mediante las herramientas de edición masiva o el editor de ubicaciones. | Consulte &quot;[Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)&quot; y &quot;[Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
