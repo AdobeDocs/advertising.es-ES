@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Microsoft Advertising] campañas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   Cuando agrega una campaña con eCPC a un portafolio optimizado de Search, Social y Commerce, Search, Social y Commerce optimiza las ofertas de base y cuando el &quot;[!UICONTROL Auto adjust campaign budget limits]La opción &quot; está activada: el presupuesto de la campaña. La red de anuncios optimiza todos los ajustes de oferta y puede cambiar las ofertas generadas por Search, Social y Commerce en el momento de la consulta del usuario en función de los datos propietarios y las perspectivas. **Precaución:** Utilice campañas eCPC en portafolios solo cuando las conversiones totales rastreadas en la red de publicidad se alineen con el objetivo del portafolio.
 
-* *[!UICONTROL Manual CPC]*: (Campañas de compra para marcas; [!DNL Microsoft Store Ads] campañas; obsoleto por [!DNL Microsoft Advertising] en 2021 para otros tipos de campaña) Utiliza el modelo de coste por clic (CPC). Para algunos tipos de anuncio, puede permitir que la red de anuncios cambie las ofertas de la campaña:
+* *[!UICONTROL Manual CPC]*: (Campañas de compra para marcas; [!DNL Microsoft Store Ads] campañas; obsoleto para otros tipos de campaña) Utiliza el modelo de coste por clic (CPC). Para algunos tipos de anuncio, puede permitir que la red de anuncios cambie las ofertas de la campaña:
 
    * **[!UICONTROL Enable Enhanced CPC]** (desactivado de forma predeterminada): Esta opción es la misma que utilizar el &quot;[!UICONTROL Enhanced CPC]Opción &quot;.
 
