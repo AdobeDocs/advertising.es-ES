@@ -3,9 +3,9 @@ title: Creación e implementación de un segmento personalizado
 description: Obtenga información sobre cómo crear e implementar un segmento personalizado para rastrear usuarios expuestos a anuncios o usuarios que visitan sus páginas web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
+source-git-commit: 99091cd673fd064908fec4a89e28d2ddb448e9a8
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,20 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
          1. Copie la etiqueta de seguimiento de vista de página, que está etiquetada como &quot;[!UICONTROL Desktop or mobile websites].&quot;
 
+         1. (Etiquetas para segmentos que realizan un seguimiento) [!DNL ID5] (ID) En la etiqueta copiada, sustituya `ID5_PARTNER_ID` con el ID de socio que [!DNL ID5] asignado a su organización.
+
+            Por ejemplo, si el ID del socio ID5 es `abcde` y la etiqueta de segmento generada es
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            luego reemplazar `ID5_PARTNER_ID` con `abcde` dentro de la etiqueta para obtener lo siguiente:
+
+            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+            Su organización recibió el ID de socio cuando firmó un acuerdo con [!DNL ID5]. Si no conoce su ID de socio, póngase en contacto con el equipo de cuenta de Adobe.
+
+            Este paso no es necesario para que las etiquetas se rastreen [!DNL ID5] ID para usuarios expuestos a una unidad de publicidad en dispositivos de escritorio o móviles.
+
          1. Proporcione la etiqueta al anunciante o al contacto del sitio web para su implementación.
 
             Es posible que el departamento de TI del anunciante u otro grupo tengan que programar la implementación de etiquetas o recibir información al respecto.
@@ -89,21 +103,7 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
          1. Copie la etiqueta de seguimiento de impresiones, que tiene la etiqueta &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-   1. (Etiquetas para segmentos que realizan un seguimiento) [!DNL ID5] ID para visitantes de escritorio y móviles de una página web) En la etiqueta copiada, sustituya `ID5_PARTNER_ID` con el ID de socio que [!DNL ID5] asignado a su organización.
-
-   Por ejemplo, si el ID del socio ID5 es `abcde` y la etiqueta de segmento generada es
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   luego reemplazar `ID5_PARTNER_ID` con `abcde` dentro de la etiqueta para obtener lo siguiente:
-
-   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
-
-   Su organización recibió el ID de socio cuando firmó un acuerdo con [!DNL ID5]. Si no conoce su ID de socio, póngase en contacto con el equipo de cuenta de Adobe.
-
-   Este paso no es necesario para que las etiquetas se rastreen [!DNL ID5] ID para usuarios expuestos a una unidad de publicidad en dispositivos de escritorio o móviles.
-
-1. Agregue la etiqueta a la variable [!UICONTROL Pixel] para cada anuncio relevante o para el [!UICONTROL Event Pixels] de la sección [[!UICONTROL Tracking] configuración para cada ubicación relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Agregue la etiqueta a la variable [!UICONTROL Pixel] para cada anuncio relevante o para el [!UICONTROL Event Pixels] de la sección [[!UICONTROL Tracking] configuración para cada ubicación relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Una vez implementada una etiqueta de seguimiento, puede utilizar el segmento en los objetivos de audiencia o las exclusiones para cualquier ubicación.
 
