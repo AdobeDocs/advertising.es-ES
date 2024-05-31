@@ -3,9 +3,9 @@ title: Creación e implementación de un segmento personalizado
 description: Obtenga información sobre cómo crear e implementar un segmento personalizado para rastrear usuarios expuestos a anuncios o usuarios que visitan sus páginas web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
 * Para realizar mediciones en Adobe Analytics, debe:
 
-   1. Completar todo [requisitos previos para la implementación [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) y el [ID de AMO e ID de EF en las URL de seguimiento](/help/integrations/analytics/ids.md).
+   1. Completar todo [requisitos previos para la implementación [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md), y asegúrese de que la variable [ID de AMO e ID de EF](/help/integrations/analytics/ids.md) se están rellenando en las direcciones URL de seguimiento.
 
    1. Agregue el siguiente parámetro a sus páginas web antes o dentro de la variable [Código JavaScript necesario para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — en cualquier lugar antes de que se inicialice el último servicio de eventos.
 
