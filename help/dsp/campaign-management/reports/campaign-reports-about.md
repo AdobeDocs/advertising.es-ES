@@ -3,7 +3,7 @@ title: Tipos de informes de rendimiento en las vistas de Campaign Management
 description: Obtenga información acerca de los datos de informes incluidos en las vistas de administración de campañas.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
+source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Además, puede ver los siguientes datos dentro de la configuración de ubicació
 
 * [A (vista de detalles) [!UICONTROL Inspector])](placement-details-view.md), que muestra todos los sitios segmentados, los anuncios, los datos de frecuencia y las ofertas de una ubicación.
 
-* A [informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
+* A [informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md).
 
 * [Informes de diagnóstico de ubicación](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
