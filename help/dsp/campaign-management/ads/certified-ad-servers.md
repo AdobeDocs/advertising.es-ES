@@ -3,9 +3,9 @@ title: Partners de servicio de publicidad certificados
 description: Ver todos los servidores de publicidad certificados y unidades de publicidad.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 35ee9b5fbb41bb3fd62e36fb28d11dbb7ee36ade
+source-git-commit: a0f078d93a5cbd408e3eba996ec29102d0422bc1
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Las pieles de alto impacto (incluyendo anuncios conversacionales de Cavai) deben ser servidas de un ID de negocio de visualización de 180x150 a través de la red de inventario de Inskin. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | Anclaje de 320 x 50, BYOC, Pase de ratón, Interrupción, Separación y Sidekick; Salida de 300 x 250, HighRise; Pantalla de escritorio estándar (no se requieren ID de plugins de publicidad específicos); Anclaje de vídeo (solo VAST); CTV a través de [!DNL Pubmatic]</br></br>Póngase en contacto con el equipo de cuenta de Adobe para obtener ayuda sobre la configuración de unidades publicitarias. |
+| [!DNL Kargo] | | X | | X | Anclaje de 320 x 50, BYOC, Pase de ratón, Interrupción, Escapada, Pista y Sidekick; Salida de 300 x 250, HighRise; Pantalla de escritorio estándar (no se requieren ID de complementos de publicidad específicos); Anclaje de vídeo (solo VAST); CTV a través de [!DNL Pubmatic]</br></br>Póngase en contacto con el equipo de cuenta de Adobe para obtener ayuda sobre la configuración de unidades publicitarias. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |
