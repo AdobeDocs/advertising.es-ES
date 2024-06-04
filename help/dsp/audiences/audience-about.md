@@ -3,9 +3,9 @@ title: DSP Acerca de la Gestión de público en Advertising
 description: Obtenga información sobre las funciones de gestión de público.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: e2387f7e373e69c72e97ee83eff8f6a7ce9ceed5
+source-git-commit: 94c41ec311ed79897e1e26a650605c0213450071
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1316'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,23 @@ ht-degree: 0%
 
 DSP En, puede crear y administrar segmentos de audiencia y conjuntos de audiencias, que puede usar como objetivos para sus ubicaciones:
 
-* Puede recopilar sus propios datos de audiencia de origen creando e implementando segmentos. Posteriormente, puede redireccionar a los usuarios del segmento con anuncios o evitar que los usuarios del segmento reciban anuncios. Puede crear los siguientes tipos de segmentos:
+* DSP Recopile sus propios datos de audiencia de origen creando e implementando segmentos de. Posteriormente, puede redireccionar a los usuarios del segmento con anuncios o evitar que los usuarios del segmento reciban anuncios. Puede crear los siguientes tipos de segmentos:
 
-   * [Segmentos personalizados](/help/dsp/audiences/custom-segment-create.md) para realizar un seguimiento de a) los usuarios expuestos a anuncios desde equipos de escritorio y dispositivos móviles y b) los usuarios que visitan páginas web específicas.
+   * [Segmentos personalizados](/help/dsp/audiences/custom-segment-create.md) para realizar un seguimiento de a) los usuarios expuestos a anuncios desde equipos de escritorio y dispositivos móviles y b) los usuarios que visitan páginas web específicas. La etiqueta de seguimiento puede rastrear usuarios basados en cookies o usuarios asociados con ID universales ID5.
 
    * [Segmentos de exclusión de la venta de CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) para rastrear los ID de usuario de las solicitudes de exclusión de la venta de consumidores en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA). Puede recuperar informes mensuales de los ID de usuario de las solicitudes de exclusión de venta.
 
      Para obtener más información sobre la compatibilidad del Adobe Advertising con las solicitudes de exclusión de la venta de la CCPA, consulte [Compatibilidad de Adobe Advertising con la Ley de Privacidad del Consumidor de California: Compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* Puede crear una biblioteca de audiencias de [audiencias reutilizables](/help/dsp/audiences/reusable-audience-create.md). Las audiencias guardadas están compuestas por cualquiera de los segmentos de audiencia disponibles y por cualquiera de las demás audiencias guardadas. Los cambios que realice en una audiencia guardada se aplican automáticamente a todas las ubicaciones que dirijan o excluyan la audiencia, así como a todas las demás audiencias que incluyan la audiencia guardada.
+* (Función beta) [Obtención y uso de ID universales para segmentación sin cookies](/help/dsp/audiences/universal-ids.md):
+
+   * Envíe manualmente los mensajes autenticados [!DNL LiveRamp] [!DNL RampID] DSP segmentos directamente a los que se va a.
+
+   * DSP Permita importar segmentos de origen desde la plataforma de datos del cliente y traducirlos a tipos de ID universales admitidos.
+
+   * Incluya segmentos de terceros que contengan ID universales en sus destinos de colocación sin ningún paso adicional.
+
+* Crear una biblioteca de audiencias de [audiencias reutilizables](/help/dsp/audiences/reusable-audience-create.md). Las audiencias guardadas están compuestas por cualquiera de los segmentos de audiencia disponibles y por cualquiera de las demás audiencias guardadas. Los cambios que realice en una audiencia guardada se aplican automáticamente a todas las ubicaciones que dirijan o excluyan la audiencia, así como a todas las demás audiencias que incluyan la audiencia guardada.
 
   Las audiencias guardadas permiten a los planificadores de medios agrupar las audiencias según sea necesario, incluyendo y excluyendo varios segmentos mediante una lógica booleana compleja. El tamaño de cada segmento individual y el tamaño total de la audiencia se indican a medida que crea una audiencia. Los ejecutores de Campaign simplemente pueden seleccionar una o más audiencias guardadas como destinos de ubicación, en lugar de configurar manualmente los destinos de audiencia para cada ubicación.
 
@@ -30,11 +38,15 @@ También hay disponibles tipos de audiencia adicionales para la segmentación de
 
 ## Importación de segmentos de datos de origen y de terceros
 
-DSP Puede traducir sus segmentos de origen a ID universales para una segmentación sin cookies y puede ponerlos a disposición de cualquier anunciante o cuenta. DSP ha establecido conectores para la [el [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es) y otras CDP. Para obtener más información, consulte la [Sección Fuentes](/help/dsp/audiences/sources/source-about.md).
+DSP DSP Dispone de muchas opciones para importar segmentos de datos de origen y de terceros en la mediante la interfaz de usuario de la interfaz de usuario de la aplicación o a través de servicios de importación personalizados.
 
-DSP También puede importar el resto de segmentos de datos de origen directamente desde su plataforma de administración de datos (DMP) y proporcionarlos a cualquier conjunto de anunciantes, según sea necesario.
+* DSP Puede extraer su Adobe Audience Manager y otros recursos [!DNL Adobe] audiencias para segmentación. Para conocer los requisitos previos y las instrucciones, consulte &quot;[Importación de segmentos de Adobe Audience Manager para la segmentación de anuncios](/help/integrations/audience-manager/import-audiences.md).
 
-DSP Además, puede importar segmentos personalizados de terceros, incluidas combinaciones complejas de segmentos de terceros. Puede proporcionar los segmentos a cualquier conjunto de anunciantes, según sea necesario.
+* DSP Puede traducir segmentos de datos de origen de plataformas de datos de clientes compatibles a segmentos con ID universales mediante el [Función Fuentes](/help/dsp/audiences/sources/source-about.md). También puede [enviar manualmente los mensajes autenticados [!DNL LiveRamp] [!DNL RampID] DSP segmentos directamente a la](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+
+* DSP Puede importar el resto de segmentos de datos de origen directamente desde su plataforma de administración de datos (DMP) y proporcionarlos a cualquier conjunto de anunciantes, según sea necesario.
+
+* DSP Puede importar segmentos personalizados de terceros, incluidas combinaciones complejas de segmentos de terceros. Puede proporcionar los segmentos a cualquier conjunto de anunciantes, según sea necesario.
 
 Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
 
@@ -48,9 +60,13 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
    * Segmentos personalizados para usuarios que visitaron páginas web específicas y usuarios expuestos a impresiones de anuncios específicos.
 
+     No se incurre en cargos por impresiones entregadas a ID universales.
+
    * Segmentos de audiencia de exclusión de CCPA para usuarios que enviaron solicitudes de exclusión de venta en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA).
 
-* Todos los segmentos de datos de origen importados.
+* Todos los segmentos de datos de origen importados, incluidos los segmentos traducidos a ID universales.
+
+  Se cobran cargos adicionales por las impresiones entregadas a los ID universales. Consulte &quot;[Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)&quot; para las tarifas.
 
 * Todos los segmentos de datos de terceros personalizados importados.
 
@@ -72,15 +88,23 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
 ## Datos de tamaño de audiencia
 
-En la configuración de audiencia y de ubicación guardadas, puede ver datos detallados sobre el tamaño de la audiencia:
+En Audiencias > Todas las audiencias y en la sección Segmentación de audiencia de la configuración de ubicación, puede filtrar cada lista de segmentos por intervalo de tamaño, incluido el intervalo total y los intervalos independientes para tipos de dispositivos específicos o tipos de ID universales.
+
+![filtrar por tamaño de audiencia](/help/dsp/assets/audience-size-filter.png)
+
+También puede ver datos detallados del tamaño de la audiencia:
 
 * Se muestra el tamaño de audiencia deduplicada total y activa en todos los segmentos seleccionados y audiencias guardadas, y puede ver detalles por tipo de dispositivo (navegador, móvil o TV conectada).
 
   ![el tamaño de audiencia combinado](/help/dsp/assets/audience-size.png)
 
-* Para segmentos individuales y audiencias guardadas, el tamaño total de la audiencia y el CPM (cuando corresponda) se muestran junto al nombre del segmento. Puede ver más detalles sobre el segmento, incluido el tamaño por tipo de dispositivo (navegador, móvil o TV conectada). Para audiencias guardadas, el tamaño total es el total deduplicado.
+* Para segmentos individuales, el tamaño total de la audiencia y el CPM (cuando corresponda) se muestran junto al nombre del segmento.
 
   ![el tamaño del segmento individual](/help/dsp/assets/audience-size-segment.png)
+
+* Puede ver más detalles sobre un segmento individual o una audiencia guardada, incluido el tamaño por explorador, móvil, TV conectada y socio de tipo ID universal. Para audiencias guardadas, el tamaño total es el total deduplicado.
+
+  ![el segmento individual o los detalles de audiencia guardados](/help/dsp/assets/audience-size-segment-details.png)
 
 ## Las vistas Audiencias
 
@@ -102,7 +126,7 @@ El [!UICONTROL Segments] La vista también enumera los siguientes tipos de segme
 
   No puede editar ni compartir segmentos personalizados que otros usuarios hayan compartido con usted.
 
-* Todos los segmentos de origen importados disponibles para el usuario.
+* Todos los segmentos de origen importados tal cual están disponibles para el usuario.
 
   No puede editar ni compartir segmentos de origen que se compartieron con usted. Póngase en contacto con el equipo de cuenta de Adobe si necesita compartir segmentos de origen con usuarios adicionales.
 
@@ -110,12 +134,21 @@ El [!UICONTROL Segments] La vista también enumera los siguientes tipos de segme
 
   No puede editar ni compartir segmentos de terceros que se compartieron con usted. Póngase en contacto con el equipo de cuenta de Adobe si necesita compartir segmentos de terceros con usuarios adicionales.
 
+### La vista Fuentes
+
+En el [!UICONTROL Sources] En esta vista, puede configurar fuentes para segmentos de origen en plataformas de datos de clientes compatibles que desee convertir en segmentos que contengan tipos de ID universales especificados. La configuración de origen incluye una clave de origen generada automáticamente, que proporcionará a su plataforma de datos del cliente para establecer la conexión.
+
+Para obtener más información sobre las plataformas de datos del cliente compatibles, los tipos de ID universales compatibles y los flujos de trabajo para configurar conexiones a cada plataforma de datos del cliente, consulte &quot;[Acerca de los orígenes](/help/dsp/audiences/sources/source-about.md).&quot;
+
+Los segmentos traducidos están disponibles para incluirlos en audiencias reutilizables y en la configuración de ubicación para la segmentación sin cookies.
+
 >[!MORELIKETHIS]
 >
+>* [Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
->* [Configuración de audiencia](audience-settings.md)
->* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)
 >* [Creación e implementación de un segmento personalizado](custom-segment-create.md)
 >* [Creación e implementación de un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
+>* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
+>* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

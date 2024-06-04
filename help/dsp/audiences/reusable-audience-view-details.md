@@ -3,9 +3,9 @@ title: Ver detalles sobre una audiencia reutilizable
 description: Obtenga información sobre cómo ver la configuración y el tamaño de la audiencia para una audiencia reutilizable.
 feature: DSP Audiences
 exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 5f96a9b1097137a337733be4f1df9bd6b9670626
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL View Details]**.
 
-1. (Opcional) Para ver el número de miembros de la audiencia activos o totales por tipo de dispositivo, haga clic en ![Desglose de dispositivo](/help/dsp/assets/device-breakdown.png) junto al **[!UICONTROL Active]** o **[!UICONTROL Total]** tamaño de la audiencia.
+1. (Opcional) Para ver el número de miembros de la audiencia activos o totales por tipo de dispositivo (para ID basados en cookies) y por tipo de ID universal, haga clic en ![Desglose de dispositivo](/help/dsp/assets/device-breakdown.png) junto al **[!UICONTROL Active]** o **[!UICONTROL Total]** tamaño de la audiencia.
 
 1. (Opcional) Para editar la configuración de audiencia, haga clic en **[!UICONTROL Edit Audience]** y [editar el nombre y la configuración de la audiencia](reusable-audience-edit.md).
 
@@ -33,4 +33,3 @@ ht-degree: 0%
 >* [Configuración de audiencia](audience-settings.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
-

@@ -3,9 +3,9 @@ title: Configuración de paquetes
 description: Consulte las descripciones de la configuración del paquete disponible.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 54e8dec0f31d1f18931d12d868ba162879a7acfb
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Para paquetes con vuelo personalizado, el intervalo presupuestario siempre es *[
 >
 >Este campo es solo un punto de referencia y no se utiliza para la toma de decisiones.
 
-**[!UICONTROL Frequency Cap]:** (Paquetes solo con ritmo de nivel de paquete) El número de veces que un dispositivo o persona únicos (según el especificado) [!UICONTROL Cross Device Level] para la campaña) se pueden mostrar anuncios desde el paquete. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
+**[!UICONTROL Frequency Cap]:** (Paquetes con ritmo de nivel de paquete solamente) El número de veces que un dispositivo único, ID universal o persona (según el especificado) [!UICONTROL Cross Device Level] para la campaña y la ubicación [!UICONTROL Targeting] configuración) se pueden servir anuncios desde el paquete. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
 
 >[!NOTE]
 >

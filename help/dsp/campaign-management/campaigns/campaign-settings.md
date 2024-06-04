@@ -3,9 +3,9 @@ title: Configuración de campaña
 description: Consulte las descripciones de las configuraciones de campaña disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Para calcular los impuestos retenidos:
 >
 >* También puede configurar estos valores en la configuración de tarifas de la cuenta.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** DSP (Solo lectura para campañas existentes creadas desde el 22 de junio de 2020; no disponible para campañas creadas antes del 22 de junio de 2020) Nivel al que se dirigirán los anuncios y se aplicarán límites de frecuencia: *Mismo dispositivo* para dirigirse a un dispositivo o *People* para dirigirse a una persona en todos sus dispositivos conocidos.
+**[!UICONTROL Cross Device Level]:** DSP (Solo lectura para las campañas existentes creadas desde el 22 de junio de 2020; no disponible para las campañas creadas antes del 22 de junio de 2020) El nivel de segmentación de anuncios y aplicación de límites de frecuencia: *Mismo dispositivo* para dirigirse a un dispositivo o *People* para dirigirse a una persona en todos sus dispositivos conocidos. **Nota:** La compatibilidad entre dispositivos no está disponible para ubicaciones destinadas a ID universales.
 
 **[!UICONTROL Device Graph]:** (Solo lectura para campañas existentes; campañas con segmentación multidispositivo basada en personas únicamente) El gráfico de dispositivos que se utilizará para la segmentación multidispositivo y la administración de frecuencias:
 
@@ -86,7 +86,9 @@ Para calcular los impuestos retenidos:
 
   Esta opción también está disponible para todos los anunciantes, sin ningún cargo, para la administración de frecuencias y la medición de atribución.
 
-**[!UICONTROL Frequency Cap]:** (Opcional) El número de veces que un dispositivo o una persona únicos (según el especificado) [!UICONTROL Cross Device Level]) pueden ser anuncios publicados de la campaña. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
+  La compatibilidad entre dispositivos solo se aplica a las ubicaciones que se dirigen a ID heredados, pero no a las ubicaciones que se dirigen a ID universales (como [!DNL LiveRamps]). La segmentación, la administración de frecuencias y la atribución para ID universales se aplican solo en el nivel de ID.
+
+**[!UICONTROL Frequency Cap]:** (Opcional) El número de veces que un dispositivo único, ID universal o persona (según el especificado) [!UICONTROL Cross Device Level] y la ubicación de [!UICONTROL Targeting] configuración) pueden mostrarse como anuncios de la campaña. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
 
 >[!NOTE]
 >

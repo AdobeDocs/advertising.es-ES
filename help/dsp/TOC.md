@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,8 @@ ht-degree: 3%
    + [Solución de problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
 + Audiencias {#audiences}
    + [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
-   + Audiencias {#reusable-audiences}
+   + [Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md)
+   + Audiencias reutilizables {#reusable-audiences}
       + [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicación de una audiencia reutilizable](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-edit.md)
@@ -137,14 +138,13 @@ ht-degree: 3%
       + [Visualización de los píxeles de seguimiento de un segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Eliminar un segmento](/help/dsp/audiences/segment-delete.md)
    + Fuentes {#sources}
-      + [Acerca de la activación de segmentos autenticados a partir de fuentes de audiencia](/help/dsp/audiences/sources/source-about.md)
+      + [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
       + Flujos de trabajo por Customer Data Platform {#sources-workflows}
-         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
-            + [DSP Flujo de trabajo para usar la integración de la con [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-            + [Activar segmentos autenticados de socios de ID universales](/help/dsp/audiences/sources/source-universal-id.md)
-         + [DSP Flujo de trabajo para usar la integración de la con [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
-      + [Crear una fuente de audiencia para activar audiencias de origen](/help/dsp/audiences/sources/source-create.md)
+         + [Conversión de ID de usuario [!DNL Adobe Real-Time CDP] a los ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [Conversión de ID de usuario [!DNL Tealium] a los ID universales](/help/dsp/audiences/sources/source-tealium.md)
+      + [Crear una fuente de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-create.md)
       + [Configuración de origen de audiencia](/help/dsp/audiences/sources/source-settings.md)
+   + [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Proveedores de datos de terceros disponibles](/help/dsp/audiences/third-party-data-providers.md)
 + Inventario {#inventory}
    + [Resumen de las Funciones de Inventario](/help/dsp/inventory/inventory-overview.md)

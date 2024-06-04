@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '3535'
+source-wordcount: '3789'
 ht-degree: 0%
 
 ---
@@ -311,11 +311,25 @@ Si lo desea, puede exportar la lista de sitios de destino y bloqueados como arch
 
 * Para crear una audiencia, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) junto a [!UICONTROL Excluded Audiences], y luego seleccione **+ Crear audiencia**. Para obtener instrucciones, consulte [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md), empezando por el paso 3.
 
-* Para seleccionar segmentos de audiencia específicos, haga clic en **[!UICONTROL Select segments for this placement only]**. Seleccione la lógica del segmento; para obtener instrucciones, consulte el paso 6 en &quot;[Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md).&quot; Cuando haya terminado, haga clic en **Guardar**.
+**[!UICONTROL Targeting]:** Los tipos de ID de usuario a los que dirigirse. No puede cambiar esta configuración después de que la ubicación esté activa (es decir, después de que haya comenzado el vuelo).
 
-**[!UICONTROL Cross Device Targeting]:** (Disponible cuando selecciona al menos un segmento o audiencia y la variable [campaign está configurada para la segmentación entre dispositivos basada en personas](/help/dsp/campaign-management/campaigns/campaign-settings.md). Permite ampliar el direccionamiento a todos los dispositivos conocidos de una persona (según el gráfico del dispositivo especificado en la configuración de la campaña), incluso a los dispositivos que no están en los segmentos especificados. Se pueden aplicar tarifas según el gráfico especificado para la campaña. Los datos de gráficos de dispositivos solo están disponibles en Norteamérica.
+Al seleccionar ID heredados e ID universales, se da preferencia de oferta a los ID universales.
 
-**[!UICONTROL Placement Cap]:** (Opcional) El número de veces que un dispositivo o una persona únicos (según el especificado) [!UICONTROL Cross Device Level] para la campaña) se muestran en los anuncios desde la ubicación. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
+* *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (predeterminado) segmenta a los usuarios en función de sus cookies, ID de publicidad móvil o ID de canales de TV conectados. Los ID se seleccionan en función del inventario del explorador, la aplicación o CTV.
+
+* *[!UICONTROL Universal ID Beta]*: identifica ID centrados en la privacidad del usuario; seleccione un tipo de ID. Las opciones disponibles están determinadas por los destinos geográficos seleccionados en la variable [!UICONTROL Geo-Targeting] sección. Uso con [[!DNL RampID] DSP segmentos importados directamente a la dirección de correo electrónico](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [DSP segmentos para los que el convierte su PII en ID universales](/help/dsp/audiences/sources/source-about.md), o [segmentos personalizados que rastrean ID universales](/help/dsp/audiences/custom-segment-create.md).
+
+   * *[!UICONTROL ID5]*: Objetivos [!DNL ID5] ID creados probabilísticamente a partir de direcciones de correo electrónico y otras señales.<!-- What countries/geos are these available for? Everywhere?--> Los ID de ID5 están disponibles sin coste adicional. **Nota:** Segmentos de terceros de [!DNL Eyeota] puede incluir ID5.
+
+   * *[!UICONTROL RampID]*: Objetivos [!DNL LiveRamp] [!DNL RampIDs] de usuarios que iniciaron sesión en el sitio mediante sus direcciones de correo electrónico.<!-- Verify --> [!DNL RampIDs] están disponibles para usuarios de Norteamérica, Australia y Nueva Zelanda.
+
+   * *[!UICONTROL Unified ID2.0]*: Objetivos [!DNL Unified ID2.0] (UID2) ID de usuarios que iniciaron sesión en el sitio mediante sus direcciones de correo electrónico.<!-- Verify -->[!DNL UID2 IDs] no están disponibles para los usuarios del Espacio Económico Europeo y de otros países. Consulte la [lista de países prohibidos](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+
+  **[!UICONTROL Terms of service]**: contrato de términos de servicio para el uso de ID universales. DSP Usted u otro usuario de la cuenta debe aceptar los términos una vez, para poder convertir los datos a un nuevo tipo de ID. Para los clientes con contratos de servicio gestionado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
+
+**[!UICONTROL Cross Device Targeting]:** (Disponible cuando la variable [campaign está configurada para la segmentación entre dispositivos basada en personas](/help/dsp/campaign-management/campaigns/campaign-settings.md), solo se segmentan los ID heredados (no los ID universales) y se selecciona al menos un segmento o audiencia. Permite ampliar el direccionamiento a todos los dispositivos conocidos de una persona (según el gráfico del dispositivo especificado en la configuración de la campaña), incluso a los dispositivos que no están en los segmentos especificados. Se pueden aplicar tarifas según el gráfico especificado para la campaña. Los datos de gráficos de dispositivos solo están disponibles en Norteamérica.
+
+**[!UICONTROL Placement Cap]:** (Opcional) El número de veces que un dispositivo único, ID universal o persona (según el especificado) [!UICONTROL Cross Device Level] para la campaña y la ubicación [!UICONTROL Targeting] configuración) se pueden servir anuncios desde la ubicación. Las opciones incluyen *[!UICONTROL Unlimited]* o una cantidad específica por día, semana o mes.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1d8f7c8a365b53a0345ef4155802802acbf3f027
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Puede generar informes una vez o programarlos para que se generen diariamente, s
 
 * Plantillas de informe preconfiguradas
 
-   * **[!UICONTROL Billing]:** Utilice este informe para comprender las métricas de facturación clave como las métricas de gasto para la facturación de medios por campaña.
+   * **[!UICONTROL Billing]:** Utilice este informe para comprender las métricas de facturación clave como las métricas de gasto para la facturación de medios por campaña. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
      >[!NOTE]
      >
@@ -61,7 +61,7 @@ Puede generar informes una vez o programarlos para que se generen diariamente, s
 
    * **[!UICONTROL Geo]**: utilice esta plantilla previamente rellenada para ver las métricas clave por dimensiones geográficas.
 
-   * **[!UICONTROL Margin]:** Utilice este informe para ver métricas clave como el margen, los beneficios y otras métricas de gasto por campaña o ubicación.
+   * **[!UICONTROL Margin]:** Utilice este informe para ver métricas clave como el margen, los beneficios y otras métricas de gasto por campaña o ubicación. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
    * **[!UICONTROL Segment]:** Utilice esta plantilla previamente rellenada para ver las métricas clave por segmento.
 
@@ -72,9 +72,9 @@ Puede generar informes una vez o programarlos para que se generen diariamente, s
 
    * **[!UICONTROL Site]:** De forma predeterminada, incluye las métricas estándar, el gasto neto total en medios y el gasto neto total facturable por sitio.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Utilice este informe para ver las impresiones, el alcance y la frecuencia de una sola dimensión en todos los formatos de publicidad a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para optimizar la combinación de medios, mejorar el rendimiento e identificar oportunidades de alcance incremental. Consulte &quot;[Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información.
+   * **[!UICONTROL Household Reach & Frequency]:** Utilice este informe para ver las impresiones, el alcance y la frecuencia de una sola dimensión en todos los formatos de publicidad a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para optimizar la combinación de medios, mejorar el rendimiento e identificar oportunidades de alcance incremental. Consulte &quot;[Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
-   * **[!UICONTROL Household Conversions]:** Utilice este informe para ver las conversiones de visualizaciones a nivel de hogar en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para medir y optimizar el rendimiento de la campaña. Consulte &quot;[Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información.
+   * **[!UICONTROL Household Conversions]:** Utilice este informe para ver las conversiones de visualizaciones a nivel de hogar en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para medir y optimizar el rendimiento de la campaña. Consulte &quot;[Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
 ## Informes entre cuentas {#cross-account-reporting}
 
