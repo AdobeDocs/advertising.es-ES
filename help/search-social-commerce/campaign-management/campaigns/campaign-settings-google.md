@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Display Network Only]:* Muestra anuncios en la red de visualización. Para cada grupo de anuncios, debe especificar ubicaciones y, opcionalmente, puede especificar palabras clave.
 
-* *[!UICONTROL Performance Max]:* (Función beta) Muestra y optimiza las conversiones de los anuncios en los distintos canales mediante [!DNL Google Ads] oferta inteligente. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, vídeos opcionales y señales de audiencia. [!DNL Google Ads] combina automáticamente los recursos para publicar anuncios en función del canal (por ejemplo, [!DNL YouTube], [!DNL Gmail], o [!DNL Search]).
+* *[!UICONTROL Performance Max]:* Muestra y optimiza las conversiones de las publicidades en los distintos canales mediante [!DNL Google Ads] oferta inteligente. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, vídeos opcionales y señales de audiencia. [!DNL Google Ads] combina automáticamente los recursos para publicar anuncios en función del canal (por ejemplo, [!DNL YouTube], [!DNL Gmail], o [!DNL Search]).
 
   **Notas:**
 
