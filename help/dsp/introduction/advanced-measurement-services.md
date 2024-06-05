@@ -2,9 +2,9 @@
 title: Soluciones de medición avanzada
 description: Consulte la lista de soluciones disponibles para la medición avanzada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 06275b37fd5e9449cbf80bcff4f55aaaa8a99b55
+source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -27,12 +27,24 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
 
   Comprenda el alcance total de la campaña a nivel familiar, así como la contribución de las pantallas individuales. Las opciones de informes incluyen:
 
+   * Alcance, frecuencia y conversión domésticos de ID cruzado (sin cookies)
+
+      * Cuantifique el alcance, la superposición y las conversiones únicos/incrementales a nivel doméstico por tipo de ID sin cookies (RampID, ID5) en varios entornos, incluidos la TV conectada (CTV) y digital (escritorio, móvil, nativo y audio).
+
+      * Demuestre la eficacia de la prueba de ID sin cookies para encontrar un alcance incremental en relación con los segmentos basados en cookies.
+
    * Tiempo promedio para la conversión
+
    * Frecuencia de conversión
-   * Informes de TV conectada (CTV)
+
+   * Informes de CTV
+
    * Incrementalidad de la aplicación CTV
+
    * Creación de informes en varias pantallas (digital y de CTV)
+
    * Creación de informes multipantalla (digital, de CTV y de TV)
+
    * Alcance y frecuencia digital en el segmento
 
 * **Alcance y conversiones basados en personas**
@@ -42,6 +54,11 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
    * **Alcance basado en personas de ID cruzado**
 
      Cuantifique el alcance y la superposición únicos entre las cookies y los RampID, así como el coste por métrica por tipo de ID. Demuestre la eficacia de las pruebas de RampID para encontrar un alcance incremental en relación con los segmentos basados en cookies en varios entornos digitales, como escritorio, móvil, nativo y audio.
+
+* **Efecto halo en los informes de búsqueda**
+
+  Cuantifique el impacto de la exposición a CTV y anuncios digitales en la generación de clics de búsqueda, conversiones de búsqueda y ROAS a nivel doméstico en los niveles de aplicación CTV, palabra clave de búsqueda, motor de búsqueda y audiencia y táctica personalizadas.
+
 
 * **[!DNL Dynata]Encuestas basadas en paneles**
 
@@ -79,7 +96,7 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
 
    * Alcance, frecuencia y medición de conversión entre pantallas
 
-     Cualquier cliente que desee comprender el alcance/alcance incremental y las eficiencias basadas en costes o las métricas de conversión en múltiples tácticas digitales en relación con la inversión en televisión lineal.
+     Cualquier cliente que desee comprender el alcance/alcance incremental y las eficiencias basadas en costes o las métricas de conversión en múltiples tácticas digitales en relación con la inversión en TV lineal.
 
    * Encuestas basadas en paneles de Dynata
 
