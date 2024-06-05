@@ -3,7 +3,7 @@ title: Compatibilidad con la activación de ID universales
 description: Obtenga información acerca de la compatibilidad para importar segmentos de ID universales, crear segmentos personalizados para rastrear ID universales y convertir otros identificadores de usuario en segmentos de origen a ID universales para una segmentación sin cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 503b1efbf95ac242a2c9e3db0764dc7b228137e0
+source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -25,11 +25,6 @@ DSP DSP La compatibilidad con ID universales y basados en personas para la segme
 * Puede crear segmentos personalizados que hagan un seguimiento de los usuarios asociados con los ID universales ID5 que están expuestos a anuncios de dispositivos de escritorio y móviles y que visitan páginas web específicas. ID5 utiliza un modelo probabilístico para asignar un ID derivado de varias señales de usuario y señales de explorador. Para obtener instrucciones, consulte &quot;[Creación e implementación de un segmento personalizado](/help/dsp/audiences/custom-segment-create.md).&quot;
 
 * Segmentos de terceros de [!DNL Eyeota] y algunos otros proveedores pueden incluir automáticamente ID5, además de los usuarios rastreados mediante cookies o ID de dispositivo. Los detalles del segmento incluyen el tamaño de cada tipo. Se aplica la tarifa de uso habitual para cada segmento, que se indica junto al nombre del segmento; no se cobran tarifas adicionales por los ID5.
-
-<!-- Make above statement more generic when other ID types are available 
-
-* Some third-party segment vendors have started including universal IDs in their segments, and you can use them in saved audiences and as placement targets without any extra steps or extra fees.
--->
 
 ## Creación de informes por tipo de ID universal
 
