@@ -3,7 +3,7 @@ title: Administrar fuentes de audiencia para activar audiencias de ID universal
 description: Obtenga información sobre cómo crear y administrar una fuente para importar audiencias desde la plataforma de datos del cliente y convertirlas en segmentos que contengan ID universales.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -44,7 +44,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Especifique el [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* o *[!UICONTROL Account]*.
 
-1. Introduzca el resto [configuración de origen](source-settings.md).
+1. Introduzca el resto [configuración de origen](#source-settings).
 
    Conserve una copia del [!UICONTROL Source Key] que se genera. Necesitará el valor más tarde.
 
@@ -69,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Mantenga el cursor sobre la fila de origen y haga clic en **[!UICONTROL Edit]**.
 
-1. Cambie el [ID seleccionados para el origen](source-settings.md).
+1. Cambie el [ID seleccionados para el origen](#source-settings).
 
 1. Clic **[!UICONTROL Save]**.
 
@@ -101,7 +101,7 @@ Puede ver detalles sobre los cambios realizados en un registro de origen de audi
 
 1. (Opcional) Para abrir el registro en una pantalla de detalles más grande, mantenga el cursor sobre la fila de origen y haga clic en **[!UICONTROL View Details]**.
 
-## Configuración de origen de audiencia
+## Configuración de origen de audiencia {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** Si los segmentos están disponibles para un solo anunciante con acceso a la cuenta (*[!UICONTROL Advertiser]*) o a todos los anunciantes con acceso a la cuenta *[!UICONTROL Account]*.
 

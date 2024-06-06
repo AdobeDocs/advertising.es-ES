@@ -3,7 +3,7 @@ title: Compatibilidad con la activación de ID universales
 description: Obtenga información acerca de la compatibilidad para importar segmentos de ID universales, crear segmentos personalizados para rastrear ID universales y convertir otros identificadores de usuario en segmentos de origen a ID universales para una segmentación sin cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Si no ve los recuentos de usuarios o los tamaños de audiencia son bajos, compru
 
 * Asegúrese de que el código correcto y universal de ID específico del socio esté implementado en el sitio web para que coincida con los eventos en el sitio y la exposición de anuncios. Trabaje con su [!DNL LiveRamp] o [!DNL ID5] representativo según sea necesario.
 
-* (Para [!DNL RampIDs] y [!DNL UID 2.0] ID) Asegúrese de que sus [DSP La fuente de datos de la está configurada correctamente](/help/dsp/audiences/sources/source-settings.md)y que los recuentos de usuarios se rellenen para los segmentos de audiencia generados.
+* (Para [!DNL RampIDs] y [!DNL UID 2.0] ID) Asegúrese de que sus [DSP La fuente de datos de la está configurada correctamente](/help/dsp/audiences/sources/source-manage.md#source-settings)y que los recuentos de usuarios se rellenen para los segmentos de audiencia generados.
 
 * Si su alcance es menor de lo esperado, compruebe que la lógica del segmento de audiencia no sea demasiado granular.
 
