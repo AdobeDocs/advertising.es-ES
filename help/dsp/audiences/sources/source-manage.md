@@ -3,9 +3,9 @@ title: Administrar fuentes de audiencia para activar audiencias de ID universal
 description: Obtenga información sobre cómo crear y administrar una fuente para importar audiencias desde la plataforma de datos del cliente y convertirlas en segmentos que contengan ID universales.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
+source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 *Función beta*
 
-DSP Cree una fuente de datos en los segmentos para cada audiencia de origen en la plataforma de datos del cliente que desee convertir en segmentos que contengan tipos de ID universales especificados. DSP Puede importar los segmentos a la cuenta de usuario de la organización o a una cuenta de anunciante de la cuenta de la organización de que se trate. Los cargos por datos se aplican en función de los tipos de ID universal seleccionados.
-
-Se requieren pasos adicionales para introducir las audiencias de cada plataforma de datos del cliente. Consulte la nota al final del procedimiento.
+DSP Cree una fuente de datos en los segmentos para cada audiencia de origen en la plataforma de datos del cliente que desee convertir en segmentos que contengan tipos de ID universales especificados. DSP Puede importar los segmentos a la cuenta de usuario de la organización o a una cuenta de anunciante de la cuenta de la organización de que se trate. Los cargos por datos se aplican en función de los tipos de ID universal seleccionados. Una vez creada una fuente de datos, se requieren pasos adicionales para introducir las audiencias de cada plataforma de datos del cliente. Vea la nota al final del procedimiento para crear un origen.
 
 Más adelante puede cambiar los tipos de ID universales a los que se traduce la audiencia de origen y ver un registro de los cambios.
 
