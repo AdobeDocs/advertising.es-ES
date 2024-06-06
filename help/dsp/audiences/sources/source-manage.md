@@ -3,7 +3,7 @@ title: Administrar fuentes de audiencia para activar audiencias de ID universal
 description: Obtenga información sobre cómo crear y administrar una fuente para importar audiencias desde la plataforma de datos del cliente y convertirlas en segmentos que contengan ID universales.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
+source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,13 +32,13 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Clic **[!UICONTROL Add Source]**.
 
-1. En el [!UICONTROL Select a Type] menú, seleccione la plataforma de datos del cliente:
+1. En el [!UICONTROL Select a Type] , seleccione su [plataforma de datos del cliente](source-about.md):
 
-   * *[!UICONTROL RT-CDP]*: [El [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+   * *[!UICONTROL RT-CDP]*: La [!DNL Adobe Real-Time Customer Data Platform].
 
-   * *[!UICONTROL ActionIQ]*: La [[!DNL ActionIQ] plataforma de datos del cliente](source-about.md).
+   * *[!UICONTROL ActionIQ]*: La [!DNL ActionIQ] plataforma de datos del cliente.
 
-   * *[!UICONTROL Tealium CDP]*: (solo usuarios configurados) El [[!DNL Tealium] plataforma de datos del cliente](source-about.md).
+   * *[!UICONTROL Tealium CDP]*: (solo usuarios configurados) El [!DNL Tealium] plataforma de datos del cliente.
 
 1. Especifique el [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* o *[!UICONTROL Account]*.
 
