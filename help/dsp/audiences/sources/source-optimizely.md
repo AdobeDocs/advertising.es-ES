@@ -2,7 +2,7 @@
 title: Conversión de ID de usuario [!DNL Optimizely] a los ID universales
 description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Optimizely] segmentos de origen.
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Para convertir direcciones de correo electrónico a [!DNL RampIDs] o [!DNL ID5] 
 
 ## DSP Paso 2: Creación de una fuente de audiencia en el {#source-create}
 
-1. [Crear una fuente de audiencia](source-create.md) DSP para importar audiencias a su cuenta de o a una cuenta de anunciante de. Puede elegir convertir los identificadores de usuario a cualquiera de los siguientes [formatos de ID universales disponibles](source-about.md).
+1. [Crear una fuente de audiencia](source-manage.md) DSP para importar audiencias a su cuenta de o a una cuenta de anunciante de. Puede elegir convertir los identificadores de usuario a cualquiera de los siguientes [formatos de ID universales disponibles](source-about.md).
 
    La configuración de origen incluirá una clave de origen generada automáticamente, que utilizará para insertar los datos del segmento.
 
