@@ -3,9 +3,9 @@ title: Configuración de origen de audiencia
 description: Obtenga información acerca de la configuración de las fuentes de audiencia.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Para [!DNL RampID] y [!DNL Unified ID2.0], el proveedor busca cada dirección de
 
 >[!MORELIKETHIS]
 >
->* [Crear una fuente de audiencia para activar audiencias de ID universal](source-create.md)
+>* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
 >* [Acerca de las fuentes de audiencia de origen](source-about.md)
 >* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)

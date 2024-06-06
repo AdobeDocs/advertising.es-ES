@@ -3,9 +3,9 @@ title: Conversión de ID de usuario [!DNL Tealium] a los ID universales
 description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Tealium] segmentos de origen.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Para obtener ayuda sobre la resolución de problemas, póngase en contacto con s
 >[!MORELIKETHIS]
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
->* [Crear una fuente de audiencia para activar audiencias de ID universal](source-create.md)
+>* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
 >* [Configuración de origen de audiencia](source-settings.md)
 >* [Conversión de ID de usuario [!DNL Adobe Real-Time CDP] a los ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)

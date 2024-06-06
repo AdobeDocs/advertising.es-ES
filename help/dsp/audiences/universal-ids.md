@@ -3,9 +3,9 @@ title: Compatibilidad con la activación de ID universales
 description: Obtenga información acerca de la compatibilidad para importar segmentos de ID universales, crear segmentos personalizados para rastrear ID universales y convertir otros identificadores de usuario en segmentos de origen a ID universales para una segmentación sin cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: c1f4df1d5c3f6b32597f59285f25bf0b9da5fb91
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Si no puede resolver el problema, póngase en contacto con el equipo de cuenta d
 
 >[!MORELIKETHIS]
 >
->* [Crear una fuente de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-create.md)
+>* [Administrar fuentes de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-manage.md)
 >* [Conversión de ID de usuario [!DNL Adobe Real-Time CDP] a los ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Conversión de ID de usuario [!DNL Tealium] a los ID universales](/help/dsp/audiences/sources/source-tealium.md)
 >* [Creación e implementación de un segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
