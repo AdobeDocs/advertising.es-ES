@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Microsoft Advertising] campañas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
+source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Muestra anuncios nativos/de visualización en [!DNL Microsoft Audience Network]. Puede: a) generar automáticamente anuncios basados en fuentes vinculando la campaña a una tienda de centro comercial en [!UICONTROL Shopping Settings] o b) cree anuncios adaptables con recursos de texto e imágenes cargadas. Ambas opciones requieren que cree grupos de anuncios con segmentación de usuarios.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Funcionalidad beta) Promociona sus productos a través de minoristas vinculados en las redes de búsqueda y audiencia. Puede crear grupos de anuncios secundarios y grupos de productos (aplicaciones para promocionar), así como anuncios de productos opcionales para la campaña. [!DNL Microsoft Advertising] crea automáticamente anuncios para los grupos de productos. Para campañas de compra de marcas, utilice la estrategia de oferta [!UICONTROL Manual CPC]; para las promociones de compra de marcas, utilice la estrategia de oferta [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* Promociona sus productos a través de minoristas vinculados en las redes de búsqueda y audiencia. Puede crear grupos de anuncios secundarios y grupos de productos (aplicaciones para promocionar), así como anuncios de productos opcionales para la campaña. [!DNL Microsoft Advertising] crea automáticamente anuncios para los grupos de productos. Para campañas de compra de marcas, utilice la estrategia de oferta [!UICONTROL Manual CPC]; para las promociones de compra de marcas, utilice la estrategia de oferta [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft Store Ads Campaign]:* (Funcionalidad beta) Promociona sus aplicaciones y juegos disponibles en el [!DNL Microsoft Store]. Puede crear grupos de anuncios secundarios, grupos de productos y anuncios de productos opcionales para la campaña; [!DNL Microsoft Advertising] crea automáticamente anuncios para los grupos de productos.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* Promociona sus aplicaciones y juegos disponibles en el [!DNL Microsoft Store]. Puede crear grupos de anuncios secundarios, grupos de productos y anuncios de productos opcionales para la campaña; [!DNL Microsoft Advertising] crea automáticamente anuncios para los grupos de productos.
 
-* *[!UICONTROL Audience CTV Video]:* (Funcionalidad beta) Muestra anuncios de vídeo de TV conectada (CTV) en la red de audiencia.
+* *[!UICONTROL Audience CTV Video]:* Muestra anuncios de vídeo de TV (CTV) conectados en la red de audiencias.
 
-* *[!UICONTROL Audience Video]:* (Función beta) Muestra anuncios de vídeo estándar en la red de audiencias.
+* *[!UICONTROL Audience Video]:* Muestra anuncios de vídeo estándar en la red de audiencia.
 
-* *[!UICONTROL Performance Max]:* (Función beta) Muestra varios tipos de anuncios en todas las redes mediante [!DNL Microsoft Advertising] oferta inteligente. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, una llamada a la acción opcional y señales de audiencia. La red de anuncios combina automáticamente los recursos para publicar anuncios en función del canal.
+* *[!UICONTROL Performance Max]:* Muestra varios tipos de anuncios en todas las redes mediante [!DNL Microsoft Advertising] oferta inteligente. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, una llamada a la acción opcional y señales de audiencia. La red de anuncios combina automáticamente los recursos para publicar anuncios en función del canal.
 
 ## [!UICONTROL Campaign Details]
 

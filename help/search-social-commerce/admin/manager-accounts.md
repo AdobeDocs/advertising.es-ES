@@ -1,18 +1,16 @@
 ---
 title: Administrar credenciales para cuentas de administrador de red de anuncios
 description: Obtenga información sobre cómo proporcionar credenciales para su [!DNL Google Ads] cuentas de responsable.
-exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 1%
+source-wordcount: '324'
+ht-degree: 0%
 
 ---
 
 # Administrar credenciales para cuentas de administrador de red de anuncios
-
-*Función beta*
 
 *[!DNL Google Ads]solo cuentas*
 
@@ -32,13 +30,13 @@ Una vez agregadas las credenciales de una cuenta de administrador, la configurac
 
 1. Introduzca las credenciales de inicio de sesión de la cuenta del responsable.
 
-   El **[!UICONTROL Manager Account ID]** y **[!UICONTROL Login Email]** son obligatorios. Search, Social y Commerce capturan y almacenan automáticamente el token de la cuenta que se utilizará para la autenticación.
+   El **[!UICONTROL Manager Account ID]** y **[!UICONTROL Login Email]** son obligatorios. Search, Social y Commerce capturan y almacenan automáticamente el token de cuenta que se utilizará para la autenticación.
 
-   Si lo desea, puede incluir un **[!UICONTROL MCC Account Name]** para la identificación dentro de Search, Social y Commerce, y la cuenta **[!UICONTROL Password]**. Introduzca la contraseña cuando desee cifrarla y guárdela para que el administrador de cuentas pueda actualizar los tokens según sea necesario.
+   Si lo desea, puede incluir un **[!UICONTROL MCC Account Name]** para su identificación dentro de Search, Social y Commerce, y la cuenta de **[!UICONTROL Password]**. Introduzca la contraseña cuando desee cifrarla y guárdela para que el administrador de cuentas pueda actualizar los tokens según sea necesario.
 
-1. Haga clic **[!UICONTROL Authenticate]**.
+1. Clic **[!UICONTROL Authenticate]**.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 ## Para volver a autenticar una cuenta de administrador existente
 
@@ -50,13 +48,13 @@ Una vez agregadas las credenciales de una cuenta de administrador, la configurac
 
 1. Introduzca las credenciales de inicio de sesión de la cuenta del responsable.
 
-   El **[!UICONTROL Manager Account ID]** y **Correo electrónico de inicio** son obligatorios. Search, Social y Commerce capturan y almacenan automáticamente el token de la cuenta que se utilizará para la autenticación.
+   El **[!UICONTROL Manager Account ID]** y **Correo electrónico de inicio** son obligatorios. Search, Social y Commerce capturan y almacenan automáticamente el token de cuenta que se utilizará para la autenticación.
 
-   Si lo desea, puede incluir un **[!UICONTROL MCC Account Name]** para la identificación dentro de Search, Social y Commerce, y la cuenta **[!UICONTROL Password]**. Introduzca la contraseña cuando desee cifrarla y guárdela para que el administrador de cuentas pueda actualizar los tokens según sea necesario.
+   Si lo desea, puede incluir un **[!UICONTROL MCC Account Name]** para su identificación dentro de Search, Social y Commerce, y la cuenta de **[!UICONTROL Password]**. Introduzca la contraseña cuando desee cifrarla y guárdela para que el administrador de cuentas pueda actualizar los tokens según sea necesario.
 
-1. Haga clic **[!UICONTROL Authenticate]**.
+1. Clic **[!UICONTROL Authenticate]**.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
