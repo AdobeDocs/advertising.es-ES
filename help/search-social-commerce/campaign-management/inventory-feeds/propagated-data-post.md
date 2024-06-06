@@ -3,7 +3,7 @@ title: Publicar datos de campaña generados a partir de fuentes en redes de publ
 description: Obtenga información sobre cómo publicar datos generados a partir de fuentes de datos de inventario en redes de publicidad.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
+source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Publicar datos de campaña generados a partir de fuentes en redes de publicidad
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
 
 Puede publicar datos de campaña generados a partir de una fuente a medida que propaga los datos a través de las plantillas asociadas o como un proceso independiente. Una vez que publique los datos, los datos propagados existentes se eliminarán del [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], y [!UICONTROL Ads] listas.
 

@@ -3,7 +3,7 @@ title: Aplicar o descartar una recomendación del editor
 description: Obtenga información sobre cómo ver, aplicar o descartar una recomendación del editor.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
+source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Aplicar o descartar una recomendación del editor
 
-*[!DNL Google Ads]y [!DNL Microsoft® Advertising] cuentas*
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] cuentas*
 
-*Función beta para [!DNL Microsoft® Advertising] cuentas*
+*Función beta para [!DNL Microsoft Advertising] cuentas*
 
 Vea las acciones recomendadas y una explicación de por qué las acciones serían beneficiosas para una recomendación del editor. A continuación, puede aplicar la recomendación cuando se ajuste a sus objetivos comerciales y descartar una recomendación cuando no lo haga.
 
@@ -26,7 +26,7 @@ Vea las acciones recomendadas y una explicación de por qué las acciones sería
 
 1. En la parte superior derecha, seleccione la red publicitaria y la cuenta.
 
-   Para [!DNL Microsoft® Advertising] cuentas, el [!UICONTROL Recommendations] para la cuenta de se enumeran de forma predeterminada.
+   Para [!DNL Microsoft Advertising] cuentas, el [!UICONTROL Recommendations] para la cuenta de se enumeran de forma predeterminada.
 
 1. (Opcional) Filtre las recomendaciones por categoría y tipo.
 
