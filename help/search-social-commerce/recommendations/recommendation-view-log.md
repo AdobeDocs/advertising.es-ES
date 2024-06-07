@@ -3,9 +3,9 @@ title: Ver el registro de recomendaciones del editor de una cuenta
 description: Obtenga información sobre cómo ver un registro de cada recomendación que se aplicó a una [!DNL Google Ads] o [!DNL Microsoft Advertising] cuenta.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Ver las recomendaciones del editor para una cuenta
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] cuentas*
-
-*Función beta para [!DNL Microsoft Advertising] cuentas*
 
 Puede ver un registro de cada recomendación que se aplicó a un [!DNL Google Ads] o [!DNL Microsoft Advertising] cuenta. La información incluye la categoría de recomendación, el tipo de recomendación, las entidades afectadas, el usuario que aplicó la recomendación y la marca de tiempo.
 

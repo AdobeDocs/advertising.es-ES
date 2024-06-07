@@ -3,9 +3,9 @@ title: Aplicar o descartar una recomendación del editor
 description: Obtenga información sobre cómo ver, aplicar o descartar una recomendación del editor.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Aplicar o descartar una recomendación del editor
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] cuentas*
-
-*Función beta para [!DNL Microsoft Advertising] cuentas*
 
 Vea las acciones recomendadas y una explicación de por qué las acciones serían beneficiosas para una recomendación del editor. A continuación, puede aplicar la recomendación cuando se ajuste a sus objetivos comerciales y descartar una recomendación cuando no lo haga.
 

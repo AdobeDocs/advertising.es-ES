@@ -3,9 +3,9 @@ title: Creación y carga de recursos
 description: Obtenga información sobre cómo crear recursos de imagen, vídeo y texto reutilizables y cargarlos en su [!DNL Google Ads] y [!DNL Microsoft Advertising] bibliotecas de recursos de nivel de cuenta.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Creación y carga de recursos
 
 *Para [!DNL Google Ads] y [!DNL Microsoft Advertising] solo cuentas*
-
-*Abrir función beta*
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 
