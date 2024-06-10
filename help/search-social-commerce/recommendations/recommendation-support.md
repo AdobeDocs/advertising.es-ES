@@ -3,9 +3,9 @@ title: Acerca de las recomendaciones del editor y la compatibilidad con perspect
 description: Obtenga información acerca de la compatibilidad para ver y administrar recomendaciones y perspectivas del editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d5f9bdf69bb68f302bc40d94413397ccd13357cc
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -42,35 +42,49 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
 ## Tipos de recomendación admitidos para [!DNL Google Ads]
 
+<!--
+
+-- Add to "Bidding and budget" section of table
+
+| | [!UICONTROL Forecasting set Target CPA] | Set a target CPA for campaigns without one before a seasonal event that's forecasted to increase traffic |
+
+| | [!UICONTROL Set Target CPA] | Set a target CPA for campaigns without one |
+
+| | [!UICONTROL Set ROAS Target] | Set a target ROAS for campaigns without one |
+
+-->
+
 | Categoría de recomendación | Tipo de recomendación | Descripción |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (ahora denominado &quot;[!DNL Ads and assets]&quot; en [!DNL Google Ads]) | [!UICONTROL Call extension] | Añadir extensiones de llamada a una campaña |
 | | [!UICONTROL Callout extension] | Añadir extensiones de llamadas a una campaña |
 | | [!UICONTROL Optimize ad rotation] | Utilizar rotaciones de anuncios optimizadas |
-| | [!UICONTROL Responsive search ad] | Añadir nuevo anuncio de búsqueda adaptable |
+| | [!UICONTROL Responsive search ad] | Añadir un nuevo anuncio de búsqueda adaptable |
 | | [!UICONTROL Responsive search ad asset] | Añadir recursos de anuncios de búsqueda adaptable a un anuncio |
 | | [!UICONTROL Responsive search improve ad strength] | Sugerencias para mejorar la solidez de un anuncio para una búsqueda adaptable |
 | | [!UICONTROL Sitelink extension] | Añadir extensiones de vínculos de sitios a una campaña |
-| | [!UICONTROL Text ad] | Agregar sugerencias de publicidad |
-| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migre anuncios dinámicos de búsqueda a campañas Máximo rendimiento. |
-| | [!UICONTROL Dynamic image extension opt in] | Habilite extensiones de imagen dinámica para la cuenta de, lo que permite [!DNL Google Ads] aprendizaje automático para adjuntar automáticamente a su anuncio las imágenes más relevantes de la página de aterrizaje de su anuncio. |
-| | [!UICONTROL Improve performance max ad strength] | Mejore la solidez del grupo de recursos de una campaña Máximo rendimiento para que tenga una calificación &quot;Excelente&quot;. |
-| | [!UICONTROL Performance max opt in] | Adhesión a campañas Máximo rendimiento. |
+| | [!UICONTROL Text ad] | Añadir un anuncio de texto nuevo |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migración de anuncios dinámicos de búsqueda a campañas Máximo rendimiento |
+| | [!UICONTROL Dynamic image extension opt in] | Habilite extensiones de imagen dinámica para la cuenta de, lo que permite [!DNL Google Ads] aprendizaje automático para adjuntar automáticamente a su anuncio las imágenes más relevantes de la página de aterrizaje de su anuncio |
+| | [!UICONTROL Improve performance max ad strength] | Mejore la solidez del grupo de recursos de una campaña Máximo rendimiento para obtener una calificación &quot;Excelente&quot; |
+| | [!UICONTROL Performance max final URL opt in] | Activar la expansión de URL final para las campañas Máximo rendimiento |
+| | [!UICONTROL Performance max opt in] | Inclusión en campañas Máximo rendimiento |
 | | [!UICONTROL Upgrade local campaign to performance max] | Actualización de una campaña local heredada a una campaña de rendimiento máximo |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Actualización de una campaña de compras inteligentes heredada a una campaña de rendimiento máximo |
-| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Corrección de campañas limitadas por el presupuesto |
+| [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Presupuesto recomendado para una campaña actualmente limitada por el presupuesto |
 | | [!UICONTROL Enhanced CPC opt in] | Puja con [!UICONTROL Enhanced CPC] |
-| | [!UICONTROL Forecasting campaign budget] | Corrija las campañas que se espera que estén limitadas por el presupuesto en el futuro |
+| | [!UICONTROL Forecasting campaign budget] | Presupuesto recomendado para una campaña que se espera que esté limitada por el presupuesto en el futuro |
 | | [!UICONTROL Forecasting set Target ROAS] | Aumentar el presupuesto antes de un evento estacional que se prevé que aumente el tráfico y cambiar la estrategia de oferta de [!UICONTROL Maximize Conversion Value] hasta [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | Ajustar el presupuesto de la campaña para aumentar el ROI |
-| | [!UICONTROL Maximize clicks opt in] | Puja con [!UICONTROL Maximize Clicks] |
-| | [!UICONTROL Maximize conversions opt in] | Puja con [!UICONTROL Maximize Conversions] |
-| | [!UICONTROL Move unused budget] | Mover presupuestos no utilizados a restringidos |
+| | [!UICONTROL Maximize clicks opt in] | Cambie a la [!UICONTROL Maximize Clicks] estrategia de oferta |
+| | [!UICONTROL Maximize conversion value opt in] | Cambio en la estrategia de oferta Maximizar valor de conversión |
+| | [!UICONTROL Maximize conversions opt in] | Cambie a la [!UICONTROL Maximize Conversions] estrategia de oferta |
+| | [!UICONTROL Move unused budget] | Mover el presupuesto no utilizado a un presupuesto restringido |
 | | [!UICONTROL Raise Target CPA bid too low] | Suba el [!UICONTROL Target CPA] por una cantidad recomendada cuando es demasiado baja y hay pocas conversiones o ninguna |
-| | [!UICONTROL Target CPA opt in] | Puja con [!UICONTROL Target CPA] |
-| | [!UICONTROL Target CPA raising] | Suba el [!UICONTROL Target CPA] basado en [!DNL Google Ads] predicciones, que se calculan a partir de conversiones anteriores. |
-| | [!UICONTROL Target ROAS lowering] | Baje el [!UICONTROL Target ROAS] basado en [!DNL Google Ads] predicciones, que se calculan a partir de conversiones anteriores. |
-| | [!UICONTROL Target ROAS opt in] | Puja con [!UICONTROL Target ROAS] |
+| | [!UICONTROL Target CPA opt in] | Cambie a la [!UICONTROL Target CPA] estrategia de oferta |
+| | [!UICONTROL Target CPA raising] | Suba el [!UICONTROL Target CPA] basado en [!DNL Google Ads] predicciones, que se calculan a partir de conversiones anteriores |
+| | [!UICONTROL Target ROAS lowering] | Baje el [!UICONTROL Target ROAS] basado en [!DNL Google Ads] predicciones, que se calculan a partir de conversiones anteriores |
+| | [!UICONTROL Target ROAS opt in] | Cambie a la [!UICONTROL Target ROAS] estrategia de oferta |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Amplíe el alcance actualizando una campaña para utilizar la expansión de visualización |
 | | [!UICONTROL Keyword] | Añadir nuevas palabras clave |
 | | [!UICONTROL Search partners opt in] | Amplíe el alcance con [!DNL Google] buscar socios |
@@ -80,7 +94,7 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
 | Categoría de recomendación | Tipo de recomendación | Descripción |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | Añadir nuevo anuncio de búsqueda adaptable |
+| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | Añadir un nuevo anuncio de búsqueda adaptable |
 | [!UICONTROL Bidding and budgets] | [!UICONTROL Campaign budget] | Corrección de campañas limitadas por el presupuesto |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Keyword] | Añadir nuevas palabras clave de todas las fuentes |
 
