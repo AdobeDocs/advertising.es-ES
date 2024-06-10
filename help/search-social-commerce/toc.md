@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1694'
 ht-degree: 2%
 
 ---
@@ -249,9 +249,7 @@ ht-degree: 2%
       + [Quitar valores de clasificación de etiquetas de componentes de cuenta](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Eliminar valores de clasificación de etiquetas](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Eliminar clasificaciones de etiquetas](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
-   + Administración de recursos publicitarios {#assets}
-      + [Acerca de [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [Creación y carga de recursos](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+   + [Ver y crear recursos publicitarios](/help/search-social-commerce/campaign-management/asset-view-create.md)
    + Prácticas recomendadas para campañas de búsqueda {#best-practices-search}
       + [Analice los informes para restringir las palabras clave y la configuración de campañas](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Escribir texto efectivo y copiar](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
