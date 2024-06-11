@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 8374fbedf8c209b6b2638cd16aa21b79e251486d
+source-git-commit: 53f5bdf56e65aede2240a60973844a6b1657f893
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
 | 10 de junio de 2024 | [!UICONTROL Audiences] | (Función beta) Ahora puede convertir los segmentos de origen de la variable [!DNL Amperity] y [!DNL Optimizely] plataformas de datos de clientes a segmentos formados por [[!DNL LiveRamp] [!DNL RampIDs]] o [!DNL Unified ID 2.0 (UID2.0)] ID. Dentro de la configuración de colocación de Segmentación de audiencia, los segmentos compartidos están disponibles en la lista Segmentos de origen. | Consulte &quot;[Conversión de ID de usuario [!DNL Amperity] a los ID universales](/help/dsp/audiences/sources/source-amperity.md),&quot; &quot;[Conversión de ID de usuario [!DNL Optimizely] a los ID universales](/help/dsp/audiences/sources/source-optimizely.md),&quot; y &quot;[Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md).&quot; |
+|  |  | DSP Está disponible documentación sobre las funciones beta de la para los ID universales y basados en personas para la segmentación sin cookies. | Consulte &quot;[Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md).&quot; |
 | 5 de junio de 2024 | Ubicaciones | Ahora puede administrar multiplicadores de oferta para varias ubicaciones a la vez mediante una hoja de cálculo. | Consulte &quot;[Administrar multiplicadores de oferta para ubicaciones](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 |  | Fuentes de audiencia | Ahora puede cambiar los tipos de ID universales a los que se traduce la audiencia de origen y ver un registro de los cambios. | Consulte &quot;[Administrar fuentes de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 22 de mayo de 2024 | Optimización, anuncios de TV conectados | En paquetes con los objetivos de optimización de &quot;CPA más bajo&quot; y &quot;ROAS más alto&quot;, los modelos de rendimiento para anuncios de TV conectados ahora utilizan datos de varios puntos de contacto en la ruta de conversión para un aprendizaje automático más rápido y robusto. Los paquetes existentes se actualizan para utilizar la optimización multitáctil y no se requiere ninguna acción. | — |

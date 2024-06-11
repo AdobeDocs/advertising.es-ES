@@ -3,9 +3,9 @@ title: Compatibilidad con la activación de ID universales
 description: Obtenga información acerca de la compatibilidad para importar segmentos de ID universales, crear segmentos personalizados para rastrear ID universales y convertir otros identificadores de usuario en segmentos de origen a ID universales para una segmentación sin cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
+source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Siga estas prácticas recomendadas para [!DNL RampID]Segmentos basados en y segm
 
 ## Resolución de problemas
 
-Si no ve los recuentos de usuarios o los tamaños de audiencia son bajos, compruebe lo siguiente:
+Si no ve los recuentos de usuarios o si los tamaños de audiencia son bajos, compruebe lo siguiente:
 
 * Si utiliza [!DNL Flashtalking] o [!DNL Google Campaign Manager 360] anuncios y, a continuación, asegúrese de que las direcciones URL de pulsaciones de sus anuncios se adjuntan con las macros correctas. Consulte las macros de [[!DNL Flashtalking] anuncios](/help/integrations/analytics/macros-flashtalking.md) y [[!DNL Google Campaign Manager 360] anuncios](/help/integrations/analytics/macros-google-campaign-manager.md).
 
