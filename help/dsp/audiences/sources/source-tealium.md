@@ -3,9 +3,9 @@ title: Conversión de ID de usuario [!DNL Tealium] a los ID universales
 description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Tealium] segmentos de origen.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
+source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ DSP Uso de la integración de la con [!DNL Tealium] plataforma de datos del clie
 1. [Duplique el conector existente en [!DNL Tealium] para seguir compartiendo segmentos](#duplicate-connector).
 
 1. [Comparar el número de ID universales con el número de direcciones de correo electrónico con hash](#compare-id-count).
-
-DSP Los segmentos deben estar disponibles en el plazo de 24 horas y se actualizan cada 24 horas.
 
 ## Paso 1: Configurar el seguimiento para [!DNL Analytics] medida {#analytics-tracking}
 
@@ -142,7 +140,7 @@ Solo puede tener un conector por segmento y un segmento por conector.
 
 ## Paso 6: Comparar el número de ID universales con el número de direcciones de correo electrónico con hash {#compare-id-count}
 
-Una vez completados todos los pasos, consulte en la biblioteca de audiencias (que está disponible cuando crea o edita una audiencia desde ) [!UICONTROL Audiences] > [!UICONTROL All Audiences] o dentro de la configuración de ubicación) que el segmento se está rellenando en un plazo de 24 horas. Compare el número de ID universales con el número de direcciones de correo electrónico con hash originales.
+DSP Una vez completados todos los pasos, los segmentos deben estar disponibles en el plazo de 24 horas en el plazo de un plazo de 24 horas, a partir de la fecha de inicio de la sesión. Verifique en su biblioteca de audiencias (que está disponible cuando crea o edita una audiencia desde [!UICONTROL Audiences] > [!UICONTROL All Audiences] o dentro de la configuración de ubicación) que el segmento se está rellenando en un plazo de 24 horas. Compare el número de ID universales con el número de direcciones de correo electrónico con hash originales.
 
 La tasa de traducción de las direcciones de correo electrónico con hash a los ID universales debe ser superior al 90 %. Por ejemplo, si envía 100 direcciones de correo electrónico con hash desde la plataforma de datos del cliente, deben traducirse a más de 90 ID universales. Una tasa de traducción del 90 % o menos es un problema. Para obtener más información sobre cómo pueden variar los recuentos de segmentos, consulte[Causas de variaciones de datos entre ID de correo electrónico e ID universales](#universal-ids-data-variances).&quot;
 
