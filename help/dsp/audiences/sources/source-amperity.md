@@ -1,23 +1,25 @@
 ---
-title: Conversión de ID de usuario [!DNL Optimizely] a los ID universales
-description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Optimizely] segmentos de origen.
+title: Conversión de ID de usuario [!DNL Amperity] a los ID universales
+description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Amperity] segmentos de origen.
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Conversión de ID de usuario [!DNL Optimizely] a los ID universales
+# Conversión de ID de usuario [!DNL Amperity] a los ID universales
 
-DSP Uso de la integración de la con [!DNL Optimizely] plataforma de datos del cliente para convertir las direcciones de correo electrónico con hash de origen de su organización en ID universales para la publicidad de destino.
+DSP Uso de la integración de la con [!DNL Amperity] plataforma de datos del cliente para convertir las direcciones de correo electrónico con hash de origen de su organización en ID universales para la publicidad de destino.
 
 1. (Para convertir direcciones de correo electrónico en [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; anunciantes con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Configure el seguimiento para habilitar [!DNL Analytics] medida](#analytics-tracking).
 
 1. [DSP Creación de una fuente de audiencia en la](#source-create).
 
-1. [Preparación e inserción de los datos del segmento](#push-data).
+1. [Preparación y uso compartido de datos de asignación de segmentos](#map-data).
+
+1. [Solicitud de una inserción de datos desde [!DNL Amperity] DSP a la](#push-data).
 
 1. [Comparar el número de ID universales con el número de direcciones de correo electrónico con hash](#compare-id-count).
 
@@ -39,27 +41,39 @@ Para convertir direcciones de correo electrónico a [!DNL RampIDs] o [!DNL ID5] 
 
    La configuración de origen incluirá una clave de origen generada automáticamente, que utilizará para insertar los datos del segmento.
 
-1. Después de crear la fuente de audiencia, comparta la clave de código fuente con el [!DNL Optimizely] usuario.
+1. Después de crear la fuente de audiencia, comparta la clave de código fuente con el [!DNL Amperity] usuario.
 
-## Paso 3: Preparar e insertar los datos del segmento {#push-data}
+## Paso 3: Preparar y compartir datos de asignación de segmentos {#map-data}
 
-El anunciante debe preparar y enviar los datos con la ayuda de su [!DNL Optimizely] representante.
+El anunciante debe preparar y compartir datos de asignación de segmentos.
 
-1. En [!DNL Optimizely Data Platform], agregue un hash de los ID de correo electrónico de la audiencia del anunciante con el algoritmo SHA-256.
+1. En [!DNL Amperity], agregue hash a los ID de correo electrónico de la audiencia con el algoritmo SHA-256.
 
-1. Contacte con el [!DNL Optimizely] DSP representante de para obtener instrucciones para insertar el segmento en la barra de herramientas de la. Incluya la siguiente información al insertar el segmento:
+1. El anunciante debe proporcionar datos de asignación de segmentos al equipo de cuenta de Adobe DSP para crear los segmentos en la cuenta de. Utilice los siguientes nombres y valores de columna en un archivo de valores separados por comas:
 
-   * **Clave de origen:** Esta es la clave de origen creada en [Paso 2](#source-create).
+   * **Clave de segmento externo:** El [!DNL Amperity] clave de segmento asociada al segmento.
 
-   * **Código de cuenta:** DSP DSP Este es el código de cuenta alfanumérico de la cuenta de la, que puede encontrar en la dirección de correo electrónico de la dirección de correo electrónico, que se encuentra en la dirección de correo electrónico: [!UICONTROL Settings] > [!UICONTROL Account].
+   * **Nombre del segmento:** El nombre del segmento.
 
-DSP Los segmentos deben estar disponibles en un plazo de 24 horas y se actualizan según lo configurado para el anunciante. Independientemente de la frecuencia con la que se actualice el segmento, la inclusión en un segmento caduca pasados 30 días para garantizar el cumplimiento de la privacidad, por lo que debe actualizar las audiencias volviéndolas a insertar desde [!DNL Optimizely] cada 30 días o menos.
+   * **Descripción del segmento:** El propósito o la regla del segmento, o ambos.
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+   * **Identificador principal:** Mantener en blanco
 
-## Paso 4: Comparar el número de ID universales con el número de direcciones de correo electrónico con hash {#compare-id-count}
+   * **CPM de vídeo:** 0
+
+   * **Mostrar CPM:** 0
+
+   * **Ventana de segmentos:** El tiempo de vida del segmento.
+
+## Paso 4: Solicitar una inserción de datos de [!DNL Amperity] DSP a la {#push-data}
+
+1. DSP Una vez que el segmento se asigna dentro de los segmentos, el anunciante debe trabajar con su [!DNL Amperity] DSP para distribuir los datos del segmento a los usuarios de la aplicación de la.
+
+1. El anunciante debe confirmar con el equipo de cuenta de Adobe que se han recibido los datos del segmento.
+
+DSP Los segmentos deben estar disponibles en un plazo de 24 horas y se actualizan según lo configurado para el anunciante. Independientemente de la frecuencia con la que se actualice el segmento, la inclusión en un segmento caduca pasados 30 días para garantizar el cumplimiento de la privacidad, por lo que debe actualizar las audiencias volviéndolas a insertar desde [!DNL Amperity] cada 30 días o menos.
+
+## Paso 5: Comparar el número de ID universales con el número de direcciones de correo electrónico con hash {#compare-id-count}
 
 Una vez completados todos los pasos, consulte en la biblioteca de audiencias (que está disponible cuando crea o edita una audiencia desde ) [!UICONTROL Audiences] > [!UICONTROL All Audiences] o dentro de la configuración de colocación) que el segmento está disponible y se está rellenando en un plazo de 24 horas. Compare el número de ID universales con el número de direcciones de correo electrónico con hash originales.
 

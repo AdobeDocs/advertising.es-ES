@@ -3,9 +3,9 @@ title: Administrar fuentes de audiencia para activar audiencias de ID universal
 description: Obtenga información sobre cómo crear y administrar una fuente para importar audiencias desde la plataforma de datos del cliente y convertirlas en segmentos que contengan ID universales.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
+source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL ActionIQ]*: La [!DNL ActionIQ] plataforma de datos del cliente.
 
+   * *[!UICONTROL Amperity]*: La [!DNL Amperity] plataforma de datos del cliente.
+
+   * *[!UICONTROL Optimizely]*: La [!DNL Optimizely]: La [!DNL Amperity] plataforma de datos del cliente.
+
    * *[!UICONTROL Tealium CDP]*: (solo usuarios configurados) El [!DNL Tealium] plataforma de datos del cliente.
 
 1. Especifique el [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* o *[!UICONTROL Account]*.
@@ -50,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Después de crear una fuente para la plataforma de datos del cliente, deberá completar los pasos adicionales. Consulte la [flujo de trabajo para importar audiencias desde [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> y el [flujo de trabajo para importar audiencias desde [!DNL Tealium]](source-tealium.md).
+>Después de crear una fuente para la plataforma de datos del cliente, deberá completar los pasos adicionales para importar la audiencia. Consulte la [flujo de trabajo para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> el [flujo de trabajo para [!DNL Amperity]](source-amperity.md), el [flujo de trabajo para [!DNL Optimizely]](source-optimizely.md), y el [flujo de trabajo para [!DNL Tealium]](source-tealium.md).
 
 ## Cambiar los tipos de ID para una fuente de audiencia
 
@@ -131,6 +135,9 @@ Para [!DNL RampID] y [!DNL Unified ID2.0], el proveedor busca cada dirección de
 >[!MORELIKETHIS]
 >
 >* [Acerca de las fuentes de audiencia de origen](source-about.md)
->* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md)
+>* [Conversión de ID de usuario [!DNL Adobe Real-Time CDP] a los ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Conversión de ID de usuario [!DNL Amperity] a los ID universales](/help/dsp/audiences/sources/source-amperity.md)
+>* [Conversión de ID de usuario [!DNL Optimizely] a los ID universales](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Conversión de ID de usuario [!DNL Tealium] a los ID universales](/help/dsp/audiences/sources/source-tealium.md)
 >* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)

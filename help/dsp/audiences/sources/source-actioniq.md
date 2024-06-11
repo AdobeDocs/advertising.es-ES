@@ -2,7 +2,7 @@
 title: "Convertir los ID de usuario de [!DNL ActionIQ] a los ID universales"
 description: DSP "Aprenda a habilitar la ingesta de datos por parte de los [!DNL ActionIQ] segmentos de origen".
 feature: DSP Audiences
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 87080d8152ccf3aa9249a88379ecc9f919c0854d
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -44,7 +44,3 @@ Los segmentos se actualizan cada 24 horas.
 >* [Conversión de ID de usuario [!DNL Adobe Real-Time CDP] a los ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Conversión de ID de usuario [!DNL Tealium] a los ID universales](/help/dsp/audiences/sources/source-tealium.md)
 >* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

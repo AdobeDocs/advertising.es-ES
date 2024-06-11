@@ -3,9 +3,9 @@ title: DSP Uso de la integración de con [!DNL Adobe] [!DNL Real-time CDP]
 description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Adobe] [!DNL Real-time CDP] segmentos de origen.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 33766fc210da032102bdc07a0db4ce348b12fe92
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,9 @@ Los segmentos se actualizan cada 24 horas. Sin embargo, la inclusión en un segm
 
 >[!MORELIKETHIS]
 >
+>* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
 >* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
 >* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [Resumen del catálogo de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
->* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Conversión de ID de usuario [!DNL Tealium] a los ID universales](/help/dsp/audiences/sources/source-tealium.md)
+>* [Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md)
 >* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

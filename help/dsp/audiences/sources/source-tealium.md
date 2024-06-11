@@ -3,9 +3,9 @@ title: Conversión de ID de usuario [!DNL Tealium] a los ID universales
 description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Tealium] segmentos de origen.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -52,31 +52,31 @@ Para convertir direcciones de correo electrónico a [!DNL RampIDs] o [!DNL ID5] 
 
 ## Paso 3: Preparar y compartir datos de asignación de segmentos {#map-data}
 
-1. El anunciante debe preparar y compartir datos de asignación de segmentos:
+El anunciante debe preparar y compartir datos de asignación de segmentos.
 
-   1. El anunciante debe preparar los datos en [!DNL Tealium]:
+1. El anunciante debe preparar los datos en [!DNL Tealium]:
 
-      1. Use el hash de los ID de correo electrónico para la audiencia del anunciante mediante el algoritmo SHA-256.
+   1. Use el hash de los ID de correo electrónico para la audiencia del anunciante mediante el algoritmo SHA-256.
 
-      1. Asigne la columna que contiene los ID de correo electrónico con hash al atributo del tipo de ID de visitante.
+   1. Asigne la columna que contiene los ID de correo electrónico con hash al atributo del tipo de ID de visitante.
 
-      1. Cree la audiencia con `Tealium_visitor_id` atributo. Aplique el enriquecimiento adecuado para almacenar en déclencheur la audiencia. Consulte la [[!DNL Tealium] Documentación sobre los atributos de ID de visitante](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+   1. Cree la audiencia con `Tealium_visitor_id` atributo. Aplique el enriquecimiento adecuado para almacenar en déclencheur la audiencia. Consulte la [[!DNL Tealium] Documentación sobre los atributos de ID de visitante](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
-   1. El anunciante debe proporcionar datos de asignación de segmentos al equipo de cuenta de Adobe DSP para crear los segmentos en la cuenta de. Utilice los siguientes nombres y valores de columna en un archivo de valores separados por comas:
+1. El anunciante debe proporcionar datos de asignación de segmentos al equipo de cuenta de Adobe DSP para crear los segmentos en la cuenta de. Utilice los siguientes nombres y valores de columna en un archivo de valores separados por comas:
 
-      * **Clave de segmento externo:** La clave del segmento externa, que especificará más adelante en la configuración de acción del conector en [!DNL Tealium]. La convención de nombres recomendada es &quot;`<DSP source key>_<Tealium segment name>`,&quot; como &quot;57bf424dc10_coffee-drinkers&quot;. DSP Para la clave de origen de la, utilice [!UICONTROL Source Key] DSP de la configuración de origen de audiencia de la.
+   * **Clave de segmento externo:** La clave del segmento externa, que especificará más adelante en la configuración de acción del conector en [!DNL Tealium]. La convención de nombres recomendada es &quot;`<DSP source key>_<Tealium segment name>`,&quot; como &quot;57bf424dc10_coffee-drinkers&quot;. DSP Para la clave de origen de la, utilice [!UICONTROL Source Key] DSP de la configuración de origen de audiencia de la.
 
-      * **Nombre del segmento:** El nombre del segmento.
+   * **Nombre del segmento:** El nombre del segmento.
 
-      * **Descripción del segmento:** El propósito o la regla del segmento, o ambos.
+   * **Descripción del segmento:** El propósito o la regla del segmento, o ambos.
 
-      * **Identificador principal:** Mantener en blanco
+   * **Identificador principal:** Mantener en blanco
 
-      * **CPM de vídeo:** 0
+   * **CPM de vídeo:** 0
 
-      * **Mostrar CPM:** 0
+   * **Mostrar CPM:** 0
 
-      * **Ventana de segmentos:** El tiempo de vida del segmento.
+   * **Ventana de segmentos:** El tiempo de vida del segmento.
 
 ## Paso 4: Crear conectores en [!DNL Tealium] para compartir datos de segmentos {#tealium-connector}
 
@@ -154,9 +154,5 @@ Para obtener ayuda sobre la resolución de problemas, póngase en contacto con s
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
 >* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Conversión de ID de usuario [!DNL Adobe Real-Time CDP] a los ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md)
 >* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

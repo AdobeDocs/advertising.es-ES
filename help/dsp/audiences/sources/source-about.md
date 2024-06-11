@@ -3,9 +3,9 @@ title: Acerca de las fuentes de audiencia de origen
 description: Obtenga información acerca de la conversión de otros identificadores de usuario en segmentos de origen a ID universales para la segmentación sin cookies.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ DSP Para permitir a los usuarios de la ingesta de su [!DNL Adobe] [!DNL Real-tim
 
 ### [!DNL ActionIQ]
 
-Puede compartir los datos de origen de su organización desde el [!DNL Action IQ] DSP DSP plataforma de datos del cliente con el fin de convertir las direcciones de correo electrónico con hash en ID universales para la publicidad de destino en el sector de la publicidad de la. Esta integración requiere personalización. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+Puede compartir los datos de origen de su organización desde el [!DNL ActionIQ] DSP DSP plataforma de datos del cliente con el fin de convertir las direcciones de correo electrónico con hash en ID universales para la publicidad de destino en el sector de la publicidad de la. Esta integración requiere personalización. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
+
+### [!DNL Amperity]
+
+Puede compartir los datos de origen de su organización desde el [!DNL Amperity] DSP DSP plataforma de datos del cliente con el fin de convertir las direcciones de correo electrónico con hash en ID universales para la publicidad de destino en el sector de la publicidad de la. Para obtener más información, consulte &quot;[Conversión de ID de usuario [!DNL Amperity] a los ID universales](/help/dsp/audiences/sources/source-amperity.md).&quot;
+
+### [!DNL Optimizely]
+
+Puede compartir los datos de origen de su organización desde el [!DNL Optimizely] DSP DSP plataforma de datos del cliente con el fin de convertir las direcciones de correo electrónico con hash en ID universales para la publicidad de destino en el sector de la publicidad de la. Para obtener más información, consulte &quot;[Conversión de ID de usuario [!DNL Optimizely] a los ID universales](/help/dsp/audiences/sources/source-optimizely.md).&quot;
 
 ### [!DNL Tealium]
 
@@ -88,13 +96,11 @@ Puede compartir los datos de origen de su organización desde el [!DNL Tealium] 
 
 >[!MORELIKETHIS]
 >
->* [Conversión de ID de usuario [!DNL Adobe Real-Time CDP] a los ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Conversión de ID de usuario [!DNL Tealium] a los ID universales](/help/dsp/audiences/sources/source-tealium.md)
 >* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
 >* [Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md)
+>* [Conversión de ID de usuario [!DNL Adobe Real-Time CDP] a los ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Conversión de ID de usuario [!DNL Amperity] a los ID universales](/help/dsp/audiences/sources/source-amperity.md)
+>* [Conversión de ID de usuario [!DNL Optimizely] a los ID universales](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Conversión de ID de usuario [!DNL Tealium] a los ID universales](/help/dsp/audiences/sources/source-tealium.md)
 >* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

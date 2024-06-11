@@ -3,9 +3,9 @@ title: DSP Acerca de la Gestión de público en Advertising
 description: Obtenga información sobre las funciones de gestión de público.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94c41ec311ed79897e1e26a650605c0213450071
+source-git-commit: f6c562a02cdca5eda8c0b8ec692e55e7ea656bb0
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -149,6 +149,7 @@ Los segmentos traducidos están disponibles para incluirlos en audiencias reutil
 >* [Creación e implementación de un segmento personalizado](custom-segment-create.md)
 >* [Creación e implementación de un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
+>* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
 >* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

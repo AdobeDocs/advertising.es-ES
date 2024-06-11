@@ -3,9 +3,9 @@ title: Compatibilidad con la activación de ID universales
 description: Obtenga información acerca de la compatibilidad para importar segmentos de ID universales, crear segmentos personalizados para rastrear ID universales y convertir otros identificadores de usuario en segmentos de origen a ID universales para una segmentación sin cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
+source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -126,14 +126,9 @@ Si no puede resolver el problema, póngase en contacto con el equipo de cuenta d
 
 >[!MORELIKETHIS]
 >
+>* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
 >* [Administrar fuentes de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-manage.md)
->* [Conversión de ID de usuario [!DNL Adobe Real-Time CDP] a los ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Conversión de ID de usuario [!DNL Tealium] a los ID universales](/help/dsp/audiences/sources/source-tealium.md)
 >* [Creación e implementación de un segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
 >* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->
