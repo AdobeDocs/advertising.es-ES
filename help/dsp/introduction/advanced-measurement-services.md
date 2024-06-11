@@ -2,9 +2,9 @@
 title: Soluciones de medición avanzada
 description: Consulte la lista de soluciones disponibles para la medición avanzada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
+source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
 
    * Alcance, frecuencia y conversión domésticos de ID cruzado (sin cookies)
 
-      * Cuantifique el alcance, la superposición y las conversiones únicos/incrementales a nivel doméstico por tipo de ID sin cookies (RampID, ID5) en varios entornos, incluidos la TV conectada (CTV) y digital (escritorio, móvil, nativo y audio).
+     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
 
-      * Demuestre la eficacia de la prueba de ID sin cookies para encontrar un alcance incremental en relación con los segmentos basados en cookies.
+     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
 
    * Tiempo promedio para la conversión
 
@@ -51,9 +51,9 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
 
   Comprenda cómo las audiencias y las tácticas se superponen en el nivel de persona, lo que incluye exposiciones en varios entornos digitales, como escritorio, móvil, nativo y audio.
 
-   * **Alcance basado en personas de ID cruzado**
+  <!-- Hide for now * **Cross-ID People-Based Reach**
 
-     Cuantifique el alcance y la superposición únicos entre las cookies y los RampID, así como el coste por métrica por tipo de ID. Demuestre la eficacia de las pruebas de RampID para encontrar un alcance incremental en relación con los segmentos basados en cookies en varios entornos digitales, como escritorio, móvil, nativo y audio.
+      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
 * **Efecto halo en los informes de búsqueda**
 
