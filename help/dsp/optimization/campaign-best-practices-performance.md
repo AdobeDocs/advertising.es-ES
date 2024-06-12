@@ -3,9 +3,9 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,7 @@ Es importante comprender el objetivo de la campaña, como lograr el ROAS más al
 
 ![objetivo de optimización](/help/dsp/assets/optimization-goals.png)
 
-También debe determinar los eventos de éxito que conducen a la meta general y crear metas personalizadas en consecuencia. Para cada paquete, especifique un objetivo personalizado que se utilizará con el objetivo de optimización general para la optimización algorítmica y de informes con [!DNL Adobe Sensei]. Para obtener más información sobre la creación de objetivos personalizados, consulte la [Prácticas recomendadas para crear una meta personalizada](custom-goal.md#custom-goal-best-practices).
-
-![metas personalizadas](/help/dsp/assets/objective-goals.png)
+También debe determinar los eventos de éxito que conducen a la meta general y crear metas personalizadas en consecuencia. Para cada paquete, especifique un objetivo personalizado que se utilizará con el objetivo de optimización general para la optimización algorítmica y de informes con [!DNL Adobe Sensei]. Para obtener más información sobre la creación de objetivos personalizados, incluidas las prácticas recomendadas, consulte [Objetivos personalizados](custom-goal.md).
 
 ## Paso 2: Definición de la estrategia
 
