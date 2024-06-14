@@ -2,9 +2,9 @@
 title: Conversión de ID de usuario [!DNL Amperity] a los ID universales
 description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Amperity] segmentos de origen.
 feature: DSP Audiences
-source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
+source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ El anunciante debe preparar y compartir datos de asignación de segmentos.
 
 1. El anunciante debe confirmar con el equipo de cuenta de Adobe que se han recibido los datos del segmento.
 
-DSP Los segmentos deben estar disponibles en un plazo de 24 horas y se actualizan según lo configurado para el anunciante. Independientemente de la frecuencia con la que se actualice el segmento, la inclusión en un segmento caduca pasados 30 días para garantizar el cumplimiento de la privacidad, por lo que debe actualizar las audiencias volviéndolas a insertar desde [!DNL Amperity] cada 30 días o menos.
+DSP Los segmentos deben estar disponibles en un plazo de 24 horas y se actualizan según la configuración del anunciante en un plazo de [!DNL Amperity]. Independientemente de la frecuencia con la que se actualice el segmento, la inclusión en un segmento caduca después de 30 días de forma predeterminada o después de un periodo de caducidad especificado por el cliente. Actualice los segmentos volviendo a insertarlos desde [!DNL Amperity] antes de la caducidad. Para solicitar una caducidad de segmento personalizada, póngase en contacto con el equipo de cuenta de Adobe.
 
 ## Paso 5: Comparar el número de ID universales con el número de direcciones de correo electrónico con hash {#compare-id-count}
 

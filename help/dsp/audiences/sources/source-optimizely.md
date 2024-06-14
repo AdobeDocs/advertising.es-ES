@@ -2,9 +2,9 @@
 title: Conversión de ID de usuario [!DNL Optimizely] a los ID universales
 description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Optimizely] segmentos de origen.
 feature: DSP Audiences
-source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
+source-git-commit: f51f07c1e057eb09c2cad292b2c8062f7d993166
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ El anunciante debe preparar y enviar los datos con la ayuda de su [!DNL Optimize
 
    * **Código de cuenta:** DSP DSP Este es el código de cuenta alfanumérico de la cuenta de la, que puede encontrar en la dirección de correo electrónico de la dirección de correo electrónico, que se encuentra en la dirección de correo electrónico: [!UICONTROL Settings] > [!UICONTROL Account].
 
-DSP Los segmentos deben estar disponibles en un plazo de 24 horas y se actualizan según lo configurado para el anunciante. Independientemente de la frecuencia con la que se actualice el segmento, la inclusión en un segmento caduca pasados 30 días para garantizar el cumplimiento de la privacidad, por lo que debe actualizar las audiencias volviéndolas a insertar desde [!DNL Optimizely] cada 30 días o menos.
+DSP Los segmentos deben estar disponibles en un plazo de 24 horas y se actualizan según lo configurado para el anunciante. Independientemente de la frecuencia con la que se actualice el segmento, la inclusión en un segmento caduca después de 30 días de forma predeterminada o después de un periodo de caducidad especificado por el cliente. Actualice los segmentos volviendo a insertarlos desde [!DNL Optimizely] antes de la caducidad. Para solicitar una caducidad de segmento personalizada, póngase en contacto con el equipo de cuenta de Adobe.
 
 <!--
 Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
