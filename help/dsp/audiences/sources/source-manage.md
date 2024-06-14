@@ -3,9 +3,9 @@ title: Administrar fuentes de audiencia para activar audiencias de ID universal
 description: Obtenga información sobre cómo crear y administrar una fuente para importar audiencias desde la plataforma de datos del cliente y convertirlas en segmentos que contengan ID universales.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
+source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL Amperity]*: La [!DNL Amperity] plataforma de datos del cliente.
 
-   * *[!UICONTROL Optimizely]*: La [!DNL Optimizely]: La [!DNL Amperity] plataforma de datos del cliente.
+   * *[!UICONTROL Optimizely]*: La [!DNL Optimizely] plataforma de datos del cliente.
 
    * *[!UICONTROL Tealium CDP]*: (solo usuarios configurados) El [!DNL Tealium] plataforma de datos del cliente.
 
