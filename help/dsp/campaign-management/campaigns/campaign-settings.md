@@ -3,9 +3,9 @@ title: Configuración de campaña
 description: Consulte las descripciones de las configuraciones de campaña disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
+source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -130,9 +130,9 @@ Para calcular los impuestos retenidos:
 
 * **[!UICONTROL Target Country]:** (Opcional) Un país de destino. [!DNL Comscore] las impresiones de medidas se sirven únicamente en los países apoyados.
 
-### [!UICONTROL Attention Measurement]
+### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** Habilita el seguimiento para el nivel de ubicación [!UICONTROL Attention Score] métrica (el número promedio ponderado de unidades de atención entre impresiones) desde [!DNL Adelaide]. Las métricas están disponibles para todos los tipos de ubicación, excepto para [!DNL Roku] TV conectada, pre-roll solo VPAID y audio que no es un podcast. DSP La aplicación adjunta automáticamente una etiqueta JavaScript a todos los creativos asociados, y [!DNL Adelaide] DSP registra los datos de exposición y los envía diariamente a la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico Puede usar la fecha para optimizar manualmente el gasto hacia tácticas de colocación con mejores puntuaciones de atención.
+**[!UICONTROL Adelaide]:** Habilita el seguimiento para el nivel de ubicación [!UICONTROL Attention Score] métrica (el número medio ponderado de [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; entre impresiones). Las métricas están disponibles para todos los tipos de ubicación, excepto para [!DNL Roku] TV conectada, pre-roll solo VPAID y audio que no es un podcast. DSP La aplicación adjunta automáticamente una etiqueta JavaScript a todos los creativos asociados, y [!DNL Adelaide] DSP registra los datos de exposición y los envía diariamente a la dirección de correo electrónico de la dirección de correo electrónico de la dirección de correo electrónico Puede usar la fecha para optimizar manualmente el gasto hacia tácticas de colocación con mejores puntuaciones de atención.
 
 El [!UICONTROL Attention Score] está disponible en el campo [!UICONTROL Metrics] sección de informes; dentro de [!UICONTROL Campaigns], [!UICONTROL Packages], y [!UICONTROL Placements] vistas; y en el [!UICONTROL Sites], [!UICONTROL Ads], y [!UICONTROL Inventory] pestañas del [vista de detalles de ubicación](/help/dsp/campaign-management/reports/placement-details-view.md).
 

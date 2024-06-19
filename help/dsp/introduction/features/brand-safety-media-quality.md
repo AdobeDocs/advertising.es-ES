@@ -3,9 +3,9 @@ title: Seguridad de marca y calidad de medios
 description: Obtenga más información sobre la seguridad de la marca y las funciones de calidad de los medios.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
+source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,16 @@ Filtros de visualización de ofertas previas impulsados por nuestros socios líd
 Puede establecer filtros de visibilidad predeterminados para cada anunciante<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->y, a continuación, opcionalmente [personalizar la configuración para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Se pueden aplicar tarifas adicionales al utilizar esta función.
 
 ![Logotipo de DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo de oracle Advertising](/help/dsp/assets/oracle-advertising-logo.png) ![Logotipo de Integral Ad Science](/help/dsp/assets/ias-logo.png)
+
+### Segmentación de atención y medición
+
+[!DNL Adobe's] asociación con [!DNL Adelaide] proporciona a los anunciantes compatibilidad con la métrica de Adelaida &quot;[!DNL Attention Units],&quot; que mide la calidad de los medios en función del seguimiento ocular, la exposición y los datos de resultados.
+
+[Segmentación de atención previa a la oferta de nivel de ubicación](/help/dsp/campaign-management/placements/placement-settings.md) permite a los anunciantes dirigirse a niveles de atención específicos para mejorar la participación del cliente.
+
+Además, los anunciantes pueden habilitar [seguimiento para el nivel de ubicación [!UICONTROL Attention Score] métrica](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (el número medio ponderado de [!DNL Attention Units] en todas las impresiones) para cualquier campaña a fin de comprender qué tácticas de colocación producen los mejores resultados empresariales.
+
+Se aplican tarifas adicionales por cada función por separado.
 
 ### Segmentación de temas
 
