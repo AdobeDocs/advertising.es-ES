@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
+source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
 workflow-type: tm+mt
-source-wordcount: '3789'
+source-wordcount: '3857'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 
 **[!UICONTROL Traffic type]:** Los tipos de tráfico de destino. Las opciones incluyen **[!UICONTROL Websites]** y **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (Disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) La calidad de los sitios de destino. DSP Los niveles 1-3 son todos seguros para la marca y han sido evaluados y aprobados por el equipo de mapeo de la.
+**[!UICONTROL Site tier]:** (Disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) La calidad de los sitios de destino. DSP Los niveles 1-3 son todos seguros para la marca y han sido aprobados por el equipo de mapeo de la marca de la.
 
 * *[!UICONTROL Tier 1]:* Sitios y aplicaciones Premium reconocibles a nivel nacional.
 
@@ -346,7 +346,7 @@ Al seleccionar ID heredados e ID universales, se da preferencia de oferta a los 
    * Para seleccionar manualmente un intervalo, haga clic dentro de una celda y, opcionalmente, arrastre para seleccionarlo.
 1. Clic **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Opcional; disponible para anunciantes configurados con [!DNL Proximic by Comscore] y [!DNL Grapeshot] segmentos) Nombres de segmentos específicos o ID de [!DNL Proximic by Comscore] y [!DNL Grapeshot] para incluirlos como destinos. Se pueden aplicar tarifas adicionales para esta función. Para activar esta función y configurar segmentos de temas, póngase en contacto con el equipo de cuenta de Adobe.
+**[!UICONTROL Topic Targeting]:** (Opcional; disponible para anunciantes configurados con [!DNL Proximic by Comscore] y [!DNL Oracle Data Cloud] segmentos) Nombres de segmentos específicos o ID de [!DNL Proximic by Comscore] y [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]) para incluirlos como destinos. Se pueden aplicar tarifas adicionales para esta función. Para activar esta función y configurar segmentos de temas, póngase en contacto con el equipo de cuenta de Adobe.
 
 Para especificar la segmentación de temas:
 
@@ -361,7 +361,7 @@ Para especificar la segmentación de temas:
 >
 >* La segmentación de temas limita el inventario en el que se puede pujar, por lo que debe utilizar la segmentación de temas solo para un pequeño porcentaje de la compra general.
 >
->* Configure cualquier objetivo negativo dentro del segmento en [!DNL Proximic by Comscore] o [!DNL Grapeshot].
+>* Configure cualquier objetivo negativo dentro del segmento en [!DNL Proximic by Comscore] o [!DNL Oracle Data Cloud].
 
 **[!UICONTROL Device Targeting]:** (Opcional) Información específica del dispositivo, incluidos los tipos de dispositivo, los fabricantes, los sistemas operativos, los navegadores y los tipos de conectividad, que se deben incluir y excluir como objetivos. Para especificar la segmentación del dispositivo:
 
@@ -435,6 +435,8 @@ Qué nivel de [Ads.txt](https://iabtechlab.com/ads-txt-about/) Filtro de ofertas
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: para priorizar la compra de inventario a los vendedores directos y revendedores autorizados de un dominio.
 * *[!UICONTROL Ads.txt sellers only]*: para comprar inventario solo de los vendedores y revendedores directos autorizados de un dominio.
 * *[!UICONTROL Ads.txt sellers only]*: para comprar inventario solo de los vendedores directos autorizados de un dominio.
+
+**[!UICONTROL Attention Targeting]:** (Visualización, vídeo, móvil y ubicaciones de TV conectadas estándar) Targets [!DNL Adelaide] puja previa de segmentos con un nivel de atención específico (alto, medio o bajo) según el sitio, el formato y el tamaño del anuncio especificados. Los segmentos se actualizan semanalmente. **Nota:** Uso de [!DNL Adelaide] Los segmentos para segmentar incurren en una tarifa CPM por cada impresión entregada con [!DNL Adelaide] segmentación de la atención; esta tarifa es independiente de las tarifas para [medición de la atención](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para las ubicaciones interactivas previas a la emisión, solo se te cobrarán las impresiones VAST.
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** (Anunciantes configurados con el [!UICONTROL DoubleVerify Authentic Brand Safety] option) Habilita [!DNL DoubleVerify Authentic Brand Safety], que bloquea las impresiones después de la oferta utilizando las reglas de seguridad de marca personalizadas configuradas para el ID de segmento especificado. DSP a su cuenta el uso del ID de segmento especificado en la configuración del anunciante.
 
