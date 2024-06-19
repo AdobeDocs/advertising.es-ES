@@ -3,7 +3,7 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
 workflow-type: tm+mt
 source-wordcount: '3789'
 ht-degree: 0%
@@ -346,7 +346,7 @@ Al seleccionar ID heredados e ID universales, se da preferencia de oferta a los 
    * Para seleccionar manualmente un intervalo, haga clic dentro de una celda y, opcionalmente, arrastre para seleccionarlo.
 1. Clic **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Opcional; disponible para anunciantes configurados con [!DNL Comscore] y [!DNL Grapeshot] segmentos) Nombres de segmentos específicos o ID de [!DNL Comscore] y [!DNL Grapeshot] para incluirlos como destinos. Se pueden aplicar tarifas adicionales para esta función. Para activar esta función y configurar segmentos de temas, póngase en contacto con el equipo de cuenta de Adobe.
+**[!UICONTROL Topic Targeting]:** (Opcional; disponible para anunciantes configurados con [!DNL Proximic by Comscore] y [!DNL Grapeshot] segmentos) Nombres de segmentos específicos o ID de [!DNL Proximic by Comscore] y [!DNL Grapeshot] para incluirlos como destinos. Se pueden aplicar tarifas adicionales para esta función. Para activar esta función y configurar segmentos de temas, póngase en contacto con el equipo de cuenta de Adobe.
 
 Para especificar la segmentación de temas:
 
@@ -361,7 +361,7 @@ Para especificar la segmentación de temas:
 >
 >* La segmentación de temas limita el inventario en el que se puede pujar, por lo que debe utilizar la segmentación de temas solo para un pequeño porcentaje de la compra general.
 >
->* Configure cualquier objetivo negativo dentro del segmento en [!DNL Comscore] o [!DNL Grapeshot].
+>* Configure cualquier objetivo negativo dentro del segmento en [!DNL Proximic by Comscore] o [!DNL Grapeshot].
 
 **[!UICONTROL Device Targeting]:** (Opcional) Información específica del dispositivo, incluidos los tipos de dispositivo, los fabricantes, los sistemas operativos, los navegadores y los tipos de conectividad, que se deben incluir y excluir como objetivos. Para especificar la segmentación del dispositivo:
 

@@ -3,9 +3,9 @@ title: Seguridad de marca y calidad de medios
 description: Obtenga más información sobre la seguridad de la marca y las funciones de calidad de los medios.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ Puede establecer filtros de visibilidad predeterminados para cada anunciante<!--
 
 ### Segmentación de temas
 
-DSP La segmentación de temas le permite segmentar o bloquear listas de palabras clave mediante el uso de socios contextuales líderes en el sector [!DNL Comscore] y [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). La segmentación de temas le ayuda a garantizar que los anuncios se publiquen siempre en un entorno que se ajuste a su marca, ya sea bloqueando contenido perjudicial o asegurando un gasto en un contexto que garantice un mayor resultado.
+DSP La segmentación de temas le permite segmentar o bloquear listas de palabras clave mediante el uso de socios contextuales líderes en el sector [!DNL Comscore] y [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]). La segmentación de temas le ayuda a garantizar que los anuncios se publiquen siempre en un entorno que se ajuste a su marca, ya sea bloqueando contenido perjudicial o asegurando un gasto en un contexto que garantice un mayor resultado.
 
-El direccionamiento de temas requiere que cree segmentos de temas personalizados directamente con [!DNL Comscore] o [!DNL Grapeshot] (con [!DNL Oracle Data Cloud]). Una vez creados en la plataforma de socio, puede [segmentar o excluir un ID de segmento en la [!UICONTROL Audience Targeting] para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Se pueden aplicar tarifas adicionales para esta función.
+El direccionamiento de temas requiere que cree segmentos de temas personalizados directamente con la plataforma del socio. Una vez creados los segmentos, puede [segmentar o excluir un ID de segmento en la [!UICONTROL Audience Targeting] para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Se pueden aplicar tarifas adicionales para esta función.
 
 Para crear segmentos de tema personalizados:
 

@@ -3,7 +3,7 @@ title: DSP Acerca de la Gestión de público en Advertising
 description: Obtenga información sobre las funciones de gestión de público.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ac3ceaf0e1d9f1708896d17ab413d23f366c4b36
+source-git-commit: 31f20bcfb79265326f515218a02d8a4fa3efd586
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
 * Todos los segmentos de datos de terceros personalizados importados.
 
-* (Ubicaciones dirigidas únicamente a EE. UU.) [DSP Todos los segmentos de datos de terceros disponibles para los clientes de la de más de 30 proveedores](/help/dsp/audiences/third-party-data-providers.md), incluido [!DNL Acxiom], [!DNL Datalogix], [!DNL eXelate] ([!DNL Nielsen]), [!DNL Lotame], [!DNL Oracle], [!DNL Quantcast], y muchos más.
+* (Ubicaciones dirigidas únicamente a EE. UU.) [DSP Todos los segmentos de datos de terceros disponibles para los clientes de la de más de 30 proveedores](/help/dsp/audiences/third-party-data-providers.md), incluido [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar], y muchos más.
 
   Puede segmentar segmentos específicos, que se dirigen a usuarios en función de datos de audiencia (por ejemplo, usuarios con datos demográficos, intereses o intenciones específicos o perfiles de comportamiento). Puede examinar por proveedor de datos y categoría, buscar segmentos por nombre o ID de segmento o filtrar los resultados por proveedor de datos, tamaño total del segmento, recuento del explorador web o recuento de dispositivos.
 
