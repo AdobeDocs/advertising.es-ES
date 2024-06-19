@@ -3,9 +3,9 @@ title: Configuración de campaña
 description: Consulte las descripciones de las configuraciones de campaña disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
+source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Para calcular los impuestos retenidos:
 
 #### Verificación de audiencia
 
-**[!UICONTROL comScore Campaign Ratings]:** (Opcional) Habilita la medición de valoraciones de campaña validadas para [!DNL Comscore y la generación de informes de verificación de audiencia, utilizando la configuración especificada. Se aplican tarifas adicionales.
+**[!UICONTROL comScore Campaign Ratings]:** (Opcional) Habilita [!DNL Comscore] validado [!DNL Campaign Ratings] medición e informes de la verificación de audiencias con la configuración especificada. Se aplican tarifas adicionales.
 
 * **[!UICONTROL Target Gender]:** El género al que se dirige: *[!UICONTROL Both]* (el valor predeterminado), *[!UICONTROL Male]*, o *[!UICONTROL Female]*
 
