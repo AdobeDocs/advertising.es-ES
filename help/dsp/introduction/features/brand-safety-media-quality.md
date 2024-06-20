@@ -3,9 +3,9 @@ title: Seguridad de marca y calidad de medios
 description: Obtenga más información sobre la seguridad de la marca y las funciones de calidad de los medios.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ Puede establecer controles de filtro contextual predeterminados para cada anunci
 
 ### Bloqueo por fraude antes de la puja
 
-Aproveche las integraciones de terceros con [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], y [!DNL Peer39] para bloquear el tráfico no humano de sus campañas. Estas integraciones proporcionan capacidades de bloqueo de oferta previas líderes en el sector para minimizar el tráfico no válido general y sofisticado (GIVT y SIVT) en sus campañas.
+Aproveche las integraciones de terceros con [!DNL DoubleVerify], [!DNL Integral Ad Science], y [!DNL Peer39] para bloquear el tráfico no humano de sus campañas. Estas integraciones proporcionan capacidades de bloqueo de oferta previas líderes en el sector para minimizar el tráfico no válido general y sofisticado (GIVT y SIVT) en sus campañas.
 
 Puede establecer controles predeterminados de bloqueo de fraude de ofertas previas para cada anunciante<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->y, a continuación, opcionalmente [personalizar la configuración para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Se pueden aplicar tarifas adicionales al utilizar esta función.
 
 Para obtener más información sobre la funcionalidad, póngase en contacto directamente con el proveedor preferido o con el equipo de cuenta de Adobe.
 
-![Logotipo de Comscore](/help/dsp/assets/comscore-logo.png) ![Logotipo de DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo de Integral Ad Science](/help/dsp/assets/ias-logo.png) ![Logotipo de Peer39](/help/dsp/assets/peer39-logo.png)
+![Logotipo de DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo de Integral Ad Science](/help/dsp/assets/ias-logo.png) ![Logotipo de Peer39](/help/dsp/assets/peer39-logo.png)
 
 ### Visibilidad de pujas previas {#pre-bid-viewability}
 
