@@ -3,7 +3,7 @@ title: Uso de [!DNL Roku] Inventario
 description: DSP Obtenga más información sobre la asociación de la con [!DNL Roku], incluidas las opciones de inventario, los proveedores de seguimiento de terceros aprobados y las prácticas recomendadas para [!DNL Roku]Ubicaciones específicas de.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Cada [!DNL Roku] la ubicación debe dirigirse al menos a uno [!DNL Roku] trato o
 
 ### [!DNL Roku]Proveedores de seguimiento de terceros aprobados por el usuario
 
-[!DNL Roku] las ubicaciones pueden incluir píxeles de evento de terceros y píxeles de conversión de los siguientes proveedores:  [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], y [!DNL Research Now].
+[!DNL Roku] las ubicaciones pueden incluir píxeles de evento de terceros y píxeles de conversión de los siguientes proveedores:  [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk], y [!DNL Research Now].
 
 ### Prácticas recomendadas por estrategia de colocación
 
