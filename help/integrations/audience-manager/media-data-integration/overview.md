@@ -3,9 +3,9 @@ title: DSP Información general sobre el envío de datos de exposición de medio
 description: Aprenda a utilizar los píxeles de evento del Audience Manager DSP para capturar datos de nivel de impresión y de clic desde campañas de Advertising
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *DSP Solo anunciantes con Advertising*
 
-*Anunciantes con una integración de Adobe de Advertising-Adobe Audience Manager solamente*
+*Anunciantes con solo integración de Adobe Advertising-Adobe Audience Manager*
 
 DSP Los clientes de Advertising Manager con Adobe Audience Manager pueden utilizar los píxeles de evento del Audience Manager DSP para capturar datos del nivel de impresión y datos del nivel de clic de campañas de. Los píxeles de evento envían los datos como señales procesables al Audience Manager. DSP Estas señales habilitan varios casos de uso de, como la segmentación más avanzada, la administración de frecuencias, los análisis de marketing y las perspectivas de creación de informes.
 
@@ -36,7 +36,7 @@ DSP No te cobra por enviar estas señales a Audience Manager. Sin embargo, los c
 
 ## Seguimiento de los datos
 
-Los píxeles de evento de impresión y clic del Audience Manager se basan en cookies. Los píxeles no capturan eventos que se producen en entornos sin cookies, como aplicaciones móviles y TV conectada (CTV).
+Los píxeles de evento de impresión y clic del Audience Manager se basan en cookies. Los píxeles no capturan eventos que se producen en entornos sin cookies, como aplicaciones móviles y TV conectada (CTV).<!-- Verify if this is still correct. -->
 
 ### Píxeles de seguimiento de impresión
 
@@ -54,4 +54,3 @@ El Audience Manager rastrea los clics de manera similar a las impresiones, excep
 >
 >* [DSP Recopilación de datos de clics e impresiones de campañas de Advertising](collect.md)
 >* [Casos de uso](use-cases.md)
-
