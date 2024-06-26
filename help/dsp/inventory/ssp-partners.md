@@ -3,9 +3,9 @@ title: Socios de SSP
 description: Consulte la lista de la plataforma de suministro (SSP) disponible y los socios de intercambio abierto.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 417d88b1d21d450e0b77e561ba9547bb41a68a4c
+source-git-commit: fc58392d060e97f99b12ef41b96c09a0e3fb9aa1
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | No | US/CA | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (anteriormente [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Google Authorized Buyers] (anteriormente [!DNL Google AdX]) | [!DNL Google] | ADOBE NA - 44912714<br>ADOBE APAC y UE - 89185975 | Sí | Global | USD, BRL | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe Advertising | No | Global | USD | x | x |  | x | x |  |  |
+| [!DNL GumGum] |  | Adobe Advertising | No | Global | USD | x | x |  | x | x |  | Tiempo de espera en ranura: 21x21, Tiempo de espera en ranura Vídeo móvil: 22x22, Tiempo de espera en ranura Escritorio: 24x24, Hoverboard en ranura: 25x25, Velocidad en ranura: 26x26, Superpiel: 29x29, Esquina ampliable en pantalla: 20x20 |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | No | Global | USD | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o ADOBE ADVERTISING | Sí | Global | USD | x | x | x | x | x |  | x |
