@@ -3,9 +3,9 @@ title: DSP Información general sobre el envío de datos de exposición de medio
 description: Aprenda a utilizar los píxeles de evento del Audience Manager DSP para capturar datos de nivel de impresión y de clic desde campañas de Advertising
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
+source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP No te cobra por enviar estas señales a Audience Manager. Sin embargo, los c
 
 ## Seguimiento de los datos
 
-Los píxeles de evento de impresión y clic del Audience Manager se basan en cookies. Los píxeles no capturan eventos que se producen en entornos sin cookies, como aplicaciones móviles y TV conectada (CTV).<!-- Verify if this is still correct. -->
+Los píxeles de evento de impresión y clic del Audience Manager se basan en cookies. Los píxeles no capturan eventos que se producen en entornos sin cookies, como aplicaciones móviles.<!-- Verify if this is still correct. -->
 
 ### Píxeles de seguimiento de impresión
 
