@@ -3,7 +3,7 @@ title: Partners de servicio de publicidad certificados
 description: Ver todos los servidores de publicidad certificados y unidades de publicidad.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
+source-git-commit: 8ae5e4fc84ace4dc4e8b637545e95f5e0cff912c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL GumGum] | | | X | | Tiempo de espera en ranura: 21x21, Tiempo de espera en ranura Vídeo móvil: 22x22, Tiempo de espera en ranura Escritorio: 24x24, Hoverboard en ranura: 25x25, Velocidad en ranura: 26x26, Superpiel: 29x29, Esquina ampliable en pantalla: 20x20 |
+| [!DNL GumGum] | | | X | | Tiempo de espera en ranura: 21x21; Tiempo de espera en ranura Vídeo móvil: 22x22; Tiempo de espera en ranura Escritorio: 24x24; Hoverboard en ranura: 25x25; Velocidad en ranura: 26x26; Superpiel: 29x29; Esquina ampliable en pantalla: 20x20 |
 | [!DNL HUMAN] (Anteriormente [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
