@@ -1,11 +1,11 @@
 ---
 title: Implementación [!DNL Google Ads] campañas de compra
 description: Obtenga información sobre el flujo de trabajo para configurar [!DNL Google Ads] campañas de compras.
-exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c702a01df1186e74c4f329a08199ce829be0827
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Puede configurar campañas de compra utilizando [plantillas de fuente de inventa
 
 1. Configure su [!DNL Google Merchant Center] y rellenarla con datos del producto.
 
-1. [Permitir que Search, Social y Commerce descarguen datos de [!DNL Google Merchant Center] account](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [Permitir que Search, Social y Commerce descarguen datos del [!DNL Google Merchant Center] account](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Creación de una campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) en la red de compras.
 
 1. [Crear un grupo de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) dentro de la campaña y establezca la oferta predeterminada para todos los anuncios.
 
-Puede anular la oferta predeterminada para grupos de productos individuales.
+   Puede anular la oferta predeterminada para grupos de productos individuales.
 
 1. Cree grupos de productos para el grupo de publicidad:
 

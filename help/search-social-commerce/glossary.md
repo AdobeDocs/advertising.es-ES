@@ -3,9 +3,9 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 5555bc8ec7e407596252cd385cf1410f7fe959a6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,19 @@ ht-degree: 0%
 
 **[ID de AMO](/help/integrations/analytics/ids.md#amo-id):** Código de seguimiento que permite al Adobe Advertising compartir datos sobre campañas con Adobe Analytics. Comienza con `s_kwcid=`.
 
-**unidad de oferta:** Término de búsqueda, medios sociales y comercio para una unidad en la que se colocan ofertas. Para la mayoría de las campañas de la mayoría de las redes, se trata de una palabra clave y su tipo de coincidencia para una campaña de búsqueda o de contenido, un grupo de productos de nivel de unidad (el nivel más bajo de subdivisión) para una campaña de compras o un objetivo de búsqueda dinámica para una campaña de publicidad de búsqueda dinámica. Cuando la misma combinación de palabra clave y tipo de coincidencia, el mismo grupo de productos o el mismo objetivo de búsqueda dinámica se producen en varios grupos de anuncios en una sola campaña, todas las instancias se consideran la misma unidad de oferta y, por lo tanto, tienen la misma oferta.
+**unidad de oferta:** Término de búsqueda, en medios sociales y en Commerce para una unidad en la que se colocan ofertas.
+
+* Para las campañas CPC, se trata de una palabra clave y su tipo de coincidencia para una campaña de búsqueda o de contenido, un grupo de productos de nivel unitario (el nivel más bajo de subdivisión) para una campaña de compras o un objetivo de búsqueda dinámica para una campaña de publicidad de búsqueda dinámica. Cuando la misma combinación de palabra clave y tipo de coincidencia, el mismo grupo de productos o el mismo objetivo de búsqueda dinámica se producen en varios grupos de anuncios en una sola campaña, todas las instancias se consideran la misma unidad de oferta y, por lo tanto, tienen la misma oferta.
+
+* Para campañas con [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition], o [!DNL Target Return on Ad Spend] estrategias de gasto, cada campaña es una unidad de oferta.
+
+* Para campañas en [!DNL Yahoo! Display Network], que no utiliza palabras clave, todos los anuncios de un grupo de anuncios tienen la misma oferta y se consideran la misma unidad de oferta.
 
 **restricción de unidad de oferta:** Consulte &quot;restricción&quot;.
 
 ## C-D {#c-d}
 
-**campaign:** Conjunto de grupos de anuncios de una sola cuenta de publicidad que comparten un presupuesto, un lapso de tiempo, un objetivo y otra configuración. **Nota:** [!DNL Baidu] no tiene el concepto de campañas, pero Search, Social y Commerce crea pseudocampañas para cada conjunto de grupos de anuncios relacionados en campañas existentes [!DNL Baidu] Cuentas de que se sincronizan en Search, Social y Commerce.
+**campaign:** Conjunto de grupos de anuncios de una sola cuenta de publicidad que comparten un presupuesto, un lapso de tiempo, un objetivo y otra configuración. **Nota:** [!DNL Baidu] no tiene el concepto de campañas, pero Search, Social y Commerce crean pseudocampañas para cada conjunto de grupos de publicidad relacionados en campañas existentes [!DNL Baidu] Cuentas de que se sincronizan en Search, Social y Commerce.
 
 **campo que distingue entre mayúsculas y minúsculas:** Una consulta o campo que distingue entre mayúsculas y minúsculas trata las letras mayúsculas (como C) de forma diferente a las minúsculas (como c). Por ejemplo, Coche se trata como un valor diferente al coche.
 
@@ -48,7 +54,7 @@ ht-degree: 0%
 
 **precisión de coste:** (Anunciantes con portafolios) El gasto real de una cartera dividido por el gasto previsto.
 
-**modelo de coste:** (Anunciantes con portafolios) Tecnología de búsqueda, social y comercial que predice el volumen de costes, la oferta necesaria para ganar cada posición o ubicación y el CPC (búsqueda) o CPM (visualización) para cada unidad de oferta mediante técnicas de pronóstico matemático y datos históricos.
+**modelo de coste:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice el volumen de costes, la oferta necesaria para ganar cada posición o ubicación y el CPC (búsqueda) o CPM (visualización) para cada unidad de oferta mediante técnicas de pronóstico matemático y datos históricos.
 
 **cobertura del modelo de coste:** (Anunciantes con portafolios) El número o porcentaje de unidades de oferta que han recibido al menos una impresión en los últimos siete días para que la capacidad de optimización pueda crear modelos de coste. No todas las unidades de oferta tienen modelos de coste; los que sí cuentan para la cobertura del modelo de coste.
 
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
-**capacidad de optimización:** (Anunciantes con portafolios) Tecnología de oferta de palabras clave de Search, Social y Commerce, que determina la estrategia óptima de oferta y administración del presupuesto para un portafolio en función de su objetivo comercial.
+**capacidad de optimización:** (Anunciantes con portafolios) La tecnología de oferta de palabras clave Search, Social y Commerce, que determina la estrategia óptima de oferta y administración del presupuesto para un portafolio en función de su objetivo comercial.
 
 **transacción huérfana:** Un evento de transacción que no se puede asociar con una palabra clave o publicidad específica.
 
@@ -154,7 +160,7 @@ Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
 **precisión de ingresos:** (Anunciantes con portafolios) Ingresos reales de una cartera divididos por los ingresos previstos.
 
-**modelo de ingresos:** (Anunciantes con portafolios) Tecnología de búsqueda, social y comercial que predice la tasa de conversión y el retorno estimado para cada unidad de oferta, en función de los datos de clics (búsqueda y social) o de impresiones (visualización) y los datos de conversión del anunciante.
+**modelo de ingresos:** (Anunciantes con portafolios) Tecnología de Search, Social y Commerce que predice la tasa de conversión y el retorno estimado para cada unidad de oferta, en función de los datos de clics (búsqueda y social) o de impresiones (visualización) y los datos de conversión del anunciante.
 
 **cobertura del modelo de ingresos:** (Anunciantes con portafolios) Número o porcentaje de unidades de oferta de un portafolio con modelos de ingresos. Las unidades de oferta pueden tener modelos de ingresos aunque no hayan recibido ingresos pero hayan recibido impresiones.
 
