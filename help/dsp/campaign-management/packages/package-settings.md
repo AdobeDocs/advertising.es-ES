@@ -3,9 +3,9 @@ title: Configuración de paquetes
 description: Consulte las descripciones de la configuración del paquete disponible.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 6e4416f7a46c6d7e9a4c680c850f81ef836f9f7a
+source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -115,13 +115,17 @@ Para paquetes con vuelo personalizado, el intervalo presupuestario siempre es *[
 
 (Paquetes con ritmo a nivel de paquete y con &quot;[!UICONTROL Activate Custom Flighting]&quot; habilitado) Periodos de vuelo personalizados dentro del [!UICONTROL Flight Dates] especificado en el [!UICONTROL Goals & Budget] sección.
 
-Para cada vuelo, introduzca la fecha de inicio, la fecha de finalización y el número de impresiones objetivo. Para añadir otro vuelo, haga clic en **[!UICONTROL Add Flight]**.
+Para cada vuelo, introduzca la fecha de inicio, la fecha de finalización y la meta de gasto objetivo. Para añadir otro vuelo, haga clic en **[!UICONTROL Add Flight]**.
+
+Para los paquetes existentes, puede introducir un valor en la variable [!UICONTROL Rollover] columna para cualquier vuelo a fin de añadir el posible presupuesto no utilizado al siguiente vuelo. El valor proyectado en [!UICONTROL Adjusted Goal (Goal + Rollover)] se cambia en consecuencia.<!-- clarify usage -->
 
 >[!MORELIKETHIS]
->
->* [Acerca de la administración de paquetes](package-about.md)
+
+Para mí
+>>
+* [Acerca de la administración de paquetes](package-about.md)
 >* [Crear un paquete](package-create.md)
->* [Edición de un paquete](package-edit.md)
->* [Adjuntar una ubicación a un paquete](package-attach-placement.md)
->* [Visualización del registro de cambios de un paquete](package-change-log.md)
->* [Preguntas frecuentes sobre Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+* [Edición de un paquete](package-edit.md)
+* [Adjuntar una ubicación a un paquete](package-attach-placement.md)
+* [Visualización del registro de cambios de un paquete](package-change-log.md)
+* [Preguntas frecuentes sobre Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
