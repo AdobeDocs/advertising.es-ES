@@ -3,9 +3,9 @@ title: Uso de [!DNL Roku] Inventario
 description: DSP Obtenga información acerca de la asociación de con [!DNL Roku], incluidas las opciones de inventario, los proveedores de seguimiento de terceros aprobados y las prácticas recomendadas para [!DNL Roku]Ubicaciones específicas de.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
+source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Advertising DSP proporciona funciones para la publicidad en [!DNL Roku].
 
-## DSP El y el [!DNL Roku] Asociación
+## Coincidencia de audiencia
 
 El [!DNL Roku] DSP y la asociación con el cliente coincide con su [!DNL DSP] audiencias a [!DNL Roku] ID de segmentación de audiencia determinística 1:1 en [!DNL Roku] inventario.
 
@@ -26,12 +26,12 @@ Puede: a) configurar ID de acuerdos privados directamente con [!DNL Roku] DSP y,
 >
 >[!DNL Roku] el inventario no está disponible en mercados e intercambios abiertos.
 
-* Para sus ofertas privadas, [DSP configuración de información sobre los ID de acuerdo en la](/help/dsp/inventory/deal-id-create.md) y luego target &quot;[!UICONTROL Roku Network – Audience]&quot; y &quot;[!UICONTROL The Roku Channel – Audience]&quot; en [!DNL Roku] ubicaciones.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* Para sus ofertas privadas, [DSP configuración de información sobre los ID de acuerdo en la](/help/dsp/inventory/deal-id-create.md) y luego target &quot;[!UICONTROL Roku Network - Audience]&quot; y &quot;[!UICONTROL The Roku Channel - Audience]&quot; en [!DNL Roku] ubicaciones.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * Puede [suscribirse a lo siguiente [!DNL Roku] inventario dentro de [!DNL On Demand] Galería](/help/dsp/inventory/on-demand-inventory-subscribe.md)y, a continuación, establezca como objetivo cualquiera de las ofertas aprobadas dentro de [!DNL Roku] ubicaciones:
 
-   * &quot;[!UICONTROL Roku Network – Audience]&quot; para inventario en todo el [!DNL Roku] ecosistema con socios de contenido premium, como [!DNL The CW], [!DNL ABC], y [!DNL ESPN].
-   * &quot;[!UICONTROL The Roku Channel – Audience]&quot; para [!DNL Roku] contenido de la aplicación de propiedad y operada (O&amp;O).
+   * &quot;[!UICONTROL Roku Network - Audience]&quot; para inventario en todo el [!DNL Roku] ecosistema con socios de contenido premium, como [!DNL The CW], [!DNL ABC], y [!DNL ESPN].
+   * &quot;[!UICONTROL The Roku Channel - Audience]&quot; para [!DNL Roku] contenido de la aplicación de propiedad y operada (O&amp;O).
 
 ### Ventajas de personalizar los mercados privados con [!DNL Roku]
 
