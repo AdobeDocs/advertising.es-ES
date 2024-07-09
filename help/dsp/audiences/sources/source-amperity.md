@@ -2,16 +2,17 @@
 title: Conversión de ID de usuario [!DNL Amperity] a los ID universales
 description: DSP Obtenga información sobre cómo habilitar la ingesta de datos en el sitio web de [!DNL Amperity] segmentos de origen.
 feature: DSP Audiences
-source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
+exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
+source-git-commit: ed74f3fa3d0036e0dc8a529b05452567527f68a1
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
 
 # Conversión de ID de usuario [!DNL Amperity] a los ID universales
 
-*Función beta*
+*Función Beta*
 
 DSP Uso de la integración de la con [!DNL Amperity] plataforma de datos del cliente para convertir las direcciones de correo electrónico con hash de origen de su organización en ID universales para la publicidad de destino.
 
@@ -35,7 +36,7 @@ Para convertir direcciones de correo electrónico a [!DNL RampIDs] o [!DNL ID5] 
 
 1. Regístrese con el socio de ID universal e implemente un código universal específico en sus páginas web para que coincida con las conversiones de los ID en los navegadores web de escritorio y móviles (pero no en las aplicaciones móviles) a las visualizaciones de:
 
-   * **Para [!DNL RampIDs]:** Debe implementar una etiqueta JavaScript adicional en las páginas web para que coincida con las conversiones de los ID en los navegadores web de escritorio y móviles (pero no en las aplicaciones móviles) para las visualizaciones. Póngase en contacto con el equipo de cuenta de Adobe, que le dará instrucciones para registrarse en [!DNL LiveRamp] [!DNL LaunchPad] etiqueta desde [!DNL LiveRamp] Soluciones de tráfico de autenticación. El registro es gratuito, pero debe firmar un acuerdo. Una vez que se registre, el equipo de cuenta de Adobe generará y proporcionará una etiqueta única para que su organización la implemente en sus páginas web.
+   * **Para [!DNL RampIDs]:** Debe implementar una etiqueta de JavaScript adicional en las páginas web para que coincida con las conversiones de los ID en los navegadores web de escritorio y móviles (pero no en las aplicaciones móviles) para las visualizaciones. Póngase en contacto con el equipo de cuenta de Adobe, que le dará instrucciones para registrarse en [!DNL LiveRamp] [!DNL LaunchPad] etiqueta desde [!DNL LiveRamp] Soluciones de tráfico de autenticación. El registro es gratuito, pero debe firmar un acuerdo. Una vez que se registre, el equipo de cuenta de Adobe generará y proporcionará una etiqueta única para que su organización la implemente en sus páginas web.
 
 ## DSP Paso 2: Creación de una fuente de audiencia en el {#source-create}
 
@@ -73,13 +74,15 @@ El anunciante debe preparar y compartir datos de asignación de segmentos.
 
 1. El anunciante debe confirmar con el equipo de cuenta de Adobe que se han recibido los datos del segmento.
 
-DSP Los segmentos deben estar disponibles en un plazo de 24 horas y se actualizan según la configuración del anunciante en un plazo de [!DNL Amperity]. Independientemente de la frecuencia con la que se actualice el segmento, la inclusión en un segmento caduca después de 30 días de forma predeterminada o después de un periodo de caducidad especificado por el cliente. Actualice los segmentos volviendo a insertarlos desde [!DNL Amperity] antes de la caducidad. Para solicitar una caducidad de segmento personalizada, póngase en contacto con el equipo de cuenta de Adobe.
+DSP Los segmentos deben estar disponibles en un plazo de 24 horas para su uso en el mercado de la. Verifique en su biblioteca de audiencias (que está disponible cuando crea o edita una audiencia desde [!UICONTROL Audiences] > [!UICONTROL All Audiences] o dentro de la configuración de ubicación) que el segmento está disponible y se está rellenando.
+
+Los segmentos se actualizarán según la configuración del anunciante en [!DNL Amperity]. Independientemente de la frecuencia con la que se actualice el segmento, la inclusión en un segmento caduca después de 30 días de forma predeterminada o después de un periodo de caducidad especificado por el cliente. Actualice los segmentos volviendo a insertarlos desde [!DNL Amperity] antes de la caducidad. Para solicitar una caducidad de segmento personalizada, póngase en contacto con el equipo de cuenta de Adobe.
 
 ## Paso 5: Comparar el número de ID universales con el número de direcciones de correo electrónico con hash {#compare-id-count}
 
-Una vez completados todos los pasos, consulte en la biblioteca de audiencias (que está disponible cuando crea o edita una audiencia desde ) [!UICONTROL Audiences] > [!UICONTROL All Audiences] o dentro de la configuración de colocación) que el segmento está disponible y se está rellenando en un plazo de 24 horas. Compare el número de ID universales con el número de direcciones de correo electrónico con hash originales.
+DSP Una vez que reciba los datos del segmento, el recuento de audiencias debería ser visible en un plazo de nueve (9) horas. En la biblioteca de audiencias (que está disponible cuando crea o edita una audiencia desde [!UICONTROL Audiences] > [!UICONTROL All Audiences] o dentro de la configuración de ubicación) compare el número de ID universales con el número de direcciones de correo electrónico con hash originales.
 
-La tasa de traducción de las direcciones de correo electrónico con hash a los ID universales debe ser superior al 90 %. Por ejemplo, si envía 100 direcciones de correo electrónico con hash desde la plataforma de datos del cliente, deben traducirse a más de 90 ID universales. Una tasa de traducción del 90 % o menos es un problema. Para obtener más información sobre cómo pueden variar los recuentos de segmentos, consulte[Causas de variaciones de datos entre ID de correo electrónico e ID universales](#universal-ids-data-variances).&quot;
+La tasa de traducción de direcciones de correo electrónico con hash a ID universales debe ser superior al 90 %; la tasa de traducción para [!DNL RampIDs] en particular, debe ser del 95 % si todas las direcciones de correo electrónico con hash son únicas. Por ejemplo, si envía 100 direcciones de correo electrónico con hash desde la plataforma de datos del cliente, deben traducirse al menos a 95 [!DNL RampIDs] o más de 90 tipos de ID universales. Una tasa de traducción más baja es un problema. Para obtener más información sobre cómo pueden variar los recuentos de segmentos, consulte[Causas de variaciones de datos entre ID de correo electrónico e ID universales](#universal-ids-data-variances).&quot;
 
 Para obtener ayuda sobre la resolución de problemas, póngase en contacto con su equipo de cuenta de Adobe o `adcloud-support@adobe.com`.
 

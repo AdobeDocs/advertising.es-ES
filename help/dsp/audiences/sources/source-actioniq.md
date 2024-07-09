@@ -2,16 +2,16 @@
 title: "Convertir los ID de usuario de [!DNL ActionIQ] a los ID universales"
 description: DSP "Aprenda a habilitar la ingesta de datos por parte de los [!DNL ActionIQ] segmentos de origen".
 feature: DSP Audiences
-source-git-commit: 87080d8152ccf3aa9249a88379ecc9f919c0854d
+source-git-commit: 4292083dac92860854dca30f7897e1b0279f68ec
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
 
 # Conversión de ID de usuario [!DNL ActionIQ] a los ID universales
 
-*Función beta*
+*Función Beta*
 
 DSP Uso de la integración de la con [!DNL ActionIQ] plataforma de datos del cliente para convertir las direcciones de correo electrónico con hash en ID universales para la publicidad de destino.
 
@@ -27,9 +27,14 @@ No hay <!-- NN --> pasos para compartir datos de [!DNL ActionIQ] DSP con la:
 
 1. Después de crear la fuente de audiencia, comparta la clave de código fuente con el [!DNL ActionIQ] usuario.
 
-1. Una vez completados todos los pasos, consulte en la biblioteca de audiencias (que está disponible cuando crea o edita una audiencia desde ) [!UICONTROL Audiences] > [!UICONTROL All Audiences] o dentro de la configuración de ubicación) que el segmento se está rellenando en un plazo de 24 horas. Compare el número de ID universales con el número de direcciones de correo electrónico con hash originales.
+1. 
+   <!-- ActionIQ-specific step(s) -->
 
-   La tasa de traducción de las direcciones de correo electrónico con hash a los ID universales debe ser superior al 90 %. Por ejemplo, si envía 100 direcciones de correo electrónico con hash desde la plataforma de datos del cliente, deben traducirse a más de 90 ID universales. Una tasa de traducción del 90 % o menos es un problema. Para obtener más información sobre cómo pueden variar los recuentos de segmentos, consulte[Causas de variaciones de datos entre ID de correo electrónico e ID universales](#universal-ids-data-variances).&quot;
+1. Verifique en su biblioteca de audiencias (que está disponible cuando crea o edita una audiencia desde [!UICONTROL Audiences] > [!UICONTROL All Audiences] o dentro de la configuración de ubicación) que está rellenando el segmento y compare el número de ID universales con el número de direcciones de correo electrónico con hash originales.
+
+   DSP Los segmentos deben estar disponibles en un plazo de 24 horas para su uso en el mercado de la. DSP Una vez que reciba los datos del segmento, el recuento de audiencias debería ser visible en un plazo de nueve (9) horas.
+
+   La tasa de traducción de direcciones de correo electrónico con hash a ID universales debe ser superior al 90 %; la tasa de traducción para [!DNL RampIDs] en particular, debe ser del 95 % si todas las direcciones de correo electrónico con hash son únicas. Por ejemplo, si envía 100 direcciones de correo electrónico con hash desde la plataforma de datos del cliente, deben traducirse al menos a 95 [!DNL RampIDs] o más de 90 tipos de ID universales. Una tasa de traducción más baja es un problema. Para obtener más información sobre cómo pueden variar los recuentos de segmentos, consulte[Causas de variaciones de datos entre ID de correo electrónico e ID universales](#universal-ids-data-variances).&quot;
 
    Para obtener ayuda sobre la resolución de problemas, póngase en contacto con su equipo de cuenta de Adobe o `adcloud-support@adobe.com`.
 
