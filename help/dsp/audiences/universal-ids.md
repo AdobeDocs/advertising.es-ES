@@ -3,9 +3,9 @@ title: Compatibilidad con la activación de ID universales
 description: Obtenga información acerca de la compatibilidad para importar segmentos de ID universales, crear segmentos personalizados para rastrear ID universales y convertir otros identificadores de usuario en segmentos de origen a ID universales para una segmentación sin cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 42cfd98f3ef4145f5ac44e955a9b2f08a698f239
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Siga estas prácticas recomendadas para [!DNL RampID]Segmentos basados en y segm
 
 * Unas 24 horas después de activar un segmento, compruebe el recuento de ID convertidos para el segmento en [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Si el recuento de ID es inesperado, póngase en contacto con el equipo de cuenta de Adobe.
 
-  Consulte &quot;[Causas de variaciones de datos entre ID de correo electrónico e ID universales](#universal-ids-data-variances)&quot; para obtener más información sobre cómo pueden variar los recuentos de segmentos.
+  Consulte &quot;[Variaciones de datos entre ID de correo electrónico e ID universales](#universal-ids-data-variances)&quot; para obtener más información sobre cómo pueden variar los recuentos de segmentos.
 
 * No cambie los paquetes y las ubicaciones existentes. Sin embargo, si no tiene ningún presupuesto incremental para probar los ID universales, reduzca los presupuestos originales para financiar las pruebas.
 
@@ -96,15 +96,21 @@ Siga estas prácticas recomendadas para [!DNL RampID]Segmentos basados en y segm
 
 * Recuerde que el alcance de los segmentos de audiencia autenticados es naturalmente menor que el alcance de los segmentos basados en cookies y que el uso de opciones de segmentación adicionales reduce aún más el alcance. Sea prudente a la hora de utilizar la segmentación granular, especialmente uniendo varios objetivos con instrucciones Y.
 
-## Causas de variaciones de datos entre ID de correo electrónico e ID universales {#universal-ids-data-variances}
+## Variaciones de datos entre ID de correo electrónico e ID universales {#universal-ids-data-variances}
+
+### Niveles de variación aceptables
+
+La tasa de traducción de direcciones de correo electrónico con hash a ID universales debe ser superior al 90 %; la tasa de traducción para [!DNL RampIDs] en particular, debe ser del 95 % si todas las direcciones de correo electrónico con hash son únicas. Por ejemplo, si envía 100 direcciones de correo electrónico con hash desde la plataforma de datos del cliente, deben traducirse al menos a 95 [!DNL RampIDs] o más de 90 tipos de ID universales. Una tasa de traducción más baja puede indicar un problema. Consulte &quot;[Causas de variación](#universal-ids-data-variances-causes&quot; para posibles explicaciones.
+
+Para [!DNL RampIDs], póngase en contacto con el equipo de su cuenta de Adobe para obtener más información si las tasas de traducción son inferiores al 70 %.
+
+### Causas de variación {#universal-ids-data-variances-causes}
 
 * ID de correo electrónico con hash traducidos a ID5:
 
   El modelo probabilístico tiene una varianza de error de +/- 5 %. Esto significa que puede sobrestimar o subestimar el recuento de audiencias en un 5 %.
 
 * ID de correo electrónico con hash traducidos a [!DNL RampIDs]:
-
-  La tasa de traducción de direcciones de correo electrónico con hash a [!DNL RampIDs] debe ser del 95 % si todas las direcciones de correo electrónico con hash son únicas. Para tasas de traducción inferiores al 70 %, póngase en contacto con el equipo de cuenta de Adobe para obtener más información.
 
    * DSP Cuando varios perfiles utilizan el mismo ID de correo electrónico, el recuento de segmentos de puede ser inferior al recuento de perfiles de la plataforma de datos del cliente. Por ejemplo, en Adobe Photoshop puede crear una cuenta de empresa y una cuenta personal con un solo ID de correo electrónico. Pero si ambos perfiles pertenecen a la misma persona, los perfiles se asignan a un ID de correo electrónico y, en consecuencia, a uno [!DNL RampID].
 
