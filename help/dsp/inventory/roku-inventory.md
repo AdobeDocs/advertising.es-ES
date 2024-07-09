@@ -1,24 +1,22 @@
 ---
 title: Uso de [!DNL Roku] Inventario
-description: DSP Obtenga más información sobre la asociación de la con [!DNL Roku], incluidas las opciones de inventario, los proveedores de seguimiento de terceros aprobados y las prácticas recomendadas para [!DNL Roku]Ubicaciones específicas de.
+description: DSP Obtenga información acerca de la asociación de con [!DNL Roku], incluidas las opciones de inventario, los proveedores de seguimiento de terceros aprobados y las prácticas recomendadas para [!DNL Roku]Ubicaciones específicas de.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Uso de [!DNL Roku] Inventario
 
-DSP Advertising proporciona funciones únicas para la publicidad en [!DNL Roku].
+Advertising DSP proporciona funciones para la publicidad en [!DNL Roku].
 
 ## DSP El y el [!DNL Roku] Asociación
 
-DSP Roku y la comunidad de socios de la que se forman parte es única y se adapta a sus necesidades. [!DNL DSP] audiencias a [!DNL Roku] ID de segmentación de audiencia determinística 1:1 en [!DNL Roku] inventario.
-
-DSP DSP Fuera del propio de Roku (OneView), Advertising tiene acceso exclusivo a estas funcionalidades de segmentación. DSP DSP Advertising es también el único con permiso para medir [!DNL Roku] suministro junto a todos los demás inventarios de TV conectada (CTV). Porque [!DNL Roku] DSP no comparte todas las señales estándar de RTB y de píxeles de impresión, ningún otro tipo de puede segmentar o medir el suministro de CTV vendido por Roku.
+El [!DNL Roku] DSP y la asociación con el cliente coincide con su [!DNL DSP] audiencias a [!DNL Roku] ID de segmentación de audiencia determinística 1:1 en [!DNL Roku] inventario.
 
 ## [!DNL Roku] Opciones de inventario
 
@@ -53,7 +51,7 @@ Las ofertas privadas le permiten personalizar los parámetros de la oferta segú
 
 DSP En campañas de, [crear [!DNL Roku]Ubicaciones específicas de](/help/dsp/campaign-management/placements/placement-create.md) utilizando el tipo de ubicación &quot;[!UICONTROL Connected TV (Roku)].&quot; Incluir [!DNL Roku] ubicaciones en [!DNL Roku]Paquetes específicos de con objetivos definidos.
 
-Cada [!DNL Roku] la ubicación debe dirigirse al menos a uno [!DNL Roku] trato o fuente. DSP Para usar la coincidencia de audiencia única de la con [!DNL Roku], incluya uno o más segmentos de audiencia que puedan coincidir con el de [!DNL Roku] Conjunto de datos determinista (incluido).
+Cada [!DNL Roku] la ubicación debe dirigirse al menos a uno [!DNL Roku] trato o fuente. DSP Para usar la coincidencia de audiencia de la con [!DNL Roku], incluya uno o más segmentos de audiencia que puedan coincidir con el de [!DNL Roku] Conjunto de datos determinista (incluido).
 
 ### [!DNL Roku]Proveedores de seguimiento de terceros aprobados por el usuario
 
