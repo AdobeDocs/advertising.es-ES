@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
+source-git-commit: 977314f07d1299d9b94680861b046161bb444228
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2450'
 ht-degree: 0%
 
 ---
@@ -359,13 +359,9 @@ Para crear un objetivo de conversión personalizado, haga clic en **[!UICONTROL 
 
 >[!TIP]
 >
->Para las campañas en portafolios híbridos para las que carga objetivos en la red de publicidad, la práctica recomendada es utilizar objetivos de nivel de campaña que coincidan con los objetivos de conversión del objetivo del portafolio. Sin embargo, si los objetivos de la campaña incluyen [!DNL Google]Conversiones rastreadas por y, a continuación, agréguelas dentro de [!DNL Google Ads] editor porque no se vuelven a cargar en la red de anuncios con el objetivo. Además, dentro de [!DNL Google Ads] Para eliminar las acciones de conversión de la campaña como objetivos predeterminados de la cuenta, márquelas como objetivos secundarios (no principales).
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>Si la campaña forma parte de un portafolio híbrido, la práctica recomendada es utilizar objetivos de nivel de campaña que coincidan con los objetivos de conversión del objetivo del portafolio; incluir objetivos de conversión adicionales puede afectar al rendimiento del portafolio.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+>Sin embargo, para campañas en portafolios híbridos para los que [cargar objetivos en la red de publicidad](/help/search-social-commerce/tools/objective-upload-to-networks.md), haga lo siguiente dentro del editor de la red de anuncios en lugar de aquí: a) añada la métrica de objetivo del portafolio de Search, Social y Commerce cargada (que comienza con &quot;O_ACS_OBJ&quot;) como una acción de conversión para la campaña, y b) añada cualquier objetivo de campaña que incluya [!DNL Google]Conversiones rastreadas por porque las métricas rastreadas en la red de anuncios no se cargan en la red de anuncios con el objetivo.
 
 >[!MORELIKETHIS]
 >

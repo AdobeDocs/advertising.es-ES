@@ -3,9 +3,9 @@ title: Habilitar la carga de objetivos en las redes de publicidad
 description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d703b0d0134dbd16b2672b13d2ea63e4f102e105
+source-git-commit: 39936c6834012432447d3216d8463937996b0017
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Search, Social y Commerce pueden cargar los objetivos de los portafolios de una cuenta de anunciante en [!DNL Google Ads] y [!DNL Microsoft Advertising] para que pueda utilizarlos para la optimización híbrida. Los objetivos cargados están disponibles como acciones de conversión para los objetivos de conversión personalizados de nivel de cuenta y de campaña.
 
-Al habilitar esta opción, se almacenarán automáticamente en déclencheur las cargas para los objetivos de los portafolios que contengan campañas con estrategias de oferta inteligente. Search, Social y Commerce crean una conversión en la red de anuncios para cada objetivo aplicable. La conversión representa todas las métricas de conversión ponderadas en el objetivo a nivel de EF ID (ID de clic). Cada conversión tiene uno de los siguientes nombres:
+Al habilitar esta opción, se almacenarán automáticamente en déclencheur las cargas para los objetivos de los portafolios que contengan campañas con estrategias de oferta inteligente. Search, Social y Commerce crean una conversión en la red de anuncios para cada objetivo aplicable. La conversión representa todas las métricas de conversión ponderadas en el objetivo a nivel de EF ID (ID de clic). Para [!DNL Google Ads] clics, el ID de EF es el [!DNL Google Ads] `gclid`; para [!DNL Microsoft Advertising] clics, el ID de EF es el [!DNL Microsoft Advertising] `msclkid`. Debido a este ID de clic, los datos de conversión se pueden asignar a la palabra clave específica y a la hora del clic.
+
+Cada conversión cargada tiene uno de los siguientes nombres:
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -34,15 +36,7 @@ Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horar
 
 >[!IMPORTANT]
 >
->Las conversiones rastreadas por Google Ads y por la etiqueta de seguimiento universal de eventos (UET) de Microsoft Advertising no se vuelven a cargar en las redes de anuncios. Si los incluye dentro de un objetivo, agréguelos a los objetivos de campaña dentro del editor de la red de publicidad.
-
-<!--
->[!IMPORTANT]
->
->Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
--->
-
-<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
+>Las conversiones rastreadas por Google Ads y por la etiqueta de seguimiento universal de eventos (UET) de Microsoft Advertising no se vuelven a cargar en las redes de anuncios. Si los incluye dentro de un objetivo, debe agregarlos a los objetivos de campaña dentro del editor de la red de anuncios.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] configuración de campaña"'
 description: Haga referencia a la configuración de [!DNL Microsoft Advertising] campañas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
+source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
   Una vez guardada una campaña de compra para marcas con esta estrategia de oferta, no se puede cambiar la estrategia de oferta. Para otros tipos de campañas de compra, esta estrategia solo está disponible para nuevas campañas.
 
-* *[!UICONTROL CPV]* (Solo campañas de vídeo de Audience CTV) Utiliza el modelo de coste por vista (CPV). <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
+* *[!UICONTROL CPV]* (Solo campañas de vídeo de Audience CTV) Utiliza el modelo de coste por vista (CPV). Search, Social y Commerce no proporcionan optimización para las campañas con esta estrategia de oferta que se incluyen en los portafolios.
 
 * *[!UICONTROL Enhanced CPC]:* (Campañas en las redes de audiencia, búsqueda y compras) Utiliza el modelo de coste por clic mejorado (eCPC) de la red de publicidad, que permite que esta cambie automáticamente la oferta de coste por clic (CPC) para cada subasta en un intento de maximizar las conversiones, utilizando las conversiones especificadas dentro de la red de publicidad (no en Buscar, Social y Commerce), a la vez que intenta mantener el CPC promedio por debajo del CPC máximo.
 
@@ -164,7 +164,7 @@ Una vez que vincula la campaña a una tienda y guarda la configuración, no se p
 
 **[!UICONTROL Negative Websites]:** (Campañas solo en la red de visualización/nativa; opcional) Sitios en la red de visualización en los que no desea que se muestren los anuncios. Introduzca una URL válida, como www.example.com. Para especificar varias cadenas, sepárelas con comas o introdúzcalas en líneas independientes.
 
-Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsoft Advertising a &quot;[Impedir que aparezcan anuncios en sitios web específicos](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Para obtener información sobre la disponibilidad, consulte la ayuda de Microsoft Advertising para &quot;[Impedir que aparezcan anuncios en sitios web específicos](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -301,13 +301,9 @@ Para obtener información sobre la disponibilidad, consulte la Ayuda de Microsof
 
 >[!TIP]
 >
->Para portafolios híbridos para los que carga objetivos en la red de publicidad, la práctica recomendada es utilizar objetivos de nivel de campaña que coincidan con los objetivos de conversión del objetivo del portafolio. Sin embargo, si los objetivos de la campaña incluyen conversiones rastreadas por la variable [!DNL Microsoft Advertising] etiqueta de seguimiento universal de eventos (UET) y, a continuación, agréguelas en el [!DNL Microsoft Advertising] editor porque no se vuelven a cargar en la red de anuncios con el objetivo. Además, dentro de [!DNL Microsoft Advertising] Para eliminar las acciones de conversión de la campaña como objetivos predeterminados de la cuenta, anule la selección de &quot;incluir en conversiones&quot;.
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>Si la campaña forma parte de un portafolio híbrido, la práctica recomendada es utilizar objetivos de nivel de campaña que coincidan con los objetivos de conversión del objetivo del portafolio; incluir objetivos de conversión adicionales puede afectar al rendimiento del portafolio.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+> Sin embargo, para campañas en portafolios híbridos para los que [cargar objetivos en la red de publicidad](/help/search-social-commerce/tools/objective-upload-to-networks.md), haga lo siguiente dentro del editor de la red de anuncios en lugar de aquí: a) añada la métrica de objetivo del portafolio de Search, Social y Commerce cargada (que comienza con &quot;O_ACS_OBJ&quot;) como un objetivo de conversión para la campaña, y b) añada cualquier objetivo de campaña que incluya conversiones rastreadas por [!DNL Microsoft Advertising] etiqueta de seguimiento universal de eventos (UET) porque las métricas de seguimiento de red de anuncios no se cargan en la red de anuncios con el objetivo.
 
 >[!MORELIKETHIS]
 >
