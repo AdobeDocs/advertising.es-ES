@@ -3,9 +3,9 @@ title: Configuración de paquetes
 description: Consulte las descripciones de la configuración del paquete disponible.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
+source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ Puede anular la configuración de nivel de paquete en [nivel de ubicación](/hel
 
 * **[!UICONTROL Placement level pacing]:**  Esta estrategia de ritmo funciona mediante el ritmo y el límite de todas las ubicaciones incluidas *individualmente*. La práctica recomendada es utilizar esta estrategia solo para ejecutar ofertas de mercado privado garantizadas.
 
-**[!UICONTROL Flight Dates]:** La fecha de inicio y finalización del paquete.
-
-Para crear, de forma opcional, vuelos de ritmo desigual para el paquete, seleccione *[!UICONTROL *Activate Custom Flighting]** y configurar los vuelos personalizados en el [!UICONTROL Flighting] más abajo. Una vez activado el vuelo personalizado y guardado el paquete, no se puede desactivar el vuelo personalizado.
+**[!UICONTROL Flight Dates]:** La fecha de inicio y de finalización general del paquete. Las fechas de vuelo deben incluirse dentro de las fechas de vuelo de la campaña.
 
 >[!NOTE]
 >
->* Las fechas de vuelo deben incluirse dentro de las fechas de vuelo de la campaña. Además, las fechas de vuelo de todas las ubicaciones asignadas a este paquete deben incluirse dentro de estas fechas.
+>* Las fechas de vuelo de todas las ubicaciones asignadas a este paquete deben incluirse dentro de estas fechas.
 > * No se puede editar la fecha de inicio del paquete cuando se activa el vuelo personalizado.
+
+**[!UICONTROL *Activate Custom Flighting]:** Permite crear vuelos de ritmo desigual para el paquete en el [!UICONTROL Flighting] más abajo. Una vez que habilite el vuelo personalizado y guarde el paquete, no podrá deshabilitar el vuelo personalizado ni editar la fecha de inicio del paquete.
 
 **[!UICONTROL Budget]:** (Paquetes con solo ritmo de nivel de paquete) El límite presupuestario bruto y el intervalo presupuestario.
 
