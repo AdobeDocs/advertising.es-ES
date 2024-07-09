@@ -3,7 +3,7 @@ title: Configuración de paquetes
 description: Consulte las descripciones de la configuración del paquete disponible.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
+source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]:** (Opcional) Una tarifa estática de terceros que se rastreará como un coste no facturable:
 
+* **[!UICONTROL CPM]:** El coste por 1000 impresiones (CPM).
+
+* **[!UICONTROL Description]:** Una descripción de la tarifa del CPM.
+
 >[!NOTE]
 >
 >Las tarifas facturables se reflejan en la [!UICONTROL Net CPM] métrica.
->
-* **[!UICONTROL CPM]:** El coste por 1000 impresiones (CPM).
-
-* **[!UICONTROL CPM Description]:** Una descripción de la tarifa del CPM.
 
 Puede anular la configuración de nivel de paquete en [nivel de ubicación](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -45,7 +45,7 @@ Puede anular la configuración de nivel de paquete en [nivel de ubicación](/hel
 >* Las fechas de vuelo de todas las ubicaciones asignadas a este paquete deben incluirse dentro de estas fechas.
 > * No se puede editar la fecha de inicio del paquete cuando se activa el vuelo personalizado.
 
-**[!UICONTROL Activate Custom Flighting]:** Permite crear vuelos de ritmo desigual para el paquete en el [!UICONTROL Flighting] más abajo. Una vez que habilite el vuelo personalizado y guarde el paquete, no podrá deshabilitar el vuelo personalizado ni editar la fecha de inicio del paquete.
+**[!UICONTROL *Activate Custom Flighting]:** Permite crear vuelos de ritmo desigual para el paquete en el [!UICONTROL Flighting] más abajo. Una vez que habilite el vuelo personalizado y guarde el paquete, no podrá deshabilitar el vuelo personalizado ni editar la fecha de inicio del paquete.
 
 **[!UICONTROL Budget]:** (Paquetes con solo ritmo de nivel de paquete) El límite presupuestario bruto y el intervalo presupuestario.
 
