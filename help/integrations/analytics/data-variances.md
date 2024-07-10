@@ -3,9 +3,9 @@ title: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 description: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Anunciantes con el [!DNL Analytics for Advertising] <!-- (A4AdC) --> integració
 
 El [!DNL Analytics for Advertising] La integración de utiliza dos variables ([!DNL eVars] o [!DNL rVars] \[reservado] [!DNL eVars]]\) para capturar el [ID de EF e ID de AMO](ids.md). Estas variables se configuran con una sola ventana retrospectiva (el tiempo en el que se atribuyen las pulsaciones y las visualizaciones) y un modelo de atribución. A menos que se especifique lo contrario, las variables se configuran para que coincidan con la ventana retrospectiva de clics predeterminada y el modelo de atribución en Adobe Advertising.
 
-Sin embargo, las ventanas retrospectivas y los modelos de atribución se pueden configurar tanto en Analytics como en [!DNL eVars]) y en Adobe Advertising. Además, en Adobe Advertising, el modelo de atribución no solo se puede configurar a nivel de anunciante (para la optimización de ofertas), sino también dentro de vistas de datos e informes individuales (solo para fines de creación de informes). DSP Por ejemplo, una organización puede preferir utilizar el modelo de atribución de distribución par para la optimización, pero puede utilizar la atribución de último contacto para informes en Advertising o [!DNL Advertising Search, Social, & Commerce]. Al cambiar los modelos de atribución, cambia el número de conversiones atribuidas.
+Sin embargo, las ventanas retrospectivas y los modelos de atribución se pueden configurar tanto en Analytics como en [!DNL eVars]) y en Adobe Advertising. Además, en Adobe Advertising, el modelo de atribución no solo se puede configurar a nivel de anunciante (para la optimización de ofertas), sino también dentro de vistas de datos e informes individuales (solo para fines de creación de informes). Por ejemplo, una organización puede preferir utilizar el modelo de atribución de distribución par para la optimización, pero puede utilizar la atribución de último contacto para informes en Advertising DSP o [!DNL Advertising Search, Social, & Commerce]. Al cambiar los modelos de atribución, cambia el número de conversiones atribuidas.
 
 Si se modifica una ventana retrospectiva de creación de informes o un modelo de atribución en un producto y no en el otro, los mismos informes de cada sistema mostrarán datos distintos:
 
@@ -38,7 +38,7 @@ Si se modifica una ventana retrospectiva de creación de informes o un modelo de
 
 * **Ejemplo de discrepancias causadas por diferentes modelos de atribución:**
 
-  Supongamos que un usuario interactúa con tres anuncios de Adobe Advertising diferentes antes de la conversión, con ingresos como tipo de conversión. Si un informe de Adobes Advertising utiliza un modelo de distribución par para la atribución, atribuye los ingresos de forma uniforme en todos los anuncios. If [!DNL Analytics] utiliza el modelo de atribución de último contacto; sin embargo, luego atribuye los ingresos al último anuncio. En el ejemplo siguiente, los Adobes Advertising atribuyen un valor par 10 USD de los 30 USD de ingresos capturados a cada uno de los tres anuncios, mientras que [!DNL Analytics] atribuye los 30 USD de ingresos al último anuncio visto por el usuario. Al comparar informes de Adobe Advertising y [!DNL Analytics], verá el impacto de la diferencia en la atribución.
+  Supongamos que un usuario interactúa con tres anuncios de Adobes Advertising diferentes antes de la conversión, con ingresos como tipo de conversión. Si un informe de Adobes Advertising utiliza un modelo de distribución par para la atribución, atribuye los ingresos de forma uniforme en todos los anuncios. If [!DNL Analytics] utiliza el modelo de atribución de último contacto; sin embargo, luego atribuye los ingresos al último anuncio. En el ejemplo siguiente, los Adobes Advertising atribuyen un valor par 10 USD de los 30 USD de ingresos capturados a cada uno de los tres anuncios, mientras que [!DNL Analytics] atribuye los 30 USD de ingresos al último anuncio visto por el usuario. Al comparar informes de Adobe Advertising y [!DNL Analytics], verá el impacto de la diferencia en la atribución.
 
   ![Ingresos distintos atribuidos a los Adobes Advertising y [!DNL Analytics] basado en diferentes modelos de atribución](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -50,7 +50,7 @@ Estos mismos conceptos se aplican a cualquier otro canal similar que utilice dif
 
 #### Diferentes ventanas retrospectivas para el seguimiento de visualización {#impression-lookback}
 
-En Adobe Advertising, la atribución se basa en los clics y las impresiones, y puede configurar diferentes ventanas retrospectivas para los clics y las impresiones. Entrada [!DNL Analytics]Sin embargo, la atribución se basa en las pulsaciones y las visualizaciones, y no tiene la opción de establecer ventanas de atribución distintas para las pulsaciones y las visualizaciones; el seguimiento de cada una de ellas comienza en la visita inicial al sitio. Una impresión se puede producir el mismo día o varios días antes de que se produzca una visualización, y esto puede afectar a dónde se inicia la ventana de atribución en cada sistema.
+En Adobe Advertising, la atribución se basa en los clics y las impresiones, y puede configurar diferentes ventanas retrospectivas para los clics y las impresiones. Entrada [!DNL Analytics]Sin embargo, la atribución se basa en las pulsaciones y las visualizaciones, y no tiene la opción de establecer ventanas de atribución distintas para las pulsaciones y las visualizaciones; el seguimiento de cada una de ellas comienza en la visita inicial al sitio. Una impresión se puede producir el mismo día o varios días antes de que se produzca una visualización y el tiempo puede afectar al lugar en el que la ventana de atribución se inicia en cada sistema.
 
 Normalmente, la mayoría de las conversiones de visualización se producen con la rapidez suficiente para que ambos sistemas atribuyan crédito. Sin embargo, algunas conversiones pueden producirse fuera de la ventana retrospectiva de impresión de Adobe Advertising, pero dentro de [!DNL Analytics] ventana retrospectiva; estas conversiones se atribuyen a la visualización en [!DNL Analytics] pero no a la impresión en Adobe Advertising.
 
@@ -118,7 +118,7 @@ La ventana retrospectiva para [!DNL Marketing Channels] se puede personalizar. E
 
 ### Atribución de canal diferente en [!DNL Marketing Channels]
 
-Los informes de Adobe Advertising capturan solo los medios de pago traficados a través del Adobe Advertising (búsqueda de pago para [!DNL Advertising Search, Social, & Commerce] DSP anuncios y visualización para anuncios de Advertising), mientras que [!DNL Marketing Channels] los informes pueden realizar un seguimiento de todos los canales digitales. Esto puede provocar una discrepancia en el canal para el que se atribuye una conversión.
+Los informes de Adobe Advertising capturan solo los medios de pago traficados a través del Adobe Advertising (búsqueda de pago para [!DNL Advertising Search, Social, & Commerce] anuncios y visualización para anuncios de Advertising DSP), mientras que [!DNL Marketing Channels] los informes pueden realizar un seguimiento de todos los canales digitales. Esto puede provocar una discrepancia en el canal para el que se atribuye una conversión.
 
 Por ejemplo, la búsqueda de pago y los canales de búsqueda natural a menudo tienen una relación simbiótica, en la que cada canal ayuda al otro. El [!DNL Marketing Channels] El informe atribuye algunas conversiones a la búsqueda natural que el Adobe Advertising no atribuye a porque no realiza el seguimiento de la búsqueda natural.
 
@@ -154,31 +154,60 @@ El [!DNL Paid Search Detection] Los informes de permiten identificar el tráfico
 
 Para la integración, debe validar los datos de clics para asegurarse de que todas las páginas del sitio rastrean correctamente los clics.
 
-Entrada [!DNL Analytics], una de las formas más sencillas de validar [!DNL Analytics for Advertising] El seguimiento de es comparar los clics con las instancias mediante un [!UICONTROL AMO ID Instances]&quot; métrica calculada, que se calcula de la siguiente manera:
+Entrada [!DNL Analytics], una de las formas más sencillas de validar [!DNL Analytics for Advertising] El seguimiento de es comparar instancias con clics mediante una métrica calculada &quot;Instancias de ID de AMO a clics en el Adobe Advertising&quot;, que se calcula de la siguiente manera:
 
 ```
-Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
+AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
-[!UICONTROL AMO ID Instances] representa el número de veces que [ID de AMO](ids.md) se rastrean en el sitio. Cada vez que se hace clic en un anuncio, se crea un ID de AMO (`s_kwcid`) parámetro se añade a la dirección URL de la página de aterrizaje. El número de [!UICONTROL AMO ID Instances], por lo tanto, es análogo al número de clics y se puede validar con clics de anuncios reales. Normalmente, vemos una tasa de coincidencia del 80 % para [!DNL Search, Social, & Commerce] y una tasa de coincidencia del 30 % para [!DNL DSP] tráfico (cuando se filtra para incluir solo pulsaciones) [!UICONTROL AMO ID Instances]). La diferencia de expectativas entre la búsqueda y la visualización se puede explicar por el comportamiento de tráfico esperado. La búsqueda captura la intención y, como tal, los usuarios suelen hacer clic en los resultados de búsqueda de su consulta. Sin embargo, es más probable que los usuarios que ven un anuncio en pantalla o en vídeo en línea hagan clic en el anuncio de forma involuntaria y luego reboten en el sitio o abandonen la nueva ventana que se carga antes de que se rastree la actividad de la página.
+[!UICONTROL AMO ID Instances] representa el número de veces que [ID de AMO](ids.md) se rastrean en el sitio. Cada vez que se hace clic en un anuncio, se crea un ID de AMO (`s_kwcid`) parámetro se añade a la dirección URL de la página de aterrizaje. El número de [!UICONTROL AMO ID Instances], por lo tanto, es análogo al número de clics y se puede validar con clics de anuncios reales. Normalmente, vemos una tasa de coincidencia del 85 % para [!DNL Search, Social, & Commerce] y una tasa de coincidencia del 30 % para [!DNL DSP] tráfico (cuando se filtra para incluir solo pulsaciones) [!UICONTROL AMO ID Instances]). La diferencia de expectativas entre la búsqueda y la visualización se puede explicar por el comportamiento de tráfico esperado. La búsqueda captura la intención y, como tal, los usuarios suelen hacer clic en los resultados de búsqueda de su consulta. Sin embargo, es más probable que los usuarios que ven un anuncio en pantalla o en vídeo en línea hagan clic en el anuncio de forma involuntaria y luego reboten en el sitio o abandonen la nueva ventana que se carga antes de que se rastree la actividad de la página.
 
-En los informes de Adobe Advertising, puede comparar de forma similar los clics con las instancias mediante el uso de &quot;[!UICONTROL ef_id_instances]&quot; en lugar de [!UICONTROL AMO ID Instances]:
+En los informes de Adobe Advertising, puede comparar de forma similar las instancias con los clics mediante el icono &quot;[!UICONTROL EF ID Instances]&quot; en lugar de [!UICONTROL AMO ID Instances]:
 
 ```
-Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 Aunque debería esperar una alta tasa de coincidencia entre el AMO ID y el EF ID, no espere una paridad del 100 % porque el AMO ID y el EF ID rastrean fundamentalmente datos diferentes y esta diferencia puede llevar a ligeras diferencias en el total [!UICONTROL AMO ID Instances] y [!UICONTROL EF ID Instances]. Si el total [!UICONTROL AMO ID Instances] in [!DNL Analytics] diferir de [!UICONTROL EF ID Instances] en Adobe Advertising por más del 1%, sin embargo, póngase en contacto con su equipo de cuenta de Adobe para obtener ayuda.
 
 Para obtener más información sobre el AMO ID y el EF ID, consulte [ID de Adobe Advertising utilizados por Analytics](ids.md).
 
-El siguiente es un ejemplo de un espacio de trabajo para rastrear clics a instancias.
+<!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
-![Ejemplo de un espacio de trabajo para rastrear clics a instancias](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+The following is an example of a workspace to track clicks to instances.
+
+![Example of a workspace to track clicks to instances to clicks](/help/integrations/assets/a4adc-clicks-to-instances-example.png)
+-->
+
+### Solución de problemas de disparidades entre clics e instancias
+
+Si la variable [!UICONTROL EF ID Instances]-a-[!UICONTROL Adobe Advertising Clicks] La proporción es inferior al 85 % y, a continuación, compruebe lo siguiente:
+
+* ¿Le falta el rastreo de clics en la cuenta o en cualquier subnivel, o tiene un rastreo de clics duplicado (por ejemplo, en los niveles de cuenta y campaña)?
+
+  En Search, Social y Commerce, [descargar una hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) para que la cuenta compruebe las direcciones URL de seguimiento.
+
+  Además, en [!DNL Analytics], puede ver si el ID de AMO y el IF de EF se anexan de forma coherente utilizando un &quot;[!DNL AMO ID] hasta [!DNL EF ID]&quot; métrica calculada, que se calcula de la siguiente manera:
+
+  ```
+  [!DNL AMO ID] to [!DNL EF ID] = ([!UICONTROL AMO ID] / [!DNL EF ID])
+  ```
+
+  Un valor superior al 100 % indica que faltan más ID de EF que ID de AMO.
+
+* ¿La página de aterrizaje tiene un problema de carga para que el ID de AMO y el ID de EF no se capturen?
+
+* ¿Se redirige la dirección URL de la página de aterrizaje para que se pierdan el ID de AMO y el ID de EF?
+
+* ¿Todas las páginas de aterrizaje utilizan el grupo de informes configurado?
+
+>[!NOTE]
+>
+>En teoría, es posible que una instancia tenga varios clics. Asegúrese de comprobar si hay clics en distintos dispositivos (como escritorio, móvil y tableta).
 
 ## Comparación de conjuntos de datos en [!DNL Analytics for Advertising] Versus en Adobe Advertising
 
-El [ID de AMO](ids.md) (parámetro de cadena de consulta s_kwcid) se usa para los informes en [!DNL Analytics], y el [EF ID](ids.md) se utiliza para realizar informes en Adobe Advertising. Como son valores distintos, es posible que un valor se dañe o no se añada a la página de aterrizaje.
+El [ID de AMO](ids.md) (parámetro de cadena de consulta s_kwcid) se usa para los informes en [!DNL Analytics], y el [EF ID](ids.md) (parámetro de cadena de consulta ef_id) se utiliza para la creación de informes en Adobe Advertising. Como son valores distintos, es posible que un valor se dañe o no se añada a la página de aterrizaje.
 
 Por ejemplo, supongamos que tenemos la siguiente página de aterrizaje:
 
@@ -230,7 +259,7 @@ Los clics y las pulsaciones pueden diferir considerablemente debido a los clics 
 
 También es menos probable que los sitios cargados en dispositivos móviles generen clics debido al menor ancho de banda o la potencia de procesamiento disponible, lo que provoca que las páginas de aterrizaje tarden más en cargarse. No es inusual que entre el 50 y el 70 % de los clics no produzcan proporción de clics. En entornos móviles, la diferencia puede alcanzar el 90 % debido a la combinación de un navegador más lento y a la mayor probabilidad de que el usuario haga clic accidentalmente en el anuncio mientras se desplaza por la página o intenta cerrar el anuncio.
 
-Los datos de clics también se pueden registrar en entornos que no pueden registrar la proporción de clics con los mecanismos de seguimiento actuales (como los clics que entran o salen de una aplicación móvil) o para los que el anunciante solo ha implementado un método de seguimiento (por ejemplo, con el método de visualización de JavaScript, los exploradores que bloquean cookies de terceros rastrean los clics, pero no los clics). Una razón clave por la que Adobe recomienda implementar los enfoques de seguimiento de URL de clics y seguimiento de JavaScript de visualización es maximizar la cobertura de las pulsaciones rastreables.
+Los datos de clics también se pueden registrar en entornos que no pueden registrar la proporción de clics con los mecanismos de seguimiento actuales (como los clics que entran o salen de una aplicación móvil) o para los que el anunciante solo ha implementado un método de seguimiento (por ejemplo, con el método de visualización de JavaScript, los exploradores que bloquean cookies de terceros rastrean los clics, pero no los clics). Una razón clave por la que Adobe recomienda implementar los enfoques de seguimiento de URL de clics y seguimiento de JavaScript de visualización es maximizar la cobertura de las pulsaciones a las que se puede realizar un seguimiento.
 
 ### Uso de métricas de tráfico de Adobe Advertising para Dimension que no son de Adobe Advertising
 
@@ -240,7 +269,7 @@ Por ejemplo, si ve la variable [!UICONTROL Adobe Advertising Clicks] y [!UICONTR
 
 ![Ejemplo de métricas de Adobe Advertising en un informe con una dimensión de Adobe Advertising](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Sin embargo, si ve el [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] métricas calculadas por una dimensión en la página (como Página), para la que el Adobe Advertising no proporciona datos, la variable [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] para cada página son cero (0).
+Sin embargo, si ve el [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] métricas calculadas por una dimensión en la página (como Página), para la que Adobe Advertising no proporciona datos, la variable [!UICONTROL Adobe Advertising Clicks] y [!UICONTROL Adobe Advertising Cost] para cada página son cero (0).
 
 ![Ejemplo de métricas de Adobe Advertising en un informe con una dimensión no admitida](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
