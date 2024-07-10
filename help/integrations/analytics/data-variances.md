@@ -3,9 +3,9 @@ title: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 description: Variaciones de datos previstas entre [!DNL Analytics] y ADOBE ADVERTISING
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
+source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3358'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ El [!DNL Paid Search Detection] Los informes de permiten identificar el tráfico
 
 Para la integración, debe validar los datos de clics para asegurarse de que todas las páginas del sitio rastrean correctamente los clics.
 
-Entrada [!DNL Analytics], una de las formas más sencillas de validar [!DNL Analytics for Advertising] El seguimiento de es comparar instancias con clics mediante una métrica calculada &quot;Instancias de ID de AMO a clics en el Adobe Advertising&quot;, que se calcula de la siguiente manera:
+Entrada [!DNL Analytics], una de las formas más sencillas de validar [!DNL Analytics for Advertising] El seguimiento de es comparar instancias con clics mediante una métrica calculada &quot;Instancias de ID de AMO a clics&quot;, que se calcula de la siguiente manera:
 
 ```
-AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+AMO ID Instances to Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 [!UICONTROL AMO ID Instances] representa el número de veces que [ID de AMO](ids.md) se rastrean en el sitio. Cada vez que se hace clic en un anuncio, se crea un ID de AMO (`s_kwcid`) parámetro se añade a la dirección URL de la página de aterrizaje. El número de [!UICONTROL AMO ID Instances], por lo tanto, es análogo al número de clics y se puede validar con clics de anuncios reales. Normalmente, vemos una tasa de coincidencia del 85 % para [!DNL Search, Social, & Commerce] y una tasa de coincidencia del 30 % para [!DNL DSP] tráfico (cuando se filtra para incluir solo pulsaciones) [!UICONTROL AMO ID Instances]). La diferencia de expectativas entre la búsqueda y la visualización se puede explicar por el comportamiento de tráfico esperado. La búsqueda captura la intención y, como tal, los usuarios suelen hacer clic en los resultados de búsqueda de su consulta. Sin embargo, es más probable que los usuarios que ven un anuncio en pantalla o en vídeo en línea hagan clic en el anuncio de forma involuntaria y luego reboten en el sitio o abandonen la nueva ventana que se carga antes de que se rastree la actividad de la página.
@@ -165,7 +165,7 @@ AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / 
 En los informes de Adobe Advertising, puede comparar de forma similar las instancias con los clics mediante el icono &quot;[!UICONTROL EF ID Instances]&quot; en lugar de [!UICONTROL AMO ID Instances]:
 
 ```
-EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+EF ID Instances to Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 Aunque debería esperar una alta tasa de coincidencia entre el AMO ID y el EF ID, no espere una paridad del 100 % porque el AMO ID y el EF ID rastrean fundamentalmente datos diferentes y esta diferencia puede llevar a ligeras diferencias en el total [!UICONTROL AMO ID Instances] y [!UICONTROL EF ID Instances]. Si el total [!UICONTROL AMO ID Instances] in [!DNL Analytics] diferir de [!UICONTROL EF ID Instances] en Adobe Advertising por más del 1%, sin embargo, póngase en contacto con su equipo de cuenta de Adobe para obtener ayuda.
@@ -181,7 +181,7 @@ The following is an example of a workspace to track clicks to instances.
 
 ### Solución de problemas de disparidades entre clics e instancias
 
-Si la variable [!UICONTROL EF ID Instances]-a-[!UICONTROL Adobe Advertising Clicks] La proporción es inferior al 85 % y, a continuación, compruebe lo siguiente:
+Si la variable [!UICONTROL EF ID Instances]La proporción de clics es inferior al 85 % y, a continuación, compruebe lo siguiente:
 
 * ¿Le falta el rastreo de clics en la cuenta o en cualquier subnivel, o tiene un rastreo de clics duplicado (por ejemplo, en los niveles de cuenta y campaña)?
 
