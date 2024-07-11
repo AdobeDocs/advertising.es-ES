@@ -3,9 +3,9 @@ title: Habilitar la carga de objetivos en las redes de publicidad
 description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horar
 
 ## Cálculo del objetivo ponderado
 
-El objetivo ponderado que se pasa a la red de anuncios es la suma de todos los valores de métricas recopilados, con la excepción de las conversiones rastreadas por [!DNL Google Ads] o por el [!DNL Microsoft Advertising] etiqueta universal event tracking (UET).
+El objetivo ponderado que se pasa a la red de anuncios es la suma de todos los valores de métricas recopilados, con la excepción de las conversiones rastreadas por [!DNL Google Ads] o por el [!DNL Microsoft Advertising] etiqueta universal event tracking (UET). El valor se calcula mediante el método de atribución configurado para la cuenta de Search, Social y Commerce del anunciante.
 
 Por ejemplo, supongamos que la métrica de objetivos del objetivo es Adiciones al carro de compras con un peso de 25, y las métricas de asistencia incluyen GGL_Lead e Ingresos con pesos de 1 y Descargas con un peso de 0,5.
 
@@ -70,6 +70,12 @@ Supongamos que una palabra clave resultara en las siguientes acciones para el po
 * 5 GGL_Lead
 
 GGL_Lead no se incluye en el cálculo/carga porque es una métrica rastreada en Google Ads. Por lo tanto, el valor objetivo ponderado se calcula como ((10 x 25) + (500 x 1) + (50 x 0,5)) = 775.
+
+>[!TIP]
+>
+>Puede ver los datos de los ingresos ponderados en función de los Adobes Advertising en los informes de la red publicitaria. Como práctica recomendada, compare los ingresos ponderados con el [!DNL Google Ads] &quot;Todos los conv. (por conversión. tiempo)&quot; para la métrica [!DNL Microsoft Advertising] métrica &quot;Todas las conv. ingresos&quot;, segmentado con la métrica O_ACS_OBJ*.<!--clarify -->
+
+En el editor de la red de anuncios
 
 ## Solución de problemas de objetivos perdidos
 
