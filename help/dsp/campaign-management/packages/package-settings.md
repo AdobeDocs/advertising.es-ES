@@ -3,7 +3,7 @@ title: Configuración de paquetes
 description: Consulte las descripciones de la configuración del paquete disponible.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 9a7d73a281dba1331f00dd9ff75fafdc057413d0
+source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Puede anular la configuración de nivel de paquete en [nivel de ubicación](/hel
 >* Las fechas de vuelo de todas las ubicaciones asignadas a este paquete deben incluirse dentro de estas fechas.
 > * No se puede editar la fecha de inicio del paquete cuando se activa el vuelo personalizado.
 
-**[!UICONTROL *Activate Custom Flighting]:** Permite crear vuelos de ritmo desigual para el paquete en el [!UICONTROL Flighting] más abajo. Una vez que habilite el vuelo personalizado y guarde el paquete, no podrá deshabilitar el vuelo personalizado ni editar la fecha de inicio del paquete.
+**[!UICONTROL Activate Custom Flighting]:** Permite crear vuelos de ritmo desigual para el paquete en el [!UICONTROL Flighting] más abajo. Una vez que habilite el vuelo personalizado y guarde el paquete, no podrá deshabilitar el vuelo personalizado ni editar la fecha de inicio del paquete.
 
 **[!UICONTROL Budget]:** (Paquetes con solo ritmo de nivel de paquete) El límite presupuestario bruto y el intervalo presupuestario.
 
