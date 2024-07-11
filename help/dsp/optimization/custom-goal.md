@@ -3,9 +3,9 @@ title: Objetivos personalizados
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
+source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Los siguientes ejemplos muestran cómo se pueden configurar objetivos dirigidos 
 
 #### Ejemplo de una campaña con &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; Objetivo de optimización
 
-Si el objetivo de la campaña son los ingresos ([!UICONTROL Highest Return on Ad Spend (ROAS)]), y los ingresos de todos los tipos de dispositivos son igualmente importantes para usted, a continuación, incluya el &quot;[!UICONTROL Revenue]&quot; con una ponderación no móvil (para conversiones desde un dispositivo no móvil) de uno (1) y una ponderación móvil (para conversiones desde un dispositivo móvil) de uno (1). Seleccionar el tipo de métrica *[!UICONTROL Goal]*.
+Si el objetivo de la campaña son los ingresos ([!UICONTROL Highest Return on Ad Spend (ROAS)]), y los ingresos de todos los tipos de dispositivos son igualmente importantes para usted, a continuación, incluya el &quot;[!UICONTROL Revenue]&quot; con un peso no móvil de uno (1); se ignora el peso móvil. Seleccionar el tipo de métrica *[!UICONTROL Goal]*.
 
 <!-- update image or delete 
 
@@ -90,13 +90,11 @@ Si el objetivo de la campaña son los ingresos ([!UICONTROL Highest Return on Ad
 
 >[!NOTE]
 >
-> Un peso móvil o peso no móvil de uno (1) equivale a un valor de uno (1) por cada $1 de ingresos que se rastrea.
->
-> Por ejemplo, una conversión de 250 $ con una ponderación no móvil de uno (1) se registra como 250 $ para las conversiones. Si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, la conversión de 250 $ desde un dispositivo no móvil se registra como 125 $ en Adobes Advertising (conversión de 250 $ * 0,5 [!UICONTROL Non-mobile Weight] = 125 $).
+> Un peso no móvil de uno (1) equivale a un valor de uno (1) por cada $1 de ingresos que se rastrean para mostrar anuncios en cualquier dispositivo. Por ejemplo, una conversión de 250 $ con una ponderación no móvil de uno (1) se registra como 250 $ para las conversiones. Si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, la conversión de 250 $ se registra como 125 $ en Adobes Advertising (conversión de 250 $ * 0,5 [!UICONTROL Non-mobile Weight] = 125 $).
 
 #### Ejemplo de una campaña con &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; Objetivo de optimización
 
-Si el objetivo de la campaña es el menor coste por adquisición (CPA) y solo requiere un evento de éxito (como &quot;Envío de solicitud&quot;), incluya esa métrica y especifique el tipo de métrica como *[!UICONTROL Goal]*. La práctica recomendada es establecer tanto el peso no móvil como el peso móvil como uno (1).
+Si el objetivo de la campaña es el menor coste por adquisición (CPA) y solo requiere un evento de éxito (como &quot;Envío de solicitud&quot;), incluya esa métrica y especifique el tipo de métrica como *[!UICONTROL Goal]*. La práctica recomendada es establecer el peso no móvil como uno (1); se ignora el peso móvil.
 
 <!-- update image or delete 
 
@@ -106,13 +104,13 @@ Si el objetivo de la campaña es el menor coste por adquisición (CPA) y solo re
 
 >[!NOTE]
 >
-> Una ponderación móvil o no móvil de uno (1) equivale a un valor de uno (1) para cada conversión de la que se realiza un seguimiento. Por ejemplo, si se realiza el seguimiento de 10 conversiones de envío de aplicaciones, se informa de 10 conversiones de envío de aplicaciones. Sin embargo, si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, las 10 conversiones no móviles se registran como cinco (5) en Adobes Advertising (10 Conversiones * 0,5 [!UICONTROL Non-mobile Weight] = 5).
+> Una ponderación no móvil de uno (1) equivale a un valor de uno (1) para cada conversión de la que se realiza un seguimiento de los anuncios en pantalla de cualquier dispositivo. Por ejemplo, si se realiza el seguimiento de 10 conversiones de envío de aplicaciones, se informa de 10 conversiones de envío de aplicaciones. Sin embargo, si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, las 10 conversiones se registran como cinco (5) en Adobes Advertising (10 Conversiones * 0,5 [!UICONTROL Non-mobile Weight] = 5).
 
 ### Objetivos personalizados con varias métricas
 
 Hay dos escenarios en los que utilizaría varias métricas en un objetivo personalizado:
 
-* El objetivo de la campaña tiene varios eventos de éxito. Por ejemplo, es posible que esté anunciando más de una acción en el sitio (descarga de PDF, contacto con nosotros y registro por correo electrónico) y todas son acciones que contribuyen a su objetivo de CPA. Si el objetivo incluye las tres métricas independientes, cada una con pesos móviles y no móviles de uno (1), la variable [!DNL Adobe Sensei] Este algoritmo trata cada una de las métricas y tipos de dispositivos de usuario con la misma importancia. Si las distintas métricas y tipos de dispositivos tienen distintos costes o importancia, ajuste sus pesos relativos en consecuencia.
+* El objetivo de la campaña tiene varios eventos de éxito. Por ejemplo, es posible que esté anunciando más de una acción en el sitio (descarga de PDF, contacto con nosotros y registro por correo electrónico) y todas son acciones que contribuyen a su objetivo de CPA. Si el objetivo incluye las tres métricas independientes, cada una con pesos no móviles de uno (1), la variable [!DNL Adobe Sensei] Este algoritmo trata cada una de las métricas y tipos de dispositivos de usuario con la misma importancia. Si las distintas métricas tienen distintos costes o importancia, debe ajustar sus pesos relativos en consecuencia.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -124,7 +122,7 @@ Hay dos escenarios en los que utilizaría varias métricas en un objetivo person
 
   Cuando añada métricas de soporte a un objetivo personalizado, pongúrelas según su importancia relativa al evento de éxito principal y tenga en cuenta la cantidad de puntos de datos. Esto permite que el algoritmo de Adobe Sensei equilibre varias métricas y las optimice para alcanzar su objetivo.
 
-  El siguiente objetivo de ejemplo incluye tres métricas, cada una con un peso diferente para los dispositivos no móviles: Envío de aplicación = 1, Inicio de aplicación = 0,1 y Página de aterrizaje del anunciante = 0,01. Esto significa que cada conversión de envío de aplicación desde dispositivos no móviles tiene el mismo valor para su empresa que un promedio de 10 conversiones de inicio de aplicación desde dispositivos no móviles y 100 conversiones de página de aterrizaje del anunciante desde dispositivos no móviles.
+  El siguiente objetivo de ejemplo incluye tres métricas, cada una con un peso diferente para los dispositivos no móviles: Envío de aplicación = 1, Inicio de aplicación = 0,1 y Página de aterrizaje del anunciante = 0,01. Esto significa que cada conversión de envío de solicitud tiene para su empresa el mismo valor que un promedio de 10 conversiones de inicio de solicitud y 100 conversiones de página de aterrizaje del anunciante.
 
 <!-- update image or delete it and adjust the wording above
 
