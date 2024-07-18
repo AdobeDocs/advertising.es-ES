@@ -1,38 +1,32 @@
 ---
 title: Habilitar la carga de objetivos en las redes de publicidad
-description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft Advertising].
+description: Aprenda a cargar los objetivos de sus portafolios híbridos en  [!DNL Google Ads] y [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
+source-git-commit: f491537c2dd56716abe0ab4fa8c26b8558dca664
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
 
 # Habilitar la carga de objetivos en las redes de publicidad
 
-*Anunciantes con [!DNL Google Ads] y [!DNL Microsoft Advertising] solo cuentas*
+*Anunciantes con [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas solamente*
 
-*Anunciantes habilitados solo para la optimización híbrida*
+*Solo anunciantes habilitados para la optimización híbrida*
 
-Search, Social y Commerce pueden cargar los objetivos de los portafolios de una cuenta de anunciante en [!DNL Google Ads] y [!DNL Microsoft Advertising] para que pueda utilizarlos para la optimización híbrida. Los objetivos cargados están disponibles como acciones de conversión para los objetivos de conversión personalizados de nivel de cuenta y de campaña.
+Search, Social y Commerce pueden cargar los objetivos de los portafolios de una cuenta de anunciante en [!DNL Google Ads] y [!DNL Microsoft Advertising] para que pueda utilizarlos en la optimización híbrida. Los objetivos cargados están disponibles como acciones de conversión para los objetivos de conversión personalizados de nivel de cuenta y de campaña.
 
-Al habilitar esta opción, se almacenarán automáticamente en déclencheur las cargas para los objetivos de los portafolios que contengan campañas con estrategias de oferta inteligente. Search, Social y Commerce crean una conversión en la red de anuncios para cada objetivo aplicable. La conversión representa todas las métricas de conversión ponderadas en el objetivo a nivel de EF ID (ID de clic). Para [!DNL Google Ads] clics, el ID de EF es el [!DNL Google Ads] `gclid`; para [!DNL Microsoft Advertising] clics, el ID de EF es el [!DNL Microsoft Advertising] `msclkid`. Debido a este ID de clic, los datos de conversión se pueden asignar a la palabra clave específica y a la hora del clic.
+Al habilitar esta opción, se almacenarán automáticamente en déclencheur las cargas para los objetivos de los portafolios que contengan campañas con estrategias de oferta inteligente. Search, Social y Commerce crean una conversión en la red de anuncios para cada objetivo aplicable. La conversión representa todas las métricas de conversión ponderadas en el objetivo a nivel de EF ID (ID de clic). Para [!DNL Google Ads] clics, el identificador EF es [!DNL Google Ads] `gclid`; para [!DNL Microsoft Advertising] clics, el identificador EF es [!DNL Microsoft Advertising] `msclkid`. Debido a este ID de clic, los datos de conversión se pueden asignar a la palabra clave específica y a la hora del clic.
 
-Cada conversión cargada tiene uno de los siguientes nombres:
+Cada conversión cargada tiene el siguiente nombre:
 
-* `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
+`O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
-  donde `<network_ID>` es el ID numérico que Search, Social y Commerce utilizan para la red de publicidad, `<objective_id>` es el ID de objetivo numérico, y `<network_account_ID>` es el identificador numérico de la cuenta de red de publicidad o de la cuenta de administrador.
+donde `<network_ID>` es el identificador numérico que Search, Social y Commerce usa para la red de anuncios, `<objective_id>` es el identificador de objetivo numérico y `<network_account_ID>` es el identificador numérico para la cuenta de administrador o la cuenta de red de anuncios.
 
-* (Formato antiguo que quedará obsoleto en el futuro) `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`
-
-  donde `<portfolio_id>` es el ID de portafolio numérico y `<se_acctid/conversion_manager_se_acctid>` es el identificador numérico de la cuenta de red de publicidad o de la cuenta de administrador.
-
-  El equipo de cuenta de Adobe trabajará con usted para migrar los nombres de acción de conversión existentes dentro de la red de publicidad antes de que el formato antiguo quede obsoleto. Durante el periodo de migración, las cargas de formato antiguo y nuevo se ejecutarán en paralelo. El modelado y la optimización no se ven afectados porque las nuevas acciones de conversión aparecen inicialmente con estado &quot;secundario&quot; (no optimizado) y con 90 días de datos de relleno.
-
-Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horario del anunciante. Cargas en [!DNL Microsoft Advertising] se producen diariamente a las 09:00 en el huso horario del anunciante.
+Las cargas a [!DNL Google Ads] se producen a diario a las 06:00 en el huso horario del anunciante. Las cargas a [!DNL Microsoft Advertising] se producen a diario a las 09:00 en el huso horario del anunciante.
 
 >[!IMPORTANT]
 >
@@ -40,23 +34,23 @@ Cargas en [!DNL Google Ads] se producen diariamente a las 06:00 en el huso horar
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
-1. Seleccione la casilla de verificación situada junto a **[!UICONTROL Enable Objective Upload]**.
+1. Active la casilla de verificación situada junto a **[!UICONTROL Enable Objective Upload]**.
 
-1. (Anunciantes con [!DNL Google Ads] cuentas que realizan negocios en el Espacio Económico Europeo (EEE) o en el Reino Unido (Reino Unido); opcional) Si ha obtenido el consentimiento de los usuarios de EEE y del Reino Unido para cargar sus datos con fines publicitarios, active la casilla de verificación situada junto a **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (Anunciantes con cuentas de [!DNL Google Ads] que realizan negocios en el Espacio Económico Europeo (EEE) o en el Reino Unido (Reino Unido); opcional) Si ha recopilado el consentimiento de usuarios de EEE y Reino Unido para cargar sus datos con fines publicitarios, active la casilla de verificación situada junto a **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
-1. Clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
-1. (Si las conversiones se rastrean en el nivel de cuenta de responsable) [Añadir credenciales para la cuenta de responsable](/help/search-social-commerce/admin/manager-accounts.md) en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. (Si las conversiones se rastrean en el nivel de cuenta de administrador) [Agregue credenciales para la cuenta de administrador](/help/search-social-commerce/admin/manager-accounts.md) en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
-1. Verificar que cada objetivo (denominado) `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — aparece en un plazo de dos días en la red de anuncios.
+1. Compruebe que cada objetivo (denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`) aparece en un plazo de dos días en la red publicitaria.
 
-   En el [!DNL Google Ads] editor, busque su [acciones de conversión](https://support.google.com/google-ads/answer/11461796). En el [!DNL Microsoft Advertising] editor, busque su [objetivos de conversión](https://help.ads.microsoft.com/#apex/ads/en/56709).
+   En el editor [!DNL Google Ads], busque sus [acciones de conversión](https://support.google.com/google-ads/answer/11461796). En el editor [!DNL Microsoft Advertising], busque sus [metas de conversión](https://help.ads.microsoft.com/#apex/ads/en/56709).
 
    Si es necesario, actualice el intervalo de fechas para incluir la fecha de carga.
 
 ## Cálculo del objetivo ponderado
 
-El objetivo ponderado que se pasa a la red de anuncios es la suma de todos los valores de métricas recopilados, con la excepción de las conversiones rastreadas por [!DNL Google Ads] o por el [!DNL Microsoft Advertising] etiqueta universal event tracking (UET). El valor se calcula mediante el método de atribución configurado para la cuenta de Search, Social y Commerce del anunciante.
+El objetivo ponderado que se pasa a la red de anuncios es la suma de todos los valores de métricas recopilados, con la excepción de las conversiones rastreadas por [!DNL Google Ads] o por la etiqueta de seguimiento universal de eventos (UET) [!DNL Microsoft Advertising]. El valor se calcula mediante el método de atribución configurado para la cuenta de Search, Social y Commerce del anunciante.
 
 Por ejemplo, supongamos que la métrica de objetivos del objetivo es Adiciones al carro de compras con un peso de 25, y las métricas de asistencia incluyen GGL_Lead e Ingresos con pesos de 1 y Descargas con un peso de 0,5.
 
@@ -73,17 +67,15 @@ GGL_Lead no se incluye en el cálculo/carga porque es una métrica rastreada en 
 
 >[!TIP]
 >
->Puede ver los datos de los ingresos ponderados en función de los Adobes Advertising en los informes de la red publicitaria. Como práctica recomendada, compare los ingresos ponderados con el [!DNL Google Ads] &quot;Todos los conv. (por conversión. tiempo)&quot; para la métrica [!DNL Microsoft Advertising] métrica &quot;Todas las conv. ingresos&quot;, segmentado con la métrica O_ACS_OBJ*.<!--clarify -->
-
-En el editor de la red de anuncios
+>Puede ver los datos de los ingresos ponderados en función de los Adobes Advertising en los informes de la red publicitaria. Se recomienda comparar los ingresos ponderados con los [!DNL Google Ads] &quot;Todos los convertidores. (por conversión. hora)&quot; o la métrica [!DNL Microsoft Advertising] &quot;Todas las conversiones&quot;. ingresos&quot;, segmentado a la métrica O_ACS_OBJ*.<!--clarify -->
 
 ## Solución de problemas de objetivos perdidos
 
-Si el objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` — si uno de sus portafolios no aparece en la red de anuncios, compruebe lo siguiente:
+Si el objetivo, denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`, de uno de sus portafolios no aparece en la red de anuncios, compruebe lo siguiente:
 
 * ([!DNL Google Ads]) Compruebe si las conversiones deben cargarse en el nivel de cuenta o administrador. Si deben cargarse en el nivel de responsable:
 
-   * Compruebe si las credenciales de la [!DNL Google Ads] la cuenta del responsable se proporciona en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Si es necesario, [añadir las credenciales de la cuenta de responsable](/help/search-social-commerce/admin/manager-accounts.md).
+   * Compruebe si las credenciales de la cuenta de administrador de [!DNL Google Ads] se proporcionan en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Si es necesario, [agregue las credenciales para la cuenta de administrador](/help/search-social-commerce/admin/manager-accounts.md).
 
    * Compruebe si la cuenta de red de publicidad ya incluye el mismo nombre de métrica. Si es así, cambie el nombre de la métrica para que se pueda crear la propiedad correcta en el nivel de administrador.
 
@@ -92,4 +84,4 @@ Si el objetivo — denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_ac
 >[!MORELIKETHIS]
 >
 >* [Acerca de la administración de las métricas de conversión de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
->* [Cargar métricas de conversión en [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
+>* [Cargar métricas de conversión a [!DNL Google Ads]](conversion-metrics-upload-to-google.md)
