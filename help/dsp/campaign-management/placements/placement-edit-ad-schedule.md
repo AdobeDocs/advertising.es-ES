@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Editar los horarios de anuncios de una o más ubicaciones
 
-Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad de los anuncios adjuntos a varias ubicaciones mediante una [!DNL Microsoft Excel] hoja de cálculo. Cada anuncio puede estar activo durante varios vuelos.
+Puede cambiar las fechas de vuelo programadas y la rotación de anuncios de los anuncios adjuntos a varias ubicaciones mediante una hoja de cálculo de [!DNL Microsoft Excel]. Cada anuncio puede estar activo durante varios vuelos.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -34,11 +34,11 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad de
 
    * **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (como [!UICONTROL Flight 1 Start Date] y [!UICONTROL Flight 1 End Date]): Las primeras y últimas fechas del vuelo. Utilice el formato AAAA-MM-DD para cada fecha. Todos los anuncios con campos de fecha de vuelo vacíos se tratan como anuncios no participantes.
 
-   * **[!UICONTROL Flight N Weight]** (como [!UICONTROL Flight 1 Weight]): Cómo girar los anuncios de un vuelo. Introduzca un valor:
+   * **[!UICONTROL Flight N Weight]** (como [!UICONTROL Flight 1 Weight]): cómo girar los anuncios de un vuelo. Introduzca un valor:
 
-      * Para rotar los anuncios de un vuelo uniformemente, escriba `[!UICONTROL Even]`.
+      * Para rotar los anuncios de un vuelo uniformemente, ingrese `[!UICONTROL Even]`.
 
-      * Para rotar los anuncios de un vuelo de forma desigual, introduzca el peso relativo por el que desea rotar cada anuncio como porcentaje (por ejemplo, `40` para el 40 %). El peso total del vuelo debe ser igual a 100.
+      * Para rotar los anuncios de un vuelo de forma desigual, escriba el peso relativo por el que desea rotar cada anuncio, como porcentaje (por ejemplo, `40` para el 40 %). El peso total del vuelo debe ser igual a 100.
 
 1. Cargue la plantilla de programación de anuncios editada:
 
@@ -58,17 +58,17 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad pa
 
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 
-1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
 1. Realice una de las siguientes acciones:
 
-   * Para añadir un vuelo, haga clic en **[!UICONTROL Add Flight]** y, a continuación, especifique la fecha de inicio y la fecha final.
+   * Para agregar un vuelo, haga clic en **[!UICONTROL Add Flight]** y después especifique la fecha de inicio y la fecha de finalización.
 
-   * Para añadir un vuelo existente a un anuncio, haga clic en **[!UICONTROL +]** en la fila ad de la columna flight.
+   * Para agregar un vuelo existente a un anuncio, haga clic en **[!UICONTROL +]** en la fila de anuncio de la columna vuelo.
 
-   * Para eliminar un vuelo existente de un anuncio, haga clic en **[!UICONTROL x]** en la fila ad de la columna flight.
+   * Para eliminar un vuelo existente de un anuncio, haga clic en **[!UICONTROL x]** en la fila de anuncio de la columna vuelo.
 
-      * (Cuando varios anuncios tienen el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, introduzca el peso relativo por el que girar cada anuncio, como porcentaje.
+      * (Cuando varios anuncios tengan el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, especifique el peso relativo por el que desea rotar cada anuncio, como porcentaje.
 
         El peso total debe ser igual a 100.
 
@@ -78,7 +78,7 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad pa
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de ubicación](placement-about.md)
+>* [Acerca de la administración de ubicaciones](placement-about.md)
 >* [Editar ubicaciones](placement-edit.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)

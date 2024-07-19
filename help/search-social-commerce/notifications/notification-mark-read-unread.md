@@ -1,9 +1,9 @@
 ---
 title: Marcar una notificación como leída o no leída
 description: Obtenga información sobre cómo indicar si ha leído o no una notificación.
-exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+exl-id: b6f35d37-819c-489d-aca6-a0753e82e7fd
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Marcar una notificación como leída o no leída
 
-*Función beta*
+*Característica de Beta*
 
-Marcar una notificación como *leer* o *no leído* cambia el número de notificaciones no leídas indicadas en la [!UICONTROL Notifications] en la parte superior de cada página (por ejemplo, ![Icono de notificaciones con contador de notificaciones no leídas](/help/search-social-commerce/assets/notifications-unread.png "Icono de notificaciones con contador de notificaciones no leídas")).
+Al marcar una notificación como *leída* o *no leída*, se cambia el número de notificaciones no leídas que se indican en el vínculo [!UICONTROL Notifications] en la parte superior de cada página (como el icono ![Notificaciones con el contador de notificaciones no leídas](/help/search-social-commerce/assets/notifications-unread.png "Icono de notificaciones con el contador de notificaciones no leídas")).
 
-Notificaciones marcadas como *leer* están en un texto de color más claro, pero permanecerán disponibles hasta que los elimine.
+Las notificaciones marcadas como *leer* aparecen en un texto de color más claro, pero permanecerán disponibles hasta que las elimine.
 
 ![Notificaciones leídas y no leídas](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Notificaciones leídas y no leídas")
 
@@ -27,8 +27,8 @@ Notificaciones marcadas como *leer* están en un texto de color más claro, pero
 >[!MORELIKETHIS]
 >
 >* [Acerca de las notificaciones](/help/search-social-commerce/notifications/notification-about.md)
->* [Ver las notificaciones](notification-view.md)
->* [Eliminación de una notificación](notification-delete.md)
+>* [Ver tus notificaciones](notification-view.md)
+>* [Eliminar una notificación](notification-delete.md)
 >* [Editar la configuración de notificaciones](notification-edit.md)
->* [Habilitar y deshabilitar notificaciones push desde [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [Instale y desinstale el [!UICONTROL Notification Center] aplicación web](notification-app-install-uninstall.md)
+>* [Habilitar y deshabilitar las notificaciones push desde [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [Instalar y desinstalar la aplicación web [!UICONTROL Notification Center]](notification-app-install-uninstall.md)

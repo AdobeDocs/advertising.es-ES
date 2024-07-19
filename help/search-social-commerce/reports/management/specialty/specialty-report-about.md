@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Acerca de los informes especiales
 
-La mayoría de los informes de especialidades consisten únicamente en datos recopilados por las redes de anuncios. El [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report], y [!UICONTROL Campaign Impression Share Report], sin embargo, puede incluir datos de ingresos recopilados por [!DNL Adobe]. Los informes especiales están disponibles para todos los usuarios.
+La mayoría de los informes de especialidades consisten únicamente en datos recopilados por las redes de anuncios. Sin embargo, [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report] y [!UICONTROL Campaign Impression Share Report] pueden incluir datos de ingresos recopilados por [!DNL Adobe]. Los informes especiales están disponibles para todos los usuarios.
 
 >[!NOTE]
 >
->Para la mayoría de los informes de especialidades, los datos se recuperan todos los días el día anterior a las 23:00 (11:00 p.m.). Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00. Esta sincronización de datos se aplica a todos los [!DNL Google Ads] informes de especialidad y al [!UICONTROL Bing Ads Geo Report] y [!UICONTROL Bing Ads Search Query Report].
+>Para la mayoría de los informes de especialidades, los datos se recuperan todos los días el día anterior a las 23:00 (11:00 p.m.). Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00. Esta sincronización de datos se aplica a todos los informes especiales de [!DNL Google Ads] y a [!UICONTROL Bing Ads Geo Report] y [!UICONTROL Bing Ads Search Query Report].
 
 ## Tipos de informes especiales
 
@@ -52,6 +52,6 @@ La mayoría de los informes de especialidades consisten únicamente en datos rec
 
 >[!MORELIKETHIS]
 >
->* [Generar un informe de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [Generar informe de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 >* [Configuración de informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
->* [Columnas de informes para informes de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [Columnas de informes para informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

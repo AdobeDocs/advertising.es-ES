@@ -16,7 +16,7 @@ Puede recuperar informes mensuales de los ID que los clientes han enviado para s
 
 >[!NOTE]
 >
->DSP Si lo desea, puede recuperar informes de exclusión de venta de consumidores mediante la opción de acceso a la lista de informes de [!DNL Trafficking API]. Para obtener instrucciones, consulte la documentación de [!DNL Trafficking API]. Si su organización no utiliza el [!DNL Trafficking API] Si desea obtener más información, póngase en contacto con el equipo de cuenta de Adobe.
+>DSP Si lo desea, puede recuperar informes de exclusión de venta de consumidores mediante el uso de la opción [!DNL Trafficking API] de la lista de informes de la lista de distribución de los clientes Para obtener instrucciones, consulte la documentación de [!DNL Trafficking API]. Si su organización no utiliza [!DNL Trafficking API] pero está interesada en obtener más información, póngase en contacto con el equipo de cuenta de Adobe.
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 1. Sobre la lista de segmentos, haga clic en **[!UICONTROL Access CCPA Reports]**.
@@ -24,8 +24,7 @@ Puede recuperar informes mensuales de los ID que los clientes han enviado para s
 
 >[!MORELIKETHIS]
 >
->* [Adobe Compatibilidad con publicidad para la Ley de Privacidad del Consumidor de California: Compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Acerca de [!UICONTROL CCPA Opt-out-of-Sale] Segmentos e informes](ccpa-opt-out-about.md)
->* [Creación e implementación de un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
->* [Acerca de Audience Management](audience-about.md)
-
+>* [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Acerca de [!UICONTROL CCPA Opt-out-of-Sale] segmentos e informes](ccpa-opt-out-about.md)
+>* [Crear e implementar un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
+>* [Acerca de la administración de audiencias](audience-about.md)

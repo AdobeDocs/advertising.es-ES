@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Baidu] configuración de campaña"'
-description: Haga referencia a la configuración de [!DNL Baidu] campañas.
-exl-id: 842df637-e7dc-4493-bcdb-a29b478cd350
+title: '[!DNL Baidu] configuración de campaña'
+description: Hacer referencia a la configuración de  [!DNL Baidu] campañas.
+exl-id: bc8ec4e2-4b40-4c9d-8223-29143fe63784
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## \[Pantalla de creación de campaña\]
 
-**[!UICONTROL Campaign Type]:** (Disponible solo durante la creación de la campaña) Dónde colocar los anuncios. La única es *Buscar solo en la red*.
+**[!UICONTROL Campaign Type]:** (disponible solo durante la creación de la campaña) Dónde colocar los anuncios. El único es *Buscar solo en la red*.
 
 ## [!UICONTROL Campaign Details]
 
@@ -23,11 +23,11 @@ ht-degree: 0%
 **[!UICONTROL Ad Serving]:**
 La frecuencia con la que el motor de búsqueda envía los anuncios activos en relación con los demás dentro de un grupo de anuncios:
 
-* *[!UICONTROL Rotate]* (la opción predeterminada para las nuevas campañas): Cada uno de los anuncios tiene la misma probabilidad de entrar en la subasta de anuncio.
+* *[!UICONTROL Rotate]* (predeterminado para nuevas campañas): cada uno de los anuncios tiene la misma probabilidad de entrar en la subasta de anuncio.
 
-* *[!UICONTROL Optimize]:*  La red de anuncios favorece los anuncios que tienen un mejor rendimiento. Esto puede no ser coherente con sus objetivos empresariales y de optimización.
+* *[!UICONTROL Optimize]:* La red de anuncios favorece los anuncios que tienen un mejor rendimiento. Esto puede no ser coherente con sus objetivos empresariales y de optimización.
 
-**[!UICONTROL Status]:** El estado de visualización de la campaña: *Activo* o *Pausado*. El valor predeterminado para las nuevas campañas de publicidad es *Activo*.
+**[!UICONTROL Status]:** El estado de visualización de la campaña: *Activo* o *En pausa*. El valor predeterminado para las nuevas campañas de publicidad es *Activo*.
 
 ## [!UICONTROL Budget Options]
 
@@ -83,4 +83,4 @@ La frecuencia con la que el motor de búsqueda envía los anuncios activos en re
 
 >[!MORELIKETHIS]
 >
->* [Administración de campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [Administrar campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

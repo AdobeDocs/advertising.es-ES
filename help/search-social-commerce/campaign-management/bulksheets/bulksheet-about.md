@@ -24,13 +24,13 @@ Todas las hojas de edición masiva, los archivos de error de validación de pág
 
 ## Funcionalidad por red de anuncios
 
-* **Descargar, cargar y publicar:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], y [!DNL Yandex] cuentas
+* **Descargar, cargar y publicar:** cuentas de [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] y [!DNL Yandex]
 
-* **Descargar y cargar solo:** [!DNL Naver] cuentas
+* **Descargar y cargar solamente:** [!DNL Naver] cuentas
 
-  Puede cargar [!DNL Naver] datos para usar en Search, Social y Commerce, pero no pueden publicarlos en la red de anuncios. También puede descargar los datos existentes (sin sincronizar).
+  Puede cargar [!DNL Naver] datos para usarlos en Search, Social y Commerce, pero no puede publicarlos en la red de anuncios. También puede descargar los datos existentes (sin sincronizar).
 
-* **Descargar solo datos:**  [!DNL Pinterest], [!DNL Yahoo Native], y [!DNL Yahoo! Display Network] cuentas
+* **Descargar solo datos:** cuentas de [!DNL Pinterest], [!DNL Yahoo Native] y [!DNL Yahoo! Display Network]
 
   Puede descargar los datos existentes (no sincronizados).
 
@@ -44,15 +44,15 @@ Los pasos estándar para utilizar hojas de edición masiva para cuentas sincroni
 
 1. [Descargue datos de una o más cuentas, campañas o grupos de anuncios en un archivo de hoja de edición por lotes](bulksheet-download.md). De forma opcional, puede rellenar manualmente una hoja de edición masiva específica de la red de anuncios y cargar el archivo.
 
-1. [Validación de las páginas de aterrizaje](bulksheet-validate-landing-pages.md) en las direcciones URL base (final) o de destino en el archivo.
+1. [Valide las páginas de aterrizaje](bulksheet-validate-landing-pages.md) en las direcciones URL base (final) o en las direcciones URL de destino del archivo.
 
 1. Cuando necesite añadir datos o realizar correcciones:
 
-   1. [Exportación del archivo](bulksheet-export.md) a su escritorio y edítelo en [!DNL Microsoft Excel].
+   1. [Exporte el archivo](bulksheet-export.md) a su escritorio y edítelo en [!DNL Microsoft Excel].
 
-   1. [Cargar manualmente el archivo editado](bulksheet-upload.md) a Buscar, Social y Commerce, o [cargar el archivo en una cuenta de FTP específica](bulksheet-ftp-account.md) para el registro automático.
+   1. [Cargue manualmente el archivo editado](bulksheet-upload.md) en Search, Social y Commerce, o [cargue el archivo en una cuenta de FTP especificada](bulksheet-ftp-account.md) para su publicación automática.
 
-1. (Para archivos cargados manualmente) [Publicar el archivo](bulksheet-post.md) a la red de publicidad a medida que la carga o más tarde.
+1. (Para archivos cargados manualmente) [Publique el archivo](bulksheet-post.md) en la red de publicidad a medida que lo cargue o más tarde.
 
 1. (Si es necesario) Descargue los nuevos archivos de error, corrija las filas y vuelva a publicar el archivo.
 
@@ -62,13 +62,13 @@ Search, Social y Commerce cargan y publican tantas filas de datos como puedan de
 
 Cuando se producen errores durante la operación de la hoja de edición masiva, se genera uno de los dos tipos siguientes de archivos de error:
 
-* **[!UICONTROL EF Errors]:**  Cuando no se puede cargar o procesar un archivo o filas individuales del archivo, se llama a un archivo de error `<uploaded file name>_ef_errors.<extension used for the bulksheet>` se ha creado. Si el problema está en filas individuales, se incluyen esas filas, con una explicación de cada error para que se pueda corregir.
+* **[!UICONTROL EF Errors]:** Cuando no se puede cargar o procesar un archivo o filas individuales del archivo, se crea un archivo de error denominado `<uploaded file name>_ef_errors.<extension used for the bulksheet>`. Si el problema está en filas individuales, se incluyen esas filas, con una explicación de cada error para que se pueda corregir.
 
-* **[!UICONTROL SE Errors]:**  Cuando se publica un archivo pero la red publicitaria no acepta todos o algunos de los datos, aparece un archivo de error llamado `<uploaded file name>_se_errors.<extension used for the bulksheet>` se ha creado. Cuando se aceptan algunas filas, pero no todas, el archivo de error muestra las filas que no se publicaron y una explicación de cada error para que se pueda corregir. Los mensajes de error se muestran en las tres últimas columnas de cada fila.
+* **[!UICONTROL SE Errors]:** Cuando se publica un archivo pero la red publicitaria no acepta todos o algunos de los datos, se crea un archivo de error denominado `<uploaded file name>_se_errors.<extension used for the bulksheet>`. Cuando se aceptan algunas filas, pero no todas, el archivo de error muestra las filas que no se publicaron y una explicación de cada error para que se pueda corregir. Los mensajes de error se muestran en las tres últimas columnas de cada fila.
 
 >[!NOTE]
 >
->Si publica alguna [!DNL Google Ads] anuncios que violan las políticas publicitarias de la red de anuncios, pero que pueden ser elegibles para exenciones, entonces esos anuncios se vuelven a publicar automáticamente con solicitudes de exención. Si la solicitud de exención falla, la información sobre la infracción se incluye en el archivo de error.
+>Si publica anuncios de [!DNL Google Ads] que violan las políticas publicitarias de la red de anuncios, pero que pueden ser elegibles para exenciones, esos anuncios se vuelven a publicar automáticamente con solicitudes de exención. Si la solicitud de exención falla, la información sobre la infracción se incluye en el archivo de error.
 
 Puede descargar cualquier tipo de archivo de error, realizar correcciones directamente en las filas y, a continuación, volver a cargar y publicar el archivo.
 
@@ -76,13 +76,13 @@ Los archivos de error se eliminan automáticamente pasados 30 días, a menos que
 
 ## Información sobre cada archivo
 
-Todos los archivos de datos descargados, los archivos cargados y los archivos de error están disponibles en [!UICONTROL Search] > [!UICONTROL Bulksheets].
+Todos los archivos de datos, archivos cargados y archivos de error descargados están disponibles en [!UICONTROL Search] > [!UICONTROL Bulksheets].
 
 La información de cada archivo incluye el estado actual de la tarea y el porcentaje de la tarea que se ha completado, la fecha en que se creó, (cuando corresponda) la fecha en la que se publicó o se publicará en la red de anuncios especificada, la fecha programada de eliminación y el nombre de inicio de sesión del usuario que inició la tarea.
 
 >[!MORELIKETHIS]
 >
->* [Descargar/crear un archivo de hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [Descargar o crear un archivo de hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
 >* [Cargar una hoja de edición masiva o un archivo de error corregido](bulksheet-upload.md)
->* [Publicación de hojas de edición masiva o archivos de error corregidos](bulksheet-post.md)
+>* [Publicar hojas de edición masiva o archivos de error corregidos](bulksheet-post.md)
 >* [Exportar un archivo de hoja de edición masiva generado o cargado](bulksheet-export.md)

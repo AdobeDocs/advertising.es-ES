@@ -1,9 +1,9 @@
 ---
 title: Cambiar el estado de las palabras clave y las palabras clave negativas
 description: Aprenda a cambiar el estado de las palabras clave y las palabras clave negativas.
-exl-id: c1562104-048e-486d-b20c-3c15f089324d
+exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -22,18 +22,18 @@ También puede eliminar palabras clave de búsqueda activas o en pausa, o palabr
 
 1. Active la casilla de verificación situada junto a cada palabra clave ofertable o palabra clave negativa cuyo estado desee cambiar.
 
-   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. En la barra de herramientas, haga clic en el botón de estado:
 
-   * (Solo palabras clave de oferta) Para activar las filas, haga clic en ![Activar](/help/search-social-commerce/assets/activate.png "Activar").
+   * (Solo palabras clave facturables) Para activar las filas, haga clic en ![Activar](/help/search-social-commerce/assets/activate.png "Activar").
 
-   * (Solo palabras clave de oferta) Para pausar las filas, haga clic en ![Pausar](/help/search-social-commerce/assets/pause.png "Pausar").
+   * (Solo palabras clave facturables) Para pausar las filas, haga clic en ![Pausar](/help/search-social-commerce/assets/pause.png "Pausar").
 
    * Para eliminar las filas, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y seleccione **[!UICONTROL Delete]**. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las palabras clave](keyword-about.md)
->* [Administrar palabras clave por puja](keyword-manage.md)
->* [Creación de palabras clave negativas](keyword-negative-create.md)
+>* [Administrar palabras clave de oferta](keyword-manage.md)
+>* [Crear palabras clave negativas](keyword-negative-create.md)

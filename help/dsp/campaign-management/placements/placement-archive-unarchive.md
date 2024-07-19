@@ -23,19 +23,19 @@ Puede desarchivar una ubicación para restaurar su estado anterior en cualquier 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
-1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Para ver las ubicaciones archivadas, filtre la variable [!UICONTROL Placements] vista: clic ![Botón Filtro](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Placement status]** y seleccione **[!UICONTROL Archived]** y haga clic en **[!UICONTROL Apply].**
+>Para ver las ubicaciones archivadas, filtre la vista [!UICONTROL Placements]: haga clic en ![Botón de filtro](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Placement status]** y seleccione **[!UICONTROL Archived]**, y después haga clic en **[!UICONTROL Apply].**
 
 ## Desarchivar una ubicación
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
-1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

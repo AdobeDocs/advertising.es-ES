@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
-*Función beta*
+*característica de Beta*
 
 La herramienta de planificación le ayuda a prever el alcance único a nivel doméstico de las ubicaciones de TV conectada (CTV) según el presupuesto especificado y los criterios de objetivo antes de comenzar a gastar en inventario. Después de evaluar varios planes de alcance, puede implementar el plan que mejor se ajuste a los resultados deseados en sus paquetes y ubicaciones.
 
@@ -26,16 +26,16 @@ Cada previsión consiste en una curva de previsión de alcance-presupuesto que m
 
 ![Previsión del planificador](/help/dsp/assets/planner-forecast.png "Previsión del planificador")
 
-El resultado de la previsión también incluye un [!UICONTROL Inventory Breakdown] que muestra cómo los distintos editores contribuyen a un alcance único, lo que ofrece valiosas oportunidades de descubrimiento.
+El resultado de la previsión también incluye una sección [!UICONTROL Inventory Breakdown] que muestra cómo los distintos editores contribuyen a un alcance único, lo que ofrece valiosas oportunidades de descubrimiento.
 
 >[!NOTE]
 >
->* El [!UICONTROL Inventory Breakdown] La sección muestra datos solo para los recursos privados y [!UICONTROL On Demand] inventario.
+>* La sección [!UICONTROL Inventory Breakdown] muestra datos solamente para el inventario privado y de [!UICONTROL On Demand].
 >* El alcance único estimado que se muestra para dos editores puede superponerse.
 
 ## La vista del planificador
 
-En el [!UICONTROL Planner] Vea, puede ver sus planes de alcance de CTV existentes y crear otros nuevos.
+En la vista [!UICONTROL Planner], puede ver los planes de alcance de CTV existentes y crear otros nuevos.
 
 También puede editar, duplicar, exportar, archivar o volver a generar la previsión de cualquier plan.
 
@@ -43,13 +43,13 @@ También puede editar, duplicar, exportar, archivar o volver a generar la previs
 
 +++¿Qué tipos de inventario admite la herramienta de planificación?
 
-La herramienta de planificación admite todo tipo de inventario, incluidos los programas garantizados (PG), mercado privado (PMP), [!UICONTROL On Demand], y pública. Para generar previsiones precisas, incluya acuerdos con al menos 50.000 impresiones en los últimos siete días.
+La herramienta Planificador es compatible con todos los tipos de inventario, incluidos los inventarios programáticos garantizados (PG), mercado privado (PMP), [!UICONTROL On Demand] y público. Para generar previsiones precisas, incluya acuerdos con al menos 50.000 impresiones en los últimos siete días.
 
 +++
 
-+++¿Por qué veo?&quot;[!UICONTROL Unable to generate forecast]?&quot;
++++¿Por qué veo &quot;[!UICONTROL Unable to generate forecast]?&quot;
 
-Una de las razones más comunes de este error es un presupuesto insuficiente o una oferta máxima. Para obtener los mejores resultados, utilice un presupuesto mínimo de 5000 USD. Si la variable [!UICONTROL Connected TV] Si el tipo de medio está seleccionado, introduce una puja máxima de al menos 10 USD.
+Una de las razones más comunes de este error es un presupuesto insuficiente o una oferta máxima. Para obtener los mejores resultados, utilice un presupuesto mínimo de 5000 USD. Si se selecciona el tipo de medio [!UICONTROL Connected TV], se debe introducir una puja máxima de al menos 10 dólares estadounidenses.
 
 Además, asegúrese de que los editores u ofertas incluidos estén activos y tengan actividad de impresión reciente.
 
@@ -69,15 +69,15 @@ El planificador genera previsiones basadas en los últimos datos observados, por
 
 +++¿Puedo guardar el resultado de previsión del planificador?
 
-Sí, puede exportar una previsión a un [!DNL Microsoft Excel] hoja de cálculo haciendo clic en **[!UICONTROL ...]** > **[!UICONTROL Export]** en la parte superior derecha. La hoja de cálculo captura la información mostrada en la curva de presupuesto de alcance utilizando dos columnas de datos: [!UICONTROL Budget] y [!UICONTROL Reach].
+Sí, puede exportar una previsión a una hoja de cálculo de [!DNL Microsoft Excel] haciendo clic en **[!UICONTROL ...]** > **[!UICONTROL Export]** en la parte superior derecha. La hoja de cálculo captura la información mostrada en la curva de presupuesto de alcance usando dos columnas de datos: [!UICONTROL Budget] y [!UICONTROL Reach].
 
 >[!MORELIKETHIS]
 >
->* [DSP Acerca de la herramienta Planificador de](planner-about.md)
+>* DSP [Acerca de la herramienta Planificador de](planner-about.md)
 >* [Crear un plan de alcance de TV conectado](planner-create.md)
 >* [Duplicar un plan de alcance de TV conectado](planner-duplicate.md)
 >* [Editar un plan de alcance de TV conectado](planner-edit.md)
 >* [Exportar un plan de alcance de TV conectado](planner-export.md)
->* [Regeneración de la Previsión para un Plan de Alcance de TV Conectado](planner-forecast.md)
+>* [Volver a generar la previsión para un plan de alcance de TV conectado](planner-forecast.md)
 >* [Archivar un plan de alcance de TV conectado](planner-archive.md)
->* [Configuración de los planes de alcance de TV conectado](planner-settings.md)
+>* [Configuración de los planes de alcance de TV conectados](planner-settings.md)

@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Ver un informe detallado de un anuncio
 
-El <!--legacy --> el informe de nivel de anuncio incluye [!UICONTROL Overview], [!UICONTROL Geography], y [!UICONTROL Viewability] datos.
+El informe de nivel de anuncio <!--legacy --> incluye datos de [!UICONTROL Overview], [!UICONTROL Geography] y [!UICONTROL Viewability].
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Ads]**.
-1. Junto al nombre del anuncio, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+1. Junto al nombre del anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >

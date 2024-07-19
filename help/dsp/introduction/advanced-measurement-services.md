@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Soluciones de medición avanzada
 
-Los anunciantes a menudo tienen dificultades para entender dónde se debe gastar su mejor próximo dólar de medios, o para cuantificar el impacto de sus anuncios en línea. En un panorama de medios impulsado por datos, la medición de atribución proporciona una solución a este desafío. El [!DNL Strategic Advertising Consulting] El equipo de ayuda a los socios de marca y agencia a medir cómo los elementos de su [!DNL Adobe] las conexiones cobran vida a través de la publicidad. Con sólidas ofertas de medición de atribución, el equipo ayuda a implementar estrategias de segmentación depuradas mediante un sofisticado marco de medición, lo que facilita a las marcas conectar sus decisiones de medios con resultados del mundo real que impulsan sus negocios. El equipo puede ayudarle a lo siguiente:
+Los anunciantes a menudo tienen dificultades para entender dónde se debe gastar su mejor próximo dólar de medios, o para cuantificar el impacto de sus anuncios en línea. En un panorama de medios impulsado por datos, la medición de atribución proporciona una solución a este desafío. El equipo [!DNL Strategic Advertising Consulting] ayuda a los socios de marca y agencia a medir cómo los elementos de sus conexiones [!DNL Adobe] cobran vida a través de la publicidad. Con sólidas ofertas de medición de atribución, el equipo ayuda a implementar estrategias de segmentación depuradas mediante un sofisticado marco de medición, lo que facilita a las marcas conectar sus decisiones de medios con resultados del mundo real que impulsan sus negocios. El equipo puede ayudarle a lo siguiente:
 
 * Activación de estudios de medición en campañas de medios digitales de canal completo
 
@@ -60,15 +60,15 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
   Cuantifique el impacto de la exposición a CTV y anuncios digitales en la generación de clics de búsqueda, conversiones de búsqueda y ROAS a nivel doméstico en los niveles de aplicación CTV, palabra clave de búsqueda, motor de búsqueda y audiencia y táctica personalizadas.
 
 
-* **[!DNL Dynata]Encuestas basadas en paneles**
+* **[!DNL Dynata]encuestas basadas en el panel**
 
   Realice encuestas de control/exposición para determinar el efecto de la exposición a la publicidad en métricas como la concienciación, la familiaridad y la intención.
 
-* **Tráfico a pie**
+* **Tráfico de pie**
 
   Comprenda la incrementalidad impulsada por la exposición a la publicidad y cómo la inversión en medios está causando cambios en el comportamiento de compra y las visitas incrementales con métricas como el efecto de incrementalidad, el coste por visita incremental y las perspectivas de visita.
 
-* **Información de transacción**
+* **Información de la transacción**
 
   Enriquezca su estrategia de campaña con datos de ventas deterministas de crédito y débito a través de análisis de segmentos, mercados competitivos y compradores.
 
@@ -76,7 +76,7 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
 
   Determinar la influencia de la exposición del anuncio en las ventas utilizando datos de ventas de crédito y débito sólidos y determinísticos.
 
-* **Diseñador de experimentos (prueba A/B)**
+* **Experimento Designer (prueba A/B)**
 
   Compare el comportamiento y la opinión de grupos de muestras aleatorios mutuamente excluyentes con pruebas A/B simples y limpias.
 
@@ -84,7 +84,7 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
 
 * **Cualquier vertical:**
 
-   * Diseñador de experimentos (pruebas A/B y placebo)
+   * Experimento Designer (prueba A/B y placebo)
 
    * Alcance y conversiones basados en personas
 
@@ -102,13 +102,13 @@ Los siguientes paquetes de soluciones de medición están disponibles para valid
 
      Cualquier cliente que busque medir la imagen y la percepción de la marca en varias pantallas; más adecuado para audiencias específicas
 
-* **QSR, Venta minorista (ladrillo y mortero):**
+* **QSR, comercial (ladrillo y mortero):**
 
    * Medida de transacción
 
    * Medición del tráfico de pies
 
-* **QSR, comercio minorista, viajes:**
+* **QSR, comercial, viajes:**
 
    * Información de transacción
 

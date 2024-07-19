@@ -22,7 +22,7 @@ Una oferta programática garantizada (PG) es una compra garantizada directamente
 * Normalmente, la oferta tiene una prioridad mayor en el servidor de publicidad del editor.
 * Las solicitudes de puja no son exclusivas de un único acuerdo o comprador.
 * Se admiten varios tipos de vídeo en un solo ID de oferta.
-* Los anuncios administrados por el editor se aceptan mediante [!DNL Google Authorized Buyers] SSP.
+* Los anuncios administrados por el publicador se aceptan a través del SSP de [!DNL Google Authorized Buyers].
 * Los SSP y los editores tienen SLA de entrega.
 
 DSP Las ofertas de PG requieren una ubicación y anuncios predeterminados de PG (o un píxel 1x1 para los anuncios administrados por el editor), de modo que los clientes puedan devolver una solicitud a cada solicitud de oferta y cumplir los SLA de entrega con los SSP. Una vez configurada la ubicación predeterminada de PG obligatoria, también puede segmentar la oferta de PG en otras ubicaciones.
@@ -41,5 +41,5 @@ DSP Las ofertas de PG requieren una ubicación y anuncios predeterminados de PG 
 >
 >* [Sugerencias para negociar un acuerdo garantizado programático](/help/dsp/inventory/programmatic-guaranteed-tips.md)
 >* [Configurar una oferta garantizada programática](programmatic-guaranteed-set-up.md)
->* [Socios de SSP](ssp-partners.md)
->* [Resumen de las Funciones de Inventario](inventory-overview.md)
+>* [Socios del SSP](ssp-partners.md)
+>* [Descripción general de las características de inventario](inventory-overview.md)

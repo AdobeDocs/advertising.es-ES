@@ -1,11 +1,11 @@
 ---
 title: Acerca de los informes básicos y avanzados
 description: Obtenga información acerca de informes básicos y avanzados personalizables.
-exl-id: 6224ee6d-72db-4524-9660-7fc0d57b5347
+exl-id: ecdafac5-3944-4c39-bd7c-8e3c9e6a3425
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -58,9 +58,10 @@ Los informes básicos muestran el coste real y los datos de clics de los portafo
 
 Los informes avanzados pueden ayudarle a tomar decisiones estratégicas sobre su estrategia publicitaria, ya que identifican dónde se beneficiaría al reconfigurar la segmentación geográfica o la configuración de red. También pueden ayudarle a validar los datos de conversión disponibles en Search, Social y Commerce con los datos de seguimiento de conversión internos del anunciante.
 
-Todos los usuarios pueden generar el [!UICONTROL Transaction Report], que muestra las transacciones individuales por palabra clave. Todos los demás informes avanzados utilizan datos capturados mediante el servicio de seguimiento de conversión de Adobe Advertising y solo se pueden generar para anunciantes con el servicio.
+Todos los usuarios pueden generar [!UICONTROL Transaction Report], que muestra las transacciones individuales por palabra clave. Todos los demás informes avanzados utilizan datos capturados mediante el servicio de seguimiento de conversión de Adobe Advertising y solo se pueden generar para anunciantes con el servicio.
 
-Todos los informes avanzados pueden incluir opcionalmente datos de conversión o cualquier otra métrica que cree. Los informes avanzados generados por el portafolio en lugar de por la red de anuncios muestran datos para campañas que están asignadas actualmente a los portafolios especificados. Los informes no incluyen datos para campañas que estaban en los portafolios durante el intervalo de fechas, pero que aún no están allí.
+Todos los informes avanzados pueden incluir opcionalmente datos de conversión o cualquier otra métrica que cree. Los informes avanzados generados por el portafolio en lugar de por la red de anuncios muestran datos para campañas que están asignadas actualmente a los portafolios especificados. Los informes
+no incluya datos para campañas que estaban en los portafolios durante el intervalo de fechas, pero que aún no están allí.
 
 ### Tipos de informes avanzados
 
@@ -72,6 +73,6 @@ Todos los informes avanzados pueden incluir opcionalmente datos de conversión o
 
 >[!MORELIKETHIS]
 >
->* [Generación de un informe básico o avanzado](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [Configuración de informes básica y avanzada](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
+>* [Generar un informe básico o avanzado](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [Configuración básica y avanzada del informe](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [Columnas de informes para informes básicos y avanzados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)

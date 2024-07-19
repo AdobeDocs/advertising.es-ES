@@ -18,9 +18,9 @@ Los usuarios administradores pueden anular la invitación de un usuario con una 
 
    * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y haga clic en **[!UICONTROL Edit users]**.
+   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y luego haga clic en **[!UICONTROL Edit users]**.
 
-1. En el **[!UICONTROL Invitations]** , haga clic en **[!UICONTROL X]** junto a la invitación.
+1. En la sección **[!UICONTROL Invitations]**, haga clic en **[!UICONTROL X]** junto a la invitación.
 
 >[!MORELIKETHIS]
 >

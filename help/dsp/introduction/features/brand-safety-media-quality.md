@@ -40,25 +40,25 @@ Puede establecer controles predeterminados de [!DNL ads.txt] para cada anunciant
 
 ### Vigilancia del fraude de Platform
 
-DSP ha creado sólidas herramientas y sistemas internos para administrar el fraude en toda nuestra plataforma, asociándose con proveedores líderes de la industria como [!DNL Whiteops] y [!DNL Integral Ad Science].
+DSP ha creado sólidas herramientas y sistemas internos para administrar el fraude en toda nuestra plataforma, en asociación con proveedores líderes del sector como [!DNL Whiteops] y [!DNL Integral Ad Science].
 
-Además, Adobe Systems trabaja en estrecha colaboración con [!DNL IAB] y [!DNL TAG] para garantizar un bloqueo de fraude sólido y estándar de la industria para proteger a nuestros anunciantes, aprovechando herramientas como [!DNL ads.txt] (consulte la sección anterior), el [!DNL IAB] lista Bots and Spiders y el lista de IP del [!DNL TAG] centro de datos.
+Además, Adobe trabaja estrechamente con [!DNL IAB] y [!DNL TAG] para garantizar un bloqueo de fraude sólido y estándar en el sector a fin de proteger a nuestros anunciantes, aprovechando herramientas como [!DNL ads.txt] (consulte la sección anterior), la lista de bots y arañas de [!DNL IAB] y la lista de IP del centro de datos [!DNL TAG].
 
-A través de nuestro enfoque multidimensional de la calidad, nuestro equipo monitorea anomalías y patrones de no válido tráfico, asegurando menos del 3% de no válido tráfico en inventario protegidos. Cualquier inventario que sea sospechosa, incluidos los inventario en dominios específicos o de editores o vendedores específicos, se bloquea inmediatamente en toda la plataforma.
+A través de nuestro enfoque multidimensional de la calidad, nuestro equipo supervisa las anomalías y los patrones de tráfico no válidos, lo que garantiza menos del 3% del tráfico no válido en el inventario protegido. Cualquier inventario que sea sospechoso, incluido el inventario de dominios específicos o de editores o vendedores específicos, se bloquea inmediatamente en toda la plataforma.
 
-### Mapeo, organización en niveles y categorización de inventario
+### Asignación de inventario, niveles y categorización
 
-El mapeo de inventario es la revisión detallada y el proceso de incorporación requerido para todos los nuevos inventario antes de que se agregue a nuestra plataforma. Este proceso está diseñado para garantizar la seguridad y la calidad de todos los inventario en DSP.
+La asignación de inventario es el proceso detallado de revisión e incorporación necesario para todo el nuevo inventario antes de que se añada a nuestra plataforma. DSP Este proceso está diseñado para garantizar la seguridad y la calidad de todo el inventario en el momento de la creación de la.
 
-* **Mapeo:** Nuestro equipo de inventario revisa cada dominio cuidadosamente, evaluando aspectos como:
+* **Asignación:** Nuestro equipo de inventario revisa cada dominio cuidadosamente, evaluando aspectos como:
 
    * Seguridad de marca
 
    * Verificación del tipo de anuncio
 
-   * contenido genéricos, dominios duplicado y servicio de publicidad falsos
+   * Contenido genérico, dominios duplicados y servicio de publicidad falsa
 
-* **Nivelación:** Examinamos holísticamente marca presencia en el ecosistema general para clasificar inventario en diferentes niveles. Puede [destino las ubicaciones](/help/dsp/campaign-management/placements/placement-settings.md) a estos niveles para alcanzar el nivel deseado:
+* **Asignación de niveles:** Examinamos de manera integral la presencia de la marca en el ecosistema general para clasificar el inventario en diferentes niveles. Puede [dirigir sus ubicaciones](/help/dsp/campaign-management/placements/placement-settings.md) a estos niveles para alcanzar el nivel deseado:
 
    * **[!UICONTROL T1]**: sitios reconocidos internacionalmente con nombre de marca
 
@@ -70,7 +70,7 @@ El mapeo de inventario es la revisión detallada y el proceso de incorporación 
 
 ### Soporte completo para el bloqueo de sitios
 
-DSP proporciona un lista de sitios bloqueados globalmente y la opción de crear listas personalizadas de sitios bloqueados para anunciantes y cuentas.
+DSP proporciona una lista de sitios bloqueados globalmente y la opción de crear listas de sitios bloqueados personalizadas para anunciantes y cuentas de.
 
 #### DSP Lista de sitios bloqueados globalmente {#global-blocked-sites}
 
@@ -96,13 +96,13 @@ El filtrado contextual le permite segmentar o bloquear las oportunidades publici
 
 Puede establecer controles de filtro contextual predeterminados para cada anunciante<!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> y, opcionalmente, [personalizar la configuración para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Se pueden aplicar tarifas adicionales al utilizar esta función.
 
-![Logotipo](/help/dsp/assets/comscore-logo.png) ![de Comscore Logotipo](/help/dsp/assets/doubleverify-logo.png) ![de DoubleVerify Logotipo](/help/dsp/assets/ias-logo.png) ![de Integral Ad Science Logotipo de Peer39](/help/dsp/assets/peer39-logo.png)
+![Logotipo de Comscore](/help/dsp/assets/comscore-logo.png) ![Logotipo de DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo integral de Ad Science](/help/dsp/assets/ias-logo.png) ![Logotipo de Peer39](/help/dsp/assets/peer39-logo.png)
 
-### Bloqueo de fraude previo a la oferta
+### Bloqueo por fraude antes de la puja
 
-Aproveche nuestras integraciones terceros con [!DNL DoubleVerify], [!DNL Integral Ad Science]y [!DNL Peer39] para bloquear tráfico no humanos de sus campañas. Estas integraciones proporcionan capacidades de bloqueo previo a la oferta líderes en la industria para minimizar los no válido tráfico generales y sofisticados (GIVT y SIVT) en sus campañas.
+Aproveche nuestras integraciones de terceros con [!DNL DoubleVerify], [!DNL Integral Ad Science] y [!DNL Peer39] para bloquear el tráfico que no sea humano de sus campañas. Estas integraciones proporcionan capacidades de bloqueo de oferta previas líderes en el sector para minimizar el tráfico no válido general y sofisticado (GIVT y SIVT) en sus campañas.
 
-Puede establecer controles predeterminados de bloqueo de fraude de ofertas previas para cada anunciante<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> y, opcionalmente, [personalizar la configuración para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Es posible que se apliquen tarifas adicionales al usar esta función.
+Puede establecer controles predeterminados de bloqueo de fraude de ofertas previas para cada anunciante<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> y, opcionalmente, [personalizar la configuración para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Se pueden aplicar tarifas adicionales al utilizar esta función.
 
 Para obtener más información sobre la funcionalidad, póngase en contacto directamente con el proveedor preferido o con el equipo de cuenta de Adobe.
 
@@ -148,15 +148,15 @@ Para crear una cuenta de [!DNL Comscore] y segmentos de temas personalizados, pu
 
 DSP Se ha asociado con [!DNL DoubleVerify] para ofrecer su solución de segmentación [!DNL Authentic Brand Safety], que le permite crear un conjunto centralizado de requisitos de seguridad de marca para dirigirse a todas las plataformas de compra con el fin de mantener la coherencia.
 
-Una vez que haya creado un [!DNL DoubleVerify] segmento de seguridad marca con la direccionamiento necesaria, puede usarlo dentro de DSP para replicar sus reglas de bloqueo de entrada-oferta con pre-oferta en entornos web.
+DSP Una vez que haya creado un segmento de seguridad de marca [!DNL DoubleVerify] con la segmentación necesaria, puede utilizarlo en para replicar las reglas de bloque posteriores a la oferta con la oferta previa en entornos web.
 
-Puede especificar un ID de [!DNL DoubleVerify] segmento para cada anunciante<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> y, a continuación, habilitar o deshabilitar [!UICONTROL Authentic Brand Safety] opcionalmente [para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). DSP factura a su cuenta el uso del ID de segmento.
+Puede especificar un ID de segmento [!DNL DoubleVerify] para cada anunciante<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> y, opcionalmente, [habilitar o deshabilitar [!UICONTROL Authentic Brand Safety] para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). DSP factura a su cuenta por el uso del ID de segmento.
 
-Para obtener más información sobre funcionalidad, póngase en contacto directamente [!DNL DoubleVerify] o con su equipo de cuentas de Adobe Systems.
+Para obtener más información acerca de la funcionalidad, comuníquese directamente con [!DNL DoubleVerify] o comuníquese con el equipo de cuenta de Adobe.
 
-![Logotipo de DoubleVerify](/help/dsp/assets/doubleverify-logo.png)
+![Logotipo DoubleVerify](/help/dsp/assets/doubleverify-logo.png)
 
 >[!MORELIKETHIS]
 >
->* [Configuración de colocación](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
 <!-- >* [Advertiser Account Settings](/help/dsp/admin/advertiser-settings.md) -->

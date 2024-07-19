@@ -1,9 +1,9 @@
 ---
 title: Descodificación de una dirección URL de seguimiento de clics
-description: Obtenga información sobre cómo eliminar el código de seguimiento de clics de Search, Social y Commerce de una dirección URL base.
-exl-id: e6567cfa-317f-405f-92fc-61ac9274a317
+description: Obtenga información sobre cómo quitar el código de seguimiento de clics de Search, Social y Commerce de una dirección URL base.
+exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Descodificar una URL de rastreo de clics de Search, Social y Commerce
 
-*Anunciantes solo con seguimiento de conversión de Adobe Advertising*
+*Anunciantes con solo seguimiento de conversión de Adobe Advertising*
 
 Puede ver a qué dirección URL de destino está enviando realmente un usuario eliminando el código de rastreo de clics de Search, Social y Commerce de la dirección URL base.
 
@@ -26,13 +26,13 @@ Puede ver a qué dirección URL de destino está enviando realmente un usuario e
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**.
 
-1. En el campo de entrada, introduzca cada dirección URL que contenga el código de seguimiento de búsqueda, social y comercial.
+1. En el campo de entrada, introduzca cada URL que contenga el código de seguimiento de Buscar, Social y Commerce.
 
    Para descodificar varias direcciones URL, introduzca cada una en una línea independiente.
 
-1. Haga clic **[!UICONTROL Decode the URL(s)]**.
+1. Haga clic en **[!UICONTROL Decode the URL(s)]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las herramientas para crear y descodificar etiquetas de seguimiento](tracking-tools-about.md)
->* [Generar una URL de seguimiento de clics de Search, Social y Commerce con la herramienta URL de seguimiento](click-tracking-url-generate.md)
+>* [Generar una URL de rastreo de clics de Search, Social y Commerce con la herramienta URL de seguimiento](click-tracking-url-generate.md)

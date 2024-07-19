@@ -1,30 +1,30 @@
 ---
 title: Alertas personalizadas
 description: Obtenga información sobre las alertas personalizadas, incluido cómo crear plantillas de alerta y cuándo se activan.
-exl-id: d5264837-797c-4528-afbb-78e3a95a5b59
+exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # Alertas personalizadas
 
-Puede crear plantillas de alerta para identificar cuándo cualquier portafolio, cuenta, campaña, grupo de publicidad, palabra clave, anuncio o grupo de productos de compras cumple condiciones específicas, como una métrica de rendimiento, durante un período especificado y, a continuación, generar una alerta. Las alertas están disponibles para un solo anunciante. Las alertas incluyen todas las columnas en la vista predeterminada relevante. Por ejemplo, las alertas de nivel de campaña incluyen todas las columnas en el valor predeterminado [!UICONTROL Campaigns] vista.
+Puede crear plantillas de alerta para identificar cuándo cualquier portafolio, cuenta, campaña, grupo de publicidad, palabra clave, anuncio o grupo de productos de compras cumple condiciones específicas, como una métrica de rendimiento, durante un período especificado y, a continuación, generar una alerta. Las alertas están disponibles para un solo anunciante. Las alertas incluyen todas las columnas en la vista predeterminada relevante. Por ejemplo, las alertas de nivel de campaña incluyen todas las columnas en la vista predeterminada [!UICONTROL Campaigns].
 
-Puede crear plantillas de alerta desde el [!UICONTROL Alert Templates] vista o desde la vista de administración de campañas para evaluar el tipo de entidad.
+Puede crear plantillas de alerta desde la vista [!UICONTROL Alert Templates] o desde la vista de administración de campañas para evaluar el tipo de entidad.
 
 Cuando se activa una instancia de alerta para una plantilla de alerta:
 
-* Los destinatarios especificados reciben un aviso por correo electrónico. Cuando la alerta contiene hasta 1000 registros, el aviso por correo electrónico incluye un [CSV](/help/search-social-commerce/glossary.md#c-d) archivo con los datos de alerta, incluidos los datos de todas las entidades que activaron la alerta.
+* Los destinatarios especificados reciben un aviso por correo electrónico. Cuando la alerta contiene hasta 1000 registros, el aviso por correo electrónico incluye un archivo [CSV](/help/search-social-commerce/glossary.md#c-d) con los datos de alerta, incluidos los datos de todas las entidades que activaron la alerta.
 
-* La alerta aparece en la lista [!UICONTROL Triggered Alerts] ver en [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. Un informe descargable está disponible durante diez días después de activarse la alerta.
+* La alerta aparece en la vista [!UICONTROL Triggered Alerts] de [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. Un informe descargable está disponible durante diez días después de activarse la alerta.
 
-* La alerta aparece en la lista [!UICONTROL Notifications] centrar en la vista de entidad aplicable, que está disponible en la barra de herramientas derecha. Las notificaciones permanecen en el [!UICONTROL Notifications] centrar a menos que los elimine o los marque como leídos.
+* La alerta se muestra en el centro [!UICONTROL Notifications] de la vista de entidad aplicable, que está disponible en la barra de herramientas derecha. Las notificaciones permanecen en el centro [!UICONTROL Notifications] a menos que las elimine o las marque como leídas.
 
-Dentro de [!UICONTROL Custom Alerts] vista, el [!UICONTROL Alert Templates] ver muestra todas las plantillas de alerta creadas para la cuenta y puede crear, editar, pausar, reactivar y eliminar plantillas de alerta. El [!UICONTROL Triggered Alerts] La vista enumera las instancias de alerta generadas.
+En la vista [!UICONTROL Custom Alerts], la vista [!UICONTROL Alert Templates] muestra todas las plantillas de alerta creadas para la cuenta, y puede crear, editar, pausar, reactivar y eliminar plantillas de alerta. La vista [!UICONTROL Triggered Alerts] enumera las instancias de alerta generadas.
 
 >[!MORELIKETHIS]
 >
@@ -33,6 +33,6 @@ Dentro de [!UICONTROL Custom Alerts] vista, el [!UICONTROL Alert Templates] ver 
 >* [Pausar una plantilla de alerta personalizada](alert-template-pause.md)
 >* [Activar una plantilla de alerta personalizada](alert-template-activate.md)
 >* [Eliminar una plantilla de alerta personalizada](alert-template-delete.md)
->* [Configuración de plantilla de alerta personalizada](alert-template-settings.md)
+>* [Configuración de la plantilla de alertas personalizada](alert-template-settings.md)
 >* [Ver alertas personalizadas](alert-view.md)
 >* [Exportar datos para alertas personalizadas](alert-export-data.md)

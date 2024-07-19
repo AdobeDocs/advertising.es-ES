@@ -5,7 +5,7 @@ role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
 source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '71'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Los usuarios administradores pueden reenviar una invitación a un usuario con un
 
    * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y haga clic en **[!UICONTROL Edit users]**.
+   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y luego haga clic en **[!UICONTROL Edit users]**.
 
-1. En el **Invitaciones** , haga clic en ![Reenviar](/help/dsp/assets/resend.png).
+1. En la sección **Invitaciones**, haga clic en ![Reenviar](/help/dsp/assets/resend.png).
 
 >[!MORELIKETHIS]
 >

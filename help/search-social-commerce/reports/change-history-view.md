@@ -1,18 +1,18 @@
 ---
-title: Ver el [!UICONTROL Change History] informe
+title: Ver el informe [!UICONTROL Change History]
 description: Obtenga información sobre cómo ver los cambios recientes en la cuenta del anunciante.
-exl-id: 822fa5eb-b7b4-4f32-9cee-984f4e96b978
+exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# Ver el [!UICONTROL Change History] informe
+# Ver el informe [!UICONTROL Change History]
 
-El [!UICONTROL Change History] Este informe incluye un registro de los cambios realizados en la cuenta del anunciante en los últimos 31 días. Puede incluir cambios en los siguientes tipos de objetos: usuarios (anunciantes), portafolios, campañas, grupos de anuncios, anuncios, palabras clave, ubicaciones y objetivos de productos. De forma predeterminada, los cambios se muestran para hace dos días.
+El informe [!UICONTROL Change History] incluye un registro de los cambios realizados en la cuenta del anunciante en los últimos 31 días. Puede incluir cambios en los siguientes tipos de objetos: usuarios (anunciantes), portafolios, campañas, grupos de anuncios, anuncios, palabras clave, ubicaciones y objetivos de productos. De forma predeterminada, los cambios se muestran para hace dos días.
 
 Puede ordenar y filtrar los datos por cualquier columna.
 
@@ -20,13 +20,13 @@ Puede ordenar y filtrar los datos por cualquier columna.
 
 1. (Opcional) Cambie los datos incluidos en el informe de cualquiera de las siguientes maneras:
 
-   * (Para mostrar u ocultar columnas) Haga clic en ![Flecha hacia abajo](/help/search-social-commerce/assets/arrow-down-expand.png "Flecha hacia abajo") en el lado derecho de cualquier encabezado de columna, resalte **[!UICONTROL Columns]** y, a continuación, active la casilla de verificación situada junto a cada columna que desee incluir y desactive la casilla de verificación situada junto a cada columna que desee excluir.
+   * (Para mostrar u ocultar columnas) Haga clic en ![Flecha abajo](/help/search-social-commerce/assets/arrow-down-expand.png "Flecha abajo") a la derecha de cualquier encabezado de columna, resalte **[!UICONTROL Columns]** y, a continuación, active la casilla de verificación situada junto a cada columna para incluir y desactive la casilla de verificación situada junto a cada columna que desee excluir.
 
      La configuración de columna se aplica a la vista en todos los anunciantes.
 
    * (Para filtrar los datos por valor de columna) Realice una de las siguientes acciones:
 
-      * [Aplicar un filtro utilizando **[!UICONTROL Add Filter]** vincular](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+      * [Aplicar un filtro mediante el vínculo **[!UICONTROL Add Filter]**](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
       * [Aplicar un filtro desde un menú de encabezado de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
@@ -38,17 +38,17 @@ Puede ordenar y filtrar los datos por cualquier columna.
 
          * (Para un rango preestablecido): seleccione en la lista de incrementos de tiempo comunes. El valor predeterminado es *[!UICONTROL 2 Days Ago]*.
 
-         * (Para un rango específico): seleccione **[!UICONTROL Custom Date Range]** y, a continuación, especifique la fecha inicial y la fecha final.
+         * (Para un intervalo específico): seleccione **[!UICONTROL Custom Date Range]** y, a continuación, especifique la fecha inicial y la fecha final.
 
            Introduzca las fechas en formato MM/DD/AAAA o MM-DD-AAAA, o haga clic en ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") junto a cada campo para abrir el calendario y seleccionar una fecha. Solo se pueden incluir datos de los 31 días anteriores.
 
-      1. Haga clic **[!UICONTROL Apply]**.
+      1. Haga clic en **[!UICONTROL Apply]**.
 
 1. (Opcional) Descargue una copia del informe:
 
    1. Sobre la tabla de datos, haga clic en **[!UICONTROL Download]**.
 
-      Una vez completado el informe, aparece en la lista [!UICONTROL Download] menú.
+      Una vez completado el informe, aparece en el menú [!UICONTROL Download].
 
    1. (Para abrir o guardar los datos del informe en un archivo) Haga clic en ![Descargar informe como XLS](/help/search-social-commerce/assets/download-spreadsheet2.png "Descargar informe como XLS") junto al nombre del archivo y, a continuación, abra o guarde el archivo según el procedimiento normal del explorador.
 

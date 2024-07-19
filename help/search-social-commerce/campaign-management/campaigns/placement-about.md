@@ -1,35 +1,35 @@
 ---
 title: Acerca de [!DNL Google Ads] ubicaciones
-description: Obtenga información sobre las opciones de ubicaciones pujables y negativas para [!DNL Google Ads].
-exl-id: 2f390a39-99e9-4b0d-8576-e724882185ef
+description: Obtenga información acerca de las opciones de ubicaciones pujables y negativas para  [!DNL Google Ads].
+exl-id: c0a2d888-8afa-47c8-a89e-da4de527e6ea
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
-# Acerca de [!DNL Google Ads] ubicaciones
+# Aproximadamente [!DNL Google Ads] ubicaciones
 
 *[!DNL Google Ads]solo cuentas*
 
 Las ubicaciones son ubicaciones en la red de visualización en las que pueden aparecer los anuncios. La configuración de ubicación incluye los parámetros de oferta máxima y seguimiento opcional. La configuración del nivel de ubicación anula la configuración del grupo de anuncios o de la campaña.
 
-Puede crear ubicaciones para cualquier grupo de anuncios en una [compatible [!DNL Google Ads] tipo de campaña](/help/search-social-commerce/introduction/supported-inventory.md) que se dirige a la red de visualización dentro de un [cuenta de motor de búsqueda sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
+Puede crear ubicaciones para cualquier grupo de anuncios en un [tipo de campaña admitido [!DNL Google Ads] 2} que se dirija a la red de visualización dentro de una [cuenta de motor de búsqueda sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).](/help/search-social-commerce/introduction/supported-inventory.md)
 
-## El [!UICONTROL Placements] vistas
+## Las vistas [!UICONTROL Placements]
 
-El [!UICONTROL Placements] > [!UICONTROL Placements] La vista enumera todas las ubicaciones y la variable [!UICONTROL Placements] > [!UICONTROL Negatives] La opción Ver enumera todas las ubicaciones negativas para las que no se muestran anuncios.
+La vista [!UICONTROL Placements] > [!UICONTROL Placements] enumera todas sus ubicaciones y la vista [!UICONTROL Placements] > [!UICONTROL Negatives] enumera todas las ubicaciones negativas para las que no se muestran anuncios.
 
-Puede crear ubicaciones para un grupo de anuncios desde el [!UICONTROL Placements] > [!UICONTROL Placements] vista. Puede crear palabras clave negativas para cualquier grupo de publicidad o campaña desde el [!UICONTROL Placements] > [!UICONTROL Negatives] vea o en la configuración de la campaña y del grupo de publicidad.  También puede editar y cambiar el estado de las ubicaciones activas y en pausa, así como eliminar las ubicaciones negativas.
+Puede crear ubicaciones para un grupo de anuncios desde la vista [!UICONTROL Placements] > [!UICONTROL Placements]. Puede crear palabras clave negativas para cualquier grupo de publicidad o campaña desde la vista [!UICONTROL Placements] > [!UICONTROL Negatives] o desde la configuración de la campaña y del grupo de publicidad.  También puede editar y cambiar el estado de las ubicaciones activas y en pausa, así como eliminar las ubicaciones negativas.
 
 >[!NOTE]
 >
->[!DNL Google Ads] no proporciona datos de rendimiento de nivel de anuncio para ubicaciones.
+>[!DNL Google Ads] no proporciona datos de rendimiento de nivel de anuncio para las ubicaciones.
 
 >[!MORELIKETHIS]
 >
->* [Administrar ubicaciones pujables](placement-manage.md)
->* [Creación de ubicaciones negativas](placement-negative-create.md)
+>* [Administrar ubicaciones que se pueden pujar](placement-manage.md)
+>* [Crear ubicaciones negativas](placement-negative-create.md)
 >* [Cambiar el estado de las ubicaciones y las ubicaciones negativas](placement-status-edit.md)

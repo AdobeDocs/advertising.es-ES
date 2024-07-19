@@ -22,9 +22,8 @@ Al eliminar un segmento de exclusión de venta personalizado o de CCPA, se elimi
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear un segmento personalizado](custom-segment-create.md)
->* [Editar información del segmento](segment-edit.md)
->* [Visualización de los píxeles de seguimiento de un segmento](segment-view-pixels.md)
+>* [Editar información de segmento](segment-edit.md)
+>* [Ver píxeles de seguimiento para un segmento](segment-view-pixels.md)
 >* [Compartir o dejar de compartir un segmento](segment-share.md)
-

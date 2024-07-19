@@ -1,6 +1,6 @@
 ---
-title: Formatos de rastreo de clics para [!DNL Microsoft Advertising]
-description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Microsoft Advertising] cuentas.
+title: Formatos de rastreo de clics para  [!DNL Microsoft Advertising]
+description: Obtenga información acerca de los formatos de seguimiento de clics para  [!DNL Microsoft Advertising] cuentas.
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Formatos de rastreo de clics para [!DNL Microsoft Advertising]
 
-A continuación se muestran los formatos de plantilla de seguimiento base y sufijo de página de aterrizaje (sufijo de URL final) que Search, Social y Commerce requieren para [!DNL Microsoft Advertising].
+A continuación se muestran los formatos base de plantilla de seguimiento y sufijo de página de aterrizaje (sufijo de dirección URL final) que Search, Social y Commerce requieren para [!DNL Microsoft Advertising].
 
 ## Formatos de plantilla de seguimiento
 
@@ -28,11 +28,11 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
 >
->* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
+>* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
->* `{TargetId}` representa el ID de a) la palabra clave o b) la palabra clave y la lista de remarketing (audiencia) que activaron el anuncio (por ejemplo, &quot;kwd-123:aud-456&quot; para una palabra clave y una lista de remarketing o &quot;kwd-123&quot; solo para palabra clave).
+>* `{TargetId}` representa el identificador de a) la palabra clave o b) la palabra clave y la lista de remarketing (audiencia) que activaron el anuncio (por ejemplo, &quot;kwd-123:aud-456&quot; para una palabra clave y una lista de remarketing o &quot;kwd-123&quot; solo para palabra clave).
 
 ### Vínculos de sitio
 
@@ -44,15 +44,15 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
 >
->* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
+>* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
->* `{TargetId}` representa el ID de a) la palabra clave o b) la palabra clave y la lista de remarketing (audiencia) que activaron el anuncio (por ejemplo, &quot;kwd-123:aud-456&quot; para una palabra clave y una lista de remarketing o &quot;kwd-123&quot; solo para palabra clave).
+>* `{TargetId}` representa el identificador de a) la palabra clave o b) la palabra clave y la lista de remarketing (audiencia) que activaron el anuncio (por ejemplo, &quot;kwd-123:aud-456&quot; para una palabra clave y una lista de remarketing o &quot;kwd-123&quot; solo para palabra clave).
 >
 >* `{adextensionid}` no se utiliza.
 >
->* (Vínculos de sitio) Puede ver qué conversiones resultaron de un clic en un vínculo de sitio al generar un [!UICONTROL Transaction Report]. El [!UICONTROL Link Type] el valor de columna para un vínculo de sitio es `sl:<Sitelink text>`, como `sl:See Current Offers`.
+>* (Vínculos de sitio) Puede ver qué conversiones resultaron de un clic en un vínculo de sitio al generar un [!UICONTROL Transaction Report]. El valor de columna [!UICONTROL Link Type] para un vínculo de sitio es `sl:<Sitelink text>`, como `sl:See Current Offers`.
 
 ### Red de compras
 
@@ -66,13 +66,13 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
 >
->* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
+>* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
->* `{TargetId}` representa el ID de a) la palabra clave o b) la palabra clave y la lista de remarketing (audiencia) que activaron el anuncio (por ejemplo, &quot;kwd-123:aud-456&quot; para una palabra clave y una lista de remarketing o &quot;kwd-123&quot; solo para palabra clave).
+>* `{TargetId}` representa el identificador de a) la palabra clave o b) la palabra clave y la lista de remarketing (audiencia) que activaron el anuncio (por ejemplo, &quot;kwd-123:aud-456&quot; para una palabra clave y una lista de remarketing o &quot;kwd-123&quot; solo para palabra clave).
 >
->* (Opcional) En lugar de introducir plantillas de seguimiento en el nivel de cuenta, campaña, grupo de publicidad o grupo de productos, puede añadir la URL de seguimiento a los datos del producto dentro de la variable [!DNL Microsoft Merchant Center] cuenta. Para ello, incluya la URL de seguimiento, junto con el valor en la`link`&quot; o &quot;`mobile_link`&quot; campo, según corresponda, en una columna personalizada &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; en la fuente del producto. El valor en &quot;`bingads_redirect`&quot; reemplaza los valores del campo &quot;`link`&quot; y &quot;`mobile_link`&quot; campos. Las direcciones URL generadas con este método no incluyen ningún parámetro de seguimiento especificado en la configuración de la cuenta de Search, Social y Commerce o de la campaña.
+>* (Opcional) En lugar de introducir plantillas de seguimiento en el nivel de cuenta, campaña, grupo de anuncios o grupo de productos, puede añadir la URL de seguimiento a los datos del producto dentro de la cuenta [!DNL Microsoft Merchant Center]. Para ello, incluya la dirección URL de seguimiento, junto con el valor en el campo &quot;`link`&quot; o &quot;`mobile_link`&quot;, según corresponda, en una columna personalizada &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; dentro de la fuente del producto. El valor del campo &quot;`bingads_redirect`&quot; reemplaza los valores de los campos &quot;`link`&quot; y &quot;`mobile_link`&quot;. Las direcciones URL generadas con este método no incluyen ningún parámetro de seguimiento especificado en la configuración de la cuenta de Search, Social y Commerce o de la campaña.
 
 ## Formatos de sufijo de página de aterrizaje (sufijo de URL final)
 
@@ -82,7 +82,7 @@ Ejemplo:
 
 ### Redes de búsqueda y audiencia
 
-Las cuentas que utilizan el seguimiento de conversión de Adobe Advertising deben incluir el identificador de clic ( ) de la red de publicidad`msclkid` para [!DNL Microsoft Advertising]) en el sufijo:
+Las cuentas que usan el seguimiento de conversión de Adobe Advertising deben incluir el identificador de clic (`msclkid` para [!DNL Microsoft Advertising]) de la red de publicidad en el sufijo:
 
 * Cuando el anunciante tiene una integración de Adobe Analytics, el sufijo debe incluir lo siguiente:
 
@@ -94,7 +94,7 @@ Las cuentas que utilizan el seguimiento de conversión de Adobe Advertising debe
 
 ### Red de compras
 
-Las cuentas que utilizan el seguimiento de conversión de Adobe Advertising deben incluir el identificador de clic ( ) de la red de publicidad`msclkid` para [!DNL Microsoft Advertising]) en el sufijo:
+Las cuentas que usan el seguimiento de conversión de Adobe Advertising deben incluir el identificador de clic (`msclkid` para [!DNL Microsoft Advertising]) de la red de publicidad en el sufijo:
 
 * Cuando el anunciante tiene una integración de Adobe Analytics, el sufijo debe incluir lo siguiente:
 

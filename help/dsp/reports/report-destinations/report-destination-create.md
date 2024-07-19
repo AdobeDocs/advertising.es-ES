@@ -14,19 +14,19 @@ ht-degree: 0%
 
 1. En el menú principal, haga clic en **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
-1. Clic **[!UICONTROL Add Destination]**.
+1. Haga clic en **[!UICONTROL Add Destination]**.
 
-1. Especifique el [configuración de destino del informe](/help/dsp/reports/report-destinations/report-destination-settings.md), que varían según el tipo de destino.
+1. Especifique la [configuración de destino del informe](/help/dsp/reports/report-destinations/report-destination-settings.md), que varía según el tipo de destino.
 
-1. Clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
-> Si el informe está configurado para su envío a cualquier tipo de FTP o [!DNL Amazon S3] ubicación, no recibe notificaciones si el informe se cancela debido a errores. Si no recibe los informes que espera, póngase en contacto con el equipo de cuenta de Adobe para averiguar el motivo.
+> Si el informe está configurado para su envío a cualquier tipo de ubicación FTP o [!DNL Amazon S3], no recibirá notificaciones si el informe se cancela debido a errores. Si no recibe los informes que espera, póngase en contacto con el equipo de cuenta de Adobe para averiguar el motivo.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [[!UICONTROL Report Destination] Configuración](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Editar una [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* Configuración de [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Editar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

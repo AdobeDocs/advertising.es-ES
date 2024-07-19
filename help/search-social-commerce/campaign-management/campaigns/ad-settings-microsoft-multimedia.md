@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] configuración de publicidad multimedia"'
-description: Haga referencia a la configuración de [!DNL Microsoft Advertising] anuncios multimedia.
+title: '[!DNL Microsoft Advertising] configuración de anuncios multimedia'
+description: Hacer referencia a la configuración de  [!DNL Microsoft Advertising] anuncios multimedia.
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] configuración de publicidad multimedia
+# [!DNL Microsoft Advertising] configuración de anuncios multimedia
 
 Los anuncios multimedia están disponibles en la red de búsqueda. La red de anuncios organiza de forma dinámica anuncios multimedia utilizando las combinaciones más eficaces de elementos publicitarios.
 
@@ -22,7 +22,7 @@ Los anuncios multimedia están disponibles en la red de búsqueda. La red de anu
 
 * Al menos una imagen cuadrada (1:1).
 
-Consulte las proporciones y dimensiones de aspecto permitidas para [anuncios multimedia](https://help.ads.microsoft.com/#apex/ads/en/60107/0).
+Ver las proporciones y dimensiones permitidas para [anuncios multimedia](https://help.ads.microsoft.com/#apex/ads/en/60107/0).
 
 <!-- Instructions -->
 
@@ -30,13 +30,13 @@ Consulte las proporciones y dimensiones de aspecto permitidas para [anuncios mul
 
 **[!UICONTROL Business Name]:** El nombre comercial, con un máximo de 25 caracteres.
 
-**[!UICONTROL Short Headlines]:** Al menos tres, y hasta 15, titulares cortos con al menos una palabra y un máximo de 30 caracteres cada uno.
+**[!UICONTROL Short Headlines]:** Al menos tres y hasta 15 titulares cortos con al menos una palabra y un máximo de 30 caracteres cada uno.
 
-**[!UICONTROL Long Headlines]:** Al menos tres, y hasta cinco, titulares largos con un máximo de 90 caracteres cada uno.
+**[!UICONTROL Long Headlines]:** Al menos tres y hasta cinco titulares largos con un máximo de 90 caracteres cada uno.
 
-**[!UICONTROL Ad Text]:** Al menos dos, y hasta cuatro, descripciones con al menos una palabra y un máximo de 90 caracteres cada una.
+**[!UICONTROL Ad Text]:** Al menos dos y hasta cuatro descripciones con al menos una palabra y un máximo de 90 caracteres cada una.
 
-**[!UICONTROL Call to Action]:** Llamada a acción para incluir en el anuncio. De forma predeterminada, la opción Automatizada está seleccionada y la red publicitaria selecciona la llamada a la acción. Si lo desea, puede elegir una acción diferente.
+**[!UICONTROL Call to Action]:** Llamada a la acción para incluir en el anuncio. De forma predeterminada, la opción Automatizada está seleccionada y la red publicitaria selecciona la llamada a la acción. Si lo desea, puede elegir una acción diferente.
 
 **[!UICONTROL Call to Action Language]:** Idioma para las opciones de llamada a la acción.
 
@@ -53,8 +53,8 @@ Consulte las proporciones y dimensiones de aspecto permitidas para [anuncios mul
 >[!MORELIKETHIS]
 >
 >* [Acerca de los anuncios](ad-about.md)
->* [Administración de anuncios](ad-manage.md)
+>* [Administrar anuncios](ad-manage.md)
 >* [[!DNL Microsoft Advertising] configuración de anuncios dinámicos de búsqueda expandida](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft Advertising] configuración de publicidad del producto](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] configuración de anuncios adaptables (audiencia)](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising] configuración de anuncios de búsqueda adaptable](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] configuración de anuncios de productos](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] configuración de anuncio adaptable (audiencia)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] configuración del anuncio de búsqueda adaptable](ad-settings-microsoft-rsa.md)

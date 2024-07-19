@@ -1,9 +1,9 @@
 ---
 title: Editar la configuración directamente dentro de una fila
 description: Obtenga información sobre cómo editar datos en vistas de administración dentro de la fila.
-exl-id: 54625fc5-0e7d-4474-9789-61e04ffbb44f
+exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 
    * (Opciones de una lista) Seleccione una nueva opción de la lista.
 
-   * (Fechas) Introduzca una nueva fecha o haga clic en ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") para abrir el calendario y [seleccionar una nueva fecha](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
+   * (Fechas) Escribe una nueva fecha o haz clic en ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") para abrir el calendario y [seleccionar una nueva fecha](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
 
-   * (Valores en formato libre) Introduzca un nuevo valor y haga clic en ![Guardar](/help/search-social-commerce/assets/select.png "Guardar") o pulse el botón **Entrar** clave.
+   * (Valores de forma libre) Escribe un nuevo valor y, a continuación, haz clic en ![Guardar](/help/search-social-commerce/assets/select.png "Guardar") o presiona la tecla **Entrar**.
 
    >[!MORELIKETHIS]
    >
-   >* [Cree y edite datos de campaña por lotes mediante Copiar y Pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [Cree y edite datos de campaña de forma masiva mediante Copiar y Pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)

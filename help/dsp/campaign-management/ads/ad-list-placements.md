@@ -14,12 +14,12 @@ ht-degree: 0%
 
 Vea una lista de ubicaciones asociadas con un anuncio para ver los datos de rendimiento por ubicación y editar la configuración de ubicación si es necesario.
 
-Consulte también &quot;[Ver anuncios adjuntos a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).&quot;
+Consulte también &quot;[Ver anuncios adjuntos a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Ads]**.
-1. Junto al nombre del anuncio, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
+1. Junto al nombre del anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
 
 >[!MORELIKETHIS]
 >

@@ -1,11 +1,11 @@
 ---
 title: Administrar [!DNL Google Ads] ubicaciones
-description: Aprenda a crear y administrar ubicaciones de oferta para [!DNL Google Ads] grupos de anuncios.
-exl-id: 91fee1eb-d1d5-4a1b-b1a6-369b98269100
+description: Aprenda a crear y administrar ubicaciones que se pueden pujar para  [!DNL Google Ads] grupos de anuncios.
+exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -14,40 +14,40 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-Puede crear y editar ubicaciones para grupos de anuncios en [tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md) que se dirigen a la red de visualización dentro de un [cuenta de red de publicidad sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+Puede crear y editar ubicaciones para grupos de anuncios en [tipos de campañas compatibles](/help/search-social-commerce/introduction/supported-inventory.md) que tengan como destino la red de visualización dentro de una [cuenta de red de publicidad sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 ## Crear [!DNL Google Ads] ubicaciones
 
 >[!TIP]
 >
->Para crear muchas ubicaciones a la vez, utilice [hojas de campaña](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>Para crear muchas ubicaciones a la vez, use [hojas de edición masiva de Campaign](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]**.
 
 1. 
-   1. En la barra de herramientas sobre la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
+   1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
-1. Seleccione la red de anuncios, la cuenta, la campaña y el grupo de anuncios y, a continuación, haga clic en **[!UICONTROL Continue]**.
+1. Seleccione la red de anuncios, la cuenta, la campaña y el grupo de anuncios y haga clic en **[!UICONTROL Continue]**.
 
-1. Configure las variables [configuración de ubicación](#placement-settings).
+1. Configure [la configuración de ubicación](#placement-settings).
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Haga clic en **[!UICONTROL Post]**.
 
 ## Editar [!DNL Google Ads] ubicaciones
 
 >[!TIP]
 >
->Para editar muchas ubicaciones a la vez, utilice [hojas de campaña](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>Para editar muchas ubicaciones a la vez, use [hojas de edición masiva de campañas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. Seleccione la casilla de verificación situada junto a cada fila que desee editar.
 
-   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar") .
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar") .
 
-1. Edite el [configuración de ubicación](#placement-settings).
+1. Edite la [configuración de ubicación](#placement-settings).
 
    Para varias ubicaciones, los cambios se aplicarán a todas las ubicaciones seleccionadas. Para algunos campos alfanuméricos, puede cambiar los valores existentes a un valor especificado, reemplazar una cadena existente por una cadena especificada, agregar un prefijo especificado al principio de cada valor o anexar un sufijo al final de cada valor. Para algunos campos monetarios, puede cambiar los valores existentes a un valor especificado o aumentar o disminuir el importe en un porcentaje o importe monetario especificados, con un límite.
 
@@ -61,13 +61,13 @@ Puede crear y editar ubicaciones para grupos de anuncios en [tipos de campaña a
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** Sitios en la red de contenido en la que puede aparecer su anuncio. Escriba una dirección URL válida, como www.example.com, example.com o www.example.com/shoes/kids. Para especificar varias cadenas, sepárelas con comas o introdúzcalas en líneas independientes. La dirección URL no puede incluir el signo de interrogación (`?`). **Nota:** Puede [excluir ubicaciones de sitios web](placement-negative-create.md) desde el [!UICONTROL Placements] > [!UICONTROL Negatives] vea y en el grupo de publicidad y en la configuración de la campaña.
+**[!UICONTROL Placements]:** sitios en la red de contenido en los que puede aparecer el anuncio. Escriba una dirección URL válida, como www.example.com, example.com o www.example.com/shoes/kids. Para especificar varias cadenas, sepárelas con comas o introdúzcalas en líneas independientes. La dirección URL no puede incluir el signo de interrogación (`?`). **Nota:** Puede [excluir las ubicaciones del sitio web](placement-negative-create.md) desde la vista [!UICONTROL Placements] > [!UICONTROL Negatives] y en la configuración del grupo de anuncios y de la campaña.
 
-**[!UICONTROL Status]:** El estado de visualización de la ubicación: *Activo* (para activar las ofertas; opción predeterminada), *Pausado* (para desactivar las pujas), o *Eliminado* (para eliminar la ubicación; solo las ubicaciones existentes).
+**[!UICONTROL Status]:** El estado de visualización de la ubicación: *Activa* (para habilitar la oferta; la predeterminada), *En pausa* (para deshabilitar la oferta) o *Eliminada* (para eliminar la ubicación; solo las ubicaciones existentes).
 
 ### [!UICONTROL Bids]
 
-**[!UICONTROL Bid]:** (Opcional) El coste por clic máximo (CPC) o el coste por mil impresiones visibles (vCPM) para el anuncio basado en la ubicación, según la estrategia de oferta de la campaña. Este valor anula la oferta de nivel de grupo de anuncios.
+**[!UICONTROL Bid]:** (opcional) coste por clic (CPC) o coste por mil impresiones visibles (vCPM) para el anuncio basado en la ubicación, según la estrategia de oferta de campaña. Este valor anula la oferta de nivel de grupo de anuncios.
 
 <!-- If the placement is in a standard optimized portfolio, then the specified bid is applied for one day. Afterward, the optimization capability places bids according to its own calculations. -->
 
@@ -88,5 +88,5 @@ Puede crear y editar ubicaciones para grupos de anuncios en [tipos de campaña a
 >[!MORELIKETHIS]
 >
 >* [Acerca de las ubicaciones](placement-about.md)
->* [Creación de ubicaciones negativas](placement-negative-create.md)
+>* [Crear ubicaciones negativas](placement-negative-create.md)
 >* [Cambiar el estado de las ubicaciones y las ubicaciones negativas](placement-status-edit.md)

@@ -12,13 +12,15 @@ ht-degree: 0%
 
 ## title
 
-https://adobeadcloud.zendesk.com/agent/tickets/14214 De forma predeterminada, Adobe Analytics informa de todos los eventos capturados en cada informe. &quot;[!UICONTROL Unspecified]&quot; representan eventos de finalización de formularios que no estaban conectados al Adobe Advertising. Por ejemplo, en el informe Plataforma de publicidad, las conversiones orgánicas o impulsadas por una campaña de correo electrónico caerían en &quot;sin especificar&quot;.
+https://adobeadcloud.zendesk.com/agent/tickets/14214
+De forma predeterminada, Adobe Analytics informa de todos los eventos capturados en cada informe. Los eventos &quot;[!UICONTROL Unspecified]&quot; representan eventos de finalización de formularios que no estaban conectados al Adobe Advertising. Por ejemplo, en el informe Plataforma de publicidad, las conversiones orgánicas o impulsadas por una campaña de correo electrónico caerían en &quot;sin especificar&quot;.
 
 Puede utilizar el filtro para eliminar eventos no especificados de los informes eliminando la marca de verificación de la opción &quot;Incluir no especificado (ninguno)&quot;. <!-- Not sure if this is in DSP or in Analytics Workspace -->
 
 ## title
 
-https://adobeadcloud.zendesk.com/agent/tickets/24323 Coloque las etiquetas de evento de Analytics en los mismos puntos que los píxeles de Ad Cloud para asegurarse de que XXX coincida.
+https://adobeadcloud.zendesk.com/agent/tickets/24323
+Coloque las etiquetas de evento de Analytics en los mismos puntos que los píxeles de Ad Cloud para asegurarse de que XXX coincida.
 
 ## title
 

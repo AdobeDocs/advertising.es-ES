@@ -1,11 +1,11 @@
 ---
 title: Creación de ubicaciones negativas
-description: Obtenga información sobre cómo crear ubicaciones negativas para [!DNL Google Ads] campañas y grupos de publicidad.
-exl-id: 8bddfc12-de95-46c3-aa2d-bcce2a5e0de9
+description: Aprenda a crear ubicaciones negativas para  [!DNL Google Ads] campañas y grupos de anuncios.
+exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-Puede crear ubicaciones negativas para una [!DNL Google Ads] grupo de anuncios en una campaña dirigida a la red de visualización. Las ubicaciones negativas son sitios en la red de visualización que no almacenan en déclencheur los anuncios.
+Puede crear ubicaciones negativas para un grupo de anuncios [!DNL Google Ads] en una campaña dirigida a la red de visualización. Las ubicaciones negativas son sitios en la red de visualización que no almacenan en déclencheur los anuncios.
 
 >[!NOTE]
->También puede crear y editar ubicaciones negativas en [configuración del grupo de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) y [configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
+>También puede crear y editar ubicaciones negativas en la [configuración del grupo de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) y la [configuración de la campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
 
 >[!TIP]
->Para crear muchas ubicaciones negativas a la vez, utilice [hojas de campaña](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>Para crear muchas ubicaciones negativas a la vez, use [hojas de edición masiva de campañas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear")y haga clic en **[!UICONTROL Campaign]** para crear ubicaciones negativas en el nivel de campaña o **[!UICONTROL Ad Group]** para crear ubicaciones negativas en el nivel de grupo de anuncios.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear") y, a continuación, haga clic en **[!UICONTROL Campaign]** para crear ubicaciones negativas en el nivel de campaña o en **[!UICONTROL Ad Group]** para crear ubicaciones negativas en el nivel de grupo de anuncios.
 
 1. Seleccione la red de anuncios, la cuenta, la campaña y (cuando corresponda) el grupo de anuncios y haga clic en **[!UICONTROL Continue]**.
 
@@ -34,12 +34,12 @@ Puede crear ubicaciones negativas para una [!DNL Google Ads] grupo de anuncios e
 
    * Un sitio web: escriba una dirección URL válida, como www.example.com. Consulte los formatos permitidos en &quot;Cómo añadir las URL de exclusión&quot; en https://support.google.com/google-ads/answer/2454012.
 
-   * Tema, categoría o documento vertical. Consulte [[!DNL Google Ads] directrices](https://support.google.com/google-ads/editor/answer/30517) y una [lista de todas las verticales](https://developers.google.com/adwords/api/docs/appendix/verticals). Ejemplo: `category::Industries > Energy & Utilities > Oil & Gas`.
+   * Tema, categoría o documento vertical. Ver [[!DNL Google Ads] directrices](https://support.google.com/google-ads/editor/answer/30517) y una [lista de todas las verticales](https://developers.google.com/adwords/api/docs/appendix/verticals). Ejemplo: `category::Industries > Energy & Utilities > Oil & Gas`.
 
-1. Haga clic **[!UICONTROL Post]**.
+1. Haga clic en **[!UICONTROL Post]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las ubicaciones](placement-about.md)
->* [Administrar ubicaciones pujables](placement-manage.md)
+>* [Administrar ubicaciones que se pueden pujar](placement-manage.md)
 >* [Cambiar el estado de las ubicaciones y las ubicaciones negativas](placement-status-edit.md)

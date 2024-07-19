@@ -1,11 +1,11 @@
 ---
-title: Acerca de [!DNL Google Ads] extensiones de llamada
-description: Más información [!DNL Google Ads] extensiones de llamada en Search, Social y Commerce.
-exl-id: 3d0d864b-35ea-48aa-a812-bba96359eb29
+title: Acerca de  [!DNL Google Ads] extensiones de llamada
+description: Obtenga información acerca de  [!DNL Google Ads] extensiones de llamadas en Search, Social y Commerce.
+exl-id: d821067f-7ec6-4cd3-a6eb-e1e194cea0df
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ Una extensión de llamada es un texto informativo, como productos, servicios y p
 
 Puede crear texto y configuración de llamadas compartidas, incluidas las fechas durante las cuales las llamadas pueden aparecer con anuncios, en el nivel de cuenta.
 
-## El [!UICONTROL Callouts] y [!UICONTROL Associations] vistas
+## Las vistas [!UICONTROL Callouts] y [!UICONTROL Associations]
 
-El [!UICONTROL Extensions] > [!UICONTROL Callout] biblioteca en [!UICONTROL Campaigns] > [!UICONTROL Campaigns] muestra una lista de todas las llamadas a nivel de cuenta y puede crear y administrar las llamadas compartidas desde allí. Consulte la ayuda de la red de publicidad para obtener la [número máximo de extensiones de publicidad por [!DNL Google Ads] account](https://support.google.com/google-ads/answer/6372658?hl=en).
+La biblioteca [!UICONTROL Extensions] > [!UICONTROL Callout] en [!UICONTROL Campaigns] > [!UICONTROL Campaigns] enumera todas las llamadas de nivel de cuenta, y puede crear y administrar las llamadas compartidas desde allí. Consulte la ayuda de red de anuncios para obtener la [cantidad máxima de extensiones de anuncios por [!DNL Google Ads] cuenta](https://support.google.com/google-ads/answer/6372658?hl=en).
 
-Las llamadas de la biblioteca no se utilizan con los anuncios hasta que se asignan a una campaña o a un grupo de anuncios. Desde el [!UICONTROL Extensions] > [!UICONTROL Associations] En esta vista, puede asignar cualquiera de sus llamadas como posibles extensiones a todos los anuncios en el nivel de campaña o de grupo de anuncios. Debe asignar al menos dos llamadas por campaña o grupo de anuncios para que sus anuncios puedan aparecer con llamadas. Las llamadas en el nivel de grupo de anuncios anulan las llamadas en el nivel de campaña.
+Las llamadas de la biblioteca no se utilizan con los anuncios hasta que se asignan a una campaña o a un grupo de anuncios. Desde la vista [!UICONTROL Extensions] > [!UICONTROL Associations], puede asignar cualquiera de sus llamadas como posibles extensiones a todos los anuncios en el nivel de campaña o de grupo de anuncios. Debe asignar al menos dos llamadas por campaña o grupo de anuncios para que sus anuncios puedan aparecer con llamadas. Las llamadas en el nivel de grupo de anuncios anulan las llamadas en el nivel de campaña.
 
 ## Datos de rendimiento para llamadas
 
-Search, Social y Commerce asigna los clics en una extensión de anuncio y la conversión resultante a la palabra clave asociada con el anuncio en el que se incluye la extensión. No hay datos de coste o clics en el nivel de extensión disponibles en Search, Social y Commerce.
+Search, Social y Commerce asignan los clics en una extensión de anuncio y la conversión resultante a la palabra clave asociada con el anuncio en el que se incluye la extensión. No hay datos de coste o clics en el nivel de extensión disponibles en Buscar, Social y Commerce.
 
-Entrada [!DNL Google Ads], puede ver los datos de costes y clics en [!UICONTROL Campaigns] pestaña > [!UICONTROL Ad Extensions] pestaña.
+En [!DNL Google Ads], puede ver los datos de costos y clics en la ficha [!UICONTROL Campaigns] > [!UICONTROL Ad Extensions].
 
 >[!MORELIKETHIS]
 >

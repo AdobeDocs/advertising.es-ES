@@ -1,6 +1,6 @@
 ---
-title: '[!DNL On Demand] Premium Inventory Publishers in Asia-Pacífico'
-description: Consulte los disponibles [!DNL On Demand] editores de inventario premium en la región de Asia y el Pacífico.
+title: '[!DNL On Demand] editores de inventario premium en Asia-Pacífico'
+description: Vea los  [!DNL On Demand] editores de inventario premium disponibles en la región de Asia y el Pacífico.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -10,26 +10,26 @@ ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Editores de inventario Premium en Asia-Pacífico{#on-demand-inventory-publishers-apac}
+# [!DNL On Demand] editores de inventario premium en Asia-Pacífico{#on-demand-inventory-publishers-apac}
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
 | Editor | Geo |
 |-----------------------------|---------------|
-| [!DNL BBC] | Buena China |
-| [!DNL Bloomberg] | Buena China |
-| [!DNL CBS Interactive] | Buena China |
-| [!DNL CNN International] | Buena China |
-| [!DNL Conde Nast] | Buena China |
-| [!DNL EA] | Buena China |
-| [!DNL Gameloft] | Buena China |
-| [!DNL MSN] | Buena China |
-| [!DNL Tripadvisor] | Buena China |
-| [!DNL U.S. News] | Buena China |
-| [!DNL UDN] | Buena China |
-| [!DNL Vidol.tv] | Buena China |
-| [!DNL Vungle] | Buena China |
-| [!DNL Yahoo! Taiwan] | Buena China |
+| [!DNL BBC] | Gran China |
+| [!DNL Bloomberg] | Gran China |
+| [!DNL CBS Interactive] | Gran China |
+| [!DNL CNN International] | Gran China |
+| [!DNL Conde Nast] | Gran China |
+| [!DNL EA] | Gran China |
+| [!DNL Gameloft] | Gran China |
+| [!DNL MSN] | Gran China |
+| [!DNL Tripadvisor] | Gran China |
+| [!DNL U.S. News] | Gran China |
+| [!DNL UDN] | Gran China |
+| [!DNL Vidol.tv] | Gran China |
+| [!DNL Vungle] | Gran China |
+| [!DNL Yahoo! Taiwan] | Gran China |
 | [!DNL BBC] | Hong Kong |
 | [!DNL Bloomberg] | Hong Kong |
 | [!DNL CBS Interactive] | Hong Kong |
@@ -373,7 +373,6 @@ ht-degree: 0%
 >
 >* [Acerca de [!DNL On Demand] Inventario Premium](on-demand-inventory-about.md)
 >* [Suscribirse y solicitar acceso a [!DNL On Demand] Inventario Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Editores de Inventario Premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editores de inventario Premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand Premium] Editores de inventario en América del Norte](on-demand-inventory-publishers-na.md)
-
+>* [[!DNL On Demand] Editores de inventario premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] Editores de inventario premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand Premium] Editores de inventario de Norteamérica](on-demand-inventory-publishers-na.md)

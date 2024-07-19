@@ -13,15 +13,15 @@ ht-degree: 0%
 # Creación de un informe personalizado
 
 1. En el menú principal, haga clic en **[!UICONTROL Reports]**.
-1. Clic **[!UICONTROL New Custom Report]**.
-1. Especifique el [configuración de informes](/help/dsp/reports/report-settings.md).
-1. Clic **[!UICONTROL Create Custom Report]**.
+1. Haga clic en **[!UICONTROL New Custom Report]**.
+1. Especifique la [configuración del informe](/help/dsp/reports/report-settings.md).
+1. Haga clic en **[!UICONTROL Create Custom Report]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
->* [Duplicación de un informe personalizado](/help/dsp/reports/report-copy.md)
->* [Edición de un informe personalizado](/help/dsp/reports/report-edit.md)
+>* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
+>* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
 >* [Eliminar un informe personalizado](/help/dsp/reports/report-delete.md)
 >* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
 >* [Tipos de informes de rendimiento en las vistas de Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)

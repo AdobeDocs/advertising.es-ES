@@ -5,7 +5,7 @@ exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -23,21 +23,24 @@ El perfil de su cuenta incluye sus credenciales de inicio de sesión y otra info
 
       1. Introduzca la nueva dirección de correo electrónico y la contraseña existente para la cuenta de usuario.
 
-      1. Haga clic **[!UICONTROL Continue]**.
+      1. Haga clic en **[!UICONTROL Continue]**.
+
    * Para editar la contraseña de la cuenta de usuario:
 
       1. Junto al existente **[!UICONTROL Password]**, haga clic en **[!UICONTROL Change]**.
 
       1. Introduzca la nueva contraseña dos veces.
 
-      1. Haga clic **[!UICONTROL Continue]**.
+      1. Haga clic en **[!UICONTROL Continue]**.
+
    * Para editar la pregunta de seguridad de la cuenta de usuario:
 
       1. Junto al existente **[!UICONTROL Security Question]**, haga clic en **[!UICONTROL Change]**.
 
-      1. Seleccione una **[!UICONTROL Secret Question]** e introduzca un **[!UICONTROL Secret Question Answer]**.
+      1. Seleccione un(a) **[!UICONTROL Secret Question]** e introduzca un(a) **[!UICONTROL Secret Question Answer]**.
 
-      1. Haga clic **[!UICONTROL Continue]**.
+      1. Haga clic en **[!UICONTROL Continue]**.
+
    * Para editar la zona horaria predeterminada de la cuenta de usuario:
 
       1. Junto al existente **[!UICONTROL Default Timezone]**, haga clic en **[!UICONTROL Change]**.
@@ -46,24 +49,20 @@ El perfil de su cuenta incluye sus credenciales de inicio de sesión y otra info
 
       1. (Opcional) Para tener en cuenta el horario de verano en los horarios informados, seleccione **[!UICONTROL Observe Daylight Savings Time]**.
 
-      1. Haga clic **[!UICONTROL Continue]**.
-   * (Usuarios que desean utilizar un asiento privado en [!DNL Google Authorized Buyers]) Para editar el [!DNL Google Authorized Buyers] puesto para la cuenta de usuario, que se utiliza de forma predeterminada para todas las campañas:
+      1. Haga clic en **[!UICONTROL Continue]**.
+
+   * (Usuarios que desean utilizar un asiento privado en [!DNL Google Authorized Buyers]) Para editar el asiento privado [!DNL Google Authorized Buyers] de la cuenta de usuario, que se utiliza de forma predeterminada en todas las campañas:
 
       1. Junto al existente **[!UICONTROL Google AdEx ID]**, haga clic en **[!UICONTROL Change]**.
 
-      1. Introduzca el nuevo **[!UICONTROL Ad Group ID]**.
+      1. Escriba el nuevo **[!UICONTROL Ad Group ID]**.
 
-      1. Haga clic **[!UICONTROL Save]**.
+      1. Haga clic en **[!UICONTROL Save]**.
 
-
-
-
-
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Invitar a un nuevo usuario a su cuenta de organización](user-invite.md)
-
 
 <!-- >* [User Profile and Organization Account Settings](user-and-account-settings.md) -->

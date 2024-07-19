@@ -16,18 +16,18 @@ ht-degree: 0%
 
 1. Mantenga el cursor sobre la fila del segmento y haga clic en **[!UICONTROL Get Pixel]**.
 
-   * La etiqueta de seguimiento de vista de página, que rastrea visitantes de escritorio y móviles a una página web, está etiquetada como &quot;[!UICONTROL Desktop or mobile websites].&quot; Para segmentos que realizan un seguimiento [!DNL ID5] ID, reemplazar `ID5_PARTNER_ID` en la etiqueta copiada con el ID de socio que [!DNL ID5] asignado a su organización cuando firmó un acuerdo con [!DNL ID5]. Si no conoce su ID de socio, póngase en contacto con el equipo de cuenta de Adobe.
+   * La etiqueta de seguimiento de vista de página, que realiza un seguimiento de los visitantes de escritorio y móviles de una página web, está etiquetada como &quot;[!UICONTROL Desktop or mobile websites]&quot;. Para segmentos que rastrean [!DNL ID5] ID, reemplace `ID5_PARTNER_ID` en la etiqueta copiada con el ID de socio que [!DNL ID5] asignó a su organización cuando firmó un acuerdo con [!DNL ID5]. Si no conoce su ID de socio, póngase en contacto con el equipo de cuenta de Adobe.
 
      Agregue la etiqueta a las páginas cuyas vistas desee rastrear.
 
-   * (Solo segmentos personalizados) La etiqueta de seguimiento de impresiones, que rastrea a los usuarios expuestos a una unidad de publicidad en dispositivos de escritorio, móviles o CTV, está etiquetada como &quot;[!UICONTROL Desktop or mobile ads].&quot; Añada la etiqueta a los anuncios cuyas vistas desee rastrear. Opcionalmente, puede añadir la etiqueta a una ubicación para adjuntarla de forma predeterminada a todos los anuncios asociados con la ubicación.
+   * (Solo segmentos personalizados) La etiqueta de seguimiento de impresiones, que rastrea a los usuarios expuestos a una unidad de publicidad en dispositivos de escritorio, móviles o CTV, está etiquetada como &quot;[!UICONTROL Desktop or mobile ads]&quot;. Añada la etiqueta a los anuncios cuyas vistas desee rastrear. Opcionalmente, puede añadir la etiqueta a una ubicación para adjuntarla de forma predeterminada a todos los anuncios asociados con la ubicación.
 
 Una vez implementada una etiqueta de seguimiento, puede utilizar el segmento en los objetivos de audiencia o las exclusiones para cualquier ubicación.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear un segmento personalizado](custom-segment-create.md)
->* [Editar información del segmento](segment-edit.md)
+>* [Editar información de segmento](segment-edit.md)
 >* [Eliminar un segmento](segment-delete.md)
 >* [Compartir o dejar de compartir un segmento](segment-share.md)

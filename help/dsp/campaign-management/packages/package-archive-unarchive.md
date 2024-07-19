@@ -19,24 +19,23 @@ Puede desarchivar un paquete para restaurar su estado anterior en cualquier mome
 ## Archivar un paquete
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
-1. Haga clic en el nombre de la campaña para abrir [!UICONTROL Packages] vista.
-1. Junto al nombre del paquete, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Haga clic en el nombre de la campaña para abrir la vista [!UICONTROL Packages].
+1. Junto al nombre del paquete, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Para ver los paquetes archivados, filtre la variable [!UICONTROL Packages] vista: clic ![Botón Filtro](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Package status]** y seleccione **[!UICONTROL Archived]** y haga clic en **[!UICONTROL Apply].**
+>Para ver los paquetes archivados, filtre la vista [!UICONTROL Packages]: haga clic en ![Botón de filtro](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Package status]** y seleccione **[!UICONTROL Archived]**, y después haga clic en **[!UICONTROL Apply].**
 
 ## Desarchivar un paquete
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
-1. Haga clic en el nombre de la campaña para abrir [!UICONTROL Packages] vista.
-1. Junto al nombre del paquete, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Haga clic en el nombre de la campaña para abrir la vista [!UICONTROL Packages].
+1. Junto al nombre del paquete, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [Edición de un paquete](package-edit.md)
->* [Visualización del registro de cambios de un paquete](package-change-log.md)
+>* [Editar un paquete](package-edit.md)
+>* [Ver el registro de cambios de un paquete](package-change-log.md)
 >* [Pausar o activar un paquete](package-pause-activate.md)
-

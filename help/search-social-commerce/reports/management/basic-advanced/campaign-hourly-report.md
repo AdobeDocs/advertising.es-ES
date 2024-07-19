@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Campaign Hourly Report]'
-description: Obtenga información acerca de [!UICONTROL Campaign Hourly Report].
-exl-id: 0819d249-c105-4408-b5a2-a82a9e553d31
+description: Más información acerca de [!UICONTROL Campaign Hourly Report].
+exl-id: 0e807e74-b8f8-4823-a9d9-1871a20e90b6
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Campaign Hourly Report]
 
-El [!UICONTROL Campaign Hourly Report] incluye datos de coste, de clics y (opcionalmente) de conversión de uno o más [!DNL Google Ads] campañas con palabras clave. De forma predeterminada, los datos incluyen una fila para cada campaña aplicable y para cada hora en el intervalo de fechas especificado. Las filas se muestran en orden ascendente, primero por campaña y luego (cuando corresponda) por portafolio.
+[!UICONTROL Campaign Hourly Report] incluye datos de costo, clics y (opcionalmente) conversión para una o más [!DNL Google Ads] campañas con palabras clave. De forma predeterminada, los datos incluyen una fila para cada campaña aplicable y para cada hora en el intervalo de fechas especificado. Las filas se muestran en orden ascendente, primero por campaña y luego (cuando corresponda) por portafolio.
 
 Si lo desea, puede incluir clasificaciones de etiquetas específicas del anunciante.
 
@@ -20,7 +20,7 @@ Los datos están disponibles a partir del 15 de mayo de 2021. <!-- [Later: You c
 
 ## Columnas predeterminadas
 
-Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informes para informes básicos y avanzados](basic-advanced-report-columns.md).&quot;
+Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informe para informes básicos y avanzados](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Campaign]
 * [!UICONTROL Portfolio]
@@ -37,5 +37,5 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes básicos y avanzados](basic-advanced-report-about.md)
->* [Generación de un informe básico o avanzado](basic-advanced-report-generate.md)
->* [Configuración de informes básica y avanzada](basic-advanced-report-settings.md)
+>* [Generar un informe básico o avanzado](basic-advanced-report-generate.md)
+>* [Configuración básica y avanzada del informe](basic-advanced-report-settings.md)

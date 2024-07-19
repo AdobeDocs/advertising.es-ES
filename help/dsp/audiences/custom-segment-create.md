@@ -16,19 +16,19 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
 >[!NOTE]
 >
->Para rastrear los ID de usuario de las solicitudes de exclusión de la venta de consumidores en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA), cree una [Segmento de exclusión de la venta de CCPA](ccpa-opt-out-segment-create.md).
+>Para rastrear los ID de usuarios de las solicitudes de exclusión de la venta de consumidores en su sitio web, de conformidad con la Ley de Privacidad del Consumidor de California (CCPA), cree un [segmento de exclusión de la venta de CCPA](ccpa-opt-out-segment-create.md).
 
 ## Requisitos previos para que los segmentos realicen un seguimiento de los ID5
 
-*Función beta*
+*característica de Beta*
 
 * Antes de generar un segmento para rastrear usuarios asociados con ID5 ID, firme un acuerdo con [!DNL ID5] y obtenga el ID de socio de su organización. Póngase en contacto con el equipo de cuenta de Adobe para obtener instrucciones.
 
 * Para realizar mediciones en Adobe Analytics, debe:
 
-   1. Completar todo [requisitos previos para la implementación [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md), y asegúrese de que la variable [ID de AMO e ID de EF](/help/integrations/analytics/ids.md) se están rellenando en las direcciones URL de seguimiento.
+   1. Complete todos los [requisitos previos para implementar [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md), y asegúrese de que el [ID de AMO e ID de EF](/help/integrations/analytics/ids.md) se estén llenando en sus URL de seguimiento.
 
-   1. Agregue el siguiente parámetro a sus páginas web antes o dentro de la variable [Código JavaScript necesario para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) — en cualquier lugar antes de que se inicialice el último servicio de eventos.
+   1. Agregue el siguiente parámetro a sus páginas web antes o dentro del [código JavaScript necesario para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md), en cualquier lugar antes de que se inicialice el último servicio de eventos.
 
       ```window.id5PartnerId=Your_ID5_PartnerID;```
 
@@ -43,7 +43,7 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
       </script>
       ```
 
-   1. Utilice cualquier herramienta de depuración del explorador para comprobar que cada llamada se inicia en el dominio. `lasteventf-tm.everesttech.net` y contiene el parámetro `_les_id5` con un ID5 cifrado como su valor.
+   1. Use cualquier herramienta de depuración del explorador para comprobar que cada llamada se inicia en el dominio `lasteventf-tm.everesttech.net` y contiene el parámetro `_les_id5` con un ID. de ID5 cifrado como valor.
 
 ## Creación e implementación de un segmento personalizado
 
@@ -53,25 +53,25 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
    1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]**.
 
-   1. Introduzca un único **[!UICONTROL Segment Name]**.
+   1. Escriba un(a) **[!UICONTROL Segment Name]** único.
 
-   1. Para el **[!UICONTROL Segment Type]**, seleccione *[!UICONTROL Custom]*.
+   1. Para **[!UICONTROL Segment Type]**, seleccione *[!UICONTROL Custom]*.
 
-   1. Introduzca el **[!UICONTROL Lookback Window]**, que es el número de días que la cookie de un usuario permanece en el segmento.
+   1. Escriba **[!UICONTROL Lookback Window]**, que es el número de días que la cookie de un usuario permanece en el segmento.
 
       La ventana predeterminada es de 45 días. Introduzca un valor de uno (1) a 365.
 
-   1. Clic **[!UICONTROL Advanced]** para expandir la configuración avanzada y, a continuación, seleccione los tipos de identificadores de usuario que rastrea la etiqueta de segmento:
+   1. Haga clic en **[!UICONTROL Advanced]** para expandir la configuración avanzada y, a continuación, seleccione los tipos de identificadores de usuario que la etiqueta de segmento rastrea:
 
-      * *[!UICONTROL Cookies]:* (El valor predeterminado) La etiqueta de segmento rastrea las cookies.
+      * *[!UICONTROL Cookies]:* (Valor predeterminado) La etiqueta de segmento realiza el seguimiento de las cookies.
 
       * [!UICONTROL Universal IDs (Beta)]:
 
          * *[!UICONTROL ID5]:* La etiqueta de segmento rastrea [!DNL ID5] ID. No se incurre en cargos por impresiones entregadas a ID universales.
 
-        **[!UICONTROL Terms of Service]:** El contrato de términos de servicio para usar un identificador universal. DSP Usted u otro usuario de la cuenta debe aceptar los términos una vez, a fin de poder usar identificadores universales para un nuevo tipo de ID. Para los clientes con contratos de servicio gestionado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
+        **[!UICONTROL Terms of Service]:** Los términos del contrato de servicio para usar identificadores universales. DSP Usted u otro usuario de la cuenta debe aceptar los términos una vez, a fin de poder usar identificadores universales para un nuevo tipo de ID. Para los clientes con contratos de servicio gestionado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
 
-   1. Clic **[!UICONTROL Save]**.
+   1. Haga clic en **[!UICONTROL Save]**.
 
 1. Copie e implemente etiquetas para realizar el seguimiento del segmento, según sea necesario:
 
@@ -81,21 +81,21 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
       * Para realizar un seguimiento de los visitantes de escritorio y móviles de una página web:
 
-         1. Copie la etiqueta de seguimiento de vista de página, que está etiquetada como &quot;[!UICONTROL Desktop or mobile websites].&quot;
+         1. Copie la etiqueta de seguimiento de vista de página, con la etiqueta &quot;[!UICONTROL Desktop or mobile websites]&quot;.
 
-         1. (Etiquetas para segmentos que realizan un seguimiento) [!DNL ID5] (ID) En la etiqueta copiada, sustituya `ID5_PARTNER_ID` con el ID de socio que [!DNL ID5] asignado a su organización.
+         1. (Etiquetas para segmentos que rastrean [!DNL ID5] ID) En la etiqueta copiada, reemplace `ID5_PARTNER_ID` con el ID de socio que [!DNL ID5] asignó a su organización.
 
             Por ejemplo, si el ID del socio ID5 es `abcde` y la etiqueta de segmento generada es
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
-            luego reemplazar `ID5_PARTNER_ID` con `abcde` dentro de la etiqueta para obtener lo siguiente:
+            a continuación, reemplace `ID5_PARTNER_ID` por `abcde` dentro de la etiqueta para obtener lo siguiente:
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
             Su organización recibió el ID de socio cuando firmó un acuerdo con [!DNL ID5]. Si no conoce su ID de socio, póngase en contacto con el equipo de cuenta de Adobe.
 
-            Este paso no es necesario para que las etiquetas se rastreen [!DNL ID5] ID para usuarios expuestos a una unidad de publicidad en dispositivos de escritorio o móviles.
+            Este paso no es necesario para que las etiquetas realicen un seguimiento de los ID de [!DNL ID5] de los usuarios expuestos a una unidad de publicidad en el escritorio o en dispositivos móviles.
 
          1. Proporcione la etiqueta al anunciante o al contacto del sitio web para su implementación.
 
@@ -103,9 +103,9 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
       * Para hacer un seguimiento de los usuarios expuestos a una unidad de publicidad en equipos de escritorio o dispositivos móviles:
 
-         1. Copie la etiqueta de seguimiento de impresiones, que tiene la etiqueta &quot;[!UICONTROL Desktop or mobile ads].&quot;
+         1. Copie la etiqueta de seguimiento de impresiones, con la etiqueta &quot;[!UICONTROL Desktop or mobile ads]&quot;.
 
-         1. Agregue la etiqueta a la variable [!UICONTROL Pixel] para cada anuncio relevante o para el [!UICONTROL Event Pixels] de la sección [[!UICONTROL Tracking] configuración para cada ubicación relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Agregue la etiqueta a la ficha [!UICONTROL Pixel] para cada anuncio relevante o a la sección [!UICONTROL Event Pixels] de la configuración [[!UICONTROL Tracking] para cada ubicación relevante](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 Una vez implementada una etiqueta de seguimiento, puede utilizar el segmento en los objetivos de audiencia o las exclusiones para cualquier ubicación.
 
@@ -115,12 +115,12 @@ Una vez implementada una etiqueta de seguimiento, puede utilizar el segmento en 
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
->* [Editar información del segmento](segment-edit.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
+>* [Editar información de segmento](segment-edit.md)
 >* [Eliminar un segmento](segment-delete.md)
->* [Visualización de los píxeles de seguimiento de un segmento](segment-view-pixels.md)
+>* [Ver píxeles de seguimiento para un segmento](segment-view-pixels.md)
 >* [Compartir o dejar de compartir un segmento](segment-share.md)
->* [Creación e implementación de un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
+>* [Crear e implementar un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

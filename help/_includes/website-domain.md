@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Campo Dominio del sitio web en la configuración de campañas de búsqueda de GGL y MS
 
-**[!UICONTROL Website Domain]:** (Solo red de búsqueda; aplicable solo a anuncios dinámicos de búsqueda expandidos) El dominio raíz (como example.com) o subdominio (como shoes.example.com) del sitio web cuyo contenido la red de publicidad debe utilizar para segmentar los anuncios dinámicos de búsqueda.
+**[!UICONTROL Website Domain]:** (solo red de búsqueda; aplicable solo a anuncios dinámicos de búsqueda expandidos) Dominio raíz (como example.com) o subdominio (como shoes.example.com) del sitio web cuyo contenido la red de publicidad debe usar para segmentar los anuncios dinámicos de búsqueda.
 
 **Notas:**
 

@@ -12,18 +12,18 @@ ht-degree: 1%
 
 # Métodos abreviados de teclado
 
-En la configuración de ubicación, utilice los métodos abreviados del teclado para desplazarse rápidamente<!-- and to create ads and placements -->.
+En la configuración de ubicación, use los métodos abreviados del teclado para desplazarse rápidamente por <!-- and to create ads and placements -->.
 
 | Página(s) aplicable(s) | Acceso directo | Descripción |
 | ---------------| ----------- | ---------------------- |
-| Configuración de ubicación | o | Le traslada a la [!UICONTROL Goals] configuración |
-| Configuración de ubicación | g | Le traslada a la [!UICONTROL Geos] configuración |
-| Configuración de ubicación | i | Le traslada a la [!UICONTROL Inventory] configuración |
-| Configuración de ubicación | s | Le traslada a la [!UICONTROL Sites] configuración |
-| Configuración de ubicación | a | Le traslada a la [!UICONTROL Audience] configuración |
-| Configuración de ubicación | b | Le traslada a la [!UICONTROL Brand Safety] configuración |
-| Configuración de ubicación | t | Le traslada a la [!UICONTROL Tracking] configuración |
-| Configuración de ubicación | l | Le traslada a la [!UICONTROL Adobe Labs] configuración |
+| Configuración de ubicación | o | Le mueve a la configuración de [!UICONTROL Goals] |
+| Configuración de ubicación | g | Le mueve a la configuración de [!UICONTROL Geos] |
+| Configuración de ubicación | i | Le mueve a la configuración de [!UICONTROL Inventory] |
+| Configuración de ubicación | s | Le mueve a la configuración de [!UICONTROL Sites] |
+| Configuración de ubicación | a | Le mueve a la configuración de [!UICONTROL Audience] |
+| Configuración de ubicación | b | Le mueve a la configuración de [!UICONTROL Brand Safety] |
+| Configuración de ubicación | t | Le mueve a la configuración de [!UICONTROL Tracking] |
+| Configuración de ubicación | l | Le mueve a la configuración de [!UICONTROL Adobe Labs] |
 
 {style="table-layout:auto"}
 

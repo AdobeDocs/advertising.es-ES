@@ -5,8 +5,8 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# DSP Documentación de Advertising
+# Documentación de Advertising DSP
 
 DSP Esta es la carpeta para la documentación de ayuda de la.
 
-**Nota: Esta página no se publica en la documentación de cliente.**
+**Nota: esta página no se ha publicado en la documentación del cliente.**

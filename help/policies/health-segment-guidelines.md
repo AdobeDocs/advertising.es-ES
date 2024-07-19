@@ -1,30 +1,30 @@
 ---
-title: Segmentos de estado aceptables para publicidad de Adobe
+title: Adobe Advertising de segmentos de estado aceptables
 description: Consulte las directrices para segmentos de audiencia relacionados con el estado aceptables y tácticas que se deben usar como alternativas para segmentar audiencias relacionadas con el estado.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Directrices de segmentos de estado aceptables para publicidad de Adobe
+# Adobe Advertising de directrices de segmentos de estado aceptables
 
-*Para Adobe DSP Advertising y[!DNL Adobe Advertising Search, Social, & Commerce]*
+*Para Adobe Advertising DSP y[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 Las siguientes directrices describen segmentos de audiencia aceptables e inaceptables relacionados con el estado. También recomiendan tácticas para usarlas como alternativas para segmentar audiencias relacionadas con la salud.
 
-Estas directrices se resumen en el [!DNL Network Advertising Alliance (NAI)].
+Estas directrices se resumen en [!DNL Network Advertising Alliance (NAI)].
 
-Consulte también [Política de requisitos de Adobe Advertising Ads](/help/policies/ad-requirements-policy.md) para determinar si un segmento de audiencia relacionado con el estado se puede utilizar según la directiva de segmentación de publicidad de Adobe.
+Consulte también [Directiva de requisitos de anuncios de Adobe Advertising](/help/policies/ad-requirements-policy.md) para determinar si un segmento de audiencia relacionado con el estado se puede utilizar según la directiva de segmentación de Adobe Advertising.
 
 ## Segmentos De Estado Que No Deben Utilizarse
 
 * Segmentos que dependen de información médica protegida (PHI)\*, registros médicos a nivel de usuario, recetas farmacéuticas o fuentes médicas o de salud similares que proporcionen conocimiento real del padecimiento o tratamiento de ese usuario.
 
-   \* Adobe La publicidad no es un [!DNL HIPAA]Solución lista para usar.
+  \* El Adobe Advertising no es una solución compatible con [!DNL HIPAA].
 
 * Segmentos que se dirigen a problemas de salud (o tratamientos relacionados), como cualquier forma de cáncer, salud mental, adicción a las drogas, enfermedades de transmisión sexual, enfermedades que afectan predominantemente a los niños, u otras condiciones de salud sensibles que no se pueden tratar con medicamentos de venta libre (por ejemplo, diabetes, psoriasis, artritis reumatoide o enfermedades de fibromialgia).
 
@@ -50,5 +50,4 @@ Todo lo siguiente debe ser verdadero:
 
 >[!MORELIKETHIS]
 >
->* [Política de requisitos de anuncios](/help/policies/ad-requirements-policy.md)
-
+>* [Directiva de requisitos de anuncios](/help/policies/ad-requirements-policy.md)

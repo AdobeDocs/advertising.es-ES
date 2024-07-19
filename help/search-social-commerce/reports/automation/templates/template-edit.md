@@ -1,9 +1,9 @@
 ---
 title: Edición de una plantilla de informe
 description: Obtenga información sobre cómo editar la configuración de las plantillas de informe reutilizables.
-exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puede cambiar la configuración de cualquier plantilla de informe que haya cread
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Haga clic en **[!UICONTROL Templates]** pestaña.
+1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
 1. Haga clic en el nombre de la plantilla.
 
@@ -24,13 +24,13 @@ Puede cambiar la configuración de cualquier plantilla de informe que haya cread
 
    >[!NOTE]
    >
-   > Cuando edita la configuración, no es necesario seleccionar la casilla de verificación situada junto a &quot;[!UICONTROL Save as template]&quot; en el [!UICONTROL Scheduling and Delivery] sección. Al hacerlo, se le pedirá que cree una nueva plantilla con un nombre diferente.
+   > Cuando edita la configuración, no es necesario que active la casilla de verificación situada junto a &quot;[!UICONTROL Save as template]&quot; en la sección [!UICONTROL Scheduling and Delivery]. Al hacerlo, se le pedirá que cree una nueva plantilla con un nombre diferente.
 
-1. Haga clic **[!UICONTROL Update Template]**.
+1. Haga clic en **[!UICONTROL Update Template]**.
 
 >[!MORELIKETHIS]
 >
->* [Plantillas de informe](template-about.md)
->* [Creación de una plantilla de informe](template-create.md)
+>* [Acerca de las plantillas de informe](template-about.md)
+>* [Crear una plantilla de informe](template-create.md)
 >* [Ver una plantilla de informe](template-view.md)
 >* [Eliminar plantillas de informe](template-delete.md)

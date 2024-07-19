@@ -1,24 +1,24 @@
 ---
-title: '''[!DNL Google Ads] configuración de anuncios de búsqueda adaptable'
-description: Haga referencia a la configuración de [!DNL Google Ads] anuncios de búsqueda adaptables.
-exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+title: '[!DNL Google Ads] configuración de anuncios de búsqueda adaptable'
+description: Hacer referencia a la configuración de  [!DNL Google Ads] anuncios de búsqueda adaptables.
+exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Ads] configuración de anuncios de búsqueda adaptable
 
-[!DNL Google Ads] ensamblados dinámicamente [anuncios de búsqueda adaptables](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA) con hasta tres titulares y dos descripciones.
+[!DNL Google Ads] organiza [anuncios de búsqueda interactivos](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA) de forma dinámica con hasta tres titulares y dos descripciones.
 
 >[!NOTE]
 >
 >Cada grupo de anuncios puede incluir hasta tres anuncios de búsqueda adaptables habilitados.
 
-Consulte la [!DNL Google Ads] ayuda para [límites de anuncios por cuenta](https://support.google.com/google-ads/answer/6372658?hl=en).
+Consulte la ayuda de [!DNL Google Ads] para [límites de anuncios por cuenta](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 ## [!UICONTROL Responsive Search Ad Details]
 
@@ -51,6 +51,6 @@ Consulte la [!DNL Google Ads] ayuda para [límites de anuncios por cuenta](https
 >[!MORELIKETHIS]
 >
 >* [Acerca de los anuncios](ad-about.md)
->* [Administración de anuncios](ad-manage.md)
->* [[!DNL Google Ads] configuración de anuncios de solo llamada](ad-settings-google-call.md)
+>* [Administrar anuncios](ad-manage.md)
+>* [[!DNL Google Ads] configuración de anuncios solo para llamada](ad-settings-google-call.md)
 >* [[!DNL Google Ads] configuración de anuncios dinámicos de búsqueda expandida](ad-settings-google-dsa.md)

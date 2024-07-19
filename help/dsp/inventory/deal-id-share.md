@@ -28,9 +28,9 @@ Puede dejar de compartir un acuerdo con cuentas para eliminar las capacidades de
 
 1. Para que cada cuenta comparta:
 
-   1. Introduzca el **[!UICONTROL Email Address]** para la cuenta con acceso al acuerdo.
+   1. Escriba **[!UICONTROL Email Address]** para la cuenta con acceso a la oferta.
 
-   1. Haga clic **[!UICONTROL Share]**.
+   1. Haga clic en **[!UICONTROL Share]**.
 
 ## Dejar de compartir un ID de acuerdo con cuentas
 
@@ -38,13 +38,12 @@ Puede dejar de compartir un acuerdo con cuentas para eliminar las capacidades de
 
 1. En la fila de la oferta, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
-1. Junto a la [!UICONTROL Account Email] , haga clic en **[!UICONTROL Unshare].**
+1. Junto al valor [!UICONTROL Account Email], haga clic en **[!UICONTROL Unshare].**
 
-1. Clic **[!UICONTROL Cancel]** para cerrar la ventana.
+1. Haga clic en **[!UICONTROL Cancel]** para cerrar la ventana.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
->* [Edición de los anunciantes con acceso a un ID de acuerdo](/help/dsp/inventory/deal-id-edit-advertisers.md)
->* [Configuración del ID de acuerdo manual](deal-id-settings.md)
-
+>* [Editar los anunciantes con acceso a un ID de acuerdo](/help/dsp/inventory/deal-id-edit-advertisers.md)
+>* [Configuración de ID de acuerdo manual](deal-id-settings.md)

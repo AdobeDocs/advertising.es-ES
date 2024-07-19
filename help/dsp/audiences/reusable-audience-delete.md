@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puede eliminar una audiencia que no se utilice en ninguna ubicación u otras audiencias reutilizables.
 
-Si una audiencia está actualmente en uso, tiene la opción de exportar un [!DNL Microsoft Excel] hoja de cálculo que muestra todas las ubicaciones y audiencias que utilizan la audiencia.
+Si una audiencia está actualmente en uso, tiene la opción de exportar una hoja de cálculo de [!DNL Microsoft Excel] que muestre todas las ubicaciones y audiencias que utilizan la audiencia.
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
@@ -28,11 +28,11 @@ Si una audiencia está actualmente en uso, tiene la opción de exportar un [!DNL
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
->* [Duplicación de una audiencia reutilizable](reusable-audience-duplicate.md)
+>* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)
 >* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)

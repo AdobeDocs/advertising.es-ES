@@ -1,9 +1,9 @@
 ---
-title: Formatos de rastreo de clics para [!DNL Baidu]
-description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Baidu] cuentas.
-exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+title: Formatos de rastreo de clics para  [!DNL Baidu]
+description: Obtenga información acerca de los formatos de seguimiento de clics para  [!DNL Baidu] cuentas.
+exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
 >
->* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
+>* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
 >* `<campaignID>` es una variable para el ID de campaña numérico.
 >

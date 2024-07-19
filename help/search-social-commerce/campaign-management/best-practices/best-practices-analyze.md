@@ -20,13 +20,13 @@ Los informes avanzados pueden ayudarle a tomar decisiones estratégicas sobre la
 
 * Sea prudente a la hora de excluir sitios web de sus campañas, ya que los cambios de contenido y mercado pueden cambiar rápidamente el valor del tráfico de un sitio.
 
-Para obtener más información sobre cómo ajustar las palabras clave y la configuración de la campaña, consulte &quot;Ajuste de las estrategias del portafolio&quot; en la sección Portfolio de la Guía de optimización, que está disponible desde Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Para obtener más información sobre cómo ajustar las palabras clave y la configuración de campaña, consulte &quot;Ajuste de las estrategias del portafolio&quot; en la sección Portfolio de la Guía de optimización, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->Para conocer las prácticas recomendadas específicas de las campañas en portafolios, consulte también la sección Guía de optimización > Administración de Portfolio > Prácticas recomendadas para Portfolio, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Para obtener más prácticas recomendadas específicas para campañas en portafolios, consulte también la sección Guía de optimización > Administración de Portfolio > Prácticas recomendadas para Portfolio, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
 >* [Escribir texto efectivo y copiar](best-practices-write.md)
->* [Optimización de las páginas de aterrizaje del sitio web](best-practices-optimize.md)
+>* [Optimizar las páginas de aterrizaje del sitio web](best-practices-optimize.md)

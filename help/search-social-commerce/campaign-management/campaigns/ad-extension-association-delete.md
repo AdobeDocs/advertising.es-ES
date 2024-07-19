@@ -20,7 +20,7 @@ Puede eliminar asociaciones de nivel de campaña y de grupo de publicidad con cu
 
 1. Active la casilla de verificación situada junto a cada asociación que desee eliminar.
 
-   Para obtener sugerencias sobre cómo seleccionar varias filas, &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Para obtener sugerencias sobre cómo seleccionar varias filas, &quot;[Seleccione varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. En la barra de herramientas, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y seleccione **[!UICONTROL Delete]**.
 

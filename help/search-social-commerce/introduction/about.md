@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Acerca de Búsqueda de Adobe Advertising, Social y Commerce
 
-[!DNL Adobe] es el líder del mercado y de la tecnología en soluciones de experiencia del cliente. El Adobe Advertising simplifica el envío de campañas publicitarias en canales múltiples para la administración de campañas de marca y rendimiento en cualquier pantalla y en cualquier formato. Adobe Advertising consta de tres subsoluciones: Advertising Search, Social y Commerce DSP para canales máximos de búsqueda, compra, medios sociales, red de audiencias y rendimiento; Advertising (Demand Side Platform) para canales de visualización y Advertising Creative para crear experiencias de usuario final para sus anuncios en pantalla.
+[!DNL Adobe] es el líder tecnológico y de mercado en soluciones de experiencia del cliente. El Adobe Advertising simplifica el envío de campañas publicitarias en canales múltiples para la administración de campañas de marca y rendimiento en cualquier pantalla y en cualquier formato. Adobe Advertising consta de tres subsoluciones: Advertising Search, Social y Commerce para canales de búsqueda, compras, medios sociales, red de audiencias y rendimiento máximo; Advertising DSP (Demand Side Platform) para canales de visualización; y Advertising Creative para crear experiencias de usuario final para sus anuncios en pantalla.
 
-Como parte de los Adobes Advertising, Advertising Search, Social y Commerce combina la mejor administración de anuncios basada en portafolios con previsiones de campañas inteligentes y entrega de anuncios segmentados para una publicidad optimizada para datos.
+Como parte del Adobe Advertising, Advertising Search, Social y Commerce combinan la mejor administración de anuncios basada en portafolios con previsiones de campañas inteligentes y entrega de anuncios segmentados para una publicidad optimizada para datos.
 
 ## Tecnología impulsada por IA para la optimización de anuncios
 
 Search, Social y Commerce automatizan y optimizan la administración de ofertas y presupuestos de campañas de publicidad en redes de publicidad dentro de los límites de los objetivos comerciales, las métricas, el presupuesto y otras restricciones comerciales de un anunciante. Rastrea el historial de clics, costes y conversiones de cada una de las palabras clave y anuncios de un anunciante, así como información sobre el panorama de ofertas en cada canal de marketing. Con un enfoque de teoría de portafolios, la capacidad de optimización compara todas las asignaciones posibles del presupuesto en un portafolio completo de campañas para determinar las ofertas y los presupuestos de campaña que arrojarán el mayor rendimiento posible del gasto en publicidad y ejecuta las ofertas y los presupuestos en consecuencia. La capacidad de optimización supervisa constantemente las palabras clave y los anuncios de un anunciante, ajustando dinámicamente las ofertas y los presupuestos a medida que cambia el mercado.
 
-Hay disponibles varios tipos de optimización, lo que permite que Search, Social y Commerce, y la red de publicidad tengan distintos grados de control sobre la optimización de ofertas. Según el tipo de optimización, puede optimizar sus portafolios mediante conversiones rastreadas por Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics]u otras fuentes empresariales de origen.
+Hay disponibles varios tipos de optimización, lo que permite que Search, Social y Commerce, y la red de publicidad tengan distintos grados de control sobre la optimización de ofertas. Según el tipo de optimización, puede optimizar sus portafolios mediante las conversiones rastreadas por Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] u otras fuentes empresariales de origen.
 
 Según su función, es posible que pueda ver simulaciones de rendimiento de portafolios, que utilizan un modelado predictivo para identificar el punto de gasto óptimo, así como informes detallados de precisión de previsión. Todos los usuarios pueden utilizar la herramienta de recomendación de gastos para identificar la distribución presupuestaria óptima entre portafolios.
 
@@ -30,13 +30,13 @@ Para obtener más información, consulte el capítulo Portfolio en la Guía de o
 
 Search, Social y Commerce ofrecen administración, optimización, seguimiento y creación de informes de campañas completas en sus redes de anuncios. En las vistas de administración de anuncios, puede:
 
-* **Administración de campañas:**  Sincronice sus cuentas de publicidad para ver las redes de publicidad admitidas y, a continuación, configure y administre muchos tipos de campaña manualmente, con hojas de edición masiva y automáticamente mediante las fuentes de datos de inventario.
+* **Administración de campañas:** Sincroniza tus cuentas de publicidad para las redes de publicidad admitidas y, a continuación, configura y administra muchos tipos de campañas manualmente, con hojas de edición masiva y automáticamente mediante las fuentes de datos de inventario.
 
 * **Optimización:** Agrupe sus campañas y conjuntos de anuncios en diferentes tipos de portafolios para la optimización. Utilice simulaciones de portafolios para predecir el impacto de los cambios en la estrategia de gasto y otros ajustes de portafolio.
 
-* **Seguimiento de campañas:** Configure el acceso a otras campañas publicitarias para las que solo desee realizar el seguimiento y crear informes. Esto puede incluir la carga de datos y métricas de campañas.
+* **Seguimiento de campañas:** configure el acceso a otras campañas publicitarias para las que solo desee realizar el seguimiento y generar informes. Esto puede incluir la carga de datos y métricas de campañas.
 
-* **Informes:** Supervise y analice el rendimiento de sus portafolios y de cualquier otra campaña de la que esté realizando un seguimiento mediante vistas de datos de rendimiento e informes detallados y personalizables. Puede incluir métricas de conversión de Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics]y otras fuentes empresariales de origen en vistas de datos e informes.
+* **Creación de informes:** Supervise y analice el rendimiento de sus portafolios y de cualquier otra campaña de la que esté realizando un seguimiento mediante vistas de datos de rendimiento e informes detallados y personalizables. Puede incluir métricas de conversión de Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] y otras fuentes empresariales de origen en vistas de datos e informes.
 
    * Configure las distintas vistas de datos de rendimiento para obtener una visibilidad óptima de los datos de rendimiento que le importan.
 
@@ -48,9 +48,9 @@ Consulte &quot;[Inventario compatible](/help/search-social-commerce/introduction
 
 ## Integración con soluciones y servicios de Adobe Experience Cloud
 
-Las integraciones nativas con Adobe Analytics y Adobe Audience Manager le permiten conectar los datos y los segmentos de audiencia para la segmentación de anuncios, [!DNL Google Ads] creación de audiencias, optimización y reporting/analytics.
+Las integraciones nativas con Adobe Analytics y Adobe Audience Manager le permiten conectar sus datos y segmentos de audiencia para la segmentación de anuncios, la creación de audiencias [!DNL Google Ads], la optimización y los informes/análisis.
 
-Para obtener más información sobre las integraciones con estos y otros productos de Adobe, consulte &quot;[Integración con soluciones y servicios de Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md).&quot;
+Para obtener más información acerca de las integraciones con estos y otros productos de Adobe, consulte &quot;[Integración con soluciones y servicios de Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)&quot;.
 
 ## Seguimiento de conversión
 
@@ -62,5 +62,5 @@ Para obtener más información sobre el seguimiento, consulte el capítulo sobre
 
 >[!MORELIKETHIS]
 >
->* [Inventario admitido](supported-inventory.md)
+>* [Inventario compatible](supported-inventory.md)
 >* [Integración con soluciones y servicios de Adobe Experience Cloud](integrations.md)

@@ -1,6 +1,6 @@
 ---
 title: Glosario
-description: Consulte las definiciones de los términos clave.
+description: Consulte las definiciones de términos clave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
 source-git-commit: 3500e22944223997dc56dc94c24639a57e8c54f4
@@ -14,190 +14,190 @@ ht-degree: 0%
 
 ## A-B {#a-b}
 
-**grupo de publicidad:** un conjunto de anuncios y sus palabras clave, ubicaciones y grupos de productos relacionados para una campaña.
+**grupo de anuncios:** Un conjunto de anuncios y sus palabras clave, ubicaciones y grupos de productos relacionados para una campaña.
 
-**anuncios variación:** Cualquier anuncios dentro de una estrategia grupo de publicidad o anuncios.
+**variación de anuncio:** Cualquier anuncio dentro de un grupo de anuncios o estrategia de publicidad.
 
-**[AMO ID:](/help/integrations/analytics/ids.md#amo-id)** código de seguimiento que permite a Adobe Systems Advertising compartir datos sobre campañas con Adobe Analytics. Comienza con `s_kwcid=`.
+**[ID de AMO](/help/integrations/analytics/ids.md#amo-id):** Un código de seguimiento que permite al Adobe Advertising compartir datos sobre campañas con Adobe Analytics. Comienza con `s_kwcid=`.
 
-**oferta unidad:** Un término de Search, Social y comercio para una unidad en la que se colocan ofertas.
+**unidad de oferta:** Término de búsqueda, social y Commerce para una unidad en la que se colocan ofertas.
 
-* Para campañas CPC, se trata de un palabra clave y su tipo de coincidencia para un búsqueda o contenido campaña, un grupo de producto de nivel de unidad (el nivel más bajo de subdivisión) para un campaña de compras o un búsqueda destino dinámico para un búsqueda campaña de anuncios dinámico. Cuando se produce la misma combinación de tipos de palabra clave y coincidencia, el mismo grupo de producto o el mismo búsqueda destino dinámico dentro de varios grupos de anuncios en un solo campaña, todas las instancias se consideran la misma unidad de oferta y, por lo tanto, tienen el mismo oferta.
+* Para las campañas CPC, se trata de una palabra clave y su tipo de coincidencia para una campaña de búsqueda o de contenido, un grupo de productos de nivel unitario (el nivel más bajo de subdivisión) para una campaña de compras o un objetivo de búsqueda dinámica para una campaña de publicidad de búsqueda dinámica. Cuando la misma combinación de palabra clave y tipo de coincidencia, el mismo grupo de productos o el mismo objetivo de búsqueda dinámica se producen en varios grupos de anuncios en una sola campaña, todas las instancias se consideran la misma unidad de oferta y, por lo tanto, tienen la misma oferta.
 
-* Para campañas con las estrategias , [!DNL Maximize Clicks][!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition], o [!DNL Target Return on Ad Spend] de gasto, cada campaña es una unidad oferta.
+* Para las campañas con las estrategias de gasto [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition] o [!DNL Target Return on Ad Spend], cada campaña es una unidad de oferta.
 
-* En el caso de las campañas en [!DNL Yahoo! Display Network], que no utiliza palabras clave, todos los anuncios de una grupo de publicidad tienen el mismo oferta y se consideran la misma unidad de oferta.
+* Para las campañas de [!DNL Yahoo! Display Network] que no usan palabras clave, todos los anuncios de un grupo de anuncios tienen la misma oferta y se consideran la misma unidad de oferta.
 
-**oferta restricción de unidad:** Consulte &quot;restricción&quot;.
+**restricción de unidad de oferta:** Consulte &quot;restricción&quot;.
 
 ## C-D {#c-d}
 
-**campaña:** conjunto de grupos de anuncios en una sola anuncios cuenta que comparten presupuesto, lapso de tiempo, direccionamiento y otras configuraciones. **Nota:** [!DNL Baidu] no tiene el concepto de campañas, pero Search, Social y Comercio crea pseudocampañas para cada conjunto de grupos de anuncios relacionados en cuentas existentes [!DNL Baidu] que se sincronizan dentro de Search, Social y Comercio.
+**campaña:** conjunto de grupos de anuncios en una sola cuenta de publicidad que comparten un presupuesto, un período de tiempo, un objetivo y otra configuración. **Nota:** [!DNL Baidu] no tiene el concepto de campañas, pero Search, Social y Commerce crean pseudocampañas para cada conjunto de grupos de anuncios relacionados en cuentas existentes de [!DNL Baidu] que se sincronizan en Search, Social y Commerce.
 
-**Campo que distingue entre mayúsculas y minúsculas:** un campo o consulta distingue entre mayúsculas y minúsculas (como C) de manera diferente a las letras minúsculas (como c). Por ejemplo, Coche se trata como un valor distinto del coche.
+**campo que distingue entre mayúsculas y minúsculas:** Un campo o consulta que distingue entre mayúsculas y minúsculas trata las letras mayúsculas (como C) de manera diferente a las letras minúsculas (como c). Por ejemplo, Coche se trata como un valor diferente al coche.
 
-**Haga clic en:** una sola usuario clic sobre una en línea anuncios o dentro de ella.
+**clic:** Un solo usuario hace clic en un anuncio en línea o dentro de él.
 
-**Ventana de retrospectiva de clics:** una configuración de nivel de anunciante que especifica el número de días después de que se produce un clic pagado en una serie de evento en los que el clic se puede atribuir a un Conversión.
+**ventana retrospectiva de clics:** Una configuración de nivel de anunciante que especifica el número de días después de un clic de pago en una serie de eventos en la que el clic puede atribuirse a una conversión.
 
-**Hora de clics:** La hora a la que una usuario final con una dirección IP única hace clic por primera vez en una anuncios en el red de anuncios.
+**hora de clic:** hora a la que un usuario final con una dirección IP única hace clic por primera vez en un anuncio de la red de anuncios.
 
-**Tasa de pulsaciones:** (porcentaje de clics) el número de clics dividido por el número de impresiones de una anuncios. Las publicidades que son más relevantes para el consulta de búsqueda tienen las tasas de pulsaciones más altas.
+**tasa de pulsaciones:** (CTR) El número de clics dividido por el número de impresiones de un anuncio. Los anuncios que son más relevantes para la consulta de búsqueda tienen las tasas de pulsaciones más altas.
 
-**Click-seguimiento URL:** URL de seguimiento plantilla o destino con código incrustado para rastrear clics en una palabra clave, variación anuncios o ubicación.
+**URL de seguimiento de clics:** Una plantilla de seguimiento o una URL de destino con código incrustado para rastrear clics en una palabra clave, variación de anuncio o ubicación.
 
-**Restricción:** (Anunciantes con portafolios; aplicable solo para unidades oferta en portafolios estándar) Un regla para pujar por un palabra clave o anuncios específico. Anula los límites de nivel catálogo de productos y la estrategia de oferta recomendada.
+**restricción:** (Anunciantes con portafolios; aplicable solo para unidades de oferta en portafolios estándar) Una regla para pujar por una palabra clave o anuncio específico. Anula cualquier límite de nivel de portafolio y la estrategia de oferta recomendada.
 
-**Conversión:** la finalización de una acción después de una usuario de finalización hace clic en un anuncios, generalmente se captura como un Métrica. Los ejemplos incluyen registros y compras, y pueden representar recuentos o sumas monetarias. Una Conversión puede consistir en uno o más eventos de transacción, pero los términos &quot;Conversión&quot; y &quot;transacción&quot; a menudo se usan indistintamente.
+**conversión:** la finalización de una acción después de que un usuario final haga clic en un anuncio, generalmente capturada como métrica. Algunos ejemplos son los registros y las compras, que pueden representar recuentos o importes monetarios. Una conversión puede consistir en uno o más eventos de transacción, pero los términos &quot;conversión&quot; y &quot;transacción&quot; se suelen utilizar indistintamente.
 
-**Conversión seguimiento:** El seguimiento de conversión utiliza cookies para rastrear a) los clics en los anuncios de un anunciante en las redes anuncios y b) las transacciones resultantes en el sitio web del anunciante.
+**seguimiento de conversión:** El seguimiento de conversión usa cookies para rastrear: a) los clics en los anuncios de un anunciante en las redes de anuncios y b) las transacciones resultantes en el sitio web del anunciante.
 
-**Precisión de costes:** (Anunciantes con portafolios) El gasto real de una catálogo de productos dividido por el gasto previsto.
+**precisión de costos:** (Anunciantes con portafolios) El gasto real de un portafolio dividido por el gasto previsto.
 
-**Modelo de costos:** (Anunciantes con carteras) Search, Social y tecnología de comercio que predice el volumen de costos, el oferta requerido para ganar cada posición o ubicación, y el CPC (búsqueda) o CPM (visualización) para cada unidad de oferta utilizando técnicas de pronóstico datos históricos y matemáticas.
+**modelo de costo:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice el volumen de costo, la oferta necesaria para ganar cada posición o ubicación y el CPC (búsqueda) o el CPM (visualización) para cada unidad de oferta utilizando datos históricos y técnicas de previsión matemática.
 
-**Cobertura del modelo de coste:** (Anunciantes con portafolios) El número y/o porcentaje de oferta unidades en campañas de CPC o eCPC que han recibido al menos un impresión en los últimos siete días para que la capacidad de optimización pueda versión modelos de coste. No todas las unidades oferta tienen modelos de costo; Las unidades oferta con modelos de coste cuentan para la cobertura del modelo de coste.
+**Cobertura del modelo de costo:** (Anunciantes con portafolios) El número y/o porcentaje de unidades de oferta en campañas CPC o eCPC que han recibido al menos una impresión en los últimos siete días para que la capacidad de optimización pueda crear modelos de costo. No todas las unidades de oferta tienen modelos de coste; las unidades de oferta con modelos de coste se contabilizan en la cobertura del modelo de coste.
 
-**semivida del modelo de costes:** (Anunciantes con portafolios) El número de días antes de la fecha actual para los cuales los datos de coste se consideran más recientes y, por lo tanto, más relevantes para los modelos de coste.
+**semivida del modelo de costo:** (Anunciantes con portafolios) Número de días antes de la fecha actual para el cual los datos de costo se consideran más recientes y, por lo tanto, más relevantes para los modelos de costo.
 
-**Coste por cada 1000 impresiones:** (CPM) El coste de una anuncios por cada mil impresiones. Los anunciantes que utilizan un modelo de precios CPM pagan por impresiones en lugar de por clic.
+**coste por 1000 impresiones:** (CPM) El coste de un anuncio por cada mil impresiones. Los anunciantes que utilizan un modelo de precios CPM pagan por impresiones en lugar de por clics.
 
-**Coste por Adquisición:** (CPA) el coste de una anuncios dividido por el número de conversiones. También se denomina costo por transacción (CPT) o costo por pedido (coste por pedido).
+**coste por adquisición:** (CPA) El coste de un anuncio dividido por el número de conversiones. También se denomina coste por transacción (CPT) o coste por pedido (CPO).
 
-**coste por clic:** (CPC) 1) El coste de una anuncios dividido por el número total de clics para el anuncios. Por ejemplo, si gasta 100 USD por un impresión de anuncios y el anuncios genera 10 clics, entonces el coste por clic es 100 USD / 10 = 10 USD por clic. 2) Un modelo de precios en el que se cobra a los anunciantes por cada anuncios clic.
+**coste por clic:** (CPC) 1) El coste de un anuncio dividido por el número total de clics para el anuncio. Por ejemplo, si gasta 100 USD para una impresión de publicidad y el anuncio genera 10 clics, el coste por clic es 100 USD/10=10 USD por clic. 2) Un modelo de precios en el que se cobra a los anunciantes por cada clic en un anuncio.
 
-**Coste por pedido:** (coste por pedido) El coste de una anuncios dividido por número de pedidos. También se denomina costo por Adquisición (CPA) o costo por transacción (CPT).
+**coste por pedido:** (CPO) El coste de un anuncio dividido por el número de pedidos. También se denomina coste por adquisición (CPA) o coste por transacción (CPT).
 
-**Coste por transacción:** (CPT) El coste de una anuncios dividido por el número de transacciones. También se denomina coste por Adquisición (CPA).
+**coste por transacción:** (CPT) El coste de un anuncio dividido por el número de transacciones. También se denomina coste por adquisición (CPA).
 
-**CPA:** Consulte &quot;costo por Adquisición&quot;.
+**CPA:** Consulte &quot;costo por adquisición&quot;.
 
-**CPC:** Véase &quot;coste por clic&quot;.
+**CPC:** Consulte &quot;costo por clic&quot;.
 
-**CPM:** Consulte &quot;coste por cada 1000 impresiones&quot;.
+**CPM:** Consulte &quot;costo por 1000 impresiones&quot;.
 
-**coste por pedido:** Consulte &quot;Coste por pedido&quot;.
+**CPO:** Consulte &quot;costo por pedido&quot;.
 
 **CPT:** Consulte &quot;costo por transacción&quot;.
 
-**CSV:** formato de archivo que consta de valores separados por comas (CSV).
+**CSV:** Un formato de archivo que consta de valores separados por comas (CSV).
 
-**porcentaje de clics:** Consulte &quot;tasa de pulsaciones&quot;.
+**CTR:** Consulte &quot;tasa de clics&quot;.
 
 ## E-F {#e-f}
 
-**eCPM:** El CPM efectivo, o el coste medio pagado por cada 1000 impresiones durante un intervalo de fecha especificado. Los valores de eCPM se pueden calcular para CPM o CPC campañas.
+**eCPM:** El CPM efectivo o el costo promedio pagado por 1000 impresiones durante un intervalo de fechas especificado. Los valores de eCPM se pueden calcular para campañas CPM o CPC.
 
 ## G-H {#g-h}
 
 ## I-J {#i-j}
 
-**impresión:** visualización única de un anuncios en una página web, aplicación móvil u otro medio envío. Una usuario no tiene que vista ni hacer clic en la anuncios para que cuente como impresión.
+**impresión:** Una sola visualización de un anuncio en una página web, aplicación móvil u otro medio de entrega. Un usuario no tiene que ver ni hacer clic en el anuncio para que se cuente como una impresión.
 
-**impresión ventana retrospectiva:** (solo campañas de visualización y campañas sociales) Una configuración de nivel de anunciante que especifica el número de días después de que se produce una impresión de anuncios que la impresión se puede atribuir a una Conversión.
+**ventana retrospectiva de impresiones:** (solo campañas de visualización y sociales) Una configuración de nivel de anunciante que especifica el número de días después de que se produzca una impresión de anuncio que la impresión puede atribuirse a una conversión.
 
-**peso de anulación de impresión:** porcentaje especificado de un valor de Conversión que se debe atribuir a las impresiones que se producen dentro de la ventana retrospectiva de impresión del cliente cuando el Conversión está precedido por clics e impresiones de pago. Cuando un Conversión está precedido únicamente por impresiones, se aplica a las impresiones el ponderación de visualizaciones del anunciante, en lugar del peso de anulación del impresión.
+**peso de anulación de impresión:** Un porcentaje especificado de un valor de conversión que se atribuirá a las impresiones que se produzcan dentro de la ventana retrospectiva de impresiones del cliente cuando la conversión esté precedida por clics de pago e impresiones. Cuando una conversión solo está precedida por impresiones, se aplica a las impresiones la ponderación de visualización del anunciante, en lugar de la ponderación de anulación de la impresión.
 
 ## K-L {#k-l}
 
-**palabra clave:** palabra o frase asociada con un anuncios.
+**palabra clave:** Una palabra o frase asociada con un anuncio.
 
-**palabra clave restricción:** Consulte &quot;restricción&quot;.
+**restricción de palabra clave:** Consulte &quot;restricción&quot;.
 
-**label clasificación:** una forma de grupo los componentes de la cuenta en conjuntos significativos. Un clasificación de etiqueta puede contener varios valores de etiqueta, que denotan atributos. Por ejemplo, un clasificación de etiqueta &quot;Geo&quot; podría incluir valores para diferentes regiones geográficas.
+**clasificación de etiquetas:** Una forma de agrupar los componentes de la cuenta en conjuntos significativos. Una clasificación de etiquetas puede contener varios valores de etiqueta, que denotan atributos. Por ejemplo, una clasificación de etiquetas &quot;Geográficas&quot; podría incluir valores para diferentes regiones geográficas.
 
-**label value:** un elemento de un clasificación de etiqueta. Se puede asignar como etiqueta a anuncios campañas y entidades campaña para que pueda filtrar los datos de rendimiento y los informes por etiqueta o configurar restricciones opcionales en oferta unidades asociadas a la etiqueta.
+**valor de etiqueta:** Elemento de una clasificación de etiqueta. Se puede asignar como una etiqueta a campañas de publicidad y entidades de campaña para que pueda filtrar los datos e informes de rendimiento por etiqueta o configurar restricciones opcionales en las unidades de oferta asociadas con la etiqueta.
 
-**página de aterrizaje URL:** URL de la página web del anunciante que se abre cuando el usuario final hace clic en un anuncios.
+**dirección URL de la página de aterrizaje:** Dirección URL de la página web del anunciante que se abre cuando el usuario final hace clic en un anuncio.
 
 ## M-N {#m-n}
 
-**Costo marginal:** El cambio en el costo total cuando el cantidad cambia en una unidad.
+**costo marginal:** El cambio en el costo total cuando la cantidad cambia en una unidad.
 
-**costo marginal a valor objetivo:** El cambio en el costo necesario para aumentar el valor objetivo en uno (1). Tiene el mismo valor que la columna heredada &quot;Costo marginal a ingresos&quot;.
+**valor marginal de costo a objetivo:** El cambio en el costo necesario para aumentar el valor del objetivo en uno (1). Tiene el mismo valor que la columna heredada &quot;Coste marginal a ingresos&quot;.
 
-**Tipo de coincidencia:** opción que especifica cómo se relacionan búsqueda términos con los anuncios. Las opciones varían según red de anuncios.
+**tipo de coincidencia:** Una opción que especifica cómo se comparan los términos de búsqueda con los anuncios. Las opciones varían según la red de anuncios.
 
-**oferta mínima:** 1) La cantidad mínima a pagar por impresión o por 1000 impresiones. 2) Para búsqueda palabras clave, el oferta mínimo requerido para un palabra clave determinado en función de su puntaje de calidad. El oferta mínimo suele ser la cantidad mínima que puede pagar por clic para que su palabra clave muestre anuncios.
+**puja mínima:** 1) La cantidad mínima a pagar por impresión o por 1000 impresiones. 2) En el caso de las palabras clave de búsqueda, la oferta mínima requerida para una palabra clave determinada en función de su puntuación de calidad. La puja mínima suele ser la cantidad mínima que puedes pagar por clic para que tu palabra clave muestre anuncios.
 
 ## O-P {#o-p}
 
-**Objetivo:** (Anunciantes con portafolios) Un objetivo que un cliente establece para cumplir su objetivo comercial para un catálogo de productos específico o un campaña de exhibición, como maximizar las ganancias o cumplir con un destino de ventas específico. Un objetivo consiste en las métricas Conversión que se rastrearán y optimizarán para el catálogo de productos, y los pesos relativos de esas métricas.
+**objetivo:** (Anunciantes con portafolios) Un objetivo que un cliente establece para cumplir su objetivo comercial de un portafolio específico o una campaña de visualización, como maximizar los beneficios o alcanzar un objetivo de ventas específico. Un objetivo consiste en las métricas de conversión que se van a rastrear y optimizar para el portafolio, y los pesos relativos de esas métricas.
 
-**Valor objetivo:** (Anunciantes con portafolios) El total de conversiones ponderadas calculadas en función del objetivo actual del catálogo de productos, incluyendo:
+**valor del objetivo:** (Anunciantes con portafolios) Las conversiones ponderadas totales se calcularon de acuerdo con el objetivo actual del portafolio, que incluye:
 
-* todas las conversiones, teniendo en cuenta a) las ponderaciones asignadas a cada Conversión en la función objetivo del catálogo de productos y, en su caso, b) el ponderación de visualizaciones para las vista de visualización.
+* todas las conversiones, teniendo en cuenta: a) las ponderaciones asignadas a cada conversión en la función objetivo de la cartera y, cuando corresponda, b) la ponderación de visualizaciones para las visualizaciones.
 
-* Todos los clics, que la capacidad de optimización considera una sola Conversión y se pondera según el valor de clic del objetivo.
+* todos los clics, que la capacidad de optimización considera una sola conversión y se ponderan según el valor de clic del objetivo.
 
-Tiene el mismo valor que la columna heredada &quot;Ingresos ponderados&quot;.
+Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
-**capacidad de optimización:** (Anunciantes con carteras) Search, Social y tecnología de oferta de palabras clave de comercio, que determina la estrategia óptima de gestión de ofertas y presupuestos para un catálogo de productos en función de su objetivo comercial.
+**Capacidad de optimización:** (Anunciantes con portafolios) Tecnología de oferta de palabras clave de Search, Social y Commerce, que determina la estrategia óptima de oferta y administración del presupuesto para un portafolio en función de su objetivo comercial.
 
-**Transacción huérfana:** evento una transacción que no se puede asociar a un palabra clave o anuncios específico.
+**transacción huérfana:** evento de transacción que no se puede asociar con una palabra clave o anuncio específico.
 
-**píxel:** Una imagen transparente de un píxel por un píxel incrustada en una página web con fines seguimiento propósitos. Adobe Systems etiquetas de Conversión seguimiento publicitarias incluyen un píxel de imagen HTML o JavaScript para rastrear clics y sus transacciones resultantes.
+**píxel:** Una imagen transparente, de píxel por píxel incrustada en una página web con fines de seguimiento. Las etiquetas de seguimiento de conversión de Adobe Advertising incluyen un píxel de imagen de HTML o JavaScript para rastrear clics y sus transacciones resultantes.
 
-**ubicación:** ubicación de una red de display en la que pueden aparecer sus publicidades. Puede ser un sitio web completo, un subconjunto de un sitio web o una posición de anuncios en un Página específico.
+**ubicación:** Ubicación en una red de visualización en la que pueden aparecer anuncios. Puede ser un sitio web completo, un subconjunto de un sitio web o una posición de anuncio en una página específica.
 
-**catálogo de productos:** Un conjunto de campañas de anuncios y sus unidades de oferta asociadas que están optimizadas para un único objetivo empresarial y un destino de rendimiento.
+**portafolio:** conjunto de campañas de publicidad y sus unidades de oferta asociadas que están optimizadas para un único objetivo comercial y un objetivo de rendimiento.
 
 **POS:** porcentaje de gasto
 
-**PPC:** Consulte &quot;pagar por clic&quot;.
+**PPC:** Consulte &quot;pago por clic&quot;.
 
-**Propiedad:** Véase &quot;métricas de conversión&quot;.
+**propiedad:** Consulte &quot;métrica de conversión&quot;.
 
-**Propiedad tiempo:** El momento en que ocurre la Conversión evento individual. Cuando una evento incluye eventos relacionados seguir (como que un cliente se registre primero para una prueba gratuito y luego se suscriba a un servicio pago), cada evento tiene su propio tiempo Propiedad.
+**hora de la propiedad:** Hora a la que se produce un evento de conversión individual. Cuando un evento incluye eventos de seguimiento relacionados (como un cliente que se registra primero para una prueba gratuita y luego se suscribe a un servicio de pago), cada evento tiene su propia propiedad y hora.
 
 ## Q-R {#q-r}
 
-**puntuación de calidad:** una puntuación que un red de anuncios asigna a una de sus palabras clave para determinar su precio oferta y anuncios posición. Se calcula en función de la relevancia del palabra clave de sus anuncios asociados y del consulta de búsqueda del usuario, la tasa de clics del palabra clave y otros factores.
+**puntuación de calidad:** Puntuación que una red de anuncios asigna a una de las palabras clave para determinar el precio de oferta y la posición del anuncio. Se calcula según la relevancia de la palabra clave para su anuncio asociado y para la consulta de búsqueda del usuario, la tasa de pulsaciones de la palabra clave y otros factores.
 
-**redirección URL:** parte de un URL de destino que envía el usuario a otro servidor antes o en lugar del página de aterrizaje del anunciante.
+**URL de redireccionamiento:** Parte de una URL de destino que envía al usuario a otro servidor antes o en lugar de la página de aterrizaje del anunciante.
 
-**retorno de la inversión:** (Retorno de la inversión) Ingresos menos costos.
+**retorno de la inversión:** (ROI) Ingresos menos costos.
 
-**Precisión ingresos:** (Anunciantes con portafolios) El ingresos real de un catálogo de productos dividido por el ingresos previsto.
+**precisión de ingresos:** (Anunciantes con portafolios) Los ingresos reales de un portafolio divididos por los ingresos previstos.
 
-**ingresos modelo:** (Anunciantes con carteras) Search, Social y tecnología de comercio que predice el tasa de conversión y el rendimiento estimado para cada unidad de oferta, en función de los datos de clics (búsqueda y social) o datos de impresión (pantalla) y los datos de Conversión del anunciante.
+**modelo de ingresos:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice la tasa de conversión y el retorno estimado para cada unidad de oferta, en función de los datos de clics (búsqueda y medios sociales) o de impresiones (visualización) y los datos de conversión del anunciante.
 
-**ingresos cobertura del modelo:** (Anunciantes con portafolios) El número y/o porcentaje de oferta unidades en una catálogo de productos con ingresos modelos. Las unidades de oferta pueden tener modelos ingresos igualado si no han recibido ingresos pero sí impresiones.
+**Cobertura del modelo de ingresos:** (Anunciantes con portafolios) El número y/o porcentaje de unidades de oferta en un portafolio con modelos de ingresos. Las unidades de oferta pueden tener modelos de ingresos aunque no hayan recibido ingresos pero hayan recibido impresiones.
 
-**ingresos semivida del modelo:** (Anunciantes con portafolios) Número de días antes de la fecha actual para los cuales los datos del ingresos se consideran más recientes y, por lo tanto, más relevantes para ingresos modelos.
+**semivida del modelo de ingresos:** (Anunciantes con portafolios) El número de días antes de la fecha actual para el cual los datos de ingresos se consideran más recientes y, por lo tanto, más relevantes para los modelos de ingresos.
 
-**Retorno de la inversión:** Véase &quot;retorno de la inversión&quot;.
+**ROI:** Consulte &quot;retorno de la inversión&quot;.
 
 ## S-T {#s-t}
 
-**simulación:** (Anunciantes con portafolios) Portfolio modelado que estima el número de clics y conversiones que un catálogo de productos puede esperar para diferentes niveles de gasto y presupuestos diarios correspondientes, utilizando datos históricos.
+**simulación:** (Anunciantes con portafolios) Modelado de Portfolio que calcula el número de clics y conversiones que un portafolio puede esperar para diferentes niveles de gasto y los presupuestos diarios correspondientes, usando datos históricos.
 
-**Estrategia de gasto:** (Anunciantes con portafolios) estrategia seleccionada para optimizar la oferta de palabra clave/anuncios para una catálogo de productos.
+**estrategia de gasto:** (Anunciantes con portafolios) La estrategia seleccionada para optimizar las ofertas de palabras clave o anuncios para un portafolio.
 
-**`s_kwcid`:** consulte &quot;AMO ID&quot;.
+**`s_kwcid`:** Consulte &quot;ID de AMO&quot;.
 
-**seguimiento URL:** un URL de seguimiento plantilla o destino con parámetros adicionales agregados para rastrear información sobre clics en el anuncios. Puede incluir un redirección URL para enviar primero a los usuarios a un servidor seguimiento antes de redirigirlos al página de aterrizaje del anunciante.
+**URL de seguimiento:** Una plantilla de seguimiento o una URL de destino con parámetros adicionales agregados para realizar el seguimiento de información sobre clics en el anuncio. Puede incluir una URL de redireccionamiento para enviar primero a los usuarios a un servidor de seguimiento antes de redirigirlos a la página de aterrizaje del anunciante.
 
-**transacción:** Cualquier evento rastreable que se produce en línea o sin conexión. Se pueden rastrear juntos varios eventos de transacción como parte de la misma transacción o Conversión; Por ejemplo, un en línea solicitud de información más un pedido resultante por teléfono podrían considerarse componentes de una compra. Los términos &quot;transacción&quot; y &quot;Conversión&quot; a menudo se usan indistintamente. Una transacción se representa mediante un ID de transacción y tiene una o más propiedades asociadas.
+**transacción:** Cualquier evento rastreable que se produzca en línea o sin conexión. Los eventos de varias transacciones se pueden rastrear juntos como parte de la misma transacción o conversión; por ejemplo, una solicitud de información en línea más un pedido resultante por teléfono podrían considerarse componentes de una compra. Los términos &quot;transacción&quot; y &quot;conversión&quot; suelen utilizarse indistintamente. Una transacción está representada por un ID de transacción y tiene una o más propiedades asociadas a ella.
 
-**ID de transacción:** ID especificado por anunciante que identifica una transacción. Cuando una transacción incluye varios eventos, todos tienen el mismo ID de transacción.
+**ID de transacción:** ID especificado por el anunciante que identifica una transacción. Cuando una transacción incluye varios eventos, todos tienen el mismo ID de transacción.
 
-**Propiedad de transacción:** Consulte &quot;Conversión&quot;.
+**propiedad de transacción:** Consulte &quot;conversión&quot;.
 
-**Tiempo de transacción:** el momento en que un clic o impresión se convierte en una transacción. Cuando una transacción consiste en múltiples eventos de transacción (como cuando un cliente se registra por primera vez para una prueba gratuito y luego se suscribe a un servicio pago), el tiempo de transacción proviene del primer evento de la cadena (registro para la prueba gratuito).
+**hora de transacción:** Hora a la que se convierte un clic o impresión en una transacción. Cuando una transacción consta de varios eventos de transacción (como cuando un cliente se registra por primera vez para una prueba gratuita y posteriormente se suscribe a un servicio de pago), el tiempo de transacción procede del primer evento de la cadena (registro para la prueba gratuita).
 
-**TSV:** formato de archivo que consta de valores separados por pestaña (CSV).
+**TSV:** Formato de archivo que consta de valores separados por tabulaciones (CSV).
 
 ## U-V {#u-v}
 
-**vista-through:** (anuncios en pantalla y sociales) Un impresión de anuncios (o cadena de impresiones) que da como resultado un Conversión sin que el usuario haga clic en un anuncios.
+**visualización:** (anuncios en pantalla y en medios sociales) Impresión de un anuncio (o cadena de impresiones) que genera una conversión sin que el usuario haga clic en un anuncio.
 
-**ponderación de visualizaciones:** (solo campañas de display y sociales) Una configuración de nivel de anunciante que especifica el peso que se debe atribuir a un Conversión de vista en relación con el peso atribuido a un Conversión basado en clics, como un porcentaje.
+**ponderación de visualizaciones:** (solo campañas de visualización y sociales) Una configuración de nivel de anunciante que especifica la ponderación que se debe atribuir a una conversión de visualizaciones en relación con la ponderación atribuida a una conversión basada en clics, como porcentaje.
 
 ## W-X {#w-x}
 
-**ingresos ponderada:** Consulte &quot;valor objetivo&quot;.
+**ingresos ponderados:** Consulte &quot;valor objetivo&quot;.
 
-**XLS** o **XLSX**: formato de archivos binarios para [!DNL Microsoft Office Excel] libros.
+**XLS** o **XLSX**: Un formato de archivo binario para [!DNL Microsoft Office Excel] libros.
 
 ## Y-Z {#y-z}

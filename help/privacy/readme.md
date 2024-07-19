@@ -5,8 +5,8 @@ source-wordcount: '26'
 ht-degree: 0%
 
 ---
-# Documentación de soporte de privacidad del consumidor para publicidad de Adobe
+# Documentación de soporte de privacidad del consumidor para Adobe Advertising
 
-Esta carpeta es para la compatibilidad de la publicidad de Adobe con la privacidad del consumidor.
+Esta carpeta es para la compatibilidad de Adobe Advertising con la privacidad del consumidor.
 
-**Nota: Esta página no se publica en la documentación de cliente.**
+**Nota: esta página no se ha publicado en la documentación del cliente.**

@@ -1,12 +1,12 @@
 ---
 title: Asignar valores de clasificación a componentes de cuenta mediante hojas de edición masiva
 description: Aprenda a utilizar hojas de edición masiva para asignar valores de clasificación a componentes de cuenta.
-exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 7%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
 >[!NOTE]
 >
->Las palabras clave y la copia de anuncio de algunas redes de anuncios y tipos de campañas son [no mutable](/help/search-social-commerce/campaign-management/faqs-campaigns.md), lo que significa que al editarlos se elimina la entidad existente y se crea una nueva. Cuando se elimina una entidad existente de este modo, la clasificación de etiquetas no se asigna a la nueva entidad.
+>Las palabras clave y la copia de anuncios de algunas redes de anuncios y tipos de campañas son [no mutables](/help/search-social-commerce/campaign-management/faqs-campaigns.md), lo que significa que al editarlas se eliminará la entidad existente y se creará una nueva. Cuando se elimina una entidad existente de este modo, la clasificación de etiquetas no se asigna a la nueva entidad.
 
-1. [Descargar una hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) que incluye las entidades a las que desea asignar valores de clasificación de etiquetas:
+1. [Descargar una hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) que incluya las entidades a las que desea asignar valores de clasificación de etiquetas:
 
-   * En el [!UICONTROL Rows and Columns] , expanda la pestaña [!UICONTROL Campaign] lista en la [!UICONTROL Bulksheet Columns] panel.
+   * En la ficha [!UICONTROL Rows and Columns], expanda la lista [!UICONTROL Campaign] en el panel [!UICONTROL Bulksheet Columns].
 
-   * Expanda el [!UICONTROL Label Classification] lista.
+   * Expanda la lista [!UICONTROL Label Classification].
 
    * Seleccione cada clasificación para la que desee incluir una columna en el archivo de hoja de edición masiva.
 
@@ -49,20 +49,20 @@ Este ejemplo incluye columnas para las clasificaciones de etiquetas &quot;Color&
 | Cuenta | Campaign | Grupo de publicidad | Palabra clave | Anuncio | Ubicación | Etiquetas | Color | Geo |
 |---|---|---|---|---|---|---|---|---|
 | Acct1 | C1 | | | | | | Verde | |
-| Acct1 | C1 | AG1 | | | | | | |
-| Acct1 | C1 | AG1 | K1 | | | | | RU |
-| Acct1 | C1 | AG1 | K2 | | | | Rojo | AU |
-| Acct1 | C1 | AG1 | K3 | | | | Azul | DE |
-| Acct1 | C1 | AG1 | | A1 | | | | |
-| Acct1 | C1 | AG1 | | A1 | | | Rojo | |
-| Acct1 | C1 | AG1 | | | P1 | | Rojo | AU |
-| Acct1 | C1 | AG1 | | | P2 | | Azul | DE |
+| Acct1 | C1 | GA1 | | | | | | |
+| Acct1 | C1 | GA1 | K1 | | | | | RU |
+| Acct1 | C1 | GA1 | K2 | | | | Rojo | AU |
+| Acct1 | C1 | GA1 | K3 | | | | Azul | DE |
+| Acct1 | C1 | GA1 | | A1 | | | | |
+| Acct1 | C1 | GA1 | | A1 | | | Rojo | |
+| Acct1 | C1 | GA1 | | | P1 | | Rojo | AU |
+| Acct1 | C1 | GA1 | | | P2 | | Azul | DE |
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las clasificaciones de etiquetas](classification-about.md)
 >* [Crear una clasificación de etiquetas](classification-create.md)
 >* [Asignar valores de clasificación a componentes de cuenta desde las vistas de administración de campañas](classification-values-assign-campaign-management.md)
->* [Quitar valores de clasificación de etiquetas de componentes de cuenta](classification-values-remove.md)
+>* [Quitar valores de clasificación de etiquetas de los componentes de la cuenta](classification-values-remove.md)
 >* [Eliminar valores de clasificación de etiquetas](classification-values-delete.md)
 >* [Eliminar clasificaciones de etiquetas](classification-delete.md)

@@ -18,7 +18,7 @@ A continuación se indican los requisitos para el formato de archivo, los campos
 
 El archivo de datos debe tener el formato de texto sin formato (TXT), valores separados por comas (CSV) o valores separados por tabuladores (TSV). El archivo puede constar de una fila de encabezado y filas de datos con valores separados por tabulaciones, comas u otro carácter (pero no espacios):
 
-* **Fila de encabezado:** (Opcional) La primera línea del archivo es un encabezado, que especifica los nombres de campo necesarios (o nombres de columna) en un orden específico, separados por tabulaciones o comas. Los nombres de columna requeridos incluyen las métricas de conversión que el Adobe Advertising está rastreando como conversiones.
+* **Fila de encabezado:** (opcional) La primera línea del archivo es un encabezado, que especifica los nombres de campo requeridos (o nombres de columna) en un orden específico, separados por tabulaciones o comas. Los nombres de columna requeridos incluyen las métricas de conversión que el Adobe Advertising está rastreando como conversiones.
 
 * **Filas de datos:** Cada línea posterior incluye campos de datos en el mismo orden que el encabezado y separados por tabulaciones o comas. Si el primer registro no es un encabezado, cada fila de datos debe incluir todos los campos posibles, en el orden especificado. Los valores de todos los ID y las métricas de conversión deben ser alfanuméricos.
 
@@ -38,5 +38,5 @@ Envíe el archivo a través del protocolo de transferencia SFTP mediante el puer
 
 >[!MORELIKETHIS]
 >
->* [Requisitos de datos para fuentes de datos que utilizan EF ID](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
->* [Requisitos de datos para fuentes de datos que utilizan un ID de transacción](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+>* [Requisitos de datos para fuentes de datos que usan EF ID](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
+>* [Requisitos de datos para fuentes de datos que usan un ID de transacción](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)

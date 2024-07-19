@@ -16,15 +16,15 @@ ht-degree: 0%
 
 1. Mantenga el cursor sobre la fila de audiencia y haga clic en **[!UICONTROL View Details]**.
 
-1. (Opcional) Para ver el número de miembros de la audiencia activos o totales por tipo de dispositivo (para ID basados en cookies) y por tipo de ID universal, haga clic en ![Desglose de dispositivo](/help/dsp/assets/device-breakdown.png) junto al **[!UICONTROL Active]** o **[!UICONTROL Total]** tamaño de la audiencia.
+1. (Opcional) Para ver el número de miembros de la audiencia activos o totales por tipo de dispositivo (para ID basados en cookies) y por tipo de ID universal, haga clic en ![Desglose de dispositivo](/help/dsp/assets/device-breakdown.png) junto al tamaño de audiencia de **[!UICONTROL Active]** o **[!UICONTROL Total]**.
 
-1. (Opcional) Para editar la configuración de audiencia, haga clic en **[!UICONTROL Edit Audience]** y [editar el nombre y la configuración de la audiencia](reusable-audience-edit.md).
+1. (Opcional) Para editar la configuración de la audiencia, haga clic en **[!UICONTROL Edit Audience]** y [edite el nombre y la configuración de la audiencia](reusable-audience-edit.md).
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
->* [Duplicación de una audiencia reutilizable](reusable-audience-duplicate.md)
+>* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)

@@ -24,7 +24,7 @@ Puede exportar una instantánea de la vista actual de administración de campañ
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]** y abra la vista que desee exportar.
 
-1. En la barra de herramientas superior derecha, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+1. En la barra de herramientas superior derecha, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Export]**.
 
    El archivo se guarda en la carpeta de descargas predeterminada del explorador.
 

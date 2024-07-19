@@ -1,9 +1,9 @@
 ---
 title: Detener un trabajo de hoja de edición masiva en curso
 description: Aprenda a detener un trabajo de hoja de edición masiva mientras está en proceso.
-exl-id: bfdc3c65-8dfc-4683-a39d-05d40078fd2d
+exl-id: 10577dcf-3b86-49f1-8e3a-ccfe56fffe84
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puede detener cualquier trabajo de hoja de edición masiva, incluido el envío d
 
 1. Active la casilla de verificación situada junto a cada tarea que desee detener.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Stop job]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Stop job]**.
 
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL O]**.
 
@@ -28,5 +28,5 @@ Puede detener cualquier trabajo de hoja de edición masiva, incluido el envío d
 
 >[!MORELIKETHIS]
 >
->* [Administración de datos de campaña mediante hojas de edición masiva](bulksheet-about.md)
+>* [Acerca de la administración de datos de campaña mediante hojas de edición masiva](bulksheet-about.md)
 >* [Eliminar hojas de edición masiva y archivos de error cargados](bulksheet-delete.md)

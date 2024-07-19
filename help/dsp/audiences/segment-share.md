@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Compartir o dejar de compartir un segmento
 
-DSP Puede compartir sus segmentos personalizados y los segmentos de exclusión de la venta de la CCPA con cuentas de usuario de la adicionales. Al compartir un segmento, este estará disponible en [!UICONTROL Audiences] > [!UICONTROL Segments] y en el [!UICONTROL Custom Segments] en las ubicaciones de los usuarios especificados y en las audiencias reutilizables.
+DSP Puede compartir sus segmentos personalizados y los segmentos de exclusión de la venta de la CCPA con cuentas de usuario de la adicionales. Al compartir un segmento, este estará disponible en [!UICONTROL Audiences] > [!UICONTROL Segments] y en la ficha [!UICONTROL Custom Segments] de las ubicaciones de los usuarios especificados y las audiencias reutilizables.
 
 DSP También puede dejar de compartir un segmento con otras cuentas de usuario de.
 
@@ -24,17 +24,16 @@ DSP También puede dejar de compartir un segmento con otras cuentas de usuario d
 
    * Para compartir el segmento:
 
-      1. Introduzca el **[!UICONTROL E-mail Address]** DSP para el usuario de la y haga clic en **[!UICONTROL +]**.
+      1. DSP Escriba **[!UICONTROL E-mail Address]** para el usuario de la y haga clic en **[!UICONTROL +]**.
 
-      1. (Opcional) Para cada usuario adicional, introduzca otro **[!UICONTROL E-mail Address]** y luego haga clic en **[!UICONTROL +]**.
+      1. (Opcional) Para cada usuario adicional, escriba otro **[!UICONTROL E-mail Address]** y haga clic en **[!UICONTROL +]**.
+
    * Para dejar de compartir el segmento con un usuario, haga clic en **[!UICONTROL Unshare]** junto a la dirección de correo electrónico.
-
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear un segmento personalizado](custom-segment-create.md)
->* [Editar información del segmento](segment-edit.md)
+>* [Editar información de segmento](segment-edit.md)
 >* [Eliminar un segmento](segment-delete.md)
->* [Visualización de los píxeles de seguimiento de un segmento](segment-view-pixels.md)
-
+>* [Ver píxeles de seguimiento para un segmento](segment-view-pixels.md)

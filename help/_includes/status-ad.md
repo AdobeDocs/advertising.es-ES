@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Campo de estado en la configuración del anuncio
 
-**[!UICONTROL Status]:** El estado de visualización del anuncio: *Activo* (para activar las ofertas; opción predeterminada), *Pausado* (para desactivar las pujas), o *Eliminado* (para eliminar el anuncio; solo anuncios existentes).
+**[!UICONTROL Status]:** El estado de visualización del anuncio: *Activo* (para habilitar la oferta; predeterminado), *Pausado* (para deshabilitar la oferta) o *Eliminado* (para eliminar el anuncio; solo anuncios existentes).

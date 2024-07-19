@@ -21,7 +21,7 @@ Duplique una o más ubicaciones para crear ubicaciones con una configuración si
 * (Para ubicaciones duplicadas dentro de las campañas originales) Si lo desea, puede duplicar los anuncios originales
 * Modificar el estado y las fechas de vuelo de las nuevas ubicaciones
 
-Consulte &quot;[Qué no está duplicado](#placement-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no estén duplicadas.
+Consulte &quot;[Lo que no está duplicado](#placement-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no están duplicadas.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -31,7 +31,7 @@ Consulte &quot;[Qué no está duplicado](#placement-not-duplicated)&quot; para o
 
 1. Realice una de las acciones siguientes:
 
-   * Para duplicar una ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** junto al nombre del paquete.
+   * Para duplicar una ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** junto al nombre del paquete.
 
    * Para duplicar varias ubicaciones:
 
@@ -43,7 +43,7 @@ Consulte &quot;[Qué no está duplicado](#placement-not-duplicated)&quot; para o
 
    1. (Ubicaciones únicas) Introduzca el nuevo nombre de ubicación.
 
-   1. En el **[!UICONTROL Choose Package (Required)]** , seleccione el paquete principal o **[!UICONTROL No package]*.
+   1. En el menú **[!UICONTROL Choose Package (Required)]**, seleccione el paquete principal o **[!UICONTROL No package]*.
 
    1. (Opcional) Cambie la configuración predeterminada.
 
@@ -51,9 +51,9 @@ Consulte &quot;[Qué no está duplicado](#placement-not-duplicated)&quot; para o
 
    De forma predeterminada, las nuevas ubicaciones son para el tipo de anuncio original, se asignan a los anunciantes y campañas originales, tienen horarios de vuelos que comienzan el día actual, se pausan y no incluyen los anuncios originales.
 
-   Cuando se crean varias ubicaciones, a los nuevos nombres de ubicación se les anexa un número, en secuencia, utilizando la convención &lt;*#N original_placement_name*>, como &quot;Mi ubicación #2&quot;.
+   Cuando crea varias ubicaciones, los nuevos nombres de ubicación se anexan con un número, en secuencia, utilizando la convención &lt;*original_placement_name #N*>, como &quot;Mis #2 de ubicación&quot;.
 
-1. Clic **[!UICONTROL Submit]**.
+1. Haga clic en **[!UICONTROL Submit]**.
 
 ## Qué no está duplicado {#placement-not-duplicated}
 
@@ -62,16 +62,16 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 * Configuración del experimento
 * (Si cambia las fechas de vuelo) Programación de anuncios personalizados
 * (Si no adjunta anuncios) Ponderación y programación de anuncios personalizados
-* Ubicaciones predeterminadas para ofertas y ubicaciones programáticas garantizadas (PG) para [!UICONTROL Simple Ad Serving] ofertas
+* Ubicaciones predeterminadas para ofertas programáticas garantizadas (PG) y ubicaciones para [!UICONTROL Simple Ad Serving] ofertas
 * (Si copia ubicaciones en una campaña diferente):
    * Destinos geográficos
    * Píxeles de evento
    * Anuncios
-   * Placement-level [!DNL DoubleVerify Authentic Brand Safety] segmentos (que anulan los segmentos de nivel de anunciante)
+   * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Safety] (que anulan los segmentos de nivel de anunciante)
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de ubicación](placement-about.md)
+>* [Acerca de la administración de ubicaciones](placement-about.md)
 >* [Crear una ubicación](placement-create.md)
 >* [Editar ubicaciones](placement-edit.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)

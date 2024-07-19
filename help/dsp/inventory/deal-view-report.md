@@ -1,5 +1,5 @@
 ---
-title: Ver un informe detallado de una actividad privada, [!UICONTROL On Demand], o [!UICONTROL Simple Ad Serving] Acuerdo
+title: Ver un informe detallado de una operación privada de [!UICONTROL On Demand] o [!UICONTROL Simple Ad Serving]
 description: Aprenda a abrir un informe de nivel de acuerdo.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
@@ -22,8 +22,7 @@ El informe a nivel de acuerdo incluye el número de subastas, la tasa de oferta,
 
 >[!MORELIKETHIS]
 >
->* [Ver perspectivas de subasta para un acuerdo privado](/help/dsp/inventory/private-deal-auction-insights.md)
+>* [Ver información sobre la subasta de un acuerdo privado](/help/dsp/inventory/private-deal-auction-insights.md)
 >* [Acerca de [!DNL On Demand] Inventario Premium](on-demand-inventory-about.md)
 >* [Acerca del inventario privado](private-inventory-about.md)
 >* [Acerca de [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
-

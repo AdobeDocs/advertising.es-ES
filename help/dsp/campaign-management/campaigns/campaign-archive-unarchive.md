@@ -19,22 +19,21 @@ Puede desarchivar una campaña para restaurar su estado anterior en cualquier mo
 ## Archivar una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
-1. Junto al nombre de la campaña, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Para ver campañas archivadas, filtre la variable [!UICONTROL Campaigns] vista: clic ![Botón Filtro](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Campaign status]** y seleccione **[!UICONTROL Archived]** y haga clic en **[!UICONTROL Apply].**
+>Para ver las campañas archivadas, filtre la vista [!UICONTROL Campaigns]: haga clic en ![Botón de filtro](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Campaign status]** y seleccione **[!UICONTROL Archived]**, y después haga clic en **[!UICONTROL Apply].**
 
 ## Desarchivar una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
-1. Junto al nombre de la campaña, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
->* [Edición de una campaña](campaign-edit.md)
->* [Visualización del registro de cambios de una campaña](campaign-change-log.md)
+>* [Editar una campaña](campaign-edit.md)
+>* [Ver el registro de cambios de una campaña](campaign-change-log.md)
 >* [Pausar o activar una campaña](campaign-pause-activate.md)
-

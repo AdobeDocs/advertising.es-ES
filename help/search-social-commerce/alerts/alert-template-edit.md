@@ -1,9 +1,9 @@
 ---
 title: Editar una plantilla de alerta personalizada
 description: Obtenga información sobre cómo editar una plantilla para generar alertas personalizadas.
-exl-id: 14051d02-108c-4b0e-8a52-9ae18a95fe2e
+exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -12,27 +12,27 @@ ht-degree: 0%
 
 # Editar una plantilla de alerta personalizada
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que se abre a la [!UICONTROL Alert Templates] vista.
+1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que se abre en la vista [!UICONTROL Alert Templates].
 
 1. (Opcional) Filtre la vista para incluir filas con nombres específicos, rangos de datos que evaluar u otros criterios.
 
-   Puede aplicar filtros de datos [en la barra de herramientas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o [de encabezados de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+   Puede aplicar filtros de datos [desde la barra de herramientas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o [desde los encabezados de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Junto al nombre de la plantilla, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. En el [!UICONTROL Update \[Entity Type\] Alert] , edite la [configuración de alertas](alert-template-settings.md) en el **[!UICONTROL Date Range]**, **[!UICONTROL Filters]**, y **[!UICONTROL Scheduling and Delivery]** pestañas.
+1. En la ventana [!UICONTROL Update \[Entity Type\] Alert], edite la [configuración de alertas](alert-template-settings.md) en las fichas **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** y **[!UICONTROL Scheduling and Delivery]**.
 
-   Para desplazarse entre las fichas, haga clic en el nombre de la ficha (por ejemplo, &quot;Filtros&quot;) o haga clic en **[!UICONTROL Next]** en la parte inferior derecha.
+   Puede moverse entre las fichas haciendo clic en el nombre de la ficha (por ejemplo, &quot;Filtros&quot;) o haciendo clic en **[!UICONTROL Next]** en la parte inferior derecha.
 
-1. En el [!UICONTROL Summary] pestaña, haga clic en **[!UICONTROL Update]**.
+1. En la ficha [!UICONTROL Summary], haga clic en **[!UICONTROL Update]**.
 
 >[!MORELIKETHIS]
 >
->* [Alertas personalizadas](alert-about.md)
+>* [Acerca de las alertas personalizadas](alert-about.md)
 >* [Crear una plantilla de alerta personalizada](alert-template-create.md)
 >* [Pausar una plantilla de alerta personalizada](alert-template-pause.md)
 >* [Activar una plantilla de alerta personalizada](alert-template-activate.md)
 >* [Eliminar una plantilla de alerta personalizada](alert-template-delete.md)
->* [Configuración de plantilla de alerta personalizada](alert-template-settings.md)
+>* [Configuración de la plantilla de alertas personalizada](alert-template-settings.md)
 >* [Ver alertas personalizadas](alert-view.md)
 >* [Exportar datos para alertas personalizadas](alert-export-data.md)

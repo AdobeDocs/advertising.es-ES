@@ -1,5 +1,5 @@
 ---
-title: DSP Acerca de la administración de ubicaciones en Advertising
+title: Acerca de la administración de ubicaciones en Advertising DSP
 description: Obtenga información acerca de la administración de ubicaciones.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# DSP Acerca de la administración de ubicaciones en Advertising
+# Acerca de la administración de ubicaciones en Advertising DSP
 
 Una ubicación incluye parámetros de segmentación para uno o varios anuncios del mismo tipo de anuncio. Puede crear una ubicación para una sola campaña o paquete y luego asignarle anuncios. Cada campaña o ubicación puede incluir varias ubicaciones, con una rotación de anuncio especificada. De forma predeterminada, los anuncios se giran uniformemente. Puede configurar por separado los multiplicadores de oferta para varios tipos de destino de ubicación.
 
@@ -28,17 +28,17 @@ Puede crear una ubicación manualmente o duplicando una existente. También pued
 * Televisor conectado
 * Universal Video
 
-## El [!UICONTROL Placements] Tablero
+## El panel [!UICONTROL Placements]
 
-El [!UICONTROL Placements] el tablero centraliza los informes de rendimiento y económicos en todas las ubicaciones, lo que proporciona instantáneas rápidas del rendimiento de las ubicaciones durante un intervalo de fechas especificado.
+El tablero [!UICONTROL Placements] centraliza los informes de rendimiento y económicos en todas las ubicaciones, lo que proporciona instantáneas rápidas del rendimiento de las ubicaciones durante un intervalo de fechas especificado.
 
-![Panel de ubicaciones](/help/dsp/assets/placement-dashboard.png)
+![Tablero de ubicaciones](/help/dsp/assets/placement-dashboard.png)
 
 El tablero incluye un gráfico de tendencias personalizable de alto nivel con tres métricas.
 
 El panel también muestra, de forma predeterminada, las métricas de ritmo y envío por ubicación. Si lo desea, puede ver las métricas de rendimiento de las ubicaciones y crear conjuntos de columnas personalizados. Puede descargar toda la tabla de datos en la carpeta de descarga predeterminada del explorador como un informe en formato XLSM (hoja de cálculo de Excel habilitada para macros).
 
-Para cada ubicación, puede abrir una vista detallada ([el [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), que incluye métricas de rendimiento, métricas de ritmo y envío y conjuntos de columnas personalizados por sitio, publicidad e inventario; así como métricas de frecuencia. También puede realizar acciones rápidas en los sitios, los anuncios y el inventario incluidos, como excluir un sitio, pausar un anuncio o editar una oferta. Para abrir el Inspector, mantenga el cursor sobre la fila de colocación y haga clic en **[!UICONTROL More]** y haga clic en **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** o **[!UICONTROL Inventory]**. Puede exportar los datos en el [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency], o [!UICONTROL Inventory]  a la carpeta de descarga predeterminada del explorador como un informe en formato XLSM.
+Para cada ubicación, puede abrir una vista detallada ([el [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), que incluye métricas de rendimiento, métricas de ritmo y envío y conjuntos de columnas personalizados por sitio, anuncio e inventario; así como métricas de frecuencia. También puede realizar acciones rápidas en los sitios, los anuncios y el inventario incluidos, como excluir un sitio, pausar un anuncio o editar una oferta. Para abrir el Inspector, mantenga el cursor sobre la fila de ubicación, haga clic en **[!UICONTROL More]** y, a continuación, haga clic en **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** o **[!UICONTROL Inventory]**. Puede exportar los datos de las pestañas [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency] o [!UICONTROL Inventory] a la carpeta de descarga predeterminada del explorador como un informe en formato XLSM.
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ Para cada ubicación, puede abrir una vista detallada ([el [!UICONTROL Inspector
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
->* [Solución de problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)

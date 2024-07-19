@@ -19,7 +19,7 @@ Todas las ubicaciones que se pausan antes de pausar una campaña permanecen en p
 ## Pausa de una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
-1. Junto al nombre de la campaña, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
 >
@@ -28,9 +28,9 @@ Todas las ubicaciones que se pausan antes de pausar una campaña permanecen en p
 ## Activación de una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
-1. Junto al nombre de la campaña, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >
->* [Edición de una campaña](campaign-edit.md)
+>* [Editar una campaña](campaign-edit.md)
 >* [Archivar una campaña](campaign-archive-unarchive.md)

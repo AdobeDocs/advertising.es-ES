@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Copiar la clave del segmento para una audiencia reutilizable en el portapapeles
 
-Puede copiar la clave de segmento alfanumérica (ID) de una audiencia en el portapapeles. Puede utilizar claves de segmento para lo siguiente [definir la lógica de segmento manualmente](audience-segment-logic-syntax.md) para otras audiencias reutilizables.
+Puede copiar la clave de segmento alfanumérica (ID) de una audiencia en el portapapeles. Puede usar claves de segmento para [definir manualmente la lógica de segmento](audience-segment-logic-syntax.md) para otras audiencias reutilizables.
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
@@ -22,11 +22,11 @@ Puede copiar la clave de segmento alfanumérica (ID) de una audiencia en el port
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
->* [Duplicación de una audiencia reutilizable](reusable-audience-duplicate.md)
+>* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)
 >* [Eliminar una audiencia reutilizable](reusable-audience-delete.md)
@@ -35,4 +35,3 @@ Puede copiar la clave de segmento alfanumérica (ID) de una audiencia en el port
 >* [Configuración de audiencia](audience-settings.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
-

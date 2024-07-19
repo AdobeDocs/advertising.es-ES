@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Operaciones que se pueden realizar en hojas de edición masiva
 
-Puede añadir, editar y eliminar datos de campaña mediante hojas de edición por lotes para [redes de publicidad admitidas](../bulksheet-about.md#bulksheet-functionality-by-network).
+Puede agregar, editar y eliminar datos de campañas mediante hojas de edición por lotes para [redes de anuncios compatibles](../bulksheet-about.md#bulksheet-functionality-by-network).
 
-Incluya una línea de datos independiente para cada componente de campaña (campaña, grupo de publicidad, palabra clave o anuncio de texto) que desee agregar, editar o eliminar, o cuyas propiedades desee agregar, editar o eliminar. Por ejemplo, si desea crear una campaña con un grupo de anuncios, una palabra clave y un anuncio (un total de cuatro componentes), necesita cuatro líneas de datos independientes. Para editar la variable [!UICONTROL Ad Group Name] sin embargo, para un grupo de publicidad (un componente), solo necesita una línea. Del mismo modo, para editar cuatro propiedades diferentes para un grupo de anuncios (un componente), solo necesita una línea.
+Incluya una línea de datos independiente para cada componente de campaña (campaña, grupo de publicidad, palabra clave o anuncio de texto) que desee agregar, editar o eliminar, o cuyas propiedades desee agregar, editar o eliminar. Por ejemplo, si desea crear una campaña con un grupo de anuncios, una palabra clave y un anuncio (un total de cuatro componentes), necesita cuatro líneas de datos independientes. Sin embargo, para editar [!UICONTROL Ad Group Name] para un grupo de publicidad (un componente), solo necesita una línea. Del mismo modo, para editar cuatro propiedades diferentes para un grupo de anuncios (un componente), solo necesita una línea.
 
 Las siguientes reglas se aplican al trabajo con componentes de campaña y sus propiedades.
 
@@ -30,15 +30,15 @@ Las siguientes reglas se aplican al trabajo con componentes de campaña y sus pr
 
 * Eliminando:
 
-   * Para eliminar un componente existente, incluya todos los campos necesarios para editar ese componente y cambie su estado a [!UICONTROL Deleted]. Por ejemplo, para eliminar un [!DNL Google Ads] grupo de anuncios, debe incluir el [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] con un valor de <i>[!UICONTROL Deleted]</i>, y [!UICONTROL Ad Group ID].
+   * Para eliminar un componente existente, incluya todos los campos necesarios para editar ese componente y cambie su estado a [!UICONTROL Deleted]. Por ejemplo, para eliminar un grupo de anuncios de [!DNL Google Ads], debe incluir [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] con un valor de <i>[!UICONTROL Deleted]</i> y [!UICONTROL Ad Group ID].
 
-   * ([!UICONTROL Param1], [!UICONTROL Param2], y [!UICONTROL Param3] (solo valores de ) Para eliminar un [!DNL paramN] para una palabra clave, incluya todos los campos necesarios para editar la palabra clave y también elimine los campos existentes [!DNL paramN] al introducir el valor `[delete]` (incluidos los corchetes) en el campo correspondiente.
+   * ([!UICONTROL Param1], [!UICONTROL Param2] y [!UICONTROL Param3] valores solamente) Para eliminar un valor [!DNL paramN] existente de una palabra clave, incluya todos los campos necesarios para editar la palabra clave y también elimine el valor [!DNL paramN] existente al escribir el valor `[delete]` (incluidos los corchetes) en el campo correspondiente.
 
    * (Campos de propiedad permitidos) Para eliminar un valor de propiedad existente de un componente, incluya todos los campos necesarios para editar ese componente y también elimine el valor de propiedad introduciendo el valor `[delete]` (incluidos los corchetes). Los campos permitidos incluyen:
 
-      * ([!UICONTROL Google Ads] solo) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
+      * ([!UICONTROL Google Ads] solamente) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
 
-      * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solo) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
+      * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Las siguientes reglas se aplican al trabajo con componentes de campaña y sus pr
 
 >[!MORELIKETHIS]
 >
->* [Administración de datos de campaña mediante hojas de edición masiva](../bulksheet-about.md)
+>* [Acerca de la administración de datos de campaña mediante hojas de edición masiva](../bulksheet-about.md)
 >* [Formatos de archivo de hojas de edición masiva admitidos](bulksheet-file-formats.md)
->* [Apéndice: Errores de hojas de edición masiva](../bulksheet-errors.md)
->* [Descargar/crear un archivo de hoja de edición masiva](../bulksheet-download.md)
+>* [Apéndice: errores de hojas de edición masiva](../bulksheet-errors.md)
+>* [Descargar o crear un archivo de hoja de edición masiva](../bulksheet-download.md)

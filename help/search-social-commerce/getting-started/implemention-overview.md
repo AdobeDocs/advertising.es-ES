@@ -1,11 +1,11 @@
 ---
 title: Información general sobre la implementación de Search, Social y Commerce
 description: Aprender
-exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
 
 ## Lanzamiento inicial
 
-[!DNL Adobe] y/o su agencia trabajará con usted para lo siguiente:
+[!DNL Adobe] y/o su agencia trabajan con usted para lo siguiente:
 
 1. Evalúe sus objetivos empresariales de alto nivel y diseñe estrategias para alcanzarlos:
 
@@ -40,15 +40,15 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
 
 1. Sincronice o cree campañas para cada una de las cuentas de red de publicidad:
 
-   * Sincronice con la cuenta mediante a) la creación de un registro de cuenta correspondiente en Buscar, Social y Comercio que contenga las credenciales de acceso a la cuenta y las opciones de seguimiento y b) la configuración del estado de la cuenta como habilitada.
+   * Sincronice con la cuenta mediante a) la creación de un registro de cuenta correspondiente en Buscar, Social y Commerce que contenga las credenciales de acceso a la cuenta y las opciones de seguimiento y b) la configuración del estado de la cuenta como habilitada.
 
-   * Si las cuentas aún no contienen datos de campaña, agregue campañas, grupos de anuncios, palabras clave, anuncios y ubicaciones desde Buscar, Social y Comercio o desde la red de anuncios.
+   * Si las cuentas aún no contienen datos de campaña, agregue campañas, grupos de anuncios, palabras clave, anuncios y ubicaciones desde Buscar, Social y Commerce o desde la red de anuncios.
 
      Para obtener más información sobre la configuración de campañas de búsqueda, consulte el capítulo de ayuda en Campaign Management.
 
 1. Configure el seguimiento de todos los anuncios para los que desee que el Adobe Advertising rastree las conversiones:
 
-   1. (Si es necesario) Configure el rastreo de clics para los anuncios y, opcionalmente, para las palabras clave, [!DNL Google Ads] ubicaciones, y [!DNL Google Ads] extensiones generando y cargando URL de seguimiento de clics.
+   1. (Si es necesario) Configure el rastreo de clics para las publicidades y, opcionalmente, para las palabras clave, las ubicaciones de [!DNL Google Ads] y las extensiones de [!DNL Google Ads] mediante la generación y carga de direcciones URL de seguimiento de clics.
 
       Las URL de rastreo de clics de los anunciantes con el servicio de seguimiento de conversiones basado en píxeles de Adobe Advertising incluyen una redirección a [!DNL Adobe] servidores.
 
@@ -60,11 +60,11 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
 
    1. (Anunciantes con Adobe Analytics o Adobe Audience Manager) Configure integraciones entre las distintas cuentas para que Adobe Advertising pueda intercambiar datos con ellas.
 
-      Consulte la guía de &quot;[Integraciones con Experience Cloud](/help/integrations/home.md).&quot;
+      Consulte la guía de &quot;[Integraciones con el Experience Cloud](/help/integrations/home.md)&quot;.
 
-   1. (Anunciantes con [!DNL Google Analytics]) Sincronizar métricas de conversión para un [!DNL Google Analytics] combinación de cuenta, propiedad y vista para optimización y sistema de informes.
+   1. (Anunciantes con [!DNL Google Analytics]) Sincronizar las métricas de conversión de una cuenta, propiedad y combinación de vistas de [!DNL Google Analytics] para la optimización y la creación de informes.
 
-      Consulte el subcapítulo de ayuda &quot;Administración&quot; > &quot;[Configuración de fuentes de datos](/help/search-social-commerce/admin/data-sources/data-source-about.md).&quot;
+      Consulte el subcapítulo de ayuda &quot;Administración&quot; > &quot;[Configuración de fuentes de datos](/help/search-social-commerce/admin/data-sources/data-source-about.md)&quot;.
 
 1. Configurar e iniciar portafolios:
 
@@ -74,9 +74,9 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
       >
       >Search, Social y Commerce siguen realizando un seguimiento de los datos de las campañas que no están asignadas a los portafolios, y los informes correspondientes, pero no optimizan las ofertas para ellos.
 
-   1. Una vez que se disponga de datos suficientes para crear una línea de base, el equipo podrá iniciar el portafolio, lo que permitirá a Search, Social y Commerce optimizar las ofertas o los presupuestos del portafolio en función del tipo de optimización.
+   1. Una vez que haya suficientes datos disponibles para crear una línea de base, el equipo podrá iniciar el portafolio, lo que permitirá a Search, Social y Commerce optimizar las ofertas o los presupuestos del portafolio en función del tipo de optimización.
 
-   Para obtener más información sobre la configuración y el inicio de portafolios, consulte la ayuda de &quot;Optimización&quot;, disponible en [!UICONTROL Help] menú (![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda")), en la parte superior derecha de cualquier página dentro de Buscar, Social y Comercio.
+   Para obtener más información sobre cómo configurar e iniciar portafolios, consulte la ayuda de &quot;Optimización&quot;, que está disponible en el menú [!UICONTROL Help] (![menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "menú Ayuda")) en la parte superior derecha de cualquier página dentro de Search, Social y Commerce.
 
 1. Monitorice el rendimiento de sus portafolios:
 
@@ -86,11 +86,11 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
 
    Para obtener más información sobre cómo ejecutar perspectivas de publicidad y configurar informes, consulte el capítulo de ayuda en &quot;Perspectivas e informes&quot;.
 
-1. (Opcional) Configure su [vistas de datos de rendimiento](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) para mostrar los datos que desea ver.
+1. (Opcional) Configure sus [vistas de datos de rendimiento](/help/search-social-commerce/common-tasks/data-views/data-views-about.md) para que muestren los datos que desea ver.
 
 ## Tareas en curso
 
-Después del primer inicio, se requieren las siguientes tareas en curso. Según las condiciones de participación, puede hacer lo siguiente [!DNL Adobe], una agencia afiliada o el anunciante realiza estas tareas:
+Después del primer inicio, se requieren las siguientes tareas en curso. Según las condiciones de participación, [!DNL Adobe], una agencia afiliada o el anunciante realizan las siguientes tareas:
 
 * Continúe monitorizando y analizando el rendimiento de cada portafolio mediante la visualización de alertas, datos de rendimiento para cada portafolio y sus campañas de componentes, informes personalizables y simulaciones (algunas funciones).
 
@@ -108,4 +108,4 @@ Después del primer inicio, se requieren las siguientes tareas en curso. Según 
 
    * Agregar nuevos portafolios.
 
-Para obtener instrucciones sobre la supervisión de portafolios y el ajuste de las estrategias de portafolio, consulte el subcapítulo de ayuda &quot;Optimización&quot; > &quot;Administración de Portfolio&quot; > &quot;Supervisión y administración del rendimiento&quot;, que está disponible en el [!UICONTROL Help] menú (![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda")), en la parte superior derecha de cualquier página dentro de Buscar, Social y Comercio.
+Para obtener instrucciones sobre la supervisión de portafolios y el ajuste de las estrategias de portafolio, consulte el subcapítulo de ayuda &quot;Optimización&quot; > &quot;Administración de Portfolio&quot; > &quot;Supervisión y administración del rendimiento&quot;, que está disponible en el menú [!UICONTROL Help] (![menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "menú Ayuda")) en la parte superior derecha de cualquier página dentro de Buscar, Social y Commerce.

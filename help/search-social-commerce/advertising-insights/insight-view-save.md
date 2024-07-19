@@ -1,26 +1,26 @@
 ---
-title: Ver o guardar un [!DNL Advertising Insight]
-description: Obtenga información sobre cómo ver una [!DNL Advertising Insight] y guárdelo en un archivo.
-exl-id: 165a6036-c911-4c56-a820-c9d172e47ea4
+title: Ver o guardar un(a) [!DNL Advertising Insight]
+description: Obtenga información sobre cómo ver un(a) [!DNL Advertising Insight]  y guardarlo en un archivo.
+exl-id: 4baf24eb-5ebf-41d9-8b3b-6af1672ad030
 feature: Search Advertising Insights
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
-# Ver o guardar un [!DNL Advertising Insight]
+# Ver o guardar un(a) [!DNL Advertising Insight]
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
 
-2. En el menú izquierdo, haga clic en ![Informes](/help/search-social-commerce/assets/insight-reports.png "Informes").
+2. En el menú de la izquierda, haga clic en ![Informes](/help/search-social-commerce/assets/insight-reports.png "Informes").
 
-3. En el [!UICONTROL Generated Insights] , realice una de las acciones siguientes:
+3. En el panel [!UICONTROL Generated Insights], realice una de las acciones siguientes:
 
    * Haga clic en la instancia de informe.
 
-   * Mantenga el cursor sobre la instancia de informe y haga clic en ![Descargar](/help/search-social-commerce/assets/insight-download.png "Descargar").
+   * Mantenga el cursor sobre la instancia del informe y haga clic en ![Descargar](/help/search-social-commerce/assets/insight-download.png "Descargar").
 
 4. Abra o guarde el archivo según el procedimiento normal del explorador.
 
@@ -29,5 +29,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Acerca de [!UICONTROL Advertising Insights]](insight-about.md)
->* [Generación de un [!DNL Advertising Insight]](insight-generate.md)
+>* [Generar un [!DNL Advertising Insight]](insight-generate.md)
 >* [Eliminar un [!DNL Advertising Insight]](insight-delete.md)

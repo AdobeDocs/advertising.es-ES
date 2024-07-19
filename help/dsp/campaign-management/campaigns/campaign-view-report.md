@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Ver un informe detallado de una campaña
 
-El <!--legacy --> el informe de nivel de campaña incluye una descripción general y secciones sobre [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], y [!UICONTROL Audience Performance] datos.
+El informe de nivel de campaña <!--legacy --> incluye información general y secciones sobre los datos de [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability] y [!UICONTROL Audience Performance].
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Realice una de las acciones siguientes:
-   * Clic **[!UICONTROL ...]** > **[!UICONTROL View report]** en la barra de herramientas superior derecha.
-   * Junto al nombre de la campaña, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+   * Haga clic en **[!UICONTROL ...]** > **[!UICONTROL View report]** en la barra de herramientas superior derecha.
+   * Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL View report]**.
 
 >[!MORELIKETHIS]
 >
@@ -25,5 +25,5 @@ El <!--legacy --> el informe de nivel de campaña incluye una descripción gener
 >* [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [Tipos de informes de rendimiento en las vistas de Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
->* [Visualización del registro de cambios de una campaña](campaign-change-log.md)
+>* [Ver el registro de cambios de una campaña](campaign-change-log.md)
 >* [Pausar o activar una campaña](campaign-pause-activate.md)

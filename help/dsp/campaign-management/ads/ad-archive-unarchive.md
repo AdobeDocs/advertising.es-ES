@@ -21,24 +21,23 @@ Puede desarchivar un anuncio para restaurar su estado anterior en cualquier mome
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Ads]**.
-1. Junto al nombre del anuncio, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
+1. Junto al nombre del anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Archive]**.
 
 >[!NOTE]
 >
->Para ver anuncios archivados, filtre la variable [!UICONTROL Ads] vista: clic ![[!UICONTROL Filter] botón](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Ad status]** y seleccione **[!UICONTROL Archived]** y haga clic en **[!UICONTROL Apply].**
+>Para ver anuncios archivados, filtre la vista [!UICONTROL Ads]: haga clic en el botón ![[!UICONTROL Filter]](/help/dsp/assets/filter.png), haga clic en **[!UICONTROL Ad status]**, seleccione **[!UICONTROL Archived]** y, a continuación, haga clic en **[!UICONTROL Apply].**
 
 ## Desarchivar un anuncio
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Ads]**.
-1. Junto al nombre del anuncio, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
+1. Junto al nombre del anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]
 >
 >* [Crear un solo anuncio](ad-create.md)
->* [Creación de varios anuncios de terceros](ad-create-multiple.md)
+>* [Crear varios anuncios de terceros](ad-create-multiple.md)
 >* [Editar un anuncio](ad-edit.md)
-

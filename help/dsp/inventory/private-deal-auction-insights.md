@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Ver perspectivas de subasta para un acuerdo privado
 
-Información sobre la subasta es una herramienta de resolución de problemas que le permite analizar la composición de las operaciones de ofertas privadas garantizadas y no garantizadas. Con las visualizaciones de datos, esta herramienta muestra la tendencia y las proporciones relativas de los valores recibidos para [atributos clave de la subasta](#auction-attributes) dentro de un período de tiempo específico.
+Información sobre la subasta es una herramienta de resolución de problemas que le permite analizar la composición de las operaciones de ofertas privadas garantizadas y no garantizadas. Con las visualizaciones de datos, esta herramienta muestra la tendencia y las proporciones relativas de los valores recibidos para [atributos de subasta clave](#auction-attributes) en un período de tiempo específico.
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. En la fila de la oferta, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
+1. En la fila de la oferta, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->Información sobre la subasta también está disponible a través de la ubicación [!UICONTROL Inspector] herramienta. Para abrirlos, [abrir la ubicación [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) a la [!UICONTROL Inventory tab]y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** en la fila del acuerdo.
+>Las perspectivas de subasta también están disponibles a través de la herramienta de ubicación [!UICONTROL Inspector]. Para abrirlos, [abra la ubicación [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) en [!UICONTROL Inventory tab] y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** en la fila de la oferta.
 
 ## Atributos de subasta {#auction-attributes}
 
@@ -28,19 +28,19 @@ Hay gráficos de áreas disponibles para los siguientes atributos de subasta:
 
 * **Tipo de anuncio:** El tipo de anuncio solicitado en la subasta (como Pantalla o Audio).
 
-* **Explorador:** El explorador desde el que se originó la subasta (como Chrome o Firefox).
+* **Explorador:** Explorador desde el que se originó la subasta (como Chrome o Firefox).
 
-* **SO:** El sistema operativo (SO) desde el que se originó la subasta (como Android o iOS).
+* **SO:** Sistema operativo (SO) desde el que se originó la subasta (como Android o iOS).
 
-* **Tipo de dispositivo:** El dispositivo desde el que se originó la subasta (como teléfono móvil o escritorio).
+* **Tipo de dispositivo:** El dispositivo desde el que se originó la subasta (como el teléfono móvil o el escritorio).
 
-* **Duración del anuncio:** La duración máxima del anuncio solicitada en la subasta (por ejemplo, 15 segundos o 30 segundos).
+* **Duración del anuncio:** Duración máxima del anuncio solicitada en la subasta (por ejemplo, 15 o 30 segundos).
 
-* **Seguro:** Indica si la subasta requiere un recurso creativo de URL HTTPS seguro. Valores: <i>Secure</i> o <i>No seguro</i>.
+* **Seguro:** indica si la subasta requiere un recurso creativo de URL HTTPS seguro. Valores: <i>Seguro</i> o <i>No seguro</i>.
 
-* **Tipo MIME:** El tipo MIME de creatividad publicitaria solicitado en la subasta (como mp4 o mov).
+* **Tipo MIME:** El tipo MIME del creativo de publicidad solicitado en la subasta (como mp4 o mov).
 
-![perspectivas de subasta](/help/dsp/assets/auction-insights.png)
+![datos de la subasta](/help/dsp/assets/auction-insights.png)
 
 >[!NOTE]
 >

@@ -1,22 +1,22 @@
 ---
-title: Datos de hoja de edición masiva para [!DNL Yahoo! Display Network] cuentas
-description: Hacer referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para [!DNL Yahoo! Display Network] cuentas.
-exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
+title: Datos de hoja de edición masiva para  [!DNL Yahoo! Display Network] cuentas
+description: Haga referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para  [!DNL Yahoo! Display Network] cuentas.
+exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# Apéndice: Datos de hojas de edición masiva para [!DNL Yahoo! Display Network] cuentas
+# Apéndice: Datos de hojas de edición masiva para cuentas de [!DNL Yahoo! Display Network]
 
 <!-- 
 [Re-add "Required" to title, file name, and TOC if you add the ability to create/edit campaigns using YDN bulksheets. Then will also need to add more text below, like for the other SEs.]
 -->
 
-Puede descargar datos para [!DNL Yahoo! Display Network] cuentas de en bloque, pero no pueden cargar ni publicar hojas de edición en bloque en la red de publicidad.
+Puede descargar datos de cuentas de [!DNL Yahoo! Display Network] de forma masiva, pero no puede cargar ni publicar hojas de edición masiva en la red publicitaria.
 
 <!-- Hiding because this is probably too long a list to be useful.
 
@@ -41,18 +41,18 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Description Line 1] | n/a | n/a | Si se incluye | La primera línea del cuerpo de un anuncio. |
 | [!UICONTROL Description Line 2] | n/a | n/a | Si se incluye | La segunda línea del cuerpo de un anuncio. |
 | [!UICONTROL Base URL/Final URL] | n/a | n/a | Si se incluye | La dirección URL de la página de aterrizaje a la que se dirigen los usuarios finales cuando hacen clic en su anuncio, incluidos los parámetros de adición configurados para la campaña o cuenta. Las direcciones URL base/final en el nivel de palabra clave anulan las direcciones URL en el nivel de anuncio y superiores. |
-| [!UICONTROL Destination URL] | n/a | n/a | n/a | (Incluido en hojas de edición masiva generadas con fines informativos; no publicado en la red de anuncios). Para cuentas con direcciones URL de destino, este valor es la dirección URL que vincula un anuncio a una dirección URL o página de aterrizaje base en el sitio web del anunciante (a veces a través de otro sitio que rastrea el clic y luego redirige al usuario a la página de aterrizaje). Incluye cualquier parámetro de datos anexados configurado para la campaña o cuenta de Search, Social y Commerce. Si ha generado direcciones URL de seguimiento, este valor se basa en los parámetros de seguimiento de la configuración de la cuenta y la configuración de la campaña. Si ha anexado parámetros específicos de red de anuncios, se pueden reemplazar por los parámetros equivalentes para Buscar, Social y Comercio. |
+| [!UICONTROL Destination URL] | n/a | n/a | n/a | (Incluido en hojas de edición masiva generadas con fines informativos; no publicado en la red de anuncios). Para cuentas con direcciones URL de destino, este valor es la dirección URL que vincula un anuncio a una dirección URL o página de aterrizaje base en el sitio web del anunciante (a veces a través de otro sitio que rastrea el clic y luego redirige al usuario a la página de aterrizaje). Incluye cualquier parámetro de adición configurado para la campaña o cuenta de Search, Social y Commerce. Si ha generado direcciones URL de seguimiento, este valor se basa en los parámetros de seguimiento de la configuración de la cuenta y la configuración de la campaña. Si ha anexado parámetros específicos de red de anuncios, se pueden reemplazar por los parámetros equivalentes para Buscar, Social y Commerce. |
 | \[Clasificación de etiquetas específica del anunciante\] | Si se incluye | Si se incluye | Si se incluye | (Nombrado para una clasificación de etiquetas específica del anunciante, como &quot;Color&quot; para una clasificación de etiquetas denominada Color) Un valor para la clasificación especificada que está asociada a la entidad. |
 | [!UICONTROL Constraints] | Si se incluye | Si se incluye | n/a | Una restricción asignada a la entidad. |
-| [!UICONTROL Campaign Status] | Si se incluye | n/a | n/a | El estado de visualización de la campaña: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, o <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Ad Group Status] | n/a | Si se incluye | n/a | El estado de visualización del grupo de anuncios: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, o <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Keyword Status] | n/a | n/a | Si se incluye | El estado de visualización de la palabra clave: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, o <i>[!UICONTROL Deleted]</i> (solo palabras clave existentes). |
+| [!UICONTROL Campaign Status] | Si se incluye | n/a | n/a | El estado de visualización de la campaña: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> o <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Ad Group Status] | n/a | Si se incluye | n/a | El estado de visualización del grupo de anuncios: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> o <i>[!UICONTROL Deleted]</i>. |
+| [!UICONTROL Keyword Status] | n/a | n/a | Si se incluye | Estado de visualización de la palabra clave: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> o <i>[!UICONTROL Deleted]</i> (solo palabras clave existentes). |
 | [!UICONTROL Campaign ID] | Si se incluye | Si se incluye | Si se incluye | ID único que identifica una campaña existente. |
 | [!UICONTROL Ad Group ID] | n/a | Si se incluye | Si se incluye | ID único que identifica un grupo de anuncios existente. |
 | [!UICONTROL Keyword ID] | n/a | n/a | Si se incluye | Identificador exclusivo que identifica una palabra clave existente. |
 | [!UICONTROL AMO ID] | n/a | n/a | n/a | (En hojas de edición masiva generadas) Identificador único generado por el Adobe para una entidad sincronizada. |
-| [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Se incluye en las hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de Search, Social y Commerce con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL EF Errors] archivos. |
+| [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de Search, Social y Commerce con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL EF Errors] archivos. |
 
 >[!MORELIKETHIS]
 >
->* [Descargar/crear un archivo de hoja de edición masiva](../bulksheet-download.md)
+>* [Descargar o crear un archivo de hoja de edición masiva](../bulksheet-download.md)

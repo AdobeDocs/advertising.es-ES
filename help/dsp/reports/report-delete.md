@@ -13,15 +13,14 @@ ht-degree: 0%
 # Eliminar un informe personalizado
 
 1. En el menú principal, haga clic en **[!UICONTROL Reports]**.
-1. En el [!UICONTROL Options] para la fila del informe, haga clic en **[!UICONTROL options]** > **[!UICONTROL Delete]**.
+1. En la columna [!UICONTROL Options] de la fila del informe, haga clic en **[!UICONTROL options]** > **[!UICONTROL Delete]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL OK]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
->* [Creación de un informe personalizado](/help/dsp/reports/report-create.md)
->* [Duplicación de un informe personalizado](/help/dsp/reports/report-copy.md)
->* [Edición de un informe personalizado](/help/dsp/reports/report-edit.md)
+>* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
+>* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
+>* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
 >* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
-

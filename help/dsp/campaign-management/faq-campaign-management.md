@@ -40,10 +40,10 @@ ht-degree: 0%
 
 * ¿Cómo cambia el ritmo del paquete en el último día de un vuelo?
 
-  El último día de un vuelo, el día se acorta de 24 horas a 23 horas para que no se exceda el presupuesto del paquete. Además, la estrategia de relleno de ritmo del paquete cambia automáticamente a &quot;[!UICONTROL Frontload],&quot; incluso si está configurado en &quot;[!UICONTROL even].&quot; Esto significa que el 65% del presupuesto diario debería entregarse antes de las 11:30 a.m. EST.
+  El último día de un vuelo, el día se acorta de 24 horas a 23 horas para que no se exceda el presupuesto del paquete. Además, la estrategia de relleno de ritmo del paquete cambia automáticamente a &quot;[!UICONTROL Frontload]&quot;, aunque esté establecida en &quot;[!UICONTROL even]&quot;. Esto significa que el 65% del presupuesto diario debería entregarse antes de las 11:30 a.m. EST.
 
 >[!MORELIKETHIS]
 >
->* [Configuración de paquetes](/help/dsp/campaign-management/packages/package-settings.md)
+>* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)

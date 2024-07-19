@@ -27,15 +27,15 @@ Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presu
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
-1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. Editar cualquiera de los disponibles [configuración de ubicación](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]**, y **[!UICONTROL Budget]**.
-1. Clic **[!UICONTROL Apply]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Edite cualquiera de las [configuraciones de ubicación](placement-settings.md) disponibles: **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** y **[!UICONTROL Budget]**.
+1. Haga clic en **[!UICONTROL Apply]**.
 
 ## Editar una sola ubicación
 
 >[!TIP]
 >
-> Para editar solo el nombre de la ubicación, el estado, la oferta máxima y el presupuesto, consulte &quot;[Editar rápidamente la configuración de colocación de claves](#placement-quick-edit).&quot;
+> Para editar únicamente el nombre de la ubicación, el estado, la oferta máxima y el presupuesto, consulta &quot;[Editar rápidamente la configuración de ubicación de la clave](#placement-quick-edit)&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -43,11 +43,11 @@ Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presu
 
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 
-1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Edite el [configuración de ubicación](placement-settings.md).
+1. Edite la [configuración de ubicación](placement-settings.md).
 
-1. Clic **[!UICONTROL Update placement]**.
+1. Haga clic en **[!UICONTROL Update placement]**.
 
 ## Editar varias ubicaciones {#edit-multiple-placements}
 
@@ -61,17 +61,17 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 
 1. Seleccione la casilla de verificación situada junto a cada ubicación que desee editar.
 
-1. En la barra de menús de operaciones por lotes, haga clic en **[!UICONTROL Edit]**.
+1. En la barra de menús de operaciones en masa, haga clic en **[!UICONTROL Edit]**.
 
 1. Para cada configuración que desee cambiar:
 
    1. Elija la configuración en la lista.
 
-   1. Seleccione el **[!UICONTROL Edit Mode]**.
+   1. Seleccione **[!UICONTROL Edit Mode]**.
 
       Las opciones varían según la configuración, pero pueden incluir lo siguiente:
 
-      * **Añadir** (para conservar los valores existentes y agregar nuevos valores)
+      * **Anexar** (para conservar los valores existentes y agregar nuevos valores)
 
       * **Borrar** (para eliminar todos los valores existentes)
 
@@ -81,25 +81,25 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 
       * **Sobrescribir** (para cambiar el valor existente por uno nuevo)
 
-      * **Pausar** (para pausar los anuncios)
+      * **Pausar** (para pausar anuncios)
 
-      * **Eliminar** (para eliminar los valores especificados)
+      * **Quitar** (para quitar los valores especificados)
 
-   1. Edite el [configuración de ubicación](placement-settings.md).
+   1. Editar la configuración de [ubicación](placement-settings.md).
 
-1. Clic **[!UICONTROL Submit]**.
+1. Haga clic en **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de ubicación](placement-about.md)
+>* [Acerca de la administración de ubicaciones](placement-about.md)
 >* [Revisar y editar la configuración de ubicación mediante hojas de cálculo](placement-qa.md)
 >* [Crear una ubicación](placement-create.md)
 >* [Duplicar una ubicación](placement-duplicate.md)
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
->* [Editar los horarios de anuncios de las ubicaciones](placement-edit-ad-schedule.md)
+>* [Editar los horarios de anuncios para las ubicaciones](placement-edit-ad-schedule.md)
 >* [Pausar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
->* [Ver el informe Previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

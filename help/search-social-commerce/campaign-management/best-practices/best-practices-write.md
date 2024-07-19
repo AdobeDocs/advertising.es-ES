@@ -1,11 +1,11 @@
 ---
 title: Escribir texto efectivo y copiar
 description: Conozca las prácticas recomendadas para escribir textos publicitarios eficaces.
-exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para conocer las prácticas recomendadas específicas de las campañas en portafolios, consulte también la sección Guía de optimización > Administración de Portfolio > Prácticas recomendadas para Portfolio, disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Para obtener más prácticas recomendadas específicas para campañas en portafolios, consulte también la sección Guía de optimización > Administración de Portfolio > Prácticas recomendadas para Portfolio, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Requisitos generales para todas las redes de publicidad
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * Los signos de exclamación están prohibidos en los titulares o títulos, pero se permiten en las líneas de descripción. Solo se permite una en la descripción.
 
-* Caracteres especiales como `@,~,\, ^,>,<` están prohibidas.
+* Los caracteres especiales como `@,~,\, ^,>,<` están prohibidos.
 
 * Los métodos abreviados, o el uso de símbolos para reemplazar palabras, están prohibidos. Por ejemplo, no puede usar &quot;U&quot; para reemplazar &quot;usted&quot; o &quot;`@`&quot; para reemplazar &quot;en&quot;.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * Investigue lo que están haciendo sus competidores. Examine los anuncios principales de un espacio (en sitios como www.spyfu.com) y trate de comprender qué anuncios funcionan.
 
-[1]: si utiliza la inserción de palabras clave, utilice las mayúsculas y minúsculas correctas para el código de inserción:
+[1]: si usa la inserción de palabras clave, use las mayúsculas correctas para el código de inserción:
 
 `{keyword:default}` = cortadoras de césped
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 `{KeyWord:default}` = Cortadoras de césped
 
-`{KEYWord:default}` = Cortadoras de CÉSPED (que solo se permite si &quot;LAWN&quot; es una marca)
+`{KEYWord:default}` = Cortadoras de CÉSPED (que solo se permite si &quot;CÉSPED&quot; es una marca)
 
 `{KeyWORD:default}` = CORTADORAS de césped (que solo se permite si &quot;CORTADORAS&quot; es una marca)
 
@@ -84,5 +84,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Analice los informes para restringir las palabras clave y la configuración de campañas](best-practices-analyze.md)
->* [Optimización de las páginas de aterrizaje del sitio web](best-practices-optimize.md)
+>* [Analice informes para restringir las palabras clave y la configuración de campañas](best-practices-analyze.md)
+>* [Optimizar las páginas de aterrizaje del sitio web](best-practices-optimize.md)

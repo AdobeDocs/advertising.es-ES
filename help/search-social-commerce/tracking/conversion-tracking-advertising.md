@@ -18,17 +18,17 @@ El seguimiento de conversiones mediante Adobe Advertising rastrea las conversion
 >
 >Si el usuario no tiene una cookie válida, el Adobe Advertising no informa de la conversión.
 
-Para cada conjunto de métricas de conversión que desee rastrear, debe crear una etiqueta de conversión independiente. Proporcione las etiquetas al anunciante o a la agencia con una lista de páginas web en las que insertar cada una. Puede generar cualquiera de los siguientes tipos de etiquetas de conversión. Consulte &quot;[Generación de una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot; para obtener instrucciones.
+Para cada conjunto de métricas de conversión que desee rastrear, debe crear una etiqueta de conversión independiente. Proporcione las etiquetas al anunciante o a la agencia con una lista de páginas web en las que insertar cada una. Puede generar cualquiera de los siguientes tipos de etiquetas de conversión. Consulte &quot;[Generar una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot; para obtener instrucciones.
 
-* (Recomendado) Etiquetas JavaScript (versión 3 o 2), que no son visibles en las páginas web.
+* (Recomendado) Las etiquetas de JavaScript (versión 3 o 2), que no son visibles en las páginas web.
 
-* Las etiquetas de imagen del HTML muestran imágenes transparentes de 1 píxel x 1 píxel (píxeles), que son invisibles para los usuarios finales, en las páginas web. Utilice etiquetas de imagen únicamente cuando la empresa tenga una política de no utilizar etiquetas JavaScript.
+* Las etiquetas de imagen del HTML muestran imágenes transparentes de 1 píxel x 1 píxel (píxeles), que son invisibles para los usuarios finales, en las páginas web. Utilice etiquetas de imagen únicamente cuando la empresa tenga una política de no utilizar etiquetas de JavaScript.
 
-Para obtener más información sobre las diferencias entre los tipos de etiquetas, consulte &quot;[Preguntas frecuentes sobre las etiquetas de seguimiento de conversión de Advertising Cloud](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
+Para obtener más información sobre las diferencias entre los tipos de etiquetas, consulte &quot;[preguntas frecuentes sobre las etiquetas de seguimiento de conversión de Advertising Cloud](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;.
 
 >[!NOTE]
 >
->* Esta función no agrega etiquetas de imagen ni etiquetas JavaScript a las páginas web del anunciante. Las etiquetas deben añadirse según el procedimiento normal del anunciante para actualizar páginas web.
+>* Esta función no agrega etiquetas de imagen ni de JavaScript a las páginas web del anunciante. Las etiquetas deben añadirse según el procedimiento normal del anunciante para actualizar páginas web.
 >* Asegúrese de tener en cuenta cuánto tiempo se tarda en implementar las etiquetas. Según las políticas de la empresa, la implementación puede tardar semanas o incluso meses.
 
 ## Características de las etiquetas de seguimiento de conversión de Adobe Advertising
@@ -54,9 +54,9 @@ El píxel de seguimiento de conversión permite al Adobe Advertising hacer lo si
 >[!MORELIKETHIS]
 >
 >* [Opciones de seguimiento de conversión](conversion-tracking-about.md)
->* [Generación de una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generar una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3](format-conversion-tag-jsv3.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](format-conversion-tag-jsv2.md)
->* [Formato de las etiquetas de seguimiento de conversión de imagen](format-conversion-tag-image.md)
->* [Preguntas frecuentes sobre las etiquetas de conversión y seguimiento de vista de página](faqs-conversion-page-view-tracking-tags.md)
->* [La etiqueta de asignación de conversión de JavaScript de Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [Formato de etiquetas de seguimiento de conversión de imagen](format-conversion-tag-image.md)
+>* [Preguntas más frecuentes acerca de las etiquetas de conversión y seguimiento de vista de página](faqs-conversion-page-view-tracking-tags.md)
+>* [Etiqueta de asignación de conversión de JavaScript de Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

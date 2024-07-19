@@ -1,9 +1,9 @@
 ---
 title: Acerca de esta guía
 description: Descubra lo que se cubre en cada capítulo de esta guía.
-exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
+exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -26,10 +26,10 @@ En los siguientes capítulos de ayuda encontrará información sobre grupos espe
 
 * &quot;Insights and reports&quot; explica cómo generar perspectivas de publicidad, generar informes detallados y automatizar la producción de informes, crear y supervisar alertas, ver un registro de los cambios realizados en la cuenta del anunciante y ver y aplicar recomendaciones generadas por la red de anuncios para sus cuentas.
 
-* En &quot;Herramientas&quot; se explica cómo cambiar la contraseña, cómo usar las herramientas para generar etiquetas de rastreo de clics y de seguimiento de conversión, y cómo cargar las métricas de conversión a [!DNL Google Ads] y sus objetivos de portafolio a las redes de anuncios para la optimización híbrida, cargue métricas para rastrear campañas y duplique sus [!DNL Google Ads] campañas en su [!DNL Microsoft Advertising] cuentas.
+* &quot;Herramientas&quot; explica cómo cambiar la contraseña, usar herramientas para generar etiquetas de rastreo de clics y seguimiento de conversión, cargar las métricas de conversión a [!DNL Google Ads] y los objetivos de su portafolio en las redes de anuncios para la optimización híbrida, cargar métricas para el seguimiento de campañas y replicar las campañas de [!DNL Google Ads] en sus cuentas de [!DNL Microsoft Advertising].
 
-* &quot;Administración&quot; explica cómo administrar los datos del anunciante, incluidas las métricas de conversión que se recopilan y las fechas que se deben excluir de las previsiones del portafolio; sincronizar las métricas de conversión de un [!DNL Google Analytics] cuenta; configurar varias opciones de nivel de anunciante; y (algunas funciones) administrar cuentas de usuario, de agencia y de anunciante.
+* &quot;Administración&quot; explica cómo administrar los datos del anunciante, incluidas las métricas de conversión que se recopilan y las fechas que se deben excluir de las previsiones del portafolio; sincronizar las métricas de conversión desde una cuenta de [!DNL Google Analytics]; configurar varias opciones de configuración de nivel de anunciante; y (algunas funciones) administrar las cuentas de usuario, agencia y anunciante.
 
 >[!NOTE]
 >
->La ayuda para la optimización, incluido el uso de portafolios para ofertas, está disponible en el [!UICONTROL Help] menú (![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda")), en la parte superior derecha de cualquier página dentro de Buscar, Social y Comercio.
+>La ayuda para la optimización, incluido el uso de portafolios para pujas, está disponible en el menú [!UICONTROL Help] (![menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "menú Ayuda")) en la parte superior derecha de cualquier página dentro de Buscar, Social y Commerce.

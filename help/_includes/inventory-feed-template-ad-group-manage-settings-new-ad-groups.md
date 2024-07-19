@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Plantilla de anuncio de texto: administrar la configuración para nuevos grupos de publicidad
 
-**[!UICONTROL Manage Settings for NEW Ad Groups]:**(Opcional) Permite configurar los ajustes de cualquier grupo de anuncios que se cree.
+**[!UICONTROL Manage Settings for NEW Ad Groups]:**(Opcional) Permite configurar las opciones de cualquier grupo de anuncios que se cree.

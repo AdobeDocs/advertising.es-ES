@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Exportar detalles sobre una audiencia reutilizable
 
-Puede descargar un [!DNL Microsoft Excel] archivo de hoja de cálculo con la regla de configuración de audiencia, el número de miembros de audiencia activos y totales por tipo de dispositivo, detalles sobre cada segmento en la audiencia y todas las ubicaciones dirigidas a la audiencia.
+Puede descargar un archivo de hoja de cálculo de [!DNL Microsoft Excel] con la regla de configuración de audiencia, el número de miembros de audiencia activos y totales por tipo de dispositivo, detalles sobre cada segmento de la audiencia y todas las ubicaciones destinadas a la audiencia.
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
@@ -22,15 +22,14 @@ Puede descargar un [!DNL Microsoft Excel] archivo de hoja de cálculo con la reg
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
->* [Duplicación de una audiencia reutilizable](reusable-audience-duplicate.md)
+>* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
 >* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
 >* [Eliminar una audiencia reutilizable](reusable-audience-delete.md)
 >* [Configuración de audiencia](audience-settings.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
-

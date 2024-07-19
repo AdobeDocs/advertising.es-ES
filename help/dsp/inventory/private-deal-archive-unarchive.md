@@ -18,9 +18,8 @@ Puede desarchivar una oferta para restaurar su estado anterior en cualquier mome
 
 >[!NOTE]
 >
->* No se puede archivar [!UICONTROL On Demand] ofertas.
+>* No puede archivar [!UICONTROL On Demand] ofertas.
 >* Para desactivar una oferta del lado del editor, póngase en contacto con el editor o con el SSP. DSP Después de que desactivan el acuerdo, puede archivarlo en el archivo para ocultarlo.
-
 
 ## Archivar un acuerdo privado
 
@@ -30,12 +29,12 @@ Puede desarchivar una oferta para restaurar su estado anterior en cualquier mome
 
 >[!NOTE]
 >
->Para ver las ofertas archivadas, haga clic en ![Filtrar](/help/dsp/assets/filter.png) sobre la lista de ofertas; haga clic en **[!UICONTROL Status]** y seleccione *[!UICONTROL Archived]*; y haga clic en **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Para ver las ofertas archivadas, haga clic en ![Filtro](/help/dsp/assets/filter.png) sobre la lista de ofertas; haga clic en **[!UICONTROL Status]** y seleccione *[!UICONTROL Archived]*; y después haga clic en **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 ## Desarchivar un acuerdo privado
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
-1. Sobre la lista de ofertas, haga clic en ![Filtrar](/help/dsp/assets/filter.png); haga clic **[!UICONTROL Status]** y seleccione *[!UICONTROL Archived]*; y haga clic en **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+1. Encima de la lista de ofertas, haz clic en ![Filtro](/help/dsp/assets/filter.png); haz clic en **[!UICONTROL Status]** y selecciona *[!UICONTROL Archived]*; y luego haz clic en **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 1. En la fila de la oferta, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Unarchive]**.
 
@@ -43,10 +42,9 @@ Si el editor o el SSP habían desactivado anteriormente la oferta y desea volver
 
 >[!NOTE]
 >
->Para ver las ofertas no archivadas (en directo), haga clic en ![Filtrar](/help/dsp/assets/filter.png) sobre la lista de ofertas; haga clic en **[!UICONTROL Status]** y seleccione *[!UICONTROL Live]*; y haga clic en **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
+>Para ver ofertas no archivadas (en vivo), haz clic en ![Filtro](/help/dsp/assets/filter.png) sobre la lista de ofertas; haz clic en **[!UICONTROL Status]** y selecciona *[!UICONTROL Live]*; y luego haz clic en **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
 
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
 >* [Editar configuración de acuerdo privado](/help/dsp/inventory/deal-id-edit.md)
-

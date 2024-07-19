@@ -25,9 +25,9 @@ Puede crear y administrar ubicaciones de entrega, denominadas *[!DNL report dest
 >
 > También puede enviar los informes personalizados a los destinatarios de correo electrónico, que no requieren un destino de informe guardado. Puede especificar destinatarios de correo electrónico, en lugar de destinos guardados, dentro de la configuración del informe.
 
-## El [!UICONTROL Report Destinations] Ver
+## La vista [!UICONTROL Report Destinations]
 
-El [!UICONTROL Report Destinations] La vista muestra todos los destinos existentes y el número de informes vinculados a cada uno. Puede filtrar la lista por tipo de destino.
+La vista [!UICONTROL Report Destinations] muestra todos los destinos existentes y el número de informes vinculados a cada uno. Puede filtrar la lista por tipo de destino.
 
 Puede crear nuevos destinos y editar y eliminar destinos existentes desde esta vista.
 
@@ -39,7 +39,7 @@ Puede crear nuevos destinos y editar y eliminar destinos existentes desde esta v
 
 >[!MORELIKETHIS]
 >
->* [Crear un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination] Configuración](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Editar una [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+>* [Crear un(a) [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* Configuración de [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Editar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)

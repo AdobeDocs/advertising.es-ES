@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
-description: Obtenga información acerca de [!UICONTROL Keyword Daily Impression Share Report].
+description: Más información acerca de [!UICONTROL Keyword Daily Impression Share Report].
 exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] solo cuentas*
 
-El [!UICONTROL Keyword Daily Impression Share Report] incluye métricas de cuota de impresiones diarias para cada palabra clave, el tipo de coincidencia correspondiente y el tipo de dispositivo correspondiente para uno o varios grupos de anuncios o campañas. De forma predeterminada, los datos incluyen una fila por cada palabra clave, tipo de coincidencia y dispositivo que recibió al menos una impresión o clic para cada grupo de anuncios aplicable y para cada día del intervalo de fechas especificado. De forma predeterminada, las filas están en orden ascendente según la fecha. El informe puede incluir opcionalmente datos rastreados por [!DNL Adobe] y métricas derivadas.
+[!UICONTROL Keyword Daily Impression Share Report] incluye métricas de cuota de impresiones diarias para cada palabra clave, el tipo de coincidencia correspondiente y el tipo de dispositivo correspondiente para uno o varios grupos de anuncios o campañas. De forma predeterminada, los datos incluyen una fila por cada palabra clave, tipo de coincidencia y dispositivo que recibió al menos una impresión o clic para cada grupo de anuncios aplicable y para cada día del intervalo de fechas especificado. De forma predeterminada, las filas están en orden ascendente según la fecha. El informe puede incluir opcionalmente datos rastreados por [!DNL Adobe] y métricas derivadas.
 
 Las métricas de uso compartido de impresiones están disponibles a las 13:00 en la zona horaria del anunciante del día anterior. Puede ver los datos de los dos meses anteriores.
 
 ## Columnas predeterminadas
 
-Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informes para informes de especialidades](specialty-report-columns.md).&quot;
+Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informe para informes de especialidades](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -48,6 +48,6 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes especiales](specialty-report-about.md)
->* [Generar un informe de especialidad](specialty-report-generate.md)
+>* [Acerca de los informes de especialidad](specialty-report-about.md)
+>* [Generar informe de especialidad](specialty-report-generate.md)
 >* [Configuración de informes especiales](specialty-report-settings.md)

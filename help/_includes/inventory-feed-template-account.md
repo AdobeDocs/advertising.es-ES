@@ -12,5 +12,4 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* Para volver a utilizar los parámetros de plantilla para otra cuenta o motor de búsqueda, clone la plantilla y especifique la nueva cuenta.
->* Si clona la plantilla para otro motor de búsqueda, es posible que tenga que ajustar los parámetros de la plantilla en consecuencia. Por ejemplo, [!DNL Google Ads] tiene dos campos de descripción para anuncios de texto, mientras que [!DNL Microsoft Advertising] solo tiene uno; cada motor de búsqueda tiene diferentes longitudes máximas para los campos de publicidad; y [!UICONTROL Google Param 1] y [!UICONTROL Google Param 2] solo están disponibles para [!DNL Google Ads] cuentas.
-
+>* Si clona la plantilla para otro motor de búsqueda, es posible que tenga que ajustar los parámetros de la plantilla en consecuencia. Por ejemplo, [!DNL Google Ads] tiene dos campos de descripción para los anuncios de texto, mientras que [!DNL Microsoft Advertising] solo tiene uno; cada motor de búsqueda tiene diferentes longitudes máximas para los campos de publicidad; y [!UICONTROL Google Param 1] y [!UICONTROL Google Param 2] solo están disponibles para las cuentas de [!DNL Google Ads].

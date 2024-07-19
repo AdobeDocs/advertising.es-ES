@@ -20,21 +20,20 @@ Puede ordenar los datos por cualquier columna excepto por Valor nuevo y Valor an
 
 1. Haga clic en el nombre de la campaña.
 
-1. En el **[!UICONTROL Packages]** , junto al nombre del paquete, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. En la ficha **[!UICONTROL Packages]**, junto al nombre del paquete, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Opcional) Realice una de las siguientes acciones:
 
-   * Para cambiar entre ver los datos solo en el formulario de tabla y en los formularios de tabla y gráfico, haga clic en ![Visualización de tabla y gráfico](/help/dsp/assets/table-plus-chart-view.png "Visualización de tabla y gráfico") o ![Vista de tabla](/help/dsp/assets/table-view.png "Vista de tabla") en la barra de herramientas superior derecha.
+   * Para cambiar entre ver los datos solamente en el formulario de tabla y en los formularios de tabla y gráfico, haga clic en ![Tabla y vista de gráfico](/help/dsp/assets/table-plus-chart-view.png "Tabla y vista de gráfico") o ![Vista de tabla](/help/dsp/assets/table-view.png "Vista de tabla") en la barra de herramientas superior derecha.
 
-   * Para añadir una nota a una entrada, mantenga el cursor sobre la [!UICONTROL Notes] para la fila y, a continuación, haga clic en **[!UICONTROL Add Notes]**. Introduzca texto en los campos de entrada y haga clic en **[!UICONTROL Save]**.
+   * Para agregar una nota a una entrada, mantenga el cursor sobre la columna [!UICONTROL Notes] de la fila y haga clic en **[!UICONTROL Add Notes]**. Escriba texto en los campos de entrada y haga clic en **[!UICONTROL Save]**.
 
-   * Para ver los detalles de una entrada en una ventana emergente, mantenga el cursor sobre la [!UICONTROL Notes] para la fila y, a continuación, haga clic en **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Para ver los detalles de una entrada en una ventana emergente, mantenga el cursor sobre la columna [!UICONTROL Notes] de la fila y haga clic en **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de la administración de paquetes](package-about.md)
 >* [Crear un paquete](package-create.md)
->* [Edición de un paquete](package-edit.md)
+>* [Editar un paquete](package-edit.md)
 >* [Adjuntar una ubicación a un paquete](package-attach-placement.md)
->* [Configuración de paquetes](package-settings.md)
-
+>* [Configuración del paquete](package-settings.md)

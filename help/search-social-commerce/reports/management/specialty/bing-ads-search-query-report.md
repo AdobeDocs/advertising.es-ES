@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL Bing Ads Search Query Report]'
-description: Obtenga información acerca de [!UICONTROL Bing Ads Search Query Report].
+description: Más información acerca de [!UICONTROL Bing Ads Search Query Report].
 exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]solo cuentas*
 
-El [!UICONTROL Bing Ads Search Query Report] incluye datos de coste, clics, impresiones y (opcionalmente) métricas derivadas para términos de consulta de búsqueda de usuarios de uno o más grupos de anuncios. De forma predeterminada, los datos incluyen una fila para cada término de búsqueda que resultó en impresiones o clics para cada grupo de anuncios aplicable y para cada unidad de tiempo en el intervalo de fechas especificado. Las filas están en orden ascendente por nombre de grupo de anuncios y, a continuación, por término de búsqueda de forma predeterminada. El informe no incluye la palabra clave con la que coincide el término de búsqueda, ni ningún dato de conversión rastreado por [!DNL Adobe].
+[!UICONTROL Bing Ads Search Query Report] incluye datos de costo, clics, impresiones y (opcionalmente) métricas derivadas para términos de consulta de búsqueda de usuarios de uno o más grupos de anuncios. De forma predeterminada, los datos incluyen una fila para cada término de búsqueda que resultó en impresiones o clics para cada grupo de anuncios aplicable y para cada unidad de tiempo en el intervalo de fechas especificado. Las filas están en orden ascendente por nombre de grupo de anuncios y, a continuación, por término de búsqueda de forma predeterminada. El informe no incluye la palabra clave con la que coincidió el término de búsqueda ni los datos de conversión seguidos por [!DNL Adobe].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ El [!UICONTROL Bing Ads Search Query Report] incluye datos de coste, clics, impr
 
 ## Columnas predeterminadas
 
-Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informes para informes de especialidades](specialty-report-columns.md).&quot;
+Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informe para informes de especialidades](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -41,6 +41,6 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes especiales](specialty-report-about.md)
->* [Generar un informe de especialidad](specialty-report-generate.md)
+>* [Acerca de los informes de especialidad](specialty-report-about.md)
+>* [Generar informe de especialidad](specialty-report-generate.md)
 >* [Configuración de informes especiales](specialty-report-settings.md)

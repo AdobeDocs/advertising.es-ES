@@ -1,11 +1,11 @@
 ---
 title: Asignar valores de clasificación a componentes de cuenta desde las vistas de administración de campañas
 description: Obtenga información sobre cómo asignar valores de clasificación a componentes de cuenta.
-exl-id: 7e55d7d8-5e12-409b-ad5d-c53cbf24c7c9
+exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -20,31 +20,31 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
 >[!NOTE]
 >
->Las palabras clave y la copia de anuncio de algunas redes de anuncios y tipos de campañas son [no mutable](/help/search-social-commerce/campaign-management/faqs-campaigns.md), lo que significa que al editarlos se elimina la entidad existente y se crea una nueva. Cuando se elimina una entidad existente de este modo, la clasificación de etiquetas no se asigna a la nueva entidad.
+>Las palabras clave y la copia de anuncios de algunas redes de anuncios y tipos de campañas son [no mutables](/help/search-social-commerce/campaign-management/faqs-campaigns.md), lo que significa que al editarlas se eliminará la entidad existente y se creará una nueva. Cuando se elimina una entidad existente de este modo, la clasificación de etiquetas no se asigna a la nueva entidad.
 
-1. Clic **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** y, a continuación, seleccione la vista de componente de la cuenta.
+1. Haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** y, a continuación, seleccione la vista de componente de la cuenta.
 
 1. Realice una de las acciones siguientes:
 
-   * (Para asignar valores a una sola entidad) Mantenga el cursor sobre el nombre de la entidad y haga clic en ![Botón Menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Botón Menú"), y luego seleccione **[!UICONTROL Classification]**.
+   * (Para asignar valores a una sola entidad) Mantenga el cursor sobre el nombre de la entidad, haga clic en ![Botón de menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Botón de menú") y, a continuación, seleccione **[!UICONTROL Classification]**.
 
    * (Para asignar valores a una o varias entidades) Haga lo siguiente:
 
       * Seleccione la casilla de verificación situada junto a cada fila correspondiente.
 
-        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      * En la barra de herramientas sobre la tabla de datos, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más")y haga clic en **[!UICONTROL Classification]**.
+      * En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y, a continuación, haga clic en **[!UICONTROL Classification]**.
 
-1. En el [!UICONTROL Assignment Details], realice una de las acciones siguientes:
+1. En [!UICONTROL Assignment Details], realice una de las siguientes acciones:
 
    * Para cambiar los valores de clasificaciones existentes por valores nuevos, seleccione **[!UICONTROL Set To]**.
 
      La longitud máxima de cada valor es de 100 caracteres, y puede incluir caracteres ASCII y no ASCII.
 
-   * Para asignar los valores de clasificación especificados sin eliminar los valores existentes, seleccione **[!UICONTROL Assign]**.
+   * Para asignar los valores de clasificación especificados sin quitar los valores existentes, seleccione **[!UICONTROL Assign]**.
 
-   * Para eliminar valores de clasificación específicos asignados actualmente, seleccione **[!UICONTROL Remove]**.
+   * Para quitar valores de clasificación específicos asignados actualmente, seleccione **[!UICONTROL Remove]**.
 
      Cuando se elimina un valor de clasificación, los datos del informe del valor ya no están disponibles para los componentes de cuenta especificados.
 
@@ -54,35 +54,35 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
 1. Para cada valor de clasificación aplicable, haga lo siguiente:
 
-   1. En el **[!UICONTROL Classification]** , especifique el nombre de la clasificación:
+   1. En la columna **[!UICONTROL Classification]**, especifique el nombre de la clasificación:
 
       * Para utilizar una clasificación existente, haga clic en el nombre de la clasificación para expandirla.
 
-      * Para crear una clasificación, haga clic en [!UICONTROL +]. En el campo de entrada, introduzca el nombre de la clasificación y haga clic en ![Guardar](/help/search-social-commerce/assets/select.png "Guardar") para guardar inmediatamente la clasificación.
+      * Para crear una clasificación, haga clic en [!UICONTROL +]. En el campo de entrada, escriba el nombre de la clasificación y haga clic en ![Guardar](/help/search-social-commerce/assets/select.png "Guardar") para guardar la clasificación inmediatamente.
 
-        El nombre debe constar de [Caracteres ASCII 32-126](https://www.asciitable.com/)y la longitud máxima es de 27 caracteres de un solo byte.
+        El nombre debe contener [caracteres ASCII 32-126](https://www.asciitable.com/) y la longitud máxima es de 27 caracteres de un solo byte.
 
-   1. En el **[!UICONTROL Value Name]** , especifique el nombre del valor:
+   1. En la columna **[!UICONTROL Value Name]**, especifique el nombre del valor:
 
       * Para utilizar un valor existente, haga clic en el nombre del valor para seleccionarlo.
 
-      * Para crear un valor, haga clic en [!UICONTROL +]. En el campo de entrada, introduzca el valor y haga clic en ![Guardar](/help/search-social-commerce/assets/select.png "Guardar") para guardar inmediatamente el valor.
+      * Para crear un valor, haga clic en [!UICONTROL +]. En el campo de entrada, escribe el valor y, a continuación, haz clic en ![Guardar](/help/search-social-commerce/assets/select.png "Guardar") para guardar de inmediato el valor.
 
         La longitud máxima es de 100 caracteres y puede incluir caracteres ASCII y no ASCII.
 
 1. (Opcional) Introduzca detalles adicionales:
 
-   1. Junto a **[!UICONTROL Additional Details]**, haga clic en ![Abrir](/help/search-social-commerce/assets/chevron-up.png "Abrir") para ampliar los detalles.
+   1. Junto a **[!UICONTROL Additional Details]**, haz clic en ![Abrir](/help/search-social-commerce/assets/chevron-up.png "Abrir") para ampliar los detalles.
 
-   1. Introduzca un opcional **[!UICONTROL Project Name]** y/o opcional **[!UICONTROL Description]**.
+   1. Escriba un(a) **[!UICONTROL Project Name]** opcional(a) y/o un(a) **[!UICONTROL Description]** opcional.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las clasificaciones de etiquetas](classification-about.md)
 >* [Crear una clasificación de etiquetas](classification-create.md)
 >* [Asignar valores de clasificación a componentes de cuenta mediante hojas de edición masiva](classification-values-assign-bulksheets.md)
->* [Quitar valores de clasificación de etiquetas de componentes de cuenta](classification-values-remove.md)
+>* [Quitar valores de clasificación de etiquetas de los componentes de la cuenta](classification-values-remove.md)
 >* [Eliminar valores de clasificación de etiquetas](classification-values-delete.md)
 >* [Eliminar clasificaciones de etiquetas](classification-delete.md)

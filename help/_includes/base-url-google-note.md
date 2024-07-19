@@ -13,4 +13,3 @@ ht-degree: 0%
 >
 >* La dirección URL base puede contener redirecciones dentro del dominio o subdominio de la página de aterrizaje, pero no redirecciones fuera de este. Google Ads extrae el dominio de esta dirección URL y añade cualquier ruta de visualización opcional para que el anuncio cree la dirección URL de visualización.
 >* Evite utilizar macros que no sustituyan los clics de fuentes que habilitan el seguimiento en paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
-

@@ -1,39 +1,39 @@
 ---
 title: Cálculo de las reglas de atribución
 description: Descubra cómo Adobe Advertising calcula cada tipo de regla de atribución.
-exl-id: b61561fa-8c01-4989-9ef7-620d2b4c2c0b
+exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
 
 # Cálculo de las reglas de atribución para el Adobe Advertising
 
-*Anunciantes solo con seguimiento de conversión de Adobe Advertising*
+*Anunciantes con solo seguimiento de conversión de Adobe Advertising*
 
 <!-- Verify statements about cross-device events -->
 
 La regla de atribución de nivel de anunciante se utiliza para atribuir datos de conversión (potencialmente en varios canales de publicidad) en una serie de eventos que conducen a una conversión.
 
-En los informes, las vistas predeterminadas y personalizadas para Advertising Search, Social y Commerce (Buscar, Social y Commerce) y (algunas funciones de usuario) simulaciones de nivel de portafolio para Search, Social y Commerce, la regla seleccionada solo se utiliza para los datos de vista, informe o simulación. Las distintas reglas de atribución se aplican de la siguiente manera.
+En los informes, las vistas predeterminadas y personalizadas para Advertising Search, Social y Commerce (Buscar, Social y Commerce), así como (algunas funciones de usuario) las simulaciones de nivel de portafolio para Search, Social y Commerce, la regla seleccionada solo se utiliza para los datos de vista, informe o simulación. Las distintas reglas de atribución se aplican de la siguiente manera.
 
 >[!NOTE]
 >
 >* Las reglas de atribución se aplican a los clics en anuncios pagados en cualquier canal y a las impresiones en pantallas y anuncios sociales. No se aplican a las impresiones de anuncios de búsqueda de pago, que no se pueden rastrear en el nivel de evento.
 >* El Adobe Advertising siempre almacena los siguientes eventos para cada internauta antes de una conversión: a) el primer clic de pago; b) hasta 10 clics para cada canal (búsqueda, red social o visualización), incluido el primer clic; y c) hasta 10 impresiones de visualización. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* DSP En Advertising y Advertising Creative, las definiciones entre dispositivos solo tienen en cuenta la ruta de evento de la regla de atribución seleccionada.<!-- cross-device attribution via LiveRamp only -->
+* En Advertising DSP y Advertising Creative, las definiciones entre dispositivos solo tienen en cuenta la ruta de acceso del evento de la regla de atribución seleccionada.<!-- cross-device attribution via LiveRamp only -->
 * En las vistas de informes y administración, el número de decimales que se muestran para un valor depende de la divisa, pero el Adobe Advertising almacena valores más precisos.
 
 ## Último evento (valor predeterminado)
 
-Atribuye la conversión al último clic de pago de la serie, dentro del [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) o, si no se han producido clics pagados, hasta la última impresión dentro del [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j).
+Atribuye la conversión al último clic de pago de la serie dentro de la [ventana retrospectiva de clics](/help/search-social-commerce/glossary.md#c-d) del anunciante o, si no se produjeron clics de pago, a la última impresión dentro de la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j) del anunciante.
 
-Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
+Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización del anunciante](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
-![Porcentajes de atribución del último evento](/help/search-social-commerce/assets/attribution-percent-last-event.png "Porcentajes de atribución del último evento")
+![Últimos porcentajes de atribución de eventos](/help/search-social-commerce/assets/attribution-percent-last-event.png "Últimos porcentajes de atribución de eventos")
 
 <!-- start examples as collapsible content -->
 
@@ -47,7 +47,7 @@ La conversión se atribuye a Click 3 por un importe de 120 USD.
 
 ### Ejemplo con impresiones y clics
 
-**Nota:** Las impresiones solo se aplican a partir de anuncios en pantallas y medios sociales.
+**Nota:** Las impresiones solo se aplican a partir de anuncios en medios sociales y de visualización.
 
 Ruta del evento: impresión 1, clic 1, impresión 2, conversión de 120 USD
 
@@ -55,7 +55,7 @@ La conversión se atribuye a Click 1 por un importe de 120 USD.
 
 ### Ejemplo con todas las impresiones
 
-**Nota:** Solo son aplicables las impresiones para anuncios en pantallas y medios sociales.
+**Nota:** Solo son aplicables las impresiones para anuncios en medios sociales y de visualización.
 
 Ruta del evento: impresión 1, impresión 2, impresión 3, conversión de 120 USD
 
@@ -71,9 +71,9 @@ La conversión se atribuye a la impresión 3. Como la conversión es una visuali
 
 ## Primer evento
 
-Atribuye la conversión al primer clic de pago de la serie, dentro del [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) o, si no se han producido clics pagados, a la primera impresión dentro del [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j). Esta regla solo está disponible para eventos de entre dispositivos únicos.
+Atribuye la conversión al primer clic de pago de la serie dentro de la [ventana retrospectiva de clics](/help/search-social-commerce/glossary.md#c-d) del anunciante o, si no se produjeron clics de pago, a la primera impresión dentro de la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j) del anunciante. Esta regla solo está disponible para eventos de entre dispositivos únicos.
 
-Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
+Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
 ![Porcentajes de atribución del primer evento](/help/search-social-commerce/assets/attribution-percent-first-event.png "Porcentajes de atribución del primer evento")
 
@@ -89,7 +89,7 @@ La conversión se atribuye a Click 1 por un importe de 120 USD.
 
 ### Ejemplo con impresiones y clics
 
-**Nota:** Las impresiones solo se aplican a partir de anuncios en pantallas y medios sociales.
+**Nota:** Las impresiones solo se aplican a partir de anuncios en medios sociales y de visualización.
 
 Ruta del evento: impresión 1, clic 1, impresión 2, conversión de 120 USD
 
@@ -97,11 +97,12 @@ La conversión se atribuye a Click 1 por un importe de 120 USD.
 
 ### Ejemplo con todas las impresiones
 
-**Nota:** Solo son aplicables las impresiones para anuncios en pantallas y medios sociales.
+**Nota:** Solo son aplicables las impresiones para anuncios en medios sociales y de visualización.
 
 Ruta del evento: impresión 1, impresión 2, impresión 3, conversión de 120 USD
 
-La conversión se atribuye a la impresión 1. Como la conversión es una visualización, se aplica el método de valoración de visualización seleccionado en la sección &quot;Atribución de conversión de (Mostrar campañas)&quot; de la configuración del informe:
+La conversión se atribuye a la impresión 1. Como la conversión es una visualización, el método de valoración de visualización seleccionado en la Conversión &quot;(Mostrar campañas)
+Se aplica la sección &quot;Atribución&quot; de la configuración del informe:
 
 * Si el parámetro de informe especifica una ponderación de visualización ponderada, dicha ponderación se aplicará a la visualización. Por ejemplo, si la ponderación de visualización del anunciante es del 40 %, entonces 120 x 40 % = 48 USD, por lo que 48 USD se atribuye a la impresión 1.
 
@@ -113,13 +114,13 @@ La conversión se atribuye a la impresión 1. Como la conversión es una visuali
 
 ## Peso Primer evento Más
 
-Atribuye la conversión a todos los eventos de la serie que se produjeron dentro del [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j), pero otorga el mayor peso al primer evento y, sucesivamente, menos peso a los siguientes eventos. Esta regla solo está disponible para eventos en dispositivos únicos.
+Atribuye la conversión a todos los eventos de la serie que se produjeron en la [ventana retrospectiva de clics](/help/search-social-commerce/glossary.md#c-d) del anunciante y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j), pero otorga el mayor peso al primer evento y sucesivamente menos peso a los siguientes eventos. Esta regla solo está disponible para eventos en dispositivos únicos.
 
-Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
+Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
 Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
-* En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
+* En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
 * DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
 
@@ -137,17 +138,17 @@ Atribución: Haga clic 1 = 60 USD, Haga clic 2 = 40 USD, Haga clic 3 = 20 USD (1
 
 ### Ejemplos con impresiones y clics
 
-**Nota:** Las impresiones solo se aplican a partir de anuncios en pantallas y medios sociales.
+**Nota:** Las impresiones solo se aplican a partir de anuncios en medios sociales y de visualización.
 
 Ruta del evento: impresión 1, clic 1, impresión 2, clic 2, conversión de 120 USD
 
-#### (Solo búsqueda, medios sociales y comercio) Se utiliza el valor predeterminado de 10 % en &quot;Peso de anulación de impresión&quot;
+#### (Solo búsqueda, medios sociales y Commerce) Uso del 10 % como &quot;Peso de anulación de impresión&quot; predeterminado
 
 Como la serie de eventos incluye impresiones y clics, el peso de anulación de impresión se aplica a las impresiones.
 
 Atribución: impresión 1 = 8 USD, clic 1 = 72 USD, impresión 2 = 4 USD, clic 2 = 36 USD (120 USD en total)
 
-#### DSP Uso (solo para la impresión) sin peso de anulación de impresión o (solo para búsqueda, medios sociales y comercio) con un &quot;peso de anulación de impresión&quot; del 0 %
+#### DSP Uso (solo para la impresión) sin peso de anulación de impresión o (solo para Search, Social y Commerce) con un &quot;peso de anulación de impresión&quot; del 0 %
 
 Como la serie de eventos incluye impresiones y clics, estas se omiten.
 
@@ -155,7 +156,7 @@ Atribución: impresión 1 = 0 USD, clic 1 = 80 USD, impresión 2 = 0 USD, clic 2
 
 ### Ejemplo con todas las impresiones
 
-**Nota:** Solo son aplicables las impresiones para anuncios en pantalla.
+**Nota:** Solo se aplican impresiones para anuncios en pantalla.
 
 Ruta del evento: impresión 1, impresión 2, impresión 3, conversión de 120 USD
 
@@ -175,17 +176,17 @@ Dado que la conversión es una visualización, se aplica el método de valoraci�
 >
 >Esta regla solo está disponible para eventos de entre dispositivos únicos.
 
-Atribuye la conversión de forma equitativa a cada evento de la serie que se produjo dentro del [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j).
+Atribuye la conversión de forma equitativa a cada evento de la serie que se produjo en la [ventana retrospectiva de clics](/help/search-social-commerce/glossary.md#c-d) del anunciante y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j).
 
-Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
+Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
 Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
-* En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
+* En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
 * DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
 
-![Porcentajes de atribución pares](/help/search-social-commerce/assets/attribution-percent-even.png "Porcentajes de atribución pares")
+![Porcentajes de atribución par](/help/search-social-commerce/assets/attribution-percent-even.png "Porcentajes de atribución par")
 
 <!-- start examples as collapsible content -->
 
@@ -201,17 +202,17 @@ Atribución: Haga clic 1 = 40 USD, Haga clic 2 = 40 USD, Haga clic 3 = 40 USD (1
 
 ### Ejemplos con impresiones y clics
 
-**Nota:** Las impresiones solo se aplican a partir de anuncios en pantallas y medios sociales.
+**Nota:** Las impresiones solo se aplican a partir de anuncios en medios sociales y de visualización.
 
 Ruta del evento: impresión 1, clic 1, impresión 2, clic 2, conversión de 120 USD
 
-#### (Solo búsqueda, medios sociales y comercio) Se utiliza el valor predeterminado de 10 % en &quot;Peso de anulación de impresión&quot;
+#### (Solo búsqueda, medios sociales y Commerce) Uso del 10 % como &quot;Peso de anulación de impresión&quot; predeterminado
 
 Como la serie de eventos incluye impresiones y clics, el peso de anulación de impresión se aplica a las impresiones.
 
 Atribución: impresión 1 = 6 USD, clic 1 = 54 USD, impresión 2 = 6 USD, clic 2 = 54 USD (120 USD en total)
 
-#### Uso (solo Adobe Advertising DSP) de sin peso de anulación de impresión o (solo búsqueda, medios sociales y comercio) de un &quot;peso de anulación de impresión&quot; del 0 %
+#### Uso (solo Adobe Advertising DSP) sin peso de anulación de impresión o (solo búsqueda, social y Commerce) un &quot;peso de anulación de impresión&quot; del 0 %
 
 Como la serie de eventos incluye impresiones y clics, estas se omiten.
 
@@ -219,7 +220,7 @@ Atribución: impresión 1 = 0 USD, clic 1 = 60 USD, impresión 2 = 0 USD, clic 2
 
 ## Ejemplo con todas las impresiones
 
-**Nota:** Solo son aplicables las impresiones para anuncios en pantalla.
+**Nota:** Solo se aplican impresiones para anuncios en pantalla.
 
 Ruta del evento: impresión 1, impresión 2, impresión 3, conversión de 120 USD
 
@@ -235,13 +236,13 @@ Dado que la conversión es una visualización, se aplica el método de valoraci�
 
 ## Peso Último evento Más
 
-Atribuye la conversión a todos los eventos de la serie que se produjeron dentro del [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j), pero le da más peso al último evento y sucesivamente menos peso a los eventos anteriores.
+Atribuye la conversión a todos los eventos de la serie que se produjeron en la [ventana retrospectiva de clics](/help/search-social-commerce/glossary.md#c-d) del anunciante y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j), pero otorga el mayor peso al último evento y sucesivamente menos peso a los eventos anteriores.
 
-Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
+Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
 Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
-* En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
+* En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
 * DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
 
@@ -259,17 +260,17 @@ Atribución: Haga clic 3 = 60 USD, Haga clic 2 = 40 USD, Haga clic 1 = 20 USD (1
 
 ### Ejemplos con impresiones y clics
 
-**Nota:** Las impresiones solo se aplican a partir de anuncios en pantallas y medios sociales.
+**Nota:** Las impresiones solo se aplican a partir de anuncios en medios sociales y de visualización.
 
 Ruta del evento: impresión 1, clic 1, impresión 2, clic 2, conversión de 120 USD
 
-#### (Solo búsqueda, medios sociales y comercio) Se utiliza el valor predeterminado de 10 % en &quot;Peso de anulación de impresión&quot;
+#### (Solo búsqueda, medios sociales y Commerce) Uso del 10 % como &quot;Peso de anulación de impresión&quot; predeterminado
 
 Como la serie de eventos incluye impresiones y clics, el peso de anulación de impresión se aplica a las impresiones.
 
 Atribución: impresión 1 = 4 USD, clic 1 = 36 USD, impresión 2 = 8 USD, clic 2 = 72 USD (120 USD en total)
 
-#### DSP Uso (solo para la impresión) sin peso de anulación de impresión o (solo para búsqueda, medios sociales y comercio) con un &quot;peso de anulación de impresión&quot; del 0 %
+#### DSP Uso (solo para la impresión) sin peso de anulación de impresión o (solo para Search, Social y Commerce) con un &quot;peso de anulación de impresión&quot; del 0 %
 
 Como la serie de eventos incluye impresiones y clics, estas se omiten.
 
@@ -277,7 +278,7 @@ Atribución: impresión 1 = 0 USD, clic 1 = 40 USD, impresión 2 = 0 USD, clic 2
 
 ### Ejemplo con todas las impresiones
 
-**Nota:** Las impresiones solo se aplican a partir de anuncios en pantallas y medios sociales.
+**Nota:** Las impresiones solo se aplican a partir de anuncios en medios sociales y de visualización.
 
 Ruta del evento: impresión 1, impresión 2, impresión 3, conversión de 120 USD
 
@@ -293,13 +294,13 @@ Dado que la conversión es una visualización, se aplica el método de valoraci�
 
 ## en forma de U
 
-Atribuye la conversión a todos los eventos de la serie que se produjeron dentro del [haga clic en ventana retrospectiva](/help/search-social-commerce/glossary.md#c-d) y [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j), pero le da más peso al primer evento y a los últimos, con un peso sucesivamente menor a los eventos en medio de la ruta de conversión.
+Atribuye la conversión a todos los eventos de la serie que se produjeron en la [ventana retrospectiva de clics](/help/search-social-commerce/glossary.md#c-d) del anunciante y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j), pero otorga el mayor peso al primer evento y a los últimos, con un peso sucesivamente menor a los eventos que se producen en medio de la ruta de conversión.
 
-Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualizador*, que se pondera en función de la dirección del anunciante [configuración de ponderación de visualizaciones](/help/search-social-commerce/glossary.md#uv) o, como se especifique, según el método de valoración de visualización especificado en el informe, vista o parámetros de simulación personalizados.
+Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
 Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
-* En Search, Social y Commerce, la variable [peso de anulación de impresión](/help/search-social-commerce/glossary.md#i-j) — que se especifica en la configuración de peso de anulación de impresiones del anunciante y en los parámetros de informe, vista o simulación personalizada — se aplica primero a las impresiones.
+* En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
 * DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
 
@@ -317,11 +318,11 @@ Atribución: Haga clic 1 = 36 USD, Haga clic 2 = 24 USD, Haga clic 3 = 24 USD, H
 
 ### Ejemplos con impresiones y clics
 
-**Nota:** Las impresiones solo se aplican a partir de anuncios en pantallas y medios sociales.
+**Nota:** Las impresiones solo se aplican a partir de anuncios en medios sociales y de visualización.
 
 Ruta del evento: impresión 1, clic 1, impresión 2, clic 2, conversión de 120 USD
 
-#### (Solo búsqueda, medios sociales y comercio) Se utiliza el valor predeterminado de 10 % en &quot;Peso de anulación de impresión&quot;
+#### (Solo búsqueda, medios sociales y Commerce) Uso del 10 % como &quot;Peso de anulación de impresión&quot; predeterminado
 
 Como la serie de eventos incluye impresiones y clics, el peso de anulación de impresión se aplica a las impresiones.
 
@@ -335,7 +336,7 @@ Atribución: impresión 1 = 0 USD, clic 1 = 60 USD, impresión 2 = 0 USD, clic 2
 
 ### Ejemplo con todas las impresiones
 
-**Nota:** Solo son aplicables las impresiones para anuncios en pantalla.
+**Nota:** Solo se aplican impresiones para anuncios en pantalla.
 
 Ruta del evento: Impresión 1, Impresión 2, Impresión 3, Impresión 4, Conversión de 120 USD
 

@@ -24,11 +24,11 @@ Vea las acciones recomendadas y una explicación de por qué las acciones sería
 
 1. En la parte superior derecha, seleccione la red publicitaria y la cuenta.
 
-   Para [!DNL Microsoft Advertising] cuentas, el [!UICONTROL Recommendations] para la cuenta de se enumeran de forma predeterminada.
+   Para las cuentas de [!DNL Microsoft Advertising], los [!UICONTROL Recommendations] de la cuenta se muestran de forma predeterminada.
 
 1. (Opcional) Filtre las recomendaciones por categoría y tipo.
 
-1. En el [!UICONTROL Actions] para la recomendación o fila de perspectiva, haga clic en **[!UICONTROL View]**.
+1. En la columna [!UICONTROL Actions] de la recomendación o fila de perspectiva, haga clic en **[!UICONTROL View]**.
 
 1. (Recommendations con subrecomendaciones) Haga clic en **[!UICONTROL View]** junto a la subrecomendación.
 
@@ -43,7 +43,7 @@ Vea las acciones recomendadas y una explicación de por qué las acciones sería
 >[!MORELIKETHIS]
 >
 >* [Acerca de las recomendaciones del editor y la compatibilidad con perspectivas](recommendation-support.md)
->* [Vea las recomendaciones del editor y las perspectivas de rendimiento](recommendation-view.md)
+>* [Ver las recomendaciones del editor y las perspectivas de rendimiento](recommendation-view.md)
 >* [Ver el registro de recomendaciones del editor de una cuenta](recommendation-view-log.md)
->* [Prácticas recomendadas para usar recomendaciones de editores con portafolios](recommendation-best-practices.md)
+>* [Prácticas recomendadas para usar las recomendaciones del editor con portafolios](recommendation-best-practices.md)
 

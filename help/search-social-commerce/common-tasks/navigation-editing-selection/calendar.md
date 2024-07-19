@@ -1,9 +1,9 @@
 ---
 title: Especificar una fecha con el calendario
 description: Obtenga información sobre cómo seleccionar fechas mediante el calendario.
-exl-id: b07c0db5-4b7a-4b60-9383-ca07b99404de
+exl-id: afb2b5be-ca6a-4c2b-9a5a-c40ee7caa7ea
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Especificar una fecha con el calendario
 
-1. Clic ![Botón Calendario](/help/search-social-commerce/assets/calendar-date-range.png "Botón Calendario") para abrir el calendario.
+1. Haga clic en ![Botón de calendario](/help/search-social-commerce/assets/calendar-date-range.png "Botón de calendario") para abrir el calendario.
 
    >[!NOTE]
    >

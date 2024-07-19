@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Financiación de cuenta
 
-Asegúrese de que la cuenta tenga suficiente crédito para ejecutar toda la campaña. Puede comprobar y rellenar los fondos de la cuenta en [!UICONTROL Settings] > [!UICONTROL Account] o poniéndose en contacto con el equipo de cuenta de Adobe.
+Asegúrese de que la cuenta tenga suficiente crédito para ejecutar toda la campaña. Puede comprobar y rellenar los fondos de la cuenta en [!UICONTROL Settings] > [!UICONTROL Account] o poniéndose en contacto con el equipo de la cuenta de Adobe.
 
 ## Estado de campaña
 
@@ -22,7 +22,7 @@ Confirme que las fechas de la campaña y el presupuesto se han establecido con p
 
 ## Estado de ubicación
 
-Asegúrese de que el estado de la ubicación sea &quot;[!UICONTROL Active]&quot; o &quot;[!UICONTROL Scheduled].&quot; Compruebe también que los demás parámetros de ubicación (como la lista del sitio, el presupuesto, el objetivo, las fechas de vuelo y la frecuencia) son correctos.
+Asegúrese de que el estado de la ubicación sea &quot;[!UICONTROL Active]&quot; o &quot;[!UICONTROL Scheduled]&quot;. Compruebe también que los demás parámetros de ubicación (como la lista del sitio, el presupuesto, el objetivo, las fechas de vuelo y la frecuencia) son correctos.
 
 ## Estado del anuncio
 
@@ -33,4 +33,3 @@ Confirme que todos los anuncios están adjuntos, aprobados y activos. Compruebe 
 >* [Configuración de campaña](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)
-

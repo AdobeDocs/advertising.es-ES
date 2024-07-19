@@ -1,11 +1,11 @@
 ---
 title: Preguntas frecuentes sobre el seguimiento
 description: Obtenga respuestas a preguntas comunes sobre el seguimiento, incluidos problemas de resolución de problemas.
-exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+exl-id: e5302c09-0b40-47ae-bc88-9299e6bd3044
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 +++¿Puedo rastrear campañas que el Adobe Advertising no administra?
 
-Sí. Si Search, Social y Commerce está sincronizando una de las cuentas de red de publicidad, rastreará los datos de clics de la red de publicidad para todos [tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md) en esa cuenta. También realiza un seguimiento de los datos de conversión si ha añadido el redireccionamiento de Search, Social y Commerce a las URL de destino de publicidad o palabra clave o a las plantillas de seguimiento, y si ha implementado el seguimiento de conversión en sus páginas de conversión. Aclarar con el equipo de cuenta de Adobe qué campañas desea que Search, Social y Commerce rastreen simplemente y cuáles desea que administren.
+Sí. Si Search, Social y Commerce están sincronizando una de sus cuentas de red de anuncios, entonces rastreará los datos de clics de la red de anuncios para todos los [tipos de campañas compatibles](/help/search-social-commerce/introduction/supported-inventory.md) en esa cuenta. También realiza un seguimiento de los datos de conversión si ha añadido el redireccionamiento de Search, Social y Commerce a las direcciones URL de destino de palabras clave o anuncios, o si ha implementado un seguimiento de conversión en las páginas de conversión. Aclarar con el equipo de cuenta de Adobe qué campañas desea que Search, Social y Commerce simplemente rastreen y cuáles desea que administren.
 +++
 
 +++¿Cómo obtengo la atribución de varios eventos?
@@ -33,15 +33,15 @@ Los anunciantes que proporcionan todos los datos de conversión en un archivo de
 
 +++¿Cómo identifica el Adobe Advertising las transacciones duplicadas?
 
-Las transacciones duplicadas pueden producirse cuando un usuario actualiza la página de confirmación después de completar una transacción. El Adobe Advertising utiliza el `ev_transid` para eliminar transacciones duplicadas con el mismo ID de transacción y valor de propiedad.
+Las transacciones duplicadas pueden producirse cuando un usuario actualiza la página de confirmación después de completar una transacción. El Adobe Advertising utiliza el atributo `ev_transid` para eliminar transacciones duplicadas con el mismo ID de transacción y valor de propiedad.
 
 La siguiente es la lógica de deduplicación de Adobe Advertising:
 
-* **Cuando un cliente envía un valor para `ev_transid` atributo:** Las solicitudes de píxeles posteriores se consideran duplicados de la anterior si todas las siguientes son iguales: `ev_transid`; el ID de seguimiento para la misma palabra clave, anuncio o ubicación; y el valor de una métrica de conversión específica.
+* **Cuando un cliente envía un valor para el atributo `ev_transid`:** Las solicitudes de píxeles posteriores se consideran duplicados del anterior si todos los siguientes son iguales: el `ev_transid`; el identificador de seguimiento para la misma palabra clave, anuncio o ubicación; y el valor de una métrica de conversión específica.
 
   Por ejemplo, si varias solicitudes de préstamo tienen el mismo ID de aplicación y el mismo importe de préstamo para la misma palabra clave en una red de publicidad específica, se consideran duplicados y solo se cuenta la primera solicitud de préstamo.
 
-* **Cuando un cliente no envía un valor para `ev_transid` atributo:** Las transacciones posteriores se consideran duplicados de la anterior si comparten un ID de seguimiento para la misma palabra clave, anuncio o ubicación y el mismo valor para una métrica de conversión específica.
+* **Cuando un cliente no envía un valor para el atributo `ev_transid`:** Las transacciones posteriores se consideran duplicados de la anterior si comparten un identificador de seguimiento para la misma palabra clave, anuncio o ubicación; y el mismo valor para una métrica de conversión específica.
 
   Por ejemplo, si varias solicitudes de préstamo tienen el mismo ID de palabra clave y el mismo importe de préstamo, se consideran duplicados y solo se cuenta la primera solicitud de préstamo.
 +++
@@ -52,14 +52,14 @@ La siguiente es la lógica de deduplicación de Adobe Advertising:
 
 En primer lugar, consulte con su equipo de cuenta de Adobe para comprender las implicaciones de eliminar las URL de seguimiento.
 
-En la cuenta o campaña, cambie el método de seguimiento a &quot;[!UICONTROL No EF Redirect].&quot; A continuación, cree una hoja de edición masiva utilizando la variable &quot;[!UICONTROL Generate Tracking URLs]&quot; y publicarla en la red de anuncios. Se reemplazarán todas las URL de seguimiento o URL de destino existentes.
+En la cuenta o campaña, cambie el método de seguimiento a &quot;[!UICONTROL No EF Redirect]&quot;. A continuación, cree una hoja de edición masiva utilizando la opción &quot;[!UICONTROL Generate Tracking URLs]&quot; y publíquela en la red publicitaria. Se reemplazarán todas las URL de seguimiento o URL de destino existentes.
 +++
 
 ## Preguntas de datos
 
 +++¿Cómo sé qué métrica de conversión es de una fuente de datos o se rastrea con la etiqueta de seguimiento de conversión de Adobe Advertising?
 
-En un [!UICONTROL Transaction Report], puede saber si el píxel de seguimiento de conversión de Adobe Advertising rastreó una métrica de conversión incluida si incluye la columna personalizada &quot;[!UICONTROL Tracking URL].&quot; Las direcciones URL de seguimiento con el píxel de seguimiento de Adobe Advertising comienzan por `http://pixel.everesttech.net`.
+En un [!UICONTROL Transaction Report], puede saber si el píxel de seguimiento de conversión de Adobe Advertising realizó el seguimiento de una métrica de conversión incluida si incluye la columna personalizada &quot;[!UICONTROL Tracking URL]&quot;. Las direcciones URL de seguimiento con el píxel de seguimiento de Adobe Advertising comienzan por `http://pixel.everesttech.net`.
 +++
 
 +++¿Qué son las transacciones huérfanas?
@@ -84,17 +84,17 @@ Las transacciones huérfanas casi nunca ocurren en implementaciones de píxeles.
 
 * La cuenta no está sincronizada o se han producido errores durante el proceso de sincronización.
 
-* El ID de seguimiento se añadió y eliminó de la red de anuncios mientras que Search, Social y Commerce no estaba sincronizado con la red de anuncios, por lo que Search, Social y Commerce no tiene información sobre el ID. Este problema sigue causando ingresos huérfanos si se produce un retraso en la recepción de ingresos.
+* El ID de seguimiento se añadió y eliminó de la red de anuncios mientras Search, Social y Commerce no estaban sincronizados con la red de anuncios, por lo que Search, Social y Commerce no tienen información sobre el ID. Este problema sigue causando ingresos huérfanos si se produce un retraso en la recepción de ingresos.
 
 * El cliente envió un ID de seguimiento con un formato incorrecto en la fuente y que no coincide con el ID de seguimiento de la dirección URL. Esto suele ocurrir debido a un problema de formato o cuando los ID de seguimiento se abrevian en la fuente.
 
 * En el archivo de configuración, la expresión regular utilizada para extraer el ID de seguimiento de las direcciones URL es incorrecta o está obsoleta. A veces, el anunciante cambia el ID de seguimiento en la dirección URL o adopta un sistema de seguimiento completamente nuevo, que requiere que el equipo de implementación de Search, Social y Commerce actualice la expresión regular. En estos casos, una parte importante de los ingresos se queda huérfana.
 
-**Implementaciones de fuentes mediante un ID de transacción**
+**Implementaciones de fuentes que usan un ID de transacción**
 
 No hay transacciones en línea disponibles antes de las fechas para las que los datos están disponibles en la fuente sin conexión.
 
-**Implementaciones de fuentes mediante un token (ef_id)**
+**Implementaciones de fuentes que utilizan un token (ef_id)**
 
 Search, Social y Commerce no pueden encontrar el clic correspondiente en su servidor o en la red de publicidad. Esto puede deberse a que los datos de clics no están disponibles para la fecha de clics de la conversión o (en raras ocasiones) a que los registros de clics no se procesaban antes que los registros de conversión. Cuando Search, Social y Commerce reciben los datos de clics de la red de anuncios o se procesan los registros de clics, los datos se asignan a la conversión.
 +++
@@ -118,9 +118,9 @@ La dirección URL de una nueva palabra clave o anuncio se copió de otra palabra
 
 Esto no debería suceder con anuncios en pantalla o en redes sociales.
 
-**Posible solución o solución alternativa**
+**Solución posible o solución alternativa**
 
-* Si administra sus propias palabras clave y anuncios, cree un archivo de hoja de edición masiva con las direcciones URL correctas para las direcciones URL duplicadas y publíquelo en la cuenta correspondiente mediante la variable **[!UICONTROL Generate Tracking URLs]** , que regenera las direcciones URL de todas las palabras clave y anuncios.
+* Si administra sus propias palabras clave y anuncios, cree un archivo de hoja de edición masiva con las direcciones URL correctas para las direcciones URL duplicadas y publíquelo en la cuenta adecuada mediante la opción **[!UICONTROL Generate Tracking URLs]**, que regenera las direcciones URL de todas las palabras clave y anuncios.
 
 * Si un equipo de cuenta de Adobe administra sus palabras clave, pídale que cree nuevas direcciones URL para las direcciones URL duplicadas.
 +++

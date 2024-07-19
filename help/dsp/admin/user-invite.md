@@ -20,13 +20,13 @@ Si es necesario, puede anular la invitación de un usuario con una invitación p
 
    * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y haga clic en **[!UICONTROL Edit users]**.
+   * En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Account]** y luego haga clic en **[!UICONTROL Edit users]**.
 
-1. En el **[!UICONTROL Invitations]** , haga clic en **[!UICONTROL Send Invite]**.
+1. En la sección **[!UICONTROL Invitations]**, haga clic en **[!UICONTROL Send Invite]**.
 
-1. En el **[!UICONTROL User Email]** , introduzca la dirección de correo electrónico a la que desea enviar la invitación.
+1. En el campo **[!UICONTROL User Email]**, escriba la dirección de correo electrónico a la que desea enviar la invitación.
 
-1. Clic **[!UICONTROL Send Invite]**.
+1. Haga clic en **[!UICONTROL Send Invite]**.
 
 >[!MORELIKETHIS]
 >

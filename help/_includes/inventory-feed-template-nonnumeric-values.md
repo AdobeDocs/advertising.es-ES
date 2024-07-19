@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Plantilla de anuncio de texto: esta columna tiene valores no numéricos
 
-**[!UICONTROL This column has non-numeric values]:**(Opcional) La columna especificada tiene valores no numéricos. Por ejemplo, si utiliza la variable[!UICONTROL Availability]&quot; en una columna [!DNL Google Merchant Center] fuente, los valores no son numéricos, como &quot;[!DNL in stock]&quot; y &quot;[!DNL out of stock].&quot; **Nota:** Los valores basados en texto no distinguen entre mayúsculas y minúsculas.
+**[!UICONTROL This column has non-numeric values]:**(Opcional) La columna especificada tiene valores no numéricos. Por ejemplo, si utiliza la columna &quot;[!UICONTROL Availability]&quot; en una fuente [!DNL Google Merchant Center], los valores no son numéricos, como &quot;[!DNL in stock]&quot; y &quot;[!DNL out of stock]&quot;.&quot; **Nota:** Los valores basados en texto no distinguen entre mayúsculas y minúsculas.

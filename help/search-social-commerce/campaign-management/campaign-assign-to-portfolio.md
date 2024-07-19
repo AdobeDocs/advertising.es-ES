@@ -1,9 +1,9 @@
 ---
 title: Asignación de campañas a un portafolio
 description: Obtenga información sobre cómo incluir campañas en portafolios para la optimización.
-exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
+exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: a041b44550b56a01d817d8e1bc9d91a025a4e721
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -12,39 +12,39 @@ ht-degree: 0%
 
 # Asignación de campañas a un portafolio
 
-Asignar una campaña a un portafolio optimizado permite a Search, Social y Commerce optimizar las ofertas y los presupuestos de campaña para las palabras clave y los anuncios de la campaña. Puede asignar campañas a un portafolio desde el [!UICONTROL Campaigns] vista, al crear el portafolio o al editar su configuración.
+Asignar una campaña a un portafolio optimizado permite a Search, Social y Commerce optimizar ofertas y presupuestos de campaña para palabras clave y anuncios en la campaña. Puede asignar campañas a un portafolio desde la vista [!UICONTROL Campaigns], al crear el portafolio o al editar la configuración de un portafolio.
 
-No todos los tipos de campaña y redes de anuncios son aptos para la optimización; consulte la lista de [tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md) que puede incluir en un portafolio. Además, compruebe la compatibilidad con la optimización de cada estrategia de oferta de campaña consultando &quot;Tipos de Portfolio aptos por estrategia de oferta de campaña&quot; en el capítulo Guía de optimización &quot;Portfolio&quot;, disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+No todos los tipos de campañas y redes de anuncios cumplen los requisitos para la optimización; vea una lista de [tipos de campañas compatibles](/help/search-social-commerce/introduction/supported-inventory.md) que puede incluir en un portafolio. Además, compruebe la compatibilidad con la optimización de cada estrategia de oferta de campaña consultando &quot;Tipos de Portfolio aptos por estrategia de oferta de campaña&quot; en el capítulo Guía de optimización &quot;Portfolio&quot;, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
 >Cada campaña solo se puede asignar a un portafolio. Si asigna una campaña que ya está asociada con otro portafolio a un nuevo portafolio, se elimina del portafolio original.
 
-## Asignar campañas a un portafolio desde [!UICONTROL Campaigns] vista
+## Asignar campañas a un portafolio desde la vista [!UICONTROL Campaigns]
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Realice una de las acciones siguientes:
 
-   * (Para agregar una sola campaña a un portafolio) Mantenga el cursor sobre el nombre de la campaña y haga clic en ![Botón Menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Botón Menú"), y luego seleccione **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
+   * (Para agregar una sola campaña a un portafolio) Mantenga el cursor sobre el nombre de la campaña, haga clic en ![Botón de menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Botón de menú") y luego seleccione **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
 
    * (Para agregar una o más campañas al mismo portafolio) Haga lo siguiente:
 
       1. Seleccione la casilla de verificación situada junto a cada campaña.
 
-         Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+         Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
          >[!NOTE]
          >
          >Todas las campañas de un portafolio deben utilizar la misma moneda.
 
-      1. En la barra de herramientas sobre la tabla de datos, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más")y haga clic en **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
+      1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y, a continuación, en **[!UICONTROL Assign]>[!UICONTROL Portfolio]**.
 
 1. Seleccione el portafolio:
 
    * Para examinar los grupos de portafolios:
 
-      1. Expanda un grupo de portafolios en sus portafolios secundarios haciendo clic en [!UICONTROL Portfolio Group] nombre.
+      1. Expanda un grupo de portafolios en sus portafolios secundarios haciendo clic en el nombre [!UICONTROL Portfolio Group].
 
       1. Seleccione el portafolio.
 
@@ -52,32 +52,32 @@ No todos los tipos de campaña y redes de anuncios son aptos para la optimizaci�
 
       1. Introduzca al menos tres letras en el campo de entrada.
 
-      1. En los resultados de la búsqueda, haga clic en **[!UICONTROL Select]** junto al nombre del portafolio.
+      1. En los resultados de búsqueda, haga clic en **[!UICONTROL Select]** junto al nombre del portafolio.
 
-1. (Opcional) Haga clic en **[!UICONTROL Additional Details]** y, opcionalmente, introduzca un nombre y una descripción de proyecto.
+1. (Opcional) Haga clic en **[!UICONTROL Additional Details]** y, opcionalmente, escriba un nombre y una descripción para el proyecto.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
-## Cambiar las campañas de un portafolio desde [!UICONTROL Portfolios] vista
+## Cambiar las campañas de un portafolio desde la vista [!UICONTROL Portfolios]
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** y, a continuación, busque el portafolio.
 
-   Puede filtrar la lista de portafolios desde el [!UICONTROL Portfolios] en el panel izquierdo, seleccionando un grupo de portafolios o la variable [!UICONTROL Ungrouped Portfolios] nodo.
+   Puede filtrar la lista de portafolios desde el menú [!UICONTROL Portfolios] del panel izquierdo seleccionando un grupo de portafolios o el nodo [!UICONTROL Ungrouped Portfolios].
 
-1. Junto al nombre del portafolio, haga clic en ![Botón Ver/editar configuración](/help/search-social-commerce/assets/settings.png "Botón Ver/editar configuración") .
+1. Junto al nombre del portafolio, haga clic en ![botón Ver/editar configuración](/help/search-social-commerce/assets/settings.png "botón Ver/editar configuración") .
 
-1. En el menú izquierdo, haga clic en **[!UICONTROL Campaigns]** y, a continuación, cambie las campañas del portafolio:
+1. En el menú de la izquierda, haga clic en **[!UICONTROL Campaigns]** y luego cambie las campañas del portafolio:
 
-   * Para agregar todas las campañas filtradas a [!UICONTROL Available Campaigns] , haga clic en ![Asignar todas las campañas al portafolio](/help/search-social-commerce/assets/arrow-assign-all.png "Asignar todas las campañas al portafolio").
+   * Para agregar todas las campañas filtradas en la sección [!UICONTROL Available Campaigns], haga clic en ![Asignar todas las campañas al portafolio](/help/search-social-commerce/assets/arrow-assign-all.png "Asignar todas las campañas al portafolio").
 
-   * Para agregar una campaña individual en [!UICONTROL Available Campaigns] , haga clic en la campaña y, a continuación, arrastre la campaña al [!UICONTROL Assigned Campaigns] lista o clic ![Asignar campaña al portafolio](/help/search-social-commerce/assets/arrow-assign.png "Asignar campaña al portafolio").
+   * Para agregar una campaña individual en la sección [!UICONTROL Available Campaigns], haga clic en la campaña y arrástrela a la lista [!UICONTROL Assigned Campaigns] o haga clic en ![Asignar campaña al portafolio](/help/search-social-commerce/assets/arrow-assign.png "Asignar campaña al portafolio").
 
-   * Para eliminar todas las campañas asignadas, haga clic en ![Eliminar todas las campañas del portafolio](/help/search-social-commerce/assets/arrow-remove-all.png "Eliminar todas las campañas del portafolio").
+   * Para quitar todas las campañas asignadas, haga clic en ![Quitar todas las campañas del portafolio](/help/search-social-commerce/assets/arrow-remove-all.png "Quitar todas las campañas del portafolio").
 
-   * Para quitar una campaña individual, haga clic en la campaña y arrástrela al [!UICONTROL Available Campaigns] lista o clic ![Eliminar campaña del portafolio](/help/search-social-commerce/assets/arrow-remove.png "Eliminar campaña del portafolio") .
+   * Para quitar una campaña individual, haga clic en la campaña y arrástrela a la lista [!UICONTROL Available Campaigns] o haga clic en ![Quitar campaña del portafolio](/help/search-social-commerce/assets/arrow-remove.png "Quitar campaña del portafolio") .
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Eliminación de campañas de un portafolio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
+>* [Quitar campañas de un portafolio](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)

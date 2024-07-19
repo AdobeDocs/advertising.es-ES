@@ -1,11 +1,11 @@
 ---
 title: Eliminar informes
 description: Obtenga información sobre cómo eliminar informes generados.
-exl-id: 63e10552-e0a9-4957-b18b-e62bd150bef5
+exl-id: 04ec3f7a-0cea-4f9d-bb76-d576f529b6ae
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ Puede eliminar manualmente un informe que se haya completado o que aún esté en
 
 >[!NOTE]
 >
->Si el informe se creó con un [plantilla](/help/search-social-commerce/reports/automation/templates/template-about.md)Al eliminar el informe, no se elimina la plantilla utilizada para crearlo y, por lo tanto, no afecta a ninguna instancia de informe futura programada. Para eliminar una programación de informes, [eliminar la plantilla de informe](/help/search-social-commerce/reports/automation/templates/template-delete.md).
+>Si el informe se creó con una [plantilla](/help/search-social-commerce/reports/automation/templates/template-about.md), al eliminar el informe no se eliminará la plantilla utilizada para crearlo y, por lo tanto, no afectará a ninguna instancia de informe futura que esté programada. Para eliminar una programación de informe, [elimine la plantilla de informe](/help/search-social-commerce/reports/automation/templates/template-delete.md).
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, que se abre a la **[!UICONTROL Latest Reports]** pestaña.
+1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, que se abre en la ficha **[!UICONTROL Latest Reports]**.
 
 1. Active la casilla de verificación situada junto a cada informe que desee eliminar.
 
-1. Haga clic **[!UICONTROL Delete]**.
+1. Haga clic en **[!UICONTROL Delete]**.
 
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Yes]**.
 

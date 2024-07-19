@@ -1,6 +1,6 @@
 ---
 title: '[!UICONTROL MSA Ad Extension Detail Report]'
-description: Obtenga información acerca de [!UICONTROL MSA Ad Extension Detail Report].
+description: Más información acerca de [!UICONTROL MSA Ad Extension Detail Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: 8fdbfdf8-502a-47e0-a0a0-8722726280e9
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Este informe muestra las impresiones, los clics, los gastos y el coste promedio por clic de los elementos individuales de la extensión de publicidad (como cada vínculo en una extensión de vínculo de sitio). Utilice este informe para ver la eficacia de los elementos de la extensión de publicidad.
 
-Cuando se ejecuta un informe solo con columnas de métricas y sin dimensiones, el informe generado contiene dos filas duplicadas: una con datos agregados y otra con todas las métricas.<!-- all metrics? -->
+Cuando se ejecuta un informe solamente con columnas de métricas y sin dimensiones, el informe generado contiene dos filas duplicadas: una con datos agregados y otra con todas las métricas.<!-- all metrics? -->
 
-Puede ver los datos de los últimos 180 días. Search, Social y Commerce extraen los datos de [!DNL Microsoft Advertising] en tiempo real y puede tardar varios minutos en generar informes con un volumen de datos mayor.
+Puede ver los datos de los últimos 180 días. Search, Social y Commerce extrae los datos de [!DNL Microsoft Advertising] en tiempo real y puede tardar varios minutos en generar informes con un volumen de datos mayor.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Puede ver los datos de los últimos 180 días. Search, Social y Commerce extraen
 
 ## Columnas predeterminadas
 
-Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informes para informes de especialidades](specialty-report-columns.md).&quot;
+Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informe para informes de especialidades](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Extension Property Value]
@@ -45,6 +45,6 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes especiales](specialty-report-about.md)
->* [Generar un informe de especialidad](specialty-report-generate.md)
+>* [Acerca de los informes de especialidad](specialty-report-about.md)
+>* [Generar informe de especialidad](specialty-report-generate.md)
 >* [Configuración de informes especiales](specialty-report-settings.md)

@@ -1,12 +1,12 @@
 ---
 title: Editar una métrica personalizada
 description: Aprenda a editar las métricas personalizadas, que se calculan a partir de métricas estándar.
-exl-id: 7b0c18d3-e4ed-49ad-aef7-d05b2a67ba2e
+exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -24,39 +24,39 @@ Si edita una métrica personalizada que se incluye como columna en una de las vi
 
    * Haga clic en el nombre de la vista predeterminada o personalizada para abrir la configuración de la vista.
 
-   * Clic ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns.png "Columnas personalizadas") para abrir los valores de configuración de columna.
+   * Haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns.png "Columnas personalizadas") para abrir los valores de configuración de columna.
 
 1. Mantenga el cursor sobre el nombre de la columna y haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar") junto al nombre de la columna.
 
-1. Especifique el [configuración de métricas personalizadas](custom-metric-settings.md).
+1. Especifique la [configuración de métrica personalizada](custom-metric-settings.md).
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ## Editar una métrica personalizada desde un formulario de informe o de plantilla de informe
 
-1. Dentro de un informe o formulario de plantilla de informe, vaya a la **[!UICONTROL Columns]** pestaña.
+1. Dentro de un informe o formulario de plantilla de informe, vaya a la ficha **[!UICONTROL Columns]**.
 
-1. Haga clic en el nombre de la columna en la columna izquierda o en la columna derecha y, a continuación, haga clic en **[!UICONTROL Edit]** en la sección derecha.
+1. Haga clic en el nombre de columna en la columna izquierda o en la columna derecha y, a continuación, haga clic en **[!UICONTROL Edit]** en la sección derecha.
 
-1. Edite el [configuración de métricas personalizadas](custom-metric-settings.md).
+1. Editar la [configuración de métrica personalizada](custom-metric-settings.md).
 
-1. Haga clic **[!UICONTROL Submit]**.
+1. Haga clic en **[!UICONTROL Submit]**.
 
-## Editar una métrica personalizada desde el [!UICONTROL Portfolios] vistas
+## Editar una métrica personalizada desde las vistas [!UICONTROL Portfolios]
 
 1. Sobre la tabla de datos, haga clic en ![Editar vista seleccionada](/help/search-social-commerce/assets/view-settings.png "Editar vista seleccionada").
 
-1. Haga clic en **[!UICONTROL Columns]** pestaña.
+1. Haga clic en la ficha **[!UICONTROL Columns]**.
 
-1. Haga clic en el nombre de la columna en [!UICONTROL Available Metrics] o [!UICONTROL Table Columns] y haga clic en **[!UICONTROL Edit]** en la sección derecha.
+1. Haga clic en el nombre de columna en la lista [!UICONTROL Available Metrics] o [!UICONTROL Table Columns] y, a continuación, haga clic en **[!UICONTROL Edit]** en la sección derecha.
 
-1. Edite el [configuración de métricas personalizadas](custom-metric-settings.md).
+1. Editar la [configuración de métrica personalizada](custom-metric-settings.md).
 
-1. Haga clic **[!UICONTROL Submit]**.
+1. Haga clic en **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
-* [Acerca de las métricas personalizadas](custom-metric-about.md)
-* [Creación de una métrica personalizada](custom-metric-create.md)
-* [Eliminar una métrica personalizada](custom-metric-delete.md)
-* [Configuración de métricas personalizadas](custom-metric-settings.md)
+>* [Acerca de las métricas personalizadas](custom-metric-about.md)
+>* [Crear una métrica personalizada](custom-metric-create.md)
+>* [Eliminar una métrica personalizada](custom-metric-delete.md)
+>* [Configuración de métrica personalizada](custom-metric-settings.md)

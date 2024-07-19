@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Segmentos de Adobe
 
-(Opcional) Cualquiera [!DNL Adobe Real-Time Customer Data Platform]Segmentos de, Adobe Analytics o Adobe Audience Manager para incluir en la configuración de audiencia.
+(Opcional) Cualquier segmento de [!DNL Adobe Real-Time Customer Data Platform], Adobe Analytics o Adobe Audience Manager que se incluya en la configuración de audiencia.
 
 ## Segmentos personalizados
 
@@ -34,10 +34,10 @@ DSP (Opcional) Cualquier segmento creado por el usuario, que se captura mediante
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)
->* [Creación e implementación de un segmento personalizado](custom-segment-create.md)
->* [Creación e implementación de un [!UICONTROL CCPA Opt-Out-of-Sale] Segmento](ccpa-opt-out-segment-create.md)
+>* [Crear e implementar un segmento personalizado](custom-segment-create.md)
+>* [Crear e implementar un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

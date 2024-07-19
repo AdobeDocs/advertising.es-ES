@@ -22,19 +22,18 @@ Una vez que comparta una audiencia, no puede dejar de compartirla.
 
 1. Seleccione la opción para **[!UICONTROL Share with all advertisers in my account]**.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
->* [Duplicación de una audiencia reutilizable](reusable-audience-duplicate.md)
+>* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)
 >* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
 >* [Eliminar una audiencia reutilizable](reusable-audience-delete.md)
 >* [Configuración de audiencia](audience-settings.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
-

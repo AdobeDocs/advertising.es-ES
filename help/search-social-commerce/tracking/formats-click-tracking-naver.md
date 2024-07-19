@@ -1,9 +1,9 @@
 ---
-title: Formatos de rastreo de clics para [!DNL Naver]
-description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Naver] cuentas.
-exl-id: ff243eb5-d768-4e5c-b5b3-015fe22c9d5a
+title: Formatos de rastreo de clics para  [!DNL Naver]
+description: Obtenga información acerca de los formatos de seguimiento de clics para  [!DNL Naver] cuentas.
+exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
 >
->* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
+>* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
 * `<the landing page>` es una variable que representa la dirección URL del sitio a la que se dirige a los usuarios finales.
 

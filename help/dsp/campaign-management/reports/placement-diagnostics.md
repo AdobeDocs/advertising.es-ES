@@ -18,11 +18,11 @@ Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la con
 
 ## Información en los informes de diagnóstico de ubicación
 
-* **[!UICONTROL Change Log]:** Muestra los cambios realizados en la configuración de colocación de claves, como el nombre, el estado y la oferta máxima. Cada entrada incluye la fecha y el nombre de usuario de la persona que realizó el cambio.
+* **[!UICONTROL Change Log]:** Muestra cambios en la configuración de ubicación de claves, como el nombre, el estado y la oferta máxima. Cada entrada incluye la fecha y el nombre de usuario de la persona que realizó el cambio.
 
 * **[!UICONTROL Ad Approvals]:** Muestra si los proveedores de inventario aprobaron o rechazaron los anuncios. Si lo desea, puede cambiar el estado de cualquier anuncio (por ejemplo, pausar un anuncio rechazado) o abrir la configuración del anuncio.
 
-* **[!UICONTROL Non Bids]:** DSP Muestra por qué no se ha pujado por la ubicación en la que se ha realizado la oferta.
+* DSP **[!UICONTROL Non Bids]:** Muestra el motivo por el cual no se hizo una oferta en la ubicación en la que se hizo la oferta.
 
 ## Abra los Informes de diagnóstico de posición
 
@@ -34,7 +34,7 @@ Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la con
 
       1. Haga clic en el nombre de la campaña y luego haga clic en **[!UICONTROL Placements]**.
 
-      1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+      1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
    1. En la esquina superior derecha, haga clic en ![Diagnóstico de ubicación](/help/dsp/assets/placement-diagnostics.png).
 
@@ -42,11 +42,11 @@ Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la con
 
    * Para ver el registro de cambios:
 
-      1. Clic **[!UICONTROL Change Log]**.
+      1. Haga clic en **[!UICONTROL Change Log]**.
 
       1. (Opcional) Filtre los resultados del informe:
 
-         * En el menú de fecha, cambie el periodo del informe de Últimos 14 días predeterminado a otro periodo (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* o *[!UICONTROL Last 1 year]*).
+         * En el menú de fecha, cambie el período del informe de los Últimos 14 días predeterminados a otro período (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* o *[!UICONTROL Last 1 year]*).
 
          * En el menú de la izquierda, filtre el informe por un nombre de usuario específico.
 
@@ -56,7 +56,7 @@ Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la con
 
       1. En la esquina superior derecha, haga clic en **[!UICONTROL Ad Approvals]**.
 
-      1. (Opcional) Para pausar o activar el anuncio, haga clic en el botón de cambio de estado (![Conmutador de estado](/help/dsp/assets/status-switch.png)) en la columna Anuncio ).
+      1. (Opcional) Para pausar o activar el anuncio, haga clic en el modificador de estado (![Modificador de estado](/help/dsp/assets/status-switch.png)) en la columna Anuncio).
 
       1. (Opcional) Para abrir la configuración de un anuncio, haga clic en **[!UICONTROL View Ad]** junto al anuncio.
 
@@ -71,5 +71,5 @@ Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la con
 >[!MORELIKETHIS]
 >
 >* [Tipos de informes de rendimiento en las vistas de Campaign Management](campaign-reports-about.md)
->* [Ver el informe Previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

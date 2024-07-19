@@ -5,7 +5,7 @@ feature: DSP Segments
 exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,16 @@ Puede editar el nombre y la ventana de retrospectiva de un segmento personalizad
 
       Cada nombre de segmento debe ser único para el tipo de segmento.
 
-   1. (Solo segmentos personalizados; opcional) Edite el **[!UICONTROL Segment Window]**, que es el número de días que la cookie de un usuario permanece en el segmento.
+   1. (Solo segmentos personalizados; opcional) Edite **[!UICONTROL Segment Window]**, que es el número de días que la cookie de un usuario permanece en el segmento.
 
       Introduzca un valor de uno (1) a 365.
 
-   1. Haga clic **[!UICONTROL Save]**.
+   1. Haga clic en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear un segmento personalizado](custom-segment-create.md)
 >* [Eliminar un segmento](segment-delete.md)
->* [Visualización de los píxeles de seguimiento de un segmento](segment-view-pixels.md)
+>* [Ver píxeles de seguimiento para un segmento](segment-view-pixels.md)
 >* [Compartir o dejar de compartir un segmento](segment-share.md)
-

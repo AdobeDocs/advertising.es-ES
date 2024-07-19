@@ -20,18 +20,18 @@ Puede crear una audiencia duplicando una audiencia existente.
 
 1. (Opcional) Cambie el nombre predeterminado de la audiencia por otro nombre único.
 
-   De forma predeterminada, la nueva audiencia se llama &quot;[audiencia] copia&quot;.
+   De manera predeterminada, la nueva audiencia se denomina &quot;[audiencia] copia&quot;.
 
-1. Haga clic **[!UICONTROL Duplicate]**.
+1. Haga clic en **[!UICONTROL Duplicate]**.
 
-1. (Opcional) [Refinamiento de la nueva audiencia](reusable-audience-edit.md).
+1. (Opcional) [Refine la nueva audiencia](reusable-audience-edit.md).
 
 >[!MORELIKETHIS]
 >
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)
 >* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
@@ -39,4 +39,3 @@ Puede crear una audiencia duplicando una audiencia existente.
 >* [Configuración de audiencia](audience-settings.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
-

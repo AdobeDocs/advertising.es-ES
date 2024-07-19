@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Al configurar una campaña programática, uno de los elementos clave que se debe tener en cuenta es el objetivo de la campaña y cómo traducirlo en KPI mensurables. Esta traducción define cómo debe configurar los objetivos de optimización de la campaña.
 
-DSP Advertising optimiza las métricas que más le interesan en dos fases. En primer lugar, desplaza el gasto a las ubicaciones o tácticas que tienen el mejor rendimiento, según el objetivo de optimización del paquete. En segundo lugar, ajusta las ofertas de subasta en tiempo real para reflejar el valor económico en el momento que equilibra a) la necesidad de entregar el presupuesto en su totalidad con b) los KPI elegidos. Juntas, estas fases de optimización garantizan que el presupuesto se gaste de forma eficiente para lograr los objetivos de la campaña.
+Advertising DSP optimiza las métricas que más le importan en dos fases. En primer lugar, desplaza el gasto a las ubicaciones o tácticas que tienen el mejor rendimiento, según el objetivo de optimización del paquete. En segundo lugar, ajusta las ofertas de subasta en tiempo real para reflejar el valor económico en el momento que equilibra a) la necesidad de entregar el presupuesto en su totalidad con b) los KPI elegidos. Juntas, estas fases de optimización garantizan que el presupuesto se gaste de forma eficiente para lograr los objetivos de la campaña.
 
-Para cada una de las ubicaciones y paquetes, puede elegir un objetivo de optimización. Los objetivos de optimización disponibles incluyen opciones preestablecidas como, por ejemplo, &quot;[!UICONTROL Lowest Cost per Click]&quot;&quot; y las metas personalizadas que ha establecido como objetivos en [!DNL Advertising Search, Social, & Commerce].
+Para cada una de las ubicaciones y paquetes, puede elegir un objetivo de optimización. Los objetivos de optimización disponibles incluyen opciones preestablecidas, como &quot;[!UICONTROL Lowest Cost per Click]&quot; y objetivos personalizados que ha configurado como objetivos en [!DNL Advertising Search, Social, & Commerce].
 
 >[!MORELIKETHIS]
 >
-> * [DSP Optimización de las campañas con la](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+> * DSP [Cómo Optimiza El Uso De Las Campañas](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
 >* [Objetivos de optimización y cómo utilizarlos](/help/dsp/optimization/optimization-goals.md)
->* [Configuración de paquetes](/help/dsp/campaign-management/packages/package-settings.md)
+>* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

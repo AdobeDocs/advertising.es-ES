@@ -1,25 +1,25 @@
 ---
-title: Acerca de Campaign Management DSP en Advertising
+title: Acerca de Campaign Management en Advertising DSP
 description: Obtenga información sobre la administración de campañas.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Acerca de Campaign Management DSP en Advertising
+# Acerca de Campaign Management en Advertising DSP
 
 Las campañas son el marco general de la configuración de los vuelos. Todas las configuraciones del nivel de campaña se aplican automáticamente a cada paquete y ubicación dentro de la campaña. Cada campaña está asociada a un anunciante específico.
 
 Puede crear campañas manualmente o duplicando las campañas existentes. También puede editar las campañas existentes.
 
-## El [!UICONTROL Campaigns] Tablero
+## El panel [!UICONTROL Campaigns]
 
 <!-- standardize on "dashboard" or "view" -->
-El [!UICONTROL Campaigns] el tablero centraliza los informes de rendimiento y económicos en todas las campañas, lo que proporciona una instantánea rápida del rendimiento de las campañas durante un intervalo de fechas especificado.
+El tablero [!UICONTROL Campaigns] centraliza los informes de rendimiento y económicos en todas sus campañas, lo que proporciona una instantánea rápida del rendimiento de sus campañas durante un intervalo de fechas especificado.
 
 ![Panel de campañas](/help/dsp/assets/campaign-dashboard.png)
 
@@ -33,7 +33,6 @@ Para ver todos los paquetes, ubicaciones y anuncios de una campaña, haga clic e
 
 >[!MORELIKETHIS]
 >
->* [Creación de una campaña](campaign-create.md)
+>* [Crear una campaña](campaign-create.md)
 >* [Configuración de campaña](campaign-settings.md)
->* [DSP Vídeo: Estructura de cuenta y interfaz de usuario de](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-
+>* DSP [Vídeo: Estructura de cuenta e interfaz de usuario de la cuenta de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

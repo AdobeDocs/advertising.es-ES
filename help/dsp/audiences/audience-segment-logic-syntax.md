@@ -22,7 +22,7 @@ Cuando cree audiencias reutilizables, puede definir manualmente la lógica de se
 >[!NOTE]
 >
 >* Se incluyen todos los grupos de segmentos especificados a menos que estén precedidos por ! (lo que los excluye).
->* Puede [búsqueda del ID de segmento de una audiencia](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
+>* Puede [encontrar el ID de segmento para una audiencia](reusable-audience-clipboard.md) de [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
 Por ejemplo, la lógica siguiente:
 
@@ -43,7 +43,7 @@ significa (en inglés)
 >[!MORELIKETHIS]
 >
 >* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
->* [Acerca de Audience Management](audience-about.md)
+>* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Configuración de audiencia](audience-settings.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)

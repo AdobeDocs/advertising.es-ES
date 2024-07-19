@@ -13,20 +13,19 @@ ht-degree: 0%
 # Creación de una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
-1. En el [!UICONTROL Campaigns] ver, haga clic en **[!UICONTROL Create campaign]**.
-1. Introduzca el [configuración de campaña](campaign-settings.md):
-   1. Especifique el [!UICONTROL Basic Campaign Details].
-   1. (Solo usuarios administradores) En el [!UICONTROL Ad Cloud Admin Fields] , especifique la configuración administrativa.
-   1. En el [!UICONTROL Campaign Goals] , especifique el presupuesto. Opcionalmente, puede cambiar la configuración de objetivo predeterminada y seleccionar los paquetes existentes o crear paquetes para incluirlos en la campaña.
-   1. (Opcional) En el [!UICONTROL Campaign Measurement] , especifique las opciones de medición de terceros y de origen para la visibilidad, el fraude, la seguridad de la marca y la verificación de audiencia.
-1. Haga clic **[!UICONTROL Create Campaign]**.
+1. En la vista [!UICONTROL Campaigns], haga clic en **[!UICONTROL Create campaign]**.
+1. Escriba la [configuración de campaña](campaign-settings.md):
+   1. Especifique [!UICONTROL Basic Campaign Details].
+   1. (Solo usuarios administradores) En la sección [!UICONTROL Ad Cloud Admin Fields], especifique la configuración administrativa.
+   1. En la sección [!UICONTROL Campaign Goals], especifique el presupuesto. Opcionalmente, puede cambiar la configuración de objetivo predeterminada y seleccionar los paquetes existentes o crear paquetes para incluirlos en la campaña.
+   1. (Opcional) En la sección [!UICONTROL Campaign Measurement], especifique las opciones de medición de terceros y de origen para la visibilidad, el fraude, la seguridad de la marca y la verificación de audiencia.
+1. Haga clic en **[!UICONTROL Create Campaign]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de Campaign Management](campaign-about.md)
->* [Duplicación de una campaña](campaign-duplicate.md)
->* [Edición de una campaña](campaign-edit.md)
->* [Visualización del registro de cambios de una campaña](campaign-change-log.md)
+>* [Duplicar una campaña](campaign-duplicate.md)
+>* [Editar una campaña](campaign-edit.md)
+>* [Ver el registro de cambios de una campaña](campaign-change-log.md)
 >* [Configuración de campaña](campaign-settings.md)
 >* [Pausar o activar una campaña](campaign-pause-activate.md)
-

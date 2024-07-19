@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Administración de modificadores
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
 
 Los modificadores son adjetivos o adverbios que se pueden agregar o quitar de una frase sin cambiar la estructura básica de la oración. Puede crear grupos de modificadores para utilizarlos como variables en varios campos de datos en plantillas de datos de fuentes. Al incluir modificadores en los campos de estructura de cuenta (campaña y grupo de publicidad), palabras clave, direcciones URL base y anuncios, se crea un valor para cada modificador asociado. Por ejemplo, si utiliza una variable de grupo de modificadores en un titular de anuncio y el grupo de modificadores incluye tres modificadores (&quot;barato&quot;, &quot;descuento&quot; y &quot;asequible&quot;), se crean tres anuncios independientes para cada fila de datos de la fuente de datos, uno para cada modificador. Del mismo modo, si se incluye un grupo de modificadores con varios valores en la dirección URL base de un grupo de anuncios, se crea un conjunto de palabras clave para cada una de las direcciones URL base resultantes.
 
@@ -22,7 +22,7 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Modifiers]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Modifiers]**.
 
 1. Sobre la lista de grupos de modificadores, haga clic en **[!UICONTROL Create]**.
 
@@ -32,13 +32,13 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 
    **[!UICONTROL Modifiers]:** Los valores modificadores del grupo (uno por línea).
 
-1. Clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ## Editar un grupo de modificadores
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Modifiers]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Modifiers]**.
 
 1. En la lista de grupos de modificadores, pulse en el nombre del grupo de modificadores.
 
@@ -48,7 +48,7 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 
    **[!UICONTROL Modifiers]:** Los valores modificadores del grupo (uno por línea).
 
-1. Clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ## Eliminar grupos de modificadores
 
@@ -58,7 +58,7 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Modifiers]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Modifiers]**.
 
 1. Seleccione la casilla de verificación situada junto a cada grupo de modificadores que desee borrar.
 
@@ -66,9 +66,9 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Yes]**.
 
-1. (Si es necesario) [Quitar referencias al modificador](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de todas las plantillas aplicables.
+1. (Si es necesario) [Elimine las referencias al modificador](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) de todas las plantillas aplicables.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las fuentes de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
->* [Administración de plantillas de publicidad](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
+>* [Administrar plantillas de anuncios](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)

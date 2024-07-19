@@ -1,9 +1,9 @@
 ---
 title: Optimización de las páginas de aterrizaje del sitio web
 description: Conozca las prácticas recomendadas para optimizar las páginas de aterrizaje de su sitio web.
-exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Para mejorar la experiencia del usuario y las tasas de conversión, es important
 
 >[!TIP]
 >
->Para conocer las prácticas recomendadas específicas de las campañas en portafolios, consulte también la sección Guía de optimización > Administración de Portfolio > Prácticas recomendadas para Portfolio, disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Para obtener más prácticas recomendadas específicas para campañas en portafolios, consulte también la sección Guía de optimización > Administración de Portfolio > Prácticas recomendadas para Portfolio, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Diseño de páginas de aterrizaje efectivas
 
@@ -34,7 +34,7 @@ A continuación se ofrecen algunas directrices para diseñar páginas de aterriz
 
 * Utilice un buen diseño de página; un buen diseño puede generar confianza, un sentido de familiaridad y credibilidad de inmediato. Personalice los botones del formulario para que sean más visibles; no utilice el botón estándar generado por el explorador con la palabra &quot;Enviar&quot;. Utilice un diseño de dos columnas, con el elemento procesable en la columna principal y la información de soporte en la segunda columna.
 
-* Proporcionar indicadores de credibilidad y seguridad. Los logotipos y sellos ayudan a reducir la ansiedad del visitante. Estos incluyen [!DNL Verisign], [!DNL BBB] logotipo, [!DNL eTrust], [!DNL HackerSafe], garantías de satisfacción, ofertas de devolución de dinero, etc. Incluya una declaración de privacidad cada vez que se recopile información. Coloque estos indicadores lo más cerca posible del elemento procesable.
+* Proporcionar indicadores de credibilidad y seguridad. Los logotipos y sellos ayudan a reducir la ansiedad del visitante. Entre ellos se incluyen [!DNL Verisign], logotipo de [!DNL BBB], [!DNL eTrust], [!DNL HackerSafe], garantías de satisfacción, ofertas de devolución de dinero, etc. Incluya una declaración de privacidad cada vez que se recopile información. Coloque estos indicadores lo más cerca posible del elemento procesable.
 
 * Ofrecer un incentivo, como envío gratuito, regalos, descuentos o un informe o libro electrónico gratuito. Un visitante que llega a una página de aterrizaje está haciendo compras y necesita un incentivo para permanecer en una página y completar la oferta. El incentivo debería ser uno de los artículos más notables de la página.
 
@@ -52,9 +52,9 @@ A continuación se ofrecen algunas directrices para diseñar páginas de aterriz
 
 ## Prueba del impacto de las páginas de aterrizaje
 
-Para ver el impacto de cambiar la página de aterrizaje (cuando todo lo demás sea constante), ejecute [el [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), que incluye la URL de visualización y la URL base/final o la URL de destino para cada anuncio.
+Para ver el impacto de cambiar la página de aterrizaje (cuando todo lo demás es constante), ejecute [the [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), que incluye la dirección URL para mostrar y la dirección URL base/final o la dirección URL de destino para cada anuncio.
 
 >[!MORELIKETHIS]
 >
->* [Analice los informes para restringir las palabras clave y la configuración de campañas](best-practices-analyze.md)
+>* [Analice informes para restringir las palabras clave y la configuración de campañas](best-practices-analyze.md)
 >* [Escribir texto efectivo y copiar](best-practices-write.md)

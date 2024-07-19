@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Archivar un plan de alcance de TV conectado
 
-Al archivar un plan, éste se elimina del valor predeterminado [!UICONTROL Planner] vista.<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
+Al archivar un plan, se quita de la vista predeterminada [!UICONTROL Planner].<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
 
 1. En el menú principal, haga clic en **[!UICONTROL Planner]**.
 
@@ -20,10 +20,10 @@ Al archivar un plan, éste se elimina del valor predeterminado [!UICONTROL Plann
 
 >[!MORELIKETHIS]
 >
->* [DSP Acerca de la herramienta Planificador de](planner-about.md)
+>* DSP [Acerca de la herramienta Planificador de](planner-about.md)
 >* [Crear un plan de alcance de TV conectado](planner-create.md)
 >* [Duplicar un plan de alcance de TV conectado](planner-duplicate.md)
 >* [Editar un plan de alcance de TV conectado](planner-edit.md)
 >* [Exportar un plan de alcance de TV conectado](planner-export.md)
->* [Regeneración de la Previsión para un Plan de Alcance de TV Conectado](planner-forecast.md)
->* [Configuración de los planes de alcance de TV conectado](planner-settings.md)
+>* [Volver a generar la previsión para un plan de alcance de TV conectado](planner-forecast.md)
+>* [Configuración de los planes de alcance de TV conectados](planner-settings.md)

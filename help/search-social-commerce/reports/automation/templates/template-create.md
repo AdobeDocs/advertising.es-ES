@@ -1,11 +1,11 @@
 ---
 title: Creación de una plantilla de informe
 description: Obtenga información sobre cómo crear una plantilla de informe reutilizable.
-exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -16,33 +16,33 @@ Puede guardar varias plantillas de informe para cualquier tipo de informe de ren
 
 * Para crear una plantilla desde cero, realice una de las acciones siguientes:
 
-   * Desde el [!UICONTROL Reports] , cree un informe y active la casilla de verificación situada junto a **[!UICONTROL Save as template]**, que se encuentra junto al nombre del informe.
+   * En la ficha [!UICONTROL Reports], cree un informe seleccionando la casilla de verificación situada junto a **[!UICONTROL Save as template]**, que se encuentra junto al nombre del informe.
 
-   * Desde el [!UICONTROL Templates] pestaña:
+   * Desde la ficha [!UICONTROL Templates]:
 
       * En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-      * Haga clic en **[!UICONTROL Templates]** pestaña.
+      * Haga clic en la ficha **[!UICONTROL Templates]**.
 
-      * Clic **[!UICONTROL Create Template]** y seleccione la categoría del informe.
+      * Haga clic en **[!UICONTROL Create Template]** y seleccione la categoría del informe.
 
       * Especifique la configuración del informe.
 
-        El &quot;[!UICONTROL Save as Template]La configuración &quot; se selecciona automáticamente.
+        La configuración &quot;[!UICONTROL Save as Template]&quot; se selecciona automáticamente.
 
 * Para crear una plantilla basada en una plantilla existente:
 
    1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-   1. Haga clic en **[!UICONTROL Templates]** pestaña.
+   1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
    1. Haga clic en el nombre de la plantilla y edite la configuración del informe si es necesario.
 
-   1. Seleccione la casilla de verificación situada junto a **[!UICONTROL Save as template]** (que se encuentra junto al nombre del informe), escriba un nuevo nombre para el informe y haga clic en **[!UICONTROL Update Template]**.
+   1. Active la casilla de verificación situada junto a **[!UICONTROL Save as template]** (que está junto al nombre del informe), escriba un nuevo nombre de informe y, a continuación, haga clic en **[!UICONTROL Update Template]**.
 
 >[!MORELIKETHIS]
 >
->* [Plantillas de informe](template-about.md)
->* [Edición de una plantilla de informe](template-edit.md)
+>* [Acerca de las plantillas de informe](template-about.md)
+>* [Editar una plantilla de informe](template-edit.md)
 >* [Ver una plantilla de informe](template-view.md)
 >* [Eliminar plantillas de informe](template-delete.md)

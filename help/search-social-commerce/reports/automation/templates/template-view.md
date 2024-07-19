@@ -1,9 +1,9 @@
 ---
 title: Ver una plantilla de informe
 description: Obtenga información sobre cómo ver una plantilla de informe reutilizable.
-exl-id: fc2b9326-c783-4632-9673-89392bffb05f
+exl-id: 1c7ae1d4-c843-4c1b-a947-d58816abc4b2
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Haga clic en **[!UICONTROL Templates]** pestaña.
+1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
 1. Haga clic en el nombre de la plantilla.
 
 >[!MORELIKETHIS]
 >
->* [Plantillas de informe](template-about.md)
->* [Creación de una plantilla de informe](template-create.md)
->* [Edición de una plantilla de informe](template-edit.md)
+>* [Acerca de las plantillas de informe](template-about.md)
+>* [Crear una plantilla de informe](template-create.md)
+>* [Editar una plantilla de informe](template-edit.md)
 >* [Eliminar plantillas de informe](template-delete.md)

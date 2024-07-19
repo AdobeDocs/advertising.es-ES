@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Obtenga información sobre el informe de precisión de la previsión, incluidas las columnas de datos.
-exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Puede ver los datos de los 18 meses anteriores.
 
 >[!NOTE]
 >
->* Este informe proporciona los mismos datos que el nivel de portafolio [!UICONTROL Model Accuracy Report] excepto que puede ejecutarlo en varios portafolios y puede cambiar la regla de atribución. También puede ejecutar y programar el informe utilizando parámetros personalizados, y puede utilizarlo para crear fuentes de hoja de cálculo.
+>* Este informe proporciona los mismos datos que el nivel de portafolio [!UICONTROL Model Accuracy Report], excepto que se puede ejecutar en varios portafolios y se puede cambiar la regla de atribución. También puede ejecutar y programar el informe utilizando parámetros personalizados, y puede utilizarlo para crear fuentes de hoja de cálculo.
 >
->* La práctica recomendada es ver el [!UICONTROL Forecast Accuracy Report] durante al menos los últimos siete días, ya que, independientemente de la estrategia de gasto del portafolio, la mayoría de los portafolios ven una tendencia inherente al día de la semana. La capacidad de optimización tiene en cuenta esta tendencia y asigna el gasto en consecuencia.
+>* La práctica recomendada es ver [!UICONTROL Forecast Accuracy Report] durante al menos los últimos siete días, ya que, independientemente de la estrategia de gasto del portafolio, la mayoría de los portafolios ven una tendencia inherente de día de la semana. La capacidad de optimización tiene en cuenta esta tendencia y asigna el gasto en consecuencia.
 >
 >* Para las previsiones de costes, se considera aceptable una desviación del 10% en los últimos siete días, por lo que el gasto real que está entre el 90% y el 110% del gasto previsto está bien. Para las previsiones de ingresos, se considera aceptable una desviación del 15% en los últimos siete días, por lo que los ingresos reales que están entre el 85% y el 115% del gasto previsto están bien. Deben investigarse los pronósticos con desviaciones más altas.
 >
@@ -28,12 +28,12 @@ Puede ver los datos de los 18 meses anteriores.
 
 ## Columnas disponibles
 
-Las siguientes son las columnas disponibles para cada informe. Las columnas predeterminadas se incluyen automáticamente de forma predeterminada. Puede añadir las columnas personalizadas disponibles desde el [!UICONTROL Columns] de la configuración del informe.
+Las siguientes son las columnas disponibles para cada informe. Las columnas predeterminadas se incluyen automáticamente de forma predeterminada. Puede agregar las columnas personalizadas disponibles desde la sección [!UICONTROL Columns] de la configuración del informe.
 
 | Columna | ¿Predeterminado? | Descripción |
 |----|----|----|
 | [!UICONTROL Portfolio] | Predeterminado | El portafolio. |
-| [!UICONTROL Day of Week] | Predeterminado | El día de la semana informó: <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i>, o <i>[!UICONTROL Saturday]</i>. |
+| [!UICONTROL Day of Week] | Predeterminado | Se informó del día de la semana: <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i> o <i>[!UICONTROL Saturday]</i>. |
 | [!UICONTROL Start Date] | Predeterminado | Se informó del primer día. |
 | [!UICONTROL End Date] | Predeterminado | Se informó del último día. |
 | [!UICONTROL Predicted Revenue] | Predeterminado | Ingresos previstos para el portafolio. |
@@ -51,7 +51,7 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes de precisión de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [Acerca de los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
 >* [El [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Generar un informe de precisión de modelo](model-accuracy-report-generate.md)
->* [Configuración del informe de precisión de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [Configuración del informe de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)

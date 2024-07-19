@@ -1,6 +1,6 @@
 ---
 title: Ver el registro de recomendaciones del editor de una cuenta
-description: Obtenga información sobre cómo ver un registro de cada recomendación que se aplicó a una [!DNL Google Ads] o [!DNL Microsoft Advertising] cuenta.
+description: Obtenga información sobre cómo ver un registro de cada recomendación que se aplicó a una cuenta de  [!DNL Google Ads] o [!DNL Microsoft Advertising] .
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
 source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] cuentas*
 
-Puede ver un registro de cada recomendación que se aplicó a un [!DNL Google Ads] o [!DNL Microsoft Advertising] cuenta. La información incluye la categoría de recomendación, el tipo de recomendación, las entidades afectadas, el usuario que aplicó la recomendación y la marca de tiempo.
+Puede ver un registro de cada recomendación que se aplicó a una cuenta de [!DNL Google Ads] o [!DNL Microsoft Advertising]. La información incluye la categoría de recomendación, el tipo de recomendación, las entidades afectadas, el usuario que aplicó la recomendación y la marca de tiempo.
 
 Las recomendaciones descartadas no están disponibles en la red de anuncios.
 
@@ -27,7 +27,7 @@ Las recomendaciones descartadas no están disponibles en la red de anuncios.
 >[!MORELIKETHIS]
 >
 >* [Acerca de las recomendaciones del editor y la compatibilidad con perspectivas](recommendation-support.md)
->* [Vea las recomendaciones del editor y las perspectivas de rendimiento](recommendation-view.md)
+>* [Ver las recomendaciones del editor y las perspectivas de rendimiento](recommendation-view.md)
 >* [Aplicar o descartar una recomendación del editor](recommendation-apply-dismiss.md)
->* [Prácticas recomendadas para usar recomendaciones de editores con portafolios](recommendation-best-practices.md)
+>* [Prácticas recomendadas para usar las recomendaciones del editor con portafolios](recommendation-best-practices.md)
 

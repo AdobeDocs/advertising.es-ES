@@ -15,15 +15,15 @@ ht-degree: 0%
 1. En el menú principal, haga clic en **[!UICONTROL Reports]**.
 1. Realice una de las acciones siguientes:
    * Haga clic en el nombre del informe.
-   * En el [!UICONTROL Options] para la fila del informe, haga clic en **[!UICONTROL options]** > **[!UICONTROL Edit]**.
-1. Edite el [configuración de informes](/help/dsp/reports/report-settings.md).
-1. Clic **[!UICONTROL Edit Custom Report]**.
+   * En la columna [!UICONTROL Options] de la fila del informe, haga clic en **[!UICONTROL options]** > **[!UICONTROL Edit]**.
+1. Editar la [configuración del informe](/help/dsp/reports/report-settings.md).
+1. Haga clic en **[!UICONTROL Edit Custom Report]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
->* [Creación de un informe personalizado](/help/dsp/reports/report-create.md)
->* [Duplicación de un informe personalizado](/help/dsp/reports/report-copy.md)
+>* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
+>* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
 >* [Ejecutar un informe personalizado](/help/dsp/reports/report-run-now.md)
 >* [Eliminar un informe personalizado](/help/dsp/reports/report-delete.md)
 >* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)

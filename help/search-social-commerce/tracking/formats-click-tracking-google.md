@@ -1,9 +1,9 @@
 ---
-title: Formatos de rastreo de clics para [!DNL Google Ads]
-description: Obtenga información acerca de los formatos de seguimiento de clics para [!DNL Google Ads] cuentas.
-exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+title: Formatos de rastreo de clics para  [!DNL Google Ads]
+description: Obtenga información acerca de los formatos de seguimiento de clics para  [!DNL Google Ads] cuentas.
+exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: ceb2fc07eb5116b3a2bb01cf72fd779f78bba1f0
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Formatos de rastreo de clics para [!DNL Google Ads]
 
-A continuación se muestran los formatos de plantilla de seguimiento base y sufijo de página de aterrizaje (sufijo de URL final) que Search, Social y Commerce requieren para [!DNL Google Ads].
+A continuación se muestran los formatos base de plantilla de seguimiento y sufijo de página de aterrizaje (sufijo de dirección URL final) que Search, Social y Commerce requieren para [!DNL Google Ads].
 
 ## Formatos de plantilla de seguimiento
 
@@ -28,19 +28,19 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
 >
->* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
+>* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
->* El [!DNL ValueTrack] Los parámetros para indicar las direcciones URL finales en las plantillas de seguimiento deben ser `{lpurl}` o `!{unescapedurl}`.
+>* Los parámetros [!DNL ValueTrack] para indicar las direcciones URL finales en las plantillas de seguimiento deben ser `{lpurl}` o `!{unescapedurl}`.
 >
->* (Anuncios de texto) Cuando pujas por palabra clave, el parámetro `ev_pl` (para ubicaciones) no tiene valor. Cuando pujas por ubicación, `ev_ln` (para palabras clave) no tiene valor. Cuando pujas por grupo de anuncios o por cualquier otra dimensión, tanto `ev_ln` y `ev_pl` no tiene valores.
+>* (Anuncios de texto) Cuando pujas por palabra clave, el parámetro `ev_pl` (para ubicaciones) no tiene valor. Cuando pujas por ubicación, `ev_ln` (para palabras clave) no tiene valor. Al pujar por grupo de anuncios o por cualquier otra dimensión, tanto `ev_ln` como `ev_pl` no tienen valores.
 >
 >* (Anuncios dinámicos de búsqueda) `{keyword}` indica la expresión de destino de búsqueda dinámica, como `_cat:[VALUE]` o `_url:[VALUE]`.
 >
->* (Anuncios dinámicos de búsqueda) [!DNL Google Ads] determina la dirección URL final de forma dinámica, por lo que no es necesario introducir una.
+>* (Anuncios dinámicos de búsqueda) [!DNL Google Ads] determina la dirección URL final de forma dinámica, por lo que no es necesario que escriba una.
 >
->* (Vínculos de sitio) Puede ver qué conversiones resultaron de un clic en un vínculo de sitio al generar un [!UICONTROL Transaction Report]. El [!UICONTROL Link Type] el valor de columna para un vínculo de sitio es `sl:<Sitelink text>`, como `sl:See Current Offers`.
+>* (Vínculos de sitio) Puede ver qué conversiones resultaron de un clic en un vínculo de sitio al generar un [!UICONTROL Transaction Report]. El valor de columna [!UICONTROL Link Type] para un vínculo de sitio es `sl:<Sitelink text>`, como `sl:See Current Offers`.
 
 ### Red de compras
 
@@ -54,29 +54,29 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro de Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
 >
->* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si el paso de tokens está deshabilitado, sustituya `cq?` después `<advertiser_ID>` con `c?`.
+>* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
->* El [!DNL ValueTrack] Los parámetros para indicar las direcciones URL finales en las plantillas de seguimiento deben ser `{lpurl}` o `!{unescapedurl}`.
+>* Los parámetros [!DNL ValueTrack] para indicar las direcciones URL finales en las plantillas de seguimiento deben ser `{lpurl}` o `!{unescapedurl}`.
 >
->* [!DNL Google Ads] utiliza las direcciones URL del producto en la fuente de Google Merchant Center como direcciones URL finales, por lo que no es necesario que introduzca las direcciones URL finales para los datos o grupos de productos.
+>* [!DNL Google Ads] usa las direcciones URL de productos en la fuente de Google Merchant Center como direcciones URL finales, por lo que no es necesario que escriba las direcciones URL finales para los datos o grupos de productos.
 >
->* Puede ver qué conversiones resultaron de un clic en un anuncio de compra al generar un [!UICONTROL Transaction Report]. El [!UICONTROL Link Type] valor de columna para un anuncio de producto:`<product ID>`, como `pla:8525822`.
+>* Puede ver qué conversiones resultaron de un clic en un anuncio de compra al generar un [!UICONTROL Transaction Report]. El valor de columna [!UICONTROL Link Type] de un anuncio de producto es:`<product ID>`, como `pla:8525822`.
 
 ## Formatos de sufijo de página de aterrizaje (sufijo de URL final)
 
-Las cuentas que utilizan el seguimiento de conversión de Adobe Advertising deben incluir el identificador de clic ( ) de la red de publicidad`gclid` para [!DNL Google Ads]) en el sufijo:
+Las cuentas que usan el seguimiento de conversión de Adobe Advertising deben incluir el identificador de clic (`gclid` para [!DNL Google Ads]) de la red de publicidad en el sufijo:
 
 * Cuando el anunciante tiene una integración de Adobe Analytics, el sufijo debe incluir uno de los siguientes:
 
-   * [!DNL Google Ads] cuentas que utilizan la última versión [Formato de ID de AMO](/help/integrations/analytics/ids.md#amo-id-formats) (comenzando por `s_kwcid`), que admite la creación de informes de nivel de campaña y de grupo de publicidad para campañas Máximo rendimiento de y campañas de borradores y experimentos:
+   * Cuentas de [!DNL Google Ads] que utilizan el [formato de ID de AMO](/help/integrations/analytics/ids.md#amo-id-formats) más reciente (a partir de `s_kwcid`), que admite informes de nivel de campaña y de grupo de anuncios para campañas Máximo rendimiento, así como borradores y experimentos:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Si la cuenta tiene una implementación de AMO ID del lado del servidor y la configuración de la cuenta o la campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitado y, a continuación, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente. Consulte &quot;[ID de Adobe Advertising utilizados por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
+     Si la cuenta tiene una implementación de ID de AMO del lado del servidor y la configuración de cuenta o campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitada, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente. Consulte &quot;[ID de Adobe Advertising usados por [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)&quot;.
 
-   * Todos los demás [!DNL Google Ads] cuentas:
+   * Todas las demás cuentas de [!DNL Google Ads]:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 

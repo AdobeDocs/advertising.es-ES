@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Consulte la documentación de la red de anuncios para conocer los límites de objetos actuales, como el número máximo de campañas por cuenta, el número máximo de grupos de anuncios por campaña, etc.
 
-* **[!DNL Baidu]:** Cada [!DNL Baidu] La cuenta puede incluir hasta 100 campañas, 1000 grupos de anuncios por campaña, 5000 palabras clave por grupo de anuncios y 50 anuncios por grupo de anuncios.
+* **[!DNL Baidu]:** Cada cuenta de [!DNL Baidu] puede incluir hasta 100 campañas, 1000 grupos de anuncios por campaña, 5000 palabras clave por grupo de anuncios y 50 anuncios por grupo de anuncios.
 
-* **[!DNL Microsoft Advertising]:** Consulte &quot;Límites para cuentas, campañas y grupos de publicidad&quot; en [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
+* **[!DNL Microsoft Advertising]:** Consulte &quot;Límites para cuentas, campañas y grupos de anuncios&quot; en [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
 
 * **[!DNL Google Ads]:** Consulte [https://support.google.com/google-ads/answer/6372658](https://support.google.com/google-ads/answer/6372658).
 

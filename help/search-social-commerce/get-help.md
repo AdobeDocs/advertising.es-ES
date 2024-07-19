@@ -15,7 +15,7 @@ Puede abrir la ayuda en línea desde cualquier página de la interfaz de usuario
 
 ## Abrir ayuda en línea
 
-* Para ver una descripción de un término con un icono de ayuda adyacente (![Icono de ayuda](/help/search-social-commerce/assets/help-field.png "Icono de ayuda") ), mantenga el cursor sobre el icono de ayuda hasta que haya terminado o haga clic dentro de la ventana emergente de ayuda para desplazarse por el contenido.
+* Para ver una descripción de un término con un icono de ayuda adyacente (![icono de ayuda](/help/search-social-commerce/assets/help-field.png "icono de ayuda")), mantenga el cursor sobre el icono de ayuda hasta que termine o haga clic dentro del elemento emergente de ayuda para desplazarse por el contenido.
 
   Para abrir vínculos dentro de un tema de ayuda, es posible que tenga que configurar el explorador para permitir elementos emergentes del sitio de Search, Social y Commerce que utilice (como https://enterprise-na.efrontier.com para usuarios de Norteamérica o https://enterprise-intl.efrontier.com para todos los demás usuarios).
 
@@ -23,11 +23,11 @@ Puede abrir la ayuda en línea desde cualquier página de la interfaz de usuario
 
    * ![Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Ayuda") > **Ayuda de Search, Social y Commerce**.
 
-   * ![Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Ayuda") > **Guía de optimización de Search, Social y Commerce**.
+   * ![Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Ayuda") > **Guía De Optimización De Search, Social Y Commerce**.
 
 ## Pregunte a la comunidad de Adobe Advertising
 
-Busque respuestas a sus preguntas en la [foros de la comunidad de Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
+Busque respuestas a sus preguntas en los [foros de la comunidad de Adobe Advertising](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
 ## Contacto [!DNL Adobe]
 
@@ -35,7 +35,7 @@ Para problemas de producto o cuenta de Search, Social y Commerce, realice una de
 
 * Póngase en contacto con el equipo de cuenta de Adobe.
 
-* En el menú superior, haga clic en ![Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Ayuda") > **[!UICONTROL Provide Feedback]**, introduzca el mensaje y, a continuación, haga clic en **[!UICONTROL Send Feedback]**. |
+* En el menú superior, haz clic en ![Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Ayuda") > **[!UICONTROL Provide Feedback]**, escribe el mensaje y, a continuación, haz clic en **[!UICONTROL Send Feedback]**. |
 
 Proporcione pasos detallados para reproducir el problema, los datos relevantes y la información acerca de la solución de problemas preliminar que ha realizado. Si va a informar del problema a su equipo de cuenta de Adobe, incluya también el nombre y la versión del explorador.
 

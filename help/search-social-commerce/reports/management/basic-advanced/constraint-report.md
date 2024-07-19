@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Constraint Report]'
-description: Obtenga información acerca de [!UICONTROL Constraint Report].
-exl-id: c118c9fa-5dfe-4224-bbc5-618d291bafc2
+description: Más información acerca de [!UICONTROL Constraint Report].
+exl-id: f7d56520-1683-4e79-9d57-84bc4d6f8760
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Constraint Report]
 
-El [!UICONTROL Constraint Report] incluye datos de coste, clics y (opcionalmente) conversión para restricciones que utilizan la arquitectura de clasificación de etiquetas, agregadas en portafolios, redes de anuncios, cuentas, campañas o grupos de anuncios. De forma predeterminada, los datos incluyen una fila para cada restricción aplicable para cada unidad de tiempo en el intervalo de fechas especificado. Las filas están en orden ascendente, primero por restricción y luego por la fecha de inicio de la unidad de tiempo de forma predeterminada.
+[!UICONTROL Constraint Report] incluye datos de costo, clics y (opcionalmente) conversión para restricciones que utilizan la arquitectura de clasificación de etiquetas, agregadas en portafolios, redes de anuncios, cuentas, campañas o grupos de anuncios. De forma predeterminada, los datos incluyen una fila para cada restricción aplicable para cada unidad de tiempo en el intervalo de fechas especificado. Las filas están en orden ascendente, primero por restricción y luego por la fecha de inicio de la unidad de tiempo de forma predeterminada.
 
 Puede ver datos de hasta los 36 meses anteriores.
 
@@ -22,7 +22,7 @@ Puede ver datos de hasta los 36 meses anteriores.
 
 ## Columnas predeterminadas
 
-Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informes para informes básicos y avanzados](basic-advanced-report-columns.md).&quot;
+Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informe para informes básicos y avanzados](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Constraint Name]
 * [!UICONTROL Constraint Status]
@@ -42,5 +42,5 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes básicos y avanzados](basic-advanced-report-about.md)
->* [Generación de un informe básico o avanzado](basic-advanced-report-generate.md)
->* [Configuración de informes básica y avanzada](basic-advanced-report-settings.md)
+>* [Generar un informe básico o avanzado](basic-advanced-report-generate.md)
+>* [Configuración básica y avanzada del informe](basic-advanced-report-settings.md)

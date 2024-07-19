@@ -18,21 +18,20 @@ Puede ordenar los datos por cualquier columna excepto por Valor nuevo y Valor an
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-1. Junto al nombre de la campaña, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
 
 1. (Opcional) Realice una de las siguientes acciones:
 
-   * Para cambiar entre ver los datos solo en el formulario de tabla y en los formularios de tabla y gráfico, haga clic en ![Visualización de tabla y gráfico](/help/dsp/assets/table-plus-chart-view.png "Visualización de tabla y gráfico") o ![Vista de tabla](/help/dsp/assets/table-view.png "Vista de tabla") en la barra de herramientas superior derecha.
+   * Para cambiar entre ver los datos solamente en el formulario de tabla y en los formularios de tabla y gráfico, haga clic en ![Tabla y vista de gráfico](/help/dsp/assets/table-plus-chart-view.png "Tabla y vista de gráfico") o ![Vista de tabla](/help/dsp/assets/table-view.png "Vista de tabla") en la barra de herramientas superior derecha.
 
-   * Para añadir una nota a una entrada, mantenga el cursor sobre la [!UICONTROL Notes] para la fila y, a continuación, haga clic en **[!UICONTROL Add Notes]**. Introduzca texto en los campos de entrada y haga clic en **[!UICONTROL Save]**.
+   * Para agregar una nota a una entrada, mantenga el cursor sobre la columna [!UICONTROL Notes] de la fila y haga clic en **[!UICONTROL Add Notes]**. Escriba texto en los campos de entrada y haga clic en **[!UICONTROL Save]**.
 
-   * Para ver los detalles de una entrada en una ventana emergente, mantenga el cursor sobre la [!UICONTROL Notes] para la fila y, a continuación, haga clic en **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Para ver los detalles de una entrada en una ventana emergente, mantenga el cursor sobre la columna [!UICONTROL Notes] de la fila y haga clic en **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de Campaign Management](campaign-about.md)
->* [Creación de una campaña](campaign-create.md)
->* [Edición de una campaña](campaign-edit.md)
+>* [Crear una campaña](campaign-create.md)
+>* [Editar una campaña](campaign-edit.md)
 >* [Configuración de campaña](campaign-settings.md)
 >* [Pausar o activar una campaña](campaign-pause-activate.md)
-

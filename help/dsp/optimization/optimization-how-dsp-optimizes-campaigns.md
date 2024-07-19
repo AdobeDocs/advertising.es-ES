@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# DSP Optimización de las campañas con Advertising
+# Optimización de las campañas con Advertising DSP
 
-DSP Esta página describe cómo funciona el motor de optimización de la, que funciona con [!DNL Adobe Sensei], optimiza los paquetes de las campañas. Para obtener sugerencias y trucos sobre cómo optimizar manualmente las campañas, póngase en contacto con el equipo de cuenta de Adobe. <!-- add link to trading playbook if we add it to help -->
+DSP Esta página describe cómo el motor de optimización de la, que funciona con [!DNL Adobe Sensei], optimiza los paquetes de las campañas. Para obtener sugerencias y trucos sobre cómo optimizar manualmente las campañas, póngase en contacto con el equipo de cuenta de Adobe. <!-- add link to trading playbook if we add it to help -->
 
 Los objetivos de optimización de paquetes operan en dos niveles:
 
@@ -42,7 +42,7 @@ Este modo de optimización funciona bien si:
 
 * Ya conoce el nivel de CPM efectivo/aceptable (por ejemplo, un valor de referencia histórico).
 
-* Está dispuesto a ajustar manualmente la variable [!UICONTROL Max Bid] para cada ubicación si experimenta desafíos con el escalado.
+* Está dispuesto a ajustar manualmente [!UICONTROL Max Bid] para cada ubicación si experimenta desafíos con el escalado.
 
 * Está priorizando la escala por sobre la eficiencia.
 
@@ -58,15 +58,15 @@ DSP Después de ejecutar la lógica de ritmo, ejecuta la oferta propuesta a trav
 
 ### Paquetes que priorizan el equilibrio entre eficiencia de costes y tasa de rendimiento
 
-DSP Para algunos objetivos de optimización, predice el rendimiento de cada subasta y ajusta los precios de oferta automáticamente, sin superar nunca los de una ubicación [!UICONTROL Max Bid]. Algunos ejemplos de objetivos de optimización aplicables son [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click], etc.
+DSP Para algunos objetivos de optimización, predice el rendimiento de cada subasta y ajusta los precios de oferta automáticamente, sin superar nunca los [!UICONTROL Max Bid] de una ubicación. Algunos ejemplos de objetivos de optimización aplicables son [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click], etc.
 
 #### Lógica de ritmo {#pacing-logic-balanced}
 
 * DSP Si el gasto está al ritmo, entonces el gasto se vuelve más sensible a los precios, por lo que la oferta de cantidades más bajas canjea la tasa de ganancia con el plan de ritmo.
 
-* Si también se equilibra una métrica de rendimiento (todos los objetivos excepto [!UICONTROL Lowest CPM]), el KPI previsto se mezcla con la cantidad que se ofrece. Por lo tanto, puede pujar más alto en las subastas que, según las predicciones, tendrán un mejor rendimiento en función del coste por subasta.
+* Si una métrica de rendimiento también se está equilibrando (todos los objetivos excepto [!UICONTROL Lowest CPM]), el KPI previsto se mezcla con la cantidad que se ofrece. Por lo tanto, puede pujar más alto en las subastas que, según las predicciones, tendrán un mejor rendimiento en función del coste por subasta.
 
-* DSP Si el gasto está por detrás del ritmo, entonces el gasto se vuelve menos sensible a los precios y ofrece cantidades más altas, hasta el punto de que el precio es más elevado. [!UICONTROL Max Bid], para intercambiar la tasa de ganancia con el plan de ritmo.
+* DSP Si el gasto está por detrás del ritmo, entonces el precio se vuelve menos sensible y las ofertas más altas, hasta el [!UICONTROL Max Bid], para intercambiar la tasa de ganancia con el plan de ritmo.
 
 #### Sombreado de puja/precio de liquidación {#clearing-price-balanced}
 
@@ -80,12 +80,12 @@ Los filtros de preoferta de colocación son la forma más estricta de garantizar
 >
 >Los filtros de pujas previas disponibles varían según el tipo de anuncio. Por ejemplo, para una ubicación de visualización estándar, puede filtrar por tasa de pulsaciones y visibilidad, pero no por tasa de finalización.
 
-Consulte [Filtros previos a la oferta de nivel de ubicación y cómo utilizarlos](optimization-pre-bid-filters.md) para determinar qué filtro de oferta previa puede ayudarle a lograr sus KPI.
+Consulta [Filtros de pujas previas de nivel de ubicación y cómo usarlos](optimization-pre-bid-filters.md) para determinar qué filtro de pujas previas puede ayudarte a lograr tus KPI.
 
 >[!MORELIKETHIS]
 >
->* [Configuración de paquetes](/help/dsp/campaign-management/packages/package-settings.md)
+>* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
->* [Filtros previos a la oferta de nivel de ubicación y cómo utilizarlos](optimization-pre-bid-filters.md)
->* [Solución de problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Filtros de pujas previas de nivel de ubicación y cómo usarlos](optimization-pre-bid-filters.md)
+>* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)

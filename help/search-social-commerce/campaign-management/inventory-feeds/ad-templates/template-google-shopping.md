@@ -1,22 +1,22 @@
 ---
-title: '''[!DNL Google Ads] configuración de plantillas de anuncios de compras para fuentes de inventario'
-description: Haga referencia a la configuración de [!DNL Google Ads] plantillas de anuncios de compras para fuentes de inventario.
-exl-id: c154e1b3-70eb-437d-80f6-abf6ac192697
+title: '[!DNL Google Ads] configuración de plantillas de anuncios de compras para fuentes de inventario'
+description: Haga referencia a la configuración de  [!DNL Google Ads] plantillas de anuncios de compras para fuentes de inventario.
+exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] configuración de plantillas de anuncios de compras para fuentes de inventario
+# [!DNL Google Ads] configuración de plantilla de anuncio de compras para fuentes de inventario
 
 Utilice plantillas de anuncios de compras para configurar los anuncios de compras.
 
 >[!NOTE]
 >
->* Los siguientes caracteres están reservados para designar nombres de columna y nombres de modificador en la plantilla y, por lo tanto, están prohibidos como texto en todos los campos de atributo:  `[ ] < > `
+>* Los siguientes caracteres están reservados para designar nombres de columna y nombres de modificador en la plantilla y, por lo tanto, no se admiten como texto en todos los campos de atributo: `[ ] < > `
 
 ## \[Sobre todas las fichas\]
 
@@ -56,9 +56,9 @@ Utilice plantillas de anuncios de compras para configurar los anuncios de compra
 
 {{$include /help/_includes/inventory-feed-template-shopping-campaign-map-method.md}}
 
-**[!UICONTROL Campaign Tracking Template]:** (Opcional para plantillas de archivos de fuentes de cliente) La plantilla de seguimiento de nivel de campaña, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento, e incrusta la dirección URL final en un parámetro. Este valor anula la configuración de nivel de cuenta, pero las plantillas de seguimiento a niveles más granulares (con palabra clave como valor más granular) anulan este valor.
+**[!UICONTROL Campaign Tracking Template]:** (opcional para plantillas de archivos de fuentes de cliente) La plantilla de seguimiento de nivel de campaña, que especifica todas las redirecciones de dominios de aterrizaje y los parámetros de seguimiento e incrusta la dirección URL final en un parámetro. Este valor anula la configuración de nivel de cuenta, pero las plantillas de seguimiento a niveles más granulares (con palabra clave como valor más granular) anulan este valor.
 
-Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload],&quot; use el [formato de plantilla de seguimiento para campañas de compra de Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Si toda la cuenta está dedicada a anuncios de compra, puede definir una plantilla de seguimiento en el nivel de cuenta.
+Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload]&quot;, use el [formato de plantilla de seguimiento para las campañas de compra de Google Ads](/help/search-social-commerce/tracking/formats-click-tracking-google.md). Si toda la cuenta está dedicada a anuncios de compra, puede definir una plantilla de seguimiento en el nivel de cuenta.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor.
 
@@ -66,9 +66,10 @@ Para redirecciones y seguimiento de terceros, introduzca un valor.
 
 {{$include /help/_includes/final-url-suffix.md}}
 
-**[!UICONTROL Merchant ID]:** El ID de cliente de la cuenta de comerciante cuyos productos se utilizan en la campaña.
+**[!UICONTROL Merchant ID]:** El identificador de cliente de la cuenta de comerciante cuyos productos se utilizan para la campaña.
 
-**[!UICONTROL Sales Country]:** El país en el que se venden los productos de la campaña. Dado que los productos están asociados a países de destino, esta configuración determina qué productos se anuncian en la campaña.
+**[!UICONTROL Sales Country]:** País en el que se venden los productos de la campaña. Debido a que los productos están asociados
+con los países de destino, esta configuración determina qué productos se anuncian en la campaña.
 
 <!-- **[!UICONTROL Stock Level]:** -->
 
@@ -92,9 +93,11 @@ Para redirecciones y seguimiento de terceros, introduzca un valor.
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Networks]:** Las redes en las que se colocan los anuncios. *[!UICONTROL Search]* ya está seleccionada. Para incluir pujas en anuncios de [!DNL Google Ads] buscar socios, active la casilla situada junto a **[!UICONTROL Search partners]**.
+**[!UICONTROL Networks]:** Las redes en las que se colocarán los anuncios. *[!UICONTROL Search]* ya se ha seleccionado. Para incluir pujas en los anuncios de [!DNL Google Ads] socios de búsqueda, marca la casilla de verificación que hay junto a **[!UICONTROL Search partners]**.
 
-**[!UICONTROL Campaign Priority]:** Prioridad con la que se utiliza la campaña cuando varias campañas anuncian el mismo producto: *[!UICONTROL Low]* (la opción predeterminada para las nuevas campañas), *[!UICONTROL Medium]*, o *[!UICONTROL High]*. Cuando el mismo producto se incluye en más de una campaña, la red de anuncios utiliza primero la prioridad de campaña para determinar qué campaña (y oferta asociada) es elegible para la subasta de anuncio. Cuando todas las campañas tienen la misma prioridad, es elegible la campaña con la oferta más alta.
+**[!UICONTROL Campaign Priority]:** La prioridad con la que se usa la campaña cuando varias campañas anuncian el
+mismo producto: *[!UICONTROL Low]* (el predeterminado para nuevas campañas), *[!UICONTROL Medium]* o *[!UICONTROL High]*. Cuando el mismo producto se incluye en más de una campaña, la red de publicidad utiliza
+en primer lugar, la prioridad de la campaña para determinar qué campaña (y oferta asociada) es elegible para la subasta de anuncio. Cuando todas las campañas tienen la misma prioridad, es elegible la campaña con la oferta más alta.
 
 <!-- **[!UICONTROL Locations]:** -->
 
@@ -114,7 +117,7 @@ Para redirecciones y seguimiento de terceros, introduzca un valor.
 
 {{$include /help/_includes/inventory-feed-template-ad-group-map-method.md }}
 
-**[!UICONTROL Ad Group Tracking Template]:** (Opcional) Una plantilla de seguimiento de nivel de grupo de anuncios, que especifica todas las redirecciones de dominios de aterrizaje y parámetros de seguimiento e incrusta la dirección URL final en un parámetro. Este valor anula la configuración de nivel de cuenta y de campaña, pero las plantillas de seguimiento a niveles más granulares anulan este valor.
+**[!UICONTROL Ad Group Tracking Template]:** (opcional) una plantilla de seguimiento de nivel de grupo de anuncios que especifica todas las redirecciones de dominios de aterrizaje y los parámetros de seguimiento e incrusta la dirección URL final en un parámetro. Este valor anula la configuración de nivel de cuenta y de campaña, pero las plantillas de seguimiento a niveles más granulares anulan este valor.
 
 Para el seguimiento de conversiones de Adobe Advertising, no es necesario introducir un valor. El valor de nivel de campaña es suficiente.
 
@@ -126,7 +129,7 @@ Para redirecciones y seguimiento de terceros, introduzca un valor.
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** El grupo de productos predeterminado con todo incluido, &quot;[!UICONTROL All products].&quot; No puede eliminar este grupo de productos principal, pero se elimina automáticamente cuando faltan todos los niveles inferiores en la fuente.
+**[!UICONTROL Tier 1]:** El grupo de productos predeterminado con todo incluido, &quot;[!UICONTROL All products]&quot;. No puede eliminar este grupo de productos principal, pero se elimina automáticamente cuando faltan todos los niveles inferiores en la fuente.
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -136,13 +139,14 @@ Para redirecciones y seguimiento de terceros, introduzca un valor.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Unidades sin grupos de productos secundarios; opcional) La plantilla de seguimiento del grupo de productos, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento e incrusta la dirección URL final en una [!DNL ValueTrack] parámetro. Esta plantilla anula las plantillas de los niveles superiores.
+**[!UICONTROL Tracking Template]:** (Unidades sin grupos de productos secundarios; opcional) La plantilla de seguimiento del producto
+, que especifica todos los parámetros de seguimiento y redirecciones de dominios externos e incrusta la dirección URL final en un parámetro [!DNL ValueTrack]. Esta plantilla anula las plantillas de los niveles superiores.
 
 Para el seguimiento de conversiones de Adobe Advertising, no es necesario introducir un valor. El valor de nivel de campaña es suficiente.
 
 Para redirecciones y seguimiento de terceros, introduzca un valor.
 
-**[!UICONTROL Initial Bid]:** La puja inicial por cada anuncio.
+**[!UICONTROL Initial Bid]:** La oferta inicial para cada anuncio.
 
 ## [!UICONTROL Feed Filters]
 
@@ -158,8 +162,8 @@ Para redirecciones y seguimiento de terceros, introduzca un valor.
 
 >[!MORELIKETHIS]
 >
->* [Automatización de la administración de anuncios mediante fuentes de inventario](../inventory-feeds-about.md)
->* [Administración de modificadores](../modifiers-manage.md)
+>* [Acerca de la automatización de la administración de anuncios mediante fuentes de inventario](../inventory-feeds-about.md)
+>* [Administrar modificadores](../modifiers-manage.md)
 >* [Administrar archivos de fuente de datos de inventario](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [Propagación de datos de fuentes mediante plantillas](../feed-data-propagate.md)
->* [Publicar datos de campaña de fuentes de inventario en redes de publicidad](../propagated-data-post.md)
+>* [Propagar datos de fuentes a través de plantillas](../feed-data-propagate.md)
+>* [Publicar datos de campaña de fuentes de inventario en redes de anuncios](../propagated-data-post.md)

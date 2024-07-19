@@ -15,20 +15,19 @@ Puede crear y asignar etiquetas a ID de acuerdo para agrupar ofertas similares. 
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. En la fila de la oferta, haga clic en ![Menú Opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
+1. En la fila de la oferta, haga clic en ![Menú de opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL edit tags]**.
 
-1. En el [!UICONTROL Ad & Deal Tagging] , realice una de las acciones siguientes:
+1. En la configuración de [!UICONTROL Ad & Deal Tagging], realice una de las acciones siguientes:
 
-   * Para asignar una etiqueta existente a la oferta, seleccione la casilla de verificación situada junto a la oferta en la [!UICONTROL Custom Tags] lista.
+   * Para asignar una etiqueta existente al acuerdo, active la casilla de verificación situada junto al acuerdo en la lista [!UICONTROL Custom Tags].
 
-   * Para crear una etiqueta y asociarla al acuerdo, introduzca el nombre de la etiqueta en la **[!UICONTROL Create new tag(s)]** y haga clic en **[!UICONTROL Create and Associate Tag]**.
+   * Para crear una etiqueta y asociarla con la oferta, escriba el nombre de la etiqueta en el campo **[!UICONTROL Create new tag(s)]** y haga clic en **[!UICONTROL Create and Associate Tag]**.
 
-   * Para eliminar una etiqueta existente de la oferta, desactive la casilla de verificación situada junto a la oferta en la [!UICONTROL Custom Tags] lista.
+   * Para quitar una etiqueta existente de la oferta, desactive la casilla de verificación situada junto a la oferta en la lista [!UICONTROL Custom Tags].
 
-1. Haga clic **[!UICONTROL Update]**.
+1. Haga clic en **[!UICONTROL Update]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
 >* [Editar configuración de acuerdo privado](/help/dsp/inventory/deal-id-edit.md)
-

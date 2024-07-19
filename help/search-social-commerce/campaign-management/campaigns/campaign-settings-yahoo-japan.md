@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Yahoo! Japan Ads] configuración de campaña"'
-description: Haga referencia a la configuración de [!DNL Yahoo! Japan Ads] campañas.
-exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+title: '[!DNL Yahoo! Japan Ads] configuración de campaña'
+description: Hacer referencia a la configuración de  [!DNL Yahoo! Japan Ads] campañas.
+exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## \[Pantalla de creación de campaña\]
 
-**[!UICONTROL Campaign Type]:** (Disponible solo durante la creación de la campaña) Dónde colocar los anuncios: la única opción es *[!UICONTROL Search Network Only]* para mostrar anuncios de texto en la red de búsqueda.
+**[!UICONTROL Campaign Type]:** (disponible solo durante la creación de la campaña) Dónde colocar los anuncios: la única opción es *[!UICONTROL Search Network Only]* para mostrar anuncios de texto en la red de búsqueda.
 
 ## [!UICONTROL Campaign Details]
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** El estado de visualización de la campaña: *Activo* o *Pausado*. El valor predeterminado para las nuevas campañas de publicidad es *Activo*.
+**[!UICONTROL Status]:** El estado de visualización de la campaña: *Activo* o *En pausa*. El valor predeterminado para las nuevas campañas de publicidad es *Activo*.
 
 <!-- **[!UICONTROL End date]:** -->
 
@@ -94,4 +94,4 @@ Si asigna esta campaña a un portafolio para el que los límites presupuestarios
 
 >[!MORELIKETHIS]
 >
->* [Administración de campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
+>* [Administrar campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)

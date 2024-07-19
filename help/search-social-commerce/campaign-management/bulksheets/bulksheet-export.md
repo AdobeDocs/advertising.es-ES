@@ -1,11 +1,11 @@
 ---
 title: Exportar un archivo de hoja de edición masiva generado o cargado
 description: Obtenga información sobre cómo descargar un archivo de hoja de edición masiva, incluidos los archivos de error y los archivos de validación de página de aterrizaje.
-exl-id: a6b5d6a6-c719-45a5-a68a-91cf05a2b4e2
+exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Puede descargar cualquier archivo de hoja de edición masiva generado o cargado,
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
-1. (Opcional) Encima de la lista de hojas de edición masiva, [añadir filtros](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) para limitar los archivos que se muestran.
+1. (Opcional) Encima de la lista de hojas de edición masiva, [agregue filtros](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) para limitar los archivos que se muestran.
 
 1. En la lista de hojas de edición masiva, haga clic en el nombre del archivo.
 
@@ -26,8 +26,8 @@ Puede descargar cualquier archivo de hoja de edición masiva generado o cargado,
 
 >[!MORELIKETHIS]
 >
->* [Administración de datos de campaña mediante hojas de edición masiva](bulksheet-about.md)
->* [Descargar/crear un archivo de hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
->* [Validación de páginas de aterrizaje en archivos de hoja de edición masiva](bulksheet-validate-landing-pages.md)
->* [Publicación de hojas de edición masiva o archivos de error corregidos](bulksheet-post.md)
->* [Configuración de una cuenta FTP para cargar hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)
+>* [Acerca de la administración de datos de campaña mediante hojas de edición masiva](bulksheet-about.md)
+>* [Descargar o crear un archivo de hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md)
+>* [Validar páginas de aterrizaje en archivos de hojas de edición masiva](bulksheet-validate-landing-pages.md)
+>* [Publicar hojas de edición masiva o archivos de error corregidos](bulksheet-post.md)
+>* [Configurar una cuenta FTP para cargar hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-ftp-account.md)

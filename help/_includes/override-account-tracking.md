@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Anular el campo Seguimiento de cuentas en la configuración de la campaña
 
-**[!UICONTROL Override Account Tracking]:** (Opcional) Le permite establecer parámetros de seguimiento para esta campaña. De forma predeterminada, esta opción está desactivada y la campaña utiliza los parámetros de seguimiento de nivel de cuenta.
+**[!UICONTROL Override Account Tracking]:** (opcional) le permite establecer parámetros de seguimiento para esta campaña. De forma predeterminada, esta opción está desactivada y la campaña utiliza los parámetros de seguimiento de nivel de cuenta.

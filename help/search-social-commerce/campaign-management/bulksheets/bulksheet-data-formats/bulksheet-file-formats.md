@@ -1,11 +1,11 @@
 ---
 title: Formatos de archivo de hojas de edición masiva admitidos
 description: Consulte los requisitos generales de archivo para hojas de edición masiva.
-exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+exl-id: f3daf036-8f0c-4c75-9c76-2734abd850ec
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Los campos de datos de los archivos CSV y los archivos TXT delimitados por comas
 
 * Cualquier campo puede incluirse opcionalmente entre comillas dobles (`""`).
 
-  Ejemplo:  `"Cruises","5000","Caribbean",`
+  Ejemplo: `"Cruises","5000","Caribbean",`
 
 * Los campos con comas incrustados deben estar entre comillas dobles (`""`).
 
@@ -77,7 +77,7 @@ Los campos de datos de los archivos CSV y los archivos TXT delimitados por comas
 
 >[!MORELIKETHIS]
 >
->* [Administración de datos de campaña mediante hojas de edición masiva](../bulksheet-about.md)
->* [Operaciones que se pueden realizar en hojas de edición masiva](bulksheet-operations.md)
->* [Apéndice: Errores de hojas de edición masiva](../bulksheet-errors.md)
->* [Descargar/crear un archivo de hoja de edición masiva](../bulksheet-download.md)
+>* [Acerca de la administración de datos de campaña mediante hojas de edición masiva](../bulksheet-about.md)
+>* [Operaciones que puede realizar en hojas de edición masiva](bulksheet-operations.md)
+>* [Apéndice: errores de hojas de edición masiva](../bulksheet-errors.md)
+>* [Descargar o crear un archivo de hoja de edición masiva](../bulksheet-download.md)

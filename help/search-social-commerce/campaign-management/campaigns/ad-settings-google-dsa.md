@@ -1,18 +1,18 @@
 ---
-title: '''[!DNL Google Ads] configuración de anuncios de búsqueda dinámica expandida'
-description: Haga referencia a la configuración de [!DNL Google Ads] anuncios dinámicos de búsqueda expandidos.
-exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+title: '[!DNL Google Ads] expandió la configuración del anuncio de búsqueda dinámica'
+description: Haga referencia a la configuración de  [!DNL Google Ads] anuncios dinámicos de búsqueda expandidos.
+exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] configuración de anuncios dinámicos de búsqueda expandida
+# [!DNL Google Ads] expandió la configuración del anuncio de búsqueda dinámica
 
-Los anuncios dinámicos de búsqueda (DSA) solo están disponibles para [!DNL Google Ads] buscar grupos de publicidad dinámicos en campañas de solo búsqueda. La red de anuncios genera dinámicamente el titular y elige la página de aterrizaje y la dirección URL de visualización para un anuncio de búsqueda dinámica y, a continuación, genera automáticamente la dirección URL final.
+Los anuncios dinámicos de búsqueda (DSA) solo están disponibles para [!DNL Google Ads] grupos de anuncios dinámicos de búsqueda en campañas de solo búsqueda. La red de anuncios genera dinámicamente el titular y elige la página de aterrizaje y la dirección URL de visualización para un anuncio de búsqueda dinámica y, a continuación, genera automáticamente la dirección URL final.
 
 Consulte la ayuda de Google Ads para [límites de anuncios por cuenta](https://support.google.com/google-ads/answer/6372658?hl=en).
 
@@ -37,6 +37,6 @@ Consulte la ayuda de Google Ads para [límites de anuncios por cuenta](https://s
 >[!MORELIKETHIS]
 >
 >* [Acerca de los anuncios](ad-about.md)
->* [Administración de anuncios](ad-manage.md)
->* [[!DNL Google Ads] configuración de anuncios de solo llamada](ad-settings-google-call.md)
->* [[!DNL Google Ads] configuración de anuncios de búsqueda adaptable](ad-settings-google-rsa.md)
+>* [Administrar anuncios](ad-manage.md)
+>* [[!DNL Google Ads] configuración de anuncios solo para llamada](ad-settings-google-call.md)
+>* [[!DNL Google Ads] configuración del anuncio de búsqueda adaptable](ad-settings-google-rsa.md)

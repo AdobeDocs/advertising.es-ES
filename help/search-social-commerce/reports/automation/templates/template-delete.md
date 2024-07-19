@@ -1,9 +1,9 @@
 ---
 title: Eliminación de una plantilla de informe
 description: Obtenga información sobre cómo eliminar las plantillas de informes.
-exl-id: 2b81aad8-6ab1-495f-8f34-67fa5c55be42
+exl-id: 2e7038e1-bbe0-473e-97fa-ecfa475ce411
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puede eliminar cualquier plantilla de informe disponible. Cuando se elimina una 
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. Haga clic en **[!UICONTROL Templates]** pestaña.
+1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
 1. Active la casilla de verificación situada junto a cada plantilla que desee eliminar.
 
@@ -26,7 +26,7 @@ Puede eliminar cualquier plantilla de informe disponible. Cuando se elimina una 
 
 >[!MORELIKETHIS]
 >
->* [Plantillas de informe](template-about.md)
->* [Creación de una plantilla de informe](template-create.md)
->* [Edición de una plantilla de informe](template-edit.md)
+>* [Acerca de las plantillas de informe](template-about.md)
+>* [Crear una plantilla de informe](template-create.md)
+>* [Editar una plantilla de informe](template-edit.md)
 >* [Ver una plantilla de informe](template-view.md)

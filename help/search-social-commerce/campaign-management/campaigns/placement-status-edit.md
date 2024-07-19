@@ -1,9 +1,9 @@
 ---
 title: Cambiar el estado de las ubicaciones y las ubicaciones negativas
-description: Aprenda a cambiar el estado de las ubicaciones y las ubicaciones negativas de [!DNL Google Ads].
-exl-id: 7f025ba2-e71f-40bf-9057-f7d7abbea5da
+description: Aprenda a cambiar el estado de las ubicaciones y las ubicaciones negativas de  [!DNL Google Ads].
+exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -22,7 +22,7 @@ También se puede borrar una posición activa o en pausa, o una posición negati
 
 1. Seleccione la casilla de verificación situada junto a cada posición ofertable o ubicación negativa cuyo estado desee cambiar.
 
-   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. En la barra de herramientas, haga clic en el botón de estado:
 
@@ -35,5 +35,5 @@ También se puede borrar una posición activa o en pausa, o una posición negati
 >[!MORELIKETHIS]
 >
 >* [Acerca de las ubicaciones](placement-about.md)
->* [Administrar ubicaciones pujables](placement-manage.md)
->* [Creación de ubicaciones negativas](placement-negative-create.md)
+>* [Administrar ubicaciones que se pueden pujar](placement-manage.md)
+>* [Crear ubicaciones negativas](placement-negative-create.md)

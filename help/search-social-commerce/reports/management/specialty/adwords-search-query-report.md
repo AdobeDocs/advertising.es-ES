@@ -1,11 +1,11 @@
 ---
 title: '[!UICONTROL AdWords Search Query Report]'
-description: Obtenga información acerca de [!UICONTROL AdWords Search Query Report].
-exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+description: Más información acerca de [!UICONTROL AdWords Search Query Report].
+exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-El [!UICONTROL AdWords Search Query Report] incluye datos de coste, clics, impresiones y (opcionalmente) métricas derivadas para términos de consulta de búsqueda de usuarios de uno o más grupos de anuncios. De forma predeterminada, los datos incluyen una fila por cada término de búsqueda que resultó en impresiones o clics para cada grupo de anuncios aplicable y para cada unidad de tiempo en el intervalo de fechas especificado. Las filas se muestran en orden ascendente por nombre de grupo de anuncios y, a continuación, por término de búsqueda. Si lo desea, puede incluir la palabra clave con la que coincidió el término de búsqueda. El informe no incluye la palabra clave con la que coincide el término de búsqueda, ni ningún dato de conversión rastreado por [!DNL Adobe].
+[!UICONTROL AdWords Search Query Report] incluye datos de costo, clics, impresiones y (opcionalmente) métricas derivadas para términos de consulta de búsqueda de usuarios de uno o más grupos de anuncios. De forma predeterminada, los datos incluyen una fila por cada término de búsqueda que resultó en impresiones o clics para cada grupo de anuncios aplicable y para cada unidad de tiempo en el intervalo de fechas especificado. Las filas se muestran en orden ascendente por nombre de grupo de anuncios y, a continuación, por término de búsqueda. Si lo desea, puede incluir la palabra clave con la que coincidió el término de búsqueda. El informe no incluye la palabra clave con la que coincidió el término de búsqueda ni los datos de conversión seguidos por [!DNL Adobe].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ El [!UICONTROL AdWords Search Query Report] incluye datos de coste, clics, impre
 
 ## Columnas predeterminadas
 
-Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informes para informes de especialidades](specialty-report-columns.md).&quot;
+Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informe para informes de especialidades](specialty-report-columns.md)&quot;.
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -40,6 +40,6 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 
 >[!MORELIKETHIS]
 >
-* [Acerca de los informes especiales](specialty-report-about.md)
-* [Generar un informe de especialidad](specialty-report-generate.md)
-* [Configuración de informes especiales](specialty-report-settings.md)
+>* [Acerca de los informes de especialidad](specialty-report-about.md)
+>* [Generar informe de especialidad](specialty-report-generate.md)
+>* [Configuración de informes especiales](specialty-report-settings.md)

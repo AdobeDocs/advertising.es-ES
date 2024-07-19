@@ -1,11 +1,11 @@
 ---
 title: Iniciar sesión
 description: Aprenda formas de iniciar sesión.
-exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Puede iniciar sesión en Search, Social y Commerce directamente o desde Adobe Ex
 
 * Inicie sesión en una de las siguientes direcciones URL:
 
-   * Usuarios en América del Norte: [https://enterprise-na.efrontier.com](https://enterprise-na.efrontier.com)
+   * Usuarios en Norteamérica: [https://enterprise-na.efrontier.com](https://enterprise-na.efrontier.com)
 
    * Usuarios en todas las demás áreas: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
@@ -26,9 +26,9 @@ Puede iniciar sesión en Search, Social y Commerce directamente o desde Adobe Ex
 
 >[!NOTE]
 >
->Su empresa debe estar aprovisionada en Adobe Experience Cloud y debe tener [ha vinculado su cuenta de Experience Cloud a una cuenta de Search, Social y Commerce](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>Su compañía debe estar aprovisionada en Adobe Experience Cloud y usted debe tener [vinculada su cuenta de Experience Cloud a una cuenta de Search, Social y Commerce](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Iniciar sesión en Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [Inicie sesión en Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
 1. En el menú superior, seleccione ![selector de soluciones](/help/search-social-commerce/assets/menu-icon.png "selector de soluciones").
 

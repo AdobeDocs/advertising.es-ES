@@ -1,6 +1,6 @@
 ---
-title: DSP Recopilación de datos de clics e impresiones de campañas de Advertising
-description: DSP Aprenda a capturar eventos de impresión y clics basados en cookies desde anuncios de Advertising utilizando píxeles de Audience Manager
+title: Recopilación de datos de clics e impresiones de campañas de Advertising DSP
+description: Aprenda a capturar eventos de impresión y clics basados en cookies desde anuncios de Advertising DSP con píxeles de Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,19 +10,19 @@ ht-degree: 0%
 
 ---
 
-# DSP Recopilación de datos de exposición de medios de campañas de Advertising
+# Recopilación de datos de exposición de medios de Advertising DSP Campaigns
 
-*DSP Solo anunciantes con Advertising*
+*Anunciantes solo con Advertising DSP*
 
-*Anunciantes con solo integración de Adobe Advertising-Adobe Audience Manager*
+*Solo anunciantes con una integración de Adobe Audience Manager de Adobe Advertising*
 
-DSP En este documento se explica cómo etiquetar anuncios de Advertising para capturar eventos de impresión y clics basados en cookies mediante píxeles de Audience Manager, así como las tareas adicionales necesarias para utilizar los datos.
+En este documento se explica cómo etiquetar anuncios de Advertising DSP para capturar impresiones basadas en cookies y eventos de clic mediante píxeles de Audience Manager, así como las tareas adicionales necesarias para utilizar los datos.
 
 Los píxeles de evento no capturan eventos que se producen en entornos sin cookies, como aplicaciones móviles y TV conectada (CTV).
 
-## Paso 1: Configurar una fuente de datos en Audience Manager {#set-up-data-source}
+## Paso 1: Configuración de un Source de datos en Audience Manager {#set-up-data-source}
 
-En Audience Manager, cree un [fuente de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) DSP para obtener los datos de impresión y clics de la. Incluir el ID de la fuente de datos [en cada etiqueta de evento](#implement-dsp-pixels) de forma que todos los eventos rastreados se atribuyan a la fuente de datos.
+En el Audience Manager DSP, cree una [fuente de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) para los datos de impresión y de clics de la. Incluya el ID de origen de datos [en cada etiqueta de evento](#implement-dsp-pixels) para que todos los eventos rastreados se atribuyan al origen de datos.
 
 >[!NOTE]
 > DSP Es posible recopilar todos los datos de impresiones y clics de las campañas publicitarias que se ejecutan en varias dentro de una sola fuente de datos.
@@ -33,7 +33,7 @@ Los anunciantes pueden crear e implementar etiquetas de evento para sus propias 
 
 >[!NOTE]
 >
->Si su organización utiliza [!DNL Analytics] seguimiento, es posible que no necesite el rastreo de clics del Audience Manager. Adobe Analytics captura las señales de clic y las puede enviar al Audience Manager mediante [reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Si su organización utiliza el seguimiento de [!DNL Analytics], es posible que no necesite el rastreo de clics del Audience Manager. Adobe Analytics captura las señales de clic y puede enviarlas al Audience Manager a través de [reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 ### Sintaxis de píxeles
 
@@ -53,41 +53,41 @@ con [parámetros adicionales opcionales](#parameters) con el prefijo `&`
 
 Donde:
 
-* `[Audience Manager customer domain]` es el nombre de dominio al que se enviarán los eventos de impresión o clics [!DNL Adobe].
+* `[Audience Manager customer domain]` es el nombre de dominio que enviará eventos de impresión o clics a [!DNL Adobe].
 
-* `[source id]` es el ID de [fuente de datos](#set-up-data-source) DSP en el que se rastrean datos de impresiones y clics de la.
+* DSP `[source id]` es el identificador de la [fuente de datos](#set-up-data-source) en la que realiza un seguimiento de los datos de impresiones y clics de los datos de los que realiza un seguimiento de los datos de impresión y de los datos de los clics de los que se hace clic en los datos.
 
 * `[redirect URL]` es la URL de redireccionamiento con codificación doble. Si está utilizando una herramienta de codificación en línea, como www.urlencoder.org, ejecute la cadena a través del codificador y vuelva a codificar el resultado.
 
-* `${TM_CAMPAIGN_ID_NUM}` DSP es el ID de campaña numérico en la. DSP Si desea codificar un ID de campaña individual en lugar de utilizar la macro de, busque el ID en la configuración de la campaña.
+* DSP `${TM_CAMPAIGN_ID_NUM}` es el identificador numérico de campaña en el. DSP Si desea codificar un ID de campaña individual en lugar de utilizar la macro de, busque el ID en la configuración de la campaña.
 
 * Cada [parámetro](#key-value-pairs) tiene el prefijo `&` y tiene el formato `d_parameter=parameter_id`, donde `parameter` se reemplaza por el par clave-valor del nuevo campo. Ejemplo: `&d_placement=${TM_PLACEMENT_ID_NUM}`
 
 ### Parámetros como pares clave-valor {#parameters}
 
-**Formato:**  `d_parameter=parameter_id`
+**Formato:** `d_parameter=parameter_id`
 
     donde:
     
-    * el parámetro tiene el prefijo &quot;&amp;&quot;
+    * el parámetro tiene el prefijo `&amp;`
     
-    * &quot;parameter&quot; se sustituye por el par clave-valor para el nuevo campo
+    * `parameter` se reemplaza por el par clave-valor del nuevo campo
     
     Ejemplo: `&amp;d_placement=${TM_PLACEMENT_ID_NUM}`
 
-Ambos tipos de píxeles pueden contener parámetros adicionales como *pares clave-valor* para recopilar características o proporcionar metadatos de campaña (como un nombre de ubicación o un nombre de campaña) para otros informes. Un par clave-valor consta de dos elementos relacionados: un *key*, que es una constante que define el conjunto de datos, y una *valor*, que es una variable que pertenece al conjunto.
+Ambos tipos de píxeles pueden contener parámetros adicionales como *pares clave-valor* para recopilar características o para proporcionar metadatos de campaña (como un nombre de ubicación o un nombre de campaña) para otros informes. Un par clave-valor consta de dos elementos relacionados: una *clave*, que es una constante que define el conjunto de datos, y un *valor*, que es una variable que pertenece al conjunto.
 
-En el par clave-valor, la variable de valor puede ser un ID codificado o un *macro*, que es una pequeña unidad de código independiente que se sustituye dinámicamente por los valores correspondientes cuando se carga la etiqueta de publicidad para el seguimiento de campañas y usuarios. Para los parámetros relacionados con la campaña, puede utilizar [DSP macros de](/help/dsp/campaign-management/macros.md) en lugar de macros de Audience Manager, para enviar atributos de campaña junto con los datos de impresión o clics correspondientes al Audience Manager, utilizando un solo píxel en todos los anuncios. DSP Los píxeles de evento deben tener valores adecuados para los pares clave-valor que se incluyen dentro de los píxeles. Por ejemplo, para `d_placement` DSP tecla, se usaría la macro de `${TM_PLACEMENT_ID_NUM}` como el valor para capturar las ID de posición generadas por la macro de Adobe Advertising.
+En el par clave-valor, la variable de valor puede ser un identificador codificado de forma rígida o una *macro*, que es una pequeña unidad de código independiente que se reemplaza dinámicamente por los valores correspondientes cuando se carga la etiqueta de anuncio para el seguimiento de campañas y usuarios. DSP Para los parámetros relacionados con la campaña, puede usar [macros de](/help/dsp/campaign-management/macros.md) en lugar de macros de Audience Manager para enviar atributos de campaña junto con los datos de impresión o clics correspondientes al Audience Manager, usando un solo píxel en todos los anuncios. DSP Los píxeles de evento deben tener valores adecuados para los pares clave-valor que se incluyen dentro de los píxeles. DSP Por ejemplo, para la clave `d_placement`, se usaría la macro de `${TM_PLACEMENT_ID_NUM}` como valor para capturar los identificadores de ubicación generados por la macro de Adobe Advertising.
 
-Para obtener una lista de macros compatibles con los píxeles de eventos de impresión de Audience Manager, consulte &quot;[Captura de datos de impresión de campaña mediante llamadas de píxel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs).&quot;
+Para obtener una lista de macros que admite el Audience Manager para los píxeles de evento de impresión, consulte &quot;[Captura de datos de impresión de campaña mediante llamadas de píxel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)&quot;.
 
-Para obtener una lista de macros compatibles con los píxeles de eventos de clic de Audience Manager, consulte &quot;[Captura de datos de clic de Campaign mediante llamadas de píxel](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html).&quot;
+Para obtener una lista de macros que admite el Audience Manager para los píxeles de evento de clic, consulte &quot;[Captura de datos de clic de campaña mediante llamadas en píxeles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)&quot;.
 
 >[!TIP]
 >
 >* Se recomienda incluir la campaña, la ubicación, el creativo (publicidad) y los ID de sitio para poder utilizar los atributos de campaña y crear rasgos de Audience Manager.
 >* Para crear informes de Audience Optimization, se requieren parámetros adicionales.
->* En los pares clave-valor, reemplace los valores por los relevantes [DSP macros de](/help/dsp/campaign-management/macros.md) para que pueda usar un solo píxel en todos los anuncios de todas las campañas. Por ejemplo, cambie `d_campaign=[%campaignID%]`hasta `d_campaign=${TM_CAMPAIGN_ID_NUM}` para capturar los ID de campaña generados por la macro de Adobe Advertising.
+>* DSP En los pares clave-valor, reemplace los valores por las [macros de](/help/dsp/campaign-management/macros.md) relevantes para que pueda usar un solo píxel en todos los anuncios de todas las campañas. Por ejemplo, cambie `d_campaign=[%campaignID%]` a `d_campaign=${TM_CAMPAIGN_ID_NUM}` para capturar los identificadores de campaña generados por la macro de Adobe Advertising.
 >* Puede crear sus propios parámetros con valores codificados, si es necesario. Ejemplo: `d_DSP=AdCloud`
 
 Ejemplo de píxel de evento de impresión:
@@ -98,11 +98,11 @@ Ejemplo de píxel de evento de impresión:
 
 #### Píxel de seguimiento de impresión
 
-Adjunte un píxel de seguimiento de eventos de impresión a todos los anuncios de su [!DNL DSP] campañas. Puede hacerlo en cualquiera de los siguientes lugares:
+Adjunte un píxel de seguimiento de eventos de impresión a todos los anuncios de sus [!DNL DSP] campañas. Puede hacerlo en cualquiera de los siguientes lugares:
 
-* En el nivel de colocación, que aplica el píxel de forma predeterminada a todos los anuncios de la ubicación. En la sección Tracking de la configuración de ubicación, añada el píxel en la [[!UICONTROL Event pixels] campo](/help/dsp/campaign-management/placements/placement-settings.md).
+* En el nivel de colocación, que aplica el píxel de forma predeterminada a todos los anuncios de la ubicación. En la sección Seguimiento de la configuración de ubicación, agregue el píxel en el campo [[!UICONTROL Event pixels]](/help/dsp/campaign-management/placements/placement-settings.md).
 
-* En el nivel de anuncio, que anula los píxeles de evento de nivel de ubicación. En la configuración del anuncio, [cree un píxel de evento en [!UICONTROL Pixel] pestaña](/help/dsp/campaign-management/ads/ad-edit.md).
+* En el nivel de anuncio, que anula los píxeles de evento de nivel de ubicación. En la configuración del anuncio, [cree un píxel de evento en la ficha [!UICONTROL Pixel]](/help/dsp/campaign-management/ads/ad-edit.md).
 
 * (Para anuncios en un servidor de publicidad de terceros) A nivel de anuncio dentro del servidor de publicidad.
 
@@ -114,23 +114,23 @@ Dentro del servidor de publicidad, inserte el píxel del evento de clic (con la 
 
 Una vez implementadas las etiquetas de evento, los datos fluyen a los servidores de recopilación de datos de Audience Manager. Complete las siguientes tareas para poder utilizar los datos en los informes.
 
-### Crear un [!DNL Amazon S3] Contenedor y fuente de datos
+### Crear un bloque de [!DNL Amazon S3] y Data Source
 
-Una vez que los datos estén en los servidores de Audience Manager, debe crear un [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), y después una fuente de datos a la que se enviarán todos los datos en píxeles. Póngase en contacto con su consultor Audience Manager o [Atención al cliente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) si necesita asistencia.
+Una vez que los datos estén en los servidores de Audience Manager, debe crear un bloque de [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) y, a continuación, un origen de datos al que se envíen todos los datos en píxeles. Póngase en contacto con su asesor Audience Manager o con [Atención al cliente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) si necesita asistencia.
 
 ### Creación de rasgos y segmentos de Audience Manager
 
-Los datos del evento se transfieren al Audience Manager como [señales no utilizadas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Crear manualmente [rasgos basados en reglas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) a partir de los datos introducidos y, a continuación, cree [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) con esos rasgos, para poder usar los datos en los informes.
+Los datos del evento se transfieren al Audience Manager como [señales no utilizadas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Cree manualmente [rasgos basados en reglas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) a partir de los datos ingeridos y, a continuación, cree [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) utilizando esos rasgos, para poder usar los datos en los informes.
 
 DSP Característica de ejemplo que rellena datos de nivel de usuario para usuarios expuestos a un elemento creativo específico en la aplicación de la aplicación de la siguiente manera
 
-1. Identificar el evento como `d_event = imp`.
-1. DSP Identifique el ID creativo dentro de la campaña de la campaña y, a continuación, asígnelo al rasgo como `d_creative=[Creative ID]`.
+1. Identifique el evento como `d_event = imp`.
+1. DSP Identifique el ID creativo dentro de la campaña de la campaña y luego asígnelo al rasgo como `d_creative=[Creative ID]`.
 
 ![Pantalla de creación de rasgos](/help/dsp/assets/aa-trait.png)
 
 >[!MORELIKETHIS]
 >
->* [DSP macros](/help/dsp/campaign-management/macros.md)
->* [DSP Información general sobre el envío de datos de exposición de medios de comunicación de a Adobe Audience Manager](overview.md)
+>* DSP [Macros de](/help/dsp/campaign-management/macros.md)
+>* DSP [Información general sobre el envío de datos de exposición de medios de comunicación de la a Adobe Audience Manager](overview.md)
 >* [Casos de uso](use-cases.md)

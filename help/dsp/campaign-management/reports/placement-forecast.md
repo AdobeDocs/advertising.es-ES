@@ -27,15 +27,15 @@ La previsión incluye la siguiente información:
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** El coste estimado por cada mil impresiones (eCPM) que la configuración de direccionamiento puede esperar alcanzar.
+   * **[!UICONTROL Estimated CPM]:** El costo estimado por cada mil impresiones (eCPM) que la configuración de direccionamiento puede esperar alcanzar.
 
-   * **[!UICONTROL Budget]:** Presupuesto estimado para la configuración de segmentación.
+   * **[!UICONTROL Budget]:** Presupuesto estimado para la configuración de direccionamiento.
 
-   * **[!UICONTROL Impression]:** El número estimado de impresiones para la configuración de segmentación.
+   * **[!UICONTROL Impression]:** El número estimado de impresiones para la configuración de direccionamiento.
 
 * **[!UICONTROL Budget Yield Curve]:** El número estimado de impresiones que la ubicación puede entregar en diferentes niveles de presupuesto si todas las demás configuraciones de segmentación son iguales.
 
-* **[!UICONTROL Max Bid Yield Curve]:** El gasto estimado para la colocación en diferentes niveles de puja máxima, cuando todas las demás configuraciones de segmentación son iguales.
+* **[!UICONTROL Max Bid Yield Curve]:** Gasto estimado para la ubicación en diferentes niveles de oferta máxima, cuando todas las demás configuraciones de segmentación son iguales.
 
 * **[!UICONTROL Message]:** Proporciona información sobre el resultado previsto, incluidos los escenarios en los que no se pudo generar la previsión. También resalta cualquier configuración de segmentación revisada pero no considerada en ese escenario debido a la falta de datos.
 
@@ -71,9 +71,9 @@ La previsión incluye la siguiente información:
 
 1. Haga clic en el nombre de la campaña y luego haga clic en **[!UICONTROL Placements]**.
 
-1. Junto al nombre de la ubicación, haga clic en  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
 
-1. Busque el **[!UICONTROL Forecast]** en la parte superior derecha. Si es necesario, haga clic en ![Pronóstico](/help/dsp/assets/placement-forecast.png).
+1. Busque la sección **[!UICONTROL Forecast]** en la esquina superior derecha. Si es necesario, haga clic en ![Previsión](/help/dsp/assets/placement-forecast.png).
 
    >[!NOTE]
    >

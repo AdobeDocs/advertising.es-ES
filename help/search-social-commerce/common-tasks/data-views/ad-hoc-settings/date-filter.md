@@ -21,33 +21,33 @@ Cuando se guarda un intervalo de fechas específico para una vista predeterminad
 >[!NOTE]
 >
 >* Puede ver los datos de los 13 meses anteriores, pero cualquier vista personalizada existente puede incluir datos de solo hasta los 180 días anteriores.
->* Para ver datos anteriores, vaya a [[!UICONTROL Reports] vista](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) y ejecutar un informe básico.
->* También puede guardar un intervalo de fecha para una [vista predeterminada o vista personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
+>* Para ver datos anteriores, vaya a la vista [[!UICONTROL Reports] ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) y ejecute un informe básico.
+>* También puede guardar un intervalo de fechas para una [vista predeterminada o personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## Cambio del filtro de fecha global en las vistas de campaña
 
 1. Sobre cualquier tabla de datos de Buscar \> Campañas \> Campañas, haga clic en el intervalo de fechas actual.
 
-1. En el **[!UICONTROL Date Range]** , especifique el rango:
+1. En el campo **[!UICONTROL Date Range]**, especifique el intervalo:
 
    * Para un rango preestablecido: seleccione en la lista de incrementos de tiempo comunes, que van desde *[!UICONTROL Today]* hasta *[!UICONTROL Last 180 Days]*. El valor predeterminado es *[!UICONTROL Yesterday]*.
 
-   * Para un rango específico: seleccione **[!UICONTROL Custom Date Range]** y, a continuación, especifique la fecha inicial y la fecha final.
+   * Para un intervalo específico: seleccione **[!UICONTROL Custom Date Range]** y, a continuación, especifique la fecha de inicio y la fecha de finalización.
 
-     Introduzca las fechas en formato MM/DD/AAAA o MM-DD-AAAA, o haga clic en ![Icono de calendario](/help/search-social-commerce/assets/calendar.png "Icono de calendario") junto a cada campo para abrir el calendario y seleccionar una fecha.
+     Introduzca las fechas en formato MM/DD/AAAA o MM-DD-AAAA, o haga clic en ![Icono del calendario](/help/search-social-commerce/assets/calendar.png "Icono del calendario") junto a cada campo para abrir el calendario y seleccionar una fecha.
 
 1. (Opcional) Compare los datos del intervalo de fechas especificado con los datos de un segundo intervalo de fechas:
 
-   1. Mover el **[!UICONTROL Comparison]** deslizador a *[!UICONTROL On]*.
+   1. Mover el control deslizante **[!UICONTROL Comparison]** a *[!UICONTROL On]*.
 
-      Al seleccionar esta opción, se añaden dos columnas adicionales para cada columna de datos normal. Por ejemplo, en lugar de incluir solo una columna para &quot;[!UICONTROL Impressions],&quot; la tabla incluye columnas para &quot;[!UICONTROL Impressions R1],&quot; &quot;[!UICONTROL Impressions R2],&quot; y &quot;[!UICONTROL Impressions Diff].&quot;  Si exporta los datos, las mismas columnas se deletrean como &quot;[!UICONTROL Impressions Range 1],&quot; &quot;[!UICONTROL Impressions Range 2],&quot; y &quot;[!UICONTROL Impressions Difference].&quot;
+      Al seleccionar esta opción, se añaden dos columnas adicionales para cada columna de datos normal. Por ejemplo, en lugar de incluir una sola columna para &quot;[!UICONTROL Impressions]&quot;, la tabla incluye columnas para &quot;[!UICONTROL Impressions R1]&quot;, &quot;[!UICONTROL Impressions R2]&quot; y &quot;[!UICONTROL Impressions Diff]&quot;.&quot;  Si exporta los datos, las mismas columnas se escriben como &quot;[!UICONTROL Impressions Range 1]&quot;, &quot;[!UICONTROL Impressions Range 2]&quot; y &quot;[!UICONTROL Impressions Difference]&quot;.&quot;
 
    1. Especifique el segundo intervalo de fechas.
 
-   1. Elija cómo expresar la diferencia entre los datos de los dos intervalos de fechas seleccionados en la &quot;\[_Campo de datos_\] Diferencia&quot;:
+   1. Elija cómo expresar la diferencia entre los datos de los dos intervalos de fechas seleccionados en la columna &quot;\[_Campo de datos_\] Diferencia&quot;:
 
-      * *[!UICONTROL Variance]* (el valor predeterminado): Muestra la diferencia como valor numérico.
+      * *[!UICONTROL Variance]* (valor predeterminado): muestra la diferencia como valor numérico.
 
-      * *[!UICONTROL % Change]:*  Muestra la diferencia en forma de porcentaje.
+      * *[!UICONTROL % Change]:* Muestra la diferencia como porcentaje.
 
-1. Clic **[!UICONTROL Apply]**.
+1. Haga clic en **[!UICONTROL Apply]**.

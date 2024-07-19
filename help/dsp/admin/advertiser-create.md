@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear una cuenta de anunciante.
 role: User, Admin
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -17,21 +17,21 @@ Los anunciantes están disponibles para todos los usuarios de la cuenta de la or
 
 1. En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
-1. Haga clic **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
-1. Especifique el [configuración del anunciante](advertiser-settings.md):
+1. Especifique la [configuración del anunciante](advertiser-settings.md):
 
-   1. En el [!UICONTROL General] configuración:
+   1. En la configuración de [!UICONTROL General]:
 
-      1. Especifique el [!UICONTROL General] configuración.
+      1. Especifique la configuración de [!UICONTROL General].
 
-      1. DSP (Opcional) Para configurar integraciones entre los productos de Adobe Experience Cloud y los de, introduzca el ID de organización Experience Cloud del anunciante en la variable [!UICONTROL Adobe IMS IDs] y, a continuación, configure las integraciones de producto en la sección [!UICONTROL Integrations] sección.
+      1. DSP (Opcional) Para configurar integraciones entre los productos de Adobe Experience Cloud y los de, escriba el identificador de organización Experience Cloud del anunciante en la sección [!UICONTROL Adobe IMS IDs] y, a continuación, configure las integraciones de productos en la sección [!UICONTROL Integrations].
 
-   1. (Opcional) En el [!UICONTROL Targeting] en las secciones, especifique los destinos por defecto para cada nueva ubicación.
+   1. (Opcional) En las secciones [!UICONTROL Targeting], especifique los destinos predeterminados para cada nueva ubicación.
 
       Puede anular los destinos por defecto de cualquier ubicación que cree.
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

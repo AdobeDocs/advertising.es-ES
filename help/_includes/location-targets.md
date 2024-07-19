@@ -9,13 +9,13 @@ ht-degree: 0%
 
 <!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
 
-**[!UICONTROL Location Targets]:** (Cuando está disponible) Ubicaciones geográficas de usuarios específicas que se deben incluir o excluir como objetivos. De forma predeterminada, todas las ubicaciones están segmentadas. Puede incluir y excluir usuarios en cualquier combinación de ubicaciones. Las exclusiones siempre anulan las inclusiones.
+**[!UICONTROL Location Targets]:** (cuando esté disponible) Ubicaciones geográficas de usuarios específicas para incluir o excluir como destinos. De forma predeterminada, todas las ubicaciones están segmentadas. Puede incluir y excluir usuarios en cualquier combinación de ubicaciones. Las exclusiones siempre anulan las inclusiones.
 
 * Para segmentar todas las ubicaciones, no seleccione ninguna ubicación.
 
-* Para incluir una ubicación y sus ubicaciones secundarias, haga clic una vez en el círculo adyacente para que aparezca una marca de verificación azul (![Incluir](/help/search-social-commerce/assets/include.png "Incluir")) aparece. Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada ubicación de destino.
+* Para incluir una ubicación y sus ubicaciones secundarias, haga clic una vez en el círculo adyacente para que aparezca una marca de verificación azul (![Include](/help/search-social-commerce/assets/include.png "Include")). Si lo desea, puede aumentar o reducir las ofertas en un porcentaje especificado para cada ubicación de destino.
 
-* Para excluir una ubicación, haga clic dos veces en el círculo adyacente para que la marca de verificación (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")) aparece.
+* Para excluir una ubicación, haga clic dos veces en el círculo adyacente para que aparezca una marca de verificación roja (![Excluir](/help/search-social-commerce/assets/exclude.png "Excluir")).
 
 * Para expandir una ubicación a sus subcomponentes (como estados, prefecturas, regiones o ciudades), haga clic en el nombre de la ubicación.
 

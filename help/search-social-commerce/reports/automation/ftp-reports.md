@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Acceso FTP a informes
 
-Si lo desea, puede recibir informes en una ubicación FTP de solo lectura, desde la que podrá recuperar los archivos para procesos automatizados adicionales (por ejemplo, para analizar los datos con otro programa). Todos los informes básicos excepto [!UICONTROL Search Engine Account Report] y todos los informes avanzados se pueden enviar a una ubicación FTP como archivos TSV comprimidos (opción predeterminada) o archivos CSV, con la extensión de archivo .ZIP. Se incluyen los encabezados de archivo TSV o CSV y no se pueden suprimir.
+Si lo desea, puede recibir informes en una ubicación FTP de solo lectura, desde la que podrá recuperar los archivos para procesos automatizados adicionales (por ejemplo, para analizar los datos con otro programa). Todos los informes básicos excepto [!UICONTROL Search Engine Account Report] y todos los informes avanzados se pueden enviar a una ubicación FTP como archivos TSV comprimidos (valor predeterminado) o archivos CSV, con la extensión de archivo .ZIP. Se incluyen los encabezados de archivo TSV o CSV y no se pueden suprimir.
 
 El acceso FTP a los informes requiere el acceso a una cuenta de FTP específica. Las plantillas de informes se deben configurar según una convención de nombres y una programación específicos.
 
@@ -24,11 +24,11 @@ El acceso FTP a los informes requiere el acceso a una cuenta de FTP específica.
 
 ## Configuración de plantillas de informes para envío por FTP
 
-Para generar informes en el directorio FTP designado, cree un [plantilla de informe](templates/template-create.md) con las siguientes convenciones de nomenclatura y programación.
+Para generar informes en el directorio FTP designado, cree una [plantilla de informe](templates/template-create.md) con las siguientes convenciones de nomenclatura y programación.
 
 >[!NOTE]
 >
->Todos los informes avanzados y todos los informes básicos excepto el [!UICONTROL Search Engine Account Report] se puede enviar a una ubicación FTP.
+>Todos los informes avanzados y todos los informes básicos excepto [!UICONTROL Search Engine Account Report] se pueden enviar a una ubicación FTP.
 
 1. En la plantilla de informe, incluya la siguiente información en cualquier parte del nombre de la plantilla:
 
@@ -36,11 +36,11 @@ Para generar informes en el directorio FTP designado, cree un [plantilla de info
 
    * (Opcional) Cualquiera de las tres fechas del sistema, utilizando la siguiente sintaxis que distingue entre mayúsculas y minúsculas, incluidos los corchetes:
 
-      * `[TODAY]` — Para incluir la fecha, hora y minuto en que se ejecutó el informe. Como esto incluye la hora exacta, la misma plantilla se puede ejecutar varias veces al día sin sobrescribir el informe anterior.
+      * `[TODAY]`: para incluir la fecha, hora y minuto en que se ejecutó el informe. Como esto incluye la hora exacta, la misma plantilla se puede ejecutar varias veces al día sin sobrescribir el informe anterior.
 
-      * `[SDATE]` — Para incluir la fecha de inicio del intervalo de fechas del informe.
+      * `[SDATE]`: para incluir la fecha de inicio del intervalo de fechas del informe.
 
-      * `[EDATE]` — Para incluir la fecha de finalización del intervalo de fechas del informe.
+      * `[EDATE]`: para incluir la fecha de finalización del intervalo de fechas del informe.
 
    * (Opcional) `[CSV]` (en letras mayúsculas y entre corchetes) para crear archivos en formato CSV en lugar del formato TSV predeterminado.
 
@@ -57,7 +57,7 @@ Para generar informes en el directorio FTP designado, cree un [plantilla de info
 
 ## Acceso a informes en un repositorio FTP
 
-Para acceder a sus informes, conéctese a uno de los siguientes hosts de FTP mediante el inicio de sesión de su cuenta de FTP (`amo<userID>rpt`, como amo1234rpt) y una contraseña o una clave de conexión privada si hay una configurada:
+Para acceder a sus informes, conéctese a uno de los siguientes hosts de FTP mediante el inicio de sesión de su cuenta de FTP (`amo<userID>rpt`, como amo1234rpt) y una contraseña o una clave de conexión privada, si la hay configurada:
 
 * Clientes internacionales: `ftp3.adobe.net`
 * Clientes estadounidenses: `ftp5.adobe.net`
@@ -69,4 +69,4 @@ Para acceder a sus informes, conéctese a uno de los siguientes hosts de FTP med
 
 >[!MORELIKETHIS]
 >
->* [Creación de una plantilla de informe](/help/search-social-commerce/reports/automation/templates/template-create.md)
+>* [Crear una plantilla de informe](/help/search-social-commerce/reports/automation/templates/template-create.md)

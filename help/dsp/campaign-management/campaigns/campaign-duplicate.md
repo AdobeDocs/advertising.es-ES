@@ -20,7 +20,7 @@ Duplique una campaña para crear una nueva campaña con una configuración simil
 * Opcionalmente, duplicar los paquetes y las ubicaciones originales
 * Modificación de las fechas de vuelo de la nueva campaña
 
-Consulte &quot;[Qué no está duplicado](#campaign-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no estén duplicadas.
+Consulte &quot;[Lo que no está duplicado](#campaign-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no están duplicadas.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -34,7 +34,7 @@ Consulte &quot;[Qué no está duplicado](#campaign-not-duplicated)&quot; para ob
 
       De forma predeterminada, la nueva campaña se asigna al anunciante original, tiene un programa de vuelos que comienza el día actual e incluye los paquetes y las ubicaciones originales.
 
-1. Haga clic **[!UICONTROL Submit]**.
+1. Haga clic en **[!UICONTROL Submit]**.
 
 ## Qué no está duplicado {#campaign-not-duplicated}
 
@@ -43,18 +43,17 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 * Configuración del experimento
 * (Si cambia las fechas de vuelo) Programación de anuncios personalizados
 * (Si no adjunta anuncios) Ponderación y programación de anuncios personalizados
-* Ubicaciones predeterminadas para ofertas y ubicaciones programáticas garantizadas (PG) para [!UICONTROL Simple Ad Serving] ofertas
+* Ubicaciones predeterminadas para ofertas programáticas garantizadas (PG) y ubicaciones para [!UICONTROL Simple Ad Serving] ofertas
 * (Si copia ubicaciones en una campaña diferente):
    * Destinos geográficos
    * Píxeles de evento
    * Anuncios
-   * Placement-level [!DNL DoubleVerify Authentic Brand Safety] segmentos (que anulan los segmentos de nivel de anunciante)
+   * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Safety] (que anulan los segmentos de nivel de anunciante)
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de Campaign Management](campaign-about.md)
->* [Creación de una campaña](campaign-create.md)
->* [Edición de una campaña](campaign-edit.md)
->* [Visualización del registro de cambios de una campaña](campaign-change-log.md)
+>* [Crear una campaña](campaign-create.md)
+>* [Editar una campaña](campaign-edit.md)
+>* [Ver el registro de cambios de una campaña](campaign-change-log.md)
 >* [Configuración de campaña](campaign-settings.md)
-

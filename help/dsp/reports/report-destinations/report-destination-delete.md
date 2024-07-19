@@ -23,7 +23,6 @@ La eliminación de un destino de informe afecta a la entrega de todos los inform
 >[!MORELIKETHIS]
 >
 >* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Crear un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination] Configuración](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Editar una [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-
+>* [Crear un(a) [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* Configuración de [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Editar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)

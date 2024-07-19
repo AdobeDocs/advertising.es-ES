@@ -5,7 +5,7 @@ role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Las listas de nivel de anunciante anulan las listas de nivel de cuenta.
 
 >[!NOTE]
 >
->* DSP Además de las listas de sitios bloqueados a nivel de cuenta y de anunciante, se aplican las listas de sitios bloqueados a nivel de [lista de sitios bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites), que incluyen sitios considerados inseguros para los anuncios.
+>* DSP Se aplican listas de sitios bloqueados a nivel de cuenta y de anunciante además de la lista de sitios bloqueados globalmente [que incluye sitios considerados no seguros para los anuncios.](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites)
 >* Los usuarios también pueden agregar sitios segmentados a cualquier ubicación.
 >* Las listas de sitios bloqueados siempre anulan las listas de sitios de destino. Si una ubicación excluye e incluye el mismo destino para un anuncio, se excluye el destino.
 

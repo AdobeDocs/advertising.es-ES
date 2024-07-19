@@ -12,32 +12,32 @@ ht-degree: 0%
 
 # Administración de campañas
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex], y existentes [!DNL Baidu] solo cuentas*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] y solo [!DNL Baidu] cuentas existentes*
 
 Una campaña es el componente principal de una cuenta de red de publicidad. Para la mayoría de los tipos de campaña, consiste en un conjunto de grupos de anuncios o conjuntos de anuncios. La configuración de la campaña incluye parámetros de presupuesto de campaña, objetivos de publicidad y parámetros de seguimiento opcionales para todos los anuncios de la campaña. Los parámetros de seguimiento de nivel de campaña anulan los parámetros de nivel de cuenta, pero pueden anularse a su vez en un nivel inferior.
 
-Una vez que [hacer accesible una cuenta de red de publicidad](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) y Search, Social y Commerce han sincronizado los datos de la cuenta con la red de publicidad, con lo que puede crear nuevas campañas [tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md). También puede editar y cambiar el estado de las campañas.
+Una vez que [hagas que una cuenta de red de anuncios sea accesible](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) y Search, Social y Commerce hayan sincronizado los datos de la cuenta con la red de anuncios, puedes crear nuevas campañas con [tipos de campañas compatibles](/help/search-social-commerce/introduction/supported-inventory.md). También puede editar y cambiar el estado de las campañas.
 
 ## Creación de una campaña
 
 >[!NOTE]
 >
->* Antes de crear una campaña, [implementación de etiquetas de seguimiento de conversión](/help/search-social-commerce/tracking/conversion-tracking-about.md) en las páginas web del anunciante.
->* Para crear un gran número de campañas a la vez, utilice el [función de copiar y pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o [hojas de campaña](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>* Antes de crear una campaña, [implemente etiquetas de seguimiento de conversión](/help/search-social-commerce/tracking/conversion-tracking-about.md) en las páginas web del anunciante.
+>* Para crear un gran número de campañas a la vez, usa la [función de copiar y pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o las [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) de la campaña.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
-1. Seleccione la red de publicidad, la cuenta y el tipo de campaña y, a continuación, haga clic en **[!UICONTROL Continue]**.
+1. Seleccione la red de anuncios, la cuenta y el tipo de campaña y luego haga clic en **[!UICONTROL Continue]**.
 
-   Para ver las descripciones de cada tipo de campaña, consulte la [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Anuncios de Japón](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) configuración de campaña.
+   Para obtener las descripciones de cada tipo de campaña, consulte [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Configuración de la campaña Anuncios de Japón ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
-1. Introduzca el [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Anuncios de Japón](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) configuración de campaña.
+1. Entra en [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Configuración de la campaña Anuncios de Japón ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
-   Según la red de publicidad, la configuración se puede agrupar en [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], y [!UICONTROL (Google) DSA Options]. Para configurar opciones adicionales, cuando estén disponibles, para [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups], o [!UICONTROL Campaign Goals], haga clic en **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]**, o **[!UICONTROL Set Campaign Goals]**, respectivamente.
+   Según la red publicitaria, la configuración puede agruparse en [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options] y [!UICONTROL (Google) DSA Options]. Para configurar opciones adicionales, cuando estén disponibles, para [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] o [!UICONTROL Campaign Goals], haga clic en **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** o **[!UICONTROL Set Campaign Goals]**, respectivamente.
 
-1. Clic **[!UICONTROL Post]**.
+1. Haga clic en **[!UICONTROL Post]**.
 
 Según la red de publicidad en la que se creó la campaña, es posible que tenga que crear grupos de publicidad y anuncios asociados antes de que la campaña se inserte en la red de publicidad.
 
@@ -53,21 +53,21 @@ Puede editar la configuración de campañas individuales. También puede editar 
 
 1. Realice una de las acciones siguientes:
 
-   1. (Para editar la configuración de una sola campaña) Mantenga el cursor sobre el nombre de la entidad y haga clic en ![Icono de menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icono de menú"), y luego seleccione **[!UICONTROL Edit]**.
+   1. (Para editar la configuración de una sola campaña) Mantenga el cursor sobre el nombre de la entidad, haga clic en ![Icono de menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icono de menú") y, a continuación, seleccione **[!UICONTROL Edit]**.
 
    1. (Para editar la configuración de una o varias campañas) Haga lo siguiente:
 
       * Seleccione la casilla de verificación situada junto a cada campaña.
 
-        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      * En la barra de herramientas sobre la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
+      * En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. Edite el [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Anuncios de Japón](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) configuración de campaña.
+1. Edite [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Configuración de la campaña Anuncios de Japón ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
-   Para varias campañas, la configuración se puede agrupar en [!UICONTROL Campaign Details], [!UICONTROL Budget Options], y [!UICONTROL URL Options], según las redes de publicidad. Solo puede editar los campos que son comunes a todas las campañas seleccionadas y los cambios se aplicarán a todas las campañas seleccionadas. Para algunos campos alfanuméricos, tiene opciones para cambiar los valores existentes a un valor especificado, reemplazar una cadena existente por una cadena especificada, agregar un prefijo especificado al principio de cada valor o anexar un sufijo al final de cada valor. Para algunos campos monetarios, tiene opciones para cambiar los valores existentes a un valor especificado o para aumentar o reducir el importe en un porcentaje o importe monetario especificados, con un límite.
+   Para varias campañas, la configuración se puede agrupar en [!UICONTROL Campaign Details], [!UICONTROL Budget Options] y [!UICONTROL URL Options], según las redes de anuncios. Solo puede editar los campos que son comunes a todas las campañas seleccionadas y los cambios se aplicarán a todas las campañas seleccionadas. Para algunos campos alfanuméricos, tiene opciones para cambiar los valores existentes a un valor especificado, reemplazar una cadena existente por una cadena especificada, agregar un prefijo especificado al principio de cada valor o anexar un sufijo al final de cada valor. Para algunos campos monetarios, tiene opciones para cambiar los valores existentes a un valor especificado o para aumentar o reducir el importe en un porcentaje o importe monetario especificados, con un límite.
 
-   Para campañas únicas, la configuración se puede agrupar en [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], y [!UICONTROL (Google) DSA Options]. Para configurar opciones adicionales, cuando estén disponibles, para [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups], o [!UICONTROL Campaign Goals], haga clic en **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]**, o **[!UICONTROL Set Campaign Goals]**, respectivamente.
+   Para campañas únicas, la configuración se puede agrupar en [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options] y [!UICONTROL (Google) DSA Options]. Para configurar opciones adicionales, cuando estén disponibles, para [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] o [!UICONTROL Campaign Goals], haga clic en **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** o **[!UICONTROL Set Campaign Goals]**, respectivamente.
 
 1. Guarde los datos:
 
@@ -89,7 +89,7 @@ También puede eliminar cualquier campaña de búsqueda activa o en pausa. Las c
 
 1. Seleccione la casilla de verificación situada junto a cada campaña cuyo estado desee cambiar.
 
-   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 1. En la barra de herramientas, haga clic en el botón de estado:
 

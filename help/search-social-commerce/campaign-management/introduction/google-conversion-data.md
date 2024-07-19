@@ -1,26 +1,26 @@
 ---
 title: '[!DNL Google Ads] datos de conversión'
-description: Obtenga información acerca de los tipos de [!DNL Google Ads]Datos de conversión no rastreados disponibles en en Search, Social y Commerce.
-exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
+description: Obtenga información acerca de los tipos de datos de conversión rastreados de  [!DNL Google Ads] disponibles en Buscar, Social y Commerce.
+exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: dc5dc6c5770dd75c77c537c69e53a3b169a71efb
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Ads] datos de conversión en Search, Social y Commerce
 
-Search, Social y Commerce se sincronizan automáticamente [!DNL Google Ads]Los datos de conversión rastreados de para todas sus campañas en la [!DNL Google Ads] redes de búsqueda y compras en Search, Social y Commerce para la creación de informes y optimización.
+Search, Social y Commerce sincronizan automáticamente los datos de conversión rastreados de [!DNL Google Ads] de todas sus campañas en las redes de búsqueda y compras de [!DNL Google Ads] en Search, Social y Commerce para los informes y la optimización.
 
 Todas las métricas están disponibles automáticamente en las vistas de administración de campañas y en los informes básicos, y también están disponibles para su uso en objetivos de portafolio para la optimización.
 
 ## Datos de conversión disponibles
 
-Search, Social y Commerce sincronizan los datos de las conversiones para las que el &quot;[!DNL Include in 'Conversions']&quot; está activada, extrayendo los datos de los últimos 35 días y luego extrayendo los cambios en los datos diariamente para el 09:00-10:00 en la zona horaria del anunciante. Los datos históricos pueden cambiar día a día a medida que se realiza el seguimiento de las nuevas conversiones para cada clic.
+Search, Social y Commerce sincronizan los datos de las conversiones para las que la opción &quot;[!DNL Include in 'Conversions']&quot; está habilitada, extraen los datos de los últimos 35 días y extraen los cambios a los datos diariamente a las 09:00-10:00 en el huso horario del anunciante. Los datos históricos pueden cambiar día a día a medida que se realiza el seguimiento de las nuevas conversiones para cada clic.
 
-Hasta tres métricas para cada uno [[!DNL Google Ads]Conversión con seguimiento automático](https://support.google.com/google-ads/answer/4677036) (que configuró en [!DNL Google Ads]) están disponibles automáticamente en Search, Social y Commerce, con los nombres de conversión configurados en [!DNL Google Ads]. Las métricas de cada conversión incluyen:
+Hay disponibles automáticamente hasta tres métricas para cada conversión ](https://support.google.com/google-ads/answer/4677036) rastreada por [[!DNL Google Ads] (que configuró en [!DNL Google Ads]) en Buscar, Social y Commerce, con los nombres de conversión configurados en [!DNL Google Ads]. Las métricas de cada conversión incluyen:
 
 <!--
 
@@ -32,29 +32,29 @@ Hasta tres métricas para cada uno [[!DNL Google Ads]Conversión con seguimiento
 
 -->
 
-* `GGL*` — (Al realizar el seguimiento) El valor de conversión de la palabra clave, comenzando por el prefijo &quot;GGL&quot; (como Compra GGL).
+* `GGL*` — (Al realizar el seguimiento) El valor de conversión de la palabra clave, comenzando por el prefijo &quot;GGL&quot; (como GGL Purchase).
 
-* `GGL_CT*` — el número (recuento) de conversiones, comenzando por el prefijo &quot;GGL_CT&quot; (por ejemplo, GGL_CT_Purchase).
+* `GGL_CT*`: número (recuento) de conversiones que comienzan por el prefijo &quot;GGL_CT&quot; (como GGL_CT_Purchase).
 
-* `GGL_XD_CT*` — (Cuando está disponible para el tipo de conversión, cuando se realiza el seguimiento de las mismas) El número (recuento) de conversiones entre dispositivos, según las medidas por Google XD XD, comenzando por el prefijo &quot;GGL__CT_&quot; (como GGL__CT_Purchase).
+* `GGL_XD_CT*` — (cuando está disponible para el tipo de conversión, cuando se realiza el seguimiento de las mismas) El número (recuento) de conversiones entre dispositivos, según las medidas por Google XD XD, comenzando con el prefijo &quot;GGL__CT_&quot; (como GGL__CT_Purchase).
 
-[!DNL Google Ads] registra cada conversión por [unidad de oferta](/help/search-social-commerce/glossary.md#a-b), dispositivo y fecha del clic (no fecha de conversión). La atribución se basa en la configuración de atribución predeterminada de cada métrica de [!DNL Google Ads]; la atribución de Adobe Advertising no se tiene en cuenta porque los datos de nivel de evento de clic no están disponibles.
+[!DNL Google Ads] registra cada conversión por [unidad de oferta](/help/search-social-commerce/glossary.md#a-b), dispositivo y fecha de clic (no fecha de conversión). La atribución se basa en la configuración de atribución predeterminada para cada métrica de [!DNL Google Ads]; la atribución de Adobe Advertising no se tiene en cuenta porque no hay disponibles datos de nivel de evento de clic.
 
 >[!NOTE]
 >
->* Si tiene varias cuentas con los mismos nombres de conversión, es posible que vea nombres de conversión duplicados en el Adobe Advertising. Si esto sucede, [cambiar el nombre para mostrar](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) para una de las métricas duplicadas en [!UICONTROL Admin] > [!UICONTROL Conversions]. Los informes no son precisos cuando dos métricas diferentes tienen el mismo nombre.
->* Los datos en el nivel de unidad de oferta coinciden con los datos en [!DNL Google Ads] en el mismo nivel. Sin embargo, [!DNL Google Ads]Los datos de conversión propios de para niveles superiores pueden incluir conversiones adicionales que no se atribuyen a las unidades de oferta secundarias. Los datos de Search, Social y Commerce siempre se acumulan desde el nivel de unidad de oferta, por lo que, por ejemplo, un informe de nivel de campaña podría no tener los mismos totales que un informe de nivel de campaña en Google Ads.
+>* Si tiene varias cuentas con los mismos nombres de conversión, es posible que vea nombres de conversión duplicados en el Adobe Advertising. Si esto sucede, [cambie el nombre para mostrar](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) de una de las métricas duplicadas en [!UICONTROL Admin] > [!UICONTROL Conversions]. Los informes no son precisos cuando dos métricas diferentes tienen el mismo nombre.
+>* Los datos en el nivel de unidad de oferta coinciden con los datos en [!DNL Google Ads] en el mismo nivel. Sin embargo, los datos de conversión propios de [!DNL Google Ads] para niveles superiores pueden incluir conversiones adicionales que no se atribuyen a las unidades de oferta secundarias. Los datos de Search, Social y Commerce siempre se acumulan desde el nivel de unidad de oferta, por lo que, por ejemplo, un informe de nivel de campaña podría no tener los mismos totales que un informe de nivel de campaña en Google Ads.
 >* La variación de datos suele ser menor después de la sincronización matinal que más tarde en el día, cuando aún no se han sincronizado conversiones adicionales. Se recomienda validar los datos por la mañana.
->* Los datos de conversión no están disponibles para [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App], y [!DNL YouTube] anuncios. Filtrar esos tipos de anuncios al comparar los datos en [!DNL Google Ads] con datos en Search, Social y Commerce.
->* Datos para [!DNL Google Ads] Las conversiones no están disponibles en el nivel de audiencia o de ubicación geográfica y, por lo tanto, no se utilizan para optimizar automáticamente los ajustes de oferta de RLSA y ubicación.
+>* Los datos de conversión no están disponibles para los anuncios de [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App] y [!DNL YouTube]. Filtre esos tipos de anuncios al comparar los datos de [!DNL Google Ads] con los de Search, Social y Commerce.
+>* Los datos de las conversiones de [!DNL Google Ads] no están disponibles en el nivel de audiencia o de ubicación geográfica y, por lo tanto, no se usan para optimizar automáticamente los ajustes de RLSA y oferta de ubicación.
 
-## Cómo comparar los datos de conversión en [!DNL Google Ads] con datos en Search, Social y Commerce
+## Cómo comparar los datos de conversión de [!DNL Google Ads] con los datos de Search, Social y Commerce
 
-Si compara los datos de Search, Social y Commerce con los de [!DNL Google Ads], utilice la opción ver o informar para ver las conversiones en función de la fecha de clic (no la fecha de transacción).
+Si compara los datos de Search, Social y Commerce con los de [!DNL Google Ads], use la opción de ver o informar para ver las conversiones según la fecha de clic (no la fecha de transacción).
 
 Utilice la siguiente configuración de informe para validar datos comparables.
 
-### Configuración de informes que se utilizará en [!DNL Google Ads]
+### Configuración de informe que se usará en [!DNL Google Ads]
 
 Genere el informe de las acciones de conversión seleccionadas por día e incluya los datos de todos los estados de publicidad.
 
@@ -80,29 +80,29 @@ Genere el informe de las acciones de conversión seleccionadas por día e incluy
 
 ### Configuración de informes que se utilizará en Search, Social y Commerce
 
-En Buscar, Social y Comercio, utilice la opción Ver o informar para ver las conversiones en función de la fecha de clic (no la fecha de transacción).
+En Buscar, Social y Commerce, utilice la opción Ver o informar para ver las conversiones en función de la fecha de clic (no la fecha de transacción).
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Create Report]**, mantenga el cursor sobre **[!UICONTROL Basic Reports]** y haga clic en **[!UICONTROL Search Engine Account Report]**.
+1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Create Report]**, mantenga el cursor sobre **[!UICONTROL Basic Reports]** y, a continuación, haga clic en **[!UICONTROL Search Engine Account Report]**.
 
-1. En el [!UICONTROL Report Settings] , especifique la siguiente configuración de informe:
+1. En la ventana [!UICONTROL Report Settings], especifique la siguiente configuración del informe:
 
-   1. En el **[!UICONTROL Conversions Based]** en la sección, seleccione **[!UICONTROL Click date]**.
+   1. En **[!UICONTROL Conversions Based]** de la sección, seleccione **[!UICONTROL Click date]**.
 
-   1. Especifique el mismo intervalo de fechas que utilizó para [!DNL Google Ads] informe.
+   1. Especifique el mismo intervalo de fechas que utilizó para el informe [!DNL Google Ads].
 
-   1. En el **[!UICONTROL Search/Content]** , seleccione **[!UICONTROL Search Only]**.
+   1. En la sección **[!UICONTROL Search/Content]**, seleccione **[!UICONTROL Search Only]**.
 
-   1. En el **[!UICONTROL Search Engine Hierarchy]** , expanda la [!UICONTROL Google Adwords] y seleccione la cuenta.
+   1. En la sección **[!UICONTROL Search Engine Hierarchy]**, expanda la sección [!UICONTROL Google Adwords] y seleccione la cuenta.
 
-   1. Abra el [!UICONTROL Columns] y agregue la pestaña [!DNL Google Ads] métricas (que comienzan con &quot;GGL&quot;) que desee comparar.
+   1. Abra la ficha [!UICONTROL Columns] y agregue las métricas [!DNL Google Ads] (comenzando por &quot;GGL&quot;) que desee comparar.
 
-1. Haga clic **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
 >[!MORELIKETHIS]
 >
->* [Información general sobre la implementación de cuentas y campañas de red de publicidad](campaign-implemention-overview.md)
->* [Monitorizar y administrar el rendimiento de las campañas de red de anuncios](monitor-performance-campaigns.md)
+>* [Información general sobre la implementación de cuentas y campañas de red de anuncios](campaign-implemention-overview.md)
+>* [Supervisar y administrar el rendimiento de las campañas de red de anuncios](monitor-performance-campaigns.md)
 >* [Ver las métricas de conversión rastreadas de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
->* [Cree una etiqueta de conversión para [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+>* [Crear una etiqueta de conversión para [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)

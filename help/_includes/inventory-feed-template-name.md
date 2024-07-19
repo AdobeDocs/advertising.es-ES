@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Plantilla de anuncio de texto: nombre de la plantilla
 
-**[!UICONTROL Template Name]:** Nombre de la plantilla. Puede cambiar el nombre de una plantilla existente sin consecuencias. El nombre de la plantilla no puede incluir ninguno de los siguientes caracteres: `# % * | \ : " < >  . ? /` (`&` se permite)
+**[!UICONTROL Template Name]:** El nombre de la plantilla. Puede cambiar el nombre de una plantilla existente sin consecuencias. El nombre de la plantilla no puede incluir ninguno de los siguientes caracteres: `# % * | \ : " < >  . ? /` (`&` está permitido)
 
 Para crear una plantilla nueva con los mismos parámetros que una plantilla existente, clone la plantilla y asígnele un nombre nuevo. Los anuncios creados a partir de la nueva plantilla no se asocian a los anuncios creados a partir de la plantilla de origen.

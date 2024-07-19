@@ -14,9 +14,9 @@ ht-degree: 0%
 
 En la mayoría de las vistas de datos de campaña, puede personalizar los datos que aparecen en la tabla de datos. Puede personalizar los datos de las siguientes maneras:
 
-* Edite la configuración de toda la vista predeterminada para una vista de entidad específica (por ejemplo, [!UICONTROL Campaigns]) para incluir un orden de columna específico, filtros, intervalo de fechas, regla de atribución y más, y aplicar la configuración temporalmente o guardarla. También puede crear vistas personalizadas adicionales y aplicar cualquiera de sus vistas en cualquier momento.
+* Edite la configuración de toda la vista predeterminada de una vista de entidad específica (como [!UICONTROL Campaigns]) para incluir un orden de columna específico, filtros, intervalo de fechas, regla de atribución, etc. y aplique la configuración temporalmente o guárdela. También puede crear vistas personalizadas adicionales y aplicar cualquiera de sus vistas en cualquier momento.
 
-* Cambie las columnas y su orden desde la variable [!UICONTROL Columns] situado en la parte derecha de la barra de herramientas, o cambie rápidamente las columnas de cualquier encabezado de columna de la vista.
+* Cambie las columnas y su orden a partir del icono [!UICONTROL Columns] de la parte derecha de la barra de herramientas, o cambie rápidamente sólo las columnas de cualquier encabezado de columna de la vista.
 
 * Desde el panel de navegación izquierdo, puede:
 

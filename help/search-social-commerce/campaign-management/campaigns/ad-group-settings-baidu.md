@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Baidu] configuración del grupo de publicidad"'
-description: Haga referencia a la configuración de [!DNL Baidu] grupos de anuncios.
-exl-id: 940c5d62-8646-4686-ad34-1fbabe69e1b3
+title: '[!DNL Baidu] configuración de grupo de anuncios'
+description: Hacer referencia a la configuración de  [!DNL Baidu] grupos de anuncios.
+exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** Un nombre de grupo de publicidad único dentro de la campaña. La longitud máxima es de 15 caracteres de doble byte.
+**[!UICONTROL Ad Group Name]:** Un nombre de grupo de anuncios que es único dentro de la campaña. La longitud máxima es de 15 caracteres de doble byte.
 
-**[!UICONTROL Status]:** El estado de visualización del grupo de anuncios: *Activo* o *Pausado*. El valor predeterminado para los nuevos grupos de anuncios es *Activo*.
+**[!UICONTROL Status]:** El estado de visualización del grupo de anuncios: *Activo* o *En pausa*. El valor predeterminado para los nuevos grupos de anuncios es *Activo*.
 
 ## [!UICONTROL Budget Options]
 

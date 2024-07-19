@@ -1,24 +1,24 @@
 ---
 title: '[!UICONTROL Network Constraint Report]'
-description: Obtenga información acerca de [!UICONTROL Network Constraint Report].
-exl-id: 11eae03a-824f-4ba2-93f1-8e7532a8c8f0
+description: Más información acerca de [!UICONTROL Network Constraint Report].
+exl-id: ab908d86-2d37-476c-b2ac-f74c2f3a9a6d
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Network Constraint Report]
 
-El [!UICONTROL Network Constraint Report] muestra todos los presupuestos de red de anuncios mínimos y máximos especificados, así como el gasto real (coste). El informe incluye datos de coste, clics, impresiones, visualizaciones y (opcionalmente) conversiones para uno o varios portafolios. De forma predeterminada, los datos incluyen una fila para cada cuenta de red de publicidad aplicable en el intervalo de fechas especificado y las filas están en orden ascendente, primero por portafolio y luego por red de publicidad.
+[!UICONTROL Network Constraint Report] muestra todos los presupuestos de red de anuncios mínimos y máximos especificados, así como el gasto real (costo). El informe incluye datos de coste, clics, impresiones, visualizaciones y (opcionalmente) conversiones para uno o varios portafolios. De forma predeterminada, los datos incluyen una fila para cada cuenta de red de publicidad aplicable en el intervalo de fechas especificado y las filas están en orden ascendente, primero por portafolio y luego por red de publicidad.
 
 Los datos están disponibles a partir del 15 de octubre de 2022.<!-- [Later: You can view data for the previous NN days.] -->
 
 ## Columnas predeterminadas
 
-Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informes para informes básicos y avanzados](basic-advanced-report-columns.md).&quot;
+Para obtener descripciones de todas las columnas predeterminadas y personalizadas, consulte &quot;[Columnas de informe para informes básicos y avanzados](basic-advanced-report-columns.md)&quot;.
 
 * [!UICONTROL Portfolio]
 * [!UICONTROL Portfolio Group Name]
@@ -38,5 +38,5 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes básicos y avanzados](basic-advanced-report-about.md)
->* [Generación de un informe básico o avanzado](basic-advanced-report-generate.md)
->* [Configuración de informes básica y avanzada](basic-advanced-report-settings.md)
+>* [Generar un informe básico o avanzado](basic-advanced-report-generate.md)
+>* [Configuración básica y avanzada del informe](basic-advanced-report-settings.md)

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Si lo desea, puede cargar archivos de hojas de edición masiva para las redes publicitarias admitidas en una cuenta de FTP específica, donde podrá recuperarlos y publicarlos automáticamente. El directorio se analiza cada hora y los nuevos archivos se publican en el orden en que se reciben.
 
-Los archivos de hojas de edición masiva recuperados y los archivos de error creados durante la publicación se enumeran en la [!DNL Bulksheets] vista.
+Los archivos de hojas de edición masiva recuperados y los archivos de error creados durante la publicación se muestran en la vista [!DNL Bulksheets].
 
 >[!NOTE]
 >
@@ -28,5 +28,5 @@ Los archivos de hojas de edición masiva recuperados y los archivos de error cre
 
 >[!MORELIKETHIS]
 >
->* [Administración de datos de campaña mediante hojas de edición masiva](bulksheet-about.md)
+>* [Acerca de la administración de datos de campaña mediante hojas de edición masiva](bulksheet-about.md)
 >* [Cargar una hoja de edición masiva o un archivo de error corregido](bulksheet-upload.md)
