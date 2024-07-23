@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configuración de campaña'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 977314f07d1299d9b94680861b046161bb444228
+source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -82,23 +82,19 @@ Al agregar una campaña con eCPC a un portafolio optimizado de Search, Social y 
 
 * *[!UICONTROL Maximize Clicks]:* (campañas de búsqueda, visualización y compras) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para maximizar los clics. De manera opcional, escriba **[!UICONTROL Max CPC]** (costo por clic) para asegurarse de que la red publicitaria no pague más de una cantidad determinada por cada clic. **Precaución:** Al agregar una campaña con esta estrategia a un portafolio, las ofertas dependen de la ponderación de los clics, no del objetivo del portafolio.
 
-* *[!UICONTROL Maximize Conversion Value]:* (campañas de búsqueda, rendimiento máximo y compras inteligentes) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para maximizar el valor de conversión. Si lo desea, escriba un **[!UICONTROL Target Return on Ad Spend]** (ROAS) como porcentaje. **Nota:** Utilice esta opción para campañas en portafolios híbridos, pero no en portafolios estándar.
+* *[!UICONTROL Maximize Conversion Value]:* (campañas de búsqueda, rendimiento máximo y compras inteligentes) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para maximizar el valor de conversión. Si lo desea, escriba un **[!UICONTROL Target Return on Ad Spend]** (ROAS) como porcentaje. **Nota:** Utilice esta opción para campañas en portafolios híbridos, pero no en portafolios estándar. En portafolios híbridos, Search, Social y Commerce optimizan el ROAS de Target a nivel de campaña o (cuando está disponible) a nivel de grupo de anuncios.
 
-* *[!UICONTROL Maximize Conversions]:* (campañas de búsqueda, visualización y rendimiento máximo) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para maximizar las conversiones. Opcionalmente, escriba **[!UICONTROL Target CPA]** (costo por adquisición). **Nota:** Utilice esta opción para campañas en portafolios híbridos, pero no en portafolios estándar.
+* *[!UICONTROL Maximize Conversions]:* (campañas de búsqueda, visualización y rendimiento máximo) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para maximizar las conversiones. Opcionalmente, escriba **[!UICONTROL Target CPA]** (costo por adquisición). **Nota:** Utilice esta opción para campañas en portafolios híbridos, pero no en portafolios estándar. En portafolios híbridos, Search, Social y Commerce optimizan la CPA de Target a nivel de campaña o (cuando está disponible) a nivel de grupo de anuncios.
 
-* *[!UICONTROL Target CPA]:* (Mostrar campañas; campañas de búsqueda existentes) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas según un **[!UICONTROL Target CPA]** opcional (coste por adquisición), que es la cantidad promedio de 30 días que desea pagar por una adquisición (conversión). **Nota:** Utilice esta opción para campañas en portafolios híbridos (pero no en portafolios estándar) con cualquier estrategia de gasto excepto [!UICONTROL Weekly] o [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Campañas de visualización) La red de anuncios (no Buscar, Social ni Commerce) optimiza las ofertas según un **[!UICONTROL Target CPA]** opcional (coste por adquisición), que es la cantidad promedio de 30 días que desea pagar por una adquisición (conversión). **Nota:** Utilice esta opción para campañas en portafolios híbridos (pero no en portafolios estándar) con cualquier estrategia de gasto excepto [!UICONTROL Weekly] o [!UICONTROL Google Target CPA]. En portafolios híbridos, Search, Social y Commerce optimizan la CPA de Target a nivel de campaña o (cuando está disponible) a nivel de grupo de anuncios.
 
   Los datos de oferta de CPC y posición promedio no están disponibles para campañas con esta estrategia de oferta.
-
-  Para nuevas campañas de búsqueda, [!DNL Google Ads] ha reemplazado esta estrategia de oferta con la estrategia [!UICONTROL Maximize Conversions] usando un valor [!UICONTROL Target CPA]. Para las campañas de búsqueda existentes con esta estrategia, solo puede editar el valor de destino y, al hacerlo, cambia la estrategia a la estrategia [!UICONTROL Maximize Conversions] utilizando el valor [!UICONTROL Target CPA] especificado.
 
 * *[!UICONTROL Target Impression Share]:* (Campañas de búsqueda) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para lograr un porcentaje de impresión objetivo y una posición de anuncio. De manera opcional, escriba **[!UICONTROL Target Impression Share]** como porcentaje, **[!UICONTROL Target Ad Position]** y **[!UICONTROL Max CPC]** (costo por clic). **Nota:** Esta opción no se admite en portafolios.
 
-* *[!UICONTROL Target Return on Ad Spend]:* (Campañas de visualización y de compra; campañas de búsqueda existentes) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas según un **[!UICONTROL Target ROAS]** especificado (retorno de la inversión en publicidad), especificado como porcentaje. **Nota:** Utilice esta opción para campañas en portafolios híbridos (pero no en portafolios estándar) con cualquier estrategia de gasto excepto [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* (Campañas de visualización y compras) La red de anuncios, no de búsqueda, social y Commerce, optimiza las ofertas según un **[!UICONTROL Target ROAS]** especificado (retorno de la inversión en publicidad), especificado como porcentaje. **Nota:** Utilice esta opción para campañas en portafolios híbridos (pero no en portafolios estándar) con cualquier estrategia de gasto excepto [!UICONTROL Weekly] o [!UICONTROL Google Target ROAS]. En portafolios híbridos, Search, Social y Commerce optimizan el ROAS de Target a nivel de campaña o (cuando está disponible) a nivel de grupo de anuncios.
 
   Los datos de oferta de CPC y posición promedio no están disponibles para campañas con esta estrategia de oferta.
-
-  Para nuevas campañas de búsqueda, [!DNL Google Ads] ha reemplazado esta estrategia de oferta con la estrategia [!UICONTROL Maximize Conversion Value] mediante [!UICONTROL Target Return on Ad Spend value]. Para las campañas de búsqueda existentes con esta estrategia, solo puede editar el valor de destino y, al hacerlo, cambia la estrategia a la estrategia [!UICONTROL Maximize Conversion Value] utilizando el valor [!UICONTROL Target Return on Ad Spend] especificado.
 
 * *[!UICONTROL Viewable CPM]:* (solo campañas existentes de solo lectura de [!DNL Gmail]) La red de anuncios (no Buscar, Social y Commerce) solo oferta anuncios que se miden como visibles. **Nota:** La optimización de esta estrategia no se admite en ningún tipo de portafolio.
 
