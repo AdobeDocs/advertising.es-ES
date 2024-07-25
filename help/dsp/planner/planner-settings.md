@@ -3,9 +3,9 @@ title: Configuración de los planes de alcance de TV conectado
 description: Consulte las descripciones de los ajustes de los planes de alcance de TV conectados.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 37b901093d7eff65d783e558f2e98c5d288a8286
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ ht-degree: 0%
 | Valor de meta | El valor de objetivo de la previsión. Para obtener resultados de previsión más precisos, utilice un valor > 5000 USD. | Sí |
 | Puja máxima | La cantidad máxima para pagar 1000 impresiones. Si se selecciona el tipo de medio [!UICONTROL Connected TV], escriba un valor de al menos 10 USD. | Sí |
 | Límite de frecuencia | La cantidad de veces que se debe publicar un anuncio en un hogar único.<br><br>Cuando implemente un plan y deba crear varias ubicaciones, aplique la configuración de límite de frecuencia en el nivel de paquete, no en el nivel de ubicación, para garantizar una entrega adecuada. | Sí |
-| Segmentación geográfica | Ubicaciones que se incluirán o excluirán como destinos. | Sí |
+| Segmentación geográfica | Ubicaciones que se incluirán o excluirán como destinos. Las opciones incluyen países, ciudades, estados, áreas de mercado designadas (DMA) y códigos postales (que puede a) pegar como valores separados por comas para un país especificado o b) buscar por país y ciudad). | Sí |
 | Segmentación de inventario | Orígenes de inventario que se deben incluir o excluir como destinos. Seleccione al menos una fuente o fuente. | Sí |
+| Segmentación de sitios/aplicaciones | Sitios web y aplicaciones que se incluirán o excluirán como destinatarios. Escriba una dirección URL por línea y haga clic en **[!UICONTROL Include All]** o **[!UICONTROL Exclude All]** debajo del campo de entrada. | No |
 | Segmentación de audiencia | Audiencias que se deben incluir o excluir como destinatarios. | No |
 | Duración del anuncio | La duración de los anuncios que se deben tener en cuenta en el plan. | No |
 
