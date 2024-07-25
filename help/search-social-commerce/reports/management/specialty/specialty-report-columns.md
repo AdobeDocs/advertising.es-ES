@@ -3,9 +3,9 @@ title: Columnas de informes para informes de especialidades
 description: Obtenga información sobre las columnas de datos disponibles para los informes de especialidades.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] informes) Atributo de versión de la extensión de anuncio. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] informes) El tipo de extensión de anuncio. |
 | [!UICONTROL Ad Group] | El grupo de publicidad. |
-| [!UICONTROL Ad Group ID] | El ID numérico que Search, Social y Commerce asignan al grupo de anuncios. |
+| [!UICONTROL Ad Group ID] | ID único que identifica un grupo de anuncios existente. |
 | [!UICONTROL Ad Group Name] | El grupo de publicidad. |
 | [!UICONTROL Ad Group Status] | El estado del grupo de anuncios: *[!UICONTROL Active]*, *[!UICONTROL Paused]* o *[!UICONTROL Deleted]*. |
 | [!UICONTROL Ad Title] | ([!UICONTROL MSA Ad Extension] informes) El título del anuncio. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | Las impresiones que ha recibido dividen el número estimado de impresiones que tenía derecho a recibir. |
 | [!UICONTROL Impressions] | El número de impresiones de publicidad durante el intervalo de fechas especificado. |
 | [!UICONTROL Keyword] | La palabra clave.<br><br><b>Nota:</b> Si el informe incluye datos de grupos de anuncios en campañas de búsqueda con contenido habilitado, esta columna incluirá los nombres de grupos de anuncios aplicables, como &quot;(contenido de grupos de anuncios) Su nombre de grupo de anuncios&quot;. Para una ubicación de destino de sitio en una campaña de búsqueda, esta columna no tiene ningún valor. |
-| [!UICONTROL Keyword ID] | El ID numérico que Search, Social y Commerce asignan a la palabra clave. |
+| [!UICONTROL Keyword ID] | Identificador exclusivo que identifica una palabra clave existente. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Identificador numérico que la red de anuncios asigna a la extensión de anuncio. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Atributo de versión de la extensión de anuncio. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) El tipo de extensión de anuncio. |
