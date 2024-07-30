@@ -3,9 +3,9 @@ title: Configuración nativa de anuncios en pantalla
 description: Consulte las descripciones de la configuración de anuncios disponibles para los anuncios en pantalla nativos.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Todos los píxeles de seguimiento de evento existentes para la ubicación se adj
 
 Los siguientes ajustes se aplican a cada píxel que cree o edite.
 
-**[!UICONTROL Integration Event]:** Evento que déclencheur el píxel que se va a activar. Para este tipo de anuncio, la única opción es *[!UICONTROL Impression]*.
+**[!UICONTROL Integration Event]:** Evento que déclencheur el píxel que se va a activar.
 
 **[!UICONTROL Pixel Type]:** Indica si el píxel es *[!UICONTROL IMG URL]* (archivo de imagen de 1x1 píxeles), *[!UICONTROL HTML]* o *[!UICONTROL JavaScript URL]*.
 
