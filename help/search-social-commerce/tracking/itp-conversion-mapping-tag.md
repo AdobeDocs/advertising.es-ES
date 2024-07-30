@@ -3,7 +3,7 @@ title: La etiqueta de asignación de conversión de Adobe Advertising
 description: Obtenga información acerca de la etiqueta de asignación de conversiones basada en JavaScript para ITP 2.2, que permite a Adobe Advertising rastrear un evento de conversión que se produce en una página que no es la página de aterrizaje.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Para utilizar la etiqueta de asignación de conversión:
 
       * reemplaza `{AMO User ID}` por el identificador de usuario único de su cuenta de Search, Social y Commerce.
 
-Si no conoce el valor de su ID de organización de o su ID de usuario de Search, Social e Commerce, consulte con su administrador de cuentas de Adobe.
+Si no conoce el valor de su ID de organización de o su ID de usuario de Search, Social e Commerce, pregunte al equipo de cuenta de Adobe.
 
 ### Ejemplos
 
