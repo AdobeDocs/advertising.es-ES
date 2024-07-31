@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -124,6 +124,7 @@ Las siguientes son razones comunes para la falta de datos sobre clics.
 |---|---|---|
 | Error en el proceso que recupera los datos de clics de la cuenta de publicidad. | No hay una forma sistemática de detectar este problema, pero es posible que observe que una campaña no muestra información de coste o clics aunque la cuenta de publicidad gastó dinero. | Póngase en contacto con el equipo de cuenta de Adobe.<br><br>Si faltan datos durante más de 24 horas, excluya esas fechas de las previsiones de costos hasta que se recuperen los datos. El equipo de cuenta de Adobe puede excluir las fechas. |
 | Un problema de facturación entre el anunciante y la red de anuncios impide que la cuenta de publicidad gaste. | No hay una forma sistemática de detectar este problema, pero puede observar que una campaña no muestra información sobre costos o clics. | Si sabe que una cuenta publicitaria no pudo gastar debido a un problema de facturación, excluya esas fechas de las previsiones de costes. El equipo de cuenta de Adobe puede excluir las fechas. |
+
 +++
 
 +++Los datos de rendimiento son diferentes de los datos del editor de red de publicidad.
