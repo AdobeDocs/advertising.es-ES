@@ -3,9 +3,9 @@ title: Inventario admitido
 description: Haga referencia a las redes de publicidad, los tipos de campaña y los tipos de publicidad admitidos.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ A continuación se indican las redes de anuncios compatibles, los tipos de campa
 
 >[!TIP]
 >
->La siguiente tabla es amplia. Si es necesario, utilice la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido. También puede ocultar temporalmente la tabla de contenido o el panel derecho si hace clic en ![Ocultar panel izquierdo](/help/search-social-commerce/assets/hide-left-pane.png "Ocultar panel izquierdo") en la parte superior del panel izquierdo o en ![Ocultar panel derecho](/help/search-social-commerce/assets/hide-right-pane.png "Ocultar panel derecho") en la parte superior del panel derecho.
+>La siguiente tabla es amplia. Para expandir el área de visualización, puede ocultar temporalmente la tabla de contenido y el panel derecho haciendo clic en ![Ocultar panel izquierdo](/help/dsp/assets/hide-left-pane.png "Ocultar panel izquierdo") en la parte superior del panel izquierdo y ![Ocultar panel derecho](/help/dsp/assets/hide-right-pane.png "Ocultar panel derecho") en la parte superior del panel derecho. También puede utilizar la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido.
 
 | Source | Red | Tipo de campaña | Tipo de anuncio | Sincronizar y ver | Crear/editar | Seguimiento[^1] | Optimización | Informe[^2] | Soporte técnico de Adobe Analytics[^3] |
 |----|----|----|----|----|----|----|----|----|----|

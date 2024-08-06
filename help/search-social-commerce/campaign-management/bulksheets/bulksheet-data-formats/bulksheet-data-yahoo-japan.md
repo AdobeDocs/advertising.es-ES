@@ -3,9 +3,9 @@ title: Datos de hoja de edición masiva para  [!DNL Yahoo! Japan] cuentas
 description: Haga referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para  [!DNL Yahoo! Japan] cuentas.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2668'
+source-wordcount: '2672'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->La siguiente tabla es amplia. Si es necesario, utilice la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido. También puede ocultar temporalmente la tabla de contenido o el panel derecho si hace clic en ![Ocultar panel izquierdo](/help/search-social-commerce/assets/hide-left-pane.png "Ocultar panel izquierdo") en la parte superior del panel izquierdo o en ![Ocultar panel derecho](/help/search-social-commerce/assets/hide-right-pane.png "Ocultar panel derecho") en la parte superior del panel derecho.
+>La siguiente tabla es amplia. Para expandir el área de visualización, puede ocultar temporalmente la tabla de contenido y el panel derecho haciendo clic en ![Ocultar panel izquierdo](/help/dsp/assets/hide-left-pane.png "Ocultar panel izquierdo") en la parte superior del panel izquierdo y ![Ocultar panel derecho](/help/dsp/assets/hide-right-pane.png "Ocultar panel derecho") en la parte superior del panel derecho. También puede utilizar la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido.
 
 | Campo | Campaign | Grupo de publicidad | Palabra clave | Anuncio de texto | Destino de ubicación de Campaign | Descripción |
 |----|----|----|----|----|----|----|

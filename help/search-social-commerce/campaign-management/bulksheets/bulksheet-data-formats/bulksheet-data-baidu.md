@@ -3,9 +3,9 @@ title: Se requieren datos de hojas de edición masiva para  [!DNL Baidu] cuentas
 description: Haga referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para  [!DNL Baidu] cuentas.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->La siguiente tabla es amplia. Si es necesario, utilice la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido. También puede ocultar temporalmente la tabla de contenido o el panel derecho si hace clic en ![Ocultar panel izquierdo](/help/search-social-commerce/assets/hide-left-pane.png "Ocultar panel izquierdo") en la parte superior del panel izquierdo o en ![Ocultar panel derecho](/help/search-social-commerce/assets/hide-right-pane.png "Ocultar panel derecho") en la parte superior del panel derecho.
+>La siguiente tabla es amplia. Para expandir el área de visualización, puede ocultar temporalmente la tabla de contenido y el panel derecho haciendo clic en ![Ocultar panel izquierdo](/help/dsp/assets/hide-left-pane.png "Ocultar panel izquierdo") en la parte superior del panel izquierdo y ![Ocultar panel derecho](/help/dsp/assets/hide-right-pane.png "Ocultar panel derecho") en la parte superior del panel derecho. También puede utilizar la barra de desplazamiento situada en la parte inferior de la tabla para ver todo el contenido.
 
 | Campo | Campaign | Grupo de publicidad | Palabra clave | Anuncio de texto | Destino de ubicación | Descripción |
 |----|----|----|----|----|----|----|
