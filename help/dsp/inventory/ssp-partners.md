@@ -3,7 +3,7 @@ title: Socios de SSP
 description: Consulte la lista de la plataforma de suministro (SSP) disponible y los socios de intercambio abierto.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 9c8303ff4c6d4558421268e4d98d370abe7bdf9e
+source-git-commit: 5887acf9b0bb301b4a9df41b82134e89158ae514
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -24,30 +24,30 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 
 | SSP enumerado | Compañía | ID de licencia | Asistencia programática garantizada | Región | Moneda admitida | Inventario compatible |
 | --- | --- | --- | --- | --- | --- | --- |
-| [!DNL AdColony] (anteriormente [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | Global | USD | Mostrar escritorio y móvil<br><br>Escritorio de vídeo y móvil |
+| [!DNL AdColony] (anteriormente [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | — | Global | USD | Mostrar escritorio y móvil<br>Escritorio de vídeo y móvil |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Compatibilidad con PG | Global | USD, EUR, GBP | Audio para escritorio y móvil |
-| [!DNL AppNexus] | [!DNL Xandr] | ID del asiento de vídeo: 9094<br>ID del asiento de visualización: 3939 | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
-| [!DNL DailyMotion] |  | [!DNL TubeMogul] o Adobe Advertising | — | EE. UU. + EMEA | USD, EUR | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
-| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | — | US/CA | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL AppNexus] | [!DNL Xandr] | ID del asiento de vídeo: 9094<br>ID del asiento de visualización: 3939 | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL DailyMotion] |  | [!DNL TubeMogul] o Adobe Advertising | — | EE. UU. + EMEA | USD, EUR | Muestre equipos de escritorio y dispositivos móviles<br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | — | US/CA | USD | Muestre equipos de escritorio y dispositivos móviles<br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL FreeWheel] (anteriormente [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD, EUR, AUD, GBP | Escritorio de vídeo, móvil y CTV |
-| [!DNL Google Authorized Buyers] (anteriormente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC y EU - 89185975 | Compatibilidad con PG | Global | USD, BRL | Equipo de escritorio con audio y equipo móvil<br><br>Equipo de escritorio con pantalla y equipo móvil<br><br>Equipo de escritorio con video, equipo móvil y CTV |
-| [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br><br>Escritorio de vídeo y móvil |
-| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL Google Authorized Buyers] (anteriormente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC y EU - 89185975 | Compatibilidad con PG | Global | USD, BRL | Equipo de escritorio con audio y equipo móvil<br>Equipo de escritorio con pantalla y equipo móvil<br>Equipo de escritorio con video, equipo móvil y CTV |
+| [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br>Escritorio de vídeo y móvil |
+| [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | AUD, USD | Escritorio de vídeo, móvil y CTV |
-| [!DNL Magnite DV+] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD | Equipo de escritorio con audio y equipo móvil<br><br>Equipo de escritorio con pantalla y equipo móvil<br><br>Equipo de escritorio con video, equipo móvil y CTV |
-| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
-| [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br><br>Pantalla nativa<br><br>Escritorio de vídeo, móvil y CTV |
-| [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Todas las monedas | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL Magnite DV+] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD | Equipo de escritorio con audio y equipo móvil<br>Equipo de escritorio con pantalla y equipo móvil<br>Equipo de escritorio con video, equipo móvil y CTV |
+| [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL PubMatic New ortb2.2] | [!DNL Pubmatic] | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL ShareThrough] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br>Pantalla nativa<br>Escritorio de vídeo, móvil y CTV |
+| [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Todas las monedas | Muestre equipos de escritorio y dispositivos móviles<br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL SmartStream] |  | Adobe Advertising | — | EMEA | EUR, USD | Video escritorio y móvil |
 | [!DNL Sortable] | [!DNL Freestar] | Adobe Advertising | — | CA | USD | Mostrar escritorio y móvil |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | Video escritorio y móvil |
-| [!DNL Teads] |  | [!DNL TubeMogul] o Adobe Advertising | — | Vídeo de salida = Global<br>Display = NA + EMEA | USD | Mostrar escritorio y móvil<br><br>Escritorio de vídeo y móvil |
+| [!DNL Teads] |  | [!DNL TubeMogul] o Adobe Advertising | — | Vídeo de salida = Global<br>Display = NA + EMEA | USD | Mostrar escritorio y móvil<br>Escritorio de vídeo y móvil |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Visualización nativa |
-| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL Triton] |  | Adobe Advertising | Compatibilidad con PG | Global | USD | Audio para escritorio y móvil |
 | [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | EE. UU. + EMEA | USD | Escritorio de vídeo, móvil y CTV |
-| [!DNL Yahoo] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL Yahoo] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br>equipos de escritorio con video, equipos móviles y CTV |
 
 >[!MORELIKETHIS]
 >
