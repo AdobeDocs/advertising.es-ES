@@ -3,9 +3,9 @@ title: Política de requisitos de anuncios de Adobe Advertising
 description: Consulte la directiva para conocer los requisitos de los anuncios.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 703031baac908e2024d877f031ff164370528383
+source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2190'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Los anuncios que incluyan contenido de las siguientes categorías están permiti
 
 * **Alcohol**. Los anuncios que anuncien o promocionen bebidas alcohólicas y compañías alcohólicas solo están permitidos si cumplen con las leyes aplicables y las normas de autorregulación. Por ejemplo, los anuncios de alcohol no pueden dirigirse a menores y solo pueden ejecutarse en países que permiten anuncios de alcohol. Sin embargo, en ningún caso los anuncios podrán glamorizar o representar un consumo excesivo de alcohol.
 
-* **Cannabis**. Los anuncios que anuncien o promocionen compañías de cannabis legales por el estado o cannabis en las provincias canadienses permitidas solo se permiten si cumplen con las leyes estatales o canadienses aplicables, respectivamente, sujeto a (a) entrar previamente en el [!DNL Adobe Rider] aplicable, (b) cumplir con [!DNL Adobe] requisitos de diligencia debida, y (c) según lo permitido por los proveedores de medios y las leyes aplicables. Los anuncios para cannabis legal por el estado pueden no ofrecer o promocionar productos específicos para la venta, y deben estar segmentados geográficamente al estado apropiado. Todos los anuncios de cannabis permitidos no pueden (1) ser atractivos para menores, o (2) glamorizar o representar el consumo de cannabis. &quot;Provincias canadienses permitidas&quot; significa las provincias de Alberta, Columbia Británica, Manitoba, Nuevo Brunswick, Terranova y Labrador, Nueva Escocia, Nunavut, Ontario, Isla del Príncipe Eduardo, Quebec, Saskatchewan y Yukón.
+* **Cannabis**. Los anuncios que anuncien o promocionen compañías de cannabis legales para el estado o cannabis en las provincias canadienses permitidas solo se permiten si cumplen con las leyes estatales o canadienses aplicables, respectivamente, sujeto a (a) entrar previamente en el [!DNL Adobe Rider] aplicable, (b) cumplir con [!DNL Adobe] requisitos de diligencia debida y \(c\) según lo permitido por los proveedores de medios y las leyes aplicables. Los anuncios para cannabis legal por el estado pueden no ofrecer o promocionar productos específicos para la venta, y deben estar dirigidos al estado apropiado. Todos los anuncios de cannabis permitidos no pueden (1) ser atractivos para menores, o (2) glamorizar o representar el consumo de cannabis. &quot;Provincias canadienses permitidas&quot; significa las provincias de Alberta, Columbia Británica, Manitoba, Nuevo Brunswick, Terranova y Labrador, Nueva Escocia, Nunavut, Ontario, Isla del Príncipe Eduardo, Quebec, Saskatchewan y Yukón.
 
 * **Apuestas**. Los anuncios que contengan contenido relacionado con juegos de azar, incluyendo la promoción de casinos, loterías y otros juegos de azar (ya sea en línea o fuera de línea) solo se pueden promocionar de acuerdo con las leyes aplicables. Sin embargo, ningún anuncio puede glamorizar o mostrar comportamientos de juego excesivos o tergiversar las probabilidades o los riesgos de los juegos de azar.
 
-* **Cáñamo**. Los anuncios de productos derivados de cáñamo y cáñamo deben cumplir con todas las leyes estatales y federales aplicables, a reserva de (a) entrar en el [!DNL Adobe Rider] aplicable con anterioridad, (b) cumplir con los requisitos de diligencia debida de [!DNL Adobe], y (c) según lo permitido por los proveedores de medios y las leyes aplicables. Los anuncios de productos derivados del cáñamo y del cáñamo no pueden (1) hacer declaraciones relacionadas con la salud, (2) dirigirse a poblaciones vulnerables, incluidos menores de edad, o (3) glamorizar o representar el tabaquismo, o (4) sugerir que tales productos tienen efectos intoxicantes similares al cannabis.
+* **Cáñamo**. Los anuncios para productos derivados de cáñamo y cáñamo deben cumplir con todas las leyes estatales y federales aplicables, sujeto a (a) entrar en el [!DNL Adobe Rider] aplicable con anterioridad, (b) cumplir con los requisitos de diligencia debida de [!DNL Adobe], y \(c\) según lo permitido por los proveedores de medios y las leyes aplicables. Los anuncios de productos derivados del cáñamo y del cáñamo no pueden (1) hacer declaraciones relacionadas con la salud, (2) dirigirse a poblaciones vulnerables, incluidos menores de edad, o (3) glamorizar o representar el tabaquismo, o (4) sugerir que tales productos tienen efectos intoxicantes similares al cannabis.
 
 * **Anuncios farmacéuticos**. Los anuncios que promocionan medicamentos recetados y de venta libre deben cumplir con las leyes, regulaciones y pautas federales y locales aplicables.
 
