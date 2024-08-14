@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5a967894f2aa9e26dde981c771dce10b5d9e84f7
+source-git-commit: 20c2001ff66a75c64364450c0f0841cb8403d326
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3849'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 14 de agosto de 2024 | [!UICONTROL Placements] | DSP ya no actualiza los recuentos de segmentos de [!DNL Audiences by Oracle (BlueKai)] segmentos, que expirarán a finales de septiembre, y todos los recuentos se reducirán gradualmente a cero (0). | — |
 | 30 de julio de 2024 | [!UICONTROL Placements] | DSP A partir del 14 de agosto, los recuentos de segmentos de [!DNL Audiences by Oracle (BlueKai)] segmentos dejarán de actualizarse, lo que dejará de actualizarse a finales de septiembre y todos los recuentos se reducirán gradualmente a cero (0). | — |
 | | [!UICONTROL Packages] | La configuración del paquete ahora incluye una opción para &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; cuando la opción [!UICONTROL Activate Custom Flighting] está habilitada. Cuando la opción está activada, cualquier presupuesto restante del vuelo anterior se añade automáticamente al presupuesto existente para el vuelo siguiente. No puede editar manualmente la columna [!UICONTROL Rollover] cuando está seleccionada la opción de rollover automático.<br><br>En la vista [!UICONTROL Packages] y en la vista [Nombre del paquete] > [!UICONTROL Flights], la columna &quot;[!UICONTROL Interval Goal]&quot;, que muestra el objetivo de vuelo actual, incluye el presupuesto de rollover. | Consulte &quot;[Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)&quot;. |
 | 12 de julio de 2024 | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | En las vistas [!UICONTROL Campaigns], [!UICONTROL Packages] y [!UICONTROL Placements], se cambió el nombre de algunas métricas en función de los comentarios:<ul><li>En los gráficos de tendencias, se cambió el nombre de &quot;Gasto requerido&quot; por &quot;Referencia de gasto&quot; y el nombre de &quot;Gasto objetivo&quot; por &quot;Objetivo de gasto&quot;.</li><li>En tablas de datos:<ul><li>Se cambió el nombre de &quot;Gasto requerido de ayer&quot; y &quot;Gasto requerido de hoy&quot; por &quot;Referencia de gasto de ayer&quot; y &quot;Referencia de gasto de hoy&quot;.</li><li>La información sobre herramientas &quot;Porcentaje de ritmo de ayer y % de ritmo de hoy&quot; se cambió a &quot;Gasto bruto de ayer como % del valor de referencia de gasto de ayer&quot; y &quot;Gasto bruto de hoy como % del valor de referencia de gasto de ayer&quot;.</li><li>Se cambió el nombre de &quot;Gasto objetivo de ayer&quot; y &quot;Gasto objetivo de hoy&quot; por &quot;Objetivo de gasto de ayer&quot; y &quot;Objetivo de gasto de hoy&quot;.</li></ul></li><ul> | Consulte &quot;[Crear una vista de columna personalizada](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)&quot; y &quot;[Editar una vista de columna personalizada](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit)&quot;. |
