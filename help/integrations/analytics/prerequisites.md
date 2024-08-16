@@ -3,9 +3,9 @@ title: Requisitos previos e información clave para implementar  [!DNL Analytics
 description: Requisitos previos e información clave para implementar  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Póngase en contacto con su equipo de cuenta de Adobe para conocer los entornos 
 
 * El seguimiento de conversión de [!DNL Analytics for Advertising] en Adobe Analytics usa una ventana retrospectiva de seguimiento configurable (de forma predeterminada, 60 días). Los informes de Adobe Advertising reflejan las conversiones del sitio y la participación a través del final de esta ventana retrospectiva de seguimiento.
 
-* Se admiten todos los tipos de anuncios. Sin embargo, no todos los entornos de publicidad son compatibles.
+* Se admiten todos los tipos de anuncios. <!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * En este momento se realiza un seguimiento de las conversiones de [!DNL Analytics], que solo se atribuyen a un visitante del mismo dispositivo.
 
