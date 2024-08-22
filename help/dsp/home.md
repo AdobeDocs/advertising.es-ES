@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ec9bf9bb6e12255548d4d8c869b87a78226bbf1e
+source-git-commit: 6264132ebeacc960548e818d023dc232a293abc1
 workflow-type: tm+mt
 source-wordcount: '3906'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
-| 22 de agosto de 2024 | [!UICONTROL Packages] | Ahora puede descargar la configuración de uno o más paquetes en formato XLSX ([!DNL Microsoft Excel] hoja de cálculo) para su revisión. La hoja de cálculo incluye una pestaña independiente con información de vuelo. DSP A continuación, puede realizar cambios en los campos de selección de ambas pestañas y cargarlos de nuevo en todos los campos a la vez, a la vez, para que se puedan cargar de nuevo en los campos de selección a la vez. | Consulte &quot;[Revisar y editar la configuración del paquete con hojas de cálculo](/help/dsp/campaign-management/packages/package-qa.md).&quot; |
+| 22 de agosto de 2024 | [!UICONTROL Packages] | Ahora puede descargar la configuración de uno o más paquetes en formato XLSX ([!DNL Microsoft Excel] hoja de cálculo) para su revisión. La hoja de cálculo incluye una pestaña independiente con información de vuelo. DSP A continuación, puede realizar cambios en la mayoría de los campos de ambas pestañas y cargarlos de nuevo en todos los campos a la vez, a la vez, para que se puedan cargar de nuevo en los campos de la. | Consulte &quot;[Revisar y editar la configuración del paquete con hojas de cálculo](/help/dsp/campaign-management/packages/package-qa.md).&quot; |
 | 14 de agosto de 2024 | [!UICONTROL Placements] | DSP ya no actualiza los recuentos de segmentos de [!DNL Audiences by Oracle (BlueKai)] segmentos, que expirarán a finales de septiembre, y todos los recuentos se reducirán gradualmente a cero (0). | — |
 | 30 de julio de 2024 | [!UICONTROL Placements] | DSP A partir del 14 de agosto, los recuentos de segmentos de [!DNL Audiences by Oracle (BlueKai)] segmentos dejarán de actualizarse, lo que dejará de actualizarse a finales de septiembre y todos los recuentos se reducirán gradualmente a cero (0). | — |
 | | [!UICONTROL Packages] | La configuración del paquete ahora incluye una opción para &quot;[!UICONTROL Automatically rollover remaining flight budget to next flight]&quot; cuando la opción [!UICONTROL Activate Custom Flighting] está habilitada. Cuando la opción está activada, cualquier presupuesto restante del vuelo anterior se añade automáticamente al presupuesto existente para el vuelo siguiente. No puede editar manualmente la columna [!UICONTROL Rollover] cuando está seleccionada la opción de rollover automático.<br><br>En la vista [!UICONTROL Packages] y en la vista [Nombre del paquete] > [!UICONTROL Flights], la columna &quot;[!UICONTROL Interval Goal]&quot;, que muestra el objetivo de vuelo actual, incluye el presupuesto de rollover. | Consulte &quot;[Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)&quot;. |
