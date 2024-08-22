@@ -3,16 +3,16 @@ title: Revisar y editar la configuración de ubicación mediante hojas de cálcu
 description: Obtenga información sobre cómo revisar y editar la configuración de ubicación de claves mediante hojas de cálculo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Revisar y editar la configuración de ubicación mediante hojas de cálculo
 
-Puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX (hoja de cálculo de Excel) para su revisión. Utilice esta función para revisar rápidamente detalles como los siguientes:
+Puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX ([!DNL Microsoft Excel] hoja de cálculo) para su revisión. Utilice esta función para revisar rápidamente detalles como los siguientes:
 
 * A qué audiencias se dirige la campaña.
 * Cuando las ubicaciones empiezan a entregarse y cuando se detienen.
@@ -42,7 +42,7 @@ DSP A continuación, puede realizar cambios en los campos seleccionados y cargar
 
    * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
 
-   El archivo se guarda en la carpeta Descargas del explorador. Consulte &quot;[Columnas en hojas de cálculo descargadas/cargadas](#qa-sheet-columns)&quot; para obtener una lista de las columnas incluidas.
+   El archivo se guarda en la carpeta Descargas del explorador. Consulte &quot;[Columnas de colocación en hojas de cálculo descargadas/cargadas](#qa-sheet-columns)&quot; para obtener una lista de las columnas incluidas.
 
 ## Descargar configuración para una o más ubicaciones
 
@@ -56,7 +56,7 @@ DSP A continuación, puede realizar cambios en los campos seleccionados y cargar
 
 1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
 
-El archivo se guarda automáticamente en la carpeta de descarga del explorador. Consulte &quot;[Columnas en hojas de cálculo descargadas/cargadas](#qa-sheet-columns)&quot; para obtener una lista de las columnas incluidas.
+El archivo se guarda automáticamente en la carpeta de descarga del explorador. Consulte &quot;[Columnas de colocación en hojas de cálculo descargadas/cargadas](#qa-sheet-columns)&quot; para obtener una lista de las columnas incluidas.
 
 ## Configuración de carga para todas las ubicaciones en una campaña
 

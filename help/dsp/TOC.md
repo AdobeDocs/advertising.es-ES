@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: b89da28d56cb80d105fd8bebd9c734dd5230c4c3
+source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 3%
    + Paquetes {#packages}
       + [Acerca de la administración de paquetes](/help/dsp/campaign-management/packages/package-about.md)
       + [Crear un paquete](/help/dsp/campaign-management/packages/package-create.md)
+      + [Revisión y edición de la configuración del paquete mediante hojas de cálculo](/help/dsp/campaign-management/packages/package-qa.md)
       + [Edición de un paquete](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicación de un paquete](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Adjuntar una ubicación a un paquete](/help/dsp/campaign-management/packages/package-attach-placement.md)
