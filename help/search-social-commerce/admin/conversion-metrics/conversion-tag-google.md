@@ -3,9 +3,9 @@ title: Crear una etiqueta de conversión para  [!DNL Google Ads]
 description: Aprenda a crear una etiqueta de conversión  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Una vez que agregue las etiquetas al sitio web y comiencen a activarse, [!DNL Go
 
 **[!UICONTROL View Through Conversion Window]:** Número máximo de días después de que un usuario vea los anuncios para los que se han registrado conversiones de visualización. Para campañas de búsqueda, visualización y compra, la ventana puede durar entre 1 y 90 días. Seleccione un número o seleccione **[!UICONTROL Custom]** e introduzca un número.
 
-**[!UICONTROL Attribution Model]:** [Cuánto crédito recibe cada interacción de publicidad](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*, *[!UICONTROL Last click]*, *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* o *[!UICONTROL Position based]*.
+**[!UICONTROL Attribution Model]:** [Cuánto crédito recibe cada interacción de publicidad](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]* o *[!UICONTROL Last click]*. **Nota:** Las acciones de conversión que antes usaban los modelos *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* o *[!UICONTROL Position based]*, que ahora no son compatibles, ahora usan el modelo *[!UICONTROL Data driven]*.
 
 >[!MORELIKETHIS]
 >
