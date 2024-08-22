@@ -3,9 +3,9 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: a4ab8bdeea2d15f14a7ef84c1055888ecc77014b
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,51 @@ ht-degree: 0%
 
 **[!UICONTROL Report Type]** El tipo de informe: *[!UICONTROL Custom]* (que incluye la mayoría de las opciones disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* o *[!UICONTROL Household Conversions]*.
 
-## Sección [!UICONTROL Apply Filters]
+## Sección [!UICONTROL Report range]
+
+Esta sección determina los datos que se incluyen en el informe. Para configurar las fechas de la programación del informe, consulte la sección &quot;[!UICONTROL Report run schedule]&quot;.
 
 **[!UICONTROL Timezone]:** Zona horaria para los informes.
 
 **[!UICONTROL Observe Daylight Savings Time]:** considera el horario de verano en los horarios informados.
 
-**\[Intervalo de fecha\]:** Intervalo de fecha para el cual generar datos. El número de días disponibles varía según el informe y las dimensiones seleccionadas. Elija uno:
+**Intervalo:** Intervalo de fecha para el que se van a generar datos. El número de días disponibles varía según el informe y las dimensiones seleccionadas. Elija uno:
 
-* **[!UICONTROL Previous N days]:** Incluye datos para un número específico de días antes de hoy.
-
-* **[!UICONTROL Custom]:** Incluye datos entre fechas de inicio y finalización específicas. Para informar desde el día anterior, seleccione **[!UICONTROL Present]**.
+* **[!UICONTROL Last Calendar Week]:** Incluye datos de la semana anterior.
 
 * **[!UICONTROL Last Calendar Month]:** Incluye datos del mes calendario anterior.
+
+* **[!UICONTROL Custom Range]:** Incluye datos entre fechas de inicio y finalización específicas. Para informar desde el día anterior, seleccione **[!UICONTROL Present]**.
+
+## Sección [!UICONTROL Report run schedule]
+
+Esta sección determina las fechas en las que se ejecuta el informe. Para configurar las fechas en las que se incluirán los datos del informe, consulte la sección &quot;[!UICONTROL Report range]&quot;.
+
+**\[Programación\]:** Cuándo generar el informe:
+
+* *[!UICONTROL Immediately]*: agrega inmediatamente el informe a la cola de informes.
+
+  >[!NOTE]
+  >
+  >También puede [ejecutar un informe personalizado en cualquier momento](report-run-now.md) desde la vista [!UICONTROL Reports].
+
+* *[!UICONTROL On]\&lt;Date\>:* Ejecuta el informe en una fecha especificada para su finalización antes de las 09:00 en la zona horaria de la cuenta.
+
+* *[!UICONTROL Recurring]:* Ejecuta el informe de acuerdo con una programación durante un período de tiempo especificado.
+
+   * **\[Programación\]:** La frecuencia con la que se ejecutará el informe:
+
+      * *Diario* para ejecutar el informe cada N días. Por ejemplo, para ejecutar el informe cada dos semanas (14 días), seleccione esta opción y escriba **14**.
+
+      * *Semanalmente* para ejecutar el informe en los días de la semana especificados. Por ejemplo, para ejecutar el informe todos los lunes y viernes, selecciona esta opción y las casillas de verificación que aparecen junto a **Lunes** y **Viernes**.
+
+      * *Mensual* para ejecutar el informe en un día numérico específico del mes, del 1 al 30. Por ejemplo, para ejecutar el informe el primer día de cada mes, seleccione esta opción y escriba **1**.
+
+   * **Desde**: Primera fecha en que se puede ejecutar el informe. Según la programación especificada, la primera instancia de informe puede producirse después de esta fecha.
+
+   * **Hasta**: La fecha de caducidad del informe, que puede ser dentro de cuatro meses calendario. Antes de que caduque un informe, todos los destinos de correo electrónico especificados reciben una alerta de correo electrónico siete días y un día antes de la fecha de caducidad. Para mantener el informe más tiempo, cambie esta fecha.
+
+## Sección [!UICONTROL Apply Filters]
 
 **[!UICONTROL Add Filters]:** (Opcional) Dimensiones adicionales mediante las cuales filtrar los datos, independientemente de si las dimensiones se incluyen o no como columnas en el informe. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* y *[!UICONTROL Video Duration]*.
 
@@ -120,17 +152,23 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 ## Sección [!UICONTROL Add Report Destinations]
 
-**[!UICONTROL Destination Type]:** Elija uno de los siguientes tipos de destino:
-
-* *[!UICONTROL S3]:* Para enviar el informe completado a una o varias ubicaciones de [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]), que debe especificar en el campo **[!UICONTROL Destination Name]**.
-* *[!UICONTROL sFTP]:* Para enviar el informe completado a una o más ubicaciones SFTP, que debe especificar en el campo **[!UICONTROL Destination Name]**.
-* *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe especificar en el campo **[!UICONTROL Destination Name]**.
-* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe especificar en el campo **[!UICONTROL Destination Name]**.
-* *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
+**[!UICONTROL Destination Type]:** Dónde entregar los informes completados y las notificaciones de error. Una vez guardado el informe, no se puede cambiar el tipo de destino.
 
 >[!NOTE]
 >
-> Una vez guardado el informe, no se puede cambiar el tipo de destino.
+>Siempre puede descargar los informes completados desde la vista [!UICONTROL Reports] > [!UICONTROL Custom Reports].
+
+* *[!UICONTROL None]:* Para no entregar ningún informe o notificación.
+
+* *[!UICONTROL S3]:* Para enviar el informe completado a una o más [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) ubicaciones, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL sFTP]:* Para enviar el informe completado a una o más ubicaciones SFTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
 **[!UICONTROL Email]:** (solo tipo de destino de correo electrónico) Para cada dirección, ingrese la dirección y haga clic en **+**.
 
@@ -148,26 +186,13 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
       El nuevo destino ya está disponible en la lista de destinos existentes y, opcionalmente, puede agregarlo al informe.
 
-**[!UICONTROL Frequency]:** (Para cada [!UICONTROL Destination Name]) La frecuencia con la que se enviará el informe al destino: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* o *[!UICONTROL Monthly]*.
-
-**[!UICONTROL Start Day]:** (Para cada [!UICONTROL Destination Name] con un [!UICONTROL Frequency] de *[!UICONTROL Weekly]* o *[!UICONTROL Monthly]*) Qué día generar el informe. Para los informes semanales, seleccione el día de la semana. Para los informes mensuales, seleccione el día numérico del mes.
-
-## Sección [!UICONTROL Save Report]
-
-**[!UICONTROL When to Generate]:** Cuándo generar el informe: *[!UICONTROL On Schedule]* o *[!UICONTROL Run Now]*. Los informes programados se entregan a las 09:00 en el huso horario de la cuenta.
-
-**[!UICONTROL End Date]:** La fecha de caducidad del informe, que puede ser dentro de cuatro meses. Antes de que caduque un informe, todos los destinatarios de correo electrónico especificados reciben una alerta por correo electrónico siete días y un día antes de la fecha de caducidad. Para prolongar el informe, cambie la fecha de caducidad en la configuración del informe.
-
->[!NOTE]
->
->Puede [ejecutar un informe personalizado en cualquier momento](report-run-now.md) desde la vista [!UICONTROL Reports].
-
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
 >* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
 >* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
+>* [Descargar un informe personalizado](/help/dsp/reports/report-download.md)
 >* [Ejecutar un informe personalizado](/help/dsp/reports/report-run-now.md)
 >* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
 >* [Acerca de los destinos del informe](/help/dsp/reports/report-destinations/report-destination-about.md)
