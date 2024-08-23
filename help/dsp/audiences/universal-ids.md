@@ -3,7 +3,7 @@ title: Compatibilidad con la activación de ID universales
 description: Obtenga información acerca de la compatibilidad para importar segmentos de ID universales, crear segmentos personalizados para rastrear ID universales y convertir otros identificadores de usuario en segmentos de origen a ID universales para una segmentación sin cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 202f4ae8e6633672b7af12937f0b35da5052f7fc
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -24,7 +24,7 @@ DSP DSP La compatibilidad con ID universales y basados en personas para la segme
 
 * Puede crear segmentos personalizados que hagan un seguimiento de los usuarios asociados con los ID universales ID5 que están expuestos a anuncios de dispositivos de escritorio y móviles y que visitan páginas web específicas. ID5 utiliza un modelo probabilístico para asignar un ID derivado de varias señales de usuario y señales de explorador. Para obtener instrucciones, consulte &quot;[Crear e implementar un segmento personalizado](/help/dsp/audiences/custom-segment-create.md)&quot;.
 
-* Los segmentos de terceros de algunos proveedores pueden incluir automáticamente ID universales, además de los usuarios rastreados mediante cookies o ID de dispositivo. Por ejemplo, los segmentos de [!DNL Eyeota] pueden incluir automáticamente ID5, y los segmentos de [!DNL Lotame] pueden incluir ID2.0. Los detalles del segmento incluyen el tamaño de cada tipo. Se aplica la tarifa de uso habitual para cada segmento, que se indica junto al nombre del segmento; no se cobran tarifas adicionales por los ID5.
+* Los segmentos de terceros de algunos proveedores pueden incluir automáticamente ID universales, además de los usuarios rastreados mediante cookies o ID de dispositivo. Por ejemplo, los segmentos de [!DNL Eyeota] pueden incluir automáticamente ID5, y los segmentos de [!DNL Lotame] pueden incluir ID UID2.0. Los detalles del segmento incluyen el tamaño de cada tipo. Se aplica la tarifa de uso habitual para cada segmento, que se indica junto al nombre del segmento; no se cobran tarifas adicionales por los ID5.
 
 ## Creación de informes por tipo de ID universal
 
@@ -106,9 +106,9 @@ Para [!DNL RampIDs], póngase en contacto con el equipo de la cuenta de Adobe pa
 
 ### Causas de variación {#universal-ids-data-variances-causes}
 
-* ID de correo electrónico con hash traducidos a ID5:
+* Todos los segmentos:
 
-  El modelo probabilístico tiene una varianza de error de +/- 5 %. Esto significa que puede sobrestimar o subestimar el recuento de audiencias en un 5 %.
+  El recuento de segmento a dispositivo utiliza un modelo probabilístico, que tiene una varianza de error de +/- 5 %. Esto significa que puede sobrestimar o subestimar el recuento de audiencias en un 5 %.
 
 * ID de correo electrónico con hash traducidos a [!DNL RampIDs]:
 
