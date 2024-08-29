@@ -3,9 +3,9 @@ title: Socios de SSP
 description: Consulte la lista de la plataforma de suministro (SSP) disponible y los socios de intercambio abierto.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e9001913f7b5a18ad625f32230199ee7209e1a64
+source-git-commit: 311200b84c4f2d037ecc9cc17ba49495bd523464
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL TripleLift] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Visualización nativa |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL Triton] |  | Adobe Advertising | Compatibilidad con PG | Global | USD | Audio para escritorio y móvil |
-| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | EE. UU. + EMEA | USD | Escritorio de vídeo, móvil y CTV |
+| [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | — | EE. UU. + EMEA | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL Yahoo] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 
 >[!MORELIKETHIS]
