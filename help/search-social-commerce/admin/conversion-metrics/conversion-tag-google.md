@@ -3,9 +3,9 @@ title: Crear una etiqueta de conversión para  [!DNL Google Ads]
 description: Aprenda a crear una etiqueta de conversión  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
+source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Puede crear etiquetas de conversión para las nuevas conversiones que se seguir�
 
 Para generar etiquetas de conversión para las conversiones existentes, utilice el editor de la red de publicidad.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, que se abre en la ficha **[!UICONTROL Summary]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
@@ -42,7 +42,7 @@ Una vez que agregue las etiquetas al sitio web y comiencen a activarse, [!DNL Go
 
 **[!UICONTROL Select an Account]:** La cuenta de Google Ads aplicable.
 
-**[!UICONTROL Type of Conversion]:** Tipo de conversión para realizar el seguimiento: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* o *[!UICONTROL Clicks to your number on your mobile website]*.
+**[!UICONTROL Type of Conversion]:** Tipo de conversión para realizar el seguimiento: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* o *[!UICONTROL Clicks to your number on your mobile website]*. **Nota:** *[!UICONTROL Import conversion]* se usa para un propósito diferente; consulte &quot;[Crear una acción de conversión para una  [!DNL Google Ads] conversión mejorada para posibles clientes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)&quot;.
 
 **[!UICONTROL Conversion Name]:** Un nombre único para la métrica de conversión.
 
@@ -68,4 +68,5 @@ Una vez que agregue las etiquetas al sitio web y comiencen a activarse, [!DNL Go
 
 >[!MORELIKETHIS]
 >
+>* [Cargar datos de conversión sin conexión para conversiones mejoradas](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 >* [[!DNL Google Ads] datos de conversión en Search, Social y Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)

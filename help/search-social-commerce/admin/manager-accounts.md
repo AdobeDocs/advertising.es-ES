@@ -3,9 +3,9 @@ title: Administrar credenciales para cuentas de administrador de red de anuncios
 description: Aprenda a proporcionar credenciales para sus cuentas de  [!DNL Google Ads] manager.
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ Una vez agregadas las credenciales de una cuenta de administrador, la configurac
 >[!MORELIKETHIS]
 >
 >* [Habilitar la carga de objetivos en las redes de anuncios](/help/search-social-commerce/tools/objective-upload-to-networks.md)
->* [Cargar métricas de conversión a [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+>* [Cargar métricas de conversión de búsqueda, medios sociales y seguimiento de Commerce a [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [Editar la configuración de notificaciones](/help/search-social-commerce/notifications/notification-edit.md)

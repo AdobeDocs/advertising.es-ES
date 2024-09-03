@@ -3,7 +3,7 @@ title: Administración de anuncios
 description: Obtenga información acerca de los anuncios en Search, Social y Commerce, incluidos los tipos de anuncios disponibles.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Puede crear y administrar tipos de anuncios admitidos para grupos de anuncios de
 
   Puede controlar qué productos se muestran con los anuncios de compra de [!DNL Microsoft Advertising] configurando grupos de productos independientes para el grupo de anuncios desde la vista [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
 
-  Para obtener más información acerca del flujo de trabajo para anuncios de productos o compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)&quot;.  Para obtener información adicional sobre anuncios de productos, consulte la [documentación de Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
+  Para obtener más información acerca del flujo de trabajo para anuncios de productos o compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)&quot;.  Para obtener información adicional sobre anuncios de productos, consulte la [documentación de Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 * Anuncios de búsqueda interactivos para [!DNL Google Ads] y [!DNL Microsoft Advertising] campañas en la red de búsqueda. La red de anuncios organiza dinámicamente anuncios de búsqueda adaptables basados en texto a partir de un conjunto de títulos y descripciones de anuncios, favoreciendo combinaciones que funcionan bien juntas. El anuncio incluye hasta tres titulares, dos descripciones y una URL personalizable desde la URL base y los campos opcionales ruta1 y ruta2. Si lo desea, puede anclar títulos de anuncios y descripciones a posiciones específicas.
 

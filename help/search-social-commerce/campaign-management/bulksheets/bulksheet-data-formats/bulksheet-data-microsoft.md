@@ -3,7 +3,7 @@ title: Se requieren datos de hojas de edición masiva para  [!DNL Microsoft Adve
 description: Haga referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para  [!DNL Microsoft Advertising] cuentas.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -230,7 +230,7 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 
 ### Campos de publicidad de productos (compras)
 
-Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html)&quot;.
+Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;.
 
 Para este tipo de anuncio, utilice la fila &quot;[!UICONTROL Creative (except RSA)]&quot; en el cuadro de diálogo [!UICONTROL Download Bulksheet].
 

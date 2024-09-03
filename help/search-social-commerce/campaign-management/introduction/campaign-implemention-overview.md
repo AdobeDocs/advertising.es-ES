@@ -3,7 +3,7 @@ title: Información general sobre la implementación de cuentas y campañas de r
 description: Obtenga información acerca de las tareas relacionadas con la configuración, sincronización y administración de las cuentas de red de anuncios.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads y solo cuentas de Yandex) Introduzca datos de componentes individuales directamente en la interfaz. Para la mayoría de las campañas y tipos de publicidad, puede crear datos en los niveles de campaña, grupo de publicidad y palabra clave, ubicación y nivel de publicidad individuales.
 
-      Sin embargo, algunos tipos de campañas y anuncios requieren flujos de trabajo únicos. Vea las instrucciones para configurar [[!DNL Microsoft Advertising] campañas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] anuncios dinámicos de búsqueda](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] campañas de rendimiento máximo](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md) y [[!DNL Google Ads] campañas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
+      Sin embargo, algunos tipos de campañas y anuncios requieren flujos de trabajo únicos. Vea las instrucciones para configurar [[!DNL Microsoft Advertising] campañas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] anuncios dinámicos de búsqueda](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] campañas de rendimiento máximo](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) y [[!DNL Google Ads] campañas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md).
 
    1. ([!DNL Naver] solo cuentas de solo seguimiento) Cargue [archivos de hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) con datos para replicar las campañas, los grupos de anuncios y las palabras clave existentes en Search, Social y Commerce sin publicarlos en [!DNL Naver].
 

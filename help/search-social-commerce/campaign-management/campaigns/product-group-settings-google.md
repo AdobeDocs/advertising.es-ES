@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] configuración de grupo de productos'
 description: Haga referencia a la configuración de  [!DNL Google Ads] grupos de productos de compras.
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -52,4 +52,4 @@ Esta plantilla anula las plantillas de los niveles superiores y se utiliza sólo
 >* [Acerca de los grupos de productos de compras](product-group-about.md)
 >* [Administrar grupos de productos de compras](product-group-manage.md)
 >* [Filtros de productos de campañas de compras](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Implementar [!DNL Google Ads] campañas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [Implementar [!DNL Google Ads] campañas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)

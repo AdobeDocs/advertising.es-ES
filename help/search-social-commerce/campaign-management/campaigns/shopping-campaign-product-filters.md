@@ -3,7 +3,7 @@ title: Filtros del producto de campaña de compras
 description: Consulte los filtros de producto disponibles para grupos de productos de compras.
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -27,8 +27,8 @@ Consulte también la ayuda de [!DNL Google Ads] &quot;[Administrar una campaña 
 
 >[!MORELIKETHIS]
 >
->* [Implementar [!DNL Google Ads] campañas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
->* [Implementar [!DNL Microsoft Advertising] campañas de compras](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Implementar [!DNL Google Ads] campañas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [Implementar [!DNL Microsoft Advertising] campañas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 >* [Acerca de los grupos de productos de compras](product-group-about.md)
 >* [Administrar grupos de productos de compras](product-group-manage.md)
 >* [[!DNL Google Ads] configuración del grupo de productos](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
