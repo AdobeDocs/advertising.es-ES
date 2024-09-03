@@ -3,9 +3,9 @@ title: Los datos utilizados para los informes
 description: Obtenga información sobre los distintos tipos de datos disponibles en las vistas de datos y los informes personalizados.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
+source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -45,15 +45,16 @@ Al generar informes, puede elegir cómo atribuir datos de conversión en una ser
 Según la regla de atribución que especifique para el informe, los datos de cada tipo de informe estarán disponibles para las fechas siguientes.
 
 | Grupo de informes | Informe | Fechas para las que hay datos disponibles |
-|---|---|---|
+| --- | --- | --- |
 | [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | A partir del 15 de mayo de 2021.<br><br><b>Excepción:</b> Los datos de métricas de prominencia están disponibles a partir del 8 de septiembre de 2022. |
 | | Todos los demás [!UICONTROL Basic Reports] | Los 36 meses anteriores.<br><br><b>Excepción:</b> Los datos de métricas de prominencia están disponibles a partir del 8 de septiembre de 2022. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | Los 45 días previos. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | Los dos (2) meses anteriores más el mes actual. |
 | [!UICONTROL Assist Reports] | Todo | Los 18 meses anteriores. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | El año anterior. |
-| | [!UICONTROL RSA Assets Report] | A partir del 10 de agosto de 2022. |
+| | [!UICONTROL Google Asset Group Performance Report] | Sin limitaciones |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | Los últimos 180 días. |
+| | [!UICONTROL RSA Assets Report] | A partir del 10 de agosto de 2022. |
 | | Todos los demás [!UICONTROL Specialty Reports] | Los dos (2) meses anteriores. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | Los 18 meses anteriores. |
 | [!UICONTROL Change History Report] | — | Los 31 días anteriores. |

@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configuración de campaña'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
+source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2503'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,9 @@ Puede escribir texto o seleccionar recursos de su [!UICONTROL Asset Library], pe
 >[!NOTE]
 >Las señales de audiencia son diferentes de [objetivos de audiencia en el nivel de campaña y de grupo de publicidad](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Add new asset group]:** Permite especificar otro grupo de recursos.
+**[!UICONTROL Primary Status]:** (campo de solo lectura para grupos de recursos existentes en campañas Máximo rendimiento) Por qué el grupo de recursos está sirviendo o no a plena capacidad. Tiene en cuenta el estado del grupo de activos, así como otras señales, como las aprobaciones de políticas y de calidad. Los valores pueden incluir *ELEGIBLE,* *LIMITADO,* *NO APTO,* *PAUSADO,* *PENDIENTE,* *ELIMINADO,* *DESCONOCIDO,* o *NO ESPECIFICADO.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+
+**[!UICONTROL Primary Status Reason]:** (campo de solo lectura para grupos de recursos existentes en campañas Máximo rendimiento) Detalles adicionales sobre el estado principal del grupo de recursos. Los valores pueden incluir *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDIENTE,* *CAMPAIGN_REMOVED,* *DESCONOCIDO,* o *NO ESPECIFICADO.*
 
 ## [!UICONTROL Conversion Goals]
 
