@@ -3,9 +3,9 @@ title: Formato de las etiquetas de seguimiento de conversión de JavaScript vers
 description: Consulte el formato de las etiquetas de seguimiento de conversión de JavaScript versión 3.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ El siguiente formato es para sitios que utilizan HTTPS. Para los sitios que util
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
+        window.id5PartnerId=<Your_ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -54,6 +55,8 @@ El siguiente formato es para sitios que utilizan HTTPS. Para los sitios que util
 donde:
 
 * `<ef-userid>` es un identificador de usuario numérico y único que Search, Social y Commerce asigna al anunciante.
+
+* `<Your_ID5_PartnerID>` es el ID de socio ID5 de la organización, que la organización recibe después de firmar un acuerdo con [!DNL ID5]. DSP Incluya esta variable solo cuando la organización use la función de combinación de datos y tenga [segmentos personalizados que hagan un seguimiento de los usuarios asociados con los ID universales ID5](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` es la conversión para realizar el seguimiento. Por ejemplo, si está realizando el seguimiento de una conversión denominada &quot;registro&quot;, la etiqueta incluiría el parámetro `ev_registration=<registration>` y tendría que pasar los ingresos reales de cada transacción (como `ev_registration=1`). Cuando se realiza el seguimiento de varias propiedades, se unen mediante un signo &amp; (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por ejemplo, `ev_registration=1&ev_sale=12.99`). **Nota:** El nombre de propiedad no puede incluir caracteres especiales.
 
