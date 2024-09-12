@@ -3,9 +3,9 @@ title: Preguntas frecuentes sobre la conversión de Adobe Advertising y las etiq
 description: Consulte una comparación de las etiquetas de conversión de Adobe Advertising y de seguimiento de vista de página.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Lo siguiente se aplica a las etiquetas de seguimiento de conversión de Adobe Ad
 | ---- | ---- | ---- | ---- | ---- |
 | Se puede utilizar en la misma página web que otra versión de JS | — | — | — | n/a |
 | Permite el uso de varias etiquetas con los mismos ID de usuario del anunciante en la misma página web | Sí | Sí | Sí | — |
-| Permite el uso de varias etiquetas con distintos ID de usuario de anunciante en la misma página web | Sí | Sí | No | No |
+| Permite el uso de varias etiquetas con distintos ID de usuario de anunciante en la misma página web | Sí | Sí | — | — |
 | Lo utiliza la extensión de Adobe Advertising para Adobe Experience Platform y es compatible con otras etiquetas generadas mediante Experience Platform | Sí | Sí | — | — |
 | Permite que se realice un seguimiento de todas las conversiones que se originan a partir de [!DNL Apple Safari] y [!DNL Mozilla Firefox] cuando se usan con la etiqueta de asignación de conversión JavaScript de Adobe Advertising | Sí | Sí | Sí | — |
 
