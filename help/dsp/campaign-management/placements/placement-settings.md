@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -346,15 +346,13 @@ Al seleccionar ID heredados e ID universales, se da preferencia de oferta a los 
    * Para seleccionar manualmente un intervalo, haga clic dentro de una celda y, opcionalmente, arrastre para seleccionarlo.
 1. Haga clic en **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (opcional; disponible para anunciantes configurados con [!DNL Proximic by Comscore] y [!DNL Oracle Data Cloud] segmentos) Nombres de segmento o ID específicos de [!DNL Proximic by Comscore] y [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]) que se incluirán como destinos. Se pueden aplicar tarifas adicionales para esta función. Para activar esta función y configurar segmentos de temas, póngase en contacto con el equipo de cuenta de Adobe.
-
-**Nota:** [!DNL Oracle] dejará de usar su negocio de publicidad el 30 de septiembre de 2024, incluidos todos los servicios de [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]).
+**[!UICONTROL Topic Targeting]:** (opcional; disponible para anunciantes configurados con [!DNL Proximic by Comscore] segmentos) Nombres de segmento o ID específicos de [!DNL Proximic by Comscore] que se incluirán como destinos. Se pueden aplicar tarifas adicionales para esta función. Para activar esta función y configurar segmentos de temas, póngase en contacto con el equipo de cuenta de Adobe.
 
 Para especificar la segmentación de temas:
 
 1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
 1. Especifique los segmentos que desea segmentar:
-   1. En la columna izquierda, seleccione el socio (*[!UICONTROL Comscore]* o *[!UICONTROL Grapeshot]*).
+   1. En la columna izquierda, seleccione el socio: (*[!UICONTROL Comscore]*).
    1. En el campo de entrada, introduzca los nombres o ID de los segmentos.
 1. (Opcional) Para descargar un archivo CSV con la información del tema en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
 1. Haga clic en **[!UICONTROL Save]**.
@@ -363,7 +361,7 @@ Para especificar la segmentación de temas:
 >
 >* La segmentación de temas limita el inventario en el que se puede pujar, por lo que debe utilizar la segmentación de temas solo para un pequeño porcentaje de la compra general.
 >
->* Configure cualquier objetivo negativo dentro del segmento en [!DNL Proximic by Comscore] o [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]).
+>* Configure cualquier objetivo negativo dentro del segmento en [!DNL Proximic by Comscore].
 
 **[!UICONTROL Device Targeting]:** (Opcional) Información específica del dispositivo, incluidos los tipos de dispositivos, fabricantes, sistemas operativos, exploradores y tipos de conectividad, que se incluirán y excluirán como destinos. Los tipos varían según el tipo de ubicación. Para especificar la segmentación del dispositivo:
 
@@ -431,11 +429,7 @@ Para especificar la segmentación de temas:
 
 **[!UICONTROL Pre-bid viewability]:**
 
-Qué filtros de visibilidad de oferta previa aplican [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) y [!DNL Integral Ad Science] para solicitar la ubicación. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración. Se pueden aplicar tarifas adicionales.
-
->[!NOTE]
->
->[!DNL Oracle] dejará de funcionar en publicidad el 30 de septiembre de 2024, incluidos todos los servicios de [!DNL MOAT].
+Qué filtros de visibilidad de oferta previa se aplican por [!DNL DoubleVerify] y [!DNL Integral Ad Science] para aplicar a la ubicación. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración. Se pueden aplicar tarifas adicionales.
 
 **[!UICONTROL Ads.txt filtering]:**
 

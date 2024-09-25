@@ -3,9 +3,9 @@ title: Configuración de campaña
 description: Consulte las descripciones de las configuraciones de campaña disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 0fbdc7e38026d71483c2de1406a4110066690130
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -117,8 +117,6 @@ DSP **[!UICONTROL Cross Device Level]:** (de solo lectura para las campañas exi
 * **[!UICONTROL IAS Account ID (AnID)]:** (Anunciantes con sus propias cuentas de [!DNL IAS]; opcional) Identificador de cuenta de [!DNL IAS] de la organización, a la que [!DNL IAS] facturará directamente por su uso.
 
 * **[!UICONTROL IAS Team ID]:** (Anunciantes con sus propias cuentas de [!DNL IAS]; opcional) Identificador de equipo de la cuenta de [!DNL IAS] de la organización, a la que [!DNL IAS] facturará directamente por su uso. <!-- verify -->
-
-**[!UICONTROL MOAT]:** (opcional) habilita la medición e informe de [!DNL MOAT] de la visibilidad, el fraude, la seguridad de la marca y la verificación de la audiencia. Se aplican tarifas adicionales. **Nota:** [!DNL Oracle] dejará de usar su negocio de publicidad el 30 de septiembre de 2024, incluidos todos los servicios de [!DNL MOAT].
 
 #### Verificación de audiencia
 

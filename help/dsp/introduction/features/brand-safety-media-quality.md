@@ -3,9 +3,9 @@ title: Seguridad de marca y calidad de medios
 description: Obtenga más información sobre la seguridad de la marca y las funciones de calidad de los medios.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: a927c073fd27e0b2c84bd1929eb4d6d233a29cb5
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP proporciona un conjunto de funciones de protección de marca par
 
 Nuestro equipo de Vigilancia del Fraude trabaja en estrecha colaboración con socios líderes del sector, como [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] y [!DNL WhiteOps], para revisar cuidadosamente el inventario en nuestra plataforma. DSP A través de la administración proactiva de nuestro suministro, garantiza que todos los anunciantes en toda la plataforma estén protegidos del tráfico no humano (bots, rastreadores, tráfico de centros de datos y fraude) y que se ofrezca solo en contextos seguros para la marca.
 
-Además de proporcionar una gestión de calidad central, creemos en el empoderamiento de los anunciantes para que diseñen los controles que se alineen con su marca. DSP ofrece integraciones con [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud] y [!DNL Peer39], lo que garantiza que cada anunciante pueda elegir el nivel deseado de protección contra fraudes, filtrado contextual y segmentación de palabras clave.
+Además de proporcionar una gestión de calidad central, creemos en el empoderamiento de los anunciantes para que diseñen los controles que se alineen con su marca. DSP ofrece integraciones con [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] y [!DNL Peer39], lo que garantiza que cada anunciante pueda elegir el nivel deseado de protección contra fraudes, filtrado contextual y segmentación de palabras clave.
 
 ## Iniciativas de calidad
 
@@ -110,15 +110,11 @@ Para obtener más información sobre la funcionalidad, póngase en contacto dire
 
 ### Visibilidad de pujas previas {#pre-bid-viewability}
 
-Los filtros de visibilidad de ofertas previas con tecnología de nuestros socios líderes del sector [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) y [!DNL Integral Ad Science] permiten a los anunciantes asegurarse de que sus campañas cumplan los objetivos de rendimiento de visibilidad deseados en el inventario de vídeos y pantallas.
-
->[!NOTE]
->
->[!DNL Oracle] dejará de funcionar en publicidad el 30 de septiembre de 2024, incluidos todos los servicios de [!DNL MOAT].
+Los filtros de Capacidad de visualización de ofertas previas con los socios líderes del sector [!DNL DoubleVerify] y [!DNL Integral Ad Science] permiten a los anunciantes asegurarse de que sus campañas cumplan los objetivos de rendimiento de Capacidad de visualización deseados en el inventario de vídeos y pantallas.
 
 Puede establecer filtros de visibilidad predeterminados para cada anunciante<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> y, opcionalmente, [personalizar la configuración para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Se pueden aplicar tarifas adicionales al utilizar esta función.
 
-![Logotipo de DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo de Advertising de Oracle](/help/dsp/assets/oracle-advertising-logo.png) ![Logotipo integral de Ad Science](/help/dsp/assets/ias-logo.png)
+![Logotipo DoubleVerify](/help/dsp/assets/doubleverify-logo.png) ![Logotipo integral de Ad Science](/help/dsp/assets/ias-logo.png)
 
 ### Segmentación de atención y medición
 
@@ -132,17 +128,13 @@ Se aplican tarifas adicionales por cada función por separado.
 
 ### Segmentación de temas
 
-DSP La segmentación de temas le permite segmentar o bloquear listas de palabras clave aprovechando los socios contextuales líderes en el sector [!DNL Comscore] y [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]). La segmentación de temas le ayuda a garantizar que los anuncios se publiquen siempre en un entorno que se ajuste a su marca, ya sea bloqueando contenido perjudicial o asegurando un gasto en un contexto que garantice un mayor resultado.
-
->[!NOTE]
->
->[!DNL Oracle] dejará de funcionar en publicidad el 30 de septiembre de 2024, incluidos todos los servicios de [!DNL Oracle Data Cloud] (anteriormente [!DNL Grapeshot]).
+DSP La segmentación de temas le permite segmentar o bloquear listas de palabras clave mediante el uso de nuestro socio contextual líder del sector [!DNL Comscore]. La segmentación de temas le ayuda a garantizar que los anuncios se publiquen siempre en un entorno que se ajuste a su marca, ya sea bloqueando contenido perjudicial o asegurando un gasto en un contexto que garantice un mayor resultado.
 
 El direccionamiento de temas requiere que cree segmentos de temas personalizados directamente con la plataforma del socio. Una vez creados los segmentos, puede [segmentar o excluir un ID de segmento en la sección [!UICONTROL Audience Targeting] para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). Se pueden aplicar tarifas adicionales para esta función.
 
 Para crear una cuenta de [!DNL Comscore] y segmentos de temas personalizados, puede solicitar un inicio de sesión para [!DNL Activation Segment Manager] en [https://agents.comscore.com](https://agents.comscore.com). Consulte el [[!DNL Comscore] centro de ayuda](https://comscoreactivation.zendesk.com/hc/) para obtener instrucciones completas sobre la configuración de segmentos personalizados. Las tarifas para los segmentos personalizados están visibles en [!DNL Segment Manager] a medida que los crea.
 
-![Logotipo de Comscore](/help/dsp/assets/comscore-logo.png) ![Logotipo de Grapeshot](/help/dsp/assets/oracle-grapeshot-logo.png)
+![Logotipo de Comscore](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 
