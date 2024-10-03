@@ -3,9 +3,9 @@ title: Tipos de informes de rendimiento en las vistas de Campaign Management
 description: Obtenga información acerca de los datos de informes incluidos en las vistas de administración de campañas.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Para ver una campaña con más detalle, haga clic en su nombre.
 
 #### Indicadores de alerta
 
-*característica de Beta*
-
 Una columna &quot;[!UICONTROL Alerts]&quot; indica cuándo una campaña, o cualquier entidad secundaria debajo de ella, tiene un problema. Un icono [!UICONTROL Pulse Panel] a la derecha de la barra de herramientas también indica si hay alertas disponibles para las entidades que se muestran. Consulte &quot;[Ver alertas](campaign-alerts.md)&quot; para obtener más información.
 
 ## Informes de campaña única {#single-campaign-reporting}
@@ -61,8 +59,6 @@ Consulte la sección [&quot;Visualización de gráfico&quot; en las métricas en
 En cada ficha de entidad, cada fila incluye métricas de ritmo y envío de forma predeterminada, pero puede [cambiar la vista de columna](campaign-data-views-manage.md#column-view-change) o incluso [crear una vista de columna personalizada](campaign-data-views-manage.md#column-view-create) para aplicarla a todas las subfichas de la campaña. Puede [personalizar aún más las tablas de datos](campaign-data-views-manage.md#data-tables-manage) de maneras adicionales. Cada tabla de datos incluye una fila [!UICONTROL Subtotals], que muestra la suma o el valor promedio de cada métrica en todas las filas visibles.
 
 #### Indicadores de alerta
-
-*característica de Beta*
 
 Una columna &quot;[!UICONTROL Alerts]&quot; indica cuándo un paquete, una ubicación o un anuncio (o cualquier entidad secundaria de un paquete o una ubicación) tiene un problema. Una columna &quot;[!UICONTROL Alerts]&quot; indica cuándo una campaña, o cualquier entidad secundaria debajo de ella, tiene un problema. Un icono [!UICONTROL Pulse Panel] a la derecha de la barra de herramientas también indica si hay alertas disponibles para las entidades que se muestran. Consulte &quot;[Ver alertas](campaign-alerts.md)&quot; para obtener más información.
 
