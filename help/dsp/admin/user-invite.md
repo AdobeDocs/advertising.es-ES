@@ -3,9 +3,9 @@ title: Invitar a un nuevo usuario a su cuenta de organización
 description: Obtenga información sobre cómo invitar a un nuevo usuario a unirse a la cuenta.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
+source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Invitar a un nuevo usuario a su cuenta de organización
 
 Los usuarios administradores pueden invitar a un nuevo usuario a la cuenta. Una vez que el usuario acepta la invitación, puede acceder a todos los anunciantes de la cuenta. Los nuevos usuarios tienen acceso de solo lectura de forma predeterminada.
+
+El vínculo de invitación caduca dentro de 24 horas. Si el vínculo caduca, puede volver a enviar la invitación.
 
 Si es necesario, puede anular la invitación de un usuario con una invitación pendiente.
 
