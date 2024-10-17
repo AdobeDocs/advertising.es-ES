@@ -3,7 +3,7 @@ title: Información general sobre la implementación de Search, Social y Commerc
 description: Aprender
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
 
       >[!NOTE]
       >
-      >Search, Social y Commerce siguen realizando un seguimiento de los datos de las campañas que no están asignadas a los portafolios, y los informes correspondientes, pero no optimizan las ofertas para ellos.
+      >Search, Social y Commerce siguen realizando un seguimiento de los datos de las campañas que no están asignadas a los portafolios, y los informes correspondientes, pero no les proporcionan una optimización.
 
    1. Una vez que haya suficientes datos disponibles para crear una línea de base, el equipo podrá iniciar el portafolio, lo que permitirá a Search, Social y Commerce optimizar las ofertas o los presupuestos del portafolio en función del tipo de optimización.
 

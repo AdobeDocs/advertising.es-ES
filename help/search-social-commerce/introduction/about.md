@@ -3,9 +3,9 @@ title: Acerca de Búsqueda de Adobe Advertising, Social y Commerce
 description: Obtenga información acerca de Search, Social y Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 3c1f534ef13b040f450d21753e91a14efd20bfaf
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Como parte del Adobe Advertising, Advertising Search, Social y Commerce combinan
 
 ## Tecnología impulsada por IA para la optimización de anuncios
 
-Search, Social y Commerce automatizan y optimizan la administración de ofertas y presupuestos de campañas de publicidad en redes de publicidad dentro de los límites de los objetivos comerciales, las métricas, el presupuesto y otras restricciones comerciales de un anunciante. Rastrea el historial de clics, costes y conversiones de cada una de las palabras clave y anuncios de un anunciante, así como información sobre el panorama de ofertas en cada canal de marketing. Con un enfoque de teoría de portafolios, la capacidad de optimización compara todas las asignaciones posibles del presupuesto en un portafolio completo de campañas para determinar las ofertas y los presupuestos de campaña que arrojarán el mayor rendimiento posible del gasto en publicidad y ejecuta las ofertas y los presupuestos en consecuencia. La capacidad de optimización supervisa constantemente las palabras clave y los anuncios de un anunciante, ajustando dinámicamente las ofertas y los presupuestos a medida que cambia el mercado.
+Search, Social y Commerce automatizan y optimizan la administración de ofertas y presupuestos de campañas de publicidad en redes de publicidad dentro de los límites de los objetivos comerciales, las métricas, el presupuesto y otras restricciones comerciales de un anunciante. Rastrea el historial de clics, costes y conversiones de cada una de las palabras clave y anuncios de un anunciante, así como información sobre el panorama de ofertas en cada canal de marketing. Con un enfoque de teoría de portafolios, la capacidad de optimización compara todas las asignaciones posibles del presupuesto en un portafolio completo de campañas para determinar las ofertas y los presupuestos de campaña que arrojarán el mayor rendimiento posible del gasto en publicidad y, en consecuencia, ejecuta las ofertas, los presupuestos y los objetivos de estrategia de oferta. La capacidad de optimización supervisa constantemente las palabras clave y los anuncios de un anunciante, ajustando dinámicamente las ofertas, los presupuestos y los objetivos a medida que cambia el mercado.
 
 Hay disponibles varios tipos de optimización, lo que permite que Search, Social y Commerce, y la red de publicidad tengan distintos grados de control sobre la optimización de ofertas. Según el tipo de optimización, puede optimizar sus portafolios mediante las conversiones rastreadas por Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] u otras fuentes empresariales de origen.
 

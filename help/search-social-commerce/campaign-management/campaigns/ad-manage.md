@@ -3,9 +3,9 @@ title: Administración de anuncios
 description: Aprenda a crear y administrar anuncios.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Puede crear, editar y cambiar el estado de las publicidades desde la vista [!UIC
 >[!NOTE]
 >
 >* Los siguientes tipos de anuncio son *mutables*, lo que significa que puede cambiar la copia o la imagen del anuncio y conservar el mismo ID: todos los tipos de anuncio de [!DNL Google Ads] excepto los anuncios de búsqueda dinámica y [!DNL Microsoft Advertising] los anuncios de texto expandido.
->* Todos los demás anuncios admitidos son *no mutables*, lo que significa que al cambiar la copia o imagen del anuncio se eliminará el anuncio existente y se creará uno nuevo. El rendimiento del nuevo anuncio puede ser volátil durante un par de semanas, mientras que Search, Social y Commerce recopilan datos suficientes para optimizar las ofertas.
+>* Todos los demás anuncios admitidos son *no mutables*, lo que significa que al cambiar la copia o imagen del anuncio se eliminará el anuncio existente y se creará uno nuevo. El rendimiento del nuevo anuncio puede ser volátil durante un par de semanas, mientras que Search, Social y Commerce recopilan datos suficientes para la optimización.
 >* No puede editar el contenido de un anuncio de producto, excepto la línea de promoción de [!DNL Microsoft Advertising] anuncios de productos. Sin embargo, puede pausar o eliminar un anuncio.
 
 >[!TIP]

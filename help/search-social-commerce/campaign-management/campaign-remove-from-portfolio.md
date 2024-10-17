@@ -3,16 +3,16 @@ title: Eliminación de campañas de un portafolio
 description: Obtenga información sobre cómo eliminar campañas de un portafolio.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # Eliminación de campañas de un portafolio
 
-Al eliminar una campaña de un portafolio, Buscar, Social y Commerce no pueden optimizar las ofertas y los presupuestos para las palabras clave y los anuncios de esa campaña.
+Al eliminar una campaña de un portafolio, Buscar, Social y Commerce no pueden optimizar ofertas, presupuestos de campaña y objetivos de estrategia de oferta para esa campaña.
 
 La acción se registra en el historial de cambios del portafolio.
 

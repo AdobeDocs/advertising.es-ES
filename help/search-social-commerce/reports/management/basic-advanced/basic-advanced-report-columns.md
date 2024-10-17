@@ -3,9 +3,9 @@ title: Columnas de informes para informes básicos y avanzados
 description: Obtenga información sobre las columnas de datos disponibles para los informes básicos y avanzados.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '3743'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Group Name] | El nombre del grupo de portafolios al que pertenece el portafolio. |
 | [!UICONTROL Portfolio ID] | El ID numérico del portafolio. |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report]) La estrategia de gasto del portafolio: <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly]</i>, <i>[!UICONTROL Monthly]</i>, <i>[!UICONTROL ROI]</i>, <i>[!UICONTROL Day of week]</i>, <i>[!UICONTROL Day of month]</i>, <i>[!UICONTROL CPT]</i>, <i>[!UICONTROL Marginal CPT]</i>, <i>[!UICONTROL Google Target CPA]</i> o <i>[!UICONTROL Google Target ROAS]</i>. |
-| [!UICONTROL Portfolio Status] | El estado del portafolio:<ul><li><i>[!UICONTROL Optimize]:</i> La funcionalidad de optimización recopila datos de clics e ingresos para las campañas relevantes, modela los datos para optimizar las ofertas y optimiza las ofertas o los presupuestos de campaña (según el tipo de optimización y las estrategias de oferta de campaña).</li><li><i>[!UICONTROL Active]:</i> La funcionalidad de optimización recopila datos de clics e ingresos para las campañas relevantes y modela los datos, pero no optimiza las ofertas ni los presupuestos de campaña.</li><li><i>[!UICONTROL Inactive]:</i> La capacidad de optimización está recopilando datos de clics para las campañas relevantes con fines de creación de informes, pero no está modelando los datos ni optimizando ofertas o presupuestos de campaña.</li></ul> |
+| [!UICONTROL Portfolio Status] | El estado del portafolio:<ul><li><i>[!UICONTROL Optimize]:</i> La funcionalidad de optimización recopila datos de clics e ingresos para las campañas relevantes, modela los datos utilizados para la optimización y optimiza las ofertas, los presupuestos de campaña y los objetivos de estrategia de oferta de campaña (según el tipo de optimización y las estrategias de oferta).</li><li><i>[!UICONTROL Active]:</i> La funcionalidad de optimización recopila datos de clics e ingresos para las campañas relevantes y modela los datos, pero no optimiza las ofertas ni los presupuestos de campaña.</li><li><i>[!UICONTROL Inactive]:</i> La capacidad de optimización está recopilando datos de clics para las campañas relevantes con fines de creación de informes, pero no está modelando los datos ni optimizando ofertas o presupuestos de campaña.</li></ul> |
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report]) El objetivo diario de la estrategia de gasto del portafolio. Para las estrategias diarias/mensuales y día de la semana/mes, se muestra el objetivo del día actual. |
 | [!UICONTROL Preferred Devices] | ([!DNL Google Ads], [!DNL Microsoft Advertising] y [!DNL Yahoo! Japan Ads] campañas) Indica si la configuración del anuncio da preferencia a <i>[!UICONTROL Mobile ads]</i> o a <i>[!UICONTROL All ads]</i>. |
 | [!UICONTROL Product Group ID] | El ID numérico que la red de publicidad asigna al grupo de productos. |

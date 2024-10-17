@@ -3,9 +3,9 @@ title: Información general sobre la implementación de cuentas y campañas de r
 description: Obtenga información acerca de las tareas relacionadas con la configuración, sincronización y administración de las cuentas de red de anuncios.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
 
 1. (Anunciantes con Adobe Analytics) [Integrar Adobe Advertising y Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que puedan intercambiar datos.
 
-1. (Para permitir que Search, Social y Commerce optimicen ofertas o presupuestos de campaña; [solo tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md)) [Asigne la campaña a un portafolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Para permitir que Search, Social y Commerce optimicen ofertas, presupuestos de campaña o objetivos de estrategia de oferta de campaña; [solo tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md)) [Asigne la campaña a un portafolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Si el portafolio aún no se ha iniciado (optimizando ofertas o presupuestos), deje que la capacidad de optimización recopile datos suficientes para poder crear modelos de costes e ingresos que le permitan establecer el rendimiento de línea de base del portafolio antes de iniciarlo.
 

@@ -3,9 +3,9 @@ title: Acerca de los informes
 description: Obtenga información acerca de los informes de rendimiento, incluidos los diferentes tipos de informes disponibles y cómo automatizar los informes.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Las siguientes categorías de informes están disponibles en la vista [!UICONTRO
 | [!UICONTROL Advanced Reports] | [Informes avanzados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) proporcionan información adicional sobre la configuración de publicidad, lo que le ayuda a identificar las ventajas de cambiar la segmentación geográfica o la configuración de red. También pueden ayudarle a validar los datos de conversión de las vistas e informes de administración de campañas y portafolios con los datos de seguimiento de conversión internos del anunciante. |
 | [!UICONTROL Assist Reports] | [Informes de asistencia](/help/search-social-commerce/reports/management/assist/assist-report-about.md) proporcionan información sobre las rutas de conversión para todas las palabras clave y anuncios del anunciante. Utilizan datos capturados mediante el servicio de seguimiento de conversión de Adobes Advertising y solo se pueden generar para anunciantes con el servicio. |
 | [!UICONTROL Specialty Reports] | [Informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md) constan de datos recopilados por las redes de anuncios (en lugar de por el seguimiento de Adobe Advertising). |
-| [!UICONTROL Model Accuracy Reports] | [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de costos e ingresos que se usan para optimizar las ofertas. |
+| [!UICONTROL Model Accuracy Reports] | [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de costo e ingresos que se usan para optimizar ofertas, presupuestos de campaña y objetivos de estrategia de oferta para un portafolio. |
 
 ## Automatización de informes
 

@@ -3,9 +3,9 @@ title: Columnas de informes para informes de especialidades
 description: Obtenga información sobre las columnas de datos disponibles para los informes de especialidades.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a31e380b0cdaaf426895397a3829f41145d82a6d
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio ID] | El ID numérico del portafolio. |
 | [!UICONTROL Portfolio Name] | El portafolio. |
 | [!UICONTROL Portfolio Spend Strategy] | (Informe del Portfolio) La estrategia de gasto del portafolio: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* o *[!UICONTROL Google Target ROAS]*. |
-| [!UICONTROL Portfolio Status] | El estado del portafolio:<ul><li>*[!UICONTROL Optimize]*: la funcionalidad de optimización recopila datos de clics e ingresos de las campañas relevantes, modela los datos para optimizar las ofertas y optimiza las ofertas o los presupuestos de campaña (según el tipo de optimización y las estrategias de oferta de la campaña).</li><li>*[!UICONTROL Active]*: la funcionalidad de optimización recopila datos de clics e ingresos de las campañas relevantes y modela los datos, pero no optimiza las ofertas ni los presupuestos de las campañas.</li><li>*[!UICONTROL Inactive]*: la capacidad de optimización está recopilando datos de clics para las campañas relevantes con fines de creación de informes, pero no está modelando los datos ni optimizando ofertas o presupuestos de campaña.</li></ul> |
+| [!UICONTROL Portfolio Status] | El estado del portafolio:<ul><li>*[!UICONTROL Optimize]*: la funcionalidad de optimización recopila datos de clics e ingresos de las campañas relevantes, modela los datos utilizados para la optimización y optimiza las ofertas, los presupuestos de campaña y los objetivos de estrategia de oferta de la campaña (según el tipo de optimización y las estrategias de oferta).</li><li>*[!UICONTROL Active]*: la funcionalidad de optimización recopila datos de clics e ingresos de las campañas relevantes y modela los datos, pero no optimiza las ofertas ni los presupuestos de las campañas.</li><li>*[!UICONTROL Inactive]*: la capacidad de optimización está recopilando datos de clics para las campañas relevantes con fines de creación de informes, pero no está modelando los datos ni optimizando ofertas o presupuestos de campaña.</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Por qué el grupo de recursos está sirviendo o no a plena capacidad. Tiene en cuenta el estado del grupo de activos, así como otras señales, como las aprobaciones de políticas y de calidad. Los valores pueden incluir *ELEGIBLE,* *LIMITADO,* *NO APTO,* *PAUSADO,* *PENDIENTE,* *ELIMINADO,* *DESCONOCIDO,* o *NO ESPECIFICADO.* |
 | [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Detalles adicionales acerca del estado principal del grupo de recursos. Los valores pueden incluir *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDIENTE,* *CAMPAIGN_REMOVED,* *DESCONOCIDO,* o *NO ESPECIFICADO.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) Id. de producto del producto mostrado con el anuncio. <b>Nota:</b> El identificador se captura solamente cuando la lista de productos incluye el parámetro de seguimiento `ev_plx=<GMC product ID>`, que debe agregar en [!DNL Google Merchant Center]. |
