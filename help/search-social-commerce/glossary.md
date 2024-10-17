@@ -3,9 +3,9 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 3500e22944223997dc56dc94c24639a57e8c54f4
+source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
 workflow-type: tm+mt
-source-wordcount: '2081'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **seguimiento de conversión:** El seguimiento de conversión usa cookies para rastrear: a) los clics en los anuncios de un anunciante en las redes de anuncios y b) las transacciones resultantes en el sitio web del anunciante.
 
-**precisión de costos:** (Anunciantes con portafolios) El gasto real de un portafolio dividido por el gasto previsto.
+**precisión de costos:** (Anunciantes con portafolios) El gasto real de un portafolio dividido por el gasto previsto. [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de costo que se usan para la optimización.
 
 **modelo de costo:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice el volumen de costo, la oferta necesaria para ganar cada posición o ubicación y el CPC (búsqueda) o el CPM (visualización) para cada unidad de oferta utilizando datos históricos y técnicas de previsión matemática.
 
@@ -90,6 +90,9 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
+**semivida:** tiempo necesario para que una cantidad disminuya a la mitad de su valor inicial. Para cada portafolio, puede especificar semividas para indicar cuánto tiempo son relevantes los datos para los modelos de coste y de ingresos.
+Consulte &quot;semivida del modelo de costes&quot; y &quot;semivida del modelo de ingresos&quot;.
+
 ## I-J {#i-j}
 
 **impresión:** Una sola visualización de un anuncio en una página web, aplicación móvil u otro medio de entrega. Un usuario no tiene que ver ni hacer clic en el anuncio para que se cuente como una impresión.
@@ -120,13 +123,15 @@ ht-degree: 0%
 
 **puja mínima:** 1) La cantidad mínima a pagar por impresión o por 1000 impresiones. 2) En el caso de las palabras clave de búsqueda, la oferta mínima requerida para una palabra clave determinada en función de su puntuación de calidad. La puja mínima suele ser la cantidad mínima que puedes pagar por clic para que tu palabra clave muestre anuncios.
 
+**precisión de modelo:** (Anunciantes con portafolios) Porcentaje de precisión de los modelos de costo y de ingresos que se usan para optimizar ofertas, presupuestos y objetivos de un portafolio. Consulte &quot;modelo de coste&quot;, &quot;precisión de coste&quot;, &quot;modelo de ingresos&quot; y &quot;precisión de ingresos&quot;.  [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de costos e ingresos.
+
 ## O-P {#o-p}
 
-**objetivo:** (Anunciantes con portafolios) Un objetivo que un cliente establece para cumplir su objetivo comercial de un portafolio específico o una campaña de visualización, como maximizar los beneficios o alcanzar un objetivo de ventas específico. Un objetivo consiste en las métricas de conversión que se van a rastrear y optimizar para el portafolio, y los pesos relativos de esas métricas.
+**objetivo:** (Anunciantes con portafolios) Un objetivo que un cliente establece para cumplir su objetivo comercial de un portafolio específico o una campaña de visualización, como maximizar los beneficios o alcanzar un objetivo de ventas específico. Un objetivo consiste en las métricas de conversión que se van a rastrear y optimizar para el portafolio, y los pesos relativos de esas métricas. Las conversiones ponderadas totales para la cartera se calculan y se denominan &quot;valor objetivo&quot;.
 
 **valor del objetivo:** (Anunciantes con portafolios) Las conversiones ponderadas totales se calcularon de acuerdo con el objetivo actual del portafolio, que incluye:
 
-* todas las conversiones, teniendo en cuenta: a) las ponderaciones asignadas a cada conversión en la función objetivo de la cartera y, cuando corresponda, b) la ponderación de visualizaciones para las visualizaciones.
+* todas las conversiones, teniendo en cuenta: a) las ponderaciones asignadas a cada conversión en el objetivo de la cartera y, cuando corresponda, b) la ponderación de visualizaciones para las visualizaciones.
 
 * todos los clics, que la capacidad de optimización considera una sola conversión y se ponderan según el valor de clic del objetivo.
 
@@ -158,7 +163,7 @@ Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
 **retorno de la inversión:** (ROI) Ingresos menos costos.
 
-**precisión de ingresos:** (Anunciantes con portafolios) Los ingresos reales de un portafolio divididos por los ingresos previstos.
+**precisión de ingresos:** (Anunciantes con portafolios) Los ingresos reales de un portafolio divididos por los ingresos previstos. [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de ingresos que se usan para la optimización.
 
 **modelo de ingresos:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice la tasa de conversión y el retorno estimado para cada unidad de oferta, en función de los datos de clics (búsqueda y medios sociales) o de impresiones (visualización) y los datos de conversión del anunciante.
 
@@ -195,6 +200,8 @@ Tiene el mismo valor que la columna heredada Ingresos ponderados.
 **ponderación de visualizaciones:** (solo campañas de visualización y sociales) Una configuración de nivel de anunciante que especifica la ponderación que se debe atribuir a una conversión de visualizaciones en relación con la ponderación atribuida a una conversión basada en clics, como porcentaje.
 
 ## W-X {#w-x}
+
+**objetivo ponderado:** Consulte &quot;objetivo&quot;.
 
 **ingresos ponderados:** Consulte &quot;valor objetivo&quot;.
 
