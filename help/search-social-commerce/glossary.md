@@ -3,9 +3,9 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
+source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **seguimiento de conversión:** El seguimiento de conversión usa cookies para rastrear: a) los clics en los anuncios de un anunciante en las redes de anuncios y b) las transacciones resultantes en el sitio web del anunciante.
 
-**precisión de costos:** (Anunciantes con portafolios) El gasto real de un portafolio dividido por el gasto previsto. [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de costo que se usan para la optimización.
+**precisión de costos:** (Anunciantes con portafolios) El gasto real de un portafolio dividido por el gasto previsto. [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de coste que se usan para la optimización, y la [[!UICONTROL Model Accuracy]perspectiva](/help/search-social-commerce/advertising-insights/insight-about.md) incluye más detalles, además de recomendaciones para mejorar la precisión del modelo.
 
 **modelo de costo:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice el volumen de costo, la oferta necesaria para ganar cada posición o ubicación y el CPC (búsqueda) o el CPM (visualización) para cada unidad de oferta utilizando datos históricos y técnicas de previsión matemática.
 
@@ -123,7 +123,7 @@ Consulte &quot;semivida del modelo de costes&quot; y &quot;semivida del modelo d
 
 **puja mínima:** 1) La cantidad mínima a pagar por impresión o por 1000 impresiones. 2) En el caso de las palabras clave de búsqueda, la oferta mínima requerida para una palabra clave determinada en función de su puntuación de calidad. La puja mínima suele ser la cantidad mínima que puedes pagar por clic para que tu palabra clave muestre anuncios.
 
-**precisión de modelo:** (Anunciantes con portafolios) Porcentaje de precisión de los modelos de costo y de ingresos que se usan para optimizar ofertas, presupuestos y objetivos de un portafolio. Consulte &quot;modelo de coste&quot;, &quot;precisión de coste&quot;, &quot;modelo de ingresos&quot; y &quot;precisión de ingresos&quot;.  [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de costos e ingresos.
+**precisión de modelo:** (Anunciantes con portafolios) Porcentaje de precisión de los modelos de costo y de ingresos que se usan para optimizar ofertas, presupuestos de campaña y objetivos de estrategia de oferta para un portafolio. Consulte &quot;modelo de coste&quot;, &quot;precisión de coste&quot;, &quot;modelo de ingresos&quot; y &quot;precisión de ingresos&quot;.  [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de costos e ingresos.
 
 ## O-P {#o-p}
 
