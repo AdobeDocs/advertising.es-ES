@@ -3,9 +3,9 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
+source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Consulte &quot;semivida del modelo de costes&quot; y &quot;semivida del modelo d
 
 **puja mínima:** 1) La cantidad mínima a pagar por impresión o por 1000 impresiones. 2) En el caso de las palabras clave de búsqueda, la oferta mínima requerida para una palabra clave determinada en función de su puntuación de calidad. La puja mínima suele ser la cantidad mínima que puedes pagar por clic para que tu palabra clave muestre anuncios.
 
-**precisión de modelo:** (Anunciantes con portafolios) Porcentaje de precisión de los modelos de costo y de ingresos que se usan para optimizar ofertas, presupuestos de campaña y objetivos de estrategia de oferta para un portafolio. Consulte &quot;modelo de coste&quot;, &quot;precisión de coste&quot;, &quot;modelo de ingresos&quot; y &quot;precisión de ingresos&quot;.  [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de costos e ingresos.
+**precisión de modelo:** (Anunciantes con portafolios) Porcentaje de precisión de los modelos de costo y de ingresos que se usan para optimizar ofertas, presupuestos de campaña y objetivos de estrategia de oferta para un portafolio. Consulte &quot;modelo de coste&quot;, &quot;precisión de coste&quot;, &quot;modelo de ingresos&quot; y &quot;precisión de ingresos&quot;.
 
 ## O-P {#o-p}
 
@@ -163,7 +163,7 @@ Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
 **retorno de la inversión:** (ROI) Ingresos menos costos.
 
-**precisión de ingresos:** (Anunciantes con portafolios) Los ingresos reales de un portafolio divididos por los ingresos previstos. [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de ingresos que se usan para la optimización.
+**precisión de ingresos:** (Anunciantes con portafolios) Los ingresos reales de un portafolio divididos por los ingresos previstos. [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de ingresos que se usan para la optimización, y la [[!UICONTROL Model Accuracy]perspectiva](/help/search-social-commerce/advertising-insights/insight-about.md) incluye más detalles, además de recomendaciones para mejorar la precisión del modelo.
 
 **modelo de ingresos:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice la tasa de conversión y el retorno estimado para cada unidad de oferta, en función de los datos de clics (búsqueda y medios sociales) o de impresiones (visualización) y los datos de conversión del anunciante.
 
