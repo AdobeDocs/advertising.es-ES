@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configuración de campaña'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
+source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,7 @@ ht-degree: 0%
 
 ## \[Pantalla de creación de campaña\]
 
-**[!UICONTROL Campaign Type]:** (disponible solo durante la creación de la campaña) Dónde colocar los anuncios y qué tipos de anuncios
-la campaña puede contener:
+**[!UICONTROL Campaign Type]:** (disponible solo durante la creación de la campaña) Dónde colocar los anuncios y qué tipos de anuncios puede contener la campaña:
 
 * *[!UICONTROL Search Network Only]:* Muestra anuncios en la red de búsqueda, que incluye [!DNL Google] resultados de búsqueda y, opcionalmente, sitios asociados de búsqueda. Debe especificar palabras clave para cada grupo de publicidad.
 
@@ -196,6 +195,18 @@ por país. Si no selecciona ninguno, todos son de destino.
 
 {{$include /help/_includes/dsa-language.md}}
 
+## [!UICONTROL Customer Acquisition Goals]
+
+**[!UICONTROL Customer Acquisition]:** (Rendimiento máximo y campañas de búsqueda solamente) Cómo asignar ofertas para clientes nuevos y existentes:
+
+* *[!UICONTROL Bid equally for new and existing customers]*
+
+* *[!UICONTROL Bid higher for new customers than for existing customers]*
+
+  **Nota:** Para usar esta configuración, primero debe activar el nuevo objetivo de adquisición de cliente para la cuenta de [!DNL Google Ads] o, si corresponde, para la cuenta de administrador. El objetivo define las listas de clientes existentes aptas y el valor de conversión adicional para los clientes nuevos en la configuración de conversión. Consulte los pasos 1-2 en la ayuda de [!DNL Google Ads] &quot;[Activar el nuevo objetivo de adquisición de cliente](https://support.google.com/google-ads/answer/14007601)&quot;.
+
+* *[!UICONTROL Only bid for new customers]*
+
 ## [!UICONTROL Negative Keywords]
 
 <!-- **[!UICONTROL Negative Keywords]:** -->
@@ -368,4 +379,3 @@ Para crear un objetivo de conversión personalizado, haga clic en **[!UICONTROL 
 >[!MORELIKETHIS]
 >
 >* [Administrar campañas](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
