@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: Más información acerca de [!UICONTROL Channel Assist Report].
 exl-id: 67bce347-2776-4585-adb4-e1a4d76fbadc
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 45920c6ea9d2953c963ddf6472966b3fc3a91395
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 0%
@@ -14,8 +14,7 @@ ht-degree: 0%
 
 *Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con una integración de [!DNL Analytics]) o proporcionados en fuentes usando solo un token (`ef_id`)*
 
-[!UICONTROL Channel Assist Report] indica cómo varios canales de marketing (búsqueda o social desde Search, Social y Commerce; o visualización o vídeo desde Advertising DSP) han ayudado en el proceso de conversión. El informe muestra cómo cada patrón de tipos de eventos que provocó una o más conversiones ha contribuido a las conversiones generales. Por ejemplo, vería cuántas conversiones se produjeron cuando los usuarios vieron por primera vez una impresión de anuncio en pantalla, luego hicieron clic en un anuncio de búsqueda y, por último,
-ha realizado un pedido; o puede ver cuántas conversiones se produjeron después de que los usuarios interactuaran con más de 10 anuncios. Los tipos de evento incluyen clics de búsqueda, impresiones de visualización y clics, impresiones y clics de vídeo, y otras impresiones y otros clics. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
+[!UICONTROL Channel Assist Report] indica cómo varios canales de marketing (búsqueda o social desde Search, Social y Commerce; o visualización o vídeo desde Advertising DSP) han ayudado en el proceso de conversión. El informe muestra cómo cada patrón de tipos de eventos que provocó una o más conversiones ha contribuido a las conversiones generales. Por ejemplo, puede ver cuántas conversiones se produjeron cuando los usuarios vieron una impresión de anuncio en pantalla por primera vez, luego hicieron clic en un anuncio de búsqueda y luego hicieron un pedido, o puede ver cuántas conversiones se produjeron después de que los usuarios interactuaran con más de 10 anuncios. Los tipos de evento incluyen clics de búsqueda, impresiones de visualización y clics, impresiones y clics de vídeo, y otras impresiones y otros clics. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 
 Los resultados del informe incluyen datos agregados para cada patrón de tipos de evento en la ruta de conversión (hasta los N tipos de evento más antiguos) que se produjeron en la [ventana retrospectiva de clics del anunciante](/help/search-social-commerce/glossary.md#c-d) y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j). Por ejemplo, si selecciona un tamaño de ruta de cinco (5), el informe incluye rutas de conversión que incluyen hasta los cinco eventos más antiguos, con una fila para cada patrón de tipos de eventos rastreados (como &quot;clic en búsqueda&quot; y luego &quot;impresión de visualización&quot;). Cada fila muestra un patrón de eventos, incluido el primer evento de la ruta y el último evento que resultó en conversiones (incluso si el último evento está fuera del tamaño de ruta especificado). De forma predeterminada, las filas están en orden ascendente según el número de eventos de la ruta.
 
