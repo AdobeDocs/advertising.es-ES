@@ -3,9 +3,9 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Para aplicar uno o más filtros, haga lo siguiente:
 
 \* *[!UICONTROL Account]* solo está disponible para los siguientes tipos de informes cuando su organización está configurada para [informes entre cuentas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] y [!UICONTROL Conversion]. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información sobre la creación de informes entre cuentas.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (solo informes de Ruta de acceso a la conversión, Longitud de ruta de acceso y Tiempo de conversión) Incluye datos de clics en anuncios de búsqueda de Advertising Search, Social y Commerce.
+**[!UICONTROL Include data from Adobe Advertising SSC]:** (solo informes de Ruta de acceso a la conversión, Longitud de ruta de acceso y Tiempo de conversión) Incluye datos de clics en anuncios de búsqueda de Advertising Search, Social y Commerce. Al seleccionar esta opción, seleccione las campañas Buscar, Social y Commerce que desee incluir.
 
 ## Sección [!UICONTROL Build Your Report]
 
@@ -137,7 +137,11 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 Consulte también &quot;[Cómo se calculan las reglas de atribución para el Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
-* **Retrospectiva:** ([!UICONTROL Household Conversion] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas, y [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] informes con [!UICONTROL Conversion Metrics] columnas solamente; anunciantes con seguimiento de conversión de Adobe Advertising solamente) Dentro del informe, el número máximo de días después de un evento de impresión <!-- VERIFY THIS:  or click event for [!UICONTROL Path to Conversion], [!UICONTROL Path Length], or [!UICONTROL Time to Conversion] reports --> en los que se puede atribuir un evento de conversión a él. El valor predeterminado es *[!UICONTROL 30 days]* y el máximo es 92 días.
+* **Retrospectiva:** ([!UICONTROL Household Conversion] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas, y [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] informes con [!UICONTROL Conversion Metrics] columnas solamente; anunciantes con seguimiento de conversión de Adobe Advertising solamente) Dentro del informe, el número máximo de días después de un evento de impresión o un evento de clic (para [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] informes) en los que se puede atribuir un evento de conversión a él. El valor predeterminado es *[!UICONTROL 30 days]* y el máximo es 92 días.
+
+  >[!TIP]
+  >
+  >Si usa [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), utilice la misma ventana retrospectiva que utilizó en [!DNL Analytics].
 
 **[!UICONTROL Paths as Columns]:** (Todos los informes de [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] y [!UICONTROL Site] con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas) Qué tipos de conversiones notificar cuando se produjeron eventos anteriores en el mismo dispositivo. Se pueden incluir hasta tres tipos. Para cada tipo seleccionado, se incluye una columna independiente para cada métrica de conversión y se anexa el sufijo especificado ([!UICONTROL (tl)], [!UICONTROL (ct)] o [!UICONTROL (vt)]):
 
