@@ -1,42 +1,37 @@
 ---
-title: Revisión y edición de la configuración de ubicación mediante hojas de edición masiva
-description: Obtenga información sobre cómo revisar y editar la configuración de ubicación de claves de forma masiva mediante hojas de cálculo.
+title: Revisión y edición de la configuración de componentes de Campaign mediante hojas de edición masiva
+description: Obtenga información sobre cómo revisar y editar la configuración de paquetes, ubicaciones y anuncios clave de forma masiva mediante hojas de cálculo.
 feature: DSP Placements
-exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
 source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
 
-# Revisión y edición de la configuración de ubicación mediante hojas de edición masiva
+# Revisión y edición de la configuración de componentes de Campaign mediante hojas de edición masiva
 
-Puede descargar la configuración de una o varias ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX ([!DNL Microsoft Excel] hoja de cálculo) para su revisión. Utilice esta función para revisar rápidamente detalles como los siguientes:
+<!-- Update headers as needed once the original download become editable and we call everything bulksheets. -->
 
-* A qué audiencias se dirige la campaña.
-* Cuando las ubicaciones empiezan a entregarse y cuando se detienen.
-* Qué anuncios se adjuntan a las ubicaciones.
+Puede descargar la configuración de los paquetes, las ubicaciones y los anuncios en una sola campaña en formato XLSX ([!DNL Microsoft Excel] hoja de cálculo) para su revisión. De forma predeterminada, el archivo descargado incluye pestañas independientes para la configuración del paquete, la información de vuelo del paquete, la configuración de ubicación y las programaciones de anuncios de ubicación. Opcionalmente, puede excluir la configuración de algunos tipos de componentes de campaña.
 
-Para actualizar varias configuraciones a la vez, puede hacer una de las siguientes acciones:
+Para actualizar varias configuraciones a la vez, cargue un archivo de hoja de edición masiva válido con los cambios. Para crear la hoja de edición masiva, puede descargar una plantilla de hoja masiva en blanco que incluya fichas para cada tipo de componente de campaña, introducir o pegar ajustes nuevos o actualizados en el archivo de plantilla y, a continuación, guardar el archivo para cargarlo. Los campos editables incluyen la mayoría de las configuraciones que normalmente se pueden editar.
 
-* DSP Realice cambios en los campos seleccionados, guarde el archivo y vuelva a cargar el archivo de hoja de edición masiva en el archivo de hoja de edición de la hoja de cálculo de la hoja de cálculo de la hoja de cálculo de la hoja de cálculo de la hoja de cálculo de la hoja de cálculo de la hoja de datos de la hoja de cálculo de.
-
-* Para realizar cambios en ubicaciones adicionales y en la configuración de cualquier paquete, descargue una plantilla de hoja de edición masiva en blanco que incluya pestañas para cada tipo de componente de campaña, introduzca o pegue la configuración nueva o actualizada en el archivo de plantilla y, a continuación, cargue el archivo para realizar los cambios. Para obtener instrucciones, consulte &quot;[Revisar y editar la configuración del componente de campaña mediante hojas de edición masiva](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
-
-Los campos editables incluyen los nombres de ubicación, los estados, las ofertas, los presupuestos, las estrategias de ritmo y los límites de frecuencia.
-
->[!TIP]
+>[!NOTE]
 >
->Para editar rápidamente más campos para una o más ubicaciones, consulte &quot;[Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
+>También puede descargar y editar la configuración solo para paquetes específicos y ubicaciones específicas. Consulte &quot;[Revisar y editar la configuración de paquetes mediante hojas de edición masiva](/help/dsp/campaign-management/packages/package-qa.md)&quot; y &quot;[Revisar y editar la configuración de ubicación mediante hojas de edición masiva](/help/dsp/campaign-management/placements/placement-qa.md).&quot;
 
-## Descargar configuración para todas las ubicaciones en una campaña
+## Configuración de descarga para paquetes, ubicaciones y anuncios en una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-1. En la esquina superior derecha, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Download Setup Excel]**.
+1. En la esquina superior derecha, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]**.
 
-   Un mensaje de notificación indica cuándo está disponible la descarga del archivo.
+1. En el cuadro de diálogo [!UICONTROL QA Sheet Download], anule la selección de cualquier componente de campaña cuya configuración desee excluir del archivo descargado y, a continuación, haga clic en **[!UICONTROL Download]**.
+
+De forma predeterminada, la configuración está seleccionada para todos los componentes de la campaña.
+
+Un mensaje de notificación indica cuándo está disponible la descarga del archivo.
 
 1. Para descargar el archivo, realice una de las acciones siguientes:
 
@@ -44,48 +39,31 @@ Los campos editables incluyen los nombres de ubicación, los estados, las oferta
 
    * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
 
-   El archivo se guarda en la carpeta Descargas del explorador. Consulte &quot;[Columnas de colocación en hojas de cálculo descargadas/cargadas](#qa-sheet-columns)&quot; para obtener una lista de las columnas incluidas.
+     El archivo se guarda en la carpeta Descargas del explorador. Consulte &quot;[Columnas de colocación en hojas de cálculo descargadas/cargadas](#qa-sheet-columns)&quot; para obtener una lista de las columnas incluidas.
 
-## Descargar configuración para una o más ubicaciones
+>[!NOTE]
+>
+>No puede editar ni volver a cargar archivos de control de calidad de nivel de campaña. Para realizar cambios en la configuración del componente de campaña en estos archivos, [descargue un archivo de plantilla de configuración independiente (archivo de configuración)](#download-template), escriba o pegue filas del archivo QA en la plantilla, guarde el archivo y, a continuación, [cargue el archivo de plantilla rellenado](#upload-bulksheet-campaign-components).
 
-1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
+## Descargar una plantilla de hoja de edición masiva para una campaña {#download-template}
+
+Descargue una plantilla de hoja de edición masiva en blanco que incluya fichas para cada tipo de componente de campaña. Más tarde puede agregar filas a cualquier pestaña de la plantilla y [cargar el archivo editado](##upload-bulksheet-campaign-components) para realizar cambios en los componentes de la campaña.
 
 1. Haga clic en el nombre de la campaña.
 
-1. En el submenú, haga clic en **[!UICONTROL Placements]**.
+1. En la esquina superior derecha, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]**.
 
-1. Seleccione la casilla de verificación situada junto a cada ubicación cuya configuración desee descargar.
-
-1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
-
-   Un mensaje de notificación indica cuándo está disponible la descarga del archivo de hoja de edición masiva.
-
-1. Para descargar la hoja de edición masiva, siga uno de estos procedimientos:
-
-   * En el mensaje de notificación, haga clic en **[!UICONTROL Download].**
-
-   * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
+1. En el cuadro de diálogo [!UICONTROL Upload Bulksheet], haga clic en **[!UICONTROL Bulksheet Template].**
 
    El archivo se guarda en la carpeta Descargas del explorador. Consulte &quot;[Columnas de colocación en hojas de cálculo descargadas/cargadas](#qa-sheet-columns)&quot; para obtener una lista de las columnas incluidas.
 
+## Cargar una hoja de edición masiva con la configuración de paquete, ubicación y publicidad para una campaña{#upload-bulksheet-campaign-components}
 
-<!-- I don't think I need this here
+Cargue la configuración de paquetes, ubicaciones y publicidades en una sola campaña a la vez en una hoja de edición por lotes rellenada.
 
-## Download a Bulksheet Template {#download-template}
+1. [Descargue una plantilla de hoja de edición masiva](#download-template) si es necesario, especifique o pegue la configuración del paquete, la ubicación o el anuncio en las fichas correspondientes de una plantilla de hoja de edición masiva y, a continuación, guarde el archivo en su dispositivo o red.
 
-Download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
-
-1. Click the name of the campaign.
-
-1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
-
-   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
-
--->
-
-## Cargar una hoja de edición masiva con configuración de ubicación {#upload-bulksheet-placement}
-
-Puede cargar la configuración de sus ubicaciones, y de los anuncios y paquetes asociados con las ubicaciones, en un archivo de hoja de edición por lotes.
+   Consulte las configuraciones disponibles a continuación.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -176,28 +154,7 @@ Puede cargar la configuración de sus ubicaciones, y de los anuncios y paquetes 
 | [!UICONTROL Ads] | [!UICONTROL Ad Names] | Nombres de los anuncios adjuntos a la ubicación o *[!UICONTROL None]*. | — |
 | [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | DSP Los ID de anuncio únicos generados por el usuario de cualquier anuncio adjunto a la ubicación, separados por punto y coma. Para descargar una lista de nombres de anuncios e ID de anuncios asociados desde la vista [!UICONTROL Ads], cree una vista personalizada que incluya la métrica [!UICONTROL Ad ID] y, a continuación, [exporte los datos](/help/dsp/campaign-management/reports/campaign-export-data.md). | Sí |
 
-### Hojas de edición masiva de nivel de ubicación
-
-| Columna | Descripción | ¿Editable? |
-|--------|-------------|-----------|
-| [!UICONTROL Placement ID] | El ID numérico de la ubicación. | — |
-| [!UICONTROL Placement Name] | Nombre de la ubicación. | Sí |
-| [!UICONTROL Package Name] | El nombre del paquete principal, cuando corresponda. | — |
-| [!UICONTROL Start Date] | La fecha de inicio de la ubicación. | — |
-| [!UICONTROL End Date] | La fecha de finalización de la ubicación. | — |
-| [!UICONTROL Status] | El estado de la ubicación: *[!UICONTROL active]* o *[!UICONTROL inactive]*. | — |
-| [!UICONTROL Max Bid] | La puja máxima de la ubicación. | Sí |
-| [!UICONTROL Budget] | El presupuesto de colocación, si lo hay. | Sí |
-| [!UICONTROL Budget Interval] | El intervalo de presupuesto: &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* o *[!UICONTROL All Time]*. | Sí |
-| [!UICONTROL Primary Frequency Cap] | Límite de frecuencia principal de la ubicación durante el [!UICONTROL Primary Frequency Cap Interval] especificado. | Sí |
-| [!UICONTROL Primary Frequency Cap Interval] | Intervalo para el límite de frecuencia principal: *[!UICONTROL Day]*, *[!UICONTROL Week]* o *[!UICONTROL Month]*. | Sí |
-| [!UICONTROL Secondary Frequency Cap] | Límite de frecuencia secundario para la ubicación durante el [!UICONTROL Secondary Frequency Cap Interval] especificado | Sí |
-| [!UICONTROL Secondary Frequency Cap Interval] | El tipo de intervalo para el límite de frecuencia secundario: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* o *[!UICONTROL Minute]*. El número aplicable de semanas, días, horas o minutos está indicado por [!UICONTROL Secondary Frequency Cap Interval Value]. | Sí |
-| [!UICONTROL Secondary Frequency Cap Interval Value] | Número de semanas, días, horas o minutos durante los cuales se aplica [!UICONTROL Secondary Frequency Cap]. Por ejemplo, si el límite secundario es de tres impresiones por seis horas, el valor aquí sería `6`. | Sí |
-| [!UICONTROL Attached Ad ID] | DSP Los ID de anuncio únicos generados por el usuario de cualquier anuncio adjunto a la ubicación, separados por punto y coma. Para descargar una lista de nombres de anuncios e ID de anuncios asociados desde la vista [!UICONTROL Ads], cree una vista personalizada que incluya la métrica [!UICONTROL Ad ID] y, a continuación, [exporte los datos](/help/dsp/campaign-management/reports/campaign-export-data.md). | Sí |
-
 >[!MORELIKETHIS]
 >
->* [Revisar y editar la configuración del componente de campaña mediante hojas de edición masiva](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Revisar y editar la configuración del paquete mediante hojas de edición masiva](/help/dsp/campaign-management/packages/package-qa.md)
+>* [Revisar y editar la configuración de ubicación mediante hojas de edición masiva](/help/dsp/campaign-management/placements/placement-qa.md)

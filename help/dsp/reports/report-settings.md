@@ -3,9 +3,9 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1483'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** El nombre del informe. La longitud máxima es de 180 caracteres.
 
-**[!UICONTROL Report Type]:** Tipo de informe: *[!UICONTROL Custom]* (que incluye la mayoría de las opciones disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* o *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]:** Tipo de informe: *[!UICONTROL Custom]* (que incluye la mayoría de las opciones disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, *[!UICONTROL Household Conversions]*, *[!UICONTROL Path to Conversions Beta]*, *[!UICONTROL Path Length Beta]* o *[!UICONTROL Time to Conversion Beta]*.
 
 ## Sección [!UICONTROL Report Range]
 
@@ -62,9 +62,7 @@ Esta sección determina las fechas en las que se ejecuta el informe. Para config
 
 ## Sección [!UICONTROL Apply Filters]
 
-**[!UICONTROL Add Filters]:** (Opcional) Dimensiones adicionales mediante las cuales filtrar los datos, independientemente de si las dimensiones se incluyen o no como columnas en el informe. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* y *[!UICONTROL Video Duration]*.
-
-\* *[!UICONTROL Account]* solo está disponible para los siguientes tipos de informes cuando su organización está configurada para [informes entre cuentas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] y [!UICONTROL Conversion]. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información sobre la creación de informes entre cuentas.
+**[!UICONTROL Filter by]:** (Opcional) Dimensiones adicionales mediante las cuales filtrar los datos, independientemente de si las dimensiones se incluyen o no como columnas en el informe. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* y *[!UICONTROL Video Duration]*.
 
 Para aplicar uno o más filtros, haga lo siguiente:
 
@@ -72,15 +70,20 @@ Para aplicar uno o más filtros, haga lo siguiente:
 * (Opcional) Añada criterios adicionales al filtro.
 * (Opcional) Añada filtros adicionales, cada uno con uno o más criterios.
 
+\* *[!UICONTROL Account]* solo está disponible para los siguientes tipos de informes cuando su organización está configurada para [informes entre cuentas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] y [!UICONTROL Conversion]. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información sobre la creación de informes entre cuentas.
+
+**[!UICONTROL Include data from Adobe Advertising SSC]:** (solo informes de Ruta de acceso a la conversión, Longitud de ruta de acceso y Tiempo de conversión) Incluye datos de clics en anuncios de búsqueda de Advertising Search, Social y Commerce.
+
 ## Sección [!UICONTROL Build Your Report]
 
-**[!UICONTROL Select To Add As Report Headers]:** Las columnas de datos, o encabezados, que se incluirán en el informe. Para agregar una columna, expanda la categoría y active la casilla de verificación situada junto al nombre de la columna. Las columnas disponibles varían según el informe y todas las métricas no disponibles están desactivadas. Las categorías de datos disponibles incluyen:
+**[!UICONTROL Select To Add As Report Headers]:** Las columnas de datos, o encabezados, que se incluirán en el informe. Para agregar una columna, expanda la categoría y active la casilla de verificación situada junto al nombre de la columna. Las columnas disponibles varían según el informe y todas las métricas no disponibles están desactivadas. Las categorías de datos disponibles pueden incluir:
 
 * [!UICONTROL Dimensions]
 
   >[!NOTE]
   >
-  > El informe [!UICONTROL Household Reach & Frequency] solo puede incluir una dimensión.
+  > Los informes [!UICONTROL Household Reach & Frequency] y [!UICONTROL Path to Conversion] solo pueden incluir una dimensión.
+  > Los informes [!UICONTROL Path Length] y [!UICONTROL Time to Conversion] no incluyen dimensiones.
 
 * [!UICONTROL Metrics]
 
@@ -132,9 +135,9 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
    * *[!UICONTROL Social Only]:* obsoleto
 
-  <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
+Consulte también &quot;[Cómo se calculan las reglas de atribución para el Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
-* **Retrospectiva:** ([!UICONTROL Household Conversion] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas; anunciantes con seguimiento de conversión de Adobe Advertising solamente) Dentro del informe, el número máximo de días después de un evento de impresión en los que se puede atribuir un evento de conversión a él. El valor predeterminado es *[!UICONTROL 30 days]* y el máximo es 92 días.
+* **Retrospectiva:** ([!UICONTROL Household Conversion] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas, y [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] informes con [!UICONTROL Conversion Metrics] columnas solamente; anunciantes con seguimiento de conversión de Adobe Advertising solamente) Dentro del informe, el número máximo de días después de un evento de impresión <!-- VERIFY THIS:  or click event for [!UICONTROL Path to Conversion], [!UICONTROL Path Length], or [!UICONTROL Time to Conversion] reports --> en los que se puede atribuir un evento de conversión a él. El valor predeterminado es *[!UICONTROL 30 days]* y el máximo es 92 días.
 
 **[!UICONTROL Paths as Columns]:** (Todos los informes de [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] y [!UICONTROL Site] con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas) Qué tipos de conversiones notificar cuando se produjeron eventos anteriores en el mismo dispositivo. Se pueden incluir hasta tres tipos. Para cada tipo seleccionado, se incluye una columna independiente para cada métrica de conversión y se anexa el sufijo especificado ([!UICONTROL (tl)], [!UICONTROL (ct)] o [!UICONTROL (vt)]):
 

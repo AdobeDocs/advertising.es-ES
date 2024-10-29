@@ -3,9 +3,9 @@ title: Ver los informes de diagnóstico de ubicación
 description: Aprenda a diagnosticar problemas con la configuración y el ritmo de la ubicación.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1f8fd9d267aba0858b18c0b5a9b4a693e2b62468
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la con
    * DSP Para ver por qué no se ha pujado por la ubicación, haga lo siguiente:
 
       1. En la esquina superior derecha, haga clic en **[!UICONTROL Non Bids]**.
+
+      1. (Opcional) Para filtrar la colocación por un destino de acuerdo privado específico, seleccione la oferta. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
       1. (Opcional) Para cambiar el intervalo de fechas, haga clic en el campo de fecha y seleccione una fecha o un intervalo de fechas diferentes.
 
