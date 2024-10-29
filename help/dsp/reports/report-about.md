@@ -3,9 +3,9 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
+source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Los informes personalizados le permiten personalizar el contenido y el envío de
 
 * Elija entre las plantillas de informe preconfiguradas y, si lo desea, personalícelas más.
 
-Puede generar informes una vez o programarlos para que se generen diariamente, semanalmente o mensualmente a las 03:00 en el huso horario especificado según criterios específicos (por ejemplo, cada 15 días o el 1 de cada mes). Una vez generado el informe, puede descargarlo de [!UICONTROL Reports] > [!UICONTROL Custom Reports] o de [destinos de informe](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados de los siguientes tipos:
+Puede generar informes una vez o programarlos diariamente, semanalmente o mensualmente a las 03:00 en el huso horario especificado según criterios específicos (por ejemplo, cada 15 días o el 1 de cada mes). Una vez generado el informe, puede descargarlo de [!UICONTROL Reports] > [!UICONTROL Custom Reports] o de [destinos de informe](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados de los siguientes tipos:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -41,24 +41,24 @@ Puede generar informes una vez o programarlos para que se generen diariamente, s
      >
      >Este informe incluye datos sobre el segmento de facturación. Si a un usuario o dispositivo se le sirve una impresión que pertenece a varios segmentos, solo se acredita un segmento facturable con la impresión.
 
-   * **[!UICONTROL Conversion]:** utilice este informe para comprender el rendimiento de sus campañas según las métricas Conversión recopiladas con Adobe Systems seguimiento de Conversión publicitarias. Este informe incluye atribución de varios toques.
+   * **[!UICONTROL Conversion]:** Use este informe para comprender el rendimiento de sus campañas en función de las métricas de conversión capturadas mediante el seguimiento de conversión de Adobe Advertising. Este informe incluye la atribución de múltiples contactos.
 
-   * **[!UICONTROL Device]:** utilice este plantilla rellenado previamente para ver métricas clave por dimensiones relacionadas con dispositivos.
+   * **[!UICONTROL Device]:** Utilice esta plantilla rellenada previamente para ver las métricas clave según las dimensiones relacionadas con el dispositivo.
 
-   * **[!UICONTROL Frequency (by Impression)]:** utilice este informe para comprender la distribución de las impresiones mostradas a los visores únicos (por ejemplo, cuántos visitantes únicos vieron una impresión, dos impresiones, tres impresiones, etc.). Los datos están disponibles por ubicación o campaña.
-
-     >[!NOTE]
-     >
-     >* Los datos estarán disponibles después del 1 de marzo de 2019.
-     >* La frecuencia se calcula sobre la base de una muestreo de datos.
-     >* Durante algunos inventario, los editores no pasan un identificador dispositivos, lo que evita Frecuencia seguimiento. Este informe incluye solamente las impresiones para las que se disponía de un identificador dispositivos.
-
-   * **[!UICONTROL Frequency (by App/Site)]:** Utilice este informe para comprender a cuántos usuarios únicos llegó por aplicación o por sitio. También puede ver a cuántos usuarios únicos se llegó solo a través de una aplicación o sitio en particular (&quot;usuarios únicos distintos&quot;).
+   * **[!UICONTROL Frequency (by Impression)]:** Use este informe para comprender la distribución de impresiones mostradas a espectadores únicos (por ejemplo, cuántos espectadores únicos vieron una impresión, dos impresiones, tres impresiones, etc.). Los datos están disponibles por ubicación o campaña.
 
      >[!NOTE]
      >
-     >* Los datos estarán disponibles después del 15 de noviembre de 2018.
-     >* Para algunos inventario privados, los editores no pasan un identificador dispositivos, lo que impide Frecuencia seguimiento.
+     >* Los datos estarán disponibles a partir del 1 de marzo de 2019.
+     >* La frecuencia se calcula a partir de una muestra de datos.
+     >* En algunos inventarios, los editores no transmiten un identificador de dispositivo, lo que impide el seguimiento de la frecuencia. Este informe incluye solo las impresiones para las que había un identificador de dispositivo disponible.
+
+   * **[!UICONTROL Frequency (by App/Site)]:** Use este informe para comprender a cuántos usuarios únicos llegaron sus anuncios por aplicación o por sitio. También puede ver a cuántos usuarios únicos llegaron sus anuncios a través de una aplicación o sitio en particular (&quot;usuarios únicos distintos&quot;).
+
+     >[!NOTE]
+     >
+     >* Los datos estarán disponibles a partir del 15 de noviembre de 2018.
+     >* En algunos inventarios privados, los editores no transmiten un identificador de dispositivo, lo que impide el seguimiento de la frecuencia.
 
    * **[!UICONTROL Geo]**: utilice esta plantilla previamente completada para ver métricas clave por dimensiones geográficas.
 
@@ -68,8 +68,8 @@ Puede generar informes una vez o programarlos para que se generen diariamente, s
 
      >[!NOTE]
      >
-     >* El objetivo de este informe es mostrar el rendimiento de los distintos segmentos segmentados. Utiliza datos de abono de segmentos. Cuando se sirve una impresión a una persona o dispositivo que pertenece a dos o más segmentos de destino, este informe incluye una fila para cada segmento. Por esta razón, es posible que los totales de este informe no coincidan con los envío reales.
-     >* Las métricas de conversión y los datos de objetivos personalizados para segmentos estarán disponibles después del 2 de agosto de 2019. El resto de los datos de los segmentos estarán disponibles a partir del 1 de junio de 2018.
+     >* El objetivo de este informe es mostrar el rendimiento de los distintos segmentos segmentados. Utiliza datos de abono de segmentos. Cuando se sirve una impresión a una persona o dispositivo que pertenece a dos o más segmentos de destino, este informe incluye una fila para cada segmento. Por este motivo, es posible que los totales de este informe no coincidan con la entrega real.
+     >* Las métricas de conversión y los datos de objetivo personalizados para segmentos están disponibles a partir del 2 de agosto de 2019. El resto de los datos de los segmentos estarán disponibles a partir del 1 de junio de 2018.
 
    * **[!UICONTROL Site]:** De forma predeterminada, incluye las métricas estándar, el gasto neto total de medios y el gasto neto total facturable por sitio.
 
@@ -77,7 +77,7 @@ Puede generar informes una vez o programarlos para que se generen diariamente, s
 
    * **[!UICONTROL Household Conversions]:** Use este informe para ver las conversiones de visualización a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para medir y optimizar el rendimiento de la campaña. Consulte &quot;[Preguntas frecuentes acerca de los informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
-   * **[!UICONTROL Path to Conversion Beta]:** (función de Beta) Use este informe para ver la secuencia de puntos de interacción en el mismo hogar que llevan a cada una de las métricas de conversión seleccionadas en el intervalo de datos especificado, utilizando un período retrospectivo especificado entre la primera interacción y una conversión. El informe puede incluir una dimensión:
+   * **[!UICONTROL Path to Conversion Beta]:** (función de Beta) Use este informe para identificar cómo optimizar presupuestos y personalizar anuncios en función de secuencias de interacción de anuncios de alto rendimiento. El informe muestra la secuencia de puntos de interacción en el mismo hogar que llevan a cada una de las métricas de conversión seleccionadas en el rango de datos especificado. El informe utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión y puede incluir una dimensión:
 
       * [!UICONTROL Channel Assist Type]: muestra cómo los siguientes canales de marketing han ayudado en el proceso de conversión: [!UICONTROL Audio Impression], [!UICONTROL CTV Impression], [!UICONTROL Display Click], [!UICONTROL Display Impression], [!UICONTROL Native Click], [!UICONTROL Native Impression], [!UICONTROL Search Click], [!UICONTROL Video Click] o [!UICONTROL Video Impression].
 
@@ -91,11 +91,11 @@ Puede generar informes una vez o programarlos para que se generen diariamente, s
 
      Se incluyen hasta los 10 puntos de interacción más recientes. Las filas de ruta están ordenadas por el número de conversiones.
 
-   * **[!UICONTROL Path Length Beta]:** (función Beta) Utilice este informe para ver el número de conversiones por longitud de ruta (puntos de interacción), como por ejemplo cuántas conversiones se produjeron después de que los usuarios solo tuvieron una interacción anuncios, dos interacciones anuncios, etc. El informe puede incluir datos para varias métricas Conversión y utiliza un período de retrospectiva especificado entre la primera interacción y una Conversión. Las columnas del informe incluyen &quot;[!UICONTROL Path Length],&quot; &quot;[!UICONTROL Number of] \&lt;Conversion metric=&quot;&quot; name=&quot;&quot; 1\=&quot;&quot;>,&quot; &quot;% \&lt;Conversion metric=&quot;&quot; name=&quot;&quot; 1\=&quot;&quot;>,&quot; &lt;Conversion metric=&quot;&quot; name=&quot;&quot; 2\=&quot;&quot;>\,&quot; &quot;% \,&quot; etc&lt;Conversion metric=&quot;&quot; name=&quot;&quot; 2\=&quot;&quot;>.&lt;/Conversion>&lt;/Conversion>&lt;/Conversion>&lt;/Conversion>
+   * **[!UICONTROL Path Length Beta]:** (función de Beta) Use este informe para administrar la frecuencia de los anuncios en función del número de puntos de interacción del usuario necesarios para las conversiones. El informe muestra el número de conversiones por longitud de ruta (puntos de interacción); por ejemplo, cuántas conversiones se produjeron después de que los usuarios solo tuvieran una interacción de publicidad, dos interacciones de publicidad, etc. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc.
 
-     Los datos se muestran para cada longitud de ruta de hasta 10; Los datos para longitudes de ruta mayores a 10 se agrupan.
+     Se muestran datos para cada longitud de ruta de hasta 10; los datos para las longitudes de ruta superiores a 10 se agrupan.
 
-   * **[!UICONTROL Time to Conversion Beta]:** (función de Beta) Use este informe para ver el número de conversiones por el período de tiempo en días desde la última interacción (exposición del anuncio o clic) hasta la conversión. El informe puede incluir datos para varias métricas Conversión y utiliza un período de retrospectiva especificado entre la primera interacción y una Conversión. Las columnas del informe incluyen &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc. Las conversiones que tardan más tiempo que el período retroactivo se agrupan en una fila (por ejemplo, si el informe utiliza un período retroactivo de 30 días, todas las conversiones que tardan más de 30 días en producirse se agrupan en una fila con un valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
+   * **[!UICONTROL Time to Conversion Beta]:** (función de Beta) Use este informe para determinar la ventana retrospectiva de atribución óptima e identificar nuevas oportunidades de retargeting. El informe muestra el número de conversiones por el periodo en días desde la última interacción (exposición del anuncio o clic) hasta la conversión. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc. Las conversiones que tardan más tiempo que el período retroactivo se agrupan en una fila (por ejemplo, si el informe utiliza un período retroactivo de 30 días, todas las conversiones que tardan más de 30 días en producirse se agrupan en una fila con un valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
 
 ## Informes entre cuentas {#cross-account-reporting}
 
@@ -129,8 +129,8 @@ Puede crear nuevos informes personalizados, editar los informes existentes o dup
 >
 >* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
 >* [Descargar un informe personalizado](/help/dsp/reports/report-download.md)
->* [Configuración de informes personalizados](/help/dsp/reports/report-settings.md)
->* [Preguntas frecuentes sobre los informes de hogares](/help/dsp/reports/faq-household-report.md)
->* [Tipos de informes de rendimiento en las vistas de administración de Campaign](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
+>* [Preguntas más frecuentes sobre los informes de hogares](/help/dsp/reports/faq-household-report.md)
+>* [Tipos de informes de rendimiento en las vistas de Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 >* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
