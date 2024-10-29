@@ -3,7 +3,7 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -73,9 +73,9 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
    * **[!UICONTROL Site]:** De forma predeterminada, incluye las métricas estándar, el gasto neto total de medios y el gasto neto total facturable por sitio.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Use este informe para ver las impresiones, el alcance y la frecuencia de una sola dimensión en los formatos de anuncio a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para optimizar la combinación de medios, mejorar el rendimiento e identificar oportunidades de alcance incremental. Consulte &quot;[Preguntas frecuentes acerca de los informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
+   * **[!UICONTROL Household Reach & Frequency]:** Use este informe para ver las impresiones, el alcance y la frecuencia de una sola dimensión en los formatos de anuncio a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para optimizar la combinación de medios, mejorar el rendimiento e identificar oportunidades de alcance incremental. Consulte &quot;[Preguntas frecuentes acerca de los informes de hogares](/help/dsp/reports/faq-reports.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
-   * **[!UICONTROL Household Conversions]:** Use este informe para ver las conversiones de visualización a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para medir y optimizar el rendimiento de la campaña. Consulte &quot;[Preguntas frecuentes acerca de los informes de hogares](/help/dsp/reports/faq-household-report.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
+   * **[!UICONTROL Household Conversions]:** Use este informe para ver las conversiones de visualización a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para medir y optimizar el rendimiento de la campaña. Consulte &quot;[Preguntas frecuentes acerca de los informes de hogares](/help/dsp/reports/faq-reports.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
    * **[!UICONTROL Path to Conversion Beta]:** (función de Beta) Use este informe para identificar cómo optimizar presupuestos y personalizar anuncios en función de secuencias de interacción de anuncios de alto rendimiento. El informe muestra la secuencia de puntos de interacción en el mismo hogar que llevan a cada una de las métricas de conversión seleccionadas en el rango de datos especificado. El informe utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión y puede incluir una dimensión:
 
@@ -130,7 +130,7 @@ Puede crear nuevos informes personalizados, editar los informes existentes o dup
 >* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
 >* [Descargar un informe personalizado](/help/dsp/reports/report-download.md)
 >* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
->* [Preguntas más frecuentes sobre los informes de hogares](/help/dsp/reports/faq-household-report.md)
+>* [Preguntas más frecuentes sobre los informes de hogares](/help/dsp/reports/faq-reports.md)
 >* [Tipos de informes de rendimiento en las vistas de Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 >* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
