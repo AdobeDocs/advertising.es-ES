@@ -3,9 +3,9 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,13 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
      Se incluyen hasta los 10 puntos de interacción más recientes. Las filas de ruta están ordenadas por el número de conversiones.
 
-   * **[!UICONTROL Path Length Beta]:** (función de Beta) Use este informe para administrar la frecuencia de los anuncios en función del número de puntos de interacción del usuario necesarios para las conversiones. El informe muestra el número de conversiones por longitud de ruta (puntos de interacción); por ejemplo, cuántas conversiones se produjeron después de que los usuarios solo tuvieran una interacción de publicidad, dos interacciones de publicidad, etc. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc.
+     Para ver una comparación de este informe con los informes creados por [!DNL Advanced Measurement Services] y Adobe Analytics, consulte &quot;[Preguntas más frecuentes acerca de informes personalizados](/help/dsp/reports/faq-reports.md)&quot;.
+
+   * **[!UICONTROL Path Length Beta]:** (función de Beta) Use este informe para      realice un seguimiento de la cantidad de puntos de interacción del usuario necesarios para las conversiones a lo largo del tiempo, a fin de poder elegir la frecuencia de anuncio óptima. El informe muestra el número de conversiones por longitud de ruta (puntos de interacción); por ejemplo, cuántas conversiones se produjeron después de que los usuarios solo tuvieran una interacción de publicidad, dos interacciones de publicidad, etc. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc.
 
      Se muestran datos para cada longitud de ruta de hasta 10; los datos para las longitudes de ruta superiores a 10 se agrupan.
 
-   * **[!UICONTROL Time to Conversion Beta]:** (función de Beta) Use este informe para determinar la ventana retrospectiva de atribución óptima e identificar nuevas oportunidades de retargeting. El informe muestra el número de conversiones por el periodo en días desde la última interacción (exposición del anuncio o clic) hasta la conversión. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc. Las conversiones que tardan más tiempo que el período retroactivo se agrupan en una fila (por ejemplo, si el informe utiliza un período retroactivo de 30 días, todas las conversiones que tardan más de 30 días en producirse se agrupan en una fila con un valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
+   * **[!UICONTROL Time to Conversion Beta]:** (función de Beta) Use este informe para determinar la ventana retrospectiva de atribución óptima y para identificar campañas con tiempos de conversión más largos, que pueden beneficiarse de la reorientación. El informe muestra el número de conversiones por el periodo en días desde la última interacción (exposición del anuncio o clic) hasta la conversión. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc. Las conversiones que tardan más tiempo que el período retroactivo se agrupan en una fila (por ejemplo, si el informe utiliza un período retroactivo de 30 días, todas las conversiones que tardan más de 30 días en producirse se agrupan en una fila con un valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
 
 ## Informes entre cuentas {#cross-account-reporting}
 
