@@ -2,9 +2,9 @@
 title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga más información acerca de los informes personalizados, incluidos los informes domésticos y los informes de análisis de rutas de conversión.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ El caso de uso ideal es usar juntos el informe [!UICONTROL Household] y los serv
 
 ## Informes de análisis de rutas de conversión
 
-### ¿En qué se diferencia el informe Ruta de conversión de los informes creados por [!DNL Advanced Measurement Services] y Adobe Analytics?
+### ¿En qué se diferencia el informe Ruta de conversión de los informes creados por [!DNL Advanced Measurement Services] y Adobe Analytics Analysis Workspace?
 
-| | Ruta al informe de conversión | Efecto halo de servicios de medición avanzada en informes de búsqueda | Informes de Adobe Analytics Workspace |
+| | Ruta al informe de conversión | Efecto halo de servicios de medición avanzada en informes de búsqueda | Informes en Analysis Workspace |
 | --- | --- | --- |---|
 | Valor del cliente | Genere un informe personalizado de autoservicio para comprender qué rutas del recorrido publicitario produjeron más conversiones para impulsar la optimización | Comprender la influencia de las tácticas de TV conectada (CTV) en los clics de búsqueda | Comprenda la influencia de su inversión en Adobes Advertising holísticos, junto con otros canales de marketing, en los clics en búsqueda |
 | Nivel del hogar | Sí | Sí | No |
