@@ -3,7 +3,7 @@ title: Variaciones de datos previstas entre  [!DNL Analytics]  y el Adobe Advert
 description: Variaciones de datos previstas entre  [!DNL Analytics]  y el Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
+source-git-commit: 6470ed471c60477bf19cf9b125f0250136f31511
 workflow-type: tm+mt
 source-wordcount: '3358'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Tenga en cuenta estas diferencias al comparar las conversiones de visualizacione
 >
 >Para evitar confusiones, [!DNL Analytics] impide que los datos históricos estén disponibles en la interfaz de informes. Puede ver los datos históricos si vuelve a cambiar [!DNL eVar] a la configuración de asignación inicial, aunque no debería cambiar la configuración de asignación [!DNL eVar] simplemente para tener acceso a los datos históricos. El Adobe recomienda usar un nuevo(a) [!DNL eVar] cuando desee aplicar una nueva configuración de asignación para los datos que ya se están registrando, en lugar de cambiar la configuración de asignación para un(a) [!DNL eVar] que ya tiene una cantidad significativa de datos históricos.
 
-Vea una lista de [!DNL Analytics] modelos de atribución y sus definiciones en [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
+Vea una lista de [!DNL Analytics] modelos de atribución y sus definiciones en [https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models).
 
 Si ha iniciado sesión en [!DNL Search, Social, & Commerce], puede encontrar una lista
 
