@@ -2,9 +2,10 @@
 title: Implementar  [!DNL Google Ads] conversiones mejoradas para clientes potenciales
 description: Obtenga información acerca del flujo de trabajo para configurar  [!DNL Google Ads] conversiones mejoradas para posibles clientes.
 feature: Search Campaign Management, Conversions
-source-git-commit: 60a67c8668df13afc08e14b0a495a37ded24bc0c
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,17 @@ ht-degree: 0%
 
 [[!DNL Google Ads] las conversiones mejoradas para posibles clientes](https://support.google.com/google-ads/answer/9888656) le permiten asignar usuarios a conversiones sin conexión mediante los datos de conversión de origen. Utilice conversiones mejoradas para posibles clientes en entornos en los que los ID de clic no están disponibles, como para rastrear ventas por teléfono o correo electrónico resultantes de posibles clientes en sitios web.
 
-En Search, Social y Commerce, puede incluir las conversiones mejoradas para posibles clientes como métricas en los informes y como métricas ponderadas dentro de los objetivos de optimización. Search, Social y Commerce sincronizan sus conversiones mejoradas existentes para posibles clientes diariamente a las 05:00 en el huso horario del anunciante.
+En Buscar, Social y Commerce, puede:
+
+* Vea las conversiones mejoradas existentes para posibles clientes.
+
+  Search, Social y Commerce sincronizan sus conversiones mejoradas existentes para posibles clientes diariamente a las 05:00 en el huso horario del anunciante.
+
+* Cree conversiones mejoradas para posibles clientes.
+
+* Cargue datos de conversión de origen y sin conexión para asignarlos a sus conversiones mejoradas para posibles clientes.
+
+* Incluya sus conversiones mejoradas para posibles clientes como métricas dentro de los informes y como métricas ponderadas dentro de los objetivos de optimización.
 
 Para utilizar esta función, complete los siguientes pasos. Los pasos para crear etiquetas de seguimiento de conversión y para crear acciones de conversión se pueden invertir de forma opcional.
 
