@@ -3,9 +3,9 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 2dfa561f664672905fd40a005dde7b6ff49a970c
+source-git-commit: 73641f1a3cd1729ccb978739e9888cf2ff58d16f
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Esta sección determina las fechas en las que se ejecuta el informe. Para config
   >
   >También puede [ejecutar un informe personalizado en cualquier momento](report-run-now.md) desde la vista [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\>:* Ejecuta el informe en una fecha especificada para su finalización antes de las 09:00 en la zona horaria de la cuenta.
+* *[!UICONTROL On]\&lt;Date\>:* Ejecuta el informe en una fecha especificada para su finalización antes de las 09:00 en el huso horario de la cuenta.
 
 * *[!UICONTROL Recurring]:* Ejecuta el informe de acuerdo con una programación durante un período de tiempo especificado.
 
