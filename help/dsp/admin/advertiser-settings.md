@@ -2,9 +2,9 @@
 title: Configuración de cuenta del anunciante
 description: Consulte las descripciones de la configuración de anunciante disponible.
 role: User, Admin
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Configuración de cuenta del anunciante
 
 *No disponible para usuarios de solo lectura*
+
+<!-- Not published -->
 
 ## Configuración de [!UICONTROL General]
 
@@ -166,11 +168,11 @@ Puede anular la configuración de nivel de anunciante en [nivel de ubicación](/
 
 **[!UICONTROL Enable Site Safety Block]:** De forma predeterminada, habilita un filtro posterior a la oferta en tiempo real para garantizar que los anuncios se publiquen en los sitios a los que se dirige el anunciante. <!-- Can remove this: Users can enable or disable the feature for each placement. I don't see this option, but I should probably verify. If this can't be edited at placement level, then remove "By default." If it can, say that you can override at placement level. -->
 
-#### [!UICONTROL DoubleVerify Authentic Brand Safety]
+#### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
 **[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] clientes solamente; opcional) El identificador del segmento de seguridad de marca asociado con la cuenta de la organización [!DNL DoubleVerify].
 
-**[!UICONTROL Enable Authentic Brand Safety]:** (opcional) de forma predeterminada, habilita [!DNL DoubleVerify] Seguridad de marca auténtica, que bloquea las impresiones después de la oferta mediante las reglas de seguridad de marca personalizadas configuradas para el ID de segmento especificado. DSP factura a su cuenta por el uso del ID de segmento.
+**[!UICONTROL Enable Authentic Brand Suitability]:** (opcional) de forma predeterminada, habilita [!DNL DoubleVerify Authentic Brand Safety], que bloquea las impresiones después de la oferta utilizando las reglas de seguridad de marca personalizadas configuradas para el ID de segmento especificado. DSP factura a su cuenta por el uso del ID de segmento.
 
 Puede anular la configuración de nivel de anunciante en el nivel de ubicación.
 

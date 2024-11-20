@@ -3,7 +3,7 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 0%
@@ -215,11 +215,11 @@ Para especificar la segmentación de inventario:
 
 Los anuncios salientes suelen aparecer sobre el contenido como una ventana emergente o rellenos de contenido (en la experiencia nativa), en lugar de como anuncios de vídeo normales en un reproductor de vídeo.
 
-## [!UICONTROL Site Targeting]
+## [!UICONTROL Site and App Targeting]
 
 **[!UICONTROL Traffic type]:** Tipos de tráfico de destino. Las opciones incluyen **[!UICONTROL Websites]** y **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) La calidad de los sitios de destino. DSP Los niveles 1-3 son todos seguros para la marca y han sido aprobados por el equipo de mapeo de la marca de la.
+**[!UICONTROL Tier]:** (disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) La calidad del tráfico de destino. DSP Los niveles 1-3 son todos seguros para la marca y han sido aprobados por el equipo de mapeo de la marca de la.
 
 * *[!UICONTROL Tier 1]:* sitios y aplicaciones Premium reconocibles a nivel nacional.
 
@@ -227,7 +227,7 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 
 * *[!UICONTROL Tier 3]:* se dirige a los niveles 1-2, además de a sitios y aplicaciones legítimos y seguros para la marca que atienden a una audiencia específica. Utilice el nivel 3 para las compras de alcance o segmentación de datos.
 
-* *[!UICONTROL All Sites]:* se dirige a los niveles 1-3 y al nuevo inventario que no se ha examinado ni clasificado, y que puede utilizar para llegar a ellos.
+* *[!UICONTROL All Sites or Apps]:* se dirige a los niveles 1-3 y al nuevo inventario que no se ha examinado ni clasificado, y que puede utilizar para llegar a ellos.
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 >
 >Para las campañas de rendimiento, la práctica recomendada es seleccionar *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Categorías de sitio dentro de los niveles de sitio seleccionados para incluir o excluir (pero no ambos) como destinos. DSP Elija entre las listas verticales de sitios que ha asignado el usuario en función del asunto:
+**[!UICONTROL Site or App Categories]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Categorías de sitio dentro de los niveles de sitio seleccionados para incluir o excluir (pero no ambos) como destinos. DSP Elija entre las listas verticales de sitios que ha asignado el usuario en función del asunto:
 
 1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
 1. Especifique las categorías del sitio que se incluirán o excluirán:
@@ -250,7 +250,7 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 1. (Opcional) Para descargar un archivo CSV con la información de destino en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
 1. Haga clic en **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Sitios que excluir. Puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio:
+**[!UICONTROL Exclude Sites or Apps]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Sitios que excluir. Puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio:
 
 1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
 1. Especifique los sitios:
@@ -273,7 +273,7 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 
 **[!UICONTROL Language]:** (opcional) un solo idioma de destino.
 
-**[!UICONTROL Site List Preview]:** (solo lectura) Todos los sitios de destino y bloqueados para la ubicación.
+**[!UICONTROL Site or App List Preview]:** (solo lectura) Todos los sitios de destino y bloqueados para la ubicación.
 
 Si lo desea, puede exportar la lista de sitios de destino y bloqueados como archivo de valores separados por comas (CSV). Para exportar la lista, haga clic en **[!UICONTROL Export full site list]** y, a continuación, abra o guarde el archivo según el procedimiento normal del explorador.
 
@@ -389,7 +389,7 @@ Para especificar la segmentación de temas:
 1. (Opcional) Para descargar un archivo CSV con la información de segmentación del ISP en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
 1. Haga clic en **[!UICONTROL Save]**.
 
-## [!UICONTROL Brand Safety and Media Targeting]
+## [!UICONTROL Brand Safety and Media Quality]
 
 **[!UICONTROL Contextual filtering]:** tipos de filtros contextuales [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] y [!DNL Peer39] que aplicar. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración:
 

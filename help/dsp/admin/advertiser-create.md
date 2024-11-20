@@ -2,7 +2,7 @@
 title: Crear una cuenta de anunciante
 description: Obtenga información sobre cómo crear una cuenta de anunciante.
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: bd29bf822385670a3420cf5dac346cecdecabf3d
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 # Crear una cuenta de anunciante
 
 *No disponible para usuarios de solo lectura*
+
+<!-- Not published -->
 
 Los anunciantes están disponibles para todos los usuarios de la cuenta de la organización.
 
