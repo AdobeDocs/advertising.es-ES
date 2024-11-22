@@ -3,7 +3,7 @@ title: Acerca de las fuentes de audiencia de origen
 description: Obtenga información acerca de la conversión de otros identificadores de usuario en segmentos de origen a ID universales para la segmentación sin cookies.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -70,9 +70,9 @@ DSP ha establecido conectores en los siguientes CDP para introducir rápidamente
 
 DSP También puede conectarse a cualquier CDP adicional mediante el uso compartido de datos por lotes, por streaming o basado en API. Para integrarse con un nuevo CDP, póngase en contacto con su equipo de cuenta de Adobe.
 
-### [!DNL Adobe Real-Time Customer Data Platform]
+### [!DNL Adobe Real-Time CDP]
 
-DSP El es un *destino* integrado para [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), que forma parte de Adobe Experience Platform.
+DSP El es un *destino* integrado para [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), que forma parte de Adobe Experience Platform.
 
 En [!DNL Real-Time CDP], los destinos son conexiones a plataformas de datos externas que permiten la activación de datos sin problemas. DSP Puede utilizar destinos para activar las direcciones de correo electrónico con hash para la publicidad de destino en el sector de la publicidad en el sector de la. Para obtener más información sobre los destinos, consulte la [Guía de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) del Experience Platform, que incluye información general sobre el producto, instrucciones para [crear espacios de trabajo de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) y [crear conexiones de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) y [activar datos en destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
