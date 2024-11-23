@@ -3,9 +3,9 @@ title: Identificadores de Adobe Advertising utilizados por  [!DNL Analytics]
 description: Identificadores de Adobe Advertising utilizados por  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 66368bd3bd7dbbd9829e7587c297c9d467c785ec
+source-git-commit: 0f55d98a5abfa75b4ef5dc18ad2cfb22b9e24e78
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ El Adobe Advertising distingue entre una entrada de pulsaciones o visualizacione
 
 *Figura 2: Adobe Advertising [!DNL Analytics] basado en URL con clic*
 
-## EF ID de publicidad Adobe Systems
+## ID de EF de Adobe Advertising
 
-El EF ID es un token único que Adobe Systems Publicidad utiliza para asociar actividad con un clic en línea o una exposición anuncios. El EF ID se almacena en [un [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) dimensión ( [!DNL rVar] reservado [!DNL eVar]) (Adobe Systems EF ID de publicidad) y realiza un seguimiento de cada clic o exposición anuncios a nivel explorador o dispositivos individual. Los EF ID actúan principalmente como claves para enviar [!DNL Analytics] datos a Adobe Systems Advertising for sistema de informes y oferta optimización dentro de Adobe Systems Advertising.
+El EF ID es un token único que utiliza el Adobe Advertising para asociar la actividad con un clic en línea o una exposición de publicidad. El EF ID se almacena en la dimensión [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o [!DNL rVar] (reservada [!DNL eVar]) (Adobe Advertising EF ID) y rastrea cada clic o exposición de anuncio en el nivel de navegador o dispositivo individual. Los EF ID actúan principalmente como claves para enviar datos de [!DNL Analytics] al Adobe Advertising para la creación de informes y la optimización de ofertas dentro del Adobe Advertising.
 
 ### Formato de ID de EF
 
@@ -74,15 +74,15 @@ donde:
 * `msclkid` es el [!DNL Microsoft Click ID] (MSCLKID).
 * `s` es el tipo de red (&quot;s&quot; para la búsqueda).
 
-#### Anuncios en pantalla y anuncios búsqueda en otros motores búsqueda
+#### Mostrar anuncios y anuncios de búsqueda en otros motores de búsqueda
 
 ```
 <Adobe Advertising visitor ID>:<timestamp>:<channel type>
 ```
 
-Dónde:
+donde:
 
-* *Adobe Systems Advertising ID de visitante*> es un ID único por visitante (como UhKVaAAABCkJ0mDt). También se denomina ID *de* internauta.
+* &lt;*ID de visitante de Adobe Advertising*> es un ID único por visitante (como UhKVaAAABCkJ0mDt). También se denomina *ID de internauta*.
 
 * &lt;*timestamp*> es la hora con formato AAAAMMDDHHMMSS (como 20190821192533 para el año 2019, mes 08, día 21, hora 19:25:33).
 
@@ -104,15 +104,15 @@ Los EF ID están sujetos al límite de 500 000 identificadores únicos en Analys
 
 El ID de AMO realiza un seguimiento de cada combinación de anuncios únicos en un nivel menos granular y se usa para la clasificación de datos [!DNL Analytics] y la ingesta de métricas de publicidad (como impresiones, clics y costes) del Adobe Advertising. El identificador de AMO está almacenado en [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o dimensión rVar (identificador de AMO) y se usa exclusivamente para generar informes en [!DNL Analytics].
 
-El AMO ID también se denomina `s_kwcid`, que a veces se pronuncia como &quot;[!DNL squid].&quot;
+El identificador de AMO también se denomina `s_kwcid`, y en ocasiones se pronuncia como &quot;[!DNL squid]&quot;.
 
 ### Formas de implementar el ID de AMO {#amo-id-implement}
 
-El parámetro se agrega a las URL de seguimiento de una de las siguientes formas:
+El parámetro se añade a las direcciones URL de seguimiento de una de las siguientes maneras:
 
-* (Recomendado) Cuando se implementa la función de inserción de del lado del servidor.
+* (Recomendado) Cuando se implementa la función de inserción del lado del servidor.
 
-   * DSP clientes: el servidor de píxeles añade automáticamente el parámetro s_kwcid a los sufijos página de aterrizaje cuando un usuario final ve un anuncio en pantalla con el píxel Adobe Systems Advertising.
+   * DSP Clientes de: El servidor de píxeles anexa automáticamente el parámetro s_kwcid a los sufijos de la página de aterrizaje cuando un usuario final ve un anuncio en pantalla con el píxel de Adobe Advertising.
 
    * Clientes de Search, Social y Commerce:
 
@@ -168,9 +168,9 @@ Los parámetros varían según la red de anuncios, pero los siguientes parámetr
 
 donde:
 
-* `{creative}` es el ID de numérica único del red de anuncios para el creativa.
-* `{placement}` es el sitio web en el que se hizo clic en el anuncios.
-* `{keywordid}` es el ID de numérica exclusivo del red de anuncios para el palabra clave que activó el anuncios.
+* `{creative}` es el identificador numérico único de la red de anuncios para el creativo.
+* `{placement}` es el sitio web en el que se hizo clic en el anuncio.
+* `{keywordid}` es el identificador numérico único de la red de anuncios para la palabra clave que activó el anuncio.
 
 ##### [!DNL Google Ads]
 
@@ -194,14 +194,14 @@ donde:
 * `{network}` indica la red desde la que se produjo el clic: `g` para la búsqueda de [!DNL Google] (solo para anuncios segmentados por palabras clave), `s` para un socio de búsqueda (solo para anuncios segmentados por palabras clave) o `d` para la red de visualización (para anuncios segmentados por palabras clave o por ubicación).
 * `{product_partition_id}` es el identificador numérico único de la red de anuncios para el grupo de productos usado con los anuncios de productos.
 * `{keyword}` es la palabra clave específica que activó el anuncio (en sitios de búsqueda) o la palabra clave que mejor coincide (en sitios de contenido).
-* `{campaignid}` es el ID de numérica único del red de anuncios para el campaña.
+* `{campaignid}` es el identificador numérico único de la red de anuncios para la campaña.
 * `{adgroupid}` es el identificador numérico único de la red de anuncios para el grupo de anuncios.
 
 >[!NOTE]
 >
 >* Para los anuncios dinámicos de búsqueda, {keyword} se completa con el destino automático.
->* Cuando genera seguimiento para [!DNL Google] anuncios de compra, se inserta un parámetro de ID de producto, `{adwords_producttargetid}`, antes del parámetro palabra clave. El parámetro de id. de producto no aparece en los parámetros de seguimiento de nivel de cuenta y de campaña [!DNL Google Ads].
->* Para utilizar el código de seguimiento de ID de AMO más reciente, consulte &quot;[Actualizar el código de seguimiento de ID de AMO para obtener una [!DNL Google Ads] cuenta](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)&quot;. <!-- Update terminology there too. -->
+>* Cuando genera el seguimiento de [!DNL Google] anuncios de compras, se inserta un parámetro de id. de producto, `{adwords_producttargetid}`, antes del parámetro de palabra clave. El parámetro de id. de producto no aparece en los parámetros de seguimiento de nivel de cuenta y de campaña [!DNL Google Ads].
+>* Para usar el código de seguimiento de ID de AMO más reciente, consulta &quot;[Actualizar el código de seguimiento de ID de AMO para una [!DNL Google Ads] cuenta](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
 
 <!--
 
@@ -221,9 +221,13 @@ where:
 
 ##### [!DNL Microsoft Advertising]
 
-* Search campañas:
+* Buscar campañas:
 
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+
+* Campañas de rendimiento máximo
+
+  `s_kwcid=AL!%(userid)d!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 * Campañas de compra (con [!DNL Microsoft Merchant Center]):
 
@@ -248,17 +252,17 @@ donde:
 * `{creative}` es el identificador numérico único de la red de anuncios para el creativo.
 * `{matchtype}` es el tipo de coincidencia de la palabra clave que activó el anuncio: `be` para exacto, `bp` para frase o `bb` para amplio.
 * `{network}` indica la red desde la que se produjo el clic: `n` para nativo o `s` para búsqueda.
-* `{keyword}` es el palabra clave que activó su anuncios.
+* `{keyword}` es la palabra clave que activó su anuncio.
 
 ##### [!DNL Yandex]
 
 `s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
 
-Dónde:
+donde:
 
-* `{ad_id}` es el ID de numérica único del red de anuncios para el creativa.
-* `{source_type}` es el tipo de sitio en el que se muestra la anuncios: *b* para búsqueda, *c* para contexto (contenido) o *ct* para categoría.
-* `{phrase_id}` es el ID de numérica del red de anuncios para el palabra clave.
+* `{ad_id}` es el identificador numérico único de la red de anuncios para el creativo.
+* `{source_type}` es el tipo de sitio en el que se ha mostrado el anuncio: *b* para la búsqueda, *c* para el contexto (contenido) o *ct* para la categoría.
+* `{phrase_id}` es el identificador numérico de la red de anuncios para la palabra clave.
 
 ### DIMENSION de ID de AMO en [!DNL Analytics]
 
