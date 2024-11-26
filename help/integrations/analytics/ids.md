@@ -3,9 +3,9 @@ title: Identificadores de Adobe Advertising utilizados por  [!DNL Analytics]
 description: Identificadores de Adobe Advertising utilizados por  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
+source-git-commit: 7d10ab34b804f96d621c351d9f8049c924019ba1
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,7 @@ donde:
 
 >[!NOTE]
 >
->Todas las cuentas con campañas de rendimiento se migraron al formato anterior. En el caso de las cuentas con otros tipos de campaña, los sufijos de la página de aterrizaje se migrarán para utilizar el nuevo formato s_kwcid a principios de 2025. Mientras tanto, los formatos heredados, como se indica a continuación, siguen funcionando:
+>Todas las cuentas con campañas Máximo rendimiento se migraron al formato anterior. En el caso de las cuentas con otros tipos de campaña, los sufijos de la página de aterrizaje se migrarán para utilizar el nuevo formato s_kwcid a principios de 2025. Mientras tanto, los formatos heredados, como se indica a continuación, siguen funcionando:
 >* Buscar campañas:
 >  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Campañas de compra (con [!DNL Microsoft Merchant Center]):
