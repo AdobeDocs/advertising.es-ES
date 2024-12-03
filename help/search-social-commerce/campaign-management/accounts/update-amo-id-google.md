@@ -1,11 +1,11 @@
 ---
-title: Actualizar el código de seguimiento de la ID de AMO (s_kwcid) para una cuenta  [!DNL Google Ads]
+title: 'Actualizar el código de seguimiento de la ID de AMO (s_kwcid) para una cuenta  [!DNL Google Ads] '
 description: Aprenda a cambiar al código de seguimiento de ID de AMO más reciente para una cuenta de  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,13 @@ El formato actual incluye parámetros para el ID de campaña y el ID de grupo de
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-Puede cambiar al formato actual para cualquiera o todas las cuentas existentes, individualmente. Si no tiene campañas Máximo rendimiento de o campañas de borradores y experimentos, la migración al nuevo formato es opcional.
+Para una cuenta existente que utiliza el formato heredado, puede cambiar al formato actual. Si no tiene campañas Máximo rendimiento de o campañas de borradores y experimentos, la migración al nuevo formato es opcional.
 
 Todas las cuentas nuevas de [!DNL Google Ads] utilizan automáticamente el formato de ID de AMO actual.
 
 >[!NOTE]
+>
+>Esta opción solo está disponible para cuentas que no utilizan el formato actual.
 >
 >Después de migrar una cuenta, todos los datos de clics, costes e impresiones se presentarán correctamente tras el cambio, pero cualquier pulsación que se haya producido antes de la migración seguirá atribuyéndose a los datos de conversión basados en el antiguo formato de ID de AMO.
 
@@ -40,7 +42,7 @@ Todas las cuentas nuevas de [!DNL Google Ads] utilizan automáticamente el forma
 
 1. Inicie la migración:
 
-   1. Junto a **[!UICONTROL S_KWCID FORMAT]**, haga clic en **[!UICONTROL LEGACY S_KWCID FORMAT]**.
+   1. Junto a **[!UICONTROL S_KWCID FORMAT]** en la configuración de [!UICONTROL Account Tracking], haga clic en **[!UICONTROL LEGACY S_KWCID FORMAT]**.
 
    1. Haga clic en **[!UICONTROL Migrate to new s_kwcid format]**.
 
@@ -58,7 +60,7 @@ Todas las cuentas nuevas de [!DNL Google Ads] utilizan automáticamente el forma
 
    * Cuando la característica [!UICONTROL Auto Upload]&quot; está habilitada en la configuración de seguimiento, Search, Social y Commerce actualizan automáticamente el código de seguimiento en el sufijo de página de aterrizaje de esta cuenta y sus campañas. Usted no tiene que hacer nada.
 
-   * Cuando la característica [!UICONTROL Auto Upload]&quot; no está habilitada y no usa la [característica de ID de AMO del lado del servidor](/help/integrations/analytics/ids.md#amo-id-formats), debe actualizar manualmente el parámetro de ID de AMO en la configuración del sufijo de página de aterrizaje. Puede cambiar manualmente los sufijos de nivel de cuenta y de campaña en la configuración de cuenta y campaña o cargando los cambios en una hoja de edición por lotes. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, use el editor [!DNL Google Ads].
+   * Cuando la característica [!UICONTROL Auto Upload]&quot; no está habilitada y no usa la [característica de ID de AMO del lado del servidor](/help/integrations/analytics/ids.md#amo-id-formats), debe actualizar manualmente el parámetro de ID de AMO en la configuración del sufijo de página de aterrizaje. Puede cambiar manualmente los sufijos de nivel de campaña y de cuenta en [configuración de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) y [configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), o bien [cargando cambios en una hoja de edición por lotes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Para configurar un sufijo en el nivel de grupo de anuncios o inferior, use el editor [!DNL Google Ads].
 
    * Si incluye el ID de AMO en la configuración de URL base para cualquier componente de campaña, muévalo a la configuración de Sufijo de página de aterrizaje correspondiente.
 
