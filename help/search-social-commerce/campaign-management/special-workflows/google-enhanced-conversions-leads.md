@@ -3,9 +3,9 @@ title: Implementar  [!DNL Google Ads] conversiones mejoradas para clientes poten
 description: Obtenga información acerca del flujo de trabajo para configurar  [!DNL Google Ads] conversiones mejoradas para posibles clientes.
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
+source-git-commit: e0b1a65e3eddc41bed73817dabb6e38b1ef881b5
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,13 @@ Para utilizar esta función, complete los siguientes pasos. Los pasos para crear
 
    1. Seleccione si desea usar una etiqueta [!DNL Google] o [!DNL Google Tag Manager] para crear la etiqueta de conversión.
 
-
-1. Configure e implemente una etiqueta [!DNL Google] para la acción de conversión.
+1. Configure e implemente una etiqueta para realizar el seguimiento de la acción de conversión.
 
    Para obtener instrucciones, consulte la ayuda de [!DNL Google Ads] para crear etiquetas para las conversiones mejoradas de posibles clientes [mediante una [!DNL Google] etiqueta](https://support.google.com/google-ads/answer/11021502) o [mediante [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
 
 1. Cree una acción de conversión para la conversión mejorada de posibles clientes en [Search, Social y Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) o en [Google Ads](https://support.google.com/google-ads/answer/12216226).
 
-   Para el **tipo de conversión,** seleccione *Importar conversión* o *Importar.*
+   Si crea la acción de conversión en Search, Social y Commerce, especifique el **Tipo de conversión** como *Importar conversión* o *Importar.*
 
 1. Siempre que sea necesario, cargue datos de origen, incluidas direcciones de correo electrónico con hash o números de teléfono, para atribuirlos a la conversión de una cuenta especificada. Puede completar este paso desde [Search, Social y Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) o desde [!DNL Google Data Manager].
 

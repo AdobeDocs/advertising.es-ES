@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 4fe931a07246920eeef8ce08e3a38c5fd6534bd4
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1738'
 ht-degree: 2%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 2%
          + [Implementar  [!DNL Google Ads] anuncios dinámicos de búsqueda](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
          + [Implementar  [!DNL Google Ads] campañas de rendimiento máximo](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
          + [Implementar  [!DNL Google Ads] campañas de compras](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [Implementar  [!DNL Microsoft Advertising] conversiones mejoradas para conversiones sin conexión](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
          + [Implementar  [!DNL Microsoft Advertising] campañas de compras](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [Sincronizar manualmente datos de red de anuncios](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [Asignación de campañas a un portafolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
@@ -260,7 +261,7 @@ ht-degree: 2%
 + Datos e informes {#insights-reports}
    + Datos de Advertising {#insights}
       + [Acerca de [!UICONTROL Advertising Insights]](/help/search-social-commerce/advertising-insights/insight-about.md)
-      + [Genere un [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-generate.md)
+      + [Generar un [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-generate.md)
       + [Ver o guardar un(a) [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-view-save.md)
       + [Eliminar un [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-delete.md)
    + Informes {#reports}
@@ -320,8 +321,8 @@ ht-degree: 2%
                + [El [!UICONTROL MSA Network Performance Report]](/help/search-social-commerce/reports/management/specialty/msa-network-performance-report.md)
             + [Generar un informe de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
             + [Configuración de informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-            + [Columnas de informes para informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
-         + Informes de precisión de modelos {#model-accuracy-reports}
+            + [Columnas de informes para informes de especialidades](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+         + Informes de precisión de modelo {#model-accuracy-reports}
             + [Acerca de los informes de precisión de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
             + Formatos de informe de precisión de modelo {#assist-report-formats}
                + [El [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)
@@ -365,23 +366,23 @@ ht-degree: 2%
          + [Crear una plantilla de alerta personalizada](/help/search-social-commerce/alerts/alert-template-create.md)
          + [Editar una plantilla de alerta personalizada](/help/search-social-commerce/alerts/alert-template-edit.md)
          + [Pausar una plantilla de alerta personalizada](/help/search-social-commerce/alerts/alert-template-pause.md)
-         + [Activar un plantilla personalizado alerta](/help/search-social-commerce/alerts/alert-template-activate.md)
-         + [Eliminar un plantilla de alerta personalizado](/help/search-social-commerce/alerts/alert-template-delete.md)
-         + [Configuración personalizada alerta plantilla](/help/search-social-commerce/alerts/alert-template-settings.md)
+         + [Activar una plantilla de alerta personalizada](/help/search-social-commerce/alerts/alert-template-activate.md)
+         + [Eliminar una plantilla de alerta personalizada](/help/search-social-commerce/alerts/alert-template-delete.md)
+         + [Configuración de plantilla de alerta personalizada](/help/search-social-commerce/alerts/alert-template-settings.md)
       + [Ver alertas personalizadas](/help/search-social-commerce/alerts/alert-view.md)
       + [Exportar datos para alertas personalizadas](/help/search-social-commerce/alerts/alert-export-data.md)
-   + [Ver el informe Historial de cambios](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations y publicador perspectivas {#recommendations}
-      + [Acerca del soporte de recomendaciones e información de publicador](/help/search-social-commerce/recommendations/recommendation-support.md)
-      + [Ver las recomendaciones de publicador y la información sobre el rendimiento](/help/search-social-commerce/recommendations/recommendation-view.md)
-      + [Aplicar o desestimar un recomendación de publicador](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)
+   + [Ver el informe Historial de Cambios](/help/search-social-commerce/reports/change-history-view.md)
+   + Recommendations y perspectivas del editor {#recommendations}
+      + [Acerca de las recomendaciones del editor y la compatibilidad con perspectivas](/help/search-social-commerce/recommendations/recommendation-support.md)
+      + [Vea las recomendaciones del editor y las perspectivas de rendimiento](/help/search-social-commerce/recommendations/recommendation-view.md)
+      + [Aplicar o descartar una recomendación del editor](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)
       + [Ver el registro de recomendaciones del editor de una cuenta](/help/search-social-commerce/recommendations/recommendation-view-log.md)
       + [Prácticas recomendadas para usar recomendaciones de editores con portafolios](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + Herramientas {#tools}
    + [Cambiar la contraseña](/help/search-social-commerce/tools/password-change.md)
    + Herramientas para crear y descodificar etiquetas de seguimiento {#tracking}
       + [Acerca de las herramientas para crear y descodificar etiquetas de seguimiento](/help/search-social-commerce/tools/tracking-tools-about.md)
-      + [Generación de un URL de seguimiento de clics](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [Generar una URL de seguimiento de clics](/help/search-social-commerce/tools/click-tracking-url-generate.md)
       + [Descodificación de una dirección URL de seguimiento de clics](/help/search-social-commerce/tools/click-tracking-url-decode.md)
       + [Generación de una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Cargando datos de conversión en las redes de anuncios {#upload-ad-networks}
@@ -410,9 +411,9 @@ ht-degree: 2%
       + [Ver las métricas de conversión rastreadas de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [Cambiar las métricas de conversión disponibles en las vistas de administración y en los informes](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [Cambiar el nombre para mostrar de una métrica de conversión](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + Administrar etiquetas de conversión y acciones de conversión específicas de la red de anuncios {#network-conversions}
+      + Administrar etiquetas de conversión y acciones/objetivos de conversión específicos de la red de anuncios {#network-conversions}
          + [Crear una etiqueta de conversión para  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + Administrando acciones de conversión {#conversion-actions}
+         + Administrar acciones y objetivos de conversión {#conversion-actions}
             + [Crear una acción de conversión para una  [!DNL Google Ads] conversión mejorada para posibles clientes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
             + [Carga de datos de conversión sin conexión para conversiones mejoradas](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [Obtener ayuda](get-help.md)
