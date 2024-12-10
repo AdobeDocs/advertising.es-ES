@@ -3,9 +3,9 @@ title: Acerca de la administración de anuncios en Advertising DSP
 description: Obtenga información acerca de la administración de anuncios.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP La entrega de anuncios es compatible con la entrega de anuncios mediante eti
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-Una vez configurados los anuncios, adjunte cada anuncio a una ubicación, que incluya los parámetros de segmentación (como ubicación geográfica, audiencia, dispositivo y segmentación de inventario) que controlan el modo en que se ofrece la campaña. Puede adjuntar un solo anuncio a una o varias ubicaciones.
+Una vez configurados los anuncios, vincule cada anuncio a una o más ubicaciones, que incluyen los parámetros de segmentación (como ubicación geográfica, audiencia, dispositivo y segmentación de inventario) que controlan el rendimiento de la campaña. Debe adjuntar un anuncio a una ubicación para comenzar a ejecutarlo.
 
 ## Tipos de publicidad disponibles {#ad-types}
 

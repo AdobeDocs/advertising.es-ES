@@ -3,9 +3,9 @@ title: Administrar fuentes de audiencia para activar audiencias de ID universal
 description: Obtenga información sobre cómo crear y administrar una fuente para importar audiencias desde la plataforma de datos del cliente y convertirlas en segmentos que contengan ID universales.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Después de crear una fuente para la plataforma de datos del cliente, deberá completar los pasos adicionales para importar la audiencia. Vea el [flujo de trabajo para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> el [flujo de trabajo para [!DNL Amperity]](source-amperity.md), el [flujo de trabajo para [!DNL Optimizely]](source-optimizely.md) y el [flujo de trabajo para [!DNL Tealium]](source-tealium.md).
+>Después de crear una fuente para la plataforma de datos del cliente, debe completar los pasos adicionales para importar la audiencia. Vea el [flujo de trabajo para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> el [flujo de trabajo para [!DNL Amperity]](source-amperity.md), el [flujo de trabajo para [!DNL Optimizely]](source-optimizely.md) y el [flujo de trabajo para [!DNL Tealium]](source-tealium.md).
 
 ## Cambio de los tipos de ID para un Audience Source
 
