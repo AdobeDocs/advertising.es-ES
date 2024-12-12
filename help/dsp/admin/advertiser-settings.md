@@ -2,9 +2,9 @@
 title: Configuración de cuenta del anunciante
 description: Consulte las descripciones de la configuración de anunciante disponible.
 role: User, Admin
-source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
+source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,9 @@ Puede anular la configuración de nivel de anunciante en [nivel de ubicación](/
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] clientes solamente; opcional) El identificador del segmento de seguridad de marca asociado con la cuenta de la organización [!DNL DoubleVerify].
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] solo clientes; opcional) Un ID de segmento [!DNL DoubleVerify Authentic Brand Safety] asociado a la cuenta [!DNL DoubleVerify] de la organización para usar de forma predeterminada en todas las ubicaciones. Especificar un ID bloquea las impresiones después de la oferta utilizando las reglas de seguridad de marca personalizadas configuradas para el ID de segmento especificado. DSP factura a su cuenta por el uso del ID de segmento.
 
-**[!UICONTROL Enable Authentic Brand Suitability]:** (opcional) de forma predeterminada, habilita [!DNL DoubleVerify Authentic Brand Safety], que bloquea las impresiones después de la oferta utilizando las reglas de seguridad de marca personalizadas configuradas para el ID de segmento especificado. DSP factura a su cuenta por el uso del ID de segmento.
-
-Puede anular la configuración de nivel de anunciante en el nivel de ubicación.
+El ID debe comenzar por &quot;51&quot; y constar de ocho dígitos. Puede cambiar o eliminar el ID de nivel de anunciante en el nivel de ubicación.
 
 >[!MORELIKETHIS]
 >

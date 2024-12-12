@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
+source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
 workflow-type: tm+mt
-source-wordcount: '3887'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,15 @@ Para especificar la segmentación de temas:
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
+**[!UICONTROL DoubleVerify ABS segment ID]:** (opcional; solo para clientes de [!DNL DoubleVerify]; disponible solo para la visualización de escritorio previa a la emisión, la visualización estándar y de clic para reproducción y las ubicaciones de vídeo y visualización nativas; no compatible con [ubicaciones predeterminadas garantizadas mediante programación para ofertas](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un ID de segmento de [!DNL DoubleVerify Authentic Brand Safety] asociado a la cuenta de la organización [!DNL DoubleVerify] que se utilizará para la ubicación. Especificar un ID bloquea las impresiones después de la oferta utilizando las reglas de seguridad de marca personalizadas configuradas para el ID de segmento especificado. DSP factura a su cuenta por el uso del ID de segmento.
+
+El ID debe comenzar por &quot;51&quot; y constar de ocho dígitos. De forma predeterminada, si se especifica un ID de segmento en la configuración de cuenta del anunciante, se introduce el ID de nivel de anunciante, pero puede cambiarlo para utilizar un segmento diferente o eliminar el ID para deshabilitar la función.
+
 **[!UICONTROL Contextual filtering]:** tipos de filtros contextuales [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] y [!DNL Peer39] que aplicar. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración:
+
+<!-- Looks like we didn't rename this:
+**[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
+-->
 
 * [!UICONTROL DoubleVerify]:
 
@@ -440,9 +448,7 @@ Qué nivel de filtrado de oferta previa de [Ads.txt](https://iabtechlab.com/ads-
 * *[!UICONTROL Ads.txt sellers only]*: para comprar inventario solamente de vendedores y revendedores directos autorizados de un dominio.
 * *[!UICONTROL Ads.txt sellers only]*: para comprar inventario solamente de los vendedores directos autorizados de un dominio.
 
-**[!UICONTROL Attention Targeting]:** (visualización, vídeo, móvil y ubicaciones de TV conectadas estándar) Segmenta [!DNL Adelaide] segmentos de oferta previa con un nivel de atención específico (alto, medio o bajo) según el sitio, el formato y el tamaño de anuncio especificados. Los segmentos se actualizan semanalmente. **Nota:** Al usar [!DNL Adelaide] segmentos para la segmentación, se incurre en una tarifa CPM por cada impresión entregada con una segmentación de atención de [!DNL Adelaide]; esta tarifa es independiente de las tarifas de [medición de atención](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para las ubicaciones interactivas previas a la emisión, solo se te cobrarán las impresiones VAST.
-
-**[!UICONTROL DoubleVerify Authentic Brand Safety]:** (Anunciantes configurados con la opción [!UICONTROL DoubleVerify Authentic Brand Safety]) Habilita [!DNL DoubleVerify Authentic Brand Safety], que bloquea las impresiones después de la oferta utilizando las reglas de seguridad de marca personalizadas configuradas para el ID de segmento especificado. DSP a su cuenta el uso del ID de segmento especificado en la configuración del anunciante.
+**[!UICONTROL Attention Targeting]:** (visualización, vídeo, móvil y ubicaciones de TV conectadas estándar) Segmenta [!DNL Adelaide] segmentos de oferta previa con un nivel de atención específico (alto, medio o bajo) según el sitio, el formato y el tamaño de anuncio especificados. Los segmentos se actualizan semanalmente. **Nota:** Al usar [!DNL Adelaide] segmentos para la segmentación, se incurre en una tarifa de CPM por cada impresión que se entrega con una segmentación de atención de [!DNL Adelaide]; esta tarifa es independiente de las tarifas de [medición de atención](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para las ubicaciones interactivas previas a la emisión, solo se te cobrarán las impresiones VAST.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
