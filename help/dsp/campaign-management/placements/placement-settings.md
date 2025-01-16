@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
+source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '3966'
 ht-degree: 0%
 
 ---
@@ -448,7 +448,7 @@ Qué nivel de filtrado de oferta previa de [Ads.txt](https://iabtechlab.com/ads-
 * *[!UICONTROL Ads.txt sellers only]*: para comprar inventario solamente de vendedores y revendedores directos autorizados de un dominio.
 * *[!UICONTROL Ads.txt sellers only]*: para comprar inventario solamente de los vendedores directos autorizados de un dominio.
 
-**[!UICONTROL Attention Targeting]:** (visualización, vídeo, móvil y ubicaciones de TV conectadas estándar) Segmenta [!DNL Adelaide] segmentos de oferta previa con un nivel de atención específico (alto, medio o bajo) según el sitio, el formato y el tamaño de anuncio especificados. Los segmentos se actualizan semanalmente. **Nota:** Al usar [!DNL Adelaide] segmentos para la segmentación, se incurre en una tarifa de CPM por cada impresión que se entrega con una segmentación de atención de [!DNL Adelaide]; esta tarifa es independiente de las tarifas de [medición de atención](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para las ubicaciones interactivas previas a la emisión, solo se te cobrarán las impresiones VAST.
+**[!UICONTROL Attention Targeting]:** (visualización, vídeo y ubicaciones de TV conectadas estándar) Segmenta [!DNL Adelaide] segmentos de oferta previa con un nivel de atención específico (alto, medio o bajo) según el sitio, el formato y el tamaño de anuncio especificados. Los segmentos se actualizan semanalmente. **Nota:** Al usar [!DNL Adelaide] segmentos para la segmentación, se incurre en una tarifa de CPM por cada impresión que se entrega con una segmentación de atención de [!DNL Adelaide]; esta tarifa es independiente de las tarifas de [medición de atención](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para las ubicaciones interactivas previas a la emisión, solo se te cobrarán las impresiones VAST.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
