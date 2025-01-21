@@ -3,7 +3,7 @@ title: Sincronizar manualmente datos de red de anuncios
 description: Obtenga información sobre cómo almacenar en déclencheur manualmente la sincronización de la estructura de la campaña y las entidades de campaña para las redes de publicidad admitidas.
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Para las campañas con la opción &quot;[!UICONTROL Auto Upload]&quot;, la opera
 
 1. Seleccione la casilla de verificación situada junto a cada cuenta o campaña que desee sincronizar. Puede sincronizar hasta 50 campañas a la vez. Si sincroniza más de cinco cuentas a la vez, el trabajo se divide en lotes de hasta cinco cuentas cada uno.
 
-1. Haga clic en **![Más](/help/search-social-commerce/assets/more.png "Más")** en la barra de herramientas y, a continuación, seleccione **[!UICONTROL Sync]**.
+1. Haga clic en ![**Más**](/help/search-social-commerce/assets/more.png " Más") en la barra de herramientas y, a continuación, seleccione **[!UICONTROL Sync]**.
 
 Puede seguir el estado del trabajo de sincronización en la vista [!UICONTROL Workspace]. El trabajo puede tardar
 una hora o más para que aparezca.
