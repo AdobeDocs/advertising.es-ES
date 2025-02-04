@@ -3,9 +3,9 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
+source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 0%
 
 **precisión de costos:** (Anunciantes con portafolios) El gasto real de un portafolio dividido por el gasto previsto. [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de coste que se usan para la optimización, y la [[!UICONTROL Model Accuracy]perspectiva](/help/search-social-commerce/advertising-insights/insight-about.md) incluye más detalles, además de recomendaciones para mejorar la precisión del modelo.
 
-**modelo de costo:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice el volumen de costo, la oferta necesaria para ganar cada posición o ubicación y el CPC (búsqueda) o el CPM (visualización) para cada unidad de oferta utilizando datos históricos y técnicas de previsión matemática.
+**modelo de costo:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice el volumen de costo, la oferta necesaria para ganar cada posición o ubicación y el CPC (búsqueda) o CPM (visualización) para cada unidad de oferta utilizando datos históricos y técnicas de previsión matemática.
 
 **Cobertura del modelo de costo:** (Anunciantes con portafolios) El número y/o porcentaje de unidades de oferta en campañas CPC o eCPC que han recibido al menos una impresión en los últimos siete días para que la capacidad de optimización pueda crear modelos de costo. No todas las unidades de oferta tienen modelos de coste; las unidades de oferta con modelos de coste se contabilizan en la cobertura del modelo de coste.
 
 **semivida del modelo de costo:** (Anunciantes con portafolios) Número de días antes de la fecha actual para el cual los datos de costo se consideran más recientes y, por lo tanto, más relevantes para los modelos de costo.
 
-**coste por 1000 impresiones:** (CPM) El coste de un anuncio por cada mil impresiones. Los anunciantes que utilizan un modelo de precios CPM pagan por impresiones en lugar de por clics.
+**coste por 1000 impresiones:** (CPM) El coste de un anuncio por cada mil impresiones. Los anunciantes que utilizan un modelo de precios de CPM pagan por impresiones en lugar de por clics.
 
 **coste por adquisición:** (CPA) El coste de un anuncio dividido por el número de conversiones. También se denomina coste por transacción (CPT) o coste por pedido (CPO).
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 
 **CPC:** Consulte &quot;costo por clic&quot;.
 
-**CPM:** Consulte &quot;costo por 1000 impresiones&quot;.
+**CPM:** Consulte &quot;Coste por 1000 impresiones&quot;.
 
 **CPO:** Consulte &quot;costo por pedido&quot;.
 
@@ -180,6 +180,8 @@ Tiene el mismo valor que la columna heredada Ingresos ponderados.
 **estrategia de gasto:** (Anunciantes con portafolios) La estrategia seleccionada para optimizar las ofertas de palabras clave o anuncios para un portafolio.
 
 **`s_kwcid`:** Consulte &quot;ID de AMO&quot;.
+
+**plantilla de seguimiento:** (cuentas solo con direcciones URL finales) La plantilla de seguimiento o la dirección URL de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje y parámetros de seguimiento e incrusta la dirección URL final o avanzada en un parámetro. Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload]&quot;, Search, Social y Commerce prefieren automáticamente su propio código de redirección y seguimiento al guardar el registro.
 
 **URL de seguimiento:** Una plantilla de seguimiento o una URL de destino con parámetros adicionales agregados para realizar el seguimiento de información sobre clics en el anuncio. Puede incluir una URL de redireccionamiento para enviar primero a los usuarios a un servidor de seguimiento antes de redirigirlos a la página de aterrizaje del anunciante.
 
