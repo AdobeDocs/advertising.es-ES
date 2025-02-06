@@ -3,9 +3,9 @@ title: Administrar audiencias de coincidencia de clientes mediante listas de dat
 description: Aprenda a crear y editar audiencias de coincidencia de clientes de  [!DNL Google Ads] y [!DNL Microsoft Advertising] a partir de sus listas de datos de clientes.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Para cuentas de [!DNL Microsoft Advertising], el archivo puede incluir direccion
 
 1. Genere un archivo con los datos del cliente en el formato requerido.
 
-   El nombre y los apellidos, las direcciones de correo electrónico y los números de teléfono deben tener un cifrado hash con el algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para audiencias de [!DNL Google Ads], consulte la documentación de [!DNL Google Ads] en &quot;[Directrices de formato para cargar datos con hash](https://support.google.com/google-ads/answer/7476159)&quot; para obtener una lista de los campos y requisitos de información de contacto permitidos. Para audiencias de [!DNL Microsoft Advertising], consulte la documentación de [!DNL Microsoft Advertising] en [preparación de listas de coincidencia de clientes](https://help.ads.microsoft.com/#apex/ads/en/56921. Si lo desea, puede descargar una plantilla [!DNL Microsoft Excel] para obtener información de contacto.
+   El nombre y los apellidos, las direcciones de correo electrónico y los números de teléfono deben tener un cifrado hash con el algoritmo SHA-256. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> Para audiencias de [!DNL Google Ads], consulte la documentación de [!DNL Google Ads] en &quot;[Directrices de formato para cargar datos con hash](https://support.google.com/google-ads/answer/7476159)&quot; para obtener una lista de los campos y requisitos de información de contacto permitidos. Para audiencias de [!DNL Microsoft Advertising], consulte la documentación de [!DNL Microsoft Advertising] sobre [preparación de listas de coincidencia de clientes](https://help.ads.microsoft.com/#apex/ads/en/56921). Si lo desea, puede descargar una plantilla [!DNL Microsoft Excel] para obtener información de contacto.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -54,11 +54,11 @@ Para cuentas de [!DNL Microsoft Advertising], el archivo puede incluir direccion
 
          * ([!DNL Android™] aplicaciones) El nombre del paquete [!DNL Android™] en [!DNL Google Play], identificado por &quot;`id=<package_name>`&quot;.
 
-           Por ejemplo, en https://play.google.com/store/apps/details?id=com.example.game, el nombre del paquete es com.example.game.
+           Por ejemplo, en `https://play.google.com/store/apps/details?id=com.example.game`, el nombre del paquete es com.example.game.
 
          * ([!DNL iOS] aplicaciones) El id. de aplicación dentro de [!DNL iTunes App Store], identificado por &quot;`<idNNNNNNNNN>`&quot; al final de la dirección URL. También está disponible en el [!DNL iOS Developer Console].
 
-           Por ejemplo, en https://itunes.apple.com/us/app/id284882215, el ID es id284882215.
+           Por ejemplo, en `https://itunes.apple.com/us/app/id284882215`, el identificador es id284882215.
 
          Su equipo de desarrollo tiene acceso a [!UICONTROL App ID] para la plataforma correspondiente.
 
