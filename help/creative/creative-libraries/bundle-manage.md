@@ -1,0 +1,254 @@
+---
+title: Administrar paquetes creativos
+description: Más información sobre xxxx.
+feature: Creative Bundles
+source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+workflow-type: tm+mt
+source-wordcount: '1125'
+ht-degree: 0%
+
+---
+
+# Administrar paquetes creativos
+
+*Beta cerrada*
+
+<!--
+**I'll probably split this up into multiple pages since the creative-related topics are separate**
+-->
+
+Los paquetes son grupos de creativos que se pueden añadir a una experiencia como una unidad. Después de crear un contenedor de paquetes, puede adjuntar elementos creativos al paquete. Los paquetes estándar solo pueden contener anuncios estándar y los paquetes dinámicos solo pueden contener anuncios dinámicos. Puede anular las páginas de aterrizaje, las etiquetas de seguimiento de impresiones y las etiquetas de rastreo de clics de todos los creativos de un paquete asignado a una experiencia desde el árbol de decisión de experiencias sin afectar a los creativos de base.
+
+[!DNL Creative] rota entre los elementos creativos del paquete según se ha especificado para cada experiencia a la que se ha asignado el paquete. Opcionalmente, puede permitir que [!DNL Creative] optimice los elementos de publicidad para cualquier experiencia en función del rendimiento mediante la rotación algorítmica de anuncios, que funciona con Adobe Sensei.
+
+Para habilitar la optimización de los elementos de publicidad en los paquetes de una experiencia de publicidad, cada paquete puede incluir solo una de cada combinación \[tamaño creativo + idioma\]. Por ejemplo, si un paquete incluye un creativo de 250 x 250 con un idioma predeterminado de &quot;francés&quot;, no puede añadir un segundo creativo de 250 x 250 con un idioma predeterminado de &quot;francés&quot;. Si tiene varios creativos del mismo tamaño en el mismo idioma, añádalos por separado a la experiencia.
+
+Los elementos creativos adjuntos a los paquetes siguen estando disponibles como elementos creativos individuales. Puede añadir un solo elemento creativo a varios paquetes. Si edita cualquier configuración de un elemento creativo que esté adjunto a un paquete, los cambios se propagarán al paquete. Sin embargo, para la experiencia siempre se utiliza cualquier página de aterrizaje personalizada, etiquetas de seguimiento de impresiones y etiquetas de seguimiento de clics configuradas para el creativo dentro de una experiencia.
+
+<!-- multiselect only to duplicate and delete -->
+
+## Crear un paquete para una biblioteca creativa
+
+Puede adjuntar un elemento creativo a varios paquetes.
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. En la esquina superior derecha, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
+
+1. Escriba un(a) **[!UICONTROL Bundle Name]** único(a) y el(la) **[!UICONTROL Bundle Type]:** *Estándar* (para los creativos estándar) o *Dinámico* (para los creativos dinámicos.
+
+1. Haga clic en **[!UICONTROL Create]**.
+
+## Enumerar los elementos creativos en un paquete
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Haga clic en la tarjeta o fila del paquete para ver todos los creativos del paquete.
+
+## Paquetes duplicados
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Seleccione los paquetes que desea duplicar:
+
+   * Para duplicar un solo paquete:
+
+      * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Duplicate]**.
+
+      * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Duplicate]**.
+
+   * Para duplicar uno o más paquetes, active la casilla de verificación de cada paquete que desee duplicar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Duplicate].**
+
+     Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
+
+   Los nuevos paquetes reciben el nombre `<original name> (copy) # 1` (o el siguiente número de la secuencia). Por ejemplo, si crea dos duplicados de &quot;Paquete de prueba&quot;, los duplicados se denominarán &quot;Paquete de prueba (copia) # 1&quot; y &quot;Paquete de prueba (copia) # 2&quot;.
+
+## Editar un nombre de paquete
+
+Los cambios en un nombre de paquete se propagan por todas las experiencias asociadas.
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Seleccione el paquete:
+
+   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre de la biblioteca y, a continuación, haga clic en **[!UICONTROL Edit]**.
+
+   * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Edit]**.
+
+1. Editar **[!UICONTROL Bundle Name]**.
+
+   [!UICONTROL Bundle Name] debe ser único.
+
+1. Haga clic en **[!UICONTROL Update]**.<!-- inconsistent with "Edit" for creative libraries and creatives -->
+
+## Adjuntar elementos creativos a un paquete
+
+Puede adjuntar [creativos estándar existentes](/help/creative/creative-libraries/creative-libraries-about.md) a un paquete estándar y adjuntar los creativos dinámicos existentes <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a un paquete dinámico. Al adjuntar un elemento creativo a un paquete, este estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete solo puede incluir una de cada combinación \[creative size + language\].
+
+>[!NOTE]
+>
+>También puede [adjuntar elementos creativos a paquetes desde las vistas Anuncios estándar y Anuncios dinámicos](creative-attach-detach-bundles.md).
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Seleccione el paquete:
+
+   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Attach Creatives]**.
+
+   * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Attach Creatives]**.
+
+   Cada creativo apto para el tipo de paquete se muestra en el cuadro derecho. Los elementos creativos que ya están adjuntos al paquete se muestran, pero no se pueden seleccionar.
+
+1. En el cuadro derecho, active la casilla de verificación situada junto a cada elemento creativo que desee adjuntar al paquete y, a continuación, haga clic en **[!UICONTROL Attach Creative to Bundle]**.
+
+## Desasociar creativos de un paquete {#bundle-detach-creatives}
+
+Al separar un elemento creativo de un paquete, se elimina la asociación entre ambos, de modo que el elemento creativo ya no se utilice para experiencias dirigidas al paquete.
+
+Al separar un creativo del paquete, no se elimina el creativo de la pestaña Creativos de la biblioteca creativa.
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Haga clic en la tarjeta o fila del paquete para ver todos los creativos del paquete.
+
+1. Seleccione los elementos creativos que desea desasociar del paquete:
+
+   * Para separar un solo elemento creativo:
+
+      * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del creativo y, a continuación, haga clic en **[!UICONTROL Detach]**.
+
+      * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Detach]**.
+
+   * Para separar uno o más creativos, marque la casilla de verificación de cada creativo que desee separar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Detach]**.
+
+     Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
+
+## Previsualización de un elemento creativo en un paquete
+
+Puede obtener una vista previa de un elemento creativo tal y como lo verán los visualizadores, con hipervínculos.
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Haga clic en la tarjeta o fila del paquete para ver todos los creativos del paquete.
+
+1. Seleccione el creativo:
+
+   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del creativo y, a continuación, haga clic en **[!UICONTROL Preview]**.
+
+   * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Preview]**.
+
+1. (Opcional) Para cambiar el tamaño de la imagen en la pantalla, seleccione una opción en la lista **[!UICONTROL Zoom]**, del 10% al 100% del tamaño de la imagen.
+
+<!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
+
+1. (Opcional) Para descargar el elemento creativo, haga clic en ![Descargar](/help/creative/assets/download.png "Descargar").
+
+   El archivo se descarga según el procedimiento normal del explorador.
+
+
+<!-- Not there as of 1/22/25:
+
+## Edit the landing page and tracking tags for the creatives in a standard creative bundle
+
+*Standard creative bundles only*
+
+[Verify and edit all this, including the command names and where they're available. This is supposed to be a single and bulk action from within the right frame when you've open bundle details for a single bundle -- not from the Bundles table view.]
+
+This procedure customizes the landing page, impression-tracking tags, and click-tracking tags for the creatives only within the context of the bundle. It doesn't change the settings for the base creative in [!UICONTROL Creative Libraries].
+
+The custom URL and tags are applied to a creative when the bundle is assigned to an experience and the creative is served for the experience.
+
+1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Optional) [Customize the view](/help/creative/introduction/customize-data-views.md) to include specific libraries.
+
+1. Click the library name.
+
+1. Click the **[!UICONTROL Bundles]** tab.
+
+1. Click the bundle name.
+
+1. In the right pane, XXXXXXXXXXXX.
+
+1. 
+
+1. Edit any of the following settings: **[!UICONTROL Landing Page]**, **[!UICONTROL Click Tags]**, **[!UICONTROL Impression Tags]**.[Verify, and is can you do this for only one creative or is multiselect available?]
+
+1.
+
+ -->
+
+## Eliminar paquetes
+
+Puede eliminar paquetes que no estén asignados a una experiencia en directo.<!-- Add an x-ref?  --> Si se asigna un paquete a una experiencia en directo, elimine el paquete del árbol de decisión de la experiencia <!-- add x-ref --> antes de continuar.
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Seleccione los paquetes que desea eliminar:
+
+   * Para eliminar un solo paquete:
+
+      * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Delete]**.
+
+      * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Delete]**.
+
+   * Para eliminar uno o varios paquetes, active la casilla de verificación de cada paquete que desee eliminar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Delete].**
+
+     Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
+
+1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete].**
+
+<!--
+>* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
+>* [How the user interface is organized](/help/creative/introduction/ui.md)
+-->
+
+>[!MORELIKETHIS]
+>
+>* [Asignar y cancelar la asignación de paquetes creativos a un nodo final en una experiencia](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Administrar bibliotecas creativas](/help/creative/creative-libraries/creative-library-manage.md)
+>* [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)

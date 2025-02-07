@@ -1,0 +1,58 @@
+---
+title: El diseño del árbol de decisión
+description: Obtenga información acerca del diseño del árbol de decisión para experiencias con segmentación.
+feature: Creative Experiences
+source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 0%
+
+---
+
+# Diseño del árbol de decisión para experiencias de [!DNL Creative]
+
+*Beta cerrada*
+
+Al habilitar la opción &quot;[!UICONTROL Targeting]&quot; para una experiencia, configura la experiencia mediante un árbol de decisión.
+
+Inicialmente, cada árbol de decisión comienza con el nivel raíz, &quot;Todos&quot;. Puede agregar uno o más nodos de destino y, a continuación, asignar paquetes creativos a los nodos finales en cada rama del árbol de decisión.
+
+<!--
+>[!NOTE]
+>
+>You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
+-->
+
+<!-- insert screen capture -->
+
+## Términos
+
+**Árbol:** La estructura general de toma de decisiones como un árbol con ramas.
+
+**Nodo de destino:** Un destino dentro de una rama.
+
+**Nodo de hoja:** Un conjunto de elementos creativos asignados a un nodo de destino final.
+
+## Destinos en un árbol de decisión
+
+Cada árbol de decisión puede tener hasta cinco niveles de destinatarios. Cada nivel de destino puede incluir varias ramas, cada una con uno o más nodos con el mismo tipo de destino (segmento de audiencia, tipo de ubicación geográfica, valores para claves de paso de datos especificadas, atributos para un píxel de retargeting especificado o categoría de dispositivo). Puede asignar paquetes creativos en cada tamaño de anuncio para el que haya especificado un creativo de imagen predeterminado a los nodos de destino de nivel inferior.
+
+<!--insert screen capture -->
+
+Cuando se añade un nodo de destino al nivel final, se especifica el destino para el nuevo nodo. Se crea automáticamente un nodo secundario adicional, &quot;Todo lo demás&quot;, para todos los que no coincidan con el destino especificado. A continuación, puede agregar nodos hermanos adicionales con diferentes destinos del mismo tipo.
+
+Sin embargo, cuando se inserta un nodo de destino entre los niveles existentes, el primer nodo del nuevo nivel se asigna inicialmente a &quot;Todo&quot;. Para identificar un objetivo específico, cree un nodo de destino relacionado en el mismo nivel, para el cual especifique el objetivo real. Esto crea el nodo de destino y reemplaza el nodo &quot;Todo&quot; por un nodo &quot;Todo lo demás&quot; (que incluye todos los paquetes creativos asignados previamente a Todo). A continuación, puede agregar nodos hermanos adicionales con diferentes destinos del mismo tipo.
+
+Para todos los nodos principales, puede copiar opcionalmente todos los nodos de destino secundarios y paquetes creativos y pegarlos en otro nodo en el mismo nivel, añadiéndolos al marco de trabajo existente o reemplazando el marco de trabajo existente.
+
+## Creativos en un árbol de decisión
+
+Asigne paquetes creativos a cada nodo de destino final de la experiencia.
+
+Dentro de cada nodo con paquetes creativos, puede optar por rotar los elementos creativos incluidos según determinadas ponderaciones o de forma algorítmica para optimizar la tasa de pulsaciones o un objetivo personalizado. Si lo desea, también puede rotar los elementos creativos en una secuencia temporal especificada utilizando las mismas opciones.
+
+Opcionalmente, puede personalizar las direcciones URL de la página de aterrizaje, las direcciones URL de seguimiento de impresiones y las direcciones URL de seguimiento de clics, según sea necesario para los creativos individuales. <!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
+
+>[!MORELIKETHIS]
+>
+>* [Acerca de las experiencias en Advertising Creative 2.0](experience-about.md)
