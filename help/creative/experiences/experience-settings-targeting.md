@@ -1,0 +1,99 @@
+---
+title: Configuración de experiencias segmentadas
+description: Consulte las descripciones de todos los ajustes para experiencias de anuncios segmentados.
+feature: Creative Experiences
+source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
+
+---
+
+# Configuración de experiencias publicitarias segmentadas
+
+*Beta cerrada*
+
+## [!UICONTROL Experience basics] sección
+
+**[!UICONTROL Advertiser]:** (solo lectura para experiencias existentes) El anunciante que pujará por las combinaciones creativas y de destino incluidas en la experiencia. Una vez guardada la experiencia, no se puede cambiar el anunciante.
+
+**[!UICONTROL Experience Name]:** Un nombre único para la experiencia. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando use la experiencia como anuncio en Advertising DSP DSP u otro tipo de.
+
+**[!UICONTROL Creative Library]:** (solo lectura para experiencias existentes) Una sola biblioteca creativa para usar en la experiencia. Una vez guardada la experiencia, no se puede cambiar la biblioteca.
+
+## [!UICONTROL Default creatives] sección
+
+**\[Creativos predeterminados especificados\]:** Los creativos de imagen predeterminados que se deben usar cuando un explorador no puede mostrar los creativos asignados a la experiencia, como cuando el explorador no está habilitado para JavaScript o el servidor de publicidad no puede personalizar el anuncio debido a retrasos. Incluya un elemento creativo de imagen por tamaño de anuncio al que se aplique la experiencia. Las opciones determinan los tamaños creativos que se pueden usar para la experiencia.<!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. This feels a little wonky in that there isn't a distinct/obvious "Creative Sizes" setting to reference. -->
+
+En el caso de las experiencias con segmentación del árbol de decisión, puede anular los elementos creativos predeterminados con paquetes creativos que contengan elementos creativos del mismo tamaño desde el árbol de decisión.<!-- verify -->
+
+* Para agregar un elemento creativo predeterminado con diferentes dimensiones, haga clic en **[!UICONTROL + Add Sizes]**, active la casilla de verificación situada junto a cada elemento creativo que desee agregar en el panel derecho y, a continuación, haga clic en **[!UICONTROL Add Creatives]**.
+
+* Para eliminar un elemento creativo predeterminado, mantenga el cursor sobre la miniatura creativa y haga clic en ![Eliminar](/help/creative/assets/delete.png "Eliminar").
+
+* Para eliminar todos los elementos creativos predeterminados, haga clic en ![Eliminar](/help/creative/assets/delete.png "Eliminar") **[!UICONTROL Delete all]**.
+
+* Para mostrar u ocultar el panel Creativos de la derecha, haga clic en ![Mostrar/Ocultar](/help/creative/assets/hide-show-creatives.png "Mostrar/Ocultar") en la parte superior derecha del panel derecho.
+
+## [!UICONTROL Targeting] sección
+
+**[!UICONTROL Targeting]:** (solo lectura para experiencias existentes) Habilita el direccionamiento creativo mediante un árbol de decisión y la creación automática de etiquetas. Una vez guardada la experiencia, no se puede cambiar esta configuración.
+
+**[!UICONTROL Dynamic ads]:** (solo lectura para experiencias existentes) Indica que la experiencia incluye anuncios dinámicos. **Nota:** Una experiencia puede incluir todos los anuncios estándar o todos los anuncios dinámicos. Una vez guardada la experiencia, no se puede cambiar esta configuración.
+
+**[!UICONTROL Language Targeting]:** (solo experiencias con anuncios estándar; opcional; solo lectura para experiencias existentes) Comprueba la configuración de idioma del explorador del usuario y muestra un elemento creativo en el idioma especificado cuando hay un elemento creativo disponible en ese idioma. Cuando un elemento creativo en el idioma especificado por el explorador no está disponible, se utiliza la configuración [!UICONTROL Preferred language] en su lugar.
+
+Una vez guardada la experiencia, no se puede cambiar esta configuración.
+
+**[!UICONTROL Preferred language]:** (Experiencias solo con anuncios estándar; solo lectura para experiencias existentes) El idioma para todos los anuncios creados a partir de la experiencia, excepto cuando [!UICONTROL Language Targeting] está habilitado. Una vez guardada la experiencia, no se puede cambiar esta configuración.
+
+## [!UICONTROL Advanced] sección
+
+DSP **Transferencia de datos:** (solo lectura para experiencias existentes; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que el usuario, el editor o el socio transfieren en tiempo real al imprimir. Puede especificar hasta cinco claves de paso de datos (parámetros). Al configurar el direccionamiento dentro del árbol de decisión, se puede incluir un nivel de datos para pasar a los nodos de destino y especificar los valores que se van a destinar a cada nodo. Si no especifica una clave en este campo al crear la experiencia, aún puede especificar una en el árbol de decisión.<!-- May move this to just within the decision tree.  -->
+
+Cada clave se anexa como una macro en la experiencia publicitaria
+DSP , que puede generar para implementarlo como un anuncio en su.
+
+**Radio:** (solo experiencias con anuncios dinámicos; opcional) Un radio de usuario a destino. Seleccione un radio de 0 millas a 200 millas.<!-- Affect within the decision tree? -->
+
+**Píxel RT:** (solo lectura para experiencias existentes; opcional) Un píxel de retargeting de [!UICONTROL Creative] a destino potencial. Al configurar el direccionamiento dentro del árbol de decisión, puede incluir un nivel de nodos de destino de píxeles de RT y especificar el píxel de destino para cada nodo, así como los valores necesarios para los atributos del píxel que deben estar presentes para mostrar los creativos en los paquetes creativos asignados. Si no especifica un píxel en este campo al crear la experiencia, aún puede especificar uno dentro del árbol de decisión.<!-- May move this to just within the decision tree. -->
+
+**Etiqueta:** <!-- should be "Labels" --> (opcional) Cualquier etiqueta específica de [!DNL Creative] que se aplique a la experiencia. Puede filtrar experiencias por etiqueta en la vista Experiencias<!-- sic -->.
+
+* Para seleccionar etiquetas existentes, haga clic en ![Abajo](/help/creative/assets/chevron-down.png "Abajo") y active la casilla de verificación situada junto a cada etiqueta que desee aplicar.
+
+* Para buscar etiquetas existentes, empiece a introducir una cadena de texto dentro del nombre de la etiqueta.
+
+* Para crear una etiqueta nueva para aplicar, abra la lista, haga clic en **+ Agregar etiqueta**, escriba un nombre de etiqueta nuevo en el campo [!UICONTROL Label] y, a continuación, haga clic en **Crear**.
+
+* Para quitar una etiqueta, anule la selección de la casilla de verificación situada junto al nombre de la etiqueta.
+
+**URL de seguimiento de impresión:** (opcional) una dirección URL de seguimiento de impresiones de terceros que se anexará a la dirección URL de la página de aterrizaje para cualquier anuncio creado a partir de la experiencia. Se pueden incluir hasta cinco direcciones URL. Para agregar una dirección URL adicional, haz clic en ![icono](/help/creative/assets/create.png) **[!UICONTROL Add More] e ingresa la dirección URL.
+
+Una vez introducida una dirección URL, todas las macros disponibles y los datos con los que se sustituyen se muestran más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
+
+>[!NOTE]
+>
+>* [!DNL Creative] prefija automáticamente sus propias etiquetas de seguimiento de impresiones a la dirección URL de la página de aterrizaje.
+>* Puedes [anular esta URL para cualquier creativo de la experiencia](experience-tracking-urls-targeting.md).
+>* También puede introducir código de seguimiento de impresiones de JavaScript de terceros en el campo [!UICONTROL Client JS]
+
+**URL de rastreo de clics:** (opcional) (opcional) Una URL de rastreo de clics de terceros que se anexará a la dirección URL de la página de aterrizaje. Se pueden incluir hasta cinco direcciones URL. Para agregar una dirección URL adicional, haz clic en ![icono](/help/creative/assets/create.png) **[!UICONTROL Add More] e ingresa la dirección URL.
+
+Una vez introducida una dirección URL, todas las macros disponibles y los datos con los que se sustituyen se muestran más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
+
+>[!NOTE]
+>
+>* [!DNL Creative] prefija automáticamente sus propias etiquetas de seguimiento de impresiones a la dirección URL de la página de aterrizaje.
+>* Puedes [anular esta URL para cualquier creativo de la experiencia](experience-tracking-urls-targeting.md).
+
+**JS de cliente:** (opcional) Cualquiera de los siguientes:
+
+* (Cuando el anunciante utiliza un proveedor de cumplimiento de OBA para los anuncios) Código JavaScript que señala a la superposición de anuncio que permite a los usuarios excluirse de la segmentación por comportamiento en línea (OBA).
+
+* Cualquier código de seguimiento de impresiones de JavaScript de terceros que se adjunte a la página de aterrizaje. **Nota:** También puede escribir una dirección URL de seguimiento de impresiones de terceros en el campo [!UICONTROL Impression Tracking URL].
+
+>[!MORELIKETHIS]
+>
+>* [Crear una experiencia con segmentación de árbol de decisión](experience-create-targeting.md)
+>* [Editar una experiencia con segmentación en árbol de decisiones](experience-edit-targeting.md)
