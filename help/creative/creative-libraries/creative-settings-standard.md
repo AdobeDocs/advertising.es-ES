@@ -2,9 +2,10 @@
 title: Ajustes creativos
 description: Más información sobre xxxx.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -83,7 +84,7 @@ Para reemplazar la plantilla de publicidad existente:
 
    Consulte las [especificaciones de anuncios flexibles](#flexible-ad-spec).
 
-1. Edite el nuevo [HTML flexible y la configuración](#flexible-ad-settings) según sea necesario.
+1. Edite la nueva [configuración flexible de anuncios de HTML](#flexible-ad-settings) según sea necesario.
 
 1. Haga clic **[!UICONTROL Edit]**
 
@@ -99,13 +100,13 @@ Para los nuevos creativos, las siguientes configuraciones no están en una pesta
 
 **Tamaño creativo:** (solo lectura para los creativos existentes) Dimensiones del creativo. Si alguna de las imágenes incluidas en el elemento creativo es más grande que el tamaño especificado, se cambia su tamaño en consecuencia.
 
-**[!UICONTROL Click Tags]:** (solo creativos de HTML estático5) Las variables que permiten redirecciones de rastreo de clics desde los anuncios de banner incluidos. Los nombres de las variables y las direcciones URL de la página de aterrizaje correspondiente se rellenan desde la unidad creativa cargada, pero puede cambiar las direcciones URL predeterminadas. Para varios elementos creativos, puede editar las etiquetas de clic individuales.
+**[!UICONTROL Click Tags]:** (solo creativos estáticos de HTML5) Las variables que permiten redirecciones de rastreo de clics desde los anuncios de banner incluidos. Los nombres de las variables y las direcciones URL de la página de aterrizaje correspondiente se rellenan desde la unidad creativa cargada, pero puede cambiar las direcciones URL predeterminadas. Para varios elementos creativos, puede editar las etiquetas de clic individuales.
 
 >[!NOTE]
 >
 >Al incluir el elemento creativo en una experiencia, puede reemplazar el valor predeterminado de cualquiera de las etiquetas de clic con una dirección URL de página de aterrizaje personalizada para generar una derivación del elemento creativo base.
 
-**URL de página de aterrizaje:** (creativos de HTML simple5 con una sola página de aterrizaje) La dirección URL de la página de aterrizaje predeterminada para cada anuncio con el que asocia los creativos. Debe ser una dirección URL válida que comience por http:// o https://. Puede incluir parámetros de seguimiento de terceros o [[!DNL Creative] macros](/help/creative/creative-macros.md) para su propio uso.
+**URL de página de aterrizaje:** (creativos simples de HTML5 con una sola página de aterrizaje) La URL de la página de aterrizaje predeterminada para cada anuncio con el que asocia los creativos. Debe ser una dirección URL válida que comience por http:// o https://. Puede incluir parámetros de seguimiento de terceros o [[!DNL Creative] macros](/help/creative/creative-macros.md) para su propio uso.
 
 Cuando se incluye un elemento creativo en un paquete y se asigna el paquete a una experiencia, se puede, opcionalmente, cambiar la dirección URL de la página de aterrizaje, así como añadir direcciones URL de rastreo de clics y impresiones y JavaScript para cada elemento creativo del paquete. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -121,9 +122,9 @@ Cuando se incluye un elemento creativo en un paquete y se asigna el paquete a un
 
 ### Pestaña Plantilla
 
-*Solo HTML estáticos existentes5*
+*Solo creativos estáticos de HTML5 existentes*
 
-El archivo de plantilla de HTML5 para el creativo.
+El archivo de plantilla HTML5 para el creativo.
 
 Si lo desea, puede reemplazar la plantilla existente por una nueva plantilla que tenga un diseño diferente pero el mismo conjunto de nombres de atributos que la plantilla original. La nueva plantilla debe estar en formato ZIP con un máximo de 2 MB. Cuando el creativo está en un paquete, todas las experiencias que utilicen el paquete utilizarán posteriormente el diseño de la nueva plantilla.
 
@@ -143,7 +144,7 @@ Para reemplazar la plantilla de publicidad existente:
 
    Consulte las [especificaciones del anuncio de HTML](html5-creative-specification.md).
 
-1. Edite el nuevo [HTML 5 y la configuración](#creative-settings-html5) según sea necesario.
+1. Edite la nueva [configuración de anuncios de HTML5](#creative-settings-html5) según sea necesario.
 
 1. Haga clic **[!UICONTROL Edit]**
 
@@ -173,9 +174,9 @@ Cuando se incluye un elemento creativo en un paquete y se asigna el paquete a un
 
 **JavaScriptCode:** Una etiqueta de JavaScript (y opcionalmente una etiqueta alternativa para los navegadores que no admiten JavaScript) que señala al elemento creativo en el servidor de publicidad de terceros. La secuencia de comandos variará según el servidor de publicidad. Cuando edita varios creativos, se aplica el mismo valor a cada creativo seleccionado.
 
-Todas las macros disponibles y los datos con los que se sustituyen se enumeran debajo del campo de entrada. Para insertar una de las macros en la etiqueta, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la imagen donde desee dentro de la etiqueta.
+Todas las [macros disponibles](/help/creative/creative-macros.md) y los datos con los que se han sustituido se muestran debajo del campo de entrada. Para insertar una de las macros en la etiqueta, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la imagen donde desee dentro de la etiqueta.
 
-DSP DSP Cuando se incluye este elemento creativo en una experiencia que se implementa como anuncio de un, el usuario utiliza la información de esta etiqueta para mostrar el anuncio y para rastrear impresiones y clics en él y, a continuación, inserta la etiqueta en el intercambio de anuncios. DSP Cuando se muestra el anuncio y se hace clic en él, el servidor de publicidad, el y [!DNL Creative] realizarán un seguimiento de los eventos.
+Cuando se incluye este elemento creativo en una experiencia que se implementa como anuncio desde un DSP, el DSP utiliza la información de esta etiqueta para mostrar el anuncio y rastrear impresiones y clics en él y, a continuación, inserta el distintivo en el intercambio de anuncios. Cuando se muestra y se hace clic en el anuncio, el servidor de publicidad, DSP y [!DNL Creative] realizarán un seguimiento de los eventos.
 
 **[!UICONTROL Advertiser]:** (solo lectura) El anunciante para el que la biblioteca está disponible.
 
@@ -201,3 +202,4 @@ u
 >
 >* [Agregar elementos creativos estándar a una biblioteca creativa](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Editar elementos creativos estándar](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)

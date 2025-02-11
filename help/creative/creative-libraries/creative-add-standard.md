@@ -2,9 +2,10 @@
 title: Añadir elementos creativos estándar a una biblioteca creativa
 description: Aprenda a añadir elementos creativos estándar (no dinámicos) a una biblioteca creativa.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -58,7 +59,7 @@ Puede cargar varias unidades creativas flexibles. Los elementos creativos flexib
 
    * Para quitar un archivo, anule la selección de la casilla de verificación situada junto a él.
 
-1. Especifique la [configuración flexible del anuncio de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
+1. Especifique la [configuración flexible de anuncios de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
    De forma predeterminada, se seleccionan todos los elementos creativos que acaba de cargar. Cualquier configuración con un solo valor se aplica a todos los creativos seleccionados; para algunos ajustes, puede especificar valores individuales. Para especificar la configuración de los elementos creativos específicos, anule la selección de la casilla de verificación situada junto a cada elemento creativo no aplicable.
 
@@ -103,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## Añadir un elemento creativo de HTML5 a una biblioteca creativa
 
-<!-- verify -->Puede agregar varios creativos de HTML5 de un solo tipo (simples o estáticos) a la vez.
+<!-- verify -->Puede añadir varios creativos de HTML5 de un solo tipo (simples o estáticos) a la vez.
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -111,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->También puede [agregar elementos creativos flexibles de HTML5](#flexible-creative-add), que son elementos creativos de HTML5 con todos sus atributos como etiquetas de HTML estándar que puede editar directamente en [!DNL Creative].
+>También puede [agregar elementos creativos flexibles de HTML5](#flexible-creative-add), que son elementos creativos de HTML5 con todos sus atributos como etiquetas estándar de HTML que puede editar directamente en [!DNL Creative].
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -137,9 +138,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Haga clic en **[!UICONTROL select a file]** para localizar el archivo en su dispositivo o red.
 
-   Consulte la [especificación de anuncio del HTML 5](/help/creative/creative-libraries/html5-creative-specification.md).
+   Consulte la [especificación de anuncio de HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
-1. Especifique la [configuración del anuncio del HTML 5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
+1. Especifique la [configuración del anuncio de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
 
 De forma predeterminada, se seleccionan todos los elementos creativos que acaba de cargar. Cualquier configuración con un solo valor se aplica a todos los creativos seleccionados; para algunos ajustes, puede especificar valores individuales. Para especificar la configuración de los elementos creativos específicos, anule la selección de la casilla de verificación situada junto a cada elemento creativo no aplicable.
 
@@ -175,7 +176,7 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 
 1. Haga clic **[!UICONTROL Create]**
 
-## Añadir un elemento creativo de terceros a una biblioteca creativa
+## Añadir un elemento creativo de terceros a una biblioteca creativa {#creative-add-third-party}
 
 [!DNL Creative] admite etiquetas de seguimiento de JavaScript para creativos alojados en la mayoría de los servidores de publicidad de terceros.
 
@@ -187,9 +188,9 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 
 1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
 
-1. Especifique la etiqueta de JavaScript y otras opciones de configuración para el creativo en la [configuración de creativos de terceros].
+1. Especifique la etiqueta de JavaScript y otras opciones de configuración para el creativo en la [configuración de creativos de terceros](#creative-settings-third-party).
 
-   Puede copiar y pegar cualquiera de las macros disponibles en la etiqueta de JavaScript.
+   Puede copiar y pegar cualquiera de las [macros disponibles](/help/creative/creative-macros.md) en la etiqueta de JavaScript.
 
 1. Haga clic **[!UICONTROL Create]**
 
@@ -197,6 +198,7 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 >
 >* [Editar elementos creativos estándar](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [Configuración creativa estándar](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 >* [Tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md)
 >* [Previsualizar un elemento creativo](/help/creative/creative-libraries/creative-preview.md)
 >* [Adjuntar y desasociar elementos creativos de paquetes](/help/creative/creative-libraries/creative-attach-detach-bundles.md)

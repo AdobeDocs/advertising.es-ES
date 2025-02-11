@@ -2,9 +2,10 @@
 title: Configuración de experiencias sin objetivo
 description: Consulte las descripciones de todas las configuraciones para experiencias de publicidad sin segmentación del árbol de decisiones.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: aeeca035-8ae2-4173-827a-b8690d228549
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (solo lectura para experiencias existentes) El anunciante que pujará por los creativos incluidos en la experiencia. Una vez guardada la experiencia, no se puede cambiar el anunciante.
 
-**[!UICONTROL Experience Name]:** Un nombre único para la experiencia. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando use la experiencia como anuncio en Advertising DSP DSP u otro tipo de.
+**[!UICONTROL Experience Name]:** Un nombre único para la experiencia. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando use la experiencia como anuncio en Advertising DSP u otro DSP.
 
 **[!UICONTROL Creative Library]:** (solo lectura para experiencias existentes) Una sola biblioteca creativa para usar en la experiencia. Una vez guardada la experiencia, no se puede cambiar la biblioteca.
 
@@ -47,9 +48,9 @@ En el caso de las experiencias sin segmentación en el árbol de decisiones, pue
 
 ## [!UICONTROL Advanced] sección
 
-DSP **Transferencia de datos:** (experiencias solo con anuncios dinámicos; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que el usuario, el editor o el socio transfieren en tiempo real al imprimir. Puede especificar hasta cinco claves de paso de datos (parámetros).<!-- May move this to just within the decision tree. -->
+**Transferencia de datos:** (solo experiencias con anuncios dinámicos; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que DSP, el editor o el socio transfieren en tiempo real al imprimir. Puede especificar hasta cinco claves de paso de datos (parámetros).<!-- May move this to just within the decision tree. -->
 
-Cuando más adelante cree una etiqueta de experiencia de anuncio para un tamaño creativo específico, cada clave especificada en este campo se anexa como una macro en la etiqueta. DSP Debe introducir el valor de cada par clave-valor dentro de la etiqueta antes de implementar la etiqueta como un anuncio en la.
+Cuando más adelante cree una etiqueta de experiencia de anuncio para un tamaño creativo específico, cada clave especificada en este campo se anexa como una macro en la etiqueta. Debe introducir el valor de cada par clave-valor dentro de la etiqueta antes de implementar la etiqueta como un anuncio en DSP.
 
 **Radio:** (solo experiencias con anuncios dinámicos; opcional) Un radio de usuario a destino. Seleccione un radio de 0 millas a 200 millas.<!-- Does this end up in the ad tag parameters? -->
 
@@ -67,7 +68,7 @@ Cuando más adelante cree una etiqueta de experiencia de anuncio para un tamaño
 
 **[!UICONTROL Impression Tracking URL]:** (opcional) una dirección URL de seguimiento de impresiones de terceros que se anexará a la dirección URL de la página de aterrizaje para cualquier anuncio creado a partir de la experiencia. Se pueden incluir hasta cinco direcciones URL. Para agregar una dirección URL adicional, haz clic en ![icono](/help/creative/assets/create.png) **[!UICONTROL Add More] e ingresa la dirección URL.
 
-Una vez introducida una dirección URL, todas las macros disponibles y los datos con los que se sustituyen se muestran más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
+Una vez que ingrese una dirección URL, todas las [macros disponibles](/help/creative/creative-macros.md) y los datos con los que se sustituyen se mostrarán más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
 
 >[!NOTE]
 >
@@ -77,7 +78,7 @@ Una vez introducida una dirección URL, todas las macros disponibles y los datos
 
 **[!UICONTROL Click Tracking URL]:** (opcional) (opcional) una dirección URL de seguimiento de clics de terceros que se anexará a la dirección URL de la página de aterrizaje. Se pueden incluir hasta cinco direcciones URL. Para agregar una dirección URL adicional, haz clic en ![icono](/help/creative/assets/create.png) **[!UICONTROL Add More]** e ingresa la dirección URL.
 
-Una vez introducida una dirección URL, todas las macros disponibles y los datos con los que se sustituyen se muestran más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
+Una vez que ingrese una dirección URL, todas las [macros disponibles](/help/creative/creative-macros.md) y los datos con los que se sustituyen se mostrarán más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
 
 >[!NOTE]
 >
@@ -94,6 +95,7 @@ Una vez introducida una dirección URL, todas las macros disponibles y los datos
 >
 >* [Crear una experiencia sin segmentación de árbol de decisión](experience-create-no-targeting.md)
 >* [Editar una experiencia sin segmentación de árbol de decisión](experience-edit-no-targeting.md)
+>* [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 >* [Crear manualmente una etiqueta de anuncio para un tamaño creativo aplicable](experience-tag-create-manually.md)
 >* [Asignar elementos creativos a una etiqueta de anuncio para experiencias sin segmentación](experience-tag-assign-creatives.md)
 >* [Personalizar las direcciones URL de seguimiento para una experiencia sin segmentación](experience-tracking-urls-no-targeting.md)

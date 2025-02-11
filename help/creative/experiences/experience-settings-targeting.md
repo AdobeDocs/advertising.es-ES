@@ -2,9 +2,10 @@
 title: Configuración de experiencias segmentadas
 description: Consulte las descripciones de todos los ajustes para experiencias de anuncios segmentados.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: cb6fd855-6534-4eac-b34b-323073d186be
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (solo lectura para experiencias existentes) El anunciante que pujará por las combinaciones creativas y de destino incluidas en la experiencia. Una vez guardada la experiencia, no se puede cambiar el anunciante.
 
-**[!UICONTROL Experience Name]:** Un nombre único para la experiencia. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando use la experiencia como anuncio en Advertising DSP DSP u otro tipo de.
+**[!UICONTROL Experience Name]:** Un nombre único para la experiencia. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando use la experiencia como anuncio en Advertising DSP u otro DSP.
 
 **[!UICONTROL Creative Library]:** (solo lectura para experiencias existentes) Una sola biblioteca creativa para usar en la experiencia. Una vez guardada la experiencia, no se puede cambiar la biblioteca.
 
@@ -49,10 +50,10 @@ Una vez guardada la experiencia, no se puede cambiar esta configuración.
 
 ## [!UICONTROL Advanced] sección
 
-DSP **Transferencia de datos:** (solo lectura para experiencias existentes; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que el usuario, el editor o el socio transfieren en tiempo real al imprimir. Puede especificar hasta cinco claves de paso de datos (parámetros). Al configurar el direccionamiento dentro del árbol de decisión, se puede incluir un nivel de datos para pasar a los nodos de destino y especificar los valores que se van a destinar a cada nodo. Si no especifica una clave en este campo al crear la experiencia, aún puede especificar una en el árbol de decisión.<!-- May move this to just within the decision tree.  -->
+**Transferencia de datos:** (solo lectura para experiencias existentes; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que DSP, el editor o el socio transfieren en tiempo real al imprimir. Puede especificar hasta cinco claves de paso de datos (parámetros). Al configurar el direccionamiento dentro del árbol de decisión, se puede incluir un nivel de datos para pasar a los nodos de destino y especificar los valores que se van a destinar a cada nodo. Si no especifica una clave en este campo al crear la experiencia, aún puede especificar una en el árbol de decisión.<!-- May move this to just within the decision tree.  -->
 
 Cada clave se anexa como una macro en la experiencia publicitaria
-DSP , que puede generar para implementarlo como un anuncio en su.
+, que puede generar para implementarlo como un anuncio en su DSP.
 
 **Radio:** (solo experiencias con anuncios dinámicos; opcional) Un radio de usuario a destino. Seleccione un radio de 0 millas a 200 millas.<!-- Affect within the decision tree? -->
 
@@ -70,7 +71,7 @@ DSP , que puede generar para implementarlo como un anuncio en su.
 
 **URL de seguimiento de impresión:** (opcional) una dirección URL de seguimiento de impresiones de terceros que se anexará a la dirección URL de la página de aterrizaje para cualquier anuncio creado a partir de la experiencia. Se pueden incluir hasta cinco direcciones URL. Para agregar una dirección URL adicional, haz clic en ![icono](/help/creative/assets/create.png) **[!UICONTROL Add More] e ingresa la dirección URL.
 
-Una vez introducida una dirección URL, todas las macros disponibles y los datos con los que se sustituyen se muestran más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
+Una vez que ingrese una dirección URL, todas las [macros disponibles](/help/creative/creative-macros.md) y los datos con los que se sustituyen se mostrarán más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
 
 >[!NOTE]
 >
@@ -80,7 +81,7 @@ Una vez introducida una dirección URL, todas las macros disponibles y los datos
 
 **URL de rastreo de clics:** (opcional) (opcional) Una URL de rastreo de clics de terceros que se anexará a la dirección URL de la página de aterrizaje. Se pueden incluir hasta cinco direcciones URL. Para agregar una dirección URL adicional, haz clic en ![icono](/help/creative/assets/create.png) **[!UICONTROL Add More] e ingresa la dirección URL.
 
-Una vez introducida una dirección URL, todas las macros disponibles y los datos con los que se sustituyen se muestran más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
+Una vez que ingrese una dirección URL, todas las [macros disponibles](/help/creative/creative-macros.md) y los datos con los que se sustituyen se mostrarán más adelante en la página. Para insertar una de las macros en la dirección URL, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la macro donde desee en el campo URL.
 
 >[!NOTE]
 >
@@ -97,3 +98,4 @@ Una vez introducida una dirección URL, todas las macros disponibles y los datos
 >
 >* [Crear una experiencia con segmentación de árbol de decisión](experience-create-targeting.md)
 >* [Editar una experiencia con segmentación en árbol de decisiones](experience-edit-targeting.md)
+>* [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
