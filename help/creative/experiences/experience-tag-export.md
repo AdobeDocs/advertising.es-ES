@@ -2,9 +2,10 @@
 title: Exportación e implementación de una etiqueta de experiencia de anuncio para una experiencia en directo
 description: Obtenga información sobre cómo exportar una etiqueta de experiencia de anuncio y, opcionalmente, cargarla en una campaña de Advertising DSP.
 feature: Creative Experiences
-source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -22,8 +23,6 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 >* Cuando crea una experiencia con la segmentación del árbol de decisiones, [!DNL Creative] crea automáticamente una etiqueta de anuncio para cada tamaño creativo aplicable.
 >* Cuando crea una experiencia sin segmentar el árbol de decisiones, debe [crear manualmente una etiqueta de anuncio](experience-tag-create-manually.md) para cada tamaño creativo aplicable.
 >* Las etiquetas de experiencia son dinámicas. No es necesario actualizar las etiquetas si edita una experiencia.
-
-## Exportación de una etiqueta de anuncio para una experiencia con segmentación del árbol de decisiones
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

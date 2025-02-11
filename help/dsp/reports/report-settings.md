@@ -3,7 +3,7 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73641f1a3cd1729ccb978739e9888cf2ff58d16f
+source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -26,9 +26,9 @@ Esta sección determina los datos que se incluyen en el informe. Para configurar
 
 **Intervalo:** Intervalo de fecha para el que se van a generar datos. El número de días disponibles varía según el informe y las dimensiones seleccionadas. Elija uno:
 
-* **[!UICONTROL Last Calendar Week]:** Incluye datos de la semana anterior.
+* **[!UICONTROL Previous Calendar Week]:** Incluye datos de la semana anterior.
 
-* **[!UICONTROL Last Calendar Month]:** Incluye datos del mes calendario anterior.
+* **[!UICONTROL Previous Calendar Month]:** Incluye datos del mes calendario anterior.
 
 * **[!UICONTROL Custom Range]:** Incluye datos entre fechas de inicio y finalización específicas. Para informar desde el día anterior, seleccione **[!UICONTROL Present]**.
 

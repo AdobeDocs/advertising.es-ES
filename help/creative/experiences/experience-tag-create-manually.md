@@ -2,9 +2,10 @@
 title: Crear manualmente una etiqueta de anuncio para un tamaño creativo aplicable
 description: Aprenda a crear una etiqueta de anuncio para un tamaño creativo específico.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,8 @@ Puede crear una o más etiquetas de anuncio para cada tamaño creativo utilizado
    Puede crear varias etiquetas para el mismo tamaño creativo.<!-- What are the implications? -->
 
 1. Haga clic en **[!UICONTROL Create]**.
+
+   Puede ampliar la fila de etiquetas para ver los elementos creativos incluidos.
 
 >[!MORELIKETHIS]
 >
