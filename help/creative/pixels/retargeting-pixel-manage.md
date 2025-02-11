@@ -2,9 +2,10 @@
 title: Administrar píxeles de retargeting
 description: Aprenda a crear e implementar píxeles de retargeting para utilizarlos como objetivos para experiencias de publicidad.
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,9 +30,9 @@ Ejemplo de píxel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] solo admite actualmente identificadores universales para Advertising DSP. DSP Una versión futura admitirá los identificadores universales para los ID de terceros<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] solo admite actualmente identificadores universales para Advertising DSP. Una versión futura admitirá identificadores universales para DSP de terceros.<!-- Clarify this and reword as needed -->
 >* También puedes usar audiencias de origen de Adobe Audience Manager y Adobe Analytics como [objetivos creativos para tus experiencias](/help/creative/experiences/experience-settings-targeting.md).
->* Cuando se usa una experiencia como anuncio en una ubicación de Advertising DSP DSP, se puede segmentar la ubicación a todas las audiencias disponibles en el usuario en el modo de. También puede [crear etiquetas de segmento de audiencia personalizadas](/help/dsp/audiences/custom-segment-create.md) para rastrear a todos los visitantes a páginas de aterrizaje específicas y luego usar esos segmentos como destinos creativos para una ubicación.
+>* Cuando utiliza una experiencia como anuncio en una ubicación de Advertising DSP, puede segmentar la ubicación a todas las audiencias disponibles en DSP. También puede [crear etiquetas de segmento de audiencia personalizadas](/help/dsp/audiences/custom-segment-create.md) para rastrear a todos los visitantes a páginas de aterrizaje específicas y luego usar esos segmentos como destinos creativos para una ubicación.
 >* Los visitantes del sitio web que hayan excluido el seguimiento para la segmentación de anuncios no reciben anuncios con contenido creativo personalizado basado en segmentos de audiencia o perfiles de retargeting.
 
 ## Crear un píxel de retargeting
@@ -78,7 +79,7 @@ Ejemplo de píxel:
 
    Si agrega atributos adicionales manualmente, debe incluir la codificación de la URL.
 
-   Por ejemplo, si ha incluido los atributos &quot;categoría&quot;, &quot;color&quot; y &quot;tamaño&quot; y los ID universales de captura ID5, la etiqueta de píxeles incluirá los siguientes parámetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` y `&id5pid=--Insert ID5_PARTNER_ID--`. Para dirigirse a los usuarios que seleccionen sandalias rojas en el tamaño 10, por ejemplo, cambiaría los parámetros tanto en la etiqueta de imagen como en la etiqueta de script a `&ut1=--sandals--&ut2=--red--&ut3=--10--`, y también introduciría su ID5 de socio en la etiqueta de script, como `&id5pid=--0123456789--`.&lt;!— Verificar la sintaxis final — ¿debería ser simplemente: &amp;ut1=sandalias&amp;ut2=10&amp;ut2=rojo? —>
+   Por ejemplo, si ha incluido los atributos &quot;categoría&quot;, &quot;color&quot; y &quot;tamaño&quot; y los ID universales de captura ID5, la etiqueta de píxeles incluirá los siguientes parámetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` y `&id5pid=--Insert ID5_PARTNER_ID--`. Para dirigirse a los usuarios que seleccionen sandalias rojas en el tamaño 10, por ejemplo, cambiaría los parámetros tanto en la etiqueta de imagen como en la etiqueta de script a `&ut1=sandals&ut2=red&ut3=10`, y también introduciría su ID5 de socio en la etiqueta de script, como `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -116,7 +117,7 @@ Cuando orienta las experiencias de anuncios a usuarios expuestos al píxel, la c
 
 * *[!UICONTROL Ramp ID]:* La etiqueta de píxeles rastrea [!DNL Ramp IDs]. No se incurre en cargos por impresiones entregadas a ID universales.
 
-DSP Para utilizar esta función, usted u otro usuario de la cuenta de la cuenta de debe aceptar el contrato de términos de servicio para usar un ID universal una vez, antes de poder usar un ID universal para un nuevo tipo de ID. Para los clientes con contratos de servicio gestionado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **[!UICONTROL Terms of Service]**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
+Para utilizar esta función, usted u otro usuario de la cuenta de DSP deben aceptar el contrato de términos de servicio para usar un ID universal una vez, antes de poder usar un ID universal para un nuevo tipo de ID. Para los clientes con contratos de servicio administrado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **[!UICONTROL Terms of Service]**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
 
 >[!MORELIKETHIS]
 >

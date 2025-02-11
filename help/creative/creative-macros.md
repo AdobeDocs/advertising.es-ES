@@ -2,7 +2,8 @@
 title: Macros disponibles para URL de seguimiento
 description: Haga referencia a las macros que puede agregar a las direcciones URL de seguimiento de la página de aterrizaje, y a los elementos creativos de terceros.
 feature: Creative Experiences, Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
+source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -38,15 +39,15 @@ Algunas de las macros disponibles, o sus equivalentes, se incluyen automáticame
 -->
 
 | Macro | Descripción | ¿Usar automáticamente etiquetas de experiencia para Advertising DSP? |
-| --- | --- | --- | --- |
-| `${TM_CAMPAIGN_ID_NUM}` | DSP Registra e informa del ID de campaña de la campaña desde la | Sí |
-| `${TM_SITE_ID_NUM}` | DSP Registra e informa del ID del sitio desde el | Sí |
-| `${TM_PLACEMENT_ID_NUM}` | DSP Registra e informa del ID de ubicación de la | Sí |
-| `${TM_AD_ID_NUM}` | DSP Registra e informa del ID de anuncio de la | Sí |
-| `${TM_CREATIVE_ID_NUM}` | DSP Registra e informa del ID creativo de la aplicación | N/D |
-| `${TM_SESSION_ID}` | DSP Registra e informa del ID de impresión de la. Si no se devuelve un valor, Advertising Creative genera uno. | Sí |
-| `${TM_ACC_EXPERIENCE_ID}` | Registra e informa del ID de experiencia del Advertising Creative | — |
-| `${TM_ACC_CREATIVE_ID}` | Registra e informa del ID creativo del Advertising Creative | — |
+| --- | --- | --- |
+| `${TM_CAMPAIGN_ID_NUM}` | Registra e informa del ID de campaña de DSP | Sí |
+| `${TM_SITE_ID_NUM}` | Registra e informa del ID del sitio desde DSP | Sí |
+| `${TM_PLACEMENT_ID_NUM}` | Registra e informa del ID de ubicación de DSP | Sí |
+| `${TM_AD_ID_NUM}` | Registra e informa del ID de anuncio de DSP | Sí |
+| `${TM_CREATIVE_ID_NUM}` | Registra e informa del ID creativo de DSP | N/D |
+| `${TM_SESSION_ID}` | Registra e informa del ID de impresión de DSP. Si no se devuelve un valor, Advertising Creative genera uno. | Sí |
+| `${TM_ACC_EXPERIENCE_ID}` | Realiza un seguimiento del Experience ID de Advertising Creative y elabora informes sobre él | — |
+| `${TM_ACC_CREATIVE_ID}` | Registra e informa del ID creativo de Advertising Creative | — |
 | `${TM_RANDOM}` | Un número aleatorio entre 1 y 1000000 | — |
 | `${TM_TIMESTAMP}` | La marca de tiempo Unix (en segundos) | — |
 | `${TM_CLICK_URL_URLENC}` | (Para anuncios de terceros de proveedores que requieren codificación de URL) La URL de redireccionamiento de clics codificada, que permite a los servidores de publicidad rastrear y contar clics de publicidad. Cuando se publica el anuncio y el usuario hace clic en él, la macro se activa y el clic se registra y se cuenta para la creación de informes. | Sí |
