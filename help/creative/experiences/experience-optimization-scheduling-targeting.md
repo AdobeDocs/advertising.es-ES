@@ -2,9 +2,10 @@
 title: Personalizar la optimización y programación creativas de una experiencia
 description: Obtenga información sobre cómo
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
+source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -30,11 +31,11 @@ Cuando se desactiva la programación creativa, la configuración de optimizació
 
 1. Seleccione el tipo de rotación creativa:
 
-   * ** *Ponderado* **: Gira manualmente los elementos creativos de cada paquete según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Los pesos de todos los paquetes deben sumar 100.
+   * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira manualmente los elementos creativos de cada paquete según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Los pesos de todos los paquetes deben sumar 100.
 
-   * ** *Algorítmico* **: Gira los elementos creativos de cada paquete de forma algorítmica de acuerdo con un objetivo de optimización especificado.
+   * &amp;ast;&amp;ast; *Algorithmic* &amp;ast;&amp;ast; — Gira los elementos creativos de cada paquete de forma algorítmica de acuerdo con un objetivo de optimización especificado.
 
-   * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+      * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -56,11 +57,11 @@ Al utilizar la programación, debe programar paquetes a lo largo de la duración
 
    1. Seleccione el tipo de rotación creativa:
 
-      * ** *Ponderado* **: Gira manualmente los elementos creativos de cada paquete según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Los pesos de todos los paquetes seleccionados deben sumar 100.
+      * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira manualmente los elementos creativos de cada paquete según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Los pesos de todos los paquetes seleccionados deben sumar 100.
 
-      * ** *Algorítmico* **: Gira los elementos creativos de cada paquete de forma algorítmica de acuerdo con un objetivo de optimización especificado.
+      * &amp;ast;&amp;ast; *Algorithmic* &amp;ast;&amp;ast; — Gira los elementos creativos de cada paquete de forma algorítmica de acuerdo con un objetivo de optimización especificado.
 
-      * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+         * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
 1. Para cada programación adicional:
 
@@ -72,11 +73,11 @@ Al utilizar la programación, debe programar paquetes a lo largo de la duración
 
    1. Seleccione el tipo de rotación creativa:
 
-      * ** *Ponderado* **: Gira manualmente los elementos creativos de cada paquete según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Los pesos de todos los paquetes seleccionados deben sumar 100.
+      * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira manualmente los elementos creativos de cada paquete según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Los pesos de todos los paquetes seleccionados deben sumar 100.
 
-      * ** *Algorítmico* **: Gira los elementos creativos de cada paquete de forma algorítmica de acuerdo con un objetivo de optimización especificado.
+      * &amp;ast;&amp;ast; *Algorithmic* &amp;ast;&amp;ast; — Gira los elementos creativos de cada paquete de forma algorítmica de acuerdo con un objetivo de optimización especificado.
 
-      * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
+         * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
 1. Haga clic en **[!UICONTROL Save]**.
 
