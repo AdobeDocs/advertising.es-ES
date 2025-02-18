@@ -3,9 +3,9 @@ title: Personalizar la optimización y programación creativas de una experienci
 description: Obtenga información sobre cómo
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ Cuando se desactiva la programación creativa, la configuración de optimizació
 
 1. Seleccione el tipo de rotación creativa:
 
-   * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira manualmente los elementos creativos según los pesos relativos. Introduzca el peso de cada creativo como porcentaje. Los pesos de todos los creativos seleccionados deben sumar 100.
+   * *[!UICONTROL Weighted]:* Gira los elementos creativos manualmente según los pesos relativos. Introduzca el peso de cada creativo como porcentaje. Los pesos de todos los creativos seleccionados deben sumar 100.
 
-   * &amp;ast;&amp;ast; *Algorithmic* &amp;ast;&amp;ast; — Gira los elementos creativos de forma algorítmica de acuerdo con un objetivo de optimización especificado.
+   * *[!UICONTROL Algorithmic]:* Gira los elementos creativos de forma algorítmica según un objetivo de optimización especificado.
 
       * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
@@ -69,9 +69,9 @@ Al programar, debe programar los elementos creativos durante toda la experiencia
 
    1. Seleccione el tipo de rotación creativa:
 
-      * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira manualmente los elementos creativos según los pesos relativos. Introduzca el peso de cada creativo como porcentaje. Los pesos de todos los creativos seleccionados deben sumar 100.
+      * *[!UICONTROL Weighted]:* Gira los elementos creativos manualmente según los pesos relativos. Introduzca el peso de cada creativo como porcentaje. Los pesos de todos los creativos seleccionados deben sumar 100.
 
-      * &amp;ast;&amp;ast; *Algorithmic* &amp;ast;&amp;ast; — Gira los elementos creativos de forma algorítmica de acuerdo con un objetivo de optimización especificado.
+      * *[!UICONTROL Algorithmic]:* Gira los elementos creativos de forma algorítmica según un objetivo de optimización especificado.
 
          * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
@@ -85,9 +85,9 @@ Al programar, debe programar los elementos creativos durante toda la experiencia
 
    1. Seleccione el tipo de rotación creativa:
 
-      * &amp;ast;&amp;ast; *Ponderado* &amp;ast;&amp;ast; — Gira manualmente los elementos creativos según los pesos relativos. Introduzca el peso de cada creativo como porcentaje. Los pesos de todos los creativos seleccionados deben sumar 100.
+      * *[!UICONTROL Weighted]:* Gira los elementos creativos manualmente según los pesos relativos. Introduzca el peso de cada creativo como porcentaje. Los pesos de todos los creativos seleccionados deben sumar 100.
 
-      * &amp;ast;&amp;ast; *Algorithmic* &amp;ast;&amp;ast; — Gira los elementos creativos de forma algorítmica de acuerdo con un objetivo de optimización especificado.
+      * *[!UICONTROL Algorithmic]:* Gira los elementos creativos de forma algorítmica según un objetivo de optimización especificado.
 
          * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.<!-- Verify -->
 
