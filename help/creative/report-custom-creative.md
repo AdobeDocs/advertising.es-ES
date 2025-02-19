@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Obtenga información sobre cómo generar la experiencia cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1915'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Para aplicar uno o más filtros, haga lo siguiente:
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:* Distribuye el crédito de cada conversión en función de la frecuencia con que se produjo el valor de dimensión (como un dispositivo o una ubicación) en la ruta de acceso a la conversión. Por ejemplo, si había un total de 10 impresiones antes de la conversión, con 8 en CTV y 2 en Mobile, entonces el 80% del crédito (0,8) se da a las pantallas CTV y 0,2 a Mobile.
 
-* **\[Tipo de regla\]:** (Anunciantes con seguimiento de conversión de Adobe Advertising solamente) En el informe, cómo atribuir datos de conversión en una serie de eventos que llevan a una conversión. Puede elegir más de una regla si desea comparar las diferencias entre las reglas.
+* **\[Tipo de regla\]:** (Anunciantes con solo seguimiento de conversión de Adobe Advertising) En el informe, explica cómo atribuir datos de conversión en una serie de eventos que llevan a una conversión. Puede elegir más de una regla si desea comparar las diferencias entre las reglas.
 
   >[!NOTE]
   >
@@ -131,11 +131,11 @@ Para aplicar uno o más filtros, haga lo siguiente:
 
    * *[!UICONTROL U-shaped]:*: atribuye la conversión a todos los eventos de la ruta de conversión, pero da la mayor importancia a los eventos primero y último, con sucesivamente menos peso a los eventos en medio de la ruta de conversión.
 
-   * DSP *[!UICONTROL Display Only]:* Atributos para convertir al último clic o impresión de la ruta de conversión en la que se hizo clic o se produjo la última impresión de la. Esto incluye vídeo y anuncios de TV conectados, y excluye los clics en [!DNL Advertising Search, Social, & Commerce] anuncios.
+   * *[!UICONTROL Display Only]:* Atributos convertidos en el último clic o impresión de DSP en la ruta de conversión. Esto incluye vídeo y anuncios de TV conectados, y excluye los clics en [!DNL Advertising Search, Social, & Commerce] anuncios.
 
    * *[!UICONTROL Social Only]:* obsoleto
 
-Consulte también &quot;[Cómo se calculan las reglas de atribución para el Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
+Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
 **[!UICONTROL Paths as Columns]:** Qué tipos de conversiones notificar cuando se produjeron eventos anteriores en el mismo dispositivo. Se pueden incluir hasta tres tipos. Para cada tipo seleccionado, se incluye una columna independiente para cada métrica de conversión y se anexa el sufijo especificado ([!UICONTROL (tl)], [!UICONTROL (ct)] o [!UICONTROL (vt)]):
 
@@ -206,8 +206,8 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para el Ado
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | El ID del creativo. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | El nombre de la ubicación para la que se ejecutaron los anuncios. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | El ID de compra de la ubicación del anuncio. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | DSP El ID de la en la que se ejecutaron los anuncios. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | DSP El nombre de la en la que se ejecutaron los anuncios. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | El ID del DSP en el que se ejecutaron los anuncios. |
+| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | Nombre del DSP en el que se ejecutaron los anuncios. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site ID] | El ID del sitio en el que se ejecutaron los anuncios. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Site Name] | El nombre del sitio en el que se ejecutaron los anuncios. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | El ID de la ubicación para la que se ejecutaron los anuncios. |
@@ -251,7 +251,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para el Ado
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Ingresos totales en anuncios publicados de un producto. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | Ingresos totales de los anuncios publicados. |
 | [!UICONTROL Conversion Metrics] | [Agrupado por anunciante en la configuración del informe] | [Conversión específica del anunciante] | El total de una métrica de conversión o un evento de Adobe Analytics específico del anunciante. |
-| [!UICONTROL Custom Goals] | [Agrupado por anunciante en la configuración del informe] | [Objetivo personalizado específico del anunciante] | La suma ponderada de todas las conversiones incluidas en el [objetivo personalizado](/help/dsp/optimization/custom-goal.md) especificado. |
+| [!UICONTROL Custom Goals] | [Agrupado por anunciante en la configuración del informe] | [Objetivo personalizado específico del anunciante] | La suma ponderada de todas las conversiones incluidas en el [objetivo personalizado de Advertising DSP](/help/dsp/optimization/custom-goal.md) especificado. |
 
 {style="table-layout:auto"}
 
