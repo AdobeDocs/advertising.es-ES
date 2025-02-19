@@ -3,9 +3,9 @@ title: Configuración de experiencias sin objetivo
 description: Consulte las descripciones de todas las configuraciones para experiencias de publicidad sin segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 75ecbf5309c21952fb4355be852f80100aa916ae
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ En el caso de las experiencias sin segmentación en el árbol de decisiones, pue
 
 Cuando más adelante cree una etiqueta de experiencia de anuncio para un tamaño creativo específico, cada clave especificada en este campo se anexa como una macro en la etiqueta. Debe introducir el valor de cada par clave-valor dentro de la etiqueta antes de implementar la etiqueta como un anuncio en DSP.
 
-**Radio:** (solo experiencias con anuncios dinámicos; opcional) Un radio de usuario a destino. Seleccione un radio de 0 millas a 200 millas.<!-- Does this end up in the ad tag parameters? -->
+**Radio:** (solo experiencias con anuncios dinámicos; opcional) Un radio de un código postal de Estados Unidos especificado en el archivo de fuente para el destino; seleccione un radio de 0 millas a 200 millas. El archivo de fuente utilizado para crear los anuncios dinámicos para la experiencia debe incluir una columna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valor para cada fila de producto en el archivo. Por ejemplo, para un radio de 10 millas, un anuncio de un producto disponible en 95110 se puede mostrar a los usuarios en un radio de 10 millas de 95110.
 
 **Píxel RT:** (solo experiencias con anuncios dinámicos; opcional) Un píxel de retargeting de [!UICONTROL Creative] a destino potencial. Al configurar el direccionamiento dentro del árbol de decisión, puede incluir un nivel de nodos de destino de píxeles de RT y especificar el píxel de destino para cada nodo, así como los valores necesarios para los atributos del píxel que deben estar presentes para mostrar los creativos en los paquetes creativos asignados. Si no especifica un píxel en este campo, aún puede especificar uno dentro del árbol de decisión.&lt;!— Desde R: &quot;el píxel de RT debe realizarse mediante la selección de contenido en la configuración de publicidad dinámica&quot; — aclarar. Veo &quot;Datapass&quot; (una palabra) en la configuración de publicidad dinámica, pero no estoy seguro de cómo esa configuración y esta a nivel de experiencia funcionan juntas. —>
 
