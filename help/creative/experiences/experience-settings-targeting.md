@@ -3,9 +3,9 @@ title: Configuración de experiencias segmentadas
 description: Consulte las descripciones de todos los ajustes para experiencias de anuncios segmentados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 727860ba89ae98d50a33befa28ab1654650263e6
+source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Una vez guardada la experiencia, no se puede cambiar esta configuración.
 Cada clave se anexa como una macro en la experiencia publicitaria
 , que puede generar para implementarlo como un anuncio en su DSP.
 
-**Radio:** (solo experiencias con anuncios dinámicos; opcional) Un radio de un código postal de Estados Unidos especificado en el archivo de fuente para el destino; seleccione un radio de 0 millas a 200 millas. El archivo de fuente utilizado para crear los anuncios dinámicos para la experiencia debe incluir una columna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valor para cada fila de producto en el archivo. Por ejemplo, para un radio de 10 millas, un anuncio de un producto disponible en 95110 se puede mostrar a los usuarios en un radio de 10 millas de 95110.
+**Radio:** (solo experiencias con anuncios dinámicos; opcional) Un radio de un código postal de Estados Unidos especificado en el archivo de fuente para el destino; seleccione un radio de 0 millas a 200 millas. El archivo de fuente utilizado para crear los anuncios dinámicos para la experiencia debe incluir una columna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valor para cada fila de producto en el archivo. Por ejemplo, para un radio de 10 millas, un anuncio de un producto disponible en 95110 se puede mostrar a los usuarios en un radio de 10 millas de 95110 (determinado por la dirección IP del usuario).
 
 **Píxel RT:** (solo lectura para experiencias existentes; opcional) Un píxel de retargeting de [!UICONTROL Creative] a destino potencial. Al configurar el direccionamiento dentro del árbol de decisión, puede incluir un nivel de nodos de destino de píxeles de RT y especificar el píxel de destino para cada nodo, así como los valores necesarios para los atributos del píxel que deben estar presentes para mostrar los creativos en los paquetes creativos asignados. Si no especifica un píxel en este campo al crear la experiencia, aún puede especificar uno dentro del árbol de decisión.<!-- May move this to just within the decision tree. -->
 
