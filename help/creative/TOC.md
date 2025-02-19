@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Creative
 user-guide-description: Obtenga información acerca de las principales funciones, tareas, configuraciones y otros recursos necesarios para utilizar Advertising Creative.
 breadcrumb-title: Guía creativa
 hide: true
-source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
+source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
       + [El diseño del árbol de decisión](/help/creative/experiences/experience-decision-tree.md)
       + [Cree una experiencia con segmentación](/help/creative/experiences/experience-create-targeting.md)
       + [Editar una experiencia con segmentación](/help/creative/experiences/experience-edit-targeting.md)
+      + [Configuración de experiencias segmentadas](/help/creative/experiences/experience-settings-targeting.md)
       + Subtareas para crear y editar experiencias {#subtasks}
          + Nodos de destino {#nodes}
             + [Añadir un nodo de destino al nivel final](/help/creative/experiences/experience-target-node-add-final.md)
@@ -53,12 +54,11 @@ ht-degree: 0%
             + [Asignar y cancelar la asignación de paquetes creativos a un nodo final](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personalización de las direcciones URL de seguimiento para creativos](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personalizar la optimización y programación creativas](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-      + [Configuración de experiencias segmentadas](/help/creative/experiences/experience-settings-targeting.md)
    + Experiencias sin segmentar {#experience-nontargeted}
       + [Crear una experiencia sin segmentación](/help/creative/experiences/experience-create-no-targeting.md)
       + [Editar una experiencia sin segmentación](/help/creative/experiences/experience-edit-no-targeting.md)
       + [Configuración de experiencia sin objetivo](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Creativos{#non-targeted-creatives}
+      + Etiquetas de anuncios y elementos creativos{#non-targeted-creatives}
          + [Crear manualmente una etiqueta de anuncio para un tamaño creativo aplicable](/help/creative/experiences/experience-tag-create-manually.md)
          + [Asigne elementos creativos a una etiqueta de anuncio para experiencias sin segmentación](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [Personalización de las direcciones URL de seguimiento de una experiencia sin segmentación](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
