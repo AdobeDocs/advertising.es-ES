@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Obtenga información sobre cómo generar la experiencia cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 2062e2ce4f92070b209422c3184e9c0b14229bb5
+source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -244,13 +244,13 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | La suma de todos los clics en los anuncios de un producto. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | La suma de todas las conversiones en anuncios de un producto. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | El porcentaje de en anuncios de un producto que resultó en conversiones. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | Porcentaje de anuncios de un producto que generaron conversiones. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | Tasa de clics para anuncios de un producto, que es el porcentaje de clics dividido por impresiones de publicidad. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | Número total de impresiones de un producto. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Ingresos totales en anuncios publicados de un producto. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | Ingresos totales de los anuncios publicados. |
 | [!UICONTROL Conversion Metrics] | [Agrupado por anunciante en la configuración del informe] | [Conversión específica del anunciante] | El total de una métrica de conversión o un evento de Adobe Analytics específico del anunciante. |
-| [!UICONTROL Custom Goals] | [Agrupado por anunciante en la configuración del informe] | [Objetivo personalizado específico del anunciante] | La suma ponderada de todas las conversiones incluidas en el [objetivo personalizado de Advertising DSP](/help/dsp/optimization/custom-goal.md) especificado. |
+| [!UICONTROL Custom Goals] | [Agrupado por anunciante en la configuración del informe] | [Objetivo personalizado específico del anunciante] | (Anunciantes con Advertising DSP) La suma ponderada de todas las conversiones incluidas en el [objetivo personalizado de Advertising DSP](/help/dsp/optimization/custom-goal.md) especificado. |
 
 {style="table-layout:auto"}
 
