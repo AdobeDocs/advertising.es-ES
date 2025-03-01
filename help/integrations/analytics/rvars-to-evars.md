@@ -3,9 +3,9 @@ title: Recopilación de datos históricos para ID de AMO e ID de EF para su uso 
 description: Obtenga información sobre cómo recopilar datos históricos para las variables reservadas en Adobe Analytics para su uso futuro en Adobe Customer Journey Analytics
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: a1e6f04bed489fcafdc982394656757e6229c8db
+source-git-commit: 5b78ec0fc4c5ea4742cbb080b992bdb323fc9af3
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Este paso es manual y debe completarse para cada grupo de informes que realice u
          1. Seleccione **Parámetro de cadena de consulta**.
          1. Escriba `ef_id`.
 
-        Ejemplo: sobrescribir el valor de `rVar11` con el parámetro de cadena de consulta `ef_id`
+        Ejemplo: `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * Para [!UICONTROL Reason for rule], use una nota descriptiva, como &quot;El ID de AMO y el ID de EF se transportarán a AEP a través del conector de Adobe Analytics&quot;.
 
