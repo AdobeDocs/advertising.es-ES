@@ -3,7 +3,7 @@ title: Macros disponibles para URL de seguimiento
 description: Haga referencia a las macros que puede agregar a las direcciones URL de la página de aterrizaje, las direcciones URL de seguimiento y los elementos creativos de terceros.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta cerrada*
 
-<!-- More feature metadata??? -->
+<!-- More feature metadata???  -->
 
 Puede incluir cualquiera de las siguientes macros en los elementos creativos de terceros, en las direcciones URL de seguimiento de terceros para sus experiencias y en las direcciones URL de las páginas de aterrizaje para su propio uso.
 

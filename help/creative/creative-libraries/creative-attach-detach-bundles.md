@@ -3,7 +3,7 @@ title: Adjuntar un elemento creativo a paquetes creativos
 description: Aprenda a adjuntar un elemento creativo a un paquete creativo.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta cerrada*
 
-<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available. -->
+<!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
 Puede adjuntar elementos creativos estándar a paquetes estándar y elementos creativos dinámicos a paquetes dinámicos para poder agregarlos a [experiencias publicitarias](/help/creative/experiences/experience-about.md). Cada paquete solo puede incluir una de cada combinación \[creative size + language\].
 

@@ -3,7 +3,7 @@ title: Administrar píxeles de retargeting
 description: Aprenda a crear e implementar píxeles de retargeting para utilizarlos como objetivos para experiencias de publicidad.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Ejemplo de píxel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] solo admite actualmente identificadores universales para Advertising DSP. Una versión futura admitirá identificadores universales para DSP de terceros.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] solo admite actualmente identificadores universales para Advertising DSP. Una versión futura admitirá identificadores universales para DSP de terceros.<!-- Clarify this and reword as needed  -->
 >* También puedes usar audiencias de origen de Adobe Audience Manager y Adobe Analytics como [objetivos creativos para tus experiencias](/help/creative/experiences/experience-settings-targeting.md).
 >* Cuando utiliza una experiencia como anuncio en una ubicación de Advertising DSP, puede segmentar la ubicación a todas las audiencias disponibles en DSP. También puede [crear etiquetas de segmento de audiencia personalizadas](/help/dsp/audiences/custom-segment-create.md) para rastrear a todos los visitantes a páginas de aterrizaje específicas y luego usar esos segmentos como destinos creativos para una ubicación.
 >* Los visitantes del sitio web que hayan excluido el seguimiento para la segmentación de anuncios no reciben anuncios con contenido creativo personalizado basado en segmentos de audiencia o perfiles de retargeting.

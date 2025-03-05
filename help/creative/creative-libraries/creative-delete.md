@@ -3,7 +3,7 @@ title: Eliminar elementos creativos
 description: Aprenda a eliminar elementos creativos en una biblioteca creativa.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 5dc197dc-c4bb-489a-8395-b7c8efa47ea1
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta cerrada*
 
-Puede eliminar
+Puede eliminar:
 
 * los creativos que no están en un paquete asignado a una [experiencia en vivo o en borrador](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) [segmentada](/help/creative/experiences/experience-about.md).
 

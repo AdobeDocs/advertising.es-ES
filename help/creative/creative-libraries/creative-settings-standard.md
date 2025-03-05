@@ -3,9 +3,9 @@ title: Configuración de Creative
 description: Más información sobre xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Cuando edita varios elementos creativos al mismo tiempo:
 
 ### Pestaña Detalles
 
-**Nombre de Creative:** El nombre del creativo. El nombre de la plantilla o el nombre de archivo cargado se utiliza de forma predeterminada, pero puede cambiarlo. Para varios creativos, puede editar los nombres creativos individuales. **Sugerencia:** Incluya el tamaño del anuncio en el nombre del elemento creativo y use un nombre que sea fácil de encontrar cuando incluya el elemento creativo en una experiencia.
+**Nombre de Creative:** El nombre del creativo. El nombre de la plantilla o el nombre de archivo cargado se utiliza de forma predeterminada, pero puede cambiarlo. Para varios creativos, puede editar los nombres creativos individuales. **Sugerencia:** Incluya el tamaño del anuncio en el nombre del elemento creativo y use un nombre que pueda encontrar fácilmente cuando incluya el elemento creativo en una experiencia.
 
 **Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos. Cuando se cargan o editan varios creativos, se aplica el mismo valor a cada creativo seleccionado.
 
@@ -94,7 +94,7 @@ Para reemplazar la plantilla de publicidad existente:
 
 Para los nuevos creativos, las siguientes configuraciones no están en una pestaña con nombre.
 
-**Nombre de Creative:** El nombre del creativo. Para un nuevo elemento creativo, el nombre de archivo se utiliza de forma predeterminada, pero puede cambiarlo. Para varios creativos, puede editar los nombres creativos individuales. **Sugerencia:** Incluya el tamaño del anuncio en el nombre del elemento creativo y use un nombre que sea fácil de encontrar cuando incluya el elemento creativo en una experiencia.
+**Nombre de Creative:** El nombre del creativo. Para un nuevo elemento creativo, el nombre de archivo se utiliza de forma predeterminada, pero puede cambiarlo. Para varios creativos, puede editar los nombres creativos individuales. **Sugerencia:** Incluya el tamaño del anuncio en el nombre del elemento creativo y use un nombre que pueda encontrar fácilmente cuando incluya el elemento creativo en una experiencia.
 
 **Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos. Cuando se cargan o editan varios creativos, se aplica el mismo valor a cada creativo seleccionado.
 
@@ -150,7 +150,7 @@ Para reemplazar la plantilla de publicidad existente:
 
 ## Configuración creativa de imagen {#creative-settings-image}
 
-**Nombre de Creative:** El nombre del creativo. Para un nuevo elemento creativo, el nombre de archivo se utiliza de forma predeterminada, pero puede cambiarlo. Para varias imágenes, puede editar los nombres creativos individuales. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando incluya al creativo en una experiencia.
+**Nombre de Creative:** El nombre del creativo. Para un nuevo elemento creativo, el nombre de archivo se utiliza de forma predeterminada, pero puede cambiarlo. Para varias imágenes, puede editar los nombres creativos individuales. **Sugerencia:** Use un nombre que pueda encontrar fácilmente cuando incluya al creativo en una experiencia.
 
 **Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos. El mismo valor se aplica a todas las imágenes seleccionadas. Cuando se incluyen los creativos en una experiencia, se pueden personalizar las preferencias de idioma de la experiencia.
 
@@ -180,7 +180,7 @@ Cuando se incluye este elemento creativo en una experiencia que se implementa co
 
 **[!UICONTROL Advertiser]:** (solo lectura) El anunciante para el que la biblioteca está disponible.
 
-**Nombre de Creative:** El nombre del creativo. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando incluya al creativo en una experiencia.
+**Nombre de Creative:** El nombre del creativo. **Sugerencia:** Use un nombre que pueda encontrar fácilmente cuando incluya al creativo en una experiencia.
 
 **Tamaño de Creative:** (solo lectura para anuncios existentes) Dimensiones del elemento creativo. Para nuevos creativos, seleccione de una lista de tamaños de anuncio estándar.
 u

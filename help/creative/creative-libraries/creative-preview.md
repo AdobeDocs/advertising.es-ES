@@ -2,7 +2,8 @@
 title: Previsualización de un elemento creativo
 description: Obtenga información sobre cómo abrir una vista previa de un creativo.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Solo creativos estándar*
 *Beta cerrada*
 
-Puede obtener una vista previa de un elemento creativo tal y como lo verán los visualizadores, con hipervínculos.
+Puede obtener una vista previa de un elemento creativo tal y como lo verán los visualizadores, incluidos los hipervínculos.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
