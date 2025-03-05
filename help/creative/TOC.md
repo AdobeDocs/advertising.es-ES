@@ -2,11 +2,11 @@
 role: User
 user-guide-title: Guía de Advertising Creative
 user-guide-description: Obtenga información acerca de las principales funciones, tareas, configuraciones y otros recursos necesarios para utilizar Advertising Creative.
-breadcrumb-title: Guía creativa
+breadcrumb-title: Guía de Creative
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
    + [Personalizar las vistas de datos](/help/creative/introduction/customize-data-views.md)
    + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ Bibliotecas creativas {#creative-libraries}
++ Bibliotecas de Creative {#creative-libraries}
    + [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tamaños creativos admitidos](/help/creative/creative-libraries/creative-sizes.md)
    + [Administrar bibliotecas creativas](/help/creative/creative-libraries/creative-library-manage.md)
@@ -30,11 +30,11 @@ ht-degree: 0%
          + [Configuración creativa estándar](/help/creative/creative-libraries/creative-settings-standard.md)
          + [Especificación creativa de HTML5](/help/creative/creative-libraries/html5-creative-specification.md)
       + [Previsualización de un elemento creativo](/help/creative/creative-libraries/creative-preview.md)
-      + [Adjuntar y desasociar elementos creativos de paquetes](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [Adjuntar elementos creativos a paquetes](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Creativos duplicados](/help/creative/creative-libraries/creative-duplicate.md)
       + [Descargar elementos creativos](/help/creative/creative-libraries/creative-download.md)
       + [Eliminar elementos creativos](/help/creative/creative-libraries/creative-delete.md)
-   + Paquetes creativos {#bundles}
+   + Paquetes de Creative {#bundles}
       + [Administrar paquetes creativos](/help/creative/creative-libraries/bundle-manage.md)
 + Agregar experiencias {#creative-experiences}
    + [Acerca de las experiencias en Advertising Creative](/help/creative/experiences/experience-about.md)
@@ -50,7 +50,7 @@ ht-degree: 0%
             + [Agregar un nodo de destino del mismo nivel](/help/creative/experiences/experience-target-node-add-sibling.md)
             + [Copiar nodos secundarios a otro nodo en el mismo nivel](/help/creative/experiences/experience-target-node-copy.md)
             + [Eliminar un nodo de destino o de hoja creativa](/help/creative/experiences/experience-target-node-delete.md)
-         + Paquetes creativos y elementos creativos {#bundles}
+         + Paquetes y elementos creativos de Creative {#bundles}
             + [Asignar y cancelar la asignación de paquetes creativos a un nodo final](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personalización de las direcciones URL de seguimiento para creativos](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personalizar la optimización y programación creativas](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
@@ -72,7 +72,7 @@ ht-degree: 0%
    + [Eliminar una experiencia](/help/creative/experiences/experience-delete.md)
 + Informes de rendimiento {#reports}
    + [Informes de rendimiento de nivel de experiencia](/help/creative/experiences/experience-performance-details.md)
-   + [Informe creativo personalizado](/help/creative/report-custom-creative.md)
+   + [Informe de Creative personalizado](/help/creative/report-custom-creative.md)
 + [Redireccionamiento de píxeles](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 + [Atención al cliente](https://experienceleague.adobe.com/home?support-tab=home#support){target="_blank"}

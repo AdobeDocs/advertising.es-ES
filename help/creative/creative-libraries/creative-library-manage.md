@@ -2,9 +2,10 @@
 title: Administrar las bibliotecas creativas
 description: Aprenda a crear, cambiar el nombre y eliminar sus bibliotecas creativas.
 feature: Creative Libraries
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Beta cerrada*
 
-Puede crear varias bibliotecas creativas para cada anunciante. Más adelante, podrá rellenar cada biblioteca con [creativos estándar](creative-add-standard.md) <!-- , dynamic creatives, --> y [paquetes creativos](bundle-manage.md). El equipo de cuenta de Adobe también puede añadir elementos creativos dinámicos a las bibliotecas.
+Puede crear varias bibliotecas creativas para cada anunciante. Más adelante, podrá rellenar cada biblioteca con [creativos estándar](creative-add-standard.md)<!-- , dynamic creatives, --> y [paquetes creativos](bundle-manage.md). El equipo de cuenta de Adobe también puede añadir elementos creativos dinámicos a las bibliotecas.
 
 ## Crear una biblioteca creativa
 
@@ -51,7 +52,7 @@ Puede crear varias bibliotecas creativas para cada anunciante. Más adelante, po
 
 ## Eliminar bibliotecas creativas
 
-Puede eliminar bibliotecas con archivos creativos y paquetes que no estén asignados a una experiencia en directo.<!-- Add an x-ref?  --> Elimine los elementos creativos o paquetes asignados a una experiencia en directo del árbol de decisiones de la experiencia<!-- add x-ref --> antes de continuar.
+Puede eliminar bibliotecas con archivos creativos y paquetes que no estén asignados a una experiencia [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Para una experiencia de destino activa, [elimine todos los paquetes o elementos creativos del árbol de decisiones](/help/creative/experiences/experience-target-node-delete.md) de la experiencia antes de continuar.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -65,7 +66,7 @@ Puede eliminar bibliotecas con archivos creativos y paquetes que no estén asign
 
       * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Delete]**.
 
-   * Para eliminar una o varias bibliotecas, active la casilla de verificación de cada biblioteca que desee eliminar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Delete].
+   * Para eliminar una o varias bibliotecas, active la casilla de verificación de cada biblioteca que desee eliminar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Delete]**.
 
      Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
 

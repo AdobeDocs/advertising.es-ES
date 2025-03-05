@@ -1,16 +1,16 @@
 ---
-title: Ajustes creativos
+title: Configuración de Creative
 description: Más información sobre xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
 
-# Ajustes creativos
+# Configuración de Creative
 
 *Beta cerrada*
 
@@ -26,11 +26,11 @@ Cuando edita varios elementos creativos al mismo tiempo:
 
 ### Pestaña Detalles
 
-**Nombre del creativo:** El nombre del creativo. El nombre de la plantilla o el nombre de archivo cargado se utiliza de forma predeterminada, pero puede cambiarlo. Para varios creativos, puede editar los nombres creativos individuales. **Sugerencia:** Incluya el tamaño del anuncio en el nombre del elemento creativo y use un nombre que sea fácil de encontrar cuando incluya el elemento creativo en una experiencia.
+**Nombre de Creative:** El nombre del creativo. El nombre de la plantilla o el nombre de archivo cargado se utiliza de forma predeterminada, pero puede cambiarlo. Para varios creativos, puede editar los nombres creativos individuales. **Sugerencia:** Incluya el tamaño del anuncio en el nombre del elemento creativo y use un nombre que sea fácil de encontrar cuando incluya el elemento creativo en una experiencia.
 
 **Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos. Cuando se cargan o editan varios creativos, se aplica el mismo valor a cada creativo seleccionado.
 
-**Tamaño creativo:** (solo lectura para los creativos existentes) Dimensiones del creativo. Si alguna de las imágenes incluidas en el elemento creativo es más grande que el tamaño especificado, se cambia su tamaño en consecuencia.
+**Tamaño de Creative:** (solo lectura para los creativos existentes) Dimensiones del creativo. Si alguna de las imágenes incluidas en el elemento creativo es más grande que el tamaño especificado, se cambia su tamaño en consecuencia.
 
 **[!UICONTROL Click Tags]:** Las variables que permiten redirecciones de rastreo de clics desde los anuncios de banner incluidos. Los nombres de las variables y las direcciones URL de la página de aterrizaje correspondiente se rellenan desde la unidad creativa cargada, pero puede cambiar las direcciones URL predeterminadas. Para varios elementos creativos, puede editar las etiquetas de clic individuales.
 
@@ -66,7 +66,7 @@ Para obtener información acerca de los atributos disponibles en las plantillas 
 
 El archivo de plantilla flexible de HTML5 para el creativo.
 
-Si lo desea, puede reemplazar la plantilla existente por una nueva plantilla que tenga un diseño diferente pero el mismo conjunto de nombres de atributos que la plantilla original. La nueva plantilla debe estar en formato ZIP con un máximo de 2 MB. Cuando el creativo está en un paquete, todas las experiencias que utilicen el paquete utilizarán posteriormente el diseño de la nueva plantilla.
+Si lo desea, puede reemplazar la plantilla existente por una nueva plantilla que tenga un diseño diferente pero el mismo conjunto de nombres de atributos que la plantilla original. La nueva plantilla debe estar en formato ZIP con un máximo de 2 MB. Cuando el creativo está en un paquete, todas las experiencias que utilizan el paquete utilizan posteriormente el diseño de la nueva plantilla.
 
 Al actualizar la plantilla para un elemento creativo principal con variaciones secundarias, las variaciones se actualizan con cualquier cambio en el diseño de la plantilla, pero los valores de atributo de la variación no cambian.
 
@@ -94,11 +94,11 @@ Para reemplazar la plantilla de publicidad existente:
 
 Para los nuevos creativos, las siguientes configuraciones no están en una pestaña con nombre.
 
-**Nombre del creativo:** El nombre del creativo. Para un nuevo elemento creativo, el nombre de archivo se utiliza de forma predeterminada, pero puede cambiarlo. Para varios creativos, puede editar los nombres creativos individuales. **Sugerencia:** Incluya el tamaño del anuncio en el nombre del elemento creativo y use un nombre que sea fácil de encontrar cuando incluya el elemento creativo en una experiencia.
+**Nombre de Creative:** El nombre del creativo. Para un nuevo elemento creativo, el nombre de archivo se utiliza de forma predeterminada, pero puede cambiarlo. Para varios creativos, puede editar los nombres creativos individuales. **Sugerencia:** Incluya el tamaño del anuncio en el nombre del elemento creativo y use un nombre que sea fácil de encontrar cuando incluya el elemento creativo en una experiencia.
 
 **Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos. Cuando se cargan o editan varios creativos, se aplica el mismo valor a cada creativo seleccionado.
 
-**Tamaño creativo:** (solo lectura para los creativos existentes) Dimensiones del creativo. Si alguna de las imágenes incluidas en el elemento creativo es más grande que el tamaño especificado, se cambia su tamaño en consecuencia.
+**Tamaño de Creative:** (solo lectura para los creativos existentes) Dimensiones del creativo. Si alguna de las imágenes incluidas en el elemento creativo es más grande que el tamaño especificado, se cambia su tamaño en consecuencia.
 
 **[!UICONTROL Click Tags]:** (solo creativos estáticos de HTML5) Las variables que permiten redirecciones de rastreo de clics desde los anuncios de banner incluidos. Los nombres de las variables y las direcciones URL de la página de aterrizaje correspondiente se rellenan desde la unidad creativa cargada, pero puede cambiar las direcciones URL predeterminadas. Para varios elementos creativos, puede editar las etiquetas de clic individuales.
 
@@ -126,7 +126,7 @@ Cuando se incluye un elemento creativo en un paquete y se asigna el paquete a un
 
 El archivo de plantilla HTML5 para el creativo.
 
-Si lo desea, puede reemplazar la plantilla existente por una nueva plantilla que tenga un diseño diferente pero el mismo conjunto de nombres de atributos que la plantilla original. La nueva plantilla debe estar en formato ZIP con un máximo de 2 MB. Cuando el creativo está en un paquete, todas las experiencias que utilicen el paquete utilizarán posteriormente el diseño de la nueva plantilla.
+Si lo desea, puede reemplazar la plantilla existente por una nueva plantilla que tenga un diseño diferente pero el mismo conjunto de nombres de atributos que la plantilla original. La nueva plantilla debe estar en formato ZIP con un máximo de 2 MB. Cuando el creativo está en un paquete, todas las experiencias que utilizan el paquete utilizan posteriormente el diseño de la nueva plantilla.
 
 Al actualizar la plantilla para un elemento creativo principal con variaciones secundarias, las variaciones se actualizan con cualquier cambio en el diseño de la plantilla, pero los valores de atributo de la variación no cambian.
 
@@ -150,15 +150,15 @@ Para reemplazar la plantilla de publicidad existente:
 
 ## Configuración creativa de imagen {#creative-settings-image}
 
-**Nombre del creativo:** El nombre del creativo. Para un nuevo elemento creativo, el nombre de archivo se utiliza de forma predeterminada, pero puede cambiarlo. Para varias imágenes, puede editar los nombres creativos individuales. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando incluya al creativo en una experiencia.
+**Nombre de Creative:** El nombre del creativo. Para un nuevo elemento creativo, el nombre de archivo se utiliza de forma predeterminada, pero puede cambiarlo. Para varias imágenes, puede editar los nombres creativos individuales. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando incluya al creativo en una experiencia.
 
-**Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos. El mismo valor se aplica a todas las imágenes seleccionadas. &lt;!— VERIFIQUE SI PUEDE OCURRIR ALGO EN EL NIVEL DE PAQUETE y si la configuración de la experiencia solo se encuentra en el nivel de experiencia: Cuando se incluyen los creativos en una experiencia, se pueden personalizar de forma opcional las preferencias de idioma para la experiencia.
+**Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos. El mismo valor se aplica a todas las imágenes seleccionadas. Cuando se incluyen los creativos en una experiencia, se pueden personalizar las preferencias de idioma de la experiencia.
 
-**Tamaño creativo:** (solo lectura) Dimensiones de las imágenes cargadas.
+**Tamaño de Creative:** (solo lectura) Dimensiones de las imágenes cargadas.
 
 **Dirección URL de la página de aterrizaje:** Dirección URL de la página de aterrizaje predeterminada para cada anuncio con el que asocia a los creativos. La dirección URL de la página de aterrizaje debe ser una dirección URL válida que comience por http:// o https://. Puede incluir parámetros de seguimiento de terceros o [[!DNL Creative] macros](/help/creative/creative-macros.md) para su propio uso. El mismo valor se aplica a todas las imágenes seleccionadas.
 
-Cuando se incluye un elemento creativo en un paquete y se asigna el paquete a una experiencia, se puede, opcionalmente, cambiar la dirección URL de la página de aterrizaje, así como añadir direcciones URL de rastreo de clics y impresiones y JavaScript para cada elemento creativo del paquete. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+Cuando se incluye un elemento creativo en un paquete y, a continuación, se asigna el paquete a una experiencia, se puede, opcionalmente, cambiar la dirección URL de la página de aterrizaje, así como añadir direcciones URL de rastreo de clics y impresiones y JavaScript para cada elemento creativo del paquete. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Etiqueta:** (Opcional) Cualquier etiqueta que se aplique a todos los elementos creativos seleccionados. Puede filtrar los elementos creativos por etiqueta en varias vistas dentro de [!DNL Creative].
 
@@ -172,21 +172,21 @@ Cuando se incluye un elemento creativo en un paquete y se asigna el paquete a un
 
 ## Configuración creativa de terceros {#creative-settings-third-party}
 
-**JavaScriptCode:** Una etiqueta de JavaScript (y opcionalmente una etiqueta alternativa para los navegadores que no admiten JavaScript) que señala al elemento creativo en el servidor de publicidad de terceros. La secuencia de comandos variará según el servidor de publicidad. Cuando edita varios creativos, se aplica el mismo valor a cada creativo seleccionado.
+**JavaScriptCode:** Una etiqueta de JavaScript (y opcionalmente una etiqueta alternativa para los navegadores que no admiten JavaScript) que señala al elemento creativo en el servidor de publicidad de terceros. La secuencia de comandos puede variar según el servidor de publicidad. Cuando edita varios creativos, se aplica el mismo valor a cada creativo seleccionado.
 
 Todas las [macros disponibles](/help/creative/creative-macros.md) y los datos con los que se han sustituido se muestran debajo del campo de entrada. Para insertar una de las macros en la etiqueta, mantenga el cursor sobre la descripción de la macro y haga clic en ![Copiar al portapapeles](/help/creative/assets/copy-to-clipboard.png "Copiar al portapapeles") y, a continuación, pegue la imagen donde desee dentro de la etiqueta.
 
-Cuando se incluye este elemento creativo en una experiencia que se implementa como anuncio desde un DSP, el DSP utiliza la información de esta etiqueta para mostrar el anuncio y rastrear impresiones y clics en él y, a continuación, inserta el distintivo en el intercambio de anuncios. Cuando se muestra y se hace clic en el anuncio, el servidor de publicidad, DSP y [!DNL Creative] realizarán un seguimiento de los eventos.
+Cuando se incluye este elemento creativo en una experiencia que se implementa como anuncio desde un DSP, el DSP utiliza la información de esta etiqueta para mostrar el anuncio y para rastrear impresiones y clics en él. A continuación, DSP inserta la etiqueta en el intercambio de anuncios. Cuando se muestra y se hace clic en el anuncio, el servidor de publicidad, DSP y [!DNL Creative] realizan un seguimiento de los eventos.
 
 **[!UICONTROL Advertiser]:** (solo lectura) El anunciante para el que la biblioteca está disponible.
 
-**Nombre del creativo:** El nombre del creativo. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando incluya al creativo en una experiencia.
+**Nombre de Creative:** El nombre del creativo. **Sugerencia:** Use un nombre que sea fácil de encontrar cuando incluya al creativo en una experiencia.
 
-**Tamaño creativo:** (solo lectura para anuncios existentes) Dimensiones del creativo. Para nuevos creativos, seleccione de una lista de tamaños de anuncio estándar.
+**Tamaño de Creative:** (solo lectura para anuncios existentes) Dimensiones del elemento creativo. Para nuevos creativos, seleccione de una lista de tamaños de anuncio estándar.
 u
 **Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos.
 
-**Dirección URL de la página de aterrizaje:** Dirección URL de la página de aterrizaje utilizada para validar cada anuncio con el que asocia a los creativos. La página de aterrizaje real de cada anuncio viene determinada por el servidor de publicidad de terceros.
+**Dirección URL de la página de aterrizaje:** Dirección URL de la página de aterrizaje utilizada para validar cada anuncio con el que asocia a los creativos. El servidor de publicidad de terceros determina la página de aterrizaje real de cada anuncio.
 
 **Etiqueta:** (Opcional) Cualquier etiqueta que se aplique a todos los elementos creativos seleccionados. Puede filtrar los elementos creativos por etiqueta en varias vistas dentro de [!DNL Creative].
 

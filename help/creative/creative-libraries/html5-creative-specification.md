@@ -2,9 +2,10 @@
 title: Especificación creativa de HTML5
 description: Consulte la especificación creativa de HTML5 para Advertising Creative.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ Este documento describe los requisitos y la compatibilidad con la API para los c
 
 ## Ámbito
 
-[!DNL Creative] admite titulares de HTML5 con elementos multimedia no enriquecidos que aparecen dentro de los bordes definidos de una página. Puede utilizar los siguientes tipos de creativos de HTML5:
+[!DNL Creative] admite titulares de HTML5 con elementos multimedia no enriquecidos que aparecen dentro de los bordes definidos de una página. Puede utilizar los siguientes tipos de HTML5 creativos:
 
 <!--Remove to simplify:
 
@@ -25,9 +26,9 @@ Este documento describe los requisitos y la compatibilidad con la API para los c
 
 -->
 
-* **HTML 5:** admite hasta 5 direcciones URL de páginas de aterrizaje que se pueden configurar durante la creación creativa y el tráfico.
+* **HTML5:** admite hasta 5 direcciones URL de páginas de aterrizaje que se pueden configurar durante la creación creativa y el tráfico.
 
-* **HTML flexible5:** admite hasta 5 direcciones URL de páginas de aterrizaje que se pueden configurar durante la creación y el tráfico creativos, y también permite modificar los atributos creativos durante la creación y el tráfico creativos.
+* **HTML5 flexible:** admite hasta 5 direcciones URL de páginas de aterrizaje que se pueden configurar durante la creación y el tráfico creativos, y también permite modificar los atributos creativos durante la creación y el tráfico creativos.
 
 ## Requisitos
 
@@ -35,17 +36,17 @@ Este documento describe los requisitos y la compatibilidad con la API para los c
 
 * El elemento creativo debe estar empaquetado en un archivo ZIP (formato .ZIP). Los archivos ZIP anidados no son compatibles, por lo que no incluya una carpeta comprimida dentro de la carpeta comprimida externa.
 
-* El archivo ZIP debe contener al menos un archivo de HTML (el archivo de visualización del HTML principal) que incluya una referencia a la biblioteca de JavaScript [!DNL Creative]. El archivo de HTML principal puede estar en la carpeta raíz o en una subcarpeta.
+* El archivo ZIP debe contener al menos un archivo HTML (el archivo de visualización principal de HTML) que incluya una referencia a la biblioteca de JavaScript [!DNL Creative]. El archivo HTML principal puede estar en la carpeta raíz o en una subcarpeta.
 
 * Al archivo HTML principal se le puede asignar cualquier nombre, siempre que no incluya caracteres especiales, aunque se recomienda `index.html`.
 
-* Todos los recursos de soporte necesarios para procesar el elemento creativo final deben encontrarse en la misma carpeta que el archivo de visualización del HTML o en subcarpetas de la carpeta principal.
+* Todos los recursos de soporte necesarios para procesar el elemento creativo final deben encontrarse en la misma carpeta que el archivo de visualización de HTML o en subcarpetas de la carpeta principal.
 
-* No incluya en el creativo ningún archivo al que no se haga referencia para ese creativo.
+* No incluya en el creativo ningún archivo al que el creativo no haga referencia.
 
-### Inclusión del archivo JavaScript del Advertising Creative
+### Inclusión del archivo JavaScript de Advertising Creative
 
-El archivo del HTML principal (y ningún otro archivo) debe contener una referencia al archivo de JavaScript `AMOLibrary.js`. Llame al archivo en la primera línea de la sección `<head>` con la siguiente dirección:
+El archivo HTML principal (y ningún otro archivo) debe contener una referencia al archivo JavaScript `AMOLibrary.js`. Llame al archivo en la primera línea de la sección `<head>` con la siguiente dirección:
 
 `https://ads.everesttech.net/ads/static/local/AMOLibrary.js`
 
@@ -77,15 +78,15 @@ var clickTag = “http://www.example.com”;
 
 ### Requisitos creativos de HTML5
 
-#### Compatibilidad con URL de pulsaciones en el HTML estático5
+#### Compatibilidad con URL de pulsaciones en HTML estático5
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registra las direcciones URL de pulsación y el parámetro asociado utilizado para hacer referencia a cada dirección URL (conocido como `clickTag`). Esto indica al servidor de publicidad [!DNL Creative] dónde agregar el rastreo de clics. Puede utilizar esta API para registrar hasta cinco variables de etiqueta de clic, cada una con la dirección URL de la página de aterrizaje correspondiente.
+Registra las direcciones URL de pulsación y el parámetro asociado utilizado para hacer referencia a cada dirección URL (conocido como `clickTag`). Esta API informa al servidor de publicidad [!DNL Creative] sobre dónde agregar el rastreo de clics. Puede utilizar esta API para registrar hasta cinco variables de etiqueta de clic, cada una con la dirección URL de la página de aterrizaje correspondiente.
 
 >[!NOTE]
 >
->Las direcciones URL estáticas que incluya en el creativo de HTML5 se utilizan únicamente con fines de prueba local y se sobrescribirán. Cuando cargue un elemento creativo de HTML5, definirá la página de aterrizaje predeterminada para cada variable `clickTag`. Al asignar un elemento creativo de HTML5 cargado a una experiencia publicitaria, puede, opcionalmente, anular la página de aterrizaje predeterminada para cada variable de `clickTag` y [!DNL Creative] agrega el rastreo de clics a las direcciones URL cuando guarda la experiencia.
+>Las direcciones URL estáticas que incluya en el creativo de HTML5 se utilizan únicamente con fines de prueba local y se sobrescribirán. Al cargar un elemento creativo de HTML5, se define la página de aterrizaje predeterminada para cada variable `clickTag`. Al asignar un elemento creativo de HTML5 cargado a una experiencia publicitaria, puede, opcionalmente, anular la página de aterrizaje predeterminada para cada variable de `clickTag` y [!DNL Creative] agrega el rastreo de clics a las direcciones URL cuando guarda la experiencia.
 
 ###### Parámetros
 
@@ -95,7 +96,7 @@ Registra las direcciones URL de pulsación y el parámetro asociado utilizado pa
 
 ###### Uso
 
-Llame a `amo.registerClick()` en la sección `<head>` del archivo del HTML principal.
+Llame a `amo.registerClick()` en la sección `<head>` del archivo principal de HTML.
 
 ###### Ejemplo
 
@@ -113,7 +114,7 @@ Déclencheur el evento de salida, que redirige al usuario a la página de aterri
 
 ###### Uso
 
-Llame a `amo.onAdClick()` en la sección `<body>` del archivo del HTML principal.
+Llame a `amo.onAdClick()` en la sección `<body>` del archivo principal de HTML.
 
 ###### Ejemplos
 
@@ -121,15 +122,15 @@ Llame a `amo.onAdClick()` en la sección `<body>` del archivo del HTML principal
 
 ### Requisitos creativos flexibles de HTML5
 
-#### Compatibilidad con URL de pulsaciones en un HTML flexible5
+#### Compatibilidad con URL de pulsaciones en HTML5 flexible
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registra las direcciones URL de pulsación y el parámetro asociado utilizado para hacer referencia a cada dirección URL (conocido como `clickTag`). Esto indica al servidor de publicidad [!DNL Creative] dónde agregar el rastreo de clics. Puede utilizar esta API para registrar hasta cinco variables de etiqueta de clic, cada una con la dirección URL de la página de aterrizaje correspondiente.
+Registra las direcciones URL de pulsación y el parámetro asociado utilizado para hacer referencia a cada dirección URL (conocido como `clickTag`). Esta API informa al servidor de publicidad [!DNL Creative] sobre dónde agregar el rastreo de clics. Puede utilizar esta API para registrar hasta cinco variables de etiqueta de clic, cada una con la dirección URL de la página de aterrizaje correspondiente.
 
 >[!NOTE]
 >
->Las direcciones URL estáticas que incluya en el creativo de HTML5 se utilizan únicamente con fines de prueba local y se sobrescribirán. Cuando cargue un elemento creativo de HTML5, definirá la página de aterrizaje predeterminada para cada variable `clickTag`. Al asignar un elemento creativo de HTML5 cargado a una experiencia publicitaria, puede, opcionalmente, anular la página de aterrizaje predeterminada para cada variable de `clickTag` y [!DNL Creative] agrega el rastreo de clics a las direcciones URL cuando guarda la experiencia.
+>Las direcciones URL estáticas que incluya en el creativo de HTML5 se utilizan únicamente con fines de prueba local y se sobrescribirán. Al cargar un elemento creativo de HTML5, se define la página de aterrizaje predeterminada para cada variable `clickTag`. Al asignar un elemento creativo de HTML5 cargado a una experiencia publicitaria, puede, opcionalmente, anular la página de aterrizaje predeterminada para cada variable de `clickTag` y [!DNL Creative] agrega el rastreo de clics a las direcciones URL cuando guarda la experiencia.
 
 ###### Parámetros
 
@@ -139,7 +140,7 @@ Registra las direcciones URL de pulsación y el parámetro asociado utilizado pa
 
 ###### Uso
 
-Llame a `amo.registerClick()` en la sección `<head>` del archivo del HTML principal.
+Llame a `amo.registerClick()` en la sección `<head>` del archivo principal de HTML.
 
 ###### Ejemplo
 
@@ -157,13 +158,13 @@ Déclencheur el evento de salida, que redirige al usuario a la página de aterri
 
 ###### Uso
 
-Llame a `amo.onAdClick()` en la sección `<body>` del archivo del HTML principal.
+Llame a `amo.onAdClick()` en la sección `<body>` del archivo principal de HTML.
 
 ###### Ejemplos
 
 `amo.onAdClick('clickTag')` O `amo.onAdClick('clickTag',clickEvt)`
 
-#### Compatibilidad con atributos creativos en HTML flexible5
+#### Compatibilidad con atributos creativos en HTML5 flexible
 
 ##### `amo.registerAttribute(key, type, value)`
 
@@ -187,11 +188,11 @@ Llame a `amo.registerAttribute()` para registrar un atributo, tipo y valor creat
 
 ##### `amo.attributes`
 
-Un objeto JSON para consultar los nombres y valores de las variables de atributos creativos. Las claves de objeto serán los nombres de atributo y los valores serán los valores de dichos atributos.
+Un objeto JSON para consultar los nombres y valores de las variables de atributos creativos. Las claves de objeto son los nombres de atributo y los valores son los valores de dichos atributos.
 
 En el modo de prueba local, los pares clave-valor son los pares registrados por la API `amo.registerAttribute`. Para la producción, los nombres y valores de las variables de los atributos creativos deben configurarse en el momento de la creación y el tráfico creativos.
 
-### Requisitos de contenido creativo
+### Requisitos de contenido de Creative
 
 La mayoría de los intercambios de pantallas disponibles en Advertising DSP tienen los siguientes requisitos creativos:
 
@@ -201,7 +202,7 @@ La mayoría de los intercambios de pantallas disponibles en Advertising DSP tien
 
 * La página de aterrizaje debe abrirse en una nueva ventana.
 
-* El dominio de la página de aterrizaje y sus subdominios no pueden tener más de 35 caracteres. DSP **Nota:** Las direcciones URL de la página de aterrizaje final se definen en el recurso y no en los recursos de HTML 5 en sí mismos.
+* El dominio de la página de aterrizaje y sus subdominios no pueden tener más de 35 caracteres. **Nota:** Las direcciones URL de la página de aterrizaje final se definen en DSP y no en los propios recursos de HTML5.
 
 * Cualquier renuncia a la oferta de un anuncio debe incluirse en el propio anuncio y no solo en la página de aterrizaje.
 
@@ -244,7 +245,7 @@ La mayoría de los intercambios de pantallas disponibles en Advertising DSP tien
 ]
 ```
 
-## Ejemplo de creatividad de HTML 5
+## Ejemplo de creatividad de HTML5
 
 ### Ejemplo de estructura de carpetas (después de la descompresión)
 
@@ -254,7 +255,7 @@ La mayoría de los intercambios de pantallas disponibles en Advertising DSP tien
 
    * bg.jpg (imagen de JPG, PNG, SVG o GIF)
 
-### Archivo de HTML de ejemplo (index.html) para creativos simples de HTML5
+### Archivo HTML de ejemplo (index.html) para creativos HTML5 simples
 
 ```
 <!DOCTYPE html>
@@ -273,7 +274,7 @@ La mayoría de los intercambios de pantallas disponibles en Advertising DSP tien
 </html>
 ```
 
-### Archivo de HTML de ejemplo (index.html) para creativos estáticos de HTML5
+### Ejemplo de archivo de HTML (index.html) para creativos estáticos de HTML5
 
 ```
 <!DOCTYPE html>

@@ -2,9 +2,10 @@
 title: Administrar paquetes creativos
 description: Más información sobre xxxx.
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Los paquetes son grupos de creativos que se pueden añadir a una experiencia como una unidad. Después de crear un contenedor de paquetes, puede adjuntar elementos creativos al paquete. Los paquetes estándar solo pueden contener anuncios estándar y los paquetes dinámicos solo pueden contener anuncios dinámicos. Puede anular las páginas de aterrizaje, las etiquetas de seguimiento de impresiones y las etiquetas de rastreo de clics de todos los creativos de un paquete asignado a una experiencia desde el árbol de decisión de experiencias sin afectar a los creativos de base.
+Los paquetes son grupos de creativos que se pueden añadir a una experiencia como una unidad. Después de crear un contenedor de paquetes, puede adjuntar elementos creativos al paquete. Los paquetes estándar solo pueden contener anuncios estándar y los paquetes dinámicos solo pueden contener anuncios dinámicos. Puede anular las páginas de aterrizaje, las etiquetas de seguimiento de impresiones y las etiquetas de seguimiento de clics de todos los creativos de un paquete asignado a una experiencia desde el árbol de decisión de experiencias, sin afectar a los creativos de base.
 
 [!DNL Creative] rota entre los elementos creativos del paquete según se ha especificado para cada experiencia a la que se ha asignado el paquete. Opcionalmente, puede permitir que [!DNL Creative] optimice los elementos de publicidad para cualquier experiencia en función del rendimiento mediante la rotación algorítmica de anuncios, que funciona con Adobe Sensei.
 
@@ -103,11 +104,13 @@ Los cambios en un nombre de paquete se propagan por todas las experiencias asoci
 
 ## Adjuntar elementos creativos a un paquete
 
-Puede adjuntar [creativos estándar existentes](/help/creative/creative-libraries/creative-libraries-about.md) a un paquete estándar y adjuntar los creativos dinámicos existentes <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a un paquete dinámico. Al adjuntar un elemento creativo a un paquete, este estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete solo puede incluir una de cada combinación \[creative size + language\].
+Puede adjuntar [creativos estándar existentes](/help/creative/creative-libraries/creative-libraries-about.md) a un paquete estándar y adjuntar los creativos dinámicos existentes<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a un paquete dinámico. Al adjuntar un elemento creativo a un paquete, este estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete solo puede incluir una de cada combinación \[creative size + language\].
 
+<!--
 >[!NOTE]
 >
->También puede [adjuntar elementos creativos a paquetes desde las vistas Anuncios estándar y Anuncios dinámicos](creative-attach-detach-bundles.md).
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Eliminar paquetes
 
-Puede eliminar paquetes que no estén asignados a una experiencia en directo.<!-- Add an x-ref?  --> Si se asigna un paquete a una experiencia en directo, elimine el paquete del árbol de decisión de la experiencia <!-- add x-ref --> antes de continuar.
+Puede eliminar paquetes que no estén asignados a una experiencia [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Si se asigna un paquete a una experiencia en directo, [elimine el paquete del árbol de decisión](/help/creative/experiences/experience-target-node-delete.md) de la experiencia antes de continuar.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -250,5 +253,6 @@ Puede eliminar paquetes que no estén asignados a una experiencia en directo.<!-
 >[!MORELIKETHIS]
 >
 >* [Asignar y cancelar la asignación de paquetes creativos a un nodo final en una experiencia](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Agregar elementos creativos estándar a una biblioteca creativa](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Administrar bibliotecas creativas](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)

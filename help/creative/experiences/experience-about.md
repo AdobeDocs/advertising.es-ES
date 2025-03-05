@@ -3,9 +3,9 @@ title: Acerca de las experiencias en Advertising Creative
 description: Aprenda a configurar experiencias de publicidad personalizadas y optimizar los elementos de publicidad en función del rendimiento.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!-- MORE -->
 
-[!DNL Advertising Creative 2.0] proporciona dos estructuras de experiencia de anuncio diferentes para los anuncios de la biblioteca creativa<!-- can use a single library only -->:
+[!DNL Advertising Creative 2.0] proporciona dos estructuras de experiencia de anuncio diferentes para los anuncios de una biblioteca creativa<!-- can use a single library only -->:
 
 * **Experiencias con segmentación en el árbol de decisiones:** [!DNL Creative] le permite configurar experiencias de publicidad personalizadas en todo el recorrido del cliente mediante un modelo de árbol de decisiones. Puede personalizar todos los elementos de publicidad (imágenes, titulares, ofertas y páginas de aterrizaje) en función del público objetivo.
 
   Por ejemplo, puede especificar el mismo paquete creativo para las personas de Chicago y Nueva York que están en un segmento de audiencia de Adobe Analytics específico, pero enviar a personas de Chicago que están en el mismo segmento a páginas de aterrizaje diferentes a las de los neoyorquinos. También puede especificar un paquete diferente para las personas del segmento que viven en cualquier lugar excepto Chicago y Nueva York, y un tercer paquete para otras personas que no están en el segmento.
 
-  Las opciones de segmentación incluyen visores de sus segmentos de audiencia de origen de Adobe Audience Manager, Adobe Analytics y Advertising Cloud DSP DSP; visores de ubicaciones geográficas específicas, incluidos países, estados, DMA en Estados Unidos, ciudades y códigos postales; visores para los que el usuario, el editor o el socio pasan pares clave-valor específicos (destinos de paso de datos); visores con [!DNL Creative] píxeles de redireccionamiento y valores de atributo especificados; y visores con tipos de dispositivos, sistemas operativos y navegadores específicos.
+  Las opciones de segmentación incluyen visores en sus segmentos de audiencia de origen de Adobe Audience Manager, Adobe Analytics y Advertising Cloud DSP; visores en ubicaciones geográficas específicas, incluidos países, estados, DMA en Estados Unidos, ciudades y códigos postales; visores para los que se pasan pares clave-valor específicos (destinos de paso de datos) desde DSP, publisher o partner; visores con [!DNL Creative] píxeles de retargeting y valores de atributo especificados; y visores con tipos de dispositivos, sistemas operativos y navegadores específicos.
 
   Puede asignar paquetes creativos a cada experiencia. Opcionalmente, puede personalizar la optimización y la programación de los paquetes creativos y cambiar las páginas de aterrizaje predeterminadas y las direcciones URL de seguimiento <!-- and any flexible attributes --> para los creativos individuales de cada paquete.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## Implementación y administración de experiencias
 
-Una vez que haya creado una experiencia en vivo (con todos los elementos de publicidad requeridos), puede [generar una etiqueta JavaScript o iframe para toda la experiencia](experience-tag-export.md), que opcionalmente puede cargar como un anuncio a una campaña en Adobe Advertising DSP DSP o implementarla como un anuncio en una campaña de terceros [!DNL Creative] proporciona anuncios para la experiencia en función de las opciones de segmentación y rotación de anuncios, así como del inventario de anuncios disponible.
+Una vez que haya creado una experiencia en vivo (con todos los elementos de publicidad requeridos), puede [generar una etiqueta JavaScript o iframe para toda la experiencia](experience-tag-export.md), que opcionalmente puede cargar como un anuncio a una campaña en Adobe Advertising DSP o implementarla como un anuncio en un DSP de terceros. [!DNL Creative] proporciona anuncios para la experiencia en función de las opciones de segmentación y rotación de anuncios, así como del inventario de anuncios disponible.
 
 ## Datos de rendimiento para sus experiencias
 
@@ -61,7 +61,7 @@ You can [view detailed performance data for any experience](experience-performan
 
 El estado de una experiencia se establece automáticamente, excepto *eliminada,* que usted establece manualmente.
 
-DSP *Activo:* La experiencia incluye todos los elementos necesarios para que pueda generar una etiqueta de experiencia para implementarla como un anuncio en un grupo de usuarios de la red de distribución de contenido. <!-- A live experience may be scheduled to start in the future -->
+*Activo:* La experiencia incluye todos los elementos necesarios para que pueda generar una etiqueta de experiencia para implementarla como un anuncio en un DSP. <!-- A live experience may be scheduled to start in the future -->
 
 *Borrador:* A todas las ramas de la experiencia no se les han asignado elementos creativos, por lo que la experiencia está incompleta y no se puede generar una etiqueta de experiencia.
 
@@ -71,13 +71,13 @@ DSP *Activo:* La experiencia incluye todos los elementos necesarios para que pue
 
 >[!NOTE]
 >
->DSP Puede cambiar el estado de un anuncio dentro de una sin que ello afecte al estado de la experiencia en [!DNL Creative].
+>Puede cambiar el estado de un anuncio dentro de una DSP sin que ello afecte al estado de la experiencia en [!DNL Creative].
 
 ## La vista [!UICONTROL Experiences]
 
 La vista [!UICONTROL Experiences] muestra todas sus experiencias segmentadas y sin segmentar. Puede ver los nombres de las experiencias, el estado, las fechas de inicio y finalización, el número y las dimensiones de los creativos o paquetes creativos asignados, y si la experiencia incluye anuncios dinámicos. Al habilitar la opción [!UICONTROL Metrics] en la vista [!UICONTROL Experiences], cada fila o tarjeta de experiencia indica el número de impresiones y clics que recibió la experiencia.
 
-Puede crear y administrar sus experiencias, incluida la optimización y la asignación de creativos y paquetes creativos a sus experiencias. También puede crear y cambiar el nombre de las etiquetas de experiencia de anuncio y exportarlas en los formatos JavaScript DSP e iframe para su implementación en el entorno de trabajo de la aplicación de la aplicación de la. Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas directamente en una campaña de Advertising DSP como anuncios.
+Puede crear y administrar sus experiencias, incluida la optimización y la asignación de creativos y paquetes creativos a sus experiencias. También puede crear y cambiar el nombre de las etiquetas de experiencia de anuncio y exportarlas en los formatos JavaScript e iframe para su implementación en los DSP. Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas directamente en una campaña de Advertising DSP como anuncios.
 
 <!--
 ### Available actions

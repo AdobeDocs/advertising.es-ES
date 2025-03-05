@@ -3,9 +3,9 @@ title: Administrar píxeles de retargeting
 description: Aprenda a crear e implementar píxeles de retargeting para utilizarlos como objetivos para experiencias de publicidad.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Ejemplo de píxel:
 
    Si agrega atributos adicionales manualmente, debe incluir la codificación de la URL.
 
-   Por ejemplo, si ha incluido los atributos &quot;categoría&quot;, &quot;color&quot; y &quot;tamaño&quot; y los ID universales de captura ID5, la etiqueta de píxeles incluirá los siguientes parámetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` y `&id5pid=--Insert ID5_PARTNER_ID--`. Para dirigirse a los usuarios que seleccionen sandalias rojas en el tamaño 10, por ejemplo, cambiaría los parámetros tanto en la etiqueta de imagen como en la etiqueta de script a `&ut1=sandals&ut2=red&ut3=10`, y también introduciría su ID5 de socio en la etiqueta de script, como `&id5pid=0123456789`.
+   Por ejemplo, si ha incluido los atributos &quot;categoría&quot;, &quot;color&quot; y &quot;tamaño&quot; y los ID universales de captura ID5, la etiqueta de píxeles incluye los siguientes parámetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` y `&id5pid=--Insert ID5_PARTNER_ID--`. Para dirigirse a los usuarios que seleccionen sandalias rojas en el tamaño 10, por ejemplo, cambie los parámetros en la etiqueta de imagen y en la etiqueta de script a `&ut1=sandals&ut2=red&ut3=10`, y también introduzca su ID5 de socio en la etiqueta de script, como `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -99,17 +99,17 @@ Ejemplo de píxel:
 
 ## Configuración de píxeles de redireccionamiento {#retargeting-pixel-settings}
 
-**[!UICONTROL Pixel Name]:** El nombre del píxel. **Nota:** La etiqueta de píxeles incluirá el identificador de píxel (`pxId=<ID>`), no el nombre de píxel.
+**[!UICONTROL Pixel Name]:** El nombre del píxel. **Nota:** La etiqueta de píxeles incluye el identificador de píxel (`pxId=<ID>`), no el nombre de píxel.
 
 **[!UICONTROL Advertiser]:** (solo lectura para píxeles existentes) El anunciante para el que se realiza el seguimiento del píxel.
 
 **[!UICONTROL Attribute 1]:** Atributo que se va a incluir en la etiqueta de píxeles, como &quot;SKU&quot;, &quot;categoría&quot;, &quot;tamaño&quot; u otros atributos de la página o del producto mostrado en la página. Especifique un valor para el atributo en la etiqueta de píxeles antes de insertarlo en las páginas web relevantes.
 
-Cuando orienta las experiencias de anuncios a usuarios expuestos al píxel, la configuración de segmentación especifica los valores de atributo que deben estar presentes para mostrar a los creativos.
+Cuando dirige experiencias de anuncio a usuarios expuestos al píxel, la configuración de segmentación especifica los valores de atributo que deben estar presentes para mostrar los elementos creativos.
 
 **[!UICONTROL Attribute 2]**, **[!UICONTROL Attribute 3]**, **[!UICONTROL Attribute 4]**, **[!UICONTROL Attribute 5]:** (Opcional) Atributos adicionales para incluir en la etiqueta de píxeles. Especifique un valor para cada atributo adicional en la etiqueta de píxeles antes de insertarlo en las páginas web relevantes.
 
-Cuando orienta las experiencias de anuncios a usuarios expuestos al píxel, la configuración de segmentación especifica los valores de atributo que deben estar presentes para mostrar a los creativos.
+Cuando dirige experiencias de anuncio a usuarios expuestos al píxel, la configuración de segmentación especifica los valores de atributo que deben estar presentes para mostrar los elementos creativos.
 
 **[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (función de Beta; solo nuevos píxeles; opcional) Tipos de ID universales para la etiqueta de píxeles que se va a rastrear:
 

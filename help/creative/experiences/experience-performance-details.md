@@ -3,9 +3,9 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ La vista Informe incluye los siguientes datos:
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* **Rendimiento creativo** ficha*: Información general sobre el rendimiento por creatividad y paquete o etiqueta de publicidad, que incluye:
+* **Rendimiento de Creative** pestaña*: Información general sobre el rendimiento por creatividad y paquete o etiqueta de publicidad, que incluye:
 
    * **Creativos** subpestaña: Número total de impresiones, clics y CTR para cada creativo en la experiencia.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
@@ -162,4 +162,4 @@ La vista Informe incluye los siguientes datos:
 
 >[!MORELIKETHIS]
 >
->* [Informe Creativo Personalizado](/help/creative/report-custom-creative.md)
+>* [Informe de Creative personalizado](/help/creative/report-custom-creative.md)

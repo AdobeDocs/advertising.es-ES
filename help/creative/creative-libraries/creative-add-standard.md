@@ -3,9 +3,9 @@ title: Añadir elementos creativos estándar a una biblioteca creativa
 description: Aprenda a añadir elementos creativos estándar (no dinámicos) a una biblioteca creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Puede cargar varias unidades creativas flexibles. Los elementos creativos flexib
 
 1. Especifique la [configuración flexible de anuncios de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
-   De forma predeterminada, se seleccionan todos los elementos creativos que acaba de cargar. Cualquier configuración con un solo valor se aplica a todos los creativos seleccionados; para algunos ajustes, puede especificar valores individuales. Para especificar la configuración de los elementos creativos específicos, anule la selección de la casilla de verificación situada junto a cada elemento creativo no aplicable.
+   De forma predeterminada, se seleccionan todos los creativos que acaba de cargar. Cualquier configuración con un solo valor se aplica a todos los creativos seleccionados; para algunos ajustes, puede especificar valores individuales. Para especificar la configuración de los elementos creativos específicos, anule la selección de la casilla de verificación situada junto a cada elemento creativo no aplicable.
 
 1. Haga clic **[!UICONTROL Create]**
 
@@ -104,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## Añadir un elemento creativo de HTML5 a una biblioteca creativa
 
-<!-- verify -->Puede añadir varios creativos de HTML5 de un solo tipo (simples o estáticos) a la vez.
+Puede añadir varios creativos de HTML5 de un solo tipo (simples o estáticos) a la vez.
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -122,7 +122,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**.
 
-<!-- Doesn't seem to be an option as of 11/27/24:
+<!-- Not an option as of 3/4:
 
 1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
 
@@ -142,7 +142,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Especifique la [configuración del anuncio de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
 
-De forma predeterminada, se seleccionan todos los elementos creativos que acaba de cargar. Cualquier configuración con un solo valor se aplica a todos los creativos seleccionados; para algunos ajustes, puede especificar valores individuales. Para especificar la configuración de los elementos creativos específicos, anule la selección de la casilla de verificación situada junto a cada elemento creativo no aplicable.
+De forma predeterminada, se seleccionan todos los creativos que acaba de cargar. Cualquier configuración con un solo valor se aplica a todos los creativos seleccionados; para algunos ajustes, puede especificar valores individuales. Para especificar la configuración de los elementos creativos específicos, anule la selección de la casilla de verificación situada junto a cada elemento creativo no aplicable.
 
 1. Haga clic **[!UICONTROL Create]**
 
@@ -172,7 +172,7 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 
 1. Especifique la [configuración de creatividad para imágenes](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
-   De forma predeterminada, todos los elementos creativos que acaba de cargar se seleccionan, y cualquier configuración que especifique se aplicará a todos los elementos creativos seleccionados. Cualquier configuración con un solo valor se aplica a todos los elementos creativos seleccionados. Para introducir la configuración de creativos específicos, anule la selección de cada creativo no aplicable.
+   De forma predeterminada, se seleccionan todos los creativos que acaba de cargar y cualquier configuración que especifique se aplica a todos los creativos seleccionados. Cualquier configuración con un solo valor se aplica a todos los elementos creativos seleccionados. Para introducir la configuración de creativos específicos, anule la selección de cada creativo no aplicable.
 
 1. Haga clic **[!UICONTROL Create]**
 
@@ -202,8 +202,5 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 >* [Tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md)
 >* [Previsualizar un elemento creativo](/help/creative/creative-libraries/creative-preview.md)
 >* [Adjuntar y desasociar elementos creativos de paquetes](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
->* [Creativos duplicados](/help/creative/creative-libraries/creative-duplicate.md)
->* [Descargar elementos creativos](/help/creative/creative-libraries/creative-download.md)
->* [Eliminar elementos creativos](/help/creative/creative-libraries/creative-delete.md)
 >* [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [Administrar bibliotecas creativas](/help/creative/creative-libraries/creative-library-manage.md)

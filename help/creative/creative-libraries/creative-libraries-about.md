@@ -1,10 +1,11 @@
 ---
 title: Acerca de sus bibliotecas creativas
-description: Obtenga información sobre cómo administrar los elementos creativos que utilizará en las experiencias publicitarias.
+description: Obtenga información sobre cómo administrar los elementos creativos para sus experiencias publicitarias.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Característica beta cerrada*
 
-Sus bibliotecas creativas le permiten administrar todos los elementos creativos que utilizará en las experiencias publicitarias. Puede crear varias bibliotecas, cada una con un conjunto de elementos creativos y *paquetes creativos*, que son grupos de elementos creativos que puede agregar a una experiencia como una sola unidad.
+Las bibliotecas creativas le permiten administrar los elementos creativos que utilizará en las experiencias publicitarias. Puede crear varias bibliotecas, cada una con un conjunto de elementos creativos y *paquetes creativos*, que son grupos de elementos creativos que puede agregar a una experiencia como una sola unidad.
 
 Las bibliotecas pueden incluir lo siguiente:
 
@@ -21,11 +22,11 @@ Las bibliotecas pueden incluir lo siguiente:
 
    * **Creativos estándar:** Puede cargar y administrar creativos en [varios formatos](#creative-creative-formats). Para cada elemento creativo, debe especificar el idioma predeterminado para cada anuncio con el que asocia el elemento creativo, la página de aterrizaje predeterminada que se abre cuando un usuario hace clic en un anuncio que incluye el elemento creativo y las etiquetas opcionales que se utilizarán como filtros en varias vistas de [!DNL Creative].
 
-   * **Creativos dinámicos:** (solo clientes de DCO de Adobe Advertising existentes) Los usuarios administradores pueden crear creativos generados dinámicamente asignando variables dinámicas en una plantilla de anuncio a los valores de un archivo de fuente. Todos los usuarios pueden obtener una vista previa de los anuncios dinámicos existentes, duplicarlos y eliminarlos.
+   * **Creativos dinámicos:** (solo clientes existentes de Adobe Advertising DCO) Los usuarios administradores pueden crear creativos generados dinámicamente asignando variables dinámicas en una plantilla de anuncio a los valores de un archivo de fuente. Todos los usuarios pueden obtener una vista previa de los anuncios dinámicos existentes, duplicarlos y eliminarlos.
 
 * **Paquetes creativos:** Agrupe los elementos creativos en paquetes para usarlos en varias experiencias con objetivos de usuario definidos. Puede crear *paquetes estándar* que consten de anuncios estándar y *paquetes dinámicos* que consten de anuncios generados dinámicamente.
 
-## Formatos creativos admitidos {#creative-creative-formats}
+## Formatos de Creative compatibles {#creative-creative-formats}
 
 ### Formatos para creativos estándar
 
@@ -33,17 +34,17 @@ Puede agregar y administrar los siguientes tipos creativos en los [tamaños crea
 
 >[!IMPORTANT]
 >
->Incluso si tiene intención de utilizar HTML5, HTML flexible5 o creativos de terceros para sus experiencias publicitarias, también debe añadir creativos de imagen para cada tamaño creativo que vaya a utilizar.
+>Incluso si tiene intención de utilizar HTML5, Flexible HTML5 o creativos de terceros para sus experiencias publicitarias, también debe añadir creativos de imagen para cada tamaño creativo que utilice.
 >
 >Cada experiencia requiere un creativo de imagen predeterminado para cada tamaño creativo asignado a la experiencia. Los elementos creativos de imagen predeterminados se utilizan cuando un explorador no está habilitado para JavaScript o cuando el servidor de publicidad no puede personalizar el anuncio debido a retrasos.
 
 #### HTML flexible5
 
-Los creativos flexibles de HTML5 son creativos de HTML5 con todas sus imágenes y otros atributos como etiquetas de HTML estándar, que se pueden editar directamente en [!DNL Creative], ya sea en una biblioteca creativa o en una experiencia individual (lo que crea una variación del creativo original). Los creativos flexibles de HTML5 utilizan el estándar del Interactive Advertising Bureau (IAB) Technology Laboratory para un [catálogo de productos](https://flexibleads.iabtechlab.com/), para el cual los tamaños de formato de anuncio son flexibles (en lugar de fijos) y se basan en la relación de aspecto y el intervalo de tamaño del anuncio, y para el cual los anuncios mantienen su resolución en todos los dispositivos y sitios de publicación.
+Los creativos flexibles de HTML5 son creativos de HTML5 con todas sus imágenes y otros atributos como etiquetas estándar de HTML, que se pueden editar directamente en [!DNL Creative], ya sea en una biblioteca creativa o en una experiencia individual (lo que crea una variación del creativo original). Los creativos flexibles de HTML5 utilizan el estándar del Interactive Advertising Bureau (IAB) Technology Laboratory para un [catálogo de productos](https://flexibleads.iabtechlab.com/), para el cual los tamaños de formato de anuncio son flexibles (en lugar de fijos) y se basan en la relación de aspecto y el intervalo de tamaño del anuncio, y para el cual los anuncios mantienen su resolución en todos los dispositivos y sitios de editores.
 
-Puede <!-- either --> cargar elementos creativos flexibles de HTML5 como archivos ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Vea las [especificaciones para creativos flexibles de HTML5](html5-creative-specification.md).
+Puede<!-- either --> cargar elementos creativos flexibles de HTML5 como archivos ZIP<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Vea las [especificaciones para creativos flexibles de HTML5](html5-creative-specification.md).
 
-<!-- Will flattening the view be possible in the MVP?
+<!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
 
 
@@ -57,11 +58,11 @@ Si lo desea, puede cambiar los valores por defecto de los atributos especificado
 
 #### Creativos de HTML5
 
-Puede cargar creativos de HTML5 simples o estáticos, con todos los atributos e imágenes especificados, como archivos ZIP. No se puede editar ningún atributo ni añadir imágenes; en su lugar, cargue un nuevo archivo ZIP para añadir un nuevo elemento creativo. Vea las [especificaciones para creativos HTML 5 simples y estáticos](html5-creative-specification.md).
+Puede cargar archivos creativos de HTML5 simples o estáticos, con todos los atributos e imágenes especificados, como archivos ZIP. No se puede editar ningún atributo ni añadir imágenes; en su lugar, cargue un nuevo archivo ZIP para añadir un nuevo elemento creativo. Vea las [especificaciones para creativos HTML5 simples y estáticos](html5-creative-specification.md).
 
 #### Creativos de imagen
 
-Puede incluir creativos de imagen en formato GIF, JPEG, JPG de la imagen o formato PNG. Puede cargar <!--LATER:   images from your Adobe Experience Manager accounts or --> imágenes desde su dispositivo o red.
+Puede incluir creativos de imagen en formato GIF, JPEG, JPG o PNG. Puede cargar <!--LATER:   images from your Adobe Experience Manager accounts or --> imágenes desde su dispositivo o red.
 
 Cada experiencia publicitaria requiere un creativo de imagen predeterminado para cada tamaño creativo asignado a la experiencia.
 
@@ -75,7 +76,7 @@ Introduzca las etiquetas de seguimiento de JavaScript para creativos alojados en
 
 ### Formato para anuncios dinámicos
 
-Los usuarios administradores pueden crear elementos creativos generados dinámicamente en los formatos estático HTML 5 y dinámico HTML 5 mediante la asignación de variables dinámicas en una plantilla de anuncio a los valores de un archivo de fuente. Esto puede incluir elementos creativos de sus experiencias heredadas de Adobe Advertising Dynamic Creative Optimization (DCO).
+Los usuarios administradores pueden generar de forma dinámica elementos creativos en formato HTML5 estático y HTML5 dinámico asignando variables dinámicas en una plantilla de anuncio a valores de un archivo de fuente. Los elementos creativos dinámicos pueden incluir elementos creativos de las experiencias heredadas de Adobe Advertising Dynamic Creative Optimization (DCO).
 
 ## Las vistas [!UICONTROL Creative Libraries]
 
@@ -127,7 +128,7 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 #### [!UICONTROL Dynamic Ads]
 
-La pestaña [!UICONTROL Dynamic Ads] muestra todos los elementos creativos dinámicos que se crearon dinámicamente para sus catálogos creativos, excepto los elementos creativos dinámicos que [eliminó manualmente](creative-delete.md) de la pestaña [!UICONTROL Dynamic Ads]. Si [duplicó manualmente](creative-duplicate.md) cualquier elemento creativo dinámico desde la última vez que se procesó un catálogo, la lista de elementos creativos de ese catálogo también incluirá los elementos creativos duplicados.
+La pestaña [!UICONTROL Dynamic Ads] muestra todos los elementos creativos dinámicos que se crearon dinámicamente para sus catálogos creativos, excepto los elementos creativos dinámicos que [eliminó manualmente](creative-delete.md) de la pestaña [!UICONTROL Dynamic Ads]. Si [duplicó manualmente](creative-duplicate.md) cualquier elemento creativo dinámico desde la última vez que se procesó un catálogo, entonces la lista de elementos creativos para ese catálogo también incluye los elementos creativos duplicados.
 
 Los datos de cada creativo incluyen el tipo de creativo, el tamaño de creativo, el número de catálogos a los que pertenece el creativo y la fecha de creación. El modo de tabla también incluye columnas para la plantilla a través de la cual se generó el creativo y el recuento de ofertas.
 

@@ -3,7 +3,7 @@ title: Configuración de experiencias sin objetivo
 description: Consulte las descripciones de todas las configuraciones para experiencias de publicidad sin segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[Creativos predeterminados especificados\]:** Los creativos de imagen predeterminados que se deben usar cuando un explorador no puede mostrar los creativos asignados a la experiencia, como cuando el explorador no está habilitado para JavaScript o el servidor de publicidad no puede personalizar el anuncio debido a retrasos. Incluya un elemento creativo de imagen por tamaño de anuncio al que se aplique la experiencia. Las opciones determinan los tamaños creativos que se pueden utilizar para la experiencia. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-En el caso de las experiencias sin segmentación en el árbol de decisiones, puede anular los elementos creativos predeterminados con elementos creativos del mismo tamaño en [!UICONTROL Tag Manager].<!-- verify -->
+En el caso de las experiencias sin segmentación en el árbol de decisiones, puede anular los elementos creativos predeterminados con elementos creativos del mismo tamaño en [!UICONTROL Tag Manager].
 
 * Para agregar un elemento creativo predeterminado con diferentes dimensiones, haga clic en **[!UICONTROL + Add Sizes]**, active la casilla de verificación situada junto a cada elemento creativo que desee agregar en el panel derecho y, a continuación, haga clic en **[!UICONTROL Add Creatives]**.
 

@@ -2,9 +2,10 @@
 title: Edición de elementos creativos estándar en una biblioteca creativa
 description: Aprenda a cambiar la configuración de los creativos estándar (no dinámicos) en una biblioteca creativa.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 *Beta cerrada*
 
-Puede editar algunos ajustes para cada tipo de elemento creativo estándar. Puede editar varios elementos creativos <!-- or creative variations --> del mismo tipo creativo (HTML simple5 con una sola página de aterrizaje, HTML estático5 con varias páginas de aterrizaje, HTML flexible5, imagen o solo de terceros<!-- , or dynamic -->).
+Puede editar algunos ajustes para cada tipo de elemento creativo estándar. Puede editar varios elementos creativos <!-- or creative variations --> del mismo tipo creativo (HTML5 simple con una sola página de aterrizaje, HTML5 estático con varias páginas de aterrizaje, HTML5 flexible, imagen o solo de terceros<!-- , or dynamic -->).
 
-Para los creativos HTML 5 y HTML 5 estáticos flexibles, puede cargar un nuevo archivo de plantilla con un diseño diferente, pero el mismo conjunto de nombres de atributo. Para los creativos sencillos de HTML5, puede editar cualquier atributo o añadir imágenes cargando una nueva plantilla con los nuevos atributos o imágenes. En todos los casos, la plantilla debe ser un archivo local en formato ZIP con un máximo de 2 MB.
+Para los creativos HTML5 y HTML5 estáticos flexibles, puede cargar un nuevo archivo de plantilla con un diseño diferente, pero el mismo conjunto de nombres de atributo. Para los creativos sencillos de HTML5, puede editar cualquier atributo o añadir imágenes cargando una nueva plantilla con los nuevos atributos o imágenes. En todos los casos, la plantilla debe ser un archivo local en formato ZIP con un máximo de 2 MB.
 
-Cuando edita un elemento creativo <!-- or creative variation --> incluido en un paquete, los cambios se aplican automáticamente en todas las experiencias que incluyen el paquete, excepto en que cualquier página de aterrizaje personalizada y URL de seguimiento especificadas al nivel de experiencia siguen siendo aplicables al paquete adjunto a esa experiencia.
+Cuando edita un elemento creativo <!-- or creative variation --> incluido en un paquete, los cambios se aplican automáticamente en todas las experiencias que incluyen el paquete, excepto en que cualquier página de aterrizaje personalizada y URL de seguimiento especificadas en el nivel de experiencia siguen siendo aplicables al paquete adjunto a esa experiencia.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -39,7 +40,7 @@ Cuando edita un elemento creativo <!-- or creative variation --> incluido en un 
 
      Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
 
-1. Edite [configuración de creatividad de imagen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [configuración de creatividad de HTML 5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [configuración de creatividad de HTML flexible](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) o [configuración de creatividad de terceros](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. Edite la [configuración creativa de imagen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), la [configuración creativa de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), la [configuración creativa flexible de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) o la [configuración creativa de terceros](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
 
    Cuando edita varios elementos creativos al mismo tiempo:
 
@@ -49,7 +50,7 @@ Cuando edita un elemento creativo <!-- or creative variation --> incluido en un 
 
    >[!NOTE]
    >
-   >* (Solo HTML flexibles5 creativos) Solo puede editar atributos para los creativos únicos.<!-- Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (Solo creativos flexibles de HTML5) Puede editar atributos solo para creativos únicos.<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
 
 <!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
 1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
@@ -66,5 +67,3 @@ Cuando edita un elemento creativo <!-- or creative variation --> incluido en un 
 >* [Agregar elementos creativos estándar a una biblioteca creativa](creative-add-standard.md)
 >* [Configuración creativa estándar](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [Previsualizar un elemento creativo](/help/creative/creative-libraries/creative-preview.md)
->* [Creativos duplicados](/help/creative/creative-libraries/creative-duplicate.md)
->* [Eliminar elementos creativos](/help/creative/creative-libraries/creative-delete.md)
