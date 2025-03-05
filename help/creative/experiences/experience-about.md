@@ -3,7 +3,7 @@ title: Acerca de las experiencias en Advertising Creative
 description: Aprenda a configurar experiencias de publicidad personalizadas y optimizar los elementos de publicidad en función del rendimiento.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Una vez que hayas creado una experiencia en vivo (con todos los elementos de pub
 
 ## Datos de rendimiento para sus experiencias
 
-Al habilitar la opción [!UICONTROL Metrics] en la vista [!UICONTROL Experiences], cada fila o tarjeta de experiencia indica el número de impresiones y clics que recibió la experiencia.
+Al habilitar la opción [!UICONTROL Metrics] en la vista [!UICONTROL Creative] > [!UICONTROL Experiences], cada tarjeta o fila de experiencia indica el número de impresiones y clics que recibió la experiencia.
 
 ![Opción de métricas](/help/creative/assets/metrics-option.png "Opción de métricas")
 
@@ -59,11 +59,9 @@ Al habilitar la opción [!UICONTROL Metrics] en la vista [!UICONTROL Experiences
 
 <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-Puede ver datos de rendimiento detallados de cualquier experiencia en la vista [!UICONTROL Creative] > [!UICONTROL Experiences]. Para supervisar el rendimiento en todas las experiencias, cree un [!UICONTROL Custom Creative Report].
+Puede [ver datos de rendimiento detallados de cualquier experiencia](experience-performance-details.md) desde la vista [!UICONTROL Experiences].
 
-<!--
-You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
--->
+Para supervisar el rendimiento en todas las experiencias, cree un [!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md).
 
 ## Estados de experiencia {#experience-statuses}
 

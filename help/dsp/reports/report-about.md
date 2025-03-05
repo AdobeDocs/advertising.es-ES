@@ -3,7 +3,7 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
+source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%
@@ -41,7 +41,11 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
      >
      >Este informe incluye datos sobre el segmento de facturación. Si a un usuario o dispositivo se le sirve una impresión que pertenece a varios segmentos, solo se acredita un segmento facturable con la impresión.
 
-   * **[!UICONTROL Conversion]:** Use este informe para comprender el rendimiento de sus campañas en función de las métricas de conversión capturadas mediante el seguimiento de conversión de Adobe Advertising. Este informe incluye la atribución de múltiples contactos.
+   * **[!UICONTROL Conversion]:** Use este informe para comprender el rendimiento de sus campañas en función de las métricas de conversión capturadas mediante el seguimiento de conversiones de Adobe Advertising. Este informe incluye la atribución de múltiples contactos.
+
+  <!--
+    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    -->
 
    * **[!UICONTROL Device]:** Utilice esta plantilla rellenada previamente para ver las métricas clave según las dimensiones relacionadas con el dispositivo.
 
@@ -83,7 +87,7 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
       * [!UICONTROL Campaign ID] o [!UICONTROL Campaign Name]: muestra qué campañas han ayudado en el proceso de conversión.
 
-      * DSP [!UICONTROL Ad ID] o [!UICONTROL Ad Name] muestra qué anuncios de la han resultado en conversiones.
+      * [!UICONTROL Ad ID] o [!UICONTROL Ad Name] muestra qué anuncios de DSP han resultado en conversiones.
 
       * [!UICONTROL Ad ID & Paid Keyword (SSC)] o [!UICONTROL Ad Name & Paid Keyword (SSC)] muestra qué palabras clave de Search, Social y Commerce han resultado en conversiones.
 
@@ -101,7 +105,7 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
 ## Informes entre cuentas {#cross-account-reporting}
 
-DSP Cualquier organización con varias cuentas de puede, opcionalmente, habilitar los datos entre cuentas en informes personalizados según las necesidades de la organización. Por ejemplo, puede dar acceso a la cuenta A a los datos de la cuenta B y dar acceso a la cuenta B a los datos de la cuenta C (pero no de la cuenta A). Para habilitar y configurar esta función, póngase en contacto con el equipo de cuenta de Adobe.
+Cualquier organización con varias cuentas de DSP puede, opcionalmente, habilitar los datos entre cuentas en informes personalizados según las necesidades de la organización. Por ejemplo, puede dar acceso a la cuenta A a los datos de la cuenta B y dar acceso a la cuenta B a los datos de la cuenta C (pero no de la cuenta A). Para habilitar y configurar esta función, póngase en contacto con el equipo de cuenta de Adobe.
 
 Una vez habilitada la característica para su organización, puede [filtrar](report-settings.md) cualquiera de los siguientes tipos de informes por cuenta: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] y [!UICONTROL Conversion].
 
@@ -133,6 +137,6 @@ Puede crear nuevos informes personalizados, editar los informes existentes o dup
 >* [Descargar un informe personalizado](/help/dsp/reports/report-download.md)
 >* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
 >* [Preguntas más frecuentes sobre los informes de hogares](/help/dsp/reports/faq-reports.md)
->* [Tipos de informes de rendimiento en las vistas de Campaign Management](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en las vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 >* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
