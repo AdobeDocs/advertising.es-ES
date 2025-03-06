@@ -2,9 +2,10 @@
 title: Editar una experiencia con segmentación en árbol de decisiones
 description: Obtenga información sobre cómo editar la configuración de una experiencia publicitaria de destino mediante un árbol de decisiones.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -55,11 +56,11 @@ ht-degree: 0%
 
          * [Copie nodos secundarios y creativos a otro nodo en el mismo nivel](experience-target-node-copy.md).
 
-      * Paquetes creativos:
+      * Paquetes de Creative:
 
          * [Asignar y cancelar la asignación de elementos creativos a un nodo final](experience-assign-creative-bundles.md).
 
-           Si no asigna al menos un paquete a cada nodo final, puede optar por utilizar los elementos creativos predeterminados para cada nodo no asignado al guardar la experiencia. Para que se publique, la experiencia debe tener asignados paquetes o utilizar los elementos creativos predeterminados para todos los anuncios creados a partir de ella.
+           Si no asigna al menos un paquete a cada nodo final, puede optar por utilizar los elementos creativos predeterminados para cada nodo no asignado al guardar la experiencia. Para publicar una experiencia, debe asignar paquetes o utilizar los elementos creativos predeterminados para cada nodo final.
 
          * [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
 

@@ -2,9 +2,10 @@
 title: Asignar y cancelar la asignación de paquetes creativos a un nodo final en una experiencia
 description: Aprenda a asignar elementos creativos a cada destinatario en sus experiencias publicitarias.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,7 @@ Para las experiencias de publicidad estándar, solo puede asignar paquetes creat
 
 >[!NOTE]
 >
->Si no asigna al menos un paquete creativo a cada nodo final, puede optar por usar los elementos creativos predeterminados para cada nodo no asignado al [guardar la experiencia](experience-create-targeting.md). Para que se publique, la experiencia debe tener asignados paquetes o utilizar los elementos creativos predeterminados para todos los anuncios creados a partir de ella.
-
-<!-- The optimization and ad scheduling features and tracking URLs customization are in a different place now -- include here or in separate procedures? -->
+>Si no asigna al menos un paquete creativo a cada nodo final, puede optar por usar los elementos creativos predeterminados para cada nodo no asignado al [guardar la experiencia](experience-create-targeting.md). Para publicar una experiencia, debe asignar paquetes o utilizar los elementos creativos predeterminados para cada nodo final.
 
 <!-- 1. [ways to get to the decision tree] -->
 
