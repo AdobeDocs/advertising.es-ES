@@ -1,19 +1,19 @@
 ---
-title: Compatibilidad del Adobe Advertising con la Ley de Privacidad del Consumidor de California &#58; Compatibilidad de exclusión de la venta del consumidor
+title: Compatibilidad de Adobe Advertising con la Ley de Privacidad del Consumidor de California &#58; Compatibilidad de exclusión de la venta del consumidor
 description: Obtenga información acerca de la compatibilidad para capturar solicitudes de exclusión de venta de consumidores.
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
 # Compatibilidad de Adobe Advertising con la Ley de Privacidad del Consumidor de California: Compatibilidad con la exclusión de la venta del consumidor
 
-*Para Demand Side Platform DSP De Adobe Advertising ()*
+*Para Adobe Advertising Demand Side Platform (DSP)*
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ Como empresa, determinará los datos personales que Adobe Experience Cloud proce
 
 Como proveedor de servicio, Adobe Advertising proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone CCPA y que son aplicables al uso de los productos y servicios de Adobe Advertising, incluida la administración de las solicitudes de los consumidores de acceso y eliminación de información personal y la administración de las solicitudes de los consumidores de exclusión de la venta de información personal.
 
-En este documento se describe cómo Adobe Advertising Demand Side Platform DSP (), como proveedor de servicios, respalda el derecho del consumidor a excluirse de la &quot;venta&quot; de &quot;información personal&quot;, ya que cada término se define en la CCPA. Incluye información sobre cómo comunicar las solicitudes de exclusión de venta al Adobe Advertising y cómo recuperar informes de las solicitudes de exclusión de venta de su organización.
+Este documento describe cómo Adobe Advertising Demand Side Platform (DSP), como proveedor de servicios, admite el derecho del consumidor a excluirse de la &quot;venta&quot; de &quot;información personal&quot;, ya que cada término se define en la CCPA. Incluye información sobre cómo comunicar las solicitudes de exclusión de venta a Adobe Advertising y cómo recuperar informes de las solicitudes de exclusión de venta de su organización.
 
-Para obtener información sobre cómo [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; y [!DNL Advertising DCO] admiten los derechos de acceso y eliminación de información personal de los consumidores, consulte [Compatibilidad de Adobe Advertising con la Ley de Privacidad del Consumidor de California: Compatibilidad de acceso y eliminación de datos del consumidor](/help/privacy/ccpa/ccpa-access-delete.md).
+Para obtener información sobre cómo [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; y [!DNL Advertising DCO] admiten los derechos de acceso y eliminación de información personal de los consumidores, consulte [Soporte de Adobe Advertising para la Ley de Privacidad del Consumidor de California: Acceso a Datos del Consumidor y Soporte para Eliminación](/help/privacy/ccpa/ccpa-access-delete.md).
 
 Para obtener más información sobre los servicios de privacidad de Adobe para la CCPA, consulte el [Centro de privacidad de Adobe](https://www.adobe.com/privacy/ccpa.html).
 
-## Comunicación de solicitudes de exclusión de la venta de consumidores al Adobe Advertising
+## Comunicación de solicitudes de exclusión de la venta de consumidores a Adobe Advertising
 
 Puede comunicar las solicitudes de exclusión de venta de los consumidores mediante lo siguiente:
 
@@ -65,9 +65,9 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
 
    >[!IMPORTANT]
    >
-   >Póngase en contacto con el representante del Adobe Advertising de su compañía para confirmar que todas las cuentas de Adobe Advertising de su organización, incluidas las cuentas de [!DNL DSP] o anunciantes, las cuentas de [!DNL Search, Social, & Commerce] y las cuentas de [!DNL Creative] o [!DNL DCO], están vinculadas a su ID de organización de Experience Cloud.
+   >Póngase en contacto con el representante de Adobe Advertising de su compañía para confirmar que todas las cuentas de Adobe Advertising de su organización, incluidas las cuentas de [!DNL DSP] o anunciantes, las cuentas de [!DNL Search, Social, & Commerce] y las cuentas de [!DNL Creative] o [!DNL DCO], están vinculadas a su ID de organización de Experience Cloud.
 
-1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) al Adobe Advertising en representación de los consumidores y para comprobar el estado de las solicitudes existentes.
+1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) a Adobe Advertising en nombre de los consumidores y para comprobar el estado de las solicitudes existentes.
 
    Consulte el apéndice siguiente para ver un ejemplo de solicitud de exclusión de la venta.
 
@@ -75,11 +75,11 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
    >
    >Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] y [!DNL DCO]), con una cuenta por subsolución.
 
-Todos estos pasos son necesarios para recibir asistencia del Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Recuperación de informes de consumidores que han enviado solicitudes de exclusión de venta
 
-El Adobe Advertising de genera informes mensuales de los ID que los clientes han enviado para solicitudes de exclusión de venta de la cuenta. Cada informe está disponible como archivo de texto separado por tabulaciones comprimido en formato GZIP. Los datos consolidan las solicitudes capturadas mediante segmentos de exclusión de la venta de la CCPA creados en Advertising DSP y cualquier envío realizado mediante la API de Privacy Service. Los ID de usuario capturados en los segmentos de exclusión de la venta de la CCPA se identifican por segmento y por anunciante. Los informes se generan el primer día de cada mes del mes anterior. Por ejemplo, la lista de usuarios mensual de para junio está disponible el 1 de julio.
+Adobe Advertising genera informes mensuales de los ID que los clientes han enviado para solicitudes de exclusión de venta de la cuenta. Cada informe está disponible como archivo de texto separado por tabulaciones comprimido en formato GZIP. Los datos consolidan las solicitudes capturadas mediante segmentos de exclusión de la venta de la CCPA creados en Advertising DSP y cualquier envío realizado mediante la API de Privacy Service. Los ID de usuario capturados en los segmentos de exclusión de la venta de la CCPA se identifican por segmento y por anunciante. Los informes se generan el primer día de cada mes del mes anterior. Por ejemplo, la lista de usuarios mensual de para junio está disponible el 1 de julio.
 
 Puede recuperar vínculos a los informes mensuales creados en los tres meses anteriores, ya sea desde Advertising DSP o mediante Advertising DSP [!DNL Trafficking API]. Cada vínculo es válido durante siete días, pero se actualiza cada vez que un cliente intenta recuperar uno.
 
@@ -121,7 +121,7 @@ curl -X POST \
             "type": "standard"
           },
           {
-            "namespace": "adCloud",
+            "namespace": "AdCloud",
             "type": "standard",
             "value":  "Wqersioejr-wdg",
           }
@@ -131,7 +131,7 @@ curl -X POST \
 }'
 ```
 
-donde:
+donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
-* `"namespace": "adCloud"` indica el espacio de cookies `adCloud`, y el valor correspondiente es el ID de cookie del cliente recuperado de `AdobePrivacy.js`
-* `"include": ["adCloud"]` indica que la solicitud se aplica al Adobe Advertising
+* `"namespace": "AdCloud"` indica el espacio de cookies `AdCloud`, y el valor correspondiente es el ID de cookie del cliente recuperado de `AdobePrivacy.js`
+* `"include": ["adCloud"]` indica que la solicitud se aplica al producto Adobe Advertising
