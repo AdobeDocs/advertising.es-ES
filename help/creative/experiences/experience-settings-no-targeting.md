@@ -3,9 +3,9 @@ title: Configuración de experiencias sin objetivo
 description: Consulte las descripciones de todas las configuraciones para experiencias de publicidad sin segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Cuando se crea una etiqueta de experiencia de anuncio para un tamaño creativo e
 
 **Radio:** (solo experiencias con anuncios dinámicos; opcional) Un radio de un código postal de Estados Unidos especificado en el archivo de fuente para el destino; seleccione un radio de 0 millas a 200 millas. El archivo de fuente utilizado para crear los anuncios dinámicos para la experiencia debe incluir una columna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valor para cada fila de producto en el archivo. Por ejemplo, para un radio de 10 millas, un anuncio de un producto disponible en 95110 se puede mostrar a los usuarios en un radio de 10 millas de 95110 (determinado por la dirección IP del usuario).
 
-**Píxel RT:** (solo experiencias con anuncios dinámicos; opcional) Un píxel de retargeting de [!UICONTROL Creative] a destino potencial. Al configurar el direccionamiento dentro del árbol de decisión, puede incluir un nivel de nodos de destino de píxeles de RT. Para cada nodo, se especifica el píxel de destino y los valores de los atributos del píxel necesarios para mostrar los elementos creativos en los paquetes de elementos creativos asignados. Si no especifica un píxel en este campo, aún puede especificar uno dentro del árbol de decisión.&lt;!— Desde R: &quot;el píxel de RT debe realizarse mediante la selección de contenido en la configuración de publicidad dinámica&quot; — aclarar. Veo &quot;Datapass&quot; (una palabra) en la configuración de publicidad dinámica, pero no estoy seguro de cómo esa configuración y esta a nivel de experiencia funcionan juntas. —>
+**Píxel RT:** (solo experiencias con anuncios dinámicos; opcional) Un píxel de retargeting de [!UICONTROL Creative] a destino potencial. Al configurar el direccionamiento dentro del árbol de decisión, puede incluir un nivel de nodos de destino de píxeles de RT. Para cada nodo, se especifica el píxel de destino y los valores de los atributos del píxel necesarios para mostrar los elementos creativos en los paquetes de elementos creativos asignados. Si no especifica un píxel en este campo, puede especificar uno dentro del árbol de decisión.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
 **[!UICONTROL Label]:**<!-- should be "Labels" --> (Opcional) Cualquier etiqueta específica de [!DNL Creative] que se aplique a la experiencia. Puede filtrar experiencias por etiqueta en la vista Experiencias<!-- sic -->.
 
