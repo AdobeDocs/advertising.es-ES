@@ -3,9 +3,9 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ La vista Informe incluye los siguientes datos:
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-   * **Tasa predeterminada**: (Solo experiencias con segmentación en el árbol de decisiones) El número de impresiones resultantes de elementos creativos segmentados, elementos creativos genéricos sin segmentación o segmentados a &quot;Todos los demás&quot; y elementos creativos predeterminados para la experiencia.
+   * **Tasa predeterminada**: (Solo experiencias con segmentación en el árbol de decisiones) El número de impresiones resultantes de elementos creativos segmentados, elementos creativos genéricos sin segmentación o segmentados a &quot;Todos los demás&quot; y el elemento creativo predeterminado para la experiencia.
 
      <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
@@ -52,7 +52,7 @@ La vista Informe incluye los siguientes datos:
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los <!-- NN --> principales creativos que se han proporcionado con ese criterio.
+      * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los <!-- NN --> principales creativos que se incluyen en ese criterio.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
@@ -112,13 +112,15 @@ La vista Informe incluye los siguientes datos:
 
       * Para especificar un período preestablecido, seleccione el informe: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* o *[!UICONTROL Yesterday]*.
 
-      * Para especificar un intervalo de fechas personalizado, especifique la fecha de inicio y la fecha de finalización <!-- in the format MM/DD/YYYY or M/D/YYYY,--> o haga clic en ![icono de calendario](/help/search-social-commerce/assets/calendar.png) junto a un campo y seleccione una fecha.
+      * Para especificar un intervalo de fechas personalizado, especifique la fecha de inicio y la fecha de finalización<!-- in the format MM/DD/YYYY or M/D/YYYY,--> o haga clic en ![icono de calendario](/help/search-social-commerce/assets/calendar.png) junto a un campo y seleccione una fecha.
 
    * (Opcional) Para cambiar la regla utilizada para atribuir datos de conversión en una serie de eventos que llevan a una conversión, haga clic en ![Configuración](/help/creative/assets/settings.png) y cambie **[!UICONTROL Attribution Rule]**.
 
-   * (Opcional) Para cambiar las conversiones notificadas, haga clic en ![Configuración](/help/creative/assets/settings.png) y seleccione los nombres de conversión en el menú **[!UICONTROL Conversions]**.&lt;!— ¿Solo uno o varios? Verificar cómo se muestran: necesito ver un anunciante con varias conversiones ya configuradas.
+     Para obtener más información acerca de las reglas de atribución, vea &quot;[Cómo se calculan las reglas de atribución](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
-     Las columnas de conversión disponibles incluyen las conversiones disponibles en Advertising Search, Social y Commerce, independientemente de si es cliente de Search, Social y Commerce. Esto puede incluir métricas de conversión y participación del sitio sincronizadas desde Adobe Analytics cuando el anunciante tiene [una [!DNL Adobe Analytics for Advertising] integración](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Para obtener más información acerca de cómo incluir las conversiones recopiladas en los informes, consulte el tema de la Guía de Search, Social y Commerce &quot;[Acerca de la administración de las métricas de conversión de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;.
+   * (Opcional) Para cambiar las conversiones notificadas, haga clic en ![Configuración](/help/creative/assets/settings.png) y seleccione los nombres de conversión en el menú **[!UICONTROL Conversions]**.&lt;!— ¿Solo uno o varios? Verifique cómo se muestran: necesito ver un anunciante con varias conversiones ya configuradas. A partir del 6/3, solo veo &quot;Seleccionar todo&quot;. —>
+
+     Las columnas de conversión disponibles incluyen las conversiones disponibles en Advertising Search, Social y Commerce, independientemente de si es cliente de Search, Social y Commerce. La lista puede incluir métricas de conversión y participación del sitio sincronizadas desde Adobe Analytics cuando el anunciante tiene [una [!DNL Adobe Analytics for Advertising] integración](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Para obtener más información acerca de cómo incluir las conversiones recopiladas en los informes, consulte el tema de la Guía de Search, Social y Commerce &quot;[Acerca de la administración de las métricas de conversión de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;.
 
 1. (En la ficha [!UICONTROL Overview]):
 
@@ -148,7 +150,7 @@ La vista Informe incluye los siguientes datos:
 
       * (Experiencias solo con segmentación en el árbol de decisiones; opcional) Para dividir el rendimiento de cada destino de anuncio aplicado, habilite **[!UICONTROL Split targeting]**.
 
-1. Para ver los datos por paquete (experiencias con segmentación en el árbol de decisiones) o etiqueta de publicidad (experiencias sin segmentación en el árbol de decisiones), haga clic en la subpestaña **[!UICONTROL Bundles]**. Puede realizar cualquiera de las siguientes acciones:
+1. Para ver los datos por paquete (experiencias con segmentación del árbol de decisiones) o etiqueta de publicidad (experiencias sin segmentación del árbol de decisiones), haga clic en la subpestaña **[!UICONTROL Bundles]**. Puede realizar cualquiera de las siguientes acciones:
 
    * (Opcional) Para cambiar entre la vista de gráfico y la vista de cuadrícula, haga clic en ![Gráfico](/help/creative/assets/chart-view-button.png "Gráfico") y ![Cuadrícula](/help/creative/assets/table-view-button.png "Cuadrícula"), respectivamente.
 
@@ -163,3 +165,5 @@ La vista Informe incluye los siguientes datos:
 >[!MORELIKETHIS]
 >
 >* [Informe de Creative personalizado](/help/creative/report-custom-creative.md)
+>* [Descargar todas las experiencias en la vista](/help/creative/experiences/experience-download-view.md)
+>* [Acerca de las experiencias en Advertising Creative](/help/creative/experiences/experience-about.md)

@@ -2,9 +2,10 @@
 title: Añadir un nodo de destino entre nodos en una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino entre cuerpos de destinatario en una experiencia publicitaria.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 0%
 *Solo experiencias con direccionamiento en árbol de decisiones*
 *Beta cerrada*
 
-Al insertar un nodo de destino entre los niveles existentes, el nuevo nodo de destino retiene todos los destinos secundarios y creativos existentes, y el nuevo nodo inicialmente se denomina &quot;Todo&quot;. Opcionalmente, puede mantener el nuevo nodo sin agregar destinos más específicos.
+Al insertar un nodo de destino entre los niveles existentes, el nuevo nodo de destino conserva todos los destinos y elementos creativos secundarios existentes y el nuevo nodo se denomina inicialmente &quot;Todo&quot;. Opcionalmente, puede mantener el nuevo nodo sin agregar destinos más específicos.
 
-Para definir un objetivo específico, agregue un nodo de destino secundario adicional en el mismo nivel, especifique el nuevo objetivo y, a continuación, asigne los elementos creativos únicamente a ese objetivo. Esto crea el nuevo nodo de destino y mueve todos los destinos secundarios y creativos que se asignaron anteriormente a &quot;Todo&quot; a un nuevo nodo &quot;Todo lo demás&quot; en el mismo nivel. De este modo, las ramas secundarias existentes no se ven afectadas por la adición del nuevo destino porque solo el nuevo nodo secundario incluye la nueva información de destino.
+Para definir un objetivo específico, agregue un nodo de destino secundario adicional en el mismo nivel, especifique el nuevo objetivo y, a continuación, asigne los elementos creativos únicamente a ese objetivo. Al agregar un nodo de destino del mismo nivel, se crea el nuevo nodo de destino y se mueven todos los destinos secundarios y creativos que anteriormente se habían asignado a &quot;Todos&quot; a un nuevo nodo &quot;Todo lo demás&quot; en el mismo nivel. De este modo, la adición del nuevo destino no afecta a las ramas secundarias existentes porque solo el nuevo nodo secundario incluye la nueva información de objetivo.
 
 >[!NOTE]
 >
@@ -44,13 +45,13 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
 
    * Si ya existen nodos del mismo nivel, haga lo siguiente:
 
-      * Para los destinos de Audiencia de Adobe, haga lo siguiente:
+      * Para los destinos de audiencia de Adobe, haga lo siguiente:
 
          1. Haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Audience Targeting], abrir la ficha **[!UICONTROL Adobe Segments]**, especificar uno o más de los [!DNL Adobe] destinos de audiencia del anunciante y, a continuación, haga clic en **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
 
          1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varias audiencias, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-            Esto crea un nodo de destino independiente (con paquetes creativos independientes) para cada audiencia especificada. Si no divide los destinatarios, el usuario debe pertenecer a todas las audiencias especificadas.
+            Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada audiencia especificada. Si no divide los destinatarios, el usuario debe pertenecer a todas las audiencias especificadas.
 
          1. Haga clic en **[!UICONTROL Apply]**.
 
@@ -62,7 +63,7 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
 
          1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-            Esto crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas.
+            Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas.
 
          1. Haga clic en **[!UICONTROL Apply]**.
 
@@ -70,7 +71,7 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
 
         La clave para el par clave-valor ya se ha establecido en el campo **[!UICONTROL Data Pass]** de la sección [!UICONTROL Advanced] de la [configuración de la experiencia](experience-settings-targeting.md).
 
-      * Para un destino de píxel de retargeting, seleccione un único píxel de retargeting para utilizarlo y los valores necesarios para cualquiera de los atributos del píxel que deben estar presentes para mostrar los elementos creativos y, a continuación, haga clic en **[!UICONTROL Apply]**.
+      * Para un destino de píxel de retargeting, seleccione un único píxel de retargeting para utilizarlo y los valores de cualquiera de los atributos del píxel necesarios para mostrar los elementos creativos y, a continuación, haga clic en **[!UICONTROL Apply]**.
 
         Los atributos del píxel de redireccionamiento se configuran en [configuración de píxeles de redireccionamiento](/help/creative/pixels/retargeting-pixel-manage.md).
 
@@ -80,7 +81,7 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
 
          1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-            Esto crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas.
+            Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas.
 
          1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
@@ -90,7 +91,7 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
 
    * (Opcional) [Asigne elementos creativos](experience-assign-creative-bundles.md) al nuevo nodo de destino y al nodo &quot;Todo lo demás&quot;.
 
-   * (Opcional) [Agregue un nodo de destino secundario](experience-target-node-add-sibling.md) que incluirá un destino del tipo especificado.
+   * (Opcional) [Agregue un nodo de destino secundario](experience-target-node-add-sibling.md) del tipo de destino especificado.
 
    * (Opcional) Para guardar la experiencia:
 

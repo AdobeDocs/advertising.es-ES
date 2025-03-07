@@ -3,7 +3,7 @@ title: Exportación e implementación de una etiqueta de experiencia de anuncio 
 description: Obtenga información sobre cómo exportar una etiqueta de experiencia de anuncio y, opcionalmente, cargarla en una campaña de Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta cerrada*
 
-Una vez que una etiqueta de anuncio para un tamaño creativo específico esté disponible para una experiencia [live](experience-about.md#experience-statuses), podrá generarla y copiarla en los formatos JavaScript e iframe para su implementación en Advertising DSP DSP u otros. DSP DSP Las etiquetas para la incluyen todas las macros requeridas para la creación de informes de.
+Una vez que haya disponible una etiqueta de anuncio para un tamaño creativo específico para una experiencia [live](experience-about.md#experience-statuses), puede generar y copiar la etiqueta en los formatos JavaScript e iframe para su implementación en Advertising DSP u otros DSP. Las etiquetas de DSP incluyen todas las macros necesarias para DSP.
 
 Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas directamente en una campaña de Advertising DSP como anuncios.
 
@@ -50,7 +50,7 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
    * *Adobe Advertising:* Para anuncios que crearás en Advertising DSP.
 
-   * DSP *Genérico:* Para anuncios que crearás en otras. **Nota:** Es posible que tenga que incluir manualmente macros adicionales según sea necesario.
+   * *Genérico:* Para anuncios que crearás en otros DSP. **Nota:** Es posible que tenga que incluir manualmente macros adicionales según sea necesario.
 
 1. Haga clic en **[!UICONTROL Generate tags]**.
 
@@ -62,19 +62,19 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
    Puede abrir el archivo en un editor de texto para copiar cada etiqueta. Para las etiquetas JavaScript, la etiqueta se incluye entre `<script></script>` y `<noscript></noscript>`tags. Para las etiquetas de iframe, la etiqueta se incluye entre `<iframe></iframe>` etiquetas.
 
-1. DSP Implemente las etiquetas para los recursos relevantes
+1. Implemente las etiquetas para el DSP correspondiente:
 
-   * DSP Para los que no sean de Advertising DSP DSP, proporcione las etiquetas a quien cree los anuncios dentro de la.
+   * Para los DSP que no sean de Advertising DSP, proporcione las etiquetas a quienquiera que cree los anuncios dentro de DSP.
 
    * Para Advertising DSP:
 
       1. Haga clic en **[!UICONTROL Next]** en la esquina superior derecha o haga clic en **[!UICONTROL DSP link]** en el menú de la izquierda.
 
-      1. Seleccione la campaña para la que la etiqueta de publicidad estará disponible.
+      1. Seleccione la campaña en la que desea cargar la etiqueta de publicidad.
 
       1. Haga clic en **[!UICONTROL Assign Tags]**.
 
-         DSP Se abre la vista [!UICONTROL Ads] de la campaña seleccionada.
+         DSP se abre a la vista [!UICONTROL Ads] de la campaña seleccionada.
 
       1. En la vista [!UICONTROL Create ads], revise las etiquetas de anuncio, seleccione las etiquetas para las que desee crear un anuncio y, a continuación, haga clic en **[!UICONTROL Create]**.
 

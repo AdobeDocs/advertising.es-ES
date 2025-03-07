@@ -2,9 +2,10 @@
 title: Copiar nodos secundarios a otro nodo de destino en el mismo nivel
 description: Obtenga información sobre cómo copiar todos los nodos secundarios de un nodo de destino principal a otro nodo de destino en el mismo nivel
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Solo experiencias con direccionamiento en árbol de decisiones*
 *Beta cerrada*
 
-Puede copiar todos los nodos secundarios de un nodo de destino principal (incluidos todos los destinos secundarios y los paquetes creativos asignados a ellos) a otro nodo de destino en el mismo nivel, añadiendo los nodos copiados al marco de trabajo existente o sustituyendo completamente el marco de trabajo existente. <!-- Give the main use case or an example to explain. -->
+Puede copiar todos los nodos secundarios de un nodo de destino principal (incluidos todos los destinos secundarios y los paquetes creativos asignados a ellos) a otro nodo de destino en el mismo nivel. Puede copiar los nodos: a) añadiendo los nodos copiados al marco de trabajo existente o b) reemplazando completamente el marco de trabajo existente. <!-- Give the main use case or an example to explain. -->
 
 Esta característica no afecta al destino especificado para el nodo principal, sólo afecta a los nodos secundarios.
 

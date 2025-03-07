@@ -2,9 +2,10 @@
 title: Previsualización de una experiencia
 description: Obtenga información sobre cómo previsualizar los elementos creativos en una experiencia publicitaria.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,9 @@ Puede obtener una vista previa de los elementos creativos con un tamaño de anun
 
    * Para la rotación de anuncios algorítmicos, el elemento creativo se selecciona en función del objetivo de optimización.
 
-   * Para la rotación de anuncios ponderada, el creativo se selecciona en función de las ponderaciones especificadas (como una probabilidad del 80 % de que se muestre el Creativo A y una probabilidad del 20 % de que se muestre el Creativo B) cada vez.
+   * Para la rotación de anuncios ponderada, el creativo se selecciona en función de las ponderaciones especificadas (por ejemplo, una probabilidad del 80 % de que se muestre el Creative A y una probabilidad del 20 % de que se muestre el Creative B) cada vez.
 
-   * Para la rotación de anuncios programada, verá inicialmente el primer elemento creativo de la programación y podrá seguir actualizando la vista previa para continuar con la secuencia.<!-- Refresh isn't there as of 2/3 -->
+   * Para la rotación de anuncios programada, se muestra el primer elemento creativo de la programación. Puede seguir actualizando la vista previa para continuar con la secuencia.<!-- Refresh isn't there as of 2/3 -->
 
 ## Vista previa de elementos creativos en una experiencia con segmentación en árbol de decisiones
 

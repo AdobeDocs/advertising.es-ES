@@ -2,9 +2,10 @@
 title: Personalizar las direcciones URL de seguimiento de una experiencia
 description: Aprenda a personalizar las direcciones URL de seguimiento para cada elemento creativo de una experiencia con segmentación del árbol de decisiones.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 *Solo nodos de destino con creativos existentes*
 *Beta cerrada*
 
-Para las experiencias con segmentación del árbol de decisión, puede crear hasta cinco direcciones URL de seguimiento de impresiones personalizadas, cinco direcciones URL de seguimiento de clics personalizadas y una dirección URL de página de aterrizaje personalizada para cada creativo individual utilizado para la experiencia desde el árbol de decisión.
+Para las experiencias con segmentación del árbol de decisión, puede crear hasta cinco direcciones URL de seguimiento de impresiones personalizadas, cinco direcciones URL de seguimiento de clics personalizadas y una dirección URL de página de aterrizaje personalizada para cada creativo individual utilizado para la experiencia. Puede personalizar las direcciones URL de seguimiento desde el árbol de decisión.
 
 Las direcciones URL personalizadas solo se usan para los anuncios creados a partir de la experiencia y no se guardan en la configuración creativa base de [!UICONTROL Creative Libraries].
 
 1. Mantenga el cursor sobre la hoja/carpeta del paquete creativo debajo del nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños aplicables están determinados por los tamaños de los elementos creativos de imagen predeterminados para la experiencia.<!-- There's no distinct "Creative Sizes" setting. -->
+   Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños de los elementos creativos de imagen predeterminados para la experiencia determinan los tamaños disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. En las fichas **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** y **[!UICONTROL Landing URLs]**, haga lo siguiente para cada elemento creativo según sea necesario:
 

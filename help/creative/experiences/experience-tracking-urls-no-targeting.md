@@ -2,9 +2,10 @@
 title: Personalización de las direcciones URL de seguimiento de una experiencia sin segmentación
 description: Aprenda a personalizar las direcciones URL de seguimiento para cada elemento creativo de una experiencia sin segmentación del árbol de decisiones.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Beta cerrada*
 
-En el caso de las experiencias sin segmentación del árbol de decisión, puede crear hasta cinco direcciones URL de seguimiento de impresiones personalizadas, cinco direcciones URL de seguimiento de clics personalizadas y una dirección URL de página de aterrizaje personalizada para cada elemento creativo individual utilizado para la etiqueta de experiencia de anuncio desde [!UICONTROL Tag Manager].
+En el caso de las experiencias sin segmentación del árbol de decisión, puede crear hasta cinco direcciones URL de seguimiento de impresiones personalizadas, cinco direcciones URL de seguimiento de clics personalizadas y una dirección URL de página de aterrizaje personalizada para cada elemento creativo individual utilizado para la etiqueta de experiencia publicitaria. Puede personalizar las direcciones URL de seguimiento desde [!UICONTROL Tag Manager].
 
 Las direcciones URL personalizadas solo se usan para los anuncios creados a partir de la etiqueta de experiencia publicitaria y no se guardan en la configuración creativa base de [!UICONTROL Creative Libraries].
 
@@ -33,13 +34,13 @@ Las direcciones URL personalizadas solo se usan para los anuncios creados a part
 
    1. Escriba un(a) **[!UICONTROL Tag name]** único(a) y seleccione **[!UICONTROL Tag size]**.
 
-      Los tamaños disponibles están determinados por los tamaños de los elementos creativos de imagen predeterminados para la experiencia.
+      Los tamaños de los elementos creativos de imagen predeterminados para la experiencia determinan los tamaños disponibles.
 
    1. Haga clic en **[!UICONTROL Create]**.
 
 1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar URL de seguimiento](/help/creative/assets/edit-gray.png "Editar URL de seguimiento") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
 
-   Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños aplicables están determinados por los tamaños de los elementos creativos de imagen predeterminados para la experiencia.<!-- There's no distinct "Creative Sizes" setting. -->
+   Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños de los elementos creativos de imagen predeterminados para la experiencia determinan los tamaños disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. En las fichas **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** y **[!UICONTROL Landing URLs]**, haga lo siguiente para cada elemento creativo según sea necesario:
 
