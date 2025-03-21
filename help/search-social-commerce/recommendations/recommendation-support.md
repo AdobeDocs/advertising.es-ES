@@ -3,9 +3,9 @@ title: Acerca de las recomendaciones del editor y la compatibilidad con perspect
 description: Obtenga información acerca de la compatibilidad para ver y administrar recomendaciones y perspectivas del editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
+source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
 * Vea de un vistazo todas las recomendaciones admitidas de que no se han llevado a cabo para una cuenta. La información de cada entrada incluye el tipo de recomendación, la recomendación [!DNL Adobe], las métricas afectadas, la entidad afectada y un vínculo para obtener más detalles. Los incrementos previstos en las métricas se resaltan en verde.
 
-  ![IU DE Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "IU DE Recommendations")
+  ![IU de Recommendations](/help/search-social-commerce/assets/recommendations-ui.png "IU de Recommendations")
 
   Los datos están disponibles en tiempo real al abrir la vista. Para actualizar los datos, haz clic en ![Actualizar](/help/search-social-commerce/assets/refresh.png "Actualizar") en la parte inferior izquierda de la página.
 
@@ -60,7 +60,6 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | | [!UICONTROL Upgrade local campaign to performance max] | Actualización de una campaña local heredada a una campaña de rendimiento máximo |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Actualización de una campaña de compras inteligentes heredada a una campaña de rendimiento máximo |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Presupuesto recomendado para una campaña actualmente limitada por el presupuesto |
-| | [!UICONTROL Enhanced CPC opt in] | Puja con [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Presupuesto recomendado para una campaña que se espera que esté limitada por el presupuesto en el futuro |
 | | [!UICONTROL Forecasting set Target CPA] | Establezca un CPA objetivo para las campañas sin uno antes de un evento de temporada que se pronostique aumente el tráfico |
 | | [!UICONTROL Forecasting set Target ROAS] | Aumentar el presupuesto antes de un evento estacional que se prevé que aumente el tráfico y cambiar la estrategia de oferta de [!UICONTROL Maximize Conversion Value] a [!UICONTROL Target ROAS] |
