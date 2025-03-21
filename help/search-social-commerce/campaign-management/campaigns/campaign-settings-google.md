@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configuración de campaña'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
+source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,11 @@ sus anuncios en las redes de socios de búsqueda de la red de anuncios. De maner
 
 **[!UICONTROL Bid strategy]:** Estrategia de oferta para la campaña:
 
-* *[!UICONTROL Enhanced CPC]:* (No disponible para el rendimiento máximo ni para las campañas existentes de solo lectura de [!DNL Gmail]) Utiliza el modelo de coste por clic mejorado (eCPC) de la red de anuncios, que permite que la red de anuncios cambie automáticamente la oferta de coste por clic (CPC) para cada subasta en un intento de maximizar las conversiones, utilizando las conversiones especificadas dentro de la red de anuncios (no en Buscar, Social y Commerce), al tiempo que intenta mantener el CPC promedio por debajo del CPC máximo.
-
-Al agregar una campaña con eCPC a un portafolio optimizado de Search, Social y Commerce, Search, Social y Commerce optimiza las ofertas de base y, cuando la opción &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; está habilitada, el presupuesto de la campaña. La red de anuncios optimiza todos los ajustes de oferta y puede cambiar las ofertas generadas por Search, Social y Commerce en el momento de la consulta del usuario en función de los datos propietarios y las perspectivas. **Precaución:** Use campañas eCPC en portafolios solamente cuando las conversiones totales rastreadas en la red de anuncios se alineen con el objetivo del portafolio. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+* *[!UICONTROL Enhanced CPC]:* obsoleto. [!DNL Google Ads] comenzó a cambiar automáticamente las [estrategias mejoradas de oferta de CPC](https://support.google.com/google-ads/answer/2464964) existentes por CPC manual el 15 de marzo de 2025.
 
 * *[!UICONTROL Manual CPC]* (predeterminado): (no disponible para campañas Máximo rendimiento) Utiliza el modelo de coste por clic (CPC). Si lo desea, puede permitir que la red de anuncios cambie las ofertas de la campaña:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (deshabilitado de forma predeterminada): Es lo mismo que usar la opción &quot;[!UICONTROL Enhanced CPC]&quot;.
+   * **[!UICONTROL Enable Enhanced CPC]** (deshabilitado de forma predeterminada): Es lo mismo que usar la opción &quot;[!UICONTROL Enhanced CPC]&quot;, que está obsoleta. [!DNL Google Ads] comenzó a cambiar automáticamente las [estrategias mejoradas de oferta de CPC](https://support.google.com/google-ads/answer/2464964) existentes por CPC manual el 15 de marzo de 2025.
 
 * *[!UICONTROL Maximize Clicks]:* (campañas de búsqueda, visualización y compras) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas para maximizar los clics. De manera opcional, escriba **[!UICONTROL Max CPC]** (costo por clic) para asegurarse de que la red publicitaria no pague más de una cantidad determinada por cada clic. **Precaución:** Al agregar una campaña con esta estrategia a un portafolio, las ofertas dependen de la ponderación de los clics, no del objetivo del portafolio.
 
@@ -360,7 +358,7 @@ Puede escribir texto o seleccionar recursos de su [!UICONTROL Asset Library], pe
 
 **[!UICONTROL Primary Status]:** (campo de solo lectura para grupos de recursos existentes en campañas Máximo rendimiento) Por qué el grupo de recursos está sirviendo o no a plena capacidad. Tiene en cuenta el estado del grupo de activos, así como otras señales, como las aprobaciones de políticas y de calidad. Los valores pueden incluir *ELEGIBLE,* *LIMITADO,* *NO APTO,* *PAUSADO,* *PENDIENTE,* *ELIMINADO,* *DESCONOCIDO,* o *NO ESPECIFICADO.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 
-**[!UICONTROL Primary Status Reason]:** (campo de solo lectura para grupos de recursos existentes en campañas Máximo rendimiento) Detalles adicionales sobre el estado principal del grupo de recursos. Los valores pueden incluir *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDIENTE,* *CAMPAIGN_REMOVED,* *DESCONOCIDO,* o *NO ESPECIFICADO.*
+**[!UICONTROL Primary Status Reason]:** (campo de solo lectura para grupos de recursos existentes en campañas Máximo rendimiento) Detalles adicionales sobre el estado principal del grupo de recursos. Los valores pueden incluir *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_UNDER_REVIEW,* *CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *UNKNOWN,* o *UNSPECIFIED.*
 
 ## [!UICONTROL Conversion Goals]
 
