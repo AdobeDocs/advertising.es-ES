@@ -2,9 +2,9 @@
 title: Iniciar sesión en DSP
 description: Obtenga información sobre cómo iniciar sesión en DSP.
 feature: DSP Introduction
-source-git-commit: 0c33657eca7d3332a770fc1eaba179e5ae8eafb8
+source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Para obtener más información acerca de la interfaz de Experience Cloud, inclui
 
 ### Resolución de problemas
 
-Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe]https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).&quot;
+Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### ¿Hay algún requisito previo para habilitar un nuevo inicio de sesión de IMS de [!DNL Adobe]?
 
@@ -57,7 +57,7 @@ Para agregar una nueva cuenta de inicio de sesión, comparta la dirección de co
 
 Mientras tanto, el usuario puede seguir utilizando sus credenciales de DSP heredadas.
 
-#### Después de iniciar sesión con una cuenta de Adobe IMS, no se me redirige a la página de inicio de sesión de adobe.advertising.com.
+#### Después de iniciar sesión con una cuenta de Adobe IMS, no se me redirige a adobe.advertising.com.
 
 Consulte con el administrador de la organización IMS que el correo electrónico que está utilizando se ha añadido a la organización IMS.
 
