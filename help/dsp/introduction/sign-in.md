@@ -2,7 +2,7 @@
 title: Iniciar sesión en DSP
 description: Obtenga información sobre cómo iniciar sesión en DSP.
 feature: DSP Introduction
-source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
+source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -59,9 +59,7 @@ Mientras tanto, el usuario puede seguir utilizando sus credenciales de DSP hered
 
 #### Después de iniciar sesión con una cuenta de Adobe IMS, no se me redirige a adobe.advertising.com.
 
-Consulte con el administrador de la organización IMS que el correo electrónico que está utilizando se ha añadido a la organización IMS.
-
-Si el administrador confirma que se le ha añadido a la organización IMS, solicite a su equipo de cuenta de Adobe que aprovisione su cuenta para utilizar DSP.
+Consulte con el administrador de la organización IMS que el correo electrónico que está utilizando se ha añadido a la organización IMS. Si el administrador confirma que se le ha añadido a la organización IMS, solicite a su equipo de cuenta de Adobe que aprovisione su cuenta para utilizar DSP.
 
 Mientras tanto, puede seguir utilizando sus credenciales de DSP heredadas.
 
@@ -69,7 +67,7 @@ Mientras tanto, puede seguir utilizando sus credenciales de DSP heredadas.
 
 1. Vaya a [experience.adobe.com](https://experience.adobe.com) y cierre la sesión.
 
-Vaya a [advertising.adobe.com](https://advertising.adobe.com) e inicie sesión con el ID de correo electrónico correcto.
+1. Vaya a [advertising.adobe.com](https://advertising.adobe.com) e inicie sesión con el ID de correo electrónico correcto.
 
 #### Mi cuenta de IMS [!DNL Adobe] y mi cuenta de DSP están registradas con correos electrónicos diferentes. ¿Cómo inicio sesión con mi cuenta de IMS [!DNL Adobe]?
 
