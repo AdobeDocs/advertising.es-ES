@@ -3,9 +3,9 @@ title: ID de Adobe Advertising usados por  [!DNL Analytics]
 description: ID de Adobe Advertising usados por  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 6afd0b726cde0770d4d063c2c55bb632956aaf51
+source-git-commit: 474eff3bd7704d79bbaf372480676207252a74c4
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,6 @@ donde:
 
 >[!NOTE]
 >
->Para todas las cuentas con rendimiento máximo de campañas y la opción de seguimiento [!UICONTROL Auto Upload], los sufijos de la página de aterrizaje se migraron al formato anterior. Para otros tipos de campaña con la opción de seguimiento [!UICONTROL Auto Upload], los sufijos de la página de aterrizaje se migrarán para utilizar el formato s_kwcid anterior a principios de 2025.
 > Para cuentas con campañas sin la opción de seguimiento [!UICONTROL Auto Upload] que aún no se migraron al nuevo formato, actualice manualmente cada sufijo de página de aterrizaje para incluir el formato anterior.
 >Mientras tanto, los formatos heredados, como se indica a continuación, siguen funcionando:
 >* Buscar campañas:
