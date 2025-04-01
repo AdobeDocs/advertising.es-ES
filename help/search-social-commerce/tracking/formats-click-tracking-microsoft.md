@@ -3,7 +3,7 @@ title: Formatos de rastreo de clics para  [!DNL Microsoft Advertising]
 description: Obtenga información acerca de los formatos de seguimiento de clics para  [!DNL Microsoft Advertising] cuentas.
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante en Adobe Advertising.
 >
 >* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
@@ -44,7 +44,7 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante en Adobe Advertising.
 >
 >* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
@@ -66,7 +66,7 @@ Ejemplo:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` es una variable para el ID único del anunciante dentro del Adobe Advertising.
+>* `<advertiser_ID>` es una variable para el ID único del anunciante en Adobe Advertising.
 >
 >* Este formato indica que la transferencia de tokens está habilitada para la campaña (el valor predeterminado). Si la transferencia de tokens está deshabilitada, sustituya `cq?` después de `<advertiser_ID>` por `c?`.
 >
@@ -86,7 +86,7 @@ Las cuentas que usan el seguimiento de conversión de Adobe Advertising deben in
 
 * Cuando el anunciante tiene una integración de Adobe Analytics, el sufijo debe incluir lo siguiente:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
 
 * Cuando el anunciante no tiene una integración de Adobe Analytics, el sufijo debe incluir lo siguiente:
 
@@ -98,7 +98,7 @@ Las cuentas que usan el seguimiento de conversión de Adobe Advertising deben in
 
 * Cuando el anunciante tiene una integración de Adobe Analytics, el sufijo debe incluir lo siguiente:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 
 * Cuando el anunciante no tiene una integración de Adobe Analytics, el sufijo debe incluir lo siguiente:
 
