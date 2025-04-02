@@ -2,7 +2,7 @@
 title: Obtener ayuda
 description: Obtenga información sobre cómo ver la ayuda en línea y los recursos de la comunidad, y cómo obtener asistencia técnica.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
+source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Para problemas de producto o cuenta de Search, Social y Commerce, realice una de
 
 * Póngase en contacto con el equipo de cuenta de Adobe.
 
-* En el menú superior, haz clic en ![Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Ayuda") > **[!UICONTROL Provide Feedback]**, escribe el mensaje y, a continuación, haz clic en **[!UICONTROL Send Feedback]**. |
+* En el menú superior, haz clic en ![Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Ayuda") > **[!UICONTROL Provide Feedback]**, escribe el mensaje y, a continuación, haz clic en **[!UICONTROL Send Feedback]**.
 
 Proporcione pasos detallados para reproducir el problema, los datos relevantes y la información acerca de la solución de problemas preliminar que ha realizado. Si va a informar del problema a su equipo de cuenta de Adobe, incluya también el nombre y la versión del explorador.
 
