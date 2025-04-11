@@ -3,9 +3,9 @@ title: Anexar  [!DNL Analytics for Advertising] macros a [!DNL Flashtalking] eti
 description: Aprenda por qué y cómo agregar  [!DNL Analytics for Advertising] macros a sus [!DNL Flashtalking] etiquetas de publicidad
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: c4db5727def6125b65fb2146666b988ae3b0db27
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Si usa etiquetas de anuncio de [!DNL Flashtalking] para sus anuncios de Advertis
 
 >[!NOTE]
 >
->Si su organización tiene una asociación directa con [!DNL Flashtalking], no necesita este procedimiento. En su lugar, inicie sesión en su cuenta de [!DNL Flashtalking] y siga la documentación de soporte técnico de [!DNL Flashtalking] para obtener acceso a las macros de paso de datos en `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+>Si su organización tiene una asociación directa con [!DNL Flashtalking], no necesita este procedimiento. En su lugar, inicie sesión en su cuenta de [!DNL Flashtalking] y siga la documentación de soporte técnico de [!DNL Flashtalking] para recopilar datos de clics mediante macros de transferencia de datos en `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 Utilice macros para [!DNL Flashtalking] anuncios de vídeo y visualización para los siguientes tipos de implementaciones de [!DNL Analytics for Advertising]:
 
