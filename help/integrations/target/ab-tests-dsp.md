@@ -2,7 +2,7 @@
 title: Configuración de pruebas A/B para anuncios de Adobe Advertising DSP en Adobe Target
 description: Aprenda a configurar una prueba A/B en  [!DNL Target]  para sus anuncios de DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 34ada7c1f299f76988ee3ba533c47b76ade7d9ec
+source-git-commit: 35632a9ceab61de83a1d0e68f3b5ea9e3d35ae37
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Cuando agrega macros de DSP a una dirección URL de pulsación (la dirección UR
 
 En [!DNL Flashtalking] o Google Campaign Manager 360, actualice manualmente la dirección URL de pulsación para cada anuncio a fin de incluir las macros necesarias para capturar las variables de ID de AMO. Las variables de ID de AMO se utilizan para enviar datos sobre clics a Adobe Analytics y compartir claves de ubicación para pruebas A/B. Consulte las siguientes páginas para obtener instrucciones:
 
-* [Anexe [!DNL Analytics for Advertising] macros a [[!DNL Flashtalking] Etiquetas de publicidad](/help/integrations/analytics/macros-flashtalking.md). **Nota:** Este procedimiento no es necesario si su organización tiene una asociación directa con [!DNL Flashtalking] y utiliza macros de paso de datos para recopilar datos de clics según la documentación de soporte de [!DNL Flashtalking] en `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+* [Anexar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de publicidad](/help/integrations/analytics/macros-flashtalking.md). **Nota:** Este procedimiento no es necesario si su organización tiene una asociación directa con [!DNL Flashtalking] y utiliza macros de paso de datos para recopilar datos de clics según la documentación de soporte de [!DNL Flashtalking] en `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 * [Anexar  [!DNL Analytics for Advertising] macros a [!DNL Google Campaign Manager 360] etiquetas de publicidad](/help/integrations/analytics/macros-google-campaign-manager.md)
 
