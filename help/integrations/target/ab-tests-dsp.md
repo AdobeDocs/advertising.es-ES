@@ -2,26 +2,26 @@
 title: Configuración de pruebas A/B para anuncios de Adobe Advertising DSP en Adobe Target
 description: Aprenda a configurar una prueba A/B en  [!DNL Target]  para sus anuncios de DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 35632a9ceab61de83a1d0e68f3b5ea9e3d35ae37
+source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1413'
 ht-degree: 0%
 
 ---
 
-# Configuración de pruebas A/B en Adobe Target para Advertising DSP Ads
+# Configuración de pruebas A/B en Adobe Target para publicidad DSP publicidad
 
-*Anunciantes solo con Advertising DSP*
+*Solo anunciantes con DSP publicitarios*
 
-Adobe Advertising y Adobe Target facilitan aún más a los especialistas en marketing la entrega de una experiencia personalizada y conectada a través de medios de pago y mensajería en el sitio. Al compartir señales entre los productos, puede:
+Adobe Systems La publicidad y el Adobe Target hacen que sea igualado más fácil para los especialistas en marketing ofrecer un experiencia personalizado y conectado en medios de pago y mensajería en el sitio. Al compartir señales entre los productos, puede:
 
 * Reduzca las tasas de visitas en el orden previsto del sitio vinculando la exposición de los clientes a los anuncios de las campañas de DSP con sus experiencias en el sitio.
 
 * Establezca pruebas A/B reflejando las experiencias en el sitio con mensajes publicitarios mediante datos de exposición de Adobe Audience Manager y haga clic para alimentar las audiencias [!DNL Target].
 
-* Mida el impacto de la mensajería unificada en un alza de objetivos en el sitio con visualizaciones simples en Adobe Analytics para [!DNL Target].
+* Mida el impacto de los mensajería unificados en un alza objetiva in situ con visualizaciones sencillas en Adobe Analytics para [!DNL Target].
 
-Consulte las secciones siguientes para conocer los requisitos previos y las instrucciones para configurar el seguimiento de clics y visualizaciones, implementar el uso compartido de señales entre DSP y [!DNL Target], configurar una actividad de prueba A/B y configurar [!DNL Analytics] Analysis Workspace para ver los datos de prueba.
+Consulte las siguientes secciones para conocer los requisitos previos y obtener instrucciones sobre cómo configurar las seguimiento de pulsaciones y vista, implementar el uso compartido de señales entre DSP y [!DNL Target] y configurar un actividad de prueba A/B, y configurar [!DNL Analytics] Analysis Workspace para vista los datos prueba.
 
 Si tiene más preguntas, póngase en contacto con adcloud_support@adobe.com.
 
@@ -31,7 +31,7 @@ Este caso de uso requiere los siguientes productos e integraciones:
 
 * [!DNL Target]
 
-* [[!DNL Analytics] para la integración de Advertising](/help/integrations/analytics/overview.md)<!-- necessary for testing view-throughs, which most advertisers want to do -->
+* [[!DNL Analytics] para la integración de publicidad](/help/integrations/analytics/overview.md)<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
 * Integración de [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 
@@ -51,7 +51,7 @@ Cuando agrega macros de DSP a una dirección URL de pulsación (la dirección UR
 
 En [!DNL Flashtalking] o Google Campaign Manager 360, actualice manualmente la dirección URL de pulsación para cada anuncio a fin de incluir las macros necesarias para capturar las variables de ID de AMO. Las variables de ID de AMO se utilizan para enviar datos sobre clics a Adobe Analytics y compartir claves de ubicación para pruebas A/B. Consulte las siguientes páginas para obtener instrucciones:
 
-* [Anexar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de publicidad](/help/integrations/analytics/macros-flashtalking.md). **Nota:** Este procedimiento no es necesario si su organización tiene una asociación directa con [!DNL Flashtalking] y utiliza macros de paso de datos para recopilar datos de clics según la documentación de soporte de [!DNL Flashtalking] en `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+* [Anexar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de publicidad](/help/integrations/analytics/macros-flashtalking.md). **Nota:** Este procedimiento no es necesario si su organización tiene una asociación directa con [!DNL Flashtalking] y usa macros de paso de datos para realizar el seguimiento de los parámetros de seguimiento `s_kwcid` y `ef_id` según la documentación de soporte de [!DNL Flashtalking] en [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros).
 
 * [Anexar  [!DNL Analytics for Advertising] macros a [!DNL Google Campaign Manager 360] etiquetas de publicidad](/help/integrations/analytics/macros-google-campaign-manager.md)
 
@@ -131,11 +131,11 @@ Las siguientes instrucciones resaltan información perteneciente al caso de uso 
 
       1. Seleccione **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]** e introduzca la clave de ubicación de DSP en el campo **[!UICONTROL Value]** para utilizar los parámetros de cadena de consulta de Target para audiencias de pulsación.
 
-   1. Para **[!UICONTROL Traffic Allocation Method]**, seleccione **[!UICONTROL Manual (Default)]** y divida la audiencia al 50/50.
+   1. Para el **[!UICONTROL Traffic Allocation Method]**, seleccione **[!UICONTROL Manual (Default)]** y divida el audiencia 50/50.
 
-   1. Guarde la actividad.
+   1. Guardar el actividad.
 
-1. Use [Compositor de experiencias visuales de Target](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) para realizar cambios de diseño en la plantilla de página de aterrizaje de prueba A/B.
+1. Utilice [Target Compositor](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) de experiencias visuales para realizar cambios de diseño en la prueba A/B página de aterrizaje plantilla.
 
    * Experiencia A: no edite porque es la experiencia predeterminada/de control de página de aterrizaje sin personalización.
 
@@ -145,17 +145,17 @@ Las siguientes instrucciones resaltan información perteneciente al caso de uso 
    >
    >Por ejemplo, en casos de uso de pruebas creativas, póngase en contacto con el equipo de cuenta de Adobe.
 
-## Paso 4: Configurar su Analysis Workspace [!DNL Analytics for Target] en [!DNL Analytics]
+## Paso 4: Configura tu [!DNL Analytics for Target] Analysis Workspace en [!DNL Analytics]
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-[!DNL Analytics for Target] (A4T) es una integración de soluciones cruzadas que permite a los anunciantes crear actividades [!DNL Target] basadas en [!DNL Analytics] métricas de conversión y segmentos de audiencia y luego medir los resultados usando [!DNL Analytics] como fuente de informes. Todos los informes y la segmentación de esa actividad se basan en la recopilación de datos de [!DNL Analytics].
+[!DNL Analytics for Target] (A4T) es una integración entre soluciones que permite a los anunciantes crear [!DNL Target] actividades basadas en [!DNL Analytics] métricas de Conversión y segmentos de audiencia y luego medir los resultados utilizando [!DNL Analytics] como fuente sistema de informes. Todos los sistema de informes y segmentación para esa actividad se basan en [!DNL Analytics] recopilación de datos.
 
-Para obtener más información acerca de [!DNL Analytics for Target], incluido un vínculo a las instrucciones de implementación, consulte &quot;[Adobe Analytics como fuente de informes para Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;.
+Para obtener más información acerca de [!DNL Analytics for Target], incluido un vincular para implementación instrucciones, consulte &quot;[Adobe Analytics como origen sistema de informes para Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;.
 
-### Configurar el panel [!DNL Analytics for Target]
+### Configuración del [!DNL Analytics for Target] panel
 
-En Analysis Workspace, configure [!DNL Analytics for Target panel] para analizar las actividades y experiencias de [!DNL Target]. Tenga en cuenta los siguientes puntos importantes y la información sobre los informes.
+En Analysis Workspace, configure el [!DNL Analytics for Target panel] para analizar sus [!DNL Target] actividades y experiencias. Tenga en cuenta los siguientes puntos importantes y la información sobre los informes.
 
 #### Métricas
 
@@ -167,7 +167,7 @@ En Analysis Workspace, configure [!DNL Analytics for Target panel] para analizar
 
 #### Dimensiones
 
-Las siguientes dimensiones pertenecen a [!DNL Analytics for Target]:
+Las siguientes dimensiones corresponden a [!DNL Analytics for Target]:
 
 * **[!UICONTROL Target Activities]**: nombre de la prueba A/B
 
@@ -177,15 +177,15 @@ Las siguientes dimensiones pertenecen a [!DNL Analytics for Target]:
 
 ### Solucionar problemas de Analytics para datos de [!DNL Target]
 
-En Analysis Workspace, si observa que los datos de actividad y experiencias son mínimos o no se rellenan, haga lo siguiente:
+Dentro de Analysis Workspace, si nota que los datos de actividad y experiencias son mínimos o no se rellenan, haga lo siguiente:
 
-* Compruebe que se utiliza el mismo [!UICONTROL Supplemental Data ID] (SDID) para [!DNL Target] y [!DNL Analytics]. Puede comprobar los valores de SDID con [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) en la página de aterrizaje a la que la campaña dirija a los usuarios.
+* Compruebe que se utiliza el mismo [!UICONTROL Supplemental Data ID] (SDID) para ambos [!DNL Target] y [!DNL Analytics]para . Puede verificar los valores de SDID utilizando el [depurador](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) de Adobe Experience Cloud en la página de aterrizaje a la que el campaña conduce a los usuarios.
 
-[Valores de ID de datos suplementarios (SDID) en Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
+[Valores de ID de datos suplementarios (SDID) en Adobe Systems Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* En la misma página de aterrizaje, compruebe que a) [!UICONTROL Hostname] mostrado en Adobe Debugger bajo [!UICONTROL Solutions] > [!UICONTROL Target] coincide con b) [!UICONTROL Tracking Server] mostrado en [!DNL Target] para la actividad (bajo [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
+* En el mismo página de aterrizaje, compruebe que a) el [!UICONTROL Hostname] que se muestra en Adobe Systems Debugger en [!UICONTROL Solutions] > [!UICONTROL Target] coincide b) el [!UICONTROL Tracking Server] que se muestra en [!DNL Target] para el actividad (en [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
 
-  [!DNL Analytics For Target] requiere que se envíe un servidor de seguimiento [!DNL Analytics] en las llamadas de [!DNL Target] al servidor de recopilación de datos [!DNL Modstats] para Analytics.<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target]Requiere el envío de un [!DNL Analytics] servidor seguimiento en llamadas desde al [!DNL Modstats] servidor recopilación de datos [!DNL Target] para Analytics.<!-- just "to Analytics?"-->
 
 [Valor de nombre de host en Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

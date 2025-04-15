@@ -3,9 +3,9 @@ title: Anexar  [!DNL Analytics for Advertising] macros a [!DNL Flashtalking] eti
 description: Aprenda por qué y cómo agregar  [!DNL Analytics for Advertising] macros a sus [!DNL Flashtalking] etiquetas de publicidad
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 181a22c83b77dabbd949d9e47d0a7cadf1e68c18
+source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Si usa etiquetas de anuncio de [!DNL Flashtalking] para sus anuncios de Advertis
 
 >[!NOTE]
 >
->Si su organización tiene una asociación directa con [!DNL Flashtalking], no necesita este procedimiento. En su lugar, inicie sesión en su cuenta de [!DNL Flashtalking] y siga la documentación de soporte técnico de [!DNL Flashtalking] para recopilar datos de clics mediante macros de transferencia de datos en `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+>Si su organización tiene una asociación directa con [!DNL Flashtalking], no necesita este procedimiento. En su lugar, inicie sesión en su cuenta de [!DNL Flashtalking] y siga la documentación de soporte técnico de [!DNL Flashtalking] en [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) para usar macros de transferencia de datos para realizar el seguimiento de los parámetros de seguimiento de `s_kwcid` y `ef_id`.
 
 Utilice macros para [!DNL Flashtalking] anuncios de vídeo y visualización para los siguientes tipos de implementaciones de [!DNL Analytics for Advertising]:
 

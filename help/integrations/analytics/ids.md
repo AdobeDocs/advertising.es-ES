@@ -3,9 +3,9 @@ title: ID de Adobe Advertising usados por  [!DNL Analytics]
 description: ID de Adobe Advertising usados por  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: c3fcaab7e378617bb42a2412250ded7b22ff17c3
+source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -34,25 +34,25 @@ Adobe Advertising distingue entre una entrada de pulsaciones o visualizaciones a
 
    * La dirección URL no contiene códigos de seguimiento, pero el código JavaScript de Adobe Advertising detecta un clic en los últimos dos minutos.
 
-![Integración de [!DNL Analytics] basada en la vista de Adobe Advertising](/help/integrations/assets/a4adc-view-through-process.png)
+![Integración basada en [!DNL Analytics] vista de Adobe Systems Advertising](/help/integrations/assets/a4adc-view-through-process.png)
 
-*Figura 1: integración [!DNL Analytics] basada en la vista de Adobe Advertising*
+*Figura 1: Integración basada en vista publicidad de [!DNL Analytics] Adobe Systems*
 
-![Integración de [!DNL Analytics] basada en URL de clic de Adobe Advertising](/help/integrations/assets/a4adc-click-through-process.png)
+![Adobe Systems Integración basada en URL de clics de [!DNL Analytics] publicidad](/help/integrations/assets/a4adc-click-through-process.png)
 
 *Figura 2: Adobe Advertising hace clic en la integración [!DNL Analytics] basada en URL*
 
 ## ID de Adobe Advertising EF
 
-El EF ID es un token único que Adobe Advertising utiliza para asociar la actividad con un clic en línea o una exposición de publicidad. El EF ID se almacena en la dimensión [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o [!DNL rVar] (reservado [!DNL eVar]) (Adobe Advertising EF ID) y rastrea cada clic o exposición de anuncio en el nivel de navegador o dispositivo individual. Los EF ID actúan principalmente como claves para enviar datos de [!DNL Analytics] a Adobe Advertising para la creación de informes y la optimización de ofertas en Adobe Advertising.
+El EF ID es un token único que Adobe Advertising utiliza para asociar la actividad con un clic en línea o una exposición de publicidad. El EF ID se almacena en [un [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) dimensión ( [!DNL rVar] reservado [!DNL eVar]) (Adobe Systems EF ID de publicidad) y realiza un seguimiento de cada clic o exposición anuncios a nivel explorador o dispositivos individual. Los EF ID actúan principalmente como claves para enviar [!DNL Analytics] datos a Adobe Systems Advertising for sistema de informes y oferta optimización dentro de Adobe Systems Advertising.
 
-### Formato de ID de EF
+### Formato EF ID
 
 >[!NOTE]
 >
->Los ID de EF distinguen entre mayúsculas y minúsculas. Si una implementación de [!DNL Analytics] obliga al seguimiento de URL a usar minúsculas, Adobe Advertising no reconocerá el EF ID. Esto afecta las ofertas y los informes de Adobe Advertising, pero no afecta a los informes de Adobe Advertising dentro de [!DNL Analytics].
+>Los EF ID distinguen entre mayúsculas y minúsculas. Si un [!DNL Analytics] implementación obliga a URL seguimiento a minúsculas, Adobe Systems Publicidad no reconoce el EF ID. Esto afecta a Adobe Systems pujas y sistema de informes de publicidad, pero no afecta a Adobe Systems sistema de informes de publicidad dentro de [!DNL Analytics].
 
-#### [!DNL Google Ads] anuncios de búsqueda
+#### [!DNL Google Ads] búsqueda anuncios
 
 ```
 {gclid}:G:s
@@ -124,7 +124,7 @@ El parámetro se añade a las direcciones URL de seguimiento de una de las sigui
 
    * Clientes de DSP: el [código JavaScript](javascript.md) registra automáticamente las pulsaciones y las visualizaciones. Cuando un explorador no admite cookies de terceros, puede seguir realizando el seguimiento de las conversiones basadas en clics para los siguientes tipos de anuncios:
 
-      * Para las etiquetas de anuncio de [!DNL Flashtalking], inserte manualmente macros adicionales por &quot;[Anexar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de anuncio](/help/integrations/analytics/macros-flashtalking.md)&quot;. **Nota:** Este procedimiento no es necesario si su organización tiene una asociación directa con [!DNL Flashtalking] y utiliza macros de paso de datos para recopilar datos de clics según la documentación de soporte de [!DNL Flashtalking] en `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+      * Para las etiquetas de anuncio de [!DNL Flashtalking], inserte manualmente macros adicionales por &quot;[Anexar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de anuncio](/help/integrations/analytics/macros-flashtalking.md)&quot;. **Nota:** Este procedimiento no es necesario si su organización tiene una asociación directa con [!DNL Flashtalking] y usa macros de paso de datos para realizar el seguimiento de los parámetros de seguimiento `s_kwcid` y `ef_id` según la documentación de soporte de [!DNL Flashtalking] en [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros).
 
       * Para las etiquetas de anuncio de [!DNL Google Campaign Manager 360], inserte manualmente macros adicionales por &quot;[Anexar [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Etiquetas de anuncio](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;.
 
@@ -156,9 +156,9 @@ Ejemplo de ID de AMO: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
 Los parámetros varían según la red de anuncios, pero los siguientes parámetros son comunes a todos los operadores:
 
-* `AL` indica el canal de búsqueda. <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
+* `AL` Indica el búsqueda canal. <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
 
-* `{userid}` es un identificador de usuario único asignado al anunciante.
+* `{userid}` es un ID de usuario único asignado al anunciante.
 
 * `{sid}` se ha reemplazado por el identificador numérico de la cuenta de red de anuncios del anunciante: *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo! Display Network], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL Yahoo! Japan Ads], *105* para [!DNL Yahoo Native] (obsoleto) o *106* para [!DNL Pinterest] (obsoleto).
 
@@ -169,22 +169,22 @@ Los parámetros varían según la red de anuncios, pero los siguientes parámetr
 donde:
 
 * `{creative}` es el identificador numérico único de la red de anuncios para el creativo.
-* `{placement}` es el sitio web en el que se hizo clic en el anuncio.
-* `{keywordid}` es el identificador numérico único de la red de anuncios para la palabra clave que activó el anuncio.
+* `{placement}` es el sitio web en el que se hizo clic en el anuncios.
+* `{keywordid}` es el ID de numérica exclusivo del red de anuncios para el palabra clave que activó el anuncios.
 
 ##### [!DNL Google Ads]
 
-Esto incluye campañas de compra que usan [!DNL Google Merchant Center].
+Estas incluyen campañas de shopping que utilizan [!DNL Google Merchant Center].
 
-* Cuentas que utilizan el formato de ID de AMO más reciente, que admite la creación de informes de nivel de campaña y de grupo de publicidad para campañas Máximo rendimiento de, así como campañas de borradores y experimentos:
+* Cuentas que utilizan el último formato de AMO ID, que admite sistema de informes de nivel campaña y grupo de publicidad para campañas de rendimiento máximo y campañas de borradores y experimentos:
 
   `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-* Otras cuentas:
+* Todas las demás cuentas:
 
   `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
-donde:
+Dónde:
 
 <!-- VERIFY CREATIVE description. Also, are there more networks now (audience and shopping?) -->
 
@@ -194,14 +194,14 @@ donde:
 * `{network}` indica la red desde la que se produjo el clic: `g` para la búsqueda de [!DNL Google] (solo para anuncios segmentados por palabras clave), `s` para un socio de búsqueda (solo para anuncios segmentados por palabras clave) o `d` para la red de visualización (para anuncios segmentados por palabras clave o por ubicación).
 * `{product_partition_id}` es el identificador numérico único de la red de anuncios para el grupo de productos usado con los anuncios de productos.
 * `{keyword}` es la palabra clave específica que activó el anuncio (en sitios de búsqueda) o la palabra clave que mejor coincide (en sitios de contenido).
-* `{campaignid}` es el identificador numérico único de la red de anuncios para la campaña.
-* `{adgroupid}` es el identificador numérico único de la red de anuncios para el grupo de anuncios.
+* `{campaignid}` es el ID de numérica único del red de anuncios para el campaña.
+* `{adgroupid}` es el ID de numérica único del red de anuncios para el grupo de publicidad.
 
 >[!NOTE]
 >
 >* Para los anuncios dinámicos de búsqueda, {keyword} se completa con el destino automático.
 >* Cuando genera el seguimiento de [!DNL Google] anuncios de compras, se inserta un parámetro de id. de producto, `{adwords_producttargetid}`, antes del parámetro de palabra clave. El parámetro de id. de producto no aparece en los parámetros de seguimiento de nivel de cuenta y de campaña [!DNL Google Ads].
->* Para usar el código de seguimiento de ID de AMO más reciente, consulta &quot;[Actualizar el código de seguimiento de ID de AMO para una [!DNL Google Ads] cuenta](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
+>* Para utilizar el código de seguimiento de ID de AMO más reciente, consulte &quot;[Actualizar el código de seguimiento de ID de AMO para obtener una [!DNL Google Ads] cuenta](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)&quot;. <!-- Update terminology there too. -->
 
 <!--
 
@@ -221,14 +221,14 @@ where:
 
 ##### [!DNL Microsoft Advertising]
 
-* Todos los tipos de campaña:
+* Todos los tipos campaña:
 
   `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
-donde:
+Dónde:
 
-* `{AdId}` es el identificador numérico único de la red de anuncios para el creativo.
-* `{OrderItemId}` es el identificador numérico de la red de anuncios para la palabra clave.
+* `{AdId}` es el ID de numérica único del red de anuncios para el creativa.
+* `{OrderItemId}` es el ID de numérica del red de anuncios para el palabra clave.
 * `{CampaignId}` es el identificador numérico único de la red de anuncios para la campaña.
 * `{AdGroupId}` es el identificador numérico único de la red de anuncios para el grupo de anuncios.
 
