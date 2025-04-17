@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
+source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -173,11 +173,11 @@ Incluya un código postal por línea o introduzca varios valores separados por c
 
 **[!UICONTROL Inventory Sources]:** orígenes de inventario para incluir o excluir como destinos. Para la mayoría de los tipos de ubicación, todos los tipos de inventario y todos los orígenes de cada tipo se incluyen de forma predeterminada. Para [!DNL Roku] ubicaciones, debe especificar el tipo de inventario y los orígenes. Puede elegir entre los siguientes tipos de inventario:
 
-* DSP [!UICONTROL Public]: (Todos los tipos de ubicación excepto Roku) Todos los inventarios de intercambio abiertos a los que tiene acceso la. Puede incluir y excluir el inventario público.
+* [!UICONTROL Public]: (Todos los tipos de ubicación excepto Roku) Todo el inventario de Exchange abierto al que DSP tiene acceso. Puede incluir y excluir el inventario público.
 
   Puede ver la lista por origen o por fuente. Cuando vea la lista por fuente, puede buscar por nombre de fuente, clave de fuente o una etiqueta de característica seleccionada.
 
-* [!UICONTROL Private] | DSP [!UICONTROL Roku Private]: sus ofertas privadas existentes (o ofertas privadas existentes de [!DNL Roku] para [!DNL Roku] ubicaciones) con los editores que ha configurado en la lista de distribución de correo de. Puede incluir, pero no excluir, el inventario público.
+* [!UICONTROL Private] | [!UICONTROL Roku Private]: sus ofertas privadas existentes (o ofertas privadas existentes de [!DNL Roku] para [!DNL Roku] ubicaciones) con los editores que ha configurado en DSP. Puede incluir, pero no excluir, el inventario público.
 
   Puede buscar en la lista por palabra clave, clave, ID de oferta o etiqueta personalizada.
 
@@ -219,7 +219,7 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 
 **[!UICONTROL Traffic type]:** Tipos de tráfico de destino. Las opciones incluyen **[!UICONTROL Websites]** y **[!UICONTROL Apps]**.
 
-**[!UICONTROL Tier]:** (disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) La calidad del tráfico de destino. DSP Los niveles 1-3 son todos seguros para la marca y han sido aprobados por el equipo de mapeo de la marca de la.
+**[!UICONTROL Tier]:** (disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) La calidad del tráfico de destino. Los niveles 1-3 son todos seguros para la marca y han sido aprobados por el equipo de asignación de DSP.
 
 * *[!UICONTROL Tier 1]:* sitios y aplicaciones Premium reconocibles a nivel nacional.
 
@@ -237,7 +237,7 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 >
 >Para las campañas de rendimiento, la práctica recomendada es seleccionar *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site or App Categories]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Categorías de sitio dentro de los niveles de sitio seleccionados para incluir o excluir (pero no ambos) como destinos. DSP Elija entre las listas verticales de sitios que ha asignado el usuario en función del asunto:
+**[!UICONTROL Site or App Categories]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Categorías de sitio dentro de los niveles de sitio seleccionados para incluir o excluir (pero no ambos) como destinos. Elija entre las listas de sitios verticales que DSP ha asignado en función del asunto:
 
 1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
 1. Especifique las categorías del sitio que se incluirán o excluirán:
@@ -268,7 +268,7 @@ Los anuncios salientes suelen aparecer sobre el contenido como una ventana emerg
 
 >[!NOTE]
 >
->* DSP También se aplican listas de sitios bloqueados a nivel de cuenta y de anunciante, además de la lista de sitios bloqueados globalmente [que incluye los sitios considerados no seguros para los anuncios.](/help/dsp/introduction/features/brand-safety-media-quality.md)
+>* También se aplican listas de sitios bloqueados a nivel de cuenta y de anunciante, además de la [lista de sitios bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md) de DSP, que incluye los sitios considerados no seguros para los anuncios.
 >* Las listas de sitios bloqueados siempre anulan las listas de sitios de destino. Si una ubicación excluye e incluye el mismo destino para un anuncio, se excluye el destino.
 
 **[!UICONTROL Language]:** (opcional) un solo idioma de destino.
@@ -317,7 +317,7 @@ Al seleccionar ID heredados e ID universales, se da preferencia de oferta a los 
 
 * *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (predeterminado) segmenta a los usuarios en función de sus cookies, ID de publicidad móvil o ID de TV (CTV) conectados. Los ID se seleccionan en función del inventario del explorador, la aplicación o CTV.
 
-* *[!UICONTROL Universal ID Beta]*: identifica ID centrados en la privacidad del usuario; seleccione un tipo de ID. Las opciones disponibles están determinadas por los destinos geográficos seleccionados en la sección [!UICONTROL Geo-Targeting]. DSP DSP Se usa con [[!DNL RampID] segmentos importados directamente a ](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segmentos para los que se convierte la PII en ID universales](/help/dsp/audiences/sources/source-about.md) o [segmentos personalizados que hacen un seguimiento de los ID universales](/help/dsp/audiences/custom-segment-create.md).
+* *[!UICONTROL Universal ID Beta]*: identifica ID centrados en la privacidad del usuario; seleccione un tipo de ID. Las opciones disponibles están determinadas por los destinos geográficos seleccionados en la sección [!UICONTROL Geo-Targeting]. Se utiliza con [[!DNL RampID] segmentos importados directamente a DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segmentos para los cuales DSP convierte su PII en ID universales](/help/dsp/audiences/sources/source-about.md) o [segmentos personalizados que rastrean ID universales](/help/dsp/audiences/custom-segment-create.md).
 
    * *[!UICONTROL ID5]*: los identificadores de objetivos [!DNL ID5] se crearon probabilísticamente a partir de direcciones de correo electrónico y otras señales.<!-- What countries/geos are these available for? Everywhere?--> ID5 ID están disponibles sin cargo. **Nota:** Los segmentos de terceros de [!DNL Eyeota] pueden incluir ID5.
 
@@ -325,7 +325,7 @@ Al seleccionar ID heredados e ID universales, se da preferencia de oferta a los 
 
    * *[!UICONTROL Unified ID2.0]*: segmenta los ID de [!DNL Unified ID2.0] (UID2) de los usuarios que iniciaron sesión en el sitio mediante sus direcciones de correo electrónico.<!-- Verify -->[!DNL UID2 IDs] no están disponibles para los usuarios del Área Económica Europea y algunos países adicionales. Ver la [lista de países prohibidos](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
-  **[!UICONTROL Terms of service]**: contrato de términos de servicio para usar identificadores universales. DSP Usted u otro usuario de la cuenta debe aceptar los términos una vez, para poder convertir los datos a un nuevo tipo de ID. Para los clientes con contratos de servicio gestionado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
+  **[!UICONTROL Terms of service]**: contrato de términos de servicio para usar identificadores universales. Usted u otro usuario de la cuenta de DSP deben aceptar los términos una vez antes de poder convertir los datos a un nuevo tipo de ID. Para los clientes con contratos de servicio administrado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
 
 **[!UICONTROL Cross Device Targeting]:** (disponible cuando la campaña [está configurada para la segmentación entre dispositivos basada en personas](/help/dsp/campaign-management/campaigns/campaign-settings.md), solo se segmentan los ID heredados (no los ID universales) y se selecciona al menos un segmento o una audiencia. Permite ampliar el direccionamiento a todos los dispositivos conocidos de una persona (según el gráfico del dispositivo especificado en la configuración de la campaña), incluso a los dispositivos que no están en los segmentos especificados. Se pueden aplicar tarifas según el gráfico especificado para la campaña. Los datos de gráficos de dispositivos solo están disponibles en Norteamérica.
 
@@ -333,7 +333,7 @@ Al seleccionar ID heredados e ID universales, se da preferencia de oferta a los 
 
 >[!NOTE]
 >
-> Puede establecer límites de frecuencia en los niveles de campaña, paquete y ubicación. DSP respeta el límite de frecuencia más estricto de la jerarquía de campañas.
+> Puede establecer límites de frecuencia en los niveles de campaña, paquete y ubicación. DSP respeta el límite de frecuencia más estricto en la jerarquía de campañas.
 
 **[!UICONTROL Secondary Cap]:** (opcional; disponible cuando se incluye un elemento numérico [!UICONTROL Placement Cap]) Una limitación adicional dentro de los límites del límite de ubicación principal. Seleccione el número de impresiones y el período de tiempo (por ejemplo, 3 por 12 horas).
 
@@ -395,7 +395,7 @@ Para especificar la segmentación de temas:
 
 El ID debe comenzar por &quot;51&quot; y constar de ocho dígitos. De forma predeterminada, si se especifica un ID de segmento en la configuración de cuenta del anunciante, se introduce el ID de nivel de anunciante, pero puede cambiarlo para utilizar un segmento diferente o eliminar el ID para deshabilitar la función.
 
-**[!UICONTROL Contextual filtering]:** tipos de filtros contextuales [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] y [!DNL Peer39] que aplicar. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración:
+**[!UICONTROL Contextual filtering]:** (aplicable a anuncios de vídeo, nativos y de visualización web móvil y de escritorio) Se deben aplicar los tipos de filtros contextuales [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] y [!DNL Peer39]. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración:
 
 <!-- Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
@@ -421,34 +421,30 @@ El ID debe comenzar por &quot;51&quot; y constar de ocho dígitos. De forma pred
 
 **[!UICONTROL Pre-bid fraud blocking]:** Tipos de sitios que se bloquearán según el tráfico fraudulento y las actividades sospechosas medidas a través de [!DNL DoubleVerify], [!DNL Integral Ad Science] y [!DNL Peer39]. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración:
 
-* [!UICONTROL DoubleVerify]:
+* [!UICONTROL DoubleVerify]: (aplicable a anuncios de escritorio, móviles, nativos y de vídeo)
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** De forma predeterminada, bloquea todo el tráfico 100% no válido, incluido el tráfico en dispositivos secuestrados, para las nuevas ubicaciones. Se pueden aplicar tarifas adicionales.
 
-   * DSP **[!UICONTROL Also block sites with]:** (Opcional) Un nivel adicional de fraude y tráfico no válido que hace que los anuncios bloqueados sean bloqueados de manera predeterminada: *[!UICONTROL None]* (el predeterminado, que no bloquea el tráfico adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* o *[!UICONTROL >25% Average Fraud/IVT levels]*. Se pueden aplicar tarifas adicionales.
+   * **[!UICONTROL Also block sites with]:** (Opcional) Un nivel adicional de fraude y tráfico no válido que hace que DSP bloquee los anuncios de forma predeterminada: *[!UICONTROL None]* (el valor predeterminado, que no bloquea el tráfico adicional), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* o *[!UICONTROL >25% Average Fraud/IVT levels]*. Se pueden aplicar tarifas adicionales.
 
-* [!UICONTROL Peer 39]:
+* [!UICONTROL Peer 39]: (aplicable a anuncios de escritorio, móviles, nativos y de vídeo)
 
-   * DSP **[!UICONTROL Block sites that are]:** (Opcional) Uno o más tipos de fraude que causan que los anuncios se bloqueen de manera predeterminada: *[!UICONTROL Fraud]* (que bloquea todos los sitios con fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]*, y/o *[!UICONTROL Fraud: Zero Ads]*. Se pueden aplicar tarifas adicionales.
+   * **[!UICONTROL Block sites that are]:** (Opcional) Uno o más tipos de fraude que hacen que DSP bloquee los anuncios de forma predeterminada: *[!UICONTROL Fraud]* (que bloquea todos los sitios con fraude), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* o *[!UICONTROL Fraud: Zero Ads]*. Se pueden aplicar tarifas adicionales.
 
-* [!UICONTROL Integral Ad Science]:
+* [!UICONTROL Integral Ad Science]: (aplicable a anuncios de escritorio, móviles, nativos y de vídeo)
 
-   * DSP **[!UICONTROL Block sites that are]:** (Opcional) Un tipo de actividad sospechosa en un sitio web o aplicación que hace que los anuncios se bloqueen de forma predeterminada: *[!UICONTROL None]* (el valor predeterminado, que no bloquea los anuncios basándose en actividades sospechosas), *[!UICONTROL Suspicious Activity - High Risk]* o *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Se pueden aplicar tarifas adicionales.
+   * **[!UICONTROL Block sites that are]:** (Opcional) Tipo de actividad sospechosa en un sitio web o aplicación que hace que DSP bloquee los anuncios de forma predeterminada: *[!UICONTROL None]* (el valor predeterminado, que no bloquea los anuncios basándose en actividades sospechosas), *[!UICONTROL Suspicious Activity - High Risk]* o *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Se pueden aplicar tarifas adicionales.
 
-**[!UICONTROL Pre-bid viewability]:**
+**[!UICONTROL Pre-bid viewability]:** (aplicable a anuncios de vídeo, nativos y de pantalla web móvil y de escritorio) que filtra la visibilidad de oferta previa por [!DNL DoubleVerify] y [!DNL Integral Ad Science] para solicitar la ubicación. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración. Se pueden aplicar tarifas adicionales.
 
-Qué filtros de visibilidad de oferta previa se aplican por [!DNL DoubleVerify] y [!DNL Integral Ad Science] para aplicar a la ubicación. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración. Se pueden aplicar tarifas adicionales.
-
-**[!UICONTROL Ads.txt filtering]:**
-
-Qué nivel de filtrado de oferta previa de [Ads.txt](https://iabtechlab.com/ads-txt-about/) usar aplicando la lista de vendedores digitales autorizados de cada editor. El nivel de anunciante predeterminado está seleccionado para nuevas ubicaciones, pero puede cambiar la configuración:
+**[!UICONTROL Ads.txt filtering]:** (aplicable a anuncios de escritorio, web móvil, nativos, de vídeo y audio) Qué nivel de filtrado de oferta previa de [Ads.txt](https://iabtechlab.com/ads-txt-about/) debe usarse aplicando la lista Vendedores digitales autorizados de cada editor. El nivel de anunciante predeterminado está seleccionado para nuevas ubicaciones, pero puede cambiar la configuración:
 
 * *[!UICONTROL Opt out of ads.txt (default)]*: para comprar inventario a todos los vendedores.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: para priorizar la compra de inventario a los vendedores directos y revendedores autorizados de un dominio.
 * *[!UICONTROL Ads.txt sellers only]*: para comprar inventario solamente de vendedores y revendedores directos autorizados de un dominio.
 * *[!UICONTROL Ads.txt sellers only]*: para comprar inventario solamente de los vendedores directos autorizados de un dominio.
 
-**[!UICONTROL Attention Targeting]:** (visualización, vídeo y ubicaciones de TV conectadas estándar) Segmenta [!DNL Adelaide] segmentos de oferta previa con un nivel de atención específico (alto, medio o bajo) según el sitio, el formato y el tamaño de anuncio especificados. Los segmentos se actualizan semanalmente. **Nota:** Al usar [!DNL Adelaide] segmentos para la segmentación, se incurre en una tarifa de CPM por cada impresión que se entrega con una segmentación de atención de [!DNL Adelaide]; esta tarifa es independiente de las tarifas de [medición de atención](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para las ubicaciones interactivas previas a la emisión, solo se te cobrarán las impresiones VAST.
+**[!UICONTROL Attention Targeting]:** (aplicable a pantallas web de escritorio y móviles, vídeo y anuncios de TV conectados estándar) Segmenta [!DNL Adelaide] segmentos de oferta previa con un nivel de atención específico (alto, medio o bajo) según el sitio, el formato y el tamaño del anuncio especificados. Los segmentos se actualizan semanalmente. **Nota:** Al usar [!DNL Adelaide] segmentos para la segmentación, se incurre en una tarifa de CPM por cada impresión que se entrega con una segmentación de atención de [!DNL Adelaide]; esta tarifa es independiente de las tarifas de [medición de atención](/help/dsp/campaign-management/campaigns/campaign-settings.md). Para las ubicaciones interactivas previas a la emisión, solo se te cobrarán las impresiones VAST.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
@@ -507,4 +503,4 @@ Qué nivel de filtrado de oferta previa de [Ads.txt](https://iabtechlab.com/ads-
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Preguntas más frecuentes sobre Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Preguntas frecuentes sobre la administración de campañas](/help/dsp/campaign-management/faq-campaign-management.md)
