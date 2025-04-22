@@ -2,14 +2,14 @@
 title: Acerca de Performance Insights
 description: Obtenga información acerca de las perspectivas de rendimiento de sus campañas.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: 16d3e9411cf7366a697399b85e7895fec5c6e47a
+source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# Acerca de las perspectivas de rendimiento&lt;!— Título?—?>
+# Acerca de Performance Insights
 
 *característica de Beta*
 
@@ -60,4 +60,8 @@ Filter icon + drop-down menu
 
 -->
 
-
+>[!MORELIKETHIS]
+>
+>* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
+>* [Tipos de informes de rendimiento en las vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
