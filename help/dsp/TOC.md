@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 148917239a2179b651b04418e53038d29856c649
+source-git-commit: 2d8785ed0f9be576d7c5437ac5793a46d787b954
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 3%
@@ -97,8 +97,8 @@ ht-degree: 3%
          + [Configuración de anuncio previo a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Configuración de anuncio de vídeo universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Especificaciones para tipos de publicidad admitidos](/help/dsp/campaign-management/ads/ad-specs.md)
-+ Perspectivas de rendimiento entre campañas {#insights}
-   + [Acerca de Performance Insights](/help/dsp/campaign-management/insights/insights-about.md)
+   + Perspectivas de rendimiento entre campañas {#insights}
+      + [Acerca de Performance Insights](/help/dsp/campaign-management/insights/insights-about.md)
    + Informes de rendimiento en las vistas de administración de campañas {#campaign-reports}
       + [Tipos de informes de rendimiento en las vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportación de datos desde una vista de administración de Campaign](/help/dsp/campaign-management/reports/campaign-export-data.md)

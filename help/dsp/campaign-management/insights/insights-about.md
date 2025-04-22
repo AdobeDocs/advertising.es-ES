@@ -2,9 +2,9 @@
 title: Acerca de Performance Insights
 description: Obtenga información acerca de las perspectivas de rendimiento de sus campañas.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
+source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Las perspectivas de rendimiento de alto nivel con visualizaciones le proporciona
 
 Para cualquier insight, puede descargar un informe, sin las visualizaciones, en formato de hoja de cálculo de Microsoft Excel (XLSX).
 
-## [!UICONTROL Home] ficha
+## Tipos de perspectivas
+
+### [!UICONTROL Home] ficha
 
 La ficha [!UICONTROL Home] proporciona métricas clave de estándar, rendimiento y visibilidad en todas las campañas de un anunciante<!-- active only? -->. De forma predeterminada, se muestran los datos de varias campañas. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente o datos solo de campañas específicas<!-- active only? -->, paquetes<!-- active only? -->, metas personalizadas y ubicaciones<!-- active only? -->. Las perspectivas incluyen:
 
@@ -27,7 +29,7 @@ La ficha [!UICONTROL Home] proporciona métricas clave de estándar, rendimiento
 
 * Un desglose de los datos de métricas específicas por tres dimensiones especificadas por el cliente, como por campaña, editor y tipo de medio. Para cada desglose dimensional, puede elegir una métrica diferente.
 
-## [!UICONTROL Household Reach] ficha
+### [!UICONTROL Household Reach] ficha
 
 La ficha [!UICONTROL Household Reach] proporciona métricas de alcance doméstico en todas las campañas de un anunciante<!-- active only? -->. De forma predeterminada, se muestran los datos de varias campañas. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente o datos solo de campañas específicas<!-- active only? -->. Las perspectivas incluyen:
 
