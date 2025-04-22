@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
+source-git-commit: 148917239a2179b651b04418e53038d29856c649
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '944'
 ht-degree: 3%
 
 ---
@@ -97,6 +97,8 @@ ht-degree: 3%
          + [Configuración de anuncio previo a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Configuración de anuncio de vídeo universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Especificaciones para tipos de publicidad admitidos](/help/dsp/campaign-management/ads/ad-specs.md)
++ Perspectivas de rendimiento entre campañas {#insights}
+   + [Acerca de Performance Insights](/help/dsp/campaign-management/insights/insights-about.md)
    + Informes de rendimiento en las vistas de administración de campañas {#campaign-reports}
       + [Tipos de informes de rendimiento en las vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportación de datos desde una vista de administración de Campaign](/help/dsp/campaign-management/reports/campaign-export-data.md)
@@ -116,7 +118,7 @@ ht-degree: 3%
    + [Objetivos personalizados](/help/dsp/optimization/custom-goal.md)
    + [Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [Solución de problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
-+ Audiencias {#audiences}
++ Públicos {#audiences}
    + [Acerca de Audience Management](/help/dsp/audiences/audience-about.md)
    + [Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md)
    + Audiencias reutilizables {#reusable-audiences}
@@ -140,9 +142,9 @@ ht-degree: 3%
       + [Compartir o dejar de compartir un segmento](/help/dsp/audiences/segment-share.md)
       + [Visualización de los píxeles de seguimiento de un segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Eliminar un segmento](/help/dsp/audiences/segment-delete.md)
-   + Orígenes {#sources}
+   + Fuentes {#sources}
       + [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
-      + Flujos de trabajo por la plataforma de datos del cliente {#sources-workflows}
+      + Flujos de trabajo por Customer Data Platform {#sources-workflows}
          + [Convertir los identificadores de usuario de  [!DNL Adobe Real-Time CDP]  a identificadores universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
          + [Convertir los identificadores de usuario de  [!DNL Amperity]  a identificadores universales](/help/dsp/audiences/sources/source-amperity.md)
          + [Convertir los identificadores de usuario de  [!DNL Optimizely]  a identificadores universales](/help/dsp/audiences/sources/source-optimizely.md)
@@ -154,7 +156,7 @@ ht-degree: 3%
    + [Resumen de las Funciones de Inventario](/help/dsp/inventory/inventory-overview.md)
    + [Usando  [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [Socios de SSP](/help/dsp/inventory/ssp-partners.md)
-   + [!DNL On Demand] inventario {#on-demand}
+   + Inventario de [!DNL On Demand] {#on-demand}
       + [Acerca de [!DNL On Demand] Inventario Premium](/help/dsp/inventory/on-demand-inventory-about.md)
       + Disponibles [!DNL On Demand] editores de inventario premium {#publishers}
          + [[!DNL On Demand] editores de inventario premium en Asia-Pacífico](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
@@ -166,18 +168,18 @@ ht-degree: 3%
       + [Ver el estado de tus  [!DNL On Demand] solicitudes y suscripciones de acuerdo](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + Inventario privado {#private-inventory}
       + [Acerca del inventario privado](/help/dsp/inventory/private-inventory-about.md)
-      + Identificadores de acuerdo {#deal-ids}
+      + ID de acuerdo {#deal-ids}
          + [!UICONTROL Deal ID Inbox] {#inbox}
             + [Acerca de [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
             + [Aceptar un acuerdo en [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-accept.md)
-         + Identificadores de acuerdo {#manual} introducidos manualmente
+         + ID de acuerdo introducidos manualmente {#manual}
             + [Crear manualmente detalles de [!UICONTROL Deal ID]](/help/dsp/inventory/deal-id-create.md)
             + [Configuración manual de [!UICONTROL Deal ID]](/help/dsp/inventory/deal-id-settings.md)
-         + Ofertas garantizadas mediante programación {#programmatic-guaranteed-deal}
+         + Ofertas programáticas garantizadas {#programmatic-guaranteed-deal}
             + [Descripción general de las ofertas garantizadas mediante programación](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [Sugerencias para negociar un acuerdo garantizado programático](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Configurar una oferta garantizada programática](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
-            + [!DNL FreeWheel] Ofertas garantizadas mediante programación {#freewheel}
+            + [!DNL FreeWheel] ofertas garantizadas mediante programación {#freewheel}
                + [Información general sobre la configuración de ofertas garantizadas mediante programación en  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
                + [Enviar un anuncio para una oferta garantizada programática a  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
                + [Comprobar el estado de los anuncios para  [!DNL FreeWheel] Ofertas programáticas garantizadas](/help/dsp/inventory/freewheel-check-status.md)
@@ -221,7 +223,7 @@ ht-degree: 3%
    + [Exportar una previsión para un plan de alcance de TV conectado](/help/dsp/planner/planner-export.md)
    + [Regeneración de la Previsión para un Plan de Alcance de TV Conectado](/help/dsp/planner/planner-forecast.md)
    + [Archivar un plan de alcance de TV conectado](/help/dsp/planner/planner-archive.md)
-+ Administración {#admin}
++ Administration {#admin}
    + [Editar su perfil](/help/dsp/admin/user-own-profile-edit.md)
    + Usuarios {#users}
       + [Invitar a un nuevo usuario](/help/dsp/admin/user-invite.md)
