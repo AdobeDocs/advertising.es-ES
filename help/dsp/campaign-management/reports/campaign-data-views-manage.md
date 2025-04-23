@@ -3,7 +3,7 @@ title: Administrar Las Vistas De Datos De Campaign
 description: Descubra cómo puede personalizar las vistas de datos para campañas, paquetes, ubicaciones y anuncios.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Cada nivel de administración de campañas ([!UICONTROL Campaigns], [!UICONTROL 
 
 ![selector de vista de columna](/help/dsp/assets/column-view-selector.png)
 
-DSP Guarda la vista más reciente como la vista predeterminada para que, cada vez que vuelva a la página, siempre vea las métricas que le interesen.
+DSP guarda la vista más reciente como vista predeterminada para que, cada vez que vuelva a la página, siempre vea las métricas que le interesen.
 
 #### Cambio de la vista de columna {#column-view-change}
 
@@ -56,7 +56,7 @@ DSP Guarda la vista más reciente como la vista predeterminada para que, cada ve
 
    1. En la lista de métricas disponibles, active la casilla de verificación situada junto a cada métrica que desee incluir.
 
-      DSP Todas las métricas son alfabéticas por categoría: [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting] (métricas estándar que se rastrean en la), [!UICONTROL Viewability] y [!UICONTROL Conversions]. Las métricas anexadas con &quot;([!UICONTROL Lifetime])&quot; devuelven valores desde el inicio de la campaña, independientemente del intervalo de fechas seleccionado en la página.
+      Todas las métricas son alfabéticas por categoría: [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting] (métricas estándar que DSP rastrea), [!UICONTROL Viewability] y [!UICONTROL Conversions]. Las métricas anexadas con &quot;([!UICONTROL Lifetime])&quot; devuelven valores desde el inicio de la campaña, independientemente del intervalo de fechas seleccionado en la página.
 
    1. Edite el orden de las columnas, según sea necesario, haciendo clic en los nombres de las columnas en el panel derecho y arrastrándolas a las posiciones requeridas.
 
@@ -82,7 +82,7 @@ DSP Guarda la vista más reciente como la vista predeterminada para que, cada ve
 
    1. En la lista de métricas disponibles, active la casilla de verificación situada junto a cada métrica que desee incluir y desactive la casilla de verificación situada junto a cada métrica que desee excluir.
 
-      DSP Todas las métricas son alfabéticas por categoría: [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting] (métricas estándar que se rastrean en la), [!UICONTROL Viewability] y [!UICONTROL Conversions]. Las métricas anexadas con &quot;([!UICONTROL Lifetime])&quot; devuelven valores desde el inicio de la campaña, independientemente del intervalo de fechas seleccionado en la página.
+      Todas las métricas son alfabéticas por categoría: [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting] (métricas estándar que DSP rastrea), [!UICONTROL Viewability] y [!UICONTROL Conversions]. Las métricas anexadas con &quot;([!UICONTROL Lifetime])&quot; devuelven valores desde el inicio de la campaña, independientemente del intervalo de fechas seleccionado en la página.
 
    1. Edite el orden de las columnas, según sea necesario, haciendo clic en los nombres de las columnas en el panel derecho y arrastrándolas a las posiciones requeridas.
 
@@ -142,7 +142,6 @@ Los siguientes filtros están disponibles para las vistas [!UICONTROL Campaigns]
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
 
-
 ### Cambio del intervalo de fechas
 
 Cambie el intervalo de fechas utilizado en todas las vistas estándar y personalizadas mediante el selector de intervalo de fechas situado encima de cualquier tabla de datos.
@@ -172,9 +171,9 @@ En la parte inferior derecha de cualquier página, junto a **[!UICONTROL Items p
 
 >[!MORELIKETHIS]
 >
->* [Tipos de informes de rendimiento en las vistas de Campaign Management](campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en las vistas de administración de campañas](campaign-reports-about.md)
 >* [Ver los sitios, anuncios y detalles de frecuencia de una ubicación](placement-details-view.md)
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Ver los informes de diagnóstico de ubicación](placement-diagnostics.md)
->* [Exportar datos de una vista de Campaign Management](campaign-export-data.md)
->* DSP [Vídeo: Estructura de cuenta e interfaz de usuario de la cuenta de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Exportar datos de una vista de administración de Campaign](campaign-export-data.md)
+>* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
