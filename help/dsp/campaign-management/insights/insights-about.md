@@ -3,9 +3,9 @@ title: Acerca de Performance Insights
 description: Obtenga información acerca de las perspectivas de rendimiento con visualizaciones.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
+source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ La ficha [!UICONTROL Household Reach] proporciona métricas de alcance doméstic
 
 ## Abrir perspectivas de rendimiento
 
-* (Para abrir perspectivas para todas las campañas) En el menú principal, haga clic en **[UICONTROL Insights BETA]**.
+* (Para abrir perspectivas para todas las campañas) En el menú principal, haga clic en **[!UICONTROL Insights BETA]**.
 
 * (Para abrir perspectivas para una campaña, paquete o ubicación específicos) Junto al nombre de la entidad en la vista [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], haga clic en **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
 
