@@ -3,9 +3,9 @@ title: Acerca de Performance Insights
 description: Obtenga información acerca de las perspectivas de rendimiento con visualizaciones.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
+source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ La ficha [!UICONTROL Household Reach] proporciona métricas de alcance doméstic
 
 * Gráfico de tendencias por día o por semana para tres métricas especificadas por el cliente (de forma predeterminada, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] y [!UICONTROL Net CPM]).
 
-* Gráfico de anillo que muestra el alcance incremental del hogar en [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type]. El alcance incremental del hogar se define como un hogar al que se llega exclusivamente a través de un único medio, dispositivo o tipo de inventario.
+* Gráfico de anillo que muestra el alcance incremental del hogar en [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type]. *Alcance doméstico incremental* se define como un hogar al que se llega exclusivamente a través de un solo medio, dispositivo o tipo de inventario.
 
 * Alcance único del hogar incremental frente a alcance del hogar superpuesto por [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type].
 
-  El alcance incremental del hogar se define como un hogar al que se llega exclusivamente a través de un único medio, dispositivo o tipo de inventario. Un hogar al que llegan varios medios, dispositivos o tipos de inventario se considera superpuesto.
+  *Alcance doméstico incremental* se define como un hogar al que se llega exclusivamente a través de un solo medio, dispositivo o tipo de inventario. *Alcance doméstico superpuesto* se define como un hogar al que llegan varios medios, dispositivos o tipos de inventario.
 
 * Las campañas de mayor rendimiento, ubicaciones, paquetes, editores, sitios/aplicaciones, tipos de medios, tipos de inventario o tipos de dispositivos por [!UICONTROL Unique Reach], [!UICONTROL Net Spend] y [!UICONTROL Cost per Reach].
 
@@ -64,8 +64,7 @@ La ficha [!UICONTROL Household Reach] proporciona métricas de alcance doméstic
 
 ## Aplicar filtros a una pestaña
 
-1. En la barra de herramientas situada en la parte superior de la pestaña,
-haga clic en ![Botón Filtro](/help/dsp/assets/filter.png).
+1. En la barra de herramientas situada en la parte superior de la ficha, haga clic en ![Botón Filtro](/help/dsp/assets/filter.png).
 
 1. En la columna izquierda, seleccione una dimensión y, a continuación, seleccione uno o varios valores en la columna derecha, según corresponda.
 
