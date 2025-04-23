@@ -1,9 +1,9 @@
 ---
 title: Acerca de Performance Insights
-description: Obtenga información acerca de las perspectivas de rendimiento de sus campañas.
-feature: DSP Packages, DSP Placements, DSP Ads
+description: Obtenga información acerca de las perspectivas de rendimiento con visualizaciones.
+feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
+source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Utilice perspectivas de rendimiento para:
 
 Puede exportar todas las visualizaciones de una pestaña a un archivo de PDF o descargar los datos de un insight específico sin visualizaciones en formato de hoja de cálculo de Excel de Microsoft (XLSX).
 
-También puede [cambiar el intervalo de fechas, configurar la vista y guardar una vista personalizada](/help/dsp/campaign-management/reports/campaign-data-views-manage.md), como lo haría para las vistas de administración de campañas.
+También puede [cambiar el intervalo de fechas, configurar la vista y guardar una vista personalizada](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) como lo haría para las vistas de administración de campañas.
 
 ## Tipos de perspectivas
 
@@ -50,7 +50,7 @@ La ficha [!UICONTROL Household Reach] proporciona métricas de alcance doméstic
 
 * Alcance único del hogar incremental frente a alcance del hogar superpuesto por [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type].
 
-  El alcance incremental del hogar se define como un hogar al que se llega exclusivamente a través de un único medio, dispositivo o tipo de inventario. Un hogar al que se llega mediante varios tipos de medios, dispositivos o inventarios se considera superpuesto.
+  El alcance incremental del hogar se define como un hogar al que se llega exclusivamente a través de un único medio, dispositivo o tipo de inventario. Un hogar al que llegan varios medios, dispositivos o tipos de inventario se considera superpuesto.
 
 * Las campañas de mayor rendimiento, ubicaciones, paquetes, editores, sitios/aplicaciones, tipos de medios, tipos de inventario o tipos de dispositivos por [!UICONTROL Unique Reach], [!UICONTROL Net Spend] y [!UICONTROL Cost per Reach].
 
