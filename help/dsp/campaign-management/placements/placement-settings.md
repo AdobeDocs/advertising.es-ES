@@ -3,7 +3,7 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 3224adf97a1b32ee7b7abcbb1c6e7792bfed5c49
+source-git-commit: eaa25ce24bf00fb5ff7ea1e4a3364d4439f49b00
 workflow-type: tm+mt
 source-wordcount: '4039'
 ht-degree: 0%
@@ -421,7 +421,7 @@ El ID debe comenzar por &quot;51&quot; y constar de ocho dígitos. De forma pred
 
 **[!UICONTROL Pre-bid fraud blocking]:** Tipos de sitios que se bloquearán según el tráfico fraudulento y las actividades sospechosas medidas a través de [!DNL DoubleVerify], [!DNL Integral Ad Science] y [!DNL Peer39]. Los valores predeterminados de nivel de anunciante están seleccionados para nuevas ubicaciones, pero puede cambiar la configuración:
 
-* [!UICONTROL DoubleVerify]: (Aplicable a anuncios de escritorio, de visualización web móvil, nativos y de vídeo) <!-- native, video, and standard connected TV ads -->
+* [!UICONTROL DoubleVerify]: (Aplicable a anuncios de escritorio, de visualización web móvil, nativos y de vídeo) <!-- Applicable for desktop and mobile web display, native, video, and standard connected TV ads -->
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** De forma predeterminada, bloquea todo el tráfico 100% no válido, incluido el tráfico en dispositivos secuestrados, para las nuevas ubicaciones. Se pueden aplicar tarifas adicionales.
 
