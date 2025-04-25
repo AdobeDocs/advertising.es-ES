@@ -3,9 +3,9 @@ title: Partners de servicio de publicidad certificados
 description: Ver todos los servidores de publicidad certificados y unidades de publicidad.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!DNL Spirable] | | X | | | |
 | [!DNL SUBLIME] | | | X | | |
 | [!DNL SundaySky] | | | | X | |
-| [!DNL Teads] | | X | | | No hay compatibilidad disponible para VPAID en el inventario de salida. |
+| [!DNL Teads] | | X | | | Incluye visualización nativa. No hay compatibilidad disponible para VPAID en el inventario de salida. |
 | [!DNL Trueffect] | | X | | | |
 | [!DNL Undertone] | | | X | | La unidad de anuncios Custom Page Grabber se cargó como 180x150 en DSP</br></br>Cuando Index Exchange pasa una subasta de 180x150 y DSP puja por la subasta y da una impresión, el creativo se expande a un anuncio en pantalla de página completa.</br></br>Certificación inicial para las unidades de anuncios de Grabber de página, Adhesión ampliable y Desplazamiento de pantalla. Esto debe volver a certificarse, con los pasos marcados para los procesos. |
 | [!DNL Vox] | | | X | | [!DNL Athena] unidades de anuncios |
