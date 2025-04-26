@@ -3,9 +3,9 @@ title: Añadir elementos creativos estándar a una biblioteca creativa
 description: Aprenda a añadir elementos creativos estándar (no dinámicos) a una biblioteca creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -158,15 +158,21 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 
 1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**.
 
-1. Especifique los archivos de cualquiera de las siguientes maneras:
+1. Especifique las imágenes:
 
-   * Arrastre y suelte los archivos del dispositivo o de la red en el cuadro.
+   * Para los recursos de imagen locales, realice una de las siguientes acciones:
 
-   * Haga clic en **[!UICONTROL select a file]** para localizar el archivo en su dispositivo o red.
-<!--  Verify wording and workflow and add when available:
+      * Arrastre y suelte los archivos del dispositivo o de la red en el cuadro.
 
-   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
--->
+      * Haga clic en **[!UICONTROL select a file]** para buscar archivos en su dispositivo o red.
+
+   * Para las imágenes de la biblioteca de Adobe Experience Manager, haga lo siguiente:
+
+      1. Haga clic en **[!UICONTROL AEM Asset Library]**.
+
+      1. Inicie sesión en su cuenta de Experience Manager.
+
+      1. Busque y seleccione los archivos en las vistas [!UICONTROL Assets] o [!UICONTROL Collections], y después haga clic en **[!UICONTROL Select]** en la esquina superior derecha.
 
 1. Agregar o quitar imágenes:
 
