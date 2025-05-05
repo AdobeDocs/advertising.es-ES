@@ -145,4 +145,4 @@ ht-degree: 0%
 >* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/340454)
+>* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/344998?captions=spa)
