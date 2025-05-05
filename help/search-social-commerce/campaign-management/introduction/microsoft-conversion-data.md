@@ -20,7 +20,7 @@ Todas las métricas están disponibles automáticamente en las vistas de adminis
 
 Search, Social y Commerce sincronizan los datos de las conversiones para las que la opción &quot;[!DNL Include in 'Conversions']&quot; está habilitada, extraen los datos de los últimos 35 días y extraen los cambios a los datos diariamente a las 09:00-10:00 en el huso horario del anunciante. Los datos históricos pueden cambiar día a día a medida que se realiza el seguimiento de las nuevas conversiones para cada clic.
 
-Hay dos métricas disponibles automáticamente para cada conversión ](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) rastreada por [[!DNL Microsoft Advertising] (que configuró en [!DNL Microsoft Advertising]) en Buscar, Social y Commerce, usando los nombres de conversión configurados en [!DNL Microsoft Advertising]. Las métricas de cada conversión incluyen:
+Hay dos métricas disponibles automáticamente para cada conversión [&#128279;](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) rastreada por [!DNL Microsoft Advertising] (que configuró en [!DNL Microsoft Advertising]) en Buscar, Social y Commerce, usando los nombres de conversión configurados en [!DNL Microsoft Advertising]. Las métricas de cada conversión incluyen:
 
 * `<conversion-name>`: el valor de conversión de la palabra clave (como Compra).
 

@@ -50,7 +50,7 @@ El anunciante debe preparar e insertar los datos usando [!DNL Optimizely Data Pl
 
 1. En [!DNL Optimizely Data Platform], hash de los ID de correo electrónico de la audiencia con el algoritmo SHA-256.
 
-1. DSP Siga las [[!DNL Optimizely's] instrucciones de para insertar el segmento en la dirección de correo electrónico {100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads) Incluya la siguiente información para habilitar la integración:
+1. DSP Siga las [[!DNL Optimizely's] instrucciones de para insertar el segmento en la dirección de correo electrónico &lbrace;100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ](https://support.optimizely.com/hc/en-us/articles/27974930963981-Integrate-Adobe-Ads) Incluya la siguiente información para habilitar la integración:
 
    * **Clave de Source:** Esta es la clave de origen creada en [Paso 2](#source-create).
 

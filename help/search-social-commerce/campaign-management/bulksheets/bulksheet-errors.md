@@ -45,8 +45,8 @@ Los siguientes errores pueden estar incluidos en la columna [!UICONTROL EF Error
 | General | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | Error total en la operación. Si el problema persiste, póngase en contacto con el equipo de cuenta de Adobe. |
 | Todas las entidades | [!UICONTROL Invalid Fields.] \[campos no válidos y error\] | Faltan los datos especificados o no son válidos. |
 |  | [!UICONTROL Invalid Reference Given] | El ID de la entidad en la red de publicidad o el ID de una entidad principal (como el ID de cuenta) no se corresponde con una entidad de Search, Social y Commerce. Esto puede ocurrir cuando editó el ID en la hoja de edición masiva. |
-|  | [!UICONTROL <Entity> is deleted or expired] | La entidad ha caducado o se ha eliminado y no puede cambiar sus propiedades. La entidad se puede eliminar cuando alguien edita el estado manualmente. |
-|  | [!UICONTROL <Entity> status should be Active or Paused] | (Nuevas entidades) Una nueva entidad solo puede estar &quot;Activa&quot; o &quot;En pausa&quot;. |
+|  | [!UICONTROL &lt;Entity> is deleted or expired] | La entidad ha caducado o se ha eliminado y no puede cambiar sus propiedades. La entidad se puede eliminar cuando alguien edita el estado manualmente. |
+|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | (Nuevas entidades) Una nueva entidad solo puede estar &quot;Activa&quot; o &quot;En pausa&quot;. |
 |  | [!UICONTROL Duplicate Entries are present] | Se incluyen varias filas para la misma entidad, con atributos diferentes en cada fila. Consolide los cambios en una fila. |
 |  | [!UICONTROL Invalid AMO ID given] | El ID de AMO de la fila no existe. Esto puede ocurrir si editó el ID en la hoja de edición masiva. |
 |  | [!UICONTROL Invalid row given] | La fila no incluye información suficiente para determinar el tipo de entidad. Edite la fila para incluir todos los campos obligatorios para el tipo de entidad. |
@@ -62,7 +62,7 @@ Los siguientes errores pueden estar incluidos en la columna [!UICONTROL EF Error
 | Todos los componentes del grupo de anuncios | [!UICONTROL Adgroup creation failed] | No se ha creado el grupo de anuncios principal, por lo que no se ha podido crear esta entidad. Esto puede deberse a un error en los campos del grupo de anuncios o a que la campaña principal ha fallado. Asegúrese de que todas las entidades padre contienen todos los campos obligatorios. |
 |  | [!UICONTROL Adgroup Row Missing] | El grupo de anuncios principal especificado no existe, por lo que no se pudo crear la entidad. Cree el grupo de anuncios principal en una nueva fila. |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | El campo &quot;[!UICONTROL Tracking Template]&quot; solo se aplica a las cuentas que utilizan direcciones URL finales o avanzadas. Elimine el valor hasta que haya migrado la cuenta para utilizar las direcciones URL finales/avanzadas. |
-| Anuncio | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | (Tipos de anuncio que no sean texto, texto expandido, producto, instalación de aplicación y búsqueda dinámica) Solo puede editar el estado y la dirección URL de este tipo de anuncio. |
+| Anuncio | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | (Tipos de anuncio que no sean texto, texto expandido, producto, instalación de aplicación y búsqueda dinámica) Solo puede editar el estado y la dirección URL de este tipo de anuncio. |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | Cada grupo de anuncios puede incluir hasta 50 anuncios y esta hoja de edición masiva incluye más de 50. Reduzca el número de anuncios. |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | El anuncio está en una entidad principal caducada o eliminada, por lo que no puede editarla. |
 | Palabra clave | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | La campaña principal o el grupo de anuncios se han eliminado o caducado, por lo que no puede cambiar la entidad. |
@@ -85,7 +85,7 @@ Los siguientes errores ocurren solamente en [!UICONTROL EF Errors] archivos. La 
 |----|----|----|
 | General | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | Error total en la operación. Si el problema persiste, póngase en contacto con el equipo de cuenta de Adobe. |
 | Todas las entidades | [!UICONTROL Entity] se publicó en la red de anuncios | La entidad se publicó en la red de anuncios, pero no se sincronizó con Buscar, Social y Commerce al mismo tiempo, por lo que los datos de entidad no están disponibles inmediatamente en Buscar, Social y Commerce. El proceso de sincronización se activa automáticamente en este momento.<br><br>Cuando se sincronizan grandes cantidades de datos, es posible que estos no estén disponibles en Search, Social y Commerce durante varias horas o más. |
-| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | No se pudo crear la entidad principal, por lo que no se creó esta entidad secundaria. |
+| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | No se pudo crear la entidad principal, por lo que no se creó esta entidad secundaria. |
 
 >[!MORELIKETHIS]
 >

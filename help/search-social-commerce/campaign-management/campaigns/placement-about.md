@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Las ubicaciones son ubicaciones en la red de visualización en las que pueden aparecer los anuncios. La configuración de ubicación incluye los parámetros de oferta máxima y seguimiento opcional. La configuración del nivel de ubicación anula la configuración del grupo de anuncios o de la campaña.
 
-Puede crear ubicaciones para cualquier grupo de anuncios en un [tipo de campaña admitido [!DNL Google Ads] 2} que se dirija a la red de visualización dentro de una [cuenta de motor de búsqueda sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).](/help/search-social-commerce/introduction/supported-inventory.md)
+Puede crear ubicaciones para cualquier grupo de anuncios en un [&#128279;](/help/search-social-commerce/introduction/supported-inventory.md)tipo de campaña admitido [!DNL Google Ads] 2&rbrace; que se dirija a la red de visualización dentro de una [cuenta de motor de búsqueda sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
 ## Las vistas [!UICONTROL Placements]
 

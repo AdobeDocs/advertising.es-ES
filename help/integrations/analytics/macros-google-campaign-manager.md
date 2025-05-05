@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* Si la dirección URL de la página de aterrizaje incluye el símbolo hash (#), que no es común, coloque el parámetro `amo` antes del símbolo hash.
+>&#x200B;>* Si la dirección URL de la página de aterrizaje incluye el símbolo hash (#), que no es común, coloque el parámetro `amo` antes del símbolo hash.
 >* Si no se incluyen otros parámetros después del parámetro `amo`, agregue un parámetro (por ejemplo, &amp;a=b) después de él. Ejemplo: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Configurar el sufijo de URL de la página de aterrizaje de nivel del anunciante
@@ -64,7 +64,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 DSP En el caso de que cree un anuncio que incluya el parámetro [!DNL Analytics for Advertising] (`amo`), las macros `ef_id` y `s_kwcid` se anexan automáticamente a la dirección URL de clic. DSP La práctica recomendada es comprobar la etiqueta en el código de tiempo para asegurarse de que las macros `ef_id` y `s_kwcid` están presentes.
 
-DSP A continuación se muestra un ejemplo de una etiqueta [!DNL Google Campaign Manager 360] [ins](https://support.google.com/campaignmanager/answer/6080468) tal como aparece en el cuadro de diálogo de la interfaz de usuario de {2000100000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000
+DSP A continuación se muestra un ejemplo de una etiqueta [!DNL Google Campaign Manager 360] [ins](https://support.google.com/campaignmanager/answer/6080468) tal como aparece en el cuadro de diálogo de la interfaz de usuario de &lbrace;2000100000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000
 
 ```
 <ins class='dcmads' style='display:inline-block;width:160px;height:600px'

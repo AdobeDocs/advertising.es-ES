@@ -20,7 +20,7 @@ Puede ver los datos de los 36 meses anteriores.
 >
 >* Los informes de clasificaciones de etiquetas de nivel de anuncio no están disponibles para [!DNL Microsoft Advertising] campañas de anuncios dinámicos de búsqueda (DSA).
 >* Se puede aplicar más de una clasificación de etiquetas a la misma entidad, por lo que el total de cada métrica puede ser superior al total real de la entidad. Por ejemplo, supongamos que una palabra clave &quot;zapatos de ante&quot; tiene dos valores de etiqueta, &quot;ante&quot; y &quot;calzado&quot;, y la palabra clave recibió 100 clics. La columna Clics mostraría &quot;100&quot; para cada uno de esos valores de etiqueta, por lo que el total para ambas filas sería &quot;200&quot;.
-* Cualquier cambio que realice en las clasificaciones de etiquetas y en los valores de etiquetas secundarias de una entidad será visible en aproximadamente una hora.
+>* Cualquier cambio que realice en las clasificaciones de etiquetas y en los valores de etiquetas secundarias de una entidad será visible en aproximadamente una hora.
 
 ## Columnas predeterminadas
 

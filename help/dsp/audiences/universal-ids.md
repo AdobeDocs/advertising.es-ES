@@ -100,7 +100,7 @@ Siga estas prácticas recomendadas para segmentos basados en [!DNL RampID] y en 
 
 ### Niveles de variación aceptables
 
-La tasa de traducción de las direcciones de correo electrónico con hash a los identificadores universales debe ser superior al 90%; la tasa de traducción de [!DNL RampIDs] en particular debe ser del 95% si todas las direcciones de correo electrónico con hash son únicas. Por ejemplo, si envía 100 direcciones de correo electrónico con hash desde la plataforma de datos del cliente, deben traducirse al menos a 95 [!DNL RampIDs] o más de 90 tipos más de ID universales. Una tasa de traducción más baja puede indicar un problema. Consulte &quot;[Causas de variación](#universal-ids-data-variances-causes&quot; para obtener posibles explicaciones.
+La tasa de traducción de las direcciones de correo electrónico con hash a los identificadores universales debe ser superior al 90%; la tasa de traducción de [!DNL RampIDs] en particular debe ser del 95% si todas las direcciones de correo electrónico con hash son únicas. Por ejemplo, si envía 100 direcciones de correo electrónico con hash desde la plataforma de datos del cliente, deben traducirse al menos a 95 [!DNL RampIDs] o más de 90 tipos más de ID universales. Una tasa de traducción más baja puede indicar un problema. Consulte &quot;[Causas de variación] (#universal-ids-data-variances-causes&quot; para obtener posibles explicaciones.
 
 Para [!DNL RampIDs], póngase en contacto con el equipo de la cuenta de Adobe para obtener más información si las tasas de traducción son inferiores al 70 %.
 

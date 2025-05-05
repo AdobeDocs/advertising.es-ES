@@ -24,8 +24,8 @@ En los informes, las vistas predeterminadas y personalizadas para Advertising Se
 >
 >* Las reglas de atribución se aplican a los clics en anuncios pagados en cualquier canal y a las impresiones en pantallas y anuncios sociales. No se aplican a las impresiones de anuncios de búsqueda de pago, que no se pueden rastrear en el nivel de evento.
 >* El Adobe Advertising siempre almacena los siguientes eventos para cada internauta antes de una conversión: a) el primer clic de pago; b) hasta 10 clics para cada canal (búsqueda, red social o visualización), incluido el primer clic; y c) hasta 10 impresiones de visualización. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* En Advertising DSP y Advertising Creative, las definiciones entre dispositivos solo tienen en cuenta la ruta de acceso del evento de la regla de atribución seleccionada.<!-- cross-device attribution via LiveRamp only -->
-* En las vistas de informes y administración, el número de decimales que se muestran para un valor depende de la divisa, pero el Adobe Advertising almacena valores más precisos.
+>* En Advertising DSP y Advertising Creative, las definiciones entre dispositivos solo tienen en cuenta la ruta de acceso del evento de la regla de atribución seleccionada.<!-- cross-device attribution via LiveRamp only -->
+>* En las vistas de informes y administración, el número de decimales que se muestran para un valor depende de la divisa, pero el Adobe Advertising almacena valores más precisos.
 
 ## Último evento (valor predeterminado)
 

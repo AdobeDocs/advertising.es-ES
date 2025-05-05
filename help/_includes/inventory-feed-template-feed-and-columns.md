@@ -11,9 +11,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Feed File]:* Cargue un archivo o selecciónelo de la lista de archivos de fuentes disponibles.
 
-* *[!UICONTROL Google Merchant Center]:* Seleccione una [cuenta sincronizada [!DNL Google Merchant Center] 4}. ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) Search, Social y Commerce solo crean grupos de productos; [!DNL Google Ads] genera automáticamente los anuncios de compra de los grupos de productos. No se admiten columnas personalizadas.
+* *[!UICONTROL Google Merchant Center]:* Seleccione una [cuenta sincronizada [!DNL Google Merchant Center] 4&rbrace;. ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) Search, Social y Commerce solo crean grupos de productos; [!DNL Google Ads] genera automáticamente los anuncios de compra de los grupos de productos. No se admiten columnas personalizadas.
 
-* *[!UICONTROL Microsoft Merchant Center]:* ([!DNL Microsoft Advertising] plantillas de compra solamente) Selecciona una [cuenta sincronizada [!DNL Microsoft Merchant Center] 5}. ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) Search, Social y Commerce solo crean grupos de productos; [!DNL Microsoft Advertising] genera automáticamente los anuncios de productos para los grupos de productos. No se admiten columnas personalizadas.
+* *[!UICONTROL Microsoft Merchant Center]:* ([!DNL Microsoft Advertising] plantillas de compra solamente) Selecciona una [cuenta sincronizada [!DNL Microsoft Merchant Center] 5&rbrace;. ](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md) Search, Social y Commerce solo crean grupos de productos; [!DNL Microsoft Advertising] genera automáticamente los anuncios de productos para los grupos de productos. No se admiten columnas personalizadas.
 
 La asociación de la plantilla con un archivo de fuentes o una cuenta de comerciante es opcional hasta que esté listo para crear anuncios con la plantilla.
 
