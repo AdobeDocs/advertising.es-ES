@@ -77,5 +77,5 @@ Puede cargar [!DNL DoubleClick] y [!DNL Flashtalking] hojas de etiquetas o un ar
 >* [Acerca de la administración de anuncios](ad-about.md)
 >* [Especificaciones del anuncio](ad-specs.md)
 >* [Crear un solo anuncio](ad-create.md)
->* [Vídeo: Cómo cargar de forma masiva etiquetas de anuncios de terceros](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Vídeo: Cómo cargar de forma masiva etiquetas de anuncios de terceros](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=es)
 >* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)

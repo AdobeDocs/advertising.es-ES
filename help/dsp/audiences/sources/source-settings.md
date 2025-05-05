@@ -46,5 +46,5 @@ Para [!DNL RampID] y [!DNL Unified ID2.0], el proveedor busca cada dirección de
 >* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
 >* [Acerca de las fuentes de audiencia de origen](source-about.md)
 >* [Importar segmentos autenticados manualmente desde [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)

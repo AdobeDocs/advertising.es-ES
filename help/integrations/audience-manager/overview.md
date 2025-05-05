@@ -42,7 +42,7 @@ Una vez creadas las audiencias, puede usarlas en [!DNL Google Ads] campañas com
 
 >[!NOTE]
 >
->Para obtener más información acerca de cómo crear audiencias en las interfaces de Audience Manager y Experience Cloud [!DNL Audience Library], así como casos de uso comunes para distintos tipos de audiencias, consulte &quot;[Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;.
+>Para obtener más información acerca de cómo crear audiencias en las interfaces de Audience Manager y Experience Cloud [!DNL Audience Library], así como casos de uso comunes para distintos tipos de audiencias, consulte &quot;[Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es)&quot;.
 
 ## DSP Envío de datos de exposición de medios de comunicación al Audience Manager
 
@@ -54,6 +54,6 @@ DSP Consulte &quot;[Información general sobre el envío de datos de exposición
 
 ## Obtenga información más detallada sobre la actividad del sitio con Audience Analytics
 
-Los clientes de Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) pueden enviar datos con seguimiento de Adobe Advertising y segmentos de Audience Manager a [!DNL Analytics] para obtener información detallada sobre la actividad del sitio.
+Los clientes de Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=es) pueden enviar datos con seguimiento de Adobe Advertising y segmentos de Audience Manager a [!DNL Analytics] para obtener información detallada sobre la actividad del sitio.
 
 Para obtener más información, consulte &quot;[[!DNL Adobe Audience Analytics] para clientes de Adobe Advertising](/help/integrations/audience-manager/audience-analytics.md)&quot;.

@@ -40,15 +40,15 @@ Los píxeles de evento de impresión y clic del Audience Manager se basan en coo
 
 ### Píxeles de seguimiento de impresión
 
-El Audience Manager realiza un seguimiento de los datos de impresión de un anuncio cuando se adjunta un píxel de seguimiento de evento transparente de 1xl píxeles al anuncio. El píxel de evento se carga cada vez que se sirve el anuncio a un usuario y se carga mediante el explorador web. El píxel se carga desde un subdominio específico del cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que es un dominio heredado para el Audience Manager, y contiene parámetros como pares clave-valor. La llamada de evento recopila datos de impresión y conversión y los envía a los servidores de recopilación de datos del Audience Manager.
+El Audience Manager realiza un seguimiento de los datos de impresión de un anuncio cuando se adjunta un píxel de seguimiento de evento transparente de 1xl píxeles al anuncio. El píxel de evento se carga cada vez que se sirve el anuncio a un usuario y se carga mediante el explorador web. El píxel se carga desde un subdominio específico del cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es), que es un dominio heredado para el Audience Manager, y contiene parámetros como pares clave-valor. La llamada de evento recopila datos de impresión y conversión y los envía a los servidores de recopilación de datos del Audience Manager.
 
 ### Píxeles de rastreo de clics
 
-El Audience Manager rastrea los clics de manera similar a las impresiones, excepto que no carga el píxel de evento transparente cada vez que se publica el anuncio. En su lugar, los datos de clics se rastrean en la dirección URL de pulsaciones del anuncio. El anuncio apunta a un subdominio específico del cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), que es un dominio heredado para el Audience Manager, para que lo procesen los servidores de recopilación de datos del Audience Manager. A continuación, el servidor redirige al usuario a la página de aterrizaje deseada. La dirección URL contiene parámetros como pares clave-valor.
+El Audience Manager rastrea los clics de manera similar a las impresiones, excepto que no carga el píxel de evento transparente cada vez que se publica el anuncio. En su lugar, los datos de clics se rastrean en la dirección URL de pulsaciones del anuncio. El anuncio apunta a un subdominio específico del cliente de [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=es), que es un dominio heredado para el Audience Manager, para que lo procesen los servidores de recopilación de datos del Audience Manager. A continuación, el servidor redirige al usuario a la página de aterrizaje deseada. La dirección URL contiene parámetros como pares clave-valor.
 
 >[!NOTE]
 >
->Si su organización utiliza el seguimiento de [!DNL Analytics], es posible que no necesite el rastreo de clics del Audience Manager. Adobe Analytics captura las señales de clic y puede enviarlas al Audience Manager a través de [reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Si su organización utiliza el seguimiento de [!DNL Analytics], es posible que no necesite el rastreo de clics del Audience Manager. Adobe Analytics captura las señales de clic y puede enviarlas al Audience Manager a través de [reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=es).
 
 >[!MORELIKETHIS]
 >

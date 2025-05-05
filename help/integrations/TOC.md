@@ -49,4 +49,4 @@ ht-degree: 10%
 + Integración con Adobe Target {#target}
    + [Configuración de pruebas A/B en Adobe Target DSP para anuncios en](/help/integrations/target/ab-tests-dsp.md)
    + [Configuración de pruebas A/B en Adobe Target para anuncios de Search, Social y Commerce](/help/integrations/target/ab-tests-search.md)
-+ [Vídeos Para Tutorials Sobre Integraciones De Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Vídeos Para Tutorials Sobre Integraciones De Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=es)<!-- rename if the tutorials TOC structure changes -->

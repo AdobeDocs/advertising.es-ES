@@ -41,7 +41,7 @@ Proporcione al equipo de implementación del Adobe Advertising lo siguiente:
 * El ID del grupo de informes [!DNL Analytics] que se usará para generar informes sobre la actividad de medios de pago y para alimentar la actividad del sitio para la optimización y la creación de informes en el Adobe Advertising
 * ID de organización del Experience Cloud de la empresa (ID de organización).
 
-Puede encontrar ambos ID en la [pestaña Summary de Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+Puede encontrar ambos ID en la [pestaña Summary de Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=es).
 
 ![Pantalla de resumen de Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -68,7 +68,7 @@ El JavaScript [!DNL Analytics for Advertising] usa esta configuración para dete
 
 >[!NOTE]
 >
->Para segmentar datos para un periodo de tiempo diferente, puede [configurar segmentos personalizados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) con diferentes ventanas retrospectivas dentro de Analysis Workspace.
+>Para segmentar datos para un periodo de tiempo diferente, puede [configurar segmentos personalizados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) con diferentes ventanas retrospectivas dentro de Analysis Workspace.
 
 ## Entornos de publicidad admitidos
 
@@ -111,7 +111,7 @@ Ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 Para conseguir una integración de datos precisa, todas las llamadas de Adobe Advertising que use una actividad [!DNL Analytics for Advertising] para entregar contenido o registrar la métrica de objetivo deben tener una visita [!DNL Analytics] correspondiente que comparta el mismo ID suplementario.
 
-Cuando solucione problemas en [!DNL Analytics], asegúrese de que el ID suplementario esté presente para [!DNL Analytics] visitas. En [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html), puede ver este identificador en la ficha Adobe Advertising como el parámetro `sdid`.
+Cuando solucione problemas en [!DNL Analytics], asegúrese de que el ID suplementario esté presente para [!DNL Analytics] visitas. En [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=es), puede ver este identificador en la ficha Adobe Advertising como el parámetro `sdid`.
 
 >[!NOTE]
 >

@@ -32,4 +32,4 @@ Una vez creado un paquete, puede asignarle ubicaciones.
 >* [Ver el registro de cambios de un paquete](package-change-log.md)
 >* [Pausar o activar un paquete](package-pause-activate.md)
 >* [Configuración del paquete](package-settings.md)
->* [Vídeo: Cómo crear un paquete](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [Vídeo: Cómo crear un paquete](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=es)

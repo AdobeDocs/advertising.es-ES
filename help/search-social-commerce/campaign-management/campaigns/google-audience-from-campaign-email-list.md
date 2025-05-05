@@ -22,7 +22,7 @@ Para ello, necesita tener acceso a su instancia de [!DNL Campaign] y a un archiv
 
 1. En [!DNL Campaign], configure el envío de la lista de correo electrónico a Advertising Search, Social y Commerce:
 
-   1. Cree una [cuenta externa](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) para vincular la cuenta SFTP proporcionada por Search, Social y Commerce:
+   1. Cree una [cuenta externa](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=es) para vincular la cuenta SFTP proporcionada por Search, Social y Commerce:
 
       1. En el menú de la izquierda, vaya a **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**.
 

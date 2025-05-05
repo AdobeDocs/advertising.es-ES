@@ -84,7 +84,7 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
   >[!NOTE]
   >
-  >Consulte la documentación de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) y [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) para obtener información sobre cómo configurar y recopilar datos para segmentos en esas soluciones.
+  >Consulte la documentación de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es) y [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=es) para obtener información sobre cómo configurar y recopilar datos para segmentos en esas soluciones.
 
 ## Datos de tamaño de audiencia
 

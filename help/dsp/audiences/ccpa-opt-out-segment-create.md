@@ -18,7 +18,7 @@ Una vez implementada la etiqueta de píxel de segmento, el Adobe Advertising emp
 
 >[!NOTE]
 >
->* Para obtener información sobre cómo comunicar las solicitudes de exclusión de la venta de CCPA al Adobe Advertising mediante la API de Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
+>* Para obtener información sobre cómo comunicar las solicitudes de exclusión de la venta de CCPA al Adobe Advertising mediante la API de Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=es](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=es).
 >* Para rastrear a usuarios que visitan páginas web con fines no relacionados con el seguimiento de eventos de exclusión de la venta de la CCPA, así como a usuarios expuestos a anuncios de dispositivos de escritorio, móviles y de CTV, cree un [segmento personalizado](/help/dsp/audiences/custom-segment-create.md).
 
 1. Cree el segmento:

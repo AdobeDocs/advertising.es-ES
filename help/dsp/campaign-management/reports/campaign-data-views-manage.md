@@ -176,4 +176,4 @@ En la parte inferior derecha de cualquier página, junto a **[!UICONTROL Items p
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Ver los informes de diagnóstico de ubicación](placement-diagnostics.md)
 >* [Exportar datos de una vista de administración de Campaign](campaign-export-data.md)
->* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=es)
