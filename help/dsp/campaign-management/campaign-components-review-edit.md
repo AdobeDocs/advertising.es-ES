@@ -3,9 +3,9 @@ title: Revisión y edición de la configuración de componentes de Campaign medi
 description: Obtenga información sobre cómo revisar y editar la configuración de paquetes, ubicaciones y anuncios clave de forma masiva mediante hojas de cálculo.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: c1039c59c0a1f8d2bbe08b4522b28f2f883a3dea
+source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puede descargar la configuración de los paquetes, las ubicaciones y los anuncios en una sola campaña en formato XLSX ([!DNL Microsoft Excel] hoja de cálculo) para revisar y editar la configuración. De manera predeterminada, el archivo descargado, denominado *hoja de edición masiva*, incluye fichas independientes para la configuración del paquete, la información de vuelo del paquete, la configuración de ubicación y las programaciones de las publicidades de ubicación. Opcionalmente, puede excluir la configuración de algunos tipos de componentes de campaña.
 
-Para actualizar varias configuraciones a la vez, cargue un archivo de hoja de edición masiva válido con los cambios. Para crear la hoja de edición masiva, edite una hoja de edición masiva descargada con la configuración existente. Los campos editables incluyen la mayoría de las configuraciones que normalmente se pueden editar.
+Para actualizar varias configuraciones a la vez, cargue un archivo de hoja de edición masiva válido con los cambios. Para crear la hoja de edición masiva, edite una hoja de edición masiva descargada con la configuración existente. Los campos editables incluyen la mayoría de las configuraciones que normalmente se pueden editar. Los campos de configuración que no se utilizan contienen valores en blanco.
 
 >[!NOTE]
 >
