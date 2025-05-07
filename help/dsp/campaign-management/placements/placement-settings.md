@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 28ec89de0bd1a90578c6dd53a8249abbe4facbda
+source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
 workflow-type: tm+mt
-source-wordcount: '4042'
+source-wordcount: '4255'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,15 @@ Para especificar la segmentación de inventario:
 >
 >Si se ha suscrito al inventario [!UICONTROL On Demand] pero no puede encontrar los editores ni las ofertas para target, compruebe el estado de las ofertas. Para obtener más información sobre los estados, consulte [Acerca de [!DNL On Demand] Inventario Premium](/help/dsp/inventory/on-demand-inventory-about.md).
 
-**[!UICONTROL Exclude out-stream]:** (Solo ubicaciones de vídeos) Excluye el tráfico de salida.
+**[!UICONTROL Video targeting]:** Destino (pero no exclusión) de inventario por atributos de inventario. Cuando se establecen varios valores como objetivo para el mismo atributo de vídeo, se puede establecer como objetivo cualquiera de los atributos seleccionados (por ejemplo, \[Player size = large OR Player size = HD\]). Cuando se asignan varios atributos, debe haber presentes cada uno de ellos (por ejemplo, \[Duración = 30-60 min] AND \[Tamaño del reproductor = grande OR Tamaño del reproductor = HD\]).
 
-Los anuncios salientes suelen aparecer sobre el contenido como una ventana emergente o rellenos de contenido (en la experiencia nativa), en lugar de como anuncios de vídeo normales en un reproductor de vídeo.
+* **[!UICONTROL Player size]:** Destino (pero no excluir) de inventario por tamaño de reproductor. La configuración se aplica a las ubicaciones de preroll, las ubicaciones de preroll estándar móviles y las ubicaciones de vídeo universales para entornos de escritorio y móviles. De forma predeterminada, todos los tamaños son de destino. Para reducir los destinos, seleccione tamaños de destino específicos o *Desconocido*.
+
+* **[!UICONTROL Playback mode]:** Segmente (pero no excluya) el inventario según la forma en que se inicie la reproducción. La configuración se aplica a las ubicaciones de preroll, las ubicaciones de preroll estándar móviles y las ubicaciones de vídeo universales para entornos de escritorio y móviles. De forma predeterminada, todos los modos están segmentados. Para reducir los destinos, seleccione modos de destino específicos o *Desconocido*.
+
+* **[!UICONTROL Skippability]:** Destino (pero no excluir) el inventario según si se puede omitir o no. La configuración se aplica a todas las ubicaciones de VAST/VPAID, incluidas las ubicaciones de preroll, preroll estándar móvil, TV conectada y vídeo universal. De forma predeterminada, todas las opciones están segmentadas. Para reducir los destinos, seleccione destinos específicos o *Desconocido*.
+
+**[!UICONTROL Position targeting]:** Destino (pero no excluir) inventario por posición de anuncio. La configuración se aplica a todas las ubicaciones de VAST/VPAID, incluidas las ubicaciones de preroll, preroll estándar móvil, TV conectada y vídeo universal. De forma predeterminada, todos los puestos están segmentados. Para reducir los objetivos, seleccione posiciones de destino específicas o *Desconocido*.
 
 ## [!UICONTROL Site and App Targeting]
 
