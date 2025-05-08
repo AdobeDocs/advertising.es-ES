@@ -26,9 +26,9 @@ Puede iniciar sesión en Search, Social y Commerce directamente o desde Adobe Ex
 
 >[!NOTE]
 >
->Su compañía debe estar aprovisionada en Adobe Experience Cloud y usted debe tener [vinculada su cuenta de Experience Cloud a una cuenta de Search, Social y Commerce](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>Su compañía debe estar aprovisionada en Adobe Experience Cloud y usted debe tener [vinculada su cuenta de Experience Cloud a una cuenta de Search, Social y Commerce](https://experiencecloud.adobe.com/resources/help/es_ES/mcloud/organizations.html).
 
-1. [Inicie sesión en Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [Inicie sesión en Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es#signin).
 
 1. En el menú superior, seleccione ![selector de soluciones](/help/search-social-commerce/assets/menu-icon.png "selector de soluciones").
 
