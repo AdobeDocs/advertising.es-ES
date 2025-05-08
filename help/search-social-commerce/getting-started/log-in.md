@@ -1,9 +1,9 @@
 ---
 title: Iniciar sesión
-description: Aprenda formas de iniciar sesión.
+description: Descubra formas de iniciar sesión.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 3d66f9a417d08f297d11b3f71479c3fe7a2232b3
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
@@ -26,9 +26,9 @@ Puede iniciar sesión en Search, Social y Commerce directamente o desde Adobe Ex
 
 >[!NOTE]
 >
->Su compañía debe estar aprovisionada en Adobe Experience Cloud y usted debe tener [vinculada su cuenta de Experience Cloud a una cuenta de Search, Social y Commerce](https://experiencecloud.adobe.com/resources/help/es_ES/mcloud/organizations.html).
+>Su compañía debe estar aprovisionada en Adobe Experience Cloud y usted debe tener [vinculada su cuenta de Experience Cloud a una cuenta de Search, Social y Commerce](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Inicie sesión en Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es#signin).
+1. [Inicie sesión en Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
 1. En el menú superior, seleccione ![selector de soluciones](/help/search-social-commerce/assets/menu-icon.png "selector de soluciones").
 
