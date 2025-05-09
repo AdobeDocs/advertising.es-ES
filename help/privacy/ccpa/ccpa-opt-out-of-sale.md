@@ -68,7 +68,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
    >
    >Póngase en contacto con el representante de Adobe Advertising de su compañía para confirmar que todas las cuentas de Adobe Advertising de su organización, incluidas las cuentas de [!DNL DSP] o anunciantes, las cuentas de [!DNL Search, Social, & Commerce] y las cuentas de [!DNL Creative] o [!DNL DCO], están vinculadas a su ID de organización de Experience Cloud.
 
-1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) a Adobe Advertising en nombre de los consumidores y para comprobar el estado de las solicitudes existentes.
+1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=es) a Adobe Advertising en nombre de los consumidores y para comprobar el estado de las solicitudes existentes.
 
    Consulte el apéndice siguiente para ver un ejemplo de solicitud de exclusión de la venta.
 
@@ -76,7 +76,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
    >
    >Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] y [!DNL DCO]), con una cuenta por subsolución.
 
-Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es).
 
 ## Recuperación de informes de consumidores que han enviado solicitudes de exclusión de venta
 
@@ -133,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
+donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica el espacio de cookies `AdCloud`, y el valor correspondiente es el ID de cookie del cliente recuperado de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que la solicitud se aplica al producto Adobe Advertising
