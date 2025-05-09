@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo configurar una fuente de datos des
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Configurar una vista [!DNL Google Analytics] como origen de datos
 
-*Sólo administradores de agencias, administradores de cuentas de agencias, administradores de cuentas de Adobe y administradores*
+*Solo administradores de agencias, administradores de cuentas de agencias, administradores de cuentas de Adobe y administradores*
 
 Puede crear un origen de datos por cada cuenta, propiedad y combinación de vista de [!DNL Google Analytics].
 
@@ -27,7 +27,7 @@ Para integrar métricas de varias propiedades o de varias vistas para una sola p
 
 1. En el cuadro de diálogo [!UICONTROL Deployment Prerequisites], active la casilla de verificación para confirmar que la dimensión personalizada necesaria &quot;ef_id&quot; está implementada en la cuenta de [!DNL Google Analytics] y, a continuación, haga clic en **[!UICONTROL Continue]**.
 
-   Es posible que otros roles de su organización hayan cumplido algunos requisitos previos. Si tiene preguntas sobre los requisitos previos, póngase en contacto con el equipo de cuenta de Adobe.
+   Es posible que otros roles de su organización hayan cumplido algunos requisitos previos. Si tiene alguna pregunta sobre los requisitos previos, póngase en contacto con el equipo de cuenta de Adobe.
 
 1. Escriba la [configuración del origen de datos](data-source-settings.md):
 
@@ -39,13 +39,13 @@ Para integrar métricas de varias propiedades o de varias vistas para una sola p
 
          >[!TIP]
          >
-         >Para asegurarse de que solo las propiedades y vistas específicas de [!DNL Google Analytics] estén disponibles en el Adobe Advertising, inicie sesión con una dirección de correo electrónico que solo tenga acceso a esas propiedades y vistas.
+         >Para asegurarse de que solo las propiedades y vistas específicas de [!DNL Google Analytics] estén disponibles en Adobe Advertising, inicie sesión con una dirección de correo electrónico que solo tenga acceso a esas propiedades y vistas.
 
          >[!NOTE]
          >
          >Si posteriormente cambia la contraseña de esta cuenta de correo electrónico, se cierran todas las conexiones abiertas a la cuenta de correo electrónico. Para reanudar la sincronización de datos, vuelva a esta página y [vuelva a autenticar](data-source-reauthenticate.md).
 
-      1. Seleccione la casilla de verificación para autorizar al Adobe Advertising a acceder a las métricas de la cuenta.
+      1. Seleccione la casilla de verificación para autorizar a Adobe Advertising a acceder a las métricas de la cuenta.
 
       1. Haga clic en **[!UICONTROL Authenticate]**.
 

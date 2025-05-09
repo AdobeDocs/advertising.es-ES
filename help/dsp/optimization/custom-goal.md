@@ -3,7 +3,7 @@ title: Objetivos personalizados
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -12,24 +12,24 @@ ht-degree: 0%
 
 # Objetivos personalizados
 
-Las metas personalizadas definen los eventos de éxito que un anunciante necesita para alcanzar sus objetivos comerciales. Cada paquete que usa el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; debe incluir un objetivo personalizado para ayudar a lograr el objetivo de optimización general. Puede crear metas personalizadas como *objetivos* en [!DNL Advertising Search, Social, & Commerce]. DSP El nombre de cada objetivo para la debe ir precedido del prefijo &quot;ADSP_&quot;.
+Las metas personalizadas definen los eventos de éxito que un anunciante necesita para alcanzar sus objetivos comerciales. Cada paquete que usa el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; debe incluir un objetivo personalizado para ayudar a lograr el objetivo de optimización general. Puede crear metas personalizadas como *objetivos* en [!DNL Advertising Search, Social, & Commerce]. El nombre de cada objetivo para DSP debe ir precedido del prefijo &quot;ADSP_&quot;.
 
 <!-- update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Cada objetivo personalizado (objetivo) consta de una o más métricas de conversión y de los pesos relativos de esas métricas. Las métricas de conversión disponibles incluyen todas las métricas rastreadas con el píxel de conversión de Adobe Advertising y a través de Adobe Analytics. DSP Solo se tienen en cuenta los pesos que no son móviles para alcanzar objetivos personalizados, pero se utilizan para todos los tipos de anuncios.
+Cada objetivo personalizado (objetivo) consta de una o más métricas de conversión y de los pesos relativos de esas métricas. Las métricas de conversión disponibles incluyen todas las métricas rastreadas con el píxel de conversión de Adobe Advertising y a través de Adobe Analytics. Solo se tienen en cuenta los pesos que no son móviles para los objetivos personalizados de DSP, pero se utilizan para todos los tipos de anuncios.
 
 Por ejemplo, supongamos que hay tres métricas de conversión relevantes para un paquete específico en una de las campañas: &quot;Descarga de PDF&quot; valorada en 20 USD, &quot;Suscripción por correo electrónico&quot; valorada en 30 USD y &quot;Confirmación de pedido&quot; valorada en 40 USD. Si desea dar peso según el valor monetario único de la acción del cliente, los pesos relativos de las métricas serían 1, 1,5 y 2.
 
 Una vez que [cree una meta personalizada](#custom-goal-create), puede [asignarla a un paquete](/help/dsp/campaign-management/packages/package-settings.md) para la optimización algorítmica y de informes mediante Adobe Sensei.
 
-DSP Las recomendaciones de peso se generan automáticamente para las métricas atribuidas a los objetivos de y pueden aplicar todas las recomendaciones de peso con un solo clic. DSP Todos los cambios de peso en los objetivos con el prefijo &quot;ADSP_&quot; se aplican de forma algorítmica en un plazo de dos días. En el caso de los objetivos, se realiza una prueba con el prefijo &quot;ADSP_&quot; en un plazo de dos días. Para obtener más información sobre las recomendaciones de peso, consulte el capítulo Guía de optimización sobre &quot;Nuevos objetivos de (Beta)&quot;, que está disponible en Search, Social y Commerce.
+Las recomendaciones de peso se generan automáticamente para métricas atribuidas a DSP en objetivos y pueden aplicarse con un solo clic. Todos los cambios de peso en los objetivos con el prefijo &quot;ADSP_&quot; se aplican de forma algorítmica en DSP en un plazo de dos días. Para obtener más información sobre las recomendaciones de peso, consulte el capítulo Guía de optimización sobre &quot;Nuevos objetivos de (Beta)&quot;, que está disponible en Search, Social y Commerce.
 
 ## Crear una meta personalizada {#custom-goal-create}
 
-DSP Para crear un objetivo personalizado, la cuenta de la cuenta de la cuenta debe estar vinculada a una cuenta de [!DNL Search, Social, & Commerce] con el mismo identificador de organización de Adobe Experience Cloud, desde la configuración de cliente de [!DNL Search, Social, & Commerce]. DSP Si su cuenta de la cuenta de no está vinculada a una cuenta de [!DNL Search, Social, & Commerce], póngase en contacto con el equipo de cuenta de Adobe.
+Para crear un objetivo personalizado, la cuenta de DSP debe estar vinculada a una cuenta de [!DNL Search, Social, & Commerce] con el mismo identificador de organización de Adobe Experience Cloud, desde la configuración de cliente de [!DNL Search, Social, & Commerce]. Si su cuenta de DSP no está vinculada a una cuenta de [!DNL Search, Social, & Commerce], póngase en contacto con el equipo de cuenta de Adobe.
 
 1. Inicie sesión en [!DNL Advertising Search, Social, & Commerce] a las(os) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) o (todos los demás usuarios) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 
@@ -55,11 +55,11 @@ DSP Para crear un objetivo personalizado, la cuenta de la cuenta de la cuenta de
 
       * Para los objetivos utilizados para los paquetes de Advertising DSP, el nombre del objetivo debe ir precedido del prefijo &quot;ADSP_&quot; como &quot;ADSP_Registrations&quot;. El prefijo no distingue entre mayúsculas y minúsculas.
 
-      * DSP Incluya solo las métricas atribuidas a la. Se ignorará cualquier métrica atribuida a Search, Social y Commerce, o a cualquier otra red de publicidad.
+      * Incluya solo las métricas que se atribuyen a DSP. Se ignorará cualquier métrica atribuida a Search, Social y Commerce, o a cualquier otra red de publicidad.
 
       * Al menos una métrica debe tener el tipo de métrica *[!UICONTROL Goal]*.
 
-      * DSP utiliza los pesos no móviles para todos los anuncios. Se ignorarán todos los pesos móviles especificados.
+      * DSP utiliza las ponderaciones no móviles para todos los anuncios. Se ignorarán todos los pesos móviles especificados.
 
       >[!NOTE]
       >
@@ -70,7 +70,7 @@ DSP Para crear un objetivo personalizado, la cuenta de la cuenta de la cuenta de
       >
       >Para obtener un rendimiento óptimo, las métricas combinadas en el objetivo personalizado (objetivo) deben sumar al menos diez conversiones al día. Si no es así, se recomienda añadir al objetivo métricas de conversión compatibles adicionales, como páginas de productos o inicios de aplicaciones. Vea [Prácticas recomendadas para crear un objetivo personalizado](#custom-goal-best-practices) para obtener instrucciones.
 
-DSP En la configuración del paquete de la para los paquetes que utilizan el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;, el nombre del objetivo ahora se incluye en la lista [!UICONTROL Custom Goals]. Al seleccionar el objetivo como objetivo personalizado para un paquete, la lista [!UICONTROL Conversion Metric] incluye todas las métricas de objetivo del objetivo.
+En la configuración del paquete de DSP para los paquetes que utilizan el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;, el nombre del objetivo ahora se incluye en la lista [!UICONTROL Custom Goals]. Al seleccionar el objetivo como objetivo personalizado para un paquete, la lista [!UICONTROL Conversion Metric] incluye todas las métricas de objetivo del objetivo.
 
 ## Prácticas recomendadas para crear una meta personalizada {#custom-goal-best-practices}
 
@@ -90,7 +90,7 @@ Si el objetivo de la campaña son los ingresos ([!UICONTROL Highest Return on Ad
 
 >[!NOTE]
 >
-> Un peso no móvil de uno (1) equivale a un valor de uno (1) por cada $1 de ingresos que se rastrean para mostrar anuncios en cualquier dispositivo. Por ejemplo, una conversión de 250 $ con una ponderación no móvil de uno (1) se registra como 250 $ para las conversiones. Si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, la conversión de 250 $ se registra como 125 $ en Adobes Advertising (conversión de 250 $ * 0,5 [!UICONTROL Non-mobile Weight] = 125 $).
+> Un peso no móvil de uno (1) equivale a un valor de uno (1) por cada $1 de ingresos que se rastrean para mostrar anuncios en cualquier dispositivo. Por ejemplo, una conversión de 250 $ con una ponderación no móvil de uno (1) se registra como 250 $ para las conversiones. Si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, la conversión de 250 $ se registra como 125 $ en Adobe Advertising (conversión de 250 $ * 0,5 [!UICONTROL Non-mobile Weight] = 125 $).
 
 #### Ejemplo de una campaña con el objetivo de optimización [!UICONTROL Lowest Cost per Acquisition (CPA)]
 
@@ -104,13 +104,13 @@ Si el objetivo de la campaña es el menor coste por adquisición (CPA) y solo re
 
 >[!NOTE]
 >
-> Una ponderación no móvil de uno (1) equivale a un valor de uno (1) para cada conversión de la que se realiza un seguimiento de los anuncios en pantalla de cualquier dispositivo. Por ejemplo, si se realiza el seguimiento de 10 conversiones de envío de aplicaciones, se informa de 10 conversiones de envío de aplicaciones. Sin embargo, si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, las 10 conversiones se registran como cinco (5) en Adobes Advertising (10 conversiones * 0,5 [!UICONTROL Non-mobile Weight] = 5).
+> Una ponderación no móvil de uno (1) equivale a un valor de uno (1) para cada conversión de la que se realiza un seguimiento de los anuncios en pantalla de cualquier dispositivo. Por ejemplo, si se realiza el seguimiento de 10 conversiones de envío de aplicaciones, se informa de 10 conversiones de envío de aplicaciones. Sin embargo, si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, las 10 conversiones se registran como cinco (5) en Adobe Advertising (10 conversiones * 0,5 [!UICONTROL Non-mobile Weight] = 5).
 
 ### Objetivos personalizados con varias métricas
 
 Hay dos escenarios en los que utilizaría varias métricas en un objetivo personalizado:
 
-* El objetivo de la campaña tiene varios eventos de éxito. Por ejemplo, es posible que esté anunciando más de una acción en el sitio (descarga de PDF, contacto con nosotros y registro por correo electrónico) y todas son acciones que contribuyen a su objetivo de CPA. Si el objetivo incluye las tres métricas independientes, cada una con pesos no móviles de uno (1), el algoritmo [!DNL Adobe Sensei] tratará cada una de las métricas y tipos de dispositivos de usuario con la misma importancia. Si las distintas métricas tienen distintos costes o importancia, debe ajustar sus pesos relativos en consecuencia.
+* El objetivo de la campaña tiene varios eventos de éxito. Por ejemplo, puede que esté anunciando más de una acción en el sitio (descarga de PDF, póngase en contacto con nosotros y regístrese por correo electrónico), y todas son acciones que contribuyen a su objetivo de CPA. Si el objetivo incluye las tres métricas independientes, cada una con pesos no móviles de uno (1), el algoritmo [!DNL Adobe Sensei] tratará cada una de las métricas y tipos de dispositivos de usuario con la misma importancia. Si las distintas métricas tienen distintos costes o importancia, debe ajustar sus pesos relativos en consecuencia.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -136,4 +136,4 @@ Si, en su lugar, ponderara las visitas de la página de aterrizaje de forma equi
 >
 >* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
 >* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
-> * DSP [Cómo Optimiza El Uso De Las Campañas](optimization-how-dsp-optimizes-campaigns.md)
+> * [Cómo DSP Optimiza Sus Campañas](optimization-how-dsp-optimizes-campaigns.md)

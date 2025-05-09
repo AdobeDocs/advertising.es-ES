@@ -3,7 +3,7 @@ title: Administrar vistas predeterminadas y personalizadas
 description: Aprenda a personalizar las vistas predeterminadas y las vistas personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 99523c4fe79637bf91688bdbf601799ce28316e3
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '2836'
 ht-degree: 0%

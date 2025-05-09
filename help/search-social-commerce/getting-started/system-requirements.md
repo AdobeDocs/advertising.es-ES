@@ -3,7 +3,7 @@ title: Requisitos del sistema
 description: Obtenga información acerca de los requisitos de software y cuenta.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Necesita el siguiente software e información de cuenta.
 
 ## Nombre de usuario y contraseña
 
-Para iniciar sesión, necesita un nombre de usuario y una contraseña. El equipo de cuenta de Adobe configura su cuenta de usuario y crea su nombre de usuario y contraseña.
+Para iniciar sesión, necesita un nombre de usuario y una contraseña. El equipo de cuenta de Adobe configura la cuenta de usuario y crea el nombre de usuario y la contraseña.
 
 ## Configuración del equipo y del explorador
 

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo volver a autenticar una fuente de 
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Volver a autenticar un origen de datos de [!DNL Google Analytics]
 
-*Sólo administradores de agencias, administradores de cuentas de agencias, administradores de cuentas de Adobe y administradores*
+*Solo administradores de agencias, administradores de cuentas de agencias, administradores de cuentas de Adobe y administradores*
 
 Si cambia la contraseña de la cuenta de correo electrónico utilizada para un origen de datos o si caduca el certificado [!DNL OAuth] de la cuenta, todas las conexiones abiertas a la cuenta de correo electrónico se cerrarán y deberá volver a autenticarse para reanudar la sincronización de datos.
 

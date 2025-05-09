@@ -4,7 +4,7 @@ description: Obtenga información acerca de la compatibilidad para capturar soli
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -45,6 +45,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
 >Los usuarios permanecen indefinidamente en los segmentos de exclusión de la venta de la CCPA.
 
 1. Inicie sesión en la cuenta del anunciante en Advertising DSP en [https://advertising.adobe.com/](https://advertising.adobe.com/).
+
 1. [Cree un segmento de exclusión de venta de CCPA e implemente el píxel del segmento para capturar las solicitudes de exclusión](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
 ### Método 2: Comunicar las solicitudes de exclusión de la venta de la CCPA mediante la API de Adobe Experience Platform Privacy Service
@@ -67,7 +68,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
    >
    >Póngase en contacto con el representante de Adobe Advertising de su compañía para confirmar que todas las cuentas de Adobe Advertising de su organización, incluidas las cuentas de [!DNL DSP] o anunciantes, las cuentas de [!DNL Search, Social, & Commerce] y las cuentas de [!DNL Creative] o [!DNL DCO], están vinculadas a su ID de organización de Experience Cloud.
 
-1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=es) a Adobe Advertising en nombre de los consumidores y para comprobar el estado de las solicitudes existentes.
+1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) a Adobe Advertising en nombre de los consumidores y para comprobar el estado de las solicitudes existentes.
 
    Consulte el apéndice siguiente para ver un ejemplo de solicitud de exclusión de la venta.
 
@@ -75,7 +76,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
    >
    >Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] y [!DNL DCO]), con una cuenta por subsolución.
 
-Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es).
+Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Recuperación de informes de consumidores que han enviado solicitudes de exclusión de venta
 
@@ -86,6 +87,7 @@ Puede recuperar vínculos a los informes mensuales creados en los tres meses ant
 ### Método 1: Recuperación de informes de exclusión de la venta de consumidores en Advertising DSP
 
 1. Inicie sesión en la cuenta del anunciante en Advertising DSP en [https://advertising.adobe.com/](https://advertising.adobe.com/).
+
 1. [Recuperar los informes](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
 ### Método 2: Recuperar informes de exclusión de la venta de consumidores mediante Advertising DSP [!DNL Trafficking API]
@@ -131,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix):
+donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica el espacio de cookies `AdCloud`, y el valor correspondiente es el ID de cookie del cliente recuperado de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que la solicitud se aplica al producto Adobe Advertising

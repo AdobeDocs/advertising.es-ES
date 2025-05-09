@@ -3,7 +3,7 @@ title: Organización de la interfaz de usuario
 description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,17 +42,17 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Las opciones di
 
 * ![Notificaciones de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificaciones de alerta") Panel que enumera las notificaciones de Search, Social y Commerce.
 
-  Cuando has [iniciado sesión a través de Adobe Experience Cloud](log-in.md), este panel muestra las notificaciones del Experience Cloud.
+  Cuando has iniciado sesión [a través de Adobe Experience Cloud](sign-in.md), este panel muestra tus notificaciones de Experience Cloud.
 
 * ![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda") Menú de ayuda que incluye vínculos a documentación y otra información.
 
 * ![Conmutador de soluciones](/help/search-social-commerce/assets/menu-icon.png "Conmutador de soluciones") Lista de soluciones y servicios de Adobe Experience Cloud a los que puede cambiar.
 
-* ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar la sesión.
+* ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar sesión.
 
-  Cuando hayas [iniciado sesión a través de Adobe Experience Cloud](log-in.md), también puedes editar tu perfil de Experience Cloud, incluyendo tu contraseña de Experience Cloud y la configuración de notificaciones.
+  Cuando hayas iniciado sesión a través de Adobe Experience Cloud](sign-in.md), también puedes editar tu perfil de Experience Cloud, incluida tu contraseña de Experience Cloud y la configuración de notificaciones.[
 
 >[!MORELIKETHIS]
 >
->* [Iniciar sesión](log-in.md)
->* [Cerrar sesión](log-out.md)
+>* [Iniciar sesión](sign-in.md)
+>* [Cerrar sesión](sign-out.md)

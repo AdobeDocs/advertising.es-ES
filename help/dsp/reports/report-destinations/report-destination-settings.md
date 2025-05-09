@@ -3,7 +3,7 @@ title: Configuración de destino del informe
 description: Consulte los detalles necesarios para los destinos de informe, por tipo de destino.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Los detalles necesarios para los destinos de informe que no son de correo electr
 
 **[!UICONTROL Port]:** El número de puerto que se va a usar en el servidor. El valor predeterminado es *[!UICONTROL 21]*.
 
-**[!UICONTROL Username]:** Nombre de usuario para iniciar sesión en el servidor.
+**[!UICONTROL Username]:** El nombre de usuario para iniciar sesión en el servidor.
 
 **[!UICONTROL Password]:** Contraseña para iniciar sesión en el servidor.
 
@@ -50,7 +50,7 @@ Los detalles necesarios para los destinos de informe que no son de correo electr
 
 **[!UICONTROL Port]:** El número de puerto que se va a usar en el servidor. El valor predeterminado es *[!UICONTROL 21]*.
 
-**[!UICONTROL Username]:** Nombre de usuario para iniciar sesión en el servidor.
+**[!UICONTROL Username]:** El nombre de usuario para iniciar sesión en el servidor.
 
 **[!UICONTROL Password]:** Contraseña para iniciar sesión en el servidor.
 
@@ -64,7 +64,7 @@ Los detalles necesarios para los destinos de informe que no son de correo electr
 
 **[!UICONTROL Port]:** El número de puerto que se va a usar en el servidor. El valor predeterminado es *[!UICONTROL 21]*.
 
-**[!UICONTROL Username]:** Nombre de usuario para iniciar sesión en el servidor.
+**[!UICONTROL Username]:** El nombre de usuario para iniciar sesión en el servidor.
 
 **[!UICONTROL Password]:** Contraseña para iniciar sesión en el servidor.
 
