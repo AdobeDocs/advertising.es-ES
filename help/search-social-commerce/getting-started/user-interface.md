@@ -50,7 +50,7 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Las opciones di
 
 * ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar sesión.
 
-  Cuando hayas iniciado sesión a través de Adobe Experience Cloud](sign-in.md), también puedes editar tu perfil de Experience Cloud, incluida tu contraseña de Experience Cloud y la configuración de notificaciones.[
+  Cuando hayas iniciado sesión a través de Adobe Experience Cloud[&#128279;](sign-in.md), también puedes editar tu perfil de Experience Cloud, incluida tu contraseña de Experience Cloud y la configuración de notificaciones.
 
 >[!MORELIKETHIS]
 >
