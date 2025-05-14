@@ -3,9 +3,9 @@ title: Duplicación de un paquete
 description: Obtenga información sobre cómo duplicar un paquete.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,11 @@ ht-degree: 0%
 Duplique un paquete para crear un paquete con una configuración similar. Puede:
 
 * Duplique el paquete dentro del anunciante y la campaña originales o dentro de diferentes
+
 * Opcionalmente, duplicar las ubicaciones dentro del paquete
+
 * (Para paquetes duplicados dentro de las campañas originales) Opcionalmente, duplicar los anuncios originales y los píxeles de evento de nivel de ubicación
+
 * Modificar las fechas de vuelo del nuevo paquete
 
 Consulte &quot;[Lo que no está duplicado](#package-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no están duplicadas.
@@ -58,6 +61,33 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
    * Píxeles de evento
    * Anuncios
    * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Safety] (que anulan los segmentos de nivel de anunciante)
+
+## Prácticas recomendadas para configurar el nuevo paquete
+
+>[!TIP]
+>
+>* Use hojas de edición masiva para [realizar cambios en varios componentes de campaña a la vez](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Use las hojas de etiquetas de anuncios para [cargar varios anuncios de terceros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Pause el nuevo paquete hasta que esté listo para activarlo.
+
+* Tenga en cuenta lo siguiente y edite la nueva configuración del paquete según sea necesario:
+
+   * ¿Cuenta la cuenta con fondos suficientes para dar cabida al nuevo presupuesto del paquete?
+
+   * ¿Necesita el nuevo paquete un presupuesto diferente al paquete anterior?
+
+   * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
+
+   * Adjunte los píxeles de evento según sea necesario a las ubicaciones y los anuncios.
+
+   * Incluya destinos geográficos y segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Safety] según sea necesario para las ubicaciones.
+
+   * Para obtener ofertas garantizadas mediante programación, utilice nuevos ID de acuerdo y cree ubicaciones predeterminadas.
+
+   * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
+
+* Para los paquetes que utilizan objetivos de optimización personalizados, use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Ubicaciones duplicadas
 description: Obtenga información sobre cómo duplicar una o más ubicaciones.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,31 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
    * Píxeles de evento
    * Anuncios
    * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Safety] (que anulan los segmentos de nivel de anunciante)
+
+## Prácticas recomendadas para configurar las nuevas ubicaciones
+
+>[!TIP]
+>
+>* Use hojas de edición masiva para [realizar cambios en varios componentes de campaña a la vez](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Use las hojas de etiquetas de anuncios para [cargar varios anuncios de terceros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Pause las nuevas ubicaciones hasta que esté listo para activarlas.
+
+* Tenga en cuenta lo siguiente y edite la nueva configuración de ubicación según sea necesario:
+
+   * ¿La cuenta tiene fondos suficientes para dar cabida a los nuevos presupuestos de colocación?
+
+   * ¿Las nuevas ubicaciones necesitan presupuestos diferentes a los de las ubicaciones anteriores?
+
+   * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
+
+   * Adjunte los píxeles de evento según sea necesario a las ubicaciones y los anuncios.
+
+   * Incluya destinos geográficos y segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Safety] según sea necesario para las ubicaciones.
+
+   * Para obtener ofertas garantizadas mediante programación, utilice nuevos ID de acuerdo y cree ubicaciones predeterminadas.
+
+   * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
 
 >[!MORELIKETHIS]
 >
