@@ -57,7 +57,7 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 >[!TIP]
 >
 >* Use hojas de edición masiva para [realizar cambios en varios componentes de campaña a la vez](/help/dsp/campaign-management/campaign-components-review-edit.md).
-* Use las hojas de etiquetas de anuncios para [cargar varios anuncios de terceros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+>* Use las hojas de etiquetas de anuncios para [cargar varios anuncios de terceros](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 * Pause la nueva campaña hasta que esté listo para activarla.
 
