@@ -3,7 +3,7 @@ title: Ubicaciones duplicadas
 description: Obtenga información sobre cómo duplicar una o más ubicaciones.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 762b78d8c8e1258efca6b8e1e37d09528d3a51f1
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
