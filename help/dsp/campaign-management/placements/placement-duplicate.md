@@ -3,9 +3,9 @@ title: Ubicaciones duplicadas
 description: Obtenga información sobre cómo duplicar una o más ubicaciones.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 762b78d8c8e1258efca6b8e1e37d09528d3a51f1
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
 * Pause las nuevas ubicaciones hasta que esté listo para activarlas.
 
-* Tenga en cuenta lo siguiente y edite la nueva configuración de ubicación según sea necesario:
+* Tenga en cuenta lo siguiente y edite las nuevas ubicaciones según sea necesario:
 
    * ¿La cuenta tiene fondos suficientes para dar cabida a los nuevos presupuestos de colocación?
 

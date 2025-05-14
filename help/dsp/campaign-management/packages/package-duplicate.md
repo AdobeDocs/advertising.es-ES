@@ -3,9 +3,9 @@ title: Duplicación de un paquete
 description: Obtenga información sobre cómo duplicar un paquete.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 762b78d8c8e1258efca6b8e1e37d09528d3a51f1
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
 * Pause el nuevo paquete hasta que esté listo para activarlo.
 
-* Tenga en cuenta lo siguiente y edite la nueva configuración del paquete según sea necesario:
+* Tenga en cuenta lo siguiente y edite el nuevo paquete según sea necesario:
 
    * ¿Cuenta la cuenta con fondos suficientes para dar cabida al nuevo presupuesto del paquete?
 
