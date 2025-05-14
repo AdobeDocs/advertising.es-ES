@@ -3,9 +3,9 @@ title: Duplicación de una campaña
 description: Obtenga información sobre cómo duplicar una campaña.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Consulte &quot;[Lo que no está duplicado](#campaign-not-duplicated)&quot; para 
 Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
 * Configuración del experimento
+* Presupuestos mínimos de nivel de ubicación
 * (Si cambia las fechas de vuelo) Programación de anuncios personalizados
 * (Si no adjunta anuncios) Ponderación y programación de anuncios personalizados
 * Ubicaciones predeterminadas para ofertas programáticas garantizadas (PG) y ubicaciones para [!UICONTROL Simple Ad Serving] ofertas
@@ -66,6 +67,8 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
    * ¿La cuenta tiene fondos suficientes para dar cabida al nuevo presupuesto de la campaña?
 
    * ¿La nueva campaña necesita un presupuesto diferente al de la campaña anterior?
+
+   * ¿Se necesitan presupuestos mínimos para alguna de las ubicaciones?
 
    * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
 

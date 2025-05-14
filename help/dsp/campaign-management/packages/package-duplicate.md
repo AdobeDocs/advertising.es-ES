@@ -3,9 +3,9 @@ title: Duplicación de un paquete
 description: Obtenga información sobre cómo duplicar un paquete.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ Consulte &quot;[Lo que no está duplicado](#package-not-duplicated)&quot; para o
 Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
 * Configuración del experimento
+* Presupuestos mínimos de nivel de ubicación
 * (Si cambia las fechas de vuelo) Programación de anuncios personalizados
 * (Si no adjunta anuncios) Ponderación y programación de anuncios personalizados
 * Ubicaciones predeterminadas para ofertas programáticas garantizadas (PG) y ubicaciones para [!UICONTROL Simple Ad Serving] ofertas
@@ -76,6 +77,8 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
    * ¿Cuenta la cuenta con fondos suficientes para dar cabida al nuevo presupuesto del paquete?
 
    * ¿Necesita el nuevo paquete un presupuesto diferente al paquete anterior?
+
+   * ¿Se necesitan presupuestos mínimos para alguna de las ubicaciones?
 
    * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
 

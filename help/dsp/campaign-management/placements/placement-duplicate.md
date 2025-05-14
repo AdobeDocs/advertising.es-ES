@@ -3,9 +3,9 @@ title: Ubicaciones duplicadas
 description: Obtenga información sobre cómo duplicar una o más ubicaciones.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,7 @@ Consulte &quot;[Lo que no está duplicado](#placement-not-duplicated)&quot; para
 Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
 * Configuración del experimento
+* Presupuestos mínimos de nivel de ubicación
 * (Si cambia las fechas de vuelo) Programación de anuncios personalizados
 * (Si no adjunta anuncios) Ponderación y programación de anuncios personalizados
 * Ubicaciones predeterminadas para ofertas programáticas garantizadas (PG) y ubicaciones para [!UICONTROL Simple Ad Serving] ofertas
@@ -82,7 +83,7 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
    * ¿La cuenta tiene fondos suficientes para dar cabida a los nuevos presupuestos de colocación?
 
-   * ¿Las nuevas ubicaciones necesitan presupuestos diferentes a los de las ubicaciones anteriores?
+   * ¿Las nuevas ubicaciones necesitan presupuestos diferentes a los de las ubicaciones anteriores? ¿Son necesarios los presupuestos mínimos?
 
    * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
 
