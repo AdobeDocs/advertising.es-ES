@@ -3,7 +3,7 @@ title: Administrar paquetes creativos
 description: Más información sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
+source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
 workflow-type: tm+mt
 source-wordcount: '1359'
 ht-degree: 0%
@@ -184,7 +184,7 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 
 1. (Opcional) Para abrir la página de aterrizaje del creativo, haga clic en el creativo.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Para descargar el elemento creativo, haga clic en ![Descargar](/help/creative/assets/download.png "Descargar").
 
@@ -212,7 +212,7 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 
 1. (Opcional) Para abrir la página de aterrizaje de un elemento creativo, haga clic en el elemento creativo.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Compartir una URL de demostración para que otras personas sin iniciar sesión en [!DNL Creative] puedan obtener una vista previa de los elementos creativos:
 
