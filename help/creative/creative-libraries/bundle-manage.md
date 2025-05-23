@@ -3,9 +3,9 @@ title: Administrar paquetes creativos
 description: Más información sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Al separar un creativo del paquete, no se elimina el creativo de la pestaña Cre
 
      Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
 
-## Previsualización de un elemento creativo en un paquete
+## Previsualización de un solo elemento creativo en un paquete
 
 Puede obtener una vista previa de un elemento creativo tal y como lo verán los visualizadores, incluidos los hipervínculos.
 
@@ -186,6 +186,31 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 
    El archivo se descarga según el procedimiento normal del explorador.
 
+## Previsualizar todos los creativos de un paquete
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Seleccione el paquete:
+
+   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Preview]**.
+
+   * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Preview]**.
+
+1. (Opcional) Para filtrar los elementos creativos por idioma, seleccione una opción en la lista **[!UICONTROL Language]** y, a continuación, haga clic en **[!UICONTROL Preview]** en la parte superior derecha de la vista previa.
+
+1. (Opcional) Para filtrar los elementos creativos por tamaño, seleccione una opción en la lista **[!UICONTROL Size]** y, a continuación, haga clic en **[!UICONTROL Preview]** en la parte superior derecha de la vista previa.
+
+1. (Opcional) Para cambiar el tamaño de las imágenes dentro de la pantalla, seleccione una opción en la lista **[!UICONTROL Zoom]**, del 10% al 100% del tamaño de la imagen.
+
+1. (Opcional) Compartir una URL de demostración para que otras personas sin iniciar sesión en [!DNL Creative] puedan obtener una vista previa de los elementos creativos:
+
+   1. Haga clic en ![Compartir](/help/creative/assets/share.png "Compartir") en la parte superior derecha de la vista previa.
+
+   1. En el cuadro de diálogo [!UICONTROL Share Demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
 
 <!-- Not there as of 1/22/25:
 
@@ -253,6 +278,7 @@ Puede eliminar paquetes que no estén asignados a una experiencia [live](/help/c
 >[!MORELIKETHIS]
 >
 >* [Asignar y cancelar la asignación de paquetes creativos a un nodo final en una experiencia](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Previsualizar un elemento creativo](/help/creative/creative-libraries/creative-preview.md)
 >* [Agregar elementos creativos estándar a una biblioteca creativa](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Administrar bibliotecas creativas](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)
