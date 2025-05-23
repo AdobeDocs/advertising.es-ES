@@ -3,9 +3,9 @@ title: Previsualización de un elemento creativo
 description: Obtenga información sobre cómo abrir una vista previa de un creativo.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 845ab0192a1cf429a282fbf934be10e1307d2034
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 1. (Opcional) Para cambiar el tamaño de la imagen en la pantalla, seleccione una opción en la lista **[!UICONTROL Zoom]**, del 10% al 100% del tamaño de la imagen.
 
 1. (Creativos flexibles de HTML5; opcional) Para desplazarse entre los fotogramas del creativo, haga clic en **\&lt;** y **\>**.
+
+1. (Opcional) Para abrir la página de aterrizaje del creativo, haga clic en el creativo.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Para descargar el elemento creativo, haga clic en ![Descargar](/help/creative/assets/download.png "Descargar").
 

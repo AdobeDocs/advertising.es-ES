@@ -3,9 +3,9 @@ title: Administrar paquetes creativos
 description: Más información sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ Los cambios en un nombre de paquete se propagan por todas las experiencias asoci
 
 Puede adjuntar [creativos estándar existentes](/help/creative/creative-libraries/creative-libraries-about.md) a un paquete estándar y adjuntar los creativos dinámicos existentes<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> a un paquete dinámico. Al adjuntar un elemento creativo a un paquete, este estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete solo puede incluir una de cada combinación \[creative size + language\].
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>También puede [adjuntar elementos creativos a paquetes desde las vistas Anuncios estándar y Anuncios dinámicos](creative-attach-detach-bundles.md).
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -127,6 +125,8 @@ Puede adjuntar [creativos estándar existentes](/help/creative/creative-librarie
    * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Attach Creatives]**.
 
    Cada creativo apto para el tipo de paquete se muestra en el cuadro derecho. Los elementos creativos que ya están adjuntos al paquete se muestran, pero no se pueden seleccionar.
+
+1. (Opcional) Cambie entre la vista de tabla predeterminada y una vista de tarjeta de los paquetes disponibles haciendo clic en ![Vista de tarjeta](/help/creative/assets/card-view-button.png "Vista de tarjeta") para abrir la vista de tarjeta o ![Vista de tabla/lista](/help/creative/assets/table-view-button.png "Vista de tabla") para volver a la vista de tabla.
 
 1. En el cuadro derecho, active la casilla de verificación situada junto a cada elemento creativo que desee adjuntar al paquete y, a continuación, haga clic en **[!UICONTROL Attach Creative to Bundle]**.
 
@@ -182,6 +182,10 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. (Opcional) Para abrir la página de aterrizaje del creativo, haga clic en el creativo.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. (Opcional) Para descargar el elemento creativo, haga clic en ![Descargar](/help/creative/assets/download.png "Descargar").
 
    El archivo se descarga según el procedimiento normal del explorador.
@@ -205,6 +209,10 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 1. (Opcional) Para filtrar los elementos creativos por tamaño, seleccione una opción en la lista **[!UICONTROL Size]** y, a continuación, haga clic en **[!UICONTROL Preview]** en la parte superior derecha de la vista previa.
 
 1. (Opcional) Para cambiar el tamaño de las imágenes dentro de la pantalla, seleccione una opción en la lista **[!UICONTROL Zoom]**, del 10% al 100% del tamaño de la imagen.
+
+1. (Opcional) Para abrir la página de aterrizaje de un elemento creativo, haga clic en el elemento creativo.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Compartir una URL de demostración para que otras personas sin iniciar sesión en [!DNL Creative] puedan obtener una vista previa de los elementos creativos:
 

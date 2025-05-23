@@ -3,14 +3,14 @@ title: Adjuntar un elemento creativo a paquetes creativos
 description: Aprenda a adjuntar un elemento creativo a un paquete creativo.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# Adjuntar <!-- and detach --> elementos creativos a paquetes creativos
+# Adjuntar elementos creativos a paquetes creativos
 
 *Beta cerrada*
 
@@ -26,7 +26,7 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >Puede<!-- also --> [adjuntar creativos a paquetes y desasociar creativos de paquetes de la vista Paquetes](/help/creative/creative-libraries/bundle-manage.md).
 
-<!-- Hide header until second procedure is available:
+<!-- Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -45,6 +45,8 @@ You can also detach a creative from a bundle to remove the association between t
    * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Attach to Bundles]**.
 
    Cada paquete apto para el tipo creativo se enumera en el cuadro derecho. Los paquetes a los que el creativo ya está adjunto se enumeran pero no se pueden seleccionar.
+
+1. (Opcional) Cambie entre la vista de tabla predeterminada y una vista de tarjeta de los paquetes disponibles haciendo clic en ![Vista de tarjeta](/help/creative/assets/card-view-button.png "Vista de tarjeta") para abrir la vista de tarjeta o ![Vista de tabla/lista](/help/creative/assets/table-view-button.png "Vista de tabla") para volver a la vista de tabla.
 
 1. En el cuadro derecho, active la casilla de verificación situada junto a cada paquete al que desea adjuntar el creativo y, a continuación, haga clic en **[!UICONTROL Attach Creative to Bundle]**.
 

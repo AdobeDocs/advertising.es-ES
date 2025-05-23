@@ -3,9 +3,9 @@ title: Previsualización de una experiencia
 description: Obtenga información sobre cómo previsualizar los elementos creativos en una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,6 @@ Puede obtener una vista previa de los elementos creativos con un tamaño de anun
 
    1. En el cuadro de diálogo [!UICONTROL Share Demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
 
-
 ## Vista previa de elementos creativos en una experiencia sin segmentación de árbol de decisiones
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
@@ -97,11 +96,15 @@ Puede obtener una vista previa de los elementos creativos con un tamaño de anun
 
    De forma predeterminada, se muestran los elementos creativos de todos los tamaños.
 
-1. Haga clic en el nombre de una etiqueta de publicidad para expandir la fila y previsualizar el creativo.
+1. Haga clic en el nombre de una etiqueta de anuncio para expandir la fila y previsualizar los elementos creativos.
+
+1. (Opcional) Para ir a la página de aterrizaje de un creativo, haga clic en el creativo.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Opcional) Para copiar una URL de demostración de la experiencia para compartirla con otras personas sin iniciar sesión en [!DNL Creative]:
 
-   1. En la parte superior derecha de la vista previa, haga clic en ![Compartir](/help/creative/assets/share.png "Compartir").
+   1. En la parte superior derecha de la vista previa, haga clic en ![Compartir](/help/creative/assets/share2.png "Compartir").
 
    1. En el cuadro de diálogo [!UICONTROL Share Demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
 
