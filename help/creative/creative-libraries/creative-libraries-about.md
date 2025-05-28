@@ -3,7 +3,7 @@ title: Acerca de sus bibliotecas creativas
 description: Obtenga información sobre cómo administrar los elementos creativos para sus experiencias publicitarias.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: c69b01e12801947f156120e50615225eb3dad261
+source-git-commit: d7e2403e13c0f9edf1505ca7c50aea3de34f1f3a
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -40,9 +40,9 @@ Puede agregar y administrar los siguientes tipos creativos en los [tamaños crea
 
 #### HTML flexible5
 
-Los creativos flexibles de HTML5 son creativos de HTML5 con todas sus imágenes y otros atributos como etiquetas estándar de HTML, que se pueden editar directamente en [!DNL Creative], ya sea en una biblioteca creativa o en una experiencia individual (lo que crea una variación del creativo original). Los creativos flexibles de HTML5 utilizan el estándar del Interactive Advertising Bureau (IAB) Technology Laboratory para un [portafolio de anuncios](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, para el cual los tamaños de formato de anuncio son flexibles (en lugar de fijos) y se basan en la relación de aspecto y el intervalo de tamaño del anuncio, y para el cual los anuncios mantienen su resolución en todos los dispositivos y sitios de editores.
+Los creativos flexibles de HTML5 son creativos de HTML5 con todas sus imágenes y otros atributos como etiquetas estándar de HTML, que se pueden editar directamente en [!DNL Creative], ya sea en una biblioteca creativa o en una experiencia individual (lo que crea una variación del creativo original). Los creativos flexibles de HTML5 utilizan el estándar del laboratorio de tecnología Interactive Advertising Bureau (IAB) para un [portafolio de anuncios](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, para el cual los tamaños de formato de anuncio son flexibles (en lugar de fijos) y se basan en la relación de aspecto y el intervalo de tamaño del anuncio, y para el cual los anuncios mantienen su resolución en todos los dispositivos y sitios de editores.<!-- Yet our flexible creatives and templates are for a single specific ad size (in pixels), not an aspect ration with size range. Clarify -->
 
-Puede cargar material creativo flexible de HTML5 como archivos ZIP o utilizar una de las plantillas disponibles en su cuenta de como punto de partida —>. Vea las [especificaciones para creativos flexibles de HTML5](html5-creative-specification.md).
+Puede cargar material creativo flexible de HTML5 como archivos ZIP o utilizar una de las plantillas disponibles en su cuenta como punto de partida. Vea las [especificaciones para creativos flexibles de HTML5](html5-creative-specification.md).
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
