@@ -3,9 +3,9 @@ title: Editar una experiencia con segmentación en árbol de decisiones
 description: Obtenga información sobre cómo editar la configuración de una experiencia publicitaria de destino mediante un árbol de decisiones.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,15 @@ ht-degree: 0%
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Edit]**.
 
-1. Editar la [configuración general de la experiencia](experience-settings-targeting.md).
+   El árbol de decisión se abre de forma predeterminada.
 
-1. (Opcional) Para editar el árbol de decisión, haga clic en **[!UICONTROL Decision Tree]** en la esquina superior derecha y, a continuación, siga uno de estos procedimientos:
+1. (Opcional) Cambie entre el árbol de decisión y la configuración general según sea necesario:
+
+   * Para abrir la configuración general desde el árbol de decisión, haga clic en **[!UICONTROL Experience Form]** en la esquina superior derecha.
+
+   * Para abrir el árbol de decisión desde la configuración general, haga clic en **[!UICONTROL Decision Tree]** en la esquina superior derecha.
+
+1. (Opcional) Para editar el árbol de decisión, realice una de las siguientes acciones:
 
    * ([Procesando](experience-about.md#experience-statuses) experiencias) Realice una de las siguientes acciones:
 
@@ -65,6 +71,8 @@ ht-degree: 0%
          * [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
 
          * [Personalizar la optimización y programación creativas](experience-optimization-scheduling-targeting.md) para los paquetes asignados.
+
+1. (Opcional) Edite la [configuración general de la experiencia](experience-settings-targeting.md).
 
 1. Haga clic en **[!UICONTROL Save]** y, a continuación, haga lo siguiente.
 
