@@ -3,7 +3,7 @@ title: Administrar las bibliotecas creativas
 description: Aprenda a crear, cambiar el nombre y eliminar sus bibliotecas creativas.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Puede eliminar bibliotecas con archivos creativos y paquetes que no estén asign
 
      Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
 
-1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete].** <!--Verify wording -->
+1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete].**
 
 >[!MORELIKETHIS]
 >

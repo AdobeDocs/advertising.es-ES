@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configuración de campaña'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
+source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,7 @@ Puede escribir texto o seleccionar recursos de su [!UICONTROL Asset Library], pe
 
 * Para seleccionar recursos de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione los recursos.
 
-**[!UICONTROL Call to Action]:** Llamada a la acción para incluir en el anuncio. De manera predeterminada, *[!UICONTROL Automated]* está seleccionado y [!DNL Google Ads] selecciona la llamada a la acción. Si lo desea, puede elegir una acción diferente.
+**[!UICONTROL Call to Action]:** El call to action que se va a incluir en el anuncio. De manera predeterminada, *[!UICONTROL Automated]* está seleccionado y [!DNL Google Ads] selecciona el call to action. Si lo desea, puede elegir una acción diferente.
 
 **[!UICONTROL Business Name]:** El nombre comercial, con un máximo de 25 caracteres.
 
