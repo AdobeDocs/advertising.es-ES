@@ -3,7 +3,7 @@ title: Habilitar y deshabilitar notificaciones push de [!UICONTROL Notification 
 description: Obtenga información sobre cómo habilitar y deshabilitar las notificaciones push desde [!UICONTROL Notification Center].
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7c6b98ab1c8813fea251c48956ffe78ef7bb3bf7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Puede desactivar las notificaciones push según el procedimiento estándar del e
 
 3. En el mensaje de confirmación, haga clic en **[!UICONTROL Enable]**.
 
-4. Configure el explorador para permitir notificaciones de [!UICONTROL Notification Center] a las `https://alert-center-ui-na.efrontier.com`.
+4. Configure el explorador para que permita las notificaciones de [!UICONTROL Notification Center] a las `https://alert-center-ui-na.efrontier.com`.
 
    La configuración de notificaciones predeterminada varía según el explorador y es posible que a) se le presente automáticamente la opción para permitir notificaciones de [!UICONTROL Notification Center] o b) necesite administrar manualmente la configuración de notificaciones. Por ejemplo, en [!DNL Microsoft Edge], puede permitir notificaciones de [!UICONTROL Notification Center] desde la barra de herramientas del explorador. Consulte las instrucciones en la ayuda del explorador.
 
