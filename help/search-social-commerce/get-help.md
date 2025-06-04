@@ -29,7 +29,7 @@ Puede abrir la ayuda en línea desde cualquier página de la interfaz de usuario
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=es).
 -->
 
 ## Contacto [!DNL Adobe]
