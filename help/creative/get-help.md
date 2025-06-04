@@ -2,7 +2,7 @@
 title: Obtener ayuda
 description: Obtenga información sobre cómo ver la ayuda en línea y los recursos de la comunidad, y cómo obtener asistencia técnica.
 feature: Creative Introduction
-source-git-commit: 8e09fd00597203bd837957fad663e6648655be43
+source-git-commit: b610a0b8db410759cae79a6193c38abc573c28ba
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -10,6 +10,8 @@ ht-degree: 0%
 ---
 
 # Obtener ayuda
+
+<!-- Can remove this page when we move this into DSP help -->
 
 Puede abrir la ayuda en línea desde cualquier página de la interfaz de usuario. Si la ayuda en línea no responde a sus preguntas, póngase en contacto con nosotros.
 
@@ -20,7 +22,7 @@ Para abrir un conjunto de ayuda completo que explica cómo usar todas las caract
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=es).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## Contacto [!DNL Adobe]
