@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Creative
 user-guide-description: Obtenga información acerca de las principales funciones, tareas, configuraciones y otros recursos necesarios para utilizar Advertising Creative.
 breadcrumb-title: Guía de Creative
 hide: true
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 0%
 + [Novedades](/help/creative/home.md)
 + Introducción {#introduction}
    + [Personalizar las vistas de datos](/help/creative/introduction/customize-data-views.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Bibliotecas de Creative {#creative-libraries}
    + [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tamaños creativos admitidos](/help/creative/creative-libraries/creative-sizes.md)
@@ -36,7 +36,7 @@ ht-degree: 0%
       + [Eliminar elementos creativos](/help/creative/creative-libraries/creative-delete.md)
    + Paquetes de Creative {#bundles}
       + [Administrar paquetes creativos](/help/creative/creative-libraries/bundle-manage.md)
-+ Agregar experiencias {#creative-experiences}
++ Experiencias publicitarias {#creative-experiences}
    + [Acerca de las experiencias en Advertising Creative](/help/creative/experiences/experience-about.md)
    + Experiencias con segmentación {#experience-targeted}
       + [El diseño del árbol de decisión](/help/creative/experiences/experience-decision-tree.md)
@@ -54,11 +54,11 @@ ht-degree: 0%
             + [Asignar y cancelar la asignación de paquetes creativos a un nodo final](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personalización de las direcciones URL de seguimiento para creativos](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Personalizar la optimización y programación creativas](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-   + Experiencias sin segmentar {#experience-nontargeted}
+   + Experiencias sin segmentación {#experience-nontargeted}
       + [Crear una experiencia sin segmentación](/help/creative/experiences/experience-create-no-targeting.md)
       + [Editar una experiencia sin segmentación](/help/creative/experiences/experience-edit-no-targeting.md)
       + [Configuración de experiencia sin objetivo](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Etiquetas de anuncios y elementos creativos{#non-targeted-creatives}
+      + Etiquetas publicitarias y elementos creativos{#non-targeted-creatives}
          + [Crear manualmente una etiqueta de anuncio para un tamaño creativo aplicable](/help/creative/experiences/experience-tag-create-manually.md)
          + [Asigne elementos creativos a una etiqueta de anuncio para experiencias sin segmentación](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [Personalización de las direcciones URL de seguimiento de una experiencia sin segmentación](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
@@ -75,5 +75,5 @@ ht-degree: 0%
    + [Informe de Creative personalizado](/help/creative/report-custom-creative.md)
 + [Redireccionamiento de píxeles](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
-+ [Atención al cliente](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support){target="_blank"}
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es){target="_blank"}
++ [Obtener ayuda](/help/creative/get-help.md)
++ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
