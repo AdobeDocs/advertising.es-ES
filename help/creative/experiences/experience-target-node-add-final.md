@@ -3,9 +3,9 @@ title: Añadir un nodo de destino al nivel final de una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino al nivel de destino final de una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 
       1. Haga clic en **[!UICONTROL Apply]**.
 
-   * Para un destino de paso de datos, seleccione **[!UICONTROL Data Pass]**, introduzca un solo valor de paso de datos y haga clic en **[!UICONTROL Apply]**.
+   * Para un destino de paso de datos, seleccione **[!UICONTROL Data Pass]**; si lo desea, personalice la clave de paso de datos, escriba un único valor de paso de datos y haga clic en **[!UICONTROL Apply]**.
 
-   La clave para el par clave-valor ya se ha establecido en el campo **[!UICONTROL Data Pass]** de la sección [!UICONTROL Advanced] de la [configuración de la experiencia](experience-settings-targeting.md).
+   Ya hay un valor predeterminado para la clave en el par clave-valor establecido en el campo **[!UICONTROL Data Pass]** de la sección [!UICONTROL Advanced] de la [configuración de la experiencia](experience-settings-targeting.md). Si lo desea, puede personalizar la clave.
 
    * Para un destino de píxel de retargeting, seleccione **[!UICONTROL RT Pixel]**, seleccione un único píxel de retargeting para usar y los valores de cualquiera de los atributos del píxel necesarios para mostrar los elementos creativos y, a continuación, haga clic en **[!UICONTROL Apply]**.
 
