@@ -2,9 +2,10 @@
 title: Añadir un nodo de destino del mismo nivel entre nodos de una experiencia
 description: Obtenga información sobre cómo agregar un nodo secundario a cualquier nodo que tenga un destino o esté en el mismo nivel que un nodo con un destino.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ In an existing experience,
 
 1. Especifique los objetivos:
 
-   * Para los destinos de Audiencia de Adobe, haga lo siguiente:
+   * Para los destinos de audiencia de Adobe, haga lo siguiente:
 
       1. Haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Audience Targeting], abrir la ficha **[!UICONTROL Adobe Segments]**, especificar uno o más de los [!DNL Adobe] destinos de audiencia del anunciante y, a continuación, haga clic en **[!UICONTROL Save]**.
 
@@ -51,9 +52,9 @@ In an existing experience,
 
       1. Haga clic en **[!UICONTROL Apply]**.
 
-   * Para los destinos de paso de datos, escriba un único valor de paso de datos y haga clic en **[!UICONTROL Apply]**.
+   * Para los destinos de paso de datos, si lo desea, puede personalizar la clave de paso de datos, escribir un único valor de paso de datos y hacer clic en **[!UICONTROL Apply]**.
 
-   La clave para el par clave-valor ya se ha establecido en el campo **[!UICONTROL Data Pass]** de la sección [!UICONTROL Advanced] de la [configuración de la experiencia](experience-settings-targeting.md) y no puede agregar claves adicionales.
+     Ya hay un valor predeterminado para la clave en el par clave-valor establecido en el campo **[!UICONTROL Data Pass]** de la sección [!UICONTROL Advanced] de la [configuración de la experiencia](experience-settings-targeting.md). Si lo desea, puede personalizar la clave.
 
    * Para destinos de píxel de retargeting, seleccione el píxel de retargeting que desea utilizar y los valores necesarios para cualquiera de los atributos del píxel que deben estar presentes para mostrar los elementos creativos. Luego haga clic en **[!UICONTROL Apply]**.
 

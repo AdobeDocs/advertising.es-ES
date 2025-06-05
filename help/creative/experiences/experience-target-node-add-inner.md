@@ -3,9 +3,9 @@ title: Añadir un nodo de destino entre nodos en una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino entre cuerpos de destinatario en una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
 
          1. Haga clic en **[!UICONTROL Apply]**.
 
-      * Para un destino de paso de datos, escriba un único valor de paso de datos y haga clic en **[!UICONTROL Apply]**.
+      * Para un destino de paso de datos, si lo desea, puede personalizar la clave de paso de datos, escribir un único valor de paso de datos y, a continuación, hacer clic en **[!UICONTROL Apply]**.
 
-        La clave para el par clave-valor ya se ha establecido en el campo **[!UICONTROL Data Pass]** de la sección [!UICONTROL Advanced] de la [configuración de la experiencia](experience-settings-targeting.md).
+        Ya hay un valor predeterminado para la clave en el par clave-valor establecido en el campo **[!UICONTROL Data Pass]** de la sección [!UICONTROL Advanced] de la [configuración de la experiencia](experience-settings-targeting.md). Si lo desea, puede personalizar la clave.
 
       * Para un destino de píxel de retargeting, seleccione un único píxel de retargeting para utilizarlo y los valores de cualquiera de los atributos del píxel necesarios para mostrar los elementos creativos y, a continuación, haga clic en **[!UICONTROL Apply]**.
 

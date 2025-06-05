@@ -3,9 +3,9 @@ title: Configuración de experiencias segmentadas
 description: Consulte las descripciones de todos los ajustes para experiencias de anuncios segmentados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -50,10 +50,9 @@ Una vez guardada la experiencia, no se puede cambiar esta configuración.
 
 ## [!UICONTROL Advanced] sección
 
-**Transferencia de datos:** (solo lectura para experiencias existentes; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que DSP, el editor o el socio transfieren en tiempo real al imprimir. Puede especificar hasta cinco claves de paso de datos (parámetros). Al configurar el direccionamiento dentro del árbol de decisión, se puede incluir un nivel de datos para pasar a los nodos de destino y especificar los valores que se van a destinar a cada nodo. Si no especifica una clave en este campo al crear la experiencia, aún puede especificar una en el árbol de decisión.<!-- May move this to just within the decision tree.  -->
+**Transferencia de datos:** (solo lectura para experiencias existentes; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que DSP, el editor o el socio transfieren en tiempo real al imprimir. Puede especificar hasta cinco claves de paso de datos predeterminadas (parámetros). Al configurar el direccionamiento dentro del árbol de decisión, puede incluir un nivel de datos para pasar los nodos de destino, personalizar opcionalmente las claves y especificar los valores de destino para cada nodo. Si no especifica ninguna clave en este campo al crear la experiencia, aún puede especificarla dentro del árbol de decisión.
 
-Cada clave se anexa como una macro en la experiencia publicitaria
-, que puede generar para implementarlo como un anuncio en su DSP.
+Cada clave se anexa como una macro en la etiqueta de experiencia publicitaria, que puede generar para implementarla como anuncio en DSP.
 
 **Radio:** (solo experiencias con anuncios dinámicos; opcional) Un radio de un código postal de Estados Unidos especificado en el archivo de fuente para el destino; seleccione un radio de 0 millas a 200 millas. El archivo de fuente utilizado para crear los anuncios dinámicos para la experiencia debe incluir una columna [!UICONTROL ZIP]<!-- or a user-named column mapped to a ZIP column --> con un valor para cada fila de producto en el archivo. Por ejemplo, para un radio de 10 millas, un anuncio de un producto disponible en 95110 se puede mostrar a los usuarios en un radio de 10 millas de 95110 (determinado por la dirección IP del usuario).
 
