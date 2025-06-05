@@ -3,9 +3,9 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -158,9 +158,11 @@ La vista Informe incluye los siguientes datos:
 
    * (Experiencias solo con segmentación en el árbol de decisiones; opcional) Para dividir el rendimiento de cada destino de anuncio aplicado, habilite **[!UICONTROL Split targeting]**.
 
-1. (Opcional) Para descargar los datos en un archivo de [!DNL Microsoft Excel] en formato de hoja de cálculo (XLSX), haga clic en ![Descargar](/help/creative/assets/download.png "Descargar") en la barra de herramientas.
+## Descargar informes de rendimiento para una experiencia
 
-   El archivo se descarga según el procedimiento normal del explorador.
+* En la barra de herramientas situada en la parte superior de los informes de rendimiento, haga clic en ![Descargar](/help/creative/assets/download.png "Descargar").
+
+  El archivo se descarga en un archivo de [!DNL Microsoft Excel] en formato de hoja de cálculo (XLSX), según el procedimiento normal del explorador.
 
 >[!MORELIKETHIS]
 >
