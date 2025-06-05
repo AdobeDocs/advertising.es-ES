@@ -3,9 +3,9 @@ title: Administrar paquetes creativos
 description: Más información sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ Puede adjuntar [creativos estándar existentes](/help/creative/creative-librarie
 >
 >También puede [adjuntar elementos creativos a paquetes desde las vistas Anuncios estándar y Anuncios dinámicos](creative-attach-detach-bundles.md).
 
+### Adjuntar elementos creativos a un paquete desde la lista Paquetes
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
@@ -129,6 +131,24 @@ Puede adjuntar [creativos estándar existentes](/help/creative/creative-librarie
 1. (Opcional) Cambie entre la vista de tabla predeterminada y una vista de tarjeta de los paquetes disponibles haciendo clic en ![Vista de tarjeta](/help/creative/assets/card-view-button.png "Vista de tarjeta") para abrir la vista de tarjeta o ![Vista de tabla/lista](/help/creative/assets/table-view-button.png "Vista de tabla") para volver a la vista de tabla.
 
 1. En el cuadro derecho, active la casilla de verificación situada junto a cada elemento creativo que desee adjuntar al paquete y, a continuación, haga clic en **[!UICONTROL Attach Creative to Bundle]**.
+
+### Adjunte elementos creativos a un paquete de la lista de elementos creativos del paquete
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Haga clic en la tarjeta o fila del paquete para ver todos los creativos del paquete.
+
+1. En la esquina superior derecha, haga clic en **[!UICONTROL Attach Creatives]**.
+
+1. En el panel derecho, active la casilla de verificación de cada elemento creativo que desee adjuntar.
+
+1. Haga clic en **[!UICONTROL Attach Creatives to Bundle]**.
 
 ## Desasociar creativos de un paquete {#bundle-detach-creatives}
 
