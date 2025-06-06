@@ -3,9 +3,9 @@ title: Añadir un nodo de destino entre nodos en una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino entre cuerpos de destinatario en una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
 
          1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varias audiencias, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-            Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada audiencia especificada. Si no divide los destinatarios, el usuario debe pertenecer a todas las audiencias especificadas.
+            Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada audiencia especificada. Si no divide los destinos, el usuario debe pertenecer a todas las audiencias especificadas (una instrucción [!DNL Boolean] `AND`).
 
          1. Haga clic en **[!UICONTROL Apply]**.
 
@@ -63,7 +63,7 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
 
          1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-            Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas.
+            Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
 
          1. Haga clic en **[!UICONTROL Apply]**.
 
@@ -81,7 +81,7 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
 
          1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-            Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas.
+            Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
 
          1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 

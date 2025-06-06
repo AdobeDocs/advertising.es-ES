@@ -3,9 +3,9 @@ title: Añadir un nodo de destino al nivel final de una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino al nivel de destino final de una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 
       1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varias audiencias, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-         Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada audiencia especificada. Si no divide los destinatarios, el usuario debe pertenecer a todas las audiencias especificadas.
+         Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada audiencia especificada. Si no divide los destinos, el usuario debe pertenecer a todas las audiencias especificadas (una instrucción [!DNL Boolean] `AND`).
 
       1. Haga clic en **[!UICONTROL Apply]**.
 
@@ -45,7 +45,7 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 
       1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-         Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas.
+         Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
 
       1. Haga clic en **[!UICONTROL Apply]**.
 
@@ -63,7 +63,7 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 
       1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-         Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas.
+         Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
 
       1. Haga clic en **[!UICONTROL Apply]**.
 
