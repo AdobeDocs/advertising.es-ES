@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Obtenga información sobre cómo generar la experiencia cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
+source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
@@ -183,8 +183,6 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 ## Columnas de informe disponibles {#report-custom-creative-columns}
 
-<!-- Need to finish these definitions -->
-
 | Tipo de métrica | Subtipo | Nombre de columna | Descripción |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | Las dimensiones del anuncio publicado. |
@@ -196,16 +194,12 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative ID] | Identificador que [!UICONTROL Creative] asignó al creativo principal. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Name] | El nombre del creativo principal. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Type] | El tipo de elemento creativo principal (como [!UICONTROL HTML5]). |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | . |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | El tipo de clic. |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | La dirección URL de la página de aterrizaje. |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | El tipo específico de interacción del usuario. |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | El flujo direccional o la ruta de navegación de la interacción de clic del usuario dentro de la experiencia creativa. |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Browser] | Explorador en el que se mostró el anuncio (como [!UICONTROL Chrome] o [!UICONTROL Firefox]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device OS] | El sistema operativo en el que se mostró el anuncio (como [!UICONTROL Windows]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Type] | El tipo de dispositivo en el que se mostró el anuncio (como [!UICONTROL Desktop]). |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Ad ID] | El ID de la publicidad. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | El ID de compra de la ubicación del anuncio. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | El ID del creativo. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | El ID del DSP en el que se ejecutaron los anuncios. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | Nombre del DSP en el que se ejecutaron los anuncios. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | El ID de la ubicación para la que se ejecutaron los anuncios. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | El nombre de la ubicación para la que se ejecutaron los anuncios. |
@@ -216,8 +210,8 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Date/Time] | La fecha y la hora del evento. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience ID] | Identificador que [!UICONTROL Creative] asignó a la experiencia. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience Name] | El nombre de la experiencia. |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | El objetivo. |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | La ruta específica a través del árbol de decisión de direccionamiento que determinó qué variante de experiencia creativa se proporcionó al usuario. |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | Nombre de la etiqueta de publicidad. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL City] | Ciudad a la que se atribuyen los datos notificados. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL Country Code] | El código del país al que se atribuyen los datos notificados. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL DMA] | El área de mercado designada (DMA) a la que se atribuyen los datos notificados. |
@@ -232,22 +226,22 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 5] | (Anuncios dinámicos) El quinto atributo creativo. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | (Anuncios dinámicos) El ID del producto de destino. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product Name] | (Anuncios dinámicos) El nombre del producto de destino. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | El ID del segmento de audiencia al que se atribuyen los datos del informe. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | ID del segmento de un segmento de audiencia al que se atribuyen los datos del informe. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | Nombre del segmento de audiencia al que se atribuyen los datos del informe. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | ID de hasta cinco segmentos de usuario que coincidían con el tema del anuncio. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | El ID de un píxel de resegmentación al que se atribuyen los datos del informe. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | Nombre de un píxel de resegmentación al que se atribuyen los datos del informe. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Values] | Atributos de un segmento de audiencia al que se atribuyen los datos del informe. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Clicks] | La suma de todos los clics en un anuncio. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL CTR] | La tasa de clics, que es el porcentaje de clics dividido por las impresiones de publicidad. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagement Rate] | El porcentaje de impresiones servidas que dieron como resultado la participación del usuario. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | El número de interacciones en un anuncio publicado. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Impressions] | Número total de impresiones de publicidad. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | La suma de todos los clics en los anuncios de un producto. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | La suma de todas las conversiones en anuncios de un producto. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | Porcentaje de anuncios de un producto que generaron conversiones. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | Tasa de clics para anuncios de un producto, que es el porcentaje de clics dividido por impresiones de publicidad. |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | Número total de impresiones de un producto. |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Ingresos totales en anuncios publicados de un producto. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | El porcentaje de impresiones con una cookie de redireccionamiento. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | (Solo anuncios dinámicos) La suma de todos los clics en los anuncios de un producto. Cuando el producto es nulo, este valor es cero (0). |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | (Solo anuncios dinámicos) La suma de todas las conversiones en anuncios de un producto. Cuando el producto es nulo, este valor es cero (0). |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | (Solo anuncios dinámicos) El porcentaje de anuncios de un producto que generaron conversiones. Cuando el producto es nulo, este valor es cero (0). |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | (Solo anuncios dinámicos) Tasa de clics para anuncios de un producto, que es el porcentaje de clics dividido por impresiones de publicidad. Cuando el producto es nulo, este valor es cero (0). |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | (Solo anuncios dinámicos) El número total de impresiones de un producto. Cuando el producto es nulo, este valor es cero (0). |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | (Solo anuncios dinámicos) Ingresos totales en anuncios publicados de un producto. Cuando el producto es nulo, este valor es cero (0). |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | Ingresos totales de los anuncios publicados. |
 | [!UICONTROL Conversion Metrics] | [Agrupado por anunciante en la configuración del informe] | [Conversión específica del anunciante] | El total de una métrica de conversión o un evento de Adobe Analytics específico del anunciante. |
 | [!UICONTROL Custom Goals] | [Agrupado por anunciante en la configuración del informe] | [Objetivo personalizado específico del anunciante] | (Anunciantes con Advertising DSP) La suma ponderada de todas las conversiones incluidas en el [objetivo personalizado de Advertising DSP](/help/dsp/optimization/custom-goal.md) especificado. |
