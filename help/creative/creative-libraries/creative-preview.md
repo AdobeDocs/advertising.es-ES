@@ -3,7 +3,7 @@ title: Previsualización de un elemento creativo
 description: Obtenga información sobre cómo abrir una vista previa de un creativo.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -12,7 +12,6 @@ ht-degree: 0%
 
 # Previsualización de un elemento creativo
 
-*Solo creativos estándar*
 *Beta cerrada*
 
 Puede obtener una vista previa de un elemento creativo tal y como lo verán los visualizadores, incluidos los hipervínculos.
@@ -21,7 +20,7 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 
 1. Haga clic en el nombre de la biblioteca.
 
-1. En la ficha **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]**, seleccione el elemento creativo:
+1. En la ficha **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** o en la ficha **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ads]**, seleccione el elemento creativo:
 
    * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del creativo y, a continuación, haga clic en **[!UICONTROL Preview]**.
 

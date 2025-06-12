@@ -3,9 +3,9 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
+source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -20,41 +20,35 @@ Puede ver datos de rendimiento detallados de cualquier experiencia.
 
 La vista Informe incluye los siguientes datos:
 
-* **Ficha Información general**: Información general sobre el rendimiento de toda la experiencia, que incluye:
+* Pestaña **Información general**: Información general sobre el rendimiento en todas las métricas de conversión de toda la experiencia, que incluye:
 
-   * **Rendimiento general** sección:
+<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-   * **Rendimiento general**: el total de impresiones; clics; tasa de clics (CTR); y conversiones de visualizaciones y clics para una única métrica de conversión. <!-- Just one, or can you select multiple? And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+* **Rendimiento general** sección:
 
-     <!--
+* **Rendimiento general**: el total de impresiones; clics; tasa de clics (CTR); y conversiones de visualizaciones y clics.
+
+  <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-   * **Tasa predeterminada**: (Solo experiencias con segmentación en el árbol de decisiones) El número de impresiones resultantes de elementos creativos segmentados, elementos creativos genéricos sin segmentación o segmentados a &quot;Todos los demás&quot; y el elemento creativo predeterminado para la experiencia.
+* **Tasa predeterminada**: (Solo experiencias con segmentación en el árbol de decisiones) El número de impresiones resultantes de elementos creativos segmentados, elementos creativos genéricos sin segmentación o segmentados a &quot;Todos los demás&quot; y el elemento creativo predeterminado para la experiencia.
 
-     <!--
+  <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-   * **Desglose de rendimiento** sección:
+* **Desglose de rendimiento** sección:
 
-      * **Rendimiento regional:*: Métricas individuales por ubicación geográfica.
+   * **Rendimiento regional:*: Métricas individuales por ubicación geográfica.
 
-        <!-- You can optionally do the following:
-    
-      * Click a metric name (such as [!UICONTROL Impressions]) to view that metric.
-
-      * Select the region in the **[!UICONTROL Region]** menu.
-      
-      -->
-
-        <!--   
+     <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los <!-- NN --> principales creativos que se incluyen en ese criterio.
+   * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los <!-- NN --> principales creativos que se incluyen en ese criterio.
 
-        <!--    
+     <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
@@ -62,35 +56,7 @@ La vista Informe incluye los siguientes datos:
 
    * **Creativos** subpestaña: Número total de impresiones, clics y CTR para cada creativo en la experiencia.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
-     <!--
-
-     * *Experiences with decision tree targeting:* The total number of impressions, clicks, and CTR for each creative. You can optionally do the following:
-     
-       * To break out the performance for each ad target, enable **[!UICONTROL Split targeting]**.
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report. [Find out about this:  ..., and total conversions for specified conversion metricsYour conversion metrics are combined into one Conversions column set unless you have made individual metric column sets available within Advertising Cloud Search.]
-
-     * *Experiences without decision tree targeting:* The total number of impressions, clicks, and click-through rate (CTR) for each creative. You can optionally do the following:
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
-
-     -->
-
    * **Paquetes/etiquetas** subpestaña: El número total de impresiones, clics y CTR para paquetes individuales (experiencias con segmentación del árbol de decisiones) o etiquetas de publicidad (experiencias sin segmentación del árbol de decisiones) en la experiencia.
-
-     <!--
-   
-     * *Experiences with decision tree targeting:* The total number of impressions, clicks, and CTR for each bundle. You can optionally do the following:
-     
-       * To break out the performance for each ad target, enable **[!UICONTROL Split targeting]**.
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions  and click-through conversions (using on the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
-
-     * *Experiences without decision tree targeting:* The total number of impressions, clicks, and click-through rate (CTR) for each ad tag. You can optionally do the following:
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
-
-     -->
 
 ## Ver informes de rendimiento de una experiencia
 
@@ -112,15 +78,15 @@ La vista Informe incluye los siguientes datos:
 
       * Para especificar un período preestablecido, seleccione el informe: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* o *[!UICONTROL Yesterday]*.
 
-      * Para especificar un intervalo de fechas personalizado, especifique la fecha de inicio y la fecha de finalización<!-- in the format MM/DD/YYYY or M/D/YYYY,--> o haga clic en ![icono de calendario](/help/search-social-commerce/assets/calendar.png) junto a un campo y seleccione una fecha.
+      * Para especificar un intervalo de fechas personalizado, escriba la fecha de inicio y la de finalización o haga clic en ![icono de calendario](/help/search-social-commerce/assets/calendar.png) junto a un campo y seleccione una fecha.
 
    * (Opcional) Para cambiar la regla utilizada para atribuir datos de conversión en una serie de eventos que llevan a una conversión, haga clic en ![Configuración](/help/creative/assets/settings.png) y cambie **[!UICONTROL Attribution Rule]**.
 
      Para obtener más información acerca de las reglas de atribución, vea &quot;[Cómo se calculan las reglas de atribución](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
-   * (Opcional) Para cambiar las conversiones notificadas, haga clic en ![Configuración](/help/creative/assets/settings.png) y seleccione los nombres de conversión en el menú **[!UICONTROL Conversions]**.&lt;!— ¿Solo uno o varios? Verifique cómo se muestran: necesito ver un anunciante con varias conversiones ya configuradas. A partir del 6/3, solo veo &quot;Seleccionar todo&quot;. —>
+   * (Opcional) Para cambiar las conversiones notificadas, haga clic en ![Configuración](/help/creative/assets/settings.png) y seleccione los nombres de conversión en el menú **[!UICONTROL Conversions]**. Actualmente, la única métrica disponible es &quot;Seleccionar todo&quot; para incluir todas las métricas de conversión.
 
-     Las columnas de conversión disponibles incluyen las conversiones disponibles en Advertising Search, Social y Commerce, independientemente de si es cliente de Search, Social y Commerce. La lista puede incluir métricas de conversión y participación del sitio sincronizadas desde Adobe Analytics cuando el anunciante tiene [una [!DNL Adobe Analytics for Advertising] integración](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Para obtener más información acerca de cómo incluir las conversiones recopiladas en los informes, consulte el tema de la Guía de Search, Social y Commerce &quot;[Acerca de la administración de las métricas de conversión de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;.
+     Las columnas de conversión disponibles incluyen las conversiones disponibles en Advertising Search, Social y Commerce, independientemente de si es cliente de Search, Social y Commerce. La lista puede incluir métricas de conversión y participación del sitio sincronizadas desde Adobe Analytics cuando el anunciante tiene [una [!DNL Adobe Analytics for Advertising] integración](/help/integrations/analytics/overview.md). [!DNL Analytics] métricas calculadas y métricas calculadas avanzadas no están disponibles. Para obtener más información acerca de cómo incluir las conversiones recopiladas en los informes, consulte el tema de la Guía de Search, Social y Commerce &quot;[Acerca de la administración de las métricas de conversión de un anunciante](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)&quot;.
 
 1. (En la ficha [!UICONTROL Overview]):
 

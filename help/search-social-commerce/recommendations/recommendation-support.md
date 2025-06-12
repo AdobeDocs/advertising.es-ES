@@ -3,9 +3,9 @@ title: Acerca de las recomendaciones del editor y la compatibilidad con perspect
 description: Obtenga información acerca de la compatibilidad para ver y administrar recomendaciones y perspectivas del editor.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
+source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Las recomendaciones y perspectivas de [!DNL Google Ads] y [!DNL Microsoft Advert
 
 * Cada recomendación de [!DNL Google Ads] proporciona sugerencias personalizadas sobre diferentes aspectos del rendimiento de una campaña (desde agregar un recurso hasta aumentar el presupuesto) en función del historial de rendimiento de la cuenta, la configuración de la campaña y las tendencias de [!DNL Google Ads].
 
-* Cada perspectiva y recomendación de rendimiento de [!DNL Microsoft Advertising] sugiere cambios para optimizar el rendimiento de la campaña en función de los algoritmos de aprendizaje automático y las prácticas recomendadas.
+* Cada recomendación y insight de rendimiento de [!DNL Microsoft Advertising] sugiere cambios para optimizar el rendimiento de la campaña en función de los algoritmos de aprendizaje automático y las prácticas recomendadas.
 
 ## La vista [!UICONTROL Recommendations & Publisher Insights]
 
@@ -30,7 +30,7 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
   Los datos están disponibles en tiempo real al abrir la vista. Para actualizar los datos, haz clic en ![Actualizar](/help/search-social-commerce/assets/refresh.png "Actualizar") en la parte inferior izquierda de la página.
 
-* Para las cuentas de [!DNL Microsoft Advertising], vea de un vistazo cada perspectiva de rendimiento generada en los últimos 30 días para una cuenta de [!DNL Microsoft Advertising]. Las perspectivas proporcionan información similar a las recomendaciones, pero en un formato diferente. Cada perspectiva incluye la fecha, una descripción del problema, la entidad afectada, la causa raíz (que puede incluir vínculos a más detalles) y la acción sugerida con un vínculo para abrir el editor [!DNL Microsoft Advertising], desde el cual puede actuar sobre la perspectiva específica.
+* Para las cuentas de [!DNL Microsoft Advertising], vea de un vistazo cada insight de rendimiento generado en los últimos 30 días para una cuenta de [!DNL Microsoft Advertising]. Las perspectivas proporcionan información similar a las recomendaciones, pero en un formato diferente. Cada insight incluye la fecha, una descripción del problema, la entidad afectada, la causa raíz (que puede incluir vínculos a más detalles) y la acción sugerida con un vínculo para abrir el editor [!DNL Microsoft Advertising], desde el cual puede actuar en insight específico.
 
 * Vea los detalles de una recomendación y aplique o descarte directamente la recomendación.
 
@@ -38,7 +38,7 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 
 >[!NOTE]
 >
->Aunque las recomendaciones de red de anuncios y las perspectivas de rendimiento le ayudan a mejorar el rendimiento de la campaña, es posible que algunas no se alineen con sus objetivos más amplios. Como resultado, es mejor consultar con el equipo de cuenta de Adobe antes de implementar cualquier recomendación o perspectiva.
+>Aunque las recomendaciones de red de anuncios y las perspectivas de rendimiento le ayudan a mejorar el rendimiento de la campaña, es posible que algunas no se alineen con sus objetivos más amplios. Como resultado, es mejor consultar con el equipo de cuenta de Adobe antes de implementar cualquier recomendación o insight.
 
 ## Tipos de recomendación admitidos para [!DNL Google Ads]
 
@@ -46,6 +46,7 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (ahora denominado &quot;[!DNL Ads and assets]&quot; en [!DNL Google Ads]) | [!UICONTROL Call extension] | Añadir extensiones de llamada a una campaña |
 | | [!UICONTROL Callout extension] | Añadir extensiones de llamadas a una campaña |
+|  | [!UICONTROL Improve demand gen ad strength] | Sugerencias para mejorar la solidez de un anuncio para generar demanda |
 | | [!UICONTROL Optimize ad rotation] | Utilizar rotaciones de anuncios optimizadas |
 | | [!UICONTROL Responsive search ad] | Añadir un nuevo anuncio de búsqueda adaptable |
 | | [!UICONTROL Responsive search ad asset] | Añadir recursos de anuncios de búsqueda adaptable a un anuncio |
@@ -77,6 +78,7 @@ En [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Ins
 | | [!UICONTROL Target ROAS opt in] | Cambiar a la estrategia de oferta [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Amplíe el alcance actualizando una campaña para utilizar la expansión de visualización |
 | | [!UICONTROL Keyword] | Añadir nuevas palabras clave |
+|  | [!UICONTROL Refresh customer match list] | Actualice las listas de coincidencia de clientes para mostrar anuncios personalizados a clientes recientes |
 | | [!UICONTROL Search partners opt in] | Ampliar el alcance con [!DNL Google] socios de búsqueda |
 | | [!UICONTROL Use broad match keyword] | Utilice la búsqueda de coincidencias generales para las campañas basadas en conversiones con pujas totalmente automatizadas basadas en conversiones |
 
