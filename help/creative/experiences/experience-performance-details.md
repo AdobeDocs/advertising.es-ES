@@ -3,7 +3,7 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
+source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -20,9 +20,7 @@ Puede ver datos de rendimiento detallados de cualquier experiencia.
 
 La vista Informe incluye los siguientes datos:
 
-* Pestaña **Información general**: Información general sobre el rendimiento en todas las métricas de conversión de toda la experiencia, que incluye:
-
-  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+* **Pestaña Información general**: Una descripción general del rendimiento en todas las métricas de conversión de toda la experiencia<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." -->, que incluye:
 
    * **Rendimiento general** sección:
 
