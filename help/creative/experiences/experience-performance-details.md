@@ -3,7 +3,7 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ La vista Informe incluye los siguientes datos:
 
 * Pestaña **Información general**: Información general sobre el rendimiento en todas las métricas de conversión de toda la experiencia, que incluye:
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* **Rendimiento general** sección:
+   * **Rendimiento general** sección:
 
-* **Rendimiento general**: el total de impresiones; clics; tasa de clics (CTR); y conversiones de visualizaciones y clics.
+      * **Rendimiento general**: el total de impresiones; clics; tasa de clics (CTR); y conversiones de visualizaciones y clics.
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **Tasa predeterminada**: (Solo experiencias con segmentación en el árbol de decisiones) El número de impresiones resultantes de elementos creativos segmentados, elementos creativos genéricos sin segmentación o segmentados a &quot;Todos los demás&quot; y el elemento creativo predeterminado para la experiencia.
+      * **Tasa predeterminada**: (Solo experiencias con segmentación en el árbol de decisiones) El número de impresiones resultantes de elementos creativos segmentados, elementos creativos genéricos sin segmentación o segmentados a &quot;Todos los demás&quot; y el elemento creativo predeterminado para la experiencia.
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* **Desglose de rendimiento** sección:
+   * **Desglose de rendimiento** sección:
 
-   * **Rendimiento regional:*: Métricas individuales por ubicación geográfica.
+      * **Rendimiento regional:*: Métricas individuales por ubicación geográfica.
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los <!-- NN --> principales creativos que se incluyen en ese criterio.
+      * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los <!-- NN --> principales creativos que se incluyen en ese criterio.
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
