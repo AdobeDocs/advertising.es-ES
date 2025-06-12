@@ -42,7 +42,7 @@ Sus credenciales de DSP actuales permanecerán activas hasta el 26 de junio de 2
 
 1. Elija su organización:
 
-   * Si se le solicita, seleccione **Cuenta personal&quot; o **Cuenta de empresa o escuela**.
+   * Si se le solicita, seleccione **Cuenta personal&quot; o &#x200B;** Cuenta de empresa o escuela**.
 
    * Si tiene acceso a varias organizaciones de IMS, seleccione la correcta.
 
