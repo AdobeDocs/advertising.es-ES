@@ -3,7 +3,7 @@ title: Personalizar la optimización y programación creativas de una experienci
 description: Obtenga información sobre cómo
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
+source-git-commit: 006b0c61c28f5fac111ccdcc007e1752e05da63f
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Solo experiencias con creativos existentes*
 *Beta cerrada*
 
-De forma predeterminada, la rotación creativa de una etiqueta de experiencia publicitaria se determina de forma algorítmica para optimizar la tasa de pulsaciones general y la configuración de optimización creativa se aplica a todos los creativos asignados. Puede personalizar la rotación creativa para ejecutar manualmente los creativos según los pesos relativos o para optimizar de forma algorítmica para un objetivo personalizado de Advertising DSP especificado. <!-- verify --> También puede programar creativos específicos para que se ejecuten durante períodos de tiempo secuenciales especificados y aplicar la configuración de rotación creativa personalizada para cada programación.
+De forma predeterminada, la rotación creativa de una etiqueta de experiencia publicitaria se determina de forma algorítmica para optimizar la tasa de pulsaciones general y la configuración de optimización creativa se aplica a todos los creativos asignados. Puede personalizar la rotación creativa para ejecutar manualmente los creativos según los pesos relativos o para optimizar de forma algorítmica para un objetivo personalizado de Advertising DSP especificado. También puede programar creativos específicos para que se ejecuten durante períodos de tiempo especificados y secuenciales, y aplicar ajustes de rotación creativa personalizados para cada programación.
 
 ## Configuración de la optimización creativa sin programación
 

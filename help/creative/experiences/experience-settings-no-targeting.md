@@ -3,9 +3,9 @@ title: Configuración de experiencias sin objetivo
 description: Consulte las descripciones de todas las configuraciones para experiencias de publicidad sin segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
+source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ En el caso de las experiencias sin segmentación en el árbol de decisiones, pue
 
 ## [!UICONTROL Targeting] sección
 
-**[!UICONTROL Targeting]:** (solo lectura para experiencias existentes) No aplicable cuando no habilita el direccionamiento mediante un árbol de decisión; mantenga deshabilitada esta opción.
+**[!UICONTROL Targeting]:** (solo lectura para experiencias existentes) No aplicable cuando no habilita el direccionamiento mediante un árbol de decisión; mantenga deshabilitada esta opción. **Nota:** Una vez guardada una experiencia sin segmentación, no se puede agregar la segmentación más adelante.
 
 **[!UICONTROL Dynamic ads]:** (solo lectura para experiencias existentes) Indica que la experiencia incluye anuncios dinámicos. **Nota:** Una experiencia puede incluir todos los anuncios estándar o todos los anuncios dinámicos.
 

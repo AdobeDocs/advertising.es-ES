@@ -3,9 +3,9 @@ title: Crear una experiencia con segmentación del árbol de decisiones
 description: Obtenga información sobre cómo crear una experiencia de publicidad segmentada mediante un árbol de decisiones.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
+source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # Crear una experiencia con segmentación del árbol de decisiones
 
 *Beta cerrada*
+
+Cree una experiencia de anuncio segmentada mediante un árbol de decisiones. Cada experiencia utiliza anuncios de una sola biblioteca creativa.
+
+>[!NOTE]
+>
+> Una vez creada una experiencia de destino, no se puede cambiar posteriormente a una experiencia de destino, que utiliza un flujo de trabajo diferente.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

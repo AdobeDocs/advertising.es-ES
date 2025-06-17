@@ -2,9 +2,10 @@
 title: Asigne elementos creativos a una etiqueta de anuncio para experiencias sin segmentación
 description: Aprenda a asignar elementos creativos a una etiqueta de publicidad para un tamaño creativo específico.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
+source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Solo experiencias sin segmentación en el árbol de decisiones*
 *Beta cerrada*
 
-Puede asignar creativos en tamaños creativos aplicables a una etiqueta de anuncio que se utilice para una experiencia. Para las experiencias de publicidad estándar, solo puede asignar creativos estándar. Para las experiencias de publicidad dinámica, solo puede asignar los elementos creativos dinámicos.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
+Puede asignar creativos en tamaños creativos aplicables a una etiqueta de anuncio que se utilice para una experiencia. Puede utilizar elementos creativos de la biblioteca creativa especificada en la configuración de experiencia. Para las experiencias de publicidad estándar, solo puede asignar creativos estándar. Para las experiencias de publicidad dinámica, solo puede asignar los elementos creativos dinámicos.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
 Más tarde [puede personalizar las URL de seguimiento](experience-tracking-urls-no-targeting.md) y [Personalizar la optimización y programación creativas](experience-optimization-scheduling-no-targeting.md) para los elementos creativos utilizados para la etiqueta de anuncio.
 

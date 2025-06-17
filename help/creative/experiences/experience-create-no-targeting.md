@@ -2,9 +2,10 @@
 title: Crear una experiencia sin segmentación del árbol de decisiones
 description: Aprenda a crear una experiencia publicitaria sin segmentación.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 327b1df5-5663-4513-9238-f481370c8c38
+source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,12 @@ ht-degree: 0%
 # Crear una experiencia sin segmentación del árbol de decisiones
 
 *Beta cerrada*
+
+Cree una experiencia publicitaria sin segmentación. Cada experiencia puede utilizar anuncios de una sola biblioteca creativa.
+
+>[!NOTE]
+>
+> Una vez creada una experiencia sin objetivo, no puede cambiarla posteriormente a una experiencia con objetivo, que utiliza un flujo de trabajo diferente.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -25,7 +32,11 @@ ht-degree: 0%
 
    * [Cree manualmente una etiqueta de anuncio para un tamaño creativo aplicable](experience-tag-create-manually.md).
 
+     [!DNL Creative] no crea automáticamente etiquetas de anuncio para experiencias sin objetivo.
+
    * [Asignar elementos creativos a una etiqueta de anuncio](experience-tag-assign-creatives.md).
+
+     Asigne elementos creativos a la etiqueta de publicidad, no dentro de la configuración de experiencia.
 
    * [Personalización de las direcciones URL de seguimiento](experience-tracking-urls-no-targeting.md)
 

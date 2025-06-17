@@ -3,9 +3,9 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 118838e0236c0e40aea797edb1b2f8fb0efb2a79
+source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ La vista Informe incluye los siguientes datos:
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los <!-- NN --> principales creativos que se incluyen en ese criterio.
+      * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los 10 elementos creativos principales que se incluyen en ese criterio.
 
         <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
