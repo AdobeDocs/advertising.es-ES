@@ -3,9 +3,9 @@ title: Acerca del inventario privado
 description: Acerca del inventario privado
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Los anunciantes que buscan más allá de RTB pueden utilizar el inventario priva
 
 ## ID de acuerdo
 
-Si tiene relaciones directas con los editores, puede optimizar el proceso y el flujo de trabajo de compra de medios con sus propias ofertas privadas, con su inventario y precios negociados, en sus ubicaciones de Advertising DSP. DSP Se integra con todos los editores al configurar una cuenta de. Si desea acceder a editores adicionales más adelante, póngase en contacto con el equipo de cuenta de Adobe para configurar el acceso. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Si tiene relaciones directas con los editores, puede optimizar el proceso y el flujo de trabajo de compra de medios con sus propias ofertas privadas, con su inventario y precios negociados, en sus ubicaciones de Advertising DSP. DSP se integra con todos los editores al configurar una cuenta. Si desea acceder a editores adicionales más adelante, póngase en contacto con el equipo de su cuenta de Adobe para configurar el acceso. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 Todos sus acuerdos privados con un ID de acuerdo son financiados y facturados por [!DNL Adobe].
 
@@ -40,9 +40,14 @@ La columna &quot;Estado del acuerdo&quot; indica el estado de salud de cada acue
 
 Puede personalizar el modo en que se presentan los datos de acuerdo existentes aplicando filtros, personalizando las columnas visibles y, opcionalmente, guardando las vistas personalizadas, ordenando las columnas y viendo los datos como gráficos.
 
+## La vista Listas de acuerdos
+
+En la vista [!UICONTROL Inventory] > [!UICONTROL Deal Lists], puede agrupar sus ofertas privadas en listas para facilitar la segmentación de la ubicación.
+
 >[!MORELIKETHIS]
 >
 >* [Descripción general de las características de inventario](/help/dsp/inventory/inventory-overview.md)
 >* [Acerca de [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
 >* [Aceptar un acuerdo en la bandeja de entrada del Deal ID](deal-id-inbox-accept.md)
 >* [Crear manualmente los detalles del ID de acuerdo](deal-id-create.md)
+>* [Administrar listas de acuerdos](/help/dsp/inventory/lists-deals-manage.md)

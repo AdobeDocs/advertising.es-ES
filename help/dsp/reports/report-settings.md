@@ -3,7 +3,7 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: 8e6d2a1d39231176f3836246958b82691fbb5006
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -62,7 +62,11 @@ Esta sección determina las fechas en las que se ejecuta el informe. Para config
 
 ## Sección [!UICONTROL Apply Filters]
 
-**[!UICONTROL Filter by]:** (Opcional) Dimensiones adicionales mediante las cuales filtrar los datos, independientemente de si las dimensiones se incluyen o no como columnas en el informe. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* y *[!UICONTROL Video Duration]*.
+**[!UICONTROL Filter by]:** (Opcional) Dimensiones adicionales mediante las cuales filtrar los datos, independientemente de si las dimensiones se incluyen o no como columnas en el informe. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* y *[!UICONTROL Video Duration]*.
+
+<!-- Add when available:
+*[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
+-->
 
 Para aplicar uno o más filtros, haga lo siguiente:
 
@@ -70,7 +74,7 @@ Para aplicar uno o más filtros, haga lo siguiente:
 * (Opcional) Añada criterios adicionales al filtro.
 * (Opcional) Añada filtros adicionales, cada uno con uno o más criterios.
 
-\* *[!UICONTROL Account]* solo está disponible para los siguientes tipos de informes cuando su organización está configurada para [informes entre cuentas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] y [!UICONTROL Conversion]. Póngase en contacto con el equipo de cuenta de Adobe para obtener más información sobre la creación de informes entre cuentas.
+\* *[!UICONTROL Account]* solo está disponible para los siguientes tipos de informes cuando su organización está configurada para [informes entre cuentas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] y [!UICONTROL Conversion]. Póngase en contacto con su equipo de cuenta de Adobe para obtener más información sobre los informes entre cuentas.
 
 **[!UICONTROL Include data from Adobe Advertising SSC]:** (solo informes de Ruta de acceso a la conversión, Longitud de ruta de acceso y Tiempo de conversión) Incluye datos de clics en anuncios de búsqueda de campañas especificadas de Advertising Search, Social y Commerce. Al seleccionar esta opción:
 
@@ -137,11 +141,11 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
    * *[!UICONTROL U-shaped]:*: atribuye la conversión a todos los eventos de la ruta de conversión, pero da la mayor importancia a los eventos primero y último, con sucesivamente menos peso a los eventos en medio de la ruta de conversión.
 
-   * DSP *[!UICONTROL Display Only]:* Atributos para convertir al último clic o impresión de la ruta de conversión en la que se hizo clic o se produjo la última impresión de la. Esto incluye vídeo y anuncios de TV conectados, y excluye los clics en [!DNL Advertising Search, Social, & Commerce] anuncios.
+   * *[!UICONTROL Display Only]:* Atributos convertidos en el último clic o impresión de DSP en la ruta de conversión. Esto incluye vídeo y anuncios de TV conectados, y excluye los clics en [!DNL Advertising Search, Social, & Commerce] anuncios.
 
    * *[!UICONTROL Social Only]:* obsoleto
 
-Consulte también &quot;[Cómo se calculan las reglas de atribución para el Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
+Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
 * **Retrospectiva:** ([!UICONTROL Household Conversion] informes con [!UICONTROL Conversion Metrics] o [!UICONTROL Custom Goals] columnas, y [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] informes con [!UICONTROL Conversion Metrics] columnas solamente; anunciantes con seguimiento de conversión de Adobe Advertising solamente) Dentro del informe, el número máximo de días después de un evento de impresión o un evento de clic (para [!UICONTROL Path to Conversion], [!UICONTROL Path Length] o [!UICONTROL Time to Conversion] informes) en los que se puede atribuir un evento de conversión a él. El valor predeterminado es *[!UICONTROL 30 days]* y el máximo es 92 días.
 
@@ -179,7 +183,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para el Ado
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 

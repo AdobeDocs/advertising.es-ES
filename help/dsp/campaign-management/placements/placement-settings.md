@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
+source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '4477'
 ht-degree: 0%
 
 ---
@@ -177,9 +177,9 @@ Incluya un código postal por línea o introduzca varios valores separados por c
 
   Puede ver la lista por origen o por fuente. Cuando vea la lista por fuente, puede buscar por nombre de fuente, clave de fuente o una etiqueta de característica seleccionada.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]: sus ofertas privadas existentes (o ofertas privadas existentes de [!DNL Roku] para [!DNL Roku] ubicaciones) con los editores que ha configurado en DSP. Puede incluir, pero no excluir, el inventario público.
+* [!UICONTROL Private] | [!UICONTROL Roku Private]: tus ofertas privadas existentes (o las ofertas privadas existentes de [!DNL Roku] para [!DNL Roku] ubicaciones) con los editores que has configurado en DSP y tus [listas de ofertas privadas existentes](/help/dsp/inventory/lists-deals-manage.md). Puede incluir, pero no excluir, el inventario público.
 
-  Puede buscar en la lista por palabra clave, clave, ID de oferta o etiqueta personalizada.
+  Desde la ficha [!UICONTROL Deals], puede buscar en la lista por palabra clave, clave, ID de acuerdo o etiqueta personalizada. Desde la ficha [!UICONTROL Deal Lists], puede buscar en la lista por nombre de lista de oferta o ID de lista de oferta.
 
    * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Opcional) anula el algoritmo de precio de oferta para pujar al menos los precios fijos y mínimos de las ofertas.
 
@@ -199,12 +199,15 @@ Para especificar la segmentación de inventario:
       1. (Inventario de [!UICONTROL Public] y [!UICONTROL On Demand]) Haga clic en **[!UICONTROL View by Source]** o **[!UICONTROL View by Feed]** para cambiar la forma en que se enumeran los orígenes.
       1. (Cuando corresponda) Filtre el inventario según sea necesario.
       1. Especifique las fuentes que desea incluir y excluir:
-         * Para incluir un origen de [!UICONTROL Public] o [!UICONTROL On Demand], haga clic en **[!UICONTROL Include]** junto al nombre del origen.
-         * Para incluir [!UICONTROL Private] orígenes:
-            * Para incluir todo el inventario en una oferta, haga clic en **[!UICONTROL Include all]** junto al nombre de la oferta.
-            * Para incluir un origen de inventario individual, expanda el nombre de la oferta y, a continuación, haga clic en la casilla de verificación situada junto al nombre del origen.
-         * Para excluir un(a) [!UICONTROL Public] o [!UICONTROL On source], haga clic en **[!UICONTROL Exclude]** junto al nombre de origen.
-   1. (Opcional) Para descargar un archivo CSV con la información de destino en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Save & Export]**.
+         * Para el inventario [!UICONTROL Public] o [!UICONTROL On Demand]:
+            * Para incluir un origen, haga clic en **[!UICONTROL Include]** junto al nombre del origen.
+            * Para excluir un origen, haga clic en **[!UICONTROL Exclude]** junto al nombre del origen.
+         * Para el inventario [!UICONTROL Private]:
+            * En la ficha [!UICONTROL Deals]:
+               * Para incluir todo el inventario en una oferta, haga clic en **[!UICONTROL Include all]** junto al nombre de la oferta.
+               * Para incluir un origen de inventario individual, expanda el nombre de la oferta y, a continuación, haga clic en la casilla de verificación situada junto al nombre del origen.
+            * En la ficha [!UICONTROL Deal Lists], haga clic en la casilla de verificación situada junto al nombre de la lista de ofertas.
+   1. (Opcional) Para descargar un archivo CSV con la información de destino en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
    1. Haga clic en **[!UICONTROL Save]**.
 
 >[!TIP]
@@ -256,30 +259,34 @@ Para especificar la segmentación de inventario:
 1. (Opcional) Para descargar un archivo CSV con la información de destino en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
 1. Haga clic en **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites or Apps]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Sitios que excluir. Puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio:
+**[!UICONTROL Exclude Sites or Apps]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Sitios/aplicaciones y [listas de URL](/help/dsp/resources/lists-url-manage.md) que se deben excluir. Desde la ficha [!UICONTROL Paste URL], puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio. En la ficha [!UICONTROL URL Lists], puede seleccionar listas de direcciones URL.
 
 1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
 1. Especifique los sitios:
-   * Para buscar un sitio:
-      1. Haga clic en **[!UICONTROL Search]**.
-      1. Introduzca una palabra clave, seleccione un nivel de sitio y/o seleccione una categoría de sitio.
-      1. En los resultados de búsqueda, seleccione los sitios que desea excluir:
-         * Para excluir un sitio individual, active la casilla de verificación adyacente.
-         * (Cuando haya más de 50 resultados disponibles) Para excluir los primeros 50 resultados, haga clic en **[!UICONTROL Exclude these 50]**. Para excluir todos los resultados de búsqueda, haga clic en **[!UICONTROL Exclude these \<*NN *\>]**.
-   * Para introducir nombres de dominio:
-      1. Haga clic en **[!UICONTROL Paste]**.
-      1. Escriba uno o varios nombres de dominio en líneas independientes.
-      1. Haga clic en **[!UICONTROL Exclude All]**.
+   * Desde la ficha [!UICONTROL Paste URL]:
+      * Para buscar un sitio:
+         1. Haga clic en **[!UICONTROL Search]**.
+         1. Introduzca una palabra clave, seleccione un nivel de sitio y/o seleccione una categoría de sitio.
+         1. En los resultados de búsqueda, seleccione los sitios que desea excluir:
+            * Para excluir un sitio individual, active la casilla de verificación adyacente.
+            * (Cuando haya más de 50 resultados disponibles) Para excluir los primeros 50 resultados, haga clic en **[!UICONTROL Exclude these 50]**. Para excluir todos los resultados de búsqueda, haga clic en **[!UICONTROL Exclude these \<*NN *\>]**.
+      * Para introducir nombres de dominio:
+         1. Haga clic en **[!UICONTROL Paste]**.
+         1. Escriba uno o varios nombres de dominio en líneas independientes.
+         1. Haga clic en **[!UICONTROL Exclude All]**.
+   * Desde la ficha [!UICONTROL URL Lists]:
+      1. (Opcional) Busque una lista de URL introduciendo todo o parte del nombre de la lista en el campo de búsqueda.
+      1. Seleccione la casilla de verificación situada junto a cada lista de URL que desee excluir.
 1. Haga clic en **[!UICONTROL Done]** cuando haya terminado.
 
 >[!NOTE]
 >
 >* También se aplican listas de sitios bloqueados a nivel de cuenta y de anunciante, además de la [lista de sitios bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md) de DSP, que incluye los sitios considerados no seguros para los anuncios.
->* Las listas de sitios bloqueados siempre anulan las listas de sitios de destino. Si una ubicación excluye e incluye el mismo destino para un anuncio, se excluye el destino.
+>* Las listas de sitios bloqueados siempre anulan los sitios de destino y las listas de sitios. Si una ubicación excluye e incluye el mismo destino para un anuncio, se excluye el destino.
 
 **[!UICONTROL Language]:** (opcional) un solo idioma de destino.
 
-**[!UICONTROL Site or App List Preview]:** (solo lectura) Todos los sitios de destino y bloqueados para la ubicación.
+**[!UICONTROL Site or app list preview]:** (solo lectura) Todos los sitios o aplicaciones de destino y bloqueados para la ubicación, incluidos los sitios o aplicaciones de las listas de sitios bloqueados globales de DSP, de nivel de anunciante y de nivel de cuenta.
 
 Si lo desea, puede exportar la lista de sitios de destino y bloqueados como archivo de valores separados por comas (CSV). Para exportar la lista, haga clic en **[!UICONTROL Export full site list]** y, a continuación, abra o guarde el archivo según el procedimiento normal del explorador.
 
@@ -287,21 +294,30 @@ Si lo desea, puede exportar la lista de sitios de destino y bloqueados como arch
 
 **[!UICONTROL Paste list of targeted sites]:** Le permite dirigirse únicamente a sitios específicos. Cuando activa esta opción, se desactivan las demás opciones de segmentación del sitio.
 
-**[!UICONTROL Sites]:** (disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL On]*) sitios de destino. Puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio:
+**[!UICONTROL Sites or Apps]:** (disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL On]*) sitios de destino. Desde la ficha [!UICONTROL Paste URL], puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio. En la ficha [!UICONTROL URL Lists], puede seleccionar listas de direcciones URL.
 
 1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
 1. Especifique los sitios:
-   * Para buscar un sitio:
-      1. Haga clic en **[!UICONTROL Search]**.
-      1. Introduzca una palabra clave, seleccione un nivel de sitio y/o seleccione una categoría de sitio.
-      1. En los resultados de búsqueda, seleccione los sitios que desea incluir:
-         * Para excluir un sitio individual, active la casilla de verificación adyacente.
-         * (Cuando haya más de 50 resultados disponibles) Para incluir los primeros 50 resultados, haga clic en **[!UICONTROL Include these 50]**. Para incluir todos los resultados de búsqueda, haga clic en **[!UICONTROL Include these \<*NN *\>]**.
-   * Para introducir nombres de dominio:
-      1. haga clic en **[!UICONTROL Paste]**.
-      1. Escriba uno o varios nombres de dominio en líneas independientes.
-      1. Haga clic en **[!UICONTROL Include All]**.
-1. Haga clic en **[!UICONTROL Done]**.
+   * Desde la ficha [!UICONTROL Paste URL]:
+      * Para buscar un sitio:
+         1. Haga clic en **[!UICONTROL Search]**.
+         1. Introduzca una palabra clave, seleccione un nivel de sitio y/o seleccione una categoría de sitio.
+         1. En los resultados de búsqueda, seleccione los sitios que desea incluir:
+            * Para incluir un sitio individual, active la casilla de verificación adyacente.
+            * (Cuando haya más de 50 resultados disponibles) Para incluir los primeros 50 resultados, haga clic en **[!UICONTROL Include these 50]**. Para incluir todos los resultados de búsqueda, haga clic en **[!UICONTROL Include these \<*NN *\>]**.
+      * Para introducir nombres de dominio:
+         1. Haga clic en **[!UICONTROL Paste]**.
+         1. Escriba uno o varios nombres de dominio en líneas independientes.
+         1. Haga clic en **[!UICONTROL Include All]**.
+   * Desde la ficha [!UICONTROL URL Lists]:
+      1. (Opcional) Busque una lista de URL introduciendo todo o parte del nombre de la lista en el campo de búsqueda.
+      1. Seleccione la casilla de verificación situada junto a cada lista de direcciones URL que desee incluir.
+1. Haga clic en **[!UICONTROL Done]** cuando haya terminado.
+
+>[!NOTE]
+>
+>* También se aplican listas de sitios bloqueados a nivel de cuenta y de anunciante, además de la [lista de sitios bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md) de DSP, que incluye los sitios considerados no seguros para los anuncios.
+>* Las listas de sitios bloqueados siempre anulan los sitios de destino y las listas de sitios. Si una ubicación excluye e incluye el mismo destino para un anuncio, se excluye el destino. Puede buscar y seleccionar sitios o introducir o pegar nombres de dominio:
 
 ## [!UICONTROL Audience Targeting]
 
