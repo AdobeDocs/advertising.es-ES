@@ -3,9 +3,9 @@ title: Añadir un nodo de destino entre nodos en una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino entre cuerpos de destinatario en una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,16 @@ Para definir un objetivo específico, agregue un nodo de destino secundario adic
          1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
          1. Haga clic en **[!UICONTROL Apply]**.
+
+1. (Opcional) Especifique un nombre de rama personalizado para una rama definida por el usuario.
+
+   De forma predeterminada, las ramas definidas por el usuario se etiquetan con los destinos aplicados.
+
+   No se puede crear un nombre de rama personalizado para una rama &quot;Todos&quot; o &quot;Todos los demás&quot;.
+
+   1. Mantenga el cursor sobre el nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Escriba **[!UICONTROL Node Name]** y haga clic en **[!UICONTROL Save]**.
 
 1. Realice una de las siguientes acciones:
 

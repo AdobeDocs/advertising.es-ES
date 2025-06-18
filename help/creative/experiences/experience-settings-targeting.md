@@ -3,9 +3,9 @@ title: Configuración de experiencias segmentadas
 description: Consulte las descripciones de todos los ajustes para experiencias de anuncios segmentados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Cada clave se anexa como una macro en la etiqueta de experiencia publicitaria, q
 
 **Píxel RT:** (solo lectura para experiencias existentes; opcional) Un píxel de retargeting de [!UICONTROL Creative] a destino potencial. Al configurar el direccionamiento dentro del árbol de decisión, puede incluir un nivel de nodos de destino de píxeles de RT. Para cada nodo, se especifica el píxel de destino y los valores de los atributos del píxel necesarios para mostrar los elementos creativos en los paquetes de elementos creativos asignados. Si no especifica un píxel en este campo al crear la experiencia, aún puede especificar uno dentro del árbol de decisión.<!-- May move this to just within the decision tree. -->
 
-**Etiqueta:**<!-- should be "Labels" --> (opcional) Cualquier etiqueta específica de [!DNL Creative] que se aplique a la experiencia. Puede filtrar experiencias por etiqueta en la vista Experiencias<!-- sic -->.
+**Etiqueta:**<!-- should be "Labels" --> (opcional) Cualquier etiqueta específica de [!DNL Creative] que se aplique a la experiencia. Puede filtrar experiencias por etiqueta en la vista Experiencias e incluir la dimensión [!UICONTROL Experience Label] en [!UICONTROL Custom Creative Report].
 
 * Para seleccionar etiquetas existentes, haga clic en ![Abajo](/help/creative/assets/chevron-down.png "Abajo") y active la casilla de verificación situada junto a cada etiqueta que desee aplicar.
 

@@ -3,7 +3,7 @@ title: Crear una experiencia con segmentación del árbol de decisiones
 description: Obtenga información sobre cómo crear una experiencia de publicidad segmentada mediante un árbol de decisiones.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
+source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Cree una experiencia de anuncio segmentada mediante un árbol de decisiones. Cad
 
       * Destinos:
 
-        *[Agregue un nodo de destino al nivel final](experience-target-node-add-final.md) de una experiencia.
+         * [Agregar un nodo de destino al nivel final](experience-target-node-add-final.md) en una experiencia.
 
          * [Insertar un nodo de destino entre nodos](experience-target-node-add-inner.md).
 

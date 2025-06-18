@@ -3,9 +3,9 @@ title: Añadir un nodo de destino al nivel final de una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino al nivel de destino final de una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,16 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
          Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
 
       1. Haga clic en **[!UICONTROL Apply]**.
+
+1. (Opcional) Especifique un nombre de rama personalizado para una rama definida por el usuario.
+
+   De forma predeterminada, las ramas definidas por el usuario se etiquetan con los destinos aplicados.
+
+   No se puede crear un nombre de rama personalizado para una rama &quot;Todos&quot; o &quot;Todos los demás&quot;.
+
+   1. Mantenga el cursor sobre el nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Escriba **[!UICONTROL Node Name]** y haga clic en **[!UICONTROL Save]**.
 
 1. Realice una de las siguientes acciones:
 

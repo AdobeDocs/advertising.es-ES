@@ -3,9 +3,9 @@ title: Eliminar un nodo de destino o de hoja creativa en una experiencia
 description: Obtenga información sobre cómo eliminar un nodo dentro de una experiencia.
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---

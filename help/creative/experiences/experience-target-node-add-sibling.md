@@ -3,9 +3,9 @@ title: Añadir un nodo de destino del mismo nivel entre nodos de una experiencia
 description: Obtenga información sobre cómo agregar un nodo secundario a cualquier nodo que tenga un destino o esté en el mismo nivel que un nodo con un destino.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ In an existing experience,
          Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
 
       1. Haga clic en **[!UICONTROL Apply]**.
+
+1. (Opcional) Especifique un nombre de rama personalizado para una rama definida por el usuario.
+
+   De forma predeterminada, las ramas definidas por el usuario se etiquetan con los destinos aplicados.
+
+   No se puede crear un nombre de rama personalizado para una rama &quot;Todos&quot; o &quot;Todos los demás&quot;.
+
+   1. Mantenga el cursor sobre el nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Escriba **[!UICONTROL Node Name]** y haga clic en **[!UICONTROL Save]**.
 
 1. Realice una de las siguientes acciones:
 

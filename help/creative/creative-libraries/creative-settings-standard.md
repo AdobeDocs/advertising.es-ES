@@ -3,9 +3,9 @@ title: Configuración de Creative
 description: Más información sobre xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1812'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Cuando edita varios elementos creativos al mismo tiempo:
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**Etiqueta:** (Opcional) Cualquier etiqueta que se aplique a todos los elementos creativos seleccionados. Puede filtrar los elementos creativos por etiqueta en varias vistas dentro de [!DNL Creative].
+**Etiqueta:** (Opcional) Cualquier etiqueta que se aplique a todos los elementos creativos seleccionados. Puede filtrar los elementos creativos por etiqueta en varias vistas dentro de [!DNL Creative] e incluir la dimensión [!UICONTROL Creative Label] en [!UICONTROL Custom Creative Report].
 
 * Para seleccionar etiquetas existentes, haga clic en ![Abajo](/help/creative/assets/chevron-down.png "Abajo") y active la casilla de verificación situada junto a cada etiqueta que desee aplicar.
 

@@ -3,9 +3,9 @@ title: Acerca de sus bibliotecas creativas
 description: Obtenga información sobre cómo administrar los elementos creativos para sus experiencias publicitarias.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
+source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Las bibliotecas pueden incluir lo siguiente:
 
 * **Creativos individuales:** Puede incluir creativos individuales directamente dentro de las experiencias publicitarias que no tengan objetivos de usuario definidos. También puede usar sus elementos creativos para crear paquetes, que puede incluir en [experiencias publicitarias](/help/creative/experiences/experience-about.md) de destino.
 
-   * **Creativos estándar:** Puede cargar y administrar creativos en [varios formatos](#creative-creative-formats). Para cada elemento creativo, debe especificar el idioma predeterminado para cada anuncio con el que asocia el elemento creativo, la página de aterrizaje predeterminada que se abre cuando un usuario hace clic en un anuncio que incluye el elemento creativo y las etiquetas opcionales que se utilizarán como filtros en varias vistas de [!DNL Creative].
+   * **Creativos estándar:** Puede cargar y administrar creativos en [varios formatos](#creative-creative-formats). Para cada elemento creativo, se especifica el idioma predeterminado para cada anuncio con el que se asocia el elemento creativo y la página de aterrizaje predeterminada que se abre cuando un usuario hace clic en un anuncio que incluye el elemento creativo. Si lo desea, puede especificar etiquetas para utilizarlas como filtros en varias vistas dentro de [!DNL Creative] y como valores de columna en [!UICONTROL Custom Creative Report] cuando incluya mediante la dimensión [!UICONTROL Creative Label].
 
    * **Creativos dinámicos:** (solo clientes existentes de Adobe Advertising DCO) Los usuarios administradores pueden crear creativos generados dinámicamente asignando variables dinámicas en una plantilla de anuncio a los valores de un archivo de fuente. Todos los usuarios pueden obtener una vista previa de los anuncios dinámicos existentes, duplicarlos y eliminarlos.
 
@@ -90,6 +90,8 @@ Consulte &quot;[Personalizar las vistas de datos](/help/creative/introduction/cu
 
 La vista principal [!UICONTROL Creative Libraries] muestra todas las bibliotecas creativas. Los datos de cada biblioteca incluyen el número de experiencias a las que se asignan los paquetes de la biblioteca, el número de paquetes, el número de creativos, el número de tamaños creativos, el número de destinos de idioma predeterminados, la fecha de creación y la fecha de la última modificación de cualquier elemento de la biblioteca. El modo de tabla también incluye una columna para el anunciante.
 
+Cuando esté en el modo de tarjeta, puede desplazarse por las imágenes de una biblioteca con varios elementos creativos mediante los botones &lt; y >.
+
 #### Acciones disponibles
 
 * Creación de nuevas bibliotecas
@@ -156,7 +158,7 @@ Actualmente, la capacidad de crear y editar elementos creativos dinámicos solo 
 
 ### La vista [!UICONTROL Creative Libraries] > [!UICONTROL Bundles]
 
-La vista [!UICONTROL Bundles] muestra todos los contenedores de paquete estándar y dinámico. Puede ver los nombres creativos, los tamaños creativos y los idiomas de los creativos incluidos en cada paquete.
+La vista [!UICONTROL Bundles] muestra todos los contenedores de paquete estándar y dinámico. Puede ver los nombres creativos, los tamaños creativos y los idiomas de los creativos incluidos en cada paquete. Cuando esté en el modo de tarjeta, puede desplazarse por las imágenes en un paquete con varios elementos creativos mediante los botones &lt; y >.
 
 #### Acciones disponibles
 
