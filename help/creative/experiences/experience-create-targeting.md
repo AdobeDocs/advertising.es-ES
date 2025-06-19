@@ -3,9 +3,9 @@ title: Crear una experiencia con segmentación del árbol de decisiones
 description: Obtenga información sobre cómo crear una experiencia de publicidad segmentada mediante un árbol de decisiones.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Cree una experiencia de anuncio segmentada mediante un árbol de decisiones. Cad
 
       * Destinos:
 
-         * [Agregar un nodo de destino al nivel final](experience-target-node-add-final.md) en una experiencia.
+         * [Agregar un nodo de destino al nivel final](experience-target-node-add-final.md).
 
          * [Insertar un nodo de destino entre nodos](experience-target-node-add-inner.md).
 
@@ -80,7 +80,7 @@ Cree una experiencia de anuncio segmentada mediante un árbol de decisiones. Cad
 
       * Para continuar editando el árbol de decisión, haga clic en **[!UICONTROL Continue Edit]**.
 
-Cuando la experiencia está activa, [!DNL Creative] crea automáticamente una etiqueta de anuncio para cada tamaño creativo aplicable.
+Cuando la experiencia está activa, [!DNL Creative] crea automáticamente una etiqueta de anuncio para cada tamaño creativo aplicable. A continuación, puede [exportar la etiqueta de anuncio e implementarla en un DSP](/help/creative/experiences/experience-tag-export.md).
 
 >[!MORELIKETHIS]
 >

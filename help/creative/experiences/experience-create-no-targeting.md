@@ -3,9 +3,9 @@ title: Crear una experiencia sin segmentación del árbol de decisiones
 description: Aprenda a crear una experiencia publicitaria sin segmentación.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Cree una experiencia publicitaria sin segmentación. Cada experiencia puede util
 1. (Opcional) Siga configurando la experiencia:
 
    * [Cree manualmente una etiqueta de anuncio para un tamaño creativo aplicable](experience-tag-create-manually.md).
+
+     A continuación, puede [exportar la etiqueta de anuncio e implementarla en un DSP](/help/creative/experiences/experience-tag-export.md).
 
      [!DNL Creative] no crea automáticamente etiquetas de anuncio para experiencias sin objetivo.
 
