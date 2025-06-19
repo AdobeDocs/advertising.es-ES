@@ -3,9 +3,9 @@ title: Crear una experiencia con segmentación del árbol de decisiones
 description: Obtenga información sobre cómo crear una experiencia de publicidad segmentada mediante un árbol de decisiones.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ Cree una experiencia de anuncio segmentada mediante un árbol de decisiones. Cad
 
 >[!NOTE]
 >
-> Una vez creada una experiencia de destino, no se puede cambiar posteriormente a una experiencia de destino, que utiliza un flujo de trabajo diferente.
+>* Una vez creada una experiencia de destino, no se puede cambiar posteriormente a una experiencia de destino, que utiliza un flujo de trabajo diferente.
+>* Asegúrese de que las experiencias publicitarias incluyan una segmentación compatible con las campañas en las que la va a implementar. El comportamiento de direccionamiento jerárquico puede variar según DSP. Al cargar una etiqueta de experiencia de anuncio en Advertising DSP y adjuntarla a una ubicación, el objetivo de nivel de anuncio se aplica sobre el objetivo de nivel de ubicación (no en lugar de). Por ejemplo, si una ubicación se dirige a usuarios de Australia y un anuncio a usuarios de Japón, el anuncio se dirigirá a la rama &quot;Todos los demás&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 

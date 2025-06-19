@@ -3,9 +3,9 @@ title: Configuración de experiencias sin objetivo
 description: Consulte las descripciones de todas las configuraciones para experiencias de publicidad sin segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ En el caso de las experiencias sin segmentación en el árbol de decisiones, pue
 
 ## [!UICONTROL Advanced] sección
 
-**Transferencia de datos:** (solo experiencias con anuncios dinámicos; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que DSP, el editor o el socio transfieren en tiempo real al imprimir. Puede especificar hasta cinco claves de paso de datos (parámetros).<!-- May move this to just within the decision tree. -->
+**Transferencia de datos:** (experiencias solo con anuncios dinámicos; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que DSP, el editor o el socio transfieren en tiempo real al imprimir (como SKU=01234567890123 o Cart=empty). Puede especificar hasta cinco claves de paso de datos (parámetros).<!-- May move this to just within the decision tree. -->
 
 Cuando se crea una etiqueta de experiencia de anuncio para un tamaño creativo específico, cada clave especificada en este campo se anexa como una macro en la etiqueta. Introduzca el valor de cada par clave-valor dentro de la etiqueta antes de implementar la etiqueta como un anuncio en DSP.
 

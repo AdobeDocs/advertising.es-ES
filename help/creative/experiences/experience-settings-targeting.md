@@ -3,9 +3,9 @@ title: Configuración de experiencias segmentadas
 description: Consulte las descripciones de todos los ajustes para experiencias de anuncios segmentados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Una vez guardada la experiencia, no se puede cambiar esta configuración.
 
 ## [!UICONTROL Advanced] sección
 
-**Transferencia de datos:** (solo lectura para experiencias existentes; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que DSP, el editor o el socio transfieren en tiempo real al imprimir. Puede especificar hasta cinco claves de paso de datos predeterminadas (parámetros). Al configurar el direccionamiento dentro del árbol de decisión, puede incluir un nivel de datos para pasar los nodos de destino, personalizar opcionalmente las claves y especificar los valores de destino para cada nodo. Si no especifica ninguna clave en este campo al crear la experiencia, aún puede especificarla dentro del árbol de decisión.
+**Pase de datos:** (solo lectura para experiencias existentes; opcional) Para dirigirse a usuarios en función de pares clave-valor específicos que DSP, el editor o el socio pasen en tiempo real al momento de la impresión (como SKU=01234567890123 o Cart=empty). Puede especificar hasta cinco claves de paso de datos predeterminadas (parámetros). Al configurar el direccionamiento dentro del árbol de decisión, puede incluir un nivel de datos para pasar los nodos de destino, personalizar opcionalmente las claves y especificar los valores de destino para cada nodo. Si no especifica ninguna clave en este campo al crear la experiencia, aún puede especificarla dentro del árbol de decisión.
 
 Cada clave se anexa como una macro en la etiqueta de experiencia publicitaria, que puede generar para implementarla como anuncio en DSP.
 

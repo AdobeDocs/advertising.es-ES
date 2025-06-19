@@ -3,9 +3,9 @@ title: Exportación e implementación de una etiqueta de experiencia de anuncio 
 description: Obtenga información sobre cómo exportar una etiqueta de experiencia de anuncio y, opcionalmente, cargarla en una campaña de Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 41763b21bda47e8bd45f48c18a674cd694df68d1
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 >* Cuando crea una experiencia con la segmentación del árbol de decisiones, [!DNL Creative] crea automáticamente una etiqueta de anuncio para cada tamaño creativo aplicable.
 >* Cuando crea una experiencia sin segmentar el árbol de decisiones, debe [crear manualmente una etiqueta de anuncio](experience-tag-create-manually.md) para cada tamaño creativo aplicable.
 >* Las etiquetas de experiencia son dinámicas. No es necesario actualizar las etiquetas si edita una experiencia.
+>* Asegúrese de que las campañas en las que va a implementar una experiencia publicitaria incluyan una segmentación compatible con la experiencia. El comportamiento de direccionamiento jerárquico puede variar según DSP. En Advertising DSP, la segmentación a nivel de anuncio se aplica después de la segmentación a nivel de ubicación y no reemplaza la segmentación a nivel de ubicación. Por ejemplo, si una ubicación de Advertising DSP segmenta usuarios en Australia y un anuncio segmenta usuarios en Japón, el anuncio segmentará la rama &quot;Todos los demás&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -32,7 +33,7 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**
 
-1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Exportar etiquetas de publicidad](/help/creative/assets/export.png "Exportar etiquetas de publicidad") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Exportar etiquetas de publicidad](/help/creative/assets/export.png "Exportar etiquetas de publicidad") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -44,7 +45,7 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
 1. Haga clic en **[!UICONTROL Next]** en la esquina superior derecha o haga clic en **[!UICONTROL Generate ad tags]** en el menú de la izquierda.
 
-1. Seleccione el tipo de etiqueta: ** *JavaScript<!-- sic -->* **&#x200B; o &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Seleccione el tipo de etiqueta: ** *JavaScript<!-- sic -->* ** o ** *IFRAME* ** <!-- sic -->.
 
 1. En la lista [!UICONTROL Destinations], seleccione dónde creará anuncios para la experiencia.
 

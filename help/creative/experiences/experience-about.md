@@ -3,9 +3,9 @@ title: Acerca de las experiencias en Advertising Creative
 description: Aprenda a configurar experiencias de publicidad personalizadas y optimizar los elementos de publicidad en función del rendimiento.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * Ubicaciones geográficas específicas, incluidos países, estados, DMA en Estados Unidos, ciudades y códigos postales
 
-   * Visores para los que se pasan pares clave-valor específicos (destinos de paso de datos) desde DSP, el publicador o el socio
+   * Visores para los que se pasan pares clave-valor específicos (destinos de paso de datos) desde DSP, el editor o el socio (como SKU=01234567890123 o Cart=empty)
 
    * [!DNL Creative] píxeles de retargeting y valores de atributo especificados
 
@@ -38,12 +38,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Dado que los dos tipos de experiencias tienen flujos de trabajo diferentes, no se puede cambiar si se debe utilizar o no la segmentación del árbol de decisión una vez que se guarda la experiencia. Esto significa que no puede cambiar una experiencia sin objetivo a una experiencia con objetivo. Del mismo modo, no se puede cambiar una experiencia segmentada por una experiencia sin objetivo.
+> Dado que los dos tipos de experiencias tienen flujos de trabajo diferentes, no se puede cambiar una experiencia sin objetivo a una experiencia con objetivo ni una experiencia con objetivo a una experiencia sin objetivo.
 
 ## Entrega y optimización de anuncios
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative] proporciona anuncios de origen y déclencheur de anuncios de terceros para la experiencia en función de las opciones de objetivo de segmentación (cuando corresponda), programación, rotación de anuncios y optimización, así como del inventario de anuncios disponible.
 
@@ -61,6 +61,10 @@ Por ejemplo, puede programar Creative 1 para que se ejecute durante las dos prim
 
 Una vez que hayas creado una experiencia en vivo (con todos los elementos publicitarios requeridos), puedes [generar una etiqueta JavaScript o iframe para toda la experiencia](experience-tag-export.md). Puede cargar la etiqueta de experiencia como anuncio en una campaña en Adobe Advertising DSP o implementarla como anuncio en un DSP de terceros.
 
+>[!NOTE]
+>
+>El comportamiento de direccionamiento jerárquico puede variar según DSP. Advertising DSP aplica la segmentación a nivel de anuncio sobre la segmentación a nivel de ubicación.
+
 ## Datos de rendimiento para sus experiencias
 
 Están disponibles los siguientes datos de rendimiento:
@@ -68,10 +72,6 @@ Están disponibles los siguientes datos de rendimiento:
 * Al habilitar la opción [!UICONTROL Metrics] en la vista [!UICONTROL Creative] > [!UICONTROL Experiences], cada tarjeta o fila de experiencia indica el número de impresiones y clics que recibió la experiencia.
 
   ![Opción de métricas](/help/creative/assets/metrics-option.png "Opción de métricas")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * Puede [ver datos de rendimiento detallados de cualquier experiencia](experience-performance-details.md) desde la vista [!UICONTROL Experiences].
 
