@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Creative
 user-guide-description: Obtenga información acerca de las principales funciones, tareas, configuraciones y otros recursos necesarios para utilizar Advertising Creative.
 breadcrumb-title: Guía de Creative
 hide: true
-source-git-commit: 1d48dd40b0803220ab933c06e1f9d25a18aefde4
+source-git-commit: 78865ed65255aa3c5f9167703877234595e8d1e7
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 + Introducción {#introduction}
    + [Acerca de Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personalizar las vistas de datos](/help/creative/introduction/customize-data-views.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Bibliotecas de Creative {#creative-libraries}
    + [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tamaños creativos admitidos](/help/creative/creative-libraries/creative-sizes.md)
@@ -69,7 +69,7 @@ ht-degree: 0%
    + [Previsualización de una experiencia](/help/creative/experiences/experience-preview.md)
    + [Exportación e implementación de una etiqueta de experiencia de anuncio para una experiencia en directo](/help/creative/experiences/experience-tag-export.md)
    + [Uso compartido de una URL de demostración para una experiencia](/help/creative/experiences/experience-share-demo-url.md)
-   + [Descargar todas las experiencias de la vista](/help/creative/experiences/experience-download-view.md)
+   + [Descargar datos de la vista [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
    + [Cambiar nombre de etiqueta de anuncio](/help/creative/experiences/experience-tag-rename.md)
    + [Eliminar una experiencia](/help/creative/experiences/experience-delete.md)
 + Informes de rendimiento {#reports}
@@ -78,4 +78,4 @@ ht-degree: 0%
 + [Redireccionamiento de píxeles](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 + [Obtener ayuda](/help/creative/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es){target="_blank"}
++ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
