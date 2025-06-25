@@ -3,7 +3,7 @@ title: Ver y crear recursos publicitarios a partir de su [!UICONTROL Asset Libra
 description: Aprenda a ver y crear recursos de imagen, vídeo y texto reutilizables para las bibliotecas de recursos de nivel de cuenta de  [!DNL Google Ads] y [!DNL Microsoft Advertising] i.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Puede utilizar cualquiera de los recursos para sus campañas Máximo rendimiento
 
 ## Creación y carga de recursos
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 
 1. En la parte superior derecha, seleccione la red publicitaria y la cuenta.
 

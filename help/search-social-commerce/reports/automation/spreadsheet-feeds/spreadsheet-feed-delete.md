@@ -3,7 +3,7 @@ title: Eliminar fuentes de informes de hoja de cálculo
 description: Obtenga información sobre cómo eliminar fuentes de hoja de cálculo.
 exl-id: 762e4438-3986-4ae9-92af-335563c23bf7
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Si se elimina la plantilla de informe asociada a una fuente, esta se eliminará automáticamente.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. Active la casilla de verificación situada junto a cada fuente que desee eliminar.
 

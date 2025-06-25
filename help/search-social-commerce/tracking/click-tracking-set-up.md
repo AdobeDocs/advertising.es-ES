@@ -3,7 +3,7 @@ title: Configurar el rastreo de clics basado en cookies
 description: Obtenga información sobre cómo configurar y validar etiquetas de seguimiento de clics.
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Para que Search, Social y Commerce rastreen clics, se deben configurar y validar
 
 1. Para cada cuenta de red de publicidad, haga lo siguiente:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Accounts]**.
+   1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Accounts]**.
 
    1. Mantenga el cursor sobre el nombre de la cuenta, haga clic en ![Icono de menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icono de menú") y, a continuación, seleccione **[!UICONTROL Edit]**.
 
@@ -42,7 +42,7 @@ Para que Search, Social y Commerce rastreen clics, se deben configurar y validar
 
 1. Para cada campaña, haga lo siguiente:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+   1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
    1. Mantenga el cursor sobre el nombre de la campaña, haga clic en ![Icono de menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icono de menú") y, a continuación, seleccione **[!UICONTROL Edit]**.
 

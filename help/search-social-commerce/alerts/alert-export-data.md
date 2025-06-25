@@ -3,7 +3,7 @@ title: Exportar datos para alertas personalizadas
 description: Obtenga información sobre cómo exportar datos de una alerta activada a un archivo.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Puede exportar datos para una alerta desencadenada o datos para la alerta desenc
 
 1. Realice una de las acciones siguientes:
 
-   * (Para exportar los datos de la última alerta desencadenada para una plantilla de alerta) En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que se abre en la vista Plantillas de alerta.
+   * (Para exportar los datos de la última alerta desencadenada para una plantilla de alerta) En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que se abre en la vista Plantillas de alerta.
 
-   * (Para exportar datos para una alerta desencadenada específica) En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. En el submenú, haga clic en **[!UICONTROL Triggered Alerts]**.
+   * (Para exportar datos para una alerta desencadenada específica) En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**. En el submenú, haga clic en **[!UICONTROL Triggered Alerts]**.
 
 1. En la columna [!UICONTROL Export] situada junto al nombre de la plantilla o del informe, haga clic en el nombre de un formato y, a continuación, abra o guarde el archivo según el procedimiento normal del explorador:
 

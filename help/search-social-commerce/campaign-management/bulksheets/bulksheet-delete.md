@@ -3,7 +3,7 @@ title: Eliminar hojas de edición masiva y archivos de error cargados
 description: Obtenga información sobre cómo eliminar los archivos de hojas de edición masiva y los archivos de error.
 exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puede eliminar manualmente archivos de hojas de edición masiva, archivos de err
 >
 >Si ha publicado una hoja de edición masiva pero ha recibido errores, no elimine el archivo de errores hasta que se hayan resuelto todos los errores.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Seleccione la casilla de verificación situada junto a cada archivo que desee eliminar.
 

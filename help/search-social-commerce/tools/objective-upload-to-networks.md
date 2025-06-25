@@ -3,7 +3,7 @@ title: Habilitar la carga de objetivos en las redes de publicidad
 description: Aprenda a cargar los objetivos de sus portafolios híbridos en  [!DNL Google Ads] y [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Las cargas a [!DNL Google Ads] se producen a diario a las 06:00 en el huso horar
 >
 >Las conversiones rastreadas por Google Ads y por la etiqueta de seguimiento universal de eventos (UET) de Microsoft Advertising no se vuelven a cargar en las redes de anuncios. Si los incluye dentro de un objetivo, debe agregarlos a los objetivos de campaña dentro del editor de la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
 1. Active la casilla de verificación situada junto a **[!UICONTROL Enable Objective Upload]**.
 
@@ -40,7 +40,7 @@ Las cargas a [!DNL Google Ads] se producen a diario a las 06:00 en el huso horar
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-1. (Si las conversiones se rastrean en el nivel de cuenta de administrador) [Agregue credenciales para la cuenta de administrador](/help/search-social-commerce/admin/manager-accounts.md) en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. (Si las conversiones se rastrean en el nivel de cuenta de administrador) [Agregue credenciales para la cuenta de administrador](/help/search-social-commerce/admin/manager-accounts.md) en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Compruebe que cada objetivo (denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`) aparece en un plazo de dos días en la red publicitaria.
 
@@ -67,7 +67,7 @@ GGL_Lead no se incluye en el cálculo/carga porque es una métrica rastreada en 
 
 >[!TIP]
 >
->Puede ver los datos de los ingresos ponderados en función de los Adobes Advertising en los informes de la red publicitaria. Se recomienda comparar los ingresos ponderados con los [!DNL Google Ads] &quot;Todos los convertidores. (por conversión. hora)&quot; o la métrica [!DNL Microsoft Advertising] &quot;Todas las conversiones&quot;. ingresos&quot;, segmentado a la métrica O_ACS_OBJ*.<!--clarify -->
+>Puede ver datos de los ingresos ponderados por Adobe Advertising en los informes de la red de publicidad. Se recomienda comparar los ingresos ponderados con los [!DNL Google Ads] &quot;Todos los convertidores. (por conversión. hora)&quot; o la métrica [!DNL Microsoft Advertising] &quot;Todas las conversiones&quot;. ingresos&quot;, segmentado a la métrica O_ACS_OBJ*.<!--clarify -->
 
 ## Solución de problemas de objetivos perdidos
 
@@ -75,7 +75,7 @@ Si el objetivo, denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_accou
 
 * ([!DNL Google Ads]) Compruebe si las conversiones deben cargarse en el nivel de cuenta o administrador. Si deben cargarse en el nivel de responsable:
 
-   * Compruebe si las credenciales de la cuenta de administrador de [!DNL Google Ads] se proporcionan en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Si es necesario, [agregue las credenciales para la cuenta de administrador](/help/search-social-commerce/admin/manager-accounts.md).
+   * Compruebe si las credenciales de la cuenta de administrador de [!DNL Google Ads] se proporcionan en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Si es necesario, [agregue las credenciales para la cuenta de administrador](/help/search-social-commerce/admin/manager-accounts.md).
 
    * Compruebe si la cuenta de red de publicidad ya incluye el mismo nombre de métrica. Si es así, cambie el nombre de la métrica para que se pueda crear la propiedad correcta en el nivel de administrador.
 

@@ -3,7 +3,7 @@ title: Administrar  [!DNL Google Ads] extensiones de llamada
 description: Obtenga información sobre cómo crear y administrar  [!DNL Google Ads] extensiones de llamadas.
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Cree y administre extensiones de llamadas compartidas de nivel de cuenta para cu
 
 ## Crear una llamada compartida [!DNL Google Ads]
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
@@ -34,7 +34,7 @@ Una vez creado un vínculo de sitio, puede [asignarlo a una cuenta, campaña o g
 
 Se puede editar una llamada compartida a la vez.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Seleccione la casilla de verificación situada junto a la llamada que desea editar.
 
@@ -46,7 +46,7 @@ Se puede editar una llamada compartida a la vez.
 
 ## Eliminar [!DNL Google Ads] llamadas compartidas
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Active la casilla de verificación situada junto a cada llamada compartida que desee eliminar.
 

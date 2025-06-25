@@ -3,7 +3,7 @@ title: Cambiar el estado de las palabras clave y las palabras clave negativas
 description: Aprenda a cambiar el estado de las palabras clave y las palabras clave negativas.
 exl-id: 46b000af-14a0-4f00-8f3c-c3ef2c93fd19
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puede pausar una palabra clave de búsqueda activa que se pueda pujar para desha
 
 También puede eliminar palabras clave de búsqueda activas o en pausa, o palabras clave negativas. Las palabras clave eliminadas o las palabras clave negativas se eliminan de la red de anuncios. Todavía están visibles, pero no se pueden cambiar.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
 
 1. (Opcional) Filtre la lista para incluir palabras clave específicas o palabras clave negativas.
 

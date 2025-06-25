@@ -3,7 +3,7 @@ title: Crear una etiqueta de conversión para  [!DNL Google Ads]
 description: Aprenda a crear una etiqueta de conversión  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puede crear etiquetas de conversión para las nuevas conversiones que se seguir�
 
 Para generar etiquetas de conversión para las conversiones existentes, utilice el editor de la red de publicidad.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, que se abre en la ficha **[!UICONTROL Summary]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, que se abre en la ficha **[!UICONTROL Summary]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 

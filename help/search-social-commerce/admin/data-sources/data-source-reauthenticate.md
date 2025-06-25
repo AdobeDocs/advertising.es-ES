@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo volver a autenticar una fuente de 
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Si cambia la contraseña de la cuenta de correo electrónico utilizada para un origen de datos o si caduca el certificado [!DNL OAuth] de la cuenta, todas las conexiones abiertas a la cuenta de correo electrónico se cerrarán y deberá volver a autenticarse para reanudar la sincronización de datos.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Active la casilla de verificación situada junto al origen de datos que desea volver a autenticar.
 

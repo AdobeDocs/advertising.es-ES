@@ -3,7 +3,7 @@ title: Sincronizar manualmente datos de red de anuncios
 description: Obtenga información sobre cómo almacenar en déclencheur manualmente la sincronización de la estructura de la campaña y las entidades de campaña para las redes de publicidad admitidas.
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Para las campañas con la opción &quot;[!UICONTROL Auto Upload]&quot;, la opera
 >
 >Cada vez que [cree una hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md), opcionalmente puede sincronizar con la red de anuncios antes de crear la hoja de edición masiva.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]>[!UICONTROL Campaigns]**. En el submenú, seleccione **[!UICONTROL Accounts]** para sincronizar todas las campañas de cuentas específicas o **[!UICONTROL Campaigns]** para sincronizar campañas específicas.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]>[!UICONTROL Campaigns]**. En el submenú, seleccione **[!UICONTROL Accounts]** para sincronizar todas las campañas de cuentas específicas o **[!UICONTROL Campaigns]** para sincronizar campañas específicas.
 
 1. (Opcional) Filtre la lista para incluir cuentas o campañas específicas.
 

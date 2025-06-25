@@ -3,7 +3,7 @@ title: Implementar  [!DNL Naver] cuentas de solo seguimiento
 description: Aprenda a configurar campañas de seguimiento para sus cuentas de  [!DNL Naver] para que pueda rastrear, informar y visualizar el rendimiento de los anuncios que compra directamente desde la red de anuncios.
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Puede rastrear las métricas de rendimiento de todas sus campañas y de cualquie
 
    Para obtener más información, póngase en contacto con el equipo de cuenta de Adobe.
 
-Todos los datos de seguimiento cargados están disponibles en [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] en las vistas [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] y [!UICONTROL Keywords]. También está disponible para informes en la vista [!UICONTROL Insights & Reports].
+Todos los datos de seguimiento cargados están disponibles en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] en las vistas [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] y [!UICONTROL Keywords]. También está disponible para informes en la vista [!UICONTROL Insights & Reports].
 
 >[!MORELIKETHIS]
 >

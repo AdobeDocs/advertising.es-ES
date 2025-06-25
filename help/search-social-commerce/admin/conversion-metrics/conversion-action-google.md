@@ -2,7 +2,8 @@
 title: Crear una acción de conversión para una  [!DNL Google Ads] conversión mejorada para posibles clientes
 description: Aprenda a crear una acción de conversión  [!DNL Google Ads] para una conversión mejorada para posibles clientes.
 feature: Conversions
-source-git-commit: 5eb6ed5b42e74f424fc8499f6df0dbe3f2430ab2
+exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Puede crear acciones de conversión para [!DNL Google Ads] conversiones mejoradas para posibles clientes que se rastrearán en cuentas individuales de [!DNL Google Ads], no en conversiones seguidas a nivel de cuenta de administrador.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, que abre la ficha **[!UICONTROL Summary]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**, que abre la ficha **[!UICONTROL Summary]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 

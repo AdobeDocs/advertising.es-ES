@@ -3,7 +3,7 @@ title: Descarga de datos desde una vista de administración de campañas
 description: Obtenga información sobre cómo descargar datos de la mayoría de las vistas de administración de campañas.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Descarga de datos desde una vista de administración de campañas
 
-Puede descargar datos de las vistas [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], excepto las vistas [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] y [!UICONTROL Extensions]. Puede descargar lo siguiente:
+Puede descargar datos de las vistas [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], excepto las vistas [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] y [!UICONTROL Extensions]. Puede descargar lo siguiente:
 
 * Un informe en formato [!DNL XLSM] (hoja de cálculo [!DNL Microsoft Excel] habilitada para macros). Si selecciona filas específicas en la vista, el informe incluye una fila para cada fila seleccionada. Si no selecciona ninguna fila, se crea una fila para cada fila de la vista.
 

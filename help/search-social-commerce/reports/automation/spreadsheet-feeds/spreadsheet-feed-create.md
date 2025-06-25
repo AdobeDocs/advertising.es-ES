@@ -3,7 +3,7 @@ title: Crear una fuente de informes de hoja de cálculo
 description: Obtenga información sobre cómo configurar fuentes de hojas de cálculo.
 exl-id: a6a9ce46-51b4-4b06-b004-89fce06d1da6
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Configure fuentes de hojas de cálculo utilizando [!DNL Excel] plantillas de hoj
 
 2. Cree la fuente de la hoja de cálculo:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+   1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
    1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Create]**.
 

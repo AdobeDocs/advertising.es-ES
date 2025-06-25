@@ -3,7 +3,7 @@ title: Administrar palabras clave por puja
 description: Aprenda a crear y administrar palabras clave que se pueden pujar para grupos de anuncios de búsqueda.
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Puede crear y editar palabras clave para grupos de anuncios de búsqueda en [tip
 >
 >Para crear muchas palabras clave a la vez, usa la función [copiar y pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) de la campaña.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
@@ -50,7 +50,7 @@ La palabra clave existente se elimina y se crea otra cuando:
 >
 >Para editar grandes cantidades de datos de palabras clave a la vez, incluidas palabras clave en diferentes redes de anuncios, usa la función [copiar y pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) de campañas.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. Seleccione la casilla de verificación situada junto a cada fila que desee editar.
 

@@ -3,7 +3,7 @@ title: Validación de páginas de aterrizaje en archivos de hoja de edición mas
 description: Obtenga información sobre cómo validar las direcciones URL de destino en un archivo de hoja de edición masiva de una sola cuenta.
 exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Más tarde puede descargar el archivo, corregir los errores y cargar el archivo 
 >* Esta función no valida los valores de la columna Dirección URL base/Dirección URL final.
 >* Puede publicar archivos de hojas de edición masiva mientras se validan, o incluso si se encuentran errores.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Seleccione la casilla de verificación situada junto a cada archivo que desee validar.
 

@@ -3,7 +3,7 @@ title: Edición de una plantilla de informe
 description: Obtenga información sobre cómo editar la configuración de las plantillas de informe reutilizables.
 exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puede cambiar la configuración de cualquier plantilla de informe que haya creado. La nueva configuración se aplica a cualquier informe que utilice la plantilla y que se genere en el futuro.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. Haga clic en la ficha **[!UICONTROL Templates]**.
 

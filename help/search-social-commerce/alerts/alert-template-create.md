@@ -3,7 +3,7 @@ title: Crear una plantilla de alerta personalizada
 description: Obtenga información sobre cómo crear una plantilla para generar alertas personalizadas.
 exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puede crear una plantilla de alertas para portafolios, campañas, grupos de anun
 
 ## Crear una plantilla de alerta desde la vista [!UICONTROL Alert Templates]
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que se abre en la vista [!UICONTROL Alert Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que se abre en la vista [!UICONTROL Alert Templates].
 
 1. En la barra de herramientas, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear") y, a continuación, seleccione el tipo de entidad que desea evaluar ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad] o [!UICONTROL Product Group]).
 
@@ -32,9 +32,9 @@ Puede moverse entre las fichas haciendo clic en el nombre de la ficha (por ejemp
 >
 >Esta opción no está disponible para plantillas de alerta de nivel de portafolio.
 
-1. En la vista **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, abra la subvista de administración de campañas para el tipo de entidad que desea evaluar ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] o [!UICONTROL Product Groups]).
+1. En la vista **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, abra la subvista de administración de campañas para el tipo de entidad que desea evaluar ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] o [!UICONTROL Product Groups]).
 
-Por ejemplo, para crear una plantilla de alerta de nivel de palabra clave, vaya a [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] y, a continuación, seleccione [!UICONTROL Keywords].
+Por ejemplo, para crear una plantilla de alerta de nivel de palabra clave, vaya a [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] y, a continuación, seleccione [!UICONTROL Keywords].
 
 1. En el lado derecho de la barra de herramientas sobre la tabla de datos, haz clic en ![Crear alerta](/help/search-social-commerce/assets/add-alert.png "Crear alerta").
 

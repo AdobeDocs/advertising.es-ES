@@ -3,7 +3,7 @@ title: Cambiar el estado de las ubicaciones y las ubicaciones negativas
 description: Aprenda a cambiar el estado de las ubicaciones y las ubicaciones negativas de  [!DNL Google Ads].
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Puedes pausar una colocación activa y pujable para desactivar las pujas en ella
 
 También se puede borrar una posición activa o en pausa, o una posición negativa. Las ubicaciones eliminadas o negativas se eliminan de la red de anuncios. Todavía están visibles, pero no se pueden cambiar.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| [!UICONTROL Negatives]\]**.
 
 1. (Opcional) Filtre la lista para incluir ubicaciones específicas o ubicaciones negativas.
 

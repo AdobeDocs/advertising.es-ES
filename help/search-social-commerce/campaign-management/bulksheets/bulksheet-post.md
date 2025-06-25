@@ -3,7 +3,7 @@ title: Publicación de hojas de edición masiva o archivos de error corregidos
 description: Aprenda a publicar archivos de hojas de edición masiva en las redes de anuncios.
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Los archivos de hojas de edición masiva y los archivos de error se eliminan aut
 >[!NOTE]
 >También puede publicar un archivo de hoja de edición por lotes o un archivo de error al cargar el archivo.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Seleccione la casilla de verificación situada junto a cada archivo que desee publicar.
 
@@ -35,7 +35,7 @@ Cuando comienza la tarea, el estado y la fecha posterior programada de la fila s
 >
 >* Las grandes cantidades de datos tardan más en publicarse. Puede seguir el progreso del archivo en la columna [!UICONTROL Progress] de la vista [!UICONTROL Bulksheets].
 >* Todos los datos publicados están sujetos al proceso editorial de la red.
->* Antes de publicar el archivo de hoja de edición masiva, puede cancelar la publicación.
+* Antes de publicar el archivo de hoja de edición masiva, puede cancelar la publicación.
 
 ## Configuración de publicación para hojas de edición masiva y archivos de error corregidos {#bulksheet-post-settings}
 

@@ -3,7 +3,7 @@ title: Actualizar manualmente fuentes de informes de hoja de cálculo
 description: Obtenga información sobre cómo actualizar manualmente los datos en las fuentes de hojas de cálculo.
 exl-id: 7d91d6ce-e2fe-4ad7-b015-99aeae872d86
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Las fuentes de hoja de cálculo se actualizan automáticamente a las 08:00 todos los días en la zona horaria local.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. Active la casilla de verificación situada junto a cada fuente que desee actualizar.
 

@@ -3,7 +3,7 @@ title: Administrar grupos de anuncios
 description: Obtenga información sobre cómo crear y administrar grupos de anuncios.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Puede crear grupos de anuncios desde Search, Social y Commerce para un [tipo de 
 >
 >Para agregar grandes cantidades de datos de grupos de anuncios a la vez, usa la [función de copiar y pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o las [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) de la campaña.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
@@ -46,7 +46,7 @@ Puede editar la configuración de grupos de anuncios individuales. También pued
 >
 >Para editar grandes cantidades de datos a la vez, usa la función [copiar y pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
 1. Realice una de las acciones siguientes:
 
@@ -78,7 +78,7 @@ Puede pausar cualquier grupo de anuncios de búsqueda activo para deshabilitar l
 
 También puede eliminar cualquier grupo de anuncios de búsqueda activo o pausado. Los grupos de anuncios eliminados se eliminan de la red de anuncios. Todavía están visibles, pero no se pueden cambiar.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
 1. (Opcional) Filtre la lista para incluir grupos de anuncios específicos.
 

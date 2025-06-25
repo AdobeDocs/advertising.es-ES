@@ -3,7 +3,7 @@ title: Administrar plantillas de publicidad para fuentes de inventario
 description: Obtenga información acerca de la administración de plantillas de publicidad a través de las cuales se pueden procesar los datos de inventario para administrar la estructura de cuentas y enviar anuncios dinámicos.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Cualquier plantilla se puede activar, pausar o eliminar. Los datos de fuente se 
 
 Cree plantillas independientes para anuncios de texto y de texto expandido/extendido, anuncios de búsqueda adaptables, [!DNL Google Ads] anuncios de compras y [!DNL Microsoft Advertising] anuncios de compras.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
 1. Realice una de las siguientes acciones:
 
@@ -137,7 +137,7 @@ Puede activar cualquier plantilla de fuente de datos en pausa o pausar cualquier
 >
 >Puede propagar datos manualmente a través de una plantilla en pausa, pero los datos no se propagan automáticamente a través de ella.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
 1. Seleccione la casilla de verificación situada junto a cada plantilla cuyo estado desee cambiar.
 
@@ -145,7 +145,7 @@ Puede activar cualquier plantilla de fuente de datos en pausa o pausar cualquier
 
 ## Eliminar plantillas de fuentes
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
 1. Active la casilla de verificación situada junto a cada plantilla que desee eliminar.
 

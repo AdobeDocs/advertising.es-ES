@@ -3,7 +3,7 @@ title: Administrar modificadores
 description: Obtenga información sobre cómo configurar y administrar modificadores para las plantillas de publicidad para las fuentes de datos de inventario.
 exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 
 ## Creación de un grupo de modificadores
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Modifiers]**.
 
@@ -36,7 +36,7 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 
 ## Editar un grupo de modificadores
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Modifiers]**.
 
@@ -56,7 +56,7 @@ Cada grupo de modificadores puede incluir tantos modificadores como desee. Cada 
 >
 >Cuando elimine un grupo de modificadores, quite todas las variables de dicho grupo (indicadas como `<modifier_group_name>`) de los campos de las plantillas existentes. Si intenta propagar datos a través de una plantilla utilizando variables para modificadores que no existen, el trabajo falla1.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Modifiers]**.
 

@@ -3,7 +3,7 @@ title: Cargar una hoja de edición masiva o un archivo de error corregido
 description: Obtenga información sobre cómo cargar manualmente un archivo de hoja de edición masiva o un archivo de error de validación de página de aterrizaje corregido.
 exl-id: 44c76ca3-1d3e-43c2-868a-4868157d32b0
 feature: Search Bulksheets
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puede cargar archivos de hojas de edición masiva, archivos de error corregidos de validación de páginas de aterrizaje y otros archivos de error corregidos desde su dispositivo o red para [redes de anuncios compatibles](bulksheet-about.md#bulksheet-functionality-by-network). Todas las columnas personalizadas del archivo se eliminan al cargarlo.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Upload Bulksheet]**.
 

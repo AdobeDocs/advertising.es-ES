@@ -3,7 +3,7 @@ title: Seleccionar varias filas
 description: Obtenga información sobre cómo seleccionar varias filas para poder realizar la misma acción en todas ellas.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Seleccionar varias filas
 
-Puede seleccionar varias filas en las vistas [!UICONTROL Search] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] y [!UICONTROL Optimization] > [!UICONTROL Constraints] de las siguientes maneras:
+Puede seleccionar varias filas en las vistas [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] y [!UICONTROL Optimization] > [!UICONTROL Constraints] de las siguientes maneras:
 
 * Métodos abreviados del teclado:
 

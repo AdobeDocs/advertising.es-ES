@@ -3,7 +3,7 @@ title: Cambiar el nombre para mostrar de una métrica de conversión
 description: Aprenda a cambiar el nombre de la métrica de conversión que se muestra en los encabezados de columna de sus vistas de administración e informes.
 feature: Conversions
 exl-id: 5c3c1eaf-6754-42f1-acf1-f75d01e2d216
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -18,9 +18,9 @@ No puede eliminar un nombre para mostrar existente.
 
 >[!NOTE]
 >
->Para [métricas de Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md), los cambios manuales en el nombre para mostrar se sobrescribirán si actualiza o vuelve a autenticar la integración. Del mismo modo, cualquier cambio de nombre dentro de los Google Analytics se ignorará a menos que [actualice](/help/search-social-commerce/admin/data-sources/data-source-edit.md) o [vuelva a autenticar](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) la integración.
+>Para [métricas de Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md), cualquier cambio manual en el nombre para mostrar se sobrescribirá si actualiza o vuelve a autenticar la integración. Del mismo modo, cualquier cambio de nombre en Google Analytics se ignorará a menos que [actualice](/help/search-social-commerce/admin/data-sources/data-source-edit.md) o [vuelva a autenticar](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) la integración.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
 
 1. En la columna **[!UICONTROL Display Name]** de la métrica, haga clic dentro de la celda.
 

@@ -3,7 +3,7 @@ title: Exportar un archivo de hoja de edición masiva generado o cargado
 description: Obtenga información sobre cómo descargar un archivo de hoja de edición masiva, incluidos los archivos de error y los archivos de validación de página de aterrizaje.
 exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Puede descargar cualquier archivo de hoja de edición masiva generado o cargado, incluidos los archivos de error y los archivos de validación de página de aterrizaje, durante 30 días. Los archivos se eliminan automáticamente 30 días después de cargarse o generarse.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. (Opcional) Encima de la lista de hojas de edición masiva, [agregue filtros](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) para limitar los archivos que se muestran.
 

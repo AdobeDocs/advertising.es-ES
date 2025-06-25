@@ -3,7 +3,7 @@ title: Crear una  [!DNL Excel] plantilla para una fuente de informes de hoja de 
 description: Aprenda a crear plantillas de hoja de cálculo con formato especial.
 exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Para crear fuentes de hoja de cálculo, primero debe crear [!DNL Microsoft Excel] plantillas de hoja de cálculo con formato especial utilizando plantillas de informe normales. Opcionalmente, puede personalizar la hoja de cálculo [!DNL Excel] para incluir columnas y gráficos adicionales.
 
-1. En **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, genere el tipo de informe deseado con una unidad [!UICONTROL Date Aggregation] de &quot;[!UICONTROL Daily]&quot; y con todos los demás parámetros de datos que desee, guardando el informe como plantilla.
+1. En **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, genere el tipo de informe deseado con una unidad [!UICONTROL Date Aggregation] de &quot;[!UICONTROL Daily]&quot; y con todos los demás parámetros de datos que desee, guardando el informe como plantilla.
 
    >[!NOTE]
    >
    > * Puede crear fuentes de hoja de cálculo para los informes [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword] y [!UICONTROL Forecast Accuracy]. Si usa el [!UICONTROL Ad Group Report], limite el número de grupos de publicidad incluidos para obtener resultados más rápidos.
    > * No se utiliza la unidad [!UICONTROL Date Range] definida en la plantilla. Cuando configure la fuente de la hoja de cálculo más adelante, definirá las fechas en las que desea actualizar los datos.
 
-1. Una vez generado el informe, vaya a **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** y exporte una versión TSV o XLS del resultado del informe a un archivo.
+1. Una vez generado el informe, vaya a **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** y exporte una versión TSV o XLS del resultado del informe a un archivo.
 
 1. En [!DNL Excel], cree una plantilla personalizada para el informe:
 

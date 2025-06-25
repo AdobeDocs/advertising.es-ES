@@ -3,7 +3,7 @@ title: Aplicar o descartar una recomendación del editor
 description: Obtenga información sobre cómo ver, aplicar o descartar una recomendación del editor.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Vea las acciones recomendadas y una explicación de por qué las acciones sería
 >
 >Aunque las recomendaciones le ayudan a mejorar el rendimiento de las campañas, es posible que algunas no se alineen con sus objetivos más amplios. Como resultado, es mejor consultar con el equipo de cuenta de Adobe antes de implementar cualquier recomendación.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. En la parte superior derecha, seleccione la red publicitaria y la cuenta.
 
@@ -28,9 +28,9 @@ Vea las acciones recomendadas y una explicación de por qué las acciones sería
 
 1. (Opcional) Filtre las recomendaciones por categoría y tipo.
 
-1. En la columna [!UICONTROL Actions] de la recomendación o fila de perspectiva, haga clic en **[!UICONTROL View]**.
+1. En la columna [!UICONTROL Actions] de la fila insight o Recommendations, haga clic en **[!UICONTROL View]**.
 
-1. (Recommendations con subrecomendaciones) Haga clic en **[!UICONTROL View]** junto a la subrecomendación.
+1. (Recomendaciones con subrecomendaciones) Haga clic en **[!UICONTROL View]** junto a la subrecomendación.
 
 1. (Opcional) Realice una de las siguientes acciones:
 

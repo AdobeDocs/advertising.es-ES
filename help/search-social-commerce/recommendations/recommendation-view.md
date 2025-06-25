@@ -3,7 +3,7 @@ title: Ver recomendaciones del editor y perspectivas de rendimiento
 description: Aprenda a ver las  [!DNL Google Ads] recomendaciones y las [!DNL Microsoft Advertising] perspectivas de rendimiento de sus cuentas de red de anuncios.
 feature: Search Recommendations
 exl-id: 8a9d99b1-c90b-4a1c-9516-85edc9024a7c
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Ver las recomendaciones del editor
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. En la parte superior derecha, seleccione la red publicitaria y la cuenta.
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 ## Ver sus datos de rendimiento de [!DNL Microsoft Advertising]
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. En la parte superior derecha, seleccione la red publicitaria y la cuenta.
 
 1. Haga clic en **[!UICONTROL Insights]** sobre la tabla de datos.
 
-1. Cuando la columna [!UICONTROL Actions] de la fila incluya una acción, si lo desea, puede hacer clic en **[!UICONTROL Click here]** para abrir el editor [!DNL Microsoft Advertising], desde el cual podrá actuar sobre la perspectiva.
+1. Cuando la columna [!UICONTROL Actions] de la fila incluya una acción, si lo desea, puede hacer clic en **[!UICONTROL Click here]** para abrir el editor [!DNL Microsoft Advertising], desde el cual podrá actuar en insight.
 
    Si no inició sesión en el editor [!DNL Microsoft Advertising], primero se le dirigirá a la pantalla de inicio de sesión.
 

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Para cada cadena, haga clic en **[!UICONTROL Add (Up to 3)]** e introduzca la si
    * Coincidencia de frase negativa: `"keyword"`
    * Coincidencia exacta negativa: `[keyword]`
 
-La sintaxis habitual para los tipos de frase y coincidencia exacta se utiliza en la hoja de edición masiva que se genera al propagar datos de fuente a través de la plantilla. **Nota:** No puede ver las palabras clave negativas en la ficha [!UICONTROL Keywords] ni en la vista [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+La sintaxis habitual para los tipos de frase y coincidencia exacta se utiliza en la hoja de edición masiva que se genera al propagar datos de fuente a través de la plantilla. **Nota:** No puede ver las palabras clave negativas en la ficha [!UICONTROL Keywords] ni en la vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
 **[!UICONTROL All other campaigns: Apply these negatives]:** (todas las redes de anuncios excepto [!DNL Yandex]; opcional) Cualquier palabra clave negativa estática de nivel de campaña que se agregue para las campañas cuyo nombre no coincida con una cadena especificada. Para especificar varias palabras clave o varios tipos de coincidencia para la misma palabra clave, escríbalas en líneas independientes. Utilice la siguiente sintaxis, sin un signo menos:
 
@@ -29,4 +29,4 @@ La sintaxis habitual para los tipos de frase y coincidencia exacta se utiliza en
 * Coincidencia de frase negativa: `"keyword"`
 * Coincidencia exacta negativa: `[keyword]`
 
-La sintaxis habitual para los tipos de frase y coincidencia exacta se utiliza en la hoja de edición masiva que se genera al propagar datos de fuente a través de la plantilla. **Nota:** No puede ver las palabras clave negativas en la ficha [!UICONTROL Keywords] ni en la vista [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+La sintaxis habitual para los tipos de frase y coincidencia exacta se utiliza en la hoja de edición masiva que se genera al propagar datos de fuente a través de la plantilla. **Nota:** No puede ver las palabras clave negativas en la ficha [!UICONTROL Keywords] ni en la vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].

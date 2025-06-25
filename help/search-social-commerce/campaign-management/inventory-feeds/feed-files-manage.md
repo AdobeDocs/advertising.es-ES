@@ -3,7 +3,7 @@ title: Administrar archivos de fuente de datos de inventario
 description: Obtenga información sobre cómo configurar las opciones que controlan cómo se procesan los datos de fuentes.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -82,7 +82,7 @@ shoes<TAB>Clarks<TAB>20
 
 Puede abrir o descargar cualquier archivo de fuente que se haya cargado manualmente o mediante FTP.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
 1. Busque el archivo de fuente:
 
@@ -101,7 +101,7 @@ Para obtener más información, consulte la ayuda en línea del explorador.
 >[!NOTE]
 > Si asocia una plantilla con un archivo cargado manualmente pero luego carga por FTP otro archivo con el mismo nombre, extensión y formato gramatical, se utilizará al propagar los datos por la plantilla. Por ejemplo, myfile.csv reemplaza a myfile.csv, pero Myfile.CSV no.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Feeds]**.
 
@@ -117,7 +117,7 @@ Se validan todos los campos del archivo. No puede enviar elementos con longitude
 
 Cuando reemplaza un archivo de fuente (incluso si el nuevo archivo tiene un nombre o una extensión diferente), todas las asociaciones de plantilla existentes permanecen. El nuevo archivo se utiliza al propagar datos a través de todas las plantillas que originalmente estaban asociadas al archivo anterior.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
 1. Realice una de las acciones siguientes:
 
@@ -141,7 +141,7 @@ Se validan todos los campos del archivo. No puede enviar elementos con longitude
 
 Puede eliminar cualquier archivo de fuente que se haya cargado manualmente o mediante FTP. Cuando se elimina un archivo de fuente, ya no está asociado a ninguna plantilla.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Feeds]**.
 

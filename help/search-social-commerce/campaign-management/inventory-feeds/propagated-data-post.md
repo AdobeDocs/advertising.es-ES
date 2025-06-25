@@ -3,7 +3,7 @@ title: Publicar datos de campaña generados a partir de fuentes en redes de publ
 description: Obtenga información sobre cómo publicar datos generados a partir de fuentes de datos de inventario en redes de publicidad.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Para que la publicación se realice correctamente, todos los grupos de anuncios 
   >
   >Si anteriormente no validó sus páginas de aterrizaje y desea hacerlo, [propague los datos y obtenga una vista previa](feed-data-propagate.md) desde la vista [!UICONTROL Bulksheets] en lugar de publicarlos en la red publicitaria. A continuación, puede [validar las direcciones URL](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) antes de publicar manualmente el archivo en la red publicitaria.
 
-   1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+   1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
    1. Seleccione la casilla de verificación situada junto a la plantilla.
 
@@ -54,7 +54,7 @@ Para que la publicación se realice correctamente, todos los grupos de anuncios 
 
               Para especificar una fecha, usa el formato DD/MM/AAAA o D/M/AAAA o haz clic en ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") para abrir el calendario y [seleccionar una fecha](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para cambiar una hora, introdúzcala en formato de 24 horas HH/MM o H/M o seleccione una hora (en intervalos de 30 minutos) de la lista.
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un archivo de hoja de cálculo en bloque que está disponible en la vista [!UICONTROL Search] > [!UICONTROL Bulksheets]. Si lo desea, puede publicar el archivo desde allí.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Crea un archivo de hoja de cálculo en bloque que está disponible en la vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]. Si lo desea, puede publicar el archivo desde allí.
 
            Cuando el archivo de hoja de edición masiva resultante es superior a 2 MB, el archivo está en formato ZIP. No es necesario descomprimir el archivo para publicarlo.
 

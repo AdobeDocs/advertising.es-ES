@@ -3,7 +3,7 @@ title: Creación de una plantilla de informe
 description: Obtenga información sobre cómo crear una plantilla de informe reutilizable.
 exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Puede guardar varias plantillas de informe para cualquier tipo de informe de ren
 
    * Desde la ficha [!UICONTROL Templates]:
 
-      * En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+      * En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
       * Haga clic en la ficha **[!UICONTROL Templates]**.
 
@@ -32,7 +32,7 @@ Puede guardar varias plantillas de informe para cualquier tipo de informe de ren
 
 * Para crear una plantilla basada en una plantilla existente:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+   1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
    1. Haga clic en la ficha **[!UICONTROL Templates]**.
 

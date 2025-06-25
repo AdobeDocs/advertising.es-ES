@@ -3,7 +3,7 @@ title: Administrar grupos de productos de compras
 description: Obtenga información sobre cómo crear y administrar grupos de productos de compras en campañas de compras.
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] campañas de compras solo*
 
-Puede crear y editar grupos de productos y eliminar grupos de productos y sus grupos de productos secundarios en la vista [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
+Puede crear y editar grupos de productos y eliminar grupos de productos y sus grupos de productos secundarios en la vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
 
 ## Crear un grupo de productos [!UICONTROL All Products]
 
@@ -24,7 +24,7 @@ Para poder crear grupos de productos con atributos específicos, primero debe cr
 >
 >Para crear muchos componentes de cuenta a la vez, use [hojas de edición masiva de campañas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
@@ -46,7 +46,7 @@ Una vez que haya creado al menos un grupo &quot;[!UICONTROL All Products]&quot; 
 >
 >Para crear muchos componentes de cuenta a la vez, use [hojas de edición masiva de campañas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. (Opcional) Para ver un grupo de productos y sus nodos de grupos de productos secundarios en la vista de árbol, mantenga el cursor sobre el nombre del grupo de productos, haga clic en ![Icono de menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icono de menú") y, a continuación, seleccione **[!UICONTROL Tree View]**.
 
@@ -60,7 +60,7 @@ Una vez que haya creado al menos un grupo &quot;[!UICONTROL All Products]&quot; 
 
 Puede editar la plantilla de oferta y seguimiento para los nodos de grupo de productos de unidades (grupos de productos sin nodos de grupo de productos secundarios) que se incluyen para un grupo de publicidad. No se puede editar ninguna información para grupos de productos de unidades excluidas o para nodos de subdivisiones incluidas o excluidas, que son grupos de productos con nodos de grupos de productos secundarios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. (Opcional) Para ver un grupo de productos y sus nodos de grupos de productos secundarios en la vista de árbol, mantenga el cursor sobre el nombre del grupo de productos, haga clic en ![Icono de menú](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Icono de menú") y, a continuación, seleccione **[!UICONTROL Tree View]**.
 
@@ -88,7 +88,7 @@ Puede editar la plantilla de oferta y seguimiento para los nodos de grupo de pro
 
 Puede eliminar cualquier grupo de productos (excepto el grupo &quot;Todo lo demás&quot;, cuando existen otros grupos de productos en el mismo nivel) que se utilice para determinar qué productos de la cuenta del centro de comerciantes se incluyen en los anuncios de compra del grupo de anuncios. Al eliminar un grupo de productos, se eliminan todos los grupos de productos secundarios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. (Opcional) Filtre la lista para incluir grupos de productos específicos.
 

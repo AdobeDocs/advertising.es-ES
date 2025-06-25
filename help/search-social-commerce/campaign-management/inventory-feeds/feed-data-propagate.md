@@ -3,7 +3,7 @@ title: Propagación de datos de fuentes de inventario mediante plantillas
 description: Obtenga información acerca de la propagación de datos desde las fuentes de inventario a través de plantillas de publicidad para administrar la estructura de cuentas y enviar anuncios dinámicos.
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Al propagar datos, puede obtener una vista previa de los datos generados en una 
 
 ## Propagar archivos de fuentes desde la ficha [!UICONTROL Templates]
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
 1. Seleccione la casilla de verificación situada junto a las plantillas que desea propagar.
 
@@ -44,7 +44,7 @@ Al propagar datos, puede obtener una vista previa de los datos generados en una 
 
 ## Propagar archivos de fuentes de la lista [!UICONTROL Feeds]
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Feeds]**.
 
@@ -72,7 +72,7 @@ Cuando se completa cada acción de propagación, se agrega un resumen de propaga
 
 ## Ver un resumen de propagación
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Haga clic en la ficha **[!UICONTROL Propagations]**.
 
@@ -82,7 +82,7 @@ Cuando se completa cada acción de propagación, se agrega un resumen de propaga
 
 Puede detener un trabajo de propagación de datos de fuentes de inventario mientras el trabajo sigue en cola.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**, que se abre en la ficha [!UICONTROL Templates].
 
 1. En la columna &quot;[!UICONTROL Last Prop. Status]&quot; junto al nombre de la plantilla, haga clic en **[!UICONTROL Cancel]**.
 

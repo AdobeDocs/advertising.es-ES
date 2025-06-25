@@ -3,7 +3,7 @@ title: Descodificación de una dirección URL de seguimiento de clics
 description: Obtenga información sobre cómo quitar el código de seguimiento de clics de Search, Social y Commerce de una dirección URL base.
 exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Puede ver a qué dirección URL de destino está enviando realmente un usuario e
 >
 >* Puede descodificar tantas direcciones URL al mismo tiempo como desee, pero el rendimiento depende del explorador que utilice.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]**.
 
 1. En el campo de entrada, introduzca cada URL que contenga el código de seguimiento de Buscar, Social y Commerce.
 

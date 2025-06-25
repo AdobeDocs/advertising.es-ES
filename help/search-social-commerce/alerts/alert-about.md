@@ -3,7 +3,7 @@ title: Alertas personalizadas
 description: Obtenga información sobre las alertas personalizadas, incluido cómo crear plantillas de alerta y cuándo se activan.
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Cuando se activa una instancia de alerta para una plantilla de alerta:
 
 * Los destinatarios especificados reciben un aviso por correo electrónico. Cuando la alerta contiene hasta 1000 registros, el aviso por correo electrónico incluye un archivo [CSV](/help/search-social-commerce/glossary.md#c-d) con los datos de alerta, incluidos los datos de todas las entidades que activaron la alerta.
 
-* La alerta aparece en la vista [!UICONTROL Triggered Alerts] de [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. Un informe descargable está disponible durante diez días después de activarse la alerta.
+* La alerta aparece en la vista [!UICONTROL Triggered Alerts] de [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. Un informe descargable está disponible durante diez días después de activarse la alerta.
 
 * La alerta se muestra en el centro [!UICONTROL Notifications] de la vista de entidad aplicable, que está disponible en la barra de herramientas derecha. Las notificaciones permanecen en el centro [!UICONTROL Notifications] a menos que las elimine o las marque como leídas.
 

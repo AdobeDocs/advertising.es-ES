@@ -3,7 +3,7 @@ title: Generar un informe básico o avanzado
 description: Obtenga información sobre cómo generar un informe básico o avanzado personalizado.
 exl-id: 529a35f5-517f-4bde-b752-c0afc6346f4b
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Generar un informe básico o avanzado
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Create Report]**, mantenga el cursor sobre **[!UICONTROL Basic Reports]** o **[!UICONTROL Advanced Reports]** y, a continuación, haga clic en [tipo de informe](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md).
 

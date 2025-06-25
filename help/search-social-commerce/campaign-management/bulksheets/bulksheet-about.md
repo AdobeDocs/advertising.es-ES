@@ -3,7 +3,7 @@ title: Administración de datos de campaña mediante hojas de edición masiva
 description: Obtenga información acerca de la funcionalidad de hojas de edición masiva disponible por red de anuncios, el flujo de trabajo de hojas de edición masiva y la gestión de errores.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Los archivos de error se eliminan automáticamente pasados 30 días, a menos que
 
 ## Información sobre cada archivo
 
-Todos los archivos de datos, archivos cargados y archivos de error descargados están disponibles en [!UICONTROL Search] > [!UICONTROL Bulksheets].
+Todos los archivos de datos, archivos cargados y archivos de error descargados están disponibles en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets].
 
 La información de cada archivo incluye el estado actual de la tarea y el porcentaje de la tarea que se ha completado, la fecha en que se creó, (cuando corresponda) la fecha en la que se publicó o se publicará en la red de anuncios especificada, la fecha programada de eliminación y el nombre de inicio de sesión del usuario que inició la tarea.
 

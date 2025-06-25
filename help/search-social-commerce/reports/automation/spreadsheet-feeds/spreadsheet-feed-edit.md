@@ -3,7 +3,7 @@ title: Editar configuración de fuente de informes de hoja de cálculo
 description: Obtenga información sobre cómo editar la configuración de las fuentes de hojas de cálculo.
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Puede cambiar la plantilla de informe, la plantilla [!DNL Microsoft Excel] y otr
 >
 > Si edita las columnas de la plantilla de informe o utiliza una plantilla de informe nueva o actualizada, debe actualizar la plantilla [!DNL Excel] en consecuencia y volver a cargarla.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
 1. (Opcional) Para actualizar la plantilla de informe o la plantilla [!DNL Excel] utilizada para la fuente de hoja de cálculo:
 

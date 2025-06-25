@@ -3,7 +3,7 @@ title: Generar un informe de especialidad
 description: Obtenga información sobre cómo generar un informe de especialidad.
 exl-id: 2428fafa-109a-4a17-9004-a32941cd5519
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Generar un informe de especialidad
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Create Report]**, mantenga el cursor sobre **[!UICONTROL Specialty Reports]** y, a continuación, haga clic en [tipo de informe](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md).
 

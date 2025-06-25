@@ -3,7 +3,7 @@ title: Administrar destinatarios de audiencia para campañas y grupos de anuncio
 description: Aprenda a configurar y administrar los objetivos de audiencia para sus  [!DNL Google Ads] campañas y grupos de anuncios [!DNL Microsoft Advertising] y.
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Puede configurar los objetivos de audiencia, editar los modificadores de oferta 
 
 ## Configuración de destinatarios de audiencia
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
@@ -70,7 +70,7 @@ Puede cambiar el modificador de oferta y el estado de los objetivos de audiencia
 >
 >Search, Social y Commerce optimizan automáticamente el modificador de oferta cuando la campaña principal utiliza la estrategia de oferta de CPC y está en un portafolio configurado para optimizar automáticamente los valores de ajuste de oferta para los objetivos de audiencia.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Realice una de las acciones siguientes:
 
@@ -106,7 +106,7 @@ Puede pausar un destinatario de audiencia activo para deshabilitar las pujas en 
 
 También puede eliminar un destinatario de audiencia de búsqueda activo o pausado.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. (Opcional) Filtre la lista para incluir destinos de audiencia específicos.
 

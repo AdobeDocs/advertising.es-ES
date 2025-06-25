@@ -3,7 +3,7 @@ title: Replicar [!DNL Google Ads] campañas en [!DNL Microsoft Advertising]
 description: Aprenda a exportar sus campañas sincronizadas en una cuenta de  [!DNL Google Ads] directamente a una cuenta sincronizada [!DNL Microsoft Advertising] de.
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -36,7 +36,7 @@ No toda la información de la campaña está duplicada y es posible que tenga qu
 
 Ver [lo importado de [!DNL Google Ads] campañas](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. En el menú principal Buscar, Social y Commerce, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. En el menú principal Buscar, Social y Commerce, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Haga clic en **[!UICONTROL +Import]**.
 
@@ -64,7 +64,7 @@ Ver [lo importado de [!DNL Google Ads] campañas](https://help.ads.microsoft.com
 
 Ver [lo importado de [!DNL Google Ads] campañas](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Seleccione la casilla de verificación situada junto al trabajo de importación y, a continuación, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
@@ -78,7 +78,7 @@ Puede enumerar todos los trabajos de importación, incluida la cuenta de origen 
 
 * Realice una de las acciones siguientes:
 
-   * En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+   * En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
      De manera predeterminada, la vista se abre en la ficha [!UICONTROL List of Import Jobs].
 
@@ -86,7 +86,7 @@ Puede enumerar todos los trabajos de importación, incluida la cuenta de origen 
 
 ## Ejecutar un trabajo de importación de campaña
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Seleccione la casilla de verificación situada junto al trabajo de importación.
 
@@ -96,7 +96,7 @@ Puede enumerar todos los trabajos de importación, incluida la cuenta de origen 
 
 Puede enumerar todos los trabajos de importación completados o fallidos, incluida la hora de inicio, la cuenta de origen [!DNL Google Ads], la cuenta de destino [!DNL Microsoft Advertising], el usuario que creó el trabajo, el número de operaciones correctas y fallidas y cualquier dirección de correo electrónico que recibió notificaciones para cada trabajo. Puede ver más detalles sobre los cambios realizados en la cuenta de destino [!DNL Microsoft Advertising] para cada trabajo, incluido el número de elementos agregados, sincronizados, eliminados y que produjeron errores para cada nivel de entidad (como campaña o palabra clave) en la cuenta.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Haga clic en la ficha **[!UICONTROL Import Logs]**.
 
@@ -110,7 +110,7 @@ Puede enumerar todos los trabajos de importación completados o fallidos, inclui
 
 **[!UICONTROL Credential ID]:** Identificador que [!DNL Microsoft Advertising] usa para representar sus credenciales de [!DNL Google Ads].
 
-La generación automática de credenciales de [!DNL Microsoft Advertising] para la importación no está disponible debido a las limitaciones de [!DNL Microsoft Advertising]. Póngase en contacto con el equipo de cuenta de Adobe para que le creen las credenciales y le proporcionen el ID.
+La generación automática de credenciales de [!DNL Microsoft Advertising] para la importación no está disponible debido a las limitaciones de [!DNL Microsoft Advertising]. Póngase en contacto con el equipo de cuenta de Adobe para que le proporcione las credenciales y el ID.
 
 **[!UICONTROL Target Microsoft Ads account]:** Cuenta sincronizada de [!DNL Microsoft Advertising] en la que se importan los datos de campaña.
 

@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo pausar un origen de datos para det
 role: User, Admin
 exl-id: 93ac22c8-e1e7-490e-8b00-86cac8a2d00c
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Pausar la sincronización de un origen de datos
 
-*Solo administradores de agencia (rol base), administradores de cuentas de Adobe y administradores*
+*Solo administradores de agencia (función base), administradores de cuentas de Adobe y administradores*
 
-Al pausar una fuente de datos, se detiene la sincronización futura con la fuente de datos. Si la fuente se está sincronizando actualmente, el proceso se completa primero para que los datos de Adobe Advertising estén actualizados.
+Al pausar una fuente de datos, se detiene la sincronización futura con la fuente de datos. Si la fuente se está sincronizando, el proceso se completa primero para que los datos de Adobe Advertising estén actualizados.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Active la casilla de verificación situada junto al origen de datos que desea pausar.
 

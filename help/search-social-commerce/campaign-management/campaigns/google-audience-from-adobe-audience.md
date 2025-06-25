@@ -1,9 +1,9 @@
 ---
 title: Crear  [!DNL Google Ads] audiencias de coincidencia de cliente a partir de [!DNL Adobe] audiencias
-description: Aprenda a crear  [!DNL Google Ads] audiencias de coincidencia de cliente a partir de las audiencias de Adobe Analytics y Audience Manager existentes.
+description: Aprenda a crear  [!DNL Google Ads] audiencias de coincidencia de cliente a partir de las audiencias existentes de Adobe Analytics y Audience Manager.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *[!DNL Google Ads]cuentas elegibles para la coincidencia de clientes solamente*
 
-*Anunciantes con una integración de Adobe Advertising-Adobe Audience Manager o Adobe Advertising-Adobe Analytics solamente*
+*Anunciantes con una integración Adobe Advertising-Adobe Audience Manager o Adobe Advertising-Adobe Analytics solamente*
 
-Los anunciantes de inclusión pueden crear [!DNL Google Ads] audiencias de coincidencia de clientes usando los ID de usuario de a) [!DNL Analytics] segmentos que se comparten con Adobe Experience Cloud y b) segmentos de Audience Manager que tienen Search, Social y Commerce como destino, incluidos [!DNL Analytics] segmentos publicados en Adobe Experience Cloud y los segmentos creados con la biblioteca de audiencias de Adobe Experience Cloud. Search, Social y Commerce devuelven automáticamente una URL de seguimiento [!DNL Google] a cada segmento de Audience Manager o [!DNL Analytics] para que [!DNL Google] pueda rastrear la audiencia.
+Los anunciantes de inclusión pueden crear audiencias de coincidencia de clientes de [!DNL Google Ads] con los ID de usuario a partir de: [!DNL Analytics] segmentos que se comparten con Adobe Experience Cloud y b) segmentos de Audience Manager que tienen Search, Social y Commerce como destino, incluidos [!DNL Analytics] segmentos publicados en Adobe Experience Cloud y segmentos creados con la biblioteca de audiencias de Adobe Experience Cloud. Search, Social y Commerce devuelven automáticamente una URL de seguimiento [!DNL Google] a cada segmento [!DNL Analytics] o Audience Manager para que [!DNL Google] pueda rastrear la audiencia.
 
 Cada audiencia [!DNL Adobe] se puede usar para una sola audiencia [!DNL Google].
 
@@ -34,7 +34,7 @@ Cada nueva audiencia [!DNL Google] tiene el mismo nombre que la audiencia [!DNL 
 
    1. (Para crear audiencias de lista de remarketing con ID de usuario) Un usuario administrador de [!DNL Adobe] o administrador de cuentas debe seleccionar la configuración de nivel de anunciante para habilitar las audiencias de coincidencia de clientes.
 
-   1. Implemente el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) versión 2.0 o superior.
+   1. Implemente el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) versión 2.0 o superior.
 
    1. Implemente la siguiente etiqueta lo más alto posible en las páginas web del anunciante desde las que se debe realizar el seguimiento de la audiencia
 
@@ -46,7 +46,7 @@ Cada nueva audiencia [!DNL Google] tiene el mismo nombre que la audiencia [!DNL 
 
    1. (Si aún no se ha completado) Un usuario autorizado debe configurar la cuenta del anunciante para [sincronizar con la cuenta de organización del anunciante en Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 

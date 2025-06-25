@@ -3,7 +3,7 @@ title: Cargar métricas de tráfico y conversión para  [!DNL Naver] cuentas de 
 description: Aprenda a cargar métricas de conversión y tráfico para seguimiento y generación de informes solo para  [!DNL Naver] cuentas.
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puede cargar un archivo TSV, CSV o TXT de métricas de tráfico agregadas diaria
 
 Search, Social y Commerce no sincronizan los datos con la red de anuncios ni realizan pujas por la cuenta.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]**.
 
 1. Seleccione la red de publicidad.
 

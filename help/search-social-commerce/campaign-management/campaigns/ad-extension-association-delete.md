@@ -3,7 +3,7 @@ title: Eliminar asociaciones de extensión de publicidad con campañas y grupos 
 description: Obtenga información sobre cómo desasociar extensiones de publicidad con campañas y grupos de publicidad.
 exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Puede eliminar asociaciones de nivel de campaña y de grupo de publicidad con cualquier ubicación, teléfono y extensión de vínculo a sitios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Active la casilla de verificación situada junto a cada asociación que desee eliminar.
 

@@ -3,7 +3,7 @@ title: Creación de ubicaciones negativas
 description: Aprenda a crear ubicaciones negativas para  [!DNL Google Ads] campañas y grupos de anuncios.
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Puede crear ubicaciones negativas para un grupo de anuncios [!DNL Google Ads] en
 >[!TIP]
 >Para crear muchas ubicaciones negativas a la vez, use [hojas de edición masiva de campañas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear") y, a continuación, haga clic en **[!UICONTROL Campaign]** para crear ubicaciones negativas en el nivel de campaña o en **[!UICONTROL Ad Group]** para crear ubicaciones negativas en el nivel de grupo de anuncios.
 

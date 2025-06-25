@@ -3,7 +3,7 @@ title: Administración de anuncios
 description: Aprenda a crear y administrar anuncios.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Puede crear, editar y cambiar el estado de las publicidades desde la vista [!UIC
 >
 >Para crear muchos anuncios a la vez, usa la [función de copiar y pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o las [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) de la campaña.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
@@ -56,7 +56,7 @@ Puede crear, editar y cambiar el estado de las publicidades desde la vista [!UIC
 >
 >Para editar grandes cantidades de datos a la vez, usa la [función de copiar y pegar](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) o las [hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) de la campaña.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. Realice una de las acciones siguientes:
 
@@ -86,7 +86,7 @@ Puede pausar un anuncio activo para deshabilitar las pujas por él. Más tarde, 
 
 También puede eliminar cualquier anuncio de búsqueda activo o pausado. Los anuncios eliminados se eliminan de la red de anuncios. Todavía están visibles, pero no se pueden cambiar.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ads]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Ads]**.
 
 1. (Opcional) Filtre la lista para incluir anuncios específicos.
 

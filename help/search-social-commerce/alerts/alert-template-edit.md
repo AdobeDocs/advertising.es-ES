@@ -3,7 +3,7 @@ title: Editar una plantilla de alerta personalizada
 description: Obtenga información sobre cómo editar una plantilla para generar alertas personalizadas.
 exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Editar una plantilla de alerta personalizada
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que se abre en la vista [!UICONTROL Alert Templates].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que se abre en la vista [!UICONTROL Alert Templates].
 
 1. (Opcional) Filtre la vista para incluir filas con nombres específicos, rangos de datos que evaluar u otros criterios.
 

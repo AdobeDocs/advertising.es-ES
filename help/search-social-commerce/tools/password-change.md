@@ -3,7 +3,7 @@ title: Cambiar la contraseña
 description: Aprenda a cambiar la contraseña de su cuenta.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Al cambiar la contraseña, se cierra la sesión actual. Para continuar trabajando, debe iniciar sesión con la nueva contraseña.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
 
 1. Escriba información en los campos y haga clic en **[!UICONTROL Submit]**.
 

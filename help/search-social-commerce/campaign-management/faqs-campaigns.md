@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre campañas
 description: Consulte respuestas a preguntas sobre administración de campañas y vistas de datos de campañas.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Además, [!DNL Google Ads] métricas de rendimiento de nivel de campaña en la r
 >
 >(Anunciantes con portafolios) Espere que el rendimiento de las nuevas combinaciones de tipo palabra clave y tipo de coincidencia sea volátil mientras Search, Social y Commerce recopilan datos para crear modelos para ellas.
 
-**Acciones en las vistas [!UICONTROL Search] > [!UICONTROL Campaigns], en el proceso de publicación de hojas de edición masiva y en el editor propio de la red de anuncios:**
+**Acciones en las vistas [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], en el proceso de publicación de hojas de edición masiva y en el editor propio de la red de anuncios:**
 
 La palabra clave o anuncio existente se elimina y se crea otro cuando:
 
@@ -99,7 +99,7 @@ En ambos casos, las direcciones URL base con seguimiento de búsqueda, medios so
 
 [!DNL Google Ads] métricas de rendimiento de nivel de campaña en la red de búsqueda para el día actual se recuperan a las 08:00 y a las 16:00 en el huso horario del anunciante.
 
-En la ficha [!UICONTROL Campaigns] tanto en la vista [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] como en la vista [!UICONTROL Optimization] > [!UICONTROL Portfolios], cuando se crea un informe sobre [!UICONTROL Today] o un intervalo de fechas personalizado que incluya el día actual, los datos incluirán los datos sincronizados más recientemente.
+En la ficha [!UICONTROL Campaigns] tanto en la vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] como en la vista [!UICONTROL Optimization] > [!UICONTROL Portfolios], cuando se crea un informe sobre [!UICONTROL Today] o un intervalo de fechas personalizado que incluya el día actual, los datos incluirán los datos sincronizados más recientemente.
 
 >[!NOTE]
 >

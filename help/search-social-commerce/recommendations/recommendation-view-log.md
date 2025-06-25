@@ -3,7 +3,7 @@ title: Ver el registro de recomendaciones del editor de una cuenta
 description: Obtenga información sobre cómo ver un registro de cada recomendación que se aplicó a una cuenta de  [!DNL Google Ads] o [!DNL Microsoft Advertising] .
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Puede ver un registro de cada recomendación que se aplicó a una cuenta de [!DN
 
 Las recomendaciones descartadas no están disponibles en la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. En la parte superior derecha, seleccione la red publicitaria y la cuenta.
 

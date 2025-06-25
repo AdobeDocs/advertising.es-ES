@@ -3,7 +3,7 @@ title: Asignar valores de clasificación a componentes de cuenta desde las vista
 description: Obtenga información sobre cómo asignar valores de clasificación a componentes de cuenta.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 >
 >Las palabras clave y la copia de anuncios de algunas redes de anuncios y tipos de campañas son [no mutables](/help/search-social-commerce/campaign-management/faqs-campaigns.md), lo que significa que al editarlas se eliminará la entidad existente y se creará una nueva. Cuando se elimina una entidad existente de este modo, la clasificación de etiquetas no se asigna a la nueva entidad.
 
-1. Haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** y, a continuación, seleccione la vista de componente de la cuenta.
+1. Haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** y, a continuación, seleccione la vista de componente de la cuenta.
 
 1. Realice una de las acciones siguientes:
 
