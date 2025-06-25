@@ -34,7 +34,7 @@ Cada nueva audiencia [!DNL Google] tiene el mismo nombre que la audiencia [!DNL 
 
    1. (Para crear audiencias de lista de remarketing con ID de usuario) Un usuario administrador de [!DNL Adobe] o administrador de cuentas debe seleccionar la configuración de nivel de anunciante para habilitar las audiencias de coincidencia de clientes.
 
-   1. Implemente el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) versión 2.0 o superior.
+   1. Implemente el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) versión 2.0 o superior.
 
    1. Implemente la siguiente etiqueta lo más alto posible en las páginas web del anunciante desde las que se debe realizar el seguimiento de la audiencia
 
