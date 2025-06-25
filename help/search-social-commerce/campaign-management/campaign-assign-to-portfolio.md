@@ -3,7 +3,7 @@ title: Asignación de campañas a un portafolio
 description: Obtenga información sobre cómo incluir campañas en portafolios para la optimización.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
+source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -40,7 +40,7 @@ No todos los tipos de campañas y redes de anuncios cumplen los requisitos para 
 
 1. En la barra de herramientas, haga clic en ![Más acciones](/help/search-social-commerce/assets/more-actions.png "Más acciones") **[!UICONTROL More Actions]** > ![Asignar](/help/search-social-commerce/assets/assign.png "Asignar") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
-1. En la pantalla [!UICONTROL Create Portfolio], especifique la [configuración del portafolio](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md).
+1. En la pantalla [!UICONTROL Create Portfolio], especifique la configuración del portafolio<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->.
 
    Las campañas seleccionadas anteriormente ya están asignadas a la campaña. Si lo desea, puede editar la lista de campañas del portafolio.
 
@@ -48,7 +48,7 @@ No todos los tipos de campañas y redes de anuncios cumplen los requisitos para 
 
 ## (IU heredada) Asignar campañas a un portafolio desde la vista [!UICONTROL Campaigns]
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
 1. Realice una de las acciones siguientes:
 
@@ -86,7 +86,7 @@ No todos los tipos de campañas y redes de anuncios cumplen los requisitos para 
 
 ## (IU heredada) Cambiar las campañas de un portafolio de la vista [!UICONTROL Portfolios]
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** y, a continuación, busque el portafolio.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** y, a continuación, busque el portafolio.
 
    Puede filtrar la lista de portafolios desde el menú [!UICONTROL Portfolios] del panel izquierdo seleccionando un grupo de portafolios o el nodo [!UICONTROL Ungrouped Portfolios].
 

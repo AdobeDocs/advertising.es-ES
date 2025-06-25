@@ -3,7 +3,7 @@ title: Eliminación de campañas de un portafolio
 description: Obtenga información sobre cómo eliminar campañas de un portafolio.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: c721215003a769f2a4a25951f524588bdb5594f2
+source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Para obtener más información sobre la optimización, consulte la Guía de opti
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar") **[!UICONTROL Edit]**.
 
-1. En la [configuración del portafolio](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md), vaya a la sección [!UICONTROL Assign Campaigns] y cambie las asignaciones de campaña.
+1. En la configuración del portafolio <!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->, vaya a la sección [!UICONTROL Assign Campaigns] y cambie las asignaciones de campaña.
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
@@ -32,7 +32,7 @@ Para obtener más información sobre la optimización, consulte la Guía de opti
 
 ## (IU heredada) Quitar campañas de un portafolio de la vista [!UICONTROL Portfolios]
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** y, a continuación, busque el portafolio.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** y, a continuación, busque el portafolio.
 
    Puede filtrar la lista de portafolios desde el menú [!UICONTROL Portfolios] del panel izquierdo seleccionando un grupo de portafolios o el nodo [!UICONTROL Ungrouped Portfolios].
 
