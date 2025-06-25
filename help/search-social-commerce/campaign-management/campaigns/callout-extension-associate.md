@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-Puede crear y asignar extensiones de llamada a cualquier [campaña o grupo de publicidad](/help/search-social-commerce/introduction/supported-inventory.md) compatible [!DNL Google Ads] en la red de búsqueda dentro de una [cuenta sincronizada [!DNL Google Ads] 5}.](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+Puede crear y asignar extensiones de llamada a cualquier [campaña o grupo de publicidad](/help/search-social-commerce/introduction/supported-inventory.md) compatible [!DNL Google Ads] en la red de búsqueda dentro de una [cuenta sincronizada [!DNL Google Ads] 5&rbrace;.](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 Asigne al menos dos llamadas por campaña o grupo de anuncios para que sus anuncios puedan aparecer con llamadas.
 
