@@ -2,9 +2,9 @@
 title: Soluciones de medición avanzada
 description: Consulte la lista de soluciones disponibles para la medición avanzada.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 0c33bb9d2258b8b17808469d2a31032ce84a66a9
+source-git-commit: f2f24b85ad2f6068739b54e4a72a2e7bef6cd31b
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Los anunciantes a menudo tienen dificultades para comprender cómo funcionan juntos sus diferentes canales de medios, dónde se puede gastar mejor su próximo dólar de medios o cómo cuantificar el impacto de su publicidad en línea con los objetivos comerciales principales.
 
-En un panorama de medios impulsado por datos, la medición de atribución proporciona una solución a este desafío. El equipo de Medición y estrategia avanzadas (AMS) ayuda a los socios de marcas y agencias a medir cómo los elementos de sus compras de Adobe Advertising, en conexión con sus integraciones de [!DNL Adobe], impulsan los resultados. Con sólidas ofertas de medición de atribución, AMS puede implementar estrategias de segmentación depuradas utilizando marcos de medición sofisticados, lo que facilita a las marcas conectar su dinero de medios con resultados del mundo real que impulsan sus negocios. El equipo puede ayudarle a lo siguiente:
+En un panorama de medios impulsado por datos, la medición de atribución proporciona una solución a este desafío. El equipo de Medición y estrategia avanzadas (AMS) ayuda a los socios de marcas y agencias a medir cómo los elementos de sus compras de Adobe Advertising, junto con sus integraciones de [!DNL Adobe], impulsan los resultados. Con sólidas ofertas de medición de atribución, AMS puede implementar estrategias de segmentación depuradas utilizando marcos de medición sofisticados, lo que facilita a las marcas conectar su dinero de medios con resultados del mundo real que impulsan sus negocios. El equipo puede ayudarle a lo siguiente:
 
 * Activación de estudios de medición en campañas de medios digitales de canal completo
 
