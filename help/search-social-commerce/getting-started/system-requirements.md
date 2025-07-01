@@ -3,9 +3,9 @@ title: Requisitos del sistema
 description: Obtenga información acerca de los requisitos de software y cuenta.
 exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d2956703efd76db58305e31c5acf959e67747f02
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,21 @@ Necesita el siguiente software e información de cuenta.
 
 ## Software
 
-* Cualquiera de los siguientes exploradores:
+* (Nueva interfaz de usuario) La versión más reciente menos uno de los exploradores siguientes:
+
+   * Para obtener la mejor experiencia:
+
+      * [!DNL Google Chrome]
+
+      * [!DNL Microsoft Edge]
+
+   * [!DNL Apple Safari]
+
+   * [!DNL Mozilla Firefox]
+
+   * [!DNL Opera]
+
+* (Interfaz de usuario heredada) Cualquiera de los siguientes exploradores:
 
    * [!DNL Apple Safari] (incluido [!DNL Safari] para [!DNL iOS]) 10 o superior
 
