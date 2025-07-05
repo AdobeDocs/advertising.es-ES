@@ -40,7 +40,7 @@ Esta opción estará disponible hasta el 15 de julio de 2025.
 
 1. Escriba su ID de [!DNL Adobe] y haga clic en **[!UICONTROL Continue]**.
 
-1. Si se le solicita, seleccione **Cuenta personal&quot; o **Cuenta de empresa o escuela**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Si se le solicita, seleccione **Cuenta personal&quot; o &#x200B;** Cuenta de empresa o escuela**.<!-- Will it necessarily be "Company or School Account?" -->
 
    La nueva interfaz de usuario se abre de forma predeterminada.
 
@@ -54,7 +54,7 @@ Esta opción estará disponible hasta el 15 de julio de 2025.
 
 1. Escriba su ID de [!DNL Adobe] y haga clic en **[!UICONTROL Continue]**.
 
-1. Si se le solicita, seleccione **Cuenta personal&quot; o **Cuenta de empresa o escuela**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Si se le solicita, seleccione **Cuenta personal&quot; o &#x200B;** Cuenta de empresa o escuela**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. En la sección [!UICONTROL Quick Access] de su página de inicio, haga clic en **[!UICONTROL Advertising Search, Social, & Commerce]**.
 
