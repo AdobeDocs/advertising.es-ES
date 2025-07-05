@@ -3,46 +3,62 @@ title: Iniciar sesión
 description: Descubra formas de iniciar sesión.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 1bf1c26b56c2d57437d288ae5ac9d2ba1ff1db77
+source-git-commit: 5f28b2ba916778b110e19b6c3a1583312417a34e
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
 # Iniciar sesión
 
-<!-- update with new info -->
+Search, Social y Commerce están realizando la transición al servicio Identity Management de Adobe (IMS) para la autenticación de inicio de sesión. IMS proporciona acceso de inicio de sesión único (SSO) a todos los [!DNL Adobe] productos que admiten IMS, incluidos Real-Time Customer Data Platform, Customer Journey Analytics, Target y Analytics. Con el cambio:
 
-<!--
+* Puede usar un(a) [!DNL Adobe ID] para iniciar sesión en [!DNL Adobe] productos desde la página de inicio de sesión de Experience Cloud o desde la página de inicio de sesión heredada de Search, Social y Commerce. Su [!DNL Adobe ID] proporciona administración de perfiles de usuario y la capacidad de cambiar a un producto de [!DNL Adobe] diferente desde el menú superior. En una versión futura, podrá cambiar la cuenta de Search, Social y Commerce y la cuenta de la organización IMS del menú superior.
 
-You can sign in to Search, Social, & Commerce directly or from within Adobe Experience Cloud.
+* Se admite la autenticación empresarial.
 
-## Sign in directly
+* Puede permanecer conectado durante 24 horas.
 
- -->
+Sus credenciales actuales de Search, Social y Commerce permanecerán activas hasta el 15 de julio de 2025 para que pueda prepararse para el cambio.
 
-* Inicie sesión en una de las siguientes direcciones URL:
+Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
-   * Usuarios en Norteamérica: [https://enterprise-na.efrontier.com](https://enterprise-na.efrontier.com)
+## Inicie sesión desde la página de inicio de sesión heredada de Search, Social y Commerce
 
-   * Usuarios en todas las demás áreas: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
+### Use un inicio de sesión heredado de Search, Social y Commerce para la autenticación
 
-<!--
+Esta opción estará disponible hasta el 15 de julio de 2025.
 
-## Sign in from Adobe Experience Cloud
+* Vaya a [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) o [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) e inicie sesión con sus credenciales heredadas de Search, Social y Commerce.
 
->[!NOTE]
->
->Your company must be provisioned in Adobe Experience Cloud, and you must have [linked your Experience Cloud account to a Search, Social, & Commerce account](https://experiencecloud.adobe.com/resources/help/es_ES/mcloud/organizations.html).
+  La interfaz de usuario heredada se abre de forma predeterminada.
 
-1. [Sign in to Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=es#signin).
+## Usar un [!DNL Adobe ID] para la autenticación
 
-1. In the top menu, select ![Solution selector](/help/search-social-commerce/assets/menu-icon.png "Solution selector").
+1. Vaya a [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) o [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) e inicie sesión con su ID de [!DNL Adobe].
 
-1. In the submenu, select **[!UICONTROL Advertising Cloud]**.
+La nueva interfaz de usuario se abre de forma predeterminada.
 
--->
+## Iniciar sesión desde Adobe Experience Cloud con un [!DNL Adobe ID]
+
+<!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
+
+1. Vaya a [experience.adobe.com](https://experience.adobe.com).
+
+1. Escriba sus credenciales de identificador de [!DNL Adobe].
+
+1. Elija su organización:
+
+   * Si se le solicita, seleccione **Cuenta personal&quot; o **Cuenta de empresa o escuela**.<!-- Will it necessarily be "Company or School Account?" -->
+
+   * Si tiene acceso a varias organizaciones de IMS, seleccione la correcta.
+
+1. En la sección [!UICONTROL Quick Access] de su página de inicio, haga clic en **[!UICONTROL Advertising Search, Social, & Commerce]**.
+
+![Advertising Search, Social y Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising Search, Social y Commerce)")
+
+La nueva interfaz de usuario se abre de forma predeterminada.
 
 >[!MORELIKETHIS]
 >
