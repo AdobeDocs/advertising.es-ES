@@ -50,7 +50,7 @@ La nueva interfaz de usuario se abre de forma predeterminada.
 
 1. Elija su organización:
 
-   * Si se le solicita, seleccione **Cuenta personal&quot; o **Cuenta de empresa o escuela**.<!-- Will it necessarily be "Company or School Account?" -->
+   * Si se le solicita, seleccione **Cuenta personal&quot; o &#x200B;** Cuenta de empresa o escuela**.<!-- Will it necessarily be "Company or School Account?" -->
 
    * Si tiene acceso a varias organizaciones de IMS, seleccione la correcta.
 
