@@ -2,9 +2,9 @@
 title: Preguntas frecuentes sobre informes personalizados
 description: Obtenga más información acerca de los informes personalizados, incluidos los informes domésticos y los informes de análisis de rutas de conversión.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ El informe [!UICONTROL Household Reach & Frequency] mide el alcance, la impresi�
 
 Por ejemplo, incluso si se sirve una impresión a tres dispositivos dentro de un hogar, la métrica Alcanzado en el hogar único es una.
 
-##### Dimension admitidos
+##### Dimensiones compatibles
 
 El informe [!UICONTROL Household Reach & Frequency] admite las [siguientes dimensiones](/help/dsp/reports/report-columns.md): &quot;[!UICONTROL Campaign],&quot; &quot;[!UICONTROL Package],&quot; &quot;[!UICONTROL Placement],&quot; &quot;[!UICONTROL Site/Apps]&quot; (que no proporciona acceso a las métricas de superposición), &quot;[!UICONTROL Media Type],&quot; &quot;[!UICONTROL Feed Type],&quot; &quot;[!UICONTROL Device],&quot; &quot;[!UICONTROL Publisher],&quot; &quot;[!UICONTROL Audience],&quot; &quot;[!UICONTROL Creative Length]&quot; y la ubicación creada por el usuario &quot;[!UICONTROL Tags].&quot; |
 
@@ -83,13 +83,11 @@ Se admiten dos tipos de métodos de atribución:
 
 #### ¿En qué se diferencian los informes de conversión doméstica de los informes de visualización de CTV en Adobe Analytics?
 
-Los datos de visualizaciones de CTV en [!DNL Analytics] se alimentan del seguimiento [!DNL Analytics], y los datos de conversión del hogar utilizan datos recopilados mediante el seguimiento de conversión de Adobe Advertising. DSP Además, la lógica de atribución de en [!DNL Analytics] utiliza solo el último evento, pero los informes de conversión de hogares admiten dos métodos de atribución diferentes: Único y MTA.
+* En [!DNL Analytics], el informe [!DNL CTV View-Through Conversion] muestra el número de conversiones para las cuales una impresión CTV fue el último punto de contacto antes de la conversión. Por el contrario, el informe DSP [!UICONTROL Household Conversions] muestra el número de hogares únicos que estuvieron expuestos a una impresión CTV en cualquier momento dentro de la ventana retrospectiva definida antes de la conversión.
 
-#### ¿Puedo ver los datos de visualizaciones de CTV tanto en [!DNL Analytics for Advertising] como en los informes personalizados?
+* En [!DNL Analytics], la lógica de atribución asigna conversiones exclusivamente al último punto de contacto desde Adobe Advertising. Por el contrario, el informe de DSP [!UICONTROL Household Conversions] admite modelos de atribución adicionales, *[!UICONTROL Unique]* y *[!UICONTROL Multi-Touch Attribution (MTA)]*.
 
-Anunciantes sin [!DNL Analytics for Advertising] solo pueden usar el Informe de conversión de hogares para los informes de conversión de hogares.
-
-Si su organización tiene [!DNL Analytics for Advertising], utilice ambos tipos de informes a la vez. Aunque los informes de visualización de CTV son adecuados para el análisis de canales generales, el comportamiento del sitio, etc., los informes personalizados proporcionan una vista granular (con datos desglosados por tipo de medios, editores, etc.) para indicar los factores que impulsan las tasas de conversión.
+* Los datos del informe [!DNL Analytics] son especialmente valiosos para analizarlos por canales de marketing, métricas de participación del sitio, etc. El informe de DSP [!UICONTROL Household Conversions] ofrece una perspectiva más granular al permitir que los datos de conversión se dividan en varias dimensiones, como el tipo de medios y el editor.
 
 ### Informes [!UICONTROL Household Reach & Frequency] y [!UICONTROL Household Conversions] frente a datos de [!DNL Advanced Measurement Services]
 
@@ -109,14 +107,14 @@ El caso de uso ideal es usar juntos el informe [!UICONTROL Household] y los serv
 
 | | Ruta al informe de conversión | Efecto halo de servicios de medición avanzada en informes de búsqueda | Informes en Analysis Workspace |
 | --- | --- | --- |---|
-| Valor del cliente | Genere un informe personalizado de autoservicio para comprender qué rutas del recorrido publicitario produjeron más conversiones para impulsar la optimización | Comprender la influencia de las tácticas de TV conectada (CTV) en los clics de búsqueda | Comprenda la influencia de su inversión en Adobes Advertising holísticos, junto con otros canales de marketing, en los clics en búsqueda |
+| Valor del cliente | Genere un informe personalizado de autoservicio para comprender qué rutas del recorrido publicitario produjeron más conversiones para impulsar la optimización | Comprender la influencia de las tácticas de TV conectada (CTV) en los clics de búsqueda | Comprenda la influencia de su inversión en Adobe Advertising integral, junto con otros canales de marketing, en los clics en búsqueda |
 | Nivel del hogar | Sí | Sí | No |
 | ¿Se admite CTV? | Sí | Sí | Sí |
 | Metodología de atribución | El evento de último contacto (impresión o clic) debe estar dentro de la ventana de lookbook. | Únicos | Último contacto |
 | | Los puntos de interacción más de 30 días antes del evento de último contacto se consideran para la ruta de conversión. | (CTV recibe crédito, independientemente de dónde se produzca la exposición al CTV en la ruta al clic del usuario) | (CTV recibe crédito si la impresión es el último evento en la ventana retrospectiva Y no hay clic de pago de otros formatos antes o después de la exposición a CTV) |
 | Nivel de creación de informes | Granular | Granular | Amplio |
-| | (Tipo De Canal, Creativo/Publicidad, Palabra Clave, Rutas, Duración, Tiempo De Conversión) | (Táctica CTV, aplicación CTV/Publicador) | (Adobe Advertising y otros canales de marketing) |
-| Canales de marketing | DSP + Buscar (desde Buscar, Social y Commerce) | DSP + Buscar (desde Buscar, Social y Commerce) | Canales de marketing no rastreados por el Adobe Advertising a través del ID de EF (como búsqueda orgánica, medios sociales orgánicos, correo electrónico y afiliado) |
+| | (Tipo De Canal, Creative/Anuncio, Palabra Clave, Rutas, Longitud, Tiempo De Conversión) | (Táctica CTV, aplicación CTV/Publicador) | (Adobe Advertising Y Otros Canales De Marketing) |
+| Canales de marketing | DSP + Buscar (desde Buscar, Social y Commerce) | DSP + Buscar (desde Buscar, Social y Commerce) | Canales de marketing no rastreados por el ID de EF de clic de Adobe Advertising (como búsqueda orgánica, medios sociales orgánicos, correo electrónico y afiliado) |
 | Métricas de conversión admitidas | Métricas rastreadas mediante el píxel de evento de Adobe Advertising (ID de AMO) y el seguimiento de Adobe Analytics | Clics (sin conversiones) | Métricas rastreadas mediante el seguimiento de Adobe Analytics |
 
 Para obtener más información sobre el efecto halo de los servicios de medición avanzada en los informes de búsqueda, consulte &quot;[Servicios de medición avanzada](/help/dsp/introduction/advanced-measurement-services.md)&quot;.
