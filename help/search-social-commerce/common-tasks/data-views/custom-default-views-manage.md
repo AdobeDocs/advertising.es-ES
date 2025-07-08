@@ -3,14 +3,16 @@ title: Administrar vistas predeterminadas y personalizadas
 description: Aprenda a personalizar las vistas predeterminadas y las vistas personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '2836'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
 
 # Administrar vistas predeterminadas y personalizadas
+
+<!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
 Las vistas predeterminadas y las vistas personalizadas le permiten personalizar los datos de rendimiento que se muestran en las vistas de datos de campaña de búsqueda. La configuración de vista incluye las columnas que se van a incluir, los filtros, el intervalo de fechas, la configuración de atribución de conversión y otros ajustes avanzados, y puede aplicarlos temporalmente o guardarlos. (Excepción: no se pueden guardar filtros para vistas predeterminadas). Cada vista personalizada predeterminada y regular se aplica solo a una vista de entidad específica (como [!UICONTROL Campaigns]) y a una cuenta de anunciante específica. Cada vista personalizada universal se aplica en todas las vistas de entidad de un anunciante específico y, por lo tanto, no puede incluir columnas de propiedad (como nombre de entidad o estado), que varían según el tipo de entidad.
 
@@ -18,7 +20,11 @@ Las vistas predeterminadas se muestran de forma predeterminada cada vez que inic
 
 Cada vista está disponible como acceso directo en la sección [!UICONTROL Custom Views] del panel izquierdo.
 
-## Aplicar una vista predeterminada o personalizada
+<!--
+## (New UI) Apply a default or custom view
+-->
+
+## (IU heredada) Aplicar una vista predeterminada o personalizada
 
 * (Vistas predeterminadas) En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]** \> **\[tipo de entidad\]**.
 

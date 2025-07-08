@@ -3,14 +3,18 @@ title: Edite el conjunto de columnas desde el menú de encabezado de columna
 description: Obtenga información sobre cómo mostrar y ocultar las columnas del encabezado de columna.
 exl-id: ebcf5759-f3a0-4816-8095-5679a642f862
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # Edite el conjunto de columnas desde el menú de encabezado de columna
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+*Solo interfaz de usuario heredada*
 
 Puede mostrar y ocultar temporalmente las columnas incluidas en cualquiera de las vistas de cualquier encabezado de columna de la vista. Los cambios se aplican únicamente hasta que abandona la vista o ve los datos de un anunciante diferente.
 

@@ -3,16 +3,18 @@ title: Filtrar datos por intervalo de fechas
 description: Aprenda a utilizar el filtro de intervalo de fechas global.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Filtrar datos por intervalo de fechas
 
-El mismo filtro de intervalo de fechas global se aplica a la mayoría de las vistas de datos de campaña, en todos los anunciantes, excepto en las vistas predeterminadas y personalizadas para las que ha guardado intervalos de fechas específicos. El intervalo de fechas predeterminado del sistema para las vistas de administración de campañas es &quot;Ayer&quot;.
+<!-- The same in new UI and legacy CM views -->
+
+El mismo filtro de intervalo de fechas global se aplica a la mayoría de las vistas de datos en todos los anunciantes, excepto en las vistas predeterminadas y personalizadas para las que ha guardado intervalos de fechas específicos. El intervalo de fechas predeterminado del sistema para las vistas de administración de campañas es &quot;Ayer&quot;.
 
 La configuración del intervalo de fechas se guarda en una cookie específica del explorador, por lo que todos los cambios en el filtro de intervalo de fechas se utilizan para todos los anunciantes cada vez que inicia sesión con la misma aplicación de explorador hasta que cambia el filtro o elimina la cookie. Cada aplicación de explorador que utilice almacena la configuración del filtro de intervalo de fechas en una cookie diferente.
 
@@ -38,7 +40,7 @@ Cuando se guarda un intervalo de fechas específico para una vista predeterminad
 
 1. (Opcional) Compare los datos del intervalo de fechas especificado con los datos de un segundo intervalo de fechas:
 
-   1. Mover el control deslizante **[!UICONTROL Comparison]** a *[!UICONTROL On]*.
+   1. Mueva el control deslizante **[!UICONTROL Comparison]** a la posición &quot;Activado&quot;.
 
       Al seleccionar esta opción, se añaden dos columnas adicionales para cada columna de datos normal. Por ejemplo, en lugar de incluir una sola columna para &quot;[!UICONTROL Impressions]&quot;, la tabla incluye columnas para &quot;[!UICONTROL Impressions R1]&quot;, &quot;[!UICONTROL Impressions R2]&quot; y &quot;[!UICONTROL Impressions Diff]&quot;.&quot;  Si exporta los datos, las mismas columnas se escriben como &quot;[!UICONTROL Impressions Range 1]&quot;, &quot;[!UICONTROL Impressions Range 2]&quot; y &quot;[!UICONTROL Impressions Difference]&quot;.&quot;
 

@@ -3,16 +3,20 @@ title: Editar y ordenar el conjunto de columnas a partir del icono [!UICONTROL C
 description: Aprenda a cambiar las columnas visibles con el personalizador de columnas.
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
 # Editar y ordenar el conjunto de columnas a partir del icono [!UICONTROL Custom Columns]
 
-Puede cambiar las columnas visibles en cualquiera de las vistas desde la barra de herramientas derecha. Los cambios se aplican únicamente hasta que abandona las vistas de administración de campañas o hasta que visualiza los datos de un anunciante diferente.
+<!-- The same in new UI and legacy CM views except for icon -->
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+Puede cambiar las columnas visibles en cualquiera de las vistas desde la barra de herramientas derecha. Los cambios se aplican únicamente hasta que se dejan las vistas aplicables o se ven los datos de otro anunciante.
 
 >[!NOTE]
 >
@@ -20,9 +24,9 @@ Puede cambiar las columnas visibles en cualquiera de las vistas desde la barra d
 >
 >Puede guardar cambios en las columnas que se incluyen para un anunciante específico editando la vista predeterminada o [creando una vista personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
-1. A la derecha de la barra de herramientas, haga clic en ![Columnas](/help/search-social-commerce/assets/custom-columns.png "Columnas").
+1. A la derecha de la barra de herramientas, haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns.png "Columnas personalizadas") o ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Columnas personalizadas").
 
-1. (Opcional) [Cree una métrica personalizada (derivada)](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) para incluirla como columna.
+1. (Opcional) [Cree una métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) para incluirla como columna.
 
 1. Especifique las columnas que desea incluir en la vista:
 
@@ -40,6 +44,10 @@ Puede cambiar las columnas visibles en cualquiera de las vistas desde la barra d
 
    * Especifique la columna por la que ordenar las filas.
 
-   * (Opcional) Mueva el control deslizante para ordenar los valores de la columna seleccionada en el orden **[!UICONTROL Ascending]** o **[!UICONTROL Descending]**.
+   * (Opcional) Especifique el criterio de ordenación para los valores de la columna seleccionada:
+
+      * (Nueva IU) Seleccione **[!UICONTROL Ascending]** o **[!UICONTROL Descending]**.
+
+      * (IU heredada) Mueva el control deslizante a **[!UICONTROL Ascending]** o **[!UICONTROL Descending]**.
 
 1. Haga clic en **[!UICONTROL Apply]**.
