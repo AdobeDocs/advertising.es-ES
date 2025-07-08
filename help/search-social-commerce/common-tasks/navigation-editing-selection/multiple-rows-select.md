@@ -10,9 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Seleccionar varias filas
-i
-Puede seleccionar varias filas en la nueva interfaz de usuario desde las vistas de administración y en la interfaz de usuario heredada desde [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] y [!UICONTROL Optimization] > [!UICONTROL Constraints]:
+# Seleccionar varias filasiPuede seleccionar varias filas en la nueva interfaz de usuario desde las vistas de administración y en la interfaz de usuario heredada desde [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] y [!UICONTROL Optimization] > [!UICONTROL Constraints]:
 
 * Métodos abreviados del teclado:
 
