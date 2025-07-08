@@ -3,7 +3,7 @@ title: Administrar vistas predeterminadas y personalizadas
 description: Aprenda a personalizar las vistas predeterminadas y las vistas personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 777bebb13e4de99f070e3ab6c38949caeb75ca08
+source-git-commit: ac434e2c9f049830b0fbe6941a268ca7def9b4bf
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -162,7 +162,7 @@ La configuración predeterminada del sistema varía según la vista de administr
 
    1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
 
-   1. Mantenga el cursor sobre el nombre de la vista y haga clic en ![Revertir](/help/search-social-commerce/assets/revert-new.md).
+   1. Mantenga el cursor sobre el nombre de la vista y haga clic en ![Revertir](/help/search-social-commerce/assets/revert-new.jpg).
 
 * Desde las vistas de administración de campañas heredadas:
 
