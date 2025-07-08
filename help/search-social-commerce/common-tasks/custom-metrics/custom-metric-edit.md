@@ -3,9 +3,9 @@ title: Editar una métrica personalizada
 description: Aprenda a editar las métricas personalizadas, que se calculan a partir de métricas estándar.
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ Si edita una métrica personalizada que se incluye como columna en una de las vi
 
 1. Encima de la tabla de datos, realice una de las acciones siguientes:
 
-   * Haga clic en ![Selector de vista](/help/search-social-commerce/assets/view.png "Selector de vista") \[El nombre de la vista predeterminada o de la vista personalizada\] para abrir la configuración de vista. Ejemplo: ![Vista de ejemplo](/help/search-social-commerce/assets/view-selector-example.png "Vista de ejemplo")
+   * Haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")). Mantenga el cursor sobre el nombre de cualquier vista editable y haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") para abrir la configuración de la vista.
+
+     Los cambios serán visibles en todas las vistas.
 
    * Haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Columnas personalizadas") para abrir los valores de configuración de columna.
 
