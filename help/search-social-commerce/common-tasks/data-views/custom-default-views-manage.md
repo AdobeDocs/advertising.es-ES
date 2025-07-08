@@ -3,9 +3,9 @@ title: Administrar vistas predeterminadas y personalizadas
 description: Aprenda a personalizar las vistas predeterminadas y las vistas personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2917'
 ht-degree: 0%
 
 ---
@@ -14,17 +14,23 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
 
-Las vistas predeterminadas y las vistas personalizadas le permiten personalizar los datos de rendimiento que se muestran en las vistas de datos de campaña de búsqueda. La configuración de vista incluye las columnas que se van a incluir, los filtros, el intervalo de fechas, la configuración de atribución de conversión y otros ajustes avanzados, y puede aplicarlos temporalmente o guardarlos. (Excepción: no se pueden guardar filtros para vistas predeterminadas). Cada vista personalizada predeterminada y regular se aplica solo a una vista de entidad específica (como [!UICONTROL Campaigns]) y a una cuenta de anunciante específica. Cada vista personalizada universal se aplica en todas las vistas de entidad de un anunciante específico y, por lo tanto, no puede incluir columnas de propiedad (como nombre de entidad o estado), que varían según el tipo de entidad.
+Las vistas predeterminadas y las vistas personalizadas le permiten personalizar los datos de rendimiento que se muestran en las vistas de datos de campaña de búsqueda. La configuración de vista incluye las columnas que se van a incluir, los filtros, el intervalo de fechas, la configuración de atribución de conversión y otros ajustes avanzados, y puede aplicarlos temporalmente o guardarlos. (Excepción: no se pueden guardar filtros para vistas predeterminadas). Cada vista personalizada predeterminada y regular se aplica solo a una vista específica (como [!UICONTROL Portfolios] o [!UICONTROL Campaigns]) y a una cuenta de anunciante específica. En la interfaz de usuario heredada, cada vista personalizada universal se aplica en todas las vistas de entidad de un anunciante específico y, por lo tanto, no puede incluir columnas de propiedad (como nombre de entidad o estado), que varían según el tipo de entidad.
 
-Las vistas predeterminadas se muestran de forma predeterminada cada vez que inicia sesión. Puede crear vistas personalizadas adicionales y aplicarlas en cualquier momento. Opcionalmente, puede compartir cualquier vista personalizada que cree con todos los demás usuarios que puedan ver los datos del anunciante. En las listas de vistas, cada vista que comparte otra persona está en cursiva, como &quot;*Campañas de mayor rendimiento*&quot;. Solo la persona que crea una vista personalizada puede eliminarla.
+Las vistas predeterminadas se muestran de forma predeterminada cada vez que inicia sesión. Puede crear vistas personalizadas adicionales y aplicarlas en cualquier momento. Opcionalmente, puede compartir cualquier vista personalizada que cree con todos los demás usuarios que puedan ver los datos del anunciante.<!-- I no longer see this in the legacy CM views - why? --> En sus listas de vistas, cada vista que comparte otra persona está en cursiva, como &quot;*Campañas de mayor rendimiento*&quot;. Solo la persona que crea una vista personalizada puede eliminarla.
 
-Cada vista está disponible como acceso directo en la sección [!UICONTROL Custom Views] del panel izquierdo.
+En la interfaz de usuario heredada, cada vista está disponible como acceso directo en la sección [!UICONTROL Custom Views] del panel izquierdo.
 
-<!--
-## (New UI) Apply a default or custom view
--->
+## Aplicar una vista predeterminada o personalizada
 
-## (IU heredada) Aplicar una vista predeterminada o personalizada
+### (Nueva IU) Aplicar una vista predeterminada o personalizada a una vista de administración
+
+1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
+
+1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
+
+1. Mantenga el cursor sobre el nombre de la vista y haga clic en **[!UICONTROL Apply]**.
+
+### (IU heredada) Aplicar una vista predeterminada o personalizada a una vista de administración de campañas
 
 * (Vistas predeterminadas) En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]** \> **\[tipo de entidad\]**.
 
@@ -43,6 +49,12 @@ Cada vista está disponible como acceso directo en la sección [!UICONTROL Custo
       Si la vista es universal o se aplica a la entidad actual, la tabla de datos se vuelve a mostrar según la configuración de la vista. Si la vista se aplica a una entidad diferente, los datos de la entidad aplicable se muestran según la configuración de la vista.
 
 ## Creación de una vista personalizada {#create-custom-view}
+
+<!--
+## (New UI) Create a custom view from management views
+-->
+
+## (IU heredada) Crear una vista personalizada desde las vistas de administración de campañas
 
 Las vistas personalizadas solo se aplican a las vistas de administración de campañas.
 
