@@ -3,16 +3,16 @@ title: Eliminar un informe de datos de rendimiento o un archivo de hoja de edici
 description: Obtenga información sobre cómo eliminar un informe o un archivo de hoja de edición masiva descargado desde una vista de administración de campañas.
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
 # Eliminar un informe de datos de rendimiento o un archivo de hoja de edición masiva del menú [!UICONTROL Downloads]
 
-<!-- Add info about new UI -->
+*Interfaz de usuario heredada*
 
 >[!NOTE]
 >

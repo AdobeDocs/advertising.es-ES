@@ -3,7 +3,7 @@ title: Administrar vistas predeterminadas y personalizadas
 description: Aprenda a personalizar las vistas predeterminadas y las vistas personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: c5faf88a5240a7ec05dab3f06d0c4e466fd17164
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
 source-wordcount: '4453'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Las vistas personalizadas solo se aplican a las vistas de administración de cam
    >
    >Utilice un nombre que le ayude a identificar la pestaña y la información a la que se aplica (como &quot;Campañas en pausa&quot; o &quot;Los 50 anuncios principales&quot;).
 
-## Edición de una vista predeterminada o personalizada
+## Edición de una vista predeterminada o personalizada {#view-edit}
 
 ### (Nueva IU) Editar una vista predeterminada o personalizada
 
@@ -132,7 +132,7 @@ Las vistas personalizadas solo se aplican a las vistas de administración de cam
 
    * Para guardar la configuración en una nueva vista personalizada, haga clic en **[!UICONTROL Save As]**. En la ventana [!UICONTROL Enter New Custom View Name], escriba el nombre de la nueva vista y haga clic en **[!UICONTROL Save]**.
 
-## (Nueva IU) Clonar una vista predeterminada o personalizada
+## (Nueva IU) Clonar una vista predeterminada o personalizada {#view-clone}
 
 *Disponible en las vistas [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] y [!UICONTROL Ad Groups]*
 

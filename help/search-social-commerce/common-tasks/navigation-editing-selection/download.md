@@ -3,16 +3,16 @@ title: Descarga de datos desde una vista de administración de campañas
 description: Obtenga información sobre cómo descargar datos de la mayoría de las vistas de administración de campañas.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
 
 # Descarga de datos desde una vista de administración de campañas
 
-<!-- Add info about new UI -->
+*Interfaz de usuario heredada*
 
 Puede descargar datos de las vistas [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns], excepto las vistas [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] y [!UICONTROL Extensions]. Puede descargar lo siguiente:
 
