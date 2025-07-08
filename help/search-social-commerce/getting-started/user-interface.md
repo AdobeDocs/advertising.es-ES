@@ -3,9 +3,9 @@ title: Organización de la interfaz de usuario
 description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,10 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Las opciones di
 
 * ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar sesión.
 
-  Cuando hayas iniciado sesión a través de Adobe Experience Cloud[&#128279;](sign-in.md), también puedes editar tu perfil de Experience Cloud, incluida tu contraseña de Experience Cloud y la configuración de notificaciones.
+  Cuando hayas iniciado sesión a través de Adobe Experience Cloud[, también puedes editar tu perfil de Experience Cloud, incluida tu contraseña de Experience Cloud y la configuración de notificaciones.](sign-in.md)
 
 >[!MORELIKETHIS]
 >
 >* [Iniciar sesión](sign-in.md)
 >* [Cerrar sesión](sign-out.md)
+>* [Cambiar entre la nueva interfaz de usuario y la IU heredada](ui-switch.md)
