@@ -3,7 +3,7 @@ title: Administrar cuentas de comerciante
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta de un centro de comerciantes.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Administrar cuentas de comerciante
 
-*Sólo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
+*Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
 Search, Social y Commerce pueden descargar y mostrar datos de productos todos los días para cualquiera de las cuentas de Google Merchant Center o Microsoft Merchant Center de un anunciante. Además, Search, Social y Commerce pueden automatizar la creación de anuncios en función del contenido de la cuenta de comerciante. Para trabajar directamente con los datos del producto en Search, Social y Commerce, debe crear un registro de cuenta correspondiente que contenga las credenciales de acceso a la cuenta y con acceso *habilitado*.
 
@@ -22,7 +22,7 @@ Search, Social y Commerce pueden descargar y mostrar datos de productos todos lo
 
 ## Crear detalles de cuenta de comerciante {#create-merchant-account}
 
-*Sólo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
+*Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
 Para ver los datos del producto y generar plantillas de seguimiento para una cuenta de comerciante, y para crear anuncios basados en los datos, debe crear un registro de cuenta correspondiente que contenga las credenciales de acceso a la cuenta y con acceso a la cuenta *habilitada*.
 
@@ -30,7 +30,7 @@ Para ver los datos del producto y generar plantillas de seguimiento para una cue
 >
 >Para crear una cuenta real en la red de comerciantes, vaya al sitio web de la red.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**, que se abre en la ficha [!UICONTROL Accounts].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]**, que se abre en la ficha [!UICONTROL Accounts].
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Create Account]**.
 
@@ -66,7 +66,7 @@ Para ver los datos del producto y generar plantillas de seguimiento para una cue
 
 ## Editar detalles de la cuenta de comerciante {#edit-merchant-account}
 
-*Sólo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
+*Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
 Si las credenciales de la cuenta cambian o desea dejar de recuperar y utilizar datos de una cuenta de comerciante, edite los detalles de la cuenta.
 
@@ -88,11 +88,11 @@ Si las credenciales de la cuenta cambian o desea dejar de recuperar y utilizar d
 
 ## Deshabilitar el acceso a una cuenta de comerciante {#disable-merchant-account}
 
-*Sólo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
+*Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
 Al deshabilitar una cuenta de comerciante, Search, Social y Commerce no inician sesión en la cuenta y, por lo tanto, no recuperan los datos actualizados del producto. Los datos recopilados mientras la cuenta estaba habilitada se seguirán almacenando y los anuncios existentes creados con datos de productos no se actualizarán, pausarán ni eliminarán según la plantilla de fuente y la configuración de los datos de fuente.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , que se abre en la ficha [!UICONTROL Accounts].
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** , que se abre en la ficha [!UICONTROL Accounts].
 
 1. Junto al nombre de la cuenta, haga clic en ![Ver/editar configuración](/help/search-social-commerce/assets/settings.png "Ver/editar configuración").
 

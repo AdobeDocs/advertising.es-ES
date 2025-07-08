@@ -3,7 +3,7 @@ title: 'Actualizar el código de seguimiento de la ID de AMO (s_kwcid) para una 
 description: Aprenda a cambiar al código de seguimiento de ID de AMO más reciente para una cuenta de  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Actualizar el código de seguimiento del ID de AMO (s_kwcid) para una cuenta de [!DNL Google Ads]
 
-*Anunciantes con una integración de Adobe Advertising-Adobe Analytics solamente*
+*Solo anunciantes con una integración Adobe Advertising-Adobe Analytics*
 
 *[!DNL Google Ads]solo cuentas*
 
@@ -34,7 +34,7 @@ Todas las cuentas nuevas de [!DNL Google Ads] utilizan automáticamente el forma
 >
 >Después de migrar una cuenta, todos los datos de clics, costes e impresiones se presentarán correctamente tras el cambio, pero cualquier pulsación que se haya producido antes de la migración seguirá atribuyéndose a los datos de conversión basados en el antiguo formato de ID de AMO.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Mantenga el cursor sobre el nombre de la cuenta, haga clic en ![icono desplegable de flecha](/help/search-social-commerce/assets/arrow-dropdown-menu.png) y, a continuación, seleccione **[!UICONTROL Edit]**.
 
@@ -70,4 +70,4 @@ Todas las cuentas nuevas de [!DNL Google Ads] utilizan automáticamente el forma
 >
 >* [Administrar cuentas de red de anuncios](ad-network-account-manage.md)
 >* [ID de Adobe Advertising usados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es){target="_blank"}
+>* [Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

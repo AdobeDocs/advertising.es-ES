@@ -3,7 +3,7 @@ title: Ver el informe [!UICONTROL Change History]
 description: Obtenga información sobre cómo ver los cambios recientes en la cuenta del anunciante.
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -16,7 +16,7 @@ El informe [!UICONTROL Change History] incluye un registro de los cambios realiz
 
 Puede ordenar y filtrar los datos por cualquier columna.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**.
 
 1. (Opcional) Cambie los datos incluidos en el informe de cualquiera de las siguientes maneras:
 

@@ -3,7 +3,7 @@ title: Administrar las cuentas de red de publicidad
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Para obtener detalles acerca de la funcionalidad disponible para cada red de anu
 
 ## Crear y agregar detalles de cuenta de red {#create-account}
 
-*Sólo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
+*Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
 Para habilitar la sincronización o el seguimiento de una cuenta, debe crear un registro de cuenta correspondiente que contenga las credenciales de acceso a la cuenta y las opciones de seguimiento y con el estado *activo*.
 
@@ -33,7 +33,7 @@ Para habilitar la sincronización o el seguimiento de una cuenta, debe crear un 
 >* La compatibilidad no está disponible para las nuevas cuentas de [!DNL Baidu].
 >* Para crear una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
 
@@ -47,7 +47,7 @@ Para habilitar la sincronización o el seguimiento de una cuenta, debe crear un 
 
       1. Escriba el valor **[!UICONTROL Login]** de la cuenta; si lo desea, escriba la contraseña y haga clic en **[!UICONTROL Authenticate]**.
 
-         La práctica recomendada es utilizar el inicio de sesión para acceder a la cuenta mediante API. Introduzca la contraseña cuando desee cifrarla y guardarla, de modo que el equipo de cuenta de Adobe pueda actualizar los tokens según sea necesario.
+         La práctica recomendada es utilizar el inicio de sesión para acceder a la cuenta mediante API. Escriba la contraseña cuando desee cifrarla y guardarla para que el equipo de cuenta de Adobe pueda actualizar los tokens según sea necesario.
 
       1. (Si no ha iniciado sesión en la cuenta del anunciante) Inicie sesión en la cuenta publicitaria del anunciante. La práctica recomendada es utilizar las credenciales de para el acceso de la API a la cuenta.
 
@@ -65,7 +65,7 @@ Para habilitar la sincronización o el seguimiento de una cuenta, debe crear un 
 
 ## Editar los detalles de la cuenta de red del anuncio {#edit-account}
 
-*Sólo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
+*Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
 Si cambian las credenciales de la cuenta, desea cambiar los parámetros de seguimiento predeterminados en una cuenta o desea habilitar o deshabilitar la actividad en una cuenta y, a continuación, editar los detalles de la cuenta.
 
@@ -73,7 +73,7 @@ Si cambian las credenciales de la cuenta, desea cambiar los parámetros de segui
 >
 >Para editar una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Mantenga el cursor sobre el nombre de la cuenta, haga clic en ![Más](/help/search-social-commerce/assets/more-filters.png "Más") y, a continuación, seleccione **[!UICONTROL Edit]**.
 
@@ -91,7 +91,7 @@ Si cambian las credenciales de la cuenta, desea cambiar los parámetros de segui
 
 ## Actualizar tokens de acceso de oAuth para cuentas de búsqueda {#refresh-oauth-tokens}
 
-*Sólo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
+*Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
 Si Search, Social y Commerce accede a la cuenta mediante el [protocolo de autorización de OAuth](https://oauth.net/2/) y las credenciales de la cuenta cambian, o si se requiere acceso adicional para admitir nuevas funciones en Search, Social y Commerce, debe obtener un nuevo token de acceso para la cuenta.
 
@@ -99,7 +99,7 @@ El equipo de cuenta de Adobe le informará si las nuevas funciones requieren un 
 
 1. (Si ha iniciado sesión en otra cuenta para la misma red de anuncios en la misma aplicación de explorador) Cierre sesión en cualquier cuenta que no sea la del anunciante.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Mantenga el cursor sobre el nombre de la cuenta, haga clic en ![Más](/help/search-social-commerce/assets/more-filters.png "Más") y, a continuación, seleccione **[!UICONTROL Edit]**.
 
@@ -117,11 +117,11 @@ El equipo de cuenta de Adobe le informará si las nuevas funciones requieren un 
 
 ## Habilitar o deshabilitar las cuentas de red de publicidad {#enable-disable-account}
 
-*Sólo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
+*Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
 Al habilitar una cuenta de red de publicidad, Search, Social y Commerce sincronizan los datos de campaña con la cuenta (cuando es compatible) y envían ofertas automatizadas o presupuestos de campaña para las campañas en portafolios. Al deshabilitar una cuenta de red de publicidad, Search, Social y Commerce detienen toda la actividad en la cuenta. Los datos recopilados mientras la cuenta estaba activa se siguen almacenando, pero las vistas e informes de administración de campañas no incluyen datos del período de tiempo en el que la cuenta está deshabilitada. Más tarde puede volver a habilitar la cuenta para reanudar la actividad con la cuenta.
 
-1. En el menú principal, haga clic en **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Realice una de las acciones siguientes:
 
@@ -177,7 +177,7 @@ Para las cuentas de [!DNL Microsoft Advertising], solo se pueden usar los inicio
 
 Ejemplo: `param1=value1&param2=value2`
 
-Las cuentas que usan el rastreo de clics en el Adobe Advertising deben incluir el identificador de clic (`msclkid` para [!DNL Microsoft Advertising]; `gclid` para Google) de la red publicitaria en el sufijo. Las cuentas con una integración de Adobe Analytics deben usar el parámetro de ID de AMO (que comienza con `s_kwcid`). Si la cuenta tiene una implementación de AMO ID del lado del servidor, el parámetro se añade automáticamente cuando un usuario hace clic en un anuncio; de lo contrario, debe añadirlo aquí de forma manual. Vea los [formatos de sufijo necesarios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) y [formatos de sufijo necesarios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Las cuentas que usan el rastreo de clics de Adobe Advertising deben incluir el identificador de clics de la red de publicidad (`msclkid` para [!DNL Microsoft Advertising]; `gclid` para Google) en el sufijo. Las cuentas con una integración de Adobe Analytics deben usar el parámetro de ID de AMO (que comienza con `s_kwcid`). Si la cuenta tiene una implementación de AMO ID del lado del servidor, el parámetro se añade automáticamente cuando un usuario hace clic en un anuncio; de lo contrario, debe añadirlo aquí de forma manual. Vea los [formatos de sufijo necesarios para [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) y [formatos de sufijo necesarios para [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -251,7 +251,7 @@ Las cuentas que usan el rastreo de clics en el Adobe Advertising deben incluir e
 
 * **Formato S_kwcid:** (las cuentas existentes [!DNL Google Ads] para anunciantes con una integración Adobe Advertising-Adobe Analytics y para los cuales el ID de AMO (s_kwcid) aún no se ha migrado)
 
-Esta cuenta utiliza el formato heredado para el código de seguimiento de ID de AMO, que permite que Adobe Advertising comparta datos sobre la cuenta con Adobe Analytics. El [formato más reciente](/help/integrations/analytics/ids.md#amo-id-formats) incluye parámetros para el identificador de campaña y el identificador de grupo de anuncios, los cuales son necesarios para informar con precisión en los niveles de campaña y grupo de anuncios para las campañas Máximo rendimiento de [!DNL Google Ads], así como borradores y experimentos, y campañas en Analytics:
+Esta cuenta utiliza el formato heredado para el código de seguimiento de ID de AMO, que permite a Adobe Advertising compartir datos sobre la cuenta con Adobe Analytics. El [formato más reciente](/help/integrations/analytics/ids.md#amo-id-formats) incluye parámetros para el identificador de campaña y el identificador de grupo de anuncios, los cuales son necesarios para informar con precisión en los niveles de campaña y grupo de anuncios para las campañas Máximo rendimiento de [!DNL Google Ads], así como borradores y experimentos, y campañas en Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

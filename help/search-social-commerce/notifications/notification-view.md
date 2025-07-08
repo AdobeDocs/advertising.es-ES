@@ -3,7 +3,7 @@ title: Ver las notificaciones
 description: Obtenga información sobre las distintas formas de ver las notificaciones.
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Una vez que se haya suscrito a [notificaciones](notification-edit.md) acerca de 
 
 ## Ver notificaciones en [!UICONTROL Notification Center]
 
-1. (En Buscar, Social y Commerce) En el menú principal, haga clic en **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. (En Buscar, Social y Commerce) En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
 1. (Opcional) Para filtrar las notificaciones por tipo, haga clic en *[!UICONTROL Notices], [!UICONTROL Recommendations], [!UICONTROL Warnings] o[!UICONTROL Issues]*.
 
