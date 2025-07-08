@@ -3,9 +3,9 @@ title: Configuración de métricas personalizadas
 description: Haga referencia a la configuración de las métricas personalizadas, que se calculan a partir de las métricas estándar.
 exl-id: b9e8434d-5ea2-47cd-9d63-705a6337c34c
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 La configuración de métricas personalizadas es ligeramente diferente en diferentes partes de la interfaz.
 
-## Configuración de métricas personalizadas en las vistas de administración de campañas
+## Configuración de métricas personalizadas en la mayoría de las vistas de administración
 
 | Parámetro/Sección | Descripción |
 |----|----|
@@ -22,7 +22,7 @@ La configuración de métricas personalizadas es ligeramente diferente en difere
 | Insertar métrica | La fórmula matemática utilizada para calcular la nueva métrica (como [Costo]/[Registros]:<ul><li>Para insertar una métrica de la lista de métricas de tráfico e ingresos, coloque el cursor donde desee insertar la métrica y, a continuación, selecciónela en la lista o introdúzcala manualmente entre corchetes (por ejemplo, `[CPC]`).</li><li>Para insertar un operador, coloque el cursor donde desee insertar el operador y, a continuación, haga clic en el botón o escriba el símbolo manualmente. Los operadores matemáticos disponibles: `+ - * / ( ) ()`</li></ul><b>Nota:</b> Las métricas personalizadas complejas tardan más en calcularse, y los informes y vistas que las incluyen (especialmente cuando incluyen columnas independientes para conversiones de clics y visualizaciones) tardan más en generarse. |
 | Formato | Cómo presentar los datos de esta métrica: *[!UICONTROL Currency]* (un valor monetario), *[!UICONTROL Number to 2 Decimal Points]*, *[!UICONTROL Number to 3 Decimal Points]*, *[!UICONTROL Number w/out Decimal Points]* o *[!UICONTROL Percentage]* (un porcentaje con dos decimales).<br><br><b>Precaución:</b> Si crea una métrica derivada con el formato [!UICONTROL Number w/out Decimal Points] (que muestra los datos como enteros) y la incluye en una vista o en un informe que usa una regla de atribución de conversión ponderada ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] o [!UICONTROL Even Distribution]), el resultado se mostrará en números enteros, no en decimales. Como resultado, los campos de datos individuales pueden ser incorrectos, aunque los totales sean correctos. Por ejemplo, si un pedido se divide a partes iguales entre tres eventos, se atribuye a cada uno de los tres eventos un pedido (en lugar de un pedido de 0,33). Para evitar el problema, use el formato de métrica [!UICONTROL Number to 2 Decimal Points]. |
 
-## Configuración de métricas personalizadas en informes y plantillas de informes y en las vistas [!UICONTROL Portfolios]
+## Configuración de métricas personalizadas en informes y plantillas de informes y en las vistas heredadas de [!UICONTROL Portfolios]
 
 | Parámetro/Sección | Descripción |
 |----|----|

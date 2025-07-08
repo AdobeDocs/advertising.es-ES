@@ -3,9 +3,9 @@ title: Eliminar una métrica personalizada
 description: Obtenga información sobre cómo eliminar métricas personalizadas, que se calculan a partir de métricas estándar.
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,21 @@ ht-degree: 0%
 
 Si la métrica personalizada se incluye como una columna en la vista actual, al eliminar una columna, se elimina inmediatamente. Si se incluye en otra vista predeterminada o personalizada, o en una plantilla de informe, el cambio de columna será visible la próxima vez que actualice la vista o vea la plantilla, respectivamente.
 
-## Eliminación de una métrica personalizada desde una vista de administración de campañas
+## (Nueva IU) Eliminar una métrica personalizada de una vista de administración
+
+*Disponible en las vistas [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] y [!UICONTROL Ad Groups]*
+
+1. Encima de la tabla de datos, realice una de las acciones siguientes:
+
+   * Haga clic en ![Selector de vista](/help/search-social-commerce/assets/view.png "Selector de vista") \[El nombre de la vista predeterminada o de la vista personalizada\] para abrir la configuración de vista. Ejemplo: ![Vista de ejemplo](/help/search-social-commerce/assets/view-selector-example.png "Vista de ejemplo")
+
+   * Haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Columnas personalizadas") para abrir los valores de configuración de columna.
+
+1. Mantenga el cursor sobre el nombre de la columna y haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar") junto al nombre de la columna.
+
+1. En el mensaje de confirmación, haga clic en **[!UICONTROL Cpnfirm]**.
+
+## (IU heredada) Eliminar una métrica personalizada de una vista de administración de campañas
 
 1. Encima de la tabla de datos, realice una de las acciones siguientes:
 
@@ -26,7 +40,7 @@ Si la métrica personalizada se incluye como una columna en la vista actual, al 
 
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL OK]**.
 
-## Eliminar una métrica personalizada de un informe o un formulario de plantilla de informe
+## (IU heredada) Eliminar una métrica personalizada de un informe o un formulario de plantilla de informe
 
 1. Dentro de un informe o formulario de plantilla de informe, vaya a la ficha **[!UICONTROL Columns]**.
 
@@ -34,7 +48,7 @@ Si la métrica personalizada se incluye como una columna en la vista actual, al 
 
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Yes]**.
 
-## Eliminar una métrica personalizada de las vistas [!UICONTROL Portfolios]
+## (IU heredada) Eliminar una métrica personalizada de las vistas [!UICONTROL Portfolios]
 
 1. Sobre la tabla de datos, haga clic en ![Editar vista seleccionada](/help/search-social-commerce/assets/view-settings.png "Editar vista seleccionada").
 

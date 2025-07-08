@@ -3,16 +3,32 @@ title: Creación de una métrica personalizada
 description: Aprenda a configurar métricas personalizadas, que se calculan a partir de métricas estándar.
 exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
 
 # Creación de una métrica personalizada
 
-## Creación de una métrica personalizada desde una vista de administración de campañas
+## (Nueva IU) Crear una métrica personalizada desde una vista de administración
+
+*Disponible en las vistas [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] y [!UICONTROL Ad Groups]*
+
+1. Encima de la tabla de datos, realice una de las acciones siguientes:
+
+   * Haga clic en ![Selector de vista](/help/search-social-commerce/assets/view.png "Selector de vista") \[El nombre de la vista predeterminada o de la vista personalizada\] para abrir la configuración de vista. Ejemplo: ![Vista de ejemplo](/help/search-social-commerce/assets/view-selector-example.png "Vista de ejemplo")
+
+   * Haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Columnas personalizadas") para abrir los valores de configuración de columna.
+
+1. Debajo de la lista de columnas que se abre, haga clic en ![Crear métrica personalizada](/help/search-social-commerce/assets/add.png "Crear métrica personalizada") **[!UICONTROL Create Custom Metric]**.
+
+1. Especifique la [configuración de métrica personalizada](custom-metric-settings.md).
+
+1. Haga clic en **[!UICONTROL Create]**.
+
+## (IU heredada) Crear una métrica personalizada desde una vista de administración de campañas
 
 1. Encima de la tabla de datos, realice una de las acciones siguientes:
 
@@ -20,13 +36,13 @@ ht-degree: 0%
 
    * Haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns.png "Columnas personalizadas") para abrir los valores de configuración de columna.
 
-1. Debajo de la lista de columnas que se abre, haga clic en ![Crear nueva métrica personalizada](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]**.
+1. Debajo de la lista de columnas que se abre, haga clic en ![Crear nueva métrica personalizada](/help/search-social-commerce/assets/add.png "Crear nueva métrica personalizada") **[!UICONTROL Create New Custom Metric]**.
 
 1. Especifique la [configuración de métrica personalizada](custom-metric-settings.md).
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-## Crear una métrica personalizada a partir de un formulario de informe o de plantilla de informe
+## (IU heredada) Crear una métrica personalizada a partir de un formulario de informe o de plantilla de informe
 
 1. Dentro de un informe o formulario de plantilla de informe, vaya a la ficha **[!UICONTROL Columns]**.
 
@@ -36,7 +52,7 @@ ht-degree: 0%
 
 1. Haga clic en **[!UICONTROL Submit]**.
 
-## Crear una métrica personalizada a partir de las vistas de [!UICONTROL Portfolios]
+## (IU heredada) Crear una métrica personalizada a partir de las vistas de [!UICONTROL Portfolios]
 
 1. Sobre la tabla de datos, haga clic en ![Editar vista seleccionada](/help/search-social-commerce/assets/view-settings.png "Editar vista seleccionada").
 
