@@ -3,14 +3,14 @@ title: Cálculo de las reglas de atribución
 description: Descubra cómo Adobe Advertising calcula cada tipo de regla de atribución.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
 workflow-type: tm+mt
 source-wordcount: '2716'
 ht-degree: 0%
 
 ---
 
-# Cálculo de las reglas de atribución para el Adobe Advertising
+# Cálculo de las reglas de atribución para Adobe Advertising
 
 *Anunciantes con solo seguimiento de conversión de Adobe Advertising*
 
@@ -23,9 +23,9 @@ En los informes, las vistas predeterminadas y personalizadas para Advertising Se
 >[!NOTE]
 >
 >* Las reglas de atribución se aplican a los clics en anuncios pagados en cualquier canal y a las impresiones en pantallas y anuncios sociales. No se aplican a las impresiones de anuncios de búsqueda de pago, que no se pueden rastrear en el nivel de evento.
->* El Adobe Advertising siempre almacena los siguientes eventos para cada internauta antes de una conversión: a) el primer clic de pago; b) hasta 10 clics para cada canal (búsqueda, red social o visualización), incluido el primer clic; y c) hasta 10 impresiones de visualización. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* Adobe Advertising siempre almacena los siguientes eventos para cada internauta antes de una conversión: a) el primer clic de pago; b) hasta 10 clics para cada canal (búsqueda, red social o visualización), incluido el primer clic; y c) hasta 10 impresiones de visualización.<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
 >* En Advertising DSP y Advertising Creative, las definiciones entre dispositivos solo tienen en cuenta la ruta de acceso del evento de la regla de atribución seleccionada.<!-- cross-device attribution via LiveRamp only -->
->* En las vistas de informes y administración, el número de decimales que se muestran para un valor depende de la divisa, pero el Adobe Advertising almacena valores más precisos.
+>* En las vistas de informes y administración, el número de decimales que se muestran para un valor depende de la moneda, pero Adobe Advertising almacena valores más precisos.
 
 ## Último evento (valor predeterminado)
 
@@ -118,11 +118,11 @@ Atribuye la conversión a todos los eventos de la serie que se produjeron en la 
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye clics de pago e impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
-* DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
+* En DSP, las impresiones se ignoran y solo se ponderan los clics. DSP no tiene en cuenta las ponderaciones de anulación de impresiones para la atribución.
 
 ![Peso del primer evento más porcentajes de atribución](/help/search-social-commerce/assets/attribution-percent-weight-first-more.png "Peso del primer evento más porcentajes de atribución")
 
@@ -148,7 +148,7 @@ Como la serie de eventos incluye impresiones y clics, el peso de anulación de i
 
 Atribución: impresión 1 = 8 USD, clic 1 = 72 USD, impresión 2 = 4 USD, clic 2 = 36 USD (120 USD en total)
 
-#### DSP Uso (solo para la impresión) sin peso de anulación de impresión o (solo para Search, Social y Commerce) con un &quot;peso de anulación de impresión&quot; del 0 %
+#### Uso (solo DSP) de una ponderación de anulación de impresión o (solo Search, Social y Commerce) de una &quot;ponderación de anulación de impresión&quot; del 0 %
 
 Como la serie de eventos incluye impresiones y clics, estas se omiten.
 
@@ -180,11 +180,11 @@ Atribuye la conversión de forma equitativa a cada evento de la serie que se pro
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye clics de pago e impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
-* DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
+* En DSP, las impresiones se ignoran y solo se ponderan los clics. DSP no tiene en cuenta las ponderaciones de anulación de impresiones para la atribución.
 
 ![Porcentajes de atribución par](/help/search-social-commerce/assets/attribution-percent-even.png "Porcentajes de atribución par")
 
@@ -212,7 +212,7 @@ Como la serie de eventos incluye impresiones y clics, el peso de anulación de i
 
 Atribución: impresión 1 = 6 USD, clic 1 = 54 USD, impresión 2 = 6 USD, clic 2 = 54 USD (120 USD en total)
 
-#### Uso (solo Adobe Advertising DSP) sin peso de anulación de impresión o (solo búsqueda, social y Commerce) un &quot;peso de anulación de impresión&quot; del 0 %
+#### Uso (solo Adobe Advertising DSP) de una ponderación de anulación de impresión o (solo Search, Social y Commerce) de una &quot;ponderación de anulación de impresión&quot; del 0 %
 
 Como la serie de eventos incluye impresiones y clics, estas se omiten.
 
@@ -240,11 +240,11 @@ Atribuye la conversión a todos los eventos de la serie que se produjeron en la 
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye clics de pago e impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
-* DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
+* En DSP, las impresiones se ignoran y solo se ponderan los clics. DSP no tiene en cuenta las ponderaciones de anulación de impresiones para la atribución.
 
 ![Peso del último evento más porcentajes de atribución](/help/search-social-commerce/assets/attribution-percent-weight-last-more.png "Peso del último evento más porcentajes de atribución")
 
@@ -270,7 +270,7 @@ Como la serie de eventos incluye impresiones y clics, el peso de anulación de i
 
 Atribución: impresión 1 = 4 USD, clic 1 = 36 USD, impresión 2 = 8 USD, clic 2 = 72 USD (120 USD en total)
 
-#### DSP Uso (solo para la impresión) sin peso de anulación de impresión o (solo para Search, Social y Commerce) con un &quot;peso de anulación de impresión&quot; del 0 %
+#### Uso (solo DSP) de una ponderación de anulación de impresión o (solo Search, Social y Commerce) de una &quot;ponderación de anulación de impresión&quot; del 0 %
 
 Como la serie de eventos incluye impresiones y clics, estas se omiten.
 
@@ -298,11 +298,11 @@ Atribuye la conversión a todos los eventos de la serie que se produjeron en la 
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
-Cuando la ruta de conversión incluye tanto clics de pago como impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
+Cuando la ruta de conversión incluye clics de pago e impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
 * En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
-* DSP En la práctica, las impresiones se ignoran y solo se ponderan los clics. DSP La atribución no tiene en cuenta los pesos de anulación de impresiones.
+* En DSP, las impresiones se ignoran y solo se ponderan los clics. DSP no tiene en cuenta las ponderaciones de anulación de impresiones para la atribución.
 
 ![Porcentajes de atribución en forma de U](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "Porcentajes de atribución en forma de U")
 
@@ -328,7 +328,7 @@ Como la serie de eventos incluye impresiones y clics, el peso de anulación de i
 
 Atribución: impresión 1 = 6 USD, clic 1 = 54 USD, impresión 2 = 6 USD, clic 2 = 54 USD (120 USD en total)
 
-#### DSP Uso (solo para el caso de los usuarios) sin peso de anulación de impresión o (solo para Search, Social y Commerce) con un &quot;peso de anulación de impresión&quot; del 0 %
+#### Uso (solo DSP) sin peso de anulación de impresión o (solo Search, Social y Commerce) un &quot;peso de anulación de impresión&quot; del 0 %
 
 Como la serie de eventos incluye impresiones y clics, estas se omiten.
 
