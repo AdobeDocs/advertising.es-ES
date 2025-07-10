@@ -3,9 +3,9 @@ title: Configuración de experiencias sin objetivo
 description: Consulte las descripciones de todas las configuraciones para experiencias de publicidad sin segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] sección
 
+**[!UICONTROL Ad Type]:** (de solo lectura para experiencias existentes) El tipo de anuncios incluidos en la experiencia: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* o *[!UICONTROL Video]*. Una vez guardada la experiencia, no se puede cambiar el tipo de anuncio.
+
 **[!UICONTROL Advertiser]:** (solo lectura para experiencias existentes) El anunciante que pujará por los creativos incluidos en la experiencia. Una vez guardada la experiencia, no se puede cambiar el anunciante.
 
 **[!UICONTROL Experience Name]:** Un nombre único para la experiencia. **Sugerencia:** Use un nombre que pueda encontrar fácilmente cuando use la experiencia como anuncio en Advertising DSP u otro DSP.
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives] sección
 
-**\[Creativos predeterminados especificados\]:** Los creativos de imagen predeterminados que se deben usar cuando un explorador no puede mostrar los creativos asignados a la experiencia, como cuando el explorador no está habilitado para JavaScript o el servidor de publicidad no puede personalizar el anuncio debido a retrasos. Incluya un elemento creativo de imagen por tamaño de anuncio al que se aplique la experiencia. Las opciones determinan los tamaños creativos que se pueden utilizar para la experiencia. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
+**\[Creativos predeterminados especificados\]:** Los creativos predeterminados que se deben usar cuando un explorador no puede mostrar los creativos asignados a la experiencia, como cuando el explorador no está habilitado para JavaScript o el servidor de publicidad no puede personalizar el anuncio debido a retrasos. Para las experiencias de visualización estándar, incluya un creativo de imágenes por tamaño de anuncio al que se aplique la experiencia. Para las experiencias de vídeo estándar, incluya un creativo de vídeo por tamaño de anuncio al que se aplique la experiencia. Las opciones determinan los tamaños creativos que se pueden utilizar para la experiencia.
 
 En el caso de las experiencias sin segmentación en el árbol de decisiones, puede anular los elementos creativos predeterminados con elementos creativos del mismo tamaño en [!UICONTROL Tag Manager].
 
@@ -39,8 +41,6 @@ En el caso de las experiencias sin segmentación en el árbol de decisiones, pue
 ## [!UICONTROL Targeting] sección
 
 **[!UICONTROL Targeting]:** (solo lectura para experiencias existentes) No aplicable cuando no habilita el direccionamiento mediante un árbol de decisión; mantenga deshabilitada esta opción. **Nota:** Una vez guardada una experiencia sin segmentación, no se puede agregar la segmentación más adelante.
-
-**[!UICONTROL Dynamic ads]:** (solo lectura para experiencias existentes) Indica que la experiencia incluye anuncios dinámicos. **Nota:** Una experiencia puede incluir todos los anuncios estándar o todos los anuncios dinámicos.
 
 **[!UICONTROL Language Targeting]:** (solo experiencias con anuncios estándar; opcional; solo lectura para experiencias existentes) Comprueba la configuración de idioma del explorador del usuario y muestra un elemento creativo en el idioma especificado cuando hay un elemento creativo disponible en ese idioma. Cuando un elemento creativo en el idioma especificado por el explorador no está disponible, se utiliza la configuración [!UICONTROL Preferred language] en su lugar. Una vez guardada la experiencia, no se puede cambiar esta configuración.
 

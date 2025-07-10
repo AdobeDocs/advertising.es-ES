@@ -3,9 +3,9 @@ title: Personalización de las direcciones URL de seguimiento de una experiencia
 description: Aprenda a personalizar las direcciones URL de seguimiento para cada elemento creativo de una experiencia sin segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Las direcciones URL personalizadas solo se usan para los anuncios creados a part
 
    * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre de la experiencia y, a continuación, haga clic en **[!UICONTROL Tag Manager]**.
 
-   * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**
+   * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
 1. (Si no existe una etiqueta para el tamaño del anuncio) Cree una etiqueta para el tamaño creativo aplicable.
 
@@ -34,13 +34,13 @@ Las direcciones URL personalizadas solo se usan para los anuncios creados a part
 
    1. Escriba un(a) **[!UICONTROL Tag name]** único(a) y seleccione **[!UICONTROL Tag size]**.
 
-      Los tamaños de los elementos creativos de imagen predeterminados para la experiencia determinan los tamaños disponibles.
+      Los tamaños de los elementos creativos predeterminados de la experiencia determinan los tamaños disponibles.
 
    1. Haga clic en **[!UICONTROL Create]**.
 
 1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar URL de seguimiento](/help/creative/assets/edit-gray.png "Editar URL de seguimiento") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
 
-   Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños de los elementos creativos de imagen predeterminados para la experiencia determinan los tamaños disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
+   Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños de los elementos creativos predeterminados de la experiencia determinan los tamaños disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. En las fichas **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** y **[!UICONTROL Landing URLs]**, haga lo siguiente para cada elemento creativo según sea necesario:
 

@@ -3,9 +3,9 @@ title: Configuración de experiencias segmentadas
 description: Consulte las descripciones de todos los ajustes para experiencias de anuncios segmentados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] sección
 
+**[!UICONTROL Ad Type]:** (de solo lectura para experiencias existentes) El tipo de anuncios incluidos en la experiencia: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* o *[!UICONTROL Video]*. Una vez guardada la experiencia, no se puede cambiar el tipo de anuncio.
+
 **[!UICONTROL Advertiser]:** (solo lectura para experiencias existentes) El anunciante que pujará por las combinaciones creativas y de destino incluidas en la experiencia. Una vez guardada la experiencia, no se puede cambiar el anunciante.
 
 **[!UICONTROL Experience Name]:** Un nombre único para la experiencia. **Sugerencia:** Use un nombre que pueda encontrar fácilmente cuando use la experiencia como anuncio en Advertising DSP u otro DSP.
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives] sección
 
-**\[Creativos predeterminados especificados\]:** Los creativos de imagen predeterminados que se deben usar cuando un explorador no puede mostrar los creativos asignados a la experiencia, como cuando el explorador no está habilitado para JavaScript o el servidor de publicidad no puede personalizar el anuncio debido a retrasos. Incluya un elemento creativo de imagen por tamaño de anuncio al que se aplique la experiencia. Las opciones determinan los tamaños creativos que se pueden usar para la experiencia.<!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. This feels a little wonky in that there isn't a distinct/obvious "Creative Sizes" setting to reference. -->
+**\[Creativos predeterminados especificados\]:** Los creativos predeterminados que se deben usar cuando un explorador no puede mostrar los creativos asignados a la experiencia, como cuando el explorador no está habilitado para JavaScript o el servidor de publicidad no puede personalizar el anuncio debido a retrasos. Para las experiencias de visualización estándar, incluya un creativo de imágenes por tamaño de anuncio al que se aplique la experiencia. Para las experiencias de vídeo estándar, incluya un creativo de vídeo por tamaño de anuncio al que se aplique la experiencia. Las opciones determinan los tamaños creativos que se pueden utilizar para la experiencia.
 
 En el caso de las experiencias con segmentación del árbol de decisión, puede anular los elementos creativos predeterminados con paquetes creativos que contengan elementos creativos del mismo tamaño desde el árbol de decisión.<!-- verify -->
 
@@ -39,8 +41,6 @@ En el caso de las experiencias con segmentación del árbol de decisión, puede 
 ## [!UICONTROL Targeting] sección
 
 **[!UICONTROL Targeting]:** (solo lectura para experiencias existentes) Habilita el direccionamiento creativo mediante un árbol de decisión y la creación automática de etiquetas. Una vez guardada la experiencia, no se puede cambiar esta configuración.
-
-**[!UICONTROL Dynamic ads]:** (solo lectura para experiencias existentes) Indica que la experiencia incluye anuncios dinámicos. **Nota:** Una experiencia puede incluir todos los anuncios estándar o todos los anuncios dinámicos. Una vez guardada la experiencia, no se puede cambiar esta configuración.
 
 **[!UICONTROL Language Targeting]:** (solo experiencias con anuncios estándar; opcional; solo lectura para experiencias existentes) Comprueba la configuración de idioma del explorador del usuario y muestra un elemento creativo en el idioma especificado cuando hay un elemento creativo disponible en ese idioma. Cuando un elemento creativo en el idioma especificado por el explorador no está disponible, se utiliza la configuración [!UICONTROL Preferred language] en su lugar.
 

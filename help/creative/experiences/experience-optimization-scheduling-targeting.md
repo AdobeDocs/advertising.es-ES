@@ -3,9 +3,9 @@ title: Personalizar la optimización y programación creativas de una experienci
 description: Obtenga información sobre cómo
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 4abb83d08a6633c36aa47b5acd67df3d4cc0923b
+source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De forma predeterminada, la rotación creativa de una experiencia se determina d
 
 >[!NOTE]
 >
->Estas funciones no están disponibles para nodos que utilicen los elementos creativos de imagen predeterminados en lugar de los elementos creativos asignados.
+>Estas funciones no están disponibles para nodos que utilicen los elementos creativos predeterminados en lugar de los elementos creativos asignados.
 
 ## Configuración de la optimización creativa sin programación
 
@@ -35,7 +35,7 @@ Cuando se desactiva la programación creativa, la configuración de optimizació
 
    * *[!UICONTROL Algorithmic]:* Gira los elementos creativos de cada paquete de forma algorítmica según un objetivo de optimización especificado.
 
-      * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
+      * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]*, (experiencias de anuncios de vídeo estándar) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -61,7 +61,7 @@ Al utilizar la programación, debe programar paquetes a lo largo de la duración
 
       * *[!UICONTROL Algorithmic]:* Gira los elementos creativos de cada paquete de forma algorítmica según un objetivo de optimización especificado.
 
-         * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
+         * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]*, (experiencias de anuncios de vídeo estándar) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
 1. Para cada programación adicional:
 

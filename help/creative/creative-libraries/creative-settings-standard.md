@@ -3,9 +3,9 @@ title: Configuración de Creative
 description: Más información sobre xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -183,10 +183,32 @@ Cuando se incluye este elemento creativo en una experiencia que se implementa co
 **Nombre de Creative:** El nombre del creativo. **Sugerencia:** Use un nombre que pueda encontrar fácilmente cuando incluya al creativo en una experiencia.
 
 **Tamaño de Creative:** (solo lectura para anuncios existentes) Dimensiones del elemento creativo. Para nuevos creativos, seleccione de una lista de tamaños de anuncio estándar.
-u
+
 **Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos.
 
 **Dirección URL de la página de aterrizaje:** Dirección URL de la página de aterrizaje utilizada para validar cada anuncio con el que asocia a los creativos. El servidor de publicidad de terceros determina la página de aterrizaje real de cada anuncio.
+
+**Etiqueta:** (Opcional) Cualquier etiqueta que se aplique a todos los elementos creativos seleccionados. Puede filtrar los elementos creativos por etiqueta en varias vistas dentro de [!DNL Creative].
+
+* Para seleccionar etiquetas existentes, haga clic en ![Abajo](/help/creative/assets/chevron-down.png "Abajo") y active la casilla de verificación situada junto a cada etiqueta que desee aplicar.
+
+* Para buscar etiquetas existentes, empiece a introducir una cadena de texto dentro del nombre de la etiqueta.
+
+* Para crear una nueva etiqueta que aplicar a los elementos creativos, abra la lista, haga clic en **+ Agregar etiqueta**, escriba un nuevo nombre de etiqueta en el campo [!UICONTROL Label] y, a continuación, haga clic en **Crear**.
+
+* Para quitar una etiqueta, anule la selección de la casilla de verificación situada junto al nombre de la etiqueta.
+
+## Configuración de creatividad de vídeo {#creative-settings-video}
+
+**Nombre del recurso de Creative:** El nombre del creativo. Para un nuevo elemento creativo, el nombre de archivo se utiliza de forma predeterminada, pero puede cambiarlo. Para varias imágenes, puede editar los nombres creativos individuales. **Sugerencia:** Use un nombre que pueda encontrar fácilmente cuando incluya al creativo en una experiencia.
+
+**Duración:** (solo lectura) La duración del vídeo, que se completa automáticamente.
+
+**Idioma:** El idioma predeterminado para cada anuncio con el que asocia a los creativos. El mismo valor se aplica a todas las imágenes seleccionadas. Cuando se incluyen los creativos en una experiencia, se pueden personalizar las preferencias de idioma de la experiencia.
+
+**Dirección URL de la página de aterrizaje:** Dirección URL de la página de aterrizaje predeterminada para cada anuncio con el que asocia a los creativos. La dirección URL de la página de aterrizaje debe ser una dirección URL válida que comience por http:// o https://. Puede incluir parámetros de seguimiento de terceros o [[!DNL Creative] macros](/help/creative/creative-macros.md) para su propio uso. El mismo valor se aplica a todas las imágenes seleccionadas.
+
+Cuando se incluye un elemento creativo en un paquete y, a continuación, se asigna el paquete a una experiencia, se puede, opcionalmente, cambiar la dirección URL de la página de aterrizaje, así como añadir direcciones URL de rastreo de clics y impresiones y JavaScript para cada elemento creativo del paquete. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Etiqueta:** (Opcional) Cualquier etiqueta que se aplique a todos los elementos creativos seleccionados. Puede filtrar los elementos creativos por etiqueta en varias vistas dentro de [!DNL Creative].
 

@@ -3,9 +3,9 @@ title: Personalizar las direcciones URL de seguimiento de una experiencia
 description: Aprenda a personalizar las direcciones URL de seguimiento para cada elemento creativo de una experiencia con segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Las direcciones URL personalizadas solo se usan para los anuncios creados a part
 
 1. Mantenga el cursor sobre la hoja/carpeta del paquete creativo debajo del nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños de los elementos creativos de imagen predeterminados para la experiencia determinan los tamaños disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
+   Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños de los elementos creativos predeterminados de la experiencia determinan los tamaños disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. En las fichas **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** y **[!UICONTROL Landing URLs]**, haga lo siguiente para cada elemento creativo según sea necesario:
 

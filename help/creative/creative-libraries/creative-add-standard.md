@@ -3,9 +3,9 @@ title: Añadir elementos creativos estándar a una biblioteca creativa
 description: Aprenda a añadir elementos creativos estándar (no dinámicos) a una biblioteca creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bfb2dccf08ae79ca8f338a0423176f1d3309d4fc
+source-git-commit: bc3309523572656362cebebab9b735530003a81c
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Puede cargar varias unidades creativas flexibles. Los elementos creativos flexib
 
    * Arrastre y suelte los archivos del dispositivo o de la red en el cuadro.
 
-   * Haga clic en **[!UICONTROL select a file]** para localizar los archivos en su dispositivo o red.
+   * Haga clic en **[!UICONTROL Select a file]** para localizar los archivos en su dispositivo o red.
 
    Consulte las [especificaciones de anuncios flexibles](#flexible-ad-spec).
 
@@ -64,7 +64,7 @@ Puede cargar varias unidades creativas flexibles. Los elementos creativos flexib
 
 ### Añadir elementos creativos flexibles mediante una plantilla {#flexible-creative-use-template}
 
-Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo] (flexible-creative-upload).>
+Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -139,7 +139,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Arrastre y suelte los archivos del dispositivo o de la red en el cuadro.
 
-   * Haga clic en **[!UICONTROL select a file]** para localizar el archivo en su dispositivo o red.
+   * Haga clic en **[!UICONTROL Select a file]** para localizar el archivo en su dispositivo o red.
 
    Consulte la [especificación de anuncio de HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
@@ -167,7 +167,7 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 
       * Arrastre y suelte los archivos del dispositivo o de la red en el cuadro.
 
-      * Haga clic en **[!UICONTROL select a file]** para buscar archivos en su dispositivo o red.
+      * Haga clic en **[!UICONTROL Select a file]** para buscar archivos en su dispositivo o red.
 
    * Para las imágenes aprobadas en una [biblioteca de Adobe Experience Manager conectada a su cuenta de DSP](/help/creative/creative-libraries/aem-assets-configure.md), haga lo siguiente:
 
@@ -206,6 +206,30 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 1. Especifique la etiqueta de JavaScript y otras opciones de configuración para el creativo en la [configuración de creativos de terceros](#creative-settings-third-party).
 
    Puede copiar y pegar cualquiera de las [macros disponibles](/help/creative/creative-macros.md) en la etiqueta de JavaScript.
+
+1. Haga clic **[!UICONTROL Create]**
+
+## Añadir un creativo de vídeo a una biblioteca creativa
+
+Vea las [especificaciones de creatividad para vídeo](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs) y los [tamaños de creatividad compatibles](/help/creative/creative-libraries/creative-sizes.md).
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en la subficha **[!UICONTROL Standard Ads]**.
+
+1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**.
+
+1. Especifique los archivos de vídeo de cualquiera de las siguientes maneras:
+
+   * Arrastre y suelte los archivos del dispositivo o de la red en el cuadro.
+
+   * Haga clic en **[!UICONTROL Select a file]** para buscar archivos en su dispositivo o red.
+
+1. Especifique la [configuración de creatividad en vídeo](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+
+   De manera predeterminada, el elemento creativo que acaba de cargar está seleccionado y cualquier configuración que especifique se aplicará al elemento creativo seleccionado.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
 1. Haga clic **[!UICONTROL Create]**
 

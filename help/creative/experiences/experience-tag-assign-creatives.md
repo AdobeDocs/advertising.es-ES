@@ -3,9 +3,9 @@ title: Asigne elementos creativos a una etiqueta de anuncio para experiencias si
 description: Aprenda a asignar elementos creativos a una etiqueta de publicidad para un tamaño creativo específico.
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Más tarde [puede personalizar las URL de seguimiento](experience-tracking-urls-
 
    * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre de la experiencia y, a continuación, haga clic en **[!UICONTROL Tag Manager]**.
 
-   * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**
+   * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
 1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en **[!UICONTROL + Add Creatives]**. <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -47,4 +47,5 @@ Más tarde [puede personalizar las URL de seguimiento](experience-tracking-urls-
 >* [Crear manualmente una etiqueta de anuncio para un tamaño creativo aplicable](experience-tag-create-manually.md)
 >* [Personalice las direcciones URL de seguimiento para los creativos](experience-tracking-urls-no-targeting.md).
 >* [Personalizar la optimización y programación creativas para los creativos](experience-optimization-scheduling-no-targeting.md)
+>* [Personalizar opciones de transcodificación para una etiqueta de experiencia de anuncio de vídeo](experience-tag-video-transcoding.md)
 >* [Exportar e implementar una etiqueta de experiencia de anuncio para una experiencia en vivo](experience-tag-export.md)

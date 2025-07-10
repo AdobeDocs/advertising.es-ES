@@ -3,9 +3,9 @@ title: Acerca de sus bibliotecas creativas
 description: Obtenga información sobre cómo administrar los elementos creativos para sus experiencias publicitarias.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 9782471837db19d14839027ea7a576484863bb69
+source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Las bibliotecas pueden incluir lo siguiente:
 
    * **Creativos dinámicos:** (solo clientes existentes de Adobe Advertising DCO) Los usuarios administradores pueden crear creativos generados dinámicamente asignando variables dinámicas en una plantilla de anuncio a los valores de un archivo de fuente. Todos los usuarios pueden obtener una vista previa de los anuncios dinámicos existentes, duplicarlos y eliminarlos.
 
-* **Paquetes creativos:** Agrupe los elementos creativos en paquetes para usarlos en varias experiencias con objetivos de usuario definidos. Puede crear *paquetes estándar* que consten de anuncios estándar y *paquetes dinámicos* que consten de anuncios generados dinámicamente.
+* **Paquetes creativos:** Agrupe los elementos creativos en paquetes para usarlos en varias experiencias con objetivos de usuario definidos. Puede crear *paquetes de pantalla estándar* que consten de anuncios en pantalla estándar, *paquetes de vídeo estándar* que consten de anuncios de vídeo estándar y *paquetes de pantalla dinámica* que consten de anuncios en pantalla generados dinámicamente.
 
 ## Formatos de Creative compatibles {#creative-creative-formats}
 
@@ -34,9 +34,9 @@ Puede agregar y administrar los siguientes tipos creativos en los [tamaños crea
 
 >[!IMPORTANT]
 >
->Incluso si tiene intención de utilizar HTML5, Flexible HTML5 o creativos de terceros para sus experiencias publicitarias, también debe añadir creativos de imagen para cada tamaño creativo que utilice.
->
->Cada experiencia requiere un creativo de imagen predeterminado para cada tamaño creativo asignado a la experiencia. Los elementos creativos de imagen predeterminados se utilizan cuando un explorador no está habilitado para JavaScript o cuando el servidor de publicidad no puede personalizar el anuncio debido a retrasos.
+>* Incluso si tiene intención de utilizar HTML5, Flexible HTML5 o creativos de terceros para sus experiencias publicitarias en pantalla estándar, también debe añadir creativos de imagen para cada tamaño creativo que utilice.
+>* Cada experiencia de visualización estándar requiere un creativo de imagen predeterminado para cada tamaño creativo asignado a la experiencia. Los elementos creativos de imagen predeterminados se utilizan cuando un explorador no está habilitado para JavaScript o cuando el servidor de publicidad no puede personalizar el anuncio debido a retrasos.
+>* Cada experiencia de vídeo estándar requiere un creativo de vídeo predeterminado para cada tamaño creativo asignado a la experiencia.<!-- when is it used? -->
 
 #### HTML flexible5
 
@@ -52,7 +52,7 @@ Puede cargar archivos creativos de HTML5 simples o estáticos, con todos los atr
 
 Puede incluir creativos de imagen en formato GIF, JPEG, JPG o PNG. Puede cargar imágenes aprobadas desde sus cuentas de Adobe Experience Manager o imágenes desde su dispositivo o red.
 
-Cada experiencia publicitaria requiere un creativo de imagen predeterminado para cada tamaño creativo asignado a la experiencia.
+Cada experiencia de anuncio en pantalla estándar requiere un creativo de imagen predeterminado para cada tamaño creativo asignado a la experiencia.
 
 #### Creativos de terceros
 
@@ -61,6 +61,38 @@ Introduzca las etiquetas de seguimiento de JavaScript para creativos alojados en
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
 ```
+
+#### Creativos de vídeo {#creative-video-specs}
+
+Puede cargar vídeos creativos desde su dispositivo o red. Cada experiencia de anuncio de vídeo estándar requiere un creativo de vídeo predeterminado para cada tamaño creativo asignado a la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. En [!UICONTROL Tag Manager], opcionalmente, puede [aplicar transcodificación específica del editor](/help/creative/experiences/experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
+
+Consulte los siguientes requisitos creativos de vídeo.
+
+**Tipo de archivo:** .mov, .mp4, .webm
+
+**Tamaño de archivo:** máximo de 512 MB
+
+**Proporción de aspecto del vídeo:** 16:9, 4:3
+
+**Resolución de vídeo:** 640 x 360 para 360p, 1280 x 720 para 720p, 1920 x 1080 para 1080p
+
+**Longitud del vídeo:** Máximo de 90 segundos
+
+**Velocidad de bits:** 600-1200 kbps para 360p, 1500-2500 kbps para 720p, 3000-5000+ kbps para 1080p
+
+**Velocidad de fotogramas de vídeo:** 23,98 FPS. Se pueden aceptar frecuencias de cuadro adicionales según los requisitos regionales o de editor
+
+**Códec de vídeo:** H.264 (estándar del sector), AV1, H.265
+
+**Formato de audio:** ACC (estándar del sector/MP4), Opus (WebM/AV1)
+
+**Velocidad de bits de audio:** 16-512 kbps
+
+**Velocidad de muestreo de audio:** 44100-48000 Hz
+
+**Velocidad de audio:** 44,1kHz o 48 kHz
+
+**Otro audio:** El archivo cargado debe ser no entrelazado, mezclado y contener una pista de audio. Puede que no haya sonido, pero se debe incluir una pista de audio en el archivo de vídeo.
 
 ### Formato para anuncios dinámicos
 
@@ -102,7 +134,9 @@ La ficha [!UICONTROL Standard Ads] muestra todos los elementos creativos estánd
 
 * [Previsualización de un elemento creativo estándar](creative-preview.md)
 
-* [Añada elementos creativos estándar a paquetes estándar y elimine elementos creativos estándar de un paquete estándar](creative-attach-detach-bundles.md)
+* [Añada elementos creativos estándar a paquetes de visualización estándar y elimine elementos creativos estándar de un paquete de visualización estándar](creative-attach-detach-bundles.md)
+
+* [Agregue elementos creativos de vídeo a paquetes de vídeo estándar y elimine elementos creativos de vídeo de un paquete de vídeo estándar](creative-attach-detach-bundles.md)
 
 * [Duplicar creativos estándar](creative-duplicate.md)
 
@@ -126,7 +160,7 @@ Actualmente, la capacidad de crear y editar elementos creativos dinámicos solo 
 
 * [Previsualizar elementos creativos dinámicos](creative-preview.md)
 
-* [Agregue creativos dinámicos a paquetes dinámicos y elimine los creativos dinámicos de un paquete dinámico](creative-attach-detach-bundles.md)
+* [Agregue elementos creativos dinámicos a los paquetes de visualización dinámica y elimine elementos creativos dinámicos de un paquete de visualización dinámica](creative-attach-detach-bundles.md)
 
 * [Creativos dinámicos duplicados](creative-duplicate.md)
 
@@ -140,13 +174,15 @@ La vista [!UICONTROL Bundles] muestra todos los contenedores de paquete estánda
 
 #### Acciones disponibles
 
-* Añadir paquetes estándar y dinámicos a una biblioteca
+* Añadir paquetes de visualización estándar, vídeo estándar y visualización dinámica a una biblioteca
 
 * Enumere y previsualice los creativos en un paquete
 
 * Editar un nombre de paquete
 
-* Añada elementos creativos estándar a paquetes estándar y elimine elementos creativos estándar de un paquete estándar
+* Añada elementos creativos de visualización estándar a paquetes de visualización estándar y elimine elementos creativos de visualización estándar de un paquete de visualización estándar
+
+* Agregue creativos de vídeo estándar a paquetes de vídeo estándar y elimine creativos de vídeo estándar de un paquete de vídeo estándar
 
 * Paquetes duplicados
 

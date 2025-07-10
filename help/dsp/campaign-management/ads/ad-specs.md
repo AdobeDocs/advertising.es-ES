@@ -3,9 +3,9 @@ title: Especificaciones del anuncio
 description: Consulte las especificaciones generales y específicas del editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Los anuncios se entregan de forma predeterminada en equipos de escritorio, dispo
 
 Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners Certificados de Servicio de publicidad](certified-ad-servers.md)&quot;.
 
-### Requisitos para Video Assets de alta definición (obligatorio)
+### Requisitos para Video Assets de alta definición
 
 **Tipo de etiqueta de vídeo:** VPAID 2.0 JavaScript o VAST (CTV). Todas las unidades de anuncios VPAID deben cumplir con la [especificación VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) según la definición del Interactive Advertising Bureau (IAB).
 
@@ -82,13 +82,13 @@ Los anuncios se entregan de forma predeterminada en equipos de escritorio y disp
 
 **Imagen:** GIF, JPG/JPEG, PNG
 
-**HTML 5:** Tipos de archivo de imagen: GIF, JPG/JPEG, PNG, SVG
+**HTML5:** Tipos de archivo de imagen: GIF, JPG/JPEG, PNG, SVG
 
-### Requisitos para Image Assets (obligatorio)
+### Requisitos para Image Assets
 
 Se admite la visualización universal.
 
-**Tamaños de anuncio recomendados:** 120 x 60, 160 x 600, 180 x 150, 300 x 50, 300 x 100, 300 x 1050, 300 x 250, 300 x 600, 320 x 50, 320 x 480, 480 60 x 60, 640 x 480, 88 x 31, 728 x 90, 970 x 250, 970 x 90
+**Tamaños de anuncio recomendados:** 120 x 60, 160 x 600, 180 x 150, 300 x 50, 300 x 100, 300 x 1050, 300 x 250, 300 x 600, 320 x 50, 320 x 480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
 
 **Servidores de publicidad de terceros admitidos:** Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners Certificados de Servicio de publicidad](certified-ad-servers.md)&quot;.
 
@@ -102,7 +102,7 @@ Escritorio, Móvil, Tablet, Altavoces inteligentes y TV conectada
 
 Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners Certificados de Servicio de publicidad](certified-ad-servers.md)&quot;.
 
-### Requisitos para Audio Assets (obligatorio)
+### Requisitos para Audio Assets
 
 **Tipo de archivo:** MP3, OGG, AAC
 
@@ -156,27 +156,27 @@ Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 * **[!DNL iHeartRadio]:**
    * Tipo de archivo: JPEG, JPG, PNG, GIF, SWF, HTML
    * Tamaño máximo de archivo: 2,2 MB
-   * Dimension: 300x250
+   * Dimensiones: 300x250
 
 * **[!DNL Pandora]:**
    * Tipo de archivo: JPEG, GIF
    * Tamaño máximo de archivo: Tamaño: 100 KB
-   * Dimension: 300 x 250 (móvil o sobremesa) o 500 x 500 (sobremesa)
+   * Dimensiones: 300 x 250 (móvil o escritorio) o 500 x 500 (escritorio)
 
 * **[!DNL SoundCloud]:**
-   * Tipo de archivo: Estático, JPG, PNG
+   * Tipo de archivo: Static JPG, PNG
    * Tamaño máximo de archivo: menos de 400 KB
-   * Dimension: 1024 x 1024
+   * Dimensiones: 1024x1024
 
 * **[!DNL Spotify]:**
-   * Tipo de archivo: Estático, JPG, PNG
+   * Tipo de archivo: Static JPG, PNG
    * Tamaño máximo de archivo: 200 KB
-   * Dimension: 300x250
+   * Dimensiones: 300x250
 
 * **[!DNL TuneIn]:**
-   * Tipo de archivo: JPEG, HTML, JPG, PNG, GIF
+   * Tipo de archivo: JPEG, JPG, PNG, GIF, HTML
    * Tamaño máximo de archivo: 2 MB
-   * Dimension: 300x250
+   * Dimensiones: 300x250
 
 ## Anuncios en pantalla nativos
 
@@ -216,7 +216,7 @@ Los anuncios se entregan de forma predeterminada en equipos de escritorio y disp
 
 **Patrocinado por:** Máximo de 200 caracteres; se recomiendan 30 caracteres
 
-**Llamada a la acción (solo MoPub):** Máximo de 15 caracteres
+**Call to action (solo MoPub):** Máximo de 15 caracteres
 
 >[!NOTE]
 >
