@@ -3,9 +3,9 @@ title: Administrar paquetes creativos
 description: Más información sobre xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Los paquetes son grupos de creativos que se pueden añadir a una experiencia com
 
 [!DNL Creative] rota entre los elementos creativos del paquete según se ha especificado para cada experiencia a la que se ha asignado el paquete. Opcionalmente, puede permitir que [!DNL Creative] optimice los elementos de publicidad para cualquier experiencia en función del rendimiento mediante la rotación algorítmica de anuncios, que funciona con Adobe Sensei.
 
-Para habilitar la optimización de los elementos de publicidad en los paquetes de una experiencia de publicidad, cada paquete puede incluir solo una de cada combinación \[tamaño creativo + idioma\]. Por ejemplo, si un paquete incluye un creativo de 250 x 250 con un idioma predeterminado de &quot;francés&quot;, no puede añadir un segundo creativo de 250 x 250 con un idioma predeterminado de &quot;francés&quot;. Si tiene varios creativos del mismo tamaño en el mismo idioma, añádalos por separado a la experiencia.
+Para habilitar la optimización de los elementos de publicidad en los paquetes de una experiencia publicitaria, cada paquete puede incluir solo uno de cada combinación \[tamaño creativo o duración + idioma\]. Por ejemplo, si un paquete incluye un creativo de 250 x 250 con un idioma predeterminado de &quot;francés&quot;, no puede añadir un segundo creativo de 250 x 250 con un idioma predeterminado de &quot;francés&quot;. Si tiene varios creativos del mismo tamaño en el mismo idioma, añádalos por separado a la experiencia.
 
 Los elementos creativos adjuntos a los paquetes siguen estando disponibles como elementos creativos individuales. Puede añadir un solo elemento creativo a varios paquetes. Si edita cualquier configuración de un elemento creativo que esté adjunto a un paquete, los cambios se propagarán al paquete. Sin embargo, para la experiencia siempre se utiliza cualquier página de aterrizaje personalizada, etiquetas de seguimiento de impresiones y etiquetas de seguimiento de clics configuradas para el creativo dentro de una experiencia.
 
@@ -104,7 +104,7 @@ Los cambios en un nombre de paquete se propagan por todas las experiencias asoci
 
 ## Adjuntar elementos creativos a un paquete
 
-Puede adjuntar elementos creativos de visualización estándar existentes a un paquete de visualización estándar, elementos creativos de vídeo estándar a paquetes de vídeo estándar y elementos creativos de visualización dinámica a un paquete dinámico. Al adjuntar un elemento creativo a un paquete, este estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete solo puede incluir una de cada combinación \[creative size + language\].
+Puede adjuntar elementos creativos de visualización estándar existentes a un paquete de visualización estándar, elementos creativos de vídeo estándar a paquetes de vídeo estándar y elementos creativos de visualización dinámica a un paquete dinámico. Al adjuntar un elemento creativo a un paquete, este estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete solo puede incluir una de cada combinación \[creative size or duration + language\].
 
 >[!NOTE]
 >

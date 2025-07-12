@@ -3,9 +3,9 @@ title: Crear manualmente una etiqueta de anuncio para un tamaño creativo aplica
 description: Aprenda a crear una etiqueta de anuncio para un tamaño creativo específico.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *Solo experiencias sin segmentación en el árbol de decisiones*
 *Beta cerrada*
 
-Puede crear una o más etiquetas de anuncio para cada tamaño creativo utilizado para una experiencia. Puede [asignar posteriormente elementos creativos a la etiqueta de anuncio](experience-tag-assign-creatives.md).
+Puede crear una o más etiquetas de anuncio por idioma para cada tamaño creativo o duración de vídeo que se utilice en una experiencia. Puede [asignar posteriormente elementos creativos a la etiqueta de anuncio](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
->Para las experiencias con segmentación en el árbol de decisiones, [!DNL Creative] crea automáticamente una etiqueta para cada tamaño creativo aplicable.
+>Para las experiencias con segmentación en el árbol de decisiones, [!DNL Creative] crea automáticamente una etiqueta por idioma para cada tamaño creativo o duración de vídeo aplicable.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -31,11 +31,11 @@ Puede crear una o más etiquetas de anuncio para cada tamaño creativo utilizado
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Create Tag]**.
 
-1. Escriba un(a) **[!UICONTROL Tag name]** único(a) y seleccione **[!UICONTROL Tag size]**.
+1. Escriba un(a) **[!UICONTROL Tag name]** único(a) y seleccione (anuncios de pantalla estándar) el(la) **[!UICONTROL Tag size]** o (anuncios de vídeo estándar) el(la) **[!UICONTROL Duration]**.
 
-   Los tamaños de los elementos creativos predeterminados para la experiencia determinan los tamaños creativos disponibles.
+   Los tamaños o la duración de los elementos creativos predeterminados para la experiencia determinan los tamaños creativos o las duraciones de vídeo disponibles.
 
-   Puede crear varias etiquetas para el mismo tamaño creativo.<!-- What are the implications? -->
+   Puede crear varias etiquetas para el mismo tamaño creativo o duración.<!-- What are the implications? -->
 
 1. Haga clic en **[!UICONTROL Create]**.
 
