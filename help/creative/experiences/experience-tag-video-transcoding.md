@@ -3,7 +3,7 @@ title: Personalización de las opciones de transcodificación de una etiqueta de
 description: Aprenda a personalizar las opciones de transcodificación de una etiqueta de anuncio de vídeo.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 3d0d42d19c11276f13a4e003c382a2d2410ab037
+source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Puede personalizar las opciones de transcodificación de una experiencia de anun
 
 1. Realice una de las siguientes acciones:
 
-* En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre de la experiencia y, a continuación, haga clic en **[!UICONTROL Tag Manager]**.
+   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre de la experiencia y, a continuación, haga clic en **[!UICONTROL Tag Manager]**.
 
-* En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
+   * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
 1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable, haga clic en **[!UICONTROL More]** y, a continuación, haga clic en **[!UICONTROL Video Settings]**.
 
