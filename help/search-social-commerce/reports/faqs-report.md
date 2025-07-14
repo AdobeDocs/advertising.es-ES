@@ -294,7 +294,7 @@ Consulte las posibles causas y soluciones para implementaciones de píxeles más
 +++
 
 +++Los datos de ingresos son diferentes de los datos de Adobe Analytics
-Ver [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
+Ver [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=es](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=es).<!-- change link URL to relative link -->
 +++
 
 ## Informes específicos
