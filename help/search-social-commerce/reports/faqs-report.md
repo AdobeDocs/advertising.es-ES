@@ -1,16 +1,16 @@
 ---
-title: Preguntas frecuentes sobre informes personalizados
+title: Preguntas frecuentes sobre los informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
 
 ---
 
-# Preguntas frecuentes sobre informes personalizados
+# Preguntas frecuentes sobre los informes personalizados
 
 ## Preguntas generales
 
@@ -56,7 +56,7 @@ Cuando la fila incluye datos para campañas de búsqueda con contenido habilitad
 +++Debido a cambios estacionales o de mercado, mis informes muestran datos atípicos. ¿Afecta esto a las ofertas una vez que cambian las condiciones?
 La capacidad de optimización crea diariamente sus modelos de ingresos para cada unidad de oferta para garantizar que identifique las tendencias y responda inmediatamente a ellas, y los modelos incorporan datos históricos a largo plazo para ayudar a predecir el rendimiento estacional. La configuración de semivida del modelo de ingresos del portafolio<!-- add link to glossary? --> también determina la magnitud de la ponderación de los datos de ingresos recientes. La práctica recomendada es reducir la semivida durante un período de rendimiento atípico, pero aumentarla después de ajustar el modelo de ingresos. Si tiene alguna pregunta sobre si es necesario ajustar la semivida, póngase en contacto con el equipo de cuenta de Adobe.
 
-Si no desea que los datos del periodo afecten a las pujas futuras, puede optar por excluir esas fechas del modelo. Póngase en contacto con el equipo de cuenta de Adobe para excluir las fechas.
+Si no desea que los datos del periodo afecten a las pujas futuras, puede optar por excluir esas fechas del modelo. Póngase en contacto con el equipo de su cuenta de Adobe para excluir las fechas.
 +++
 
 +++¿Puedo crear un informe con una métrica de propiedad de cuenta específica, como [!UICONTROL Device] o [!UICONTROL Objective Name]?
@@ -81,7 +81,7 @@ Si genera un informe varias veces utilizando los mismos parámetros de informe p
 
 * La selección del filtro de portafolio excluye algunos de los eventos que llevaron a la conversión.
 
-  Si crea informes sobre un subconjunto de portafolios, es posible que no incluya las campañas que incluyeron el evento al que se atribuyó la conversión en una de las reglas de atribución. Por ejemplo, supongamos que un usuario hace clic en Palabra clave_1 en Portfolio_1, hace clic en Palabra clave_2 en Portfolio_2 y, a continuación, convierte. Si el informe usa la regla de atribución &quot;[!UICONTROL First Event]&quot;, entonces se debe incluir Portfolio_1 para que la conversión se incluya en el informe. Sin embargo, si el informe utiliza la regla de atribución &quot;Último evento&quot;, se debe incluir Portfolio_2.
+  Si crea informes sobre un subconjunto de portafolios, es posible que no incluya las campañas que incluyeron el evento al que se atribuyó la conversión en una de las reglas de atribución. Por ejemplo, supongamos que un usuario hace clic en Palabra clave_1 desde Portfolio_1, hace clic en Palabra clave_2 desde Portfolio_2 y, a continuación, convierte. Si el informe usa la regla de atribución &quot;[!UICONTROL First Event]&quot;, se debe incluir Portfolio_1 para que la conversión se incluya en el informe. Sin embargo, si el informe utiliza la regla de atribución &quot;Último evento&quot;, se debe incluir Portfolio_2.
 
 >[!TIP]
 >
@@ -98,9 +98,9 @@ Esta situación se puede producir cuando los formatos de métrica utilizan enter
 +++
 
 +++Cuando faltan datos de clics o ingresos, ¿cómo puedo evitar que afecten a ofertas futuras?
-Los problemas de datos de clics se producen cuando Search, Social y Commerce no están sincronizados con la red de anuncios. Póngase en contacto con el equipo de cuenta de Adobe para sincronizar manualmente la cuenta. Si faltan datos de clics para un día completo, pida al equipo de cuenta de Adobe que excluya ese día de los modelos de coste.
+Los problemas de datos de clics se producen cuando Search, Social y Commerce no están sincronizados con la red de anuncios. Póngase en contacto con el equipo de su cuenta de Adobe para sincronizar manualmente la cuenta. Si faltan datos de clics para un día completo, pida al equipo de cuenta de Adobe que excluya ese día de los modelos de coste.
 
-Pueden producirse problemas en los datos de ingresos debido a un problema con el archivo de seguimiento o de fuente. Póngase en contacto con el equipo de cuenta de Adobe para investigar el problema. Si faltan datos de ingresos para un día entero, pida al equipo de cuenta de Adobes que excluya ese día de los modelos de ingresos.
+Pueden producirse problemas en los datos de ingresos debido a un problema con el archivo de seguimiento o de fuente. Póngase en contacto con el equipo de su cuenta de Adobe para investigar el problema. Si faltan datos de ingresos para un día completo, pida al equipo de cuenta de Adobe que excluya ese día de los modelos de ingresos.
 +++
 
 +++Los datos monetarios se muestran en un formato incorrecto.
@@ -128,7 +128,7 @@ Las siguientes son razones comunes para la falta de datos sobre clics.
 +++
 
 +++Los datos de rendimiento son diferentes de los datos del editor de red de publicidad.
-Cuando la red de anuncios envía actualizaciones a datos anteriores (a menudo porque han atribuido un fraude de clics a algunos clics), Search, Social y Commerce no actualiza los datos a menos que haya más de un 5 % de discrepancia y el equipo de la cuenta de Adobe presente una solicitud.
+Cuando la red de anuncios envía actualizaciones a datos anteriores (a menudo porque han atribuido un fraude de clics a algunos clics), Search, Social y Commerce no actualiza los datos a menos que haya más de un 5 % de discrepancia y el equipo de cuenta de Adobe presente una solicitud.
 
 Además, cuando compara datos de uso compartido de impresiones agregados en un intervalo de fechas, los datos de los informes Buscar, Social y Commerce pueden diferir de los datos de los informes de la red de anuncios. Esta diferencia se debe a la forma en que la API de la red de publicidad informa los datos, que Search, Social y Commerce utiliza para extraer los datos. Por ejemplo, para los datos de [!DNL Google Ads]:
 
@@ -171,9 +171,9 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 1. Compruebe que se incluyen las columnas correctas en los informes o en las vistas de datos. Si no se pueden agregar las columnas correctas, usted o su equipo de cuenta de Adobe deben [poner las métricas de conversión a disposición de los informes](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
-1. Compruebe que las etiquetas de seguimiento de conversión correctas están implementadas en todas las páginas web aplicables. Si es necesario, pídale al equipo de cuenta de Adobe que cree una transacción de prueba para cada etiqueta de seguimiento de conversión aplicable y que capture los detalles de la transacción, como `transactionid` y los detalles de la cookie (como `trackingid`, `clickid`, etc.).
+1. Compruebe que las etiquetas de seguimiento de conversión correctas están implementadas en todas las páginas web aplicables. Si es necesario, pídale al equipo de su cuenta de Adobe que cree una transacción de prueba para cada etiqueta de seguimiento de conversión aplicable y que capture los detalles de la transacción, como `transactionid` y los detalles de la cookie (como `trackingid`, `clickid`, etc.).
 
-1. Si la opción [!UICONTROL Auto Upload] está deshabilitada para la campaña y usted ha agregado palabras clave o anuncios, asegúrese de haber generado una plantilla de seguimiento o una dirección URL de destino que incluya el seguimiento de redireccionamiento de clics de Search, Social y Commerce para cada una. El equipo de cuenta de Adobe puede ejecutar un informe interno para ver si faltan direcciones URL de rastreo de clics (plantillas de seguimiento o direcciones URL de destino) o si tienen un formato incorrecto.
+1. Si la opción [!UICONTROL Auto Upload] está deshabilitada para la campaña y usted ha agregado palabras clave o anuncios, asegúrese de haber generado una plantilla de seguimiento o una dirección URL de destino que incluya el seguimiento de redireccionamiento de clics de Search, Social y Commerce para cada una. El equipo de cuenta de Adobe puede ejecutar un informe interno para ver si faltan direcciones URL de seguimiento de clics (plantillas de seguimiento o direcciones URL de destino) o si tienen un formato incorrecto.
 
    Si es necesario, genere el seguimiento creando un archivo de hoja de edición masiva con las direcciones URL correctas y publique el archivo en la cuenta correspondiente mediante la opción **Generar direcciones URL de seguimiento**.
 
@@ -211,7 +211,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 +++
 
 +++Algunos informes avanzados no incluyen los datos de conversión proporcionados por una fuente del anunciante.
-[!UICONTROL Geo Distribution Report] y [!UICONTROL Domain Referral Report] utilizan datos capturados a través del servicio de seguimiento de conversión de Adobe Advertising y solo se pueden generar para anunciantes que tengan el servicio. Los informes no incluyen datos de conversión rastreados fuera del sistema de seguimiento de conversiones de Adobe Advertising.
+[!UICONTROL Geo Distribution Report] y [!UICONTROL Domain Referral Report] utilizan datos capturados a través del servicio de seguimiento de conversión de Adobe Advertising y solo se pueden generar para anunciantes que tengan el servicio. Los informes no incluyen datos de conversión que se rastrean fuera del sistema de seguimiento de conversiones de Adobe Advertising.
 +++
 
 +++Los datos de ingresos son diferentes de los datos de ingresos propios del anunciante.
@@ -230,7 +230,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
 
 1. Vaya a **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** y genere un [!UICONTROL Transaction Report]. Compare las transacciones que Search, Social y Commerce recibieron con los datos del anunciante.
 
-1. Si algunas transacciones son incorrectas o faltan, asegúrese de que la etiqueta de seguimiento de conversión correspondiente esté implementada en todas las páginas web aplicables y no se haya editado a menos que el equipo de cuenta de Adobe le haya recomendado hacerlo. Puede que falte una etiqueta o que se haya cambiado si el sitio web se ha actualizado recientemente.
+1. Si algunas transacciones son incorrectas o faltan, asegúrese de que la etiqueta de seguimiento de conversión correspondiente esté implementada en todas las páginas web aplicables y no se haya editado a menos que el equipo de cuenta de Adobe le recomiende hacerlo. Puede que falte una etiqueta o que se haya cambiado si el sitio web se ha actualizado recientemente.
 
    Search, Social y Commerce esperan direcciones URL bien formadas (con parámetros en pares nombre-valor) dentro de la variable `ef_transaction_properties` y dentro del elemento `src` de la etiqueta `img`.
 
@@ -294,7 +294,7 @@ Consulte las posibles causas y soluciones para implementaciones de píxeles más
 +++
 
 +++Los datos de ingresos son diferentes de los datos de Adobe Analytics
-Ver [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=es](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=es).<!-- change link URL to relative link -->
+Ver [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Informes específicos
@@ -308,7 +308,7 @@ El [!UICONTROL Portfolio Report] muestra datos solamente para las campañas asig
 +++
 
 +++¿En qué se diferencia [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] del nivel de portafolio [!UICONTROL Model Accuracy Report]?
-(Solo el administrador de cuentas de agencia, el administrador de cuentas de Adobe y los usuarios administradores) [!UICONTROL Forecast Accuracy Report] disponible en [!UICONTROL Reports] > [!UICONTROL Model Accuracy] proporciona los mismos datos que el nivel de portafolio [!UICONTROL Model Accuracy Report], excepto que puede ejecutarlo en varios portafolios y puede cambiar la regla de atribución. También puede ejecutar y programar el informe utilizando parámetros personalizados, y puede utilizarlo para crear fuentes de hoja de cálculo. Además, [!UICONTROL Forecast Accuracy Report] es más preciso que el informe de nivel de portafolio heredado porque evalúa la precisión de los ingresos utilizando los objetivos históricos para el portafolio en lugar del objetivo actual y representa los datos con mayor precisión para el huso horario aplicable.
+(Solo administrador de cuentas de agencia, administrador de cuentas de Adobe y usuarios administradores) [!UICONTROL Forecast Accuracy Report] disponible en [!UICONTROL Reports] > [!UICONTROL Model Accuracy] proporciona los mismos datos que en el nivel de portafolio [!UICONTROL Model Accuracy Report], excepto que puede ejecutarlo en varios portafolios y puede cambiar la regla de atribución. También puede ejecutar y programar el informe utilizando parámetros personalizados, y puede utilizarlo para crear fuentes de hoja de cálculo. Además, [!UICONTROL Forecast Accuracy Report] es más preciso que el informe de nivel de portafolio heredado porque evalúa la precisión de los ingresos utilizando los objetivos históricos para el portafolio en lugar del objetivo actual y representa los datos con mayor precisión para el huso horario aplicable.
 +++
 
 +++Los datos de nivel de anuncio no están disponibles para [!DNL Google Ads] publicidad de búsqueda dinámica (DSA), rendimiento máximo, compras inteligentes y [!DNL YouTube] campañas.
