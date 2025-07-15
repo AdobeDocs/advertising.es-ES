@@ -3,9 +3,9 @@ title: Asignación de campañas a un portafolio
 description: Obtenga información sobre cómo incluir campañas en portafolios para la optimización.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Asignar una campaña a un portafolio optimizado permite a Search, Social y Commerce optimizar ofertas, presupuestos de campaña y objetivos de estrategia de oferta para palabras clave y anuncios en la campaña. Puede asignar campañas a un portafolio desde la vista [!UICONTROL Campaigns], al crear el portafolio o al editar la configuración de un portafolio.
 
-No todos los tipos de campañas y redes de anuncios cumplen los requisitos para la optimización; vea una lista de [tipos de campañas compatibles](/help/search-social-commerce/introduction/supported-inventory.md) que puede incluir en un portafolio. Además, compruebe la compatibilidad con la optimización de cada estrategia de oferta de campaña consultando &quot;Tipos de Portfolio aptos por estrategia de oferta de campaña&quot; en el capítulo Guía de optimización &quot;Portafolios&quot;, que está disponible en Buscar, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+No todos los tipos de campañas y redes de anuncios cumplen los requisitos para la optimización; vea una lista de [tipos de campañas compatibles](/help/search-social-commerce/introduction/supported-inventory.md) que puede incluir en un portafolio. Además, compruebe la compatibilidad con la optimización [para cada estrategia de oferta de campaña](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
 
 >[!NOTE]
 >
@@ -40,9 +40,11 @@ No todos los tipos de campañas y redes de anuncios cumplen los requisitos para 
 
 1. En la barra de herramientas, haga clic en ![Más acciones](/help/search-social-commerce/assets/more-actions.png "Más acciones") **[!UICONTROL More Actions]** > ![Asignar](/help/search-social-commerce/assets/assign.png "Asignar") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
-1. En la pantalla [!UICONTROL Create Portfolio], especifique la configuración del portafolio<!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)-->.
+1. En la pantalla [!UICONTROL Create Portfolio], especifique la configuración del portafolio.
 
    Las campañas seleccionadas anteriormente ya están asignadas a la campaña. Si lo desea, puede editar la lista de campañas del portafolio.
+
+   Para obtener más información sobre la configuración del portafolio, consulte la Guía de optimización, que está disponible en Search, Social y Commerce.
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
