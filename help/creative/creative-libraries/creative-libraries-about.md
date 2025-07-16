@@ -3,7 +3,7 @@ title: Acerca de sus bibliotecas creativas
 description: Obtenga información sobre cómo administrar los elementos creativos para sus experiencias publicitarias.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: 85f89ef480ee938c7dbac0f3a1d5b9a5db0bef8f
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Puede agregar y administrar los siguientes tipos creativos en los [tamaños crea
 >
 >* Incluso si tiene intención de utilizar HTML5, Flexible HTML5 o creativos de terceros para sus experiencias publicitarias en pantalla estándar, también debe añadir creativos de imagen para cada tamaño creativo que utilice.
 >* Cada experiencia de visualización estándar requiere un creativo de imagen predeterminado para cada tamaño creativo asignado a la experiencia. Los elementos creativos de imagen predeterminados se utilizan cuando un explorador no está habilitado para JavaScript o cuando el servidor de publicidad no puede personalizar el anuncio debido a retrasos.
->* Cada experiencia de vídeo estándar requiere un creativo de vídeo predeterminado para cada tamaño creativo asignado a la experiencia.<!-- when is it used? -->
+>* Cada experiencia de vídeo estándar requiere un creativo de vídeo predeterminado para cada duración creativa asignada a la experiencia.<!-- when is it used? -->
 
 #### HTML flexible5
 
@@ -64,7 +64,7 @@ Introduzca las etiquetas de seguimiento de JavaScript para creativos alojados en
 
 #### Creativos de vídeo {#creative-video-specs}
 
-Puede cargar vídeos creativos de origen para la web, el móvil o la TV conectada desde su dispositivo o red. Cada experiencia de anuncio de vídeo estándar requiere un creativo de vídeo predeterminado para cada tamaño creativo asignado a la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. En [!UICONTROL Tag Manager], opcionalmente, puede [aplicar transcodificación específica del editor](/help/creative/experiences/experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
+Puede cargar vídeos creativos de origen para la web, el móvil o la TV conectada desde su dispositivo o red. Cada experiencia de anuncio de vídeo estándar requiere un creativo de vídeo predeterminado para cada duración creativa asignada a la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. En [!UICONTROL Tag Manager], opcionalmente, puede [aplicar transcodificación específica del editor](/help/creative/experiences/experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
 
 Consulte los siguientes requisitos creativos de vídeo.
 
