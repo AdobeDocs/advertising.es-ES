@@ -3,7 +3,8 @@ title: (Nueva IU) Ver el panel de rendimiento
 description: Obtenga información acerca de los datos disponibles en su panel de rendimiento.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # (Nueva IU) Ver el panel de rendimiento
 
 *característica de Beta*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 El elemento personalizable [!UICONTROL Dashboard] le permite supervisar el rendimiento de todos sus portafolios <!-- May later include other entity-level data --> para que pueda identificar posibles problemas de rendimiento que investigar y resolver. Puede ver datos diarios, semanales o mensuales de cualquier período de tiempo de los últimos 90 días.
 
@@ -57,4 +56,3 @@ Su [!UICONTROL Dashboard] incluye los siguientes informes visuales:
    * Cambiar la métrica notificada ([!UICONTROL Cost] \[seleccionada de forma predeterminada\], [!UICONTROL Clicks] o [!UICONTROL Objective Value]).
 
    * Para abrir la vista [!UICONTROL Portfolios], haga clic en **[!UICONTROL View More]** en la parte inferior derecha del gráfico. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-
