@@ -3,9 +3,9 @@ title: Acerca de sus bibliotecas creativas
 description: Obtenga información sobre cómo administrar los elementos creativos para sus experiencias publicitarias.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 056502f8c634ee62b750d7c4c188dc248b836a5a
+source-git-commit: 2d794d0c4e6ce708412742f6ba6178b61116b41d
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ Introduzca las etiquetas de seguimiento de JavaScript para creativos alojados en
 
 #### Creativos de vídeo {#creative-video-specs}
 
-Puede cargar vídeos creativos de origen para la web, el móvil o la TV conectada desde su dispositivo o red. Cada experiencia de anuncio de vídeo estándar requiere un creativo de vídeo predeterminado para cada duración creativa asignada a la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. En [!UICONTROL Tag Manager], opcionalmente, puede [aplicar transcodificación específica del editor](/help/creative/experiences/experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
+Puede cargar vídeos creativos de origen para la web, el móvil o la TV conectada desde su dispositivo o red. Cada experiencia de anuncio de vídeo estándar requiere un creativo de vídeo predeterminado para cada duración creativa asignada a la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. En [!UICONTROL Tag Manager], opcionalmente [puede aplicar la transcodificación específica de DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
 
-Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/es/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
+Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
 
 **Tipo de archivo:** .mov, .mp4, .webm
 
