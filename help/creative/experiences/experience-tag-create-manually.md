@@ -3,9 +3,9 @@ title: Crear manualmente una etiqueta de anuncio para un tamaño creativo aplica
 description: Aprenda a crear una etiqueta de anuncio para un tamaño creativo específico.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Solo experiencias sin segmentación en el árbol de decisiones*
 *Beta cerrada*
 
-Puede crear una o más etiquetas de anuncio por idioma para cada tamaño creativo o duración de vídeo que se utilice en una experiencia. Puede [asignar posteriormente elementos creativos a la etiqueta de anuncio](experience-tag-assign-creatives.md).
+Puede crear una o más etiquetas de anuncio por idioma para cada tamaño creativo (creativos que no sean de vídeo) o duración de vídeo que se utilice para una experiencia. Puede [asignar posteriormente elementos creativos a la etiqueta de anuncio](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Puede crear una o más etiquetas de anuncio por idioma para cada tamaño creativ
 
    Puede ampliar la fila de etiquetas para ver los elementos creativos incluidos.
 
-   Para las experiencias de anuncios de vídeo, DSP transcodifica automáticamente los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. Opcionalmente, puede [aplicar transcodificación específica del editor](experience-tag-video-transcoding.md).
+   Para las experiencias de anuncios de vídeo, los creativos de vídeo se transcodifican automáticamente con la codificación Adobe Advertising DSP como etiquetas VAST 2.0 para que pueda previsualizarlos. Opcionalmente, puede [aplicar la transcodificación para un DSP diferente](experience-tag-video-transcoding.md).
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Exportación e implementación de una etiqueta de experiencia de anuncio 
 description: Obtenga información sobre cómo exportar una etiqueta de experiencia de anuncio y, opcionalmente, cargarla en una campaña de Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 2b98f148a46213ab9dac20e14ba5a2db4e447b3a
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 *Beta cerrada*
 
-Una vez que una etiqueta de anuncio para un tamaño creativo específico esté disponible para una experiencia [live](experience-about.md#experience-statuses), podrá generarla y copiarla en los formatos JavaScript, iframe y vídeo para su implementación en Advertising DSP u otros DSP. Las etiquetas de DSP incluyen todas las macros necesarias para DSP.
+Una vez que haya disponible una etiqueta de anuncio para un tamaño creativo o una duración de vídeo específicos para una experiencia de [live](experience-about.md#experience-statuses), puede generar y copiar la etiqueta en los formatos JavaScript, iframe y vídeo para su implementación en Advertising DSP u otros DSP. Las etiquetas de DSP incluyen todas las macros necesarias para DSP.
 
 Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas directamente en una campaña de Advertising DSP como anuncios con el tipo de anuncio &quot;visualización estándar&quot; o &quot;vídeo universal&quot;.
 
 >[!NOTE]
 >
->* Cuando crea una experiencia con la segmentación del árbol de decisiones, [!DNL Creative] crea automáticamente una etiqueta de anuncio para cada tamaño creativo aplicable.
->* Cuando crea una experiencia sin segmentar el árbol de decisiones, debe [crear manualmente una etiqueta de anuncio](experience-tag-create-manually.md) para cada tamaño creativo aplicable.
+>* Cuando crea una experiencia con la segmentación del árbol de decisiones, [!DNL Creative] crea automáticamente una etiqueta de anuncio para cada tamaño creativo aplicable (elementos creativos que no son vídeos) o duración del vídeo (elementos creativos de vídeo).
+>* Cuando crea una experiencia sin segmentar el árbol de decisiones, debe [crear manualmente una etiqueta de anuncio](experience-tag-create-manually.md) para cada tamaño creativo aplicable (creativos que no sean de vídeo) o duración del vídeo (creativos de vídeo).
 >* Las etiquetas de experiencia son dinámicas. No es necesario actualizar las etiquetas si edita una experiencia.
 >* Asegúrese de que las campañas en las que va a implementar una experiencia publicitaria incluyan una segmentación compatible con la experiencia. El comportamiento de direccionamiento jerárquico puede variar según DSP. En Advertising DSP, la segmentación a nivel de anuncio se aplica sobre la segmentación a nivel de ubicación (no en su lugar).
 
@@ -33,11 +33,11 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
-1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Exportar etiquetas de publicidad](/help/creative/assets/export.png "Exportar etiquetas de publicidad") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Exportar etiquetas de publicidad](/help/creative/assets/export.png "Exportar etiquetas de publicidad") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
->Para experiencias de anuncios de vídeo estándar, espere hasta que la columna [!UICONTROL Tag Status] muestre &quot;[!UICONTROL Ready]&quot;, lo que indica que se han transcodificado todos los vídeos de la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo, pero [puede aplicar la transcodificación](experience-tag-video-transcoding.md) específica del editor a cualquier etiqueta de experiencia de anuncio de vídeo.
+>Para experiencias de anuncios de vídeo estándar, espere hasta que la columna [!UICONTROL Tag Status] muestre &quot;[!UICONTROL Ready]&quot;, lo que indica que se han transcodificado todos los vídeos de la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo, pero también puedes [aplicar la transcodificación para un DSP diferente](experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -51,9 +51,9 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
 1. Seleccione el tipo de etiqueta:
 
-   * (Experiencias no de vídeo) ** *JavaScript<!-- sic -->* **&#x200B; o &#x200B;** *IFRAME* ** <!-- sic -->.
+   * (Experiencias no de vídeo) ** *JavaScript<!-- sic -->* ** o ** *IFRAME* ** <!-- sic -->.
 
-   * (Experiencias de vídeo) **&#x200B; *Vídeo* &#x200B;**.
+   * (Experiencias de vídeo) ** *Vídeo* **.
 
 1. En la lista [!UICONTROL Destinations], seleccione dónde creará anuncios para la experiencia.
 
@@ -67,7 +67,7 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
 1. Copie o descargue las etiquetas:
 
-   * Para copiar una etiqueta para un solo tamaño de anuncio, expanda la fila de etiqueta, mantenga el cursor sobre la fila y, a continuación, haga clic en ![Copiar](/help/creative/assets/copy.png "Copiar") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
+   * Para copiar una etiqueta para un solo tamaño de anuncio (anuncios que no sean de vídeo) o duración (anuncios de vídeo), expanda la fila de etiquetas, mantenga el cursor sobre la fila y, a continuación, haga clic en ![Copiar](/help/creative/assets/copy.png "Copiar") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
 
    * Para descargar todas las etiquetas generadas como un archivo en la ubicación de descarga predeterminada del explorador, haga clic en ![Descargar etiquetas](/help/creative/assets/download.png "Descargar etiquetas").
 
