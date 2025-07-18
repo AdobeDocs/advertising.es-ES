@@ -3,9 +3,9 @@ title: Acerca de esta guía
 description: Descubra lo que se cubre en cada capítulo de esta guía.
 exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 21d642ce63740c983d767e4829367673d68c69c9
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ En los siguientes capítulos de ayuda encontrará información sobre grupos espe
 
 * En &quot;Tareas comunes&quot; se explica cómo configurar las distintas vistas de datos de rendimiento en función de sus necesidades de información y preferencias, cómo administrar métricas personalizadas, cómo administrar clasificaciones de etiquetas y restricciones de oferta, y cómo realizar otras tareas comunes.
 
+* La &quot;Nueva IU&quot; explica las tareas que puede realizar en la nueva interfaz de usuario: cómo administrar objetivos, ejecutar simulaciones, administrar portafolios, asignar y quitar campañas de portafolios y asignar o quitar restricciones a campañas y grupos de anuncios. Consulte &quot;Nota&quot; a continuación.
+
 * &quot;Seguimiento&quot; explica cómo configurar el seguimiento de clics y conversiones para sus anuncios y palabras clave.
 
 * &quot;Administración de campañas&quot; explica cómo configurar y administrar los componentes de campaña para las cuentas de red de anuncios.
@@ -32,4 +34,4 @@ En los siguientes capítulos de ayuda encontrará información sobre grupos espe
 
 >[!NOTE]
 >
->La ayuda para la optimización, incluido el uso de portafolios para pujas, está disponible en el menú [!UICONTROL Help] (![menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "menú Ayuda")) en la parte superior derecha de cualquier página dentro de Buscar, Social y Commerce.
+>Encontrará ayuda adicional sobre optimización, incluido el uso de portafolios para pujar en la interfaz de usuario heredada, en el menú [!UICONTROL Help] (![menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "menú Ayuda")) en la parte superior derecha de cualquier página dentro de Search, Social y Commerce.
