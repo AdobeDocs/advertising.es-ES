@@ -3,7 +3,7 @@ title: Cambiar entre las interfaces de usuario nuevas y heredadas
 description: Aprenda a cambiar entre las interfaces de usuario nuevas y heredadas.
 feature: Search Introduction
 exl-id: 4dbdbaa1-6b06-42a2-86da-feb0183f3c9a
-source-git-commit: 70c4b5633aaec148c68d7da0ac8fe926706eb660
+source-git-commit: 30c47defdd82e759f0e9025bf111faf0ee7dd707
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -20,13 +20,7 @@ Puede cambiar entre la nueva interfaz de usuario (IU), que incluye el nuevo fluj
 
 ## Cambie de la IU heredada a la nueva
 
-* En la parte superior de cualquier página, haga clic en **[!UICONTROL Try the new UI Beta]**.
-
-<!-- CHANGING ICON/location/wording WITH GA :
-
-* In the upper right of any page, click **[!UICONTROL Switch to New UI]**.
-
- -->
+* En la parte superior de cualquier página, haga clic en **[!UICONTROL Switch to New UI]**.
 
 >[!MORELIKETHIS]
 >
