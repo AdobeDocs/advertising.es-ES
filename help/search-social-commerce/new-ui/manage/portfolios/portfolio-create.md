@@ -3,9 +3,10 @@ title: (Nueva IU) Crear un portafolio
 description: Aprenda a crear un portafolios.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: f7fe6138-8335-407a-88fd-f0ace27c93ee
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Agregar](/help/search-social-commerce/assets/add-new.png "Agregar").
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Create Portfolio]** o en ![Agregar](/help/search-social-commerce/assets/add-new.png "Agregar").
+
+   El botón que se muestra depende de la anchura del explorador.
 
 1. Especifique la configuración del portafolio.
 
