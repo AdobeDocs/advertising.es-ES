@@ -3,9 +3,9 @@ title: Iniciar sesión
 description: Descubra formas de iniciar sesión.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 5f1e8009620277884664d0cb88265b317de93393
+source-git-commit: 93c72a165a38639acbe24f2db04144dbdbc9a0d5
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Search, Social y Commerce están realizando la transición al servicio Identity 
 
 Sus credenciales actuales de Search, Social y Commerce permanecerán activas hasta el 21 de julio de 2025 para que pueda prepararse para el cambio.
 
-Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud)&quot;.
+Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ## Inicie sesión desde la página de inicio de sesión heredada de Search, Social y Commerce
 
 ### Use un inicio de sesión heredado de Search, Social y Commerce para la autenticación
 
-Esta opción estará disponible hasta el 15 de julio de 2025.
+Esta opción está disponible durante un corto periodo de tiempo para que pueda prepararse para el cambio.
 
 * Vaya a [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) o [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) e inicie sesión con su nombre de usuario y contraseña de Search, Social y Commerce heredados.
 
@@ -40,7 +40,7 @@ Esta opción estará disponible hasta el 15 de julio de 2025.
 
 1. Escriba su ID de [!DNL Adobe] y haga clic en **[!UICONTROL Continue]**.
 
-1. Si se le solicita, seleccione **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Si se le solicita, seleccione **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    La nueva interfaz de usuario se abre de forma predeterminada.
 
@@ -54,7 +54,7 @@ Esta opción estará disponible hasta el 15 de julio de 2025.
 
 1. Escriba su ID de [!DNL Adobe] y haga clic en **[!UICONTROL Continue]**.
 
-1. Si se le solicita, seleccione **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+1. Si se le solicita, seleccione **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
 1. En la sección [!UICONTROL Quick Access] de su página de inicio, haga clic en **[!UICONTROL Advertising Search, Social, & Commerce]**.
 
