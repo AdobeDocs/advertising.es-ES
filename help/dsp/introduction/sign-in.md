@@ -3,9 +3,9 @@ title: Iniciar sesión en DSP
 description: Obtenga información sobre cómo iniciar sesión en DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
+source-git-commit: f81a6d9b9df17540e27681218483acc30b5724a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -42,15 +42,15 @@ Sus credenciales de DSP actuales permanecerán activas hasta el 15 de julio de 2
 
 1. Elija su organización:
 
-   * Si se le solicita, seleccione **Cuenta personal&quot; o &#x200B;** Cuenta de empresa o escuela**.
+   * Si se le solicita, seleccione **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.
 
    * Si tiene acceso a varias organizaciones de IMS, seleccione la correcta.
 
-Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud)&quot;.
+Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ### Resolución de problemas
 
-Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe](https://helpx.adobe.com/es/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
+Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### ¿Hay algún requisito previo para habilitar un nuevo inicio de sesión de IMS de [!DNL Adobe]?
 
