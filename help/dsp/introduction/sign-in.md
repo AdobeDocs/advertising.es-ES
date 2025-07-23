@@ -3,16 +3,16 @@ title: Iniciar sesión en DSP
 description: Obtenga información sobre cómo iniciar sesión en DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 414bc93bc4a550f918742bd55d1078d36440063d
+source-git-commit: 62430015c5252cdd1418000d05e49a1c7869e09e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Iniciar sesión en Adobe Advertising DSP
 
-Adobe Advertising DSP está realizando la transición al servicio Identity Management de Adobe (IMS) para la autenticación de inicio de sesión. IMS proporciona acceso de inicio de sesión único (SSO) a todos los [!DNL Adobe] productos que admiten IMS, incluidos Real-Time Customer Data Platform, Customer Journey Analytics, Target y Analytics. Con el cambio:
+Adobe Advertising DSP está realizando la transición al servicio Identity Management de Adobe (IMS) para la autenticación de inicio de sesión. IMS proporciona acceso de inicio de sesión único (SSO) mediante Federated ID a todos los [!DNL Adobe] productos que admiten IMS, incluidos Real-Time Customer Data Platform, Customer Journey Analytics, Target y Analytics. Con el cambio:
 
 * Puede usar un(a) [!DNL Adobe ID] para iniciar sesión en [!DNL Adobe] productos desde la página de inicio de sesión de Experience Cloud o desde la página de inicio de sesión heredada de DSP. Su [!DNL Adobe ID] proporciona administración de perfiles de usuario. En una versión futura, podrá cambiar la cuenta de DSP, la cuenta de la organización IMS y el producto [!DNL Adobe] del menú superior.
 
@@ -42,15 +42,15 @@ Sus credenciales de DSP actuales permanecerán activas durante un corto tiempo p
 
 1. Elija su organización:
 
-   * Si se le solicita, seleccione **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.
+   * Si se le solicita, seleccione **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.
 
    * Si tiene acceso a varias organizaciones de IMS, seleccione la correcta.
 
-Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud)&quot;.
+Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ### Resolución de problemas
 
-Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe](https://helpx.adobe.com/es/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
+Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### ¿Hay algún requisito previo para habilitar un nuevo inicio de sesión de IMS de [!DNL Adobe]?
 
