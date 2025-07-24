@@ -101,7 +101,7 @@ La nueva interfaz de usuario para Search, Social y Commerce tiene los siguientes
 
    1. Escriba su ID de [!DNL Adobe] y haga clic en **[!UICONTROL Continue]**.
 
-   1. Seleccione **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Seleccione **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Seleccione la organización de Experience Cloud aplicable.
 
@@ -135,7 +135,7 @@ La nueva interfaz de usuario para Search, Social y Commerce tiene los siguientes
 
    Los perfiles personalizados se añaden a los cuatro perfiles de producto predeterminados que ya están disponibles.
 
-   Cada perfil de producto de una organización debe tener un nombre único. Si su organización utiliza varias instancias de Search, Social y Commerce (por ejemplo, Acme_US y Acme_JP), no puede duplicar un nombre de perfil de producto en varias instancias. **Práctica recomendada:** Use la convención de nomenclatura &quot;<Name>_<Instance>,&quot; como &quot;Simulations_Only_JP&quot;.
+   Cada perfil de producto de una organización debe tener un nombre único. Si su organización utiliza varias instancias de Search, Social y Commerce (por ejemplo, Acme_US y Acme_JP), no puede duplicar un nombre de perfil de producto en varias instancias. **Práctica recomendada:** Use la convención de nomenclatura &quot;&lt;Name>_&lt;Instance>,&quot; como &quot;Simulations_Only_JP&quot;.
 
 1. [Asigne cada usuario o grupo de usuarios al perfil de producto correspondiente](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de forma manual o en lotes.
 
