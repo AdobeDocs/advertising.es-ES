@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
+source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4560'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ Las fechas del paquete (cuando corresponda) o de la campaña se rellenan automá
    * *[!UICONTROL Minimum Budget]*: el presupuesto mínimo como porcentaje del presupuesto del paquete. Cuando se especifica un límite de intervalo, el valor de presupuesto mínimo siempre se calcula como un porcentaje del límite de intervalo. De lo contrario, se calcula como un porcentaje del presupuesto del paquete.
 
 **[!UICONTROL Max Bid]:** El máximo para pagar 1000 impresiones.
+
+**[!UICONTROL Min Bid]:** (solo para ofertas privadas y [!DNL On-Demand]) La oferta mínima basada en el tipo de inventario. Seleccione una opción:
+
+* *[!UICONTROL None]*: no hay una oferta mínima para ningún tipo de inventario. Si la oferta calculada es menor que el precio fijo/mínimo de las ofertas segmentadas, DSP no realiza la oferta. Esto puede afectar a la escala.
+
+* *[!UICONTROL Fixed/floor price for Private deals only]*: DSP oferta al menos el precio fijo/mínimo de las ofertas privadas segmentadas, aunque la oferta calculada mediante algoritmos sea menor. Esto puede afectar al rendimiento.
+
+* *[!UICONTROL Fixed/floor price for On-demand deals only]*: DSP oferta al menos el precio fijo/mínimo de las ofertas [!DNL On-Demand] de destino, aunque la oferta calculada mediante algoritmos sea menor. Esto puede afectar al rendimiento.
+
+* *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*: DSP oferta al menos el precio fijo/mínimo de las ofertas privadas y [!DNL On-Demand] de destino, aunque la oferta calculada mediante algoritmos sea menor. Esto puede afectar al rendimiento.
 
 **[!UICONTROL Placement Pre-bid Filters]:** Hasta cinco umbrales de KPI (como una métrica mínima de visibilidad o una tasa de pulsaciones) que deben cumplirse para que se produzca la puja. Puede usar filtros de oferta previa como tácticas de optimización, pero tenga en cuenta que cada regla puede limitar las oportunidades en las que esta ubicación puede pujar. Para añadir o editar filtros:
 
@@ -181,13 +191,9 @@ Incluya un código postal por línea o introduzca varios valores separados por c
 
   Desde la ficha [!UICONTROL Deals], puede buscar en la lista por palabra clave, clave, ID de acuerdo o etiqueta personalizada. Desde la ficha [!UICONTROL Deal Lists], puede buscar en la lista por nombre de lista de oferta o ID de lista de oferta.
 
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Opcional) anula el algoritmo de precio de oferta para pujar al menos los precios fijos y mínimos de las ofertas.
-
 * [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: todos los [inventarios premium [!UICONTROL On Demand] sin garantía](/help/dsp/inventory/on-demand-inventory-about.md) (o [!UICONTROL On Demand] [!DNL Roku] ofertas para [!DNL Roku] ubicaciones) a los que te has suscrito en [!DNL DSP]. Puede incluir y excluir [!UICONTROL On Demand] inventario.
 
   Puede ver la lista por origen o por fuente. Cuando vea la lista por fuente, puede buscar por nombre de fuente, clave de fuente o una región de editor, etiqueta de categoría o etiqueta característica seleccionada.
-
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Opcional) anula el algoritmo de precio de oferta para pujar al menos los precios fijos y mínimos de las ofertas.
 
 Para especificar la segmentación de inventario:
 
