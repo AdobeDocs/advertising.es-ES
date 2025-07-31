@@ -3,14 +3,18 @@ title: Cambiar la contraseña
 description: Aprenda a cambiar la contraseña de su cuenta.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: ec856bfde690019b9d18aa6fe8f4ab0237314b4b
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # Cambiar la contraseña
+
+>[!NOTE]
+>
+>Esta función solo se aplica a su cuenta heredada de Search, Social y Commerce. La mayoría de los usuarios están usando ahora un ID de [!DNL Adobe] en su lugar.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 Al cambiar la contraseña, se cierra la sesión actual. Para continuar trabajando, debe iniciar sesión con la nueva contraseña.
 
