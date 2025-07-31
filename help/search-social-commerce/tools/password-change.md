@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Esta función solo se aplica a su cuenta heredada de Search, Social y Commerce. La mayoría de los usuarios están usando ahora un ID de [!DNL Adobe] en su lugar.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>Esta función solo se aplica a su cuenta heredada de Search, Social y Commerce. La mayoría de los usuarios están usando ahora un ID de [!DNL Adobe] en su lugar.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 Al cambiar la contraseña, se cierra la sesión actual. Para continuar trabajando, debe iniciar sesión con la nueva contraseña.
 
