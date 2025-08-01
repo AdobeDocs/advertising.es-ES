@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Esta función solo se aplica a las credenciales de inicio de sesión heredadas de Search, Social y Commerce. La mayoría de los usuarios ahora usan un identificador de [!DNL Adobe] para la autenticación. Para cambiar la contraseña de su ID de [!DNL Adobe], consulte &quot;[Restablecer o cambiar la contraseña de Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)&quot;.
+>Esta función solo se aplica a las credenciales de inicio de sesión heredadas de Search, Social y Commerce. La mayoría de los usuarios ahora usan un identificador de [!DNL Adobe] para la autenticación. Para cambiar la contraseña de su ID de [!DNL Adobe], consulte &quot;[Restablecer o cambiar la contraseña de Adobe](https://helpx.adobe.com/es/manage-account/using/change-or-reset-password.html)&quot;.
 
 Al cambiar la contraseña, se cierra la sesión actual. Para continuar trabajando, debe iniciar sesión con la nueva contraseña.
 
