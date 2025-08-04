@@ -3,9 +3,9 @@ title: Añadir un nodo de destino del mismo nivel entre nodos de una experiencia
 description: Obtenga información sobre cómo agregar un nodo secundario a cualquier nodo que tenga un destino o esté en el mismo nivel que un nodo con un destino.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,15 @@ In an existing experience,
 
 1. Especifique los objetivos:
 
-   * Para los destinos de audiencia de Adobe, haga lo siguiente:
+   * Para los objetivos de audiencia, haga lo siguiente:
 
-      1. Haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Audience Targeting], abrir la ficha **[!UICONTROL Adobe Segments]**, especificar uno o más de los [!DNL Adobe] destinos de audiencia del anunciante y, a continuación, haga clic en **[!UICONTROL Save]**.
+      1. Haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Audience Targeting] y especificar una o más audiencias del anunciante para segmentar.
 
-      1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varias audiencias, seleccione **[!UICONTROL Split targets to create nodes]**.
+      1. En la columna derecha, seleccione si desea *[!UICONTROL Include any]* (el valor predeterminado) o *[!UICONTROL Include all]* de los destinos especificados para el nodo.
 
-         Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada audiencia especificada. Si no divide los destinos, el usuario debe pertenecer a todas las audiencias especificadas (una instrucción [!DNL Boolean] `AND`).
+     Esta opción determina si el usuario debe pertenecer al menos a una de las audiencias especificadas (una instrucción [!DNL Boolean] `OR`) o a todas las audiencias especificadas (una instrucción [!DNL Boolean] `AND`) para poder optar a una impresión.
+
+      1. Haga clic en **[!UICONTROL Create]**.
 
       1. Haga clic en **[!UICONTROL Apply]**.
 

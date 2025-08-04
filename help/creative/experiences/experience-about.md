@@ -3,9 +3,9 @@ title: Acerca de las experiencias en Advertising Creative
 description: Aprenda a configurar experiencias de publicidad personalizadas y optimizar los elementos de publicidad en función del rendimiento.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Cada experiencia de anuncio puede incluir un tipo de anuncio (pantalla estándar
 
   Las opciones de segmentación incluyen:
 
-   * Sus segmentos de audiencia de origen de Adobe Audience Manager, Adobe Analytics y Advertising DSP; sus segmentos personalizados de Advertising DSP y los segmentos de terceros proporcionados por Advertising DSP
+   * Los segmentos de audiencia de Adobe Audience Manager, Adobe Analytics y Advertising DSP; cualquier otro segmento de origen importado para la cuenta; los segmentos personalizados de Advertising DSP; los segmentos de terceros proporcionados por Advertising DSP y cualquier audiencia de Advertising DSP existente creada en la biblioteca de audiencias
 
    * Ubicaciones geográficas específicas, incluidos países, estados, DMA en Estados Unidos, ciudades y códigos postales
 
