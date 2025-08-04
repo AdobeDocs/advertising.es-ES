@@ -3,9 +3,9 @@ title: Añadir un nodo de destino del mismo nivel entre nodos de una experiencia
 description: Obtenga información sobre cómo agregar un nodo secundario a cualquier nodo que tenga un destino o esté en el mismo nivel que un nodo con un destino.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,31 @@ In an existing experience,
 
    * Para los objetivos de audiencia, haga lo siguiente:
 
-      1. Haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Audience Targeting] y especificar una o más audiencias del anunciante para segmentar.
+      1. Haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Audience Targeting] y, a continuación, haga lo siguiente:
 
-      1. En la columna derecha, seleccione si desea *[!UICONTROL Include any]* (el valor predeterminado) o *[!UICONTROL Include all]* de los destinos especificados para el nodo.
+         * Para añadir el primer segmento, localícelo en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
 
-     Esta opción determina si el usuario debe pertenecer al menos a una de las audiencias especificadas (una instrucción [!DNL Boolean] `OR`) o a todas las audiencias especificadas (una instrucción [!DNL Boolean] `AND`) para poder optar a una impresión.
+         * Para agregar un segmento a un grupo de segmentos existente:
+
+            1. Haga clic en el grupo de segmentos en el panel derecho.
+
+            1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
+
+               *[!UICONTROL Exclude All]* no está disponible para el primer grupo de segmentos. Para una audiencia que incluya solo exclusiones, genere esta audiencia como *[!UICONTROL Include Any]* y luego excluya esa audiencia cuando la agregue a una ubicación dentro de su DSP.
+
+            1. Busque el nuevo segmento en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
+
+               El grupo de segmentos se actualiza automáticamente con el nuevo segmento.
+
+         * Para agregar un nuevo grupo de segmentos:
+
+         1. Haga clic en **[!UICONTROL + New Group]** en el panel derecho.
+
+         1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a *[!UICONTROL And]* o *[!UICONTROL Or]*, según sea necesario.
+
+         1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
+
+         1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
 
       1. Haga clic en **[!UICONTROL Create]**.
 
