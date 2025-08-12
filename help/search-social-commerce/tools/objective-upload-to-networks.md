@@ -3,9 +3,9 @@ title: Habilitar la carga de objetivos en las redes de publicidad
 description: Aprenda a cargar los objetivos de sus portafolios híbridos en  [!DNL Google Ads] y [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cfdf9325f6a0696e7ab74379daaf77b20c184d9d
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Cada conversión cargada tiene el siguiente nombre:
 
 donde `<network_ID>` es el identificador numérico que Search, Social y Commerce usa para la red de anuncios, `<objective_id>` es el identificador de objetivo numérico y `<network_account_ID>` es el identificador numérico para la cuenta de administrador o la cuenta de red de anuncios.
 
-Las cargas a [!DNL Google Ads] se producen a diario a las 06:00 en el huso horario del anunciante. Las cargas a [!DNL Microsoft Advertising] se producen a diario a las 09:00 en el huso horario del anunciante.
+Para la mayoría de los anunciantes, las cargas a [!DNL Google Ads] ocurren cada hora; para los anunciantes con cuentas grandes o configuraciones personalizadas, las cargas ocurren al menos tres veces al día. Las cargas a [!DNL Microsoft Advertising] se producen a diario a las 09:00 en el huso horario del anunciante.
 
 >[!IMPORTANT]
 >
