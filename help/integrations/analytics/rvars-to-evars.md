@@ -3,9 +3,9 @@ title: Recopilación de datos históricos para ID de AMO e ID de EF para su uso 
 description: Obtenga información sobre cómo recopilar datos históricos para las variables reservadas en Adobe Analytics para su uso futuro en Adobe Customer Journey Analytics
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: 5b78ec0fc4c5ea4742cbb080b992bdb323fc9af3
+source-git-commit: c1701505be0a1efa6db15edcf21adf80880bad8b
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 *Anunciantes con [!DNL Analytics for Advertising] y solo Adobe Customer Journey Analytics*
 
-Si usa variables reservadas para capturar el [ID de AMO e ID de EF](ids.md) para su integración de [!DNL Analytics for Advertising], puede prepararse para una futura integración entre Adobe Advertising y [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-overview/cja-overview), que es la solución [!DNL analytics] de próxima generación de Adobe, copiando las variables reservadas para el ID de AMO y el ID de EF en [standard [!DNL eVars]](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/evar) lo antes posible. Esto permite recopilar datos históricos para los ID de AMO y los ID de EF en cuanto complete la tarea. El equipo de cuenta de Adobe le informará si utiliza variables reservadas y necesita completar esta tarea.
+<!-- Solution built but not tested. Move to the CJA chapter once it's available?  If so, then create a redirect. -->
+
+Si usa variables reservadas para capturar el [ID de AMO e ID de EF](ids.md) para su integración de [!DNL Analytics for Advertising], puede preparar sus datos para la integración entre Adobe Advertising y [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), que es la solución [!DNL analytics] de próxima generación de Adobe, copiando sus variables reservadas para el ID de AMO y el ID de EF en [standard [!DNL eVars]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/evar) lo antes posible. Esto permite recopilar datos históricos para los ID de AMO y los ID de EF en cuanto complete la tarea. El equipo de cuenta de Adobe le informará si utiliza variables reservadas y necesita completar esta tarea.
 
 <!-- You can also do the same for any other reserved variables you use for your [!DNL Analytics for Advertising] implementation. -->
 
@@ -22,11 +24,11 @@ Si usa variables reservadas para capturar el [ID de AMO e ID de EF](ids.md) para
 
 ## ¿Por qué necesito recopilar datos históricos para Customer Journey Analytics?
 
-Customer Journey Analytics permite sincronizar datos de Adobe Experience Platform con Adobe Analytics Analysis Workspace. En este momento, [!DNL Analytics Data Connector] en Experience Platform no envía datos para variables reservadas de [!DNL Analytics] a Experience Platform. Como resultado, los datos de los ID de AMO y de EF capturados por variables reservadas no están disponibles actualmente en Customer Journey Analytics. <!-- Instead, XXXXXXXXXX what exactly? -->.<!-- Does the Analytics for Advertising implementation use the Analytics Data Connector in particular (why would it use anything?), and we're planning to implement the Web SDK to do it instead in the future? -->
+Customer Journey Analytics le permite sincronizar datos de Adobe Experience Platform en [!DNL Workspace]. En este momento, [!DNL Analytics Data Connector] en Experience Platform no envía datos para variables reservadas de [!DNL Analytics] a Experience Platform. Como resultado, los datos de los ID de AMO y de EF que capturan las variables reservadas no están disponibles en Customer Journey Analytics. <!-- Instead, XXXXXXXXXX what exactly? -->.<!-- Does the Analytics for Advertising implementation use the Analytics Data Connector in particular (why would it use anything?), and we're planning to implement the Web SDK to do it instead in the future? -->
 
-Adobe Advertising está planificando una futura implementación con Customer Journey Analytics. Una vez lanzada la implementación, la integración de [!DNL Analytics for Advertising] seguirá exigiendo que recopile datos de pulsaciones<!-- Add back if we implement this:  and (DSP users) view-through data --> mediante el seguimiento de [!DNL Analytics], pero podrá ver los datos tanto en (1\) [!DNL Analytics] <!-- (Analysis Workspace using data from [!DNL Analytics]) --> como en (2\) Customer Journey Analytics <!-- (Analysis Workspace using data from Experience Platform)--> si su organización tiene ambos productos. Cuando se publique la función, Experience Platform empezará a recopilar datos para su AMO ID y EF ID para utilizarlos en Customer Journey Analytics, pero no existirán datos históricos anteriores a la fecha de lanzamiento.
+Adobe Advertising está creando una solución para enviar automáticamente los datos a Customer Journey Analytics. Una vez lanzada la solución, Adobe Advertising empezará a enviar datos para su ID de AMO y su ID de EF para su uso en Customer Journey Analytics, pero no existirán datos históricos anteriores a la fecha de lanzamiento.
 
-Sin embargo, puede empezar a recopilar datos para sus ID de AMO e ID de EF <!-- [!DNL rVars] --> antes creando una sencilla [[!DNL Analytics] regla de procesamiento](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules) para copiar ahora sus ID de AMO y los ID de EF <!-- [!DNL rVars] --> en [!DNL eVars]. Una vez que cree la regla de procesamiento, empezará a acumular datos para los ID de AMO y los ID de EF <!-- [!DNL rVars] --> en cuanto rastreen nuevos eventos. Los datos históricos estarán disponibles en Customer Journey Analytics una vez que la implementación esté disponible.
+Sin embargo, puede empezar a recopilar datos para sus ID de AMO e ID de EF <!-- [!DNL rVars] --> antes creando una sencilla [[!DNL Analytics] regla de procesamiento](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules) para copiar ahora sus ID de AMO y los ID de EF <!-- [!DNL rVars] --> en [!DNL eVars]. Una vez que cree la regla de procesamiento, empezará a acumular datos para los ID de AMO y los ID de EF <!-- [!DNL rVars] --> en cuanto rastreen nuevos eventos. Los datos históricos estarán disponibles en Customer Journey Analytics cuando la solución esté disponible.
 
 >[!NOTE]
 >
@@ -37,7 +39,7 @@ Sin embargo, puede empezar a recopilar datos para sus ID de AMO e ID de EF <!-- 
 
 Este paso es manual y debe completarse para cada grupo de informes que realice un seguimiento de los ID de AMO y EF ID <!-- [!DNL rVars] --> que espera integrar con Adobe Advertising en el futuro.
 
-1. [Crear una regla de procesamiento](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules) con la siguiente configuración:
+1. [Crear una regla de procesamiento](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules) con la siguiente configuración:
 
    * Seleccione el grupo de informes para el cual desea migrar los datos de ID de AMO e ID de EF <!-- [!DNL rVar] --> a Experience Platform para que los use Customer Journey Analytics.
 
@@ -71,7 +73,7 @@ Este paso es manual y debe completarse para cada grupo de informes que realice u
 
    Por ejemplo, si el nuevo eVar `eVar142` está asignado a `amo.s_kwcid(Context Data)`, los datos de `eVar142` y `AMO ID` deben ser idénticos.
 
-Para obtener más información acerca de cómo se aplican las reglas de procesamiento, vea &quot;[Funcionamiento de las reglas de procesamiento](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;.
+Para obtener más información acerca de cómo se aplican las reglas de procesamiento, vea &quot;[Funcionamiento de las reglas de procesamiento](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/processing-rules-about)&quot;.
 
 >[!MORELIKETHIS]
 >
