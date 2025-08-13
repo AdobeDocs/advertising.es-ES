@@ -1,22 +1,20 @@
 ---
-title: Acerca de Performance Insights
+title: Acerca de Insights
 description: Obtenga información acerca de las perspectivas de rendimiento con visualizaciones.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
+source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
 
-# Acerca de Performance Insights
+# Acerca de Insights
 
 *característica de Beta*
 
-<!-- Edit title and metadata as necessary -->
-
-Las perspectivas de rendimiento de alto nivel con visualizaciones le proporcionan la información que necesita para optimizar de forma eficaz sus campañas y descubrir nuevas oportunidades para escalar el rendimiento. Puede ver los datos de todas las campañas o explorar en profundidad un nivel inferior.
+Las perspectivas de rendimiento de alto nivel con visualizaciones le proporcionan la información que necesita para optimizar de forma eficaz sus campañas y descubrir nuevas oportunidades para escalar el rendimiento. Puede ver los datos de las campañas de un anunciante específico o explorar en profundidad un nivel inferior.
 
 Utilice perspectivas de rendimiento para:
 
@@ -34,27 +32,57 @@ También puede [cambiar el intervalo de fechas, configurar la vista y guardar un
 
 ### [!UICONTROL Home] ficha
 
-La ficha [!UICONTROL Home] proporciona métricas clave de estándar, rendimiento y visibilidad en todas las campañas de un anunciante<!-- active only? -->. De forma predeterminada, se muestran los datos de varias campañas. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente o datos solo de campañas específicas<!-- active only? -->, paquetes<!-- active only? -->, metas personalizadas y ubicaciones<!-- active only? -->. Las perspectivas incluyen:
+La pestaña [!UICONTROL Home] proporciona métricas clave de estándar, rendimiento y visibilidad en todas las campañas de un anunciante. De forma predeterminada, se muestran los datos de ubicaciones cruzadas de un anunciante específico y un objetivo personalizado. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente, un objetivo personalizado diferente o una ubicación específica. <!-- I don't see campaigns or packages anymore:  You can optionally configure filters to show data for a different advertiser or data for only specific campaigns, packages, custom goals, and placements. --> Las perspectivas incluyen:
 
-* Un gráfico de tendencias para tres métricas especificadas por el cliente (de forma predeterminada, [!UICONTROL Net Spend], [!UICONTROL Impressions] y [!UICONTROL Net CPM]).
+* **[!UICONTROL Trends]:** Un gráfico de tendencias para tres métricas especificadas por el cliente (de forma predeterminada, [!UICONTROL Net Spend], [!UICONTROL Impressions] y [!UICONTROL Net CPM]).
 
-* Un desglose de los datos de métricas específicas por tres dimensiones especificadas por el cliente, como por campaña, editor y tipo de medio. Para cada desglose dimensional, puede elegir una métrica diferente.
+* **[!UICONTROL Delivery Breakdown]:** Un desglose de los datos de métricas específicas por tres dimensiones especificadas por el cliente, como por campaña, editor y tipo de medios. Para cada desglose dimensional, puede elegir una métrica diferente.
 
 ### [!UICONTROL Household Reach] ficha
 
-La ficha [!UICONTROL Household Reach] proporciona métricas de alcance doméstico en todas las campañas de un anunciante<!-- active only? -->. De forma predeterminada, se muestran los datos de varias campañas. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente o datos solo de campañas específicas<!-- active only? -->. Las perspectivas incluyen:
+La pestaña [!UICONTROL Household Reach] proporciona métricas de alcance doméstico en todas las campañas de un anunciante. De forma predeterminada, se muestran los datos de varias campañas. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente, para una campaña específica, en paquetes o ubicaciones o para un paquete o ubicación específicos. Las perspectivas incluyen:
 
-* Gráfico de tendencias por día o por semana para tres métricas especificadas por el cliente (de forma predeterminada, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] y [!UICONTROL Net CPM]).
+* **[!UICONTROL Trends]:** Un gráfico de tendencias por día o por semana para tres métricas especificadas por el cliente (de forma predeterminada, [!UICONTROL Net Spend], [!UICONTROL Unique Reach] y [!UICONTROL Net CPM]).
 
-* Gráfico de anillo que muestra el alcance incremental del hogar en [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type]. *Alcance doméstico incremental* se define como un hogar al que se llega exclusivamente a través de un solo medio, dispositivo o tipo de inventario.
+* **[!UICONTROL Incremental Household Reach]:** Gráfico de anillo que muestra el alcance incremental de la unidad familiar en [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type]. *Alcance doméstico incremental* se define como un hogar al que se llega exclusivamente a través de un solo medio, dispositivo o tipo de inventario.
 
-* Alcance único del hogar incremental frente a alcance del hogar superpuesto por [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type].
+* **[!UICONTROL Reach Breakdown]:** El alcance único incremental del hogar frente al alcance superpuesto del hogar por [!UICONTROL Media Type], [!UICONTROL Device Type] o [!UICONTROL Inventory Type].
 
   *Alcance doméstico incremental* se define como un hogar al que se llega exclusivamente a través de un solo medio, dispositivo o tipo de inventario. *Alcance doméstico superpuesto* se define como un hogar al que llegan varios medios, dispositivos o tipos de inventario.
 
-* Las campañas de mayor rendimiento, ubicaciones, paquetes, editores, sitios/aplicaciones, tipos de medios, tipos de inventario o tipos de dispositivos por [!UICONTROL Unique Reach], [!UICONTROL Net Spend] y [!UICONTROL Cost per Reach].
+* **[!UICONTROL Top Performers]:** Las campañas de mayor rendimiento, ubicaciones, paquetes, editores, sitios/aplicaciones, tipos de medios, tipos de inventario o tipos de dispositivos por [!UICONTROL Unique Reach], [!UICONTROL Net Spend] y [!UICONTROL Cost per Reach].
 
-* [!UICONTROL Cost per Reach] y [!UICONTROL Net Spend] por paquete, editor o sitio/aplicación. Utilice este insight para ver qué paquetes, editores o sitios/aplicaciones muestran el potencial de alcance incremental significativo.
+* **[!UICONTROL Performance Analysis]:** [!UICONTROL Cost per Reach] y [!UICONTROL Net Spend] por paquete, editor o sitio/aplicación. Utilice este insight para ver qué paquetes, editores o sitios/aplicaciones muestran el potencial de alcance incremental significativo.
+
+  El tamaño de cada burbuja indica la puntuación de alcance incremental, con burbujas más grandes que indican un alcance incremental más alto en promedio. Para ver el nombre completo de la entidad y las métricas clave de cualquier burbuja, mantenga el cursor sobre la burbuja.
+
+  Los niveles de impacto incluyen:
+
+   * **Alto impacto:** Considere aumentar el presupuesto.
+   * **Impacto moderado**
+   * **Impacto limitado:** Necesita atención
+
+### [!UICONTROL Household Conversion] ficha
+
+La ficha [!UICONTROL Household Conversion] proporciona métricas de conversión domésticas en todas las campañas de un anunciante<!-- active only? -->. De forma predeterminada, se muestran los datos de campañas cruzadas de un anunciante específico y una métrica de conversión específica. Si lo desea, puede configurar filtros para mostrar datos de un anunciante o métrica de conversión diferente, de una campaña específica, de varios paquetes o ubicaciones, o de un paquete o ubicación específicos. Las perspectivas incluyen:
+
+* **[!UICONTROL Trends]:** Un gráfico de tendencias por día o por semana para tres métricas especificadas por el cliente (de forma predeterminada, [!UICONTROL Net Spend], [!UICONTROL Conversions] y [!UICONTROL Net CPM]).
+
+* **[!UICONTROL Conversion Participation Overview]:** Gráfico de barras que muestra los tipos de medios, tipos de inventario y tipos de dispositivos que generan la mayoría de las conversiones domésticas.
+
+  Las impresiones entregadas dentro del período retroactivo (30 días) se consideran válidas para la participación en la conversión.
+
+* **[!UICONTROL Top Performers]:** Una tabla de las campañas, paquetes, ubicaciones, editores, sitios/aplicaciones, tipos de medios y tipos de inventario que controlan el rendimiento de tres métricas especificadas por el cliente (de forma predeterminada, [!UICONTROL Net Spend], [!UICONTROL CPA] y [!UICONTROL Conversions]). El que tiene el mejor rendimiento aparece primero.
+
+* **[!UICONTROL Performance Analysis]:** [!UICONTROL CPA] y [!UICONTROL Net Spend] por paquete, editor o sitio/aplicación. Utilice este insight para ver qué paquetes, editores o sitios/aplicaciones muestran el potencial de alcance incremental significativo.
+
+  El tamaño de cada burbuja indica la puntuación de alcance incremental, con burbujas más grandes que indican un alcance incremental más alto en promedio. Para ver el nombre completo de la entidad y las métricas clave de cualquier burbuja, mantenga el cursor sobre la burbuja.
+
+  Los niveles de impacto incluyen:
+
+   * **Alto impacto:** Considere aumentar el presupuesto.
+   * **Impacto moderado**
+   * **Impacto limitado:** Necesita atención
 
 ## Abrir perspectivas de rendimiento
 
