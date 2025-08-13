@@ -3,9 +3,9 @@ title: Acerca de Insights
 description: Obtenga información acerca de las perspectivas de rendimiento con visualizaciones.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
+source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,8 @@ La ficha [!UICONTROL Household Conversion] proporciona métricas de conversión 
 * En el menú desplegable situado en la parte superior izquierda de insight, seleccione la dimensión.
 
 ## Cambio de las métricas notificadas para una Insight
+
+Para las métricas de conversión, existe compatibilidad con las conversiones rastreadas por Adobe Advertising y por Adobe Analytics.
 
 1. En la parte superior derecha de insight, haga clic en ![Configuración de métricas](/help/dsp/assets/metric-settings.png "Configuración de métricas").
 
