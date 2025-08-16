@@ -3,16 +3,14 @@ title: Administrar píxeles de retargeting
 description: Aprenda a crear e implementar píxeles de retargeting para utilizarlos como objetivos para experiencias de publicidad.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Administrar píxeles de retargeting
-
-*Beta cerrada*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -111,7 +109,7 @@ Cuando dirige experiencias de anuncio a usuarios expuestos al píxel, la configu
 
 Cuando dirige experiencias de anuncio a usuarios expuestos al píxel, la configuración de segmentación especifica los valores de atributo que deben estar presentes para mostrar los elementos creativos.
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (función de Beta; solo nuevos píxeles; opcional) Tipos de ID universales para la etiqueta de píxeles que se va a rastrear:
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (solo nuevos píxeles; opcional) Tipos de ID universales para la etiqueta de píxeles que se va a rastrear:
 
 * *[!UICONTROL ID5]:* La etiqueta de píxeles rastrea [!DNL ID5] ID. No se incurre en cargos por impresiones entregadas a ID universales.
 
