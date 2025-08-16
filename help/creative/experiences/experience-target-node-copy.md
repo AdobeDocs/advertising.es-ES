@@ -26,7 +26,7 @@ Esta característica no afecta al destino especificado para el nodo principal, s
 
    * Para reemplazar todos los nodos secundarios y creativos de un nodo, haga clic en el nodo en el que desea pegar la información copiada, haga clic en **...** y, a continuación, seleccione **[!UICONTROL Replace ctrl+shift+v]** o b\) escriba **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) en el teclado.
 
-   * (Nodos con varios destinos secundarios, sin nodos &quot;Todos&quot; y sin creativos únicamente) Para agregar todos los nodos secundarios y creativos a un nodo, sin eliminar los existentes, haga clic en el nodo al que desea pegar la información copiada, haga clic en **...** y, a\) seleccione **[!UICONTROL Add ctrl+v]** ** o b\) escriba **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) en el teclado.
+   * (Nodos con varios destinos secundarios, sin nodos &quot;Todos&quot; y sin creativos únicamente) Para agregar todos los nodos secundarios y creativos a un nodo, sin eliminar los existentes, haga clic en el nodo al que desea pegar la información copiada, haga clic en **...** y, a\) seleccione **[!UICONTROL Add ctrl+v]** **&#x200B; o b\) escriba &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) o &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) en el teclado.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
