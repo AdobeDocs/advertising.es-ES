@@ -3,9 +3,9 @@ title: Añadir un nodo de destino entre nodos en una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino entre cuerpos de destinatario en una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Añadir un nodo de destino entre nodos en una experiencia
 
 *Solo experiencias con direccionamiento en árbol de decisiones*
-*Beta cerrada*
 
 Al insertar un nodo de destino entre los niveles existentes, el nuevo nodo de destino conserva todos los destinos y elementos creativos secundarios existentes y el nuevo nodo se denomina inicialmente &quot;Todo&quot;. Opcionalmente, puede mantener el nuevo nodo sin agregar destinos más específicos.
 

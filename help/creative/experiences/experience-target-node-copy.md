@@ -3,9 +3,9 @@ title: Copiar nodos secundarios a otro nodo de destino en el mismo nivel
 description: Obtenga información sobre cómo copiar todos los nodos secundarios de un nodo de destino principal a otro nodo de destino en el mismo nivel
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Copiar nodos secundarios a otro nodo de destino en el mismo nivel
 
 *Solo experiencias con direccionamiento en árbol de decisiones*
-*Beta cerrada*
 
 Puede copiar todos los nodos secundarios de un nodo de destino principal (incluidos todos los destinos secundarios y los paquetes creativos asignados a ellos) a otro nodo de destino en el mismo nivel. Puede copiar los nodos: a) añadiendo los nodos copiados al marco de trabajo existente o b) reemplazando completamente el marco de trabajo existente. <!-- Give the main use case or an example to explain. -->
 
@@ -27,7 +26,7 @@ Esta característica no afecta al destino especificado para el nodo principal, s
 
    * Para reemplazar todos los nodos secundarios y creativos de un nodo, haga clic en el nodo en el que desea pegar la información copiada, haga clic en **...** y, a continuación, seleccione **[!UICONTROL Replace ctrl+shift+v]** o b\) escriba **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) en el teclado.
 
-   * (Nodos con varios destinos secundarios, sin nodos &quot;Todos&quot; y sin creativos únicamente) Para agregar todos los nodos secundarios y creativos a un nodo, sin eliminar los existentes, haga clic en el nodo al que desea pegar la información copiada, haga clic en **...** y, a\) seleccione **[!UICONTROL Add ctrl+v]** **&#x200B; o b\) escriba &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) o &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) en el teclado.
+   * (Nodos con varios destinos secundarios, sin nodos &quot;Todos&quot; y sin creativos únicamente) Para agregar todos los nodos secundarios y creativos a un nodo, sin eliminar los existentes, haga clic en el nodo al que desea pegar la información copiada, haga clic en **...** y, a\) seleccione **[!UICONTROL Add ctrl+v]** ** o b\) escriba **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) en el teclado.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

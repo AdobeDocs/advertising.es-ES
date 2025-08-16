@@ -3,16 +3,14 @@ title: Uso compartido de una URL de demostración para una experiencia
 description: Obtenga información sobre cómo compartir una URL de demostración de una experiencia.
 feature: Creative Experiences
 exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # Uso compartido de una URL de demostración para una experiencia
-
-*Beta cerrada*
 
 Puede permitir que otras personas que no hayan iniciado sesión en [!DNL Creative] obtengan una vista previa de una experiencia compartiendo una dirección URL de demostración.
 

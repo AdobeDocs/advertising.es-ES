@@ -3,16 +3,14 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # Informes de rendimiento de nivel de experiencia
-
-*Beta cerrada*
 
 Puede ver datos de rendimiento detallados de cualquier experiencia.
 

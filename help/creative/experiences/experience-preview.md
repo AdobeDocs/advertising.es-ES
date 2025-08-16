@@ -3,16 +3,14 @@ title: Previsualización de una experiencia
 description: Obtenga información sobre cómo previsualizar los elementos creativos en una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Previsualización de una experiencia
-
-*Beta cerrada*
 
 Puede obtener una vista previa de los elementos creativos con un tamaño de anuncio específico que los espectadores de destino verán para una experiencia, incluidos todos los hipervínculos. En el caso de las experiencias con segmentación del árbol de decisiones, puede previsualizar un solo elemento creativo, los elementos creativos de una rama concreta (tipo de objetivo) o todos los elementos creativos de la experiencia. Para las experiencias sin segmentación del árbol de decisiones, puede previsualizar un solo elemento creativo. <!-- verify -->
 

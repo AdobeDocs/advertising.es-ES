@@ -3,9 +3,9 @@ title: Asignar y cancelar la asignación de paquetes creativos a un nodo final e
 description: Aprenda a asignar elementos creativos a cada destinatario en sus experiencias publicitarias.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Asignar y cancelar la asignación de paquetes creativos a un nodo final en una experiencia
 
 *Solo experiencias con direccionamiento en árbol de decisiones*
-*Beta cerrada*
 
 Puede asignar paquetes creativos a un nodo de destino en el nivel inferior de un árbol de decisión de experiencias. En el caso de las experiencias para las que no ha configurado objetivos, el nivel inferior se encuentra en &quot;Todo&quot;.
 

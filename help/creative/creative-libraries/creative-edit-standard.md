@@ -3,16 +3,14 @@ title: Edición de elementos creativos estándar en una biblioteca creativa
 description: Aprenda a cambiar la configuración de los creativos estándar (no dinámicos) en una biblioteca creativa.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Edición de elementos creativos estándar en una biblioteca creativa
-
-*Beta cerrada*
 
 Puede editar algunos ajustes para cada tipo de elemento creativo estándar. Puede editar varios elementos creativos <!-- or creative variations --> del mismo tipo creativo (HTML5 simple con una sola página de aterrizaje, HTML5 estático con varias páginas de aterrizaje, HTML5 flexible, imagen o solo de terceros<!-- , or dynamic -->).
 

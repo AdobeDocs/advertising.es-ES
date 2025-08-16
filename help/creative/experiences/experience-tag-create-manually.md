@@ -3,9 +3,9 @@ title: Crear manualmente una etiqueta de anuncio para un tamaño creativo aplica
 description: Aprenda a crear una etiqueta de anuncio para un tamaño creativo específico.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # (Experiencias sin segmentación) Cree manualmente una etiqueta de anuncio para un tamaño creativo aplicable
 
 *Solo experiencias sin segmentación en el árbol de decisiones*
-*Beta cerrada*
 
 Puede crear una o más etiquetas de anuncio por idioma para cada tamaño creativo (creativos que no sean de vídeo) o duración de vídeo que se utilice para una experiencia. Puede [asignar posteriormente elementos creativos a la etiqueta de anuncio](experience-tag-assign-creatives.md).
 

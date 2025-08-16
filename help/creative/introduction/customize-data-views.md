@@ -3,16 +3,14 @@ title: Personalizar las vistas de datos
 description: Obtenga información sobre cómo personalizar los datos en cada una de las vistas disponibles.
 feature: Creative Introduction
 exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Personalizar las vistas de datos
-
-*Beta cerrada*
 
 ## Ver datos de otro anunciante
 

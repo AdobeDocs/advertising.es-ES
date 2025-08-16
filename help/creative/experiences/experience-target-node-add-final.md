@@ -3,9 +3,9 @@ title: Añadir un nodo de destino al nivel final de una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino al nivel de destino final de una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Añadir un nodo de destino al nivel final de una experiencia
 
 *Solo experiencias con direccionamiento en árbol de decisiones*
-*Beta cerrada*
 
 Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el nodo raíz &quot;Todos&quot;, un nodo específico de destino o un nodo &quot;Todo lo demás&quot;), define el destino directamente y no necesita crear un nodo relacionado. Al agregar un nodo de nivel inferior, se crea el nodo de destino y un nodo &quot;Todo lo demás&quot; adicional en el mismo nivel.
 

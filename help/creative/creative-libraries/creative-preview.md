@@ -3,16 +3,14 @@ title: Previsualización de un elemento creativo
 description: Obtenga información sobre cómo abrir una vista previa de un creativo.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: e70ea2b9fb0e8338d5a9e4680d79e9f3e436eef6
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
 
 # Previsualización de un elemento creativo
-
-*Beta cerrada*
 
 Puede obtener una vista previa de un elemento creativo tal y como lo verán los visualizadores, incluidos los hipervínculos.
 

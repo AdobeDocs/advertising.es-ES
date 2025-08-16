@@ -3,9 +3,9 @@ title: Personalizar las direcciones URL de seguimiento de una experiencia
 description: Aprenda a personalizar las direcciones URL de seguimiento para cada elemento creativo de una experiencia con segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Personalice las URL de seguimiento para creativos en una experiencia con segmentación del árbol de decisiones
 
 *Solo nodos de destino con creativos existentes*
-*Beta cerrada*
 
 Para las experiencias con segmentación del árbol de decisión, puede crear hasta cinco direcciones URL de seguimiento de impresiones personalizadas, cinco direcciones URL de seguimiento de clics personalizadas y una dirección URL de página de aterrizaje personalizada para cada creativo individual utilizado para la experiencia. Puede personalizar las direcciones URL de seguimiento desde el árbol de decisión.
 

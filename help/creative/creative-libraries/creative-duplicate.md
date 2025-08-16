@@ -3,16 +3,14 @@ title: Creativos duplicados
 description: Aprenda a duplicar elementos creativos en una biblioteca creativa.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
 
 # Creativos duplicados
-
-*Beta cerrada*
 
 Haga un duplicado de los elementos creativos para añadir nuevos elementos creativos con la misma configuración a la misma biblioteca. Más adelante puede cambiar el nombre de los nuevos elementos creativos y editar su configuración según sea necesario.
 

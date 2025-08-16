@@ -3,16 +3,14 @@ title: Descargar datos de la vista [!UICONTROL Experiences]
 description: Obtenga información sobre cómo
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
 # Descargar datos de la vista [!UICONTROL Experiences]
-
-*Beta cerrada*
 
 Puede exportar metadatos sobre las experiencias en la vista [!UICONTROL Experiences] filtrada actual a un archivo en formato de hoja de cálculo de Excel de Microsoft (XLSX).
 

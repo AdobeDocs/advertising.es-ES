@@ -3,16 +3,14 @@ title: Personalización de las direcciones URL de seguimiento de una experiencia
 description: Aprenda a personalizar las direcciones URL de seguimiento para cada elemento creativo de una experiencia sin segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Personalización de las direcciones URL de seguimiento de una experiencia sin segmentación del árbol de decisiones
-
-*Beta cerrada*
 
 En el caso de las experiencias sin segmentación del árbol de decisión, puede crear hasta cinco direcciones URL de seguimiento de impresiones personalizadas, cinco direcciones URL de seguimiento de clics personalizadas y una dirección URL de página de aterrizaje personalizada para cada elemento creativo individual utilizado para la etiqueta de experiencia publicitaria. Puede personalizar las direcciones URL de seguimiento desde [!UICONTROL Tag Manager].
 

@@ -3,16 +3,14 @@ title: Macros disponibles para URL de seguimiento
 description: Haga referencia a las macros que puede agregar a las direcciones URL de la página de aterrizaje, las direcciones URL de seguimiento y los elementos creativos de terceros.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
 # Macros disponibles para URL de seguimiento
-
-*Beta cerrada*
 
 <!-- More feature metadata???  -->
 
@@ -57,4 +55,4 @@ Algunas de las macros disponibles, o sus equivalentes, se incluyen automáticame
 >* [Agregar elementos creativos estándar a una biblioteca creativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Configuración creativa estándar](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Configuración de experiencia de destino](/help/creative/experiences/experience-settings-targeting.md)
->*[Configuración de experiencia sin destino](/help/creative/experiences/experience-settings-no-targeting.md)
+>  >*[Configuración de experiencia sin destino](/help/creative/experiences/experience-settings-no-targeting.md)

@@ -3,9 +3,9 @@ title: Eliminar un nodo de destino o de hoja creativa en una experiencia
 description: Obtenga información sobre cómo eliminar un nodo dentro de una experiencia.
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Eliminar un nodo de destino o de hoja creativa en una experiencia
 
 *Solo experiencias con direccionamiento en árbol de decisiones*
-*Beta cerrada*
 
 Puede eliminar un nodo de destino, incluidos todos los destinos secundarios y los paquetes creativos asignados a ellos. También puede eliminar un nodo de hoja creativo.
 
