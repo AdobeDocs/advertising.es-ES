@@ -2,10 +2,10 @@
 title: Cálculo de las reglas de atribución
 description: Descubra cómo Adobe Advertising calcula cada tipo de regla de atribución.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 La regla de atribución de nivel de anunciante se utiliza para atribuir datos de conversión (potencialmente en varios canales de publicidad) en una serie de eventos que conducen a una conversión.
 
-En los informes, las vistas predeterminadas y personalizadas para Advertising Search, Social y Commerce (Buscar, Social y Commerce), así como (algunas funciones de usuario) las simulaciones de nivel de portafolio para Search, Social y Commerce, la regla seleccionada solo se utiliza para los datos de vista, informe o simulación. Las distintas reglas de atribución se aplican de la siguiente manera.
+También puede seleccionar una regla de atribución en los siguientes lugares para aplicar la regla solo a los datos resultantes:
+
+* DSP
+
+   * Informes personalizados con atribución multitáctil
+
+* Buscar, Social y Commerce
+
+   * Informes personalizados
+
+   * Vistas predeterminadas y personalizadas
+
+   * (Algunas funciones de usuario) Simulaciones a nivel de Portfolio.
 
 >[!NOTE]
 >
