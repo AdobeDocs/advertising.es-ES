@@ -3,9 +3,9 @@ title: Editar la configuración directamente dentro de una fila
 description: Obtenga información sobre cómo editar datos en vistas de administración dentro de la fila.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: e83fe03e8887dc30a7e60313b17dbdce46e6362b
+source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -18,21 +18,14 @@ ht-degree: 0%
 
 ## (Nueva IU) Editar la configuración dentro de una fila
 
-1. Haga clic dentro de la celda para activarla o mantenga el cursor sobre el valor y haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar").
+1. Haga clic dentro de la celda para activarla o mantenga el cursor sobre el valor.
 
-1. Cambie el valor.
+1. Cambie el valor:
 
-1. Haga clic en **Aplicar**.
+   * (Opciones de una lista) Seleccione una nueva opción de la lista.
 
-<!--
-1. Change the value:
+   * (Valores de forma libre) Haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar"), cambie el valor y, a continuación, haga clic en **Aplicar**.
 
-   * (Options in a list) Select a new option from the list.
-   
-   * (Dates) Enter a new date, or click ![Calendar](/help/search-social-commerce/assets/calendar.png "Calendar") to open the calendar and [select a new date](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
-   
-   * (Free-form values) Enter a new value.
--->
 
 ## (IU heredada) Editar la configuración dentro de una fila
 
