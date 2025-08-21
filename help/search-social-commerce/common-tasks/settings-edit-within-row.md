@@ -3,7 +3,7 @@ title: Editar la configuración directamente dentro de una fila
 description: Obtenga información sobre cómo editar datos en vistas de administración dentro de la fila.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 4b8e0a8338e17cbf4b3a48808f39492fc953f7e6
+source-git-commit: e83fe03e8887dc30a7e60313b17dbdce46e6362b
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## (Nueva IU) Editar la configuración dentro de una fila
 
-1. Haga clic dentro de la celda para activarla o mantenga el cursor sobre el valor y haga clic en [Editar](/help/search-social-commerce/assets/edit-new.png "Editar").
+1. Haga clic dentro de la celda para activarla o mantenga el cursor sobre el valor y haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar").
 
 1. Cambie el valor.
 
