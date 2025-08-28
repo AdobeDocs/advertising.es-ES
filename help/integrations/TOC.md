@@ -4,9 +4,9 @@ user-guide-description: Obtenga información acerca las integraciones de Adverti
 breadcrumb-title: Integraciones con Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: f5debcf7e780b4c3b8a9d62eac73031ced400080
+source-git-commit: ee20e26a7d101cc808ceb03b2dc7e0c6e1924e16
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '245'
 ht-degree: 11%
 
 ---
@@ -52,4 +52,5 @@ ht-degree: 11%
 + Integración con Adobe Customer Journey Analytics {#customer-journey-analytics}
    + [Información general](/help/integrations/customer-journey-analytics/overview.md)
    + [Requisitos previos](/help/integrations/customer-journey-analytics/prerequisites.md)
-+ [Vídeos Tutoriales Sobre Integraciones De Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=es)<!-- rename if the tutorials TOC structure changes -->
+   + [ID de Adobe Advertising utilizados por [!DNL Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)
++ [Vídeos Tutoriales Sobre Integraciones De Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
