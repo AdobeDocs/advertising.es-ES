@@ -28,7 +28,7 @@ Revise la siguiente información antes de integrar Adobe Advertising con Adobe C
 
    * Biblioteca de Adobe Experience Platform Web SDK: `alloy.js`
 
-     [!DNL Org ID] utilizado para Web SDK y para la cuenta del anunciante de Adobe Advertising debe ser el mismo. Puede encontrar este ID en la [pestaña Summary de Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+     [!DNL Org ID] utilizado para Web SDK y para la cuenta del anunciante de Adobe Advertising debe ser el mismo. Puede encontrar este ID en la [pestaña Summary de Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=es).
 
      ![Pantalla de resumen de Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
