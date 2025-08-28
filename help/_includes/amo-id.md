@@ -146,13 +146,13 @@ donde:
 >[!NOTE]
 >
 > Para cuentas con campañas sin la opción de seguimiento [!UICONTROL Auto Upload] que aún no se migraron al nuevo formato, actualice manualmente cada sufijo de página de aterrizaje para incluir el formato anterior.
-> >Mientras tanto, los formatos heredados, como se indica a continuación, siguen funcionando:
+> &#x200B;>Mientras tanto, los formatos heredados, como se indica a continuación, siguen funcionando:
 >* Buscar campañas:
->  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Campañas de compra (con [!DNL Microsoft Merchant Center]):
->  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Campañas de Audience Network:
->  >  `s_kwcid=AL!{userid}!10!{AdId}`
+>  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
