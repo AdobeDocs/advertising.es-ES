@@ -53,4 +53,4 @@ ht-degree: 11%
    + [Información general](/help/integrations/customer-journey-analytics/overview.md)
    + [Requisitos previos](/help/integrations/customer-journey-analytics/prerequisites.md)
    + &lbrack;[[!DNL ID de Adobe Advertising utilizados por Customer Journey Analytics]](/help/integrations/customer-journey-analytics/ids.md)
-+ [Vídeos Tutoriales Sobre Integraciones De Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Vídeos Tutoriales Sobre Integraciones De Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=es)<!-- rename if the tutorials TOC structure changes -->
