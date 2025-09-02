@@ -3,9 +3,9 @@ title: ID de Adobe Advertising utilizados por Customer Journey Analytics
 description: ID de Adobe Advertising utilizados por Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-source-git-commit: f4875efbaf0f08781fc2db42e34c7e24860e773b
+source-git-commit: 1026871782c257a70278c4f4bb4208d321bd8200
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 *Solo anunciantes con una integración Adobe Advertising-Adobe Customer Journey Analytics*
 
 *Aplicable a Advertising DSP y[!DNL Advertising Search, Social, & Commerce]*
+
+*característica de Beta*
 
 Adobe Advertising usa dos ID para el seguimiento del rendimiento en el sitio: el *ID de EF* y el *ID de AMO*.
 
