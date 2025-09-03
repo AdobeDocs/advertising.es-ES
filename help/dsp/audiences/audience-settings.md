@@ -3,9 +3,9 @@ title: Configuración de audiencia
 description: Consulte las descripciones de las configuraciones de audiencia disponibles.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,17 @@ ht-degree: 0%
 
 (Opcional) Cualquier segmento de origen importado o personalizado importado para la cuenta, para incluirlo en la configuración de audiencia.
 
-## Segmentos de Adobe
+>[!NOTE]
+>
+>(Anunciantes para los que DSP convierte ID de correo electrónico con hash en segmentos de RampID de LiveRamp) Los segmentos de RampID de origen que no están adjuntos a una ubicación activa, programada o en pausa ahora se pausan. El segmento se indica en la lista de segmentos como &quot;En pausa automática&quot;.
+
+## Segmentos Adobe
 
 (Opcional) Cualquier segmento de [!DNL Adobe Real-Time CDP], Adobe Analytics o Adobe Audience Manager que se incluya en la configuración de audiencia.
 
 ## Segmentos personalizados
 
-DSP (Opcional) Cualquier segmento creado por el usuario, que se captura mediante píxeles de segmento de personalizados, para incluirlos en la configuración de audiencia. Esto puede incluir segmentos personalizados estándar y segmentos de exclusión de la venta de la CCPA.
+(Opcional) Cualquier segmento creado por el usuario, que se captura mediante píxeles de segmento de DSP personalizados, para incluirlo en la configuración de audiencia. Esto puede incluir segmentos personalizados estándar y segmentos de exclusión de la venta de la CCPA.
 
 ## Audiencias guardadas
 

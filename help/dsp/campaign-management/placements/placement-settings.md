@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -332,6 +332,10 @@ Si lo desea, puede exportar la lista de sitios de destino y bloqueados como arch
 * Para seleccionar una audiencia existente, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) al lado de [!UICONTROL Included Audiences] y luego seleccione la audiencia.
 * Para crear una audiencia, haga clic en ![Seleccionar](/help/dsp/assets/chevron-down.png) al lado de [!UICONTROL Included Audiences] y luego seleccione **[!UICONTROL + Create Audience]**. Para obtener instrucciones, consulte [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md), a partir del paso 3.
 * Para seleccionar segmentos de audiencia específicos, haga clic en **[!UICONTROL Select segments for this placement only]**. Seleccione la lógica del segmento; para obtener instrucciones, consulte el paso 6 en &quot;[Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md)&quot;. Cuando hayas terminado, haz clic en **Guardar**.
+
+>[!NOTE]
+>
+>Los segmentos RampID de origen que no están conectados a una ubicación activa, programada o en pausa se pausan. El segmento se indica en la lista de segmentos como &quot;En pausa automática&quot;.
 
 **[!UICONTROL Excluded Audiences]:** Cualquier audiencia que se excluya para la ubicación, incluidas las audiencias con [segmentos de terceros, segmentos de origen, segmentos de Adobe, segmentos personalizados y audiencias guardadas](/help/dsp/audiences/audience-settings.md). También se muestra el tamaño de audiencia deduplicada total y activa en todas las audiencias excluidas. Puede seleccionar una audiencia existente o crear una nueva que pueda reutilizar más adelante:
 

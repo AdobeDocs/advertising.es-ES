@@ -3,9 +3,9 @@ title: Crear una audiencia reutilizable
 description: Obtenga información sobre cómo crear audiencias reutilizables compuestas de segmentos de audiencia y otras audiencias guardadas.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
 Puede guardar y administrar audiencias reutilizables, que son grupos de segmentos de audiencia e incluso otras audiencias guardadas, que puede utilizar como destinos o exclusiones para varias ubicaciones.
+
+>[!NOTE]
+>
+>(Anunciantes para los que DSP convierte ID de correo electrónico con hash en segmentos de RampID de LiveRamp) Los segmentos de RampID de origen que no están adjuntos a una ubicación activa, programada o en pausa se pausan. El segmento se indica en la lista de segmentos como &quot;En pausa automática&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 

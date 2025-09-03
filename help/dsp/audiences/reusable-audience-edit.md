@@ -3,9 +3,9 @@ title: Editar una audiencia reutilizable
 description: Obtenga información sobre cómo editar una audiencia reutilizable.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Editar una audiencia reutilizable
 
 Cuando edita una audiencia que se usa en ubicaciones u otras audiencias reutilizables, los cambios se aplican inmediatamente a esas ubicaciones y audiencias.<!-- verify -->
+
+>[!NOTE]
+>
+>(Anunciantes para los que DSP convierte ID de correo electrónico con hash en segmentos de RampID de LiveRamp) Los segmentos de RampID de origen que no están adjuntos a una ubicación activa, programada o en pausa se pausan. El segmento se indica en la lista de segmentos como &quot;En pausa automática&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 

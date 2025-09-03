@@ -3,9 +3,9 @@ title: Crear una ubicación
 description: Obtenga información sobre cómo crear una ubicación.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,13 @@ ht-degree: 0%
 
       1. Reduzca la audiencia. Esto incluye la selección de segmentos de audiencia para segmentar dentro de la ubicación.
 
-         DSP Para las ubicaciones de [!DNL Roku], puede aprovechar la coincidencia de audiencia única de [con  [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) incluyendo uno o más segmentos de audiencia que puedan coincidir con el conjunto de datos determinista [!DNL Roku] (incluido).
+         Para las ubicaciones de [!DNL Roku], puede aprovechar la coincidencia de audiencia única de [DSP con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) incluyendo uno o más segmentos de audiencia que puedan coincidir con el conjunto de datos determinista [!DNL Roku] (incluido).
+
+         Los segmentos RampID de origen que no están conectados a una ubicación activa, programada o en pausa se pausan. El segmento se indica en la lista de segmentos como &quot;En pausa automática&quot;.
 
       1. (Para campañas con segmentación entre dispositivos por personas; opcional) Cuando la ubicación se dirija a una o más audiencias específicas, habilite la segmentación entre dispositivos por personas para la ubicación.
 
-         [!DNL LiveRamp] proporciona la segmentación entre dispositivos basada en personas únicamente con datos de EE. UU. El servicio está disponible para todos los anunciantes a $0.35 CPM para las impresiones que se entregan mediante el gráfico de dispositivo [!DNL LiveRamp] (es decir, para los dispositivos que no se encuentran dentro de los segmentos de audiencia de destino).
+         [!DNL LiveRamp] proporciona la segmentación entre dispositivos basada en personas únicamente con datos de EE. UU. El servicio está disponible para todos los anunciantes en $0.35 CPM para las impresiones que se entregan mediante el gráfico de dispositivos [!DNL LiveRamp] (es decir, para los dispositivos que no se encuentran dentro de los segmentos de audiencia de destino).
 
    1. (Opcional) En la sección [!DNL Brand Safety and Media Targeting], aplique restricciones de seguridad de marca a sus ubicaciones.
 
@@ -145,4 +147,4 @@ ht-degree: 0%
 >* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/344998?captions=spa)
+>* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/340454)
