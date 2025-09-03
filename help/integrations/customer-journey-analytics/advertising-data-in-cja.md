@@ -2,9 +2,9 @@
 title: Métricas y dimensiones de Adobe Advertising en Customer Journey Analytics
 description: Haga referencia a las métricas y dimensiones de Adobe Advertising que están disponibles en Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 6e22ead8f91d87cce3f104635e95a2dcab03bc3a
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -94,3 +94,4 @@ En la tabla siguiente:
 >* [Información general](overview.md)
 >* [Requisitos previos](prerequisites.md)
 >* [ID de Adobe Advertising usados por [!DNL Customer Journey Analytics]](ids.md)
+>* [Configurar la recopilación de datos, la transferencia de datos y la creación de informes](set-up.md)
