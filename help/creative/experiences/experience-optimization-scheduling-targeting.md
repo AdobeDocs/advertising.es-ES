@@ -3,9 +3,9 @@ title: Personalizar la optimización y programación creativas de una experienci
 description: Obtenga información sobre cómo
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo nodos de destino con creativos existentes*
 
-De forma predeterminada, la rotación creativa de una experiencia se determina de forma algorítmica para optimizar la tasa de pulsaciones general y la configuración de optimización creativa se aplica a todos los paquetes asignados. Puede personalizar la rotación creativa para ejecutar manualmente los creativos en cada paquete según los pesos relativos o para optimizar de forma algorítmica para un objetivo personalizado de Advertising DSP especificado. También puede programar paquetes creativos específicos para que se ejecuten durante períodos de tiempo especificados y secuenciales, y aplicar ajustes de rotación creativa personalizados a cada programación.
+De forma predeterminada, la rotación creativa de una experiencia se determina de forma algorítmica para optimizar la tasa de pulsaciones general y la configuración de optimización creativa se aplica a todos los paquetes asignados. Puede personalizar la rotación creativa para ejecutar manualmente los creativos en cada paquete y optimizarlos de forma algorítmica para un objetivo personalizado de Advertising DSP especificado; según una secuencia de paquete especificada, con un número especificado de impresiones en cada secuencia de paquete; o según los pesos relativos. También puede programar paquetes creativos específicos para que se ejecuten durante períodos de tiempo especificados y secuenciales, y aplicar ajustes de rotación creativa personalizados a cada programación.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ De forma predeterminada, la rotación creativa de una experiencia se determina d
 
 Cuando se desactiva la programación creativa, la configuración de optimización creativa se aplica a todos los elementos creativos asignados.
 
-1. Mantenga el cursor sobre el nodo de hoja creativa situado debajo del nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Schedules]**.
+1. Mantenga el cursor sobre el nodo de hoja creativa situado debajo del nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
 
 1. Deshabilitar **[!UICONTROL Schedule]**.
 
@@ -36,6 +36,16 @@ Cuando se desactiva la programación creativa, la configuración de optimizació
 
       * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]*, (experiencias de anuncios de vídeo estándar) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
+   * *[!UICONTROL Sequencing]:* gira los paquetes creativos asociados en un orden especificado (con el paquete 1 servido primero, el paquete 2 servido segundo, etc.), con un número total especificado de impresiones en cada secuencia de paquetes. Los tamaños de anuncio ofrecidos están determinados por el inventario disponible. Puede configurar el paquete final en la secuencia para que se muestre de forma indefinida (el bucle predeterminado) o b\) de nuevo al primer paquete. Por ejemplo, puede mostrar cualquiera de los creativos del paquete 1 para tres (3) impresiones, luego mostrar cualquier creativo del paquete 2 para una (1) impresión, luego mostrar cualquiera de los creativos del paquete 3 para dos (2) impresiones y luego comenzar el bucle de nuevo. Alternativamente, una vez que se muestran los creativos en el paquete 3, puede seguir mostrando los creativos en el paquete 3 indefinidamente, en lugar de crear un bucle. Al habilitar la secuenciación:
+
+      1. Arrastre y suelte los paquetes asignados en el orden deseado.
+
+     De forma predeterminada, los paquetes asignados se secuencian en el orden en que se agregaron a la experiencia.
+
+      1. Introduzca el número de impresiones de cada secuencia.
+
+      1. Para la última secuencia, cambie si a\) mostrar el paquete final en la secuencia indefinidamente (*[!UICONTROL Infinite]* (el valor predeterminado) o b\) al primer paquete después de que se muestre el paquete final (*[!UICONTROL Keep in Loop]*).
+
 1. Haga clic en **[!UICONTROL Save]**.
 
 ## Configurar la optimización creativa con programación creativa
@@ -44,7 +54,7 @@ Si lo desea, puede programar paquetes creativos específicos para que se ejecute
 
 Al utilizar la programación, debe programar paquetes a lo largo de la duración de la experiencia.
 
-1. Mantenga el cursor sobre el nodo de hoja creativa situado debajo del nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Schedules]**.
+1. Mantenga el cursor sobre el nodo de hoja creativa situado debajo del nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
 
 1. Habilitar **[!UICONTROL Schedule]**.
 
@@ -62,6 +72,16 @@ Al utilizar la programación, debe programar paquetes a lo largo de la duración
 
          * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]*, (experiencias de anuncios de vídeo estándar) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
+      * *[!UICONTROL Sequencing]:* gira los paquetes creativos asociados en un orden especificado (con el paquete 1 servido primero, el paquete 2 servido segundo, etc.), con un número total especificado de impresiones en cada secuencia de paquetes. Los tamaños de anuncio ofrecidos están determinados por el inventario disponible. Puede configurar el paquete final en la secuencia para que se muestre de forma indefinida (el bucle predeterminado) o b\) de nuevo al primer paquete. Por ejemplo, puede mostrar cualquiera de los creativos del paquete 1 para tres (3) impresiones, luego mostrar cualquier creativo del paquete 2 para una (1) impresión, luego mostrar cualquiera de los creativos del paquete 3 para dos (2) impresiones y luego comenzar el bucle de nuevo. Alternativamente, una vez que se muestran los creativos en el paquete 3, puede seguir mostrando los creativos en el paquete 3 indefinidamente, en lugar de crear un bucle. Al habilitar la secuenciación:
+
+         1. Arrastre y suelte los paquetes asignados en el orden deseado.
+
+            De forma predeterminada, los paquetes asignados se secuencian en el orden en que se agregaron a la experiencia.
+
+         1. Introduzca el número de impresiones de cada secuencia.
+
+         1. Para la última secuencia, cambie si a\) mostrar el paquete final en la secuencia indefinidamente (*[!UICONTROL Infinite]* (el valor predeterminado) o b\) al primer paquete después de que se muestre el paquete final (*[!UICONTROL Keep in Loop]*).
+
 1. Para cada programación adicional:
 
    1. Haga clic en **[!UICONTROL + Add Schedule]**.
@@ -77,6 +97,16 @@ Al utilizar la programación, debe programar paquetes a lo largo de la duración
       * *[!UICONTROL Algorithmic]:* Gira los elementos creativos de cada paquete de forma algorítmica según un objetivo de optimización especificado.
 
          * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
+
+      * *[!UICONTROL Sequencing]:* Gira los paquetes creativos asociados en un orden especificado, con un número total especificado de impresiones en cada secuencia de paquetes. Al habilitar la secuenciación:
+
+         1. Arrastre y suelte los paquetes asignados en el orden deseado.
+
+            De forma predeterminada, los paquetes asignados se secuencian en el orden en que se agregaron a la experiencia.
+
+         1. Introduzca el número de impresiones de cada secuencia.
+
+         1. Para la última secuencia, cambie si a\) mostrar el paquete final en la secuencia indefinidamente (*[!UICONTROL Infinite]* (el valor predeterminado) o b\) al primer paquete después de que se muestre el paquete final (*[!UICONTROL Keep in Loop]*).
 
 1. Haga clic en **[!UICONTROL Save]**.
 

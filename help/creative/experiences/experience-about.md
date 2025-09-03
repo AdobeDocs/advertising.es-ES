@@ -3,9 +3,9 @@ title: Acerca de las experiencias en Advertising Creative
 description: Aprenda a configurar experiencias de publicidad personalizadas y optimizar los elementos de publicidad en función del rendimiento.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Cada experiencia de anuncio puede incluir un tipo de anuncio (pantalla estándar
 
 * **Programación:** (opcional) Programe la ejecución de elementos creativos específicos durante períodos de tiempo secuenciales especificados.
 
-* **Rotación de anuncios:** Rotar los elementos creativos manualmente según pesos relativos o algorítmicamente según el objetivo de optimización especificado.
+* **Rotación de anuncios:** Rotar los elementos creativos de forma algorítmica según el objetivo de optimización especificado; según una secuencia de paquetes especificada; o según los pesos relativos.
 
 * **Objetivo de optimización:** Optimice los elementos de publicidad para obtener la mejor tasa de pulsaciones o para un [objetivo personalizado de Advertising DSP existente](/help/dsp/optimization/custom-goal.md)
 

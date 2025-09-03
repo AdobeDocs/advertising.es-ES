@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Obtenga información sobre cómo generar la experiencia cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: bf969c1b3cc57e2ef83087952a9bac530b276916
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
@@ -187,7 +187,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | Las dimensiones del anuncio publicado. |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | Si el anuncio publicado era un anuncio de imagen o un anuncio de vídeo predeterminado para la experiencia. |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | Si los anuncios se giraron según pesos relativos (*Ponderados*) o algorítmicamente (*Algoritmos*). |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | Si los anuncios se giraron algorítmicamente (*Algoritmo*), en una secuencia especificada (*Secuenciado*) o según pesos relativos (*Ponderado*). |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative ID] | El identificador que [!UICONTROL Creative] asignó al creativo. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Name] | El nombre del creativo. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Type] | El tipo de elemento creativo (como [!UICONTROL HTML5]). |
