@@ -3,9 +3,9 @@ title: ID de Adobe Advertising usados por  [!DNL Analytics]
 description: ID de Adobe Advertising usados por  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 1a0a111e25efd7d0f38c2d18f4b57b9428ec4ed7
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,13 @@ Adobe Advertising distingue entre una entrada de pulsaciones o visualizaciones a
 
 *Figura 2: Adobe Advertising hace clic en la integración [!DNL Analytics] basada en URL*
 
-<!-- ## Adobe Advertising EF IDs -->
+## ID de Adobe Advertising EF
 
 {{$include /help/_includes/ef-id.md}}
+
+### Formatos de ID de EF {#ef-id-formats}
+
+{{$include /help/_includes/ef-id-formats.md}}
 
 ### El Dimension EF ID en [!DNL Analytics]
 
@@ -52,7 +56,11 @@ En [!DNL Analytics] informes, puede encontrar datos de EF ID buscando la dimensi
 
 Los EF ID están sujetos al límite de 500 000 identificadores únicos en Analysis Workspace. Una vez que se alcanza el valor de 500.000, todos los nuevos códigos de seguimiento se incluyen en el título de un elemento de línea &quot;[!UICONTROL Low Traffic]&quot;. Debido a la posibilidad de que falte fidelidad en los informes, los EF ID no se clasifican y no debe utilizarlos para segmentos o informes en [!DNL Analytics].
 
-<!-- ## Adobe Advertising AMO IDs {#amo-id} -->
+## ID de Adobe Advertising AMO {#amo-id}
+
+{{$include /help/_includes/amo-id.md}}
+
+## Formatos de ID de AMO {#amo-id-formats}
 
 {{$include /help/_includes/amo-id.md}}
 
@@ -94,7 +102,7 @@ Para cualquier informe o auditoría dentro de [!DNL Analytics], la práctica rec
 
 ## Acerca de las clasificaciones de Analytics
 
-En [!DNL Analytics], una [clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) es un fragmento de metadatos para un código de seguimiento determinado, como Cuenta, Campaña o Anuncio. Adobe Advertising clasifica los datos de Adobe Advertising sin procesar mediante clasificaciones para que pueda mostrarlos de diferentes maneras (por ejemplo, por tipo de anuncio o campaña) al generar informes. Las clasificaciones forman la base de los informes de Adobe Advertising en [!DNL Analytics] y se pueden usar con las métricas de AMO, como [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] y [!UICONTROL AMO Clicks], así como con eventos personalizados y estándar en el sitio, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] y [!UICONTROL Revenue].
+En [!DNL Analytics], una [clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) es un fragmento de metadatos para un código de seguimiento determinado, como Cuenta, Campaña o Anuncio. Adobe Advertising clasifica los datos de Adobe Advertising sin procesar mediante clasificaciones para que pueda mostrarlos de diferentes maneras (por ejemplo, por tipo de anuncio o campaña) al generar informes. Las clasificaciones forman la base de los informes de Adobe Advertising en [!DNL Analytics] y se pueden usar con las métricas de AMO, como [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] y [!UICONTROL AMO Clicks], así como con eventos personalizados y estándar en el sitio, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] y [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >
