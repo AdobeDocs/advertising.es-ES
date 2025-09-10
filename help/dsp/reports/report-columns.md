@@ -3,9 +3,9 @@ title: Columnas de informe disponibles
 description: Consulte las descripciones de las columnas disponibles en los informes personalizados.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: e07713ed7b3b700560577f8020066540e34d8952
+source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,15 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | El identificador único de la campaña en DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | Nombre de la campaña según lo asignado por el usuario. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | La primera fecha de la campaña. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | El título del contenido. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | La serie de contenido. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | El género de contenido. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | La calidad de la producción, según la definición del [Laboratorio de Tecnología IAB](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Los valores pueden ser `Unknown`, `Professionally Produced`, `Prosumer` o `User Generated`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | El tipo de contenido definido por el [Laboratorio de tecnología IAB](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Los valores pueden incluir `Video,` `Game`, `Music`, `Application`, `Text`, `Other` o `Unknown`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | La clasificación de contenido, como PG o R. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | Si el anuncio apareció en una transmisión en vivo: `Not Live` o `Live`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | Duración del contenido en segundos; se suele utilizar para vídeo o audio. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Language (as per ISO 639)] | El idioma del contenido que utiliza ISO-639-1-alpha-2. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Day (YYYY-MM-DD)] | El año, mes y día. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | Día [!UICONTROL of Week] | El día específico, como [!UICONTROL Monday] o [!UICONTROL Tuesday]. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Hour (YYYY-MM-DD HH)] | El año, mes, día y hora. |

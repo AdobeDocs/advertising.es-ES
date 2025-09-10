@@ -3,9 +3,9 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Los informes personalizados le permiten personalizar el contenido y el envío de
 
 * Elija entre las plantillas de informe preconfiguradas y, si lo desea, personalícelas más.
 
-Puede generar informes una vez o programarlos diariamente, semanalmente o mensualmente a las 03:00 en el huso horario especificado según criterios específicos (por ejemplo, cada 15 días o el 1 de cada mes). Una vez generado el informe, puede descargarlo de [!UICONTROL Reports] > [!UICONTROL Custom Reports] o de [destinos de informe](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados de los siguientes tipos:
+Puede generar informes una vez o programarlos diariamente, semanalmente o mensualmente a las 03:00 en el huso horario especificado según criterios específicos (como cada 15 días o el 1 de cada mes). Una vez generado el informe, puede descargarlo de [!UICONTROL Reports] > [!UICONTROL Custom Reports] o de [destinos de informe](/help/dsp/reports/report-destinations/report-destination-about.md) vinculados de los siguientes tipos:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -97,11 +97,13 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
      Para ver una comparación de este informe con los informes creados por [!DNL Advanced Measurement Services] y Adobe Analytics, consulte &quot;[Preguntas más frecuentes acerca de informes personalizados](/help/dsp/reports/faq-reports.md)&quot;.
 
-   * **[!UICONTROL Path Length]:** Use este informe para      realice un seguimiento de la cantidad de puntos de interacción del usuario necesarios para las conversiones a lo largo del tiempo, a fin de poder elegir la frecuencia de anuncio óptima. El informe muestra el número de conversiones por longitud de ruta (puntos de interacción); por ejemplo, cuántas conversiones se produjeron después de que los usuarios solo tuvieran una interacción de publicidad, dos interacciones de publicidad, etc. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc.
+   * **[!UICONTROL Path Length]:** Use este informe para hacer un seguimiento de la cantidad de puntos de interacción del usuario necesarios para las conversiones a lo largo del tiempo, de modo que pueda elegir la frecuencia de anuncio óptima. El informe muestra el número de conversiones por longitud de ruta (puntos de interacción); por ejemplo, cuántas conversiones se produjeron después de que los usuarios solo tuvieran una interacción de publicidad, dos interacciones de publicidad, etc. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Path Length]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc.
 
      Se muestran datos para cada longitud de ruta de hasta 10; los datos para las longitudes de ruta superiores a 10 se agrupan.
 
    * **[!UICONTROL Time to Conversion]:** Use este informe para determinar la ventana retrospectiva de atribución óptima y para identificar las campañas con tiempos de conversión más largos, que pueden beneficiarse de la retargeting. El informe muestra el número de conversiones por el periodo en días desde la última interacción (exposición del anuncio o clic) hasta la conversión. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc. Las conversiones que tardan más tiempo que el período retroactivo se agrupan en una fila (por ejemplo, si el informe utiliza un período retroactivo de 30 días, todas las conversiones que tardan más de 30 días en producirse se agrupan en una fila con un valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
+
+   * **[!UICONTROL Content BETA]:** Use este informe para comprender la entrega de impresiones y otras métricas según dimensiones de contenido especificadas (como género, calidad de producción y clasificación de contenido), de modo que pueda optimizar el direccionamiento y garantizar la seguridad de la marca. Además de las dimensiones de contenido, el informe incluye la mayoría de las dimensiones, métricas y filtros estándar. Los datos por dimensión de contenido están disponibles para [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] y [!DNL Triplelift]. Los editores pasan las señales de contenido durante el flujo de ofertas y están sujetas a disponibilidad.
 
 ## Informes entre cuentas {#cross-account-reporting}
 
