@@ -1,7 +1,7 @@
 ---
-source-git-commit: 47b5d399d4a5daa8832456abc32fff68e694abe9
+source-git-commit: 32602df7b402bd129baf73ef5bb12c4385f01196
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -9,13 +9,17 @@ ht-degree: 0%
 
 ## ID de Adobe Advertising EF
 
-El EF ID es un token único que Adobe Advertising utiliza para asociar la actividad con un clic en línea o una exposición de publicidad. El EF ID se almacena en la dimensión [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=es) o [!DNL rVar] (reservado [!DNL eVar]) (Adobe Advertising EF ID) y rastrea cada clic o exposición de anuncio en el nivel de navegador o dispositivo individual. Los EF ID actúan principalmente como claves para enviar datos de [!DNL Analytics] a Adobe Advertising para la creación de informes y la optimización de ofertas en Adobe Advertising.
+El EF ID es un token único que Adobe Advertising utiliza para asociar la actividad con un clic en línea o la exposición de un anuncio en el nivel de navegador o dispositivo individual. Los EF ID actúan principalmente como claves para enviar datos de [!DNL Analytics] y Customer Journey Analytics a Adobe Advertising para la creación de informes y la optimización de ofertas en Adobe Advertising.
+
+Para [!DNL Analytics], el ID de EF se almacena en la dimensión [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o [!DNL rVar] (reservada [!DNL eVar]) (ID de EF de Adobe Advertising).
+
+Para Customer Journey Analytics, el identificador EF se almacena en la propiedad `trackingIdentities` del objeto `conversionDetails`, que forma parte de [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension].
 
 ### Formatos de ID de EF {#ef-id-formats}
 
 >[!NOTE]
 >
->Los ID de EF distinguen entre mayúsculas y minúsculas. Si una implementación de [!DNL Analytics] obliga al seguimiento de URL a usar minúsculas, Adobe Advertising no reconocerá el EF ID. Esto afecta las ofertas y los informes de Adobe Advertising, pero no afecta a los informes de Adobe Advertising dentro de [!DNL Analytics].
+>Los ID de EF distinguen entre mayúsculas y minúsculas. Si una implementación de [!DNL Analytics] o Customer Journey Analytics obliga al seguimiento de URL a usar minúsculas, Adobe Advertising no reconocerá el EF ID. Esto afecta a las ofertas y los informes de Adobe Advertising, pero no afecta a los informes de Adobe Advertising en [!DNL Analytics] o Customer Journey Analytics.
 
 #### [!DNL Google Ads] anuncios de búsqueda
 
