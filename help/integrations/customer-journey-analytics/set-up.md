@@ -2,9 +2,9 @@
 title: Configuración de la recopilación de datos, la transferencia de datos y la creación de informes
 description: Obtenga información sobre cómo configurar la recopilación de datos, la transferencia de datos y la creación de informes.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 0b6a939a706d0e9155f9cc6335a947cc31192ac7
+source-git-commit: f2420c70394988c0083a09838189a44eedfd90b6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1800'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
 ### Recopilación y envío de datos de Adobe Advertising a Experience Platform Edge Network como conjunto de datos
 
-1. En Experience Platform, [defina un esquema manual](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas) para los datos que desea recopilar mediante el Experience Data Model (XDM).
+1. En Experience Platform, [defina un esquema manual](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas) para los datos que desea recopilar mediante el Experience Data Model (XDM).
 
    * En [!UICONTROL Schema Details], seleccione **[!UICONTROL Experience Event]** como clase base para que el esquema capture eventos de sitio. Asigne un nombre al esquema y haga clic en **[!UICONTROL Finish]**.
 
@@ -45,13 +45,13 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
    **Nota:** Puede crear varios esquemas, pero solo puede usar un esquema por conjunto de datos y por secuencia de datos, que creará en los pasos siguientes.
 
-1. [Cree un conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/create) basado en el esquema para almacenar y administrar la colección de datos de evento.
+1. [Cree un conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create) basado en el esquema para almacenar y administrar la colección de datos de evento.
 
    * Elija la opción para **[!UICONTROL Create dataset from schema]** y seleccione el esquema.
 
      Adobe Advertising crea conjuntos de datos adicionales para los datos de métricas de resumen relacionados (como valores de conversión) y datos de búsqueda (dimensiones/metadatos de clasificación, como el nombre de la campaña de Adobe Advertising) basados en el conjunto de datos de evento. Los datos de los conjuntos de datos se rellenan a diario en Experience Platform.
 
-1. [Crear un conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) para el esquema.
+1. [Crear un conjunto de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) para el esquema.
 
    * Para la configuración [!UICONTROL Mapping schema], seleccione su esquema.
 
@@ -65,11 +65,11 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
 ### Envíe los datos del sitio web de su organización a su conjunto de datos de Experience Platform
 
-1. Use Experience Platform [tags](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home) (anteriormente conocido como [!DNL Launch]) para generar una etiqueta JavaScript y enviar los datos del sitio web de su organización al conjunto de datos.
+1. Use Experience Platform [tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) (anteriormente conocido como [!DNL Launch]) para generar una etiqueta JavaScript y enviar los datos del sitio web de su organización al conjunto de datos.
 
    * Cree una propiedad de etiqueta, que es el contenedor de la configuración de etiqueta.
 
-   * Para su propiedad, [instale la extensión &quot;Adobe Experience Platform Web SDK&quot;](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) del catálogo de extensiones.
+   * Para su propiedad, [instale la extensión &quot;Adobe Experience Platform Web SDK&quot;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) del catálogo de extensiones.
 
      Esta extensión envía datos de las propiedades web a Experience Cloud a través de Experience Platform Edge Network.
 
@@ -99,9 +99,9 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
          * Guarde la compilación.
 
-   * (Opcional) [Cree reglas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/rules) según sea necesario para determinar cuándo Web SDK debe enviar datos a Edge Network.
+   * (Opcional) [Cree reglas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) según sea necesario para determinar cuándo Web SDK debe enviar datos a Edge Network.
 
-      * Para la configuración [!UICONTROL Advertising], defina cómo se utilizan los datos de publicidad para la medición de atribución. Esta configuración es útil cuando la regla incluye una secuencia de varias acciones y solo está disponible cuando ha seleccionado el componente &quot;[!UICONTROL Advertising]&quot; para el componente de compilación personalizada. Las opciones incluyen:
+      * Para las acciones de `sendEvent`, use la configuración de [!UICONTROL Advertising] para definir cómo se usan los datos de publicidad para la medición de atribución. Esta configuración es útil cuando la regla incluye una secuencia de varias acciones y solo está disponible cuando ha seleccionado el componente &quot;[!UICONTROL Advertising]&quot; para el componente de compilación personalizada. Las opciones incluyen:
 
         *Automático:* Permite que se usen datos de publicidad para medir la atribución de publicidad en la acción actual `sendEvent` en función de los datos de la caché. En este caso, el evento de exposición de anuncio se activa cuando tiene la oportunidad y es posible que no esté disponible para el evento actual. Por ejemplo, si activa un evento de cierre de compra y no hay datos de exposición de publicidad disponibles en la caché, el evento de cierre de compra no se atribuye a la exposición de publicidad.
 
@@ -113,11 +113,11 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
      Si no usa una regla para configurar una acción de `sendEvent`, los datos de publicidad se enviarán como un evento de enriquecimiento de anuncios independiente.
 
-   * Cree [elementos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/data-elements) según sea necesario para asignar variables en su sitio web a la estructura del esquema XDM que creó anteriormente.
+   * Cree [elementos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) según sea necesario para asignar variables en su sitio web a la estructura del esquema XDM que creó anteriormente.
 
-1. [Publique la etiqueta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow) en un entorno de prueba en el que pueda iterar en el desarrollo de etiquetas.
+1. [Publique la etiqueta](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) en un entorno de prueba en el que pueda iterar en el desarrollo de etiquetas.
 
-1. Valide el envío de los conjuntos de datos y, a continuación, [publique la etiqueta en su entorno de producción activo](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow).
+1. Valide el envío de los conjuntos de datos y, a continuación, [publique la etiqueta en su entorno de producción activo](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow).
 
    Es posible que el departamento de TI de su organización u otro grupo tenga que programar la implementación de etiquetas o recibir información al respecto.
 
@@ -125,7 +125,7 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
 Siga estos pasos para extraer datos de Adobe Advertising de sus conjuntos de datos de Experience Platform en Customer Journey Analytics. El administrador del sitio de Customer Journey Analytics de su organización puede realizar estas tareas.
 
-1. En Customer Journey Analytics, [cree una conexión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection) que incluya sus conjuntos de datos y esquema de Experience Platform.
+1. En Customer Journey Analytics, [cree una conexión](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) que incluya sus conjuntos de datos y esquema de Experience Platform.
 
    **Nota:** En la actualidad, debe enviar datos de todas las cuentas de DSP y Search, Social y Commerce a una sola instancia de Experience Platform y zona protegida.
 
@@ -159,7 +159,7 @@ Siga estos pasos para extraer datos de Adobe Advertising de sus conjuntos de dat
 
 En Customer Journey Analytics, cree una o más vistas de datos para definir las métricas y dimensiones para la creación de informes. Un analista web puede realizar estas tareas.
 
-1. En Customer Journey Analytics, [cree una vista de datos](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/create-dataview).
+1. En Customer Journey Analytics, [cree una vista de datos](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview).
 
 1. Configure la vista para incluir la siguiente información.
 
@@ -175,7 +175,7 @@ En Customer Journey Analytics, cree una o más vistas de datos para definir las 
 
       * Una el conjunto de datos de eventos al conjunto de datos de resumen, que aún no está unido a nada:
 
-         * Para cada dimensión con datos de resumen que desee que estén disponibles en Customer Journey Analytics, [cree un campo derivado](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/derived-fields).
+         * Para cada dimensión con datos de resumen que desee que estén disponibles en Customer Journey Analytics, [cree un campo derivado](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields).
 
            Por ejemplo, para ver los datos de resumen de las campañas, cree un campo derivado para la dimensión `Adobe Advertising Campaign`.
 
@@ -213,7 +213,7 @@ En Customer Journey Analytics, cree una o más vistas de datos para definir las 
 
 En Customer Journey Analytics Workspace, siga estos pasos para configurar informes y visualizaciones. Un analista web puede realizar estas tareas.
 
-1. [Cree un proyecto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) en Workspace para generar informes y visualizaciones basados en las dimensiones y métricas configuradas en la vista de datos.
+1. [Cree un proyecto](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) en Workspace para generar informes y visualizaciones basados en las dimensiones y métricas configuradas en la vista de datos.
 
 1. (Si tiene datos de [!DNL Google Ads] o [!DNL Microsoft Advertising]) Cree un informe de conversiones rastreadas por el publicador usando campos para métricas específicas de red de anuncios, que se agrupan como `googleConversions` y `microsoftConversions`.
 
@@ -224,5 +224,5 @@ En Customer Journey Analytics Workspace, siga estos pasos para configurar inform
 >* [ID de Adobe Advertising usados por [!DNL Customer Journey Analytics]](ids.md)
 >* [Métricas y dimensiones de Adobe Advertising en Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Recopilar datos históricos para los ID de AMO y EF para su uso en Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
->* [Guía de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-landing)
->* [Guía del usuario de Customer Journey Analytics para usuarios de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Guía de Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* [Guía del usuario de Customer Journey Analytics para usuarios de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
