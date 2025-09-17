@@ -3,9 +3,10 @@ title: (Nueva IU) Acerca de los portafolios
 description: Más información sobre los portafolios.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Puede administrar sus campañas de publicidad de forma colectiva mediante portaf
 
 Algunas funciones de usuario pueden crear y configurar portafolios. Según el tipo de portafolio, la configuración del portafolio puede incluir el objetivo del portafolio, las campañas asignadas, la estrategia de gasto, cualquier restricción de oferta en el nivel de portafolio, y los parámetros de modelado y optimización. Cuando esté listo para que Search, Social y Commerce inicien la optimización de un portafolio, cambie el estado a &quot;optimizado&quot;.
 
-Si lo desea, puede agrupar portafolios en grupos de portafolios para poder ver los datos compuestos de clics e ingresos de todo el grupo. Cree grupos de portafolios a partir de la [IU heredada](/help/search-social-commerce/getting-started/ui-switch.md).
+Opcionalmente, puede agrupar portafolios en [grupos de portafolios](portfolio-group-manage.md) para poder ver los datos compuestos de todo el grupo.
 
 Según su función, es posible que pueda generar simulaciones de rendimiento, que utilizan el modelado predictivo para identificar el punto de gasto óptimo y los informes detallados de precisión de la previsión.<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
@@ -28,7 +29,7 @@ Las campañas pueden optimizarse según la campaña o la estrategia de oferta de
 
 >[!NOTE]
 >
->Las &quot;pujas inteligentes&quot; y &quot;pujas automatizadas&quot; suelen utilizarse indistintamente, pero no son lo mismo. Las pujas inteligentes solo hacen referencia a [!DNL Google Ads] y [!DNL Microsoft Advertising] estrategias de pujas automatizadas que utilizan pujas en tiempo de subasta, lo que significa que la red de anuncios optimiza las conversiones o los valores de conversión en el momento de cada subasta.
+>Las &quot;pujas inteligentes&quot; y las &quot;pujas automatizadas&quot; suelen utilizarse indistintamente, pero no son lo mismo. Las pujas inteligentes solo hacen referencia a [!DNL Google Ads] y [!DNL Microsoft Advertising] estrategias de pujas automatizadas que utilizan pujas en tiempo de subasta, lo que significa que la red de anuncios optimiza las conversiones o los valores de conversión en el momento de cada subasta.
 
 <!-- Add "Frequency of Bidding (or other actions, like adjusting campaign budget or bid adjustment values?) -->
 
