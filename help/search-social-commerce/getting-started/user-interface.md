@@ -3,7 +3,7 @@ title: Organización de la interfaz de usuario
 description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
+source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 0%
@@ -38,15 +38,13 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
 * Submenú **[!UICONTROL Manage]**:
 
-<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
+   * **[!UICONTROL Portfolios]:** Abre una nueva vista de [!UICONTROL Portfolios] que enumera todos los portafolios del anunciante. Puede administrar sus portafolios desde esta vista. Puede abrir una lista de restricciones asignadas y ver los detalles de rendimiento y composición de cualquier portafolio.
 
-* **[!UICONTROL Portfolios]:** Abre una nueva vista de [!UICONTROL Portfolios] que enumera todos los portafolios del anunciante. Puede administrar sus portafolios desde esta vista. Puede abrir una lista de restricciones asignadas y ver los detalles de rendimiento y composición de cualquier portafolio.
+     La configuración del portafolio incluye pestañas para asignar el objetivo y las campañas, administrar el gasto, administrar las restricciones y controlar la optimización. Solo los usuarios con el rol de &quot;optimización de expertos&quot; o superior pueden editar la configuración en la ficha [!UICONTROL Control Optimization].
 
-  La configuración del portafolio incluye pestañas para asignar el objetivo y las campañas, administrar el gasto, administrar las restricciones y controlar la optimización. Solo los usuarios con el rol de &quot;optimización de expertos&quot; o superior pueden editar la configuración en la ficha [!UICONTROL Control Optimization].
+   * **[!UICONTROL Campaigns]:** Abre una nueva vista de [!UICONTROL Campaigns] que muestra todas las campañas del anunciante. Puede asignar campañas a portafolios y administrar asignaciones de restricciones para campañas seleccionadas. También puede descargar un informe del contenido de la tabla de datos. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-* **[!UICONTROL Campaigns]:** Abre una nueva vista de [!UICONTROL Campaigns] que muestra todas las campañas del anunciante. Puede asignar campañas a portafolios y administrar asignaciones de restricciones para campañas seleccionadas. También puede descargar un informe del contenido de la tabla de datos. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
-
-  Para crear, editar y eliminar campañas, vuelva a la interfaz de usuario heredada haciendo clic en **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** en el menú principal o haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Para crear, editar y eliminar campañas, vuelva a la interfaz de usuario heredada haciendo clic en **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** en el menú principal o haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Ad Groups]:** Abre una nueva vista de [!UICONTROL Ad Groups], que muestra todos los grupos de anuncios del anunciante. Puede administrar asignaciones de restricción para los grupos de anuncios seleccionados. También puede descargar un informe del contenido de la tabla de datos.
 
