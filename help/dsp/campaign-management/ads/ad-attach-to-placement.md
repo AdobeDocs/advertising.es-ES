@@ -1,166 +1,113 @@
 ---
-title: Adjuntar anuncios a ubicaciones
-description: Obtenga información sobre cómo adjuntar anuncios a ubicaciones.
+title: Adjuntar y quitar anuncios de ubicaciones
+description: Obtenga información sobre cómo adjuntar anuncios a ubicaciones y quitar anuncios de ubicaciones.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 86acfaecdf761adc7c6585a49dbcdf4490290a8c
+source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
-# Adjuntar anuncios a ubicaciones
+# Adjuntar y quitar anuncios de ubicaciones
 
-Utilice la vista [!UICONTROL Ad Tools] para adjuntar anuncios a ubicaciones, adjuntar píxeles de seguimiento de terceros a los anuncios y desasociar de los anuncios los píxeles de seguimiento de terceros existentes.
+Puede adjuntar y eliminar anuncios de las ubicaciones.
 
 >[!NOTE]
 >
 >Los anuncios de vídeo universales solo se pueden adjuntar a ubicaciones de vídeo universales.
 
-## Abrir la vista [!UICONTROL Ad Tools] {#ad-tools-open}
+## Adjuntar anuncios a ubicaciones desde la vista [!UICONTROL Placements] {#attach-ads-placement}
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
 1. Haga clic en el nombre de la campaña.
 
-1. Abra la vista [!UICONTROL Ad Tools] de cualquiera de las siguientes maneras:
+1. Haga clic en la ficha **[!UICONTROL Placements]**.
 
-   * (Desde la vista [!UICONTROL Packages], [!UICONTROL Placements] o [!UICONTROL Ads]) En la esquina superior derecha, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
+1. Realice una de las acciones siguientes:
 
-   * (En la vista [!UICONTROL Placements]) Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (Para una sola ubicación) Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Attach Ads]**.
 
-   * (En la vista [!UICONTROL Ads]) Junto al nombre del anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (Para adjuntar los mismos anuncios a varias ubicaciones) Seleccione la casilla de verificación para cada nombre de ubicación. En el menú de acciones masivas, haga clic en **[!UICONTROL Attach Ads]**.
 
-   La ficha [!UICONTROL Attach Ads] está seleccionada de manera predeterminada.
+1. Seleccione la casilla de verificación situada junto a cada anuncio que desee adjuntar
 
-## Adjuntar anuncios a ubicaciones {#attach-ads-campaign}
+1. Haga clic en **[!UICONTROL Attach Selected Ads]**.
 
-1. [Abrir la vista [!UICONTROL Ad Tools]](#ad-tools-open).
+## Adjuntar un anuncio a ubicaciones desde la vista [!UICONTROL Ads] {#attach-ads}
 
-1. En la subvista [!UICONTROL Edit], haga lo siguiente para cada grupo de anuncios que desee adjuntar a las ubicaciones:
+1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-   1. (Opcional) Localice ubicaciones y anuncios específicos de cualquiera de las siguientes maneras:
+1. Haga clic en el nombre de la campaña.
 
-      * Encima de la tabla de la izquierda, haz clic en ![Filtrar](/help/dsp/assets/filter.png) y filtra las listas por paquete, tipo de ubicación, estado de ubicación, tipo de anuncio o estado de anuncio.
+1. Haga clic en la ficha **[!UICONTROL Ads]**.
 
-      * Sobre las tablas derecha e izquierda, busque cadenas de texto específicas en los nombres de ubicación y publicidad.
+1. Junto al anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Add to placements]**.
 
-   1. En la tabla de la izquierda, seleccione la casilla de verificación situada junto a cada ubicación a la que desee adjuntar los anuncios.
+1. Realice una de las acciones siguientes:
 
-   1. En la tabla de la derecha, seleccione la casilla de verificación situada junto a cada anuncio que desee adjuntar a las ubicaciones seleccionadas.
+   * Para crear una nueva ubicación y adjuntarle el anuncio:
 
-      Solo se pueden seleccionar los anuncios aplicables al tipo de ubicación y que no estén adjuntos a las ubicaciones seleccionadas.
+      1. Haga clic en **[!UICONTROL Create a New Placement]**.
 
-   1. En la parte inferior derecha, haga clic en **[!UICONTROL Attach]**.
+      1. Escriba la [configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md) y haga clic en **[!UICONTROL Create Placement]**.
 
-1. (Opcional) Para volver a las vistas de detalles de la campaña, haga clic en ![Volver a la carpeta](/help/dsp/assets/breadcrumb-return.png "Volver a la carpeta") a la izquierda de [!UICONTROL Ad Tools] y seleccione el nombre de la campaña.
+         El tipo de ubicación está determinado por el tipo de anuncio.
 
-## Ver anuncios adjuntos a ubicaciones {#view-ads-campaign}
+      1. Haga clic en **[!UICONTROL Attach ad]**.
 
-<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
+      1. Seleccione la casilla de verificación situada junto a cada anuncio para adjuntarlo a la ubicación.
 
-1. [Abrir la vista [!UICONTROL Ad Tools]](#ad-tools-open).
+      1. Haga clic en **[!UICONTROL Attach Selected Ads]**.
 
-1. Cambie a la opción **[!UICONTROL View]** en la esquina superior derecha.
+   * Para adjuntar el anuncio a una ubicación existente:
 
-1. (Opcional) Localice ubicaciones y anuncios específicos según sea necesario:
+      1. Haga clic en **[!UICONTROL Select a Placement].**
 
-   * Encima de la tabla de la izquierda, haz clic en ![Filtrar](/help/dsp/assets/filter.png) y filtra las listas por paquete, tipo de ubicación, estado de ubicación, tipo de anuncio o estado de anuncio.
+      1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL Select].**
 
-   * En las tablas derecha e izquierda, busque cadenas de texto específicas en la ubicación o en el nombre del anuncio.
+      1. (Opcional) Para cada ubicación adicional, haga clic en **[!UICONTROL Attach To Another Placement]** y, a continuación, repita los pasos anteriores.
 
-1. Haga clic en cualquier fila de colocación de la tabla izquierda para ver los anuncios adjuntos en la tabla derecha.
+      1. Haga clic en **[!UICONTROL I'm done for now]**.
 
-1. (Opcional) Para adjuntar más anuncios a las ubicaciones de la campaña, cambie a la vista **[!UICONTROL Edit]** en la esquina superior derecha. Consulte el paso 2 del procedimiento anterior, &quot;[Adjuntar anuncios a ubicaciones](#attach-ads-campaign)&quot;, para obtener instrucciones.
+## Quitar anuncios de ubicaciones de la vista [!UICONTROL Placements] {#remove-ads-placement}
 
-## Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación {#attach-pixels-ads}
+1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-1. [Abrir la vista [!UICONTROL Ad Tools]](#ad-tools-open).
+1. Haga clic en el nombre de la campaña.
 
-1. Haga clic en la ficha **[!UICONTROL Attach Pixels]**.
+1. Haga clic en la ficha **[!UICONTROL Placements]**.
 
-1. En la subvista [!UICONTROL Edit]:
+1. Realice una de las acciones siguientes:
 
-   1. (Opcional) Localice los anuncios y los píxeles de terceros de cualquiera de las siguientes maneras:
+   * (Para una sola ubicación) Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Detach Ads]**.
 
-      * Sobre la tabla de la izquierda, haz clic en ![Filtro](/help/dsp/assets/filter.png) y filtra las listas por estado de anuncio, tipo de anuncio, evento de integración de píxeles o tipo de píxel.
+   * (Para quitar los mismos anuncios de varias ubicaciones) Seleccione la casilla de verificación para cambiar el nombre de cada ubicación. En el menú de acciones masivas, haga clic en **[!UICONTROL Detach Ads]**.
 
-      * Sobre las tablas derecha e izquierda, busque cadenas de texto específicas en los nombres de anuncios y nombres de píxeles.
+1. Seleccione la casilla de verificación situada junto a cada anuncio que desee quitar.
 
-   1. (Si no existen píxeles de seguimiento de terceros para la campaña) Cree un píxel:
+1. Haga clic en **[!UICONTROL Detach Selected Ads]**.
 
-      1. En la tabla derecha, haga clic en **[!UICONTROL Create pixel]**.
+## Quitar un anuncio de una ubicación de [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
 
-      1. Especifique la configuración:
+1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
-         **[!UICONTROL Integration Event]:** El evento que déclencheur el píxel que se va a activar, como *[!UICONTROL Impression]* o *[!UICONTROL Click-through]*.
+1. Haga clic en el nombre de la campaña.
 
-         **[!UICONTROL Pixel Type]:** Indica si el píxel es *[!UICONTROL IMG URL]* (archivo de imagen de 1x1 píxeles), *[!UICONTROL HTML]* o *[!UICONTROL JavaScript URL]*.
+1. Haga clic en la ficha **[!UICONTROL Placements]**.
 
-         **[!UICONTROL Pixel URL or Code]:** Dirección URL de la imagen de píxel, en el formato adecuado para el tipo de píxel especificado.
+1. Mantenga el cursor sobre la fila de ubicación y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**.
 
-         **[!UICONTROL Pixel Name]:** El nombre del píxel. Utilice un nombre que le ayude a identificar fácilmente el píxel.
+1. Haga clic en la ficha **[!UICONTROL Ads]**.
 
-         **[!UICONTROL Pixel Provider]:** El proveedor de píxeles: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* o *[!UICONTROL IAS]*.
-
-      1. Haga clic en **[!UICONTROL Save]**.
-
-   1. En la tabla de la izquierda, active la casilla de verificación situada junto a cada anuncio para el que desee adjuntar píxeles de seguimiento de terceros.
-
-   1. En la tabla de la derecha, seleccione la casilla de verificación situada junto a cada píxel de seguimiento de terceros que desee adjuntar a los anuncios seleccionados.
-
-      Solo se pueden seleccionar los píxeles que aún no estén adjuntos a los anuncios seleccionados.
-
-   1. En la parte inferior derecha, haga clic en **[!UICONTROL Attach]**.
-
-1. (Opcional) Para volver a las vistas de detalles de la campaña, haga clic en ![Volver a la carpeta](/help/dsp/assets/breadcrumb-return.png "Volver a la carpeta") a la izquierda de [!UICONTROL Ad Tools] y seleccione el nombre de la campaña.
-
-## Desasociar píxeles de seguimiento de terceros de anuncios en una ubicación {#detach-pixels-ads}
-
-1. [Abrir la vista [!UICONTROL Ad Tools]](#ad-tools-open).
-
-1. Haga clic en la ficha **[!UICONTROL Attach Pixels]**.
-
-1. En la subvista [!UICONTROL Edit]:
-
-   1. (Opcional) Localice los anuncios y los píxeles de terceros de cualquiera de las siguientes maneras:
-
-      * Sobre la tabla de la izquierda, haz clic en ![Filtro](/help/dsp/assets/filter.png) y filtra las listas por estado de anuncio, tipo de anuncio, evento de integración de píxeles o tipo de píxel.
-
-      * Sobre las tablas derecha e izquierda, busque cadenas de texto específicas en los nombres de anuncios y nombres de píxeles.
-
-   1. En la tabla de la izquierda, active la casilla de verificación situada junto a cada anuncio del que desee separar los píxeles de seguimiento de terceros.
-
-   1. En la tabla de la derecha, seleccione la casilla de verificación situada junto a cada píxel de seguimiento de terceros que desee separar de los anuncios seleccionados.
-
-      Solo se pueden seleccionar los píxeles adjuntos a todos los anuncios seleccionados.
-
-   1. En la parte inferior derecha, haga clic en **[!UICONTROL Detach]**.
-
-1. (Opcional) Para volver a las vistas de detalles de la campaña, haga clic en ![Volver a la carpeta](/help/dsp/assets/breadcrumb-return.png "Volver a la carpeta") a la izquierda de [!UICONTROL Ad Tools] y seleccione el nombre de la campaña.
-
-## Ver píxeles adjuntos a anuncios {#view-pixels-ads}
-
-1. [Abrir la vista [!UICONTROL Ad Tools]](#ad-tools-open).
-
-1. Haga clic en la ficha **[!UICONTROL Attach Pixels]**.
-
-1. Cambie a la opción **[!UICONTROL View]** en la esquina superior derecha.
-
-1. (Opcional) Localice los anuncios y los píxeles de terceros según sea necesario:
-
-   * Sobre la tabla de la izquierda, haz clic en ![Filtro](/help/dsp/assets/filter.png) y filtra las listas por estado de anuncio, tipo de anuncio, evento de integración de píxeles o tipo de píxel.
-
-   * Sobre las tablas derecha e izquierda, busque cadenas de texto específicas en los nombres de anuncios y nombres de píxeles.
-
-1. Haga clic en cualquier fila de anuncio de la tabla izquierda para ver los píxeles adjuntos en la tabla derecha.
-
-1. (Opcional) Para adjuntar más píxeles a los anuncios, cambie a la vista **[!UICONTROL Edit]** en la esquina superior derecha. Consulte el paso 3 del procedimiento anterior, &quot;[Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación](#attach-pixels-ads)&quot;, para obtener instrucciones.
+1. Junto al nombre del anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Detach]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de la administración de anuncios](ad-about.md)
+>* [Adjuntar y eliminar píxeles de los anuncios](ad-pixel-attach-detach.md)
 >* [Crear un solo anuncio](ad-create.md)
 >* [Crear varios anuncios de terceros](ad-create-multiple.md)
 >* [Editar un anuncio](ad-edit.md)
