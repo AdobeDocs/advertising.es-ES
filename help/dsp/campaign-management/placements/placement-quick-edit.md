@@ -3,7 +3,7 @@ title: Editar rápidamente la configuración de colocación de claves
 description: Aprenda a cambiar rápidamente la configuración de ubicación de las claves.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presu
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
-1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**.
 1. Edite cualquiera de las [configuraciones de ubicación](placement-settings.md) disponibles: **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** y **[!UICONTROL Budget]**.
 1. Haga clic en **[!UICONTROL Apply]**.
 
@@ -35,7 +35,7 @@ Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presu
 >* [Duplicar una ubicación](placement-duplicate.md)
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Editar los horarios de anuncios para las ubicaciones](placement-edit-ad-schedule.md)
->* [Pausar o activar una ubicación](placement-pause-activate.md)
+>* [Desactivar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
->* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=es)
+>* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

@@ -3,7 +3,7 @@ title: Archivar o desarchivar una ubicación
 description: Obtenga información sobre cómo archivar o desarchivar una ubicación.
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -40,6 +40,6 @@ Puede desarchivar una ubicación para restaurar su estado anterior en cualquier 
 
 >[!MORELIKETHIS]
 >
->* [Pausar o activar una ubicación](placement-pause-activate.md)
+>* [Desactivar o activar una ubicación](placement-pause-activate.md)
 >* [Editar ubicaciones](placement-edit.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)

@@ -3,7 +3,7 @@ title: Editar horarios de anuncios para ubicaciones
 description: Aprenda a cambiar los programas de anuncios de los anuncios adjuntos a las ubicaciones.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad pa
 
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 
-1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Ads]** > **[!UICONTROL Ad schedule]**.
 
 1. Realice una de las siguientes acciones:
 

@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: a2cf15742557686df280b2a73eea996be53e5f4d
+source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '957'
 ht-degree: 3%
 
 ---
@@ -32,8 +32,8 @@ ht-degree: 3%
       + [Soluciones entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financiación de cuenta](/help/dsp/introduction/billing/account-funding.md)
    + [Monedas admitidas](/help/dsp/currency.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Soluciones de medición avanzada](/help/dsp/introduction/advanced-measurement-services.md)
 + Administración de campañas {#campaign-management}
    + [Información general sobre la estructura de administración de campañas](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -67,11 +67,12 @@ ht-degree: 3%
       + [Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Ubicaciones duplicadas](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Administrar multiplicadores de oferta para ubicaciones](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
-      + [Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [Adjuntar y quitar anuncios de ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+      + [Adjuntar y eliminar píxeles de anuncios](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
       + [Editar los horarios de anuncios de las ubicaciones](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Ver un informe detallado de una ubicación](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [Ver el registro de cambios de una ubicación](/help/dsp/campaign-management/placements/placement-change-log.md)
-      + [Pausar o activar una ubicación](/help/dsp/campaign-management/placements/placement-pause-activate.md)
+      + [Desactivar o activar una ubicación](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [Archivar o desarchivar una ubicación](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
    + Anuncios {#ads}
@@ -83,7 +84,7 @@ ht-degree: 3%
       + [Revisar Detalles De Anuncios Con Hojas De Cálculo](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicar un anuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Adjuntar anuncios a ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=es)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Adjuntar y quitar anuncios de las ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausar o activar un anuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -238,6 +239,6 @@ ht-degree: 3%
    + Notificaciones {#notifications}
       + [Acerca de las suscripciones de alerta](/help/dsp/admin/alerts-about.md)
       + [Administrar suscripciones de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Obtener ayuda](/help/dsp/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
++ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

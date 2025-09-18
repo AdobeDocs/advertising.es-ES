@@ -3,7 +3,7 @@ title: Administrar multiplicadores de oferta para ubicaciones
 description: Aprenda a crear y editar multiplicadores de oferta para sus destinos de colocación.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 28f1b799daaa4e511abab1102a639e72b3a32d18
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Puede editar valores manualmente o cargar una hoja de cálculo para una sola ubi
 
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 
-1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Bid Multiplier]**.
 
 1. Ajuste de los multiplicadores de oferta para los objetivos aptos:
 

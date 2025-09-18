@@ -3,7 +3,7 @@ title: Editar ubicaciones
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presu
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
-1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]**.
 1. Edite cualquiera de las [configuraciones de ubicación](placement-settings.md) disponibles: **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** y **[!UICONTROL Budget]**.
 1. Haga clic en **[!UICONTROL Apply]**.
 
@@ -43,7 +43,7 @@ Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presu
 
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 
-1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit]** **[!UICONTROL Full Edit]** > .
 
 1. Edite la [configuración de ubicación](placement-settings.md).
 
@@ -97,9 +97,9 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >* [Duplicar una ubicación](placement-duplicate.md)
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Editar los horarios de anuncios para las ubicaciones](placement-edit-ad-schedule.md)
->* [Pausar o activar una ubicación](placement-pause-activate.md)
+>* [Desactivar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=es)
+>* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

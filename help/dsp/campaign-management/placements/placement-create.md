@@ -3,7 +3,7 @@ title: Crear una ubicación
 description: Obtenga información sobre cómo crear una ubicación.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
       1. Reduzca la audiencia. Esto incluye la selección de segmentos de audiencia para segmentar dentro de la ubicación.
 
-         Para las ubicaciones de [!DNL Roku], puede aprovechar la coincidencia de audiencia única de [DSP con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) incluyendo uno o más segmentos de audiencia que puedan coincidir con el conjunto de datos determinista [!DNL Roku] (incluido).
+         Para las ubicaciones de [!DNL Roku], puede aprovechar la coincidencia de audiencia única de [DSP con [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) al incluir uno o más segmentos de audiencia que puedan coincidir con el conjunto de datos determinista [!DNL Roku] (incluido).
 
          Los segmentos RampID de origen que no están conectados a una ubicación activa, programada o en pausa se pausan. El segmento se indica en la lista de segmentos como &quot;En pausa automática&quot;.
 
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * Para adjuntar anuncios existentes en la campaña:
 
-      1. Haga clic en **[!UICONTROL Select an Ad]**.
+         1. Haga clic en **[!UICONTROL Select an Ad]**.
 
-      1. Realice una de las acciones siguientes:
+         1. Realice una de las acciones siguientes:
 
-         * Para agregar un anuncio a la vez:
+            * Para agregar un anuncio a la vez:
 
-            1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select].**
+               1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select].**
 
-            1. (Opcional) Para cada anuncio adicional que desee adjuntar, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita el proceso.
+               1. (Opcional) Para cada anuncio adicional que desee adjuntar, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita el proceso.
 
-         * Para agregar hasta 20 anuncios a la vez:
+            * Para agregar hasta 20 anuncios a la vez:
 
-            1. Seleccione la casilla de verificación situada encima de la lista de anuncios.
+               1. Seleccione la casilla de verificación situada encima de la lista de anuncios.
 
-            1. Seleccione la casilla de verificación situada junto a cada anuncio que desee añadir.
+               1. Seleccione la casilla de verificación situada junto a cada anuncio que desee añadir.
 
-            1. Haga clic en **[!UICONTROL Attach]**.
+               1. Haga clic en **[!UICONTROL Attach]**.
 
-            1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select]**.
+               1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select]**.
 
-      1. (Opcional) Para anular el período de vuelo y la rotación de publicidad predeterminados para anuncios específicos de la ubicación:
+         1. (Opcional) Para anular el período de vuelo y la rotación de publicidad predeterminados para anuncios específicos de la ubicación:
 
-         1. Haga clic en **[!UICONTROL Custom Schedule Ads]**.
+            1. Haga clic en **[!UICONTROL Custom Schedule Ads]**.
 
-         1. Realice una de las siguientes acciones:
+            1. Realice una de las siguientes acciones:
 
-            * Para agregar un vuelo, haga clic en **[!UICONTROL Add Flight]** y después especifique la fecha de inicio y la fecha de finalización.
+               * Para agregar un vuelo, haga clic en **[!UICONTROL Add Flight]** y después especifique la fecha de inicio y la fecha de finalización.
 
-            * Para agregar un vuelo existente a un anuncio, haga clic en **[!UICONTROL +]** en la fila de anuncio de la columna vuelo.
+               * Para agregar un vuelo existente a un anuncio, haga clic en **[!UICONTROL +]** en la fila de anuncio de la columna vuelo.
 
-            * Para eliminar un vuelo existente de un anuncio, haga clic en **[!UICONTROL x]** en la fila de anuncio de la columna vuelo.
+               * Para eliminar un vuelo existente de un anuncio, haga clic en **[!UICONTROL x]** en la fila de anuncio de la columna vuelo.
 
-            * (Cuando varios anuncios tengan el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, especifique el peso relativo por el que desea rotar cada anuncio, como porcentaje.
+               * (Cuando varios anuncios tengan el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, especifique el peso relativo por el que desea rotar cada anuncio, como porcentaje.
 
-              El peso total debe ser igual a 100.
+                 El peso total debe ser igual a 100.
 
-         1. En la esquina superior derecha, haga clic en **[!UICONTROL Continue]**.
+            1. En la esquina superior derecha, haga clic en **[!UICONTROL Continue]**.
 
-         1. Revise los detalles del vuelo y haga clic en **[!UICONTROL Save & Finish]**.
+            1. Revise los detalles del vuelo y haga clic en **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -140,11 +140,11 @@ ht-degree: 0%
 >* [Editar ubicaciones](placement-edit.md)
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Editar los horarios de anuncios para las ubicaciones](placement-edit-ad-schedule.md)
->* [Pausar o activar una ubicación](placement-pause-activate.md)
+>* [Desactivar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/344998?captions=spa)
+>* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/340454)

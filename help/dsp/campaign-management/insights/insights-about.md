@@ -3,9 +3,9 @@ title: Acerca de Insights
 description: Obtenga información acerca de las perspectivas de rendimiento con visualizaciones.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ La ficha [!UICONTROL Household Conversion] proporciona métricas de conversión 
 * (Para abrir perspectivas para todas las campañas) En el menú principal, haga clic en **[!UICONTROL Insights BETA]**.
 
 * (Para abrir perspectivas para una campaña, paquete o ubicación específicos) Junto al nombre de la entidad en la vista [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], haga clic en **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+
+* (Para abrir perspectivas para una ubicación específica) Junto al nombre de la entidad en la vista [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], haga clic en **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]** .
 
 ## Aplicar filtros a una pestaña
 

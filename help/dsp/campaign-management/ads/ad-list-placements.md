@@ -3,9 +3,9 @@ title: Enumeración de las ubicaciones asociadas a un anuncio
 description: Obtenga información sobre cómo ver las ubicaciones asociadas a un anuncio.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Enumeración de las ubicaciones asociadas a un anuncio
 
 Vea una lista de ubicaciones asociadas con un anuncio para ver los datos de rendimiento por ubicación y editar la configuración de ubicación si es necesario.
-
-Consulte también &quot;[Ver anuncios adjuntos a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign)&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.

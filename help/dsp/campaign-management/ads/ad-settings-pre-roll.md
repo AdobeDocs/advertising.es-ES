@@ -3,7 +3,7 @@ title: Configuración de anuncio previo a la emisión
 description: Consulte las descripciones de la configuración de anuncios disponibles para los anuncios previos a la emisión.
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Es el mismo que el campo **[!UICONTROL Height]**.
 
 ### [!UICONTROL Pixel]
 
-Todos los píxeles de seguimiento de evento existentes para la ubicación se adjuntan automáticamente. Puede separar los píxeles existentes y crear nuevos píxeles según sea necesario, según sus necesidades de seguimiento para el anuncio individual. **Sugerencia:** Para editar los píxeles de seguimiento de terceros para varios anuncios en una ubicación a la vez mediante la vista [!UICONTROL Ad Tools], consulte &quot;[Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;.
+Todos los píxeles de seguimiento de evento existentes para la ubicación se adjuntan automáticamente. Puede separar los píxeles existentes y crear nuevos píxeles según sea necesario, según sus necesidades de seguimiento para el anuncio individual. **Sugerencia:** Para editar los píxeles de seguimiento de terceros para varios anuncios en una ubicación a la vez mediante la vista [!UICONTROL Ad Tools], consulte &quot;[Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;.
 
 Los siguientes ajustes se aplican a cada píxel que cree o edite.
 
@@ -88,4 +88,4 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 >* [Crear un solo anuncio](ad-create.md)
 >* [Enumerar las ubicaciones asociadas con un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)
->* DSP [Macros de](/help/dsp/campaign-management/macros.md)
+>* [Macros de DSP](/help/dsp/campaign-management/macros.md)

@@ -3,7 +3,7 @@ title: Configuración de anuncios de audio
 description: Consulte las descripciones de los ajustes de publicidad disponibles para anuncios de audio.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -44,11 +44,11 @@ Este campo puede mostrarse o no, según los permisos de la cuenta.
 
 **[!UICONTROL Final VAST Tag]:** (anuncios que solo usan etiquetas VAST) La URL de la fuente de anuncios de terceros con las [macros de seguimiento de Advertising DSP](/help/dsp/campaign-management/macros.md) necesarias insertadas, si corresponde.
 
-**[!UICONTROL Select Rate]:** (Usuarios solo con permiso) Tarifa negociada previamente que se factura mediante Adobe o una de las tarifas que ha negociado y se factura a través del proveedor. Para agregar una tarifa, póngase en contacto con el equipo de cuenta de Adobe.
+**[!UICONTROL Select Rate]:** (Usuarios solo con permiso) Tarifa negociada previamente que se factura a través de Adobe o una de las tarifas que ha negociado y se factura a través del proveedor. Para agregar una tasa, póngase en contacto con el equipo de cuenta de Adobe.
 
 ### [!UICONTROL Pixel]
 
-Todos los píxeles de seguimiento de evento existentes para la ubicación se adjuntan automáticamente. Puede separar los píxeles existentes y crear nuevos píxeles según sea necesario, según sus necesidades de seguimiento para el anuncio individual. **Sugerencia:** Para editar los píxeles de seguimiento de terceros para varios anuncios en una ubicación a la vez mediante la vista [!UICONTROL Ad Tools], consulte &quot;[Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;.
+Todos los píxeles de seguimiento de evento existentes para la ubicación se adjuntan automáticamente. Puede separar los píxeles existentes y crear nuevos píxeles según sea necesario, según sus necesidades de seguimiento para el anuncio individual. **Sugerencia:** Para editar los píxeles de seguimiento de terceros para varios anuncios en una ubicación a la vez mediante la vista [!UICONTROL Ad Tools], consulte &quot;[Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;.
 
 Los siguientes ajustes se aplican a cada píxel que cree o edite.
 
@@ -68,4 +68,4 @@ Los siguientes ajustes se aplican a cada píxel que cree o edite.
 >* [Crear un solo anuncio](ad-create.md)
 >* [Enumerar las ubicaciones asociadas con un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)
->* DSP [Macros de](/help/dsp/campaign-management/macros.md)
+>* [Macros de DSP](/help/dsp/campaign-management/macros.md)

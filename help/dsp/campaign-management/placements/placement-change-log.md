@@ -3,7 +3,7 @@ title: Ver un registro de cambios de ubicación
 description: Obtenga información sobre cómo ver los cambios realizados en la ubicación.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -40,5 +40,5 @@ Puede ordenar los datos por las columnas Tipo, Modificado por o Fecha de modific
 >* [Editar ubicaciones](placement-edit.md)
 >* [Duplicar una ubicación](placement-duplicate.md)
 >* [Editar los horarios de anuncios para las ubicaciones](placement-edit-ad-schedule.md)
->* [Pausar o activar una ubicación](placement-pause-activate.md)
+>* [Desactivar o activar una ubicación](placement-pause-activate.md)
 >* [Configuración de ubicación](placement-settings.md)
