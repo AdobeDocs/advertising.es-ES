@@ -3,9 +3,9 @@ title: Administrar listas de acuerdos
 description: Aprenda a crear y administrar listas de ofertas para la segmentación de ubicaciones.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
+source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * Para ofertas privadas, filtre la lista por editor, SSP o tipo de oferta (*[!UICONTROL Guaranteed]* o *[!UICONTROL Non-Guaranteed]*); o busque la lista por nombre de oferta o ID de oferta.
 
-   * Para [!UICONTROL On Demand] ofertas, filtre la lista por editor, región o tipo de medios o busque la lista por nombre de oferta.
+   * Para [!UICONTROL On Demand] ofertas, filtre la lista por editor, región o tipo de medios o busque la lista por nombre de oferta. La lista incluye solo las [!DNL On Demand] ofertas a las que está suscrito.
 
 1. Seleccione la casilla de verificación situada junto a cada oferta para incluirla en la lista.
 
