@@ -11,9 +11,9 @@ ht-degree: 0%
 
 El ID de AMO realiza un seguimiento de cada combinación de anuncios únicos en un nivel menos granular y se usa para la clasificación de datos de [!DNL Analytics] y Customer Journey Analytics y la ingesta de métricas de publicidad (como impresiones, clics y costes) de Adobe Advertising.
 
-Para [!DNL Analytics], el ID de AMO se almacena en una dimensión [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o rVar (ID de AMO).
+Para [!DNL Analytics], el ID de AMO se almacena en una dimensión [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=es) o rVar (ID de AMO).
 
-Para Customer Journey Analytics, el identificador de AMO se almacena en la propiedad `trackingCode` del objeto `conversionDetails`, que forma parte de [the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
+Para Customer Journey Analytics, el identificador de AMO se almacena en la propiedad `trackingCode` del objeto `conversionDetails`, que forma parte de [the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 El identificador de AMO también se denomina `s_kwcid`, y en ocasiones se pronuncia como &quot;[!DNL squid]&quot;.
 
