@@ -3,7 +3,7 @@ title: Organización de la interfaz de usuario
 description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
+source-git-commit: 3b4d92d2f6fe8b2ef57dfd5ce833772c37b039f8
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
    * **[!UICONTROL Recommendations]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
 
-* **[!UICONTROL Alerts & Notifications]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
+   * **[!UICONTROL Alerts & Notifications]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
 
 * Submenú **[!UICONTROL Goals]**:
 
