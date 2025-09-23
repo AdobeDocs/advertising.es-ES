@@ -4,7 +4,7 @@ description: Obtenga información acerca de los datos disponibles en su panel de
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *característica de Beta*
 
-El elemento personalizable [!UICONTROL Dashboard] le permite supervisar el rendimiento de todos sus portafolios <!-- May later include other entity-level data --> para que pueda identificar posibles problemas de rendimiento que investigar y resolver. Puede ver datos diarios, semanales o mensuales de cualquier período de tiempo de los últimos 90 días.
+El elemento personalizable [!UICONTROL Dashboard] > [!UICONTROL Overview] le permite supervisar el rendimiento de todos sus portafolios <!-- May later include other entity-level data --> para que pueda identificar posibles problemas de rendimiento que investigar y resolver. Puede ver datos diarios, semanales o mensuales de cualquier período de tiempo de los últimos 90 días.
 
 Su [!UICONTROL Dashboard] incluye los siguientes informes visuales:
 
