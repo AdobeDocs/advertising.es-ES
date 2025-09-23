@@ -2,18 +2,19 @@
 title: Acerca de la nueva interfaz de usuario
 description: Obtenga información acerca de la nueva interfaz de usuario.
 feature: Search Introduction
-source-git-commit: 97c7776ab7dfacbb7ac4fdc038f25d4ced5b54e4
+exl-id: 27fcc1c2-fe69-4bdc-9786-c48b28da1560
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # Acerca de la nueva interfaz de usuario
 
-Ahora puede administrar sus objetivos, simulaciones y portafolios desde la nueva interfaz de usuario de. También puede realizar algunas tareas en campañas y grupos de anuncios y abrir algunas vistas heredadas. La nueva interfaz de usuario de Search, Social y Commerce se ejecuta en una nueva dirección URL dentro del dominio https://experience.adobe.com.
+Ahora puede administrar sus objetivos, simulaciones y portafolios desde la nueva interfaz de usuario de. También puede realizar algunas tareas en campañas y grupos de anuncios. La nueva interfaz de usuario de Search, Social y Commerce se ejecuta en una nueva dirección URL dentro del dominio https://experience.adobe.com.
 
-Con el tiempo, se moverán funciones adicionales a la nueva interfaz de usuario. Mientras tanto, puede cambiar fácilmente entre la nueva interfaz de usuario y la heredada.
+Con el tiempo, las funciones adicionales se moverán a la nueva interfaz de usuario. Mientras tanto, puede abrir la mayoría de las funciones de la IU heredada desde el menú principal de la nueva IU. También puede cambiar fácilmente entre la nueva interfaz de usuario y la IU heredada.
 
 Para obtener más información acerca de cómo se organiza la nueva interfaz de usuario, vea &quot;[Cómo se organiza la interfaz de usuario](/help/search-social-commerce/getting-started/user-interface.md)&quot;.
 

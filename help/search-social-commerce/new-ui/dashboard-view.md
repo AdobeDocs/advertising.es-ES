@@ -4,9 +4,9 @@ description: Obtenga información acerca de los datos disponibles en su panel de
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Su [!UICONTROL Dashboard] incluye los siguientes informes visuales:
 * **Mayores movimientos - \[métrica seleccionada\]:** Los 10 portafolios con el mayor cambio en una métrica especificada en comparación con el período de tiempo anterior.
 
 * **Distribución del gasto:** La distribución del gasto por red publicitaria.
+
+## Ver el panel de rendimiento
+
+* En el menú principal, haga clic en **[!UICONTROL Dashboard]>[!UICONTROL Overview]**.
 
 ## Personalizar el tablero de rendimiento
 

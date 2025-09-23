@@ -3,9 +3,9 @@ title: Objetivos personalizados
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,19 @@ Por ejemplo, supongamos que hay tres métricas de conversión relevantes para un
 
 Una vez que [cree una meta personalizada](#custom-goal-create), puede [asignarla a un paquete](/help/dsp/campaign-management/packages/package-settings.md) para la optimización algorítmica y de informes mediante Adobe Sensei.
 
-Las recomendaciones de peso se generan automáticamente para métricas atribuidas a DSP en objetivos y pueden aplicarse con un solo clic. Todos los cambios de peso en los objetivos con el prefijo &quot;ADSP_&quot; se aplican de forma algorítmica en DSP en un plazo de dos días. Para obtener más información sobre las recomendaciones de peso, consulte el capítulo Guía de optimización sobre &quot;Nuevos objetivos de (Beta)&quot;, que está disponible en Search, Social y Commerce.
+Las recomendaciones de peso se generan automáticamente para métricas atribuidas a DSP en objetivos y pueden aplicarse con un solo clic. Todos los cambios de peso en los objetivos con el prefijo &quot;ADSP_&quot; se aplican de forma algorítmica en DSP en un plazo de dos días. Para obtener más información sobre las recomendaciones de peso, consulte el capítulo Guía de optimización sobre &quot;Objetivos&quot;, que está disponible en Search, Social y Commerce.
 
 ## Crear una meta personalizada {#custom-goal-create}
 
 Para crear un objetivo personalizado, la cuenta de DSP debe estar vinculada a una cuenta de [!DNL Search, Social, & Commerce] con el mismo identificador de organización de Adobe Experience Cloud, desde la configuración de cliente de [!DNL Search, Social, & Commerce]. Si su cuenta de DSP no está vinculada a una cuenta de [!DNL Search, Social, & Commerce], póngase en contacto con el equipo de cuenta de Adobe.
 
-1. Inicie sesión en [!DNL Advertising Search, Social, & Commerce] a las(os) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) o (todos los demás usuarios) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. [Inicia sesión en Advertising Search, Social y Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
 
 1. Asegúrese de que se ha realizado el seguimiento de las métricas que desea incluir en el objetivo, que están disponibles en el producto e incluyen un nombre para mostrar:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
+   1. En el menú principal, haga clic en **[!UICONTROL Goals]** > **[!UICONTROL Conversions]**.
+
+      La vista Conversiones se abre en un explorador nuevo o en una pestaña del explorador nueva.
 
    1. Busque la métrica y asegúrese de que **[!UICONTROL Show in UI and Reports]** esté habilitado para la métrica.
 
@@ -45,30 +47,24 @@ Para crear un objetivo personalizado, la cuenta de DSP debe estar vinculada a un
 
    1. Si la métrica no tiene un valor en la columna **[!UICONTROL Display Name]**, haga clic en la celda, escriba el nombre para mostrar y haga clic en **[!UICONTROL Apply].**
 
-1. Crear la meta personalizada como *objetivo*:
+1. [Crear la meta personalizada como *objetivo*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}. Tenga en cuenta lo siguiente:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]**.
+   * Para los objetivos utilizados para los paquetes de Advertising DSP, el nombre del objetivo debe ir precedido del prefijo &quot;ADSP_&quot; como &quot;ADSP_Registrations&quot;. El prefijo no distingue entre mayúsculas y minúsculas.
 
-   1. En la barra de herramientas, haz clic en ![Crear](/help/dsp/assets/create-search-ui.png "Crear").
+   * Incluya solo las métricas que se atribuyen a DSP. Se ignorará cualquier métrica atribuida a Search, Social y Commerce, o a cualquier otra red de publicidad.
 
-   1. Introduzca la configuración del objetivo, incluidas las métricas asociadas y sus pesos numéricos relativos para dispositivos no móviles, y luego guarde el objetivo. Tenga en cuenta lo siguiente:
+   * Al menos una métrica debe tener el tipo de métrica *[!UICONTROL Goal]*.
 
-      * Para los objetivos utilizados para los paquetes de Advertising DSP, el nombre del objetivo debe ir precedido del prefijo &quot;ADSP_&quot; como &quot;ADSP_Registrations&quot;. El prefijo no distingue entre mayúsculas y minúsculas.
+   * DSP utiliza las ponderaciones no móviles para todos los anuncios. Se ignorarán todos los pesos móviles especificados.
 
-      * Incluya solo las métricas que se atribuyen a DSP. Se ignorará cualquier métrica atribuida a Search, Social y Commerce, o a cualquier otra red de publicidad.
+   >[!NOTE]
+   >
+   >* [!DNL Analytics] eventos personalizados siguen esta convención de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Ejemplo: `custom_event_16_examplersid`
+   >* [!DNL Analytics] dimensiones y segmentos no están disponibles para la optimización de Adobe Advertising.
 
-      * Al menos una métrica debe tener el tipo de métrica *[!UICONTROL Goal]*.
-
-      * DSP utiliza las ponderaciones no móviles para todos los anuncios. Se ignorarán todos los pesos móviles especificados.
-
-      >[!NOTE]
-      >
-      >* [!DNL Analytics] eventos personalizados siguen esta convención de nomenclatura: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Ejemplo: `custom_event_16_examplersid`
-      >* [!DNL Analytics] dimensiones y segmentos no están disponibles para la optimización de Adobe Advertising.
-
-      >[!TIP]
-      >
-      >Para obtener un rendimiento óptimo, las métricas combinadas en el objetivo personalizado (objetivo) deben sumar al menos diez conversiones al día. Si no es así, se recomienda añadir al objetivo métricas de conversión compatibles adicionales, como páginas de productos o inicios de aplicaciones. Vea [Prácticas recomendadas para crear un objetivo personalizado](#custom-goal-best-practices) para obtener instrucciones.
+   >[!TIP]
+   >
+   >Para obtener un rendimiento óptimo, las métricas combinadas en el objetivo personalizado (objetivo) deben sumar al menos diez conversiones al día. Si no es así, se recomienda añadir al objetivo métricas de conversión compatibles adicionales, como páginas de productos o inicios de aplicaciones. Vea [Prácticas recomendadas para crear un objetivo personalizado](#custom-goal-best-practices) para obtener instrucciones.
 
 En la configuración del paquete de DSP para los paquetes que utilizan el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;, el nombre del objetivo ahora se incluye en la lista [!UICONTROL Custom Goals]. Al seleccionar el objetivo como objetivo personalizado para un paquete, la lista [!UICONTROL Conversion Metric] incluye todas las métricas de objetivo del objetivo.
 
@@ -110,7 +106,7 @@ Si el objetivo de la campaña es el menor coste por adquisición (CPA) y solo re
 
 Hay dos escenarios en los que utilizaría varias métricas en un objetivo personalizado:
 
-* El objetivo de la campaña tiene varios eventos de éxito. Por ejemplo, puede que esté anunciando más de una acción en el sitio (descarga de PDF, póngase en contacto con nosotros y regístrese por correo electrónico), y todas son acciones que contribuyen a su objetivo de CPA. Si el objetivo incluye las tres métricas independientes, cada una con pesos no móviles de uno (1), el algoritmo [!DNL Adobe Sensei] tratará cada una de las métricas y tipos de dispositivos de usuario con la misma importancia. Si las distintas métricas tienen distintos costes o importancia, debe ajustar sus pesos relativos en consecuencia.
+* El objetivo de la campaña tiene varios eventos de éxito. Por ejemplo: tal vez esté anunciando más de una acción en el sitio (descarga de PDF, póngase en contacto con nosotros y regístrese por correo electrónico) y todas son acciones que contribuyen a su objetivo de CPA. Si el objetivo incluye las tres métricas independientes, cada una con pesos no móviles de uno (1), el algoritmo [!DNL Adobe Sensei] tratará cada una de las métricas y tipos de dispositivos de usuario con la misma importancia. Si las distintas métricas tienen distintos costes o importancia, debe ajustar sus pesos relativos en consecuencia.
 
 <!-- update image or delete it and adjust the wording above
 

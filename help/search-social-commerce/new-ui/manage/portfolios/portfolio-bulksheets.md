@@ -3,9 +3,10 @@ title: Edición masiva de la configuración de portafolios mediante archivos de 
 description: Obtenga información sobre cómo editar la configuración de varios portafolios mediante un archivo de hoja de edición por lotes.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Una hoja de edición masiva de portafolios es un archivo que contiene la configu
 
 * Una hoja de cálculo [!UICONTROL Instructions] de sólo lectura con información sobre cómo editar los campos.
 
-* Una ficha [!UICONTROL Portfolio Settings Edit], con una fila por portafolio incluido. Si lo desea, puede editar los campos según sea necesario, guardar el archivo localmente y posteriormente [cargar el archivo editado](#portfolio-bulksheet-upload) en Search, Social y Commerce.
+* Una ficha [!UICONTROL Portfolio Settings Edit], con una fila por portafolio incluido. Si lo desea, puede editar los campos según sea necesario, guardar el archivo localmente y posteriormente [cargar el archivo editado](#portfolio-bulksheet-upload) en Search, Social y Commerce. Los campos editables se resaltan en color.
 
 ## Descargar un archivo de hoja de edición masiva con la configuración del portafolio
 

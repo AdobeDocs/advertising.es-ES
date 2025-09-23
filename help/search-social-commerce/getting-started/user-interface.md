@@ -3,9 +3,9 @@ title: Organización de la interfaz de usuario
 description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
+source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,37 @@ Cada página incluye el menú principal y otros menús basados en tareas e infor
 
 ## El menú principal
 
-La nueva interfaz de usuario incluye un nuevo menú principal a la izquierda, que organiza las tareas por fase de trabajo (Planificar, Administrar, Revisar, Configurar). Más adelante se agregarán submenús y opciones adicionales de la interfaz de usuario heredada.
+La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda, que organiza las tareas por fase de trabajo. Más adelante se agregarán submenús y opciones adicionales de la interfaz de usuario heredada.
 
 ### Opciones del menú principal
 
 Su función determina las opciones disponibles:<!-- add link when available -->
 
-* **[!UICONTROL Dashboard]** abre una vista [!UICONTROL Dashboard] configurable con visualizaciones de rendimiento para todos sus portafolios.
+* Submenú **[!UICONTROL Dashboard]**:
+
+   * **[!UICONTROL Overview]** abre una vista [!UICONTROL Dashboard] configurable con visualizaciones de rendimiento para todos sus portafolios.
+
+   * **[!UICONTROL Recommendations]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+
+* **[!UICONTROL Alerts & Notifications]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
+
+* Submenú **[!UICONTROL Goals]**:
+
+   * **[!UICONTROL Objectives]** Abre una nueva vista de [!UICONTROL Objectives], desde la cual puede ver todos los objetivos existentes y crear, editar y eliminar objetivos.
+
+   * **[!UICONTROL Conversions]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Admin] > [!UICONTROL Conversions].
+
+   * **[!UICONTROL Conversion Value Rules]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules].
+
+   * **[!UICONTROL Constraints]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Constraints].
 
 * Submenú **[!UICONTROL Plan]**:
 
-   * **[!UICONTROL Objectives]** Abre una nueva vista de [!UICONTROL Objectives], desde la cual puede ver todos los objetivos existentes y crear, editar y eliminar objetivos. La configuración del objetivo es la misma que la de la interfaz de usuario heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta].
-
    * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+
+   * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+
+   * **[!UICONTROL Label Classification]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Label Classifications].
 
 * Submenú **[!UICONTROL Manage]**:
 
@@ -46,27 +64,59 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
      Para crear, editar y eliminar campañas, vuelva a la interfaz de usuario heredada haciendo clic en **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** en el menú principal o haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* **[!UICONTROL Ad Groups]:** Abre una nueva vista de [!UICONTROL Ad Groups], que muestra todos los grupos de anuncios del anunciante. Puede administrar asignaciones de restricción para los grupos de anuncios seleccionados. También puede descargar un informe del contenido de la tabla de datos.
+   * **[!UICONTROL Ad Groups]:** Abre una nueva vista de [!UICONTROL Ad Groups], que muestra todos los grupos de anuncios del anunciante. Puede administrar asignaciones de restricción para los grupos de anuncios seleccionados. También puede descargar un informe del contenido de la tabla de datos.
 
-  Para crear, editar y eliminar campañas, vuelva a la interfaz de usuario heredada haciendo clic en **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** en el menú principal o haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Para crear, editar y eliminar campañas, vuelva a la interfaz de usuario heredada haciendo clic en **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** en el menú principal o haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* Submenú **[!UICONTROL Review]**:
+   * **[!UICONTROL Ads]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+* Submenú **[!UICONTROL Reports]**:
 
    * **[!UICONTROL Insights]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Insights].
 
-   * **[!UICONTROL Reports]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Reports].
-
-   * **[!UICONTROL Recommendations]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+   * **[!UICONTROL Scheduled Reports]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Reports].
 
    * **[!UICONTROL Spreadsheet Feeds]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets].
 
    * **[!UICONTROL History Logs]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Change History].
 
+* Submenú **[!UICONTROL Target]**:
+
+   * **[!UICONTROL Audience]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Audiences].
+
+   * **[!UICONTROL Keywords]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Placements]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+* Submenú **[!UICONTROL Assets]**:
+
+   * **[!UICONTROL Auto Targets]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Creatives]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Extensions]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Shopping]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
+
 * Submenú **[!UICONTROL Set Up]**:
 
    * **[!UICONTROL Accounts]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-   * **[!UICONTROL Audiences]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Audiences].
+<!-- What's happenening to these?
+
+Campaigns > ACM
+Campaigns > Bulksheets
+Campaigns > Asset Library
+
+Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
+
+Tools > Conversion Upload Setup
+Tools > Generic Tracking
+Tools > Inventory Selection
+Import Campaigns
+
+Tools > Admin > Data Source Setup
+-->
 
 ### Contraer el menú principal
 

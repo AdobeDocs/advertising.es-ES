@@ -3,9 +3,10 @@ title: Administrar asignaciones de restricción para campañas
 description: Aprenda a asignar restricciones a las campañas.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Puede asignar una sola restricción a una o varias campañas.
 
 1. Seleccione la casilla de verificación situada junto a cada campaña a la que desea asignar una sola restricción.
 
-1. En la barra de herramientas, haga clic en ![Más acciones](/help/search-social-commerce/assets/more-actions.png "Más acciones") **[!UICONTROL More Actions]** > ![Asignar](/help/search-social-commerce/assets/assign.png "Asignar") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Seleccione la restricción.
 
@@ -65,7 +66,7 @@ Puede asignar una sola restricción a una o varias campañas.
 
 1. Seleccione la casilla de verificación situada junto a cada campaña para anular la asignación de restricciones.
 
-1. En la barra de herramientas, haga clic en ![Más acciones](/help/search-social-commerce/assets/more-actions.png "Más acciones") **[!UICONTROL More Actions]** > ![Asignar](/help/search-social-commerce/assets/unassign.png "Desasignar") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. En la barra de herramientas de acciones masivas, haga clic en **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Haga clic en **[!UICONTROL Confirm]**.
 
@@ -88,4 +89,3 @@ Puede asignar una sola restricción a una o varias campañas.
 >[!MORELIKETHIS]
 >
 >* [Administrar asignaciones de restricción para grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-

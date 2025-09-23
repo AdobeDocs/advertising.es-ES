@@ -3,9 +3,9 @@ title: Asignación de campañas a un portafolio
 description: Obtenga información sobre cómo incluir campañas en portafolios para la optimización.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ No todos los tipos de campañas y redes de anuncios cumplen los requisitos para 
 
 1. Seleccione la casilla de verificación situada junto a cada campaña para asignarla a un solo portafolio.
 
-1. En la barra de herramientas, haga clic en ![Más acciones](/help/search-social-commerce/assets/more-actions.png "Más acciones") **[!UICONTROL More Actions]** > ![Asignar](/help/search-social-commerce/assets/assign.png "Asignar") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** .
+1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** .
 
 1. Seleccione el portafolio.
 
@@ -38,7 +38,7 @@ No todos los tipos de campañas y redes de anuncios cumplen los requisitos para 
 
 1. Seleccione la casilla de verificación situada junto a cada campaña para la que desea crear el nuevo portafolio.
 
-1. En la barra de herramientas, haga clic en ![Más acciones](/help/search-social-commerce/assets/more-actions.png "Más acciones") **[!UICONTROL More Actions]** > ![Asignar](/help/search-social-commerce/assets/assign.png "Asignar") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
+1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]**.
 
 1. En la pantalla [!UICONTROL Create Portfolio], especifique la configuración del portafolio.
 

@@ -3,9 +3,10 @@ title: Administrar asignaciones de restricción para grupos de anuncios
 description: Obtenga información sobre cómo asignar restricciones a grupos de anuncios.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 
 1. Active la casilla de verificación situada junto a cada grupo de anuncios al que va a asignar una única restricción.
 
-1. En la barra de herramientas, haga clic en ![Más acciones](/help/search-social-commerce/assets/more-actions.png "Más acciones") **[!UICONTROL More Actions]** > ![Asignar](/help/search-social-commerce/assets/assign.png "Asignar") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
 1. Seleccione la restricción.
 
@@ -58,7 +59,7 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 
 1. Seleccione la casilla de verificación situada junto a cada grupo de anuncios del que anulará la asignación de restricciones.
 
-1. En la barra de herramientas, haga clic en ![Más acciones](/help/search-social-commerce/assets/more-actions.png "Más acciones") **[!UICONTROL More Actions]** > ![Asignar](/help/search-social-commerce/assets/unassign.png "Desasignar") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. En la barra de herramientas de acciones masivas, haga clic en **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
 1. Haga clic en **[!UICONTROL Confirm]**.
 
