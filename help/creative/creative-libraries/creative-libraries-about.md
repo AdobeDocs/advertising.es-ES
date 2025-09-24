@@ -3,9 +3,9 @@ title: Acerca de sus bibliotecas creativas
 description: Obtenga información sobre cómo administrar los elementos creativos para sus experiencias publicitarias.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1383'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Las bibliotecas pueden incluir lo siguiente:
 
 * **Creativos individuales:** Puede incluir creativos individuales directamente dentro de las experiencias publicitarias que no tengan objetivos de usuario definidos. También puede usar sus elementos creativos para crear paquetes, que puede incluir en [experiencias publicitarias](/help/creative/experiences/experience-about.md) de destino.
 
-   * **Creativos estándar:** Puede cargar y administrar creativos en [varios formatos](#creative-creative-formats). Para cada elemento creativo, se especifica el idioma predeterminado para cada anuncio con el que se asocia el elemento creativo y la página de aterrizaje predeterminada que se abre cuando un usuario hace clic en un anuncio que incluye el elemento creativo. Si lo desea, puede especificar etiquetas para utilizarlas como filtros en varias vistas dentro de [!DNL Creative] y como valores de columna en [!UICONTROL Custom Creative Report] cuando incluya mediante la dimensión [!UICONTROL Creative Label].
+   * **Creativos estándar:** Puede cargar y administrar creativos en [varios formatos](#creative-creative-formats). Para cada elemento creativo, especifique el idioma predeterminado para cada anuncio con el que asocia el elemento creativo y la página de aterrizaje predeterminada que se abre cuando un usuario hace clic en un anuncio que incluye el elemento creativo. Si lo desea, puede especificar etiquetas para utilizarlas como filtros en varias vistas dentro de [!DNL Creative] y como valores de columna en [!UICONTROL Custom Creative Report] cuando incluya mediante la dimensión [!UICONTROL Creative Label].
 
    * **Creativos dinámicos:** Puede crear creativos generados dinámicamente asignando variables dinámicas en una plantilla de anuncio a los valores de un archivo de fuente. Todos los usuarios pueden obtener una vista previa de los anuncios dinámicos existentes, duplicarlos y eliminarlos.
 
@@ -64,7 +64,7 @@ Introduzca las etiquetas de seguimiento de JavaScript para creativos alojados en
 
 Puede cargar vídeos creativos de origen para la web, el móvil o la TV conectada desde su dispositivo o red. Cada experiencia de anuncio de vídeo estándar requiere un creativo de vídeo predeterminado para cada duración creativa asignada a la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. En [!UICONTROL Tag Manager], opcionalmente [puede aplicar la transcodificación específica de DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
 
-Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/es/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
+Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
 
 **Tipo de archivo:** .mov, .mp4, .webm
 

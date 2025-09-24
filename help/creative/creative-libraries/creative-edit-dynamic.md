@@ -2,9 +2,9 @@
 title: Editar un elemento creativo dinámico en una biblioteca creativa
 description: Aprenda a editar un elemento creativo dinámico en una biblioteca creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
       1. Seleccione los paquetes y haga clic en **[!UICONTROL Attach Creative to Bundles]**.
 
-   * Para guardar los anuncios, haz clic en **[!UICONTROL Save]** y luego haz clic en **[!UICONTROL Save]** de nuevo.
+   * Para guardar los anuncios y salir de la configuración, haga clic en **[!UICONTROL Save]** y, a continuación, haga clic de nuevo en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >

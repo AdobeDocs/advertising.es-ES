@@ -2,9 +2,9 @@
 title: Administrar plantillas de fuentes
 description: Obtenga información sobre cómo administrar las plantillas de fuentes.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Puede utilizar una plantilla de fuente con varias plantillas de publicidad.
 
 1. Mantenga el cursor sobre la fila de la plantilla y haga clic en **[!UICONTROL Duplicate]**.
 
-1. En la pantalla [!UICONTROL Duplicate Template] y escriba un(a) **[!UICONTROL Template Name]** único(a). Si va a duplicar una plantilla creada por otra persona, seleccione **[!UICONTROL Advertiser]**. Si lo desea, puede editar otras [configuraciones de plantilla de fuente](#feed-template-settings) según sea necesario.
+1. En la pantalla [!UICONTROL Duplicate Template], escriba un(a) **[!UICONTROL Template Name]** único(a). Si va a duplicar una plantilla creada por otra persona, seleccione **[!UICONTROL Advertiser]**. Si lo desea, puede editar otras [configuraciones de plantilla de fuente](#feed-template-settings) según sea necesario.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -89,13 +89,13 @@ Las plantillas de fuentes descargadas están en formato comprimido de hoja de c�
 
 ### Configuración de [!UICONTROL Field Mapping]
 
-Asigne cada campo del archivo de fuente a un campo del backend de Advertising Creative.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Debe incluir al menos un campo de archivo de fuente marcado como &quot;[!UICONTROL Is Unique]&quot;. Para agregar una asignación de campo, haga clic en **[!UICONTROL +]**. Para quitar la última asignación de campo, haga clic en **[!UICONTROL +]**.
+Asigne cada campo del archivo de fuente a un campo del backend de Advertising Creative.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Al menos un campo de archivo de fuente debe marcarse como &quot;[!UICONTROL Is Unique]&quot;. Para agregar una asignación de campo, haga clic en **[!UICONTROL +]**. Para quitar la última asignación de campo, haga clic en **[!UICONTROL +]**.
 
 **[!UICONTROL Field Name]:** El campo en el archivo de fuente.
 
 **[!UICONTROL Description]:** (opcional) Información útil para cualquiera que use la plantilla de fuente.
 
-**[!UICONTROL Is Unique]:** indica que el campo es un identificador único (clave). Al menos un campo por plantilla de fuente debe ser único. Para seleccionar esta opción, haga clic en el botón para moverla a la derecha.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
+**[!UICONTROL Is Unique]:** Indica que el campo es un identificador único (clave). Al menos un campo por plantilla de fuente debe ser único. Para seleccionar esta opción, haga clic en el botón para moverla a la derecha.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
 **[!UICONTROL Backend Field]:** Campo del servidor de Advertising Creative que se asigna al [!UICONTROL Field Name] especificado en el archivo de fuente.
 

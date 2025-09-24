@@ -2,7 +2,7 @@
 title: Administrar archivos de recursos
 description: Obtenga información sobre cómo cargar y administrar archivos de recursos para un anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -16,7 +16,6 @@ Los anuncios dinámicos de HTML5 requieren un archivo de fuente en formato de ho
 >[!NOTE]
 >
 > Cada archivo de fuente solo se puede utilizar para un catálogo.
-
 
 ## Requisitos de archivo
 
