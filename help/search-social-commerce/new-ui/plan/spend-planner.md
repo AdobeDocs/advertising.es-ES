@@ -2,9 +2,10 @@
 title: Usando [!UICONTROL Spend Planner]
 description: Aprenda a utilizar [!UICONTROL Spend Planner] para identificar la distribución óptima del gasto en todos los portafolios.
 feature: Search Optimization, Search Portfolios, Search Simulations
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+exl-id: 966b8968-68b6-4385-9efb-e639a6729362
+source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ Los informes de recomendación de gasto incluyen los siguientes datos:
 
 * Un gráfico de barras para cada uno de los portafolios, que muestra el gasto diario recomendado (coste) y la distribución de ingresos prevista o la distribución de clics cuando se mantiene el objetivo de gasto diario total actual en todos los portafolios seleccionados, o para un objetivo de gasto total propuesto. Si lo desea, puede aplicar los objetivos de gasto recomendados a los portafolios seleccionados, lo que afecta a las ofertas en el siguiente ciclo de ejecución de ofertas.
 
-## (Nueva interfaz de usuario) Generar un informe de [!UICONTROL Spend Planner] desde la vista [!UICONTROL Manage] > [!UICONTROL Simulations]
+## (Nueva IU) Generar un informe [!UICONTROL Spend Planner]
 
-<!-- The path will probably change, so then update the heading and instructions -->
+1. Realice una de las acciones siguientes:
 
-1. En el menú principal, haga clic en **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+   * En el menú principal, haga clic en **[!UICONTROL Plan]>[!UICONTROL Spend Planner]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Planificador de gastos](/help/search-social-commerce/assets/spend-planner-icon.png "Planificador de gastos").
+   * En el menú principal, haga clic en **[!UICONTROL Plan]>[!UICONTROL Simulations]**. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Planificador de gastos](/help/search-social-commerce/assets/spend-planner-icon.png "Planificador de gastos").
 
    La herramienta [!UICONTROL Spend Recommendation] se abre en la interfaz de usuario heredada.
 
