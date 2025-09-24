@@ -2,9 +2,9 @@
 title: Configuración creativa dinámica
 description: Consulte la configuración de los elementos creativos dinámicos.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Plantilla de anuncio
 
-**[!UICONTROL Ad Template]:** Plantilla de anuncio a partir de la cual se crearán los anuncios.&lt;!— también una opción para cargar su propia plantilla de publicidad — debe añadir las especificaciones para ello —>
+**[!UICONTROL Ad Template]:** Plantilla de anuncio a partir de la cual se crearán los anuncios.<!-- also an option to upload your own ad template. Need to add the specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** Número de ofertas que se pueden crear para cada anuncio.&lt;!— Aclarar esto — ¿es este el límite de frecuencia (número máximo de veces que se puede publicar un anuncio)? —>
+**[!UICONTROL Number of offers (Max 50)]:** Número de ofertas que se pueden crear para cada anuncio.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Catálogos
 
-**[!UICONTROL Template]:** Plantilla de fuente que se va a usar para crear los anuncios.&lt;!— también es una opción para cargar su propia plantilla de fuente — debe añadir las especificaciones para eso —>
+**[!UICONTROL Template]:** Plantilla de fuente que se va a usar para crear los anuncios.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
 
-**\[Catálogos\]**: Uno o más de los catálogos del anunciante especificado a partir de los cuales generar anuncios.&lt;!— también una opción para cargar su propio catálogo (¿No encuentra el catálogo que necesita? Descargue una plantilla, cree la suya propia y cárguela desde su dispositivo.) — debe añadir las especificaciones para ello —>
+**\[Catálogos\]**: Uno o más de los catálogos del anunciante especificado a partir de los cuales generar anuncios.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
