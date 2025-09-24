@@ -3,16 +3,16 @@ title: Administrar las bibliotecas creativas
 description: Aprenda a crear, cambiar el nombre y eliminar sus bibliotecas creativas.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # Administrar las bibliotecas creativas
 
-Puede crear varias bibliotecas creativas para cada anunciante. Más adelante, podrá rellenar cada biblioteca con [creativos estándar](creative-add-standard.md)<!-- , dynamic creatives, --> y [paquetes creativos](bundle-manage.md). El equipo de cuenta de Adobe también puede añadir elementos creativos dinámicos a las bibliotecas.
+Puede crear varias bibliotecas creativas para cada anunciante. Más adelante, puede rellenar cada biblioteca con [creativos estándar](creative-add-standard.md), [creativos dinámicos](creative-add-dynamic.md) y [paquetes creativos](bundle-manage.md).
 
 ## Crear una biblioteca creativa
 

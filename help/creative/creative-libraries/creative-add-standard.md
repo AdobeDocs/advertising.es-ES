@@ -3,16 +3,16 @@ title: Añadir elementos creativos estándar a una biblioteca creativa
 description: Aprenda a añadir elementos creativos estándar (no dinámicos) a una biblioteca creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
 
 # Añadir elementos creativos estándar a una biblioteca creativa
 
-Agregue elementos creativos a sus [bibliotecas creativas](creative-library-manage.md) para usarlas con [experiencias publicitarias](/help/creative/experiences/experience-about.md).
+Agregue elementos creativos estándar a sus [bibliotecas creativas](creative-library-manage.md) para usarlos con [experiencias publicitarias](/help/creative/experiences/experience-about.md) estándar.
 
 >[!NOTE]
 >
@@ -34,9 +34,7 @@ Puede cargar varias unidades creativas flexibles. Los elementos creativos flexib
 
 1. Haga clic en el nombre de la biblioteca.
 
-1. En la ficha **[!UICONTROL Creatives]**, haga clic en la subficha **[!UICONTROL Standard Ads]**.
-
-1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
 
 1. Haga clic en **[!UICONTROL Upload New]**.
 
@@ -62,7 +60,7 @@ Puede cargar varias unidades creativas flexibles. Los elementos creativos flexib
 
 ### Añadir elementos creativos flexibles mediante una plantilla {#flexible-creative-use-template}
 
-Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo] (flexible-creative-upload).>
+Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -74,22 +72,9 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. Haga clic en el nombre de la biblioteca.
 
-1. En la ficha **[!UICONTROL Creatives]**, haga clic en la subficha **[!UICONTROL Standard Ads]**.
-
-1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Flexible]**.
 
 1. Haga clic en **[!UICONTROL Browse System Flexible Templates]**.
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 1. (Opcional) Para obtener una vista previa de la plantilla, haga clic en **[!UICONTROL ...]** junto al nombre de la plantilla y, a continuación, haga clic en **[!UICONTROL Preview]**.
 
@@ -102,6 +87,17 @@ For information about the attributes available in predefined templates, see "[Av
    El tamaño máximo de archivo del elemento creativo, una vez comprimido, es de 2 MB.<!-- Still true? -->
 
 1. Haga clic en **[!UICONTROL Create]**.
+
+<!-- Not options as of 5/22/25:
+
+1. In the left panel, select the creative size to see all available templates for that size.
+
+1. Select the template:
+
+   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
+-->
 
 ## Añadir un elemento creativo de HTML5 a una biblioteca creativa
 
@@ -119,9 +115,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Haga clic en el nombre de la biblioteca.
 
-1. En la ficha **[!UICONTROL Creatives]**, haga clic en la subficha **[!UICONTROL Standard Ads]**.
-
-1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**.
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL HTML5]**.
 
 <!-- Not an option as of 3/4:
 
@@ -155,9 +149,7 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 
 1. Haga clic en el nombre de la biblioteca.
 
-1. En la ficha **[!UICONTROL Creatives]**, haga clic en la subficha **[!UICONTROL Standard Ads]**.
-
-1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**.
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Image]**.
 
 1. Especifique las imágenes:
 
@@ -197,9 +189,7 @@ Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PN
 
 1. Haga clic en el nombre de la biblioteca.
 
-1. En la ficha **[!UICONTROL Creatives]**, haga clic en la subficha **[!UICONTROL Standard Ads]**.
-
-1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL 3rd Party]**.
 
 1. Especifique la etiqueta de JavaScript y otras opciones de configuración para el creativo en la [configuración de creativos de terceros](#creative-settings-third-party).
 
@@ -215,9 +205,7 @@ Vea las [especificaciones de creatividad para vídeo](/help/creative/creative-li
 
 1. Haga clic en el nombre de la biblioteca.
 
-1. En la ficha **[!UICONTROL Creatives]**, haga clic en la subficha **[!UICONTROL Standard Ads]**.
-
-1. Haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**.
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Video]**.
 
 1. Especifique los archivos de vídeo de cualquiera de las siguientes maneras:
 

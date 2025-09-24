@@ -3,9 +3,9 @@ title: Acerca de sus bibliotecas creativas
 description: Obtenga información sobre cómo administrar los elementos creativos para sus experiencias publicitarias.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 3c4fcd4cf63003cf10775ebec23ae3f68d3bbd07
+source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Las bibliotecas pueden incluir lo siguiente:
 
    * **Creativos estándar:** Puede cargar y administrar creativos en [varios formatos](#creative-creative-formats). Para cada elemento creativo, se especifica el idioma predeterminado para cada anuncio con el que se asocia el elemento creativo y la página de aterrizaje predeterminada que se abre cuando un usuario hace clic en un anuncio que incluye el elemento creativo. Si lo desea, puede especificar etiquetas para utilizarlas como filtros en varias vistas dentro de [!DNL Creative] y como valores de columna en [!UICONTROL Custom Creative Report] cuando incluya mediante la dimensión [!UICONTROL Creative Label].
 
-   * **Creativos dinámicos:** (solo clientes existentes de Adobe Advertising DCO) Los usuarios administradores pueden crear creativos generados dinámicamente asignando variables dinámicas en una plantilla de anuncio a los valores de un archivo de fuente. Todos los usuarios pueden obtener una vista previa de los anuncios dinámicos existentes, duplicarlos y eliminarlos.
+   * **Creativos dinámicos:** Puede crear creativos generados dinámicamente asignando variables dinámicas en una plantilla de anuncio a los valores de un archivo de fuente. Todos los usuarios pueden obtener una vista previa de los anuncios dinámicos existentes, duplicarlos y eliminarlos.
 
 * **Paquetes creativos:** Agrupe los elementos creativos en paquetes para usarlos en varias experiencias con objetivos de usuario definidos. Puede crear *paquetes de pantalla estándar* que consten de anuncios en pantalla estándar, *paquetes de vídeo estándar* que consten de anuncios de vídeo estándar y *paquetes de pantalla dinámica* que consten de anuncios en pantalla generados dinámicamente.
 
@@ -64,7 +64,7 @@ Introduzca las etiquetas de seguimiento de JavaScript para creativos alojados en
 
 Puede cargar vídeos creativos de origen para la web, el móvil o la TV conectada desde su dispositivo o red. Cada experiencia de anuncio de vídeo estándar requiere un creativo de vídeo predeterminado para cada duración creativa asignada a la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. En [!UICONTROL Tag Manager], opcionalmente [puede aplicar la transcodificación específica de DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
 
-Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/es/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
+Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
 
 **Tipo de archivo:** .mov, .mp4, .webm
 
@@ -94,7 +94,7 @@ Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar
 
 ### Formato para anuncios dinámicos
 
-Los usuarios administradores pueden generar de forma dinámica elementos creativos en formato HTML5 estático y HTML5 dinámico asignando variables dinámicas en una plantilla de anuncio a valores de un archivo de fuente. Los elementos creativos dinámicos pueden incluir elementos creativos de las experiencias heredadas de Adobe Advertising Dynamic Creative Optimization (DCO).
+Puede generar de forma dinámica elementos creativos en formato HTML5 estático y HTML5 dinámico asignando variables dinámicas en una plantilla de anuncio a valores de un archivo de fuente. Los elementos creativos dinámicos pueden incluir elementos creativos que se migraron desde las experiencias heredadas de Adobe Advertising Dynamic Creative Optimization (DCO).
 
 ## Las vistas [!UICONTROL Creative Libraries]
 
@@ -144,17 +144,19 @@ La ficha [!UICONTROL Standard Ads] muestra todos los elementos creativos estánd
 
 #### [!UICONTROL Dynamic Ads]
 
-La pestaña [!UICONTROL Dynamic Ads] muestra todos los elementos creativos dinámicos que se crearon dinámicamente para sus catálogos creativos, excepto los elementos creativos dinámicos que [eliminó manualmente](creative-delete.md) de la pestaña [!UICONTROL Dynamic Ads]. Si [duplicó manualmente](creative-duplicate.md) cualquier elemento creativo dinámico desde la última vez que se procesó un catálogo, entonces la lista de elementos creativos para ese catálogo también incluye los elementos creativos duplicados.
+La pestaña [!UICONTROL Dynamic Ads] muestra todos los elementos creativos dinámicos que se crearon dinámicamente para sus catálogos creativos, excepto los elementos creativos dinámicos que [eliminó manualmente](creative-delete.md) de la pestaña [!UICONTROL Dynamic Ads]. Si [duplicó](creative-duplicate.md) manualmente cualquier elemento creativo dinámico<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la lista de elementos creativos de ese catálogo también incluirá los elementos creativos duplicados.
 
-Los datos de cada creativo incluyen el tipo de creativo, el tamaño de creativo, el número de catálogos a los que pertenece el creativo y la fecha de creación. El modo de tabla también incluye columnas para la plantilla a través de la cual se generó el creativo y el recuento de ofertas.
+Los datos de cada creativo incluyen el tipo de creativo, el tamaño de creativo, el número de catálogos a los que pertenece el creativo y la fecha de creación. El modo de tabla también incluye columnas para la plantilla de anuncio a través de la cual se generó el creativo y el recuento de ofertas.
 
 >[!NOTE]
 >
->Cada vez que se procesa un catálogo, se actualizan los datos de los elementos creativos dinámicos existentes para ese catálogo.
+>Cada vez que se procesa un catálogo, se actualizan los datos de los elementos creativos dinámicos existentes para ese catálogo.<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 ##### Acciones disponibles
 
-Actualmente, la capacidad de crear y editar elementos creativos dinámicos solo está disponible para el equipo de cuenta de Adobe. Sin embargo, todos los usuarios pueden:
+* [Añadir elementos creativos dinámicos a una biblioteca](creative-add-dynamic.md)
+
+* [Editar un elemento creativo dinámico](creative-edit-dynamic.md)
 
 * [Previsualizar elementos creativos dinámicos](creative-preview.md)
 
