@@ -2,9 +2,9 @@
 title: Añadir elementos creativos dinámicos a una biblioteca creativa
 description: Aprenda a añadir elementos creativos dinámicos a una biblioteca creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
 >[!PREREQUISITES]
 >
->Antes de añadir elementos creativos dinámicos a una biblioteca creativa, debe completar otros pasos, como crear la plantilla de publicidad, cargar recursos y (anuncios dinámicos de HTML5) crear una plantilla de fuente y un catálogo. Consulte &quot;[Flujo de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)&quot;.
+>Antes de añadir elementos creativos dinámicos a una biblioteca creativa, debe completar otros pasos, como crear la plantilla de publicidad, cargar recursos y (anuncios dinámicos de HTML5) crear una plantilla de fuente y un catálogo. Consulte &quot;[Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)&quot;.
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -41,11 +41,21 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
 ## Añada creativos dinámicos mediante una plantilla de anuncio dinámica de HTML5
 
-1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+1. Realice una de las acciones siguientes:
 
-1. Haga clic en el nombre de la biblioteca.
+   * Desde una biblioteca creativa:
 
-1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+      1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+      1. Haga clic en el nombre de la biblioteca.
+
+      1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+
+   * Desde una plantilla de anuncio:
+
+      1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
+
+      1. Mantenga el cursor sobre la fila de la plantilla de publicidad y haga clic en **[!UICONTROL Create Dynamic Ad]**.
 
 1. Especifique la [configuración de publicidad dinámica](/help/creative/creative-libraries/creative-settings-dynamic.md):
 
@@ -79,4 +89,4 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 >
 >* [Configuración creativa dinámica](creative-settings-dynamic.md)
 >* [Editar un elemento creativo dinámico en una biblioteca creativa](creative-edit-dynamic.md)
->* [Flujo de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
