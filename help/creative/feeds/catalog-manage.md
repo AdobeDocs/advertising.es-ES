@@ -2,9 +2,9 @@
 title: Administrar catálogos de fuentes
 description: Obtenga información sobre cómo administrar los catálogos de fuentes.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ Los catálogos de fuentes procesados son conjuntos de variaciones de anuncios po
 Antes de usar las variaciones de anuncios para [agregar anuncios dinámicos a una biblioteca creativa](/help/creative/creative-libraries/creative-add-dynamic.md), procese el catálogo.
 
 ## Creación de un catálogo {#feed-catalog-create}
+
+>[!NOTE]
+>
+>También puede cargar directamente un catálogo cuando [agregue elementos creativos dinámicos a una biblioteca creativa](/help/creative/creative-libraries/creative-add-dynamic.md). Cualquier catálogo que cree allí estará disponible en la vista [!UICONTROL Catalogs] para su uso futuro.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**.
 
@@ -102,7 +106,7 @@ Archivar un catálogo para eliminarlo.
 >[!MORELIKETHIS]
 >
 >* [Rastrear el estado de los trabajos de procesamiento del catálogo](/help/creative/feeds/job-status-track.md)
->* [Flujo de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Administrar archivos de recursos](/help/creative/feeds/asset-manage.md)
 >* [Administrar plantillas de fuentes](/help/creative/feeds/feed-template-manage.md)
 >* [Administrar plantillas de anuncios dinámicos](/help/creative/ad-templates/ad-template-manage.md)

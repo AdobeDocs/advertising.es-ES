@@ -2,7 +2,7 @@
 title: Seguimiento del estado de los trabajos de procesamiento del catálogo
 description: Obtenga información sobre cómo cargar y administrar archivos de recursos para un anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -40,4 +40,4 @@ By clicking on "View Failure" on the right, you can see further details about th
 >[!MORELIKETHIS]
 >
 >* [Administrar catálogos](/help/creative/feeds/catalog-manage.md)
->* [Flujo de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)

@@ -2,9 +2,9 @@
 title: Administración de plantillas de publicidad dinámicas
 description: Más información sobre xxxx.
 feature: Creative Templates
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Cree una plantilla de anuncio independiente para cada combinación de tipo de an
 <!-- EXPLAIN MORE:  Is this like repropagating a feed file through a template, or can you just change some things? Is generating an ad template a one-time thing, using the existing feed file, but you might later update the file and re-propagation doesn't happen automatically? Clarify the use cases for each.-->
 
 ## Creación de una plantilla de publicidad dinámica
+
+>[!NOTE]
+>
+>También puede cargar una plantilla de publicidad dinámica cuando [agregue elementos creativos dinámicos a una biblioteca creativa](/help/creative/creative-libraries/creative-add-dynamic.md). Todas las plantillas de publicidad que cree estarán disponibles en la vista [!UICONTROL Ad Templates] para su uso futuro.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
 
@@ -56,6 +60,10 @@ Cree una plantilla de anuncio independiente para cada combinación de tipo de an
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.<!-- Confirm -->
 
 ## Creación de anuncios dinámicos a partir de una plantilla de publicidad
+
+>[!NOTE]
+>
+>También puede [agregar elementos creativos dinámicos a una biblioteca creativa](/help/creative/creative-libraries/creative-add-dynamic.md) desde una biblioteca creativa.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
 
@@ -113,7 +121,7 @@ Para cargar un archivo:
 
 >[!MORELIKETHIS]
 >
->* [Flujo de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Administrar archivos de recursos](/help/creative/feeds/asset-manage.md)
 >* [Administrar plantillas de fuentes](/help/creative/feeds/feed-template-manage.md)
 >* [Administrar catálogos](/help/creative/feeds/catalog-manage.md)

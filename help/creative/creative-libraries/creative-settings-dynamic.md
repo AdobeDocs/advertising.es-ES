@@ -2,9 +2,9 @@
 title: Configuración creativa dinámica
 description: Consulte la configuración de los elementos creativos dinámicos.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Plantilla de anuncio
 
-**[!UICONTROL Ad Template]:** Plantilla de anuncio a partir de la cual se crearán los anuncios.<!-- also an option to upload your own ad template. Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** Plantilla de anuncio a partir de la cual se crearán los anuncios. Seleccione una plantilla de anuncio existente o cargue una nueva plantilla de anuncio.<!-- Need to add the specs for that -->
 
 **[!UICONTROL Number of offers (Max 50)]:** Número de ofertas que se pueden crear para cada anuncio.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Catálogos
 
-**[!UICONTROL Template]:** Plantilla de fuente que se va a usar para crear los anuncios.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
+**[!UICONTROL Template]:** Plantilla de fuente que se va a usar para crear los anuncios.
 
-**\[Catálogos\]**: Uno o más de los catálogos del anunciante especificado a partir de los cuales generar anuncios.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
+**\[Catálogos\]**: Uno o más catálogos a partir de los cuales generar anuncios. Seleccione un catálogo existente o cree un nuevo catálogo descargando una plantilla de fuente existente y creando y cargando el nuevo catálogo.<!-- Need to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
@@ -75,4 +75,4 @@ Asigne cada atributo (campo de anuncio dinámico) de la plantilla de anuncio esp
 >
 >* [Agregar elementos creativos dinámicos a una biblioteca creativa](creative-add-dynamic.md)
 >* [Editar elementos creativos dinámicos en una biblioteca creativa](creative-edit-dynamic.md)
->* [Flujo de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)

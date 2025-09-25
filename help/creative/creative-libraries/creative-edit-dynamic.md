@@ -2,7 +2,7 @@
 title: Editar un elemento creativo dinámico en una biblioteca creativa
 description: Aprenda a editar un elemento creativo dinámico en una biblioteca creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -35,4 +35,4 @@ ht-degree: 0%
 >
 >* [Configuración creativa dinámica](creative-settings-dynamic.md)
 >* [Agregar elementos creativos dinámicos a una biblioteca creativa](creative-add-dynamic.md)
->* [Flujo de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)

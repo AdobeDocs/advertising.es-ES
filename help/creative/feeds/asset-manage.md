@@ -2,9 +2,9 @@
 title: Administrar archivos de recursos
 description: Obtenga información sobre cómo cargar y administrar archivos de recursos para un anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ Los anuncios dinámicos de HTML5 requieren un archivo de fuente en formato de ho
      Puede cargar una sola imagen o varias imágenes en un archivo ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## Cargar un archivo de recursos
+
+>[!NOTE]
+>
+>En lugar de cargar archivos de recursos, también puedes cargar directamente un catálogo cuando [agregues elementos creativos dinámicos a una biblioteca creativa](/help/creative/creative-libraries/creative-add-dynamic.md). Cualquier catálogo que cree allí estará disponible en la vista [!UICONTROL Catalogs] para su uso futuro.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Feeds]**.
 
@@ -77,7 +81,7 @@ Todos los archivos ZIP se descomprimen automáticamente. Al cargar un archivo de
 
 >[!MORELIKETHIS]
 >
->* [Flujo de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Administrar plantillas de fuentes](/help/creative/feeds/feed-template-manage.md)
 >* [Administrar catálogos](/help/creative/feeds/catalog-manage.md)
 >* [Administrar plantillas de anuncios dinámicos](/help/creative/ad-templates/ad-template-manage.md)

@@ -2,9 +2,9 @@
 title: Administrar plantillas de fuentes
 description: Obtenga información sobre cómo administrar las plantillas de fuentes.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-Las plantillas de fuentes asignan campos en los archivos de fuentes con campos en el backend de Advertising Creative. Los anuncios dinámicos de HTML5, pero no los anuncios estáticos de HTML5, requieren una plantilla de fuente para crear anuncios dinámicos.
+Las plantillas de fuentes asignan campos en los archivos/catálogos de fuentes con campos en el backend de Advertising Creative. Los anuncios dinámicos de HTML5, pero no los anuncios estáticos de HTML5, requieren una plantilla de fuente para crear anuncios dinámicos.
 
 Puede utilizar una plantilla de fuente con varias plantillas de publicidad.
 
@@ -101,7 +101,7 @@ Asigne cada campo del archivo de fuente a un campo del backend de Advertising Cr
 
 >[!MORELIKETHIS]
 >
->* [Flujo de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Administrar archivos de recursos](/help/creative/feeds/asset-manage.md)
 >* [Administrar catálogos](/help/creative/feeds/catalog-manage.md)
 >* [Rastrear el estado de los trabajos de procesamiento del catálogo](/help/creative/feeds/job-status-track.md)
