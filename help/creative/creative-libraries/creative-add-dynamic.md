@@ -2,9 +2,9 @@
 title: Añadir elementos creativos dinámicos a una biblioteca creativa
 description: Aprenda a añadir elementos creativos dinámicos a una biblioteca creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
+source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -69,9 +69,27 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
    1. Asigne cada atributo (campo de anuncio dinámico) de la plantilla de anuncio especificada a una columna del archivo de fuente especificado (etiqueta de catálogo).
 
-   1. Haga clic en **[!UICONTROL Continue]** para previsualizar los elementos creativos que desea generar.
+   1. Haga clic en **[!UICONTROL Continue]** para previsualizar los elementos creativos que desea generar. Puede realizar cualquiera de las siguientes acciones dentro de la vista previa:
 
-      Para obtener una vista previa de un elemento creativo específico, active la casilla de verificación de la fila. Filtre los elementos creativos por catálogo, filtre el valor <!-- explain more--> y el tamaño del anuncio según sea necesario.
+      * Para filtrar los elementos creativos por catálogo, valor de filtro <!-- explain more--> y tamaño de anuncio, utilice los filtros situados encima del área de vista previa.
+
+      * Para buscar un producto por su ID único, vaya al campo de búsqueda debajo del área de vista previa.
+
+      * Para cambiar las columnas mostradas, haga clic en ![Filtro de columna](/help/creative/assets/custom-columns. "Filtro de columna") debajo del área de vista previa.
+
+      * Para obtener una vista previa de un elemento creativo específico, active la casilla de verificación de la fila.
+
+      * Cambiar el contenido:
+
+         * Para editar el valor de una celda dentro de la tabla, haga clic dentro de la celda y edite el valor. Haga clic fuera de la celda o presione la tecla **[!DNL Enter]** para guardar los cambios.
+
+         * Para marcar un solo producto como predeterminado <!--Explain what this means. -->, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+
+         * (Cuando el anuncio incluya más de una oferta) Para marcar varios productos como predeterminados, seleccione las filas (hasta el número de ofertas) y haga clic en **[!UICONTROL Set as Default]** en la barra de herramientas de acciones por lotes.
+
+      * Para eliminar un producto del catálogo, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+
+      * (Cuando el anuncio incluya más de una oferta) Para eliminar varios productos del catálogo, seleccione las filas (hasta el número de ofertas) y haga clic en **[!UICONTROL Delete Row]** en la barra de herramientas de acciones por lotes.
 
 1. Guarde a los creativos:
 
