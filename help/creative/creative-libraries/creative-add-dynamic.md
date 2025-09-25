@@ -2,9 +2,9 @@
 title: Añadir elementos creativos dinámicos a una biblioteca creativa
 description: Aprenda a añadir elementos creativos dinámicos a una biblioteca creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
    1. Seleccione los criterios para las filas de catálogo que se utilizarán para crear anuncios.
 
-   1. Asigne cada atributo (campo de anuncio dinámico) de la plantilla de anuncio especificada a una columna del archivo de fuente especificado (etiqueta de catálogo).
+   1. Asigne cada atributo (campo de anuncio dinámico) de la plantilla de anuncio especificada a una columna del archivo de fuente especificado (etiqueta de catálogo) o introduzca valores estáticos.
 
    1. Haga clic en **[!UICONTROL Continue]** para previsualizar los elementos creativos que desea generar. Puede realizar cualquiera de las siguientes acciones dentro de la vista previa:
 
@@ -75,7 +75,7 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
       * Para buscar un producto por su ID único, vaya al campo de búsqueda debajo del área de vista previa.
 
-      * Para cambiar las columnas mostradas, haga clic en ![Filtro de columna](/help/creative/assets/custom-columns. "Filtro de columna") debajo del área de vista previa.
+      * Para cambiar las columnas mostradas, haga clic en ![Filtro de columna](/help/creative/assets/custom-columns.png "Filtro de columna") debajo del área de vista previa.
 
       * Para obtener una vista previa de un elemento creativo específico, active la casilla de verificación de la fila.
 

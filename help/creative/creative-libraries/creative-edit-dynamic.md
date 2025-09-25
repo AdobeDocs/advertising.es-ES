@@ -2,9 +2,9 @@
 title: Editar un elemento creativo dinámico en una biblioteca creativa
 description: Aprenda a editar un elemento creativo dinámico en una biblioteca creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,28 @@ ht-degree: 0%
 1. Mantenga el cursor sobre la fila creativa y haga clic en **[!UICONTROL Edit]**.
 
 1. Editar la [configuración de publicidad dinámica](creative-settings-dynamic.md).
+
+1. Haga clic en **[!UICONTROL Continue]** para previsualizar los elementos creativos que desea generar. Puede realizar cualquiera de las siguientes acciones dentro de la vista previa:
+
+   * Para filtrar los elementos creativos por catálogo, valor de filtro <!-- explain more--> y tamaño de anuncio, utilice los filtros situados encima del área de vista previa.
+
+   * Para buscar un producto por su ID único, vaya al campo de búsqueda debajo del área de vista previa.
+
+   * Para cambiar las columnas mostradas, haga clic en ![Filtro de columna](/help/creative/assets/custom-columns.png "Filtro de columna") debajo del área de vista previa.
+
+   * Para obtener una vista previa de un elemento creativo específico, active la casilla de verificación de la fila.
+
+   * Cambiar el contenido:
+
+      * Para editar el valor de una celda dentro de la tabla, haga clic dentro de la celda y edite el valor. Haga clic fuera de la celda o presione la tecla **[!DNL Enter]** para guardar los cambios.
+
+      * Para marcar un solo producto como predeterminado <!--Explain what this means. -->, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+
+      * (Cuando el anuncio incluya más de una oferta) Para marcar varios productos como predeterminados, seleccione las filas (hasta el número de ofertas) y haga clic en **[!UICONTROL Set as Default]** en la barra de herramientas de acciones por lotes.
+
+      * Para eliminar un producto del catálogo, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+
+      * (Cuando el anuncio incluya más de una oferta) Para eliminar varios productos del catálogo, seleccione las filas (hasta el número de ofertas) y haga clic en **[!UICONTROL Delete Row]** en la barra de herramientas de acciones por lotes.
 
 1. Guarde a los creativos:
 

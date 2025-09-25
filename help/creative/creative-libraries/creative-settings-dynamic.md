@@ -2,9 +2,9 @@
 title: Configuración creativa dinámica
 description: Consulte la configuración de los elementos creativos dinámicos.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Los catálogos cargados deben tener el formato ZIP y contener lo siguiente:
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
-Asigne cada atributo (campo de publicidad dinámica) de la plantilla de publicidad especificada a una columna del catálogo especificado (etiqueta de catálogo).
+Asigne cada atributo (campo de anuncio dinámico) de la plantilla de anuncio especificada a una columna del catálogo especificado (etiqueta de catálogo) o introduzca un valor estático.
 
 >[!MORELIKETHIS]
 >
