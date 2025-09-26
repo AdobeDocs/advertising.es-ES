@@ -2,9 +2,9 @@
 title: Administrar catálogos de fuentes
 description: Obtenga información sobre cómo administrar los catálogos de fuentes.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Los catálogos de fuentes procesados son conjuntos de variaciones de anuncios potenciales creados a partir de un archivo de fuente especificado y una plantilla de fuente especificada. Los anuncios dinámicos de HTML5, pero no los anuncios estáticos de HTML5, requieren un catálogo para crear anuncios dinámicos.
 
-Antes de usar las variaciones de anuncios para [agregar anuncios dinámicos a una biblioteca creativa](/help/creative/creative-libraries/creative-add-dynamic.md), procese el catálogo.
+Antes de crear variaciones de anuncios y [agregar anuncios dinámicos a una biblioteca creativa](/help/creative/creative-libraries/creative-add-dynamic.md), procese el catálogo. Puede actualizar posteriormente el archivo de fuente y volver a procesar el catálogo para crear un nuevo conjunto de variaciones de anuncios.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## Creación de un catálogo {#feed-catalog-create}
 
