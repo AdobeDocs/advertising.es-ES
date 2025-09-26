@@ -2,7 +2,7 @@
 title: Administrar archivos de recursos
 description: Obtenga información sobre cómo cargar y administrar archivos de recursos para un anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
+source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -12,6 +12,7 @@ ht-degree: 0%
 # Administrar archivos de recursos
 
 Los anuncios dinámicos de HTML5 requieren un archivo de fuente en formato de hoja de cálculo de Excel de Microsoft (XLSX) y los recursos de imagen a los que se hace referencia en la hoja de cálculo (excepto para las referencias de recursos de Adobe Experience Manager). Los anuncios estáticos de HTML5 solo requieren un recurso de imagen por anuncio.
+
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ Los anuncios dinámicos de HTML5 requieren un archivo de fuente en formato de ho
 
      Para las imágenes que va a cargar, haga referencia a la imagen con el formato `images/image_name` (como `images/300x250_acme_logo.png`.)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
 
-   * Los recursos de imagen asociados en formato GIF, JPEG, JPG o PNG.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
+   * Los recursos de imagen asociados en formato GIF, JPEG, JPG o PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
 
    * (Opcional) Recursos de vídeo en formato MP4 o WEBM
 
