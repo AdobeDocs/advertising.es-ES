@@ -2,9 +2,9 @@
 title: Flujos de trabajo para anuncios dinámicos
 description: Obtenga información sobre los flujos de trabajo para administrar anuncios dinámicos.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Puede configurar anuncios dinámicos de cualquiera de estas dos maneras:
 
    * (Para anuncios dinámicos de HTML5) Cree catálogos de los elementos publicitarios:
 
-      1. Cree un archivo de fuente en formato de hoja de cálculo de Excel (XLSX) de Microsoft, con una fila para cada variación de anuncio. Incluya un nombre de imagen o una referencia a un Adobe Experience Manager en cada fila. Recopile por separado los recursos de imagen asociados.
+      1. Cree un archivo de fuente en formato de hoja de cálculo de Excel (XLSX) de Microsoft, con una fila para cada variación de anuncio. Incluya un nombre de imagen en cada fila. Recopile por separado los recursos de imagen asociados.
 
       1. [Cargar el archivo de fuente y los recursos de imagen](/help/creative/feeds/asset-manage.md).
 
