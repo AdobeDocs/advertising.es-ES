@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre campañas
 description: Consulte respuestas a preguntas sobre administración de campañas y vistas de datos de campañas.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 88b415fff52d623a5daeb00355bfe00054d5402b
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -23,7 +23,7 @@ No mueva ni copie un componente de campaña o campaña, que tenga un ID único, 
 
 El proceso de extraer los datos de clics del día anterior de los motores de búsqueda comienza a las 06:00 en la zona horaria del anunciante.
 
-Además, [!DNL Google Ads] métricas de rendimiento de nivel de campaña en la red de búsqueda del día actual se recuperan a las 08:00 y a las 16:00 en el huso horario del anunciante.
+Además, [!DNL Google Ads] métricas de rendimiento de nivel de campaña en la red de búsqueda del día actual se recuperan a las 08:00 y a las 16:00 de la zona horaria del anunciante.
 +++
 
 +++¿Qué acciones provocan que palabras clave y anuncios pierdan su historial?
@@ -65,7 +65,7 @@ Según la configuración de [datos de fuente](/help/search-social-commerce/campa
 * El nivel de stock de un elemento cae por debajo del mínimo especificado en la configuración de los datos de fuente.
 +++
 
-+++([!DNL Google Ads] campañas) Los cambios en los nombres para mostrar de mis conversiones rastreadas de [!DNL Google] se revirtieron.
++++([!DNL Google Ads] campañas) Los cambios en los nombres para mostrar de mis conversiones [!DNL Google] rastreadas se revirtieron.
 
 Si cambia los nombres para mostrar de las métricas de conversión en Search, Social y Commerce, los cambios se sobrescribirán con los nombres configurados en [!DNL Google Ads]. Realice cualquier cambio de nombre dentro de [!DNL Google Ads].
 +++
@@ -97,7 +97,7 @@ En ambos casos, las direcciones URL base con seguimiento de búsqueda, medios so
 
 +++([!DNL Google Ads] campañas en la red de búsqueda) ¿Qué datos se muestran para hoy?
 
-[!DNL Google Ads] métricas de rendimiento de nivel de campaña en la red de búsqueda para el día actual se recuperan a las 08:00 y a las 16:00 en el huso horario del anunciante.
+[!DNL Google Ads] métricas de rendimiento de nivel de campaña en la red de búsqueda del día actual se recuperan a las 08:00 y a las 16:00 de la zona horaria del anunciante.
 
 En la ficha [!UICONTROL Campaigns] tanto en la vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] como en la vista [!UICONTROL Optimization] > [!UICONTROL Portfolios], cuando se crea un informe sobre [!UICONTROL Today] o un intervalo de fechas personalizado que incluya el día actual, los datos incluirán los datos sincronizados más recientemente.
 
@@ -140,7 +140,7 @@ Cuando se ponen en pausa los anuncios, se reactivan si se vuelve a enviar el mis
 Cuando elimina anuncios y los vuelve a enviar, se crean nuevos anuncios y es necesario acumular datos históricos para los nuevos anuncios. Sin embargo, si no espera volver a enviar los anuncios eliminados, no es importante tener datos históricos.
 +++
 
-+++(Fuentes de inventario de productos) Si elimino una plantilla de publicidad y luego creo una nueva idéntica, ¿faltan elementos en el siguiente archivo de fuente en pausa (cuando la configuración del archivo de fuente está configurada para hacerlo)?
++++(Fuentes de inventario de productos) Si elimino una plantilla de anuncio y luego creo una nueva idéntica, ¿faltan elementos en el siguiente archivo de fuente en pausa (cuando la configuración del archivo de fuente está configurada para hacerlo)?
 
 Si al siguiente archivo de fuente le faltan elementos de línea y no ha publicado previamente esos elementos de línea de la nueva plantilla a través de un archivo de fuente anterior, los elementos de línea que faltan no se reconocen como &quot;faltantes&quot;, por lo que no se crean. Para evitarlo, propague el archivo de fuente anterior a través de la nueva plantilla y publique los datos antes de propagar y publicar los datos de un nuevo archivo.
 +++
@@ -165,6 +165,6 @@ Si la [configuración de datos de fuente](/help/search-social-commerce/campaign-
 
 +++Algunas de mis campañas gastan más o menos que los presupuestos de campaña.
 
-* Esto es normal en un portafolio optimizado que está configurado con la opción &quot;[!UICONTROL Auto-adjust campaign budget limits]&quot;. Si se habilita esta opción, puede gastar hasta *N* veces el presupuesto de cada campaña, donde *N* es el valor de la configuración &quot;[!UICONTROL Multiple]&quot;. Esta opción permite a la capacidad de optimización ajustar el gasto para campañas individuales según sea necesario, al tiempo que dirige todo el portafolio para cumplir con su objetivo.
+* Esto es normal en un portafolio optimizado que está configurado con la opción &quot;[!UICONTROL Auto adjust campaign budget limits]&quot;. Si se habilita esta opción, puede gastar hasta *N* veces el presupuesto de cada campaña, donde *N* es el valor de la configuración &quot;[!UICONTROL Multiple]&quot;. Esta opción permite a la capacidad de optimización ajustar el gasto para campañas individuales según sea necesario, al tiempo que dirige todo el portafolio para cumplir con su objetivo.
 * Si [!DNL Google Ads] campañas utilizan un presupuesto compartido, [!DNL Google Ads] ajusta el gasto de las campañas individuales según sea necesario para gastar todo el presupuesto compartido.
 +++
