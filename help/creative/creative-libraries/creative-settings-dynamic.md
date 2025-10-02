@@ -2,9 +2,9 @@
 title: Configuración creativa dinámica
 description: Consulte la configuración de los elementos creativos dinámicos.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
 Los catálogos cargados deben tener el formato ZIP y contener lo siguiente:
 
-* Uno o más archivos de fuente en formato CSV, TSV o hoja de cálculo de Excel de Microsoft (XLSX).<!-- Need to add more specs for that -->
+* Uno o más archivos de fuente en formato CSV, TSV o hoja de cálculo de Excel de Microsoft (XLSX). El tamaño máximo de archivo es 512 MB.<!-- Need to add more specs for the feed files -->
 
 * Recursos de imagen en formato GIF, JPEG, JPG o PNG
-
-* (Opcional) Recursos de vídeo en formato MP4 o WEBM
 
 ### [!UICONTROL Attributes Mapping]
 
