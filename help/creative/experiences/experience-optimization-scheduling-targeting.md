@@ -3,9 +3,9 @@ title: Personalizar la optimización y programación creativas de una experienci
 description: Obtenga información sobre cómo
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,15 @@ Cuando se desactiva la programación creativa, la configuración de optimizació
 
 1. Deshabilitar **[!UICONTROL Schedule]**.
 
-1. Seleccione el tipo de rotación creativa:
+1. Seleccione el tipo de rotación creativa para las variantes de anuncio en los paquetes asociados:
 
-   * *[!UICONTROL Weighted]:* Gira manualmente los elementos creativos de cada paquete según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Los pesos de todos los paquetes deben sumar 100.
+   * *[!UICONTROL Weighted]:* Muestra variantes de anuncio en los paquetes creativos asociados según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Los pesos de todos los paquetes seleccionados deben sumar 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
-   * *[!UICONTROL Algorithmic]:* Gira los elementos creativos de cada paquete de forma algorítmica según un objetivo de optimización especificado.
+   * *[!UICONTROL Algorithmic]:* Muestra las variantes de anuncio más efectivas con mayor frecuencia, según un objetivo especificado.
 
       * Para **[!UICONTROL Optimization Goal]**, seleccione *[!UICONTROL Click Through Rate]*, (experiencias de anuncios de vídeo estándar) *[!UICONTROL Completion Rate]* o *[!UICONTROL Custom Objective]*.  Si selecciona *[!UICONTROL Custom Objective]*, a continuación, seleccione una [meta personalizada de Advertising DSP](/help/dsp/optimization/custom-goal.md) existente.
 
-   * *[!UICONTROL Sequencing]:* gira los paquetes creativos asociados en un orden especificado (con el paquete 1 servido primero, el paquete 2 servido segundo, etc.), con un número total especificado de impresiones en cada secuencia de paquetes. Los tamaños de anuncio ofrecidos están determinados por el inventario disponible. Puede configurar el paquete final en la secuencia para que se muestre de forma indefinida (el bucle predeterminado) o b\) de nuevo al primer paquete. Por ejemplo, puede mostrar cualquiera de los creativos del paquete 1 para tres (3) impresiones, luego mostrar cualquier creativo del paquete 2 para una (1) impresión, luego mostrar cualquiera de los creativos del paquete 3 para dos (2) impresiones y luego comenzar el bucle de nuevo. Alternativamente, una vez que se muestran los creativos en el paquete 3, puede seguir mostrando los creativos en el paquete 3 indefinidamente, en lugar de crear un bucle. Al habilitar la secuenciación:
+   * *[!UICONTROL Sequencing]:* Muestra los paquetes creativos asociados en un orden especificado (con el paquete 1 servido primero, el paquete 2 servido segundo, etc.), con un número total especificado de impresiones en cada secuencia de paquetes. Los tamaños de anuncio ofrecidos están determinados por el inventario disponible. Puede configurar el paquete final en la secuencia para que se muestre de forma indefinida (el bucle predeterminado) o b\) de nuevo al primer paquete. Por ejemplo, puede mostrar cualquiera de las variantes de anuncio en el paquete 1 para tres (3) impresiones, luego mostrar cualquier variante de anuncio en el paquete 2 para una (1) impresión, luego mostrar cualquiera de las variantes de anuncio en el paquete 3 para dos (2) impresiones y luego comenzar el bucle de nuevo. Alternativamente, una vez que se muestran las variantes de anuncio en el paquete 3, puede seguir mostrando las variantes de anuncio en el paquete 3 indefinidamente, en lugar de crear un bucle. Al habilitar la secuenciación:
 
       1. Arrastre y suelte los paquetes asignados en el orden deseado.
 
