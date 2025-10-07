@@ -2,9 +2,9 @@
 title: Administrar plantillas de fuentes
 description: Obtenga información sobre cómo administrar las plantillas de fuentes.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ Las plantillas de fuentes descargadas están en formato comprimido de hoja de c�
 
 ### Configuración de [!UICONTROL Field Mapping]
 
-Asigne cada campo del archivo de fuente a un campo del backend de Advertising Creative.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Al menos un campo de archivo de fuente debe marcarse como &quot;[!UICONTROL Is Unique]&quot;. Para agregar una asignación de campo, haga clic en **[!UICONTROL +]**. Para quitar la última asignación de campo, haga clic en **[!UICONTROL +]**.
+Asigne cada campo del archivo de fuente a un campo del backend de Advertising Creative. Consulte &quot;[Campos disponibles para archivos de fuentes de publicidad dinámica](/help/creative/appendix-available-feed-fields.md)&quot; para obtener una lista de los campos backend y sus atributos requeridos.<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
+
+Al menos un campo de archivo de fuente debe marcarse como &quot;[!UICONTROL Is Unique]&quot;. Para agregar una asignación de campo, haga clic en **[!UICONTROL +]**. Para quitar la última asignación de campo, haga clic en **[!UICONTROL +]**.
 
 **[!UICONTROL Field Name]:** El campo en el archivo de fuente.
 
@@ -97,7 +99,7 @@ Asigne cada campo del archivo de fuente a un campo del backend de Advertising Cr
 
 **[!UICONTROL Is Unique]:** Indica que el campo es un identificador único (clave). Al menos un campo por plantilla de fuente debe ser único. Para seleccionar esta opción, haga clic en el botón para moverla a la derecha.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Campo del servidor de Advertising Creative que se asigna al [!UICONTROL Field Name] especificado en el archivo de fuente.
+**[!UICONTROL Backend Field]:** El campo [del servidor de Advertising Creative](/help/creative/appendix-available-feed-fields.md) que se asigna al [!UICONTROL Field Name] especificado en el archivo de fuente.
 
 >[!MORELIKETHIS]
 >

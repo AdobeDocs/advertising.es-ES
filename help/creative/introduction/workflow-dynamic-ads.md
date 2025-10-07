@@ -2,9 +2,9 @@
 title: Flujos de trabajo para anuncios dinámicos
 description: Obtenga información sobre los flujos de trabajo para administrar anuncios dinámicos.
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Puede configurar anuncios dinámicos de cualquiera de estas dos maneras:
 
 ## Flujo de trabajo 2
 
-1. [Cree una plantilla de anuncio](/help/creative/ad-templates/ad-template-manage.md) para sus anuncios dinámicos basados en los recursos disponibles.
+1. [Cree una plantilla de anuncio](/help/creative/ad-templates/ad-template-manage.md) para sus anuncios dinámicos basados en los recursos disponibles. La plantilla de anuncio incluye un archivo HTML5 con el formato de anuncio deseado y (solo anuncios dinámicos de HTML5) un archivo con los atributos de anuncio.
 
 1. Configure los elementos de publicidad:
 

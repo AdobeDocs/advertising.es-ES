@@ -2,9 +2,9 @@
 title: Administrar archivos de recursos
 description: Obtenga información sobre cómo cargar y administrar archivos de recursos para un anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Los anuncios dinámicos de HTML5 requieren un archivo de fuente en formato de ho
 
 * Anuncios dinámicos de HTML5:
 
-   * Archivo de fuente en formato CSV, TSV o hoja de cálculo de Excel de Microsoft (XLSX), con una fila de encabezado y una fila de datos para cada variación de anuncio. Incluya un nombre de imagen o una referencia a un Adobe Experience Manager en cada fila.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * Archivo de fuente en formato CSV, TSV o hoja de cálculo de Excel de Microsoft (XLSX), con una fila de encabezado y una fila de datos para cada variación de anuncio. Incluya un nombre de imagen en cada fila con el formato `images/image_name` (como `images/300x250_acme_logo.png`).
 
-     Para las imágenes que va a cargar, haga referencia a la imagen con el formato `images/image_name` (como `images/300x250_acme_logo.png`.)<!-- Verify.  Also need to include the spec for how to reference images in AEM -->
+     Los nombres de campo específicos del anunciante deben asignarse a los [campos disponibles para archivos de fuentes de anuncios dinámicos](/help/creative/appendix-available-feed-fields.md).
 
    * Los recursos de imagen asociados en formato GIF, JPEG, JPG o PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
 
@@ -84,6 +84,7 @@ Todos los archivos ZIP se descomprimen automáticamente. Al cargar un archivo de
 
 >[!MORELIKETHIS]
 >
+>* [Campos disponibles para archivos de fuentes de publicidad dinámica](/help/creative/appendix-available-feed-fields.md)
 >* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Administrar plantillas de fuentes](/help/creative/feeds/feed-template-manage.md)
 >* [Administrar catálogos](/help/creative/feeds/catalog-manage.md)
