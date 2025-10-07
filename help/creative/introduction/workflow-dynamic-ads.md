@@ -36,7 +36,7 @@ Puede configurar anuncios dinámicos de cualquiera de estas dos maneras:
 
    1. [Crear paquetes de anuncios dinámicos](/help/creative/creative-libraries/bundle-manage.md) que puede adjuntar todos a la vez a una experiencia de anuncio.
 
-   1. Cree experiencias de publicidad dinámica [con ](/help/creative/experiences/experience-create-targeting.md) o [segmentación](/help/creative/experiences/experience-create-no-targeting.md) sin segmentación y [asigne los paquetes creativos a las experiencias](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. Cree experiencias de publicidad dinámica [con &#x200B;](/help/creative/experiences/experience-create-targeting.md) o [segmentación](/help/creative/experiences/experience-create-no-targeting.md) sin segmentación y [asigne los paquetes creativos a las experiencias](/help/creative/experiences/experience-assign-creative-bundles.md).
 
    1. [Genere e implemente etiquetas de experiencia de anuncio](/help/creative/experiences/experience-tag-export.md) para ejecutarlas como anuncios en su DSP.
 
@@ -70,7 +70,7 @@ Puede configurar anuncios dinámicos de cualquiera de estas dos maneras:
 
    1. [Crear paquetes de anuncios dinámicos](/help/creative/creative-libraries/bundle-manage.md) que puede adjuntar todos a la vez a una experiencia de anuncio.
 
-   1. Cree experiencias de publicidad dinámica [con ](/help/creative/experiences/experience-create-targeting.md) o [segmentación](/help/creative/experiences/experience-create-no-targeting.md) sin segmentación y [asigne los paquetes creativos a las experiencias](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. Cree experiencias de publicidad dinámica [con &#x200B;](/help/creative/experiences/experience-create-targeting.md) o [segmentación](/help/creative/experiences/experience-create-no-targeting.md) sin segmentación y [asigne los paquetes creativos a las experiencias](/help/creative/experiences/experience-assign-creative-bundles.md).
 
    1. [Genere e implemente etiquetas de experiencia de anuncio](/help/creative/experiences/experience-tag-export.md) para ejecutarlas como anuncios en su DSP.
 
