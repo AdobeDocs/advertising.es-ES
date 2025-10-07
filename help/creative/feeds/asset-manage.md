@@ -2,16 +2,16 @@
 title: Administrar archivos de recursos
 description: Obtenga información sobre cómo cargar y administrar archivos de recursos para un anunciante.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Administrar archivos de recursos
 
-Los anuncios dinámicos de HTML5 requieren un archivo de fuente en formato de hoja de cálculo de Excel de Microsoft (XLSX) y los recursos de imagen a los que se hace referencia en la hoja de cálculo (excepto para las referencias de recursos de Adobe Experience Manager). Los anuncios estáticos de HTML5 solo requieren un recurso de imagen por anuncio.
+Los anuncios dinámicos de HTML5 requieren un archivo de fuente en formato de hoja de cálculo de Excel de Microsoft (XLSX) y los recursos de imagen a los que se hace referencia en la hoja de cálculo. Los anuncios estáticos de HTML5 solo requieren un recurso de imagen por anuncio.
 
 
 >[!NOTE]
@@ -28,9 +28,7 @@ Los anuncios dinámicos de HTML5 requieren un archivo de fuente en formato de ho
 
    * Los recursos de imagen asociados en formato GIF, JPEG, JPG o PNG.<!-- Is this true: The maximum file size is two (2) MB. --> Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
 
-   * (Opcional) Recursos de vídeo en formato MP4 o WEBM
-
-  Puede cargar un solo archivo XLSX, un solo archivo de imagen o vídeo, o un solo archivo ZIP que contenga cualquier combinación de archivos XLSX, de imagen y de vídeo.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+  Puede cargar un solo archivo XLSX, un solo archivo de imagen o un solo archivo ZIP que contenga cualquier combinación de archivos XLSX e imagen.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Anuncios HTML5 estáticos:
 
