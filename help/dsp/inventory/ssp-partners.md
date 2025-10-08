@@ -3,9 +3,9 @@ title: Socios de SSP
 description: Consulte la lista de la plataforma de suministro (SSP) disponible y los socios de intercambio abierto.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 0e1f2e62394f2997bde7feba82592ab6fef9e4b6
+source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br><br>Escritorio de vídeo y móvil |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL Magnite DV+] | [!DNL Magnite] (anteriormente [!DNL Rubicon]) | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD | Equipo de escritorio con audio y equipo móvil<br><br>Equipo de escritorio con pantalla y equipo móvil<br><br>Equipo de escritorio con video, equipo móvil y CTV |
-| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD | Escritorio de vídeo, móvil y CTV |
+| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (anteriormente [!DNL Telaria] y [!DNL Tremor]) | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | AUD, USD | Escritorio de vídeo, móvil y CTV |
 | [!DNL Microsoft Monetize] | [!DNL Microsoft] (anteriormente [!DNL Xandr], [!DNL AppNexus]) | ID del asiento de vídeo: 9094<br>ID del asiento de visualización: 3939 | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL Nexxen] | [!DNL Nexxen] (anteriormente [!DNL Unruly]) | Adobe Advertising | — | EE. UU. + EMEA | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
