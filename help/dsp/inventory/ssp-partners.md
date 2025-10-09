@@ -3,9 +3,9 @@ title: Socios de SSP
 description: Consulte la lista de la plataforma de suministro (SSP) disponible y los socios de intercambio abierto.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
+source-git-commit: bcb22b61886d3929ad4c509489e8e9c15abcc2ee
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Compatibilidad con PG | Global | USD, EUR, GBP | Audio para escritorio y móvil |
 | [!DNL Cadent] | [!DNL Cadent] (anteriormente [!DNL EMX Digital]) | Adobe Advertising | — | US/CA | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] o Adobe Advertising | — | EE. UU. + EMEA | USD, EUR | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
+| [!DNL Equativ] | [!DNL Equativ] (anteriormente [!DNL Smart AdServer]) | [!DNL TubeMogul] o Adobe Advertising | — | EMEA | USD, EUR | Mostrar escritorio y móvil<br><br>Escritorio de vídeo y móvil |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD, EUR, AUD, GBP | Escritorio de vídeo, móvil y CTV |
 | [!DNL Google Authorized Buyers] (anteriormente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC y EU - 89185975 | Compatibilidad con PG | Global | USD, BRL | Equipo de escritorio con audio y equipo móvil<br><br>Equipo de escritorio con pantalla y equipo móvil<br><br>Equipo de escritorio con video, equipo móvil y CTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br><br>Escritorio de vídeo y móvil |
