@@ -3,9 +3,9 @@ title: El diseño del árbol de decisión
 description: Obtenga información acerca del diseño del árbol de decisión para experiencias con segmentación.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Inicialmente, cada árbol de decisión comienza con el nivel raíz, &quot;Todos&
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Términos
 
@@ -50,7 +50,7 @@ Para todos los nodos principales, puede copiar opcionalmente todos los nodos de 
 
 Asigne paquetes creativos a cada nodo de destino final de la experiencia.
 
-Dentro de cada nodo con paquetes creativos, puede rotar opcionalmente los creativos incluidos: a) según pesos especificados o b) algorítmicamente para optimizar la tasa de pulsaciones o un objetivo personalizado. Si lo desea, también puede rotar los elementos creativos en una secuencia temporal especificada utilizando las mismas opciones.
+Dentro de cada nodo con paquetes creativos, puede rotar opcionalmente los creativos incluidos a) de forma algorítmica para optimizar la tasa de pulsaciones o un objetivo personalizado, b) según pesos especificados, o c) en una secuencia específica. Si lo desea, también puede rotar los elementos creativos de una secuencia temporal especificada con cualquier combinación de las mismas opciones.
 
 Opcionalmente, puede personalizar las direcciones URL de la página de aterrizaje, las direcciones URL de seguimiento de impresiones y las direcciones URL de seguimiento de clics, según sea necesario para los creativos individuales. <!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 
