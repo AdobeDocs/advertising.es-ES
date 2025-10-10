@@ -3,9 +3,9 @@ title: El diseño del árbol de decisión
 description: Obtenga información acerca del diseño del árbol de decisión para experiencias con segmentación.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 4057f413b58343580a965f9a419af1e002892ff6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Inicialmente, cada árbol de decisión comienza con el nivel raíz, &quot;Todos&
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->-->
+-->
 
 ## Términos
 
@@ -36,7 +36,9 @@ Inicialmente, cada árbol de decisión comienza con el nivel raíz, &quot;Todos&
 
 ## Destinos en un árbol de decisión
 
-Cada árbol de decisión puede tener hasta cinco niveles de destinatarios. Cada nivel de destino puede incluir varias ramas, cada una con uno o más nodos con el mismo tipo de destino (segmento de audiencia, tipo de ubicación geográfica, valores para claves de paso de datos especificadas, atributos para un píxel de retargeting especificado o categoría de dispositivo). Puede asignar paquetes creativos en cada tamaño de anuncio para el que haya especificado un creativo de imagen o vídeo predeterminado a los nodos de destino de nivel inferior.
+Cada árbol de decisión puede tener hasta cinco niveles de destinatarios. Los objetivos de nivel de experiencia se aplican junto con las opciones de segmentación de DSP; el comportamiento de la segmentación jerárquica puede variar en DSP. Asegúrese de que las experiencias publicitarias incluyan una segmentación compatible con las campañas en las que la va a implementar.
+
+Cada nivel de destino puede incluir varias ramas, cada una con uno o más nodos con el mismo tipo de destino (segmento de audiencia, tipo de ubicación geográfica, valores para claves de paso de datos especificadas, atributos para un píxel de retargeting especificado o categoría de dispositivo). Puede asignar paquetes creativos en cada tamaño de anuncio para el que haya especificado un creativo de imagen o vídeo predeterminado a los nodos de destino de nivel inferior.
 
 ![Ejemplo de árbol de decisión con destinos](/help/creative/assets/experience-decision-tree.png "Ejemplo de árbol de decisión con destinos")
 
