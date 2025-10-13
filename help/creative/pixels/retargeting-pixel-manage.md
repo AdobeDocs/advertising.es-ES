@@ -3,9 +3,9 @@ title: Administrar píxeles de retargeting
 description: Aprenda a crear e implementar píxeles de retargeting para utilizarlos como objetivos para experiencias de publicidad.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
+source-git-commit: ed3bf0200d3d3b31ef80c790c4e702914459c521
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
-Puede crear un píxel de resegmentación para identificar a los visitantes de las páginas de aterrizaje o de conversión de un anunciante mediante cookies de usuario o ID universales y para capturar atributos específicos que las páginas están rastreando para esos visitantes. El píxel rastrea el evento más reciente que el visitante realiza en la página. Una vez creado el píxel, puede generar una etiqueta de píxel para insertarla en las páginas web relevantes y así iniciar el seguimiento de los visitantes.<!-- Note to self: surfer id=cookie or universal ID -->
+Puede crear un píxel de resegmentación para identificar a los visitantes en las páginas de aterrizaje de un anunciante o en las páginas de conversión mediante cookies de usuario o ID universales. El píxel realiza el seguimiento del evento más reciente que el visitante realiza en una página y captura atributos específicos que la página está rastreando para esos visitantes. Una vez creado el píxel, genere una etiqueta de píxel para insertarla en las páginas web relevantes y así comenzar a rastrear visitantes.<!-- Note to self: surfer id=cookie or universal ID -->
 
-A continuación, puede utilizar el píxel como destino para cualquier elemento creativo dentro de una experiencia publicitaria y mostrar anuncios únicamente a los usuarios con atributos especificados que hayan visitado previamente las páginas web asociadas con el píxel. Por ejemplo, puede dirigirse a los visitantes que vean zapatos rojos de tamaño 10 si las páginas web hacen un seguimiento de esos valores de atributos.<!-- better example? Make sure they match attribute examples below -->
+A continuación, puede utilizar el píxel como destino para cualquier elemento creativo dentro de una experiencia publicitaria y mostrar anuncios únicamente a los usuarios con atributos especificados que hayan visitado previamente las páginas web asociadas con el píxel. Por ejemplo, puede dirigirse a visitantes que vean zapatos rojos de tamaño 10 si las páginas web rastrean esos valores de atributos.<!-- better example? Make sure they match attribute examples below -->: los destinos de nivel de experiencia se aplican junto con las opciones de segmentación de DSP; el comportamiento de la segmentación jerárquica puede variar en DSP.
 
 Los perfiles de redireccionamiento se almacenan durante 180 días.
 
@@ -28,9 +28,9 @@ Ejemplo de píxel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] solo admite actualmente identificadores universales para Advertising DSP. Una versión futura admitirá identificadores universales para DSP de terceros.<!-- Clarify this and reword as needed  -->
+> * [!DNL Creative] solo admite identificadores universales para Advertising DSP.
 >* También puedes usar audiencias de origen de Adobe Audience Manager y Adobe Analytics como [objetivos creativos para tus experiencias](/help/creative/experiences/experience-settings-targeting.md).
->* Cuando utiliza una experiencia como anuncio en una ubicación de Advertising DSP, puede segmentar la ubicación a todas las audiencias disponibles en DSP. También puede [crear etiquetas de segmento de audiencia personalizadas](/help/dsp/audiences/custom-segment-create.md) para rastrear a todos los visitantes a páginas de aterrizaje específicas y luego usar esos segmentos como destinos creativos para una ubicación.
+>* Cuando utiliza una experiencia como anuncio en una ubicación de Advertising DSP, puede segmentar la ubicación a todas las audiencias disponibles en DSP. También puede [crear etiquetas de segmento de audiencia personalizadas](/help/dsp/audiences/custom-segment-create.md) para rastrear a todos los visitantes a páginas de aterrizaje específicas y luego usar esos segmentos como destinos creativos para una ubicación. Advertising DSP aplica una segmentación a nivel de anuncio sobre la segmentación a nivel de ubicación (no en su lugar).
 >* Los visitantes del sitio web que hayan excluido el seguimiento para la segmentación de anuncios no reciben anuncios con contenido creativo personalizado basado en segmentos de audiencia o perfiles de retargeting.
 
 ## Crear un píxel de retargeting
@@ -75,9 +75,9 @@ Ejemplo de píxel:
 
 1. En la etiqueta de píxeles, especifique un valor para cada atributo en las secciones `<img src>` y `<script src>` reemplazando cada &quot;`Insert <attribute>`&quot; por un valor. Especifique un ID de socio ID5 si la etiqueta captura un ID universal.
 
-   Si agrega atributos adicionales manualmente, debe incluir la codificación de la URL.
+   Si agrega atributos adicionales manualmente, incluya la codificación de la URL.
 
-   Por ejemplo, si ha incluido los atributos &quot;categoría&quot;, &quot;color&quot; y &quot;tamaño&quot; y los ID universales de captura ID5, la etiqueta de píxeles incluye los siguientes parámetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` y `&id5pid=--Insert ID5_PARTNER_ID--`. Para dirigirse a los usuarios que seleccionen sandalias rojas en el tamaño 10, por ejemplo, cambie los parámetros en la etiqueta de imagen y en la etiqueta de script a `&ut1=sandals&ut2=red&ut3=10`, y también introduzca su ID5 de socio en la etiqueta de script, como `&id5pid=0123456789`.
+   Por ejemplo, si ha incluido los atributos &quot;categoría&quot;, &quot;color&quot; y &quot;tamaño&quot; y los ID universales de captura ID5, la etiqueta de píxeles incluye los siguientes parámetros: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` y `&id5pid=--Insert ID5_PARTNER_ID--`. Para dirigirse a los usuarios que seleccionen sandalias rojas en el tamaño 10, cambie los parámetros en la etiqueta de imagen y en la etiqueta de script a `&ut1=sandals&ut2=red&ut3=10`, y también introduzca su ID5 de socio en la etiqueta de script, como `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 

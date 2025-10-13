@@ -3,9 +3,9 @@ title: Configuración de experiencias segmentadas
 description: Consulte las descripciones de todos los ajustes para experiencias de anuncios segmentados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ En el caso de las experiencias con segmentación del árbol de decisión, puede 
 * Para mostrar u ocultar el panel Creativos de la derecha, haga clic en ![Mostrar/Ocultar](/help/creative/assets/hide-show-creatives.png "Mostrar/Ocultar") en la parte superior derecha del panel derecho.
 
 ## [!UICONTROL Targeting] sección
+
+Los objetivos de nivel de experiencia se aplican junto con las opciones de segmentación de DSP; el comportamiento de la segmentación jerárquica puede variar en DSP. Por ejemplo, Adobe Advertising DSP aplica una segmentación a nivel de anuncio sobre la segmentación a nivel de ubicación (no en su lugar). Asegúrese de que las experiencias publicitarias incluyan una segmentación compatible con las campañas en las que la va a implementar.
 
 **[!UICONTROL Targeting]:** (solo lectura para experiencias existentes) Habilita el direccionamiento creativo mediante un árbol de decisión y la creación automática de etiquetas. Una vez guardada la experiencia, no se puede cambiar esta configuración.
 
