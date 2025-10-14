@@ -26,7 +26,7 @@ DSP Puede: a) configurar los ID de acuerdo privados directamente con [!DNL Roku]
 >
 >El inventario [!DNL Roku] no está disponible en mercados e intercambios abiertos.
 
-* DSP Para tus ofertas privadas, [configura información sobre los ID de la oferta en el destino ](/help/dsp/inventory/deal-id-create.md) y, a continuación, dirige &quot;[!UICONTROL Roku Network - Audience]&quot; y &quot;[!UICONTROL The Roku Channel - Audience]&quot; en [!DNL Roku] ubicaciones.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* DSP Para tus ofertas privadas, [configura información sobre los ID de la oferta en el destino &#x200B;](/help/dsp/inventory/deal-id-create.md) y, a continuación, dirige &quot;[!UICONTROL Roku Network - Audience]&quot; y &quot;[!UICONTROL The Roku Channel - Audience]&quot; en [!DNL Roku] ubicaciones.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * Puedes [suscribirte al siguiente [!DNL Roku] inventario dentro de la [!DNL On Demand] Galería](/help/dsp/inventory/on-demand-inventory-subscribe.md) y luego dirigirte a cualquiera de las ofertas aprobadas dentro de [!DNL Roku] ubicaciones:
 
@@ -49,7 +49,7 @@ Las ofertas privadas le permiten personalizar los parámetros de la oferta segú
 
 ## [!DNL Roku] ubicaciones
 
-DSP En campañas de, [cree  [!DNL Roku] ubicaciones específicas de ](/help/dsp/campaign-management/placements/placement-create.md) con el tipo de ubicación &quot;[!UICONTROL Connected TV (Roku)]&quot;. Incluir [!DNL Roku] ubicaciones en paquetes específicos de [!DNL Roku] con objetivos definidos.
+DSP En campañas de, [cree  [!DNL Roku] ubicaciones específicas de &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) con el tipo de ubicación &quot;[!UICONTROL Connected TV (Roku)]&quot;. Incluir [!DNL Roku] ubicaciones en paquetes específicos de [!DNL Roku] con objetivos definidos.
 
 Cada ubicación de [!DNL Roku] debe estar dirigida al menos a un origen o acuerdo de [!DNL Roku]. DSP Para usar la coincidencia de audiencia de la audiencia de la con [!DNL Roku], incluya uno o más segmentos de audiencia que puedan coincidir con el conjunto de datos determinista [!DNL Roku] (incluido).
 

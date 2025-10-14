@@ -20,7 +20,7 @@ Puede mostrar y ocultar temporalmente las columnas incluidas en cualquiera de la
 
 >[!NOTE]
 >
->* También puede cambiar temporalmente las columnas en una vista y cambiar el criterio de ordenación [ desde el icono [!UICONTROL Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) que aparece a la derecha de la barra de herramientas.
+>* También puede cambiar temporalmente las columnas en una vista y cambiar el criterio de ordenación [&#x200B; desde el icono [!UICONTROL Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) que aparece a la derecha de la barra de herramientas.
 >* Puede cambiar las columnas incluidas para un anunciante específico editando la vista predeterminada o [creando una vista personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
 * (Para mostrar columnas específicas de todos los anunciantes) A la derecha de cualquier encabezado de columna, haga clic en ![Flecha abajo](/help/search-social-commerce/assets/arrow-down-expand.png "Flecha abajo"), resalte **[!UICONTROL Select Columns]**, active la casilla de verificación situada junto a cada columna que desee incluir y, a continuación, haga clic en **[!UICONTROL Apply]**.

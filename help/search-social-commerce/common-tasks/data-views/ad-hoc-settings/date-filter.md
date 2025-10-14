@@ -23,7 +23,7 @@ Cuando se guarda un intervalo de fechas específico para una vista predeterminad
 >[!NOTE]
 >
 >* Puede ver los datos de los 13 meses anteriores, pero cualquier vista personalizada existente puede incluir datos de solo hasta los 180 días anteriores.
->* Para ver datos anteriores, vaya a la vista [[!UICONTROL Reports] ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) y ejecute un informe básico.
+>* Para ver datos anteriores, vaya a la vista [[!UICONTROL Reports] &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) y ejecute un informe básico.
 >* También puede guardar un intervalo de fechas para una [vista predeterminada o personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## Cambio del filtro de fecha global en las vistas de campaña

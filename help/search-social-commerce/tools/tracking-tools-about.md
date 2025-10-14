@@ -24,7 +24,7 @@ Si utiliza el servicio de seguimiento de conversión de Adobe Advertising, puede
 
   Para obtener más información acerca de si generar manualmente direcciones URL de seguimiento de clics, vea &quot;[Cuándo y cómo generar direcciones URL de seguimiento de clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
 
-* (Solo cuentas con direcciones URL de destino) La herramienta [[!UICONTROL Decode Tracking URLs] ](click-tracking-url-decode.md) le permite quitar el código de Search, Social y Commerce de una dirección URL de destino habilitada para seguimiento para ver cuál es la dirección URL base.
+* (Solo cuentas con direcciones URL de destino) La herramienta [[!UICONTROL Decode Tracking URLs] &#x200B;](click-tracking-url-decode.md) le permite quitar el código de Search, Social y Commerce de una dirección URL de destino habilitada para seguimiento para ver cuál es la dirección URL base.
 
 >[!MORELIKETHIS]
 >

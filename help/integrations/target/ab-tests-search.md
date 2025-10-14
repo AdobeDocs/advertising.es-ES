@@ -69,7 +69,7 @@ Las siguientes instrucciones resaltan información relacionada con el caso de us
 
       Puede encontrar el ID [agregando la columna de ID relevante a la vista de entidades](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-      ![[!UICONTROL Network Account ID] columna en la vista [!UICONTROL Accounts] ](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] columna en la vista [!UICONTROL Accounts]")
+      ![[!UICONTROL Network Account ID] columna en la vista [!UICONTROL Accounts] &#x200B;](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] columna en la vista [!UICONTROL Accounts]")
 
       Póngase en contacto con el equipo de su cuenta de Adobe si necesita ayuda.
 

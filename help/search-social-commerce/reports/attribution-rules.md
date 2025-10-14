@@ -132,7 +132,7 @@ Cuando la conversión solo va precedida de impresiones, la conversión se consid
 
 Cuando la ruta de conversión incluye clics de pago e impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
-* En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
+* En Search, Social y Commerce, la ponderación de anulación de impresión [print &#x200B;](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
 * En DSP, las impresiones se ignoran y solo se ponderan los clics. DSP no tiene en cuenta las ponderaciones de anulación de impresiones para la atribución.
 
@@ -194,7 +194,7 @@ Cuando la conversión solo va precedida de impresiones, la conversión se consid
 
 Cuando la ruta de conversión incluye clics de pago e impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
-* En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
+* En Search, Social y Commerce, la ponderación de anulación de impresión [print &#x200B;](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
 * En DSP, las impresiones se ignoran y solo se ponderan los clics. DSP no tiene en cuenta las ponderaciones de anulación de impresiones para la atribución.
 
@@ -254,7 +254,7 @@ Cuando la conversión solo va precedida de impresiones, la conversión se consid
 
 Cuando la ruta de conversión incluye clics de pago e impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
-* En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
+* En Search, Social y Commerce, la ponderación de anulación de impresión [print &#x200B;](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
 * En DSP, las impresiones se ignoran y solo se ponderan los clics. DSP no tiene en cuenta las ponderaciones de anulación de impresiones para la atribución.
 
@@ -312,7 +312,7 @@ Cuando la conversión solo va precedida de impresiones, la conversión se consid
 
 Cuando la ruta de conversión incluye clics de pago e impresiones, los distintos productos de Adobe Advertising tratan las impresiones de forma diferente:
 
-* En Search, Social y Commerce, la ponderación de anulación de impresión [print ](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
+* En Search, Social y Commerce, la ponderación de anulación de impresión [print &#x200B;](/help/search-social-commerce/glossary.md#i-j), que se especifica en la configuración de ponderación de anulación de impresión del anunciante y en los parámetros de informe, vista o simulación personalizada, se aplica primero a las impresiones.
 
 * En DSP, las impresiones se ignoran y solo se ponderan los clics. DSP no tiene en cuenta las ponderaciones de anulación de impresiones para la atribución.
 

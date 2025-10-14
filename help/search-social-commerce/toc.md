@@ -438,9 +438,9 @@ ht-degree: 2%
    + [Sincronizar  [!DNL Adobe] audiencias](/help/search-social-commerce/admin/sync-adobe-audiences.md)
    + Configuración de fuentes de datos {#data-sources}
       + [Acerca de la sincronización de  [!DNL Google Analytics] métricas de conversión](/help/search-social-commerce/admin/data-sources/data-source-about.md)
-      + [Requisitos previos para configurar un origen de datos  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
+      + [Requisitos previos para configurar un origen de datos  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
       + [Configurar una  [!DNL Google Analytics] vista como fuente de datos](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-      + [Editar una fuente de datos  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+      + [Editar una fuente de datos  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
       + [Pausar la sincronización de un origen de datos](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
       + [Volver a autenticar un origen de datos  [!DNL Google Analytics] s](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] configuración de origen de datos](/help/search-social-commerce/admin/data-sources/data-source-settings.md)

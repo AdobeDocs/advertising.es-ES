@@ -18,7 +18,7 @@ Cuando propaga datos de fuentes sin publicarlos simultáneamente en la red de pu
 
 * Si utilizó la opción para &quot;[!UICONTROL Propagate and Preview]&quot;, podrá editar el archivo de hoja de edición masiva generado (denominado &quot;`<feed file name>_<template name>`&quot;) descargándolo de la vista [!UICONTROL Bulksheets], editando el archivo y cargándolo de nuevo. No se incluyen datos en las fichas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] y [!UICONTROL Ads].
 
-* Si utilizó la opción para &quot;[!UICONTROL Propagate only]&quot;, puede editar los datos generados para los componentes con el estado [[!UICONTROL New] ](propagated-data-status.md) dentro de una vista de jerarquía de campaña desde las pestañas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] y [!UICONTROL Ads].
+* Si utilizó la opción para &quot;[!UICONTROL Propagate only]&quot;, puede editar los datos generados para los componentes con el estado [[!UICONTROL New] &#x200B;](propagated-data-status.md) dentro de una vista de jerarquía de campaña desde las pestañas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] y [!UICONTROL Ads].
 
   Las vistas de jerarquía de campañas muestran solo los datos generados a partir del archivo de fuente, no los componentes de cuenta existentes. Una vez que los datos de un componente y todos sus subcomponentes se publican en la red de publicidad, ya no aparecen en la jerarquía de campañas.
 

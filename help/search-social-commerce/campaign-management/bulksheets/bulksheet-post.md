@@ -25,7 +25,7 @@ Los archivos de hojas de edición masiva y los archivos de error se eliminan aut
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Post]**.
 
-1. En el cuadro de diálogo, escriba o seleccione información en la configuración de [[!UICONTROL Post Bulksheet] ](#bulksheet-post-settings) y, a continuación, haga clic en **[!UICONTROL Post]**.
+1. En el cuadro de diálogo, escriba o seleccione información en la configuración de [[!UICONTROL Post Bulksheet] &#x200B;](#bulksheet-post-settings) y, a continuación, haga clic en **[!UICONTROL Post]**.
 
    La misma configuración se aplica a todos los archivos que publique.
 

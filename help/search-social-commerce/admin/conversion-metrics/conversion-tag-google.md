@@ -32,7 +32,7 @@ Para generar etiquetas de conversión para las conversiones existentes, utilice 
 
 1. Copie la etiqueta de conversión e impleméntelo en los sitios web desde los que desee rastrear la métrica de conversión.
 
-   Consulte &quot;Instalación de la etiqueta [!DNL Google]&quot; en la ayuda de [!DNL Google Ads] para &quot;[2. Configure su etiqueta Google ](https://support.google.com/google-ads/answer/12215519)&quot;.
+   Consulte &quot;Instalación de la etiqueta [!DNL Google]&quot; en la ayuda de [!DNL Google Ads] para &quot;[2. Configure su etiqueta Google &#x200B;](https://support.google.com/google-ads/answer/12215519)&quot;.
 
 1. Haga clic en **[!UICONTROL Done].**
 

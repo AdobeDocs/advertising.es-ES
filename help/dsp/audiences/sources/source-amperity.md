@@ -18,7 +18,7 @@ DSP Utilice la integración de la con la plataforma de datos del cliente [!DNL A
 
 1. (Para convertir direcciones de correo electrónico en [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; anunciantes con [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Configure el seguimiento para habilitar [!DNL Analytics] la medición](#analytics-tracking).
 
-1. DSP [Crear un origen de audiencia en la dirección de correo electrónico ](#source-create).
+1. DSP [Crear un origen de audiencia en la dirección de correo electrónico &#x200B;](#source-create).
 
 1. [Preparar y compartir datos de asignación de segmentos](#map-data).
 

@@ -22,7 +22,7 @@ Para que la publicación se realice correctamente, todos los grupos de anuncios 
 
   Si anteriormente no [validó sus páginas de aterrizaje](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md), puede hacerlo antes de publicar el archivo.
 
-* Si utilizó la opción para &quot;[!UICONTROL Propagate only]&quot;, puede publicar los datos generados para los componentes con el estado [[!UICONTROL New] ](propagated-data-status.md) dentro de una vista de jerarquía de campaña desde la pestaña [!UICONTROL Templates].
+* Si utilizó la opción para &quot;[!UICONTROL Propagate only]&quot;, puede publicar los datos generados para los componentes con el estado [[!UICONTROL New] &#x200B;](propagated-data-status.md) dentro de una vista de jerarquía de campaña desde la pestaña [!UICONTROL Templates].
 
   >[!NOTE]
   >

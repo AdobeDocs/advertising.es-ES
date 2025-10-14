@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Para editar la configuración de varios portafolios a la vez, consulte &quot;[ (nueva interfaz de usuario) Editar en lote la configuración del portafolio mediante archivos de hojas de edición en bloque](portfolio-bulksheets.md)&quot;.
+>Para editar la configuración de varios portafolios a la vez, consulte &quot;[&#x200B; (nueva interfaz de usuario) Editar en lote la configuración del portafolio mediante archivos de hojas de edición en bloque](portfolio-bulksheets.md)&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ (nueva interfaz de usuario) Editar de forma masiva la configuración del portafolio mediante archivos de hojas de edición masiva](portfolio-bulksheets.md)
+>* [&#x200B; (nueva interfaz de usuario) Editar de forma masiva la configuración del portafolio mediante archivos de hojas de edición masiva](portfolio-bulksheets.md)
 >* [Crear un portafolio](portfolio-create.md)
 >* [(Nueva IU) Ver detalles de rendimiento del portafolio](portfolio-details.md)
 >* [(nueva interfaz de usuario) Descargar datos en la vista [!UICONTROL Portfolios]](portfolio-view-report.md)

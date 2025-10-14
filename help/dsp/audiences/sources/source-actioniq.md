@@ -17,7 +17,7 @@ DSP Utilice la integración de la con la plataforma de datos del cliente [!DNL A
 
 DSP Hay <!-- NN --> pasos para compartir datos de [!DNL ActionIQ] con:
 
-1. DSP [Crear un origen de audiencia en la dirección de correo electrónico ](#source-create).
+1. DSP [Crear un origen de audiencia en la dirección de correo electrónico &#x200B;](#source-create).
 
 1. ?
 

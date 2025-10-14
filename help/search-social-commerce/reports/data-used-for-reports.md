@@ -34,7 +34,7 @@ La mayoría de los informes se pueden personalizar para mostrar únicamente la i
 
 * **Métricas de conversión:** Número total de conversiones para cada una de las métricas de conversión del anunciante o datos de transacción seguidos hacia una métrica de conversión. Esto puede incluir métricas de conversión y de participación del sitio, pero no métricas calculadas y métricas calculadas avanzadas, que se sincronizan desde Adobe Analytics.
 
-  Esto también puede incluir [[!DNL Google Ads] conversiones ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) y [[!DNL Google Analytics] conversiones ](/help/search-social-commerce/admin/data-sources/data-source-about.md) con seguimiento sincronizadas para la cuenta del anunciante.
+  Esto también puede incluir [[!DNL Google Ads] conversiones &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) y [[!DNL Google Analytics] conversiones &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md) con seguimiento sincronizadas para la cuenta del anunciante.
 
 * **Métricas personalizadas:** Sus propias métricas, que se derivan de la creación de fórmulas basadas en métricas existentes (como el costo por pedido).
 

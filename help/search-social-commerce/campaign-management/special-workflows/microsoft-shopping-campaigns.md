@@ -50,7 +50,7 @@ Puede configurar campañas de compras usando [plantillas de fuentes de inventari
 
    También puede agregar la dirección URL de seguimiento a los datos del producto en la cuenta [!DNL Microsoft Merchant Center]. Para ello, incluya la dirección URL de seguimiento, junto con el valor en el campo &quot;vínculo&quot; o &quot;vínculo_móvil&quot;, según corresponda, en una columna personalizada &quot;[bingads_redirect](https://help.ads.microsoft.com/#apex/3/en/51084)&quot; dentro de la fuente del producto. El valor del campo &quot;bingads_redirect&quot; reemplaza los valores de los campos &quot;link&quot; y &quot;mobile_link&quot;. Las direcciones URL generadas con este método no incluyen ningún parámetro de seguimiento especificado en la configuración de la cuenta de Search, Social y Commerce o de la campaña.
 
-1. Supervisar el rendimiento de [ al generar [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md).
+1. Supervisar el rendimiento de [&#x200B; al generar [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md).
 
 1. Según sea necesario:
 

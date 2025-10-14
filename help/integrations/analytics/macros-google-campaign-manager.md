@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Aplicable solo a Advertising DSP*
 
-Si usa las etiquetas de anuncio de [!DNL Google Campaign Manager 360] para sus anuncios de Advertising DSP, anexe [!DNL Analytics for Advertising] parámetros a las direcciones URL de la página de aterrizaje mediante la macro [`%p` ](https://support.google.com/campaignmanager/table/6096962). Los parámetros registran el identificador de AMO (`s_kwcid`) y `ef_id` parámetros de cadena de consulta en la dirección URL de la página de aterrizaje, lo que permite que el Adobe Advertising envíe datos de clics para los anuncios a Adobe Analytics.
+Si usa las etiquetas de anuncio de [!DNL Google Campaign Manager 360] para sus anuncios de Advertising DSP, anexe [!DNL Analytics for Advertising] parámetros a las direcciones URL de la página de aterrizaje mediante la macro [`%p` &#x200B;](https://support.google.com/campaignmanager/table/6096962). Los parámetros registran el identificador de AMO (`s_kwcid`) y `ef_id` parámetros de cadena de consulta en la dirección URL de la página de aterrizaje, lo que permite que el Adobe Advertising envíe datos de clics para los anuncios a Adobe Analytics.
 
 Utilice macros para [!DNL Campaign Manager 360] anuncios de vídeo y visualización para los siguientes tipos de implementaciones de [!DNL Analytics for Advertising]:
 

@@ -42,7 +42,7 @@ DSP DSP Dispone de muchas opciones para importar segmentos de datos de origen y 
 
 * DSP Puede extraer su Adobe Audience Manager y otras [!DNL Adobe] audiencias para el direccionamiento. Para conocer los requisitos previos y las instrucciones, consulte &quot;[Importar segmentos de Adobe Audience Manager para la segmentación de anuncios](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP Puede traducir segmentos de datos de origen de plataformas de datos de clientes compatibles a segmentos con ID universales mediante la función [Fuentes](/help/dsp/audiences/sources/source-about.md). DSP También puede [enviar manualmente los segmentos autenticados [!DNL LiveRamp] [!DNL RampID] directamente a la dirección de correo electrónico ](/help/dsp/audiences/sources/source-import-liveramp-segments.md) de la cuenta de usuario de la cuenta de correo electrónico
+* DSP Puede traducir segmentos de datos de origen de plataformas de datos de clientes compatibles a segmentos con ID universales mediante la función [Fuentes](/help/dsp/audiences/sources/source-about.md). DSP También puede [enviar manualmente los segmentos autenticados [!DNL LiveRamp] [!DNL RampID] directamente a la dirección de correo electrónico &#x200B;](/help/dsp/audiences/sources/source-import-liveramp-segments.md) de la cuenta de usuario de la cuenta de correo electrónico
 
 * DSP Puede importar el resto de segmentos de datos de origen directamente desde su plataforma de administración de datos (DMP) y proporcionarlos a cualquier conjunto de anunciantes, según sea necesario.
 

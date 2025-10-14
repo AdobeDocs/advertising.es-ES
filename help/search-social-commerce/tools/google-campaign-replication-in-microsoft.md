@@ -82,7 +82,7 @@ Puede enumerar todos los trabajos de importación, incluida la cuenta de origen 
 
      De manera predeterminada, la vista se abre en la ficha [!UICONTROL List of Import Jobs].
 
-   * En la ficha [[!UICONTROL Import Logs] ](#campaign-import-log), haga clic en la ficha **[!UICONTROL List of Import Jobs]**.
+   * En la ficha [[!UICONTROL Import Logs] &#x200B;](#campaign-import-log), haga clic en la ficha **[!UICONTROL List of Import Jobs]**.
 
 ## Ejecutar un trabajo de importación de campaña
 
