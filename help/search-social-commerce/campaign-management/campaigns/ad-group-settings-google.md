@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configuración del grupo de anuncios'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] grupos de anuncios.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Si la campaña usa una estrategia de oferta de oferta inteligente (como [!UICONT
 >* Cuando pujes por palabra clave, crea plantillas de seguimiento en el nivel de palabra clave. Del mismo modo, cuando puje por ubicación, cree plantillas de seguimiento en el nivel de ubicación. Para todas las demás dimensiones, cree plantillas de seguimiento en el nivel de anuncio.
 >* Al realizar ofertas por edad, sexo, interés y lista o vertical para campañas en portafolios, la capacidad de optimización no optimiza las ofertas para la dimensión. Además, toda la atribución se aplica al grupo de anuncios.
 >* Los anuncios de la red de búsqueda siempre utilizan ofertas de palabras clave.
+
+**[!UICONTROL AI Max Search Term Matching]:** (Campañas dirigidas a la red de búsqueda para las que la característica [AI Max](https://support.google.com/google-ads/answer/15910366) y la característica de coincidencia de términos de búsqueda de nivel de campaña están habilitadas; solo lectura) Indica si la coincidencia de términos de búsqueda de nivel de grupo de anuncios está habilitada: *[!UICONTROL Disabled]* o *[!UICONTROL Enabled]*.
 
 ## [!UICONTROL Budget Options]
 

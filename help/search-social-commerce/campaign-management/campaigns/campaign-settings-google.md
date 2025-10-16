@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configuración de campaña'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
+source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2505'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:** (Campañas dirigidas solo a la red de búsqueda, incluidas las campañas de compras) Muestra
-sus anuncios en las redes de socios de búsqueda de la red de anuncios. De manera predeterminada, esta opción es *[!UICONTROL Off]*.
+**[!UICONTROL Search Partners]:** (Campañas dirigidas únicamente a la red de búsqueda, incluidas las campañas de compras) Muestra sus anuncios en las redes de socios de búsqueda de la red de anuncios. De manera predeterminada, esta opción es *[!UICONTROL Off]*.
+
+**[!UICONTROL AI Max Enabled]:** (Campañas dirigidas solo a la red de búsqueda; solo lectura) Indica si la característica [[!UICONTROL AI Max] ](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL On]* o *[!UICONTROL Off]*.
+
+**[!UICONTROL AI Max Bundling]:** (Campañas dirigidas solo a la red de búsqueda; campañas con la función AI Max habilitada; solo lectura) Si se requiere el agrupamiento: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* o *[!UICONTROL Unspecified]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -283,7 +286,7 @@ por país. Si no selecciona ninguno, todos son de destino.
 
 * Para seleccionar imágenes de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione las imágenes.
 
-**[!UICONTROL Logos]:** Al menos un logotipo cuadrado (1:1) y un logotipo horizontal (4:1). Se pueden incluir hasta cinco de cada tamaño. Ver las [[!DNL Google Ads] especificaciones del logotipo](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Puede cargar imágenes o seleccionarlas en su [!UICONTROL Asset Library], pero no ambas en la misma operación.
+**[!UICONTROL Logos]:** al menos un logotipo cuadrado (1:1) y un logotipo horizontal (4:1). Se pueden incluir hasta cinco de cada tamaño. Ver las [[!DNL Google Ads] especificaciones del logotipo](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Puede cargar imágenes o seleccionarlas en su [!UICONTROL Asset Library], pero no ambas en la misma operación.
 
 * Para cargar imágenes:
 
