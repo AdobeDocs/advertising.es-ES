@@ -3,9 +3,9 @@ title: Columnas de informe disponibles
 description: Consulte las descripciones de las columnas disponibles en los informes personalizados.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
+source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,11 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | El proveedor del sistema operativo en el que se mostró el anuncio (como [!UICONTROL Microsoft] o [!UICONTROL Apple]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | Versión del sistema operativo en el que se mostró el anuncio (como [!UICONTROL Windows 10] o [!UICONTROL iOS Mojave]) |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | El sistema operativo en el que se mostró el anuncio (como [!UICONTROL Apple iOS] o [!UICONTROL Android]). |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | Identificador único asignado a una operación a través del socio de suministro externo. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | El nombre asignado por el usuario para la oferta, tal como se introdujo en DSP. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | El socio del lado del suministro que proporciona el inventario. Suele ser un editor, pero también puede ser un SSP. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Name] | El nombre asignado por el usuario para la oferta, tal como se introdujo en DSP. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Type] | Si el trato es *[!UICONTROL Guaranteed]* o *[!UICONTROL Non-Guaranteed]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | La clasificación del inventario: *[!UICONTROL Private],* *[!UICONTROL On Demand],* o *[!UICONTROL Public]*. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Private Deal ID] | El identificador único asignado a una operación privada a través del socio de suministro externo. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Publisher] | El socio del lado del suministro que proporciona el inventario. Suele ser un editor, pero también puede ser un SSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | El socio de suministro (SSP) al que se atribuyen los medios. |
 | [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | El número de veces que un dispositivo ha recibido un anuncio, en función de la cookie única o el ID de dispositivo. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | Ciudad a la que se atribuyen los datos notificados. |

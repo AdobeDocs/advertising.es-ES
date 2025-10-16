@@ -3,7 +3,7 @@ title: Configuración de informe personalizada
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: 65d554ef71e36b52a47fc24552d5db9b56072095
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Esta sección determina las fechas en las que se ejecuta el informe. Para config
   >
   >También puede [ejecutar un informe personalizado en cualquier momento](report-run-now.md) desde la vista [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\>:* Ejecuta el informe en una fecha especificada para su finalización antes de las 09:00 en el huso horario de la cuenta.
+* *[!UICONTROL On]\&lt;Date\>:* Ejecuta el informe en una fecha especificada para su finalización antes del 09:00 en el huso horario de la cuenta.
 
 * *[!UICONTROL Recurring]:* Ejecuta el informe de acuerdo con una programación durante un período de tiempo especificado.
 
@@ -62,7 +62,7 @@ Esta sección determina las fechas en las que se ejecuta el informe. Para config
 
 ## Sección [!UICONTROL Apply Filters]
 
-**[!UICONTROL Filter by]:** (Opcional) Dimensiones adicionales mediante las cuales filtrar los datos, independientemente de si las dimensiones se incluyen o no como columnas en el informe. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* y *[!UICONTROL Video Duration]*.
+**[!UICONTROL Filter by]:** (Opcional) Dimensiones adicionales mediante las cuales filtrar los datos, independientemente de si las dimensiones se incluyen o no como columnas en el informe. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Deal]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* y *[!UICONTROL Video Duration]*.
 
 <!-- Add when available:
 *[!UICONTROL Deal ID]*, *[!UICONTROL Deal List]*, 
@@ -183,7 +183,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
