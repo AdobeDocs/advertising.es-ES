@@ -3,9 +3,9 @@ title: Configuración nativa de anuncios en pantalla
 description: Consulte las descripciones de la configuración de anuncios disponibles para los anuncios en pantalla nativos.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -42,19 +42,9 @@ ht-degree: 0%
 
 ### [!UICONTROL Pixel]
 
-Todos los píxeles de seguimiento de evento existentes para la ubicación se adjuntan automáticamente. Puede separar los píxeles existentes y crear nuevos píxeles según sea necesario, según sus necesidades de seguimiento para el anuncio individual. **Sugerencia:** Para editar los píxeles de seguimiento de terceros para varios anuncios en una ubicación a la vez mediante la vista [!UICONTROL Ad Tools], consulte &quot;[Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;.
+<!-- **[!UICONTROL Pixel]:** -->
 
-Los siguientes ajustes se aplican a cada píxel que cree o edite.
-
-**[!UICONTROL Integration Event]:** Evento que déclencheur el píxel que se va a activar.
-
-**[!UICONTROL Pixel Type]:** Indica si el píxel es *[!UICONTROL IMG URL]* (archivo de imagen de 1x1 píxeles), *[!UICONTROL HTML]* o *[!UICONTROL JavaScript URL]*.
-
-**[!UICONTROL Pixel URL or Code]:** La dirección URL de la imagen de píxel, en el formato apropiado para el [!UICONTROL Pixel Type] especificado.
-
-**[!UICONTROL Pixel Name]:** El nombre del píxel. Utilice un nombre que le ayude a identificar fácilmente el píxel.
-
-**[!UICONTROL Pixel Provider]:** El proveedor de píxeles: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]* o *[!UICONTROL IAS]*.
+{{$include /help/_includes/dsp-ad-pixel.md}}
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: f8f877552018de50649fbba22c56452775e72df3
 workflow-type: tm+mt
-source-wordcount: '4586'
+source-wordcount: '4436'
 ht-degree: 0%
 
 ---
@@ -230,11 +230,11 @@ Para especificar la segmentación de inventario:
 
 **[!UICONTROL Position targeting]:** Destino (pero no excluir) inventario por posición de anuncio. La configuración se aplica a todas las ubicaciones de VAST/VPAID, incluidas las ubicaciones de preroll, preroll estándar móvil, TV conectada y vídeo universal. De forma predeterminada, todos los puestos están segmentados. Para reducir los objetivos, seleccione posiciones de destino específicas o *Desconocido*.
 
-## [!UICONTROL Site and App Targeting]
+## [!UICONTROL Site or App and Keyword Targeting]
 
 **[!UICONTROL Traffic type]:** Tipos de tráfico de destino. Las opciones incluyen **[!UICONTROL Websites]** y **[!UICONTROL Apps]**.
 
-**[!UICONTROL Tier]:** (disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) La calidad del tráfico de destino. Los niveles 1-3 son todos seguros para la marca y han sido aprobados por el equipo de asignación de DSP.
+**[!UICONTROL Tier]:** (disponible cuando **[!UICONTROL Toggle for Sites or Apps Tiering]** es *[!UICONTROL On]*) La calidad del tráfico de destino. Los niveles 1-3 son todos seguros para la marca y han sido aprobados por el equipo de asignación de DSP.
 
 * *[!UICONTROL Tier 1]:* sitios y aplicaciones Premium reconocibles a nivel nacional.
 
@@ -252,7 +252,7 @@ Para especificar la segmentación de inventario:
 >
 >Para las campañas de rendimiento, la práctica recomendada es seleccionar *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site or App Categories]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Categorías de sitio dentro de los niveles de sitio seleccionados para incluir o excluir (pero no ambos) como destinos. Elija entre las listas de sitios verticales que DSP ha asignado en función del asunto:
+**[!UICONTROL Site or App Categories]:** (opcional) categorías de sitio dentro de los tipos de tráfico seleccionados y (cuando se especifique) los niveles de sitio que se incluirán o excluirán (pero no ambos) como destinos. Elija entre las listas de sitios verticales que DSP ha asignado en función del asunto:
 
 1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
 1. Especifique las categorías del sitio que se incluirán o excluirán:
@@ -265,7 +265,7 @@ Para especificar la segmentación de inventario:
 1. (Opcional) Para descargar un archivo CSV con la información de destino en la ubicación de descargas del explorador, haga clic en **[!UICONTROL Export]**.
 1. Haga clic en **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites or Apps]:** (opcional; disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL Off]*) Sitios/aplicaciones y [listas de URL](/help/dsp/resources/lists-url-manage.md) que se deben excluir. Desde la ficha [!UICONTROL Paste URL], puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio. En la ficha [!UICONTROL URL Lists], puede seleccionar listas de direcciones URL.
+**[!UICONTROL Exclude Sites or Apps]:** (opcional; disponible cuando **[!UICONTROL Toggle for Sites or Apps Tiering]** es *[!UICONTROL On]*) Sitios/aplicaciones y [listas de URL](/help/dsp/resources/lists-url-manage.md) que se deben excluir. Desde la ficha [!UICONTROL Paste URL], puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio. En la ficha [!UICONTROL URL Lists], puede seleccionar listas de direcciones URL.
 
 1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
 1. Especifique los sitios:
@@ -290,40 +290,23 @@ Para especificar la segmentación de inventario:
 >* También se aplican listas de sitios bloqueados a nivel de cuenta y de anunciante, además de la [lista de sitios bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md) de DSP, que incluye los sitios considerados no seguros para los anuncios.
 >* Las listas de sitios bloqueados siempre anulan los sitios de destino y las listas de sitios. Si una ubicación excluye e incluye el mismo destino para un anuncio, se excluye el destino.
 
+**[!UICONTROL Context of Sites or App]:** (opcional) Segmentos de destino contextuales para segmentar o excluir. Seleccione una de las siguientes L
+
+* Pestaña **[!UICONTROL Marketplace]**: enumera [!DNL Peer39] segmentos disponibles para todos los usuarios según la tarifa especificada.
+
+* Pestaña **[!UICONTROL Custom Segments]**: enumera los [!DNL Peer39] segmentos personalizados de su organización.
+
+* Pestaña **[!UICONTROL Paste Segments]**: (Anunciantes cuyas organizaciones tienen asociaciones de [!DNL Comscore]; disponibles después de la activación desde el equipo de cuenta de Adobe) Escriba uno o más ID de segmento o nombres de segmento para los [!DNL Comscore] segmentos contextuales de su organización. Separe los distintos valores con comas (como Segment1, Segment2, Segment3).
+
 **[!UICONTROL Language]:** (opcional) un solo idioma de destino.
 
-**[!UICONTROL Site or app list preview]:** (solo lectura) Todos los sitios o aplicaciones de destino y bloqueados para la ubicación, incluidos los sitios o aplicaciones de las listas de sitios bloqueados globales de DSP, de nivel de anunciante y de nivel de cuenta.
+**[!UICONTROL Site or app list preview]:** (de solo lectura; disponible cuando **[!UICONTROL Toggle for Sites or Apps Tiering]** es *[!UICONTROL On]*) Todos los sitios o aplicaciones de destino y bloqueados para la ubicación, incluidas las listas de sitios o aplicaciones de nivel de cuenta, de nivel de anunciante y las listas de sitios bloqueados globales de DSP.
 
 Si lo desea, puede exportar la lista de sitios de destino y bloqueados como archivo de valores separados por comas (CSV). Para exportar la lista, haga clic en **[!UICONTROL Export full site list]** y, a continuación, abra o guarde el archivo según el procedimiento normal del explorador.
 
 **[!UICONTROL Allow unscreened sites]:** (solo ubicaciones de visualización estándar) Habilita la entrega de anuncios en sitios no auditados. Cuando la ubicación se dirige al inventario privado, esta opción puede enviar anuncios en sitios bloqueados.
 
-**[!UICONTROL Paste list of targeted sites]:** Le permite dirigirse únicamente a sitios específicos. Cuando activa esta opción, se desactivan las demás opciones de segmentación del sitio.
-
-**[!UICONTROL Sites or Apps]:** (disponible cuando **[!UICONTROL Paste list of targeted sites]** es *[!UICONTROL On]*) sitios de destino. Desde la ficha [!UICONTROL Paste URL], puede buscar y seleccionar sitios, o bien escribir o pegar nombres de dominio. En la ficha [!UICONTROL URL Lists], puede seleccionar listas de direcciones URL.
-
-1. Haga clic en ![Editar](/help/dsp/assets/edit.png).
-1. Especifique los sitios:
-   * Desde la ficha [!UICONTROL Paste URL]:
-      * Para buscar un sitio:
-         1. Haga clic en **[!UICONTROL Search]**.
-         1. Introduzca una palabra clave, seleccione un nivel de sitio y/o seleccione una categoría de sitio.
-         1. En los resultados de búsqueda, seleccione los sitios que desea incluir:
-            * Para incluir un sitio individual, active la casilla de verificación adyacente.
-            * (Cuando haya más de 50 resultados disponibles) Para incluir los primeros 50 resultados, haga clic en **[!UICONTROL Include these 50]**. Para incluir todos los resultados de búsqueda, haga clic en **[!UICONTROL Include these \<*NN *\>]**.
-      * Para introducir nombres de dominio:
-         1. Haga clic en **[!UICONTROL Paste]**.
-         1. Escriba uno o varios nombres de dominio en líneas independientes.
-         1. Haga clic en **[!UICONTROL Include All]**.
-   * Desde la ficha [!UICONTROL URL Lists]:
-      1. (Opcional) Busque una lista de URL introduciendo todo o parte del nombre de la lista en el campo de búsqueda.
-      1. Seleccione la casilla de verificación situada junto a cada lista de direcciones URL que desee incluir.
-1. Haga clic en **[!UICONTROL Done]** cuando haya terminado.
-
->[!NOTE]
->
->* También se aplican listas de sitios bloqueados a nivel de cuenta y de anunciante, además de la [lista de sitios bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md) de DSP, que incluye los sitios considerados no seguros para los anuncios.
->* Las listas de sitios bloqueados siempre anulan los sitios de destino y las listas de sitios. Si una ubicación excluye e incluye el mismo destino para un anuncio, se excluye el destino. Puede buscar y seleccionar sitios o introducir o pegar nombres de dominio:
+**[!UICONTROL Toggle for Sites or Apps Tiering]:** Permite especificar los niveles de sitio o aplicación que se deben segmentar o excluir.
 
 ## [!UICONTROL Audience Targeting]
 
