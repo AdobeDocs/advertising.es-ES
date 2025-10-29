@@ -2,9 +2,10 @@
 title: Obtener ayuda
 description: Obtenga información sobre cómo ver la ayuda en línea y los recursos de la comunidad, y cómo obtener asistencia técnica.
 feature: DSP Introduction
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
+source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -20,13 +21,20 @@ Para abrir un conjunto de ayuda completo que explique cómo utilizar todas las c
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=es).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## Contacto [!DNL Adobe]
 
-Para problemas de cuenta o producto de DSP, póngase en contacto con el equipo de cuenta de Adobe.
+Para problemas de productos o cuentas, haga lo siguiente:
 
-Proporcione pasos detallados para reproducir el problema, los datos relevantes y la información acerca de la solución de problemas preliminar que ha realizado. Incluya también el nombre y la versión del explorador.
+* (Anunciantes con contratos de autoservicio) Abra una incidencia para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
-Para los problemas de informes, no elimine el informe y proporcione su nombre.
+  Para el producto, seleccione &quot;[!UICONTROL Advertising - DSP]&quot;.
+
+* (Anunciantes con contratos de servicio completo) Póngase en contacto con el equipo de cuenta de Adobe.
+
+En el ticket o la comunicación, proporcione los pasos detallados para reproducir el problema, los datos relevantes, el nombre y la versión del explorador, y la información sobre la solución de problemas preliminar que ha realizado.
+
+Para los problemas de informes, no elimine el informe y proporcione el nombre y la dirección URL del informe.
+
