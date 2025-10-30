@@ -3,7 +3,7 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
+source-git-commit: f2b912a9e4952d2ccb9a461cdbc56c7bc731e690
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -103,7 +103,7 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
    * **[!UICONTROL Time to Conversion]:** Use este informe para determinar la ventana retrospectiva de atribución óptima y para identificar las campañas con tiempos de conversión más largos, que pueden beneficiarse de la retargeting. El informe muestra el número de conversiones por el periodo en días desde la última interacción (exposición del anuncio o clic) hasta la conversión. El informe puede incluir datos de varias métricas de conversión y utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión. Las columnas del informe incluyen &quot;[!UICONTROL Time Taken (in days)]&quot;, &quot;[!UICONTROL Number of] \&lt;Nombre de métrica de conversión 1\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 1\>&quot;, \&lt;Nombre de métrica de conversión 2\>&quot;, &quot;% \&lt;Nombre de métrica de conversión 2\>&quot;, etc. Las conversiones que tardan más tiempo que el período retroactivo se agrupan en una fila (por ejemplo, si el informe utiliza un período retroactivo de 30 días, todas las conversiones que tardan más de 30 días en producirse se agrupan en una fila con un valor &quot;[!UICONTROL Time Taken (in days)]&quot; de &quot;30+&quot;).
 
-   * **[!UICONTROL Content BETA]:** Use este informe para comprender la entrega de impresiones y otras métricas según dimensiones de contenido especificadas (como género, calidad de producción y clasificación de contenido), de modo que pueda optimizar el direccionamiento y garantizar la seguridad de la marca. Además de las dimensiones de contenido, el informe incluye la mayoría de las dimensiones, métricas y filtros estándar. Los datos por dimensión de contenido están disponibles para [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] y [!DNL Triplelift]. Los editores pasan las señales de contenido durante el flujo de ofertas y están sujetas a disponibilidad.
+   * **[!UICONTROL Content]:** Use este informe para comprender la entrega de impresiones y otras métricas según dimensiones de contenido especificadas (como género, calidad de producción y clasificación de contenido), de modo que pueda optimizar el direccionamiento y garantizar la seguridad de la marca. Además de las dimensiones de contenido, el informe incluye la mayoría de las dimensiones, métricas y filtros estándar. Los datos por dimensión de contenido están disponibles para [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] y [!DNL Triplelift]. Los editores pasan las señales de contenido durante el flujo de ofertas y están sujetas a disponibilidad.
 
 ## Informes entre cuentas {#cross-account-reporting}
 
