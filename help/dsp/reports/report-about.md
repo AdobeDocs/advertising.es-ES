@@ -3,7 +3,7 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: f2b912a9e4952d2ccb9a461cdbc56c7bc731e690
+source-git-commit: eabe6dc506c93d5e272ec4cf1d7baf798c09b6aa
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
    * **[!UICONTROL Conversion]:** Use este informe para comprender el rendimiento de sus campañas en función de las métricas de conversión capturadas mediante el seguimiento de conversiones de Adobe Advertising. Este informe incluye la atribución de múltiples contactos.
 
   <!--
-    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    * **[!UICONTROL Custom Creative Report Beta]:** (Advertisers with Advertising Creative; beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
     -->
 
    * **[!UICONTROL Device]:** Utilice esta plantilla rellenada previamente para ver las métricas clave según las dimensiones relacionadas con el dispositivo.
