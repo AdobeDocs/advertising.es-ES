@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Search Partners]:** (Campañas dirigidas únicamente a la red de búsqueda, incluidas las campañas de compras) Muestra sus anuncios en las redes de socios de búsqueda de la red de anuncios. De manera predeterminada, esta opción es *[!UICONTROL Off]*.
 
-**[!UICONTROL AI Max Enabled]:** (Campañas dirigidas solo a la red de búsqueda; solo lectura) Indica si la característica [[!UICONTROL AI Max] ](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL On]* o *[!UICONTROL Off]*.
+**[!UICONTROL AI Max Enabled]:** (Campañas dirigidas solo a la red de búsqueda; solo lectura) Indica si la característica [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL On]* o *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (Campañas dirigidas solo a la red de búsqueda; campañas con la función AI Max habilitada; solo lectura) Si se requiere el agrupamiento: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* o *[!UICONTROL Unspecified]*.
 
