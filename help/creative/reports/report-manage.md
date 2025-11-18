@@ -45,7 +45,7 @@ Duplique un informe personalizado para crear un nuevo informe con una configurac
 
 1. Haga clic en **[!UICONTROL Edit Custom Report]**.
 
-## Ejecutar un informe personalizado {report-run-now}
+## Ejecutar un informe personalizado &lbrace;report-run-now&rbrace;
 
 Puede ejecutar cualquier informe que no haya caducado y que no se esté ejecutando actualmente.
 
@@ -207,7 +207,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
