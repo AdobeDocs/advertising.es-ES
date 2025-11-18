@@ -3,9 +3,9 @@ role: User
 user-guide-title: Guía de Advertising Creative
 user-guide-description: Obtenga información sobre las funciones, tareas, configuraciones y otros recursos principales necesarios para utilizar Advertising Creative.
 breadcrumb-title: Guía de Creative
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: d9b136b296834f3fb83bbd6b70a08dd14c442530
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 6%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 6%
    + [Acerca de Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personalizar las vistas de datos](/help/creative/introduction/customize-data-views.md)
    + [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Bibliotecas de Creative {#creative-libraries}
    + [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tamaños creativos admitidos](/help/creative/creative-libraries/creative-sizes.md)
@@ -86,8 +86,10 @@ ht-degree: 6%
 + [Apéndice: Campos disponibles para archivos de fuentes de publicidad dinámica](/help/creative/appendix-available-feed-fields.md)
 + Informes de rendimiento {#reports}
    + [Informes de rendimiento de nivel de experiencia](/help/creative/experiences/experience-performance-details.md)
-   + [Informe de Creative personalizado](/help/creative/report-custom-creative.md)
+   + [Informes personalizados]{#custom-reports}
+      + [Acerca de los informes personalizados](/help/creative/report-about.md)
+      + [Administrar informes personalizados](/help/creative/report-manage.md)
 + [Redireccionamiento de píxeles](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 + [Obtener ayuda](/help/creative/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es){target="_blank"}
++ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
