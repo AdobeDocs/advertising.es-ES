@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 6e2df4268035b5461d54f1e19b4ec3526940e43b
+source-git-commit: 3b05cd38d781e93128ae7ffea4eaf8f337f4972e
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
-| 17 de noviembre de 2025 | Informes de costes para Advertising Creative | (Solo anunciantes con Advertising Creative; característica beta) El nuevo informe [!UICONTROL All-in Cost BETA] muestra cuánto se atribuyó el gasto al servicio de anuncios para Adobe Creative. Las métricas de gasto del informe incluyen [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] y [!UICONTROL Estimated Tax on Creative]. Puede ver datos creativos, de atributos, de destinatarios y de otro tipo en los niveles de campaña, paquete, ubicación y publicidad. |
+| 17 de noviembre de 2025 | Informes de costes para Advertising Creative | (Anunciantes solo con Advertising Creative y Advertising DSP; función beta) El nuevo informe [!UICONTROL All-in Cost BETA] muestra cuánto se atribuyó el gasto al servicio de publicidad para Adobe Creative. Las métricas de gasto del informe incluyen [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] y [!UICONTROL Estimated Tax on Creative]. Puede ver datos creativos, de atributos, de destinatarios y de otro tipo en los niveles de campaña, paquete, ubicación y publicidad. |
 | 24 de septiembre de 2025 | Creativos dinámicos | Ahora hay disponible un flujo de trabajo de autoservicio más sencillo para generar anuncios dinámicos a partir de los datos de un catálogo de variaciones de anuncios que se pasa a través de una plantilla de publicidad. | Consulte &quot;[Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)&quot;. |
 | 3 de septiembre de 2025 | Optimización y programación de Creative para [!DNL experiences] | La opción de menú o el botón para configurar la optimización y la programación creativas ahora se llama &quot;[!UICONTROL Creative Optimization]&quot; en lugar de &quot;[!UICONTROL Edit Schedules]&quot; o &quot;[!UICONTROL Add Schedules]&quot;.&quot; | Consulte &quot;[Personalizar la optimización y la programación creativas para una experiencia de destino](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; y &quot;[Personalizar la optimización y la programación creativas para una experiencia sin segmentación](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;. |
 |  | Rotación y programación de anuncios de [!DNL experiences] | Un nuevo tipo de rotación creativa, &quot;[!UICONTROL Sequencing]&quot;, gira los paquetes creativos asociados en un orden especificado (con el paquete 1 servido primero, el paquete 2 servido segundo, etc.), con un número total especificado de impresiones en cada secuencia de paquete. Puede configurar el paquete final en la secuencia para que (a\) se muestre indefinidamente o (b\) se vuelva al primer paquete. | Consulte &quot;[Personalizar la optimización y la programación creativas para una experiencia de destino](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; y &quot;[Personalizar la optimización y la programación creativas para una experiencia sin segmentación](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)&quot;. |
