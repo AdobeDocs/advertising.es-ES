@@ -3,7 +3,7 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 9e9fe26213fb2d5e6aaffe6d9e4f1688efebc480
+source-git-commit: 9f54812a555032a7184e8a4b0dbf69ce00a32d2c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -129,6 +129,6 @@ La vista Informe incluye los siguientes datos:
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes personalizados](/help/creative/reports/reports-about.md)
->* [Administrar informes personalizados](/help/creative/report-manage.md)
+>* [Administrar informes personalizados](/help/creative/reports/report-manage.md)
 >* [Descargar todas las experiencias en la vista](/help/creative/experiences/experience-download-view.md)
 >* [Acerca de las experiencias en Advertising Creative](/help/creative/experiences/experience-about.md)
