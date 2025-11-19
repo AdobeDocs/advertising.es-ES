@@ -2,9 +2,9 @@
 title: '[!UICONTROL Google Performance Max Placement Report]'
 description: Más información acerca de [!UICONTROL Google Performance Max Placement Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 83523acea2890272987ea9dcc1fe2f5ce4663c7e
+source-git-commit: 21dc29e97915712053bbcc39d8141693c1dbf8bf
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,13 @@ ht-degree: 0%
 
 [!UICONTROL Google Performance Max Placement Report] incluye datos de impresión para ubicaciones en [!DNL Google Ads] campañas de rendimiento máximo dentro de una cuenta especificada. El informe incluye las impresiones de cada ubicación incluida por dirección URL de destino. De forma predeterminada, los datos incluyen una fila para cada combinación de ubicación y destino de URL que recibió al menos una impresión en el intervalo de datos especificado, aunque la ubicación se haya eliminado durante el período de informe. De forma predeterminada, las filas están en orden ascendente según campaign.
 
-Utilice este informe para buscar direcciones URL que excluir y mejorar el rendimiento de las campañas Máximo rendimiento.
+Utilice este informe para:
+
+* identifique qué sitios web, aplicaciones y canales de [!DNL YouTube] muestran sus anuncios.
+
+* identifique y excluya ubicaciones irrelevantes o de bajo rendimiento para mejorar el ROI de la campaña.
+
+* asegúrese de que los anuncios aparezcan únicamente en entornos seguros para la marca creando listas de exclusión sólidas.
 
 <!-- We're pulling data directly from GGL and not storing it, so no limitations on our end WRT date range. -->
 
