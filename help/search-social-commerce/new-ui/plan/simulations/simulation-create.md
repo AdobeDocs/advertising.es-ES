@@ -3,9 +3,10 @@ title: Ejecutar o volver a ejecutar una simulación personalizada
 description: Obtenga información sobre cómo ejecutar o volver a ejecutar una simulación personalizada para un portafolio.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
+source-git-commit: d96e003346c7cc3c1803c8cba259f2b18d839168
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -107,4 +108,5 @@ Para obtener más información sobre la configuración de simulación personaliz
 >[!MORELIKETHIS]
 >
 >* [Acerca de las simulaciones](simulation-about.md)
+>* [Ver detalles de la simulación](simulation-view.md)
 >* [Descargar simulaciones](simulation-download.md)
