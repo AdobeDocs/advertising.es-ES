@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configuración de campaña'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c1085fe1b065cef95beabba2cb2ea391bd7ef3e8
+source-git-commit: 21dc29e97915712053bbcc39d8141693c1dbf8bf
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Search Partners]:** (Campañas dirigidas únicamente a la red de búsqueda, incluidas las campañas de compras) Muestra sus anuncios en las redes de socios de búsqueda de la red de anuncios. De manera predeterminada, esta opción es *[!UICONTROL Off]*.
 
-**[!UICONTROL AI Max Enabled]:** (Campañas dirigidas solo a la red de búsqueda; solo lectura) Indica si la característica [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL On]* o *[!UICONTROL Off]*.
+**[!UICONTROL AI Max Enabled]:** (Campañas dirigidas solo a la red de búsqueda; solo lectura) Indica si la característica [[!UICONTROL AI Max] ](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL On]* o *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (Campañas dirigidas solo a la red de búsqueda; campañas con la función AI Max habilitada; solo lectura) Si se requiere el agrupamiento: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* o *[!UICONTROL Unspecified]*.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/budget.md}}
 
-**[!UICONTROL Google Recommended Budget]:** (opcional; aplicable a campañas con toda la configuración necesaria y que solo incluyen grupos de anuncios) Haga clic en **[!UICONTROL Show Recommendation]** para ver el presupuesto que recomienda [!DNL Google Ads]. Para campañas complejas, la recomendación puede tardar hasta 40 segundos en generarse.
+**[!UICONTROL Google Recommended Budget]:** (opcional; aplicable para campañas de búsqueda y rendimiento máximo con toda la configuración necesaria y que solo incluyen grupos de anuncios) Haga clic en **[!UICONTROL Show Recommendation]** para ver el presupuesto que recomienda [!DNL Google Ads]. Actualmente, solo son elegibles las campañas con menos de 40 000 palabras clave.
 
 Para las campañas Máximo rendimiento y de búsqueda, se requiere la siguiente configuración para las recomendaciones:
 
