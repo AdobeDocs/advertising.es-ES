@@ -18,4 +18,4 @@ ht-degree: 56%
 + [Compatibilidad con el RGPD](/help/privacy/gdpr.md)
 + Compatibilidad con la CCPA {#ccpa}
    + [Compatibilidad con la CCPA: Acceso y eliminación de datos del consumidor](/help/privacy/ccpa/ccpa-access-delete.md)
-   + [DSP (Solo en el caso de los clientes) Compatibilidad con la CCPA: exclusión de la venta del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+   + [(Solo DSP) Compatibilidad con CCPA: exclusión de la venta del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
