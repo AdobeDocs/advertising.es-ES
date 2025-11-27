@@ -3,7 +3,7 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: Más información acerca de [!UICONTROL Campaign Assist Report].
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # El [!UICONTROL Campaign Assist Report]
 
-*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con una integración de [!DNL Analytics]) o proporcionados en fuentes usando solo un token (`ef_id`)*
+*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones de Adobe Advertising, Adobe Analytics (con una integración de [!DNL Analytics]) o proporcionados en fuentes usando solo un token (`ef_id`)*
 
 [!UICONTROL Campaign Assist Report] indica qué campañas han ayudado en el proceso de conversión. Los informes muestran cómo cada patrón de campañas cuyos anuncios produjeron una o más conversiones ha contribuido a las conversiones generales. Por ejemplo, puede ver cuántas conversiones se produjeron cuando los usuarios vieron un anuncio por primera vez desde la Campaña A, luego hicieron clic en un anuncio de la Campaña B y, por último, realizaron un pedido. Del mismo modo, puede ver cuántas conversiones se produjeron después de que los usuarios interactuaran con los anuncios de más de 10 campañas.
 
@@ -38,7 +38,7 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 | [!UICONTROL Path Size] | Predeterminado | Número de campañas en la ruta de conversión que se produjeron en la [ventana retrospectiva de clics](/help/search-social-commerce/glossary.md#c-d) del anunciante y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | Predeterminado | La primera campaña de la ruta de conversión. |
 | [!UICONTROL Last Campaign] | Predeterminado | La última campaña que resultó en conversiones (incluso si la última palabra clave está fuera del tamaño de ruta especificado).<br><br>Si ha incluido cualquiera de las opciones de informe para indicar la red de anuncios, el nombre de cuenta o el tipo de evento después del nombre de entidad, esa información se incluirá después del nombre de campaña (como `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
-| \[Métricas personalizadas (derivadas) específicas del anunciante\] | Personalizado | El valor de una métrica personalizada que ha creado y que se calcula a partir de las métricas existentes. |
+| \[Métricas personalizadas (derivadas) específicas del anunciante\] | Personalizado | El valor de una métrica personalizada que ha creado que se calcula a partir de las métricas existentes. |
 | \[Métricas de conversión específicas del anunciante\] | Personalizado | Número de conversiones de una métrica de conversión o una métrica de participación del sitio especificadas. |
 | [!UICONTROL % of Total] \[métrica de conversión\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe para cada métrica de conversión incluida) El número de conversiones para una métrica de conversión especificada que resultó del patrón de campaña. |
 | [!UICONTROL 6th Campaign] a [!UICONTROL 20th Campaign] | Personalizado | De la sexta a la vigésima campaña en la ruta de conversión que se produjo en la [ventana retrospectiva de clics del anunciante](/help/search-social-commerce/glossary.md#c-d) y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j).<br><br>Si ha incluido cualquiera de las opciones de informe para indicar la red de anuncios, el nombre de cuenta o el tipo de evento después del nombre de entidad, esa información se incluirá después del nombre de campaña (como `"<"campaign name> [Baidu] [Account1] [click]`&quot;). |
@@ -47,8 +47,8 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 | [!UICONTROL EF Campaign ID] | Personalizado | El ID numérico que Search, Social y Commerce asignan a la campaña. |
 | [!UICONTROL EF Portfolio Group ID] | Personalizado | El ID numérico del grupo de portafolios al que pertenece el portafolio. |
 | [!UICONTROL EF Search Engine ID] | Personalizado | El identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
-| [!UICONTROL Portfolio ID] | El ID numérico del portafolio. |
-| [!UICONTROL User SE Account ID] | El ID numérico que Search, Social y Commerce asignan a la red de anuncios. |
+| [!UICONTROL Portfolio ID] | El ID numérico del portafolio. |  |
+| [!UICONTROL User SE Account ID] | El ID numérico que Search, Social y Commerce asignan a la red de anuncios. |  |
 
 >[!MORELIKETHIS]
 >

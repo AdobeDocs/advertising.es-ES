@@ -3,7 +3,7 @@ title: Se requieren datos de hojas de edición masiva para  [!DNL Microsoft Adve
 description: Haga referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para  [!DNL Microsoft Advertising] cuentas.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -65,8 +65,8 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 | [!UICONTROL Display Path 1] | (Solo anuncios de texto expandidos, anuncios dinámicos de búsqueda y anuncios de búsqueda adaptables) Una ruta de visualización adicional; vea la entrada de [!UICONTROL Display Path 1].<br><br>Ejemplo: si [!UICONTROL Display Path 1] es &quot;acuerdos&quot; y [!UICONTROL Display Path 2] es &quot;local&quot;, la URL para mostrar sería &lt;<i>URL para mostrar</i>>/acuerdos/local, como www.example.com/deals/local. |
 | [!UICONTROL Start Date] | (Solo vínculos de sitio mejorados) La primera fecha en la que se pueden realizar ofertas para el vínculo de sitio, en el huso horario del anunciante y en uno de los siguientes formatos: dd/mm/aaaa, dd/mm/aa, dd/mm/aaaa o dd/mm-aa. El valor predeterminado para los nuevos vínculos de sitio mejorados es el día actual. <b>Nota:</b> Los nuevos vínculos de sitio mejorados solo se pueden crear en campañas con vínculos de sitio mejorados existentes o sin vínculos de sitio. |
 | [!UICONTROL End Date] | La última fecha en la que el vínculo al sitio puede aparecer con anuncios, en el huso horario del anunciante y en uno de los siguientes formatos: dd/mm/aaaa, dd/mm/aa, dd/mm/aaaa o dd/mm/aa. Para un nuevo vínculo de sitio, el valor predeterminado es `[blank]` (es decir, sin fecha de finalización). |
-| [!UICONTROL Call To Action] | Llamada a acción para incluir en el anuncio. Consulte la referencia de la API [para obtener una lista de valores posibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), pero especifique llamadas de varias palabras como palabras múltiples (como &quot;Apostar ahora&quot; en lugar de &quot;Apostar ahora&quot;) en hojas de edición masiva. |
-| [!UICONTROL Call To Action Language] | Idioma para las opciones de llamada a la acción. Consulte la [referencia de API para obtener una lista de idiomas posibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
+| [!UICONTROL Call To Action] | Call to action que se va a incluir en el anuncio. Consulte la referencia de la API [para obtener una lista de valores posibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), pero especifique llamadas de varias palabras como palabras múltiples (como &quot;Apostar ahora&quot; en lugar de &quot;Apostar ahora&quot;) en hojas de edición masiva. |
+| [!UICONTROL Call To Action Language] | Idioma para las opciones de call to action. Consulte la [referencia de API para obtener una lista de idiomas posibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | La dirección URL de la página de aterrizaje a la que se dirigen los usuarios del motor de búsqueda cuando hacen clic en el anuncio, incluidos los parámetros de adición configurados para la campaña o la cuenta. Las direcciones URL base/final en el nivel de palabra clave anulan las del nivel de anuncio y posteriores.<br><br>Para eliminar el valor existente, use el valor `[delete]` (incluidos los corchetes). |
 | [!UICONTROL Destination URL] | (Incluido en hojas de edición masiva generadas con fines informativos; no publicado en el motor de búsqueda) Para cuentas con direcciones URL de destino, esta es la dirección URL que vincula un anuncio a una dirección URL o página de aterrizaje base en el sitio web del anunciante (a veces a través de otro sitio que rastrea el clic y luego redirige al usuario a la página de aterrizaje). Incluye cualquier parámetro de adición configurado para la campaña o cuenta de Search, Social y Commerce. Si ha generado direcciones URL de seguimiento, esto se basa en los parámetros de seguimiento de la configuración de la cuenta y la configuración de la campaña. Si ha anexado parámetros específicos del motor de búsqueda, pueden reemplazarse por los parámetros equivalentes para Buscar, Social y Commerce.<br><br>Para cuentas con direcciones URL finales, esta columna muestra el mismo valor que la columna Dirección URL base/Dirección URL final. |
 | [!UICONTROL Custom URL Param] | Datos para sustituir la variable dinámica `{custom_code}` cuando la variable se incluye en los parámetros de seguimiento de la configuración de la cuenta de búsqueda o de la campaña. Para insertar el valor personalizado en la dirección URL de seguimiento, debe cargar el archivo de hoja de edición masiva mediante la opción Generar direcciones URL de seguimiento. |
@@ -108,11 +108,11 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 | ID de ubicación | Identificador [!DNL Microsoft Advertising] único del destino de ubicación. Para descargar una lista de ubicaciones, inicie sesión en el portal para desarrolladores de [!DNL Microsoft Advertising] con las credenciales de su cuenta publicitaria de [!DNL Microsoft Advertising]. Solo es necesario cuando se cambia o elimina el destino de ubicación, a menos que la fila incluya un &quot;[!UICONTROL AMO ID]&quot; para el destino. |
 | [!UICONTROL Target ID] | ID único que identifica un destino automático existente. Solo es necesario cuando se cambia o elimina el destino automático, a menos que la fila incluya un &quot;[!UICONTROL AMO ID]&quot; para el destino. |
 | [!UICONTROL RLSA Target ID] | Identificador exclusivo que identifica un destinatario de RLSA de nivel de campaña o de grupo de anuncios existente. En los archivos CSV y TSV, debe ir precedido de una comilla simple (&#39;).[^1] Necesario solo cuando se cambia o elimina el destino o la exclusión, a menos que la fila incluya &quot;[!UICONTROL AMO ID]&quot; para el destino. |
-| [!UICONTROL AMO ID] | (En hojas de edición masiva generadas) Identificador único generado por el Adobe para una entidad sincronizada. Para los anuncios adaptables de búsqueda, el ID de AMO es necesario para editar o eliminar anuncios a menos que incluya el ID de anuncio. Para editar los datos de todos los demás tipos de entidades con un ID de AMO, el ID de AMO es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce usan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
+| [!UICONTROL AMO ID] | (En hojas de edición masiva generadas) Identificador único generado por Adobe para una entidad sincronizada. Para los anuncios adaptables de búsqueda, el ID de AMO es necesario para editar o eliminar anuncios a menos que incluya el ID de anuncio. Para editar los datos de todos los demás tipos de entidades con un ID de AMO, el ID de AMO es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce usan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 | [!UICONTROL EF Error Message] | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de la red de publicidad con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL EF Errors] archivos. Este valor no se publica en la red de anuncios. |
 | [!UICONTROL SE Error Message] | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de la red de publicidad con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL SE Errors] archivos. Este valor no se publica en la red de anuncios. |
 | [!UICONTROL Exemption Request] | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar los nombres y el texto de cualquier política publicitaria de Google que infrinja un anuncio. |
-| [!UICONTROL Retail Hash] | (Se incluye con fines informativos en las hojas de edición masiva generadas mediante Advanced Campaign Management) Código hash alfanumérico (como f9639f40cdf56524b541e5dacf55a991) que indica que el elemento se generó mediante la vista Advanced (ACM). |
+| [!UICONTROL Retail Hash] | (Incluido con fines informativos en hojas de edición masiva generadas mediante Advanced Campaign Management) Código hash alfanumérico (como f9639f40cdf56524b541e5dacf55a991) que indica que el elemento se generó mediante la vista Avanzada (ACM). |
 
 [^1]: [!DNL Excel] convierte los números grandes en notación científica (como 2.12E+09 para 2115585666) cuando abre el archivo. Para ver los dígitos en la notación estándar, seleccione cualquier celda de la columna y haga clic dentro de la barra de fórmulas.
 
@@ -131,8 +131,8 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 | Campo | ¿Requerido? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
-| [!UICONTROL Campaign Name] | Requerido | El nombre único que identifica una campaña para una cuenta. |
-| [!UICONTROL Campaign Budget] | Necesario para crear una campaña. | Un límite diario de gasto para la campaña, con o sin símbolos monetarios y puntuación. Este valor anula pero no puede superar el presupuesto de la cuenta. |
+| [!UICONTROL Campaign Name] | Requerido. El nombre único que identifica una campaña para una cuenta. |
+| [!UICONTROL Campaign Budget] | Necesario para crear una campaña. Un límite diario de gasto para la campaña, con o sin símbolos monetarios y puntuación. Este valor anula pero no puede superar el presupuesto de la cuenta. |
 | [!UICONTROL Channel Type] | Necesario para crear una campaña. |
 | [!UICONTROL Delivery Method] | Opcional |
 | [!UICONTROL Campaign Priority] | Necesario para crear una campaña de compras. |
@@ -216,7 +216,7 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] Necesario para editar la descripción. <b>Nota:</b> Para este tipo de anuncio, al cambiar la copia de anuncio se eliminará el anuncio existente y se creará uno nuevo. |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | Necesario para editar la descripción. <b>Nota:</b> Para este tipo de anuncio, al cambiar la copia de anuncio se eliminará el anuncio existente y se creará uno nuevo. |
 | [!UICONTROL Display Path 1] | Requerido para editar el campo. |
 | [!UICONTROL Display Path 2] | Requerido para editar el campo. |
 | [!UICONTROL Creative Type] | Necesario para crear o editar el estado de un anuncio de producto. |
@@ -225,12 +225,12 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 | \[Clasificación de etiquetas específica del anunciante\] | Opcional |
 | [!UICONTROL Campaign ID] | Opcional |
 | [!UICONTROL Ad Group ID] | Opcional |
-| [!UICONTROL Ad ID] | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a) suficientes columnas de propiedad de anuncio para identificar el anuncio o b) un &quot;[!UICONTROL AMO ID]&quot;. Sin embargo, si no incluye ni [!UICONTROL Ad ID] ni [!UICONTROL AMO ID], y las columnas de propiedad de anuncio coinciden con varios anuncios, entonces solo cambiará el estado de uno de ellos. |
+| [!UICONTROL Ad ID] | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a&amp;rpar; suficientes columnas de propiedad del anuncio para identificar el anuncio o b&amp;rpar; un &quot;[!UICONTROL AMO ID]&quot;. Sin embargo, si no incluye ni [!UICONTROL Ad ID] ni [!UICONTROL AMO ID], y las columnas de propiedad de anuncio coinciden con varios anuncios, entonces solo cambiará el estado de uno de ellos. |
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce usan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de publicidad de productos (compras)
 
-Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=es)&quot;.
+Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;.
 
 Para este tipo de anuncio, utilice la fila &quot;[!UICONTROL Creative (except RSA)]&quot; en el cuadro de diálogo [!UICONTROL Download Bulksheet].
 
@@ -290,7 +290,7 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatorio a menos que cada fila incluya &quot;[!UICONTROL AMO ID]&quot; para la entidad. |
 | [!UICONTROL Campaign Name] | Requerido |
-| [!UICONTROL Ad Group Name] | Requerido | |
+| [!UICONTROL Ad Group Name] | Requerido |
 | [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | Para los anuncios adaptables de búsqueda, se requieren [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] y [!UICONTROL Ad Title 3] para crear un anuncio, y todos los demás campos de título de anuncio son opcionales. Para eliminar el valor existente de un campo no obligatorio, use el valor `[delete]` (incluidos los corchetes). |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | Opcional |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | Para los anuncios adaptables de búsqueda, se requieren [!UICONTROL Description Line 1] y [!UICONTROL Description Line 2] para crear un anuncio, y [!UICONTROL Description Line 3] y [!UICONTROL Description Line 4] son opcionales. Para eliminar el valor existente, use el valor `[delete]` (incluidos los corchetes). |
@@ -324,7 +324,7 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 | [!UICONTROL Campaign Name] | Requerido |
 | [!UICONTROL Ad Group Name] | Requerido |
 | [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 3] | Solo lectura |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] de solo lectura |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | Solo lectura |
 | [!UICONTROL Display URL] | Solo lectura |
 | [!UICONTROL Display Path 1] | Solo lectura |
 | [!UICONTROL Display Path 2] | Solo lectura |
