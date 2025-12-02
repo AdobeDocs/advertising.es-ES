@@ -3,7 +3,7 @@ title: Especificaciones del anuncio
 description: Consulte las especificaciones generales y específicas del editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
+source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 
 * **Descubrimiento:** Consulte las [especificaciones del anuncio](/help/dsp/assets/discovery-networks-ad-specs.pdf) del descubrimiento.
 
-* **Disney (incluye Hulu):** Ver las [especificaciones del anuncio](https://hulu.disneyadsales.com/ad-products/video-commercial/) de Disney.
+* **Disney (incluye Hulu):** Ver las [especificaciones del anuncio](https://www.disneyadvertising.com/mediakit/#specifications) de Disney.
 
 * **Máximo de HBO:** Consulte las [especificaciones del anuncio](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx) de HBO Max.
 
