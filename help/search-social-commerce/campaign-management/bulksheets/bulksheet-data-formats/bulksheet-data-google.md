@@ -241,7 +241,7 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 
 ### Anuncio de búsqueda dinámica ampliado
 
-Este tipo de anuncio ahora se denomina &quot;anuncio de búsqueda dinámica&quot; en [!DNL Google Ads]. Para obtener más información sobre la creación de anuncios dinámicos de búsqueda, consulte &quot;[Implementar [!DNL Google Ads] anuncios dinámicos de búsqueda](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html)&quot;.
+Este tipo de anuncio ahora se denomina &quot;anuncio de búsqueda dinámica&quot; en [!DNL Google Ads]. Para obtener más información sobre la creación de anuncios dinámicos de búsqueda, consulte &quot;[Implementar [!DNL Google Ads] anuncios dinámicos de búsqueda](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=es)&quot;.
 
 Para este tipo de anuncio, utilice la fila &quot;[!UICONTROL Creative (except RSA)]&quot; en el cuadro de diálogo [!UICONTROL Download Bulksheet].
 
@@ -266,7 +266,7 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 
 ### Campos de anuncio de compra/listado de productos
 
-Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Google Ads] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html)&quot;.
+Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Google Ads] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=es)&quot;.
 
 Para este tipo de anuncio, utilice la fila &quot;[!UICONTROL Creative (except RSA)]&quot; en el cuadro de diálogo [!UICONTROL Download Bulksheet].
 
