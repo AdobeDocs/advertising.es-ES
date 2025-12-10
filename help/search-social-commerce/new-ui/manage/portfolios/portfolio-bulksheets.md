@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo editar la configuración de varios
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Las notificaciones también se agregan al Centro de notificaciones y puede abrir
 
 ## Requisitos de datos para archivos de hojas de edición masiva cargados
 
-Consulte la ficha [!UICONTROL Instructions] en el archivo de hoja de edición masiva descargado.
+Todos los archivos de hojas de edición masiva deben incluir la columna [!UICONTROL Portfolio ID], y cada fila de datos debe incluir un valor para que [!UICONTROL Portfolio ID] pueda ser procesado. Para obtener más información acerca de los requisitos de datos, consulte la ficha [!UICONTROL Instructions] en el archivo de hoja de edición masiva descargado.
 
 Para obtener explicaciones sobre las columnas de configuración del portafolio en la ficha [!UICONTROL Portfolio Settings Edit], consulte la Guía de optimización, que está disponible en Buscar, Social y Commerce.
 
