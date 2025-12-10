@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] configuración de campaña'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] campañas.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 21dc29e97915712053bbcc39d8141693c1dbf8bf
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2617'
 ht-degree: 0%
 
 ---
@@ -38,19 +38,15 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
+<!-- left to right -->
+
 **[!UICONTROL Campaign Name]:** Un nombre de campaña único en la cuenta.
+
+**[!UICONTROL Status]:** El estado de visualización de la campaña: *Activo* o *En pausa*. El valor predeterminado para las nuevas campañas de publicidad es *Activo*.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
 {{$include /help/_includes/start-date.md}}
-
-**[!UICONTROL Audience Target Method]:**(Existentes, solo campañas de Gmail de solo lectura) Si se desea:
-
-* *[!UICONTROL Target and Bid]* Para mostrar anuncios solamente a usuarios asociados con audiencias de destino que también cumplan otros objetivos para el grupo de anuncios.
-
-* *[!UICONTROL Bid Only]:* Para mostrar anuncios incluso a personas que no están asociadas con audiencias de destino siempre y cuando satisfagan otros objetivos de nivel de grupo de anuncios. Sin embargo, puedes aumentar las probabilidades de que se muestren anuncios a audiencias específicas si estableces pujas más altas para esas audiencias.
-
-**[!UICONTROL Status]:** El estado de visualización de la campaña: *Activo* o *En pausa*. El valor predeterminado para las nuevas campañas de publicidad es *Activo*.
 
 <!-- **[!UICONTROL End Date]:** -->
 
@@ -58,7 +54,15 @@ ht-degree: 0%
 
 **[!UICONTROL Search Partners]:** (Campañas dirigidas únicamente a la red de búsqueda, incluidas las campañas de compras) Muestra sus anuncios en las redes de socios de búsqueda de la red de anuncios. De manera predeterminada, esta opción es *[!UICONTROL Off]*.
 
-**[!UICONTROL AI Max Enabled]:** (Campañas dirigidas solo a la red de búsqueda; solo lectura) Indica si la característica [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL On]* o *[!UICONTROL Off]*.
+**[!UICONTROL Audience Target Method]:**(Existentes, solo campañas de Gmail de solo lectura) Si se desea:
+
+* *[!UICONTROL Target and Bid]* Para mostrar anuncios solamente a usuarios asociados con audiencias de destino que también cumplan otros objetivos para el grupo de anuncios.
+
+* *[!UICONTROL Bid Only]:* Para mostrar anuncios incluso a personas que no están asociadas con audiencias de destino siempre y cuando satisfagan otros objetivos de nivel de grupo de anuncios. Sin embargo, puedes aumentar las probabilidades de que se muestren anuncios a audiencias específicas si estableces pujas más altas para esas audiencias.
+
+**[!UICONTROL Contains EU Political Ads]:**(Aplicable a las campañas destinadas a audiencias en la Unión Europea (UE)) Si la campaña contiene o no publicidad política según los requisitos para los anuncios publicados en la Unión Europea según la normativa de la UE 2024/90: *[!UICONTROL Yes]* o *[!UICONTROL No]*.
+
+**[!UICONTROL AI Max Enabled]:** (Campañas dirigidas solo a la red de búsqueda; solo lectura) Indica si la característica [[!UICONTROL AI Max] ](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL On]* o *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (Campañas dirigidas solo a la red de búsqueda; campañas con la función AI Max habilitada; solo lectura) Si se requiere el agrupamiento: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* o *[!UICONTROL Unspecified]*.
 

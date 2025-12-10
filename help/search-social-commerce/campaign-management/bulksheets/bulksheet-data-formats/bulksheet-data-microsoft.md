@@ -3,9 +3,9 @@ title: Se requieren datos de hojas de edición masiva para  [!DNL Microsoft Adve
 description: Haga referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para  [!DNL Microsoft Advertising] cuentas.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '6895'
+source-wordcount: '6934'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 | [!UICONTROL Channel Type] | El tipo de canal al que se dirige la campaña: <i>[!UICONTROL Audience]</i>, <i>[!UICONTROL DynamicSearchAds]</i>, <i>[!UICONTROL Search]</i> o <i>[!UICONTROL Shopping]</i>. |
 | [!UICONTROL Delivery Method] | (Solo campañas con presupuestos diarios) La rapidez con la que se muestran los anuncios de la campaña cada día:<ul><li><i>[!UICONTROL Standard (Distributed)]</i> (predeterminado para nuevas campañas): para difundir las impresiones de publicidad a lo largo del día.</li><li><i>[!UICONTROL Accelerated]:</i> Para mostrar tus anuncios con la mayor frecuencia posible hasta que se alcance tu presupuesto. Como resultado, es posible que los anuncios no aparezcan más tarde ese día.</li></ul> |
 | [!UICONTROL Campaign Priority] | (Solo campañas de compra) La prioridad con la que se usa la campaña cuando varias campañas anuncian el mismo producto: <i>[!UICONTROL Low]</i> (el valor predeterminado para las nuevas campañas), <i>[!UICONTROL Medium]</i> o <i>[!UICONTROL High]</i>.<br><br>Cuando el mismo producto se incluye en más de una campaña, la red de anuncios utiliza primero la prioridad de campaña para determinar qué campaña (y oferta asociada) es elegible para la subasta de anuncio. Cuando todas las campañas tienen la misma prioridad, es elegible la campaña con la oferta más alta. |
+| [!UICONTROL Has EU Political Ads] | (Aplicable a campañas destinadas a audiencias en la Unión Europea (UE)) Indica si la campaña contiene publicidad política según los requisitos para los anuncios publicados en la Unión Europea según la normativa de la UE 2024/90: <i>[!UICONTROL Yes]</i> o <i>[!UICONTROL No]</i>. |
 | [!UICONTROL Merchant ID] | (Campañas de compra y campañas de audiencia vinculadas únicamente a una fuente de comerciante) El ID de cliente de la cuenta de comerciante cuyos productos se utilizan para la campaña. |
 | [!UICONTROL Sales Country] | (Solo campañas de compra; solo lectura para campañas existentes) El país en el que se venden los productos de la campaña. Dado que los productos están asociados a países de destino, esta configuración determina qué productos se anuncian en la campaña. |
 | [!UICONTROL Product Scope Filter] | (Campañas que solo utilizan la red de compras) Los productos de la cuenta de comerciante para los que se pueden crear anuncios de productos para la campaña. Puede introducir hasta siete combinaciones de dimensiones de producto y atributos en las que filtrar sus productos, utilizando el formato dimensión=atributo. Separe varios filtros con un delimitador &quot;>>&quot;. Para obtener una lista de las dimensiones de producto disponibles, consulte &quot;[Filtros de productos de campañas de compras](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;.<br><br> Ejemplo: &quot;`CategoryL1==Animals & Pet Supplies>>CategoryL2=Pet Supplies>>Brand=Acme Pet Supplies`&quot;<br><br> Para eliminar los valores existentes, use el valor `[delete]` (incluidos los corchetes). |
@@ -136,6 +137,7 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 | [!UICONTROL Channel Type] | Necesario para crear una campaña. |
 | [!UICONTROL Delivery Method] | Opcional |
 | [!UICONTROL Campaign Priority] | Necesario para crear una campaña de compras. |
+| [!UICONTROL Has EU Political Ads] | Necesario para crear una campaña. |
 | [!UICONTROL Merchant ID] | Necesario para crear una campaña de compras. |
 | [!UICONTROL Sales Country] | Necesario para crear una campaña de compras. |
 | [!UICONTROL Product Scope Filter] | (Campañas de compra) Opcional |
@@ -225,12 +227,12 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 | \[Clasificación de etiquetas específica del anunciante\] | Opcional |
 | [!UICONTROL Campaign ID] | Opcional |
 | [!UICONTROL Ad Group ID] | Opcional |
-| [!UICONTROL Ad ID] | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a&rpar; suficientes columnas de propiedad del anuncio para identificar el anuncio o b&rpar; un &quot;[!UICONTROL AMO ID]&quot;. Sin embargo, si no incluye ni [!UICONTROL Ad ID] ni [!UICONTROL AMO ID], y las columnas de propiedad de anuncio coinciden con varios anuncios, entonces solo cambiará el estado de uno de ellos. |
+| [!UICONTROL Ad ID] | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a&amp;rpar; suficientes columnas de propiedad del anuncio para identificar el anuncio o b&amp;rpar; un &quot;[!UICONTROL AMO ID]&quot;. Sin embargo, si no incluye ni [!UICONTROL Ad ID] ni [!UICONTROL AMO ID], y las columnas de propiedad de anuncio coinciden con varios anuncios, entonces solo cambiará el estado de uno de ellos. |
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce usan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de publicidad de productos (compras)
 
-Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=es)&quot;.
+Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;.
 
 Para este tipo de anuncio, utilice la fila &quot;[!UICONTROL Creative (except RSA)]&quot; en el cuadro de diálogo [!UICONTROL Download Bulksheet].
 

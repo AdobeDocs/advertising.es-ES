@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Google Ads] configuración de plantillas de anuncios de compras para fuentes de inventario'
+title: '[!DNL Google Ads] configuración de plantilla de anuncio de compras para fuentes de inventario'
 description: Haga referencia a la configuración de  [!DNL Google Ads] plantillas de anuncios de compras para fuentes de inventario.
 exl-id: 36cbe719-f984-4456-8575-94b9d3e6094e
 feature: Search Inventory Feeds
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,8 @@ en primer lugar, la prioridad de la campaña para determinar qué campaña (y of
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
+
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] y [!DNL Microsoft Advertising] campañas solamente; aplicable a campañas destinadas a audiencias en la Unión Europea (UE)) Si la campaña contiene o no publicidad política según los requisitos para anuncios publicados en la Unión Europea según la normativa de la UE 2024/90: *[!UICONTROL Yes]* o *[!UICONTROL No]*.
 
 ## [!UICONTROL Ad Groups]
 

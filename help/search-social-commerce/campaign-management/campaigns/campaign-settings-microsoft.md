@@ -3,9 +3,9 @@ title: '[!DNL Microsoft Advertising] configuración de campaña'
 description: Hacer referencia a la configuración de  [!DNL Microsoft Advertising] campañas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ la campaña puede contener:
 
 * *[!UICONTROL Audience Video]:* Muestra anuncios de vídeo estándar en la red de audiencias.
 
-* *[!UICONTROL Performance Max]:* Muestra varios tipos de anuncios en todas las redes mediante pujas inteligentes de [!DNL Microsoft Advertising]. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, una llamada a la acción opcional y señales de audiencia. La red de anuncios combina automáticamente los recursos para publicar anuncios en función del canal.
+* *[!UICONTROL Performance Max]:* Muestra varios tipos de anuncios en todas las redes mediante pujas inteligentes de [!DNL Microsoft Advertising]. En la configuración de la campaña, debe especificar uno o más grupos de recursos, que incluyen imágenes, logotipos, titulares, descripciones, un call to action opcional y señales de audiencia. La red de anuncios combina automáticamente los recursos para publicar anuncios en función del canal.
 
 ## [!UICONTROL Campaign Details]
 
@@ -47,6 +47,8 @@ la campaña puede contener:
 
 {{$include /help/_includes/end-date.md}}
 
+**[!UICONTROL Contains EU Political Ads]:**(Aplicable a las campañas destinadas a audiencias en la Unión Europea (UE)) Si la campaña contiene o no publicidad política según los requisitos para los anuncios publicados en la Unión Europea según la normativa de la UE 2024/90: *[!UICONTROL Yes]* o *[!UICONTROL No]*.
+
 ## [!UICONTROL Budget Options]
 
 <!-- **[!UICONTROL Budget]:** -->
@@ -59,7 +61,7 @@ la campaña puede contener:
 
 **[!UICONTROL Bid strategy]:** Estrategia de oferta para la campaña:
 
-* *[!UICONTROL Cost per Sale]:* (solo campañas de compras) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas según [!UICONTROL Target CPS] (coste por venta). Usted paga solamente cuando un clic en su producto y resulta en una venta dentro de las 24 horas. **Nota:** No incluya campañas con esta estrategia de oferta en portafolios. La optimización de búsqueda, social y Commerce no está disponible para campañas con esta estrategia de oferta.
+* *[!UICONTROL Cost per Sale]:* (solo campañas de compras) La red de anuncios (no Buscar, Social y Commerce) optimiza las ofertas según [!UICONTROL Target CPS] (coste por venta). Usted paga solamente cuando un clic en su producto y resulta en una venta dentro de las 24 horas. **Nota:** No incluya campañas con esta estrategia de oferta en portafolios. La optimización de búsqueda, medios sociales y Commerce no está disponible para campañas con esta estrategia de oferta.
 
   Una vez guardada una campaña de compra para marcas con esta estrategia de oferta, no se puede cambiar la estrategia de oferta. Para otros tipos de campañas de compra, esta estrategia solo está disponible para nuevas campañas.
 
@@ -75,7 +77,7 @@ la campaña puede contener:
 
 * *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] campañas) Utiliza el modelo de coste por adquisición (CPA).
 
-* *[!UICONTROL Manual CPM]* (solo campañas de audiencia y campañas de vídeo de audiencia) Utiliza el modelo de coste por mil impresiones (CPM), para el cual especifica lo que desea gastar por cada 1000 impresiones vistas. Las campañas con esta estrategia de oferta no están optimizadas cuando se incluyen en portafolios.
+* *[!UICONTROL Manual CPM]* (solo campañas de audiencia y campañas de vídeo de audiencia) Utiliza el modelo de coste por mil impresiones (CPM), en el que especifica lo que desea gastar por cada 1000 impresiones vistas. Las campañas con esta estrategia de oferta no están optimizadas cuando se incluyen en portafolios.
 
 * *[!UICONTROL Maximize Clicks]:* (campañas de búsqueda y compras) La red de anuncios, no de búsqueda, social y Commerce, optimiza las ofertas para maximizar los clics. De manera opcional, escriba **[!UICONTROL Max CPC]** (costo por clic) para asegurarse de que la red publicitaria no pague más de una cantidad determinada por cada clic. **Precaución:** Al agregar una campaña con esta estrategia a un portafolio, la ponderación de los clics (no el objetivo del portafolio) genera ofertas.
 
@@ -282,7 +284,7 @@ Para obtener información acerca de la disponibilidad, consulte la ayuda de Micr
 
 * Para seleccionar recursos de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione los recursos.
 
-**[!UICONTROL Call to Action]:** Llamada a la acción para incluir en el anuncio. De manera predeterminada, *[!UICONTROL Act Now]* está seleccionado.
+**[!UICONTROL Call to Action]:** El call to action que se va a incluir en el anuncio. De manera predeterminada, *[!UICONTROL Act Now]* está seleccionado.
 
 **[!UICONTROL Business Name]:** El nombre comercial, con un máximo de 25 caracteres. No puede contener secuencias de comandos, HTML u otro lenguaje de marcado.
 

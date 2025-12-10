@@ -3,15 +3,14 @@ title: Configuración de anuncios de texto y plantillas de anuncios de búsqueda
 description: Haga referencia a la configuración de las plantillas de anuncios de búsqueda interactivos y de anuncios de texto para las fuentes de inventario.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
 
 # Configuración de anuncios de texto y plantillas de anuncios de búsqueda adaptables para fuentes de inventario
-
 
 *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
 
@@ -119,6 +118,8 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
+
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] y [!DNL Microsoft Advertising] campañas solamente; aplicable a campañas destinadas a audiencias en la Unión Europea (UE)) Si la campaña contiene o no publicidad política según los requisitos para anuncios publicados en la Unión Europea según la normativa de la UE 2024/90: *[!UICONTROL Yes]* o *[!UICONTROL No]*.
 
 ## [!UICONTROL Ad Groups]
 
@@ -228,7 +229,7 @@ Los campos de datos del archivo de fuente pueden tener un máximo de 25 caracter
 
    * El valor puede ir precedido o anexado con un símbolo de moneda o código. Por ejemplo, 2.000,00 £ y 2000 GBP son válidos.
 
-   * El valor puede incluir una coma (,) o un punto (.) como separador, con un punto opcional (.) o una coma (,) para valores fraccionarios. Por ejemplo, 1 000,00 y 2 000,10 son válidos.
+   * El valor puede incluir una coma (,) o un punto (.) como separador, con un punto opcional (.) o una coma (,) para los valores fraccionarios. Por ejemplo, 1 000,00 y 2 000,10 son válidos.
 
    * Al valor se le puede agregar un prefijo o un signo de porcentaje (%), un signo más (+) o un signo menos (-). Por ejemplo, 20%, 208+ y -42,32 son válidos.
 
@@ -238,7 +239,7 @@ Los campos de datos del archivo de fuente pueden tener un máximo de 25 caracter
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] plantillas solamente) La cadena que se va a usar como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contiene la cadena de sustitución dinámica `{Param3}`. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos publicitarios en los que la utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
 
 ## [!UICONTROL Ads]
 
@@ -318,7 +319,7 @@ Para los anuncios adaptables de búsqueda, inserte un personalizador de anuncios
 
 [!DNL Microsoft Advertising] y [!DNL Yahoo! Japan Ads] han desaprobado la creación y edición de anuncios de texto estándar.
 
-**[!UICONTROL Base URL]:** (Cuentas solo con direcciones URL de destino) Página a la que se llevan los usuarios. Puede incluir redirección de terceros y código de seguimiento. Si usa el servicio de seguimiento de conversión de Adobe Advertising y la configuración de la campaña incluye el uso de [!UICONTROL EF Redirect] y la adición de seguimiento en el nivel de anuncio, Search, Social y Commerce agregarán automáticamente su propio código de redirección y seguimiento al anuncio.
+**[!UICONTROL Base URL]:** (Cuentas solo con direcciones URL de destino) Página a la que se llevan los usuarios. Puede incluir redirección de terceros y código de seguimiento. Si usa el servicio de seguimiento de conversión de Adobe Advertising y la configuración de la campaña incluye el uso de [!UICONTROL EF Redirect] y la adición de seguimiento en el nivel de anuncio, Search, Social y Commerce agregarán automáticamente su propia redirección y código de seguimiento al anuncio.
 
 Para insertar un nombre de columna o un grupo de modificadores como parámetro dinámico, haga clic en el campo de entrada y, a continuación, haga clic en un nombre de columna en la lista de columnas o en un [nombre de modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) en la lista [!UICONTROL Modifiers].
 

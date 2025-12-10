@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Microsoft Ads] configuración de plantillas de anuncios de compras para fuentes de inventario'
+title: '[!DNL Microsoft Ads] configuración de plantilla de anuncio de compras para fuentes de inventario'
 description: Haga referencia a la configuración de  [!DNL Microsoft Ads] plantillas de anuncios de compras para fuentes de inventario.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ Utilice plantillas de anuncios de compras para configurar los anuncios de compra
 >[!NOTE]
 >
 >* Los siguientes caracteres están reservados para designar nombres de columna y nombres de modificador en la plantilla y, por lo tanto, no se admiten como texto en todos los campos de atributo: `[ ] < > `
-
 
 ## \[Sobre todas las fichas\]
 
@@ -59,7 +58,7 @@ Utilice plantillas de anuncios de compras para configurar los anuncios de compra
 
 **[!UICONTROL Campaign Tracking Template]:** (opcional para plantillas de archivos de fuentes de cliente) La plantilla de seguimiento de nivel de campaña, que especifica todas las redirecciones de dominios de aterrizaje y los parámetros de seguimiento e incrusta la dirección URL final en un parámetro. Este valor anula la configuración de nivel de cuenta, pero las plantillas de seguimiento a niveles más granulares (con palabra clave como valor más granular) anulan este valor.
 
-* Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload]&quot;, siga uno de estos procedimientos&quot;:
+* Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la configuración de la campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload]&quot;, realice una de las siguientes acciones:&quot;
 
    * (Recomendado) Usar el [formato de plantilla de seguimiento para las campañas de compras de Microsoft](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Si toda la cuenta está dedicada a anuncios de compra, puede definir una plantilla de seguimiento en el nivel de cuenta.
 
@@ -105,6 +104,8 @@ en primer lugar, la prioridad de la campaña para determinar qué campaña (y of
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
+
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] y [!DNL Microsoft Advertising] campañas solamente; aplicable a campañas destinadas a audiencias en la Unión Europea (UE)) Si la campaña contiene o no publicidad política según los requisitos para anuncios publicados en la Unión Europea según la normativa de la UE 2024/90: *[!UICONTROL Yes]* o *[!UICONTROL No]*.
 
 ## [!UICONTROL Ad Groups]
 
