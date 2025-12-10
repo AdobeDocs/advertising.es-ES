@@ -227,7 +227,7 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 | \[Clasificación de etiquetas específica del anunciante\] | Opcional |
 | [!UICONTROL Campaign ID] | Opcional |
 | [!UICONTROL Ad Group ID] | Opcional |
-| [!UICONTROL Ad ID] | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a&amp;rpar; suficientes columnas de propiedad del anuncio para identificar el anuncio o b&amp;rpar; un &quot;[!UICONTROL AMO ID]&quot;. Sin embargo, si no incluye ni [!UICONTROL Ad ID] ni [!UICONTROL AMO ID], y las columnas de propiedad de anuncio coinciden con varios anuncios, entonces solo cambiará el estado de uno de ellos. |
+| [!UICONTROL Ad ID] | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a&rpar; suficientes columnas de propiedad del anuncio para identificar el anuncio o b&rpar; un &quot;[!UICONTROL AMO ID]&quot;. Sin embargo, si no incluye ni [!UICONTROL Ad ID] ni [!UICONTROL AMO ID], y las columnas de propiedad de anuncio coinciden con varios anuncios, entonces solo cambiará el estado de uno de ellos. |
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce usan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de publicidad de productos (compras)

@@ -62,7 +62,7 @@ ht-degree: 0%
 
 **[!UICONTROL Contains EU Political Ads]:**(Aplicable a las campañas destinadas a audiencias en la Unión Europea (UE)) Si la campaña contiene o no publicidad política según los requisitos para los anuncios publicados en la Unión Europea según la normativa de la UE 2024/90: *[!UICONTROL Yes]* o *[!UICONTROL No]*.
 
-**[!UICONTROL AI Max Enabled]:** (Campañas dirigidas solo a la red de búsqueda; solo lectura) Indica si la característica [[!UICONTROL AI Max] ](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL On]* o *[!UICONTROL Off]*.
+**[!UICONTROL AI Max Enabled]:** (Campañas dirigidas solo a la red de búsqueda; solo lectura) Indica si la característica [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL On]* o *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (Campañas dirigidas solo a la red de búsqueda; campañas con la función AI Max habilitada; solo lectura) Si se requiere el agrupamiento: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* o *[!UICONTROL Unspecified]*.
 
