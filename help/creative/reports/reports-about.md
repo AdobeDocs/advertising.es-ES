@@ -2,7 +2,7 @@
 title: Acerca de los informes personalizados
 description: Obtenga información sobre las opciones para crear informes personalizados.
 feature: Creative Reporting
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -22,6 +22,6 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
 ## Informes disponibles
 
-* **[!UICONTROL All-in Cost BETA]**: (Anunciantes solo con Advertising Creative y Advertising DSP; función beta) Use este informe para ver cuánto gasto de Advertising DSP se atribuyó al servicio de publicidad para Adobe Creative. Puede ver datos creativos, de atributos, de destinatarios y de otro tipo en los niveles de campaña, paquete, ubicación y publicidad.
+* **[!UICONTROL All-in Cost]**: (Anunciantes solo con Advertising Creative y Advertising DSP; función beta) Use este informe para ver cuánto gasto de Advertising DSP se atribuyó al servicio de publicidad para Adobe Creative. Puede ver datos creativos, de atributos, de destinatarios y de otro tipo en los niveles de campaña, paquete, ubicación y publicidad.
 
 * **[!UICONTROL Custom Creative Report]:** Use este informe para supervisar el rendimiento en las experiencias de anuncios de Advertising Creative.
