@@ -3,9 +3,9 @@ role: User
 user-guide-title: Guía de Advertising Creative
 user-guide-description: Obtenga información sobre las funciones, tareas, configuraciones y otros recursos principales necesarios para utilizar Advertising Creative.
 breadcrumb-title: Guía de Creative
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 6%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 6%
    + [Acerca de Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personalizar las vistas de datos](/help/creative/introduction/customize-data-views.md)
    + [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Bibliotecas de Creative {#creative-libraries}
    + [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tamaños creativos admitidos](/help/creative/creative-libraries/creative-sizes.md)
@@ -86,10 +86,11 @@ ht-degree: 6%
 + [Apéndice: Campos disponibles para archivos de fuentes de publicidad dinámica](/help/creative/appendix-available-feed-fields.md)
 + Informes de rendimiento {#reports}
    + [Informes de rendimiento de nivel de experiencia](/help/creative/experiences/experience-performance-details.md)
+   + [Ver alertas](/help/creative/reports/alerts-view.md)
    + [Informes personalizados]{#custom-reports}
       + [Acerca de los informes personalizados](/help/creative/reports/reports-about.md)
       + [Administrar informes personalizados](/help/creative/reports/report-manage.md)
 + [Redireccionamiento de píxeles](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 + [Obtener ayuda](/help/creative/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es){target="_blank"}
++ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

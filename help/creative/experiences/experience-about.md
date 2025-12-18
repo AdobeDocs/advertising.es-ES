@@ -3,9 +3,9 @@ title: Acerca de las experiencias en Advertising Creative
 description: Aprenda a configurar experiencias de publicidad personalizadas y optimizar los elementos de publicidad en función del rendimiento.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,10 @@ Están disponibles los siguientes datos de rendimiento:
 * Puede [ver datos de rendimiento detallados de cualquier experiencia](experience-performance-details.md) desde la vista [!UICONTROL Experiences].
 
 * Para supervisar el rendimiento en todas las experiencias, cree un [Informe de Creative personalizado](/help/creative/reports/report-manage.md).
+
+## Indicadores de alerta
+
+Una columna &quot;[!UICONTROL Alerts]&quot; indica cuándo una experiencia o cualquier elemento creativo secundario tiene un problema. Un icono [!UICONTROL Pulse Panel] a la derecha de la barra de herramientas indica si hay alertas disponibles para la experiencia, incluidos sus elementos creativos secundarios. Consulte &quot;[Ver alertas](/help/creative/reports/alerts-view.md)&quot; para obtener más información.
 
 ## Estados de experiencia {#experience-statuses}
 
