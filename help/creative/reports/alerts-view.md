@@ -2,16 +2,16 @@
 title: Ver alertas
 description: Obtenga información sobre cómo ver alertas y resoluciones recomendadas para sus experiencias.
 feature: Creative Experiences
-source-git-commit: 2300fbf25566dd5ffe0f2cb68be9bebd9f211f60
+source-git-commit: 5ed7905502527cc92288d920d944406421c7ce65
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 # Ver alertas
 
-[!DNL Creative] le ayuda a identificar cuándo alguna de sus experiencias, incluidos los creativos de la experiencia, tiene problemas. Para cada problema, [!DNL Creative] emite una alerta con una marca de tiempo y la acción recomendada para resolver el problema. Las razones de las alertas incluyen experiencias caducadas y una entrega alta de anuncios predeterminados en lugar de anuncios segmentados. Las alertas están disponibles en el nivel de experiencia.
+[!DNL Creative] le ayuda a identificar cuándo alguna de sus experiencias, incluidos los creativos de la experiencia, tiene problemas. Para cada problema, [!DNL Creative] emite una alerta con una marca de tiempo y la acción recomendada para resolver el problema. Las razones de las alertas incluyen la caducidad de las experiencias en directo y una alta entrega de anuncios predeterminados en lugar de anuncios segmentados. Las alertas están disponibles en el nivel de experiencia.
 
 Puede abrir la experiencia relevante para cualquier alerta y editarla según sea necesario para resolver el problema. También puede optar por omitir una alerta individual, lo que la elimina del panel [!UICONTROL Pulse].
 
