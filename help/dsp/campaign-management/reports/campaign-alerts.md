@@ -3,9 +3,9 @@ title: Ver alertas
 description: Obtenga información sobre cómo ver alertas y resoluciones recomendadas para sus campañas y componentes de campaña.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 9ab8d3345659f48d1d131c3c6c1e1b87f0b0a0e6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Las alertas y los indicadores de alerta desaparecen automáticamente cuando se r
       1. Haga clic en el indicador de alerta de un paquete, ubicación o fila de anuncio y, a continuación, haga clic en **[!UICONTROL View in Pulse Panel]**.
 
    Se muestran todas las alertas asociadas con la campaña y sus componentes, incluidas las ofertas segmentadas. De forma predeterminada, las alertas críticas se muestran primero.
+
+1. (Anunciantes con Advertising Creative; opcional) Haga clic en la ficha **[!UICONTROL Creative]** para ver las alertas de las ubicaciones que incluyen experiencias de Advertising Creative.
 
 1. (Opcional) Para agrupar las alertas según su primera fecha de detección o para filtrar las alertas por estado de alerta, estado de componente, tipo de componente o con un nombre de campaña específico, haga clic en ![Botón de filtro](/help/dsp/assets/filter.png) en la parte superior derecha del panel, seleccione las opciones de filtro y, a continuación, haga clic en **[!UICONTROL Apply]**.
 
