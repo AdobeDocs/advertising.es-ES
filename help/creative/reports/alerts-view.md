@@ -2,9 +2,9 @@
 title: Ver alertas
 description: Obtenga información sobre cómo ver alertas y resoluciones recomendadas para sus experiencias.
 feature: Creative Experiences
-source-git-commit: 5ed7905502527cc92288d920d944406421c7ce65
+source-git-commit: e03517dc1d984df660048d81f77d5364f156fb6c
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Creative] le ayuda a identificar cuándo alguna de sus experiencias, incluidos los creativos de la experiencia, tiene problemas. Para cada problema, [!DNL Creative] emite una alerta con una marca de tiempo y la acción recomendada para resolver el problema. Las razones de las alertas incluyen la caducidad de las experiencias en directo y una alta entrega de anuncios predeterminados en lugar de anuncios segmentados. Las alertas están disponibles en el nivel de experiencia.
 
-Puede abrir la experiencia relevante para cualquier alerta y editarla según sea necesario para resolver el problema. También puede optar por omitir una alerta individual, lo que la elimina del panel [!UICONTROL Pulse].
+Puede abrir la experiencia o el elemento creativo relevante para cualquier alerta, de modo que pueda editarlo según sea necesario para resolver el problema. También puede optar por omitir una alerta individual, lo que la elimina del panel [!UICONTROL Pulse].
 
 Las alertas y los indicadores de alerta desaparecen automáticamente cuando se resuelven los problemas subyacentes.
 
@@ -31,7 +31,7 @@ Se muestran todas las alertas del anunciante. De forma predeterminada, las alert
 
 1. (Opcional) Para agrupar las alertas según su primera fecha de detección o para filtrar las alertas por estado de alerta, haga clic en ![Botón de filtro](/help/creative/assets/filter.png) en la parte superior derecha del panel, seleccione las opciones de filtro y, a continuación, haga clic en **[!UICONTROL Apply]**.
 
-1. Para ver una lista de todas las experiencias afectadas para un tipo de alerta específico, haga clic en el nombre de la alerta. Para ver los detalles de cada componente afectado, incluida la acción recomendada, haga clic en [!UICONTROL EXPAND ALL] o en el nombre del componente. Para abrir la experiencia relevante para cualquier componente afectado y realizar los cambios recomendados, mantenga el cursor sobre el nombre del componente y haga clic en ![Ir a la vista](/help/creative/assets/go-to-view.png "Ir a la vista").
+1. Para ver una lista de todas las experiencias afectadas para un tipo de alerta específico, haga clic en el nombre de la alerta. Para ver los detalles de cada componente afectado, incluida la acción recomendada, haga clic en [!UICONTROL EXPAND ALL] o en el nombre del componente. Para abrir la experiencia o el elemento creativo relevante para poder realizar los cambios recomendados, mantenga el cursor sobre el nombre del componente y haga clic en ![Ir a la vista](/help/creative/assets/go-to-view.png "Ir a la vista").
 
 1. (Opcional) Para omitir (ocultar) una alerta, mantenga el cursor sobre el nombre del componente, haga clic en ![Omitir](/help/creative/assets/alert-ignore.png "Omitir") y, a continuación, haga clic en **[!UICONTROL Ignore alert till next check]**, **[!UICONTROL Ignore alert for 3 days]** o **[!UICONTROL Ignore indefinitely]**.
 
