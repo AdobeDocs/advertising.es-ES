@@ -3,9 +3,9 @@ title: Columnas de informe disponibles
 description: Consulte las descripciones de las columnas disponibles en los informes personalizados.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 7b7e9687bf79fce564103606efbe8c5997d3c05c
+source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | Ciudad a la que se atribuyen los datos notificados. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Country] | El país al que se atribuyen los datos notificados. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL DMA] | El área de mercado designada (DMA) a la que se atribuyen los datos notificados. |
+| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Pin Code] | El código de número de índice postal (PIN) al que se atribuyen los datos notificados. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | Estado al que se atribuyen los datos notificados. |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Audience] | La audiencia. El informe admite hasta 10 audiencias únicas. |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Campaign] | La campaña. |
@@ -85,6 +86,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Media Type] | El tipo de medio. (como Pantalla, Audio, etc.) |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Publisher] | El editor. |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Placement] | La ubicación. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Budget] | El presupuesto del vuelo del paquete. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight End Date] | La fecha final del vuelo del paquete. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Rollover] | Cualquier presupuesto de rollover para el vuelo del paquete. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Start Date] | La fecha de inicio del vuelo del paquete. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | La fecha final del paquete. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | La cantidad del objetivo de ritmo del paquete. Esta cantidad se indica en gasto o en impresiones. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | El identificador único del paquete en DSP. |
@@ -144,13 +149,14 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | El total de hogares únicos (direcciones IP distintas) contactados. |
 | [!UICONTROL Metrics] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | Tipo de ID de destino. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Porcentaje del total de pujas que se pujaron en el CPM máximo. |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | El costo bruto promedio por adquisición, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | El costo bruto promedio por adquisición, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL conversion metric]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | Costo bruto promedio por clic en anuncio, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | Costo promedio por vista de vídeo completada, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | El costo bruto promedio por participación en el anuncio, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | El costo bruto promedio por impresión de anuncio, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | El costo promedio por 1000 impresiones, calculado en <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | Costo promedio por vista de vídeo, calculado por <code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross Custom Goal CPA] | El <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>, donde [!UICONTROL Custom Goal] es la ponderación del objetivo para todas las conversiones adjuntas al objetivo personalizado. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | El costo promedio por 1000 impresiones visibles, calculado en <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | Costo neto promedio por clic en anuncio, calculado por <code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Costo neto promedio por vista de vídeo completada, calculado por <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
@@ -229,7 +235,6 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<!-- |Omitted|[!UICONTROL Performance]|Custom Goal CPA|The average cost per acquisition, calculated by <code>Gross Spend / Custom Goal</code> | -->
 <!-- |Omitted|[!UICONTROL Performance]|Custom Goal ROAS|The average return on ad spend, calculated by <code>Custom goal / Gross spend</code> |-->
 
 >[!MORELIKETHIS]
