@@ -3,9 +3,9 @@ title: Administrar las cuentas de red de publicidad
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ El equipo de cuenta de Adobe le informará si las nuevas funciones requieren un 
 
 *Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
-Al habilitar una cuenta de red de publicidad, Search, Social y Commerce sincronizan los datos de campaña con la cuenta (cuando es compatible) y envían ofertas automatizadas o presupuestos de campaña para las campañas en portafolios. Al deshabilitar una cuenta de red de publicidad, Search, Social y Commerce detienen toda la actividad en la cuenta. Los datos recopilados mientras la cuenta estaba activa se siguen almacenando, pero las vistas e informes de administración de campañas no incluyen datos del período de tiempo en el que la cuenta está deshabilitada. Más tarde puede volver a habilitar la cuenta para reanudar la actividad con la cuenta.
+Al habilitar una cuenta de red de publicidad, Search, Social y Commerce sincronizan los datos de campaña con la cuenta (cuando es compatible) y envían ofertas automatizadas o presupuestos de campaña para las campañas en portafolios. Cuando deshabilita una cuenta de red de publicidad, Search, Social y Commerce detienen toda la actividad en la cuenta. Los datos recopilados mientras la cuenta estaba activa se siguen almacenando, pero las vistas e informes de administración de campañas no incluyen datos del período de tiempo en el que la cuenta está deshabilitada. Más tarde puede volver a habilitar la cuenta para reanudar la actividad con la cuenta.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. En el submenú, haga clic en **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -153,7 +153,7 @@ Al habilitar una cuenta de red de publicidad, Search, Social y Commerce sincroni
 
 >[!NOTE]
 >
->Si tiene una integración de Search, Social y Commerce-Adobe Analytics y cambia el nombre de la cuenta de búsqueda, notifique al equipo de cuenta de Adobe para que pueda actualizar la asignación.
+>Si tiene una integración de Search, Social y Commerce-Adobe Analytics y cambia el nombre de la cuenta de búsqueda, pida al equipo de cuenta de Adobe que actualice la asignación.
 
 **[!UICONTROL Login Details]: \[Tipo de inicio de sesión\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] solamente) Si se autorizan los inicios de sesión en la cuenta mediante:
 
