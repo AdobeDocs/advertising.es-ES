@@ -3,9 +3,9 @@ title: Objetivos personalizados
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Cada objetivo personalizado (objetivo) consta de una o más métricas de convers
 
 Por ejemplo, supongamos que hay tres métricas de conversión relevantes para un paquete específico en una de las campañas: &quot;Descarga de PDF&quot; valorada en 20 USD, &quot;Suscripción por correo electrónico&quot; valorada en 30 USD y &quot;Confirmación de pedido&quot; valorada en 40 USD. Si desea dar peso según el valor monetario único de la acción del cliente, los pesos relativos de las métricas serían 1, 1,5 y 2.
 
-Una vez que [cree una meta personalizada](#custom-goal-create), puede [asignarla a un paquete](/help/dsp/campaign-management/packages/package-settings.md) para la optimización algorítmica y de informes mediante Adobe Sensei.
+Una vez que [cree una meta personalizada](#custom-goal-create), puede [asignarla a un paquete](/help/dsp/campaign-management/packages/package-settings.md) para la optimización algorítmica y de informes con [!DNL Adobe AI].
 
 Las recomendaciones de peso se generan automáticamente para métricas atribuidas a DSP en objetivos y pueden aplicarse con un solo clic. Todos los cambios de peso en los objetivos con el prefijo &quot;ADSP_&quot; se aplican de forma algorítmica en DSP en un plazo de dos días. Para obtener más información sobre las recomendaciones de peso, consulte el capítulo Guía de optimización sobre &quot;Objetivos&quot;, que está disponible en Search, Social y Commerce.
 
@@ -106,7 +106,7 @@ Si el objetivo de la campaña es el menor coste por adquisición (CPA) y solo re
 
 Hay dos escenarios en los que utilizaría varias métricas en un objetivo personalizado:
 
-* El objetivo de la campaña tiene varios eventos de éxito. Por ejemplo: tal vez esté anunciando más de una acción en el sitio (descarga de PDF, póngase en contacto con nosotros y regístrese por correo electrónico) y todas son acciones que contribuyen a su objetivo de CPA. Si el objetivo incluye las tres métricas independientes, cada una con pesos no móviles de uno (1), el algoritmo [!DNL Adobe Sensei] tratará cada una de las métricas y tipos de dispositivos de usuario con la misma importancia. Si las distintas métricas tienen distintos costes o importancia, debe ajustar sus pesos relativos en consecuencia.
+* El objetivo de la campaña tiene varios eventos de éxito. Por ejemplo: tal vez esté anunciando más de una acción en el sitio (descarga de PDF, póngase en contacto con nosotros y regístrese por correo electrónico) y todas son acciones que contribuyen a su objetivo de CPA. Si el objetivo incluye las tres métricas independientes, cada una con pesos no móviles de uno (1), el algoritmo con tecnología [!DNL Adobe AI] tratará cada una de las métricas y tipos de dispositivos de usuario con la misma importancia. Si las distintas métricas tienen distintos costes o importancia, debe ajustar sus pesos relativos en consecuencia.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -116,7 +116,7 @@ Hay dos escenarios en los que utilizaría varias métricas en un objetivo person
 
 * La métrica de conversión única del objetivo personalizado no alcanza el mínimo de 10 conversiones al día necesarias para un rendimiento optimizado. Esto puede ocurrir debido a un gasto diario mínimo en paquetes o a un número limitado de conversiones naturales. Añadir métricas de soporte adicionales al objetivo personalizado puede ayudarle a alcanzar el umbral de 10 conversiones al día. Diez eventos de soporte pueden ayudar a un paquete a alcanzar el umbral de 10/día, incluso cuando cada uno de sus pesos es inferior a uno (1). Sin embargo, es posible que no tenga que agregar tantos eventos.
 
-  Cuando añada métricas de soporte a un objetivo personalizado, pongúrelas según su importancia relativa al evento de éxito principal y tenga en cuenta la cantidad de puntos de datos. Esto permite que el algoritmo de Adobe Sensei equilibre varias métricas y las optimice para alcanzar su objetivo.
+  Cuando añada métricas de soporte a un objetivo personalizado, pongúrelas según su importancia relativa al evento de éxito principal y tenga en cuenta la cantidad de puntos de datos. Esto permite que el algoritmo de [!DNL Adobe AI] equilibre varias métricas y las optimice hacia su objetivo.
 
   El siguiente objetivo de ejemplo incluye tres métricas, cada una con un peso diferente para los dispositivos no móviles: Envío de aplicación = 1, Inicio de aplicación = 0,1 y Página de aterrizaje del anunciante = 0,01. Esto significa que cada conversión de envío de solicitud tiene para su empresa el mismo valor que un promedio de 10 conversiones de inicio de solicitud y 100 conversiones de página de aterrizaje del anunciante.
 

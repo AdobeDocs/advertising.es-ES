@@ -3,22 +3,22 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
 # Prácticas recomendadas para configurar campañas de rendimiento
 
-DSP Puede optimizar sus campañas centradas en el rendimiento. Consulte las siguientes prácticas recomendadas para campañas de rendimiento:
+DSP puede optimizar sus campañas centradas en el rendimiento. Consulte las siguientes prácticas recomendadas para campañas de rendimiento:
 
 * Paso 1: Definición de la meta
 * Paso 2: Definición de la estrategia
 * Paso 3: Creación de paquetes
 * Paso 4: Creación de una estructura de ubicación
-* Paso 5: Uso de Creative Assets adecuado
+* Paso 5: Uso del Assets de Creative adecuado
 
 ## Paso 1: Definición de la meta
 
@@ -26,13 +26,13 @@ Es importante comprender el objetivo de la campaña, como lograr el ROAS más al
 
 ![objetivo de optimización](/help/dsp/assets/optimization-goals.png)
 
-También debe determinar los eventos de éxito que conducen a la meta general y crear metas personalizadas en consecuencia. Para cada paquete, especifique un objetivo personalizado que se utilizará con el objetivo de optimización general para la optimización algorítmica y de informes con [!DNL Adobe Sensei]. Para obtener más información sobre cómo crear metas personalizadas, incluidas las prácticas recomendadas, consulte [Metas personalizadas](custom-goal.md).
+También debe determinar los eventos de éxito que conducen a la meta general y crear metas personalizadas en consecuencia. Para cada paquete, especifique un objetivo personalizado que se utilizará con el objetivo de optimización general para la optimización algorítmica y de informes con [!DNL Adobe AI]. Para obtener más información sobre cómo crear metas personalizadas, incluidas las prácticas recomendadas, consulte [Metas personalizadas](custom-goal.md).
 
 ## Paso 2: Definición de la estrategia
 
 ### Estrategias de prospección
 
-Los paquetes de canal superior incluyen ubicaciones con una segmentación muy amplia para llegar a nuevos consumidores netos.
+Los paquetes de funnel superiores incluyen ubicaciones con una segmentación muy amplia para llegar a nuevos consumidores netos.
 
 #### Estrategias de colocación recomendadas para la prospección
 
@@ -43,21 +43,21 @@ Los paquetes de canal superior incluyen ubicaciones con una segmentación muy am
    * Segmentación contextual.
    * Segmentación de sitios/categorías.
 
-* Usar la segmentación por ejecución de red (RON): es importante incluir una ejecución de ubicación de red sin segmentación de audiencia y con una segmentación de inventario amplia. Esto permite que el algoritmo [!DNL Adobe Sensei] encuentre usuarios valiosos que pueden tener cookies más recientes que aún no se han clasificado en una audiencia.
+* Usar la segmentación por ejecución de red (RON): es importante incluir una ejecución de ubicación de red sin segmentación de audiencia y con una segmentación de inventario amplia. Esto permite que el algoritmo de [!DNL Adobe AI] encuentre usuarios valiosos que pueden tener cookies más recientes que aún no se han clasificado en una audiencia.
 
 ### Estrategias de redireccionamiento
 
-Los paquetes de canal inferior incluyen ubicaciones que se dirigen a usuarios que ya han estado en la página web del anunciante o para los que el anunciante tiene datos CRM.
+Los paquetes de funnel inferiores incluyen ubicaciones que se dirigen a usuarios que ya han estado en la página web del anunciante o para los que el anunciante tiene datos CRM.
 
 #### Estrategias de colocación recomendadas para la reorientación
 
-* Si el anunciante es un cliente de Adobe Analytics o Adobe Audience Manager DSP, puede generar segmentos de origen (como visitantes de la página de inicio, páginas de productos o personas que abandonan el carro de compras) y utilizarlos como objetivos de ubicación en la.
+* Si el anunciante es un cliente de Adobe Analytics o Adobe Audience Manager, puede generar segmentos de origen (como visitantes de la página principal, páginas de productos o personas que abandonan el carro de compras) y utilizarlos como objetivos de ubicación en DSP.
 
 * Evite asignar demasiado presupuesto a una ubicación segmentada por audiencia. Como regla general, presupuestar $30 por cada 1,000 usuarios al mes.
 
 ## Paso 3: Creación de paquetes
 
-La práctica recomendada es crear paquetes separados para la prospección del canal superior y para el redireccionamiento del canal inferior. La optimización se produce en el nivel de paquete, de modo que los datos de rendimiento de todas las ubicaciones dentro de un paquete se agrupen. Por lo tanto, agrupe las ubicaciones en paquetes con un rendimiento esperado similar.
+La práctica recomendada es crear paquetes separados para la prospección de funnel superior y para la redireccionamiento de funnel inferior. La optimización se produce en el nivel de paquete, de modo que los datos de rendimiento de todas las ubicaciones dentro de un paquete se agrupen. Por lo tanto, agrupe las ubicaciones en paquetes con un rendimiento esperado similar.
 
 ![ejemplo de paquetes separados para prospección y retargeting](/help/dsp/assets/p-r.png)
 
@@ -71,7 +71,7 @@ Además, utilice la siguiente configuración.
 
   Por ejemplo, si tiene 100 000 $ para gastar en 30 días, establezca el presupuesto del vuelo 1 (días 1-10) en 25 000 $ (75 % x 100 000 $/30 días = 2 500 $ por día). Utilice el presupuesto restante de $75,000 para el Vuelo 2 (Días 11-30).
 
-* DSP **Presupuesto:** siempre intenta asignar el 100% del presupuesto del paquete de manera uniforme entre todas las ubicaciones de un paquete. Si una ubicación tiene un gasto bajo o ninguno, se recomienda limitar el presupuesto a la ubicación para permitir que se asigne más del presupuesto a las ubicaciones con escala. Espere entre 24 y 48 horas para que se calibran los cambios de presupuesto.
+* **Presupuesto:** DSP siempre intenta asignar el 100% del presupuesto del paquete de manera uniforme entre todas las ubicaciones de un paquete. Si una ubicación tiene un gasto bajo o ninguno, se recomienda limitar el presupuesto a la ubicación para permitir que se asigne más del presupuesto a las ubicaciones con escala. Espere entre 24 y 48 horas para que se calibran los cambios de presupuesto.
 
 * **Objetivos de optimización:** Use uno de los dos objetivos de optimización de rendimiento, *[!UICONTROL Highest Return on Ad Spend]* o *[!UICONTROL Lowest Cost per Acquisition]*, según el objetivo del paquete. Estos objetivos optimizan automáticamente el paquete hacia las ubicaciones de ROAS más alta o CPA más baja, respectivamente.
 
@@ -140,14 +140,14 @@ Para maximizar la escala, use el inventario [!UICONTROL Public] (Open Exchange) 
 
 * **[!UICONTROL Device Targeting]**:
    * Incluir [!UICONTROL Computer], [!UICONTROL Mobile] y [!UICONTROL Tablet].
-   * No se debe segmentar [!UICONTROL Firefox] y [!UICONTROL Safari] debido a las limitaciones de segmentación y medición. Póngase en contacto con el equipo de cuenta de Adobe para obtener más detalles acerca de la compatibilidad con [!DNL Adobe] para [!DNL Safari ITP].
+   * No se debe segmentar [!UICONTROL Firefox] y [!UICONTROL Safari] debido a las limitaciones de segmentación y medición. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más detalles acerca de la compatibilidad con [!DNL Adobe] para [!DNL Safari ITP].
    * Si dirige el tráfico web móvil, deshabilite todos los exploradores móviles excepto [!UICONTROL Chrome] y [!UICONTROL Edge].
 
 ### Seguridad de marca y calidad de medios
 
 El uso del filtrado contextual, el bloqueo de fraude de oferta previa o el filtrado [!UICONTROL Ads.txt] limita la escala de las ubicaciones, pero puede utilizarlos en caso necesario.
 
-## Paso 5: Uso de Creative Assets adecuado
+## Paso 5: Uso del Assets de Creative adecuado
 
 * La práctica recomendada es incluir tantos tamaños de anuncio únicos como sea posible para maximizar el alcance. La plantilla de visualización universal le permite cargar cualquier tamaño de anuncio de visualización estándar.
 * Asegúrese de que todas las ubicaciones contengan *al menos* todos los tamaños de anuncios de pantallas principales (300x250, 728x90, 160x600, 300x600, 320x50 y 300x50).
@@ -157,7 +157,7 @@ El uso del filtrado contextual, el bloqueo de fraude de oferta previa o el filtr
 >
 >* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-> * DSP [Cómo Optimiza El Uso De Las Campañas](optimization-how-dsp-optimizes-campaigns.md)
+> * [Cómo DSP Optimiza Sus Campañas](optimization-how-dsp-optimizes-campaigns.md)
 >* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
 >* [Filtros de pujas previas de nivel de ubicación y cómo usarlos](optimization-pre-bid-filters.md)
 >* [Lista de comprobación de inicio de campaña](/help/dsp/campaign-management/campaign-launch-checklist.md)
