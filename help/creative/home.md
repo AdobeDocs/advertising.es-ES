@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 237d05e2ca97325aa45c2ed64665079e785acb68
+source-git-commit: 7167fdcd7a7dfb52a64910216fa351b8663e7d5f
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 21 de febrero de 2026 | Biblioteca de Creative, Adobe GenStudio for Performance Marketing | Los anunciantes con [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) ahora pueden importar experiencias de anuncios en pantalla de GenStudio a sus bibliotecas creativas. <!-- Each GenStudio experience is saved as an HTML5 creative.--> Puede incluir los elementos creativos importados dentro de sus experiencias de Advertising Creative. | Consulte &quot;[Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)&quot; y &quot;[Agregar elementos creativos estándar a una biblioteca creativa](/help/creative/creative-libraries/creative-add-standard.md)&quot;. |
 | 17 de diciembre de 2025 | Alertas | Un icono [!UICONTROL Pulse Panel] en la vista [!UICONTROL Experiences] indica si hay alertas disponibles para sus experiencias. Puede abrir el panel para ver cada alerta y, opcionalmente, abrir la experiencia o el elemento creativo aplicable para poder editarlo según sea necesario y resolver el problema. Si lo desea, también puede descartar cualquier alerta.<br><br>Para anunciantes con Advertising DSP, las alertas sobre ubicaciones de DSP creadas a partir de [!DNL Creative] experiencias están disponibles en el nivel de campaña en DSP. | Consulte &quot;[Ver alertas](/help/creative/reports/alerts-view.md).&quot; |
 | 26 de noviembre de 2025 | Informes de costes para Advertising Creative | (Anunciantes solo con Advertising Creative y Advertising DSP; característica beta) El nuevo informe [!UICONTROL All-in Cost] no está en versión beta y está disponible de forma general. | Consulte &quot;[Acerca de los informes personalizados](/help/creative/reports/reports-about.md)&quot; y &quot;[Administrar informes personalizados](/help/creative/reports/report-manage.md)&quot;. |
 | 17 de noviembre de 2025 | Informes de costes para Advertising Creative | (Anunciantes solo con Advertising Creative y Advertising DSP; función beta) El nuevo informe [!UICONTROL All-in Cost BETA] muestra cuánto se atribuyó el gasto al servicio de publicidad para Adobe Creative. Las métricas de gasto del informe incluyen [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] y [!UICONTROL Estimated Tax on Creative]. Puede ver datos creativos, de atributos, de destinatarios y de otro tipo en los niveles de campaña, paquete, ubicación y publicidad. | Consulte &quot;[Acerca de los informes personalizados](/help/creative/reports/reports-about.md)&quot; y &quot;[Administrar informes personalizados](/help/creative/reports/report-manage.md)&quot;. |

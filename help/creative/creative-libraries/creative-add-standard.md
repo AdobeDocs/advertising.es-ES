@@ -3,9 +3,9 @@ title: Añadir elementos creativos estándar a una biblioteca creativa
 description: Aprenda a añadir elementos creativos estándar (no dinámicos) a una biblioteca creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
+source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Puede cargar varias unidades creativas flexibles. Los elementos creativos flexib
 
 ### Añadir elementos creativos flexibles mediante una plantilla {#flexible-creative-use-template}
 
-Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo] (flexible-creative-upload).>
+Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -98,9 +98,13 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. Haga clic en **[!UICONTROL Create]**.
 
-## Añadir un elemento creativo de HTML5 a una biblioteca creativa
+## Añadir un elemento creativo de visualización estándar a una biblioteca creativa
 
-Puede añadir varios creativos de HTML5 de un solo tipo (simples o estáticos) a la vez.
+Los elementos creativos de pantalla estándar incluyen elementos creativos de imagen y HTML5, incluidos los importados de Adobe Experience Manager y Adobe GenStudio for Performance Marketing.
+
+* Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PNG. El tamaño máximo de archivo es de dos (2) MB. Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
+
+* Puede agregar varios recursos de Experience Manager, varias experiencias de GenStudio o varios creativos locales de HTML5 de un solo tipo (simples o estáticos) a la vez. Para los creativos de HTML5, consulte la [especificación de anuncios de HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -114,71 +118,49 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Haga clic en el nombre de la biblioteca.
 
-1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL HTML5]**.
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Standard Display]**.
 
-<!-- Not an option as of 3/4:
+1. Especifique los elementos creativos:
 
-1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
-
-   The ZIP file is downloaded according to your browser's normal procedure, usually to the folder that is specified for downloads. 
-   
-   To create your own HTML5 creative using the sample, unzip the file and edit the contents to include your own ad images and attributes. Then, rename the folder and zip it, and continue below.
-
--->
-
-1. Especifique los archivos de cualquiera de las siguientes maneras:
-
-   * Arrastre y suelte los archivos del dispositivo o de la red en el cuadro.
-
-   * Haga clic en **[!UICONTROL Select a file]** para localizar el archivo en su dispositivo o red.
-
-   Consulte la [especificación de anuncio de HTML5](/help/creative/creative-libraries/html5-creative-specification.md).
-
-1. Especifique la [configuración del anuncio de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
-
-De forma predeterminada, se seleccionan todos los creativos que acaba de cargar. Cualquier configuración con un solo valor se aplica a todos los creativos seleccionados; para algunos ajustes, puede especificar valores individuales. Para especificar la configuración de los elementos creativos específicos, anule la selección de la casilla de verificación situada junto a cada elemento creativo no aplicable.
-
-1. Haga clic **[!UICONTROL Create]**
-
-## Añadir un elemento creativo de imagen a una biblioteca creativa
-
-Los elementos creativos de la imagen pueden estar en formato GIF, JPEG, JPG o PNG. El tamaño máximo de archivo es de dos (2) MB. Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
-
-1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
-
-1. Haga clic en el nombre de la biblioteca.
-
-1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Image]**.
-
-1. Especifique las imágenes:
-
-   * Para los recursos de imagen locales, realice una de las siguientes acciones:
+   * Para la imagen local o los recursos de HTML5, realice una de las acciones siguientes:
 
       * Arrastre y suelte los archivos del dispositivo o de la red en el cuadro.
 
       * Haga clic en **[!UICONTROL Select a file]** para buscar archivos en su dispositivo o red.
 
-   * Para las imágenes aprobadas en una [biblioteca de Adobe Experience Manager conectada a su cuenta de DSP](/help/creative/creative-libraries/aem-assets-configure.md), haga lo siguiente:
+   * Para las imágenes aprobadas en una [biblioteca de Experience Manager conectada a su cuenta de DSP](/help/creative/creative-libraries/aem-assets-configure.md), haga lo siguiente:
 
       1. Haga clic en **[!UICONTROL AEM Asset Library]**.
 
-      1. Inicie sesión en su cuenta de Experience Manager.
+      1. (Si aún no ha iniciado sesión en su cuenta de Experience Manager) Inicie sesión en su cuenta de Experience Manager.
 
       1. Busque y seleccione los archivos en las vistas [!UICONTROL Assets] o [!UICONTROL Collections], y después haga clic en **[!UICONTROL Select]** en la esquina superior derecha.
 
          <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
 
-1. Agregar o quitar imágenes:
+   * Para las experiencias de GenStudio, haga lo siguiente:
+
+      1. Haga clic en **[!UICONTROL GenStudio Library]**.
+
+      1. (Si aún no ha iniciado sesión en su cuenta de GenStudio) Inicie sesión en su cuenta de GenStudio.
+
+         Las experiencias de anuncios en pantalla se muestran de forma predeterminada. Si lo desea, filtre sus experiencias por campaña u otros atributos según sea necesario.
+
+      1. Busque y seleccione las experiencias de anuncio en pantalla y, a continuación, haga clic en **[!UICONTROL Select]** en la esquina superior derecha.
+
+         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+
+1. Agregar o quitar elementos creativos:
 
    * Para agregar una imagen, haz clic en ![Agregar](/help/creative/assets/create.png "Agregar") en la esquina superior izquierda y localiza el archivo en tu dispositivo o red.
 
    * Para quitar una imagen, anule la selección de la casilla de verificación situada junto a ella.
 
-1. Especifique la [configuración de creatividad para imágenes](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
+1. Especifique la [configuración creativa de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) o la [configuración creativa de imagen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
    De forma predeterminada, se seleccionan todos los creativos que acaba de cargar y cualquier configuración que especifique se aplica a todos los creativos seleccionados. Cualquier configuración con un solo valor se aplica a todos los elementos creativos seleccionados. Para introducir la configuración de creativos específicos, anule la selección de cada creativo no aplicable.
 
-1. Haga clic **[!UICONTROL Create]**
+1. Haga clic en **[!UICONTROL Create]** o **[!UICONTROL Import]**.
 
 ## Añadir un elemento creativo de terceros a una biblioteca creativa {#creative-add-third-party}
 
