@@ -1,20 +1,20 @@
 ---
 title: Acerca de Adobe Advertising Creative
-description: Más información sobre [!DNL Creative].
+description: Obtenga información sobre [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 1394b988828f5400b858f1a40b1b6382431a62b0
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
 
-# Acerca de Adobe Advertising Creative 2.0
+# Acerca de Adobe Systems Advertising Creative 2.0
 
 <!-- verify all and rewrite to include new stuff -->
 
-Como parte de Adobe Advertising, Advertising Creative es una plataforma de autoservicio para automatizar experiencias publicitarias personalizadas en tiempo real y, opcionalmente, optimizar los anuncios en el nivel de elemento creativo.<!-- Verify -->: puede implementar las experiencias publicitarias como anuncios en cualquier DSP, incluido Adobe Advertising DSP.
+Como parte de Adobe Systems Advertising, Advertising Creative es una plataforma de autoservicio para automatizar experiencias de anuncios personalizadas en tiempo real y, opcionalmente, optimizar sus anuncios a nivel elemento creativo.<!-- Verify --> Puede implementar las experiencias anuncios como anuncios en cualquier DSP, incluidos Adobe Systems DSP publicitarios.
 
 ## Bibliotecas creativas personalizadas de creativos reutilizables
 
@@ -22,17 +22,21 @@ Las bibliotecas de Creative le permiten administrar los elementos creativos que 
 
 ### [!DNL Adobe] integraciones de recursos
 
-[!DNL Creative] está directamente integrado con Adobe Experience Manager, lo que le permite cargar fácilmente los recursos de imagen [!DNL Adobe] que el equipo de diseño crea y aprueba para los anuncios de imagen estándar.
+[!DNL Creative] está directamente integrado con los siguientes [!DNL Adobe] productos, lo que le permite importar recursos a sus bibliotecas creativas:
+
+* **Adobe Experience Manager:** Cargue los recursos de imagen [!DNL Adobe] que el equipo de diseño crea y aprueba para los anuncios de imagen estándar.
+
+* **Adobe GenStudio for Performance Marketing:** Importe todas las variantes de anuncios de sus experiencias de anuncios en pantalla como elementos creativos de HTML5.
 
 ## Experiencias basadas en reglas y sin segmentación
 
-* **Experiencias segmentadas y basadas en reglas:** Cree historias con un modelo de árbol de decisiones basado en reglas, para desplegar una cadena coreográfica de anuncios que se personalizan en tiempo real según lo que sepa sobre su audiencia. Por ejemplo: las historias pueden cambiar según el comportamiento del cliente, la ubicación geográfica, la demografía, el redireccionamiento, la posición en el recorrido del cliente, etc.
+* **Experiencias dirigidas y basadas en reglas:** cree historias utilizando un modelo de árbol de decisiones basado en reglas, desplegando una cadena coreografiada de anuncios personalizados en tiempo real en función de lo que sabe sobre su audiencia. Por ejemplo: las historias pueden cambiar según el comportamiento del cliente, la ubicación geográfica, la demografía, el redireccionamiento, la posición en el recorrido del cliente, etc.
 
-* **Experiencias sin objetivo:** Programe y optimice los elementos de anuncio sin reducir la audiencia.
+* **Experiencias no segmentadas:** programe y optimice anuncios elementos sin reducir el audiencia.
 
-### Integraciones de datos de [!DNL Adobe]
+### [!DNL Adobe] integraciones de datos
 
-Puede usar sus segmentos de audiencia propios de Adobe Audience Manager y Adobe Analytics, así como los segmentos de audiencia personalizados que cree en Advertising DSP y los píxeles de retargeting que cree con [!DNL Creative], como objetivos para determinados elementos creativos de una experiencia publicitaria. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+Use sus segmentos de audiencia propios de Adobe Audience Manager y Adobe Analytics, así como los segmentos de audiencia personalizados que cree en Advertising DSP y los píxeles de retargeting que cree con [!DNL Creative], como objetivos para determinados elementos creativos de una experiencia publicitaria. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### Implementación de experiencias como anuncios
 
@@ -50,11 +54,11 @@ Opcionalmente, puede permitir que [!DNL Creative] optimice los elementos de publ
 
 Puede crear píxeles de retargeting para utilizarlos como objetivos para creativos dentro de una experiencia publicitaria. Los objetivos muestran anuncios únicamente a los usuarios con atributos especificados que visitaron anteriormente páginas web específicas.
 
-## Seguimiento de impresión, clics y conversiones
+## Imprimir, hacer clic y Conversión seguimiento
 
-[!DNL Creative] registra automáticamente todas las impresiones y clics de anuncios publicados desde una experiencia. También puede añadir direcciones URL de seguimiento de impresiones y clics de terceros a los creativos de las bibliotecas de Creative, así como direcciones URL de seguimiento personalizadas en una experiencia.
+[!DNL Creative] Rastrea automáticamente todas las impresiones y clics de anuncios publicados desde una experiencia. También puede, opcionalmente, agregar terceros URL de seguimiento impresión y seguimiento clic a los elementos creativos de las bibliotecas de Creative, así como URL de seguimiento personalizadas en un experiencia.
 
-[!DNL Creative] también hace un seguimiento de las conversiones de los anuncios publicados creados a partir de sus experiencias publicitarias.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
+[!DNL Creative] También realiza un seguimiento de las conversiones de los anuncios publicados creados a partir de sus experiencias anuncios.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
 
 <!--
  [Don't need to mention] When an ad is served, the DSP that buys the ad first tracks the impression, and then passes the impression information to [!DNL Creative]. [!DNL Creative] first tracks a click on an ad, and it then passes the click information
