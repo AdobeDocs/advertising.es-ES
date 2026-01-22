@@ -3,9 +3,9 @@ title: Añadir elementos creativos estándar a una biblioteca creativa
 description: Aprenda a añadir elementos creativos estándar (no dinámicos) a una biblioteca creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Puede cargar varias unidades creativas flexibles. Los elementos creativos flexib
 
 ### Añadir elementos creativos flexibles mediante una plantilla {#flexible-creative-use-template}
 
-Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo] (flexible-creative-upload).>
+Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -148,7 +148,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. Busque y seleccione las experiencias de anuncio en pantalla y, a continuación, haga clic en **[!UICONTROL Select]** en la esquina superior derecha.
 
-         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+     Cada variante creativa de una experiencia seleccionada se importará como un elemento creativo de HTML5 independiente.
 
 1. Agregar o quitar elementos creativos:
 
@@ -158,9 +158,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Especifique la [configuración creativa de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) o la [configuración creativa de imagen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
-   De forma predeterminada, se seleccionan todos los creativos que acaba de cargar y cualquier configuración que especifique se aplica a todos los creativos seleccionados. Cualquier configuración con un solo valor se aplica a todos los elementos creativos seleccionados. Para introducir la configuración de creativos específicos, anule la selección de cada creativo no aplicable.
+   De forma predeterminada, se seleccionan todas las experiencias creativas o de GenStudio que acaba de cargar y cualquier configuración que especifique se aplica a todos los elementos seleccionados. Cualquier configuración con un solo valor se aplica a todos los elementos seleccionados. Para especificar la configuración de experiencias creativas o de GenStudio específicas, anule la selección de cada experiencia o creatividad no aplicable.
 
-1. Haga clic en **[!UICONTROL Create]** o **[!UICONTROL Import]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
 ## Añadir un elemento creativo de terceros a una biblioteca creativa {#creative-add-third-party}
 
