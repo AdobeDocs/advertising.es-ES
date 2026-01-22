@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo editar la configuración de varios
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
+source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ Una hoja de edición masiva de portafolios es un archivo que contiene la configu
 
 ## Descargar un archivo de hoja de edición masiva con la configuración del portafolio
 
-1. Seleccione la casilla de verificación situada junto a cada portafolio que desee incluir en la hoja de edición masiva.
+1. (Opcional) Seleccione la casilla de verificación situada junto a cada portafolio para incluirlo en la hoja de edición masiva.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
+   Si no selecciona portafolios específicos, puede descargar la configuración de todos los portafolios.
+
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en:
+
+   * (Para todos los portafolios) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+
+   * (Para portafolios seleccionados) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
 1. Escriba el nombre del archivo de hoja de edición masiva que desea crear y haga clic en **[!UICONTROL Export Now]**.
 
