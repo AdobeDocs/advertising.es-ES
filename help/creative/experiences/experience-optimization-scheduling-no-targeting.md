@@ -1,11 +1,11 @@
 ---
 title: Personalizar la optimización y programación creativas de una experiencia
-description: Obtenga información sobre cómo
+description: Obtenga información sobre cómo configurar la optimización y la programación de anuncios para experiencias sin segmentación.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---

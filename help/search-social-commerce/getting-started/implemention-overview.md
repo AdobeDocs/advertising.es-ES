@@ -1,11 +1,11 @@
 ---
 title: Información general sobre la implementación de Search, Social y Commerce
-description: Aprender
+description: Obtenga información sobre el flujo de trabajo general para iniciar y mantener un portafolio.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
 
    * Si las cuentas aún no contienen datos de campaña, agregue campañas, grupos de anuncios, palabras clave, anuncios y ubicaciones desde Buscar, Social y Commerce o desde la red de anuncios.
 
-     Para obtener más información sobre la configuración de campañas de búsqueda, consulte el capítulo de ayuda en Campaign Management.
+     Para obtener más información sobre la configuración de campañas de búsqueda, consulte el capítulo de ayuda en &quot;Administración de campañas&quot;.
 
-1. Configure el seguimiento de todos los anuncios para los que desee que el Adobe Advertising rastree las conversiones:
+1. Configure el seguimiento para todos los anuncios para los que desee que Adobe Advertising rastree conversiones:
 
    1. (Si es necesario) Configure el rastreo de clics para las publicidades y, opcionalmente, para las palabras clave, las ubicaciones de [!DNL Google Ads] y las extensiones de [!DNL Google Ads] mediante la generación y carga de direcciones URL de seguimiento de clics.
 
-      Las URL de rastreo de clics de los anunciantes con el servicio de seguimiento de conversiones basado en píxeles de Adobe Advertising incluyen una redirección a [!DNL Adobe] servidores.
+      Las URL de rastreo de clics para anunciantes con el servicio de seguimiento de conversiones basado en píxeles de Adobe Advertising incluyen una redirección a [!DNL Adobe] servidores.
 
    1. Configure el seguimiento de conversiones. Según la implementación, esto puede implicar agregar etiquetas de seguimiento de conversión a las páginas web adecuadas o configurar una colocación diaria de fuentes para los datos de conversión que haya recopilado con su propio método.
 
@@ -60,7 +60,7 @@ A continuación se muestra el flujo de trabajo general para implementar y utiliz
 
    1. (Anunciantes con Adobe Analytics o Adobe Audience Manager) Configure integraciones entre las distintas cuentas para que Adobe Advertising pueda intercambiar datos con ellas.
 
-      Consulte la guía de &quot;[Integraciones con el Experience Cloud](/help/integrations/home.md)&quot;.
+      Consulte la guía de &quot;[Integraciones con Experience Cloud](/help/integrations/home.md)&quot;.
 
    1. (Anunciantes con [!DNL Google Analytics]) Sincronizar las métricas de conversión de una cuenta, propiedad y combinación de vistas de [!DNL Google Analytics] para la optimización y la creación de informes.
 
@@ -108,4 +108,4 @@ Después del primer inicio, se requieren las siguientes tareas en curso. Según 
 
    * Agregar nuevos portafolios.
 
-Para obtener instrucciones sobre la supervisión de portafolios y el ajuste de las estrategias de portafolio, consulte el subcapítulo de ayuda &quot;Optimización&quot; > &quot;Administración de Portfolio&quot; > &quot;Supervisión y administración del rendimiento&quot;, que está disponible en el menú [!UICONTROL Help] (![menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "menú Ayuda")) en la parte superior derecha de cualquier página dentro de Buscar, Social y Commerce.
+Para obtener instrucciones sobre la supervisión de portafolios y el ajuste de las estrategias de portafolios, consulte el subcapítulo de ayuda &quot;Optimización&quot; > &quot;Administración de portafolios&quot; > &quot;Supervisión y administración del rendimiento&quot;, que está disponible en el menú [!UICONTROL Help] (![menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "menú Ayuda")) en la parte superior derecha de cualquier página dentro de Buscar, Social y Commerce.

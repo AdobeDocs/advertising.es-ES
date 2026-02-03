@@ -3,7 +3,7 @@ title: Ver el informe [!UICONTROL Change History]
 description: Obtenga información sobre cómo ver los cambios recientes en la cuenta del anunciante.
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 503bda100511b80693745c1cf2fbb2b6296809ec
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
