@@ -3,23 +3,22 @@ title: Monedas admitidas
 description: Consulte una lista de las monedas admitidas.
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 5fa4ba523b3036b8fc184dea082ae5a77ef71919
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Monedas admitidas en el Adobe Advertising
+# Monedas admitidas en Adobe Advertising
 
-El Adobe Advertising admite las siguientes divisas.
-
+Adobe Advertising admite las siguientes monedas.
 
 >[!NOTE]
 >
->Adobe Analytics admite [un conjunto de divisas mayor](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=es).
+>Adobe Analytics admite [un conjunto de divisas mayor](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
-## DSP y creativo
+## DSP y CREATIVE
 
 | Código | Nombre de moneda |
 | ------ | -------------- |
