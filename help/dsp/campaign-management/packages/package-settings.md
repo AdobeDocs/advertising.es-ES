@@ -3,7 +3,7 @@ title: Configuración de paquetes
 description: Consulte las descripciones de la configuración del paquete disponible.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 26c9c553dbd4086aa114b97dabdf4d9be10cdebe
+source-git-commit: 86d77d23fbec15b1f80f3f9c41e66aab34a46079
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 0%
@@ -55,10 +55,9 @@ Para paquetes con vuelo personalizado, el intervalo de presupuesto siempre es *[
 
 **[!UICONTROL Optimization Goal]:** (Paquetes con ritmo de nivel de paquete solamente) El objetivo de optimización del paquete. Consulte las descripciones de cada objetivo de optimización en [Objetivos de optimización y cómo usarlos](/help/dsp/optimization/optimization-goals.md).
 
-
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Paquetes con ritmo a nivel de paquete y con los objetivos de optimización &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; y &quot;[!UICONTROL Lowest Cost per Reach]&quot; solamente) Utiliza los datos de alcance doméstico de todas las ubicaciones garantizadas mediante programación en la campaña para optimizar el alcance incremental.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Paquetes con los objetivos de optimización &quot;[!UICONTROL Highest Return on Ad Spend]&quot; y &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; solamente) Un [objetivo personalizado](/help/dsp/optimization/custom-goal.md) que incluye los eventos de ingresos o conversión usados para calcular la métrica de CPA o ROAS. El objetivo personalizado debe incluir eventos de canal superior ponderados adicionales (como visitas a la página y adiciones al carro de compras) que se utilizarán además de la métrica de CPA o ROAS para la optimización de paquetes. Para obtener más información acerca de los objetivos personalizados, incluidas las prácticas recomendadas para crear objetivos personalizados y campañas que los usen, consulte &quot;[Objetivos personalizados](/help/dsp/optimization/custom-goal.md)&quot; y &quot;[Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;.<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Paquetes con los objetivos de optimización &quot;[!UICONTROL Highest Return on Ad Spend]&quot; y &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; solamente) Un [objetivo personalizado](/help/dsp/optimization/custom-goal.md) que incluye los eventos de ingresos o conversión usados para calcular la métrica de CPA o ROAS. El objetivo personalizado debe incluir eventos de funnel superior ponderados adicionales (como visitas a la página y adiciones al carro de compras) que se utilizarán además de la métrica de CPA o ROAS para la optimización de paquetes. Para obtener más información acerca de los objetivos personalizados, incluidas las prácticas recomendadas para crear objetivos personalizados y campañas que los usen, consulte &quot;[Objetivos personalizados](/help/dsp/optimization/custom-goal.md)&quot; y &quot;[Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;.<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Opcional; paquetes con los objetivos de optimización &quot;[!UICONTROL Highest Return on Ad Spend]&quot; y &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; solamente) Indica al modelo de optimización que aprenda solamente de las conversiones basadas en clics. De lo contrario, el modelo de optimización aprende de las conversiones basadas en clics e impresiones.
 
@@ -84,7 +83,7 @@ Para paquetes con vuelo personalizado, el intervalo de presupuesto siempre es *[
 
 >[!NOTE]
 >
->* Puede establecer límites de frecuencia en los niveles de campaña, paquete y ubicación. DSP respeta el límite de frecuencia más estricto de la jerarquía de campañas.
+>* Puede establecer límites de frecuencia en los niveles de campaña, paquete y ubicación. DSP respeta el límite de frecuencia más estricto en la jerarquía de campañas.
 >* La práctica recomendada es establecer límites de frecuencia tanto para la prospección como para la reorientación en el nivel de paquete.
 > * Los límites de frecuencia más altos resultan en un mayor gasto e impresiones, pero un menor alcance. Los límites de frecuencia más bajos resultan en un menor gasto e impresiones, pero un mayor alcance.
 
@@ -133,4 +132,4 @@ En el caso de los paquetes existentes sin la opción &quot;[!UICONTROL Automatic
 >* [Editar un paquete](package-edit.md)
 >* [Adjuntar una ubicación a un paquete](package-attach-placement.md)
 >* [Ver el registro de cambios de un paquete](package-change-log.md)
->* [Preguntas más frecuentes sobre Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Preguntas frecuentes sobre la administración de campañas](/help/dsp/campaign-management/faq-campaign-management.md)
