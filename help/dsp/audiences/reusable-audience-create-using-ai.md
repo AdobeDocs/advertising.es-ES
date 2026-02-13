@@ -4,9 +4,10 @@ description: Aprenda a crear audiencias reutilizables en Adobe Advertising DSP m
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
+exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
+source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -28,6 +29,8 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 >[!NOTE]
 >
 >Esta función se encuentra en modo beta y está sujeta a cambios. Asegúrese de que la expresión de audiencia generada representa la audiencia que desea antes de crear la audiencia y utilizarla para sus ubicaciones.
+
+## Creación de una audiencia reutilizable mediante IA generativa
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -57,7 +60,7 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
       Puede escribir &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar.
 
-1. (Si es necesario) Especifique otros criterios. Cuando el agente de IA presente una expresión de audiencia que cumpla todos los criterios, dígale al agente de IA que continúe con la agrupación de la audiencia.
+   1. (Si es necesario) Especifique otros criterios. Cuando el agente de IA presente una expresión de audiencia que cumpla todos los criterios, dígale al agente de IA que continúe con la agrupación de la audiencia.
 
 1. Cuando esté satisfecho con la audiencia ensamblada, haga clic en **[!UICONTROL Create]** para crear la audiencia especificada.
 
@@ -65,7 +68,7 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
    >
    >Posteriormente, no se puede editar la audiencia con el agente de IA. En su lugar, [edite la expresión de audiencia manualmente](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Escritura de indicadores {#writing-prompts}
+## Conceptos básicos de escritura de indicadores {#writing-prompts}
 
 ### ¿Qué debe incluir un mensaje?
 
@@ -119,12 +122,10 @@ También puede ignorar la solicitud y seguir especificando criterios de audienci
 
 #### Respuesta del agente de IA que le pide que elija entre varias opciones
 
-```
-Would you like to:
-1) Proceed with this expression,
-2) Get maximum reach alternatives, or
-3) Modify the expression manually?
-```
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
 
 Su respuesta: `1`, `proceed`, `2`, `maximum reach`, etc.
 
@@ -136,9 +137,7 @@ Un informe de audiencia es una escritura estratégica que define el público obj
 
 ### Componentes esenciales de un resumen de audiencia eficaz
 
-#### Atributos de audiencia
-
-Incluya tantos tipos de atributos como sea posible de la siguiente lista en su informe. Sea específico sobre los atributos que desea excluir.
+Incluya tantos tipos de atributos de audiencia como sea posible de la siguiente lista en su informe. Sea específico sobre los atributos que desea excluir.
 
 <!-- What about these:
 
