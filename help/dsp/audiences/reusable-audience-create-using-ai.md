@@ -4,9 +4,9 @@ description: Aprenda a crear audiencias reutilizables en Adobe Advertising DSP m
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
+source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,8 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 ### ¿Qué debe incluir un mensaje?
 
 * Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
+
+  En general, los indicadores no distinguen entre mayúsculas y minúsculas y no se requiere puntuación excepto para proporcionar claridad.
 
 * Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Cuantos más detalles proporcione, mayores serán las posibilidades de obtener los resultados que satisfagan sus necesidades.
 
