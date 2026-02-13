@@ -4,7 +4,7 @@ description: Aprenda a crear audiencias reutilizables en Adobe Advertising DSP m
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 92fde92fa37f91ac2ac02c3386cbf7e811866899
+source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
 1. Cree la audiencia:
 
-   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->Para los usuarios con permisos de versión beta, la opción AI es la predeterminada. Para [montar la audiencia usted mismo](/help/dsp/audiences/reusable-audience-create.md), haga clic en el botón &quot;Cambiar a modo manual&quot; en la parte inferior.
+   Para los usuarios con permisos de versión beta, la opción AI es la predeterminada. Para [montar la audiencia usted mismo](/help/dsp/audiences/reusable-audience-create.md), haga clic en el botón &quot;Cambiar a modo manual&quot; en la parte inferior.
 
    1. Introduzca uno o más indicadores para describir las características de audiencia que desea incluir y excluir. Para enviar cada solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
 
