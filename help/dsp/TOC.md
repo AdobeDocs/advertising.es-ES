@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: b0eb55e27f32af0c1ceed0980dbfdaa7497db226
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '964'
 ht-degree: 3%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Soluciones entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financiación de cuenta](/help/dsp/introduction/billing/account-funding.md)
    + [Monedas admitidas](/help/dsp/currency.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Soluciones de medición avanzada](/help/dsp/introduction/advanced-measurement-services.md)
 + Administración de campañas {#campaign-management}
    + [Información general sobre la estructura de administración de campañas](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -76,7 +76,7 @@ ht-degree: 3%
       + [Revisar Detalles De Anuncios Con Hojas De Cálculo](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicar un anuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Adjuntar y eliminar anuncios de ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=es)
+      + [Adjuntar y eliminar anuncios de ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausar o activar un anuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -116,6 +116,7 @@ ht-degree: 3%
    + [Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md)
    + Audiencias reutilizables {#reusable-audiences}
       + [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md)
+      + [Creación de una audiencia reutilizable mediante IA generativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [Duplicación de una audiencia reutilizable](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-edit.md)
       + [Ver detalles sobre una audiencia reutilizable](/help/dsp/audiences/reusable-audience-view-details.md)
@@ -231,9 +232,9 @@ ht-degree: 3%
    + Notificaciones {#notifications}
       + [Acerca de las suscripciones de alerta](/help/dsp/admin/alerts-about.md)
       + [Administrar suscripciones de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es)
++ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Obtener ayuda](/help/dsp/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
++ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
