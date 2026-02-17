@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
+source-git-commit: 63402a5148f5e4dc310b9d2229a9dddd5fe2f113
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -52,21 +52,23 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
       Para obtener más información, consulte &quot;[Escribir indicadores](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un resumen de audiencia](#audience-brief-best-practices)&quot;.
 
-      A medida que el agente de IA encuentra segmentos relevantes, crea una expresión de audiencia basada en los criterios. También le pedirá su aprobación antes de buscar segmentos coincidentes para montar la audiencia.
+      A medida que el agente de audiencia encuentra segmentos relevantes, crea una expresión de audiencia basada en los criterios. También le pedirá su aprobación antes de buscar segmentos coincidentes para montar la audiencia.
 
       Si lo desea, puede ignorar la solicitud y continuar especificando criterios de audiencia adicionales.
 
-   1. Cuando el agente de IA presente una expresión de audiencia que describa adecuadamente su audiencia, dígale al agente de IA que proceda a ensamblar la audiencia.
+   1. Cuando el agente de audiencia presente una expresión de audiencia que describa adecuadamente su audiencia, dígale al agente de audiencia que continúe con la reunión de la audiencia.
 
       Puede escribir &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar.
 
-   1. (Si es necesario) Especifique otros criterios. Cuando el agente de IA presente una expresión de audiencia que cumpla todos los criterios, dígale al agente de IA que continúe con la agrupación de la audiencia.
+   1. (Si es necesario) Especifique otros criterios. Cuando el agente de audiencia presente una expresión de audiencia que cumpla todos sus criterios, dígale al agente de audiencia que continúe con la combinación de la audiencia.
+
+      Para reunir la audiencia, escriba &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar.
 
 1. Cuando esté satisfecho con la audiencia ensamblada, haga clic en **[!UICONTROL Create]** para crear la audiencia especificada.
 
    >[!NOTE]
    >
-   >Posteriormente, no se puede editar la audiencia con el agente de IA. En su lugar, [edite la expresión de audiencia manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+   >Posteriormente, no se puede editar la audiencia con el agente de audiencia. En su lugar, [edite la expresión de audiencia manualmente](/help/dsp/audiences/reusable-audience-edit.md).
 
 ## Conceptos básicos de escritura de indicadores {#writing-prompts}
 
@@ -74,7 +76,11 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
 * Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
 
-  En general, los indicadores no distinguen entre mayúsculas y minúsculas y no se requiere puntuación excepto para proporcionar claridad.
+   * Puede introducir frases completas o solo una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
+
+   * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
+
+   * El agente de audiencia reconoce los sinónimos más comunes.
 
 * Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Cuantos más detalles proporcione, mayores serán las posibilidades de obtener los resultados que satisfagan sus necesidades.
 
@@ -83,6 +89,8 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 * Proporcione iterativamente detalles para restringir los criterios y la expresión de audiencia generada antes de guardar la audiencia.
 
 * Obtenga información sobre las sugerencias mediante la experimentación.
+
+  Si la solicitud no está clara, el agente de audiencia solo solicitará otra solicitud, para que pueda intentarlo de nuevo.
 
   El agente de audiencia no guardará automáticamente una expresión de audiencia generada como audiencia. Solo puede guardar una audiencia si hace clic en el botón [!UICONTROL Create], que se encuentra fuera del área de solicitud, para poder deshacer los cambios que no desee conservar.
 
@@ -108,11 +116,11 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 * Texto en otros idiomas además del inglés.
 
-### Ejemplos de respuestas del agente de IA y cómo responder
+### Ejemplos de respuestas del agente de audiencia y cómo responder
 
-Cuando el agente de IA necesite una respuesta de su parte, puede responder utilizando palabras clave en la solicitud o utilizando términos comunes que sean equivalentes.
+Cuando el agente de audiencia necesite una respuesta de su parte, puede responder utilizando palabras clave en la solicitud o utilizando sinónimos comunes.
 
-#### Respuesta del agente de IA que le hace una pregunta
+#### El agente de audiencia le hace una pregunta
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
@@ -120,7 +128,7 @@ Su respuesta afirmativa: &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quo
 
 También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
 
-#### Respuesta del agente de IA que le pide que elija entre varias opciones
+#### El agente de audiencia le pide que elija entre varias opciones
 
 `Would you like to:`
 `1) Proceed with this expression,`
