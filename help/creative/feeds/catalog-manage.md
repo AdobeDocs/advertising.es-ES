@@ -2,18 +2,25 @@
 title: Administrar catálogos de fuentes
 description: Obtenga información sobre cómo administrar los catálogos de fuentes.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Administrar catálogos de fuentes
 
-Los catálogos de fuentes procesados son conjuntos de variaciones de anuncios potenciales creados a partir de un archivo de fuente especificado y una plantilla de fuente especificada. Los anuncios dinámicos de HTML5, pero no los anuncios estáticos de HTML5, requieren un catálogo para crear anuncios dinámicos.
+Los catálogos de fuentes procesados son conjuntos de variaciones de anuncios potenciales creados a partir de un archivo de fuente especificado y una plantilla de fuente especificada. Los anuncios dinámicos de HTML5 y vídeo, pero no los anuncios estáticos de HTML5, requieren un catálogo para crear anuncios dinámicos.
 
 Antes de crear variaciones de anuncios y [agregar anuncios dinámicos a una biblioteca creativa](/help/creative/creative-libraries/creative-add-dynamic.md), procese el catálogo. Puede actualizar posteriormente el archivo de fuente y volver a procesar el catálogo para crear un nuevo conjunto de variaciones de anuncios.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
+
+Cada archivo de fuente puede procesar hasta 500 filas con recursos de vídeo.
+
+>[!TIP]
+>
+>Para todas las cuentas con vídeos dinámicos, la práctica recomendada es [descargar la plantilla de fuente maestra [!UICONTROL Adobe Creative Template]](feed-template-manage.md), asignar cada campo del archivo de recursos a un campo del backend de Advertising Creative y, a continuación, cambiar el nombre de la plantilla de fuente y cargarla. Utilice la nueva plantilla de fuente, junto con el archivo de recursos, para crear un catálogo.
 
 ## Creación de un catálogo {#feed-catalog-create}
 

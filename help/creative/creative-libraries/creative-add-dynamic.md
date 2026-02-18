@@ -2,9 +2,10 @@
 title: Añadir elementos creativos dinámicos a una biblioteca creativa
 description: Aprenda a añadir elementos creativos dinámicos a una biblioteca creativa.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -59,9 +60,11 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
 1. Especifique la [configuración de publicidad dinámica](/help/creative/creative-libraries/creative-settings-dynamic.md):
 
-   1. Especifique los detalles básicos del anuncio.
+   1. Especifique los detalles básicos del anuncio, incluido el tipo creativo.
 
    1. Seleccione la plantilla de anuncio que desea utilizar para los creativos.
+
+      Utilice una plantilla de anuncio de HTML5 para los anuncios en pantalla y una plantilla de anuncio de vídeo para los anuncios de vídeo.
 
    1. Seleccione el catálogo desde el que desea crear los anuncios.
 

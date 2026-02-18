@@ -3,9 +3,9 @@ title: Adjuntar un elemento creativo a paquetes creativos
 description: Aprenda a adjuntar un elemento creativo a un paquete creativo.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-Puede adjuntar elementos creativos de visualización estándar a paquetes de visualización estándar, elementos creativos de vídeo estándar a paquetes de vídeo estándar y elementos creativos de visualización dinámica a paquetes de visualización dinámica para poder agregarlos a [experiencias de publicidad](/help/creative/experiences/experience-about.md). Cada paquete solo puede incluir una de cada combinación \[creative size or duration + language\].
+Puede adjuntar elementos creativos de visualización estándar a paquetes de visualización estándar, elementos creativos de vídeo estándar a paquetes de vídeo estándar, elementos creativos de visualización dinámica a paquetes de visualización dinámica y elementos creativos de vídeo dinámico a paquetes de vídeo dinámico para agregarlos a [experiencias de publicidad](/help/creative/experiences/experience-about.md). Cada paquete solo puede incluir una de cada combinación \[creative size or duration + language\].
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.

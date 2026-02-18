@@ -3,7 +3,7 @@ title: Configuración de experiencias segmentadas
 description: Consulte las descripciones de todos los ajustes para experiencias de anuncios segmentados.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] sección
 
-**[!UICONTROL Ad Type]:** (de solo lectura para experiencias existentes) El tipo de anuncios incluidos en la experiencia: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* o *[!UICONTROL Video]*. Una vez guardada la experiencia, no se puede cambiar el tipo de anuncio.
+**[!UICONTROL Ad Type]:** (de solo lectura para experiencias existentes) El tipo de anuncios incluidos en la experiencia: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* o *[!UICONTROL Display Video]*. Una vez guardada la experiencia, no se puede cambiar el tipo de anuncio.
 
 **[!UICONTROL Advertiser]:** (solo lectura para experiencias existentes) El anunciante que pujará por las combinaciones creativas y de destino incluidas en la experiencia. Una vez guardada la experiencia, no se puede cambiar el anunciante.
 

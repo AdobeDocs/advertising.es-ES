@@ -3,16 +3,16 @@ title: Acerca de las experiencias en Advertising Creative
 description: Aprenda a configurar experiencias de publicidad personalizadas y optimizar los elementos de publicidad en función del rendimiento.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
 
 # Acerca de las experiencias en Advertising Creative 2.0
 
-Cada experiencia de anuncio puede incluir un tipo de anuncio (pantalla estándar, vídeo estándar o visualización dinámica). [!DNL Advertising Creative 2.0] proporciona dos estructuras de experiencia de anuncio diferentes para los anuncios en una sola biblioteca creativa.
+Cada experiencia de anuncio puede incluir un tipo de anuncio (pantalla estándar, vídeo estándar, visualización dinámica o vídeo dinámico). [!DNL Advertising Creative 2.0] proporciona dos estructuras de experiencia de anuncio diferentes para los anuncios en una sola biblioteca creativa.
 
 * **Experiencias con segmentación en el árbol de decisiones:** [!DNL Creative] le permite configurar experiencias de publicidad personalizadas en todo el recorrido del cliente mediante un modelo de árbol de decisiones. Puede personalizar todos los elementos de publicidad (imágenes, titulares, ofertas y páginas de aterrizaje) en función del público objetivo.
 

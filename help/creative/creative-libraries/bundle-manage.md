@@ -3,9 +3,9 @@ title: Administrar paquetes creativos
 description: Aprenda a administrar y utilizar grupos de creativos.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Los paquetes son grupos de creativos que se pueden añadir a una experiencia como una unidad. Después de crear un contenedor de paquetes, puede adjuntar elementos creativos al paquete. Los paquetes de visualización estándar solo pueden contener anuncios de visualización estándar, los paquetes de vídeo estándar solo pueden contener anuncios de vídeo estándar y los paquetes de visualización dinámica solo pueden contener anuncios de visualización dinámicos. Puede anular las páginas de aterrizaje, las etiquetas de seguimiento de impresiones y las etiquetas de seguimiento de clics de todos los creativos de un paquete asignado a una experiencia desde el árbol de decisión de experiencias, sin afectar a los creativos de base.
+Los paquetes son grupos de creativos que se pueden añadir a una experiencia como una unidad. Después de crear un contenedor de paquetes, puede adjuntar elementos creativos al paquete. Los paquetes de visualización estándar solo pueden contener anuncios de visualización estándar, los paquetes de vídeo estándar solo pueden contener anuncios de vídeo estándar, los paquetes de visualización dinámica solo pueden contener anuncios de visualización dinámicos y los paquetes de vídeo dinámico solo pueden contener anuncios de vídeo dinámicos. Puede anular las páginas de aterrizaje, las etiquetas de seguimiento de impresiones y las etiquetas de seguimiento de clics de todos los creativos de un paquete asignado a una experiencia desde el árbol de decisión de experiencias, sin afectar a los creativos de base.
 
 [!DNL Creative] rota entre los elementos creativos del paquete según se ha especificado para cada experiencia a la que se ha asignado el paquete. Opcionalmente, puede permitir que [!DNL Creative] optimice los elementos publicitarios para cualquier experiencia en función del rendimiento mediante la rotación algorítmica de anuncios, que funciona con [!DNL Adobe AI].
 
@@ -38,7 +38,7 @@ Puede adjuntar un elemento creativo a varios paquetes.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
 
-1. Escriba un **[!UICONTROL Bundle Name]** único y **[!UICONTROL Bundle Type]:** *Pantalla estándar* (para creativos de pantalla estándar), *Pantalla dinámica* (para creativos de pantalla dinámica), *Vídeo estándar* (para creativos de vídeo estándar).
+1. Escriba un **[!UICONTROL Bundle Name]** único y **[!UICONTROL Bundle Type]:** *Pantalla estándar* (para creativos de pantalla estándar), *Visualización dinámica* (para creativos de pantalla dinámica), *Vídeo estándar* (para creativos de vídeo estándar) o *Dynamic Video* (para creativos de vídeo dinámico).
 
 1. Haga clic en **[!UICONTROL Create]**.
 
@@ -102,7 +102,7 @@ Los cambios en un nombre de paquete se propagan por todas las experiencias asoci
 
 ## Adjuntar elementos creativos a un paquete
 
-Puede adjuntar elementos creativos de visualización estándar existentes a un paquete de visualización estándar, elementos creativos de vídeo estándar a paquetes de vídeo estándar y elementos creativos de visualización dinámica a un paquete dinámico. Al adjuntar un elemento creativo a un paquete, este estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete solo puede incluir una de cada combinación \[creative size or duration + language\].
+Puede adjuntar elementos creativos de visualización estándar existentes a un paquete de visualización estándar, elementos creativos de vídeo estándar a paquetes de vídeo estándar, elementos creativos de visualización dinámica a un paquete dinámico y elementos creativos de vídeo dinámico a un paquete de vídeo. Al adjuntar un elemento creativo a un paquete, este estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete solo puede incluir una de cada combinación \[creative size or duration + language\].
 
 >[!NOTE]
 >
