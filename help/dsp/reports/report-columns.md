@@ -3,7 +3,7 @@ title: Columnas de informe disponibles
 description: Consulte las descripciones de las columnas disponibles en los informes personalizados.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
+source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
 workflow-type: tm+mt
 source-wordcount: '2467'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | El proveedor del explorador en el que se mostró el anuncio (como Google o Mozilla). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | Versión del explorador en el que se mostró el anuncio (por ejemplo, [!UICONTROL Safari 4.3] o [!UICONTROL Chrome 7.0]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | Explorador en el que se mostró el anuncio (como [!UICONTROL Chrome] o [!UICONTROL Firefox]). |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Environment] | Si el anuncio se mostró en *[!UICONTROL sites]* o *[!UICONTROL Apps]*. |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Environment] | Entornos de dispositivo a los que se dirige la ubicación: (*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]* y/o *[!UICONTROL Connected TV])*. |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Hardware] | El tipo de dispositivo en el que se mostró el anuncio (como [!UICONTROL Set Top Box] o [!UICONTROL Mobile Phone]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Manufacturer] | El fabricante del dispositivo en el que se mostró el anuncio (como [!UICONTROL Samsung], [!UICONTROL Lenovo] o [!UICONTROL Apple]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Model] | El modelo del dispositivo en el que se mostró el anuncio (como [!UICONTROL iPhone XS] o [!UICONTROL Galaxy Note 7]). |
@@ -102,7 +102,6 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | Nombre de la ubicación asignada por el usuario. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Budget] | El presupuesto de la ubicación. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Max Bid] | La puja máxima de la ubicación. |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Device Environment] | Entornos de dispositivo a los que se dirige la ubicación: (*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]* y/o *[!UICONTROL Connected TV])*. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | La fecha de finalización de la ubicación. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | La fecha de inicio de la ubicación. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | La etiqueta de ubicación se utiliza como identificador personalizado para la ubicación. |
@@ -115,6 +114,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | El nombre del proveedor de datos asociado a un segmento. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | Identificador único del sitio o la aplicación en DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | El nombre del sitio. |
+| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | Si el anuncio se mostró en *[!UICONTROL sites]* o *[!UICONTROL Apps]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | La duración del vídeo, que se procesa después de la carga. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | El identificador único del creativo de vídeo en DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | El nombre del creativo asignado por el usuario. |
