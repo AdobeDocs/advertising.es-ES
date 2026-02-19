@@ -3,9 +3,9 @@ title: Administrar plantillas de fuentes
 description: Obtenga información sobre cómo administrar las plantillas de fuentes.
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-Las plantillas de fuentes asignan campos en los archivos/catálogos de fuentes con campos en el backend de Advertising Creative. Los anuncios dinámicos de HTML5 y de vídeo, pero no los anuncios estáticos de HTML5, requieren una plantilla de fuente para crear anuncios dinámicos. Opcionalmente, puede descargar y rellenar plantillas de fuentes maestras ([!UICONTROL Retail] y [!UICONTROL Adobe Creative Template]).
+Las plantillas de fuentes asignan campos en los archivos/catálogos de fuentes con campos en el backend de Advertising Creative. Los anuncios dinámicos de HTML5 y de vídeo, pero no los anuncios estáticos de HTML5, requieren una plantilla de fuente para crear anuncios dinámicos. Si lo desea, puede descargar y rellenar plantillas de fuentes universales ([!UICONTROL Retail] para campañas de venta minorista y [!UICONTROL Adobe Creative Template] para cualquier tipo de campaña).
 
 Puede utilizar una plantilla de fuente con varias plantillas de publicidad.
 
 >[!TIP]
 >
->Para todas las cuentas con vídeos dinámicos, la práctica recomendada es [descargar la plantilla de fuente maestra [!UICONTROL Adobe Creative Template]](feed-template-manage.md), asignar cada campo del archivo de recursos a un campo del backend de Advertising Creative y, a continuación, cambiar el nombre de la plantilla de fuente y cargarla. Utilice la nueva plantilla de fuente, junto con el archivo de recursos, para [crear un catálogo](catalog-manage.md).
+>Para todas las cuentas con vídeos dinámicos, la práctica recomendada es [descargar la plantilla de fuente universal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), asignar cada campo del archivo de recursos a un campo del servidor de Advertising Creative y, a continuación, cambiar el nombre de la plantilla de fuente y cargarla. Utilice la nueva plantilla de fuente, junto con el archivo de recursos, para [crear un catálogo](catalog-manage.md).
 
 ## Crear una plantilla de fuente
 

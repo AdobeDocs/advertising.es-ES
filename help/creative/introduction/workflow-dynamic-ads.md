@@ -3,9 +3,9 @@ title: Flujos de trabajo para anuncios dinámicos
 description: Obtenga información sobre los flujos de trabajo para administrar anuncios dinámicos.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Puede configurar anuncios dinámicos de cualquiera de estas dos maneras:
 
    1. [Crear paquetes de anuncios dinámicos](/help/creative/creative-libraries/bundle-manage.md) que puede adjuntar todos a la vez a una experiencia de anuncio.
 
-   1. Cree experiencias de publicidad dinámica [con &#x200B;](/help/creative/experiences/experience-create-targeting.md) o [segmentación](/help/creative/experiences/experience-create-no-targeting.md) sin segmentación y [asigne los paquetes creativos a las experiencias](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. Cree experiencias de publicidad dinámica [con ](/help/creative/experiences/experience-create-targeting.md) o [segmentación](/help/creative/experiences/experience-create-no-targeting.md) sin segmentación y [asigne los paquetes creativos a las experiencias](/help/creative/experiences/experience-assign-creative-bundles.md).
 
    1. [Genere e implemente etiquetas de experiencia de anuncio](/help/creative/experiences/experience-tag-export.md) para ejecutarlas como anuncios en su DSP.
 
@@ -61,7 +61,7 @@ Puede configurar anuncios dinámicos de cualquiera de estas dos maneras:
 
       1. [Cargar el archivo de fuente y los recursos](/help/creative/feeds/asset-manage.md).
 
-      1. [Cree una plantilla de fuente](/help/creative/feeds/feed-template-manage.md) para asignar los campos del archivo de fuente (hoja de cálculo) a los campos del servidor de Advertising Creative. Si lo desea, puede descargar y rellenar plantillas de fuentes maestras con campos relevantes para la venta minorista <!-- and what is the creative template?-->.
+      1. [Cree una plantilla de fuente](/help/creative/feeds/feed-template-manage.md) para asignar los campos del archivo de fuente (hoja de cálculo) a los campos del servidor de Advertising Creative. Si lo desea, puede descargar y rellenar una plantilla de fuente universal con campos relevantes para cualquier tipo de campaña.
 
       1. [Cree un catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-create) a partir de un archivo de fuentes especificado y una plantilla de fuentes especificada y, a continuación, [procese el catálogo](/help/creative/feeds/catalog-manage.md#feed-catalog-process) para ver las variaciones de anuncios que se pueden crear a partir de él.
 
@@ -75,7 +75,7 @@ Puede configurar anuncios dinámicos de cualquiera de estas dos maneras:
 
    1. [Crear paquetes de anuncios dinámicos](/help/creative/creative-libraries/bundle-manage.md) que puede adjuntar todos a la vez a una experiencia de anuncio.
 
-   1. Cree experiencias de publicidad dinámica [con &#x200B;](/help/creative/experiences/experience-create-targeting.md) o [segmentación](/help/creative/experiences/experience-create-no-targeting.md) sin segmentación y [asigne los paquetes creativos a las experiencias](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. Cree experiencias de publicidad dinámica [con ](/help/creative/experiences/experience-create-targeting.md) o [segmentación](/help/creative/experiences/experience-create-no-targeting.md) sin segmentación y [asigne los paquetes creativos a las experiencias](/help/creative/experiences/experience-assign-creative-bundles.md).
 
    1. [Genere e implemente etiquetas de experiencia de anuncio](/help/creative/experiences/experience-tag-export.md) para ejecutarlas como anuncios en su DSP.
 

@@ -3,7 +3,7 @@ title: Administrar catálogos de fuentes
 description: Obtenga información sobre cómo administrar los catálogos de fuentes.
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Cada archivo de fuente puede procesar hasta 500 filas con recursos de vídeo.
 
 >[!TIP]
 >
->Para todas las cuentas con vídeos dinámicos, la práctica recomendada es [descargar la plantilla de fuente maestra [!UICONTROL Adobe Creative Template]](feed-template-manage.md), asignar cada campo del archivo de recursos a un campo del backend de Advertising Creative y, a continuación, cambiar el nombre de la plantilla de fuente y cargarla. Utilice la nueva plantilla de fuente, junto con el archivo de recursos, para crear un catálogo.
+>Para todas las cuentas con vídeos dinámicos, la práctica recomendada es [descargar la plantilla de fuente universal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), asignar cada campo del archivo de recursos a un campo del servidor de Advertising Creative y, a continuación, cambiar el nombre de la plantilla de fuente y cargarla. Utilice la nueva plantilla de fuente, junto con el archivo de recursos, para crear un catálogo.
 
 ## Creación de un catálogo {#feed-catalog-create}
 

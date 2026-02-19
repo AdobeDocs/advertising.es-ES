@@ -3,7 +3,7 @@ title: Administrar archivos de recursos
 description: Obtenga información sobre cómo cargar y administrar archivos de recursos para un anunciante.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      Los nombres de campo específicos del anunciante deben asignarse a los [campos disponibles para archivos de fuentes de anuncios dinámicos](/help/creative/appendix-available-feed-fields.md).
 
-     Para todas las cuentas con vídeos dinámicos, la práctica recomendada es [crear un catálogo](catalog-manage.md) con el archivo de recursos junto con una copia de la [plantilla de fuente maestra [!UICONTROL Adobe Creative Template]](feed-template-manage.md), en la que se asigna cada campo del archivo de recursos a un campo del backend de Advertising Creative.
+     Para todas las cuentas con vídeos dinámicos, la práctica recomendada es [crear un catálogo](catalog-manage.md) con el archivo de recursos junto con una copia de la [plantilla de fuente universal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), en la que se asigna cada campo del archivo de recursos a un campo del backend de Advertising Creative.
 
    * Los recursos de vídeo asociados en formato MP4, MOV o WEBM. Las plantillas de publicidad admitidas incluyen tarjeta de inicio, tarjeta de finalización, superposición superior, superposición inferior o en forma de L. La duración de cada vídeo debe estar entre 1 y 90 segundos. Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
 
