@@ -3,9 +3,10 @@ title: (Nueva IU) Ver Ver detalles de rendimiento del portafolio
 description: Obtenga información sobre cómo ver los detalles de rendimiento del portafolio, incluidas las métricas reales y predichas a nivel de portafolio y para cada campaña asignada.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -82,6 +83,8 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
    * Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
 
+1. Haga clic en **[!UICONTROL Download report]**.
+
 ## Enumeración de las campañas del portafolio
 
 * Haga clic en la ficha **[!UICONTROL Campaigns]**.
@@ -103,6 +106,14 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
    * Para editar la configuración visible del portafolio, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar") junto a la sección de configuración y [editar la configuración del portafolio](portfolio-edit.md).
 
 Para obtener más información sobre la configuración del portafolio, consulte la Guía de optimización, que está disponible en Search, Social y Commerce.
+
+## Descargar informes de rendimiento de la cartera y listas de los componentes de la cartera
+
+1. En la barra de herramientas, haga clic en **[!UICONTROL Download report]**.
+
+1. Seleccione la casilla de verificación situada junto a cada tipo de componente de portafolio e informe de rendimiento que desee incluir.
+
+   Para algunos informes de rendimiento, puede elegir si desea descargar los datos como un carro de compras o como una tabla.
 
 >[!MORELIKETHIS]
 >
