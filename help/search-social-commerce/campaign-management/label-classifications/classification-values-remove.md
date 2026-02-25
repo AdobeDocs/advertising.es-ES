@@ -3,9 +3,9 @@ title: Quitar valores de clasificación de etiquetas de componentes de cuenta
 description: Obtenga información sobre cómo eliminar asociaciones entre valores de clasificación de etiquetas y componentes de cuenta.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ Al eliminar un valor de clasificación, se elimina la asociación con el compone
 >[!NOTE]
 >
 >Para eliminar un valor de una clasificación de etiquetas, consulte &quot;[Eliminar valores de clasificación de etiquetas](classification-values-delete.md)&quot;.
+
+## (Nueva IU) Quitar los valores de clasificación de etiquetas de los componentes de cuenta
+
+Puede quitar los valores de clasificación de cualquier componente de cuenta aplicable que esté disponible en la nueva interfaz de usuario.
+
+1. Abra la vista de entidades desde el menú **[!UICONTROL Manage]** o **[!UICONTROL Target]**.
+
+1. Seleccione la casilla de verificación situada junto a cada fila correspondiente.
+
+   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. En la barra de herramientas de acciones masivas, haga clic en **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
+
+1. Seleccione la casilla de verificación situada junto a cada valor de clasificación que desee quitar de las entidades seleccionadas.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
+
+   Para seleccionar todos los valores asignados, haga clic en **[!UICONTROL Select All]**. Para anular la selección de todos los valores asignados, haga clic en **[!UICONTROL Deselect All]**.
+
+1. Haga clic en **[!UICONTROL Unassign Selected]**.
+
+## (IU heredada) Quitar los valores de clasificación de etiquetas de los componentes de cuenta
 
 1. En **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, seleccione la vista de entidad.
 

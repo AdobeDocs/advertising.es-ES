@@ -3,9 +3,9 @@ title: Asignar valores de clasificación a componentes de cuenta desde las vista
 description: Obtenga información sobre cómo asignar valores de clasificación a componentes de cuenta.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,40 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 >[!NOTE]
 >
 >Las palabras clave y la copia de anuncios de algunas redes de anuncios y tipos de campañas son [no mutables](/help/search-social-commerce/campaign-management/faqs-campaigns.md), lo que significa que al editarlas se eliminará la entidad existente y se creará una nueva. Cuando se elimina una entidad existente de este modo, la clasificación de etiquetas no se asigna a la nueva entidad.
+
+## (Nueva interfaz de usuario) Asignar valores de clasificación a componentes de cuenta
+
+Puede asignar valores de clasificación a cualquier componente de cuenta aplicable que esté disponible en la nueva interfaz de usuario.
+
+1. Abra la vista de entidades desde el menú **[!UICONTROL Manage]** o **[!UICONTROL Target]**.
+
+1. Seleccione la casilla de verificación situada junto a cada fila correspondiente.
+
+   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL Label Classification]**.
+
+1. Para cada valor de clasificación aplicable, haga lo siguiente:
+
+   1. En la columna **[!UICONTROL Classifications]**, especifique la clasificación:
+
+      * Para utilizar una clasificación existente, haga clic en el nombre de la clasificación para expandirla.
+
+      * Para crear una clasificación, haga clic en [!UICONTROL +] en el encabezado de la columna. En el campo de entrada, escriba el nombre de la clasificación y haga clic en ![Guardar](/help/search-social-commerce/assets/save-checkmark.png "Guardar") para guardar la clasificación inmediatamente. Para utilizar la nueva clasificación, haga clic en el nombre de la clasificación para expandirla.
+
+        El nombre debe contener [caracteres ASCII 32-126](https://www.asciitable.com/) y la longitud máxima es de 27 caracteres de un solo byte.
+
+   1. En la columna **[!UICONTROL Value Name]**, especifique el valor de la clasificación seleccionada:
+
+      * Para utilizar un valor existente, seleccione el valor.
+
+      * Para crear un valor, haga clic en [!UICONTROL +] en el encabezado de la columna. En el campo de entrada, escriba el valor y, a continuación, haga clic en ![Guardar](/help/search-social-commerce/assets/save-checkmark.png "Guardar") para guardar inmediatamente el valor y seleccionarlo de forma predeterminada.
+
+        La longitud máxima es de 100 caracteres y puede incluir caracteres ASCII y no ASCII.
+
+1. Haga clic en **+[!UICONTROL Assign Now]**.
+
+## (IU heredada) Asignar valores de clasificación a componentes de cuenta
 
 1. Haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** y, a continuación, seleccione la vista de componente de la cuenta.
 

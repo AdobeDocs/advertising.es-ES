@@ -3,7 +3,7 @@ title: Asignar valores de clasificación a componentes de cuenta mediante hojas 
 description: Aprenda a utilizar hojas de edición masiva para asignar valores de clasificación a componentes de cuenta.
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
    Además de agregar valores, también puede eliminar valores existentes eliminándolos de las filas relevantes. Para eliminar valores tanto de una entidad padre como de sus entidades hijo, a) incluya solo la fila de la entidad padre y elimine el valor de clasificación existente, o b) incluya tanto la entidad padre como sus entidades hijo y elimine el valor de clasificación existente de todas las filas padre y hijo.
 
-1. [Cargue el archivo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) para crear las asociaciones.
+1. [Cargue el archivo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) para crear las asociaciones.<!-- Update once the new bulksheet UI is GA -->
 
 Los valores de etiqueta cargados son visibles en las vistas de entidad relevantes.
 

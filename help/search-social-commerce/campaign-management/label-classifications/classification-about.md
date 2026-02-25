@@ -3,9 +3,9 @@ title: Acerca de las clasificaciones de etiquetas
 description: Obtenga información acerca del uso de clasificaciones de etiquetas para agrupar los componentes de la cuenta.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 82710ffc246e1d3bc9547bf6b6df3320c80c4eb1
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ Cada entidad elegible puede tener valores de etiqueta para varias clasificacione
 
 ## La vista Clasificaciones de etiquetas
 
-La vista [!UICONTROL Labels Classifications] dentro del menú [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] incluye [!UICONTROL Classifications] y [!UICONTROL Label Values] subvistas. Puede ver los datos de sus clasificaciones de etiquetas, [crear](classification-create.md) y [eliminar](classification-delete.md) clasificaciones de etiquetas y ver los datos de sus valores de clasificación de etiquetas. De forma predeterminada, los datos se muestran para sus clasificaciones y valores de etiquetas de nivel de palabra clave, pero también puede ver los datos de sus clasificaciones y valores de nivel de anuncio.
+En la interfaz de usuario heredada, la vista [!UICONTROL Labels Classifications] se encuentra en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. En la nueva interfaz de usuario, la vista [!UICONTROL Labels Classifications] se encuentra en [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+
+La vista [!UICONTROL Labels Classifications] incluye [!UICONTROL Classifications] y [!UICONTROL Label Values] subvistas. Puede ver los datos de sus clasificaciones de etiquetas, [crear](classification-create.md) y [eliminar](classification-delete.md) clasificaciones de etiquetas y ver los datos de sus valores de clasificación de etiquetas. De forma predeterminada, los datos se muestran para sus clasificaciones y valores de etiquetas de nivel de palabra clave, pero también puede ver los datos de sus clasificaciones y valores de nivel de anuncio.
+
+En la nueva interfaz de usuario,
 
 >[!MORELIKETHIS]
 >

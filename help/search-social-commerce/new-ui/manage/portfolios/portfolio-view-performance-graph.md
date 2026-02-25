@@ -2,7 +2,7 @@
 title: (Nueva IU) Ver un gráfico de rendimiento en la vista [!UICONTROL Portfolios]
 description: Obtenga información sobre cómo abrir y configurar un gráfico de rendimiento en la vista [!UICONTROL Portfolios].
 feature: Search Campaign Management
-source-git-commit: f20f9d5608b830927d9184f9b96f0ad5a724b04d
+source-git-commit: 3bbbc95581a6691b2ac637254424f0cdc7203659
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -27,5 +27,5 @@ Puede abrir y configurar un gráfico de rendimiento con hasta tres métricas cal
 
 >[!MORELIKETHIS]
 >
->* [Acerca de [!UICONTROL Portfolios view]](portfolio-view-about.md)
+>* [Acerca de [!UICONTROL Portfolios view]](portfolio-about.md)
 >* [Descargar datos de la vista [!UICONTROL Portfolios]](portfolio-view-report.md)
