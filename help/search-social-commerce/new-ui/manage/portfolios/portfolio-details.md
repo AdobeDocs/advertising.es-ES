@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo ver los detalles de rendimiento de
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
-source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
+source-git-commit: e786ffc8c9e331fffcc8b0f7cce4cb082baea6ac
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -109,11 +109,23 @@ Para obtener más información sobre la configuración del portafolio, consulte 
 
 ## Descargar informes de rendimiento de la cartera y listas de los componentes de la cartera
 
-1. En la barra de herramientas, haga clic en **[!UICONTROL Download report]**.
+* Para descargar todos los informes:
 
-1. Seleccione la casilla de verificación situada junto a cada tipo de componente de portafolio e informe de rendimiento que desee incluir.
+   1. En la barra de herramientas, haga clic en **[!UICONTROL Download report]**.
 
-   Para algunos informes de rendimiento, puede elegir si desea descargar los datos como un carro de compras o como una tabla.
+   1. Seleccione la casilla de verificación situada junto a cada tipo de componente de portafolio e informe de rendimiento que desee incluir.
+
+      Para algunos informes de rendimiento, puede elegir si desea descargar los datos como un gráfico o una tabla.
+
+   1. Haga clic en **[!UICONTROL Download report]**.
+
+* Para descargar un informe [!DNL model accuracy] con tipos de datos específicos:
+
+   1. En la barra de herramientas del informe, haga clic en **[!UICONTROL Download report]**.
+
+   1. Seleccione la casilla de verificación situada junto a cada tipo de datos que desee incluir y cómo desglosar los datos (por unidad de oferta o por volumen de clics).
+
+   1. Haga clic en **[!UICONTROL Download report]**.
 
 >[!MORELIKETHIS]
 >
