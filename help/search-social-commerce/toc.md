@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Inventario admitido](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integración con Adobe Experience Cloud {#integrations}
       + [Integración con soluciones y servicios de Adobe Experience Cloud](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-      + [Integración con Adobe Audience Manager (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-   + [Compatibilidad con la privacidad del consumidor (vínculo)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [Directivas y directrices (vínculo)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es){target="_blank"}
+      + [Integración con Adobe Audience Manager (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=es){target="_blank"}
+   + [Compatibilidad con la privacidad del consumidor (vínculo)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
+   + [Directivas y directrices (vínculo)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=es){target="_blank"}
 + Primeros pasos {#getting-started}
    + [Resumen de implementación](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Requisitos del sistema](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -96,8 +96,8 @@ ht-degree: 2%
          + [Administrar informes de vista de datos desde la vista [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + Campañas {#campaigns}
          + [Acerca de la vista [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [Asignar campañas a un portafolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [Quitar campañas de un portafolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [Asignar campañas a un portafolio](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [Quitar campañas de un portafolio](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [Administrar asignaciones de restricción para campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [Ver un gráfico de rendimiento en la vista [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-performance-graph.md)
          + [Administrar informes de vista de datos desde la vista [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
@@ -108,13 +108,13 @@ ht-degree: 2%
          + [Administrar informes de vista de datos desde la vista [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
    + Informes {#reports}
       + Clasificaciones de etiquetas {#label-classifications}
-         + [Acerca de las clasificaciones de etiquetas](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
-         + [Crear una clasificación de etiquetas](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
-         + [Asignar valores de clasificación a componentes de cuenta desde las vistas de administración de campañas](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
-         + [Asignar valores de clasificación a componentes de cuenta mediante hojas de edición masiva](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
-         + [Quitar valores de clasificación de etiquetas de los componentes de la cuenta](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
-         + [Eliminar valores de clasificación de etiquetas](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
-         + [Eliminar clasificaciones de etiquetas](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
+         + [Acerca de las clasificaciones de etiquetas](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about)
+         + [Crear una clasificación de etiquetas](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-create)
+         + [Asignar valores de clasificación a componentes de cuenta desde las vistas de administración de campañas](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management)
+         + [Asignar valores de clasificación a componentes de cuenta mediante hojas de edición masiva](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-assign-bulksheets)
+         + [Quitar valores de clasificación de etiquetas de los componentes de la cuenta](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-remove)
+         + [Eliminar valores de clasificación de etiquetas](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-values-delete)
+         + [Eliminar clasificaciones de etiquetas](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-delete)
 + Configurar {#setup}
    + Cuentas {#accounts}
       + [Acerca de las cuentas de red de publicidad](/help/search-social-commerce/new-ui/set-up/accounts/ad-network-account-about.md)
@@ -141,7 +141,7 @@ ht-degree: 2%
             + [Formatos de rastreo de clics para  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Formatos de rastreo de clics para  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Parámetros de seguimiento opcionales para URL de seguimiento de clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Cookies de Adobe Advertising (vínculo)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+      + [Cookies de Adobe Advertising (vínculo)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=es){target="_blank"}
       + [El parámetro de seguimiento de ID de AMO (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Seguimiento de conversión {#conversion-tracking}
       + [Opciones de seguimiento de conversión](/help/search-social-commerce/tracking/conversion-tracking-about.md)
