@@ -3,16 +3,14 @@ title: Administrar las cuentas de red de publicidad
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
+source-git-commit: 10d8205d0c750e566ddd80122e291c276264afcb
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
 
 # Administrar las cuentas de red de publicidad
-
-<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
 
 A continuación encontrará instrucciones para crear y editar los detalles de la cuenta de red de anuncios, actualizar el token [!DNL oAuth] de una cuenta y deshabilitar cuentas.
 
@@ -21,6 +19,8 @@ A continuación encontrará instrucciones para crear y editar los detalles de la
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 Para obtener detalles acerca de la funcionalidad disponible para cada red de anuncios, consulte &quot;[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md)&quot;.
+
+Para obtener instrucciones acerca de cómo administrar cuentas de red de anuncios en la nueva interfaz de usuario, vea &quot;[(nueva interfaz de usuario) Administrar cuentas de red de anuncios a través de la conexión de API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md)&quot;.
 
 ## Crear y agregar detalles de cuenta de red {#create-account}
 
