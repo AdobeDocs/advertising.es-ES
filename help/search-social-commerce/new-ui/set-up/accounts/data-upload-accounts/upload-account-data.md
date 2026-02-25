@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Haga clic en **[!UICONTROL Save]**.
 
-# Cargar datos de cuenta en un bloque de [!DNL Amazon] [!DNL S3] {#data-upload-s3}
+&#x200B;# Cargar datos de cuenta en un bloque de [!DNL Amazon] [!DNL S3] {#data-upload-s3}
 
 Puede rellenar una cuenta con datos de coste, clics y contenido de campañas cargándolos en una carpeta asignada a Search, Social y Commerce en un bloque de [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3]).
 
