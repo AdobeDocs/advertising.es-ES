@@ -49,7 +49,7 @@ El rastreo de clics de Search, Social y Commerce y el seguimiento de conversione
 
 Los datos deben cumplir los requisitos de datos de la red de publicidad, por lo que los campos de datos de cada entidad pueden variar según la red de publicidad.
 
-1. <!-- For all ad networks (excluding DSP), -->Cargue los datos iniciales de una sola cuenta de cualquiera de las siguientes maneras:
+1. &#x200B;<!-- For all ad networks (excluding DSP), -->Cargue los datos iniciales de una sola cuenta de cualquiera de las siguientes maneras:
 
 * Cargue un archivo manualmente desde el dispositivo o la red.
 
