@@ -2,9 +2,10 @@
 title: Configuración de cuentas de red de publicidad para la carga de datos
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
+source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Para obtener detalles acerca de la funcionalidad disponible para cada red de anu
 
    1. En la ficha **[!UICONTROL Account Details]**, edite los detalles de la cuenta.
 
-   1. (Anunciantes con una integración de [[!DNL Adobe Analytics for Advertising]] (/help/integrations/analytics/overview.md)) Haga clic en la ficha **[!UICONTROL Set up Adobe Analytics]** y edite los grupos de informes [!DNL Analytics] que se utilizarán para el seguimiento y la creación de informes de la actividad de la campaña.
+   1. (Anunciantes con una [[!DNL Adobe Analytics for Advertising] integración](/help/integrations/analytics/overview.md)) Haga clic en la ficha **[!UICONTROL Set up Adobe Analytics]** y edite los [!DNL Analytics] grupos de informes que quiera usar para realizar el seguimiento y generar informes de la actividad de la campaña.
 
    1. (Opcional) En la ficha **[!UICONTROL Upload File]**, cargue los archivos de datos de la cuenta.
 
