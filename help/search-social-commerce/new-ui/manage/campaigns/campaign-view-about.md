@@ -23,7 +23,7 @@ Sobre la tabla de datos, puede abrir un gráfico de rendimiento con hasta tres m
 
 * [Ver un gráfico de rendimiento en todas las campañas de la vista](campaign-view-performance-graph.md)
 
-* [Asignar campañas a portafolios nuevos o existentes](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), y [anular la asignación de campañas de portafolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Asignar campañas a portafolios nuevos o existentes](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), y [anular la asignación de campañas de portafolios](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Asignar restricciones a campañas y anular la asignación de restricciones de campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -31,7 +31,7 @@ Sobre la tabla de datos, puede abrir un gráfico de rendimiento con hasta tres m
 
 >[!MORELIKETHIS]
 >
->* [Asignar campañas a un portafolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Quitar campañas de un portafolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Asignar campañas a un portafolio](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Quitar campañas de un portafolio](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Administrar asignaciones de restricción para campañas](campaign-constraint-assignments-manage.md)
 >* [Descargar datos de la vista [!UICONTROL Campaigns]](campaign-view-report.md)
