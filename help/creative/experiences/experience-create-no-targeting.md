@@ -3,7 +3,7 @@ title: Crear una experiencia sin segmentación del árbol de decisiones
 description: Aprenda a crear una experiencia publicitaria sin segmentación.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -38,9 +38,9 @@ Cree una experiencia publicitaria sin segmentación. Cada experiencia puede util
 
      Asigne elementos creativos a la etiqueta de publicidad, no dentro de la configuración de experiencia.
 
-   * [Personalización de las direcciones URL de seguimiento](experience-tracking-urls-no-targeting.md)
-
    * [Personalizar la programación y la optimización creativas](experience-optimization-scheduling-no-targeting.md).
+
+   * [Personalización de las direcciones URL de seguimiento](experience-tracking-urls-no-targeting.md)
 
 >[!MORELIKETHIS]
 >

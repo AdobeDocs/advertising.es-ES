@@ -3,9 +3,9 @@ title: Personalizar la optimización y programación creativas de una experienci
 description: Obtenga información sobre cómo configurar la optimización y la programación de anuncios para experiencias sin segmentación.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ Cuando se desactiva la programación creativa, la configuración de optimizació
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
-1. Mantenga el cursor sobre la fila de la etiqueta de anuncio correspondiente y haga clic en ![Programación de anuncios](/help/creative/assets/edit-gray.png "Editar URL de seguimiento") **[!UICONTROL Creative Optimization]**.&lt;!— A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
+1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar optimización creativa](/help/creative/assets/edit-gray.png "Editar optimización creativa") **[!UICONTROL Creative Optimization]**.&lt;!— A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
 
 1. Deshabilitar **[!UICONTROL Schedule]**.
 
 1. Seleccione el tipo de rotación creativa para las variantes de anuncio en los paquetes asociados:
 
-   * *[!UICONTROL Weighted]:* Muestra variantes de anuncio en los paquetes creativos asociados según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Los pesos de todos los paquetes seleccionados deben sumar 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* Muestra variantes de anuncio en los paquetes creativos asociados según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Para aplicar pesos iguales a todos los paquetes asociados, haga clic en (![Aplicar igual peso](/help/creative/assets/apply-equal-weight.png "Aplicar igual peso")). Los pesos de todos los paquetes seleccionados deben sumar 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]:* Muestra las variantes de anuncio más efectivas con mayor frecuencia, según un objetivo especificado.
 
@@ -66,7 +66,7 @@ Al programar, debe programar los elementos creativos durante toda la experiencia
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
-1. Mantenga el cursor sobre la fila de la etiqueta de anuncio correspondiente y haga clic en ![Programación de anuncios](/help/creative/assets/edit-gray.png "Editar URL de seguimiento") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
+1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar optimización creativa](/help/creative/assets/edit-gray.png "Editar optimización creativa") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
 
 1. Habilitar **[!UICONTROL Schedule]**.
 
@@ -74,11 +74,11 @@ Al programar, debe programar los elementos creativos durante toda la experiencia
 
    1. En la columna de la izquierda, seleccione la casilla de verificación situada junto a cada elemento creativo para añadirlo a la primera programación.
 
-   1. Especifique las fechas de inicio y finalización de la programación.
+   1. Especifique la fecha de inicio y la hora de inicio, así como la fecha de finalización y la hora de finalización de la programación.
 
    1. Seleccione el tipo de rotación creativa:
 
-      * *[!UICONTROL Weighted]:* Gira los elementos creativos manualmente según los pesos relativos. Introduzca el peso de cada creativo como porcentaje. Los pesos de todos los creativos seleccionados deben sumar 100.
+      * *[!UICONTROL Weighted]:* Gira los elementos creativos manualmente según los pesos relativos. Introduzca el peso de cada creativo como porcentaje. Para aplicar pesos iguales a todos los paquetes de la programación, haga clic en (![Aplicar igual peso](/help/creative/assets/apply-equal-weight.png "Aplicar igual peso")). Los pesos de todos los creativos seleccionados deben sumar 100.
 
       * *[!UICONTROL Algorithmic]:* Gira los elementos creativos de forma algorítmica según un objetivo de optimización especificado.
 

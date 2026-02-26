@@ -3,9 +3,9 @@ title: Asignar y cancelar la asignación de paquetes creativos a un nodo final e
 description: Aprenda a asignar elementos creativos a cada destinatario en sus experiencias publicitarias.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Para las experiencias de publicidad estándar, solo puede asignar paquetes creat
 
 1. Realice una de las siguientes acciones:
 
-   * (Nodos finales sin elementos creativos) En el nodo, haga clic en ![Agregar](/help/creative/assets/add.png "Agregar") y, a continuación, seleccione **[!UICONTROL Assign Bundles]**.
+   * (Nodos finales sin elementos creativos) En el nodo, haga clic en **[!UICONTROL Assign Bundles]**.
 
-   * (Nodos con elementos creativos existentes) Mantenga el cursor sobre el cuadro del paquete creativo debajo del nodo de destino <!-- wording???? --> y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+   * (Nodos con elementos creativos existentes) Mantenga el cursor sobre el cuadro del paquete creativo debajo del nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
 
 1. Seleccione la casilla de verificación situada junto a cada paquete para asignarlo al nodo de destino y anule la selección de la casilla de verificación situada junto a cada paquete para anular la asignación.
 
    Solo se muestran los paquetes del tipo de paquete relevante para la experiencia (estándar o dinámica).
 
-1. Haga clic en **[!UICONTROL Attach to Bundles]**.
-
-1. (Opcional) [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
+1. Haga clic en **[!UICONTROL Save]**.
 
 1. (Opcional) [Personalice la optimización y la programación creativas](experience-optimization-scheduling-targeting.md) para los paquetes asignados.
+
+1. (Opcional) [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
