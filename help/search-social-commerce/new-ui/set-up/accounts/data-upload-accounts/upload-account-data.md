@@ -1,7 +1,7 @@
 ---
 title: Carga de datos de cuenta sin conexión para informes y simulaciones
 description: Aprenda a cargar datos de cuentas sin conexión manualmente o en un bloque de  [!DNL Amazon] [!DNL S3] para la compatibilidad con informes y simulaciones. Los archivos de registro realizan un seguimiento del progreso de los trabajos de carga.
-source-git-commit: bfa5403ff66bed73797fc4c7115b8c043856745d
+source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Haga clic en **[!UICONTROL Save]**.
 
-&#x200B;# Cargar datos de cuenta en un bloque de [!DNL Amazon] [!DNL S3] {#data-upload-s3}
+## Cargar datos de cuenta en un bloque de [!DNL Amazon] [!DNL S3] {#data-upload-s3}
 
 Puede rellenar una cuenta con datos de coste, clics y contenido de campañas cargándolos en una carpeta asignada a Search, Social y Commerce en un bloque de [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3]).
 
