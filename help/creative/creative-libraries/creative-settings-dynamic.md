@@ -3,9 +3,9 @@ title: Configuración creativa dinámica
 description: Consulte la configuración de los elementos creativos dinámicos.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** Biblioteca creativa en la que se crean los anuncios. Si está creando los anuncios dentro de [!UICONTROL Creatives] > [!UICONTROL Creative Libraries], el nombre de la biblioteca ya estará seleccionado y será de solo lectura.
 
-**[!UICONTROL Ad Template Size]:** (solo anuncios en pantalla dinámicos) [dimensiones de anuncio](/help/creative/creative-libraries/creative-sizes.md) para la plantilla de anuncio a partir de la cual se creará el anuncio. Si selecciona primero un(a) [!UICONTROL Ad Template] específico(a), entonces este valor se selecciona automáticamente.
-
 ## Plantilla de anuncio
 
 **[!UICONTROL Ad Template]:** Plantilla de anuncio a partir de la cual se crearán los anuncios. Seleccione una plantilla de anuncio existente o cargue una nueva plantilla de anuncio y seleccione el tipo de plantilla (*Estática* o *Dinámica*). La plantilla debe tener el formato ZIP y contener:<!-- Need to add more specs for templates -->
@@ -40,13 +38,13 @@ ht-degree: 0%
 
 Para continuar, haga clic en **[!UICONTROL Select Ad Template]**.
 
+**[!UICONTROL Size]:** (solo anuncios dinámicos en pantalla; solo lectura) Las [dimensiones de anuncio](/help/creative/creative-libraries/creative-sizes.md) para la plantilla de anuncio seleccionada, que se usa para crear los anuncios.
+
 **[!UICONTROL Card Count (Max 50)]:** (solo anuncios de visualización) El número de productos que se mostrarán en un carrusel.
 
 **[!UICONTROL Duration]:** (solo anuncios de vídeo; solo lectura) La duración del vídeo derivada de la plantilla de anuncio seleccionada. La duración de cada vídeo debe estar entre 1 y 90 segundos.
 
 ## Catálogos
-
-**[!UICONTROL Template]:** Plantilla de fuente que se va a usar para crear los anuncios.
 
 **\[Catálogos\]**: Uno o más catálogos a partir de los cuales generar anuncios. Seleccione un catálogo existente o cree un nuevo catálogo descargando una plantilla de fuente existente y creando y cargando el nuevo catálogo. Haga clic en **[!UICONTROL Select Catalog]**.
 
