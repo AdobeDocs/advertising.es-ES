@@ -2,9 +2,10 @@
 title: Campos disponibles para archivos de fuentes de publicidad dinámica
 description: Obtenga información acerca de los campos que puede incluir en los archivos de fuente que utiliza para crear anuncios dinámicos.
 feature: Creative Dynamic Creatives
-source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
+exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
+source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -39,14 +40,37 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 
 | Nombre de campo | Tipo de datos | ¿Requerido? |
 |------------|-----------|-----------|
-| NÚM_PARTE | varchar(64) | SÍ |
-| PRODUCT_NAME | texto | NO |
-| PRODUCT_URL | texto | NO |
-| PRECIO | decimal(10,2) | NO |
+| AD_SIZE | varchar(32) | NO |
+| ADDITIONAL_PRICE_1 | decimal(10,2) | NO |
+| ADDITIONAL_PRICE_2 | decimal(10,2) | NO |
+| ADDITIONAL_PRICE_3 | decimal(10,2) | NO |
+| AREA_CODE | texto | NO |
+| AUDIENCE_SEGMENT | texto | NO |
+| AUDIO_1 | varchar(1024) | NO |
+| AUDIO_2 | varchar(1024) | NO |
+| AUDIO_3 | varchar(1024) | NO |
+| AUDIO_4 | varchar(1024) | NO |
+| AUDIO_5 | varchar(1024) | NO |
+| CIUDAD | texto | NO |
+| PAÍS | texto | NO |
+| CREATIVE_ATTRIBUTE_1 | varchar(256) | NO |
+| CREATIVE_ATTRIBUTE_2 | varchar(256) | NO |
+| CREATIVE_ATTRIBUTE_3 | varchar(256) | NO |
+| CREATIVE_ATTRIBUTE_4 | varchar(256) | NO |
+| CREATIVE_ATTRIBUTE_5 | varchar(256) | NO |
+| CREATIVE_ATTRIBUTE_6 | varchar(256) | NO |
+| CREATIVE_ATTRIBUTE_7 | varchar(256) | NO |
+| CREATIVE_ATTRIBUTE_8 | varchar(256) | NO |
+| CREATIVE_ATTRIBUTE_9 | varchar(256) | NO |
+| CREATIVE_ATTRIBUTE_10 | varchar(256) | NO |
+| DATAPASS_FILTER_1 | texto | NO |
+| DATAPASS_FILTER_2 | texto | NO |
+| DATAPASS_FILTER_3 | texto | NO |
+| DATAPASS_FILTER_4 | texto | NO |
+| DATAPASS_FILTER_5 | texto | NO |
 | DISCOUNT_PRICE | decimal(10,2) | NO |
+| DMA | texto | NO |
 | IMAGEN | varchar(1024) | NO |
-| IMAGE_HEIGHT | int | NO |
-| IMAGE_WIDTH | int | NO |
 | IMAGE_1 | varchar(1024) | NO |
 | IMAGE_2 | varchar(1024) | NO |
 | IMAGE_3 | varchar(1024) | NO |
@@ -57,6 +81,21 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | IMAGE_8 | varchar(1024) | NO |
 | IMAGE_9 | varchar(1024) | NO |
 | IMAGE_10 | varchar(1024) | NO |
+| IMAGE_HEIGHT | int | NO |
+| IMAGE_WIDTH | int | NO |
+| IS_DEFAULT | enum | NO |
+| IDIOMA | texto | NO |
+| NÚM_PARTE | varchar(64) | SÍ |
+| PRECIO | decimal(10,2) | NO |
+| PRODUCT_NAME | texto | NO |
+| PRODUCT_URL | texto | NO |
+| PROFILE_FILTER_1 | texto | NO |
+| PROFILE_FILTER_2 | texto | NO |
+| PROFILE_FILTER_3 | texto | NO |
+| PROFILE_FILTER_4 | texto | NO |
+| PROFILE_FILTER_5 | texto | NO |
+| CLASIFICAR | int | NO |
+| ESTADO | texto | NO |
 | TEXT_1 | texto | NO |
 | TEXT_2 | texto | NO |
 | TEXT_3 | texto | NO |
@@ -72,39 +111,12 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | TEXT_13 | texto | NO |
 | TEXT_14 | texto | NO |
 | TEXT_15 | texto | NO |
-| ADDITIONAL_PRICE_1 | decimal(10,2) | NO |
-| ADDITIONAL_PRICE_2 | decimal(10,2) | NO |
-| ADDITIONAL_PRICE_3 | decimal(10,2) | NO |
-| AD_SIZE | varchar(32) | NO |
-| CLASIFICAR | int | NO |
-| PAÍS | texto | NO |
-| ESTADO | texto | NO |
-| CIUDAD | texto | NO |
+| VIDEO_1 | varchar(1024) | NO |
+| VIDEO_2 | varchar(1024) | NO |
+| VIDEO_3 | varchar(1024) | NO |
+| VIDEO_4 | varchar(1024) | NO |
+| VIDEO_5 | varchar(1024) | NO |
 | ZIP | texto | NO |
-| DMA | texto | NO |
-| PROFILE_FILTER_1 | texto | NO |
-| PROFILE_FILTER_2 | texto | NO |
-| PROFILE_FILTER_3 | texto | NO |
-| PROFILE_FILTER_4 | texto | NO |
-| PROFILE_FILTER_5 | texto | NO |
-| DATAPASS_FILTER_1 | texto | NO |
-| DATAPASS_FILTER_2 | texto | NO |
-| DATAPASS_FILTER_3 | texto | NO |
-| DATAPASS_FILTER_4 | texto | NO |
-| DATAPASS_FILTER_5 | texto | NO |
-| AUDIENCE_SEGMENT | texto | NO |
-| IDIOMA | texto | NO |
-| CREATIVE_ATTRIBUTE_1 | varchar(256) | NO |
-| CREATIVE_ATTRIBUTE_2 | varchar(256) | NO |
-| CREATIVE_ATTRIBUTE_3 | varchar(256) | NO |
-| CREATIVE_ATTRIBUTE_4 | varchar(256) | NO |
-| CREATIVE_ATTRIBUTE_5 | varchar(256) | NO |
-| CREATIVE_ATTRIBUTE_6 | varchar(256) | NO |
-| CREATIVE_ATTRIBUTE_7 | varchar(256) | NO |
-| CREATIVE_ATTRIBUTE_8 | varchar(256) | NO |
-| CREATIVE_ATTRIBUTE_9 | varchar(256) | NO |
-| CREATIVE_ATTRIBUTE_10 | varchar(256) | NO |
-| IS_DEFAULT | enum | NO |
 
 >[!MORELIKETHIS]
 >
