@@ -83,4 +83,4 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 >
 >* [Administrar asignaciones de restricción para campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Administrar asignaciones de restricción para los anuncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
-[Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>[Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
