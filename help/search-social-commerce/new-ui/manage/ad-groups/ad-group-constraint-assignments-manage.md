@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo asignar restricciones a grupos de 
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -83,4 +83,5 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 >
 >* [Administrar asignaciones de restricción para campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Administrar asignaciones de restricción para los anuncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
->[Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
