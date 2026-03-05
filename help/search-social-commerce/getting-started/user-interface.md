@@ -3,9 +3,9 @@ title: Organización de la interfaz de usuario
 description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -42,13 +42,13 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
    * **[!UICONTROL Conversions]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-   * **[!UICONTROL Conversion Value Rules]** abre vistas de solo lectura de las reglas de valor de conversión de nivel de cuenta y de campaña. Para administrar las reglas de valor de conversión, use la vista heredada [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules].
+   * **[!UICONTROL Conversion Value Rules]** abre vistas de solo lectura de las reglas de valor de conversión de nivel de cuenta y de campaña. Para administrar las reglas de valor de conversión, use la vista heredada [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Constraints]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Constraints].
 
 * Submenú **[!UICONTROL Plan]**:
 
-   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -62,13 +62,15 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
    * **[!UICONTROL Campaigns]:** Abre una nueva vista de [!UICONTROL Campaigns] que muestra todas las campañas del anunciante. Puede asignar campañas a portafolios y administrar asignaciones de restricciones para campañas seleccionadas. También puede descargar un informe del contenido de la tabla de datos. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Para crear, editar y eliminar campañas, vuelva a la interfaz de usuario heredada haciendo clic en **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** en el menú principal o haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Para crear, editar y eliminar campañas, vuelva a la interfaz de usuario heredada haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ad Groups]:** Abre una nueva vista de [!UICONTROL Ad Groups], que muestra todos los grupos de anuncios del anunciante. Puede administrar asignaciones de restricción para los grupos de anuncios seleccionados. También puede descargar un informe del contenido de la tabla de datos.
 
-     Para crear, editar y eliminar campañas, vuelva a la interfaz de usuario heredada haciendo clic en **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** en el menú principal o haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+     Para crear, editar y eliminar campañas, vuelva a la interfaz de usuario heredada haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Ads]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Ads]** Abre una nueva vista [!UICONTROL Ads] que muestra todos los anuncios del anunciante. Puede administrar asignaciones de restricciones para anuncios seleccionados.
+
+     Para crear, editar y eliminar anuncios, vuelva a la interfaz de usuario heredada haciendo clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenú **[!UICONTROL Reports]**:
 
@@ -94,7 +96,7 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
    * **[!UICONTROL Creatives]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-   * **[!UICONTROL Extensions]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Extensions]** abre vistas de solo lectura de sus extensiones de publicidad existentes. Para administrar sus extensiones, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Shopping]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
 
