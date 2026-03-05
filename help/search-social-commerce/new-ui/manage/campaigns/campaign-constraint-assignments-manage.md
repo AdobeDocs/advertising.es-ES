@@ -4,9 +4,9 @@ description: Aprenda a asignar restricciones a las campañas.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -90,3 +90,4 @@ Puede asignar una sola restricción a una o varias campañas.
 >
 >* [Administrar asignaciones de restricción para grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Administrar asignaciones de restricción para los anuncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+[Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)

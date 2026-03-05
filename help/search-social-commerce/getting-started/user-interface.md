@@ -3,9 +3,9 @@ title: Organización de la interfaz de usuario
 description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 2e5d70dcf2008bb0ea0c36955032011594e13ca3
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
 * Submenú **[!UICONTROL Plan]**:
 
-   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -84,9 +84,11 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
 * Submenú **[!UICONTROL Target]**:
 
-   * **[!UICONTROL Audience]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Audiences].
+   * **[!UICONTROL Audience]**: abre una nueva vista de [!UICONTROL Audiences] que muestra todas las audiencias existentes del anunciante. Para administrar las audiencias, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Keywords]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Keywords]** Abre una nueva vista [!UICONTROL Keywords] que muestra las palabras clave existentes y las palabras clave negativas para el anunciante. Puede administrar asignaciones de restricción para palabras clave seleccionadas.
+
+     Para crear, editar y eliminar palabras clave y palabras clave negativas, use las vistas heredadas [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Placements]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
