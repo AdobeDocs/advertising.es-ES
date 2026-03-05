@@ -4,9 +4,9 @@ description: Descubra lo que puede hacer en la vista [!UICONTROL Ad Groups].
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 10922ae6-b2b5-4498-bc6a-424f3249e16a
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,18 @@ ht-degree: 0%
 
 *característica de Beta*
 
-La vista [!UICONTROL Manage] > [!UICONTROL Ad Groups] enumera todos los grupos de anuncios de su cuenta.
-
-Sobre la tabla de datos, puede abrir un gráfico de rendimiento con hasta tres métricas totales en todos los grupos de anuncios de la vista para el intervalo de fechas especificado.
+La vista [!UICONTROL Manage] > [!UICONTROL Ad Groups] enumera todos los grupos de anuncios en la vista filtrada de la cuenta de anunciante seleccionada.
 
 ## Acciones disponibles
 
-* [Ver un gráfico de rendimiento en todos los grupos de anuncios de la vista](ad-group-view-performance-graph.md)
+<!-- Not available as of 3/4/26:
+
+* [View a performance graph across all ad groups in the view](ad-group-view-performance-graph.md)
+-->
+
+* Cambie el nombre de un grupo de anuncios desde la fila.
+
+* Elimine o cambie el estado de un grupo de publicidad desde la fila.
 
 * [Asignar restricciones a grupos de anuncios y anular la asignación de restricciones de grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 

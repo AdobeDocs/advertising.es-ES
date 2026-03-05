@@ -4,9 +4,9 @@ description: Más información sobre los portafolios.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '729'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Un portafolio puede tener los siguientes estados:
 
 ## La vista [!UICONTROL Portfolios]
 
-La vista [!UICONTROL Portfolios] muestra sus portafolios existentes, con datos de rendimiento personalizables. Puede [personalizar las columnas dentro de la vista](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) y filtrar los datos para incluir portafolios específicos [de la barra de herramientas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o del [encabezado de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+La vista [!UICONTROL Portfolios] enumera todos los portafolios existentes en la vista filtrada, con datos de rendimiento personalizables. Puede [personalizar las columnas dentro de la vista](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) y filtrar los datos para incluir portafolios específicos [de la barra de herramientas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o del [encabezado de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Sobre la tabla de datos, puede abrir un gráfico de rendimiento con hasta tres métricas totales en todos los portafolios de la vista para el intervalo de fechas especificado.
 

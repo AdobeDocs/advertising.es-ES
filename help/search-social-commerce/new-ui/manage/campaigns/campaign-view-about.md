@@ -4,9 +4,9 @@ description: Descubra lo que puede hacer en la vista [!UICONTROL Campaigns].
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 7d261ac3-5d89-4357-9866-19a7e3aab837
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,20 @@ ht-degree: 0%
 
 *característica de Beta*
 
-La vista [!UICONTROL Manage] > [!UICONTROL Campaigns] enumera todas las campañas de su cuenta. Puede abrir una lista de grupos de publicidad en la campaña haciendo clic en el nombre de la campaña.
-
-Sobre la tabla de datos, puede abrir un gráfico de rendimiento con hasta tres métricas totales en todas las campañas de la vista para el intervalo de fechas especificado.
+La vista [!UICONTROL Manage] > [!UICONTROL Campaigns] enumera todas las campañas de la vista filtrada para la cuenta de anunciante seleccionada. Puede abrir una lista de grupos de publicidad en la campaña haciendo clic en el nombre de la campaña.
 
 ## Acciones disponibles
 
-* [Ver un gráfico de rendimiento en todas las campañas de la vista](campaign-view-performance-graph.md)
+<!-- Not available as of 3/4/26:
 
-* [Asignar campañas a portafolios nuevos o existentes](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), y [anular la asignación de campañas de portafolios](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [View a performance graph across all campaigns in the view](campaign-view-performance-graph.md)
+-->
+
+* Cambie el nombre de una campaña desde la fila.
+
+* Elimine o cambie el estado de una campaña desde la fila.
+
+* [Asignar campañas a portafolios nuevos o existentes](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), y [anular la asignación de campañas de portafolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Asignar restricciones a campañas y anular la asignación de restricciones de campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -31,7 +36,7 @@ Sobre la tabla de datos, puede abrir un gráfico de rendimiento con hasta tres m
 
 >[!MORELIKETHIS]
 >
->* [Asignar campañas a un portafolio](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Quitar campañas de un portafolio](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Asignar campañas a un portafolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Quitar campañas de un portafolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Administrar asignaciones de restricción para campañas](campaign-constraint-assignments-manage.md)
 >* [Descargar datos de la vista [!UICONTROL Campaigns]](campaign-view-report.md)

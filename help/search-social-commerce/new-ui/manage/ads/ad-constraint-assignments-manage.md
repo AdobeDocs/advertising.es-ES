@@ -1,9 +1,8 @@
 ---
-title: Administrar asignaciones de restricción para campañas
-description: Aprenda a asignar restricciones a las campañas.
+title: Administrar asignaciones de restricciones para anuncios
+description: Aprenda a asignar restricciones a los anuncios.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
 source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
 source-wordcount: '435'
@@ -11,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# (Nueva IU) Administrar asignaciones de restricciones para campañas
+# (Nueva IU) Administrar asignaciones de restricciones para anuncios
 
 *característica de Beta*
 
@@ -26,13 +25,13 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 >* Si posteriormente edita una palabra clave o la copia de anuncio de un anuncio (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
 >* Las restricciones activas restringen las ofertas solo para las unidades de oferta asignadas en portafolios optimizados de nivel de palabra clave heredados. Se ignoran para las unidades de oferta que están en portafolios activos, en portafolios híbridos o que no están en portafolios.
 
-## Asignar una restricción a las campañas seleccionadas desde la nueva vista [!UICONTROL Campaigns]
+## Asignar una restricción a los anuncios seleccionados desde la nueva vista [!UICONTROL Ads]
 
 Puede asignar una sola restricción a una o varias campañas.
 
-1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Seleccione la casilla de verificación situada junto a cada campaña a la que desea asignar una sola restricción.
+1. Active la casilla de verificación situada junto a cada anuncio al que desee asignar una restricción única.
 
 1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -60,11 +59,11 @@ Puede asignar una sola restricción a una o varias campañas.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-## Quitar la asignación de restricciones de campañas seleccionadas de la nueva vista [!UICONTROL Campaigns]
+## Quitar la asignación de restricciones de campañas seleccionadas de la nueva vista [!UICONTROL Ads]
 
-1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. Seleccione la casilla de verificación situada junto a cada campaña para anular la asignación de restricciones.
+1. Seleccione la casilla de verificación situada junto a cada anuncio del que anulará la asignación de restricciones.
 
 1. En la barra de herramientas de acciones masivas, haga clic en **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -88,5 +87,5 @@ Puede asignar una sola restricción a una o varias campañas.
 
 >[!MORELIKETHIS]
 >
+>* [Administrar asignaciones de restricción para campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Administrar asignaciones de restricción para grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Administrar asignaciones de restricción para los anuncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
