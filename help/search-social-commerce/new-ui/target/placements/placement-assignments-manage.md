@@ -1,6 +1,6 @@
 ---
-title: Administrar asignaciones de restricción para palabras clave
-description: Aprenda a asignar restricciones a palabras clave.
+title: Administrar asignaciones de restricción para ubicaciones
+description: Obtenga información sobre cómo asignar restricciones a ubicaciones.
 feature: Search Optimization, Search Campaign Management
 hide: true
 source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# (Nueva interfaz de usuario) Administrar asignaciones de restricción para palabras clave
+# (Nueva interfaz de usuario) Administrar asignaciones de restricción para ubicaciones
 
 *característica de Beta*
 
@@ -25,13 +25,13 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 >* Si posteriormente edita una palabra clave o la copia de anuncio de un anuncio (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
 >* Las restricciones activas restringen las ofertas solo para las unidades de oferta asignadas en portafolios optimizados de nivel de palabra clave heredados. Se ignoran para las unidades de oferta que están en portafolios activos, en portafolios híbridos o que no están en portafolios.
 
-## Asignar una restricción a los anuncios seleccionados desde la nueva vista [!UICONTROL Keywords]
+## Asignar una restricción a las ubicaciones seleccionadas desde la nueva vista [!UICONTROL Placements]
 
-Puede asignar una sola restricción a una o varias campañas.
+Puede asignar una sola restricción a una o varias ubicaciones.
 
-1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. En la ficha **[!UICONTROL Keywords]**, active la casilla de verificación situada junto a cada palabra clave a la que va a asignar una sola restricción.
+1. En la ficha **[!UICONTROL Placements]**, active la casilla de verificación situada junto a cada ubicación a la que va a asignar una única restricción.
 
 1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -59,11 +59,11 @@ Puede asignar una sola restricción a una o varias campañas.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-## Quitar la asignación de restricciones de campañas seleccionadas de la nueva vista [!UICONTROL Keywords]
+## Quitar la asignación de restricciones de las ubicaciones seleccionadas de la nueva vista [!UICONTROL Placements]
 
-1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. En la ficha **[!UICONTROL Keywords]**, active la casilla de verificación situada junto a cada palabra clave de la que anulará la asignación de restricciones.
+1. En la ficha **[!UICONTROL Placements]**, active la casilla de verificación situada junto a cada ubicación de la que anulará la asignación de restricciones.
 
 1. En la barra de herramientas de acciones masivas, haga clic en **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
