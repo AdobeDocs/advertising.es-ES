@@ -3,9 +3,9 @@ title: Acerca de los informes personalizados
 description: Obtenga información acerca de las opciones para crear informes personalizados manualmente o mediante plantillas de informe preconfiguradas.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
+source-git-commit: 041b842ccb9c0ebc2f4d9499557e20a960789a7a
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
 * Plantillas de informe preconfiguradas
 
-   * **[!UICONTROL All-in Cost BETA]**: (Anunciantes solo con Advertising Creative y Advertising DSP; función beta) Use este informe para ver cuánto se atribuyó el gasto de Advertising DSP al servicio de publicidad para Adobe Creative. Puede ver datos creativos, de atributos, de destinatarios y de otro tipo en los niveles de campaña, paquete, ubicación y publicidad.
+   * **[!UICONTROL All-in Cost]**: (Anunciantes solo con Advertising Creative y Advertising DSP) Use este informe para ver cuánto se atribuyó el gasto de Advertising DSP al servicio de publicidad para Adobe Creative. Puede ver datos creativos, de atributos, de destinatarios y de otro tipo en los niveles de campaña, paquete, ubicación y publicidad.
 
    * **[!UICONTROL Billing]:** Use este informe para comprender las métricas de facturación clave, como las métricas de gasto para la facturación de medios por campaña. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
