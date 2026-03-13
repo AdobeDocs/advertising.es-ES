@@ -3,9 +3,9 @@ title: Crear una audiencia reutilizable
 description: Obtenga información sobre cómo crear audiencias reutilizables compuestas de segmentos de audiencia y otras audiencias guardadas.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e2d040409bcf18ca3c7906e8f3d5d3dc6633d2d7
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
    >A medida que crea la audiencia, se actualizan [datos detallados del tamaño de la audiencia](audience-about.md) en el panel derecho
 
    * Para crear manualmente la lógica del segmento, mediante los segmentos disponibles en las fichas [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] y [!UICONTROL Saved Audiences]](audience-settings.md), haga lo siguiente.
+
+      * (Opcional) Busque un nombre de segmento, una descripción o una ruta.
+
+        Los resultados de la búsqueda incluyen segmentos basados en los términos exactos que utilice. Cuando introduce varios términos, se deben encontrar todos para un segmento.
 
       * Para añadir el primer segmento, localícelo en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
 
