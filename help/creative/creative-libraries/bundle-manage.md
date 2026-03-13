@@ -3,9 +3,9 @@ title: Administrar paquetes creativos
 description: Aprenda a administrar y utilizar grupos de creativos.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ Puede adjuntar un elemento creativo a varios paquetes.
 
 1. Seleccione los paquetes que desea duplicar:
 
-   * Para duplicar un solo paquete:
+   * Para duplicar un único haz:
 
-      * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Duplicate]**.
+      * En la vista de tarjetas, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, en **[!UICONTROL Duplicate]**.
 
       * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Duplicate]**.
 
@@ -76,11 +76,11 @@ Puede adjuntar un elemento creativo a varios paquetes.
 
      Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
 
-   Los nuevos paquetes reciben el nombre `<original name> (copy) # 1` (o el siguiente número de la secuencia). Por ejemplo, si crea dos duplicados de &quot;Paquete de prueba&quot;, los duplicados se denominarán &quot;Paquete de prueba (copia) # 1&quot; y &quot;Paquete de prueba (copia) # 2&quot;.
+   Los nuevos paquetes se denominan `<original name> (copy) # 1` (o el siguiente número de la secuencia). Por ejemplo, si crea dos duplicados de &quot;Paquete de prueba&quot;, los duplicados se denominan &quot;Paquete de prueba (copia) # 1&quot; y &quot;Paquete de prueba (copia) # 2&quot;.
 
 ## Editar un nombre de paquete
 
-Los cambios en un nombre de paquete se propagan por todas las experiencias asociadas.
+Los cambios en el nombre de un paquete se propagan por todas las experiencias asociadas.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -100,9 +100,9 @@ Los cambios en un nombre de paquete se propagan por todas las experiencias asoci
 
 1. Haga clic en **[!UICONTROL Update]**.<!-- inconsistent with "Edit" for creative libraries and creatives -->
 
-## Adjuntar elementos creativos a un paquete
+## Adjuntar creativos a un paquete
 
-Puede adjuntar elementos creativos de visualización estándar existentes a un paquete de visualización estándar, elementos creativos de vídeo estándar a paquetes de vídeo estándar, elementos creativos de visualización dinámica a un paquete dinámico y elementos creativos de vídeo dinámico a un paquete de vídeo. Al adjuntar un elemento creativo a un paquete, este estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete solo puede incluir una de cada combinación \[creative size or duration + language\].
+Puede anexar creativos de pantalla estándar existentes a un paquete de pantalla estándar, creativos de vídeo estándar a paquetes de vídeo estándar, creativos de pantalla dinámica a un paquete dinámico y creativos de vídeo dinámico a un paquete de vídeo. Al adjuntar un elemento creativo a un paquete, el elemento creativo estará disponible en todas las experiencias a las que esté asignado el paquete. Cada paquete sólo puede incluir una de cada combinación \[tamaño creativo o duración + idioma\].
 
 >[!NOTE]
 >
@@ -218,15 +218,15 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 
 1. Seleccione el paquete:
 
-   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Preview]**.
+   * En la vista de tarjetas, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, en **[!UICONTROL Preview]**.
 
    * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Preview]**.
 
-1. (Opcional) Para filtrar los elementos creativos por idioma, seleccione una opción en la lista **[!UICONTROL Language]** y, a continuación, haga clic en **[!UICONTROL Preview]** en la parte superior derecha de la vista previa.
+1. (Opcional) Para filtrar las imágenes creativas por idioma, seleccione una opción en la lista **[!UICONTROL Language]** y, a continuación, haga clic en **[!UICONTROL Preview]** en la parte superior derecha de la vista previa.
 
-1. (Opcional) Para filtrar los elementos creativos por tamaño, seleccione una opción en la lista **[!UICONTROL Size]** y, a continuación, haga clic en **[!UICONTROL Preview]** en la parte superior derecha de la vista previa.
+1. (Opcional) Para filtrar las imágenes creativas por tamaño, seleccione una opción en la lista **[!UICONTROL Size]** y, a continuación, haga clic en **[!UICONTROL Preview]** en la parte superior derecha de la vista previa.
 
-1. (Opcional) Para cambiar el tamaño de las imágenes dentro de la pantalla, seleccione una opción en la lista **[!UICONTROL Zoom]**, del 10% al 100% del tamaño de la imagen.
+1. (Opcional) Para cambiar el tamaño de las imágenes en la pantalla, seleccione una opción en la lista **[!UICONTROL Zoom]**, del 10 % al 100 % del tamaño de la imagen.
 
 1. (Opcional) Para abrir la página de aterrizaje de un elemento creativo, haga clic en el elemento creativo.
 
@@ -269,6 +269,28 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 1.
 
  -->
+
+## Ver el registro de cambios de un paquete
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Haga clic en el nombre de la biblioteca.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Seleccione el paquete:
+
+   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Change Log]**.
+
+   * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL More]** > **[!UICONTROL Change Log]**.
+
+1. (Opcional) Cambie el intervalo de tiempo del que se informa.
+
+1. (Opcional) Para agregar una nota, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Add Notes]**. Escriba la nota y haga clic en **[!UICONTROL Save]**.
+
+1. (Opcional) Para ver la entrada del registro de cambios, incluidas las notas agregadas, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL View Details]**.
 
 ## Eliminar paquetes
 

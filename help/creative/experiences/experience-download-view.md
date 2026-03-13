@@ -3,9 +3,9 @@ title: Descargar datos de la vista [!UICONTROL Experiences]
 description: Obtenga información sobre cómo exportar metadatos desde la vista [!UICONTROL Experiences].
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,4 @@ Cada fila del archivo incluye detalles sobre una experiencia, como el nombre y e
 
 >[!MORELIKETHIS]
 >* [Acerca de las experiencias en Advertising Creative](/help/creative/experiences/experience-about.md)
+>* [Ver el registro de cambios de una experiencia](/help/creative/experiences/experience-view-change-log.md)

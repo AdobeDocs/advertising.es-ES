@@ -3,9 +3,9 @@ title: Editar una experiencia con segmentación en árbol de decisiones
 description: Obtenga información sobre cómo editar la configuración de una experiencia publicitaria de destino mediante un árbol de decisiones.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,4 @@ ht-degree: 0%
 >* [Personalizar programación y optimización creativa](experience-optimization-scheduling-targeting.md)
 >* [Exportar e implementar una etiqueta de experiencia de anuncio para una experiencia en vivo](/help/creative/experiences/experience-tag-export.md)
 >* [Crear una experiencia con segmentación de árbol de decisión](experience-create-targeting.md)
+>* [Ver el registro de cambios de una experiencia](/help/creative/experiences/experience-view-change-log.md)

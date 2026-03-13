@@ -3,9 +3,9 @@ title: Asignar y cancelar la asignación de paquetes creativos a un nodo final e
 description: Aprenda a asignar elementos creativos a cada destinatario en sus experiencias publicitarias.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo experiencias con direccionamiento en árbol de decisiones*
 
-Puede asignar paquetes creativos a un nodo de destino en el nivel inferior de un árbol de decisión de experiencias. En el caso de las experiencias para las que no ha configurado objetivos, el nivel inferior se encuentra en &quot;Todo&quot;.
+Puede asignar paquetes creativos a un nodo de destino en el nivel inferior de un árbol de decisiones de experiencia. En el caso de las experiencias para las que no ha configurado objetivos, el nivel inferior se encuentra en &quot;Todo&quot;.
 
 Para las experiencias de publicidad estándar, solo puede asignar paquetes creativos estándar. Para las experiencias de publicidad dinámica, solo puede asignar paquetes creativos dinámicos.
 
@@ -36,7 +36,7 @@ Para las experiencias de publicidad estándar, solo puede asignar paquetes creat
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-1. (Opcional) [Personalice la optimización y la programación creativas](experience-optimization-scheduling-targeting.md) para los paquetes asignados.
+1. (Opcional) [Personalice la optimización y la programación creativas](experience-optimization-scheduling-targeting.md) de los paquetes asignados.
 
 1. (Opcional) [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
 
@@ -59,3 +59,4 @@ These formatted steps are inserted automatically from text in the following file
 >* [Editar una experiencia con segmentación en árbol de decisiones](experience-edit-targeting.md)
 >* [Configuración de experiencia de destino](experience-settings-targeting.md)
 >* [Exportar e implementar una etiqueta de experiencia de anuncio para una experiencia en vivo](experience-tag-export.md)
+>* [Ver el registro de cambios de una experiencia](/help/creative/experiences/experience-view-change-log.md)

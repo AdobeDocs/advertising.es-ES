@@ -3,9 +3,9 @@ title: Personalizar la optimización y programación creativas de una experienci
 description: Obtenga información sobre cómo configurar la optimización y la programación de anuncios para experiencias segmentadas.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -130,3 +130,4 @@ Al utilizar la programación, debe programar paquetes a lo largo de la duración
 >
 >* [Asignar y cancelar la asignación de paquetes creativos a un nodo final en una experiencia](/help/creative/experiences/experience-assign-creative-bundles.md)
 >* [Personalizar las direcciones URL de seguimiento para los creativos](/help/creative/experiences/experience-tracking-urls-targeting.md)
+>* [Ver el registro de cambios de una experiencia](/help/creative/experiences/experience-view-change-log.md)

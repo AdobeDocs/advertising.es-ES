@@ -3,9 +3,9 @@ title: Clonar una experiencia
 description: Obtenga información sobre cómo crear una experiencia mediante la clonación de una experiencia existente.
 feature: Creative Experiences
 exl-id: 8c305732-f2ff-4a9d-80ad-e9e0f6484ba2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,4 @@ Cree una experiencia clonando una experiencia existente. La nueva experiencia re
 >
 >* [Crear una experiencia con segmentación de árbol de decisión](experience-create-targeting.md)
 >* [Crear una experiencia sin segmentación de árbol de decisión](experience-create-no-targeting.md)
+>* [Ver el registro de cambios de una experiencia](/help/creative/experiences/experience-view-change-log.md)

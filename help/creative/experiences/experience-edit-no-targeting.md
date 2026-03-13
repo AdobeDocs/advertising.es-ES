@@ -3,9 +3,9 @@ title: Editar una experiencia sin segmentación del árbol de decisiones
 description: Obtenga información sobre cómo editar la configuración de una experiencia de publicidad sin segmentación.
 feature: Creative Experiences
 exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,4 @@ ht-degree: 0%
 >* [Personalizar la optimización creativa y la programación de una experiencia sin segmentación](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [Exportar e implementar una etiqueta de experiencia de anuncio para una experiencia en vivo](/help/creative/experiences/experience-tag-export.md)
 >* [Crear una experiencia sin segmentación de árbol de decisión](experience-create-no-targeting.md)
+>* [Ver el registro de cambios de una experiencia](/help/creative/experiences/experience-view-change-log.md)

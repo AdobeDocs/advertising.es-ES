@@ -1,53 +1,54 @@
 ---
-title: Crear una experiencia sin segmentación del árbol de decisiones
-description: Aprenda a crear una experiencia publicitaria sin segmentación.
+title: Crea una experiencia sin segmentación del árbol de decisiones
+description: Aprende a crear una experiencia publicitaria sin segmentación.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-# Crear una experiencia sin segmentación del árbol de decisiones
+# Crea una experiencia sin segmentación del árbol de decisiones
 
-Cree una experiencia publicitaria sin segmentación. Cada experiencia puede utilizar anuncios de una sola biblioteca creativa.
+Crea una experiencia publicitaria sin segmentación. Cada experiencia puede utilizar anuncios de una única biblioteca creativa.
 
 >[!NOTE]
 >
-> Una vez creada una experiencia sin objetivo, no puede cambiarla posteriormente a una experiencia con objetivo, que utiliza un flujo de trabajo diferente.
+> Una vez que haya creado una experiencia sin destino, no podrá cambiarla posteriormente a una experiencia de destino, que utiliza un flujo de trabajo diferente.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
 1. Haga clic en **[!UICONTROL Create New Experience]**.
 
-1. Escriba la [configuración de experiencia](experience-settings-no-targeting.md).
+1. Especifique la [configuración de experiencia](experience-settings-no-targeting.md).
 
 1. Haga clic en **[!UICONTROL Create]**.
 
-1. (Opcional) Siga configurando la experiencia:
+1. (Opcional) Continúe configurando la experiencia:
 
    * [Cree manualmente una etiqueta de anuncio para un tamaño creativo aplicable](experience-tag-create-manually.md).
 
-     A continuación, puede [exportar la etiqueta de anuncio e implementarla en un DSP](/help/creative/experiences/experience-tag-export.md).
+     A continuación, puede [exportar la etiqueta del anuncio e implementarla en un DSP](/help/creative/experiences/experience-tag-export.md).
 
-     [!DNL Creative] no crea automáticamente etiquetas de anuncio para experiencias sin objetivo.
+     [!DNL Creative] no crea automáticamente etiquetas de anuncios para experiencias no dirigidas.
 
-   * [Asignar elementos creativos a una etiqueta de anuncio](experience-tag-assign-creatives.md).
+   * [Asignar creativos a una etiqueta de anuncio](experience-tag-assign-creatives.md).
 
      Asigne elementos creativos a la etiqueta de publicidad, no dentro de la configuración de experiencia.
 
-   * [Personalizar la programación y la optimización creativas](experience-optimization-scheduling-no-targeting.md).
+   * [Personaliza la optimización y la programación creativas](experience-optimization-scheduling-no-targeting.md).
 
-   * [Personalización de las direcciones URL de seguimiento](experience-tracking-urls-no-targeting.md)
+   * [Personalizar las direcciones URL de seguimiento](experience-tracking-urls-no-targeting.md)
 
 >[!MORELIKETHIS]
 >
->* [Configuración para experiencias sin destino](experience-settings-no-targeting.md)
->* [Editar una experiencia sin segmentación de árbol de decisión](experience-edit-no-targeting.md)
+>* [Configuración para experiencias no dirigidas](experience-settings-no-targeting.md)
+>* [Editar una experiencia sin orientar el árbol de decisiones](experience-edit-no-targeting.md)
 >* [Crear manualmente una etiqueta de anuncio para un tamaño creativo aplicable](/help/creative/experiences/experience-tag-create-manually.md)
->* [Asignar elementos creativos a una etiqueta de anuncio para experiencias sin segmentación](experience-tag-assign-creatives.md)
->* [Personalizar las direcciones URL de seguimiento para una experiencia sin segmentación](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
->* [Personalizar la optimización creativa y la programación de una experiencia sin segmentación](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
->* [Exportar e implementar una etiqueta de experiencia de anuncio para una experiencia en vivo](/help/creative/experiences/experience-tag-export.md)
+>* [Asignar creativos a una etiqueta de anuncio para experiencias sin segmentación](experience-tag-assign-creatives.md)
+>* [Personaliza las direcciones URL de seguimiento para una experiencia sin segmentación](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
+>* [Personaliza la optimización y la programación creativas para una experiencia sin segmentación](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+>* [Exporta e implementa una etiqueta de experiencia publicitaria para una experiencia en vivo](/help/creative/experiences/experience-tag-export.md)
+>* [Ver el registro de cambios para una experiencia](/help/creative/experiences/experience-view-change-log.md)
