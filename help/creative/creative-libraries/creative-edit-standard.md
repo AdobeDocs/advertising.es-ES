@@ -3,9 +3,9 @@ title: Edición de elementos creativos estándar en una biblioteca creativa
 description: Aprenda a cambiar la configuración de los creativos estándar (no dinámicos) en una biblioteca creativa.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -63,3 +63,4 @@ Cuando edita un elemento creativo <!-- or creative variation --> incluido en un 
 >* [Agregar elementos creativos estándar a una biblioteca creativa](creative-add-standard.md)
 >* [Configuración creativa estándar](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [Previsualizar un elemento creativo](/help/creative/creative-libraries/creative-preview.md)
+>* [Ver el registro de cambios de un elemento creativo](/help/creative/creative-libraries/creative-view-change-log.md)

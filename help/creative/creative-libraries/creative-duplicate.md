@@ -3,9 +3,9 @@ title: Creativos duplicados
 description: Aprenda a duplicar elementos creativos en una biblioteca creativa.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -47,3 +47,4 @@ Haga un duplicado de los elementos creativos para añadir nuevos elementos creat
 >* [Agregar elementos creativos estándar a una biblioteca creativa](creative-add-standard.md)
 >* [Editar elementos creativos estándar](creative-edit-standard.md)
 >* [Configuración creativa estándar](creative-settings-standard.md)
+>* [Ver el registro de cambios de un elemento creativo](/help/creative/creative-libraries/creative-view-change-log.md)

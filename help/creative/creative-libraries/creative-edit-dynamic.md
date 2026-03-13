@@ -3,9 +3,9 @@ title: Editar un elemento creativo dinámico en una biblioteca creativa
 description: Aprenda a editar un elemento creativo dinámico en una biblioteca creativa.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
-1. Haga clic en el nombre de la biblioteca.
+1. Click the library name.
 
 1. Mantenga el cursor sobre la fila creativa y haga clic en **[!UICONTROL Edit]**.
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
    * Cambiar el contenido:
 
-      * (Solo anuncios de visualización) Para editar el valor de una celda dentro de la tabla, haga clic dentro de la celda y edite el valor. Haga clic fuera de la celda o presione la tecla **[!DNL Enter]** para guardar los cambios.
+      * (Solo anuncios de visualización) Para editar el valor de una celda dentro de la tabla, haga clic dentro de la celda y edite el valor. Click outside of the cell or press the **[!DNL Enter]** key to save your changes.
 
-      * Para marcar un solo producto como predeterminado <!--Explain what this means. -->, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+      * To mark a single product as the default<!--Explain what this means. -->, hold the curser over the row and click **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
       * (Cuando el anuncio incluya más de una oferta) Para marcar varios productos como predeterminados, seleccione las filas (hasta el número de ofertas) y haga clic en **[!UICONTROL Set as Default]** en la barra de herramientas de acciones por lotes.
 
@@ -56,6 +56,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Configuración creativa dinámica](creative-settings-dynamic.md)
->* [Agregar elementos creativos dinámicos a una biblioteca creativa](creative-add-dynamic.md)
+>* [Dynamic creative settings](creative-settings-dynamic.md)
+>* [Add dynamic creatives to a creative library](creative-add-dynamic.md)
+>* [Ver el registro de cambios de un elemento creativo](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)

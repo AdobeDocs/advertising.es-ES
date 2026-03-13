@@ -3,9 +3,9 @@ title: Añadir elementos creativos estándar a una biblioteca creativa
 description: Aprenda a añadir elementos creativos estándar (no dinámicos) a una biblioteca creativa.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Puede cargar varias unidades creativas flexibles. Los elementos creativos flexib
 
 ### Añadir elementos creativos flexibles mediante una plantilla {#flexible-creative-use-template}
 
-Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo] (flexible-creative-upload).>
+Puede utilizar cualquiera de las plantillas creativas flexibles cargadas en su cuenta para crear anuncios de un tamaño predefinido. Una vez seleccionada una plantilla para su uso, editará las etiquetas de clic y los atributos.&lt;!— Reemplace la última frase por esta si volvemos a añadir la función de descarga de plantillas: puede a\) seleccionar una plantilla para utilizarla y, a continuación, editar las etiquetas y los atributos de clic; o b\) [descargar una plantilla como archivo ZIP](#download-flexible-creative-template), editar el contenido sin conexión para crear su propio elemento creativo y, a continuación, [cargar el archivo editado como un nuevo elemento creativo](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -204,6 +204,7 @@ Vea las [especificaciones de creatividad para vídeo](/help/creative/creative-li
 >
 >* [Editar elementos creativos estándar](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [Configuración creativa estándar](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [Ver el registro de cambios de un elemento creativo](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 >* [Tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md)
 >* [Previsualizar un elemento creativo](/help/creative/creative-libraries/creative-preview.md)

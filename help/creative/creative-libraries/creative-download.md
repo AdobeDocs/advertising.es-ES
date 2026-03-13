@@ -3,9 +3,9 @@ title: Descargar elementos creativos
 description: Aprenda a descargar un archivo Creative como archivo ZIP.
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,4 @@ Descargue todos los elementos creativos seleccionados en un archivo en formato Z
 >
 >* [Agregar elementos creativos estándar a una biblioteca creativa](creative-add-standard.md)
 >* [Previsualizar un elemento creativo](creative-preview.md)
+>* [Ver el registro de cambios de un elemento creativo](/help/creative/creative-libraries/creative-view-change-log.md)
