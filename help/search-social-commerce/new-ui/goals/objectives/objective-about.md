@@ -4,9 +4,9 @@ description: Conozca cuáles son los objetivos para alcanzar sus metas empresari
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Puede incluir cualquiera de los siguientes elementos en sus objetivos:
 
 * [!DNL Google] métricas:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * Conversiones [[!DNL Google Ads] seguidas &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) desde cuentas sincronizadas [!DNL Google Ads].
+   * Conversiones [[!DNL Google Ads] seguidas ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) desde cuentas sincronizadas [!DNL Google Ads].
 
    * (Anunciantes con [[!DNL Google Analytics] integraciones](/help/search-social-commerce/admin/data-sources/data-source-about.md)): vistas de página, sesiones, tasa de salida hacia otro sitio (calculada como salidas hacia otro sitio/sesiones) y duración de la sesión.
 
@@ -68,3 +68,4 @@ Opcionalmente, puede [cargar los objetivos de los portafolios de la cuenta a [!D
 >* [Eliminar un objetivo](objective-delete.md)
 >* [Aplicar recomendaciones de peso a un objetivo](objective-apply-weight-recommendations.md)
 >* [Configuración de objetivos](objective-settings.md)
+>* [Descargar datos de rendimiento para los objetivos](objective-download-performance-data.md)

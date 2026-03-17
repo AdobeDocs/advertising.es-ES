@@ -4,9 +4,9 @@ description: Aprenda a editar un objetivo.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: b2363781-d767-4a4a-9137-17834088721e
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,4 @@ ht-degree: 0%
 >* [Eliminar un objetivo](objective-delete.md)
 >* [Aplicar recomendaciones de peso a un objetivo](objective-apply-weight-recommendations.md)
 >* [Configuración de objetivos](objective-settings.md)
+>* [Descargar datos de rendimiento para los objetivos](objective-download-performance-data.md)
