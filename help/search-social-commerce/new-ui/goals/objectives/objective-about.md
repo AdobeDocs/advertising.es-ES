@@ -51,7 +51,7 @@ Puede incluir cualquiera de los siguientes elementos en sus objetivos:
 
 * [!DNL Google] métricas:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * Conversiones [[!DNL Google Ads] seguidas ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) desde cuentas sincronizadas [!DNL Google Ads].
+   * Conversiones [[!DNL Google Ads] seguidas &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) desde cuentas sincronizadas [!DNL Google Ads].
 
    * (Anunciantes con [[!DNL Google Analytics] integraciones](/help/search-social-commerce/admin/data-sources/data-source-about.md)): vistas de página, sesiones, tasa de salida hacia otro sitio (calculada como salidas hacia otro sitio/sesiones) y duración de la sesión.
 
