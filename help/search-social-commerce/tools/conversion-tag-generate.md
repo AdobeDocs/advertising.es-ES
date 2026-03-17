@@ -3,9 +3,9 @@ title: Generar e implementar una etiqueta de seguimiento de conversión de Adobe
 description: Obtenga información sobre cómo crear una etiqueta de conversión de Adobe Advertising para realizar un seguimiento de los eventos de conversión.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
+source-git-commit: 96c22e44dc4335b1896f82478985fe976d9a75b9
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Anunciantes con solo seguimiento de conversión de Adobe Advertising*
 
-Cree una etiqueta de conversión independiente para cada conjunto de métricas que quiera rastrear.
+Cree una etiqueta de conversión independiente para cada conjunto de métricas que quiera rastrear. Puede generar etiquetas en Search, Social y Commerce o mediante Adobe Experience Platform (anteriormente conocido como Adobe Experience Platform Launch).
 
 ## Generar e implementar una etiqueta de seguimiento de conversión en Search, Social y Commerce
 
@@ -76,15 +76,15 @@ Consulte &quot;[Preguntas más frecuentes acerca de las etiquetas de conversión
 
 ## Implementación de etiquetas de seguimiento de conversión mediante etiquetas de Adobe Experience Platform
 
-Puede configurar el seguimiento de conversiones para Search, Social y Commerce mediante etiquetas en Adobe Experience Platform (anteriormente conocido como Adobe Experience Platform Launch). Las etiquetas están disponibles para los clientes de Adobe Experience Cloud como una función incluida que añade valor.
+Puede configurar el seguimiento de conversiones para Search, Social y Commerce mediante etiquetas en Adobe Experience Platform. Las etiquetas están disponibles para los clientes de Adobe Experience Cloud como una función incluida que añade valor.
 
-Se requieren las siguientes tareas para configurar las etiquetas de seguimiento de conversión de Búsqueda, Social y Commerce desde la interfaz de usuario de Experience Platform o desde la interfaz de usuario de Recopilación de datos de Experience Platform. Para obtener información e instrucciones completas para configurar las etiquetas, consulte la Guía de etiquetas de Experience Platform, que comienza con &quot;[Información general sobre etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home)&quot; y &quot;[Guía de inicio rápido](https://experienceleague.adobe.com/es/docs/experience-platform/tags/get-started/quick-start)&quot;.
+Se requieren las siguientes tareas para configurar las etiquetas de seguimiento de conversión de Búsqueda, Social y Commerce desde la interfaz de usuario de Experience Platform o desde la interfaz de usuario de Recopilación de datos de Experience Platform. Para obtener información e instrucciones completas para configurar las etiquetas, consulte la Guía de etiquetas de Experience Platform, que comienza con &quot;[Información general sobre etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; y &quot;[Guía de inicio rápido](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;.
 
 >[!PREREQUISITES]
 >
 >Para instalar la extensión de etiqueta necesaria, solicite al administrador de la organización acceso a las funciones de recopilación de datos en la interfaz de usuario, incluido el permiso `manage_properties`.
 
-1. En la [IU de recopilación de datos](https://experience.adobe.com/#/data-collection/), instale la [extensión](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/extensions/overview) de Adobe Advertising:
+1. En la [IU de recopilación de datos](https://experience.adobe.com/#/data-collection/), instale la [extensión](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) de Adobe Advertising:
 
    1. En la propiedad aplicable, abra el catálogo de extensiones y seleccione **Adobe Advertising**.
 
@@ -132,7 +132,7 @@ Se requieren las siguientes tareas para configurar las etiquetas de seguimiento 
 
          **Nombre de propiedad de conversión:** El nombre de la propiedad de conversión (por ejemplo, `form_completes`).
 
-         **Valor:** Valor numérico de la propiedad de conversión (por ejemplo `1` para realizar el seguimiento de form_completes) o elija un [elemento de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/data-elements) existente.
+         **Valor:** Valor numérico de la propiedad de conversión (por ejemplo `1` para realizar el seguimiento de form_completes) o elija un [elemento de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) existente.
 
       1. Haga clic en **Conservar cambios**.
 
