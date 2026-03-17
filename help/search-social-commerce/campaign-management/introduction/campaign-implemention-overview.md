@@ -3,9 +3,9 @@ title: Información general sobre la implementación de cuentas y campañas de r
 description: Obtenga información acerca de las tareas relacionadas con la configuración, sincronización y administración de las cuentas de red de anuncios.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe trabaja con cada anunciante para configurar sus cuentas y campañas de red de anuncios. Esto incluye configurar Search, Social y Commerce para conectarse y sincronizar con las cuentas del anunciante, crear nuevas campañas y componentes de campaña según sea necesario, configurar el seguimiento de los anuncios de componentes, añadir opcionalmente las campañas a portafolios para permitir que Search, Social y Commerce optimicen las ofertas en los anuncios y validar los datos iniciales de coste, clics e ingresos.
 
-Después de activar una campaña y, opcionalmente, agregarla a un portafolio, el equipo de administración de cuentas de Adobe, el equipo de la agencia o el anunciante (según los términos del acuerdo de nivel de servicio) deberán supervisar cada campaña y cambiar los componentes y la configuración relevantes según sea necesario para cumplir los objetivos del anunciante.
+Después de activar una campaña y, opcionalmente, agregarla a un portafolio, el equipo de administración de cuentas de Adobe, el equipo de la agencia o el anunciante (según los términos de service level agreement) deberán supervisar cada campaña y cambiar los componentes y la configuración relevantes según sea necesario para cumplir los objetivos del anunciante.
 
 Esta página incluye información sobre todos los tipos de cuenta, incluido cómo configurar la estructura de campaña para las cuentas sincronizadas. Para obtener instrucciones adicionales sobre la configuración de cuentas de solo seguimiento para [!DNL Naver], consulte &quot;[Implementar [!DNL Naver] cuentas de solo seguimiento](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)&quot;.
 
@@ -50,9 +50,9 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
 
    1. ([!DNL Naver] solo cuentas de solo seguimiento) Cargue [archivos de hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) con datos para replicar las campañas, los grupos de anuncios y las palabras clave existentes en Search, Social y Commerce sin publicarlos en [!DNL Naver].
 
-1. Configure el seguimiento de todos los anuncios para los que el Adobe Advertising realizará un seguimiento de las conversiones:
+1. Configure el seguimiento para todos los anuncios para los que Adobe Advertising realizará un seguimiento de las conversiones:
 
-   1. (Anunciantes con el servicio de seguimiento de conversión de Adobes Advertising) Si es necesario, [configure el rastreo de clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) para las publicidades y, opcionalmente, para las palabras clave, las ubicaciones y las extensiones de publicidad mediante la generación y carga de direcciones URL de rastreo de clics de Search, Social y Commerce.
+   1. (Anunciantes con el servicio de seguimiento de conversión de Adobe Advertising) Si es necesario, [configure el rastreo de clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) para las publicidades y, opcionalmente, para las palabras clave, las ubicaciones y las extensiones de publicidad mediante la generación y carga de direcciones URL de rastreo de clics de Search, Social y Commerce.
 
       Para [!DNL Google Ads] campañas con rendimiento máximo, configure todo el seguimiento en la [configuración de seguimiento de la campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
@@ -60,13 +60,13 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
 
    1. Configure el seguimiento de conversiones. Según la implementación, esto puede implicar la adición de etiquetas de seguimiento de conversión a las páginas web del anunciante o la configuración de una entrega diaria de fuentes para los datos de conversión que el anunciante haya recopilado por separado.
 
-      Si usa el servicio de seguimiento de conversión de Adobe Advertising, puede generar las etiquetas de seguimiento de conversión [en Search, Social y Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) o [mediante Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=es).
+      Si usa el servicio de seguimiento de conversiones de Adobe Advertising, puede [generar etiquetas de seguimiento de conversiones](/help/search-social-commerce/tools/conversion-tag-generate.md) en Search, Social y Commerce o usar [etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (anteriormente conocido como Adobe Experience Platform Launch).
 
    1. Valide los datos de los que se realiza un seguimiento.
 
    Para obtener más información sobre la configuración del seguimiento, consulte el capítulo sobre seguimiento.
 
-1. (Anunciantes con Adobe Analytics) [Integrar Adobe Advertising y Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es) para que puedan intercambiar datos.
+1. (Anunciantes con Adobe Analytics) [Integre Adobe Advertising y Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que puedan intercambiar datos.
 
 1. (Para permitir que Search, Social y Commerce optimicen ofertas, presupuestos de campaña o objetivos de estrategia de oferta de campaña; [solo tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md)) [Asigne la campaña a un portafolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

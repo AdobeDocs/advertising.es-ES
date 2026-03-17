@@ -1,24 +1,26 @@
 ---
-title: Generación de una etiqueta de seguimiento de conversión de Adobe Advertising
+title: Generar e implementar una etiqueta de seguimiento de conversión de Adobe Advertising
 description: Obtenga información sobre cómo crear una etiqueta de conversión de Adobe Advertising para realizar un seguimiento de los eventos de conversión.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
-# Generación de una etiqueta de seguimiento de conversión de Adobe Advertising
+# Generar e implementar una etiqueta de seguimiento de conversión de Adobe Advertising
 
 *Anunciantes con solo seguimiento de conversión de Adobe Advertising*
 
-Cree una etiqueta de conversión independiente para cada conjunto de métricas que desee rastrear y proporcione las etiquetas al anunciante o a la agencia con una lista de páginas web en las que insertar cada una.
+Cree una etiqueta de conversión independiente para cada conjunto de métricas que quiera rastrear.
+
+## Generar e implementar una etiqueta de seguimiento de conversión en Search, Social y Commerce
 
 >[!NOTE]
 >
->Esta característica no agrega etiquetas de imagen ni etiquetas [!DNL JavaScript] a las páginas web del anunciante. Las etiquetas deben añadirse según el procedimiento normal del anunciante para actualizar páginas web.
+>Esta característica no agrega etiquetas de imagen ni etiquetas [!DNL JavaScript] a las páginas web del anunciante. Proporcione las etiquetas al anunciante o a la agencia con una lista de páginas web en las que insertar cada una. Las etiquetas deben añadirse según el procedimiento normal del anunciante para actualizar páginas web.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]**.
 
@@ -36,7 +38,7 @@ Cree una etiqueta de conversión independiente para cada conjunto de métricas q
 >
 >Cada métrica de la nueva etiqueta de conversión se muestra automáticamente en [!UICONTROL Admin] > [!UICONTROL Conversions], aunque no esté implementada o las páginas web en las que se encuentra no hayan recibido ningún clic. Este comportamiento es diferente al comportamiento de las métricas en las etiquetas creadas manualmente o en cualquier otra parte, que no aparecen en [!UICONTROL Admin] > [!UICONTROL Conversions] hasta que una de las páginas web en las que se encuentra recibe un clic. Sin embargo, en todos los casos, cada métrica se excluye inicialmente de los objetivos del portafolio, los informes y las vistas hasta que las ponga a disposición explícitamente. Sin embargo, antes de agregar las métricas a los objetivos del portafolio, considere primero la posibilidad de hacer que las métricas estén disponibles y agregarlas a los informes para verificar cuándo reciben clics.
 
-## Configuración de etiquetas de conversión Adobe Advertising {#conversion-tag-settings}
+### Configuración de etiquetas de conversión Adobe Advertising {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]:** Tipo de etiqueta que se va a crear:
 
@@ -71,6 +73,72 @@ Si los datos no incluyen un ID único por transacción, Adobe Advertising seguir
 **[!UICONTROL JS Version]:** ([!DNL JavaScript] etiquetas solamente) Qué versión de la etiqueta [!DNL JavaScript] crear: *[!UICONTROL v2]* (la predeterminada) o *[!UICONTROL v3]*.
 
 Consulte &quot;[Preguntas más frecuentes acerca de las etiquetas de conversión de Adobe Advertising y seguimiento de vista de página](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;. para obtener más información sobre las diferencias.
+
+## Implementación de etiquetas de seguimiento de conversión mediante etiquetas de Adobe Experience Platform
+
+Puede configurar el seguimiento de conversiones para Search, Social y Commerce mediante etiquetas en Adobe Experience Platform (anteriormente conocido como Adobe Experience Platform Launch). Las etiquetas están disponibles para los clientes de Adobe Experience Cloud como una función incluida que añade valor.
+
+Se requieren las siguientes tareas para configurar las etiquetas de seguimiento de conversión de Búsqueda, Social y Commerce desde la interfaz de usuario de Experience Platform o desde la interfaz de usuario de Recopilación de datos de Experience Platform. Para obtener información e instrucciones completas para configurar las etiquetas, consulte la Guía de etiquetas de Experience Platform, que comienza con &quot;[Información general sobre etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; y &quot;[Guía de inicio rápido](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;.
+
+>[!PREREQUISITES]
+>
+>Para instalar la extensión de etiqueta necesaria, solicite al administrador de la organización acceso a las funciones de recopilación de datos en la interfaz de usuario, incluido el permiso `manage_properties`.
+
+1. En la [IU de recopilación de datos](https://experience.adobe.com/#/data-collection/), instale la [extensión](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) de Adobe Advertising:
+
+   1. En la propiedad aplicable, abra el catálogo de extensiones y seleccione **Adobe Advertising**.
+
+   1. En el menú desplegable, seleccione **SSC** (para Search, Social y Commerce).
+
+   1. En el campo **SSC UserID**, escribe el identificador numérico de usuario para la cuenta de Search, Social y Commerce de tu organización.
+
+      Si no conoce su ID de usuario, póngase en contacto con el equipo de cuenta de Adobe.
+
+   1. Haga clic en **Guardar**.
+
+1. Cree una nueva regla (por ejemplo, &quot;form_completes&quot;) para almacenar en déclencheur la etiqueta de conversión Buscar, Social y Commerce:
+
+   1. En la sección Configuración de eventos:
+
+      1. Seleccione los siguientes valores:
+
+         **Extensión:** `Core`
+
+         **Tipo de evento:** `Library Loaded (Page Top)`
+
+      1. Haga clic en **Conservar cambios**.
+
+   1. En la sección Configuración de condición:
+
+      1. Especifique los siguientes valores:
+
+         **Tipo de lógica:** `Regular`
+
+         **Extensión:** `Core`
+
+         **Tipo de condición:** `Path Without Query String`
+
+         **Devolver verdadero si la ruta de acceso es igual a:** Ruta de acceso donde se debe realizar el seguimiento de la conversión (por ejemplo, `/form_complete`).
+
+      1. Haga clic en **Conservar cambios**.
+
+   1. En la sección Configuración de la acción:
+
+      1. Especifique los siguientes valores:
+
+         **Extensión:** `Adobe Advertising`
+
+         **Tipo de acción:** `AMO Measurement`
+
+         **Nombre de propiedad de conversión:** El nombre de la propiedad de conversión (por ejemplo, `form_completes`).
+
+         **Valor:** Valor numérico de la propiedad de conversión (por ejemplo `1` para realizar el seguimiento de form_completes) o elija un [elemento de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) existente.
+
+      1. Haga clic en **Conservar cambios**.
+
+   1. Guarde la regla.
+
+1. Publique los cambios.
 
 >[!MORELIKETHIS]
 >
