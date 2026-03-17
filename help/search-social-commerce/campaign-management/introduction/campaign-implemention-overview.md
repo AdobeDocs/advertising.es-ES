@@ -60,13 +60,13 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
 
    1. Configure el seguimiento de conversiones. Según la implementación, esto puede implicar la adición de etiquetas de seguimiento de conversión a las páginas web del anunciante o la configuración de una entrega diaria de fuentes para los datos de conversión que el anunciante haya recopilado por separado.
 
-      Si usa el servicio de seguimiento de conversiones de Adobe Advertising, puede [generar etiquetas de seguimiento de conversiones](/help/search-social-commerce/tools/conversion-tag-generate.md) en Search, Social y Commerce o usar [etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (anteriormente conocido como Adobe Experience Platform Launch).
+      Si usa el servicio de seguimiento de conversiones de Adobe Advertising, puede [generar etiquetas de seguimiento de conversiones](/help/search-social-commerce/tools/conversion-tag-generate.md) en Search, Social y Commerce o usar [etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=es) (anteriormente conocido como Adobe Experience Platform Launch).
 
    1. Valide los datos de los que se realiza un seguimiento.
 
    Para obtener más información sobre la configuración del seguimiento, consulte el capítulo sobre seguimiento.
 
-1. (Anunciantes con Adobe Analytics) [Integre Adobe Advertising y Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que puedan intercambiar datos.
+1. (Anunciantes con Adobe Analytics) [Integre Adobe Advertising y Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es) para que puedan intercambiar datos.
 
 1. (Para permitir que Search, Social y Commerce optimicen ofertas, presupuestos de campaña o objetivos de estrategia de oferta de campaña; [solo tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md)) [Asigne la campaña a un portafolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
