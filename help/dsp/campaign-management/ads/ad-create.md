@@ -3,7 +3,7 @@ title: Crear un solo anuncio
 description: Obtenga información sobre cómo crear un solo anuncio de terceros.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -42,11 +42,11 @@ Para crear varios anuncios de terceros a la vez, consulte [Crear varios anuncios
 
 1. Cuando finalice el anuncio, haga clic en **[!UICONTROL Save & Submit for Review]**.
 
-   La [revisión del anuncio](ad-about.md) tarda de 24 a 48 horas e incluye comprobaciones de categorías confidenciales, funcionalidad de clics en URL y representación de vista previa. DSP La columna Estado indica si el anuncio ha sido aprobado por el usuario o no. Los anuncios rotos pueden tener un estado pendiente durante más de 24 a 48 horas, por lo que tiene tiempo para corregir los errores antes de que se rechacen.
+   La [revisión del anuncio](ad-about.md) tarda de 24 a 48 horas e incluye comprobaciones de categorías confidenciales, funcionalidad de clics en URL y representación de vista previa. La columna Estado indica si DSP ha aprobado el anuncio. Los anuncios rotos pueden tener un estado pendiente durante más de 24 a 48 horas, por lo que tiene tiempo para corregir los errores antes de que se rechacen.
 
    >[!NOTE]
    >
-   >DSP Su anuncio solo se puede publicar si tanto el proveedor de servicios como el proveedor de servicios compartidos (SSP) han aprobado el creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
+   >Su anuncio solo se puede publicar si DSP y el SSP han aprobado el elemento creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
 
 >[!MORELIKETHIS]
 >

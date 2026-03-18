@@ -1,16 +1,16 @@
 ---
-title: Creación de varios anuncios de terceros
+title: Crear varios anuncios de terceros
 description: Obtenga información sobre cómo crear varios anuncios de terceros al mismo tiempo.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
-# Creación de varios anuncios de terceros
+# Crear varios anuncios de terceros
 
 Puede crear hasta 500 anuncios de terceros a la vez cargando etiquetas que apunten a recursos creativos alojados en servidores de publicidad de terceros. Puede incluir píxeles de seguimiento para los anuncios.<!-- The bulksheet template for other ad servers says you can include 200. Which is it: 200 or 500? -->
 
@@ -77,5 +77,5 @@ Puede cargar [!DNL DoubleClick] y [!DNL Flashtalking] hojas de etiquetas o un ar
 >* [Acerca de la administración de anuncios](ad-about.md)
 >* [Especificaciones del anuncio](ad-specs.md)
 >* [Crear un solo anuncio](ad-create.md)
->* [Vídeo: Cómo cargar de forma masiva etiquetas de anuncios de terceros](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=es)
+>* [Vídeo: Cómo cargar de forma masiva etiquetas de anuncios de terceros](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)

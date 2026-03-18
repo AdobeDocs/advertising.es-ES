@@ -3,7 +3,7 @@ title: Editar un anuncio
 description: Obtenga información sobre cómo editar un anuncio.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: c97fcf61f444ab3363d9d55398402ec9f162be99
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 1. Haga clic en **[!UICONTROL Save and Close]**.
 
-   El anuncio editado pasa por una nueva [revisión de anuncio](ad-about.md), que tarda de 24 a 48 horas e incluye comprobaciones de categorías confidenciales, clics en funcionalidad de URL y previsualización del procesamiento. DSP La columna [!UICONTROL Status] indica si el anuncio ha sido aprobado por el usuario o no. Los anuncios rotos pueden tener un estado pendiente durante más de 24 a 48 horas, por lo que tiene tiempo para corregir los errores antes de que se rechacen.
+   El anuncio editado pasa por una nueva [revisión de anuncio](ad-about.md), que tarda de 24 a 48 horas e incluye comprobaciones de categorías confidenciales, clics en funcionalidad de URL y previsualización del procesamiento. La columna [!UICONTROL Status] indica si DSP ha aprobado el anuncio. Los anuncios rotos pueden tener un estado pendiente durante más de 24 a 48 horas, por lo que tiene tiempo para corregir los errores antes de que se rechacen.
 
    >[!NOTE]
    >
-   >DSP Su anuncio solo se puede publicar si tanto el proveedor de servicios como el proveedor de servicios compartidos (SSP) han aprobado el creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
+   >Su anuncio solo se puede publicar si DSP y el SSP han aprobado el elemento creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
 
 >[!MORELIKETHIS]
 >

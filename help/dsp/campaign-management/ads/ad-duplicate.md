@@ -1,16 +1,16 @@
 ---
-title: Duplicar un anuncio
+title: Duplicación de un anuncio
 description: Obtenga información sobre cómo duplicar un anuncio.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%
 
 ---
 
-# Duplicar un anuncio
+# Duplicación de un anuncio
 
 Puede duplicar un anuncio dentro de la misma campaña.
 
@@ -30,11 +30,11 @@ Puede duplicar un anuncio dentro de la misma campaña.
 
 1. Haga clic en **[!UICONTROL Save & Submit for Review]**.
 
-   La [revisión del anuncio](ad-about.md) del nuevo anuncio tarda de 24 a 48 horas e incluye comprobaciones de categorías confidenciales, clics en la funcionalidad de la dirección URL y previsualización del procesamiento. DSP La columna [!UICONTROL Status] indica si el anuncio ha sido aprobado por el usuario o no. Los anuncios rotos pueden tener un estado pendiente durante más de 24 a 48 horas, por lo que tiene tiempo para corregir los errores antes de que se rechacen.
+   La [revisión del anuncio](ad-about.md) del nuevo anuncio tarda de 24 a 48 horas e incluye comprobaciones de categorías confidenciales, clics en la funcionalidad de la dirección URL y previsualización del procesamiento. La columna [!UICONTROL Status] indica si DSP ha aprobado el anuncio. Los anuncios rotos pueden tener un estado pendiente durante más de 24 a 48 horas, por lo que tiene tiempo para corregir los errores antes de que se rechacen.
 
    >[!NOTE]
    >
-   >DSP Su anuncio solo se puede publicar si tanto el proveedor de servicios como el proveedor de servicios compartidos (SSP) han aprobado el creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
+   >Su anuncio solo se puede publicar si DSP y el SSP han aprobado el elemento creativo. Cada SSP tiene sus propios requisitos y procesos de aprobación.
 
 >[!MORELIKETHIS]
 >

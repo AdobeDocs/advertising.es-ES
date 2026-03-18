@@ -2,7 +2,8 @@
 title: Adjuntar y eliminar píxeles de anuncios
 description: Aprenda a adjuntar y eliminar píxeles de seguimiento de terceros de los anuncios.
 feature: DSP Ads
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -67,7 +68,7 @@ Puede adjuntar y desasociar píxeles de seguimiento de terceros de los anuncios.
 
 1. (Opcional) Para volver a las vistas de detalles de la campaña, haga clic en ![Volver a la carpeta](/help/dsp/assets/breadcrumb-return.png "Volver a la carpeta") a la izquierda de [!UICONTROL Ad Tools] y seleccione el nombre de la campaña.
 
-## Desasociar píxeles de seguimiento de terceros de anuncios en una ubicación {#detach-pixels-ads}
+## Desasociar píxeles de seguimiento de terceros de los anuncios en una ubicación {#detach-pixels-ads}
 
 1. [Abrir la vista [!UICONTROL Ad Tools]](#ad-tools-open).
 
@@ -91,7 +92,7 @@ Puede adjuntar y desasociar píxeles de seguimiento de terceros de los anuncios.
 
 1. (Opcional) Para volver a las vistas de detalles de la campaña, haga clic en ![Volver a la carpeta](/help/dsp/assets/breadcrumb-return.png "Volver a la carpeta") a la izquierda de [!UICONTROL Ad Tools] y seleccione el nombre de la campaña.
 
-## Ver píxeles adjuntos a anuncios {#view-pixels-ads}
+## Ver píxeles adjuntos a los anuncios {#view-pixels-ads}
 
 1. [Abrir la vista [!UICONTROL Ad Tools]](#ad-tools-open).
 
@@ -119,4 +120,3 @@ Puede adjuntar y desasociar píxeles de seguimiento de terceros de los anuncios.
 >* [Enumerar las ubicaciones asociadas con un anuncio](ad-list-placements.md)
 >* [Editar los horarios de anuncios para las ubicaciones](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
-

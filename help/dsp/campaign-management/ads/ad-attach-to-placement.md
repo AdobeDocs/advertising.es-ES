@@ -1,16 +1,16 @@
 ---
-title: Adjuntar y quitar anuncios de ubicaciones
+title: Adjuntar y quitar anuncios de las ubicaciones
 description: Obtenga información sobre cómo adjuntar anuncios a ubicaciones y quitar anuncios de ubicaciones.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
 
 ---
 
-# Adjuntar y quitar anuncios de ubicaciones
+# Adjuntar y quitar anuncios de las ubicaciones
 
 Puede adjuntar y eliminar anuncios de las ubicaciones.
 
@@ -36,7 +36,7 @@ Puede adjuntar y eliminar anuncios de las ubicaciones.
 
 1. Haga clic en **[!UICONTROL Attach Selected Ads]**.
 
-## Adjuntar un anuncio a ubicaciones desde la vista [!UICONTROL Ads] {#attach-ads}
+## Adjuntar un anuncio a las ubicaciones desde la vista [!UICONTROL Ads] {#attach-ads}
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 

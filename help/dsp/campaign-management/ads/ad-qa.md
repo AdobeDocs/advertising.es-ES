@@ -1,16 +1,16 @@
 ---
-title: Revisión y edición de detalles de publicidad mediante hojas de edición masiva
+title: Revisar y editar los detalles de la publicidad mediante hojas de edición masiva
 description: Obtenga información sobre cómo revisar la configuración de la publicidad de forma masiva mediante hojas de cálculo.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 4ae53bfc362f752b994ee4d4a62c8c1aa1a1e775
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# Revisión y edición de detalles de publicidad mediante hojas de edición masiva
+# Revisar y editar los detalles de la publicidad mediante hojas de edición masiva
 
 <!-- I should probably change this filename and get __?__ to set up a redirect from the old file to the new file. -->
 
@@ -23,7 +23,7 @@ Para editar los detalles del anuncio, consulte &quot;[Revisar y editar la config
 >*Para editar la configuración de anuncios individuales, consulte también &quot;[Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)&quot;.
 >*Para cambiar los píxeles de seguimiento de terceros para varios anuncios a la vez o para adjuntar anuncios a ubicaciones, consulte también &quot;[Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
-## Descargar detalles para todos los anuncios de una campaña
+## Descargar detalles de todos los anuncios de una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
