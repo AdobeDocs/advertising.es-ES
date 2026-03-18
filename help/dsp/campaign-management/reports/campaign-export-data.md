@@ -1,16 +1,16 @@
 ---
-title: Exportar datos desde una vista de Campaign Management
+title: Exportación de datos desde una vista de administración de campañas
 description: Obtenga información sobre cómo exportar los datos desde cualquier tipo de vista de administración de campañas a un archivo de hoja de cálculo.
 feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# Exportar datos desde una vista de Campaign Management
+# Exportación de datos desde una vista de administración de campañas
 
 Puede exportar una instantánea de la vista actual de administración de campañas filtradas a un archivo en formato de hoja de cálculo de Excel de Microsoft (XLSX). Puede exportar datos de:
 
@@ -30,5 +30,5 @@ Puede exportar una instantánea de la vista actual de administración de campañ
 
 >[!MORELIKETHIS]
 >
->* [Tipos de informes de rendimiento en las vistas de Campaign Management](campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en las vistas de administración de campañas](campaign-reports-about.md)
 >* [Administrar Las Vistas De Datos De Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

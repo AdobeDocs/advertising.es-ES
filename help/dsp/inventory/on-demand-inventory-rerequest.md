@@ -1,9 +1,9 @@
 ---
-title: Volver a solicitar  [!DNL On Demand] Ofertas de inventario premium
+title: Volver a solicitar  [!DNL On Demand] ofertas de inventario premium
 description: Aprenda a volver a solicitar  [!DNL On Demand] ofertas que se habían denegado anteriormente.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Si una operación no se aprueba después de que vuelvas a solicitarla, ponte en 
 
 Una vez que se [aprueba](/help/dsp/inventory/on-demand-inventory-view-status.md) una oferta, se incluye de manera predeterminada como destino para nuevas ubicaciones destinadas a todo el inventario [!DNL On Demand]. La nueva oferta también está disponible como objetivo para las ubicaciones existentes, pero debe editar manualmente la configuración de ubicación para añadir la oferta como objetivo.
 
-1. Confirme con el equipo de cuenta de Adobe DSP que la cuenta de [!UICONTROL Account Type] de la cuenta de la organización es la cuenta de la organización que se encuentra en el sitio de la cuenta de la organización que se encuentra en el sitio de la cuenta es correcta.
+1. Confirme con su equipo de cuenta de Adobe que la cuenta de [!UICONTROL Account Type] de DSP de su organización es correcta.
 
 1. Confirme que la categoría del anunciante para la cuenta del anunciante aplicable es correcta:
 

@@ -3,14 +3,14 @@ title: Ver el estado de tus  [!DNL On Demand] solicitudes y suscripciones de acu
 description: Aprenda a ver el estado de sus  [!DNL On Demand] solicitudes y suscripciones de acuerdo.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# Ver el estado de sus [!DNL On Demand] solicitudes de acuerdo y suscripciones
+# Ver el estado de sus [!DNL On Demand] solicitudes y suscripciones de acuerdo
 
 Después de solicitar una oferta individual o suscribirse a todas las ofertas de un editor, compruebe si el editor ha aprobado o rechazado cada oferta para cada anunciante de su cuenta.
 

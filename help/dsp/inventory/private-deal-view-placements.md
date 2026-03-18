@@ -1,16 +1,16 @@
 ---
-title: Enumerar las ubicaciones y los anuncios para una oferta privada
+title: Enumerar las ubicaciones y los anuncios de una oferta privada
 description: Aprenda a abrir una lista de ubicaciones y anuncios asociados a una oferta privada.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-# Enumerar las ubicaciones y los anuncios para una oferta privada
+# Enumerar las ubicaciones y los anuncios de una oferta privada
 
 Puede abrir una lista de todas las ubicaciones y anuncios asociados a una oferta privada. Si lo desea, puede abrir la configuración de cualquiera de las ubicaciones o anuncios.
 

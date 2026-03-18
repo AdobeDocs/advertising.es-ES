@@ -1,9 +1,9 @@
 ---
-title: '[!DNL On Demand] editores de inventario premium en Norteamérica'
+title: '[!DNL On Demand] editores de inventario premium en América del Norte'
 description: Vea los  [!DNL On Demand] editores de inventario premium disponibles en Norteamérica.
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%

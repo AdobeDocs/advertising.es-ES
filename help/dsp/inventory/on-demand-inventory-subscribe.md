@@ -3,7 +3,7 @@ title: Suscribirse y solicitar acceso a  [!DNL On Demand] ofertas de inventario 
 description: Obtenga información sobre cómo suscribirse a [!DNL On Demand] ofertas y solicitar acceso a ellas.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *No disponible para usuarios con los tipos de cuenta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] y [!UICONTROL Other]; anunciantes con la categoría [!UICONTROL Other]; y distribuidores*
 
-Puede solicitar ofertas individuales o suscribirse a un editor para solicitar todas las ofertas del editor. DSP Cuando se suscribe a un editor, solicita automáticamente cualquier oferta nueva que el editor ofrezca en su nombre.
+Puede solicitar ofertas individuales o suscribirse a un editor para solicitar todas las ofertas del editor. Al suscribirse a un editor, DSP solicita automáticamente cualquier oferta nueva que el editor ofrezca en su nombre.
 
 Una vez que se [aprueba](/help/dsp/inventory/on-demand-inventory-view-status.md) una oferta, se incluye de manera predeterminada como destino para nuevas ubicaciones destinadas a todo el inventario [!DNL On Demand]. La nueva oferta también está disponible como objetivo para las ubicaciones existentes, pero debe editar manualmente la configuración de ubicación para añadir la oferta como objetivo.
 
