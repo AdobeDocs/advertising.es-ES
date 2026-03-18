@@ -1,19 +1,20 @@
 ---
-title: Administrar listas de URL
+title: Administración de listas de URL
 description: Obtenga información sobre cómo crear y administrar listas de URL para la segmentación de ubicación.
 feature: DSP Placements
-source-git-commit: ea33d6fa7612f1c9631c223e5bf0ec80bb5f8d96
+exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# Administrar listas de URL
+# Administración de listas de URL
 
 Puede crear y administrar listas de direcciones URL de sitios web y aplicaciones para la segmentación de ubicación. Dirija la actividad a listas de URL específicas dentro de la configuración de ubicación o exclúyalas.
 
-## Ver una lista de URL
+## Visualización de una lista de URL
 
 1. En el menú principal, haga clic en **[!UICONTROL Resources]** > **[!UICONTROL URL Lists]**.
 
@@ -23,7 +24,7 @@ Puede crear y administrar listas de direcciones URL de sitios web y aplicaciones
 
    El archivo se descarga según el procedimiento normal del explorador.
 
-## Crear una lista de URL
+## Creación de una lista de URL
 
 1. En el menú principal, haga clic en **[!UICONTROL Resources]** > **[!UICONTROL URL Lists]**.
 
@@ -93,7 +94,7 @@ Puede crear y administrar listas de direcciones URL de sitios web y aplicaciones
 
       1. Haga clic en **[!UICONTROL Remove]**.
 
-## Editar una lista de URL
+## Edición de una lista de URL
 
 1. En el menú principal, haga clic en **[!UICONTROL Resources]** > **[!UICONTROL URL Lists]**.
 

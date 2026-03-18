@@ -1,16 +1,16 @@
 ---
-title: Eliminar un informe personalizado
+title: Eliminación de un informe personalizado
 description: Obtenga información sobre cómo eliminar un informe personalizado.
 feature: DSP Custom Reports
 exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
-source-git-commit: 570eb1cba51bae5681f989f9450dfcb70a62666b
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
 
 ---
 
-# Eliminar un informe personalizado
+# Eliminación de un informe personalizado
 
 1. En el menú principal, haga clic en **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**.
 

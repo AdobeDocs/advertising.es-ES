@@ -1,22 +1,22 @@
 ---
-title: Configuración de informe personalizada
+title: Configuración personalizada de informes
 description: Consulte las descripciones de la configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 65d554ef71e36b52a47fc24552d5db9b56072095
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 0%
 
 ---
 
-# Configuración de informe personalizada
+# Configuración personalizada de informes
 
 **[!UICONTROL Name]:** El nombre del informe. La longitud máxima es de 180 caracteres.
 
 **[!UICONTROL Report Type]:** Tipo de informe: *[!UICONTROL Custom]* (que incluye la mayoría de las opciones disponibles), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, *[!UICONTROL Household Conversions]*, **, *[!UICONTROL Path Length]* o *[!UICONTROL Time to Conversion]*.
 
-## Sección [!UICONTROL Report Range]
+## [!UICONTROL Report Range] sección
 
 Esta sección determina los datos que se incluyen en el informe. Para configurar las fechas de la programación del informe, consulte la sección &quot;[!UICONTROL Report run schedule]&quot;.
 
@@ -32,7 +32,7 @@ Esta sección determina los datos que se incluyen en el informe. Para configurar
 
 * **[!UICONTROL Custom Range]:** Incluye datos entre fechas de inicio y finalización específicas. Para informar desde el día anterior, seleccione **[!UICONTROL Present]**.
 
-## Sección [!UICONTROL Report Run schedule]
+## [!UICONTROL Report Run schedule] sección
 
 Esta sección determina las fechas en las que se ejecuta el informe. Para configurar las fechas en las que se incluirán los datos del informe, consulte la sección &quot;[!UICONTROL Report range]&quot;.
 
@@ -60,7 +60,7 @@ Esta sección determina las fechas en las que se ejecuta el informe. Para config
 
    * **Hasta**: La fecha de caducidad del informe, que puede ser dentro de cuatro meses calendario. Antes de que caduque un informe, todos los destinos de correo electrónico especificados reciben una alerta de correo electrónico siete días y un día antes de la fecha de caducidad. Para mantener el informe más tiempo, cambie esta fecha.
 
-## Sección [!UICONTROL Apply Filters]
+## [!UICONTROL Apply Filters] sección
 
 **[!UICONTROL Filter by]:** (Opcional) Dimensiones adicionales mediante las cuales filtrar los datos, independientemente de si las dimensiones se incluyen o no como columnas en el informe. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Account]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, *[!UICONTROL Deal]*, *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* y *[!UICONTROL Video Duration]*.
 
@@ -84,7 +84,7 @@ Para aplicar uno o más filtros, haga lo siguiente:
 
    Para seleccionar varias campañas, haga clic en **[!UICONTROL Add Criteria]** para la segunda campaña y las subsiguientes.
 
-## Sección [!UICONTROL Build Your Report]
+## [!UICONTROL Build Your Report] sección
 
 **[!UICONTROL Select To Add As Report Headers]:** Las columnas de datos, o encabezados, que se incluirán en el informe. Para agregar una columna, expanda la categoría y active la casilla de verificación situada junto al nombre de la columna. Las columnas disponibles varían según el informe y todas las métricas no disponibles están desactivadas. Las categorías de datos disponibles pueden incluir:
 
@@ -113,7 +113,7 @@ Consulte &quot;[Columnas de informe disponibles](report-columns.md)&quot; para o
 
 **[!UICONTROL Headers]:** Ya sea para *[!UICONTROL Include]* o *[!UICONTROL Do Not Include]* encabezados de columna.
 
-## Sección [!UICONTROL Multi-Touch Conversion Options]
+## [!UICONTROL Multi-Touch Conversion Options] sección
 
 **[!UICONTROL Attribution Rule Settings]:** La configuración varía según el tipo de informe:
 
@@ -167,7 +167,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL Event Timestamp]:* Las conversiones se informan en función de la fecha de la impresión o del clic que provocó la conversión, según lo determinado por el [!UICONTROL Attribution Rule Settings] especificado.
 
-## Sección [!UICONTROL Add Report Destinations]
+## [!UICONTROL Add Report Destinations] sección
 
 **[!UICONTROL Destination Type]:** Dónde entregar los informes completados y las notificaciones de error. Una vez guardado el informe, no se puede cambiar el tipo de destino.
 
@@ -183,7 +183,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
