@@ -3,18 +3,18 @@ title: Especificaciones del anuncio
 description: Consulte las especificaciones generales y específicas del editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
 
-# Especificaciones para tipos de publicidad admitidos
+# Especificaciones para tipos de anuncios admitidos
 
 ## Anuncios de vídeo (anuncio previo a la emisión, CTV y vídeo universal)
 
-### Screens compatible
+### Pantallas compatibles
 
 Los anuncios se entregan de forma predeterminada en equipos de escritorio, dispositivos móviles y dispositivos de TV conectados. La segmentación de dispositivos está disponible para ajustar la entrega.
 
@@ -22,7 +22,7 @@ Los anuncios se entregan de forma predeterminada en equipos de escritorio, dispo
 
 Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners Certificados de Servicio de publicidad](certified-ad-servers.md)&quot;.
 
-### Requisitos para Video Assets de alta definición
+### Requisitos para los recursos de vídeo de alta definición
 
 **Tipo de etiqueta de vídeo:** VPAID 2.0 JavaScript o VAST (CTV). Todas las unidades de anuncios VPAID deben cumplir con la [especificación VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) según la definición del Interactive Advertising Bureau (IAB).
 
@@ -72,19 +72,19 @@ Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 
 * **Principal:** Consulte las [especificaciones del anuncio de Paramount](https://www.paramount.com/digital-ads).
 
-## Publicidad en pantalla
+## Mostrar anuncios
 
-### Screens compatible
+### Pantallas compatibles
 
 Los anuncios se entregan de forma predeterminada en equipos de escritorio y dispositivos móviles. La segmentación de dispositivos está disponible para ajustar la entrega.
 
-### Tipos de archivo compatibles
+### Tipos de archivos compatibles
 
 **Imagen:** GIF, JPG/JPEG, PNG
 
 **HTML5:** Tipos de archivo de imagen: GIF, JPG/JPEG, PNG, SVG
 
-### Requisitos para Image Assets
+### Requisitos para los recursos de imagen
 
 Se admite la visualización universal.
 
@@ -94,7 +94,7 @@ Se admite la visualización universal.
 
 ## Anuncios de audio
 
-### Screens compatible
+### Pantallas compatibles
 
 Escritorio, Móvil, Tablet, Altavoces inteligentes y TV conectada
 
@@ -102,7 +102,7 @@ Escritorio, Móvil, Tablet, Altavoces inteligentes y TV conectada
 
 Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners Certificados de Servicio de publicidad](certified-ad-servers.md)&quot;.
 
-### Requisitos para Audio Assets
+### Requisitos para los recursos de audio
 
 **Tipo de archivo:** MP3, OGG, AAC
 
@@ -147,7 +147,7 @@ Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
    * Tipo de archivo: MP3, OG
    * Volumen: 44,1 kHz
 
-### Requisitos para anuncios de banner de Companion (opcional)
+### Requisitos para los anuncios de banner complementarios (opcional)
 
 **Tamaños compatibles:** 300 x 250, 500 x 500, 640 x 640, 1024 x 1024
 
@@ -182,11 +182,11 @@ Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 
 Cada anuncio puede incluir una imagen fija o un GIF en movimiento (cinemagrafía).
 
-### Screens compatible
+### Pantallas compatibles
 
 Los anuncios se entregan de forma predeterminada en equipos de escritorio y dispositivos móviles. La segmentación de dispositivos está disponible para ajustar la entrega.
 
-### Assets requerido para todos los formatos de entrada nativos
+### Recursos necesarios para todos los formatos nativos de fuente
 
 #### Recurso de imagen
 

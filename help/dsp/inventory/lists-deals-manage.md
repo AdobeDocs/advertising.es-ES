@@ -1,16 +1,16 @@
 ---
-title: Administrar listas de acuerdos
+title: Administración de listas de ofertas
 description: Aprenda a crear y administrar listas de ofertas para la segmentación de ubicaciones.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: e030783a046002e02d719a36c99d1b10808cd4a9
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-# Administrar listas de acuerdos
+# Administración de listas de ofertas
 
 Puede crear y administrar listas de ofertas privadas y [!DNL On Demand] ofertas para la segmentación de ubicación. Dirija la segmentación o exclusión de listas de tratos privadas específicas dentro de la configuración de ubicación.
 
@@ -18,13 +18,13 @@ Puede crear y administrar listas de ofertas privadas y [!DNL On Demand] ofertas 
 In custom reports, you can a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section
 -->
 
-## Ver una lista de acuerdos
+## Ver una lista de ofertas
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deal Lists]**.
 
 1. Haga clic en el nombre de la lista.
 
-## Crear una lista de acuerdos
+## Crear una lista de ofertas
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deal Lists]**.
 
@@ -44,7 +44,7 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
 1. Haga clic en **[!UICONTROL Add Selected Deals]**.
 
-## Editar una lista de acuerdos
+## Editar una lista de ofertas
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deal Lists]**.
 

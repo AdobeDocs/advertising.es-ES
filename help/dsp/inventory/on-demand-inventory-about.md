@@ -1,11 +1,11 @@
 ---
-title: Acerca de [!DNL On Demand] Inventario Premium
-description: DSP Obtenga información acerca de las ofertas que ha negociado previamente con socios de editor premium.
+title: Acerca de [!DNL On Demand] inventario premium
+description: Obtenga información acerca de las ofertas que DSP ha negociado previamente con socios de editor Premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *No disponible para usuarios con los tipos de cuenta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] y [!UICONTROL Other]; anunciantes con la categoría [!UICONTROL Other]; y distribuidores*
 
-DSP La Galería [!DNL On Demand] es una herramienta de descubrimiento de inventario de primera calidad para explorar ofertas negociadas previamente que se han seleccionado con socios de editor de primera calidad. Permite acceder a inventarios no garantizados desde los editores de nivel superior de la región sin necesidad de negociaciones o contratos 1:1. Puede solicitar ofertas individuales y puede suscribirse a un editor para solicitar todas las ofertas del editor a la vez.
+La Galería [!DNL On Demand] es una herramienta de descubrimiento de inventario de primera calidad para explorar ofertas negociadas previamente que DSP ha seleccionado con socios de editor de primera calidad. Permite acceder a inventario no garantizado desde los editores de nivel superior de la región sin necesidad de 1:1 negociaciones o contratos. Puede solicitar ofertas individuales y puede suscribirse a un editor para solicitar todas las ofertas del editor a la vez.
 
-DSP El mercado premium le permite hacer lo siguiente:
+DSP Premium Marketplace le permite:
 
 * Active el nuevo inventario de forma rápida y sencilla para mejorar la escala y la eficiencia
 
@@ -36,7 +36,7 @@ DSP El mercado premium le permite hacer lo siguiente:
 
 Una vez aprobado el acuerdo, estará disponible como destino para las ubicaciones existentes y se incluirá automáticamente como destino para las nuevas ubicaciones que se dirijan a todo el inventario [!DNL On Demand]. Si se rechaza una solicitud de acuerdo, puede trabajar con su equipo de cuenta de Adobe para resolver el problema y luego volver a solicitar el acuerdo.
 
-## Las Vistas Bajo Demanda
+## Las vistas [!UICONTROL On Demand]
 
 En [!UICONTROL Inventory] > [!UICONTROL On Demand], las ofertas y editores más recientes <!-- how recent? --> están disponibles en un carrusel en la parte superior de la página.
 
@@ -47,7 +47,7 @@ Los detalles de cada acuerdo incluyen datos en las siguientes columnas:
 * **[!UICONTROL TVB]:** Indica cuándo el editor es un emisor de TV
 * **[!UICONTROL Tune]:** Indica cuándo el editor acepta los elementos creativos de &quot;sintonización&quot; (por ejemplo, &quot;sintonizar esta noche a las 9 p. m. para el nuevo episodio de \&lt;*nuestro programa*\>)
 * **[!UICONTROL LDA]:** (Edad legal para beber) Indica cuándo el editor ha aplicado más de 21 anuncios de alcohol y acepta los anuncios de alcohol
-* **[!UICONTROL CPM]:** Indica cuándo el CPM de tarifa fija o mínima de la oferta no será visible hasta que se haya concedido al anunciante acceso a la oferta
+* **[!UICONTROL CPM]:** Indica cuándo el CPM de tarifa fija o mínima de la oferta no será visible hasta que se haya concedido acceso al anunciante a la oferta
 * **[!UICONTROL Status]:** El estado de su solicitud de suscripción (cuando corresponda)
 * **[!UICONTROL Action]:** Cualquier acción disponible que pueda realizar (como [!UICONTROL Request] o [!UICONTROL Re-request])
 

@@ -1,16 +1,16 @@
 ---
-title: Editar las cuentas con acceso a un acuerdo privado
+title: Editar las cuentas con acceso a una operación privada
 description: Aprenda a compartir y dejar de compartir un acuerdo privado con diferentes cuentas.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
-# Editar las cuentas con acceso a un acuerdo privado
+# Editar las cuentas con acceso a una operación privada
 
 Puede compartir un ID de acuerdo con varias cuentas. La oferta se comparte con todos los anunciantes dentro de las cuentas especificadas, de modo que todos los usuarios de esas cuentas puedan editar la oferta o utilizarla como objetivo para sus ubicaciones.
 
@@ -20,7 +20,7 @@ Puede dejar de compartir un acuerdo con cuentas para eliminar las capacidades de
 >
 > También puede [editar los anunciantes individuales con acceso a la cuenta](deal-id-edit-advertisers.md).
 
-## Uso compartido de un ID de acuerdo con cuentas
+## Uso compartido de un ID de acuerdo con cuentas de
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 

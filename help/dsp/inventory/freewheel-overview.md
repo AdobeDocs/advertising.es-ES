@@ -3,7 +3,7 @@ title: Información general sobre la configuración de ofertas de PG en  [!DNL F
 description: Conozca los requisitos previos y los pasos adicionales necesarios para ejecutar anuncios para ofertas programáticas garantizadas con editores en  [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%

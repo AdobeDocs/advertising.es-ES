@@ -1,32 +1,32 @@
 ---
-title: Usando  [!DNL Roku] inventario
-description: DSP Obtenga información acerca de la asociación de los usuarios con  [!DNL Roku], incluidas las opciones de inventario, los proveedores de seguimiento de terceros aprobados y las prácticas recomendadas para las ubicaciones específicas de  [!DNL Roku].
+title: Usando [!DNL Roku] inventario
+description: Obtenga información acerca de la asociación de DSP con  [!DNL Roku], que incluye opciones de inventario, proveedores de seguimiento de terceros aprobados y prácticas recomendadas para ubicaciones específicas de  [!DNL Roku].
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
-# Usando inventario [!DNL Roku]
+# Usando el inventario [!DNL Roku]
 
 Advertising DSP proporciona características para la publicidad de [!DNL Roku].
 
 ## Coincidencia de audiencia
 
-DSP La asociación de [!DNL Roku] y la asociación de coincide con sus audiencias de [!DNL DSP] para [!DNL Roku] ID para una segmentación de audiencia determinística 1:1 en el inventario de [!DNL Roku].
+La asociación de [!DNL Roku] y DSP hace coincidir las audiencias de [!DNL DSP] con los identificadores de [!DNL Roku] para la segmentación de audiencia determinística de :1 en el inventario de [!DNL Roku].
 
 ## [!DNL Roku] opciones de inventario
 
-DSP Puede: a) configurar los ID de acuerdo privados directamente con [!DNL Roku] y, a continuación, introducir los datos del ID de acuerdo en, o b) visitar la galería de [!DNL On Demand] para suscribirse a los perfiles de [!DNL Roku]:
+Puede: a) configurar los ID de acuerdo privados directamente con [!DNL Roku] y luego introducir los datos del ID de acuerdo en DSP o b) visitar la galería [!DNL On Demand] para suscribirse a los perfiles de [!DNL Roku]:
 
 >[!NOTE]
 >
 >El inventario [!DNL Roku] no está disponible en mercados e intercambios abiertos.
 
-* DSP Para tus ofertas privadas, [configura información sobre los ID de la oferta en el destino &#x200B;](/help/dsp/inventory/deal-id-create.md) y, a continuación, dirige &quot;[!UICONTROL Roku Network - Audience]&quot; y &quot;[!UICONTROL The Roku Channel - Audience]&quot; en [!DNL Roku] ubicaciones.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* Para tus ofertas privadas, [configura información sobre los ID de la oferta en DSP](/help/dsp/inventory/deal-id-create.md) y luego dirige &quot;[!UICONTROL Roku Network - Audience]&quot; y &quot;[!UICONTROL The Roku Channel - Audience]&quot; en [!DNL Roku] ubicaciones.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * Puedes [suscribirte al siguiente [!DNL Roku] inventario dentro de la [!DNL On Demand] Galería](/help/dsp/inventory/on-demand-inventory-subscribe.md) y luego dirigirte a cualquiera de las ofertas aprobadas dentro de [!DNL Roku] ubicaciones:
 
@@ -49,15 +49,15 @@ Las ofertas privadas le permiten personalizar los parámetros de la oferta segú
 
 ## [!DNL Roku] ubicaciones
 
-DSP En campañas de, [cree  [!DNL Roku] ubicaciones específicas de &#x200B;](/help/dsp/campaign-management/placements/placement-create.md) con el tipo de ubicación &quot;[!UICONTROL Connected TV (Roku)]&quot;. Incluir [!DNL Roku] ubicaciones en paquetes específicos de [!DNL Roku] con objetivos definidos.
+En campañas de DSP, [cree  [!DNL Roku] ubicaciones específicas](/help/dsp/campaign-management/placements/placement-create.md) con el tipo de ubicación &quot;[!UICONTROL Connected TV (Roku)]&quot;. Incluir [!DNL Roku] ubicaciones en paquetes específicos de [!DNL Roku] con objetivos definidos.
 
-Cada ubicación de [!DNL Roku] debe estar dirigida al menos a un origen o acuerdo de [!DNL Roku]. DSP Para usar la coincidencia de audiencia de la audiencia de la con [!DNL Roku], incluya uno o más segmentos de audiencia que puedan coincidir con el conjunto de datos determinista [!DNL Roku] (incluido).
+Cada ubicación de [!DNL Roku] debe estar dirigida al menos a un origen o acuerdo de [!DNL Roku]. Para usar la coincidencia de audiencia de DSP con [!DNL Roku], incluya uno o más segmentos de audiencia que puedan coincidir con el conjunto de datos determinístico [!DNL Roku] (incluido).
 
-### Proveedores de seguimiento de terceros aprobados por [!DNL Roku]
+### [!DNL Roku] proveedores de seguimiento de terceros aprobados por
 
 Las ubicaciones de [!DNL Roku] pueden incluir píxeles de evento de terceros y píxeles de conversión de los siguientes proveedores: [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] y [!DNL Research Now].
 
-### Prácticas recomendadas por estrategia de colocación
+### Prácticas recomendadas por estrategia de ubicación
 
 A continuación se indican las prácticas recomendadas para las ubicaciones específicas de [!DNL Roku].
 

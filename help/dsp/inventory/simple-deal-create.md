@@ -3,7 +3,7 @@ title: Crear una oferta [!UICONTROL Simple Ad Serving]
 description: Aprenda a crear un píxel de seguimiento para una oferta de [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    1. En la sección [!UICONTROL Select Ad Source], especifique información sobre el editor, el anunciante, la campaña y el tipo de anuncio y, a continuación, haga clic en **[!UICONTROL Next]**.
 
-   1. DSP En la sección [!UICONTROL Select Ad(s)], especifique un anuncio para utilizarlo como proxy en el siguiente:
+   1. En la sección [!UICONTROL Select Ad(s)], especifique un anuncio para utilizarlo como proxy en DSP:
 
       1. Realice una de las acciones siguientes:
 
@@ -29,19 +29,19 @@ ht-degree: 0%
          * Para anuncios nuevos, cree un [anuncio de terceros](/help/dsp/campaign-management/ads/ad-create-multiple.md) proxy.
 
       >[!NOTE]
-      > DSP No se muestran los anuncios especificados por el usuario. El editor publica el anuncio.
+      > DSP no muestra los anuncios especificados. El editor publica el anuncio.
 
       1. Haga clic en **[!UICONTROL Next]**.
 
    1. En Detalles de la fuente, edite los detalles de la fuente y, a continuación, haga clic en **[!UICONTROL Next]**.
 
-      DSP La ubicación genera automáticamente una ubicación, denominada &quot;Ubicación SAS - &lt;*nombre de la oferta*>&quot;, para el anuncio. En la ubicación, la oferta se segmenta automáticamente en la sección [!UICONTROL Inventory Targets]. Todas las demás opciones de segmentación no son aplicables.
+      DSP genera automáticamente una ubicación, denominada &quot;Ubicación SAS - &lt;*nombre de la oferta*>&quot;, para el anuncio. En la ubicación, la oferta se segmenta automáticamente en la sección [!UICONTROL Inventory Targets]. Todas las demás opciones de segmentación no son aplicables.
 
 1. Envíe los píxeles de seguimiento de eventos al editor para su implementación de cualquiera de las siguientes maneras:
 
    * (Opcional) En la pantalla [!UICONTROL Activate Tag with Publisher], envíe la etiqueta de oferta al editor.
 
-     DSP Cuando termine los pasos anteriores, generará un mensaje de correo electrónico que podrá enviar al editor en cuestión. El mensaje incluye los detalles de la oferta, un vínculo desde el que recuperar la etiqueta de oferta y un código de autorización para el vínculo.
+     Cuando finalice los pasos anteriores, DSP generará un mensaje de correo electrónico que puede enviar al editor. El mensaje incluye los detalles de la oferta, un vínculo desde el que recuperar la etiqueta de oferta y un código de autorización para el vínculo.
 
       1. Revise los detalles de la oferta y, a continuación, realice una de las acciones siguientes:
 

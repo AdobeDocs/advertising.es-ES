@@ -3,16 +3,16 @@ title: Descripción general de las funciones de inventario en Advertising DSP
 description: Obtenga información acerca de las funciones de inventario disponibles.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # Descripción general de las funciones de inventario en Advertising DSP
 
-DSP puede satisfacer sus necesidades de inventario, tanto si desea encontrar escalas con inventarios públicos, encontrar escalas entre editores Premium con [!DNL On Demand] o configurar un contrato de mercado privado (PMP) 1:1 con un editor para activarlo en audiencias o sitios específicos. Los objetivos de su campaña ayudan a dictar qué tipo de inventario se adapta mejor a las necesidades de rendimiento de su campaña. Las integraciones con las principales plataformas de suministro (SSP) permiten una configuración y activación sin problemas de sus PMP.
+DSP puede satisfacer sus necesidades de inventario, ya sea que desee encontrar escalas con inventarios públicos, encontrar escalas entre editores Premium con [!DNL On Demand] o configurar un contrato de mercado privado (PMP) de 1:1 con un editor para activarlo en audiencias o sitios específicos. Los objetivos de su campaña ayudan a dictar qué tipo de inventario se adapta mejor a las necesidades de rendimiento de su campaña. Las integraciones con las principales plataformas de suministro (SSP) permiten una configuración y activación sin problemas de sus PMP.
 
 Una vez que acceda a sus ofertas de inventario en DSP o las identifique, puede utilizarlas como objetivos de ubicación para sus campañas.
 
@@ -24,7 +24,7 @@ Los tipos de inventario disponibles incluyen:
 
 * **[!DNL Simple Ad Serving]:** Utilice una tecnología optimizada para garantizar la entrega de anuncios sin decisión cuando su editor no pueda ejecutar su acuerdo a través de los ID de acuerdo.
 
-## Las vistas de ofertas
+## Las vistas [!UICONTROL Deals]
 
 * **[!UICONTROL Inventory]> [!UICONTROL Deals]:**
 
