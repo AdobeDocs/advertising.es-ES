@@ -1,16 +1,16 @@
 ---
-title: DSP Acerca de la herramienta Planificador de
+title: Acerca de la herramienta DSP Planner
 description: Obtenga información acerca de la herramienta de planificación para prever el alcance único de las ubicaciones de TV conectada (CTV) según el presupuesto especificado y los criterios de segmentación.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
-# DSP Acerca de la herramienta Planificador de
+# Acerca de la herramienta DSP Planner
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -33,7 +33,7 @@ El resultado de la previsión también incluye una sección [!UICONTROL Inventor
 >* La sección [!UICONTROL Inventory Breakdown] muestra datos solamente para el inventario privado y de [!UICONTROL On Demand].
 >* El alcance único estimado que se muestra para dos editores puede superponerse.
 
-## La vista del planificador
+## La vista Planificador
 
 En la vista [!UICONTROL Planner], puede ver los planes de alcance de CTV existentes y crear otros nuevos.
 
@@ -47,7 +47,7 @@ La herramienta Planificador es compatible con todos los tipos de inventario, inc
 
 +++
 
-+++¿Por qué veo &quot;[!UICONTROL Unable to generate forecast]?&quot;
++++¿Por qué veo &quot;[!UICONTROL Unable to generate forecast]&quot;?
 
 Una de las razones más comunes de este error es un presupuesto insuficiente o una oferta máxima. Para obtener los mejores resultados, utilice un presupuesto mínimo de 5000 USD. Si se selecciona el tipo de medio [!UICONTROL Connected TV], se debe introducir una puja máxima de al menos 10 dólares estadounidenses.
 
@@ -55,7 +55,7 @@ Además, asegúrese de que los editores u ofertas incluidos estén activos y ten
 
 +++
 
-+++He creado una ubicación basada en el pronóstico, pero no he conseguido la cantidad de alcance único indicado por el pronóstico de alcance. ¿Por qué?
++++He creado una ubicación basada en el pronóstico, pero no he conseguido la cantidad de alcance único indicado por el pronóstico de alcance. ¿Por qué? 
 
 El pronóstico del alcance es solo una estimación, y se espera que los resultados reales varíen debido a múltiples factores que cambian con frecuencia, como la estacionalidad, la competitividad de las ofertas y la oferta y la demanda. No se espera que sea completamente precisa, pero es más útil para obtener perspectivas direccionales sobre las estrategias de campaña que pueden impulsar potencialmente los mejores resultados.
 
@@ -73,7 +73,7 @@ Sí, puede exportar una previsión a una hoja de cálculo de [!DNL Microsoft Exc
 
 >[!MORELIKETHIS]
 >
->* DSP [Acerca de la herramienta Planificador de](planner-about.md)
+>* [Acerca de la herramienta de planificación de DSP](planner-about.md)
 >* [Crear un plan de alcance de TV conectado](planner-create.md)
 >* [Duplicar un plan de alcance de TV conectado](planner-duplicate.md)
 >* [Editar un plan de alcance de TV conectado](planner-edit.md)

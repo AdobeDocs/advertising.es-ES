@@ -3,7 +3,7 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -20,7 +20,7 @@ DSP puede optimizar sus campañas centradas en el rendimiento. Consulte las sigu
 * Paso 4: Creación de una estructura de ubicación
 * Paso 5: Uso del Assets de Creative adecuado
 
-## Paso 1: Definición de la meta
+## Paso 1: Definición del objetivo
 
 Es importante comprender el objetivo de la campaña, como lograr el ROAS más alto posible o el CPA más bajo posible. Las campañas de rendimiento tienen los [objetivos de optimización](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;. Especifique el objetivo de optimización correspondiente para cada paquete de la campaña.
 
@@ -143,11 +143,11 @@ Para maximizar la escala, use el inventario [!UICONTROL Public] (Open Exchange) 
    * No se debe segmentar [!UICONTROL Firefox] y [!UICONTROL Safari] debido a las limitaciones de segmentación y medición. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más detalles acerca de la compatibilidad con [!DNL Adobe] para [!DNL Safari ITP].
    * Si dirige el tráfico web móvil, deshabilite todos los exploradores móviles excepto [!UICONTROL Chrome] y [!UICONTROL Edge].
 
-### Seguridad de marca y calidad de medios
+### Seguridad de marca y calidad de los medios
 
 El uso del filtrado contextual, el bloqueo de fraude de oferta previa o el filtrado [!UICONTROL Ads.txt] limita la escala de las ubicaciones, pero puede utilizarlos en caso necesario.
 
-## Paso 5: Uso del Assets de Creative adecuado
+## Paso 5: Uso de los recursos creativos adecuados
 
 * La práctica recomendada es incluir tantos tamaños de anuncio únicos como sea posible para maximizar el alcance. La plantilla de visualización universal le permite cargar cualquier tamaño de anuncio de visualización estándar.
 * Asegúrese de que todas las ubicaciones contengan *al menos* todos los tamaños de anuncios de pantallas principales (300x250, 728x90, 160x600, 300x600, 320x50 y 300x50).

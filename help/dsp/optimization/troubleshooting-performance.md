@@ -3,7 +3,7 @@ title: Solución de problemas de rendimiento
 description: Consulte los problemas de rendimiento comunes y cómo solucionarlos.
 feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 | | La ubicación tiene una tasa de ganancia baja. | Aumente [!UICONTROL Max Bid] para mejorar la tasa de ganancia.<br><br><b>NOTA:</b> Los precios de inventario pueden variar según el destino de la ubicación.<br><br>Una tasa de ganancia del 10% se considera saludable. |
 | | Hay un número bajo de inventario disponible. | Segmente fuentes de inventario adicionales o todas si es posible.<br><br>Tenga en cuenta que el uso de varios destinos de ubicación, como filtros de ofertas previas, geos, inventario y audiencias, puede limitar las ofertas y los gastos de manera acumulativa. |
 | | Hay un número bajo de usuarios disponibles. | Compruebe que los objetivos de audiencia especificados incluyan suficientes usuarios activos. Si no es así, expanda los destinatarios agregando más audiencias.<br><br>Tenga en cuenta que el uso de varios destinos de ubicación, como filtros de ofertas previas, geos, inventario y audiencias, puede limitar las ofertas y los gastos de manera acumulativa. |
-| | El paquete incluye un gran número de ubicaciones activas. | Reduzca el número de ubicaciones activas dentro del paquete o aumente el presupuesto general del paquete.DSP <br><br>Si el paquete tiene muchas ubicaciones, pero no el presupuesto suficiente, es posible que no pueda asignar suficiente presupuesto a cada ubicación. Cada ubicación debe tener una oportunidad de gastar al menos 2 USD/día. Por ejemplo, si el paquete tiene un presupuesto de 10 USD/día, lo mejor es incluir cinco ubicaciones o menos. palo de golf |
+| | El paquete incluye un gran número de ubicaciones activas. | Reduzca el número de ubicaciones activas dentro del paquete o aumente el presupuesto general del paquete.<br><br>Si el paquete tiene muchas ubicaciones, pero no el presupuesto suficiente, es posible que DSP no pueda asignar suficiente presupuesto a cada ubicación. Cada ubicación debe tener una oportunidad de gastar al menos 2 USD/día. Por ejemplo, si el paquete tiene un presupuesto de 10 USD/día, lo mejor es incluir cinco ubicaciones o menos. palo de golf |
 
 {style="table-layout:auto"}
 

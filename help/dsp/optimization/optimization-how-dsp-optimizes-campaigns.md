@@ -3,7 +3,7 @@ title: Optimización de las campañas con DSP
 description: Descubra cómo DSP optimiza los paquetes en sus campañas.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -52,11 +52,11 @@ Este modo de optimización funciona bien si:
 
 * Si el gasto va por detrás del ritmo, las pujas se vuelven menos selectivas, por lo que se puede pujar en subastas en las que se predice que tendrán tasas de rendimiento más bajas para alcanzar el objetivo de ritmo.
 
-#### Sombreado de puja/precio de liquidación {#clearing-price-performance}
+#### Sombreado de precio/oferta de compensación {#clearing-price-performance}
 
 Después de ejecutar la lógica de ritmo, DSP ejecuta la oferta propuesta a través de un modelo de predicción de precios de compensación. Si la predicción indica que la oferta se puede reducir con una disminución mínima de la tasa de ganancia, la oferta se reducirá según la predicción.
 
-### Paquetes que priorizan el equilibrio entre eficiencia de costes y tasa de rendimiento
+### Paquetes que priorizan el equilibrio entre la rentabilidad y la tasa de rendimiento
 
 Para algunos objetivos de optimización, DSP predice el rendimiento de cada subasta y ajusta los precios de oferta automáticamente, sin superar nunca los [!UICONTROL Max Bid] de una ubicación. Algunos ejemplos de objetivos de optimización aplicables son [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click], etc.
 
@@ -68,7 +68,7 @@ Para algunos objetivos de optimización, DSP predice el rendimiento de cada suba
 
 * Si el gasto va por detrás del ritmo, DSP se vuelve menos sensible a los precios y ofrece cantidades más altas, hasta [!UICONTROL Max Bid], para compensar la tasa de ganancias con el plan de ritmo.
 
-#### Sombreado de puja/precio de liquidación {#clearing-price-balanced}
+#### Sombreado de precio/oferta de compensación {#clearing-price-balanced}
 
 Después de ejecutar la lógica de ritmo, DSP ejecuta la oferta propuesta a través de un modelo de predicción de precios de compensación. Si la predicción indica que la oferta se puede reducir con una disminución mínima de la tasa de ganancia, la oferta se reducirá según la predicción.
 

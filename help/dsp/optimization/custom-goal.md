@@ -1,16 +1,16 @@
 ---
-title: Objetivos personalizados
+title: Metas personalizadas
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
 
 ---
 
-# Objetivos personalizados
+# Metas personalizadas
 
 Las metas personalizadas definen los eventos de éxito que un anunciante necesita para alcanzar sus objetivos comerciales. Cada paquete que usa el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; debe incluir un objetivo personalizado para ayudar a lograr el objetivo de optimización general. Puede crear metas personalizadas como *objetivos* en [!DNL Advertising Search, Social, & Commerce]. El nombre de cada objetivo para DSP debe ir precedido del prefijo &quot;ADSP_&quot;.
 
@@ -68,13 +68,13 @@ Para crear un objetivo personalizado, la cuenta de DSP debe estar vinculada a un
 
 En la configuración del paquete de DSP para los paquetes que utilizan el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;, el nombre del objetivo ahora se incluye en la lista [!UICONTROL Custom Goals]. Al seleccionar el objetivo como objetivo personalizado para un paquete, la lista [!UICONTROL Conversion Metric] incluye todas las métricas de objetivo del objetivo.
 
-## Prácticas recomendadas para crear una meta personalizada {#custom-goal-best-practices}
+## Prácticas recomendadas para crear un objetivo personalizado {#custom-goal-best-practices}
 
-### Objetivos personalizados con una sola métrica
+### Metas personalizadas con una sola métrica
 
 Los siguientes ejemplos muestran cómo se pueden configurar objetivos dirigidos a una única métrica de conversión.
 
-#### Ejemplo de una campaña con el objetivo de optimización [!UICONTROL Highest Return on Ad Spend (ROAS)]
+#### Ejemplo de una campaña con el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot;
 
 Si el objetivo de la campaña son los ingresos ([!UICONTROL Highest Return on Ad Spend (ROAS)]) y los ingresos de todos los tipos de dispositivos son igualmente importantes para usted, incluya la métrica &quot;[!UICONTROL Revenue]&quot; con una ponderación no móvil de uno (1); se omitirá la ponderación móvil. Seleccione el tipo de métrica *[!UICONTROL Goal]*.
 
@@ -88,7 +88,7 @@ Si el objetivo de la campaña son los ingresos ([!UICONTROL Highest Return on Ad
 >
 > Un peso no móvil de uno (1) equivale a un valor de uno (1) por cada $1 de ingresos que se rastrean para mostrar anuncios en cualquier dispositivo. Por ejemplo, una conversión de 250 $ con una ponderación no móvil de uno (1) se registra como 250 $ para las conversiones. Si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, la conversión de 250 $ se registra como 125 $ en Adobe Advertising (conversión de 250 $ * 0,5 [!UICONTROL Non-mobile Weight] = 125 $).
 
-#### Ejemplo de una campaña con el objetivo de optimización [!UICONTROL Lowest Cost per Acquisition (CPA)]
+#### Ejemplo de una campaña con el objetivo de optimización &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;
 
 Si el objetivo de la campaña es el menor coste por adquisición (CPA) y solo requiere un evento de éxito (como &quot;Envío de solicitud&quot;), incluya esa métrica y especifique el tipo de métrica como *[!UICONTROL Goal]*. La práctica recomendada es establecer el peso no móvil como uno (1); se ignora el peso móvil.
 
@@ -102,7 +102,7 @@ Si el objetivo de la campaña es el menor coste por adquisición (CPA) y solo re
 >
 > Una ponderación no móvil de uno (1) equivale a un valor de uno (1) para cada conversión de la que se realiza un seguimiento de los anuncios en pantalla de cualquier dispositivo. Por ejemplo, si se realiza el seguimiento de 10 conversiones de envío de aplicaciones, se informa de 10 conversiones de envío de aplicaciones. Sin embargo, si a la métrica de conversión se le asigna una ponderación no móvil de 0,5, las 10 conversiones se registran como cinco (5) en Adobe Advertising (10 conversiones * 0,5 [!UICONTROL Non-mobile Weight] = 5).
 
-### Objetivos personalizados con varias métricas
+### Metas personalizadas con varias métricas
 
 Hay dos escenarios en los que utilizaría varias métricas en un objetivo personalizado:
 
