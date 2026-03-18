@@ -102,4 +102,4 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >* [Configuración de ubicación](placement-settings.md)
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=es)
