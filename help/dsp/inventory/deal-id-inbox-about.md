@@ -3,7 +3,7 @@ title: Acerca de [!UICONTROL Deal ID Inbox]
 description: Obtenga información acerca de la característica [!UICONTROL Deal ID inbox], que le permite aceptar ofertas privadas que ya ha negociado con los editores el  [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (anteriormente conocido como  [!DNL AdX]), and [!DNL Magnite DV+] (anteriormente  [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 394a281c9b9d7eeab939f4c58508ec1f34eba67c
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -30,7 +30,7 @@ You can accept any available deal or move an incorrect deal to the Ignored Deals
 For each deal, you can select one publisher and one media type (Desktop Video, Mobile Video, Connected TV, Display, or Audio), and you can share the deal with specific advertisers and with all advertisers for a specific account.
  -->
 
-DSP actualiza automáticamente todos los detalles de la oferta todos los días a las 4:30 a. m. EST. También actualiza todas las [!DNL FreeWheel] ofertas y actualiza las ofertas existentes de [!DNL Google] y [!DNL Magnite DV+] por hora. También puede actualizar manualmente los detalles de la oferta para rellenar nuevas ofertas en cualquier momento.
+DSP actualiza automáticamente todos los detalles de la oferta todos los días a las 4:30 a.m. EST. También actualiza todas las [!DNL FreeWheel] ofertas y actualiza las ofertas existentes de [!DNL Google] y [!DNL Magnite DV+] por hora. También puede actualizar manualmente los detalles de la oferta para rellenar nuevas ofertas en cualquier momento.
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
 
@@ -38,7 +38,7 @@ DSP actualiza automáticamente todos los detalles de la oferta todos los días a
 >
 >Para obtener ofertas programáticas garantizadas a través de [!DNL Google Authorized Buyers], debe entregar al menos el 90% del presupuesto o su cuenta perderá el acceso a [!DNL Google] ofertas en [!UICONTROL Deal ID inbox].
 
-## Implementando [!UICONTROL Deal ID Inbox]
+## Implementando [!UICONTROL Deal ID inbox]
 
 Para recibir sus ofertas en [!UICONTROL Deal ID inbox], sus cuentas de SSP deben asignar la cuenta de DSP de su organización a su cuenta de SSP. DSP puede compartir los nombres de cuenta de la organización con los SSP relevantes. Póngase en contacto con el equipo de su cuenta de Adobe para obtener instrucciones.
 

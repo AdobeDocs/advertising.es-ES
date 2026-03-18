@@ -3,7 +3,7 @@ title: Acerca de la administración de paquetes en Advertising DSP
 description: Obtenga información acerca de la administración de paquetes.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Acerca de la administración de paquetes en Advertising DSP
 
-Utilice paquetes para agrupar las ubicaciones para la entrega a un presupuesto establecido, un objetivo de rendimiento y una estrategia de ritmo personalizada. DSP La optimización optimiza los paquetes al desplazar los presupuestos a las ubicaciones con mejor rendimiento del paquete. Puede organizar paquetes por formato de ubicación, tipo de inventario, proveedor de datos, persona u otras características distinguibles. Los paquetes son opcionales.
+Utilice paquetes para agrupar las ubicaciones para la entrega a un presupuesto establecido, un objetivo de rendimiento y una estrategia de ritmo personalizada. DSP optimiza los paquetes cambiando los presupuestos a las ubicaciones con mejor rendimiento del paquete. Puede organizar paquetes por formato de ubicación, tipo de inventario, proveedor de datos, persona u otras características distinguibles. Los paquetes son opcionales.
 
 Puede crear paquetes manualmente o duplicando los paquetes existentes. También puede editar y adjuntar ubicaciones a cualquier paquete.
 

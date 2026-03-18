@@ -1,16 +1,16 @@
 ---
-title: Preguntas frecuentes sobre Campaign Management
+title: Preguntas frecuentes sobre la administración de campañas
 description: Obtenga más información acerca de la administración de campañas, incluido el período de latencia de los cambios y lo que sucede cuando se realizan cambios de presupuesto durante un vuelo.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# Preguntas frecuentes sobre Campaign Management
+# Preguntas frecuentes sobre la administración de campañas
 
 <!-- Most of this information should be moved into the relevant topics (especially editing topics). -->
 
@@ -20,15 +20,15 @@ ht-degree: 0%
 
   Los cambios de configuración suelen surtir efecto inmediatamente, pero pueden tardar hasta 12 horas.
 
-  DSP Si es el último día de envío, realice cambios al principio del día para que tenga tiempo de sobra para volver a calibrar el paquete en función de los cambios. DSP Por ejemplo, si cambia del ritmo uniforme al ritmo de carga frontal, debe volver a evaluar la forma de distribuir el gasto a lo largo del resto del vuelo, ya que esto se realiza de forma más rápida y sencilla. No realice ese tipo de cambio si solo le queda una hora para entregar en el último día del vuelo.
+  Si es el último día de envío, realice cambios al principio del día para que DSP tenga tiempo de sobra para volver a calibrar el paquete en función de los cambios. Por ejemplo, si cambia del ritmo uniforme al ritmo de carga frontal, DSP debe volver a evaluar cómo distribuir el gasto durante el resto del vuelo. No realice ese tipo de cambio si solo le queda una hora para entregar en el último día del vuelo.
 
-## Actualizaciones de presupuesto en mitad del vuelo
+## Actualizaciones presupuestarias a mitad del vuelo
 
-* DSP Cuando realiza un cambio en una ubicación, ¿cuánto tiempo tarda el usuario en reasignar el presupuesto del paquete?
+* Cuando realiza un cambio en una ubicación, ¿cuánto tiempo tarda DSP en reasignar el presupuesto del paquete?
 
   La asignación del presupuesto se basa en el rendimiento de la ubicación, que se evalúa con un promedio de 14 días. Los cambios en una ubicación producen cambios en la asignación del presupuesto solo cuando provocan cambios en el rendimiento durante la media de 14 días.
 
-  DSP Cuando se producen cambios de rendimiento, reasigna el presupuesto del paquete entre las ubicaciones en consecuencia durante el siguiente ciclo de optimización del presupuesto, que se produce aproximadamente a medianoche (00:00) en el huso horario de la campaña.
+  Cuando se producen cambios de rendimiento, DSP reasigna el presupuesto del paquete entre las ubicaciones en consecuencia durante el siguiente ciclo de optimización del presupuesto, que se produce aproximadamente a medianoche (00:00) en el huso horario de la campaña.
 
 * ¿Cómo se reasigna el presupuesto cuando se elimina una ubicación de un paquete y se agrega a otro paquete?
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
   Al eliminar una ubicación de un paquete, el paquete ya no tiene historial de gasto de la ubicación. El presupuesto del paquete se convierte en (presupuesto del paquete: presupuesto de ubicación eliminado) / intervalo de tiempo que permanece en vuelo. A continuación, el presupuesto del paquete se asigna a las ubicaciones que quedan en el paquete.
 
-  DSP Del mismo modo, si agrega la misma ubicación a un paquete diferente, considera el historial de gasto de la ubicación cuando asigna el presupuesto para todas las ubicaciones en el nuevo paquete.
+  Del mismo modo, si agrega la misma ubicación a un paquete diferente, DSP tiene en cuenta el historial de gastos de la ubicación al asignar el presupuesto para todas las ubicaciones del nuevo paquete.
 
 * ¿Cómo cambia el ritmo del paquete en el último día de un vuelo?
 

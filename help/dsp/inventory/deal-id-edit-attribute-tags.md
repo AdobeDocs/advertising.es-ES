@@ -2,7 +2,7 @@
 title: Edición de las etiquetas de atributo para un ID de acuerdo
 description: Obtenga información sobre cómo crear y editar las etiquetas de atributo para un ID de acuerdo.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%

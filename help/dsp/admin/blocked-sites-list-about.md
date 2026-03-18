@@ -1,18 +1,18 @@
 ---
-title: Acerca de las listas de sitios bloqueados a nivel de cuenta y de anunciante
+title: Listas de sitios bloqueados a nivel de cuenta y de anunciante
 description: Obtenga más información sobre la lista de sitios bloqueados de una cuenta o un anunciante.
 role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# Acerca de las listas de sitios bloqueados a nivel de cuenta y de anunciante
+# Listas de sitios bloqueados a nivel de cuenta y de anunciante
 
-DSP Puede editar la lista de sitios bloqueados que se utiliza para toda la cuenta de la cuenta de la cuenta y las listas adicionales para anunciantes individuales de la cuenta.
+Puede editar la lista de sitios bloqueados que se utiliza para toda la cuenta de DSP y las listas adicionales de anunciantes individuales de la cuenta.
 
 Las listas de sitios bloqueados definen conjuntos de destinos que deben excluirse para sus ubicaciones. Cada lista puede constar de dominios de sitio web de nivel superior y cualquier nivel de subdominios (como example.com, my.example.com o my.new.example.com) y nombres de paquetes o ID de aplicaciones móviles (como com.example.app123).
 
@@ -20,7 +20,7 @@ Las listas de nivel de anunciante anulan las listas de nivel de cuenta.
 
 >[!NOTE]
 >
->* DSP Se aplican listas de sitios bloqueados a nivel de cuenta y de anunciante además de la lista de sitios bloqueados globalmente [que incluye sitios considerados no seguros para los anuncios.](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites)
+>* Las listas de sitios bloqueados a nivel de cuenta y de anunciante se aplican además de la [lista de sitios bloqueados globalmente](/help/dsp/introduction/features/brand-safety-media-quality.md#global-blocked-sites) de DSP, que incluye sitios considerados no seguros para los anuncios.
 >* Los usuarios también pueden agregar sitios segmentados a cualquier ubicación.
 >* Las listas de sitios bloqueados siempre anulan las listas de sitios de destino. Si una ubicación excluye e incluye el mismo destino para un anuncio, se excluye el destino.
 

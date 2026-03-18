@@ -3,7 +3,7 @@ title: Importar manualmente segmentos autenticados de  [!DNL LiveRamp]
 description: Obtenga información acerca de la activación de audiencias autenticadas mediante  [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *característica de Beta*
 
-DSP Puede enviar manualmente [!DNL LiveRamp] segmentos autenticados a mediante el panel [!DNL LiveRamp] [!DNL Connect] para que se puedan usar los segmentos de autenticación que se han autenticado con el panel . Puede utilizar segmentos importados para la segmentación de ubicación. Para segmentos de origen, las tarifas son de 0,15 USD por impresión de anuncio en pantalla entregada y 0,25 USD por impresión de anuncio de vídeo entregada.
+Puede enviar manualmente [!DNL LiveRamp] segmentos autenticados a DSP mediante el panel [!DNL LiveRamp] [!DNL Connect]. Puede utilizar segmentos importados para la segmentación de ubicación. Para segmentos de origen, las tarifas son de 0,15 USD por impresión de anuncio en pantalla entregada y 0,25 USD por impresión de anuncio de vídeo entregada.
 
 La asignación y carga de segmentos para cada trabajo de importación puede tardar hasta siete días.
 
@@ -44,5 +44,5 @@ La asignación y carga de segmentos para cada trabajo de importación puede tard
 >
 >* [Acerca de las fuentes de audiencia de origen](source-about.md)
 >* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)

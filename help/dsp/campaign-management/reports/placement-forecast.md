@@ -1,16 +1,16 @@
 ---
-title: Ver el informe Previsión de ubicación
+title: Ver el informe de previsión de ubicación
 description: Ver el número de impresiones, el gasto y la oferta máxima óptima prevista para una estrategia de segmentación determinada para una ubicación.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-# Ver el informe Previsión de ubicación
+# Ver el informe de previsión de ubicación
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
@@ -65,7 +65,7 @@ La previsión incluye la siguiente información:
 
      Una ubicación suele ser una colección de varias plantillas de publicidad, tal como se definen en las plataformas del lado del suministro. Por lo tanto, aunque la ubicación haya existido durante mucho tiempo, si la plantilla de anuncio subyacente es nueva, la herramienta de previsión no puede crear una previsión.
 
-## Abrir el informe Previsión de ubicación
+## Abrir el informe de previsión de ubicación
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -81,6 +81,6 @@ La previsión incluye la siguiente información:
 
 >[!MORELIKETHIS]
 >
->* [Tipos de informes de rendimiento en las vistas de Campaign Management](campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en las vistas de administración de campañas](campaign-reports-about.md)
 >* [Ver los informes de diagnóstico de ubicación](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

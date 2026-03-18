@@ -3,7 +3,7 @@ title: Pausar o activar una campaña
 description: Obtenga información sobre cómo pausar o activar una campaña en directo.
 feature: DSP Campaigns
 exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Todas las ubicaciones que se pausan antes de pausar una campaña permanecen en p
 >
 >Al pausar una campaña, se pausan todas las ubicaciones, incluidas las ubicaciones garantizadas mediante programación (PG). Póngase en contacto con los editores afectados si es necesario pausar las subastas entrantes.
 
-## Activación de una campaña
+## Activar una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Junto al nombre de la campaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Activate]**.

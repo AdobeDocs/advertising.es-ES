@@ -3,7 +3,7 @@ title: Editar una lista de sitios bloqueados a nivel de cuenta o de anunciante
 description: Obtenga información sobre cómo administrar la lista de sitios bloqueados para una cuenta o anunciante.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%

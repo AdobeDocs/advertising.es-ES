@@ -1,16 +1,16 @@
 ---
-title: Acerca de Campaign Management en Advertising DSP
+title: Acerca de la administración de campañas en Advertising DSP
 description: Obtenga información sobre la administración de campañas.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Acerca de Campaign Management en Advertising DSP
+# Acerca de la administración de campañas en Advertising DSP
 
 Las campañas son el marco general de la configuración de los vuelos. Todas las configuraciones del nivel de campaña se aplican automáticamente a cada paquete y ubicación dentro de la campaña. Cada campaña está asociada a un anunciante específico.
 
@@ -35,4 +35,4 @@ Para ver todos los paquetes, ubicaciones y anuncios de una campaña, haga clic e
 >
 >* [Crear una campaña](campaign-create.md)
 >* [Configuración de campaña](campaign-settings.md)
->* DSP [Vídeo: Estructura de cuenta e interfaz de usuario de la cuenta de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=es)
+>* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

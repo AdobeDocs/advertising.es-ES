@@ -3,9 +3,9 @@ title: Soluciones entre dispositivos
 description: Obtenga más información acerca de las funciones entre dispositivos.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Cuando utiliza un gráfico de dispositivos basado en personas compatible, puede:
 * Equilibrio y exposición al comprender y limitar la frecuencia entre individuos.
 * Estrategias de prueba que exponen o convierten audiencias en varios canales o dispositivos.
 
-## Ventajas del gráfico de dispositivo [!DNL LiveRamp]
+## Ventajas del gráfico del dispositivo [!DNL LiveRamp]
 
 * Proporciona un grupo de datos determinístico, incluidos los datos de clientes sin conexión
 
@@ -34,7 +34,7 @@ Cuando utiliza un gráfico de dispositivos basado en personas compatible, puede:
 
   La tarifa se refleja en su tarjeta de tarifa de la cuenta.
 
-## Administración de frecuencia basada en personas
+## Gestión de frecuencia basada en personas
 
 La gestión de frecuencias basada en personas permite especificar límites de frecuencia en el nivel de la persona, en lugar de en el nivel del dispositivo, para un verdadero control de la exposición a los medios.
 
@@ -46,9 +46,9 @@ Para obtener más información, consulte [Configuración de campaña](/help/dsp/
 
 Una vez guardada una campaña, no se puede cambiar su configuración de [!UICONTROL Cross Device Level].
 
-* **Paquetes:** Si lo desea, puede establecer límites de frecuencia adicionales en el nivel de paquete. DSP respeta el límite de frecuencia más estricto de la jerarquía de campañas.
+* **Paquetes:** Si lo desea, puede establecer límites de frecuencia adicionales en el nivel de paquete. DSP respeta el límite de frecuencia más estricto en la jerarquía de campañas.
 
-* **Ubicaciones:** Si lo desea, puede establecer límites de frecuencia adicionales en el nivel de ubicación. DSP respeta el límite de frecuencia más estricto de la jerarquía de campañas.
+* **Ubicaciones:** Si lo desea, puede establecer límites de frecuencia adicionales en el nivel de ubicación. DSP respeta el límite de frecuencia más estricto en la jerarquía de campañas.
 
 ## Segmentación basada en personas
 
@@ -76,17 +76,17 @@ Puede incluir las siguientes métricas en los informes personalizados:
 
 ## Medición de atribución basada en personas
 
-*Solo anunciantes con seguimiento de conversión de Adobe Advertising*
+*Anunciantes con solo seguimiento de conversión de Adobe Advertising*
 
-Con la atribución basada en personas, puede atribuir conversiones que se produjeron en un dispositivo diferente al dispositivo en el que se produjo la exposición a los medios. DSP La medición de atribución basada en personas está disponible en las versiones de [!DNL Adobe Advertising Creative] y [!DNL Adobe Advertising Search, Social, & Commerce] de los anunciantes que han implementado píxeles de conversión de Adobe Advertising en sus sitios.
+Con la atribución basada en personas, puede atribuir conversiones que se produjeron en un dispositivo diferente al dispositivo en el que se produjo la exposición a los medios. La medición de atribución basada en personas está disponible en DSP, [!DNL Adobe Advertising Creative] y [!DNL Adobe Advertising Search, Social, & Commerce] para los anunciantes que han implementado píxeles de conversión de Adobe Advertising en sus sitios.
 
 ### Habilitar la medición de atribución basada en personas
 
 Si desea activar la medición de atribución entre dispositivos, póngase en contacto con el equipo de cuenta de Adobe.
 
-### Configuración de informes de conversión para atribución de conversión entre dispositivos
+### Configurar [!UICONTROL Conversion] informes para atribución de conversión entre dispositivos
 
-#### Configuración del informe de conversión
+#### [!UICONTROL Conversion] configuración de informe
 
 Cuando un gráfico de dispositivo está habilitado para la medición de atribución, el informe [!UICONTROL Conversion] incluye una configuración de [!UICONTROL Cross-Device Breakout], lo que le permite incluir hasta tres columnas independientes para cada métrica de conversión, entre ellas:
 
@@ -96,7 +96,7 @@ Cuando un gráfico de dispositivo está habilitado para la medición de atribuci
 
 * &lt;*Conversión*>[!UICONTROL (xd)]: (opcional) incluye solo las conversiones para las que se ha hecho un seguimiento de más de un dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (xd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(xd)).
 
-#### Interpretación del informe de conversión
+#### Interpretación del informe [!UICONTROL Conversion]
 
 Ordene el porcentaje del total de conversiones entre dispositivos ([!UICONTROL (xd)]/[!UICONTROL (tl)]) de alto a bajo para comprender qué es lo que impulsa conversiones entre dispositivos por encima del promedio. Puede utilizarlo para informar su estrategia creativa o de segmentación de modo que la inversión en mensajería y canal coincida con el comportamiento del usuario.
 

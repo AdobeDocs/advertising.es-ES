@@ -1,16 +1,16 @@
 ---
-title: Visualización de los píxeles de seguimiento de un segmento
+title: Ver píxeles de seguimiento de un segmento
 description: Obtenga información sobre cómo ver los píxeles de seguimiento de un segmento de exclusión de venta personalizado o de CCPA.
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 8e3afe50db8f3d0795838c071a01f3c5688f701f
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
-# Visualización de los píxeles de seguimiento de un segmento
+# Ver píxeles de seguimiento de un segmento
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 

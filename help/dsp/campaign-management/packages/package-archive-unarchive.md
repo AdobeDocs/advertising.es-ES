@@ -3,7 +3,7 @@ title: Archivado o desarchivado de un paquete
 description: Obtenga información sobre cómo archivar o desarchivar un paquete.
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Oculte un paquete que no se esté utilizando para archivarlo. La única acción 
 
 Puede desarchivar un paquete para restaurar su estado anterior en cualquier momento.
 
-## Archivar un paquete
+## Archivado de un paquete
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña para abrir la vista [!UICONTROL Packages].
