@@ -1,16 +1,16 @@
 ---
-title: Configuración de anuncio de visualización
+title: Configuración de anuncios de visualización
 description: Consulte las descripciones de las configuraciones de anuncios disponibles para los anuncios en pantalla.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
-# Configuración de anuncio de visualización
+# Configuración de anuncios de visualización
 
 Los siguientes ajustes son para anuncios en pantalla estándar.
 

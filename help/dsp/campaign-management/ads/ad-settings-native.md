@@ -1,16 +1,16 @@
 ---
-title: Configuración nativa de anuncios en pantalla
+title: Configuración nativa del anuncio en pantalla
 description: Consulte las descripciones de la configuración de anuncios disponibles para los anuncios en pantalla nativos.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# Configuración nativa de anuncios en pantalla
+# Configuración nativa del anuncio en pantalla
 
 ## [!UICONTROL Ad Options]
 

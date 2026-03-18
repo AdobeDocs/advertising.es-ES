@@ -1,16 +1,16 @@
 ---
-title: Partners de servicio de publicidad certificados
+title: Socios de servicio de publicidad certificados
 description: Ver todos los servidores de publicidad certificados y unidades de publicidad.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 70224b9e9c248d45a5ce227d296f2604dd06c222
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# Partners de servicio de publicidad certificados
+# Socios de servicio de publicidad certificados
 
 | Servidor de publicidad | Audio | Mostrar | Pantalla de alto impacto | Vídeo | Requisitos especiales y notas |
 | --- | --- | --- | --- | --- | --- |

@@ -3,7 +3,7 @@ title: Proveedores de datos de terceros disponibles en Advertising DSP
 description: Consulte la lista de proveedores de datos de terceros disponibles.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Proveedores de datos de terceros disponibles en Advertising DSP
 
-DSP Las categorías de datos y los segmentos de los siguientes proveedores de datos de terceros están disponibles como objetivos de ubicación en la. Estos segmentos están disponibles principalmente para audiencias de EE. UU.
+Las categorías de datos y los segmentos de los siguientes proveedores de datos de terceros están disponibles como objetivos de ubicación en DSP. Estos segmentos están disponibles principalmente para audiencias de EE. UU.
 
 La tarifa por utilizar cada segmento se muestra junto al nombre del segmento en la configuración de colocación y en la configuración de audiencia guardada.
 

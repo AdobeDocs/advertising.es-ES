@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: f2d7428f70448421dd7b6d9c3d237783b800cd83
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -36,13 +36,13 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
 1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]**.
 
-1. Escriba un **[!UICONTROL Audience Name]** único.
+1. Escriba un(a) **[!UICONTROL Audience Name]** único.
 
-1. (Opcional) Deseleccione la opción a **[!UICONTROL Share with all advertisers in my account]**.
+1. (Opcional) Anule la selección de la opción **[!UICONTROL Share with all advertisers in my account]**.
 
-   Cuando se comparte una audiencia, la audiencia está disponible como destino o exclusión para todos los anunciantes de la cuenta. Sin embargo, los segmentos individuales de la audiencia sólo están disponibles para los usuarios a los que se comparten los segmentos.
+   Al compartir una audiencia, esta pasa a estar disponible como objetivo o exclusión para todos los anunciantes de la cuenta. Sin embargo, los segmentos individuales de la audiencia solo están disponibles para los usuarios con los que se comparten los segmentos.
 
-1. Pulse **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 1. Cree la audiencia:
 
@@ -76,13 +76,13 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
 * Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
 
-   * Puede introducir oraciones completas o sólo una cadena de características. La puntuación no es necesaria excepto cuando es necesario para la claridad.
+   * Puede introducir frases completas o solo una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
 
-   * En general, los mensajes no distinguen mayúsculas de minúsculas.
+   * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
 
    * El agente de audiencia reconoce los sinónimos más comunes.
 
-* Ser específico y proporcionar detalles sobre todas las características de audiencia que desea incluir y las características que desea excluir específicamente. Cuantos más detalles proporcione, mayores serán las posibilidades de obtener los resultados que satisfagan sus necesidades.
+* Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Cuantos más detalles proporcione, mayores serán las posibilidades de obtener los resultados que satisfagan sus necesidades.
 
 * Identifique ubicaciones, tipos de dispositivos y proveedores de datos para incluir o excluir.
 
@@ -120,15 +120,15 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 Cuando el agente de audiencia necesite una respuesta de su parte, puede responder utilizando palabras clave en la solicitud o utilizando sinónimos comunes.
 
-#### Agente de audiencia haciendo una pregunta
+#### El agente de audiencia le hace una pregunta
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
-Sus respuestas afirmativas: &quot;proceder&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar
+Su respuesta afirmativa: &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar
 
 También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
 
-#### Agente de audiencia que le pide que elija entre varias opciones
+#### El agente de audiencia le pide que elija entre varias opciones
 
 `Would you like to:`
 `1) Proceed with this expression,`
@@ -139,11 +139,11 @@ Su respuesta: `1`, `proceed`, `2`, `maximum reach`, etc.
 
 También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
 
-## Prácticas recomendadas para crear un resumen de audiencia {#audience-brief-best-practices}
+## Prácticas recomendadas para crear un informe de audiencia {#audience-brief-best-practices}
 
 Un informe de audiencia es una escritura estratégica que define el público objetivo de una campaña. Una información bien diseñada ayuda al agente de audiencia de DSP a identificar los segmentos más relevantes para montar la audiencia de destino.
 
-### Componentes esenciales de un resumen de audiencia eficaz
+### Componentes esenciales de una información de audiencia efectiva
 
 Incluya tantos tipos de atributos de audiencia como sea posible de la siguiente lista en su informe. Sea específico sobre los atributos que desea excluir.
 
@@ -178,17 +178,17 @@ Incluya tantos tipos de atributos de audiencia como sea posible de la siguiente 
 
 * **Señales de comportamiento**
 
-  Acciones observables que incluyen comportamiento de compra (frecuencia de compra, preferencias de canal, fidelidad a la marca), comportamiento en línea (visitas a sitios web, compromiso con contenido, actividad en medios sociales) y comportamiento fuera de línea (visitas a tiendas, asistencia a eventos, afiliación).
+  Acciones observables, incluido el comportamiento de compra (frecuencia de compra, preferencias de canal, lealtad de marca), comportamiento en línea (visitas al sitio web, participación en el contenido, actividad en los medios sociales) y comportamiento sin conexión (visitas al almacén, asistencia al evento, suscripciones).
 
-* **Intención En El Mercado**
+* **Intención en el mercado**
 
-  Identifica la disponibilidad de compra a través de categorías de productos/servicios que se están investigando, plazos de compra (inmediatos, a corto plazo, a largo plazo) y eventos de vida relevantes que desencadenan decisiones de compra.
+  Identifica la preparación para la compra a través de las categorías de producto/servicio que se investigan, el cronograma de compra (inmediato, a corto plazo, a largo plazo) y los eventos de vida relevantes que activan las decisiones de compra.
 
-* **Etapa de vida**
+* **Fase de vida**
 
   Comprensión de la fase actual, que incluye la etapa profesional (estudiante, nivel de ingreso, mitad de la carrera, ejecutivo, jubilado), etapa familiar (recién casados, nuevos padres, nidos vacíos) y transiciones importantes en la vida.
 
-### Ejemplo de un resumen de audiencia bien estructurado para una campaña de prospección
+### Ejemplo de un informe de audiencia bien estructurado para una campaña de prospección
 
 El siguiente es un ejemplo de un informe de audiencia sólido para una campaña de concienciación y prueba para un servicio de suscripción a un kit de comida premium:
 

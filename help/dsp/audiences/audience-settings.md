@@ -1,16 +1,16 @@
 ---
-title: Configuración de audiencia
+title: Configuración del público
 description: Consulte las descripciones de las configuraciones de audiencia disponibles.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Configuración de audiencia
+# Configuración del público
 
 ## Segmentos de terceros
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >(Anunciantes para los que DSP convierte ID de correo electrónico con hash en segmentos de RampID de LiveRamp) Los segmentos de RampID de origen que no están adjuntos a una ubicación activa, programada o en pausa ahora se pausan. El segmento se indica en la lista de segmentos como &quot;En pausa automática&quot;.
 
-## Segmentos Adobe
+## Segmentos de Adobe
 
 (Opcional) Cualquier segmento de [!DNL Adobe Real-Time CDP], Adobe Analytics o Adobe Audience Manager que se incluya en la configuración de audiencia.
 

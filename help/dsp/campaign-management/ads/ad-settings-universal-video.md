@@ -1,16 +1,16 @@
 ---
-title: Configuración de anuncio de vídeo universal
+title: Configuración de anuncios de vídeo universales
 description: Consulte las descripciones de los ajustes de publicidad disponibles para los anuncios de vídeo universales.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 863bf7a4d8304e42b7004742de59b9e1a09f81b7
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
-# Configuración de anuncio de vídeo universal
+# Configuración de anuncios de vídeo universales
 
 >[!NOTE]
 >

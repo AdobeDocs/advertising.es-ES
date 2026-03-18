@@ -3,7 +3,7 @@ title: Creación e implementación de un segmento personalizado
 description: Obtenga información sobre cómo crear e implementar un segmento personalizado para rastrear usuarios expuestos a anuncios o usuarios que visitan sus páginas web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Creación e implementación de un segmento personalizado
 
-DSP Puede recopilar sus propios datos de audiencia de origen creando e implementando un segmento de audiencia personalizado de. Puede utilizar el segmento para rastrear a) a los usuarios expuestos a anuncios desde dispositivos de escritorio y móviles y b) a los usuarios que visitan páginas web específicas. Más adelante, puede redireccionar a los usuarios del segmento con anuncios adicionales o evitar que los usuarios del segmento reciban anuncios adicionales.
+Puede recopilar sus propios datos de audiencia de origen creando e implementando un segmento de DSP personalizado. Puede utilizar el segmento para rastrear a) a los usuarios expuestos a anuncios desde dispositivos de escritorio y móviles y b) a los usuarios que visitan páginas web específicas. Más adelante, puede redireccionar a los usuarios del segmento con anuncios adicionales o evitar que los usuarios del segmento reciban anuncios adicionales.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
 *característica de Beta*
 
-* Antes de generar un segmento para rastrear usuarios asociados con ID5 ID, firme un acuerdo con [!DNL ID5] y obtenga el ID de socio de su organización. Póngase en contacto con el equipo de cuenta de Adobe para obtener instrucciones.
+* Antes de generar un segmento para rastrear usuarios asociados con ID5 ID, firme un acuerdo con [!DNL ID5] y obtenga el ID de socio de su organización. Póngase en contacto con el equipo de su cuenta de Adobe para obtener instrucciones.
 
 * Para realizar mediciones en Adobe Analytics, debe:
 
@@ -71,7 +71,7 @@ DSP Puede recopilar sus propios datos de audiencia de origen creando e implement
 
          * *[!UICONTROL ID5]:* La etiqueta de segmento rastrea [!DNL ID5] ID. No se incurre en cargos por impresiones entregadas a ID universales.
 
-        **[!UICONTROL Terms of Service]:** Los términos del contrato de servicio para usar identificadores universales. DSP Usted u otro usuario de la cuenta debe aceptar los términos una vez, a fin de poder usar identificadores universales para un nuevo tipo de ID. Para los clientes con contratos de servicio gestionado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
+        **[!UICONTROL Terms of Service]:** Los términos del contrato de servicio para usar identificadores universales. Usted u otro usuario de la cuenta de DSP deben aceptar los términos una vez, antes de poder usar un ID universal para un nuevo tipo de ID. Para los clientes con contratos de servicio administrado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
 
    1. Haga clic en **[!UICONTROL Save]**.
 
