@@ -3,9 +3,9 @@ title: Acerca de la Gestión de público en Advertising DSP
 description: Obtenga información sobre las funciones de gestión de público.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ En DSP, puede crear y administrar segmentos de audiencia y conjuntos de audienci
 
    * [Segmentos de exclusión de venta de CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) para rastrear los ID de usuario de las solicitudes de exclusión de venta de consumidores en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA). Puede recuperar informes mensuales de los ID de usuario de las solicitudes de exclusión de venta.
 
-     Para obtener más información sobre la compatibilidad de Adobe Advertising con las solicitudes de exclusión de la venta de la CCPA, consulte [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     Para obtener más información sobre la compatibilidad de Adobe Advertising con las solicitudes de exclusión de la venta de la CCPA, consulte [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: Compatibilidad con la exclusión del consumidor de la venta](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * (Funcionalidad de Beta) [Obtener y usar identificadores universales para direccionamiento sin cookies](/help/dsp/audiences/universal-ids.md):
 
@@ -84,7 +84,7 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
   >[!NOTE]
   >
-  >Consulte la documentación de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es) y [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=es) para obtener información sobre cómo configurar y recopilar datos para segmentos en esas soluciones.
+  >Consulte la documentación de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) y [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) para obtener información sobre cómo configurar y recopilar datos para segmentos en esas soluciones.
 
 ## Datos de tamaño de audiencia
 

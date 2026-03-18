@@ -3,7 +3,7 @@ title: Directiva de requisitos de ID universal de Adobe Advertising
 description: Consulte la directiva para el uso de ID universales.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 35dd8b8302afb01f8e6bb6c8da2a3c167abd397f
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Última actualización: 29 de febrero de 2024
 
-Esta Directiva de requisitos de ID universal (&quot;Directiva&quot;) establece los requisitos para el uso de los ID universales en relación con los anuncios distribuidos a través de [!DNL Adobe's] Servicios bajo demanda para Adobe Advertising (&quot;Servicios&quot;). Esta Política se incorpora por referencia al Contrato entre [!DNL Adobe] y el Cliente (&quot;usted&quot;) mediante los Servicios a solicitud. Los términos en mayúsculas utilizados en esta Política, pero no definidos aquí, tendrán el significado establecido en ese Acuerdo.
+Esta Política de requisitos de ID universal (&quot;Política&quot;) establece los requisitos para el uso de los ID universales en relación con los anuncios distribuidos a través de [!DNL Adobe's] On-demand Services for Adobe Advertising (&quot;Servicios&quot;). Esta Política se incorpora por referencia al Contrato entre [!DNL Adobe] y el Cliente (&quot;usted&quot;) mediante los Servicios a solicitud. Los términos en mayúsculas utilizados en esta Política, pero no definidos aquí, tendrán el significado establecido en ese Acuerdo.
 
 [!DNL Adobe] se reserva el derecho de determinar, a su exclusivo criterio, si un anuncio o los sitios web a los que el anuncio redirige o vincula, infringen los requisitos de esta Política, en cuyo caso [!DNL Adobe] puede rechazar dicho anuncio y/o cancelar o suspender el acceso a los Servicios sobre esa base.
 
@@ -38,7 +38,7 @@ Al elegir usar los ID universales disponibles a través de los Servicios, el Cli
 
 ### Países prohibidos por UID2
 
-Al elegir usar los ID universales UID2 a través de los Servicios, usted acepta asegurarse de que todos los Datos del cliente transmitidos, almacenados, mostrados, distribuidos o de otro modo puestos a disposición por usted a través de los Servicios a solicitud para dicho uso en relación con los ID universales UID2 no se relacionan con ninguna persona que sea residente de cualquiera de los [Países prohibidos UID2 enumerados en la Prueba A](#prohibited-countries-uid2) del presente documento.
+Al elegir usar los ID universales de UID2 a través de los Servicios, usted acepta asegurarse de que todos los Datos del cliente transmitidos, almacenados, mostrados, distribuidos o de otro modo puestos a disposición por usted a través de los Servicios bajo demanda para dicho uso en relación con los ID universales de UID2 no se relacionan con ninguna persona que sea residente de cualquiera de los [Países prohibidos de UID2 enumerados en la Prueba A](#prohibited-countries-uid2) del presente documento.
 
 ## Sin discriminación
 
@@ -46,7 +46,7 @@ Usted no puede utilizar los Servicios para participar en la discriminación en v
 
 ## Prueba A: Países prohibidos por UID2 {#prohibited-countries-uid2}
 
-### Países de UE
+### Países de la UE
 
 * Austria
 * Bélgica

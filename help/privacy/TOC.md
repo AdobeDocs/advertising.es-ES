@@ -4,10 +4,10 @@ user-guide-title: Compatibilidad de Adobe Advertising con la privacidad del cons
 user-guide-description: Obtenga información acerca los controles de seguridad y privacidad que proporciona Adobe Advertising para ayudar a los clientes anunciantes a cumplir con las leyes de privacidad del consumidor.
 breadcrumb-title: Compatibilidad con la privacidad del consumidor
 index: true
-source-git-commit: 56f24a247ae129ab7050a10e91a79a4f1bbcdd01
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 56%
+ht-degree: 31%
 
 ---
 

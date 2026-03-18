@@ -3,7 +3,7 @@ title: Política de requisitos de anuncios de Adobe Advertising
 description: Consulte la directiva para conocer los requisitos de los anuncios.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '2190'
 ht-degree: 0%
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 *Última actualización de la directiva: 17 de julio de 2024<!-- (except for formatting changes unrelated to content)-->*
 
-*Para búsqueda de Adobe Advertising DSP y Adobe Advertising, Social y Commerce*
+*Para Adobe Advertising DSP y Adobe Advertising Search, Social y Commerce*
 
-Esta Política de requisitos de anuncios (&quot;Política&quot;) establece los requisitos para los anuncios distribuidos a través de [!DNL Adobe’s] Servicios a petición para Adobe Advertising (&quot;Servicios&quot;). Esta Política se incorpora por referencia al Contrato entre [!DNL Adobe] y el Cliente (&quot;usted&quot;) mediante los Servicios a solicitud. Los términos en mayúsculas utilizados en esta Política, pero no definidos aquí, tendrán el significado establecido en ese Acuerdo.
+Esta Política de requisitos de anuncios (&quot;Política&quot;) establece los requisitos para los anuncios distribuidos a través de [!DNL Adobe’s] Servicios bajo demanda para Adobe Advertising (&quot;Servicios&quot;). Esta Política se incorpora por referencia al Contrato entre [!DNL Adobe] y el Cliente (&quot;usted&quot;) mediante los Servicios a solicitud. Los términos en mayúsculas utilizados en esta Política, pero no definidos aquí, tendrán el significado establecido en ese Acuerdo.
 
 [!DNL Adobe] se reserva el derecho de determinar, a su exclusivo criterio, si un anuncio o los sitios web a los que el anuncio redireccione o vincule infringen los requisitos de esta Política, en cuyo caso [!DNL Adobe] puede rechazar dicho anuncio o cancelar o suspender el acceso a los Servicios sobre esa base.
 
 Además de los requisitos establecidos a continuación y en el Acuerdo, debe cumplir con los requisitos impuestos por cada fuente de medios en la que coloque sus anuncios, así como los impuestos por cualquier plataforma de suministro (SSP) u otra plataforma utilizada para entregar cualquiera de sus anuncios. Es su responsabilidad comprender y cumplir con las políticas de los editores y las plataformas a través de las cuales entrega anuncios.
 
-## Requisitos del contenido del anuncio
+## Requisitos de contenido de anuncio
 
-### Requisitos creativos
+### Requisitos de Creative
 
-Todos los anuncios que usted transmita, almacene, muestre, distribuya o ponga a su disposición a través de los Servicios a solicitud deben ser consistentes con las especificaciones de publicidad contenidas en las Especificaciones de anuncios de Adobe Advertising, que pueden ser revisadas por [!DNL Adobe] de vez en cuando.
+Todos los anuncios que usted transmita, almacene, muestre, distribuya o ponga a su disposición a través de los Servicios a petición deben ser consistentes con las especificaciones de publicidad contenidas en las Especificaciones de Adobe Advertising Ad, que pueden ser revisadas por [!DNL Adobe] de vez en cuando.
 
 ### Anuncios prohibidos
 
@@ -62,7 +62,7 @@ Debe asegurarse de que sus anuncios y los sitios web a los que se redirige o vin
 
 * **Venta de partes del cuerpo**. Los anuncios pueden no promover la venta de partes del cuerpo o líquidos corporales.
 
-* **Anuncios distractores**. Los anuncios no pueden contener contenido o funciones que distraan, no deseados o incómodos, incluidas funciones de reproducción automática (como anuncios que reproducen automáticamente audio o vídeo), contenido que parpadea, sacude, pulsa o parpadea, o contiene objetos, texto o imágenes excesivamente animados, objetos compartidos localmente (incluidas las cookies flash y el almacenamiento local de HTML5) y anuncios que interrumpen la experiencia del usuario (como superponer sobre otro contenido).
+* **Anuncios distractores**. Los anuncios no pueden contener contenido o funciones que distraan, no deseados o incómodos, incluidas funciones de reproducción automática (como anuncios que reproducen automáticamente audio o vídeo), contenido que parpadea, sacude, pulsa, parpadea o contiene objetos, texto o imágenes excesivamente animados, objetos compartidos localmente (incluidas las cookies flash y el almacenamiento local de HTML5) y anuncios que interrumpen la experiencia del usuario (por ejemplo, superponiendo sobre otro contenido).
 
 * **Contenido político**. El contenido político incluye comunicaciones que: (1) son pagadas por cualquier candidato para un cargo (federal, estatal, local o internacional) o la campaña de un candidato; (2) son pagadas por cualquier entidad que esté registrada o que informe bajo la ley de financiamiento de campañas de cualquier jurisdicción (federal, estatal, local o internacional); (3) abogan expresamente a favor o en contra de cualquier candidato claramente identificado (federal, estatal, local o internacional), o (4) están reguladas de otra manera bajo la ley de financiamiento de campañas de cualquier jurisdicción. Esta prohibición incluye, pero no se limita a, emitir anuncios de defensa que están directa o indirectamente relacionados con cualquier elección, campaña política, candidato a un cargo público, votación, iniciativa de votación, legislación o referéndum.
 
@@ -135,4 +135,4 @@ Usted no puede utilizar los Servicios para participar en la discriminación en v
 
 >[!MORELIKETHIS]
 >
->* [Directrices de segmentos de estado aceptables](/help/policies/health-segment-guidelines.md)
+>* [Directrices aceptables para segmentos de estado](/help/policies/health-segment-guidelines.md)

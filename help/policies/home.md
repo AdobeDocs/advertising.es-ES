@@ -4,10 +4,11 @@ description: Obtenga información acerca de las políticas y directrices para Ad
 index: true
 cloud: Experience Cloud
 product: advertising cloud
-source-git-commit: 3d495d07a1f030d7c0c3a9752f405cbd73b26b3e
+exl-id: b7321fb8-49b9-4232-a70f-4646014fff61
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 21%
+ht-degree: 0%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 21%
 
 Obtenga información acerca de las políticas y directrices para Advertising DSP y la búsqueda en Advertising:
 
-+ [Política de requisitos de anuncios](/help/policies/ad-requirements-policy.md)
++ [Directiva de requisitos de anuncios](/help/policies/ad-requirements-policy.md)
 + [Directiva de requisitos de ID universal](/help/policies/universal-id-policy.md)
-+ [Directrices de segmentos de estado aceptables](/help/policies/health-segment-guidelines.md)
++ [Directrices aceptables para segmentos de estado](/help/policies/health-segment-guidelines.md)
 + [[!DNL DSP] directrices de uso de datos](/help/policies/data-usage-guidelines.md)

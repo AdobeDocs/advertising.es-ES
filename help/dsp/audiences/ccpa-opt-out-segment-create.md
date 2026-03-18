@@ -3,9 +3,9 @@ title: Creación e implementación de un segmento de exclusión de la venta de C
 description: Obtenga información sobre cómo crear e implementar un segmento para rastrear los ID de usuario de solicitudes de exclusión de venta de consumidores.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Puede crear un segmento para rastrear los ID de usuario de las solicitudes de exclusión de venta de consumidores en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA). Los usuarios permanecen indefinidamente en los segmentos de exclusión de la venta de la CCPA.
 
-Una vez implementada la etiqueta de píxel de segmento, el Adobe Advertising empieza a recopilar un grupo de ID en nombre del anunciante.
+Una vez implementada la etiqueta de píxel de segmento, Adobe Advertising empieza a recopilar un grupo de ID en nombre del anunciante.
 
 >[!NOTE]
 >
->* Para obtener información sobre cómo comunicar las solicitudes de exclusión de la venta de CCPA al Adobe Advertising mediante la API de Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=es](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=es).
+>* Para obtener información sobre cómo comunicar las solicitudes de exclusión de la venta de CCPA a Adobe Advertising mediante la API de Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Para rastrear a usuarios que visitan páginas web con fines no relacionados con el seguimiento de eventos de exclusión de la venta de la CCPA, así como a usuarios expuestos a anuncios de dispositivos de escritorio, móviles y de CTV, cree un [segmento personalizado](/help/dsp/audiences/custom-segment-create.md).
 
 1. Cree el segmento:
@@ -47,20 +47,20 @@ Una vez implementada la etiqueta de píxel de segmento, el Adobe Advertising emp
 
       Es posible que el departamento de TI del anunciante u otro grupo tengan que programar la implementación de etiquetas o recibir información al respecto.
 
-      Una vez implementado el píxel, el Adobe Advertising empieza a recopilar un grupo de ID en nombre del anunciante.
+      Una vez implementado el píxel, Adobe Advertising empieza a recopilar un conjunto de ID en nombre del anunciante.
 
       Aunque la lógica y la elección de la implementación dependen del anunciante, este es un ejemplo de cómo un anunciante podría activar el píxel:
 
       1. Un consumidor llega a la página principal del anunciante.
       1. El consumidor encuentra y hace clic en el botón &quot;Exclusión de la venta de la CCPA&quot; del anunciante.
       1. Al consumidor se le presenta una lista de proveedores de servicios con los que trabaja el anunciante.
-      1. El consumidor marca la casilla para excluirse de la venta de datos al Adobe Advertising.
+      1. El consumidor marca la casilla para excluirse de la venta de datos a Adobe Advertising.
 
          Esta acción déclencheur el píxel para que se active y recopile el ID de cookie del consumidor dentro del segmento &quot;[!UICONTROL CCPA Opt-out of sale]&quot; especificado.
 
 >[!MORELIKETHIS]
 >
->* [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: compatibilidad con la exclusión del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: compatibilidad con la exclusión de la venta del consumidor](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Acerca de [!UICONTROL CCPA Opt-out-of-Sale] segmentos e informes](ccpa-opt-out-about.md)
 >* [Recuperar informes de exclusión de venta de consumidores](ccpa-opt-out-segment-report-retrieve.md)
 >* [Crear e implementar un segmento personalizado](custom-segment-create.md)

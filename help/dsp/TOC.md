@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: e7b320180b707e38c6e4c035dd8c7bfe388b3bdc
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 3%
@@ -17,15 +17,15 @@ ht-degree: 3%
 + [Novedades de la versión](/help/dsp/home.md)
 + [Iniciar sesión en Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
 + Introducción {#introduction}
-   + [Introducción al Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
-   + Funciones principales {#features}
+   + [Introducción a Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
+   + Características principales {#features}
       + [Optimización](/help/dsp/introduction/features/optimization.md)
       + [Seguridad de marca y calidad de medios](/help/dsp/introduction/features/brand-safety-media-quality.md)
       + [Soluciones entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financiación de cuenta](/help/dsp/introduction/billing/account-funding.md)
    + [Monedas admitidas](/help/dsp/currency.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Soluciones de medición avanzada](/help/dsp/introduction/advanced-measurement-services.md)
 + [Busque documentación del producto mediante el chat asistido por IA](/help/dsp/agent-chat.md)
 + Administración de campañas {#campaign-management}
@@ -48,17 +48,17 @@ ht-degree: 3%
       + [Revisión y edición de la configuración del paquete mediante hojas de edición masiva](/help/dsp/campaign-management/packages/package-qa.md)
       + [Edición de un paquete](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicación de un paquete](/help/dsp/campaign-management/packages/package-duplicate.md)
-      + [Asociar una ubicación a un paquete](/help/dsp/campaign-management/packages/package-attach-placement.md)
+      + [Adjuntar una ubicación a un paquete](/help/dsp/campaign-management/packages/package-attach-placement.md)
       + [Pausar o activar un paquete](/help/dsp/campaign-management/packages/package-pause-activate.md)
-      + [Archivar o desarchivar un paquete](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
-      + [Ver el registro de cambios de un paquete](/help/dsp/campaign-management/packages/package-change-log.md)
-      + [Preferencias del paquete](/help/dsp/campaign-management/packages/package-settings.md)
-   + Colocaciones {#placements}
+      + [Archivado o desarchivado de un paquete](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
+      + [Visualización del registro de cambios de un paquete](/help/dsp/campaign-management/packages/package-change-log.md)
+      + [Configuración de paquetes](/help/dsp/campaign-management/packages/package-settings.md)
+   + Ubicaciones {#placements}
       + [Acerca de la administración de ubicación](/help/dsp/campaign-management/placements/placement-about.md)
       + [Crear una ubicación](/help/dsp/campaign-management/placements/placement-create.md)
       + [Revisión y edición de la configuración de ubicación mediante hojas de edición masiva](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Duplicar posiciones](/help/dsp/campaign-management/placements/placement-duplicate.md)
+      + [Ubicaciones duplicadas](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Administrar multiplicadores de oferta para ubicaciones](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Adjuntar y quitar anuncios de ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [Adjuntar y eliminar píxeles de anuncios](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
@@ -77,8 +77,8 @@ ht-degree: 3%
       + [Revisar Detalles De Anuncios Con Hojas De Cálculo](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicar un anuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Adjuntar y quitar anuncios de ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=es)
-      + [Mostrar las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
+      + [Adjuntar y eliminar anuncios de ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausar o activar un anuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [Archivar o desarchivar una publicidad](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
@@ -117,8 +117,8 @@ ht-degree: 3%
    + [Compatibilidad con la activación de ID universales](/help/dsp/audiences/universal-ids.md)
    + Audiencias reutilizables {#reusable-audiences}
       + [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md)
-      + [Crear una audiencia reutilizable mediante IA generativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
-      + [Duplicar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-duplicate.md)
+      + [Creación de una audiencia reutilizable mediante IA generativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
+      + [Duplicación de una audiencia reutilizable](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-edit.md)
       + [Ver detalles sobre una audiencia reutilizable](/help/dsp/audiences/reusable-audience-view-details.md)
       + [Compartir una audiencia reutilizable](/help/dsp/audiences/reusable-audience-share.md)
@@ -138,10 +138,10 @@ ht-degree: 3%
       + [Visualización de los píxeles de seguimiento de un segmento](/help/dsp/audiences/segment-view-pixels.md)
       + [Eliminar un segmento](/help/dsp/audiences/segment-delete.md)
    + Fuentes {#sources}
-      + [Acerca de las fuentes de audiencia de fuentes primarias](/help/dsp/audiences/sources/source-about.md)
-      + Flujos de trabajo, por Customer Data Platform {#sources-workflows}
-         + [Convertir ID de usuario de  [!DNL Adobe Real-Time CDP]  a ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-         + [Convertir ID de usuario de  [!DNL Amperity]  a ID universales](/help/dsp/audiences/sources/source-amperity.md)
+      + [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
+      + Flujos de trabajo por Customer Data Platform {#sources-workflows}
+         + [Convertir los identificadores de usuario de  [!DNL Adobe Real-Time CDP]  a identificadores universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [Convertir los identificadores de usuario de  [!DNL Amperity]  a identificadores universales](/help/dsp/audiences/sources/source-amperity.md)
          + [Convertir los identificadores de usuario de  [!DNL Optimizely]  a identificadores universales](/help/dsp/audiences/sources/source-optimizely.md)
          + [Convertir los identificadores de usuario de  [!DNL Tealium]  a identificadores universales](/help/dsp/audiences/sources/source-tealium.md)
       + [Administrar fuentes de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-manage.md)
@@ -159,7 +159,7 @@ ht-degree: 3%
          + [[!DNL On Demand] editores de inventario premium en Europa, Oriente Medio y África](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [[!DNL On Demand] editores de inventario premium en América del Norte](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
       + [Suscribirse y solicitar acceso a  [!DNL On Demand] ofertas de inventario premium](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [Solicitar de nuevo  [!DNL On Demand] Ofertas de inventario premium](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [Volver a solicitar  [!DNL On Demand] ofertas de inventario premium](/help/dsp/inventory/on-demand-inventory-rerequest.md)
       + [Ver el estado de tus  [!DNL On Demand] solicitudes y suscripciones de acuerdo](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + Inventario privado {#private-inventory}
       + [Acerca del inventario privado](/help/dsp/inventory/private-inventory-about.md)
@@ -170,8 +170,8 @@ ht-degree: 3%
          + ID de acuerdo introducidos manualmente {#manual}
             + [Crear manualmente detalles de [!UICONTROL Deal ID]](/help/dsp/inventory/deal-id-create.md)
             + [Configuración manual de [!UICONTROL Deal ID]](/help/dsp/inventory/deal-id-settings.md)
-         + Ofertas garantizadas programáticas {#programmatic-guaranteed-deal}
-            + [Visión General de Ofertas Garantizadas Programáticas](/help/dsp/inventory/programmatic-guaranteed-about.md)
+         + Ofertas programáticas garantizadas {#programmatic-guaranteed-deal}
+            + [Descripción general de las ofertas garantizadas mediante programación](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [Sugerencias para negociar un acuerdo garantizado programático](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Configurar una oferta garantizada programática](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] ofertas garantizadas mediante programación {#freewheel}
@@ -180,7 +180,7 @@ ht-degree: 3%
                + [Comprobar el estado de los anuncios para  [!DNL FreeWheel] Ofertas programáticas garantizadas](/help/dsp/inventory/freewheel-check-status.md)
                + [Códigos de error para los envíos de anuncios FreeWheel](/help/dsp/inventory/freewheel-error-codes.md)
       + [Editar configuración de acuerdo privado](/help/dsp/inventory/deal-id-edit.md)
-      + [Especificar ubicaciones y anuncios para un acuerdo privado](/help/dsp/inventory/deal-id-attach-placements.md)
+      + [Especificar ubicaciones y anuncios para una oferta privada](/help/dsp/inventory/deal-id-attach-placements.md)
       + [Editar las cuentas con acceso a un acuerdo privado](/help/dsp/inventory/deal-id-share.md)
       + [Editar los anunciantes con acceso a un acuerdo privado](/help/dsp/inventory/deal-id-edit-advertisers.md)
       + [Ver perspectivas de subasta para un acuerdo privado](/help/dsp/inventory/private-deal-auction-insights.md)
@@ -201,17 +201,17 @@ ht-degree: 3%
    + [Eliminar un informe personalizado](/help/dsp/reports/report-delete.md)
    + [Ejecutar un informe personalizado](/help/dsp/reports/report-run-now.md)
    + [Descargar un informe personalizado](/help/dsp/reports/report-download.md)
-   + [Configuración de informes personalizados](/help/dsp/reports/report-settings.md)
+   + [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
    + [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
    + [Preguntas frecuentes sobre informes de hogares](/help/dsp/reports/faq-reports.md)
    + Destinos del informe {#report-destinations}
       + [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-      + [Crear un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
-      + [Editar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-      + [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [Crear un(a) [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [Editar un(a) [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [Eliminar un(a) [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [Configuración de [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + Planificador {#planner}
-   + [Acerca de la herramienta Planificador DSP](/help/dsp/planner/planner-about.md)
+   + [Acerca de la herramienta DSP Planner](/help/dsp/planner/planner-about.md)
    + [Crear un plan de alcance de TV conectado](/help/dsp/planner/planner-create.md)
    + [Duplicar un plan de alcance de TV conectado](/help/dsp/planner/planner-duplicate.md)
    + [Editar un plan de alcance de TV conectado](/help/dsp/planner/planner-edit.md)
@@ -220,8 +220,8 @@ ht-degree: 3%
    + [Regeneración de la Previsión para un Plan de Alcance de TV Conectado](/help/dsp/planner/planner-forecast.md)
    + [Archivar un plan de alcance de TV conectado](/help/dsp/planner/planner-archive.md)
 + Recursos {#resources}
-   + [Administrar listas de direcciones URL](/help/dsp/resources/lists-url-manage.md)
-+ Administración {#admin}
+   + [Administrar listas de URL](/help/dsp/resources/lists-url-manage.md)
++ Administration {#admin}
    + [Editar su perfil](/help/dsp/admin/user-own-profile-edit.md)
    + Usuarios {#users}
       + [Invitar a un nuevo usuario](/help/dsp/admin/user-invite.md)
@@ -231,11 +231,11 @@ ht-degree: 3%
       + [Acerca de las listas de sitios bloqueados a nivel de cuenta y de anunciante](/help/dsp/admin/blocked-sites-list-about.md)
       + [Editar una lista de sitios bloqueados a nivel de cuenta o de anunciante](/help/dsp/admin/blocked-sites-list-edit.md)
    + Notificaciones {#notifications}
-      + [Acerca de las suscripciones de alertas](/help/dsp/admin/alerts-about.md)
-      + [Administrar suscripciones de alertas](/help/dsp/admin/alerts-manage.md)
-+ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es)
+      + [Acerca de las suscripciones de alerta](/help/dsp/admin/alerts-about.md)
+      + [Administrar suscripciones de alerta](/help/dsp/admin/alerts-manage.md)
++ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Obtener ayuda](/help/dsp/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
++ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
