@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Soluciones entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financiación de cuenta](/help/dsp/introduction/billing/account-funding.md)
    + [Monedas admitidas](/help/dsp/currency.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
+   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
    + [Soluciones de medición avanzadas](/help/dsp/introduction/advanced-measurement-services.md)
 + [Busque documentación del producto mediante el chat asistido por IA](/help/dsp/agent-chat.md)
 + Administración de campañas {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [Revisar y editar los detalles de la publicidad mediante hojas de edición masiva](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicación de un anuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Adjuntar y quitar anuncios de las ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [Adjuntar y quitar anuncios de las ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=es)
       + [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausar o activar un anuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -233,9 +233,9 @@ ht-degree: 3%
    + Notificaciones {#notifications}
       + [Acerca de las suscripciones a alertas](/help/dsp/admin/alerts-about.md)
       + [Administrar suscripciones de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
++ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es)
 + [Obtener ayuda](/help/dsp/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
