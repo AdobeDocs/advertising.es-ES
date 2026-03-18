@@ -1,16 +1,16 @@
 ---
-title: Acerca de la Gestión de público en Advertising DSP
+title: Acerca de la gestión de público en Advertising DSP
 description: Obtenga información sobre las funciones de gestión de público.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
 
 ---
 
-# Acerca de la Gestión de público en Advertising DSP
+# Acerca de la gestión de público en Advertising DSP
 
 En DSP, puede crear y administrar segmentos de audiencia y conjuntos de audiencias, que puede utilizar como destinatarios para sus ubicaciones:
 
@@ -36,7 +36,7 @@ En DSP, puede crear y administrar segmentos de audiencia y conjuntos de audienci
 
 También hay disponibles tipos de audiencia adicionales para la segmentación de ubicación.
 
-## Importación de segmentos de datos de origen y de terceros
+## Importar segmentos de datos de origen y de terceros
 
 Tiene muchas opciones para importar segmentos de datos de origen y de terceros en DSP mediante la interfaz de usuario de DSP o servicios de importación personalizados.
 
@@ -84,7 +84,7 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
   >[!NOTE]
   >
-  >Consulte la documentación de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es) y [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=es) para obtener información sobre cómo configurar y recopilar datos para segmentos en esas soluciones.
+  >Consulte la documentación de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) y [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) para obtener información sobre cómo configurar y recopilar datos para segmentos en esas soluciones.
 
 ## Datos de tamaño de audiencia
 
