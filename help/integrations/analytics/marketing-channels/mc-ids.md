@@ -1,26 +1,26 @@
 ---
-title: Usar los identificadores de Adobe Advertising para crear  [!DNL Marketing Channels] reglas
-description: Obtenga información sobre cómo usar los identificadores de Adobe Advertising para crear reglas de procesamiento para  [!DNL Analytics Marketing Channels].
+title: Usar Adobe Advertising ID para crear  [!DNL Marketing Channels] reglas
+description: Aprenda a utilizar los Adobe Advertising ID para crear reglas de procesamiento para  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: 96a0add168c7fb7a6d80cf1b81ef4b315fbba89f
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
-# Usar los identificadores de Adobe Advertising para crear [!DNL Marketing Channels] reglas de procesamiento
+# Usar los Adobe Advertising ID para crear [!DNL Marketing Channels] reglas de procesamiento
 
-*Solo anunciantes con una integración de Adobe Analytics de Adobe Advertising*
+*Solo anunciantes con una integración Adobe Advertising-Adobe Analytics*
 
-Puede usar los identificadores de Adobe Advertising ([AMO ID y EF ID](../ids.md)) para configurar [!DNL Marketing Channels] reglas de procesamiento en Adobe Analytics. Utilice ID de Adobe Advertising para reglas específicas de sus campañas de Adobe Advertising.
+Puede usar los Adobe Advertising ID ([AMO ID y EF ID](../ids.md)) para configurar [!DNL Marketing Channels] reglas de procesamiento en Adobe Analytics. Utilice los Adobe Advertising ID para reglas específicas de sus campañas de Adobe Advertising.
 
 ## El ID de AMO en las reglas de procesamiento
 
-El identificador de AMO es el código de seguimiento principal que se usa para informar sobre los datos de Adobe Advertising en [!DNL Analytics]. El ID de AMO es una concatenación de valores dinámicos administrados por el Adobe para proporcionar informes granulares en [!DNL Analytics]. Se almacena en una dimensión [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=es) o rVar (ID de AMO). El identificador de AMO se puede establecer en [!DNL Analytics] de dos maneras:
+El identificador de AMO es el código de seguimiento principal que se usa para informar los datos de Adobe Advertising en [!DNL Analytics]. El ID de AMO es una concatenación de valores dinámicos administrados por Adobe para proporcionar informes granulares en [!DNL Analytics]. Se almacena en una dimensión [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o rVar (ID de AMO). El identificador de AMO se puede establecer en [!DNL Analytics] de dos maneras:
 
-* Seguimiento de clics: el Adobe Advertising establece el parámetro de cadena de consulta `s_kwcid` en un vínculo y [!DNL Analytics] recoge el parámetro de la dirección URL de la página de aterrizaje cuando se produce una pulsación.
+* Seguimiento de clics: Adobe Advertising establece el parámetro de cadena de consulta `s_kwcid` en un vínculo y [!DNL Analytics] lo recoge de la dirección URL de la página de aterrizaje cuando se produce una pulsación.
 * Seguimiento de visualización ([!DNL DSP] solamente): El servicio Último evento detecta una visualización en el servidor y envía el identificador de AMO a [!DNL Analytics]. En este caso, la dirección URL no contiene un parámetro `s_kwcid`.
 
 Los valores dinámicos dentro de los ID de AMO indican el canal de marketing que se rastreó:
@@ -36,13 +36,13 @@ El resto del ID de AMO se puede ignorar.
 | [!UICONTROL AMO ID] | Canal | Lógica de regla |
 |--------|---------|--------------------|
 | !ctv (sufijo) | [!UICONTROL DSP Connected TV View-through] | Finaliza con |
-| !d! (cuerpo) | [!UICONTROL Display Network] | Contains |
-| !g! (cuerpo) | [!UICONTROL Google Search] | Contains |
-| !s! (cuerpo) | [!UICONTROL Search Partner] | Contains |
-| !u! (cuerpo) | [!UICONTROL Smart Shopping Campaign] | Contains |
-| !ytv! (cuerpo) | [!UICONTROL YouTube Video Ad] | Contains |
-| !yts! (cuerpo) | [!UICONTROL YouTube Search Ad] | Contains |
-| !vp! (cuerpo) | [!UICONTROL Google Video Partners] | Contains |
+| !d! (cuerpo) | [!UICONTROL Display Network] | Contiene |
+| !g! (cuerpo) | [!UICONTROL Google Search] | Contiene |
+| !s! (cuerpo) | [!UICONTROL Search Partner] | Contiene |
+| !u! (cuerpo) | [!UICONTROL Smart Shopping Campaign] | Contiene |
+| !ytv! (cuerpo) | [!UICONTROL YouTube Video Ad] | Contiene |
+| !yts! (cuerpo) | [!UICONTROL YouTube Search Ad] | Contiene |
+| !vp! (cuerpo) | [!UICONTROL Google Video Partners] | Contiene |
 | !vt (sufijo) | [!UICONTROL DSP View-through] | Finaliza con |
 | ¡AL! (prefijo) | [!UICONTROL Paid Search] | Comienza con |
 | ¡AC! (prefijo) | [!UICONTROL DSP] | Comienza con |
@@ -63,7 +63,7 @@ La regla de procesamiento [!DNL Marketing Channels] para el canal [!UICONTROL Yo
 
 ## El EF ID en las reglas de procesamiento
 
-El AMO EF ID (EF ID) es el segundo código de seguimiento utilizado en la integración de [!DNL Analytics for Advertising]. Su propósito principal es rastrear y pasar datos de evento [!DNL Analytics] al Adobe Advertising. Cada vez que se produce una pulsación o una visualización, se genera un ID de EF único, aunque sea el mismo anuncio para el mismo visitante. El identificador de EF no se usa en la interfaz de usuario de creación de informes [!DNL Analytics] porque, por lo general, supera el límite de 500.000 valores únicos por variable en [!DNL Analytics], por lo que no se puede utilizar para la creación de informes. Las métricas de Adobe Advertising y los metadatos no se aplican al ID de EF; solo se aplican al ID de AMO. Se requiere la granularidad añadida del seguimiento para la optimización de campañas en Adobe Advertising, por lo que ambos ID son obligatorios.
+El AMO EF ID (EF ID) es el segundo código de seguimiento utilizado en la integración de [!DNL Analytics for Advertising]. Su propósito principal es rastrear y pasar datos de evento [!DNL Analytics] a Adobe Advertising. Cada vez que se produce una pulsación o una visualización, se genera un ID de EF único, aunque sea el mismo anuncio para el mismo visitante. El identificador de EF no se usa en la interfaz de usuario de creación de informes [!DNL Analytics] porque, por lo general, supera el límite de 500.000 valores únicos por variable en [!DNL Analytics], por lo que no se puede utilizar para la creación de informes. Las métricas y los metadatos de Adobe Advertising no se aplican al ID de EF; solo se aplican al ID de AMO. Se requiere la granularidad añadida del seguimiento para la optimización de campañas en Adobe Advertising, por lo que ambos ID son obligatorios.
 
 Aunque la dimensión de ID de EF no se usa directamente en los informes de [!DNL Analytics], el ID de EF puede resultar útil para crear canales de marketing. El sufijo EF ID indica el canal (visualización o búsqueda) y si la visita se debió a un clic o a una visualización. El delimitador del ID de EF es un signo de dos puntos, en lugar del signo de exclamación del ID de AMO.
 
@@ -73,13 +73,13 @@ Aunque la dimensión de ID de EF no se usa directamente en los informes de [!DNL
 | :d | [!UICONTROL Display Click-through] |
 | :i | [!UICONTROL Display View-through] |
 
-### Ejemplos de reglas de procesamiento que utilizan el ID de EF
+### Ejemplos de reglas de procesamiento que utilizan el EF ID
 
-#### Mostrar regla de pulsaciones
+#### Mostrar regla de pulsación
 
 Cree un canal de marketing de pulsaciones de visualización capturando solo las pulsaciones. Dado que el ID de AMO es el mismo para las visualizaciones y las pulsaciones, esta regla utiliza la variable EF ID y el parámetro de cadena de consulta `ef_id`.
 
-A veces, el seguimiento de las pulsaciones se realiza a través de la dirección URL (la predeterminada). En otros casos, los clics se rastrean a través del servicio Último evento del lado del servidor y, por lo tanto, la dirección URL no contiene el parámetro `ef_id`. Por lo tanto, la regla comprueba las condiciones en las que la variable EF ID o el parámetro de cadena de consulta `ef_id` termina con &quot;:d&quot;. Utilice el operador &quot;`Any`&quot; porque desea activar esta regla para cualquiera de las condiciones.
+A veces, el seguimiento de las pulsaciones se realiza a través de la dirección URL (la predeterminada). En otros casos, los clics se rastrean a través del servicio Último evento del lado del servidor y, por lo tanto, la dirección URL no contiene el parámetro `ef_id`. Por lo tanto, la regla comprueba las condiciones en las que la variable de ID de EF o el parámetro de cadena de consulta `ef_id` termina con &quot;:d&quot;. Utilice el operador &quot;`Any`&quot; porque desea activar esta regla para cualquiera de las condiciones.
 
 ![Ejemplo de una regla de pulsaciones en pantalla](/help/integrations/assets/a4adc-mc-rule-display-ct.png)
 
@@ -92,7 +92,7 @@ Para crear un canal de visualización, cree una regla en la que el EF ID termine
 >[!MORELIKETHIS]
 >
 >* [Aspectos básicos de [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [Por qué los datos de canal pueden variar entre el Adobe Advertising y [!DNL Marketing Channels]](mc-data-variances.md)
+>* [Por qué los datos de canal pueden variar entre Adobe Advertising y [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Usando [!DNL Analytics Marketing Channels] con datos de Adobe Advertising](mc-ac-data.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para informes de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=es)
+>* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [ID de Adobe Advertising usados por [!DNL Analytics]](/help/integrations/analytics/ids.md)

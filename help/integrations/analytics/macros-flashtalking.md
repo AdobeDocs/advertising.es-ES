@@ -3,7 +3,7 @@ title: Anexar  [!DNL Analytics for Advertising] macros a [!DNL Flashtalking] eti
 description: Aprenda por qué y cómo agregar  [!DNL Analytics for Advertising] macros a sus [!DNL Flashtalking] etiquetas de publicidad
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Solo anunciantes con una integración Adobe Advertising-Adobe Analytics*
 
-*Sólo* organizaciones sin una asociación directa con [!DNL Flashtalking]
+*Sólo [!DNL Flashtalking] organizaciones sin una asociación directa con*
 
 *Aplicable solo a Advertising DSP*
 

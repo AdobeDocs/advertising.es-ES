@@ -3,7 +3,7 @@ title: Métricas de Adobe Advertising en Analysis Workspace
 description: Métricas de Adobe Advertising en Analysis Workspace
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
-source-git-commit: da69280679a4e0c5ce04f55ee94ce984745395ff
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Métricas de Adobe Advertising en Analysis Workspace
 
-*Solo anunciantes con una integración de Adobe Analytics de Adobe Advertising*
+*Solo anunciantes con una integración Adobe Advertising-Adobe Analytics*
 
 >[!NOTE]
 >
->* El Adobe Advertising pasa las métricas y dimensiones de tráfico a [!DNL Analytics] diariamente.
+>* Adobe Advertising pasa diariamente métricas y dimensiones de tráfico a [!DNL Analytics].
 >* [!DNL Analytics] captura clics y visualizaciones de Adobe Advertising en tiempo real.
 >* Para [!DNL Search, Social, & Commerce], esta característica es compatible con la mayoría de las redes de anuncios y tipos de campañas. Consulte &quot;[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md)&quot; en la guía [!DNL Search, Social, & Commerce] para obtener más información.
 
-## Métricas de tráfico del Adobe Advertising
+## Métricas de tráfico de Adobe Advertising
 
-Las métricas de tráfico de Adobe Advertising de [!DNL Analytics] suelen comenzar con &quot;Adobe Advertising&quot;, excepto &quot;[!UICONTROL AMO ID Instances]&quot;. Sin embargo, para los clientes a largo plazo que utilizaban un evento personalizado (en lugar de un evento reservado) para crear originalmente métricas de clics, costes e impresiones, esas métricas siguen empezando con &quot;AMO&quot;.
+Las métricas de tráfico de Adobe Advertising en [!DNL Analytics] suelen comenzar con &quot;Adobe Advertising&quot;, excepto &quot;[!UICONTROL AMO ID Instances]&quot;. Sin embargo, para los clientes a largo plazo que utilizaban un evento personalizado (en lugar de un evento reservado) para crear originalmente métricas de clics, costes e impresiones, esas métricas siguen empezando con &quot;AMO&quot;.
 
 | Métrica de tráfico | Descripción |
 | -------------- | ----------- |
-| [!UICONTROL Adobe Advertising Clicks] o (algunos clientes heredados) [!UICONTROL AMO Clicks] | Número total de clics en Adobes Advertising. |
-| [!UICONTROL Adobe Advertising Cost] o (algunos clientes heredados) [!UICONTROL AMO Cost] | El gasto en Adobes Advertising en la divisa del grupo de informes. |
-| [!UICONTROL Adobe Advertising Impressions] o (algunos clientes heredados) [!UICONTROL AMO Impressions] | El número de impresiones de Adobe Advertising. |
+| [!UICONTROL Adobe Advertising Clicks] o (algunos clientes heredados) [!UICONTROL AMO Clicks] | Número total de clics en Adobe Advertising. |
+| [!UICONTROL Adobe Advertising Cost] o (algunos clientes heredados) [!UICONTROL AMO Cost] | Adobe Advertising invierte en la moneda del grupo de informes. |
+| [!UICONTROL Adobe Advertising Impressions] o (algunos clientes heredados) [!UICONTROL AMO Impressions] | Número de impresiones de Adobe Advertising. |
 | [!UICONTROL Adobe Advertising Measurable Impressions] | El número de impresiones servidas para las que se inicializó correctamente la instrumentación de visibilidad. Este valor se calcula como (impresiones instrumentadas: el número de impresiones no medibles). |
 | [!UICONTROL Adobe Advertising Minutes Viewed] | Cantidad de minutos que se vio un vídeo de Adobe Advertising. |
 | [!UICONTROL Adobe Advertising Not Viewable Impressions] | El número de impresiones que se determinó que no eran visibles. Este valor se calcula como ([!UICONTROL Adobe Advertising Measurable Impressions] - [!UICONTROL Adobe Advertising Viewable]). |
@@ -40,7 +40,7 @@ Las métricas de tráfico de Adobe Advertising de [!DNL Analytics] suelen comenz
 | [!UICONTROL Adobe Advertising Views 100% Complete] | El número de vistas para las que se vio el 100 % de un vídeo de Adobe Advertising. |
 | [!UICONTROL AMO ID Instances] | Número de veces que se ha establecido [!UICONTROL AMO ID]. |
 
-## DIMENSION DE ADOBE ADVERTISING
+## Dimensiones de Adobe Advertising
 
 >[!NOTE]
 >
@@ -66,9 +66,9 @@ Las métricas de tráfico de Adobe Advertising de [!DNL Analytics] suelen comenz
 | [!UICONTROL Landing Type (AMO ID)] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | Si la entrada de la página de aterrizaje fue una visualización o un clic. |
 | [!UICONTROL Product Target (AMO ID)] | [!DNL Search, Social, & Commerce] datos | El destino de un producto para un anuncio de lista de productos. |
 
-## Métricas calculadas personalizadas útiles para el Adobe Advertising
+## Métricas calculadas personalizadas y útiles para Adobe Advertising
 
-Considere la posibilidad de crear las siguientes métricas para los datos de Adobe Advertising.
+Considere la posibilidad de crear las siguientes métricas para sus datos de Adobe Advertising.
 
 * Clics hasta la instancia de la página de aterrizaje ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks]): Este es el % de personas que hicieron clic en el anuncio y llegaron a la página de aterrizaje.
 * Tasa Medible ([!UICONTROL Adobe Advertising Viewable Impressions] / [!UICONTROL Adobe Advertising Impressions] * 100)
@@ -79,4 +79,4 @@ Considere la posibilidad de crear las siguientes métricas para los datos de Ado
 >[!MORELIKETHIS]
 >
 >* [Información general de [!DNL Analytics for Advertising]](overview.md)
->* [[!DNL Analytics] Datos en el Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [[!DNL Analytics] Datos en Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
