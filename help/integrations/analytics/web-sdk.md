@@ -3,7 +3,7 @@ title: Usando la  [!DNL Last Event Service] biblioteca de JavaScript con [!DNL W
 description: Conozca los pasos para dejar de usar la biblioteca  [!DNL Analytics] [!DNL visitorAPI] y pasar a la biblioteca  [!DNL Experience Platform] [!DNL Web SDK] para su implementación de  [!DNL Analytics for Advertising] sessionDetails.
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Usando la biblioteca de JavaScript [!DNL Last Event Service] con Adobe Experience Platform [!DNL Web SDK]
 
-*Solo anunciantes con una integración de Adobe Analytics de Adobe Advertising*
+*Solo anunciantes con una integración Adobe Advertising-Adobe Analytics*
 
-Si su organización utiliza la biblioteca heredada de Adobe Analytics `visitorAPI.js` para la recopilación de datos, puede cambiar a la biblioteca de [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) (`alloy.js`), que le permite interactuar con los distintos servicios de Experience Cloud a través de [!DNL Edge Network].
+Si su organización utiliza la biblioteca heredada de Adobe Analytics `visitorAPI.js` para la recopilación de datos, puede cambiar a la biblioteca de [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) (`alloy.js`), que le permite interactuar con los distintos servicios de Experience Cloud a través de [!DNL Edge Network].
 
 La biblioteca de JavaScript [!DNL Analytics for Advertising] [!DNL Last Event Service], tal como está, registra eventos de visualización y clics y los vincula a las conversiones asociadas con un identificador suplementario (`SDID`). Sin embargo, la biblioteca [!DNL Web SDK] no proporciona un [!DNL stitch ID]. Para usar [!DNL Web SDK] para [!DNL Analytics for Advertising], debe modificar 1) la etiqueta [!DNL Last Event Service] que usa en sus páginas web y 2) los comandos [!DNL Web SDK] `sendEvent` en consecuencia.
 

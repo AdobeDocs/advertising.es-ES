@@ -3,7 +3,7 @@ title: Importación de segmentos de Adobe Audience Manager para la segmentación
 description: Obtenga información sobre cómo importar las audiencias  [!DNL Adobe] en Advertising DSP y buscar mediante Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -26,19 +26,19 @@ Para acceder a las audiencias de [!DNL Adobe] en DSP o [!DNL Creative], debe imp
 
 ## Requisitos previos
 
-* El anunciante debe implementar [the [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/es/docs/id-service/using/intro/overview) versión 2.0 o superior. El [!DNL Identity Service] proporciona un identificador universal y persistente que identifica a los visitantes en todas las soluciones de Experience Cloud.
+* El anunciante debe implementar [the [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview) versión 2.0 o superior. El [!DNL Identity Service] proporciona un identificador universal y persistente que identifica a los visitantes en todas las soluciones de Experience Cloud.
 
   La implementación incluye agregar el código [!DNL Identity service] a cada página web de los sitios del anunciante.
 
-* La organización debe estar [habilitada para los servicios de Experience Cloud](https://experienceleague.adobe.com/es/docs/core-services/interface/services/overview) y tener un Experience Cloud [!DNL Organization ID] (anteriormente denominado [!DNL IMS org ID]).
+* La organización debe estar [habilitada para los servicios de Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview) y tener un Experience Cloud [!DNL Organization ID] (anteriormente denominado [!DNL IMS org ID]).
 
   [!UICONTROL Organization ID] permite que las organizaciones con varios productos de Adobe Experience Cloud compartan datos entre algunos de los productos.
 
-* (Anunciantes con [!DNL Analytics]) El anunciante debe [implementar [!DNL Analytics] usando `appMeasurement.js`](https://experienceleague.adobe.com/es/docs/analytics/implementation/js/overview) versión 1.6.4 o superior.
+* (Anunciantes con [!DNL Analytics]) El anunciante debe [implementar [!DNL Analytics] usando `appMeasurement.js`](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview) versión 1.6.4 o superior.
 
 * Los visitantes del sitio web del anunciante no incluyen un gran volumen de usuarios de [!DNL Apple Safari].
 
-* (Recomendado cuando el anunciante usa Audience Manager y [!DNL Analytics]) Para reducir las llamadas a cada página web, elimine el código de Audience Manager [!DNL Data Integration Library] existente para la recopilación de datos y habilite el reenvío del lado del servidor para cada grupo de informes [!DNL Analytics]. Para obtener más información, consulte &quot;[Resumen del reenvío del lado del servidor](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
+* (Recomendado cuando el anunciante usa Audience Manager y [!DNL Analytics]) Para reducir las llamadas a cada página web, elimine el código de Audience Manager [!DNL Data Integration Library] existente para la recopilación de datos y habilite el reenvío del lado del servidor para cada grupo de informes [!DNL Analytics]. Para obtener más información, consulte &quot;[Resumen del reenvío del lado del servidor](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
 
 * (Recomendado) Para tasas de coincidencia más altas, envíe solo datos del sitio web de origen a Adobe Advertising. Si el anunciante agrupa datos de terceros o datos sin conexión de un sistema de administración de la relación con los clientes, la fuga de datos puede reducir las tasas de coincidencia.
 
@@ -121,9 +121,9 @@ Los datos de abono a segmentos se envían únicamente después de que se produzc
 
 <!-- Is membership data/whatever available in Creative? If so, does it show the same as DSP? -->
 
-### Cómo DSP sincroniza los datos
+### Cómo sincroniza DSP los datos
 
-DSP sincroniza los datos automáticamente usando [!DNL Adobe Experience Cloud Identity (ECID) Service]. Durante la sincronización, [!DNL ECID Service] llama a Adobe Advertising en [!DNL cm.everesttech.net]. Como Adobe Advertising es un dominio de confianza, las sincronizaciones de ID se realizan desde páginas principales en lugar de dentro de los iFrames de publicación de destino, como sucede con la mayoría de los socios de activación de terceros. Audience Manager identifica usuarios únicos por identificadores de dispositivo, usando el [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/es/docs/audience-manager/user-guide/reference/ids-in-aam), también llamado [!DNL Device ID].
+DSP sincroniza los datos automáticamente usando [!DNL Adobe Experience Cloud Identity (ECID) Service]. Durante la sincronización, [!DNL ECID Service] llama a Adobe Advertising en [!DNL cm.everesttech.net]. Como Adobe Advertising es un dominio de confianza, las sincronizaciones de ID se realizan desde páginas principales en lugar de dentro de los iFrames de publicación de destino, como sucede con la mayoría de los socios de activación de terceros. Audience Manager identifica usuarios únicos por identificadores de dispositivo, usando el [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam), también llamado [!DNL Device ID].
 
 <!--
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
@@ -131,11 +131,12 @@ DSP sincroniza los datos automáticamente usando [!DNL Adobe Experience Cloud Id
 
 ### Cómo Search, Social y Commerce sincronizan los datos
 
-Search, Social y Commerce sincronizan los datos automáticamente usando [!DNL Adobe Experience Cloud Identity (ECID) Service]. Durante la sincronización, [!DNL ECID Service] llama a Adobe Advertising en [!DNL cm.everesttech.net], que es un dominio de confianza que pertenece a Adobe Advertising. Audience Manager identifica usuarios únicos por identificadores de dispositivo, usando el [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/es/docs/audience-manager/user-guide/reference/ids-in-aam), también llamado [!DNL Device ID].
+Search, Social y Commerce sincronizan los datos automáticamente usando [!DNL Adobe Experience Cloud Identity (ECID) Service]. Durante la sincronización, [!DNL ECID Service] llama a Adobe Advertising en [!DNL cm.everesttech.net], que es un dominio de confianza que pertenece a Adobe Advertising. Audience Manager identifica usuarios únicos por identificadores de dispositivo, usando el [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam), también llamado [!DNL Device ID].
 
 ## Dónde encontrar los segmentos sincronizados
 
 ### En DSP
+
 
 DSP organiza los nombres de los segmentos según la taxonomía de Audience Manager e incluye los recuentos de miembros de segmentos correspondientes en:
 
@@ -144,6 +145,7 @@ DSP organiza los nombres de los segmentos según la taxonomía de Audience Manag
 * En [configuración de audiencia](/help/dsp/audiences/audience-settings.md): en la ficha [!UICONTROL Adobe Segments].
 
 ### En Advertising Creative
+
 
 En [!DNL Creative], los segmentos están disponibles en la configuración de experiencia para los nodos de destino.
 
