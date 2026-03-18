@@ -3,7 +3,7 @@ title: Duplicación de un paquete
 description: Obtenga información sobre cómo duplicar un paquete.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Consulte &quot;[Lo que no está duplicado](#package-not-duplicated)&quot; para o
 
 1. Haga clic en **[!UICONTROL Submit]**.
 
-## Qué no está duplicado {#package-not-duplicated}
+## Qué no se duplica {#package-not-duplicated}
 
 Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
@@ -90,7 +90,7 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
    * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
 
-* Para los paquetes que utilizan objetivos de optimización personalizados, use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
+* Para los paquetes que utilizan objetivos de optimización personalizados, use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
 
 >[!MORELIKETHIS]
 >

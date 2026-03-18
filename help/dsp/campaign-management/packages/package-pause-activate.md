@@ -3,7 +3,7 @@ title: Pausar o activar un paquete
 description: Obtenga información sobre cómo pausar o activar un paquete.
 feature: DSP Packages
 exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Pausar un paquete activo o activar un paquete pausado cuando esté dentro del ho
 
 Todas las ubicaciones en pausa dentro de un paquete antes de pausar el paquete en sí permanecen en pausa cuando se activa el paquete.
 
-## Pausar un paquete
+## Pausa de un paquete
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña para abrir la vista [!UICONTROL Packages].
@@ -26,7 +26,7 @@ Todas las ubicaciones en pausa dentro de un paquete antes de pausar el paquete e
 >
 >Al pausar un paquete, se pausan todas las ubicaciones, incluidas las ubicaciones garantizadas mediante programación (PG), dentro del paquete. Póngase en contacto con los editores afectados si es necesario pausar las subastas entrantes.
 
-## Activación de un paquete
+## Activar un paquete
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña para abrir la vista [!UICONTROL Packages].

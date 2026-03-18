@@ -1,20 +1,20 @@
 ---
-title: Administrar Las Vistas De Datos De Campaign
+title: Administrar las vistas de datos de campaña
 description: Descubra cómo puede personalizar las vistas de datos para campañas, paquetes, ubicaciones y anuncios.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
-# Administrar Las Vistas De Datos De Campaign
+# Administrar las vistas de datos de campaña
 
 Puede personalizar los datos que aparecen en las vistas de administración de campañas ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] y [!UICONTROL Ads]).
 
-## Administrar visualizaciones de datos {#data-visualizations-manage}
+## Administración de visualizaciones de datos {#data-visualizations-manage}
 
 Puede cambiar las métricas y el modo de gráfico para todas las visualizaciones de datos entre campañas o para una sola campaña. Los cambios en una sola campaña se aplican a todas las visualizaciones de datos de la campaña, incluidas las vistas [!UICONTROL Packages], [!UICONTROL Placements] y [!UICONTROL Ads].
 
@@ -176,4 +176,4 @@ En la parte inferior derecha de cualquier página, junto a **[!UICONTROL Items p
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Ver los informes de diagnóstico de ubicación](placement-diagnostics.md)
 >* [Exportar datos de una vista de administración de Campaign](campaign-export-data.md)
->* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=es)
+>* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

@@ -1,32 +1,32 @@
 ---
-title: Ver los informes de diagnóstico de ubicación
+title: Ver el informe de ubicación [!UICONTROL Diagnostics]
 description: Aprenda a diagnosticar problemas con la configuración y el ritmo de la ubicación.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# Ver los informes de diagnóstico de ubicación
+# Ver el informe de ubicación [!UICONTROL Diagnostics]
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
 Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la configuración de ubicación y el ritmo una vez que una campaña está activa.
 
-## Información en los informes de diagnóstico de ubicación
+## Información en el informe de ubicación [!UICONTROL Diagnostics]
 
 * **[!UICONTROL Change Log]:** Muestra cambios en la configuración de ubicación de claves, como el nombre, el estado y la oferta máxima. Cada entrada incluye la fecha y el nombre de usuario de la persona que realizó el cambio.
 
 * **[!UICONTROL Ad Approvals]:** Muestra si los proveedores de inventario aprobaron o rechazaron los anuncios. Si lo desea, puede cambiar el estado de cualquier anuncio (por ejemplo, pausar un anuncio rechazado) o abrir la configuración del anuncio.
 
-* DSP **[!UICONTROL Non Bids]:** Muestra el motivo por el cual no se hizo una oferta en la ubicación en la que se hizo la oferta.
+* **[!UICONTROL Non Bids]:** Muestra por qué DSP no pujó en la ubicación.
 
-## Abra los Informes de diagnóstico de posición
+## Abrir el informe de ubicación [!UICONTROL Diagnostics]
 
-1. Abra el informe Diagnóstico:
+1. Abrir el informe [!UICONTROL Diagnostics]:
 
    1. Abra la configuración de ubicación:
 
@@ -60,7 +60,7 @@ Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la con
 
       1. (Opcional) Para abrir la configuración de un anuncio, haga clic en **[!UICONTROL View Ad]** junto al anuncio.
 
-   * DSP Para ver por qué no se ha pujado por la ubicación, haga lo siguiente:
+   * Para ver por qué DSP no pujó por la ubicación:
 
       1. En la esquina superior derecha, haga clic en **[!UICONTROL Non Bids]**.
 
@@ -72,6 +72,6 @@ Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la con
 
 >[!MORELIKETHIS]
 >
->* [Tipos de informes de rendimiento en las vistas de Campaign Management](campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en las vistas de administración de campañas](campaign-reports-about.md)
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

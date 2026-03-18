@@ -3,7 +3,7 @@ title: Acerca de la administración de ubicaciones en Advertising DSP
 description: Obtenga información acerca de la administración de ubicaciones.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Puede crear una ubicación manualmente o duplicando una existente. También pued
 ## Tipos de ubicación disponibles
 
 * Pre-Roll
-* Móvil
+* Dispositivo móvil
 * Mostrar
 * Nativo
 * Audio

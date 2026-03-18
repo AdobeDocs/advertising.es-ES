@@ -3,9 +3,9 @@ title: Acerca del inventario privado
 description: Acerca del inventario privado
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: c813954c0489d5cae067b3ea43d3527fc80c261a
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 0%
 Los anunciantes que buscan más allá de RTB pueden utilizar el inventario privado para facilitar transacciones de medios exclusivas. Los intercambios privados permiten a los editores crear grupos exclusivos de inventario, que los anunciantes aprobados pueden utilizar para comprar a través de plataformas en tiempo real. Un intercambio privado ofrece la confianza de una compra directa combinada con beneficios programáticos como eficiencia, flujo de trabajo optimizado y análisis de campaña centralizados.
 
 ## ID de acuerdo
+
 
 Si tiene relaciones directas con los editores, puede optimizar el proceso y el flujo de trabajo de compra de medios con sus propias ofertas privadas, con su inventario y precios negociados, en sus ubicaciones de Advertising DSP. DSP se integra con todos los editores al configurar una cuenta. Si desea acceder a editores adicionales más adelante, póngase en contacto con el equipo de su cuenta de Adobe para configurar el acceso. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
@@ -32,7 +33,7 @@ Puede utilizar los ID de acuerdo de cualquiera de las siguientes maneras:
 
 Puede utilizar cada oferta privada como objetivo de ubicación para varias campañas en anunciantes específicos. Para las ofertas garantizadas, debe crear una ubicación predeterminada después de crear la oferta, pero puede agregar la misma oferta a ubicaciones adicionales para ignorar la ubicación predeterminada.
 
-## La vista de ofertas
+## La vista [!UICONTROL Deals]
 
 En la vista [!UICONTROL Inventory] > [!UICONTROL Deals], puede crear la configuración de las operaciones privadas. También puede editar algunos ajustes de acuerdo; enumerar las ubicaciones y los anuncios, y adjuntar ubicaciones y anuncios adicionales a una oferta privada; editar los anunciantes y las cuentas que pueden acceder a una oferta privada; ver un informe de rendimiento de una oferta; ver perspectivas de subasta de una oferta privada o archivar o desarchivar una oferta.<!-- ; or edit the attribute tags for a deal -->
 
@@ -40,7 +41,7 @@ La columna &quot;Estado del acuerdo&quot; indica el estado de salud de cada acue
 
 Puede personalizar el modo en que se presentan los datos de acuerdo existentes aplicando filtros, personalizando las columnas visibles y, opcionalmente, guardando las vistas personalizadas, ordenando las columnas y viendo los datos como gráficos.
 
-## La vista Listas de acuerdos
+## La vista [!UICONTROL Deal Lists]
 
 En la vista [!UICONTROL Inventory] > [!UICONTROL Deal Lists], puede agrupar sus ofertas privadas en listas para facilitar la segmentación de la ubicación.
 

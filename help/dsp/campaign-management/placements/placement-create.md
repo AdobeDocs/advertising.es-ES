@@ -1,16 +1,16 @@
 ---
-title: Crear una ubicación
+title: Creación de una ubicación
 description: Obtenga información sobre cómo crear una ubicación.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
-# Crear una ubicación
+# Creación de una ubicación
 
 >[!TIP]
 >
@@ -147,4 +147,4 @@ ht-degree: 0%
 >* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/344998?captions=spa)
+>* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/340454)

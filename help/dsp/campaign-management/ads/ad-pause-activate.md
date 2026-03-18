@@ -3,7 +3,7 @@ title: Pausar o activar un anuncio
 description: Obtenga información sobre cómo pausar o activar un anuncio.
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%

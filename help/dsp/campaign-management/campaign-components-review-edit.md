@@ -3,7 +3,7 @@ title: Revisión y edición de la configuración de componentes de Campaign medi
 description: Obtenga información sobre cómo revisar y editar la configuración de paquetes, ubicaciones y anuncios clave de forma masiva mediante hojas de cálculo.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Para actualizar varias configuraciones a la vez, cargue un archivo de hoja de ed
 >
 >También puede descargar y editar la configuración solo para paquetes específicos y ubicaciones específicas. Consulte &quot;[Revisar y editar la configuración de paquetes mediante hojas de edición masiva](/help/dsp/campaign-management/packages/package-qa.md)&quot; y &quot;[Revisar y editar la configuración de ubicación mediante hojas de edición masiva](/help/dsp/campaign-management/placements/placement-qa.md).&quot;
 
-## Configuración de descarga para paquetes, ubicaciones y anuncios en una campaña {#download-bulksheet-campaign}
+## Descargar la configuración para los paquetes, las ubicaciones y los anuncios de una campaña {#download-bulksheet-campaign}
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -74,13 +74,13 @@ Cuando falla cualquier actualización de configuración, puede descargar un arch
 
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Spreadsheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded spreadsheets{#qa-sheet-columns}
 
 >[!TIP]
 >
 > In a downloaded spreadsheet, all editable columns are highlighted in blue.
 
-### Campaign-level Spreadsheets
+### Campaign-level spreadsheets
 
 | Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|

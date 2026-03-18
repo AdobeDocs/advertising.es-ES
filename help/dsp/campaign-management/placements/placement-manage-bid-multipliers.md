@@ -3,7 +3,7 @@ title: Administrar multiplicadores de oferta para ubicaciones
 description: Aprenda a crear y editar multiplicadores de oferta para sus destinos de colocación.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Puede editar valores manualmente o cargar una hoja de cálculo para una sola ubi
 
       1. Compruebe los datos cargados en la sección [!UICONTROL Review & Submit] y haga clic en **[!UICONTROL Save]**.
 
-## Cargar multiplicadores de oferta para una o más ubicaciones
+## Cargar multiplicadores de oferta para una o varias ubicaciones
 
 Cargue una hoja de cálculo para aplicar los mismos valores a todas las ubicaciones seleccionadas.
 

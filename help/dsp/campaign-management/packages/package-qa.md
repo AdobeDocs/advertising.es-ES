@@ -3,7 +3,7 @@ title: Revisión y edición de la configuración del paquete mediante hojas de e
 description: Obtenga información sobre cómo revisar y editar la configuración clave del paquete de forma masiva mediante hojas de cálculo.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Al descargar la configuración de paquetes específicos, el archivo de hoja de e
 
      Para editar cualquiera de las opciones, edite el archivo directamente y, a continuación, cargue los cambios. Todas las columnas editables se resaltan en azul. Para utilizar el formato correcto para un campo, seleccione y copie el valor de la configuración de paquete o la configuración de ubicación correspondiente. Para algunas configuraciones de Target, como la partición del día, los objetivos personalizados y las métricas de conversión, hay una opción de copia disponible dentro de la configuración.
 
-## Cargar una hoja de edición masiva con ajustes del paquete {#upload-bulksheet-package}
+## Cargar una hoja de edición masiva con la configuración del paquete {#upload-bulksheet-package}
 
 Puede cargar la configuración de sus paquetes, incluidas las ubicaciones y las publicidades asociadas con los paquetes, en un archivo de hoja de edición por lotes.
 
@@ -107,7 +107,7 @@ Puede cargar la configuración de sus paquetes, incluidas las ubicaciones y las 
 Cuando falla cualquier actualización de configuración, puede descargar un archivo de error de hoja de edición masiva con codificación de color para mostrar qué configuración (filas) se guardaron y cuáles fallaron, con un motivo para cada error. A continuación, puede solucionar los problemas dentro del mismo archivo y cargarlo de nuevo para procesar la información corregida.
 
 <!--
-## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
+## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >

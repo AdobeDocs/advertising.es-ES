@@ -3,7 +3,7 @@ title: Editar ubicaciones
 description: Obtenga información sobre cómo editar una ubicación.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Puede editar la configuración de una sola ubicación o de varias ubicaciones a 
 >
 >También puede descargar la configuración de una o más ubicaciones, o de todas las ubicaciones de una campaña, en formato XLSX (hoja de cálculo de Excel); realizar cambios en la mayoría de los campos y cargarlos de nuevo en DSP de una vez. Consulte &quot;[Revisar y editar la configuración de ubicación mediante hojas de edición masiva](placement-qa.md).&quot;
 
-## Editar rápidamente la configuración de colocación de claves {#placement-quick-edit}
+## Editar rápidamente la configuración de ubicación de claves {#placement-quick-edit}
 
 Puede editar el nombre de la ubicación, el estado, la oferta máxima y el presupuesto sin abrir la configuración de ubicación completa.
 
@@ -102,4 +102,4 @@ Utilice esta opción solo cuando desee aplicar los mismos cambios a todas las ub
 >* [Configuración de ubicación](placement-settings.md)
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=es)
+>* [Vídeo: Cómo editar ubicaciones mediante las herramientas de edición masiva](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

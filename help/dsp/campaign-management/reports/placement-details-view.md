@@ -1,16 +1,16 @@
 ---
-title: Ver los detalles de sitios, anuncios, frecuencia e inventario de una ubicación
+title: Ver los sitios, anuncios, frecuencia y detalles de inventario de una ubicación
 description: Obtenga información sobre cómo ver los sitios segmentados, los anuncios, la frecuencia y los datos de inventario de una ubicación.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# Ver los detalles de sitios, anuncios, frecuencia e inventario de una ubicación
+# Ver los sitios, anuncios, frecuencia y detalles de inventario de una ubicación
 
 Para cada ubicación, puede [abrir un (vista de detalles [!UICONTROL Inspector])](placement-details-view.md), que enumera todos los sitios de destino, anuncios y ofertas de una ubicación. También incluye datos de frecuencia para la ubicación. Si lo desea, puede exportar los datos desde cualquier pestaña.
 
@@ -74,7 +74,7 @@ Para cada ubicación, puede [abrir un (vista de detalles [!UICONTROL Inspector])
 
 1. Junto al nombre del anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Detach]**.
 
-## Solucionar problemas de inventario
+## Solución de problemas de inventario
 
 | Problema | Causa posible | Acciones que se deben realizar |
 | -----------| ---------- | ---------- |

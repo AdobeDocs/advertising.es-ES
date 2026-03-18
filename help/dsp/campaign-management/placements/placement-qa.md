@@ -3,7 +3,7 @@ title: Revisión y edición de la configuración de ubicación mediante hojas de
 description: Obtenga información sobre cómo revisar y editar la configuración de ubicación de claves de forma masiva mediante hojas de cálculo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Para actualizar varias configuraciones a la vez, puede realizar cambios en deter
 >
 >Para editar rápidamente más campos para una o más ubicaciones, consulte &quot;[Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
 
-## Descargar configuración para todas las ubicaciones en una campaña
+## Descargar configuración para todas las ubicaciones de una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -99,7 +99,7 @@ Puede cargar la configuración de sus ubicaciones, y de los anuncios y paquetes 
 Cuando falla cualquier actualización de configuración, puede descargar un archivo de error de hoja de edición masiva con codificación de color para mostrar qué configuración (filas) se guardaron y cuáles fallaron, con un motivo para cada error. A continuación, puede solucionar los problemas dentro del mismo archivo y cargarlo de nuevo para procesar la información corregida.
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns}
 
 >[!TIP]
 >

@@ -1,16 +1,16 @@
 ---
-title: Tipos de informes de rendimiento en las vistas de Campaign Management
+title: Tipos de informes de rendimiento en las vistas de administración de campañas
 description: Obtenga información acerca de los datos de informes incluidos en las vistas de administración de campañas.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-# Tipos de informes de rendimiento en las vistas de Campaign Management
+# Tipos de informes de rendimiento en las vistas de administración de campañas
 
 Las vistas de administración de campañas incluyen datos de informe completos. Los informes disponibles le ayudan a identificar los paquetes y las ubicaciones que tienen un buen rendimiento y aquellos que necesitan su atención. Los botones de acción rápida también le hacen más productivo.
 
@@ -87,6 +87,6 @@ Para otros desgloses de datos, vea [las páginas de informes de nivel de anuncio
 >
 >* [Ver los sitios, anuncios y detalles de frecuencia de una ubicación](placement-details-view.md)
 >* [Administrar Las Vistas De Datos De Campaign](campaign-data-views-manage.md)
->* [Exportar datos de una vista de Campaign Management](campaign-export-data.md)
+>* [Exportar datos de una vista de administración de Campaign](campaign-export-data.md)
 >* [Ver un informe detallado de una campaña](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [Ver alertas](campaign-alerts.md)

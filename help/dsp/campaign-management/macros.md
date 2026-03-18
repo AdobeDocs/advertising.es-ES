@@ -3,7 +3,7 @@ title: Macros de Advertising DSP
 description: Haga referencia a las macros disponibles para el seguimiento general y para rastrear clics en anuncios en pantalla de terceros.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Macros de Advertising DSP
 
-Una macro es un comando corto o un método abreviado para una instrucción y suele seguir el formato `${MACRO_NAME}`. Las macros incluidas en el código creativo o en las URL de pulsaciones se expanden a una cadena de código más larga que el servidor de publicidad puede comprender. DSP El servidor de publicidad ejecuta macros cuando se sirve el anuncio o se hace clic en él.
+Una macro es un comando corto o un método abreviado para una instrucción y suele seguir el formato `${MACRO_NAME}`. Las macros incluidas en el código creativo o en las URL de pulsaciones se expanden a una cadena de código más larga que el servidor de publicidad puede comprender. El servidor de publicidad de DSP ejecuta macros cuando se muestra o se hace clic en el anuncio.
 
-DSP Las macros de servidor de publicidad son útiles para pasar información importante a servidores de publicidad de terceros o a servidores de publicidad de terceros. Las macros se utilizan principalmente durante el tráfico de código creativo o metadatos de terceros y personalizados (como los píxeles de terceros).
+Las macros de servidor de publicidad son útiles para pasar información importante a DSP o a servidores de publicidad de terceros. Las macros se utilizan principalmente durante el tráfico de código creativo o metadatos de terceros y personalizados (como los píxeles de terceros).
 
-DSP Puede insertar manualmente una macro en cualquier lugar, como en una etiqueta VAST, en cualquier dirección URL, o en un píxel de evento de terceros o de un grupo de datos de la lista de permitidos. DSP Sin embargo, cada cliente y socio de la tiene un formato de etiqueta de anuncio diferente, y las macros deben insertarse en diferentes puntos de la etiqueta en consecuencia. DSP Cada vez que trabaje con un cliente o socio nuevo, pídale documentación sobre dónde insertar las macros en sus etiquetas publicitarias que comercializa el tráfico de la.
+Puede insertar manualmente una macro en cualquier lugar, como en una etiqueta VAST, en cualquier dirección URL, o en un píxel de evento de DSP o de terceros. Sin embargo, cada cliente y socio de DSP tiene un formato de etiqueta de publicidad diferente, y las macros deben insertarse en diferentes puntos de la etiqueta en consecuencia. Cada vez que trabaje con un cliente o socio nuevo, pídale documentación sobre dónde insertar las macros en las etiquetas publicitarias que DSP trafica.
 
-## Macros de seguimiento generales
+## Macros generales de seguimiento
 
 Utilice macros de seguimiento generales en todos los tipos de publicidad y etiquetas para devolver datos específicos, según sea necesario.
 
@@ -67,9 +67,9 @@ Utilice macros de seguimiento generales en todos los tipos de publicidad y etiqu
 
 {style="table-layout:auto"}
 
-## Haga clic en Macros para anuncios en pantalla de terceros
+## Haga clic en macros para anuncios en pantalla de terceros
 
-DSP Para rastrear con precisión los clics de anuncios mediante etiquetas de visualización de terceros, se requiere una macro de clic en pantalla. Solo se requiere una versión de la macro; la macro correspondiente depende del tipo de etiqueta.
+Para rastrear con precisión los clics de anuncios mediante etiquetas de visualización de terceros, DSP requiere una macro de clic en visualización. Solo se requiere una versión de la macro; la macro correspondiente depende del tipo de etiqueta.
 
 | Macro | Descripción de reemplazo | Tipo |
 | ----- | ----------------------- | ---- |
@@ -78,20 +78,20 @@ DSP Para rastrear con precisión los clics de anuncios mediante etiquetas de vis
 
 {style="table-layout:auto"}
 
-DSP La aplicación inserta automáticamente macros de clic de visualización en una etiqueta de visualización de terceros cuando:
+DSP inserta automáticamente macros de clic de visualización en una etiqueta de visualización de terceros cuando:
 
 * Exportar etiquetas de anuncio de un socio de servidor de publicidad <!-- [Needs PM confirmation.] -->
-* DSP Cargar etiquetas de publicidad de [!DNL Flashtalking] o [!DNL Google DoubleClick for Advertisers] de forma masiva directamente en el sitio de trabajo de
+* Cargar etiquetas de publicidad de [!DNL Flashtalking] o [!DNL Google DoubleClick for Advertisers] de forma masiva directamente en DSP
 
-DSP Si falta una macro de clic al generar un anuncio de visualización, muestra un mensaje de advertencia, que le pedirá que inserte manualmente la macro de clic de visualización adecuada en el área correcta de la etiqueta.
+Si falta una macro de clic al generar un anuncio de visualización, DSP muestra un mensaje de advertencia que le solicita que inserte manualmente la macro de clic de visualización adecuada en el área correcta de la etiqueta.
 
 ## [!DNL Analytics for Advertising] macros
 
 Para obtener macros adicionales disponibles específicamente para los clientes de [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), consulte &quot;[Anexar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de publicidad](/help/integrations/analytics/macros-flashtalking.md)&quot; y &quot;[Anexar [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Etiquetas de publicidad](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;.
 
-## Solucionar problemas de errores de macros
+## Solución de problemas de macros
 
-Cuando agregue macros al código, asegúrese de utilizar la sintaxis exacta de la macro. DSP Al validar las macros, comprueba que la macro coincida exactamente con una de las macros válidas.
+Cuando agregue macros al código, asegúrese de utilizar la sintaxis exacta de la macro. Al validar las macros, DSP comprueba que la macro coincida exactamente con una de las macros válidas.
 
 Los errores se generan si faltan caracteres desde el principio o el final del nombre de la macro. Por ejemplo, se muestra un mensaje de error si:
 
