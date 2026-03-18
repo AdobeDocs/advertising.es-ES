@@ -3,10 +3,10 @@ title: Especificación creativa de HTML5
 description: Consulte la especificación creativa de HTML5 para Advertising Creative.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

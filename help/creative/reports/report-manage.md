@@ -2,7 +2,8 @@
 title: Administrar informes personalizados
 description: Obtenga información sobre cómo generar y administrar la experiencia cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
-source-git-commit: 41b8d295436bdbe6cea402e5bb234caa7a36f4df
+exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -91,7 +92,7 @@ Puede descargar cualquier instancia de informe completada de los últimos cuatro
 
 **[!UICONTROL Report Type]:** Tipo de informe.
 
-### Sección [!UICONTROL Report Range]
+### [!UICONTROL Report Range] sección
 
 Esta sección determina los datos que se incluyen en el informe. Para configurar las fechas de la programación del informe, consulte la sección &quot;[!UICONTROL Report run schedule]&quot;.
 
@@ -107,7 +108,7 @@ Esta sección determina los datos que se incluyen en el informe. Para configurar
 
 * **[!UICONTROL Custom Range]:** Incluye datos entre fechas de inicio y finalización específicas. Para informar desde el día anterior, seleccione **[!UICONTROL Present]**.
 
-### Sección [!UICONTROL Report Run schedule]
+### [!UICONTROL Report Run schedule] sección
 
 Esta sección determina las fechas en las que se ejecuta el informe. Para configurar las fechas en las que se incluirán los datos del informe, consulte la sección &quot;[!UICONTROL Report range]&quot;.
 
@@ -135,7 +136,7 @@ Esta sección determina las fechas en las que se ejecuta el informe. Para config
 
    * **Hasta**: La fecha de caducidad del informe, que puede ser dentro de cuatro meses calendario. Antes de que caduque un informe, todos los destinos de correo electrónico especificados reciben una alerta de correo electrónico siete días y un día antes de la fecha de caducidad. Para mantener el informe más tiempo, cambie esta fecha.
 
-### Sección [!UICONTROL Apply Filters]
+### [!UICONTROL Apply Filters] sección
 
 **[!UICONTROL Filter by]:** (Opcional) Dimensiones adicionales mediante las cuales filtrar los datos, independientemente de si las dimensiones se incluyen o no como columnas en el informe. Los filtros disponibles varían según el tipo de informe y pueden incluir: *[!UICONTROL Advertiser]*, *[!UICONTROL Experience]*, *[!UICONTROL Creative Library]* y *[!UICONTROL DSP]*<!-- Clarify what this is for, Advertising DSP or whatever DSP the ads were run from? -->.
 
@@ -145,7 +146,7 @@ Para aplicar uno o más filtros, haga lo siguiente:
 * (Opcional) Añada criterios adicionales al filtro.
 * (Opcional) Añada filtros adicionales, cada uno con uno o más criterios.
 
-### Sección [!UICONTROL Build Your Report]
+### [!UICONTROL Build Your Report] sección
 
 **[!UICONTROL Select To Add As Report Headers]:** Las columnas de datos, o encabezados, que se incluirán en el informe. Para agregar una columna, expanda la categoría y active la casilla de verificación situada junto al nombre de la columna. Las columnas disponibles varían según el informe y todas las métricas no disponibles están deshabilitadas.<!-- Add back once I have this completed, and reconsider wording of link/anchor:  See "[Available Report Columns](#report-custom-creative-columns)" for descriptions of all options. -->
 
@@ -155,7 +156,7 @@ Para aplicar uno o más filtros, haga lo siguiente:
 
 **[!UICONTROL Headers]:** Ya sea para *[!UICONTROL Include]* o *[!UICONTROL Do Not Include]* encabezados de columna.
 
-### Sección [!UICONTROL Multi-Touch Conversion Options]
+### [!UICONTROL Multi-Touch Conversion Options] sección
 
 **[!UICONTROL Attribution Rule Settings]:** La configuración varía según el tipo de informe:
 
@@ -191,7 +192,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL Impressions Only (VT)]:* Incluye solo las conversiones que se atribuyeron a impresiones porque no se rastreó ningún clic en la ruta de conversión.
 
-### Sección [!UICONTROL Add Report Destinations]
+### [!UICONTROL Add Report Destinations] sección
 
 **[!UICONTROL Destination Type]:** Dónde entregar los informes completados y las notificaciones de error. Una vez guardado el informe, no se puede cambiar el tipo de destino.
 
@@ -207,7 +208,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
@@ -230,7 +231,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 <!-- This needs a lot of updating for new report:
 
-## Available Report Columns {#report-custom-creative-columns}
+## Available report columns {#report-custom-creative-columns}
 
 |Metric Type|Subtype|Column Name|Description|
 |-----------|-------|-----------|-----------|
