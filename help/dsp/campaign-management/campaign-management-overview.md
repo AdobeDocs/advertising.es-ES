@@ -56,4 +56,4 @@ Todos los anuncios activos y aprobados de una ubicación activa en una campaña 
 >* [Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Tipos de informes de rendimiento en las vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Administrar Las Vistas De Datos De Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=es)
