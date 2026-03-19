@@ -3,7 +3,7 @@ title: Configuración de cuentas de red de publicidad para la carga de datos
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
+source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Para obtener detalles acerca de la funcionalidad disponible para cada red de anu
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]:** Search, Social y Commerce permiten la captura automatizada de datos para un bloque de S3 especificado.
 
-## Ficha [!UICONTROL Setup Analytics]
+### Ficha [!UICONTROL Setup Analytics]
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (Anunciantes con una [[!DNL Adobe Analytics for Advertising] integración](/help/integrations/analytics/overview.md); opcional) Uno o más grupos de informes de Analytics a los que Search, Social y Commerce envían datos que se cargan para la red de anuncios, incluidas las clasificaciones de entidades y los datos de clics de la cuenta.
 
