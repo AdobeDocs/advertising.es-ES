@@ -3,7 +3,7 @@ title: Usando [!DNL Marketing Channels] con datos de Adobe Advertising
 description: Aprenda a utilizar los datos de Adobe Advertising en  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: 4db751aae61eaf8abdc5e3afca3b4027f0eddf26
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -55,5 +55,5 @@ Puede mejorar aún más el análisis si utiliza un gráfico de pila establecido 
 >* [Aspectos básicos de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Uso de Adobe Advertising ID para crear [!DNL Marketing Channels] reglas de procesamiento](mc-ids.md)
 >* [Por qué los datos de canal pueden variar entre Adobe Advertising y [!DNL Marketing Channels]](mc-data-variances.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=es)
+>* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Información general de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
