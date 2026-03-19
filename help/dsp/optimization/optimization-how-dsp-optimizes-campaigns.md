@@ -3,7 +3,7 @@ title: Optimización de las campañas con DSP
 description: Descubra cómo DSP optimiza los paquetes en sus campañas.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DSP puede optimizar su entrega de dos formas fundamentales, con 20 variaciones d
 
 * Priorice el equilibrio entre la eficiencia de costes y la tasa de rendimiento
 
-Consulte [Objetivos de optimización y cómo utilizarlos](optimization-goals.md) para determinar qué objetivo de optimización puede ayudarle a lograr sus KPI.
+Vea [Objetivos de optimización y cómo utilizarlos](optimization-goals.md) para determinar qué objetivo de optimización puede ayudarle a lograr sus KPI.
 
 ### Paquetes que dan prioridad a la tasa de rendimiento
 
@@ -80,12 +80,12 @@ Los filtros de preoferta de colocación son la forma más estricta de garantizar
 >
 >Los filtros de pujas previas disponibles varían según el tipo de anuncio. Por ejemplo, para una ubicación de visualización estándar, puede filtrar por tasa de pulsaciones y visibilidad, pero no por tasa de finalización.
 
-Consulta [Filtros de pujas previas de nivel de ubicación y cómo usarlos](optimization-pre-bid-filters.md) para determinar qué filtro de pujas previas puede ayudarte a lograr tus KPI.
+Consulte [Filtros de ofertas previas de nivel de ubicación y cómo utilizarlos](optimization-pre-bid-filters.md) para determinar qué filtro de ofertas previas puede ayudarle a obtener sus KPI.
 
 >[!MORELIKETHIS]
 >
 >* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
->* [Filtros de pujas previas de nivel de ubicación y cómo usarlos](optimization-pre-bid-filters.md)
+>* [Objetivos de optimización y cómo usarlos](optimization-goals.md)
+>* [Filtros de puja previa de nivel de ubicación y cómo usarlos](optimization-pre-bid-filters.md)
 >* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)

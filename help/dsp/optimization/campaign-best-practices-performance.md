@@ -3,7 +3,7 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Debe configurar la optimización de CPA o ROAS en el nivel de paquete (consulte 
 
    * Considere la posibilidad de establecer filtros de oferta previa menos estrictos en los casos en que se aplique una segmentación adicional (como segmentación por audiencia, ubicación geográfica y sitio).
 
-Ver descripciones de cuándo usar cada filtro de oferta previa en [Filtros de oferta previa de nivel de ubicación y cómo usarlos](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Ver descripciones de cuándo usar cada filtro de oferta previa en [filtros de oferta previa de nivel de ubicación y cómo usarlos](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Inventario
 
@@ -157,7 +157,7 @@ El uso del filtrado contextual, el bloqueo de fraude de oferta previa o el filtr
 >
 >* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Cómo DSP Optimiza Sus Campañas](optimization-how-dsp-optimizes-campaigns.md)
->* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
->* [Filtros de pujas previas de nivel de ubicación y cómo usarlos](optimization-pre-bid-filters.md)
+>* [Cómo DSP optimiza sus campañas](optimization-how-dsp-optimizes-campaigns.md)
+>* [Objetivos de optimización y cómo usarlos](optimization-goals.md)
+>* [Filtros de puja previa de nivel de ubicación y cómo usarlos](optimization-pre-bid-filters.md)
 >* [Lista de comprobación de inicio de campaña](/help/dsp/campaign-management/campaign-launch-checklist.md)

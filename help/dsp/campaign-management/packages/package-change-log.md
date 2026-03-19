@@ -3,9 +3,9 @@ title: Ver un registro de cambios de paquete
 description: Obtenga información sobre cómo ver los cambios realizados en el paquete.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Puede ordenar los datos por cualquier columna excepto por Valor nuevo y Valor an
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de paquetes](package-about.md)
+>* [Acerca de la administración de paquetes en Advertising DSP](package-about.md)
 >* [Crear un paquete](package-create.md)
 >* [Editar un paquete](package-edit.md)
 >* [Adjuntar una ubicación a un paquete](package-attach-placement.md)

@@ -3,7 +3,7 @@ title: Creación e implementación de un segmento de exclusión de CCPA
 description: Obtenga información sobre cómo crear e implementar un segmento para rastrear los ID de usuario de solicitudes de exclusión de venta de consumidores.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Una vez implementada la etiqueta de píxel de segmento, Adobe Advertising empiez
 
 >[!NOTE]
 >
->* Para obtener información sobre cómo comunicar las solicitudes de exclusión de la venta de CCPA a Adobe Advertising mediante la API de Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=es](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=es).
+>* Para obtener información sobre cómo comunicar las solicitudes de exclusión de la venta de CCPA a Adobe Advertising mediante la API de Adobe Experience Platform Privacy Service, consulte [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Para rastrear a usuarios que visitan páginas web con fines no relacionados con el seguimiento de eventos de exclusión de la venta de la CCPA, así como a usuarios expuestos a anuncios de dispositivos de escritorio, móviles y de CTV, cree un [segmento personalizado](/help/dsp/audiences/custom-segment-create.md).
 
 1. Cree el segmento:

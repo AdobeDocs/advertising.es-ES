@@ -3,7 +3,7 @@ title: Ver perspectivas de la subasta de un acuerdo privado
 description: Aprenda a utilizar perspectivas de subasta para analizar la composición de la oferta de una oferta privada.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -49,6 +49,6 @@ Hay gráficos de áreas disponibles para los siguientes atributos de subasta:
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
->* [Especificar ubicaciones y anuncios para un ID de acuerdo](deal-id-attach-placements.md)
+>* [Especificar ubicaciones y anuncios para un id. de oferta](deal-id-attach-placements.md)
 >* [Ver un informe detallado de una oferta](deal-view-report.md)
->* [Tipos de informes de rendimiento en las vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)

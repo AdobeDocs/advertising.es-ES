@@ -2,7 +2,7 @@
 title: Ver píxeles de evento para una oferta de [!UICONTROL Simple Ad Serving]
 description: Obtenga información sobre cómo obtener una copia de los píxeles de seguimiento de eventos para una oferta de [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -25,6 +25,6 @@ Los píxeles del evento incluyen un píxel [!UICONTROL Clickthrough] y un píxel
 >
 >* [Acerca de [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
 >* [Crear una oferta [!UICONTROL Simple Ad Serving]](simple-deal-create.md)
->* [Editar la configuración de la oferta de [!UICONTROL Simple Ad Serving]](simple-deal-edit.md)
->* Configuración de [[!UICONTROL Simple Ad Serving]](simple-deal-settings.md)
+>* [Editar la configuración de la oferta [!UICONTROL Simple Ad Serving]](simple-deal-edit.md)
+>* [[!UICONTROL Simple Ad Serving] configuración](simple-deal-settings.md)
 >* [Ver un informe detallado de una oferta](/help/dsp/inventory/deal-view-report.md)

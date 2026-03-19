@@ -3,7 +3,7 @@ title: Archivar o desarchivar una operación privada
 description: Aprenda a archivar o desarchivar una oferta privada.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -47,4 +47,4 @@ Si el editor o el SSP habían desactivado anteriormente la oferta y desea volver
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
->* [Editar configuración de acuerdo privado](/help/dsp/inventory/deal-id-edit.md)
+>* [Editar configuración de acuerdos privados](/help/dsp/inventory/deal-id-edit.md)

@@ -3,9 +3,9 @@ title: Creación de una ubicación
 description: Obtenga información sobre cómo crear una ubicación.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -136,15 +136,15 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de ubicaciones](placement-about.md)
+>* [Acerca de la administración de ubicaciones en Advertising DSP](placement-about.md)
 >* [Editar ubicaciones](placement-edit.md)
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
->* [Editar los horarios de anuncios para las ubicaciones](placement-edit-ad-schedule.md)
+>* [Editar las programaciones de anuncios de las ubicaciones](placement-edit-ad-schedule.md)
 >* [Desactivar o activar una ubicación](placement-pause-activate.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Preguntas frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)
->* [Vídeo: Cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/344998?captions=spa)
+>* [Vídeo: cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/340454)

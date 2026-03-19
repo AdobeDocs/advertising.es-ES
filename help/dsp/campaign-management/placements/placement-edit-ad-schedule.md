@@ -3,16 +3,16 @@ title: Editar programaciones de anuncios para ubicaciones
 description: Aprenda a cambiar los programas de anuncios de los anuncios adjuntos a las ubicaciones.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 # Editar programaciones de anuncios para ubicaciones
 
-## Editar los horarios de anuncios de una o más ubicaciones
+## Editar las programaciones de anuncios de una o varias ubicaciones
 
 Puede cambiar las fechas de vuelo programadas y la rotación de anuncios de los anuncios adjuntos a varias ubicaciones mediante una hoja de cálculo de [!DNL Microsoft Excel]. Cada anuncio puede estar activo durante varios vuelos.
 
@@ -46,7 +46,7 @@ Puede cambiar las fechas de vuelo programadas y la rotación de anuncios de los 
 
    1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]** y especifique el archivo que desea cargar.
 
-## Editar la programación de anuncios de una sola ubicación
+## Editar la programación de anuncios para una sola ubicación
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- just simple ad serving placements (PG ones seem okay)? And anything else? -->
 
@@ -78,7 +78,7 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad pa
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de ubicaciones](placement-about.md)
+>* [Acerca de la administración de ubicaciones en Advertising DSP](placement-about.md)
 >* [Editar ubicaciones](placement-edit.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)

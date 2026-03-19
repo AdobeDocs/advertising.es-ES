@@ -3,9 +3,9 @@ title: Configuración de paquetes
 description: Consulte las descripciones de la configuración del paquete disponible.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ Para paquetes con vuelo personalizado, el intervalo de presupuesto siempre es *[
 
 **[!UICONTROL Gross Budget]:** (Paquetes con ritmo de nivel de paquete y solo administración dinámica de márgenes) Límite de presupuesto bruto para la duración del paquete.
 
-**[!UICONTROL Optimization Goal]:** (Paquetes con ritmo de nivel de paquete solamente) El objetivo de optimización del paquete. Consulte las descripciones de cada objetivo de optimización en [Objetivos de optimización y cómo usarlos](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** (Paquetes con ritmo de nivel de paquete solamente) El objetivo de optimización del paquete. Ver descripciones de cada objetivo de optimización en [Objetivos de optimización y cómo usarlos](/help/dsp/optimization/optimization-goals.md).
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Paquetes con ritmo a nivel de paquete y con los objetivos de optimización &quot;[!UICONTROL Always Max Bid & Maximize Reach]&quot; y &quot;[!UICONTROL Lowest Cost per Reach]&quot; solamente) Utiliza los datos de alcance doméstico de todas las ubicaciones garantizadas mediante programación en la campaña para optimizar el alcance incremental.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Paquetes con los objetivos de optimización &quot;[!UICONTROL Highest Return on Ad Spend]&quot; y &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; solamente) Un [objetivo personalizado](/help/dsp/optimization/custom-goal.md) que incluye los eventos de ingresos o conversión usados para calcular la métrica de CPA o ROAS. El objetivo personalizado debe incluir eventos de funnel superior ponderados adicionales (como visitas a la página y adiciones al carro de compras) que se utilizarán además de la métrica de CPA o ROAS para la optimización de paquetes. Para obtener más información acerca de los objetivos personalizados, incluidas las prácticas recomendadas para crear objetivos personalizados y campañas que los usen, consulte &quot;[Objetivos personalizados](/help/dsp/optimization/custom-goal.md)&quot; y &quot;[Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;.<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
+**[!UICONTROL Custom Goal for Model Learning]:** (Paquetes con los objetivos de optimización &quot;[!UICONTROL Highest Return on Ad Spend]&quot; y &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; solamente) Un [objetivo personalizado](/help/dsp/optimization/custom-goal.md) que incluye los eventos de ingresos o conversión usados para calcular la métrica de CPA o ROAS. El objetivo personalizado debe incluir eventos de funnel superior ponderados adicionales (como visitas a la página y adiciones al carro de compras) que se utilizarán además de la métrica de CPA o ROAS para la optimización de paquetes. Para obtener más información acerca de los objetivos personalizados, incluidas las prácticas recomendadas para crear objetivos personalizados y campañas que los usen, vea &quot;[Objetivos personalizados](/help/dsp/optimization/custom-goal.md)&quot; y &quot;[Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)&quot;.<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Opcional; paquetes con los objetivos de optimización &quot;[!UICONTROL Highest Return on Ad Spend]&quot; y &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; solamente) Indica al modelo de optimización que aprenda solamente de las conversiones basadas en clics. De lo contrario, el modelo de optimización aprende de las conversiones basadas en clics e impresiones.
 
@@ -127,7 +127,7 @@ En el caso de los paquetes existentes sin la opción &quot;[!UICONTROL Automatic
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de paquetes](package-about.md)
+>* [Acerca de la administración de paquetes en Advertising DSP](package-about.md)
 >* [Crear un paquete](package-create.md)
 >* [Editar un paquete](package-edit.md)
 >* [Adjuntar una ubicación a un paquete](package-attach-placement.md)
