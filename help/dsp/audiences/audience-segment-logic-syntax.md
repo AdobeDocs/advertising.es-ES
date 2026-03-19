@@ -1,16 +1,16 @@
 ---
-title: Sintaxis de la lógica de segmento de audiencia
+title: Sintaxis de la lógica de segmentos de audiencia
 description: Haga referencia a la sintaxis que puede utilizar para definir la lógica de los segmentos de audiencia.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# Sintaxis de la lógica de segmento de audiencia
+# Sintaxis de la lógica de segmentos de audiencia
 
 Cuando cree audiencias reutilizables, puede definir manualmente la lógica de segmentos mediante ID de segmento alfanuméricos (claves) y la siguiente sintaxis:
 
@@ -42,7 +42,7 @@ significa (en inglés)
 
 >[!MORELIKETHIS]
 >
->* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
+>* [Copie la clave de segmento de una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
 >* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Configuración de audiencia](audience-settings.md)

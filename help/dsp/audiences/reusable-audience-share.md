@@ -3,7 +3,7 @@ title: Compartir una audiencia reutilizable
 description: Aprenda a compartir una audiencia reutilizable con otros anunciantes disponibles en su cuenta.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -30,9 +30,9 @@ Una vez que comparta una audiencia, no puede dejar de compartirla.
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)
->* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
+>* [Copie la clave de segmento de una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
 >* [Eliminar una audiencia reutilizable](reusable-audience-delete.md)
 >* [Configuración de audiencia](audience-settings.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)

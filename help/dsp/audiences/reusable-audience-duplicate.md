@@ -3,7 +3,7 @@ title: Duplicación de una audiencia reutilizable
 description: Obtenga información sobre cómo duplicar una audiencia reutilizable.
 feature: DSP Audiences
 exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -31,10 +31,10 @@ Puede crear una audiencia duplicando una audiencia existente.
 >* [Acerca de la administración de audiencias](audience-about.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)
->* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
+>* [Copie la clave de segmento de una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
 >* [Eliminar una audiencia reutilizable](reusable-audience-delete.md)
 >* [Configuración de audiencia](audience-settings.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)

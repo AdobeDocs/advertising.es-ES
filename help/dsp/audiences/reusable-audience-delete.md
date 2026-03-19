@@ -3,7 +3,7 @@ title: Eliminar una audiencia reutilizable
 description: Obtenga información sobre cómo eliminar una audiencia reutilizable.
 feature: DSP Audiences
 exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -32,10 +32,10 @@ Si una audiencia está actualmente en uso, tiene la opción de exportar una hoja
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)
->* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
+>* [Copie la clave de segmento de una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
 >* [Configuración de audiencia](audience-settings.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)

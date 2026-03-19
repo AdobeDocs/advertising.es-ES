@@ -1,16 +1,16 @@
 ---
-title: Copiar la clave del segmento para una audiencia reutilizable en el portapapeles
+title: Copie la clave de segmento de una audiencia reutilizable en el portapapeles
 description: Obtenga información sobre cómo ver la configuración y el tamaño de la audiencia para una audiencia reutilizable.
 feature: DSP Audiences
 exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
-# Copiar la clave del segmento para una audiencia reutilizable en el portapapeles
+# Copie la clave de segmento de una audiencia reutilizable en el portapapeles
 
 Puede copiar la clave de segmento alfanumérica (ID) de una audiencia en el portapapeles. Puede usar claves de segmento para [definir manualmente la lógica de segmento](audience-segment-logic-syntax.md) para otras audiencias reutilizables.
 
@@ -26,7 +26,7 @@ Puede copiar la clave de segmento alfanumérica (ID) de una audiencia en el port
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
 >* [Exportar una audiencia reutilizable](reusable-audience-export.md)
 >* [Eliminar una audiencia reutilizable](reusable-audience-delete.md)
