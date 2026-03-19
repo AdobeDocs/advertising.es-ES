@@ -3,7 +3,7 @@ title: Revisar y editar los detalles de la publicidad mediante hojas de edición
 description: Obtenga información sobre cómo revisar la configuración de la publicidad de forma masiva mediante hojas de cálculo.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Puede descargar detalles sobre todos los anuncios de una campaña en formato XLSX (hoja de cálculo de Excel) para revisarlos. Los detalles de la *hoja de edición masiva* incluyen una pestaña con la configuración y las ubicaciones asociadas para cada anuncio y otra pestaña con cada píxel utilizado para los anuncios en la campaña.
 
-Para editar los detalles del anuncio, consulte &quot;[Revisar y editar la configuración del componente de campaña mediante hojas de edición masiva](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
+Para editar los detalles del anuncio, consulte &quot;[Revisar y editar la configuración del componente de campaña mediante hojas de edición por lotes](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
 
 >[!NOTE]
 >
@@ -45,16 +45,16 @@ Un mensaje de notificación indica cuándo está disponible la descarga del arch
 
    * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
 
-     El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 >[!MORELIKETHIS]
 >
 >* [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
->* [Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+>* [Adjuntar anuncios a las ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
 >* [Configuración de anuncios de audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
 >* [Configuración de TV conectada](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Configuración de anuncios de pantalla](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [Configuración de publicidad móvil](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [Configuración nativa de anuncios en pantalla](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Configuración de anuncio previo a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Configuración del anuncio de pantalla](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Configuración de anuncios móviles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [Configuración nativa del anuncio en pantalla](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [Configuración del anuncio previo a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Configuración de anuncio de vídeo universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

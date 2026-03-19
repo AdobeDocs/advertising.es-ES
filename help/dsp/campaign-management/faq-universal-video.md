@@ -1,16 +1,16 @@
 ---
-title: Preguntas frecuentes sobre Universal Video
+title: Preguntas frecuentes sobre universal video
 description: Más información sobre los anuncios de vídeo universales.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Preguntas frecuentes sobre Universal Video
+# Preguntas frecuentes sobre universal video
 
 [Los anuncios de vídeo universales](/help/dsp/campaign-management/ads/ad-about.md#ad-types) le permiten segmentar el inventario de vídeos desde entornos de escritorio, móviles y de TV conectada para el inventario VPAID y VAST con una sola ubicación de vídeo.
 
@@ -42,7 +42,7 @@ Cree ubicaciones de vídeo universales y agregue anuncios de forma similar a com
 
 1. [Adjunte los nuevos anuncios universales de vídeo](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) a la ubicación universal de vídeo.
 
-## ¿Por qué algunos objetivos y paquetes de optimización no están disponibles cuando el entorno de TV conectado está seleccionado para una ubicación de vídeo universal?
+## ¿Por qué algunos objetivos y paquetes de optimización no están disponibles cuando se selecciona el entorno de TV conectado para una ubicación de vídeo universal?
 
 Los objetivos que son incompatibles con las ubicaciones de TV conectadas estándar, como Coste por clic más bajo, no son compatibles con el entorno de TV conectado en ubicaciones de vídeo universales. Del mismo modo, los paquetes con objetivos de optimización incompatibles tampoco están disponibles para su selección.
 

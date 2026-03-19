@@ -3,7 +3,7 @@ title: Administrar las vistas de datos de campaña
 description: Descubra cómo puede personalizar las vistas de datos para campañas, paquetes, ubicaciones y anuncios.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -48,7 +48,7 @@ DSP guarda la vista más reciente como vista predeterminada para que, cada vez q
 
 * En el selector de vista, haga clic en ![flecha abajo](/help/dsp/assets/chevron-down.png) y, a continuación, haga clic en el nombre de la vista de columna que desee.
 
-#### Crear una vista de columna personalizada {#column-view-create}
+#### Creación de una vista de columna personalizada {#column-view-create}
 
 1. En el selector de vista, haga clic en ![flecha abajo](/help/dsp/assets/chevron-down.png) y, a continuación, haga clic en **[!UICONTROL Create View]**.
 
@@ -96,7 +96,7 @@ DSP guarda la vista más reciente como vista predeterminada para que, cada vez q
 
    * Para guardar la configuración en una nueva vista de columna personalizada, haga clic en **[!UICONTROL Save As]**. En la ventana [!UICONTROL Save View], escriba el nombre de la nueva vista y haga clic en **[!UICONTROL Save]**.
 
-### Filtrado de datos de Campaign {#filter-data-tables}
+### Filtrado de datos de campaña {#filter-data-tables}
 
 Los filtros cambian los datos que se muestran en la pestaña actual. Los filtros disponibles varían según el tipo de entidad, pero pueden incluir el nombre de la entidad, el estado y columnas de propiedad adicionales.
 
@@ -142,7 +142,7 @@ Los siguientes filtros están disponibles para las vistas [!UICONTROL Campaigns]
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
 
-### Cambio del intervalo de fechas
+### Cambio del intervalo de fecha
 
 Cambie el intervalo de fechas utilizado en todas las vistas estándar y personalizadas mediante el selector de intervalo de fechas situado encima de cualquier tabla de datos.
 
@@ -165,15 +165,15 @@ Puede ordenar cualquier columna de datos en orden ascendente (A a Z o 1 a 10) o 
 * Haga clic en el encabezado de la columna para cambiar entre orden ascendente y descendente.
 
 
-### Especificar el número de filas de datos
+### Especifique el número de filas de datos
 
 En la parte inferior derecha de cualquier página, junto a **[!UICONTROL Items per page]** , seleccione *[!UICONTROL 25]*, *[!UICONTROL 50]* o *[!UICONTROL 100]*.
 
 >[!MORELIKETHIS]
 >
->* [Tipos de informes de rendimiento en las vistas de administración de campañas](campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en vistas de administración de campañas](campaign-reports-about.md)
 >* [Ver los sitios, anuncios y detalles de frecuencia de una ubicación](placement-details-view.md)
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Ver los informes de diagnóstico de ubicación](placement-diagnostics.md)
->* [Exportar datos de una vista de administración de Campaign](campaign-export-data.md)
->* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=es)
+>* [Exportar datos desde una vista de administración de campañas](campaign-export-data.md)
+>* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
