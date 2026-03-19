@@ -90,7 +90,7 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
    * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
 
-* Para los paquetes que utilizan objetivos de optimización personalizados, use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
+* Para los paquetes que utilizan objetivos de optimización personalizados, use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
 
 >[!MORELIKETHIS]
 >
