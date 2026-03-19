@@ -3,7 +3,7 @@ title: Macros de Advertising DSP
 description: Haga referencia a las macros disponibles para el seguimiento general y para rastrear clics en anuncios en pantalla de terceros.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Utilice macros de seguimiento generales en todos los tipos de publicidad y etiqu
 |` ${TM_MACRO_PROMOTED_AD_KEY}` | The promoted ad key for the placement. Required for [!DNL AppsFlyer] click trackers for mobile app install ads. | string |
  -->
 
-## Macros específicas para móviles
+## Macros específicas de dispositivos móviles
 
 | Macro | Descripción de reemplazo | Tipo |
 | ----- | ----------------------- | ---- |
@@ -87,7 +87,7 @@ Si falta una macro de clic al generar un anuncio de visualización, DSP muestra 
 
 ## [!DNL Analytics for Advertising] macros
 
-Para obtener macros adicionales disponibles específicamente para los clientes de [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), consulte &quot;[Anexar [!DNL Analytics for Advertising] Macros a [!DNL Flashtalking] Etiquetas de publicidad](/help/integrations/analytics/macros-flashtalking.md)&quot; y &quot;[Anexar [!DNL Analytics for Advertising] Macros a [!DNL Google Campaign Manager 360] Etiquetas de publicidad](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;.
+Para obtener macros adicionales disponibles específicamente para los clientes de [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md), consulte &quot;[Anexar [!DNL Analytics for Advertising] macros a [!DNL Flashtalking] etiquetas de publicidad](/help/integrations/analytics/macros-flashtalking.md)&quot; y &quot;[Anexar [!DNL Analytics for Advertising] macros a [!DNL Google Campaign Manager 360] etiquetas de publicidad](/help/integrations/analytics/macros-google-campaign-manager.md)&quot;.
 
 ## Solución de problemas de macros
 
@@ -101,9 +101,9 @@ Los errores se generan si faltan caracteres desde el principio o el final del no
 >[!MORELIKETHIS]
 >
 >* [Configuración de anuncios de audio](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Configuración de anuncios de TV conectados](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Configuración de anuncios de pantalla](/help/dsp/campaign-management/ads/ad-settings-display.md)
->* [Configuración de publicidad móvil](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
->* [Configuración de publicidad nativa](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Configuración de anuncio previo a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Configuración del anuncio de TV conectado](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Configuración del anuncio de pantalla](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Configuración de anuncios móviles](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+>* [Configuración de anuncio nativo](/help/dsp/campaign-management/ads/ad-settings-native.md)
+>* [Configuración del anuncio previo a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Configuración de anuncio de vídeo universal](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

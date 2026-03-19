@@ -1,15 +1,15 @@
 ---
-title: Convertir los identificadores de usuario de  [!DNL ActionIQ]  a identificadores universales
+title: Convertir ID de usuario de  [!DNL ActionIQ]  a ID universales
 description: Aprenda a habilitar DSP para que ingrese sus  [!DNL ActionIQ] segmentos de origen.
 feature: DSP Audiences
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
-# Convertir los identificadores de usuario de [!DNL ActionIQ] a identificadores universales
+# Convertir ID de usuario de [!DNL ActionIQ] a ID universales
 
 *característica de Beta*
 
@@ -39,14 +39,14 @@ Los segmentos se actualizan cada 24 horas.
 
 ## Resolución de problemas
 
-Para solucionar problemas de tasa de traducción y recuento de usuarios, consulte &quot;[Compatibilidad con la activación de identificadores universales](/help/dsp/audiences/universal-ids.md)&quot;.
+Para solucionar problemas de tasa de traducción y recuento de usuarios, consulte &quot;[Compatibilidad con la activación de los identificadores universales](/help/dsp/audiences/universal-ids.md)&quot;.
 
 Para solucionar problemas con el procedimiento de conversión, póngase en contacto con el equipo de cuenta de Adobe o con `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
->* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
+>* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
 >* [Convertir los identificadores de usuario de [!DNL Adobe Real-Time CDP] a identificadores universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Convertir los identificadores de usuario de [!DNL Tealium] a identificadores universales](/help/dsp/audiences/sources/source-tealium.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)
