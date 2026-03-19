@@ -1,16 +1,16 @@
 ---
-title: Acerca de [!UICONTROL Report Destinations]
+title: Acerca de los destinos de informe
 description: Obtenga información sobre la administración de ubicaciones de entrega para los informes personalizados.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# Acerca de [!UICONTROL Report Destinations]
+# Acerca de los destinos de informe
 
 Puede crear y administrar ubicaciones de entrega, denominadas *[!DNL report destinations]*, para sus informes personalizados. Una vez configurados los destinos de los informes, puede configurar cada uno de los informes personalizados para que se envíen a una o varias ubicaciones de un solo tipo de destino. Una vez guardado un informe, no se puede cambiar el tipo de destino.
 
@@ -39,7 +39,7 @@ Puede crear nuevos destinos y editar y eliminar destinos existentes desde esta v
 
 >[!MORELIKETHIS]
 >
->* [Crear un(a) [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* Configuración de [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Crear un destino de informe](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Configuración de destino del informe](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Editar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Eliminar un destino de informe](/help/dsp/reports/report-destinations/report-destination-delete.md)

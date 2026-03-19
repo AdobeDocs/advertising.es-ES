@@ -1,16 +1,16 @@
 ---
-title: Crear un destino de informe
+title: Creación de un destino de informe
 description: Obtenga información sobre cómo crear un destino para el envío de informes personalizados.
 feature: DSP Custom Reports
 exl-id: 2a8d6cef-9c33-4483-ac1e-93778a231962
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
 
-# Crear un destino de informe
+# Creación de un destino de informe
 
 1. En el menú principal, haga clic en **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* Configuración de [[!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Acerca de los destinos del informe](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Configuración de destino del informe](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Editar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Eliminar un destino de informe](/help/dsp/reports/report-destinations/report-destination-delete.md)

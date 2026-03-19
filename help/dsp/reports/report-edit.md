@@ -1,9 +1,9 @@
 ---
 title: Edición de un informe personalizado
-description: Obtenga información sobre cómo editar la configuración personalizada de informes.
+description: Obtenga información sobre cómo editar la Configuración de informes personalizada.
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
@@ -28,6 +28,6 @@ ht-degree: 0%
 >* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
 >* [Ejecutar un informe personalizado](/help/dsp/reports/report-run-now.md)
 >* [Eliminar un informe personalizado](/help/dsp/reports/report-delete.md)
->* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
->* [Tipos de informes de rendimiento en las vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Configuración de informe personalizado](/help/dsp/reports/report-settings.md)
+>* [Tipos de informes de rendimiento en vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)

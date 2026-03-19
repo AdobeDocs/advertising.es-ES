@@ -3,7 +3,7 @@ title: Eliminación de un informe personalizado
 description: Obtenga información sobre cómo eliminar un informe personalizado.
 feature: DSP Custom Reports
 exl-id: e3cebb69-bab6-4f41-94fd-b4471f9bbdb9
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%
@@ -25,5 +25,5 @@ ht-degree: 0%
 >* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
 >* [Descargar un informe personalizado](/help/dsp/reports/report-download.md)
->* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
+>* [Configuración de informe personalizado](/help/dsp/reports/report-settings.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)

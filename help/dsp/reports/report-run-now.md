@@ -3,7 +3,7 @@ title: Ejecutar un informe personalizado
 description: Obtenga información sobre cómo ejecutar un informe personalizado inmediatamente.
 feature: DSP Custom Reports
 exl-id: b256803d-45f9-445f-bf42-22cc7ce76792
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
@@ -31,5 +31,5 @@ Puede ejecutar cualquier informe que no haya caducado y que no se esté ejecutan
 >* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
 >* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
->* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
+>* [Configuración de informe personalizado](/help/dsp/reports/report-settings.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)

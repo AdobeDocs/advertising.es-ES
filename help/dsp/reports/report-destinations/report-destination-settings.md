@@ -3,9 +3,9 @@ title: Configuración de destino del informe
 description: Consulte los detalles necesarios para los destinos de informe, por tipo de destino.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Los detalles necesarios para los destinos de informe que no son de correo electr
 
 >[!MORELIKETHIS]
 >
->* [Acerca de [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Crear un(a) [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Acerca de los destinos del informe](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Crear un destino de informe](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Editar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Eliminar un [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Eliminar un destino de informe](/help/dsp/reports/report-destinations/report-destination-delete.md)

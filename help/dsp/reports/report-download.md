@@ -3,7 +3,7 @@ title: Descargar un informe personalizado
 description: Obtenga información sobre cómo descargar un informe personalizado inmediatamente.
 feature: DSP Custom Reports
 exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -35,5 +35,5 @@ Puede descargar cualquier instancia de informe completada de los últimos cuatro
 >* [Duplicar un informe personalizado](/help/dsp/reports/report-copy.md)
 >* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
 >* [Ejecutar un informe personalizado](/help/dsp/reports/report-run-now.md)
->* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
+>* [Configuración de informe personalizado](/help/dsp/reports/report-settings.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
