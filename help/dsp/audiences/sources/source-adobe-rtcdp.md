@@ -3,7 +3,7 @@ title: Usando la integración de DSP con  [!DNL Adobe] [!DNL Real-time CDP]
 description: Aprenda a habilitar DSP para ingerir los segmentos de origen de  [!DNL Adobe] [!DNL Real-time CDP].
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Use la integración de DSP con [the [!DNL Adobe Real-Time CDP]](https://experien
 
 1. En Adobe Experience Platform, configure una conexión de destino de Advertising DSP con el [!UICONTROL Source Key] que se generó en la configuración de origen de DSP.
 
-   Para obtener instrucciones para activar la conexión de destino de DSP, seleccionar segmentos y acceder a los permisos de control, consulte &quot;[Conexión DSP de Adobe Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)&quot;.
+   Para obtener instrucciones para activar la conexión de destino de DSP, seleccionar segmentos y acceder a los permisos de control, consulte &quot;[Conexión DSP de Adobe Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;.
 
    Las direcciones de correo electrónico de origen deben tener un cifrado hash con el algoritmo SHA-256.
 
@@ -42,15 +42,15 @@ Los segmentos se actualizan cada 24 horas. Sin embargo, la inclusión en un segm
 
 ## Resolución de problemas
 
-Para solucionar problemas de tasa de traducción y recuento de usuarios, consulte &quot;[Compatibilidad con la activación de identificadores universales](/help/dsp/audiences/universal-ids.md)&quot;.
+Para solucionar problemas de tasa de traducción y recuento de usuarios, consulte &quot;[Compatibilidad con la activación de los identificadores universales](/help/dsp/audiences/universal-ids.md)&quot;.
 
 Para solucionar problemas con el procedimiento de conversión, póngase en contacto con el equipo de cuenta de Adobe o con `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
->* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
->* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es)
->* [Compatibilidad con la activación de identificadores universales](/help/dsp/audiences/universal-ids.md)
+>* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Compatibilidad para activar identificadores universales](/help/dsp/audiences/universal-ids.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)

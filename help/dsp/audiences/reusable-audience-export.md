@@ -3,7 +3,7 @@ title: Exportar detalles sobre una audiencia reutilizable
 description: Obtenga información sobre cómo ver la configuración, el tamaño de la audiencia y las ubicaciones segmentadas para una audiencia reutilizable.
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -26,9 +26,9 @@ Puede descargar un archivo de hoja de cálculo de [!DNL Microsoft Excel] con la 
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Duplicar una audiencia reutilizable](reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](reusable-audience-edit.md)
->* [Ver detalles acerca de una audiencia reutilizable](reusable-audience-view-details.md)
+>* [Ver detalles sobre una audiencia reutilizable](reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](reusable-audience-share.md)
->* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
+>* [Copie la clave de segmento de una audiencia reutilizable en el portapapeles](reusable-audience-clipboard.md)
 >* [Eliminar una audiencia reutilizable](reusable-audience-delete.md)
 >* [Configuración de audiencia](audience-settings.md)
 >* [Sintaxis de la lógica de segmento de audiencia](audience-segment-logic-syntax.md)

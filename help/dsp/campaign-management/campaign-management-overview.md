@@ -3,9 +3,9 @@ title: Información general sobre la administración de campañas en Advertising
 description: Obtenga información acerca de la jerarquía y los componentes de administración de campañas.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,12 @@ Todos los anuncios activos y aprobados de una ubicación activa en una campaña 
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de campañas](/help/dsp/campaign-management/campaigns/campaign-about.md)
->* [Acerca de la administración de paquetes](/help/dsp/campaign-management/packages/package-about.md)
->* [Acerca de la administración de ubicaciones](/help/dsp/campaign-management/placements/placement-about.md)
->* [Acerca de la administración de anuncios](/help/dsp/campaign-management/ads/ad-about.md)
+>* [Acerca de la administración de campañas en Advertising DSP](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [Acerca de la administración de paquetes en Advertising DSP](/help/dsp/campaign-management/packages/package-about.md)
+>* [Acerca de la administración de ubicaciones en Advertising DSP](/help/dsp/campaign-management/placements/placement-about.md)
+>* [Acerca de la administración de anuncios en Advertising DSP](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Lista de comprobación de inicio de campaña](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Tipos de informes de rendimiento en las vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Administrar Las Vistas De Datos De Campaign](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=es)
+>* [Tipos de informes de rendimiento en vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Administrar las vistas de datos de tu campaña](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

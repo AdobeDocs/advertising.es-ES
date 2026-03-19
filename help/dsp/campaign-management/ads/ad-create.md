@@ -3,9 +3,9 @@ title: Crear un solo anuncio
 description: Obtenga información sobre cómo crear un solo anuncio de terceros.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Para crear varios anuncios de terceros a la vez, consulte [Crear varios anuncios
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de anuncios](ad-about.md)
+>* [Acerca de la administración de anuncios en Advertising DSP](ad-about.md)
 >* [Crear varios anuncios de terceros](ad-create-multiple.md)
 >* [Editar un anuncio](ad-edit.md)
 >* [Especificaciones del anuncio](ad-specs.md)
->* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Preguntas frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)

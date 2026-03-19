@@ -3,9 +3,9 @@ title: Configuración del anuncio previo a la emisión
 description: Consulte las descripciones de la configuración de anuncios disponibles para los anuncios previos a la emisión.
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Es el mismo que el campo **[!UICONTROL Height]**.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de anuncios](ad-about.md)
+>* [Acerca de la administración de anuncios en Advertising DSP](ad-about.md)
 >* [Crear un solo anuncio](ad-create.md)
 >* [Enumerar las ubicaciones asociadas con un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)

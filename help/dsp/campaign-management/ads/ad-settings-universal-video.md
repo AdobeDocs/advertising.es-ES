@@ -3,9 +3,9 @@ title: Configuración de anuncios de vídeo universales
 description: Consulte las descripciones de los ajustes de publicidad disponibles para los anuncios de vídeo universales.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ Utilice [!UICONTROL VAST], que no permite la medición de la visibilidad, cuando
 
 >[!MORELIKETHIS]
 >
->* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
->* [Acerca de la administración de anuncios](ad-about.md)
+>* [Preguntas frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Acerca de la administración de anuncios en Advertising DSP](ad-about.md)
 >* [Crear un solo anuncio](ad-create.md)
 >* [Enumerar las ubicaciones asociadas con un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)

@@ -3,9 +3,9 @@ title: Configuración de campaña
 description: Consulte las descripciones de las configuraciones de campaña disponibles.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Para calcular los impuestos retenidos:
 
 **[!UICONTROL Packages]:** Los [paquetes](/help/dsp/campaign-management/packages/package-about.md) que se incluirán en la campaña. Seleccione los paquetes existentes o cree los paquetes que desea incluir. Si crea paquetes, consulte las descripciones acerca de [configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md) para obtener más información.
 
-## [!UICONTROL Campaign Measurement]
+## [!UICONTROL Campaign measurement]
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Para calcular los impuestos retenidos:
 
 ### [!UICONTROL 3rd Party Metrics]
 
-#### [!UICONTROL Viewability, Fraud, & Brand Safety]
+#### [!UICONTROL Viewability, fraud, & brand safety]
 
 **[!UICONTROL IAS]:** (opcional) habilita la medición e informes de [!DNL IAS] de la visibilidad, el fraude, la seguridad de marca y la verificación de audiencia mediante la configuración especificada. Se aplican tarifas adicionales.
 
@@ -164,7 +164,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de campañas](campaign-about.md)
+>* [Acerca de la administración de campañas en Advertising DSP](campaign-about.md)
 >* [Crear una campaña](campaign-create.md)
 >* [Editar una campaña](campaign-edit.md)
 >* [Ver el registro de cambios de una campaña](campaign-change-log.md)

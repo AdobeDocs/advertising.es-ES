@@ -3,9 +3,9 @@ title: Duplicación de una campaña
 description: Obtenga información sobre cómo duplicar una campaña.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Duplique una campaña para crear una nueva campaña con una configuración simil
 
 * Modificación de las fechas de vuelo de la nueva campaña
 
-Consulte &quot;[Lo que no está duplicado](#campaign-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no están duplicadas.
+Consulte &quot;[Qué no está duplicado](#campaign-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no están duplicadas.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -80,11 +80,11 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
    * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
 
-* Para las campañas de rendimiento (es decir, campañas con paquetes que utilizan objetivos de optimización personalizados), use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
+* Para las campañas de rendimiento (es decir, campañas con paquetes que utilizan objetivos de optimización personalizados), use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de campañas](campaign-about.md)
+>* [Acerca de la administración de campañas en Advertising DSP](campaign-about.md)
 >* [Crear una campaña](campaign-create.md)
 >* [Editar una campaña](campaign-edit.md)
 >* [Ver el registro de cambios de una campaña](campaign-change-log.md)

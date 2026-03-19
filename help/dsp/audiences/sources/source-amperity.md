@@ -1,16 +1,16 @@
 ---
-title: Convertir los identificadores de usuario de  [!DNL Amperity]  a identificadores universales
+title: Convertir ID de usuario de  [!DNL Amperity]  a ID universales
 description: Aprenda a habilitar DSP para que ingrese sus  [!DNL Amperity] segmentos de origen.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
 
 ---
 
-# Convertir los identificadores de usuario de [!DNL Amperity] a identificadores universales
+# Convertir ID de usuario de [!DNL Amperity] a ID universales
 
 *característica de Beta*
 
@@ -86,13 +86,13 @@ En su biblioteca de audiencias (que está disponible cuando crea o edita una aud
 
 ## Resolución de problemas
 
-Para solucionar problemas de tasa de traducción y recuento de usuarios, consulte &quot;[Compatibilidad con la activación de identificadores universales](/help/dsp/audiences/universal-ids.md)&quot;.
+Para solucionar problemas de tasa de traducción y recuento de usuarios, consulte &quot;[Compatibilidad con la activación de los identificadores universales](/help/dsp/audiences/universal-ids.md)&quot;.
 
 Para solucionar problemas con el procedimiento de conversión, póngase en contacto con el equipo de cuenta de Adobe o con `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
->* [Administrar fuentes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Compatibilidad con la activación de identificadores universales](/help/dsp/audiences/universal-ids.md)
+>* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
+>* [Compatibilidad para activar identificadores universales](/help/dsp/audiences/universal-ids.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)

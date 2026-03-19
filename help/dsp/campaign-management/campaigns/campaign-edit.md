@@ -3,9 +3,9 @@ title: Edición de una campaña
 description: Obtenga información sobre cómo editar una campaña.
 feature: DSP Campaigns
 exl-id: d0cbcd11-138a-41be-a027-e5e49e24afa2
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de campañas](campaign-about.md)
+>* [Acerca de la administración de campañas en Advertising DSP](campaign-about.md)
 >* [Crear una campaña](campaign-create.md)
 >* [Ver el registro de cambios de una campaña](campaign-change-log.md)
 >* [Pausar o activar una campaña](campaign-pause-activate.md)

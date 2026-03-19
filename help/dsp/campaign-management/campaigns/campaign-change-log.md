@@ -3,9 +3,9 @@ title: Ver un registro de cambios de campaña
 description: Obtenga información sobre cómo ver los cambios realizados en la campaña.
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Puede ordenar los datos por cualquier columna excepto por Valor nuevo y Valor an
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de campañas](campaign-about.md)
+>* [Acerca de la administración de campañas en Advertising DSP](campaign-about.md)
 >* [Crear una campaña](campaign-create.md)
 >* [Editar una campaña](campaign-edit.md)
 >* [Configuración de campaña](campaign-settings.md)

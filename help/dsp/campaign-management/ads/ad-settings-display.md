@@ -3,9 +3,9 @@ title: Configuración de anuncios de visualización
 description: Consulte las descripciones de las configuraciones de anuncios disponibles para los anuncios en pantalla.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Los siguientes ajustes son para anuncios en pantalla estándar.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de anuncios](ad-about.md)
+>* [Acerca de la administración de anuncios en Advertising DSP](ad-about.md)
 >* [Crear un solo anuncio](ad-create.md)
 >* [Enumerar las ubicaciones asociadas con un anuncio](ad-list-placements.md)
 >* [Especificaciones del anuncio](ad-specs.md)

@@ -3,7 +3,7 @@ title: Compatibilidad para activar ID universales
 description: Obtenga información acerca de la compatibilidad para importar segmentos de ID universales, crear segmentos personalizados para rastrear ID universales y convertir otros identificadores de usuario en segmentos de origen a ID universales para una segmentación sin cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -20,7 +20,7 @@ DSP admite ID universales y basados en personas para una segmentación sin cooki
 
 * Puede enviar manualmente su [[!DNL LiveRamp] [!DNL RampIDs]] autenticado directamente a DSP mediante el panel [!DNL LiveRamp] [!DNL Connect]. Consulte &quot;[Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)&quot;.
 
-* DSP puede introducir sus segmentos de origen compuestos de ID de correo electrónico con hash creados dentro de su plataforma de datos del cliente (CDP) y convertirlos en [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] ID. Para obtener más información acerca de las plataformas de datos de clientes compatibles, las características disponibles para cada tipo de identificador universal compatible y los flujos de trabajo relacionados, consulte &quot;[Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)&quot;.
+* DSP puede introducir sus segmentos de origen compuestos de ID de correo electrónico con hash creados dentro de su plataforma de datos del cliente (CDP) y convertirlos en [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] ID. Para obtener más información acerca de las plataformas de datos de clientes compatibles, las características disponibles para cada tipo de identificador universal admitido y los flujos de trabajo relacionados, consulte &quot;[Acerca de los orígenes de audiencia propios](/help/dsp/audiences/sources/source-about.md)&quot;.
 
 * Puede crear segmentos personalizados que hagan un seguimiento de los usuarios asociados con los ID universales ID5 que están expuestos a anuncios de dispositivos de escritorio y móviles y que visitan páginas web específicas. ID5 utiliza un modelo probabilístico para asignar un ID derivado de varias señales de usuario y señales de explorador. Para obtener instrucciones, consulte &quot;[Crear e implementar un segmento personalizado](/help/dsp/audiences/custom-segment-create.md)&quot;.
 
@@ -137,8 +137,8 @@ Si no puede resolver el problema, póngase en contacto con el equipo de cuenta d
 >[!MORELIKETHIS]
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
->* [Administrar fuentes de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-manage.md)
+>* [Administrar orígenes de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-manage.md)
 >* [Crear e implementar un segmento personalizado](/help/dsp/audiences/custom-segment-create.md)
->* [Importar segmentos autenticados manualmente desde [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

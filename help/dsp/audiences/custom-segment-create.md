@@ -3,7 +3,7 @@ title: Creación e implementación de un segmento personalizado
 description: Obtenga información sobre cómo crear e implementar un segmento personalizado para rastrear usuarios expuestos a anuncios o usuarios que visitan sus páginas web.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Una vez implementada una etiqueta de seguimiento, puede utilizar el segmento en 
 >* [Acerca de la administración de audiencias](audience-about.md)
 >* [Editar información de segmento](segment-edit.md)
 >* [Eliminar un segmento](segment-delete.md)
->* [Ver píxeles de seguimiento para un segmento](segment-view-pixels.md)
+>* [Ver píxeles de seguimiento de un segmento](segment-view-pixels.md)
 >* [Compartir o dejar de compartir un segmento](segment-share.md)
 >* [Crear e implementar un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)

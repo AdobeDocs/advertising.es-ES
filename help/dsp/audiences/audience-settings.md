@@ -3,7 +3,7 @@ title: Configuración del público
 description: Consulte las descripciones de las configuraciones de audiencia disponibles.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 2%
