@@ -2,9 +2,9 @@
 title: Preguntas frecuentes sobre los informes personalizados
 description: Obtenga más información acerca de los informes personalizados, incluidos los informes domésticos y los informes de análisis de rutas de conversión.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 8ba0d485562017caf2a5dedb6215e1485be16c34
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Estas métricas en los informes [!UICONTROL Household] se calculan usando el rec
 
 #### ¿Cómo configuro el informe para la dimensión [!UICONTROL Placement Tags]?
 
-Para crear etiquetas para la ubicación, [abra la configuración de ubicación](/help/dsp/campaign-management/placements/placement-edit.md) e introduzca valores en el campo [Etiquetas de ubicación](/help/dsp/campaign-management/placements/placement-settings.md).
+Para crear etiquetas para la ubicación, [abra la configuración de ubicación](/help/dsp/campaign-management/placements/placement-edit.md) e introduzca valores en el campo [[!UICONTROL Placement Tags]](/help/dsp/campaign-management/placements/placement-settings.md).
 
 Cuando una ubicación incluye varias etiquetas, el informe considera toda la cadena como una etiqueta. El informe incluye una fila por cada cadena única.
 
@@ -103,9 +103,9 @@ El caso de uso ideal es usar juntos el informe [!UICONTROL Household] y los serv
 
 ## Informes de análisis de rutas de conversión
 
-### ¿En qué se diferencia el informe Ruta de conversión de los informes creados por [!DNL Advanced Measurement Services] y Adobe Analytics Analysis Workspace?
+### ¿En qué se diferencia el informe [!UICONTROL Path to Conversion] de los informes creados por [!DNL Advanced Measurement Services] y Adobe Analytics Analysis Workspace?
 
-| | Ruta al informe de conversión | Efecto halo de servicios de medición avanzada en informes de búsqueda | Informes en Analysis Workspace |
+| | Informe [!UICONTROL Path to Conversion] | Efecto halo de servicios de medición avanzada en informes de búsqueda | Informes en Analysis Workspace |
 | --- | --- | --- |---|
 | Valor del cliente | Genere un informe personalizado de autoservicio para comprender qué rutas del recorrido publicitario produjeron más conversiones para impulsar la optimización | Comprender la influencia de las tácticas de TV conectada (CTV) en los clics de búsqueda | Comprenda la influencia de su inversión en Adobe Advertising integral, junto con otros canales de marketing, en los clics en búsqueda |
 | Nivel del hogar | Sí | Sí | No |
@@ -117,12 +117,12 @@ El caso de uso ideal es usar juntos el informe [!UICONTROL Household] y los serv
 | Canales de marketing | DSP + Buscar (desde Buscar, Social y Commerce) | DSP + Buscar (desde Buscar, Social y Commerce) | Canales de marketing no rastreados por el ID de EF de clic de Adobe Advertising (como búsqueda orgánica, medios sociales orgánicos, correo electrónico y afiliado) |
 | Métricas de conversión admitidas | Métricas rastreadas mediante el píxel de evento de Adobe Advertising (ID de AMO) y el seguimiento de Adobe Analytics | Clics (sin conversiones) | Métricas rastreadas mediante el seguimiento de Adobe Analytics |
 
-Para obtener más información sobre el efecto halo de los servicios de medición avanzada en los informes de búsqueda, consulte &quot;[Servicios de medición avanzada](/help/dsp/introduction/advanced-measurement-services.md)&quot;.
+Para obtener más información sobre el efecto halo de los servicios de medición avanzada en los informes de búsqueda, consulte &quot;[Soluciones de medición avanzada](/help/dsp/introduction/advanced-measurement-services.md)&quot;.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
 >* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
 >* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
->* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
+>* [Configuración de informe personalizado](/help/dsp/reports/report-settings.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
