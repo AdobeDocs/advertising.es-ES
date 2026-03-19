@@ -3,9 +3,9 @@ title: Configuración de los planes de alcance de TV conectados
 description: Consulte las descripciones de los ajustes de los planes de alcance de TV conectados.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la herramienta de planificación de DSP](planner-about.md)
+>* [Acerca de la herramienta [!UICONTROL Planner] de DSP](planner-about.md)
 >* [Crear un plan de alcance de TV conectado](planner-create.md)
 >* [Duplicar un plan de alcance de TV conectado](planner-duplicate.md)
 >* [Editar un plan de alcance de TV conectado](planner-edit.md)

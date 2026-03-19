@@ -3,7 +3,7 @@ title: Acerca de la administración de campañas en Advertising DSP
 description: Obtenga información sobre la administración de campañas.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -35,4 +35,4 @@ Para ver todos los paquetes, ubicaciones y anuncios de una campaña, haga clic e
 >
 >* [Crear una campaña](campaign-create.md)
 >* [Configuración de campaña](campaign-settings.md)
->* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=es)
+>* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

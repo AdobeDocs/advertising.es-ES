@@ -3,9 +3,9 @@ title: Volver a solicitar  [!DNL On Demand] ofertas de inventario premium
 description: Aprenda a volver a solicitar  [!DNL On Demand] ofertas que se habían denegado anteriormente.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -52,10 +52,10 @@ Una vez que se [aprueba](/help/dsp/inventory/on-demand-inventory-view-status.md)
 
 >[!MORELIKETHIS]
 >
->* [Acerca de [!DNL On Demand] Inventario Premium](on-demand-inventory-about.md)
+>* [Acerca de [!DNL On Demand] inventario premium](on-demand-inventory-about.md)
 >* [Ver el estado de tus [!DNL On Demand] solicitudes y suscripciones de acuerdo](on-demand-inventory-view-status.md)
->* [Suscribirse y solicitar acceso a [!DNL On Demand] Inventario Premium](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Editores de inventario premium en Asia Pacífico](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Editores de inventario premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editores de inventario premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Editores de inventario premium en Norteamérica](on-demand-inventory-publishers-na.md)
+>* [Suscribirse y solicitar acceso a [!DNL On Demand] ofertas de inventario premium](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] editores de inventario premium en Asia Pacífico](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] editores de inventario premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] editores de inventario premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] editores de inventario premium en Norteamérica](on-demand-inventory-publishers-na.md)

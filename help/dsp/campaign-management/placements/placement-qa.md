@@ -3,7 +3,7 @@ title: Revisión y edición de la configuración de ubicación mediante hojas de
 description: Obtenga información sobre cómo revisar y editar la configuración de ubicación de claves de forma masiva mediante hojas de cálculo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Un mensaje de notificación indica cuándo está disponible la descarga del arch
 
    * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
 
-   El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 ## Descargar configuración para ubicaciones específicas
 
@@ -68,7 +68,7 @@ Un mensaje de notificación indica cuándo está disponible la descarga del arch
 
    * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
 
-   El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
    Para editar cualquiera de las opciones, edite el archivo directamente y, a continuación, cargue los cambios.  Todas las columnas editables se resaltan en azul. Para utilizar el formato correcto para un campo, seleccione y copie el valor de la configuración de paquete o la configuración de ubicación correspondiente. Para algunas configuraciones de Target, como la partición del día, los objetivos personalizados y las métricas de conversión, hay una opción de copia disponible dentro de la configuración.
 
@@ -232,6 +232,6 @@ Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
 
 >[!MORELIKETHIS]
 >
->* [Revisar y editar la configuración del componente de campaña mediante hojas de edición masiva](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Revise y edite la configuración del componente de campaña mediante hojas de edición masiva](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Editar ubicaciones](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

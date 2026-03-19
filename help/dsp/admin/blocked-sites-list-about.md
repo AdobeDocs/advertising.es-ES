@@ -3,7 +3,7 @@ title: Listas de sitios bloqueados a nivel de cuenta y de anunciante
 description: Obtenga más información sobre la lista de sitios bloqueados de una cuenta o un anunciante.
 role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%

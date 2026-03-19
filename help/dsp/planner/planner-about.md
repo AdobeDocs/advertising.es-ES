@@ -1,16 +1,16 @@
 ---
-title: Acerca de la herramienta DSP Planner
+title: Acerca de la herramienta DSP [!UICONTROL Planner]
 description: Obtenga información acerca de la herramienta de planificación para prever el alcance único de las ubicaciones de TV conectada (CTV) según el presupuesto especificado y los criterios de segmentación.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# Acerca de la herramienta DSP Planner
+# Acerca de la herramienta DSP [!UICONTROL Planner]
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -33,7 +33,7 @@ El resultado de la previsión también incluye una sección [!UICONTROL Inventor
 >* La sección [!UICONTROL Inventory Breakdown] muestra datos solamente para el inventario privado y de [!UICONTROL On Demand].
 >* El alcance único estimado que se muestra para dos editores puede superponerse.
 
-## La vista Planificador
+## La vista del planificador
 
 En la vista [!UICONTROL Planner], puede ver los planes de alcance de CTV existentes y crear otros nuevos.
 
@@ -73,7 +73,7 @@ Sí, puede exportar una previsión a una hoja de cálculo de [!DNL Microsoft Exc
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la herramienta de planificación de DSP](planner-about.md)
+>* [Acerca de la herramienta [!UICONTROL Planner] de DSP](planner-about.md)
 >* [Crear un plan de alcance de TV conectado](planner-create.md)
 >* [Duplicar un plan de alcance de TV conectado](planner-duplicate.md)
 >* [Editar un plan de alcance de TV conectado](planner-edit.md)

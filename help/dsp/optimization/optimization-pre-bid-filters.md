@@ -3,7 +3,7 @@ title: Filtros de ofertas previas de nivel de ubicación y cómo utilizarlos
 description: Consulte los filtros de oferta previa de nivel de ubicación disponibles y vea cómo utilizarlos.
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Cómo DSP Optimiza Sus Campañas](optimization-how-dsp-optimizes-campaigns.md)
+>* [Cómo DSP optimiza sus campañas](optimization-how-dsp-optimizes-campaigns.md)
 >* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Configuración de campaña](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
+>* [Objetivos de optimización y cómo usarlos](optimization-goals.md)

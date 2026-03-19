@@ -3,7 +3,7 @@ title: Metas personalizadas
 description: Obtenga información acerca de los objetivos personalizados para definir los eventos de éxito en paquetes optimizados para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Para crear un objetivo personalizado, la cuenta de DSP debe estar vinculada a un
 
    >[!TIP]
    >
-   >Para obtener un rendimiento óptimo, las métricas combinadas en el objetivo personalizado (objetivo) deben sumar al menos diez conversiones al día. Si no es así, se recomienda añadir al objetivo métricas de conversión compatibles adicionales, como páginas de productos o inicios de aplicaciones. Vea [Prácticas recomendadas para crear un objetivo personalizado](#custom-goal-best-practices) para obtener instrucciones.
+   >Para obtener un rendimiento óptimo, las métricas combinadas en el objetivo personalizado (objetivo) deben sumar al menos diez conversiones al día. Si no es así, se recomienda añadir al objetivo métricas de conversión compatibles adicionales, como páginas de productos o inicios de aplicaciones. Consulte [Prácticas recomendadas para crear un objetivo personalizado](#custom-goal-best-practices) para obtener instrucciones.
 
 En la configuración del paquete de DSP para los paquetes que utilizan el objetivo de optimización &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] o &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot;, el nombre del objetivo ahora se incluye en la lista [!UICONTROL Custom Goals]. Al seleccionar el objetivo como objetivo personalizado para un paquete, la lista [!UICONTROL Conversion Metric] incluye todas las métricas de objetivo del objetivo.
 
@@ -130,6 +130,6 @@ Si, en su lugar, ponderara las visitas de la página de aterrizaje de forma equi
 
 >[!MORELIKETHIS]
 >
->* [Objetivos de optimización y cómo utilizarlos](optimization-goals.md)
+>* [Objetivos de optimización y cómo usarlos](optimization-goals.md)
 >* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
-> * [Cómo DSP Optimiza Sus Campañas](optimization-how-dsp-optimizes-campaigns.md)
+> * [Cómo DSP optimiza sus campañas](optimization-how-dsp-optimizes-campaigns.md)

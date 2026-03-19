@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
    1. Introduzca uno o más indicadores para describir las características de audiencia que desea incluir y excluir. Para enviar cada solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
 
-      Para obtener más información, consulte &quot;[Escribir indicadores](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un resumen de audiencia](#audience-brief-best-practices)&quot;.
+      Para obtener más información, consulte &quot;[Instrucciones de escritura](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
 
       A medida que el agente de audiencia encuentra segmentos relevantes, crea una expresión de audiencia basada en los criterios. También le pedirá su aprobación antes de buscar segmentos coincidentes para montar la audiencia.
 
@@ -94,7 +94,7 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
   El agente de audiencia no guardará automáticamente una expresión de audiencia generada como audiencia. Solo puede guardar una audiencia si hace clic en el botón [!UICONTROL Create], que se encuentra fuera del área de solicitud, para poder deshacer los cambios que no desee conservar.
 
-Consulte &quot;[Prácticas recomendadas para crear un resumen de audiencia](#audience-brief-best-practices)&quot; para obtener más información sobre cómo optimizar las peticiones de datos para las audiencias.
+Consulte &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot; para ver más formas de optimizar las peticiones de datos para audiencias.
 
 <!-- I think these are happening later:
 
@@ -198,8 +198,8 @@ El siguiente es un ejemplo de un informe de audiencia sólido para una campaña 
 >
 >* [Duplicar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-duplicate.md)
 >* [Editar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-edit.md)
->* [Ver detalles acerca de una audiencia reutilizable](/help/dsp/audiences/reusable-audience-view-details.md)
+>* [Ver detalles sobre una audiencia reutilizable](/help/dsp/audiences/reusable-audience-view-details.md)
 >* [Compartir una audiencia reutilizable](/help/dsp/audiences/reusable-audience-share.md)
 >* [Exportar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-export.md)
->* [Copiar la clave del segmento para una audiencia reutilizable en el portapapeles](/help/dsp/audiences/reusable-audience-clipboard.md)
+>* [Copie la clave de segmento de una audiencia reutilizable en el portapapeles](/help/dsp/audiences/reusable-audience-clipboard.md)
 >* [Eliminar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-delete.md)

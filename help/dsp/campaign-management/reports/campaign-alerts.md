@@ -3,7 +3,7 @@ title: Ver alertas
 description: Obtenga información sobre cómo ver alertas y resoluciones recomendadas para sus campañas y componentes de campaña.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Después de pasar por alto una alerta, tiene unos segundos para deshacer la acci
 
 >[!MORELIKETHIS]
 >
->* [Tipos de informes de rendimiento en las vistas de administración de campañas](campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en vistas de administración de campañas](campaign-reports-about.md)

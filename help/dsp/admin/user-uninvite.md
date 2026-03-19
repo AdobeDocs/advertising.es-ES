@@ -3,7 +3,7 @@ title: Anular la invitación de un usuario pendiente
 description: Obtenga información sobre cómo cancelar una invitación de usuario pendiente.
 role: Admin
 exl-id: 62a5d50c-b836-4a15-ba5a-6eb7a0f26570
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%

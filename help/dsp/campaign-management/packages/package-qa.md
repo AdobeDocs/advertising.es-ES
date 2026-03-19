@@ -3,7 +3,7 @@ title: Revisión y edición de la configuración del paquete mediante hojas de e
 description: Obtenga información sobre cómo revisar y editar la configuración clave del paquete de forma masiva mediante hojas de cálculo.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Para actualizar varias configuraciones a la vez, puede hacer una de las siguient
 
 * Realice cambios en los campos seleccionados, guarde el archivo y vuelva a cargar el archivo de hoja de edición masiva en DSP.
 
-* Para realizar cambios en paquetes, ubicaciones o anuncios adicionales de la campaña, descargue una hoja de edición masiva para la campaña. Introduzca o pegue la configuración actualizada en el archivo y, a continuación, cargue el archivo para realizar los cambios. Para obtener instrucciones, consulte &quot;[Revisar y editar la configuración del componente de campaña mediante hojas de edición masiva](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
+* Para realizar cambios en paquetes, ubicaciones o anuncios adicionales de la campaña, descargue una hoja de edición masiva para la campaña. Introduzca o pegue la configuración actualizada en el archivo y, a continuación, cargue el archivo para realizar los cambios. Para obtener instrucciones, consulte &quot;[Revisar y editar la configuración del componente de campaña mediante hojas de edición por lotes](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
 
 Los campos editables incluyen la mayoría de las configuraciones que normalmente se pueden editar.
 
@@ -50,7 +50,7 @@ Un mensaje de notificación indica cuándo está disponible la descarga del arch
 
    * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
 
-     El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Para editar cualquiera de las opciones, edite el archivo directamente y, a continuación, cargue los cambios. Todas las columnas editables se resaltan en azul.
 
@@ -166,6 +166,6 @@ Cuando falla cualquier actualización de configuración, puede descargar un arch
 
 >[!MORELIKETHIS]
 >
->* [Revisar y editar la configuración del componente de campaña mediante hojas de edición masiva](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Revise y edite la configuración del componente de campaña mediante hojas de edición masiva](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Editar paquetes](/help/dsp/campaign-management/packages/package-edit.md)
 >* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)

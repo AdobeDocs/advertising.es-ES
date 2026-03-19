@@ -3,9 +3,9 @@ title: Suscribirse y solicitar acceso a  [!DNL On Demand] ofertas de inventario 
 description: Obtenga información sobre cómo suscribirse a [!DNL On Demand] ofertas y solicitar acceso a ellas.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -84,10 +84,10 @@ Una vez que se [aprueba](/help/dsp/inventory/on-demand-inventory-view-status.md)
 
 >[!MORELIKETHIS]
 >
->* [Acerca de [!DNL On Demand] Inventario Premium](on-demand-inventory-about.md)
+>* [Acerca de [!DNL On Demand] inventario premium](on-demand-inventory-about.md)
 >* [Ver el estado de tus [!DNL On Demand] solicitudes y suscripciones de acuerdo](on-demand-inventory-view-status.md)
->* [Volver a solicitar ofertas de inventario Premium a petición](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Editores de inventario premium en Asia Pacífico](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Editores de inventario premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editores de inventario premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Editores de inventario premium en Norteamérica](on-demand-inventory-publishers-na.md)
+>* [Volver a solicitar [!DNL On Demand] ofertas de inventario premium](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] editores de inventario premium en Asia Pacífico](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] editores de inventario premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] editores de inventario premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] editores de inventario premium en Norteamérica](on-demand-inventory-publishers-na.md)

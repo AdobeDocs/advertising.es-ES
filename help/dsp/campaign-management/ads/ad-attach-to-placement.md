@@ -3,9 +3,9 @@ title: Adjuntar y quitar anuncios de las ubicaciones
 description: Obtenga información sobre cómo adjuntar anuncios a ubicaciones y quitar anuncios de ubicaciones.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Puede adjuntar y eliminar anuncios de las ubicaciones.
 
 1. Haga clic en **[!UICONTROL Detach Selected Ads]**.
 
-## Quitar un anuncio de una ubicación de [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Quitar un anuncio de una ubicación de la ubicación [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -106,11 +106,11 @@ Puede adjuntar y eliminar anuncios de las ubicaciones.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de anuncios](ad-about.md)
+>* [Acerca de la administración de anuncios en Advertising DSP](ad-about.md)
 >* [Adjuntar y eliminar píxeles de los anuncios](ad-pixel-attach-detach.md)
 >* [Crear un solo anuncio](ad-create.md)
 >* [Crear varios anuncios de terceros](ad-create-multiple.md)
 >* [Editar un anuncio](ad-edit.md)
 >* [Enumerar las ubicaciones asociadas con un anuncio](ad-list-placements.md)
->* [Editar los horarios de anuncios para las ubicaciones](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Editar las programaciones de anuncios de las ubicaciones](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Preguntas frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)

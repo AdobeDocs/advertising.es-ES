@@ -3,7 +3,7 @@ title: Preguntas frecuentes sobre la administración de campañas
 description: Obtenga más información acerca de la administración de campañas, incluido el período de latencia de los cambios y lo que sucede cuando se realizan cambios de presupuesto durante un vuelo.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%

@@ -3,7 +3,7 @@ title: Optimización
 description: Más información sobre las funciones de optimización.
 feature: DSP Introduction, DSP Optimization
 exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Para cada una de las ubicaciones y paquetes, puede elegir un objetivo de optimiz
 
 >[!MORELIKETHIS]
 >
-> * DSP [Cómo Optimiza El Uso De Las Campañas](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
->* [Objetivos de optimización y cómo utilizarlos](/help/dsp/optimization/optimization-goals.md)
+> * [Cómo DSP optimiza sus campañas](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+>* [Objetivos de optimización y cómo usarlos](/help/dsp/optimization/optimization-goals.md)
 >* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

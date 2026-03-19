@@ -3,7 +3,7 @@ title: Desactivar o activar una ubicación
 description: Obtenga información sobre cómo desactivar o activar una ubicación.
 feature: DSP Placements
 exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Desactive una ubicación activa o active una ubicación en pausa cuando esté de
 1. En el submenú, haga clic en **[!UICONTROL Placements]**.
 1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Deactivate]**.
 
-## Activar una ubicación en pausa
+## Activación de una ubicación en pausa
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 1. Haga clic en el nombre de la campaña.

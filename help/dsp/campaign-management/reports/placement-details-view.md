@@ -3,9 +3,9 @@ title: Ver los sitios, anuncios, frecuencia y detalles de inventario de una ubic
 description: Obtenga información sobre cómo ver los sitios segmentados, los anuncios, la frecuencia y los datos de inventario de una ubicación.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Para cada ubicación, puede [abrir un (vista de detalles [!UICONTROL Inspector])
 
   La ficha [!UICONTROL Inventory] permite la solución rápida de problemas mostrando estadísticas de rendimiento, como [!UICONTROL Auctions], [!UICONTROL Bids] y [!UICONTROL Win Rate]. La pestaña incluye características de búsqueda y filtro, las mismas opciones de vista de columna estándar y personalizadas que están disponibles en la página principal y botones de acción rápida en cada fila, incluidos [!UICONTROL Edit], [!UICONTROL View Report] y [[!UICONTROL Auction Insights] para obtener más información sobre la solución de problemas](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## Abrir [!UICONTROL Placement Inspector] {#inspector-open}
+## Abrir la ubicación [!UICONTROL Inspector] {#inspector-open}
 
 1. Abra la vista de ubicaciones de la campaña o el paquete principal:
 
@@ -66,9 +66,9 @@ Para cada ubicación, puede [abrir un (vista de detalles [!UICONTROL Inspector])
 
    Los datos se guardan en la carpeta de descarga predeterminada del explorador como un informe en formato XLSM.
 
-## Quitar un anuncio de una ubicación de [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Quitar un anuncio de una ubicación de [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
-1. [Abrir [!UICONTROL Placement Inspector]](#inspector-open).
+1. [Abra la ubicación [!UICONTROL Inspector]](#inspector-open).
 
 1. Haga clic en la ficha **[!UICONTROL Ads]**.
 
@@ -90,5 +90,5 @@ Para cada ubicación, puede [abrir un (vista de detalles [!UICONTROL Inspector])
 
 >[!MORELIKETHIS]
 >
->* [Tipos de informes de rendimiento en las vistas de administración de campañas](campaign-reports-about.md)
->* [Administrar Las Vistas De Datos De Campaign](campaign-data-views-manage.md)
+>* [Tipos de informes de rendimiento en vistas de administración de campañas](campaign-reports-about.md)
+>* [Administrar las vistas de datos de tu campaña](campaign-data-views-manage.md)
