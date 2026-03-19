@@ -3,9 +3,9 @@ title: Duplicación de un paquete
 description: Obtenga información sobre cómo duplicar un paquete.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Duplique un paquete para crear un paquete con una configuración similar. Puede:
 
 * Modificar las fechas de vuelo del nuevo paquete
 
-Consulte &quot;[Lo que no está duplicado](#package-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no están duplicadas.
+Consulte &quot;[Qué no está duplicado](#package-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no están duplicadas.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -90,11 +90,11 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
    * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
 
-* Para los paquetes que utilizan objetivos de optimización personalizados, use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
+* Para los paquetes que utilizan objetivos de optimización personalizados, use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de paquetes](package-about.md)
+>* [Acerca de la administración de paquetes en Advertising DSP](package-about.md)
 >* [Crear un paquete](package-create.md)
 >* [Editar un paquete](package-edit.md)
 >* [Ver el registro de cambios de un paquete](package-change-log.md)

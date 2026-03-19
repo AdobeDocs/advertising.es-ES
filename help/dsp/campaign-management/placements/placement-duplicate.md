@@ -3,9 +3,9 @@ title: Ubicaciones duplicadas
 description: Obtenga información sobre cómo duplicar una o más ubicaciones.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Duplique una o más ubicaciones para crear ubicaciones con una configuración si
 * (Para ubicaciones duplicadas dentro de las campañas originales) Si lo desea, puede duplicar los anuncios originales
 * Modificar el estado y las fechas de vuelo de las nuevas ubicaciones
 
-Consulte &quot;[Lo que no está duplicado](#placement-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no están duplicadas.
+Consulte &quot;[Qué no está duplicado](#placement-not-duplicated)&quot; para obtener una lista de configuraciones de ubicación que no están duplicadas.
 
 1. En el menú principal, haga clic en **[!UICONTROL Campaigns]**.
 
@@ -55,7 +55,7 @@ Consulte &quot;[Lo que no está duplicado](#placement-not-duplicated)&quot; para
 
 1. Haga clic en **[!UICONTROL Submit]**.
 
-## Qué no está duplicado {#placement-not-duplicated}
+## Qué no se duplica {#placement-not-duplicated}
 
 Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
@@ -97,7 +97,7 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de ubicaciones](placement-about.md)
+>* [Acerca de la administración de ubicaciones en Advertising DSP](placement-about.md)
 >* [Crear una ubicación](placement-create.md)
 >* [Editar ubicaciones](placement-edit.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)

@@ -3,9 +3,9 @@ title: Edición de un paquete
 description: Obtenga información sobre cómo editar un paquete.
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de paquetes](package-about.md)
+>* [Acerca de la administración de paquetes en Advertising DSP](package-about.md)
 >* [Revisar y editar la configuración del paquete mediante hojas de edición masiva](/help/dsp/campaign-management/packages/package-qa.md)
 >* [Crear un paquete](package-create.md)
 >* [Duplicar un paquete](package-duplicate.md)

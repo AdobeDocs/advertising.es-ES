@@ -3,9 +3,9 @@ title: Exportar una previsión para un plan de alcance de TV conectado
 description: Obtenga información sobre cómo exportar la previsión de un plan de alcance de TV conectado.
 feature: DSP Planner
 exl-id: f4bad569-1b56-439a-8c41-92a24a710476
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Puede exportar la previsión [!UICONTROL Budget vs Reach] a una hoja de cálculo
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la herramienta de planificación de DSP](planner-about.md)
+>* [Acerca de la herramienta [!UICONTROL Planner] de DSP](planner-about.md)
 >* [Crear un plan de alcance de TV conectado](planner-create.md)
 >* [Duplicar un plan de alcance de TV conectado](planner-duplicate.md)
 >* [Editar un plan de alcance de TV conectado](planner-edit.md)

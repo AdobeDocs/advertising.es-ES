@@ -3,7 +3,7 @@ title: Financiación de cuenta
 description: Obtenga información acerca de la financiación de cuentas para DSP.
 feature: DSP Introduction
 exl-id: 95e1fd75-ed38-41e3-a464-afe5e23c1c22
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
