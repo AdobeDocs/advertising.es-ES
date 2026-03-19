@@ -3,7 +3,7 @@ title: Soluciones entre dispositivos
 description: Obtenga más información acerca de las funciones entre dispositivos.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 2c7ba1862b1883b4523d9121d8b0761129ad70fb
 workflow-type: tm+mt
 source-wordcount: '997'
 ht-degree: 0%
@@ -42,7 +42,7 @@ La gestión de frecuencias basada en personas permite especificar límites de fr
 
 * **Campañas:** Al crear una nueva campaña, puede especificar una configuración de [!UICONTROL Cross-Device Level]. Habilite &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; y seleccione un gráfico de dispositivos. El gráfico de dispositivo especificado se utiliza tanto para la segmentación entre dispositivos en el nivel de ubicación como para la administración de frecuencias basada en personas en el nivel de campaña, paquete y ubicación. Los límites de frecuencia se aplican a todos los dispositivos conocidos de una persona.
 
-Para obtener más información, consulte [Configuración de campaña](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+Para obtener más información, consulte [Configuración de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
 Una vez guardada una campaña, no se puede cambiar su configuración de [!UICONTROL Cross Device Level].
 
@@ -58,7 +58,7 @@ La segmentación basada en personas permite encontrar clientes en equipos de esc
 
 * **Campañas:** Al crear una nueva campaña, puede especificar una configuración de [!UICONTROL Cross-Device Level]. Habilite &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]&quot; y seleccione un gráfico de dispositivos. El gráfico de dispositivos especificado se utiliza tanto para la segmentación entre dispositivos en el nivel de ubicación como para la administración de frecuencias basada en personas.
 
-Para obtener más información, consulte [Configuración de campaña](/help/dsp/campaign-management/campaigns/campaign-settings.md).
+Para obtener más información, consulte [Configuración de Campaign](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
 * **Ubicaciones:** Al seleccionar destinos de audiencia para una ubicación en una campaña con un gráfico de dispositivos especificado, una opción [!UICONTROL Cross-Device Targeting] le permite extender el direccionamiento a todos los dispositivos conocidos de una persona (según el gráfico de dispositivos especificado en la configuración de campaña), incluso a los dispositivos que no están en los segmentos especificados.
 
@@ -112,7 +112,7 @@ Ordene el porcentaje del total de conversiones entre dispositivos ([!UICONTROL (
 
 >[!MORELIKETHIS]
 >
->* [Configuración de informe](/help/dsp/reports/report-settings.md)
+>* [Configuración de informes](/help/dsp/reports/report-settings.md)
 >* [Configuración de campaña](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Configuración del paquete](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
