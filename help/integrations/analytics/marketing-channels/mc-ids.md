@@ -18,7 +18,7 @@ Puede usar los Adobe Advertising ID ([AMO ID y EF ID](../ids.md)) para configura
 
 ## El ID de AMO en las reglas de procesamiento
 
-El identificador de AMO es el código de seguimiento principal que se usa para informar los datos de Adobe Advertising en [!DNL Analytics]. El ID de AMO es una concatenación de valores dinámicos administrados por Adobe para proporcionar informes granulares en [!DNL Analytics]. Se almacena en una dimensión [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o rVar (ID de AMO). El identificador de AMO se puede establecer en [!DNL Analytics] de dos maneras:
+El identificador de AMO es el código de seguimiento principal que se usa para informar los datos de Adobe Advertising en [!DNL Analytics]. El ID de AMO es una concatenación de valores dinámicos administrados por Adobe para proporcionar informes granulares en [!DNL Analytics]. Se almacena en una dimensión [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=es) o rVar (ID de AMO). El identificador de AMO se puede establecer en [!DNL Analytics] de dos maneras:
 
 * Seguimiento de clics: Adobe Advertising establece el parámetro de cadena de consulta `s_kwcid` en un vínculo y [!DNL Analytics] lo recoge de la dirección URL de la página de aterrizaje cuando se produce una pulsación.
 
@@ -90,7 +90,7 @@ No establezca el valor del canal en el ID de AMO. En su lugar, configúrelo en a
 
 ### Regla de búsqueda natural
 
-Para [!UICONTROL Natural Search], asegúrese de que las reglas de detección [[!UICONTROL Paid Search]](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) incluyan los parámetros de cadena de consulta `ef_id` y `s_kwcid`. (Normalmente, esto se configura automáticamente cuando Advertising Search, Social y Commerce están integrados en [!DNL Analytics], pero verifíquelo en caso de que un administrador de [!DNL Analytics] cambie la lógica después de configurar la integración).
+Para [!UICONTROL Natural Search], asegúrese de que las reglas de detección [[!UICONTROL Paid Search]](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) incluyan los parámetros de cadena de consulta `ef_id` y `s_kwcid`. (Normalmente, esto se configura automáticamente cuando Advertising Search, Social y Commerce están integrados en [!DNL Analytics], pero verifíquelo en caso de que un administrador de [!DNL Analytics] cambie la lógica después de configurar la integración).
 
 Establezca la regla en &quot;Coincide con las reglas de detección de búsqueda natural&quot; (que suele ser la configuración predeterminada para este canal).
 
@@ -153,5 +153,5 @@ Para la segunda regla Mostrar clic, establezca **AMO ID empieza por &quot;AC!&qu
 >* [Aspectos básicos de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Por qué los datos de canal pueden variar entre Adobe Advertising y [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Usando [!DNL Analytics Marketing Channels] con datos de Adobe Advertising](mc-ac-data.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=es)
 >* [ID de Adobe Advertising usados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
