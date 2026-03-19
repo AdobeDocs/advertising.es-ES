@@ -3,9 +3,9 @@ title: Administrar multiplicadores de oferta para ubicaciones
 description: Aprenda a crear y editar multiplicadores de oferta para sus destinos de colocación.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 32b811e1fc7c9895b75c1e184db72f2d3f5963a5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ Puede establecer multiplicadores de oferta (con valores distintos de 1,00) para 
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de ubicaciones](placement-about.md)
+>* [Acerca de la administración de ubicaciones en Advertising DSP](placement-about.md)
 >* [Editar ubicaciones](placement-edit.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
