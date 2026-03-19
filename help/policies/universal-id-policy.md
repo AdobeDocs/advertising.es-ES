@@ -3,7 +3,7 @@ title: Directiva de requisitos de ID universal de Adobe Advertising
 description: Consulte la directiva para el uso de ID universales.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: c7438ee214e6b5d5cfb6e6c72eb480bc334596c7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Al elegir usar los ID universales disponibles a través de los Servicios, el Cli
 
 ### Países prohibidos por UID2
 
-Al elegir usar los ID universales de UID2 a través de los Servicios, usted acepta asegurarse de que todos los Datos del cliente transmitidos, almacenados, mostrados, distribuidos o de otro modo puestos a disposición por usted a través de los Servicios bajo demanda para dicho uso en relación con los ID universales de UID2 no se relacionan con ninguna persona que sea residente de cualquiera de los [Países prohibidos de UID2 enumerados en la Prueba A](#prohibited-countries-uid2) del presente documento.
+Al elegir usar los ID universales de UID2 a través de los Servicios, acepta asegurarse de que todos los Datos del cliente transmitidos, almacenados, mostrados, distribuidos o de otro modo puestos a disposición por usted a través de los Servicios a solicitud para dicho uso en relación con los ID universales de UID2 no se relacionan con ninguna persona que sea residente de ninguno de los [Países prohibidos de UID2 enumerados en la Prueba A](#prohibited-countries-uid2) del presente documento.
 
 ## Sin discriminación
 
