@@ -3,9 +3,9 @@ title: Ver el estado de tus  [!DNL On Demand] solicitudes y suscripciones de acu
 description: Aprenda a ver el estado de sus  [!DNL On Demand] solicitudes y suscripciones de acuerdo.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ Si tiene alguna pregunta sobre el proceso de aprobación, póngase en contacto c
 
 >[!MORELIKETHIS]
 >
->* [Suscribirse y solicitar acceso a [!DNL On Demand] Ofertas de inventario premium](on-demand-inventory-subscribe.md)
->* [Volver a solicitar ofertas de inventario Premium a petición](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Editores de inventario premium en Asia Pacífico](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Editores de inventario premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editores de inventario premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Editores de inventario premium en Norteamérica](on-demand-inventory-publishers-na.md)
+>* [Suscribirse y solicitar acceso a [!DNL On Demand] ofertas de inventario premium](on-demand-inventory-subscribe.md)
+>* [Volver a solicitar [!DNL On Demand] ofertas de inventario premium](on-demand-inventory-rerequest.md)
+>* [[!DNL On Demand] editores de inventario premium en Asia Pacífico](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] editores de inventario premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] editores de inventario premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] editores de inventario premium en Norteamérica](on-demand-inventory-publishers-na.md)

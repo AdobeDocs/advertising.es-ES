@@ -1,7 +1,7 @@
 ---
-title: Crear una plantilla de ubicación
-description: Crear una plantilla de ubicación
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+title: Creación de una plantilla de ubicación
+description: Creación de una plantilla de ubicación
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 0%
@@ -9,7 +9,7 @@ ht-degree: 0%
 ---
 
 
-# Crear una plantilla de ubicación
+# Creación de una plantilla de ubicación
 
 Se puede crear una plantilla de posición desde cero o desde una plantilla existente.
 
