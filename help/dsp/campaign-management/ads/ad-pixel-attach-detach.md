@@ -3,9 +3,9 @@ title: Adjuntar y eliminar píxeles de anuncios
 description: Aprenda a adjuntar y eliminar píxeles de seguimiento de terceros de los anuncios.
 feature: DSP Ads
 exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -108,15 +108,15 @@ Puede adjuntar y desasociar píxeles de seguimiento de terceros de los anuncios.
 
 1. Haga clic en cualquier fila de anuncio de la tabla izquierda para ver los píxeles adjuntos en la tabla derecha.
 
-1. (Opcional) Para adjuntar más píxeles a los anuncios, cambie a la vista **[!UICONTROL Edit]** en la esquina superior derecha. Consulte el paso 3 del procedimiento anterior, &quot;[Adjuntar píxeles de seguimiento de terceros a anuncios en una ubicación](#attach-pixels-ads)&quot;, para obtener instrucciones.
+1. (Opcional) Para adjuntar más píxeles a los anuncios, cambie a la vista **[!UICONTROL Edit]** en la esquina superior derecha. Consulte el paso 3 del procedimiento anterior, &quot;[Adjuntar píxeles de seguimiento de terceros a los anuncios en una ubicación](#attach-pixels-ads)&quot;, para obtener instrucciones.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de anuncios](ad-about.md)
->* [Adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
+>* [Acerca de la administración de anuncios en Advertising DSP](ad-about.md)
+>* [Adjuntar anuncios a las ubicaciones](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
 >* [Crear un solo anuncio](ad-create.md)
 >* [Crear varios anuncios de terceros](ad-create-multiple.md)
 >* [Editar un anuncio](ad-edit.md)
 >* [Enumerar las ubicaciones asociadas con un anuncio](ad-list-placements.md)
->* [Editar los horarios de anuncios para las ubicaciones](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
->* [Preguntas más frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
+>* [Editar las programaciones de anuncios de las ubicaciones](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Preguntas frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)

@@ -1,11 +1,11 @@
 ---
 title: Configuración personalizada de informes
-description: Consulte las descripciones de la configuración de informes personalizada.
+description: Consulte las descripciones de la Configuración de informes personalizados.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Para aplicar uno o más filtros, haga lo siguiente:
 
 \* *[!UICONTROL Account]* solo está disponible para los siguientes tipos de informes cuando su organización está configurada para [informes entre cuentas](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] y [!UICONTROL Conversion]. Póngase en contacto con su equipo de cuenta de Adobe para obtener más información sobre los informes entre cuentas.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (solo informes de Ruta de acceso a la conversión, Longitud de ruta de acceso y Tiempo de conversión) Incluye datos de clics en anuncios de búsqueda de campañas especificadas de Advertising Search, Social y Commerce. Al seleccionar esta opción:
+**[!UICONTROL Include data from Adobe Advertising SSC]:** ([!UICONTROL Path to Conversion], [!UICONTROL Path Length] y [!UICONTROL Time to Conversion] informes solamente) Incluye datos de clics en anuncios de búsqueda de campañas especificadas de Advertising Search, Social y Commerce. Al seleccionar esta opción:
 
 1. Seleccione la cuenta de Search, Social y Commerce con el filtro **Filtrar por[!UICONTROL SSC Account]**.
 
@@ -183,7 +183,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
@@ -211,6 +211,6 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 >* [Editar un informe personalizado](/help/dsp/reports/report-edit.md)
 >* [Descargar un informe personalizado](/help/dsp/reports/report-download.md)
 >* [Ejecutar un informe personalizado](/help/dsp/reports/report-run-now.md)
->* [Configuración de informe personalizada](/help/dsp/reports/report-settings.md)
+>* [Configuración de informe personalizado](/help/dsp/reports/report-settings.md)
 >* [Acerca de los destinos del informe](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)

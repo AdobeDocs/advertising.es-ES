@@ -5,7 +5,7 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 54442a2bea5a2f34ca6eb59b7d3c8c36c4bb79bb
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Use la interfaz de chat de IA para buscar contenido conceptual y explicativo en la [Guía de Advertising DSP](/help/dsp/home.md) y (anunciantes con Advertising Creative) en la [Guía de Advertising Creative](/help/creative/home.md). Las respuestas se basan únicamente en lo que se ha documentado para estos productos en [Experience League](https://experienceleague.adobe.com/es/docs/advertising).
+Use la interfaz de chat de IA para buscar contenido conceptual y explicativo en la [Guía de Advertising DSP](/help/dsp/home.md) y (anunciantes con Advertising Creative) en la [Guía de Advertising Creative](/help/creative/home.md). Las respuestas se basan únicamente en lo que se ha documentado para estos productos en [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
 Las respuestas incluyen citas, así como preguntas adicionales y preguntas de seguimiento para ayudarle a refinar su consulta y encontrar más información. El historial de chat se mantiene y las consultas no se comparten con otros usuarios.
 
@@ -60,7 +60,7 @@ Puede hacer varias preguntas en un mensaje, pero solo un mensaje a la vez. Esper
 
 1. Escriba su consulta y haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
 
-   Para obtener más información, consulte &quot;[Escribir indicadores](#writing-prompts)&quot;.
+   Para obtener más información, consulte &quot;[Escribir peticiones de datos](#writing-prompts)&quot;.
 
    La respuesta incluye citas en línea y una lista **[!UICONTROL Documentation Sources]** en la parte inferior. También pueden aparecer preguntas de seguimiento y sugerencias.
 

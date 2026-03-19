@@ -3,7 +3,7 @@ title: Tipos de informes de rendimiento en las vistas de administración de camp
 description: Obtenga información acerca de los datos de informes incluidos en las vistas de administración de campañas.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -28,7 +28,7 @@ También puede superponer las tres métricas para facilitar la detección de ano
 
 ![gráfico de tendencias con superposición](/help/dsp/assets/trend-chart.png)
 
-### Visualización en tabla
+### Vista de tabla
 
 ![Lista de campañas](/help/dsp/assets/campaigns-list.png)
 
@@ -54,7 +54,7 @@ Para cada campaña, puede [personalizar gráficos de tendencias de series tempor
 
 Consulte la sección [&quot;Visualización de gráfico&quot; en las métricas entre campañas](#chart-view) para obtener más información.
 
-### Visualización en tabla
+### Vista de tabla
 
 En cada ficha de entidad, cada fila incluye métricas de ritmo y envío de forma predeterminada, pero puede [cambiar la vista de columna](campaign-data-views-manage.md#column-view-change) o incluso [crear una vista de columna personalizada](campaign-data-views-manage.md#column-view-create) para aplicarla a todas las subfichas de la campaña. Puede [personalizar aún más las tablas de datos](campaign-data-views-manage.md#data-tables-manage) de maneras adicionales. Cada tabla de datos incluye una fila [!UICONTROL Subtotals], que muestra la suma o el valor promedio de cada métrica en todas las filas visibles.
 
@@ -79,14 +79,14 @@ Además, puede ver los siguientes datos dentro de la configuración de ubicació
 * [Informes de diagnóstico de ubicación](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
 
-### Otros tipos de informes de nivel de anuncios
+### Otros tipos de informes de nivel de anuncio
 
 Para otros desgloses de datos, vea [las páginas de informes de nivel de anuncio](/help/dsp/campaign-management/ads/ad-view-report.md). El informe incluye datos de [!UICONTROL Overview], [!UICONTROL Geography] y [!UICONTROL Viewability].
 
 >[!MORELIKETHIS]
 >
 >* [Ver los sitios, anuncios y detalles de frecuencia de una ubicación](placement-details-view.md)
->* [Administrar Las Vistas De Datos De Campaign](campaign-data-views-manage.md)
->* [Exportar datos de una vista de administración de Campaign](campaign-export-data.md)
+>* [Administrar las vistas de datos de tu campaña](campaign-data-views-manage.md)
+>* [Exportar datos desde una vista de administración de campañas](campaign-export-data.md)
 >* [Ver un informe detallado de una campaña](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [Ver alertas](campaign-alerts.md)

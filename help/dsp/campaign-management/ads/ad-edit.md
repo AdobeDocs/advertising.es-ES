@@ -3,9 +3,9 @@ title: Editar un anuncio
 description: Obtenga información sobre cómo editar un anuncio.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de anuncios](ad-about.md)
+>* [Acerca de la administración de anuncios en Advertising DSP](ad-about.md)
 >* [Crear un solo anuncio](ad-create.md)
 >* [Crear varios anuncios de terceros](ad-create-multiple.md)
 >* [Duplicar un anuncio](ad-duplicate.md)

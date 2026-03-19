@@ -3,9 +3,9 @@ title: Acerca de la gestión de público en Advertising DSP
 description: Obtenga información sobre las funciones de gestión de público.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
 * Todos los segmentos de datos de origen importados, incluidos los segmentos traducidos a ID universales.
 
-  Se cobran cargos adicionales por las impresiones entregadas a los ID universales. Consulte &quot;[Acerca de los orígenes de audiencias de origen](/help/dsp/audiences/sources/source-about.md)&quot; para ver las tarifas.
+  Se cobran cargos adicionales por las impresiones entregadas a los ID universales. Consulte &quot;[Acerca de los orígenes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)&quot; para ver las tarifas.
 
 * Todos los segmentos de datos de terceros personalizados importados.
 
@@ -84,7 +84,7 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
   >[!NOTE]
   >
-  >Consulte la documentación de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=es), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=es) y [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=es) para obtener información sobre cómo configurar y recopilar datos para segmentos en esas soluciones.
+  >Consulte la documentación de [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) y [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) para obtener información sobre cómo configurar y recopilar datos para segmentos en esas soluciones.
 
 ## Datos de tamaño de audiencia
 
@@ -106,15 +106,15 @@ También puede ver datos detallados del tamaño de la audiencia:
 
   ![los detalles del segmento individual o de la audiencia guardada](/help/dsp/assets/audience-size-segment-details.png)
 
-## Las vistas Audiencias
+## Las vistas [!UICONTROL Audiences]
 
-### La vista Todas las audiencias
+### La vista [!UICONTROL All Audiences]
 
 En la vista [!UICONTROL All Audiences], o Biblioteca de audiencias, puede guardar y administrar audiencias reutilizables, que incluyen grupos de segmentos de audiencia e incluso otras audiencias guardadas. Puede usar las audiencias como destinatarios para varias ubicaciones. El número de ubicaciones en las que se utiliza cada audiencia se indica junto al nombre de la ubicación.
 
 Puede editar, clonar, eliminar, exportar o compartir cualquier audiencia.
 
-### La vista Segmentos
+### La vista [!UICONTROL Segments]
 
 En la vista [!UICONTROL Segments], todos los usuarios pueden crear segmentos personalizados adicionales.
 
@@ -134,22 +134,22 @@ La vista [!UICONTROL Segments] también enumera los siguientes tipos de segmento
 
   No puede editar ni compartir segmentos de terceros que se compartieron con usted. Póngase en contacto con el equipo de su cuenta de Adobe si necesita compartir segmentos de terceros con usuarios adicionales.
 
-### La vista Fuentes
+### La vista [!UICONTROL Sources]
 
 En la vista [!UICONTROL Sources], puede configurar orígenes para segmentos de origen en plataformas de datos de clientes compatibles que desee convertir en segmentos que contengan tipos de ID universales especificados. La configuración de origen incluye una clave de origen generada automáticamente, que proporcionará a su plataforma de datos del cliente para establecer la conexión.
 
-Para obtener más información acerca de las plataformas de datos de clientes compatibles, los tipos de identificador universal compatibles y los flujos de trabajo para configurar conexiones con cada plataforma de datos de clientes, consulte &quot;[Acerca de los orígenes](/help/dsp/audiences/sources/source-about.md)&quot;.
+Para obtener más información acerca de las plataformas de datos de clientes compatibles, los tipos de ID universales compatibles y los flujos de trabajo para configurar conexiones con cada plataforma de datos de clientes, consulte &quot;[Acerca de los orígenes de audiencia propios](/help/dsp/audiences/sources/source-about.md)&quot;.
 
 Los segmentos traducidos están disponibles para incluirlos en audiencias reutilizables y en la configuración de ubicación para la segmentación sin cookies.
 
 >[!MORELIKETHIS]
 >
->* [Compatibilidad con la activación de identificadores universales](/help/dsp/audiences/universal-ids.md)
+>* [Compatibilidad para activar identificadores universales](/help/dsp/audiences/universal-ids.md)
 >* [Crear una audiencia reutilizable](reusable-audience-create.md)
 >* [Crear e implementar un segmento personalizado](custom-segment-create.md)
 >* [Crear e implementar un segmento [!UICONTROL CCPA Opt-Out-of-Sale]](ccpa-opt-out-segment-create.md)
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
->* [Administrar fuentes de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-manage.md)
->* [Importar segmentos autenticados manualmente desde [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Administrar orígenes de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-manage.md)
+>* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)

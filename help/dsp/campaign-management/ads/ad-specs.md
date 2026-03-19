@@ -3,9 +3,9 @@ title: Especificaciones del anuncio
 description: Consulte las especificaciones generales y específicas del editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Los anuncios se entregan de forma predeterminada en equipos de escritorio, dispo
 
 ### Servidores de publicidad de terceros compatibles
 
-Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners Certificados de Servicio de publicidad](certified-ad-servers.md)&quot;.
+Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Socios certificados para el servicio de anuncios](certified-ad-servers.md)&quot;.
 
 ### Requisitos para los recursos de vídeo de alta definición
 
@@ -52,7 +52,7 @@ Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 
 **Niveles de audio:** 24 LKFS (+/- 2.0 dB) en los EE.UU. según ATSC A/85; 23 LUFS (+/- 1.0) en la UE según EBU R128
 
-#### Requisitos adicionales del editor para anuncios de TV conectados
+#### Requisitos de editor adicionales para anuncios de TV conectados
 
 * **Red A+E:** Consulte las [especificaciones del anuncio](/help/dsp/assets/a-e-networks-tve-video-ad-specs.pdf) de la red A+E
 
@@ -90,7 +90,7 @@ Se admite la visualización universal.
 
 **Tamaños de anuncio recomendados:** 120 x 60, 160 x 600, 180 x 150, 300 x 50, 300 x 100, 300 x 1050, 300 x 250, 300 x 600, 320 x 50, 320 x 480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x90
 
-**Servidores de publicidad de terceros admitidos:** Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners Certificados de Servicio de publicidad](certified-ad-servers.md)&quot;.
+**Servidores de publicidad de terceros admitidos:** Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Socios certificados para el servicio de anuncios](certified-ad-servers.md)&quot;.
 
 ## Anuncios de audio
 
@@ -100,7 +100,7 @@ Escritorio, Móvil, Tablet, Altavoces inteligentes y TV conectada
 
 ### Servidores de publicidad de terceros compatibles
 
-Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Partners Certificados de Servicio de publicidad](certified-ad-servers.md)&quot;.
+Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] y [!DNL Sizmek]. Para obtener una lista completa de los proveedores admitidos, consulte &quot;[Socios certificados para el servicio de anuncios](certified-ad-servers.md)&quot;.
 
 ### Requisitos para los recursos de audio
 
@@ -238,7 +238,7 @@ Requisitos para los rastreadores de clics:
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de anuncios](ad-about.md)
+>* [Acerca de la administración de anuncios en Advertising DSP](ad-about.md)
 >* [Crear un solo anuncio](ad-create.md)
 >* [Crear varios anuncios de terceros](ad-create-multiple.md)
 >* [Editar un anuncio](ad-edit.md)
