@@ -3,9 +3,9 @@ title: Códigos de error para  [!DNL FreeWheel] envíos de anuncios
 description: Hacer referencia a los códigos de error devueltos para los envíos de anuncios a  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 3%
 
 ---
@@ -38,7 +38,7 @@ Los mensajes de error para los envíos de anuncios erróneos pueden proceder de 
 | 404 | No encontrado | El recurso solicitado no está disponible. Si no se encuentra el ID de Creative en la operación de PUT, se devuelve un error 404. | Póngase en contacto con el equipo de cuenta de Adobe. |
 | 405 | Método no permitido | Se realizó una solicitud de un recurso mediante un método de solicitud no admitido por ese recurso (por ejemplo, mediante GET en un método que requiere que POST envíe datos, o mediante PUT en un recurso de solo lectura). | Póngase en contacto con el equipo de cuenta de Adobe. |
 | 408 | Tiempo de espera de solicitud | Se agotó el tiempo de espera mientras se procesaba esta solicitud. Los tiempos de espera suelen deberse a solicitudes simultáneas de acceso exclusivo a determinados recursos. | Vuelva a enviar la solicitud cuando reciba este estado. Si el problema persiste, póngase en contacto con el equipo de cuenta de Adobe. |
-| 422 | Entidad no procesable | Medio no válido. Este error se produce cuando el cuerpo de la solicitud no es válido o el recurso creado/actualizado no es válido (por ejemplo, si no se encontró el ID de acuerdo). Consulte [Errores de API 422 de FreeWheel](#freewheel-422-errors) para obtener más información. | Póngase en contacto con el equipo de cuenta de Adobe. |
+| 422 | Entidad no procesable | Medio no válido. Este error se produce cuando el cuerpo de la solicitud no es válido o el recurso creado o actualizado no es válido (por ejemplo, si no se encontró el ID de acuerdo). Consulte [Errores de API 422 de FreeWheel](#freewheel-422-errors) para obtener más información. | Póngase en contacto con el equipo de cuenta de Adobe. |
 | 500 | Error interno del servidor | Error del sistema de API. | Póngase en contacto con el equipo de cuenta de Adobe. |
 
 {style="table-layout:auto"}
@@ -64,7 +64,7 @@ Los mensajes de error para los envíos de anuncios erróneos pueden proceder de 
 
 >[!MORELIKETHIS]
 >
->* [Información general sobre la configuración de ofertas garantizadas mediante programación en [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [Aceptar un acuerdo en la bandeja de entrada del Deal ID](deal-id-inbox-accept.md)
->* [Enviar un anuncio para obtener una oferta programática garantizada a [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [Comprobar el estado de los anuncios para [!DNL FreeWheel] Ofertas programáticas garantizadas](/help/dsp/inventory/freewheel-check-status.md)
+>* [Información general sobre la configuración de ofertas programáticas garantizadas en [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [Aceptar un trato en [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Envíe un anuncio para obtener una oferta programática garantizada a [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [Comprueba el estado de los anuncios para una [!DNL FreeWheel] oferta de PG](/help/dsp/inventory/freewheel-check-status.md)

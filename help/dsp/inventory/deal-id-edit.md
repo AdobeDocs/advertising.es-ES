@@ -3,9 +3,9 @@ title: Editar configuración de acuerdos privados
 description: Aprenda a editar los detalles de una operación privada.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ Los cambios en una oferta aceptada no se sincronizan con el SSP. Si has aceptado
 
    Puede editar [!UICONTROL Deal Name], [!UICONTROL Media Type] (cuando la oferta incluye varios tipos de medios), [!UICONTROL CPM] valor, [!UICONTROL Account email], [!UICONTROL Advertisers that can access this deal], [!UICONTROL Flight dates] y [!UICONTROL Impressions].
 
-   No puede editar [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] ni [!UICONTROL Billing Method].
+   No puede editar la configuración de [!UICONTROL Deal ID], [!UICONTROL Publisher], [!UICONTROL SSP], [!UICONTROL Deal Type] o [!UICONTROL Billing Method].
 
 1. Haga clic en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
->* [Crear manualmente los detalles del ID de acuerdo](deal-id-create.md)
+>* [Crear manualmente los detalles del ID de la oferta](deal-id-create.md)
 >* [Configuración de ID de acuerdo manual](deal-id-settings.md)
->* [Configurar una oferta garantizada programática](programmatic-guaranteed-set-up.md)
->* [Adjuntar ubicaciones y anuncios a una oferta privada](/help/dsp/inventory/deal-id-attach-placements.md)
->* [Archivar o desarchivar un acuerdo privado](/help/dsp/inventory/private-deal-archive-unarchive.md)
+>* [Configurar un acuerdo programático garantizado](programmatic-guaranteed-set-up.md)
+>* [Especificar ubicaciones y anuncios para una oferta privada](/help/dsp/inventory/deal-id-attach-placements.md)
+>* [Archivar o desarchivar una oferta privada](/help/dsp/inventory/private-deal-archive-unarchive.md)

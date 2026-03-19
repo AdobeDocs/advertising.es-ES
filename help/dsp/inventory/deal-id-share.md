@@ -3,7 +3,7 @@ title: Editar las cuentas con acceso a una operación privada
 description: Aprenda a compartir y dejar de compartir un acuerdo privado con diferentes cuentas.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Puede dejar de compartir un acuerdo con cuentas para eliminar las capacidades de
 >
 > También puede [editar los anunciantes individuales con acceso a la cuenta](deal-id-edit-advertisers.md).
 
-## Uso compartido de un ID de acuerdo con cuentas de
+## Uso compartido de un ID de acuerdo con cuentas
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
@@ -45,5 +45,5 @@ Puede dejar de compartir un acuerdo con cuentas para eliminar las capacidades de
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
->* [Editar los anunciantes con acceso a un ID de acuerdo](/help/dsp/inventory/deal-id-edit-advertisers.md)
+>* [Editar los anunciantes con acceso a un id. de oferta](/help/dsp/inventory/deal-id-edit-advertisers.md)
 >* [Configuración de ID de acuerdo manual](deal-id-settings.md)

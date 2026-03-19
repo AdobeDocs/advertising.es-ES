@@ -3,9 +3,9 @@ title: Información general sobre la configuración de ofertas de PG en  [!DNL F
 description: Conozca los requisitos previos y los pasos adicionales necesarios para ejecutar anuncios para ofertas programáticas garantizadas con editores en  [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ La configuración de acuerdos programáticos garantizados con editores en [!DNL 
 
 >[!MORELIKETHIS]
 >
->* [Aceptar un acuerdo en la bandeja de entrada del Deal ID](deal-id-inbox-accept.md)
->* [Enviar un anuncio para obtener una oferta programática garantizada a [!DNL Freewheel]](freewheel-submit.md)
->* [Comprobar el estado de los anuncios para [!DNL FreeWheel] Ofertas programáticas garantizadas](freewheel-check-status.md)
->* [Códigos de error para [!DNL Freewheel] Envíos de publicidad](freewheel-error-codes.md)
+>* [Aceptar un trato en [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Envíe un anuncio para obtener una oferta programática garantizada a [!DNL Freewheel]](freewheel-submit.md)
+>* [Comprueba el estado de los anuncios para una [!DNL FreeWheel] oferta de PG](freewheel-check-status.md)
+>* [Códigos de error para [!DNL FreeWheel] envíos de anuncios](freewheel-error-codes.md)

@@ -1,16 +1,16 @@
 ---
-title: Configuración del ID de acuerdo manual
+title: Configuración de ID de acuerdo manual
 description: Consulte las descripciones de la configuración de los ID de acuerdo introducidos manualmente.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 9d3417cb-8b44-4f1c-afc4-eea6a2e5b9d7
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
 
 ---
 
-# Configuración del ID de acuerdo manual
+# Configuración de ID de acuerdo manual
 
 | Sección | Parámetro | Descripción | Requerido | Editable |
 |---------|-----------|-------------|----------|----------|
@@ -32,6 +32,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Crear manualmente los detalles del ID de acuerdo](deal-id-create.md)
->* [Socios del SSP](ssp-partners.md)
+>* [Crear manualmente los detalles del ID de la oferta](deal-id-create.md)
+>* [socios de SSP](ssp-partners.md)
 >* [Acerca del inventario privado](private-inventory-about.md)

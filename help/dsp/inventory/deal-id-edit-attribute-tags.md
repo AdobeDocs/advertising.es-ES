@@ -1,15 +1,15 @@
 ---
-title: Edición de las etiquetas de atributo para un ID de acuerdo
+title: Edición de las etiquetas de atributo de un ID de acuerdo
 description: Obtenga información sobre cómo crear y editar las etiquetas de atributo para un ID de acuerdo.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# Edición de las etiquetas de atributo para un ID de acuerdo
+# Edición de las etiquetas de atributo de un ID de acuerdo
 
 Puede crear y asignar etiquetas a ID de acuerdo para agrupar ofertas similares. Al crear o editar una ubicación, puede buscar el inventario disponible por nombre de etiqueta.
 
@@ -30,4 +30,4 @@ Puede crear y asignar etiquetas a ID de acuerdo para agrupar ofertas similares. 
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
->* [Editar configuración de acuerdo privado](/help/dsp/inventory/deal-id-edit.md)
+>* [Editar configuración de acuerdos privados](/help/dsp/inventory/deal-id-edit.md)

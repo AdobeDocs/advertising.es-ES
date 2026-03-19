@@ -3,9 +3,9 @@ title: Acerca de [!DNL On Demand] inventario premium
 description: Obtenga información acerca de las ofertas que DSP ha negociado previamente con socios de editor Premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ Los detalles de cada acuerdo incluyen datos en las siguientes columnas:
 
 >[!MORELIKETHIS]
 >
->* [Suscribirse y solicitar acceso a [!DNL On Demand] Ofertas de inventario premium](on-demand-inventory-subscribe.md)
->* [Volver a solicitar ofertas de inventario Premium a petición](on-demand-inventory-rerequest.md)
+>* [Suscribirse y solicitar acceso a [!DNL On Demand] ofertas de inventario premium](on-demand-inventory-subscribe.md)
+>* [Volver a solicitar [!DNL On Demand] ofertas de inventario premium](on-demand-inventory-rerequest.md)
 >* [Ver el estado de tus [!DNL On Demand] solicitudes y suscripciones de acuerdo](on-demand-inventory-view-status.md)
->* [[!DNL On Demand] Editores de inventario premium en Asia Pacífico](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Editores de inventario premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Editores de inventario premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Editores de inventario premium en Norteamérica](on-demand-inventory-publishers-na.md)
+>* [[!DNL On Demand] editores de inventario premium en Asia Pacífico](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] editores de inventario premium en Australia y Nueva Zelanda](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] editores de inventario premium en Europa, Oriente Medio y África](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] editores de inventario premium en Norteamérica](on-demand-inventory-publishers-na.md)

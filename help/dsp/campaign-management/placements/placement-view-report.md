@@ -3,7 +3,7 @@ title: Ver un informe detallado de una ubicación
 description: Obtenga información sobre cómo abrir un informe de nivel de ubicación con secciones sobre datos de [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] y [!UICONTROL Ads].
 feature: DSP Placements, DSP Campaign Data Views
 exl-id: ddfae530-1dc6-4470-9910-ae13abcbaa8b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -24,6 +24,6 @@ El informe de nivel de ubicación heredado incluye información general y seccio
 >* [Ver los sitios, anuncios y detalles de frecuencia de una ubicación](/help/dsp/campaign-management/reports/placement-details-view.md)
 >* [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
 >* [Ver un informe detallado de una campaña](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
->* [Tipos de informes de rendimiento en las vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Tipos de informes de rendimiento en vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Acerca de los informes personalizados](/help/dsp/reports/report-about.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)

@@ -3,9 +3,9 @@ title: Descripción general de las funciones de inventario en Advertising DSP
 description: Obtenga información acerca de las funciones de inventario disponibles.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
 exl-id: e55b9276-0d13-436e-9c09-968de963d551
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Los tipos de inventario disponibles incluyen:
 >[!MORELIKETHIS]
 >
 >* [Acerca del inventario a petición](on-demand-inventory-about.md)
->* [Acerca de la bandeja de entrada del Deal ID](deal-id-inbox-about.md)
->* [Acerca de las ofertas garantizadas mediante programación](programmatic-guaranteed-about.md)
+>* [Acerca de la bandeja de entrada del ID de acuerdo](deal-id-inbox-about.md)
+>* [Acerca de ofertas programáticas garantizadas](programmatic-guaranteed-about.md)
 >* [Socios del SSP](ssp-partners.md)
 >* [Acerca del inventario privado](private-inventory-about.md)

@@ -3,9 +3,9 @@ title: Configuración de ubicación
 description: Consulte las descripciones de la configuración de ubicación disponible.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '4436'
+source-wordcount: '4439'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Las fechas del paquete (cuando corresponda) o de la campaña se rellenan automá
    * Para quitar un filtro, haga clic en **[!UICONTROL X]** en la fila de filtro.
 1. Haga clic en **[!UICONTROL Save]**.
 
-Consulte las descripciones de cada filtro de oferta previa en &quot;[Filtros de oferta previa de nivel de ubicación y Cómo utilizarlos](/help/dsp/optimization/optimization-pre-bid-filters.md)&quot;.
+Consulte las descripciones de cada filtro de oferta previa en &quot;[Filtros de oferta previa de nivel de ubicación y cómo utilizarlos](/help/dsp/optimization/optimization-pre-bid-filters.md)&quot;.
 
 ### Todas las demás ubicaciones
 
@@ -218,7 +218,7 @@ Para especificar la segmentación de inventario:
 
 >[!TIP]
 >
->Si se ha suscrito al inventario [!UICONTROL On Demand] pero no puede encontrar los editores ni las ofertas para target, compruebe el estado de las ofertas. Para obtener más información sobre los estados, consulte [Acerca de [!DNL On Demand] Inventario Premium](/help/dsp/inventory/on-demand-inventory-about.md).
+>Si se ha suscrito al inventario [!UICONTROL On Demand] pero no puede encontrar los editores ni las ofertas para target, compruebe el estado de las ofertas. Para obtener más información sobre los estados, consulte [Acerca de [!DNL On Demand] inventario premium](/help/dsp/inventory/on-demand-inventory-about.md).
 
 **[!UICONTROL Video targeting]:** Destino (pero no exclusión) de inventario por atributos de inventario. Cuando se establecen varios valores como objetivo para el mismo atributo de vídeo, se puede establecer como objetivo cualquiera de los atributos seleccionados (por ejemplo, \[Player size = large OR Player size = HD\]). Cuando se asignan varios atributos, debe haber presentes cada uno de ellos (por ejemplo, \[Duración = 30-60 min] AND \[Tamaño del reproductor = grande OR Tamaño del reproductor = HD\]).
 
@@ -512,7 +512,7 @@ El ID debe comenzar por &quot;51&quot; y constar de ocho dígitos. De forma pred
 
 >[!MORELIKETHIS]
 >
->* [Acerca de la administración de ubicaciones](placement-about.md)
+>* [Acerca de la administración de ubicaciones en Advertising DSP](placement-about.md)
 >* [Crear una ubicación](placement-create.md)
 >* [Editar ubicaciones](placement-edit.md)
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)

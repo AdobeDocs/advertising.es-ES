@@ -3,7 +3,7 @@ title: Especificar ubicaciones y anuncios para una oferta privada
 description: Aprenda a utilizar un acuerdo privado con ubicaciones y anuncios adicionales.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -56,6 +56,6 @@ La ubicación comienza a ejecutarse después de que el editor active su ID de ac
 >
 >* [Acerca del inventario privado](private-inventory-about.md)
 >* [Enumerar las ubicaciones y los anuncios para una oferta privada](/help/dsp/inventory/private-deal-view-placements.md)
->* [Crear manualmente los detalles del ID de acuerdo](deal-id-create.md)
+>* [Crear manualmente los detalles del ID de la oferta](deal-id-create.md)
 >* [Configuración de ID de acuerdo manual](deal-id-settings.md)
->* [Configurar una oferta garantizada programática](programmatic-guaranteed-set-up.md)
+>* [Configurar un acuerdo programático garantizado](programmatic-guaranteed-set-up.md)
