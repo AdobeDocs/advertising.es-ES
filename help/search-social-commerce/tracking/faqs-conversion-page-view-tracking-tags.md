@@ -1,16 +1,16 @@
 ---
-title: Preguntas frecuentes sobre la conversión de Adobe Advertising y las etiquetas de seguimiento de vista de página
+title: Preguntas frecuentes sobre las etiquetas de conversión de Adobe Advertising y seguimiento de vista de página
 description: Consulte una comparación de las etiquetas de conversión de Adobe Advertising y de seguimiento de vista de página.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
 
 ---
 
-# Preguntas frecuentes sobre la conversión de Adobe Advertising y las etiquetas de seguimiento de vista de página
+# Preguntas frecuentes sobre las etiquetas de conversión de Adobe Advertising y seguimiento de vista de página
 
 Lo siguiente se aplica a las etiquetas de seguimiento de conversión de Adobe Advertising y a las etiquetas de seguimiento de vista de página.
 
@@ -19,15 +19,15 @@ Lo siguiente se aplica a las etiquetas de seguimiento de conversión de Adobe Ad
 | Se puede utilizar en la misma página web que otra versión de JS | — | — | — | n/a |
 | Permite el uso de varias etiquetas con los mismos ID de usuario del anunciante en la misma página web | Sí | Sí | Sí | — |
 | Permite el uso de varias etiquetas con distintos ID de usuario de anunciante en la misma página web | Sí | Sí | — | — |
-| Lo utiliza la extensión de Adobe Advertising para Adobe Experience Platform y es compatible con otras etiquetas generadas mediante Experience Platform | Sí | Sí | — | — |
-| Permite que se realice un seguimiento de todas las conversiones que se originan a partir de [!DNL Apple Safari] y [!DNL Mozilla Firefox] cuando se usan con la etiqueta de asignación de conversión JavaScript de Adobe Advertising | Sí | Sí | Sí | — |
+| Utilizado por la extensión de Adobe Advertising para Adobe Experience Platform y compatible con otras etiquetas generadas mediante Experience Platform | Sí | Sí | — | — |
+| Permite rastrear todas las conversiones que se originan entre [!DNL Apple Safari] y [!DNL Mozilla Firefox] cuando se usan con la etiqueta de asignación de conversión de Adobe Advertising JavaScript | Sí | Sí | Sí | — |
 
 <!-- add link to page on conversion mapping tag above? -->
 
 >[!NOTE]
 >
 >* Todas las implementaciones nuevas utilizan JavaScript versión 3.
->* La etiqueta JavaScript con ECID usa el [servicio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es), así como el ef_id y el gsurferid heredados para medir las conversiones. Esta última etiqueta crea [cookies s_ecid de Experience Cloud de origen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=es) y proporciona una integración más estrecha con otros productos de Experience Cloud.
+>* La etiqueta JavaScript con ECID usa el [servicio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html), así como el ef_id y el gsurferid heredados para medir las conversiones. Esta etiqueta más reciente crea [cookies s_ecid de Experience Cloud de origen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) y proporciona una integración más estrecha con otros productos de Experience Cloud.
 >* Utilice las etiquetas de la versión 2 de JavaScript solo cuando ya hayan sido implementadas en las páginas web del anunciante.
 >* La práctica recomendada es utilizar etiquetas de JavaScript en lugar de etiquetas de imagen a menos que el sitio tenga una política contra su uso.
 >* Las etiquetas de JavaScript son necesarias para los anunciantes que deseen segmentar audiencias creadas en Adobe Experience Cloud, en Adobe Audience Manager o publicadas en Adobe Experience Cloud desde Audience Manager o Adobe Analytics.
@@ -40,6 +40,7 @@ Lo siguiente se aplica a las etiquetas de seguimiento de conversión de Adobe Ad
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Formato de etiquetas de seguimiento de conversión de imagen](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 
-<!-- add if I keep the file:  
+<!--
+ add if I keep the file:  
 >* The Adobe Advertising JavaScript conversion mapping tag
 -->

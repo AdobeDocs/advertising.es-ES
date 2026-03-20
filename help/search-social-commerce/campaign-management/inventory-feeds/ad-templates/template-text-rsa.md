@@ -3,7 +3,7 @@ title: Configuración de anuncios de texto y plantillas de anuncios de búsqueda
 description: Haga referencia a la configuración de las plantillas de anuncios de búsqueda interactivos y de anuncios de texto para las fuentes de inventario.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 0%
@@ -109,7 +109,9 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 
   ([!DNL Google Ads] campañas) Para incluir pujas en los anuncios de [!DNL Google Ads] socios de búsqueda, selecciona la casilla que hay junto a **[!UICONTROL Search partners]**.
 
-* *[!UICONTROL Content]:* Para hacer pujas por ubicaciones en listados de red de contenido (visualización). **Nota:** No puede crear ubicaciones usando la plantilla. Cuando seleccione esta opción, cree ubicaciones para cada grupo de anuncios y especifique qué páginas de la red de visualización se dirigirán a cada grupo de anuncios mediante <!-- insert link --> hojas de edición masiva o la configuración de ubicación y grupo de anuncios <!-- insert links --> en las vistas [!UICONTROL Search] > [!UICONTROL Campaigns].
+* *[!UICONTROL Content]:* Para hacer pujas por ubicaciones en listados de red de contenido (visualización). **Nota:** No puede crear ubicaciones usando la plantilla. Cuando seleccione esta opción, cree ubicaciones para cada grupo de anuncios y especifique qué páginas de la red de visualización se dirigirán a cada grupo de anuncios mediante hojas de edición masiva o el grupo de anuncios y la configuración de ubicación en las vistas [!UICONTROL Search] > [!UICONTROL Campaigns].
+
+<!-- insert links above -->
 
 **[!UICONTROL Languages]:** ([!DNL Google Ads] buscar y mostrar solo redes) Uno o más idiomas de destino para los anuncios de la campaña.
 
@@ -239,7 +241,7 @@ Los campos de datos del archivo de fuente pueden tener un máximo de 25 caracter
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] plantillas solamente) La cadena que se va a usar como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contiene la cadena de sustitución dinámica `{Param3}`. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos publicitarios en los que la utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
 
 ## [!UICONTROL Ads]
 

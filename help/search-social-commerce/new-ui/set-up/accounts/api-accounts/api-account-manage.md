@@ -2,7 +2,8 @@
 title: (Nueva IU) Administrar las cuentas de red de publicidad
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta en la nueva interfaz de usuario para una red de publicidad sincronizada mediante la API de red de publicidad.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: a50b2943-7568-401c-be5b-ff6f62629488
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 0%
@@ -133,7 +134,8 @@ Al habilitar una cuenta de red de publicidad, Search, Social y Commerce sincroni
 
 La configuración de la cuenta varía según la red de anuncios. Es posible que no vea todas las configuraciones a continuación.
 
-<!-- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+<!--
+ When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
 
 ### Authenticate tab
 
@@ -201,7 +203,7 @@ Para habilitar esta característica, active **[Habilitar seguimiento]**.
 >* Si cambia de [!UICONTROL Standard] a [!UICONTROL Token], o viceversa, debe volver a generar las direcciones URL de seguimiento para la cuenta.
 >* Puede anular la configuración de nivel de cuenta en el nivel de campaña.
 
-**[!UICONTROL Auto Update]:** (cuando el seguimiento de Search, Social y Commerce está habilitado) Estandariza las direcciones URL de seguimiento para comprobar la compatibilidad entre exploradores y servidores. Search, Social y Commerce cargan automáticamente lo siguiente en la red de anuncios durante la siguiente sincronización: (a) parámetros de seguimiento de Search, Social y Commerce para plantillas de seguimiento y los mismos parámetros añadidos a las direcciones URL finales o (b) nuevas direcciones URL de destino incrustadas con el código de seguimiento de Search, Social y Commerce. Para anunciantes con una [integración Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es) y una configuración de ID de AMO del lado del servidor (s_kwcid), la carga también incluye [parámetros de ID de AMO](/help/integrations/analytics/ids.md#amo-id) para sus cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La configuración predeterminada en el nivel de cuenta se hereda de la configuración de seguimiento del anunciante. Puede anular la configuración de nivel de cuenta en el nivel de campaña.
+**[!UICONTROL Auto Update]:** (cuando el seguimiento de Search, Social y Commerce está habilitado) Estandariza las direcciones URL de seguimiento para comprobar la compatibilidad entre exploradores y servidores. Search, Social y Commerce cargan automáticamente lo siguiente en la red de anuncios durante la siguiente sincronización: (a) parámetros de seguimiento de Search, Social y Commerce para plantillas de seguimiento y los mismos parámetros añadidos a las direcciones URL finales o (b) nuevas direcciones URL de destino incrustadas con el código de seguimiento de Search, Social y Commerce. Para anunciantes con una [integración Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) y una configuración de ID de AMO del lado del servidor (s_kwcid), la carga también incluye [parámetros de ID de AMO](/help/integrations/analytics/ids.md#amo-id) para sus cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La configuración predeterminada en el nivel de cuenta se hereda de la configuración de seguimiento del anunciante. Puede anular la configuración de nivel de cuenta en el nivel de campaña.
 
 Las direcciones URL de seguimiento se actualizan a diario solo para las entidades que no están sincronizadas (es decir, las nuevas entidades que se añadieron y las entidades existentes cuyas propiedades han cambiado). Por lo tanto, si cambia esta configuración de deshabilitada a habilitada para un anunciante, cuenta o campaña existente, las direcciones URL de seguimiento no se actualizan para las entidades existentes que ya están sincronizadas. Para agregar el seguimiento a las direcciones URL de entidades sincronizadas existentes, póngase en contacto con el equipo de cuenta de Adobe y solicite un proceso de sincronización manual único. El proceso de carga automática gestionará los cambios futuros.
 

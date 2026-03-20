@@ -3,7 +3,7 @@ title: Revisión y edición de la configuración de ubicación mediante hojas de
 description: Obtenga información sobre cómo revisar y editar la configuración de ubicación de claves de forma masiva mediante hojas de cálculo.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -211,7 +211,8 @@ Cuando falla cualquier actualización de configuración, puede descargar un arch
 
 -->
 
-<!-- LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
+<!--
+ LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
 
 | Brand Safety | Brand Safety - Contextual Filtering # |  |  |
 | Brand Safety | Brand Safety - Pre-Bid Fraud blocking # |  |  |

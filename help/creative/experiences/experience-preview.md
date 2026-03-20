@@ -3,7 +3,7 @@ title: Previsualización de una experiencia
 description: Obtenga información sobre cómo previsualizar los elementos creativos en una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 0%
@@ -52,7 +52,8 @@ Puede obtener una vista previa de los elementos creativos con un tamaño de anun
 
       1. Seleccione el tamaño del anuncio.
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
@@ -60,7 +61,8 @@ Puede obtener una vista previa de los elementos creativos con un tamaño de anun
 
    * Para obtener una vista previa de todos los creativos de la experiencia, haga clic en **[!UICONTROL Entire Tree]**.
 
-     <!-- I don't see this as of 2/3:
+     <!--
+      I don't see this as of 2/3:
      1. Click **[!UICONTROL Entire Tree]**.
      1. Select the ad size.
      1. Select whether to group the creatives by Rotation Type or Ad Size.

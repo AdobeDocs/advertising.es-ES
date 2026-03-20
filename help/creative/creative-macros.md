@@ -3,7 +3,7 @@ title: Macros disponibles para URL de seguimiento
 description: Haga referencia a las macros que puede agregar a las direcciones URL de la página de aterrizaje, las direcciones URL de seguimiento y los elementos creativos de terceros.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Puede incluir cualquiera de las siguientes macros en los elementos creativos de 
 
 Algunas de las macros disponibles, o sus equivalentes, se incluyen automáticamente en las etiquetas de experiencia.
 
-<!-- Later: 
+<!--
+ Later: 
 
 | Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
 | --- | --- | --- | --- |
@@ -55,4 +56,4 @@ Algunas de las macros disponibles, o sus equivalentes, se incluyen automáticame
 >* [Agregar elementos creativos estándar a una biblioteca creativa](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Configuración creativa estándar](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Configuración de experiencia de destino](/help/creative/experiences/experience-settings-targeting.md)
->  &#x200B;>*[Configuración de experiencia sin destino](/help/creative/experiences/experience-settings-no-targeting.md)
+>*[Configuración de experiencia sin destino](/help/creative/experiences/experience-settings-no-targeting.md)

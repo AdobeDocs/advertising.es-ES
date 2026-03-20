@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Microsoft Advertising] configuración de grupo de productos'
+title: Configuración del grupo de productos [!DNL Microsoft Advertising]
 description: Haga referencia a la configuración de  [!DNL Microsoft Advertising] grupos de productos de compras.
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -38,7 +38,8 @@ Para obtener una lista de las dimensiones de producto disponibles, consulte &quo
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
-<!-- ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
+<!--
+ ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
 
 {{$include /help/_includes/tracking-template-microsoft.md}}
 -->

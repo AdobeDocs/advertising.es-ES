@@ -3,7 +3,7 @@ title: Adjuntar un elemento creativo a paquetes creativos
 description: Aprenda a adjuntar un elemento creativo a un paquete creativo.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -24,7 +24,8 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >Puede<!-- also --> [adjuntar creativos a paquetes y desasociar creativos de paquetes de la vista Paquetes](/help/creative/creative-libraries/bundle-manage.md).
 
-<!-- Hide header until second procedure is available (if we add that):
+<!--
+ Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -48,7 +49,8 @@ You can also detach a creative from a bundle to remove the association between t
 
 1. En el cuadro derecho, active la casilla de verificación situada junto a cada paquete al que desea adjuntar el creativo y, a continuación, haga clic en **[!UICONTROL Attach Creative to Bundle]**.
 
-<!-- Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like.
+<!--
+ Verify and edit all of the following, including the command names and where they're available -- not in UI yet as of 1/17. I'm not sure what the UI will really look like.
 
 ## Detach creatives from a creative bundle
 
@@ -72,7 +74,8 @@ You can also detach a creative from a bundle to remove the association between t
 
 -->
 
-<!-- What this should be like, but I don't think this will be implemented:
+<!--
+ What this should be like, but I don't think this will be implemented:
 
 1. Select the creative:
 

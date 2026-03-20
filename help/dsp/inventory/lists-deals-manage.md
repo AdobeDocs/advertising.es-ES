@@ -3,7 +3,7 @@ title: Administración de listas de ofertas
 description: Aprenda a crear y administrar listas de ofertas para la segmentación de ubicaciones.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 Puede crear y administrar listas de ofertas privadas y [!DNL On Demand] ofertas para la segmentación de ubicación. Dirija la segmentación o exclusión de listas de tratos privadas específicas dentro de la configuración de ubicación.
 
-<!-- Later:
+<!--
+ Later:
 In custom reports, you can a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section
 -->
 

@@ -2,7 +2,8 @@
 title: (Nueva interfaz de usuario) Administrar [!DNL Naver] cuentas solo para seguimiento
 description: Aprenda a configurar y administrar los detalles de la cuenta en la nueva interfaz de usuario de una cuenta de  [!DNL Naver] .
 feature: Search Campaign Management
-source-git-commit: 0de2a01905727314ca6c0792c5efaf6450548293
+exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -65,7 +66,8 @@ Para cambiar el nombre de la cuenta, cambiar el estado de la cuenta o cambiar lo
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-<!-- What does this do?
+<!--
+ What does this do?
 
 ## Enable or disable ad network accounts {#enable-disable-account}
 

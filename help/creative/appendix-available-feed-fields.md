@@ -3,7 +3,7 @@ title: Campos disponibles para archivos de fuentes de publicidad dinámica
 description: Obtenga información acerca de los campos que puede incluir en los archivos de fuente que utiliza para crear anuncios dinámicos.
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -16,7 +16,8 @@ Los siguientes campos de fuente están disponibles en el backend de Advertising 
 
 El único campo que debe tener un equivalente en el archivo de fuente es `PART_NUM`.
 
-<!-- Questions:
+<!--
+ Questions:
 
 What are these?
 Rank

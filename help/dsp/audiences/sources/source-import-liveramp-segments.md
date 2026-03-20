@@ -3,7 +3,7 @@ title: Importar manualmente segmentos autenticados de  [!DNL LiveRamp]
 description: Obtenga información acerca de la activación de audiencias autenticadas mediante  [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Puede enviar manualmente [!DNL LiveRamp] segmentos autenticados a DSP mediante e
 
 La asignación y carga de segmentos para cada trabajo de importación puede tardar hasta siete días.
 
-<!--Is this first step relevant for this process?
+<!--
+Is this first step relevant for this process?
 
 1. For measurement using [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md):
 
@@ -44,5 +45,5 @@ La asignación y carga de segmentos para cada trabajo de importación puede tard
 >
 >* [Acerca de las fuentes de audiencia de origen](source-about.md)
 >* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)

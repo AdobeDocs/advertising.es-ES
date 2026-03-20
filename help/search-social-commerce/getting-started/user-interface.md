@@ -3,7 +3,7 @@ title: Organización de la interfaz de usuario
 description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
 * Submenú **[!UICONTROL Plan]**:
 
-   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -108,7 +108,8 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
    * **[!UICONTROL Accounts]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-<!-- What's happenening to these?
+<!--
+ What's happenening to these?
 
 Campaigns > ACM
 Campaigns > Bulksheets

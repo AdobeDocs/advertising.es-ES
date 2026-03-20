@@ -3,7 +3,7 @@ title: Exportación e implementación de una etiqueta de experiencia de anuncio 
 description: Obtenga información sobre cómo exportar una etiqueta de experiencia de anuncio y, opcionalmente, cargarla en una campaña de Advertising DSP.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
-1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Exportar etiquetas de publicidad](/help/creative/assets/export.png "Exportar etiquetas de publicidad") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Exportar etiquetas de publicidad](/help/creative/assets/export.png "Exportar etiquetas de publicidad") **[!UICONTROL Export ad tags]** o **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -49,9 +49,9 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
 1. Seleccione el tipo de etiqueta:
 
-   * (Experiencias que no son de vídeo) **&#x200B; *JavaScript* &#x200B;** o **&#x200B; *Iframe* &#x200B;**.
+   * (Experiencias que no son de vídeo) ** *JavaScript* ** o ** *Iframe* **.
 
-   * (Experiencias de vídeo) **&#x200B; *Vídeo* &#x200B;**.
+   * (Experiencias de vídeo) ** *Vídeo* **.
 
 1. En la lista [!UICONTROL Destinations], seleccione dónde creará anuncios para la experiencia.
 
@@ -89,7 +89,8 @@ Los anunciantes con Advertising DSP pueden, opcionalmente, cargar etiquetas dire
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
-<!-- Add this info, with descriptions:
+<!--
+ Add this info, with descriptions:
 
 ## Ad tag formats
 

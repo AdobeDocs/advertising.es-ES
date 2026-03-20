@@ -3,7 +3,7 @@ title: Administrar informes personalizados
 description: Obtenga información sobre cómo generar y administrar la experiencia cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 0%
@@ -208,7 +208,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
@@ -229,7 +229,8 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
       El nuevo destino ya está disponible en la lista de destinos existentes y, opcionalmente, puede agregarlo al informe.
 
 
-<!-- This needs a lot of updating for new report:
+<!--
+ This needs a lot of updating for new report:
 
 ## Available report columns {#report-custom-creative-columns}
 

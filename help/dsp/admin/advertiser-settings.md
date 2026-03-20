@@ -2,7 +2,7 @@
 title: Configuración de cuenta del anunciante
 description: Consulte las descripciones de la configuración de anunciante disponible.
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -61,7 +61,8 @@ Para obtener más información acerca de la integración con [!DNL Analytics], v
 * Segmentos creados en Adobe Experience Platform y enviados a Adobe Advertising mediante Audience Manager
 
 La sincronización inicial dura unas 24 horas. Después, los datos se sincronizan en tiempo real, con un retraso de uno a dos segundos.
-<!-- I don't think this is true anymore:
+<!--
+ I don't think this is true anymore:
 Segment membership data is sent to Adobe Advertising only after one of the following:
 
 * The segment is targeted in an Adobe Advertising placement or audience library
@@ -132,19 +133,19 @@ Filtros de visibilidad de oferta previa opcionales de [!DNL DoubleVerify] y [!DN
 
 ###### Vídeo
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Con esta opción, seleccione los criterios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con esta opción, seleccione los criterios.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Con esta opción, seleccione los criterios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Mostrar
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con esta opción, seleccione los criterios.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 

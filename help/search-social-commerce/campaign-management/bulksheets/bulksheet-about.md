@@ -3,7 +3,7 @@ title: Administración de datos de campaña mediante hojas de edición masiva
 description: Obtenga información acerca de la funcionalidad de hojas de edición masiva disponible por red de anuncios, el flujo de trabajo de hojas de edición masiva y la gestión de errores.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -38,7 +38,8 @@ Todas las hojas de edición masiva, los archivos de error de validación de pág
 
 Los pasos estándar para utilizar hojas de edición masiva para cuentas sincronizadas son los siguientes:
 
-<!-- insert image
+<!--
+ insert image
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 

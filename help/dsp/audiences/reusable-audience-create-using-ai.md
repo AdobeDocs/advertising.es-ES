@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -96,7 +96,8 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
 Consulte &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot; para ver más formas de optimizar las peticiones de datos para audiencias.
 
-<!-- I think these are happening later:
+<!--
+ I think these are happening later:
 
 DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
 
@@ -147,7 +148,8 @@ Un informe de audiencia es una escritura estratégica que define el público obj
 
 Incluya tantos tipos de atributos de audiencia como sea posible de la siguiente lista en su informe. Sea específico sobre los atributos que desea excluir.
 
-<!-- What about these:
+<!--
+ What about these:
 
 * Device specifications
 * Presence in audiences from specific third-party data providers

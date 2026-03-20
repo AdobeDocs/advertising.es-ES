@@ -3,9 +3,9 @@ title: Personalización de las direcciones URL de seguimiento de una experiencia
 description: Aprenda a personalizar las direcciones URL de seguimiento para cada elemento creativo de una experiencia sin segmentación del árbol de decisiones.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Las direcciones URL personalizadas solo se usan para los anuncios creados a part
 
    1. Haga clic en **[!UICONTROL Create]**.
 
-1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar URL de seguimiento](/help/creative/assets/edit-gray.png "Editar URL de seguimiento") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
+1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar URL de seguimiento](/help/creative/assets/edit-gray.png "Editar URL de seguimiento") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
 
    Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños de los elementos creativos predeterminados de la experiencia determinan los tamaños disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
 

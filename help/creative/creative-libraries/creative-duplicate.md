@@ -3,7 +3,7 @@ title: Creativos duplicados
 description: Aprenda a duplicar elementos creativos en una biblioteca creativa.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -36,7 +36,8 @@ Haga un duplicado de los elementos creativos para añadir nuevos elementos creat
 
    Los nuevos creativos se denominan `<original name> (copy) # 1` (o el siguiente número de la secuencia). Por ejemplo, si crea dos duplicados de &quot;Imagen de prueba&quot;, los duplicados se denominarán &quot;Imagen de prueba (copia) # 1&quot; y &quot;Imagen de prueba (copia) # 2&quot;.
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)
