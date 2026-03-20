@@ -45,5 +45,5 @@ Is this first step relevant for this process?
 >
 >* [Acerca de las fuentes de audiencia de origen](source-about.md)
 >* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)
