@@ -3,9 +3,9 @@ title: Personalizar la optimización y programación creativas de una experienci
 description: Obtenga información sobre cómo configurar la optimización y la programación de anuncios para experiencias sin segmentación.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,18 @@ Cuando se desactiva la programación creativa, la configuración de optimizació
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
-1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar optimización creativa](/help/creative/assets/edit-gray.png "Editar optimización creativa") **[!UICONTROL Creative Optimization]**.&lt;!— A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
+1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar optimización creativa](/help/creative/assets/edit-gray.png "Editar optimización creativa") **[!UICONTROL Creative Optimization]**.&lt;!—
+A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
 
 1. Deshabilitar **[!UICONTROL Schedule]**.
 
 1. Seleccione el tipo de rotación creativa para las variantes de anuncio en los paquetes asociados:
 
-   * *[!UICONTROL Weighted]:* Muestra variantes de anuncio en los paquetes creativos asociados según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Para aplicar pesos iguales a todos los paquetes asociados, haga clic en (![Aplicar igual peso](/help/creative/assets/apply-equal-weight.png "Aplicar igual peso")). Los pesos de todos los paquetes seleccionados deben sumar 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* Muestra variantes de anuncio en los paquetes creativos asociados según los pesos relativos. Introduzca el peso de cada paquete como porcentaje. Para aplicar pesos iguales a todos los paquetes asociados, haga clic en (![Aplicar igual peso](/help/creative/assets/apply-equal-weight.png "Aplicar igual peso")). Los pesos de todos los paquetes seleccionados deben sumar 100.
+
+   <!-- 
+   For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. 
+   -->
 
    * *[!UICONTROL Algorithmic]:* Muestra las variantes de anuncio más efectivas con mayor frecuencia, según un objetivo especificado.
 
@@ -66,7 +71,7 @@ Al programar, debe programar los elementos creativos durante toda la experiencia
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
-1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar optimización creativa](/help/creative/assets/edit-gray.png "Editar optimización creativa") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
+1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar optimización creativa](/help/creative/assets/edit-gray.png "Editar optimización creativa") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" Tag Manager has only a list view, but no card view, as of 2/2. -->
 
 1. Habilitar **[!UICONTROL Schedule]**.
 
