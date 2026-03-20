@@ -3,7 +3,7 @@ title: Se requieren datos de hojas de edición masiva para  [!DNL Baidu] cuentas
 description: Haga referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para  [!DNL Baidu] cuentas.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 Para crear y actualizar los datos de la campaña [!DNL Baidu] de forma masiva, puede usar los archivos de hoja de edición masiva de Search, Social y Commerce con un formato específico para las cuentas de [!DNL Baidu]. Puede: a) [generar archivos de hojas de edición masiva para cuentas existentes](../bulksheet-download.md) en el formato de archivo requerido o b) crearlos manualmente (consulte &quot;[Formatos de archivo de hojas de edición masiva admitidos](bulksheet-file-formats.md)&quot; para obtener información general sobre los formatos de archivo admitidos).
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), Ad Serving (Baidu),Ad Group Name,Max CPC,Keyword,Match Type,Ad Title,Description Line 1,Description Line 2,Display URL,Base URL,Destination URL,Custom URL Param,Campaign Status,Ad Group Status,Keyword Status,Ad Status,Location Status,[Advertiser-specific Label Classification],Campaign ID,Ad Group ID,Keyword ID,Ad ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## Campos de datos disponibles
 

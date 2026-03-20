@@ -3,7 +3,7 @@ title: Se requieren datos de hojas de edición masiva para  [!DNL Yandex] cuenta
 description: Haga referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para  [!DNL Yandex] cuentas.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 Para crear y actualizar los datos de la campaña [!DNL Yandex] de forma masiva, puede usar los archivos de hoja de edición masiva de Search, Social y Commerce con un formato específico para las cuentas de [!DNL Yandex]. Puede: a) [generar archivos de hojas de edición masiva para cuentas existentes](../bulksheet-download.md) en el formato de archivo requerido o b) crearlos manualmente (consulte &quot;[Formatos de archivo de hojas de edición masiva admitidos](bulksheet-file-formats.md)&quot; para obtener información general sobre los formatos de archivo admitidos).
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Method,Ad Group Name,Ad Title,Ad Description,Base URL,Destination URL,SiteLink Title,SiteLink Base URL,SiteLink Destination URL,Keyword,Max CPC,Match Type,Search Network Status,Content Network Status,Negative Keywords (Yandex),Param1 (Yandex),Param2 (Yandex),Campaign Status,Ad Group Status,Ad Status,Keyword Status,SiteLink Status,Campaign ID,Ad Group ID, Ad ID,Keyword ID,AMO ID, [Advertiser-specific Label Classification],Constraints,EF Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## Campos de datos disponibles
 
@@ -62,7 +52,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | [!UICONTROL Ad Group Status] | n/a | Opcional: crear o editar<br>Requerido: eliminar | n/a | n/a | n/a | El estado de visualización del grupo de anuncios: <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> o <i>[!UICONTROL stop]</i> (en pausa). El valor predeterminado para los nuevos grupos de anuncios es <i>[!UICONTROL active]</i>.<br><br><b>Notas:</b><ul></li>Si un grupo de publicidad ha estado activo alguna vez, no puede eliminarlo. En su lugar, archívelo.</li><li>No puede establecer manualmente el estado en <i>[!UICONTROL disapproved]</i> o <i>[!UICONTROL pending]</i>, ni cambiar esos estados.</li></ul> |
 | [!UICONTROL Ad Status] | n/a | n/a | n/a | Opcional: crear o editar<br>Requerido: eliminar | n/a | El estado de visualización del banner (anuncio): <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> o <i>[!UICONTROL stop]</i> (en pausa). El valor predeterminado para los nuevos titulares es <i>[!UICONTROL active]</i>.<br><br><b>Nota: no puede establecer manualmente el estado en <i>[!UICONTROL disapproved]</i> o <i>[!UICONTROL pending]</i>, ni cambiar esos estados. |
 | [!UICONTROL Keyword Status] | n/a | n/a | Opcional: crear o editar<br>Requerido: eliminar | n/a | n/a | El estado de visualización de la frase (palabra clave): <i>[!UICONTROL active]</i>. El valor predeterminado para las frases nuevas es <i>[!UICONTROL active]</i>.<br><br><b>Nota: no puede establecer manualmente el estado en <i>[!UICONTROL disapproved]</i> o <i>[!UICONTROL pending]</i>, ni cambiar esos estados. |
-| [!UICONTROL SiteLink Status] | n/a | n/a | n/a | n/a | Opcional: crear o editar<br>Requerido: eliminar | El estado de visualización del vínculo del sitio: <i>[!UICONTROL * Activo]</i> o <i>[!UICONTROL * En pausa]</i>. El valor predeterminado para los nuevos vínculos de sitio es <i>[!UICONTROL * Active]</i>. |
+| [!UICONTROL SiteLink Status] | n/a | n/a | n/a | n/a | Opcional: crear o editar<br>Requerido: eliminar | El estado de visualización del vínculo del sitio: <i>[*UICONTROL Activo]</i> o <i>[*UICONTROL En pausa]</i>. El valor predeterminado para los nuevos vínculos de sitio es <i>[*UICONTROL Active]</i>. |
 | [!UICONTROL Campaign ID] | n/a: Crear<br>Requerido/Opcional: Editar<br>Opcional: Eliminar | Opcional | Opcional | Opcional | Opcional | ID único que identifica una campaña existente. En los archivos CSV y TSV, debe ir precedido de una comilla simple (&#39;).[^1] Necesario solo cuando cambia el nombre de la campaña, a menos que la fila incluya un identificador de AMO para la campaña. |
 | [!UICONTROL Ad Group ID] | n/a | n/a: Crear<br>Requerido/Opcional: Editar<br>Opcional: Eliminar | Opcional | Opcional | n/a | ID único que identifica un grupo de anuncios existente. En los archivos CSV y TSV, debe ir precedido de una comilla simple (&#39;).[^1] Necesario solo cuando cambia el nombre del grupo de anuncios, a menos que la fila incluya un identificador de AMO para el grupo de anuncios. |
 | [!UICONTROL Ad ID] | n/a | n/a | n/a | n/a: Crear<br>Requerido/Opcional: Editar o eliminar | n/a | Identificador exclusivo que identifica una palabra clave existente. En los archivos CSV y TSV, debe ir precedido de una comilla simple (&#39;).[^1] Necesario solo cuando se cambia el nombre de la palabra clave, a menos que la fila incluya a) suficientes columnas de propiedad para identificar la palabra clave o b) un identificador de AMO. |

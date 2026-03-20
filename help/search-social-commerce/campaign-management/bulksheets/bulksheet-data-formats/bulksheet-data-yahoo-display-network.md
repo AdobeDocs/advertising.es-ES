@@ -3,7 +3,7 @@ title: Datos de hoja de edición masiva para  [!DNL Yahoo! Display Network] cuen
 description: Haga referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para  [!DNL Yahoo! Display Network] cuentas.
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -17,16 +17,6 @@ ht-degree: 0%
 -->
 
 Puede descargar datos de cuentas de [!DNL Yahoo! Display Network] de forma masiva, pero no puede cargar ni publicar hojas de edición masiva en la red publicitaria.
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-The following example shows data in comma-delimited values. If you're using tab-separated values, then the data looks different.
-
-Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Line 1,Description Line 2,Base URL/Final URL,Destination URL,[Advertiser-specific Label Classification],Bid Rules,Constraints,Campaign Status,Ad Group Status,Ad Status,Campaign ID,Ad Group ID,Ad ID,AMO ID,EF Error Message
-
--->
 
 ## Campos de datos disponibles
 
@@ -50,7 +40,7 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Campaign ID] | Si se incluye | Si se incluye | Si se incluye | ID único que identifica una campaña existente. |
 | [!UICONTROL Ad Group ID] | n/a | Si se incluye | Si se incluye | ID único que identifica un grupo de anuncios existente. |
 | [!UICONTROL Keyword ID] | n/a | n/a | Si se incluye | Identificador exclusivo que identifica una palabra clave existente. |
-| [!UICONTROL AMO ID] | n/a | n/a | n/a | (En hojas de edición masiva generadas) Identificador único generado por el Adobe para una entidad sincronizada. |
+| [!UICONTROL AMO ID] | n/a | n/a | n/a | (En hojas de edición masiva generadas) Identificador único generado por Adobe para una entidad sincronizada. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de Search, Social y Commerce con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL EF Errors] archivos. |
 
 >[!MORELIKETHIS]

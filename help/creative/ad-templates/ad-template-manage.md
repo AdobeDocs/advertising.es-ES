@@ -2,9 +2,10 @@
 title: Administración de plantillas de publicidad dinámicas
 description: Aprenda a administrar plantillas de publicidad dinámicas y a crear anuncios a partir de ellas.
 feature: Creative Templates
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Cree una plantilla de anuncio independiente para cada combinación de tipo de an
 
 1. Mantenga el cursor sobre la fila de la plantilla de publicidad y haga clic en **[!UICONTROL Delete]**.
 
-1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.<!-- Confirm -->
+1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
 
 ## Creación de anuncios dinámicos a partir de una plantilla de publicidad
 
@@ -87,13 +88,9 @@ Cree una plantilla de anuncio independiente para cada combinación de tipo de an
 
 **[!UICONTROL Description]**: (Opcional) información que resulta útil para cualquiera que utilice la plantilla de anuncio.
 
-<!-- I don't see this on 9/24:
+### (Plantillas de anuncios HTML5 estáticas) Haga clic en Etiquetas
 
-### (Static HTML5 ad templates) Click Tags
-
-**\[Click Tag Parameter\]**: The click tag parameters to allow click-tracking redirects from ads created using the ad template. To add a parameter, click **[!UICONTROL + Add More]** and enter an additional parameter. You can include up to five parameters.
-
--->
+**\[Parámetro de etiqueta de clic\]**: Parámetros de etiqueta de clic para permitir redirecciones de rastreo de clics desde anuncios creados con la plantilla de anuncio. Para agregar un parámetro, haga clic en **[!UICONTROL + Add More]** e introduzca un parámetro adicional. Se pueden incluir hasta cinco parámetros.
 
 ### HTML5 zip
 
@@ -109,9 +106,7 @@ Para cargar un archivo:
 
 ### (Plantillas de anuncios HTML5 dinámicas) Archivo de atributos
 
-<!-- EXPLAIN -->Archivo que contiene atributos para la plantilla de publicidad. Si ya ha cargado un archivo, se muestra el nombre de archivo.
-
-<!-- Add specs for this file type -->
+<!-- EXPLAIN and ad specs below for this file type -->Archivo que contiene atributos para la plantilla de publicidad. Si ya ha cargado un archivo, se muestra el nombre de archivo.
 
 Para cargar un archivo:
 
@@ -126,4 +121,3 @@ Para cargar un archivo:
 >* [Administrar plantillas de fuentes](/help/creative/feeds/feed-template-manage.md)
 >* [Administrar catálogos](/help/creative/feeds/catalog-manage.md)
 >* [Agregar elementos creativos dinámicos a una biblioteca creativa](/help/creative/creative-libraries/creative-add-dynamic.md)
-
