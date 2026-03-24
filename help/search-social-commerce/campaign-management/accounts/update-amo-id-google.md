@@ -3,9 +3,9 @@ title: 'Actualizar el código de seguimiento de la ID de AMO (s_kwcid) para una 
 description: Aprenda a cambiar al código de seguimiento de ID de AMO más reciente para una cuenta de  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-El formato heredado (anterior a octubre de 2019) para el [código de seguimiento de ID de AMO](/help/integrations/analytics/ids.md#amo-id-formats) para las cuentas existentes de [!DNL Google Ads] no admite algunas características en Analytics, como la creación de informes en los niveles de campaña y grupo de anuncios para las campañas con el rendimiento máximo de [!DNL Google Ads], las campañas de borradores y experimentos, y otros casos de uso en los que existe la misma combinación de tipo anuncio+palabra clave+coincidencia en varias campañas.
+El formato heredado (anterior a octubre de 2019) para el [código de seguimiento de ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) para las cuentas existentes de [!DNL Google Ads] no admite algunas características en Analytics, como la creación de informes en los niveles de campaña y grupo de anuncios para las campañas con el rendimiento máximo de [!DNL Google Ads], las campañas de borradores y experimentos, y otros casos de uso en los que existe la misma combinación de tipo anuncio+palabra clave+coincidencia en varias campañas.
 
 El formato actual incluye parámetros para el ID de campaña y el ID de grupo de publicidad:
 
@@ -60,7 +60,7 @@ Todas las cuentas nuevas de [!DNL Google Ads] utilizan automáticamente el forma
 
    * Cuando la característica [!UICONTROL Auto Upload]&quot; está habilitada en la configuración de seguimiento, Search, Social y Commerce actualizan automáticamente el código de seguimiento en el sufijo de página de aterrizaje de esta cuenta y sus campañas. Usted no tiene que hacer nada.
 
-   * Cuando la característica [!UICONTROL Auto Upload]&quot; no está habilitada y no usa la [característica de ID de AMO del lado del servidor](/help/integrations/analytics/ids.md#amo-id-formats), debe actualizar manualmente el parámetro de ID de AMO en la configuración del sufijo de página de aterrizaje. Puede cambiar manualmente los sufijos de nivel de campaña y de cuenta en [configuración de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) y [configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), o bien [cargando cambios en una hoja de edición por lotes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Para configurar un sufijo en el nivel de grupo de anuncios o inferior, use el editor [!DNL Google Ads].
+   * Cuando la característica [!UICONTROL Auto Upload]&quot; no está habilitada y no usa la [característica de ID de AMO del lado del servidor](/help/integrations/analytics/ids.md#), debe actualizar manualmente el parámetro de ID de AMO en la configuración del sufijo de página de aterrizaje. Puede cambiar manualmente los sufijos de nivel de campaña y de cuenta en [configuración de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) y [configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), o bien [cargando cambios en una hoja de edición por lotes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Para configurar un sufijo en el nivel de grupo de anuncios o inferior, use el editor [!DNL Google Ads].
 
    * Si incluye el ID de AMO en la configuración de URL base para cualquier componente de campaña, muévalo a la configuración de Sufijo de página de aterrizaje correspondiente.
 
@@ -70,4 +70,4 @@ Todas las cuentas nuevas de [!DNL Google Ads] utilizan automáticamente el forma
 >
 >* [Administrar cuentas de red de anuncios](ad-network-account-manage.md)
 >* [ID de Adobe Advertising usados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es){target="_blank"}
+>* [Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

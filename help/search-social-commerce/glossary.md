@@ -3,9 +3,9 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2342'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **variación de anuncio:** Cualquier anuncio dentro de un grupo de anuncios o estrategia de publicidad.
 
-**[ID de AMO](/help/integrations/analytics/ids.md#amo-id):** Código de seguimiento que permite a Adobe Advertising compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics. Comienza con `s_kwcid=`.
+**[ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Código de seguimiento que permite a Adobe Advertising compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics. Comienza con `s_kwcid=`.
 
 **unidad de oferta:** Término de búsqueda, social y Commerce para una unidad en la que se colocan ofertas.
 
@@ -88,6 +88,8 @@ ht-degree: 0%
 
 **eCPM:** El CPM efectivo o el costo promedio pagado por 1000 impresiones durante un intervalo de fechas especificado. Los valores de eCPM se pueden calcular para campañas CPM o CPC.
 
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Un código de seguimiento que permite a Adobe Advertising asociar la actividad con un clic en línea o una exposición de publicidad y compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics.
+
 ## G-H {#g-h}
 
 **semivida:** tiempo necesario para que una cantidad disminuya a la mitad de su valor inicial. Para cada portafolio, puede especificar semividas para indicar cuánto tiempo son relevantes los datos para los modelos de coste y de ingresos.
@@ -99,7 +101,7 @@ Consulte &quot;semivida del modelo de costes&quot; y &quot;semivida del modelo d
 
 **ventana retrospectiva de impresiones:** (solo campañas de visualización y sociales) Una configuración de nivel de anunciante que especifica el número de días después de que se produzca una impresión de anuncio que la impresión puede atribuirse a una conversión.
 
-**peso de anulación de impresión:** Un porcentaje especificado de un valor de conversión que se atribuirá a las impresiones que se produzcan dentro de la ventana retrospectiva de impresiones del cliente cuando la conversión esté precedida por clics de pago e impresiones. Cuando una conversión solo está precedida por impresiones, se aplica a las impresiones la ponderación de visualización del anunciante, en lugar de la ponderación de anulación de la impresión.
+**peso de invalidación de impresión:** Un porcentaje especificado de un valor de conversión que se atribuirá a las impresiones que se produzcan dentro de la ventana retrospectiva de impresiones del cliente cuando la conversión esté precedida por clics de pago e impresiones. Cuando una conversión solo está precedida por impresiones, se aplica a las impresiones la ponderación de visualización del anunciante, en lugar de la ponderación de anulación de la impresión.
 
 ## K-L {#k-l}
 

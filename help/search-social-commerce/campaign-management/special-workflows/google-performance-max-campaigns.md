@@ -3,9 +3,9 @@ title: Implementar  [!DNL Google Ads] campañas de rendimiento máximo
 description: Obtenga información acerca del flujo de trabajo para configurar  [!DNL Google Ads] campañas de rendimiento máximo.
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 En [!DNL Google Ads] campañas con rendimiento máximo, no se configuran grupos de anuncios, anuncios ni palabras clave. En su lugar, en la configuración de la campaña debe especificar uno o más grupos de recursos, que incluyen titulares, descripciones e imágenes cargadas, logotipos y [!DNL YouTube videos]. [!DNL Google Ads] combina automáticamente los recursos para publicar anuncios basados en el canal (como [!DNL YouTube], [!DNL Gmail] o [!DNL Search]).
 
-Puede ver sus campañas Máximo rendimiento existentes, con datos de rendimiento en formato de tabla y gráfico de tendencias, en la vista [!DNL Campaigns]; los datos no están disponibles en los niveles inferiores. Los datos de rendimiento de nivel de campaña también están disponibles en los informes y en Adobe Analytics (para anunciantes con una [integración de Analytics](/help/integrations/analytics/overview.md). Para ver los datos de rendimiento de las campañas Máximo rendimiento de [!DNL Analytics], la campaña debe usar el [código de seguimiento de ID de AMO actualizado](/help/integrations/analytics/ids.md#amo-id-formats) (que realiza el seguimiento del ID de campaña y el ID de grupo de anuncios).
+Puede ver sus campañas Máximo rendimiento existentes, con datos de rendimiento en formato de tabla y gráfico de tendencias, en la vista [!DNL Campaigns]; los datos no están disponibles en los niveles inferiores. Los datos de rendimiento de nivel de campaña también están disponibles en los informes y en Adobe Analytics (para anunciantes con una [integración de Analytics](/help/integrations/analytics/overview.md). Para ver los datos de rendimiento de las campañas Máximo rendimiento de [!DNL Analytics], la campaña debe usar el [código de seguimiento de ID de AMO actualizado](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) (que realiza el seguimiento del ID de campaña y el ID de grupo de anuncios).
 
 >[!NOTE]
 >
