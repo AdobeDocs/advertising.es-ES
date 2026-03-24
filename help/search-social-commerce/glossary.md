@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **variación de anuncio:** Cualquier anuncio dentro de un grupo de anuncios o estrategia de publicidad.
 
-**[ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Código de seguimiento que permite a Adobe Advertising compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics. Comienza con `s_kwcid=`.
+**[ID de AMO](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id):** Código de seguimiento que permite a Adobe Advertising compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics. Comienza con `s_kwcid=`.
 
 **unidad de oferta:** Término de búsqueda, social y Commerce para una unidad en la que se colocan ofertas.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 **eCPM:** El CPM efectivo o el costo promedio pagado por 1000 impresiones durante un intervalo de fechas especificado. Los valores de eCPM se pueden calcular para campañas CPM o CPC.
 
-**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Un código de seguimiento que permite a Adobe Advertising asociar la actividad con un clic en línea o una exposición de publicidad y compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics.
+**[EF ID](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-ef-id):** Un código de seguimiento que permite a Adobe Advertising asociar la actividad con un clic en línea o una exposición de publicidad y compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics.
 
 ## G-H {#g-h}
 

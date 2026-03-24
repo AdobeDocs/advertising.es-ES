@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-El formato heredado (anterior a octubre de 2019) para el [código de seguimiento de ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) para las cuentas existentes de [!DNL Google Ads] no admite algunas características en Analytics, como la creación de informes en los niveles de campaña y grupo de anuncios para las campañas con el rendimiento máximo de [!DNL Google Ads], las campañas de borradores y experimentos, y otros casos de uso en los que existe la misma combinación de tipo anuncio+palabra clave+coincidencia en varias campañas.
+El formato heredado (anterior a octubre de 2019) para el [código de seguimiento de ID de AMO](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#dimension-items) para las cuentas existentes de [!DNL Google Ads] no admite algunas características en Analytics, como la creación de informes en los niveles de campaña y grupo de anuncios para las campañas con el rendimiento máximo de [!DNL Google Ads], las campañas de borradores y experimentos, y otros casos de uso en los que existe la misma combinación de tipo anuncio+palabra clave+coincidencia en varias campañas.
 
 El formato actual incluye parámetros para el ID de campaña y el ID de grupo de publicidad:
 
@@ -70,4 +70,4 @@ Todas las cuentas nuevas de [!DNL Google Ads] utilizan automáticamente el forma
 >
 >* [Administrar cuentas de red de anuncios](ad-network-account-manage.md)
 >* [ID de Adobe Advertising usados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es){target="_blank"}

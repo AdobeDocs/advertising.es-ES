@@ -70,7 +70,7 @@ Las cuentas que usan el seguimiento de conversión de Adobe Advertising deben in
 
 * Cuando el anunciante tiene una integración de Adobe Analytics, el sufijo debe incluir uno de los siguientes:
 
-   * Cuentas de [!DNL Google Ads] que utilizan el [formato de ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) más reciente (a partir de `s_kwcid`), que admite informes de nivel de campaña y de grupo de anuncios para campañas Máximo rendimiento, así como borradores y experimentos:
+   * Cuentas de [!DNL Google Ads] que utilizan el [formato de ID de AMO](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#dimension-items) más reciente (a partir de `s_kwcid`), que admite informes de nivel de campaña y de grupo de anuncios para campañas Máximo rendimiento, así como borradores y experimentos:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -93,4 +93,4 @@ Las cuentas que usan el seguimiento de conversión de Adobe Advertising deben in
 >[!MORELIKETHIS]
 >
 >* [Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [Formatos de ID de AMO](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#dimension-items)
