@@ -3,9 +3,9 @@ title: Socios de SSP
 description: Consulte la lista de la plataforma de suministro (SSP) disponible y los socios de intercambio abierto.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d5ac30d71fb9ccab53c396dae9b37d53d59e489c
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br><br>Pantalla nativa<br><br>Escritorio de vídeo, móvil y CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Todas las monedas | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | Video escritorio y móvil |
-| [!DNL Teads] |  | [!DNL TubeMogul] o Adobe Advertising | — | Vídeo de salida = Global<br>Display = NA + EMEA | USD | Mostrar escritorio y móvil<br><br>Escritorio de vídeo y móvil |
+| [!DNL Teads] |  | [!DNL TubeMogul] o Adobe Advertising | — | Vídeo de salida = Global<br>Display = NA + EMEA | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Visualización nativa |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL Triton] |  | Adobe Advertising | Compatibilidad con PG | Global | USD | Audio para escritorio y móvil |
