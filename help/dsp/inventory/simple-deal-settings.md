@@ -3,7 +3,7 @@ title: Configuración de acuerdo de [!UICONTROL Simple Ad Serving]
 description: Obtenga información acerca de la configuración disponible para ofertas de [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | **[!UICONTROL Serving Type]** | El tipo de medio para esta oferta: *[!UICONTROL Video],* *[!UICONTROL Display],* o *[!UICONTROL Audio].* |
 | **[!UICONTROL Publisher Site Served On]** | El nombre del editor que está vendiendo este inventario. Busque un editor escribiendo al menos los dos primeros caracteres en el nombre. Para agregar un editor que no aparezca en la lista, póngase en contacto con el equipo de cuenta de Adobe. |
 | **[!UICONTROL Advertiser]** | Un solo anunciante en la cuenta que puede acceder a esta oferta. Seleccione también la campaña y (opcionalmente) el paquete en el que está disponible la oferta. |
-| **[!UICONTROL Media Quality Assessment?]** | (Algunos usuarios) Permite que el anuncio se ejecute en otro DSP para la verificación de terceros. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
+| **[!UICONTROL Media Quality Assessment?]** | (Algunos usuarios) Permite que el anuncio se ejecute en otro DSP para la verificación de terceros. |
 | **[!UICONTROL Ad Source]** | La única opción es *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | (Solo nuevas ofertas) Si desea:<ul><li>*[!UICONTROL Create New]:* Para crear un anuncio para esta oferta.</li><li>*[!UICONTROL Select Ads]:* Para usar un anuncio existente para esta oferta.</li></ul> |
 | **[!UICONTROL Ad Type]** | El tipo de anuncio de esta oferta. Si va a crear anuncios para la oferta, incluya el tamaño del anuncio o la duración, según se solicite. Las opciones disponibles varían según el tipo de medio. |
