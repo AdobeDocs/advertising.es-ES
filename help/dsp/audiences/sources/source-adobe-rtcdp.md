@@ -32,11 +32,11 @@ Use la integración de DSP con [the [!DNL Adobe Real-Time CDP]](https://experien
 
    Las direcciones de correo electrónico deben tener un cifrado hash con el algoritmo SHA-256.
 
-   Para obtener instrucciones para activar la conexión de destino de DSP, activar audiencias y validar la exportación de datos, consulte &quot;[Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;.
+   Para obtener instrucciones para activar la conexión de destino de DSP, activar audiencias y validar la exportación de datos, consulte &quot;[Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)&quot;.
 
    >[!NOTE]
    >
-   >La conexión heredada, que solo admite direcciones de correo electrónico con hash, ahora se llama &quot;[Conexión heredada de DSP de Adobe Advertising Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Si ya utiliza la conexión heredada, no necesita realizar ningún cambio inmediatamente. Sin embargo, la conexión heredada se eliminará en algún momento.
+   >La conexión heredada, que solo admite direcciones de correo electrónico con hash, ahora se llama &quot;[Conexión heredada de DSP de Adobe Advertising Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Si ya utiliza la conexión heredada, no necesita realizar ningún cambio inmediatamente. Sin embargo, la conexión heredada se eliminará en algún momento.
 
 1. Compruebe en la biblioteca de audiencias (que está disponible cuando crea o edita una audiencia de [!UICONTROL Audiences] > [!UICONTROL All Audiences] o en la configuración de ubicación) que el segmento se está rellenando y compare el número de ID universales con el número de ID de usuario originales.
 
@@ -54,7 +54,7 @@ Para solucionar problemas con el procedimiento de conversión, póngase en conta
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
 >* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
+>* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es)
 >* [Compatibilidad para activar identificadores universales](/help/dsp/audiences/universal-ids.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)
