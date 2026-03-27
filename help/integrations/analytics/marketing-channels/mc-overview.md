@@ -3,9 +3,9 @@ title: Aspectos básicos de  [!DNL Marketing Channels]
 description: Obtenga información clave acerca de [!DNL Analytics Marketing Channels] que [!DNL Analytics for Advertising] los usuarios deben entender.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: e0436d3840fc138bad6ee3e3599cffd2385750cd
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 En esta página se explica la información clave acerca de [!DNL Analytics Marketing Channels] que los usuarios de [!DNL Analytics for Advertising] deben comprender.
 
-Para obtener documentación completa sobre [!DNL Marketing Channels], consulte &quot;[Introducción a  [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=es)&quot;.
+Para obtener documentación completa sobre [!DNL Marketing Channels], consulte &quot;[Introducción a  [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;.
 
 ## Información general de [!DNL Marketing Channels]
 
@@ -24,7 +24,7 @@ Consideremos el siguiente ejemplo de recorrido entre visitas. Cada visita al sit
 
 ![Ejemplo de recorrido de conversión entre visitas en los canales de marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
-Con [!UICONTROL Marketing Channels] reglas de procesamiento, puede crear conjuntos de lógica para determinar los canales que generan tráfico y realizar un seguimiento de cada canal a medida que los usuarios llegan al sitio. Por ejemplo, el canal [!UICONTROL Email] se indicaría mediante un código de seguimiento único generado al hacer clic que, cuando Adobe Analytics lo registra, clasificaría la visita como originada a partir de una campaña de marketing por correo electrónico.
+Con [!UICONTROL Marketing Channels] reglas de procesamiento, puede crear conjuntos de lógica para determinar los canales que generan tráfico y realizar un seguimiento de cada canal a medida que los usuarios llegan al sitio. Por ejemplo, el canal [!UICONTROL Email] se indica mediante un código de seguimiento único generado al hacer clic que, cuando Adobe Analytics registra la visita, clasifica la visita como originada a partir de una campaña de marketing por correo electrónico.
 
 ## Reglas de procesamiento y configuración de los canales de marketing
 
@@ -34,7 +34,7 @@ A menudo, los especialistas en marketing anexan códigos de seguimiento de pará
 
 Otros canales no tienen rutas de URL a las que se pueda realizar un seguimiento y necesitan más lógica para su identificación. Por ejemplo, [!UICONTROL Earned Social], en el cual un usuario hace clic en un vínculo que otro usuario compartió orgánicamente en una red social, es un canal importante de seguimiento. Sin embargo, el experto en marketing no tiene forma de adjuntar un código de seguimiento de parámetros de cadena de consulta a la dirección URL compartida. En este caso, puede crear una regla de procesamiento para detectar el dominio de referencia de las redes sociales de interés y la ausencia de códigos de seguimiento de pago para determinar el canal. Las visitas que cumplan estos requisitos se rastrearán como ganadas en medios sociales en el informe Canales de marketing.
 
-Adobe recomienda trabajar con su equipo de Analytics para crear un conjunto completo de [!DNL Marketing Channels] reglas de procesamiento con el fin de rastrear todos los canales que sean relevantes para su negocio. Al hacerlo, puede crear potentes informes de atribución.
+Adobe recomienda trabajar con su equipo [!DNL Analytics] para generar un conjunto completo de [!DNL Marketing Channels] reglas de procesamiento que hagan un seguimiento de todos los canales relevantes. Al hacerlo, puede crear potentes informes de atribución.
 
 Para comprender cómo Adobe Advertising puede contribuir a las señales necesarias para crear canales de marketing personalizados, consulte &quot;[Uso de Adobe Advertising ID para crear [!DNL Marketing Channels] reglas de procesamiento](mc-ids.md)&quot;.
 
@@ -43,5 +43,5 @@ Para comprender cómo Adobe Advertising puede contribuir a las señales necesari
 >* [Uso de Adobe Advertising ID para crear [!DNL Marketing Channels] reglas de procesamiento](mc-ids.md)
 >* [Por qué los datos de canal pueden variar entre Adobe Advertising y [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Usando [!DNL Analytics Marketing Channels] con datos de Adobe Advertising](mc-ac-data.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=es)
+>* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [Información general de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
