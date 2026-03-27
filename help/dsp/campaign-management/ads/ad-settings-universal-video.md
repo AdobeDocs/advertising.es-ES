@@ -3,7 +3,7 @@ title: Configuración de anuncios de vídeo universales
 description: Consulte las descripciones de los ajustes de publicidad disponibles para los anuncios de vídeo universales.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** El formato del reproductor del anuncio para el inventario potencial: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* o *[!UICONTROL VAST]*. La visibilidad siempre se mide para [!UICONTROL VPAID], pero [!UICONTROL VPAID & VAST] incluye el inventario que no permite la medición de la visibilidad. Tenga en cuenta esta distinción si las métricas de visibilidad son importantes para la campaña.
 
-Utilice [!UICONTROL VAST], que no permite la medición de la visibilidad, cuando se dirija a un televisor conectado o a un inventario que solo requiera un formato VAST (normalmente de fuentes de suministro como Google Ad Manager, Appnexus, SpotX y Freewheel). Utilice también esta opción para los inventarios que anteriormente eran compatibles con las ubicaciones/anuncios previos a la emisión estándar (VAST) o los anuncios previos a la emisión estándar de teléfono + tableta (VAST).
+Utilice [!UICONTROL VAST], que no permite la medición de la visibilidad, cuando se dirija a un televisor conectado o a un inventario que solo requiera un formato VAST (normalmente de fuentes de suministro como Google Ad Manager, Appnexus, SpotX y FreeWheel). Utilice también esta opción para los inventarios que anteriormente eran compatibles con las ubicaciones/anuncios previos a la emisión estándar (VAST) o los anuncios previos a la emisión estándar de teléfono + tableta (VAST).
 
 **[!UICONTROL Clock Number]**: (solo se usa en el Reino Unido; disponible solo para usuarios con permiso) Identificador único utilizado para garantizar que se emite el anuncio correcto. Si esta configuración no es aplicable, déjela en blanco.
 

@@ -3,7 +3,7 @@ title: Acerca de [!DNL On Demand] inventario premium
 description: Obtenga información acerca de las ofertas que DSP ha negociado previamente con socios de editor Premium.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *No disponible para usuarios con los tipos de cuenta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] y [!UICONTROL Other]; anunciantes con la categoría [!UICONTROL Other]; y distribuidores*
 
-La Galería [!DNL On Demand] es una herramienta de descubrimiento de inventario de primera calidad para explorar ofertas negociadas previamente que DSP ha seleccionado con socios de editor de primera calidad. Permite acceder a inventario no garantizado desde los editores de nivel superior de la región sin necesidad de 1:1 negociaciones o contratos. Puede solicitar ofertas individuales y puede suscribirse a un editor para solicitar todas las ofertas del editor a la vez.
+La galería [!DNL On Demand] es una herramienta de descubrimiento de inventario de primera calidad para explorar ofertas negociadas previamente que DSP ha seleccionado con socios de editor de primera calidad. Permite acceder a inventario no garantizado desde los editores de nivel superior de la región sin necesidad de 1:1 negociaciones o contratos. Puede solicitar ofertas individuales y puede suscribirse a un editor para solicitar todas las ofertas del editor a la vez.
 
 DSP Premium Marketplace le permite:
 
@@ -45,7 +45,7 @@ Debajo del carrusel, puede ver todas las ofertas y editores disponibles. Puede c
 Los detalles de cada acuerdo incluyen datos en las siguientes columnas:
 
 * **[!UICONTROL TVB]:** Indica cuándo el editor es un emisor de TV
-* **[!UICONTROL Tune]:** Indica cuándo el editor acepta los elementos creativos de &quot;sintonización&quot; (por ejemplo, &quot;sintonizar esta noche a las 9 p. m. para el nuevo episodio de \&lt;*nuestro programa*\>)
+* **[!UICONTROL Tune]:** Indica cuándo el editor acepta los elementos creativos de &quot;sintonización&quot; (por ejemplo, &quot;Sintonizar esta noche a las 9 p. m. para el nuevo episodio de \&lt;*nuestro programa*\>)
 * **[!UICONTROL LDA]:** (Edad legal para beber) Indica cuándo el editor ha aplicado más de 21 anuncios de alcohol y acepta los anuncios de alcohol
 * **[!UICONTROL CPM]:** Indica cuándo el CPM de tarifa fija o mínima de la oferta no será visible hasta que se haya concedido acceso al anunciante a la oferta
 * **[!UICONTROL Status]:** El estado de su solicitud de suscripción (cuando corresponda)

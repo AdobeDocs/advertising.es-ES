@@ -1,26 +1,26 @@
 ---
 title: Envíe un anuncio para un acuerdo de PG a  [!DNL FreeWheel]
-description: Aprenda a solicitar la aprobación de un anuncio para un acuerdo programático garantizado con un publicador en  [!DNL Freewheel].
+description: Aprenda a solicitar la aprobación de un anuncio para un acuerdo programático garantizado con un publicador en  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Enviar un anuncio para obtener una oferta programática garantizada a [!DNL Freewheel]
+# Enviar un anuncio para obtener una oferta programática garantizada a [!DNL FreeWheel]
 
 *Sólo cuentas con el permiso Programmatic Guaranteed [!DNL FreeWheel]*
 
-Una vez que [aceptes un acuerdo programático garantizado con un editor en FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox), incluida la selección de un anuncio y la creación de la ubicación programática predeterminada garantizada que se usará para el acuerdo, debes enviar el anuncio a [!DNL Freewheel] para su aprobación.
+Una vez que [aceptes un acuerdo programático garantizado con un editor en FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox), incluida la selección de un anuncio y la creación de la ubicación programática predeterminada garantizada que se usará para el acuerdo, debes enviar el anuncio a [!DNL FreeWheel] para su aprobación.
 
 >[!PREREQUISITES]
 >
 >Trabaje con su equipo de cuenta de Adobe para asegurarse de que su cuenta de [!DNL DSP] tenga permiso para utilizar el flujo de trabajo programático garantizado de [!DNL FreeWheel].
 
-1. Copie la clave de anuncio para el anuncio utilizado con la oferta [!DNL Freewheel]:
+1. Copie la clave de anuncio para el anuncio utilizado con la oferta [!DNL FreeWheel]:
 
    1. Haga clic en el nombre de la campaña.
 
@@ -36,7 +36,7 @@ Una vez que [aceptes un acuerdo programático garantizado con un editor en FreeW
       https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
       ```
 
-1. Enviar el anuncio a [!DNL Freewheel]:
+1. Enviar el anuncio a [!DNL FreeWheel]:
 
    1. Realice una de las acciones siguientes:
 
@@ -52,7 +52,7 @@ Una vez que [aceptes un acuerdo programático garantizado con un editor en FreeW
 
 >[!MORELIKETHIS]
 >
->* [Información general sobre la configuración de ofertas programáticas garantizadas en [!DNL Freewheel]](freewheel-overview.md)
+>* [Información general sobre la configuración de ofertas programáticas garantizadas en [!DNL FreeWheel]](freewheel-overview.md)
 >* [Aceptar un trato en [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Comprueba el estado de los anuncios para una [!DNL FreeWheel] oferta de PG](freewheel-check-status.md)
 >* [Códigos de error para [!DNL FreeWheel] envíos de anuncios](freewheel-error-codes.md)

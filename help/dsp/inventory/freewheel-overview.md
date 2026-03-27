@@ -1,18 +1,18 @@
 ---
-title: Información general sobre la configuración de ofertas de PG en  [!DNL Freewheel]
-description: Conozca los requisitos previos y los pasos adicionales necesarios para ejecutar anuncios para ofertas programáticas garantizadas con editores en  [!DNL Freewheel].
+title: Información general sobre la configuración de ofertas de PG en  [!DNL FreeWheel]
+description: Conozca los requisitos previos y los pasos adicionales necesarios para ejecutar anuncios para ofertas programáticas garantizadas con editores en  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# Información general sobre la configuración de ofertas garantizadas mediante programación en [!DNL Freewheel]
+# Información general sobre la configuración de ofertas garantizadas mediante programación en [!DNL FreeWheel]
 
-La configuración de acuerdos programáticos garantizados con editores en [!DNL Freewheel] requiere permisos y pasos adicionales.
+La configuración de acuerdos programáticos garantizados con editores en [!DNL FreeWheel] requiere permisos y pasos adicionales.
 
 >[!PREREQUISITES]
 >
@@ -28,11 +28,11 @@ La configuración de acuerdos programáticos garantizados con editores en [!DNL 
 
    Para algunos editores del Reino Unido, debe incluir un número de reloj [!DNL Clearcast] en su anuncio.
 
-1. [Acepte el id. de acuerdo](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) que ya ha negociado con un publicador en [!DNL Freewheel] mediante la Bandeja de entrada del id. de acuerdo.
+1. [Acepte el id. de acuerdo](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox) que ya ha negociado con un publicador en [!DNL FreeWheel] mediante la Bandeja de entrada del id. de acuerdo.
 
    Después de aceptar la oferta, siga las indicaciones para 1) seleccionar el anuncio que desea utilizar para la oferta y 2) crear una ubicación predeterminada programática garantizada para publicar el anuncio.
 
-1. [Enviar el anuncio a  [!DNL Freewheel]](freewheel-submit.md)
+1. [Enviar el anuncio a  [!DNL FreeWheel]](freewheel-submit.md)
 
    El anuncio debe enviarse y aprobarse antes de ejecutarse.
 
@@ -41,6 +41,6 @@ La configuración de acuerdos programáticos garantizados con editores en [!DNL 
 >[!MORELIKETHIS]
 >
 >* [Aceptar un trato en [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
->* [Envíe un anuncio para obtener una oferta programática garantizada a [!DNL Freewheel]](freewheel-submit.md)
+>* [Envíe un anuncio para obtener una oferta programática garantizada a [!DNL FreeWheel]](freewheel-submit.md)
 >* [Comprueba el estado de los anuncios para una [!DNL FreeWheel] oferta de PG](freewheel-check-status.md)
 >* [Códigos de error para [!DNL FreeWheel] envíos de anuncios](freewheel-error-codes.md)

@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -24,8 +24,8 @@ ht-degree: 4%
       + [Soluciones entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Financiación de cuenta](/help/dsp/introduction/billing/account-funding.md)
    + [Monedas admitidas](/help/dsp/currency.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Soluciones de medición avanzadas](/help/dsp/introduction/advanced-measurement-services.md)
 + [Busque documentación del producto mediante el chat asistido por IA](/help/dsp/agent-chat.md)
 + Administración de campañas {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 4%
       + [Revisar y editar los detalles de la publicidad mediante hojas de edición masiva](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicación de un anuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Adjuntar y quitar anuncios de las ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=es)
+      + [Adjuntar y quitar anuncios de las ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausar o activar un anuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -175,8 +175,8 @@ ht-degree: 4%
             + [Sugerencias para negociar un acuerdo programático garantizado](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Configurar un acuerdo programático garantizado](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] ofertas programáticas garantizadas {#freewheel}
-               + [Información general sobre la configuración de ofertas garantizadas mediante programación en  [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
-               + [Envíe un anuncio para obtener una oferta programática garantizada a  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [Información general sobre la configuración de ofertas garantizadas mediante programación en  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [Envíe un anuncio para obtener una oferta programática garantizada a  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
                + [Comprobar el estado de los anuncios para una oferta de  [!DNL FreeWheel] PG](/help/dsp/inventory/freewheel-check-status.md)
                + [Códigos de error para los envíos de anuncios de FreeWheel](/help/dsp/inventory/freewheel-error-codes.md)
       + [Editar configuración de acuerdos privados](/help/dsp/inventory/deal-id-edit.md)
@@ -233,9 +233,9 @@ ht-degree: 4%
    + Notificaciones {#notifications}
       + [Acerca de las suscripciones a alertas](/help/dsp/admin/alerts-about.md)
       + [Administrar suscripciones de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es)
++ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Obtener ayuda](/help/dsp/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
++ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--

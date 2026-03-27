@@ -3,9 +3,9 @@ title: Crear una oferta [!UICONTROL Simple Ad Serving]
 description: Aprenda a crear un píxel de seguimiento para una oferta de [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
          * Para pegar la información en un mensaje de correo electrónico en una aplicación de correo electrónico de su dispositivo, haga clic en **[!UICONTROL Email & Done]** y seleccione la aplicación de correo electrónico. El campo [!UICONTROL CC:] se ha rellenado previamente con una dirección de soporte técnico [!DNL Adobe]. A continuación, puede enviar el mensaje al contacto apropiado del editor.
 
-         * Para copiar la información en el portapapeles, haga clic en **[!UICONTROL Copy Email].** A continuación, puede pegar manualmente el contenido en un mensaje de correo electrónico y enviarlo al contacto apropiado del editor. Debe incluir una copia (CC:) en `publisher-support-global@adobe.com`. Cuando termine de copiar el mensaje, haga clic en **[!UICONTROL Email & Done]**.
+         * Para copiar la información en el portapapeles, haga clic en **[!UICONTROL Copy Email].** A continuación, puede pegar manualmente el contenido en un mensaje de correo electrónico y enviarlo al contacto apropiado del editor. Incluir una copia (CC:) en `publisher-support-global@adobe.com`. Cuando termine de copiar el mensaje, haga clic en **[!UICONTROL Email & Done]**.
 
       1. (Si es necesario) Consulte con el editor para ver si la etiqueta incluye las macros adecuadas para que la etiqueta funcione con el servidor de publicidad del editor.
 

@@ -1,18 +1,18 @@
 ---
 title: Comprobar el estado de los anuncios para una oferta de  [!DNL FreeWheel] PG
-description: Aprenda a encontrar el estado de las publicidades para  [!DNL Freewheel] ofertas programáticas garantizadas.
+description: Aprenda a encontrar el estado de las publicidades para  [!DNL FreeWheel] ofertas programáticas garantizadas.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Comprobar el estado de los anuncios para [!DNL Freewheel] ofertas programáticas garantizadas
+# Comprobar el estado de los anuncios para [!DNL FreeWheel] ofertas programáticas garantizadas
 
-Comprueba si tus envíos de anuncios a [!DNL Freewheel] se realizaron correctamente. Puede volver a enviar cualquier anuncio según sea necesario.
+Comprueba si tus envíos de anuncios a [!DNL FreeWheel] se realizaron correctamente. Puede volver a enviar cualquier anuncio según sea necesario.
 
 Para cualquier pregunta o problema adicional con el nuevo envío, póngase en contacto con el equipo de cuenta de Adobe.
 
@@ -24,7 +24,7 @@ Para cualquier pregunta o problema adicional con el nuevo envío, póngase en co
 
 1. En el submenú, haga clic en **[!UICONTROL Ads]**.
 
-1. Junto al nombre del anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
+1. Junto al nombre del anuncio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL See FreeWheel status]**.
 
 1. (Opcional) Para volver a enviar un anuncio para su aprobación, mantenga el cursor sobre la fila del anuncio y haga clic en **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
@@ -34,9 +34,9 @@ Para cualquier pregunta o problema adicional con el nuevo envío, póngase en co
 
 1. Realice una de las acciones siguientes:
 
-   * En [!UICONTROL Deal ID Inbox], haga clic en **[!UICONTROL View Freewheel creative status]**.
+   * En [!UICONTROL Deal ID Inbox], haga clic en **[!UICONTROL View FreeWheel creative status]**.
 
-   * En cualquier fila de acuerdo, haga clic en ![Menú de opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]**.
+   * En cualquier fila de acuerdo, haga clic en ![Menú de opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL See FreeWheel status]**.
 
 1. (Opcional) Filtre los datos para ayudarle a localizar ofertas y anuncios específicos.
 
@@ -48,7 +48,7 @@ Para cualquier pregunta o problema adicional con el nuevo envío, póngase en co
 
 >[!MORELIKETHIS]
 >
->* [Información general sobre la configuración de ofertas programáticas garantizadas en [!DNL Freewheel]](freewheel-overview.md)
->* [Envíe un anuncio para obtener una oferta programática garantizada a [!DNL Freewheel]](freewheel-submit.md)
+>* [Información general sobre la configuración de ofertas programáticas garantizadas en [!DNL FreeWheel]](freewheel-overview.md)
+>* [Envíe un anuncio para obtener una oferta programática garantizada a [!DNL FreeWheel]](freewheel-submit.md)
 >* [Códigos de error para [!DNL FreeWheel] envíos de anuncios](freewheel-error-codes.md)
 >* [Aceptar un trato en [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
