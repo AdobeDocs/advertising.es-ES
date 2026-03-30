@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVAR
 
-Este repositorio se ha migrado a <https://github.com/Adobe-Enterprise-Docs/advertising.en>.
+Este repositorio se ha migrado a <https://github.com/Adobe-Enterprise-Docs/advertising.es-ES>.
