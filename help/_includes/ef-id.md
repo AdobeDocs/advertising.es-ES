@@ -1,5 +1,5 @@
 ---
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Consulte los [formatos para elementos de dimensión de EF ID](https://experience
 >
 >Los ID de EF distinguen entre mayúsculas y minúsculas. Si una implementación de [!DNL Analytics] o Customer Journey Analytics obliga al seguimiento de URL a usar minúsculas, Adobe Advertising no reconocerá el EF ID. Esto afecta a las ofertas y los informes de Adobe Advertising, pero no afecta a los informes de Adobe Advertising en [!DNL Analytics] o Customer Journey Analytics.
 
-<!-- Legacy content:
+<!--
+
+Legacy content:
 
 #### [!DNL Google Ads] search ads
 

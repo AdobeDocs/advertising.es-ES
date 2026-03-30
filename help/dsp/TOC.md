@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
+source-git-commit: 5f410215dfa9d1e76dec2c88efca3b2d786333a7
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
    + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
    + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
    + [Soluciones de medición avanzadas](/help/dsp/introduction/advanced-measurement-services.md)
-+ [Busque documentación del producto mediante el chat asistido por IA](/help/dsp/agent-chat.md)
++ {hide-from-toc}[Busque documentación del producto mediante chat asistido por IA](/help/dsp/agent-chat.md)
 + Administración de campañas {#campaign-management}
    + [Información general sobre la administración de campañas en Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campañas {#campaigns}
@@ -117,7 +117,7 @@ ht-degree: 4%
    + [Compatibilidad para activar ID universales](/help/dsp/audiences/universal-ids.md)
    + Audiencias reutilizables {#reusable-audiences}
       + [Crear una audiencia reutilizable](/help/dsp/audiences/reusable-audience-create.md)
-      + [Creación de una audiencia reutilizable mediante IA generativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
+      + {hide-from-toc}[Crear una audiencia reutilizable mediante IA generativa](/help/dsp/audiences/reusable-audience-create-using-ai.md)
       + [Duplicación de una audiencia reutilizable](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Editar una audiencia reutilizable](/help/dsp/audiences/reusable-audience-edit.md)
       + [Ver detalles sobre una audiencia reutilizable](/help/dsp/audiences/reusable-audience-view-details.md)

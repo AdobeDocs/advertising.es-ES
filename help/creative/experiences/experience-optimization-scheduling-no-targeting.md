@@ -3,9 +3,9 @@ title: Personalizar la optimización y programación creativas de una experienci
 description: Obtenga información sobre cómo configurar la optimización y la programación de anuncios para experiencias sin segmentación.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
+source-git-commit: 6f4b0fb697fc391f361775b50b1917941a3e0169
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,11 @@ Cuando se desactiva la programación creativa, la configuración de optimizació
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Tag Manager]**.
 
-1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar optimización creativa](/help/creative/assets/edit-gray.png "Editar optimización creativa") **[!UICONTROL Creative Optimization]**.&lt;!—
-A partir del segundo semestre, el Administrador de etiquetas solo tiene una vista de lista, pero no de tarjeta. >
+1. Mantenga el cursor sobre la fila de la etiqueta de publicidad aplicable y haga clic en ![Editar optimización creativa](/help/creative/assets/edit-gray.png "Editar optimización creativa") **[!UICONTROL Creative Optimization]**.
+
+   <!--
+   Tag Manager has only a list view, but no card view, as of 2/2. 
+   -->
 
 1. Deshabilitar **[!UICONTROL Schedule]**.
 
