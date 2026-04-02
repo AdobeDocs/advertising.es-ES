@@ -3,9 +3,22 @@ title: Acerca de insights
 description: Obtenga información acerca de las perspectivas de rendimiento con visualizaciones.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
+TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 1e4a456c3add52553936db29a72f42e7d45506c3
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: 1371
 ht-degree: 0%
 
 ---
@@ -84,13 +97,41 @@ La ficha [!UICONTROL Household Conversion] proporciona métricas de conversión 
    * **Impacto moderado**
    * **Impacto limitado:** Necesita atención
 
-## Abrir perspectivas de rendimiento
+### Ficha [!UICONTROL Audience Analysis]
 
-* (Para abrir perspectivas para todas las campañas) En el menú principal, haga clic en **[!UICONTROL Insights BETA]**.
+La pestaña [!UICONTROL Audience Analysis] proporciona información en tiempo real sobre la eficacia de la segmentación de segmentos de audiencia en el nivel de ubicación. Incluye las tendencias en el tamaño del segmento a lo largo del tiempo y un desglose diario del funnel de oferta. Utilice estas perspectivas para monitorizar la estabilidad del grupo de audiencias de destino e identificar dónde se está perdiendo volumen entre la coincidencia de audiencias y la entrega de impresiones. Los datos solo están disponibles para ubicaciones destinadas a segmentos de audiencia.
 
-* (Para abrir perspectivas para una campaña, paquete o ubicación específicos) Junto al nombre de la entidad en la vista [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], haga clic en **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+De forma predeterminada, los datos se muestran para un anunciante específico y una ubicación específica. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente o seleccionar una ubicación diferente.
 
-* (Para abrir perspectivas para una ubicación específica) Junto al nombre de la entidad en la vista [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], haga clic en **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]** .
+Las perspectivas incluyen:
+
+* **[!UICONTROL Audience Segment Size Trends]:** Un gráfico de tendencias muestra el recuento diario de usuarios únicos en todos los segmentos de audiencia de una ubicación. Utilice este gráfico para controlar si la audiencia de destino aumenta, se estabiliza o se contrae con el tiempo. Una caída sostenida puede indicar que los segmentos están caducando o encogiendo y puede requerir datos de segmentos actualizados o una segmentación ampliada.
+
+  Para ver el recuento de usuarios y la fecha exactos para un punto de datos específico, mantenga el cursor sobre el punto.
+
+* **[!UICONTROL Audience Funnel Analysis]:** Una tabla de series temporales diarias que muestra cómo la audiencia de destino se reduce del grupo total disponible a la impresión real gana después de aplicar todos los filtros de elegibilidad y segmentación. Se muestran los datos del día anterior. Funnel incluye las siguientes métricas, en orden del más amplio al más estrecho:
+
+   * **[!UICONTROL Audience Segment Size]:** Número total de usuarios únicos en la audiencia agregada.
+
+   * **[!UICONTROL Cookies in Bid Stream]:** El número de usuarios de la audiencia de Target que estuvieron activos en el flujo de ofertas durante el período de 24 horas anterior. Este recuento incluye a todos los usuarios en el ámbito, independientemente de la oferta de colocación que tengan. Una disminución de [!UICONTROL Total Target Audience] a [!UICONTROL Reachable Audience] refleja la parte de la audiencia que no estuvo activa en el flujo de ofertas durante el período de informe, lo cual no es reflejo del rendimiento de las ofertas.
+
+   * **[!UICONTROL Eligible cookies]:** El subconjunto de usuarios accesibles que permanecen después de aplicar los filtros de ubicación geográfica, tipo de dispositivo, sistema operativo y explorador. Si este número es significativamente menor que [!UICONTROL Reachable Audience], considere la posibilidad de revisar si la segmentación por tipo de dispositivo o ubicación geográfica es demasiado restrictiva.
+
+  **[!UICONTROL Cookies Bid On]:** El número de oportunidades elegibles para las que la ubicación envió una oferta. Una caída brusca en esta fase puede indicar restricciones de presupuesto o de ritmo que limitan el volumen de ofertas.
+
+   * **[!UICONTROL Impression Wins]:** El número de oportunidades para las que la ubicación ganó una impresión. Si las ganancias son mucho más bajas que las pujas, entonces el precio de la puja puede estar por debajo de la tasa de mercado prevaleciente para el inventario objetivo.
+
+## Ver perspectivas de rendimiento
+
+1. Abra un conjunto de perspectivas:
+
+   * (Para abrir perspectivas para todas las campañas) En el menú principal, haga clic en **[!UICONTROL Insights BETA]**.
+
+   * (Para abrir perspectivas para una campaña, paquete o ubicación específicos) Junto al nombre de la entidad en la vista [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], haga clic en **[!UICONTROL ...]** > **[!UICONTROL Insights]**.
+
+   * (Para abrir perspectivas para una ubicación específica) Junto al nombre de la entidad en la vista [!UICONTROL Campaigns], [!UICONTROL Packages] o [!UICONTROL Placements], haga clic en **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Insights]** .
+
+1. (Opcional) Para ver los datos de cualquier punto de la
 
 ## Aplicación de filtros a una pestaña
 
@@ -102,13 +143,17 @@ La ficha [!UICONTROL Household Conversion] proporciona métricas de conversión 
 
 1. Haga clic en **[!UICONTROL Apply]**.
 
-1. (Opcional) Para reducir aún más los datos, seleccione el tipo de entidad en la barra de herramientas y, a continuación, seleccione un valor de entidad específico (una sola campaña, paquete o ubicación).
+1. (Opcional) Para reducir aún más los datos, seleccione el tipo de dimensión en la barra de herramientas y, a continuación, seleccione una dimensión específica (una sola campaña, paquete o ubicación).
+
+1. ([!UICONTROL Audience Funnel Analysis] solamente; opcional) Para cambiar los incrementos de tiempo entre diario y semanal, seleccione **[!UICONTROL Day]** o **[!UICONTROL Week]**.
 
 ## Cambio de la dimensión del informe para una insight
 
 * En el menú desplegable situado en la parte superior izquierda de insight, seleccione la dimensión.
 
 ## Cambiar las métricas de los informes de una insight
+
+*Disponible para algunas perspectivas*
 
 Para las métricas de conversión, existe compatibilidad con las conversiones rastreadas por Adobe Advertising y por Adobe Analytics.
 
@@ -118,7 +163,7 @@ Para las métricas de conversión, existe compatibilidad con las conversiones ra
 
 ## Exportar todas las visualizaciones de una pestaña a un archivo PDF
 
-* Encima de la ficha, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+* En la parte superior derecha sobre la pestaña, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Export]**.
 
   El archivo se guarda en la carpeta de descargas predeterminada del explorador.
 
@@ -127,6 +172,11 @@ Para las métricas de conversión, existe compatibilidad con las conversiones ra
 * En la parte superior derecha de insight, haz clic en ![Descargar](/help/creative/assets/download.png "Descargar").
 
   El archivo se guarda en la carpeta de descargas predeterminada del explorador.
+
+<!-- 
+Add:
+## Save a custom view for a tab
+-->
 
 >[!MORELIKETHIS]
 >
