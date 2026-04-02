@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: d450159cfcc0298a0bb9bb0984cd49ac75836519
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 *característica de Beta*
 
 *Sólo soporte en inglés*
-
-<!-- I thought it was all segment types? -->
 
 <!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
 
@@ -52,17 +50,17 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
       Para obtener más información, consulte &quot;[Instrucciones de escritura](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
 
-      A medida que el agente de audiencia encuentra segmentos relevantes, crea una expresión de audiencia basada en los criterios. También le pedirá su aprobación antes de buscar segmentos coincidentes para montar la audiencia.
+      A medida que el agente de audiencia encuentra segmentos relevantes, crea una expresión de audiencia booleana basada en los criterios. También le pedirá su aprobación antes de buscar segmentos coincidentes para montar la audiencia.
 
       Si lo desea, puede ignorar la solicitud y continuar especificando criterios de audiencia adicionales.
 
    1. Cuando el agente de audiencia presente una expresión de audiencia que describa adecuadamente su audiencia, dígale al agente de audiencia que continúe con la reunión de la audiencia.
 
-      Puede escribir &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar.
+      Puede escribir &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar. El agente enumera todos los segmentos sugeridos para cada rasgo (como &quot;Padres&quot;). Expanda cualquier rasgo para ver detalles sobre los segmentos individuales sugeridos para ese rasgo.
 
    1. (Si es necesario) Especifique otros criterios. Cuando el agente de audiencia presente una expresión de audiencia que cumpla todos sus criterios, dígale al agente de audiencia que continúe con la combinación de la audiencia.
 
-      Para reunir la audiencia, escriba &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar.
+      Para reunir la audiencia, escriba &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar. El agente enumera todos los segmentos sugeridos para cada rasgo (como &quot;Padres&quot;). Expanda cualquier rasgo para ver detalles sobre los segmentos individuales sugeridos para ese rasgo.
 
 1. Cuando esté satisfecho con la audiencia ensamblada, haga clic en **[!UICONTROL Create]** para crear la audiencia especificada.
 
