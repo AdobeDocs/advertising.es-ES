@@ -101,7 +101,7 @@ Tenga en cuenta estas diferencias al comparar las conversiones de visualizacione
 >
 >Para evitar confusiones, [!DNL Analytics] impide que los datos históricos estén disponibles en la interfaz de informes. Puede ver los datos históricos si vuelve a cambiar [!DNL eVar] a la configuración de asignación inicial, aunque no debería cambiar la configuración de asignación [!DNL eVar] simplemente para tener acceso a los datos históricos. Adobe recomienda usar un(a) nuevo(a) [!DNL eVar] cuando desee aplicar una nueva configuración de asignación para datos que ya se están registrando, en lugar de cambiar la configuración de asignación para un(a) [!DNL eVar] que ya tiene una cantidad significativa de datos históricos.
 
-Vea una lista de [!DNL Analytics] modelos de atribución y sus definiciones en [https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models).
+Vea una lista de [!DNL Analytics] modelos de atribución y sus definiciones en [https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/es/docs/analytics/analyze/analysis-workspace/attribution/models).
 
 Si ha iniciado sesión en [!DNL Search, Social, & Commerce], puede encontrar una lista
 
@@ -121,7 +121,7 @@ En Adobe Advertising, puede generar informes sobre los datos de conversión ya s
 
 >[!NOTE]
 >
-> Los siguientes conceptos principales también se aplican a cualquier seguimiento multicanal que implique campañas no rastreadas en Adobe Advertising, como la variable [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) (también conocida como la dimensión &quot;Código de seguimiento&quot; o &quot;[!DNL eVar] 0&quot;) y el seguimiento personalizado [!DNL eVar].
+> Los siguientes conceptos principales también se aplican a cualquier seguimiento multicanal que implique campañas no rastreadas en Adobe Advertising, como la variable [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html?lang=es) (también conocida como la dimensión &quot;Código de seguimiento&quot; o &quot;[!DNL eVar] 0&quot;) y el seguimiento personalizado [!DNL eVar].
 
 ### Modelos de atribución potencialmente diferentes en [!DNL Marketing Channels]
 
@@ -145,7 +145,7 @@ Para obtener más información sobre por qué las métricas pueden variar, consu
 
 ## Diferencias de datos en Adobe Analytics [!DNL Paid Search Detection]
 
-La característica [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) de [!DNL Analytics] permite que las compañías [definan reglas para rastrear el tráfico de búsquedas orgánicas y de pago](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) para motores de búsqueda especificados. Las reglas de [!DNL Paid Search Detection] utilizan una cadena de consulta y el dominio de referencia para identificar el tráfico de búsqueda natural y de pago. Los informes de [!DNL Paid Search Detection] forman parte del grupo más amplio de informes de [Métodos de búsqueda](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html), que caducan cuando se produce un evento específico (como un cierre de compra del carro de compras) o cuando finaliza la visita.
+La característica [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) de [!DNL Analytics] permite que las compañías [definan reglas para rastrear el tráfico de búsquedas orgánicas y de pago](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=es) para motores de búsqueda especificados. Las reglas de [!DNL Paid Search Detection] utilizan una cadena de consulta y el dominio de referencia para identificar el tráfico de búsqueda natural y de pago. Los informes de [!DNL Paid Search Detection] forman parte del grupo más amplio de informes de [Métodos de búsqueda](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html), que caducan cuando se produce un evento específico (como un cierre de compra del carro de compras) o cuando finaliza la visita.
 
 A continuación se muestra la interfaz para crear un conjunto de reglas [!DNL Paid Search Detection]:
 

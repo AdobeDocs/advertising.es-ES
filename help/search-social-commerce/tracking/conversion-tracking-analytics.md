@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Para los anunciantes con una integración Adobe Advertising-Adobe Analytics, Advertising Cloud puede conectar sus clics e impresiones de anuncios con las métricas de participación y conversión del sitio rastreadas por [!DNL Analytics] cuando utiliza una redirección con token (parámetro `ef_id`) en sus URL de seguimiento de clics para sus [unidades de oferta](/help/search-social-commerce/glossary.md#a-b). Los datos de [!DNL Analytics] se envían automáticamente a Advertising Cloud mediante un archivo de fuente diario.
 
-Consulte &quot;[Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview){target="_blank"}&quot; para obtener más información sobre la integración.
+Consulte &quot;[Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/es/docs/advertising/integrations/analytics/overview){target="_blank"}&quot; para obtener más información sobre la integración.
 
 >[!PREREQUISITES]
 >

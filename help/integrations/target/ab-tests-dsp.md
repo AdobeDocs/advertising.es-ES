@@ -94,7 +94,7 @@ Al añadir un píxel de evento de impresión de Audience Manager en la configura
 
    1. Compruebe que los datos del segmento están disponibles:
 
-      1. [Busque la señal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) del [par clave-valor](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) que determina en qué nivel se agrupan los usuarios del segmento.
+      1. [Busque la señal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=es) del [par clave-valor](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) que determina en qué nivel se agrupan los usuarios del segmento.
 
          Use una [clave admitida](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) con un valor que corresponda a la macro que agregó al píxel del evento de impresión de Audience Manager.
 

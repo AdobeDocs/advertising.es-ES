@@ -49,7 +49,7 @@ Beneficios primarios:
 
 >[!TIP]
 >
-> Vea un [vídeo de presentación de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
+> Vea un [vídeo de presentación de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=es#analytics).
 
 ## Uso de Analytics para informes de medios de pago
 
@@ -101,7 +101,7 @@ Consulte &quot;[Métricas de Analytics en Adobe Advertising](analytics-data-in-a
 
 Adobe Advertising puede ingerir [!DNL Analytics] segmentos con fines de remarketing para anuncios de Advertising DSP y [!DNL Search, Social, & Commerce] mediante la integración nativa de audiencias de Experience Cloud entre [!DNL Analytics] y Experience Cloud.
 
-Para acceder a los segmentos de [!DNL Analytics], una cuenta de anunciante debe habilitar el [servicio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html). Cuando se habilita el servicio de ID, todos los segmentos de Experience Cloud (incluidos los creados en [!DNL Analytics] y publicados en Experience Cloud, los creados en Adobe Audience Manager, los creados en Experience Cloud con [!DNL People core service] y los creados en Adobe Experience Platform y enviados a Adobe Advertising mediante Audience Manager) quedan disponibles en Adobe Advertising en cuanto se procesan.
+Para acceder a los segmentos de [!DNL Analytics], una cuenta de anunciante debe habilitar el [servicio Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es). Cuando se habilita el servicio de ID, todos los segmentos de Experience Cloud (incluidos los creados en [!DNL Analytics] y publicados en Experience Cloud, los creados en Adobe Audience Manager, los creados en Experience Cloud con [!DNL People core service] y los creados en Adobe Experience Platform y enviados a Adobe Advertising mediante Audience Manager) quedan disponibles en Adobe Advertising en cuanto se procesan.
 
 [!DNL Analytics] segmentos están disponibles en un plazo de 24 horas y se actualizan diariamente.
 
@@ -147,7 +147,7 @@ Uso de la vista Canal de marketing:
 
 ### Creación de paneles de Adobe Advertising
 
-Para obtener información sobre cómo realizar un seguimiento de los datos de Adobe Advertising en relación con los objetivos de Analysis Workspace, vea el vídeo &quot;[Crear paneles de Adobe Advertising con Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)&quot;.
+Para obtener información sobre cómo realizar un seguimiento de los datos de Adobe Advertising en relación con los objetivos de Analysis Workspace, vea el vídeo &quot;[Crear paneles de Adobe Advertising con Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=es)&quot;.
 
 ### Uso del Adobe Advertising ID para el análisis de entrada al sitio
 

@@ -98,7 +98,7 @@ En el par clave-valor, la variable de valor puede ser un identificador codificad
 
 Para obtener una lista de macros compatibles con Audience Manager para los píxeles de evento de impresión, consulte &quot;[Captura de datos de impresión de campaña mediante llamadas en píxeles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)&quot;.
 
-Para obtener una lista de macros compatibles con Audience Manager para los píxeles de eventos de clic, consulte &quot;[Captura de datos de clics de Campaign mediante llamadas en píxeles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)&quot;.
+Para obtener una lista de macros compatibles con Audience Manager para los píxeles de eventos de clic, consulte &quot;[Captura de datos de clics de Campaign mediante llamadas en píxeles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=es)&quot;.
 
 >[!TIP]
 >

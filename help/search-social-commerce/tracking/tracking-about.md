@@ -39,7 +39,7 @@ Los parámetros de seguimiento permiten a Adobe Advertising rastrear los clics e
 
 * En todos los demás casos, la red de anuncios envía el clic directamente a los servidores de píxeles de Adobe Advertising. El servidor de píxeles coloca una cookie en el equipo del usuario (si aún no existe) y luego redirige al usuario a la URL correspondiente del sitio web. La experiencia general para el usuario final es la misma que sería sin una redirección.
 
-La cookie se establece en el dominio [!DNL Adobe] (`everesttech.net`) como una cookie de origen. Después de una redirección, el usuario se encuentra en el dominio del anunciante y la cookie se trata como una cookie de terceros. Para obtener más información acerca de las cookies de Adobe Advertising, consulte &quot;[Cookies de Adobe Advertising](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)&quot;.
+La cookie se establece en el dominio [!DNL Adobe] (`everesttech.net`) como una cookie de origen. Después de una redirección, el usuario se encuentra en el dominio del anunciante y la cookie se trata como una cookie de terceros. Para obtener más información acerca de las cookies de Adobe Advertising, consulte &quot;[Cookies de Adobe Advertising](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=es)&quot;.
 
 ## Datos de conversión
 

@@ -37,7 +37,7 @@ Adobe Advertising y Adobe Target facilitan la configuración de pruebas A/B de e
 
 * Ofrezca una experiencia de página de aterrizaje más personalizada que sea relevante para el anuncio (por ejemplo, haciendo coincidir la señal creativa de imagen/vídeo, la copia, la palabra clave u otra señal publicitaria con la página de aterrizaje).
 
-También puede combinar las dimensiones de informes de integración nativas [[!DNL Analytics] para Advertising](/help/integrations/analytics/overview.md) y [[!DNL Analytics] para [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) que están integradas en Adobe Analytics para medir y visualizar los datos de prueba con [!DNL Analytics] métricas y eventos de éxito.
+También puede combinar las dimensiones de informes de integración nativas [[!DNL Analytics] para Advertising](/help/integrations/analytics/overview.md) y [[!DNL Analytics] para [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) que están integradas en Adobe Analytics para medir y visualizar los datos de prueba con [!DNL Analytics] métricas y eventos de éxito.
 
 Consulte las siguientes secciones para conocer los requisitos previos, instrucciones para configurar pruebas A/B en [!DNL Target] para el tráfico de pulsaciones de anuncios en Search, Social y Commerce, y sugerencias sobre cómo medir y visualizar las pruebas en [!DNL Analytics].
 
@@ -54,7 +54,7 @@ Consulte las siguientes secciones para conocer los requisitos previos, instrucci
 
 * [[!DNL Analytics] para la integración de Advertising](/help/integrations/analytics/overview.md)<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* Integración de [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
+* Integración de [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es)
 
 ## Paso 1: Crear una actividad de prueba A/B en [!DNL Target] para Search, Social y Commerce
 
@@ -107,7 +107,7 @@ Las siguientes instrucciones resaltan información relacionada con el caso de us
 
 [!DNL Analytics for Target] (A4T) es una integración de soluciones cruzadas que permite a los anunciantes crear actividades [!DNL Target] basadas en [!DNL Analytics] métricas de conversión y segmentos de audiencia y luego medir los resultados usando [!DNL Analytics] como fuente de informes. Todos los informes y la segmentación de esa actividad se basan en la recopilación de datos de [!DNL Analytics].
 
-Para obtener más información acerca de [!DNL Analytics for Target], incluido un vínculo a las instrucciones de implementación, consulte &quot;[Adobe Analytics como fuente de informes para Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;.
+Para obtener más información acerca de [!DNL Analytics for Target], incluido un vínculo a las instrucciones de implementación, consulte &quot;[Adobe Analytics como fuente de informes para Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es)&quot;.
 
 ### Configurar el panel [!DNL Analytics for Target]
 
