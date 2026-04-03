@@ -4,8 +4,10 @@ description: Obtenga información sobre cómo copiar todos los nodos secundarios
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
 TQID: https://experienceleague.adobe.com/KLKVrggOQ8V99Cd-2PcFEdwImKvLYkskSD-DPDvpwu0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 286
@@ -29,7 +31,7 @@ Esta característica no afecta al destino especificado para el nodo principal, s
 
    * Para reemplazar todos los nodos secundarios y creativos de un nodo, haga clic en el nodo en el que desea pegar la información copiada, haga clic en **...** y, a continuación, seleccione **[!UICONTROL Replace ctrl+shift+v]** o b\) escriba **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) en el teclado.
 
-   * (Nodos con varios destinos secundarios, sin nodos &quot;Todos&quot; y sin creativos únicamente) Para agregar todos los nodos secundarios y creativos a un nodo, sin eliminar los existentes, haga clic en el nodo al que desea pegar la información copiada, haga clic en **...** y, a\) seleccione **[!UICONTROL Add ctrl+v]** ** o b\) escriba **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) en el teclado.
+   * (Nodos con varios destinos secundarios, sin nodos &quot;Todos&quot; y sin creativos únicamente) Para agregar todos los nodos secundarios y creativos a un nodo, sin eliminar los existentes, haga clic en el nodo al que desea pegar la información copiada, haga clic en **...** y, a\) seleccione **[!UICONTROL Add ctrl+v]** **&#x200B; o b\) escriba &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) o &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) en el teclado.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

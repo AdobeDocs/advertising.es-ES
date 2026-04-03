@@ -4,8 +4,10 @@ description: Aprenda a crear y administrar campañas publicitarias.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/ijW-K1aEtH2S2ksHlZFg37vIYL3yfLTKq9onQPbcbno
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 745
@@ -34,9 +36,9 @@ Una vez que [hagas que una cuenta de red de anuncios sea accesible](/help/search
 
 1. Seleccione la red de anuncios, la cuenta y el tipo de campaña y luego haga clic en **[!UICONTROL Continue]**.
 
-   Para obtener las descripciones de cada tipo de campaña, consulte [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Configuración de la campaña Anuncios de Japón ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
+   Para obtener las descripciones de cada tipo de campaña, consulte [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Configuración de la campaña Anuncios de Japón &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
-1. Entra en [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Configuración de la campaña Anuncios de Japón ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
+1. Entra en [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Configuración de la campaña Anuncios de Japón &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
    Según la red publicitaria, la configuración puede agruparse en [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], ([!DNL Google Ads]) [!UICONTROL DSA Options] y ([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]. Para configurar opciones adicionales, cuando estén disponibles, para [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] o [!UICONTROL Campaign Goals], haga clic en **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** o **[!UICONTROL Set Campaign Goals]**, respectivamente.
 
@@ -66,7 +68,7 @@ Puede editar la configuración de campañas individuales. También puede editar 
 
       * En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-1. Edite [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Configuración de la campaña Anuncios de Japón ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
+1. Edite [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Configuración de la campaña Anuncios de Japón &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) o [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md).
 
    Para varias campañas, la configuración se puede agrupar en [!UICONTROL Campaign Details], [!UICONTROL Budget Options] y [!UICONTROL URL Options], según las redes de anuncios. Solo puede editar los campos que son comunes a todas las campañas seleccionadas y los cambios se aplicarán a todas las campañas seleccionadas. Para algunos campos alfanuméricos, tiene opciones para cambiar los valores existentes a un valor especificado, reemplazar una cadena existente por una cadena especificada, agregar un prefijo especificado al principio de cada valor o anexar un sufijo al final de cada valor. Para algunos campos monetarios, tiene opciones para cambiar los valores existentes a un valor especificado o para aumentar o reducir el importe en un porcentaje o importe monetario especificados, con un límite.
 

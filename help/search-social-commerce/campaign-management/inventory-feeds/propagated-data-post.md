@@ -4,8 +4,10 @@ description: Obtenga información sobre cómo publicar datos generados a partir 
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/TOTmjFuRPfH1vnyHwFvLBzlu7zBRQ3xHqKnG9TUC6IE
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 846
@@ -25,7 +27,7 @@ Para que la publicación se realice correctamente, todos los grupos de anuncios 
 
   Si anteriormente no [validó sus páginas de aterrizaje](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md), puede hacerlo antes de publicar el archivo.
 
-* Si utilizó la opción para &quot;[!UICONTROL Propagate only]&quot;, puede publicar los datos generados para los componentes con el estado [[!UICONTROL New] ](propagated-data-status.md) dentro de una vista de jerarquía de campaña desde la pestaña [!UICONTROL Templates].
+* Si utilizó la opción para &quot;[!UICONTROL Propagate only]&quot;, puede publicar los datos generados para los componentes con el estado [[!UICONTROL New] &#x200B;](propagated-data-status.md) dentro de una vista de jerarquía de campaña desde la pestaña [!UICONTROL Templates].
 
   >[!NOTE]
   >

@@ -4,9 +4,12 @@ description: Aprenda a utilizar el filtro de intervalo de fechas global.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
 TQID: https://experienceleague.adobe.com/1zB1NSise7wN1B68fUTq6ef824eiJx3zEglI0iUzwKQ
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 398
@@ -27,7 +30,7 @@ Cuando se guarda un intervalo de fechas específico para una vista predeterminad
 >[!NOTE]
 >
 >* Puede ver los datos de los 13 meses anteriores, pero cualquier vista personalizada existente puede incluir datos de solo hasta los 180 días anteriores.
->* Para ver datos anteriores, vaya a la vista [[!UICONTROL Reports] ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) y ejecute un informe básico.
+>* Para ver datos anteriores, vaya a la vista [[!UICONTROL Reports] &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) y ejecute un informe básico.
 >* También puede guardar un intervalo de fechas para una [vista predeterminada o personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## Cambio del filtro de fecha global en las vistas de campaña

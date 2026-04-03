@@ -3,11 +3,21 @@ title: Configuración de pruebas A/B para anuncios de Adobe Advertising Search, 
 description: Aprenda a configurar una prueba A/B en  [!DNL Target] para sus anuncios [!DNL Google Ads] y [!DNL Microsoft Advertising] en Search, Social y Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
 TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 867
@@ -75,7 +85,7 @@ Las siguientes instrucciones resaltan información relacionada con el caso de us
 
       Puede encontrar el ID [agregando la columna de ID relevante a la vista de entidades](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-      ![[!UICONTROL Network Account ID] columna en la vista [!UICONTROL Accounts] ](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] columna en la vista [!UICONTROL Accounts]")
+      ![[!UICONTROL Network Account ID] columna en la vista [!UICONTROL Accounts] &#x200B;](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] columna en la vista [!UICONTROL Accounts]")
 
       Póngase en contacto con el equipo de su cuenta de Adobe si necesita ayuda.
 

@@ -4,8 +4,10 @@ description: Aprenda a exportar sus campañas sincronizadas en una cuenta de  [!
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 942
@@ -85,7 +87,7 @@ Puede enumerar todos los trabajos de importación, incluida la cuenta de origen 
 
      De manera predeterminada, la vista se abre en la ficha [!UICONTROL List of Import Jobs].
 
-   * En la ficha [[!UICONTROL Import Logs] ](#campaign-import-log), haga clic en la ficha **[!UICONTROL List of Import Jobs]**.
+   * En la ficha [[!UICONTROL Import Logs] &#x200B;](#campaign-import-log), haga clic en la ficha **[!UICONTROL List of Import Jobs]**.
 
 ## Ejecutar un trabajo de importación de campaña
 

@@ -4,9 +4,12 @@ description: Obtenga información acerca de la configuración necesaria y opcion
 exl-id: 11782a75-9141-4a4e-b3b3-60679b0e36de
 feature: Search Reports, Search Model Accuracy Reports
 TQID: https://experienceleague.adobe.com/ITabJVxDxGloBaUT8FqMfX7IWlU5rLYCiuCjVNYrX6c
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1793
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 | Ficha | Parámetro | Descripción |
 |----|----|----|
-| n/a | [!UICONTROL Name] | (Opcional) Un nombre para el informe y para la plantilla (si guarda el informe como plantilla). Si aplica una plantilla existente, el nombre de la plantilla se rellena de forma predeterminada. Si no aplica una plantilla ni escribe un nombre, el informe se llamará <code><client name>-<date and time>-<report type></code> (como &quot;acme - 3 de abril de 2009 11:25:19 AM PDT - Palabra clave&quot;) de forma predeterminada.<br><br>Si lo desea, puede escribir un nombre personalizado, pero no utilice una extensión de archivo.<br><br>Si está creando una plantilla para [enviar informes a un directorio FTP](/help/search-social-commerce/reports/automation/ftp-reports.md), puede incluir opcionalmente &quot;CSV&quot; (en mayúsculas) en cualquier lugar del nombre del archivo para crear archivos en formato CSV en lugar del formato TSV predeterminado. Consulte [Requisitos de nombre de archivo para informes enviados a un directorio FTP](/help/search-social-commerce/reports/automation/ftp-reports.md). |
+| n/a | [!UICONTROL Name] | (Opcional) Un nombre para el informe y para la plantilla (si guarda el informe como plantilla). Si aplica una plantilla existente, el nombre de la plantilla se rellena de forma predeterminada. Si no aplica una plantilla ni escribe un nombre, el informe se llamará <code>&lt;client name>-&lt;date and time>-&lt;report type></code> (como &quot;acme - 3 de abril de 2009 11:25:19 AM PDT - Palabra clave&quot;) de forma predeterminada.<br><br>Si lo desea, puede escribir un nombre personalizado, pero no utilice una extensión de archivo.<br><br>Si está creando una plantilla para [enviar informes a un directorio FTP](/help/search-social-commerce/reports/automation/ftp-reports.md), puede incluir opcionalmente &quot;CSV&quot; (en mayúsculas) en cualquier lugar del nombre del archivo para crear archivos en formato CSV en lugar del formato TSV predeterminado. Consulte [Requisitos de nombre de archivo para informes enviados a un directorio FTP](/help/search-social-commerce/reports/automation/ftp-reports.md). |
 |  | [!UICONTROL Save as template] | (Opcional, a menos que desee ejecutar el informe según una programación) Guarda la configuración del informe como una plantilla, que está disponible en la vista [!UICONTROL Reports] > [!UICONTROL Report Templates] y se puede reutilizar para crear nuevos informes. Para guardar el informe como plantilla, marque la casilla de verificación.<br><br>Para ejecutar el informe según una programación, debe guardar la configuración como plantilla.<br><br><b>Nota:</b> Puede guardar el conjunto actual de parámetros como una plantilla nueva aunque esté basada en una plantilla existente. |
 |  | [!UICONTROL Type] | Tipo de informe que se va a generar. |
 | [!UICONTROL Basic  Settings] | [!UICONTROL Template] | (Opcional) Plantilla de informe que se va a aplicar, que rellena previamente las opciones del informe según la plantilla. Se mostrarán todas las plantillas guardadas para el tipo de informe y disponibles para usted.<br><br>Si selecciona una plantilla, puede cambiar las opciones del informe e incluso guardar el informe como una plantilla nueva. |

@@ -4,9 +4,12 @@ description: Obtenga información sobre los distintos tipos de datos disponibles
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
 TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 599
@@ -38,7 +41,7 @@ La mayoría de los informes se pueden personalizar para mostrar únicamente la i
 
 * **Métricas de conversión:** Número total de conversiones para cada una de las métricas de conversión del anunciante o datos de transacción seguidos hacia una métrica de conversión. Esto puede incluir métricas de conversión y de participación del sitio, pero no métricas calculadas y métricas calculadas avanzadas, que se sincronizan desde Adobe Analytics.
 
-  Esto también puede incluir [[!DNL Google Ads] conversiones ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) y [[!DNL Google Analytics] conversiones ](/help/search-social-commerce/admin/data-sources/data-source-about.md) con seguimiento sincronizadas para la cuenta del anunciante.
+  Esto también puede incluir [[!DNL Google Ads] conversiones &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) y [[!DNL Google Analytics] conversiones &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md) con seguimiento sincronizadas para la cuenta del anunciante.
 
 * **Métricas personalizadas:** Sus propias métricas, que se derivan de la creación de fórmulas basadas en métricas existentes (como el costo por pedido).
 

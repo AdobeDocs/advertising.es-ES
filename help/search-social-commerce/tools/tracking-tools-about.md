@@ -4,8 +4,10 @@ description: Obtenga información acerca de las herramientas para crear etiqueta
 exl-id: ca8058a7-6a36-44e9-a42f-3b7cd91e664a
 feature: Search Tools, Search Tracking
 TQID: https://experienceleague.adobe.com/lOua8gMHIFAogvtnwAvmbXtfY3tEhTDPpA2K0Jt1pMo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 211
@@ -27,7 +29,7 @@ Si utiliza el servicio de seguimiento de conversión de Adobe Advertising, puede
 
   Para obtener más información acerca de si generar manualmente direcciones URL de seguimiento de clics, vea &quot;[Cuándo y cómo generar direcciones URL de seguimiento de clics](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)&quot;.
 
-* (Solo cuentas con direcciones URL de destino) La herramienta [[!UICONTROL Decode Tracking URLs] ](click-tracking-url-decode.md) le permite quitar el código de Search, Social y Commerce de una dirección URL de destino habilitada para seguimiento para ver cuál es la dirección URL base.
+* (Solo cuentas con direcciones URL de destino) La herramienta [[!UICONTROL Decode Tracking URLs] &#x200B;](click-tracking-url-decode.md) le permite quitar el código de Search, Social y Commerce de una dirección URL de destino habilitada para seguimiento para ver cuál es la dirección URL base.
 
 >[!MORELIKETHIS]
 >

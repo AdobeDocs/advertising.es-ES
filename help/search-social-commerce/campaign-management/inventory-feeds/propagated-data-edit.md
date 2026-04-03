@@ -4,8 +4,10 @@ description: Obtenga información sobre cómo editar los datos generados a parti
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/YAjOramjWXPJmOkLB2dhjG3PLUUAEbDAPRBYLVSl3vo
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 426
@@ -21,7 +23,7 @@ Cuando propaga datos de fuentes sin publicarlos simultáneamente en la red de pu
 
 * Si utilizó la opción para &quot;[!UICONTROL Propagate and Preview]&quot;, podrá editar el archivo de hoja de edición masiva generado (denominado &quot;`<feed file name>_<template name>`&quot;) descargándolo de la vista [!UICONTROL Bulksheets], editando el archivo y cargándolo de nuevo. No se incluyen datos en las fichas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] y [!UICONTROL Ads].
 
-* Si utilizó la opción para &quot;[!UICONTROL Propagate only]&quot;, puede editar los datos generados para los componentes con el estado [[!UICONTROL New] ](propagated-data-status.md) dentro de una vista de jerarquía de campaña desde las pestañas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] y [!UICONTROL Ads].
+* Si utilizó la opción para &quot;[!UICONTROL Propagate only]&quot;, puede editar los datos generados para los componentes con el estado [[!UICONTROL New] &#x200B;](propagated-data-status.md) dentro de una vista de jerarquía de campaña desde las pestañas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] y [!UICONTROL Ads].
 
   Las vistas de jerarquía de campañas muestran solo los datos generados a partir del archivo de fuente, no los componentes de cuenta existentes. Una vez que los datos de un componente y todos sus subcomponentes se publican en la red de publicidad, ya no aparecen en la jerarquía de campañas.
 

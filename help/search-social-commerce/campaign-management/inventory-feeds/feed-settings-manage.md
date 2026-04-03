@@ -4,8 +4,10 @@ description: Obtenga información sobre cómo configurar las opciones que contro
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 1155
@@ -107,7 +109,7 @@ Esta opción está desactivada de forma predeterminada. Para habilitar esta opci
 
 * *[!UICONTROL Immediately]* (predeterminado): publica los archivos de hoja de edición masiva en las redes de publicidad relevantes después de que los datos se propaguen a través de las plantillas. Los archivos de hojas de edición masiva permanecen disponibles en la vista [!UICONTROL Bulksheets] durante 30 días.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** No publica los archivos de hojas de edición masiva en las redes de anuncios relevantes, pero los enumera en la vista [!UICONTROL Bulksheets], desde la cual puede publicarlos más adelante. Los archivos de hojas de edición masiva permanecen disponibles en la vista [!UICONTROL Bulksheets] durante 30 días. Cuando el archivo de hoja de edición masiva ocupa más de 10 MB pero menos de 2 GB, el archivo está en formato ZIP; no es necesario descomprimir el archivo para publicarlo. **Sugerencia:** Si no ha validado previamente sus páginas de aterrizaje, utilice esta opción para poder validarlas desde la vista [!UICONTROL Bulksheets] antes de publicar los datos en la red publicitaria.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**&#x200B; No publica los archivos de hojas de edición masiva en las redes de anuncios relevantes, pero los enumera en la vista [!UICONTROL Bulksheets], desde la cual puede publicarlos más adelante. Los archivos de hojas de edición masiva permanecen disponibles en la vista [!UICONTROL Bulksheets] durante 30 días. Cuando el archivo de hoja de edición masiva ocupa más de 10 MB pero menos de 2 GB, el archivo está en formato ZIP; no es necesario descomprimir el archivo para publicarlo. &#x200B;** Sugerencia:** Si no ha validado previamente sus páginas de aterrizaje, utilice esta opción para poder validarlas desde la vista [!UICONTROL Bulksheets] antes de publicar los datos en la red publicitaria.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:** Impide que se publiquen en la red de anuncios frases de palabras clave con un número de palabras superior al especificado. Si se selecciona esta opción, las frases de palabras clave con un número de palabras superior al máximo se propagan y se enumeran en la ficha [!UICONTROL Keywords], pero no se publican al intentar publicar los datos.
 

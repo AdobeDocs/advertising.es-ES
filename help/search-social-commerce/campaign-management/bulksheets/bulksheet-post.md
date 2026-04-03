@@ -4,9 +4,12 @@ description: Aprenda a publicar archivos de hojas de edición masiva en las rede
 exl-id: 49b930ba-71b3-442d-a162-67cf7ae14e14
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/N2xYU3CSbNaftsEOKKyXDjDQRYeqhYOolhf5ZyCPiGA
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 726
@@ -29,7 +32,7 @@ Los archivos de hojas de edición masiva y los archivos de error se eliminan aut
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Post]**.
 
-1. En el cuadro de diálogo, escriba o seleccione información en la configuración de [[!UICONTROL Post Bulksheet] ](#bulksheet-post-settings) y, a continuación, haga clic en **[!UICONTROL Post]**.
+1. En el cuadro de diálogo, escriba o seleccione información en la configuración de [[!UICONTROL Post Bulksheet] &#x200B;](#bulksheet-post-settings) y, a continuación, haga clic en **[!UICONTROL Post]**.
 
    La misma configuración se aplica a todos los archivos que publique.
 
@@ -39,7 +42,7 @@ Cuando comienza la tarea, el estado y la fecha posterior programada de la fila s
 >
 >* Las grandes cantidades de datos tardan más en publicarse. Puede seguir el progreso del archivo en la columna [!UICONTROL Progress] de la vista [!UICONTROL Bulksheets].
 >* Todos los datos publicados están sujetos al proceso editorial de la red.
-* Antes de publicar el archivo de hoja de edición masiva, puede cancelar la publicación.
+>* Antes de publicar el archivo de hoja de edición masiva, puede cancelar la publicación.
 
 ## Configuración de publicación para hojas de edición masiva y archivos de error corregidos {#bulksheet-post-settings}
 

@@ -4,8 +4,10 @@ description: Obtenga información sobre cómo mostrar y ocultar las columnas del
 exl-id: ebcf5759-f3a0-4816-8095-5679a642f862
 feature: Search Common Tasks, Search Custom Data Views
 TQID: https://experienceleague.adobe.com/M-MDI8D7W9JFepbY-CR0QV64oh6KVPqevVtSz8NQCTg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
 source-wordcount: 191
@@ -23,7 +25,7 @@ Puede mostrar y ocultar temporalmente las columnas incluidas en cualquiera de la
 
 >[!NOTE]
 >
->* También puede cambiar temporalmente las columnas en una vista y cambiar el criterio de ordenación [ desde el icono [!UICONTROL Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) que aparece a la derecha de la barra de herramientas.
+>* También puede cambiar temporalmente las columnas en una vista y cambiar el criterio de ordenación [&#x200B; desde el icono [!UICONTROL Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) que aparece a la derecha de la barra de herramientas.
 >* Puede cambiar las columnas incluidas para un anunciante específico editando la vista predeterminada o [creando una vista personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
 * (Para mostrar columnas específicas de todos los anunciantes) A la derecha de cualquier encabezado de columna, haga clic en ![Flecha abajo](/help/search-social-commerce/assets/arrow-down-expand.png "Flecha abajo"), resalte **[!UICONTROL Select Columns]**, active la casilla de verificación situada junto a cada columna que desee incluir y, a continuación, haga clic en **[!UICONTROL Apply]**.
