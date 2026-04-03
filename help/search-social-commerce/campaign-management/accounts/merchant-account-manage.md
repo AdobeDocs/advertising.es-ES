@@ -3,9 +3,12 @@ title: Administrar cuentas de comerciante
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta de un centro de comerciantes.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+TQID: https://experienceleague.adobe.com/u5LpCPL1I8lLHD9n1cDT1rEPvCcultnuhIVcn7IqxnY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: 789
 ht-degree: 0%
 
 ---
@@ -62,7 +65,7 @@ Para ver los datos del producto y generar plantillas de seguimiento para una cue
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-   Los datos de atributos de todos los productos de la cuenta están disponibles en Search, Social y Commerce después del siguiente proceso de sincronización diario (sobre las 06:00 en la zona horaria local del usuario). A continuación, puede utilizar los datos del producto para automatizar la creación de anuncios mediante fuentes de inventario.
+   Los datos de atributos de todos los productos de la cuenta están disponibles en Search, Social y Commerce después del siguiente proceso diario de sincronización (alrededor de 06:00 en la zona horaria local del usuario). A continuación, puede utilizar los datos del producto para automatizar la creación de anuncios mediante fuentes de inventario.
 
 ## Editar detalles de la cuenta de comerciante {#edit-merchant-account}
 
@@ -84,7 +87,7 @@ Si las credenciales de la cuenta cambian o desea dejar de recuperar y utilizar d
 
 >[!NOTE]
 >
->Search, Social y Commerce deben sincronizar los datos de la nueva cuenta con la de la red de comerciantes. Esto sucede automáticamente una vez al día, aproximadamente a las 06:00 en la zona horaria local del usuario.
+>Search, Social y Commerce deben sincronizar los datos de la nueva cuenta con la de la red de comerciantes. Esto sucede automáticamente una vez al día aproximadamente a las 06:00 en la zona horaria local del usuario.
 
 ## Deshabilitar el acceso a una cuenta de comerciante {#disable-merchant-account}
 

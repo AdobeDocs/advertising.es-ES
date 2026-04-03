@@ -3,9 +3,15 @@ title: Usando la integración de DSP con  [!DNL Adobe] [!DNL Real-time CDP]
 description: Aprenda a habilitar DSP para ingerir los segmentos de origen de  [!DNL Adobe] [!DNL Real-time CDP].
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
+TQID: https://experienceleague.adobe.com/Ggt-YiAoGurfI5eET66xJwMBTSq-w5FO7wH60WZshEk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 540
 ht-degree: 0%
 
 ---
@@ -32,11 +38,11 @@ Use la integración de DSP con [the [!DNL Adobe Real-Time CDP]](https://experien
 
    Las direcciones de correo electrónico deben tener un cifrado hash con el algoritmo SHA-256.
 
-   Para obtener instrucciones para activar la conexión de destino de DSP, activar audiencias y validar la exportación de datos, consulte &quot;[Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)&quot;.
+   Para obtener instrucciones para activar la conexión de destino de DSP, activar audiencias y validar la exportación de datos, consulte &quot;[Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;.
 
    >[!NOTE]
    >
-   >La conexión heredada, que solo admite direcciones de correo electrónico con hash, ahora se llama &quot;[Conexión heredada de DSP de Adobe Advertising Cloud](https://experienceleague.adobe.com/es/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Si ya utiliza la conexión heredada, no necesita realizar ningún cambio inmediatamente. Sin embargo, la conexión heredada se eliminará en algún momento.
+   >La conexión heredada, que solo admite direcciones de correo electrónico con hash, ahora se llama &quot;[Conexión heredada de DSP de Adobe Advertising Cloud](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Si ya utiliza la conexión heredada, no necesita realizar ningún cambio inmediatamente. Sin embargo, la conexión heredada se eliminará en algún momento.
 
 1. Compruebe en la biblioteca de audiencias (que está disponible cuando crea o edita una audiencia de [!UICONTROL Audiences] > [!UICONTROL All Audiences] o en la configuración de ubicación) que el segmento se está rellenando y compare el número de ID universales con el número de ID de usuario originales.
 
@@ -54,7 +60,7 @@ Para solucionar problemas con el procedimiento de conversión, póngase en conta
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
 >* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
->* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Compatibilidad para activar identificadores universales](/help/dsp/audiences/universal-ids.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)

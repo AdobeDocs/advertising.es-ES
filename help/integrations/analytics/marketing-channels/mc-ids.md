@@ -3,9 +3,14 @@ title: Usar Adobe Advertising ID para crear  [!DNL Marketing Channels] reglas
 description: Aprenda a utilizar los Adobe Advertising ID para crear reglas de procesamiento para  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: 0813a8bddc1ecf238f4a62c4fcefd8584f32e152
+TQID: https://experienceleague.adobe.com/mBjU1jKifWk35v43sGsBO5aHDQA5ftmyI9GJ4Xujz9A
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: 1448
 ht-degree: 0%
 
 ---
@@ -18,7 +23,7 @@ Puede usar los Adobe Advertising ID ([AMO ID y EF ID](../ids.md)) para configura
 
 ## El ID de AMO en las reglas de procesamiento
 
-El identificador de AMO es el código de seguimiento principal que se usa para informar los datos de Adobe Advertising en [!DNL Analytics]. El ID de AMO es una concatenación de valores dinámicos administrados por Adobe para proporcionar informes granulares en [!DNL Analytics]. Se almacena en una dimensión [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=es) o rVar (ID de AMO). El identificador de AMO se puede establecer en [!DNL Analytics] de dos maneras:
+El identificador de AMO es el código de seguimiento principal que se usa para informar los datos de Adobe Advertising en [!DNL Analytics]. El ID de AMO es una concatenación de valores dinámicos administrados por Adobe para proporcionar informes granulares en [!DNL Analytics]. Se almacena en una dimensión [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o rVar (ID de AMO). El identificador de AMO se puede establecer en [!DNL Analytics] de dos maneras:
 
 * Seguimiento de clics: Adobe Advertising establece el parámetro de cadena de consulta `s_kwcid` en un vínculo y [!DNL Analytics] lo recoge de la dirección URL de la página de aterrizaje cuando se produce una pulsación.
 
@@ -90,7 +95,7 @@ No establezca el valor del canal en el ID de AMO. En su lugar, configúrelo en a
 
 ### Regla de búsqueda natural
 
-Para [!UICONTROL Natural Search], asegúrese de que las reglas de detección [[!UICONTROL Paid Search]](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) incluyan los parámetros de cadena de consulta `ef_id` y `s_kwcid`. (Normalmente, esto se configura automáticamente cuando Advertising Search, Social y Commerce están integrados en [!DNL Analytics], pero verifíquelo en caso de que un administrador de [!DNL Analytics] cambie la lógica después de configurar la integración).
+Para [!UICONTROL Natural Search], asegúrese de que las reglas de detección [[!UICONTROL Paid Search]](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) incluyan los parámetros de cadena de consulta `ef_id` y `s_kwcid`. (Normalmente, esto se configura automáticamente cuando Advertising Search, Social y Commerce están integrados en [!DNL Analytics], pero verifíquelo en caso de que un administrador de [!DNL Analytics] cambie la lógica después de configurar la integración).
 
 Establezca la regla en &quot;Coincide con las reglas de detección de búsqueda natural&quot; (que suele ser la configuración predeterminada para este canal).
 
@@ -153,5 +158,5 @@ Para la segunda regla Mostrar clic, establezca **AMO ID empieza por &quot;AC!&qu
 >* [Aspectos básicos de [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Por qué los datos de canal pueden variar entre Adobe Advertising y [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Usando [!DNL Analytics Marketing Channels] con datos de Adobe Advertising](mc-ac-data.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=es)
+>* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [ID de Adobe Advertising usados por [!DNL Analytics]](/help/integrations/analytics/ids.md)

@@ -3,9 +3,12 @@ title: Tamaños creativos admitidos
 description: Consulte los tamaños creativos admitidos para las experiencias publicitarias.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: c8e90ba6-bff7-4161-86b8-c4b5b04fb4bf
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+TQID: https://experienceleague.adobe.com/v9wOtISs7XySZ5rr7itFqzkmuAdYcUQclzNVAKneURs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: 111
 ht-degree: 1%
 
 ---
@@ -43,8 +46,8 @@ Los siguientes tamaños creativos se aplican a todos los tipos creativos.
 | | 970 x 250 | Valla |
 | Dispositivo móvil | 300 x 50 | Titular móvil |
 | | 320 x 50 | Titular móvil |
-| | 300 x 100 | Rectángulo 3:1 móvil |
-| | 320 x 160 | Rectángulo 2:1 móvil |
+| | 300 x 100 | Rectángulo móvil 3:1 |
+| | 320 x 160 | Rectángulo móvil 2:1 |
 | | 320 x 320 | Cuadrado móvil |
 | | 320x480 | Intersticial móvil |
 

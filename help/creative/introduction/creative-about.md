@@ -1,20 +1,26 @@
 ---
 title: Acerca de Adobe Advertising Creative
-description: Obtenga información sobre [!DNL Creative].
+description: Más información sobre [!DNL Creative].
 feature: Creative Introduction
 exl-id: 2cc12119-5924-4fcd-a54b-30f7887ae6a7
-source-git-commit: 1394b988828f5400b858f1a40b1b6382431a62b0
+TQID: https://experienceleague.adobe.com/UfaLj12BFBAxCDvtb6cUtVxlcuOSYgnZPTAn7494APk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: 493
 ht-degree: 0%
 
 ---
 
-# Acerca de Adobe Systems Advertising Creative 2.0
+# Acerca de Adobe Advertising Creative 2.0
 
 <!-- verify all and rewrite to include new stuff -->
 
-Como parte de Adobe Systems Advertising, Advertising Creative es una plataforma de autoservicio para automatizar experiencias de anuncios personalizadas en tiempo real y, opcionalmente, optimizar sus anuncios a nivel elemento creativo.<!-- Verify --> Puede implementar las experiencias anuncios como anuncios en cualquier DSP, incluidos Adobe Systems DSP publicitarios.
+Como parte de Adobe Advertising, Advertising Creative es una plataforma de autoservicio para automatizar experiencias publicitarias personalizadas en tiempo real y, opcionalmente, optimizar los anuncios en el nivel de elemento creativo.<!-- Verify -->: puede implementar las experiencias publicitarias como anuncios en cualquier DSP, incluido Adobe Advertising DSP.
 
 ## Bibliotecas creativas personalizadas de creativos reutilizables
 
@@ -30,11 +36,11 @@ Las bibliotecas de Creative le permiten administrar los elementos creativos que 
 
 ## Experiencias basadas en reglas y sin segmentación
 
-* **Experiencias dirigidas y basadas en reglas:** cree historias utilizando un modelo de árbol de decisiones basado en reglas, desplegando una cadena coreografiada de anuncios personalizados en tiempo real en función de lo que sabe sobre su audiencia. Por ejemplo: las historias pueden cambiar según el comportamiento del cliente, la ubicación geográfica, la demografía, el redireccionamiento, la posición en el recorrido del cliente, etc.
+* **Experiencias segmentadas y basadas en reglas:** Cree historias con un modelo de árbol de decisiones basado en reglas, para desplegar una cadena coreográfica de anuncios que se personalizan en tiempo real según lo que sepa sobre su audiencia. Por ejemplo: las historias pueden cambiar según el comportamiento del cliente, la ubicación geográfica, la demografía, el redireccionamiento, la posición en el recorrido del cliente, etc.
 
-* **Experiencias no segmentadas:** programe y optimice anuncios elementos sin reducir el audiencia.
+* **Experiencias sin objetivo:** Programe y optimice los elementos de anuncio sin reducir la audiencia.
 
-### [!DNL Adobe] integraciones de datos
+### Integraciones de datos de [!DNL Adobe]
 
 Use sus segmentos de audiencia propios de Adobe Audience Manager y Adobe Analytics, así como los segmentos de audiencia personalizados que cree en Advertising DSP y los píxeles de retargeting que cree con [!DNL Creative], como objetivos para determinados elementos creativos de una experiencia publicitaria. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
@@ -54,11 +60,11 @@ Opcionalmente, puede permitir que [!DNL Creative] optimice los elementos de publ
 
 Puede crear píxeles de retargeting para utilizarlos como objetivos para creativos dentro de una experiencia publicitaria. Los objetivos muestran anuncios únicamente a los usuarios con atributos especificados que visitaron anteriormente páginas web específicas.
 
-## Imprimir, hacer clic y Conversión seguimiento
+## Seguimiento de impresión, clics y conversiones
 
-[!DNL Creative] Rastrea automáticamente todas las impresiones y clics de anuncios publicados desde una experiencia. También puede, opcionalmente, agregar terceros URL de seguimiento impresión y seguimiento clic a los elementos creativos de las bibliotecas de Creative, así como URL de seguimiento personalizadas en un experiencia.
+[!DNL Creative] registra automáticamente todas las impresiones y clics de anuncios publicados desde una experiencia. También puede añadir direcciones URL de seguimiento de impresiones y clics de terceros a los creativos de las bibliotecas de Creative, así como direcciones URL de seguimiento personalizadas en una experiencia.
 
-[!DNL Creative] También realiza un seguimiento de las conversiones de los anuncios publicados creados a partir de sus experiencias anuncios.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
+[!DNL Creative] también hace un seguimiento de las conversiones de los anuncios publicados creados a partir de sus experiencias publicitarias.<!-- Verify wording; anything important to add here? We do track them for all users, right? Or is it optional?  -->
 
 <!--
  [Don't need to mention] When an ad is served, the DSP that buys the ad first tracks the impression, and then passes the impression information to [!DNL Creative]. [!DNL Creative] first tracks a click on an ad, and it then passes the click information

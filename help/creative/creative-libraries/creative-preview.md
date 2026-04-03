@@ -3,9 +3,12 @@ title: Previsualización de un elemento creativo
 description: Obtenga información sobre cómo abrir una vista previa de un creativo.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+TQID: https://experienceleague.adobe.com/T6NV9uopJw7nQ2Janpw6BMGK0N2Ya0tzGckB75qbg0M
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: 198
 ht-degree: 0%
 
 ---

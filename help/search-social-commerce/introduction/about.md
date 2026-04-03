@@ -1,20 +1,25 @@
 ---
-title: Acerca de Búsqueda de Adobe Advertising, Social y Commerce
+title: Acerca de Adobe Advertising Search, Social y Commerce
 description: Obtenga información acerca de Search, Social y Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebef6e6f-6552-40b6-b842-0c5256698a4e
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: 762
 ht-degree: 0%
 
 ---
 
-# Acerca de Búsqueda de Adobe Advertising, Social y Commerce
+# Acerca de Adobe Advertising Search, Social y Commerce
 
-[!DNL Adobe] es el líder tecnológico y de mercado en soluciones de experiencia del cliente. El Adobe Advertising simplifica el envío de campañas publicitarias en canales múltiples para la administración de campañas de marca y rendimiento en cualquier pantalla y en cualquier formato. Adobe Advertising consta de tres subsoluciones: Advertising Search, Social y Commerce para canales de búsqueda, compras, medios sociales, red de audiencias y rendimiento máximo; Advertising DSP (Demand Side Platform) para canales de visualización; y Advertising Creative para crear experiencias de usuario final para sus anuncios en pantalla.
+[!DNL Adobe] es el líder tecnológico y de mercado en soluciones de experiencia del cliente. Adobe Advertising simplifica el envío de campañas publicitarias en canales múltiples para la administración de campañas de marca y rendimiento en cualquier pantalla y en cualquier formato. Adobe Advertising consta de tres subsoluciones: Advertising Search, Social y Commerce para canales de búsqueda, compras, medios sociales, red de audiencias y rendimiento máximo; Advertising DSP (Demand Side Platform) para canales de visualización; y Advertising Creative para crear experiencias para los usuarios finales en sus anuncios en pantalla.
 
-Como parte del Adobe Advertising, Advertising Search, Social y Commerce combinan la mejor administración de anuncios basada en portafolios con previsiones de campañas inteligentes y entrega de anuncios segmentados para una publicidad optimizada para datos.
+Como parte de Adobe Advertising, Advertising Search, Social y Commerce combina la mejor administración de anuncios basada en portafolios con previsiones de campañas inteligentes y entrega de anuncios segmentados para una publicidad optimizada para datos.
 
 ## Tecnología impulsada por IA para la optimización de anuncios
 
@@ -24,7 +29,7 @@ Hay disponibles varios tipos de optimización, lo que permite que Search, Social
 
 Según su función, es posible que pueda ver simulaciones de rendimiento de portafolios, que utilizan un modelado predictivo para identificar el punto de gasto óptimo, así como informes detallados de precisión de previsión. Todos los usuarios pueden utilizar la herramienta de recomendación de gastos para identificar la distribución presupuestaria óptima entre portafolios.
 
-Para obtener más información, consulte el capítulo Portfolio en la Guía de optimización, que está disponible en Search, Social y Commerce.
+Para obtener más información, consulte el capítulo Portafolios en la Guía de optimización, que está disponible en Search, Social y Commerce.
 
 ## La interfaz de administración de publicidad
 
@@ -54,7 +59,7 @@ Para obtener más información acerca de las integraciones con estos y otros pro
 
 ## Seguimiento de conversión
 
-Adobe Advertising proporciona opcionalmente un servicio de seguimiento de conversión propietario y basado en píxeles para rastrear las conversiones en línea de anuncios que enlazan a sus sitios web. Cuando utiliza el servicio de seguimiento de píxeles, el Adobe Advertising rastrea los clics en sus anuncios y las transacciones/conversiones resultantes en sus sitios web, asignando con precisión cada secuencia de clics e impresiones a las conversiones. Puede utilizar las conversiones rastreadas para la optimización de ofertas y presupuestos.
+Adobe Advertising proporciona opcionalmente un servicio de seguimiento de conversión propietario y basado en píxeles para rastrear las conversiones en línea de los anuncios que enlazan a sus sitios web. Al utilizar el servicio de seguimiento de píxeles, Adobe Advertising rastrea los clics en los anuncios y las transacciones/conversiones resultantes en los sitios web, asignando con precisión cada secuencia de clics e impresiones a las conversiones. Puede utilizar las conversiones rastreadas para la optimización de ofertas y presupuestos.
 
 El servicio le permite optimizar a diferentes reglas de atribución de datos los eventos que generan una conversión (como la atribución de conversiones al último evento relacionado o la ponderación más amplia del último evento). También proporciona acceso a informes avanzados que se pueden utilizar para mejorar las tasas de conversión, visibilidad de las ayudas de clic y análisis de las tendencias del día de la semana y del día a día.
 

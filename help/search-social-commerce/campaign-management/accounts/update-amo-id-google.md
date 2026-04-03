@@ -3,9 +3,13 @@ title: 'Actualizar el código de seguimiento de la ID de AMO (s_kwcid) para una 
 description: Aprenda a cambiar al código de seguimiento de ID de AMO más reciente para una cuenta de  [!DNL Google Ads] .
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
+TQID: https://experienceleague.adobe.com/7BOrtiEjkYEi1ZbY-PyU-dgstfa30ebtt-WBYHPX0-I
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: 479
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-El formato heredado (anterior a octubre de 2019) para el [código de seguimiento de ID de AMO](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#dimension-items) para las cuentas existentes de [!DNL Google Ads] no admite algunas características en Analytics, como la creación de informes en los niveles de campaña y grupo de anuncios para las campañas con el rendimiento máximo de [!DNL Google Ads], las campañas de borradores y experimentos, y otros casos de uso en los que existe la misma combinación de tipo anuncio+palabra clave+coincidencia en varias campañas.
+El formato heredado (anterior a octubre de 2019) para el [código de seguimiento de ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) para las cuentas existentes de [!DNL Google Ads] no admite algunas características en Analytics, como la creación de informes en los niveles de campaña y grupo de anuncios para las campañas con el rendimiento máximo de [!DNL Google Ads], las campañas de borradores y experimentos, y otros casos de uso en los que existe la misma combinación de tipo anuncio+palabra clave+coincidencia en varias campañas.
 
 El formato actual incluye parámetros para el ID de campaña y el ID de grupo de publicidad:
 
@@ -70,4 +74,4 @@ Todas las cuentas nuevas de [!DNL Google Ads] utilizan automáticamente el forma
 >
 >* [Administrar cuentas de red de anuncios](ad-network-account-manage.md)
 >* [ID de Adobe Advertising usados por [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es){target="_blank"}
+>* [Información general de [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

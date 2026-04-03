@@ -3,9 +3,13 @@ title: Acerca de los informes especiales
 description: Más información sobre los informes de especialidad.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: 138
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ La mayoría de los informes de especialidades consisten únicamente en datos rec
 
 >[!NOTE]
 >
->Para la mayoría de los informes de especialidades, los datos se recuperan todos los días el día anterior a las 23:00 (11:00 p.m.). Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00. Esta sincronización de datos se aplica a todos los informes especiales de [!DNL Google Ads] y a [!UICONTROL Bing Ads Geo Report] y [!UICONTROL Bing Ads Search Query Report].
+>Para la mayoría de los informes de especialidades, se recuperan los datos del día anterior a las 23:00 (11:00 p.m.) de cada día. Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00. Esta sincronización de datos se aplica a todos los informes especiales de [!DNL Google Ads] y a [!UICONTROL Bing Ads Geo Report] y [!UICONTROL Bing Ads Search Query Report].
 
 ## Tipos de informes especiales
 

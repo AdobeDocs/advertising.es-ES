@@ -3,16 +3,20 @@ title: Acerca de las cuentas de red de publicidad
 description: Obtenga información acerca de las cuentas de red de anuncios en Search, Social y Commerce.
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+TQID: https://experienceleague.adobe.com/90Dq2tehH-k2aY3Ij30aHF-XQGdvlPY346moWkg3xmk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: 426
 ht-degree: 0%
 
 ---
 
 # Acerca de las cuentas de red de publicidad
 
-*Sólo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
+*Solo funciones de administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador de usuarios*
 
 Search, Social y Commerce pueden realizar el seguimiento de cualquiera de las cuentas de un anunciante en las redes de publicidad admitidas. Para habilitar el seguimiento de una cuenta, debe crear un registro de cuenta correspondiente. Debe configurar los detalles de la cuenta para cualquier tipo de cuenta, independientemente de si Search, Social y Commerce se sincronizan con ella o optimizan las ofertas y los presupuestos en sus anuncios.
 
@@ -26,7 +30,7 @@ Para habilitar la sincronización de una cuenta, el registro de cuenta debe cont
 
 Durante la sincronización, Search, Social y Commerce extraen las estructuras de campaña del anunciante y las entidades de campaña admitidas, incluidos la mayoría de sus atributos que se administran o registran en Search, Social y Commerce. No incluye datos de clics, ni ofertas y modificadores de oferta introducidos fuera de Search, Social y Commerce, que se recopilan por separado. Search, Social y Commerce se sincronizan automáticamente con las cuentas de red de anuncios una vez al día, y también siempre que detecta una nueva campaña en una de las redes de anuncios. Además, envía inmediatamente a la red de anuncios todos los cambios realizados en los datos de campaña desde Search, Social y Commerce. Si lo desea, puede solicitar una sincronización manual cuando sea necesario.
 
-Para obtener más información sobre la creación y edición de campañas sincronizadas, consulte el capítulo sobre Campaign Management.
+Para obtener más información sobre la creación y edición de campañas sincronizadas, consulte el capítulo sobre administración de campañas.
 
 ## Cuentas solo de seguimiento
 

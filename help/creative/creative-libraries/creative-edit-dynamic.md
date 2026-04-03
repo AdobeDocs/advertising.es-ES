@@ -3,9 +3,12 @@ title: Editar un elemento creativo dinámico en una biblioteca creativa
 description: Aprenda a editar un elemento creativo dinámico en una biblioteca creativa.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+TQID: https://experienceleague.adobe.com/QoQ5p4sFV-ARIMNDbPkp7axfqkVEC3sxJ6MTlPIG22Y
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: 323
 ht-degree: 0%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 0%
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
-1. Click the library name.
+1. Haga clic en el nombre de la biblioteca.
 
 1. Mantenga el cursor sobre la fila creativa y haga clic en **[!UICONTROL Edit]**.
 
@@ -32,9 +35,9 @@ ht-degree: 0%
 
    * Cambiar el contenido:
 
-      * (Solo anuncios de visualización) Para editar el valor de una celda dentro de la tabla, haga clic dentro de la celda y edite el valor. Click outside of the cell or press the **[!DNL Enter]** key to save your changes.
+      * (Solo anuncios de visualización) Para editar el valor de una celda dentro de la tabla, haga clic dentro de la celda y edite el valor. Haga clic fuera de la celda o presione la tecla **[!DNL Enter]** para guardar los cambios.
 
-      * To mark a single product as the default<!--Explain what this means. -->, hold the curser over the row and click **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+      * Para marcar un solo producto como predeterminado <!--Explain what this means. -->, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
       * (Cuando el anuncio incluya más de una oferta) Para marcar varios productos como predeterminados, seleccione las filas (hasta el número de ofertas) y haga clic en **[!UICONTROL Set as Default]** en la barra de herramientas de acciones por lotes.
 
@@ -56,7 +59,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Dynamic creative settings](creative-settings-dynamic.md)
->* [Add dynamic creatives to a creative library](creative-add-dynamic.md)
+>* [Configuración creativa dinámica](creative-settings-dynamic.md)
+>* [Agregar elementos creativos dinámicos a una biblioteca creativa](creative-add-dynamic.md)
 >* [Ver el registro de cambios de un elemento creativo](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)

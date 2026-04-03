@@ -3,9 +3,14 @@ title: Requisitos previos para integrar Adobe Advertising con Customer Journey A
 description: Requisitos previos para integrar Adobe Advertising con Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/I86BXjKORkYZIBn9EqPy3eWPJZi27n5STWcXUtp9gwo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: 140
 ht-degree: 0%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 0%
 
   Necesitará asistencia de su analista web interno para configurar una conexión con su conjunto de datos y crear informes.
 
-* Tecnologías de modelado y administración de datos de Adobe Experience Platform (incluidos [esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) y [conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)) y [tecnologías de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/home) (incluyendo [flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview) y [etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home))
+* Tecnologías de modelado y administración de datos de Adobe Experience Platform (incluidos [esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) y [conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) y [tecnologías de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (incluyendo [flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) y [etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
 
   Estas tecnologías requieren la asistencia del administrador del sitio de Experience Platform.
 

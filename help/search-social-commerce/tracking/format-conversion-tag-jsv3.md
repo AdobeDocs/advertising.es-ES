@@ -3,9 +3,13 @@ title: Formato de las etiquetas de seguimiento de conversión de JavaScript vers
 description: Consulte el formato de las etiquetas de seguimiento de conversión de JavaScript versión 3.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+TQID: https://experienceleague.adobe.com/IjPpsTp5GGaG6SM2k1UC0Q0J3QCF-jIR7-ug3yigW3U
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 297
 ht-degree: 0%
 
 ---
@@ -56,13 +60,13 @@ donde:
 
 * `<ef-userid>` es un identificador de usuario numérico y único que Search, Social y Commerce asigna al anunciante.
 
-* `<ID5_PartnerID>` es el ID de socio ID5 de la organización, que la organización recibe después de firmar un acuerdo con [!DNL ID5]. DSP Incluya esta variable solo cuando la organización use la función de combinación de datos y tenga [segmentos personalizados que hagan un seguimiento de los usuarios asociados con los ID universales ID5](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` es el ID de socio ID5 de la organización, que la organización recibe después de firmar un acuerdo con [!DNL ID5]. Incluya esta variable solamente cuando la organización use DSP y tenga [segmentos personalizados que hagan un seguimiento de los usuarios asociados con ID5 universales](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` es la conversión para realizar el seguimiento. Por ejemplo, si está realizando el seguimiento de una conversión denominada &quot;registro&quot;, la etiqueta incluiría el parámetro `ev_registration=<registration>` y tendría que pasar los ingresos reales de cada transacción (como `ev_registration=1`). Cuando se realiza el seguimiento de varias propiedades, se unen mediante un signo &amp; (`&`), como `ev_registration=<registration>&ev_sale=<sale>` (por ejemplo, `ev_registration=1&ev_sale=12.99`). **Nota:** El nombre de propiedad no puede incluir caracteres especiales.
 
 * `<transid>` es un identificador de transacción único (como un identificador de pedido real) que el anunciante genera y pasa para identificar una transacción. Solo se incluye cuando se selecciona la opción &quot;[!UICONTROL Include unique transaction IDs]&quot;.
 
-  Search, Social y Commerce utilizan el ID de transacción para eliminar las transacciones duplicadas con el mismo ID de transacción y valor de propiedad. El id. de transacción está incluido en [!UICONTROL Transaction Report], que puede usar para validar los datos dentro del Adobe Advertising con los datos del anunciante. **Nota:** Si los datos del anunciante no incluyen un identificador único por transacción, Search, Social y Commerce seguirán generando uno en función del tiempo de transacción.
+  Search, Social y Commerce utilizan el ID de transacción para eliminar las transacciones duplicadas con el mismo ID de transacción y valor de propiedad. El id. de transacción está incluido en [!UICONTROL Transaction Report], que puede usar para validar datos en Adobe Advertising con los datos del anunciante. **Nota:** Si los datos del anunciante no incluyen un identificador único por transacción, Search, Social y Commerce seguirán generando uno en función del tiempo de transacción.
 
 <!-- add more links -->
 

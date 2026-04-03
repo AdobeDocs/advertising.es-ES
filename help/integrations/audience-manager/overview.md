@@ -3,9 +3,15 @@ title: Integraciones de Adobe Advertising con Adobe Audience Manager
 description: Obtenga información sobre las distintas formas en que Adobe Advertising puede intercambiar datos con Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/4O4O-DmHhClvSiOSxM9blAEvVslzYzRobEyU6RGeMEQ
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 485
 ht-degree: 0%
 
 ---
@@ -42,7 +48,7 @@ Una vez creadas las audiencias, puede usarlas en [!DNL Google Ads] campañas com
 
 >[!NOTE]
 >
->Para obtener más información acerca de cómo crear audiencias en las interfaces de Audience Manager y Experience Cloud [!DNL Audience Library], así como casos de uso comunes para distintos tipos de audiencias, consulte &quot;[Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es)&quot;.
+>Para obtener más información acerca de cómo crear audiencias en las interfaces de Audience Manager y Experience Cloud [!DNL Audience Library], así como casos de uso comunes para distintos tipos de audiencias, consulte &quot;[Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;.
 
 ## Envío de datos de exposición de medios de DSP a Audience Manager
 
@@ -54,6 +60,6 @@ Consulte &quot;[Información general sobre el envío de datos de exposición de 
 
 ## Obtenga información más completa sobre la actividad del sitio con Audience Analytics
 
-Los clientes de Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=es) pueden enviar datos seguidos por Adobe Advertising y segmentos de Audience Manager a [!DNL Analytics] para obtener información detallada sobre la actividad del sitio.
+Los clientes de Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) pueden enviar datos seguidos por Adobe Advertising y segmentos de Audience Manager a [!DNL Analytics] para obtener información detallada sobre la actividad del sitio.
 
 Para obtener más información, consulte &quot;[[!DNL Adobe Audience Analytics] para clientes de Adobe Advertising](/help/integrations/audience-manager/audience-analytics.md)&quot;.

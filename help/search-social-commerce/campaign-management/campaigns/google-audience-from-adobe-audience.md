@@ -3,9 +3,14 @@ title: Crear  [!DNL Google Ads] audiencias de coincidencia de cliente a partir d
 description: Aprenda a crear  [!DNL Google Ads] audiencias de coincidencia de cliente a partir de las audiencias existentes de Adobe Analytics y Audience Manager.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: 566
 ht-degree: 0%
 
 ---
@@ -34,7 +39,7 @@ Cada nueva audiencia [!DNL Google] tiene el mismo nombre que la audiencia [!DNL 
 
    1. (Para crear audiencias de lista de remarketing con ID de usuario) Un usuario administrador de [!DNL Adobe] o administrador de cuentas debe seleccionar la configuración de nivel de anunciante para habilitar las audiencias de coincidencia de clientes.
 
-   1. Implemente el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) versión 2.0 o superior.
+   1. Implemente el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) versión 2.0 o superior.
 
    1. Implemente la siguiente etiqueta lo más alto posible en las páginas web del anunciante desde las que se debe realizar el seguimiento de la audiencia
 

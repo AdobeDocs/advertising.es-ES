@@ -3,9 +3,14 @@ title: Acerca de sus bibliotecas creativas
 description: Obtenga información sobre cómo administrar los elementos creativos para sus experiencias publicitarias.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+TQID: https://experienceleague.adobe.com/rvm3BAkRlgbJKdpHNoN5oH9sOhqGwOA-3I-XIol0RXc
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: 1586
 ht-degree: 0%
 
 ---
@@ -51,7 +56,7 @@ Los anuncios estándar incluyen:
 
 ##### Creativos de HTML5
 
-* **Experiencias de GenStudio:** Puedes importar todas las variantes de anuncio de una [experiencia de anuncio en pantalla](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) en [GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/home) como creativos individuales de HTML5. Los vínculos externos se convierten en referencias locales. El contenido de HTML puede ocupar hasta 20 MB, y las imágenes individuales pueden ocupar hasta 50 MB.
+* **Experiencias de GenStudio:** Puedes importar todas las variantes de anuncio de una [experiencia de anuncio en pantalla](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) en [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) como creativos individuales de HTML5. Los vínculos externos se convierten en referencias locales. El contenido de HTML puede ocupar hasta 20 MB, y las imágenes individuales pueden ocupar hasta 50 MB.
 
   Una vez importada una experiencia de GenStudio, puede editar los metadatos (nombre, idioma, etiquetas) para el elemento creativo importado, pero no su contenido. Si edita la experiencia de GenStudio en GenStudio, vuelva a importar la experiencia en [!DNL Creative] para utilizar la versión más reciente.
 
@@ -79,7 +84,7 @@ Introduzca las etiquetas de seguimiento de JavaScript para creativos alojados en
 
 Puede cargar vídeos creativos de origen para la web, el móvil o la TV conectada desde su dispositivo o red. Cada experiencia de anuncio de vídeo requiere un creativo de vídeo predeterminado para cada duración creativa asignada a la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. En [!UICONTROL Tag Manager], opcionalmente [puede aplicar la transcodificación específica de DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
 
-Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/es/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
+Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
 
 **Tipo de archivo:** .mov, .mp4, .webm
 

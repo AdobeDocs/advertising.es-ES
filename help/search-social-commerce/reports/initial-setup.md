@@ -3,9 +3,13 @@ title: Las tareas de configuración iniciales para los informes
 description: Obtenga información sobre cómo hacer que las métricas estén disponibles en los informes y cómo automatizar los informes.
 exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
 feature: Search Reports
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+TQID: https://experienceleague.adobe.com/N50b-O0oFBV6ZMXcFx8gRvLs3M1hN696d43VGlgkg44
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: 336
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 Los nuevos usuarios deben realizar las siguientes tareas de configuración inicial:
 
-* Haga que las métricas de conversión que el Adobe Advertising está rastreando para un anunciante [estén disponibles para informes y otras vistas](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) y, opcionalmente, [cambie el nombre de cualquiera de las métricas de conversión](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) que se muestran en los encabezados de columna para facilitar la lectura.
+* Haga que las métricas de conversión que Adobe Advertising está rastreando para un anunciante [estén disponibles para informes y otras vistas](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md) y, opcionalmente, [cambie el nombre de cualquiera de las métricas de conversión]&#x200B;(/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) que se muestran en los encabezados de columna para facilitar la lectura.
 
   Las propiedades de transacciones no están disponibles para los informes a menos que las ponga a disposición específicamente.
 

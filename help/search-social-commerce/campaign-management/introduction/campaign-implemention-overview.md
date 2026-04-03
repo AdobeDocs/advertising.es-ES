@@ -3,9 +3,13 @@ title: Información general sobre la implementación de cuentas y campañas de r
 description: Obtenga información acerca de las tareas relacionadas con la configuración, sincronización y administración de las cuentas de red de anuncios.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
+TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: 979
 ht-degree: 0%
 
 ---
@@ -60,13 +64,13 @@ Esta página incluye información sobre todos los tipos de cuenta, incluido cóm
 
    1. Configure el seguimiento de conversiones. Según la implementación, esto puede implicar la adición de etiquetas de seguimiento de conversión a las páginas web del anunciante o la configuración de una entrega diaria de fuentes para los datos de conversión que el anunciante haya recopilado por separado.
 
-      Si usa el servicio de seguimiento de conversiones de Adobe Advertising, puede [generar etiquetas de seguimiento de conversiones](/help/search-social-commerce/tools/conversion-tag-generate.md) en Search, Social y Commerce o usar [etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=es) (anteriormente conocido como Adobe Experience Platform Launch).
+      Si usa el servicio de seguimiento de conversiones de Adobe Advertising, puede [generar etiquetas de seguimiento de conversiones](/help/search-social-commerce/tools/conversion-tag-generate.md) en Search, Social y Commerce o usar [etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (anteriormente conocido como Adobe Experience Platform Launch).
 
    1. Valide los datos de los que se realiza un seguimiento.
 
    Para obtener más información sobre la configuración del seguimiento, consulte el capítulo sobre seguimiento.
 
-1. (Anunciantes con Adobe Analytics) [Integre Adobe Advertising y Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es) para que puedan intercambiar datos.
+1. (Anunciantes con Adobe Analytics) [Integre Adobe Advertising y Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) para que puedan intercambiar datos.
 
 1. (Para permitir que Search, Social y Commerce optimicen ofertas, presupuestos de campaña o objetivos de estrategia de oferta de campaña; [solo tipos de campaña admitidos](/help/search-social-commerce/introduction/supported-inventory.md)) [Asigne la campaña a un portafolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

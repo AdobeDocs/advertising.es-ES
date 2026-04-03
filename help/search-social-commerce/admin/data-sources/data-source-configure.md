@@ -4,9 +4,15 @@ description: Obtenga información sobre cómo configurar una fuente de datos des
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Tvl3PF1mPSWuoWdVVreAoo6aXe3Kg9-9DXsOz3porOI
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+subfeature_v2: id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 568
 ht-degree: 0%
 
 ---
@@ -65,7 +71,7 @@ Para integrar métricas de varias propiedades o de varias vistas para una sola p
 
    El origen de datos se denomina &quot;AccountName > PropertyName > ViewName&quot; y se activa automáticamente. Para pausar el origen de datos, consulte &quot;[Pausar una fuente desde un Source de datos](data-source-pause.md)&quot;.
 
-   Las métricas están disponibles al día siguiente de la finalización de la sincronización diaria de datos, que comienza a las 05:00 en el huso horario del anunciante. Una vez que las métricas estén disponibles, se podrán ver en [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Cada nueva métrica de conversión se denomina &quot;`ga:backEndMetricName_propertyID_viewID`&quot;, donde &quot;backEndMetricName&quot; es el nombre de métrica que usa la API. El nombre para mostrar de cada nueva métrica de conversión es &quot;`friendlyMetricName_ga:MetricTag`&quot;, donde &quot;friendlyMetricName&quot; es el nombre de métrica que aparece en [!DNL Google Analytics] y &quot;MetricTag&quot; es el [!UICONTROL Metric Tag] definido en la configuración del origen de datos.
+   Las métricas están disponibles al día siguiente de la finalización de la sincronización de datos diaria, que comienza a las 05:00 en el huso horario del anunciante. Una vez que las métricas estén disponibles, se podrán ver en [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Cada nueva métrica de conversión se denomina &quot;`ga:backEndMetricName_propertyID_viewID`&quot;, donde &quot;backEndMetricName&quot; es el nombre de métrica que usa la API. El nombre para mostrar de cada nueva métrica de conversión es &quot;`friendlyMetricName_ga:MetricTag`&quot;, donde &quot;friendlyMetricName&quot; es el nombre de métrica que aparece en [!DNL Google Analytics] y &quot;MetricTag&quot; es el [!UICONTROL Metric Tag] definido en la configuración del origen de datos.
 
    Puede añadir las métricas directamente a la administración de campañas y a las vistas de administración de portafolios, a los informes y a los objetivos de optimización.
 

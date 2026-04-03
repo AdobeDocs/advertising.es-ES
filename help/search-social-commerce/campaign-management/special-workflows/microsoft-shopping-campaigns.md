@@ -3,9 +3,13 @@ title: Implementar  [!DNL Microsoft Advertising] campañas de compras
 description: Obtenga información acerca del flujo de trabajo para configurar  [!DNL Microsoft Advertising] campañas de compras.
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+TQID: https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 587
 ht-degree: 0%
 
 ---
@@ -50,7 +54,7 @@ Puede configurar campañas de compras usando [plantillas de fuentes de inventari
 
    También puede agregar la dirección URL de seguimiento a los datos del producto en la cuenta [!DNL Microsoft Merchant Center]. Para ello, incluya la dirección URL de seguimiento, junto con el valor en el campo &quot;vínculo&quot; o &quot;vínculo_móvil&quot;, según corresponda, en una columna personalizada &quot;[bingads_redirect](https://help.ads.microsoft.com/#apex/3/en/51084)&quot; dentro de la fuente del producto. El valor del campo &quot;bingads_redirect&quot; reemplaza los valores de los campos &quot;link&quot; y &quot;mobile_link&quot;. Las direcciones URL generadas con este método no incluyen ningún parámetro de seguimiento especificado en la configuración de la cuenta de Search, Social y Commerce o de la campaña.
 
-1. Supervisar el rendimiento de [&#x200B; al generar [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md).
+1. Supervisar el rendimiento de [ al generar [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md).
 
 1. Según sea necesario:
 

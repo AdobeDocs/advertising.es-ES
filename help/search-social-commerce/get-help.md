@@ -3,9 +3,13 @@ title: Obtener ayuda
 description: Obtenga información sobre cómo ver la ayuda en línea y los recursos de la comunidad, y cómo obtener asistencia técnica.
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: ed577c6f20d0e63555865d2d03bb82a5ada92b3f
+TQID: https://experienceleague.adobe.com/i-LfGOrhDTQ80m8uL2u-O9jFBHgxiasLkUz44j8jW9A
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: 231
 ht-degree: 0%
 
 ---
@@ -29,14 +33,14 @@ Puede abrir la ayuda en línea desde cualquier página de la interfaz de usuario
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=es).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 -->
 
 ## Contacto [!DNL Adobe]
 
 Para problemas de productos o cuentas, haga lo siguiente:
 
-* (Anunciantes con contratos de autoservicio) Abra una incidencia para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support).
+* (Anunciantes con contratos de autoservicio) Abra una incidencia para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
   Para el producto, seleccione &quot;[!UICONTROL Advertising - Search, Social, & Commerce]&quot;.
 

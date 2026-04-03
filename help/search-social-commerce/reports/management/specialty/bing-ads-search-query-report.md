@@ -3,9 +3,13 @@ title: '[!UICONTROL Bing Ads Search Query Report]'
 description: Más información acerca de [!UICONTROL Bing Ads Search Query Report].
 exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/6IrPQgL0W-kEgV1Up3WEBUtHu7o5un3FP-Up-35iln4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 174
 ht-degree: 0%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Los datos de este informe se recuperan todos los días el día anterior a las 23:00 (23:00 h). Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
+>Los datos de este informe se recuperan el día anterior a las 23:00 (11:00 p.m.) de cada día. Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
 
 ## Columnas predeterminadas
 

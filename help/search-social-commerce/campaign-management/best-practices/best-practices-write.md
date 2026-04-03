@@ -3,9 +3,13 @@ title: Escribir texto efectivo y copiar
 description: Conozca las prácticas recomendadas para escribir textos publicitarios eficaces.
 exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/GFofyYALATcgqvrjz-2SuI90ct0M-PzOoLtjmvL2Djo
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: 582
 ht-degree: 0%
 
 ---
@@ -14,7 +18,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Para obtener más prácticas recomendadas específicas para campañas en portafolios, consulte también la sección Guía de optimización > Administración de Portfolio > Prácticas recomendadas para Portfolio, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Para obtener más prácticas recomendadas específicas para campañas en portafolios, consulte también la sección Guía de optimización > Administración de portafolios > Prácticas recomendadas para portafolios, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Requisitos generales para todas las redes de publicidad
 
@@ -40,7 +44,7 @@ ht-degree: 0%
 
 * Se prohíbe el lenguaje inapropiado.
 
-## Recommendations para anuncios efectivos
+## Recomendaciones para anuncios eficaces
 
 * Escriba titulares poderosos para atraer clientes potenciales.
 
@@ -62,7 +66,7 @@ ht-degree: 0%
 
 * Si es posible, utilice la palabra clave tanto en el titular/título como en ambas líneas de la descripción/cuerpo. [1]
 
-* Incluya siempre una llamada a la acción en el texto, como &quot;Ver&quot;, &quot;Finalizar compra&quot;, &quot;Pedido&quot; o &quot;Registrarse&quot;, para aumentar la tasa de pulsaciones. En el caso de los anuncios con imágenes, incluya la llamada a la acción en un botón que se vincule al sitio web; en el caso de los anuncios con medios enriquecidos, incluya la llamada a la acción en un fotograma anterior.
+* Incluya siempre una call to action en el texto, como &quot;Ver&quot;, &quot;Finalizar compra&quot;, &quot;Pedido&quot; o &quot;Registrarse&quot;, para aumentar la tasa de pulsaciones. En el caso de los anuncios con imágenes, incluya el call to action en un botón que vincule al sitio web; en el caso de los anuncios con medios enriquecidos, incluya el call to action en un fotograma inicial.
 
 * Sea sensible a cómo el anunciante quiere que se perciba su marca. Por ejemplo, un anunciante puede no querer que la palabra &quot;barato&quot; aparezca en sus anuncios.
 

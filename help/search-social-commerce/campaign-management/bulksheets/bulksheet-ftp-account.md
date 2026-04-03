@@ -3,9 +3,12 @@ title: Configuración de una cuenta FTP para cargar hojas de edición masiva
 description: Obtenga información sobre cómo solicitar una cuenta FTP para cargar archivos de hojas de edición por lotes.
 exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/VBIFLPV-BiCWFrqmwuNGmsx5xgXU80RfnouM1p4VnrY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: 161
 ht-degree: 0%
 
 ---
@@ -20,11 +23,11 @@ Los archivos de hojas de edición masiva recuperados y los archivos de error cre
 >
 >Si también carga archivos de fuente de inventario a través de FTP, utilice un directorio FTP independiente para los archivos de hojas de edición por lotes.
 
-1. Póngase en contacto con el equipo de cuenta de Adobe para configurar una cuenta de FTP y cargar archivos de hojas de edición masiva.
+1. Póngase en contacto con el equipo de su cuenta de Adobe para configurar una cuenta de FTP y cargar archivos de hojas de edición masiva.
 
-   El equipo de cuenta de Adobe le proporcionará la ubicación de FTP, así como el nombre de usuario y la contraseña.
+   El equipo de su cuenta de Adobe le proporcionará la ubicación de FTP, así como el nombre de usuario y la contraseña.
 
-1. (Opcional) Para recibir notificaciones por correo electrónico sobre archivos de hojas de edición masiva procesados desde su cuenta de FTP, pregunte al equipo de cuenta de Adobe.
+1. (Opcional) Para recibir notificaciones por correo electrónico sobre archivos de hojas de edición masiva procesados desde su cuenta de FTP, pregunte a su equipo de cuenta de Adobe.
 
 >[!MORELIKETHIS]
 >

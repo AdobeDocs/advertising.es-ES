@@ -2,11 +2,15 @@
 title: Edición masiva de la configuración de portafolios mediante archivos de hojas de edición masiva
 description: Obtenga información sobre cómo editar la configuración de varios portafolios mediante un archivo de hoja de edición por lotes.
 feature: Search Portfolios, Search Optimization
-hide: true
+hide: yes
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 8b63f697278b5dc4ecbb720af44053fbc771273f
+TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: 388
 ht-degree: 0%
 
 ---

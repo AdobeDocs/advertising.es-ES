@@ -3,9 +3,13 @@ title: Acerca de la administración de campañas en Search, Social y Commerce
 description: Obtenga información acerca de las funciones de administración de campañas en Search, Social y Commerce.
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: 806
 ht-degree: 0%
 
 ---
@@ -24,7 +28,7 @@ En el caso de las cuentas sincronizadas mediante la API de la red de publicidad,
 
 ## Rastreo de clics para enlazar los clics con las conversiones
 
-Si utiliza el servicio de seguimiento de conversión de Adobe Advertising, debe incluir el código de seguimiento de clics de Search, Social y Commerce en el sufijo de la página de aterrizaje, en las plantillas de seguimiento y en las direcciones URL de destino final para anuncios, palabras clave y ubicaciones, vínculos de sitios y listas de productos. Para [redes de anuncios compatibles y tipos de campañas](/help/search-social-commerce/introduction/supported-inventory.md) cuya configuración de campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload]&quot;, Search, Social y Commerce anexa automáticamente su propio código de redirección y seguimiento al guardar el registro, por lo que no es necesario agregarlo manualmente. De lo contrario, debe agregar manualmente el código a las plantillas de seguimiento o a las direcciones URL finales.
+Si utiliza el servicio de seguimiento de conversión de Adobe Advertising, debe incluir el código de seguimiento de clics de Search, Social y Commerce en el sufijo de la página de aterrizaje, en las plantillas de seguimiento y en las URL de destino/final para anuncios, palabras clave y ubicaciones, vínculos de sitios y listas de productos. Para [redes de anuncios compatibles y tipos de campañas](/help/search-social-commerce/introduction/supported-inventory.md) cuya configuración de campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload]&quot;, Search, Social y Commerce anexa automáticamente su propio código de redirección y seguimiento al guardar el registro, por lo que no es necesario agregarlo manualmente. De lo contrario, debe agregar manualmente el código a las plantillas de seguimiento o a las direcciones URL finales.
 
 Para obtener más información sobre el seguimiento, consulte el capítulo sobre seguimiento.
 
@@ -32,7 +36,7 @@ Para obtener más información sobre el seguimiento, consulte el capítulo sobre
 
 Para [redes de anuncios compatibles y tipos de campañas](/help/search-social-commerce/introduction/supported-inventory.md), puede agrupar sus campañas en portafolios, cada uno con un objetivo comercial específico y un presupuesto o un objetivo de rendimiento específico. En portafolios estándar, Search, Social y Commerce optimizan las ofertas de palabras clave CPC y los presupuestos de campaña. Los portafolios híbridos combinan tecnologías de optimización de Search, Social y Commerce con las redes de anuncios.
 
-Para obtener más información sobre las opciones de portafolio disponibles y cómo configurarlas, consulte el capítulo Guía de optimización sobre &quot;Portfolio&quot;, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Para obtener más información acerca de las opciones de portafolios disponibles y cómo configurarlos, consulte el capítulo Guía de optimización sobre &quot;Portafolios&quot;, que está disponible en Search, Social y Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Las vistas de administración de campañas
 
@@ -46,7 +50,7 @@ Las vistas de administración de campañas le permiten supervisar y administrar 
 
 * **[!UICONTROL Products]** — Las vistas [!UICONTROL Products] muestran datos para cada [[!DNL Google] o [!DNL Microsoft] cuenta de centro comercial sincronizada](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). La subvista predeterminada [!UICONTROL Accounts] enumera todas las cuentas sincronizadas; algunos tipos de usuarios pueden agregar nuevas cuentas desde esta vista. La subvista [!UICONTROL Products] enumera cada producto dentro de la cuenta.
 
-* **[!UICONTROL Advanced (ACM)]**: desde la vista [!DNL Advanced] ([!DNL AMC], para Advanced Campaign Management), puede configurar procesos automatizados para crear [anuncios dinámicos y palabras clave dirigidos a cada elemento del inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) según una plantilla de anuncio específica de la red de anuncios que cree y el contenido de [!DNL Google Merchant Center] cuentas o archivos de datos de inventario que cargue en una ubicación FTP. Las subvistas muestran detalles sobre cada plantilla de fuente del anunciante y cada campaña, grupo de anuncios, palabra clave y anuncio incluido en una fuente que se propagó a través de una plantilla de fuente pero no se publicó en la red de anuncios.
+* **[!UICONTROL Advanced (ACM)]**: desde la vista [!DNL Advanced] ([!DNL AMC], para la administración avanzada de campañas), puede configurar procesos automatizados para crear [anuncios dinámicos y palabras clave dirigidos a cada elemento del inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) según una plantilla de anuncio específica de la red de anuncios que cree y el contenido de [!DNL Google Merchant Center] cuentas o archivos de datos de inventario que cargue en una ubicación FTP. Las subvistas muestran detalles sobre cada plantilla de fuente del anunciante y cada campaña, grupo de anuncios, palabra clave y anuncio incluido en una fuente que se propagó a través de una plantilla de fuente pero no se publicó en la red de anuncios.
 
 * **[!UICONTROL Bulksheets]**: use la vista [!UICONTROL Bulksheets] para crear [archivos de hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) que contengan tantos datos como desee para una cuenta en una red de publicidad admitida [y, a continuación, publíquelos en la red de publicidad.](/help/search-social-commerce/introduction/supported-inventory.md)
 

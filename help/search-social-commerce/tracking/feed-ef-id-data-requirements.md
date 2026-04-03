@@ -3,9 +3,13 @@ title: Requisitos de datos para fuentes de datos que utilizan EF ID
 description: Haga referencia a los requisitos de datos para fuentes de datos mediante EF ID.
 exl-id: 507ed42c-349f-4311-af61-8f7a27794162
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/p66X8xVlx-JwKjGgXxonJRRu78Q8F4109VkaIVtUbwU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: 256
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ A continuación se muestran los campos de encabezado y los campos de datos corre
 
 >[!NOTE]
 >* Los encabezados pueden estar en cualquier orden siempre que los datos de las filas siguientes sigan el mismo orden. Si no incluye un encabezado, el orden de las filas de datos debe ser coherente con cada archivo de fuente.
->* Cada línea del archivo de fuente debe contener datos para una transacción y la transacción debe identificarse con un ef_id (token) generado por el Adobe Advertising.
+>* Cada línea del archivo de fuente debe contener datos para una transacción y la transacción debe identificarse con un ef_id (token) generado por Adobe Advertising.
 
 | Nombre de campo/columna de encabezado | Tipo | Descripción |
 | ---- | ---- | ---- |

@@ -1,23 +1,28 @@
 ---
-title: Crear una experiencia con la orientación del árbol de decisiones
-description: Aprende a crear una experiencia publicitaria orientada mediante un árbol de decisiones.
+title: Crear una experiencia con segmentación del árbol de decisiones
+description: Obtenga información sobre cómo crear una experiencia de publicidad segmentada mediante un árbol de decisiones.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+TQID: https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: 625
 ht-degree: 0%
 
 ---
 
 # Crear una experiencia con segmentación del árbol de decisiones
 
-Crea una experiencia publicitaria orientada mediante un árbol de decisiones. Cada experiencia utiliza anuncios de una única biblioteca creativa.
+Cree una experiencia de anuncio segmentada mediante un árbol de decisiones. Cada experiencia utiliza anuncios de una sola biblioteca creativa.
 
 >[!NOTE]
 >
->* Una vez que haya creado una experiencia específica, no podrá cambiarla posteriormente a una experiencia no específica, que utiliza un flujo de trabajo diferente.
->* Asegúrate de que tus experiencias publicitarias incluyan una orientación que sea compatible con las campañas en las que vas a implementarla. El comportamiento de la orientación jerárquica puede variar en función del DSP. Cuando cargas una etiqueta de experiencia publicitaria en Advertising DSP y la adjuntas a una ubicación, la orientación a nivel de anuncio se aplica sobre la orientación a nivel de ubicación (no en lugar de hacerlo). Por ejemplo, si una ubicación está dirigida a usuarios de Australia y un anuncio está dirigido a usuarios de Japón, el anuncio estará dirigido a la rama &quot;Todos los demás&quot;.
+>* Una vez creada una experiencia de destino, no se puede cambiar posteriormente a una experiencia de destino, que utiliza un flujo de trabajo diferente.
+>* Asegúrese de que las experiencias publicitarias incluyan una segmentación compatible con las campañas en las que la va a implementar. El comportamiento de direccionamiento jerárquico puede variar según DSP. Al cargar una etiqueta de experiencia de anuncio en Advertising DSP y adjuntarla a una ubicación, el objetivo de nivel de anuncio se aplica sobre el objetivo de nivel de ubicación (no en lugar de). Por ejemplo, si una ubicación se dirige a usuarios de Australia y un anuncio a usuarios de Japón, el anuncio se dirigirá a la rama &quot;Todos los demás&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
 
@@ -43,25 +48,25 @@ Crea una experiencia publicitaria orientada mediante un árbol de decisiones. Ca
 
          * [Agregar un nodo de destino al nivel final](experience-target-node-add-final.md).
 
-         * [Inserte un nodo de destino entre nodos](experience-target-node-add-inner.md).
+         * [Insertar un nodo de destino entre nodos](experience-target-node-add-inner.md).
 
-         * [Agregar un nodo de destino relacionado entre nodos](experience-target-node-add-sibling.md).
+         * [Agregar un nodo de destino secundario entre nodos](experience-target-node-add-sibling.md).
 
-         * [Copie nodos secundarios y creativos en otro nodo del mismo nivel](experience-target-node-copy.md).
+         * [Copie nodos secundarios y creativos a otro nodo en el mismo nivel](experience-target-node-copy.md).
 
       * Paquetes de Creative:
 
          * [Asignar y cancelar la asignación de elementos creativos a un nodo final](experience-assign-creative-bundles.md).
 
-           Si no asigna al menos un paquete a cada nodo final, puede optar por utilizar los recursos creativos predeterminados para cada nodo no asignado cuando guarde la experiencia. Para publicar una experiencia, debe asignar paquetes o utilizar las creatividades predeterminadas para cada nodo final.
+           Si no asigna al menos un paquete a cada nodo final, puede optar por utilizar los elementos creativos predeterminados para cada nodo no asignado al guardar la experiencia. Para publicar una experiencia, debe asignar paquetes o utilizar los elementos creativos predeterminados para cada nodo final.
 
-         * [Personaliza la optimización y la programación creativas](experience-optimization-scheduling-targeting.md) de los paquetes asignados.
+         * [Personalizar la optimización y programación creativas](experience-optimization-scheduling-targeting.md) para los paquetes asignados.
 
-         * [Personaliza las direcciones URL de seguimiento para los creativos de los paquetes asignados](experience-tracking-urls-targeting.md).
+         * [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
 
-1. (Opcional) Alterne entre el árbol de decisiones y la configuración general:
+1. (Opcional) Cambie entre el árbol de decisión y la configuración general:
 
-   * Para abrir la configuración general del árbol de decisiones, haga clic en **[!UICONTROL Experience Form]** en la parte superior derecha.
+   * Para abrir la configuración general desde el árbol de decisión, haga clic en **[!UICONTROL Experience Form]** en la esquina superior derecha.
 
    * Para abrir el árbol de decisión desde la configuración general, haga clic en **[!UICONTROL Decision Tree]** en la esquina superior derecha.
 
@@ -81,11 +86,11 @@ Crea una experiencia publicitaria orientada mediante un árbol de decisiones. Ca
 
 Cuando la experiencia está activa, [!DNL Creative] crea automáticamente una etiqueta de anuncio para cada tamaño creativo o duración de vídeo aplicable. A continuación, puede [exportar una etiqueta de anuncio e implementarla en un DSP](/help/creative/experiences/experience-tag-export.md).
 
-Para las experiencias de anuncios de vídeo, Adobe Advertising DSP transcodifica automáticamente los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. Si lo deseas, puedes [aplicar la transcodificación de un DSP diferente](experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia y vídeo.
+Para las experiencias de anuncios de vídeo, Adobe Advertising DSP transcodifica automáticamente los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. Opcionalmente, puede [aplicar la transcodificación para un DSP diferente](experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
 
 >[!MORELIKETHIS]
 >
->* [Configuración de la experiencia de destino](experience-settings-targeting.md)
+>* [Configuración de experiencia de destino](experience-settings-targeting.md)
 >* [Agregar un nodo de destino al nivel final](experience-target-node-add-final.md)
 >* [Insertar un nodo de destino entre nodos](experience-target-node-add-inner.md)
 >* [Agregar un nodo de destino secundario entre nodos](experience-target-node-add-sibling.md)

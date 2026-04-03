@@ -3,9 +3,12 @@ title: '[!DNL Microsoft Advertising] configuración de anuncios multimedia'
 description: Hacer referencia a la configuración de  [!DNL Microsoft Advertising] anuncios multimedia.
 exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/BmzclS43QHM1mtVus2pIdJqEh0B-tUQVKyUFdzH4iEw
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 203
 ht-degree: 0%
 
 ---
@@ -16,7 +19,7 @@ Los anuncios multimedia están disponibles en la red de búsqueda. La red de anu
 
 ## Detalles de anuncio interactivo
 
-**[!UICONTROL Images]:** Hasta 15 imágenes de JPEG, JPG o PNG para el anuncio, incluidos los siguientes tamaños:
+**[!UICONTROL Images]:** hasta 15 imágenes de JPEG, JPG o PNG para el anuncio, incluidos los siguientes tamaños:
 
 * Al menos una imagen con una relación de aspecto de 1,91:1.
 
@@ -36,9 +39,9 @@ Ver las proporciones y dimensiones permitidas para [anuncios multimedia](https:/
 
 **[!UICONTROL Ad Text]:** Al menos dos y hasta cuatro descripciones con al menos una palabra y un máximo de 90 caracteres cada una.
 
-**[!UICONTROL Call to Action]:** Llamada a la acción para incluir en el anuncio. De forma predeterminada, la opción Automatizada está seleccionada y la red publicitaria selecciona la llamada a la acción. Si lo desea, puede elegir una acción diferente.
+**[!UICONTROL Call to Action]:** El call to action que se va a incluir en el anuncio. De forma predeterminada, la opción Automatizada está seleccionada y la red publicitaria selecciona call to action. Si lo desea, puede elegir una acción diferente.
 
-**[!UICONTROL Call to Action Language]:** Idioma para las opciones de llamada a la acción.
+**[!UICONTROL Call to Action Language]:** Idioma para las opciones de call to action.
 
 ## [!UICONTROL Tracking URLs]
 

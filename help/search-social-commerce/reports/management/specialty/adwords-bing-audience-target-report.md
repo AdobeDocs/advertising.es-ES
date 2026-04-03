@@ -3,9 +3,13 @@ title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Más información acerca de [!UICONTROL AdWords and Bing Audience Target Report].
 exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/Q3ZAzWkY0nW6ZTpRMzWORvfSV5KJfEB8mcn74bOuxTA
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 205
 ht-degree: 0%
 
 ---
@@ -21,7 +25,7 @@ Se pueden ver los datos de hasta el año anterior.
 >[!NOTE]
 >
 >* [!DNL Google Ads] no proporciona los medios para rastrear los datos de ingresos de las audiencias del mercado.
->* Los datos de este informe se recuperan todos los días el día anterior a las 23:00 (23:00 h). Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
+>* Los datos de este informe se recuperan el día anterior a las 23:00 (11:00 p.m.) de cada día. Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
 
 ## Columnas predeterminadas
 

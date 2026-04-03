@@ -3,9 +3,15 @@ title: Acerca de las fuentes de audiencia de origen
 description: Obtenga información acerca de la conversión de otros identificadores de usuario en segmentos de origen a ID universales para la segmentación sin cookies.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
+TQID: https://experienceleague.adobe.com/8wdjwhNF-KDspEa1wSYWwlDOJxc3LiyqnSwEE-Fq9bY
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: 560
 ht-degree: 0%
 
 ---
@@ -77,7 +83,7 @@ DSP también puede conectarse a cualquier CDP adicional mediante el uso comparti
 
 DSP es un *destino* integrado para [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), que forma parte de Adobe Experience Platform.
 
-En [!DNL Real-Time CDP], los destinos son conexiones a plataformas de datos externas que permiten la activación de datos sin problemas. Puede utilizar destinos para activar sus direcciones de correo electrónico con hash, cookies e ID de publicidad móvil para la publicidad de destino en DSP. Para obtener más información sobre los destinos, consulte la [Guía de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es) de Experience Platform, que incluye una descripción general del producto, instrucciones para [crear espacios de trabajo de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=es) y [crear conexiones de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=es), y [activar datos en destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=es).
+En [!DNL Real-Time CDP], los destinos son conexiones a plataformas de datos externas que permiten la activación de datos sin problemas. Puede utilizar destinos para activar sus direcciones de correo electrónico con hash, cookies e ID de publicidad móvil para la publicidad de destino en DSP. Para obtener más información sobre los destinos, consulte la [Guía de destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) de Experience Platform, que incluye una descripción general del producto, instrucciones para [crear espacios de trabajo de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) y [crear conexiones de destino](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html), y [activar datos en destinos](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 Para permitir que DSP ingrese sus [!DNL Adobe] [!DNL Real-time CDP] segmentos de origen y convierta sus direcciones de correo electrónico con hash, cookies e ID de publicidad móvil en ID universales, consulte &quot;[Convertir los ID de usuario de [!DNL Adobe Real-Time CDP] a ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)&quot;.
 

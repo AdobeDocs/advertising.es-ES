@@ -3,9 +3,15 @@ title: Configuración del anuncio previo a la emisión
 description: Consulte las descripciones de la configuración de anuncios disponibles para los anuncios previos a la emisión.
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+TQID: https://experienceleague.adobe.com/vmZ3LDA5Hz0SgYf-tmWgVTdQyM4sikrJGSsSwOQaV-E
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -38,7 +44,7 @@ ht-degree: 0%
 
 **[!UICONTROL Width]| [!UICONTROL Ad Unit Width]:** (solo anuncios previos a la emisión estándar y omitibles) Ancho de toda la unidad de publicidad. Esta opción puede bloquearse según el tipo de unidad de publicidad seleccionada.
 
-**[!UICONTROL Height]| [!UICONTROL Ad Unit Height]:** (solo anuncios previos a la emisión estándar y omitibles) La altura de toda la unidad de publicidad. Esta opción puede bloquearse según el tipo de unidad de publicidad seleccionada.
+**[!UICONTROL Height]| [!UICONTROL Ad Unit Height]:** (solo anuncios previos a la emisión estándar y omitibles) Altura de toda la unidad de publicidad. Esta opción puede bloquearse según el tipo de unidad de publicidad seleccionada.
 
 **[!UICONTROL Player X]:** Coordenada X de la unidad de anuncio. Mantenga la configuración predeterminada.
 

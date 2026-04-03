@@ -3,16 +3,20 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: Más información acerca de [!UICONTROL Keyword Assist Report].
 exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: 781
 ht-degree: 0%
 
 ---
 
 # El [!UICONTROL Keyword Assist Report]
 
-*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con una integración de [!DNL Analytics]) o proporcionados en fuentes usando solo un token (`ef_id`)*
+*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones de Adobe Advertising, Adobe Analytics (con una integración de [!DNL Analytics]) o proporcionados en fuentes usando solo un token (`ef_id`)*
 
 [!UICONTROL Keyword Assist Report] indica qué palabras clave o ubicaciones generan clics. El informe muestra cada patrón de palabras clave de búsqueda pagada o ubicaciones que recibieron clics en una ruta de conversión e indica cómo ese patrón contribuyó a las conversiones generales. Por ejemplo, puede ver cuántas conversiones se produjeron cuando los usuarios hicieron clic en un anuncio por primera vez como resultado de una búsqueda de palabra clave de &quot;zapatos de cuero&quot;, luego hicieron clic en un anuncio después de una búsqueda de palabra clave de &quot;zapatos de ante&quot; y luego hicieron un pedido, o puede ver cuántas conversiones se produjeron después de que los usuarios hicieron clic en anuncios que resultaron de más de 10 palabras clave.
 

@@ -3,9 +3,13 @@ title: Se requieren datos de hojas de edición masiva para  [!DNL Microsoft Adve
 description: Haga referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para  [!DNL Microsoft Advertising] cuentas.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '6934'
+source-wordcount: 6934
 ht-degree: 0%
 
 ---
@@ -63,7 +67,7 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 | [!UICONTROL Promotion Line] | (Solo anuncios de listado de productos) Una línea de promoción única que se incluirá con el listado de productos en los resultados de búsqueda (como &quot;Envío gratuito ahora&quot;). La longitud máxima es de 45 caracteres.<br><br>La línea de promoción puede aparecer en diferentes ubicaciones relacionadas con el anuncio (por ejemplo, debajo del anuncio), dependiendo de dónde aparezca el anuncio en la página. |
 | [!UICONTROL Display URL] | Dirección URL que se incluye en el anuncio.<br><br>Para los anuncios dinámicos de búsqueda expandidos, la red de anuncios genera este valor dinámicamente desde el dominio del sitio web y no es necesario que escriba ningún valor.<br><br>Para anuncios de texto expandidos y anuncios de búsqueda adaptables, no es necesario que escriba un valor. La dirección URL mostrada se extrae automáticamente del dominio en la dirección URL final. Opcionalmente, puede personalizar la dirección URL mediante los campos Ruta 1 y Ruta 2.<br><br><b>Notas:</b><ul><li>(Cuentas con direcciones URL finales) Los nombres de dominio de la dirección URL mostrada y de la dirección URL final deben coincidir.</li><li>[!DNL Microsoft Advertising] dejó de utilizar los anuncios de texto expandidos en agosto de 2022 y ahora solo puede informar sobre ellos y eliminarlos.</li></ul> |
 | [!UICONTROL Display Path 1] | (Solo anuncios de texto expandidos, anuncios dinámicos de búsqueda y anuncios de búsqueda interactivos) Texto que se agrega a la dirección URL de visualización que se extrae automáticamente de la dirección URL final. Cada ruta va precedida en la dirección URL por una barra diagonal (/). Una ruta de acceso no puede contener caracteres de barra diagonal (/) o de línea nueva (\n). La longitud máxima de cada ruta es de 15 caracteres o 7 caracteres de doble byte.<br><br>Para insertar un personalizador de anuncios, use los siguientes formatos, donde &quot;Texto predeterminado&quot; es un valor opcional que se debe insertar cuando el archivo de fuente no incluye un valor válido: `{CUSTOMIZER.Attribute name:Default text}`, como `{CUSTOMIZER.Discount:10%}`<br><br>Por ejemplo, si [!UICONTROL Display Path 1] es &quot;ofertas&quot;, la dirección URL para mostrar sería &lt;URL para mostrar>/ofertas, como www.example.com/deals.<br><br>[!DNL Microsoft Advertising] dejó de utilizar los anuncios de texto expandidos en agosto de 2022 y ahora solo puede informar sobre ellos y eliminarlos. |
-| [!UICONTROL Display Path 1] | (Solo anuncios de texto expandidos, anuncios dinámicos de búsqueda y anuncios de búsqueda adaptables) Una ruta de visualización adicional; vea la entrada de [!UICONTROL Display Path 1].<br><br>Ejemplo: si [!UICONTROL Display Path 1] es &quot;acuerdos&quot; y [!UICONTROL Display Path 2] es &quot;local&quot;, la URL para mostrar sería &lt;<i>URL para mostrar</i>>/acuerdos/local, como www.example.com/deals/local. |
+| [!UICONTROL Display Path 1] | (Solo anuncios de texto expandidos, anuncios dinámicos de búsqueda y anuncios de búsqueda adaptables) Una ruta de visualización adicional; vea la entrada de [!UICONTROL Display Path 1].<br><br>Ejemplo: si [!UICONTROL Display Path 1] es &quot;ofertas&quot; y [!UICONTROL Display Path 2] es &quot;local&quot;, la URL para mostrar sería <i>URL para mostrar</i>>/ofertas/local, como www.example.com/deals/local. |
 | [!UICONTROL Start Date] | (Solo vínculos de sitio mejorados) La primera fecha en la que se pueden realizar ofertas para el vínculo de sitio, en el huso horario del anunciante y en uno de los siguientes formatos: dd/mm/aaaa, dd/mm/aa, dd/mm/aaaa o dd/mm-aa. El valor predeterminado para los nuevos vínculos de sitio mejorados es el día actual. <b>Nota:</b> Los nuevos vínculos de sitio mejorados solo se pueden crear en campañas con vínculos de sitio mejorados existentes o sin vínculos de sitio. |
 | [!UICONTROL End Date] | La última fecha en la que el vínculo al sitio puede aparecer con anuncios, en el huso horario del anunciante y en uno de los siguientes formatos: dd/mm/aaaa, dd/mm/aa, dd/mm/aaaa o dd/mm/aa. Para un nuevo vínculo de sitio, el valor predeterminado es `[blank]` (es decir, sin fecha de finalización). |
 | [!UICONTROL Call To Action] | Call to action que se va a incluir en el anuncio. Consulte la referencia de la API [para obtener una lista de valores posibles](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), pero especifique llamadas de varias palabras como palabras múltiples (como &quot;Apostar ahora&quot; en lugar de &quot;Apostar ahora&quot;) en hojas de edición masiva. |
@@ -227,12 +231,12 @@ Para obtener una descripción de cada campo de datos, consulte &quot;[Todos los 
 | \[Clasificación de etiquetas específica del anunciante\] | Opcional |
 | [!UICONTROL Campaign ID] | Opcional |
 | [!UICONTROL Ad Group ID] | Opcional |
-| [!UICONTROL Ad ID] | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a&rpar; suficientes columnas de propiedad del anuncio para identificar el anuncio o b&rpar; un &quot;[!UICONTROL AMO ID]&quot;. Sin embargo, si no incluye ni [!UICONTROL Ad ID] ni [!UICONTROL AMO ID], y las columnas de propiedad de anuncio coinciden con varios anuncios, entonces solo cambiará el estado de uno de ellos. |
+| [!UICONTROL Ad ID] | Solo es necesario cuando cambia el estado del anuncio, a menos que la fila incluya a&amp;rpar; suficientes columnas de propiedad del anuncio para identificar el anuncio o b&amp;rpar; un &quot;[!UICONTROL AMO ID]&quot;. Sin embargo, si no incluye ni [!UICONTROL Ad ID] ni [!UICONTROL AMO ID], y las columnas de propiedad de anuncio coinciden con varios anuncios, entonces solo cambiará el estado de uno de ellos. |
 | [!UICONTROL AMO ID] | Es necesario para editar o eliminar los datos a menos que se incluya el ID de entidad y el ID de entidad principal.<br><br>Search, Social y Commerce usan el valor para determinar la identidad correcta que se debe editar, pero no publican el ID en la red de anuncios. |
 
 ### Campos de publicidad de productos (compras)
 
-Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=es)&quot;.
+Para obtener más información sobre cómo crear anuncios de compras, consulte &quot;[Implementar [!DNL Microsoft Advertising] campañas de compras](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html)&quot;.
 
 Para este tipo de anuncio, utilice la fila &quot;[!UICONTROL Creative (except RSA)]&quot; en el cuadro de diálogo [!UICONTROL Download Bulksheet].
 

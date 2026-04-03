@@ -3,9 +3,13 @@ title: '[!DNL Microsoft Advertising] datos de conversión'
 description: Obtenga información acerca de los tipos de datos de conversión rastreados de  [!DNL Microsoft Advertising] disponibles en Search, Social y Commerce.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/ZK-uDqw0sThnMzX6bdR-d33gh-AlLTaytJr1fS7pdgs
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: 629
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ Todas las métricas están disponibles automáticamente en las vistas de adminis
 
 Search, Social y Commerce sincronizan los datos de las conversiones para las que la opción &quot;[!DNL Include in 'Conversions']&quot; está habilitada, extraen los datos de los últimos 35 días y extraen los cambios a los datos diariamente a las 09:00-10:00 en el huso horario del anunciante. Los datos históricos pueden cambiar día a día a medida que se realiza el seguimiento de las nuevas conversiones para cada clic.
 
-Hay dos métricas disponibles automáticamente para cada conversión [&#128279;](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) rastreada por [!DNL Microsoft Advertising] (que configuró en [!DNL Microsoft Advertising]) en Buscar, Social y Commerce, usando los nombres de conversión configurados en [!DNL Microsoft Advertising]. Las métricas de cada conversión incluyen:
+Hay dos métricas disponibles automáticamente para cada conversión [[!DNL Microsoft Advertising] rastreada por ](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (que configuró en [!DNL Microsoft Advertising]) en Buscar, Social y Commerce, usando los nombres de conversión configurados en [!DNL Microsoft Advertising]. Las métricas de cada conversión incluyen:
 
 * `<conversion-name>`: el valor de conversión de la palabra clave (como Compra).
 

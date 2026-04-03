@@ -3,9 +3,13 @@ title: '[!UICONTROL Keyword Daily Impression Share Report]'
 description: Más información acerca de [!UICONTROL Keyword Daily Impression Share Report].
 exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/KS0R-I1Dr92T0AwQcWianuX7EtGQY65vIGinY3Lbm-k
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 137
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 [!UICONTROL Keyword Daily Impression Share Report] incluye métricas de cuota de impresiones diarias para cada palabra clave, el tipo de coincidencia correspondiente y el tipo de dispositivo correspondiente para uno o varios grupos de anuncios o campañas. De forma predeterminada, los datos incluyen una fila por cada palabra clave, tipo de coincidencia y dispositivo que recibió al menos una impresión o clic para cada grupo de anuncios aplicable y para cada día del intervalo de fechas especificado. De forma predeterminada, las filas están en orden ascendente según la fecha. El informe puede incluir opcionalmente datos rastreados por [!DNL Adobe] y métricas derivadas.
 
-Las métricas de uso compartido de impresiones están disponibles a las 13:00 en la zona horaria del anunciante del día anterior. Puede ver los datos de los dos meses anteriores.
+Las métricas de uso compartido de impresiones están disponibles a las 13:00 en el huso horario del anunciante del día anterior. Puede ver los datos de los dos meses anteriores.
 
 ## Columnas predeterminadas
 

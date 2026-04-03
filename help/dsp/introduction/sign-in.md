@@ -3,9 +3,14 @@ title: Iniciar sesión en DSP
 description: Obtenga información sobre cómo iniciar sesión en DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 41be6988fdc3f824f5f838c109c608e2b3f3afee
+TQID: https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: 502
 ht-degree: 0%
 
 ---
@@ -42,15 +47,15 @@ Sus credenciales de DSP actuales permanecerán activas durante un corto tiempo p
 
 1. Elija su organización:
 
-   * Si se le solicita, seleccione **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.
+   * Si se le solicita, seleccione **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.
 
    * Si tiene acceso a varias organizaciones de IMS, seleccione la correcta.
 
-Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud)&quot;.
+Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ### Resolución de problemas
 
-Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe](https://helpx.adobe.com/es/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
+Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### ¿Hay algún requisito previo para habilitar un nuevo inicio de sesión de IMS de [!DNL Adobe]?
 

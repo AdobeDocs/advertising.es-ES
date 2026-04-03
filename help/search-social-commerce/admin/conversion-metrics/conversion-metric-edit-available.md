@@ -3,9 +3,12 @@ title: Cambiar las métricas de conversión disponibles en las vistas de adminis
 description: Obtenga información sobre cómo hacer que las métricas de conversión estén disponibles en sus vistas de administración e informes.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: 506
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ De la lista de métricas de conversión disponibles, cada usuario con acceso a l
 
    * Para buscar un nombre de métrica o un nombre para mostrar específico, haga clic en ![Buscar](/help/search-social-commerce/assets/search.png "Buscar"), escriba la palabra o cadena en el campo de entrada y presione la tecla **[!DNL Enter]**.
 
-     Puede buscar cadenas que aparezcan en cualquier lugar dentro de la frase (como la primera letra o las últimas tres letras) y los términos de búsqueda no distinguen entre mayúsculas y minúsculas [1&rbrace;.](/help/search-social-commerce/glossary.md#c-d)
+     Puede buscar cadenas que aparezcan en cualquier lugar dentro de la frase (como la primera letra o las últimas tres letras) y los términos de búsqueda no distinguen entre mayúsculas y minúsculas [1}.](/help/search-social-commerce/glossary.md#c-d)
 
    * Para buscar métricas de conversión por su disponibilidad en vistas de administración e informes, haga clic en ![Filtro](/help/search-social-commerce/assets/filter.png "Filtro") y seleccione el filtro **[!UICONTROL Show in UI and Reports]**. A continuación, seleccione **[!UICONTROL Show]** (para ver las métricas de conversión disponibles para incluir en los informes y las vistas de administración) o **[!UICONTROL Hide]** (para ver las métricas de conversión que no están disponibles en los informes y las vistas de administración).
 

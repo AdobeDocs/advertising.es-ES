@@ -3,9 +3,13 @@ title: '[!UICONTROL Campaign Daily Impression Share Report]'
 description: Más información acerca de [!UICONTROL Campaign Daily Impression Share Report].
 exl-id: 0c77277f-e4a8-4c4b-83e8-0ad83402d81f
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/ilvFY3lW9AmLNTi9rlstH-4E5M2ZSv9-MBxDqG0Afag
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: 117
 ht-degree: 0%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 0%
 
 [!UICONTROL Campaign Daily Impression Share Report] incluye métricas de cuota de impresiones diarias por tipo de dispositivo para una o más campañas. De forma predeterminada, los datos incluyen una fila para cada campaña que recibió al menos una impresión o clic para cada día en el intervalo de fechas especificado, y las filas están en orden ascendente por fecha. El informe puede incluir opcionalmente datos rastreados por [!DNL Adobe] y métricas derivadas.
 
-Las métricas de uso compartido de impresiones están disponibles a las 13:00 en la zona horaria del anunciante del día anterior. Puede ver los datos de los dos meses anteriores.
+Las métricas de uso compartido de impresiones están disponibles a las 13:00 en el huso horario del anunciante del día anterior. Puede ver los datos de los dos meses anteriores.
 
 ## Columnas predeterminadas
 
