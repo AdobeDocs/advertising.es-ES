@@ -3,9 +3,14 @@ title: '[!DNL Google Ads] configuración de anuncios de solo llamada'
 description: Hacer referencia a la configuración de  [!DNL Google Ads] anuncios de solo llamada.
 exl-id: 10672771-53fd-4ce9-9d67-6b1f8f5a41b8
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/KtnceFJbgZ-jPcNzl1c6XychNzr4tOIs5B9mMbXegxo
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: 333
 ht-degree: 0%
 
 ---

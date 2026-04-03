@@ -3,9 +3,16 @@ title: Datos de hoja de edición masiva para  [!DNL Yahoo! Japan] cuentas
 description: Haga referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para  [!DNL Yahoo! Japan] cuentas.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '2672'
+source-wordcount: 2672
 ht-degree: 0%
 
 ---
@@ -28,7 +35,7 @@ Puede descargar datos de cuentas de [!DNL Yahoo! Japan] de forma masiva, pero no
 | [!UICONTROL Campaign Budget] | Requerido: crear<br><br>Opcional: editar o eliminar | n/a | n/a | n/a | n/a | Un límite diario de gasto para la campaña, con o sin símbolos monetarios y puntuación. Este valor anula pero no puede superar el presupuesto de la cuenta. |
 | [!UICONTROL Delivery Method] | Requerido: crear<br><br>Opcional: editar o eliminar | n/a | n/a | n/a | n/a | La rapidez con la que se muestran los anuncios de la campaña cada día:<ul><li>*[!UICONTROL Standard (Distributed)]* (predeterminado para nuevas campañas): para difundir las impresiones de publicidad a lo largo del día.</li><li>*[!UICONTROL Accelerated]:* Para mostrar tus anuncios con la mayor frecuencia posible hasta que se alcance tu presupuesto. Como resultado, es posible que los anuncios no aparezcan más tarde ese día.</li></ul> |
 | [!UICONTROL Mobile Bid Adjustment] | Opcional | Opcional | n/a | n/a | n/a | Ya sea para pujar por anuncios en dispositivos móviles, en el nivel de campaña o de grupo de anuncios:<ul><li>Para utilizar el ajuste de oferta móvil existente, deje esto en blanco.</li><li>Para no pujar por anuncios en dispositivos móviles, escribe `-100`.</li><li>Para pujar por anuncios en dispositivos móviles usando la misma oferta que los anuncios en equipos de escritorio y tabletas (diferencia del 0%), escribe `0`. Para nuevas campañas, también puede dejar esto en blanco.</li><li>Para pujar por anuncios en dispositivos móviles que usen una oferta diferente, introduce el porcentaje en el que se aumentarán o reducirán las pujas. El valor puede ser de `-90` a `300`.</li></ul>Si excluye un dispositivo en el nivel de campaña, no puede anular la exclusión en el nivel de grupo de anuncios.<br><br><b>Notas:</b><ul><li>Los grupos de publicidad heredan la configuración del nivel de campaña, pero puede anularla.</li><li>Si asigna la campaña a un portafolio optimizado, la capacidad de optimización determina automáticamente la oferta de nivel de palabra clave base para ayudar al portafolio a cumplir su objetivo. A continuación, la red de anuncios ajusta la oferta según se especifica para los anuncios móviles.</li><li>Si asigna la campaña o el grupo de anuncios a un portafolios optimizado:<ul><li>La capacidad de optimización determina automáticamente la oferta base a nivel de palabra clave para ayudar al portafolio a cumplir su objetivo. A continuación, la red de búsqueda ajusta la oferta según se especifica para los anuncios para móviles.</li><li>Si el portafolio está configurado en &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;, la capacidad de optimización cambia los ajustes de oferta en el nivel de grupo de anuncios, siempre que el valor ideal que calcule se encuentre dentro de los valores mínimo y máximo especificados en la configuración del portafolio y el grupo de anuncios no excluya las ofertas para anuncios móviles.</li></ul></li></ul> |
-| [!UICONTROL Location] | n/a | n/a | n/a | n/a | Opcional | Una ubicación geográfica en la que colocar los anuncios para la campaña. Para las ciudades, use el formato &quot;&lt;<i>Ciudad</i>>, &lt;</i>Prefectura</i>>&quot; (como Adachi, Tokio). Para excluir una ubicación, agregue un prefijo a la ubicación con un signo menos (`-`). Si no introduce valores específicos para la campaña, se segmentan todas las ubicaciones. |
+| [!UICONTROL Location] | n/a | n/a | n/a | n/a | Opcional | Una ubicación geográfica en la que colocar los anuncios para la campaña. Para las ciudades, use el formato &quot;<i>Ciudad</i>>, &lt;</i>Prefectura</i>>&quot; (como Adachi, Tokio). Para excluir una ubicación, agregue un prefijo a la ubicación con un signo menos (`-`). Si no introduce valores específicos para la campaña, se segmentan todas las ubicaciones. |
 | [!UICONTROL Location Type] | n/a | n/a | n/a | n/a | Obligatorio/Opcional | (Necesario cuando se dirigen ubicaciones específicas) Indica si las ubicaciones especificadas son del tipo [!UICONTROL Prefecture] o [!UICONTROL City]. |
 | [!UICONTROL Ad Group Name] | n/a | Requerido | Requerido | Requerido | n/a | Un nombre de grupo de publicidad único dentro de la campaña. La longitud máxima es de 50 caracteres. |
 | [!UICONTROL Max CPC] | n/a | Opcional | Opcional | n/a | n/a | Coste máximo por clic (CPC), que es la cantidad más alta que se paga por un clic de anuncio en la red de búsqueda, con o sin símbolos monetarios y puntuación. Puede establecer valores para grupos de anuncios y palabras clave. El valor predeterminado de una palabra clave nueva se hereda del nivel de grupo de anuncios. |

@@ -3,9 +3,14 @@ title: Filtros del producto de campaña de compras
 description: Consulte los filtros de producto disponibles para grupos de productos de compras.
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+TQID: https://experienceleague.adobe.com/OgEEd-i6RcM98DpR7h6KFXnO8zfZiEgpJZAof8Bqgws
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: 174
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 Consulte también la ayuda de [!DNL Google Ads] &quot;[Administrar una campaña de compras con grupos de productos](https://support.google.com/google-ads/answer/6275317)&quot; y la ayuda de [!DNL Microsoft Advertising] &quot;[Comprender y usar grupos de productos](https://help.ads.microsoft.com/#apex/bae/en/56782)&quot;.
 
-| Red de compras | Dimension de productos | Atributos | Notas |
+| Red de compras | Product Dimension | Atributos | Notas |
 |----|----|----|----|
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!DNL Google Ads]: [!UICONTROL Category=]<br><br>Microsoft: [!UICONTROL Category 1=] a [!UICONTROL Category 5=] | \[Id. de categoría\] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Brand=] | \[La marca\] | — |

@@ -3,9 +3,24 @@ title: Variaciones de datos previstas entre  [!DNL Analytics]  y Adobe Advertisi
 description: Variaciones de datos previstas entre  [!DNL Analytics]  y Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/rTwYQgWuhRefe4R9FahGydneNVpv9mP7pqhOeDQwP34
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: 3359
 ht-degree: 0%
 
 ---
@@ -102,7 +117,7 @@ En Adobe Advertising, puede generar informes sobre los datos de conversión ya s
 
 ## Atribución en [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] creación de informes](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=es) le permite configurar reglas para identificar diferentes canales de marketing en función de distintos aspectos de la información de visitas. Puede realizar el seguimiento de los canales rastreados por Adobe Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] y [!UICONTROL Paid Search]) como [!DNL Marketing Channels] mediante el parámetro de cadena de consulta `ef_id` para identificar el canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Sin embargo, aunque los informes de [!DNL Marketing Channels] pueden rastrear canales de Adobe Advertising, es posible que los datos no coincidan con los informes de Adobe Advertising por varios motivos. Consulte las secciones siguientes para obtener más información.
+[[!DNL Analytics Marketing Channels] creación de informes](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) le permite configurar reglas para identificar diferentes canales de marketing en función de distintos aspectos de la información de visitas. Puede realizar el seguimiento de los canales rastreados por Adobe Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] y [!UICONTROL Paid Search]) como [!DNL Marketing Channels] mediante el parámetro de cadena de consulta `ef_id` para identificar el canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Sin embargo, aunque los informes de [!DNL Marketing Channels] pueden rastrear canales de Adobe Advertising, es posible que los datos no coincidan con los informes de Adobe Advertising por varios motivos. Consulte las secciones siguientes para obtener más información.
 
 >[!NOTE]
 >
@@ -130,7 +145,7 @@ Para obtener más información sobre por qué las métricas pueden variar, consu
 
 ## Diferencias de datos en Adobe Analytics [!DNL Paid Search Detection]
 
-La característica [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=es) de [!DNL Analytics] permite que las compañías [definan reglas para rastrear el tráfico de búsquedas orgánicas y de pago](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=es) para motores de búsqueda especificados. Las reglas de [!DNL Paid Search Detection] utilizan una cadena de consulta y el dominio de referencia para identificar el tráfico de búsqueda natural y de pago. Los informes de [!DNL Paid Search Detection] forman parte del grupo más amplio de informes de [Métodos de búsqueda](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=es), que caducan cuando se produce un evento específico (como un cierre de compra del carro de compras) o cuando finaliza la visita.
+La característica [legacy [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) de [!DNL Analytics] permite que las compañías [definan reglas para rastrear el tráfico de búsquedas orgánicas y de pago](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=es) para motores de búsqueda especificados. Las reglas de [!DNL Paid Search Detection] utilizan una cadena de consulta y el dominio de referencia para identificar el tráfico de búsqueda natural y de pago. Los informes de [!DNL Paid Search Detection] forman parte del grupo más amplio de informes de [Métodos de búsqueda](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html), que caducan cuando se produce un evento específico (como un cierre de compra del carro de compras) o cuando finaliza la visita.
 
 A continuación se muestra la interfaz para crear un conjunto de reglas [!DNL Paid Search Detection]:
 
@@ -148,7 +163,7 @@ Tenga en cuenta las dos limitaciones siguientes con los datos de [!DNL Paid Sear
 
 ### ¿Por qué configurar [!DNL Paid Search Detection]?
 
-Los informes [!DNL Paid Search Detection] le permiten identificar el tráfico de búsqueda natural en los [[!DNL Analytics Marketing Channels] informes](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=es). La separación del tráfico de búsqueda de pago y el tráfico de búsqueda natural es una buena manera de comprender el valor que la búsqueda natural aporta al ecosistema de marketing completo.
+Los informes [!DNL Paid Search Detection] le permiten identificar el tráfico de búsqueda natural en los [[!DNL Analytics Marketing Channels] informes](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html). La separación del tráfico de búsqueda de pago y el tráfico de búsqueda natural es una buena manera de comprender el valor que la búsqueda natural aporta al ecosistema de marketing completo.
 
 ## Validación de datos de clics para [!DNL Analytics for Advertising] {#data-validation}
 
@@ -238,7 +253,7 @@ Parecen análogos, pero los clics y las visitas representan datos diferentes:
 
 * **Clic:** [!DNL DSP] o el motor de búsqueda registra un clic cuando un visitante hace clic en un anuncio del sitio web de un publicador.
 
-* **Visita:** [!DNL Analytics] define una [visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=es) como una serie de vistas de página por parte de un usuario, que finaliza según uno de varios criterios, como 30 minutos de inactividad.
+* **Visita:** [!DNL Analytics] define una [visita](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) como una serie de vistas de página por parte de un usuario, que finaliza según uno de varios criterios, como 30 minutos de inactividad.
 
 Por definición, un clic puede llevar a varias visitas.
 

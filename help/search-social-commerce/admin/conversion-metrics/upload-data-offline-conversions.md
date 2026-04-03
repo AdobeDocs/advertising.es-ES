@@ -3,9 +3,16 @@ title: Carga de datos de conversión sin conexión para conversiones mejoradas
 description: Aprenda a cargar datos de conversión sin conexión de origen para asignarlos a  [!DNL Google Ads] conversiones mejoradas para posibles clientes y [!DNL Microsoft Advertising] conversiones mejoradas.
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
+TQID: https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: 785
 ht-degree: 0%
 
 ---

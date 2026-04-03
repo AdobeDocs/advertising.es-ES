@@ -3,9 +3,16 @@ title: Seguimiento de conversión mediante una fuente de ID de EF
 description: Obtenga información acerca del uso de una fuente de ID de EF para los datos de seguimiento de conversión.
 exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/D4OpKvTL-jjIOgMaakH78aYA7q9p2BXcc2P-RI8blfY
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: 349
 ht-degree: 0%
 
 ---
@@ -18,7 +25,7 @@ Con este método, Advertising Cloud recopila un valor `ef_id` cada vez que un us
 
 *Sólo funciones de administrador de cuentas de agencia, administrador de cuentas [!DNL Adobe] y administrador de usuarios*
 
-1. Utilice las opciones de seguimiento de cuenta o campaña &quot;[!UICONTROL EF Redirect]&quot;, el tipo de redirección &quot;[!UICONTROL Token]&quot; y &quot;[!UICONTROL Auto Upload]&quot; para generar automáticamente una dirección URL de destino o una dirección URL final con un token de Adobe Advertising (ef_id) para cada palabra clave (para el seguimiento a nivel de palabra clave) o anuncio (para el seguimiento a nivel de anuncio) en la cuenta o campaña.
+1. Utilice las opciones de seguimiento de cuenta o campaña &quot;[!UICONTROL EF Redirect]&quot;, el tipo de redirección de &quot;[!UICONTROL Token]&quot; y &quot;[!UICONTROL Auto Upload]&quot; para generar automáticamente una dirección URL de destino o una dirección URL final con un token de Adobe Advertising (ef_id) para cada palabra clave (para el seguimiento a nivel de palabra clave) o anuncio (para el seguimiento a nivel de anuncio) en la cuenta o campaña.
 
    >[!NOTE]
    >* Este método no requiere que el anunciante utilice etiquetas de seguimiento de conversión de Adobe Advertising.
@@ -34,7 +41,7 @@ Con este método, Advertising Cloud recopila un valor `ef_id` cada vez que un us
 
 1. El anunciante carga un archivo con los [datos de conversión necesarios](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md) en la ubicación designada del servidor.
 
-1. Los servicios técnicos analizan los datos de conversión de los archivos cargados y, a continuación, cargan los datos en el Adobe Advertising. A continuación, el Adobe Advertising realiza un seguimiento de los datos con palabras clave, anuncios y ubicaciones individuales y crea previsiones de ingresos para cada uno.
+1. Los servicios técnicos analizan los datos de conversión de los archivos cargados y, a continuación, cargan los datos en Adobe Advertising. A continuación, Adobe Advertising realiza un seguimiento de los datos con palabras clave, anuncios y ubicaciones individuales, y crea previsiones de ingresos para cada uno.
 
 1. Los servicios técnicos validan los datos procesados con los datos de las fuentes y comprueban si hay [transacciones huérfanas](/help/search-social-commerce/glossary.md#o-p).
 

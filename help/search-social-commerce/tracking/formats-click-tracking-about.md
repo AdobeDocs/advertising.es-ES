@@ -1,18 +1,23 @@
 ---
-title: Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising
+title: Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversiones de Adobe Advertising
 description: Obtenga información acerca de los formatos de seguimiento de clics para redes de publicidad admitidas.
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 263
 ht-degree: 0%
 
 ---
 
-# Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising
+# Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversiones de Adobe Advertising
 
-Las plantillas de seguimiento, los sufijos de la página de aterrizaje (sufijos finales de la URL) y las direcciones URL de destino para las cuentas de publicidad y las campañas que utilizan el servicio de seguimiento de conversión de Adobe Advertising tienen el siguiente formato:
+Las plantillas de seguimiento, los sufijos de la página de aterrizaje (sufijos finales de la URL) y las URL de destino para las cuentas de publicidad y las campañas que utilizan el servicio de seguimiento de conversión de Adobe Advertising tienen el siguiente formato:
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
@@ -20,7 +25,7 @@ donde:
 
 * `http://pixel.everesttech.net` redirige al usuario a los servidores de píxeles de Adobe Advertising.
 
-* `<advertiser_ID>` es una variable para el ID de usuario único asignado al anunciante dentro del Adobe Advertising.
+* `<advertiser_ID>` es una variable para el ID de usuario único asignado al anunciante dentro de Adobe Advertising.
 
 * `<token passing parameter>` es una variable para uno de los siguientes:
 

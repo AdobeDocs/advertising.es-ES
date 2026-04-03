@@ -3,9 +3,26 @@ title: Recopilación de datos de clics e impresiones de campañas de Advertising
 description: Aprenda a capturar eventos de impresión y clics basados en cookies desde anuncios de Advertising DSP con píxeles de Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+TQID: https://experienceleague.adobe.com/UXP1gmCmLCHH-l7a1WYxlmYfSRIgJPLpxWHyHujIdX0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: 997
 ht-degree: 0%
 
 ---
@@ -22,7 +39,7 @@ Los píxeles de evento no capturan eventos que se producen en entornos sin cooki
 
 ## Paso 1: Configurar una fuente de datos en Audience Manager {#set-up-data-source}
 
-En Audience Manager, cree una [fuente de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=es) para la impresión de DSP y haga clic en datos. Incluya el ID de origen de datos [en cada etiqueta de evento](#implement-dsp-pixels) para que todos los eventos rastreados se atribuyan al origen de datos.
+En Audience Manager, cree una [fuente de datos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) para la impresión de DSP y haga clic en datos. Incluya el ID de origen de datos [en cada etiqueta de evento](#implement-dsp-pixels) para que todos los eventos rastreados se atribuyan al origen de datos.
 
 >[!NOTE]
 > Es posible recopilar todos los datos de impresiones y clics de campañas publicitarias que se ejecuten en varios DSP dentro de una sola fuente de datos.
@@ -33,7 +50,7 @@ Los anunciantes pueden crear e implementar etiquetas de evento para sus propias 
 
 >[!NOTE]
 >
->Si su organización utiliza el seguimiento de [!DNL Analytics], es posible que no necesite el rastreo de clics de Audience Manager. Adobe Analytics captura las señales de clic y puede enviarlas a Audience Manager a través de [reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=es).
+>Si su organización utiliza el seguimiento de [!DNL Analytics], es posible que no necesite el rastreo de clics de Audience Manager. Adobe Analytics captura las señales de clic y puede enviarlas a Audience Manager a través de [reenvío del lado del servidor](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 ### Sintaxis en píxeles
 
@@ -79,7 +96,7 @@ Ambos tipos de píxeles pueden contener parámetros adicionales como *pares clav
 
 En el par clave-valor, la variable de valor puede ser un identificador codificado de forma rígida o una *macro*, que es una pequeña unidad de código independiente que se reemplaza dinámicamente por los valores correspondientes cuando se carga la etiqueta de anuncio para el seguimiento de campañas y usuarios. Para los parámetros relacionados con la campaña, puede usar [macros de DSP](/help/dsp/campaign-management/macros.md) en lugar de macros de Audience Manager para enviar atributos de campaña junto con los datos de impresiones o clics correspondientes a Audience Manager, usando un solo píxel en todos los anuncios. Las macros de DSP que inserte en los píxeles de evento deben ser valores adecuados para los pares clave-valor que incluya dentro de los píxeles. Por ejemplo, para la clave `d_placement`, utilizaría la macro de DSP `${TM_PLACEMENT_ID_NUM}` como valor para capturar los identificadores de ubicación generados por la macro de Adobe Advertising.
 
-Para obtener una lista de macros compatibles con Audience Manager para los píxeles de evento de impresión, consulte &quot;[Captura de datos de impresión de campaña mediante llamadas en píxeles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=es#supported-key-value-pairs)&quot;.
+Para obtener una lista de macros compatibles con Audience Manager para los píxeles de evento de impresión, consulte &quot;[Captura de datos de impresión de campaña mediante llamadas en píxeles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)&quot;.
 
 Para obtener una lista de macros compatibles con Audience Manager para los píxeles de eventos de clic, consulte &quot;[Captura de datos de clics de Campaign mediante llamadas en píxeles](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=es)&quot;.
 
@@ -116,11 +133,11 @@ Una vez implementadas las etiquetas de evento, los datos fluyen a los servidores
 
 ### Crear un bloque de [!DNL Amazon S3] y un origen de datos
 
-Una vez que los datos estén en los servidores de Audience Manager, debe crear un bloque de [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) y, a continuación, un origen de datos al que se envíen todos los datos en píxeles. Póngase en contacto con su asesor de Audience Manager o con el [Servicio de atención al cliente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=es) si necesita asistencia.
+Una vez que los datos estén en los servidores de Audience Manager, debe crear un bloque de [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) y, a continuación, un origen de datos al que se envíen todos los datos en píxeles. Póngase en contacto con su asesor de Audience Manager o con el [Servicio de atención al cliente](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) si necesita asistencia.
 
 ### Creación de rasgos y segmentos de Audience Manager
 
-Los datos del evento se transfieren a Audience Manager como [señales sin usar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=es). Cree manualmente [rasgos basados en reglas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=es) a partir de los datos ingeridos y, a continuación, cree [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=es) utilizando esos rasgos, para poder usar los datos en los informes.
+Los datos del evento se transfieren a Audience Manager como [señales sin usar](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Cree manualmente [rasgos basados en reglas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) a partir de los datos ingeridos y, a continuación, cree [segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) utilizando esos rasgos, para poder usar los datos en los informes.
 
 Característica de ejemplo que rellena datos de nivel de usuario para usuarios expuestos a un elemento creativo específico en DSP:
 

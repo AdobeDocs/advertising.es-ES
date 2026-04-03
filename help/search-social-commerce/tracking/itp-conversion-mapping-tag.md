@@ -1,22 +1,27 @@
 ---
 title: La etiqueta de asignación de conversión de Adobe Advertising
-description: Obtenga información acerca de la etiqueta de asignación de conversiones basada en JavaScript para ITP 2.2, que permite a Adobe Advertising rastrear un evento de conversión que se produce en una página que no es la página de aterrizaje.
+description: Obtenga información acerca de la etiqueta de asignación de conversión basada en JavaScript para ITP 2.2, que permite a Adobe Advertising rastrear un evento de conversión que se produce en una página que no es la página de aterrizaje.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
+TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 637
 ht-degree: 0%
 
 ---
 
-# La etiqueta de asignación de conversión de JavaScript de Adobe Advertising
+# La etiqueta de asignación de conversión de Adobe Advertising JavaScript
 
 *Anunciantes con solo seguimiento de conversión de Adobe Advertising*
 
-La etiqueta de asignación de conversión basada en JavaScript de Adobe Advertising, cuando se utiliza además de la etiqueta de seguimiento de conversión JavaScript v2 o v3 de Adobe Advertising, permite al Adobe Advertising rastrear un evento de conversión que se produce en una página que no es la página de aterrizaje. La solución ITP 2.2 almacena la cookie de un usuario en el almacenamiento local en un iFrame propiedad del anunciante. El almacenamiento local puede entonces mantener el valor de la cookie desde el clic descendente hasta la página de conversión.
+La etiqueta de asignación de conversión basada en Adobe Advertising JavaScript, cuando se utiliza además de la etiqueta de seguimiento de conversión de Adobe Advertising JavaScript v2 o v3, permite a Adobe Advertising rastrear un evento de conversión que se produce en una página que no es la página de aterrizaje. La solución ITP 2.2 almacena la cookie de un usuario en el almacenamiento local en un iFrame propiedad del anunciante. El almacenamiento local puede entonces mantener el valor de la cookie desde el clic descendente hasta la página de conversión.
 
-Utilice la etiqueta de asignación de Adobe Advertising para asegurarse de que puede realizar un seguimiento de todas las conversiones que se producen en los exploradores Apple Safari y Mozilla Firefox, lo que limita la persistencia de las cookies de origen. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+Utilice la etiqueta de asignación de conversión para asegurarse de que Adobe Advertising puede realizar un seguimiento de todas las conversiones que se producen en los exploradores Apple Safari y Mozilla Firefox, lo que limita la persistencia de las cookies de origen. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 Para utilizar la etiqueta de asignación de conversión:
 
@@ -188,4 +193,4 @@ Ejemplo:
 
 ## Validación de la implementación de etiquetas {#validate-conversion-mapping}
 
-Solicite ayuda al equipo de cuenta de Adobe para validar la etiqueta de asignación de conversión y la etiqueta de conversión normal (si la ha actualizado).
+Solicite ayuda a su equipo de cuenta de Adobe para validar la etiqueta de asignación de conversión y la etiqueta de conversión normal (si la ha actualizado).

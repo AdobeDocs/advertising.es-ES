@@ -3,9 +3,16 @@ title: Los datos utilizados para los informes
 description: Obtenga información sobre los distintos tipos de datos disponibles en las vistas de datos y los informes personalizados.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
+TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: 599
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 Search, Social y Commerce incluyen un conjunto completo de informes de rendimiento basados en datos de conversión y clics. Puede ver datos de rendimiento básicos de los distintos componentes de un portafolio o cuenta de publicidad desde las vistas [!UICONTROL Portfolios] y [!UICONTROL Campaigns], así como mediante la generación de varios informes básicos y avanzados.
 
-Los anunciantes que usen el servicio de seguimiento de conversión de Adobes Advertising también pueden identificar el número de clics de una ubicación geográfica o el nombre de dominio de un sitio web de referencia, cómo los anuncios de cada canal y los distintos eventos que llevan a una conversión contribuyen a la tasa de conversión general y la distribución de conversiones para una sola [métrica de conversión](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Los informes disponibles varían según el tipo de cuenta de usuario. El equipo de cuenta de Adobe tiene acceso a todos los informes.
+Los anunciantes que usen el servicio de seguimiento de conversión de Adobe Advertising también pueden identificar el número de clics de una ubicación geográfica o el nombre de dominio de un sitio web de referencia, cómo los anuncios de cada canal y los distintos eventos que llevan a una conversión contribuyen a la tasa de conversión general y la distribución de conversiones para una sola [métrica de conversión](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) por canal de marketing. Los informes disponibles varían según el tipo de cuenta de usuario. El equipo de cuenta de Adobe tiene acceso a todos los informes.
 
 La mayoría de los informes se pueden personalizar para mostrar únicamente la información que desee ver. Las siguientes métricas estándar están disponibles en la mayoría de los informes y se calculan a nivel de anuncio:
 

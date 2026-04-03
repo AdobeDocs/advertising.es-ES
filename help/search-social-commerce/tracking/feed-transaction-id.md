@@ -3,20 +3,27 @@ title: Seguimiento de conversión mediante una fuente de ID de transacción
 description: Obtenga información acerca del uso de una fuente de ID de transacción para los datos de seguimiento de conversión.
 exl-id: 3341ac20-d435-4387-99da-7b874e53c2e7
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+TQID: https://experienceleague.adobe.com/wGlR5tUF7ajbnQLUnW0c-U84BskLzr63Wet-e-x823M
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 293
 ht-degree: 0%
 
 ---
 
 # Seguimiento de conversión mediante una fuente de ID de transacción
 
-Cuando un anunciante tiene transacciones en línea y sin conexión, el Adobe Advertising puede rastrear las transacciones en línea a través del píxel de seguimiento de conversión de Adobe Advertising, y el anunciante puede rastrear las transacciones sin conexión mediante un ID de transacción y enviarlas a través de una fuente:
+Cuando un anunciante tiene transacciones en línea y sin conexión, Adobe Advertising puede rastrear las transacciones en línea a través del píxel de seguimiento de conversión de Adobe Advertising y el anunciante puede rastrear las transacciones sin conexión mediante un ID de transacción y enviarlas a través de una fuente:
 
-* Para las transacciones en línea, el Adobe Advertising rastrea los clics en los anuncios y las transacciones resultantes en el sitio web.
+* Para las transacciones en línea, Adobe Advertising rastrea los clics en los anuncios y las transacciones resultantes en el sitio web.
 
-* El anunciante debe rastrear las conversiones sin conexión y enviar los archivos de fuente de nivel de transacción al Adobe Advertising.
+* El anunciante debe rastrear las conversiones sin conexión y enviar archivos de fuente de nivel de transacción a Adobe Advertising.
 
 ## Resumen de implementación
 
@@ -30,7 +37,7 @@ Cuando un anunciante tiene transacciones en línea y sin conexión, el Adobe Adv
 
 1. El anunciante carga un archivo con los [datos de conversión necesarios](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md) en la ubicación designada del servidor.
 
-1. Los servicios técnicos analizan los datos de conversión de los archivos cargados y, a continuación, cargan los datos en el Adobe Advertising. A continuación, el Adobe Advertising realiza un seguimiento de los datos con palabras clave, anuncios y ubicaciones individuales y crea previsiones de ingresos para cada uno.
+1. Los servicios técnicos analizan los datos de conversión de los archivos cargados y, a continuación, cargan los datos en Adobe Advertising. A continuación, Adobe Advertising realiza un seguimiento de los datos con palabras clave, anuncios y ubicaciones individuales, y crea previsiones de ingresos para cada uno.
 
 1. Los servicios técnicos validan los datos procesados con los datos de las fuentes y comprueban si hay [transacciones huérfanas](/help/search-social-commerce/glossary.md#o-p).
 

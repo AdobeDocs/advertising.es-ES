@@ -2,9 +2,25 @@
 title: Configuración de pruebas A/B para anuncios de Adobe Advertising Search, Social y Commerce en Adobe Target
 description: Aprenda a configurar una prueba A/B en  [!DNL Target] para sus anuncios [!DNL Google Ads] y [!DNL Microsoft Advertising] en Search, Social y Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+TQID: https://experienceleague.adobe.com/eu1dRdsQlJX4IlHLTUDyJ69r0txFvFUdzUiXpSAlpU8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2:
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: 867
 ht-degree: 0%
 
 ---
@@ -44,9 +60,9 @@ Consulte las siguientes secciones para conocer los requisitos previos, instrucci
 
 Las siguientes instrucciones resaltan información relacionada con el caso de uso de Search, Social y Commerce.
 
-1. [Inicie sesión en Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=es).
+1. [Inicie sesión en Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. [Crear una prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=es):
+1. [Crear una prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 
    1. En el campo **[!UICONTROL Enter Activity URL]**, introduzca la dirección URL de la página de aterrizaje para la prueba.
 
@@ -61,7 +77,7 @@ Las siguientes instrucciones resaltan información relacionada con el caso de us
 
    1. En **[!UICONTROL Reporting Settings]**, seleccione **[!UICONTROL Company Name]** y **[!UICONTROL Report Suite]** se conectaron a su cuenta de Search, Social y Commerce.
 
-      Para obtener sugerencias adicionales sobre los informes, consulte &quot;[Prácticas recomendadas de informes y solución de problemas](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=es)&quot;.
+      Para obtener sugerencias adicionales sobre los informes, consulte &quot;[Prácticas recomendadas de informes y solución de problemas](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)&quot;.
 
    1. En el campo **[!UICONTROL Date Range]**, escriba las fechas de inicio y finalización apropiadas para la prueba.
 
@@ -77,7 +93,7 @@ Las siguientes instrucciones resaltan información relacionada con el caso de us
 
    1. Guarde la actividad.
 
-1. Use [Compositor de experiencias visuales de Target](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=es) para realizar cambios de diseño en la plantilla de página de aterrizaje de prueba A/B.
+1. Use [Compositor de experiencias visuales de Target](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) para realizar cambios de diseño en la plantilla de página de aterrizaje de prueba A/B.
 
    * Experiencia A: no edite porque es la experiencia predeterminada/de control de página de aterrizaje sin personalización.
 
@@ -119,7 +135,7 @@ Las siguientes dimensiones pertenecen a [!DNL Analytics for Target]:
 
 En Analysis Workspace, si observa que los datos de actividad y experiencias son mínimos o no se rellenan, haga lo siguiente:
 
-* Compruebe que se utiliza el mismo [!UICONTROL Supplemental Data ID] (SDID) para [!DNL Target] y [!DNL Analytics]. Puede comprobar los valores de SDID con [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=es) en la página de aterrizaje a la que la campaña dirija a los usuarios.
+* Compruebe que se utiliza el mismo [!UICONTROL Supplemental Data ID] (SDID) para [!DNL Target] y [!DNL Analytics]. Puede comprobar los valores de SDID con [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) en la página de aterrizaje a la que la campaña dirija a los usuarios.
 
 [Valores de ID de datos suplementarios (SDID) en Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -133,8 +149,8 @@ En Analysis Workspace, si observa que los datos de actividad y experiencias son 
 
 ## Lectura adicional
 
-* [Integrar Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=es) - Explica cómo configurar los informes de [!DNL Target] en Analysis Workspace.
-* [Información general sobre la prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=es): describe actividades de prueba A/B que puede usar con anuncios de Search, Social y Commerce.
+* [Integrar Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Explica cómo configurar los informes de [!DNL Target] en Analysis Workspace.
+* [Información general sobre la prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html): describe actividades de prueba A/B que puede usar con anuncios de Search, Social y Commerce.
 * [Información general sobre [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Presenta [!DNL Analytics for Advertising], que le permite rastrear las interacciones del sitio de clics y visualizaciones en sus instancias de Analytics.
 
 >[!MORELIKETHIS]

@@ -3,9 +3,16 @@ title: Acerca de las audiencias
 description: Obtenga información acerca de las opciones para rastrear, crear y administrar  [!DNL Google Ads] y [!DNL Microsoft Advertising] audiencias.
 exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 528
 ht-degree: 0%
 
 ---
@@ -18,17 +25,17 @@ La Biblioteca de audiencias enumera todas las audiencias basadas en datos de cli
 
 También puede crear y administrar audiencias mediante segmentos o listas de correo electrónico de sus audiencias de Adobe Experience Cloud existentes y de varios tipos de datos de clientes de su sistema de administración de la relación con los clientes (CRM):
 
-* **Segmentos de audiencia de Adobe:** Los anunciantes con cuentas de Adobe Audience Manager o Adobe Analytics predeterminadas pueden crear [!DNL Google Ads] audiencias de coincidencia de cliente a partir de sus [!DNL Adobe] segmentos:
+* **Segmentos de audiencia de Adobe:** Los anunciantes con cuentas de Adobe Audience Manager o Adobe Analytics predeterminadas pueden crear [!DNL Google Ads] audiencias de coincidencia de clientes a partir de sus [!DNL Adobe] segmentos:
 
    * (Anunciantes con cuentas de [!DNL Analytics] que no tengan Audience Manager) Puede crear audiencias de coincidencia de clientes de [!DNL Google Ads] con los identificadores de usuario de [!DNL Analytics] segmentos que se comparten con Adobe Experience Cloud.
 
-   * (Anunciantes con cuentas de Audience Manager) Puede crear [!DNL Google Ads] audiencias de coincidencia de clientes usando los ID de usuario de segmentos de Audience Manager que tengan como destino Search, Social y Commerce. Esto puede incluir segmentos de Adobe Analytics que se publican en Adobe Experience Cloud y segmentos creados con la biblioteca de audiencias de Adobe Experience Cloud.
+   * (Anunciantes con cuentas de Audience Manager) Puede crear [!DNL Google Ads] audiencias de coincidencia de clientes usando los ID de usuario de segmentos de Audience Manager que tienen como destino Search, Social y Commerce. Esto puede incluir segmentos de Adobe Analytics que se publican en Adobe Experience Cloud y segmentos creados con la biblioteca de audiencias de Adobe Experience Cloud.
 
   Para crear audiencias que coincidan con el cliente, la cuenta del anunciante [!DNL Google Ads] debe ser [elegible para la coincidencia personalizada](https://support.google.com/adspolicy/answer/6299717) y optar por [segmentos de ID de usuario](https://support.google.com/google-ads/answer/9199250). Además, la cuenta del anunciante en Buscar, Social y Commerce debe configurarse para permitir la creación de audiencias de coincidencia de clientes.
 
   [!DNL Adobe] archivos de sincronización de cookies y datos de segmentos para audiencias basadas en datos de clientes se sincronizan diariamente con [!DNL Google Ads].
 
-* **Listas de correo electrónico de Adobe Campaign:** El equipo de cuenta de Adobe puede ayudarle a configurar un flujo de trabajo para crear y actualizar una audiencia de coincidencia de cliente de [!DNL Google Ads] desde una lista de correo electrónico de [!DNL Campaign].
+* **Listas de correos electrónicos de Adobe Campaign:** El equipo de tu cuenta de Adobe puede ayudarte a configurar un flujo de trabajo para crear y actualizar una audiencia de coincidencia de clientes de [!DNL Google Ads] desde una lista de correo electrónico en [!DNL Campaign].
 
 * **Listas de datos de clientes:** Los anunciantes con cuentas de [!DNL Google Ads] o [!DNL Microsoft Advertising] que cumplen los requisitos para la segmentación por lista de clientes pueden crear y actualizar una audiencia basada en datos de clientes específica de la red de anuncios &lt;!— o audiencia de remarketing dinámico — incluida en la audiencia basada en datos del cliente, al menos para [!DNL Google Ads]?—> al cargar un archivo CSV con identificadores principales.
 

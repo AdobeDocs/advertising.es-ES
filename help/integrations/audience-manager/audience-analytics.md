@@ -3,16 +3,32 @@ title: '[!DNL Adobe] [!DNL Audience Analytics]  para clientes de Adobe Advertisi
 description: Aprenda a utilizar [!DNL Adobe] [!DNL Audience Analytics] para casos de uso de publicidad
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+TQID: https://experienceleague.adobe.com/XFaacUNElL25w5SMS5fzWkfRwnXr2WxhsBLe3sTccg4
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2:
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+  - id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: 467
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe] [!DNL Audience Analytics] para clientes de Adobe Advertising
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=es) es una integración entre Adobe Audience Manager y Adobe Analytics que permite a los clientes de Audience Manager enviar segmentos a [!DNL Analytics] para obtener información detallada sobre la actividad del sitio.
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) es una integración entre Adobe Audience Manager y Adobe Analytics que permite a los clientes de Audience Manager enviar segmentos a [!DNL Analytics] para obtener información detallada sobre la actividad del sitio.
 
 Los clientes de Adobe Advertising pueden beneficiarse al usar [!DNL Audience Analytics]. La integración de le permite:
 
@@ -20,7 +36,7 @@ Los clientes de Adobe Advertising pueden beneficiarse al usar [!DNL Audience Ana
 
 * Determine los canales de marketing y los puntos de entrada del sitio a partir de los anuncios de exposición de funnel superior.
 
-* Clasifique la integración con [!DNL Analytics for Advertising] para incorporar segmentos demográficos de terceros de [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html?lang=es) con datos de [!DNL Analytics for Advertising] para obtener más información sobre los perfiles de usuario.
+* Clasifique la integración con [!DNL Analytics for Advertising] para incorporar segmentos demográficos de terceros de [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html) con datos de [!DNL Analytics for Advertising] para obtener más información sobre los perfiles de usuario.
 
   [!DNL Audience Marketplace] proporciona acceso a fuentes de datos de terceros con modelos de suscripción de &quot;Activación&quot;, que permiten a los compradores enviar datos a un destino. Si los datos se usan en un destino de [!DNL Analytics], no se aplican tarifas de activación.
 
@@ -28,7 +44,7 @@ Los clientes de Adobe Advertising pueden beneficiarse al usar [!DNL Audience Ana
 
   Advertising DSP puede enviar datos de exposición a Audience Manager como señales procesables mediante la implementación de píxeles de seguimiento de impresiones de Adobe Experience Platform o Audience Manager. Al reenviar los mismos datos a [!DNL Analytics], se habilita el análisis de datos avanzado. Consulte &quot;[Información general sobre el envío de datos de exposición de medios de DSP a Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md)&quot; para obtener más información.
 
-Para obtener más información acerca de [!DNL Audience Analytics], incluidos los requisitos previos y el flujo de trabajo, vea &quot;[Información general de Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=es)&quot;.
+Para obtener más información acerca de [!DNL Audience Analytics], incluidos los requisitos previos y el flujo de trabajo, vea &quot;[Información general de Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html)&quot;.
 
 ## Ejemplos de cómo usar datos de [!DNL Audience Analytics] con datos de Adobe Advertising
 

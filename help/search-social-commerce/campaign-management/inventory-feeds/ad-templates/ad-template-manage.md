@@ -3,9 +3,14 @@ title: Administrar plantillas de publicidad para fuentes de inventario
 description: Obtenga información acerca de la administración de plantillas de publicidad a través de las cuales se pueden procesar los datos de inventario para administrar la estructura de cuentas y enviar anuncios dinámicos.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: 1423
 ht-degree: 0%
 
 ---

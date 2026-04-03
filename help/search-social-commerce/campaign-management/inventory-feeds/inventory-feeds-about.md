@@ -3,9 +3,14 @@ title: Automatización de la administración de anuncios mediante fuentes de inv
 description: Obtenga información acerca de la administración avanzada de campañas, que le permite administrar automáticamente la estructura de cuentas y enviar anuncios dinámicos basados en los datos sobre el inventario de productos o servicios.
 exl-id: 46e78f32-96ef-4a23-bbe3-f18b84309463
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/UqICY8g8nUAo4JSdAJ8h09P65nbe36aUYDEfOnBT9Jg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: 838
 ht-degree: 0%
 
 ---
@@ -26,7 +31,7 @@ Para configurar los anuncios, cree plantillas de fuentes de inventario que conte
 
 | [!UICONTROL Ad Variation] sección de plantilla | Modificadores en Search, Social y Commerce | Contenido de fuente | Anuncios resultantes |
 |----|----|----|----|
-| Título: Compre \{<i>Product Category</i>\} de gama alta &lt;<i>CheapList</i>>.<br><br>Descripción 1: Gran inventario de \{<i>Nombre de producto</i>\}.<br><br>Descripción 2: disponible con un descuento de \{<i>Porcentaje de descuento</i>\}%. | Valores del grupo de modificadores &quot;CheapList&quot;:<br><br>&quot;for cheap&quot;<br><br>&quot;at a discount&quot; | Categoría del producto,Nombre del producto,Porcentaje de descuento<br>electrónica,iPods,10<br><br>ropa,Camisas,15<br><br><b>Nota:</b> Puede separar los valores mediante comas o tabulaciones. | <u>Compre productos electrónicos de alta gama a precios económicos.</u><br>Gran inventario de tabletas. Disponible con un 10% de descuento.<br><br><u>Compre productos electrónicos de alta gama con descuento.</u><br>Gran inventario de tabletas. Disponible con un 10% de descuento.<br><br><u>Compra ropa de alta gama a buen precio.</u><br>Enorme inventario de camisas. Disponible con un 15% de descuento.<br><br><u>Compra ropa de alta gama con descuento.</u><br>Enorme inventario de camisas. Disponible con un 15% de descuento. |
+| Título: Comprar \{<i>Product Category</i>\} de gama alta &lt;<i>CheapList</i>>.<br><br>Descripción 1: Gran inventario de \{<i>Nombre de producto</i>\}.<br><br>Descripción 2: disponible con un descuento de \{<i>Porcentaje de descuento</i>\}%. | Valores del grupo de modificadores &quot;CheapList&quot;:<br><br>&quot;for cheap&quot;<br><br>&quot;at a discount&quot; | Categoría del producto,Nombre del producto,Porcentaje de descuento<br>electrónica,iPods,10<br><br>ropa,Camisas,15<br><br><b>Nota:</b> Puede separar los valores mediante comas o tabulaciones. | <u>Compre productos electrónicos de alta gama a precios económicos.</u><br>Gran inventario de tabletas. Disponible con un 10% de descuento.<br><br><u>Compre productos electrónicos de alta gama con descuento.</u><br>Gran inventario de tabletas. Disponible con un 10% de descuento.<br><br><u>Compra ropa de alta gama a buen precio.</u><br>Enorme inventario de camisas. Disponible con un 15% de descuento.<br><br><u>Compra ropa de alta gama con descuento.</u><br>Enorme inventario de camisas. Disponible con un 15% de descuento. |
 
 Una vez generados los anuncios, puede revisarlos opcionalmente y luego publicarlos en la red de anuncios.
 

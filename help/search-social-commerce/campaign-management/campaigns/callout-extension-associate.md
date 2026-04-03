@@ -3,9 +3,14 @@ title: Asociar  [!DNL Google Ads] extensiones de llamadas compartidas con campa�
 description: Aprenda a asignar  [!DNL Google Ads] extensiones de llamadas compartidas a campañas o grupos de anuncios.
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/Mz52mqUJIG6-uN5gk6ySuih3mUi7XjTJVihrB2mxh2c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: 226
 ht-degree: 0%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]solo cuentas*
 
-Puede crear y asignar extensiones de llamada a cualquier [campaña o grupo de publicidad](/help/search-social-commerce/introduction/supported-inventory.md) compatible [!DNL Google Ads] en la red de búsqueda dentro de una [cuenta sincronizada [!DNL Google Ads] 5&rbrace;.](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+Puede crear y asignar extensiones de llamada a cualquier [campaña o grupo de publicidad [!DNL Google Ads]  compatible](/help/search-social-commerce/introduction/supported-inventory.md)en la red de búsqueda dentro de una [cuenta sincronizada [!DNL Google Ads] 5&rbrace;.](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 Asigne al menos dos llamadas por campaña o grupo de anuncios para que sus anuncios puedan aparecer con llamadas.
 

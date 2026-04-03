@@ -3,9 +3,20 @@ title: Soluciones entre dispositivos
 description: Obtenga más información acerca de las funciones entre dispositivos.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 2c7ba1862b1883b4523d9121d8b0761129ad70fb
+TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: 997
 ht-degree: 0%
 
 ---
@@ -90,11 +101,11 @@ Si desea activar la medición de atribución entre dispositivos, póngase en con
 
 Cuando un gráfico de dispositivo está habilitado para la medición de atribución, el informe [!UICONTROL Conversion] incluye una configuración de [!UICONTROL Cross-Device Breakout], lo que le permite incluir hasta tres columnas independientes para cada métrica de conversión, entre ellas:
 
-* &lt;*Conversión*>[!UICONTROL (tp)]: incluye el total de conversiones (personas totales), que incluye tanto las conversiones del mismo dispositivo como las conversiones entre dispositivos (si corresponde). En el informe, &quot;[!UICONTROL (tp)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(tp)).
+* &lt;*Conversión*>[!UICONTROL (tp)]: Incluye el total de conversiones (personas totales), que incluye tanto las conversiones del mismo dispositivo como las conversiones entre dispositivos (si corresponde). En el informe, &quot;[!UICONTROL (tp)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(tp)).
 
-* &lt;*Conversión*>[!UICONTROL (sd)]: (opcional) incluye solo las conversiones para las que se ha hecho un seguimiento de un solo dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (sd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(sd)).
+* &lt;*Conversión*>[!UICONTROL (sd)]: (Opcional) Incluye solo las conversiones para las que solo se ha hecho un seguimiento de un dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (sd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(sd)).
 
-* &lt;*Conversión*>[!UICONTROL (xd)]: (opcional) incluye solo las conversiones para las que se ha hecho un seguimiento de más de un dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (xd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(xd)).
+* &lt;*Conversión*>[!UICONTROL (xd)]: (Opcional) Incluye solo las conversiones para las que se ha hecho un seguimiento de más de un dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (xd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(xd)).
 
 #### Interpretación del informe [!UICONTROL Conversion]
 

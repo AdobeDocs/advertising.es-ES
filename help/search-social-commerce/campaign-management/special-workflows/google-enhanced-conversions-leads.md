@@ -3,9 +3,17 @@ title: Implementar  [!DNL Google Ads] conversiones mejoradas para clientes poten
 description: Obtenga información acerca del flujo de trabajo para configurar  [!DNL Google Ads] conversiones mejoradas para posibles clientes.
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-source-git-commit: e0b1a65e3eddc41bed73817dabb6e38b1ef881b5
+TQID: https://experienceleague.adobe.com/yFJJ662wcsm2KLzCIpxXo6F8nPsklVItHMTBk1h6wHg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: 388
 ht-degree: 0%
 
 ---
@@ -20,7 +28,7 @@ En Buscar, Social y Commerce, puede:
 
 * Vea las conversiones mejoradas existentes para posibles clientes.
 
-  Search, Social y Commerce sincronizan sus conversiones mejoradas existentes para posibles clientes diariamente a las 05:00 en el huso horario del anunciante.
+  Search, Social y Commerce sincronizan diariamente las conversiones mejoradas existentes para posibles clientes a las 05:00 en el huso horario del anunciante.
 
 * Cree conversiones mejoradas para posibles clientes.
 

@@ -3,9 +3,16 @@ title: Acerca de las extensiones sitelink
 description: Obtenga información acerca de las extensiones de vínculos de sitios.
 exl-id: c2d96440-62da-4b57-a98e-d7b94882d6c5
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+TQID: https://experienceleague.adobe.com/lOrTOUXOFT7cvY5cEilRiROSfIbmcI9v8vU2MVZlg7U
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 344
 ht-degree: 0%
 
 ---
@@ -26,7 +33,7 @@ Desde la vista [!UICONTROL Extensions] > [!UICONTROL Associations], puede asigna
 
 ## Datos de rendimiento para vínculos de sitios
 
-Search, Social y Commerce asignan los clics a una extensión de anuncio y la conversión resultante a la palabra clave asociada con el anuncio en el que se incluye la extensión. No hay datos de coste o clics en el nivel de extensión disponibles en Buscar, Social y Commerce. Sin embargo, en [el [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), puede saber si una transacción fue resultado de un vínculo de sitio (en lugar del anuncio en sí) cuando el valor de la columna Tipo de vínculo aparece como `sl:<Sitelink text>`, como sl:Ver ofertas actuales.
+Search, Social y Commerce asignan los clics a una extensión de anuncio y la conversión resultante a la palabra clave asociada con el anuncio en el que se incluye la extensión. No hay datos de coste o clics en el nivel de extensión disponibles en Buscar, Social y Commerce. Sin embargo, en [el [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md), puede saber si una transacción fue resultado de un vínculo de sitio (en lugar del anuncio en sí) cuando el valor de la columna Tipo de vínculo aparece como `sl:<Sitelink text>`, por ejemplo, sl:See Ofertas actuales.
 
 En [!DNL Google Ads] y [!DNL Microsoft Advertising], puede ver los datos de costos y clics en la ficha [!DNL Ad Extensions].
 

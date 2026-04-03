@@ -3,9 +3,19 @@ title: Columnas de informes para informes básicos y avanzados
 description: Obtenga información sobre las columnas de datos disponibles para los informes básicos y avanzados.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 817c8ab0dce5412e4b3a235c3c032e5691d235ba
+TQID: https://experienceleague.adobe.com/6of-gBWNiXgwOxOoDFJ-idyaSFeP7wEi7GBfAoRxgyU
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3806'
+source-wordcount: 3806
 ht-degree: 0%
 
 ---
@@ -115,15 +125,15 @@ ht-degree: 0%
 | [!UICONTROL Frequency] | ([!DNL Meta] campañas solamente) El número promedio de veces que alguien vio su anuncio. |
 | `GGL*`, `GGL_CT*` y `GGL_XD_CT*` [[!DNL Google Ads] conversiones rastreadas] | ([!DNL Google Ads] campañas en las redes de búsqueda y compras) Conversiones rastreadas por [!DNL Google Ads], con hasta tres métricas independientes para cada conversión:<ul><li>`GGL*` — (Al realizar el seguimiento) El valor de conversión de la palabra clave, comenzando por el prefijo &quot;GGL&quot; (como GGL Purchase).</li><li>`GGL_CT*`: número (recuento) de conversiones que comienzan por el prefijo &quot;GGL_CT&quot; (como GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (Cuando está disponible para el tipo de conversión, cuando se realiza el seguimiento de las mismas) El número (recuento) de conversiones entre dispositivos, medido por [!DNL Google Ads] a partir del prefijo &quot;GGL_XD_CT_&quot; (como GGL_XD_CT_Purchase).</li></ul><br>Cada conversión se registra por unidad de oferta y fecha de clic; no está disponible en el nivel de evento. Para obtener más información sobre las conversiones rastreadas por [!DNL Google Ads], consulte &quot;[[!DNL Google Ads] datos de conversión en Search, Social y Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)&quot;. |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] solamente) El porcentaje de impresiones de su anuncio que se muestran como el primer anuncio por encima de los resultados de búsqueda orgánica. |
-| [!UICONTROL Impr. (Top) %] | [!DNL Google Ads]&#x200B;( solo) El porcentaje de impresiones de su anuncios que se muestran encima de los resultados del búsqueda orgánica. |
-| [!UICONTROL Impressions] | El número de impresiones de anuncios durante el intervalo de fecha especificado. |
-| [!UICONTROL Interaction Rate] | (Vídeo anuncios) El número de interacciones dividido por el número de veces que se mostró el anuncios (vídeo e impresiones de miniaturas). |
-| [!UICONTROL Interactions] | (Vídeo anuncios) El número de veces que la gente ha visualizado su anuncios. |
-| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> cuando la catálogo de productos contiene campañas con el [!UICONTROL Maximize Clicks] estrategia de oferta, y <i>false</i> en caso contrario. |
+| [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] solamente) El porcentaje de impresiones de su anuncio que se muestran por encima de los resultados de búsqueda orgánica. |
+| [!UICONTROL Impressions] | El número de impresiones de publicidad durante el intervalo de fechas especificado. |
+| [!UICONTROL Interaction Rate] | (Anuncios de vídeo) El número de interacciones dividido por el número de veces que se mostró el anuncio (vídeo e impresiones en miniatura). |
+| [!UICONTROL Interactions] | (Anuncios en vídeo) La cantidad de veces que las personas vieron su anuncio. |
+| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> cuando el portafolio contiene campañas con la estrategia de oferta [!UICONTROL Maximize Clicks] y <i>false</i> en caso contrario. |
 | [!UICONTROL Keyword] | La palabra clave.<br><br><b>Nota:</b> Si el informe incluye datos de grupos de anuncios en campañas de búsqueda con contenido habilitado, esta columna incluirá los nombres de grupos de anuncios aplicables, como &quot;(contenido de grupos de anuncios) Su nombre de grupo de anuncios&quot;. Para una ubicación de destino de sitio en una campaña de búsqueda, esta columna no tiene ningún valor. |
 | [!UICONTROL Keyword ID] | Identificador exclusivo que identifica una palabra clave existente. |
 | [!UICONTROL Keyword Status] | Estado de la palabra clave con la que se encontró una coincidencia con el término de búsqueda: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i> o <i>[!UICONTROL Disapproved]</i>. |
-| [!UICONTROL Label Classification] | [!UICONTROL Label Classification Report]&#x200B;( y [!UICONTROL Label Value Report]) La etiqueta clasificación. |
+| [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] y [!UICONTROL Label Value Report]) La clasificación de etiquetas. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] y [!UICONTROL Label Value Report]) Un valor para la clasificación de etiquetas. |
 | [!UICONTROL Language] | (Mostrar campañas) El idioma o los idiomas de la audiencia de destino. |
 | [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] y [!DNL Microsoft Advertising] campañas solamente; los datos solo están disponibles cuando la regla de atribución especificada para el informe es &quot;Último evento&quot;) Cuando la fila informa de una conversión resultante de un clic en una extensión de anuncio (en lugar de en el propio anuncio) o en un anuncio de producto/compra, esta columna muestra el tipo y el título de un vínculo en el que se hizo clic:<ul><li>`pla:*` — Los anuncios de productos se muestran como `pla:<product ID>`, como &quot;pla:8525822&quot;.</li><li>`sl:*` — Los vínculos de sitio se muestran como `sl:<Sitelink text>`, como &quot;sl:See ofertas actuales&quot;.</li></ul> |
@@ -163,14 +173,14 @@ ht-degree: 0%
 | [!UICONTROL Product Groupings] | El grupo de productos principal. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] anuncios de listas de productos) El ID del producto que se muestra con el anuncio.<br><br><b>Nota:</b> El identificador se captura solamente cuando la lista de productos incluye el parámetro de seguimiento `ev_plx=<GMC product ID>`, que debe agregar en [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Ingresos de la métrica de conversión (por ejemplo, 1 por un registro o 12 por un pedido de 12 USD). Si varias unidades de oferta tienen el mismo ID de transacción, los ingresos del ID de seguimiento se dividen según el número de clics en la fecha de clic especificada (cuando los datos de clics están disponibles). |
-| [!UICONTROL Reach] | [!DNL Meta]&#x200B;(Solo campañas) El número de personas que vieron sus anuncios al menos una vez. Nota: [!DNL Meta] los deduplicados alcanzan los perfiles de usuario diariamente, por lo que los números reportados por [!DNL Meta] y por Search, Social y Comercio pueden diferir. |
-| [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Un área geográfica o estado de EE. UU. o Canadá para el que se originaron impresiones o clics. Se determina a partir de la dirección IP del usuario. |
-| [!UICONTROL SE Creative ID] | ID de anuncios asignado por la red. |
-| [!UICONTROL Search (Abs. Top) IS] | [!DNL Google Ads]&#x200B;( y [!DNL Microsoft Advertising]) Las impresiones que ha recibido en la ubicación superior absoluta (la primera anuncios por encima de los resultados del búsqueda orgánica) divididas por el número estimado de impresiones que era elegible para recibir en la ubicación principal. Los porcentajes por debajo del 10% se indican como &quot;`<10%`&quot; o &quot;`0.0999`&quot;. |
+| [!UICONTROL Reach] | ([!DNL Meta] campañas solamente) El número de personas que vieron sus anuncios al menos una vez. Nota: [!DNL Meta] anula la duplicación del alcance de los perfiles de usuario diariamente, por lo que los números notificados por [!DNL Meta] y por Search, Social y Commerce pueden diferir. |
+| [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Una región o estado de EE. UU./Canadá para el que se originaron impresiones o clics. Se determina a partir de la dirección IP del usuario. |
+| [!UICONTROL SE Creative ID] | ID de anuncio asignado por la red. |
+| [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] y [!DNL Microsoft Advertising]) Las impresiones que has recibido en la ubicación superior absoluta (el primer anuncio por encima de los resultados de búsqueda orgánica) divididas por el número estimado de impresiones que tenías derecho a recibir en la ubicación superior. Los porcentajes por debajo del 10% se indican como &quot;`<10%`&quot; o &quot;`0.0999`&quot;. |
 | [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] y [!DNL Microsoft Advertising]) Las impresiones que has recibido en las ubicaciones principales (por encima de los resultados de búsqueda orgánica) divididas por el número estimado de impresiones que tenías derecho a recibir en las ubicaciones principales. Los porcentajes por debajo del 10% se indican como &quot;`<10%`&quot; o &quot;`0.0999`&quot;. |
 | [!UICONTROL Search Engine] | La red de anuncios. |
-| [!UICONTROL Search exact match IS] | El número de impresiones que recibió para las búsquedas que coincidían exactamente con su palabra clave dividido por el número estimado de impresiones de coincidencia exacta que pudo recibir. Si este número es bajo, puede deberse a que la puja es demasiado baja o a que la calidad o relevancia del anuncio es baja. |
-| [!UICONTROL Search impr. share] | ([!DNL Google Ads] solamente) Las impresiones que ha recibido divididas por el número estimado de impresiones que reúne los requisitos para recibir. Los porcentajes por debajo del 10% se indican como &quot;&lt;10%&quot; y los porcentajes por encima del 90% como &quot;`>90%`&quot;. |
+| [!UICONTROL Search exact match IS] | El número de impresiones que recibiste por las búsquedas que coincidieron exactamente con tu palabra clave dividido por el número estimado de impresiones de coincidencia exactas que tenías derecho a recibir. Si este número es bajo, puede deberse a que la puja es demasiado baja o a que la calidad o relevancia del anuncio es baja. |
+| [!UICONTROL Search impr. share] | ([!DNL Google Ads] solamente) Las impresiones que ha recibido divididas por el número estimado de impresiones que reúne los requisitos para recibir. Los porcentajes por debajo del 10 % se indican como &quot;&lt;10 %&quot; y los porcentajes por encima del 90 % se indican como &quot;`>90%`&quot;. |
 | [!UICONTROL Search lost abs. top IS (budget)] | ([!DNL Google Ads] y [!DNL Microsoft Advertising]) Porcentaje de tiempo que sus anuncios no fueron los primeros anuncios por encima de los resultados de búsqueda orgánica porque su presupuesto diario o mensual era demasiado bajo. Para las campañas de Google ads, los porcentajes superiores al 90% se indican como &quot;`>90%`&quot; o &quot;`0.9001`&quot;. |
 | [!UICONTROL Search lost abs. top IS (rank)] | ([!DNL Google Ads] y [!DNL Microsoft Advertising]) El porcentaje de tiempo que sus anuncios no fueron los primeros anuncios por encima de los resultados de búsqueda orgánica debido a una clasificación de anuncio deficiente. Para las campañas de Google ads, los porcentajes superiores al 90% se indican como &quot;`>90%`&quot; o &quot;`0.9001`&quot;. |
 | [!UICONTROL Search lost IS (budget)] | ([!DNL Google Ads] solamente) El porcentaje de tiempo que no se mostraron los anuncios debido a que el presupuesto diario o mensual era demasiado bajo. Esta métrica solo está disponible en el nivel de campaña. Los porcentajes superiores al 90% se indican como &quot;`>90%`&quot; o &quot;`0.9001`&quot;. |

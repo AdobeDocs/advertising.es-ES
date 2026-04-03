@@ -3,9 +3,16 @@ title: Asignar y cancelar la asignación de paquetes creativos a un nodo final e
 description: Aprenda a asignar elementos creativos a cada destinatario en sus experiencias publicitarias.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+TQID: https://experienceleague.adobe.com/HqTq2fiJadk-QIBwYkOxC2N9sTMm29LIXRzSubPuv9M
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: 305
 ht-degree: 0%
 
 ---
@@ -14,7 +21,7 @@ ht-degree: 0%
 
 *Solo experiencias con direccionamiento en árbol de decisiones*
 
-Puede asignar paquetes creativos a un nodo de destino en el nivel inferior de un árbol de decisiones de experiencia. En el caso de las experiencias para las que no ha configurado objetivos, el nivel inferior se encuentra en &quot;Todo&quot;.
+Puede asignar paquetes creativos a un nodo de destino en el nivel inferior de un árbol de decisión de experiencias. En el caso de las experiencias para las que no ha configurado objetivos, el nivel inferior se encuentra en &quot;Todo&quot;.
 
 Para las experiencias de publicidad estándar, solo puede asignar paquetes creativos estándar. Para las experiencias de publicidad dinámica, solo puede asignar paquetes creativos dinámicos.
 
@@ -36,7 +43,7 @@ Para las experiencias de publicidad estándar, solo puede asignar paquetes creat
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-1. (Opcional) [Personalice la optimización y la programación creativas](experience-optimization-scheduling-targeting.md) de los paquetes asignados.
+1. (Opcional) [Personalice la optimización y la programación creativas](experience-optimization-scheduling-targeting.md) para los paquetes asignados.
 
 1. (Opcional) [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
 

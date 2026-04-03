@@ -3,16 +3,25 @@ title: '[!UICONTROL Channel Assist Report]'
 description: Más información acerca de [!UICONTROL Channel Assist Report].
 exl-id: 67bce347-2776-4585-adb4-e1a4d76fbadc
 feature: Search Reports, Search Assist Reports
-source-git-commit: 45920c6ea9d2953c963ddf6472966b3fc3a91395
+TQID: https://experienceleague.adobe.com/G2KcySAZVdf-J14CxQS2Hk5av6KHlpyFehwfMcZYj78
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: 684
 ht-degree: 0%
 
 ---
 
 # El [!UICONTROL Channel Assist Report]
 
-*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones desde Adobe Advertising, Adobe Analytics (con una integración de [!DNL Analytics]) o proporcionados en fuentes usando solo un token (`ef_id`)*
+*Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones de Adobe Advertising, Adobe Analytics (con una integración de [!DNL Analytics]) o proporcionados en fuentes usando solo un token (`ef_id`)*
 
 [!UICONTROL Channel Assist Report] indica cómo varios canales de marketing (búsqueda o social desde Search, Social y Commerce; o visualización o vídeo desde Advertising DSP) han ayudado en el proceso de conversión. El informe muestra cómo cada patrón de tipos de eventos que provocó una o más conversiones ha contribuido a las conversiones generales. Por ejemplo, puede ver cuántas conversiones se produjeron cuando los usuarios vieron una impresión de anuncio en pantalla por primera vez, luego hicieron clic en un anuncio de búsqueda y luego hicieron un pedido, o puede ver cuántas conversiones se produjeron después de que los usuarios interactuaran con más de 10 anuncios. Los tipos de evento incluyen clics de búsqueda, impresiones de visualización y clics, impresiones y clics de vídeo, y otras impresiones y otros clics. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 

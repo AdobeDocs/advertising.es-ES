@@ -3,9 +3,14 @@ title: Configuración de los datos de fuente
 description: Obtenga información sobre cómo configurar las opciones que controlan cómo se procesan los datos de fuentes.
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+TQID: https://experienceleague.adobe.com/kmaWPmbN4HFZmI0u9KE2PXMyt9jltTHAM9tWM0Bj7e0
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 0%
 
 ---
@@ -95,7 +100,7 @@ El nivel de stock de cada elemento de línea proviene de una columna del archivo
 >[!NOTE]
 >
 >* En el caso de los archivos FTP, el servicio de fuentes comprueba las actualizaciones en el directorio FTP cada dos horas (horas pares en el huso horario PST). Esta opción procesa todos los archivos cargados desde la última comprobación.
->* Para las cuentas del centro comercial, Search, Social y Commerce se sincronizan con la cuenta diariamente a las 06:00, aproximadamente, en el huso horario del anunciante. Esta opción procesa todos los datos actualizados desde la última sincronización.
+>* Para las cuentas del centro comercial, Search, Social y Commerce se sincronizan con la cuenta diariamente a las 06:00 aproximadamente en el huso horario del anunciante. Esta opción procesa todos los datos actualizados desde la última sincronización.
 >* Los datos propagados están disponibles desde las fichas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] y [!UICONTROL Ads] hasta que los datos se publiquen en la red de anuncios o en la vista [!UICONTROL Bulksheets].
 
 **[!UICONTROL Post to the SE]:** (Anunciantes que cargan archivos de datos a través de FTP o una cuenta de un centro comercial) Crea automáticamente archivos de hojas de edición masiva en los formatos correctos para las redes de anuncios relevantes después de que los nuevos datos se propaguen a través de las plantillas aplicables. Esta opción también quita los datos de las fichas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] y [!UICONTROL Ads], a menos que algún subcomponente tenga errores.

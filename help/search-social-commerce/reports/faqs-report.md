@@ -3,9 +3,20 @@ title: Preguntas frecuentes sobre los informes personalizados
 description: Obtenga respuestas a preguntas comunes acerca de los informes de rendimiento, incluida la resolución de problemas de datos.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
+TQID: https://experienceleague.adobe.com/2pGYTNuu54grOLUSyVpfQVttGWG8OMPCUrzAYmyIv0k
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '3922'
+source-wordcount: 3922
 ht-degree: 0%
 
 ---
@@ -26,7 +37,7 @@ Cuando se informan de las conversiones por fecha de clic, los datos incluyen tra
 ![Informe por fecha de clic versus informe por fecha de transacción](/help/search-social-commerce/assets/click-date-vs-txn-date.png "Informe por fecha de clic versus informe por fecha de transacción")
 +++
 
-+++¿Qué sucede si cambio la ventana retrospectiva de clics o de impresiones?
++++¿Qué sucede si cambio la ventana retrospectiva de clics o la ventana retrospectiva de impresiones?
 (Solo anunciantes con el servicio de seguimiento de conversiones basado en píxeles de Advertising) Los datos de los eventos resultantes del clic inicial se recopilan durante un período más largo o más corto.
 
 La ventana retrospectiva de [clics](/help/search-social-commerce/glossary.md#c-d) y la ventana retrospectiva de [impresiones](/help/search-social-commerce/glossary.md#i-j) de un anunciante determinan el número de días después de que se produzca un clic de pago o una impresión de visualización (respectivamente) en los que el evento se puede atribuir a una conversión. Cambiar un valor a un periodo más largo o más corto puede ser importante para los anunciantes con periodos especialmente cortos o largos de clic a ingresos o de impresión a ingresos de visualización.
@@ -97,7 +108,7 @@ Esta situación se puede producir cuando los formatos de métrica utilizan enter
 * Del mismo modo, si tiene una métrica de ingresos que se envía como en entero, se produce el mismo problema. (El formato de ingresos se controla mediante la etiqueta de conversión que envía los datos). Para resolver el problema, [cree una métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) que consista únicamente en la métrica de ingresos y con el formato *Número a 2 puntos decimales*, e inclúyala en vistas e informes en lugar de en la métrica original.
 +++
 
-+++Cuando faltan datos de clics o ingresos, ¿cómo puedo evitar que afecten a ofertas futuras?
++++Si faltan datos de clics o ingresos, ¿cómo puedo evitar que afecten a futuras ofertas?
 Los problemas de datos de clics se producen cuando Search, Social y Commerce no están sincronizados con la red de anuncios. Póngase en contacto con el equipo de su cuenta de Adobe para sincronizar manualmente la cuenta. Si faltan datos de clics para un día completo, pida al equipo de cuenta de Adobe que excluya ese día de los modelos de coste.
 
 Pueden producirse problemas en los datos de ingresos debido a un problema con el archivo de seguimiento o de fuente. Póngase en contacto con el equipo de su cuenta de Adobe para investigar el problema. Si faltan datos de ingresos para un día completo, pida al equipo de cuenta de Adobe que excluya ese día de los modelos de ingresos.
@@ -210,7 +221,7 @@ Es posible que el informe no incluya métricas de conversión para las que se ha
    El Servicio de atención al cliente comprobará si el archivo se ha recibido y analizado. Si el archivo se ha procesado sin errores, comprueba si hay transacciones huérfanas.
 +++
 
-+++Algunos informes avanzados no incluyen los datos de conversión proporcionados por una fuente del anunciante.
++++Algunos informes avanzados no incluyen datos de conversión proporcionados por una fuente del anunciante. 
 [!UICONTROL Geo Distribution Report] y [!UICONTROL Domain Referral Report] utilizan datos capturados a través del servicio de seguimiento de conversión de Adobe Advertising y solo se pueden generar para anunciantes que tengan el servicio. Los informes no incluyen datos de conversión que se rastrean fuera del sistema de seguimiento de conversiones de Adobe Advertising.
 +++
 
@@ -299,7 +310,7 @@ Ver [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/
 
 ## Informes específicos
 
-+++¿Debería el [!UICONTROL Portfolio Report] mostrar las mismas cifras que la vista [!UICONTROL Portfolios]?
++++¿Debe [!UICONTROL Portfolio Report] mostrar las mismas cifras que la vista [!UICONTROL Portfolios]?
 La vista [!UICONTROL Portfolio Report] y la vista [!UICONTROL Portfolios] muestran los mismos datos cuando todos los filtros de la vista, los parámetros del informe y las columnas de datos de la vista y el informe son iguales. Por ejemplo, si la vista [!UICONTROL Portfolios] muestra portafolios que son &quot;[!UICONTROL All but inactive]&quot; para el intervalo de fechas &quot;[!UICONTROL Last 7 days]&quot; y solo se muestran las columnas de datos predeterminadas, un [!UICONTROL Portfolio Report] que usa los parámetros predeterminados muestra datos idénticos. Si cambia cualquiera de los parámetros del informe o utiliza diferentes filtros en la vista [!UICONTROL Portfolios], los valores de los datos pueden ser diferentes.
 +++
 

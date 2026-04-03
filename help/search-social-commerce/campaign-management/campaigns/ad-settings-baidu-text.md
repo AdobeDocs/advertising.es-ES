@@ -3,9 +3,14 @@ title: '[!DNL Baidu] configuración de anuncios de texto'
 description: Hacer referencia a la configuración de  [!DNL Baidu] anuncios de texto.
 exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+TQID: https://experienceleague.adobe.com/ZcLcEuPrOSso0tVp3m5vpp8Bdr0BGg6BVAeuvDUbGSg
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: 180
 ht-degree: 0%
 
 ---
