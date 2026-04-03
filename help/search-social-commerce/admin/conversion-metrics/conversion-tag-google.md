@@ -4,15 +4,12 @@ description: Aprenda a crear una etiqueta de conversión  [!DNL Google Ads] .
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
 TQID: https://experienceleague.adobe.com/pskBpQ12sQXj9RyLd3IQAG0MktlOvV2JvZBl5rGtQT0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -39,7 +36,7 @@ Para generar etiquetas de conversión para las conversiones existentes, utilice 
 
 1. Copie la etiqueta de conversión e impleméntelo en los sitios web desde los que desee rastrear la métrica de conversión.
 
-   Consulte &quot;Instalación de la etiqueta [!DNL Google]&quot; en la ayuda de [!DNL Google Ads] para &quot;[2. Configure su etiqueta Google &#x200B;](https://support.google.com/google-ads/answer/12215519)&quot;.
+   Consulte &quot;Instalación de la etiqueta [!DNL Google]&quot; en la ayuda de [!DNL Google Ads] para &quot;[2. Configure su etiqueta Google ](https://support.google.com/google-ads/answer/12215519)&quot;.
 
 1. Haga clic en **[!UICONTROL Done].**
 
@@ -47,7 +44,7 @@ Una vez que agregue las etiquetas al sitio web y comiencen a activarse, [!DNL Go
 
 ## Configuración de etiquetas de conversión {#conversion-tag-settings-google}
 
-**[!UICONTROL Select an Account]:** La cuenta de Google Ads aplicable.
+**[!UICONTROL Select an Account]:** La cuenta [!DNL Google Ads] aplicable.
 
 **[!UICONTROL Type of Conversion]:** Tipo de conversión para realizar el seguimiento: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* o *[!UICONTROL Clicks to your number on your mobile website]*. **Nota:** *[!UICONTROL Import conversion]* se usa para un propósito diferente; consulte &quot;[Crear una acción de conversión para una  [!DNL Google Ads] conversión mejorada para posibles clientes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)&quot;.
 

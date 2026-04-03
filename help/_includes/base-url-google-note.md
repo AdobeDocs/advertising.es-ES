@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
@@ -11,5 +11,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* La dirección URL base puede contener redirecciones dentro del dominio o subdominio de la página de aterrizaje, pero no redirecciones fuera de este. Google Ads extrae el dominio de esta dirección URL y añade cualquier ruta de visualización opcional para que el anuncio cree la dirección URL de visualización.
+>* La dirección URL base puede contener redirecciones dentro del dominio o subdominio de la página de aterrizaje, pero no redirecciones fuera de este. [!DNL Google Ads] extrae el dominio de esta dirección URL y agrega cualquier ruta de visualización opcional para que el anuncio cree la dirección URL de visualización.
 >* Evite utilizar macros que no sustituyan los clics de fuentes que habilitan el seguimiento en paralelo. Si el anunciante debe utilizar macros, el equipo de cuenta de Adobe debe trabajar con Asistencia al cliente o con el equipo de implementación para agregarlas.
