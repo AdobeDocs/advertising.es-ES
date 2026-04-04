@@ -25,7 +25,7 @@ ht-degree: 0%
 
 En esta página se explica la información clave acerca de [!DNL Analytics Marketing Channels] que los usuarios de [!DNL Analytics for Advertising] deben comprender.
 
-Para obtener documentación completa sobre [!DNL Marketing Channels], consulte &quot;[Introducción a  [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;.
+Para obtener documentación completa sobre [!DNL Marketing Channels], consulte &quot;[Introducción a  [!DNL Marketing Channels]](https://experienceleague.adobe.com/es/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;.
 
 ## Información general de [!DNL Marketing Channels]
 

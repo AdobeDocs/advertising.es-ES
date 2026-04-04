@@ -87,7 +87,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
    >
    >Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] y [!DNL DCO]), con una cuenta por subsolución.
 
-Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es).
 
 ## Recuperación de informes de consumidores que enviaron solicitudes de exclusión de la venta
 
@@ -144,7 +144,7 @@ curl -X POST \
 }'
 ```
 
-donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
+donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica el espacio de cookies `AdCloud`, y el valor correspondiente es el ID de cookie del cliente recuperado de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que la solicitud se aplica al producto Adobe Advertising

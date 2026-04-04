@@ -1,11 +1,11 @@
 ---
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
-# Campo Plantilla de seguimiento para entidades de Google Ads
+# Campo de plantilla de seguimiento para [!DNL Google Ads] entidades
 
 <!-- Search CRUD and bulk edit of Google entity settings -->
 

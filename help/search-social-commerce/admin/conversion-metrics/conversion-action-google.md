@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: 457
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Una vez que haya creado la acción de conversión e implementado una etiqueta de
 
 ## Configuración de acciones de conversión {#conversion-action-settings-google}
 
-**[!UICONTROL Select an Account]:** La cuenta de Google Ads aplicable.
+**[!UICONTROL Select an Account]:** La cuenta [!DNL Google Ads] aplicable.
 
 **[!UICONTROL Type of Conversion]:** Tipo de conversión para realizar el seguimiento: seleccione *[!UICONTROL Import conversion]*. Todos los demás tipos se utilizan para crear etiquetas de seguimiento de conversión (no acciones de conversión) para otros tipos de conversiones.
 

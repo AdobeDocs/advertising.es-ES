@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 415
+source-wordcount: 413
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Una vez que agregue las etiquetas al sitio web y comiencen a activarse, [!DNL Go
 
 ## Configuración de etiquetas de conversión {#conversion-tag-settings-google}
 
-**[!UICONTROL Select an Account]:** La cuenta de Google Ads aplicable.
+**[!UICONTROL Select an Account]:** La cuenta [!DNL Google Ads] aplicable.
 
 **[!UICONTROL Type of Conversion]:** Tipo de conversión para realizar el seguimiento: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* o *[!UICONTROL Clicks to your number on your mobile website]*. **Nota:** *[!UICONTROL Import conversion]* se usa para un propósito diferente; consulte &quot;[Crear una acción de conversión para una  [!DNL Google Ads] conversión mejorada para posibles clientes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)&quot;.
 

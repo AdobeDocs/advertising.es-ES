@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: 676
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Las cargas a [!DNL Google Ads] y [!DNL Microsoft Advertising] se producen a lo l
 
 >[!IMPORTANT]
 >
->Las conversiones rastreadas por Google Ads y por la etiqueta de seguimiento universal de eventos (UET) de Microsoft Advertising no se vuelven a cargar en las redes de anuncios. Si los incluye dentro de un objetivo, debe agregarlos a los objetivos de campaña dentro del editor de la red de anuncios.
+>Las conversiones rastreadas por [!DNL Google Ads] y por la etiqueta de seguimiento universal de eventos (UET) [!DNL Microsoft Advertising] no se vuelven a cargar en las redes de anuncios. Si los incluye dentro de un objetivo, debe agregarlos a los objetivos de campaña dentro del editor de la red de anuncios.
 
 1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

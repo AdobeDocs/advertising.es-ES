@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
 source-wordcount: 304
 ht-degree: 0%
@@ -31,7 +31,7 @@ Cada entidad elegible puede tener valores de etiqueta para varias clasificacione
 
 ## La vista Clasificaciones de etiquetas
 
-En la interfaz de usuario heredada, la vista [!UICONTROL Labels Classifications] se encuentra en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. En la nueva interfaz de usuario, la vista [!UICONTROL Labels Classifications] se encuentra en [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+En la nueva interfaz de usuario, la vista [!UICONTROL Labels Classifications] se encuentra en [!UICONTROL Reports] > [!UICONTROL Labels Classifications]. En la interfaz de usuario heredada, la vista [!UICONTROL Labels Classifications] se encuentra en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications].
 
 La vista [!UICONTROL Labels Classifications] incluye [!UICONTROL Classifications] y [!UICONTROL Label Values] subvistas. Puede ver los datos de sus clasificaciones de etiquetas, [crear](classification-create.md) y [eliminar](classification-delete.md) clasificaciones de etiquetas y ver los datos de sus valores de clasificación de etiquetas. De forma predeterminada, los datos se muestran para sus clasificaciones y valores de etiquetas de nivel de palabra clave, pero también puede ver los datos de sus clasificaciones y valores de nivel de anuncio.
 

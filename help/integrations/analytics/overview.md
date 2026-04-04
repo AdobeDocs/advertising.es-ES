@@ -111,7 +111,7 @@ Para obtener más información sobre el servicio de audiencias de Experience Clo
 
 ### Uso de datos de Adobe Advertising en Analysis Workspace
 
-Para obtener información sobre cómo usar los datos de Adobe Advertising para crear informes visuales en Analysis Workspace, vea el vídeo &quot;[Introducción a Workspace y Creación de informes](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html)&quot;.
+Para obtener información sobre cómo usar los datos de Adobe Advertising para crear informes visuales en Analysis Workspace, vea el vídeo &quot;[Introducción a Workspace y Creación de informes](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=es)&quot;.
 
 #### Uso de conversiones de visualización de TV conectada en informes
 
@@ -151,7 +151,7 @@ Para obtener información sobre cómo realizar un seguimiento de los datos de Ad
 
 ### Uso del Adobe Advertising ID para el análisis de entrada al sitio
 
-Para ver cómo crear un informe de entrada al sitio de Adobe Advertising para supervisar las influencias del día de la semana, la hora del día, el explorador y la zona geográfica, vea el vídeo &quot;[Crear informes de entrada al sitio de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html)&quot;.
+Para ver cómo crear un informe de entrada al sitio de Adobe Advertising para supervisar las influencias del día de la semana, la hora del día, el explorador y la zona geográfica, vea el vídeo &quot;[Crear informes de entrada al sitio de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=es)&quot;.
 
 ## Iniciar una implementación de [!DNL Analytics for Advertising]
 
@@ -159,7 +159,7 @@ Póngase en contacto con el equipo de su cuenta de Adobe, que completará la con
 
 >[!MORELIKETHIS]
 >
->* [Vídeo: Introducción a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [Vídeo: Introducción a [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=es)
 >* [Requisitos previos e información clave para implementar [!DNL Analytics for Advertising]](prerequisites.md)
 >* [ID de Adobe Advertising usados por Analytics](ids.md)
 >* [Código JavaScript para Analytics para Advertising](/help/integrations/analytics/javascript.md)

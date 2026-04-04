@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: 450
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Rotation Mode]:** Con qué frecuencia [!DNL Google Ads] entrega sus anuncios activos entre sí dentro del grupo de anuncios:
 
-* *[!UICONTROL Optimize]:* Google Ads prefiere los anuncios que espera que tengan un mejor rendimiento que otros anuncios del grupo de anuncios. Estos anuncios entran en la subasta de anuncios con más frecuencia y, con el tiempo, se favorece un solo anuncio. Esto puede no ser coherente con sus objetivos empresariales y de optimización.
+* *[!UICONTROL Optimize]:* [!DNL Google Ads] prefiere los anuncios que espera que tengan un mejor rendimiento que otros anuncios del grupo de anuncios. Estos anuncios entran en la subasta de anuncios con más frecuencia y, con el tiempo, se favorece un solo anuncio. Esto puede no ser coherente con sus objetivos empresariales y de optimización.
 
 * *[!UICONTROL Rotate forever]:*   Cada uno de los anuncios entra en la subasta de anuncios un número más par de veces, lo que permite a Search, Social y Commerce puntuar sus anuncios no solo en la tasa de pulsaciones, sino también en las conversiones.
 

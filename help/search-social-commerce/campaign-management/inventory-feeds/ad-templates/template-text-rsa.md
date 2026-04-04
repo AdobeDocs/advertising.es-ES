@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 3360
+source-wordcount: 3352
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar 
 
 * Para Yahoo! Cuentas de Japan Ads, use el parámetro {lpurl}.
 
-* Para ver los parámetros disponibles para las cuentas de Microsoft Advertising y Google Ads, consulte los parámetros [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) o &quot;Solo plantilla de seguimiento&quot; en la sección sobre &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+* Para ver los parámetros disponibles para las cuentas de [!DNL Microsoft Advertising] y [!DNL Google Ads], consulte los parámetros [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
 Este valor anula la configuración de nivel de cuenta y de campaña, pero las plantillas de seguimiento a niveles más granulares (con palabra clave como valor más granular) anulan este valor.
 
@@ -350,7 +350,7 @@ Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar 
 
 * Para Yahoo! Cuentas de Japan Ads, use el parámetro {lpurl}.
 
-* Para ver los parámetros disponibles para las cuentas de Microsoft Advertising y Google Ads, consulte los parámetros [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) o &quot;Solo plantilla de seguimiento&quot; en la sección sobre &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+* Para ver los parámetros disponibles para las cuentas de [!DNL Microsoft Advertising] y [!DNL Google Ads], consulte los parámetros [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
 **\[Campos de anuncio alternativos debajo de los campos de anuncio originales\]:** (Opcional) Un conjunto alternativo de copia de anuncio para un anuncio, que puede utilizarse si alguna de las líneas de la copia de anuncio original supera la longitud máxima permitida una vez que algún parámetro dinámico se rellena con datos durante la propagación.
 

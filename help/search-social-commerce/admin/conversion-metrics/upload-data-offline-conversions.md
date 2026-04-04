@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: 787
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Puede cargar los datos de conversión sin conexión de origen, incluidas las dir
 
 `Parameters:TimeZone=insert_timezone`
 
-Escriba la zona horaria de la cuenta en esta ubicación o en la columna &quot;[!UICONTROL Conversion Time]&quot; de cada fila. Use a\) ([!DNL Google Ads only]) el [formato de id. de zona horaria admitido](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) o b\) el desplazamiento GMT, indicado por + o - y la diferencia horaria de 4 dígitos (como -0500 para Nueva York, +0100 para Berlín o +0000 para la hora del meridiano de Greenwich).
+Escriba la zona horaria de la cuenta en esta ubicación o en la columna &quot;[!UICONTROL Conversion Time]&quot; de cada fila. Use a\) ([!DNL [!DNL Google Ads] solamente]) el [formato de id. de zona horaria admitido](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) o b\) el desplazamiento GMT, tal como indican + o - y la diferencia horaria de 4 dígitos (como -0500 para Nueva York, +0100 para Berlín o +0000 para la hora del meridiano de Greenwich).
 
 ### Columnas y valores de tabla para [!DNL Google Ads]
 
