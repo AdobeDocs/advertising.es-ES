@@ -28,7 +28,7 @@ ht-degree: 0%
 
 *Solo anunciantes con una integración Adobe Advertising-Adobe Analytics*
 
-Puede utilizar métricas de eventos de éxito para optimizar paquetes de DSP y campañas de Search, Social y Commerce basadas en datos del sitio de Adobe Analytics que se ajusten mejor a los objetivos de su marca. Puede configurar métricas de eventos de éxito personalizadas basadas en sus [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) y [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=es) existentes canalizando datos de nivel [!DNL eVar] y [!DNL prop] en un evento. Otras métricas de [!DNL Analytics], incluidas las métricas de conversión estándar, personalizadas y reservadas y las métricas de tráfico, están disponibles automáticamente en DSP y en Search, Social y Commerce.
+Puede utilizar métricas de eventos de éxito para optimizar paquetes de DSP y campañas de Search, Social y Commerce basadas en datos del sitio de Adobe Analytics que se ajusten mejor a los objetivos de su marca. Puede configurar métricas de eventos de éxito personalizadas basadas en sus [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=es) y [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html?lang=es) existentes canalizando datos de nivel [!DNL eVar] y [!DNL prop] en un evento. Otras métricas de [!DNL Analytics], incluidas las métricas de conversión estándar, personalizadas y reservadas y las métricas de tráfico, están disponibles automáticamente en DSP y en Search, Social y Commerce.
 
 ![Ejemplo de uso](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Ejemplo de uso")
 
@@ -56,7 +56,7 @@ La mayoría de las tareas siguientes deben ser realizadas por un administrador d
    >
    >Solo los administradores de cuenta de [!DNL Analytics] pueden crear reglas de procesamiento a menos que hayan concedido permiso a usuarios que no sean administradores.
 
-   1. [Cree una regla de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en) con la siguiente configuración:
+   1. [Cree una regla de procesamiento](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=es) con la siguiente configuración:
 
       * Para la condición que debe cumplirse, especifique el [!DNL eVars] o [!DNL props] requerido.
 
