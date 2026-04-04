@@ -4,16 +4,12 @@ description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1396
 ht-degree: 0%
 
 ---
@@ -48,19 +44,17 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
    * **[!UICONTROL Objectives]** Abre una nueva vista de [!UICONTROL Objectives], desde la cual puede ver todos los objetivos existentes y crear, editar y eliminar objetivos.
 
-   * **[!UICONTROL Conversions]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Admin] > [!UICONTROL Conversions].
+<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
 
-   * **[!UICONTROL Conversion Value Rules]** abre vistas de solo lectura de las reglas de valor de conversión de nivel de cuenta y de campaña. Para administrar las reglas de valor de conversión, use la vista heredada [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+* **[!UICONTROL Conversion Value Rules]** abre vistas de solo lectura de las reglas de valor de conversión de nivel de cuenta y de campaña. Para administrar las reglas de valor de conversión, use la vista heredada [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Constraints]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Constraints].
+* **[!UICONTROL Constraints]** Abre una vista de sólo lectura de las restricciones existentes. Para administrar las restricciones, use la vista heredada [!UICONTROL Optimization] > [!UICONTROL Constraints]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenú **[!UICONTROL Plan]**:
 
-   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
-
-   * **[!UICONTROL Label Classification]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Label Classifications].
 
 * Submenú **[!UICONTROL Manage]**:
 
@@ -90,9 +84,15 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
    * **[!UICONTROL History Logs]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Insights & Reports] > [!UICONTROL Change History].
 
+   * **[!UICONTROL Label Classification]** abre una nueva vista de [!UICONTROL Label Classifications]. Puede administrar clasificaciones y asignar o dejar de asignar valores de clasificación a cualquier componente de cuenta aplicable que esté disponible en la nueva interfaz de usuario.
+
+   * **[!UICONTROL Bulksheets]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Bulksheets].
+
 * Submenú **[!UICONTROL Target]**:
 
-   * **[!UICONTROL Audience]**: abre una nueva vista de [!UICONTROL Audiences] que muestra todas las audiencias existentes del anunciante. Para administrar las audiencias, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Audiences]**: abre una nueva vista [!UICONTROL Audiences] que muestra todas las audiencias existentes del anunciante, todos los destinos de audiencia y todas las exclusiones de audiencia. Para administrar las audiencias, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+
+   * **[!UICONTROL Auto Targets]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
    * **[!UICONTROL Keywords]** Abre una nueva vista [!UICONTROL Keywords] que muestra las palabras clave existentes y las palabras clave negativas para el anunciante. Puede administrar asignaciones de restricción para palabras clave seleccionadas.
 
@@ -104,8 +104,6 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
 * Submenú **[!UICONTROL Assets]**:
 
-   * **[!UICONTROL Auto Targets]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
-
    * **[!UICONTROL Creatives]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
    * **[!UICONTROL Extensions]** abre vistas de solo lectura de sus extensiones de publicidad existentes. Para administrar sus extensiones, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
@@ -114,13 +112,15 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
 * Submenú **[!UICONTROL Set Up]**:
 
-   * **[!UICONTROL Accounts]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Manager Accounts]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Admin] > [!UICONTROL Manager Accounts].
+
+   * **[!UICONTROL Accounts]**: abre una nueva vista de [!UICONTROL Accounts]. Puede administrar las cuentas de red de publicidad sincronizadas mediante una conexión API o configuradas mediante la carga de datos. También puede administrar las cuentas existentes de [!UICONTROL Naver].
+
+   * **[!UICONTROL Import Campaigns]**: sale del nuevo sitio y abre la vista heredada [!UICONTROL Tools] > [!UICONTROL Import Campaigns].
 
 <!--
- What's happenening to these?
+ What's happening to these?
 
-Campaigns > ACM
-Campaigns > Bulksheets
 Campaigns > Asset Library
 
 Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
@@ -128,7 +128,6 @@ Insights > Notification Center (doesn't open from Dashboard > Alerts & Notificat
 Tools > Conversion Upload Setup
 Tools > Generic Tracking
 Tools > Inventory Selection
-Import Campaigns
 
 Tools > Admin > Data Source Setup
 -->

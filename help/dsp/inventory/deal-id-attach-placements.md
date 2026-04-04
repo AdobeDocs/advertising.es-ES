@@ -4,18 +4,13 @@ description: Aprenda a utilizar un acuerdo privado con ubicaciones y anuncios ad
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
 TQID: https://experienceleague.adobe.com/ZCFqnc6cQLEqahDoElttE7DzeZCR3IRx2lkyyb3BPMs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: ac506c20-96f2-48f6-9096-77706e336bda
-  - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: ac506c20-96f2-48f6-9096-77706e336bdaid: fae3ff5f-9a75-4de1-a100-c90dd8268528
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3b9845e85cd91cdece195593b43cbaf851368f9e
 workflow-type: tm+mt
-source-wordcount: 278
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -40,21 +35,21 @@ También puedes [adjuntar anuncios a ubicaciones](/help/dsp/campaign-management/
 
 1. En la configuración de [!UICONTROL Ad & Campaign Selection], seleccione los anuncios que se utilizarán para la ubicación:
 
-       1. Seleccione el anunciante, la campaña y el tipo de anuncio. Si lo desea, seleccione un estado de anuncio según el cual filtrar los anuncios.
-       
-       1. En la lista de anuncios disponibles, seleccione la casilla de verificación situada junto a cada anuncio que desee utilizar para la oferta.
-       
-       1. Haga clic en **[!UICONTROL Apply]**.
-   
-   1. En la pantalla de configuración de ubicación:
+   1. Seleccione el anunciante, la campaña y el tipo de anuncio. Si lo desea, seleccione un estado de anuncio según el cual filtrar los anuncios.
 
-      1. Introduzca el nombre de la ubicación.
+   1. En la lista de anuncios disponibles, seleccione la casilla de verificación situada junto a cada anuncio que desee utilizar para la oferta.
 
-      1. (Opcional) Edite la [configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md), incluida la sobrescritura de la oferta predeterminada, que se rellena automáticamente con el valor CPM de la oferta; el cambio del intervalo de fecha; o la adición de más anuncios.
+   1. Haga clic en **[!UICONTROL Apply]**.
+
+1. En la pantalla de configuración de ubicación:
+
+   1. Introduzca el nombre de la ubicación.
+
+   1. (Opcional) Edite la [configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md), incluida la sobrescritura de la oferta predeterminada, que se rellena automáticamente con el valor CPM de la oferta; el cambio del intervalo de fecha; o la adición de más anuncios.
 
       El acuerdo se establece automáticamente como objetivo en la sección Destinos de inventario. Todas las demás opciones de segmentación no son aplicables.
 
-      1. Haga clic en **[!UICONTROL Create placement]**.
+   1. Haga clic en **[!UICONTROL Create placement]**.
 
 La ubicación comienza a ejecutarse después de que el editor active su ID de acuerdo de PG.
 
