@@ -2,20 +2,20 @@
 title: Administrar las métricas de conversión de un anunciante
 description: Aprenda a utilizar las métricas de conversión que Adobe Advertising rastrea para un anunciante.
 feature: Conversions
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: ba96414b7104192d36d62842f52f73a5850190f9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
 # Administrar las métricas de conversión de un anunciante
 
-Las métricas [conversion](/help/search-social-commerce/glossary.md#c-d) de un anunciante se utilizan en Search, Social, &amp; Commerce y Advertising DSP:
+Las métricas [conversion](/help/search-social-commerce/glossary.md#c-d) de un anunciante se utilizan en todo Adobe Advertising:
 
 * En Search, Social y Commerce, los datos de las métricas de conversión se pueden mostrar en columnas en las vistas de administración de campañas, portafolios y objetivos, y en los informes. Los usuarios con privilegios de acceso suficientes también pueden utilizar métricas de conversión para crear objetivos, que se utilizan para optimizar los portafolios.
 
-* En Advertising DSP, puede usar métricas de conversión para crear [metas personalizadas](/help/dsp/optimization/custom-goal.md) que se usan para optimizar paquetes.
+* (Anunciantes con Advertising DSP) En DSP, puede incluir métricas de conversión en las vistas de administración de campañas, los objetivos personalizados y los informes personalizados. También puede usar métricas de conversión para crear [metas personalizadas](/help/dsp/optimization/custom-goal.md) que se usan para optimizar paquetes.
 
 Las métricas disponibles incluyen:
 
@@ -23,19 +23,21 @@ Las métricas disponibles incluyen:
 
 * [Métricas de conversión y participación del sitio sincronizadas desde Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md).
 
+* [Eventos del sitio sincronizados desde Adobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md).
+
 * Conversiones seguidas por [!DNL Google Ads] y conversiones seguidas por [!DNL Microsoft Advertising] etiquetas de seguimiento de eventos universales.
 
 * (Cuando [ha configurado una combinación específica de cuenta, propiedad y vista de  [!DNL Google Analytics] como fuente de datos](/help/search-social-commerce/admin/data-sources/data-source-about.md) para las conversiones de búsqueda, medios sociales y Commerce), rastreada por [!DNL Google Analytics].
 
-De la lista de métricas de conversión disponibles, cada usuario con acceso a los datos del anunciante puede personalizar las métricas que ve disponibles para las vistas de administración y los informes, incluidas u omitiendo las métricas específicas que elija.
+* Conversiones de fuentes personalizadas.
+
+De la lista de métricas de conversión disponibles, cada usuario con acceso a los datos del anunciante puede personalizar las métricas que ve disponibles para las vistas de administración y los informes, incluidas u omitiendo las métricas específicas que elija. Puede utilizar un nombre de métrica exactamente como se escribe en los datos recuperados o cambiar el nombre que se muestra en los encabezados de columna para facilitar la lectura.
 
 >[!IMPORTANT]
 >
 >De manera predeterminada, ninguna de las métricas de conversión de un anunciante (excepto las conversiones rastreadas por las etiquetas de seguimiento de eventos universales [!DNL Google Ads], [!DNL Google Analytics] y [!DNL Microsoft Advertising]) está disponible para su inclusión en las vistas, los objetivos y los informes de administración de portafolios y campañas. Para que una métrica de conversión esté disponible, debe habilitarla explícitamente.
 >
 >Las nuevas conversiones rastreadas por las etiquetas de seguimiento de eventos universales [!DNL Google Ads], [!DNL Google Analytics] y [!DNL Microsoft Advertising] siempre están disponibles automáticamente.
-
-Puede utilizar un nombre de métrica exactamente como se escribe en los datos recuperados o cambiar el nombre que se muestra en los encabezados de columna para facilitar la lectura.
 
 >[!TIP]
 >
@@ -65,7 +67,7 @@ No puede eliminar un nombre para mostrar existente.
 
    Los nombres para mostrar deben ser únicos y no pueden incluir los siguientes caracteres especiales: `\"<'>&`
 
-## Cambiar las métricas de conversión disponibles en las vistas de administración y en los informes {#conversion-metrics-change-available}
+## Cambiar las métricas de conversión disponibles en vistas de administración, objetivos e informes {#conversion-metrics-change-available}
 
 >[!NOTE]
 >
@@ -93,4 +95,4 @@ No puede eliminar un nombre para mostrar existente.
 
 >[!MORELIKETHIS]
 >
->* &#x200B;
+>* 
