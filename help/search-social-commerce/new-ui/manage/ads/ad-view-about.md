@@ -3,9 +3,10 @@ title: (Nueva interfaz de usuario) Acerca de la vista [!UICONTROL Ad Groups]
 description: Descubra lo que puede hacer en la vista [!UICONTROL Ads].
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+exl-id: 6a0a4b74-a767-4c4d-a823-0fbc3c738cd0
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -16,10 +17,17 @@ ht-degree: 0%
 
 La vista [!UICONTROL Manage] > [!UICONTROL Ads] enumera todos los anuncios de la vista filtrada de la cuenta de anunciante seleccionada.
 
+
 ## Acciones disponibles
 
-* [Asignar restricciones a grupos de anuncios y anular la asignación de restricciones de anuncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+* [Administrar informes de vista de datos desde la vista [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
+
+<!--
+* [Assign constraints to ad groups, and unassign constraints from ads](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+-->
+
+<!--  >* [Manage constraint assignments for ads](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)  -->
 
 >[!MORELIKETHIS]
 >
->* [Administrar asignaciones de restricción para los anuncios](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+>* [Administrar informes de vista de datos desde la vista [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)

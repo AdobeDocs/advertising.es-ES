@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
 workflow-type: tm+mt
-source-wordcount: 85
+source-wordcount: 89
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ La vista [!UICONTROL Manage] > [!UICONTROL Ad Groups] enumera todos los grupos d
 
 * [Asignar restricciones a grupos de anuncios y anular la asignación de restricciones de grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 
-* [Descargar datos de la vista [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+* [Administrar informes de vista de datos desde la vista [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
 
 >[!MORELIKETHIS]
 >
 >* [Administrar asignaciones de restricción para grupos de anuncios](ad-group-constraint-assignments-manage.md)
->* [Descargar datos de la vista [!UICONTROL Ad Groups]](ad-group-view-report.md)
+>* [Administrar informes de vista de datos desde la vista [!UICONTROL Ad Groups]](ad-group-view-report.md)
