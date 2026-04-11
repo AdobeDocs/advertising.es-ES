@@ -105,7 +105,7 @@ Para acceder a los segmentos de [!DNL Analytics], una cuenta de anunciante debe 
 
 [!DNL Analytics] segmentos están disponibles en un plazo de 24 horas y se actualizan diariamente.
 
-Para obtener más información sobre el servicio de audiencias de Experience Cloud, consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+Para obtener más información sobre el servicio de audiencias de Experience Cloud, consulte [Audiencias de Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=es).
 
 ## Ejemplos de cómo utilizar la integración {#integration-examples}
 
