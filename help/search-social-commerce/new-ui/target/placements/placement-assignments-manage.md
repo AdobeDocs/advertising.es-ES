@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo asignar restricciones a ubicacione
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+source-git-commit: be68246e63f5d9c7101b931a2509b53619622719
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 
 >[!NOTE]
 >
->* Si posteriormente edita una palabra clave o la copia de anuncio de un anuncio (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
+>* Si posteriormente edita una palabra clave o la copia de anuncio para un anuncio no mutable (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
 >* Las restricciones activas restringen las ofertas solo para las unidades de oferta asignadas en portafolios optimizados de nivel de palabra clave heredados. Se ignoran para las unidades de oferta que están en portafolios activos, en portafolios híbridos o que no están en portafolios.
 
 ## Asignar una restricción a las ubicaciones seleccionadas desde la nueva vista [!UICONTROL Placements]
