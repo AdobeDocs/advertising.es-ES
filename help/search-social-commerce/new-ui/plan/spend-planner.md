@@ -1,28 +1,22 @@
 ---
 title: Usando [!UICONTROL Spend Planner]
-description: Aprenda a utilizar [!UICONTROL Spend Planner] para identificar la distribución óptima del gasto en todos los portafolios.
-feature: Search Optimization, Search Portfolios, Search Simulations
+description: Aprenda a generar, descargar y aplicar recomendaciones de presupuesto de portafolio para ayudarle a lograr la distribución óptima del gasto en sus portafolios.
+feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
 TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 111739ac2da47170575d9b4dad39cfefe812fe0f
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: 798
 ht-degree: 0%
 
 ---
 
 # Usando [!UICONTROL Spend Planner]
 
-<!-- When this becomes a menu item, move file and TOC entry accordingly -->
-
-[!UICONTROL Spend Planner] (denominada &quot;Herramienta de recomendación de gastos&quot; en la interfaz de usuario heredada) identifica la distribución óptima del gasto en portafolios optimizados y activos con el mismo objetivo y moneda para que pueda obtener el máximo de ingresos o establecer como objetivo los objetivos del conjunto de portafolios.
+[!UICONTROL Spend Planner] (denominado &quot;[!UICONTROL Spend Recommendation Tool]&quot; en la interfaz de usuario heredada) identifica la distribución óptima de gasto en portafolios optimizados y activos con el mismo objetivo y moneda para que pueda maximizar los ingresos o los objetivos objetivo para el conjunto de portafolios.
 
 Al consultar un informe de recomendación de gasto para portafolios con presupuestos diarios, puede cambiar los presupuestos de cualquiera de los portafolios por los presupuestos recomendados.
 
@@ -38,7 +32,15 @@ Los informes de recomendación de gasto incluyen los siguientes datos:
 
 * Un gráfico de barras para cada uno de los portafolios, que muestra el gasto diario recomendado (coste) y la distribución de ingresos prevista o la distribución de clics cuando se mantiene el objetivo de gasto diario total actual en todos los portafolios seleccionados, o para un objetivo de gasto total propuesto. Si lo desea, puede aplicar los objetivos de gasto recomendados a los portafolios seleccionados, lo que afecta a las ofertas en el siguiente ciclo de ejecución de ofertas.
 
-## (Nueva IU) Generar un informe [!UICONTROL Spend Planner]
+## Acciones disponibles
+
+* Generar un informe de [!UICONTROL Spend Planner] desde [la nueva interfaz de usuario](#spend-recommendations-generate) o [la interfaz de usuario heredada](#spend-recommendations-generate-legacy)
+
+* [Aplicar recomendaciones de gasto](#spend-recommendations-apply) a los portafolios correspondientes.
+
+* [Abrir o guardar datos de informes de recomendaciones de gastos en un archivo](#spend-recommendations-download)
+
+## (Nueva IU) Generar un informe [!UICONTROL Spend Planner] {#spend-recommendations-generate}
 
 1. Realice una de las acciones siguientes:
 
@@ -68,7 +70,39 @@ Los informes de recomendación de gasto incluyen los siguientes datos:
 
    La herramienta de recomendación de gasto utiliza datos de simulaciones semanales, por lo que el gasto total recomendado es el que más se ajusta al objetivo de gasto propuesto con la combinación de gasto ideal.
 
-## (IU heredada) Generar un informe [!UICONTROL Spend Recommendation] desde la vista [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation]
+<!--
+
+New UI; validate post-Update steps once I get it to generate a report:
+
+## Generate a spend recommendation report {#spend-recommendations-generate}
+
+1. In the main menu, click **[!UICONTROL Plan] > [!UICONTROL Spend Planner]**.
+
+1. View data using the current, combined budgets for the selected portfolios:
+
+   1. Click **[!UICONTROL Select Objective]**.
+
+   1. Select the portfolio objective.
+
+   1. Select the currency.
+
+   1. (Optional) Select a portfolio spend strategy to further filter the portfolios list.
+
+   1. Select the check box next to each portfolio to include.
+
+      Only optimized and active portfolios with the selected parameters are listed.
+
+   1. Click **[!UICONTROL Update]**.
+
+   1. (Optional) To see the cost and revenue for any point on the chart, hold the cursor over the point.
+
+1. (Optional) To view the recommended daily spend and predicted revenue for each of the portfolios using a new total spend target, enter a proposed total daily spend target across all portfolios in the [!UICONTROL Total Spend Target] field. Then press the **Enter** key.
+
+   The spend recommendation tool uses data from weekly simulations, so the total recommended spend is the closest match to your proposed spend target with the ideal spend mix.
+
+-->
+
+## (IU heredada) Generar un informe [!UICONTROL Spend Recommendation] desde la vista [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation] {#spend-recommendations-generate-legacy}
 
 1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Spend Recommendation]**.
 
@@ -92,29 +126,44 @@ Los informes de recomendación de gasto incluyen los siguientes datos:
 
    La herramienta de recomendación de gasto utiliza datos de simulaciones semanales, por lo que el gasto total recomendado es el que más se ajusta al objetivo de gasto propuesto con la combinación de gasto ideal.
 
-## Aplicar recomendaciones de gasto
+## Aplicar recomendaciones de gasto {#spend-recommendations-apply}
 
 *Portafolios con presupuestos diarios solamente*
 
 >[!NOTE]
 >
->* Si los cambios aplicados aumentan o disminuyen el objetivo de gasto de cualquier portafolio en más del 20 %, recibirá una notificación y deberá aprobar el cambio.
+>* Si los cambios aplicados aumentan o disminuyen el objetivo de gasto de cualquier portafolio en más del 20 %, debe aprobar el cambio.
 >* Cuando el objetivo de gasto de un portafolio cambia en más del 20 %, Search, Social y Commerce tardan entre 3 y 4 días en ajustar sus modelos y lograr el nuevo objetivo.
 
 1. Ver el informe de recomendación de gasto de uno o más portafolios con presupuestos diarios.
 
-1. Seleccione la casilla de verificación situada junto a cada portafolio para el que desee aplicar el objetivo de gasto recomendado. Para seleccionar todos los portafolios, active la casilla de verificación situada junto a [!UICONTROL Select All Recommendations].
+1. Seleccione la casilla de verificación situada junto a cada portafolio para el que desee aplicar el objetivo de gasto recomendado. Para seleccionar todos los portafolios, active la casilla de verificación situada junto a **[!UICONTROL Select All Recommendations]**.
 
 1. Haga clic en **[!UICONTROL Apply Selected Recommendations]**.
 
 1. (Si alguno de los presupuestos cambiará en más del 20%) En el mensaje de confirmación, haga clic en **[!UICONTROL Yes]** para aprobar los cambios.
 
-## Abrir o guardar datos en un archivo
+<!-- 
 
-Puede exportar los datos del informe desde cualquier sección del informe [!UICONTROL Spend Recommendation]. Puede abrir o guardar los datos como un archivo de libro de [!DNL Microsoft Excel].
+New UI: Verify/edit all steps and edit accordingly:
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate) for one or more portfolios with daily budgets.
+...
+
+ -->
+
+## Abrir o guardar datos como un archivo de libro de [!DNL Microsoft Excel] {#spend-recommendations-download}
 
 1. Generar un informe de recomendación de gastos para los portafolios seleccionados.
 
 1. Encima del informe, haz clic en ![Descargar](/help/search-social-commerce/assets/download-spend-recommendation.png "Descargar").
 
-   Abra o guarde el archivo según el procedimiento normal del explorador.  Para obtener más información, consulte la ayuda en línea del explorador.
+   Abra o guarde el archivo según el procedimiento normal del explorador. Para obtener más información, consulte la ayuda en línea del explorador.
+
+<!--
+
+New UI:  Verify/edit all steps and edit accordingly:
+
+1. [Generate a spend recommendation report](#spend-recommendations-generate).
+...
+-->
