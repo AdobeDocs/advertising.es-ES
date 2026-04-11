@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e96580c9fdea3b61c40e6ae8acb5ac60b53de2b9
+source-git-commit: 26d99b0a731ff07dde9461e8390c7bb540b3cc21
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 441
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 
 >[!NOTE]
 >
->* Si posteriormente edita una palabra clave o la copia de anuncio de un anuncio (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
+>* Si posteriormente edita una palabra clave o la copia de anuncio para un anuncio no mutable (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
 >* Las restricciones activas restringen las ofertas solo para las unidades de oferta asignadas en portafolios optimizados de nivel de palabra clave heredados. Se ignoran para las unidades de oferta que están en portafolios activos, en portafolios híbridos o que no están en portafolios.
 
 ## Asignar una restricción a las campañas seleccionadas desde la nueva vista [!UICONTROL Campaigns]
