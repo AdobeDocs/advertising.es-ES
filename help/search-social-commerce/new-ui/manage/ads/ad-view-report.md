@@ -3,7 +3,7 @@ title: (Nueva IU) Administrar informes de vista de datos desde la vista [!UICONT
 description: Obtenga información sobre cómo generar, descargar y eliminar informes que contengan las filas de datos de uno o más anuncios en la vista [!UICONTROL Ads] de un informe.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: c74580e1cdec8e42da81b0014d7a49481319fdb5
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%

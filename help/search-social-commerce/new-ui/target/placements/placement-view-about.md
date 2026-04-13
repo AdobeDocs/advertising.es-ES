@@ -3,7 +3,8 @@ title: (Nueva interfaz de usuario) Acerca de la vista [!UICONTROL Placements]
 description: Descubra lo que puede hacer en la vista [!UICONTROL Placements].
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
+exl-id: d31afcd7-86f0-4ea0-8050-aab0027faa76
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
