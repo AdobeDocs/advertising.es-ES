@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 4%
@@ -27,7 +27,7 @@ ht-degree: 4%
    + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
    + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
    + [Soluciones de medición avanzadas](/help/dsp/introduction/advanced-measurement-services.md)
-+ [Busque documentación del producto mediante el chat asistido por IA](/help/dsp/agent-chat.md)
++ {hide-from-toc}[Busque documentación del producto mediante chat asistido por IA](/help/dsp/agent-chat.md)
 + Administración de campañas {#campaign-management}
    + [Información general sobre la administración de campañas en Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
    + Campañas {#campaigns}

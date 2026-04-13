@@ -3,7 +3,8 @@ title: (Nueva IU) Descargar datos de rendimiento para los objetivos
 description: Obtenga información sobre cómo descargar objetivos en un archivo de hoja de cálculo.
 feature: Search Optimization, Search Portfolios
 hide: true
-source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
+exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
+source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
