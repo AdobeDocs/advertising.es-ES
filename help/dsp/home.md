@@ -25,9 +25,9 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7e2b4ecc399a9bb243f3382f0dea913fc8181aad
+source-git-commit: 98cf5ffd2c8be3585c1c53643088594c200b2af3
 workflow-type: tm+mt
-source-wordcount: 6986
+source-wordcount: 7001
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 8 de abril de 2026 | [!UICONTROL Insights] | Se cambió el nombre de las métricas del insight [!UICONTROL Audience Funnel Analysis] en la ficha [!UICONTROL Audience Analysis]. | Consulte &quot;[Acerca de las perspectivas](/help/dsp/campaign-management/insights/insights-about.md)&quot;. |
 | 7 de abril de 2026 | Búsqueda de documentación asistida por IA | Use una nueva interfaz de chat de IA para buscar contenido conceptual y explicativo en la [Guía de Advertising DSP](/help/dsp/home.md) y (anunciantes con Advertising Creative) en la [Guía de Advertising Creative](/help/creative/home.md). Las respuestas incluyen citas, así como preguntas adicionales y preguntas de seguimiento para ayudarle a refinar su consulta y encontrar más información. | Consulte &quot;[Buscar documentación del producto mediante chat asistido por IA](/help/dsp/agent-chat.md)&quot;. |
 | 25 de marzo de 2026 | [!UICONTROL Insights] | Las nuevas perspectivas de [!UICONTROL Audience Analysis] muestran la eficacia de la segmentación de segmentos de audiencia en el nivel de ubicación: el tamaño del segmento se mantiene a lo largo del tiempo y el desglose diario de funnel de oferta. | Consulte &quot;[Acerca de las perspectivas](/help/dsp/campaign-management/insights/insights-about.md)&quot;. |
 | 16 de marzo de 2026 | Fuentes de audiencia de origen, ID universales | Ahora puede convertir las cookies y los ID de publicidad móvil, además de las direcciones de correo electrónico con hash, a ID universales para publicidad de destino, mediante la integración de DSP con [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), que forma parte de Adobe Experience Platform. Anteriormente, solo se podían convertir direcciones de correo electrónico con hash.<br><br>Para usar esta nueva funcionalidad, usa la nueva &quot;[conexión de Adobe Advertising DSP]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection&quot; en Experience Platform. Se cambió el nombre de la conexión heredada, que solo admite direcciones de correo electrónico con hash, a &quot;[Conexión heredada de DSP de Adobe Advertising Cloud]&#x200B;(https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy.&quot;<br><br>Si actualmente usa la conexión heredada, no necesita realizar ningún cambio inmediatamente. Sin embargo, la conexión heredada se eliminará en algún momento. | Consulte &quot;[Convertir los ID de usuario de [!DNL Adobe Real-Time CDP] a ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)&quot;, &quot;[Acerca de los orígenes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)&quot; y &quot;[Administrar orígenes de audiencia para activar audiencias de ID universales](/help/dsp/audiences/sources/source-manage.md)&quot;. |
