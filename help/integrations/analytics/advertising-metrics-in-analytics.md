@@ -1,21 +1,18 @@
 ---
 title: Métricas de Adobe Advertising en Analysis Workspace
-description: Métricas de Adobe Advertising en Analysis Workspace
+description: Métricas y clasificaciones de Adobe Advertising en Analysis Workspace
 feature: Integration with Adobe Analytics
 exl-id: da5e5704-4504-4fc5-93d2-db7d28f0c349
 TQID: https://experienceleague.adobe.com/CLPeE8g0Mix4Scq90qCd-s-tCUuBmkTBrkBWT1aPEhw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+autotag-review: '2026-04-13T23:29:38.865Z'
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: cfd751d4-ee56-4323-8fd1-dc174b031709
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
 workflow-type: tm+mt
-source-wordcount: 495
+source-wordcount: 183
 ht-degree: 0%
 
 ---
@@ -26,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* Adobe Advertising pasa diariamente métricas y dimensiones de tráfico a [!DNL Analytics].
+>* Adobe Advertising pasa diariamente métricas y clasificaciones de tráfico a [!DNL Analytics].
 >* [!DNL Analytics] captura clics y visualizaciones de Adobe Advertising en tiempo real.
 >* Para [!DNL Search, Social, & Commerce], esta característica es compatible con la mayoría de las redes de anuncios y tipos de campañas. Consulte &quot;[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md)&quot; en la guía [!DNL Search, Social, & Commerce] para obtener más información.
 
@@ -34,47 +31,58 @@ ht-degree: 0%
 
 Las métricas de tráfico de Adobe Advertising en [!DNL Analytics] suelen comenzar con &quot;Adobe Advertising&quot;, excepto &quot;[!UICONTROL AMO ID Instances]&quot;. Sin embargo, para los clientes a largo plazo que utilizaban un evento personalizado (en lugar de un evento reservado) para crear originalmente métricas de clics, costes e impresiones, esas métricas siguen empezando con &quot;AMO&quot;.
 
-| Métrica de tráfico | Descripción |
-| -------------- | ----------- |
-| [!UICONTROL Adobe Advertising Clicks] o (algunos clientes heredados) [!UICONTROL AMO Clicks] | Número total de clics en Adobe Advertising. |
-| [!UICONTROL Adobe Advertising Cost] o (algunos clientes heredados) [!UICONTROL AMO Cost] | Adobe Advertising invierte en la moneda del grupo de informes. |
-| [!UICONTROL Adobe Advertising Impressions] o (algunos clientes heredados) [!UICONTROL AMO Impressions] | Número de impresiones de Adobe Advertising. |
-| [!UICONTROL Adobe Advertising Measurable Impressions] | El número de impresiones servidas para las que se inicializó correctamente la instrumentación de visibilidad. Este valor se calcula como (impresiones instrumentadas: el número de impresiones no medibles). |
-| [!UICONTROL Adobe Advertising Minutes Viewed] | Cantidad de minutos que se vio un vídeo de Adobe Advertising. |
-| [!UICONTROL Adobe Advertising Not Viewable Impressions] | El número de impresiones que se determinó que no eran visibles. Este valor se calcula como ([!UICONTROL Adobe Advertising Measurable Impressions] - [!UICONTROL Adobe Advertising Viewable]). |
-| [!UICONTROL Adobe Advertising Viewable Impressions] | El número de impresiones que se midieron para poder verse según la configuración de ubicación. |
-| [!UICONTROL Adobe Advertising Views] | Número de vistas de un anuncio. Se cuenta una vista cuando el usuario inicia el vídeo de Adobe Advertising. |
-| [!UICONTROL Adobe Advertising Views 25% Complete] | El número de vistas para las que se vio al menos el 25 % de un vídeo de Adobe Advertising. |
-| [!UICONTROL Adobe Advertising Views 50% Complete] | El número de vistas para las que se vio al menos el 50 % de un vídeo de Adobe Advertising. |
-| [!UICONTROL Adobe Advertising Views 75% Complete] | El número de vistas para las que se vio al menos el 75 % de un vídeo de Adobe Advertising. |
-| [!UICONTROL Adobe Advertising Views 100% Complete] | El número de vistas para las que se vio el 100 % de un vídeo de Adobe Advertising. |
-| [!UICONTROL AMO ID Instances] | Número de veces que se ha establecido [!UICONTROL AMO ID]. |
+Consulte &quot;[Métricas de Adobe Advertising](https://experienceleague.adobe.com/en/docs/analytics/components/metrics/amo-metrics)&quot; para ver la lista.
 
-## Dimensiones de Adobe Advertising
+<!--
+
+| Traffic Metric | Description |
+| -------------- | ----------- |
+| [!UICONTROL Adobe Advertising Clicks] or (some legacy customers) [!UICONTROL AMO Clicks] | The number of total Adobe Advertising clicks. |
+| [!UICONTROL Adobe Advertising Cost] or (some legacy customers) [!UICONTROL AMO Cost] | The Adobe Advertising spend in the currency of the report suite. |
+| [!UICONTROL Adobe Advertising Impressions] or (some legacy customers) [!UICONTROL AMO Impressions] | The number of Adobe Advertising impressions. |
+| [!UICONTROL Adobe Advertising Measurable Impressions] | The number of impressions that were served for which viewability instrumentation successfully initialized. This value is calculated as (instrumented impressions - the number of unmeasurable impressions). |
+| [!UICONTROL Adobe Advertising Minutes Viewed] | The number of minutes an Adobe Advertising video was viewed. |
+| [!UICONTROL Adobe Advertising Not Viewable Impressions] | The number of impressions that were determined to be not viewable. This value is calculated as ([!UICONTROL Adobe Advertising Measurable Impressions] - [!UICONTROL Adobe Advertising Viewable]). |
+| [!UICONTROL Adobe Advertising Viewable Impressions] | The number of impressions that were measured to be viewable according to the placement configuration. |
+| [!UICONTROL Adobe Advertising Views] | The number of views on an ad. A view is counted when the viewer initiates the Adobe Advertising video. |
+| [!UICONTROL Adobe Advertising Views 25% Complete] | The number of views for which at least 25% of an Adobe Advertising video was watched. |
+| [!UICONTROL Adobe Advertising Views 50% Complete] | The number of views for which at least 50% of an Adobe Advertising video was watched. |
+| [!UICONTROL Adobe Advertising Views 75% Complete] | The number of views for which at least 75% of an Adobe Advertising video was watched. |
+| [!UICONTROL Adobe Advertising Views 100% Complete] | The number of views for which 100% of an Adobe Advertising video was watched. |
+| [!UICONTROL AMO ID Instances] | The number of times the [!UICONTROL AMO ID] is set. |
+
+-->
+
+## Clasificaciones de Adobe Advertising
+
+Ver &quot;[](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#classifications).&quot;
+<!--
 
 >[!NOTE]
 >
->Todas las dimensiones de Adobe Advertising de [!DNL Analytics] van seguidas de &quot;[!DNL (AMO ID)]&quot;.
+>All Adobe Advertising dimensions in [!DNL Analytics] are followed by "[!DNL (AMO ID)]."
 
-| Dimensión | Datos de Adobe Advertising aplicables | Descripción |
+| Dimension | Applicable Adobe Advertising Data  | Description |
 | ----------- | ---------- | ---------- |
-| [!UICONTROL Ad Platform (AMO ID)] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | Advertising DSP o el nombre del motor de búsqueda |
-| [!UICONTROL Account (AMO ID] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | El nombre de la cuenta. |
-| [!UICONTROL Network (AMO ID)] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | RTB ([!DNL DSP]) o el nombre de la red de anuncios ([!DNL Search, Social, & Commerce]) |
-| [!UICONTROL Campaign (AMO ID)] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | Nombre de la campaña. |
-| [!UICONTROL Optimization (AMO ID)] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | El nombre del paquete ([!DNL DSP]) o portafolio ([!DNL Search, Social, & Commerce]). |
-| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] datos | El nombre de la ubicación. |
-| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search, Social, & Commerce] datos | El nombre del grupo de publicidad. |
-| [!UICONTROL Keyword (AMO ID)] | [!DNL Search, Social, & Commerce] datos | La palabra clave. |
-| [!UICONTROL Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] datos | El tipo de coincidencia de búsqueda. |
-| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] datos | La palabra clave y el tipo de coincidencia. |
-| [!UICONTROL Ad Type (AMO ID)] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | El tipo de anuncio, como `text`, `video`, `display` o `native`. |
-| [!UICONTROL Ad Title (AMO ID)] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | El tipo de anuncio ([!DNL DSP]) o el título del anuncio ([!DNL Search, Social, & Commerce]). |
-| [!UICONTROL Ad Description (AMO ID)] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | La descripción del anuncio ([!DNL DSP]) o el cuerpo del anuncio ([!DNL Search, Social, & Commerce]). |
-| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search, Social, & Commerce] datos | Dirección URL mostrada en el anuncio. |
-| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search, Social, & Commerce] datos | La URL de destino del anuncio. |
-| [!UICONTROL Landing Type (AMO ID)] | Datos de [!DNL DSP] y [!DNL Search, Social, & Commerce] | Si la entrada de la página de aterrizaje fue una visualización o un clic. |
-| [!UICONTROL Product Target (AMO ID)] | [!DNL Search, Social, & Commerce] datos | El destino de un producto para un anuncio de lista de productos. |
+| [!UICONTROL Ad Platform (AMO ID)] | [!DNL DSP] and [!DNL Search, Social, & Commerce] data | Advertising DSP or the search engine name |
+| [!UICONTROL Account (AMO ID] | [!DNL DSP] and [!DNL Search, Social, & Commerce] data | The account name. |
+| [!UICONTROL Network (AMO ID)] | [!DNL DSP] and [!DNL Search, Social, & Commerce] data | RTB ([!DNL DSP]) or the ad network name ([!DNL Search, Social, & Commerce]) |
+| [!UICONTROL Campaign (AMO ID)] | [!DNL DSP] and [!DNL Search, Social, & Commerce] data | The campaign name. |
+| [!UICONTROL Optimization (AMO ID)] | [!DNL DSP] and [!DNL Search, Social, & Commerce] data | The package ([!DNL DSP]) or portfolio ([!DNL Search, Social, & Commerce]) name. |
+| [!UICONTROL Placement (AMO ID)] | [!DNL DSP] data | The placement name. |
+| [!UICONTROL Ad Group (AMO ID)] | [!DNL Search, Social, & Commerce] data | The ad group name. |
+| [!UICONTROL Keyword (AMO ID)] | [!DNL Search, Social, & Commerce] data | The keyword. |
+| [!UICONTROL Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] data | The search match type. |
+| [!UICONTROL Keyword Match Type (AMO ID)] | [!DNL Search, Social, & Commerce] data | The keyword and match type. |
+| [!UICONTROL Ad Type (AMO ID)] | [!DNL DSP] and [!DNL Search, Social, & Commerce] data | The ad type, such as `text`, `video`, `display`, or `native`. |
+| [!UICONTROL Ad Title (AMO ID)] | [!DNL DSP] and [!DNL Search, Social, & Commerce] data |The ad type ([!DNL DSP]) or ad title ([!DNL Search, Social, & Commerce]). |
+| [!UICONTROL Ad Description (AMO ID)] | [!DNL DSP] and [!DNL Search, Social, & Commerce] data | The ad description ([!DNL DSP]) or ad body ([!DNL Search, Social, & Commerce]). |
+| [!UICONTROL Ad Display URL (AMO ID)] | [!DNL Search, Social, & Commerce] data | The URL displayed in the ad. |
+| [!UICONTROL Ad Destination URL (AMO ID)] | [!DNL Search, Social, & Commerce] data | The destination URL for the ad. |
+| [!UICONTROL Landing Type (AMO ID)] | [!DNL DSP] and [!DNL Search, Social, & Commerce] data | Whether the landing page entry was a view-through or a click-through. |
+| [!UICONTROL Product Target (AMO ID)] | [!DNL Search, Social, & Commerce] data | The product target for a product listing ad. |
+
+-->
 
 ## Métricas calculadas personalizadas y útiles para Adobe Advertising
 
