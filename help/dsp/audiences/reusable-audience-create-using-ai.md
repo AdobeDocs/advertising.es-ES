@@ -2,12 +2,11 @@
 title: Creación de una audiencia reutilizable mediante IA generativa
 description: Aprenda a crear audiencias reutilizables en Adobe Advertising DSP mediante el agente de audiencia asistida por IA. Describa la audiencia de destino en mensajes en lenguaje natural; el agente sugiere segmentos de terceros y crea expresiones de audiencia para utilizarlas como objetivos o exclusiones.
 feature: DSP Audiences
-hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,9 +17,9 @@ ht-degree: 0%
 
 *Sólo soporte en inglés*
 
-<!-- Redo the legacy file to include the new info. It's probably cleanest to keep it as two separate procedures (gen AI and manually) rather than one big, long procedure. -->
+<!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Utilice el agente de audiencia asistida por IA para generar nuevas audiencias reutilizables utilizando todos los segmentos de terceros disponibles para usted, según sus requisitos declarados. Puede usar las audiencias como destinatarios o exclusiones para varias ubicaciones.
+Utilice el agente de audiencia asistida por IA para generar nuevas audiencias reutilizables utilizando todos los segmentos de origen y de terceros disponibles para usted, según sus requisitos declarados. Puede usar las audiencias como destinatarios o exclusiones para varias ubicaciones.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -29,6 +28,18 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 >Esta función se encuentra en modo beta y está sujeta a cambios. Asegúrese de que la expresión de audiencia generada representa la audiencia que desea antes de crear la audiencia y utilizarla para sus ubicaciones.
 
 ## Creación de una audiencia reutilizable mediante IA generativa
+
+<!--
+*Beta feature*
+
+*Support for English only*
+
+>[!NOTE]
+>
+>This feature is in beta mode and is subject to change. Make sure that the generated audience expression represents the audience you want before creating the audience and using it for your placements.
+-->
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -70,6 +81,8 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
 ## Conceptos básicos de escritura de indicadores {#writing-prompts}
 
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
 ### ¿Qué debe incluir un mensaje?
 
 * Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
@@ -95,17 +108,11 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 Consulte &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot; para ver más formas de optimizar las peticiones de datos para audiencias.
 
 <!--
- I think these are happening later:
+Consider starting by asking for what you should include.
 
-DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
+you can give thumbs up or down to [what exactly?].
 
-you can use a predefined prompt (fill in the blanks, and some fields might have selectors where you can choose values)
-
-Over time, DSP XXXX defaults [clarify this]
-
- onsider starting by asking for a general template, which contains placeholder values that you can replace with your desired values. The default template is something like "Create a xxx with NNN xxx."
-
-you can give thumbs up or down to [what exactly?]. Verify what info is carried over from session to session and what starts from scratch.
+Verify what info is carried over from session to session and what starts from scratch.
 
 -->
 
@@ -121,7 +128,7 @@ Cuando el agente de audiencia necesite una respuesta de su parte, puede responde
 
 #### El agente de audiencia le hace una pregunta
 
-`If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
 Su respuesta afirmativa: &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar
 
