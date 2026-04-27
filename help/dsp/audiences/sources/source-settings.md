@@ -3,9 +3,9 @@ title: Configuración de origen de audiencia
 description: Obtenga información acerca de la configuración de las fuentes de audiencia.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (solo visibilidad de nivel de anunciante) El anunciante para el que los segmentos están disponibles. Seleccione uno de la lista de anunciantes con acceso a la cuenta.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] orígenes solamente) El identificador de organización de Adobe Experience Cloud para la cuenta [!DNL Adobe Experience Platform].
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] orígenes solamente) El identificador de organización de Adobe CX Enterprise para la cuenta [!DNL Adobe Experience Platform].
 
 **[!UICONTROL Convert PII to the following IDs]:** Tipos de ID a los que convertirá su información de identificación personal (PII). Si selecciona varios tipos, el segmento generado se rellena con valores para cada tipo de ID seleccionado (como un [!DNL RampID] y un [!DNL Unified ID2.0] para cada dirección de correo electrónico). Los cargos por datos se aplican según corresponda.
 
@@ -30,7 +30,7 @@ Para [!DNL RampID] y [!DNL Unified ID2.0], el proveedor busca cada dirección de
 
 * *[!DNL RampID]:* Para convertir PII en [!DNL RampID]. Puede usar [!DNL RampIDs] para volver a dirigirse a los usuarios que iniciaron sesión y para la medición de [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta):* Para convertir PII en un ID de [Unified ID 2.0](https://unifiedid.com) para redireccionar a los usuarios que iniciaron sesión.
+* *[!DNL Unified ID2.0](Beta):* Para convertir PII en un ID de [Unified ID 2.0](https://unifiedid.com) para redireccionar a los usuarios que iniciaron sesión.
 
 <!--
  Later
@@ -47,5 +47,5 @@ Para [!DNL RampID] y [!DNL Unified ID2.0], el proveedor busca cada dirección de
 >* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
 >* [Acerca de las fuentes de audiencia de origen](source-about.md)
 >* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)

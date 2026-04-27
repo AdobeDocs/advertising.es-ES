@@ -1,20 +1,20 @@
 ---
-user-guide-title: Integraciones con Adobe Experience Cloud
-user-guide-description: Obtenga información acerca las integraciones de Advertising DSP y Advertising Search con otros productos y servicios de Adobe Experience Cloud.
-breadcrumb-title: Integraciones con Experience Cloud
+user-guide-title: Integraciones con Adobe CX Enterprise
+user-guide-description: Obtenga información acerca de las integraciones de Advertising DSP y Advertising Search con otros productos y servicios de Adobe CX Enterprise (anteriormente, Adobe Experience Cloud).
+breadcrumb-title: Integraciones con CX Enterprise
 role: User, Developer
 index: true
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 11%
+source-wordcount: '266'
+ht-degree: 1%
 
 ---
 
 
-# Integraciones de Adobe Advertising con Adobe Experience Cloud {#integrations}
+# Integraciones de Adobe Advertising con Adobe CX Enterprise {#integrations}
 
-+ [Novedades](/help/integrations/home.md)
++ [¿Qué hay de nuevo?](/help/integrations/home.md)
 + [!DNL Analytics for Advertising] {#analytics}
    + [Información general de  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
    + [ID de Adobe Advertising utilizados por  [!DNL Analytics]](/help/integrations/analytics/ids.md)
@@ -53,4 +53,4 @@ ht-degree: 11%
    + [ID de Adobe Advertising utilizados por Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)
    + [Configuración de la recopilación de datos, la transferencia de datos y la creación de informes](/help/integrations/customer-journey-analytics/set-up.md)
    + [Métricas y dimensiones de Adobe Advertising en Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Tutoriales de vídeo sobre integraciones de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=es)
++ [Tutoriales en vídeo sobre integraciones de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)

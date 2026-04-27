@@ -4,17 +4,13 @@ description: Aprenda a crear  [!DNL Google Ads] audiencias de coincidencia de cl
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/Ep3X-eo2kcGlW3NsV3CJEKBkEapa-oAv0HLexc1xnhM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 586
 ht-degree: 0%
 
 ---
@@ -25,7 +21,7 @@ ht-degree: 0%
 
 *Anunciantes con una integración Adobe Advertising-Adobe Audience Manager o Adobe Advertising-Adobe Analytics solamente*
 
-Los anunciantes de inclusión pueden crear audiencias de coincidencia de clientes de [!DNL Google Ads] con los ID de usuario a partir de: [!DNL Analytics] segmentos que se comparten con Adobe Experience Cloud y b) segmentos de Audience Manager que tienen Search, Social y Commerce como destino, incluidos [!DNL Analytics] segmentos publicados en Adobe Experience Cloud y segmentos creados con la biblioteca de audiencias de Adobe Experience Cloud. Search, Social y Commerce devuelven automáticamente una URL de seguimiento [!DNL Google] a cada segmento [!DNL Analytics] o Audience Manager para que [!DNL Google] pueda rastrear la audiencia.
+Los anunciantes de inclusión pueden crear audiencias de coincidencia de clientes de [!DNL Google Ads] con los ID de usuario a partir de: [!DNL Analytics] segmentos que se comparten con Adobe CX Enterprise y b) segmentos de Audience Manager que tienen Search, Social y Commerce como destino, incluidos [!DNL Analytics] segmentos publicados en Adobe CX Enterprise y segmentos creados con la biblioteca de audiencias de Adobe CX Enterprise. Search, Social y Commerce devuelven automáticamente una URL de seguimiento [!DNL Google] a cada segmento [!DNL Analytics] o Audience Manager para que [!DNL Google] pueda rastrear la audiencia.
 
 Cada audiencia [!DNL Adobe] se puede usar para una sola audiencia [!DNL Google].
 
@@ -33,7 +29,7 @@ Cada nueva audiencia [!DNL Google] tiene el mismo nombre que la audiencia [!DNL 
 
 >[!TIP]
 >
->Para la segmentación en tiempo real, utilice audiencias creadas por Audience Manager. Los segmentos creados en [!DNL Analytics] y sincronizados con Adobe Experience Cloud pueden tener poblaciones más pequeñas porque solo se sincronizan diariamente; es posible que un internauta que cumpla los requisitos para un segmento no se incluya en el segmento hasta el día siguiente. Los segmentos de [!DNL Analytics] tienen la fuente de datos &quot;grupo de informes - .&quot;
+>Para la segmentación en tiempo real, utilice audiencias creadas por Audience Manager. Los segmentos creados en [!DNL Analytics] y sincronizados con Adobe CX Enterprise pueden tener poblaciones más pequeñas porque solo se sincronizan diariamente; es posible que un internauta que cumpla los requisitos para un segmento no se incluya en el segmento hasta el día siguiente. Los segmentos de [!DNL Analytics] tienen la fuente de datos &quot;grupo de informes - .&quot;
 
 >[!NOTE]
 >
@@ -43,7 +39,7 @@ Cada nueva audiencia [!DNL Google] tiene el mismo nombre que la audiencia [!DNL 
 
    1. (Para crear audiencias de lista de remarketing con ID de usuario) Un usuario administrador de [!DNL Adobe] o administrador de cuentas debe seleccionar la configuración de nivel de anunciante para habilitar las audiencias de coincidencia de clientes.
 
-   1. Implemente el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=es) versión 2.0 o superior.
+   1. Implemente el [Servicio de identidad de Adobe Experience Platform](https://experienceleague.adobe.com/docs/id-service/using/home.html) versión 2.0 o superior.
 
    1. Implemente la siguiente etiqueta lo más alto posible en las páginas web del anunciante desde las que se debe realizar el seguimiento de la audiencia
 
@@ -53,49 +49,49 @@ Cada nueva audiencia [!DNL Google] tiene el mismo nombre que la audiencia [!DNL 
 
       Ejemplo: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
-   1. (Si aún no se ha completado) Un usuario autorizado debe configurar la cuenta del anunciante para [sincronizar con la cuenta de organización del anunciante en Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
+   1. (Si aún no se ha completado) Un usuario autorizado debe configurar la cuenta del anunciante para [sincronizar con la cuenta de organización del anunciante en Adobe CX Enterprise](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
-1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. In the main menu, click **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
+1. In the toolbar above the data table, click ![Create](/help/search-social-commerce/assets/add.png "Create").
 
-1. Seleccione la red publicitaria y el nombre de cuenta y, a continuación, haga clic en **[!UICONTROL Continue]**.
+1. Select the ad network and the account name, and then click **[!UICONTROL Continue]**.
 
-1. Especifique la información de la audiencia:
+1. Specify the audience information:
 
-   1. En el menú **[!UICONTROL Data Source]**, seleccione **[!UICONTROL Adobe Audience]**.
+   1. In the **[!UICONTROL Data Source]** menu, select **[!UICONTROL Adobe Audience]**.
 
-   1. Seleccione el(la) [!UICONTROL Adobe Audience] en el que desea basar la audiencia [!DNL Google].
+   1. Select the [!UICONTROL Adobe Audience] on which to base the [!DNL Google] audience.
 
       >[!NOTE]
       >
-      >Las audiencias de [!DNL Adobe] que ya se han usado para otra audiencia de [!DNL Google] no están disponibles.
+      >[!DNL Adobe] audiences that are already used for another [!DNL Google] audience aren&#39;t available.
 
-      Si lo desea, puede buscar audiencias que contengan una cadena de texto específica con un mínimo de tres caracteres. Para cualquier audiencia que coincida, haga clic en **[!UICONTROL Include]** para seleccionarlo.
+      You can optionally search for audiences that contain a specific text string with a minimum of three characters. For any matching audience, click **[!UICONTROL Include]** to select it.
 
-      Si selecciona varias audiencias de [!DNL Adobe], se crea una audiencia de [!DNL Google] independiente para cada una.
+      If you select multiple [!DNL Adobe] audiences, then a separate [!DNL Google] audience is created for each.
 
-   1. Seleccione **[!UICONTROL Audience Type]** para crear: **[!UICONTROL Customer List_User ID]**.
+   1. Select the **[!UICONTROL Audience Type]** to create: **[!UICONTROL Customer List_User ID]**.
 
-      La cuenta del anunciante [!DNL Google Ads] debe ser [elegible para la coincidencia personalizada](https://support.google.com/adspolicy/answer/6299717) y se ha suscrito para el [remarketing de ID de usuario](https://support.google.com/google-ads/answer/9199250).
+      The advertiser&#39;s [!DNL Google Ads] account must be [eligible for custom match](https://support.google.com/adspolicy/answer/6299717) and opted in for [user ID remarketing](https://support.google.com/google-ads/answer/9199250).
 
-   1. Active la casilla de verificación para indicar que está de acuerdo con los términos de [!DNL Adobe] y las directivas de privacidad de red de anuncios.
+   1. Select the check box to indicate that you agree with the terms of the [!DNL Adobe] and ad network privacy policies.
 
-   1. Especifique el número de **[!UICONTROL Membership Days]**, que es el número de días que la cookie de un usuario permanece en la audiencia.
+   1. Specify the number of **[!UICONTROL Membership Days]**, which is the number of days a user&#39;s cookie stays in the audience.
 
-      Utilice el periodo de tiempo durante el cual espera que el anuncio sea relevante para el usuario. Las listas de remarketing tienen una duración máxima de 540 días. Las listas de clientes no tienen una duración máxima; para indicar que la cookie nunca caduca, escriba 10000.
+      Use the length of time for which you expect your ad to be relevant to the user. Remarketing lists have a maximum duration of 540 days. Customer lists don&#39;t have a maximum duration; to indicate that the cookie never expires, enter 10000.
 
-   1. Haga clic en **[!UICONTROL Post]**.
+   1. Click **[!UICONTROL Post]**.
 
 >[!NOTE]
 >
->* [!DNL Google] puede tardar hasta 24 horas en procesar el archivo.
+>* [!DNL Google] may take up to 24 hours to process the file.
 >
->* Ver [[!DNL Google Ads] documentación sobre cómo funciona la coincidencia de clientes y las limitaciones](https://support.google.com/displayvideo/answer/9539301).
+>* See [[!DNL Google Ads] documentation on how customer match works and limitations](https://support.google.com/displayvideo/answer/9539301).
 
 >[!MORELIKETHIS]
 >
->* [Acerca de las audiencias](audience-about.md)
->* [Crear una audiencia de  [!DNL Google Ads] customer match a partir de una lista de correo electrónico de Adobe Campaign](google-audience-from-campaign-email-list.md)
->* [Administrar audiencias de coincidencia de clientes mediante listas de datos de clientes](audience-from-customer-data-list.md)
->* [Administrar audiencias de remarketing dinámico](audience-dynamic-remarketing-manage.md)
+>* [About audiences](audience-about.md)
+>* [Create a [!DNL Google Ads] customer match audience from an Adobe Campaign email list](google-audience-from-campaign-email-list.md)
+>* [Manage customer match audiences using customer data lists](audience-from-customer-data-list.md)
+>* [Manage dynamic remarketing audiences](audience-dynamic-remarketing-manage.md)

@@ -5,19 +5,13 @@ feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
 TQID: https://experienceleague.adobe.com/16JkyKVsVoBIGKEbhEIH7HWZ-H-XkjBad7yq9-NhY3s
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: 1101
 ht-degree: 0%
 
 ---
@@ -32,7 +26,7 @@ ht-degree: 0%
 
 La Ley de Privacidad del Consumidor de California (CCPA) es la nueva ley de privacidad de California que entró en vigor el 1 de enero de 2020. La CCPA otorga a los residentes de California nuevos derechos con respecto a su información personal e impone responsabilidades de protección de datos a ciertas entidades que hacen negocios en California. La CCPA otorga a los consumidores el derecho de acceder a sus datos y eliminarlos, así como el derecho de exclusión de determinadas actividades que pueden considerarse &quot;vendedoras&quot; de información personal a terceros.
 
-Como empresa, determinará los datos personales que Adobe Experience Cloud procesa y almacena en su nombre.
+Como empresa, determinará los datos personales que Adobe CX Enterprise procesa y almacena en su nombre.
 
 Como proveedor de servicio, Adobe Advertising proporciona asistencia a su empresa para que cumpla con las obligaciones que le impone CCPA y que son aplicables al uso de los productos y servicios de Adobe Advertising, incluida la administración de las solicitudes de los consumidores de acceso y eliminación de información personal y la administración de las solicitudes de los consumidores de exclusión de la venta de información personal.
 
@@ -61,33 +55,33 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
 
 ### Método 2: Comunicar las solicitudes de exclusión de CCPA mediante la API de Adobe Experience Platform Privacy Service
 
-*Anunciantes asignados solo a un ID de organización de Adobe Experience Cloud*
+*Anunciantes asignados solo a un ID de organización de Adobe CX Enterprise*
 
-1. Implemente una biblioteca JavaScript para recuperar las cookies del cliente. Se utiliza la misma biblioteca `AdobePrivacy.js` para todas las soluciones de Adobe Experience Cloud.
+1. Implemente una biblioteca JavaScript para recuperar las cookies del cliente. Se utiliza la misma biblioteca `AdobePrivacy.js` para todas las soluciones de Adobe CX Enterprise.
 
    >[!IMPORTANT]
    >
-   >Las solicitudes a algunas soluciones de Adobe Experience Cloud no requieren la biblioteca de JavaScript, pero las solicitudes a Adobe Advertising sí la requieren.
+   >Las solicitudes a algunas soluciones de Adobe CX Enterprise no requieren la biblioteca de JavaScript, pero las solicitudes a Adobe Advertising sí la requieren.
 
    Debe implementar la biblioteca en la página web desde la que los clientes pueden enviar solicitudes de exclusión de venta, como el portal de privacidad de la compañía. La biblioteca le ayuda a recuperar las cookies de Adobe (ID de área de nombres: `gsurferID`) para que pueda enviar estas identidades como parte de solicitudes de exclusión de venta a través de la API de Adobe Experience Platform Privacy Service.
 
-1. Identifique su ID de organización de Experience Cloud y asegúrese de que esté vinculado a sus cuentas de Adobe Advertising.
+1. Identifique su ID de organización de CX Enterprise y asegúrese de que esté vinculado a sus cuentas de Adobe Advertising.
 
-   Un ID de organización de Experience Cloud es una cadena alfanumérica de 24 caracteres anexada a &quot;@AdobeOrg&quot;. A la mayoría de los clientes de Experience Cloud se les ha asignado un ID de organización. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen el ID de la organización o no están seguros de si se ha proporcionado, póngase en contacto con el equipo de cuenta de Adobe. Necesitará el identificador de organización para enviar solicitudes a la API de privacidad mediante el área de nombres `imsOrgID`.
+   Un ID de organización de CX Enterprise es una cadena alfanumérica de 24 caracteres anexada a &quot;@AdobeOrg&quot;. A la mayoría de los clientes de CX Enterprise se les ha asignado un ID de organización. Si el equipo de marketing o el administrador interno del sistema de Adobe no conocen el ID de la organización o no están seguros de si se ha proporcionado, póngase en contacto con el equipo de cuenta de Adobe. Necesitará el identificador de organización para enviar solicitudes a la API de privacidad mediante el área de nombres `imsOrgID`.
 
    >[!IMPORTANT]
    >
-   >Póngase en contacto con el representante de Adobe Advertising de su compañía para confirmar que todas las cuentas de Adobe Advertising de su organización, incluidas las cuentas de [!DNL DSP] o anunciantes, las cuentas de [!DNL Search, Social, & Commerce] y las cuentas de [!DNL Creative] o [!DNL DCO], están vinculadas a su ID de organización de Experience Cloud.
+   >Póngase en contacto con el representante de Adobe Advertising de su compañía para confirmar que todas las cuentas de Adobe Advertising de su organización, incluidas las cuentas de [!DNL DSP] o anunciantes, las cuentas de [!DNL Search, Social, & Commerce] y las cuentas de [!DNL Creative] o [!DNL DCO], están vinculadas a su ID de organización de CX Enterprise.
 
-1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=es) a Adobe Advertising en nombre de los consumidores y para comprobar el estado de las solicitudes existentes.
+1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) a Adobe Advertising en nombre de los consumidores y para comprobar el estado de las solicitudes existentes.
 
    Consulte el apéndice siguiente para ver un ejemplo de solicitud de exclusión de la venta.
 
    >[!NOTE]
    >
-   >Si su empresa tiene varios ID de organización de Experience Cloud, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] y [!DNL DCO]), con una cuenta por subsolución.
+   >Si su empresa tiene varios ID de organización de CX Enterprise, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] y [!DNL DCO]), con una cuenta por subsolución.
 
-Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es).
+Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Recuperación de informes de consumidores que enviaron solicitudes de exclusión de la venta
 
@@ -144,7 +138,7 @@ curl -X POST \
 }'
 ```
 
-donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix):
+donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica el espacio de cookies `AdCloud`, y el valor correspondiente es el ID de cookie del cliente recuperado de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que la solicitud se aplica al producto Adobe Advertising

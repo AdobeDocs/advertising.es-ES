@@ -4,16 +4,12 @@ description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 1f88e6a2136c1f60c75280a3edaf20ad55dc8290
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 1396
+source-wordcount: 1392
 ht-degree: 0%
 
 ---
@@ -56,7 +52,7 @@ Su función determina las opciones disponibles:<!-- add link when available -->
 
 * Submenú **[!UICONTROL Plan]**:
 
-   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -148,17 +144,17 @@ Utilice el campo de búsqueda situado encima del menú principal para buscar opc
 
 ## Otros menús basados en tareas e información en la esquina superior derecha
 
-### Fila superior: menú Experience Cloud
+### Fila superior: menú CX Enterprise
 
-* Una lista seleccionable de organizaciones de Experience Cloud a las que tiene acceso.
+* Una lista seleccionable de organizaciones de CX Enterprise a las que tiene acceso.
 
 * ![Centro de ayuda](/help/search-social-commerce/assets/help-main-menu.png "Centro de ayuda") Menú de ayuda que incluye vínculos a documentación y otra información.
 
-* ![Notificaciones](/help/search-social-commerce/assets/notifications-aec.png "Notificaciones") Panel que enumera solicitudes, notificaciones y anuncios de Experience Cloud.
+* ![Notificaciones](/help/search-social-commerce/assets/notifications-aec.png "Notificaciones") Panel que enumera solicitudes, notificaciones y anuncios de CX Enterprise.
 
-* ![Aplicaciones](/help/search-social-commerce/assets/apps.png "Aplicaciones") Una lista de soluciones y servicios de Adobe Experience Cloud a los que puede cambiar.
+* ![Aplicaciones](/help/search-social-commerce/assets/apps.png "Aplicaciones") Una lista de soluciones y servicios de Adobe CX Enterprise a los que puede cambiar.
 
-* ![Cuenta](/help/search-social-commerce/assets/account.png "Cuenta") Información sobre tu perfil de cuenta de Experience Cloud, desde el cual puedes editar tus preferencias y cerrar sesión.
+* ![Cuenta](/help/search-social-commerce/assets/account.png "Cuenta") Información sobre tu perfil de cuenta de CX Enterprise, desde el cual puedes editar tus preferencias y cerrar sesión.
 
 ### Segunda fila: menú Búsqueda adicional, Social y Commerce
 
@@ -208,15 +204,15 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Su función det
 
 * ![Notificaciones de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificaciones de alerta") Panel que enumera las notificaciones de Search, Social y Commerce.
 
-  Cuando has iniciado sesión [a través de Adobe Experience Cloud](sign-in.md), este panel muestra tus notificaciones de Experience Cloud.
+  Cuando has iniciado sesión [a través de Adobe CX Enterprise](sign-in.md), este panel muestra tus notificaciones de CX Enterprise.
 
 * ![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda") Menú de ayuda que incluye vínculos a documentación y otra información.
 
-* ![Conmutador de soluciones](/help/search-social-commerce/assets/menu-icon.png "Conmutador de soluciones") Lista de soluciones y servicios de Adobe Experience Cloud a los que puede cambiar.
+* ![Conmutador de soluciones](/help/search-social-commerce/assets/menu-icon.png "Conmutador de soluciones") Lista de soluciones y servicios de Adobe CX Enterprise a los que puede cambiar.
 
 * ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar sesión.
 
-  Cuando hayas iniciado sesión a través de Adobe Experience Cloud[, también puedes editar tu perfil de Experience Cloud, incluida tu contraseña de Experience Cloud y la configuración de notificaciones.](sign-in.md)
+  Cuando hayas iniciado sesión a través de Adobe CX Enterprise](sign-in.md), también puedes editar tu perfil de CX Enterprise, incluida tu contraseña de CX Enterprise y la configuración de notificaciones.[
 
 >[!MORELIKETHIS]
 >

@@ -4,19 +4,14 @@ description: Obtenga información sobre cómo crear y administrar una fuente par
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
 TQID: https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 758
+source-wordcount: 761
 ht-degree: 0%
 
 ---
@@ -117,21 +112,21 @@ Puede ver detalles sobre los cambios realizados en un registro de origen de audi
 
 **[!UICONTROL Data Visibility Level]:** Si los segmentos están disponibles para un solo anunciante con acceso a la cuenta (*[!UICONTROL Advertiser]*) o para todos los anunciantes con acceso a la cuenta *[!UICONTROL Account]*.
 
-**[!UICONTROL Advertiser]:** (solo visibilidad de nivel de anunciante) El anunciante para el que los segmentos están disponibles. Seleccione uno de la lista de anunciantes con acceso a la cuenta.
+**[!UICONTROL Advertiser]:** (solo visibilidad de nivel de anunciante) El anunciante para el que los segmentos están disponibles. Select one from the list of advertisers with access to the account.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] orígenes solamente) El identificador de organización de Adobe Experience Cloud para la cuenta [!DNL Adobe Experience Platform].
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] sources only) The Adobe CX Enterprise organization ID for the [!DNL Adobe Experience Platform] account.
 
-**[!UICONTROL Convert PII to the following IDs]:** Tipos de ID a los que convertirá su información de identificación personal (PII). Si selecciona varios tipos, el segmento generado se rellena con valores para cada tipo de ID seleccionado (como un [!DNL RampID] y un [!DNL Unified ID2.0] para cada dirección de correo electrónico). Los cargos por datos se aplican según corresponda.
+**[!UICONTROL Convert PII to the following IDs]:** The ID types to which you&#39;ll convert your personally identifiable information (PII). If you select multiple types, the generated segment is populated with values for each selected ID type (such as a [!DNL RampID] and a [!DNL Unified ID2.0] for each email address). Data charges are applied accordingly.
 
-Para [!DNL RampID] y [!DNL Unified ID2.0], el proveedor busca cada dirección de correo electrónico para ver si ya existe un identificador y traduce la dirección a un identificador coincidente cuando está disponible. Si no existe ningún ID para la dirección, se crea un nuevo ID.
+For [!DNL RampID] and [!DNL Unified ID2.0], the vendor looks up each email address to see if an ID already exists and translates the address to a matching ID when available. If an ID doesn&#39;t exist for the address, then it creates a new ID.
 
 >[!NOTE]
 >
->Solo se puede segmentar un tipo de ID en una única ubicación. Para probar el rendimiento por tipo de identificador, [cree una ubicación independiente](/help/dsp/campaign-management/placements/placement-create.md) para cada tipo de identificador en el segmento.
+>You can target only one type of ID in a single placement. To test performance by ID type, [create a separate placement](/help/dsp/campaign-management/placements/placement-create.md) for each ID type in the segment.
 
-* *[!DNL RampID]:* Para convertir PII en [!DNL RampID]. Puede usar [!DNL RampIDs] para volver a dirigirse a los usuarios que iniciaron sesión y para la medición de [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
+* *[!DNL RampID]:* To convert PII to a [!DNL RampID]. You can use [!DNL RampIDs] for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
 
-* *[!DNL Unified ID2.0] (Beta):* Para convertir PII en un ID de [Unified ID 2.0](https://unifiedid.com) para redireccionar a los usuarios que iniciaron sesión.
+* *[!DNL Unified ID2.0](Beta):* To convert PII to a [Unified ID 2.0](https://unifiedid.com) ID for retargeting logging-in users.
 
 <!--
  Later
@@ -139,16 +134,16 @@ Para [!DNL RampID] y [!DNL Unified ID2.0], el proveedor busca cada dirección de
 
 -->
 
-**[!UICONTROL Terms of Service]:** Los términos del contrato de servicio para convertir PII en identificadores universales. Usted u otro usuario de la cuenta de DSP deben aceptar los términos una vez antes de poder convertir los datos a un nuevo tipo de ID. Para los clientes con contratos de servicio administrados, su equipo de cuenta de Adobe obtiene su consentimiento y acepta los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
+**[!UICONTROL Terms of Service]:** The terms of service agreement for converting PII to universal IDs. You or another user in the DSP account must accept the terms once before you can convert data to a new ID type. For customers with managed service contracts, your Adobe Account Team gets your consent and accepts the terms on your organization&#39;s behalf. To read the terms, click **>**. To accept the terms, scroll to the bottom of the terms and click **[!UICONTROL Accept]**.
 
-**[!UICONTROL Source Key]:** (de solo lectura; generado automáticamente) La clave de origen que puede utilizar para crear una conexión de destino en la plataforma de datos del cliente para insertar audiencias en Advertising DSP. Puede copiar el valor en el portapapeles para pegarlo en la configuración de conexión de destino o en un archivo.
+**[!UICONTROL Source Key]:** (Read-only; generated automatically) The source key that you can use to create a destination connection in the customer data platform to push audiences to Advertising DSP. You can copy the value to your clipboard to paste into the destination connection settings or into a file.
 
 >[!MORELIKETHIS]
 >
->* [Acerca de las fuentes de audiencia de origen](source-about.md)
->* [Compatibilidad para activar identificadores universales](/help/dsp/audiences/universal-ids.md)
->* [Convertir los identificadores de usuario de [!DNL Adobe Real-Time CDP] a identificadores universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Convertir los identificadores de usuario de [!DNL Amperity] a identificadores universales](/help/dsp/audiences/sources/source-amperity.md)
->* [Convertir los identificadores de usuario de [!DNL Optimizely] a identificadores universales](/help/dsp/audiences/sources/source-optimizely.md)
->* [Convertir los identificadores de usuario de [!DNL Tealium] a identificadores universales](/help/dsp/audiences/sources/source-tealium.md)
+>* [About first-party audience sources](source-about.md)
+>* [Support for activating universal IDs](/help/dsp/audiences/universal-ids.md)
+>* [Convert user IDs from [!DNL Adobe Real-Time CDP] to universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Convert user IDs from [!DNL Amperity] to universal IDs](/help/dsp/audiences/sources/source-amperity.md)
+>* [Convert user IDs from [!DNL Optimizely] to universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Convert user IDs from [!DNL Tealium] to universal IDs](/help/dsp/audiences/sources/source-tealium.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)

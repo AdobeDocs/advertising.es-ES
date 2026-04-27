@@ -4,16 +4,12 @@ description: Obtenga información acerca de las funciones de administración de 
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 806
+source-wordcount: 808
 ht-degree: 0%
 
 ---
@@ -44,26 +40,26 @@ Para obtener más información acerca de las opciones de portafolios disponibles
 
 ## Las vistas de administración de campañas
 
-Las vistas de administración de campañas le permiten supervisar y administrar sus cuentas de búsqueda. Estas son las opciones disponibles:
+The campaign management views allow you to monitor and manage your search accounts. The following views are available:
 
-* **[!UICONTROL Campaigns]** — Las vistas [!UICONTROL Campaigns] muestran datos de cada cuenta conectada y de red. Puede ver datos de costes, clics, impresiones e ingresos de todas las cuentas de red de publicidad y de cuentas, campañas, grupos de publicidad, palabras clave, anuncios, grupos de productos de compras, ubicaciones, destinos automáticos (destinos de búsqueda dinámica), audiencias y bibliotecas de extensión de publicidad, así como sus entidades de cuenta asociadas. Para [tipos de campañas compatibles en redes de anuncios compatibles](/help/search-social-commerce/introduction/supported-inventory.md), puede crear y editar datos para campañas individuales y componentes de campaña directamente en la interfaz. Si lo desea, puede exportar los datos de la mayoría de las subvistas a un archivo de hoja de cálculo.
+* **[!UICONTROL Campaigns]** — The [!UICONTROL Campaigns] views show data from each connected ad network account. You can view cost, click, impression, and revenue data across all ad network accounts and across individual accounts, campaigns, ad groups, keywords, ads, shopping product groups, placements, auto targets (dynamic search targets), audiences, and ad extension libraries and their associated account entities. For [supported campaign types on supported ad networks](/help/search-social-commerce/introduction/supported-inventory.md), you can create and edit data for individual campaigns and campaign components directly in the interface. You can optionally export the data in most subviews to a spreadsheet file.
 
   >[!NOTE]
   >
-  >Los datos de nivel de anuncio no están disponibles para [!DNL Google Ads] publicidad de búsqueda dinámica (DSA), rendimiento máximo, compras inteligentes y [!DNL YouTube] campañas.
+  >Ad-level data isn&#39;t available for [!DNL Google Ads] dynamic search ad (DSA), performance max, smart shopping, and [!DNL YouTube] campaigns.
 
-* **[!UICONTROL Products]** — Las vistas [!UICONTROL Products] muestran datos para cada [[!DNL Google] o [!DNL Microsoft] cuenta de centro comercial sincronizada](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). La subvista predeterminada [!UICONTROL Accounts] enumera todas las cuentas sincronizadas; algunos tipos de usuarios pueden agregar nuevas cuentas desde esta vista. La subvista [!UICONTROL Products] enumera cada producto dentro de la cuenta.
+* **[!UICONTROL Products]** — The [!UICONTROL Products] views show data for each [[!DNL Google] or [!DNL Microsoft] merchant center account that&#39;s synced](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md). The default [!UICONTROL Accounts] subview lists all synced accounts; some user types can add new accounts from this view. The [!UICONTROL Products] subview lists each product within the account.
 
-* **[!UICONTROL Advanced (ACM)]**: desde la vista [!DNL Advanced] ([!DNL AMC], para la administración avanzada de campañas), puede configurar procesos automatizados para crear [anuncios dinámicos y palabras clave dirigidos a cada elemento del inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) según una plantilla de anuncio específica de la red de anuncios que cree y el contenido de [!DNL Google Merchant Center] cuentas o archivos de datos de inventario que cargue en una ubicación FTP. Las subvistas muestran detalles sobre cada plantilla de fuente del anunciante y cada campaña, grupo de anuncios, palabra clave y anuncio incluido en una fuente que se propagó a través de una plantilla de fuente pero no se publicó en la red de anuncios.
+* **[!UICONTROL Advanced (ACM)]** —  From the [!DNL Advanced] ([!DNL AMC], for Advanced Campaign Management) view, you can set up automated processes to create [dynamic ads and keywords targeted to each item in your inventory](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) according to an ad network-specific ad template you create and the contents of [!DNL Google Merchant Center] accounts or inventory data files you upload to an FTP location. Subviews show details about each feed template for the advertiser and each campaign, ad group, keyword, and ad included in a feed that was propagated through a feed template but not posted to the ad network.
 
-* **[!UICONTROL Bulksheets]**: use la vista [!UICONTROL Bulksheets] para crear [archivos de hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) que contengan tantos datos como desee para una cuenta en una red de publicidad admitida [y, a continuación, publíquelos en la red de publicidad.](/help/search-social-commerce/introduction/supported-inventory.md)
+* **[!UICONTROL Bulksheets]** — Use the [!UICONTROL Bulksheets] view to create [bulksheet files](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) containing as much data as you want for an account on a [supported ad network](/help/search-social-commerce/introduction/supported-inventory.md), and then post them to the ad network.
 
-* **[!UICONTROL Audiences]** — [Las vistas [!UICONTROL Audiences]](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) enumeran todas sus audiencias de [!DNL Google Ads] y [!DNL Microsoft Advertising] generadas a partir de varios tipos de listas de usuarios. Puede crear [!DNL Google Ads] audiencias a partir de las audiencias de Adobe Experience Cloud existentes y las listas de correo electrónico de los clientes. También puede ver y administrar destinos y exclusiones de audiencia para sus anuncios de [!DNL Google Ads] y [!DNL Microsoft Advertising].
+* **[!UICONTROL Audiences]** — [The [!UICONTROL Audiences] views](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) lists all of your [!DNL Google Ads] and [!DNL Microsoft Advertising] audiences generated from various types of user lists. You can create [!DNL Google Ads] audiences from your existing Adobe CX Enterprise audiences and your customer email lists. You can also view and manage audience targets and exclusions for your [!DNL Google Ads] and [!DNL Microsoft Advertising] ads.
 
-* **[!UICONTROL Label Classifications]** — Use esta vista para crear y eliminar [clasificaciones de etiquetas](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md), que pueden ayudarle a agrupar las etiquetas en conjuntos significativos.
+* **[!UICONTROL Label Classifications]** — Use this view to create and delete [label classifications](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md), which can help you group your labels into meaningful sets.
 
 >[!MORELIKETHIS]
 >
->* [Información general sobre la implementación de cuentas y campañas de red de anuncios](campaign-implemention-overview.md)
->* [Supervisar y administrar el rendimiento de las campañas de red de anuncios](monitor-performance-campaigns.md)
->* [Datos de conversión de Google Ads en Search, Social y Commerce](google-conversion-data.md)
+>* [Overview of implementing ad network accounts and campaigns](campaign-implemention-overview.md)
+>* [Monitor and manage the performance of your ad network campaigns](monitor-performance-campaigns.md)
+>* [Google Ads conversion data in Search, Social, &amp; Commerce](google-conversion-data.md)

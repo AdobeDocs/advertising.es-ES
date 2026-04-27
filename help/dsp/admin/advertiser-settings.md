@@ -2,9 +2,9 @@
 title: Configuración de cuenta del anunciante
 description: Consulte las descripciones de la configuración de anunciante disponible.
 role: User, Admin
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Los anunciantes con productos de Adobe Experience Cloud adicionales pueden compartir datos entre algunos productos mediante el ID único de la organización para Experience Cloud. Puede configurar integraciones de producto específicas en la sección [!UICONTROL Integrations].
+Los anunciantes con productos de Adobe CX Enterprise adicionales pueden compartir datos entre algunos productos mediante el ID único de la organización para CX Enterprise. Puede configurar integraciones de producto específicas en la sección [!UICONTROL Integrations].
 
-**[!UICONTROL Account IMS org and ID]:** (Anunciantes con productos de Experience Cloud adicionales para los que se dispone de licencia a través de una cuenta de Experience Cloud con varios anunciantes; opcional) El identificador de organización de Experience Cloud del anunciante.
+**[!UICONTROL Account IMS org and ID]:** (Anunciantes con productos de CX Enterprise adicionales para los que se dispone de licencia a través de una cuenta de CX Enterprise con varios anunciantes; opcional) El identificador de organización de CX Enterprise del anunciante.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (Anunciantes con licencias directas para productos adicionales de Experience Cloud; opcional) El ID de organización de Experience Cloud del anunciante.
+**[!UICONTROL Advertiser IMS org and ID]:** (Anunciantes con licencias directas para productos adicionales de CX Enterprise; opcional) El ID de organización de CX Enterprise del anunciante.
 
 ### [!UICONTROL Integrations]
 
-(Opcional) Productos adicionales de Experience Cloud vinculados a la cuenta de DSP. Los productos deben estar asociados con el mismo ID de organización de Experience Cloud proporcionado en la sección [!UICONTROL Adobe IMS IDs].
+(Opcional) Productos adicionales de CX Enterprise vinculados a la cuenta de DSP. Los productos deben estar asociados con el mismo ID de organización de CX Enterprise proporcionado en la sección [!UICONTROL Adobe IMS IDs].
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Advertising Search, Social, & Commerce] o que utilizan píxeles de conversión de Adobe Advertising) Una cuenta de [!DNL Search, Social, & Commerce] con la que DSP intercambia datos de atribución.
 
@@ -56,8 +56,8 @@ Para obtener más información acerca de la integración con [!DNL Analytics], v
 **[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Anunciantes con Adobe Audience Manager o Adobe Analytics; opcional) Una cuenta de Audience Manager o [!DNL Analytics] desde la que DSP extrae metadatos de segmentos, datos de jerarquía y datos de audiencia única para todas las audiencias de Adobe del anunciante. Esto incluye datos para:
 
 * Segmentos de Audience Manager
-* [!DNL Analytics] segmentos publicados en Adobe Experience Cloud
-* Segmentos creados con Adobe Experience Cloud [!DNL Audience Library]
+* [!DNL Analytics] segmentos publicados en Adobe CX Enterprise
+* Segmentos creados con Adobe CX Enterprise [!DNL Audience Library]
 * Segmentos creados en Adobe Experience Platform y enviados a Adobe Advertising mediante Audience Manager
 
 La sincronización inicial dura unas 24 horas. Después, los datos se sincronizan en tiempo real, con un retraso de uno a dos segundos.
@@ -133,19 +133,19 @@ Filtros de visibilidad de oferta previa opcionales de [!DNL DoubleVerify] y [!DN
 
 ###### Vídeo
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Con esta opción, seleccione los criterios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con esta opción, seleccione los criterios.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Con esta opción, seleccione los criterios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Mostrar
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con esta opción, seleccione los criterios.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 

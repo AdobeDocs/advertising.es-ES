@@ -1,40 +1,40 @@
 ---
-title: Crear una cuenta de anunciante
-description: Obtenga información sobre cómo crear una cuenta de anunciante.
+title: Create an advertiser account
+description: Learn how to create an advertiser account.
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
 
-# Crear una cuenta de anunciante
+# Create an advertiser account
 
-*No disponible para usuarios de solo lectura*
+*Not Available to Read-only Users*
 
 <!-- Not published -->
 
-Los anunciantes están disponibles para todos los usuarios de la cuenta de la organización.
+Advertisers are available to all users in the organization account.
 
-1. En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
+1. In the main menu, click **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
-1. Haga clic en **[!UICONTROL Create]**.
+1. Click **[!UICONTROL Create]**.
 
-1. Especifique la [configuración del anunciante](advertiser-settings.md):
+1. Specify the [advertiser settings](advertiser-settings.md):
 
-   1. En la configuración de [!UICONTROL General]:
+   1. In the [!UICONTROL General] settings:
 
-      1. Especifique la configuración de [!UICONTROL General].
+      1. Specify the [!UICONTROL General] settings.
 
-      1. (Opcional) Para configurar integraciones entre DSP y otros productos de Adobe Experience Cloud, introduzca el ID de organización de Experience Cloud del anunciante en la sección [!UICONTROL Adobe IMS IDs] y, a continuación, configure las integraciones de productos en la sección [!UICONTROL Integrations].
+      1. (Optional) To configure integrations between DSP and other Adobe CX Enterprise products, enter the advertiser&#39;s CX Enterprise organization ID in the [!UICONTROL Adobe IMS IDs] section, and then configure the product integrations in the [!UICONTROL Integrations] section.
 
-   1. (Opcional) En las secciones [!UICONTROL Targeting], especifique los destinos predeterminados para cada nueva ubicación.
+   1. (Optional) In the [!UICONTROL Targeting] sections, specify default targets for each new placement.
 
-      Puede anular los destinos por defecto de cualquier ubicación que cree.
+      You can override the default targets for any placement you create.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Configuración del anunciante](/help/dsp/admin/advertiser-settings.md)
+>* [Advertiser settings](/help/dsp/admin/advertiser-settings.md)

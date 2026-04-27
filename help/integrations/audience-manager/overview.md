@@ -4,23 +4,14 @@ description: Obtenga información sobre las distintas formas en que Adobe Advert
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
 TQID: https://experienceleague.adobe.com/4O4O-DmHhClvSiOSxM9blAEvVslzYzRobEyU6RGeMEQ
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-  - id: f2860a4b-f905-4545-bead-1bbc92564592
-subfeature_v2:
-  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592
+subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 517
 ht-degree: 0%
 
 ---
@@ -37,7 +28,7 @@ Puede integrar Adobe Advertising con Audience Manager de las siguientes maneras.
 
 *Anunciantes de inclusión con [!DNL Advertising Search, Social, & Commerce] solamente*
 
-En [!DNL Search, Social, & Commerce], puede crear audiencias de coincidencia de clientes de [!DNL Google Ads] a partir de los ID de usuario utilizando los segmentos de Audience Manager existentes que tienen [!UICONTROL Adobe Media Optimizer (HTTP)] y [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] es un nombre anterior de [!DNL Search, Social, & Commerce]). Esto incluye segmentos de Adobe Analytics que se publican en Adobe Experience Cloud y segmentos que se crean con Adobe Experience Cloud [!DNL Audience Library]. Para obtener más información, consulte &quot;[Crear [!DNL Google Ads] audiencias de coincidencia de cliente a partir de [!DNL Adobe] audiencias](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)&quot;.
+En [!DNL Search, Social, & Commerce], puede crear audiencias de coincidencia de clientes de [!DNL Google Ads] a partir de los ID de usuario utilizando los segmentos de Audience Manager existentes que tienen [!UICONTROL Adobe Media Optimizer (HTTP)] y [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] es un nombre anterior de [!DNL Search, Social, & Commerce]). Esto incluye segmentos de Adobe Analytics que se publican en Adobe CX Enterprise y segmentos que se crean con Adobe CX Enterprise [!DNL Audience Library]. Para obtener más información, consulte &quot;[Crear [!DNL Google Ads] audiencias de coincidencia de cliente a partir de [!DNL Adobe] audiencias](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)&quot;.
 
 Las [audiencias de coincidencia de clientes de los ID de usuario](https://support.google.com/google-ads/answer/9199250) funcionan como audiencias basadas en etiquetas de sitios web, pero se asigna un ID que no es PII a los miembros de audiencia única para obtener beneficios distintos sobre las audiencias estándar basadas en etiquetas de sitios web y las coincidencias de clientes.
 
@@ -57,7 +48,7 @@ Una vez creadas las audiencias, puede usarlas en [!DNL Google Ads] campañas com
 
 >[!NOTE]
 >
->Para obtener más información acerca de cómo crear audiencias en las interfaces de Audience Manager y Experience Cloud [!DNL Audience Library], así como casos de uso comunes para distintos tipos de audiencias, consulte &quot;[Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es)&quot;.
+>Para obtener más información acerca de cómo crear audiencias en las interfaces de Audience Manager y Adobe CX Enterprise [!DNL Audience Library], así como casos de uso comunes para distintos tipos de audiencias, consulte &quot;[Opciones de creación de audiencias](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html)&quot;.
 
 ## Envío de datos de exposición de medios de DSP a Audience Manager
 
@@ -69,6 +60,6 @@ Consulte &quot;[Información general sobre el envío de datos de exposición de 
 
 ## Obtenga información más completa sobre la actividad del sitio con Audience Analytics
 
-Los clientes de Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=es) pueden enviar datos seguidos por Adobe Advertising y segmentos de Audience Manager a [!DNL Analytics] para obtener información detallada sobre la actividad del sitio.
+Los clientes de Adobe Advertising con [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) pueden enviar datos seguidos por Adobe Advertising y segmentos de Audience Manager a [!DNL Analytics] para obtener información detallada sobre la actividad del sitio.
 
 Para obtener más información, consulte &quot;[[!DNL Adobe Audience Analytics] para clientes de Adobe Advertising](/help/integrations/audience-manager/audience-analytics.md)&quot;.

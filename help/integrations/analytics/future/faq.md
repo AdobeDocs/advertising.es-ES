@@ -1,9 +1,9 @@
 ---
 title: Preguntas frecuentes
 description: xxx
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 ## title
 
 https://adobeadcloud.zendesk.com/agent/tickets/14214
-De forma predeterminada, Adobe Analytics informa de todos los eventos capturados en cada informe. Los eventos &quot;[!UICONTROL Unspecified]&quot; representan eventos de finalización de formularios que no estaban conectados al Adobe Advertising. Por ejemplo, en el informe Plataforma de publicidad, las conversiones orgánicas o impulsadas por una campaña de correo electrónico caerían en &quot;sin especificar&quot;.
+De forma predeterminada, Adobe Analytics informa de todos los eventos capturados en cada informe. Los eventos "[!UICONTROL Unspecified]" representan eventos de finalización de formularios que no estaban conectados a Adobe Advertising. Por ejemplo, en el informe Plataforma de publicidad, las conversiones orgánicas o impulsadas por una campaña de correo electrónico caerían en "sin especificar".
 
 Puede utilizar el filtro para eliminar eventos no especificados de los informes eliminando la marca de verificación de la opción &quot;Incluir no especificado (ninguno)&quot;. <!-- Not sure if this is in DSP or in Analytics Workspace -->
 
@@ -32,7 +32,7 @@ La integración en cuestión es entre AdCloud y Adobe Audience Manager. Esta fun
 
 Nuestro auditor nos pide que deshabilitemos esta función. ¿Qué sucede si bloqueamos esas solicitudes de red?
 
-R: Hemos consultado nuestro producto y han comentado que los píxeles en cuestión tienen el propósito de aumentar las tasas de coincidencia de cookies entre Ad Cloud DSP AAM, socios específicos de inventario/SSP (con respecto a la), y el número de píxeles en cuestión.  AAM Si se eliminan, es posible que el cliente vea algún nivel de tasa de coincidencia disminuida entre AAC/y los socios de inventario para los que están los píxeles respectivos, pero no esperarían que fuera sustancial.
+R: Hemos consultado nuestro producto y han comentado que los píxeles en cuestión tienen el propósito de aumentar las tasas de coincidencia de cookies entre Ad Cloud, socios específicos de inventario/SSP (con respecto a DSP) y AAM.  Si se eliminan, es posible que el cliente vea un nivel de tasa de coincidencia disminuida entre AAC/AAM y los socios de inventario para los que están los píxeles respectivos, pero no esperarían que fuera sustancial.
 
-Para la búsqueda de Ad Cloud, vemos que el ID de organización Experience Cloud del anunciante está configurado para Mathworks, pero nuestro equipo de productos no ve Mathworks configurado para activar audiencias en Ad Cloud. ¿Utiliza el Audience Manager de Adobe para enviar audiencias a la búsqueda de Ad Cloud? Si no es así, eliminarlos no afecta al flujo de trabajo actual. AAM El Servicio de atención al cliente de puede ayudarle con la eliminación de estos píxeles si no desea que se activen.
+Para la búsqueda de Ad Cloud, vemos que el ID de organización de CX Enterprise del anunciante está configurado para Mathworks, pero nuestro equipo de productos no ve Mathworks configurado para activar audiencias en Ad Cloud. ¿Utiliza Adobe Audience Manager para enviar audiencias a la búsqueda de Ad Cloud? Si no es así, eliminarlos no afecta al flujo de trabajo actual. El Servicio de atención al cliente de AAM puede ayudarle con la eliminación de estos píxeles si no desea que se activen.
 

@@ -4,19 +4,13 @@ description: Obtenga información clave acerca de [!DNL Analytics Marketing Chan
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
 TQID: https://experienceleague.adobe.com/NJ4LPss-g-J06PuvdCaUktHPyP7MARdJK84-D8gnwAk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
@@ -25,13 +19,13 @@ ht-degree: 0%
 
 En esta página se explica la información clave acerca de [!DNL Analytics Marketing Channels] que los usuarios de [!DNL Analytics for Advertising] deben comprender.
 
-Para obtener documentación completa sobre [!DNL Marketing Channels], consulte &quot;[Introducción a  [!DNL Marketing Channels]](https://experienceleague.adobe.com/es/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;.
+Para obtener documentación completa sobre [!DNL Marketing Channels], consulte &quot;[Introducción a  [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel)&quot;.
 
 ## Información general de [!DNL Marketing Channels]
 
 [!DNL Marketing Channels] son una característica clave de Adobe Analytics. Los informes de [!DNL Marketing Channels] muestran cómo llegan los clientes al sitio web a través de la ventana de informes y cómo cada canal afecta a los ingresos o al comportamiento en el sitio.
 
-Consideremos el siguiente ejemplo de recorrido entre visitas. Cada visita al sitio web está indicada por el canal de marketing desde el que el visitante entró. La primera visita, también denominada Canal de primer contacto, es Correo electrónico. La visualización en la visita dos es un canal participante y la búsqueda natural se considera el canal de último contacto. Si usa [!UICONTROL Last Touch Attribution] en [!UICONTROL Attribution IQ], la búsqueda natural recibirá el crédito total del evento de conversión de 250 $. Con el servicio de Experience Cloud ID, puede unir estas visitas individuales para revelar un recorrido de un único visitante.
+Consideremos el siguiente ejemplo de recorrido entre visitas. Cada visita al sitio web está indicada por el canal de marketing desde el que el visitante entró. La primera visita, también denominada Canal de primer contacto, es Correo electrónico. La visualización en la visita dos es un canal participante y la búsqueda natural se considera el canal de último contacto. Si usa [!UICONTROL Last Touch Attribution] en [!UICONTROL Attribution IQ], la búsqueda natural recibirá el crédito total del evento de conversión de 250 $. Con el servicio de Adobe CX Enterprise ID, puede unir estas visitas individuales para revelar un recorrido de un único visitante.
 
 ![Ejemplo de recorrido de conversión entre visitas en los canales de marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
@@ -54,5 +48,5 @@ Para comprender cómo Adobe Advertising puede contribuir a las señales necesari
 >* [Uso de Adobe Advertising ID para crear [!DNL Marketing Channels] reglas de procesamiento](mc-ids.md)
 >* [Por qué los datos de canal pueden variar entre Adobe Advertising y [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Usando [!DNL Analytics Marketing Channels] con datos de Adobe Advertising](mc-ac-data.md)
->* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/es/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
+>* [Vídeo: Usando [!DNL Marketing Channels] para los informes de Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [Información general de [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
