@@ -76,7 +76,7 @@ To make requests to access and delete consumer personal information from Adobe A
    >
    >Contact your company’s Adobe Advertising representative to confirm that all of your organization&#39;s Adobe Advertising accounts — including [!DNL DSP] accounts or advertisers, [!DNL Search, Social, & Commerce] accounts, and [!DNL Creative] or [!DNL DCO] accounts — are linked to your CX Enterprise organization ID.
 
-1. Use either the [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (for automated requests) or the [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es) (for ad-hoc requests) to submit requests to access and delete personal information to Adobe Advertising on behalf of consumers, and to check the status of existing requests.
+1. Use either the [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es) (for automated requests) or the [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es) (for ad-hoc requests) to submit requests to access and delete personal information to Adobe Advertising on behalf of consumers, and to check the status of existing requests.
 
    For advertisers who have a mobile app to interact with customers and launch campaigns with [!DNL DSP], you must download the Privacy-ready Mobile SDKs for CX Enterprise. The Mobile SDKs allow businesses to set opt-out status flags, retrieve the consumer&#39;s device ID (namespace ID: `deviceID`), and submit requests to the Privacy Service API. Your mobile app will require an SDK Version 4.15.0 or greater.
 
@@ -88,7 +88,7 @@ To make requests to access and delete consumer personal information from Adobe A
    >
    >If your business has multiple CX Enterprise organization IDs, then you must send separate API requests for each. You can, however make one API request to multiple Adobe Advertising sub-solutions ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], and [!DNL DCO]), with one account per sub-solution.
 
-All steps are necessary to receive support from Adobe Advertising. For more information about these and other related tasks you need to perform using the Adobe Experience Platform Privacy Service, and where to find the necessary items, see [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+All steps are necessary to receive support from Adobe Advertising. For more information about these and other related tasks you need to perform using the Adobe Experience Platform Privacy Service, and where to find the necessary items, see [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es).
 
 ## Required field values in Adobe Advertising JSON requests
 
@@ -105,11 +105,11 @@ All steps are necessary to receive support from Adobe Advertising. For more info
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (which indicates the [[!DNL AdCloud] cookie space](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
+   * `"namespace": **411**` (which indicates the [[!DNL AdCloud] cookie space](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix))
 
    * `"value":` &lt;*the actual customer’s cookie ID value as retrieved from`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (which is the [[!DNL Adobe] product](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) that applies to the request)
+* `"include": **adCloud**` (which is the [[!DNL Adobe] product](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix) that applies to the request)
 
 * `"regulation": **ccpa**` (which is the privacy regulation that applies to the request)
 

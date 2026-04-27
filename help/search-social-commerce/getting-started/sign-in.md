@@ -29,7 +29,7 @@ Search, Social y Commerce están realizando la transición al servicio Identity 
 
 Sus credenciales actuales de Search, Social y Commerce permanecerán activas durante un corto tiempo para que pueda prepararse para el cambio.
 
-Para obtener más información acerca de la interfaz de CX Enterprise, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de CX Enterprise y administración](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
+Para obtener más información acerca de la interfaz de CX Enterprise, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de CX Enterprise y administración](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud)&quot;.
 
 ## Inicie sesión desde la página de inicio de sesión heredada de Search, Social y Commerce
 

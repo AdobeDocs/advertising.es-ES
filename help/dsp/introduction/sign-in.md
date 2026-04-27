@@ -56,11 +56,11 @@ Your current DSP credentials will remain active for a short time so that you can
 
    * Si tiene acceso a varias organizaciones de IMS, seleccione la correcta.
 
-Para obtener más información acerca de la interfaz de CX Enterprise, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de CX Enterprise y administración](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
+Para obtener más información acerca de la interfaz de CX Enterprise, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de CX Enterprise y administración](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud)&quot;.
 
 ### Resolución de problemas
 
-Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
+Para ver los problemas generales de inicio de sesión, consulte también &quot;[Resolver problemas de inicio de sesión en la cuenta de Adobe](https://helpx.adobe.com/es/manage-account/kb/account-password-sign-help.linkfree.html)&quot;.
 
 #### ¿Hay algún requisito previo para habilitar un nuevo inicio de sesión de IMS de [!DNL Adobe]?
 
