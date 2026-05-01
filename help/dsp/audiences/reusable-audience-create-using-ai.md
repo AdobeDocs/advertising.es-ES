@@ -4,9 +4,9 @@ description: Aprenda a crear audiencias reutilizables en Adobe Advertising DSP m
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e8bfea965be346d44d8da96cd026704e1723a1bf
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1145'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ ht-degree: 0%
 
 <!-- Redo the legacy file to include the new info. so that it includes two separate procedures (gen AI and manually). -->
 
-Utilice el agente de audiencia asistida por IA para generar nuevas audiencias reutilizables utilizando todos los segmentos de origen y de terceros disponibles para usted, según sus requisitos declarados. Puede usar las audiencias como destinatarios o exclusiones para varias ubicaciones.
+Utilice el agente de audiencia asistida por IA para generar nuevas audiencias reutilizables utilizando todos los segmentos de origen y de terceros disponibles para usted, según sus requisitos declarados. Cuando corresponde, el agente sugiere filtros de segmento adicionales para ayudarle a crear una información de audiencia más eficaz.
+
+Puede usar las audiencias como destinatarios o exclusiones para varias ubicaciones.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -55,15 +57,15 @@ Utilice el agente de audiencia asistida por IA para generar nuevas audiencias re
 
 1. Cree la audiencia:
 
-   Para los usuarios con permisos de versión beta, la opción AI es la predeterminada. Para [montar la audiencia usted mismo](/help/dsp/audiences/reusable-audience-create.md), haga clic en el botón &quot;Cambiar a modo manual&quot; en la parte inferior.
+   La opción AI es la predeterminada. Para [montar la audiencia usted mismo](/help/dsp/audiences/reusable-audience-create.md), haga clic en el botón &quot;Cambiar a modo manual&quot; en la parte inferior.
 
    1. Introduzca uno o más indicadores para describir las características de audiencia que desea incluir y excluir. Para enviar cada solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
 
       Para obtener más información, consulte &quot;[Instrucciones de escritura](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
 
-      A medida que el agente de audiencia encuentra segmentos relevantes, crea una expresión de audiencia booleana basada en los criterios. También le pedirá su aprobación antes de buscar segmentos coincidentes para montar la audiencia.
+      Cuando corresponde, el agente sugiere filtros de segmento adicionales para ayudarle a crear una información de audiencia más eficaz. Puede aceptar o rechazar las sugerencias.
 
-      Si lo desea, puede ignorar la solicitud y continuar especificando criterios de audiencia adicionales.
+      A medida que el agente de audiencia encuentra segmentos relevantes, crea una expresión de audiencia booleana basada en los criterios. También le pedirá su aprobación antes de buscar segmentos coincidentes para montar la audiencia. Si lo desea, puede ignorar la solicitud y continuar especificando criterios de audiencia adicionales.
 
    1. Cuando el agente de audiencia presente una expresión de audiencia que describa adecuadamente su audiencia, dígale al agente de audiencia que continúe con la reunión de la audiencia.
 
