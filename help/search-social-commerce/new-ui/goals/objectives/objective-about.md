@@ -2,22 +2,17 @@
 title: (Nueva IU) Acerca de los objetivos
 description: Conozca cuáles son los objetivos para alcanzar sus metas empresariales.
 feature: Search Objectives, Search Optimization
-hide: 'yes'
+hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
 TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 2ec4c13497ef6b5373a36b1f75111322a3ef26d0
+source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 519
 ht-degree: 0%
 
 ---
@@ -64,7 +59,7 @@ Puede incluir cualquiera de los siguientes elementos en sus objetivos:
 
 * [!DNL Google] métricas:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * Conversiones [[!DNL Google Ads] seguidas &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) desde cuentas sincronizadas [!DNL Google Ads].
+   * Conversiones [[!DNL Google Ads] seguidas ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) desde cuentas sincronizadas [!DNL Google Ads].
 
    * (Anunciantes con [[!DNL Google Analytics] integraciones](/help/search-social-commerce/admin/data-sources/data-source-about.md)): vistas de página, sesiones, tasa de salida hacia otro sitio (calculada como salidas hacia otro sitio/sesiones) y duración de la sesión.
 
