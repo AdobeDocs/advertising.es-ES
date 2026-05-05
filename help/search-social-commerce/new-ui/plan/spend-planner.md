@@ -4,9 +4,13 @@ description: Aprenda a generar, descargar y aplicar recomendaciones de presupues
 feature: Search Optimization, Search Portfolios
 exl-id: 966b8968-68b6-4385-9efb-e639a6729362
 TQID: https://experienceleague.adobe.com/8BAQij06MRhxYoCoFNjhHsgC4o38lQnj9vpmTzYyqGg
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 4126848d8192a1d4a23406dfeb5b643788670689
 workflow-type: tm+mt
 source-wordcount: 801
@@ -150,7 +154,7 @@ New UI; validate post-Update steps once I get it to generate a report:
 
 -->
 
-## <!--(Legacy UI) -->Aplicar recomendaciones de gasto {#spend-recommendations-apply-legacy}
+## &#x200B;<!--(Legacy UI) -->Aplicar recomendaciones de gasto {#spend-recommendations-apply-legacy}
 
 *Portafolios con presupuestos diarios solamente*
 
@@ -181,7 +185,7 @@ You can open or save data from either a) the line chart showing cost points and 
 
 -->
 
-## <!--(Legacy UI) -->Abrir o guardar datos como un [!DNL Microsoft Excel] archivo de libro {#spend-recommendations-download-legacy}
+## &#x200B;<!--(Legacy UI) -->Abrir o guardar datos como un [!DNL Microsoft Excel] archivo de libro {#spend-recommendations-download-legacy}
 
 1. Generar un informe de recomendación de gastos para los portafolios seleccionados.
 
