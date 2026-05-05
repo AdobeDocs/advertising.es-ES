@@ -18,9 +18,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 958
 ht-degree: 0%
 
 ---
@@ -135,17 +135,17 @@ Las siguientes dimensiones pertenecen a [!DNL Analytics for Target]:
 
 En Analysis Workspace, si observa que los datos de actividad y experiencias son mínimos o no se rellenan, haga lo siguiente:
 
-* Compruebe que se utiliza el mismo [!UICONTROL Supplemental Data ID] (SDID) para [!DNL Target] y [!DNL Analytics]. Puede comprobar los valores de SDID con [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=es) en la página de aterrizaje a la que la campaña dirija a los usuarios.
+* Compruebe que se utiliza el mismo [!UICONTROL Supplemental Data ID] (SDID) para [!DNL Target] y [!DNL Analytics]. Puede comprobar los valores de SDID usando [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=es) en la página de aterrizaje a la que la campaña dirige a los usuarios.
 
-[Valores de ID de datos suplementarios (SDID) en Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
+  [Valores de ID de datos suplementarios (SDID) en Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
 * En la misma página de aterrizaje, compruebe que a) [!UICONTROL Hostname] mostrado en Adobe Debugger bajo [!UICONTROL Solutions] > [!UICONTROL Target] coincide con b) [!UICONTROL Tracking Server] mostrado en [!DNL Target] para la actividad (bajo [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
 
   [!DNL Analytics For Target] requiere que se envíe un servidor de seguimiento [!DNL Analytics] en las llamadas de [!DNL Target] al servidor de recopilación de datos [!DNL Modstats] para Analytics.<!-- just "to Analytics?"-->
 
-[Valor de nombre de host en Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
+  [Valor de nombre de host en Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 
-[Valor del servidor de seguimiento en Target](/help/integrations/assets/target-troubleshooting-tracking-server.png)
+  [Valor del servidor de seguimiento en Target](/help/integrations/assets/target-troubleshooting-tracking-server.png)
 
 ## Lectura adicional
 

@@ -4,17 +4,17 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: b3eb6f69a643637635ac60e6751d091c5380a397
+source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 4%
+source-wordcount: '1063'
+ht-degree: 3%
 
 ---
 
 
 # Guía de Advertising DSP {#dsp}
 
-+ [Novedades](/help/dsp/home.md)
++ [¿Qué hay de nuevo?](/help/dsp/home.md)
 + [Iniciar sesión en Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
 + Introducción {#introduction}
    + [Introducción a Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
@@ -25,7 +25,7 @@ ht-degree: 4%
    + [Financiación de cuenta](/help/dsp/introduction/billing/account-funding.md)
    + [Monedas admitidas](/help/dsp/currency.md)
    + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
+   + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
    + [Soluciones de medición avanzadas](/help/dsp/introduction/advanced-measurement-services.md)
 + [Busque documentación del producto mediante el chat asistido por IA](/help/dsp/agent-chat.md)
 + Administración de campañas {#campaign-management}
@@ -109,7 +109,7 @@ ht-degree: 4%
    + [Optimización de las campañas con Advertising DSP](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Objetivos de optimización y cómo utilizarlos](/help/dsp/optimization/optimization-goals.md)
    + [Filtros de ofertas previas de nivel de ubicación y cómo utilizarlos](/help/dsp/optimization/optimization-pre-bid-filters.md)
-   + [Metas personalizadas](/help/dsp/optimization/custom-goal.md)
+   + [Prácticas recomendadas para objetivos personalizados](/help/dsp/optimization/custom-goal.md)
    + [Prácticas recomendadas para configurar campañas de rendimiento](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [Solución de problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
 + Públicos {#audiences}
@@ -221,21 +221,23 @@ ht-degree: 4%
    + [Archivar un plan de alcance de TV conectado](/help/dsp/planner/planner-archive.md)
 + Recursos {#resources}
    + [Administración de listas de URL](/help/dsp/resources/lists-url-manage.md)
-+ Administration {#admin}
++ Configuración/administración {#admin}
    + [Editar el perfil de usuario](/help/dsp/admin/user-own-profile-edit.md)
    + Usuarios {#users}
       + [Invitar a un nuevo usuario para su cuenta de organización](/help/dsp/admin/user-invite.md)
       + [Reenviar una invitación de usuario pendiente](/help/dsp/admin/user-resend-invite.md)
       + [Anular la invitación de un usuario pendiente](/help/dsp/admin/user-uninvite.md)
+   + [Administración de conversiones](/help/dsp/admin/conversion-metrics-manage.md)
+   + [Administrar objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md)
    + Sitios bloqueados {#sites}
       + [Listas de sitios bloqueados a nivel de cuenta y de anunciante](/help/dsp/admin/blocked-sites-list-about.md)
       + [Editar una lista de sitios bloqueados a nivel de cuenta o de anunciante](/help/dsp/admin/blocked-sites-list-edit.md)
    + Notificaciones {#notifications}
       + [Acerca de las suscripciones a alertas](/help/dsp/admin/alerts-about.md)
       + [Administrar suscripciones de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integraciones con Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es)
++ [Integraciones con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es)
 + [Obtener ayuda](/help/dsp/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
++ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
 
 
 <!--

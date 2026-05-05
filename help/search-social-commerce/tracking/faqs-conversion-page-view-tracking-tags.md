@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Lo siguiente se aplica a las etiquetas de seguimiento de conversión de Adobe Ad
 >[!NOTE]
 >
 >* Todas las implementaciones nuevas utilizan JavaScript versión 3.
->* La etiqueta JavaScript con ECID usa el [servicio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es), así como el ef_id y el gsurferid heredados para medir las conversiones. Esta etiqueta más reciente crea [cookies s_ecid de Experience Cloud de origen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=es) y proporciona una integración más estrecha con otros productos de Experience Cloud.
+>* La etiqueta JavaScript con ECID usa el [servicio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es), así como el ef_id y el gsurferid heredados para medir las conversiones. Esta etiqueta más reciente crea [cookies s_ecid de CX Enterprise de origen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=es) y proporciona una integración más estrecha con otros productos de CX Enterprise.
 >* Utilice las etiquetas de la versión 2 de JavaScript solo cuando ya hayan sido implementadas en las páginas web del anunciante.
 >* La práctica recomendada es utilizar etiquetas de JavaScript en lugar de etiquetas de imagen a menos que el sitio tenga una política contra su uso.
->* Las etiquetas de JavaScript son necesarias para los anunciantes que deseen segmentar audiencias creadas en Adobe Experience Cloud, en Adobe Audience Manager o publicadas en Adobe Experience Cloud desde Audience Manager o Adobe Analytics.
+>* Las etiquetas de JavaScript son necesarias para los anunciantes que deseen segmentar audiencias creadas en Adobe CX Enterprise, en Adobe Audience Manager o publicadas en Adobe CX Enterprise desde Audience Manager o Adobe Analytics.
 
 >[!MORELIKETHIS]
 >

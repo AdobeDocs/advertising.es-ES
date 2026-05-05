@@ -20,9 +20,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1289
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Es importante comprender el objetivo de la campaña, como lograr el ROAS más al
 
 ![objetivo de optimización](/help/dsp/assets/optimization-goals.png)
 
-También debe determinar los eventos de éxito que conducen a la meta general y crear metas personalizadas en consecuencia. Para cada paquete, especifique un objetivo personalizado que se utilizará con el objetivo de optimización general para la optimización algorítmica y de informes con [!DNL Adobe AI]. Para obtener más información sobre cómo crear metas personalizadas, incluidas las prácticas recomendadas, consulte [Metas personalizadas](custom-goal.md).
+También debe determinar los eventos de éxito que conducen a la meta general y crear metas personalizadas en consecuencia. Para cada paquete, especifique un objetivo personalizado que se utilizará con el objetivo de optimización general para la optimización algorítmica y de informes con [!DNL Adobe AI]. Para obtener más información acerca de las metas personalizadas, vea &quot;[Administrar objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md)&quot; y &quot;[Prácticas recomendadas para metas personalizadas](custom-goal.md)&quot;.
 
 ## Paso 2: Definición de la estrategia
 

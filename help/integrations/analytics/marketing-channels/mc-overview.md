@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 542
+source-wordcount: 561
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Para obtener documentación completa sobre [!DNL Marketing Channels], consulte &
 
 [!DNL Marketing Channels] son una característica clave de Adobe Analytics. Los informes de [!DNL Marketing Channels] muestran cómo llegan los clientes al sitio web a través de la ventana de informes y cómo cada canal afecta a los ingresos o al comportamiento en el sitio.
 
-Consideremos el siguiente ejemplo de recorrido entre visitas. Cada visita al sitio web está indicada por el canal de marketing desde el que el visitante entró. La primera visita, también denominada Canal de primer contacto, es Correo electrónico. La visualización en la visita dos es un canal participante y la búsqueda natural se considera el canal de último contacto. Si usa [!UICONTROL Last Touch Attribution] en [!UICONTROL Attribution IQ], la búsqueda natural recibirá el crédito total del evento de conversión de 250 $. Con el servicio de Experience Cloud ID, puede unir estas visitas individuales para revelar un recorrido de un único visitante.
+Consideremos el siguiente ejemplo de recorrido entre visitas. Cada visita al sitio web está indicada por el canal de marketing desde el que el visitante entró. La primera visita, también denominada Canal de primer contacto, es Correo electrónico. La visualización en la visita dos es un canal participante y la búsqueda natural se considera el canal de último contacto. Si usa [!UICONTROL Last Touch Attribution] en [!UICONTROL Attribution IQ], la búsqueda natural recibirá el crédito total del evento de conversión de 250 $. Con el servicio de Adobe CX Enterprise ID, puede unir estas visitas individuales para revelar un recorrido de un único visitante.
 
 ![Ejemplo de recorrido de conversión entre visitas en los canales de marketing](/help/integrations/assets/a4adc-mc-sample-journey.png)
 

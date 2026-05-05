@@ -12,7 +12,7 @@ subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3e2164230726fe96d4e43ebba26e84640bd806f1
+source-git-commit: fc5533c8823c2a7610861fdc077d5cdfe0c2d377
 workflow-type: tm+mt
 source-wordcount: 560
 ht-degree: 0%
@@ -33,6 +33,8 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 
 
 <!-- ## Manually create a reusable audience -->
+
+<!-- This is no longer the default, so will need to select "Manual" -->
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
@@ -76,11 +78,11 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 
          1. Haga clic en **[!UICONTROL + New Group]** en el panel derecho.
 
-         1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a *[!UICONTROL And]* o *[!UICONTROL Or]*, según sea necesario.
+            1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a *[!UICONTROL And]* o *[!UICONTROL Or]*, según sea necesario.
 
-         1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
+            1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
 
-         1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
+            1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
 
    * Para usar la lógica de segmento de una audiencia existente:
 

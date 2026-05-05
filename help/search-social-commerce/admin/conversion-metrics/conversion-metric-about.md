@@ -12,9 +12,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: 280
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Las métricas de [conversión](/help/search-social-commerce/glossary.md#c-d) que
 
 * En Search, Social y Commerce, puede usar las métricas de conversión para crear objetivos que se usan para optimizar los portafolios. Además, los datos de las métricas de conversión se pueden mostrar en columnas en las vistas de administración de campañas y portafolios, y en los informes.
 
-* En Advertising DSP, puede usar métricas de conversión para crear [metas personalizadas](/help/dsp/optimization/custom-goal.md) que se usan para optimizar paquetes.
+* En Advertising DSP, puedes usar métricas de conversión para [crear objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md), que se usan para optimizar paquetes.
 
 De manera predeterminada, ninguna de las métricas de conversión de un anunciante (excepto las conversiones rastreadas por las etiquetas de seguimiento de eventos universales [!DNL Google Ads], [!DNL Google Analytics] y [!DNL Microsoft Advertising]) está disponible para las vistas e informes de administración de portafolios y campañas. Solo están disponibles cuando se ponen a disposición de los usuarios de forma específica y se incluye un nombre para mostrar, que es el nombre que se muestra. Cuando una métrica de conversión está disponible, puede usar el nombre de la métrica exactamente como está escrito en los datos recuperados o cambiar el nombre que se muestra en los encabezados de columna para facilitar la lectura.
 

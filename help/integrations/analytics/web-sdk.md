@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 193
+source-wordcount: 202
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 *Solo anunciantes con una integración Adobe Advertising-Adobe Analytics*
 
-Si su organización utiliza la biblioteca heredada de Adobe Analytics `visitorAPI.js` para la recopilación de datos, puede cambiar a la biblioteca de [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) (`alloy.js`), que le permite interactuar con los distintos servicios de Experience Cloud a través de [!DNL Edge Network].
+Si su organización utiliza la biblioteca heredada de Adobe Analytics `visitorAPI.js` para la recopilación de datos, puede cambiar a la biblioteca de [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) (`alloy.js`), que le permite interactuar con los distintos servicios de Adobe CX Enterprise a través de [!DNL Edge Network].
 
 La biblioteca de JavaScript [!DNL Analytics for Advertising] [!DNL Last Event Service], tal como está, registra eventos de visualización y clics y los vincula a las conversiones asociadas con un identificador suplementario (`SDID`). Sin embargo, la biblioteca [!DNL Web SDK] no proporciona un [!DNL stitch ID]. Para usar [!DNL Web SDK] para [!DNL Analytics for Advertising], debe modificar 1) la etiqueta [!DNL Last Event Service] que usa en sus páginas web y 2) los comandos [!DNL Web SDK] `sendEvent` en consecuencia.
 

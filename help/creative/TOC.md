@@ -3,9 +3,9 @@ role: User
 user-guide-title: Guía de Advertising Creative
 user-guide-description: Obtenga información sobre las funciones, tareas, configuraciones y otros recursos principales necesarios para utilizar Advertising Creative.
 breadcrumb-title: Guía de Creative
-source-git-commit: a5a29233034121a310ee172fe2cf6997047733c2
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '410'
 ht-degree: 5%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 5%
 
 # Guía de Advertising Creative 2.0 {#creative}
 
-+ [Novedades](/help/creative/home.md)
++ [¿Qué hay de nuevo?](/help/creative/home.md)
 + Introducción {#introduction}
    + [Acerca de Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personalizar las vistas de datos](/help/creative/introduction/customize-data-views.md)
    + [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
    + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
-   + [Directivas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
+   + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
 + Bibliotecas de Creative {#creative-libraries}
    + [Acerca de sus bibliotecas creativas](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Tamaños creativos admitidos](/help/creative/creative-libraries/creative-sizes.md)
@@ -61,31 +61,31 @@ ht-degree: 5%
             + [Asignar y cancelar la asignación de paquetes creativos a un nodo final](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Personalizar la optimización y programación creativas](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
             + [Personalización de las direcciones URL de seguimiento para creativos](/help/creative/experiences/experience-tracking-urls-targeting.md)
-   + Experiencias sin segmentación {#experience-nontargeted}
-      + [Crear una experiencia sin segmentación](/help/creative/experiences/experience-create-no-targeting.md)
-      + [Editar una experiencia sin segmentación](/help/creative/experiences/experience-edit-no-targeting.md)
-      + [Configuración de experiencia sin objetivo](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Etiquetas publicitarias y elementos creativos{#non-targeted-creatives}
-         + [Crear manualmente una etiqueta de anuncio para un tamaño creativo aplicable](/help/creative/experiences/experience-tag-create-manually.md)
-         + [Asigne elementos creativos a una etiqueta de anuncio para experiencias sin segmentación](/help/creative/experiences/experience-tag-assign-creatives.md)
-         + [Personalizar la optimización y programación creativas para una experiencia sin segmentación](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
-         + [Personalización de las direcciones URL de seguimiento de una experiencia sin segmentación](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
-   + [Clonar una experiencia](/help/creative/experiences/experience-clone.md)
-   + [Previsualización de una experiencia](/help/creative/experiences/experience-preview.md)
-   + [Personalización de las opciones de transcodificación de una etiqueta de vídeo y experiencia](/help/creative/experiences/experience-tag-video-transcoding.md)
-   + [Exportación e implementación de una etiqueta de experiencia de anuncio para una experiencia en directo](/help/creative/experiences/experience-tag-export.md)
-   + [Uso compartido de una URL de demostración para una experiencia](/help/creative/experiences/experience-share-demo-url.md)
-   + [Descargar datos de la vista [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
-   + [Cambiar nombre de etiqueta de anuncio](/help/creative/experiences/experience-tag-rename.md)
-   + [Ver el registro de cambios de una experiencia](/help/creative/experiences/experience-view-change-log.md)
-   + [Eliminar una experiencia](/help/creative/experiences/experience-delete.md)
-+ Fuentes {#feeds}
-   + [Administrar archivos de recursos](/help/creative/feeds/asset-manage.md)
-   + [Administrar plantillas de fuentes](/help/creative/feeds/feed-template-manage.md)
-   + [Administrar catálogos](/help/creative/feeds/catalog-manage.md)
-   + [Seguimiento del estado de los trabajos de procesamiento del catálogo](/help/creative/feeds/job-status-track.md)
-+ [Administración de plantillas de publicidad dinámicas](/help/creative/ad-templates/ad-template-manage.md)
-+ [Apéndice: Campos disponibles para archivos de fuentes de publicidad dinámica](/help/creative/appendix-available-feed-fields.md)
+   + Experiences without targeting {#experience-nontargeted}
+      + [Create an experience without targeting](/help/creative/experiences/experience-create-no-targeting.md)
+      + [Edit an experience without targeting](/help/creative/experiences/experience-edit-no-targeting.md)
+      + [Nontargeted experience settings](/help/creative/experiences/experience-settings-no-targeting.md)
+      + Ad tags and creatives{#non-targeted-creatives}
+         + [Manually create an ad tag for an applicable creative size](/help/creative/experiences/experience-tag-create-manually.md)
+         + [Assign creatives to an ad tag for experiences without targeting](/help/creative/experiences/experience-tag-assign-creatives.md)
+         + [Customize creative optimization and scheduling for an experience without targeting](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
+         + [Customize the tracking URLs for an experience without targeting](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
+   + [Clone an experience](/help/creative/experiences/experience-clone.md)
+   + [Preview an experience](/help/creative/experiences/experience-preview.md)
+   + [Customize transcoding options for a video ad experience tag](/help/creative/experiences/experience-tag-video-transcoding.md)
+   + [Export and implement an ad experience tag for a live experience](/help/creative/experiences/experience-tag-export.md)
+   + [Share a demo URL for an experience](/help/creative/experiences/experience-share-demo-url.md)
+   + [Download data from the [!UICONTROL Experiences] view](/help/creative/experiences/experience-download-view.md)
+   + [Rename an ad tag](/help/creative/experiences/experience-tag-rename.md)
+   + [View the change log for an experience](/help/creative/experiences/experience-view-change-log.md)
+   + [Delete an experience](/help/creative/experiences/experience-delete.md)
++ Feeds {#feeds}
+   + [Manage asset files](/help/creative/feeds/asset-manage.md)
+   + [Manage feed templates](/help/creative/feeds/feed-template-manage.md)
+   + [Manage catalogs](/help/creative/feeds/catalog-manage.md)
+   + [Track the status of catalog processing jobs](/help/creative/feeds/job-status-track.md)
++ [Manage dynamic ad templates](/help/creative/ad-templates/ad-template-manage.md)
++ [Appendix: Available fields for dynamic ad feed files](/help/creative/appendix-available-feed-fields.md)
 + Informes de rendimiento {#reports}
    + [Informes de rendimiento de nivel de experiencia](/help/creative/experiences/experience-performance-details.md)
    + [Ver alertas](/help/creative/reports/alerts-view.md)
@@ -95,4 +95,4 @@ ht-degree: 5%
 + [Redireccionamiento de píxeles](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 + [Obtener ayuda](/help/creative/get-help.md)
-+ [Notas de la versión de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es){target="_blank"}
++ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es){target="_blank"}

@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: 1045
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ La nueva interfaz de usuario para Search, Social y Commerce tiene los siguientes
 
 1. Vaya a https://adminconsole.adobe.com/enterprise/.
 
-1. (Si no ha iniciado sesión en Experience Cloud) Inicie sesión en Experience Cloud:
+1. (Si no ha iniciado sesión en CX Enterprise) Inicie sesión en CX Enterprise:
 
    1. Escriba su ID de [!DNL Adobe] y haga clic en **[!UICONTROL Continue]**.
 
    1. Seleccione **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   1. Seleccione la organización de Experience Cloud aplicable.
+   1. Seleccione la organización de CX Enterprise aplicable.
 
       Admin Console abre la ficha [!UICONTROL Overview].
 
@@ -122,7 +122,7 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
 1. (Opcional) [Agregue otro administrador del sistema](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise) como copia de seguridad.
 
-1. Delegar la administración de productos y usuarios agregando administradores de productos[.](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise)
+1. Delegar la administración de productos y usuarios agregando administradores de productos[&#128279;](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise).
 
 ### Flujo de trabajo para administradores de productos
 

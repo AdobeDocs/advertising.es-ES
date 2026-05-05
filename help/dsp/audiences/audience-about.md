@@ -18,9 +18,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
 workflow-type: tm+mt
-source-wordcount: 1321
+source-wordcount: 1394
 ht-degree: 0%
 
 ---
@@ -91,11 +91,11 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
   Los segmentos de terceros incurren en tarifas adicionales, que se indican junto al nombre de cada segmento.
 
-* (Anunciantes con Adobe Experience Platform y [!DNL Real-Time CDP], Adobe Audience Manager o Adobe Analytics que solo usan etiquetas de conversión de Adobe Advertising JavaScript) Todos los segmentos de audiencia de origen, segundo o tercero disponibles creados en [!DNL Real-Time CDP], creados en Audience Manager o publicados en Adobe Experience Cloud desde Audience Manager o [!DNL Analytics].
+* (Anunciantes con Adobe Experience Platform y [!DNL Real-Time CDP], Adobe Audience Manager o Adobe Analytics que solo usan etiquetas de conversión de Adobe Advertising JavaScript) Todos los segmentos de audiencia de origen, segundo o tercero disponibles creados en [!DNL Real-Time CDP], creados en Audience Manager o publicados en Adobe CX Enterprise desde Audience Manager o [!DNL Analytics].
 
   El precio del uso de los segmentos está negociado previamente y no es visible en DSP.
 
-  Los segmentos de [!DNL Analytics] están disponibles aproximadamente una hora después de crearlos o publicarlos como audiencias de Experience Cloud. Los segmentos que provienen directamente de Audience Manager o [!DNL Real-Time CDP] están disponibles en un plazo de 24 horas después de compartirlos.
+  Los segmentos de [!DNL Analytics] están disponibles aproximadamente una hora después de crearlos o publicarlos como audiencias de CX Enterprise. Los segmentos que provienen directamente de Audience Manager o [!DNL Real-Time CDP] están disponibles en un plazo de 24 horas después de compartirlos.
 
   >[!NOTE]
   >

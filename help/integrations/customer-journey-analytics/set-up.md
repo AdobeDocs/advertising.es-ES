@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 67835b7b70333a81572355b4fed794341cd4ff36
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: 1814
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 *característica de Beta*
 
 Se requieren las siguientes tareas para ver los datos de Advertising Cloud en Customer Journey Analytics.
+
+>[!PREREQUISITES]
+>
+>Mientras se encuentra en modo beta, pídale al equipo de cuenta de Adobe que proporcione a la cuenta del anunciante acceso al servicio `Adobe Advertising`.
 
 1. (Analista web de su organización; opcional) [Recopilar datos históricos para los ID de AMO e ID de EF](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}.
 
@@ -63,7 +67,7 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
    * Elija la opción para **[!UICONTROL Create dataset from schema]** y seleccione el esquema.
 
-     Adobe Advertising crea conjuntos de datos adicionales para los datos de métricas de resumen relacionados (como valores de conversión) y datos de búsqueda (dimensiones/metadatos de clasificación, como el nombre de la campaña de Adobe Advertising) basados en el conjunto de datos de evento. Los datos de los conjuntos de datos se rellenan a diario en Experience Platform.
+     <!-- Manual process during beta -->Adobe Advertising crea conjuntos de datos adicionales para los datos de métricas de resumen relacionados (como valores de conversión) y datos de búsqueda (dimensiones/metadatos de clasificación, como el nombre de la campaña de Adobe Advertising) basados en el conjunto de datos de evento. Los datos de los conjuntos de datos se rellenan a diario en Experience Platform.
 
 1. [Crear un conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) para el esquema.
 
@@ -85,7 +89,7 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
    * Para su propiedad, [instale la extensión &quot;Adobe Experience Platform Web SDK&quot;](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) del catálogo de extensiones.
 
-     Esta extensión envía datos de las propiedades web a Experience Cloud a través de Experience Platform Edge Network.
+     Esta extensión envía datos de sus propiedades web a Adobe CX Enterprise a través de Experience Platform Edge Network.
 
      No utilice la extensión de Adobe Advertising.
 

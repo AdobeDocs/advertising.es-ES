@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
-source-wordcount: 363
+source-wordcount: 389
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Search, Social y Commerce están realizando la transición al servicio Identity Management de Adobe (IMS) para la autenticación de inicio de sesión. IMS proporciona acceso de inicio de sesión único (SSO) mediante Federated ID a todos los [!DNL Adobe] productos que admiten IMS, incluidos Real-Time Customer Data Platform, Customer Journey Analytics, Target y Analytics. Con el cambio:
 
-* Puede usar un(a) [!DNL Adobe ID] para iniciar sesión en [!DNL Adobe] productos desde la página de inicio de sesión de Experience Cloud o desde la página de inicio de sesión heredada de Search, Social y Commerce. Su [!DNL Adobe ID] proporciona administración de perfiles de usuario y la capacidad de cambiar a un producto de [!DNL Adobe] diferente desde el menú superior. En una versión futura, podrá cambiar la cuenta de Search, Social y Commerce y la cuenta de la organización IMS del menú superior.
+* Puede usar un(a) [!DNL Adobe ID] para iniciar sesión en [!DNL Adobe] productos desde la página de inicio de sesión de CX Enterprise o desde la página de inicio de sesión heredada de Search, Social y Commerce. Su [!DNL Adobe ID] proporciona administración de perfiles de usuario y la capacidad de cambiar a un producto de [!DNL Adobe] diferente desde el menú superior. En una versión futura, podrá cambiar la cuenta de Search, Social y Commerce y la cuenta de la organización IMS del menú superior.
 
 * Se admite la autenticación empresarial.
 
@@ -29,7 +29,7 @@ Search, Social y Commerce están realizando la transición al servicio Identity 
 
 Sus credenciales actuales de Search, Social y Commerce permanecerán activas durante un corto tiempo para que pueda prepararse para el cambio.
 
-Para obtener más información acerca de la interfaz de Experience Cloud, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de Experience Cloud y administración](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud)&quot;.
+Para obtener más información acerca de la interfaz de CX Enterprise, incluida la administración del perfil de usuario, consulte &quot;[Interfaz de CX Enterprise y administración](https://experienceleague.adobe.com/es/docs/core-services/interface/experience-cloud)&quot;.
 
 ## Inicie sesión desde la página de inicio de sesión heredada de Search, Social y Commerce
 
@@ -53,7 +53,7 @@ Esta opción está disponible durante un corto periodo de tiempo para que pueda 
 
 1. Si tiene acceso a varias organizaciones de IMS, seleccione la organización correcta en la parte superior derecha de la página.
 
-## Iniciar sesión desde Adobe Experience Cloud con un [!DNL Adobe ID]
+## Sign in from Adobe CX Enterprise using an [!DNL Adobe ID]
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 
