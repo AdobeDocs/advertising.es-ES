@@ -5,14 +5,10 @@ feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: c82dc210-1bd4-466c-8a0e-96b59a80da93
 TQID: https://experienceleague.adobe.com/rq1FeFn92Z9LOLIVl-HeiOG4tmtzMSqpd7tKmXP93kc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
 source-wordcount: 342
 ht-degree: 0%
@@ -41,7 +37,7 @@ Consulte también &quot;>* [(IU heredada) Descargar datos de una vista de admini
 
    * Para descargar los datos de todas las campañas, no es necesario seleccionar ninguna casilla de verificación. Todas las campañas se incluyen de forma predeterminada.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") **[!UICONTROL Report]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe") **[!UICONTROL Reports]**.
 
 1. En la configuración de [!UICONTROL Grid Reports], escriba un nombre de informe único y haga clic en **[!UICONTROL Generate]**.
 
@@ -57,7 +53,7 @@ Consulte también &quot;>* [(IU heredada) Descargar datos de una vista de admini
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") **[!UICONTROL Report]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe") **[!UICONTROL Reports]**.
 
 1. En la lista [!UICONTROL Recently Generated] del cuadro de diálogo [!UICONTROL Grid Reports], haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") junto al nombre del archivo.
 
@@ -67,7 +63,7 @@ Consulte también &quot;>* [(IU heredada) Descargar datos de una vista de admini
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") **[!UICONTROL Report]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe") **[!UICONTROL Reports]**.
 
 1. En la lista [!UICONTROL Recently Generated] del cuadro de diálogo [!UICONTROL Grid Reports], haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar") junto al nombre de archivo.
 
