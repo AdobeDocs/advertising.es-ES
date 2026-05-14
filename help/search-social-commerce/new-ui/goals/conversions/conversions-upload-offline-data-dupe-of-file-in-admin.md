@@ -2,9 +2,9 @@
 title: Carga de datos de conversión sin conexión para conversiones mejoradas
 description: Aprenda a cargar datos de conversión sin conexión de origen para asignarlos a  [!DNL Google Ads] conversiones mejoradas para posibles clientes y [!DNL Microsoft Advertising] conversiones mejoradas.
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,15 @@ ht-degree: 0%
 
 <!-- Renamed file to start with "conversions-"-->
 
-<!-- Update to add procedure in new UI -->
+<!-- Added procedure in new UI, which isn't available to all yet -->
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] solo cuentas*
 
 Puede cargar los datos de conversión sin conexión de origen, incluidas las direcciones de correo electrónico con hash y los números de teléfono, para asignarlos a las [[!DNL Google Ads] conversiones mejoradas para posibles clientes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) y [[!DNL Microsoft Advertising] conversiones mejoradas](https://help.ads.microsoft.com/#apex/ads/en/60178) existentes. Todos los datos cargados se sincronizan en tiempo real con la red de anuncios.
 
 ## (Nueva IU) Cargar datos para mejorar las conversiones
+
+*característica de Beta*
 
 1. En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 

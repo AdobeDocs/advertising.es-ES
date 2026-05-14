@@ -2,22 +2,24 @@
 title: Crear una acción de conversión para una  [!DNL Google Ads] conversión mejorada para posibles clientes
 description: Aprenda a crear una acción de conversión  [!DNL Google Ads] para una conversión mejorada para posibles clientes.
 feature: Conversions
-source-git-commit: 88a45014064220a2bec6aa6080a2a1f53d24b9bb
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
 
 # Crear una acción de conversión para una conversión mejorada de [!DNL Google Ads] para posibles clientes
 
-<!-- Includes procedure in new UI -->
+<!-- Includes procedure in new UI, which isn't available to all yet -->
 
 *[!DNL Google Ads]solo cuentas*
 
 Puede crear acciones de conversión para [!DNL Google Ads] conversiones mejoradas para posibles clientes que se rastrearán en cuentas individuales de [!DNL Google Ads], no en conversiones seguidas en el nivel de cuenta de administrador.<!-- I don't see a list of synced conversion actions here; supposedly we do list them, but I don't see them in the legacy UI either (unless they're just listed as conversions, but not identified differently). Clarify and reword if necessary. -->
 
 ## (Nueva IU) Crear una acción de conversión
+
+*característica de Beta*
 
 1. En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
 
