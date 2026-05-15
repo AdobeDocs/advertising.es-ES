@@ -4,19 +4,13 @@ description: Obtenga más información sobre la seguridad de la marca y las func
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
 TQID: https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: 1445
 ht-degree: 0%
 
 ---
@@ -147,13 +141,13 @@ Para crear una cuenta de [!DNL Comscore] y segmentos de temas personalizados, pu
 
 ![Logotipo de Comscore](/help/dsp/assets/comscore-logo.png)
 
-### [!DNL DoubleVerify Authentic Brand Safety]
+### [!DNL DoubleVerify Authentic Brand Suitability]
 
-DSP se ha asociado con [!DNL DoubleVerify] para ofrecer su solución de segmentación [!DNL Authentic Brand Safety], que le permite crear un conjunto centralizado de requisitos de seguridad de marca para dirigirse a todas las plataformas de compra con el fin de mantener la coherencia.
+DSP se ha asociado con [!DNL DoubleVerify] para ofrecer su solución de segmentación [!DNL Authentic Brand Suitability], que le permite crear un conjunto centralizado de requisitos de seguridad de marca para dirigirse a todas las plataformas de compra con el fin de mantener la coherencia.
 
-Una vez que haya creado un segmento de seguridad de marca [!DNL DoubleVerify] con la segmentación necesaria, puede utilizarlo en DSP para replicar las reglas de bloque posteriores a la oferta con oferta previa en entornos web.
+Una vez que haya creado un segmento [!DNL DoubleVerify] con el objetivo necesario, puede utilizarlo en DSP para replicar las reglas de bloque posteriores a la oferta con la oferta previa en entornos web.
 
-Puede especificar un ID de segmento [!DNL DoubleVerify] para cada anunciante<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> y, opcionalmente, [habilitar o deshabilitar [!UICONTROL Authentic Brand Safety] para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). DSP factura a su cuenta por el uso del ID de segmento.
+Puede especificar un ID de segmento [!DNL DoubleVerify] para cada anunciante y, opcionalmente, [habilitar o deshabilitar [!UICONTROL Authentic Brand Suitability] para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md). DSP factura a su cuenta por el uso del ID de segmento.
 
 Para obtener más información acerca de la funcionalidad, comuníquese directamente con [!DNL DoubleVerify] o comuníquese con el equipo de cuenta de Adobe.
 
