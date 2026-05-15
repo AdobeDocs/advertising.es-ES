@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
 TQID: https://experienceleague.adobe.com/tKCeMIgFKnW8hOU-6uavT9x7K9lL2Uqo2bWZ-H-Q5TE
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 393
 ht-degree: 0%
 
 ---
@@ -37,7 +33,7 @@ Una hoja de edición masiva de portafolios es un archivo que contiene la configu
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en:
 
-   * (Para todos los portafolios) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+   * (Para todos los portafolios) ![Operaciones en masa](/help/search-social-commerce/assets/chevron-down.png "Operaciones en masa") > **[!UICONTROL Export All Portfolios]**.
 
    * (Para portafolios seleccionados) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
@@ -49,7 +45,7 @@ Una hoja de edición masiva de portafolios es un archivo que contiene la configu
 
 El archivo debe tener el formato XLSX.
 
-1. En la barra de herramientas sobre la tabla de datos, haga clic en **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Operaciones en lote](/help/search-social-commerce/assets/chevron-down.png "Operaciones en lote") > **[!UICONTROL Import Portfolio Details]**.
 
 1. En el diálogo [!UICONTROL Import Portfolio Details File]:
 
