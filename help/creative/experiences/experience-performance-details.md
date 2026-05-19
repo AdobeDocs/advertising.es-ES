@@ -10,9 +10,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
 workflow-type: tm+mt
-source-wordcount: 786
+source-wordcount: 791
 ht-degree: 0%
 
 ---
@@ -32,28 +32,28 @@ La vista Informe incluye los siguientes datos:
       * **Rendimiento general**: el total de impresiones; clics; tasa de clics (CTR); y conversiones de visualizaciones y clics.
 
      <!--
-     ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
-          -->
+      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
+     -->
 
       * **Tasa predeterminada**: (Solo experiencias con segmentación en el árbol de decisiones) El número de impresiones resultantes de elementos creativos segmentados, elementos creativos genéricos sin segmentación o segmentados a &quot;Todos los demás&quot; y el elemento creativo predeterminado para la experiencia.
 
      <!--
-     ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
+      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
    * **Desglose de rendimiento** sección:
 
-      * **Rendimiento regional:*: Métricas individuales por ubicación geográfica.
+      * **Rendimiento regional:**: Métricas individuales por ubicación geográfica.
 
-        <!--   
+     <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
       * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los 10 elementos creativos principales que se incluyen en ese criterio.
 
-        <!--    
+     <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
-      -->
+     -->
 
 * **Rendimiento de Creative** pestaña*: Información general sobre el rendimiento por creatividad y paquete o etiqueta de publicidad, que incluye:
 

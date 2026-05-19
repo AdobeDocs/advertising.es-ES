@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -25,55 +25,39 @@ ht-degree: 0%
 
 Puede generar una simulación personalizada para un portafolio [optimizado o activo](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md). También puede cambiar los parámetros de una simulación existente y regenerarla, o volver a ejecutar una simulación existente con los parámetros existentes.
 
+<!-- You can't run sims for portfolios with legacy keyword-level optimization when they include smart bidding campaigns. Clarify all exceptions so users don't find out via error messages. -->
+
 Los usuarios de [!UICONTROL Admin] y [!UICONTROL Account Manager] pueden ver simulaciones creadas por otros usuarios. El resto de usuarios solo pueden ver las simulaciones personalizadas que crean.
 
 ## Creación de una nueva simulación
 
-1. En el menú principal, haga clic en **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+1. Realice una de las acciones siguientes:
 
-1. Sobre la tabla de datos, haga clic en **[!UICONTROL Run Simulation]**.
+* Desde la vista [!UICONTROL Simulations]:
 
-1. Seleccione el portafolio:
+   1. En el menú principal, haga clic en **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-   1. Haga clic en **[!UICONTROL Select Portfolio]**.
+   1. Sobre la tabla de datos, haga clic en **[!UICONTROL Run Simulation]**.
 
-   1. Seleccione el portafolio.
+   1. Seleccione el portafolio:
 
-      Para buscar portafolios que incluyan una cadena de texto específica, empiece a introducir la cadena de texto dentro del campo de búsqueda. Los valores no distinguen entre mayúsculas y minúsculas.
+      1. Haga clic en **[!UICONTROL Select Portfolio]**.
 
-   1. Haga clic en **[!UICONTROL Proceed]**.
+      1. Seleccione el portafolio.
 
-1. Especifique la [configuración de simulación personalizada](#custom-simulation-settings):
+         Para buscar portafolios que incluyan una cadena de texto específica, empiece a introducir la cadena de texto dentro del campo de búsqueda. Los valores no distinguen entre mayúsculas y minúsculas.
 
-   1. (Opcional) Para cambiar el portafolio utilizado para la simulación, haga clic en **[!UICONTROL Change Portfolio]** junto al nombre del portafolio, seleccione el portafolio y, a continuación, haga clic en **[!UICONTROL Proceed]**.
+      1. Haga clic en **[!UICONTROL Proceed]**.
 
-   1. En la ficha [!UICONTROL Basic Settings]:
+* Desde la vista [!UICONTROL Portfolios]:
 
-      1. Escriba un(a) **[!UICONTROL Simulation Name]** único.
+   1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-      1. (Opcional) Cambie los parámetros básicos de la simulación.
+   1. Realice una de las acciones siguientes:
 
-   1. (Opcional) En la pestaña [!UICONTROL Advanced Settings], cambie los parámetros avanzados de la simulación.
+      * Mantenga el cursor sobre la fila del portafolio. Junto al nombre del portafolio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
 
-   Los parámetros existentes para el portafolio seleccionado se especifican de forma predeterminada. Al cambiar los valores, se muestran los resultados que producirían distintos parámetros sin cambiar los parámetros existentes del portafolio.
-
-1. Haga clic en **[!UICONTROL Next]**.
-
-1. Revise la configuración y edítela según sea necesario.
-
-1. Haga clic en **[!UICONTROL Submit & Run]**.
-
-Cuando el informe de simulación esté disponible, usted y los demás destinatarios de correo electrónico especificados recibirán una notificación con un vínculo para descargar los datos en un archivo ZIP que contenga un libro (archivo XLSX).
-
-<!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
-
-## Edite los ajustes de una simulación existente y vuelva a ejecutarla
-
-1. En el menú principal, haga clic en **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
-
-1. Seleccione la casilla de verificación situada junto a la simulación que se va a regenerar.
-
-1. Sobre la tabla de datos, haga clic en **[!UICONTROL Run Simulation]**.
+      * Seleccione la casilla de verificación situada junto al portafolio. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Run Simulation]**.
 
 1. Especifique la [configuración de simulación personalizada](#custom-simulation-settings):
 
@@ -108,6 +92,38 @@ Puede volver a ejecutar simulaciones que no estén en cola actualmente.
 1. Seleccione las casillas de verificación situadas junto a las simulaciones que desee volver a ejecutar.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Volver a ejecutar](/help/search-social-commerce/assets/rerun.png "Volver a ejecutar").
+
+## Edite los ajustes de una simulación existente y vuelva a ejecutarla
+
+1. En el menú principal, haga clic en **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+
+1. Seleccione la casilla de verificación situada junto a la simulación que se va a regenerar.
+
+1. Sobre la tabla de datos, haga clic en **[!UICONTROL Run Simulation]**.
+
+1. Especifique la [configuración de simulación personalizada](#custom-simulation-settings):
+
+   1. (Opcional) Para cambiar el portafolio utilizado para la simulación, haga clic en **[!UICONTROL Change Portfolio]** junto al nombre del portafolio, seleccione el portafolio y, a continuación, haga clic en **[!UICONTROL Proceed]**.
+
+   1. En la ficha [!UICONTROL Basic Settings]:
+
+      1. Escriba un(a) **[!UICONTROL Simulation Name]** único.
+
+      1. (Opcional) Cambie los parámetros básicos de la simulación.
+
+   1. (Opcional) En la pestaña [!UICONTROL Advanced Settings], cambie los parámetros avanzados de la simulación.
+
+   Los parámetros existentes para el portafolio seleccionado se especifican de forma predeterminada. Al cambiar los valores, se muestran los resultados que producirían distintos parámetros sin cambiar los parámetros existentes del portafolio.
+
+1. Haga clic en **[!UICONTROL Next]**.
+
+1. Revise la configuración y edítela según sea necesario.
+
+1. Haga clic en **[!UICONTROL Submit & Run]**.
+
+Cuando el informe de simulación esté disponible, usted y los demás destinatarios de correo electrónico especificados recibirán una notificación con un vínculo para descargar los datos en un archivo ZIP que contenga un libro (archivo XLSX).
+
+<!-- Still true:  When the results for any report type include more than 60,000 rows, the workbook includes multiple worksheets. -->
 
 ## Ajustes de simulación personalizados {#custom-simulation-settings}
 

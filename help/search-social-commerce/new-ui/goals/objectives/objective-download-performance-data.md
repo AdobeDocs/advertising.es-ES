@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo descargar objetivos en un archivo 
 feature: Search Optimization, Search Portfolios
 hide: true
 exl-id: fbd0e58b-9f9b-4c8e-8a85-197bca220c10
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Puede descargar el número de portafolios asociados, el valor de los clics, los 
 
    * Para descargar datos para todos los objetivos, no es necesario activar ninguna casilla de verificación. Todos los objetivos se incluyen de forma predeterminada.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe").
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe") **[!UICONTROL Reports]**.
 
 1. En la configuración de [!UICONTROL Grid Reports], escriba un nombre de informe único y haga clic en **[!UICONTROL Generate]**.
 
@@ -45,7 +45,7 @@ Puede descargar el número de portafolios asociados, el valor de los clics, los 
 
 En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe").
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe") **[!UICONTROL Reports]**.
 
 1. En la lista [!UICONTROL Recently Generated] del cuadro de diálogo [!UICONTROL Grid Reports], haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") junto al nombre del archivo.
 
@@ -55,7 +55,7 @@ En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Objectives]
 
 1. En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") **[!UICONTROL Report]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe") **[!UICONTROL Reports]**.
 
 1. En la lista [!UICONTROL Recently Generated] del cuadro de diálogo [!UICONTROL Grid Reports], haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar") junto al nombre de archivo.
 

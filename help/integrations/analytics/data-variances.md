@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d540e71081d223cc4e9ee28bb8b4f168c07ff50
 workflow-type: tm+mt
-source-wordcount: 3359
+source-wordcount: 3528
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *Solo anunciantes con una integración Adobe Advertising-Adobe Analytics*
 
-Los anunciantes con la integración [!DNL Analytics for Advertising] <!-- (A4AdC) --> rastrean la publicidad de pago a través de Adobe Advertising y Adobe Analytics. Al realizar el seguimiento de medios, campañas y canales a través de varios sistemas, los mismos conjuntos de datos de diferentes sistemas rara vez coinciden por completo. En este documento se explica cómo debería esperar datos para los medios que se trafican a través de Adobe Advertising para compararlos con los datos de los diferentes sistemas en los que se hace un seguimiento de los medios en [!DNL Analytics].
+Los anunciantes con la integración [!DNL Analytics for Advertising] hacen un seguimiento de la publicidad de pago a través de Adobe Advertising y Adobe Analytics. Al realizar el seguimiento de medios, campañas y canales a través de varios sistemas, los mismos conjuntos de datos de diferentes sistemas rara vez coinciden por completo. En este documento se explica cómo debería esperar datos para los medios que se trafican a través de Adobe Advertising para compararlos con los datos de los diferentes sistemas en los que se hace un seguimiento de los medios en [!DNL Analytics].
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ En Adobe Advertising, puede generar informes sobre los datos de conversión ya s
 
 ## Atribución en [!DNL Analytics Marketing Channels]
 
-[[!DNL Analytics Marketing Channels] creación de informes](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=es) le permite configurar reglas para identificar diferentes canales de marketing en función de distintos aspectos de la información de visitas. Puede realizar el seguimiento de los canales rastreados por Adobe Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] y [!UICONTROL Paid Search]) como [!DNL Marketing Channels] mediante el parámetro de cadena de consulta `ef_id` para identificar el canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Sin embargo, aunque los informes de [!DNL Marketing Channels] pueden rastrear canales de Adobe Advertising, es posible que los datos no coincidan con los informes de Adobe Advertising por varios motivos. Consulte las secciones siguientes para obtener más información.
+[[!DNL Analytics Marketing Channels] creación de informes](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=es) le permite configurar reglas para identificar diferentes canales de marketing en función de distintos aspectos de la información de visitas. Puede realizar el seguimiento de los canales rastreados por Adobe Advertising ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] y [!UICONTROL Paid Search]) como [!DNL Marketing Channels] mediante el parámetro de cadena de consulta `ef_id` para identificar el canal. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Sin embargo, aunque los informes de [!DNL Marketing Channels] pueden realizar el seguimiento de canales de Adobe Advertising, es posible que los datos no coincidan con los informes de Adobe Advertising por varios motivos. Consulte las secciones siguientes para obtener más información.
 
 >[!NOTE]
 >

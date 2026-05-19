@@ -3,7 +3,7 @@ title: (Nueva IU) Administrar informes de vista de datos desde la vista [!UICONT
 description: Obtenga información sobre cómo generar, descargar y eliminar informes que contengan las filas de datos de uno o más anuncios en la vista [!UICONTROL Ads] de un informe.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Consulte también &quot;[(IU heredada) Descargar datos de una vista de administr
 
    * Para descargar los datos de todos los anuncios, no es necesario seleccionar ninguna casilla de verificación. Todos los anuncios se incluyen de forma predeterminada.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") **[!UICONTROL Report]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe") **[!UICONTROL Reports]**.
 
 1. En la configuración de [!UICONTROL Grid Reports], escriba un nombre de informe único y haga clic en **[!UICONTROL Generate]**.
 
@@ -46,7 +46,7 @@ Consulte también &quot;[(IU heredada) Descargar datos de una vista de administr
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") **[!UICONTROL Report]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe") **[!UICONTROL Reports]**.
 
 1. En la lista [!UICONTROL Recently Generated] del cuadro de diálogo [!UICONTROL Grid Reports], haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") junto al nombre del archivo.
 
@@ -56,7 +56,7 @@ Consulte también &quot;[(IU heredada) Descargar datos de una vista de administr
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar](/help/search-social-commerce/assets/download.png "Descargar") **[!UICONTROL Report]**.
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Descargar informe](/help/search-social-commerce/assets/download.png "Descargar informe") **[!UICONTROL Reports]**.
 
 1. En la lista [!UICONTROL Recently Generated] del cuadro de diálogo [!UICONTROL Grid Reports], haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar") junto al nombre de archivo.
 

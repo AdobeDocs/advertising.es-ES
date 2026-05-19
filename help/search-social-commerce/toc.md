@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2224'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
    + [Acerca de Adobe Advertising Search, Social y Commerce](/help/search-social-commerce/introduction/about.md)
    + [Inventario admitido](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integración con Adobe CX Enterprise {#integrations}
-      + [Integración con soluciones y servicios de Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)
+      + [Integración con las soluciones y servicios empresariales de Adobe CX](/help/search-social-commerce/introduction/integrations.md)
       + [Adobe [!DNL Analytics for Advertising] (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es){target="_blank"}
       + [Integración con Adobe Audience Manager (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=es){target="_blank"}
    + [Compatibilidad con la privacidad del consumidor (vínculo)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
@@ -67,7 +67,7 @@ ht-degree: 2%
          + [Eliminar un informe de datos de rendimiento o un archivo de hoja de edición masiva del menú [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + (Beta) NUEVA INTERFAZ DE USUARIO {#new-ui}
    + [Acerca de la nueva interfaz de usuario](/help/search-social-commerce/new-ui/new-ui-about.md)
-   + [Ver el panel de rendimiento](/help/search-social-commerce/new-ui/dashboard-view.md)
+   + [Ver el panel de rendimiento](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
    + Plan {#plan}
       + Objetivos {#objectives}
          + [Acerca de los objetivos](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -91,9 +91,13 @@ ht-degree: 2%
          + [Duplicación de un portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
          + [Editar detalles del portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
          + [Edición masiva de la configuración de portafolios mediante archivos de hojas de edición masiva](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-bulksheets.md)
+         + [Cambiar el nombre de un portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)
+         + [Cambiar el estado de un portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-change-status.md)
          + [Configuración de Portfolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
+         + [Ejecutar una simulación personalizada desde la vista [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md)
          + [Ver un gráfico de rendimiento en la vista [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-performance-graph.md)
          + [Ver detalles de rendimiento del portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
+         + [Ver el historial de cambios de un portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-change-history.md)
          + [Administrar informes de vista de datos desde la vista [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
       + Campañas {#campaigns}
          + [Acerca de la vista [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
@@ -101,10 +105,14 @@ ht-degree: 2%
          + [Eliminación de campañas de un portafolio](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [Administrar asignaciones de restricción para campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [Administrar informes de vista de datos desde la vista [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+         + [Cambio del estado de una campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-change-status.md)
+         + [Cambiar nombre de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-rename.md)
       + Grupos de publicidad {#ad-groups}
          + [Acerca de la vista [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-about.md)
          + [Administrar asignaciones de restricción para grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
          + [Administrar informes de vista de datos desde la vista [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+         + [Cambiar el estado de un grupo de publicidad](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-change-status.md)
+         + [Cambiar nombre de grupo de publicidad](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-rename.md)
       + Anuncios {#ads}
          + [Acerca de la vista [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-about.md)
          + [Administrar informes de vista de datos desde la vista [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
@@ -333,57 +341,57 @@ ht-degree: 2%
    + Advertising Insights {#insights}
       + [Acerca de [!UICONTROL Advertising Insights]](/help/search-social-commerce/advertising-insights/insight-about.md)
       + [Generar un [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-generate.md)
-      + [View or save an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-view-save.md)
-      + [Delete an [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-delete.md)
+      + [Ver o guardar un(a) [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-view-save.md)
+      + [Eliminar un [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-delete.md)
    + Informes {#reports}
-      + [About reports](/help/search-social-commerce/reports/report-about.md)
-      + [The initial setup tasks for reports](/help/search-social-commerce/reports/initial-setup.md)
-      + [The data used for reports](/help/search-social-commerce/reports/data-used-for-reports.md)
-      + Managing reports {#report-management}
-         + Basic and advanced reports {#basic-advanced-reports}
-            + [About basic and advanced reports](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
-            + Basic report formats {#basic-report-formats}
-               + [The [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
-               + [The [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
-               + [The [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
-               + [The [!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-hourly-report.md)
-               + [The [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
-               + [The [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)
-               + [The [!UICONTROL Label Classification Report]](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md)
-               + [The [!UICONTROL Label Value Report]](/help/search-social-commerce/reports/management/basic-advanced/label-value-report.md)
-               + [The [!UICONTROL Network Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/network-constraint-report.md)
-               + [The [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
-               + [The [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
-               + [The [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
-               + [The [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
-            + Advanced report formats {#advanced-report-formats}
-               + [The [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
-               + [The [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
-               + [The [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)
-            + [Generate a basic or advanced report](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
-            + [Basic and advanced report settings](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
-            + [Report columns for basic and advanced reports](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
-         + Assist reports {#assist-reports}
-            + [About assist reports](/help/search-social-commerce/reports/management/assist/assist-report-about.md)
-            + Assist report formats {#assist-report-formats}
-               + [The [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
-               + [The [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
-               + [The [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
-            + [Generate an assist report](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
-            + [Assist report settings](/help/search-social-commerce/reports/management/assist/assist-report-settings.md)
-         + Specialty reports {#specialty-reports}
-            + [About specialty reports](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
-            + Specialty report formats {#specialty-report-formats}
-               + [The [!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
-               + [The [!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
-               + [The [!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
-               + [The [!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
-               + [The [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
-               + [The [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
-               + [The [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
-               + [The [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
-               + [The [!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)
-               + [The [!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md)
+      + [Acerca de los informes](/help/search-social-commerce/reports/report-about.md)
+      + [Las tareas de configuración iniciales para los informes](/help/search-social-commerce/reports/initial-setup.md)
+      + [Los datos utilizados para los informes](/help/search-social-commerce/reports/data-used-for-reports.md)
+      + Administración de informes {#report-management}
+         + Informes básicos y avanzados {#basic-advanced-reports}
+            + [Acerca de los informes básicos y avanzados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
+            + Formatos de informe básicos {#basic-report-formats}
+               + [El [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)
+               + [El [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)
+               + [El [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)
+               + [El [!UICONTROL Campaign Hourly Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-hourly-report.md)
+               + [El [!UICONTROL Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/constraint-report.md)
+               + [El [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)
+               + [El [!UICONTROL Label Classification Report]](/help/search-social-commerce/reports/management/basic-advanced/label-classification-report.md)
+               + [El [!UICONTROL Label Value Report]](/help/search-social-commerce/reports/management/basic-advanced/label-value-report.md)
+               + [El [!UICONTROL Network Constraint Report]](/help/search-social-commerce/reports/management/basic-advanced/network-constraint-report.md)
+               + [El [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)
+               + [El [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/product-group-report.md)
+               + [El [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)
+               + [El [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)
+            + Formatos de informe avanzados {#advanced-report-formats}
+               + [El [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)
+               + [El [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)
+               + [El [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)
+            + [Generación de un informe básico o avanzado](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+            + [Configuración de informes básica y avanzada](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
+            + [Columnas de informes para informes básicos y avanzados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
+         + Informes de asistencia {#assist-reports}
+            + [Acerca de los informes de asistencia](/help/search-social-commerce/reports/management/assist/assist-report-about.md)
+            + Formatos de informe de asistencia {#assist-report-formats}
+               + [El [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
+               + [El [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
+               + [El [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
+            + [Generar un informe de asistencia](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
+            + [Configuración del informe de asistencia](/help/search-social-commerce/reports/management/assist/assist-report-settings.md)
+         + Informes especiales {#specialty-reports}
+            + [Acerca de los informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
+            + Formatos de informe especiales {#specialty-report-formats}
+               + [El [!UICONTROL AdWords and Bing Audience Target Report]](/help/search-social-commerce/reports/management/specialty/adwords-bing-audience-target-report.md)
+               + [El [!UICONTROL AdWords Conversion Report]](/help/search-social-commerce/reports/management/specialty/adwords-conversion-report.md)
+               + [El [!UICONTROL AdWords Geo Report]](/help/search-social-commerce/reports/management/specialty/adwords-geo-report.md)
+               + [El [!UICONTROL AdWords Search Query Report]](/help/search-social-commerce/reports/management/specialty/adwords-search-query-report.md)
+               + [El [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/adwords-shopping-performance-report.md)
+               + [El [!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
+               + [El [!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
+               + [El [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+               + [El [!UICONTROL Google AI Max Search Term Combination Report]](/help/search-social-commerce/reports/management/specialty/google-ai-max-search-term-combination-report.md)
+               + [El [!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md)
                + [El [!UICONTROL Google Performance Max Placement Report]](/help/search-social-commerce/reports/management/specialty/google-performance-max-placement-report.md)
                + [El [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
                + [El [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)

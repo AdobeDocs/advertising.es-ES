@@ -2,28 +2,60 @@
 title: Carga de datos de conversión sin conexión para conversiones mejoradas
 description: Aprenda a cargar datos de conversión sin conexión de origen para asignarlos a  [!DNL Google Ads] conversiones mejoradas para posibles clientes y [!DNL Microsoft Advertising] conversiones mejoradas.
 feature: Conversions
-exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-TQID: https://experienceleague.adobe.com/Hfmc5VCw9682cYmOQIcoy1Yy6InkoSmE18qqILbD2oI
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ab69d6b27b86f6e4d9da6be3cd0245d6116469d3
+source-git-commit: 3272a0d3e5766a22c2ff761b84f1774cafe153bd
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Carga de datos de conversión sin conexión para conversiones mejoradas
 
+<!-- Renamed file to start with "conversions-"-->
+
+<!-- Added procedure in new UI, which isn't available to all yet -->
+
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] solo cuentas*
 
 Puede cargar los datos de conversión sin conexión de origen, incluidas las direcciones de correo electrónico con hash y los números de teléfono, para asignarlos a las [[!DNL Google Ads] conversiones mejoradas para posibles clientes](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) y [[!DNL Microsoft Advertising] conversiones mejoradas](https://help.ads.microsoft.com/#apex/ads/en/60178) existentes. Todos los datos cargados se sincronizan en tiempo real con la red de anuncios.
 
-## Carga de datos para lograr conversiones mejoradas
+## (Nueva IU) Cargar datos para mejorar las conversiones
+
+*característica de Beta*
+
+1. En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Conversions]**.
+
+1. Sobre la tabla de datos, haga clic en **[!UICONTROL Set up Conversion]**.
+
+1. Especifique la configuración de carga de datos:
+
+   1. En la ficha [!UICONTROL Basic Details]:
+
+      1. Seleccione [!UICONTROL Setup Method] *[!UICONTROL Data Upload]*.
+
+      1. Seleccione [!UICONTROL Platform]: *[!UICONTROL Google]* o *[!UICONTROL Microsoft]*.
+
+      1. Haga clic en **[!UICONTROL Next]**.
+
+   1. En la ficha [!UICONTROL Configure]:
+
+      1. (Opcional) Para descargar una plantilla con todos los [campos de datos necesarios](#enhanced-conversions-leads-data) en formato [!DNL Microsoft Excel], haga clic en **[!UICONTROL Download Template]** y, a continuación, descargue el archivo según el procedimiento normal del explorador.
+
+         Puede editar el archivo para incluir los datos, guardar los cambios y, a continuación, cargar el archivo en la cuenta de red de publicidad especificada.
+
+      1. Seleccione la cuenta de red de publicidad a la que se cargarán los datos.
+
+      1. En el cuadro [!UICONTROL Upload Conversion File], realice una de las acciones siguientes:
+
+         * Arrastre un archivo al cuadro.
+
+         * Haga clic en **[!UICONTROL Browse File]** y, a continuación, seleccione un archivo para cargar desde el dispositivo o la red.
+
+   1. Haga clic en **[!UICONTROL Review and Save]** para revisar la configuración.
+
+   1. Haga clic en **[!UICONTROL Upload]**.
+
+## (IU heredada) Cargar datos para mejorar las conversiones
 
 1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]** y luego haga clic en la ficha **[!UICONTROL Upload]**.
 
@@ -47,14 +79,14 @@ Escriba la zona horaria de la cuenta en esta ubicación o en la columna &quot;[!
 
 | Columna | Descripción |
 | ------ | ----------- |
-| Correo electrónico | La dirección de correo electrónico del usuario, que debe tener un cifrado hash con el algoritmo SHA-256. Cada fila debe incluir un valor de correo electrónico o un valor de número de teléfono. |
-| Número de teléfono | Número de teléfono del usuario, que debe tener un cifrado hash con el algoritmo SHA-256. Debe incluir un código de país y puede contener guiones y otros símbolos. Cada fila debe incluir un valor de correo electrónico o un valor de número de teléfono. |
-| Nombre de conversión | (Obligatorio) El nombre de la acción de conversión. |
-| Tiempo de conversión | (Obligatorio) Hora a la que se produjo el evento de conversión en un [formato de hora admitido](https://support.google.com/google-ads/answer/7014069#prepare_data). Si no incluye el identificador de zona horaria de la cuenta en la línea `Parameters:TimeZone=insert_timezone` situada encima de la tabla de datos, incluya la zona horaria de cada fila con a\) el [formato de identificador de zona horaria admitido](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) o b\) el desplazamiento GMT, indicado por + o - y la diferencia horaria de 4 dígitos (como -0500 para Nueva York, +0100 para Berlín o +0000 para la hora del meridiano de Greenwich). |
-| Valor de conversión | (Obligatorio) El valor de conversión numérico. |
-| Divisa de conversión | El código de divisa del evento de conversión. |
-| Añadir datos de usuario | (Aplicable a los datos pertenecientes a usuarios del Espacio Económico Europeo (EEE) o del Reino Unido (Reino Unido)) Indica si se dio el consentimiento del usuario para enviar datos de usuario a [!DNL Google] con fines de personalización de anuncios. Los valores pueden incluir `Granted`, `Denied` o \[null\] (que se envía a [!DNL Google Ads] como `Unspecified`). **Nota:** [!DNL Google Ads] actualmente no aplica el consentimiento para las conversiones mejoradas para los posibles clientes, pero es posible que lo haga en el futuro. |
-| Ad Personalization | (Aplicable a los datos pertenecientes a usuarios del Espacio Económico Europeo (EEE) o del Reino Unido (Reino Unido)) Indica si se dio el consentimiento del usuario para enviar datos de usuario a [!DNL Google] con fines publicitarios. Los valores pueden incluir `Granted`, `Denied` o \[null\] (que se envía a [!DNL Google Ads] como `Unspecified`). **Nota:** [!DNL Google Ads] actualmente no aplica el consentimiento para las conversiones mejoradas para los posibles clientes, pero es posible que lo haga en el futuro. |
+| [!UICONTROL Email] | La dirección de correo electrónico del usuario, que debe tener un cifrado hash con el algoritmo SHA-256. Cada fila debe incluir un valor [!UICONTROL Email] o un valor [!UICONTROL Phone Number]. |
+| [!UICONTROL Phone Number] | Número de teléfono del usuario, que debe tener un cifrado hash con el algoritmo SHA-256. Debe incluir un código de país y puede contener guiones y otros símbolos. Cada fila debe incluir un valor [!UICONTROL Email] o un valor [!UICONTROL Phone Number]. |
+| [!UICONTROL Conversion Name] | (Obligatorio) El nombre de la acción de conversión. |
+| [!UICONTROL Conversion Time] | (Obligatorio) Hora a la que se produjo el evento de conversión en un [formato de hora admitido](https://support.google.com/google-ads/answer/7014069#prepare_data). Si no incluye el identificador de zona horaria de la cuenta en la línea `Parameters:TimeZone=insert_timezone` situada encima de la tabla de datos, incluya la zona horaria de cada fila con a\) el [formato de identificador de zona horaria admitido](https://developers.google.com/google-ads/api/data/codes-formats#timezone_ids) o b\) el desplazamiento GMT, indicado por + o - y la diferencia horaria de 4 dígitos (como -0500 para Nueva York, +0100 para Berlín o +0000 para la hora del meridiano de Greenwich). |
+| [!UICONTROL Conversion Value] | (Obligatorio) El valor de conversión numérico. |
+| [!UICONTROL Conversion Currency] | El código de divisa del evento de conversión. |
+| [!UICONTROL Ad User Data] | (Aplicable a los datos pertenecientes a usuarios del Espacio Económico Europeo (EEE) o del Reino Unido (Reino Unido)) Indica si se dio el consentimiento del usuario para enviar datos de usuario a [!DNL Google] con fines de personalización de anuncios. Los valores pueden incluir `Granted`, `Denied` o \[null\] (que se envía a [!DNL Google Ads] como `Unspecified`). **Nota:** [!DNL Google Ads] actualmente no aplica el consentimiento para las conversiones mejoradas para los posibles clientes, pero es posible que lo haga en el futuro. |
+| [!UICONTROL Ad Personalization] | (Aplicable a los datos pertenecientes a usuarios del Espacio Económico Europeo (EEE) o del Reino Unido (Reino Unido)) Indica si se dio el consentimiento del usuario para enviar datos de usuario a [!DNL Google] con fines publicitarios. Los valores pueden incluir `Granted`, `Denied` o \[null\] (que se envía a [!DNL Google Ads] como `Unspecified`). **Nota:** [!DNL Google Ads] actualmente no aplica el consentimiento para las conversiones mejoradas para los posibles clientes, pero es posible que lo haga en el futuro. |
 
 ### Columnas y valores de tabla para [!DNL Microsoft Advertising]
 

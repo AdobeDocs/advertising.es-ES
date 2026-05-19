@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
 workflow-type: tm+mt
-source-wordcount: 4439
+source-wordcount: 4499
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ Incluya un código postal por línea o introduzca varios valores separados por c
 
   Puede ver la lista por origen o por fuente. Cuando vea la lista por fuente, puede buscar por nombre de fuente, clave de fuente o una etiqueta de característica seleccionada.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]: tus ofertas privadas existentes (o las ofertas privadas existentes de [!DNL Roku] para [!DNL Roku] ubicaciones) con los editores que has configurado en DSP y tus [listas de ofertas privadas existentes](/help/dsp/inventory/lists-deals-manage.md). Puede incluir, pero no excluir, el inventario público.
+* [!UICONTROL Private] | [!UICONTROL Roku Private]: tus ofertas privadas actuales (o las ofertas privadas existentes de [!DNL Roku] para [!DNL Roku] ubicaciones) con los editores que has configurado en DSP y tus [listas de ofertas privadas existentes](/help/dsp/inventory/lists-deals-manage.md). Puede incluir, pero no excluir, el inventario público.
 
   Desde la ficha [!UICONTROL Deals], puede buscar en la lista por palabra clave, clave, ID de acuerdo o etiqueta personalizada. Desde la ficha [!UICONTROL Deal Lists], puede buscar en la lista por nombre de lista de oferta o ID de lista de oferta.
 
@@ -348,11 +348,11 @@ Al seleccionar ID heredados e ID universales, se da preferencia de oferta a los 
 
 * *[!UICONTROL Universal ID Beta]*: identifica ID centrados en la privacidad del usuario; seleccione un tipo de ID. Las opciones disponibles están determinadas por los destinos geográficos seleccionados en la sección [!UICONTROL Geo-Targeting]. Se utiliza con [[!DNL RampID] segmentos importados directamente a DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segmentos para los cuales DSP convierte su PII en ID universales](/help/dsp/audiences/sources/source-about.md) o [segmentos personalizados que rastrean ID universales](/help/dsp/audiences/custom-segment-create.md).
 
-   * *[!UICONTROL ID5]*: los identificadores de objetivos [!DNL ID5] se crearon probabilísticamente a partir de direcciones de correo electrónico y otras señales.<!-- What countries/geos are these available for? Everywhere?--> ID5 ID están disponibles sin cargo. **Nota:** Los segmentos de terceros de [!DNL Eyeota] pueden incluir ID5.
+   * *[!UICONTROL ID5]*: los identificadores de destinos [!DNL ID5] se crearon probabilísticamente a partir de direcciones de correo electrónico y otras señales.<!-- What countries/geos are these available for? Everywhere?--> Los ID de ID5 están disponibles sin coste adicional. **Nota:** Los segmentos de terceros de [!DNL Eyeota] pueden incluir ID5.
 
    * *[!UICONTROL RampID]*: Destinos [!DNL LiveRamp] [!DNL RampIDs] de usuarios que iniciaron sesión en el sitio mediante sus direcciones de correo electrónico.<!-- Verify --> [!DNL RampIDs] están disponibles para los usuarios de Norteamérica, Australia y Nueva Zelanda.
 
-   * *[!UICONTROL Unified ID2.0]*: segmenta los ID de [!DNL Unified ID2.0] (UID2) de los usuarios que iniciaron sesión en el sitio mediante sus direcciones de correo electrónico.<!-- Verify -->[!DNL UID2 IDs] no están disponibles para los usuarios del Área Económica Europea y algunos países adicionales. Ver la [lista de países prohibidos](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+   * *[!UICONTROL Unified ID2.0]*: se dirige a [!DNL Unified ID2.0] ID (UID2) de usuarios que iniciaron sesión en el sitio mediante sus direcciones de correo electrónico.<!-- Verify -->[!DNL UID2 IDs] no están disponibles para los usuarios del Espacio Económico Europeo y de otros países. Ver la [lista de países prohibidos](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
   **[!UICONTROL Terms of service]**: contrato de términos de servicio para usar identificadores universales. Usted u otro usuario de la cuenta de DSP deben aceptar los términos una vez antes de poder convertir los datos a un nuevo tipo de ID. Para los clientes con contratos de servicio administrado, su equipo de cuenta de Adobe recibirá su consentimiento y aceptará los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
 
@@ -420,7 +420,7 @@ Para especificar la segmentación de temas:
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** (opcional; solo para clientes de [!DNL DoubleVerify]; disponible solo para la visualización de escritorio previa a la emisión, la visualización estándar y de clic para reproducción y las ubicaciones de vídeo y visualización nativas; no compatible con [ubicaciones predeterminadas garantizadas mediante programación para ofertas](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un ID de segmento de [!DNL DoubleVerify Authentic Brand Safety] asociado a la cuenta de la organización [!DNL DoubleVerify] que se utilizará para la ubicación. Especificar un ID bloquea las impresiones después de la oferta utilizando las reglas de seguridad de marca personalizadas configuradas para el ID de segmento especificado. DSP factura a su cuenta por el uso del ID de segmento.
+**[!UICONTROL DoubleVerify ABS segment ID]:** (opcional; solo para clientes de [!DNL DoubleVerify]; disponible solo para la visualización de escritorio previa a la emisión, la visualización estándar y de clic para reproducción y las ubicaciones de vídeo y visualización nativas; no compatible con [ubicaciones predeterminadas garantizadas mediante programación para ofertas](/help/dsp/inventory/programmatic-guaranteed-about.md)) Un ID de segmento de [!DNL DoubleVerify Authentic Brand Suitability] asociado a la cuenta de la organización [!DNL DoubleVerify] que se utilizará para la ubicación. Especificar un ID bloquea las impresiones después de la oferta utilizando las reglas de seguridad de marca personalizadas configuradas para el ID de segmento especificado. DSP factura a su cuenta por el uso del ID de segmento.
 
 El ID debe comenzar por &quot;51&quot; y constar de ocho dígitos. De forma predeterminada, si se especifica un ID de segmento en la configuración de cuenta del anunciante, se introduce el ID de nivel de anunciante, pero puede cambiarlo para utilizar un segmento diferente o eliminar el ID para deshabilitar la función.
 
