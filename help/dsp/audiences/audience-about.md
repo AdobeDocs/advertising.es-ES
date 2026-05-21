@@ -18,9 +18,9 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
 workflow-type: tm+mt
-source-wordcount: 1394
+source-wordcount: 1457
 ht-degree: 0%
 
 ---
@@ -37,11 +37,13 @@ En DSP, puede crear y administrar segmentos de audiencia y conjuntos de audienci
 
      Para obtener más información sobre la compatibilidad de Adobe Advertising con las solicitudes de exclusión de la venta de la CCPA, consulte [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: Compatibilidad con la exclusión del consumidor de la venta](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* (Funcionalidad de Beta) [Obtener y usar identificadores universales para direccionamiento sin cookies](/help/dsp/audiences/universal-ids.md):
+* [Obtener y usar identificadores universales para direccionamiento sin cookies](/help/dsp/audiences/universal-ids.md):
 
    * Envíe manualmente los segmentos autenticados de [!DNL LiveRamp] [!DNL RampID] directamente a DSP.
 
    * Permita que DSP importe segmentos de origen desde la plataforma de datos del cliente y los traduzca a tipos de ID universales admitidos.
+
+   * Importe segmentos de origen [!DNL AdFixus] que contengan [!DNL AdFixus] ID universales (solo Australia). A continuación, puede segmentar ubicaciones a [!DNL AdFixus] ID, agregar esos segmentos a [audiencias reutilizables](/help/dsp/audiences/reusable-audience-create.md) y usar los informes descritos en &quot;[Importar segmentos de origen de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;.
 
    * Incluya segmentos de terceros que contengan ID universales en sus destinos de colocación sin ningún paso adicional.
 
@@ -57,7 +59,11 @@ Tiene muchas opciones para importar segmentos de datos de origen y de terceros e
 
 * DSP puede extraer su Adobe Audience Manager y otras [!DNL Adobe] audiencias para el direccionamiento. Para conocer los requisitos previos y las instrucciones, consulte &quot;[Importar segmentos de Adobe Audience Manager para la segmentación de anuncios](/help/integrations/audience-manager/import-audiences.md).
 
-* DSP puede traducir segmentos de datos de origen de plataformas de datos de clientes compatibles a segmentos con ID universales mediante la función [Sources](/help/dsp/audiences/sources/source-about.md). También puede [enviar manualmente los segmentos autenticados [!DNL LiveRamp] [!DNL RampID] directamente a DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
+* DSP puede traducir segmentos de datos de origen de plataformas de datos de clientes compatibles a segmentos con ID universales mediante la función [Sources](/help/dsp/audiences/sources/source-about.md).
+
+* Los anunciantes australianos pueden importar [!DNL AdFixus] segmentos de origen usando la función de [fuentes](/help/dsp/audiences/sources/source-about.md) sin traducir sus [!DNL AdFixus] ID universales a otros tipos de ID.
+
+* DSP es una plataforma de destino para [!DNL LiveRamp], por lo que [puedes enviar manualmente tus segmentos autenticados [!DNL LiveRamp] [!DNL RampID] directamente a DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
 * DSP puede importar el resto de segmentos de datos de origen directamente desde la plataforma de administración de datos (DMP) y proporcionarlos a cualquier conjunto de anunciantes, según sea necesario.
 
@@ -79,13 +85,13 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
    * Segmentos de audiencia de exclusión de CCPA para usuarios que enviaron solicitudes de exclusión de venta en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA).
 
-* Todos los segmentos de datos de origen importados, incluidos los segmentos traducidos a ID universales.
+* Todos los segmentos de datos de origen importados, incluidos los segmentos traducidos a ID universales y los segmentos que contienen [!DNL AdFixus] ID universales importados.
 
   Se cobran cargos adicionales por las impresiones entregadas a los ID universales. Consulte &quot;[Acerca de los orígenes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)&quot; para ver las tarifas.
 
 * Todos los segmentos de datos de terceros personalizados importados.
 
-* (Ubicaciones que solo tienen como destino EE. UU.) [Todos los segmentos de datos de terceros disponibles para los clientes de DSP de más de 30 proveedores](/help/dsp/audiences/third-party-data-providers.md), incluidos [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL Neustar] y muchos más.
+* (Ubicaciones que solo tienen como destino EE. UU.) [Todos los segmentos de datos de terceros disponibles para los clientes de DSP de más de 30 proveedores](/help/dsp/audiences/third-party-data-providers.md), incluidos [!DNL eXelate], ([!DNL Eyeota]), ([!DNL LiveRamp]),[!DNL Lotame], [!DNL TransUnion] y muchos más.
 
   Puede segmentar segmentos específicos, que se dirigen a usuarios en función de datos de audiencia (por ejemplo, usuarios con datos demográficos, intereses o intenciones específicos o perfiles de comportamiento). Puede examinar por proveedor de datos y categoría, buscar segmentos por nombre o ID de segmento o filtrar los resultados por proveedor de datos, tamaño de segmento activo, recuento del explorador web o recuento de dispositivos.
 
@@ -151,11 +157,11 @@ La vista [!UICONTROL Segments] también enumera los siguientes tipos de segmento
 
 ### La vista [!UICONTROL Sources]
 
-En la vista [!UICONTROL Sources], puede configurar orígenes para segmentos de origen en plataformas de datos de clientes compatibles que desee convertir en segmentos que contengan tipos de ID universales especificados. La configuración de origen incluye una clave de origen generada automáticamente, que proporcionará a su plataforma de datos del cliente para establecer la conexión.
+En la vista [!UICONTROL Sources], puede configurar orígenes para segmentos de origen de plataformas de datos de clientes compatibles que desee convertir en segmentos que contengan tipos de ID universales especificados. También puede configurar [!UICONTROL AdFixus ID] orígenes para importar segmentos con [!DNL AdFixus] identificadores universales (solo Australia). La configuración de origen incluye una clave de origen generada automáticamente para compartir con su CDP o con el equipo [!DNL AdFixus].
 
-Para obtener más información acerca de las plataformas de datos de clientes compatibles, los tipos de ID universales compatibles y los flujos de trabajo para configurar conexiones con cada plataforma de datos de clientes, consulte &quot;[Acerca de los orígenes de audiencia propios](/help/dsp/audiences/sources/source-about.md)&quot;.
+Para obtener más información acerca de las plataformas compatibles, los tipos de identificador universal compatibles y los flujos de trabajo de configuración, consulte &quot;[Acerca de los orígenes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)&quot;.
 
-Los segmentos traducidos están disponibles para incluirlos en audiencias reutilizables y en la configuración de ubicación para la segmentación sin cookies.
+Los segmentos importados a través de [!UICONTROL Sources] están disponibles para audiencias reutilizables y [!UICONTROL Universal ID] segmentación en la configuración de ubicación donde corresponda.
 
 >[!MORELIKETHIS]
 >
@@ -166,5 +172,6 @@ Los segmentos traducidos están disponibles para incluirlos en audiencias reutil
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
 >* [Administrar orígenes de audiencia para activar audiencias de ID universal](/help/dsp/audiences/sources/source-manage.md)
 >* [Importar manualmente segmentos autenticados de [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+>* [Importar segmentos de origen desde [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Proveedores de datos de terceros disponibles](third-party-data-providers.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
