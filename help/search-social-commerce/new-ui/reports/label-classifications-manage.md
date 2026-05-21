@@ -2,7 +2,7 @@
 title: Administrar clasificaciones de etiquetas
 description: Obtenga información acerca del uso de clasificaciones de etiquetas para agrupar los componentes de la cuenta.
 feature: Search Label Classifications
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 0%
@@ -161,7 +161,7 @@ Al eliminar un valor de clasificación, se elimina la asociación con el compone
 
    Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-1. En la barra de herramientas de acciones masivas, haga clic en **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
+1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]**.
 
 1. Seleccione la casilla de verificación situada junto a cada valor de clasificación que desee quitar de las entidades seleccionadas.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
 
