@@ -3,7 +3,7 @@ title: (Nueva IU) Ver el historial de cambios de un portafolio
 description: Obtenga información sobre cómo ver el historial de cambios de un portafolio.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -35,7 +35,6 @@ La información de cada cambio incluye la fecha, el nombre de usuario de la pers
    * Haga clic en ![Filtro](/help/search-social-commerce/assets/filter-new.png "Filtro") para filtrar los datos por tipo de cambio.<!-- Not available as of 5-14: and by the user who performed the action -->.
 
    * Haga clic en ![Ordenar](/help/search-social-commerce/assets/sort.png "Ordenar") para ordenar la lista por fecha en orden ascendente o descendente.
-
 
 ## Administrar informes de datos de rendimiento para historiales de cambios
 
