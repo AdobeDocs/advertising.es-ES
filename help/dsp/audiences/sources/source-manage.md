@@ -4,41 +4,29 @@ description: Obtenga información sobre cómo crear y administrar una fuente par
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
 TQID: https://experienceleague.adobe.com/us8NC8BEngb240MAW8hEo-DHGoW7MRDWvu0HedMsnFs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # Administrar fuentes de audiencia para activar audiencias de ID universal
 
-*característica de Beta*
+Cree una fuente en DSP para cada audiencia propia en la plataforma de datos del cliente que desee importar o convertir en segmentos que contengan tipos de ID universales especificados. Puede importar los segmentos a la cuenta de DSP de su organización o a una cuenta de anunciante. Cuando convierte audiencias en ID universales, se aplican cargos en función de los tipos de ID universales seleccionados. Una vez creada una fuente de datos, se requieren pasos adicionales para transmitir las audiencias de origen desde cada plataforma de datos del cliente. Vea la nota al final del procedimiento para crear un origen.
 
-Cree una fuente en DSP para cada audiencia propia en la plataforma de datos del cliente que desee convertir en segmentos que contengan tipos de ID universales especificados. Puede importar los segmentos a la cuenta de DSP de su organización o a una cuenta de anunciante. Los cargos por datos se aplican en función de los tipos de ID universal seleccionados. Una vez creada una fuente de datos, se requieren pasos adicionales para introducir las audiencias de cada plataforma de datos del cliente. Vea la nota al final del procedimiento para crear un origen.
-
-Más adelante puede cambiar los tipos de ID universales a los que se traduce la audiencia de origen y ver un registro de los cambios.
+Para todas las plataformas de datos de clientes excepto [!DNL AdFixus], puede cambiar posteriormente los tipos de ID universales a los que se traduce la audiencia de origen y ver un registro de los cambios.
 
 También puede eliminar un origen.
 
 ## Crear una fuente de audiencia
 
-<!--
- Not sure about this
-
-You can create one source for each combination of universal ID partner and data visibility level.
-
--->
+Puede crear una fuente para cada combinación de socio de ID universal y cuenta o anunciante individual. Por ejemplo, puede tener un origen de [!UICONTROL RT-CDP] para la cuenta, un origen de [!UICONTROL RT-CDP] para el Anunciante 1 y un origen de [!UICONTROL RT-CDP] para el Anunciante 2.
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
@@ -47,6 +35,8 @@ You can create one source for each combination of universal ID partner and data 
 1. En el menú [!UICONTROL Select a Type], seleccione su [plataforma de datos del cliente](source-about.md):
 
    * *[!UICONTROL RT-CDP]*: El [!DNL Adobe Real-Time CDP].
+
+   * *[!UICONTROL AdFixus ID]*: la plataforma de datos del cliente [!DNL AdFixus]. Aplicable únicamente a anunciantes de Australia.
 
    * *[!UICONTROL ActionIQ]*: la plataforma de datos del cliente [!DNL ActionIQ].
 
@@ -66,9 +56,13 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->Después de crear una fuente para la plataforma de datos del cliente, debe completar los pasos adicionales para importar la audiencia. Vea el [flujo de trabajo para [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> el [flujo de trabajo para [!DNL Amperity]](source-amperity.md), el [flujo de trabajo para [!DNL Optimizely]](source-optimizely.md) y el [flujo de trabajo para [!DNL Tealium]](source-tealium.md).
+>Después de crear una fuente para la plataforma de datos del cliente, debe completar los pasos adicionales para importar la audiencia:
+>* Para [!DNL ActionIQ] orígenes, trabaje con su equipo de cuenta de Adobe.
+>* Para otros tipos de origen, vea<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> el [flujo de trabajo para [!DNL AdFixus]](source-adfixus.md), the [workflow for [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md), el [flujo de trabajo para [!DNL Amperity]](source-amperity.md), el [flujo de trabajo para [!DNL Optimizely]](source-optimizely.md) y el [flujo de trabajo para [!DNL Tealium]](source-tealium.md).
 
 ## Cambio de los tipos de ID de una fuente de audiencia
+
+*Disponible para todas las plataformas de datos de clientes admitidas excepto para[!DNL AdFixus]*
 
 <!-- 
 Clarify this:
@@ -87,7 +81,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 ## Eliminar una fuente de audiencia
 
-Al eliminar un origen, se eliminan los segmentos traducidos a través del origen.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
+Al eliminar un origen, se eliminan los segmentos importados a través del origen, incluidos todos los ID traducidos.<!-- Will performance data for the segment still be available in any types of reports?  If yes, which? -->
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
@@ -117,21 +111,21 @@ Puede ver detalles sobre los cambios realizados en un registro de origen de audi
 
 **[!UICONTROL Data Visibility Level]:** Si los segmentos están disponibles para un solo anunciante con acceso a la cuenta (*[!UICONTROL Advertiser]*) o para todos los anunciantes con acceso a la cuenta *[!UICONTROL Account]*.
 
-**[!UICONTROL Advertiser]:** (solo visibilidad de nivel de anunciante) El anunciante para el que los segmentos están disponibles. Select one from the list of advertisers with access to the account.
+**[!UICONTROL Advertiser]:** (solo visibilidad de nivel de anunciante) El anunciante para el que los segmentos están disponibles. Seleccione uno de la lista de anunciantes con acceso a la cuenta.
 
-**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] sources only) The Adobe CX Enterprise organization ID for the [!DNL Adobe Experience Platform] account.
+**[!UICONTROL Enter IMS Org Id]:** ([!DNL Real-Time CDP] orígenes solamente) El id. de organización empresarial de Adobe CX para la cuenta [!DNL Adobe Experience Platform].
 
-**[!UICONTROL Convert PII to the following IDs]:** The ID types to which you&#39;ll convert your personally identifiable information (PII). If you select multiple types, the generated segment is populated with values for each selected ID type (such as a [!DNL RampID] and a [!DNL Unified ID2.0] for each email address). Data charges are applied accordingly.
+**[!UICONTROL Convert PII to the following IDs]:** (disponible para todas las plataformas de datos de clientes admitidas excepto para [!DNL AdFixus]) Los tipos de ID a los que convertirá su información de identificación personal (PII). Si selecciona varios tipos, el segmento generado se rellena con valores para cada tipo de ID seleccionado (como un [!DNL RampID] y un [!DNL Unified ID2.0] para cada dirección de correo electrónico). Los cargos por datos se aplican según corresponda.
 
-For [!DNL RampID] and [!DNL Unified ID2.0], the vendor looks up each email address to see if an ID already exists and translates the address to a matching ID when available. If an ID doesn&#39;t exist for the address, then it creates a new ID.
+Para [!DNL RampID] y [!DNL Unified ID2.0], el proveedor busca cada dirección de correo electrónico para ver si ya existe un identificador y traduce la dirección a un identificador coincidente cuando está disponible. Si no existe ningún ID para la dirección, se crea un nuevo ID.
 
 >[!NOTE]
 >
->You can target only one type of ID in a single placement. To test performance by ID type, [create a separate placement](/help/dsp/campaign-management/placements/placement-create.md) for each ID type in the segment.
+>Solo se puede segmentar un tipo de ID en una única ubicación. Para probar el rendimiento por tipo de identificador, [cree una ubicación independiente](/help/dsp/campaign-management/placements/placement-create.md) para cada tipo de identificador en el segmento.
 
-* *[!DNL RampID]:* To convert PII to a [!DNL RampID]. You can use [!DNL RampIDs] for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
+* *[!DNL RampID]:* Para convertir PII en [!DNL RampID]. Puede usar [!DNL RampIDs] para volver a dirigirse a los usuarios que iniciaron sesión y para la medición de [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* *[!DNL Unified ID2.0] (Beta):* To convert PII to a [Unified ID 2.0](https://unifiedid.com) ID for retargeting logging-in users.
+* *[!DNL Unified ID2.0]:* Para convertir PII en un ID de [Unified ID 2.0](https://unifiedid.com) para redireccionar a los usuarios que iniciaron sesión.
 
 <!--
  Later
@@ -139,16 +133,17 @@ For [!DNL RampID] and [!DNL Unified ID2.0], the vendor looks up each email addre
 
 -->
 
-**[!UICONTROL Terms of Service]:** The terms of service agreement for converting PII to universal IDs. You or another user in the DSP account must accept the terms once before you can convert data to a new ID type. For customers with managed service contracts, your Adobe Account Team gets your consent and accepts the terms on your organization&#39;s behalf. To read the terms, click **>**. To accept the terms, scroll to the bottom of the terms and click **[!UICONTROL Accept]**.
+**[!UICONTROL Terms of Service]:** Los términos del contrato de servicio para convertir PII en identificadores universales. Usted u otro usuario de la cuenta de DSP deben aceptar los términos una vez, antes de poder importar los ID, convertir datos en un nuevo tipo de ID o establecer como objetivo un tipo de ID. Para los clientes con contratos de servicio administrados, el equipo de la cuenta de Adobe obtiene su consentimiento y acepta los términos en nombre de su organización. Para leer los términos, haga clic en **>**. Para aceptar los términos, desplácese hasta la parte inferior de los términos y haga clic en **[!UICONTROL Accept]**.
 
-**[!UICONTROL Source Key]:** (Read-only; generated automatically) The source key that you can use to create a destination connection in the customer data platform to push audiences to Advertising DSP. You can copy the value to your clipboard to paste into the destination connection settings or into a file.
+**[!UICONTROL Source Key]:** (de solo lectura; generado automáticamente) La clave de origen que puede utilizar para crear una conexión de destino en la plataforma de datos del cliente para insertar audiencias en Advertising DSP. Puede copiar el valor en el portapapeles para pegarlo en la configuración de conexión de destino o en un archivo. Comparta el valor con el equipo que transmitirá las audiencias a DSP.
 
 >[!MORELIKETHIS]
 >
->* [About first-party audience sources](source-about.md)
->* [Support for activating universal IDs](/help/dsp/audiences/universal-ids.md)
->* [Convert user IDs from [!DNL Adobe Real-Time CDP] to universal IDs](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Convert user IDs from [!DNL Amperity] to universal IDs](/help/dsp/audiences/sources/source-amperity.md)
->* [Convert user IDs from [!DNL Optimizely] to universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
->* [Convert user IDs from [!DNL Tealium] to universal IDs](/help/dsp/audiences/sources/source-tealium.md)
+>* [Acerca de las fuentes de audiencia de origen](source-about.md)
+>* [Compatibilidad para activar identificadores universales](/help/dsp/audiences/universal-ids.md)
+>* [Convertir los identificadores de usuario de [!DNL Adobe Real-Time CDP] a identificadores universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Convertir los identificadores de usuario de [!DNL Amperity] a identificadores universales](/help/dsp/audiences/sources/source-amperity.md)
+>* [Convertir los identificadores de usuario de [!DNL Optimizely] a identificadores universales](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Convertir los identificadores de usuario de [!DNL Tealium] a identificadores universales](/help/dsp/audiences/sources/source-tealium.md)
+>* [Importar segmentos de origen desde [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)
