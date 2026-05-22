@@ -2,9 +2,9 @@
 title: (Nueva IU) Administrar plantillas de informe
 description: Obtenga información sobre cómo crear, ver, editar y eliminar plantillas de informes reutilizables para informes programados y bajo demanda.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -31,27 +31,29 @@ Puede mantener hasta 100 plantillas a la vez.
 
 1. Realice una de las acciones siguientes:
 
-* Para crear una plantilla desde cero desde la ficha [!UICONTROL Latest Reports] o desde la ficha [!UICONTROL Templates], cree un informe y habilite la configuración **[!UICONTROL Save as Template]**.
+   * Para crear una plantilla desde cero desde la ficha [!UICONTROL Latest Reports] o desde la ficha [!UICONTROL Templates], cree un informe y habilite la configuración **[!UICONTROL Save as Template]**.
 
-* Para crear una plantilla basada en una plantilla existente:
+   * Para crear una plantilla basada en una plantilla existente:
 
-   1. Haga clic en la ficha **[!UICONTROL Templates]**.
+      1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
-   1. Seleccione la casilla de verificación situada junto a la plantilla existente.
+      1. Realice una de las acciones siguientes:
 
-   1. En la barra de herramientas de acciones masivas, haga clic en [Duplicar](/help/search-social-commerce/assets/duplicate.png).
+         * Mantenga el cursor sobre la fila de la plantilla y haga clic en **...** > **[!UICONTROL Duplicate]**.
 
-   1. (Opcional) Cambie el nombre de la plantilla y edite la configuración del informe si es necesario.
+         * Seleccione la casilla de verificación situada junto a la plantilla existente. En la barra de herramientas de acciones masivas, haga clic en [Duplicar](/help/search-social-commerce/assets/duplicate.png).
 
-      Haga clic en **[!UICONTROL Next]** para desplazarse entre las secciones de configuración.
+      1. (Opcional) Cambie el nombre de la plantilla y edite la configuración del informe si es necesario.
 
-   1. Habilite la configuración **[!UICONTROL Save as Template]**.
+         Haga clic en **[!UICONTROL Next]** para desplazarse entre las secciones de configuración.
 
-   1. Haga clic en **[!UICONTROL Create]**.
+1. Habilite la configuración **[!UICONTROL Save as Template]**.
+
+1. Haga clic en **[!UICONTROL Create]**.
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## Edit a report template {#template-edit}
 
@@ -75,7 +77,7 @@ You can change the settings for any report template you created. The new setting
 
 <!--
 
-Not available to anyone as of 5/21:
+Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 ## View a report template {#template-view}
 
