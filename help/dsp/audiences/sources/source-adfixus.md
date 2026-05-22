@@ -58,7 +58,7 @@ Los segmentos se actualizan y quedan disponibles para la segmentación cada tres
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
 >* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
+>* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es)
 >* [Compatibilidad para activar identificadores universales](/help/dsp/audiences/universal-ids.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)
