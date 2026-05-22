@@ -1,9 +1,9 @@
 ---
 title: Carga de datos de cuenta sin conexión para informes y simulaciones
 description: Aprenda a cargar datos de cuentas sin conexión manualmente o en un bloque de  [!DNL Amazon] [!DNL S3] para la compatibilidad con informes y simulaciones. Los archivos de registro realizan un seguimiento del progreso de los trabajos de carga.
-source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---

@@ -4,7 +4,7 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: 64c9c550873ff210d1adb4217ddeca5f67548b77
+source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 2%
@@ -126,8 +126,6 @@ ht-degree: 2%
          + [Las tareas de configuración iniciales para los informes](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
          + [Los datos utilizados para los informes](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
          + [Administrar informes programados](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
-         + [Administrar plantillas de informe](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
-         + [Acceso FTP a informes](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + Tipos de informes programados {#report-types}
             + Informes básicos y avanzados {#basic-advanced-reports}
                + [Acerca de los informes básicos y avanzados](/help/search-social-commerce/new-ui/reports/management/basic-advanced/basic-advanced-report-about.md)
@@ -187,6 +185,8 @@ Formatos de informe de asistencia {#assist-report-formats}
                   + [El [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)
                   + [El [!UICONTROL Forecast Accuracy (Actuals) Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-actuals-report.md)
                + [Configuración del informe de precisión de modelo](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
+         + [Administrar plantillas de informe](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
+         + [Acceso FTP a informes](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
          + [Cálculo de las reglas de atribución](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [Preguntas frecuentes sobre informes personalizados](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [Administrar fuentes de informes de hoja de cálculo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
