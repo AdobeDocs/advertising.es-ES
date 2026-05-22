@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 700
 ht-degree: 0%
 
 ---
@@ -31,8 +31,6 @@ Puede recopilar sus propios datos de audiencia de origen creando e implementando
 >Para rastrear los ID de usuarios de las solicitudes de exclusión de la venta de consumidores en su sitio web, de conformidad con la Ley de Privacidad del Consumidor de California (CCPA), cree un [segmento de exclusión de la venta de CCPA](ccpa-opt-out-segment-create.md).
 
 ## Requisitos previos para que los segmentos realicen un seguimiento de los ID5
-
-*característica de Beta*
 
 * Antes de generar un segmento para rastrear usuarios asociados con ID5 ID, firme un acuerdo con [!DNL ID5] y obtenga el ID de socio de su organización. Póngase en contacto con el equipo de su cuenta de Adobe para obtener instrucciones.
 
@@ -77,9 +75,11 @@ Puede recopilar sus propios datos de audiencia de origen creando e implementando
 
    1. Haga clic en **[!UICONTROL Advanced]** para expandir la configuración avanzada y, a continuación, seleccione los tipos de identificadores de usuario que la etiqueta de segmento rastrea:
 
-      * *[!UICONTROL Cookies]:* (Valor predeterminado) La etiqueta de segmento realiza el seguimiento de las cookies.
+      * [!UICONTROL Legacy]:
 
-      * [!UICONTROL Universal IDs (Beta)]:
+         * *[!UICONTROL Cookies]:* (Valor predeterminado) La etiqueta de segmento realiza el seguimiento de las cookies.
+
+      * [!UICONTROL Universal IDs]:
 
          * *[!UICONTROL ID5]:* La etiqueta de segmento rastrea [!DNL ID5] ID. No se incurre en cargos por impresiones entregadas a ID universales.
 

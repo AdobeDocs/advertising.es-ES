@@ -14,22 +14,24 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 79f0b3872a0d5d3765093ce83cc8f1c284a8255c
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: 710
 ht-degree: 0%
 
 ---
 
 # Acerca de las fuentes de audiencia de origen
 
-*característica de Beta*
+La función de fuente de audiencia permite importar segmentos de origen que contengan ID universales tal cual o convertirlos en segmentos que contengan tipos de ID universales especificados:
 
-DSP puede introducir segmentos de origen compuestos de ID de correo electrónico con hash, cookies e ID de publicidad móvil (MAID) creados dentro de su plataforma de datos del cliente (CDP) y convertirlos en segmentos compuestos de ID universales. Cada ID resultante se basa en personas y los límites de frecuencia de anuncios se aplican en el nivel de ID <!-- Move that info. to somewhere else? -->.
+* Los anunciantes de Australia pueden importar segmentos de origen que ya contengan [!DNL AdFixus] ID universales.
 
-Los detalles del segmento incluyen el tamaño de cada tipo de ID universal, así como el tamaño de cada tipo de dispositivo rastreado mediante cookies o ID de dispositivo.
+* DSP puede introducir segmentos de origen compuestos de ID de correo electrónico con hash, cookies e ID de publicidad móvil (MAID) creados en plataformas de datos del cliente (CDP) adicionales y convertirlos en segmentos compuestos de [!DNL LiveRamp] [!DNL RampIDs] e [!DNL Unified ID 2.0 (UID2.0)] ID.
 
-## Tipos de ID universales {#universal-id-types}
+Para todos los tipos de ID, cada ID resultante se basa en personas y los límites de frecuencia de anuncio se aplican en el nivel de ID <!-- Move that info. to somewhere else? -->. Los detalles del segmento incluyen el tamaño de cada tipo de ID universal y el tamaño de cada tipo de dispositivo rastreado mediante cookies o ID de dispositivo.
+
+## Tipos de ID universales a los que se pueden traducir segmentos de origen {#universal-id-types}
 
 <!--
   Replace below with this once ID5 sources are possible 
@@ -40,7 +42,7 @@ Using your first-party data, you can create segments with IDs from the following
 
 -->
 
-Puede traducir sus segmentos de origen a segmentos con ID autenticados (deterministas) de los siguientes socios de ID universales.
+Puede traducir los segmentos de origen de [!DNL ActionIQ], [!DNL Adobe] [!DNL Real-time CDP], [!DNL Amperity], [!DNL Optimizely] y [!DNL Tealium] a segmentos con ID autenticados (determinísticos) de los siguientes socios de ID universales.
 
 * [[!DNL LiveRamp] [!DNL RampIDs]](https://liveramp.com/identity-resolution):
 
@@ -84,6 +86,10 @@ DSP ha establecido conectores en los siguientes CDP para introducir rápidamente
 
 DSP también puede conectarse a cualquier CDP adicional mediante el uso compartido de datos por lotes, por streaming o basado en API. Para integrarse con un nuevo CDP, póngase en contacto con su equipo de cuenta de Adobe.
 
+### [!DNL ActionIQ]
+
+Puede compartir los datos de origen de su organización desde la plataforma de datos del cliente [!DNL ActionIQ] con DSP para convertir las direcciones de correo electrónico con hash en ID universales para la publicidad de destino en DSP. Esta integración requiere personalización. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
+
 ### [!DNL Adobe Real-Time CDP]
 
 DSP es un *destino* integrado para [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=es), que forma parte de Adobe Experience Platform.
@@ -92,9 +98,9 @@ En [!DNL Real-Time CDP], los destinos son conexiones a plataformas de datos exte
 
 Para permitir que DSP ingrese sus [!DNL Adobe] [!DNL Real-time CDP] segmentos de origen y convierta sus direcciones de correo electrónico con hash, cookies e ID de publicidad móvil en ID universales, consulte &quot;[Convertir los ID de usuario de [!DNL Adobe Real-Time CDP] a ID universales](/help/dsp/audiences/sources/source-adobe-rtcdp.md)&quot;.
 
-### [!DNL ActionIQ]
+### [!DNL AdFixus]
 
-Puede compartir los datos de origen de su organización desde la plataforma de datos del cliente [!DNL ActionIQ] con DSP para convertir las direcciones de correo electrónico con hash en ID universales para la publicidad de destino en DSP. Esta integración requiere personalización. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más información.
+Los anunciantes australianos pueden usar la integración de Advertising DSP con [!DNL AdFixus] para importar segmentos de origen que contengan [!DNL AdFixus] ID universales. Esta ruta es independiente de la traducción de los ID de correo electrónico con hash o MAID dentro de un conector CDP a [!DNL RampIDs] o [!DNL UID2] ID. Para obtener más información, consulte &quot;[Importar segmentos de origen desde [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;.
 
 ### [!DNL Amperity]
 
@@ -116,5 +122,6 @@ Puede compartir los datos de origen de su organización desde la plataforma de d
 >* [Convertir los identificadores de usuario de [!DNL Amperity] a identificadores universales](/help/dsp/audiences/sources/source-amperity.md)
 >* [Convertir los identificadores de usuario de [!DNL Optimizely] a identificadores universales](/help/dsp/audiences/sources/source-optimizely.md)
 >* [Convertir los identificadores de usuario de [!DNL Tealium] a identificadores universales](/help/dsp/audiences/sources/source-tealium.md)
+>* [Importar segmentos de origen desde [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)
 >* [Configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md)
