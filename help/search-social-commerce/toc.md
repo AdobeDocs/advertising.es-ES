@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2302'
 ht-degree: 2%
 
 ---
@@ -190,7 +190,7 @@ Formatos de informe de asistencia {#assist-report-formats}
          + [Cálculo de las reglas de atribución](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
          + [Preguntas frecuentes sobre informes personalizados](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
       + [Administrar fuentes de informes de hoja de cálculo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
-      + [Ver el informe [!UICONTROL History Logs]](/help/search-social-commerce/new-ui/reports/history-logs.md)
+      + [Ver registros de historial de cambios](/help/search-social-commerce/new-ui/reports/history-logs.md)
       + [Administrar clasificaciones de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
    + Target {#target}
       + Palabras clave {#keywords}
@@ -208,6 +208,7 @@ Formatos de informe de asistencia {#assist-report-formats}
          + Cuentas de carga de datos {#data-upload}
             + [Administración de cuentas de red de anuncios para cargas de datos](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Administrar [!DNL Naver] cuentas solo para seguimiento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+   + [Administrar alertas personalizadas](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [Administración de usuarios](/help/search-social-commerce/new-ui/user-administration.md)
 + Seguimiento {#tracking}
    + [Acerca del seguimiento](/help/search-social-commerce/tracking/tracking-about.md)
