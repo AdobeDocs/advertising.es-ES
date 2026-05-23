@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising Search, Social, & Commerce
 user-guide-description: En esta guía se explican las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, hacer un seguimiento e informar sobre sus campañas de publicidad de búsqueda, social y comercio.
 breadcrumb-title: Guía de Advertising Search, Social, & Commerce
 index: true
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 1da750a4b26fd4fe90c2552f2dc91fb1575019ab
 workflow-type: tm+mt
-source-wordcount: '2302'
+source-wordcount: '2304'
 ht-degree: 2%
 
 ---
@@ -209,6 +209,7 @@ Formatos de informe de asistencia {#assist-report-formats}
             + [Administración de cuentas de red de anuncios para cargas de datos](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Administrar [!DNL Naver] cuentas solo para seguimiento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
    + [Administrar alertas personalizadas](/help/search-social-commerce/new-ui/alerts-manage.md)
+   + [Administración de notificaciones](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [Administración de usuarios](/help/search-social-commerce/new-ui/user-administration.md)
 + Seguimiento {#tracking}
    + [Acerca del seguimiento](/help/search-social-commerce/tracking/tracking-about.md)
