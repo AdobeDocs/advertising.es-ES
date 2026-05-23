@@ -1,15 +1,15 @@
 ---
-title: (Nueva IU) Ver el informe [!UICONTROL History Logs]
+title: (Nueva IU) Ver registros del historial de cambios
 description: Obtenga información sobre cómo ver los cambios recientes en la cuenta del anunciante.
 feature: Search Reports
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+source-git-commit: b68aac34cd7e10fcceceb622b5365cb0ecec040d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
-# (Nueva IU) Ver el informe [!UICONTROL History Logs]
+# (Nueva IU) Ver registros del historial de cambios
 
 El informe [!UICONTROL History Logs] incluye un registro de los cambios realizados en la cuenta del anunciante en los últimos 31 días. El informe puede incluir cambios en los siguientes tipos de objetos: usuarios (anunciantes), portafolios, campañas, grupos de anuncios, anuncios, palabras clave, ubicaciones y destinos de productos. Puede ordenar y filtrar los datos por cualquier columna.
 
