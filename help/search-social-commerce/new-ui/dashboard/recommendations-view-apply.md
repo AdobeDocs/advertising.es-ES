@@ -2,7 +2,7 @@
 title: Compatibilidad con recomendaciones y perspectivas del editor
 description: Obtenga información acerca de la compatibilidad para ver y administrar recomendaciones y perspectivas del editor.
 feature: Search Recommendations
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 1328e52509e4111bc0e58412ebf3c3b2de0cb291
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -237,14 +237,3 @@ Las recomendaciones descartadas no están disponibles en la red de anuncios.
 | [!UICONTROL Measurement] | Recomendaciones para el seguimiento de conversiones y la certificación | No disponible en Buscar, Social ni Commerce. | Estas recomendaciones pueden afectar al rendimiento. Consulte con su equipo de cuenta de Adobe para discutir los pros y los contras de cualquier recomendación antes de aplicarla. |
 | [!UICONTROL Repairs] | Recomendaciones varias para mejorar los problemas de la cuenta | No disponible en Buscar, Social ni Commerce. | Revisar manualmente y periódicamente las recomendaciones de reparación en [!DNL Google Ads]. Este tipo de recomendación es una buena manera de identificar anuncios, problemas de fuentes, problemas de seguimiento, etc. no aprobados. |
 | [!UICONTROL Other] | Recomendación de usar la aplicación móvil [!DNL Google Ads] | No disponible en Buscar, Social ni Commerce. | — |
-
-<!--
-
->[!MORELIKETHIS]
->
->* [View your publisher recommendations and performance insights](recommendation-view.md)
->* [Apply or dismiss a publisher recommendation](recommendation-apply-dismiss.md)
->* [View the publisher recommendations log for an account](recommendation-view-log.md)
->* [Best practices for using publisher recommendations with portfolios](recommendation-best-practices.md)
-
--->
