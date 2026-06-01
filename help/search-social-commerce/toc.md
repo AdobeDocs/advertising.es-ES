@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
-source-wordcount: 2329
+source-wordcount: 2309
 ht-degree: 2%
 
 ---
@@ -79,6 +79,7 @@ ht-degree: 2%
    + [Acerca de la nueva interfaz de usuario](/help/search-social-commerce/new-ui/new-ui-about.md)
    + Tablero {#dashboard}
       + [Ver el panel de rendimiento](/help/search-social-commerce/new-ui/dashboard/dashboard-overview.md)
+      + [Compatibilidad con recomendaciones y perspectivas del editor](/help/search-social-commerce/new-ui/dashboard/recommendations-view-apply.md)
    + Metas {#goals}
       + Objetivos {#objectives}
          + [Acerca de los objetivos](/help/search-social-commerce/new-ui/goals/objectives/objective-about.md)
@@ -133,8 +134,9 @@ ht-degree: 2%
          + [Administrar informes de vista de datos desde la vista [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
    + Informes {#reports}
       + Informes programados {#scheduled}
-         + [Las tareas de configuración iniciales para los informes](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/initial-setup){target="_blank"}
-         + [Los datos utilizados para los informes](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/data-used-for-reports){target="_blank"}
+         + [Acerca de los informes programados](/help/search-social-commerce/new-ui/reports/report-about.md)
+         + [Las tareas de configuración iniciales para los informes](/help/search-social-commerce/new-ui/reports/initial-setup.md)
+         + [Los datos utilizados para los informes](/help/search-social-commerce/new-ui/reports/data-used-for-reports.md)
          + [Administrar informes programados](/help/search-social-commerce/new-ui/reports/management/report-manage.md)
          + Tipos de informes programados {#report-types}
             + Informes básicos y avanzados {#basic-advanced-reports}
