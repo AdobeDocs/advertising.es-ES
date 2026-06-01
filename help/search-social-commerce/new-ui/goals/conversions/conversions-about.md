@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Desde la vista [!UICONTROL Goals] > [!UICONTROL Conversions], puede hacer lo siguiente:
 
-* [Generar una etiqueta de seguimiento de conversión de Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Generar una etiqueta de seguimiento de conversión de Adobe Advertising](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * Para todas las métricas de conversión rastreadas de un anunciante:
 
