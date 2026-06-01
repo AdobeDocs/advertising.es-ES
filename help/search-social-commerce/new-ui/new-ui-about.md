@@ -10,16 +10,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
 workflow-type: tm+mt
-source-wordcount: 209
+source-wordcount: 207
 ht-degree: 0%
 
 ---
 
 # Acerca de la nueva interfaz de usuario
 
-Ahora puede administrar sus objetivos, simulaciones y portafolios, así como realizar muchas otras tareas, desde la nueva interfaz de usuario (IU). La nueva interfaz de usuario de Search, Social y Commerce se ejecuta en una nueva dirección URL dentro del dominio https://experience.adobe.com.
+Ahora puede administrar sus objetivos, simulaciones y portafolios, así como realizar muchas otras tareas, desde la nueva interfaz de usuario (IU). La nueva interfaz de usuario de Search, Social y Commerce se ejecuta en una nueva dirección URL dentro del dominio `https://experience.adobe.com`.
 
 Con el tiempo, las funciones restantes se agregarán a la nueva interfaz de usuario. Mientras tanto, puede abrir la mayoría de las funciones de la IU heredada desde el menú principal de la nueva IU. También puede cambiar fácilmente entre la nueva interfaz de usuario y la IU heredada.
 

@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -62,7 +62,7 @@ Puede rastrear las métricas de rendimiento de todas sus campañas y de cualquie
 
    A continuación se muestra un ejemplo de la dirección URL de destino con seguimiento:
 
-   ```http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com```
+   `http://pixel.everesttech.net/1234/cq?ev_sid=87&ev_cl=258e27dcec70156a667f2229020e488&url=http%3A//www.example.com`
 
    1. Copie los valores de [!UICONTROL Destination URL] del archivo de hoja de edición masiva descargado en la configuración de palabras clave correspondiente de la red.
 

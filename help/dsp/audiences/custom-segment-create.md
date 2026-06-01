@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bc24ca7b64ff9cb6da4922076e8999a3816cbf5
+source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
 workflow-type: tm+mt
 source-wordcount: 700
 ht-degree: 0%
@@ -40,7 +40,7 @@ Puede recopilar sus propios datos de audiencia de origen creando e implementando
 
    1. Agregue el siguiente parámetro a sus páginas web antes o dentro del [código JavaScript necesario para [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md), en cualquier lugar antes de que se inicialice el último servicio de eventos.
 
-      ```window.id5PartnerId=ID5_PartnerID;```
+      `window.id5PartnerId=ID5_PartnerID;`
 
       Ejemplo:
 
@@ -101,11 +101,11 @@ Puede recopilar sus propios datos de audiencia de origen creando e implementando
 
             Por ejemplo, si el ID del socio ID5 es `abcde` y la etiqueta de segmento generada es
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             a continuación, reemplace `ID5_PARTNER_ID` por `abcde` dentro de la etiqueta para obtener lo siguiente:
 
-            ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+            `<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />`
 
             Su organización recibió el ID de socio cuando firmó un acuerdo con [!DNL ID5]. Si no conoce su ID de socio, póngase en contacto con el equipo de cuenta de Adobe.
 

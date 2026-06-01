@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eaefe3e592f79580664687d5309b51bbdd913f7f
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: 1499
+source-wordcount: 1506
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
 
    * **[!UICONTROL Objectives]** Abre una nueva vista de [!UICONTROL Objectives], desde la cual puede ver todos los objetivos existentes y crear, editar y eliminar objetivos.
 
-<!--  Not there as of 4/3:  * **[!UICONTROL Conversions]** Exits the new site and opens the legacy [!UICONTROL Admin] > [!UICONTROL Conversions] view. -->
+   * **[!UICONTROL Conversions]** abre una vista nueva desde la cual puede ver las métricas de conversión de un anunciante y personalizar las métricas disponibles para las vistas de administración y los informes.
 
-* **[!UICONTROL Conversion Value Rules]** abre vistas de solo lectura de las reglas de valor de conversión de nivel de cuenta y de campaña. Para administrar las reglas de valor de conversión, use la vista heredada [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Conversion Value Rules]** Abre una vista nueva para ver y administrar las reglas de valor de conversión a nivel de cuenta y de campaña para las cuentas de [!DNL Google Ads].
 
-* **[!UICONTROL Constraints]** Abre una vista de sólo lectura de las restricciones existentes. Para administrar las restricciones, use la vista heredada [!UICONTROL Optimization] > [!UICONTROL Constraints]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+   * **[!UICONTROL Constraints]** Abre una vista de sólo lectura de las restricciones existentes. Para administrar las restricciones, use la vista heredada [!UICONTROL Optimization] > [!UICONTROL Constraints]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenú **[!UICONTROL Plan]**:
 
