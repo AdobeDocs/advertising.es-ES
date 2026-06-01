@@ -2,9 +2,11 @@
 title: (Nueva IU) Administrar [!DNL Google Ads] reglas de valor de conversión
 description: Aprenda a ver y administrar  [!DNL Google Ads] reglas de valor de conversión en Search, Social y Commerce.
 feature: Conversions
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+feature_v2: id: e6916c1b-e939-4e0b-99f5-768e83e1e99fid: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
+source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: 1844
 ht-degree: 0%
 
 ---
@@ -25,7 +27,7 @@ Algunas cuentas pueden administrar sus reglas de valor de conversión:
 
 * En las cuentas para las que se realiza un seguimiento de las conversiones en el nivel de cuenta individual o de campaña, puedes [crear](#google-conversion-value-rule-create), [editar](#google-conversion-value-rule-edit) y [cambiar el estado](#google-conversion-value-rule-change-status) de las reglas en el nivel de cuenta y de campaña.
 
-  Las cuentas se pueden vincular a [!DNL Google Ads] cuentas de administrador, pero no pueden usar el seguimiento de conversiones entre cuentas (para el cual se realiza el seguimiento de las conversiones en todas las cuentas de la cuenta de administrador).
+  Las cuentas se pueden vincular a [[!DNL Google Ads] cuentas de administrador](/help/search-social-commerce/new-ui/), pero no pueden usar el seguimiento de conversiones entre cuentas (para el cual se realiza el seguimiento de las conversiones en todas las cuentas de la cuenta de administrador).
 
 * En las cuentas que utilizan el seguimiento de conversión entre cuentas, las reglas de nivel de cuenta y de nivel de campaña se heredan de la cuenta del administrador y son de solo lectura.
 

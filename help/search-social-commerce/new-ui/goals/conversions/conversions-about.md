@@ -1,19 +1,19 @@
 ---
-title: Funciones disponibles para administrar métricas de conversión
+title: (Nueva IU) Funciones disponibles para administrar las métricas de conversión
 description: Obtenga información acerca de las diferentes funciones disponibles para administrar las métricas de conversión.
 feature: Conversions
-source-git-commit: bb3490852f03ce13dc8572297be1dd1d256043a1
+source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Funciones disponibles para administrar métricas de conversión
+# (Nueva IU) Funciones disponibles para administrar las métricas de conversión
 
 Desde la vista [!UICONTROL Goals] > [!UICONTROL Conversions], puede hacer lo siguiente:
 
-* [Generar una etiqueta de seguimiento de conversión de Adobe Advertising](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
+* [Generar una etiqueta de seguimiento de conversión de Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate).<!-- Update link if I move the file -->
 
 * Para todas las métricas de conversión rastreadas de un anunciante:
 
