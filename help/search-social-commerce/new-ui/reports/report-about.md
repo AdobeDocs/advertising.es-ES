@@ -2,8 +2,15 @@
 title: (Nueva IU) Acerca de los informes programados
 description: Obtenga información acerca de los informes de rendimiento programados, incluidos los diferentes tipos de informes disponibles y cómo automatizar los informes.
 feature: Search Reports
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: e246c273-d720-4ece-b29b-7aaba7d50169id: c916feea-e212-4773-b673-4daed287b8a3id: adcb1be7-7ed0-464d-a8d4-c905c9d47742id: ff99aaef-142d-4c93-a88c-011e979e3843id: fa0141e5-dc99-4fbd-9c0e-40aff66de606id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
 source-git-commit: bd4246ec79684167254a153d2f3d0b917a493096
 workflow-type: tm+mt
 source-wordcount: 857

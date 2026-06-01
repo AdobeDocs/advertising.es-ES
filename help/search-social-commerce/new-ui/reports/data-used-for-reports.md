@@ -2,8 +2,15 @@
 title: (Nueva IU) Los datos utilizados para los informes
 description: Obtenga información sobre los distintos tipos de datos disponibles en las vistas de datos y los informes personalizados.
 feature: Search Reports
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: ff99aaef-142d-4c93-a88c-011e979e3843id: c916feea-e212-4773-b673-4daed287b8a3id: adcb1be7-7ed0-464d-a8d4-c905c9d47742id: fa0141e5-dc99-4fbd-9c0e-40aff66de606id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664id: e246c273-d720-4ece-b29b-7aaba7d50169
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
 source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
 workflow-type: tm+mt
 source-wordcount: 604
@@ -35,7 +42,7 @@ La mayoría de los informes se pueden personalizar para mostrar únicamente la i
 
 * **Métricas de conversión:** Número total de conversiones para cada una de las métricas de conversión del anunciante o datos de transacción seguidos hacia una métrica de conversión. Esto puede incluir métricas de conversión y de participación del sitio, pero no métricas calculadas y métricas calculadas avanzadas, que se sincronizan desde Adobe Analytics.
 
-  Esto también puede incluir [[!DNL Google Ads] conversiones ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) y [[!DNL Google Analytics] conversiones ](/help/search-social-commerce/admin/data-sources/data-source-about.md) con seguimiento sincronizadas para la cuenta del anunciante.
+  Esto también puede incluir [[!DNL Google Ads] conversiones &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) y [[!DNL Google Analytics] conversiones &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md) con seguimiento sincronizadas para la cuenta del anunciante.
 
 * **Métricas personalizadas:** Sus propias métricas, que se derivan de la creación de fórmulas basadas en métricas existentes (como el costo por pedido).
 
