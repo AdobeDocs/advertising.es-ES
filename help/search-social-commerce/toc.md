@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 2354
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -228,6 +228,7 @@ Formatos de informe de asistencia {#assist-report-formats}
          + Cuentas de carga de datos {#data-upload}
             + [Administración de cuentas de red de anuncios para cargas de datos](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Administrar [!DNL Naver] cuentas solo para seguimiento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
+      + [Replicar [!DNL Google Ads] campañas en [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
    + [Administrar alertas personalizadas](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [Administración de notificaciones](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [Administración de usuarios](/help/search-social-commerce/new-ui/user-administration.md)
