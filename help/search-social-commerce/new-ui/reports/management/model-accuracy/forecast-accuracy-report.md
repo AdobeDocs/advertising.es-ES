@@ -2,7 +2,7 @@
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Obtenga información sobre el informe de precisión de la previsión, incluidas las columnas de datos.
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Puede ver los datos de los 18 meses anteriores.
 >
 >* Para las previsiones de costes, se considera aceptable una desviación del 10% en los últimos siete días, por lo que el gasto real que está entre el 90% y el 110% del gasto previsto está bien. Para las previsiones de ingresos, se considera aceptable una desviación del 15% en los últimos siete días, por lo que los ingresos reales que están entre el 85% y el 115% del gasto previsto están bien. Deben investigarse los pronósticos con desviaciones más altas.
 >
->* Cuando las palabras clave de la cartera están asociadas con restricciones de desplazamiento de ofertas, la cartera gasta más o menos de lo debido en la cantidad total causada por el cambio de ofertas. Como resultado, las columnas de coste previsto se desvían del gasto objetivo por el aumento o la disminución del gasto.
+>* Cuando las palabras clave del portafolio están asociadas con [restricciones de cambio de oferta](/help/search-social-commerce/new-ui/goals/constraints-manage.md), el portafolio gasta más o menos de lo debido a la cantidad total causada por el cambio de oferta. Como resultado, las columnas de coste previsto se desvían del gasto objetivo por el aumento o la disminución del gasto.
 
 ## Columnas disponibles
 

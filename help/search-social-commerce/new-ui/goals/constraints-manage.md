@@ -2,9 +2,9 @@
 title: Administrar restricciones para buscar unidades de oferta
 description: Obtenga información acerca de las restricciones para restringir ofertas para unidades de oferta en campañas CPC en portafolios de nivel de palabra clave heredados.
 feature: Search Campaign Management, Search Optimization
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: ade0f3ada440b76555b60af97162f7abe454fa0f
 workflow-type: tm+mt
-source-wordcount: '2649'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Después de configurar una restricción, puede asignarla a unidades de oferta es
 >[!NOTE]
 >
 >* Las restricciones activas restringen las ofertas solo para las unidades de oferta asignadas en portafolios optimizados de nivel de palabra clave heredados. Se ignoran para las unidades de oferta que están en portafolios híbridos, en portafolios activos o que no están en portafolios. **Sugerencia:** En la configuración del portafolio, active la opción del portafolio para &quot;Ajustar automáticamente los límites presupuestarios de la campaña&quot;. El valor &quot;Múltiple&quot; recomendado es &quot;1&quot;.
-> * Las restricciones de oferta se omiten para las unidades de oferta sin datos suficientes para generar modelos de costes e ingresos.
+>* Las restricciones de oferta se omiten para las unidades de oferta sin datos suficientes para generar modelos de costes e ingresos.
 >* (Campañas con una estrategia de oferta de CPC o eCPC) Cuando una restricción de oferta entra en conflicto con un límite de oferta de nivel de cartera, la restricción anula el límite de nivel de cartera. Por ejemplo, si la oferta mínima de una cartera es de 5 USD pero restringe una unidad de oferta de la cartera a una oferta mínima de 3 USD, la unidad de oferta se oferta a 3 USD o más. Sin embargo, el gasto general para las unidades de oferta restringidas está determinado por el parámetro [&quot;Restricciones del gasto alrededor&quot; del portafolio](#spend-around-constraints).
 >* Las restricciones funcionan en la oferta base. Cualquier tipo de ajuste de la oferta a la oferta base (como aumentar la oferta para usuarios finales en dispositivos móviles) puede hacer que la oferta se sitúe fuera del intervalo permitido para la restricción. Por ejemplo, si la restricción requiere un CPC máximo de 6 USD, la oferta base ya es de 6 USD y la cartera optimiza automáticamente los ajustes de oferta para dispositivos móviles en un 50%-60%, entonces el CPC máximo es de 9,00-9,60 USD, no de 6 USD.
 
@@ -172,19 +172,18 @@ También puede eliminar una restricción, lo que elimina todas las asociaciones 
 
 ## Asignar restricciones a las unidades de oferta de búsqueda {#constraint-assign}
 
-Puede aplicar restricciones de unidad de oferta a cualquier campaña, grupo de publicidad, palabra clave, ubicación, grupo de productos de compra en el nivel de unidad (el nivel más bajo de subdivisión) o destino de búsqueda dinámica.
+Puede aplicar restricciones de unidad de oferta a cualquier campaña, grupo de publicidad, palabra clave, ubicación o destino de búsqueda dinámica (segmentación automática).
 
 Cada entidad solo puede tener una restricción. Se puede asignar una única restricción a una o varias entidades al mismo tiempo.
 
 >[!NOTE]
 >
->Si posteriormente edita una palabra clave o la copia de anuncio de un anuncio (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
+>* Si posteriormente edita una palabra clave o la copia de anuncio de un anuncio (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
+>* Ver las mismas instrucciones en la vista [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), la vista [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), la vista [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) o la vista [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. En el menú principal, abra la vista de administración correspondiente.
 
    Por ejemplo, para asignar restricciones en el nivel de campaña, vaya a [!UICONTROL Manage] > [!UICONTROL Campaigns].
-
-   <!-- for [campaigns](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), [ad groups](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), [keywords](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md), or [placements](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). And ADD LINKS WHEN AVAILABLE for shopping product groups and dynamic search targets. -->
 
 1. (Opcional) Filtre la lista [de la barra de herramientas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o de un [encabezado de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
@@ -198,7 +197,10 @@ Cada entidad solo puede tener una restricción. Se puede asignar una única rest
 
 ## Anular la asignación de restricciones de unidades de oferta de búsqueda {#constraints-unassign}
 
-**Nota:** Para eliminar una restricción, de modo que no esté disponible para uso futuro, consulte &quot;[Cambiar el estado de las restricciones](#constraint-change-status)&quot;.
+>[!NOTE]
+>
+>* Para eliminar una restricción, de modo que no esté disponible para un uso futuro, consulte &quot;[Cambiar el estado de las restricciones](#constraint-change-status)&quot;.
+>* Ver las mismas instrucciones en la vista [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), la vista [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), la vista [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) o la vista [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. En el menú principal, abra la vista de administración correspondiente.
 
