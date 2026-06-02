@@ -4,18 +4,20 @@ description: Aprenda a exportar sus campañas sincronizadas en una cuenta de  [!
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
 TQID: https://experienceleague.adobe.com/l0yaZq0hmQSXXeJon22Fm8HOWJ6JDOaZuGqwxVfdw-c
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 977
 ht-degree: 0%
 
 ---
 
 # Replicar [!DNL Google Ads] campañas en [!DNL Microsoft Advertising]
+
+>[!NOTE]
+>
+>Las instrucciones para esta tarea dentro de la nueva IU están disponibles en &quot;(Nueva IU) [Replicar [!DNL Google Ads] campañas en [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)&quot;.
 
 Puede exportar sus campañas sincronizadas en una cuenta de [!DNL Google Ads] directamente a una cuenta sincronizada de [!DNL Microsoft Advertising] como campañas CPC (eCPC) mejoradas. Se escalan las ofertas y los presupuestos de campaña existentes. El seguimiento existente de búsqueda, medios sociales y Commerce no se importa.
 
@@ -87,7 +89,7 @@ Puede enumerar todos los trabajos de importación, incluida la cuenta de origen 
 
      De manera predeterminada, la vista se abre en la ficha [!UICONTROL List of Import Jobs].
 
-   * En la ficha [[!UICONTROL Import Logs] &#x200B;](#campaign-import-log), haga clic en la ficha **[!UICONTROL List of Import Jobs]**.
+   * En la ficha [[!UICONTROL Import Logs] ](#campaign-import-log), haga clic en la ficha **[!UICONTROL List of Import Jobs]**.
 
 ## Ejecutar un trabajo de importación de campaña
 
