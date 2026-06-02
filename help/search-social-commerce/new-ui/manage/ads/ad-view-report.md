@@ -1,11 +1,14 @@
 ---
 title: (Nueva IU) Administrar informes de vista de datos desde la vista [!UICONTROL Ads]
-description: Obtenga información sobre cómo generar, descargar y eliminar informes que contengan las filas de datos de uno o más anuncios en la vista [!UICONTROL Ads] de un informe.
+description: Obtenga información sobre cómo generar, descargar y eliminar informes que contengan las filas de datos de uno o varios anuncios en la vista [!UICONTROL Ads].
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 1113c9f6ff8446d075dc9b90441f4119eb657598
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: 327
 ht-degree: 0%
 
 ---
@@ -62,6 +65,5 @@ Consulte también &quot;[(IU heredada) Descargar datos de una vista de administr
 
 >[!MORELIKETHIS]
 >
->* [Acerca de [!UICONTROL Ads view]](ad-view-about.md)
->* [(IU heredada) Descargar datos de una vista de administración de campañas](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [(IU heredada) Eliminar un informe de datos de rendimiento o un archivo de hoja de edición masiva del menú [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [ (nueva interfaz de usuario) acerca de [!UICONTROL Ads view]](ad-view-about.md)
+>* [(nueva interfaz de usuario) Cambiar el estado de un anuncio](ad-change-status.md)
