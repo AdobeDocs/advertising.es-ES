@@ -1,12 +1,18 @@
 ---
-title: (Nueva interfaz de usuario) Acerca de la vista [!UICONTROL Ad Groups]
+title: (Nueva interfaz de usuario) Acerca de la vista [!UICONTROL Ads]
 description: Descubra lo que puede hacer en la vista [!UICONTROL Ads].
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 6a0a4b74-a767-4c4d-a823-0fbc3c738cd0
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: f3d33161-c519-436e-bbbd-730ba428736b
+source-git-commit: d044275b1c8fd7ca8213aad5233c8f7085e4d9f6
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: 66
 ht-degree: 0%
 
 ---
@@ -20,8 +26,9 @@ La vista [!UICONTROL Manage] > [!UICONTROL Ads] enumera todos los anuncios de la
 
 ## Acciones disponibles
 
-* [Administrar informes de vista de datos desde la vista [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
+* [Administrar informes de vista de datos desde la vista [!UICONTROL Ads]](ad-view-report.md)
 
+* [Cambiar el estado de un anuncio](ad-change-status.md)
 <!--
 * [Assign constraints to ad groups, and unassign constraints from ads](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
 -->
@@ -30,4 +37,5 @@ La vista [!UICONTROL Manage] > [!UICONTROL Ads] enumera todos los anuncios de la
 
 >[!MORELIKETHIS]
 >
->* [Administrar informes de vista de datos desde la vista [!UICONTROL Ads]](/help/search-social-commerce/new-ui/manage/ads/ad-view-report.md)
+>* [(nueva interfaz de usuario) Administrar informes de vista de datos desde la vista [!UICONTROL Ads]](ad-view-report.md)
+>* [(nueva interfaz de usuario) Cambiar el estado de un anuncio](ad-change-status.md)
