@@ -12,7 +12,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+source-git-commit: b9c0e1d04187ee5f80d4b5899ab36833f202b16a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 0%
@@ -31,7 +31,7 @@ Admin Console proporciona varios tipos de administradores. Se requieren los sigu
 
 **Administrador de productos:** administra el acceso a un producto específico de [!DNL Adobe] (como Buscar, Social y Commerce) y las autorizaciones de usuario para ese producto. Los administradores de productos pueden crear perfiles de producto para el producto, crear (pero no eliminar) usuarios y grupos de usuarios para el producto, añadir o eliminar usuarios y grupos de usuarios de perfiles de producto y añadir o eliminar otros administradores de productos del producto.
 
-<!--
+<!-- 
 **Product profile admin:** Manages assigned product profiles for individual products. A product profile admin can add (but not remove) users and user groups to the organization; add or remove users and user groups from product profiles; and assign or revoke permissions from product profiles. [I don't think this is applicable: and manage the product roles for product profiles.]
 
 **User group admin:** Manages assigned user groups and their access rights. A user group admin can add or remove users from groups and add or remove user group admins from groups.
