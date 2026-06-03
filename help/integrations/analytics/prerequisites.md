@@ -18,16 +18,16 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 840
 ht-degree: 0%
 
 ---
 
 # Requisitos previos e información clave para implementar [!DNL Analytics for Advertising]
 
-*Anunciantes con Advertising DSP y[!DNL Advertising Search, Social, & Commerce]*
+*Anunciantes con Advertising Creative, Advertising DSP y Advertising Search, Social y Commerce*
 
 Revise la siguiente información antes de integrar Adobe Advertising con Adobe Analytics.
 
@@ -54,7 +54,7 @@ Revise la siguiente información antes de integrar Adobe Advertising con Adobe A
 Proporcione al equipo de implementación de Adobe Advertising lo siguiente:
 
 * El ID del grupo de informes [!DNL Analytics] que se utilizará para generar informes sobre la actividad de medios de pago y para alimentar la actividad del sitio para la optimización y la creación de informes en Adobe Advertising
-* El ID de organización de CX Enterprise de la empresa (ID de organización).
+* ID de organización empresarial de CX de la empresa (ID de organización).
 
 Puede encontrar ambos ID en la [pestaña Summary de Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=es).
 
@@ -120,7 +120,7 @@ Póngase en contacto con su equipo de cuenta de Adobe para conocer los entornos 
 
 ### ID suplementario
 
-Una vez implementado el servicio de identidad de Experience Cloud para un sitio, las visitas que contienen datos de [!DNL Analytics] o Adobe Advertising contienen un ID suplementario.
+Una vez que el servicio de identidad de Experience Cloud está implementado para un sitio, las visitas que contienen datos de [!DNL Analytics] o Adobe Advertising contienen un ID suplementario.
 
 Ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
