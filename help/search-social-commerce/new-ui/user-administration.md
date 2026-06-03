@@ -4,15 +4,11 @@ description: Obtenga información sobre cómo administrar el acceso de los usuar
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b9c0e1d04187ee5f80d4b5899ab36833f202b16a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 0%
@@ -21,7 +17,7 @@ ht-degree: 0%
 
 # (Nueva IU) Administración de usuarios para Search, Social y Commerce
 
-Algunos usuarios pueden administrar el acceso a la nueva interfaz de usuario de Search, Social y Commerce usando [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html), que es la ubicación central para administrar todos los derechos y la administración de usuarios de Adobe. Los usuarios se clasifican como usuarios finales o administradores. El equipo de cuenta de Adobe le notificará si es administrador. Si es administrador, consulte las siguientes secciones para identificar los permisos y flujos de trabajo para administrar usuarios.
+Algunos usuarios pueden administrar el acceso a la nueva interfaz de usuario de Search, Social y Commerce usando [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), que es la ubicación central para administrar todos los derechos y la administración de usuarios de Adobe. Los usuarios se clasifican como usuarios finales o administradores. El equipo de cuenta de Adobe le notificará si es administrador. Si es administrador, consulte las siguientes secciones para identificar los permisos y flujos de trabajo para administrar usuarios.
 
 ## Tipos de administradores
 
@@ -31,7 +27,7 @@ Admin Console proporciona varios tipos de administradores. Se requieren los sigu
 
 **Administrador de productos:** administra el acceso a un producto específico de [!DNL Adobe] (como Buscar, Social y Commerce) y las autorizaciones de usuario para ese producto. Los administradores de productos pueden crear perfiles de producto para el producto, crear (pero no eliminar) usuarios y grupos de usuarios para el producto, añadir o eliminar usuarios y grupos de usuarios de perfiles de producto y añadir o eliminar otros administradores de productos del producto.
 
-<!--
+<!-- 
 **Product profile admin:** Manages assigned product profiles for individual products. A product profile admin can add (but not remove) users and user groups to the organization; add or remove users and user groups from product profiles; and assign or revoke permissions from product profiles. [I don't think this is applicable: and manage the product roles for product profiles.]
 
 **User group admin:** Manages assigned user groups and their access rights. A user group admin can add or remove users from groups and add or remove user group admins from groups.
@@ -147,7 +143,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. Escriba su ID de [!DNL Adobe] y haga clic en **[!UICONTROL Continue]**.
 
-   1. Seleccione **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Seleccione **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Seleccione la organización empresarial de CX aplicable.
 
@@ -163,9 +159,9 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
 1. [Inicie sesión en Adobe Admin Console y ábralo en Search, Social y Commerce](#open-admin-console).
 
-1. (Opcional) [Agregue otro administrador del sistema](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise) como copia de seguridad.
+1. (Opcional) [Agregue otro administrador del sistema](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) como copia de seguridad.
 
-1. Delegar la administración de productos y usuarios agregando administradores de productos[&#128279;](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise).
+1. Delegar la administración de productos y usuarios agregando administradores de productos](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).[
 
 ### Flujo de trabajo para administradores de productos
 
@@ -173,9 +169,9 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
 1. [Inicie sesión en Adobe Admin Console y ábralo en Search, Social y Commerce](#open-admin-console).
 
-1. Si es necesario, cree usuarios finales [individualmente](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) o [de forma masiva](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html).
+1. Si es necesario, cree usuarios finales [individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) o [de forma masiva](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. (Opcional) Cree [grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/user-groups.html) para la instancia y asigne usuarios a cada grupo de usuarios.
+1. (Opcional) Cree [grupos de usuarios](https://helpx.adobe.com/enterprise/using/user-groups.html) para la instancia y asigne usuarios a cada grupo de usuarios.
 
    Si la instancia tiene muchos usuarios, cree grupos de usuarios para asegurarse de que se asignan los perfiles adecuados a los usuarios en función de su nivel de experiencia. (Consulte el paso 4 para asignar grupos de usuarios a perfiles de producto). Puede crear grupos de usuarios en función de la línea de negocio, las necesidades de acceso de los usuarios, la fecha de contratación de los usuarios u otros criterios.
 
@@ -183,7 +179,7 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
    >
    >Los nombres de los grupos de usuarios deben comunicar claramente los derechos que se deben asignar al grupo de usuarios. Por ejemplo, si desea crear un grupo de usuarios con derechos de &quot;Solo lectura&quot;, incluya &quot;Solo lectura&quot; en el nombre del grupo de usuarios, como &quot;Acme_Uk_ReadOnly&quot; o &quot;Acme_ReadOnly&quot;.
 
-1. (Opcional) [Cree perfiles de producto personalizados](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) con conjuntos de permisos definidos.
+1. (Opcional) [Cree perfiles de producto personalizados](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) con conjuntos de permisos definidos.
 
    Los perfiles personalizados se añaden a los cuatro perfiles de producto predeterminados que ya están disponibles.
 
@@ -191,10 +187,10 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
    **Precaución:** Los permisos del producto son muy granulares. Tenga cuidado al configurar perfiles de producto personalizados o puede omitir la funcionalidad que desea incluir.
 
-1. [Asigne cada usuario o grupo de usuarios al perfil de producto correspondiente](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) de forma manual o en lotes.
+1. [Asigne cada usuario o grupo de usuarios al perfil de producto correspondiente](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de forma manual o en lotes.
 
 ## Guía de administración del usuario completa y vínculos adicionales
 
-* Para obtener más información acerca de la administración de usuarios mediante Adobe Admin Console, consulte &quot;[Guía de administración de Adobe Enterprise &amp; Teams](https://helpx.adobe.com/es/enterprise/admin-guide.html)&quot;, incluida la [descripción general de Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
+* Para obtener más información acerca de la administración de usuarios mediante Adobe Admin Console, consulte &quot;[Guía de administración de Adobe Enterprise &amp; Teams](https://helpx.adobe.com/enterprise/admin-guide.html)&quot;, incluida la [descripción general de Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
