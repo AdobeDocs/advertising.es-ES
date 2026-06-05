@@ -10,9 +10,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 3f769f18ce006278b12a62f8d837d60affffda65
+source-git-commit: 6474daed0ea0dc7b13fff847f6c327e4e5788dde
 workflow-type: tm+mt
-source-wordcount: 2356
+source-wordcount: 2416
 ht-degree: 2%
 
 ---
@@ -229,6 +229,17 @@ Formatos de informe de asistencia {#assist-report-formats}
             + [Administración de cuentas de red de anuncios para cargas de datos](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md)
          + [Administrar [!DNL Naver] cuentas solo para seguimiento](/help/search-social-commerce/new-ui/set-up/accounts/template-account-manage.md)
       + [Replicar [!DNL Google Ads] campañas en [!DNL Microsoft Advertising]](/help/search-social-commerce/new-ui/set-up/google-campaign-replication-in-microsoft.md)
+      + Hojas de edición masiva {#bulksheets}
+         + [Administración de datos de campaña mediante hojas de edición masiva](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md)
+         + [Configuración de una cuenta FTP para cargar hojas de edición masiva](/help/search-social-commerce/new-ui/set-up/bulksheets/ftp-account.md)
+         + [Descargar/crear un archivo de hoja de edición masiva](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md)
+         + [Validación de páginas de aterrizaje en archivos de hoja de edición masiva](/help/search-social-commerce/new-ui/set-up/bulksheets/validate-landing-pages.md)
+         + [Exportar un archivo de hoja de edición masiva generado o cargado](/help/search-social-commerce/new-ui/set-up/bulksheets/export.md)
+         + [Cargar una hoja de edición masiva o un archivo de error corregido](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md)
+         + [Publicación de hojas de edición masiva o archivos de error corregidos](/help/search-social-commerce/new-ui/set-up/bulksheets/post.md)
+         + [Errores de hoja de edición masiva](/help/search-social-commerce/new-ui/set-up/bulksheets/errors.md)
+         + [Eliminar hojas de edición masiva y archivos de error cargados](/help/search-social-commerce/new-ui/set-up/bulksheets/delete.md)
+         + [Detener un trabajo de hoja de edición masiva en curso](/help/search-social-commerce/new-ui/set-up/bulksheets/stop-job.md)
    + [Administrar alertas personalizadas](/help/search-social-commerce/new-ui/alerts-manage.md)
    + [Administración de notificaciones](/help/search-social-commerce/new-ui/notifications-manage.md)
    + [Administración de usuarios](/help/search-social-commerce/new-ui/user-administration.md)
