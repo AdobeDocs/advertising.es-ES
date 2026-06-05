@@ -2,9 +2,13 @@
 title: Administrar las métricas de conversión de un anunciante
 description: Aprenda a utilizar las métricas de conversión que Adobe Advertising rastrea para un anunciante.
 feature: Conversions
-feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
-subfeature_v2: id: d068b149-b9d1-421c-9033-a51495366ddc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
 source-wordcount: 932
