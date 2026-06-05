@@ -3,9 +3,9 @@ title: (Nueva IU) Habilitar la carga de objetivos en las redes de publicidad
 description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en Google Ads y Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Si el objetivo, denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_accou
 >[!MORELIKETHIS]
 >
 >* [Acerca de los objetivos](objective-about.md)
->* [Administrar y ver datos de rendimiento de las métricas de conversión de un anunciante](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
+>* [Administrar las métricas de conversión de un anunciante](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [Administrar credenciales para [!DNL Google Ads] cuentas de gerente](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md)
 
 <!--
