@@ -2,9 +2,9 @@
 title: (Nueva IU) Generar e implementar una etiqueta de seguimiento de conversión de Adobe Advertising
 description: Obtenga información sobre cómo crear una etiqueta de conversión de Adobe Advertising para realizar un seguimiento de los eventos de conversión.
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Cree una etiqueta de conversión independiente para cada conjunto de métricas que quiera rastrear. Puede generar etiquetas en Search, Social y Commerce o utilizando etiquetas en Adobe Experience Platform (anteriormente conocido como Adobe Experience Platform Launch) con la extensión de Adobe Advertising.
 
-## Generar e implementar una etiqueta de seguimiento de conversión en Search, Social y Commerce
+## Generar una etiqueta de seguimiento de conversión en Search, Social y Commerce
 
 >[!NOTE]
 >

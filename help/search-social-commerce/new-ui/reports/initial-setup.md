@@ -6,9 +6,9 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+source-git-commit: b9388f691c8e804cece8d9f1eeb1bdc4f352dd11
 workflow-type: tm+mt
-source-wordcount: 357
+source-wordcount: 352
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Los nuevos usuarios deben realizar las siguientes tareas de configuración inicial:
 
-* Ponga a disposición de los informes y otras vistas las métricas de conversión que Adobe Advertising está rastreando para un anunciante y, opcionalmente, cambie el nombre de cualquiera de las métricas de conversión que se muestran en los encabezados de columna para facilitar la lectura. Consulte &quot;[Administrar y ver datos de rendimiento para ver las métricas de conversión de un anunciante](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)&quot;.
+* Ponga a disposición de los informes y otras vistas las métricas de conversión que Adobe Advertising está rastreando para un anunciante y, opcionalmente, cambie el nombre de cualquiera de las métricas de conversión que se muestran en los encabezados de columna para facilitar la lectura. Consulte &quot;[Administrar las métricas de conversión de un anunciante](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)&quot;.
 
   Las propiedades de transacciones no están disponibles para los informes a menos que las ponga a disposición específicamente.
 
