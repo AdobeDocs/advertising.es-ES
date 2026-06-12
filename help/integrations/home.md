@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 074ca9f026dd75cffc0d7dbb2d3e1290aac3eaef
+source-git-commit: f5aece05b41143c241ae0899f9d3ed3a0bed4c54
 workflow-type: tm+mt
-source-wordcount: 962
+source-wordcount: 1006
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 9 de junio de 2026 | Integración con Adobe Customer Journey Analytics | Los anunciantes con Customer Journey Analytics pero no [!DNL Analytics for Advertising] pueden intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante Adobe Experience Platform [!DNL Web SDK]. | Consulte &quot;[Información general sobre la integración entre Adobe Advertising y Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)&quot;. |
 | 3 de junio de 2026 | [!DNL Adobe Analytics for Advertising] | Los anunciantes con Advertising Creative y [!DNL Adobe Analytics for Advertising] ahora pueden ver datos de nivel de variante y rama en Adobe Analytics. Los datos se muestran independientemente del DSP utilizado para publicar anuncios desde las experiencias de [!DNL Creative]. Si ejecuta los anuncios desde una ubicación de Advertising DSP, también verá datos de campaña y de ubicación, así como métricas relacionadas con los costes.<br><br>No se requiere ninguna configuración adicional. | Ver las [métricas de tráfico](https://experienceleague.adobe.com/es/docs/analytics/components/metrics/amo-metrics) y [clasificaciones](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#classifications) de Advertising Creative visibles en [!DNL Analytics]. |
 | 8 de septiembre de 2025 | Integración con Customer Journey Analytics | (Funcionalidad de Beta) Los anunciantes con Customer Journey Analytics, pero no [!DNL Analytics for Advertising], ahora pueden intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es). | Consulte &quot;[Información general sobre la integración entre Adobe Advertising y Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)&quot;. |
 | 26 de marzo de 2025 | [!DNL Adobe Analytics for Advertising] | (Anunciantes con Search, Social, &amp; Commerce; [!DNL Microsoft Advertising] cuentas; y [!DNL Adobe Analytics for Advertising]) Para las cuentas con la opción de seguimiento [!UICONTROL Auto Upload], el formato del parámetro de ID de AMO en los sufijos de página de aterrizaje para todos los tipos de campaña se actualizó al formato más reciente. Anteriormente, las campañas Máximo rendimiento de para la mayoría de las cuentas se migraban al nuevo formato.<br><br>Para cuentas sin la opción de seguimiento [!UICONTROL Auto Upload] que aún no se migraron al nuevo formato, sin embargo, debe actualizar manualmente cada sufijo de página de aterrizaje para incluir el nuevo formato de ID de AMO.<br><br>Formato actual: `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}` | Consulte &quot;[Información general sobre [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)&quot; y los [formatos de ID de AMO](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#dimension-items).&quot; |
