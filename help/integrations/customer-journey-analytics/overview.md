@@ -16,9 +16,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 9ac8d984e0d48eab6b2da695c48702dacd41bb33
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: 431
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Adobe Advertising está integrado con Adobe Customer Journey Analytics para el u
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* (Próxima función beta) Los anunciantes con Customer Journey Analytics, pero no [!DNL Analytics for Advertising], pueden intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es). Puede rastrear eventos de sitio usando cookies, IP con hash e ID universales ([!DNL LiveRamp RampIDs] e ID5) y atribuir eventos de sitio a actividad de medios de pago. Los siguientes datos están disponibles en los niveles de campaña, grupo de anuncios, paquete, ubicación y palabra clave:
+* Los anunciantes con Customer Journey Analytics pero no [!DNL Analytics for Advertising] pueden intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics usando [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es). Puede rastrear eventos de sitio usando cookies, IP con hash e ID universales ([!DNL LiveRamp RampIDs] e ID5) y atribuir eventos de sitio a actividad de medios de pago. Los siguientes datos están disponibles en los niveles de campaña, grupo de anuncios, paquete, ubicación y palabra clave:
 
    * Datos de rendimiento de campañas de Adobe Advertising en Customer Journey Analytics
 
@@ -59,7 +59,7 @@ Adobe Advertising está integrado con Adobe Customer Journey Analytics para el u
 
   En este caso de uso, utilice Web SDK para realizar un seguimiento de los eventos del sitio (mediante cookies, direcciones IP con hash o identificadores universales) y atribuir los eventos del sitio a la actividad de medios de pago en [!DNL Google Ads], [!DNL Microsoft Advertising] y [!DNL Meta], así como en Adobe DSP. También utilizará Adobe Experience Platform para la recopilación de datos.
 
-## Cómo iniciar una integración nativa entre Adobe Advertising y Customer Journey Analytics
+## Cómo iniciar una integración nativa entre Adobe Advertising y Customer Journey Analytics {#integration-cja-initiate}
 
 Póngase en contacto con el equipo de su cuenta de Adobe, que completará la configuración inicial necesaria para comenzar y le ayudará a planificar su implementación y el uso de los datos en función de las necesidades de su organización.
 

@@ -16,34 +16,32 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 67835b7b70333a81572355b4fed794341cd4ff36
+source-git-commit: c62a18194544bcbe98117b86eccb1b5e2740999c
 workflow-type: tm+mt
-source-wordcount: 1814
+source-wordcount: 1804
 ht-degree: 0%
 
 ---
 
 # Configuración de la recopilación de datos, la transferencia de datos y la creación de informes
 
-*característica de Beta*
+*Anunciantes con Advertising DSP y[!DNL Advertising Search, Social, & Commerce]*
 
-Se requieren las siguientes tareas para ver los datos de Advertising Cloud en Customer Journey Analytics.
+*Solo anunciantes sin [!DNL Analytics for Advertising]*
 
->[!PREREQUISITES]
->
->Mientras se encuentra en modo beta, pídale al equipo de cuenta de Adobe que proporcione a la cuenta del anunciante acceso al servicio `Adobe Advertising`.
+Se requieren las siguientes tareas para intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es). La transferencia y la atribución de datos comienzan después del lanzamiento; no se incluyen datos históricos.
 
 1. (Analista web de su organización; opcional) [Recopilar datos históricos para los ID de AMO e ID de EF](/help/integrations/analytics/rvars-to-evars.md){target="_blank"}.
 
    Este paso solo es aplicable a los anunciantes con [!DNL Analytics for Advertising].
 
-1. (Administrador del sitio de su organización para Adobe Experience Platform) [Configure la recopilación de datos en Experience Platform e implemente etiquetas de seguimiento de conversión](#data-collection).
+2. (Administrador del sitio de su organización para Adobe Experience Platform) [Configure la recopilación de datos en Experience Platform e implemente etiquetas de seguimiento de conversión](#data-collection).
 
-1. (Administrador del sitio de su organización para Customer Journey Analytics) [Cree una conexión con los conjuntos de datos de Experience Platform en Customer Journey Analytics](#dataset-connection).
+3. (Administrador del sitio de su organización para Customer Journey Analytics) [Cree una conexión con los conjuntos de datos de Experience Platform en Customer Journey Analytics](#dataset-connection).
 
-1. (Analista web de su organización) [Configure vistas de datos en Customer Journey Analytics](#cja-data-views).
+4. (Analista web de su organización) [Configure vistas de datos en Customer Journey Analytics](#cja-data-views).
 
-1. (Analista web de su organización) [Configure informes y visualizaciones en Customer Journey Analytics Workspace](#cja-reports).
+5. (Analista web de su organización) [Configure informes y visualizaciones en Customer Journey Analytics Workspace](#cja-reports).
 
 Las secciones siguientes incluyen los procedimientos detallados, que incluyen las tareas y configuraciones necesarias para la integración, pero no explican todas las funciones disponibles en los flujos de trabajo. Consulte los recursos vinculados para obtener información completa.
 
@@ -52,6 +50,8 @@ Las secciones siguientes incluyen los procedimientos detallados, que incluyen la
 Se requieren las siguientes tareas para configurar la recopilación de datos en Experience Platform e implementar las etiquetas de seguimiento de conversión. El administrador del sitio de su organización para Experience Platform puede realizar estas tareas, pero es posible que el departamento de TI de su organización necesite ayudar a implementar las etiquetas de seguimiento.
 
 ### Recopilación y envío de datos de Adobe Advertising a Experience Platform Edge Network como conjunto de datos
+
+Este procedimiento incluye la creación de un esquema. Si lo desea, puede editar un esquema existente en su lugar; en ese caso, no es necesario crear un conjunto de datos o una secuencia de datos.
 
 1. En Experience Platform, [defina un esquema manual](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas) para los datos que desea recopilar mediante el Experience Data Model (XDM).
 
@@ -63,25 +63,35 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
    **Nota:** Puede crear varios esquemas, pero solo puede usar un esquema por conjunto de datos y por secuencia de datos, que creará en los pasos siguientes.
 
-1. [Cree un conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/create) basado en el esquema para almacenar y administrar la colección de datos de evento.
+1. [Cree un conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/create) basado en el esquema para almacenar y administrar la colección de datos de evento. Este será su *conjunto de datos de evento*. Si está editando un esquema existente con un conjunto de datos, puede omitir este paso.
 
    * Elija la opción para **[!UICONTROL Create dataset from schema]** y seleccione el esquema.
 
-     <!-- Manual process during beta -->Adobe Advertising crea conjuntos de datos adicionales para los datos de métricas de resumen relacionados (como valores de conversión) y datos de búsqueda (dimensiones/metadatos de clasificación, como el nombre de la campaña de Adobe Advertising) basados en el conjunto de datos de evento. Los datos de los conjuntos de datos se rellenan a diario en Experience Platform.
+     En función de su conjunto de datos de evento, Adobe Advertising crea dos conjuntos de datos adicionales: 1\) un *conjunto de datos de resumen* con los datos de resumen relacionados (como clics e impresiones) y 2\) un *conjunto de datos de búsqueda* (con metadatos de dimensiones/clasificación, como el nombre de la campaña de Adobe Advertising). Los datos de los conjuntos de datos se rellenan a diario en Experience Platform.
 
-1. [Crear un conjunto de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) para el esquema.
+   >[!TIP]
+   >
+   >Cree primero un conjunto de datos de evento ficticio para validar el flujo de datos antes de utilizar un conjunto de datos de producción.
+
+1. [Cree una secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) para especificar dónde enviar datos desde su sitio web o aplicación y cómo manejar los datos entrantes.
 
    * Para la configuración [!UICONTROL Mapping schema], seleccione su esquema.
 
    * Agregue y habilite los servicios `Adobe Advertising` y `Adobe Experience Platform` a la secuencia de datos.
 
-     Estos servicios permiten a Edge Network almacenar el conjunto de datos y enrutarlo a Adobe Advertising.
+     El servicio [!UICONTROL Adobe Advertising] permite que las exposiciones de anuncios se asocien a la carga útil y [!UICONTROL Adobe Experience Platform] permite que Edge Network almacene el conjunto de datos y lo enrute a Adobe Advertising.
 
-   * Para la configuración [!UICONTROL Event dataset], seleccione su conjunto de datos.
+   * Para la configuración [!UICONTROL Event dataset], seleccione su conjunto de datos de evento.
 
      Cada conjunto de datos puede insertar datos en un único conjunto de datos.
 
 ### Envíe los datos del sitio web de su organización a su conjunto de datos de Experience Platform
+
+Utilice la extensión Adobe Experience Platform Web SDK en Adobe Tags para enviar los datos del sitio web de su organización a su flujo de datos de Experience Platform.
+
+>[!NOTE]
+>
+>Solo se admiten etiquetas de Adobe. La compatibilidad no está disponible para Experience Platform Web SDK independiente (`alloy.js`) o administradores de etiquetas de terceros.
 
 1. Use Experience Platform [tags](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home) (anteriormente conocido como [!DNL Launch]) para generar una etiqueta JavaScript y enviar los datos del sitio web de su organización al conjunto de datos.
 
@@ -97,7 +107,7 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
       * En la sección [!UICONTROL Custom build components], habilite el componente **Advertising**.
 
-        Este componente incluye todo el código JavaScript necesario para Adobe Advertising en la etiqueta. También agrega una configuración &quot;Advertising&quot; en las reglas de etiquetas (que son opcionales) para definir cómo se utilizan los datos de publicidad para la medición de atribución.
+        Este componente incluye todo el código de JavaScript necesario para Adobe Advertising en la etiqueta y es necesario para los clientes de Advertising DSP y Advertising Search, Social y Commerce. El componente también agrega una configuración &quot;Advertising&quot; en las reglas de etiquetas (que son opcionales) para definir cómo se utilizan los datos de publicidad para la medición de atribución.
 
         Si lo desea, puede activar componentes adicionales según sea necesario.
 
@@ -105,9 +115,9 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
          * En la configuración de [!UICONTROL Datastreams], seleccione el conjunto de datos que se utilizará para cada uno de los entornos web (producción, ensayo y desarrollo).
 
-         * (Solo organizaciones con Adobe Advertising DSP) En la configuración [[!UICONTROL Adobe Advertising]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising), habilite **[!UICONTROL Adobe Advertising DSP]** para permitir el seguimiento de visualización y especifique los anunciantes para los que habilitar el seguimiento de visualización. Si lo desea, puede recopilar ID de a partir de ID universales.
+         * (Solo organizaciones con Adobe Advertising DSP) En la configuración [[!UICONTROL Adobe Advertising]](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising), habilite **[!UICONTROL Adobe Advertising DSP]** para permitir el seguimiento de visualización y especifique los anunciantes para los que habilitar el seguimiento de visualización. Si lo desea, puede recopilar ID de ID universales añadiendo el ID de socio ID5 de su organización o la ruta al código JavaScript [!DNL LiveRamp RampID] de su organización (ats.js).
 
-           Si los anunciantes no aparecen en la lista, introduzca el ID de anunciante de cada anunciante.
+           Si los anunciantes no aparecen en la lista, introduzca el ID de anunciante de cada anunciante. Si es necesario, pida los ID a su equipo de cuenta de Adobe.
 
          * Guarde la compilación.
 
@@ -119,7 +129,9 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
 1. [Publique la etiqueta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow) en un entorno de prueba en el que pueda iterar en el desarrollo de etiquetas.
 
-1. Valide el envío de los conjuntos de datos y, a continuación, [publique la etiqueta en su entorno de producción activo](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow).
+1. [Compruebe la actividad de cada uno de sus tres conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#view-datasets) para validar el envío.
+
+1. [Publique la etiqueta en su entorno de producción activo](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow).
 
    Es posible que el departamento de TI de su organización u otro grupo tenga que programar la implementación de etiquetas o recibir información al respecto.
 
@@ -127,35 +139,55 @@ Se requieren las siguientes tareas para configurar la recopilación de datos en 
 
 Siga estos pasos para extraer datos de Adobe Advertising de sus conjuntos de datos de Experience Platform en Customer Journey Analytics. El administrador del sitio de Customer Journey Analytics de su organización puede realizar estas tareas.
 
-1. En Customer Journey Analytics, [cree una conexión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection) que incluya sus conjuntos de datos y esquema de Experience Platform.
+También puede editar una conexión existente con la misma información.
 
-   **Nota:** En la actualidad, debe enviar datos de todas las cuentas de DSP y Search, Social y Commerce a una sola instancia de Experience Platform y zona protegida.
+1. En Customer Journey Analytics, [cree o edite una conexión](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-connections/create-connection) que incluya sus conjuntos de datos y esquema de Experience Platform.
 
-   * Añada su conjunto de datos de evento de Experience Platform (métricas), su conjunto de datos de resumen (métricas) y su conjunto de datos de dimensiones (clasificaciones/metadatos).
+   <!-- **Note:** You must send data for all DSP and Search, Social, & Commerce accounts to a single Experience Platform instance and sandbox.  -->
+
+   * Confirme que está seleccionada la zona protegida correcta.
+
+   * Calcule el número medio de eventos diarios (menos de 1 millón para la mayoría de las organizaciones).
+
+   * Agregue el conjunto de datos de métricas de evento de Experience Platform (tipo: `Event`), el conjunto de datos de métricas de resumen de evento <!-- Adobe Advertising --> (tipo: `Event`) y el conjunto de datos de dimensiones <!-- Adobe Advertising --> (clasificaciones/metadatos) (tipo: `Lookup`).
 
      Su equipo creó el conjunto de datos de evento y Adobe Advertising creó los conjuntos de datos de resumen y dimensiones en función de su conjunto de datos de evento.
 
      Opcionalmente, puede incluir conjuntos de datos adicionales según sea necesario.
 
-   * Asigne el conjunto de datos de dimensiones al conjunto de datos de eventos:
+   * Configure las opciones del conjunto de datos:
 
-      1. Abra la configuración del conjunto de datos de dimensión.
+      * Para la configuración de [!UICONTROL Event Dataset]:
 
-         El encabezado de la página de configuración es &quot;[!UICONTROL Lookup Dataset]&quot;, lo que indica que puede unir el conjunto de datos de dimensiones con uno de los conjuntos de datos específicos de métricas.
+         * **[!UICONTROL Person ID]:** `Identity Map`
 
-      1. En la sección [!UICONTROL Adobe Advertising Dimensions], asigne el conjunto de datos de dimensiones al conjunto de datos de eventos:
+         * **[!UICONTROL Use primary identity namespace]:** Habilitar configuración
 
-         1. Para el campo [!UICONTROL Key], seleccione el campo que se utilizará como clave para el conjunto de datos de dimensiones: `Adobe Advertising ID` (que es el mismo que el campo `trackingCode` en el esquema).
+         * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
 
-         1. Para el campo [!UICONTROL Matching key], seleccione el campo que se utilizará como clave de coincidencia para el conjunto de datos de eventos. Los nombres de campo disponibles incluyen el nombre del conjunto de datos entre paréntesis. Por ejemplo, si está asignando el conjunto de datos de dimensiones al conjunto de datos de eventos, seleccione `Tracking Code (Event datasets)`.
+         * **[!UICONTROL Import all new data]:** Habilitar la configuración
 
-         Más adelante, también asignará el conjunto de datos de eventos al conjunto de datos de resumen al configurar las vistas #cja-data-views datos.
+      * Para la configuración de [!UICONTROL Lookup Dataset], asigne el conjunto de datos de dimensiones al conjunto de datos de eventos:
 
-1. Después de un par de horas, compruebe que los datos están disponibles en Customer Journey Analytics.
+         * **[!UICONTROL Key]** (el campo que se utilizará como clave para el conjunto de datos de dimensiones): `Tracking Code` (que es el mismo que el campo `trackingCode` en el esquema).
+
+         * **[!UICONTROL Matching key]** (el campo que se usará como clave coincidente para el conjunto de datos de eventos): `Tracking Code (Event datasets)`.<!-- verify this Later, you'll also map the events dataset to the summary dataset when you set up your data view(#cja-data-views).  -->
+
+         * **[!UICONTROL Import all new data]:** Habilitar la configuración
+
+      * Para la configuración de [!UICONTROL Metrics Dataset]:
+
+         * **[!UICONTROL Person ID]:** `Identity Map`
+
+         * **[!UICONTROL Timestamp]:** Confirmar el valor
+
+         * **[!UICONTROL Import all new data]:** Habilitar la configuración
+
+1. En un plazo de tres horas, compruebe que los datos están disponibles en Customer Journey Analytics.
 
    1. En Customer Journey Analytics, vaya a **[!UICONTROL Connections]** y seleccione la conexión.
 
-   1. En la lista de conjuntos de datos mostrados, compruebe que el informe &quot;[!UICONTROL Number of Records]&quot; muestra que se agregaron datos.
+   2. En la lista de conjuntos de datos mostrados, compruebe que el informe &quot;[!UICONTROL Number of Records]&quot; muestra que se agregaron datos.
 
 ## Configuración de vistas de datos en Customer Journey Analytics {#cja-data-views}
 
@@ -169,47 +201,56 @@ En Customer Journey Analytics, cree una o más vistas de datos para definir las 
 
    * En la ficha [!UICONTROL Components]:
 
-      * Añada sus dimensiones, eventos y conjuntos de datos de resumen.
+      * Añada el conjunto de datos de búsqueda (con dimensiones/datos de clasificación), el conjunto de datos de evento (con los datos de nivel de evento) y el conjunto de datos de resumen (con el resto de las métricas, como los clics).
 
-      * Elija métricas del conjunto de datos de eventos (métricas) y de las dimensiones (clasificaciones/metadatos) que desea incluir en la vista de datos.
+      * Elija métricas del conjunto de datos de evento y del conjunto de datos de búsqueda para incluirlas en la vista de datos.
 
-        Ya ha unido estos dos conjuntos de datos en la conexión que creó en el [último procedimiento](#dataset-connection).
+      * Busque &quot;[!UICONTROL Tracking Code]&quot; (que forma parte del conjunto de datos de evento con la ruta de acceso de esquema `_experience.adcloud.conversionDetails.trackingCode`). <!-- and do what with it? Add it? Or is that what you --> Establezca **[!UICONTROL Persistence]** en *[!UICONTROL Most Recent]*.
 
-      * Una el conjunto de datos de eventos al conjunto de datos de resumen, que aún no está unido a nada:
+<!--
 
-         * Para cada dimensión con datos de resumen que desee que estén disponibles en Customer Journey Analytics, [cree un campo derivado](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/derived-fields).
+Seems to not be necessary now:
 
-           Por ejemplo, para ver los datos de resumen de las campañas, cree un campo derivado para la dimensión `Adobe Advertising Campaign`.
 
-           Vinculará los dos conjuntos de datos con la clave coincidente `trackingCode` (que es el campo de esquema para el Adobe Advertising ID).
+       You already joined these two datasets in the connection that you created in the [last procedure](#dataset-connection).
+     
+     *  Join the events dataset to the summary dataset, which isn't yet joined to anything:
+     
+       * For each dimension with summary data that you want to be available in Customer Journey Analytics, [create a derived field](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-dataviews/derived-fields).
 
-            * En la sección [!UICONTROL Lookup] del generador de reglas derivado:
+         For example, to view summary data for campaigns, create a derived field for the dimension `Adobe Advertising Campaign`.
+         
+         You'll link the two datasets using the matching key `trackingCode` (which is the schema field for the Adobe Advertising ID).
+       
+         * In the [!UICONTROL Lookup] section of the derived rule builder:
+         
+           * For the **[!UICONTROL Value]** field, select "[!UICONTROL Tracking Code]" from the metrics summary dataset.
 
-               * Para el campo **[!UICONTROL Value]**, seleccione &quot;[!UICONTROL Tracking Code]&quot; del conjunto de datos de resumen de métricas.
+           * For the **[!UICONTROL Lookup dataset]** field, select the dimensions dataset (such as "Adobe Advertising Classification").
 
-               * Para el campo **[!UICONTROL Lookup dataset]**, seleccione el conjunto de datos de dimensiones (como &quot;Clasificación de Adobe Advertising&quot;).
+           * For the **[!UICONTROL Matching Key]** field, select "[!UICONTROL Tracking Code]" from the classification dataset.
 
-               * Para el campo **[!UICONTROL Matching Key]**, seleccione &quot;[!UICONTROL Tracking Code]&quot; del conjunto de datos de clasificación.
+           * For the **[!UICONTROL Values to return]** field, select the dimension (such as "[!UICONTROL Adobe Advertising Campaign]")" from the classification dataset.
+         
+         The derived field name is appended with "(DF)", such as `Adobe Advertising Campaign(DF)`. 
+         
+       * For each derived field:
+       
+         * In the [!UICONTROL Included components] section, add the derived field.
+         
+           Two names are now listed for the same dimension (for example, "Adobe Advertising Campaign(DF)" (the derived field) and "Adobe Advertising Campaign" (the field in the summary dataset)).
 
-               * Para el campo **[!UICONTROL Values to return]**, seleccione la dimensión (como &quot;[!UICONTROL Adobe Advertising Campaign]&quot;) del conjunto de datos de clasificación.
+         * Select the dimension in the summary dataset (such as "Adobe Advertising Campaign") and edit the settings for the dataset.
 
-           El nombre del campo derivado se anexa con &quot;(DF)&quot;, como `Adobe Advertising Campaign(DF)`.
+           The settings open on the right.
 
-         * Para cada campo derivado:
+           * In the the Summary Data Group section, select the option to **[!UICONTROL Create grouping]**.
 
-            * En la sección [!UICONTROL Included components], agregue el campo derivado.
+           * For the **[!UICONTROL Dimension]** field, select the derived field (which is appended with "(DF)," such as "Adobe Advertising Campaign(DF)").
+         
+           * Select the option to **[!UICONTROL Hide in reporting]**, which hides the derived field name in Workspace.
 
-              Ahora se muestran dos nombres para la misma dimensión (por ejemplo, &quot;Adobe Advertising Campaign(DF)&quot; (el campo derivado) y &quot;Adobe Advertising Campaign&quot; (el campo en el conjunto de datos de resumen)).
-
-            * Seleccione la dimensión en el conjunto de datos de resumen (como &quot;Adobe Advertising Campaign&quot;) y edite la configuración del conjunto de datos.
-
-              La configuración se abre a la derecha.
-
-               * En la sección Grupo de datos de resumen, seleccione la opción **[!UICONTROL Create grouping]**.
-
-               * Para el campo **[!UICONTROL Dimension]**, seleccione el campo derivado (que se anexa con &quot;(DF)&quot;, como &quot;Adobe Advertising Campaign(DF)&quot;).
-
-               * Seleccione la opción **[!UICONTROL Hide in reporting]**, que oculta el nombre del campo derivado en Workspace.
+-->
 
 ## Configuración de informes y visualizaciones en Customer Journey Analytics Workspace {#cja-reports}
 
@@ -217,7 +258,16 @@ En Customer Journey Analytics Workspace, siga estos pasos para configurar inform
 
 1. [Cree un proyecto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) en Workspace para generar informes y visualizaciones basados en las dimensiones y métricas configuradas en la vista de datos.
 
+Puede clasificar métricas de resumen y datos de evento con la misma dimensión en una tabla de forma libre.
+
 1. (Si tiene datos de [!DNL Google Ads] o [!DNL Microsoft Advertising]) Cree un informe de conversiones rastreadas por el publicador usando campos para métricas específicas de red de anuncios, que se agrupan como `googleConversions` y `microsoftConversions`.
+
+>[!TIP]
+>
+>Los eventos de resumen suelen agregar una pequeña cantidad de datos adicionales a los informes, como algunos eventos adicionales, una sesión adicional por día o una persona adicional por informe. Estas adiciones son insignificantes en comparación con los eventos web estándar. Sin embargo, puede filtrar estos datos de evento de resumen adicionales excluyendo los datos para el ID de persona ficticia `00000000-0000-0000-0000-000000000000`.
+>![Ejemplo de exclusión de datos mediante un ID de persona](/help/integrations/assets/cja-report-with-person-id.png "Ejemplo de exclusión de datos mediante un ID de persona")
+
+![Cómo pueden aparecer los conjuntos de datos en Customer Journey Analytics](/help/integrations/assets/cja-report-example.png "Cómo pueden aparecer los conjuntos de datos en Customer Journey Analytics")
 
 >[!MORELIKETHIS]
 >
