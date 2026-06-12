@@ -17,7 +17,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1485
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Duplique un informe personalizado para crear un nuevo informe con una configurac
 
 1. (Opcional) Edite la [configuración del informe](#report-settings.md) según sea necesario.
 
-   El nombre del informe, de forma predeterminada, es &quot;\&lt;*nombre del informe existente*\> \#2&quot; (o el siguiente número de la secuencia).
+   El nombre del informe, de forma predeterminada, es &quot;\&lt;*nombre de informe existente*\> \#2&quot; (o el siguiente número de la secuencia).
 
 ## Edición de un informe personalizado {#report-edit}
 

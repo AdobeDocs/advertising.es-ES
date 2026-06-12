@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear, configurar, actualizar, ver
 feature: Search Reports
 source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
