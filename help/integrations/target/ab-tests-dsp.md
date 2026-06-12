@@ -3,22 +3,11 @@ title: Configuración de pruebas A/B para anuncios de Adobe Advertising DSP en A
 description: Aprenda a configurar una prueba A/B en  [!DNL Target]  para sus anuncios de DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
 TQID: https://experienceleague.adobe.com/xETpACcZbZqfFjS58mS-k-kXhm0BT79W0aHz2bdKDGs
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3did: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
 workflow-type: tm+mt
 source-wordcount: 1645
@@ -50,7 +39,7 @@ Este caso de uso requiere los siguientes productos e integraciones:
 
 * [[!DNL Analytics] para la integración de Advertising](/help/integrations/analytics/overview.md)<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* Integración de [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es)
+* Integración de [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 
 * Audience Manager (requerido solo para pruebas de visualización)
 
@@ -80,53 +69,53 @@ Póngase en contacto con el equipo de cuenta de Adobe para recuperar la clave de
 
 Al añadir un píxel de evento de impresión de Audience Manager en la configuración de colocación y etiquetas de publicidad, puede crear un segmento de prueba para oportunidades de prueba de visualizaciones adicionales.
 
-1. Implement an Audience Manager impression event pixel in your ad tags and DSP placement settings.
+1. Implemente un píxel de evento de impresión de Audience Manager en la configuración de colocación de etiquetas de publicidad y DSP.
 
-   For instructions, see &quot;[Collect media exposure data from Advertising DSP campaigns](/help/integrations/audience-manager/media-data-integration/collect.md).&quot;
+   Para obtener instrucciones, consulte &quot;[Recopilar datos de exposición de medios de campañas de Advertising DSP](/help/integrations/audience-manager/media-data-integration/collect.md)&quot;.
 
-   Make sure you add [DSP macros](/help/dsp/campaign-management/macros.md) to capture all data you want the impression event pixel to pass back, including `${TM_PLACEMENT_ID_NUM}` for the numeric placement ID.
+   Asegúrese de agregar [macros de DSP](/help/dsp/campaign-management/macros.md) para capturar todos los datos que desea que devuelva el píxel del evento de impresión, incluido `${TM_PLACEMENT_ID_NUM}` para el identificador numérico de ubicación.
 
    >[!NOTE]
    >
-   >Click-tracking URLs include the `${TM_PLACEMENT_ID}` macro for the alphanumeric placement key, instead of `${TM_PLACEMENT_ID_NUM}` for the numeric placement ID.
+   >Las direcciones URL de seguimiento de clics incluyen la macro `${TM_PLACEMENT_ID}` para la clave de ubicación alfanumérica, en lugar de `${TM_PLACEMENT_ID_NUM}` para el ID de ubicación numérico.
 
-1. Configure an Audience Manager segment from the DSP impression data:
+1. Configure un segmento de Audience Manager a partir de los datos de impresiones de DSP:
 
-   1. Verify that segment data is available:
+   1. Compruebe que los datos del segmento están disponibles:
 
-      1. [Search for the signal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=es) for the [key-value pair](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=es) that determines at what level the segment users are grouped.
+      1. [Busque la señal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) del [par clave-valor](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) que determina en qué nivel se agrupan los usuarios del segmento.
 
-         Use a [supported key](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=es) with a value that corresponds to a macro that you added to the Audience Manager impression event pixel.
+         Use una [clave admitida](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) con un valor que corresponda a la macro que agregó al píxel del evento de impresión de Audience Manager.
 
-         For example, to group users for a particular placement, use the `d_placement` key. For the value, use an actual numeric placement ID (such as 2501853) that&#39;s captured by the DSP macro `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
+         Por ejemplo, para agrupar usuarios para una ubicación en particular, use la clave `d_placement`. Para el valor, use un Id. de ubicación numérica real (como 2501853) capturado por la macro de DSP `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
-         If the search results show user counts for the key-value pair, which indicates that the pixel was placed correctly and data is flowing, then continue to the next step.
+         Si los resultados de la búsqueda muestran los recuentos de usuarios para el par clave-valor, lo que indica que el píxel se colocó correctamente y los datos están fluyendo, continúe con el siguiente paso.
 
-   1. [Create a rule-based trait](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=es) for segment creation in Audience Manager.
+   1. [Crear un rasgo basado en reglas](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) para la creación de segmentos en Audience Manager.
 
-      * Name the trait so that it’s easily identifiable within test activities. Store the trait in whichever folder you prefer.
+      * Asigne un nombre al rasgo para que se pueda identificar fácilmente dentro de las actividades de prueba. Almacene el rasgo en la carpeta que prefiera.
 
-      * Select `Ad Cloud` as the **[!UICONTROL Data Source]**.
+      * Seleccione `Ad Cloud` como **[!UICONTROL Data Source]**.
 
-      * For the trait expression, use `d_event` as the **[!UICONTROL Key]** and `imp` as the **[!UICONTROL Value]**.
+      * Para la expresión de rasgos, use `d_event` como **[!UICONTROL Key]** y `imp` como **[!UICONTROL Value]**.
 
-   1. [Set up a test segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html?lang=es) for the new trait in Audience Manager, selecting `Ad Cloud` as the **[!UICONTROL Data Source]**.
+   1. [Configure un segmento de prueba](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) para el nuevo rasgo en Audience Manager, seleccionando `Ad Cloud` como **[!UICONTROL Data Source]**.
 
-      Audience Manager automatically splits the segment into a control group that receives the standard landing page experience and a test group that received a personalized onsite experience.
+      Audience Manager divide automáticamente el segmento en un grupo de control que recibe la experiencia de página de aterrizaje estándar y un grupo de prueba que recibió una experiencia en el sitio personalizada.
 
-## Step 3: Set up an A/B test activity in [!DNL Target] for DSP
+## Paso 3: Configurar una actividad de prueba A/B en [!DNL Target] para DSP
 
-The following instructions highlight information pertaining to the DSP use case.
+Las siguientes instrucciones resaltan información perteneciente al caso de uso de DSP.
 
-1. [Sign in to Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html?lang=es).
+1. [Inicie sesión en Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
-1. [Create an A/B test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=es):
+1. [Crear una prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html):
 
-   1. In the **[!UICONTROL Enter Activity URL]** field, enter the landing page URL for the test.
+   1. En el campo **[!UICONTROL Enter Activity URL]**, introduzca la dirección URL de la página de aterrizaje para la prueba.
 
       >[!NOTE]
       >
-      >You can use multiple URLs to test view-through site entry. For more information, see &quot;[Multipage Activity](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html?lang=es).&quot; Puede identificar fácilmente las entradas principales por dirección URL de página creando un [informe de entrada al sitio](https://experienceleague.adobe.com/es/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) en Analytics.
+      >Puede utilizar varias direcciones URL para probar la entrada del sitio de visualización. Para obtener más información, consulte &quot;[Actividad multipágina](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html)&quot;. Puede identificar fácilmente las entradas principales por dirección URL de página creando un [informe de entrada al sitio](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) en Analytics.
 
    1. En el campo **[!UICONTROL Goal]**, introduzca la métrica de éxito de la prueba.
 
@@ -138,7 +127,7 @@ The following instructions highlight information pertaining to the DSP use case.
 
    1. En **[!UICONTROL Reporting Settings]**, seleccione **[!UICONTROL Company Name]** y **[!UICONTROL Report Suite]** se conectaron a su cuenta de DSP.
 
-      Para obtener sugerencias adicionales sobre los informes, consulte &quot;[Prácticas recomendadas de informes y solución de problemas](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html?lang=es)&quot;.
+      Para obtener sugerencias adicionales sobre los informes, consulte &quot;[Prácticas recomendadas de informes y solución de problemas](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html)&quot;.
 
    1. En el campo **[!UICONTROL Date Range]**, escriba las fechas de inicio y finalización apropiadas para la prueba.
 
@@ -152,7 +141,7 @@ The following instructions highlight information pertaining to the DSP use case.
 
    1. Guarde la actividad.
 
-1. Use [Compositor de experiencias visuales de Target](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=es) para realizar cambios de diseño en la plantilla de página de aterrizaje de prueba A/B.
+1. Use [Compositor de experiencias visuales de Target](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) para realizar cambios de diseño en la plantilla de página de aterrizaje de prueba A/B.
 
    * Experiencia A: no edite porque es la experiencia predeterminada/de control de página de aterrizaje sin personalización.
 
@@ -168,7 +157,7 @@ The following instructions highlight information pertaining to the DSP use case.
 
 [!DNL Analytics for Target] (A4T) es una integración de soluciones cruzadas que permite a los anunciantes crear actividades [!DNL Target] basadas en [!DNL Analytics] métricas de conversión y segmentos de audiencia y luego medir los resultados usando [!DNL Analytics] como fuente de informes. Todos los informes y la segmentación de esa actividad se basan en la recopilación de datos de [!DNL Analytics].
 
-Para obtener más información acerca de [!DNL Analytics for Target], incluido un vínculo a las instrucciones de implementación, consulte &quot;[Adobe Analytics como fuente de informes para Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es)&quot;.
+Para obtener más información acerca de [!DNL Analytics for Target], incluido un vínculo a las instrucciones de implementación, consulte &quot;[Adobe Analytics como fuente de informes para Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;.
 
 ### Configurar el panel [!DNL Analytics for Target]
 
@@ -196,7 +185,7 @@ Las siguientes dimensiones pertenecen a [!DNL Analytics for Target]:
 
 En Analysis Workspace, si observa que los datos de actividad y experiencias son mínimos o no se rellenan, haga lo siguiente:
 
-* Compruebe que se utiliza el mismo [!UICONTROL Supplemental Data ID] (SDID) para [!DNL Target] y [!DNL Analytics]. Puede comprobar los valores de SDID usando [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html?lang=es) en la página de aterrizaje a la que la campaña dirige a los usuarios.
+* Compruebe que se utiliza el mismo [!UICONTROL Supplemental Data ID] (SDID) para [!DNL Target] y [!DNL Analytics]. Puede comprobar los valores de SDID usando [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) en la página de aterrizaje a la que la campaña dirige a los usuarios.
 
   [Valores de ID de datos suplementarios (SDID) en Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
@@ -210,10 +199,10 @@ En Analysis Workspace, si observa que los datos de actividad y experiencias son 
 
 ## Lectura adicional
 
-* [Integrar Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html?lang=es) - Explica cómo configurar los informes de [!DNL Target] en Analysis Workspace.
-* [Información general sobre pruebas A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html?lang=es) - Describe actividades de pruebas A/B que se pueden usar con anuncios de DSP.
-* [Experiencias y ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=es) - Explica las herramientas de [!DNL Target] para determinar el contenido en el sitio al que están expuestos los usuarios de prueba de DSP.
-* [Señales, rasgos y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=es): define algunas de las herramientas de Audience Manager que pueden ayudar con las pruebas de visualización de DSP.
+* [Integrar Target con Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Explica cómo configurar los informes de [!DNL Target] en Analysis Workspace.
+* [Información general sobre pruebas A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Describe actividades de pruebas A/B que se pueden usar con anuncios de DSP.
+* [Experiencias y ofertas](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Explica las herramientas de [!DNL Target] para determinar el contenido en el sitio al que están expuestos los usuarios de prueba de DSP.
+* [Señales, rasgos y segmentos](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html): define algunas de las herramientas de Audience Manager que pueden ayudar con las pruebas de visualización de DSP.
 * [Información general sobre [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) - Presenta [!DNL Analytics for Advertising], que le permite rastrear las interacciones del sitio de clics y visualizaciones en sus instancias de Analytics.
 
 >[!MORELIKETHIS]
