@@ -4,10 +4,18 @@ description: Obtenga información sobre cómo configurar la recopilación de dat
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
 TQID: https://experienceleague.adobe.com/u6xL6FuW-TwqAkse3VTS3zcyt-10Cv-ADTZLJTiWWT8
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: c62a18194544bcbe98117b86eccb1b5e2740999c
 workflow-type: tm+mt
 source-wordcount: 1804
@@ -115,7 +123,7 @@ Utilice la extensión Adobe Experience Platform Web SDK en Adobe Tags para envia
 
    * (Opcional) [Cree reglas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) según sea necesario para determinar cuándo Web SDK debe enviar datos a Edge Network.
 
-      * Para las acciones de `[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`, use la configuración [[!UICONTROL Advertising] ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising) para definir cómo se usan los datos de publicidad para la medición de atribución. Esta configuración es útil cuando la regla incluye una secuencia de varias acciones y solo está disponible cuando ha seleccionado el componente &quot;[!UICONTROL Advertising]&quot; para el componente de compilación personalizada.
+      * Para las acciones de `[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`, use la configuración [[!UICONTROL Advertising] &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising) para definir cómo se usan los datos de publicidad para la medición de atribución. Esta configuración es útil cuando la regla incluye una secuencia de varias acciones y solo está disponible cuando ha seleccionado el componente &quot;[!UICONTROL Advertising]&quot; para el componente de compilación personalizada.
 
    * Cree [elementos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) según sea necesario para asignar variables en su sitio web a la estructura del esquema XDM que creó anteriormente.
 
