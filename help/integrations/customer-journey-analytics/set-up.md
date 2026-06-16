@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: e208432cf19b2661fbce58a898a123bb1224c32b
+source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
 workflow-type: tm+mt
-source-wordcount: 1789
+source-wordcount: 1791
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *Solo anunciantes sin [!DNL Analytics for Advertising]*
 
-Se requieren las siguientes tareas para intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es). La transferencia y la atribución de datos comienzan después del lanzamiento; no se incluyen datos históricos.
+Se requieren las siguientes tareas para intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). La transferencia y la atribución de datos comienzan después del lanzamiento; no se incluyen datos históricos.
 
 Estas tareas no son necesarias para los anunciantes con [!DNL Analytics for Advertising].
 
@@ -65,7 +65,7 @@ Este procedimiento incluye la creación de un esquema. Si lo desea, puede editar
 
    * Elija la opción para **[!UICONTROL Create dataset from schema]** y seleccione el esquema.
 
-     En función de su conjunto de datos de evento, Adobe Advertising crea dos conjuntos de datos adicionales: 1\) un *conjunto de datos de resumen* con los datos de resumen relacionados (como clics e impresiones) y 2\) un *conjunto de datos de búsqueda* (con metadatos de dimensiones/clasificación, como el nombre de la campaña de Adobe Advertising). Los datos de los conjuntos de datos se rellenan a diario en Experience Platform.
+     En función de su conjunto de datos de evento, Adobe Advertising crea dos conjuntos de datos adicionales: 1\) un *conjunto de datos de resumen* con los datos de resumen relacionados (como clics agregados e impresiones agregadas) y 2\) un *conjunto de datos de búsqueda* (con metadatos de dimensiones/clasificación, como el nombre de la campaña de Adobe Advertising). Los datos de los conjuntos de datos se rellenan a diario en Experience Platform.
 
    >[!TIP]
    >
