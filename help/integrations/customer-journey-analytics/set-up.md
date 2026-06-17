@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d1f87f8b2dade022c73775e481d44c1cbd9f028b
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 1791
+source-wordcount: 1802
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 *Solo anunciantes sin [!DNL Analytics for Advertising]*
 
-Se requieren las siguientes tareas para intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). La transferencia y la atribución de datos comienzan después del lanzamiento; no se incluyen datos históricos.
+Se requieren las siguientes tareas para intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es). La transferencia y la atribución de datos comienzan después del lanzamiento; no se incluyen datos históricos.
 
 Estas tareas no son necesarias para los anunciantes con [!DNL Analytics for Advertising].
 
@@ -55,7 +55,7 @@ Este procedimiento incluye la creación de un esquema. Si lo desea, puede editar
 
    * En [!UICONTROL Schema Details], seleccione **[!UICONTROL Experience Event]** como clase base para que el esquema capture eventos de sitio. Asigne un nombre al esquema y haga clic en **[!UICONTROL Finish]**.
 
-   * En el panel izquierdo, agregue el grupo de campos [Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) para agregar campos específicos de Adobe Advertising. Como mínimo, incluya el objeto conversionDetails con las propiedades `trackingCode` y `trackingIdentities`, que incluyen [AMO ID e EF ID](ids.md). Los demás campos son opcionales.
+   * En el panel izquierdo, agregue el grupo de campos [Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) para agregar campos específicos de Adobe Advertising. Como mínimo, incluya el objeto conversionDetails con las propiedades `trackingCode` y `trackingIdentities`, que incluyen [AMO ID e EF ID](ids.md). Los demás campos son opcionales. No es necesaria ninguna otra configuración.
 
    * (Opcional) Agregue grupos de campos adicionales según sea necesario para conectar campos de datos adicionales a los datos de Adobe Advertising.
 
@@ -117,6 +117,8 @@ Utilice la extensión Adobe Experience Platform Web SDK en Adobe Tags para envia
 
            Si los anunciantes no aparecen en la lista, introduzca el ID de anunciante de cada anunciante. Si es necesario, pida los ID a su equipo de cuenta de Adobe.
 
+           Ejemplo de ruta de acceso de JavaScript [!DNL RampID]: `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
+
          * Guarde la compilación.
 
    * (Opcional) [Cree reglas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/rules) según sea necesario para determinar cuándo Web SDK debe enviar datos a Edge Network.
@@ -169,7 +171,7 @@ También puede editar una conexión existente con la misma información.
 
          * **[!UICONTROL Key]** (el campo que se utilizará como clave para el conjunto de datos de dimensiones): `Tracking Code` (que es el mismo que el campo `trackingCode` en el esquema).
 
-         * **[!UICONTROL Matching key]** (el campo que se usará como clave coincidente para el conjunto de datos de eventos): `Tracking Code (Event datasets)`.<!-- verify this Later, you'll also map the events dataset to the summary dataset when you set up your data view(#cja-data-views).  -->
+         * **[!UICONTROL Matching key]** (el campo que se usará como clave coincidente para el conjunto de datos de eventos): `Tracking Code (Event datasets)`.
 
          * **[!UICONTROL Import all new data]:** Habilitar la configuración
 
@@ -181,7 +183,7 @@ También puede editar una conexión existente con la misma información.
 
          * **[!UICONTROL Import all new data]:** Habilitar la configuración
 
-1. En un plazo de tres horas, compruebe que los datos están disponibles en Customer Journey Analytics.
+2. En un plazo de tres horas, compruebe que los datos están disponibles en Customer Journey Analytics.
 
    1. En Customer Journey Analytics, vaya a **[!UICONTROL Connections]** y seleccione la conexión.
 
@@ -274,5 +276,6 @@ Puede clasificar métricas de resumen y datos de evento con la misma dimensión 
 >* [ID de Adobe Advertising usados por [!DNL Customer Journey Analytics]](ids.md)
 >* [Métricas y dimensiones de Adobe Advertising en Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Recopilar datos históricos para los ID de AMO y EF para su uso en Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
+>* [Solución de problemas](troubleshooting.md)
 >* [Guía de Customer Journey Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-landing)
 >* [Guía del usuario de Customer Journey Analytics para usuarios de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)

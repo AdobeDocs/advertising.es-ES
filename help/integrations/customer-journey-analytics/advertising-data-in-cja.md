@@ -15,9 +15,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: b2f5488c286d6a01d78218488dbcaa799f4010ca
+source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: 456
 ht-degree: 0%
 
 ---
@@ -110,3 +110,4 @@ En la tabla siguiente:
 >* [Requisitos previos](prerequisites.md)
 >* [ID de Adobe Advertising usados por [!DNL Customer Journey Analytics]](ids.md)
 >* [Configurar la recopilación de datos, la transferencia de datos y la creación de informes](set-up.md)
+>* [Solución de problemas](troubleshooting.md)
