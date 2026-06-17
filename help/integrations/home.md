@@ -6,10 +6,22 @@ product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
 TQID: 'https://experienceleague.adobe.com/6-dzP-cjgKB5-HBvIpy8iU3B8FEbWAfP8r5UEad23Ok'
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6id: f2860a4b-f905-4545-bead-1bbc92564592id: aed5e38a-3e62-42fa-8d16-cd080729b2a0id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-subfeature_v2: id: d1e2786d-1070-4f97-93d7-f5b95de25b2bid: c3eaaeae-eb91-4543-a4dd-99c59c76fbdaid: c200bb82-3e43-4606-9aba-5cab31617ba0id: cfd751d4-ee56-4323-8fd1-dc174b031709id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+subfeature_v2:
+  - id: d1e2786d-1070-4f97-93d7-f5b95de25b2b
+  - id: c3eaaeae-eb91-4543-a4dd-99c59c76fbda
+  - id: c200bb82-3e43-4606-9aba-5cab31617ba0
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
 workflow-type: tm+mt
 source-wordcount: 1006
