@@ -14,9 +14,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d16baa5b31ebb6d6a45feab3d90110fcde25e31f
+source-git-commit: 33382b092be521df814a81aad3c7ae661d853174
 workflow-type: tm+mt
-source-wordcount: 619
+source-wordcount: 620
 ht-degree: 0%
 
 ---
@@ -48,7 +48,6 @@ Si verifica toda la configuración anterior pero sigue sin ver los datos de resu
 Compruebe que la fuente de Adobe Advertising a Customer Journey Analytics esté habilitada para Anunciante 2. Consulte con el equipo de cuenta de Adobe.
 
 Si la fuente está habilitada para un anunciante pero aún no ves datos de resumen, abre un ticket de asistencia para tu organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support).
-.
 
 +++
 
@@ -76,9 +75,9 @@ Si está seguro de una discrepancia en los datos, abra un ticket de asistencia p
 
 ## Informes de nivel de evento
 
-+++ Escenario: los datos de conversión (como `Page Views`) no están disponibles para una dimensión de informes (como `Campaign`) en CJA Customer Journey Analytics Workspace.
++++ Los datos de conversión (como `Page Views`) no están disponibles para una dimensión de informes (como `Campaign`) en CJA Customer Journey Analytics Workspace.
 
-Compruebe lo siguiente, empezando por los elementos con menos barreras:
+Compruebe lo siguiente, empezando por los elementos con menos barreras para la verificación:
 
 * Las métricas de conversión aplicables son eventos web/en línea que Adobe Advertising puede atribuir a dimensiones.
 
