@@ -1,6 +1,6 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] configuración del grupo de anuncios'
-description: Hacer referencia a la configuración de  [!DNL Yahoo! Japan Ads] grupos de anuncios.
+title: '[!DNL LY Ads] configuración del grupo de anuncios'
+description: Hacer referencia a la configuración de  [!DNL LY Ads] grupos de anuncios.
 exl-id: 1afacb94-bf07-45df-ab79-13cb7f876288
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/mNVxXqhOqzXVW7A-dolZ-sRkC-Le6kU55nxRd84-m7I
@@ -10,14 +10,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 43
+source-wordcount: 42
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] configuración del grupo de anuncios
+# [!DNL LY Ads] configuración del grupo de anuncios
 
 ## [!UICONTROL Adgroup Details]
 

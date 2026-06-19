@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: 846
 ht-degree: 0%
 
 ---
 
 # Automatización de la administración de anuncios mediante fuentes de inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 La vista [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] para la administración avanzada de campañas le permite crear y actualizar automáticamente la estructura de cuentas de red de anuncios y enviar anuncios dinámicos basados en los datos sobre su inventario de productos o servicios. Puede cargar nuevos archivos con datos de productos diariamente o con la frecuencia que desee, o bien vincular directamente a una cuenta de [!DNL Google] o [!DNL Microsoft] del centro de comerciantes. Utilice esta función para lo siguiente:
 
@@ -31,7 +31,7 @@ Para configurar los anuncios, cree plantillas de fuentes de inventario que conte
 
 | [!UICONTROL Ad Variation] sección de plantilla | Modificadores en Search, Social y Commerce | Contenido de fuente | Anuncios resultantes |
 |----|----|----|----|
-| Título: Comprar \{<i>Product Category</i>\} de gama alta &lt;<i>CheapList</i>>.<br><br>Descripción 1: Gran inventario de \{<i>Nombre de producto</i>\}.<br><br>Descripción 2: disponible con un descuento de \{<i>Porcentaje de descuento</i>\}%. | Valores del grupo de modificadores &quot;CheapList&quot;:<br><br>&quot;for cheap&quot;<br><br>&quot;at a discount&quot; | Categoría del producto,Nombre del producto,Porcentaje de descuento<br>electrónica,iPods,10<br><br>ropa,Camisas,15<br><br><b>Nota:</b> Puede separar los valores mediante comas o tabulaciones. | <u>Compre productos electrónicos de alta gama a precios económicos.</u><br>Gran inventario de tabletas. Disponible con un 10% de descuento.<br><br><u>Compre productos electrónicos de alta gama con descuento.</u><br>Gran inventario de tabletas. Disponible con un 10% de descuento.<br><br><u>Compra ropa de alta gama a buen precio.</u><br>Enorme inventario de camisas. Disponible con un 15% de descuento.<br><br><u>Compra ropa de alta gama con descuento.</u><br>Enorme inventario de camisas. Disponible con un 15% de descuento. |
+| Título: Compre productos de gama alta \{<i>Categoría de productos</i>\} &lt;<i>ListaBarata</i>>.<br><br>Descripción 1: Enorme inventario de \{<i>Nombre de producto</i>\}.<br><br>Descripción 2: Disponible con \{<i>Porcentaje de descuento</i>\}% de descuento. | Valores del grupo de modificadores &quot;CheapList&quot;:<br><br>&quot;for cheap&quot;<br><br>&quot;at a discount&quot; | Categoría del producto,Nombre del producto,Porcentaje de descuento<br>electrónica,iPods,10<br><br>ropa,Camisas,15<br><br><b>Nota:</b> Puede separar los valores mediante comas o tabulaciones. | <u>Compre productos electrónicos de alta gama a precios económicos.</u><br>Gran inventario de tabletas. Disponible con un 10% de descuento.<br><br><u>Compre productos electrónicos de alta gama con descuento.</u><br>Gran inventario de tabletas. Disponible con un 10% de descuento.<br><br><u>Compra ropa de alta gama a buen precio.</u><br>Enorme inventario de camisas. Disponible con un 15% de descuento.<br><br><u>Compra ropa de alta gama con descuento.</u><br>Enorme inventario de camisas. Disponible con un 15% de descuento. |
 
 Una vez generados los anuncios, puede revisarlos opcionalmente y luego publicarlos en la red de anuncios.
 
@@ -40,7 +40,7 @@ Una vez generados los anuncios, puede revisarlos opcionalmente y luego publicarl
 
 ## Flujo de trabajo para administrar datos de campaña mediante fuentes de inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 Inicialmente, pruebe al menos un archivo de fuentes o una cuenta y, a continuación, podrá automatizar completamente el proceso o seguir controlándolo en cada paso:
 

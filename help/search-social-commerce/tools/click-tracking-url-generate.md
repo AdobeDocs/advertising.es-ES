@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: 484
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Para obtener información acerca de cuándo debe generar e implementar manualmen
 
 Para las cuentas con direcciones URL de destino, ingrese los valores en los campos correspondientes de [!UICONTROL Base URL].
 
-En el caso de las cuentas con direcciones URL finales, introduzca el valor en pantalla en el campo [!UICONTROL Tracking Template] correspondiente. Debe agregar un parámetro para la dirección URL final después del parámetro `&url=` (como `{lpurl}`). Para cuentas de [!DNL Yahoo! Japan Ads], use el parámetro `{lpurl}`. Para obtener una lista de [!DNL Google Ads] y [!DNL Microsoft Advertising] parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, consulte la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348) (vea los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección sobre &quot;Parámetros disponibles [!DNL ValueTrack]&quot;) y la [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+En el caso de las cuentas con direcciones URL finales, introduzca el valor en pantalla en el campo [!UICONTROL Tracking Template] correspondiente. Debe agregar un parámetro para la dirección URL final después del parámetro `&url=` (como `{lpurl}`). Para cuentas de [!DNL LY Ads], use el parámetro `{lpurl}`. Para obtener una lista de [!DNL Google Ads] y [!DNL Microsoft Advertising] parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, consulte la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348) (vea los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección sobre &quot;Parámetros disponibles [!DNL ValueTrack]&quot;) y la [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

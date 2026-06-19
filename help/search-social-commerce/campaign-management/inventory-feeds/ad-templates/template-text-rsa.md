@@ -11,16 +11,16 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3352
+source-wordcount: 3437
 ht-degree: 0%
 
 ---
 
 # Configuración de anuncios de texto y plantillas de anuncios de búsqueda adaptables para fuentes de inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 
    * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799/2) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] solamente) Use el parámetro `!{unescapedurl}` para indicar la dirección URL de la página de aterrizaje.
+   * ([!DNL LY Ads] solamente) Use el parámetro `!{unescapedurl}` para indicar la dirección URL de la página de aterrizaje.
 
    * Si lo desea, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separados por el símbolo &quot;et&quot; (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -151,7 +151,7 @@ Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la
 
 Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar la dirección URL de la página de aterrizaje:
 
-* Para Yahoo! Cuentas de Japan Ads, use el parámetro {lpurl}.
+* Para las cuentas de LY Ads, use el parámetro {lpurl}.
 
 * Para ver los parámetros disponibles para las cuentas de [!DNL Microsoft Advertising] y [!DNL Google Ads], consulte los parámetros [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
@@ -177,7 +177,7 @@ Este valor anula la configuración de nivel de cuenta y de campaña, pero las pl
 
 Para insertar un nombre de columna o un grupo de modificadores como parámetro dinámico, haga clic en el campo de entrada y, a continuación, haga clic en un nombre de columna en la lista de columnas o en un [nombre de modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) en la lista Modificadores. Para especificar varias palabras clave o varios tipos de coincidencia para la misma palabra clave, escríbalas en líneas independientes. Para especificar el tipo de coincidencia de palabra clave, utilice la siguiente sintaxis de tipo de coincidencia alrededor del nombre de la columna:
 
-* Para las plantillas [!DNL Google Ads], [!DNL Microsoft Advertising] y [!DNL Yahoo! Japan Ads]:
+* Para las plantillas [!DNL Google Ads], [!DNL LY Ads] y [!DNL Microsoft Advertising]:
 
    * Para parámetros dinámicos: Coincidencia amplia = `[keyword]`, Modificador de coincidencia amplia para el primer término de la columna [!UICONTROL Keyword] (como +zapatos de ante azul) = `+[keyword]`, Modificador de coincidencia amplia para cada término de la columna Palabra clave (como +azul +ante +zapatos) = `+[keyword]+`, Coincidencia de frase = `"[keyword]"`, Coincidencia exacta = `[[keyword]]`
 
@@ -219,7 +219,7 @@ Si usa una fuente de [!DNL Google Merchant Center] e incluye este valor en la co
 
    * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
+   * ([!DNL LY Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
 
 **[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] plantillas\]:** ([!DNL Google Ads] plantillas solamente) La columna del archivo especificado que representa la variable [!DNL Google Ads] `{param1}` o `{param2}`, que puede incluir en la copia de anuncio o en la URL para mostrar de cualquier anuncio creado a partir de la plantilla. Para insertar el parámetro dinámico, haga clic en el campo de entrada y, a continuación, haga clic en un nombre de columna en la lista de columnas. El nombre de la columna se sustituye por los datos reales cuando el archivo de fuente se propaga a través de la plantilla.
 
@@ -239,7 +239,7 @@ Los campos de datos del archivo de fuente pueden tener un máximo de 25 caracter
 
    * El valor puede ir precedido o anexado con un símbolo de moneda o código. Por ejemplo, 2.000,00 £ y 2000 GBP son válidos.
 
-   * El valor puede incluir una coma (,) o un punto (.) como separador, con un punto opcional (.) o una coma (,) para los valores fraccionarios. Por ejemplo, 1 000,00 y 2 000,10 son válidos.
+   * El valor puede incluir una coma (,) o un punto (.) como separador, con un punto opcional (.) o una coma (,) para valores fraccionarios. Por ejemplo, 1 000,00 y 2 000,10 son válidos.
 
    * Al valor se le puede agregar un prefijo o un signo de porcentaje (%), un signo más (+) o un signo menos (-). Por ejemplo, 20%, 208+ y -42,32 son válidos.
 
@@ -271,7 +271,7 @@ Debe haber al menos un título disponible para cada posición. Si fija varios t�
 
 **[!UICONTROL Ad Title]:** (solo anuncios de texto estándar de Microsoft Advertising existentes; solo lectura) El título o la primera línea de un anuncio. Microsoft Advertising ha desaprobado la creación y edición de anuncios de texto estándar.
 
-**[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** ([!DNL Google Ads] y [!DNL Yahoo! Japan Ads] solo plantillas de anuncios de texto expandido/extendido) El titular de un anuncio. La longitud máxima de cada línea (después de reemplazar cualquier parámetro dinámico) es de 30 caracteres o 15 caracteres de doble byte.
+**[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** ([!DNL Google Ads] y [!DNL LY Ads] solo plantillas de anuncios de texto expandido/extendido) El titular de un anuncio. La longitud máxima de cada línea (después de reemplazar cualquier parámetro dinámico) es de 30 caracteres o 15 caracteres de doble byte.
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
@@ -295,7 +295,7 @@ Debe haber al menos un título disponible para cada posición. Si fija varios t�
 
 * (Plantillas de anuncios de texto expandido de Google Ads) La longitud máxima (después de reemplazar cualquier parámetro dinámico) es de 90 caracteres o 45 caracteres de doble byte.
 
-* (Yahoo! Plantillas de anuncios de Japón) La longitud máxima (después de reemplazar cualquier parámetro dinámico) es de 80 caracteres o 40 caracteres de doble byte.
+* (Yahoo! Plantillas de anuncios LY) La longitud máxima (después de reemplazar cualquier parámetro dinámico) es de 80 caracteres o 40 caracteres de doble byte.
 
 * (Plantillas de Yandex) La longitud máxima (después de reemplazar cualquier parámetro dinámico) es de 75 caracteres, y una sola palabra no puede tener más de 22 caracteres.
 
@@ -325,9 +325,9 @@ Para los anuncios adaptables de búsqueda, inserte un personalizador de anuncios
 
 * [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, como `{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]:** (solo anuncios de texto estándar de [!DNL Microsoft Advertising] y [!DNL Yahoo! Japan Ads] existentes; solo lectura) La dirección URL mostrada en un anuncio.
+**[!UICONTROL Display URL]:** (solo anuncios de texto estándar de [!DNL LY Ads] y [!DNL Microsoft Advertising] existentes; solo lectura) La dirección URL mostrada en un anuncio.
 
-[!DNL Microsoft Advertising] y [!DNL Yahoo! Japan Ads] han desaprobado la creación y edición de anuncios de texto estándar.
+[!DNL LY Ads] y [!DNL Microsoft Advertising] han desaprobado la creación y edición de anuncios de texto estándar.
 
 **[!UICONTROL Base URL]:** (Cuentas solo con direcciones URL de destino) Página a la que se llevan los usuarios. Puede incluir redirección de terceros y código de seguimiento. Si usa el servicio de seguimiento de conversión de Adobe Advertising y la configuración de la campaña incluye el uso de [!UICONTROL EF Redirect] y la adición de seguimiento en el nivel de anuncio, Search, Social y Commerce agregarán automáticamente su propia redirección y código de seguimiento al anuncio.
 
@@ -348,7 +348,7 @@ Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la
 
 Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar la dirección URL de la página de aterrizaje:
 
-* Para Yahoo! Cuentas de Japan Ads, use el parámetro {lpurl}.
+* Para cuentas de [!DNL LY Ads], use el parámetro {lpurl}.
 
 * Para ver los parámetros disponibles para las cuentas de [!DNL Microsoft Advertising] y [!DNL Google Ads], consulte los parámetros [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 

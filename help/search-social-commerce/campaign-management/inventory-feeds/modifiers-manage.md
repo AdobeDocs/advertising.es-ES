@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Administración de modificadores
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 Los modificadores son adjetivos o adverbios que se pueden agregar o quitar de una frase sin cambiar la estructura básica de la oración. Puede crear grupos de modificadores para utilizarlos como variables en varios campos de datos en plantillas de datos de fuentes. Al incluir modificadores en los campos de estructura de cuenta (campaña y grupo de publicidad), palabras clave, direcciones URL base y anuncios, se crea un valor para cada modificador asociado. Por ejemplo, si utiliza una variable de grupo de modificadores en un titular de anuncio y el grupo de modificadores incluye tres modificadores (&quot;barato&quot;, &quot;descuento&quot; y &quot;asequible&quot;), se crean tres anuncios independientes para cada fila de datos de la fuente de datos, uno para cada modificador. Del mismo modo, si se incluye un grupo de modificadores con varios valores en la dirección URL base de un grupo de anuncios, se crea un conjunto de palabras clave para cada una de las direcciones URL base resultantes.
 

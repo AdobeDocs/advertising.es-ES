@@ -13,9 +13,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 2100
+source-wordcount: 2136
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Para las cuentas de [!DNL Microsoft Advertising], solo se pueden usar los inicio
 
 **[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth] habilitadas y todas las demás redes excepto [!DNL Meta] y [!DNL Yandex]) El token de la cuenta para autorizar inicios de sesión mediante el [[!DNL OAuth] protocolo de autorización](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas las redes de publicidad excepto [!DNL Naver]) Contraseña de la cuenta. Este campo es obligatorio en las cuentas habilitadas para contraseña de [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] y [!DNL Yandex]. Para las cuentas habilitadas para [!DNL oAuth], este campo es opcional; utilícelo cuando desee cifrar y guardar la contraseña para que el administrador de cuentas pueda actualizar los tokens según sea necesario.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Todas las redes de publicidad excepto [!DNL Naver]) Contraseña de la cuenta. Este campo es obligatorio en las cuentas habilitadas para contraseña de [!DNL LY Ads], [!DNL Microsoft Advertising] y [!DNL Yandex]. Para las cuentas habilitadas para [!DNL oAuth], este campo es opcional; utilícelo cuando desee cifrar y guardar la contraseña para que el administrador de cuentas pueda actualizar los tokens según sea necesario.
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Yandex] cuentas solamente) Clave de acceso para la cuenta de desarrollador que se va a usar.
 
@@ -201,13 +201,13 @@ Las cuentas que usan el rastreo de clics de Adobe Advertising deben incluir el i
 * *Habilitado:* Search, Social y Commerce sincronizan los datos de campaña con la cuenta (cuando es compatible) y envían ofertas automatizadas o presupuestos de campaña para las campañas en portafolios.
 * *Deshabilitado:* Search, Social y Commerce detienen toda actividad en la cuenta. Los datos recopilados mientras la cuenta estaba activa se siguen almacenando, pero las vistas e informes de administración de campañas no incluyen datos del período de tiempo en el que la cuenta se pone en pausa. Posteriormente, puede volver a activar la cuenta para reanudar la actividad con la cuenta.
 
-**Plantilla de seguimiento** - ([!DNL Google Ads], [!DNL Microsoft Advertising] y [!DNL Yahoo! Japan Ads] cuentas solamente; opcional) La plantilla de seguimiento predeterminada para la cuenta, que especifica todas las redirecciones de dominio de aterrizaje externo y parámetros de seguimiento y también incrusta la dirección URL de la página final/de aterrizaje en un parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
+**Plantilla de seguimiento** - ([!DNL Google Ads], [!DNL LY Ads] y [!DNL Microsoft Advertising] cuentas solamente; opcional) La plantilla de seguimiento predeterminada para la cuenta, que especifica todas las redirecciones de dominio de aterrizaje externo y parámetros de seguimiento y también incrusta la dirección URL de la página final/de aterrizaje en un parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
 
 * Para incrustar la dirección URL final:
 
    * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
+   * ([!DNL LY Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
 
 * Si lo desea, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separados por el símbolo &quot;et&quot; (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 

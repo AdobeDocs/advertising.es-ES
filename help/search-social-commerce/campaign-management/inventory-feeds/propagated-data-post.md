@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: 850
 ht-degree: 0%
 
 ---
 
 # Publicar datos de campaña generados a partir de fuentes en redes de publicidad
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 Puede publicar datos de campaña generados a partir de una fuente a medida que propaga los datos a través de las plantillas asociadas o como un proceso independiente. Una vez que publique los datos, los datos propagados existentes se eliminarán de las listas [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] y [!UICONTROL Ads].
 
@@ -53,9 +53,9 @@ Para que la publicación se realice correctamente, todos los grupos de anuncios 
 
          * *[!UICONTROL Post to search engine on these start/end times (in America/Los_Angeles time)]:* Crea un archivo de hoja de edición masiva y lo publica más tarde. Especifique lo siguiente:
 
-            * **[!UICONTROL Start Time]:** Una fecha y hora futuras en las que se debe publicar el archivo de hoja de edición masiva en la red publicitaria. De manera predeterminada, el archivo se envía a las 00:00 (12:00 a.m.) del día siguiente. **Nota:** Para archivos grandes que requieren un procesamiento más largo, los datos publicados no están disponibles inmediatamente en las vistas de administración de campañas ni en el administrador de anuncios de la red.
+            * **[!UICONTROL Start Time]:** Una fecha y hora futuras en las que se debe publicar el archivo de hoja de edición masiva en la red publicitaria. De manera predeterminada, el archivo se envía a las 00:00 (12:00 a.m.) al día siguiente. **Nota:** Para archivos grandes que requieren un procesamiento más largo, los datos publicados no están disponibles inmediatamente en las vistas de administración de campañas ni en el administrador de anuncios de la red.
 
-            * **[!UICONTROL End Time]:** Una fecha y hora futuras en las que se pueden pausar o eliminar los anuncios publicados según la [configuración de datos de fuente](feed-settings-manage.md#feed-data-settings) para &quot;[!UICONTROL When the Scheduled End Date is reached]&quot;. De manera predeterminada, la hora de finalización es 00:00 (12:00 a.m.) dentro de 30 días a partir de hoy. Seleccione **[!UICONTROL None]** para mantener los datos activos indefinidamente (o hasta que propague nuevos datos para la plantilla), o especifique una fecha y una hora.
+            * **[!UICONTROL End Time]:** Una fecha y hora futuras en las que se pueden pausar o eliminar los anuncios publicados según la [configuración de datos de fuente](feed-settings-manage.md#feed-data-settings) para &quot;[!UICONTROL When the Scheduled End Date is reached]&quot;. De manera predeterminada, la hora de finalización es 00:00 (12:00 a.m.) Dentro de 30 días. Seleccione **[!UICONTROL None]** para mantener los datos activos indefinidamente (o hasta que propague nuevos datos para la plantilla), o especifique una fecha y una hora.
 
               Para especificar una fecha, usa el formato DD/MM/AAAA o D/M/AAAA o haz clic en ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") para abrir el calendario y [seleccionar una fecha](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Para cambiar una hora, introdúzcala en formato de 24 horas HH/MM o H/M o seleccione una hora (en intervalos de 30 minutos) de la lista.
 

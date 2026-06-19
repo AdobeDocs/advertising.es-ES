@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Target all locations]* o *[!UICONTROL Target entire market]* (el valor predeterminado para las nuevas campañas): para colocar anuncios en todas las ubicaciones del idioma especificado.
 
-* *[!UICONTROL Target specified locations]:* Para limitar la ubicación de anuncios a regiones geográficas específicas o ([!DNL Google Ads] y [!DNL Yahoo! Japan Ads] solamente) para excluir la ubicación de anuncios en ubicaciones geográficas específicas. Para [!DNL Google Ads] campañas, puedes agregar opcionalmente ajustes de oferta para cada ubicación que incluyas.
+* *[!UICONTROL Target specified locations]:* Para limitar la ubicación de anuncios a regiones geográficas específicas o ([!DNL Google Ads] y [!DNL LY Ads] (anteriormente solo [!DNL Yahoo! Japan Ads]) para excluir la ubicación de anuncios en ubicaciones geográficas específicas. Para [!DNL Google Ads] campañas, puedes agregar opcionalmente ajustes de oferta para cada ubicación que incluyas.
 
-   * (Para destinar o excluir ubicaciones específicas) Busque la ubicación o sububicación y arrástrela al cuadro **[!UICONTROL Locations Included]** o ([!DNL Google Ads] y [!DNL Yahoo! Japan Ads] únicamente) al cuadro **[!UICONTROL Locations Excluded]**.
+   * (Para destinar o excluir ubicaciones específicas) Busque la ubicación o sububicación y arrástrela al cuadro **[!UICONTROL Locations Included]** o ([!DNL Google Ads] y [!DNL LY Ads] (anteriormente solo [!DNL Yahoo! Japan Ads]) al cuadro **[!UICONTROL Locations Excluded]**.
 
      Para enumerar los subcomponentes de cualquier elemento de la lista (como estados, regiones metropolitanas o ciudades de Estados Unidos), haga clic en el elemento.
 

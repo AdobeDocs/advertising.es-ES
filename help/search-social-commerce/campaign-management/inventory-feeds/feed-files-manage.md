@@ -10,7 +10,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Administrar archivos de fuente de datos de inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 Si envía sus propios datos de fuente, debe cargar archivos que contengan los datos del producto para crear dinámicamente la estructura de la campaña, los anuncios y las palabras clave, en función de los datos del producto. A continuación, puede asociarlos con plantillas de publicidad específicas de la red de publicidad y procesar los datos a través de las plantillas para, finalmente, publicar los datos en las redes de publicidad relevantes. Puede asociar varias plantillas a un archivo de fuente, pero cada plantilla solo puede asociarse a un archivo de fuente.
 

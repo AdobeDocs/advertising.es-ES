@@ -2,9 +2,10 @@
 title: (Nueva IU) Acerca de las cuentas de red de publicidad
 description: Obtenga información acerca de las cuentas de red de anuncios en la nueva IU de Search, Social y Commerce.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,7 @@ Search, Social y Commerce pueden realizar el seguimiento de cualquiera de las cu
 
 ## Cuentas sincronizadas mediante API
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (anteriormente [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] y [!DNL Baidu] cuentas existentes*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (anteriormente [!DNL Bing Ads]), [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] y [!DNL Baidu] cuentas existentes*
 
 Search, Social y Commerce se sincronizan (*se sincroniza*) con las cuentas de red de anuncios admitidas para que puedas rastrear tus anuncios, informar sobre ellos y visualizar su rendimiento. Para todas las redes de anuncios excepto [!DNL Yahoo! Display Network], si lo desea, puede administrar las campañas de su cuenta en Buscar, Social y Commerce; [!DNL Yahoo! Display Network], las campañas son de solo lectura. Para todas las redes de anuncios, puede permitir que la capacidad de optimización optimice las ofertas, los presupuestos de campaña y los objetivos de estrategia de oferta de campaña para las campañas en cuentas administradas, agregando las campañas a los portafolios.
 

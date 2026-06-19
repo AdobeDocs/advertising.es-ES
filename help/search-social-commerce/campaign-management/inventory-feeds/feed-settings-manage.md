@@ -8,16 +8,16 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 1155
+source-wordcount: 1164
 ht-degree: 0%
 
 ---
 
 # Configuración de los datos de fuente
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 Puede configurar cómo gestionar grupos de anuncios, palabras clave y anuncios en archivos de datos de fuentes y cómo procesar los datos en archivos FTP específicamente, a través de la configuración de fuentes.
 
