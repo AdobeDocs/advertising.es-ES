@@ -4,11 +4,9 @@ description: Obtenga información sobre cómo ver los datos generados a partir d
 exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/AG-bR4RcQZcDjJTLkrWhC4J3RcYb7kBRRiC3moSCxp0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 429
 ht-degree: 0%
@@ -17,7 +15,7 @@ ht-degree: 0%
 
 # Ver datos generados a partir de fuentes
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 Cuando propaga datos de fuente sin publicarlos simultáneamente en la red de publicidad, puede obtener una vista previa de los datos de una de las siguientes maneras. Más adelante, opcionalmente, puede [publicar datos](propagated-data-post.md) desde cualquier ubicación en las redes de anuncios relevantes.
 

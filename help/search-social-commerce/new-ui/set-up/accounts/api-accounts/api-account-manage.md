@@ -3,9 +3,9 @@ title: (Nueva IU) Administrar las cuentas de red de publicidad
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta en la nueva interfaz de usuario para una red de publicidad sincronizada mediante la API de red de publicidad.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2170'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,7 @@ Para habilitar esta característica, active **[Habilitar seguimiento]**.
 >* Si cambia de [!UICONTROL Standard] a [!UICONTROL Token], o viceversa, debe volver a generar las direcciones URL de seguimiento para la cuenta.
 >* Puede anular la configuración de nivel de cuenta en el nivel de campaña.
 
-**[!UICONTROL Auto Update]:** (cuando el seguimiento de Search, Social y Commerce está habilitado) Estandariza las direcciones URL de seguimiento para comprobar la compatibilidad entre exploradores y servidores. Search, Social y Commerce cargan automáticamente lo siguiente en la red de anuncios durante la siguiente sincronización: (a) parámetros de seguimiento de Search, Social y Commerce para plantillas de seguimiento y los mismos parámetros añadidos a las direcciones URL finales o (b) nuevas direcciones URL de destino incrustadas con el código de seguimiento de Search, Social y Commerce. Para anunciantes con una [integración Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es) y una configuración de ID de AMO del lado del servidor (s_kwcid), la carga también incluye [parámetros de ID de AMO](/help/integrations/analytics/ids.md#amo-id) para sus cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La configuración predeterminada en el nivel de cuenta se hereda de la configuración de seguimiento del anunciante. Puede anular la configuración de nivel de cuenta en el nivel de campaña.
+**[!UICONTROL Auto Update]:** (cuando el seguimiento de Search, Social y Commerce está habilitado) Estandariza las direcciones URL de seguimiento para comprobar la compatibilidad entre exploradores y servidores. Search, Social y Commerce cargan automáticamente lo siguiente en la red de anuncios durante la siguiente sincronización: (a) parámetros de seguimiento de Search, Social y Commerce para plantillas de seguimiento y los mismos parámetros añadidos a las direcciones URL finales o (b) nuevas direcciones URL de destino incrustadas con el código de seguimiento de Search, Social y Commerce. Para anunciantes con una [integración Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) y una configuración de ID de AMO del lado del servidor (s_kwcid), la carga también incluye [parámetros de ID de AMO](/help/integrations/analytics/ids.md#amo-id) para sus cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La configuración predeterminada en el nivel de cuenta se hereda de la configuración de seguimiento del anunciante. Puede anular la configuración de nivel de cuenta en el nivel de campaña.
 
 Las direcciones URL de seguimiento se actualizan a diario solo para las entidades que no están sincronizadas (es decir, las nuevas entidades que se añadieron y las entidades existentes cuyas propiedades han cambiado). Por lo tanto, si cambia esta configuración de deshabilitada a habilitada para un anunciante, cuenta o campaña existente, las direcciones URL de seguimiento no se actualizan para las entidades existentes que ya están sincronizadas. Para agregar el seguimiento a las direcciones URL de entidades sincronizadas existentes, póngase en contacto con el equipo de cuenta de Adobe y solicite un proceso de sincronización manual único. El proceso de carga automática gestionará los cambios futuros.
 
@@ -228,13 +228,13 @@ Las cuentas que usan el rastreo de clics de Adobe Advertising deben incluir el i
 >* La configuración de seguimiento [!UICONTROL Auto Update] no actualiza este campo.
 >* Los sufijos finales de URL en los niveles inferiores anulan el sufijo de nivel de cuenta. Para facilitar el mantenimiento, utilice únicamente el sufijo de nivel de cuenta a menos que sea necesario realizar un seguimiento diferente para los componentes de cuenta individuales. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, utilice el editor de la red de anuncios.
 
-**URL de seguimiento de cuenta**: ([!DNL Google Ads], [!DNL Microsoft Advertising] y [!DNL Yahoo! Japan Ads] cuentas solamente; opcional) La plantilla de seguimiento predeterminada de la cuenta, que especifica todas las redirecciones de dominios de aterrizaje y parámetros de seguimiento, e incrusta también la dirección URL final de la página de aterrizaje en un parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
+**URL de seguimiento de cuenta**: ([!DNL Google Ads], [!DNL LY Ads] y [!DNL Microsoft Advertising] cuentas solamente; opcional) La plantilla de seguimiento predeterminada de la cuenta, que especifica todas las redirecciones de dominios de aterrizaje y parámetros de seguimiento, e incrusta también la dirección URL final de la página de aterrizaje en un parámetro. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
 
 * Para incrustar la dirección URL final:
 
    * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL Yahoo! Japan Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
+   * ([!DNL LY Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
 
 * Si lo desea, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separados por el símbolo &quot;et&quot; (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 

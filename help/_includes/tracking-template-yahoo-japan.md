@@ -1,13 +1,13 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
-# Campo de plantilla de seguimiento para Yahoo! Entidades publicitarias de Japón
+# Campo de plantilla de seguimiento para [!DNL LY Ads] entidades
 
-<!-- Search CRUD and bulk edit of Yahoo! Japan Ads entity settings -->
+<!-- Search CRUD and bulk edit of LY Ads entity settings -->
 
 **[!UICONTROL Tracking Template]:** (opcional): la plantilla de seguimiento o la dirección URL de seguimiento, que especifica todas las redirecciones de dominios de aterrizaje externo y los parámetros de seguimiento, y que también incrusta la dirección URL final de la página de aterrizaje/destino en un parámetro. Utilice el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje. Ejemplo: `{lpurl}?source={network}&id=5` o `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` para incluir una redirección.
 

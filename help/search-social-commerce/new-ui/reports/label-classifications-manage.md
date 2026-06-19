@@ -2,9 +2,9 @@
 title: Administrar clasificaciones de etiquetas
 description: Obtenga información acerca del uso de clasificaciones de etiquetas para agrupar los componentes de la cuenta.
 feature: Search Label Classifications
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1514'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ La vista [!UICONTROL Reports] > [!UICONTROL Labels Classifications] incluye [!UI
 
 1. Escriba un nombre de clasificación de etiqueta único y haga clic en **[!UICONTROL Create]**.
 
-   El nombre debe ser único para la cuenta del anunciante y constar de [caracteres ASCII 32-126](https://www.asciitable.com/), y la longitud máxima es de 27 caracteres de un solo byte. El nombre no puede ser idéntico al nombre de una columna de informe existente o de una columna de hoja de edición masiva existente. Vea los nombres de las columnas de hojas de edición masiva de [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Anuncios de Japón](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Mostrar red](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) y [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   El nombre debe ser único para la cuenta del anunciante y constar de [caracteres ASCII 32-126](https://www.asciitable.com/), y la longitud máxima es de 27 caracteres de un solo byte. El nombre no puede ser idéntico al nombre de una columna de informe existente o de una columna de hoja de edición masiva existente. Vea los nombres de las columnas de hojas de edición masiva de [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Mostrar red](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) y [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 ## Asignar valores de clasificación a componentes de cuenta desde las vistas de administración de campañas {#classification-values-assign-campaign-management}
 

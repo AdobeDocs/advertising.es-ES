@@ -4,13 +4,10 @@ description: Obtenga información sobre cómo configurar las opciones que contro
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
 ht-degree: 0%
@@ -19,7 +16,7 @@ ht-degree: 0%
 
 # Administrar archivos de fuente de datos de inventario
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 Si envía sus propios datos de fuente, debe cargar archivos que contengan los datos del producto para crear dinámicamente la estructura de la campaña, los anuncios y las palabras clave, en función de los datos del producto. A continuación, puede asociarlos con plantillas de publicidad específicas de la red de publicidad y procesar los datos a través de las plantillas para, finalmente, publicar los datos en las redes de publicidad relevantes. Puede asociar varias plantillas a un archivo de fuente, pero cada plantilla solo puede asociarse a un archivo de fuente.
 

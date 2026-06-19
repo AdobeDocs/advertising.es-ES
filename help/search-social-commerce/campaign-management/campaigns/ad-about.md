@@ -4,22 +4,19 @@ description: Obtenga información acerca de los anuncios en Search, Social y Com
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 883
+source-wordcount: 918
 ht-degree: 0%
 
 ---
 
 # Acerca de los anuncios
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] y solo [!DNL Baidu] cuentas existentes*
+*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] y solo [!DNL Baidu] cuentas existentes*
 
 Un anuncio se puede mostrar en un sitio web de destino (para contenido o campañas con objetivo de ubicación); cuando un usuario busca una de las palabras clave en el grupo de anuncios (para campañas de búsqueda) o contenido en el sitio web (anuncios dinámicos de búsqueda en [!DNL Google Ads] campañas de solo búsqueda); o cuando un usuario realiza una búsqueda relevante para uno de los elementos de la fuente de productos [!DNL Google Merchant Center] o [!DNL Microsoft Merchant Center] (anuncios de compra en [!DNL Google Ads] o anuncios de productos en [!DNL Microsoft Advertising] campañas).
 

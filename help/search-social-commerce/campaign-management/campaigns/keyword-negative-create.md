@@ -4,20 +4,18 @@ description: Aprenda a crear palabras clave negativas para campañas de búsqued
 exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/NjLsCcI2-1kWIAfZOv4-IJytuPKUfQWO0OG7ptEDe9w
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 272
+source-wordcount: 279
 ht-degree: 0%
 
 ---
 
 # Creación de palabras clave negativas
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] y solo [!DNL Baidu] cuentas existentes*
+*[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] y solo [!DNL Baidu] cuentas existentes*
 
 Puede crear palabras clave negativas para un grupo de anuncios de búsqueda o una campaña que esté dirigido a la red de búsqueda, de visualización o nativa. Las palabras clave negativas no déclencheur los anuncios.
 
@@ -43,7 +41,7 @@ Puede crear palabras clave negativas para un grupo de anuncios de búsqueda o un
 
    Separe varios valores con comas o introdúzcalos en líneas independientes. Puede escribir o pegar hasta 2000 palabras clave negativas en una operación. Consulte también los siguientes requisitos y restricciones:
 
-   * Longitudes máximas de caracteres: [!DNL Baidu]: 30 bytes simples o 15 bytes dobles; [!DNL Microsoft Advertising]: 100 bytes simples o 50 bytes dobles; [!DNL Google Ads] y [!DNL Yahoo! Japan Ads]: 80 bytes simples o 40 bytes dobles.
+   * Longitudes máximas de caracteres: [!DNL Baidu]: 30 bytes simples o 15 bytes dobles; [!DNL Microsoft Advertising]: 100 bytes simples o 50 bytes dobles; [!DNL Google Ads] y [!DNL LY Ads]: 80 bytes simples o 40 bytes dobles.
 
    * [!DNL Baidu] solo permite un tipo de coincidencia por palabra clave y grupo de anuncios. Por ejemplo, el grupo de anuncios 1 no puede incluir `"keyword"` y `[keyword]`.
 

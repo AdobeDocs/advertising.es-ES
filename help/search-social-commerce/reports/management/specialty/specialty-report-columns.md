@@ -4,17 +4,12 @@ description: Obtenga información sobre las columnas de datos disponibles para l
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
 TQID: https://experienceleague.adobe.com/RI7bIXkj-J3Zf9-0cQozmrvRKZhTTDcbICnJCV22IxM
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 3140
+source-wordcount: 3173
 ht-degree: 0%
 
 ---
@@ -65,7 +60,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | El estado de la audiencia. |
 | [!UICONTROL Average CPC] | El coste promedio por clic. |
 | [!UICONTROL Average CPM] | El costo promedio por cada mil impresiones. |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Posición promedio de los anuncios durante el intervalo de fechas especificado.<br><br>Estos datos solo están disponibles hasta septiembre de 2019 para las campañas [!DNL Google Ads] y [!DNL Yahoo! Japan Ads]. Para [!DNL Microsoft Advertising], estos datos solo están disponibles hasta el 22 de enero de 2021. |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Posición promedio de los anuncios durante el intervalo de fechas especificado.<br><br>Estos datos solo están disponibles hasta septiembre de 2019 para las campañas [!DNL Google Ads] y [!DNL LY Ads]. Para [!DNL Microsoft Advertising], estos datos solo están disponibles hasta el 22 de enero de 2021. |
 | [!UICONTROL Bid Match Type] | ([!UICONTROL MSA Ad Extension] informes) El tipo de coincidencia asociado con la palabra clave por la que se hizo una oferta. |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report]) El presupuesto de la campaña. |
 | [!UICONTROL Campaign Name] | La campaña. |
@@ -98,7 +93,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | La URL final o la URL de destino (incluidos los parámetros de seguimiento) del anuncio. |
 | [!UICONTROL Creative Display URL] | La dirección URL de visualización del anuncio, que es lo que ven los usuarios finales en el anuncio. |
 | [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension] informes) El estado del anuncio. |
-| [!UICONTROL Creative Name] | (Informe de transacción; solo [!DNL Yahoo! Japan]) El nombre de la imagen del anuncio. |
+| [!UICONTROL Creative Name] | (Informe de transacción; solo [!DNL LY Ads]) El nombre de la imagen del anuncio. |
 | [!UICONTROL Creative Title] | El título o el titular del anuncio. |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Conversiones que se producen cuando un usuario hace clic en Agregar en un dispositivo y luego convierte en un dispositivo o explorador diferente. Las conversiones entre dispositivos se incluyen en Todas las conversiones. |
 | [!UICONTROL CTR] | La tasa de clics, que es el número de clics dividido por el número de impresiones de los anuncios incluidos. |
@@ -110,7 +105,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | El CPM efectivo o el coste medio pagado por 1000 impresiones durante un intervalo de fechas especificado. Los valores de eCPM se calculan para campañas CPM o CPC. |
 | [!UICONTROL EF Campaign ID] | El ID numérico que Search, Social y Commerce asignan a la campaña. |
 | [!UICONTROL EF Portfolio Group ID] | El ID numérico del grupo de portafolios al que pertenece el portafolio. |
-| [!UICONTROL EF Search Engine ID] | El identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | El identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL End Date] | Se informó del último día. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] informes) El [nombre para mostrar de la extensión](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] informes) El ID para el tipo de extensión de anuncio. |
@@ -128,7 +123,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Lost To Rank Percent] | Porcentaje de tiempo que sus anuncios no se mostraron debido a una clasificación de anuncio deficiente. |
 | [!UICONTROL Impression Share Percent] | Las impresiones que ha recibido dividen el número estimado de impresiones que tenía derecho a recibir. |
 | [!UICONTROL Impressions] | El número de impresiones de publicidad durante el intervalo de fechas especificado. |
-| [!UICONTROL Keyword] | La palabra clave.<br><br><b>Nota:</b> Si el informe incluye datos de grupos de anuncios en campañas de búsqueda con contenido habilitado, esta columna incluirá los nombres de grupos de anuncios aplicables, como &quot;(contenido de grupos de anuncios) Su nombre de grupo de anuncios&quot;. Para una ubicación de destino de sitio en una campaña de búsqueda, esta columna no tiene ningún valor. |
+| [!UICONTROL Keyword] | La palabra clave.<br><br><b>Nota:</b> Si el informe incluye datos de grupos de anuncios en campañas de búsqueda con contenido habilitado, esta columna incluirá los nombres de grupos de anuncios aplicables, como &quot;(contenido de grupos de anuncios) su nombre de grupo de anuncios&quot;. Para una ubicación de destino de sitio en una campaña de búsqueda, esta columna no tiene ningún valor. |
 | [!UICONTROL Keyword ID] | Identificador exclusivo que identifica una palabra clave existente. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Identificador numérico que la red de anuncios asigna a la extensión de anuncio. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Atributo de versión de la extensión de anuncio. |

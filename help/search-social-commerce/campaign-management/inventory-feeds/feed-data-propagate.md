@@ -4,20 +4,18 @@ description: Obtenga información acerca de la propagación de datos desde las f
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/2MCDHOgRqhAgwKuT-drdVZCHZJhSYxX3F3wLAVnpXT0
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 881
 ht-degree: 0%
 
 ---
 
 # Propagación de datos de fuentes de inventario mediante plantillas
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (solo acciones de eliminación) y [!DNL Yandex] cuentas solamente*
+*[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
 
 Después de crear una plantilla de fuente específica de la red de anuncios y asociarle un archivo de fuente o una cuenta de [!DNL Google] o [!DNL Microsoft] del centro de comerciantes, puede crear anuncios de forma dinámica propagando los datos de fuente a través de la plantilla según la [configuración de datos de fuente](feed-settings-manage.md). Durante la propagación, los nombres de columna de la plantilla se sustituyen por valores de datos en la fuente y las campañas generadas y sus componentes tienen la configuración predeterminada a menos que la plantilla especifique lo contrario. Según las opciones de plantilla, Buscar, Social y Commerce crean una nueva estructura de cuenta (campañas, grupos de anuncios y palabras clave) para los anuncios o asignan los anuncios a la estructura de cuenta existente.
 

@@ -2,9 +2,9 @@
 title: Columnas de informes para informes de especialidades
 description: Obtenga información sobre las columnas de datos disponibles para los informes de especialidades.
 feature: Search Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3172'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Status] | El estado de la audiencia. |
 | [!UICONTROL Average CPC] | El coste promedio por clic. |
 | [!UICONTROL Average CPM] | El costo promedio por cada mil impresiones. |
-| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Posición promedio de los anuncios durante el intervalo de fechas especificado.<br><br>Estos datos solo están disponibles hasta septiembre de 2019 para las campañas [!DNL Google Ads] y [!DNL Yahoo! Japan Ads]. Para [!DNL Microsoft Advertising], estos datos solo están disponibles hasta el 22 de enero de 2021. |
+| [!UICONTROL Average Position], [!UICONTROL Avg Position] | Posición promedio de los anuncios durante el intervalo de fechas especificado.<br><br>Estos datos solo están disponibles hasta septiembre de 2019 para las campañas [!DNL Google Ads] y [!DNL LY Ads]. Para [!DNL Microsoft Advertising], estos datos solo están disponibles hasta el 22 de enero de 2021. |
 | [!UICONTROL Bid Match Type] | ([!UICONTROL MSA Ad Extension] informes) El tipo de coincidencia asociado con la palabra clave por la que se hizo una oferta. |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report]) El presupuesto de la campaña. |
 | [!UICONTROL Campaign Name] | La campaña. |
@@ -88,7 +88,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Destination URL] | La URL final o la URL de destino (incluidos los parámetros de seguimiento) del anuncio. |
 | [!UICONTROL Creative Display URL] | La dirección URL de visualización del anuncio, que es lo que ven los usuarios finales en el anuncio. |
 | [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension] informes) El estado del anuncio. |
-| [!UICONTROL Creative Name] | (Informe de transacción; solo [!DNL Yahoo! Japan]) El nombre de la imagen del anuncio. |
+| [!UICONTROL Creative Name] | (Informe de transacción; solo [!DNL LY Ads]) El nombre de la imagen del anuncio. |
 | [!UICONTROL Creative Title] | El título o el titular del anuncio. |
 | [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Conversiones que se producen cuando un usuario hace clic en Agregar en un dispositivo y luego convierte en un dispositivo o explorador diferente. Las conversiones entre dispositivos se incluyen en Todas las conversiones. |
 | [!UICONTROL CTR] | La tasa de clics, que es el número de clics dividido por el número de impresiones de los anuncios incluidos. |
@@ -100,7 +100,7 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | El CPM efectivo o el coste medio pagado por 1000 impresiones durante un intervalo de fechas especificado. Los valores de eCPM se calculan para campañas CPM o CPC. |
 | [!UICONTROL EF Campaign ID] | El ID numérico que Search, Social y Commerce asignan a la campaña. |
 | [!UICONTROL EF Portfolio Group ID] | El ID numérico del grupo de portafolios al que pertenece el portafolio. |
-| [!UICONTROL EF Search Engine ID] | El identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | El identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL End Date] | Se informó del último día. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] informes) El [nombre para mostrar de la extensión](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] informes) El ID para el tipo de extensión de anuncio. |

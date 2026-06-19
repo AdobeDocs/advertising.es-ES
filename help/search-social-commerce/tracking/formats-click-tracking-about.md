@@ -4,13 +4,11 @@ description: Obtenga información acerca de los formatos de seguimiento de clics
 exl-id: b6f225d5-2268-4b2a-9927-063155ba0dc5
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/pVSEKmf45CqsfXMbj8HGDltdgV3wUV2UsAzP94vkijg
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
-source-wordcount: 263
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -33,7 +31,7 @@ donde:
 
    * `c?` o `r` indica que se ha deshabilitado la transferencia de tokens.
 
-* `<ad network ID>` es una variable para el identificador numérico de la red de anuncios especificada, como *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo! Display Network], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL Yahoo! Japan Ads], *105* para [!DNL Yahoo Native] (obsoleto) o *106* para [!DNL Pinterest] (obsoleto).
+* `<ad network ID>` es una variable para el identificador numérico de la red de anuncios especificada, como *3* para [!DNL Google Ads], *10* para [!DNL Microsoft Advertising], *45* para [!DNL Meta], *86* para [!DNL Yahoo! Display Network], *87* para [!DNL Naver], *88* para [!DNL Baidu], *90* para [!DNL Yandex], *94* para [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), *105* para [!DNL Yahoo Native] (obsoleto) o *106* para [!DNL Pinterest] (obsoleto).
 
 * `<tracking ID>` es una variable para una cadena de ID de seguimiento generada por el sistema que identifica una palabra clave, un anuncio o una ubicación que es única en la cuenta. La cadena varía según la red publicitaria.
 
@@ -45,8 +43,8 @@ Ver las páginas separadas que indican los [[!DNL Baidu] formatos](formats-click
 >
 >* [Formatos de rastreo de clics para anuncios patrocinados en [!DNL Baidu]](formats-click-tracking-baidu.md)
 >* [Formatos de rastreo de clics para [!DNL Google Ads]](formats-click-tracking-google.md)
+>* [Formatos de rastreo de clics para anuncios patrocinados en [!DNL LY Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Formatos de rastreo de clics para [!DNL Microsoft Advertising]](formats-click-tracking-microsoft.md)
 >* [Formatos de rastreo de clics para anuncios patrocinados en [!DNL Naver]](formats-click-tracking-naver.md)
->* [Formatos de rastreo de clics para anuncios patrocinados en [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Formatos de rastreo de clics para anuncios patrocinados en [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [Formatos de rastreo de clics para anuncios patrocinados en [!DNL Yandex]](formats-click-tracking-yandex.md)
