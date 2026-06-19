@@ -4,11 +4,9 @@ description: Obtenga información acerca de los parámetros opcionales de seguim
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
 TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 1113
 ht-degree: 0%
@@ -52,7 +50,7 @@ Todos los parámetros siguientes deben especificarse como un par clave-valor; pu
 | <code>{custom_code}</code> | Para insertar datos de la columna &quot;Parámetro de URL personalizado&quot; en un archivo de hoja de edición masiva cargado en la dirección URL de seguimiento. {custom_code} solo se puede usar al final del valor de uno o más pares clave-valor en la dirección URL de seguimiento. Ejemplos: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Nota:</b> Para insertar el valor personalizado del archivo de hoja de edición masiva en la dirección URL de seguimiento, cargue el archivo de hoja de edición masiva mediante la opción &quot;Generar direcciones URL de seguimiento&quot;. Para obtener más información acerca del uso de archivos de hojas de edición masiva, consulte &quot;[Acerca de la administración de datos de campaña mediante hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)&quot;. |
 | <code>{ef_uniqueid}</code> | Para insertar el ID único creado por Adobe Advertising. Se agrega automáticamente cuando el método de seguimiento es &quot;Redireccionamiento de EF&quot;. |
 | <code>{ef_userid}</code> | Para insertar el ID de usuario único que Adobe Advertising asigna al anunciante. |
-| <code>{ef_sid}</code> | Para insertar el identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
+| <code>{ef_sid}</code> | Para insertar el identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | <code>{ef_searchengine}</code> | Para insertar el nombre de red del anuncio. |
 | <code>{ef_campaign}</code> | Para insertar el nombre de la campaña. |
 | <code>{ef_campaignid}</code> | Para insertar el ID de campaña. <b>Nota:</b> El identificador de una nueva campaña no se creará hasta que la campaña se publique en la red publicitaria. Si la cuenta usa las opciones &quot;[!UICONTROL EF Redirect]&quot; y &quot;Autocarga&quot;, Adobe Advertising inserta automáticamente el ID de campaña en las direcciones URL de destino relevantes o en las direcciones URL finales al día siguiente. Si la cuenta no utiliza las opciones &quot;[!UICONTROL EF Redirect]&quot; y [!UICONTROL Auto Upload]&quot; y desea insertar el ID de campaña en las direcciones URL de destino o en las direcciones URL finales relevantes, debe crear la campaña, descargar un archivo de hoja de edición por lotes para la nueva campaña, utilizando la opción para &quot;Generar direcciones URL de seguimiento&quot; y, a continuación, publicar el archivo en la red de publicidad. |

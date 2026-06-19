@@ -2,16 +2,11 @@
 title: (Nueva IU) Descargar o crear un archivo de hoja de edición por lotes
 description: Aprenda a crear archivos de hojas de edición masiva descargando datos de cuenta para las redes de anuncios en la nueva IU de Search, Social y Commerce.
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 1637
 ht-degree: 0%
@@ -129,7 +124,7 @@ Criterios para campañas, grupos de anuncios, anuncios/creativos, palabras clave
 
 ## Filas de hojas de edición masiva por red de anuncios {#bulksheet-rows-by-ad-network}
 
-| Fila de hoja masiva | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo! Display Network] | [!DNL Yahoo Native] | [!DNL Yandex] | Notas |
+| Fila de hoja masiva | [!DNL Baidu] | [!DNL Google Ads] | [!DNL LY Ads] | [!DNL Microsoft Advertising] | [!DNL Naver] | [!DNL Pinterest] | [!DNL Yahoo DSP] | [!DNL Yahoo Native] | [!DNL Yandex] | Notas |
 |----|----|----|----|-------|----|----|----|----|----|----|
 | [!UICONTROL Campaign] | Sí | Sí | Sí | Sí | Sí | Sí | Sí | Sí | Sí | — |
 | [!UICONTROL Adgroup] | Sí | Sí | Sí | Sí | Sí | Sí | Sí | Sí | Sí | — |
@@ -163,7 +158,7 @@ Para obtener más información sobre las columnas necesarias y opcionales para c
 * [Datos de hoja de edición masiva opcionales y requeridos para  [!DNL LY Ads] cuentas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
 * [Datos de hoja de edición masiva opcionales y requeridos para  [!DNL Microsoft Advertising] cuentas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
 * [Datos de hoja de edición masiva opcionales y requeridos para  [!DNL Naver] cuentas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-* [Datos de hoja de edición masiva opcionales y requeridos para  [!DNL Yahoo! Display Network] cuentas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+* [Datos de hoja de edición masiva opcionales y requeridos para  [!DNL Yahoo DSP] cuentas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
 * [Datos de hoja de edición masiva opcionales y requeridos para  [!DNL Yandex] cuentas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
 
 >[!MORELIKETHIS]

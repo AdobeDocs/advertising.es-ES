@@ -1,27 +1,25 @@
 ---
-title: Datos de hoja de edición masiva para  [!DNL Yahoo! Display Network] cuentas
-description: Haga referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para  [!DNL Yahoo! Display Network] cuentas.
+title: Datos de hoja de edición masiva para  [!DNL Yahoo DSP] cuentas
+description: Haga referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para  [!DNL Yahoo DSP] cuentas.
 exl-id: 8d938009-6edc-4420-8863-21ed241616f8
 feature: Search Bulksheets
 TQID: https://experienceleague.adobe.com/cqFcEzgFtjpBzPZEUYNnXjZSb-yRDytPCQm4hqX0R9w
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 522
+source-wordcount: 525
 ht-degree: 0%
 
 ---
 
-# Apéndice: Datos de hojas de edición masiva para cuentas de [!DNL Yahoo! Display Network]
+# Apéndice: Datos de hojas de edición masiva para cuentas de [!DNL Yahoo DSP]
 
 <!-- 
 [Re-add "Required" to title, file name, and TOC if you add the ability to create/edit campaigns using YDN bulksheets. Then will also need to add more text below, like for the other SEs.]
 -->
 
-Puede descargar datos de cuentas de [!DNL Yahoo! Display Network] de forma masiva, pero no puede cargar ni publicar hojas de edición masiva en la red publicitaria.
+Puede descargar datos de cuentas de [!DNL Yahoo DSP] (anteriormente [!DNL Yahoo! Display Network]) de forma masiva, pero no puede cargar ni publicar hojas de edición masiva en la red de anuncios.
 
 ## Campos de datos disponibles
 
