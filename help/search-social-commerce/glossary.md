@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 2342
+source-wordcount: 2377
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * Para las campañas con las estrategias de gasto [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition] o [!DNL Target Return on Ad Spend], cada campaña es una unidad de oferta.
 
-* Para las campañas de [!DNL Yahoo! Display Network] que no usan palabras clave, todos los anuncios de un grupo de anuncios tienen la misma oferta y se consideran la misma unidad de oferta.
+* Para las campañas de [!DNL Yahoo DSP] que no usan palabras clave, todos los anuncios de un grupo de anuncios tienen la misma oferta y se consideran la misma unidad de oferta.
 
 **restricción de unidad de oferta:** Consulte &quot;restricción&quot;.
 

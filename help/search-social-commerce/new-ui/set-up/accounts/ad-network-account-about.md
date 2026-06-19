@@ -3,9 +3,9 @@ title: (Nueva IU) Acerca de las cuentas de red de publicidad
 description: Obtenga información acerca de las cuentas de red de anuncios en la nueva IU de Search, Social y Commerce.
 feature: Search Campaign Management
 exl-id: 62c69582-6b95-4ae3-b027-d1efc3deb39e
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Search, Social y Commerce pueden realizar el seguimiento de cualquiera de las cu
 
 ## Cuentas sincronizadas mediante API
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising] (anteriormente [!DNL Bing Ads]), [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), [!DNL Yahoo! Display Network], [!DNL Yandex] y [!DNL Baidu] cuentas existentes*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL LY Ads], [!DNL Yahoo DSP], [!DNL Yandex] y [!DNL Baidu] cuentas existentes*
 
-Search, Social y Commerce se sincronizan (*se sincroniza*) con las cuentas de red de anuncios admitidas para que puedas rastrear tus anuncios, informar sobre ellos y visualizar su rendimiento. Para todas las redes de anuncios excepto [!DNL Yahoo! Display Network], si lo desea, puede administrar las campañas de su cuenta en Buscar, Social y Commerce; [!DNL Yahoo! Display Network], las campañas son de solo lectura. Para todas las redes de anuncios, puede permitir que la capacidad de optimización optimice las ofertas, los presupuestos de campaña y los objetivos de estrategia de oferta de campaña para las campañas en cuentas administradas, agregando las campañas a los portafolios.
+Search, Social y Commerce se sincronizan (*se sincroniza*) con las cuentas de red de anuncios admitidas para que puedas rastrear tus anuncios, informar sobre ellos y visualizar su rendimiento. Para todas las redes de anuncios excepto [!DNL Yahoo DSP], si lo desea, puede administrar las campañas de su cuenta en Buscar, Social y Commerce. [!DNL Yahoo DSP] campañas son de solo lectura. Para todas las redes de anuncios, puede permitir que la capacidad de optimización optimice las ofertas, los presupuestos de campaña y los objetivos de estrategia de oferta de campaña para las campañas en cuentas administradas, agregando las campañas a los portafolios.
 
 Para habilitar la sincronización de una cuenta, el registro de cuenta debe contener las credenciales de acceso de la cuenta y estar habilitado (activo).
 

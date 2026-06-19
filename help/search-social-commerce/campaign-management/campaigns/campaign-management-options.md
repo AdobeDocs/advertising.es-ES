@@ -8,7 +8,7 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 299
 ht-degree: 0%
@@ -24,7 +24,7 @@ para una cuenta de red de publicidad mediante cualquiera de los métodos siguien
 
 * Opción 2: cargar [archivos de hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) que contengan tantos datos como desee para una cuenta de [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Bulksheets]. Para las cuentas de [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Naver], [!DNL Yandex] y [!DNL Baidu] existentes, puede publicar los datos en la red publicitaria. Para [!DNL Naver], puedes cargar los datos para usarlos en Search, Social y Commerce, pero no puedes publicarlos en la red publicitaria.
 
-  Si lo desea, puede descargar, pero no cargar ni publicar, archivos de hojas de edición masiva con datos para las cuentas existentes de [!DNL Pinterest], [!DNL Yahoo Native] y [!DNL Yahoo! Display Network].
+  Si lo desea, puede descargar, pero no cargar ni publicar, archivos de hojas de edición masiva con datos para las cuentas existentes de [!DNL Pinterest], [!DNL Yahoo DSP] y [!DNL Yahoo Native].
 
 * Opción 3: configura un proceso automatizado para [crear estructura de cuenta y anuncios dinámicos y palabras clave dirigidos a cada elemento del inventario](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) según una plantilla de anuncio específica de la red de anuncios que crees desde [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL &#x200B; Advanced (ACM)]. Cree plantillas basadas en el contenido de los archivos de datos de inventario que carga manualmente o en una ubicación FTP, o en el contenido de una cuenta de [!DNL Google Merchant Center] o [!DNL Microsoft Merchant Center]. Puede configurar los datos para que se publiquen automáticamente en cuanto se creen o que se publiquen manualmente en las redes de anuncios después de revisarlos. Esta opción está disponible para las cuentas de [!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] y [!DNL Yandex].
 

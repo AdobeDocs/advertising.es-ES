@@ -11,9 +11,9 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 772
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Todas las hojas de edición masiva, los archivos de error de validación de pág
 
   Puede cargar [!DNL Naver] datos para usarlos en Search, Social y Commerce, pero no puede publicarlos en la red de anuncios. También puede descargar los datos existentes (sin sincronizar).
 
-* **Descargar solo datos:** cuentas de [!DNL Pinterest], [!DNL Yahoo Native] y [!DNL Yahoo! Display Network]
+* **Descargar solo datos:** [!DNL Pinterest], [!DNL Yahoo DSP], [!DNL Yahoo Native] cuentas
 
   Puede descargar los datos existentes (no sincronizados).
 

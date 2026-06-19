@@ -13,7 +13,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
 workflow-type: tm+mt
 source-wordcount: 2136
 ht-degree: 0%
@@ -194,7 +194,7 @@ Las cuentas que usan el rastreo de clics de Adobe Advertising deben incluir el i
 >* La configuración de seguimiento [!UICONTROL Auto Upload] no actualiza este campo.
 >* Los sufijos finales de URL en los niveles inferiores anulan el sufijo de nivel de cuenta. Para facilitar el mantenimiento, utilice únicamente el sufijo de nivel de cuenta a menos que sea necesario realizar un seguimiento diferente para los componentes de cuenta individuales. Para configurar un sufijo en el nivel de grupo de anuncios o inferior, utilice el editor de la red de anuncios.
 
-**Zona horaria:** (todas las redes de anuncios excepto [!DNL Baidu] y [!DNL Yahoo! Display Network]) Zona horaria del anunciante. Este campo es editable y opcional para las nuevas cuentas de [!DNL Naver]. Para todas las demás redes de búsqueda, el valor se rellena automáticamente con la zona horaria configurada para la cuenta de Search, Social y Commerce del anunciante una vez guardado el registro.
+**Zona horaria:** (todas las redes de anuncios excepto [!DNL Baidu] y [!DNL Yahoo DSP]) Zona horaria del anunciante. Este campo es editable y opcional para las nuevas cuentas de [!DNL Naver]. Para todas las demás redes de búsqueda, el valor se rellena automáticamente con la zona horaria configurada para la cuenta de Search, Social y Commerce del anunciante una vez guardado el registro.
 
 **Estado:** El estado de la cuenta en Search, Social y Commerce:
 
