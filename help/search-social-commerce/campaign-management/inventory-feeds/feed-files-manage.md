@@ -4,9 +4,12 @@ description: Obtenga información sobre cómo configurar las opciones que contro
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
 TQID: https://experienceleague.adobe.com/xXcdqry6-ef6Hj0DykJ0pZI6YWFyyVd8vJD0IZLw7Jc
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
 source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
 workflow-type: tm+mt
 source-wordcount: 1249
