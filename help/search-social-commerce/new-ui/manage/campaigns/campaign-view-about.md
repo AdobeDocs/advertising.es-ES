@@ -39,7 +39,7 @@ A medida que agrega y edita datos de campaña en las vistas [!UICONTROL Campaign
 
 * Elimine o cambie el estado de una campaña desde la fila.
 
-* [Asignar campañas a portafolios nuevos o existentes](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), y [anular la asignación de campañas de portafolios](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Asignar campañas a portafolios nuevos o existentes](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio), y [anular la asignación de campañas de portafolios](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Asignar restricciones a campañas y anular la asignación de restricciones de campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -47,7 +47,7 @@ A medida que agrega y edita datos de campaña en las vistas [!UICONTROL Campaign
 
 >[!MORELIKETHIS]
 >
->* [Asignar campañas a un portafolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Quitar campañas de un portafolio](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Asignar campañas a un portafolio](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Quitar campañas de un portafolio](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Administrar asignaciones de restricción para campañas](campaign-constraint-assignments-manage.md)
 >* [Administrar informes de vista de datos desde la vista [!UICONTROL Campaigns]](campaign-view-report.md)
