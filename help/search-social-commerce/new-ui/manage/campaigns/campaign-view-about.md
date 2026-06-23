@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 245
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 0%
 *característica de Beta*
 
 La vista [!UICONTROL Manage] > [!UICONTROL Campaigns] enumera todas las campañas de la vista filtrada para la cuenta de anunciante seleccionada. Puede abrir una lista de grupos de publicidad en la campaña haciendo clic en el nombre de la campaña.
+
+A medida que agrega y edita datos de campaña en las vistas [!UICONTROL Campaigns], Search, Social y Commerce insertan inmediatamente los cambios de datos en la red publicitaria. Search, Social y Commerce también extrae datos de estructura de campañas y datos de clics cada hora de las cuentas sincronizadas de [!DNL Google Ads] y [!DNL Microsoft Advertising], y cada día de otras cuentas sincronizadas de red de anuncios, o con mayor frecuencia cuando se detectan nuevas campañas. Para todas las redes de anuncios sincronizadas, también puede sincronizar cuentas bajo demanda según sea necesario.
 
 ## Acciones disponibles
 
