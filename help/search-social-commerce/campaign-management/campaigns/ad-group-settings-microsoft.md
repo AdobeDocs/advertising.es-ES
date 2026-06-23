@@ -4,15 +4,12 @@ description: Hacer referencia a la configuración de  [!DNL Microsoft Advertisin
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/f-mac9RGzF4qVr7P65-9AuhWKf22tdND5XSJ1YvLWyc
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 651
+source-wordcount: 655
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Adgroup Details]
 
-**[!UICONTROL Ad Group Name]:** Un nombre de grupo de anuncios que es único dentro de la campaña. La longitud máxima es de 128 caracteres.
+**[!UICONTROL Ad Group Name]:** Un nombre de grupo de publicidad que es único dentro de la campaña. La longitud máxima es de 128 caracteres.
 
 **[!UICONTROL Status]:** El estado de visualización del grupo de anuncios: *Activo* o *En pausa*. El valor predeterminado para los nuevos grupos de anuncios es *Activo*.
 

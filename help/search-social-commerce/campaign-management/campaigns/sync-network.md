@@ -4,13 +4,11 @@ description: Obtenga información sobre cómo almacenar en déclencheur manualme
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/3X49sKMCu3P0X1CUUEpkmTXv4fdoeKk0sBAty5MBd8Y
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 391
 ht-degree: 0%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 0%
 
 La sincronización es el proceso mediante el cual Search, Social y Commerce recopilan información actualizada de las cuentas de red de anuncios conectadas de cada anunciante en [redes de anuncios admitidas](/help/search-social-commerce/introduction/supported-inventory.md). Estos datos incluyen la estructura de campañas y las entidades de campaña del anunciante, incluidos la mayoría de sus atributos que se administran o registran en Buscar, Social y Commerce. No incluye datos de clics, ni ofertas y modificadores de oferta introducidos fuera de Search, Social y Commerce, que se recopilan por separado.
 
-Search, Social y Commerce se sincronizan (sincronizan) automáticamente con sus cuentas de red de publicidad una vez al día, y también siempre que detecta una nueva campaña en una de las redes de publicidad. Además, envía inmediatamente a la red de anuncios todos los cambios realizados en los datos de campaña desde Search, Social y Commerce.
+Search, Social y Commerce se sincronizan (sincronizan) automáticamente con las cuentas de red de anuncios todos los días, y también siempre que detecta una nueva campaña en una de las redes de anuncios. Además, envía inmediatamente a la red de anuncios todos los cambios realizados en los datos de campaña desde Search, Social y Commerce.
 
 Puede solicitar manualmente la sincronización de todas las campañas activas y en pausa en cuentas especificadas o en campañas activas y en pausa específicas. Esta tarea recopila entidades nuevas o modificadas en la red publicitaria.
 
