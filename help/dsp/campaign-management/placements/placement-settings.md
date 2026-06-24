@@ -17,9 +17,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: 4518
+source-wordcount: 4532
 ht-degree: 0%
 
 ---
@@ -173,6 +173,9 @@ Para especificar ubicaciones:
       1. Seleccione el tipo de ubicación en la columna izquierda.
       1. (Según sea necesario) Haga clic en una ubicación para expandirla.
       1. Junto a la ubicación, haga clic en *[!UICONTROL Include]* para incluirlo como destino o en *[!UICONTROL Exclude]* para excluirlo como destino.
+   * Para incluir o excluir una [lista de códigos postales](/help/dsp/resources/lists-postal-codes-manage.md):
+      1. Haga clic en **[!UICONTROL Search Postal Code]**.
+      1. Junto al código postal, haga clic en *[!UICONTROL Include]* para incluirlo como destino o en *[!UICONTROL Exclude]* para excluirlo como destino.
    * Para buscar un código postal e incluir o excluir todos los resultados seleccionados:
       1. Haga clic en **[!UICONTROL Search Postal Code]**.
       1. Seleccione el país.

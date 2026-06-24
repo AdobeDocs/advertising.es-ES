@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: a7e9facc297e36e4e05b6f7fbc1ca02efa0b2043
+source-git-commit: fa6509d393630a3f8600b8f9bb6cba99b54ebc1c
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1065'
 ht-degree: 3%
 
 ---
@@ -221,6 +221,7 @@ ht-degree: 3%
    + [Archivar un plan de alcance de TV conectado](/help/dsp/planner/planner-archive.md)
 + Recursos {#resources}
    + [Administración de listas de URL](/help/dsp/resources/lists-url-manage.md)
+   + [Administrar listas de códigos postales](/help/dsp/resources/lists-postal-codes-manage.md)
 + Configuración/administración {#admin}
    + [Editar el perfil de usuario](/help/dsp/admin/user-own-profile-edit.md)
    + Usuarios {#users}
