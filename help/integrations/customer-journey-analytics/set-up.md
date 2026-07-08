@@ -16,10 +16,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a93c33ee47bd1a8df137a69598b367e985def4ee
+source-git-commit: 740192c3f000576e02c7dfaffbbbc593ad1b681d
 workflow-type: tm+mt
-source-wordcount: 1802
-ht-degree: 0%
+source-wordcount: 2095
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 0%
 *Anunciantes con Advertising DSP y[!DNL Advertising Search, Social, & Commerce]*
 
 *Solo anunciantes sin [!DNL Analytics for Advertising]*
+
+<!-- may need to remove references to Experience Platform if it's not really required, just Data Collection? In that case, I may need to change all of the links accordingly.... -->
 
 Se requieren las siguientes tareas para intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es). La transferencia y la atribución de datos comienzan después del lanzamiento; no se incluyen datos históricos.
 
@@ -47,11 +49,13 @@ Las secciones siguientes incluyen los procedimientos detallados, que incluyen la
 
 Se requieren las siguientes tareas para configurar la recopilación de datos en Experience Platform e implementar las etiquetas de seguimiento de conversión. El administrador del sitio de su organización para Experience Platform puede realizar estas tareas, pero es posible que el departamento de TI de su organización necesite ayudar a implementar las etiquetas de seguimiento.
 
-### Recopilación y envío de datos de Adobe Advertising a Experience Platform Edge Network como conjunto de datos
+### Recopilación y envío de datos de Adobe Advertising a Experience Platform Edge Network como conjunto de datos {#dataset-datastream}
 
 Este procedimiento incluye la creación de un esquema. Si lo desea, puede editar un esquema existente en su lugar; en ese caso, no es necesario crear un conjunto de datos o una secuencia de datos.
 
-1. En Experience Platform, [defina un esquema manual](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/ui/resources/schemas) para los datos que desea recopilar mediante el Experience Data Model (XDM).
+1. En la interfaz de recopilación de datos, [defina un esquema](https://experienceleague.adobe.com/es/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) para los datos del sitio web que desee recopilar mediante el modelo de datos de experiencia (XDM).
+
+   Si ya tiene un esquema para los datos del sitio web, puede utilizarlo en su lugar con la siguiente configuración.
 
    * En [!UICONTROL Schema Details], seleccione **[!UICONTROL Experience Event]** como clase base para que el esquema capture eventos de sitio. Asigne un nombre al esquema y haga clic en **[!UICONTROL Finish]**.
 
@@ -73,7 +77,7 @@ Este procedimiento incluye la creación de un esquema. Si lo desea, puede editar
 
 1. [Cree una secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) para especificar dónde enviar datos desde su sitio web o aplicación y cómo manejar los datos entrantes.
 
-   * Para la configuración [!UICONTROL Mapping schema], seleccione su esquema.
+   * Para la configuración [!UICONTROL Mapping schema], seleccione el esquema que creó en el paso 1.
 
    * Agregue y habilite los servicios `Adobe Advertising` y `Adobe Experience Platform` a la secuencia de datos.
 
@@ -83,7 +87,7 @@ Este procedimiento incluye la creación de un esquema. Si lo desea, puede editar
 
      Cada conjunto de datos puede insertar datos en un único conjunto de datos.
 
-### Envíe los datos del sitio web de su organización a su conjunto de datos de Experience Platform
+### Envíe los datos del sitio web de su organización a su <!-- ?? -->secuencia de datos de Experience Platform {#tags-websdk}
 
 Utilice la extensión Adobe Experience Platform Web SDK en Adobe Tags para enviar los datos del sitio web de su organización a su flujo de datos de Experience Platform.
 
@@ -117,6 +121,8 @@ Utilice la extensión Adobe Experience Platform Web SDK en Adobe Tags para envia
 
            Si los anunciantes no aparecen en la lista, introduzca el ID de anunciante de cada anunciante. Si es necesario, pida los ID a su equipo de cuenta de Adobe.
 
+           Si introduce algún ID incorrecto, se notifica al equipo de la cuenta de Adobe.
+
            Ejemplo de ruta de acceso de JavaScript [!DNL RampID]: `https://launchpad-wrapper.privacymanager.io/<customer-specific-id>/launchpad-liveramp.js`
 
          * Guarde la compilación.
@@ -127,11 +133,21 @@ Utilice la extensión Adobe Experience Platform Web SDK en Adobe Tags para envia
 
    * Cree [elementos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/data-elements) según sea necesario para asignar variables en su sitio web a la estructura del esquema XDM que creó anteriormente.
 
-1. [Publique la etiqueta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow) en un entorno de prueba en el que pueda iterar en el desarrollo de etiquetas.
+1. Pida al administrador de Adobe Experience Platform que [publique la etiqueta](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow) en un entorno de prueba en el que pueda iterar en el desarrollo de etiquetas.
 
-1. [Compruebe la actividad de cada uno de sus tres conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#view-datasets) para validar el envío.
+### Validar entrega de datos
 
-1. [Publique la etiqueta en su entorno de producción activo](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow).
+1. Solicite a su equipo de cuenta de Adobe que valide el seguimiento en su sitio web.
+
+   ![Ejemplo de validación de carga útil de seguimiento de pulsaciones](/help/integrations/assets/cja-example-click-through-validation.png "Ejemplo de validación de carga útil de seguimiento de pulsaciones")
+
+   ![Ejemplo de validación de carga útil de seguimiento de visualización](/help/integrations/assets/cja-example-view-through-validation.png "Ejemplo de validación de carga útil de seguimiento de visualización")
+
+1. Valide la entrega de datos al [comprobar la actividad de cada uno de los tres conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/user-guide#view-datasets) (el conjunto de datos de evento del sitio web, el conjunto de datos de clasificación de Adobe Advertising y el conjunto de datos de métricas de resumen de Adobe Advertising).
+
+   Debería ver la actividad del conjunto de datos para la ingesta diaria por lotes. Si el conjunto de datos de evento no muestra ningún registro después de 24 horas, vuelve a comprobar tu [secuencia de datos](#dataset-datastream) y tu [configuración de extensión de Web SDK en Adobe Tags](#tags-websdk).
+
+1. Pida al administrador de Adobe Experience Platform que [publique la etiqueta en su entorno de producción activo](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow).
 
    Es posible que el departamento de TI de su organización u otro grupo tenga que programar la implementación de etiquetas o recibir información al respecto.
 
@@ -145,7 +161,7 @@ También puede editar una conexión existente con la misma información.
 
    <!-- **Note:** You must send data for all DSP and Search, Social, & Commerce accounts to a single Experience Platform instance and sandbox.  -->
 
-   * Confirme que está seleccionada la zona protegida correcta.
+   * Confirme que está seleccionada la zona protegida correcta (configurada por su organización).
 
    * Calcule el número medio de eventos diarios (menos de 1 millón para la mayoría de las organizaciones).
 
@@ -161,19 +177,21 @@ También puede editar una conexión existente con la misma información.
 
          * **[!UICONTROL Person ID]:** `Identity Map`
 
-         * **[!UICONTROL Use primary identity namespace]:** Habilitar configuración
+         * **[!UICONTROL Use primary identity namespace]:** Si desea utilizar un conjunto de datos y un esquema tanto para Customer Journey Analytics como para Adobe Real-Time CDP, habilite esta configuración y defina la identidad principal en el grupo de campos `IdentityMap`. `Required Field` también es compatible.
 
          * **[!UICONTROL Data Source Type]:** `Web Data > Others` <!-- I don't see "Others" in the screen shot example -->
 
          * **[!UICONTROL Import all new data]:** Habilitar la configuración
 
-      * Para la configuración de [!UICONTROL Lookup Dataset], asigne el conjunto de datos de dimensiones al conjunto de datos de eventos:
+      * Para la configuración de clasificación ([!UICONTROL Lookup Dataset]), asigne el conjunto de datos de dimensiones al conjunto de datos de eventos:
 
          * **[!UICONTROL Key]** (el campo que se utilizará como clave para el conjunto de datos de dimensiones): `Tracking Code` (que es el mismo que el campo `trackingCode` en el esquema).
 
          * **[!UICONTROL Matching key]** (el campo que se usará como clave coincidente para el conjunto de datos de eventos): `Tracking Code (Event datasets)`.
 
          * **[!UICONTROL Import all new data]:** Habilitar la configuración
+
+         * **[!UICONTROL Backfill all existing data]:** Habilitar la configuración
 
       * Para la configuración de [!UICONTROL Metrics Dataset]:
 
@@ -205,7 +223,7 @@ En Customer Journey Analytics, cree una o más vistas de datos para definir las 
 
       * Elija métricas del conjunto de datos de evento y del conjunto de datos de búsqueda para incluirlas en la vista de datos.
 
-      * Busque &quot;[!UICONTROL Tracking Code]&quot; (que forma parte del conjunto de datos de evento con la ruta de acceso de esquema `_experience.adcloud.conversionDetails.trackingCode`). <!-- and do what with it? Add it? Or is that what you --> Establezca **[!UICONTROL Persistence]** en *[!UICONTROL Most Recent]*.
+      * Busque &quot;[!UICONTROL Tracking Code]&quot; (que forma parte del conjunto de datos de evento con la ruta de esquema `_experience.adcloud.conversionDetails.trackingCode`). Establezca **[!UICONTROL Persistence]** en *[!UICONTROL Most Recent]*.
 
 <!--
 
@@ -258,14 +276,17 @@ En Customer Journey Analytics Workspace, siga estos pasos para configurar inform
 
 1. [Cree un proyecto](https://experienceleague.adobe.com/es/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) en Workspace para generar informes y visualizaciones basados en las dimensiones y métricas configuradas en la vista de datos.
 
+   Por ejemplo, incluya las dimensiones [!UICONTROL Tracking Code (2)] (para vincular eventos a metadatos de campaña), [!UICONTROL Adobe Advertising Campaign] (para datos de nivel de campaña), [!UICONTROL Adobe Advertising Placement] o [!UICONTROL Adobe Advertising Ad Group] (para datos de nivel de ubicación o de nivel de grupo de anuncios), [!UICONTROL Events], [!UICONTROL Impressions] y [!UICONTROL Clicks].
+
 Puede clasificar métricas de resumen y datos de evento con la misma dimensión en una tabla de forma libre.
 
 1. (Si tiene datos de [!DNL Google Ads] o [!DNL Microsoft Advertising]) Cree un informe de conversiones rastreadas por el publicador usando campos para métricas específicas de red de anuncios, que se agrupan como `googleConversions` y `microsoftConversions`.
 
+1. Confirme que aparecen los datos.
+
 >[!TIP]
 >
->Los eventos de resumen suelen agregar una pequeña cantidad de datos adicionales a los informes, como algunos eventos adicionales, una sesión adicional por día o una persona adicional por informe. Estas adiciones son insignificantes en comparación con los eventos web estándar. Sin embargo, puede filtrar estos datos de evento de resumen adicionales excluyendo los datos para el ID de persona ficticia `00000000-0000-0000-0000-000000000000`.
->![Ejemplo de exclusión de datos mediante un ID de persona](/help/integrations/assets/cja-report-with-person-id.png "Ejemplo de exclusión de datos mediante un ID de persona")
+>Los eventos de resumen suelen agregar una pequeña cantidad de datos adicionales a los informes, como algunos eventos adicionales, una sesión adicional por día o una persona adicional por informe. Estas adiciones son insignificantes en comparación con los eventos web estándar. Sin embargo, puede filtrar estos datos de evento de resumen adicionales excluyendo los datos para el ID de persona ficticia `00000000-0000-0000-0000-000000000000`.Ejemplo de exclusión de datos mediante un ID de persona&rbrack;(/help/integrations/assets/cja-report-with-person-id.png "Ejemplo de exclusión de datos mediante un ID de persona")
 
 ![Cómo pueden aparecer los conjuntos de datos en Customer Journey Analytics](/help/integrations/assets/cja-report-example.png "Cómo pueden aparecer los conjuntos de datos en Customer Journey Analytics")
 
