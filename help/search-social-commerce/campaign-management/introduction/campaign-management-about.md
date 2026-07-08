@@ -4,16 +4,12 @@ description: Obtenga información acerca de las funciones de administración de 
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 33f9b15eae29023aaee3644d7a78c09c5ab1429a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 834
 ht-degree: 0%
 
 ---
@@ -22,7 +18,9 @@ ht-degree: 0%
 
 Search, Social y Commerce le permiten rastrear o administrar sus campañas de búsqueda, visualización/contenido, medios sociales, compras, audiencia y rendimiento máximo en un solo lugar. Según la red de publicidad y el tipo de campaña, las funciones disponibles pueden incluir la sincronización con las redes de publicidad, las capacidades de creación y edición, el seguimiento y la atribución de conversión, la creación de informes y la optimización de ofertas y presupuestos. Para obtener detalles acerca de la funcionalidad disponible para cada red de anuncios, consulte &quot;[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md)&quot;.
 
-A medida que agrega y edita datos de campaña en las vistas [!UICONTROL Campaigns], Search, Social y Commerce insertan inmediatamente los cambios de datos en la red publicitaria. Search, Social y Commerce también extrae datos de estructura de campañas y datos de clics cada hora de las cuentas sincronizadas de [!DNL Google Ads] y [!DNL Microsoft Advertising], y cada día de otras cuentas sincronizadas de red de anuncios, o con mayor frecuencia cuando se detectan nuevas campañas. Para todas las redes de anuncios sincronizadas, también puede sincronizar cuentas bajo demanda según sea necesario.
+A medida que agrega y edita datos de campaña en las vistas [!UICONTROL Campaigns], Search, Social y Commerce insertan inmediatamente los cambios de datos en la red publicitaria. Search, Social y Commerce también extrae datos de estructura de campaña y datos de clics diarios de cuentas de red de anuncios sincronizadas o, con mayor frecuencia, cuando se detectan nuevas campañas. Para todas las redes de anuncios sincronizadas, también puede sincronizar cuentas bajo demanda según sea necesario.
+
+Search, Social y Commerce extrae datos de rendimiento cada hora de las cuentas sincronizadas de [!DNL Google Ads] y [!DNL Microsoft Advertising], y cada día de otras cuentas sincronizadas de red de anuncios.
 
 ## Configuración del acceso a las cuentas de red de publicidad
 
