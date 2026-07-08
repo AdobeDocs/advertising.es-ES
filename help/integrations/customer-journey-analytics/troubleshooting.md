@@ -2,21 +2,13 @@
 title: Solución de problemas de datos de Adobe Advertising en Customer Journey Analytics
 description: Obtenga información sobre cómo solucionar y resolver problemas con los datos de Adobe Advertising en Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 3ca788a8a15277a105c065087ad9a5fbc9108311
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: b1904d5c8dad3e935245b45ff4b1a8104fc897dd
 workflow-type: tm+mt
-source-wordcount: 627
+source-wordcount: 716
 ht-degree: 0%
 
 ---
@@ -31,23 +23,27 @@ A continuación se indican posibles problemas de datos y sus causas.
 
 Compruebe lo siguiente:
 
+* Customer Journey Analytics Workspace hace referencia a la vista de datos correcta.
+
 * La fuente de Adobe Advertising a Customer Journey Analytics está habilitada. Consulte con el equipo de cuenta de Adobe.
 
 * El conjunto de datos de dimensión, clasificación o búsqueda de Adobe Advertising y el conjunto de datos de resumen se incluyen en la conexión de Customer Journey Analytics.
 
 * Las dimensiones y métricas de resumen de Adobe Advertising se incluyen en la vista de datos de Customer Journey Analytics.
 
-* Customer Journey Analytics Workspace hace referencia a la vista de datos correcta.
-
-Si verifica toda la configuración anterior pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support).
+Si verifica toda la configuración anterior pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
 +++ Los datos del informe de resumen están disponibles en Customer Journey Analytics para el anunciante 1, pero no en Advertiser 2.
 
-Compruebe que la fuente de Adobe Advertising a Customer Journey Analytics esté habilitada para Anunciante 2. Consulte con el equipo de cuenta de Adobe.
+Compruebe lo siguiente:
 
-Si la fuente está habilitada para un anunciante pero aún no ves datos de resumen, abre un ticket de asistencia para tu organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support).
+* La fuente de Adobe Advertising a Customer Journey Analytics está habilitada para Anunciante 2. Consulte con el equipo de cuenta de Adobe.
+
+* La configuración &quot;[!UICONTROL Backfill all existing data]&quot; está habilitada para sus tres conjuntos de datos (métricas de dimensión, clasificación, búsqueda, resumen y evento) en las métricas) en su conexión de Customer Journey Analytics.
+
+Si verifica todas las condiciones anteriores pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
@@ -55,7 +51,7 @@ Si la fuente está habilitada para un anunciante pero aún no ves datos de resum
 
 Compruebe que la fuente de Adobe Advertising a Customer Journey Analytics esté habilitada para la cuenta específica de red de publicidad. Consulte con el equipo de cuenta de Adobe.
 
-Si la fuente está habilitada para una cuenta pero aún no ves datos de resumen, abre un ticket de asistencia para tu organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
+Si la fuente está habilitada para una cuenta pero aún no ves datos de resumen, abre un ticket de asistencia para tu organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
 
 +++
 
@@ -67,8 +63,11 @@ Compruebe lo siguiente:
 
 * Los filtros y segmentos aplicados en [!DNL Workspace] y en el informe de Adobe Advertising no están causando diferencias en los datos.
 
-Si está seguro de una discrepancia en los datos, abra un ticket de asistencia para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support). Incluya [!UICONTROL Account ID] para la cuenta de red de publicidad.
-. Incluya capturas de pantalla y hojas de cálculo para mostrar la evidencia de la discrepancia. El equipo de cuenta de Adobe puede corregir de forma retroactiva la fuente de datos para resolver la discrepancia si es necesario.
+* El [!UICONTROL Time Zone] de la vista de datos de Customer Journey Analytics coincide con el [[!UICONTROL Default Timezone] de la cuenta de Advertising DSP](help/dsp/admin/user-own-profile-edit.md).
+
+* La configuración &quot;[!UICONTROL Backfill all existing data]&quot; está habilitada para sus tres conjuntos de datos (métricas de dimensión, clasificación, búsqueda, resumen y evento) en las métricas) en su conexión de Customer Journey Analytics.
+
+Si está seguro de una discrepancia en los datos, abra un ticket de asistencia para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.. Incluya capturas de pantalla y hojas de cálculo para mostrar la evidencia de la discrepancia. El equipo de cuenta de Adobe puede corregir de forma retroactiva la fuente de datos para resolver la discrepancia si es necesario.
 
 +++
 
@@ -78,19 +77,19 @@ Si está seguro de una discrepancia en los datos, abra un ticket de asistencia p
 
 Compruebe lo siguiente, empezando por los elementos con menos barreras para la verificación:
 
-* Las métricas de conversión aplicables son eventos web/en línea que Adobe Advertising puede atribuir a dimensiones.
-
 * Está utilizando la vista de datos correcta.
+
+* Las métricas de conversión aplicables son eventos web/en línea que Adobe Advertising puede atribuir a dimensiones.
 
 * Adobe Advertising realiza un seguimiento de los clics y las visualizaciones en el sitio aplicable. <!-- Link to validation instructions in the user guide -->
 
 * En la conexión de Customer Journey Analytics para el conjunto de datos de clasificaciones, los valores de la configuración de [!DNL Key] y [!DNL Matching Key] son correctos: [!DNL Key]: `Tracking Code` (_customername.adLens2.trackingCode), [!DNL Matching Key]: `Tracking Code` (event._experience.adcloud.conversionDetails.trackingCode)
 
-* El servicio [!DNL Adobe Advertising] se agrega a la secuencia de datos de Adobe Experience Platform, el esquema asignado para la secuencia de datos es `XDM ExperienceEvent Schema` y el grupo de campos `Adobe Advertising Cloud ExperienceEvent Full Extension` se agrega al esquema.
+* El servicio [!DNL Adobe Advertising] se agrega a la secuencia de datos de Adobe Experience Platform, el esquema asignado para la secuencia de datos es `XDM ExperienceEvent Schema` y el grupo de campos `Adobe Advertising Cloud ExperienceEvent Full Extension` se agrega al esquema `XDM ExperienceEvent`.
 
 * Los ajustes de Adobe Advertising se configuran correctamente en la extensión del SDK web y se publican.
 
-Si verifica toda la configuración anterior pero sigue sin ver los datos de conversión, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
+Si verifica toda la configuración anterior pero sigue sin ver los datos de conversión, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
 
 +++
 
