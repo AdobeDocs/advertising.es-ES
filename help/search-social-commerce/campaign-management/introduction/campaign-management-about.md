@@ -4,16 +4,12 @@ description: Obtenga información acerca de las funciones de administración de 
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6a6c9fecfe07a94bf77cfce65bfd7a079755890f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
 workflow-type: tm+mt
-source-wordcount: 834
+source-wordcount: 850
 ht-degree: 0%
 
 ---
@@ -30,11 +26,11 @@ Search, Social y Commerce extrae datos de rendimiento cada hora de las cuentas s
 
 Para realizar un seguimiento del rendimiento de los anuncios en la cuenta de red de anuncios de un anunciante (y para realizar posibles pujas por los anuncios), el equipo de cuenta de Adobe [crea un registro de cuenta correspondiente](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) en Search, Social y Commerce. El registro de cuenta incluye opciones de seguimiento.
 
-En el caso de las cuentas sincronizadas mediante la API de la red de publicidad, el registro de cuentas también incluye las credenciales de acceso a la cuenta. Una vez habilitada la cuenta, los datos de la cuenta se extraen de con la red de publicidad. A continuación, puede ver los datos de cuenta existentes, así como crear y editar la estructura de campañas y los datos de publicidad.
+En el caso de las cuentas sincronizadas mediante la API de la red de publicidad, el registro de cuentas también incluye las credenciales de acceso a la cuenta. Una vez habilitada la cuenta, los datos de la cuenta se extraen de con la red de publicidad. A continuación, puede ver los datos de cuenta existentes y puede crear y editar la estructura de la campaña y los datos de publicidad.
 
 ## Rastreo de clics para enlazar los clics con las conversiones
 
-Si utiliza el servicio de seguimiento de conversión de Adobe Advertising, debe incluir el código de seguimiento de clics de Search, Social y Commerce en el sufijo de la página de aterrizaje, en las plantillas de seguimiento y en las URL de destino/final para anuncios, palabras clave y ubicaciones, vínculos de sitios y listas de productos. Para [redes de anuncios compatibles y tipos de campañas](/help/search-social-commerce/introduction/supported-inventory.md) cuya configuración de campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload]&quot;, Search, Social y Commerce anexa automáticamente su propio código de redirección y seguimiento al guardar el registro, por lo que no es necesario agregarlo manualmente. De lo contrario, debe agregar manualmente el código a las plantillas de seguimiento o a las direcciones URL finales.
+Si utiliza el servicio de seguimiento de conversión de Adobe Advertising, debe incluir el código de seguimiento de clics de Search, Social y Commerce en el sufijo de la página de aterrizaje, en las plantillas de seguimiento y en las URL de destino/final para anuncios, palabras clave y ubicaciones, vínculos de sitios y listas de productos. Para [redes de anuncios compatibles y tipos de campañas](/help/search-social-commerce/introduction/supported-inventory.md) cuya configuración de campaña incluye &quot;[!UICONTROL EF Redirect]&quot; y &quot;[!UICONTROL Auto Upload]&quot;, Search, Social y Commerce anexa automáticamente su propio código de redirección y seguimiento al guardar el registro, por lo que no es necesario agregarlo manualmente. De lo contrario, debe agregar manualmente el código a las plantillas de seguimiento o a las direcciones URL finales, ya sea desde Search, Social y Commerce o desde el propio editor de la red de publicidad.
 
 Para obtener más información sobre el seguimiento, consulte el capítulo sobre seguimiento.
 
