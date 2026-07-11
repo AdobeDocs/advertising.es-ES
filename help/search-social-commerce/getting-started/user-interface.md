@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1558
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
 
    * **[!UICONTROL Extensions]** abre vistas de solo lectura de sus extensiones de publicidad existentes. Para administrar sus extensiones, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Shopping]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
+   * **[!UICONTROL Shopping]** Abre vistas de solo lectura de los grupos de productos de compras existentes. Para administrar los grupos de productos, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Product Groups]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenú **[!UICONTROL Set Up]**:
 
@@ -119,6 +119,8 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
    * **[!UICONTROL Import Campaigns]**: abre una vista nueva desde la cual puede importar datos de campañas.
 
    * **[!UICONTROL Bulksheets]**: abre una nueva vista de [!UICONTROL Bulksheets].
+
+   * **[!UICONTROL Products]** Abre vistas de solo lectura de las cuentas y productos existentes del centro de comerciantes. Para agregar una cuenta de centro comercial, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Products]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 <!--
  What's happening to these?
