@@ -4,16 +4,12 @@ description: Descubra dónde acceder a las distintas funcionalidades.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
 TQID: https://experienceleague.adobe.com/KqfmmT9cFZpNIoIiaA0OjGlMDf4hvQzNhPpH8lYtViw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9af7fb2602fa64f7785ff67fc6af27c59b8a678a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 57e8552cd8b71fe06be153954294063fe810b327
 workflow-type: tm+mt
-source-wordcount: 1506
+source-wordcount: 1558
 ht-degree: 0%
 
 ---
@@ -54,7 +50,7 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
 
 * Submenú **[!UICONTROL Plan]**:
 
-   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -108,7 +104,7 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
 
    * **[!UICONTROL Extensions]** abre vistas de solo lectura de sus extensiones de publicidad existentes. Para administrar sus extensiones, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Shopping]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
+   * **[!UICONTROL Shopping]** Abre vistas de solo lectura de los grupos de productos de compras existentes. Para administrar los grupos de productos, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Product Groups]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * Submenú **[!UICONTROL Set Up]**:
 
@@ -119,6 +115,8 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
    * **[!UICONTROL Import Campaigns]**: abre una vista nueva desde la cual puede importar datos de campañas.
 
    * **[!UICONTROL Bulksheets]**: abre una nueva vista de [!UICONTROL Bulksheets].
+
+   * **[!UICONTROL Products]** Abre vistas de solo lectura de las cuentas y productos existentes del centro de comerciantes. Para agregar una cuenta de centro comercial, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Products]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 <!--
  What's happening to these?
@@ -200,7 +198,7 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Su función det
 
 * ![Notificaciones de alerta](/help/search-social-commerce/assets/notifications-panel.png "Notificaciones de alerta") Panel que enumera las notificaciones de Search, Social y Commerce.
 
-  Cuando haya iniciado sesión a través de Adobe CX Enterprise[&#128279;](sign-in.md), este panel mostrará las notificaciones de CX Enterprise.
+  Cuando haya iniciado sesión a través de Adobe CX Enterprise](sign-in.md), este panel mostrará las notificaciones de CX Enterprise.[
 
 * ![Menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "Menú Ayuda") Menú de ayuda que incluye vínculos a documentación y otra información.
 
@@ -208,7 +206,7 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Su función det
 
 * ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar sesión.
 
-  Cuando haya iniciado sesión a través de Adobe CX Enterprise[&#128279;](sign-in.md), también podrá editar su perfil de CX Enterprise, incluyendo su contraseña de CX Enterprise y la configuración de notificaciones.
+  Cuando haya iniciado sesión a través de Adobe CX Enterprise](sign-in.md), también podrá editar su perfil de CX Enterprise, incluyendo su contraseña de CX Enterprise y la configuración de notificaciones.[
 
 >[!MORELIKETHIS]
 >
