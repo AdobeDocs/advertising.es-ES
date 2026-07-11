@@ -8,9 +8,9 @@ product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
 workflow-type: tm+mt
-source-wordcount: 281
+source-wordcount: 273
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 
 ## Ver datos como tarjetas o como tablas
 
-Vea los datos en sus vistas [!UICONTROL Creative Libraries] y [!UICONTROL Experiences] como tarjetas individuales o como tablas/listas. De forma predeterminada, los datos se muestran en el modo de vista de tarjeta. La vista de tarjeta muestra una miniatura de un creativo relevante.
+<!-- Different images in Creative Studio, although pretty close -->
+
+Vea los datos en las vistas [!UICONTROL Creative Studio], [!UICONTROL Creative Libraries] y [!UICONTROL Experiences] como tarjetas individuales o como tablas o listas. De forma predeterminada, los datos se muestran en el modo de vista de tarjeta. La vista de tarjeta muestra una miniatura de un creativo relevante.
 
 Al cambiar entre la vista de tarjeta y la vista de tabla, se conservan los filtros y las selecciones.
 
