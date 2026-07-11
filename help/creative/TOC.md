@@ -18,8 +18,8 @@ ht-degree: 4%
    + [Acerca de Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Personalizar las vistas de datos](/help/creative/introduction/customize-data-views.md)
    + [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-   + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
+   + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
 + Creative Studio {#creative-studio}
    + [Acerca de Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
    + [Administración de anuncios estándar](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
@@ -102,4 +102,4 @@ ht-degree: 4%
 + [Redireccionamiento de píxeles](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 + [Obtener ayuda](/help/creative/get-help.md)
-+ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
++ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es){target="_blank"}
