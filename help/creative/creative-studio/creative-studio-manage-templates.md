@@ -1,15 +1,12 @@
 ---
 title: Administración de plantillas de publicidad en Creative Studio
 description: Obtenga información sobre cómo crear, importar, organizar y administrar plantillas de publicidad en la pestaña Plantillas de Creative Studio en Adobe Advertising Creative.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -247,7 +244,7 @@ El panel izquierdo contiene una columna de iconos. Haga clic en un icono para ab
 | Icono | Descripción |
 | --- | --- |
 | **[!UICONTROL Search]** | Busque en todos los tipos de recursos de la biblioteca. |
-| **[!UICONTROL Upload]** | Cargar imágenes<!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)--> en el editor para usarlas en la plantilla actual. Puede cargar hasta 20 archivos a la vez. |
+| **[!UICONTROL Upload]** | Cargar imágenes o archivos de fuente en el editor para utilizarlos en la plantilla actual. Puede cargar hasta 20 archivos a la vez. |
 | **[!UICONTROL Templates]** | Examine las plantillas de anuncios de la biblioteca de Creative Studio para utilizarlas como capa base o elemento de referencia. |
 | **[!UICONTROL My Assets]** | Examine todos los recursos que ha cargado en la pestaña Assets de Creative Studio. |
 | **[!UICONTROL Images]** | Explore únicamente los recursos de imagen que ha cargado en la pestaña Assets de Creative Studio. |
