@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 292
+source-wordcount: 296
 ht-degree: 0%
 
 ---
@@ -37,15 +37,22 @@ La pestaña **[!UICONTROL Assets]** enumera los recursos existentes en una vista
 * [Eliminar un recurso](#assets-delete)
 
 <!--
-
 Should be in "Common Tasks" chapter
 
 ## Browse and search assets {#assets-search}
 
 * Use the **[!UICONTROL Search assets]** field to find assets by name. Enter at least three characters to trigger a search; shorter queries don't filter results.
 * Click **[!UICONTROL Filter]** to filter the asset library by type or other attributes.
-
 -->
+
+## Tipos de recursos admitidos
+
+| Tipo | Formatos compatibles | Tamaño máximo de archivo |
+| --- | --- | --- |
+| Imágenes | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MB |
+| Vídeo | MP4, MOV, AVI, WebM | 512 MB |
+| Audio | MP3, WAV, AAC, OGG | 50 MB |
+| Fuentes | TTF, OTF, WOFF, WOFF2 | 5 MB |
 
 ## Cargar recursos {#assets-upload}
 
@@ -57,27 +64,9 @@ Should be in "Common Tasks" chapter
 
 1. Seleccione uno o varios archivos del equipo o de la red.
 
-   Se admiten los siguientes tipos de archivo:
-
-   <!-- Verified 2026-07-09 against creative-api TemplateMediaValidator.java (IMAGE_EXTENSIONS, VIDEO_EXTENSIONS, AUDIO_EXTENSIONS), which backs the /v1/creative/template-medias upload/initiate endpoint used by this tab. The Assets tab file input has no client-side accept restriction (TemplateBrowser.tsx) and relies entirely on this backend validator, so it is authoritative. -->
-
-   | Tipo | Formatos compatibles | Tamaño máximo de archivo |
-   | --- | --- | --- |
-   | Imágenes | JPG/JPEG, PNG, GIF, WebP, SVG | 10 MB |
-   | Vídeo | MP4, MOV, AVI, WebM | 512 MB |
-   | Audio | MP3, WAV, AAC, OGG | 50 MB |
-
    Los archivos vacíos y los tipos de archivo no compatibles se rechazan con una notificación de error.
 
    El nombre del recurso se guarda como el nombre de archivo cargado sin su extensión. Los espacios y los caracteres que no sean ASCII del nombre de archivo se reemplazarán por guiones bajos (por ejemplo, al cargar `My Logo.png` se creará un recurso con el nombre `My_Logo`). Puede cambiar el nombre del recurso posteriormente.
-
-<!--
-
-maybe later:
-
-   | Fonts | TTF, OTF, WOFF, WOFF2 | 5 MB |
-   
--->
 
 ## Editar un nombre de recurso {#asset-rename}
 

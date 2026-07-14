@@ -7,9 +7,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 24e27656edda50f29292cb75823ef6cacdb685fe
+source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
 workflow-type: tm+mt
-source-wordcount: 2509
+source-wordcount: 2512
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ La ficha **[!UICONTROL Templates]** proporciona acciones rápidas para crear o i
 La pestaña también enumera las plantillas de anuncios existentes en la parte inferior de la página <!-- Only in the Templates tab -->como [tarjetas individuales (predeterminado) o como tablas/listas](/help/creative/introduction/customize-data-views.md). La lista de plantillas de anuncios incluye fichas para [!UICONTROL All], [!UICONTROL System Templates] (que el equipo de cuenta de Adobe ha cargado en su cuenta) y [!UICONTROL User Templates]. De forma predeterminada, se muestran las plantillas de anuncios de todos los anunciantes. Para ver solo las plantillas de publicidad de un anunciante específico, seleccione en la lista de anunciantes de la parte superior de la página.
 
 <!-- 
-
 Probably not necessary:
 
 * **[!UICONTROL Card view]** &mdash; Displays templates as cards. Each card shows a preview thumbnail and the ad dimensions. Hovering a card reveals action controls.
 
 * **[!UICONTROL Table view]** &mdash; Displays templates in a table with columns for **[!UICONTROL Name]**, **[!UICONTROL Type]**, **[!UICONTROL Status]**, **[!UICONTROL Size/Duration]**, **[!UICONTROL Advertiser]**, and **[!UICONTROL Updated]**. Click the **[!UICONTROL Name]** or **[!UICONTROL Updated]** column header to sort ascending or descending. Pagination controls appear at the bottom of the list.
-
 -->
 
 ### Acciones disponibles
@@ -249,7 +247,7 @@ El panel izquierdo contiene una columna de iconos. Haga clic en un icono para ab
 | Icono | Descripción |
 | --- | --- |
 | **[!UICONTROL Search]** | Busque en todos los tipos de recursos de la biblioteca. |
-| **[!UICONTROL Upload]** | Cargar imágenes<!-- not there as of 7/10:  or font files (TTF, OTF, WOFF, WOFF2)--> en el editor para usarlas en la plantilla actual. Puede cargar hasta 20 archivos a la vez. |
+| **[!UICONTROL Upload]** | Cargar imágenes o archivos de fuente en el editor para utilizarlos en la plantilla actual. Puede cargar hasta 20 archivos a la vez. |
 | **[!UICONTROL Templates]** | Examine las plantillas de anuncios de la biblioteca de Creative Studio para utilizarlas como capa base o elemento de referencia. |
 | **[!UICONTROL My Assets]** | Examine todos los recursos que ha cargado en la pestaña Assets de Creative Studio. |
 | **[!UICONTROL Images]** | Explore únicamente los recursos de imagen que ha cargado en la pestaña Assets de Creative Studio. |
@@ -516,3 +514,4 @@ Las etiquetas ayudan a organizar y filtrar las plantillas de usuario. No puede a
 >* [Administrar recursos en Creative Studio](creative-studio-manage-assets.md)
 >* [Administrar anuncios estándar en Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Administrar elementos creativos dinámicos en Creative Studio](creative-studio-manage-dynamic-ads.md)
+
