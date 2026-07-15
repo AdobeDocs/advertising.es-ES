@@ -2,8 +2,11 @@
 title: (Nueva IU) Administrar [!DNL Google Ads] reglas de valor de conversión
 description: Aprenda a ver y administrar  [!DNL Google Ads] reglas de valor de conversión en Search, Social y Commerce.
 feature: Conversions
-feature_v2: id: e6916c1b-e939-4e0b-99f5-768e83e1e99fid: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2: id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2:
+  - id: a2f79fa9-a8fe-4c1c-961e-75dc3c47f954
 source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 1854
