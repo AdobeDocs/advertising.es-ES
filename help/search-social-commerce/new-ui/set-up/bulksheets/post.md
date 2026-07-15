@@ -2,16 +2,11 @@
 title: (Nueva IU) Publicar hojas de edición masiva o archivos de error corregidos
 description: Aprenda a publicar archivos de hojas de edición masiva en las redes de anuncios en la nueva IU de Search, Social y Commerce.
 feature: Search Bulksheets
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: e58024d1-d6da-420c-80af-6be211808316
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 739034010787c2016720bef37fb75dc8efbae58b
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: e58024d1-d6da-420c-80af-6be211808316id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: 752
 ht-degree: 0%
@@ -38,7 +33,7 @@ Los archivos de hojas de edición masiva y los archivos de error se eliminan aut
 
    La misma configuración se aplica a todos los archivos que publique.
 
-Cuando comienza la tarea, el estado y la fecha posterior programada de la fila se actualizan en la vista [!UICONTROL Bulksheets]. Cuando las notificaciones por correo electrónico para hojas de edición masiva están [habilitadas en [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), se enviará una notificación por correo electrónico con un vínculo al archivo cuando se publique el archivo. Según la cantidad de datos recopilados, la notificación por correo electrónico puede tardar varios minutos o más. Si no se puede publicar alguno de los datos, aparecerá un archivo de error en la vista [!UICONTROL Bulksheets] y se enviará una notificación por correo electrónico con un vínculo al archivo de error.
+Cuando comienza la tarea, el estado y la fecha posterior programada de la fila se actualizan en la vista [!UICONTROL Bulksheets]. Cuando las notificaciones por correo electrónico para hojas de edición masiva están [habilitadas en [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), se enviará una notificación por correo electrónico con un vínculo al archivo cuando se publique el archivo. Según la cantidad de datos recopilados, la notificación por correo electrónico puede tardar varios minutos o más. Si no se puede publicar alguno de los datos, aparecerá un archivo de error en la vista [!UICONTROL Bulksheets] y se enviará una notificación por correo electrónico con un vínculo al archivo de error.
 
 >[!NOTE]
 >

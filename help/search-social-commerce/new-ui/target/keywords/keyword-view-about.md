@@ -4,9 +4,9 @@ description: Descubra lo que puede hacer en la vista [!UICONTROL Keywords].
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: e89e47d3-b41c-4330-8b72-f601194d5ddc
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,10 @@ La vista [!UICONTROL Manage] > [!UICONTROL Keywords] incluye dos fichas:
 
 ## Acciones disponibles
 
-* [Asignar restricciones a palabras clave y anular la asignación de restricciones de palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+* [Asignar restricciones a palabras clave y anular la asignación de restricciones de palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+
+* [Asignar clasificaciones de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) a palabras clave
 
 >[!MORELIKETHIS]
 >
->* [Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>* [Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
