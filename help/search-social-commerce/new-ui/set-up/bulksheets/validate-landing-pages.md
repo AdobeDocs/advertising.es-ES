@@ -11,7 +11,7 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: f916f47a40729ff39ac1456e3b3ad93e1045e9a9
+source-git-commit: f22a0f3f1884066faca71c6e8bb760253366b30e
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 0%
@@ -57,7 +57,7 @@ Más tarde puede descargar el archivo, corregir los errores y cargar el archivo 
 
    **[!UICONTROL Report redirects as errors]:** Cuando una página de aterrizaje redirige a otra página (por ejemplo, si falta la página de aterrizaje y el sitio muestra una página de sustitución), la columna [!UICONTROL EF Errors] del archivo de error de la página de aterrizaje indica la dirección URL a la que se redirige la página de aterrizaje.
 
-Cuando comienza la tarea, se agrega una nueva fila a la vista [!UICONTROL Bulksheets]. Cuando las notificaciones por correo electrónico para hojas de edición masiva están [habilitadas en [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications/notification-manage.md), se enviará una notificación por correo electrónico con un vínculo al archivo cuando se cree el archivo. Según la cantidad de datos recopilados, la notificación por correo electrónico puede tardar varios minutos o más. Puede descargar el archivo para editarlo y luego volver a cargarlo para publicarlo, o puede publicar el archivo tal cual.
+Cuando comienza la tarea, se agrega una nueva fila a la vista [!UICONTROL Bulksheets]. Cuando las notificaciones por correo electrónico para hojas de edición masiva están [habilitadas en [!UICONTROL Notification Center]](/help/search-social-commerce/new-ui/notifications-manage.md), se enviará una notificación por correo electrónico con un vínculo al archivo cuando se cree el archivo. Según la cantidad de datos recopilados, la notificación por correo electrónico puede tardar varios minutos o más. Puede descargar el archivo para editarlo y luego volver a cargarlo para publicarlo, o puede publicar el archivo tal cual.
 
 >[!NOTE]
 >

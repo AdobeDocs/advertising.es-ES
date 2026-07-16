@@ -4,9 +4,9 @@ description: Descubra lo que puede hacer en la vista [!UICONTROL Placements].
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: d31afcd7-86f0-4ea0-8050-aab0027faa76
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+source-git-commit: d375af35af1db5aab75db2e712ae54a39f392c3d
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,10 @@ La vista [!UICONTROL Manage] > [!UICONTROL Placements] incluye dos fichas:
 
 ## Acciones disponibles
 
-* [Asignar restricciones a ubicaciones y anular la asignación de restricciones de ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+* [Asignar restricciones a ubicaciones y anular la asignación de restricciones de ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+
+* [Asignar clasificaciones de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) a las ubicaciones
 
 >[!MORELIKETHIS]
 >
->* [Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)

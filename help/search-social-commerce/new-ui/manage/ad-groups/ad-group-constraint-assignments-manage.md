@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: 389
 ht-degree: 0%
@@ -91,5 +91,5 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 >
 >* [(Nueva IU) Administrar restricciones para buscar unidades de oferta](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(Nueva IU) Administrar asignaciones de restricción para las campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
->* [(Nueva interfaz de usuario) Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
->* [(Nueva IU) Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [(Nueva interfaz de usuario) Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [(Nueva IU) Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)

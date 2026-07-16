@@ -2,7 +2,7 @@
 title: (Nueva IU) Administrar notificaciones
 description: Obtenga información sobre cómo ver, configurar y administrar las notificaciones de Search, Social y Commerce, incluidas las notificaciones push y la aplicación web del Centro de notificaciones.
 feature: Search Notifications
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+source-git-commit: e36a2b66a8dc4c485c7139b44eaf375615826b2b
 workflow-type: tm+mt
 source-wordcount: '1711'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Puede ver las notificaciones, marcarlas como leídas o no leídas y eliminarlas.
 
    * **[!UICONTROL Bulksheets]**: notificaciones que indican que una [operación de hoja de edición por lotes](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) se completó o produjo un error.<!-- Update link once file for new UI available-->
 
-   * **[!UICONTROL Manager Account Missing]**: notificaciones de que Search, Social y Commerce no tienen las credenciales de una [cuenta de administrador de red de anuncios](/help/search-social-commerce/admin/manager-accounts.md), necesarias para la correcta configuración de funciones críticas.<!-- Moving to Campaign Management > Setup Errors at some point -->
+   * **[!UICONTROL Manager Account Missing]**: notificaciones de que Search, Social y Commerce no tienen las credenciales de una [cuenta de administrador de red de anuncios](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/manager-account-manage.md), necesarias para la correcta configuración de funciones críticas.<!-- Moving to Campaign Management > Setup Errors at some point -->
 
    * **[!UICONTROL UI Actions]**: notificaciones de que los trabajos realizados en segundo plano se completaron o dieron error. Los tipos de trabajo incluyen [trabajos de hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)<!-- Update link once file for new UI available-->, trabajos de edición masiva dentro de la tabla de datos o mediante la barra de herramientas, trabajos de asignación de entidades u otras acciones dentro de la interfaz de usuario (como sincronizar con redes de anuncios, pegar filas o cambiar el nombre de entidades). Las asignaciones de entidad incluyen la asignación o anulación de la asignación de un [valor de clasificación de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md) a cualquier entidad, la asignación de una campaña a un portafolio y la [asignación o anulación de la asignación de una restricción de oferta a una entidad](/help/search-social-commerce/new-ui/goals/constraints-manage.md).
 

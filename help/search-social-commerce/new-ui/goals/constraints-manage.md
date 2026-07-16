@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: 9cc395a6b0fe25435ca6ed022f8da767d525d68e
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -183,7 +183,7 @@ Cada entidad solo puede tener una restricción. Se puede asignar una única rest
 >[!NOTE]
 >
 >* Si posteriormente edita una palabra clave o la copia de anuncio de un anuncio (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
->* Ver las mismas instrucciones en la vista [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), la vista [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), la vista [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) o la vista [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Ver las mismas instrucciones en la vista [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), la vista [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), la vista [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) o la vista [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. En el menú principal, abra la vista de administración correspondiente.
 
@@ -204,7 +204,7 @@ Cada entidad solo puede tener una restricción. Se puede asignar una única rest
 >[!NOTE]
 >
 >* Para eliminar una restricción, de modo que no esté disponible para un uso futuro, consulte &quot;[Cambiar el estado de las restricciones](#constraint-change-status)&quot;.
->* Ver las mismas instrucciones en la vista [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), la vista [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), la vista [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md) o la vista [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
+>* Ver las mismas instrucciones en la vista [[!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md), la vista [[!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md), la vista [[!UICONTROL Keywords]](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md) o la vista [[!UICONTROL Placements]](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md). <!-- ADD LINK WHEN AVAILABLE for dynamic search targets (auto targets). -->
 
 1. En el menú principal, abra la vista de administración correspondiente.
 
@@ -220,6 +220,6 @@ Cada entidad solo puede tener una restricción. Se puede asignar una única rest
 >
 >* [Administrar asignaciones de restricción para campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Administrar asignaciones de restricción para grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
->* [Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
+>* [Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
 >* [El [!UICONTROL Constraint Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/constraint-report.md)

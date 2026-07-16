@@ -1,17 +1,17 @@
 ---
-title: Administrar asignaciones de restricción para palabras clave
-description: Aprenda a asignar restricciones a palabras clave.
+title: Administrar asignaciones de restricción para ubicaciones
+description: Obtenga información sobre cómo asignar restricciones a ubicaciones.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: 2d218abb121a750ea3d75a68ebaf6d0b0b306a09
+exl-id: 325fb6b2-7f6f-41bc-bae7-9ee8590c6263
+source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# (Nueva interfaz de usuario) Administrar asignaciones de restricción para palabras clave
+# (Nueva interfaz de usuario) Administrar asignaciones de restricción para ubicaciones
 
 *característica de Beta*
 
@@ -26,13 +26,13 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 >* Si posteriormente edita una palabra clave o la copia de anuncio para un anuncio no mutable (creando así una nueva palabra clave o anuncio), la restricción no se asigna a la nueva entidad.
 >* Las restricciones activas restringen las ofertas solo para las unidades de oferta asignadas en portafolios optimizados de nivel de palabra clave heredados. Se ignoran para las unidades de oferta que están en portafolios activos, en portafolios híbridos o que no están en portafolios.
 
-## Asignar una restricción a los anuncios seleccionados desde la nueva vista [!UICONTROL Keywords]
+## Asignar una restricción a las ubicaciones seleccionadas desde la nueva vista [!UICONTROL Placements]
 
-Puede asignar una sola restricción a una o varias campañas.
+Puede asignar una sola restricción a una o varias ubicaciones.
 
-1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. En la ficha **[!UICONTROL Keywords]**, active la casilla de verificación situada junto a cada palabra clave a la que va a asignar una sola restricción.
+1. En la ficha **[!UICONTROL Placements]**, active la casilla de verificación situada junto a cada ubicación a la que va a asignar una única restricción.
 
 1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
 
@@ -60,11 +60,11 @@ Puede asignar una sola restricción a una o varias campañas.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-## Quitar la asignación de restricciones de campañas seleccionadas de la nueva vista [!UICONTROL Keywords]
+## Quitar la asignación de restricciones de las ubicaciones seleccionadas de la nueva vista [!UICONTROL Placements]
 
-1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Keywords]**.
+1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Placements]**.
 
-1. En la ficha **[!UICONTROL Keywords]**, active la casilla de verificación situada junto a cada palabra clave de la que anulará la asignación de restricciones.
+1. En la ficha **[!UICONTROL Placements]**, active la casilla de verificación situada junto a cada ubicación de la que anulará la asignación de restricciones.
 
 1. En la barra de herramientas de acciones masivas, haga clic en **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
 
@@ -91,4 +91,4 @@ Puede asignar una sola restricción a una o varias campañas.
 >* [(Nueva IU) Administrar restricciones para buscar unidades de oferta](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(Nueva IU) Administrar asignaciones de restricción para las campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [(Nueva IU) Administrar asignaciones de restricción para grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [(Nueva IU) Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [(Nueva interfaz de usuario) Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
