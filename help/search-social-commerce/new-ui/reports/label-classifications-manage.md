@@ -2,7 +2,7 @@
 title: Administrar clasificaciones de etiquetas
 description: Obtenga información acerca del uso de clasificaciones de etiquetas para agrupar los componentes de la cuenta.
 feature: Search Label Classifications
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+source-git-commit: 44f83bcf32d671ad96a420827d16d8f1ec39049e
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 >
 >Las palabras clave y la copia de anuncios de algunas redes de anuncios y tipos de campañas son [no mutables](/help/search-social-commerce/campaign-management/faqs-campaigns.md), lo que significa que al editarlas se eliminará la entidad existente y se creará una nueva. Cuando se elimina una entidad existente de este modo, la clasificación de etiquetas no se asigna a la nueva entidad.
 
-1. [Descargar una hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) que incluya las entidades a las que desea asignar valores de clasificación de etiquetas:
+1. [Descargar una hoja de edición masiva](/help/search-social-commerce/new-ui/set-up/bulksheets/download.md) que incluya las entidades a las que desea asignar valores de clasificación de etiquetas:
 
    * En la ficha [!UICONTROL Rows and Columns], expanda la lista [!UICONTROL Campaign] en el panel [!UICONTROL Bulksheet Columns].
 
@@ -127,7 +127,7 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
    Además de agregar valores, también puede eliminar valores existentes eliminándolos de las filas relevantes. Para eliminar valores tanto de una entidad padre como de sus entidades hijo, a) incluya solo la fila de la entidad padre y elimine el valor de clasificación existente, o b) incluya tanto la entidad padre como sus entidades hijo y elimine el valor de clasificación existente de todas las filas padre y hijo.
 
-1. [Cargue el archivo](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) para crear las asociaciones.<!-- Update once the new bulksheet UI is GA -->
+1. [Cargue el archivo](/help/search-social-commerce/new-ui/set-up/bulksheets/upload.md) para crear las asociaciones.
 
 Los valores de etiqueta cargados son visibles en las vistas de entidad relevantes.
 
