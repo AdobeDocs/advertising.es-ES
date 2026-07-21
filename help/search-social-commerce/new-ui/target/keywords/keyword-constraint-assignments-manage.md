@@ -4,7 +4,7 @@ description: Aprenda a asignar restricciones a palabras clave.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 4f08719e-0770-4a65-91b2-80cf03b65557
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Puede asignar una sola restricción a una o varias campañas.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-## Quitar la asignación de restricciones de campañas seleccionadas de la nueva vista [!UICONTROL Keywords]
+## Quitar restricciones de las campañas seleccionadas de la nueva vista [!UICONTROL Keywords]
 
 1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Keywords]**.
 
