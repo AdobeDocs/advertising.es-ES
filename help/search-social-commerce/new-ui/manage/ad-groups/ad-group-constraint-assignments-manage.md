@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 389
 ht-degree: 0%
@@ -61,7 +61,7 @@ Al anular la asignación de una restricción, se elimina la asociación con los 
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-## Quitar la asignación de restricciones de grupos de anuncios seleccionados de la nueva vista [!UICONTROL Ad Groups]
+## Quitar restricciones de los grupos de anuncios seleccionados de la nueva vista [!UICONTROL Ad Groups]
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Ad Groups]**.
 

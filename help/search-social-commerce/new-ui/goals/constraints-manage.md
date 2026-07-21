@@ -6,7 +6,7 @@ feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
 subfeature_v2:
   - id: c800239a-06eb-4249-9aef-771973d24d35
-source-git-commit: a09cdd9d882dd2f7d18eef6a2065c3c71c5ae9ee
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
 source-wordcount: 2660
 ht-degree: 0%
@@ -66,9 +66,9 @@ Además de abrir la vista [[!UICONTROL Constraints]](#constraints-view), tambié
 
 * Todas las restricciones son valores de etiqueta para una sola [clasificación de etiqueta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/label-classifications/classification-about.html?lang=es) denominada &quot;[!UICONTROL Constraints]&quot;.
 
-   * &quot;[!UICONTROL Constraints]&quot; está incluido en la lista &quot;[!UICONTROL Classifications]&quot; de la configuración de vista predeterminada y personalizada y en los informes programados. Puede agregar la columna siempre que desee ver las restricciones asignadas a las entidades relevantes.
+  * &quot;[!UICONTROL Constraints]&quot; está incluido en la lista &quot;[!UICONTROL Classifications]&quot; de la configuración de vista predeterminada y personalizada y en los informes programados. Puede agregar la columna siempre que desee ver las restricciones asignadas a las entidades relevantes.
 
-   * Cuando descarga una hoja de edición masiva, &quot;[!UICONTROL Constraints]&quot; aparece en la columna &quot;[!UICONTROL Classifications]&quot; para las entidades aplicables en el cuadro de diálogo [!UICONTROL Download Bulksheet]. Cuando se incluye la columna, la hoja de edición masiva descargada incluye todas las restricciones asignadas a las entidades relevantes.
+  * Cuando descarga una hoja de edición masiva, &quot;[!UICONTROL Constraints]&quot; aparece en la columna &quot;[!UICONTROL Classifications]&quot; para las entidades aplicables en el cuadro de diálogo [!UICONTROL Download Bulksheet]. Cuando se incluye la columna, la hoja de edición masiva descargada incluye todas las restricciones asignadas a las entidades relevantes.
 
   La clasificación [!UICONTROL Constraints] no se incluye en la vista [!UICONTROL Label Classifications]; la vista [!UICONTROL Constraints] es independiente. La clasificación [!UICONTROL Constraints] tampoco se incluye en el límite de clasificación de 30 etiquetas.
 
@@ -134,7 +134,7 @@ Puede editar la configuración de una restricción a la vez.
 
 Puede pausar cualquier restricción activa para deshabilitarla. Puede habilitarlo más tarde si vuelve a cambiar el estado a *activo*.
 
-También puede eliminar una restricción, lo que elimina todas las asociaciones con componentes de cuenta y hace que la restricción no esté disponible para su uso futuro. Los datos del informe para la restricción ya no están disponibles. **Nota:** Para simplemente desasociar una restricción de un componente de cuenta, consulte &quot;[Desasignar restricciones de las unidades de oferta de búsqueda](#constraints-unassign)&quot;.
+También puede eliminar una restricción, lo que elimina todas las asociaciones con componentes de cuenta y hace que la restricción no esté disponible para su uso futuro. Los datos del informe para la restricción ya no están disponibles. **Nota:** Para simplemente desasociar una restricción de un componente de cuenta, consulte &quot;[Quitar restricciones de las unidades de oferta de búsqueda](#constraints-unassign).&quot;
 
 1. En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Constraints]**.
 

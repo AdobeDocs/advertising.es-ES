@@ -12,9 +12,9 @@ subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82db1b4d0d8703229a4002e932d5b2f52f845814
+source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
 workflow-type: tm+mt
-source-wordcount: 718
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -43,11 +43,7 @@ Para obtener más información sobre [!DNL Google Ads] anuncios dinámicos de b�
 
 ## La vista [!UICONTROL Auto Targets]
 
-La vista [!UICONTROL Auto Targets] enumera todos los destinos de búsqueda dinámica en la vista filtrada de la cuenta de anunciante seleccionada.
-
-Puede crear, editar y cambiar el estado de los destinos de búsqueda dinámica en la vista [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Auto Targets].
-
-También puede [aplicar una etiqueta](/help/search-social-commerce/campaign-management/label-classifications/classification-values-assign-campaign-management.md) a cualquier destino.
+La vista [!UICONTROL Target] > [!UICONTROL Auto Targets] enumera todos los destinos de búsqueda dinámica en la vista filtrada de la cuenta de anunciante seleccionada. También puede administrar sus destinos de búsqueda dinámica.
 
 ### Acciones disponibles
 
@@ -59,7 +55,7 @@ También puede [aplicar una etiqueta](/help/search-social-commerce/campaign-mana
 * Change the status of dynamic search targets
 -->
 
-* [Asignar restricciones a destinos de búsqueda dinámica](#constraint-assign) y [anular la asignación de restricciones de destinos de búsqueda dinámica](#constraint-unassign)
+* [Asignar restricciones](#constraint-assign) a los destinos de búsqueda dinámica y [quitar restricciones](#constraint-unassign) de los destinos de búsqueda dinámica
 
 * [Asignar clasificaciones de etiquetas](#classification-values-assign) a destinos de búsqueda dinámica y [quitar clasificaciones de etiquetas](#classification-values-remove) de destinos de búsqueda dinámica
 
@@ -192,7 +188,7 @@ You can also delete any dynamic target.
 
 1. Haga clic en **[!UICONTROL Assign Now]**.
 
-## Quitar la asignación de restricciones de los destinos de búsqueda dinámica seleccionados de la nueva vista [!UICONTROL Auto Targets] {#constraint-unassign}
+## Quitar restricciones de los destinos de búsqueda dinámica seleccionados de la nueva vista [!UICONTROL Auto Targets] {#constraint-unassign}
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Auto Targets]**.
 
@@ -236,7 +232,7 @@ You can also delete any dynamic target.
 
 1. Haga clic en **+[!UICONTROL Assign Now]**.
 
-## Quitar valores de clasificación de etiquetas de destinos de búsqueda dinámica{#classification-values-remove}
+## Quitar valores de clasificación de etiquetas de destinos de búsqueda dinámica {#classification-values-remove}
 
 Al eliminar un valor de clasificación, se elimina la asociación con el componente de cuenta y todos sus componentes secundarios. Los datos del informe para el valor de clasificación ya no están disponibles para esos componentes. Al eliminar un valor de clasificación, no se elimina el valor ni los componentes de la cuenta.
 
