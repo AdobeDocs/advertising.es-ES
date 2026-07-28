@@ -28,13 +28,13 @@ ht-degree: 0%
 *Anunciantes con Advertising DSP y[!DNL Advertising Search, Social, & Commerce]*
 
 
-* (Anunciantes con Customer Journey Analytics pero no [!DNL Analytics for Advertising]) [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) versión 2.36 o superior.
+* (Anunciantes con Customer Journey Analytics pero no [!DNL Analytics for Advertising]) [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) versión 2.36 o superior.
 
 * Adobe Customer Journey Analytics con acceso a las herramientas de administración de datos
 
   Necesitará asistencia de su analista web interno para configurar una conexión con su conjunto de datos y crear informes.
 
-* (Anunciantes sin [!DNL Analytics for Advertising]) Tecnologías de modelado y administración de datos de Adobe Experience Platform (incluidos [esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) y [conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) y [tecnologías de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (incluidos [flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) y [etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+* (Anunciantes sin [!DNL Analytics for Advertising]) Tecnologías de modelado y administración de datos de Adobe Experience Platform (incluidos [esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) y [conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)) y [tecnologías de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/home) (incluidos [flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview) y [etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home))
 
   Estas tecnologías requieren la asistencia del administrador del sitio de Experience Platform.
 
