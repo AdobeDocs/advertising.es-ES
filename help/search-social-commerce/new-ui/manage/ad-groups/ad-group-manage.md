@@ -2,15 +2,11 @@
 title: Administrar grupos de anuncios
 description: Obtenga información sobre cómo crear y administrar grupos de anuncios.
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e120af366651028227306e993e73f125f29a431f
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
 workflow-type: tm+mt
 source-wordcount: 1676
 ht-degree: 0%
@@ -61,7 +57,7 @@ La vista [!UICONTROL Manage] > [!UICONTROL Ad Groups] enumera todos los grupos d
 
 1. Haga clic en **[!UICONTROL Create Ad Group]**.
 
-1. Especifique la configuración del grupo de anuncios [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yandex.md).
+1. Especifique la configuración del grupo de anuncios [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
@@ -97,7 +93,7 @@ Puede editar la configuración de grupos de anuncios individuales. También pued
 
    * Seleccione la casilla de verificación situada junto al grupo de anuncios. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Edit]**.
 
-1. Edite la configuración del grupo de anuncios [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yandex.md).
+1. Edite la configuración del grupo de anuncios [Baidu](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md).
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
@@ -323,8 +319,8 @@ Consulte también &quot;>* [(IU heredada) Descargar datos de una vista de admini
 >* [Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
 >* [(IU heredada) Descargar datos de una vista de administración de campañas](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(IU heredada) Eliminar un informe de datos de rendimiento o un archivo de hoja de edición masiva del menú [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [[!DNL Baidu] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-baidu.md)
->* [[!DNL Google Ads] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-google.md)
->* [[!DNL LY Ads] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yahoo-japan.md)
->* [[!DNL Microsoft Advertising] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-microsoft.md)
->* [[!DNL Yandex] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings/ad-group-settings-yandex.md)
+>* [[!DNL Baidu] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
+>* [[!DNL Google Ads] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
+>* [[!DNL LY Ads] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-ly.md)
+>* [[!DNL Microsoft Advertising] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
+>* [[!DNL Yandex] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-yandex.md)

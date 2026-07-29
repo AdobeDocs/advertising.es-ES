@@ -2,15 +2,11 @@
 title: Administración de campañas
 description: Aprenda a crear y administrar campañas publicitarias.
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7dc3ea3fe1fcb701d9d064b184922ed96626cd4a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 6b67f3e2759ddd80300c86df610b36684b7a07e2
 workflow-type: tm+mt
 source-wordcount: 2285
 ht-degree: 0%
@@ -68,7 +64,7 @@ Search, Social y Commerce extrae datos de rendimiento cada hora de las cuentas s
 
 1. Haga clic en **[!UICONTROL Create Campaign]**.
 
-1. Especifique la configuración de la campaña [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md).
+1. Especifique la configuración de la campaña [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
@@ -104,7 +100,7 @@ Puede editar la configuración de campañas individuales. También puede editar 
 
    * Seleccione la casilla de verificación situada junto a la campaña. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Edit]**.
 
-1. Editar [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-meta.md), --> Configuración de la campaña [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md).
+1. Editar [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Configuración de la campaña [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
@@ -426,11 +422,11 @@ Consulte también &quot;>* [(IU heredada) Descargar datos de una vista de admini
 >* [Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
 >* [(IU heredada) Descargar datos de una vista de administración de campañas](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
 >* [(IU heredada) Eliminar un informe de datos de rendimiento o un archivo de hoja de edición masiva del menú [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [[!DNL Baidu] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-baidu.md)
->* [[!DNL Google Ads] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-google.md)
->* [[!DNL LY Ads] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yahoo-japan.md)
->* [[!DNL Microsoft Advertising] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-microsoft.md)
->* [[!DNL Yandex] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-yandex.md)
+>* [[!DNL Baidu] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
+>* [[!DNL Google Ads] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
+>* [[!DNL LY Ads] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md)
+>* [[!DNL Microsoft Advertising] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
+>* [[!DNL Yandex] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md)
 
-<!-- >* [[!DNL Meta Ads] campaign settings](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings/campaign-settings-meta.md) -->
+<!-- >* [[!DNL Meta Ads] campaign settings](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md) -->
 
