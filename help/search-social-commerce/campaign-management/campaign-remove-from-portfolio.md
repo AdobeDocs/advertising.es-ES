@@ -4,15 +4,12 @@ description: Obtenga información sobre cómo eliminar campañas de un portafoli
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
 TQID: https://experienceleague.adobe.com/0fmf5-BIR03Mm2iEU78xdvR-VczJ-i0d0ZpjR8dYYj4
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 3d87bfab8f577b69a86abd0a6b50d07f70ae60a8
 workflow-type: tm+mt
-source-wordcount: 250
+source-wordcount: 251
 ht-degree: 0%
 
 ---
@@ -29,7 +26,9 @@ Para obtener más información sobre la optimización, consulte la Guía de opti
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar") **[!UICONTROL Edit]**.
+1. Seleccione la casilla de verificación situada junto al portafolio.
+
+1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Edit]**.
 
 1. En la configuración del portafolio, vaya a la sección [!UICONTROL Assign Campaigns] y cambie las asignaciones de campaña.
 

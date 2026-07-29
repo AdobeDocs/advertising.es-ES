@@ -2,7 +2,7 @@
 title: Columnas de informes para informes básicos y avanzados
 description: Obtenga información sobre las columnas de datos disponibles para los informes básicos y avanzados.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: be8b6c1095e48b1aaba92004437de6d7e6ed181a
+source-git-commit: 42bff10a5cf8df733b223fa96cd10c00c9e40d44
 workflow-type: tm+mt
 source-wordcount: '3979'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] anuncios de búsqueda adaptables) La eficacia del anuncio: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> o <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] campañas) El ajuste de oferta móvil actual de nivel de grupo de anuncios, que determina cómo se ajustan las ofertas cuando el anuncio se muestra en un dispositivo móvil. |
 | [!UICONTROL AI Max Bundling Required] | (Campañas dirigidas únicamente a la red de búsqueda; campañas con la función AI Max habilitada; solo lectura) Si se requiere el agrupamiento: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* o nulo. |
-| [!UICONTROL AI Max Enabled] | Si la característica [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) está habilitada: [!UICONTROL true]*, *[!UICONTROL false]* o es nula. |
+| [!UICONTROL AI Max Enabled] | Si la característica [[!UICONTROL AI Max] ](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL true]*, *[!UICONTROL false]* o es nula. |
 | [!UICONTROL AI Max Search Term Matching] | (Campañas dirigidas a la red de búsqueda para las que la característica [AI Max](https://support.google.com/google-ads/answer/15910366) y la característica de coincidencia de términos de búsqueda en el nivel de campaña están habilitadas; solo lectura) Indica si la coincidencia de términos de búsqueda en el nivel de grupo de anuncios está habilitada: *[!UICONTROL true]*, *[!UICONTROL false]* o nula. |
 | [!UICONTROL Advertiser] | El nombre del anunciante. |
 | [!UICONTROL Advertiser ID] | ID numérico de la cuenta de Search, Social y Commerce del anunciante. |
