@@ -11,9 +11,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: a534a6eb822a22dcff7ca7ca9e8dcd4f3d75712c
 workflow-type: tm+mt
-source-wordcount: 8026
+source-wordcount: 8027
 ht-degree: 0%
 
 ---
@@ -38,6 +38,20 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 >* Cuando se crea un nuevo registro y no se incluyen valores para todos los campos de datos requeridos, algunos de esos campos se asignan a los valores predeterminados especificados.
 >* Para los campos que no se especifican a continuación, se utiliza el valor predeterminado para la red publicitaria.
 >* Para obtener una lista de las filas de hojas de edición masiva disponibles en el cuadro de diálogo [!UICONTROL Download Bulksheet], consulte &quot;[Filas de hojas de edición masiva por red de anuncios](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)&quot;.
+
+
+<!--
+
+Add in when released:
+
+| [!UICONTROL AI Max Enabled] | Whether the [[!UICONTROL AI Max] feature](https://support.google.com/google-ads/answer/15910366) is enabled for the campaign: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+| [!UICONTROL AI Max Asset Automation] | Whether the "Text Automation" setting for [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+
+| [!UICONTROL AI Max Search Term Matching] | Whether the "[!UICONTROL AI Max Search Term Matching]" setting for ad groups in [!UICONTROL AI Max]-enabled campaigns is enabled: *[!UICONTROL true]*, *[!UICONTROL false]*, or null. |
+
+-->
 
 | Campo | Descripción |
 | ---- | ---- |

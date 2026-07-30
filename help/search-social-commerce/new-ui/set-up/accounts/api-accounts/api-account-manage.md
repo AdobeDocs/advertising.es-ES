@@ -3,9 +3,9 @@ title: (Nueva IU) Administrar las cuentas de red de publicidad
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta en la nueva interfaz de usuario para una red de publicidad sincronizada mediante la API de red de publicidad.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 694cc3c6bc6217cf6f1febf5da28fd7988690622
+source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
 workflow-type: tm+mt
-source-wordcount: '2215'
+source-wordcount: '2143'
 ht-degree: 0%
 
 ---
@@ -40,13 +40,7 @@ Para habilitar la sincronización de una cuenta, debe crear un registro de cuent
 
 1. (Todas las redes de anuncios excepto [!DNL Yandex]) Inicie sesión en la red de anuncios con las credenciales del anunciante. Seleccione la opción &quot;Seguimiento de cuentas para esta cuenta&quot;. A continuación, en la esquina superior derecha, haga clic en **[!UICONTROL Next]**.
 
-1. Especifique la [configuración de la cuenta](#account-settings-api):
-
-   1. En la ficha **[!UICONTROL Select Accounts]**, especifique la configuración general de la cuenta. Especifique las credenciales de la cuenta para [!DNL Yandex] cuentas.
-
-   1. Haga clic en la ficha **[!UICONTROL Setup Tracking]** e introduzca la configuración de seguimiento.
-
-   1. (Anunciantes con una [[!DNL Adobe Analytics for Advertising] integración](/help/integrations/analytics/overview.md)) Haga clic en la ficha **[!UICONTROL Set up Adobe Analytics]** y seleccione los [!DNL Analytics] grupos de informes que quiera usar para realizar el seguimiento y generar informes de la actividad de la campaña.
+1. Especifique la [configuración de la cuenta](#account-settings-api) en cada ficha disponible.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -68,15 +62,7 @@ Para volver a autenticar la configuración de la cuenta a fin de actualizar la c
 
    * Mantenga el cursor sobre el nombre de la cuenta, haga clic en **...** y, a continuación, haga clic en **[!UICONTROL Edit]**.
 
-1. Editar la [configuración de la cuenta](#account-settings-api):
-
-   1. (Opcional) En la ficha **[!UICONTROL Account Details]**, edite los detalles de la cuenta.
-
-   1. (Opcional) Haga clic en la ficha **[!UICONTROL Setup Tracking]** y edite la configuración de seguimiento.
-
-   1. (Opcional; anunciantes con una [[!DNL Adobe Analytics for Advertising] integración](/help/integrations/analytics/overview.md)) Haga clic en la ficha **[!UICONTROL Set up Adobe Analytics]** y edite los [!DNL Analytics] grupos de informes que quiera usar para rastrear y generar informes sobre la actividad de la campaña.
-
-   <!-- What are the repercussions of changing the suites? Timing of updated data? -->
+1. Edite la [configuración de la cuenta](#account-settings-api) en las fichas disponibles.
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -114,21 +100,21 @@ Al habilitar una cuenta de red de publicidad, Search, Social y Commerce sincroni
 
    * (Desde la vista [!UICONTROL Accounts]):
 
-      * (Para habilitar la cuenta) Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Activate]** en la barra de herramientas de acciones en masa.
+     * (Para habilitar la cuenta) Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Activate]** en la barra de herramientas de acciones en masa.
 
-      * (Para deshabilitar la cuenta) Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Pause]** en la barra de herramientas de acciones en masa.
+     * (Para deshabilitar la cuenta) Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Pause]** en la barra de herramientas de acciones en masa.
 
    * (Desde la configuración de la cuenta):
 
-      1. Seleccione la cuenta de cualquiera de las siguientes maneras:
+     1. Seleccione la cuenta de cualquiera de las siguientes maneras:
 
-         * Mantenga el cursor sobre el nombre de la cuenta, haga clic en **...** y, a continuación, haga clic en **[!UICONTROL Edit]**.
+        * Mantenga el cursor sobre el nombre de la cuenta, haga clic en **...** y, a continuación, haga clic en **[!UICONTROL Edit]**.
 
-         * Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Edit]** en la barra de herramientas de acciones masivas.
+        * Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Edit]** en la barra de herramientas de acciones masivas.
 
-      1. En la ficha **[!UICONTROL Account Details]**, desactive **[!UICONTROL Account enabled]**.
+     1. En la ficha **[!UICONTROL Account Details]**, desactive **[!UICONTROL Account enabled]**.
 
-      1. Haga clic en **[!UICONTROL Save]**.
+     1. Haga clic en **[!UICONTROL Save]**.
 
 ## Configuración de cuenta de red de anuncios {#account-settings-api}
 
@@ -232,9 +218,9 @@ Las cuentas que usan el rastreo de clics de Adobe Advertising deben incluir el i
 
 * Para incrustar la dirección URL final:
 
-   * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
+  * ([!DNL LY Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
 
 * Si lo desea, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separados por el símbolo &quot;et&quot; (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -248,11 +234,11 @@ Las cuentas que usan el rastreo de clics de Adobe Advertising deben incluir el i
 >* La plantilla de seguimiento en el nivel más granular anula los valores en todos los niveles superiores. Por ejemplo, si tanto la configuración de la cuenta como la configuración de la palabra clave incluyen un valor, se aplica el valor de la palabra clave.
 >* Si actualiza una plantilla de seguimiento en el nivel de anuncio, vínculo de sitio o palabra clave, los anuncios relevantes se vuelven a enviar para su revisión. Puede actualizar las plantillas de seguimiento en los niveles de cuenta, campaña o grupo de publicidad sin volver a enviar los anuncios para su aprobación.
 
-## Ficha [!UICONTROL Setup Analytics]
+## Ficha [!UICONTROL Set up Adobe Analytics]
 
 Esta configuración está disponible para anunciantes con una [[!DNL Adobe Analytics for Advertising] integración](/help/integrations/analytics/overview.md).
 
-**[!UICONTROL Adobe Analytics Report Suite]:** (opcional) uno o más grupos de informes de Analytics a los que Search, Social y Commerce envían los datos que recopila de la red de publicidad, incluidas las clasificaciones de entidades y los datos de clics de la cuenta. Esta función solo está disponible para las redes de publicidad admitidas.
+**[!UICONTROL Adobe Analytics Report Suite]:** (opcional) uno o más grupos de informes de Analytics a los que Search, Social y Commerce envían los datos que recopila de la red de publicidad, incluidas las clasificaciones de entidades y los datos de clics de la cuenta. Esta característica solo está disponible para las redes de publicidad admitidas.<!-- What are the repercussions of changing the suites? Timing of updated data? -->
 
 Para que los datos aparezcan en los grupos de informes, ya sea (a) la función de ID de AMO del lado del servidor debe estar configurada para la cuenta o (b) la configuración de nivel de anunciante a &quot;[!UICONTROL Enable Advertising reporting in Analytics]&quot; debe estar habilitada. Además, la cuenta del anunciante [!DNL Analytics] debe estar configurada para recibir datos de Search, Social y Commerce. Para obtener más información, póngase en contacto con el equipo de cuenta de Adobe.
 

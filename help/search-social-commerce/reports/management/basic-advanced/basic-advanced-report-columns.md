@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+source-git-commit: 41a9add10a9d12e8452d18825fd732720b27243f
 workflow-type: tm+mt
-source-wordcount: 3846
+source-wordcount: 3847
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] anuncios de búsqueda adaptables) La eficacia del anuncio: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> o <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads] y [!DNL Microsoft Advertising] campañas) El ajuste de oferta móvil actual de nivel de grupo de anuncios, que determina cómo se ajustan las ofertas cuando el anuncio se muestra en un dispositivo móvil. |
 | [!UICONTROL AI Max Bundling Required] | (Campañas dirigidas únicamente a la red de búsqueda; campañas con la función AI Max habilitada; solo lectura) Si se requiere el agrupamiento: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* o nulo. |
-| [!UICONTROL AI Max Enabled] | Si la característica [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) está habilitada: [!UICONTROL true]*, *[!UICONTROL false]* o es nula. |
+| [!UICONTROL AI Max Enabled] | Si la característica [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL true]*, *[!UICONTROL false]* o es nula. |
 | [!UICONTROL AI Max Search Term Matching] | (Campañas dirigidas a la red de búsqueda para las que la característica [AI Max](https://support.google.com/google-ads/answer/15910366) y la característica de coincidencia de términos de búsqueda en el nivel de campaña están habilitadas; solo lectura) Indica si la coincidencia de términos de búsqueda en el nivel de grupo de anuncios está habilitada: *[!UICONTROL true]*, *[!UICONTROL false]* o nula. |
 | [!UICONTROL Advertiser] | El nombre del anunciante. |
 | [!UICONTROL Advertiser ID] | ID numérico de la cuenta de Search, Social y Commerce del anunciante. |
@@ -136,7 +136,7 @@ ht-degree: 0%
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] y [!UICONTROL Label Value Report]) La clasificación de etiquetas. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] y [!UICONTROL Label Value Report]) Un valor para la clasificación de etiquetas. |
 | [!UICONTROL Language] | (Mostrar campañas) El idioma o los idiomas de la audiencia de destino. |
-| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] y [!DNL Microsoft Advertising] campañas solamente; los datos solo están disponibles cuando la regla de atribución especificada para el informe es &quot;Último evento&quot;) Cuando la fila informa de una conversión resultante de un clic en una extensión de anuncio (en lugar de en el propio anuncio) o en un anuncio de producto/compra, esta columna muestra el tipo y el título de un vínculo en el que se hizo clic:<ul><li>`pla:*` — Los anuncios de productos se muestran como `pla:<product ID>`, como &quot;pla:8525822&quot;.</li><li>`sl:*` — Los vínculos de sitio se muestran como `sl:<Sitelink text>`, como &quot;sl:See ofertas actuales&quot;.</li></ul> |
+| [!UICONTROL Link Type] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] y [!DNL Microsoft Advertising] campañas solamente; los datos solo están disponibles cuando la regla de atribución especificada para el informe es &quot;Último evento&quot;) Cuando la fila informa de una conversión resultante de un clic en una extensión de anuncio (en lugar de en el propio anuncio) o en un anuncio de producto/compra, esta columna muestra el tipo y el título de un vínculo en el que se hizo clic:<ul><li>`pla:*` — Los anuncios de productos se muestran como `pla:<product ID>`, como &quot;play:8525822&quot;.</li><li>`sl:*` — Los vínculos de sitio se muestran como `sl:<Sitelink text>`, como &quot;sl:See ofertas actuales&quot;.</li></ul> |
 | [!UICONTROL Listing Match Type] | El tipo de coincidencia de palabra clave para la lista de anuncios, <i>[!UICONTROL Content]</i> para un anuncio en una campaña con objetivo de contenido o <i>[!UICONTROL Sitecpc]</i> para una ubicación en una campaña con objetivo de sitio. Para las palabras clave [!DNL Microsoft Advertising], esto puede incluir varios tipos de coincidencia (como &quot;[!UICONTROL Broad],[!UICONTROL Exact]&quot;). |
 | [!UICONTROL Location] | (Mostrar campañas) Las ubicaciones de audiencia de destino. |
 | [!UICONTROL Long Creative Title1] - [!UICONTROL Long Creative Title5] | (En las filas de informes completadas de [!DNL Microsoft Advertising] anuncios interactivos y multimedia) Los titulares largos del anuncio. Para ver estas columnas, incluya la columna &quot;[!UICONTROL Long Creative Titles]&quot; en la configuración del informe. |
