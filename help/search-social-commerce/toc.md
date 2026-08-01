@@ -26,10 +26,10 @@ ht-degree: 2%
   + [Inventario admitido](/help/search-social-commerce/introduction/supported-inventory.md)
   + Integración con Adobe CX Enterprise {#integrations}
     + [Integración con las soluciones y servicios empresariales de Adobe CX](/help/search-social-commerce/introduction/integrations.md)
-    + [Adobe [!DNL Analytics for Advertising] (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
-    + [Integración con Adobe Audience Manager (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
-  + [Compatibilidad con la privacidad del consumidor (vínculo)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
-  + [Políticas y directrices (vínculo)](https://experienceleague.adobe.com/en/docs/advertising/policies/ad-requirements-policy){target="_blank"}
+    + [Adobe [!DNL Analytics for Advertising] (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es){target="_blank"}
+    + [Integración con Adobe Audience Manager (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=es){target="_blank"}
+  + [Compatibilidad con la privacidad del consumidor (vínculo)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
+  + [Políticas y directrices (vínculo)](https://experienceleague.adobe.com/es/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Primeros pasos {#getting-started}
   + [Resumen de implementación](/help/search-social-commerce/getting-started/implemention-overview.md)
   + [Requisitos del sistema](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -212,8 +212,8 @@ ht-degree: 2%
           + [Configuración del informe de precisión de modelo](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
       + [Administrar plantillas de informe](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
       + [Acceso FTP a informes](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
-      + [Cálculo de las reglas de atribución](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
-      + [Preguntas frecuentes sobre informes personalizados](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+      + [Cálculo de las reglas de atribución](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+      + [Preguntas frecuentes sobre informes personalizados](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
     + [Administrar fuentes de informes de hoja de cálculo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
     + [Ver registros de historial de cambios](/help/search-social-commerce/new-ui/reports/history-logs.md)
     + [Administrar clasificaciones de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
@@ -269,13 +269,13 @@ ht-degree: 2%
         + [Formatos de rastreo de clics para  [!DNL Yahoo DSP]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
         + [Formatos de rastreo de clics para  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
       + [Parámetros de seguimiento opcionales para URL de seguimiento de clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-    + [Cookies de Adobe Advertising (vínculo)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
+    + [Cookies de Adobe Advertising (vínculo)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=es){target="_blank"}
     + [El parámetro de seguimiento de ID de AMO (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
   + Seguimiento de conversión {#conversion-tracking}
     + [Opciones de seguimiento de conversión](/help/search-social-commerce/tracking/conversion-tracking-about.md)
     + Seguimiento de conversión de Adobe Advertising {#advertising-conversion-tracking}
       + [Acerca de las etiquetas de seguimiento de conversión de Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-      + [Generar e implementar una etiqueta de conversión de Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
+      + [Generar e implementar una etiqueta de conversión de Adobe Advertising](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
       + [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
       + [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
       + [Formato de las etiquetas de seguimiento de conversión de imagen](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
