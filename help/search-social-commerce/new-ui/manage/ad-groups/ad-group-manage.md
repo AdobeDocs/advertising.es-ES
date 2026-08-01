@@ -2,15 +2,11 @@
 title: Administrar grupos de anuncios
 description: Obtenga información sobre cómo crear y administrar grupos de anuncios.
 feature: Search Campaign Management
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
-subfeature_v2:
-  - id: f3d33161-c519-436e-bbbd-730ba428736b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+subfeature_v2: id: f3d33161-c519-436e-bbbd-730ba428736b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fc836f17b53a3708bf881dc62a437d391709a050
 workflow-type: tm+mt
 source-wordcount: 1676
 ht-degree: 0%
@@ -65,7 +61,7 @@ La vista [!UICONTROL Manage] > [!UICONTROL Ad Groups] enumera todos los grupos d
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
-1. Si es necesario, haz clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") y cambia la configuración del grupo de anuncios.
+1. Si es necesario, haz clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** y cambia la configuración del grupo de anuncios.
 
 1. Haga clic en **[!UICONTROL Create]**.
 
@@ -101,7 +97,7 @@ Puede editar la configuración de grupos de anuncios individuales. También pued
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
-1. Si es necesario, haz clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") y cambia la configuración del grupo de anuncios.
+1. Si es necesario, haz clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** y cambia la configuración del grupo de anuncios.
 
 1. Haga clic en **[!UICONTROL Update]**.
 
