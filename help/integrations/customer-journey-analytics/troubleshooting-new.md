@@ -3,21 +3,13 @@ title: Solución de problemas de datos de Adobe Advertising en Customer Journey 
 description: Obtenga información sobre cómo solucionar y resolver problemas con los datos de Adobe Advertising en Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: bf9cdd654131b619e3f650478f2f89afaaa625fd
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 3bc3225fe8cc510b26c40f6c66febc9b7e166702
 workflow-type: tm+mt
-source-wordcount: 2980
+source-wordcount: 3027
 ht-degree: 0%
 
 ---
@@ -60,7 +52,7 @@ Síntomas:
 
 | Causa | Fix |
 | ----- | --- |
-| Biblioteca no publicada o en estado de borrador | Vaya a [Flujo de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow) y asegúrese de que la biblioteca que contiene la extensión WebSDK está en el estado aprobado/publicado. |
+| Biblioteca no publicada o en estado de borrador | Vaya a [Flujo de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) y asegúrese de que la biblioteca que contiene la extensión WebSDK está en el estado aprobado/publicado. |
 | Falta el código incrustado o el entorno es incorrecto | Compruebe que el código incrustado de [!DNL Tags] en la página web hace referencia al entorno correcto (Dev/Stage/Prod). Busque el entorno en la etiqueta `<head>` para la etiqueta de script `//assets.adobedtm.com/...`. |
 | Conflicto de carga asíncrona frente a sincrónica | Asegúrese de que solo hay un código incrustado de [!DNL Tags] por página web. Los códigos incrustados duplicados causan condiciones de carrera. |
 | Bloqueo de la política de seguridad de contenido (CSP) | Agregue `edge.adobedc.net` `and assets.adobedtm.com` a sus directivas CSP `connect-src` y `script-src`. |
@@ -75,8 +67,8 @@ Síntomas:
 
 | Causa | Fix |
 | ----- | --- |
-| Falta el ID de secuencia de datos para la propiedad de etiqueta o es incorrecto. | <ol><li>En [!DNL Tags], abra los [ajustes de configuración de secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de su propiedad de etiquetas.</li><li>Confirme que el campo [!UICONTROL Datastream] señala a la secuencia de datos correcta para cada entorno (desarrollo, ensayo y producción), así como al esquema y al conjunto de datos correctos.<br><br>Cada entorno debe tener su propia secuencia de datos a menos que comparta explícitamente una secuencia de datos en los tres entornos.</li></ol> |
-| Los servicios de flujo de datos no están habilitados para la propiedad de etiqueta. | [Abra la configuración del flujo de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) y asegúrese de que los siguientes servicios estén habilitados:<ul><li>Adobe Advertising (para conversión/sincronización de audiencia)</li><li>Adobe Experience Platform (para la ingesta de perfiles)</li></ul> |
+| Falta el ID de secuencia de datos para la propiedad de etiqueta o es incorrecto. | <ol><li>En [!DNL Tags], abra los [ajustes de configuración de secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de su propiedad de etiquetas.</li><li>Confirme que el campo [!UICONTROL Datastream] señala a la secuencia de datos correcta para cada entorno (desarrollo, ensayo y producción), así como al esquema y al conjunto de datos correctos.<br><br>Cada entorno debe tener su propia secuencia de datos a menos que comparta explícitamente una secuencia de datos en los tres entornos.</li></ol> |
+| Los servicios de flujo de datos no están habilitados para la propiedad de etiqueta. | [Abra la configuración del flujo de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) y asegúrese de que los siguientes servicios estén habilitados:<ul><li>Adobe Advertising (para conversión/sincronización de audiencia)</li><li>Adobe Experience Platform (para la ingesta de perfiles)</li></ul> |
 | Discordancia de zona protegida | Asegúrese de que la secuencia de datos pertenezca a la misma zona protegida de Adobe Experience Platform que el esquema y el conjunto de datos. Un error común es crear una secuencia de datos en la zona protegida de producción, pero señalar esquemas a la zona protegida de desarrollo. |
 
 ### Problemas de identidad y ECID {#identity-and-ecid-issues}
@@ -194,7 +186,7 @@ Síntomas:
 
   1. Abra la página web con `ef_id=test&s_kwcid=test` anexado a la dirección URL.
   1. Abra la herramienta de inspección de código del explorador (denominada con frecuencia [!DNL Inspect]), abra la pestaña [!DNL Network] y busque una llamada de interacción para event_type=&quot;advertising.enrichment_ct&quot; desde Adobe Experience Platform.
-  1. En la interfaz de recopilación de datos, [abra la definición de esquema](https://experienceleague.adobe.com/es/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) de los datos del sitio web que desea recopilar y confirme que `xdm->_experience->adcloud->conversionDetails->trackingCode` y `trackingIdentities` contienen `ef_id` y `s_kwcid`.
+  1. En la interfaz de recopilación de datos, [abra la definición de esquema](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) de los datos del sitio web que desea recopilar y confirme que `xdm->_experience->adcloud->conversionDetails->trackingCode` y `trackingIdentities` contienen `ef_id` y `s_kwcid`.
 
 * `_experience.adcloud` no aparece en la carga del Modelo de datos de experiencia (XDM) para clics.
 
@@ -202,12 +194,12 @@ Síntomas:
 
 | Causa | Fix |
 | ----- | --- |
-| El servicio `Adobe Advertising` no está habilitado para la secuencia de datos | <ol><li>En [!DNL Tags], abra los [ajustes de configuración de secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de su propiedad de etiquetas.</li><li>Habilite los siguientes servicios y guarde la configuración:<ul><li>Adobe Advertising (para conversión/sincronización de audiencia)</li><li>Adobe Experience Platform (para la ingesta de perfiles)</li></ul></ol> |
-| El componente `Adobe Advertising` no está habilitado para la extensión [!UICONTROL WebSDK] | El componente `Adobe Advertising` de la extensión WebSDK está deshabilitado de forma predeterminada y debe habilitarse explícitamente antes de que funcione cualquier seguimiento de pulsaciones o visualizaciones de Adobe Advertising, independientemente de cómo se configuren el esquema o las reglas XDM.<ol><li>En [!DNL Tags], abra las [opciones de generación de la propiedad en los ajustes de configuración de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).</li><li>Habilite el componente **Advertising** y guarde la configuración.</li><li>Vuelva a compilar y publicar la biblioteca.</li></ol> |
+| El servicio `Adobe Advertising` no está habilitado para la secuencia de datos | <ol><li>En [!DNL Tags], abra los [ajustes de configuración de secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de su propiedad de etiquetas.</li><li>Habilite los siguientes servicios y guarde la configuración:<ul><li>Adobe Advertising (para conversión/sincronización de audiencia)</li><li>Adobe Experience Platform (para la ingesta de perfiles)</li></ul></ol> |
+| El componente `Adobe Advertising` no está habilitado para la extensión [!UICONTROL WebSDK] | El componente `Adobe Advertising` de la extensión WebSDK está deshabilitado de forma predeterminada y debe habilitarse explícitamente antes de que funcione cualquier seguimiento de pulsaciones o visualizaciones de Adobe Advertising, independientemente de cómo se configuren el esquema o las reglas XDM.<ol><li>En [!DNL Tags], abra las [opciones de generación de la propiedad en los ajustes de configuración de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).</li><li>Habilite el componente **Advertising** y guarde la configuración.</li><li>Vuelva a compilar y publicar la biblioteca.</li></ol> |
 | Solo se registran las conversiones de pulsaciones; las conversiones de visualizaciones nunca aparecen | Este es el comportamiento predeterminado esperado. Una vez habilitado el componente `Adobe Advertising`, el seguimiento de clics se activa automáticamente mediante los parámetros de consulta de URL `s_kwcid` y `ef_id`. El seguimiento de visualizaciones está deshabilitado de forma predeterminada y requiere una configuración adicional; consulte la fila siguiente. |
-| El seguimiento de visualizaciones no está habilitado o configurado | <ol><li>Vaya a [!UICONTROL Data Collection] > [!UICONTROL Datastreams] en Adobe Experience Platform y abra la secuencia de datos utilizada por su propiedad de [!DNL Tags].</li><li>Seleccione **Agregar servicio**, seleccione **Adobe Advertising** y **Adobe Experience Platform**, y después seleccione **Guardar**.</li><li>En [!DNL Tags], vaya a [!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure].</li><li>En la sección [!UICONTROL Advertiser], seleccione un anunciante del menú desplegable y actívelo. Para configurar varios anunciantes, seleccione **Agregar anunciante**.</li><li>En AEP Debugger, confirme que la llamada de interacción incluye `stitchId` en el campo `xdm.query`. También puede confirmar desde la ficha del explorador [!UICONTROL Network] que se ha activado un evento de tipo `advertising.enrichment` que incluye `stitchId` en `xdm.query`.</li></ol> Las conversiones de visualización solo se activan cada 30 minutos, independientemente del número de visitas; si no ve una llamada de interacción, borre la caché del explorador e inténtelo de nuevo. |
-| El anunciante se escribió manualmente en lugar de seleccionarlo en la lista desplegable | Vuelva a seleccionar el anunciante de la lista desplegable [!UICONTROL Advertiser] en lugar de introducirlo manualmente. |
-| No se envía ningún ID de anunciante con la llamada de interacción de visualización | Confirme que hay un anunciante configurado y habilitado en la sección [!UICONTROL Advertiser] de la configuración de la extensión del SDK web y, a continuación, vuelva a generar y publicar la biblioteca. |
+| El seguimiento de visualizaciones no está habilitado o configurado | <ol><li>Habilitar el servicio de Adobe Advertising para el conjunto de datos</li><ol><li>Vaya a [!UICONTROL Data Collection] > [!UICONTROL Datastreams] en Adobe Experience Platform y abra la secuencia de datos utilizada por su propiedad de [!DNL Tags].</li><li>Seleccione **Agregar servicio**, seleccione **Adobe Advertising** y **Adobe Experience Platform**, y después seleccione **Guardar**.</li></ol><li>Configuración de anunciantes en Adobe Advertising DSP</li><ol><li>En [!DNL Tags], vaya a [!UICONTROL Extensions] > [!UICONTROL Installed] > **Adobe Experience Platform Web SDK** > [!UICONTROL Configure].</li><li>En la sección [!UICONTROL Advertiser], seleccione un anunciante del menú desplegable y actívelo. Para configurar varios anunciantes, seleccione **Agregar anunciante**.</li></ol><li>Compruebe que se están activando los píxeles de conversión de visualización</li><ol><li>En AEP Debugger, confirme que la llamada de interacción incluye `stitchId` en el campo `xdm.query`.</li><li>Confirme en la ficha del explorador [!UICONTROL Network] que se ha activado un evento de tipo `advertising.enrichment` que incluye `stitchId` en `xdm.query`.</li></ol></ol> Las conversiones de visualización solo se activan cada 30 minutos, independientemente del número de visitas. Si no ve una llamada de interacción, borre la caché del explorador e inténtelo de nuevo. |
+| (Si no hay eventos de visualización en Experience Platform después de que se active la llamada de interacción de visualización) Se escribió el anunciante manualmente en lugar de seleccionarlo en la lista desplegable | Vuelva a seleccionar el anunciante de la lista desplegable [!UICONTROL Advertiser] en lugar de introducirlo manualmente. |
+| (Si no hay eventos de visualización en Experience Platform después de que se active la llamada de interacción de visualización) No se envía ningún ID de anunciante con la llamada de interacción de visualización | Confirme que hay un anunciante configurado y habilitado en la sección [!UICONTROL Advertiser] de la configuración de la extensión del SDK web y, a continuación, vuelva a generar y publicar la biblioteca. |
 
 Antes de abrir un vale de soporte para [!UICONTROL Advertising] problemas de configuración de la extensión, compruebe lo siguiente:
 
@@ -317,7 +309,7 @@ Compruebe lo siguiente:
 
 * Las dimensiones y métricas de resumen de Adobe Advertising se incluyen en la vista de datos de Customer Journey Analytics.
 
-Si verifica toda la configuración anterior pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support).
+Si verifica toda la configuración anterior pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
@@ -329,7 +321,7 @@ Compruebe lo siguiente:
 
 * La configuración &quot;[!UICONTROL Backfill all existing data]&quot; está habilitada para sus tres conjuntos de datos (métricas de dimensión, clasificación, búsqueda, resumen y evento) en su conexión de Customer Journey Analytics.
 
-Si verifica todas las condiciones anteriores pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support).
+Si verifica todas las condiciones anteriores pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
@@ -337,7 +329,7 @@ Si verifica todas las condiciones anteriores pero sigue sin ver los datos de res
 
 Compruebe que la fuente de Adobe Advertising a Customer Journey Analytics esté habilitada para la cuenta específica de red de publicidad. Consulte con el equipo de cuenta de Adobe.
 
-Si la fuente está habilitada para una cuenta pero aún no ves datos de resumen, abre un ticket de asistencia para tu organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
+Si la fuente está habilitada para una cuenta pero aún no ves datos de resumen, abre un ticket de asistencia para tu organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
 
 +++
 
@@ -353,7 +345,7 @@ Compruebe lo siguiente:
 
 * La configuración &quot;[!UICONTROL Backfill all existing data]&quot; está habilitada para sus tres conjuntos de datos (métricas de dimensión, clasificación, búsqueda, resumen y evento) en su conexión de Customer Journey Analytics.
 
-Si está seguro de una discrepancia en los datos, abra un ticket de asistencia para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad. Para mostrar evidencia de la discrepancia, incluya capturas de pantalla y hojas de cálculo. El equipo de cuenta de Adobe puede corregir de forma retroactiva la fuente de datos para resolver la discrepancia si es necesario.
+Si está seguro de una discrepancia en los datos, abra un ticket de asistencia para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad. Para mostrar evidencia de la discrepancia, incluya capturas de pantalla y hojas de cálculo. El equipo de cuenta de Adobe puede corregir de forma retroactiva la fuente de datos para resolver la discrepancia si es necesario.
 
 +++
 
@@ -375,7 +367,7 @@ Compruebe lo siguiente, empezando por los elementos con menos barreras de verifi
 
 * Los ajustes de Adobe Advertising se configuran correctamente en la extensión del SDK web y se publican.
 
-Si verifica toda la configuración anterior pero sigue sin ver los datos de conversión, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
+Si verifica toda la configuración anterior pero sigue sin ver los datos de conversión, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
 
 +++
 
