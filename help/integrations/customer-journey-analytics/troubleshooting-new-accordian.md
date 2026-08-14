@@ -3,10 +3,18 @@ title: Solución de problemas de datos de Adobe Advertising en Customer Journey 
 description: Obtenga información sobre cómo solucionar y resolver problemas con los datos de Adobe Advertising en Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2:
+  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: b3b90fc7d453a9450f5858e47ae4c05243808a03
 workflow-type: tm+mt
 source-wordcount: 3018
@@ -42,7 +50,7 @@ A continuación se indican posibles problemas, sus posibles causas y soluciones.
 
 ## Problemas de instalación y configuración {#issues-installation-setup}
 
-### La extensión WebSDK no inicializa {#websdk-extension-doesn&#39;t-initialize}
+### La extensión WebSDK no inicializa #websdk-extension-doesn&#39;t-initialize
 
 Síntomas:
 
@@ -125,7 +133,7 @@ Establezca `idMigrationEnabled: true` en la configuración base de WebSDK para m
 
 +++
 
-### Las reglas o los eventos no se activan {#rules-or-events-aren&#39;t-fire}
+### Las reglas o los eventos no se activan #rules-or-events-aren&#39;t-fire
 
 Síntomas:
 
