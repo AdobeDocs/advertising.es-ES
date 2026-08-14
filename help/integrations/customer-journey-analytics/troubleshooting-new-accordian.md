@@ -3,21 +3,13 @@ title: Solución de problemas de datos de Adobe Advertising en Customer Journey 
 description: Obtenga información sobre cómo solucionar y resolver problemas con los datos de Adobe Advertising en Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 hide: true
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 21280b9826b60e69d9f4829062db1b140aba5c88
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: eeb21c1e06f6e10409a3afde9ea0743539a01a42
 workflow-type: tm+mt
-source-wordcount: 3204
+source-wordcount: 3209
 ht-degree: 0%
 
 ---
@@ -33,7 +25,7 @@ A continuación se indican posibles problemas, sus posibles causas y soluciones.
 | No hay llamadas alloy() visibles en la pestaña de red del explorador | Consulte la sección &quot;[Problemas de instalación y configuración](#issues-installation-setup)&quot; > &quot;[La extensión de WebSDK no se inicializa](#websdk-extension-doesn't-initialize)&quot; |
 | Error de consola: no se ha definido la aleación | Consulte &quot;[Problemas de instalación y configuración](#issues-installation-setup)&quot; > &quot;[La extensión de WebSDK no se inicializa](#websdk-extension-doesn't-initialize)&quot; |
 | No interactuar ni recopilar solicitudes en edge.adobedc.net | Consulte &quot;[Problemas de instalación y configuración](#issues-installation-setup)&quot; > &quot;[La extensión de WebSDK no se inicializa](#websdk-extension-doesn't-initialize)&quot; |
-| Las solicitudes llegan al perímetro de, pero devuelven errores 400 o 500 | Consulte la sección &quot;[Problemas de instalación y configuración](#issues-installation-setup)&quot; > &quot;[Flujo de datos no configurado o mal configurado](#datastream-not-configured-or-misconfigured)&quot; |
+| Las solicitudes llegan a Experience Platform Edge Network pero devuelven errores 400 o 500 | Consulte la sección &quot;[Problemas de instalación y configuración](#issues-installation-setup)&quot; > &quot;[Flujo de datos no configurado o mal configurado](#datastream-not-configured-or-misconfigured)&quot; |
 | No aparecen datos en los informes de Adobe Analytics o Adobe Advertising | Consulte la sección &quot;[Problemas de instalación y configuración](#issues-installation-setup)&quot; > &quot;[Flujo de datos no configurado o mal configurado](#datastream-not-configured-or-misconfigured)&quot; |
 | Error en la respuesta de red: &quot;no se encontró la secuencia de datos&quot; | Consulte la sección &quot;[Problemas de instalación y configuración](#issues-installation-setup)&quot; > &quot;[Flujo de datos no configurado o mal configurado](#datastream-not-configured-or-misconfigured)&quot; |
 | No se han registrado conversiones de visualizaciones o clics para la página web | Consulte la sección &quot;[Problemas de configuración de la extensión de Advertising](#advertising-extension-setup-issues)&quot; |
@@ -55,7 +47,7 @@ A continuación se indican posibles problemas, sus posibles causas y soluciones.
 
 ## Problemas de instalación y configuración {#issues-installation-setup}
 
-### La extensión WebSDK no inicializa #websdk-extension-doesn&#39;t-initialize
+### La extensión WebSDK no inicializa {#websdk-extension-doesn&#39;t-initialize}
 
 #### Problemas:
 
@@ -67,7 +59,7 @@ A continuación se indican posibles problemas, sus posibles causas y soluciones.
 
 +++ Biblioteca no publicada o en estado de borrador
 
-Vaya a [Flujo de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/publishing-flow) y asegúrese de que la biblioteca que contiene la extensión WebSDK está en el estado aprobado/publicado.
+Vaya a [Flujo de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) y asegúrese de que la biblioteca que contiene la extensión WebSDK está en el estado aprobado/publicado.
 
 +++
 
@@ -93,7 +85,7 @@ Agregue `edge.adobedc.net` y `assets.adobedtm.com` a sus directivas de CSP `conn
 
 #### Problemas:
 
-* Las solicitudes llegan al perímetro de, pero devuelven errores 400 o 500
+* Las solicitudes llegan a Experience Platform Edge Network pero devuelven errores 400 o 500
 * No aparecen datos en los informes de Adobe Analytics o Adobe Advertising<!-- It's not useful to organize this info by cause, not symptom -->
 * Error en la respuesta de red: &quot;no se encontró la secuencia de datos&quot;
 
@@ -101,7 +93,7 @@ Agregue `edge.adobedc.net` y `assets.adobedtm.com` a sus directivas de CSP `conn
 
 +++ Falta el ID de secuencia de datos para la propiedad de etiqueta o es incorrecto
 
-1. En [!DNL Tags], abra los [ajustes de configuración de secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de su propiedad de etiquetas.
+1. En [!DNL Tags], abra los [ajustes de configuración de secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de su propiedad de etiquetas.
 1. Confirme que el campo [!UICONTROL Datastream] señala a la secuencia de datos correcta para cada entorno (desarrollo, ensayo y producción), así como al esquema y al conjunto de datos correctos.
 
    Cada entorno debe tener su propia secuencia de datos a menos que comparta explícitamente una secuencia de datos en los tres entornos.
@@ -110,7 +102,7 @@ Agregue `edge.adobedc.net` y `assets.adobedtm.com` a sus directivas de CSP `conn
 
 +++ Los servicios de flujo de datos no están habilitados para la propiedad de etiqueta
 
-[Abra la configuración del flujo de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/configure) y asegúrese de que los siguientes servicios estén habilitados:
+[Abra la configuración del flujo de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) y asegúrese de que los siguientes servicios estén habilitados:
 
 * Adobe Advertising (para conversión/sincronización de audiencia)
 * Adobe Experience Platform (para la ingesta de perfiles)
@@ -133,7 +125,7 @@ Asegúrese de que la secuencia de datos pertenezca a la misma zona protegida de 
 
   1. Abra la página web con `ef_id=test&s_kwcid=test` anexado a la dirección URL.
   1. Abra la herramienta de inspección de código del explorador (denominada con frecuencia [!DNL Inspect]), abra la pestaña [!DNL Network] y busque una llamada de interacción para event_type=&quot;advertising.enrichment_ct&quot; desde Adobe Experience Platform.
-  1. En la interfaz de recopilación de datos, [abra la definición de esquema](https://experienceleague.adobe.com/es/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) de los datos del sitio web que desea recopilar y confirme que `xdm->_experience->adcloud->conversionDetails->trackingCode` y `trackingIdentities` contienen `ef_id` y `s_kwcid`.
+  1. En la interfaz de recopilación de datos, [abra la definición de esquema](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas) de los datos del sitio web que desea recopilar y confirme que `xdm->_experience->adcloud->conversionDetails->trackingCode` y `trackingIdentities` contienen `ef_id` y `s_kwcid`.
 
 * `_experience.adcloud` no aparece en la carga del Modelo de datos de experiencia (XDM) para clics.
 
@@ -143,7 +135,7 @@ Asegúrese de que la secuencia de datos pertenezca a la misma zona protegida de 
 
 +++ El servicio `Adobe Advertising` no está habilitado para la secuencia de datos
 
-1. En [!DNL Tags], abra los [ajustes de configuración de secuencia de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de su propiedad de etiquetas.
+1. En [!DNL Tags], abra los [ajustes de configuración de secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/datastreams) de su propiedad de etiquetas.
 1. Habilite los siguientes servicios y guarde la configuración:
    * Adobe Advertising (para conversión/sincronización de audiencia)
    * Adobe Experience Platform (para la ingesta de perfiles)
@@ -154,7 +146,7 @@ Asegúrese de que la secuencia de datos pertenezca a la misma zona protegida de 
 
 El componente `Adobe Advertising` de la extensión WebSDK está deshabilitado de forma predeterminada y debe habilitarse explícitamente antes de que funcione cualquier seguimiento de pulsaciones o visualizaciones de Adobe Advertising, independientemente de cómo se configuren el esquema o las reglas XDM.
 
-1. En [!DNL Tags], abra las [opciones de generación de la propiedad en los ajustes de configuración de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/es/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).
+1. En [!DNL Tags], abra las [opciones de generación de la propiedad en los ajustes de configuración de Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/custom-build-components).
 1. Habilite el componente **Advertising** y guarde la configuración.
 1. Vuelva a compilar y publicar la biblioteca.
 
@@ -214,7 +206,7 @@ Antes de abrir un vale de soporte para [!UICONTROL Advertising] problemas de con
 
 +++ Las cookies de terceros están bloqueadas
 
-Migre a la recopilación de datos CNAME de origen configurando un dominio de origen en la configuración de Edge del conjunto de datos.
+Migre a la recopilación de datos CNAME de origen configurando un dominio de origen en la configuración de Edge Network del conjunto de datos.
 
 +++
 
@@ -224,7 +216,7 @@ Establezca `idMigrationEnabled: true` en la configuración base de WebSDK para m
 
 +++
 
-### Las reglas o los eventos no se activan #rules-or-events-aren&#39;t-fire
+### Las reglas o los eventos no se activan {#rules-or-events-aren&#39;t-fire}
 
 #### Problemas:
 
@@ -370,7 +362,7 @@ Compruebe lo siguiente:
 
 * Las dimensiones y métricas de resumen de Adobe Advertising se incluyen en la vista de datos de Customer Journey Analytics.
 
-Si verifica toda la configuración anterior pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support).
+Si verifica toda la configuración anterior pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
@@ -382,7 +374,7 @@ Compruebe lo siguiente:
 
 * La configuración &quot;[!UICONTROL Backfill all existing data]&quot; está habilitada para sus tres conjuntos de datos (métricas de dimensión, clasificación, búsqueda, resumen y evento) en su conexión de Customer Journey Analytics.
 
-Si verifica todas las condiciones anteriores pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support).
+Si verifica todas las condiciones anteriores pero sigue sin ver los datos de resumen, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
 +++
 
@@ -390,7 +382,7 @@ Si verifica todas las condiciones anteriores pero sigue sin ver los datos de res
 
 Compruebe que la fuente de Adobe Advertising a Customer Journey Analytics esté habilitada para la cuenta específica de red de publicidad. Consulte con el equipo de cuenta de Adobe.
 
-Si la fuente está habilitada para una cuenta pero aún no ves datos de resumen, abre un ticket de asistencia para tu organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
+Si la fuente está habilitada para una cuenta pero aún no ves datos de resumen, abre un ticket de asistencia para tu organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
 
 +++
 
@@ -406,7 +398,7 @@ Compruebe lo siguiente:
 
 * La configuración &quot;[!UICONTROL Backfill all existing data]&quot; está habilitada para sus tres conjuntos de datos (métricas de dimensión, clasificación, búsqueda, resumen y evento) en su conexión de Customer Journey Analytics.
 
-Si está seguro de una discrepancia en los datos, abra un ticket de asistencia para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad. Para mostrar evidencia de la discrepancia, incluya capturas de pantalla y hojas de cálculo. El equipo de cuenta de Adobe puede corregir de forma retroactiva la fuente de datos para resolver la discrepancia si es necesario.
+Si está seguro de una discrepancia en los datos, abra un ticket de asistencia para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad. Para mostrar evidencia de la discrepancia, incluya capturas de pantalla y hojas de cálculo. El equipo de cuenta de Adobe puede corregir de forma retroactiva la fuente de datos para resolver la discrepancia si es necesario.
 
 +++
 
@@ -430,7 +422,7 @@ Compruebe lo siguiente, empezando por los elementos con menos barreras de verifi
 
 * Los ajustes de Adobe Advertising se configuran correctamente en la extensión del SDK web y se publican.
 
-Si verifica toda la configuración anterior pero sigue sin ver los datos de conversión, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home?lang=es#support](https://experienceleague.adobe.com/home?lang=es&support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
+Si verifica toda la configuración anterior pero sigue sin ver los datos de conversión, abra un vale de soporte técnico para su organización en [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support). Incluir [!UICONTROL Account ID] para la cuenta de red de publicidad.
 
 +++
 
@@ -460,7 +452,7 @@ Answer
 
 ### Adobe Experience Platform Debugger
 
-Instale la extensión [!DNL Adobe Experience Platform Debugger] para [!DNL Chrome]. Proporciona lo siguiente:
+Instalar la extensión [!DNL Adobe Experience Platform Debugger] para [!DNL Chrome] para:
 
 * Una vista en tiempo real de todas las llamadas al SDK web `alloy()`
 * Validación de entorno e ID de flujo de datos
@@ -471,13 +463,13 @@ Comprobaciones de claves en Debugger:
 
 | Ficha | Qué comprobar |
 | ----- | --- |
-| [!UICONTROL Summary] | Confirma que se ha detectado el SDK web y muestra la versión instalada. |
-| [!UICONTROL Adobe Experience Platform WebSDK] | Muestra cada evento activado, la carga útil XDM completa y la respuesta de Edge. |
+| [!UICONTROL Summary] | Confirma que se ha detectado WebSDK y muestra la versión instalada. |
+| [!UICONTROL Adobe Experience Platform WebSDK] | Muestra cada evento activado, la carga útil XDM completa y la respuesta de Edge Network. |
 | [!UICONTROL Adobe Advertising] | Confirma la captura del ID de AMO y la llamada de interacción XDM con el tipo de evento `advertising.enrichment`. |
 
 ### Pestaña Red del explorador
 
-Filtre por `edge.adobedc.net` para inspeccionar las solicitudes perimetrales sin procesar:
+Filtre por `edge.adobedc.net` para inspeccionar las solicitudes de Edge Network sin procesar:
 
 * URL de solicitud: `https://[org-id].data.adobedc.net/ee/v2/interact`
 * Método: `POST`
@@ -522,20 +514,20 @@ Compruebe lo siguiente antes de abrir un ticket de asistencia:
 * El componente [!UICONTROL Advertising] está habilitado en la configuración de la extensión WebSDK y se ha configurado un ID de anunciante de DSP.
 * El esquema XDM incluye el grupo de campos [!UICONTROL Advertising].
 * La regla [!UICONTROL Send Event] incluye un mapa de identidad y se activa en el evento correcto.
-* Ninguna CSP o configuración de privacidad del explorador bloquea las solicitudes perimetrales.
-* El depurador [!DNL Adobe Experience Platform] confirma que los eventos están llegando al límite.
+* Ninguna CSP o configuración de privacidad del explorador está bloqueando las solicitudes de Edge Network.
+* El depurador [!DNL Adobe Experience Platform] confirma que los eventos están llegando a Edge Network.
 * Ningún error de JavaScript en la consola del explorador detiene la ejecución.
-* El grupo de campos **Extensión completa de ExperienceEvent de Adobe Advertising Cloud** se agrega al esquema.
+* El grupo de campos `Adobe Advertising Cloud ExperienceEvent Full Extension` se agrega al esquema.
 * `_experience.adcloud.conversionDetails.trackingCode` está presente en el esquema.
 * `_experience.adcloud.conversionDetails.trackingIdentity` está presente en el esquema.
-* La dirección URL de la página de aterrizaje contiene `s_kwcid` y `ef_id` al hacer clic.
+* La dirección URL de la página de aterrizaje contiene los parámetros `s_kwcid` y `ef_id` al hacer clic.
 * El depurador [!DNL Adobe Experience Platform] confirma que `conversionDetails` se ha rellenado en la carga útil saliente.
 
 ## Cuándo escalar
 
 Póngase en contacto con el equipo de cuenta de Adobe o con el equipo de ingeniería si:
 
-* Las solicitudes de Edge devuelven errores persistentes `500` después de la validación de la secuencia de datos.
+* Las solicitudes de Edge Network devuelven errores persistentes `500` después de la validación de la secuencia de datos.
 * Las conversiones de [!UICONTROL Advertising] se han confirmado en Debugger, pero no aparecen en los informes después de 24 a 48 horas.
 * Una actualización de la versión de WebSDK introduce una regresión que no estaba presente en la versión anterior. Incluya los números de versión específicos en el ticket de asistencia.
 
