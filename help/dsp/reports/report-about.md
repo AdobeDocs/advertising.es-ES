@@ -4,22 +4,14 @@ description: Obtenga información acerca de las opciones para crear informes per
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
 TQID: https://experienceleague.adobe.com/s4EiBrtWrkDbweibjuPa7KAv4s8pMtbLYEG-CEeXBdY
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-subfeature_v2:
-  - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
-  - id: d9510790-d834-436d-8423-8d69cd50464a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+subfeature_v2: id: cc3b7f3c-58f0-4ba4-b808-391002930fd4id: d9510790-d834-436d-8423-8d69cd50464a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8259705179c77085be82b416f62a093186b03745
 workflow-type: tm+mt
-source-wordcount: 1788
+source-wordcount: 1716
 ht-degree: 0%
 
 ---
@@ -65,11 +57,9 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
   * **[!UICONTROL Device]:** Utilice esta plantilla rellenada previamente para ver las métricas clave según las dimensiones relacionadas con el dispositivo.
 
-  * **[Conversiones autoatribuidas de DSP]:** Use este informe para ver la contribución de Advertising DSP a las conversiones, incluidos los recorridos de clientes en los que DSP desempeñó un papel pero un contacto posterior, como un clic de búsqueda de Adobe Advertising, recibió crédito por último clic en otros informes.
+  * **[!UICONTROL DSP Self-Attributed Conversions]:** Use este informe para ver la contribución de Advertising DSP a las conversiones, incluidos los recorridos de clientes en los que DSP desempeñó un papel pero un contacto posterior, como un clic de búsqueda de Adobe Advertising, recibió crédito por último clic en otros informes. Consulte &quot;[Preguntas más frecuentes acerca de informes personalizados](/help/dsp/reports/faq-reports.md)&quot; para obtener más información.
 
-    Los informes estándar acreditan el último clic antes de una conversión. Cuando un cliente ve un anuncio de DSP y más tarde hace clic en un anuncio de búsqueda antes de la conversión, esa exposición de DSP a menudo no aparece en los números de conversión. Este informe conecta las conversiones con las impresiones y clics de DSP que las precedieron, de modo que puede ver la función de DSP aunque no fuera el último contacto. Es más útil para los anunciantes que utilizan Advertising DSP y Advertising Search, Social y Commerce.
-
-    **Importante:** Este informe no cambia los informes de Adobe Analytics de atribución ni la metodología de atribución existente. Proporciona una vista complementaria específica de DSP de la contribución de conversión.
+    **Importante:** Este informe no cambia la metodología de atribución ni la atribución existentes en los informes de Adobe Analytics. Proporciona una vista complementaria específica de DSP de la contribución de conversión.
 
   * **[!UICONTROL Frequency (by Impression)]:** Use este informe para comprender la distribución de impresiones mostradas a espectadores únicos (por ejemplo, cuántos espectadores únicos vieron una impresión, dos impresiones, tres impresiones, etc.). Los datos están disponibles por ubicación o campaña.
 
@@ -88,9 +78,9 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
   * **[!UICONTROL Geo]**: utilice esta plantilla previamente completada para ver métricas clave por dimensiones geográficas.
 
-  * **[!UICONTROL Household Conversions]:** Use este informe para ver las conversiones de visualización a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para medir y optimizar el rendimiento de la campaña. Consulte &quot;[Preguntas frecuentes sobre los informes de hogares](/help/dsp/reports/faq-reports.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
+  * **[!UICONTROL Household Conversions]:** Use este informe para ver las conversiones de visualización a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para medir y optimizar el rendimiento de la campaña. Consulte &quot;[Preguntas más frecuentes acerca de informes personalizados](/help/dsp/reports/faq-reports.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
-  * **[!UICONTROL Household Reach & Frequency]:** Use este informe para ver las impresiones, el alcance y la frecuencia de una sola dimensión en los formatos de anuncio a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para optimizar la combinación de medios, mejorar el rendimiento e identificar oportunidades de alcance incremental. Consulte &quot;[Preguntas frecuentes sobre los informes de hogares](/help/dsp/reports/faq-reports.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
+  * **[!UICONTROL Household Reach & Frequency]:** Use este informe para ver las impresiones, el alcance y la frecuencia de una sola dimensión en los formatos de anuncio a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para optimizar la combinación de medios, mejorar el rendimiento e identificar oportunidades de alcance incremental. Consulte &quot;[Preguntas más frecuentes acerca de informes personalizados](/help/dsp/reports/faq-reports.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
   * **[!UICONTROL Margin]:** Use este informe para ver métricas clave como margen, ganancias y otras métricas de gasto por campaña o ubicación. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
@@ -158,7 +148,7 @@ Puede crear nuevos informes personalizados, editar los informes existentes o dup
 >* [Crear un informe personalizado](/help/dsp/reports/report-create.md)
 >* [Descargar un informe personalizado](/help/dsp/reports/report-download.md)
 >* [Configuración de informe personalizado](/help/dsp/reports/report-settings.md)
->* [Preguntas frecuentes sobre los informes de hogares](/help/dsp/reports/faq-reports.md)
+>* [Preguntas más frecuentes acerca de informes personalizados](/help/dsp/reports/faq-reports.md)
 >* [Tipos de informes de rendimiento en vistas de administración de campañas](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Columnas de informe disponibles](/help/dsp/reports/report-columns.md)
 >* [Acerca de los destinos del informe](/help/dsp/reports/report-destinations/report-destination-about.md)
