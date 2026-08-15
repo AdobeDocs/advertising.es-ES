@@ -3,25 +3,30 @@ title: Preguntas frecuentes sobre los informes personalizados
 description: Obtenga más información acerca de los informes personalizados, incluidos los informes domésticos y los informes de análisis de rutas de conversión.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
 TQID: https://experienceleague.adobe.com/3AN4vKu3BF-c4jwMusI402Z7lTLY0Nf30uwLZWBUE1E
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a4042ccc2ff85513d35eb56cd514b8bac6ebf65e
 workflow-type: tm+mt
-source-wordcount: 1170
+source-wordcount: 1336
 ht-degree: 0%
 
 ---
 
 # Preguntas frecuentes sobre los informes personalizados
+
+## Informes de conversión
+
+### ¿En qué se diferencian el informe [!UICONTROL Conversion] y el informe [!UICONTROL DSP Self-Attributed Conversions]?
+
+Ambos informes utilizan las mismas dimensiones, métricas y modelos de atribución, incluidos los desgloses de clics y visualizaciones.
+
+En la mayoría de los informes, incluido el informe [!UICONTROL Conversion], se acredita una conversión hasta el último clic antes de la conversión. Cuando un cliente ve un anuncio de DSP y más tarde hace clic en un anuncio de búsqueda antes de la conversión, esa exposición de DSP a menudo no aparece en los números de conversión.
+
+Sin embargo, el informe [!UICONTROL DSP Self-Attributed Conversions] vuelve a conectar las conversiones con las impresiones y los clics de DSP que las precedieron para que pueda comprender la contribución más amplia de DSP al recorrido. Considere este informe como una vista complementaria de la contribución de DSP, no como una corrección al informe [!UICONTROL Conversion]. Es más útil para los anunciantes que utilizan Advertising DSP y Advertising Search, Social y Commerce.
+
+Dado que los dos informes utilizan métodos diferentes para conectar las conversiones a los anuncios, los totales de sus métricas no coincidirán. Esto es esperable, no una discrepancia.
 
 ## Informes del hogar
 
