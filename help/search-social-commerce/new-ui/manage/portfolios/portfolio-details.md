@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 235ba59f2d9e37259431b415c2e34c0da8209ef9
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
-source-wordcount: 735
+source-wordcount: 738
 ht-degree: 0%
 
 ---
@@ -47,7 +43,7 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
 1. Haga clic en el nombre del portafolio.
 
-1. (Opcional) En el menú **[!UICONTROL Granularity]**, cambie la granularidad de los datos entre *[!UICONTROL Daily],* *[!UICONTROL Weekly],* o *[!UICONTROL Monthly].*
+1. (Opcional) En el menú **[!UICONTROL Data Aggregation]**, cambie la unidad de tiempo de los datos incluidos en cada fila: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* o *[!UICONTROL Monthly].*
 
 1. (Opcional) Para cambiar el intervalo de fechas de los detalles del portafolio, haga clic en el intervalo de fechas en la esquina superior derecha, especifique el intervalo de fechas y, a continuación, haga clic en **[!UICONTROL Apply]**.
 
@@ -55,41 +51,41 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
 * (Opcional) Para personalizar los informes de [!UICONTROL Portfolio Performance], siga uno de estos procedimientos:
 
-   * Para cambiar las métricas de rendimiento utilizadas tanto para las métricas totales como para las métricas detalladas, haga clic en **[!UICONTROL Metrics]** y seleccione hasta tres métricas.
+  * Para cambiar las métricas de rendimiento utilizadas tanto para las métricas totales como para las métricas detalladas, haga clic en **[!UICONTROL Metrics]** y seleccione hasta tres métricas.
 
-     Las métricas predeterminadas son *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* y *[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
+    Las métricas predeterminadas son *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* y *[!UICONTROL Objective Value]*.<!-- What else is available: the advertiser's revenue metrics? Anything else from the ad networks? -->
 
-   * Para ver las métricas detalladas:
+  * Para ver las métricas detalladas:
 
-      * Mueva el modificador junto a **[!UICONTROL Display predictions]** para mostrar u ocultar los valores de métrica predichos.
+    * Mueva el modificador junto a **[!UICONTROL Display predictions]** para mostrar u ocultar los valores de métrica predichos.
 
-      * Cambiar entre la vista de gráfico (![Vista de gráfico](/help/search-social-commerce/assets/chart-view.png "Vista de gráfico")) y la vista de tabla (![Visualización en tabla](/help/search-social-commerce/assets/table-view.png "Visualización en tabla")).
+    * Cambiar entre la vista de gráfico (![Vista de gráfico](/help/search-social-commerce/assets/chart-view.png "Vista de gráfico")) y la vista de tabla (![Visualización en tabla](/help/search-social-commerce/assets/table-view.png "Visualización en tabla")).
 
-      * (En la vista de gráfico) Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
+    * (En la vista de gráfico) Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
 
 * (Opcional) Para personalizar el gráfico de tendencias [!UICONTROL Model accuracy], realice una de las acciones siguientes:
 
-   * Cambiar entre la vista de gráfico (![Vista de gráfico](/help/search-social-commerce/assets/chart-view.png "Vista de gráfico")) y la vista de tabla (![Visualización en tabla](/help/search-social-commerce/assets/table-view.png "Visualización en tabla")).
+  * Cambiar entre la vista de gráfico (![Vista de gráfico](/help/search-social-commerce/assets/chart-view.png "Vista de gráfico")) y la vista de tabla (![Visualización en tabla](/help/search-social-commerce/assets/table-view.png "Visualización en tabla")).
 
-   * Cambiar entre ver datos de *[!UICONTROL Click Date]* y *[!UICONTROL Transaction Date]*.
+  * Cambiar entre ver datos de *[!UICONTROL Click Date]* y *[!UICONTROL Transaction Date]*.
 
-   * Cambiar entre ver datos sobre *[!UICONTROL Daily Accuracy]* y *[!UICONTROL 7 Day Rolling Accuracy]*.
+  * Cambiar entre ver datos sobre *[!UICONTROL Daily Accuracy]* y *[!UICONTROL 7 Day Rolling Accuracy]*.
 
-     [!UICONTROL 7 Day Rolling Accuracy] es la precisión promedio de la previsión para los siete días anteriores, expresada como porcentaje. Por ejemplo, el valor para el 8 de mayo de 2025 es la precisión promedio para el período del 1 al 7 de mayo de 2025.
+    [!UICONTROL 7 Day Rolling Accuracy] es la precisión promedio de la previsión para los siete días anteriores, expresada como porcentaje. Por ejemplo, el valor para el 8 de mayo de 2025 es la precisión promedio para el período del 1 al 7 de mayo de 2025.
 
-   * (En la vista de gráfico) Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
+  * (En la vista de gráfico) Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
 
 * (Opcional) Para personalizar el gráfico de tendencias [!UICONTROL Target vs actual spend], realice una de las acciones siguientes:
 
-   * Mueva el conmutador junto a **[!UICONTROL Display budget]** para mostrar u ocultar el presupuesto total de campaña para cada fecha.
+  * Mueva el conmutador junto a **[!UICONTROL Display budget]** para mostrar u ocultar el presupuesto total de campaña para cada fecha.
 
-   * Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
+  * Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
 
 * (Opcional) Para personalizar el gráfico de tendencias [!UICONTROL Network Accuracy], realice una de las acciones siguientes:
 
-   * Cambie la métrica de la que se ha informado a *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* o *[!UICONTROL Objective Value]*.
+  * Cambie la métrica de la que se ha informado a *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* o *[!UICONTROL Objective Value]*.
 
-   * Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
+  * Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
 
 1. Haga clic en **[!UICONTROL Download report]**.
 
@@ -111,7 +107,7 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
 * Para ver u ocultar la configuración del portafolio, haga clic en **[!UICONTROL Portfolio Settings]**.
 
-   * Para editar la configuración visible del portafolio, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar") junto a la sección de configuración y [editar la configuración del portafolio](portfolio-edit.md).
+  * Para editar la configuración visible del portafolio, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar") junto a la sección de configuración y [editar la configuración del portafolio](portfolio-edit.md).
 
 Para obtener más información sobre la configuración del portafolio, consulte la Guía de optimización, que está disponible en Search, Social y Commerce.
 
@@ -119,21 +115,21 @@ Para obtener más información sobre la configuración del portafolio, consulte 
 
 * Para descargar todos los informes:
 
-   1. En la barra de herramientas, haga clic en **[!UICONTROL Download report]**.
+  1. En la barra de herramientas, haga clic en **[!UICONTROL Download report]**.
 
-   1. Seleccione la casilla de verificación situada junto a cada tipo de componente de portafolio e informe de rendimiento que desee incluir.
+  1. Seleccione la casilla de verificación situada junto a cada tipo de componente de portafolio e informe de rendimiento que desee incluir.
 
-      Para algunos informes de rendimiento, puede elegir si desea descargar los datos como un gráfico o una tabla.
+     Para algunos informes de rendimiento, puede elegir si desea descargar los datos como un gráfico o una tabla.
 
-   1. Haga clic en **[!UICONTROL Download report]**.
+  1. Haga clic en **[!UICONTROL Download report]**.
 
 * Para descargar un informe [!DNL model accuracy] con tipos de datos específicos:
 
-   1. En la barra de herramientas del informe, haga clic en **[!UICONTROL Download report]**.
+  1. En la barra de herramientas del informe, haga clic en **[!UICONTROL Download report]**.
 
-   1. Seleccione la casilla de verificación situada junto a cada tipo de datos que desee incluir y cómo desglosar los datos (por unidad de oferta o por volumen de clics).
+  1. Seleccione la casilla de verificación situada junto a cada tipo de datos que desee incluir y cómo desglosar los datos (por unidad de oferta o por volumen de clics).
 
-   1. Haga clic en **[!UICONTROL Download report]**.
+  1. Haga clic en **[!UICONTROL Download report]**.
 
 >[!MORELIKETHIS]
 >
