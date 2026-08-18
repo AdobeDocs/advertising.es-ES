@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 0%
@@ -41,21 +41,21 @@ Su [!UICONTROL Dashboard] incluye los siguientes informes visuales:
 
 * (Opcional) Cambie los portafolios aplicables para todos los informes:
 
-   1. Haga clic en los parámetros actuales junto a **[!UICONTROL Select Portfolios]**.
+  1. Haga clic en los parámetros actuales junto a **[!UICONTROL Select Portfolios]**.
 
-   1. (Opcional) Junto a **[!UICONTROL Select by]**, elija cómo seleccionar los portafolios:
+  1. (Opcional) Junto a **[!UICONTROL Select by]**, elija cómo seleccionar los portafolios:
 
-      * *[!UICONTROL All Portfolios]* (predeterminado): informar sobre portafolios especificados. Si lo desea, puede filtrar la lista de portafolios cambiando el **[!UICONTROL Currency]especificado.** De forma predeterminada, todos los portafolios que utilizan USD están seleccionados.
+     * *[!UICONTROL All Portfolios]* (predeterminado): informar sobre portafolios especificados. Si lo desea, puede filtrar la lista de portafolios cambiando el **[!UICONTROL Currency]especificado.** De forma predeterminada, todos los portafolios que utilizan USD están seleccionados.
 
-      * *[!UICONTROL Portfolio Groups]:* Informe sobre portafolios especificados en un **[!UICONTROL Portfolio Group]especificado.** Si lo desea, puede filtrar la lista de portafolios cambiando el **[!UICONTROL Currency]especificado.** De forma predeterminada, se seleccionan todos los portafolios que utilizan USD en el grupo de portafolios especificado.
+     * *[!UICONTROL Portfolio Groups]:* Informe sobre portafolios especificados en un **[!UICONTROL Portfolio Group]especificado.** Si lo desea, puede filtrar la lista de portafolios cambiando el **[!UICONTROL Currency]especificado.** De forma predeterminada, se seleccionan todos los portafolios que utilizan USD en el grupo de portafolios especificado.
 
-      * *[!UICONTROL Objectives]:* Informe sobre portafolios especificados con un **[!UICONTROL Objective]especificado.** . Si lo desea, puede reducir la lista de portafolios cambiando el **[!UICONTROL Currency]especificado.** De forma predeterminada, se seleccionan todos los portafolios que utilizan USD con el objetivo especificado.
+     * *[!UICONTROL Objectives]:* Informe sobre portafolios especificados con un **[!UICONTROL Objective]especificado.** . Si lo desea, puede reducir la lista de portafolios cambiando el **[!UICONTROL Currency]especificado.** De forma predeterminada, se seleccionan todos los portafolios que utilizan USD con el objetivo especificado.
 
-   1. Seleccione y anule la selección de las casillas de verificación situadas junto a los portafolios según sea necesario hasta que la sección [!UICONTROL Selected Portfolios] muestre los portafolios sobre los que desea informar.
+  1. Seleccione y anule la selección de las casillas de verificación situadas junto a los portafolios según sea necesario hasta que la sección [!UICONTROL Selected Portfolios] muestre los portafolios sobre los que desea informar.
 
-   1. Haga clic en **[!UICONTROL Select]**.
+  1. Haga clic en **[!UICONTROL Select]**.
 
-* (Opcional) Cambie la granularidad de los datos de todos los informes (*[!UICONTROL Daily]* \[el valor predeterminado\], *[!UICONTROL Weekly]* \[cuando corresponda al intervalo de fechas\] o *[!UICONTROL Monthly]* \[cuando corresponda al intervalo de fechas\]) del menú **[!UICONTROL Granularity]**.
+* (Opcional) Cambie la agregación de datos de todos los informes (*[!UICONTROL Daily]* \[el valor predeterminado\], *[!UICONTROL Weekly]* \[cuando corresponda para el intervalo de fechas\] o *[!UICONTROL Monthly]* \[cuando corresponda para el intervalo de fechas\]) del menú **[!UICONTROL Data Aggregation]**.
 
 * (Opcional) Cambie el intervalo de fechas para todos los informes desde el menú **[!UICONTROL Date range]**. Puede incluir datos de los últimos 90 días. El valor predeterminado es *[!UICONTROL Last 7 Days]*.
 
@@ -63,8 +63,8 @@ Su [!UICONTROL Dashboard] incluye los siguientes informes visuales:
 
 * ([!UICONTROL Biggest Movers] informe; opcional) Realice una de las siguientes acciones:
 
-   * Cambiar la entidad registrada. La única opción actual es *[!UICONTROL Portfolio]*.
+  * Cambiar la entidad registrada. La única opción actual es *[!UICONTROL Portfolio]*.
 
-   * Cambiar la métrica notificada ([!UICONTROL Cost] \[seleccionada de forma predeterminada\], [!UICONTROL Clicks] o [!UICONTROL Objective Value]).
+  * Cambiar la métrica notificada ([!UICONTROL Cost] \[seleccionada de forma predeterminada\], [!UICONTROL Clicks] o [!UICONTROL Objective Value]).
 
-   * Para abrir la vista [!UICONTROL Portfolios], haga clic en **[!UICONTROL View More]** en la parte inferior derecha del gráfico. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
+  * Para abrir la vista [!UICONTROL Portfolios], haga clic en **[!UICONTROL View More]** en la parte inferior derecha del gráfico. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
