@@ -3,9 +3,9 @@ role: User
 user-guide-title: Guía de Advertising Creative
 user-guide-description: Obtenga información sobre las funciones, tareas, configuraciones y otros recursos principales necesarios para utilizar Advertising Creative.
 breadcrumb-title: Guía de Creative
-source-git-commit: 0edb79512588498b323ffc4197da0612e2e6d3e6
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '428'
 ht-degree: 4%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 4%
   + [Acerca de Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
   + [Personalizar las vistas de datos](/help/creative/introduction/customize-data-views.md)
   + [Flujos de trabajo para anuncios dinámicos](/help/creative/introduction/workflow-dynamic-ads.md)
-  + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
-  + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
+  + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Studio {#creative-studio}
   + [Acerca de Creative Studio](/help/creative/creative-studio/creative-studio-about.md)
-  + [Metadatos de C2PA en [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
+
   + [Administración de anuncios estándar](/help/creative/creative-studio/creative-studio-manage-standard-ads.md)
   + [Administrar elementos creativos dinámicos](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md)
   + [Administración de plantillas](/help/creative/creative-studio/creative-studio-manage-templates.md)
@@ -103,4 +103,4 @@ ht-degree: 4%
 + [Redireccionamiento de píxeles](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Macros disponibles para URL de seguimiento](/help/creative/creative-macros.md)
 + [Obtener ayuda](/help/creative/get-help.md)
-+ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es){target="_blank"}
++ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

@@ -2,15 +2,12 @@
 title: Administración de anuncios estándar en Creative Studio
 description: Obtenga información sobre cómo crear, editar, duplicar, descargar y eliminar anuncios en pantalla estándar en la biblioteca de creativos de Creative Studio.
 exl-id: 01d3cdec-80d0-494c-94dd-d9d0ae8ca53c
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 408ddd6a3dde58fc3f600a842ef2c41c44f311fe
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
-source-wordcount: 1184
+source-wordcount: 1181
 ht-degree: 0%
 
 ---
@@ -204,4 +201,3 @@ Duplique un anuncio estándar para añadir un nuevo elemento creativo con la mis
 >* [Administrar elementos creativos dinámicos en Creative Studio](creative-studio-manage-dynamic-ads.md)
 >* [Administrar plantillas en Creative Studio](creative-studio-manage-templates.md)
 >* [Administrar perfiles de marca en Advertising Creative](/help/creative/brands/brand-manage.md)
->* [Metadatos de C2PA en [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
