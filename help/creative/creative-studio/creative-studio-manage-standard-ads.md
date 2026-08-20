@@ -8,7 +8,7 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a6ab21a588f5b069ea0783dee711f52d906a46f9
+source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
 workflow-type: tm+mt
 source-wordcount: 1181
 ht-degree: 0%
@@ -39,19 +39,19 @@ Debe existir al menos una plantilla de anuncio en pantalla en la biblioteca de p
 
    * **De la ficha [!UICONTROL Creatives]:**
 
-      1. En el menú principal, haga clic en **[!UICONTROL Creative Studio]**.
+     1. En el menú principal, haga clic en **[!UICONTROL Creative Studio]**.
 
-      1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Generate]** en la tarjeta de acciones rápidas **[!UICONTROL Generate standard ads from templates]**.
+     1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Generate]** en la tarjeta de acciones rápidas **[!UICONTROL Generate standard ads from templates]**.
 
-      1. En el cuadro de diálogo de selección de plantillas, haga clic en una plantilla para seleccionarla y luego haga clic en **[!UICONTROL Use this template]**.
+     1. En el cuadro de diálogo de selección de plantillas, haga clic en una plantilla para seleccionarla y luego haga clic en **[!UICONTROL Use this template]**.
 
    * (Solo anuncios de visualización) **De la ficha [!UICONTROL Templates]:**
 
-      1. En el menú principal, haga clic en **[!UICONTROL Creative Studio]**.
+     1. En el menú principal, haga clic en **[!UICONTROL Creative Studio]**.
 
-      1. Haga clic en la ficha **[!UICONTROL Templates]**.
+     1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
-      1. Mantenga el cursor sobre una tarjeta de plantilla y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**.
+     1. Mantenga el cursor sobre una tarjeta de plantilla y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Generate ad variations]**.
 
    Se abre [!UICONTROL Ad Variations Generator]. El lienzo muestra la sección **[!UICONTROL Template Sizes]** con los formatos de anuncio disponibles en la plantilla y una sección **[!UICONTROL Ad Concepts]** en la que aparecerá el contenido generado.
 
@@ -100,14 +100,14 @@ Debe existir al menos una plantilla de anuncio en pantalla en la biblioteca de p
 
    * Para administrar un concepto, mantenga el cursor sobre la etiqueta del concepto (por ejemplo, **[!UICONTROL Concept 3]**) y haga clic en **[!UICONTROL ...]**; a continuación, seleccione una opción:
 
-      * **[!UICONTROL Add to chat]:** Hace referencia al concepto en la siguiente solicitud.
-      * **[!UICONTROL Delete]:** quita el concepto.
+     * **[!UICONTROL Add to chat]:** Hace referencia al concepto en la siguiente solicitud.
+     * **[!UICONTROL Delete]:** quita el concepto.
 
    * Para administrar una variación individual, mantenga el cursor sobre la tarjeta de variación y haga clic en **[!UICONTROL ...]**. Luego, seleccione una opción:
 
-      * **[!UICONTROL Add to Chat]:** Hace referencia a la variación en el siguiente mensaje. También puede hacer clic directamente en el cuerpo de la tarjeta de variación para alternar la mención.
-      * **[!UICONTROL Edit Data]:** Abre un cuadro de diálogo en el que puede actualizar la variación **[!UICONTROL Name]** y la URL de pulsación para cada etiqueta de clic definida en la plantilla. Haga clic **[!UICONTROL Save]** para aplicar.
-      * **[!UICONTROL Delete]:** quita la variación.
+     * **[!UICONTROL Add to Chat]:** Hace referencia a la variación en el siguiente mensaje. También puede hacer clic directamente en el cuerpo de la tarjeta de variación para alternar la mención.
+     * **[!UICONTROL Edit Data]:** Abre un cuadro de diálogo en el que puede actualizar la variación **[!UICONTROL Name]** y la URL de pulsación para cada etiqueta de clic definida en la plantilla. Haga clic **[!UICONTROL Save]** para aplicar.
+     * **[!UICONTROL Delete]:** quita la variación.
 
 1. Cuando esté satisfecho con los conceptos generados, haga clic en **[!UICONTROL Save Standard Ads]** en el encabezado.
 
@@ -204,4 +204,3 @@ Duplique un anuncio estándar para añadir un nuevo elemento creativo con la mis
 >* [Administrar elementos creativos dinámicos en Creative Studio](creative-studio-manage-dynamic-ads.md)
 >* [Administrar plantillas en Creative Studio](creative-studio-manage-templates.md)
 >* [Administrar perfiles de marca en Advertising Creative](/help/creative/brands/brand-manage.md)
-

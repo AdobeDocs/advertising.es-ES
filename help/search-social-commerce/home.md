@@ -18,10 +18,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0714d68f4898f7a2792273918438cb83dd057ef9
+source-git-commit: cffcb243a4e2274b3e064548730d6c899831ec9d
 workflow-type: tm+mt
-source-wordcount: 4897
-ht-degree: 0%
+source-wordcount: 5013
+ht-degree: 1%
 
 ---
 
@@ -31,6 +31,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 19 de agosto | [!UICONTROL Objective Upload], configuración de [!UICONTROL Portfolio] | Ahora puede optar por no enviar datos de valor objetivo para un portafolio específico a redes de publicidad desde la pestaña [!UICONTROL Manage Objectives] en la configuración del portafolio. | — |
 | 29 de julio de 2026 | [!UICONTROL Campaigns], [!UICONTROL Reports] | ([!DNL Google Ads] cuentas) La siguiente compatibilidad con AI Max ya está disponible en la nueva interfaz de usuario para campañas de Google Ads en la red de búsqueda:<ul><li>Puede crear y administrar campañas habilitadas para AI Max en Administrar > Campañas. La configuración de la campaña incluye una nueva pestaña Máximo de IA, que incluye opciones para habilitar Máximo de IA, personalización automatizada de texto y expansión final de URL. También puede ver si los grupos de anuncios utilizan objetivos de interés geográfico.</li><li>Puede crear y administrar grupos de anuncios para campañas habilitadas para AI Max en Administrar > Grupo de anuncios. La configuración incluye la coincidencia de términos de búsqueda sin palabras clave y ubicaciones de interés segmentadas.</li><li>Los recursos creativos generados por IA están disponibles en Assets > Creative. Puede quitar recursos de texto de sus grupos de anuncios asociados desde esta vista.</li><li>Un nuevo(a) [!UICONTROL Asset Report] incluye datos de rendimiento de nivel de recurso para cada recurso generado por IA en campañas habilitadas para AI Max. El informe no incluye conversiones de Adobe Analytics.</li></ul> | Consulte &quot;[Administrar campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)&quot; y &quot;[[!DNL Google Ads] configuración de campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)&quot;, &quot;[Administrar grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)&quot; y &quot;[[!DNL Google Ads] configuración de grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)&quot;, &quot;[Ver y crear recursos creativos](/help/search-social-commerce/new-ui/assets/creative-asset-manage.md)&quot;. y &quot;[El [!UICONTROL Asset Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/asset-report.md)&quot;. |
 | 9 de junio de 2026 | Integración con Adobe Customer Journey Analytics | Los anunciantes con Customer Journey Analytics pero no [!DNL Analytics for Advertising] pueden intercambiar datos de forma nativa entre Adobe Advertising y Customer Journey Analytics mediante Adobe Experience Platform [!DNL Web SDK]. | Consulte &quot;[Información general sobre la integración entre Adobe Advertising y Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md)&quot;. |
 | 28 de mayo de 2026 | Nueva IU | La mayoría de las características ya están disponibles en la nueva interfaz de usuario, incluidos los informes programados y las fuentes de hojas de cálculo, las hojas de edición masiva y las cuentas del administrador de red, así como [!DNL Spend Planner] (anteriormente &quot;[!DNL Spend Recommendations]&quot;). | Consulte &quot;[Cómo está organizada la interfaz de usuario](/help/search-social-commerce/getting-started/user-interface.md)&quot; y el capítulo &quot;Nueva interfaz de usuario&quot;. |
