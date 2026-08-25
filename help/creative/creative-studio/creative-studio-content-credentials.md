@@ -60,7 +60,7 @@ Para ver el historial completo de recursos de una imagen,
 
 ## Recursos adicionales
 
-* [Transparencia del contenido de inteligencia artificial generativa para  [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [Transparencia del contenido de inteligencia artificial generativa para  [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/es/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [[!DNL Adobe] directrices de usuario de IA generativas](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
