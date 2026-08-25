@@ -1,15 +1,12 @@
 ---
 title: Metadatos de C2PA en Creative Studio
 description: Descubra cómo los metadatos de C2PA se adjuntan automáticamente al contenido generado o editado con IA generativa en Creative Studio.
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-feature_v2:
-  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d335c890ccc3ff8b2d391881660a71d10fcba53a
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+feature_v2: id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 5c8c1895accc4fe504f581bb16ee7860a16458b2
 workflow-type: tm+mt
-source-wordcount: 414
+source-wordcount: 432
 ht-degree: 2%
 
 ---
@@ -59,6 +56,8 @@ Para ver el historial completo de recursos de una imagen,
 ![Ejemplo de metadatos de C2PA para una imagen](/help/creative/assets/cs-content-credentials-example.png "Metadatos de C2PA para una imagen")
 
 ## Recursos adicionales
+
+* [Transparencia del contenido de inteligencia artificial generativa para  [!DNL Adobe CX Enterprise]](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
 
 * [[!DNL Adobe] directrices de usuario de IA generativas](https://www.adobe.com/es/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 

@@ -5,16 +5,12 @@ feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
 TQID: https://experienceleague.adobe.com/5hNxKu6YjJTWI4KGEc6aaYnpgXK6k3OsN0-YfetzENw
-product_v2:
-  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2296997-5d79-4905-b32e-99b5aa892429
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: eb5c453b9892940811e3ec95d5dac4bf0fffbcb6
+product_v2: id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 1a49038dc4f679993eaf908ecbed291324075bc3
 workflow-type: tm+mt
-source-wordcount: 738
+source-wordcount: 814
 ht-degree: 0%
 
 ---
@@ -95,13 +91,21 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
 ## Enumeración de las campañas del portafolio
 
+Los detalles de cada campaña incluyen la estrategia de oferta; el coste real y predicho, los clics y el valor objetivo; y el coste, los clics y la precisión del valor objetivo.
+
 * Haga clic en la ficha **[!UICONTROL Campaigns]**.
 
 ## Enumeración de los grupos de anuncios del portafolios
 
+Los detalles de cada grupo de publicidad incluyen el coste, los clics y el valor objetivo.
+
+* Para ver todos los grupos de anuncios del portafolios, haga clic en la ficha **[!UICONTROL Ad Groups]**.
+
 * Para ver todos los grupos de anuncios de una campaña dentro del portafolio, haga clic en la pestaña **[!UICONTROL Campaigns]** y luego haga clic en el nombre de la campaña.
 
 ## Enumerar las palabras clave del portafolio
+
+Los detalles de cada palabra clave incluyen el ID de unidad de oferta; el tipo de coincidencia; el coste real y predicho, los clics y el valor objetivo; y la diferencia de coste, clics y valor objetivo.
 
 * Para ver todas las palabras clave del portafolio, haga clic en la ficha **[!UICONTROL Keywords]**.
 
