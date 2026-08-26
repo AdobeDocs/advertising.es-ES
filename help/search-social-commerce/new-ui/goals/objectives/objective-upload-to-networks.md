@@ -3,9 +3,9 @@ title: (Nueva IU) Habilitar la carga de objetivos en las redes de publicidad
 description: Obtenga información sobre cómo cargar objetivos para sus portafolios híbridos en Google Ads y Microsoft Advertising.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 4342b75f27a412803b0f96192e96cba9ebfbc347
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 *Solo anunciantes habilitados para la optimización híbrida*
 
-Search, Social y Commerce pueden cargar los objetivos de los portafolios de una cuenta de anunciante en [!DNL Google Ads] y [!DNL Microsoft Advertising] para que pueda utilizarlos en la optimización híbrida. Los objetivos cargados están disponibles como acciones de conversión para los objetivos de conversión personalizados de nivel de cuenta y de campaña. Puede optar por no enviar datos de valor objetivo para un portafolio específico a redes de publicidad desde la pestaña [!UICONTROL Manage Objectives] en la configuración del portafolio.
+Search, Social y Commerce pueden cargar los objetivos de los portafolios de una cuenta de anunciante en [!DNL Google Ads] y [!DNL Microsoft Advertising] para que pueda utilizarlos en la optimización híbrida. Los objetivos cargados están disponibles como acciones de conversión para los objetivos de conversión personalizados de nivel de cuenta y de campaña.<!-- You can opt not to send objective value data for a specific portfolio to ad networks from the [!UICONTROL Manage Objectives] tab in the portfolio settings. -->
 
 Al habilitar esta opción, se almacenarán automáticamente en déclencheur las cargas para los objetivos de los portafolios que contengan campañas con estrategias de oferta inteligente. Search, Social y Commerce crean una conversión en la red de anuncios para cada objetivo aplicable. La conversión representa todas las métricas de conversión ponderadas en el objetivo a nivel de EF ID (ID de clic). Para [!DNL Google Ads] clics, el identificador EF es [!DNL Google Ads] `gclid`; para [!DNL Microsoft Advertising] clics, el identificador EF es [!DNL Microsoft Advertising] `msclkid`. Debido a este ID de clic, los datos de conversión se pueden asignar a la palabra clave específica y a la hora del clic.
 
