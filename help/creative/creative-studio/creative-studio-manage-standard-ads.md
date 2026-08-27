@@ -8,9 +8,9 @@ feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fff56f5b899801ceebbded0946eb4e5157469839
+source-git-commit: 6dfe08f66c80b599f2b781cff375a5d50f0da792
 workflow-type: tm+mt
-source-wordcount: 1181
+source-wordcount: 1184
 ht-degree: 0%
 
 ---
@@ -204,3 +204,4 @@ Duplique un anuncio estándar para añadir un nuevo elemento creativo con la mis
 >* [Administrar elementos creativos dinámicos en Creative Studio](creative-studio-manage-dynamic-ads.md)
 >* [Administrar plantillas en Creative Studio](creative-studio-manage-templates.md)
 >* [Administrar perfiles de marca en Advertising Creative](/help/creative/brands/brand-manage.md)
+>* [Metadatos de C2PA en [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-content-credentials.md)
