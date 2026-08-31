@@ -12,9 +12,9 @@ role_v2:
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: 433
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Una hoja de edición masiva de portafolios es un archivo que contiene la configu
 * Una hoja de cálculo [!UICONTROL Instructions] de sólo lectura con información sobre cómo editar los campos.
 
 * Una ficha [!UICONTROL Portfolio Settings Edit], con una fila por portafolio incluido. Si lo desea, puede editar los campos según sea necesario, guardar el archivo localmente y posteriormente [cargar el archivo editado](#portfolio-bulksheet-upload) en Search, Social y Commerce. Los campos editables se resaltan en color.
+
+Esta función está disponible para portafolios con las siguientes estrategias de gasto: Diario, Semanal, Mensual y Día de la semana.
 
 ## Descargar un archivo de hoja de edición masiva con la configuración del portafolio
 
@@ -47,7 +49,7 @@ Una hoja de edición masiva de portafolios es un archivo que contiene la configu
 
 ## Cargar un archivo de hoja de edición masiva con la configuración actualizada del portafolio {#portfolio-bulksheet-upload}
 
-El archivo debe tener el formato XLSX.
+El archivo debe tener formato XLSX, el tamaño de archivo debe estar entre 1 KB y 1 MB y la longitud máxima del nombre de archivo es de 100 caracteres.
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Operaciones en lote](/help/search-social-commerce/assets/chevron-down.png "Operaciones en lote") > **[!UICONTROL Import Portfolio Details]**.
 

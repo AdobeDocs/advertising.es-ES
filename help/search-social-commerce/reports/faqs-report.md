@@ -14,9 +14,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+source-git-commit: 3d00ae98ac784080e05fb4260919558e09607ac3
 workflow-type: tm+mt
-source-wordcount: 3922
+source-wordcount: 3975
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Las siguientes son razones comunes para la falta de datos sobre clics.
 
 +++
 
-+++Los datos de rendimiento son diferentes de los datos del editor de red de publicidad.
++++Los datos de rendimiento son diferentes de los datos del editor de la red de publicidad.
 Cuando la red de anuncios envía actualizaciones a datos anteriores (a menudo porque han atribuido un fraude de clics a algunos clics), Search, Social y Commerce no actualiza los datos a menos que haya más de un 5 % de discrepancia y el equipo de cuenta de Adobe presente una solicitud.
 
 Además, cuando compara datos de uso compartido de impresiones agregados en un intervalo de fechas, los datos de los informes Buscar, Social y Commerce pueden diferir de los datos de los informes de la red de anuncios. Esta diferencia se debe a la forma en que la API de la red de publicidad informa los datos, que Search, Social y Commerce utiliza para extraer los datos. Por ejemplo, para los datos de [!DNL Google Ads]:
