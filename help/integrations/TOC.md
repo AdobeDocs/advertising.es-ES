@@ -4,13 +4,11 @@ user-guide-description: Obtenga información sobre las integraciones de Advertis
 breadcrumb-title: Integraciones con CX Enterprise
 role: User, Developer
 index: true
-source-git-commit: de60dcf0a1f0e5d751fb4e85a6e64bca22fadc8b
+source-git-commit: 49214a600892e2c3c6aa323c9c50f2862a92c7b0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 1%
-
 ---
-
 
 # Integraciones de Adobe Advertising con Adobe CX Enterprise {#integrations}
 
@@ -54,7 +52,4 @@ ht-degree: 1%
   + [Configuración de la recopilación de datos, la transferencia de datos y la creación de informes](/help/integrations/customer-journey-analytics/set-up.md)
   + [Métricas y dimensiones de Adobe Advertising en Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
   + [Resolución de problemas](/help/integrations/customer-journey-analytics/troubleshooting.md)
-  + {hide-from-toc}[Solución de problemas](/help/integrations/customer-journey-analytics/troubleshooting-new.md)
-  + {hide-from-toc}[Solución de problemas](/help/integrations/customer-journey-analytics/troubleshooting-new-accordian.md)
-  + {hide-from-toc}[Solución de problemas](/help/integrations/customer-journey-analytics/troubleshooting-new-tables.md)
 + [Tutoriales en vídeo sobre integraciones de Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=es)
