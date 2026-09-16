@@ -61,7 +61,7 @@ A continuación se indican posibles problemas, sus posibles causas y soluciones.
 
 ## Problemas de instalación y configuración {#issues-installation-setup}
 
-### La extensión WebSDK no inicializa {#websdk-extension-doesn&#39;t-initialize}
+### La extensión WebSDK no inicializa #websdk-extension-doesn&#39;t-initialize
 
 #### Problemas:
 
@@ -143,7 +143,7 @@ Antes de abrir un vale de soporte para [!UICONTROL Advertising] problemas de con
 | Las cookies de terceros están bloqueadas. | Migre a la recopilación de datos CNAME de origen al [configurar un ID de cookie de origen en la configuración de Edge Network de la secuencia de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure). |
 | `idMigrationEnabled` se ha establecido en `false` mientras que una cookie `s_ecid` heredada está presente. | [Establezca `idMigrationEnabled: true` en la configuración base de WebSDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity) para migrar el ECID existente desde las cookies `s_ecid` o `AMCV_`. |
 
-### Las reglas o los eventos no activan {#rules-or-events-don&#39;t-fire}
+### Las reglas o los eventos no activan #rules-or-events-don&#39;t-fire
 
 #### Problemas:
 
