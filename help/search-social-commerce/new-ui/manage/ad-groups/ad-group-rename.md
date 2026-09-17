@@ -3,13 +3,11 @@ title: (Nueva IU) Cambiar el nombre de un grupo de anuncios
 description: Obtenga información sobre cómo cambiar el nombre de un grupo de anuncios sin abrir su configuración.
 feature: Search Campaign Management
 hide: true
-source-git-commit: 37c408f320fd95fb4f84e65ae73e5e67799e218b
+source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '63'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Cambiar el nombre de un grupo de anuncios
 
 *característica de Beta*
