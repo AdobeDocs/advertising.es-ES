@@ -1,14 +1,13 @@
 ---
 title: Ver el registro de cambios de un creativo
-description: Obtenga información sobre cómo ver los detalles sobre los cambios en una aplicación creativa durante un intervalo de tiempo especificado, incluido el usuario que realizó el cambio.
+description: Obtenga información sobre cómo ver detalles sobre los cambios realizados en un creativo durante un intervalo de tiempo especificado, incluido quién realizó el cambio.
 feature: Creative Standard Creatives
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+exl-id: 3ab23f6f-9f40-4478-aebb-8f70105c5c1c
+source-git-commit: 29a679e99560c6776932f5da2d06fa0331c934a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # Ver el registro de cambios de un creativo
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
@@ -21,7 +20,7 @@ ht-degree: 0%
 
 1. Seleccione el creativo:
 
-   * En la vista de tarjetas, haga clic en **[!UICONTROL ...]** junto al nombre creativo y, a continuación, haga clic en **[!UICONTROL Change Log]**.
+   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del creativo y, a continuación, haga clic en **[!UICONTROL Change Log]**.
 
    * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL More]** > **[!UICONTROL Change Log]**.
 
