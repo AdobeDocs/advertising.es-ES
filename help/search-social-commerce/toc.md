@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6747ddb2d829579b25010a1526140d50345546d9
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2396'
 ht-degree: 2%
 ---
 # Guía de Advertising Search, Social, &amp; Commerce {#search-social-commerce}
@@ -27,10 +27,10 @@ ht-degree: 2%
   + [Inventario admitido](/help/search-social-commerce/introduction/supported-inventory.md)
   + Integración con Adobe CX Enterprise {#integrations}
     + [Integración con soluciones y servicios de Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)
-    + [Adobe [!DNL Analytics for Advertising] (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es){target="_blank"}
-    + [Integración con Adobe Audience Manager (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=es){target="_blank"}
-  + [Compatibilidad con la privacidad del consumidor (vínculo)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
-  + [Políticas y directrices (vínculo)](https://experienceleague.adobe.com/es/docs/advertising/policies/ad-requirements-policy){target="_blank"}
+    + [Adobe [!DNL Analytics for Advertising] (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+    + [Integración con Adobe Audience Manager (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+  + [Compatibilidad con la privacidad del consumidor (vínculo)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+  + [Políticas y directrices (vínculo)](https://experienceleague.adobe.com/en/docs/advertising/policies/ad-requirements-policy){target="_blank"}
 + Primeros pasos {#getting-started}
   + [Resumen de implementación](/help/search-social-commerce/getting-started/implemention-overview.md)
   + [Requisitos del sistema](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -121,7 +121,6 @@ ht-degree: 2%
       + [Administración de campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md)
       + Configuración de campaña por red de publicidad {#campaign-settings-by-network}
         + [[!DNL Baidu] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md)
-        + [[!DNL ChatGPT Ads] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md)
         + [[!DNL Google Ads] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)
         + [[!DNL LY Ads] configuración de campaña](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md)
@@ -130,7 +129,6 @@ ht-degree: 2%
       + [Administrar grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-manage.md)
       + Configuración de grupos de publicidad por red de publicidad {#ad-group-settings-by-network}
         + [[!DNL Baidu] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-baidu.md)
-        + [[!DNL ChatGPT Ads] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-chatgpt.md)
         + [[!DNL Google Ads] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)
         + [[!DNL LY Ads] configuración del grupo de anuncios](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
         + [[!DNL Microsoft Advertising] configuración del grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-microsoft.md)
@@ -139,7 +137,6 @@ ht-degree: 2%
       + [Administración de anuncios](/help/search-social-commerce/new-ui/manage/ads/ad-manage.md)
       + Configuración de publicidad por red de publicidad {#ad-settings-by-network}
         + [[!DNL Baidu] configuración de anuncios de texto](/help/search-social-commerce/new-ui/manage/ads/ad-settings-baidu-text.md)
-        + [[!DNL ChatGPT Ads] configuración de publicidad](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md)
         + [[!DNL Google Ads] expandió la configuración del anuncio de búsqueda dinámica](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-dsa.md)
         + [[!DNL Google Ads] configuración de anuncios de búsqueda adaptable](/help/search-social-commerce/new-ui/manage/ads/ad-settings-google-rsa.md)
         + [[!DNL Microsoft Advertising] expandió la configuración del anuncio de búsqueda dinámica](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-dsa.md)
@@ -216,8 +213,8 @@ ht-degree: 2%
           + [Configuración del informe de precisión de modelo](/help/search-social-commerce/new-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)
       + [Administrar plantillas de informe](/help/search-social-commerce/new-ui/reports/report-templates-manage.md)
       + [Acceso FTP a informes](/help/search-social-commerce/new-ui/reports/ftp-reports.md)
-      + [Cálculo de las reglas de atribución](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
-      + [Preguntas frecuentes sobre informes personalizados](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
+      + [Cálculo de las reglas de atribución](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/attribution-rules){target="_blank"}
+      + [Preguntas frecuentes sobre informes personalizados](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/insights-reports/reports/faqs-report){target="_blank"}
     + [Administrar fuentes de informes de hoja de cálculo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md)
     + [Ver registros de historial de cambios](/help/search-social-commerce/new-ui/reports/history-logs.md)
     + [Administrar clasificaciones de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
@@ -273,13 +270,13 @@ ht-degree: 2%
         + [Formatos de rastreo de clics para  [!DNL Yahoo DSP]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-display-network.md)
         + [Formatos de rastreo de clics para  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
       + [Parámetros de seguimiento opcionales para URL de seguimiento de clics](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-    + [Cookies de Adobe Advertising (vínculo)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=es){target="_blank"}
+    + [Cookies de Adobe Advertising (vínculo)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
     + [El parámetro de seguimiento de ID de AMO (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
   + Seguimiento de conversión {#conversion-tracking}
     + [Opciones de seguimiento de conversión](/help/search-social-commerce/tracking/conversion-tracking-about.md)
     + Seguimiento de conversión de Adobe Advertising {#advertising-conversion-tracking}
       + [Acerca de las etiquetas de seguimiento de conversión de Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
-      + [Generar e implementar una etiqueta de conversión de Adobe Advertising](https://experienceleague.adobe.com/es/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
+      + [Generar e implementar una etiqueta de conversión de Adobe Advertising](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/tools/tracking/conversion-tag-generate){target="_blank"}
       + [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
       + [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
       + [Formato de las etiquetas de seguimiento de conversión de imagen](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
@@ -596,9 +593,9 @@ ht-degree: 2%
   + [Sincronizar  [!DNL Adobe] audiencias](/help/search-social-commerce/admin/sync-adobe-audiences.md)
   + Configuración de fuentes de datos {#data-sources}
     + [Acerca de la sincronización de  [!DNL Google Analytics] métricas de conversión](/help/search-social-commerce/admin/data-sources/data-source-about.md)
-    + [Requisitos previos para configurar un origen de datos  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
+    + [Requisitos previos para configurar un origen de datos  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-prerequisites.md)
     + [Configurar una  [!DNL Google Analytics] vista como fuente de datos](/help/search-social-commerce/admin/data-sources/data-source-configure.md)
-    + [Editar una fuente de datos  [!DNL Google Analytics] &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
+    + [Editar una fuente de datos  [!DNL Google Analytics] ](/help/search-social-commerce/admin/data-sources/data-source-edit.md)
     + [Pausar la sincronización de un origen de datos](/help/search-social-commerce/admin/data-sources/data-source-pause.md)
     + [Volver a autenticar un origen de datos  [!DNL Google Analytics] s](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
     + [[!DNL Google Analytics] configuración de origen de datos](/help/search-social-commerce/admin/data-sources/data-source-settings.md)

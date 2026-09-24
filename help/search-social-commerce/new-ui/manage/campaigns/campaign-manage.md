@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d21954881af4255a450e58849059dee0d6aa368e
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2285'
 ht-degree: 0%
 ---
 # Administración de campañas
@@ -70,7 +70,7 @@ Search, Social y Commerce extrae datos de rendimiento cada hora de las cuentas s
 
 1. Haga clic en **[!UICONTROL Create Campaign]**.
 
-1. Especifique la configuración de la campaña [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
+1. Especifique la configuración de la campaña [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
@@ -106,7 +106,7 @@ Puede editar la configuración de campañas individuales. También puede editar 
 
    * Seleccione la casilla de verificación situada junto a la campaña. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Edit]**.
 
-1. Edite [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [ChatGPT Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-chatgpt.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Configuración de la campaña [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
+1. Editar [Baidu](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md), [LY Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-ly.md), <!-- [Meta Ads](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-meta.md), --> Configuración de la campaña [Microsoft Advertising](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-microsoft.md) o [Yandex](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-yandex.md).
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
@@ -122,7 +122,7 @@ Cambie rápidamente el estado de una campaña sin abrir la configuración comple
 
 Puede pausar cualquier campaña activa en una red de publicidad compatible para deshabilitar las pujas en ella. Más tarde, puedes reanudar las pujas cambiando el estado de nuevo a activo.
 
-También puede eliminar (lo que se conoce como &quot;archivo&quot; dentro de [!DNL ChatGPT Ads Manager]) cualquier campaña activa o en pausa. Las campañas eliminadas o archivadas se eliminan o archivan desde la red de publicidad. Siguen estando visibles cuando se incluyen en el filtro de datos, pero no se pueden cambiar.
+También puede eliminar cualquier campaña activa o en pausa. Las campañas eliminadas se eliminan de la red de anuncios. Siguen estando visibles cuando se incluyen en el filtro de datos, pero no se pueden cambiar.
 
 ### Activación o pausa de una campaña
 
@@ -136,7 +136,7 @@ También puede eliminar (lo que se conoce como &quot;archivo&quot; dentro de [!D
 
    * Para pausar una campaña activa, seleccione **[!UICONTROL Paused]**.
 
-### Eliminación o archivado de una campaña
+### Eliminación de una campaña
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
 
@@ -208,8 +208,6 @@ Para obtener más información sobre la optimización, consulte la Guía de opti
 
 ## Administrar asignaciones de restricciones de oferta para campañas {#campaign-constraints}
 
-*No disponible para[!DNL ChatGPT Ads]*
-
 Cada entidad solo puede tener una restricción. Las restricciones las heredan las entidades secundarias, por lo que no es necesario asignar restricciones para entidades secundarias a menos que desee anular los valores heredados.
 
 Al anular la asignación de una restricción, se elimina la asociación con los componentes de la cuenta y todos sus componentes secundarios, y los datos del informe de la restricción ya no están disponibles para dichos componentes. Al anular la asignación de una restricción, no se eliminan ni la restricción ni los propios componentes de la cuenta.
@@ -279,8 +277,6 @@ Puede asignar una sola restricción a una o varias campañas.
 1. En el diálogo de confirmación, seleccione **[!UICONTROL Yes, Unassign]**.
 
 ## Administrar asignaciones de restricciones de destino para campañas {#campaign-target-constraints}
-
-*No disponible para[!DNL ChatGPT Ads]*
 
 ### Asignar una restricción de destino a las campañas seleccionadas desde la nueva vista [!UICONTROL Campaigns]
 
