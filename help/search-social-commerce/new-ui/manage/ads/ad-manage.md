@@ -127,7 +127,7 @@ Sin embargo, no está disponible para [!DNL Google Ads] publicidad de búsqueda 
 
 1. Haga clic en **[!UICONTROL Create]**.
 
-1. <!-- Add link to where to generate this once available to users-->(Compras de anuncios en campañas con seguimiento de conversión de Adobe Advertising; opcional) Para rastrear clics en el anuncio, agregue manualmente una URL de seguimiento a la configuración de la cuenta, la campaña o el grupo de productos.
+1. &#x200B;<!-- Add link to where to generate this once available to users-->(Compras de anuncios en campañas con seguimiento de conversión de Adobe Advertising; opcional) Para rastrear clics en el anuncio, agregue manualmente una URL de seguimiento a la configuración de la cuenta, la campaña o el grupo de productos.
 
 ## Cambiar nombre de anuncio {#ad-rename}
 
@@ -155,7 +155,7 @@ Cambie rápidamente el nombre de un anuncio sin abrir la configuración completa
 
 1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Edit]**.
 
-1. Edite la configuración restante para un [anuncio de texto Baidu](ad-settings-baidu-text.md), [anuncio de búsqueda dinámica expandido de Google Ads](ad-settings-google-dsa.md) (ahora solo llamado &quot;anuncio de búsqueda dinámica&quot; en Google Ads), [anuncio de búsqueda interactiva de Google Ads](ad-settings-google-rsa.md), [anuncio de búsqueda dinámica expandida de Microsoft Advertising](ad-settings-microsoft-dsa.md), [anuncio multimedia de Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anuncio de producto de Microsoft Advertising](ad-settings-microsoft-product.md), [anuncio interactivo de Microsoft Advertising (audiencia)](ad-settings-microsoft-responsive.md), [anuncio de búsqueda interactivo de Microsoft](ad-settings-microsoft-rsa.md) o [Yandex configuración de anuncio de texto ](ad-settings-yandex-text.md).
+1. Edite la configuración restante para un [anuncio de texto Baidu](ad-settings-baidu-text.md), [anuncio de búsqueda dinámica expandido de Google Ads](ad-settings-google-dsa.md) (ahora solo llamado &quot;anuncio de búsqueda dinámica&quot; en Google Ads), [anuncio de búsqueda interactiva de Google Ads](ad-settings-google-rsa.md), [anuncio de búsqueda dinámica expandida de Microsoft Advertising](ad-settings-microsoft-dsa.md), [anuncio multimedia de Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anuncio de producto de Microsoft Advertising](ad-settings-microsoft-product.md), [anuncio interactivo de Microsoft Advertising (audiencia)](ad-settings-microsoft-responsive.md), [anuncio de búsqueda interactivo de Microsoft](ad-settings-microsoft-rsa.md) o [Yandex configuración de anuncio de texto &#x200B;](ad-settings-yandex-text.md).
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
