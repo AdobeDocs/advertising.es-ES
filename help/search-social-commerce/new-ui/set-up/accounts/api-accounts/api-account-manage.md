@@ -3,13 +3,11 @@ title: (Nueva IU) Administrar las cuentas de red de publicidad
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta en la nueva interfaz de usuario para una red de publicidad sincronizada mediante la API de red de publicidad.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: 6b9aca3a3de262935428a749acc123fcf7b76c18
+source-git-commit: fe4873a68b7b78000e6a380c22f8074d79c7184f
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2157'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Administrar las cuentas de red de publicidad a través de la conexión API
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
@@ -19,6 +17,8 @@ ht-degree: 0%
 <!-- Move out info about Naver into a separate page -->
 
 A continuación se indican instrucciones para administrar cuentas de red de anuncios que Search, Social y Commerce sincronizan mediante la API de la red de anuncios.
+
+<!-- Add somewhere:  Can now open a list of all campaigns for an ad network account by clicking account name -->
 
 <!-- Move out info about Naver into a separate page -->
 
@@ -135,6 +135,8 @@ La configuración de la cuenta varía según la red de anuncios. Es posible que 
 >
 >Si tiene una integración de Search, Social y Commerce-Adobe Analytics y cambia el nombre de la cuenta de búsqueda, pida al equipo de cuenta de Adobe que actualice la asignación.
 
+**[!UICONTROL Access Key]:** ([!DNL ChatGPT Ads] cuentas solamente) Clave de acceso para la cuenta de desarrollador que se va a usar.<!-- From whom should people get access keys? Their organization's ChatGPT Ads team? -->
+
 **[!DNL [Cuentas de red de anuncios]]:** (visible mientras crea una cuenta) Cuenta de red de anuncios que se va a sincronizar.
 
 **[Detalles de inicio de sesión]:** (solo cuentas de Yandex) Las credenciales de la cuenta que se deben usar:
@@ -159,7 +161,7 @@ La configuración de la cuenta varía según la red de anuncios. Es posible que 
 
 **[!UICONTROL Currency]:** (solo lectura) La abreviatura de la moneda utilizada para la cuenta. Este valor se rellena automáticamente con la moneda configurada para la cuenta en la red de publicidad una vez guardado el registro.
 
-**[!UICONTROL Time Zone]:** Zona horaria del anunciante. Este valor se rellena automáticamente con la zona horaria configurada para la cuenta de Search, Social y Commerce del anunciante una vez guardado el registro.
+**[!UICONTROL Time Zone]:** (solo lectura) Zona horaria del anunciante. Este valor se rellena automáticamente con la zona horaria configurada para la cuenta de Search, Social y Commerce del anunciante una vez guardado el registro.
 
 **[!UICONTROL Login]:** (solo lectura) Cuenta de usuario utilizada para iniciar sesión en la cuenta.
 
@@ -189,7 +191,7 @@ Para habilitar esta característica, active **[Habilitar seguimiento]**.
 >* Si cambia de [!UICONTROL Standard] a [!UICONTROL Token], o viceversa, debe volver a generar las direcciones URL de seguimiento para la cuenta.
 >* Puede anular la configuración de nivel de cuenta en el nivel de campaña.
 
-**[!UICONTROL Auto Update]:** (cuando el seguimiento de Search, Social y Commerce está habilitado) Estandariza las direcciones URL de seguimiento para comprobar la compatibilidad entre exploradores y servidores. Search, Social y Commerce cargan automáticamente lo siguiente en la red de anuncios durante la siguiente sincronización: (a) parámetros de seguimiento de Search, Social y Commerce para plantillas de seguimiento y los mismos parámetros añadidos a las direcciones URL finales o (b) nuevas direcciones URL de destino incrustadas con el código de seguimiento de Search, Social y Commerce. Para anunciantes con una [integración Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es) y una configuración de ID de AMO del lado del servidor (s_kwcid), la carga también incluye [parámetros de ID de AMO](/help/integrations/analytics/ids.md#amo-id) para sus cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La configuración predeterminada en el nivel de cuenta se hereda de la configuración de seguimiento del anunciante. Puede anular la configuración de nivel de cuenta en el nivel de campaña.
+**[!UICONTROL Auto Update]:** (cuando el seguimiento de Search, Social y Commerce está habilitado) Estandariza las direcciones URL de seguimiento para comprobar la compatibilidad entre exploradores y servidores. Search, Social y Commerce cargan automáticamente lo siguiente en la red de anuncios durante la siguiente sincronización: (a) parámetros de seguimiento de Search, Social y Commerce para plantillas de seguimiento y los mismos parámetros añadidos a las direcciones URL finales o (b) nuevas direcciones URL de destino incrustadas con el código de seguimiento de Search, Social y Commerce. Para anunciantes con una [integración Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) y una configuración de ID de AMO del lado del servidor (s_kwcid), la carga también incluye [parámetros de ID de AMO](/help/integrations/analytics/ids.md#amo-id) para sus cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La configuración predeterminada en el nivel de cuenta se hereda de la configuración de seguimiento del anunciante. Puede anular la configuración de nivel de cuenta en el nivel de campaña.
 
 Las direcciones URL de seguimiento se actualizan a diario solo para las entidades que no están sincronizadas (es decir, las nuevas entidades que se añadieron y las entidades existentes cuyas propiedades han cambiado). Por lo tanto, si cambia esta configuración de deshabilitada a habilitada para un anunciante, cuenta o campaña existente, las direcciones URL de seguimiento no se actualizan para las entidades existentes que ya están sincronizadas. Para agregar el seguimiento a las direcciones URL de entidades sincronizadas existentes, póngase en contacto con el equipo de cuenta de Adobe y solicite un proceso de sincronización manual único. El proceso de carga automática gestionará los cambios futuros.
 
