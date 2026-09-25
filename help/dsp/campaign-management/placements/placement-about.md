@@ -6,23 +6,28 @@ exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
 TQID: https://experienceleague.adobe.com/2NzvUNMqkGVsPaEDM3ifXGNOAIuR1qifdC1-pacbK7U
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # Acerca de la administración de ubicaciones en Advertising DSP
 
 Una ubicación incluye parámetros de segmentación para uno o varios anuncios del mismo tipo de anuncio. Puede crear una ubicación para una sola campaña o paquete y luego asignarle anuncios. Cada campaña o ubicación puede incluir varias ubicaciones, con una rotación de anuncio especificada. De forma predeterminada, los anuncios se giran uniformemente. Puede configurar por separado los multiplicadores de oferta para varios tipos de destino de ubicación.
@@ -34,7 +39,7 @@ Puede crear una ubicación manualmente o duplicando una existente. También pued
 ## Tipos de ubicación disponibles
 
 * Pre-Roll
-* Dispositivo móvil
+* Móvil
 * Mostrar
 * Nativo
 * Audio
@@ -63,4 +68,4 @@ Para cada ubicación, puede abrir una vista detallada ([el [!UICONTROL Inspector
 >* [Administrar multiplicadores de oferta para ubicaciones](placement-manage-bid-multipliers.md)
 >* [Ver el registro de cambios de una ubicación](placement-change-log.md)
 >* [Configuración de ubicación](placement-settings.md)
->* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Razones de los problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)

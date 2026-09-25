@@ -6,24 +6,30 @@ exl-id: 28a328b1-0839-442e-a245-f586a7042f41
 TQID: https://experienceleague.adobe.com/QEpUfFvrVq62P64w-7gwFk2ujuCNzkegHKz6UancZDY
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: DSP placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Optimization
+source-git-commit: 469047a3a9454a504cf3c0ff28c4dafa8a034819
 workflow-type: tm+mt
-source-wordcount: 713
+source-wordcount: '715'
 ht-degree: 0%
-
 ---
-
 # Creación de una ubicación
 
 >[!TIP]
@@ -92,61 +98,61 @@ ht-degree: 0%
 
       * Para crear un anuncio nuevo:
 
-         1. Haga clic en **[!UICONTROL Create a New Ad].**
+        1. Haga clic en **[!UICONTROL Create a New Ad].**
 
-         1. Especifique la configuración de anuncios para [anuncios de audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV conectado](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [anuncios para mostrar](/help/dsp/campaign-management/ads/ad-settings-display.md), [anuncios móviles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [anuncios nativos](/help/dsp/campaign-management/ads/ad-settings-native.md), [anuncios previos a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) o [anuncios de vídeo universales](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+        1. Especifique la configuración de anuncios para [anuncios de audio](/help/dsp/campaign-management/ads/ad-settings-audio.md), [TV conectado](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [anuncios para mostrar](/help/dsp/campaign-management/ads/ad-settings-display.md), [anuncios móviles](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [anuncios nativos](/help/dsp/campaign-management/ads/ad-settings-native.md), [anuncios previos a la emisión](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) o [anuncios de vídeo universales](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
         >[!NOTE]
         >
         >Las ubicaciones de vídeo universales solo pueden contener anuncios de vídeo universales.
 
-         1. Haga clic en **[!UICONTROL Save & Submit for Review]**.
+        1. Haga clic en **[!UICONTROL Save & Submit for Review]**.
 
-         1. (Opcional) Para cada anuncio adicional que desee crear para la ubicación, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita los pasos del 1 al 3.
+        1. (Opcional) Para cada anuncio adicional que desee crear para la ubicación, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita los pasos del 1 al 3.
 
-         1. Si no va a adjuntar anuncios existentes, haga clic en **[!UICONTROL I'm done for now]**.
+        1. Si no va a adjuntar anuncios existentes, haga clic en **[!UICONTROL I'm done for now]**.
 
       * Para adjuntar anuncios existentes en la campaña:
 
-         1. Haga clic en **[!UICONTROL Select an Ad]**.
+        1. Haga clic en **[!UICONTROL Select an Ad]**.
 
-         1. Realice una de las acciones siguientes:
+        1. Realice una de las acciones siguientes:
 
-            * Para agregar un anuncio a la vez:
+           * Para agregar un anuncio a la vez:
 
-               1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select].**
+             1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select].**
 
-               1. (Opcional) Para cada anuncio adicional que desee adjuntar, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita el proceso.
+             1. (Opcional) Para cada anuncio adicional que desee adjuntar, haga clic en **[!UICONTROL Attach Another Ad]** y, a continuación, repita el proceso.
 
-            * Para agregar hasta 20 anuncios a la vez:
+           * Para agregar hasta 20 anuncios a la vez:
 
-               1. Seleccione la casilla de verificación situada encima de la lista de anuncios.
+             1. Seleccione la casilla de verificación situada encima de la lista de anuncios.
 
-               1. Seleccione la casilla de verificación situada junto a cada anuncio que desee añadir.
+             1. Seleccione la casilla de verificación situada junto a cada anuncio que desee añadir.
 
-               1. Haga clic en **[!UICONTROL Attach]**.
+             1. Haga clic en **[!UICONTROL Attach]**.
 
-               1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select]**.
+             1. Junto al nombre del anuncio, haga clic en **[!UICONTROL Select]**.
 
-         1. (Opcional) Para anular el período de vuelo y la rotación de publicidad predeterminados para anuncios específicos de la ubicación:
+        1. (Opcional) Para anular el período de vuelo y la rotación de publicidad predeterminados para anuncios específicos de la ubicación:
 
-            1. Haga clic en **[!UICONTROL Custom Schedule Ads]**.
+           1. Haga clic en **[!UICONTROL Custom Schedule Ads]**.
 
-            1. Realice una de las siguientes acciones:
+           1. Realice una de las siguientes acciones:
 
-               * Para agregar un vuelo, haga clic en **[!UICONTROL Add Flight]** y después especifique la fecha de inicio y la fecha de finalización.
+              * Para agregar un vuelo, haga clic en **[!UICONTROL Add Flight]** y después especifique la fecha de inicio y la fecha de finalización.
 
-               * Para agregar un vuelo existente a un anuncio, haga clic en **[!UICONTROL +]** en la fila de anuncio de la columna vuelo.
+              * Para agregar un vuelo existente a un anuncio, haga clic en **[!UICONTROL +]** en la fila de anuncio de la columna vuelo.
 
-               * Para eliminar un vuelo existente de un anuncio, haga clic en **[!UICONTROL x]** en la fila de anuncio de la columna vuelo.
+              * Para eliminar un vuelo existente de un anuncio, haga clic en **[!UICONTROL x]** en la fila de anuncio de la columna vuelo.
 
-               * (Cuando varios anuncios tengan el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, especifique el peso relativo por el que desea rotar cada anuncio, como porcentaje.
+              * (Cuando varios anuncios tengan el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, especifique el peso relativo por el que desea rotar cada anuncio, como porcentaje.
 
-                 El peso total debe ser igual a 100.
+                El peso total debe ser igual a 100.
 
-            1. En la esquina superior derecha, haga clic en **[!UICONTROL Continue]**.
+           1. En la esquina superior derecha, haga clic en **[!UICONTROL Continue]**.
 
-            1. Revise los detalles del vuelo y haga clic en **[!UICONTROL Save & Finish]**.
+           1. Revise los detalles del vuelo y haga clic en **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -160,5 +166,5 @@ ht-degree: 0%
 >* [Ver el informe de previsión de ubicación](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Preguntas frecuentes sobre el vídeo universal](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Métodos abreviados de teclado](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Rendimiento de solución de problemas](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Razones de los problemas de rendimiento](/help/dsp/optimization/troubleshooting-performance.md)
 >* [Vídeo: cómo crear una ubicación de visualización estándar](https://video.tv.adobe.com/v/344998?captions=spa)

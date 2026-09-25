@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 19e8de1ab13ab8a5451702e6130219277cf09631
+source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
 workflow-type: tm+mt
 source-wordcount: '2396'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
   + [Acerca de Adobe Advertising Search, Social y Commerce](/help/search-social-commerce/introduction/about.md)
   + [Inventario admitido](/help/search-social-commerce/introduction/supported-inventory.md)
   + Integración con Adobe CX Enterprise {#integrations}
-    + [Integración con las soluciones y servicios empresariales de Adobe CX](/help/search-social-commerce/introduction/integrations.md)
+    + [Integración con soluciones y servicios de Adobe CX Enterprise](/help/search-social-commerce/introduction/integrations.md)
     + [Adobe [!DNL Analytics for Advertising] (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es){target="_blank"}
     + [Integración con Adobe Audience Manager (vínculo)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=es){target="_blank"}
   + [Compatibilidad con la privacidad del consumidor (vínculo)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es){target="_blank"}
