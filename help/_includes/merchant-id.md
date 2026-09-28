@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
-
 ---
 # Campo de ID de comerciante en la configuración de campaña de compras de GGL y MS en la cuadrícula y en las plantillas de ACM
 
