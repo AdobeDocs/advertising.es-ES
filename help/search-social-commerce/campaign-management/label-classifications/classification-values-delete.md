@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/vVMgSqSBGNN7oqhiY6DLqQZPsi7TowVxNIOTtEtPLg0
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # Eliminar valores de clasificación de etiquetas
 
 Al eliminar los valores de clasificación de etiquetas, no estarán disponibles para su uso futuro y los datos del informe ya no estarán disponibles para los valores. Se eliminan todas las asignaciones entre los valores y sus clasificaciones de etiquetas principales y componentes de cuenta específicos, pero no se eliminan las clasificaciones de etiquetas principales y los componentes de campaña.
@@ -25,7 +25,7 @@ Al eliminar los valores de clasificación de etiquetas, no estarán disponibles 
 
 ## (Nueva IU) Eliminar valores de clasificación de etiquetas
 
-1. Haga clic en **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+1. Haga clic en **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
 
 1. Haga clic en la ficha **[!UICONTROL Label Values]**.
 

@@ -2,13 +2,11 @@
 title: Administrar informes programados
 description: Obtenga información sobre cómo administrar los informes programados.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports, Search Assist Reports, Search Model Accuracy Reports, Search Specialty Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1571'
 ht-degree: 0%
-
 ---
-
 # Administrar informes programados
 
 Los informes de rendimiento le permiten realizar un seguimiento y administrar el rendimiento de sus portafolios, redes de publicidad y entidades de cuenta de red de publicidad con el nivel de granularidad que desee. La mayoría de los informes proporcionan una visibilidad completa sobre cómo los anuncios de cada canal de marketing contribuyen a la tasa de conversión general.
@@ -39,9 +37,9 @@ Programe informes personalizados para que se generen automáticamente de una o a
 
 * Siga actualizando las plantillas de hoja de cálculo personalizadas con datos de rendimiento diarios mediante [fuentes de hoja de cálculo](/help/search-social-commerce/new-ui/reports/spreadsheet-feeds-manage.md).
 
-## Las vistas [!UICONTROL Scheduled Reports]
+## Las vistas [!UICONTROL Reports]
 
-Las vistas [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] le permiten crear y administrar informes y plantillas de informes:
+Las vistas [!UICONTROL Reports] > [!UICONTROL Reports] le permiten crear y administrar informes y plantillas de informes:
 
 * La ficha **[!UICONTROL Latest Reports]** enumera todos los informes disponibles para usted<!-- Doesn't seem to be true: that were requested in the last seven days -->, excepto los que se eliminaron manualmente, con el informe más reciente en la parte superior de forma predeterminada. La información mostrada para cada informe incluye la programación según la cual se ejecuta (cuando corresponde), las fechas de inicio y finalización para las que se generaron o se generarán datos, quién creó el informe y el estado del informe (*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* o *[!UICONTROL Error]*).
 
@@ -59,14 +57,14 @@ Las vistas [!UICONTROL Reports] > [!UICONTROL Scheduled Reports] le permiten cre
 | ---- | ---- |
 | Monitorización del rendimiento | <ul><li>[El [!UICONTROL Portfolio Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/portfolio-report.md)</li><li>[El [!UICONTROL Search Engine Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-report.md)</li><li>[El [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[El [!UICONTROL Campaign Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/campaign-report.md)</li><li>[El [!UICONTROL Ad Group Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-group-report.md)</li><li>[El [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/new-ui/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | Solución de problemas de rendimiento y análisis de tendencias | <ul><li>[El [!UICONTROL Keyword Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/keyword-report.md)</li><li>[El [!UICONTROL Ad Variation Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/ad-variation-report.md)</li><li>[El [!UICONTROL Transaction Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/transaction-report.md)</li><li>[El [!UICONTROL RSA Asset Report]](/help/search-social-commerce/new-ui/reports/management/specialty/rsa-asset-report.md)</li><li>[El [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/keyword-daily-impression-share-report.md) y [El [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/new-ui/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>Cualquier informe básico que compare dos períodos de tiempo con la función &quot;[!UICONTROL Compare with]&quot;</li></ul> |
-| Identificación de oportunidades de crecimiento empresarial | <ul><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Anunciantes con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es)) Informes personalizados en Adobe Analytics Analysis Workspace</li></ul> |
-| Analytics | <ul><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Anunciantes con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es)) Informes personalizados en Adobe Analytics Analysis Workspace</li></ul> |
+| Identificación de oportunidades de crecimiento empresarial | <ul><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Domain Referral Report]](/help/search-social-commerce/new-ui/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Anunciantes con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Informes personalizados en Adobe Analytics Analysis Workspace</li></ul> |
+| Analytics | <ul><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Channel Assist Report]](/help/search-social-commerce/new-ui/reports/management/assist/channel-assist-report.md)</li><li>(Anunciantes con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Informes personalizados en Adobe Analytics Analysis Workspace</li></ul> |
 
 ## Generación de informes
 
 ### Generación de un nuevo informe
 
-1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Haga clic en **[!UICONTROL Create Report]**, haga clic en la categoría del informe en el panel izquierdo y, a continuación, seleccione el tipo de informe.<!-- Add link to list of report categories and report types --> Haga clic en **[!UICONTROL Proceed]**.
 
@@ -96,7 +94,7 @@ Si ha introducido direcciones de correo electrónico para la notificación, cada
 
 ### Generación de un informe a partir de un informe existente
 
-1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, que se abre en la ficha **[!UICONTROL Latest Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Reports]**, que se abre en la ficha **[!UICONTROL Latest Reports]**.
 
 1. Realice una de las acciones siguientes:
 
@@ -110,7 +108,7 @@ Si ha introducido direcciones de correo electrónico para la notificación, cada
 
 ### Generación de un informe a partir de una plantilla existente
 
-1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
@@ -136,45 +134,45 @@ Puede obtener una vista previa de un informe en el explorador web o abrir o guar
 >
 >Los miembros del equipo de cuenta de Adobe y algunos usuarios administradores pueden ver los informes creados por los usuarios del anunciante y de la agencia.
 
-1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, que se abre en la ficha **[!UICONTROL Latest Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Reports]**, que se abre en la ficha **[!UICONTROL Latest Reports]**.
 
 1. Realice una de las acciones siguientes:
 
    * (Para ver un informe en el explorador web) Realice una de las acciones siguientes:
 
-      * Mantenga el cursor sobre la fila de la plantilla y haga clic en **...** > **[!UICONTROL Preview]**.
+     * Mantenga el cursor sobre la fila de la plantilla y haga clic en **...** > **[!UICONTROL Preview]**.
 
-      * Seleccione la casilla de verificación situada junto a la plantilla existente. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Preview]**.
+     * Seleccione la casilla de verificación situada junto a la plantilla existente. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Preview]**.
 
    * (Para abrir o guardar los datos del informe en un archivo) En la columna [!UICONTROL Export] junto al nombre del informe, haga clic en el nombre de un formato y, a continuación, abra o guarde el archivo según el procedimiento normal del explorador:
 
-      * **[!UICONTROL XLS]:** Para un libro de [!DNL Excel] con una sola hoja de cálculo (formato XLSX). El informe incluye una hoja de cálculo etiquetada en la parte superior con los parámetros, con una fila para cada componente cuando los datos del componente están disponibles. Se omiten las filas sin datos.
+     * **[!UICONTROL XLS]:** Para un libro de [!DNL Excel] con una sola hoja de cálculo (formato XLSX). El informe incluye una hoja de cálculo etiquetada en la parte superior con los parámetros, con una fila para cada componente cuando los datos del componente están disponibles. Se omiten las filas sin datos.
 
-        Los informes básicos incluyen un total para cada columna numérica.
+       Los informes básicos incluyen un total para cada columna numérica.
 
-      * **[!UICONTROL TSV]:** Para un archivo TSV. El informe incluye los parámetros y una fila para cada componente incluido en el informe.
+     * **[!UICONTROL TSV]:** Para un archivo TSV. El informe incluye los parámetros y una fila para cada componente incluido en el informe.
 
-      * **[!UICONTROL CSV]:** Para un archivo CSV. El informe incluye los parámetros y una fila para cada componente incluido en el informe.
+     * **[!UICONTROL CSV]:** Para un archivo CSV. El informe incluye los parámetros y una fila para cada componente incluido en el informe.
 
 ## Eliminar informes
 
-1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, que se abre en la ficha **[!UICONTROL Latest Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Reports]**, que se abre en la ficha **[!UICONTROL Latest Reports]**.
 
 1. Realice una de las acciones siguientes:
 
    * (Para eliminar un solo informe):
 
-      1. Mantenga el cursor sobre la fila del informe y haga clic en **...** > **[!UICONTROL Run]**.
+     1. Mantenga el cursor sobre la fila del informe y haga clic en **...** > **[!UICONTROL Run]**.
 
-      1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
 
    * (Para eliminar uno o varios informes):
 
-      1. Active la casilla de verificación situada junto a cada informe que desee eliminar.
+     1. Active la casilla de verificación situada junto a cada informe que desee eliminar.
 
-      1. En la barra de herramientas de acciones masivas, haga clic en [Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar") **[!UICONTROL Delete]**.
+     1. En la barra de herramientas de acciones masivas, haga clic en [Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar") **[!UICONTROL Delete]**.
 
-      1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
 
 <!--
 
