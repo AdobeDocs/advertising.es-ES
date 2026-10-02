@@ -6,15 +6,15 @@ feature: Search Label Classifications
 TQID: https://experienceleague.adobe.com/r08RxDrdXIkUP7ZJgw8x-g47m0Ioxjo9SySjg71-PkM
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 764
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Asignar valores de clasificación a componentes de cuenta desde las vistas de administración de campañas
 
 Puede asignar y eliminar valores de clasificación para las siguientes entidades de búsqueda desde las vistas de administración de campañas: campaña, grupo de anuncios, palabra clave, anuncio, ubicación, grupo de productos de nivel de unidad y destino de búsqueda dinámica. Si es necesario, puede crear clasificaciones y valores de clasificación durante el proceso de asignación. Cada clasificación de etiquetas puede tener hasta 2000 valores.
@@ -31,7 +31,7 @@ Las entidades secundarias heredan los valores de etiquetas, por lo que no introd
 
 Puede asignar valores de clasificación a cualquier componente de cuenta aplicable que esté disponible en la nueva interfaz de usuario.
 
-1. Abra la vista de entidades desde el menú **[!UICONTROL Manage]** o **[!UICONTROL Target]**.
+1. Abra la vista de entidades desde el menú **[!UICONTROL Manage]** o **[!UICONTROL Targeting]**.
 
 1. Seleccione la casilla de verificación situada junto a cada fila correspondiente.
 
@@ -69,11 +69,11 @@ Puede asignar valores de clasificación a cualquier componente de cuenta aplicab
 
    * (Para asignar valores a una o varias entidades) Haga lo siguiente:
 
-      * Seleccione la casilla de verificación situada junto a cada fila correspondiente.
+     * Seleccione la casilla de verificación situada junto a cada fila correspondiente.
 
-        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+       Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      * En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y, a continuación, haga clic en **[!UICONTROL Classification]**.
+     * En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y, a continuación, haga clic en **[!UICONTROL Classification]**.
 
 1. En [!UICONTROL Assignment Details], realice una de las siguientes acciones:
 

@@ -7,18 +7,20 @@ exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
 TQID: https://experienceleague.adobe.com/qwisQ3OqMeymlREsTVY-Wf59ln37hBLR0X4R7RjkuTM
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: Optimization
+source-git-commit: 5361437bb4c2dac423e718ad92f0b56c0feaca20
 workflow-type: tm+mt
-source-wordcount: 458
+source-wordcount: '458'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Administrar asignaciones de restricciones para campañas
 
 *característica de Beta*
@@ -98,5 +100,5 @@ Puede asignar una sola restricción a una o varias campañas.
 >
 >* [(Nueva IU) Administrar restricciones para buscar unidades de oferta](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
 >* [(Nueva IU) Administrar asignaciones de restricción para grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [(Nueva interfaz de usuario) Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/target/keywords/keyword-constraint-assignments-manage.md)
->* [(Nueva IU) Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/target/placements/placement-constraint-assignments-manage.md)
+>* [(Nueva interfaz de usuario) Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+>* [(Nueva IU) Administrar asignaciones de restricción para las ubicaciones](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)

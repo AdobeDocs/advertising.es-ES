@@ -2,13 +2,11 @@
 title: (Nueva IU) Administrar plantillas de informe
 description: Obtenga información sobre cómo crear, ver, editar y eliminar plantillas de informes reutilizables para informes programados y bajo demanda.
 feature: Search Reports
-source-git-commit: bfca434eacf52ec7236804c54b7740442aa12961
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Administrar plantillas de informe
 
 Las plantillas de informe son diseños de informe predefinidos que se pueden reutilizar cuando se generan la mayoría de los informes. El uso de plantillas le ahorra tiempo si desea utilizar parámetros no predeterminados o ejecutar variaciones del mismo informe, o si desea ejecutar el mismo informe según una programación regular. Las plantillas de informe guardadas están disponibles en la sección Plantillas de informe de la página Informes.
@@ -27,7 +25,7 @@ Puede mantener hasta 100 plantillas a la vez.
 
 <!-- Add xrefs to report procedures and settings once available -->
 
-1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Realice una de las acciones siguientes:
 
@@ -35,17 +33,17 @@ Puede mantener hasta 100 plantillas a la vez.
 
    * Para crear una plantilla basada en una plantilla existente:
 
-      1. Haga clic en la ficha **[!UICONTROL Templates]**.
+     1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
-      1. Realice una de las acciones siguientes:
+     1. Realice una de las acciones siguientes:
 
-         * Mantenga el cursor sobre la fila de la plantilla y haga clic en **...** > **[!UICONTROL Duplicate]**.
+        * Mantenga el cursor sobre la fila de la plantilla y haga clic en **...** > **[!UICONTROL Duplicate]**.
 
-         * Seleccione la casilla de verificación situada junto a la plantilla existente. En la barra de herramientas de acciones masivas, haga clic en [Duplicar](/help/search-social-commerce/assets/duplicate.png).
+        * Seleccione la casilla de verificación situada junto a la plantilla existente. En la barra de herramientas de acciones masivas, haga clic en [Duplicar](/help/search-social-commerce/assets/duplicate.png).
 
-      1. (Opcional) Cambie el nombre de la plantilla y edite la configuración del informe si es necesario.
+     1. (Opcional) Cambie el nombre de la plantilla y edite la configuración del informe si es necesario.
 
-         Haga clic en **[!UICONTROL Next]** para desplazarse entre las secciones de configuración.
+        Haga clic en **[!UICONTROL Next]** para desplazarse entre las secciones de configuración.
 
 1. Habilite la configuración **[!UICONTROL Save as Template]**.
 
@@ -97,7 +95,7 @@ Not available to anyone as of 5/21. EDIT ALL IF WE ADD THIS FCT:
 
 Puede ejecutar informes para una o más plantillas en cualquier momento.
 
-1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
@@ -105,23 +103,23 @@ Puede ejecutar informes para una o más plantillas en cualquier momento.
 
    * (Para ejecutar una sola plantilla):
 
-      1. Mantenga el cursor sobre la fila de la plantilla y haga clic en **...** > **[!UICONTROL Run]**.
+     1. Mantenga el cursor sobre la fila de la plantilla y haga clic en **...** > **[!UICONTROL Run]**.
 
-      1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
 
    * (Para ejecutar una o más plantillas):
 
-      1. Active la casilla de verificación situada junto a cada plantilla que desee ejecutar.
+     1. Active la casilla de verificación situada junto a cada plantilla que desee ejecutar.
 
-      1. En la barra de herramientas de acciones masivas, haga clic en [Ejecutar](/help/search-social-commerce/assets/run-new.png "Ejecutar").
+     1. En la barra de herramientas de acciones masivas, haga clic en [Ejecutar](/help/search-social-commerce/assets/run-new.png "Ejecutar").
 
-      1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
 
 ## Eliminar plantillas de informe {#template-delete}
 
 Puede eliminar cualquier plantilla de informe disponible. Cuando se elimina una plantilla que incluye una programación, ese informe no se genera en el futuro.
 
-1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**.
+1. En el menú principal, haga clic en **[!UICONTROL Reports]>[!UICONTROL Reports]**.
 
 1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
@@ -129,14 +127,14 @@ Puede eliminar cualquier plantilla de informe disponible. Cuando se elimina una 
 
    * (Para eliminar una sola plantilla):
 
-      1. Mantenga el cursor sobre la fila de la plantilla y haga clic en **...** > **[!UICONTROL Delete]**.
+     1. Mantenga el cursor sobre la fila de la plantilla y haga clic en **...** > **[!UICONTROL Delete]**.
 
-      1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
 
    * (Para eliminar una o varias plantillas):
 
-      1. Active la casilla de verificación situada junto a cada plantilla que desee eliminar.
+     1. Active la casilla de verificación situada junto a cada plantilla que desee eliminar.
 
-      1. En la barra de herramientas de acciones masivas, haga clic en [Eliminar](/help/search-social-commerce/assets/delete-new.png).
+     1. En la barra de herramientas de acciones masivas, haga clic en [Eliminar](/help/search-social-commerce/assets/delete-new.png).
 
-      1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.

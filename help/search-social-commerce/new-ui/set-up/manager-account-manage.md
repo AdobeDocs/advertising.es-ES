@@ -2,13 +2,11 @@
 title: (Nueva IU) Administrar credenciales para cuentas de administrador de Google Ads
 description: Obtenga información sobre cómo configurar y administrar credenciales para cuentas de administrador de Google Ads en la nueva interfaz de usuario.
 feature: Search Admin
-source-git-commit: bf1ca7f6133c19bb68dbe0395416dca8ef647464
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
-
 ---
-
 # (Nueva interfaz de usuario) Administrar credenciales para cuentas de administrador de [!DNL Google Ads]
 
 *característica de Beta*

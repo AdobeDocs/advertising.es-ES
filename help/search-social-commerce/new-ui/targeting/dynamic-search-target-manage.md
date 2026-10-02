@@ -1,24 +1,26 @@
 ---
-title: Administrar  [!DNL Google Ads] destinos de búsqueda dinámica
-description: Aprenda a crear y administrar  [!DNL Google Ads] destinos de búsqueda dinámica.
+title: Administrar [!DNL Google Ads] destinos de búsqueda dinámica
+description: Obtenga información sobre cómo crear y administrar [!DNL Google Ads] destinos de búsqueda dinámica.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
 TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c074f430583e2d320eb4d47b4fc956c1822bd04a
+    internal-label: User
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '705'
 ht-degree: 0%
-
 ---
-
 # Administrar [!DNL Google Ads] destinos de búsqueda dinámica
 
 *[!DNL Google Ads]solo cuentas*
@@ -43,7 +45,7 @@ Para obtener más información sobre [!DNL Google Ads] anuncios dinámicos de b�
 
 ## La vista [!UICONTROL Auto Targets]
 
-La vista [!UICONTROL Target] > [!UICONTROL Auto Targets] enumera todos los destinos de búsqueda dinámica en la vista filtrada de la cuenta de anunciante seleccionada. También puede administrar sus destinos de búsqueda dinámica.
+La vista [!UICONTROL Targeting] > [!UICONTROL Auto Targets] enumera todos los destinos de búsqueda dinámica en la vista filtrada de la cuenta de anunciante seleccionada. También puede administrar sus destinos de búsqueda dinámica.
 
 ### Acciones disponibles
 
@@ -178,7 +180,7 @@ You can also delete any dynamic target.
 
 ## Asignar una restricción a los destinos de búsqueda dinámica seleccionados desde la nueva vista [!UICONTROL Auto Targets] {#constraint-assign}
 
-1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Seleccione la casilla de verificación situada junto a cada destino de búsqueda dinámica al que desee asignar una única restricción.
 
@@ -190,7 +192,7 @@ You can also delete any dynamic target.
 
 ## Quitar restricciones de los destinos de búsqueda dinámica seleccionados de la nueva vista [!UICONTROL Auto Targets] {#constraint-unassign}
 
-1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Auto Targets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Seleccione la casilla de verificación situada junto a cada destino de búsqueda dinámica del que anulará la asignación de restricciones.
 
@@ -204,7 +206,7 @@ You can also delete any dynamic target.
 >
 >Las entidades secundarias heredan los valores de etiquetas, por lo que no introduzca valores para entidades secundarias a menos que desee anular los valores heredados.
 
-1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Seleccione la casilla de verificación situada junto a cada destino de búsqueda dinámica al que desee asignar un valor de etiqueta.
 
@@ -236,7 +238,7 @@ You can also delete any dynamic target.
 
 Al eliminar un valor de clasificación, se elimina la asociación con el componente de cuenta y todos sus componentes secundarios. Los datos del informe para el valor de clasificación ya no están disponibles para esos componentes. Al eliminar un valor de clasificación, no se elimina el valor ni los componentes de la cuenta.
 
-1. En el menú principal, haga clic en **[!UICONTROL Target]>[!UICONTROL Auto Targets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Seleccione la casilla de verificación situada junto a cada destino de búsqueda dinámica desde la que desea quitar un valor de etiqueta.
 
@@ -253,4 +255,4 @@ Al eliminar un valor de clasificación, se elimina la asociación con el compone
 >[!MORELIKETHIS]
 >
 >* [(Nueva IU) Administrar restricciones para buscar unidades de oferta](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(Nueva IU) Administrar clasificaciones de etiquetas](/help/search-social-commerce/new-ui/reports/label-classifications-manage.md)
+>* [(Nueva IU) Administrar clasificaciones de etiquetas](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md)

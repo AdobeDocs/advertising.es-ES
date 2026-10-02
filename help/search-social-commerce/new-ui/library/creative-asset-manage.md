@@ -1,28 +1,30 @@
 ---
 title: Ver y crear recursos creativos
-description: Aprenda a ver y crear recursos de imagen, vídeo y texto reutilizables para las bibliotecas de recursos de nivel de cuenta de  [!DNL Google Ads] y [!DNL Microsoft Advertising] i.
+description: Aprenda a ver y crear recursos de imagen, vídeo y texto reutilizables para las bibliotecas de recursos de nivel de cuenta de [!DNL Google Ads] y [!DNL Microsoft Advertising].
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
 subfeature_v2:
   - id: f3d33161-c519-436e-bbbd-730ba428736b
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47301d06bc2a06c2601107abd988e787114e36bb
+    internal-label: User
+source-git-commit: 657d5a874dd41259621bcf87fe750223bb77ca00
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
 
 # Ver y crear recursos creativos
 
 *Solo para [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas*
 
-En [!UICONTROL Assets] > [!UICONTROL Creatives], puede ver todos los recursos de imagen, vídeo y texto reutilizables (solo para [!DNL Google Ads]) en las bibliotecas de recursos de nivel de cuenta de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La lista incluye recursos generados por IA para [!DNL Google Ads] grupos de anuncios en campañas habilitadas para [!DNL AI Max].
+En [!UICONTROL Library] > [!UICONTROL Creatives], puede ver todos los recursos de imagen, vídeo y texto reutilizables (solo para [!DNL Google Ads]) en las bibliotecas de recursos de nivel de cuenta de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La lista incluye recursos generados por IA para [!DNL Google Ads] grupos de anuncios en campañas habilitadas para [!DNL AI Max].
 
 Puede crear manualmente nuevos recursos para una cuenta de red de publicidad y cargarlos en la red de publicidad. <!-- Verify if you can use the AI-generated ones -->Puede usar cualquiera de los recursos cargados para sus campañas Máximo rendimiento.
 
@@ -30,7 +32,7 @@ También puede quitar recursos de texto generados por IA de sus grupos de anunci
 
 ## Vea sus recursos creativos
 
-1. En el menú principal, haga clic en **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. En el menú principal, haga clic en **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. En la barra de herramientas, seleccione la red publicitaria y la cuenta.
 
@@ -42,7 +44,7 @@ También puede quitar recursos de texto generados por IA de sus grupos de anunci
 
 ## Creación y carga de recursos
 
-1. En el menú principal, haga clic en **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. En el menú principal, haga clic en **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. En la barra de herramientas, seleccione la red publicitaria y la cuenta.
 
@@ -90,7 +92,7 @@ También puede quitar recursos de texto generados por IA de sus grupos de anunci
 
 Los recursos de texto eliminados no se volverán a proporcionar, pero los datos de rendimiento seguirán estando disponibles en los informes.
 
-1. En el menú principal, haga clic en **[!UICONTROL Assets]>[!UICONTROL Creatives]**.
+1. En el menú principal, haga clic en **[!UICONTROL Library]>[!UICONTROL Creatives]**.
 
 1. En la barra de herramientas, seleccione la red publicitaria y la cuenta.
 

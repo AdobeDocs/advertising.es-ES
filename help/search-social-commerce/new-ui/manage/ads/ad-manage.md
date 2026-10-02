@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Un anuncio pertenece a un grupo de anuncios y contiene el contenido que se muestra a los usuarios, como el titular, la descripción, la imagen u otros elementos creativos, según la red de anuncios y el tipo de anuncio.
 
-Una vez que [hagas accesible una cuenta de red de anuncios a través de una conexión API](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md) y Search, Social y Commerce hayan sincronizado los datos de la cuenta con la red de anuncios, puedes crear anuncios para un [tipo de campaña compatible](/help/search-social-commerce/introduction/supported-inventory.md). También puede editar y cambiar el estado de las publicidades.
+Una vez que [hagas accesible una cuenta de red de anuncios a través de una conexión API](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md) y Search, Social y Commerce hayan sincronizado los datos de la cuenta con la red de anuncios, puedes crear anuncios para un [tipo de campaña compatible](/help/search-social-commerce/introduction/supported-inventory.md). También puede editar y cambiar el estado de las publicidades.
 
 Para obtener detalles acerca de la funcionalidad disponible para cada red de anuncios, consulte &quot;[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md)&quot;.
 

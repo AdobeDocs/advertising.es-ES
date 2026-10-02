@@ -3,13 +3,11 @@ title: Configuración de cuentas de red de publicidad para la carga de datos
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Administración de cuentas de red de anuncios para cargas de datos
 
 <!-- Edit all, including title and metadata -->
@@ -23,6 +21,8 @@ Para obtener detalles acerca de la funcionalidad disponible para cada red de anu
 >Para obtener instrucciones acerca de cómo administrar los detalles de cuenta de una cuenta de red de anuncios que Search, Social y Commerce sincroniza mediante la API de la red de anuncios, consulte &quot;[Administrar cuentas de red de anuncios mediante la conexión de API](../api-accounts/api-account-manage.md)&quot; en su lugar.
 
 ## Crear detalles de la cuenta {#create-account}
+
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Haga clic en **[!UICONTROL Create Account]**.
 
@@ -40,7 +40,7 @@ Para obtener detalles acerca de la funcionalidad disponible para cada red de anu
 
 ## Editar detalles de la cuenta {#edit-account}
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Seleccione la cuenta de cualquiera de las siguientes maneras:
 
@@ -62,27 +62,27 @@ Para obtener detalles acerca de la funcionalidad disponible para cada red de anu
 
 ## Habilitar o deshabilitar las cuentas de red de publicidad {#enable-disable-account}
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Realice una de las acciones siguientes:
 
    * (Desde la vista [!UICONTROL Accounts]):
 
-      * (Para habilitar la cuenta) Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Activate]** en la barra de herramientas de acciones en masa.
+     * (Para habilitar la cuenta) Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Activate]** en la barra de herramientas de acciones en masa.
 
-      * (Para deshabilitar la cuenta) Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Pause]** en la barra de herramientas de acciones en masa.
+     * (Para deshabilitar la cuenta) Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Pause]** en la barra de herramientas de acciones en masa.
 
    * (Desde la configuración de la cuenta):
 
-      1. Seleccione la cuenta de cualquiera de las siguientes maneras:
+     1. Seleccione la cuenta de cualquiera de las siguientes maneras:
 
-         * Mantenga el cursor sobre el nombre de la cuenta, haga clic en **...** y, a continuación, haga clic en **[!UICONTROL Edit]**.
+        * Mantenga el cursor sobre el nombre de la cuenta, haga clic en **...** y, a continuación, haga clic en **[!UICONTROL Edit]**.
 
-         * Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Edit]** en la barra de herramientas de acciones masivas.
+        * Seleccione la casilla de verificación situada junto al nombre de la cuenta y, a continuación, haga clic en **[!UICONTROL Edit]** en la barra de herramientas de acciones masivas.
 
-      1. En la ficha **[!UICONTROL Account Details]**, desactive **[!UICONTROL Account enabled]**.
+     1. En la ficha **[!UICONTROL Account Details]**, desactive **[!UICONTROL Account enabled]**.
 
-      1. Haga clic en **[!UICONTROL Save]**.
+     1. Haga clic en **[!UICONTROL Save]**.
 
 ## Configuración de cuenta {#account-settings-upload}
 

@@ -2,13 +2,11 @@
 title: (Nueva IU) Administrar fuentes de informes de hojas de cálculo
 description: Obtenga información sobre cómo crear, configurar, actualizar, ver y eliminar fuentes de informes de hojas de cálculo que ofrecen datos de rendimiento diarios en una hoja de cálculo con formato personalizado.
 feature: Search Reports
-source-git-commit: 38ee8dfbaf82d8f1d212a931956398444e61060f
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1498'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Administrar fuentes de informes de hojas de cálculo
 
 *Solo para informes básicos e informes de precisión de modelo*
@@ -41,14 +39,14 @@ La vista [!UICONTROL Reports] > [!UICONTROL Spreadsheets Feeds] enumera todas la
 
 Para crear fuentes de hoja de cálculo, primero debe crear [!DNL Microsoft Excel] plantillas de hoja de cálculo con formato especial utilizando plantillas de informe normales. Opcionalmente, puede personalizar la hoja de cálculo [!DNL Excel] para incluir columnas y gráficos adicionales.
 
-1. En **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]**, genere el tipo de informe deseado con una unidad [!UICONTROL Date Aggregation] de &quot;[!UICONTROL Daily]&quot; y con todos los demás parámetros de datos que desee, guardando el informe como plantilla.
+1. En **[!UICONTROL Reports]>[!UICONTROL Reports]**, genere el tipo de informe deseado con una unidad [!UICONTROL Date Aggregation] de &quot;[!UICONTROL Daily]&quot; y con todos los demás parámetros de datos que desee, guardando el informe como plantilla.
 
    >[!NOTE]
    >
    > * Puede crear fuentes de hoja de cálculo para los informes [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword] y [!UICONTROL Forecast Accuracy]. Si usa el [!UICONTROL Ad Group Report], limite el número de grupos de publicidad incluidos para obtener resultados más rápidos.
    > * No se utiliza la unidad [!UICONTROL Date Range] definida en la plantilla. Cuando configure la fuente de la hoja de cálculo más adelante, definirá las fechas en las que desea actualizar los datos.
 
-1. Una vez generado el informe, vaya a **[!UICONTROL Reports]>[!UICONTROL Scheduled Reports]** y exporte una versión TSV o XLS del resultado del informe a un archivo.
+1. Una vez generado el informe, vaya a **[!UICONTROL Reports]>[!UICONTROL Reports]** y exporte una versión TSV o XLS del resultado del informe a un archivo.
 
 1. En [!DNL Excel], cree una plantilla personalizada para el informe:
 
@@ -140,7 +138,7 @@ Para crear fuentes de hoja de cálculo, primero debe crear [!DNL Microsoft Excel
 | [!UICONTROL Back Fill From] | La fecha inicial en la que se actualizaron los datos existentes en la ficha [!UICONTROL RAW], representada por un número de días pasados. Escriba un valor de hasta 90 días; el valor predeterminado es de siete (7) días.<br><br>Por ejemplo, si el valor es 7 y hoy es 7 de marzo, los datos existentes en la ficha [!UICONTROL RAW] que comienzan por 1 de marzo se actualizarán (hasta la fecha de finalización especificada por el parámetro [!UICONTROL Back Fill Until]). Las filas de datos existentes para fechas anteriores al 1 de marzo no se eliminan, pero no se actualizan. |
 | [!UICONTROL Back Fill Until] | La fecha de finalización en la que se actualizaron los datos existentes en la ficha [!UICONTROL RAW], representada por un número de días pasados. El valor predeterminado es un (1) día.<br><br>Por ejemplo, si este valor es 1 y hoy es 7 de marzo, los datos existentes en la ficha [!UICONTROL RAW] se actualizarán hasta el 6 de marzo (y a partir de la fecha de inicio especificada por el parámetro [!UICONTROL Back Fill From]). Si este valor es 1, el parámetro [!UICONTROL Back Fill Until] es 7 y hoy es 7 de marzo, los datos existentes en la ficha [!UICONTROL RAW] se actualizarán del 1 al 6 de marzo. En ambos ejemplos, las filas de datos existentes para las fechas posteriores al 6 de marzo no se eliminan, pero no se actualizan. |
 | [!UICONTROL Email Recipients] | Direcciones de correo electrónico a las que se envían notificaciones cada vez que se actualiza el informe o cada vez que se ejecuta el informe cuando la plantilla incluye una programación. De forma predeterminada, se introduce la dirección de la cuenta de usuario. Para especificar varias direcciones, sepárelas con comas, espacios o líneas nuevas. |
-| [!UICONTROL Schedule Time] | Hora a la que se actualizan las fuentes de hoja de cálculo: a las 08:00 o a cualquier hora entre las 10:00 y las 23:00 en la zona horaria del anunciante. El valor predeterminado para las nuevas fuentes de hoja de cálculo es 10:00.<br><br><b>Nota:</b> Por motivos de rendimiento, no se pueden actualizar las fuentes de hoja de cálculo en 09:00, cuando se generan otros informes. |
+| [!UICONTROL Schedule Time] | Hora a la que se actualizan las fuentes de la hoja de cálculo: a las 8:00 o a cualquier hora entre las 10:00 y las 23:00 en el huso horario del anunciante. El valor predeterminado para las nuevas fuentes de hojas de cálculo es 10:00.<br><br><b>Nota:</b> Por motivos de rendimiento, no se pueden actualizar las fuentes de hojas de cálculo a las 09:00, cuando se generan otros informes. |
 | [!UICONTROL Email Notification] | (Cuando se especifican destinatarios del correo electrónico) Qué se debe incluir en las notificaciones por correo electrónico a cualquier dirección especificada:<ul><li><i>[!UICONTROL Attach feed]</i> — Para enviar una copia del informe completado en formato XLSX. Si el archivo tiene más de 10 MB, la notificación no incluye ningún archivo adjunto.</li><li><i>[!UICONTROL Notification Only]</i> (valor predeterminado): para enviar solamente una notificación de la finalización o el error del informe, con un vínculo al informe.</li></ul> |
 
 ## Ver o guardar un archivo de fuente de informes de hoja de cálculo {#spreadsheet-feed-view-or-save}

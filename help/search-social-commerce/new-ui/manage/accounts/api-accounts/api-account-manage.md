@@ -3,7 +3,7 @@ title: (Nueva IU) Administrar las cuentas de red de publicidad
 description: Obtenga información sobre cómo configurar y administrar los detalles de la cuenta en la nueva interfaz de usuario para una red de publicidad sincronizada mediante la API de red de publicidad.
 feature: Search Campaign Management
 exl-id: a50b2943-7568-401c-be5b-ff6f62629488
-source-git-commit: d7578a4aada0b65226fbcd7d38357636594048c1
+source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
 workflow-type: tm+mt
 source-wordcount: '2143'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Para habilitar la sincronización de una cuenta, debe crear un registro de cuent
 >
 >Para crear una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Haga clic en **[!UICONTROL Create Account]**.
 
@@ -52,7 +52,7 @@ Para volver a autenticar la configuración de la cuenta a fin de actualizar la c
 >
 >Para editar una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Seleccione la cuenta de cualquiera de las siguientes maneras:
 
@@ -74,7 +74,7 @@ Para actualizar la conexión de red de publicidad o los permisos de actualizaci�
 
 1. (Si ha iniciado sesión en otra cuenta para la misma red de anuncios en la misma aplicación de explorador) Cierre sesión en cualquier cuenta que no sea la del anunciante.
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -92,7 +92,7 @@ Para actualizar la conexión de red de publicidad o los permisos de actualizaci�
 
 Al habilitar una cuenta de red de publicidad, Search, Social y Commerce sincronizan los datos de campaña con la cuenta (cuando es compatible) y envían ofertas automatizadas o presupuestos de campaña para las campañas en portafolios. Cuando deshabilita una cuenta de red de publicidad, Search, Social y Commerce detienen toda la actividad en la cuenta. Los datos recopilados mientras la cuenta estaba activa se siguen almacenando, pero las vistas e informes de administración de campañas no incluyen datos del período de tiempo en el que la cuenta está deshabilitada. Más tarde puede volver a habilitar la cuenta para reanudar la actividad con la cuenta.
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Realice una de las acciones siguientes:
 
@@ -153,7 +153,7 @@ La configuración de la cuenta varía según la red de anuncios. Es posible que 
 
 >[!NOTE]
 >
->Las cuentas de administrador de red de anuncios no son compatibles aquí. Para identificar una cuenta de administrador para [!DNL Microsoft Advertising], use el campo Identificador de cuenta maestra o Cuenta MCC, respectivamente. Para [configurar credenciales para una [!DNL Google Ads] cuenta de administrador](/help/search-social-commerce/admin/manager-accounts.md), vaya a [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Las cuentas de administrador de red de anuncios no son compatibles aquí. Para identificar una cuenta de administrador para [!DNL Microsoft Advertising], use el campo Identificador de cuenta maestra o Cuenta MCC, respectivamente. Para [configurar credenciales para una [!DNL Google Ads] cuenta de administrador](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), vaya a [!UICONTROL Setup] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (solo lectura) La abreviatura de la moneda utilizada para la cuenta. Este valor se rellena automáticamente con la moneda configurada para la cuenta en la red de publicidad una vez guardado el registro.
 

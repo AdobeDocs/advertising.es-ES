@@ -1,9 +1,8 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 25cc82d3309b3172911314f128ece0072d025685
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
-
 ---
 # Párrafo utilizado en la introducción a algunos archivos de apéndice de hojas de edición masiva
 
