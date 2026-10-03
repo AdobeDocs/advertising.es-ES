@@ -1,22 +1,26 @@
 ---
-title: Crear una audiencia de  [!DNL Google Ads] customer match a partir de una lista de correo electrónico de Adobe Campaign
-description: Aprenda a crear una audiencia afín de clientes de  [!DNL Google Ads] a partir de una lista de correo electrónico de Adobe Campaign existente.
+title: Crear una audiencia afín de clientes de [!DNL Google Ads] a partir de una lista de correo electrónico de Adobe Campaign
+description: Aprenda a crear una audiencia afín de clientes de [!DNL Google Ads] a partir de una lista de correo electrónico de Adobe Campaign existente.
 exl-id: 92812af2-ac31-48cd-badf-ea287799bddb
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g
+TQID: 'https://experienceleague.adobe.com/tEiqvHt1QzxhstsKGUsvKGgwm1JYIkv7mGr-Z8kPd0g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '693'
 ht-degree: 0%
-
 ---
-
 # Crear una audiencia afín de clientes de [!DNL Google Ads] a partir de una lista de correo electrónico de Adobe Campaign
 
 *[!DNL Google Ads]cuentas elegibles para la coincidencia de clientes solamente*
@@ -29,7 +33,7 @@ Para ello, necesita tener acceso a su instancia de [!DNL Campaign] y a un archiv
 
 1. En [!DNL Campaign], configure el envío de la lista de correo electrónico a Advertising Search, Social y Commerce:
 
-   1. Cree una [cuenta externa](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=es) para vincular la cuenta SFTP proporcionada por Search, Social y Commerce:
+   1. Cree una [cuenta externa](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) para vincular la cuenta SFTP proporcionada por Search, Social y Commerce:
 
       1. En el menú de la izquierda, vaya a **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]**.
 
@@ -99,11 +103,11 @@ Para ello, necesita tener acceso a su instancia de [!DNL Campaign] y a un archiv
 
          * (Opcional) En la ficha **[!UICONTROL Schedule]**, especifique una programación diferente para la transferencia de archivos.
 
-           De forma predeterminada, el flujo de trabajo se ejecuta a las 00:00 (medianoche), lo que garantiza que se procesen todos los registros. Para minimizar la latencia, programe el flujo de trabajo para que se ejecute a más tardar el 18:00.
+           De forma predeterminada, el flujo de trabajo se ejecuta a las 00:00 (medianoche), lo que garantiza que se procesen todos los registros. Para minimizar la latencia, programe el flujo de trabajo para que se ejecute antes de las 18:00.
 
          * Haga clic en **[!UICONTROL Ok]**.
 
-Search, Social y Commerce comprueba el directorio cada 30 minutos (en NN:30 y NN:59 en el huso horario del anunciante), mueve los archivos que encuentre a otra ubicación y, a continuación, crea automáticamente una audiencia a partir de los datos y la envía a Google a las 22:00 (10 p. m.). Search, Social y Commerce siguen buscando actualizaciones (adiciones y restas) en la lista de correo electrónico cada 30 minutos y actualizan la audiencia de [!DNL Google Ads] según corresponda a las 22:00 del día.
+Search, Social y Commerce comprueban el directorio cada 30 minutos (a las N:30 y N:59, en el huso horario del anunciante), mueven los archivos que encuentran a otra ubicación y, a continuación, crean automáticamente una audiencia a partir de los datos y la envían a Google a las 22:00 (22:00). Search, Social y Commerce siguen buscando actualizaciones (adiciones y restas) en la lista de correo electrónico cada 30 minutos y actualizan la audiencia en [!DNL Google Ads] según corresponda a las 22:00 todos los días.
 
 >[!NOTE]
 >

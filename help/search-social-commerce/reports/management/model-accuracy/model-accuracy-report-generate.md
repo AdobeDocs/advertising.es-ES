@@ -3,20 +3,26 @@ title: Generar un informe de precisión de modelo
 description: Obtenga información sobre cómo generar informes de precisión del modelo.
 exl-id: 84a32782-e141-45bc-87df-c7b82d0e8ad0
 feature: Search Reports, Search Model Accuracy Reports
-TQID: https://experienceleague.adobe.com/2fKr-9PISqZ-y2flXfBXLWKcpmWjYr-DRbBTk8MnGu8
+TQID: 'https://experienceleague.adobe.com/2fKr-9PISqZ-y2flXfBXLWKcpmWjYr-DRbBTk8MnGu8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 249
+source-wordcount: '249'
 ht-degree: 0%
-
 ---
-
 # Generar un informe de precisión de modelo
 
 1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.

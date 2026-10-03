@@ -3,25 +3,33 @@ title: Administrar informes personalizados
 description: Obtenga información sobre cómo generar y administrar la experiencia cruzada [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-TQID: https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo
+TQID: 'https://experienceleague.adobe.com/w746p31oJoThLGvkaVKBEK00dUho0zSBZtVv8yfkmUo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
+  - id: a3569322-a66e-4c29-8778-b189087b9ed5
+    internal-label: Creative reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1485
+source-wordcount: '1486'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL Manage custom reports]
 
 Puede crear, duplicar, editar, ejecutar, descargar y eliminar informes personalizados.
@@ -132,21 +140,21 @@ Esta sección determina las fechas en las que se ejecuta el informe. Para config
   >
   >También puede [ejecutar un informe personalizado en cualquier momento](#report-run-now) desde la vista [!UICONTROL Reports].
 
-* *[!UICONTROL On]\&lt;Date\>:* Ejecuta el informe en una fecha especificada para su finalización antes del 09:00 en el huso horario de la cuenta.
+* *[!UICONTROL On]\&lt;Date\>:* Ejecuta el informe en una fecha especificada para su finalización antes de las 09:00 en el huso horario de la cuenta.
 
 * *[!UICONTROL Recurring]:* Ejecuta el informe de acuerdo con una programación durante un período de tiempo especificado.
 
-   * **\[Programación\]:** La frecuencia con la que se ejecutará el informe:
+  * **\[Programación\]:** La frecuencia con la que se ejecutará el informe:
 
-      * *Diario* para ejecutar el informe cada N días. Por ejemplo, para ejecutar el informe cada dos semanas (14 días), seleccione esta opción y escriba **14**.
+    * *Diario* para ejecutar el informe cada N días. Por ejemplo, para ejecutar el informe cada dos semanas (14 días), seleccione esta opción y escriba **14**.
 
-      * *Semanalmente* para ejecutar el informe en los días de la semana especificados. Por ejemplo, para ejecutar el informe todos los lunes y viernes, selecciona esta opción y las casillas de verificación que aparecen junto a **Lunes** y **Viernes**.
+    * *Semanalmente* para ejecutar el informe en los días de la semana especificados. Por ejemplo, para ejecutar el informe todos los lunes y viernes, selecciona esta opción y las casillas de verificación que aparecen junto a **Lunes** y **Viernes**.
 
-      * *Mensual* para ejecutar el informe en un día numérico específico del mes, del 1 al 30. Por ejemplo, para ejecutar el informe el primer día de cada mes, seleccione esta opción y escriba **1**.
+    * *Mensual* para ejecutar el informe en un día numérico específico del mes, del 1 al 30. Por ejemplo, para ejecutar el informe el primer día de cada mes, seleccione esta opción y escriba **1**.
 
-   * **Desde**: Primera fecha en que se puede ejecutar el informe. Según la programación especificada, la primera instancia de informe puede producirse después de esta fecha.
+  * **Desde**: Primera fecha en que se puede ejecutar el informe. Según la programación especificada, la primera instancia de informe puede producirse después de esta fecha.
 
-   * **Hasta**: La fecha de caducidad del informe, que puede ser dentro de cuatro meses calendario. Antes de que caduque un informe, todos los destinos de correo electrónico especificados reciben una alerta de correo electrónico siete días y un día antes de la fecha de caducidad. Para mantener el informe más tiempo, cambie esta fecha.
+  * **Hasta**: La fecha de caducidad del informe, que puede ser dentro de cuatro meses calendario. Antes de que caduque un informe, todos los destinos de correo electrónico especificados reciben una alerta de correo electrónico siete días y un día antes de la fecha de caducidad. Para mantener el informe más tiempo, cambie esta fecha.
 
 ### [!UICONTROL Apply Filters] sección
 
@@ -178,21 +186,21 @@ Para aplicar uno o más filtros, haga lo siguiente:
   >
   >Las rutas de conversión incluyen cualquier impresión y clic dentro de las ventanas retrospectivas de impresiones o clics del anunciante, que están configuradas en [!DNL Advertising Search, Social, & Commerce]. Los clics tienen preferencia sobre las impresiones durante la atribución de conversión. Cualquier clic en una ruta de conversión recibe crédito total según la regla de atribución. Las impresiones solo reciben crédito cuando no se rastrean clics en la ruta de conversión.
 
-   * *[!UICONTROL Last Event]:* Atributos conversiones al último clic o impresión en la ruta de conversión.
+  * *[!UICONTROL Last Event]:* Atributos conversiones al último clic o impresión en la ruta de conversión.
 
-   * *[!UICONTROL Weight Last More]:* Atribuye conversiones a todos los eventos de la ruta de conversión, pero da la mayor importancia al último evento y, sucesivamente, menos importancia a los eventos anteriores.
+  * *[!UICONTROL Weight Last More]:* Atribuye conversiones a todos los eventos de la ruta de conversión, pero da la mayor importancia al último evento y, sucesivamente, menos importancia a los eventos anteriores.
 
-   * *[!UICONTROL Even Distribution]:* Atribuye las conversiones de forma equitativa a cada evento de la ruta de conversión.
+  * *[!UICONTROL Even Distribution]:* Atribuye las conversiones de forma equitativa a cada evento de la ruta de conversión.
 
-   * *[!UICONTROL Weight First More]:* Atribuye conversiones a todos los eventos de la ruta de conversión, pero da la mayor importancia al primer evento y, sucesivamente, menos importancia a los siguientes.
+  * *[!UICONTROL Weight First More]:* Atribuye conversiones a todos los eventos de la ruta de conversión, pero da la mayor importancia al primer evento y, sucesivamente, menos importancia a los siguientes.
 
-   * *[!UICONTROL First Event]:* Atributos para las conversiones al primer clic o impresión en la ruta de conversión.
+  * *[!UICONTROL First Event]:* Atributos para las conversiones al primer clic o impresión en la ruta de conversión.
 
-   * *[!UICONTROL U-shaped]:*: atribuye la conversión a todos los eventos de la ruta de conversión, pero da la mayor importancia a los eventos primero y último, con sucesivamente menos peso a los eventos en medio de la ruta de conversión.
+  * *[!UICONTROL U-shaped]:*: atribuye la conversión a todos los eventos de la ruta de conversión, pero da la mayor importancia a los eventos primero y último, con sucesivamente menos peso a los eventos en medio de la ruta de conversión.
 
-   * *[!UICONTROL Display Only]:* Atributos convertidos en el último clic o impresión de DSP en la ruta de conversión. Esto incluye vídeo y anuncios de TV conectados, y excluye los clics en [!DNL Advertising Search, Social, & Commerce] anuncios.
+  * *[!UICONTROL Display Only]:* Atributos convertidos en el último clic o impresión de DSP en la ruta de conversión. Esto incluye vídeo y anuncios de TV conectados, y excluye los clics en [!DNL Advertising Search, Social, & Commerce] anuncios.
 
-   * *[!UICONTROL Social Only]:* obsoleto
+  * *[!UICONTROL Social Only]:* obsoleto
 
 Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md)&quot;.
 
@@ -220,7 +228,7 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * *[!UICONTROL FTP]:* Para enviar el informe completado a una o varias ubicaciones de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](actualmente en Beta):* Para enviar el informe completado a una o más ubicaciones SSL de FTP, que debe seleccionar en el campo **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Para especificar las direcciones de correo electrónico a las que se enviarán los informes o notificaciones completados si el informe se cancela debido a errores.
 
@@ -232,13 +240,13 @@ Consulte también &quot;[Cómo se calculan las reglas de atribución para Adobe 
 
 * Para crear un nuevo destino:
 
-   1. Haga clic en **Agregar nuevo destino**.
+  1. Haga clic en **Agregar nuevo destino**.
 
-   1. Escriba la [configuración de destino del informe](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"} y haga clic en **Guardar**.
+  1. Escriba la [configuración de destino del informe](/help/dsp/reports/report-destinations/report-destination-settings.md){target="_blank"} y haga clic en **Guardar**.
 
-   1. En la configuración del informe, haga clic en **Actualizar nombres de destino.**
+  1. En la configuración del informe, haga clic en **Actualizar nombres de destino.**
 
-      El nuevo destino ya está disponible en la lista de destinos existentes y, opcionalmente, puede agregarlo al informe.
+     El nuevo destino ya está disponible en la lista de destinos existentes y, opcionalmente, puede agregarlo al informe.
 
 
 <!--

@@ -3,24 +3,29 @@ title: (Nueva IU) Administración de usuarios
 description: Obtenga información sobre cómo administrar el acceso de los usuarios.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
-TQID: https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo
+TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46dede0e36eaaba0893780af13562b3e7501c259
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1045
+source-wordcount: '1045'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Administración de usuarios para Search, Social y Commerce
 
-Algunos usuarios pueden administrar el acceso a la nueva interfaz de usuario de Search, Social y Commerce usando [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html), que es la ubicación central para administrar todos los derechos y la administración de usuarios de Adobe. Los usuarios se clasifican como usuarios finales o administradores. El equipo de cuenta de Adobe le avisará si es administrador. Si es administrador, consulte las siguientes secciones para identificar los permisos y flujos de trabajo para administrar usuarios.
+Algunos usuarios pueden administrar el acceso a la nueva interfaz de usuario de Search, Social y Commerce usando [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), que es la ubicación central para administrar todos los derechos y la administración de usuarios de Adobe. Los usuarios se clasifican como usuarios finales o administradores. El equipo de cuenta de Adobe le avisará si es administrador. Si es administrador, consulte las siguientes secciones para identificar los permisos y flujos de trabajo para administrar usuarios.
 
 ## Tipos de administradores
 
@@ -44,49 +49,49 @@ La nueva interfaz de usuario para Search, Social y Commerce tiene los siguientes
 
 * **[!UICONTROL Basic Optimization]:** Este perfil proporciona la siguiente funcionalidad:
 
-   * [!UICONTROL Objectives]: acceso completo
+  * [!UICONTROL Objectives]: acceso completo
 
-   * [!UICONTROL Simulations]: acceso completo
+  * [!UICONTROL Simulations]: acceso completo
 
-   * [!UICONTROL Portfolio Groups]: acceso completo
+  * [!UICONTROL Portfolio Groups]: acceso completo
 
-   * [!UICONTROL Portfolios]: crear o editar el acceso a la configuración del portafolio para [!UICONTROL Objectives], [!UICONTROL Campaigns] y gastar [!UICONTROL Management]; acceso de solo lectura al resto de la configuración del portafolio.
+  * [!UICONTROL Portfolios]: crear o editar el acceso a la configuración del portafolio para [!UICONTROL Objectives], [!UICONTROL Campaigns] y gastar [!UICONTROL Management]; acceso de solo lectura al resto de la configuración del portafolio.
 
-   * [!UICONTROL Campaigns]: acceso de solo lectura a la configuración de la campaña (no hay funciones de creación, edición o eliminación disponibles); acceso completo a las asignaciones de restricciones y portafolios
+  * [!UICONTROL Campaigns]: acceso de solo lectura a la configuración de la campaña (no hay funciones de creación, edición o eliminación disponibles); acceso completo a las asignaciones de restricciones y portafolios
 
-   * [!UICONTROL Ad Groups]: acceso de solo lectura a la configuración del grupo de anuncios (no hay funciones de creación, edición o eliminación disponibles); acceso completo a las asignaciones de restricciones y portafolios
+  * [!UICONTROL Ad Groups]: acceso de solo lectura a la configuración del grupo de anuncios (no hay funciones de creación, edición o eliminación disponibles); acceso completo a las asignaciones de restricciones y portafolios
 
   Este nivel de acceso es el preferido de los usuarios que aún aprenden a utilizar Search, Social y Commerce.
 
 * **[!UICONTROL Expert Optimization]:** Este perfil proporciona la siguiente funcionalidad:
 
-   * [!UICONTROL Objectives]: acceso completo
+  * [!UICONTROL Objectives]: acceso completo
 
-   * [!UICONTROL Simulations]: acceso completo
+  * [!UICONTROL Simulations]: acceso completo
 
-   * [!UICONTROL Portfolio Groups]: acceso completo
+  * [!UICONTROL Portfolio Groups]: acceso completo
 
-   * [!UICONTROL Portfolios]: acceso completo
+  * [!UICONTROL Portfolios]: acceso completo
 
-   * [!UICONTROL Campaigns]: acceso de solo lectura a la lista de campañas (aún no hay funciones de creación, edición o eliminación de campañas disponibles); acceso completo a las asignaciones de restricciones y portafolios
+  * [!UICONTROL Campaigns]: acceso de solo lectura a la lista de campañas (aún no hay funciones de creación, edición o eliminación de campañas disponibles); acceso completo a las asignaciones de restricciones y portafolios
 
-   * [!UICONTROL Ad Groups]: acceso de solo lectura a la lista de grupos de publicidad (aún no hay funciones de creación, edición o eliminación de campañas disponibles); acceso completo a las asignaciones de restricciones y portafolios
+  * [!UICONTROL Ad Groups]: acceso de solo lectura a la lista de grupos de publicidad (aún no hay funciones de creación, edición o eliminación de campañas disponibles); acceso completo a las asignaciones de restricciones y portafolios
 
   Este nivel de acceso es recomendable para usuarios expertos de Search, Social y Commerce.
 
 * **[!UICONTROL Read-Only]:** Este perfil proporciona la siguiente funcionalidad:
 
-   * [!UICONTROL Objectives]: acceso de solo lectura
+  * [!UICONTROL Objectives]: acceso de solo lectura
 
-   * [!UICONTROL Simulations]: acceso de solo lectura
+  * [!UICONTROL Simulations]: acceso de solo lectura
 
-   * [!UICONTROL Portfolio Groups]: acceso de solo lectura
+  * [!UICONTROL Portfolio Groups]: acceso de solo lectura
 
-   * [!UICONTROL Portfolios]: acceso de solo lectura
+  * [!UICONTROL Portfolios]: acceso de solo lectura
 
-   * [!UICONTROL Campaigns]: acceso de solo lectura
+  * [!UICONTROL Campaigns]: acceso de solo lectura
 
-   * [!UICONTROL Ad Groups]: acceso de solo lectura
+  * [!UICONTROL Ad Groups]: acceso de solo lectura
 
 * **[!UICONTROL Admin]:** Este perfil concede acceso completo a todas las funcionalidades disponibles y permite a los usuarios crear nuevas instancias de cliente (las mismas que las cuentas de anunciante heredadas, con una o más instancias por ID de organización). No asigne este derecho a nadie a menos que tenga una justificación comercial adecuada.
 
@@ -104,9 +109,9 @@ La nueva interfaz de usuario para Search, Social y Commerce tiene los siguientes
 
    1. Escriba su ID de [!DNL Adobe] y haga clic en **[!UICONTROL Continue]**.
 
-   1. Seleccione **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Seleccione **[!UICONTROL Personal Account]&quot; o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
-   1. Seleccione la organización empresarial de CX aplicable.
+   1. Seleccione la organización de CX Enterprise aplicable.
 
       Admin Console abre la ficha [!UICONTROL Overview].
 
@@ -120,9 +125,9 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
 1. [Inicie sesión en Adobe Admin Console y ábralo en Search, Social y Commerce](#open-admin-console).
 
-1. (Opcional) [Agregue otro administrador del sistema](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise) como copia de seguridad.
+1. (Opcional) [Agregue otro administrador del sistema](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) como copia de seguridad.
 
-1. Delegar la administración de productos y usuarios agregando administradores de productos[&#128279;](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise).
+1. Delegar la administración de productos y usuarios agregando administradores de productos](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).[
 
 ### Flujo de trabajo para administradores de productos
 
@@ -130,9 +135,9 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
 1. [Inicie sesión en Adobe Admin Console y ábralo en Search, Social y Commerce](#open-admin-console).
 
-1. Si es necesario, cree usuarios finales [individualmente](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) o [de forma masiva](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html).
+1. Si es necesario, cree usuarios finales [individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) o [de forma masiva](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. (Opcional) Cree [grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/user-groups.html) para la instancia y asigne usuarios a cada grupo de usuarios.
+1. (Opcional) Cree [grupos de usuarios](https://helpx.adobe.com/enterprise/using/user-groups.html) para la instancia y asigne usuarios a cada grupo de usuarios.
 
    Si la instancia tiene muchos usuarios, cree grupos de usuarios para asegurarse de que se asignan los perfiles adecuados a los usuarios en función de su nivel de experiencia. (Consulte el paso 4 para asignar grupos de usuarios a perfiles de producto). Puede crear grupos de usuarios en función de la línea de negocio, las necesidades de acceso de los usuarios, la fecha de contratación de los usuarios u otros criterios.
 
@@ -140,7 +145,7 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
    >
    >Los nombres de los grupos de usuarios deben comunicar claramente los derechos que se deben asignar al grupo de usuarios. Por ejemplo, si desea crear un grupo de usuarios con derechos de &quot;Solo lectura&quot;, incluya &quot;Solo lectura&quot; en el nombre del grupo de usuarios, como &quot;Acme_Uk_ReadOnly&quot; o &quot;Acme_ReadOnly&quot;.
 
-1. (Opcional) [Cree perfiles de producto personalizados](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) con conjuntos de permisos definidos.
+1. (Opcional) [Cree perfiles de producto personalizados](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) con conjuntos de permisos definidos.
 
    Los perfiles personalizados se añaden a los cuatro perfiles de producto predeterminados que ya están disponibles.
 
@@ -148,10 +153,10 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
    **Precaución:** Los permisos del producto son muy granulares. Tenga cuidado al configurar perfiles de producto personalizados o puede omitir la funcionalidad que desea incluir.
 
-1. [Asigne cada usuario o grupo de usuarios al perfil de producto correspondiente](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) de forma manual o en lotes.
+1. [Asigne cada usuario o grupo de usuarios al perfil de producto correspondiente](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de forma manual o en lotes.
 
 ## Guía de administración del usuario completa y vínculos adicionales
 
-* Para obtener más información acerca de la administración de usuarios mediante Adobe Admin Console, consulte &quot;[Guía de administración de Adobe Enterprise &amp; Teams](https://helpx.adobe.com/es/enterprise/admin-guide.html)&quot;, incluida la [descripción general de Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
+* Para obtener más información acerca de la administración de usuarios mediante Adobe Admin Console, consulte &quot;[Guía de administración de Adobe Enterprise &amp; Teams](https://helpx.adobe.com/enterprise/admin-guide.html)&quot;, incluida la [descripción general de Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)

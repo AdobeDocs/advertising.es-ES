@@ -3,13 +3,19 @@ title: Generar e implementar una etiqueta de seguimiento de conversión de Adobe
 description: Obtenga información sobre cómo crear una etiqueta de conversión de Adobe Advertising para realizar un seguimiento de los eventos de conversión.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: f97a636a55c6cc823f0041e7acd6f48dca769a3e
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
-
 ---
-
 # Generar e implementar una etiqueta de seguimiento de conversión de Adobe Advertising
 
 *Anunciantes con solo seguimiento de conversión de Adobe Advertising*
@@ -130,13 +136,13 @@ Consulte &quot;[Preguntas más frecuentes acerca de las etiquetas de conversión
 
 Puede configurar el seguimiento de conversiones para Search, Social y Commerce mediante etiquetas en Adobe Experience Platform. Las etiquetas están disponibles para los clientes de Adobe CX Enterprise como una función incluida que añade valor.
 
-Se requieren las siguientes tareas para configurar las etiquetas de seguimiento de conversión de Búsqueda, Social y Commerce desde la interfaz de usuario de Experience Platform o desde la interfaz de usuario de Recopilación de datos de Experience Platform. Para obtener información e instrucciones completas para configurar las etiquetas, consulte la Guía de etiquetas de Experience Platform, que comienza con &quot;[Información general sobre etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home)&quot; y &quot;[Guía de inicio rápido](https://experienceleague.adobe.com/es/docs/experience-platform/tags/get-started/quick-start)&quot;.
+Se requieren las siguientes tareas para configurar las etiquetas de seguimiento de conversión de Búsqueda, Social y Commerce desde la interfaz de usuario de Experience Platform o desde la interfaz de usuario de Recopilación de datos de Experience Platform. Para obtener información e instrucciones completas para configurar las etiquetas, consulte la Guía de etiquetas de Experience Platform, que comienza con &quot;[Información general sobre etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; y &quot;[Guía de inicio rápido](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;.
 
 >[!PREREQUISITES]
 >
 >Para instalar la extensión de etiqueta necesaria, solicite al administrador de la organización acceso a las funciones de recopilación de datos en la interfaz de usuario, incluido el permiso `manage_properties`.
 
-1. En la [IU de recopilación de datos](https://experience.adobe.com/#/data-collection/), instale la [extensión](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/extensions/overview) de Adobe Advertising:
+1. En la [IU de recopilación de datos](https://experience.adobe.com/#/data-collection/), instale la [extensión](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview) de Adobe Advertising:
 
    1. En la propiedad aplicable, abra el catálogo de extensiones y seleccione **Adobe Advertising**.
 
@@ -184,7 +190,7 @@ Se requieren las siguientes tareas para configurar las etiquetas de seguimiento 
 
          **Nombre de propiedad de conversión:** El nombre de la propiedad de conversión (por ejemplo, `form_completes`).
 
-         **Valor:** Valor numérico de la propiedad de conversión (por ejemplo `1` para realizar el seguimiento de form_completes) o elija un [elemento de datos](https://experienceleague.adobe.com/es/docs/experience-platform/tags/ui/data-elements) existente.
+         **Valor:** Valor numérico de la propiedad de conversión (por ejemplo `1` para realizar el seguimiento de form_completes) o elija un [elemento de datos](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) existente.
 
       1. Haga clic en **Conservar cambios**.
 

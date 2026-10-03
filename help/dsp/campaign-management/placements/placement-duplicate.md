@@ -3,22 +3,26 @@ title: Ubicaciones duplicadas
 description: Obtenga información sobre cómo duplicar una o más ubicaciones.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-TQID: https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM
+TQID: 'https://experienceleague.adobe.com/1QHdooPh2tr6pfbnRsPbe-P5o-lZLgX-NQIUNG2ulHM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 0%
-
 ---
-
 # Ubicaciones duplicadas
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -44,9 +48,9 @@ Consulte &quot;[Qué no está duplicado](#placement-not-duplicated)&quot; para o
 
    * Para duplicar varias ubicaciones:
 
-      1. Seleccione la casilla situada junto a cada posición que desee duplicar.
+     1. Seleccione la casilla situada junto a cada posición que desee duplicar.
 
-      1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Duplicate]**.
+     1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Duplicate]**.
 
 1. Especifique la nueva configuración de ubicación:
 
@@ -74,10 +78,10 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 * (Si no adjunta anuncios) Ponderación y programación de anuncios personalizados
 * Ubicaciones predeterminadas para ofertas programáticas garantizadas (PG) y ubicaciones para [!UICONTROL Simple Ad Serving] ofertas
 * (Si copia ubicaciones en una campaña diferente):
-   * Destinos geográficos
-   * Píxeles de evento
-   * Anuncios
-   * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] (que anulan los segmentos de nivel de anunciante)
+  * Destinos geográficos
+  * Píxeles de evento
+  * Anuncios
+  * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] (que anulan los segmentos de nivel de anunciante)
 
 ## Prácticas recomendadas para configurar las nuevas ubicaciones
 
@@ -90,19 +94,19 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
 * Tenga en cuenta lo siguiente y edite las nuevas ubicaciones según sea necesario:
 
-   * ¿La cuenta tiene fondos suficientes para dar cabida a los nuevos presupuestos de colocación?
+  * ¿La cuenta tiene fondos suficientes para dar cabida a los nuevos presupuestos de colocación?
 
-   * ¿Las nuevas ubicaciones necesitan presupuestos diferentes a los de las ubicaciones anteriores? ¿Son necesarios los presupuestos mínimos?
+  * ¿Las nuevas ubicaciones necesitan presupuestos diferentes a los de las ubicaciones anteriores? ¿Son necesarios los presupuestos mínimos?
 
-   * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
+  * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
 
-   * Adjunte los píxeles de evento según sea necesario a las ubicaciones y los anuncios.
+  * Adjunte los píxeles de evento según sea necesario a las ubicaciones y los anuncios.
 
-   * Incluya destinos geográficos y segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] según sea necesario para las ubicaciones.
+  * Incluya destinos geográficos y segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] según sea necesario para las ubicaciones.
 
-   * Para obtener ofertas garantizadas mediante programación, utilice nuevos ID de acuerdo y cree ubicaciones predeterminadas.
+  * Para obtener ofertas garantizadas mediante programación, utilice nuevos ID de acuerdo y cree ubicaciones predeterminadas.
 
-   * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
+  * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
 
 >[!MORELIKETHIS]
 >

@@ -3,18 +3,21 @@ title: Operaciones que se pueden realizar en hojas de edición masiva
 description: Consulte información general sobre cómo agregar, editar y eliminar datos de campaña mediante hojas de edición por lotes.
 exl-id: 17ec9307-6dfd-45cb-b8bd-d0d7fcbf2d41
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY
+TQID: 'https://experienceleague.adobe.com/v0lNqlMXWFmw8O1Tr51d-WoHC-X2dxdSh-ZRKIPxGQY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # Operaciones que se pueden realizar en hojas de edición masiva
 
 Puede agregar, editar y eliminar datos de campañas mediante hojas de edición por lotes para [redes de anuncios compatibles](../bulksheet-about.md#bulksheet-functionality-by-network).
@@ -25,9 +28,9 @@ Las siguientes reglas se aplican al trabajo con componentes de campaña y sus pr
 
 * Añadiendo:
 
-   * Para agregar un componente, incluya todos los campos necesarios para agregar ese componente y, opcionalmente, incluya campos para cualquiera de las propiedades del componente.
+  * Para agregar un componente, incluya todos los campos necesarios para agregar ese componente y, opcionalmente, incluya campos para cualquiera de las propiedades del componente.
 
-   * Para agregar una propiedad para un componente existente, como [!UICONTROL Ad Group End Date] para un grupo de anuncios, incluya todos los campos necesarios para editar ese componente (grupo de anuncios) más el campo de la propiedad ([!UICONTROL Ad Group End Date]).
+  * Para agregar una propiedad para un componente existente, como [!UICONTROL Ad Group End Date] para un grupo de anuncios, incluya todos los campos necesarios para editar ese componente (grupo de anuncios) más el campo de la propiedad ([!UICONTROL Ad Group End Date]).
 
 * Para editar una propiedad para un componente existente, incluya todos los campos necesarios para editar ese componente más el campo de la propiedad.
 
@@ -35,15 +38,15 @@ Las siguientes reglas se aplican al trabajo con componentes de campaña y sus pr
 
 * Eliminando:
 
-   * Para eliminar un componente existente, incluya todos los campos necesarios para editar ese componente y cambie su estado a [!UICONTROL Deleted]. Por ejemplo, para eliminar un grupo de anuncios de [!DNL Google Ads], debe incluir [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] con un valor de <i>[!UICONTROL Deleted]</i> y [!UICONTROL Ad Group ID].
+  * Para eliminar un componente existente, incluya todos los campos necesarios para editar ese componente y cambie su estado a [!UICONTROL Deleted]. Por ejemplo, para eliminar un grupo de anuncios de [!DNL Google Ads], debe incluir [!UICONTROL Campaign Name], [!UICONTROL Ad Group Name], [!UICONTROL Ad Group Status] con un valor de <i>[!UICONTROL Deleted]</i> y [!UICONTROL Ad Group ID].
 
-   * ([!UICONTROL Param1], [!UICONTROL Param2] y [!UICONTROL Param3] valores solamente) Para eliminar un valor [!DNL paramN] existente de una palabra clave, incluya todos los campos necesarios para editar la palabra clave y también elimine el valor [!DNL paramN] existente al escribir el valor `[delete]` (incluidos los corchetes) en el campo correspondiente.
+  * ([!UICONTROL Param1], [!UICONTROL Param2] y [!UICONTROL Param3] valores solamente) Para eliminar un valor [!DNL paramN] existente de una palabra clave, incluya todos los campos necesarios para editar la palabra clave y también elimine el valor [!DNL paramN] existente al escribir el valor `[delete]` (incluidos los corchetes) en el campo correspondiente.
 
-   * (Campos de propiedad permitidos) Para eliminar un valor de propiedad existente de un componente, incluya todos los campos necesarios para editar ese componente y también elimine el valor de propiedad introduciendo el valor `[delete]` (incluidos los corchetes). Los campos permitidos incluyen:
+  * (Campos de propiedad permitidos) Para eliminar un valor de propiedad existente de un componente, incluya todos los campos necesarios para editar ese componente y también elimine el valor de propiedad introduciendo el valor `[delete]` (incluidos los corchetes). Los campos permitidos incluyen:
 
-      * ([!UICONTROL Google Ads] solamente) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
+    * ([!UICONTROL Google Ads] solamente) [!UICONTROL Description Line 1], [!UICONTROL Description Line 2]
 
-      * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
+    * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) [!UICONTROL Product Scope Filter], [!UICONTROL Base URL/Final URL], [!UICONTROL Tracking Template]
 
 >[!NOTE]
 >

@@ -3,18 +3,24 @@ title: Añadir elementos creativos dinámicos a una biblioteca creativa
 description: Aprenda a añadir elementos creativos dinámicos a una biblioteca creativa.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-TQID: https://experienceleague.adobe.com/OGBJ2IszfF6kv86wYyEvbU5UxJmwxEo6MNjCM9n6Cws
+TQID: 'https://experienceleague.adobe.com/OGBJ2IszfF6kv86wYyEvbU5UxJmwxEo6MNjCM9n6Cws'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: '515'
 ht-degree: 0%
-
 ---
-
 # Añadir elementos creativos dinámicos a una biblioteca creativa
 
 Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-library-manage.md) para usarlas con [experiencias publicitarias](/help/creative/experiences/experience-about.md) dinámicas. Puede crear un solo anuncio estático de HTML5 o anuncios dinámicos de HTML5 a partir de una sola plantilla de anuncio. Para los anuncios dinámicos de HTML5, utilice recursos de catálogos específicos creados a partir de archivos de fuentes.
@@ -52,17 +58,17 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
    * Desde una biblioteca creativa:
 
-      1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+     1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
-      1. Haga clic en el nombre de la biblioteca.
+     1. Haga clic en el nombre de la biblioteca.
 
-      1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+     1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
 
    * Desde una plantilla de anuncio:
 
-      1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
+     1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
 
-      1. Mantenga el cursor sobre la fila de la plantilla de publicidad y haga clic en **[!UICONTROL Create Dynamic Ad]**.
+     1. Mantenga el cursor sobre la fila de la plantilla de publicidad y haga clic en **[!UICONTROL Create Dynamic Ad]**.
 
 1. Especifique la [configuración de publicidad dinámica](/help/creative/creative-libraries/creative-settings-dynamic.md):
 
@@ -90,11 +96,11 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
       * Cambiar el contenido:
 
-         * (Solo anuncios de visualización) Para editar el valor de una celda dentro de la tabla, haga clic dentro de la celda y edite el valor. Haga clic fuera de la celda o presione la tecla **[!DNL Enter]** para guardar los cambios.
+        * (Solo anuncios de visualización) Para editar el valor de una celda dentro de la tabla, haga clic dentro de la celda y edite el valor. Haga clic fuera de la celda o presione la tecla **[!DNL Enter]** para guardar los cambios.
 
-         * Para marcar un solo producto como predeterminado <!--Explain what this means. -->, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+        * Para marcar un solo producto como predeterminado <!--Explain what this means. -->, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
-         * (Cuando el anuncio incluya más de una oferta) Para marcar varios productos como predeterminados, seleccione las filas (hasta el número de ofertas) y haga clic en **[!UICONTROL Set as Default]** en la barra de herramientas de acciones por lotes.
+        * (Cuando el anuncio incluya más de una oferta) Para marcar varios productos como predeterminados, seleccione las filas (hasta el número de ofertas) y haga clic en **[!UICONTROL Set as Default]** en la barra de herramientas de acciones por lotes.
 
       * Para eliminar un producto del catálogo, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
 
@@ -104,11 +110,11 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
    * Para guardar los anuncios y agregarlos a un [paquete creativo](/help/creative/creative-libraries/bundle-manage.md) de la biblioteca:
 
-      1. Haga clic en **[!UICONTROL Save and Attach to Bundle]**.
+     1. Haga clic en **[!UICONTROL Save and Attach to Bundle]**.
 
-      1. Haga clic **[!UICONTROL Save]** para guardar los anuncios.
+     1. Haga clic **[!UICONTROL Save]** para guardar los anuncios.
 
-      1. Seleccione los paquetes y haga clic en **[!UICONTROL Attach Creative to Bundles]**.
+     1. Seleccione los paquetes y haga clic en **[!UICONTROL Attach Creative to Bundles]**.
 
    * Para guardar los anuncios y salir de la configuración, haga clic en **[!UICONTROL Save]** y, a continuación, haga clic de nuevo en **[!UICONTROL Save]**.
 

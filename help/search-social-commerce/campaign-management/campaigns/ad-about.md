@@ -3,20 +3,24 @@ title: Administración de anuncios
 description: Obtenga información acerca de los anuncios en Search, Social y Commerce, incluidos los tipos de anuncios disponibles.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU
+TQID: 'https://experienceleague.adobe.com/zjdXTfuUM3gknKy2-ASRGz5wv7DAr-SZmpfLSuhhpoU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Reporting
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 918
+source-wordcount: '918'
 ht-degree: 0%
-
 ---
-
 # Acerca de los anuncios
 
 *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] y solo [!DNL Baidu] cuentas existentes*
@@ -31,9 +35,9 @@ Puede crear y administrar tipos de anuncios admitidos para grupos de anuncios de
 
 * **anuncios de audiencia** nativos y entre dispositivos para [!DNL Microsoft Advertising] campañas en [!DNL Microsoft Audience Network]. Tiene dos opciones para los anuncios de audiencia, según la configuración de la campaña:
 
-   * Si la campaña está vinculada a una tienda del centro de comerciantes, permita que la red de anuncios genere automáticamente anuncios basados en fuentes para la campaña, utilizando la información de producto de la tienda. No es necesario crear anuncios basados en fuentes para la campaña, pero debe crear grupos de anuncios con segmentación de usuarios.
+  * Si la campaña está vinculada a una tienda del centro de comerciantes, permita que la red de anuncios genere automáticamente anuncios basados en fuentes para la campaña, utilizando la información de producto de la tienda. No es necesario crear anuncios basados en fuentes para la campaña, pero debe crear grupos de anuncios con segmentación de usuarios.
 
-   * Si la campaña no está vinculada a una cuenta de un centro comercial, cree anuncios de audiencia basados en imágenes utilizando el formato de anuncio interactivo, que incluye varios recursos de texto e imagen. La red de anuncios organiza los anuncios mediante las combinaciones más eficaces de elementos publicitarios y los muestra en sitios como [!DNL MSN], [!DNL Outlook.com] y [!DNL Microsoft Edge].
+  * Si la campaña no está vinculada a una cuenta de un centro comercial, cree anuncios de audiencia basados en imágenes utilizando el formato de anuncio interactivo, que incluye varios recursos de texto e imagen. La red de anuncios organiza los anuncios mediante las combinaciones más eficaces de elementos publicitarios y los muestra en sitios como [!DNL MSN], [!DNL Outlook.com] y [!DNL Microsoft Edge].
 
 * **Anuncios de solo llamada** para [!DNL Google Ads] campañas en la red de búsqueda. Los anuncios de solo llamada son anuncios de texto que incluyen un número de teléfono. Opcionalmente, puede usar un número de reenvío asignado por [!DNL Google Ads] para el sistema de informes de llamadas avanzado.
 

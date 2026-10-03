@@ -1,24 +1,30 @@
 ---
-title: Formatos de rastreo de clics para  [!DNL Google Ads]
-description: Obtenga información acerca de los formatos de seguimiento de clics para  [!DNL Google Ads] cuentas.
+title: Formatos de rastreo de clics para [!DNL Google Ads]
+description: Obtenga información acerca de los formatos de rastreo de clics para cuentas de [!DNL Google Ads].
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU
+TQID: 'https://experienceleague.adobe.com/zlglYQa3JRxc5hz07rdjPQUMk7ogdrFKf2mxVkByCjU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 24a5511c46132725ff82dac81e671ab4ec6f4482
+    internal-label: Customer experience
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: '579'
 ht-degree: 0%
-
 ---
-
 # Formatos de rastreo de clics para [!DNL Google Ads]
 
 A continuación se muestran los formatos base de plantilla de seguimiento y sufijo de página de aterrizaje (sufijo de dirección URL final) que Search, Social y Commerce requieren para [!DNL Google Ads].
@@ -79,15 +85,15 @@ Las cuentas que usan el seguimiento de conversión de Adobe Advertising deben in
 
 * Cuando el anunciante tiene una integración de Adobe Analytics, el sufijo debe incluir uno de los siguientes:
 
-   * Cuentas de [!DNL Google Ads] que utilizan el [formato de ID de AMO](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#dimension-items) más reciente (a partir de `s_kwcid`), que admite informes de nivel de campaña y de grupo de anuncios para campañas Máximo rendimiento, así como borradores y experimentos:
+  * Cuentas de [!DNL Google Ads] que utilizan el [formato de ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) más reciente (a partir de `s_kwcid`), que admite informes de nivel de campaña y de grupo de anuncios para campañas Máximo rendimiento, así como borradores y experimentos:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Si la cuenta tiene una implementación de ID de AMO del lado del servidor y la configuración de cuenta o campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitada, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente. Consulte &quot;[Adobe Advertising ID usados por [!DNL Analytics]](/help/integrations/analytics/ids.md)&quot;.
+    Si la cuenta tiene una implementación de ID de AMO del lado del servidor y la configuración de cuenta o campaña &quot;[!UICONTROL Auto Upload]&quot; está habilitada, el parámetro se agrega automáticamente. De lo contrario, debe agregarlo manualmente. Consulte &quot;[Adobe Advertising ID usados por [!DNL Analytics]](/help/integrations/analytics/ids.md)&quot;.
 
-   * Todas las demás cuentas de [!DNL Google Ads]:
+  * Todas las demás cuentas de [!DNL Google Ads]:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+    `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * Cuando el anunciante no tiene una integración de Adobe Analytics, el sufijo debe incluir lo siguiente:
 
@@ -102,4 +108,4 @@ Las cuentas que usan el seguimiento de conversión de Adobe Advertising deben in
 >[!MORELIKETHIS]
 >
 >* [Acerca de los formatos de URL de seguimiento de clics para el servicio de seguimiento de conversión de Adobe Advertising](formats-click-tracking-about.md)
->* [Formatos de ID de AMO](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [Formatos de ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

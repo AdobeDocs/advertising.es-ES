@@ -1,22 +1,31 @@
 ---
 title: Busque documentación del producto mediante el chat asistido por IA
-description: Aprenda a buscar en la documentación de Adobe Advertising DSP y  [!DNL Creative]  mediante el chat asistido por IA. Obtenga respuestas con citas e indicaciones de seguimiento sugeridas.
+description: Aprenda a buscar en la documentación de Adobe Advertising DSP y [!DNL Creative] mediante el chat asistido por IA. Obtenga respuestas con citas e indicaciones de seguimiento sugeridas.
 feature: DSP Introduction, Creative Introduction
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 99308b5a6f529abf003f38566c19bfda0e6eb25c
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ba946348-465d-45f3-8d28-c42d0a2599c5
+    internal-label: Creative introduction
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '486'
 ht-degree: 0%
-
 ---
-
 # Busque documentación del producto mediante una interfaz de chat asistida por IA
 
 *Sólo soporte en inglés*
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Use la interfaz de chat de IA para buscar contenido conceptual y explicativo en la [Guía de Advertising DSP](/help/dsp/home.md) y (anunciantes con Advertising Creative) en la [Guía de Advertising Creative](/help/creative/home.md). Las respuestas se basan únicamente en lo que se ha documentado para estos productos en [Experience League](https://experienceleague.adobe.com/es/docs/advertising).
+Use la interfaz de chat de IA para buscar contenido conceptual y explicativo en la [Guía de Advertising DSP](/help/dsp/home.md) y (anunciantes con Advertising Creative) en la [Guía de Advertising Creative](/help/creative/home.md). Las respuestas se basan únicamente en lo que se ha documentado para estos productos en [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
 Las respuestas incluyen citas, así como preguntas adicionales y preguntas de seguimiento para ayudarle a refinar su consulta y encontrar más información. El historial de chat se mantiene a lo largo de una sesión y las consultas no se comparten con otros usuarios.
 
@@ -72,13 +81,13 @@ Puede hacer varias preguntas en un mensaje, pero solo un mensaje a la vez. Esper
 
 * Junto a la lista [!UICONTROL Documentation Sources]:
 
-   * Para obtener respuestas útiles, haz clic en ![Pulgares arriba](/help/dsp/assets/thumbs-up.png "Pulgares arriba").
+  * Para obtener respuestas útiles, haz clic en ![Pulgares arriba](/help/dsp/assets/thumbs-up.png "Pulgares arriba").
 
-   * Para obtener respuestas poco útiles, haz clic en ![Pulgares hacia abajo](/help/dsp/assets/thumbs-down.png "Pulgares hacia abajo").
+  * Para obtener respuestas poco útiles, haz clic en ![Pulgares hacia abajo](/help/dsp/assets/thumbs-down.png "Pulgares hacia abajo").
 
 ## Conceptos básicos de escritura de indicadores {#writing-prompts}
 
-* **Sea claro y específico.** Use preguntas completas (&quot;¿Cómo me suscribo al inventario a petición?&quot;), frases de tarea (&quot;suscribirme al inventario a petición&quot;) o frases de tema (&quot;Inventario a petición&quot;).
+* **Sea claro y específico.** Utilice preguntas completas (&quot;¿Cómo puedo suscribirme al inventario a la carta?&quot;), frases de tareas (&quot;suscribirme al inventario a la carta&quot;) o frases de temas (&quot;Inventario a la carta&quot;).
 
 * **Igualar términos de la interfaz de usuario** siempre que sea posible para las características del producto (como &quot;campañas&quot; o &quot;ofertas&quot;).
 

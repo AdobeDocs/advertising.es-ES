@@ -3,22 +3,26 @@ title: Crear una oferta [!UICONTROL Simple Ad Serving]
 description: Aprenda a crear un píxel de seguimiento para una oferta de [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-TQID: https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA
+TQID: 'https://experienceleague.adobe.com/HcfL-Lh8-64QbufAL-otB4gHupVKllJAzXL8f4TpAIA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 384
+source-wordcount: '388'
 ht-degree: 0%
-
 ---
-
 # Crear una oferta [!UICONTROL Simple Ad Serving]
 
 1. En el menú principal, haga clic en **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
@@ -52,21 +56,21 @@ ht-degree: 0%
 
      Cuando finalice los pasos anteriores, DSP generará un mensaje de correo electrónico que puede enviar al editor. El mensaje incluye los detalles de la oferta, un vínculo desde el que recuperar la etiqueta de oferta y un código de autorización para el vínculo.
 
-      1. Revise los detalles de la oferta y, a continuación, realice una de las acciones siguientes:
+     1. Revise los detalles de la oferta y, a continuación, realice una de las acciones siguientes:
 
-         * Para pegar la información en un mensaje de correo electrónico en una aplicación de correo electrónico de su dispositivo, haga clic en **[!UICONTROL Email & Done]** y seleccione la aplicación de correo electrónico. El campo [!UICONTROL CC:] se ha rellenado previamente con una dirección de soporte técnico [!DNL Adobe]. A continuación, puede enviar el mensaje al contacto apropiado del editor.
+        * Para pegar la información en un mensaje de correo electrónico en una aplicación de correo electrónico de su dispositivo, haga clic en **[!UICONTROL Email & Done]** y seleccione la aplicación de correo electrónico. El campo [!UICONTROL CC:] se ha rellenado previamente con una dirección de soporte técnico [!DNL Adobe]. A continuación, puede enviar el mensaje al contacto apropiado del editor.
 
-         * Para copiar la información en el portapapeles, haga clic en **[!UICONTROL Copy Email].** A continuación, puede pegar manualmente el contenido en un mensaje de correo electrónico y enviarlo al contacto apropiado del editor. Incluir una copia (CC:) en `publisher-support-global@adobe.com`. Cuando termine de copiar el mensaje, haga clic en **[!UICONTROL Email & Done]**.
+        * Para copiar la información en el portapapeles, haga clic en **[!UICONTROL Copy Email].** A continuación, puede pegar manualmente el contenido en un mensaje de correo electrónico y enviarlo al contacto correspondiente del editor. Incluir una copia (CC:) en `publisher-support-global@adobe.com`. Cuando termine de copiar el mensaje, haga clic en **[!UICONTROL Email & Done]**.
 
-      1. (Si es necesario) Consulte con el editor para ver si la etiqueta incluye las macros adecuadas para que la etiqueta funcione con el servidor de publicidad del editor.
+     1. (Si es necesario) Consulte con el editor para ver si la etiqueta incluye las macros adecuadas para que la etiqueta funcione con el servidor de publicidad del editor.
 
    * (Opcional) Envíe manualmente los píxeles de seguimiento de eventos al editor:
 
-      1. En la fila de acuerdo dentro de la vista [!UICONTROL Deals], haga clic en ![Menú de opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
+     1. En la fila de acuerdo dentro de la vista [!UICONTROL Deals], haga clic en ![Menú de opciones](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 
-         Los píxeles del evento incluyen un píxel [!UICONTROL Clickthrough] y un píxel [!UICONTROL Impression]. Los anuncios de vídeo y audio también incluyen píxeles de evento por cuartil completado (de [!UICONTROL 25% Complete] a [!UICONTROL 100% Complete]).
+        Los píxeles del evento incluyen un píxel [!UICONTROL Clickthrough] y un píxel [!UICONTROL Impression]. Los anuncios de vídeo y audio también incluyen píxeles de evento por cuartil completado (de [!UICONTROL 25% Complete] a [!UICONTROL 100% Complete]).
 
-      1. Copie los píxeles de seguimiento de eventos y envíeselos a su editor.
+     1. Copie los píxeles de seguimiento de eventos y envíeselos a su editor.
 
 >[!MORELIKETHIS]
 >

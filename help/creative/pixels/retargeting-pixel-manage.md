@@ -3,27 +3,33 @@ title: Administrar píxeles de retargeting
 description: Aprenda a crear e implementar píxeles de retargeting para utilizarlos como objetivos para experiencias de publicidad.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-TQID: https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg
+TQID: 'https://experienceleague.adobe.com/Io8N6tbyhPOEWHPIYe2Zu2b4xTYXqgwp04geaBKTchg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: c6a20e0e-e1b3-4d7d-b454-3943a711b15e
+    internal-label: Creative Pixels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 936
+source-wordcount: '942'
 ht-degree: 0%
-
 ---
-
 # Administrar píxeles de retargeting
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
 Puede crear un píxel de resegmentación para identificar a los visitantes en las páginas de aterrizaje de un anunciante o en las páginas de conversión mediante cookies de usuario o ID universales. El píxel realiza el seguimiento del evento más reciente que el visitante realiza en una página y captura atributos específicos que la página está rastreando para esos visitantes. Una vez creado el píxel, genere una etiqueta de píxel para insertarla en las páginas web relevantes y así comenzar a rastrear visitantes.<!-- Note to self: surfer id=cookie or universal ID -->
 
-A continuación, puede utilizar el píxel como destino para cualquier elemento creativo dentro de una experiencia publicitaria y mostrar anuncios únicamente a los usuarios con atributos especificados que hayan visitado previamente las páginas web asociadas con el píxel. Por ejemplo, puede dirigirse a visitantes que vean zapatos rojos de tamaño 10 si las páginas web rastrean esos valores de atributos.<!-- better example? Make sure they match attribute examples below -->: los destinos de nivel de experiencia se aplican junto con las opciones de segmentación de DSP; el comportamiento de la segmentación jerárquica puede variar en DSP.
+A continuación, puede utilizar el píxel como destino para cualquier elemento creativo dentro de una experiencia publicitaria y mostrar anuncios únicamente a los usuarios con atributos especificados que hayan visitado previamente las páginas web asociadas con el píxel. Por ejemplo, puede dirigirse a los visitantes que vean zapatos rojos de tamaño 10 si las páginas web hacen un seguimiento de esos valores de atributos.<!-- better example? Make sure they match attribute examples below --> Los objetivos de nivel de experiencia se aplican junto con las opciones de segmentación de DSP; el comportamiento de la segmentación jerárquica puede variar en DSP.
 
 Los perfiles de redireccionamiento se almacenan durante 180 días.
 

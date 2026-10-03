@@ -3,20 +3,23 @@ title: Configuración de acuerdo de [!UICONTROL Simple Ad Serving]
 description: Obtenga información acerca de la configuración disponible para ofertas de [!UICONTROL Simple Ad Serving].
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-TQID: https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M
+TQID: 'https://experienceleague.adobe.com/3MqeK9NlWy3VvNJyo-bYCwKyqIp9psB9HhJeVWvIm3M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 98ea1d8f-85a7-5f89-b8d8-c40726baa182
+    internal-label: DSP Simple Ad Serving
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '476'
 ht-degree: 0%
-
 ---
-
 # Configuración de acuerdo de [!UICONTROL Simple Ad Serving]
 
 ## Nuevas ofertas de [!UICONTROL Simple Ad Serving]
@@ -45,10 +48,10 @@ ht-degree: 0%
 
 | Parámetro | Descripción |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | El coste por 1000 impresiones (CPM), tal como se refleja en la tarjeta de tarifas de su contrato. Póngase en contacto con el equipo de su cuenta de Adobe para obtener este valor. <br><br>Especifique también la moneda de la oferta. Todos los usuarios pueden seleccionar el dólar estadounidense o, si el SSP admite monedas adicionales, la moneda de la cuenta de DSP. |
-| **[!UICONTROL Third Party Billed Fees]** | (Opcional) Una tarifa estática de terceros que se rastreará como un coste no facturable y la moneda de la operación.<br><br>Todos los usuarios pueden seleccionar USD o, si el SSP admite monedas adicionales, la moneda de la cuenta de DSP. **NOTA:** Las tarifas facturables se reflejan en la métrica [!UICONTROL Net CPM]. |
+| **[!UICONTROL Media CPM]** | El coste por 1000 impresiones (CPM), tal como se refleja en la tarjeta de tarifas de su contrato. Póngase en contacto con el equipo de su cuenta de Adobe para obtener este valor. <br><br>Especifique también la moneda de la oferta. Todos los usuarios pueden seleccionar USD o, si el SSP admite divisas adicionales, la divisa de la cuenta de DSP. |
+| **[!UICONTROL Third Party Billed Fees]** | (Opcional) Una tarifa estática de terceros que se rastreará como un coste no facturable y la moneda de la operación.<br><br>Todos los usuarios pueden seleccionar USD o, si el SSP admite divisas adicionales, la divisa de la cuenta de DSP. **NOTA:** Las tarifas facturables se reflejan en la métrica [!UICONTROL Net CPM]. |
 | **[!UICONTROL Third Party Fee Description]** | (Opcional) Una descripción de las tarifas de terceros. |
-| **[!UICONTROL Flight Dates]** | Las fechas de inicio y finalización del tráfico que utiliza esta oferta. Las fechas de vuelo deben incluirse dentro de las fechas de vuelo de la campaña. Las etiquetas de anuncio devuelven una respuesta solo durante el vuelo especificado.<br><br>: la práctica recomendada es crear una campaña de servicio de publicidad simple independiente con una duración de año y crear píxeles de seguimiento dentro de ella. |
+| **[!UICONTROL Flight Dates]** | Las fechas de inicio y finalización del tráfico que utiliza esta oferta. Las fechas de vuelo deben incluirse dentro de las fechas de vuelo de la campaña. Las etiquetas de anuncio devuelven una respuesta solo durante el vuelo especificado.<br><br> La práctica recomendada es crear una campaña de servicio de publicidad simple independiente con una duración de año y crear píxeles de seguimiento dentro de ella. |
 | **[!UICONTROL Impressions]** | (Opcional) El número estimado de impresiones que espera ejecutar con esta oferta. Este valor se utiliza únicamente con fines de seguimiento y para marcar cuándo se cumplen los objetivos de entrega; el editor controla la entrega de publicidad real. La práctica recomendada es introducir un número elevado de impresiones para mantener la etiqueta activa en DSP y poder renovarla o ampliarla si es necesario. |
 | **[!UICONTROL Deal Name]** | El nombre del trato. Escriba un nombre o seleccione *[!UICONTROL Auto Generate Deal Name]* para permitir que DSP genere un nombre basado en los detalles de la oferta.<br><br>Ejemplo de nombre generado automáticamente: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | (Solo lectura) Los anuncios que forman parte de la oferta. Para editar un anuncio, haga clic en su nombre. Para quitar un anuncio de la oferta, haga clic en **[!UICONTROL X]** junto al nombre del anuncio. |

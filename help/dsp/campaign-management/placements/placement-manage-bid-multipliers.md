@@ -3,27 +3,31 @@ title: Administrar multiplicadores de oferta para ubicaciones
 description: Aprenda a crear y editar multiplicadores de oferta para sus destinos de colocación.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-TQID: https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0
+TQID: 'https://experienceleague.adobe.com/6lo2C8Pqajc9hOkfoRVXM3F1L0QwGGEKQGV8I5jYaq0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 910
+source-wordcount: '912'
 ht-degree: 1%
-
 ---
-
 # Administrar multiplicadores de oferta para ubicaciones
 
 Puede crear y administrar multiplicadores de oferta, por los cuales se multiplica una oferta calculada de forma algorítmica para aumentar o disminuir la oferta, para sus objetivos de colocación existentes de [tipos de objetivo elegibles](#bid-multiplier-by-target). Puede editar manualmente los valores del multiplicador de oferta para una ubicación o cargar una hoja de cálculo con valores para una o varias ubicaciones.
 
-De forma predeterminada, el multiplicador de oferta para un objetivo es 1,00, lo que significa que la oferta no se ajusta para ese objetivo. Los valores pueden variar de 0,10 a 10,00. Por ejemplo, un multiplicador de oferta de 0,5 reduce una oferta de 6 USD a 3 USD (0,5 x 6). Cuando una subasta cumple los requisitos para varios modificadores de oferta, se multiplican todos los multiplicadores de oferta aplicables. Por ejemplo, si California tiene un multiplicador de oferta de 2 y San Francisco tiene un multiplicador de oferta de 3, el multiplicador de oferta final para los anuncios que se ejecutan en San Francisco es 6.
+De forma predeterminada, el multiplicador de oferta para un objetivo es 1,00, lo que significa que la oferta no se ajusta para ese objetivo. Los valores pueden variar de 0,10 a 10,00. Por ejemplo, un multiplicador de oferta de 0,5 reduce una oferta de USD 6 a USD 3 (0,5 x 6). Cuando una subasta cumple los requisitos para varios modificadores de oferta, se multiplican todos los multiplicadores de oferta aplicables. Por ejemplo, si California tiene un multiplicador de oferta de 2 y San Francisco tiene un multiplicador de oferta de 3, el multiplicador de oferta final para los anuncios que se ejecutan en San Francisco es 6.
 
 >[!NOTE]
 >
@@ -53,21 +57,21 @@ Puede editar valores manualmente o cargar una hoja de cálculo para una sola ubi
 
    * Para cargar un archivo CSV con valores de multiplicador de oferta y sobrescribir todos los valores existentes:
 
-      1. Haga clic en **[!UICONTROL CSV File Edit]** en la esquina superior derecha.
+     1. Haga clic en **[!UICONTROL CSV File Edit]** en la esquina superior derecha.
 
-      1. Haga clic en **[!UICONTROL Download Template]** y edite el archivo o edite una plantilla descargada anteriormente. Guarde el archivo editado en su dispositivo o red.
+     1. Haga clic en **[!UICONTROL Download Template]** y edite el archivo o edite una plantilla descargada anteriormente. Guarde el archivo editado en su dispositivo o red.
 
-         Las hojas de cálculo descargadas incluyen una hoja para cada tipo de destino (como País, Fuentes y Categoría del sitio). Solo se incluyen los multiplicadores de oferta existentes con valores &lt; 1,0 o > 1,0.
+        Las hojas de cálculo descargadas incluyen una hoja para cada tipo de destino (como País, Fuentes y Categoría del sitio). Solo se incluyen los multiplicadores de oferta existentes con valores &lt; 1,0 o > 1,0.
 
-         * Para agregar un multiplicador de oferta para un destino existente, introduzca el destino utilizando la misma sintaxis visible en la interfaz de usuario y el valor del multiplicador de oferta correspondiente.
+        * Para agregar un multiplicador de oferta para un destino existente, introduzca el destino utilizando la misma sintaxis visible en la interfaz de usuario y el valor del multiplicador de oferta correspondiente.
 
-         * Para quitar un modificador de oferta, establezca el valor del multiplicador de oferta en 1,0 o elimine toda la información de la fila.
+        * Para quitar un modificador de oferta, establezca el valor del multiplicador de oferta en 1,0 o elimine toda la información de la fila.
 
-         ![Fila de ejemplo en un archivo de hoja de cálculo de multiplicador de ofertas](/help/dsp/assets/bid-multiplier-spreadsheet.png "Fila de ejemplo en un archivo de hoja de cálculo de multiplicador de ofertas")
+        ![Fila de ejemplo en un archivo de hoja de cálculo de multiplicador de ofertas](/help/dsp/assets/bid-multiplier-spreadsheet.png "Fila de ejemplo en un archivo de hoja de cálculo de multiplicador de ofertas")
 
-      1. Haga clic en **[!UICONTROL Next]** para desplazarse a la sección [!UICONTROL Upload File] y, o bien a) arrastre y suelte el archivo editado en el cuadro, o bien b) haga clic dentro del cuadro para seleccionar el archivo desde el dispositivo o la red.
+     1. Haga clic en **[!UICONTROL Next]** para desplazarse a la sección [!UICONTROL Upload File] y, o bien a) arrastre y suelte el archivo editado en el cuadro, o bien b) haga clic dentro del cuadro para seleccionar el archivo desde el dispositivo o la red.
 
-      1. Compruebe los datos cargados en la sección [!UICONTROL Review & Submit] y haga clic en **[!UICONTROL Save]**.
+     1. Compruebe los datos cargados en la sección [!UICONTROL Review & Submit] y haga clic en **[!UICONTROL Save]**.
 
 ## Cargar multiplicadores de oferta para una o varias ubicaciones
 

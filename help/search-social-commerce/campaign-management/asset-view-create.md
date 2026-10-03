@@ -1,20 +1,23 @@
 ---
 title: Ver y crear recursos publicitarios a partir de su [!UICONTROL Asset Library]
-description: Aprenda a ver y crear recursos de imagen, vídeo y texto reutilizables para las bibliotecas de recursos de nivel de cuenta de  [!DNL Google Ads] y [!DNL Microsoft Advertising] i.
+description: Aprenda a ver y crear recursos de imagen, vídeo y texto reutilizables para las bibliotecas de recursos de nivel de cuenta de [!DNL Google Ads] y [!DNL Microsoft Advertising].
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-TQID: https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk
+TQID: 'https://experienceleague.adobe.com/8dYDiQr2TaX19uvghunW89MnrpAdds3-se4XdWyboIk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 342
+source-wordcount: '344'
 ht-degree: 0%
-
 ---
-
 # Ver y crear recursos publicitarios a partir de su [!UICONTROL Asset Library]
 
 *Solo para [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas*
@@ -39,23 +42,23 @@ Puede utilizar cualquiera de los recursos para sus campañas Máximo rendimiento
 
       * Para recursos de imagen:
 
-         1. Haga clic en **[!UICONTROL +]** y seleccione imágenes de su dispositivo o red.
+        1. Haga clic en **[!UICONTROL +]** y seleccione imágenes de su dispositivo o red.
 
-            Cada imagen puede tener un máximo de 10 MB. Puede cargar un máximo de 200 MB de imágenes a la vez.
+           Cada imagen puede tener un máximo de 10 MB. Puede cargar un máximo de 200 MB de imágenes a la vez.
 
-         1. Para cada imagen:
+        1. Para cada imagen:
 
-            1. Haga clic en ![Recortar](/help/search-social-commerce/assets/crop.png "Recortar").
+           1. Haga clic en ![Recortar](/help/search-social-commerce/assets/crop.png "Recortar").
 
-            1. Seleccione la relación de aspecto.
+           1. Seleccione la relación de aspecto.
 
-            1. Arrastre y coloque el cuadro de recorte según sea necesario para seleccionar la parte visible de la imagen y cambie el tamaño de la parte visible de la imagen según sea necesario siempre que sea posible.
+           1. Arrastre y coloque el cuadro de recorte según sea necesario para seleccionar la parte visible de la imagen y cambie el tamaño de la parte visible de la imagen según sea necesario siempre que sea posible.
 
-            1. (Opcional) Seleccione relaciones de aspecto adicionales y, opcionalmente, cambie la posición y el tamaño de la imagen según sea necesario para cada relación de aspecto seleccionada.
+           1. (Opcional) Seleccione relaciones de aspecto adicionales y, opcionalmente, cambie la posición y el tamaño de la imagen según sea necesario para cada relación de aspecto seleccionada.
 
-               Se crea un recurso para cada relación de aspecto seleccionada.
+              Se crea un recurso para cada relación de aspecto seleccionada.
 
-            1. Haga clic en **[!UICONTROL Proceed]**.
+           1. Haga clic en **[!UICONTROL Proceed]**.
 
       * En el caso de los recursos de vídeo, escriba la dirección URL de un vídeo de [!DNL YouTube] que dure al menos 10 segundos. Para agregar otro recurso de vídeo, haga clic en **+ Agregar** e introduzca otra dirección URL.
 

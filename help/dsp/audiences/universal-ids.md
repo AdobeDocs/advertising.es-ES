@@ -3,27 +3,35 @@ title: Compatibilidad para activar ID universales
 description: Obtenga información acerca de la compatibilidad para importar segmentos de ID universales, crear segmentos personalizados para rastrear ID universales y convertir otros identificadores de usuario en segmentos de origen a ID universales para una segmentación sin cookies.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-TQID: https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ
+TQID: 'https://experienceleague.adobe.com/A4fMoTW9gHD1i9Gdg1FALrBlz0XxMqhHOp9YO6kf3BQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 14a4d5b0bbe27697668b4a1a8eb3a7f74a18cc04
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1610'
 ht-degree: 0%
-
 ---
-
 # Compatibilidad para activar ID universales
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
@@ -94,19 +102,19 @@ Siga estas prácticas recomendadas para segmentos basados en [!DNL RampID] y en 
 
 * Copie los paquetes y las ubicaciones originales, ajuste los presupuestos según el tamaño de la prueba, cambie las audiencias para que utilicen segmentos basados en [!DNL RampID] (para usuarios autenticados) o segmentos basados en ID5 (para usuarios no autenticados) y compruebe que los nuevos paquetes y ubicaciones gastan sus presupuestos completos.
 
-   * Para comparar el rendimiento de los segmentos basados en ID universales con el de las ubicaciones dirigidas a otros identificadores de audiencia, como, por ejemplo, cookies o ID de publicidad móvil, cree una campaña con una ubicación basada en ID universal y una ubicación basada en ID heredados.
+  * Para comparar el rendimiento de los segmentos basados en ID universales con el de las ubicaciones dirigidas a otros identificadores de audiencia, como, por ejemplo, cookies o ID de publicidad móvil, cree una campaña con una ubicación basada en ID universal y una ubicación basada en ID heredados.
 
-     Para una prueba de retargeting completa, establezca como objetivo RampID para usuarios autenticados e ID5s para usuarios no autenticados.
+    Para una prueba de retargeting completa, establezca como objetivo RampID para usuarios autenticados e ID5s para usuarios no autenticados.
 
-     Obtener el mejor rendimiento no debería ser la comparación principal. En su lugar, determine qué ID se adaptan bien, lo que podría informar la optimización y las asignaciones presupuestarias más adelante. El objetivo a largo plazo es compensar las impresiones perdidas y el tráfico del sitio cuando las cookies están en desuso.
+    Obtener el mejor rendimiento no debería ser la comparación principal. En su lugar, determine qué ID se adaptan bien, lo que podría informar la optimización y las asignaciones presupuestarias más adelante. El objetivo a largo plazo es compensar las impresiones perdidas y el tráfico del sitio cuando las cookies están en desuso.
 
-   * Para comparar el alcance total del explorador, establezca como objetivo segmentos universales basados en ID y segmentos heredados basados en ID en la misma ubicación. Utilice la misma configuración de campaña que el caso de uso anterior, excepto que no es necesario dividir el presupuesto de la campaña.
+  * Para comparar el alcance total del explorador, establezca como objetivo segmentos universales basados en ID y segmentos heredados basados en ID en la misma ubicación. Utilice la misma configuración de campaña que el caso de uso anterior, excepto que no es necesario dividir el presupuesto de la campaña.
 
-     La preferencia de oferta se da a los ID universales, pero los ID heredados reciben ofertas cuando los ID universales no están disponibles. Asegúrese de comparar el alcance en distintos navegadores (incluidos Chrome, Safari y Mozilla).
+    La preferencia de oferta se da a los ID universales, pero los ID heredados reciben ofertas cuando los ID universales no están disponibles. Asegúrese de comparar el alcance en distintos navegadores (incluidos Chrome, Safari y Mozilla).
 
-     >[!NOTE]
-     >
-     >La restricción de frecuencia se aplica a un ID individual. Cuando un usuario tiene varios tipos de ID, es posible que llegue a ese usuario más de lo esperado.
+    >[!NOTE]
+    >
+    >La restricción de frecuencia se aplica a un ID individual. Cuando un usuario tiene varios tipos de ID, es posible que llegue a ese usuario más de lo esperado.
 
 * Recuerde que el alcance de los segmentos de audiencia autenticados es naturalmente menor que el alcance de los segmentos basados en cookies y que el uso de opciones de segmentación adicionales reduce aún más el alcance. Sea prudente a la hora de utilizar la segmentación granular, especialmente uniendo varios objetivos con instrucciones Y.
 
@@ -128,11 +136,11 @@ Para [!DNL RampIDs], póngase en contacto con el equipo de su cuenta de Adobe pa
 
 * ID de correo electrónico con hash traducidos a [!DNL RampIDs]:
 
-   * Cuando varios perfiles utilizan el mismo ID de correo electrónico, el recuento de segmentos de DSP puede ser inferior al recuento de perfiles de la plataforma de datos del cliente. Por ejemplo, en Adobe Photoshop puede crear una cuenta de empresa y una cuenta personal con un solo ID de correo electrónico. Pero si ambos perfiles pertenecen a la misma persona, los perfiles se asignan a un ID de correo electrónico y, en consecuencia, a un [!DNL RampID].
+  * Cuando varios perfiles utilizan el mismo ID de correo electrónico, el recuento de segmentos de DSP puede ser inferior al recuento de perfiles de la plataforma de datos del cliente. Por ejemplo, en Adobe Photoshop puede crear una cuenta de empresa y una cuenta personal con un solo ID de correo electrónico. Pero si ambos perfiles pertenecen a la misma persona, los perfiles se asignan a un ID de correo electrónico y, en consecuencia, a un [!DNL RampID].
 
-   * Un(a) [!DNL RampID] se puede actualizar a un nuevo valor. Si [!DNL LiveRamp] no reconoce un ID de correo electrónico o no puede asignarlo a un [!DNL RampID] existente en su base de datos, asigna un nuevo [!DNL RampID] al ID de correo electrónico. En el futuro, cuando puedan asignar el ID de correo electrónico a otro [!DNL RampID] o puedan recopilar más información sobre el mismo ID de correo electrónico, actualizarán [!DNL RampID] a un nuevo valor. [!DNL LiveRamp] se refiere a esta acción como una actualización de un [!DNL RampID] &quot;derivado&quot; a un [!DNL RampID] &quot;mantenido&quot;. Sin embargo, DSP no obtiene asignaciones entre [!DNL RampIDs] derivados y mantenidos y, por lo tanto, no puede quitar la versión anterior de RampID del segmento de DSP. En este caso, el recuento de segmentos puede ser mayor que el recuento de perfiles.
+  * Un(a) [!DNL RampID] se puede actualizar a un nuevo valor. Si [!DNL LiveRamp] no reconoce un ID de correo electrónico o no puede asignarlo a un [!DNL RampID] existente en su base de datos, asigna un nuevo [!DNL RampID] al ID de correo electrónico. En el futuro, cuando puedan asignar el ID de correo electrónico a otro [!DNL RampID] o puedan recopilar más información sobre el mismo ID de correo electrónico, actualizarán [!DNL RampID] a un nuevo valor. [!DNL LiveRamp] se refiere a esta acción como una actualización de un [!DNL RampID] &quot;derivado&quot; a un [!DNL RampID] &quot;mantenido&quot;. Sin embargo, DSP no obtiene asignaciones entre [!DNL RampIDs] derivados y mantenidos y, por lo tanto, no puede quitar la versión anterior de RampID del segmento de DSP. En este caso, el recuento de segmentos puede ser mayor que el recuento de perfiles.
 
-     Ejemplo: Un usuario inicia sesión en el sitio web de [!DNL Adobe] y visita la página de Photoshop. Si [!DNL LiveRamp] no tiene información existente sobre el ID de correo electrónico, entonces le asignan un [!DNL RampID] derivado, por ejemplo, D123. Quince días después, el usuario visita la misma página, pero [!DNL LiveRamp] ha actualizado [!DNL RampID] durante esos 15 días y ha reasignado [!DNL RampID] a M123. Aunque el segmento &quot;Entusiasta de Photoshop&quot; de la plataforma de datos del cliente solo tiene un ID de correo electrónico para el usuario, el segmento de DSP tiene dos RampID: D123 y M123.
+    Ejemplo: Un usuario inicia sesión en el sitio web de [!DNL Adobe] y visita la página de Photoshop. Si [!DNL LiveRamp] no tiene información existente sobre el ID de correo electrónico, entonces le asignan un [!DNL RampID] derivado, por ejemplo, D123. Quince días después, el usuario visita la misma página, pero [!DNL LiveRamp] ha actualizado [!DNL RampID] durante esos 15 días y ha reasignado [!DNL RampID] a M123. Aunque el segmento &quot;Entusiasta de Photoshop&quot; de la plataforma de datos del cliente solo tiene un ID de correo electrónico para el usuario, el segmento de DSP tiene dos RampID: D123 y M123.
 
 ## Resolución de problemas
 

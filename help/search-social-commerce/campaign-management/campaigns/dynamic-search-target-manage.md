@@ -1,22 +1,26 @@
 ---
-title: Administrar  [!DNL Google Ads] destinos de búsqueda dinámica
-description: Aprenda a crear y administrar  [!DNL Google Ads] destinos de búsqueda dinámica.
+title: Administrar [!DNL Google Ads] destinos de búsqueda dinámica
+description: Obtenga información sobre cómo crear y administrar [!DNL Google Ads] destinos de búsqueda dinámica.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0
+TQID: 'https://experienceleague.adobe.com/MsSy-p-WSroc3FyiHx6kvcTohEaWOqJCzqbl91mNwK0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: '676'
 ht-degree: 0%
-
 ---
-
 # Administrar [!DNL Google Ads] destinos de búsqueda dinámica
 
 *[!DNL Google Ads]solo cuentas*
@@ -93,13 +97,13 @@ También puede eliminar cualquier destino dinámico.
 
    * Para eliminar uno o más destinos dinámicos, haga lo siguiente:
 
-      1. Seleccione la casilla de verificación situada junto a cada destino dinámico que desee eliminar.
+     1. Seleccione la casilla de verificación situada junto a cada destino dinámico que desee eliminar.
 
      Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. En la barra de herramientas, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y seleccione **[!UICONTROL Delete]**.
+     1. En la barra de herramientas, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y seleccione **[!UICONTROL Delete]**.
 
-      1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
 
 ## [!DNL Google Ads] configuración de destino de búsqueda dinámica {#dynamic-search-target-settings}
 
@@ -111,13 +115,13 @@ También puede eliminar cualquier destino dinámico.
 
 * *\[Objetivos específicos\]:* Objetivos con hasta tres criterios para las páginas indizadas. Al seleccionar esta opción, se deben especificar los criterios especificando las categorías de información y los valores específicos a los que se deben dirigir los anuncios (por ejemplo, &quot;la URL contiene zapatos.ejemplo.com&quot;). Para especificar varios criterios, haga clic en **[!UICONTROL + And]**. Los criterios de destino incluyen:
 
-   * *[!UICONTROL Category]:* Para mostrar anuncios de páginas indizadas con una categoría de contenido [!DNL Google Ads] específica.
+  * *[!UICONTROL Category]:* Para mostrar anuncios de páginas indizadas con una categoría de contenido [!DNL Google Ads] específica.
 
-   * *[!UICONTROL URL]:* Para mostrar anuncios para páginas indizadas con una dirección URL específica, donde el valor puede incluirse en cualquier lugar dentro de la dirección URL.
+  * *[!UICONTROL URL]:* Para mostrar anuncios para páginas indizadas con una dirección URL específica, donde el valor puede incluirse en cualquier lugar dentro de la dirección URL.
 
-   * *[!UICONTROL Page Title]:* Para mostrar anuncios de páginas indizadas con texto específico en el título de la página.
+  * *[!UICONTROL Page Title]:* Para mostrar anuncios de páginas indizadas con texto específico en el título de la página.
 
-   * *[!UICONTROL Page Content]:* Para mostrar anuncios para páginas indizadas con contenido específico.
+  * *[!UICONTROL Page Content]:* Para mostrar anuncios para páginas indizadas con contenido específico.
 
 **Estado:** Estado de la configuración de destino:
 

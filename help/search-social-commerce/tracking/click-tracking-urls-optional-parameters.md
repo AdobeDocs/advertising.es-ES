@@ -3,18 +3,21 @@ title: Parámetros de seguimiento opcionales para URL de seguimiento de clics
 description: Obtenga información acerca de los parámetros opcionales de seguimiento de Search, Social y Commerce y los parámetros de seguimiento específicos de la red de anuncios que puede agregar a las direcciones URL de seguimiento de clics.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E
+TQID: 'https://experienceleague.adobe.com/6T2yZGYK-Mp97D0YRqPoS7Qyb5gp8jX-boK6KQjHB2E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: '1146'
 ht-degree: 0%
-
 ---
-
 # Parámetros de seguimiento opcionales para URL de seguimiento de clics
 
 Solo cuentas de *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising] y [!DNL Yandex]*
@@ -25,11 +28,11 @@ En lugar de utilizar únicamente los parámetros de seguimiento estándar para u
 
 * Puede anexar parámetros específicos de Adobe Advertising y de la red de publicidad en las direcciones URL base de la cuenta o campaña para rastrear más datos:
 
-   * Los parámetros de Adobe Advertising son semiestáticos. Adobe Advertising inserta un valor de datos cuando carga la dirección URL base en la red publicitaria. Por ejemplo, cuando anexa `campaign={ef_campaign}` a la dirección URL base, Adobe Advertising reemplaza `{ef_campaign}` con el nombre real de la campaña (como &quot;Campaña de vuelta al colegio&quot;) cuando carga la dirección URL.
+  * Los parámetros de Adobe Advertising son semiestáticos. Adobe Advertising inserta un valor de datos cuando carga la dirección URL base en la red publicitaria. Por ejemplo, cuando anexa `campaign={ef_campaign}` a la dirección URL base, Adobe Advertising reemplaza `{ef_campaign}` con el nombre real de la campaña (como &quot;Campaña de vuelta al colegio&quot;) cuando carga la dirección URL.
 
-     **Nota:** Una vez insertados los valores, permanecen estáticos. Si mueve una palabra clave o un anuncio a un grupo de anuncios diferente o mueve el grupo de anuncios a una campaña diferente, el parámetro {ef_adgroup} o {ef_campaign} no se actualiza automáticamente, por lo que debe generar manualmente una nueva dirección URL de destino o una dirección URL base (final).
+    **Nota:** Una vez insertados los valores, permanecen estáticos. Si mueve una palabra clave o un anuncio a un grupo de anuncios diferente o mueve el grupo de anuncios a una campaña diferente, el parámetro {ef_adgroup} o {ef_campaign} no se actualiza automáticamente, por lo que debe generar manualmente una nueva dirección URL de destino o una dirección URL base (final).
 
-   * Los parámetros específicos de red de anuncios son dinámicos y el motor de búsqueda inserta un valor de datos cuando el usuario hace clic en un anuncio. Por ejemplo, cuando anexa `{param1}` a la dirección URL base, la red de anuncios la reemplaza por el valor {param1} real cuando un usuario final hace clic en el anuncio.
+  * Los parámetros específicos de red de anuncios son dinámicos y el motor de búsqueda inserta un valor de datos cuando el usuario hace clic en un anuncio. Por ejemplo, cuando anexa `{param1}` a la dirección URL base, la red de anuncios la reemplaza por el valor {param1} real cuando un usuario final hace clic en el anuncio.
 
 >[!NOTE]
 >
@@ -38,7 +41,7 @@ En lugar de utilizar únicamente los parámetros de seguimiento estándar para u
 >* Los caracteres especiales de los parámetros anexados se sustituyen de la siguiente manera en la URL de destino o la URL base (final) generada:
 >  * `=` se ha sustituido por `%3D`
 >  * `?` se ha sustituido por `%26`
->  * se ha sustituido un espacio vacío por `%2B`
+>  * se sustituye un espacio vacío por `%2B`
 >  Por ejemplo, cuando se anexa el parámetro `campaign={ef_campaign}` a la dirección URL base http://www.example.com para una palabra clave, la dirección URL base para esa palabra clave se genera como `http://www.example.com/campaign%3D{ef_campaign}`.
 
 ## Parámetros de seguimiento estáticos de Search, Social y Commerce

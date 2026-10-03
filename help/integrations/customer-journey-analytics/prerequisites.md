@@ -3,41 +3,52 @@ title: Requisitos previos para integrar Adobe Advertising con Customer Journey A
 description: Requisitos previos para integrar Adobe Advertising con Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-TQID: https://experienceleague.adobe.com/I86BXjKORkYZIBn9EqPy3eWPJZi27n5STWcXUtp9gwo
+TQID: 'https://experienceleague.adobe.com/I86BXjKORkYZIBn9EqPy3eWPJZi27n5STWcXUtp9gwo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: ea6cf12e-f4da-4e2b-a9c1-e64da280b6f3
+    internal-label: Adobe Customer Journey Analytics Integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+    internal-label: Data modeling
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: d2b474e24ef2dbf951ea40c42497f6d6d37993ee
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: '321'
 ht-degree: 0%
-
 ---
-
 # Requisitos previos para integrar Adobe Advertising con Customer Journey Analytics
 
 *Anunciantes con Advertising DSP y[!DNL Advertising Search, Social, & Commerce]*
 
 * (Anunciantes con Customer Journey Analytics pero no con [!DNL Analytics for Advertising]):
 
-  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=es) versión 2.36 o superior.
+  * [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) versión 2.36 o superior.
 
-  * [Etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home), incluida la [[!DNL Web SDK] extensión](https://experienceleague.adobe.com/es/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) Versión 2.37 o superior.
+  * [Etiquetas de Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home), incluida la [[!DNL Web SDK] extensión](https://experienceleague.adobe.com/en/docs/platform-learn/implement-web-sdk/tags-configuration/install-web-sdk#add-the-web-sdk-extension) Versión 2.37 o superior.
 
 * Adobe Customer Journey Analytics con acceso a las herramientas de administración de datos
 
   Necesitará asistencia de su analista web interno para configurar una conexión con su conjunto de datos y crear informes.
 
-* (Anunciantes sin [!DNL Analytics for Advertising]) Tecnologías de modelado y administración de datos de Adobe Experience Platform (incluidos [esquemas](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/home) y [conjuntos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/catalog/datasets/overview)) y [tecnologías de recopilación de datos](https://experienceleague.adobe.com/es/docs/experience-platform/collection/home) (incluidos [flujos de datos](https://experienceleague.adobe.com/es/docs/experience-platform/datastreams/overview) y [etiquetas](https://experienceleague.adobe.com/es/docs/experience-platform/tags/home))
+* (Anunciantes sin [!DNL Analytics for Advertising]) Tecnologías de modelado y administración de datos de Adobe Experience Platform (incluidos [esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) y [conjuntos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) y [tecnologías de recopilación de datos](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (incluidos [flujos de datos](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) y [etiquetas](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
 
   Estas tecnologías requieren la asistencia del administrador del sitio de Experience Platform.
 

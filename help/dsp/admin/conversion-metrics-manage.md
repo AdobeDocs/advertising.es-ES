@@ -2,18 +2,25 @@
 title: Administre las métricas de conversión de un anunciante en DSP.
 description: Aprenda a utilizar las métricas de conversión que Adobe Advertising rastrea para un anunciante de DSP.
 feature: Conversions
-source-git-commit: e2746d58fa512f032a1e4ff851d23876cd63fc93
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
-
 ---
-
 # Administrar las métricas de conversión de un anunciante
 
-Las métricas de conversión de un anunciante se utilizan en toda la publicidad de Adobe:
+Las métricas de conversión de un anunciante se utilizan en Adobe Advertising:
 
-* En Advertising DSP, puede incluir métricas de conversión en las vistas de administración de campañas, los objetivos personalizados y los informes personalizados. También puede usar las métricas de conversión de un anunciante para crear [objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md), que se usan para optimizar paquetes.
+* En Advertising DSP, puede incluir métricas de conversión en las vistas de administración de campañas, en los objetivos personalizados y en los informes personalizados. También puede usar las métricas de conversión de un anunciante para crear [objetivos personalizados](/help/dsp/admin/custom-objectives-manage.md), que se usan para optimizar paquetes.
 
 * (Anunciantes con Advertising Search, Social y Commerce) En Search, Social y Commerce, los datos de las métricas de conversión se pueden mostrar en columnas en las vistas de administración de campañas, portafolios y objetivos, y en los informes. Los usuarios con privilegios de acceso suficientes también pueden utilizar métricas de conversión para crear objetivos, que se utilizan para optimizar los portafolios.
 
@@ -26,13 +33,13 @@ From the list of visible metrics, each user with access to the advertiser's data
 
 -->
 
-Los tipos de métricas rastreadas para usuarios de DSP incluyen:
+Los tipos de métricas rastreadas para los usuarios de DSP incluyen:
 
 * Métricas de conversión que Adobe Advertising rastrea para un anunciante.
 
 * [Métricas de conversión y participación del sitio sincronizadas desde Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md).
 
-* [Eventos del sitio sincronizados desde Customer Journey Analytics de Adobe](/help/integrations/customer-journey-analytics/overview.md).
+* [Eventos del sitio sincronizados desde Adobe Customer Journey Analytics](/help/integrations/customer-journey-analytics/overview.md).
 
 * Conversiones de fuentes personalizadas.
 

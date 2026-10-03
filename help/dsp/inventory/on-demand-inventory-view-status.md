@@ -1,24 +1,28 @@
 ---
-title: Ver el estado de tus  [!DNL On Demand] solicitudes y suscripciones de acuerdo
-description: Aprenda a ver el estado de sus  [!DNL On Demand] solicitudes y suscripciones de acuerdo.
+title: Ver el estado de sus [!DNL On Demand] solicitudes y suscripciones de acuerdo
+description: Aprenda a ver el estado de sus [!DNL On Demand] solicitudes y suscripciones de acuerdo.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-TQID: https://experienceleague.adobe.com/6u4nSyKFRPEOIEFXquusJF3cqriDXVp7lwTExN9uF5g
+TQID: 'https://experienceleague.adobe.com/6u4nSyKFRPEOIEFXquusJF3cqriDXVp7lwTExN9uF5g'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # Ver el estado de sus [!DNL On Demand] solicitudes y suscripciones de acuerdo
 
 Después de solicitar una oferta individual o suscribirse a todas las ofertas de un editor, compruebe si el editor ha aprobado o rechazado cada oferta para cada anunciante de su cuenta.
@@ -28,8 +32,8 @@ Después de solicitar una oferta individual o suscribirse a todas las ofertas de
 1. Realice una de las acciones siguientes:
    * Para ver las ofertas en la vista [!UICONTROL Deal], haga clic en **[!UICONTROL Deal view]**.
    * Para ver las ofertas en la vista [!UICONTROL Subscription]:
-      1. Haga clic en **[!UICONTROL Subscription view]**.
-      1. Mantenga el cursor sobre el logotipo del editor y haga clic en **[!UICONTROL See Deals]**.
+     1. Haga clic en **[!UICONTROL Subscription view]**.
+     1. Mantenga el cursor sobre el logotipo del editor y haga clic en **[!UICONTROL See Deals]**.
 1. Busque la columna [!UICONTROL Status] para ver el estado de aprobación.
 
 ## Estado del acuerdo

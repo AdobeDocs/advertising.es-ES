@@ -3,20 +3,26 @@ title: Configuración de informes especiales
 description: Obtenga información acerca de la configuración necesaria y opcional para los informes de especialidad.
 exl-id: 2657f33c-b77d-4e95-83c0-12ec08a1cd3a
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/J7cGX14lJlEyniDXaX4rtWb-gzaP3kzso-wnvgAcbh8
+TQID: 'https://experienceleague.adobe.com/J7cGX14lJlEyniDXaX4rtWb-gzaP3kzso-wnvgAcbh8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3034
+source-wordcount: '3050'
 ht-degree: 0%
-
 ---
-
 # Configuración de informes especiales
 
 | Ficha | Parámetro | Descripción |
@@ -41,7 +47,7 @@ ht-degree: 0%
 |  | [!UICONTROL Impression Override Weight] | (Para todas las reglas de atribución excepto [!UICONTROL Last Event] o [!UICONTROL First Event]) Cuando la conversión está precedida por clics e impresiones de pago, atribuye el porcentaje especificado de un valor de conversión a impresiones que se produjeron dentro de la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j) del anunciante. De forma predeterminada, este valor es 10 %; puede cambiar el valor a cualquier número entero entre 0 y 100. Este valor solo se utiliza en el informe.<br><br>Cuando una conversión está precedida únicamente por impresiones, se aplica a las impresiones la [ponderación de visualizaciones](/help/search-social-commerce/glossary.md#u-v) del anunciante, en lugar de la ponderación de invalidación de la impresión. |
 |  | [!UICONTROL Conversion Attribution] | (Aplicable solo para campañas de visualización; solo [!UICONTROL AdWords Shopping Performance Report]) Qué tipos de conversiones se notificarán cuando se produzcan eventos anteriores:<ul><li><i>[!UICONTROL Clicks]:</i> Para informar solo de las conversiones resultantes de los clics. Cada nombre de conversión se anexa con &quot;[!UICONTROL (CT)]&quot;.</li><li><i>[!UICONTROL View-throughs Only]:</i> Para informar solo de las conversiones resultantes de las visualizaciones. Cada nombre de conversión se anexa con &quot;[!UICONTROL (VT)]&quot;. Al seleccionar esta opción, elige qué valor dar a cada conversión. En el cuadro Método de valoración de visualizaciones, seleccione una opción:<ul><li><i>[!UICONTROL Raw]:</i> Para informar de conversiones sin aplicar una ponderación.</li><li><i>[!UICONTROL Weighted]</i> (valor predeterminado): para ponderar cada conversión según la ponderación de visualización especificada para el anunciante.</li></ul></li><li><i>[!UICONTROL Clicks + View-throughs]:</i> Para informar de todas las conversiones. De manera predeterminada, cada nombre de conversión se anexa con &quot;[!UICONTROL (CT+VT)]&quot;. Este tipo de atribución de conversión incluye dos opciones adicionales:<ul><li>[!UICONTROL Discrete columns for click & view-through conversions]: incluye tres columnas independientes para cada tipo de conversión que incluye: una para cada una de las 1) conversiones de pulsaciones, anexada con &quot;[!UICONTROL (CT)]&quot;, 2) conversiones de visualizaciones, anexada con &quot;[!UICONTROL (VT)]&quot;, 3) y todas las conversiones, anexada con &quot;[!UICONTROL (CT+VT)]&quot;. Cuando elija esta opción, seleccione cuál de las tres columnas utilizar para filtrar y ordenar de la lista &quot;[!UICONTROL Filter & sort using]&quot;: <i>[!UICONTROL click]</i> (el valor predeterminado), <i>[!UICONTROL view-through]</i> o <i>[!UICONTROL click + view-through]</i>.<br><br><b>Nota:</b> Las conversiones para campañas de búsqueda aparecen en las columnas de pulsaciones, pero no en la columna de conversiones de visualizaciones.</li><li>[!UICONTROL View-through valuation method]: qué valor dar a cada conversión resultante de una visualización:</li><ul><i>[!UICONTROL Weighted]</i> (valor predeterminado): para ponderar cada conversión según la ponderación de visualización especificada para el anunciante.</li><li><i>[!UICONTROL Raw]:</i> Para informar de conversiones sin aplicar una ponderación.</li></ul></li></ul> |
 |  | [!UICONTROL Conversion Attribution] > [!UICONTROL Discrete columns for cross device conversions] | Obsoleto |
-| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Opcional; disponible solo cuando la opción &quot;[!UICONTROL Save as template]&quot; está seleccionada) Cuándo ejecutar el informe: <i>[!UICONTROL Now]</i> (para ejecutar el informe una vez; valor predeterminado), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Día de la semana]</i> o <i>[!UICONTROL Every Month] [Día del mes]</i>. Para todos los periodos de tiempo excepto <i>[!UICONTROL Now]</i>, seleccione la hora en la zona horaria del anunciante a partir de las 09:00 AM. |
+| [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Opcional; disponible solo cuando la opción &quot;[!UICONTROL Save as template]&quot; está seleccionada) Cuándo ejecutar el informe: <i>[!UICONTROL Now]</i> (para ejecutar el informe una vez; valor predeterminado), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Día de la semana]</i> o <i>[!UICONTROL Every Month] [Día del mes]</i>. Para todos los periodos de tiempo excepto <i>[!UICONTROL Now]</i>, seleccione la hora en el huso horario del anunciante a partir de las 09:00 a.m. |
 |  | [!UICONTROL Email Recipients] | <b>Nota:</b> Esta configuración solo se usa cuando las notificaciones por correo electrónico de [!UICONTROL Reports] están [habilitadas en [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Direcciones de correo electrónico de usuarios registrados de Search, Social y Commerce a los que se enviarán notificaciones cuando se complete el informe o se cancele debido a errores. De forma predeterminada, se introduce la dirección de la cuenta de usuario. Para especificar varias direcciones, sepárelas con comas, espacios o líneas nuevas. Cuando se programa la ejecución repetida del informe, se envía una notificación cada vez que se completa el informe. |
 |  | [!UICONTROL Email Notification] | <b>Nota:</b> Esta configuración solo se usa cuando las notificaciones por correo electrónico de [!UICONTROL Reports] están [habilitadas en [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Cuando se especifican [!UICONTROL Email Recipients]) Qué incluir en las notificaciones por correo electrónico de las direcciones especificadas:<ul><li><i>[!UICONTROL Notification Only]</i> (valor predeterminado): para enviar solamente una notificación de la finalización o el error del informe, sin datos adjuntos. La notificación incluye vínculos de descarga temporales para todos los formatos de informe.</li><li><i>[!UICONTROL XLS Attachment]:</i> Para incluir una copia del informe completado en formato XLS si el archivo tiene menos de 10 MB aproximadamente. Los archivos de más de 1 MB están comprimidos.</li><li><i>[!UICONTROL TSV Attachment]:</i> Para incluir una copia del informe completado en formato TSV si el archivo tiene menos de 10 MB aproximadamente. Los archivos de más de 1 MB están comprimidos.</li><li><i>[!UICONTROL CSV Attachment]:</i> Para incluir una copia del informe completado en formato CSV si el archivo tiene menos de 10 MB aproximadamente. Los archivos de más de 1 MB están comprimidos. |
 

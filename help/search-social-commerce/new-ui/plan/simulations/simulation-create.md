@@ -4,21 +4,30 @@ description: Obtenga información sobre cómo ejecutar o volver a ejecutar una s
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
-TQID: https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE
+TQID: 'https://experienceleague.adobe.com/DlSJEcKXOxVz6UXVpAjQqaiwDTakgJ4SS6rsQUxkQIE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
+    internal-label: Search Simulations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d8170c2bbeab003339472d03033f1741014d6c4b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 524
+source-wordcount: '524'
 ht-degree: 0%
-
 ---
-
 # Ejecutar o volver a ejecutar una simulación personalizada
 
 *característica de Beta*
@@ -35,29 +44,29 @@ Los usuarios de [!UICONTROL Admin] y [!UICONTROL Account Manager] pueden ver sim
 
 * Desde la vista [!UICONTROL Simulations]:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
+  1. En el menú principal, haga clic en **[!UICONTROL Plan]>[!UICONTROL Simulations]**.
 
-   1. Sobre la tabla de datos, haga clic en **[!UICONTROL Run Simulation]**.
+  1. Sobre la tabla de datos, haga clic en **[!UICONTROL Run Simulation]**.
 
-   1. Seleccione el portafolio:
+  1. Seleccione el portafolio:
 
-      1. Haga clic en **[!UICONTROL Select Portfolio]**.
+     1. Haga clic en **[!UICONTROL Select Portfolio]**.
 
-      1. Seleccione el portafolio.
+     1. Seleccione el portafolio.
 
-         Para buscar portafolios que incluyan una cadena de texto específica, empiece a introducir la cadena de texto dentro del campo de búsqueda. Los valores no distinguen entre mayúsculas y minúsculas.
+        Para buscar portafolios que incluyan una cadena de texto específica, empiece a introducir la cadena de texto dentro del campo de búsqueda. Los valores no distinguen entre mayúsculas y minúsculas.
 
-      1. Haga clic en **[!UICONTROL Proceed]**.
+     1. Haga clic en **[!UICONTROL Proceed]**.
 
 * Desde la vista [!UICONTROL Portfolios]:
 
-   1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
+  1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-   1. Realice una de las acciones siguientes:
+  1. Realice una de las acciones siguientes:
 
-      * Mantenga el cursor sobre la fila del portafolio. Junto al nombre del portafolio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
+     * Mantenga el cursor sobre la fila del portafolio. Junto al nombre del portafolio, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Run Simulation]**.
 
-      * Seleccione la casilla de verificación situada junto al portafolio. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Run Simulation]**.
+     * Seleccione la casilla de verificación situada junto al portafolio. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Run Simulation]**.
 
 1. Especifique la [configuración de simulación personalizada](#custom-simulation-settings):
 

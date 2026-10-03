@@ -3,18 +3,21 @@ title: Administrar grupos de productos de compras
 description: Obtenga información sobre cómo crear y administrar grupos de productos de compras en campañas de compras.
 exl-id: cf818b87-ee4b-4cf5-a4e8-0b9a7fc32182
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k
+TQID: 'https://experienceleague.adobe.com/x-B0Ybah1ySNsyIKQz9iY2IT8fhvSawTx-mRDB0da6k'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 720
+source-wordcount: '716'
 ht-degree: 0%
-
 ---
-
 # Administrar grupos de productos de compras
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] campañas de compras solo*
@@ -103,13 +106,13 @@ Puede eliminar cualquier grupo de productos (excepto el grupo &quot;Todo lo dem�
 
    * Para eliminar uno o varios grupos de productos, haga lo siguiente:
 
-      1. Seleccione la casilla de verificación situada junto a cada grupo de productos que desee eliminar.
+     1. Seleccione la casilla de verificación situada junto a cada grupo de productos que desee eliminar.
 
-         Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. En la barra de herramientas, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y seleccione **[!UICONTROL Delete]**.
+     1. En la barra de herramientas, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y seleccione **[!UICONTROL Delete]**.
 
-      1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

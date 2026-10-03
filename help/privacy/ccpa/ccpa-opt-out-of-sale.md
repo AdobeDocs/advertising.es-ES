@@ -4,24 +4,33 @@ description: Obtenga información acerca de la compatibilidad para capturar soli
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-TQID: https://experienceleague.adobe.com/16JkyKVsVoBIGKEbhEIH7HWZ-H-XkjBad7yq9-NhY3s
+TQID: 'https://experienceleague.adobe.com/16JkyKVsVoBIGKEbhEIH7HWZ-H-XkjBad7yq9-NhY3s'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
+subfeature_v2:
+  - id: c867fa1b-f589-43fa-b071-3c62f0038f23
+    internal-label: CCPA
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: '1101'
 ht-degree: 0%
-
 ---
-
 # Compatibilidad de Adobe Advertising con la Ley de Privacidad del Consumidor de California: compatibilidad con la exclusión de la venta del consumidor
 
 *Para Adobe Advertising Demand Side Platform (DSP)*
@@ -79,7 +88,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
    >
    >Póngase en contacto con el representante de Adobe Advertising de su compañía para confirmar que todas las cuentas de Adobe Advertising de su organización, incluidas las cuentas de [!DNL DSP] o anunciantes, las cuentas de [!DNL Search, Social, & Commerce] y las cuentas de [!DNL Creative] o [!DNL DCO], están vinculadas a su ID de organización de CX Enterprise.
 
-1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=es) a Adobe Advertising en nombre de los consumidores y para comprobar el estado de las solicitudes existentes.
+1. Use la API de Adobe Experience Platform Privacy Service para [enviar solicitudes de exclusión de la venta](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) a Adobe Advertising en nombre de los consumidores y para comprobar el estado de las solicitudes existentes.
 
    Consulte el apéndice siguiente para ver un ejemplo de solicitud de exclusión de la venta.
 
@@ -87,7 +96,7 @@ Puede comunicar las solicitudes de exclusión de venta de los consumidores media
    >
    >Si su empresa tiene varios ID de organización de CX Enterprise, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] y [!DNL DCO]), con una cuenta por subsolución.
 
-Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es).
+Todos estos pasos son necesarios para recibir asistencia de Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que necesita realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, vea [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Recuperación de informes de consumidores que enviaron solicitudes de exclusión de la venta
 
@@ -144,7 +153,7 @@ curl -X POST \
 }'
 ```
 
-donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/es/docs/experience-platform/privacy/api/appendix):
+donde, según las [especificaciones de la API de Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` indica el espacio de cookies `AdCloud`, y el valor correspondiente es el ID de cookie del cliente recuperado de `AdobePrivacy.js`
 * `"include": ["adCloud"]` indica que la solicitud se aplica al producto Adobe Advertising

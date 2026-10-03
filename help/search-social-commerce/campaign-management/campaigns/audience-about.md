@@ -1,22 +1,25 @@
 ---
 title: Acerca de las audiencias
-description: Obtenga información acerca de las opciones para rastrear, crear y administrar  [!DNL Google Ads] y [!DNL Microsoft Advertising] audiencias.
+description: Obtenga información acerca de las opciones para rastrear, crear y administrar audiencias de [!DNL Google Ads] y [!DNL Microsoft Advertising].
 exl-id: f85cbc82-ddbc-4ecd-a17b-b4cb4808cfbc
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8
+TQID: 'https://experienceleague.adobe.com/B77S28vEpSkrgNmhc-Ekn7PXh3W-y2g9et2y3gCQPK8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # Acerca de la administración de audiencias [!DNL Google Ads] y [!DNL Microsoft Advertising] en Search, Social y Commerce
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] solamente*
@@ -27,9 +30,9 @@ También puede crear y administrar audiencias mediante segmentos o listas de cor
 
 * **Segmentos de audiencia de Adobe:** Los anunciantes con cuentas de Adobe Audience Manager o Adobe Analytics predeterminadas pueden crear [!DNL Google Ads] audiencias de coincidencia de clientes a partir de sus [!DNL Adobe] segmentos:
 
-   * (Anunciantes con cuentas de [!DNL Analytics] que no tengan Audience Manager) Puede crear audiencias de coincidencia de clientes de [!DNL Google Ads] con los identificadores de usuario de [!DNL Analytics] segmentos que se comparten con Adobe CX Enterprise.
+  * (Anunciantes con cuentas de [!DNL Analytics] que no tengan Audience Manager) Puede crear audiencias de coincidencia de clientes de [!DNL Google Ads] con los identificadores de usuario de [!DNL Analytics] segmentos que se comparten con Adobe CX Enterprise.
 
-   * (Anunciantes con cuentas de Audience Manager) Puede crear [!DNL Google Ads] audiencias de coincidencia de clientes usando los ID de usuario de segmentos de Audience Manager que tienen como destino Search, Social y Commerce. Esto puede incluir segmentos de Adobe Analytics que se publican en Adobe CX Enterprise y segmentos creados con la biblioteca de audiencias de Adobe CX Enterprise.
+  * (Anunciantes con cuentas de Audience Manager) Puede crear [!DNL Google Ads] audiencias de coincidencia de clientes usando los ID de usuario de segmentos de Audience Manager que tienen como destino Search, Social y Commerce. Esto puede incluir segmentos de Adobe Analytics que se publican en Adobe CX Enterprise y segmentos creados con la biblioteca de audiencias de Adobe CX Enterprise.
 
   Para crear audiencias que coincidan con el cliente, la cuenta del anunciante [!DNL Google Ads] debe ser [elegible para la coincidencia personalizada](https://support.google.com/adspolicy/answer/6299717) y optar por [segmentos de ID de usuario](https://support.google.com/google-ads/answer/9199250). Además, la cuenta del anunciante en Buscar, Social y Commerce debe configurarse para permitir la creación de audiencias de coincidencia de clientes.
 

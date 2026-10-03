@@ -1,40 +1,46 @@
 ---
-title: Create an advertiser account
-description: Learn how to create an advertiser account.
+title: Crear una cuenta de anunciante
+description: Obtenga información sobre cómo crear una cuenta de anunciante.
 role: User, Admin
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
-
 ---
+# Crear una cuenta de anunciante
 
-# Create an advertiser account
-
-*Not Available to Read-only Users*
+*No disponible para usuarios de solo lectura*
 
 <!-- Not published -->
 
-Advertisers are available to all users in the organization account.
+Los anunciantes están disponibles para todos los usuarios de la cuenta de la organización.
 
-1. In the main menu, click **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
+1. En el menú principal, haga clic en **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
-1. Click **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
-1. Specify the [advertiser settings](advertiser-settings.md):
+1. Especifique la [configuración del anunciante](advertiser-settings.md):
 
-   1. In the [!UICONTROL General] settings:
+   1. En la configuración de [!UICONTROL General]:
 
-      1. Specify the [!UICONTROL General] settings.
+      1. Especifique la configuración de [!UICONTROL General].
 
-      1. (Optional) To configure integrations between DSP and other Adobe CX Enterprise products, enter the advertiser&#39;s CX Enterprise organization ID in the [!UICONTROL Adobe IMS IDs] section, and then configure the product integrations in the [!UICONTROL Integrations] section.
+      1. (Opcional) Para configurar integraciones entre DSP y otros productos de Adobe CX Enterprise, introduzca el ID de organización de CX Enterprise del anunciante en la sección [!UICONTROL Adobe IMS IDs] y, a continuación, configure las integraciones de productos en la sección [!UICONTROL Integrations].
 
-   1. (Optional) In the [!UICONTROL Targeting] sections, specify default targets for each new placement.
+   1. (Opcional) En las secciones [!UICONTROL Targeting], especifique los destinos predeterminados para cada nueva ubicación.
 
-      You can override the default targets for any placement you create.
+      Puede anular los destinos por defecto de cualquier ubicación que cree.
 
-1. Click **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Advertiser settings](/help/dsp/admin/advertiser-settings.md)
+>* [Configuración del anunciante](/help/dsp/admin/advertiser-settings.md)

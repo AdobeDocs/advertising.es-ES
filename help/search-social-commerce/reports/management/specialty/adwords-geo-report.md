@@ -3,20 +3,26 @@ title: '[!UICONTROL AdWords Geo Report]'
 description: Más información acerca de [!UICONTROL AdWords Geo Report].
 exl-id: e64f371f-b1dc-48e0-a883-dde6d4796b58
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/85NJVnzICtSYZ3rY6ccba3KouVDyuRL6H9kYOQwPGco
+TQID: 'https://experienceleague.adobe.com/85NJVnzICtSYZ3rY6ccba3KouVDyuRL6H9kYOQwPGco'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 214
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords Geo Report]
 
 *[!DNL Google Ads]solo cuentas*
@@ -28,7 +34,7 @@ Puede ver los datos de los dos meses anteriores.
 >[!NOTE]
 >
 >* Los totales de este informe pueden diferir de los totales de las mismas campañas y períodos de tiempo en [!UICONTROL Geo Distribution Report] (que Search, Social y Commerce compila) debido a los distintos proveedores y metodologías para determinar las ubicaciones geográficas.
->* Los datos de este informe se recuperan el día anterior a las 23:00 (11:00 p.m.) de cada día. Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
+>* Los datos de este informe se recuperarán el día anterior a las 23:00 (23:00 h) cada día. Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
 
 ## Columnas predeterminadas
 

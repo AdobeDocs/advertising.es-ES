@@ -3,24 +3,29 @@ title: Duplicación de una campaña
 description: Obtenga información sobre cómo duplicar una campaña.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-TQID: https://experienceleague.adobe.com/Oq-1l3Ls2uEul-OQFVfiMoed8NewiX0X-EZzBPlSCHU
+TQID: 'https://experienceleague.adobe.com/Oq-1l3Ls2uEul-OQFVfiMoed8NewiX0X-EZzBPlSCHU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
 subfeature_v2:
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 385
+source-wordcount: '385'
 ht-degree: 0%
-
 ---
-
 # Duplicación de una campaña
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
@@ -59,10 +64,10 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 * (Si no adjunta anuncios) Ponderación y programación de anuncios personalizados
 * Ubicaciones predeterminadas para ofertas programáticas garantizadas (PG) y ubicaciones para [!UICONTROL Simple Ad Serving] ofertas
 * (Si copia ubicaciones en una campaña diferente):
-   * Destinos geográficos
-   * Píxeles de evento
-   * Anuncios
-   * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] (que anulan los segmentos de nivel de anunciante)
+  * Destinos geográficos
+  * Píxeles de evento
+  * Anuncios
+  * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] (que anulan los segmentos de nivel de anunciante)
 
 ## Prácticas recomendadas para configurar la nueva campaña
 
@@ -75,23 +80,23 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
 * Tenga en cuenta lo siguiente y edite la nueva campaña según sea necesario:
 
-   * ¿La cuenta tiene fondos suficientes para dar cabida al nuevo presupuesto de la campaña?
+  * ¿La cuenta tiene fondos suficientes para dar cabida al nuevo presupuesto de la campaña?
 
-   * ¿La nueva campaña necesita un presupuesto diferente al de la campaña anterior?
+  * ¿La nueva campaña necesita un presupuesto diferente al de la campaña anterior?
 
-   * ¿Se necesitan presupuestos mínimos para alguna de las ubicaciones?
+  * ¿Se necesitan presupuestos mínimos para alguna de las ubicaciones?
 
-   * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
+  * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
 
-   * Adjunte los píxeles de evento según sea necesario a las ubicaciones y los anuncios.
+  * Adjunte los píxeles de evento según sea necesario a las ubicaciones y los anuncios.
 
-   * Incluya destinos geográficos y segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Safety] según sea necesario para las ubicaciones.
+  * Incluya destinos geográficos y segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Safety] según sea necesario para las ubicaciones.
 
-   * Para obtener ofertas garantizadas mediante programación, utilice nuevos ID de acuerdo y cree ubicaciones predeterminadas.
+  * Para obtener ofertas garantizadas mediante programación, utilice nuevos ID de acuerdo y cree ubicaciones predeterminadas.
 
-   * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
+  * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
 
-* Para las campañas de rendimiento (es decir, campañas con paquetes que utilizan objetivos de optimización personalizados), use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
+* Para las campañas de rendimiento (es decir, campañas con paquetes que utilizan objetivos de optimización personalizados), use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] ](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
 
 >[!MORELIKETHIS]
 >

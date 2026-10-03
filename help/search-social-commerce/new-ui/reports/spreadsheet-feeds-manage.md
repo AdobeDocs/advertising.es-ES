@@ -2,7 +2,13 @@
 title: (Nueva IU) Administrar fuentes de informes de hojas de cálculo
 description: Obtenga información sobre cómo crear, configurar, actualizar, ver y eliminar fuentes de informes de hojas de cálculo que ofrecen datos de rendimiento diarios en una hoja de cálculo con formato personalizado.
 feature: Search Reports
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%

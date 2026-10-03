@@ -3,27 +3,31 @@ title: Duplicar un plan de alcance de TV conectado
 description: Aprenda a crear un plan de alcance de TV conectado utilizando la configuración de un plan existente.
 feature: DSP Planner
 exl-id: 80dab57a-e56d-4a77-a1d5-c3e705f54fb9
-TQID: https://experienceleague.adobe.com/y1Qd-vey3TaAJGg4g0Lg1--CfL7vcmxs1p6O9RVObsg
+TQID: 'https://experienceleague.adobe.com/y1Qd-vey3TaAJGg4g0Lg1--CfL7vcmxs1p6O9RVObsg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: a516b982-58a0-530b-84c5-9b83f41039ad
+    internal-label: DSP Planner
 subfeature_v2:
   - id: e8b92199-d82f-4b20-9fc3-ffe694f93ce5
+    internal-label: Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 127
+source-wordcount: '127'
 ht-degree: 0%
-
 ---
-
 # Duplicar un plan de alcance de TV conectado
 
 1. En el menú principal, haga clic en **[!UICONTROL Planner]**.
 
-1. &#x200B;
+1. 
    1. Mantenga el cursor sobre la fila del plan y haga clic en **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
 
 1. (Opcional) Edite el nombre y la [configuración del plan](planner-settings.md).
@@ -34,7 +38,7 @@ ht-degree: 0%
 
    Una vez guardado el plan, se muestra el resultado previsto.
 
-1. (Opcional) Para exportar la previsión [!UICONTROL Budget vs Reach] a una hoja de cálculo [!DNL Microsoft Excel]&#x200B;**, haga clic en &#x200B;** [!UICONTROL ...] **&#x200B; en la parte superior derecha y, a continuación, haga clic en &#x200B;** [!UICONTROL Export]**.
+1. (Opcional) Para exportar la previsión [!UICONTROL Budget vs Reach] a una hoja de cálculo [!DNL Microsoft Excel]**, haga clic en **[!UICONTROL ...]** en la parte superior derecha y, a continuación, haga clic en **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

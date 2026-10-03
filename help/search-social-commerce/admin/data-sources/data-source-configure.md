@@ -1,29 +1,38 @@
 ---
-title: Configurar una  [!DNL Google Analytics] vista como fuente de datos
-description: Obtenga información sobre cómo configurar una fuente de datos desde una vista  [!DNL Google Analytics] .
+title: Configurar una vista [!DNL Google Analytics] como origen de datos
+description: Obtenga información sobre cómo configurar un origen de datos desde una vista de [!DNL Google Analytics].
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-TQID: https://experienceleague.adobe.com/Tvl3PF1mPSWuoWdVVreAoo6aXe3Kg9-9DXsOz3porOI
+TQID: 'https://experienceleague.adobe.com/Tvl3PF1mPSWuoWdVVreAoo6aXe3Kg9-9DXsOz3porOI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '574'
 ht-degree: 0%
-
 ---
-
 # Configurar una vista [!DNL Google Analytics] como origen de datos
 
 *Solo administradores de agencias, administradores de cuentas de agencias, administradores de cuentas de Adobe y administradores*
@@ -78,7 +87,7 @@ Para integrar métricas de varias propiedades o de varias vistas para una sola p
 
    El origen de datos se denomina &quot;AccountName > PropertyName > ViewName&quot; y se activa automáticamente. Para pausar el origen de datos, consulte &quot;[Pausar una fuente desde un Source de datos](data-source-pause.md)&quot;.
 
-   Las métricas están disponibles al día siguiente de la finalización de la sincronización de datos diaria, que comienza a las 05:00 en el huso horario del anunciante. Una vez que las métricas estén disponibles, se podrán ver en [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Cada nueva métrica de conversión se denomina &quot;`ga:backEndMetricName_propertyID_viewID`&quot;, donde &quot;backEndMetricName&quot; es el nombre de métrica que usa la API. El nombre para mostrar de cada nueva métrica de conversión es &quot;`friendlyMetricName_ga:MetricTag`&quot;, donde &quot;friendlyMetricName&quot; es el nombre de métrica que aparece en [!DNL Google Analytics] y &quot;MetricTag&quot; es el [!UICONTROL Metric Tag] definido en la configuración del origen de datos.
+   Las métricas están disponibles al día siguiente de la finalización de la sincronización diaria de datos, que comienza a las 05:00 en el huso horario del anunciante. Una vez que las métricas estén disponibles, se podrán ver en [[!UICONTROL Admin] > [!UICONTROL Conversions]](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md). Cada nueva métrica de conversión se denomina &quot;`ga:backEndMetricName_propertyID_viewID`&quot;, donde &quot;backEndMetricName&quot; es el nombre de métrica que usa la API. El nombre para mostrar de cada nueva métrica de conversión es &quot;`friendlyMetricName_ga:MetricTag`&quot;, donde &quot;friendlyMetricName&quot; es el nombre de métrica que aparece en [!DNL Google Analytics] y &quot;MetricTag&quot; es el [!UICONTROL Metric Tag] definido en la configuración del origen de datos.
 
    Puede añadir las métricas directamente a la administración de campañas y a las vistas de administración de portafolios, a los informes y a los objetivos de optimización.
 

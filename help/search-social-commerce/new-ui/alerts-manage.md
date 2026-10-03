@@ -2,13 +2,17 @@
 title: (Nueva IU) Administrar alertas personalizadas
 description: Obtenga información sobre cómo crear, configurar, pausar, activar, eliminar, ver y exportar alertas personalizadas y plantillas de alertas.
 feature: Search Alerts
-source-git-commit: 0fddeb8f01bd7c310544973ae2aff78339eb2144
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Administrar alertas personalizadas
 
 Cree plantillas de alerta para identificar cuándo cualquier portafolio, campaña o grupo de publicidad cumple condiciones específicas, como una métrica de rendimiento, durante un período especificado y luego genere una alerta. Las alertas están disponibles para un solo anunciante. Las alertas incluyen todas las columnas en la vista predeterminada relevante. Por ejemplo, las alertas de nivel de campaña incluyen todas las columnas en la vista predeterminada [!UICONTROL Campaigns].

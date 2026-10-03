@@ -3,18 +3,21 @@ title: Cree y edite datos de campaña por lotes utilizando copiar y pegar
 description: Obtenga información sobre cómo administrar los datos de campaña por lotes mediante la función de copiar y pegar.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c
+TQID: 'https://experienceleague.adobe.com/z-CaAsySMH-nF2IGPRpM1KY6MYdVz1xZhgjPsBShD7c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: '489'
 ht-degree: 0%
-
 ---
-
 # Cree y edite datos de campaña por lotes utilizando copiar y pegar
 
 *[!DNL Google Ads], [!DNL LY Ads], [!DNL Microsoft Advertising], [!DNL Yandex] y solo [!DNL Baidu] cuentas existentes*
@@ -47,9 +50,9 @@ Puede utilizar esta función para editar objetos de campaña existentes (con cam
 
    * Los datos pegados deben incluir una fila de encabezado y los valores de objeto de campaña necesarios; consulte las columnas de hojas de edición masiva necesarias para [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Mostrar red](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) y [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md). El orden de las columnas no importa.
 
-      * Para los objetos existentes que desea editar, debe incluir todas las columnas de ID., nombres de entidad y el atributo relevantes que desea editar. No edite el ID numérico del objeto.
+     * Para los objetos existentes que desea editar, debe incluir todas las columnas de ID., nombres de entidad y el atributo relevantes que desea editar. No edite el ID numérico del objeto.
 
-      * Para los nuevos objetos de campaña, incluya todos los nombres y atributos de entidad relevantes, pero no incluya los ID de objeto (que se generan automáticamente). Por ejemplo, si crea un anuncio nuevo, deje en blanco el campo [!UICONTROL Ad ID]. La red publicitaria crea automáticamente un ID al publicar el objeto.
+     * Para los nuevos objetos de campaña, incluya todos los nombres y atributos de entidad relevantes, pero no incluya los ID de objeto (que se generan automáticamente). Por ejemplo, si crea un anuncio nuevo, deje en blanco el campo [!UICONTROL Ad ID]. La red publicitaria crea automáticamente un ID al publicar el objeto.
 
    * El valor de cualquier columna no requerida puede ser nulo (en blanco), pero cada fila debe tener el mismo número de valores separados por tabulaciones.
 

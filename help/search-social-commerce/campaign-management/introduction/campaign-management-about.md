@@ -3,21 +3,26 @@ title: Acerca de la administración de campañas en Search, Social y Commerce
 description: Obtenga información acerca de las funciones de administración de campañas en Search, Social y Commerce.
 exl-id: 19e36e73-fcb6-4ff3-980b-fc05042725fd
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk
+TQID: 'https://experienceleague.adobe.com/tgoMzw4DbEY5evC2s1f6mQHfJYYb7DJzMfFUnc-06Bk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 61a66d7d35873247de40480f7361f87e2dedde88
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: '850'
 ht-degree: 0%
-
 ---
-
 # Acerca de la administración de campañas en Search, Social y Commerce
 
 Search, Social y Commerce le permiten rastrear o administrar sus campañas de búsqueda, visualización/contenido, medios sociales, compras, audiencia y rendimiento máximo en un solo lugar. Según la red de publicidad y el tipo de campaña, las funciones disponibles pueden incluir la sincronización con las redes de publicidad, las capacidades de creación y edición, el seguimiento y la atribución de conversión, la creación de informes y la optimización de ofertas y presupuestos. Para obtener detalles acerca de la funcionalidad disponible para cada red de anuncios, consulte &quot;[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md)&quot;.
@@ -60,7 +65,7 @@ Las vistas de administración de campañas le permiten supervisar y administrar 
 
 * **[!UICONTROL Bulksheets]**: use la vista [!UICONTROL Bulksheets] para crear [archivos de hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) que contengan tantos datos como desee para una cuenta en una red de publicidad admitida [y, a continuación, publíquelos en la red de publicidad.](/help/search-social-commerce/introduction/supported-inventory.md)
 
-* **[!UICONTROL Audiences]** — [Las vistas [!UICONTROL Audiences]](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) enumeran todas sus audiencias de [!DNL Google Ads] y [!DNL Microsoft Advertising] generadas a partir de varios tipos de listas de usuarios. Puede crear audiencias de [!DNL Google Ads] a partir de las audiencias de Adobe CX Enterprise existentes y las listas de correo electrónico de los clientes. También puede ver y administrar destinos y exclusiones de audiencia para sus anuncios de [!DNL Google Ads] y [!DNL Microsoft Advertising].
+* **[!UICONTROL Audiences]** — [Las vistas [!UICONTROL Audiences]](/help/search-social-commerce/campaign-management/campaigns/audience-about.md) enumeran todas sus audiencias de [!DNL Google Ads] y [!DNL Microsoft Advertising] generadas a partir de varios tipos de listas de usuarios. Puede crear [!DNL Google Ads] audiencias a partir de las audiencias de Adobe CX Enterprise existentes y las listas de correo electrónico de los clientes. También puede ver y administrar destinos y exclusiones de audiencia para sus anuncios de [!DNL Google Ads] y [!DNL Microsoft Advertising].
 
 * **[!UICONTROL Label Classifications]** — Use esta vista para crear y eliminar [clasificaciones de etiquetas](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md), que pueden ayudarle a agrupar las etiquetas en conjuntos significativos.
 

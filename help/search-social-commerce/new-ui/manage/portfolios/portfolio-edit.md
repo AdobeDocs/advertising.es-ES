@@ -4,28 +4,35 @@ description: Aprenda a editar la configuración del portafolio.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: c1be8634-47f6-465e-a6c9-88cbb3456592
-TQID: https://experienceleague.adobe.com/PvRUorKnHZJPyLSDJapXOrCokNZ1Wg6l4bm-s4EiuYU
+TQID: 'https://experienceleague.adobe.com/PvRUorKnHZJPyLSDJapXOrCokNZ1Wg6l4bm-s4EiuYU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
+    internal-label: Search Portfolios
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 081453404883619e0a70bba080c857bf7e3136cc
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 151
+source-wordcount: '151'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Editar un portafolio
 
 *característica de Beta*
 
 >[!NOTE]
 >
->* Para editar la configuración de varios portafolios a la vez, consulte &quot;[&#x200B; (nueva interfaz de usuario) Editar en lote la configuración del portafolio mediante archivos de hojas de edición en bloque](portfolio-bulksheets.md)&quot;.
+>* Para editar la configuración de varios portafolios a la vez, consulte &quot;[ (nueva interfaz de usuario) Editar en lote la configuración del portafolio mediante archivos de hojas de edición en bloque](portfolio-bulksheets.md)&quot;.
 >* Para cambiar rápidamente el nombre de un portafolio sin abrir la configuración completa del portafolio, consulte &quot;[Cambiar el nombre de un portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-rename.md)&quot;.
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
@@ -46,7 +53,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; (nueva interfaz de usuario) Editar de forma masiva la configuración del portafolio mediante archivos de hojas de edición masiva](portfolio-bulksheets.md)
+>* [ (nueva interfaz de usuario) Editar de forma masiva la configuración del portafolio mediante archivos de hojas de edición masiva](portfolio-bulksheets.md)
 >* [Crear un portafolio](portfolio-create.md)
 >* [(Nueva IU) Ver detalles de rendimiento del portafolio](portfolio-details.md)
 >* [(nueva interfaz de usuario) Descargar datos en la vista [!UICONTROL Portfolios]](portfolio-view-report.md)

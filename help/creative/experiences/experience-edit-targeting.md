@@ -3,20 +3,27 @@ title: Editar una experiencia con segmentación en árbol de decisiones
 description: Obtenga información sobre cómo editar la configuración de una experiencia publicitaria de destino mediante un árbol de decisiones.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-TQID: https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk
+TQID: 'https://experienceleague.adobe.com/0mcPjfiET-DKrm2qaa1Odygv1GIgv4cR7lBRNmrYGBk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 528
+source-wordcount: '529'
 ht-degree: 0%
-
 ---
-
 # Editar una experiencia con segmentación en árbol de decisiones
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Experiences]**.
@@ -41,11 +48,11 @@ ht-degree: 0%
 
    * ([Procesando](experience-about.md#experience-statuses) experiencias) Realice una de las siguientes acciones:
 
-      * Para descartar los cambios existentes y no publicados en la experiencia en directo, haga clic en **[!UICONTROL Discard and start again]**.
+     * Para descartar los cambios existentes y no publicados en la experiencia en directo, haga clic en **[!UICONTROL Discard and start again]**.
 
-      * Para mantener los cambios existentes sin publicar, haga clic en **[!UICONTROL Continue editing draft]**.
+     * Para mantener los cambios existentes sin publicar, haga clic en **[!UICONTROL Continue editing draft]**.
 
-      * Para editar los detalles de la experiencia, haga clic en **[!UICONTROL Edit Experience Details]**.
+     * Para editar los detalles de la experiencia, haga clic en **[!UICONTROL Edit Experience Details]**.
 
    * (Opcional) Cambie la configuración de vista del árbol de decisión.
 
@@ -57,25 +64,25 @@ ht-degree: 0%
 
    * (Opcional) Cambie los targets de anuncios y los elementos creativos correspondientes de cualquiera de las siguientes maneras:
 
-      * Destinos:
+     * Destinos:
 
-        *[Agregue un nodo de destino al nivel final](experience-target-node-add-final.md) de una experiencia.
+       *[Agregue un nodo de destino al nivel final](experience-target-node-add-final.md) de una experiencia.
 
-         * [Insertar un nodo de destino entre nodos](experience-target-node-add-inner.md).
+       * [Insertar un nodo de destino entre nodos](experience-target-node-add-inner.md).
 
-         * [Agregar un nodo de destino secundario entre nodos](experience-target-node-add-sibling.md).
+       * [Agregar un nodo de destino secundario entre nodos](experience-target-node-add-sibling.md).
 
-         * [Copie nodos secundarios y creativos a otro nodo en el mismo nivel](experience-target-node-copy.md).
+       * [Copie nodos secundarios y creativos a otro nodo en el mismo nivel](experience-target-node-copy.md).
 
-      * Paquetes de Creative:
+     * Paquetes de Creative:
 
-         * [Asignar y cancelar la asignación de elementos creativos a un nodo final](experience-assign-creative-bundles.md).
+       * [Asignar y cancelar la asignación de elementos creativos a un nodo final](experience-assign-creative-bundles.md).
 
-           Si no asigna al menos un paquete a cada nodo final, puede optar por utilizar los elementos creativos predeterminados para cada nodo no asignado al guardar la experiencia. Para publicar una experiencia, debe asignar paquetes o utilizar los elementos creativos predeterminados para cada nodo final.
+         Si no asigna al menos un paquete a cada nodo final, puede optar por utilizar los elementos creativos predeterminados para cada nodo no asignado al guardar la experiencia. Para publicar una experiencia, debe asignar paquetes o utilizar los elementos creativos predeterminados para cada nodo final.
 
-         * [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
+       * [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
 
-         * [Personalizar la optimización y programación creativas](experience-optimization-scheduling-targeting.md) para los paquetes asignados.
+       * [Personalizar la optimización y programación creativas](experience-optimization-scheduling-targeting.md) para los paquetes asignados.
 
 1. (Opcional) Edite la [configuración general de la experiencia](experience-settings-targeting.md).
 
@@ -85,13 +92,13 @@ ht-degree: 0%
 
    * (Si cada nodo del nivel más bajo no incluye al menos un paquete creativo) Realice una de las siguientes acciones:
 
-      * Para guardar la experiencia sin todos los paquetes creativos necesarios, haga clic en **[!UICONTROL Save as Draft]**.
+     * Para guardar la experiencia sin todos los paquetes creativos necesarios, haga clic en **[!UICONTROL Save as Draft]**.
 
-        No puedes crear una etiqueta de anuncio para una experiencia de [borrador](experience-about.md#experience-statuses).
+       No puedes crear una etiqueta de anuncio para una experiencia de [borrador](experience-about.md#experience-statuses).
 
-      * Para asignar el elemento creativo predeterminado a cada destino al que aún no se le haya asignado un paquete creativo, haga clic en **[!UICONTROL Assign Default Creatives]**. Después de revisar el árbol actualizado con los elementos creativos predeterminados asignados, haga clic en **[!UICONTROL Save]** y **[!UICONTROL OK]**.
+     * Para asignar el elemento creativo predeterminado a cada destino al que aún no se le haya asignado un paquete creativo, haga clic en **[!UICONTROL Assign Default Creatives]**. Después de revisar el árbol actualizado con los elementos creativos predeterminados asignados, haga clic en **[!UICONTROL Save]** y **[!UICONTROL OK]**.
 
-      * Para continuar editando el árbol de decisión, haga clic en **[!UICONTROL Continue Edit]**.
+     * Para continuar editando el árbol de decisión, haga clic en **[!UICONTROL Continue Edit]**.
 
 >[!MORELIKETHIS]
 >

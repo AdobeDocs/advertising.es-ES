@@ -3,27 +3,33 @@ title: Acerca de los informes especiales
 description: Más información sobre los informes de especialidad.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo
+TQID: 'https://experienceleague.adobe.com/Ryz4VVERj-pBZMgBMrEOUr66VlZpzqwMFUW1jRB9oBo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 138
+source-wordcount: '143'
 ht-degree: 0%
-
 ---
-
 # Acerca de los informes especiales
 
 La mayoría de los informes de especialidades consisten únicamente en datos recopilados por las redes de anuncios. Sin embargo, [!UICONTROL Google Ads Shopping Performance Report], [!UICONTROL Keyword Impression Share Report] y [!UICONTROL Campaign Impression Share Report] pueden incluir datos de ingresos recopilados por [!DNL Adobe]. Los informes especiales están disponibles para todos los usuarios.
 
 >[!NOTE]
 >
->Para la mayoría de los informes de especialidades, se recuperan los datos del día anterior a las 23:00 (11:00 p.m.) de cada día. Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00. Esta sincronización de datos se aplica a todos los informes especiales de [!DNL Google Ads] y a [!UICONTROL Bing Ads Geo Report] y [!UICONTROL Bing Ads Search Query Report].
+>Para la mayoría de los informes de especialidades, se extraen los datos del día anterior a las 23:00 (23:00 h) cada día. Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00. Esta sincronización de datos se aplica a todos los informes especiales de [!DNL Google Ads] y a [!UICONTROL Bing Ads Geo Report] y [!UICONTROL Bing Ads Search Query Report].
 
 ## Tipos de informes especiales
 

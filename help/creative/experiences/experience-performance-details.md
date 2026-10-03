@@ -3,20 +3,27 @@ title: Informes de rendimiento de nivel de experiencia
 description: Obtenga información sobre cómo ver informes de rendimiento de nivel de experiencia.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-TQID: https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg
+TQID: 'https://experienceleague.adobe.com/1k8mcvg9-anlNxZQ43czfxpLEweDr-TolaaEIrDz-Fg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 50e002abe0c434e5eba9bd9785d7fc3d7ee7d10c
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 791
+source-wordcount: '791'
 ht-degree: 0%
-
 ---
-
 # Informes de rendimiento de nivel de experiencia
 
 Puede ver datos de rendimiento detallados de cualquier experiencia.
@@ -27,39 +34,39 @@ La vista Informe incluye los siguientes datos:
 
 * **Pestaña Información general**: Una descripción general del rendimiento en todas las métricas de conversión de toda la experiencia<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." -->, que incluye:
 
-   * **Rendimiento general** sección:
+  * **Rendimiento general** sección:
 
-      * **Rendimiento general**: el total de impresiones; clics; tasa de clics (CTR); y conversiones de visualizaciones y clics.
+    * **Rendimiento general**: el total de impresiones; clics; tasa de clics (CTR); y conversiones de visualizaciones y clics.
 
-     <!--
+    <!--
       ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
      -->
 
-      * **Tasa predeterminada**: (Solo experiencias con segmentación en el árbol de decisiones) El número de impresiones resultantes de elementos creativos segmentados, elementos creativos genéricos sin segmentación o segmentados a &quot;Todos los demás&quot; y el elemento creativo predeterminado para la experiencia.
+    * **Tasa predeterminada**: (Solo experiencias con segmentación en el árbol de decisiones) El número de impresiones resultantes de elementos creativos segmentados, elementos creativos genéricos sin segmentación o segmentados a &quot;Todos los demás&quot; y el elemento creativo predeterminado para la experiencia.
 
-     <!--
+    <!--
       ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-   * **Desglose de rendimiento** sección:
+  * **Desglose de rendimiento** sección:
 
-      * **Rendimiento regional:**: Métricas individuales por ubicación geográfica.
+    * **Rendimiento regional:**: Métricas individuales por ubicación geográfica.
 
-     <!--
+    <!--
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
      -->
 
-      * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los 10 elementos creativos principales que se incluyen en ese criterio.
+    * **Rendimiento del dispositivo:** Métricas individuales por tipo de dispositivo, sistema operativo y explorador. Si lo desea, haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los 10 elementos creativos principales que se incluyen en ese criterio.
 
-     <!--
+    <!--
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
      -->
 
 * **Rendimiento de Creative** pestaña*: Información general sobre el rendimiento por creatividad y paquete o etiqueta de publicidad, que incluye:
 
-   * **Creativos** subpestaña: Número total de impresiones, clics y CTR para cada creativo en la experiencia.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
+  * **Creativos** subpestaña: Número total de impresiones, clics y CTR para cada creativo en la experiencia.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
-   * **Paquetes/etiquetas** subpestaña: El número total de impresiones, clics y CTR para paquetes individuales (experiencias con segmentación del árbol de decisiones) o etiquetas de publicidad (experiencias sin segmentación del árbol de decisiones) en la experiencia.
+  * **Paquetes/etiquetas** subpestaña: El número total de impresiones, clics y CTR para paquetes individuales (experiencias con segmentación del árbol de decisiones) o etiquetas de publicidad (experiencias sin segmentación del árbol de decisiones) en la experiencia.
 
 ## Ver informes de rendimiento de una experiencia
 
@@ -79,9 +86,9 @@ La vista Informe incluye los siguientes datos:
 
    * (Opcional) Para cambiar el intervalo de fechas de los datos de rendimiento, elija una opción en el menú de fecha:
 
-      * Para especificar un período preestablecido, seleccione el informe: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* o *[!UICONTROL Yesterday]*.
+     * Para especificar un período preestablecido, seleccione el informe: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* o *[!UICONTROL Yesterday]*.
 
-      * Para especificar un intervalo de fechas personalizado, escriba la fecha de inicio y la de finalización o haga clic en ![icono de calendario](/help/search-social-commerce/assets/calendar.png) junto a un campo y seleccione una fecha.
+     * Para especificar un intervalo de fechas personalizado, escriba la fecha de inicio y la de finalización o haga clic en ![icono de calendario](/help/search-social-commerce/assets/calendar.png) junto a un campo y seleccione una fecha.
 
    * (Opcional) Para cambiar la regla utilizada para atribuir datos de conversión en una serie de eventos que llevan a una conversión, haga clic en ![Configuración](/help/creative/assets/settings.png) y cambie **[!UICONTROL Attribution Rule]**.
 
@@ -97,27 +104,27 @@ La vista Informe incluye los siguientes datos:
 
    * (Opcional) En la sección [!UICONTROL Regional Performance], realice una de las siguientes acciones:
 
-      * Haga clic en un nombre de métrica (como [!UICONTROL Impressions]) para ver esa métrica.
+     * Haga clic en un nombre de métrica (como [!UICONTROL Impressions]) para ver esa métrica.
 
-      * Seleccione la región en el menú [!UICONTROL Region].
+     * Seleccione la región en el menú [!UICONTROL Region].
 
-      * Mantenga el cursor sobre un país o estado para ver los datos de esa región.
+     * Mantenga el cursor sobre un país o estado para ver los datos de esa región.
 
    * (Opcional) En la sección [!UICONTROL Device Performance], realice una de las siguientes acciones:
 
-      * Mantenga el cursor sobre el valor de cualquier categoría de dispositivo para ver los datos de ese criterio.
+     * Mantenga el cursor sobre el valor de cualquier categoría de dispositivo para ver los datos de ese criterio.
 
-      * Haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los <!-- NN--> principales creativos que se han proporcionado con ese criterio.
+     * Haga clic en el valor de cualquier categoría de dispositivo para ver una lista de los <!-- NN--> principales creativos que se han proporcionado con ese criterio.
 
 1. (Opcional) Para ver los datos por creatividad y por paquete o etiqueta de publicidad, haga clic en la pestaña **[!UICONTROL Creative Performance]**.
 
    * En la subpestaña [!UICONTROL Creatives], puede realizar cualquiera de las siguientes acciones:
 
-      * (Opcional) Para cambiar entre la vista de gráfico y la vista de cuadrícula, haga clic en ![Gráfico](/help/creative/assets/chart-view-button.png "Gráfico") y ![Cuadrícula](/help/creative/assets/table-view-button.png "Cuadrícula"), respectivamente.
+     * (Opcional) Para cambiar entre la vista de gráfico y la vista de cuadrícula, haga clic en ![Gráfico](/help/creative/assets/chart-view-button.png "Gráfico") y ![Cuadrícula](/help/creative/assets/table-view-button.png "Cuadrícula"), respectivamente.
 
-      * (Opcional) En la vista de gráfico, mantenga el cursor sobre un punto del gráfico para ver los datos de ese punto.
+     * (Opcional) En la vista de gráfico, mantenga el cursor sobre un punto del gráfico para ver los datos de ese punto.
 
-      * (Experiencias solo con segmentación en el árbol de decisiones; opcional) Para dividir el rendimiento de cada destino de anuncio aplicado, habilite **[!UICONTROL Split targeting]**.
+     * (Experiencias solo con segmentación en el árbol de decisiones; opcional) Para dividir el rendimiento de cada destino de anuncio aplicado, habilite **[!UICONTROL Split targeting]**.
 
 1. Para ver los datos por paquete (experiencias con segmentación del árbol de decisiones) o etiqueta de publicidad (experiencias sin segmentación del árbol de decisiones), haga clic en la subpestaña **[!UICONTROL Bundles]**. Puede realizar cualquiera de las siguientes acciones:
 

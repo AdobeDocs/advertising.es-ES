@@ -4,24 +4,33 @@ description: Obtenga información sobre los tipos de solicitud de datos admitido
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-TQID: https://experienceleague.adobe.com/qR5H-xgBKdtWcMYfrdGdk1y5s9PEA0-hNGZADbR6TuM
+TQID: 'https://experienceleague.adobe.com/qR5H-xgBKdtWcMYfrdGdk1y5s9PEA0-hNGZADbR6TuM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
+subfeature_v2:
+  - id: fa43b1a5-f379-447e-a9f3-9f9bd2bdf579
+    internal-label: GDPR
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1046
+source-wordcount: '1046'
 ht-degree: 0%
-
 ---
-
 # Compatibilidad de Adobe Advertising con el Reglamento General de Protección de Datos
 
 *Para [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP; Adobe Advertising Creative; y Adobe Advertising DCO*
@@ -72,7 +81,7 @@ Para realizar solicitudes de acceso y eliminación de datos para Adobe Advertisi
    >
    >Póngase en contacto con el representante de Adobe Advertising de su compañía para confirmar que todas las cuentas de Adobe Advertising de su organización, incluidas las cuentas de [!DNL DSP] o anunciantes, las cuentas de [!DNL Search, Social, & Commerce] y las cuentas de [!DNL Creative] o [!DNL DCO], están vinculadas a su ID de organización de CX Enterprise.
 
-1. Use la [API de Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es) (para solicitudes automatizadas) o la [IU de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es) (para solicitudes ad hoc) para enviar solicitudes de acceso y eliminación a Adobe Advertising en nombre de los interesados y para comprobar el estado de las solicitudes existentes.
+1. Use la [API de Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (para solicitudes automatizadas) o la [IU de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es) (para solicitudes ad hoc) para enviar solicitudes de acceso y eliminación a Adobe Advertising en nombre de los interesados y para comprobar el estado de las solicitudes existentes.
 
    Para que los anunciantes que tengan una aplicación móvil interactúen con los interesados e inicien campañas con DSP, debe descargar los SDK móviles preparados para la privacidad para CX Enterprise. Los SDK móviles permiten a los controladores de datos establecer indicadores de estado de exclusión, recuperar el ID de dispositivo del interesado (ID de área de nombres: `deviceID`) y enviar solicitudes a la API de Privacy Service. La aplicación móvil requiere una versión de SDK 4.15.0 o superior.
 
@@ -84,7 +93,7 @@ Para realizar solicitudes de acceso y eliminación de datos para Adobe Advertisi
    >
    >Si su empresa tiene varios ID de organización de CX Enterprise, debe enviar solicitudes de API independientes para cada uno. Sin embargo, puede realizar una solicitud de API a varias subsoluciones de Adobe Advertising ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] y [!DNL DCO]), con una cuenta por subsolución.
 
-Todos los pasos son necesarios para Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que debe realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, consulte &quot;[Información general de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es)&quot;.
+Todos los pasos son necesarios para Adobe Advertising. Para obtener más información acerca de estas y otras tareas relacionadas que debe realizar con Adobe Experience Platform Privacy Service y dónde encontrar los elementos necesarios, consulte &quot;[Información general de Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)&quot;.
 
 ## Valores de campo requeridos en solicitudes JSON de Adobe Advertising
 
@@ -95,21 +104,21 @@ Todos los pasos son necesarios para Adobe Advertising. Para obtener más informa
 
 `"users":`
 
-* `"key":` &lt;*usually the name of the data subject*>
+* `"key":` &lt;*suele ser el nombre del interesado*>
 
-* `"action":` either `**access**` or `**delete**`
+* `"action":` `**access**` o `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (which indicates the [!DNL adcloud] cookie space)
+  * `"namespace": **411**` (que indica el espacio de cookie [!DNL adcloud])
 
-   * `"value":` &lt;*the actual data subject’s cookie ID value as retrieved from`AdobePrivacy.js`*>
+  * `"value":` &lt;*el valor real de la ID de cookie del sujeto de datos se recuperó de`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (which is the [!DNL Adobe] product that applies to the request)
+* `"include": **adCloud**` (que es el producto [!DNL Adobe] que se aplica a la solicitud)
 
-* `"regulation": **gdpr**` (which is the privacy regulation that applies to the request)
+* `"regulation": **gdpr**` (que es la norma de privacidad que se aplica a la solicitud)
 
-## Example of request submitted by data subject using an Adobe Advertising user ID retrieved from `AdobePrivacy.js`
+## Ejemplo de solicitud enviada por el interesado utilizando un ID de usuario de Adobe Advertising recuperado de `AdobePrivacy.js`
 
 ```
 {
@@ -140,9 +149,9 @@ Todos los pasos son necesarios para Adobe Advertising. Para obtener más informa
 }
 ```
 
-## Data fields that are returned for access requests
+## Campos de datos que se devuelven para las solicitudes de acceso
 
-The following is an example of an access response for Adobe Advertising.
+A continuación se muestra un ejemplo de una respuesta de acceso para Adobe Advertising.
 
 ```
 {

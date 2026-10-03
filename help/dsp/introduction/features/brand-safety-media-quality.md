@@ -3,24 +3,30 @@ title: Seguridad de marca y calidad de los medios
 description: Obtenga más información sobre la seguridad de la marca y las funciones de calidad de los medios.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-TQID: https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc
+TQID: 'https://experienceleague.adobe.com/-buJmAx0gdtqiPETqfBFcr90LAHly8BNyjM6lVO-JKc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47596cdd765ba7da7c10e21388f0230327b49c01
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: '1445'
 ht-degree: 0%
-
 ---
-
 # Seguridad de marca y calidad de los medios
 
 <!-- Check on logo sizes in staging environment -- I made them all 100 pixels high except for DoubleVerify, which is 150 (harder to see at 100), but some instances look larger in VS Code. -->
@@ -63,19 +69,19 @@ La asignación de inventario es el proceso detallado de revisión e incorporaci�
 
 * **Asignación:** Nuestro equipo de inventario revisa cada dominio cuidadosamente, evaluando aspectos como:
 
-   * Seguridad de marca
+  * Seguridad de marca
 
-   * Verificación del tipo de anuncio
+  * Verificación del tipo de anuncio
 
-   * Contenido genérico, dominios duplicados y servicio de publicidad falsa
+  * Contenido genérico, dominios duplicados y servicio de publicidad falsa
 
 * **Asignación de niveles:** Examinamos holísticamente la presencia de marca en el ecosistema general para clasificar el inventario en diferentes niveles. Puede [dirigir sus ubicaciones](/help/dsp/campaign-management/placements/placement-settings.md) a estos niveles para alcanzar el nivel deseado:
 
-   * **[!UICONTROL T1]**: sitios reconocidos internacionalmente con nombre de marca
+  * **[!UICONTROL T1]**: sitios reconocidos internacionalmente con nombre de marca
 
-   * **[!UICONTROL T2]**: sitios atractivos que son actuales, actualizados, sin contenido generado por el usuario y que normalmente carecen de reconocimiento global
+  * **[!UICONTROL T2]**: sitios atractivos que son actuales, actualizados, sin contenido generado por el usuario y que normalmente carecen de reconocimiento global
 
-   * **[!UICONTROL T3]**: contenido generado por el usuario y contenido especializado
+  * **[!UICONTROL T3]**: contenido generado por el usuario y contenido especializado
 
 * **Categorización del sitio:** Para garantizar la fácil segmentación y bloqueo de contenido, etiquetamos cada propiedad con una categoría de sitio definida por DSP basada en el contenido de la propiedad. Puede [segmentar o excluir estas categorías de sitio para cada ubicación](/help/dsp/campaign-management/placements/placement-settings.md) según los objetivos de ubicación.
 

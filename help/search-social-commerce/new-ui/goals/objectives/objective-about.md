@@ -4,24 +4,31 @@ description: Conozca cuáles son los objetivos para alcanzar sus metas empresari
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-TQID: https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-autotag-review: '2026-04-14T00:06:19.870Z'
-source-git-commit: 604fb0c3541ba9c3b1fdb1c3cae5464bfcf67d4d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Acerca de los objetivos
 
 <!-- no subfeature tag for objectives -->
@@ -34,7 +41,7 @@ Los objetivos son objetivos que un anunciante establece para alcanzar sus objeti
 
 * En DSP, las metas aparecen como metas personalizadas para cuentas de DSP vinculadas a cuentas de Search, Social y Commerce. Cada paquete que utiliza los objetivos de optimización &quot;Máximo rendimiento de la inversión en publicidad (ROAS)&quot; o &quot;Menor coste por adquisición (CPA)&quot; debe incluir un objetivo personalizado que ayude a lograr el objetivo de optimización general.
 
-Un objetivo consiste en las métricas de conversión que se van a rastrear y optimizar, y los pesos relativos de esas métricas. Por ejemplo, supongamos que una revista en línea con dos niveles de suscripción en línea y un nivel de suscripción de impresión y el objetivo &quot;maximizar los beneficios&quot; tiene tres métricas: &quot;suscripciones en línea básicas&quot; valoradas en 20 USD, &quot;suscripciones en línea premium&quot; valoradas en 40 USD y &quot;suscripciones de impresión&quot; valoradas en 30 USD. Si la revista desea dar peso de acuerdo con el valor monetario único de la suscripción, entonces los pesos relativos de las métricas serían 1, 2 y 1,5, respectivamente.
+Un objetivo consiste en las métricas de conversión que se van a rastrear y optimizar, y los pesos relativos de esas métricas. Por ejemplo, supongamos que una revista en línea con dos niveles de suscripción en línea y un nivel de suscripción impresa y el objetivo &quot;maximizar los beneficios&quot; tiene tres métricas: &quot;suscripciones en línea básicas&quot; valoradas en 20 USD, &quot;suscripciones en línea premium&quot; valoradas en 40 USD y &quot;suscripciones impresas&quot; valoradas en 30 USD. Si la revista desea dar peso de acuerdo con el valor monetario único de la suscripción, entonces los pesos relativos de las métricas serían 1, 2 y 1,5, respectivamente.
 
 Para cada métrica del objetivo, puede:
 
@@ -64,11 +71,11 @@ Puede incluir cualquiera de los siguientes elementos en sus objetivos:
 
 * [!DNL Google] métricas:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * Conversiones [[!DNL Google Ads] seguidas &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) desde cuentas sincronizadas [!DNL Google Ads].
+  * Conversiones [[!DNL Google Ads] seguidas ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) desde cuentas sincronizadas [!DNL Google Ads].
 
-   * (Anunciantes con [[!DNL Google Analytics] integraciones](/help/search-social-commerce/admin/data-sources/data-source-about.md)): vistas de página, sesiones, tasa de salida hacia otro sitio (calculada como salidas hacia otro sitio/sesiones) y duración de la sesión.
+  * (Anunciantes con [[!DNL Google Analytics] integraciones](/help/search-social-commerce/admin/data-sources/data-source-about.md)): vistas de página, sesiones, tasa de salida hacia otro sitio (calculada como salidas hacia otro sitio/sesiones) y duración de la sesión.
 
-     En Search, Social y Commerce, estas métricas se incorporan automáticamente a los algoritmos de oferta de portafolios.
+    En Search, Social y Commerce, estas métricas se incorporan automáticamente a los algoritmos de oferta de portafolios.
 
 ## Opción para cargar objetivos en las redes de publicidad
 

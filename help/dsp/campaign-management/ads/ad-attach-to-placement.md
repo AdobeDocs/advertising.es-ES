@@ -3,22 +3,26 @@ title: Adjuntar y quitar anuncios de las ubicaciones
 description: Obtenga información sobre cómo adjuntar anuncios a ubicaciones y quitar anuncios de ubicaciones.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-TQID: https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU
+TQID: 'https://experienceleague.adobe.com/dimjD7vLQExGblC-J9W1e-1lK4NfF4M38TuCjwDi3lU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 # Adjuntar y quitar anuncios de las ubicaciones
 
 Puede adjuntar y eliminar anuncios de las ubicaciones.
@@ -59,27 +63,27 @@ Puede adjuntar y eliminar anuncios de las ubicaciones.
 
    * Para crear una nueva ubicación y adjuntarle el anuncio:
 
-      1. Haga clic en **[!UICONTROL Create a New Placement]**.
+     1. Haga clic en **[!UICONTROL Create a New Placement]**.
 
-      1. Escriba la [configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md) y haga clic en **[!UICONTROL Create Placement]**.
+     1. Escriba la [configuración de ubicación](/help/dsp/campaign-management/placements/placement-settings.md) y haga clic en **[!UICONTROL Create Placement]**.
 
-         El tipo de ubicación está determinado por el tipo de anuncio.
+        El tipo de ubicación está determinado por el tipo de anuncio.
 
-      1. Haga clic en **[!UICONTROL Attach ad]**.
+     1. Haga clic en **[!UICONTROL Attach ad]**.
 
-      1. Seleccione la casilla de verificación situada junto a cada anuncio para adjuntarlo a la ubicación.
+     1. Seleccione la casilla de verificación situada junto a cada anuncio para adjuntarlo a la ubicación.
 
-      1. Haga clic en **[!UICONTROL Attach Selected Ads]**.
+     1. Haga clic en **[!UICONTROL Attach Selected Ads]**.
 
    * Para adjuntar el anuncio a una ubicación existente:
 
-      1. Haga clic en **[!UICONTROL Select a Placement].**
+     1. Haga clic en **[!UICONTROL Select a Placement].**
 
-      1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL Select].**
+     1. Junto al nombre de la ubicación, haga clic en **[!UICONTROL Select].**
 
-      1. (Opcional) Para cada ubicación adicional, haga clic en **[!UICONTROL Attach To Another Placement]** y, a continuación, repita los pasos anteriores.
+     1. (Opcional) Para cada ubicación adicional, haga clic en **[!UICONTROL Attach To Another Placement]** y, a continuación, repita los pasos anteriores.
 
-      1. Haga clic en **[!UICONTROL I'm done for now]**.
+     1. Haga clic en **[!UICONTROL I'm done for now]**.
 
 ## Quitar anuncios de ubicaciones de la vista [!UICONTROL Placements] {#remove-ads-placement}
 

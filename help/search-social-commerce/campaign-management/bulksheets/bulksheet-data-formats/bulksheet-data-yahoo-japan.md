@@ -1,22 +1,26 @@
 ---
-title: Datos de hoja de edición masiva para  [!DNL LY Ads] cuentas
-description: Haga referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para  [!DNL LY Ads] cuentas.
+title: Datos de hoja de edición masiva para cuentas de [!DNL LY Ads]
+description: Haga referencia a los campos de encabezado y a los campos de datos en las hojas de edición masiva descargadas para [!DNL LY Ads] cuentas.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA
+TQID: 'https://experienceleague.adobe.com/HghB6y4AbEXvI6IrJhdxm-rpg69-ozYTIHRcPDoQ5jA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2668
-ht-degree: 0%
-
+source-wordcount: '2697'
+ht-degree: 1%
 ---
-
 # Apéndice: Datos de hojas de edición masiva para cuentas de [!DNL LY Ads]
 
 Puede descargar datos de cuentas de [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan]) de forma masiva, pero no puede cargar ni publicar hojas de edición masiva en la red de anuncios.

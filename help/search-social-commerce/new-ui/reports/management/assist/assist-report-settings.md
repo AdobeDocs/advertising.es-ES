@@ -2,13 +2,19 @@
 title: Configuración del informe de asistencia
 description: Obtenga información acerca de la configuración necesaria y opcional para los informes de asistencia.
 feature: Search Reports, Search Assist Reports
-source-git-commit: c2fde4837c4300f4e55b3591992af64630d58ba6
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
+    internal-label: Search Assist Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2055'
 ht-degree: 0%
-
 ---
-
 # Configuración del informe de asistencia
 
 *Anunciantes con seguimiento de clics de Search, Social y Commerce y con seguimiento de conversiones de Adobe Advertising, Adobe Analytics (con una integración de [!DNL Analytics]) o proporcionados en fuentes usando solo un token (`ef_id`)*
@@ -30,7 +36,7 @@ ht-degree: 0%
 |  | [!UICONTROL Indicate account name after entity name] | ([!UICONTROL Campaign Assist  Report] solamente) Incluye el nombre de cuenta de red de anuncios entre corchetes después del nombre de campaña. Ejemplo: `<campaign name> [Google Adwords] [Account1]` |
 |  | [!UICONTROL Indicate event  type after entity name] | ([!UICONTROL Campaign Assist Report] solamente) Incluye el tipo de evento entre corchetes después del nombre de la campaña. Ejemplos: `<campaign name> [click]` o `<campaign name> [Google Adwords] [Account1] [impression]` |
 | [!UICONTROL Filters] | [!UICONTROL Report Filters] | ([!UICONTROL Campaign Assist Report] solamente) Devuelve filas solamente cuando el valor de una métrica cumple los criterios especificados. No es necesario incluir la métrica como una columna en el informe. La lista de las métricas disponibles varía según el tipo de informe, pero puede incluir métricas derivadas personalizadas para el anunciante, los ID y los nombres de propiedad de cada motor de búsqueda y componente del portafolio (como [!UICONTROL Campaign ID] y [!UICONTROL Campaign Status]), métricas de conversión para el anunciante y métricas relacionadas con los clics de las redes de anuncios. Los operadores disponibles incluyen <i>[!UICONTROL contains]</i>, <i>[!UICONTROL starts with]</i>, <i>[!UICONTROL equals]</i>, <i>[!UICONTROL is greater than]</i>, <i>[!UICONTROL is greater than or equal to]</i>, <i>[!UICONTROL is less than]</i>, <i>[!UICONTROL is less than or equal to]</i> o <i>[!UICONTROL isn't equal to]</i>.<br><br>Para aplicar uno o más filtros, haga lo siguiente:<ul><li>Seleccione una métrica y un operador y, a continuación, introduzca el valor aplicable. Por ejemplo, para devolver solo palabras clave con más de 100 clics, seleccione [!UICONTROL Clicks], seleccione [!UICONTROL >] y, a continuación, escriba 100 en el campo de entrada.</li><li>(Para aplicar filtros adicionales) Para cada filtro adicional, haga clic en **[!UICONTROL +Add Filter]**, seleccione **[!UICONTROL AND]** o **[!UICONTROL OR]**, seleccione una métrica y un operador y, a continuación, introduzca el valor aplicable.</li></ul> |
-| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | (Editable solo cuando se selecciona la opción &quot;[!UICONTROL Save as template]&quot;; de lo contrario, se establece en &quot;[!UICONTROL Now]&quot;) Cuándo ejecutar el informe: <i>[!UICONTROL Now]</i> (para ejecutar el informe una vez; valor predeterminado), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Día de la semana]</i> o <i>[!UICONTROL Every Month] [Día del mes]</i>. Para todos los periodos de tiempo excepto <i>[!UICONTROL Now]</i>, seleccione la hora en la zona horaria del anunciante a partir de las 09:00 AM. |
+| [!UICONTROL Scheduling] | [!UICONTROL Frequency] | (Editable solo cuando se selecciona la opción &quot;[!UICONTROL Save as template]&quot;; de lo contrario, se establece en &quot;[!UICONTROL Now]&quot;) Cuándo ejecutar el informe: <i>[!UICONTROL Now]</i> (para ejecutar el informe una vez; valor predeterminado), <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Día de la semana]</i> o <i>[!UICONTROL Every Month] [Día del mes]</i>. Para todos los periodos de tiempo excepto <i>[!UICONTROL Now]</i>, seleccione la hora en el huso horario del anunciante a partir de las 09:00 a.m. |
 |  | [!UICONTROL Email Recipients] | <b>Nota:</b> Esta configuración solo se usa cuando las notificaciones por correo electrónico de [!UICONTROL Reports] están [habilitadas en [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>Usuarios registrados de Search, Social y Commerce a los que se enviarán notificaciones cuando se complete el informe o se cancele debido a errores. De forma predeterminada, el nombre de la cuenta de usuario está seleccionado. Si lo desea, puede agregar o eliminar usuarios con acceso a los datos del anunciante. Cuando se programa la ejecución repetida del informe, se envía una notificación cada vez que se completa el informe. |
 |  | [!UICONTROL Email Notification Format] | <b>Nota:</b> Esta configuración solo se usa cuando las notificaciones por correo electrónico de [!UICONTROL Reports] están [habilitadas en [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(Cuando se especifican [!UICONTROL Email Recipients]) Qué incluir en las notificaciones por correo electrónico de las direcciones especificadas:<ul><li><i>[!UICONTROL Notification Only]</i> (valor predeterminado): para enviar solamente una notificación de la finalización o el error del informe, sin datos adjuntos. La notificación incluye vínculos de descarga temporales para todos los formatos de informe.</li><li><i>[!UICONTROL XLS Attachment]:</i> Para incluir una copia del informe completado en formato XLS si el archivo tiene menos de 10 MB aproximadamente. Los archivos de más de 1 MB están comprimidos.</li><li><i>[!UICONTROL TSV Attachment]:</i> Para incluir una copia del informe completado en formato TSV si el archivo tiene menos de 10 MB aproximadamente. Los archivos de más de 1 MB están comprimidos.</li><li><i>[!UICONTROL CSV Attachment]:</i> Para incluir una copia del informe completado en formato CSV si el archivo tiene menos de 10 MB aproximadamente. Los archivos de más de 1 MB están comprimidos. |
 

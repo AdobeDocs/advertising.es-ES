@@ -3,21 +3,29 @@ title: Previsualización de una experiencia
 description: Obtenga información sobre cómo previsualizar los elementos creativos en una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-TQID: https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI
+TQID: 'https://experienceleague.adobe.com/E8rpr53zbyr6XCVokT1b5OprM1jwdrFhQL5oBsonZQI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '552'
 ht-degree: 0%
-
 ---
-
 # Previsualización de una experiencia
 
 Puede obtener una vista previa de los elementos creativos con un tamaño de anuncio específico que los espectadores de destino verán para una experiencia, incluidos todos los hipervínculos. En el caso de las experiencias con segmentación del árbol de decisiones, puede previsualizar un solo elemento creativo, los elementos creativos de una rama concreta (tipo de objetivo) o todos los elementos creativos de la experiencia. Para las experiencias sin segmentación del árbol de decisiones, puede previsualizar un solo elemento creativo. <!-- verify -->
@@ -26,11 +34,11 @@ Puede obtener una vista previa de los elementos creativos con un tamaño de anun
 
 * Cuando previsualiza un solo elemento creativo y varios se ajustan a los criterios, el elemento creativo que ve cada vez que actualiza la vista previa se basa en la configuración de rotación del anuncio para la experiencia:
 
-   * Para la rotación de anuncios algorítmicos, el elemento creativo se selecciona en función del objetivo de optimización.
+  * Para la rotación de anuncios algorítmicos, el elemento creativo se selecciona en función del objetivo de optimización.
 
-   * Para la rotación de anuncios programada, se muestra el primer elemento creativo de la programación. Puede seguir actualizando la vista previa para continuar con la secuencia.
+  * Para la rotación de anuncios programada, se muestra el primer elemento creativo de la programación. Puede seguir actualizando la vista previa para continuar con la secuencia.
 
-   * Para la rotación de anuncios ponderada, el creativo se selecciona en función de las ponderaciones especificadas (por ejemplo, una probabilidad del 80 % de que se muestre el Creative A y una probabilidad del 20 % de que se muestre el Creative B) cada vez.
+  * Para la rotación de anuncios ponderada, el creativo se selecciona en función de las ponderaciones especificadas (por ejemplo, una probabilidad del 80 % de que se muestre el Creative A y una probabilidad del 20 % de que se muestre el Creative B) cada vez.
 
 ## Vista previa de elementos creativos en una experiencia con segmentación en árbol de decisiones
 
@@ -48,24 +56,24 @@ Puede obtener una vista previa de los elementos creativos con un tamaño de anun
 
    * Para previsualizar un solo elemento creativo:
 
-      1. Haga clic en **[!UICONTROL Creative]**.
+     1. Haga clic en **[!UICONTROL Creative]**.
 
-      1. Seleccione el tamaño del anuncio.
+     1. Seleccione el tamaño del anuncio.
 
-      1. En la sección [!UICONTROL Decision Tree Targeting], seleccione el destino creativo.
+     1. En la sección [!UICONTROL Decision Tree Targeting], seleccione el destino creativo.
 
    * Para obtener una vista previa de los elementos creativos de una rama concreta:
 
-      1. Haga clic en **[!UICONTROL Particular branch]**.
+     1. Haga clic en **[!UICONTROL Particular branch]**.
 
-      1. Seleccione el tamaño del anuncio.
+     1. Seleccione el tamaño del anuncio.
 
      <!--
       I don't see this as of 2/3:
      1. Select whether to group the creatives by Rotation Type or Ad Size.
      -->
 
-      1. Seleccione el destinatario creativo.
+     1. Seleccione el destinatario creativo.
 
    * Para obtener una vista previa de todos los creativos de la experiencia, haga clic en **[!UICONTROL Entire Tree]**.
 

@@ -3,25 +3,31 @@ title: Especificaciones del anuncio
 description: Consulte las especificaciones generales y específicas del editor.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-TQID: https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ
+TQID: 'https://experienceleague.adobe.com/8wZ1E-VIb9WRVM3e4DpfFV-BWdhufQ-4D7-RDDRSkIQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 0%
-
+source-wordcount: '950'
+ht-degree: 1%
 ---
-
 # Especificaciones para tipos de anuncios admitidos
 
 ## Anuncios de vídeo (anuncio previo a la emisión, CTV y vídeo universal)
@@ -70,17 +76,17 @@ Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 
 * **Descubrimiento:** Consulte las [especificaciones del anuncio](/help/dsp/assets/discovery-networks-ad-specs.pdf) del descubrimiento.
 
-* **Disney (incluye Hulu):** Ver las [especificaciones del anuncio](https://www.disneyadvertising.com/mediakit/#specifications) de Disney.
+* **Disney (incl. Hulu):** Consulte las [especificaciones de anuncios de Disney](https://www.disneyadvertising.com/mediakit/#specifications).
 
 * **Máximo de HBO:** Consulte las [especificaciones del anuncio](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx) de HBO Max.
 
 * **NBCUniversal:**
 
-   * [Vídeo digital](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
+  * [Vídeo digital](https://together.nbcuni.com/nbcu-creative-guidelines/digital-video/)
 
-   * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
+  * [Livestream](https://together.nbcuni.com/nbcu-creative-guidelines/livestream/)
 
-   * [Pavo Real](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
+  * [Pavo Real](https://together.nbcuni.com/nbcu-creative-guidelines/peacock/)
 
 * **Principal:** Consulte las [especificaciones del anuncio de Paramount](https://www.paramount.com/digital-ads).
 
@@ -129,35 +135,35 @@ Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 #### Requisitos adicionales del editor
 
 * **[!DNL iHeartRadio]**
-   * Duración: 5, 15, 30 o 60 segundos
-   * Tipo de archivo: MP3
-   * Tamaño máximo de archivo: 320 kbps
-   * Volumen: 44,1 kHz
+  * Duración: 5, 15, 30 o 60 segundos
+  * Tipo de archivo: MP3
+  * Tamaño máximo de archivo: 320 kbps
+  * Volumen: 44,1 kHz
 
 * **[!DNL Pandora]**
-   * Duración: 15 o 30 segundos
-   * Tipo de archivo: MP4 (en la aplicación), MP3 (escritorio)
-   * Tamaño máximo de archivo: 2,2 MB
+  * Duración: 15 o 30 segundos
+  * Tipo de archivo: MP4 (en la aplicación), MP3 (escritorio)
+  * Tamaño máximo de archivo: 2,2 MB
 
 * **[!DNL SoundCloud]**
-   * Duración: 6, 15 o 30 segundos
-   * Tipo de archivo: MP3
-   * Tamaño máximo de archivo: 5 MB
+  * Duración: 6, 15 o 30 segundos
+  * Tipo de archivo: MP3
+  * Tamaño máximo de archivo: 5 MB
 
 * **[!DNL Spotify]**
-   * Duración: hasta 30 segundos
-   * Tipo de archivo: OGG
-   * Tamaño máximo de archivo: 500 MB
-   * Volumen: RMS normalizado a -14; dBFS pico normalizado a -0,2 dBFS
+  * Duración: hasta 30 segundos
+  * Tipo de archivo: OGG
+  * Tamaño máximo de archivo: 500 MB
+  * Volumen: RMS normalizado a -14; dBFS pico normalizado a -0,2 dBFS
 
 * **[!DNL TargetSpot]**
-   * Duración: 15, 30 o 60 segundos
-   * Tipo de archivo: MP3
+  * Duración: 15, 30 o 60 segundos
+  * Tipo de archivo: MP3
 
 * **[!DNL TuneIn]**
-   * Duración: 10, 15 o 30 segundos
-   * Tipo de archivo: MP3, OG
-   * Volumen: 44,1 kHz
+  * Duración: 10, 15 o 30 segundos
+  * Tipo de archivo: MP3, OG
+  * Volumen: 44,1 kHz
 
 ### Requisitos para los anuncios de banner complementarios (opcional)
 
@@ -166,29 +172,29 @@ Puede usar hojas de etiquetas de [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 #### Requisitos adicionales del editor
 
 * **[!DNL iHeartRadio]:**
-   * Tipo de archivo: JPEG, JPG, PNG, GIF, SWF, HTML
-   * Tamaño máximo de archivo: 2,2 MB
-   * Dimensiones: 300x250
+  * Tipo de archivo: JPEG, JPG, PNG, GIF, SWF, HTML
+  * Tamaño máximo de archivo: 2,2 MB
+  * Dimensiones: 300x250
 
 * **[!DNL Pandora]:**
-   * Tipo de archivo: JPEG, GIF
-   * Tamaño máximo de archivo: Tamaño: 100 KB
-   * Dimensiones: 300 x 250 (móvil o escritorio) o 500 x 500 (escritorio)
+  * Tipo de archivo: JPEG, GIF
+  * Tamaño máximo de archivo: Tamaño: 100 KB
+  * Dimensiones: 300 x 250 (móvil o escritorio) o 500 x 500 (escritorio)
 
 * **[!DNL SoundCloud]:**
-   * Tipo de archivo: Static JPG, PNG
-   * Tamaño máximo de archivo: menos de 400 KB
-   * Dimensiones: 1024x1024
+  * Tipo de archivo: Static JPG, PNG
+  * Tamaño máximo de archivo: menos de 400 KB
+  * Dimensiones: 1024x1024
 
 * **[!DNL Spotify]:**
-   * Tipo de archivo: Static JPG, PNG
-   * Tamaño máximo de archivo: 200 KB
-   * Dimensiones: 300x250
+  * Tipo de archivo: Static JPG, PNG
+  * Tamaño máximo de archivo: 200 KB
+  * Dimensiones: 300x250
 
 * **[!DNL TuneIn]:**
-   * Tipo de archivo: JPEG, JPG, PNG, GIF, HTML
-   * Tamaño máximo de archivo: 2 MB
-   * Dimensiones: 300x250
+  * Tipo de archivo: JPEG, JPG, PNG, GIF, HTML
+  * Tamaño máximo de archivo: 2 MB
+  * Dimensiones: 300x250
 
 ## Anuncios en pantalla nativos
 

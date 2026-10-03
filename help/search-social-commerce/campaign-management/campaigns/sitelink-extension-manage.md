@@ -3,22 +3,26 @@ title: Administrar vínculos de sitios compartidos
 description: Obtenga información sobre cómo crear y administrar extensiones de vínculos de sitios compartidos.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI
+TQID: 'https://experienceleague.adobe.com/bnKg6ySgpFF30MuE19xdHWimvAQVwvIqv1NRg-S2jTI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 928
+source-wordcount: '952'
 ht-degree: 0%
-
 ---
-
 # Administrar vínculos de sitios compartidos
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] solamente*
@@ -81,9 +85,9 @@ Para obtener directivas y motivos adicionales para la desaprobación de vínculo
 
 **[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** Texto adicional que el motor de búsqueda puede mostrar debajo del texto del vínculo. Para incluir una descripción, introduzca valores para ambos campos de descripción. Cada campo de descripción puede incluir hasta 35 caracteres de un solo byte o 17 de doble byte.
 
-**[!UICONTROL Start Date]:** (Campañas con vínculos de sitio heredados existentes o sin vínculos de sitio solamente; opcional) La primera fecha en la que se puede mostrar el vínculo de sitio con anuncios en la campaña. El valor predeterminado para los nuevos vínculos de sitio es el día actual. Para especificar una fecha de inicio futura, introduzca una fecha con el formato MM/DD/AAAA o M/D/AAAA, o bien haga clic en   y seleccione una fecha.
+**[!UICONTROL Start Date]:** (Campañas con vínculos de sitio heredados existentes o sin vínculos de sitio solamente; opcional) La primera fecha en la que se puede mostrar el vínculo de sitio con anuncios en la campaña. El valor predeterminado para los nuevos vínculos de sitio es el día actual. Para especificar una fecha de inicio futura, introduzca una fecha con el formato MM/DD/AAAA o M/D/AAAA, o bien haga clic en y seleccione una fecha.
 
-**[!UICONTROL End Date]:** (opcional) la última fecha en la que se puede mostrar el vínculo del sitio con anuncios en la campaña. De forma predeterminada, el vínculo del sitio puede mostrarse indefinidamente. Para especificar una fecha de finalización, introduzca una fecha con el formato MM/DD/AAAA o M/D/AAAA, o bien haga clic en   y seleccione una fecha.
+**[!UICONTROL End Date]:** (opcional) la última fecha en la que se puede mostrar el vínculo del sitio con anuncios en la campaña. De forma predeterminada, el vínculo del sitio puede mostrarse indefinidamente. Para especificar una fecha de finalización, introduzca una fecha con el formato MM/DD/AAAA o M/D/AAAA, o bien haga clic en y seleccione una fecha.
 
 **[!UICONTROL Mobile Preference]:** (opcional) permite que la red intente mostrar la extensión del anuncio a usuarios de dispositivos móviles en lugar de a usuarios de equipos de escritorio o tabletas. De forma predeterminada, la opción no está habilitada y la extensión de anuncio aparece en cualquier tipo de dispositivo.
 

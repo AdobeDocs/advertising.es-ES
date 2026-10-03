@@ -3,20 +3,24 @@ title: Los datos utilizados para los informes
 description: Obtenga información sobre los distintos tipos de datos disponibles en las vistas de datos y los informes personalizados.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU
+TQID: 'https://experienceleague.adobe.com/dJGj3NmyEAmXwLdTYqCURrPhiIlJzpY1XdjrBVVUsgU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 599
-ht-degree: 0%
-
+source-wordcount: '639'
+ht-degree: 6%
 ---
-
 # Los datos utilizados para los informes
 
 Search, Social y Commerce incluyen un conjunto completo de informes de rendimiento basados en datos de conversión y clics. Puede ver datos de rendimiento básicos de los distintos componentes de un portafolio o cuenta de publicidad desde las vistas [!UICONTROL Portfolios] y [!UICONTROL Campaigns], así como mediante la generación de varios informes básicos y avanzados.
@@ -27,21 +31,21 @@ La mayoría de los informes se pueden personalizar para mostrar únicamente la i
 
 * **Métricas de rendimiento estándar:**
 
-   * **[!UICONTROL Impressions]:** Número total de veces que se colocó el anuncio.
+  * **[!UICONTROL Impressions]:** Número total de veces que se colocó el anuncio.
 
-   * **[!UICONTROL Clicks]:** Número total de veces que se hizo clic en un vínculo del anuncio.
+  * **[!UICONTROL Clicks]:** Número total de veces que se hizo clic en un vínculo del anuncio.
 
-   * **[!UICONTROL Cost]:** Coste total del anuncio. El coste de la publicidad de pago por clic (PPC) es siempre el número de clics multiplicado por el coste por clic.
+  * **[!UICONTROL Cost]:** Coste total del anuncio. El coste de la publicidad de pago por clic (PPC) es siempre el número de clics multiplicado por el coste por clic.
 
-   * **[!UICONTROL Cost per Click]:** Coste promedio de un clic para un anuncio, que es el coste del anuncio dividido por el número total de clics para el anuncio. Por ejemplo, si gasta 100 USD para una impresión de publicidad y el anuncio genera 10 clics, el coste por clic es 100 USD/10=10 USD por clic.
+  * **[!UICONTROL Cost per Click]:** Coste promedio de un clic para un anuncio, que es el coste del anuncio dividido por el número total de clics para el anuncio. Por ejemplo, si gasta 100 USD en una impresión de publicidad y el anuncio genera 10 clics, el coste por clic es 100 USD/10=10 USD por clic.
 
-   * **[!UICONTROL Average Position]:** (cuando corresponda) La posición promedio de un anuncio que se ha colocado, ponderada por el número de impresiones.
+  * **[!UICONTROL Average Position]:** (cuando corresponda) La posición promedio de un anuncio que se ha colocado, ponderada por el número de impresiones.
 
-   * **[!UICONTROL Estimated Clicks]:** (Incluido en los informes avanzados para anunciantes con el servicio de seguimiento de conversión de Adobe Advertising solamente) El número total de clics estimados para una ciudad o el nombre de dominio de un sitio web de referencia. Esto puede incluir datos de redes de anuncios para las que un anunciante no tiene una cuenta publicitaria.
+  * **[!UICONTROL Estimated Clicks]:** (Incluido en los informes avanzados para anunciantes con el servicio de seguimiento de conversión de Adobe Advertising solamente) El número total de clics estimados para una ciudad o el nombre de dominio de un sitio web de referencia. Esto puede incluir datos de redes de anuncios para las que un anunciante no tiene una cuenta publicitaria.
 
 * **Métricas de conversión:** Número total de conversiones para cada una de las métricas de conversión del anunciante o datos de transacción seguidos hacia una métrica de conversión. Esto puede incluir métricas de conversión y de participación del sitio, pero no métricas calculadas y métricas calculadas avanzadas, que se sincronizan desde Adobe Analytics.
 
-  Esto también puede incluir [[!DNL Google Ads] conversiones &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) y [[!DNL Google Analytics] conversiones &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md) con seguimiento sincronizadas para la cuenta del anunciante.
+  Esto también puede incluir [[!DNL Google Ads] conversiones ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) y [[!DNL Google Analytics] conversiones ](/help/search-social-commerce/admin/data-sources/data-source-about.md) con seguimiento sincronizadas para la cuenta del anunciante.
 
 * **Métricas personalizadas:** Sus propias métricas, que se derivan de la creación de fórmulas basadas en métricas existentes (como el costo por pedido).
 
@@ -53,7 +57,7 @@ Según la regla de atribución que especifique para el informe, los datos de cad
 
 | Grupo de informes | Informe | Fechas para las que hay datos disponibles |
 | --- | --- | --- |
-| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | A partir del 15 de mayo de 2021.<br><br><b>Excepción:</b> Los datos de métricas de prominencia están disponibles a partir del 8 de septiembre de 2022. |
+| [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | A partir del 15 de mayo de 2021.<br><br><b>Excepción:</b> Los datos de métricas de prominencia estarán disponibles a partir del 8 de septiembre de 2022. |
 | | Todos los demás [!UICONTROL Basic Reports] | Los 36 meses anteriores.<br><br><b>Excepción:</b> Los datos de métricas de prominencia están disponibles a partir del 8 de septiembre de 2022. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | Los 45 días previos. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | Los dos (2) meses anteriores más el mes actual. |

@@ -2,13 +2,19 @@
 title: Configuración de cuenta del anunciante
 description: Consulte las descripciones de la configuración de anunciante disponible.
 role: User, Admin
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
-
+source-wordcount: '1035'
+ht-degree: 7%
 ---
-
 # Configuración de cuenta del anunciante
 
 *No disponible para usuarios de solo lectura*
@@ -31,15 +37,15 @@ ht-degree: 0%
 
 ### [!UICONTROL Adobe IMS IDs]
 
-Anunciantes con productos Adobe CX para empresas adicionales pueden compartir datos entre algunos productos utilizando el ID único de la organización para CX para empresas. Puede configurar integraciones de producto específicas en la sección [!UICONTROL Integrations].
+Los anunciantes con productos de Adobe CX Enterprise adicionales pueden compartir datos entre algunos productos mediante el ID único de la organización para CX Enterprise. Puede configurar integraciones de producto específicas en la sección [!UICONTROL Integrations].
 
-**[!UICONTROL Account IMS org and ID]:** (Anunciantes con productos de CX Enterprise adicionales con licencia a través de una cuenta de CX Enterprise con varios anunciantes; opcional) Identificador de organización de CX Enterprise del anunciante.
+**[!UICONTROL Account IMS org and ID]:** (Anunciantes con productos de CX Enterprise adicionales para los que se dispone de licencia a través de una cuenta de CX Enterprise con varios anunciantes; opcional) El identificador de organización de CX Enterprise del anunciante.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (Anunciantes con licencias directas para productos adicionales de CX Enterprise; opcional) Identificador de organización de CX Enterprise del anunciante.
+**[!UICONTROL Advertiser IMS org and ID]:** (Anunciantes con licencias directas para productos adicionales de CX Enterprise; opcional) El ID de organización de CX Enterprise del anunciante.
 
 ### [!UICONTROL Integrations]
 
-(Opcional) Productos adicionales de CX Enterprise vinculados a la cuenta de DSP. Los productos deben estar asociados con el mismo ID de organización empresarial de CX indicado en la sección [!UICONTROL Adobe IMS IDs].
+(Opcional) Productos adicionales de CX Enterprise vinculados a la cuenta de DSP. Los productos deben estar asociados con el mismo ID de organización de CX Enterprise proporcionado en la sección [!UICONTROL Adobe IMS IDs].
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Anunciantes con [!DNL Advertising Search, Social, & Commerce] o que utilizan píxeles de conversión de Adobe Advertising) Una cuenta de [!DNL Search, Social, & Commerce] con la que DSP intercambia datos de atribución.
 
@@ -133,19 +139,19 @@ Filtros de visibilidad de oferta previa opcionales de [!DNL DoubleVerify] y [!DN
 
 ###### Vídeo
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Con esta opción, seleccione los criterios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Con esta opción, seleccione los criterios.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Con esta opción, seleccione los criterios.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Mostrar
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con esta opción, seleccione los criterios.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Con esta opción, seleccione los criterios.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 

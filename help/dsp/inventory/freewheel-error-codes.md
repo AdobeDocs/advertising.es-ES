@@ -1,25 +1,32 @@
 ---
-title: Códigos de error para  [!DNL FreeWheel] envíos de anuncios
-description: Hacer referencia a los códigos de error devueltos para los envíos de anuncios a  [!DNL FreeWheel].
+title: Códigos de error para [!DNL FreeWheel] envíos de anuncios
+description: Hacer referencia a los códigos de error devueltos para los envíos de anuncios a [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-TQID: https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic
+TQID: 'https://experienceleague.adobe.com/z2fbEvduZZcevSEsUVLQmIpGKoZp2P2luGI1pmOrbic'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
 subfeature_v2:
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 641
+source-wordcount: '641'
 ht-degree: 3%
-
 ---
-
 # Códigos de error para [!DNL FreeWheel] envíos de anuncios
 
 Los mensajes de error para los envíos de anuncios erróneos pueden proceder de Advertising DSP o de [!DNL FreeWheel]. Buscar mensajes de error en la columna [!UICONTROL API Response] del cuadro de diálogo [[!UICONTROL FreeWheel Status]](freewheel-check-status.md).
@@ -45,8 +52,8 @@ Los mensajes de error para los envíos de anuncios erróneos pueden proceder de 
 |--- |--- |--- |--- |
 | 401 | No autorizado | Credenciales de acceso incorrectas, inexistentes o no válidas. | Póngase en contacto con el equipo de cuenta de Adobe. |
 | 403 | Prohibido | El servidor entiende la solicitud, pero se niega a autorizarla. | Póngase en contacto con el equipo de cuenta de Adobe. |
-| 404 | No encontrado | El recurso solicitado no está disponible. Si no se encuentra el ID de Creative en la operación de PUT, se devuelve un error 404. | Póngase en contacto con el equipo de cuenta de Adobe. |
-| 405 | Método no permitido | Se realizó una solicitud de un recurso mediante un método de solicitud no admitido por ese recurso (por ejemplo, mediante GET en un método que requiere que POST envíe datos, o mediante PUT en un recurso de solo lectura). | Póngase en contacto con el equipo de cuenta de Adobe. |
+| 404 | No encontrado | El recurso solicitado no está disponible. Si no se encuentra el ID de Creative en la operación PUT, se devuelve un error 404. | Póngase en contacto con el equipo de cuenta de Adobe. |
+| 405 | Método no permitido | Se realizó una solicitud de un recurso mediante un método de solicitud no admitido por ese recurso (por ejemplo, mediante GET en un método que requiere que POST envíe los datos, o mediante PUT en un recurso de solo lectura). | Póngase en contacto con el equipo de cuenta de Adobe. |
 | 408 | Tiempo de espera de solicitud | Se agotó el tiempo de espera mientras se procesaba esta solicitud. Los tiempos de espera suelen deberse a solicitudes simultáneas de acceso exclusivo a determinados recursos. | Vuelva a enviar la solicitud cuando reciba este estado. Si el problema persiste, póngase en contacto con el equipo de cuenta de Adobe. |
 | 422 | Entidad no procesable | Medio no válido. Este error se produce cuando el cuerpo de la solicitud no es válido o el recurso creado o actualizado no es válido (por ejemplo, si no se encontró el ID de acuerdo). Consulte [Errores de API 422 de FreeWheel](#freewheel-422-errors) para obtener más información. | Póngase en contacto con el equipo de cuenta de Adobe. |
 | 500 | Error interno del servidor | Error del sistema de API. | Póngase en contacto con el equipo de cuenta de Adobe. |

@@ -3,10 +3,13 @@ title: Administrar las cuentas de red de publicidad
 description: Obtenga información acerca de cómo configurar y administrar los detalles de cuenta para una cuenta de red de publicidad.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo
+TQID: 'https://experienceleague.adobe.com/k5NsG-RF8c7ELoid8lN3EMbBH8MoA0fUSRcYZnslzfo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -19,7 +22,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: f6dcfa6d3dc0255d002d90f91e700cf285fa593b
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '2136'
 ht-degree: 0%
@@ -265,7 +268,7 @@ Las cuentas que usan el rastreo de clics de Adobe Advertising deben incluir el i
 
 * **Formato S_kwcid:** (las cuentas existentes [!DNL Google Ads] para anunciantes con una integración Adobe Advertising-Adobe Analytics y para los cuales el ID de AMO (s_kwcid) aún no se ha migrado)
 
-Esta cuenta utiliza el formato heredado para el código de seguimiento de ID de AMO, que permite a Adobe Advertising compartir datos sobre la cuenta con Adobe Analytics. El [formato más reciente](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#dimension-items) incluye parámetros para el identificador de campaña y el identificador de grupo de anuncios, los cuales son necesarios para informar con precisión en los niveles de campaña y grupo de anuncios para las campañas Máximo rendimiento de [!DNL Google Ads], así como borradores y experimentos, y campañas en Analytics:
+Esta cuenta utiliza el formato heredado para el código de seguimiento de ID de AMO, que permite a Adobe Advertising compartir datos sobre la cuenta con Adobe Analytics. El [formato más reciente](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) incluye parámetros para el identificador de campaña y el identificador de grupo de anuncios, los cuales son necesarios para informar con precisión en los niveles de campaña y grupo de anuncios para las campañas Máximo rendimiento de [!DNL Google Ads], así como borradores y experimentos, y campañas en Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

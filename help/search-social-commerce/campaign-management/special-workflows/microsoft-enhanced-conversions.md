@@ -1,22 +1,31 @@
 ---
-title: Implementar  [!DNL Microsoft Advertising] conversiones mejoradas para conversiones sin conexión
-description: Obtenga información acerca del flujo de trabajo para configurar  [!DNL Microsoft Advertising] conversiones mejoradas para conversiones sin conexión.
+title: Implementar [!DNL Microsoft Advertising] conversiones mejoradas para conversiones sin conexión
+description: Obtenga información acerca del flujo de trabajo para configurar [!DNL Microsoft Advertising] conversiones mejoradas para conversiones sin conexión.
 feature: Search Campaign Management, Conversions
 exl-id: 44937db7-9e80-4a5d-85c7-5bd5febc3b96
-TQID: https://experienceleague.adobe.com/GLFczqDqV8HE5hUZt8ORAlQMNy4OqQTtMdaHoYoN10U
+TQID: 'https://experienceleague.adobe.com/GLFczqDqV8HE5hUZt8ORAlQMNy4OqQTtMdaHoYoN10U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 252
+source-wordcount: '277'
 ht-degree: 0%
-
 ---
-
 # Implementar [!DNL Microsoft Advertising] conversiones mejoradas para conversiones sin conexión
 
 *[!DNL Microsoft Advertising]solo cuentas*
@@ -27,7 +36,7 @@ En Buscar, Social y Commerce, puede:
 
 * Vea sus conversiones mejoradas existentes para conversiones sin conexión.
 
-  Search, Social y Commerce sincronizan diariamente sus conversiones mejoradas existentes a las 05:00 en el huso horario del anunciante.
+  Search, Social y Commerce sincronizan sus conversiones mejoradas existentes diariamente a las 05:00 en el huso horario del anunciante.
 
 * Cargue datos de conversión de origen y sin conexión para asignarlos a sus objetivos de conversión mejorados existentes.
 
