@@ -110,7 +110,7 @@ Los recursos de texto eliminados no se volverán a proporcionar, pero los datos 
 
 1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Remove]**.
 
-1. <!-- VERIFY -->En el mensaje de confirmación, haga clic en **[!UICONTROL Remove]**.
+1. &#x200B;<!-- VERIFY -->En el mensaje de confirmación, haga clic en **[!UICONTROL Remove]**.
 
 >[!MORELIKETHIS]
 >
