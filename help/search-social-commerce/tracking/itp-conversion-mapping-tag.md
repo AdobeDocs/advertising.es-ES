@@ -3,18 +3,21 @@ title: La etiqueta de asignación de conversión de Adobe Advertising
 description: Obtenga información acerca de la etiqueta de asignación de conversión basada en JavaScript para ITP 2.2, que permite a Adobe Advertising rastrear un evento de conversión que se produce en una página que no es la página de aterrizaje.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA
+TQID: 'https://experienceleague.adobe.com/gG9j9kbctKTam6mhevTy4jTf7f68iy26XQW5dDjd-ZA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 637
+source-wordcount: '643'
 ht-degree: 0%
-
 ---
-
 # La etiqueta de asignación de conversión de Adobe Advertising JavaScript
 
 *Anunciantes con solo seguimiento de conversión de Adobe Advertising*
@@ -27,7 +30,7 @@ Para utilizar la etiqueta de asignación de conversión:
 
 1. [Implementar la etiqueta de asignación de conversión](#deploy-conversion-mapping-tag).
 
-1. Si su organización utiliza varios ID de organización de Adobe Experience Cloud Identity Service (anteriormente denominados ID de organización de IMS), [actualice las etiquetas de conversión](#update-conversion-tags) para incluir el ID de organización.
+1. Si su organización utiliza varios ID de organización de servicio de identidad de Adobe Experience Cloud (anteriormente denominados ID de organización de IMS), [actualice las etiquetas de conversión](#update-conversion-tags) para incluir el ID de organización.
 
 1. [Valide la implementación de etiquetas](#validate-conversion-mapping).
 
@@ -49,9 +52,9 @@ Para utilizar la etiqueta de asignación de conversión:
 
   donde:
 
-   * reemplace el valor `{xxxxxx@AdobeOrg}` por el identificador de organización para el que se realiza un seguimiento de las conversiones de la página. Utilice el mismo ID de organización para todas las páginas de conversión.
+  * reemplace el valor `{xxxxxx@AdobeOrg}` por el identificador de organización para el que se realiza un seguimiento de las conversiones de la página. Utilice el mismo ID de organización para todas las páginas de conversión.
 
-   * reemplaza `{AMO User ID}` por el identificador de usuario único de su cuenta de Search, Social y Commerce.
+  * reemplaza `{AMO User ID}` por el identificador de usuario único de su cuenta de Search, Social y Commerce.
 
 * Si está usando un sistema de administración de etiquetas que no admite la adición de la variable `imsorgid` a la etiqueta de script, use el siguiente código en su lugar:
 
@@ -67,22 +70,22 @@ Para utilizar la etiqueta de asignación de conversión:
 
   donde reemplaza `{AMO User ID}` con el identificador de usuario único para su cuenta de Search, Social y Commerce.
 
-   * Si su organización utiliza varios ID de organización:
+  * Si su organización utiliza varios ID de organización:
 
-     ```
-     <script>
-     window.ad_cloud = window.ad_cloud || {};
-     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-     window.ad_cloud.userid = "{AMO User ID}"
-     </script>
-     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-     ```
+    ```
+    <script>
+    window.ad_cloud = window.ad_cloud || {};
+    window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+    window.ad_cloud.userid = "{AMO User ID}"
+    </script>
+    <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+    ```
 
-     donde:
+    donde:
 
-      * reemplace el valor `{xxxxxx@AdobeOrg}` por el identificador de organización para el que se realiza un seguimiento de las conversiones de la página. Utilice el mismo ID de organización para todas las páginas de conversión.
+    * reemplace el valor `{xxxxxx@AdobeOrg}` por el identificador de organización para el que se realiza un seguimiento de las conversiones de la página. Utilice el mismo ID de organización para todas las páginas de conversión.
 
-      * reemplaza `{AMO User ID}` por el identificador de usuario único de su cuenta de Search, Social y Commerce.
+    * reemplaza `{AMO User ID}` por el identificador de usuario único de su cuenta de Search, Social y Commerce.
 
 Si no conoce el valor de su ID de organización de o su ID de usuario de Search, Social e Commerce, pregunte al equipo de cuenta de Adobe.
 

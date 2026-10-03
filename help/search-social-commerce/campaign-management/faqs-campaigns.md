@@ -3,22 +3,28 @@ title: Preguntas frecuentes sobre campañas
 description: Consulte respuestas a preguntas sobre administración de campañas y vistas de datos de campañas.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs
+TQID: 'https://experienceleague.adobe.com/5I3xvxMaW-VmMn1UhxtTgt7O68vi--W38VNpV1fE6Rs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1585
+source-wordcount: '1601'
 ht-degree: 0%
-
 ---
-
 # Preguntas frecuentes sobre la administración de campañas
 
 ## Información general
@@ -32,7 +38,7 @@ No mueva ni copie un componente de campaña o campaña, que tenga un ID único, 
 
 El proceso de extraer los datos de clics del día anterior de los motores de búsqueda comienza a las 06:00 en la zona horaria del anunciante.
 
-Además, [!DNL Google Ads] métricas de rendimiento de nivel de campaña en la red de búsqueda del día actual se recuperan a las 08:00 y a las 16:00 de la zona horaria del anunciante.
+Además, [!DNL Google Ads] métricas de rendimiento de nivel de campaña en la red de búsqueda del día actual se recuperan a las 08:00 y a las 16:00 en el huso horario del anunciante.
 +++
 
 +++¿Qué acciones provocan que palabras clave y anuncios pierdan su historial?
@@ -106,7 +112,7 @@ En ambos casos, las direcciones URL base con seguimiento de búsqueda, medios so
 
 +++([!DNL Google Ads] campañas en la red de búsqueda) ¿Qué datos se muestran para hoy?
 
-[!DNL Google Ads] métricas de rendimiento de nivel de campaña en la red de búsqueda del día actual se recuperan a las 08:00 y a las 16:00 de la zona horaria del anunciante.
+[!DNL Google Ads] métricas de rendimiento de nivel de campaña en la red de búsqueda para el día actual se recuperan a las 08:00 y a las 16:00 en el huso horario del anunciante.
 
 En la ficha [!UICONTROL Campaigns] tanto en la vista [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] como en la vista [!UICONTROL Optimization] > [!UICONTROL Portfolios], cuando se crea un informe sobre [!UICONTROL Today] o un intervalo de fechas personalizado que incluya el día actual, los datos incluirán los datos sincronizados más recientemente.
 

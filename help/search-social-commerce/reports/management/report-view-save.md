@@ -3,20 +3,24 @@ title: Ver o guardar un informe
 description: Obtenga información sobre cómo ver un informe generado o guardarlo como archivo.
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo
+TQID: 'https://experienceleague.adobe.com/Y0jHDM-R21GGXRQi9fsVtpOUD3Rdh-JdCyLRR-gynvo'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '261'
 ht-degree: 0%
-
 ---
-
 # Ver o guardar un informe
 
 Puede ver un informe en el explorador web o abrir o guardar los datos del informe como un libro de [!DNL Microsoft Excel], un archivo de valores separados por tabulaciones (TSV), un archivo de valores separados por comas (CSV) o (algunos tipos de informes) un libro con pestañas [!DNL Microsoft Excel].
@@ -33,13 +37,13 @@ Puede ver un informe en el explorador web o abrir o guardar los datos del inform
 
    * (Para abrir o guardar los datos del informe en un archivo) En la columna [!UICONTROL Export] junto al nombre del informe, haga clic en el nombre de un formato y, a continuación, abra o guarde el archivo según el procedimiento normal del explorador:
 
-      * **[!UICONTROL XLS]:**   Para un libro [!DNL Excel] con una sola hoja de cálculo (formato XLSX). El informe incluye una hoja de cálculo etiquetada en la parte superior con los parámetros, con una fila para cada componente cuando los datos del componente están disponibles. Se omiten las filas sin datos.
+     * **[!UICONTROL XLS]:** Para un libro de [!DNL Excel] con una sola hoja de cálculo (formato XLSX). El informe incluye una hoja de cálculo etiquetada en la parte superior con los parámetros, con una fila para cada componente cuando los datos del componente están disponibles. Se omiten las filas sin datos.
 
-        Los informes básicos incluyen un total para cada columna numérica.
+       Los informes básicos incluyen un total para cada columna numérica.
 
-      * **[!UICONTROL TSV]:** Para un archivo TSV. El informe incluye los parámetros y una fila para cada componente incluido en el informe.
+     * **[!UICONTROL TSV]:** Para un archivo TSV. El informe incluye los parámetros y una fila para cada componente incluido en el informe.
 
-      * **[!UICONTROL CSV]:**   Para un archivo CSV. El informe incluye los parámetros y una fila para cada componente incluido en el informe.
+     * **[!UICONTROL CSV]:** Para un archivo CSV. El informe incluye los parámetros y una fila para cada componente incluido en el informe.
 
 >[!MORELIKETHIS]
 >

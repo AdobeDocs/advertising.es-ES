@@ -3,20 +3,24 @@ title: Ver el informe [!UICONTROL Change History]
 description: Obtenga información sobre cómo ver los cambios recientes en la cuenta del anunciante.
 exl-id: f8744da7-cc7a-49c1-aeac-1e601768f992
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/nRlvKpVQf3wbMd83plf3CQp1pPYpHVJzMVJN54lryYM
+TQID: 'https://experienceleague.adobe.com/nRlvKpVQf3wbMd83plf3CQp1pPYpHVJzMVJN54lryYM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 84eb5f060a696e057f706c0066c18c9afc1511e1
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: '546'
 ht-degree: 0%
-
 ---
-
 # Ver el informe [!UICONTROL Change History]
 
 El informe (nueva interfaz de usuario) [!UICONTROL History Logs] y (IU heredada) [!UICONTROL Change History] incluye un registro de los cambios realizados en la cuenta del anunciante en los últimos 31 días. El informe puede incluir cambios en los siguientes tipos de objetos: usuarios (anunciantes), portafolios, campañas, grupos de anuncios, anuncios, palabras clave, ubicaciones y destinos de productos. Puede ordenar y filtrar los datos por cualquier columna.
@@ -81,23 +85,23 @@ Puede descargar información adicional sobre los registros de historial del anun
 
    * (Para filtrar los datos por valor de columna) Realice una de las siguientes acciones:
 
-      * [Aplicar un filtro mediante el vínculo **[!UICONTROL Add Filter]**](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+     * [Aplicar un filtro mediante el vínculo **[!UICONTROL Add Filter]**](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-      * [Aplicar un filtro desde un menú de encabezado de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+     * [Aplicar un filtro desde un menú de encabezado de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
    * (Para cambiar el intervalo de fechas del informe) Haga lo siguiente:
 
-      1. Sobre la tabla de datos, haga clic en el intervalo de fechas actual.
+     1. Sobre la tabla de datos, haga clic en el intervalo de fechas actual.
 
-      1. Especifique el rango:
+     1. Especifique el rango:
 
-         * (Para un rango preestablecido): seleccione en la lista de incrementos de tiempo comunes. El valor predeterminado es *[!UICONTROL 2 Days Ago]*.
+        * (Para un rango preestablecido): seleccione en la lista de incrementos de tiempo comunes. El valor predeterminado es *[!UICONTROL 2 Days Ago]*.
 
-         * (Para un intervalo específico): seleccione **[!UICONTROL Custom Date Range]** y, a continuación, especifique la fecha inicial y la fecha final.
+        * (Para un intervalo específico): seleccione **[!UICONTROL Custom Date Range]** y, a continuación, especifique la fecha inicial y la fecha final.
 
-           Introduzca las fechas en formato MM/DD/AAAA o MM-DD-AAAA, o haga clic en ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") junto a cada campo para abrir el calendario y seleccionar una fecha. Solo se pueden incluir datos de los 31 días anteriores.
+          Introduzca las fechas en formato MM/DD/AAAA o MM-DD-AAAA, o haga clic en ![Calendario](/help/search-social-commerce/assets/calendar.png "Calendario") junto a cada campo para abrir el calendario y seleccionar una fecha. Solo se pueden incluir datos de los 31 días anteriores.
 
-      1. Haga clic en **[!UICONTROL Apply]**.
+     1. Haga clic en **[!UICONTROL Apply]**.
 
 1. (Opcional) Descargue una copia del informe:
 

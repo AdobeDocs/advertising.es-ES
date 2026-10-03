@@ -3,13 +3,17 @@ title: Adjuntar y eliminar píxeles de anuncios
 description: Aprenda a adjuntar y eliminar píxeles de seguimiento de terceros de los anuncios.
 feature: DSP Ads
 exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
-source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 # Adjuntar y eliminar píxeles de anuncios
 
 Puede adjuntar y desasociar píxeles de seguimiento de terceros de los anuncios.

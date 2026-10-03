@@ -1,20 +1,23 @@
 ---
 title: Habilitar sincronización de inventario adicional
-description: Aprenda a sincronizar  [!DNL YouTube] campañas y [!DNL Google Ads] y [!DNL Microsoft Advertising] campañas de compras inteligentes.
+description: Obtenga información sobre cómo sincronizar [!DNL YouTube] campañas y [!DNL Google Ads] y [!DNL Microsoft Advertising] campañas de compras inteligentes.
 exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/hxyvi5BO0tnWIJ2FGjqX5kjyg-r2ga3TZ5iqGHKWddU
+TQID: 'https://experienceleague.adobe.com/hxyvi5BO0tnWIJ2FGjqX5kjyg-r2ga3TZ5iqGHKWddU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 140
+source-wordcount: '141'
 ht-degree: 4%
-
 ---
-
 # Habilitar sincronización de inventario adicional
 
 Puede habilitar y deshabilitar la sincronización de [!DNL Google Ads] [!DNL YouTube] campañas y [!DNL Google Ads] y [!DNL Microsoft Advertising] campañas de compras inteligentes, para las cuales hay menos compatibilidad disponible que otros tipos de campañas. Para obtener más información acerca de la funcionalidad disponible para estos tipos de campaña, consulte &quot;[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md)&quot;.

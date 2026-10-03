@@ -3,22 +3,26 @@ title: Crear una audiencia reutilizable
 description: Obtenga información sobre cómo crear audiencias reutilizables compuestas de segmentos de audiencia y otras audiencias guardadas. Si lo desea, puede utilizar un agente de audiencia asistido por IA para describir la audiencia de destino en mensajes en lenguaje natural; el agente sugiere segmentos de terceros y crea expresiones de audiencia para utilizarlas como objetivos o exclusiones.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-TQID: https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ
+TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
 subfeature_v2:
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: a4b509995f362ed81e00485409b0c729b5130e35
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1667
+source-wordcount: '1667'
 ht-degree: 0%
-
 ---
-
 # Crear una audiencia reutilizable
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
@@ -57,49 +61,49 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 
    * Para crear manualmente la lógica del segmento, mediante los segmentos disponibles en las fichas [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] y [!UICONTROL Saved Audiences]](audience-settings.md), haga lo siguiente.
 
-      * (Opcional) Busque un nombre de segmento, una descripción o una ruta.
+     * (Opcional) Busque un nombre de segmento, una descripción o una ruta.
 
-        Los resultados de la búsqueda incluyen segmentos basados en los términos exactos que utilice. Cuando introduce varios términos, se deben encontrar todos para un segmento.
+       Los resultados de la búsqueda incluyen segmentos basados en los términos exactos que utilice. Cuando introduce varios términos, se deben encontrar todos para un segmento.
 
-      * Para añadir el primer segmento, localícelo en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
+     * Para añadir el primer segmento, localícelo en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
 
-      * Para agregar un segmento a un grupo de segmentos existente:
+     * Para agregar un segmento a un grupo de segmentos existente:
 
-         1. Haga clic en el grupo de segmentos en el panel derecho.
+       1. Haga clic en el grupo de segmentos en el panel derecho.
 
-         1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
+       1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
 
-            *[!UICONTROL Exclude All]* no está disponible para el primer grupo de segmentos. Para una audiencia que incluya solo exclusiones, genere esta audiencia como *[!UICONTROL Include Any]* y luego, dentro de una ubicación, seleccione esa audiencia en el menú Audiencias excluidas.
+          *[!UICONTROL Exclude All]* no está disponible para el primer grupo de segmentos. Para una audiencia que incluya solo exclusiones, genere esta audiencia como *[!UICONTROL Include Any]* y luego, dentro de una ubicación, seleccione esa audiencia en el menú Audiencias excluidas.
 
-         1. Busque el nuevo segmento en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
+       1. Busque el nuevo segmento en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
 
-            El grupo de segmentos se actualiza automáticamente con el nuevo segmento.
+          El grupo de segmentos se actualiza automáticamente con el nuevo segmento.
 
-      * Para agregar un nuevo grupo de segmentos:
+     * Para agregar un nuevo grupo de segmentos:
 
-         1. Haga clic en **[!UICONTROL + New Group]** en el panel derecho.
+       1. Haga clic en **[!UICONTROL + New Group]** en el panel derecho.
 
-            1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a *[!UICONTROL And]* o *[!UICONTROL Or]*, según sea necesario.
+          1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a *[!UICONTROL And]* o *[!UICONTROL Or]*, según sea necesario.
 
-            1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
+          1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
 
-            1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
+          1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
 
    * Para usar la lógica de segmento de una audiencia existente:
 
-      1. Copie la lógica de segmento de la audiencia existente de cualquiera de las siguientes maneras:
+     1. Copie la lógica de segmento de la audiencia existente de cualquiera de las siguientes maneras:
 
-         * En la vista Todas las audiencias, mantenga el cursor sobre la fila de audiencias y haga clic en **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * En la vista Todas las audiencias, mantenga el cursor sobre la fila de audiencias y haga clic en **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * En la configuración de la audiencia existente, en la parte superior del panel de lógica de segmento, haga clic en **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
+        * En la configuración de la audiencia existente, en la parte superior del panel de lógica de segmento, haga clic en **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * En un editor de texto, cree manualmente la lógica del segmento usando ID de segmento alfanuméricos y [sintaxis booleana](audience-segment-logic-syntax.md), y cópielo en el portapapeles.
+        * En un editor de texto, cree manualmente la lógica del segmento usando ID de segmento alfanuméricos y [sintaxis booleana](audience-segment-logic-syntax.md), y cópielo en el portapapeles.
 
-      1. Haga clic en **[!UICONTROL paste in an audience rule to begin building]**, pegue la lógica de segmento existente en el campo de entrada y, a continuación, haga clic en **[!UICONTROL Apply]**.
+     1. Haga clic en **[!UICONTROL paste in an audience rule to begin building]**, pegue la lógica de segmento existente en el campo de entrada y, a continuación, haga clic en **[!UICONTROL Apply]**.
 
-         >[!NOTE]
-         >
-         >Si la audiencia ya incluye cualquier lógica de segmento, al pegar la nueva lógica de segmento se sobrescribe la lógica existente.
+        >[!NOTE]
+        >
+        >Si la audiencia ya incluye cualquier lógica de segmento, al pegar la nueva lógica de segmento se sobrescribe la lógica existente.
 
 1. Haga clic en **[!UICONTROL Create]**.
 
@@ -161,11 +165,11 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 
 * Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
 
-   * Puede introducir frases completas o solo una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
+  * Puede introducir frases completas o solo una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
 
-   * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
+  * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
 
-   * El agente de audiencia reconoce los sinónimos más comunes.
+  * El agente de audiencia reconoce los sinónimos más comunes.
 
 * Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Cuantos más detalles proporcione, mayores serán las posibilidades de obtener los resultados que satisfagan sus necesidades.
 

@@ -2,13 +2,17 @@
 title: (Nueva IU) Acceso FTP a los informes
 description: Obtenga información sobre cómo recibir informes en una ubicación FTP de solo lectura.
 feature: Search Reports
-source-git-commit: 639037683053009ce653dee6d7c1e4eb80abf4d8
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
-
 ---
-
 # (Nueva IU) Acceso FTP a los informes
 
 Si lo desea, puede recibir informes en una ubicación FTP de solo lectura, desde la que podrá recuperar los archivos para procesos automatizados adicionales (por ejemplo, para analizar los datos con otro programa). Todos los informes básicos excepto [!UICONTROL Search Engine Account Report] y todos los informes avanzados se pueden enviar a una ubicación FTP como archivos TSV comprimidos (valor predeterminado) o archivos CSV, con la extensión de archivo .ZIP. Se incluyen los encabezados de archivo TSV o CSV y no se pueden suprimir.
@@ -35,11 +39,11 @@ Para generar informes en el directorio FTP designado, cree una [plantilla de inf
 
    * (Opcional) Cualquiera de las tres fechas del sistema, utilizando la siguiente sintaxis que distingue entre mayúsculas y minúsculas, incluidos los corchetes:
 
-      * `[TODAY]`: para incluir la fecha, hora y minuto en que se ejecutó el informe. Como esto incluye la hora exacta, la misma plantilla se puede ejecutar varias veces al día sin sobrescribir el informe anterior.
+     * `[TODAY]`: para incluir la fecha, hora y minuto en que se ejecutó el informe. Como esto incluye la hora exacta, la misma plantilla se puede ejecutar varias veces al día sin sobrescribir el informe anterior.
 
-      * `[SDATE]`: para incluir la fecha de inicio del intervalo de fechas del informe.
+     * `[SDATE]`: para incluir la fecha de inicio del intervalo de fechas del informe.
 
-      * `[EDATE]`: para incluir la fecha de finalización del intervalo de fechas del informe.
+     * `[EDATE]`: para incluir la fecha de finalización del intervalo de fechas del informe.
 
    * (Opcional) `[CSV]` (en letras mayúsculas y entre corchetes) para crear archivos en formato CSV en lugar del formato TSV predeterminado.
 

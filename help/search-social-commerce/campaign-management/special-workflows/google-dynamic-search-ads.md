@@ -1,20 +1,23 @@
 ---
-title: Implementar  [!DNL Google Ads] anuncios dinámicos de búsqueda
-description: Obtenga información acerca del flujo de trabajo para configurar  [!DNL Google Ads] anuncios dinámicos de búsqueda.
+title: Implementar [!DNL Google Ads] anuncios dinámicos de búsqueda
+description: Obtenga información acerca del flujo de trabajo para configurar [!DNL Google Ads] anuncios dinámicos de búsqueda.
 exl-id: 69e5069f-3f82-4ee3-841a-0c1292677223
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE
+TQID: 'https://experienceleague.adobe.com/2HsYFUdcvlEr9-LZHMtgS07jZ5A0DOMEj-byGZlf6aE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # Implementar [!DNL Google Ads] anuncios dinámicos de búsqueda
 
 *[!DNL Google Ads]campañas de solo búsqueda con solo seguimiento a nivel creativo o de palabras clave y nivel creativo*
@@ -62,7 +65,7 @@ Puede configurar anuncios dinámicos de búsqueda ya sea de forma individual o m
 1. [Cree cada anuncio de búsqueda dinámica](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) dentro del grupo de anuncios.
 
    [!DNL Google Ads] genera dinámicamente el titular, la dirección URL para mostrar y la dirección URL de la página de aterrizaje para cada anuncio. Si lo desea, puede agregar redirecciones y seguimiento a la plantilla de seguimiento de nivel de anuncio, que anula las plantillas de seguimiento en niveles superiores.
-Si desea anular cualquier seguimiento de Adobe Analytics en niveles superiores con seguimiento de nivel de anuncio, agréguelo aquí. Véanse los pasos 1e y 2c.
+   Si desea anular cualquier seguimiento de Adobe Analytics en niveles superiores con seguimiento de nivel de anuncio, agréguelo aquí. Véanse los pasos 1e y 2c.
 
 1. (Necesario cuando no se incluyen el dominio raíz y el idioma del dominio en la sección Opciones de DSA de la configuración de campaña; opcional en caso contrario) Cree [destinos de búsqueda dinámica](/help/search-social-commerce/campaign-management/campaigns/dynamic-search-target-manage.md) para el grupo de anuncios. Si lo desea, puede anular la oferta en el nivel de grupo de anuncios con ofertas en el nivel de destino.
 

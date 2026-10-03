@@ -3,20 +3,26 @@ title: Añadir un nodo de destino al nivel final de una experiencia
 description: Obtenga información sobre cómo añadir un nodo de destino al nivel de destino final de una experiencia publicitaria.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-TQID: https://experienceleague.adobe.com/1T0Jwc8noxF-uaTA2cN78uOBsgHDjSnoD9Scmmw4L3s
+TQID: 'https://experienceleague.adobe.com/1T0Jwc8noxF-uaTA2cN78uOBsgHDjSnoD9Scmmw4L3s'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 824
+source-wordcount: '829'
 ht-degree: 0%
-
 ---
-
 # Añadir un nodo de destino al nivel final de una experiencia
 
 *Solo experiencias con direccionamiento en árbol de decisiones*
@@ -35,45 +41,45 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 
    * Para los destinos de audiencia, seleccione **[!UICONTROL Audience]**, haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Audience Targeting] y, a continuación, haga lo siguiente:
 
-      * Para añadir el primer segmento, localícelo en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
+     * Para añadir el primer segmento, localícelo en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
 
-      * Para agregar un segmento a un grupo de segmentos existente:
+     * Para agregar un segmento a un grupo de segmentos existente:
 
-         1. Haga clic en el grupo de segmentos en el panel derecho.
+       1. Haga clic en el grupo de segmentos en el panel derecho.
 
-         1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
+       1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
 
-            *[!UICONTROL Exclude All]* no está disponible para el primer grupo de segmentos. Para una audiencia que incluya solo exclusiones, genere esta audiencia como *[!UICONTROL Include Any]* y luego excluya esa audiencia cuando la agregue a una ubicación dentro de su DSP.
+          *[!UICONTROL Exclude All]* no está disponible para el primer grupo de segmentos. Para una audiencia que incluya solo exclusiones, genere esta audiencia como *[!UICONTROL Include Any]* y luego excluya esa audiencia cuando la agregue a una ubicación dentro de su DSP.
 
-         1. Busque el nuevo segmento en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
+       1. Busque el nuevo segmento en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
 
-            El grupo de segmentos se actualiza automáticamente con el nuevo segmento.
+          El grupo de segmentos se actualiza automáticamente con el nuevo segmento.
 
-      * Para agregar un nuevo grupo de segmentos:
+     * Para agregar un nuevo grupo de segmentos:
 
-         1. Haga clic en **[!UICONTROL + New Group]** en el panel derecho.
+       1. Haga clic en **[!UICONTROL + New Group]** en el panel derecho.
 
-         1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a *[!UICONTROL And]* o *[!UICONTROL Or]*, según sea necesario.
+       1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a *[!UICONTROL And]* o *[!UICONTROL Or]*, según sea necesario.
 
-         1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
+       1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
 
-         1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
+       1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
 
-      1. Haga clic en **[!UICONTROL Create]**.
+     1. Haga clic en **[!UICONTROL Create]**.
 
-      1. Haga clic en **[!UICONTROL Apply]**.
+     1. Haga clic en **[!UICONTROL Apply]**.
 
    * Para los destinos geográficos, seleccione una sola categoría geográfica (como [!UICONTROL Geo: Country]) y, a continuación, haga lo siguiente:
 
-      1. Haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Geo Targeting], especificar uno o varios destinos geográficos y, a continuación, haga clic en **[!UICONTROL Save]**.
+     1. Haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Geo Targeting], especificar uno o varios destinos geográficos y, a continuación, haga clic en **[!UICONTROL Save]**.
 
-         Los destinos de código postal tienen opciones de edición masiva. Para pegar varios códigos postales, haga clic en la ficha **[!UICONTROL Paste postal codes]**, seleccione el país, pegue o escriba códigos postales separados por comas o en líneas independientes y, a continuación, haga clic en **[!UICONTROL Include All]**. Para quitar un destino de código postal incluido, mantenga el cursor sobre el destino y haga clic en ![Quitar](/help/creative/assets/delete.png "Quitar") **[!UICONTROL Remove]**.
+        Los destinos de código postal tienen opciones de edición masiva. Para pegar varios códigos postales, haga clic en la ficha **[!UICONTROL Paste postal codes]**, seleccione el país, pegue o escriba códigos postales separados por comas o en líneas independientes y, a continuación, haga clic en **[!UICONTROL Include All]**. Para quitar un destino de código postal incluido, mantenga el cursor sobre el destino y haga clic en ![Quitar](/help/creative/assets/delete.png "Quitar") **[!UICONTROL Remove]**.
 
-      1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
+     1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-         Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
+        Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
 
-      1. Haga clic en **[!UICONTROL Apply]**.
+     1. Haga clic en **[!UICONTROL Apply]**.
 
    * Para un destino de paso de datos, seleccione **[!UICONTROL Data Pass]**; si lo desea, personalice la clave de paso de datos, escriba un único valor de paso de datos y haga clic en **[!UICONTROL Apply]**.
 
@@ -85,13 +91,13 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 
    * Para los destinos de dispositivo, haga lo siguiente:
 
-      1. Seleccione una sola categoría de destino (**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** o **[!UICONTROL Device: Browser]**) y, a continuación, seleccione los destinos.
+     1. Seleccione una sola categoría de destino (**[!UICONTROL Device: Type]**, **[!UICONTROL Device: OS]** o **[!UICONTROL Device: Browser]**) y, a continuación, seleccione los destinos.
 
-      1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
+     1. (Opcional) Para crear varios nodos de destino cuando se especifiquen varios destinos geográficos, seleccione **[!UICONTROL Split targets to create nodes]**.
 
-         Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
+        Esta función crea un nodo de destino independiente (con paquetes creativos independientes) para cada destino geográfico especificado. Si no divide los destinos, el usuario debe pertenecer a todas las ubicaciones especificadas (una instrucción [!DNL Boolean] `AND`).
 
-      1. Haga clic en **[!UICONTROL Apply]**.
+     1. Haga clic en **[!UICONTROL Apply]**.
 
 1. (Opcional) Especifique un nombre de rama personalizado para una rama definida por el usuario.
 
@@ -109,17 +115,17 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 
    * (Opcional) Para guardar la experiencia:
 
-      1. Haga clic en **[!UICONTROL Save]** y luego en **[!UICONTROL OK]**.
+     1. Haga clic en **[!UICONTROL Save]** y luego en **[!UICONTROL OK]**.
 
-      1. (Si cada nodo del nivel más bajo no incluye al menos un elemento creativo): Realice una de las siguientes acciones:
+     1. (Si cada nodo del nivel más bajo no incluye al menos un elemento creativo): Realice una de las siguientes acciones:
 
-         * Para guardar la experiencia sin todos los paquetes creativos necesarios, haga clic en **[!UICONTROL Save as Draft]**.
+        * Para guardar la experiencia sin todos los paquetes creativos necesarios, haga clic en **[!UICONTROL Save as Draft]**.
 
-           No se puede crear una etiqueta de anuncio para una experiencia de borrador.
+          No se puede crear una etiqueta de anuncio para una experiencia de borrador.
 
-         * Para asignar el elemento creativo predeterminado a cada destino al que aún no se le haya asignado un paquete creativo, haga clic en **[!UICONTROL Assign Default Creatives]**. Después de revisar el árbol actualizado con los elementos creativos predeterminados asignados, haga clic en **[!UICONTROL Save]** y **[!UICONTROL OK]**.
+        * Para asignar el elemento creativo predeterminado a cada destino al que aún no se le haya asignado un paquete creativo, haga clic en **[!UICONTROL Assign Default Creatives]**. Después de revisar el árbol actualizado con los elementos creativos predeterminados asignados, haga clic en **[!UICONTROL Save]** y **[!UICONTROL OK]**.
 
-         * Para continuar editando el árbol de decisión, haga clic en **[!UICONTROL Continue Edit]**.
+        * Para continuar editando el árbol de decisión, haga clic en **[!UICONTROL Continue Edit]**.
 
 >[!MORELIKETHIS]
 >

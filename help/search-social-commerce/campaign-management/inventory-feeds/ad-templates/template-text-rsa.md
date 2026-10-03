@@ -3,21 +3,26 @@ title: Configuración de anuncios de texto y plantillas de anuncios de búsqueda
 description: Haga referencia a la configuración de las plantillas de anuncios de búsqueda interactivos y de anuncios de texto para las fuentes de inventario.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY
+TQID: 'https://experienceleague.adobe.com/ECmtczHqzO5JyR--JWgKQYReKLTohbrJlvhbBGUNOLY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Taxonomy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 3437
+source-wordcount: '3437'
 ht-degree: 0%
-
 ---
-
 # Configuración de anuncios de texto y plantillas de anuncios de búsqueda adaptables para fuentes de inventario
 
 *[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
@@ -77,11 +82,11 @@ Cuando no se encuentran coincidencias, se omiten todos los datos de la campaña.
 
 * Para incrustar la dirección URL final:
 
-   * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799/2) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799/2) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] solamente) Use el parámetro `!{unescapedurl}` para indicar la dirección URL de la página de aterrizaje.
+  * ([!DNL LY Ads] solamente) Use el parámetro `!{unescapedurl}` para indicar la dirección URL de la página de aterrizaje.
 
-   * Si lo desea, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separados por el símbolo &quot;et&quot; (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
+  * Si lo desea, puede incluir parámetros de URL y cualquier parámetro personalizado definido para la campaña, separados por el símbolo &quot;et&quot; (&amp;), como `{lpurl}?matchtype={matchtype}&device={device}`.
 
 * Para redirecciones y seguimiento de terceros, introduzca un valor.
 
@@ -179,17 +184,17 @@ Para insertar un nombre de columna o un grupo de modificadores como parámetro d
 
 * Para las plantillas [!DNL Google Ads], [!DNL LY Ads] y [!DNL Microsoft Advertising]:
 
-   * Para parámetros dinámicos: Coincidencia amplia = `[keyword]`, Modificador de coincidencia amplia para el primer término de la columna [!UICONTROL Keyword] (como +zapatos de ante azul) = `+[keyword]`, Modificador de coincidencia amplia para cada término de la columna Palabra clave (como +azul +ante +zapatos) = `+[keyword]+`, Coincidencia de frase = `"[keyword]"`, Coincidencia exacta = `[[keyword]]`
+  * Para parámetros dinámicos: Coincidencia amplia = `[keyword]`, Modificador de coincidencia amplia para el primer término de la columna [!UICONTROL Keyword] (como +zapatos de ante azul) = `+[keyword]`, Modificador de coincidencia amplia para cada término de la columna Palabra clave (como +azul +ante +zapatos) = `+[keyword]+`, Coincidencia de frase = `"[keyword]"`, Coincidencia exacta = `[[keyword]]`
 
-   * Para palabras clave estáticas: Coincidencia amplia = `keyword`, Modificador de coincidencia amplia = `+keyword` o Coincidencia de frase = `"keyword"`
+  * Para palabras clave estáticas: Coincidencia amplia = `keyword`, Modificador de coincidencia amplia = `+keyword` o Coincidencia de frase = `"keyword"`
 
-     Aquí no se pueden escribir palabras clave estáticas con coincidencia exacta y sintaxis de coincidencia estándar porque están encerradas entre corchetes (`[]`), como los parámetros dinámicos.
+    Aquí no se pueden escribir palabras clave estáticas con coincidencia exacta y sintaxis de coincidencia estándar porque están encerradas entre corchetes (`[]`), como los parámetros dinámicos.
 
 * Para [!DNL Yandex] plantillas:
 
-   * Para parámetros dinámicos: inserte el nombre de columna, como `[keyword]`. Para indicar el tipo de coincidencia, use la sintaxis [[!DNL Yandex] específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Nota:** Para términos de coincidencia amplia, use la siguiente sintaxis: Modificador de coincidencia amplia para el primer término de la columna Palabra clave (como +zapatos de ante azul) = `+[keyword]`, Modificador de coincidencia amplia para cada término de la columna Palabra clave (como +azul +ante +zapatos) = `+[keyword]+`
+  * Para parámetros dinámicos: inserte el nombre de columna, como `[keyword]`. Para indicar el tipo de coincidencia, use la sintaxis [[!DNL Yandex] específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html). **Nota:** Para términos de coincidencia amplia, use la siguiente sintaxis: Modificador de coincidencia amplia para el primer término de la columna Palabra clave (como +zapatos de ante azul) = `+[keyword]`, Modificador de coincidencia amplia para cada término de la columna Palabra clave (como +azul +ante +zapatos) = `+[keyword]+`
 
-   * Para palabras clave estáticas: solo se admiten palabras clave de búsqueda. Use la sintaxis [[!DNL Yandex]-específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html) para la palabra clave. No se admiten corchetes (`[]`) para indicar el orden de las palabras.
+  * Para palabras clave estáticas: solo se admiten palabras clave de búsqueda. Use la sintaxis [[!DNL Yandex]-específica](https://yandex.com/support/direct/keywords/symbols-and-operators.html) para la palabra clave. No se admiten corchetes (`[]`) para indicar el orden de las palabras.
 
 >[!NOTE]
 >
@@ -217,9 +222,9 @@ Si usa una fuente de [!DNL Google Merchant Center] e incluye este valor en la co
 
 * Para indicar la dirección URL de la página de aterrizaje:
 
-   * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
+  * ([!DNL Google Ads] y [!DNL Microsoft Advertising] solamente) Para obtener una lista de parámetros que indiquen las direcciones URL finales en las plantillas de seguimiento, vea la ([!DNL Microsoft Advertising] solamente) [[!DNL Microsoft Advertising] documentación](https://help.ads.microsoft.com/#apex/3/en/56799) o ([!DNL Google Ads] solamente) los parámetros &quot;Solo plantilla de seguimiento&quot; en la sección &quot;Parámetros disponibles [!DNL ValueTrack]&quot; en la [[!DNL Google Ads] documentación](https://support.google.com/google-ads/answer/6305348).
 
-   * ([!DNL LY Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
+  * ([!DNL LY Ads] solamente) Use el parámetro `!{lpurl}` para indicar la dirección URL de la página de aterrizaje.
 
 **[!UICONTROL Param 1]**, **[!UICONTROL Param 2]\[[!DNL Google Ads] plantillas\]:** ([!DNL Google Ads] plantillas solamente) La columna del archivo especificado que representa la variable [!DNL Google Ads] `{param1}` o `{param2}`, que puede incluir en la copia de anuncio o en la URL para mostrar de cualquier anuncio creado a partir de la plantilla. Para insertar el parámetro dinámico, haga clic en el campo de entrada y, a continuación, haga clic en un nombre de columna en la lista de columnas. El nombre de la columna se sustituye por los datos reales cuando el archivo de fuente se propaga a través de la plantilla.
 
@@ -237,19 +242,19 @@ Los campos de datos del archivo de fuente pueden tener un máximo de 25 caracter
 
 * (Cuando no utiliza el parámetro &quot;[!UICONTROL Apply to Existing Keywords: Min]&quot;):
 
-   * El valor puede ir precedido o anexado con un símbolo de moneda o código. Por ejemplo, 2.000,00 £ y 2000 GBP son válidos.
+  * El valor puede ir precedido o anexado con un símbolo de moneda o código. Por ejemplo, 2.000,00 £ y 2000 GBP son válidos.
 
-   * El valor puede incluir una coma (,) o un punto (.) como separador, con un punto opcional (.) o una coma (,) para valores fraccionarios. Por ejemplo, 1 000,00 y 2 000,10 son válidos.
+  * El valor puede incluir una coma (,) o un punto (.) como separador, con un punto opcional (.) o una coma (,) para valores fraccionarios. Por ejemplo, 1 000,00 y 2 000,10 son válidos.
 
-   * Al valor se le puede agregar un prefijo o un signo de porcentaje (%), un signo más (+) o un signo menos (-). Por ejemplo, 20%, 208+ y -42,32 son válidos.
+  * Al valor se le puede agregar un prefijo o un signo de porcentaje (%), un signo más (+) o un signo menos (-). Por ejemplo, 20%, 208+ y -42,32 son válidos.
 
-   * Se pueden incrustar dos números con una barra diagonal. Por ejemplo, 4/1 y 0.95/0.45 son válidos.
+  * Se pueden incrustar dos números con una barra diagonal. Por ejemplo, 4/1 y 0.95/0.45 son válidos.
 
 **[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] plantillas\]:** ([!DNL Microsoft Advertising] plantillas solamente) La cadena que se usará como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contiene la cadena de sustitución dinámica `{Param2}`. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos publicitarios en los que la utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] plantillas solamente) La cadena que se va a usar como valor de sustitución en un anuncio si el título, el texto, la URL para mostrar o la URL final contiene la cadena de sustitución dinámica `{Param3}`. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos publicitarios en los que la utiliza (por ejemplo, un título de anuncio puede incluir hasta 25 caracteres).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** La oferta inicial para cada palabra clave con el tipo de coincidencia o tipo de anuncio especificado.
 
 ## [!UICONTROL Ads]
 
@@ -368,19 +373,19 @@ Para redirecciones y seguimiento de terceros, introduzca un valor. Para indicar 
 
    * Para cada clasificación de etiqueta y valor que asignar al componente, haga lo siguiente:
 
-      1. Haga clic en **[!UICONTROL Add Label Classification]**.
+     1. Haga clic en **[!UICONTROL Add Label Classification]**.
 
-      1. Seleccione la clasificación de etiquetas existente y, a continuación, seleccione un valor existente o introduzca un nuevo valor.
+     1. Seleccione la clasificación de etiquetas existente y, a continuación, seleccione un valor existente o introduzca un nuevo valor.
 
-         La longitud máxima de cada valor es de 100 caracteres, y puede incluir caracteres ASCII y no ASCII.
+        La longitud máxima de cada valor es de 100 caracteres, y puede incluir caracteres ASCII y no ASCII.
 
-         Para insertar un nombre de columna como parámetro dinámico para un valor de clasificación de etiqueta, haga clic en el campo de entrada (el segundo campo) y, a continuación, haga clic en un nombre de columna en la lista de columnas.
+        Para insertar un nombre de columna como parámetro dinámico para un valor de clasificación de etiqueta, haga clic en el campo de entrada (el segundo campo) y, a continuación, haga clic en un nombre de columna en la lista de columnas.
 
-         Solo puede incluir un valor por clasificación por componente de campaña. Por ejemplo, una campaña puede tener Color=Rojo pero no Color=Rojo y Color=Azul.
+        Solo puede incluir un valor por clasificación por componente de campaña. Por ejemplo, una campaña puede tener Color=Rojo pero no Color=Rojo y Color=Azul.
 
-         * Para cambiar un valor de clasificación de etiquetas existente, seleccione o introduzca un nuevo valor.
+        * Para cambiar un valor de clasificación de etiquetas existente, seleccione o introduzca un nuevo valor.
 
-         * Para quitar un valor de clasificación de etiquetas existente, haga clic en **[!UICONTROL X]** junto al valor.
+        * Para quitar un valor de clasificación de etiquetas existente, haga clic en **[!UICONTROL X]** junto al valor.
 
 ## [!UICONTROL Feed Filters]
 

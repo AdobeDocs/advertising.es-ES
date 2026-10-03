@@ -3,22 +3,26 @@ title: Configuración nativa del anuncio en pantalla
 description: Consulte las descripciones de la configuración de anuncios disponibles para los anuncios en pantalla nativos.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-TQID: https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ
+TQID: 'https://experienceleague.adobe.com/e8QS9qdzTGrlRMjbgvQDZEhlsh4BdYZ-tJ6b7D-cGfQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: '224'
 ht-degree: 0%
-
 ---
-
 # Configuración nativa del anuncio en pantalla
 
 ## [!UICONTROL Ad Options]
@@ -47,7 +51,7 @@ ht-degree: 0%
 
 **[!UICONTROL Call to Action]:** (opcional) el paso que desea que sigan los espectadores una vez que vean este anuncio.
 
-**[!UICONTROL Advertiser Logo]:** (opcional) un logotipo con una relación de 1:1 que se incluirá en el anuncio para obtener más reconocimiento de marca. Haga clic en **[!UICONTROL Browse]**, busque el archivo en su dispositivo o red y, a continuación, haga clic en **[!UICONTROL Upload]**.
+**[!UICONTROL Advertiser Logo]:** (opcional) un logotipo con una relación de 1:1 que se incluirá en el anuncio para lograr un mayor reconocimiento de la marca. Haga clic en **[!UICONTROL Browse]**, busque el archivo en su dispositivo o red y, a continuación, haga clic en **[!UICONTROL Upload]**.
 
 ### [!UICONTROL Pixel]
 

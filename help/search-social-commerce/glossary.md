@@ -3,21 +3,26 @@ title: Glosario
 description: Consulte las definiciones de términos clave.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw
+TQID: 'https://experienceleague.adobe.com/aJc98oWlKlYx5ROezUwJsIsw46xcad1rKQTqoXhyggw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a65752f7baeae4193fe55d2f8b9f7a78b126ef06
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2377
+source-wordcount: '2408'
 ht-degree: 0%
-
 ---
-
 # Glosario {#glossary}
 
 ## A-B {#a-b}
@@ -72,7 +77,7 @@ ht-degree: 0%
 
 **coste por adquisición:** (CPA) El coste de un anuncio dividido por el número de conversiones. También se denomina coste por transacción (CPT) o coste por pedido (CPO).
 
-**coste por clic:** (CPC) 1) El coste de un anuncio dividido por el número total de clics para el anuncio. Por ejemplo, si gasta 100 USD para una impresión de publicidad y el anuncio genera 10 clics, el coste por clic es 100 USD/10=10 USD por clic. 2) Un modelo de precios en el que se cobra a los anunciantes por cada clic en un anuncio.
+**coste por clic:** (CPC) 1) El coste de un anuncio dividido por el número total de clics para el anuncio. Por ejemplo, si gasta 100 USD en una impresión de publicidad y el anuncio genera 10 clics, el coste por clic es 100 USD/10=10 USD por clic. 2) Un modelo de precios en el que se cobra a los anunciantes por cada clic en un anuncio.
 
 **coste por pedido:** (CPO) El coste de un anuncio dividido por el número de pedidos. También se denomina coste por adquisición (CPA) o coste por transacción (CPT).
 

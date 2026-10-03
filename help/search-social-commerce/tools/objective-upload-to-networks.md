@@ -1,23 +1,28 @@
 ---
 title: Habilitar la carga de objetivos en las redes de publicidad
-description: Aprenda a cargar los objetivos de sus portafolios híbridos en  [!DNL Google Ads] y [!DNL Microsoft Advertising].
+description: Aprenda a cargar los objetivos de sus portafolios híbridos en [!DNL Google Ads] y [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-TQID: https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0
+TQID: 'https://experienceleague.adobe.com/qZwJg4s5MvfUoNBiA-VGhrfKKRt9MjjJOq9jLAdRzi0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9f383e89-9ec3-5629-8dc3-d5aa5ab0be32
+    internal-label: Search Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b2ff290c2cee19c8acdc8001433189ea9bdbf83f
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '691'
 ht-degree: 0%
-
 ---
-
 # Habilitar la carga de objetivos en las redes de publicidad
 
 *Anunciantes con [!DNL Google Ads] y [!DNL Microsoft Advertising] cuentas solamente*
@@ -75,7 +80,7 @@ GGL_Lead no se incluye en el cálculo/carga porque es una métrica rastreada en 
 
 >[!TIP]
 >
->Puede ver datos de los ingresos ponderados por Adobe Advertising en los informes de la red de publicidad. Se recomienda comparar los ingresos ponderados con los [!DNL Google Ads] &quot;Todos los convertidores. (por conversión. hora)&quot; o la métrica [!DNL Microsoft Advertising] &quot;Todas las conversiones&quot;. ingresos&quot;, segmentado a la métrica O_ACS_OBJ*.<!--clarify -->
+>Puede ver datos de los ingresos ponderados por Adobe Advertising en los informes de la red de publicidad. Se recomienda comparar los ingresos ponderados con los [!DNL Google Ads] &quot;Todos los convertidores. (por conversión. hora)&quot; o la métrica [!DNL Microsoft Advertising] &quot;Todas las conversiones&quot;. revenue&quot;, segmentado a la métrica O_ACS_OBJ*.<!--clarify -->
 
 ## Solución de problemas de objetivos perdidos
 
@@ -83,9 +88,9 @@ Si el objetivo, denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_accou
 
 * ([!DNL Google Ads]) Compruebe si las conversiones deben cargarse en el nivel de cuenta o administrador. Si deben cargarse en el nivel de responsable:
 
-   * Compruebe si las credenciales de la cuenta de administrador de [!DNL Google Ads] se proporcionan en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Si es necesario, [agregue las credenciales para la cuenta de administrador](/help/search-social-commerce/admin/manager-accounts.md).
+  * Compruebe si las credenciales de la cuenta de administrador de [!DNL Google Ads] se proporcionan en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Si es necesario, [agregue las credenciales para la cuenta de administrador](/help/search-social-commerce/admin/manager-accounts.md).
 
-   * Compruebe si la cuenta de red de publicidad ya incluye el mismo nombre de métrica. Si es así, cambie el nombre de la métrica para que se pueda crear la propiedad correcta en el nivel de administrador.
+  * Compruebe si la cuenta de red de publicidad ya incluye el mismo nombre de métrica. Si es así, cambie el nombre de la métrica para que se pueda crear la propiedad correcta en el nivel de administrador.
 
 * Compruebe que la opción &quot;híbrida&quot; del portafolio esté seleccionada y que el objetivo tenga ingresos válidos.
 

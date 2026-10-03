@@ -3,18 +3,24 @@ title: Campos disponibles para archivos de fuentes de publicidad dinámica
 description: Obtenga información acerca de los campos que puede incluir en los archivos de fuente que utiliza para crear anuncios dinámicos.
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-TQID: https://experienceleague.adobe.com/oBlhGgChyoHBSkfx4gqlC-mnleraVrtf3lMzper7vgY
+TQID: 'https://experienceleague.adobe.com/oBlhGgChyoHBSkfx4gqlC-mnleraVrtf3lMzper7vgY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: '392'
 ht-degree: 0%
-
 ---
-
 # Apéndice: Campos disponibles para archivos de fuentes de publicidad dinámica
 
 Los siguientes campos de fuente están disponibles en el backend de Advertising Creative. Puede cargar un [archivo de fuente](/help/creative/feeds/asset-manage.md) que usa nombres de campo específicos de su organización. Sin embargo, para poder crear un [catálogo](/help/creative/feeds/catalog-manage.md) a partir del archivo de fuente, debe asignar cada campo del archivo de fuente a uno de los siguientes campos de la [plantilla de fuente](/help/creative/feeds/feed-template-manage.md) que usará para crear el catálogo.

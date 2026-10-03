@@ -3,23 +3,30 @@ title: Información general sobre la implementación de Search, Social y Commerc
 description: Obtenga información sobre el flujo de trabajo general para iniciar y mantener un portafolio.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY
+TQID: 'https://experienceleague.adobe.com/AFMTue1YGuFjAJF04HTHEimfd2JC8ZxSkYCRDu8wDFY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 0%
-
 ---
-
 # Información general sobre la implementación de Search, Social y Commerce
 
 [!DNL Adobe] o una de sus agencias afiliadas trabaja con cada anunciante para lanzar sus portafolios de publicidad en línea y rastrear cualquier campaña de publicidad adicional. Después del primer inicio, las tareas continuas adicionales garantizan que se sigan cumpliendo los objetivos del anunciante.
@@ -106,16 +113,16 @@ Después del primer inicio, se requieren las siguientes tareas en curso. Según 
 
 * Ajuste las distintas estrategias y configuraciones que utilice para administrar el conjunto de portafolios, según sea necesario, en función del rendimiento real y previsto del portafolio y de las oportunidades de crecimiento:
 
-   * Ajuste los presupuestos, los objetivos y otros ajustes del portafolio.
+  * Ajuste los presupuestos, los objetivos y otros ajustes del portafolio.
 
-   * Ajuste las estructuras de cuenta/campaña para adaptarse a los cambios en la estrategia de marketing.
+  * Ajuste las estructuras de cuenta/campaña para adaptarse a los cambios en la estrategia de marketing.
 
-   * Adición, pausa o eliminación de componentes de campaña. Esto puede incluir la expansión de conjuntos de palabras clave basados en el análisis de términos de búsqueda y la prueba de copias de anuncios y páginas de aterrizaje.
+  * Adición, pausa o eliminación de componentes de campaña. Esto puede incluir la expansión de conjuntos de palabras clave basados en el análisis de términos de búsqueda y la prueba de copias de anuncios y páginas de aterrizaje.
 
-   * Actualice las estrategias de segmentación geográfica y de sitio basadas en informes de rendimiento avanzados.
+  * Actualice las estrategias de segmentación geográfica y de sitio basadas en informes de rendimiento avanzados.
 
-   * (Opcional) Añada restricciones de oferta a palabras clave de búsqueda individuales o a todas las palabras clave de un grupo de anuncios, una campaña o un portafolios.
+  * (Opcional) Añada restricciones de oferta a palabras clave de búsqueda individuales o a todas las palabras clave de un grupo de anuncios, una campaña o un portafolios.
 
-   * Agregar nuevos portafolios.
+  * Agregar nuevos portafolios.
 
 Para obtener instrucciones sobre la supervisión de portafolios y el ajuste de las estrategias de portafolios, consulte el subcapítulo de ayuda &quot;Optimización&quot; > &quot;Administración de portafolios&quot; > &quot;Supervisión y administración del rendimiento&quot;, que está disponible en el menú [!UICONTROL Help] (![menú Ayuda](/help/search-social-commerce/assets/help-main-menu.png "menú Ayuda")) en la parte superior derecha de cualquier página dentro de Buscar, Social y Commerce.

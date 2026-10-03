@@ -2,13 +2,19 @@
 title: '[!UICONTROL Forecast Accuracy (Actuals) Report]'
 description: Obtenga información acerca de [!UICONTROL Forecast Accuracy (Actuals) Report], incluidas las columnas de datos.
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
-
 ---
-
 # El [!UICONTROL Forecast Accuracy (Actuals) Report]
 
 Este informe muestra los datos reales de impresión, clics, costes e ingresos de la red de publicidad por día de cada portafolio.

@@ -3,22 +3,29 @@ title: Crear una experiencia con segmentación del árbol de decisiones
 description: Obtenga información sobre cómo crear una experiencia de publicidad segmentada mediante un árbol de decisiones.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-TQID: https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14
+TQID: 'https://experienceleague.adobe.com/nxegtoNEqfAk7LUyb-3qD6YJYaGfx3M3QdrLx-q5y14'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: f1a0ef49-c5d6-4fdf-b0dc-ae6685afe30b
+    internal-label: Creative experiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '629'
 ht-degree: 0%
-
 ---
-
 # Crear una experiencia con segmentación del árbol de decisiones
 
 Cree una experiencia de anuncio segmentada mediante un árbol de decisiones. Cada experiencia utiliza anuncios de una sola biblioteca creativa.
@@ -50,23 +57,23 @@ Cree una experiencia de anuncio segmentada mediante un árbol de decisiones. Cad
 
       * Destinos:
 
-         * [Agregar un nodo de destino al nivel final](experience-target-node-add-final.md).
+        * [Agregar un nodo de destino al nivel final](experience-target-node-add-final.md).
 
-         * [Insertar un nodo de destino entre nodos](experience-target-node-add-inner.md).
+        * [Insertar un nodo de destino entre nodos](experience-target-node-add-inner.md).
 
-         * [Agregar un nodo de destino secundario entre nodos](experience-target-node-add-sibling.md).
+        * [Agregar un nodo de destino secundario entre nodos](experience-target-node-add-sibling.md).
 
-         * [Copie nodos secundarios y creativos a otro nodo en el mismo nivel](experience-target-node-copy.md).
+        * [Copie nodos secundarios y creativos a otro nodo en el mismo nivel](experience-target-node-copy.md).
 
       * Paquetes de Creative:
 
-         * [Asignar y cancelar la asignación de elementos creativos a un nodo final](experience-assign-creative-bundles.md).
+        * [Asignar y cancelar la asignación de elementos creativos a un nodo final](experience-assign-creative-bundles.md).
 
-           Si no asigna al menos un paquete a cada nodo final, puede optar por utilizar los elementos creativos predeterminados para cada nodo no asignado al guardar la experiencia. Para publicar una experiencia, debe asignar paquetes o utilizar los elementos creativos predeterminados para cada nodo final.
+          Si no asigna al menos un paquete a cada nodo final, puede optar por utilizar los elementos creativos predeterminados para cada nodo no asignado al guardar la experiencia. Para publicar una experiencia, debe asignar paquetes o utilizar los elementos creativos predeterminados para cada nodo final.
 
-         * [Personalizar la optimización y programación creativas](experience-optimization-scheduling-targeting.md) para los paquetes asignados.
+        * [Personalizar la optimización y programación creativas](experience-optimization-scheduling-targeting.md) para los paquetes asignados.
 
-         * [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
+        * [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
 
 1. (Opcional) Cambie entre el árbol de decisión y la configuración general:
 
@@ -80,13 +87,13 @@ Cree una experiencia de anuncio segmentada mediante un árbol de decisiones. Cad
 
    * (Si cada nodo del nivel más bajo no incluye al menos un paquete creativo) Realice una de las siguientes acciones:
 
-      * Para guardar la experiencia sin todos los paquetes creativos necesarios, haga clic en **[!UICONTROL Save as Draft]**.
+     * Para guardar la experiencia sin todos los paquetes creativos necesarios, haga clic en **[!UICONTROL Save as Draft]**.
 
-        No puedes crear una etiqueta de anuncio para una experiencia de [borrador](experience-about.md#experience-statuses).
+       No puedes crear una etiqueta de anuncio para una experiencia de [borrador](experience-about.md#experience-statuses).
 
-      * Para asignar el elemento creativo predeterminado a cada destino al que aún no se le haya asignado un paquete creativo, haga clic en **[!UICONTROL Assign Default Creatives]**. Después de revisar el árbol actualizado con los elementos creativos predeterminados asignados, haga clic en **[!UICONTROL Save]** y **[!UICONTROL OK]**.
+     * Para asignar el elemento creativo predeterminado a cada destino al que aún no se le haya asignado un paquete creativo, haga clic en **[!UICONTROL Assign Default Creatives]**. Después de revisar el árbol actualizado con los elementos creativos predeterminados asignados, haga clic en **[!UICONTROL Save]** y **[!UICONTROL OK]**.
 
-      * Para continuar editando el árbol de decisión, haga clic en **[!UICONTROL Continue Edit]**.
+     * Para continuar editando el árbol de decisión, haga clic en **[!UICONTROL Continue Edit]**.
 
 Cuando la experiencia está activa, [!DNL Creative] crea automáticamente una etiqueta de anuncio para cada tamaño creativo o duración de vídeo aplicable. A continuación, puede [exportar una etiqueta de anuncio e implementarla en un DSP](/help/creative/experiences/experience-tag-export.md).
 

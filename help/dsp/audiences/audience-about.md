@@ -3,49 +3,60 @@ title: Acerca de la gestión de público en Advertising DSP
 description: Obtenga información sobre las funciones de gestión de público.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-TQID: https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA
+TQID: 'https://experienceleague.adobe.com/IocF0s67I-vJAUx9Eom-aWEf-Q6H-ZOjczyGr0f9PsA'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+  - id: 2b670c6e-542a-5afe-b96b-d9ce7818cd55
+    internal-label: DSP Segments
 subfeature_v2:
   - id: c193c532-b70e-4556-bde7-857186cbe140
+    internal-label: Segments
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 477ab8f27ad0873b8cd919085cb2dba0db58924d
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1457
+source-wordcount: '1457'
 ht-degree: 0%
-
 ---
-
 # Acerca de la gestión de público en Advertising DSP
 
 En DSP, puede crear y administrar segmentos de audiencia y conjuntos de audiencias, que puede utilizar como destinatarios para sus ubicaciones:
 
 * Recopile sus propios datos de audiencia de origen creando e implementando segmentos de DSP. Posteriormente, puede redireccionar a los usuarios del segmento con anuncios o evitar que los usuarios del segmento reciban anuncios. Puede crear los siguientes tipos de segmentos:
 
-   * [Segmentos personalizados](/help/dsp/audiences/custom-segment-create.md) para rastrear a) usuarios expuestos a anuncios desde equipos de escritorio y dispositivos móviles y b) usuarios que visitan páginas web específicas. La etiqueta de seguimiento puede rastrear usuarios basados en cookies o usuarios asociados con ID universales ID5.
+  * [Segmentos personalizados](/help/dsp/audiences/custom-segment-create.md) para rastrear a) usuarios expuestos a anuncios desde equipos de escritorio y dispositivos móviles y b) usuarios que visitan páginas web específicas. La etiqueta de seguimiento puede rastrear usuarios basados en cookies o usuarios asociados con ID universales ID5.
 
-   * [Segmentos de exclusión de venta de CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) para rastrear los ID de usuario de las solicitudes de exclusión de venta de consumidores en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA). Puede recuperar informes mensuales de los ID de usuario de las solicitudes de exclusión de venta.
+  * [Segmentos de exclusión de venta de CCPA](/help/dsp/audiences/ccpa-opt-out-segment-create.md) para rastrear los ID de usuario de las solicitudes de exclusión de venta de consumidores en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA). Puede recuperar informes mensuales de los ID de usuario de las solicitudes de exclusión de venta.
 
-     Para obtener más información sobre la compatibilidad de Adobe Advertising con las solicitudes de exclusión de la venta de la CCPA, consulte [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: Compatibilidad con la exclusión del consumidor de la venta](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+    Para obtener más información sobre la compatibilidad de Adobe Advertising con las solicitudes de exclusión de la venta de la CCPA, consulte [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: Compatibilidad con la exclusión del consumidor de la venta](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * [Obtener y usar identificadores universales para direccionamiento sin cookies](/help/dsp/audiences/universal-ids.md):
 
-   * Envíe manualmente los segmentos autenticados de [!DNL LiveRamp] [!DNL RampID] directamente a DSP.
+  * Envíe manualmente los segmentos autenticados de [!DNL LiveRamp] [!DNL RampID] directamente a DSP.
 
-   * Permita que DSP importe segmentos de origen desde la plataforma de datos del cliente y los traduzca a tipos de ID universales admitidos.
+  * Permita que DSP importe segmentos de origen desde la plataforma de datos del cliente y los traduzca a tipos de ID universales admitidos.
 
-   * Importe segmentos de origen [!DNL AdFixus] que contengan [!DNL AdFixus] ID universales (solo Australia). A continuación, puede segmentar ubicaciones a [!DNL AdFixus] ID, agregar esos segmentos a [audiencias reutilizables](/help/dsp/audiences/reusable-audience-create.md) y usar los informes descritos en &quot;[Importar segmentos de origen de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;.
+  * Importe segmentos de origen [!DNL AdFixus] que contengan [!DNL AdFixus] ID universales (solo Australia). A continuación, puede segmentar ubicaciones a [!DNL AdFixus] ID, agregar esos segmentos a [audiencias reutilizables](/help/dsp/audiences/reusable-audience-create.md) y usar los informes descritos en &quot;[Importar segmentos de origen de [!DNL AdFixus]](/help/dsp/audiences/sources/source-adfixus.md)&quot;.
 
-   * Incluya segmentos de terceros que contengan ID universales en sus destinos de colocación sin ningún paso adicional.
+  * Incluya segmentos de terceros que contengan ID universales en sus destinos de colocación sin ningún paso adicional.
 
 * Cree una biblioteca de audiencias de [audiencias reutilizables](/help/dsp/audiences/reusable-audience-create.md). Las audiencias guardadas están compuestas por cualquiera de los segmentos de audiencia disponibles y por cualquiera de las demás audiencias guardadas. Los cambios que realice en una audiencia guardada se aplican automáticamente a todas las ubicaciones que dirijan o excluyan la audiencia, así como a todas las demás audiencias que incluyan la audiencia guardada.
 
@@ -79,11 +90,11 @@ Puede segmentar las ubicaciones para todos los tipos de audiencias siguientes.
 
 * Todos los segmentos de audiencia creados por el usuario que se crearon en DSP:
 
-   * Segmentos personalizados para usuarios que visitaron páginas web específicas y usuarios expuestos a impresiones de anuncios específicos.
+  * Segmentos personalizados para usuarios que visitaron páginas web específicas y usuarios expuestos a impresiones de anuncios específicos.
 
-     No se incurre en cargos por impresiones entregadas a ID universales.
+    No se incurre en cargos por impresiones entregadas a ID universales.
 
-   * Segmentos de audiencia de exclusión de CCPA para usuarios que enviaron solicitudes de exclusión de venta en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA).
+  * Segmentos de audiencia de exclusión de CCPA para usuarios que enviaron solicitudes de exclusión de venta en su sitio web, según la Ley de Privacidad del Consumidor de California (CCPA).
 
 * Todos los segmentos de datos de origen importados, incluidos los segmentos traducidos a ID universales y los segmentos que contienen [!DNL AdFixus] ID universales importados.
 

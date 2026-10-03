@@ -3,18 +3,21 @@ title: Filtros del producto de campaña de compras
 description: Consulte los filtros de producto disponibles para grupos de productos de compras.
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/OgEEd-i6RcM98DpR7h6KFXnO8zfZiEgpJZAof8Bqgws
+TQID: 'https://experienceleague.adobe.com/OgEEd-i6RcM98DpR7h6KFXnO8zfZiEgpJZAof8Bqgws'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 174
-ht-degree: 0%
-
+source-wordcount: '231'
+ht-degree: 22%
 ---
-
 # Filtros del producto de campaña de compras
 
 Consulte también la ayuda de [!DNL Google Ads] &quot;[Administrar una campaña de compras con grupos de productos](https://support.google.com/google-ads/answer/6275317)&quot; y la ayuda de [!DNL Microsoft Advertising] &quot;[Comprender y usar grupos de productos](https://help.ads.microsoft.com/#apex/bae/en/56782)&quot;.
@@ -27,7 +30,7 @@ Consulte también la ayuda de [!DNL Google Ads] &quot;[Administrar una campaña 
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Condition] | [!UICONTROL New], [!UICONTROL Used], [!UICONTROL Refurbished], [!UICONTROL Unknown] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!DNL Google Ads]: [!UICONTROL Product Type (1st level)=] a [!UICONTROL Product Type (5th level)=]<br><br>[!DNL Microsoft]: [!UICONTROL Product Type=] | \[El tipo de producto\] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Custom Label 0=] a [!UICONTROL Custom Label 4=] | \[Atributo de la etiqueta personalizada\] | — |
-| [!DNL Google Ads] | Channel= | [!UICONTROL Local], [!UICONTROL Online] | Para mostrar solo anuncios de productos locales o productos en línea.<br><br><b>Nota:</b> Para crear anuncios para productos locales, la opción &quot;Anuncios de inventario local&quot; debe estar habilitada y debe participar en el programa de compras local con [!DNL Google Merchant Center]. |
+| [!DNL Google Ads] | Channel= | [!UICONTROL Local], [!UICONTROL Online] | Para mostrar solo anuncios de productos locales o productos en línea.<br><br><b>Nota:</b> Para crear anuncios de productos locales, debe habilitarse la opción &quot;Anuncios de inventario local&quot; y debe participar en el programa de compras local con [!DNL Google Merchant Center]. |
 | [!DNL Google Ads] | [!UICONTROL ChannelExclusivity=] | [!UICONTROL SingleChannel], [!UICONTROL MultiChannel] | Si se desea mostrar anuncios para productos que solo están disponibles para un único canal (local o solo en línea) o para varios canales (locales y en línea). |
 
 >[!MORELIKETHIS]

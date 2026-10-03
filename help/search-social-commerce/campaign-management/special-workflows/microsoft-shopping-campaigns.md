@@ -1,22 +1,26 @@
 ---
-title: Implementar  [!DNL Microsoft Advertising] campañas de compras
-description: Obtenga información acerca del flujo de trabajo para configurar  [!DNL Microsoft Advertising] campañas de compras.
+title: Implementar [!DNL Microsoft Advertising] campañas de compras
+description: Obtenga información acerca del flujo de trabajo para configurar [!DNL Microsoft Advertising] campañas de compras.
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8
+TQID: 'https://experienceleague.adobe.com/2SXWaNmPPcXmljB2DUKq9DNWgPv9Qb-0t3SJcdO6aR8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 587
+source-wordcount: '598'
 ht-degree: 0%
-
 ---
-
 # Implementar [!DNL Microsoft Advertising] campañas de compras
 
 Los anuncios de las campañas de compras usan datos sobre los productos de la fuente de productos [!DNL Microsoft Merchant Center] existente, en lugar de las palabras clave, para decidir cómo y dónde mostrar los anuncios.

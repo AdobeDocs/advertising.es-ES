@@ -1,20 +1,23 @@
 ---
 title: Administrar destinatarios de audiencia para campañas y grupos de anuncios
-description: Aprenda a configurar y administrar los objetivos de audiencia para sus  [!DNL Google Ads] campañas y grupos de anuncios [!DNL Microsoft Advertising] y.
+description: Aprenda a configurar y administrar los destinos de audiencia para sus campañas y grupos de anuncios [!DNL Google Ads] y [!DNL Microsoft Advertising].
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY
+TQID: 'https://experienceleague.adobe.com/U0RHQhkBYus7SwgN-gXKht4-MSV5VMy8nVTiKgGz1wY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '767'
 ht-degree: 0%
-
 ---
-
 # Administrar destinos de audiencia para sus campañas y grupos de anuncios [!DNL Google Ads] y [!DNL Microsoft Advertising]
 
 *[!DNL Google Ads]y [!DNL Microsoft Advertising] solamente*
@@ -65,7 +68,7 @@ Puede configurar los objetivos de audiencia, editar los modificadores de oferta 
 
    * *0%:* Para no ajustar las ofertas de anuncios para esta audiencia.
 
-   * /[*Otros valores del -90% al 900%*/]: Para aumentar o reducir la oferta de anuncios para esta audiencia. Por ejemplo, si la oferta en el nivel de palabra clave es 1 USD y el ajuste de oferta para un objetivo de audiencia específico es del 50 %, la oferta para esa audiencia aumenta a 1,50 USD.
+   * /[*Otros valores del -90% al 900%*/]: Para aumentar o reducir la oferta de anuncios para esta audiencia. Por ejemplo, si la oferta en el nivel de palabra clave es 1 USD y el ajuste de oferta para un objetivo de audiencia específico es el 50 %, la oferta para esa audiencia aumenta a 1,50 USD.
 
 ## Editar el modificador de oferta para destinos de audiencia
 
@@ -83,27 +86,27 @@ Puede cambiar el modificador de oferta y el estado de los objetivos de audiencia
 
    * Para editar un modificador de oferta para uno o más destinos, haga lo siguiente:
 
-      1. Seleccione la casilla de verificación situada junto a cada destino que desee editar.
+     1. Seleccione la casilla de verificación situada junto a cada destino que desee editar.
 
-         Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
+     1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
 
-      1. Edite los campos **[!UICONTROL Bid Modifier]** o **[!UICONTROL Status]**.
+     1. Edite los campos **[!UICONTROL Bid Modifier]** o **[!UICONTROL Status]**.
 
-         Para el campo [!UICONTROL Bid Modifier], tiene opciones para cambiar los valores existentes a un valor especificado o para aumentar o disminuir la cantidad en un porcentaje o importe monetario especificados, con un límite.
+        Para el campo [!UICONTROL Bid Modifier], tiene opciones para cambiar los valores existentes a un valor especificado o para aumentar o disminuir la cantidad en un porcentaje o importe monetario especificados, con un límite.
 
-         Para un valor definido, el valor puede incluir:
+        Para un valor definido, el valor puede incluir:
 
-         * *0%:* Para no ajustar las ofertas de anuncios para esta audiencia.
+        * *0%:* Para no ajustar las ofertas de anuncios para esta audiencia.
 
-         * /[*Otros valores del -90% al 900%*/]: Para aumentar o reducir la oferta de anuncios para esta audiencia. Por ejemplo, si la oferta en el nivel de palabra clave es 1 USD y el ajuste de oferta para un objetivo de audiencia específico es del 50 %, la oferta para esa audiencia aumenta a 1,50 USD.
+        * /[*Otros valores del -90% al 900%*/]: Para aumentar o reducir la oferta de anuncios para esta audiencia. Por ejemplo, si la oferta en el nivel de palabra clave es 1 USD y el ajuste de oferta para un objetivo de audiencia específico es el 50 %, la oferta para esa audiencia aumenta a 1,50 USD.
 
-         Para varios destinos, los cambios se aplican a todos los destinos seleccionados.
+        Para varios destinos, los cambios se aplican a todos los destinos seleccionados.
 
-      1. (Opcional) Haga clic en **[!UICONTROL Additional Details]** y, opcionalmente, escriba un nombre y una descripción para el proyecto.
+     1. (Opcional) Haga clic en **[!UICONTROL Additional Details]** y, opcionalmente, escriba un nombre y una descripción para el proyecto.
 
-      1. Haga clic en **[!UICONTROL Post]**.
+     1. Haga clic en **[!UICONTROL Post]**.
 
 ## Cambio del estado de los destinatarios de audiencia
 

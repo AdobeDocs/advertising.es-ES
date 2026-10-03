@@ -3,30 +3,43 @@ title: Prácticas recomendadas para configurar campañas de rendimiento
 description: Conozca las prácticas recomendadas para configurar sus campañas centradas en el rendimiento, que incluyen ubicaciones optimizadas para la CPA más baja o el ROAS más alto.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-TQID: https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs
+TQID: 'https://experienceleague.adobe.com/jIJ9c9tYy3TVXX-YzzIJITaqVOvETuMFDcz3DQMpQcs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
+  - id: 1065ba73-45b2-5aee-bca8-3ae622f2c15d
+    internal-label: DSP Best Practices
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
   - id: e9bcaec6-1079-409c-9aee-942e06c44d0a
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0f74bf7a3cb3a5e56df31ea36ef181c08a0f3aca
+    internal-label: Data management
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 0%
-
+source-wordcount: '1304'
+ht-degree: 1%
 ---
-
 # Prácticas recomendadas para configurar campañas de rendimiento
 
 DSP puede optimizar sus campañas centradas en el rendimiento. Consulte las siguientes prácticas recomendadas para campañas de rendimiento:
@@ -55,10 +68,10 @@ Los paquetes de funnel superiores incluyen ubicaciones con una segmentación muy
 
 * Busque nuevas audiencias que probablemente se conviertan con las siguientes tácticas:
 
-   * Modelado de similitudes desde una plataforma de administración de datos (DMP), como Adobe Audience Manager.
-   * Segmentación basada en el comportamiento con datos de terceros.
-   * Segmentación contextual.
-   * Segmentación de sitios/categorías.
+  * Modelado de similitudes desde una plataforma de administración de datos (DMP), como Adobe Audience Manager.
+  * Segmentación basada en el comportamiento con datos de terceros.
+  * Segmentación contextual.
+  * Segmentación de sitios/categorías.
 
 * Usar la segmentación por ejecución de red (RON): es importante incluir una ejecución de ubicación de red sin segmentación de audiencia y con una segmentación de inventario amplia. Esto permite que el algoritmo de [!DNL Adobe AI] encuentre usuarios valiosos que pueden tener cookies más recientes que aún no se han clasificado en una audiencia.
 
@@ -93,8 +106,8 @@ Además, utilice la siguiente configuración.
 * **Objetivos de optimización:** Use uno de los dos objetivos de optimización de rendimiento, *[!UICONTROL Highest Return on Ad Spend]* o *[!UICONTROL Lowest Cost per Acquisition]*, según el objetivo del paquete. Estos objetivos optimizan automáticamente el paquete hacia las ubicaciones de ROAS más alta o CPA más baja, respectivamente.
 
 * **Metas personalizadas:**
-   * Si un paquete nuevo tiene el mismo objetivo que un paquete existente, puede, opcionalmente, vincular el paquete existente para que el algoritmo pueda utilizar los datos de aprendizaje automático existentes.
-   * Escriba el [!UICONTROL Target CPA] o [!UICONTROL Target ROAS] apropiado.
+  * Si un paquete nuevo tiene el mismo objetivo que un paquete existente, puede, opcionalmente, vincular el paquete existente para que el algoritmo pueda utilizar los datos de aprendizaje automático existentes.
+  * Escriba el [!UICONTROL Target CPA] o [!UICONTROL Target ROAS] apropiado.
 
 * **Ritmo de vuelo y ritmo intradía:** Para ambos tipos de ritmo, seleccione *[!UICONTROL Even]* para maximizar los objetivos de rendimiento mediante un ritmo uniforme durante todo el día y durante todo el vuelo.
 
@@ -115,14 +128,14 @@ A continuación se indican las opciones de colocación recomendadas para las cam
 Debe configurar la optimización de CPA o ROAS en el nivel de paquete (consulte Paso 3: Creación de paquetes), pero puede agregar ajustes de nivel de ubicación adicionales.
 
 * **Oferta máxima:**
-   * Para las ubicaciones de prospección, utilice una oferta máxima baja ($5).
-   * Para volver a segmentar reemplazos, usa una puja máxima alta (12 dólares).
+  * Para las ubicaciones de prospección, utilice una oferta máxima baja ($5).
+  * Para volver a segmentar reemplazos, usa una puja máxima alta (12 dólares).
 
 * **Filtros de oferta previa:** Minimice o, idealmente, evite establecer filtros de oferta previa agresivos, que impiden que la ubicación alcance la escala. Las prácticas recomendadas incluyen las siguientes:
 
-   * Utilice un (1) filtro de oferta previa por ubicación. El uso de varios filtros de oferta previa requiere que se cumplan ambos, lo que reduce la escala.
+  * Utilice un (1) filtro de oferta previa por ubicación. El uso de varios filtros de oferta previa requiere que se cumplan ambos, lo que reduce la escala.
 
-   * Considere la posibilidad de establecer filtros de oferta previa menos estrictos en los casos en que se aplique una segmentación adicional (como segmentación por audiencia, ubicación geográfica y sitio).
+  * Considere la posibilidad de establecer filtros de oferta previa menos estrictos en los casos en que se aplique una segmentación adicional (como segmentación por audiencia, ubicación geográfica y sitio).
 
 Ver descripciones de cuándo usar cada filtro de oferta previa en [filtros de oferta previa de nivel de ubicación y cómo usarlos](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
@@ -140,10 +153,10 @@ Para maximizar la escala, use el inventario [!UICONTROL Public] (Open Exchange) 
 <!-- Say something about limiting unnecessary constraints/limitations, including dayparting, which limit your chances for ad exposure. Use only when it's required for your audience. -->
 
 * **[!UICONTROL Included Audiences]:**
-   * Para las ubicaciones de prospección, agrupe categorías de audiencia similares y tamaños de audiencia similares en una ubicación. A continuación, en función del rendimiento, realice una de las siguientes acciones:
-      * Elimine las audiencias con bajo rendimiento de las ubicaciones existentes.
-      * Mueva las audiencias de mayor rendimiento a una ubicación independiente para controlar mejor los presupuestos.
-   * Lo ideal es que, para volver a segmentar las ubicaciones, incluya un segmento de audiencia por ubicación a fin de controlar fácilmente las ofertas y el presupuesto.
+  * Para las ubicaciones de prospección, agrupe categorías de audiencia similares y tamaños de audiencia similares en una ubicación. A continuación, en función del rendimiento, realice una de las siguientes acciones:
+    * Elimine las audiencias con bajo rendimiento de las ubicaciones existentes.
+    * Mueva las audiencias de mayor rendimiento a una ubicación independiente para controlar mejor los presupuestos.
+  * Lo ideal es que, para volver a segmentar las ubicaciones, incluya un segmento de audiencia por ubicación a fin de controlar fácilmente las ofertas y el presupuesto.
 
 >[!NOTE]
 >
@@ -152,13 +165,13 @@ Para maximizar la escala, use el inventario [!UICONTROL Public] (Open Exchange) 
 > Puede evitar audiencias superpuestas creando audiencias en niveles para poder suprimir los niveles más altos e inclusivos de las ubicaciones según sea necesario.
 
 * **[!UICONTROL Frequency Capping]:**
-   * Para las ubicaciones de prospección, utilice límites de frecuencia ajustados (una impresión por día).
-   * Para redireccionar ubicaciones, establezca el límite de ubicación principal en 6-10 impresiones por día y el límite secundario en una impresión por hora.
+  * Para las ubicaciones de prospección, utilice límites de frecuencia ajustados (una impresión por día).
+  * Para redireccionar ubicaciones, establezca el límite de ubicación principal en 6-10 impresiones por día y el límite secundario en una impresión por hora.
 
 * **[!UICONTROL Device Targeting]**:
-   * Incluir [!UICONTROL Computer], [!UICONTROL Mobile] y [!UICONTROL Tablet].
-   * No se debe segmentar [!UICONTROL Firefox] y [!UICONTROL Safari] debido a las limitaciones de segmentación y medición. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más detalles acerca de la compatibilidad con [!DNL Adobe] para [!DNL Safari ITP].
-   * Si dirige el tráfico web móvil, deshabilite todos los exploradores móviles excepto [!UICONTROL Chrome] y [!UICONTROL Edge].
+  * Incluir [!UICONTROL Computer], [!UICONTROL Mobile] y [!UICONTROL Tablet].
+  * No se debe segmentar [!UICONTROL Firefox] y [!UICONTROL Safari] debido a las limitaciones de segmentación y medición. Póngase en contacto con el equipo de su cuenta de Adobe para obtener más detalles acerca de la compatibilidad con [!DNL Adobe] para [!DNL Safari ITP].
+  * Si dirige el tráfico web móvil, deshabilite todos los exploradores móviles excepto [!UICONTROL Chrome] y [!UICONTROL Edge].
 
 ### Seguridad de marca y calidad de los medios
 

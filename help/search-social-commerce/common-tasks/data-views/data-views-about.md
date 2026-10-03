@@ -3,18 +3,23 @@ title: Acerca de la personalización de datos en vistas de administración de ca
 description: Obtenga información acerca de los tipos de datos que puede personalizar en las vistas de datos de Campaign.
 exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU
+TQID: 'https://experienceleague.adobe.com/PnBql37yqK03DWH2OhLf8hnCBPOwFAVZxD65NNZu0VU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 411
+source-wordcount: '412'
 ht-degree: 0%
-
 ---
-
 # Acerca de la personalización de datos en vistas de administración de campañas
 
 <!-- Add info about new UI -->
@@ -27,11 +32,11 @@ En la mayoría de las vistas de datos de campaña, puede personalizar los datos 
 
 * (Solo interfaz de usuario heredada) [Desde el panel de navegación izquierdo](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/filter-using-left-panel.md), puede:
 
-   * Examine o busque entidades por red de anuncios y filtre por el estado de la entidad y el estado de la cuenta, la campaña y el grupo de anuncios o conjunto de anuncios. Haga clic en cualquier entidad o grupo de entidades del panel para cargar una vista de las entidades secundarias (por ejemplo, haga clic en el nombre de una campaña para ver sus grupos de anuncios secundarios).
+  * Examine o busque entidades por red de anuncios y filtre por el estado de la entidad y el estado de la cuenta, la campaña y el grupo de anuncios o conjunto de anuncios. Haga clic en cualquier entidad o grupo de entidades del panel para cargar una vista de las entidades secundarias (por ejemplo, haga clic en el nombre de una campaña para ver sus grupos de anuncios secundarios).
 
-   * Examine o busque campañas por portafolio o grupo de portafolios, y filtre por el estado de la entidad y el estado del grupo de portafolios, portafolios y campaña. Haga clic en cualquier grupo del portafolio, portafolio o campaña del panel para cargar datos del grupo del portafolio, portafolio o campaña dentro de la vista de entidad actual.
+  * Examine o busque campañas por portafolio o grupo de portafolios, y filtre por el estado de la entidad y el estado del grupo de portafolios, portafolios y campaña. Haga clic en cualquier grupo del portafolio, portafolio o campaña del panel para cargar datos del grupo del portafolio, portafolio o campaña dentro de la vista de entidad actual.
 
-   * Acceda, edite y restablezca sus vistas predeterminadas; y acceda, edite y elimine sus vistas personalizadas. Al hacer clic en cualquier nombre de vista, se carga la vista adecuada.
+  * Acceda, edite y restablezca sus vistas predeterminadas; y acceda, edite y elimine sus vistas personalizadas. Al hacer clic en cualquier nombre de vista, se carga la vista adecuada.
 
 * Aplique filtros a cualquier columna de datos disponible para cambiar los datos que se muestran en la pestaña actual. Puede crear los filtros [de los encabezados de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) o [de un botón de la barra de herramientas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md). En las vistas de administración de campañas, los filtros se mantienen según corresponda cuando se abren entidades secundarias. Por ejemplo, si ve campañas con \> 100 clics y luego abre un grupo de anuncios dentro de esa campaña, solo se muestran los grupos de anuncios con \> 100 clics.
 

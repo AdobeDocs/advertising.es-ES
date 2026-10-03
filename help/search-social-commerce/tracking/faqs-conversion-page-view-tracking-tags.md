@@ -3,21 +3,26 @@ title: Preguntas frecuentes sobre las etiquetas de conversión de Adobe Advertis
 description: Consulte una comparación de las etiquetas de conversión de Adobe Advertising y de seguimiento de vista de página.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8
+TQID: 'https://experienceleague.adobe.com/ckLRjqXGTShwM2TTyULRKjPwL5RYVWkiVVSkwMmvxE8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 45b15880c20d516e4bab1ec664a45ebdf8ffbdcc
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 0%
-
 ---
-
 # Preguntas frecuentes sobre las etiquetas de conversión de Adobe Advertising y seguimiento de vista de página
 
 Lo siguiente se aplica a las etiquetas de seguimiento de conversión de Adobe Advertising y a las etiquetas de seguimiento de vista de página.
@@ -35,7 +40,7 @@ Lo siguiente se aplica a las etiquetas de seguimiento de conversión de Adobe Ad
 >[!NOTE]
 >
 >* Todas las implementaciones nuevas utilizan JavaScript versión 3.
->* La etiqueta JavaScript con ECID usa el [servicio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es), así como el ef_id y el gsurferid heredados para medir las conversiones. Esta etiqueta más reciente crea [cookies s_ecid de CX Enterprise de origen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=es) y proporciona una integración más estrecha con otros productos de CX Enterprise.
+>* La etiqueta de JavaScript con ECID usa el [servicio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es), así como el ef_id y el gsurferid heredados para medir las conversiones. Esta etiqueta más reciente crea [cookies s_ecid de CX Enterprise de origen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=es) y proporciona una integración más estrecha con otros productos de CX Enterprise.
 >* Utilice las etiquetas de la versión 2 de JavaScript solo cuando ya hayan sido implementadas en las páginas web del anunciante.
 >* La práctica recomendada es utilizar etiquetas de JavaScript en lugar de etiquetas de imagen a menos que el sitio tenga una política contra su uso.
 >* Las etiquetas de JavaScript son necesarias para los anunciantes que deseen segmentar audiencias creadas en Adobe CX Enterprise, en Adobe Audience Manager o publicadas en Adobe CX Enterprise desde Audience Manager o Adobe Analytics.

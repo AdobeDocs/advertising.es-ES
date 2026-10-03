@@ -3,22 +3,26 @@ title: Duplicación de un anuncio
 description: Obtenga información sobre cómo duplicar un anuncio.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-TQID: https://experienceleague.adobe.com/ecJn-5biwPx25Uq4FOIoi2IhAFZr3ZJPCrNU14jjgy4
+TQID: 'https://experienceleague.adobe.com/ecJn-5biwPx25Uq4FOIoi2IhAFZr3ZJPCrNU14jjgy4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: c012de69-a374-5a5d-aeff-0c0f44255fd2
+    internal-label: DSP Ads
 subfeature_v2:
   - id: d9510790-d834-436d-8423-8d69cd50464a
+    internal-label: Ads
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 187
+source-wordcount: '189'
 ht-degree: 0%
-
 ---
-
 # Duplicación de un anuncio
 
 Puede duplicar un anuncio dentro de la misma campaña.
@@ -33,7 +37,7 @@ Puede duplicar un anuncio dentro de la misma campaña.
 
 1. Especifique la nueva configuración del anuncio:
 
-   1. (Opcional) Cambie el nombre predeterminado del anuncio. De forma predeterminada, el nuevo anuncio se denomina &quot;Copia de \&lt;*nombre del anuncio original*\>&quot;.
+   1. (Opcional) Cambie el nombre predeterminado del anuncio. De manera predeterminada, el anuncio nuevo se denomina &quot;Copia de \&lt;*nombre del anuncio original*\>&quot;.
 
    1. (Opcional) Cambie la configuración de los anuncios de [anuncios de audio](ad-settings-audio.md), [TV conectado](ad-settings-connected-tv.md), [anuncios en pantalla](ad-settings-display.md), [anuncios para móviles](ad-settings-mobile.md), [anuncios nativos](ad-settings-native.md), [anuncios previos a la emisión](ad-settings-pre-roll.md) o [anuncios de vídeo universales](ad-settings-universal-video.md).
 

@@ -1,20 +1,23 @@
 ---
 title: '[!DNL Microsoft Advertising] configuración de anuncios de búsqueda adaptable'
-description: Hacer referencia a la configuración de  [!DNL Microsoft Advertising] anuncios de búsqueda adaptables.
+description: Hacer referencia a la configuración de [!DNL Microsoft Advertising] anuncios de búsqueda adaptables.
 exl-id: 470008e1-7c7d-49a6-b542-fe384c473c97
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/ojH4Eiwn2rZXy-j4ZuuM5zRELQXFqiiZgCPOQznrEOQ
+TQID: 'https://experienceleague.adobe.com/ojH4Eiwn2rZXy-j4ZuuM5zRELQXFqiiZgCPOQznrEOQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 75
+source-wordcount: '75'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] configuración de anuncios de búsqueda adaptable
 
 El formato de anuncio de búsqueda interactivo está disponible para los anuncios de la red de búsqueda. La red de anuncios organiza de forma dinámica anuncios de búsqueda interactivos mediante las combinaciones más eficaces de elementos publicitarios.

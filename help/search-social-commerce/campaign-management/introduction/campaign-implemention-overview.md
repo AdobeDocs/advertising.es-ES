@@ -3,22 +3,28 @@ title: Información general sobre la implementación de cuentas y campañas de r
 description: Obtenga información acerca de las tareas relacionadas con la configuración, sincronización y administración de las cuentas de red de anuncios.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY
+TQID: 'https://experienceleague.adobe.com/bAXUxseeAb6zMrnFa6gXEe1ES-3BlDMM-3a-vLzeFoY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: '992'
 ht-degree: 0%
-
 ---
-
 # Información general sobre la implementación de cuentas y campañas de red de publicidad
 
 Adobe trabaja con cada anunciante para configurar sus cuentas y campañas de red de anuncios. Esto incluye configurar Search, Social y Commerce para conectarse y sincronizar con las cuentas del anunciante, crear nuevas campañas y componentes de campaña según sea necesario, configurar el seguimiento de los anuncios de componentes, añadir opcionalmente las campañas a portafolios para permitir que Search, Social y Commerce optimicen las ofertas en los anuncios y validar los datos iniciales de coste, clics e ingresos.

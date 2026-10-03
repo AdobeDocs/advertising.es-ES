@@ -3,18 +3,23 @@ title: Configuración de métricas personalizadas
 description: Haga referencia a la configuración de las métricas personalizadas, que se calculan a partir de las métricas estándar.
 exl-id: b9e8434d-5ea2-47cd-9d63-705a6337c34c
 feature: Search Common Tasks, Search Custom Metrics
-TQID: https://experienceleague.adobe.com/yyXHbc4ll8-Y4v3v0p3zMKi6zQVYXQr3bYApBEGGN-s
+TQID: 'https://experienceleague.adobe.com/yyXHbc4ll8-Y4v3v0p3zMKi6zQVYXQr3bYApBEGGN-s'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: a1695a4d-41fb-5bb6-a22a-9e7a1b3222d7
+    internal-label: Search Custom Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: '619'
 ht-degree: 0%
-
 ---
-
 # Configuración de métricas personalizadas
 
 La configuración de métricas personalizadas es ligeramente diferente en diferentes partes de la interfaz.
@@ -25,17 +30,17 @@ La configuración de métricas personalizadas es ligeramente diferente en difere
 |----|----|
 | Nombre de métrica personalizada | El nombre de la métrica, que aparece como el nombre de la columna. <b>Sugerencia:</b> Use un nombre de métrica significativo, pero tenga en cuenta que los nombres más largos hacen que la columna sea más ancha. |
 | Insertar métrica | La fórmula matemática utilizada para calcular la nueva métrica (como [Costo]/[Registros]:<ul><li>Para insertar una métrica de la lista de métricas de tráfico e ingresos, coloque el cursor donde desee insertar la métrica y, a continuación, selecciónela en la lista o introdúzcala manualmente entre corchetes (por ejemplo, `[CPC]`).</li><li>Para insertar un operador, coloque el cursor donde desee insertar el operador y, a continuación, haga clic en el botón o escriba el símbolo manualmente. Los operadores matemáticos disponibles: `+ - * / ( ) ()`</li></ul><b>Nota:</b> Las métricas personalizadas complejas tardan más en calcularse, y los informes y vistas que las incluyen (especialmente cuando incluyen columnas independientes para conversiones de clics y visualizaciones) tardan más en generarse. |
-| Formato | Cómo presentar los datos de esta métrica: *[!UICONTROL Currency]* (un valor monetario), *[!UICONTROL Number to 2 Decimal Points]*, *[!UICONTROL Number to 3 Decimal Points]*, *[!UICONTROL Number w/out Decimal Points]* o *[!UICONTROL Percentage]* (un porcentaje con dos decimales).<br><br><b>Precaución:</b> Si crea una métrica derivada con el formato [!UICONTROL Number w/out Decimal Points] (que muestra los datos como enteros) y la incluye en una vista o en un informe que usa una regla de atribución de conversión ponderada ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] o [!UICONTROL Even Distribution]), el resultado se mostrará en números enteros, no en decimales. Como resultado, los campos de datos individuales pueden ser incorrectos, aunque los totales sean correctos. Por ejemplo, si un pedido se divide a partes iguales entre tres eventos, se atribuye a cada uno de los tres eventos un pedido (en lugar de un pedido de 0,33). Para evitar el problema, use el formato de métrica [!UICONTROL Number to 2 Decimal Points]. |
+| Formato | Cómo presentar los datos de esta métrica: *[!UICONTROL Currency]* (un valor monetario), *[!UICONTROL Number to 2 Decimal Points]*, *[!UICONTROL Number to 3 Decimal Points]*, *[!UICONTROL Number w/out Decimal Points]* o *[!UICONTROL Percentage]* (un porcentaje con dos decimales).<br><br><b>Precaución:</b> Si crea una métrica derivada con el formato [!UICONTROL Number w/out Decimal Points] (que muestra los datos como enteros) y la incluye en una vista o un informe que usa una regla de atribución de conversión ponderada ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] o [!UICONTROL Even Distribution]), el resultado se mostrará en enteros, no en decimales. Como resultado, los campos de datos individuales pueden ser incorrectos, aunque los totales sean correctos. Por ejemplo, si un pedido se divide a partes iguales entre tres eventos, se atribuye a cada uno de los tres eventos un pedido (en lugar de un pedido de 0,33). Para evitar el problema, use el formato de métrica [!UICONTROL Number to 2 Decimal Points]. |
 
 ## Configuración de métricas personalizadas en informes y plantillas de informes y en las vistas heredadas de [!UICONTROL Portfolios]
 
 | Parámetro/Sección | Descripción |
 |----|----|
 | Nombre de métrica personalizada | El nombre de la métrica, que aparece como el nombre de la columna. <b>Sugerencia:</b> Use un nombre de métrica significativo, pero tenga en cuenta que los nombres más largos hacen que la columna sea más ancha. |
-| Formato | Cómo presentar los datos de esta métrica: *[!UICONTROL Currency]* (un valor monetario), *[!UICONTROL Number to 2 Decimal Points]*, *[!UICONTROL Number to 3 Decimal Points]*, *[!UICONTROL Number w/out Decimal Points]* o *[!UICONTROL Percentage]* (un porcentaje con dos decimales).<br><br><b>Precaución:</b> Si crea una métrica derivada con el formato [!UICONTROL Number w/out Decimal Points] (que muestra los datos como enteros) y la incluye en una vista o en un informe que usa una regla de atribución de conversión ponderada ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] o [!UICONTROL Even Distribution]), el resultado se mostrará en números enteros, no en decimales. Como resultado, los campos de datos individuales pueden ser incorrectos, aunque los totales sean correctos. Por ejemplo, si un pedido se divide a partes iguales entre tres eventos, se atribuye a cada uno de los tres eventos un pedido (en lugar de un pedido de 0,33). Para evitar el problema, use el formato de métrica [!UICONTROL Number to 2 Decimal Points]. |
+| Formato | Cómo presentar los datos de esta métrica: *[!UICONTROL Currency]* (un valor monetario), *[!UICONTROL Number to 2 Decimal Points]*, *[!UICONTROL Number to 3 Decimal Points]*, *[!UICONTROL Number w/out Decimal Points]* o *[!UICONTROL Percentage]* (un porcentaje con dos decimales).<br><br><b>Precaución:</b> Si crea una métrica derivada con el formato [!UICONTROL Number w/out Decimal Points] (que muestra los datos como enteros) y la incluye en una vista o un informe que usa una regla de atribución de conversión ponderada ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] o [!UICONTROL Even Distribution]), el resultado se mostrará en enteros, no en decimales. Como resultado, los campos de datos individuales pueden ser incorrectos, aunque los totales sean correctos. Por ejemplo, si un pedido se divide a partes iguales entre tres eventos, se atribuye a cada uno de los tres eventos un pedido (en lugar de un pedido de 0,33). Para evitar el problema, use el formato de métrica [!UICONTROL Number to 2 Decimal Points]. |
 | Insertar métrica | Una lista de métricas existentes a partir de la cual puede crear una fórmula.<br><br>Para insertar una métrica en el campo de entrada de fórmula, coloque el cursor donde desee insertar la métrica y, a continuación, seleccione la métrica en la lista o escríbala manualmente y encerrada entre corchetes (por ejemplo, `[CPC]`). |
 | Insertar operador | Operadores matemáticos disponibles: `+ - x / ( )`<br><br>Para insertar un operador en el campo de entrada de fórmula, coloque el cursor donde desee insertar el operador y, a continuación, haga clic en el botón o escriba el símbolo manualmente. |
-| [Campo de entrada de fórmula para la métrica] | La fórmula matemática utilizada para calcular la nueva métrica se basa en una o más propiedades existentes o métricas estándar (como `[Cost]/[Registrations]`). Puede incluir cualquier combinación de métricas y operadores.<br><br><b>Nota:</b> Las métricas personalizadas complejas tardan más en calcularse, y los informes y vistas que las incluyen (especialmente cuando incluyen columnas independientes para conversiones de clics y visualizaciones) tardan más en generarse. |
+| [Campo de entrada de fórmula para la métrica] | La fórmula matemática utilizada para calcular la nueva métrica se basa en una o más propiedades existentes o métricas estándar (como `[Cost]/[Registrations]`). Puede incluir cualquier combinación de métricas y operadores.<br><br><b>Nota:</b> Las métricas personalizadas complejas tardan más en calcularse, y los informes y las vistas que las incluyen (especialmente cuando incluyen columnas independientes para conversiones de clics y visualizaciones) tardan más en generarse. |
 
 >[!MORELIKETHIS]
 >

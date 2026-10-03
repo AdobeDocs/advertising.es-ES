@@ -3,18 +3,24 @@ title: Administrar las bibliotecas creativas
 description: Aprenda a crear, cambiar el nombre y eliminar sus bibliotecas creativas.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-TQID: https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0
+TQID: 'https://experienceleague.adobe.com/W91cDnClbrELWT6Mm8gSIhKSTRhTjoT0w-SC20OG4M0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: bb1b8bb7-b991-4ae3-96c9-1fe852ffecbf
+    internal-label: Creative libraries
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 266
+source-wordcount: '266'
 ht-degree: 0%
-
 ---
-
 # Administrar las bibliotecas creativas
 
 Puede crear varias bibliotecas creativas para cada anunciante. Más adelante, puede rellenar cada biblioteca con [creativos estándar](creative-add-standard.md), [creativos dinámicos](creative-add-dynamic.md) y [paquetes creativos](bundle-manage.md).
@@ -65,9 +71,9 @@ Puede eliminar bibliotecas con archivos creativos y paquetes que no estén asign
 
    * Para eliminar una sola biblioteca:
 
-      * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre de la biblioteca y, a continuación, haga clic en **[!UICONTROL Delete]**.
+     * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre de la biblioteca y, a continuación, haga clic en **[!UICONTROL Delete]**.
 
-      * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Delete]**.
+     * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Delete]**.
 
    * Para eliminar una o varias bibliotecas, active la casilla de verificación de cada biblioteca que desee eliminar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Delete]**.
 

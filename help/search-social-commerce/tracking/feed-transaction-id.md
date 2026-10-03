@@ -3,20 +3,24 @@ title: Seguimiento de conversión mediante una fuente de ID de transacción
 description: Obtenga información acerca del uso de una fuente de ID de transacción para los datos de seguimiento de conversión.
 exl-id: 3341ac20-d435-4387-99da-7b874e53c2e7
 feature: Search Tracking
-TQID: https://experienceleague.adobe.com/wGlR5tUF7ajbnQLUnW0c-U84BskLzr63Wet-e-x823M
+TQID: 'https://experienceleague.adobe.com/wGlR5tUF7ajbnQLUnW0c-U84BskLzr63Wet-e-x823M'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2206c6aa-b5c2-51b3-88e0-706d57048fe4
+    internal-label: Search Tracking
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # Seguimiento de conversión mediante una fuente de ID de transacción
 
 Cuando un anunciante tiene transacciones en línea y sin conexión, Adobe Advertising puede rastrear las transacciones en línea a través del píxel de seguimiento de conversión de Adobe Advertising y el anunciante puede rastrear las transacciones sin conexión mediante un ID de transacción y enviarlas a través de una fuente:

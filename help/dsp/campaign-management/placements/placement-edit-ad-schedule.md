@@ -3,22 +3,26 @@ title: Editar programaciones de anuncios para ubicaciones
 description: Aprenda a cambiar los programas de anuncios de los anuncios adjuntos a las ubicaciones.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-TQID: https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw
+TQID: 'https://experienceleague.adobe.com/-5TLojZnwpnYonGlRARUUljuNMd2ZDGpnU9u1jzsHyw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 # Editar programaciones de anuncios para ubicaciones
 
 ## Editar las programaciones de anuncios de una o varias ubicaciones
@@ -45,9 +49,9 @@ Puede cambiar las fechas de vuelo programadas y la rotación de anuncios de los 
 
    * **[!UICONTROL Flight N Weight]** (como [!UICONTROL Flight 1 Weight]): cómo girar los anuncios de un vuelo. Introduzca un valor:
 
-      * Para rotar los anuncios de un vuelo uniformemente, ingrese `[!UICONTROL Even]`.
+     * Para rotar los anuncios de un vuelo uniformemente, ingrese `[!UICONTROL Even]`.
 
-      * Para rotar los anuncios de un vuelo de forma desigual, escriba el peso relativo por el que desea rotar cada anuncio, como porcentaje (por ejemplo, `40` para el 40 %). El peso total del vuelo debe ser igual a 100.
+     * Para rotar los anuncios de un vuelo de forma desigual, escriba el peso relativo por el que desea rotar cada anuncio, como porcentaje (por ejemplo, `40` para el 40 %). El peso total del vuelo debe ser igual a 100.
 
 1. Cargue la plantilla de programación de anuncios editada:
 
@@ -77,9 +81,9 @@ Puede cambiar las fechas de vuelo programadas y la rotación de la publicidad pa
 
    * Para eliminar un vuelo existente de un anuncio, haga clic en **[!UICONTROL x]** en la fila de anuncio de la columna vuelo.
 
-      * (Cuando varios anuncios tengan el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, especifique el peso relativo por el que desea rotar cada anuncio, como porcentaje.
+     * (Cuando varios anuncios tengan el mismo vuelo) Para rotar los anuncios de forma desigual, haga clic en **[!UICONTROL Even Rotation]** en la información de vuelo y, a continuación, especifique el peso relativo por el que desea rotar cada anuncio, como porcentaje.
 
-        El peso total debe ser igual a 100.
+       El peso total debe ser igual a 100.
 
 1. En la esquina superior derecha, haga clic en **[!UICONTROL Continue]**.
 

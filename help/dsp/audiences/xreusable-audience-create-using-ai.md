@@ -4,13 +4,17 @@ description: Aprenda a crear audiencias reutilizables en Adobe Advertising DSP m
 feature: DSP Audiences
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: e95a352e48c6e02ae7f89beb176d2cccaf4b0a71
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: b4dc2b3d-fdb5-55cd-9190-f1076d8563e4
+    internal-label: DSP Audiences
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 0%
-
 ---
-
 # Creación de una audiencia reutilizable mediante IA generativa
 
 *característica de Beta*
@@ -89,11 +93,11 @@ Puede usar las audiencias como destinatarios o exclusiones para varias ubicacion
 
 * Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
 
-   * Puede introducir frases completas o solo una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
+  * Puede introducir frases completas o solo una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
 
-   * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
+  * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
 
-   * El agente de audiencia reconoce los sinónimos más comunes.
+  * El agente de audiencia reconoce los sinónimos más comunes.
 
 * Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Cuantos más detalles proporcione, mayores serán las posibilidades de obtener los resultados que satisfagan sus necesidades.
 

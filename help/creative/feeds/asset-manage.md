@@ -3,18 +3,24 @@ title: Administrar archivos de recursos
 description: Obtenga información sobre cómo cargar y administrar archivos de recursos para un anunciante.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-TQID: https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc
+TQID: 'https://experienceleague.adobe.com/U8KSnvef-wUsj6AzRuPUdPpf1xHjZp3Ae7zxXnMfMUc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: d70c54b0-f069-4a3c-8056-7069a25e110c
+    internal-label: Creative Dynamic Creatives
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d32c0462696cdd11b4e4a184bed683c611d018c0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 0%
-
 ---
-
 # Administrar archivos de recursos
 
 * Los anuncios dinámicos de HTML5 requieren un archivo de fuente en formato de hoja de cálculo de Microsoft Excel (XLSX) y los recursos de imagen reales a los que se hace referencia en la hoja de cálculo.
@@ -35,29 +41,29 @@ Tamaño máximo de archivo: 2 GB
 
 * Anuncios dinámicos de HTML5:
 
-   * Archivo de fuente en formato CSV, TSV o hoja de cálculo de Excel de Microsoft (XLSX), con una fila de encabezado y una fila de datos para cada variación de anuncio. Incluya un nombre de imagen en cada fila con el formato `images/image_name` (como `images/300x250_acme_logo.png`).
+  * Archivo de fuente en formato CSV, TSV o hoja de cálculo de Excel de Microsoft (XLSX), con una fila de encabezado y una fila de datos para cada variación de anuncio. Incluya un nombre de imagen en cada fila con el formato `images/image_name` (como `images/300x250_acme_logo.png`).
 
-     Los nombres de campo específicos del anunciante deben asignarse a los [campos disponibles para archivos de fuentes de anuncios dinámicos](/help/creative/appendix-available-feed-fields.md).
+    Los nombres de campo específicos del anunciante deben asignarse a los [campos disponibles para archivos de fuentes de anuncios dinámicos](/help/creative/appendix-available-feed-fields.md).
 
-   * Los recursos de imagen asociados en formato GIF, JPEG, JPG o PNG. El tamaño máximo de archivo es 10 MB. Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
+  * Los recursos de imagen asociados en formato GIF, JPEG, JPG o PNG. El tamaño máximo de archivo es 10 MB. Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
 
   Puede cargar un solo archivo XLSX, un solo archivo de imagen o un solo archivo ZIP que contenga cualquier combinación de archivos XLSX e imagen.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Anuncios HTML5 estáticos:
 
-   * Un recurso de imagen por anuncio en formato GIF, JPG, JPEG o PNG.
+  * Un recurso de imagen por anuncio en formato GIF, JPG, JPEG o PNG.
 
-     Puede cargar una sola imagen o varias imágenes en un archivo ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+    Puede cargar una sola imagen o varias imágenes en un archivo ZIP.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Anuncios dinámicos en vídeo:
 
-   * Archivo de fuente en formato CSV, TSV o hoja de cálculo de Excel de Microsoft (XLSX), con una fila de encabezado y una fila de datos para cada variación de anuncio. Incluya un nombre de vídeo en cada fila con el formato `videos/image_name` (como `videos/300x250_acme_logo.png`). El archivo ZIP puede tener un máximo de 512 MB con un máximo de 500 filas.
+  * Archivo de fuente en formato CSV, TSV o hoja de cálculo de Excel de Microsoft (XLSX), con una fila de encabezado y una fila de datos para cada variación de anuncio. Incluya un nombre de vídeo en cada fila con el formato `videos/image_name` (como `videos/300x250_acme_logo.png`). El archivo ZIP puede tener un máximo de 512 MB con un máximo de 500 filas.
 
-     Los nombres de campo específicos del anunciante deben asignarse a los [campos disponibles para archivos de fuentes de anuncios dinámicos](/help/creative/appendix-available-feed-fields.md).
+    Los nombres de campo específicos del anunciante deben asignarse a los [campos disponibles para archivos de fuentes de anuncios dinámicos](/help/creative/appendix-available-feed-fields.md).
 
-     Para todas las cuentas con vídeos dinámicos, la práctica recomendada es [crear un catálogo](catalog-manage.md) con el archivo de recursos junto con una copia de la [plantilla de fuente universal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), en la que se asigna cada campo del archivo de recursos a un campo del backend de Advertising Creative.
+    Para todas las cuentas con vídeos dinámicos, la práctica recomendada es [crear un catálogo](catalog-manage.md) con el archivo de recursos junto con una copia de la [plantilla de fuente universal [!UICONTROL Adobe Creative Template]](feed-template-manage.md), en la que se asigna cada campo del archivo de recursos a un campo del backend de Advertising Creative.
 
-   * Los recursos de vídeo asociados en formato MP4, MOV o WEBM. Las plantillas de publicidad admitidas incluyen tarjeta de inicio, tarjeta de finalización, superposición superior, superposición inferior o en forma de L. La duración de cada vídeo debe estar entre 1 y 90 segundos. Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
+  * Los recursos de vídeo asociados en formato MP4, MOV o WEBM. Las plantillas de publicidad admitidas incluyen tarjeta de inicio, tarjeta de finalización, superposición superior, superposición inferior o en forma de L. La duración de cada vídeo debe estar entre 1 y 90 segundos. Ver los [tamaños creativos compatibles](/help/creative/creative-libraries/creative-sizes.md).
 
   Puede cargar un solo archivo XLSX, un solo archivo de imagen o un solo archivo ZIP que contenga cualquier combinación de archivos XLSX y de vídeo.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

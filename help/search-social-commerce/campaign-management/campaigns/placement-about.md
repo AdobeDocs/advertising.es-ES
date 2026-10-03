@@ -1,27 +1,30 @@
 ---
-title: Acerca de [!DNL Google Ads] ubicaciones
-description: Obtenga información acerca de las opciones de ubicaciones pujables y negativas para  [!DNL Google Ads].
+title: Aproximadamente [!DNL Google Ads] ubicaciones
+description: Obtenga información sobre las opciones de ubicaciones pujables y negativas para [!DNL Google Ads].
 exl-id: c0a2d888-8afa-47c8-a89e-da4de527e6ea
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8
+TQID: 'https://experienceleague.adobe.com/mLsl1Jx5cbPCvdSpNjff9aU1O4vPPDsFW-eYPX7PfG8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 166
+source-wordcount: '167'
 ht-degree: 0%
-
 ---
-
 # Aproximadamente [!DNL Google Ads] ubicaciones
 
 *[!DNL Google Ads]solo cuentas*
 
 Las ubicaciones son ubicaciones en la red de visualización en las que pueden aparecer los anuncios. La configuración de ubicación incluye los parámetros de oferta máxima y seguimiento opcional. La configuración del nivel de ubicación anula la configuración del grupo de anuncios o de la campaña.
 
-Puede crear ubicaciones para cualquier grupo de anuncios en un [tipo de campaña admitido [!DNL Google Ads] 2&rbrace; que se dirija a la red de visualización dentro de una &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)cuenta de motor de búsqueda sincronizada[.](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+Puede crear ubicaciones para cualquier grupo de anuncios en un [&#128279;](/help/search-social-commerce/introduction/supported-inventory.md)tipo de campaña admitido [!DNL Google Ads] 2&rbrace; que se dirija a la red de visualización dentro de una [cuenta de motor de búsqueda sincronizada](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
 ## Las vistas [!UICONTROL Placements]
 

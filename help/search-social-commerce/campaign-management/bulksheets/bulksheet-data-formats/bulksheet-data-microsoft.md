@@ -1,22 +1,26 @@
 ---
-title: Se requieren datos de hojas de edición masiva para  [!DNL Microsoft Advertising] cuentas
-description: Haga referencia a los campos de encabezado y los campos de datos requeridos en hojas de edición masiva para  [!DNL Microsoft Advertising] cuentas.
+title: Se requieren datos de hojas de edición masiva para [!DNL Microsoft Advertising] cuentas
+description: Haga referencia a los campos de encabezado y los campos de datos requeridos en las hojas de edición masiva de [!DNL Microsoft Advertising] cuentas.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E
+TQID: 'https://experienceleague.adobe.com/sPku0vJW3srDbrbXy3CNjRIlgbTcRIQCU-F7yH8pr6E'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 7024
-ht-degree: 0%
-
+source-wordcount: '7150'
+ht-degree: 1%
 ---
-
 # Apéndice: Datos de hoja de edición masiva requeridos para las cuentas de [!DNL Microsoft Advertising]
 
 Para crear y actualizar los datos de la campaña [!DNL Microsoft Advertising] de forma masiva, puede usar los archivos de hoja de edición masiva de Search, Social y Commerce con un formato específico para las cuentas de [!DNL Microsoft Advertising]. Puede: a) [generar archivos de hojas de edición masiva para cuentas existentes](../bulksheet-download.md) en el formato de archivo requerido o b) crearlos manualmente (consulte &quot;[Formatos de archivo de hojas de edición masiva admitidos](bulksheet-file-formats.md)&quot; para obtener información general sobre los formatos de archivo admitidos).
@@ -88,7 +92,7 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 | [!UICONTROL Languages] | El idioma de destino de los anuncios del grupo de anuncios: [!UICONTROL English], [!UICONTROL French], [!UICONTROL Finnish], [!UICONTROL German], [!UICONTROL Norwegian], [!UICONTROL Spanish] o [!UICONTROL Swedish]. El valor predeterminado para las nuevas campañas es [!UICONTROL English].<br><br>Esta configuración determina los países y regiones en los que se puede mostrar el anuncio. Asegúrese de elegir un idioma compatible con los objetivos de ubicación de la campaña. |
 | [!UICONTROL Budget Type] | Si el presupuesto es <i>[!UICONTROL Daily]</i> (predeterminado) o <i>[!UICONTROL Monthly]</i>.<br><br>Nota: si asigna la campaña a un portafolio optimizado, este valor se establece automáticamente en [!UICONTROL Daily]. |
 | [!UICONTROL Device] | Un tipo de dispositivo para el cual se realizan ajustes de oferta en el nivel de campaña o de grupo de anuncios: <i>[!UICONTROL smartphone]</i>, <i>[!UICONTROL tablet]</i> o <i>[!UICONTROL desktop]</i>. |
-| [!UICONTROL Bid Adjustment] | El ajuste de oferta para un tipo de destino especificado. Por ejemplo, si la oferta a nivel de palabra clave es 1 USD y el ajuste de oferta para smartphones es del 50 %, la oferta para smartphones es de 1,50 USD. De forma predeterminada, todos los destinos se ofertan en el nivel de palabra clave. Los porcentajes válidos pueden incluir:<ul><li>Smartphones y tablets: -100 (para no pujar por el tipo de dispositivo) y de -90 a 900</li><li>Escritorio: de 0 a 900</li></ul> |
+| [!UICONTROL Bid Adjustment] | El ajuste de oferta para un tipo de destino especificado. Por ejemplo, si la oferta a nivel de palabra clave es 1 USD y el ajuste de oferta para smartphones es 50%, entonces la oferta de smartphone es 1,50 USD. De forma predeterminada, todos los destinos se ofertan en el nivel de palabra clave. Los porcentajes válidos pueden incluir:<ul><li>Smartphones y tablets: -100 (para no pujar por el tipo de dispositivo) y de -90 a 900</li><li>Escritorio: de 0 a 900</li></ul> |
 | [!UICONTROL Creative Preferred Devices] | Tipos de dispositivos en los que prefiere mostrar el anuncio o el vínculo a sitios: <i>[!UICONTROL All]</i> (predeterminado) o <i>[!UICONTROL Mobile]</i>. Cuando se especifica Mobile, la red intenta mostrar el anuncio o el vínculo a sitios a usuarios de dispositivos móviles en lugar de a usuarios de equipos de escritorio o tabletas. De lo contrario, la red muestra el anuncio o el vínculo de sitio en cualquier tipo de dispositivo. <b>Nota:</b> La red no garantiza que mostrará el anuncio en el tipo de dispositivo preferido. |
 | [!UICONTROL Param2] | Cadena que se utilizará como valor de sustitución si la dirección URL base de la palabra clave o el título, la descripción o la dirección URL base del anuncio contiene la cadena de sustitución dinámica `{Param2}`. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos de publicidad en los que la utiliza (por ejemplo, el Título 1 y el Título 2 combinados pueden tener un máximo de 76 caracteres). Para eliminar el valor existente, use el valor `[delete]` (incluidos los corchetes). |
 | [!UICONTROL Param3] | Cadena que se utilizará como valor de sustitución si la dirección URL base de la palabra clave o el título, la descripción o la dirección URL base del anuncio contiene la cadena de sustitución dinámica `{Param3}`. La longitud máxima es de 70 caracteres, pero tenga en cuenta la longitud máxima de los elementos de publicidad en los que la utiliza (por ejemplo, el Título 1 y el Título 2 combinados pueden tener un máximo de 76 caracteres). Para eliminar el valor existente, use el valor `[delete]` (incluidos los corchetes). |

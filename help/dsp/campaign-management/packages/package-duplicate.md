@@ -3,24 +3,29 @@ title: Duplicación de un paquete
 description: Obtenga información sobre cómo duplicar un paquete.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-TQID: https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8
+TQID: 'https://experienceleague.adobe.com/fbOXyvipyiJ7rOlCroMLHvSqCqXPIEL9FTHmqm7CQu8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
 subfeature_v2:
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: fdc899fcc763a963e5878b2fcf313174b8f5a74b
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 0%
-
 ---
-
 # Duplicación de un paquete
 
 Duplique un paquete para crear un paquete con una configuración similar. Puede:
@@ -69,10 +74,10 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 * (Si no adjunta anuncios) Ponderación y programación de anuncios personalizados
 * Ubicaciones predeterminadas para ofertas programáticas garantizadas (PG) y ubicaciones para [!UICONTROL Simple Ad Serving] ofertas
 * (Si copia ubicaciones en una campaña diferente):
-   * Destinos geográficos
-   * Píxeles de evento
-   * Anuncios
-   * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] (que anulan los segmentos de nivel de anunciante)
+  * Destinos geográficos
+  * Píxeles de evento
+  * Anuncios
+  * Segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] (que anulan los segmentos de nivel de anunciante)
 
 ## Prácticas recomendadas para configurar el nuevo paquete
 
@@ -85,21 +90,21 @@ Todos los ajustes de las ubicaciones originales se duplican, excepto:
 
 * Tenga en cuenta lo siguiente y edite el nuevo paquete según sea necesario:
 
-   * ¿Cuenta la cuenta con fondos suficientes para dar cabida al nuevo presupuesto del paquete?
+  * ¿Cuenta la cuenta con fondos suficientes para dar cabida al nuevo presupuesto del paquete?
 
-   * ¿Necesita el nuevo paquete un presupuesto diferente al paquete anterior?
+  * ¿Necesita el nuevo paquete un presupuesto diferente al paquete anterior?
 
-   * ¿Se necesitan presupuestos mínimos para alguna de las ubicaciones?
+  * ¿Se necesitan presupuestos mínimos para alguna de las ubicaciones?
 
-   * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
+  * Cargue elementos creativos, incluida cualquier ponderación y programación personalizadas necesarias, y adjúntelos a las ubicaciones.
 
-   * Adjunte los píxeles de evento según sea necesario a las ubicaciones y los anuncios.
+  * Adjunte los píxeles de evento según sea necesario a las ubicaciones y los anuncios.
 
-   * Incluya destinos geográficos y segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] según sea necesario para las ubicaciones.
+  * Incluya destinos geográficos y segmentos de nivel de ubicación [!DNL DoubleVerify Authentic Brand Suitability] según sea necesario para las ubicaciones.
 
-   * Para obtener ofertas garantizadas mediante programación, utilice nuevos ID de acuerdo y cree ubicaciones predeterminadas.
+  * Para obtener ofertas garantizadas mediante programación, utilice nuevos ID de acuerdo y cree ubicaciones predeterminadas.
 
-   * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
+  * Cree nuevas ubicaciones para [!UICONTROL Simple Ad Serving] ofertas según sea necesario.
 
 * Para los paquetes que utilizan objetivos de optimización personalizados, use la configuración [[!UICONTROL Linked Package for Optimization Learnings Carryover] &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) para cada paquete a fin de usar los datos históricos de la campaña anterior como entrada para optimizar el paquete.
 

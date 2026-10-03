@@ -3,26 +3,37 @@ title: Acerca de insights
 description: Obtenga información acerca de las perspectivas de rendimiento con visualizaciones.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-TQID: https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4
+TQID: 'https://experienceleague.adobe.com/gcIUBvGMJiIZZ2XwCmEsidqFvp39cQBBxQYzpeUl-E4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: fee1be79-8e27-52a1-8e31-1d7086bf1a0e
+    internal-label: DSP Campaigns
+  - id: b60977f8-185a-5f3f-bdb1-909a47bdb8cc
+    internal-label: DSP Packages
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: b01c7841-b9d0-4fd5-8458-a6a6f601ad3d
+    internal-label: Campaigns
   - id: fddd8d8f-3ba1-4a22-b714-69d0e4655be8
+    internal-label: Packages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4da54d315e39dac4799887e876272102b8efe4f9
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1369
+source-wordcount: '1384'
 ht-degree: 0%
-
 ---
-
 # Acerca de insights
 
 Las perspectivas de rendimiento de alto nivel con visualizaciones le proporcionan la información que necesita para optimizar de forma eficaz sus campañas y descubrir nuevas oportunidades para escalar el rendimiento. Puede ver los datos de las campañas de un anunciante específico o explorar en profundidad un nivel inferior.
@@ -69,9 +80,9 @@ La pestaña [!UICONTROL Household Reach] proporciona métricas de alcance domés
 
   Los niveles de impacto incluyen:
 
-   * **Alto impacto:** Considere aumentar el presupuesto.
-   * **Impacto moderado**
-   * **Impacto limitado:** Necesita atención
+  * **Alto impacto:** Considere aumentar el presupuesto.
+  * **Impacto moderado**
+  * **Impacto limitado:** Necesita atención
 
 ### Ficha [!UICONTROL Household Conversion]
 
@@ -91,9 +102,9 @@ La ficha [!UICONTROL Household Conversion] proporciona métricas de conversión 
 
   Los niveles de impacto incluyen:
 
-   * **Alto impacto:** Considere aumentar el presupuesto.
-   * **Impacto moderado**
-   * **Impacto limitado:** Necesita atención
+  * **Alto impacto:** Considere aumentar el presupuesto.
+  * **Impacto moderado**
+  * **Impacto limitado:** Necesita atención
 
 ### Ficha [!UICONTROL Audience Analysis]
 
@@ -109,15 +120,15 @@ Las perspectivas incluyen:
 
 * **[!UICONTROL Audience Funnel Analysis]:** Una tabla de series temporales diarias que muestra cómo la audiencia de destino se reduce del grupo total disponible a la impresión real gana después de aplicar todos los filtros de elegibilidad y segmentación. Se muestran los datos del día anterior. Funnel incluye las siguientes métricas, en orden del más amplio al más estrecho:
 
-   * **[!UICONTROL Total Target Audience]:** Número total de usuarios únicos en la audiencia agregada.
+  * **[!UICONTROL Total Target Audience]:** Número total de usuarios únicos en la audiencia agregada.
 
-   * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** El número de usuarios de la audiencia de Target que estuvieron activos en el flujo de ofertas durante el período de 24 horas anterior. Este recuento incluye a todos los usuarios en el ámbito, independientemente de la oferta de colocación que tengan. Una disminución de [!UICONTROL Total Target Audience] a [!UICONTROL Reachable Audience] refleja la parte de la audiencia que no estuvo activa en el flujo de ofertas durante el período de informe, lo cual no es reflejo del rendimiento de las ofertas.
+  * **[!UICONTROL Reachable Audience (Last 24 Hours)]:** El número de usuarios de la audiencia de Target que estuvieron activos en el flujo de ofertas durante el período de 24 horas anterior. Este recuento incluye a todos los usuarios en el ámbito, independientemente de la oferta de colocación que tengan. Una disminución de [!UICONTROL Total Target Audience] a [!UICONTROL Reachable Audience] refleja la parte de la audiencia que no estuvo activa en el flujo de ofertas durante el período de informe, lo cual no es reflejo del rendimiento de las ofertas.
 
-   * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** El subconjunto de usuarios accesibles que permanecen después de aplicar los filtros de ubicación geográfica, tipo de dispositivo, sistema operativo y explorador. Si este número es significativamente menor que [!UICONTROL Reachable Audience], considere la posibilidad de revisar si la segmentación por tipo de dispositivo o ubicación geográfica es demasiado restrictiva.
+  * **[!UICONTROL Eligible Ad Opportunities (Post filtering)]:** El subconjunto de usuarios accesibles que permanecen después de aplicar los filtros de ubicación geográfica, tipo de dispositivo, sistema operativo y explorador. Si este número es significativamente menor que [!UICONTROL Reachable Audience], considere la posibilidad de revisar si la segmentación por tipo de dispositivo o ubicación geográfica es demasiado restrictiva.
 
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** El número de oportunidades elegibles para las que la ubicación envió una oferta. Una caída brusca en esta fase puede indicar restricciones de presupuesto o de ritmo que limitan el volumen de ofertas.
 
-   * **[!UICONTROL Impression Wins]:** El número de oportunidades para las que la ubicación ganó una impresión. Si las ganancias son mucho más bajas que las pujas, entonces el precio de la puja puede estar por debajo de la tasa de mercado prevaleciente para el inventario objetivo.
+  * **[!UICONTROL Impression Wins]:** El número de oportunidades para las que la ubicación ganó una impresión. Si las ganancias son mucho más bajas que las pujas, entonces el precio de la puja puede estar por debajo de la tasa de mercado prevaleciente para el inventario objetivo.
 
 ## Ver perspectivas de rendimiento
 

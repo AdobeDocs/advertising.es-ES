@@ -1,24 +1,28 @@
 ---
-title: Suscribirse y solicitar acceso a  [!DNL On Demand] ofertas de inventario premium
+title: Suscribirse y solicitar acceso a [!DNL On Demand] ofertas de inventario premium
 description: Obtenga información sobre cómo suscribirse a [!DNL On Demand] ofertas y solicitar acceso a ellas.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-TQID: https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs
+TQID: 'https://experienceleague.adobe.com/k3uCoU7U-K-TfHrlpFPn8XYtb-Vk5XWwmxCXby57tKs'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
 subfeature_v2:
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 393
+source-wordcount: '395'
 ht-degree: 0%
-
 ---
-
 # Suscribirse y solicitar acceso a [!DNL On Demand] ofertas de inventario premium
 
 *No disponible para usuarios con los tipos de cuenta [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] y [!UICONTROL Other]; anunciantes con la categoría [!UICONTROL Other]; y distribuidores*
@@ -81,15 +85,15 @@ Una vez que se [aprueba](/help/dsp/inventory/on-demand-inventory-view-status.md)
 
    * Para solicitar ofertas añadidas recientemente:
 
-      1. En el carrusel superior de editores, mantenga el cursor sobre el logotipo del editor y haga clic en **[!UICONTROL See Deals]**.
+     1. En el carrusel superior de editores, mantenga el cursor sobre el logotipo del editor y haga clic en **[!UICONTROL See Deals]**.
 
-      1. Para suscribirse a una oferta individual, haga clic en **[!UICONTROL Request]** en la columna [!UICONTROL Action] de la fila correspondiente.
+     1. Para suscribirse a una oferta individual, haga clic en **[!UICONTROL Request]** en la columna [!UICONTROL Action] de la fila correspondiente.
 
    * Para solicitar ofertas desde la vista [!UICONTROL Deal]:
 
-      1. Haga clic en **[!UICONTROL Deal view]**.
+     1. Haga clic en **[!UICONTROL Deal view]**.
 
-      1. Haga clic en **[!UICONTROL Request]** en la columna [!UICONTROL Action] de la fila correspondiente.
+     1. Haga clic en **[!UICONTROL Request]** en la columna [!UICONTROL Action] de la fila correspondiente.
 
 >[!MORELIKETHIS]
 >

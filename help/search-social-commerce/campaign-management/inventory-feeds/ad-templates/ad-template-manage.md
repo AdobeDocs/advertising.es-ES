@@ -3,18 +3,21 @@ title: Administrar plantillas de publicidad para fuentes de inventario
 description: Obtenga información acerca de la administración de plantillas de publicidad a través de las cuales se pueden procesar los datos de inventario para administrar la estructura de cuentas y enviar anuncios dinámicos.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-TQID: https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM
+TQID: 'https://experienceleague.adobe.com/pHmH477ZgwGePl4cVVwBjBEsrRUdvBY2hJwksuUOUvM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: f286be7c-8102-5b20-b4ca-1aadd651703f
+    internal-label: Search Inventory Feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 47de92fd6d4b1d481380a58f75ec4735d95fca73
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: '1427'
 ht-degree: 0%
-
 ---
-
 # Administrar plantillas de publicidad para fuentes de inventario
 
 *[!DNL Google Ads], [!DNL LY Ads] (eliminar solo acciones), [!DNL Microsoft Advertising] y [!DNL Yandex] cuentas solamente*
@@ -41,9 +44,9 @@ Cree plantillas independientes para anuncios de texto y de texto expandido/exten
 
    * Para clonar una plantilla existente:
 
-      1. Seleccione la casilla de verificación situada junto a la plantilla que desee copiar.
+     1. Seleccione la casilla de verificación situada junto a la plantilla que desee copiar.
 
-      1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Create/Clone]** y, a continuación, seleccione la red publicitaria aplicable.
+     1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Create/Clone]** y, a continuación, seleccione la red publicitaria aplicable.
 
    * (Para editar una plantilla existente) Junto al nombre de la plantilla, haga clic en ![Ver/editar configuración](/help/search-social-commerce/assets/settings.png "Ver/editar configuración").
 
@@ -76,43 +79,43 @@ Cree plantillas independientes para anuncios de texto y de texto expandido/exten
 
       * Para agregar una variación de anuncio, haga lo siguiente:
 
-         1. Haga clic en **[!UICONTROL Add Ad Variation]** para crear un anuncio de texto, en **[!UICONTROL Add ETA Variation]** para crear un anuncio de texto expandido/extendido o en **[!UICONTROL Add RSA Variation]** para crear un anuncio de texto adaptable.
+        1. Haga clic en **[!UICONTROL Add Ad Variation]** para crear un anuncio de texto, en **[!UICONTROL Add ETA Variation]** para crear un anuncio de texto expandido/extendido o en **[!UICONTROL Add RSA Variation]** para crear un anuncio de texto adaptable.
 
-            Una vez especificado el tipo de anuncio, solo puede crear ese tipo de anuncio con la plantilla.
+           Una vez especificado el tipo de anuncio, solo puede crear ese tipo de anuncio con la plantilla.
 
-         1. Especifique la configuración del anuncio.
+        1. Especifique la configuración del anuncio.
 
-            Para anuncios de búsqueda adaptables, puede incluir de 3 a 15 titulares y de 2 a 4 descripciones.
+           Para anuncios de búsqueda adaptables, puede incluir de 3 a 15 titulares y de 2 a 4 descripciones.
 
-         1. (Opcional) Para rellenar previamente todos los campos alternativos y copiar con texto de los campos originales de copia de publicidad, active la casilla de verificación situada junto a **[!UICONTROL Prefill]**.
+        1. (Opcional) Para rellenar previamente todos los campos alternativos y copiar con texto de los campos originales de copia de publicidad, active la casilla de verificación situada junto a **[!UICONTROL Prefill]**.
 
-         1. (Opcional) Para agregar otro conjunto de copias de anuncios a un anuncio, que se puede utilizar si alguna de las líneas del anuncio original supera la longitud máxima una vez que algún parámetro dinámico se haya sustituido por datos durante la propagación, haga clic en **[!UICONTROL Add Alternate]** y, a continuación, agregue los valores alternativos.
+        1. (Opcional) Para agregar otro conjunto de copias de anuncios a un anuncio, que se puede utilizar si alguna de las líneas del anuncio original supera la longitud máxima una vez que algún parámetro dinámico se haya sustituido por datos durante la propagación, haga clic en **[!UICONTROL Add Alternate]** y, a continuación, agregue los valores alternativos.
 
-            >[!NOTE]
-            >
-            >* Si se selecciona la opción [!UICONTROL Prefill], los campos alternativos se rellenan previamente con los campos originales y puede editarlos según sea necesario.
-            >* Solo los campos de copia de anuncio que superen la longitud máxima se sustituyen por el valor alternativo. Por ejemplo, si solo un titular o título original es demasiado largo, la variación de anuncio generada utiliza el titular o título alternativo y las descripciones originales. Por lo tanto, asegúrese de que la copia de anuncio alternativa tenga sentido cuando se combine con la copia de anuncio original.
-            >* Si la copia de anuncio original cumple los requisitos de longitud del motor de búsqueda, se descarta la copia de anuncio alternativa.
-            >* Puede especificar hasta cuatro alternativas para cada campo de copia de anuncio.
+           >[!NOTE]
+           >
+           >* Si se selecciona la opción [!UICONTROL Prefill], los campos alternativos se rellenan previamente con los campos originales y puede editarlos según sea necesario.
+           >* Solo los campos de copia de anuncio que superen la longitud máxima se sustituyen por el valor alternativo. Por ejemplo, si solo un titular o título original es demasiado largo, la variación de anuncio generada utiliza el titular o título alternativo y las descripciones originales. Por lo tanto, asegúrese de que la copia de anuncio alternativa tenga sentido cuando se combine con la copia de anuncio original.
+           >* Si la copia de anuncio original cumple los requisitos de longitud del motor de búsqueda, se descarta la copia de anuncio alternativa.
+           >* Puede especificar hasta cuatro alternativas para cada campo de copia de anuncio.
 
-         * Para editar una variación de anuncio, haga lo siguiente:
+        * Para editar una variación de anuncio, haga lo siguiente:
 
-            1. Edite la configuración del anuncio.
+          1. Edite la configuración del anuncio.
 
-               Para anuncios de búsqueda adaptables, puede incluir de 3 a 15 titulares y de 2 a 4 descripciones.
+             Para anuncios de búsqueda adaptables, puede incluir de 3 a 15 titulares y de 2 a 4 descripciones.
 
-            1. (Opcional) Para rellenar previamente todos los campos alternativos y copiar con texto de los campos originales de copia de publicidad, active la casilla de verificación situada junto a **[!UICONTROL Prefill]**.
+          1. (Opcional) Para rellenar previamente todos los campos alternativos y copiar con texto de los campos originales de copia de publicidad, active la casilla de verificación situada junto a **[!UICONTROL Prefill]**.
 
-            1. (Opcional) Para agregar otro conjunto de copias de anuncios a un anuncio, que se puede utilizar si alguna de las líneas del anuncio original supera la longitud máxima una vez que algún parámetro dinámico se haya sustituido por datos durante la propagación, haga clic en **[!UICONTROL Add Alternate]** y, a continuación, agregue los valores alternativos.
+          1. (Opcional) Para agregar otro conjunto de copias de anuncios a un anuncio, que se puede utilizar si alguna de las líneas del anuncio original supera la longitud máxima una vez que algún parámetro dinámico se haya sustituido por datos durante la propagación, haga clic en **[!UICONTROL Add Alternate]** y, a continuación, agregue los valores alternativos.
 
-               >[!NOTE]
-               >
-               >* Si se selecciona la opción [!UICONTROL Prefill], los campos alternativos se rellenan previamente con los campos originales y puede editarlos según sea necesario.
-               >* Solo los campos de copia de anuncio que superen la longitud máxima se sustituyen por el valor alternativo. Por ejemplo, si solo un titular o título original es demasiado largo, la variación de anuncio generada utiliza el titular o título alternativo y las descripciones originales. Por lo tanto, asegúrese de que la copia de anuncio alternativa tenga sentido cuando se combine con la copia de anuncio original.
-               >* Si la copia de anuncio original cumple los requisitos de longitud del motor de búsqueda, se descarta la copia de anuncio alternativa.
-               >* Puede especificar hasta cuatro alternativas para cada campo de copia de anuncio.
+             >[!NOTE]
+             >
+             >* Si se selecciona la opción [!UICONTROL Prefill], los campos alternativos se rellenan previamente con los campos originales y puede editarlos según sea necesario.
+             >* Solo los campos de copia de anuncio que superen la longitud máxima se sustituyen por el valor alternativo. Por ejemplo, si solo un titular o título original es demasiado largo, la variación de anuncio generada utiliza el titular o título alternativo y las descripciones originales. Por lo tanto, asegúrese de que la copia de anuncio alternativa tenga sentido cuando se combine con la copia de anuncio original.
+             >* Si la copia de anuncio original cumple los requisitos de longitud del motor de búsqueda, se descarta la copia de anuncio alternativa.
+             >* Puede especificar hasta cuatro alternativas para cada campo de copia de anuncio.
 
-         * Para quitar una variación de anuncio, haga clic en **[!UICONTROL Remove ETA Variation]** (para anuncios de texto expandidos/extendidos) o **[!UICONTROL Remove RSA Variation]** (para anuncios de búsqueda adaptables) junto a la variación de anuncio, según corresponda.
+        * Para quitar una variación de anuncio, haga clic en **[!UICONTROL Remove ETA Variation]** (para anuncios de texto expandidos/extendidos) o **[!UICONTROL Remove RSA Variation]** (para anuncios de búsqueda adaptables) junto a la variación de anuncio, según corresponda.
 
    1. (Solo plantillas de compra) Haga clic en la ficha **[!UICONTROL Product Groups]** y, a continuación, especifique la información sobre los grupos de productos a los que desea dirigirse.
 

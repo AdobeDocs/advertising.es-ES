@@ -3,20 +3,26 @@ title: Administrar vistas predeterminadas y personalizadas
 description: Aprenda a personalizar las vistas predeterminadas y las vistas personalizadas.
 exl-id: 1f240760-6186-471f-bf1a-3e0ee13ce550
 feature: Search Common Tasks, Search Custom Data Views
-TQID: https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U
+TQID: 'https://experienceleague.adobe.com/aHuRfuYTOiAOMEeer1ud9yRDiC52UF9Hb-mAi1Y-l1U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bcc57258-3285-5d02-a731-d86f57a58c47
+    internal-label: Search Common Tasks
+  - id: d6e2ef48-fac7-5a4a-96ff-9ac0264dc826
+    internal-label: Search Custom Data Views
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 4453
+source-wordcount: '4470'
 ht-degree: 0%
-
 ---
-
 # Administrar vistas predeterminadas y personalizadas
 
 <!-- Doesn't include instructions for legacy Portfolios or Reports views -->
@@ -43,17 +49,17 @@ En la interfaz de usuario heredada, cada vista está disponible como acceso dire
 
 * (Vistas personalizadas) Desde el panel de navegación izquierdo:
 
-   1. En el panel izquierdo, haga clic en el menú **[!UICONTROL Custom Views]** para expandirlo.
+  1. En el panel izquierdo, haga clic en el menú **[!UICONTROL Custom Views]** para expandirlo.
 
-      Las vistas se ordenan por entidad aplicable.
+     Las vistas se ordenan por entidad aplicable.
 
-   1. Expandir los menús disponibles.
+  1. Expandir los menús disponibles.
 
-      &quot;[!UICONTROL Universal Views]&quot; incluye vistas personalizadas que se pueden usar en todas las vistas de entidades. Todas las demás vistas personalizadas se agrupan por tipo de entidad.
+     &quot;[!UICONTROL Universal Views]&quot; incluye vistas personalizadas que se pueden usar en todas las vistas de entidades. Todas las demás vistas personalizadas se agrupan por tipo de entidad.
 
-   1. Haga clic en el nombre de la vista.
+  1. Haga clic en el nombre de la vista.
 
-      Si la vista es universal o se aplica a la entidad actual, la tabla de datos se vuelve a mostrar según la configuración de la vista. Si la vista se aplica a una entidad diferente, los datos de la entidad aplicable se muestran según la configuración de la vista.
+     Si la vista es universal o se aplica a la entidad actual, la tabla de datos se vuelve a mostrar según la configuración de la vista. Si la vista se aplica a una entidad diferente, los datos de la entidad aplicable se muestran según la configuración de la vista.
 
 ## Creación de una vista personalizada {#create-custom-view}
 
@@ -165,19 +171,19 @@ La configuración predeterminada del sistema varía según la vista de administr
 
 * Desde la nueva interfaz de usuario:
 
-   1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
+  1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
 
-   1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
+  1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
 
-   1. Mantenga el cursor sobre el nombre de la vista y haga clic en ![Revertir](/help/search-social-commerce/assets/revert-new.png).
+  1. Mantenga el cursor sobre el nombre de la vista y haga clic en ![Revertir](/help/search-social-commerce/assets/revert-new.png).
 
 * Desde las vistas de administración de campañas heredadas:
 
-   1. En el panel izquierdo, haga clic en ![Vistas personalizadas](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Vistas personalizadas") para expandir el menú [!UICONTROL Custom Views].
+  1. En el panel izquierdo, haga clic en ![Vistas personalizadas](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Vistas personalizadas") para expandir el menú [!UICONTROL Custom Views].
 
-      Las vistas se ordenan por entidad aplicable.
+     Las vistas se ordenan por entidad aplicable.
 
-   1. Junto al nombre de la vista, haga clic en ![Restaurar a la configuración predeterminada](/help/search-social-commerce/assets/restore.png "Restaurar a la configuración predeterminada").
+  1. Junto al nombre de la vista, haga clic en ![Restaurar a la configuración predeterminada](/help/search-social-commerce/assets/restore.png "Restaurar a la configuración predeterminada").
 
 ## Eliminar una vista personalizada
 
@@ -187,21 +193,21 @@ Si elimina una vista personalizada que se ha aplicado a la ficha actual, la fich
 
 * Desde la nueva interfaz de usuario:
 
-   1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
+  1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
 
-   1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
+  1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
 
-   1. Mantenga el cursor sobre el nombre de la vista y haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png).
+  1. Mantenga el cursor sobre el nombre de la vista y haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png).
 
-   1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
+  1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
 
 * Desde las vistas de administración de campañas heredadas:
 
-   1. En el panel izquierdo, haga clic en ![Vistas personalizadas](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Vistas personalizadas") para expandir el menú [!UICONTROL Custom Views].
+  1. En el panel izquierdo, haga clic en ![Vistas personalizadas](/help/search-social-commerce/assets/custom-views-left-rail_icon.png "Vistas personalizadas") para expandir el menú [!UICONTROL Custom Views].
 
-   1. Mantenga el cursor sobre el nombre de vista personalizada y haga clic en ![Eliminar](/help/search-social-commerce/assets/delete.png "Eliminar").
+  1. Mantenga el cursor sobre el nombre de vista personalizada y haga clic en ![Eliminar](/help/search-social-commerce/assets/delete.png "Eliminar").
 
-   1. En el mensaje de confirmación, haga clic en **[!UICONTROL Continue]**.
+  1. En el mensaje de confirmación, haga clic en **[!UICONTROL Continue]**.
 
 ## Configuración de vista predeterminada y personalizada
 

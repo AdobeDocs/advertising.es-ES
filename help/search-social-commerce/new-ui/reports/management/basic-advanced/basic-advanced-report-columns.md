@@ -2,13 +2,21 @@
 title: Columnas de informes para informes básicos y avanzados
 description: Obtenga información sobre las columnas de datos disponibles para los informes básicos y avanzados.
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d45eb490f9dbb7da89bd1270582e5548b70cbd31
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
+    internal-label: Search Basic Reports
+  - id: c51771d4-46e9-5151-913c-59d4e047a4f1
+    internal-label: Search Advanced Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '4023'
 ht-degree: 0%
-
 ---
-
 # Columnas de informes para informes básicos y avanzados
 
 | Columna | Descripción |
@@ -172,7 +180,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group Status] | El estado de la categoría de productos. |
 | [!UICONTROL Product Groupings] | El grupo de productos principal. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] anuncios de listas de productos) El id. del producto que se muestra con el anuncio.<br><br><b>Nota:</b> El id. solo se captura cuando la lista de productos incluye el parámetro de seguimiento `ev_plx=<GMC product ID>`, que debe agregar en [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Ingresos de la métrica de conversión (por ejemplo, 1 por un registro o 12 por un pedido de 12 USD). Si varias unidades de oferta tienen el mismo ID de transacción, los ingresos del ID de seguimiento se dividen según el número de clics en la fecha de clic especificada (cuando los datos de clics están disponibles). |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Ingresos de la métrica de conversión (por ejemplo, 1 por un registro o 12 por un pedido de USD de 12). Si varias unidades de oferta tienen el mismo ID de transacción, los ingresos del ID de seguimiento se dividen según el número de clics en la fecha de clic especificada (cuando los datos de clics están disponibles). |
 | [!UICONTROL Reach] | ([!DNL Meta] campañas solamente) El número de personas que vieron sus anuncios al menos una vez. Nota: [!DNL Meta] anula la duplicación del alcance de los perfiles de usuario diariamente, por lo que los números notificados por [!DNL Meta] y por Search, Social y Commerce pueden diferir. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Una región o estado de EE. UU./Canadá para el que se originaron impresiones o clics. Se determina a partir de la dirección IP del usuario. |
 | [!UICONTROL SE Creative ID] | ID de anuncio asignado por la red. |

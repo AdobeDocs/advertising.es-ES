@@ -3,18 +3,21 @@ title: Eliminar hojas de edición masiva y archivos de error cargados
 description: Obtenga información sobre cómo eliminar los archivos de hojas de edición masiva y los archivos de error.
 exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-TQID: https://experienceleague.adobe.com/Io-E8MwRgTvZ9PmNPlMgQHDojH4qwQjfBERNQ22H8Xc
+TQID: 'https://experienceleague.adobe.com/Io-E8MwRgTvZ9PmNPlMgQHDojH4qwQjfBERNQ22H8Xc'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 882cfb76-bb33-50bf-a743-3ada27f6338a
+    internal-label: Search Bulksheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 130
+source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
 # Eliminar hojas de edición masiva y archivos de error cargados
 
 Puede eliminar manualmente archivos de hojas de edición masiva, archivos de error de validación de páginas de aterrizaje y otros archivos de error. Los archivos se eliminan automáticamente 30 días después de cargarse o generarse.

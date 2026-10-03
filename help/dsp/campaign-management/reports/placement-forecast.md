@@ -3,22 +3,26 @@ title: Ver el informe de previsión de ubicación
 description: Ver el número de impresiones, el gasto y la oferta máxima óptima prevista para una estrategia de segmentación determinada para una ubicación.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-TQID: https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8
+TQID: 'https://experienceleague.adobe.com/2yZV8tIzlLDMAVjDkqcUVt55-a-L0vjLFkWrni-mNU8'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 548
+source-wordcount: '551'
 ht-degree: 0%
-
 ---
-
 # Ver el informe de previsión de ubicación
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -36,11 +40,11 @@ La previsión incluye la siguiente información:
 
 * **[!UICONTROL Summary]:**
 
-   * **[!UICONTROL Estimated CPM]:** El costo estimado por cada mil impresiones (eCPM) que la configuración de direccionamiento puede esperar alcanzar.
+  * **[!UICONTROL Estimated CPM]:** El costo estimado por cada mil impresiones (eCPM) que la configuración de direccionamiento puede esperar alcanzar.
 
-   * **[!UICONTROL Budget]:** Presupuesto estimado para la configuración de direccionamiento.
+  * **[!UICONTROL Budget]:** Presupuesto estimado para la configuración de direccionamiento.
 
-   * **[!UICONTROL Impression]:** El número estimado de impresiones para la configuración de direccionamiento.
+  * **[!UICONTROL Impression]:** El número estimado de impresiones para la configuración de direccionamiento.
 
 * **[!UICONTROL Budget Yield Curve]:** El número estimado de impresiones que la ubicación puede entregar en diferentes niveles de presupuesto si todas las demás configuraciones de segmentación son iguales.
 
@@ -66,13 +70,13 @@ La previsión incluye la siguiente información:
 
 * Datos históricos: la previsión de ubicación está disponible cuando hay suficientes datos históricos disponibles. Los siguientes son ejemplos de cuándo pueden estar disponibles datos históricos insuficientes:
 
-   * La ubicación se dirige a una nueva región para la campaña.
+  * La ubicación se dirige a una nueva región para la campaña.
 
-   * La ubicación se dirige a un nuevo acuerdo de inventario para la campaña.
+  * La ubicación se dirige a un nuevo acuerdo de inventario para la campaña.
 
-   * La ubicación utiliza un nuevo tipo de anuncio para la campaña.
+  * La ubicación utiliza un nuevo tipo de anuncio para la campaña.
 
-     Una ubicación suele ser una colección de varias plantillas de publicidad, tal como se definen en las plataformas del lado del suministro. Por lo tanto, aunque la ubicación haya existido durante mucho tiempo, si la plantilla de anuncio subyacente es nueva, la herramienta de previsión no puede crear una previsión.
+    Una ubicación suele ser una colección de varias plantillas de publicidad, tal como se definen en las plataformas del lado del suministro. Por lo tanto, aunque la ubicación haya existido durante mucho tiempo, si la plantilla de anuncio subyacente es nueva, la herramienta de previsión no puede crear una previsión.
 
 ## Abrir el informe de previsión de ubicación
 

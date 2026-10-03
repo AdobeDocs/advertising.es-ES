@@ -1,25 +1,32 @@
 ---
 title: '[!DNL Microsoft Advertising] configuración de campaña'
-description: Hacer referencia a la configuración de  [!DNL Microsoft Advertising] campañas.
+description: Hacer referencia a la configuración de [!DNL Microsoft Advertising] campañas.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w
+TQID: 'https://experienceleague.adobe.com/1odLCTaPgF8iGeVgys2j124fhX1K208YYq0ftDp9l7w'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 3111796b54e2e633ca734c7141efbc2d82f3087d
+    internal-label: Machine learning
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: '2113'
 ht-degree: 0%
-
 ---
-
 # [!DNL Microsoft Advertising] configuración de campaña
 
 ## \[Pantalla de creación de campaña\]
@@ -83,7 +90,7 @@ la campaña puede contener:
 
 * *[!UICONTROL Manual CPC]*: (Campañas de compra para marcas; [!DNL Microsoft Store Ads] campañas; obsoleto para otros tipos de campaña) Utiliza el modelo de coste por clic (CPC). Para algunos tipos de anuncio, puede permitir que la red de anuncios cambie las ofertas de la campaña:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (deshabilitado de forma predeterminada): Esta opción es la misma que se usa la opción &quot;[!UICONTROL Enhanced CPC]&quot;.
+  * **[!UICONTROL Enable Enhanced CPC]** (deshabilitado de forma predeterminada): Esta opción es la misma que se usa la opción &quot;[!UICONTROL Enhanced CPC]&quot;.
 
 * *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] campañas) Utiliza el modelo de coste por adquisición (CPA).
 
@@ -224,21 +231,21 @@ Para obtener información acerca de la disponibilidad, consulte la ayuda de Micr
 
 * Para cargar imágenes:
 
-   1. En la ficha [!UICONTROL Upload from Device], haga clic en **[!UICONTROL +]** y seleccione imágenes de su dispositivo o red.
+  1. En la ficha [!UICONTROL Upload from Device], haga clic en **[!UICONTROL +]** y seleccione imágenes de su dispositivo o red.
 
-   1. Para cada imagen:
+  1. Para cada imagen:
 
-      1. Seleccione la relación de aspecto.
+     1. Seleccione la relación de aspecto.
 
-      1. Arrastre y coloque el cuadro de recorte según sea necesario para seleccionar la parte visible de la imagen y cambie el tamaño de la parte visible de la imagen según sea necesario siempre que sea posible.
+     1. Arrastre y coloque el cuadro de recorte según sea necesario para seleccionar la parte visible de la imagen y cambie el tamaño de la parte visible de la imagen según sea necesario siempre que sea posible.
 
-      1. (Opcional) Seleccione relaciones de aspecto adicionales y, opcionalmente, cambie la posición y el tamaño de la imagen según sea necesario para cada relación de aspecto seleccionada.
+     1. (Opcional) Seleccione relaciones de aspecto adicionales y, opcionalmente, cambie la posición y el tamaño de la imagen según sea necesario para cada relación de aspecto seleccionada.
 
-         Se crea un recurso para cada relación de aspecto seleccionada.
+        Se crea un recurso para cada relación de aspecto seleccionada.
 
-      1. Haga clic en **[!UICONTROL Proceed]**.
+     1. Haga clic en **[!UICONTROL Proceed]**.
 
-   1. Cuando termine de especificar imágenes, haga clic en **[!UICONTROL Upload]**.
+  1. Cuando termine de especificar imágenes, haga clic en **[!UICONTROL Upload]**.
 
 * Para seleccionar imágenes de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione las imágenes.
 
@@ -246,21 +253,21 @@ Para obtener información acerca de la disponibilidad, consulte la ayuda de Micr
 
 * Para cargar imágenes:
 
-   1. En la ficha [!UICONTROL Upload from Device], haga clic en **[!UICONTROL +]** y seleccione imágenes de su dispositivo o red.
+  1. En la ficha [!UICONTROL Upload from Device], haga clic en **[!UICONTROL +]** y seleccione imágenes de su dispositivo o red.
 
-   1. Para cada imagen:
+  1. Para cada imagen:
 
-      1. Seleccione la relación de aspecto.
+     1. Seleccione la relación de aspecto.
 
-      1. Arrastre y coloque el cuadro de recorte según sea necesario para seleccionar la parte visible de la imagen y cambie el tamaño de la parte visible de la imagen según sea necesario siempre que sea posible.
+     1. Arrastre y coloque el cuadro de recorte según sea necesario para seleccionar la parte visible de la imagen y cambie el tamaño de la parte visible de la imagen según sea necesario siempre que sea posible.
 
-      1. (Opcional) Seleccione relaciones de aspecto adicionales y, opcionalmente, cambie la posición y el tamaño de la imagen según sea necesario para cada relación de aspecto seleccionada.
+     1. (Opcional) Seleccione relaciones de aspecto adicionales y, opcionalmente, cambie la posición y el tamaño de la imagen según sea necesario para cada relación de aspecto seleccionada.
 
-         Se crea un recurso para cada relación de aspecto seleccionada.
+        Se crea un recurso para cada relación de aspecto seleccionada.
 
-      1. Haga clic en **[!UICONTROL Proceed]**.
+     1. Haga clic en **[!UICONTROL Proceed]**.
 
-   1. Cuando termine de especificar imágenes, haga clic en **[!UICONTROL Upload]**.
+  1. Cuando termine de especificar imágenes, haga clic en **[!UICONTROL Upload]**.
 
 * Para seleccionar imágenes de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione las imágenes.
 
@@ -268,9 +275,9 @@ Para obtener información acerca de la disponibilidad, consulte la ayuda de Micr
 
 * Para introducir texto:
 
-   1. En la ficha [!UICONTROL Enter Text], escriba el texto.
+  1. En la ficha [!UICONTROL Enter Text], escriba el texto.
 
-   1. (Opcional) Para agregar otra cadena de texto, haga clic en **[!UICONTROL + Add]** e introduzca la cadena.
+  1. (Opcional) Para agregar otra cadena de texto, haga clic en **[!UICONTROL + Add]** e introduzca la cadena.
 
 * Para seleccionar recursos de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione los recursos.
 
@@ -278,9 +285,9 @@ Para obtener información acerca de la disponibilidad, consulte la ayuda de Micr
 
 * Para introducir texto:
 
-   1. En la ficha [!UICONTROL Enter Text], escriba el texto.
+  1. En la ficha [!UICONTROL Enter Text], escriba el texto.
 
-   1. (Opcional) Para agregar otra cadena de texto, haga clic en **[!UICONTROL + Add]** e introduzca la cadena.
+  1. (Opcional) Para agregar otra cadena de texto, haga clic en **[!UICONTROL + Add]** e introduzca la cadena.
 
 * Para seleccionar recursos de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione los recursos.
 
@@ -288,9 +295,9 @@ Para obtener información acerca de la disponibilidad, consulte la ayuda de Micr
 
 * Para introducir texto:
 
-   1. En la ficha [!UICONTROL Enter Text], escriba el texto.
+  1. En la ficha [!UICONTROL Enter Text], escriba el texto.
 
-   1. (Opcional) Para agregar otra cadena de texto, haga clic en **[!UICONTROL + Add]** e introduzca la cadena.
+  1. (Opcional) Para agregar otra cadena de texto, haga clic en **[!UICONTROL + Add]** e introduzca la cadena.
 
 * Para seleccionar recursos de su [!UICONTROL Asset Library], haga clic en **[!UICONTROL Asset Library]** y seleccione los recursos.
 

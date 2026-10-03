@@ -3,24 +3,31 @@ title: Cálculo de las reglas de atribución
 description: Descubra cómo Adobe Advertising calcula cada tipo de regla de atribución.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports, DSP Custom Reports
-TQID: https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE
+TQID: 'https://experienceleague.adobe.com/LJri0oJaUSYMUwauq-xu8u41CYmQcfmJBbYXrMd4YUE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: a8f4be51-fec2-5e52-b41e-a611c28e444c
+    internal-label: DSP Custom Reports
 subfeature_v2:
   - id: cc3b7f3c-58f0-4ba4-b808-391002930fd4
+    internal-label: Custom reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 2707
+source-wordcount: '2767'
 ht-degree: 0%
-
 ---
-
 # Cálculo de las reglas de atribución para Adobe Advertising
 
 *Anunciantes con solo seguimiento de conversión de Adobe Advertising*
@@ -33,15 +40,15 @@ También puede seleccionar una regla de atribución en los siguientes lugares pa
 
 * DSP
 
-   * Informes personalizados
+  * Informes personalizados
 
 * Buscar, Social y Commerce
 
-   * Informes
+  * Informes
 
-   * Vistas predeterminadas y personalizadas
+  * Vistas predeterminadas y personalizadas
 
-   * (Algunas funciones de usuario) Simulaciones a nivel de Portfolio.
+  * (Algunas funciones de usuario) Simulaciones a nivel de Portfolio.
 
 >[!NOTE]
 >
@@ -66,7 +73,7 @@ Cuando la conversión solo va precedida de impresiones, la conversión se consid
 
 Ruta del evento: Click1, Click2, Click3, Conversión de 120 USD
 
-La conversión se atribuye a Click 3 por un importe de 120 USD.
+La conversión se atribuye a Click 3 en la cantidad de 120 USD.
 
 ### Ejemplo con impresiones y clics
 
@@ -84,9 +91,9 @@ Ruta del evento: impresión 1, impresión 2, impresión 3, conversión de 120 US
 
 La conversión se atribuye a la impresión 3. Como la conversión es una visualización, se aplica el método de valoración de visualización seleccionado en la sección &quot;Atribución de conversión&quot; de la configuración del informe:
 
-* Si el parámetro de informe especifica una ponderación de visualización ponderada, dicha ponderación se aplicará a la visualización. Por ejemplo, si la ponderación de visualización del anunciante es del 40 %, entonces 120 USD x 40 % = 48 USD, por lo que 48 USD se atribuye a la impresión 3.
+* Si el parámetro de informe especifica una ponderación de visualización ponderada, dicha ponderación se aplicará a la visualización. Por ejemplo, si la ponderación de visualización del anunciante es del 40 %, entonces 120 USD x 40 % = 48 USD, de modo que 48 USD se atribuye a la impresión 3.
 
-* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, no se aplica ninguna ponderación de visualización y los 120 USD completos se atribuyen a la impresión 3.
+* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, no se aplica ninguna ponderación de visualización y la USD completa 120 se atribuye a la impresión 3.
 
 +++
 
@@ -127,9 +134,9 @@ Ruta del evento: impresión 1, impresión 2, impresión 3, conversión de 120 US
 La conversión se atribuye a la impresión 1. Como la conversión es una visualización, el método de valoración de visualización seleccionado en la Conversión &quot;(Mostrar campañas)
 Se aplica la sección &quot;Atribución&quot; de la configuración del informe:
 
-* Si el parámetro de informe especifica una ponderación de visualización ponderada, dicha ponderación se aplicará a la visualización. Por ejemplo, si la ponderación de visualización del anunciante es del 40 %, entonces 120 x 40 % = 48 USD, por lo que 48 USD se atribuye a la impresión 1.
+* Si el parámetro de informe especifica una ponderación de visualización ponderada, dicha ponderación se aplicará a la visualización. Por ejemplo, si la ponderación de visualización del anunciante es del 40 %, entonces 120 x 40 % = 48 USD, de modo que 48 USD se atribuye a la impresión 1.
 
-* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, no se aplica ninguna ponderación de visualización y los 120 USD completos se atribuyen a la impresión 1.
+* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, no se aplica ninguna ponderación de visualización y la USD completa 120 se atribuye a la impresión 1.
 
 +++
 
@@ -137,7 +144,7 @@ Se aplica la sección &quot;Atribución&quot; de la configuración del informe:
 
 ## Peso Primer evento Más
 
-Atribuye la conversión a todos los eventos de la serie que se produjeron en la [ventana retrospectiva de clics](/help/search-social-commerce/glossary.md#c-d) del anunciante y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j), pero otorga el mayor peso al primer evento y sucesivamente menos peso a los siguientes eventos. Esta regla solo está disponible para eventos en dispositivos únicos.
+Atribuye la conversión a todos los eventos de la serie que se produjeron en la [ventana retrospectiva de clics](/help/search-social-commerce/glossary.md#c-d) del anunciante y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j), pero otorga el mayor peso al primer evento y sucesivamente menos peso a los siguientes eventos.Esta regla solo está disponible para eventos de entre dispositivos únicos.
 
 Cuando la conversión solo va precedida de impresiones, la conversión se considera una *visualización*, que se pondera según la [configuración de ponderación de visualización](/help/search-social-commerce/glossary.md#uv) del anunciante o, como se especifique, según el método de valoración de visualización especificado en los parámetros de informe, vista o simulación personalizada.
 
@@ -187,7 +194,7 @@ Dado que la conversión es una visualización, se aplica el método de valoraci�
 
 * Si el parámetro de informe especifica una ponderación de visualizaciones ponderada, dicha ponderación se aplicará a los valores de impresión. Por ejemplo, si la ponderación de visualizaciones es del 40 %, entonces Impresión 1 = 24 USD, Impresión 2 = 16 USD, Impresión 3 = 8 USD (48 USD en total)
 
-* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, no se aplica ninguna ponderación de visualización a la impresión y se divide el valor completo de 120 USD entre las tres impresiones: Impresión 1 = 60 USD, Impresión 2 = 40 USD, Impresión 3 = 20 USD (120 USD en total)
+* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, no se aplica ninguna ponderación de visualización a la impresión y la USD completa 120 se divide entre las tres impresiones: Impresión 1 = 60 USD, Impresión 2 = 40 USD, Impresión 3 = 20 USD (120 USD en total)
 
 +++
 
@@ -251,7 +258,7 @@ Dado que la conversión es una visualización, se aplica el método de valoraci�
 
 * Si el parámetro de informe especifica una ponderación de visualizaciones ponderada, dicha ponderación se aplicará a los valores de impresión. Por ejemplo, si la ponderación de visualizaciones es del 40 %, entonces Impresión 1 = 16 USD, Impresión 2 = 16 USD, Impresión 3 = 16 USD (48 USD en total)
 
-* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, no se aplica ninguna ponderación de visualización a la impresión y se divide el valor completo de 120 USD entre las tres impresiones: Impresión 1 = 40 USD, Impresión 2 = 40 USD, Impresión 3 = 40 USD (120 USD en total)
+* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, no se aplica ninguna ponderación de visualización a la impresión y la USD completa 120 se divide entre las tres impresiones: Impresión 1 = 40 USD, Impresión 2 = 40 USD, Impresión 3 = 40 USD (120 USD en total)
 
 +++
 
@@ -307,9 +314,9 @@ Ruta del evento: impresión 1, impresión 2, impresión 3, conversión de 120 US
 
 Dado que la conversión es una visualización, se aplica el método de valoración de la visualización, en lugar del peso de anulación de la impresión, para determinar el valor de cada impresión:
 
-* Si el parámetro de informe especifica una ponderación de visualizaciones ponderada, dicha ponderación se aplicará a los valores de impresión. Por ejemplo, si la ponderación de visualización es del 40 %, multiplique cada valor en el &quot;Ejemplo con todos los clics&quot; por el 40 %: Impresión 3 = 24 USD, Impresión 2 = 16 USD, Impresión 1 = 8 USD (48 USD en total)
+* Si el parámetro de informe especifica una ponderación de visualizaciones ponderada, dicha ponderación se aplicará a los valores de impresión. Por ejemplo, si la ponderación de visualizaciones es del 40 %, multiplique cada valor del &quot;Ejemplo con todos los clics&quot; por el 40 %: Impresión 3 = 24 USD, Impresión 2 = 16 USD, Impresión 1 = 8 USD (48 USD en total)
 
-* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, se dividen los 120 USD completos entre las impresiones: Impresión 3 = 60 USD, Impresión 2 = 40 USD, Impresión 1 = 20 USD (120 USD en total)
+* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, la USD completa 120 se divide entre las impresiones: Impresión 3 = 60 USD, Impresión 2 = 40 USD, Impresión 1 = 20 USD (120 USD en total)
 
 +++
 
@@ -361,13 +368,13 @@ Atribución: impresión 1 = 0 USD, clic 1 = 60 USD, impresión 2 = 0 USD, clic 2
 
 **Nota:** Solo se aplican impresiones para anuncios en pantalla.
 
-Ruta del evento: Impresión 1, Impresión 2, Impresión 3, Impresión 4, Conversión de 120 USD
+Ruta del evento: impresión 1, impresión 2, impresión 3, impresión 4, conversión de 120 USD
 
 Dado que la conversión es una visualización, se aplica el método de valoración de la visualización, en lugar del peso de anulación de la impresión, para determinar el valor de cada impresión:
 
-* Si el parámetro de informe especifica una ponderación de visualizaciones ponderada, dicha ponderación se aplicará a los valores de impresión. Por ejemplo, si el peso de visualización es del 40 %, haga clic en 1 = 14,40 USD, haga clic en 2 = 9,60 USD, haga clic en 3 = 9,60 USD, haga clic en 4 = 14,40 USD (48 USD en total)
+* Si el parámetro de informe especifica una ponderación de visualizaciones ponderada, dicha ponderación se aplicará a los valores de impresión. Por ejemplo, si la ponderación de visualizaciones es del 40 %, haga clic en 1 = 14,40 USD, haga clic en 2 = 9,60 USD, haga clic en 3 = 9,60 USD, haga clic en 4 = 14,40 USD (48 USD en total)
 
-* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, se dividen los 120 USD completos entre las impresiones: Haga clic en 1 = 36 USD, Haga clic en 2 = 24 USD, Haga clic en 3 = 24 USD, Haga clic en 4 = 36 USD (120 USD en total)
+* Si el parámetro de informe especifica el uso de valores sin procesar para las visualizaciones, la USD completa 120 se divide entre las impresiones: Haga clic en 1 = 36 USD, Haga clic en 2 = 24 USD, Haga clic en 3 = 24 USD, Haga clic en 4 = 36 USD (120 USD en total)
 
 +++
 

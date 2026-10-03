@@ -3,20 +3,24 @@ title: Configuración de fuente de informe de hoja de cálculo
 description: Obtenga información acerca de la configuración de las fuentes de hoja de cálculo.
 exl-id: 88836c15-81fe-4fe7-8321-2c984b4dcb5d
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/4JPflN5lVXkNf2nWszh-LznW2xNaMkQMGPOxo6Ac2WU
+TQID: 'https://experienceleague.adobe.com/4JPflN5lVXkNf2nWszh-LznW2xNaMkQMGPOxo6Ac2WU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 513
+source-wordcount: '517'
 ht-degree: 0%
-
 ---
-
 # Configuración de fuente de informe de hoja de cálculo
 
 | Campo | Descripción |
@@ -27,7 +31,7 @@ ht-degree: 0%
 | [!UICONTROL Back Fill From] | La fecha inicial en la que se actualizaron los datos existentes en la ficha [!UICONTROL RAW], representada por un número de días pasados. Escriba un valor de hasta 90 días; el valor predeterminado es de siete (7) días.<br><br>Por ejemplo, si el valor es 7 y hoy es 7 de marzo, los datos existentes en la ficha [!UICONTROL RAW] que comienzan por 1 de marzo se actualizarán (hasta la fecha de finalización especificada por el parámetro [!UICONTROL Back Fill Until]). Las filas de datos existentes para fechas anteriores al 1 de marzo no se eliminan, pero no se actualizan. |
 | [!UICONTROL Back Fill Until] | La fecha de finalización en la que se actualizaron los datos existentes en la ficha [!UICONTROL RAW], representada por un número de días pasados. El valor predeterminado es un (1) día.<br><br>Por ejemplo, si este valor es 1 y hoy es 7 de marzo, los datos existentes en la ficha [!UICONTROL RAW] se actualizarán hasta el 6 de marzo (y a partir de la fecha de inicio especificada por el parámetro [!UICONTROL Back Fill From]). Si este valor es 1, el parámetro [!UICONTROL Back Fill Until] es 7 y hoy es 7 de marzo, los datos existentes en la ficha [!UICONTROL RAW] se actualizarán del 1 al 6 de marzo. En ambos ejemplos, las filas de datos existentes para las fechas posteriores al 6 de marzo no se eliminan, pero no se actualizan. |
 | [!UICONTROL Email Recipients] | Direcciones de correo electrónico a las que se envían notificaciones cada vez que se actualiza el informe o cada vez que se ejecuta el informe cuando la plantilla incluye una programación. De forma predeterminada, se introduce la dirección de la cuenta de usuario. Para especificar varias direcciones, sepárelas con comas, espacios o líneas nuevas. |
-| [!UICONTROL Schedule Time] | Hora a la que se actualizan las fuentes de hoja de cálculo: a las 08:00 o a cualquier hora entre las 10:00 y las 23:00 en la zona horaria del anunciante. El valor predeterminado para las nuevas fuentes de hoja de cálculo es 10:00.<br><br><b>Nota:</b> Por motivos de rendimiento, no se pueden actualizar las fuentes de hojas de cálculo al 09:00, cuando se generan otros informes. |
+| [!UICONTROL Schedule Time] | La hora a la que se actualizan las fuentes de hoja de cálculo: a las 08:00 o a cualquier hora entre las 10:00 y las 23:00 en el huso horario del anunciante. El valor predeterminado para las nuevas fuentes de hojas de cálculo es 10:00.<br><br><b>Nota:</b> Por motivos de rendimiento, no se pueden actualizar las fuentes de hojas de cálculo a las 09:00, cuando se generan otros informes. |
 | [!UICONTROL Email Notification] | (Cuando se especifican destinatarios del correo electrónico) Qué se debe incluir en las notificaciones por correo electrónico a cualquier dirección especificada:<ul><li><i>Adjuntar fuente</i> — Para enviar una copia del informe completado en formato XLSX. Si el archivo tiene más de 10 MB, la notificación no incluye ningún archivo adjunto.</li><li><i>Solo notificación</i> (el valor predeterminado): para enviar solamente una notificación de la finalización o el error del informe, con un vínculo al informe.</li></ul> |
 
 >[!MORELIKETHIS]

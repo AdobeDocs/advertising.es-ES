@@ -3,25 +3,38 @@ title: Administración de listas de ofertas
 description: Aprenda a crear y administrar listas de ofertas para la segmentación de ubicaciones.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-TQID: https://experienceleague.adobe.com/AGimJ-hI6NunBXRjZo--5fXO8y0dGXCSww5DcBlR7iw
+TQID: 'https://experienceleague.adobe.com/AGimJ-hI6NunBXRjZo--5fXO8y0dGXCSww5DcBlR7iw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 20c71a28-1f3b-56af-ad52-f3281489a219
+    internal-label: DSP Private Inventory
+  - id: b6b79f0f-69f1-5d2e-b06d-cdebfaaa942c
+    internal-label: DSP On Demand Inventory
+  - id: 85825b7c-c02c-536d-b821-66dc33454fb8
+    internal-label: DSP Deal IDs
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
   - id: ac506c20-96f2-48f6-9096-77706e336bda
+    internal-label: Private Inventory
   - id: fae3ff5f-9a75-4de1-a100-c90dd8268528
+    internal-label: Deal IDs
   - id: fbfa676f-2cdb-49be-b949-f2fab1be6daf
+    internal-label: On Demand Inventory
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 236
+source-wordcount: '236'
 ht-degree: 0%
-
 ---
-
 # Administración de listas de ofertas
 
 Puede crear y administrar listas de ofertas privadas y [!DNL On Demand] ofertas para la segmentación de ubicación. Dirija la segmentación o exclusión de listas de tratos privadas específicas dentro de la configuración de ubicación.
@@ -67,21 +80,21 @@ In custom reports, you can a) filter data by deal lists and deals and b) include
 
    * Para añadir ofertas:
 
-      1. Haga clic en **[!UICONTROL Add Deals].**
+     1. Haga clic en **[!UICONTROL Add Deals].**
 
-      1. (Opción) Filtre la lista por editor, SSP o tipo de acuerdo (*[!UICONTROL Guaranteed]* o *[!UICONTROL Non-Guaranteed]*); o busque la lista por nombre de acuerdo o ID de acuerdo.
+     1. (Opción) Filtre la lista por editor, SSP o tipo de acuerdo (*[!UICONTROL Guaranteed]* o *[!UICONTROL Non-Guaranteed]*); o busque la lista por nombre de acuerdo o ID de acuerdo.
 
-      1. Seleccione la casilla de verificación situada junto a cada oferta para incluirla en la lista.
+     1. Seleccione la casilla de verificación situada junto a cada oferta para incluirla en la lista.
 
-      1. Haga clic en **[!UICONTROL Add Selected Deals]**.
+     1. Haga clic en **[!UICONTROL Add Selected Deals]**.
 
    * Para eliminar ofertas:
 
-      1. Seleccione la casilla de verificación situada junto a cada oferta que desee eliminar de la lista.
+     1. Seleccione la casilla de verificación situada junto a cada oferta que desee eliminar de la lista.
 
-      1. Haga clic en **[!UICONTROL Remove from List]**.
+     1. Haga clic en **[!UICONTROL Remove from List]**.
 
-      1. En el mensaje de confirmación, haga clic en **[!UICONTROL Remove]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Remove]**.
 
 >[!MORELIKETHIS]
 >

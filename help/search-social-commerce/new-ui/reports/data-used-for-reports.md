@@ -2,22 +2,32 @@
 title: (Nueva IU) Los datos utilizados para los informes
 description: Obtenga información sobre los distintos tipos de datos disponibles en las vistas de datos y los informes personalizados.
 feature: Search Reports
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 subfeature_v2:
   - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
   - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
   - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
   - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
   - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+    internal-label: Specialty reports
   - id: e246c273-d720-4ece-b29b-7aaba7d50169
-source-git-commit: 18f4c5afafd63a6ae9421bf80b4e5b5fd424ed86
+    internal-label: Reports
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 604
-ht-degree: 0%
-
+source-wordcount: '643'
+ht-degree: 6%
 ---
-
 # (Nueva IU) Los datos utilizados para los informes
 
 Search, Social y Commerce incluyen un conjunto completo de informes de rendimiento basados en datos de conversión y clics. Puede ver datos de rendimiento básicos de los distintos componentes de un portafolio o cuenta de publicidad desde las vistas [!UICONTROL Portfolios] y [!UICONTROL Campaigns], así como mediante la generación de varios informes básicos y avanzados.
@@ -28,17 +38,17 @@ La mayoría de los informes se pueden personalizar para mostrar únicamente la i
 
 * **Métricas de rendimiento estándar:**
 
-   * **[!UICONTROL Impressions]:** Número total de veces que se colocó el anuncio.
+  * **[!UICONTROL Impressions]:** Número total de veces que se colocó el anuncio.
 
-   * **[!UICONTROL Clicks]:** Número total de veces que se hizo clic en un vínculo del anuncio.
+  * **[!UICONTROL Clicks]:** Número total de veces que se hizo clic en un vínculo del anuncio.
 
-   * **[!UICONTROL Cost]:** Coste total del anuncio. El coste de la publicidad de pago por clic (PPC) es siempre el número de clics multiplicado por el coste por clic.
+  * **[!UICONTROL Cost]:** Coste total del anuncio. El coste de la publicidad de pago por clic (PPC) es siempre el número de clics multiplicado por el coste por clic.
 
-   * **[!UICONTROL Cost per Click]:** Coste promedio de un clic para un anuncio, que es el coste del anuncio dividido por el número total de clics para el anuncio. Por ejemplo, si gasta 100 USD para una impresión de publicidad y el anuncio genera 10 clics, el coste por clic es 100 USD/10=10 USD por clic.
+  * **[!UICONTROL Cost per Click]:** Coste promedio de un clic para un anuncio, que es el coste del anuncio dividido por el número total de clics para el anuncio. Por ejemplo, si gasta 100 USD en una impresión de publicidad y el anuncio genera 10 clics, el coste por clic es 100 USD/10=10 USD por clic.
 
-   * **[!UICONTROL Average Position]:** (cuando corresponda) La posición promedio de un anuncio que se ha colocado, ponderada por el número de impresiones.
+  * **[!UICONTROL Average Position]:** (cuando corresponda) La posición promedio de un anuncio que se ha colocado, ponderada por el número de impresiones.
 
-   * **[!UICONTROL Estimated Clicks]:** (Incluido en los informes avanzados para anunciantes con el servicio de seguimiento de conversión de Adobe Advertising solamente) El número total de clics estimados para una ciudad o el nombre de dominio de un sitio web de referencia. Esto puede incluir datos de redes de anuncios para las que un anunciante no tiene una cuenta publicitaria.
+  * **[!UICONTROL Estimated Clicks]:** (Incluido en los informes avanzados para anunciantes con el servicio de seguimiento de conversión de Adobe Advertising solamente) El número total de clics estimados para una ciudad o el nombre de dominio de un sitio web de referencia. Esto puede incluir datos de redes de anuncios para las que un anunciante no tiene una cuenta publicitaria.
 
 * **Métricas de conversión:** Número total de conversiones para cada una de las métricas de conversión del anunciante o datos de transacción seguidos hacia una métrica de conversión. Esto puede incluir métricas de conversión y de participación del sitio, pero no métricas calculadas y métricas calculadas avanzadas, que se sincronizan desde Adobe Analytics.
 

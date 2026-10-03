@@ -3,20 +3,27 @@ title: Administrar paquetes creativos
 description: Aprenda a administrar y utilizar grupos de creativos.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-TQID: https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg
+TQID: 'https://experienceleague.adobe.com/hat5puvy5qIpBrShro3QpZoqt2kkd4nnmi4zT7G9Vfg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
+subfeature_v2:
+  - id: ea400851-fc23-4174-bc9c-b50ea0ed4d00
+    internal-label: Creative Bundles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1587
+source-wordcount: '1588'
 ht-degree: 0%
-
 ---
-
 # Administrar paquetes creativos
 
 <!--
@@ -75,9 +82,9 @@ Puede adjuntar un elemento creativo a varios paquetes.
 
    * Para duplicar un solo paquete:
 
-      * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Duplicate]**.
+     * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Duplicate]**.
 
-      * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Duplicate]**.
+     * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Duplicate]**.
 
    * Para duplicar uno o más paquetes, active la casilla de verificación de cada paquete que desee duplicar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Duplicate].**
 
@@ -175,9 +182,9 @@ Al separar un creativo del paquete, no se elimina el creativo de la pestaña Cre
 
    * Para separar un solo elemento creativo:
 
-      * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del creativo y, a continuación, haga clic en **[!UICONTROL Detach]**.
+     * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del creativo y, a continuación, haga clic en **[!UICONTROL Detach]**.
 
-      * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Detach]**.
+     * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Detach]**.
 
    * Para separar uno o más creativos, marque la casilla de verificación de cada creativo que desee separar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Detach]**.
 
@@ -316,9 +323,9 @@ Puede eliminar paquetes que no estén asignados a una experiencia [live](/help/c
 
    * Para eliminar un solo paquete:
 
-      * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Delete]**.
+     * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Delete]**.
 
-      * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Delete]**.
+     * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Delete]**.
 
    * Para eliminar uno o varios paquetes, active la casilla de verificación de cada paquete que desee eliminar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Delete].**
 

@@ -3,24 +3,30 @@ title: Soluciones entre dispositivos
 description: Obtenga más información acerca de las funciones entre dispositivos.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-TQID: https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg
+TQID: 'https://experienceleague.adobe.com/CEof59dFrZItQBNhFh6MdlvMGWSNv3em7OJzSeyP0Gg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: '1027'
 ht-degree: 0%
-
 ---
-
 # Soluciones entre dispositivos
 
 La integración de Advertising DSP con [!DNL LiveRamp] le permite extender la audiencia a todos los dispositivos conocidos de una persona, no solo a los dispositivos que su marca ha rastreado. La integración también proporciona límite de frecuencia y medición de atribución en todos los dispositivos.
@@ -101,11 +107,11 @@ Si desea activar la medición de atribución entre dispositivos, póngase en con
 
 Cuando un gráfico de dispositivo está habilitado para la medición de atribución, el informe [!UICONTROL Conversion] incluye una configuración de [!UICONTROL Cross-Device Breakout], lo que le permite incluir hasta tres columnas independientes para cada métrica de conversión, entre ellas:
 
-* &lt;*Conversión*>[!UICONTROL (tp)]: Incluye el total de conversiones (personas totales), que incluye tanto las conversiones del mismo dispositivo como las conversiones entre dispositivos (si corresponde). En el informe, &quot;[!UICONTROL (tp)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(tp)).
+* &lt;*Conversión*>[!UICONTROL (tp)]: incluye el total de conversiones (personas totales), que incluye tanto las conversiones del mismo dispositivo como las conversiones entre dispositivos (si corresponde). En el informe, &quot;[!UICONTROL (tp)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(tp)).
 
-* &lt;*Conversión*>[!UICONTROL (sd)]: (Opcional) Incluye solo las conversiones para las que solo se ha hecho un seguimiento de un dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (sd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(sd)).
+* &lt;*Conversión*>[!UICONTROL (sd)]: (opcional) incluye solo las conversiones para las que se ha hecho un seguimiento de un solo dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (sd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(sd)).
 
-* &lt;*Conversión*>[!UICONTROL (xd)]: (Opcional) Incluye solo las conversiones para las que se ha hecho un seguimiento de más de un dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (xd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(xd)).
+* &lt;*Conversión*>[!UICONTROL (xd)]: (opcional) incluye solo las conversiones para las que se ha hecho un seguimiento de más de un dispositivo en la ruta de conversión. En el informe, &quot;[!UICONTROL (xd)]&quot; se anexa al nombre de la métrica de conversión, el tipo de regla y los tipos de conversión en la ruta de conversión (por ejemplo, &quot;Respuestas(le)(tl)(xd)).
 
 #### Interpretación del informe [!UICONTROL Conversion]
 

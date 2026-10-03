@@ -3,20 +3,24 @@ title: Iniciar sesión
 description: Descubra formas de iniciar sesión.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-TQID: https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw
+TQID: 'https://experienceleague.adobe.com/kkgk8VMLaF3phB1rVzMoxdOkgPWWk-fTqs8U2aGPJxw'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 54967645-9f46-5896-8af7-b943b426aadf
+    internal-label: Search Getting Started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '389'
 ht-degree: 0%
-
 ---
-
 # Iniciar sesión
 
 Search, Social y Commerce están realizando la transición al servicio Identity Management de Adobe (IMS) para la autenticación de inicio de sesión. IMS proporciona acceso de inicio de sesión único (SSO) mediante Federated ID a todos los [!DNL Adobe] productos que admiten IMS, incluidos Real-Time Customer Data Platform, Customer Journey Analytics, Target y Analytics. Con el cambio:
@@ -53,7 +57,7 @@ Esta opción está disponible durante un corto periodo de tiempo para que pueda 
 
 1. Si tiene acceso a varias organizaciones de IMS, seleccione la organización correcta en la parte superior derecha de la página.
 
-## Sign in from Adobe CX Enterprise using an [!DNL Adobe ID]
+## Iniciar sesión desde Adobe CX Enterprise con un [!DNL Adobe ID]
 
 <!-- Later, give them the new direct URL(s) to our UI so they don't have to select the product. -->
 

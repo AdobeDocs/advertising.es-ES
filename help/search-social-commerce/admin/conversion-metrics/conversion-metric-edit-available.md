@@ -3,18 +3,24 @@ title: Cambiar las métricas de conversión disponibles en las vistas de adminis
 description: Obtenga información sobre cómo hacer que las métricas de conversión estén disponibles en sus vistas de administración e informes.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-TQID: https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU
+TQID: 'https://experienceleague.adobe.com/o50AN9pYkuuP-M1e4IAkQOLWSsg584T6TtWnrawAnUU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e6916c1b-e939-4e0b-99f5-768e83e1e99f
+    internal-label: Conversion tracking
+subfeature_v2:
+  - id: d068b149-b9d1-421c-9033-a51495366ddc
+    internal-label: Conversions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 506
+source-wordcount: '504'
 ht-degree: 0%
-
 ---
-
 # Cambiar las métricas de conversión disponibles en las vistas de administración y en los informes
 
 Cuando Adobe Advertising realiza el seguimiento de una métrica de [conversión](/help/search-social-commerce/glossary.md#c-d) de un anunciante, se excluye inicialmente de los objetivos del portafolio, los informes y las vistas de administración. Para que una métrica de conversión sea visible, debe habilitarla explícitamente y, opcionalmente, cambiar el nombre para mostrar predeterminado, que es el nombre que se muestra. La única excepción es que las conversiones rastreadas por las etiquetas de seguimiento de eventos universales [!DNL Google Ads], [!DNL Google Analytics] y [!DNL Microsoft Advertising] están disponibles y son visibles automáticamente.
@@ -41,13 +47,13 @@ De la lista de métricas de conversión disponibles, cada usuario con acceso a l
 
    * Para mostrar u ocultar varias métricas, haga lo siguiente:
 
-      1. Seleccione la casilla de verificación situada junto a cada métrica de conversión.
+     1. Seleccione la casilla de verificación situada junto a cada métrica de conversión.
 
-         Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+        Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Mostrar](/help/search-social-commerce/assets/show.png "Mostrar") para mostrar las métricas o en ![Hide](/help/search-social-commerce/assets/hide.png "Hide") para ocultarlas.
+     1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Mostrar](/help/search-social-commerce/assets/show.png "Mostrar") para mostrar las métricas o en ![Hide](/help/search-social-commerce/assets/hide.png "Hide") para ocultarlas.
 
-      1. (Para ocultar las métricas) En el mensaje de confirmación, haga clic en **[!UICONTROL Yes]** para ocultar las métricas y eliminarlas de cualquier métrica derivada que las contenga.
+     1. (Para ocultar las métricas) En el mensaje de confirmación, haga clic en **[!UICONTROL Yes]** para ocultar las métricas y eliminarlas de cualquier métrica derivada que las contenga.
 
 1. (Opcional) [Cambie el nombre que aparece en los encabezados de columna](conversion-metric-edit-display-name.md) para cualquiera de las métricas de conversión.
 

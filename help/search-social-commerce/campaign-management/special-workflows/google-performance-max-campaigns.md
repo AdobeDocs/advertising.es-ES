@@ -1,22 +1,26 @@
 ---
-title: Implementar  [!DNL Google Ads] campañas de rendimiento máximo
-description: Obtenga información acerca del flujo de trabajo para configurar  [!DNL Google Ads] campañas de rendimiento máximo.
+title: Implementar [!DNL Google Ads] campañas de rendimiento máximo
+description: Obtenga información acerca del flujo de trabajo para configurar [!DNL Google Ads] campañas de rendimiento máximo.
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-TQID: https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI
+TQID: 'https://experienceleague.adobe.com/2vNnyo0W66ZuIZ3cY1nlSYWTjEPOiNXkc-ppbuxNMnI'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 286
+source-wordcount: '297'
 ht-degree: 0%
-
 ---
-
 # Implementar [!DNL Google Ads] campañas de rendimiento máximo
 
 En [!DNL Google Ads] campañas con rendimiento máximo, no se configuran grupos de anuncios, anuncios ni palabras clave. En su lugar, en la configuración de la campaña debe especificar uno o más grupos de recursos, que incluyen titulares, descripciones e imágenes cargadas, logotipos y [!DNL YouTube videos]. [!DNL Google Ads] combina automáticamente los recursos para publicar anuncios basados en el canal (como [!DNL YouTube], [!DNL Gmail] o [!DNL Search]).

@@ -3,20 +3,24 @@ title: Acceso FTP a informes
 description: Obtenga información sobre cómo recibir informes en una ubicación FTP de solo lectura.
 exl-id: eca9f033-5b1b-4afa-926b-b4c31e2dede3
 feature: Search Reports
-TQID: https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY
+TQID: 'https://experienceleague.adobe.com/Dd72ha3yuVBLu-vCuBUFlc6lYeinKcIAu5agIco4zVY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '435'
 ht-degree: 0%
-
 ---
-
 # Acceso FTP a informes
 
 Si lo desea, puede recibir informes en una ubicación FTP de solo lectura, desde la que podrá recuperar los archivos para procesos automatizados adicionales (por ejemplo, para analizar los datos con otro programa). Todos los informes básicos excepto [!UICONTROL Search Engine Account Report] y todos los informes avanzados se pueden enviar a una ubicación FTP como archivos TSV comprimidos (valor predeterminado) o archivos CSV, con la extensión de archivo .ZIP. Se incluyen los encabezados de archivo TSV o CSV y no se pueden suprimir.
@@ -43,11 +47,11 @@ Para generar informes en el directorio FTP designado, cree una [plantilla de inf
 
    * (Opcional) Cualquiera de las tres fechas del sistema, utilizando la siguiente sintaxis que distingue entre mayúsculas y minúsculas, incluidos los corchetes:
 
-      * `[TODAY]`: para incluir la fecha, hora y minuto en que se ejecutó el informe. Como esto incluye la hora exacta, la misma plantilla se puede ejecutar varias veces al día sin sobrescribir el informe anterior.
+     * `[TODAY]`: para incluir la fecha, hora y minuto en que se ejecutó el informe. Como esto incluye la hora exacta, la misma plantilla se puede ejecutar varias veces al día sin sobrescribir el informe anterior.
 
-      * `[SDATE]`: para incluir la fecha de inicio del intervalo de fechas del informe.
+     * `[SDATE]`: para incluir la fecha de inicio del intervalo de fechas del informe.
 
-      * `[EDATE]`: para incluir la fecha de finalización del intervalo de fechas del informe.
+     * `[EDATE]`: para incluir la fecha de finalización del intervalo de fechas del informe.
 
    * (Opcional) `[CSV]` (en letras mayúsculas y entre corchetes) para crear archivos en formato CSV en lugar del formato TSV predeterminado.
 

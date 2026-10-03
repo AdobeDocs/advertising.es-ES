@@ -1,46 +1,51 @@
 ---
-title: Sign in to DSP
-description: Learn how to sign in to DSP.
+title: Iniciar sesión en DSP
+description: Obtenga información sobre cómo iniciar sesión en DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-TQID: https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4
+TQID: 'https://experienceleague.adobe.com/KjBIag8qcpMONcX6pS2IJot3IA4Q-KOq0Av-1VzAot4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: d05f5093-0b42-5b61-81cc-b438107ef814
+    internal-label: DSP Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c4d69b3aac9c963d13e3083f71931e507e58e616
+    internal-label: Administration
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 0%
-
 ---
+# Iniciar sesión en Adobe Advertising DSP
 
-# Sign in to Adobe Advertising DSP
+Adobe Advertising DSP está realizando la transición al servicio Identity Management de Adobe (IMS) para la autenticación de inicio de sesión. IMS proporciona acceso de inicio de sesión único (SSO) mediante Federated ID a todos los productos de [!DNL Adobe] que admiten IMS, incluidos Real-Time Customer Data Platform, Customer Journey Analytics, [!DNL Target] y [!DNL Analytics]. Con el cambio:
 
-Adobe Advertising DSP is transitioning to the Adobe Identity Management Service (IMS) for login authentication. IMS provides single sign-on (SSO) access using federated IDs to all [!DNL Adobe] products that support IMS, including Real-Time Customer Data Platform, Customer Journey Analytics, [!DNL Target], and [!DNL Analytics]. With the change:
+* Puede usar un(a) [!DNL Adobe ID] para iniciar sesión en [!DNL Adobe] productos desde la página de inicio de sesión de Adobe CX Enterprise (anteriormente, Adobe Experience Cloud) o desde la página de inicio de sesión heredada de DSP. Su [!DNL Adobe ID] proporciona administración de perfiles de usuario. En una versión futura, podrá cambiar la cuenta de DSP, la cuenta de la organización IMS y el producto [!DNL Adobe] del menú superior.
 
-* You can use one [!DNL Adobe ID] to sign in across [!DNL Adobe] products from either the Adobe CX Enterprise (formerly Adobe Experience Cloud) sign-in page or the legacy DSP sign-in page. Your [!DNL Adobe ID] provides user profile management. In a future release, you&#39;ll be able to change the DSP account, IMS organization account, and [!DNL Adobe] product from the top menu.
+* Se admite la autenticación empresarial.
 
-* Enterprise authentication is supported.
+* Puede permanecer conectado durante 24 horas en lugar de iniciar sesión cada hora.
 
-* You can stay logged in for 24 hours instead of logging in every hour.
+Sus credenciales de DSP actuales permanecerán activas durante un corto tiempo para que pueda prepararse para el cambio.
 
-Your current DSP credentials will remain active for a short time so that you can prepare for the change.
+## Usar un inicio de sesión de DSP heredado para la autenticación
 
-## Use a legacy DSP login for authentication
+* Vaya a [advertising.adobe.com](https://advertising.adobe.com) e inicie sesión con sus credenciales de DSP heredadas.
 
-* Go to [advertising.adobe.com](https://advertising.adobe.com), and sign in using your legacy DSP credentials.
+## Usar un [!DNL Adobe ID] para la autenticación
 
-## Use an [!DNL Adobe ID] for authentication
+1. Abra cualquiera de las siguientes pantallas de inicio de sesión:
 
-1. Open either of the following sign-in screens:
-
-   * Go to [advertising.adobe.com](https://advertising.adobe.com). Under &quot;[!UICONTROL Sign in with the Adobe Experience Cloud account],&quot; click **[!UICONTROL Continue]**.
+   * Vaya a [advertising.adobe.com](https://advertising.adobe.com). En &quot;[!UICONTROL Sign in with the Adobe Experience Cloud account]&quot;, haga clic en **[!UICONTROL Continue]**.
 
    * Vaya a [experience.adobe.com](https://experience.adobe.com).
 

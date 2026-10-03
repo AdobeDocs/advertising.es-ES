@@ -3,20 +3,24 @@ title: Alertas personalizadas
 description: Obtenga información sobre las alertas personalizadas, incluido cómo crear plantillas de alerta y cuándo se activan.
 exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-TQID: https://experienceleague.adobe.com/CLEgDnjBSj3mv0SIrD5w-63svPrNeP15FMX5omSVA1U
+TQID: 'https://experienceleague.adobe.com/CLEgDnjBSj3mv0SIrD5w-63svPrNeP15FMX5omSVA1U'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '275'
 ht-degree: 0%
-
 ---
-
 # Alertas personalizadas
 
 Puede crear plantillas de alerta para identificar cuándo cualquier portafolio, cuenta, campaña, grupo de publicidad, palabra clave, anuncio o grupo de productos de compras cumple condiciones específicas, como una métrica de rendimiento, durante un período especificado y, a continuación, generar una alerta. Las alertas están disponibles para un solo anunciante. Las alertas incluyen todas las columnas en la vista predeterminada relevante. Por ejemplo, las alertas de nivel de campaña incluyen todas las columnas en la vista predeterminada [!UICONTROL Campaigns].

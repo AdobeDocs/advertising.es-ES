@@ -1,30 +1,40 @@
 ---
-title: Acerca de la sincronización de  [!DNL Google Analytics] métricas de conversión
-description: Obtenga información sobre cómo sincronizar  [!DNL Google Analytics] métricas de conversión para la optimización y la generación de informes.
+title: Sincronizar [!DNL Google Analytics] métricas de conversión
+description: Obtenga información sobre cómo sincronizar [!DNL Google Analytics] métricas de conversión para la optimización y la generación de informes.
 role: User, Admin
 exl-id: 32d0ba22-5c27-4f50-9886-1c09d2da952c
 feature: Search Admin, Search Data Sources
-TQID: https://experienceleague.adobe.com/dN7AVijGEiKM1o2iu3Fcb2D61pFkTguFOOu0qIe-mZk
+TQID: 'https://experienceleague.adobe.com/dN7AVijGEiKM1o2iu3Fcb2D61pFkTguFOOu0qIe-mZk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: ''
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
 subfeature_v2:
   - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 289
+source-wordcount: '346'
 ht-degree: 0%
-
 ---
-
 # Sincronizar [!DNL Google Analytics] métricas de conversión
 
 Search, Social y Commerce pueden sincronizar métricas de conversión para una cuenta, propiedad y combinación de vistas de [!DNL Google Analytics] específica para la optimización y la creación de informes. Se incluyen automáticamente [vistas de página](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=page_tracking&jump=ga_pageviews), [Sesiones](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessions), [Tasa de salida hacia otro sitio](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_bouncerate) (calculada como salidas hacia otro sitio/sesiones) y [Duración de la sesión](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=session&jump=ga_sessionduration). Puede incluir hasta 16 métricas adicionales por fuente de datos.
@@ -47,7 +57,7 @@ Los pasos siguientes describen el proceso de sincronización de datos de convers
 
    Para integrar métricas de varias propiedades o de varias vistas para una sola propiedad, configure una fuente de datos independiente para cada una.
 
-   Una vez que se ha configurado una fuente de datos, Search, Social y Commerce extraen datos diariamente a partir del 05:00 en la zona horaria del anunciante. Una vez que las métricas estén disponibles, puede incluirlas en las vistas de administración de campañas y portafolios y en los informes, y utilizarlas en los objetivos de optimización, según sea necesario.
+   Una vez que se configura una fuente de datos, Search, Social y Commerce extraen datos diariamente, a partir de las 05:00 en el huso horario del anunciante. Una vez que las métricas estén disponibles, puede incluirlas en las vistas de administración de campañas y portafolios y en los informes, y utilizarlas en los objetivos de optimización, según sea necesario.
 
 >[!MORELIKETHIS]
 >

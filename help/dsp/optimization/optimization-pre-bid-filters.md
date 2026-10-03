@@ -3,33 +3,39 @@ title: Filtros de ofertas previas de nivel de ubicación y cómo utilizarlos
 description: Consulte los filtros de oferta previa de nivel de ubicación disponibles y vea cómo utilizarlos.
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-TQID: https://experienceleague.adobe.com/3-OOibzlRa5ethq6xkaHBngX2kwENFWhCSA-qzJQ-h4
+TQID: 'https://experienceleague.adobe.com/3-OOibzlRa5ethq6xkaHBngX2kwENFWhCSA-qzJQ-h4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: ed26409b-14af-5033-ae27-1b71cecfe497
+    internal-label: DSP Optimization
 subfeature_v2:
   - id: af280ddc-b4d0-4416-86be-8f3ea3c6ebe7
+    internal-label: Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Optimization
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 452
+source-wordcount: '465'
 ht-degree: 0%
-
 ---
-
 # Filtros de ofertas previas de nivel de ubicación y cómo utilizarlos
 
 | Filtro de puja previa | Descripción | Cuándo usar este filtro |
 | ---------------| ----------- | ---------------------- |
-| [!UICONTROL Click Through Rate] | Establece un umbral de predicción mínimo para la probabilidad de que una subasta pueda dar lugar a una pulsación. Por ejemplo, si establece el umbral en 0,1%, solo pujará en subastas cuando la probabilidad prevista de un clic sea mayor o igual que el 0,1%.<br><br><b>Nota:</b> Los filtros se aplican antes de los objetivos de optimización. Como resultado, los filtros muy estrictos pueden impedir el gasto. | Utilícelo cuando tenga un objetivo de KPI mínimo para la tasa de clics (CTR) y no desee gastar su presupuesto cuando el CTR esté por debajo del umbral. Este filtro puede ser bastante restrictivo, por lo que es importante establecer objetivos realistas. Dependiendo de otras restricciones en la ubicación, un objetivo de 0,03-,07% es generalmente un buen punto de partida. Puede optimizar esto en el nivel de sitio según sea necesario para ayudar a mejorar las métricas.<br><br>Si su objetivo es lograr un CTR mínimo y la mejor CPM posible, la configuración recomendada es combinar un filtro [!UICONTROL Click Through Rate] con el objetivo de optimización &quot;[!UICONTROL Lowest CPM]&quot;.&quot; Si su objetivo es un CPM máximo sin beneficio real por exceso de rendimiento y un CTR mínimo, puede que sea más apropiado emparejar un filtro [!UICONTROL Click Through Rate] con el objetivo de optimización &quot;[!UICONTROL Always Max Bid + Highest CTR]&quot;. |
+| [!UICONTROL Click Through Rate] | Establece un umbral de predicción mínimo para la probabilidad de que una subasta pueda dar lugar a una pulsación. Por ejemplo, si establece el umbral en 0,1%, solo pujará en subastas cuando la probabilidad prevista de un clic sea mayor o igual que 0,1%.<br><br><b>Nota:</b> Los filtros se aplican antes de los objetivos de optimización. Como resultado, los filtros muy estrictos pueden impedir el gasto. | Utilícelo cuando tenga un objetivo de KPI mínimo para la tasa de clics (CTR) y no desee gastar su presupuesto cuando el CTR esté por debajo del umbral. Este filtro puede ser bastante restrictivo, por lo que es importante establecer objetivos realistas. Dependiendo de otras restricciones en la ubicación, un objetivo de 0,03-,07% es generalmente un buen punto de partida. Puede optimizar esto en el nivel de sitio según sea necesario para ayudar a mejorar las métricas.<br><br>Si su objetivo es lograr un CTR mínimo y la mejor CPM posible, la configuración recomendada es combinar un filtro [!UICONTROL Click Through Rate] con el objetivo de optimización &quot;[!UICONTROL Lowest CPM]&quot;.&quot; Si su objetivo es un CPM máximo sin beneficio real por exceso de rendimiento y un CTR mínimo, puede que sea más apropiado emparejar un filtro [!UICONTROL Click Through Rate] con el objetivo de optimización &quot;[!UICONTROL Always Max Bid + Highest CTR]&quot;. |
 | [!UICONTROL 100% Completion Rate] | Establece una tasa mínima de finalización requerida que debe cumplirse antes de pujar por una impresión. | Utilice este filtro cuando el objetivo principal de la campaña sea las tasas de finalización. Tenga en cuenta otros parámetros de segmentación, pero el porcentaje de inicio recomendado es del 65 %. |
 | [!UICONTROL Player Size - Adobe] | Establece un tamaño mínimo de reproductor requerido, con datos de DSP. Puede pujar por una impresión cuando se alcance el umbral [!UICONTROL Player Size]. | Úselo para asegurarse de que está entregando el inventario de reproductores de episodios completos con datos de DSP. |
-| [!UICONTROL Player Size 3rdParty (Moat/IAS)] | Establece un tamaño de reproductor mínimo requerido, usando datos de [!DNL Moat] o [!DNL Integral Ad Science] ([!DNL IAS]). Puede pujar por una impresión cuando se alcance el umbral [!UICONTROL Player Size]. | Use para asegurarse de que está entregando el inventario de reproductores de episodios completos usando datos de [!DNL Moat] o [!DNL IAS] de toda la plataforma.<br><br><b>Nota:</b> Use este filtro solamente cuando la campaña esté configurada para usar datos de [!DNL Moat] o [!DNL IAS]. |
+| [!UICONTROL Player Size 3rdParty (Moat/IAS)] | Establece un tamaño de reproductor mínimo requerido, usando datos de [!DNL Moat] o [!DNL Integral Ad Science] ([!DNL IAS]). Puede pujar por una impresión cuando se alcance el umbral [!UICONTROL Player Size]. | Use para asegurarse de que está entregando el inventario del reproductor de episodios completos con datos de [!DNL Moat] o [!DNL IAS] de toda la plataforma.<br><br><b>Nota:</b> Use este filtro solo cuando la campaña esté configurada para usar datos de [!DNL Moat] o [!DNL IAS]. |
 | [!UICONTROL Viewability Adobe (MRC or [!DNL GroupM])] | Establece un porcentaje mínimo de visibilidad requerido, con números y medidas de visibilidad de DSP. Puede pujar por una impresión cuando se alcance el umbral especificado.<br><br><b>Notas:</b><ul><li>Si la configuración [!UICONTROL Viewability Sensitivity] de la campaña es &quot;[!UICONTROL Standard (50% of ad in view for 2 consecutive seconds)]&quot;, se usa el estándar de medición de visibilidad [!DNL Media Rating Council] (MRC) para la campaña. Si la configuración de [!UICONTROL Viewability Sensitivity] es &quot;[!UICONTROL Strict (100% of ad in view & audio on for 50% duration)]&quot;, se usa el estándar de medición de visibilidad [!DNL GroupM] para la campaña.</li><li>Las definiciones de medición de Adobe difieren de las definiciones de terceros, por lo que puede haber pequeñas discrepancias con los datos de terceros.</li></ul> | La práctica recomendada es hacer coincidir el objetivo de optimización y cualquier configuración de filtro de oferta previa con la configuración [!UICONTROL Viewability Sensitivity] de la campaña. |
 
 {style="table-layout:auto"}

@@ -3,26 +3,34 @@ title: Acerca de Adobe Advertising Search, Social y Commerce
 description: Obtenga información acerca de Search, Social y Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-TQID: https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg
+TQID: 'https://experienceleague.adobe.com/BNgdfE-vefdswY5BPajlzPCI4syme0owusbCOq0QLVg'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f86a94c9-f065-509d-be1f-6a576acb810d
+    internal-label: Search Introduction
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Predictive modeling
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 776
+source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # Acerca de Adobe Advertising Search, Social y Commerce
 
 [!DNL Adobe] es el líder tecnológico y de mercado en soluciones de experiencia del cliente. Adobe Advertising simplifica el envío de campañas publicitarias en canales múltiples para la administración de campañas de marca y rendimiento en cualquier pantalla y en cualquier formato. Adobe Advertising consta de tres subsoluciones: Advertising Search, Social y Commerce para canales de búsqueda, compras, medios sociales, red de audiencias y rendimiento máximo; Advertising DSP (Demand Side Platform) para canales de visualización; y Advertising Creative para crear experiencias para los usuarios finales en sus anuncios en pantalla.
@@ -51,11 +59,11 @@ Search, Social y Commerce ofrecen administración, optimización, seguimiento y 
 
 * **Creación de informes:** Supervise y analice el rendimiento de sus portafolios y de cualquier otra campaña de la que esté realizando un seguimiento mediante vistas de datos de rendimiento e informes detallados y personalizables. Puede incluir métricas de conversión de Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] y otras fuentes empresariales de origen en vistas de datos e informes.
 
-   * Configure las distintas vistas de datos de rendimiento para obtener una visibilidad óptima de los datos de rendimiento que le importan.
+  * Configure las distintas vistas de datos de rendimiento para obtener una visibilidad óptima de los datos de rendimiento que le importan.
 
-   * Automatice la producción de informes utilizando plantillas de informes y fuentes de hojas de cálculo.
+  * Automatice la producción de informes utilizando plantillas de informes y fuentes de hojas de cálculo.
 
-   * Para los portafolios, las perspectivas prescriptivas también proporcionan datos visuales y procesables que puede utilizar para mejorar el rendimiento.
+  * Para los portafolios, las perspectivas prescriptivas también proporcionan datos visuales y procesables que puede utilizar para mejorar el rendimiento.
 
 Consulte &quot;[Inventario compatible](/help/search-social-commerce/introduction/supported-inventory.md)&quot; para obtener más información sobre la compatibilidad con diferentes redes de anuncios y tipos de anuncios.
 

@@ -4,24 +4,33 @@ description: Obtenga información sobre los tipos de solicitud de datos admitido
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-TQID: https://experienceleague.adobe.com/qR5H-xgBKdtWcMYfrdGdk1y5s9PEA0-hNGZADbR6TuM
+TQID: 'https://experienceleague.adobe.com/qR5H-xgBKdtWcMYfrdGdk1y5s9PEA0-hNGZADbR6TuM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: b2025470-04ef-4dd9-bdd4-44407644aeb6
+    internal-label: Compliance
+subfeature_v2:
+  - id: fa43b1a5-f379-447e-a9f3-9f9bd2bdf579
+    internal-label: GDPR
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+    internal-label: Privacy
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1046
+source-wordcount: '1046'
 ht-degree: 0%
-
 ---
-
 # Compatibilidad de Adobe Advertising con el Reglamento General de Protección de Datos
 
 *Para [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP; Adobe Advertising Creative; y Adobe Advertising DCO*
@@ -95,21 +104,21 @@ Todos los pasos son necesarios para Adobe Advertising. Para obtener más informa
 
 `"users":`
 
-* `"key":` &lt;*usually the name of the data subject*>
+* `"key":` &lt;*suele ser el nombre del interesado*>
 
-* `"action":` either `**access**` or `**delete**`
+* `"action":` `**access**` o `**delete**`
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (which indicates the [!DNL adcloud] cookie space)
+  * `"namespace": **411**` (que indica el espacio de cookie [!DNL adcloud])
 
-   * `"value":` &lt;*the actual data subject’s cookie ID value as retrieved from`AdobePrivacy.js`*>
+  * `"value":` &lt;*el valor real de la ID de cookie del sujeto de datos se recuperó de`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (which is the [!DNL Adobe] product that applies to the request)
+* `"include": **adCloud**` (que es el producto [!DNL Adobe] que se aplica a la solicitud)
 
-* `"regulation": **gdpr**` (which is the privacy regulation that applies to the request)
+* `"regulation": **gdpr**` (que es la norma de privacidad que se aplica a la solicitud)
 
-## Example of request submitted by data subject using an Adobe Advertising user ID retrieved from `AdobePrivacy.js`
+## Ejemplo de solicitud enviada por el interesado utilizando un ID de usuario de Adobe Advertising recuperado de `AdobePrivacy.js`
 
 ```
 {
@@ -140,9 +149,9 @@ Todos los pasos son necesarios para Adobe Advertising. Para obtener más informa
 }
 ```
 
-## Data fields that are returned for access requests
+## Campos de datos que se devuelven para las solicitudes de acceso
 
-The following is an example of an access response for Adobe Advertising.
+A continuación se muestra un ejemplo de una respuesta de acceso para Adobe Advertising.
 
 ```
 {

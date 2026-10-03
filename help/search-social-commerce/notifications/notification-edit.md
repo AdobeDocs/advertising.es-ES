@@ -3,20 +3,24 @@ title: Editar la configuración de notificaciones
 description: Obtenga información sobre cómo editar la configuración de las notificaciones.
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-TQID: https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY
+TQID: 'https://experienceleague.adobe.com/DYykxfXqovRIkUXI1OwGJDNvbyIxziy92UUs6QVhLfY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
+    internal-label: Search Notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '223'
 ht-degree: 0%
-
 ---
-
 # Editar la configuración de notificaciones
 
 *Característica de Beta*
@@ -33,9 +37,9 @@ Si lo desea, puede suscribirse a las notificaciones por correo electrónico y we
 
    * Para suscribirse o cancelar la suscripción a las notificaciones, mueva el control deslizante de la columna [!UICONTROL Subscribe]:
 
-      * Para cancelar la suscripción a todos los tipos de notificación, mueva el control deslizante a la izquierda (desactivado).
+     * Para cancelar la suscripción a todos los tipos de notificación, mueva el control deslizante a la izquierda (desactivado).
 
-      * Para suscribirse a uno o más tipos de notificación, mueva el control deslizante a la derecha (habilitado).
+     * Para suscribirse a uno o más tipos de notificación, mueva el control deslizante a la derecha (habilitado).
 
    * (Cuando [!UICONTROL Subscribe] esté habilitado) Para suscribirse a las notificaciones por correo electrónico, active la casilla de verificación de la columna **[!UICONTROL Email]**.
 

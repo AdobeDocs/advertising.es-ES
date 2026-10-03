@@ -3,23 +3,30 @@ title: Acerca de [!UICONTROL Advertising Insights]
 description: Obtenga información acerca de los distintos tipos de [!UICONTROL Advertising Insights] disponibles.
 exl-id: e6eec71e-04ab-4180-95f2-da31a26e5c1a
 feature: Search Advertising Insights
-TQID: https://experienceleague.adobe.com/AgAYE5bBGkWgk70jeKCTxzEOINvfsWXK9tnjytRc83c
+TQID: 'https://experienceleague.adobe.com/AgAYE5bBGkWgk70jeKCTxzEOINvfsWXK9tnjytRc83c'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: bc8b5578-58f6-5342-a640-fce94e5ff4a7
+    internal-label: Search Advertising Insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 1354
+source-wordcount: '1367'
 ht-degree: 0%
-
 ---
-
 # Acerca de [!UICONTROL Advertising Insights]
 
 [!UICONTROL Advertising Insights] presentan datos visuales y procesables sobre sus portafolios optimizados y activos que contienen campañas activas.
@@ -33,7 +40,7 @@ Cada insight se genera bajo demanda y el resultado es un archivo que puede desca
 | [!UICONTROL AMO-AA Tracking Discrepancy] | (Anunciantes con solo una integración de Adobe Advertising y Adobe Analytics) Identifica los problemas de seguimiento, que se caracterizan por días con una proporción de clics respecto a instancias fuera de la variación normal o con una variación del 20 % o superior. El informe incluye:<ul><li>Un archivo [!DNL Microsoft PowerPoint] con un resumen de la variación de datos; una tabla y gráficos de tendencias que muestran la variación por campaña para las campañas con la mayor cantidad de problemas de seguimiento; sugerencias para la resolución de problemas; y una explicación de la metodología del informe.</li><li>Un archivo [!DNL Microsoft Excel] con datos de resumen de cada campaña en el portafolio y datos diarios del mes pasado de cada campaña.</li></ul> |
 | [!UICONTROL Attribution Analysis] | ([!DNL PowerPoint] formato de presentación) Indica cuándo un modelo de atribución diferente puede mejorar los modelos de ingresos y la optimización de un único portafolio. |
 | [!UICONTROL Campaign Caps] | ([!DNL PowerPoint] formato de presentación) Indica si el gasto de un solo portafolio en los últimos 30 días estuvo limitado por los límites presupuestarios de la campaña, y recomienda ajustes en la configuración del portafolio para lograr un retorno óptimo de la inversión. |
-| [!UICONTROL Day of Week] | ([!DNL PowerPoint] formato de presentación) Indica el rendimiento de un solo portafolio por día de la semana (DOW) en los últimos 30 días, y recomienda objetivos de gasto DOW para aumentar el retorno de la inversión.<br><br>**NOTA:** Los portafolios que no han gastado lo suficiente o que no se han podido gastar en los últimos dos días no están disponibles para insight. |
+| [!UICONTROL Day of Week] | ([!DNL PowerPoint] formato de presentación) Indica el rendimiento de un solo portafolio por día de la semana (DOW) en los últimos 30 días, y recomienda objetivos de gasto DOW para aumentar el retorno de la inversión.<br><br>**NOTA:** Los portafolios sin gasto suficiente o que no pudieron gastar para segmentar en los últimos dos días no están disponibles para insight. |
 | [!UICONTROL Delayed Revenue] | Mide el retraso de conversión (el tiempo transcurrido entre un clic en un anuncio y una conversión posterior) de un portafolio y muestra cualquier diferencia en los ingresos ponderados (ahora denominados &quot;[valor objetivo](/help/search-social-commerce/glossary.md#o-p)&quot;), el retorno de la inversión y la precisión del modelo debido al retraso. Este análisis le permite detectar cambios recientes en las métricas de rendimiento atribuidas a fechas de clic y ver el impacto de la creación de informes por fecha de clic frente a fecha de transacción.<br><br>El insight incluye un libro de trabajo [!DNL Excel] con hojas individuales para los ingresos ponderados (ahora denominados &quot;valor objetivo&quot;), la precisión de los ingresos y los factores de retardo. También incluye un archivo de [!DNL Powerpoint] con varios gráficos. |
 | [!UICONTROL Event Path] | Identifica cómo los distintos canales y campañas generan conversiones analizando las rutas de evento y las conversiones multitáctiles. Puede cargar un archivo en formato XLSX y ZIP (XLSX comprimido) y a) extraer eventos o b) analizar eventos clasificados. |
 | [!UICONTROL Google Account Audit] | (Para cuentas de [!DNL Google Ads]; más útil para preventas) Proporciona una descripción general del rendimiento de una cuenta y resalta las deficiencias para mostrar la eficacia con que se administra. La auditoría incluye información sobre pujas, tipos de coincidencias, límite de presupuesto, rendimiento del día de la semana, rendimiento móvil y mucho más. Para generar insight, debe cargar 1) [!DNL Google Ads] informes de campaña, palabra clave e historial de cambios para la cuenta desde la interfaz de usuario web [!DNL Google Ads] y b) un archivo de hoja de edición masiva para la cuenta desde la aplicación [!DNL Google Ads Editor]. Todos los archivos deben tener el formato CSV, TSV, TXT o ZIP (CSV comprimido, TSV o TXT).<br><br>Este insight se puede usar para ayudar a los clientes potenciales a comprender cómo Search, Social y Commerce pueden impulsar el rendimiento y abordar las deficiencias resaltadas por el análisis. El equipo de cuenta de Adobe también puede utilizar insight para evaluar las cuentas antes de incorporar formalmente a un cliente. |

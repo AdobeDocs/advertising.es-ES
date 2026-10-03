@@ -3,20 +3,26 @@ title: '[!UICONTROL AdWords Shopping Performance Report]'
 description: Más información acerca de [!UICONTROL AdWords Shopping Performance Report].
 exl-id: 891c8940-bf92-455c-a6f3-92e2a0122b4a
 feature: Search Reports, Search Specialty Reports
-TQID: https://experienceleague.adobe.com/923ThJ4GB0iDIZH22x1WcSxEIX22v7cX0Pf9uC90lLk
+TQID: 'https://experienceleague.adobe.com/923ThJ4GB0iDIZH22x1WcSxEIX22v7cX0Pf9uC90lLk'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
+    internal-label: Search Specialty Reports
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: Insights
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 269
+source-wordcount: '274'
 ht-degree: 0%
-
 ---
-
 # [!UICONTROL AdWords Shopping Performance Report]
 
 *[!DNL Google Ads]solo cuentas*
@@ -28,7 +34,7 @@ Puede ver los datos de los dos meses anteriores. Es posible que los datos anteri
 >[!NOTE]
 >
 >* Si el producto incluye la columna [!UICONTROL Product Category] y aparece un producto en varias categorías, el producto aparecerá en varias filas y el recuento de conversiones se duplicará en cada una de las filas aplicables. Como los totales de datos de conversión no son precisos, ordene los datos por categoría solo para obtener una comprensión general de cómo las conversiones son tendencias por categoría.
->* Los datos de este informe se recuperan el día anterior a las 23:00 (11:00 p.m.) de cada día. Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
+>* Los datos de este informe se recuperarán el día anterior a las 23:00 (23:00 h) cada día. Por ejemplo, a las 23:00 del 18 de junio, extrae datos del 17 de junio. Si ejecuta el informe el 19 de junio a las 09:00 (antes de extraer los datos del 18 de junio), el informe incluirá los datos hasta el 17 de junio a las 23:00.
 
 ## Columnas predeterminadas
 

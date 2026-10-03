@@ -3,23 +3,31 @@ title: Recopilación de datos históricos para ID de AMO e ID de EF para su uso 
 description: Obtenga información sobre cómo recopilar datos históricos para las variables reservadas en Adobe Analytics para su uso futuro en Adobe Customer Journey Analytics
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-TQID: https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0
+TQID: 'https://experienceleague.adobe.com/sOUivMvQxpfRmBYsrC3vdFC2UUxwQO0cl5BUdsQ2-u0'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: f2860a4b-f905-4545-bead-1bbc92564592
+    internal-label: Advertising integrations
+subfeature_v2:
+  - id: cfd751d4-ee56-4323-8fd1-dc174b031709
+    internal-label: Analytics integration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: baec698f16aafc163adf2c4cfa76c92af7e1ad61
+    internal-label: Implementation
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 700
+source-wordcount: '700'
 ht-degree: 0%
-
 ---
-
 # Recopilación de datos históricos para ID de AMO e ID de EF para su uso en Adobe Customer Journey Analytics
 
 *Anunciantes con [!DNL Analytics for Advertising] y solo Adobe Customer Journey Analytics*
@@ -61,23 +69,23 @@ Este paso es manual y debe completarse para cada grupo de informes que realice u
 
    * En la sección [!UICONTROL Always Execute], agregue dos acciones para crear las nuevas eVars:
 
-      * Para `AMO ID`:
+     * Para `AMO ID`:
 
-         1. Seleccione **Sobrescribir el valor de**.
-         1. Seleccione *\&lt;el eVar nuevo/sin usar\>*.
-         1. Seleccione **Parámetro de cadena de consulta**.
-         1. Escriba `s_kwcid`.
+       1. Seleccione **Sobrescribir el valor de**.
+       1. Seleccione *\&lt;el eVar nuevo/sin usar\>*.
+       1. Seleccione **Parámetro de cadena de consulta**.
+       1. Escriba `s_kwcid`.
 
-        Ejemplo: `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
+       Ejemplo: `Overwrite the value of rVar10 with Query String Parameter s_kwcid`
 
-      * Para `EF ID`:
+     * Para `EF ID`:
 
-         1. Seleccione **Sobrescribir el valor de**.
-         1. Seleccione *\&lt;el eVar nuevo/sin usar\>*.
-         1. Seleccione **Parámetro de cadena de consulta**.
-         1. Escriba `ef_id`.
+       1. Seleccione **Sobrescribir el valor de**.
+       1. Seleccione *\&lt;el eVar nuevo/sin usar\>*.
+       1. Seleccione **Parámetro de cadena de consulta**.
+       1. Escriba `ef_id`.
 
-        Ejemplo: `Overwrite the value of rVar11 with Query String Parameter ef_id`
+       Ejemplo: `Overwrite the value of rVar11 with Query String Parameter ef_id`
 
    * Para [!UICONTROL Reason for rule], use una nota descriptiva, como &quot;El ID de AMO y el ID de EF se transportarán a AEP a través del conector de Adobe Analytics&quot;.
 

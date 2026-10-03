@@ -3,22 +3,26 @@ title: Ver el informe de ubicación [!UICONTROL Diagnostics]
 description: Aprenda a diagnosticar problemas con la configuración y el ritmo de la ubicación.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-TQID: https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ
+TQID: 'https://experienceleague.adobe.com/aRELxvUfrIZVu7-qzxO8QfrlMGNP17YJk0ru04oRFQQ'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: ee30758d-9ffe-4cd7-8f26-0d4394f041f6
+    internal-label: Demand Side Platform
+  - id: 38361a05-b9a0-52fb-8641-080aa2bf4ec0
+    internal-label: DSP Placements
 subfeature_v2:
   - id: a4886037-b6d8-40e1-aeab-edeb7649d7d3
+    internal-label: Placements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 527ca2bb74de388c13ba1ce5bde3f8be1cead8d0
+    internal-label: User
+source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # Ver el informe de ubicación [!UICONTROL Diagnostics]
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
@@ -51,31 +55,31 @@ Los informes de diagnóstico pueden ayudarle a diagnosticar problemas con la con
 
    * Para ver el registro de cambios:
 
-      1. Haga clic en **[!UICONTROL Change Log]**.
+     1. Haga clic en **[!UICONTROL Change Log]**.
 
-      1. (Opcional) Filtre los resultados del informe:
+     1. (Opcional) Filtre los resultados del informe:
 
-         * En el menú de fecha, cambie el período del informe de los Últimos 14 días predeterminados a otro período (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* o *[!UICONTROL Last 1 year]*).
+        * En el menú de fecha, cambie el período del informe de los Últimos 14 días predeterminados a otro período (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* o *[!UICONTROL Last 1 year]*).
 
-         * En el menú de la izquierda, filtre el informe por un nombre de usuario específico.
+        * En el menú de la izquierda, filtre el informe por un nombre de usuario específico.
 
-         * En el menú de la derecha, filtre el informe por una configuración de ubicación específica.
+        * En el menú de la derecha, filtre el informe por una configuración de ubicación específica.
 
    * Para ver el estado de las aprobaciones de anuncios:
 
-      1. En la esquina superior derecha, haga clic en **[!UICONTROL Ad Approvals]**.
+     1. En la esquina superior derecha, haga clic en **[!UICONTROL Ad Approvals]**.
 
-      1. (Opcional) Para pausar o activar el anuncio, haga clic en el modificador de estado (![Modificador de estado](/help/dsp/assets/status-switch.png)) en la columna Anuncio).
+     1. (Opcional) Para pausar o activar el anuncio, haga clic en el modificador de estado (![Modificador de estado](/help/dsp/assets/status-switch.png)) en la columna Anuncio).
 
-      1. (Opcional) Para abrir la configuración de un anuncio, haga clic en **[!UICONTROL View Ad]** junto al anuncio.
+     1. (Opcional) Para abrir la configuración de un anuncio, haga clic en **[!UICONTROL View Ad]** junto al anuncio.
 
    * Para ver por qué DSP no pujó por la ubicación:
 
-      1. En la esquina superior derecha, haga clic en **[!UICONTROL Non Bids]**.
+     1. En la esquina superior derecha, haga clic en **[!UICONTROL Non Bids]**.
 
-      1. (Opcional) Para filtrar la colocación por un destino de acuerdo privado específico, seleccione la oferta. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
+     1. (Opcional) Para filtrar la colocación por un destino de acuerdo privado específico, seleccione la oferta. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
-      1. (Opcional) Para cambiar el intervalo de fechas, haga clic en el campo de fecha y seleccione una fecha o un intervalo de fechas diferentes.
+     1. (Opcional) Para cambiar el intervalo de fechas, haga clic en el campo de fecha y seleccione una fecha o un intervalo de fechas diferentes.
 
 <!-- Later, add link to >* Definitions for NBRs (Reading No Bid Reports (NBRs)) -->
 
