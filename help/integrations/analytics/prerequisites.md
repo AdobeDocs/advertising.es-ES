@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2c5cc3a9b50bf58aa7d44300471716674e244451
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Revise la siguiente información antes de integrar Adobe Advertising con Adobe A
 
 * Cualquiera de las siguientes opciones:
   * Adobe Experience Platform Web SDK: `alloy.js`
-  * Servicio de identidad de Experience Cloud: `visitorAPI.js` versión 2.0 o superior
+  * Servicio ID de visitante de Adobe: `visitorAPI.js` versión 2.0 o superior
 * Cualquier versión de Adobe Analytics (incluidas [!DNL Prime], [!DNL Premium] o [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` versión 2.1 o superior
 * (Clientes de Advertising DSP) Se ha implementado un [fragmento de Advertising DSP JavaScript](javascript.md) en sus páginas web para rastrear las visitas de visualización.
@@ -59,7 +59,7 @@ Revise la siguiente información antes de integrar Adobe Advertising con Adobe A
 
 ## Requisitos para compartir segmentos de Analytics con Adobe Advertising
 
-* Servicio de identidad de Experience Cloud: `visitorAPI.js` versión 2.1 o superior
+* Servicio ID de visitante de Adobe: `visitorAPI.js` versión 2.1 o superior
 * Adobe Analytics: `appMeasurement.js` versión 1.8 o superior
 
 ## Requisitos para informar de datos de [!DNL Analytics] en Adobe Advertising
@@ -69,7 +69,7 @@ Proporcione al equipo de implementación de Adobe Advertising lo siguiente:
 * El ID del grupo de informes [!DNL Analytics] que se utilizará para generar informes sobre la actividad de medios de pago y para alimentar la actividad del sitio para la optimización y la creación de informes en Adobe Advertising
 * El ID de organización de CX Enterprise de la empresa (ID de organización).
 
-Puede encontrar ambos ID en la [pestaña Summary de Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=es).
+Puede encontrar ambos ID en la [pestaña Summary de Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
 ![Pantalla de resumen de Experience Platform Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -96,7 +96,7 @@ El JavaScript [!DNL Analytics for Advertising] usa esta configuración para dete
 
 >[!NOTE]
 >
->Para segmentar datos para un periodo de tiempo diferente, puede [configurar segmentos personalizados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=es) con diferentes ventanas retrospectivas dentro de Analysis Workspace.
+>Para segmentar datos para un periodo de tiempo diferente, puede [configurar segmentos personalizados](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) con diferentes ventanas retrospectivas dentro de Analysis Workspace.
 
 ## Entornos publicitarios admitidos
 
@@ -139,7 +139,7 @@ Ejemplo: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 Para lograr una integración de datos precisa, todas las llamadas de Adobe Advertising que use una actividad [!DNL Analytics for Advertising] para entregar contenido o registrar la métrica de objetivo deben tener una visita [!DNL Analytics] correspondiente que comparta el mismo ID suplementario.
 
-Cuando solucione problemas en [!DNL Analytics], asegúrese de que el ID suplementario esté presente para [!DNL Analytics] visitas. En [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=es), puede ver este identificador en la ficha Adobe Advertising como el parámetro `sdid`.
+Cuando solucione problemas en [!DNL Analytics], asegúrese de que el ID suplementario esté presente para [!DNL Analytics] visitas. En [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html), puede ver este identificador en la ficha Adobe Advertising como el parámetro `sdid`.
 
 >[!NOTE]
 >
