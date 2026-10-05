@@ -9,19 +9,14 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2100'
 ht-degree: 0%
 ---
 # (Nueva IU) Administrar las cuentas de red de publicidad a través de la conexión API
 
 <!-- Besides just logging into an account, do you have to make any other choices once you're logged in (such as to give speciic permissions to SSC?  And what about oAuth tokens -- do we still use them? -->
-
-*característica de Beta*
-
-<!-- Move out info about Naver into a separate page -->
-
 A continuación se indican instrucciones para administrar cuentas de red de anuncios que Search, Social y Commerce sincronizan mediante la API de la red de anuncios.
 
 <!-- Move out info about Naver into a separate page -->
@@ -36,13 +31,13 @@ Para habilitar la sincronización de una cuenta, debe crear un registro de cuent
 >
 >Para crear una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Haga clic en **[!UICONTROL Create Account]**.
 
 1. Haga clic en el nombre de la red publicitaria y, a continuación, haga clic en **[!UICONTROL Next]**.
 
-1. (Todas las redes de anuncios excepto [!DNL Yandex]) Inicie sesión en la red de anuncios con las credenciales del anunciante. Seleccione la opción &quot;Seguimiento de cuentas para esta cuenta&quot;. A continuación, en la esquina superior derecha, haga clic en **[!UICONTROL Next]**.
+1. (Todas las redes de anuncios excepto [!DNL ChatGPT Ads] y [!DNL Yandex]) Inicie sesión en la red de anuncios con las credenciales del anunciante. Seleccione la opción &quot;Seguimiento de cuentas para esta cuenta&quot;. A continuación, en la esquina superior derecha, haga clic en **[!UICONTROL Next]**.
 
 1. Especifique la [configuración de la cuenta](#account-settings-api) en cada ficha disponible.
 
@@ -58,7 +53,7 @@ Para volver a autenticar la configuración de la cuenta a fin de actualizar la c
 >
 >Para editar una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Seleccione la cuenta de cualquiera de las siguientes maneras:
 
@@ -76,11 +71,13 @@ Para volver a autenticar la configuración de la cuenta a fin de actualizar la c
 
 ## Volver a autenticar una cuenta de red de publicidad {#reauthenticate}
 
+*No aplicable a [!DNL ChatGPT Ads] cuentas*
+
 Para actualizar la conexión de red de publicidad o los permisos de actualización de la cuenta, vuelva a autenticar la cuenta.
 
 1. (Si ha iniciado sesión en otra cuenta para la misma red de anuncios en la misma aplicación de explorador) Cierre sesión en cualquier cuenta que no sea la del anunciante.
 
-1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -98,7 +95,7 @@ Para actualizar la conexión de red de publicidad o los permisos de actualizaci�
 
 Al habilitar una cuenta de red de publicidad, Search, Social y Commerce sincronizan los datos de campaña con la cuenta (cuando es compatible) y envían ofertas automatizadas o presupuestos de campaña para las campañas en portafolios. Cuando deshabilita una cuenta de red de publicidad, Search, Social y Commerce detienen toda la actividad en la cuenta. Los datos recopilados mientras la cuenta estaba activa se siguen almacenando, pero las vistas e informes de administración de campañas no incluyen datos del período de tiempo en el que la cuenta está deshabilitada. Más tarde puede volver a habilitar la cuenta para reanudar la actividad con la cuenta.
 
-1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
 
 1. Realice una de las acciones siguientes:
 
@@ -141,7 +138,7 @@ La configuración de la cuenta varía según la red de anuncios. Es posible que 
 
 **[!DNL [Cuentas de red de anuncios]]:** (visible mientras crea una cuenta) Cuenta de red de anuncios que se va a sincronizar.
 
-**[Detalles de inicio de sesión]:** (solo cuentas de Yandex) Las credenciales de la cuenta que se deben usar:
+**[Detalles de inicio de sesión]:** ([!DNL Yandex] cuentas solamente) Las credenciales de la cuenta que se van a usar:
 
 * **[!UICONTROL Login]:** El nombre o ID de inicio de sesión para habilitar el acceso de API a la cuenta.
 
@@ -154,12 +151,6 @@ La configuración de la cuenta varía según la red de anuncios. Es posible que 
 * **[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] cuentas con la configuración Cuenta compartida deshabilitada solamente; opcional) Identificador numérico de la campaña usado para pagar todas las campañas publicitarias de la cuenta.
 
 * **[!UICONTROL Finance Token]:** ([!DNL Yandex] cuentas con la configuración Cuenta compartida deshabilitada solamente; opcional) El token de desarrollador que se usará para las llamadas de API relacionadas con las finanzas, como para reasignar dinero de la cartera entre las campañas del anunciante según sea necesario para la optimización del portafolio.
-
-**[!UICONTROL Network Account ID]:** (Todas las redes de publicidad excepto [!DNL Yandex]: id. de cuenta asignado por la red de publicidad.
-
->[!NOTE]
->
->Las cuentas de administrador de red de anuncios no son compatibles aquí. Para identificar una cuenta de administrador para [!DNL Microsoft Advertising], use el campo Identificador de cuenta maestra o Cuenta MCC, respectivamente. Para [configurar credenciales para una [!DNL Google Ads] cuenta de administrador](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md), vaya a [!UICONTROL Setup] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Currency]:** (solo lectura) La abreviatura de la moneda utilizada para la cuenta. Este valor se rellena automáticamente con la moneda configurada para la cuenta en la red de publicidad una vez guardado el registro.
 
@@ -193,7 +184,7 @@ Para habilitar esta característica, active **[Habilitar seguimiento]**.
 >* Si cambia de [!UICONTROL Standard] a [!UICONTROL Token], o viceversa, debe volver a generar las direcciones URL de seguimiento para la cuenta.
 >* Puede anular la configuración de nivel de cuenta en el nivel de campaña.
 
-**[!UICONTROL Auto Update]:** (cuando el seguimiento de Search, Social y Commerce está habilitado) Estandariza las direcciones URL de seguimiento para comprobar la compatibilidad entre exploradores y servidores. Search, Social y Commerce cargan automáticamente lo siguiente en la red de anuncios durante la siguiente sincronización: (a) parámetros de seguimiento de Search, Social y Commerce para plantillas de seguimiento y los mismos parámetros añadidos a las direcciones URL finales o (b) nuevas direcciones URL de destino incrustadas con el código de seguimiento de Search, Social y Commerce. Para anunciantes con una [integración Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es) y una configuración de ID de AMO del lado del servidor (s_kwcid), la carga también incluye [parámetros de ID de AMO](/help/integrations/analytics/ids.md#amo-id) para sus cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La configuración predeterminada en el nivel de cuenta se hereda de la configuración de seguimiento del anunciante. Puede anular la configuración de nivel de cuenta en el nivel de campaña.
+**[!UICONTROL Auto Update]:** (cuando el seguimiento de Search, Social y Commerce está habilitado) Estandariza las direcciones URL de seguimiento para comprobar la compatibilidad entre exploradores y servidores. Search, Social y Commerce cargan automáticamente lo siguiente en la red de anuncios durante la siguiente sincronización: (a) parámetros de seguimiento de Search, Social y Commerce para plantillas de seguimiento y los mismos parámetros añadidos a las direcciones URL finales o (b) nuevas direcciones URL de destino incrustadas con el código de seguimiento de Search, Social y Commerce. Para anunciantes con una [integración Adobe Advertising-Adobe Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) y una configuración de ID de AMO del lado del servidor (s_kwcid), la carga también incluye [parámetros de ID de AMO](/help/integrations/analytics/ids.md#amo-id) para sus cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising]. La configuración predeterminada en el nivel de cuenta se hereda de la configuración de seguimiento del anunciante. Puede anular la configuración de nivel de cuenta en el nivel de campaña.
 
 Las direcciones URL de seguimiento se actualizan a diario solo para las entidades que no están sincronizadas (es decir, las nuevas entidades que se añadieron y las entidades existentes cuyas propiedades han cambiado). Por lo tanto, si cambia esta configuración de deshabilitada a habilitada para un anunciante, cuenta o campaña existente, las direcciones URL de seguimiento no se actualizan para las entidades existentes que ya están sincronizadas. Para agregar el seguimiento a las direcciones URL de entidades sincronizadas existentes, póngase en contacto con el equipo de cuenta de Adobe y solicite un proceso de sincronización manual único. El proceso de carga automática gestionará los cambios futuros.
 
@@ -251,5 +242,5 @@ Para que los datos aparezcan en los grupos de informes, ya sea (a) la función d
 >[!MORELIKETHIS]
 >
 >* [Acerca de las cuentas de red de anuncios](../ad-network-account-about.md)
->* [Administrar cuentas de centros comerciales](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
+>* [Administrar cuentas de centros comerciales](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 >* [Actualizar el código de seguimiento s_kwcid para una [!DNL Google Ads] cuenta](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
