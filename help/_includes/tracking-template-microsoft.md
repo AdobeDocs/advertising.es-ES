@@ -1,9 +1,8 @@
 ---
 source-git-commit: 38d6d70d03c12aab1a7caee6e589a2fdeaf78ad4
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '180'
 ht-degree: 0%
-
 ---
 # Campo Plantilla de seguimiento para entidades Advertising de Microsoft
 
