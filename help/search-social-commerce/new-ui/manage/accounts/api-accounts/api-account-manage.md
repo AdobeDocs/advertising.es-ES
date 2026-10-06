@@ -9,7 +9,7 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Para habilitar la sincronización de una cuenta, debe crear un registro de cuent
 >
 >Para crear una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Haga clic en **[!UICONTROL Create Account]**.
 
@@ -53,7 +53,7 @@ Para volver a autenticar la configuración de la cuenta a fin de actualizar la c
 >
 >Para editar una cuenta real en la red de anuncios, vaya al sitio web de la red de anuncios.
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Seleccione la cuenta de cualquiera de las siguientes maneras:
 
@@ -77,7 +77,7 @@ Para actualizar la conexión de red de publicidad o los permisos de actualizaci�
 
 1. (Si ha iniciado sesión en otra cuenta para la misma red de anuncios en la misma aplicación de explorador) Cierre sesión en cualquier cuenta que no sea la del anunciante.
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 <!-- For Bing and Yandex, the right-click menu includes "Re authenticate." Clarify why just those types -->
 
@@ -95,7 +95,7 @@ Para actualizar la conexión de red de publicidad o los permisos de actualizaci�
 
 Al habilitar una cuenta de red de publicidad, Search, Social y Commerce sincronizan los datos de campaña con la cuenta (cuando es compatible) y envían ofertas automatizadas o presupuestos de campaña para las campañas en portafolios. Cuando deshabilita una cuenta de red de publicidad, Search, Social y Commerce detienen toda la actividad en la cuenta. Los datos recopilados mientras la cuenta estaba activa se siguen almacenando, pero las vistas e informes de administración de campañas no incluyen datos del período de tiempo en el que la cuenta está deshabilitada. Más tarde puede volver a habilitar la cuenta para reanudar la actividad con la cuenta.
 
-1. En el menú principal, haga clic en **[!UICONTROL Setup]** \> **[!UICONTROL Accounts]**.
+1. En el menú principal, haga clic en **[!UICONTROL Manage]** \> **[!UICONTROL Accounts]**.
 
 1. Realice una de las acciones siguientes:
 
