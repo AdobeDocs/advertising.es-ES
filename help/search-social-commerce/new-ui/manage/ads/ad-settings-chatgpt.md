@@ -1,6 +1,6 @@
 ---
-title: '[!DNL ChatGPT] configuración de publicidad'
-description: Hacer referencia a la configuración de [!DNL ChatGPT] anuncios.
+title: '[!DNL ChatGPT] configuración de anuncios de tarjetas de gráficos'
+description: Hacer referencia a la configuración de [!DNL ChatGPT] anuncios de tarjetas de chat.
 feature: Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -14,12 +14,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
+source-git-commit: d109d008b1132fa45699a8fcbb6dee16f8634f80
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '158'
 ht-degree: 0%
 ---
-# [!DNL ChatGPT Ads] configuración de publicidad
+# [!DNL ChatGPT Ads] configuración de anuncios de tarjetas de chat
 
 *Los anuncios de [!DNL ChatGPT] son una característica piloto de[!DNL OpenAI]*
 
