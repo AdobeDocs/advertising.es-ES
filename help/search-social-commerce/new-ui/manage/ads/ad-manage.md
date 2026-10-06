@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 02477e5de5c1e85162d1d8263f833ddf7d891581
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1761'
 ht-degree: 0%
 ---
 # Administración de anuncios
@@ -66,6 +66,8 @@ Puede crear y administrar tipos de anuncios admitidos para grupos de anuncios de
   >[!NOTE]
   >
   >Actualmente no se pueden crear ni editar anuncios de solo llamada. Puede ver, cambiar el estado de o eliminar un anuncio de solo llamada existente.
+
+* **Anuncios de conversación** para un grupo de anuncios en una campaña de [!DNL ChatGPT Ads]. Los anuncios de conversación aparecen junto a las conversiones de chat de IA.
 
 * **Anuncios dinámicos de búsqueda expandidos** (ahora denominados solo &quot;anuncios dinámicos de búsqueda&quot; en las redes de anuncios) para [!DNL Google Ads] y [!DNL Microsoft Advertising] grupos de anuncios dinámicos de búsqueda en campañas de búsqueda. Los anuncios dinámicos de búsqueda utilizan contenido del sitio web, en lugar de palabras clave, para decidir cuándo mostrar los anuncios. La red de anuncios genera dinámicamente el titular, elige la dirección URL de la página de aterrizaje y la dirección URL de visualización y genera automáticamente la dirección URL final.
 
@@ -117,7 +119,7 @@ Sin embargo, no está disponible para [!DNL Google Ads] publicidad de búsqueda 
 
    Para obtener más información sobre los tipos de anuncios disponibles, consulte &quot;[Tipos de anuncios disponibles](#ad-types)&quot;.
 
-1. Especifique la configuración restante para un [anuncio de texto Baidu](ad-settings-baidu-text.md), [anuncio de búsqueda dinámica expandido de Google Ads](ad-settings-google-dsa.md) (llamado solo &quot;anuncio de búsqueda dinámica&quot; en Google Ads), [anuncio de búsqueda interactiva de Google Ads](ad-settings-google-rsa.md), [anuncio de búsqueda dinámica expandida de Microsoft Advertising](ad-settings-microsoft-dsa.md), [anuncio multimedia de Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anuncio de producto de Microsoft Advertising](ad-settings-microsoft-product.md), [anuncio interactivo de Microsoft Advertising (audiencia)](ad-settings-microsoft-responsive.md), [anuncio de búsqueda interactivo de Microsoft](ad-settings-microsoft-rsa.md) o [Yandex configuración de ad](ad-settings-yandex-text.md).
+1. Especifique la configuración restante para un [anuncio de texto Baidu](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] anuncio](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [anuncio de búsqueda dinámica expandida de Google Ads](ad-settings-google-dsa.md) (llamado solo &quot;anuncio de búsqueda dinámica&quot; en Google Ads), [anuncio de búsqueda interactiva de Google Ads](ad-settings-google-rsa.md), [anuncio de búsqueda dinámica expandida de Microsoft Advertising](ad-settings-microsoft-dsa.md), [anuncio multimedia de Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anuncio de producto de Microsoft Advertising](ad-settings-microsoft-product.md), [anuncio interactivo de Microsoft Advertising (audiencia)](ad-settings-microsoft-responsive.md), [búsqueda interactiva de Microsoft Advertising Configuración de anuncio](ad-settings-microsoft-rsa.md) o [anuncio de texto Yandex](ad-settings-yandex-text.md).
 
    >[!NOTE]
    >
@@ -157,7 +159,7 @@ Cambie rápidamente el nombre de un anuncio sin abrir la configuración completa
 
 1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Edit]**.
 
-1. Edite la configuración restante para un [anuncio de texto Baidu](ad-settings-baidu-text.md), [anuncio de búsqueda dinámica expandido de Google Ads](ad-settings-google-dsa.md) (ahora solo llamado &quot;anuncio de búsqueda dinámica&quot; en Google Ads), [anuncio de búsqueda interactiva de Google Ads](ad-settings-google-rsa.md), [anuncio de búsqueda dinámica expandida de Microsoft Advertising](ad-settings-microsoft-dsa.md), [anuncio multimedia de Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anuncio de producto de Microsoft Advertising](ad-settings-microsoft-product.md), [anuncio interactivo de Microsoft Advertising (audiencia)](ad-settings-microsoft-responsive.md), [anuncio de búsqueda interactivo de Microsoft](ad-settings-microsoft-rsa.md) o [Yandex configuración de anuncio de texto &#x200B;](ad-settings-yandex-text.md).
+1. Edite la configuración restante para un [anuncio de texto Baidu](ad-settings-baidu-text.md), [[!DNL ChatGPT Ads] anuncio](/help/search-social-commerce/new-ui/manage/ads/ad-settings-chatgpt.md), [anuncio de búsqueda dinámica expandida de Google Ads](ad-settings-google-dsa.md) (ahora llamado solo &quot;anuncio de búsqueda dinámica&quot; en Google Ads), [anuncio de búsqueda interactiva de Google Ads](ad-settings-google-rsa.md), [anuncio de búsqueda dinámica expandida de Microsoft Advertising](ad-settings-microsoft-dsa.md), [anuncio multimedia de Microsoft Advertising](ad-settings-microsoft-multimedia.md), [anuncio de producto de Microsoft Advertising](ad-settings-microsoft-product.md), [anuncio interactivo de Microsoft Advertising (audiencia)](ad-settings-microsoft-responsive.md), [búsqueda interactiva de Microsoft Advertising Configuración de anuncio](ad-settings-microsoft-rsa.md) o [anuncio de texto Yandex](ad-settings-yandex-text.md).
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
@@ -171,7 +173,7 @@ Cambiar rápidamente el estado de un anuncio sin abrir la configuración complet
 
 Puede pausar cualquier anuncio activo en una red de publicidad compatible para deshabilitar las pujas en ella. Más tarde, puedes reanudar las pujas cambiando el estado de nuevo a activo.
 
-También puede eliminar cualquier anuncio activo o en pausa. Los anuncios eliminados se eliminan de la red de anuncios. Siguen estando visibles cuando se incluyen en el filtro de datos, pero no se pueden cambiar.
+También puede eliminar (lo que se denomina &quot;archivo&quot; en [!DNL ChatGPT Ads Manager]) cualquier anuncio activo o en pausa. Los anuncios eliminados o archivados se eliminan o archivan de la red de anuncios. Siguen estando visibles cuando se incluyen en el filtro de datos, pero no se pueden cambiar.
 
 ### Activación o pausa de un anuncio
 
@@ -185,7 +187,7 @@ También puede eliminar cualquier anuncio activo o en pausa. Los anuncios elimin
 
    * Para pausar un anuncio activo, haga clic en **[!UICONTROL Pause]**.
 
-### Eliminar un anuncio
+### Eliminar o archivar un anuncio
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Ads]**.
 
