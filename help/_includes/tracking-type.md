@@ -1,15 +1,14 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '152'
 ht-degree: 0%
-
 ---
 # Campo Tipo de seguimiento en la configuración de cuenta y campaña
 
 **[!UICONTROL Tracking Type]:** Método mediante el cual se generan las direcciones URL:
 
-* *[!UICONTROL EF Redirect]* (valor predeterminado): para clientes que desean utilizar el servicio de seguimiento de conversión de Adobe Advertising. Este método genera ID únicos de seguimiento de clics y redirige a los usuarios al servidor de Adobe Advertising con fines de seguimiento antes de enviarlos a la página de aterrizaje del cliente.
+* *[!UICONTROL EF Redirect]* (valor predeterminado): para clientes que desean utilizar el servicio de seguimiento de conversiones de Adobe Advertising. Este método genera ID únicos de seguimiento de clics y redirige a los usuarios al servidor de Adobe Advertising con fines de seguimiento antes de enviarlos a la página de aterrizaje del cliente.
 
   Este método tiene opciones de seguimiento predeterminadas que se pueden personalizar de forma opcional y también se pueden especificar parámetros para anexar a cada dirección URL.
 
@@ -17,6 +16,6 @@ ht-degree: 0%
 
   **Notas:**
 
-   * Solo los usuarios administrador de cuentas de agencia, administrador de cuentas de Adobe y administrador pueden cambiar este valor.
-   * Si cambia el método de seguimiento, debe volver a generar las direcciones URL de seguimiento de la cuenta.
-   * Las opciones de seguimiento a nivel de campaña anulan la configuración a nivel de cuenta.
+  * Solo el administrador de cuentas de agencia, el administrador de cuentas de Adobe y los usuarios administradores pueden cambiar este valor.
+  * Si cambia el método de seguimiento, debe volver a generar las direcciones URL de seguimiento de la cuenta.
+  * Las opciones de seguimiento a nivel de campaña anulan la configuración a nivel de cuenta.
