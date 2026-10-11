@@ -16,16 +16,50 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '354'
 ht-degree: 0%
 ---
 # Previsualización de un elemento creativo
 
 Puede obtener una vista previa de un elemento creativo tal y como lo verán los visualizadores, incluidos los hipervínculos.
 
+## Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL ...]** junto al nombre del elemento creativo y, a continuación, haga clic en **[!UICONTROL Preview]**.
+
+   Para los creativos de HTML5 y HTML5 flexibles, puede moverse entre las pestañas Capas, Detalles y Atributos para obtener más detalles.
+
+1. (Opcional) Para abrir la página de aterrizaje del creativo, haga clic en el creativo.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Opcional; cuando esté disponible) Para descargar el elemento creativo, haga clic en ![Descargar](/help/creative/assets/download.png "Descargar").
+
+   El archivo se descarga según el procedimiento normal del explorador.
+
+1. (Opcional; cuando esté disponible) Para compartir una URL de demostración de modo que otras personas sin iniciar sesión en [!DNL Creative] puedan obtener una vista previa de los elementos creativos:
+
+   1. Haga clic en ![Compartir](/help/creative/assets/share.png "Compartir") en la parte superior derecha de la vista previa.
+
+   1. En el cuadro de diálogo [!UICONTROL Share demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
+
+## Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. Haga clic en el nombre de la biblioteca.
 

@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1643'
 ht-degree: 0%
 ---
 # Acerca de sus bibliotecas creativas
@@ -73,7 +73,7 @@ Los anuncios estándar incluyen:
 
 ##### Creativos de HTML5
 
-* **Experiencias de GenStudio:** Puedes importar todas las variantes de anuncio de una [experiencia de anuncio en pantalla](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) en [GenStudio for Performance Marketing](https://experienceleague.adobe.com/es/docs/genstudio-for-performance-marketing/user-guide/home) como creativos individuales de HTML5. Los vínculos externos se convierten en referencias locales. El contenido de HTML puede ocupar hasta 20 MB, y las imágenes individuales pueden ocupar hasta 50 MB.
+* **Experiencias de GenStudio:** Puedes importar todas las variantes de anuncio de una [experiencia de anuncio en pantalla](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) en [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) como creativos individuales de HTML5. Los vínculos externos se convierten en referencias locales. El contenido de HTML puede ocupar hasta 20 MB, y las imágenes individuales pueden ocupar hasta 50 MB.
 
   Una vez importada una experiencia de GenStudio, puede editar los metadatos (nombre, idioma, etiquetas) para el elemento creativo importado, pero no su contenido. Si edita la experiencia de GenStudio en GenStudio, vuelva a importar la experiencia en [!DNL Creative] para utilizar la versión más reciente.
 
@@ -101,7 +101,7 @@ Introduzca las etiquetas de seguimiento de JavaScript para creativos alojados en
 
 Puede cargar vídeos creativos de origen para la web, el móvil o la TV conectada desde su dispositivo o red. Cada experiencia de anuncio de vídeo requiere un creativo de vídeo predeterminado para cada duración creativa asignada a la experiencia. DSP transcodifica automáticamente todos los creativos de vídeo como etiquetas VAST 2.0 para que pueda previsualizarlos. En [!UICONTROL Tag Manager], opcionalmente [puede aplicar la transcodificación específica de DSP](/help/creative/experiences/experience-tag-video-transcoding.md) a cualquier etiqueta de experiencia de anuncio de vídeo.
 
-Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/es/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
+Consulte los siguientes requisitos creativos de vídeo. **Nota:** Si va a cargar experiencias de vídeo en Advertising DSP, vea también [Requisitos de DSP para Assets de vídeo de alta definición](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), que pueden ser más limitados.
 
 **Tipo de archivo:** .mov, .mp4, .webm
 
@@ -155,63 +155,55 @@ Cuando esté en el modo de tarjeta, puede desplazarse por las imágenes de una b
 
 #### Acciones disponibles
 
-* [Crear una nueva biblioteca](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
+* [Crear una nueva biblioteca](/help/creative/creative-libraries/creative-library-manage.md#library-create)
 
 * Para cada biblioteca creativa:
 
-  * [Edición del nombre de una biblioteca](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
+  * [Cambiar el nombre de una biblioteca](/help/creative/creative-libraries/creative-library-manage.md#library-rename)
 
-  * [Abra una biblioteca para ver los creativos y los paquetes asignados a la biblioteca](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
+  * [Abra una biblioteca para ver los creativos y los paquetes asignados a la biblioteca](/help/creative/creative-libraries/creative-library-manage.md#library-open)
 
-  * [Eliminar bibliotecas](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
+  * [Eliminar bibliotecas](/help/creative/creative-libraries/creative-library-manage.md#library-delete)
 
-### Las vistas [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
+### La vista [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 
-#### [!UICONTROL Standard Ads]
+La vista [!UICONTROL Creatives] muestra:
 
-La ficha [!UICONTROL Standard Ads] muestra todos los elementos creativos estándar que ha creado. Los datos de cada elemento creativo incluyen el tamaño, el tipo y la fecha de creación del elemento creativo. El modo de tabla también incluye columnas para el idioma predeterminado y la página de aterrizaje predeterminada.
+* Todos los creativos estándar que ha creado.
 
-##### Acciones disponibles
+  Los datos de cada elemento creativo estándar incluyen el tamaño, el tipo y la fecha de creación. El modo de tabla también incluye columnas para el idioma predeterminado y la página de aterrizaje predeterminada.
 
-* [Añadir elementos creativos estándar a una biblioteca](creative-add-standard.md)
+* Todos los elementos creativos dinámicos que se crearon dinámicamente para sus catálogos creativos, excepto los elementos creativos dinámicos que [eliminó manualmente](creative-delete.md). Si [duplicó](creative-duplicate.md) manualmente cualquier elemento creativo dinámico<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la lista de elementos creativos de ese catálogo también incluirá los elementos creativos duplicados.
 
-* [Edición de un elemento creativo estándar](creative-edit-standard.md)
+  Los datos de cada elemento creativo dinámico incluyen el tipo creativo, el tamaño creativo, el número de catálogos a los que pertenece el elemento creativo y la fecha de creación. El modo de tabla también incluye columnas para la plantilla de anuncio a través de la cual se generó el creativo y el recuento de ofertas.
 
-* [Previsualización de un elemento creativo estándar](creative-preview.md)
+  >[!NOTE]
+  >
+  >Cada vez que se procesa un catálogo, se actualizan los datos de los elementos creativos dinámicos existentes para ese catálogo.<!-- Verify this!!! And is there anything more to say w/regard to  -->
+
+>[!NOTE]
+>
+>En la interfaz de usuario heredada, [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] está organizado en [!UICONTROL Standard Ads] y [!UICONTROL Dynamic Ads] fichas independientes.
+
+#### Acciones disponibles
+
+* Agregue [creativos estándar](creative-add-standard.md) y [creativos dinámicos](creative-add-dynamic.md) a una biblioteca
+
+* Editar un [creativo estándar](creative-edit-standard.md) y un [creativo dinámico](creative-edit-dynamic.md)
+
+* Vista previa de [creativos estándar](creative-preview.md) y [creativos dinámicos](creative-preview.md)
 
 * [Añada elementos creativos estándar a paquetes de visualización estándar y elimine elementos creativos estándar de un paquete de visualización estándar](creative-attach-detach-bundles.md)
 
 * [Agregue elementos creativos de vídeo a paquetes de vídeo estándar y elimine elementos creativos de vídeo de un paquete de vídeo estándar](creative-attach-detach-bundles.md)
 
-* [Duplicar creativos estándar](creative-duplicate.md)
+* [Agregue elementos creativos dinámicos a los paquetes de visualización dinámica y elimine elementos creativos dinámicos de un paquete de visualización dinámica](creative-attach-detach-bundles.md)
+
+* Duplicar [creativos estándar](creative-duplicate.md) y [creativos dinámicos](creative-duplicate.md)
 
 * [Descargar creativos estándar](creative-download.md)
 
-* [Eliminar elementos creativos estándar](creative-delete.md)
-
-#### [!UICONTROL Dynamic Ads]
-
-La pestaña [!UICONTROL Dynamic Ads] muestra todos los elementos creativos dinámicos que se crearon dinámicamente para sus catálogos creativos, excepto los elementos creativos dinámicos que [eliminó manualmente](creative-delete.md) de la pestaña [!UICONTROL Dynamic Ads]. Si [duplicó](creative-duplicate.md) manualmente cualquier elemento creativo dinámico<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed -->, la lista de elementos creativos de ese catálogo también incluirá los elementos creativos duplicados.
-
-Los datos de cada creativo incluyen el tipo de creativo, el tamaño de creativo, el número de catálogos a los que pertenece el creativo y la fecha de creación. El modo de tabla también incluye columnas para la plantilla de anuncio a través de la cual se generó el creativo y el recuento de ofertas.
-
->[!NOTE]
->
->Cada vez que se procesa un catálogo, se actualizan los datos de los elementos creativos dinámicos existentes para ese catálogo.<!-- Verify this!!! And is there anything more to say w/regard to  -->
-
-##### Acciones disponibles
-
-* [Añadir elementos creativos dinámicos a una biblioteca](creative-add-dynamic.md)
-
-* [Editar un elemento creativo dinámico](creative-edit-dynamic.md)
-
-* [Previsualizar elementos creativos dinámicos](creative-preview.md)
-
-* [Agregue elementos creativos dinámicos a los paquetes de visualización dinámica y elimine elementos creativos dinámicos de un paquete de visualización dinámica](creative-attach-detach-bundles.md)
-
-* [Creativos dinámicos duplicados](creative-duplicate.md)
-
-* [Eliminar elementos creativos dinámicos](creative-delete.md)
+* Eliminar [creativos estándar](creative-delete.md) y [creativos dinámicos](creative-delete.md)
 
 <!-- Later:  Dynamic creatives are generated automatically when you save a catalog, but can regenerate the catalog using the contents of an updated asset file [using the Run Now option]. -->
 
@@ -225,7 +217,7 @@ La vista [!UICONTROL Bundles] muestra todos los contenedores de paquete estánda
 
 * Enumere y previsualice los creativos en un paquete
 
-* Editar un nombre de paquete
+* Cambiar el nombre de un paquete
 
 * Añada elementos creativos de visualización estándar a paquetes de visualización estándar y elimine elementos creativos de visualización estándar de un paquete de visualización estándar
 

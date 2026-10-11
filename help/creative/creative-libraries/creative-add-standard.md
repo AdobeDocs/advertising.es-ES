@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1538'
 ht-degree: 0%
 ---
 # Añadir elementos creativos estándar a una biblioteca creativa
@@ -133,7 +133,67 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 >
 >También puede [agregar elementos creativos flexibles de HTML5](#flexible-creative-add), que son elementos creativos de HTML5 con todos sus atributos como etiquetas estándar de HTML que puede editar directamente en [!DNL Creative].
 
+### Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Display]**.
+
+1. Especifique los elementos creativos:
+
+   * Para la imagen local o los recursos de HTML5, realice una de las acciones siguientes:
+
+     * Arrastre y suelte los archivos del dispositivo o de la red en el cuadro.
+
+     * Haga clic en **[!UICONTROL Select a file]** para buscar archivos en su dispositivo o red.
+
+   * Para las imágenes aprobadas en una [biblioteca de Experience Manager conectada a su cuenta de DSP](/help/creative/creative-libraries/aem-assets-configure.md), haga lo siguiente:
+
+     1. Haga clic en **[!UICONTROL AEM Asset Library]**.
+
+     1. (Si aún no ha iniciado sesión en su cuenta de Experience Manager) Inicie sesión en su cuenta de Experience Manager.
+
+     1. Busque y seleccione los archivos en las vistas [!UICONTROL Assets] o [!UICONTROL Collections], y después haga clic en **[!UICONTROL Select]** en la esquina superior derecha.
+
+        <!-- If the existing asset has multiple quality options, [!DNL Creative] downloads the primary asset, or the asset with the highest resolution within some upper limit [verify what it is and how this works]. [If an asset is part of an image set, ... primary asset in the image set. -->
+
+   * Para las experiencias de GenStudio, haga lo siguiente:
+
+     1. Haga clic en **[!UICONTROL GenStudio Library]**.
+
+     1. (Si aún no ha iniciado sesión en su cuenta de GenStudio) Inicie sesión en su cuenta de GenStudio.
+
+        Las experiencias de anuncios en pantalla se muestran de forma predeterminada. Si lo desea, filtre sus experiencias por campaña u otros atributos según sea necesario.
+
+     1. Busque y seleccione las experiencias de anuncio en pantalla y, a continuación, haga clic en **[!UICONTROL Select]** en la esquina superior derecha.
+
+     Cada variante creativa de una experiencia seleccionada se importa como un elemento creativo de HTML5 independiente.
+
+1. Agregar o quitar elementos creativos:
+
+   * Para agregar una imagen, haz clic en ![Agregar](/help/creative/assets/create.png "Agregar") en la esquina superior izquierda y localiza el archivo en tu dispositivo o red.
+
+   * Para quitar una imagen, anule la selección de la casilla de verificación situada junto a ella.
+
+1. Especifique la [configuración creativa de HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) o la [configuración creativa de imagen](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
+
+   De forma predeterminada, se seleccionan todas las experiencias creativas o de GenStudio que acaba de cargar y cualquier configuración que especifique se aplica a todos los elementos seleccionados. Cualquier configuración con un solo valor se aplica a todos los elementos seleccionados. Para especificar la configuración de experiencias creativas o de GenStudio específicas, anule la selección de cada experiencia o creatividad no aplicable.
+
+1. Haga clic en **[!UICONTROL Save Creative]**.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. Haga clic en el nombre de la biblioteca.
 
@@ -185,7 +245,33 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 [!DNL Creative] admite etiquetas de seguimiento de JavaScript para creativos alojados en la mayoría de los servidores de publicidad de terceros.
 
+### Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**.
+
+1. Especifique la etiqueta de JavaScript y otras opciones de configuración para el creativo en la [configuración de creativos de terceros](#creative-settings-third-party).
+
+   Puede copiar y pegar cualquiera de las [macros disponibles](/help/creative/creative-macros.md) en la etiqueta de JavaScript.
+
+1. Haga clic en **[!UICONTROL Create]**.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
 1. Haga clic en el nombre de la biblioteca.
 
@@ -195,13 +281,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    Puede copiar y pegar cualquiera de las [macros disponibles](/help/creative/creative-macros.md) en la etiqueta de JavaScript.
 
-1. Haga clic **[!UICONTROL Create]**
+1. Haga clic en **[!UICONTROL Create]**.
 
-## Añadir un creativo de vídeo a una biblioteca creativa
+## Cargar un creativo de vídeo en una biblioteca creativa
 
 Vea las [especificaciones de creatividad para vídeo](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs) y los [tamaños de creatividad compatibles](/help/creative/creative-libraries/creative-sizes.md).
 
+### Desde la nueva IU
+
+Puede cargar un vídeo a la vez.
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Upload]** > **[!UICONTROL Video]**.
+
+1. Especifique el archivo de vídeo de cualquiera de las siguientes maneras:
+
+   * Arrastre y suelte un archivo en su dispositivo o red en el cuadro.
+
+   * Haga clic en **[!UICONTROL Select a file]** para buscar un archivo en su dispositivo o red.
+
+1. Especifique la [configuración de creatividad en vídeo](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+
+1. Haga clic en **[!UICONTROL Save Creative]**.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. Haga clic en el nombre de la biblioteca.
 
