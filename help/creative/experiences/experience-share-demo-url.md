@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Puede permitir que otras personas que no hayan iniciado sesión en [!DNL Creativ
 
    * En la vista de tabla, mantenga el cursor sobre la fila, haga clic en **[!UICONTROL More]** y, a continuación, en **[!UICONTROL Preview]**.
 
-1. En la parte superior derecha de la vista previa, haga clic en ![Compartir](/help/creative/assets/share.png "Compartir").
+1. En la parte superior derecha de la vista previa, haga clic en ![Compartir](/help/creative/assets/share-legacy.png "Compartir").
 
 1. En el cuadro de diálogo [!UICONTROL Share Demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
 

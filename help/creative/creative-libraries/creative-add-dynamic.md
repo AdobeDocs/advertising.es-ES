@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '575'
 ht-degree: 0%
 ---
 # Añadir elementos creativos dinámicos a una biblioteca creativa
@@ -54,11 +54,33 @@ Agregue elementos creativos dinámicos a sus [bibliotecas creativas](creative-li
 
 ## Añada creativos dinámicos mediante una plantilla de anuncio dinámica de HTML5
 
+## Desde la nueva IU
+
+<!-- NEED TO ADD SAME INSTRUCTIONS AS FOR CREATIVE STUDIO -->
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Creative Studio]** > **[!UICONTROL Dynamic Ad]**.
+
+1. Especifique la configuración de anuncios dinámicos en [!DNL Creative Studio], comenzando con [Paso 2 en &quot;Administrar elementos creativos dinámicos en [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-dynamic-ads.md#select-template)&quot;.
+
+## Desde la IU heredada
+
 1. Realice una de las acciones siguientes:
 
    * Desde una biblioteca creativa:
 
      1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+     1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
      1. Haga clic en el nombre de la biblioteca.
 

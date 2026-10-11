@@ -18,20 +18,44 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '281'
 ht-degree: 0%
 ---
 # Creativos duplicados
 
 Haga un duplicado de los elementos creativos para añadir nuevos elementos creativos con la misma configuración a la misma biblioteca. Más adelante puede cambiar el nombre de los nuevos elementos creativos y editar su configuración según sea necesario.
 
+Los nuevos creativos se denominan `<original name> (copy) # 1` (o el siguiente número de la secuencia). Por ejemplo, si crea dos duplicados de &quot;Imagen de prueba&quot;, los duplicados se denominarán &quot;Imagen de prueba (copia) # 1&quot; y &quot;Imagen de prueba (copia) # 2&quot;.
+
 >[!NOTE]
 >
 >Cuando se duplica un elemento creativo dinámico, el duplicado se añade al mismo catálogo que el elemento creativo original.
 
+## Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Realice una de las acciones siguientes:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. En la ficha **[!UICONTROL Creatives]**, seleccione los elementos creativos:
+
+   * Para duplicar un solo elemento creativo, haga clic en **[!UICONTROL ...]** junto al nombre del elemento y, a continuación, haga clic en **[!UICONTROL Duplicate]**.
+
+   * Para duplicar uno o varios creativos, active la casilla de verificación de cada creativo que desee duplicar. En la barra de herramientas de acciones masivas, haga clic en ![Duplicar](/help/creative/assets/duplicate.png "Duplicar") (**[!UICONTROL Duplicate]**).
+
+     Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
+
+## Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. Haga clic en el nombre de la biblioteca.
 
@@ -46,8 +70,6 @@ Haga un duplicado de los elementos creativos para añadir nuevos elementos creat
    * Para duplicar uno o varios creativos, active la casilla de verificación de cada creativo que desee duplicar. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Duplicate]**.
 
      Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
-
-   Los nuevos creativos se denominan `<original name> (copy) # 1` (o el siguiente número de la secuencia). Por ejemplo, si crea dos duplicados de &quot;Imagen de prueba&quot;, los duplicados se denominarán &quot;Imagen de prueba (copia) # 1&quot; y &quot;Imagen de prueba (copia) # 2&quot;.
 
 <!--
  Add to TOC later when this feature is available to users:

@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 0%
-
 ---
 # Campo Palabras clave negativas en la configuración de campañas y grupos de publicidad para Baidu, GGL, MS, YJP
 

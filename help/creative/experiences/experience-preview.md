@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Puede obtener una vista previa de los elementos creativos con un tamaño de anun
 
 1. (Opcional) Para copiar una URL de demostración de la experiencia para compartirla con otras personas sin iniciar sesión en [!DNL Creative]:
 
-   1. En la parte superior derecha de la vista previa, haga clic en ![Compartir](/help/creative/assets/share.png "Compartir").
+   1. En la parte superior derecha de la vista previa, haga clic en ![Compartir](/help/creative/assets/share-legacy.png "Compartir").
 
    1. En el cuadro de diálogo [!UICONTROL Share Demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
 
@@ -120,7 +120,7 @@ Puede obtener una vista previa de los elementos creativos con un tamaño de anun
 
 1. (Opcional) Para copiar una URL de demostración de la experiencia para compartirla con otras personas sin iniciar sesión en [!DNL Creative]:
 
-   1. En la parte superior derecha de la vista previa, haga clic en ![Compartir](/help/creative/assets/share.png "Compartir").
+   1. En la parte superior derecha de la vista previa, haga clic en ![Compartir](/help/creative/assets/share-legacy.png "Compartir").
 
    1. En el cuadro de diálogo [!UICONTROL Share Demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
 

@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '2590'
 ht-degree: 0%
 ---
 # Administrar paquetes creativos
@@ -44,21 +44,69 @@ Los elementos creativos adjuntos a los paquetes siguen estando disponibles como 
 
 Puede adjuntar un elemento creativo a varios paquetes.
 
+## Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Realice una de las acciones siguientes:
+
+   * En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Bundle]** en la esquina superior derecha.
+
+   * Haga clic en la ficha **[!UICONTROL Bundles]**. En la esquina superior derecha, haga clic en **[!UICONTROL Create bundle]**.
+
+1. Escriba un **[!UICONTROL Bundle Name]** único y seleccione **[!UICONTROL Bundle type]:** *Pantalla estándar* (para creativos de pantalla estándar), *Visualización dinámica* (para creativos de pantalla dinámica), *Vídeo estándar* (para creativos de vídeo estándar) o *Dynamic Video* (para creativos de vídeo dinámico).
+
+1. Haga clic en **[!UICONTROL Create]**.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
 1. Haga clic en el nombre de la biblioteca.
 
 1. Haga clic en la ficha **[!UICONTROL Bundles]**.
 
-1. En la esquina superior derecha, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]**.
+1. En la esquina superior derecha, haga clic en **[!UICONTROL Create]** > **[!UICONTROL Bundle]**.
 
-1. Escriba un **[!UICONTROL Bundle Name]** único y **[!UICONTROL Bundle Type]:** *Pantalla estándar* (para creativos de pantalla estándar), *Visualización dinámica* (para creativos de pantalla dinámica), *Vídeo estándar* (para creativos de vídeo estándar) o *Dynamic Video* (para creativos de vídeo dinámico).
+1. Escriba un **[!UICONTROL Bundle Name]** único y seleccione **[!UICONTROL Bundle Type]:** *Pantalla estándar* (para creativos de pantalla estándar), *Visualización dinámica* (para creativos de pantalla dinámica), *Vídeo estándar* (para creativos de vídeo estándar) o *Dynamic Video* (para creativos de vídeo dinámico).
 
 1. Haga clic en **[!UICONTROL Create]**.
 
 ## Enumerar los elementos creativos en un paquete
 
+### Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Haga clic en el nombre del paquete para ver todos los creativos del paquete.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
@@ -69,6 +117,32 @@ Puede adjuntar un elemento creativo a varios paquetes.
 1. Haga clic en la tarjeta o fila del paquete para ver todos los creativos del paquete.
 
 ## Paquetes duplicados
+
+Los nuevos paquetes reciben el nombre `<original name> (copy) # 1` (o el siguiente número de la secuencia). Por ejemplo, si crea dos duplicados de &quot;Paquete de prueba&quot;, los duplicados se denominarán &quot;Paquete de prueba (copia) # 1&quot; y &quot;Paquete de prueba (copia) # 2&quot;.
+
+### Desde la nueva IU
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Seleccione los paquetes que desea duplicar:
+
+   * Para duplicar un solo paquete, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y luego haga clic en **[!UICONTROL Duplicate]**.
+
+   * Para duplicar uno o más paquetes, active la casilla de verificación de cada paquete que desee eliminar. En la barra de herramientas de acciones masivas, haga clic en ![Duplicar](/help/creative/assets/duplicate.png "Duplicar") (**[!UICONTROL Duplicate]**).
+
+     Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
+
+### Desde la IU heredada
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -90,13 +164,39 @@ Puede adjuntar un elemento creativo a varios paquetes.
 
      Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
 
-   Los nuevos paquetes reciben el nombre `<original name> (copy) # 1` (o el siguiente número de la secuencia). Por ejemplo, si crea dos duplicados de &quot;Paquete de prueba&quot;, los duplicados se denominarán &quot;Paquete de prueba (copia) # 1&quot; y &quot;Paquete de prueba (copia) # 2&quot;.
-
-## Editar un nombre de paquete
+## Cambiar el nombre de un paquete
 
 Los cambios en un nombre de paquete se propagan por todas las experiencias asociadas.
 
+### Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Junto al nombre del paquete, haga clic en **[!UICONTROL ...]** y, a continuación, en **[!UICONTROL Edit]**.<!-- Not "Rename" like for library objects -->
+
+1. Editar **[!UICONTROL Bundle Name]**.
+
+   [!UICONTROL Bundle Name] debe ser único.
+
+1. Haga clic en **[!UICONTROL Save]**.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
 1. Haga clic en el nombre de la biblioteca.
 
@@ -112,7 +212,7 @@ Los cambios en un nombre de paquete se propagan por todas las experiencias asoci
 
    [!UICONTROL Bundle Name] debe ser único.
 
-1. Haga clic en **[!UICONTROL Update]**.<!-- inconsistent with "Edit" for creative libraries and creatives -->
+1. Haga clic en **[!UICONTROL Update]**.
 
 ## Adjuntar elementos creativos a un paquete
 
@@ -124,7 +224,29 @@ Puede adjuntar elementos creativos de visualización estándar existentes a un p
 
 ### Adjuntar elementos creativos a un paquete desde la lista Paquetes
 
+### Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Junto al nombre del paquete, haga clic en **[!UICONTROL ...]** y luego haga clic en **[!UICONTROL Attach creatives]**.
+
+1. En el panel derecho, active la casilla de verificación situada junto a cada elemento creativo que desee adjuntar al paquete y, a continuación, haga clic en **[!UICONTROL Attach]**.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
@@ -142,11 +264,33 @@ Puede adjuntar elementos creativos de visualización estándar existentes a un p
 
 1. (Opcional) Cambie entre la vista de tabla predeterminada y una vista de tarjeta de los paquetes disponibles haciendo clic en ![Vista de tarjeta](/help/creative/assets/card-view-button.png "Vista de tarjeta") para abrir la vista de tarjeta o ![Vista de tabla/lista](/help/creative/assets/table-view-button.png "Vista de tabla") para volver a la vista de tabla.
 
-1. En el cuadro derecho, active la casilla de verificación situada junto a cada elemento creativo que desee adjuntar al paquete y, a continuación, haga clic en **[!UICONTROL Attach Creative to Bundle]**.
+1. En el panel derecho, active la casilla de verificación situada junto a cada elemento creativo que desee adjuntar al paquete y, a continuación, haga clic en **[!UICONTROL Attach Creative to Bundle]**.
 
 ### Adjunte elementos creativos a un paquete de la lista de elementos creativos del paquete
 
+### Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Haga clic en el nombre del paquete para ver todos los creativos del paquete.
+
+1. En el panel derecho, active la casilla de verificación situada junto a cada elemento creativo que desee adjuntar al paquete y, a continuación, haga clic en **[!UICONTROL Attach]**.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
@@ -168,7 +312,35 @@ Al separar un elemento creativo de un paquete, se elimina la asociación entre a
 
 Al separar un creativo del paquete, no se elimina el creativo de la pestaña Creativos de la biblioteca creativa.
 
+### Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Haga clic en el nombre del paquete para ver todos los creativos del paquete.
+
+1. Seleccione los paquetes que desea desasociar:
+
+   * Para desasociar un solo paquete, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Detach]**.
+
+   * Para desasociar uno o más paquetes, active la casilla de verificación de cada paquete que desee desasociar. En la barra de herramientas de acciones masivas, haga clic en ![Desasociar](/help/creative/assets/detach.png "Desasociar") (**[!UICONTROL Detach]**).
+
+     Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
@@ -194,7 +366,45 @@ Al separar un creativo del paquete, no se elimina el creativo de la pestaña Cre
 
 Puede obtener una vista previa de un elemento creativo tal y como lo verán los visualizadores, incluidos los hipervínculos.
 
+### Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Haga clic en el nombre del paquete para ver todos los creativos del paquete.
+
+1. Junto al nombre del paquete, haga clic en **[!UICONTROL ...]** y luego haga clic en **[!UICONTROL Preview]**.
+
+   Para los creativos de HTML5 y HTML5 flexibles, puede moverse entre las pestañas Capas, Detalles y Atributos para obtener más detalles.
+
+1. (Opcional) Para abrir la página de aterrizaje del creativo, haga clic en el creativo.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Opcional; cuando esté disponible) Para descargar el elemento creativo, haga clic en ![Descargar](/help/creative/assets/download.png "Descargar").
+
+   El archivo se descarga según el procedimiento normal del explorador.
+
+1. (Opcional; cuando esté disponible) Para compartir una URL de demostración de modo que otras personas sin iniciar sesión en [!DNL Creative] puedan obtener una vista previa de los elementos creativos:
+
+   1. Haga clic en ![Compartir](/help/creative/assets/share.png "Compartir") en la parte superior derecha de la vista previa.
+
+   1. En el cuadro de diálogo [!UICONTROL Share demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
@@ -226,13 +436,47 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Junto al nombre del paquete, haga clic en **[!UICONTROL ...]** y luego haga clic en **[!UICONTROL Preview]**.
+
+1. (Opcional) Para abrir la página de aterrizaje del creativo, haga clic en el creativo.
+
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
+1. (Opcional; cuando esté disponible) Para descargar el elemento creativo, haga clic en ![Descargar](/help/creative/assets/download.png "Descargar").
+
+   El archivo se descarga según el procedimiento normal del explorador.
+
+1. (Opcional; cuando esté disponible) Para compartir una URL de demostración de modo que otras personas sin iniciar sesión en [!DNL Creative] puedan obtener una vista previa de los elementos creativos:
+
+   1. Haga clic en ![Compartir](/help/creative/assets/share.png "Compartir") en la parte superior derecha de la vista previa.
+
+   1. En el cuadro de diálogo [!UICONTROL Share demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
 1. Haga clic en el nombre de la biblioteca.
 
 1. Haga clic en la ficha **[!UICONTROL Bundles]**.
 
 1. Seleccione el paquete:
 
-   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Preview]**.
+   * En la vista de tarjeta, haga clic en **[!UICONTROL ...]** y, a continuación, en **[!UICONTROL Preview]**.
 
    * En la vista de tabla, mantenga el cursor sobre la fila y haga clic en **[!UICONTROL Preview]**.
 
@@ -248,7 +492,7 @@ Puede obtener una vista previa de un elemento creativo tal y como lo verán los 
 
 1. (Opcional) Compartir una URL de demostración para que otras personas sin iniciar sesión en [!DNL Creative] puedan obtener una vista previa de los elementos creativos:
 
-   1. Haga clic en ![Compartir](/help/creative/assets/share.png "Compartir") en la parte superior derecha de la vista previa.
+   1. Haga clic en ![Compartir](/help/creative/assets/share-legacy.png "Compartir") en la parte superior derecha de la vista previa.
 
    1. En el cuadro de diálogo [!UICONTROL Share Demo URL], haga clic en **[!UICONTROL Copy]** para copiar la dirección URL en el portapapeles de modo que pueda compartirla con otra persona.
 
@@ -287,7 +531,13 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Ver el registro de cambios de un paquete
 
+*No disponible en la nueva interfaz de usuario*
+
+### Desde la IU heredada
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 
@@ -311,7 +561,35 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 Puede eliminar paquetes que no estén asignados a una experiencia [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses). Si se asigna un paquete a una experiencia en directo, [elimine el paquete del árbol de decisión](/help/creative/experiences/experience-target-node-delete.md) de la experiencia antes de continuar.
 
+### Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+
+1. Abra la biblioteca mediante cualquiera de estos métodos:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. Haga clic en la ficha **[!UICONTROL Bundles]**.
+
+1. Seleccione los paquetes que desea eliminar:
+
+   * Para eliminar un solo paquete, haga clic en **[!UICONTROL ...]** junto al nombre del paquete y, a continuación, haga clic en **[!UICONTROL Delete]**.
+
+   * Para eliminar uno o varios paquetes, active la casilla de verificación de cada paquete que desee eliminar. En la barra de herramientas de acciones masivas, haga clic en ![Eliminar](/help/creative/assets/delete.png "Eliminar") (**[!UICONTROL Delete]**).
+
+     Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
+
+1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete].**
+
+### Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
 

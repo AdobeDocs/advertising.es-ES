@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 2e6e6a925074c824b44dc1cce6df6b38379932a1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '216'
 ht-degree: 0%
 ---
 # Descargar elementos creativos
@@ -27,7 +27,29 @@ ht-degree: 0%
 
 Descargue todos los elementos creativos seleccionados en un archivo en formato ZIP según el procedimiento normal del explorador.
 
+## Desde la nueva IU
+
 1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Realice una de las acciones siguientes:
+
+   * Haga clic en el nombre de la biblioteca.
+
+   * Junto al nombre de la biblioteca, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Open]**.
+
+1. En la ficha **[!UICONTROL Creatives]**, seleccione los elementos creativos:
+
+   * Para descargar un solo elemento creativo, haga clic en **[!UICONTROL ...]** junto al nombre del elemento y, a continuación, haga clic en **[!UICONTROL Download]**.
+
+   * Para descargar uno o más creativos, marque la casilla de cada creativo que desee descargar. En la barra de herramientas de acciones masivas, haga clic en ![Descargar](/help/creative/assets/download.png "Descargar") (**[!UICONTROL Download]**).
+
+     Para seleccionar todas las filas, active la casilla de verificación global en la parte superior izquierda.
+
+## Desde la IU heredada
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Haga clic en **[!UICONTROL Switch to classic UI]**.
 
 1. Haga clic en el nombre de la biblioteca.
 
