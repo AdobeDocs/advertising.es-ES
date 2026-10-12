@@ -51,7 +51,7 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [(nueva interfaz de usuario) Editar un portafolio](portfolio-edit.md)
->* [ (nueva interfaz de usuario) Editar de forma masiva la configuración del portafolio mediante archivos de hojas de edición masiva](portfolio-bulksheets.md)
+>* [&#x200B; (nueva interfaz de usuario) Editar de forma masiva la configuración del portafolio mediante archivos de hojas de edición masiva](portfolio-bulksheets.md)
 >* [(nueva interfaz de usuario) duplicar un portafolio](portfolio-duplicate.md)
 >* [(Nueva IU) Ver detalles de rendimiento del portafolio](portfolio-details.md)
 >* [(nueva interfaz de usuario) Descargar datos en la vista [!UICONTROL Portfolios]](portfolio-view-report.md)

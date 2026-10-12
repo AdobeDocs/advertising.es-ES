@@ -73,5 +73,5 @@ Consulte también &quot;[(IU heredada) Descargar datos de una vista de administr
 
 >[!MORELIKETHIS]
 >
->* [ (nueva interfaz de usuario) acerca de [!UICONTROL Ads view]](ad-view-about.md)
+>* [&#x200B; (nueva interfaz de usuario) acerca de [!UICONTROL Ads view]](ad-view-about.md)
 >* [(nueva interfaz de usuario) Cambiar el estado de un anuncio](ad-change-status.md)
