@@ -66,9 +66,9 @@ Si es la primera o la única cadena de consulta después de la dirección URL ba
 
 Ejemplos:
 
-`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/es/products/photoshop?[ftqs:[AdobeAMO]]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
+`https://www.adobe.com/es/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## Etiquetas de anuncios de vídeo
 
@@ -82,9 +82,9 @@ Si es la primera o la única cadena de consulta después de la dirección URL ba
 
 Ejemplos:
 
-`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/es/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
-`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+`https://www.adobe.com/es/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
