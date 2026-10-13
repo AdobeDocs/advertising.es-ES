@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
+source-git-commit: 5b9a22cae9ed7094affb547b3ebe1e6db732fed5
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2068'
 ht-degree: 0%
 ---
 # Acerca de insights
@@ -132,7 +132,9 @@ Las perspectivas incluyen:
 
 ### Ficha [!UICONTROL Delivery Composition]
 
-La pestaña [!UICONTROL Delivery Composition] le indica cómo el modelo ofrece ofertas entre usuarios con diferentes probabilidades de conversión. Utilice este conjunto de insight para revisar una ubicación que esté entregando.
+*Disponible para anunciantes con [!DNL Analytics for Advertising] solamente*
+
+La pestaña [!UICONTROL Delivery Composition] le indica cómo oferta el modelo de usuario de DSP en función de la probabilidad de que los usuarios se conviertan.  Las perspectivas utilizan los datos del convertidor orgánico de Adobe Analytics coincidentes con los usuarios en el flujo de ofertas programáticas (la población de usuarios observada en las oportunidades de publicidad programática).  Utilice estas perspectivas para revisar una ubicación que esté entregando.
 
 De forma predeterminada, los datos se muestran para un anunciante específico y una ubicación específica. Se incluyen el intervalo de fechas del informe, la última fecha en la que se actualizaron los datos y la siguiente fecha en la que se actualizará el informe. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente o seleccionar una ubicación diferente.
 
@@ -148,21 +150,23 @@ Las perspectivas incluyen:
 
 ### Ficha [!UICONTROL Organic Seed Profile]
 
-La ficha [!UICONTROL Organic Seed Profile] muestra los intereses, horas, ubicaciones y dispositivos asociados a los convertidores. El conjunto de insight utiliza los datos del convertidor orgánico de Adobe Analytics, emparejados con los usuarios en el flujo de ofertas programáticas, que es la población de usuarios observados en las oportunidades de publicidad programática. Dado que este insight utiliza datos de convertidor existentes en lugar de la entrega de la campaña, puede admitir la planificación antes de la inversión de DSP, cuando hay datos de semilla adecuados disponibles. Use esto dentro de para planificar el lanzamiento de un paquete o la ubicación, o para informar a la próxima campaña.
+*Disponible para anunciantes con [!DNL Analytics for Advertising] solamente*
+
+La ficha [!UICONTROL Organic Seed Profile] utiliza inteligencia de audiencia para mostrarle los intereses, horas, ubicaciones y dispositivos asociados a los convertidores. Las perspectivas utilizan los datos del convertidor orgánico de Adobe Analytics coincidentes con los usuarios en el flujo de ofertas programático. Dado que estas perspectivas utilizan datos de convertidor existentes en lugar de la entrega de la campaña, pueden admitir la planificación antes de que DSP invierta, cuando haya disponibles datos de semilla adecuados. Utilice estas perspectivas para planificar el lanzamiento de un paquete o una ubicación, o para informar a la próxima campaña.
 
 De forma predeterminada, los datos se muestran para un anunciante específico y un paquete o ubicación específicos. Se incluyen el intervalo de fechas del informe, la última fecha en la que se actualizaron los datos y la siguiente fecha en la que se actualizará el informe. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente o seleccionar un paquete o una ubicación diferentes.
 
 Las perspectivas incluyen:
 
-* **[!UICONTROL Affinity Insights]:** Muestra los intereses y rasgos de comportamiento derivados del consumo de medios de los convertidores, clasificados según su alza de tasa de conversión en relación con la población general.
+* **[!UICONTROL Affinity Insights]:** Muestra los intereses y rasgos de comportamiento derivados del consumo de medios de los convertidores, clasificados según su alza de tasa de conversión en relación con la población general. **Nota:** Las características describen el comportamiento de consumo de medios, no los atributos demográficos verificados. Dado que los usuarios pueden tener varios rasgos, es posible que ningún porcentaje de rasgos sume el 100 %.
 
 * **[!UICONTROL Temporal Insights]:** Muestra la actividad del convertidor agregada por *Día de la semana* o *Hora del día* para que pueda identificar cuándo la audiencia de este anunciante es más activa.
 
-* **[!UICONTROL Geographic Insights]:** Muestra la actividad de convertidor agregada por *País* o *Región*, ponderada por el alza de la tasa de conversión en relación con la población general.
+* **[!UICONTROL Geographic Insights]:** Muestra la actividad de convertidor agregada por *País* o *Región*, ponderada por el alza de la tasa de conversión en relación con la población general.  **Nota:** Tenga en cuenta solo las ubicaciones que sean relevantes para su negocio y campaña.
 
-* **[!UICONTROL Device Insights]:** Muestra la actividad del convertidor agregada por combinación de tipo de dispositivo, ponderada por el alza de la tasa de conversión en relación con la población general.
+* **[!UICONTROL Device Insights]:** Muestra la actividad del convertidor agregada por combinación de tipo de dispositivo, ponderada por el alza de la tasa de conversión en relación con la población general. **Nota:** Interprete patrones de dispositivos en el contexto de la campaña. Por ejemplo, las campañas de CTV y no de CTV pueden tener diferentes patrones de dispositivo.
 
-Cada insight incluye las siguientes columnas:
+Cada [!UICONTROL Organic Seed Profile] insight incluye las siguientes columnas:
 
 **[!UICONTROL Bid-stream Users]:** Usuarios en el flujo de ofertas que pertenecen al grupo.
 
@@ -174,7 +178,7 @@ Cada insight incluye las siguientes columnas:
 
 **[!UICONTROL Bid-stream %]:** Porcentaje de usuarios del flujo de ofertas que pertenecen al grupo.
 
-**[!UICONTROL Conv. Rate Lift]:** Tasa de conversión del grupo relativa a la línea de base de referencia. 1,00x significa la misma tasa que la línea de base; 1,50x significa un 50% más alto; 0,50x significa un 50% más bajo. **Nota:** El alza no es una previsión ni una prueba de conversiones incrementales.
+**[!UICONTROL Conv. Rate Lift]:** Tasa de conversión del grupo relativa a la línea de base de referencia. 1,00x significa la misma tasa que la línea de base; 1,50x significa un 50% más alto; 0,50x significa un 50% más bajo. **Nota:** El alza no es garantía de rendimiento futuro.
 
 ## Ver perspectivas de rendimiento
 
