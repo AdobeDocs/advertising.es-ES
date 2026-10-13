@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 4d0f262a450d478903d0a182a71bb25f8a766b02
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1986'
 ht-degree: 0%
 ---
 # Acerca de insights
@@ -129,6 +129,52 @@ Las perspectivas incluyen:
   **[!UICONTROL Devices/Ad Opportunities Bid On]:** El número de oportunidades elegibles para las que la ubicación envió una oferta. Una caída brusca en esta fase puede indicar restricciones de presupuesto o de ritmo que limitan el volumen de ofertas.
 
   * **[!UICONTROL Impression Wins]:** El número de oportunidades para las que la ubicación ganó una impresión. Si las ganancias son mucho más bajas que las pujas, entonces el precio de la puja puede estar por debajo de la tasa de mercado prevaleciente para el inventario objetivo.
+
+### Ficha [!UICONTROL Delivery Composition]
+
+La pestaña [!UICONTROL Delivery Composition] le indica cómo el modelo ofrece ofertas entre usuarios con diferentes probabilidades de conversión. Utilice este conjunto de insight para revisar una ubicación que esté entregando.
+
+De forma predeterminada, los datos se muestran para un anunciante específico y una ubicación específica. Se incluyen el intervalo de fechas del informe, la última fecha en la que se actualizaron los datos y la siguiente fecha en la que se actualizará el informe. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente o seleccionar una ubicación diferente.
+
+Las perspectivas incluyen:
+
+* **[!UICONTROL Placement Summary]:** (Ubicaciones en paquetes) Indica el paquete asociado y el objetivo del paquete.
+
+* **[!UICONTROL Propensity Breakdown]:** Separa los usuarios que coinciden con el convertidor en [!UICONTROL High Propensity], [!UICONTROL Medium Propensity] y [!UICONTROL Low Propensity] niveles en función de la probabilidad prevista de conversión. Para cada grupo, los datos incluyen [!UICONTROL Avg Bid], [!UICONTROL Conversion Rate], [!UICONTROL Share of Conversions] y [!UICONTROL Conversion Rate Lift] (la tasa de conversión del grupo en relación con la línea de base de referencia). Los datos indican cómo el modelo oferta más por los usuarios que predice que es más probable que convierta.  **Nota:** Los datos se basan en el rendimiento observado, no en la prueba de que el modelo haya provocado una ganancia incremental en las conversiones.
+
+* **[!UICONTROL Bid Multiplier Graph]:** Indica el multiplicador de oferta para cada uno de los 20 bloques de audiencias, lo que aumenta el gasto en proporción a la probabilidad prevista de conversión de un usuario. El cubo 20 contiene los usuarios de mayor tendencia y recibe el multiplicador más alto. Alto, Medium y Bajo son agrupaciones simplificadas de esos bloques, no porcentajes de audiencia fijos.
+
+  Cuando el multiplicador es 1,0x , no se realiza ningún ajuste en la oferta subyacente. Los multiplicadores superiores a 1,0x dan como resultado una oferta más alta y los inferiores a 1,0x dan como resultado una oferta más baja.
+
+### Ficha [!UICONTROL Organic Seed Profile]
+
+La ficha [!UICONTROL Organic Seed Profile] muestra los intereses, horas, ubicaciones y dispositivos asociados a los convertidores. El conjunto de insight utiliza los datos del convertidor orgánico de Adobe Analytics, emparejados con los usuarios en el flujo de ofertas programáticas, que es la población de usuarios observados en las oportunidades de publicidad programática. Dado que este insight utiliza datos de convertidor existentes en lugar de la entrega de la campaña, puede admitir la planificación antes de la inversión de DSP, cuando hay datos de semilla adecuados disponibles. Use esto dentro de para planificar el lanzamiento de un paquete o la ubicación, o para informar a la próxima campaña.
+
+De forma predeterminada, los datos se muestran para un anunciante específico y un paquete o ubicación específicos. Se incluyen el intervalo de fechas del informe, la última fecha en la que se actualizaron los datos y la siguiente fecha en la que se actualizará el informe. Si lo desea, puede configurar filtros para mostrar datos de un anunciante diferente o seleccionar un paquete o una ubicación diferentes.
+
+Las perspectivas incluyen:
+
+* **[!UICONTROL Affinity Insights]:** Muestra los intereses y rasgos de comportamiento derivados del consumo de medios de los convertidores, clasificados según su alza de tasa de conversión en relación con la población general.
+
+* **[!UICONTROL Temporal Insights]:** Muestra la actividad del convertidor agregada por *Día de la semana* o *Hora del día* para que pueda identificar cuándo la audiencia de este anunciante es más activa.
+
+* **[!UICONTROL Geographic Insights]:** Muestra la actividad de convertidor agregada por *País* o *Región*, ponderada por el alza de la tasa de conversión en relación con la población general.
+
+* **[!UICONTROL Device Insights]:** Muestra la actividad del convertidor agregada por combinación de tipo de dispositivo, ponderada por el alza de la tasa de conversión en relación con la población general.
+
+Cada insight incluye las siguientes columnas:
+
+**[!UICONTROL Bid-stream Users]:** Usuarios en el flujo de ofertas que pertenecen al grupo.
+
+**[!UICONTROL Converters]:** convertidores que pertenecen al grupo.
+
+**[!UICONTROL Precision]:** Porcentaje de usuarios en el grupo que se convirtieron. **Nota:** Las tasas pequeñas distintas de cero pueden redondearse al 0,0% con la precisión mostrada. Un valor de 0 no significa necesariamente que no haya convertidores; compruebe el recuento de [!UICONTROL Converters].
+
+**[!UICONTROL Recall]:** El porcentaje de todos los convertidores que pertenecen al grupo. **Nota:** Un grupo puede tener un alto alza de conversión, pero solo representa una pequeña parte de los convertidores.
+
+**[!UICONTROL Bid-stream %]:** Porcentaje de usuarios del flujo de ofertas que pertenecen al grupo.
+
+**[!UICONTROL Conv. Rate Lift]:** Tasa de conversión del grupo relativa a la línea de base de referencia. 1,00x significa la misma tasa que la línea de base; 1,50x significa un 50% más alto; 0,50x significa un 50% más bajo. **Nota:** El alza no es una previsión ni una prueba de conversiones incrementales.
 
 ## Ver perspectivas de rendimiento
 
