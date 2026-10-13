@@ -12,7 +12,7 @@ feature_v2:
     internal-label: Search Optimization
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -95,6 +95,6 @@ Puede asignar una sola restricción a una o varias ubicaciones.
 >[!MORELIKETHIS]
 >
 >* [(Nueva IU) Administrar restricciones para buscar unidades de oferta](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
->* [(Nueva IU) Administrar asignaciones de restricción para las campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
+>* [(Nueva IU) Administrar asignaciones de restricción para las campañas](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-constraints)
 >* [(Nueva IU) Administrar asignaciones de restricción para grupos de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [(Nueva interfaz de usuario) Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
