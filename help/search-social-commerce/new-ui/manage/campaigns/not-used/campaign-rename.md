@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 804a4243702d4aa79b2802686f9950eb5a1c8825
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 0%
 ---
 # (Nueva IU) Cambiar el nombre de una campaña
@@ -26,6 +26,13 @@ Cambie rápidamente el nombre de una campaña sin abrir la configuración comple
 
 1. Edite el nombre y haga clic en **[!UICONTROL Apply]**.
 
+
+<!--
+
+Links to unused (separate) pages:
+
 >[!MORELIKETHIS]
 >
->* [Acerca de la vista [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
+>* [About the [!UICONTROL Campaigns] view](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
+
+-->

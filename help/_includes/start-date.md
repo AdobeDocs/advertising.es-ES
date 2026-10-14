@@ -3,7 +3,6 @@ source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
-
 ---
 # Campo Fecha de inicio en algunas configuraciones de campaña y de grupo de publicidad de SMS
 
