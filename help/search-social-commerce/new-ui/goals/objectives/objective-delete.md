@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '99'
 ht-degree: 0%
 ---
 # (Nueva IU) Eliminar un objetivo
@@ -34,7 +34,11 @@ Puede eliminar un objetivo que no esté asignado a un portafolio.
 
 1. En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Seleccione la casilla de verificación situada junto al objetivo. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar") **[!UICONTROL Delete]**.
+1. Realice una de las acciones siguientes:
+
+   * Para un solo objetivo, mantenga el cursor sobre el nombre del objetivo y haga clic en **[!UICONTROL ...]>[!UICONTROL Delete]**.
+
+   * Para uno o más objetivos, active la casilla de verificación situada junto a cada objetivo que desee eliminar. En la barra de herramientas de acciones masivas, haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar") **[!UICONTROL Delete]**.
 
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
 
@@ -45,3 +49,4 @@ Puede eliminar un objetivo que no esté asignado a un portafolio.
 >* [Editar un objetivo](objective-edit.md)
 >* [Aplicar recomendaciones de peso a un objetivo](objective-apply-weight-recommendations.md)
 >* [Configuración de objetivos](objective-settings.md)
+>* [Exportar una configuración de objetivo](objective-export.md)

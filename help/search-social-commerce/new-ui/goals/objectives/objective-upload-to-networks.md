@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Objectives
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 ---
 # (Nueva IU) Habilitar la carga de objetivos en las redes de publicidad
@@ -42,7 +42,7 @@ Las cargas a [!DNL Google Ads] y [!DNL Microsoft Advertising] se producen a lo l
 
 1. En el menú principal, haga clic en **[!UICONTROL Goals]** > **[!UICONTROL Objectives]**.
 
-1. En la barra de herramientas, haga clic en **[!UICONTROL Upload Objective]**.
+1. En la barra de herramientas, haga clic en **[!UICONTROL Objective Upload]**.
 
 1. En el cuadro de diálogo [!UICONTROL Objective Upload Setup], establezca la opción **[!UICONTROL Enable Objective Upload]** en **[!UICONTROL On]**.
 
@@ -94,6 +94,7 @@ Si el objetivo, denominado `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_accou
 >[!MORELIKETHIS]
 >
 >* [Acerca de los objetivos](objective-about.md)
+>* [Exportar una configuración de objetivo](objective-export.md)
 >* [Administrar las métricas de conversión de un anunciante](/help/search-social-commerce/new-ui/goals/conversions/conversion-metrics-manage.md)
 >* [Administrar credenciales para [!DNL Google Ads] cuentas de gerente](/help/search-social-commerce/new-ui/set-up/manager-account-manage.md)
 

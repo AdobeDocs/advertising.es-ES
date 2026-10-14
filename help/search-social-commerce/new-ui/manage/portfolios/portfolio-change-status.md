@@ -11,9 +11,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '410'
 ht-degree: 0%
 ---
 # (Nueva IU) Cambiar el estado de un portafolio
@@ -26,7 +26,11 @@ Para dejar de recopilar datos de costes, clics e impresiones y datos de ingresos
 
 Todos los cambios realizados en el estado del portafolio se registran en su historial de cambios.
 
-## Optimizar, activar o desactivar un portafolio
+>[!NOTE]
+>
+>Puede cambiar el estado de varios portafolios mediante [hojas de edición masiva de portafolios](portfolio-bulksheets.md).
+
+## Optimizar, activar o desactivar un portafolio desde la vista [!UICONTROL Portfolios]
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
@@ -49,7 +53,7 @@ Todos los cambios realizados en el estado del portafolio se registran en su hist
      >* Una vez que Search, Social y Commerce empiecen a optimizar un portafolio, déjelo administrar todo el presupuesto de campaña futuro y (cuando corresponda) el cambio de oferta (cuando corresponda). Search, Social y Commerce sobrescribirán los cambios que realice desde la red de publicidad.
      >* Puede establecer temporalmente ofertas manuales para cualquier campaña CPC optimizada en el portafolio creando y publicando hojas de edición masiva de campañas. Cualquier cambio de oferta que resulte de los datos publicados es aplicable por un día. Después, Search, Social y Commerce reanudan el establecimiento de ofertas según su propia estrategia de optimización.
 
-## Eliminar un portafolio inactivo
+## Eliminar un portafolio inactivo de la vista [!UICONTROL Portfolios]
 
 Solo puede eliminar portafolios inactivos. Si el portafolio está optimizado o activo, primero debe cambiar su estado a inactivo antes de tener la opción de eliminarlo.
 

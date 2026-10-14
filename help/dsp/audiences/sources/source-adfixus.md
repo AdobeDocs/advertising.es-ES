@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Los segmentos se actualizan y quedan disponibles para la segmentación cada tres
 >
 >* [Acerca de las fuentes de audiencia de origen](/help/dsp/audiences/sources/source-about.md)
 >* [Administrar orígenes de audiencia para activar audiencias de ID universal](source-manage.md)
->* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=es)
->* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=es)
+>* [Conexión de Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Resumen del catálogo de destinos [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Compatibilidad para activar identificadores universales](/help/dsp/audiences/universal-ids.md)
 >* [Acerca de la administración de audiencias](/help/dsp/audiences/audience-about.md)

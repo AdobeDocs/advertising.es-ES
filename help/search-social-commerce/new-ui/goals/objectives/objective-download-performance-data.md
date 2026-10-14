@@ -12,9 +12,9 @@ feature_v2:
     internal-label: Search Optimization
   - id: 893a7eac-45bd-56c2-a120-18db6d297dcc
     internal-label: Search Portfolios
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 0%
 ---
 # (Nueva IU) Descargar datos de rendimiento para los objetivos
@@ -70,3 +70,4 @@ En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Objectives]
 >* [Acerca de los objetivos](objective-about.md)
 >* [Crear un objetivo](objective-create.md)
 >* [Eliminar un objetivo](objective-delete.md)
+>* [Exportar una configuración de objetivo](objective-export.md)

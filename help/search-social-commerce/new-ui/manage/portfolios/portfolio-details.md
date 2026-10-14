@@ -1,5 +1,5 @@
 ---
-title: (Nueva IU) Ver Ver detalles de rendimiento del portafolio
+title: (Nueva IU) Ver detalles de rendimiento del portafolio
 description: Obtenga información sobre cómo ver los detalles de rendimiento del portafolio, incluidas las métricas reales y predichas a nivel de portafolio y para cada campaña asignada.
 feature: Search Portfolios, Search Optimization
 hide: true
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '1080'
 ht-degree: 0%
 ---
 # (Nueva IU) Ver detalles de rendimiento del portafolio
@@ -38,7 +38,7 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
 * Datos de precisión del modelo para portafolios activos, que muestran cuánto se desviaron los modelos de las predicciones. El informe muestra la precisión de coste total diaria o móvil en siete días, la precisión de clics y la precisión de valor objetivo.
 
-  Puede ver los datos por fecha de clic (la predeterminada) o por fecha de transacción.   También puede ver los datos como un gráfico de tendencias (predeterminado) o como una tabla.
+  Puede ver los datos por fecha de clic (la predeterminada) o por fecha de transacción. También puede ver los datos como un gráfico de tendencias (predeterminado) o como una tabla.
 
 * El gasto objetivo frente al gasto real de las carteras activas. Opcionalmente, también puede incluir los presupuestos de campaña totales para el portafolio.
 
@@ -48,11 +48,23 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
   Si lo desea, puede abrir la configuración del portafolio para editarla.
 
+* Listas de las campañas, grupos de anuncios y palabras clave del portafolio. Para palabras clave individuales, puede ver los detalles de la unidad de oferta, incluidas las previsiones, la información histórica y la información jerárquica.
+
+  La vista [!UICONTROL Bid Unit Details] incluye las siguientes previsiones, información histórica e información jerárquica para la unidad de oferta seleccionada:
+
+  * Pestaña [!UICONTROL Forecast]: los clics, el coste, el coste por clic, la posición y los ingresos proyectados actualmente para la unidad de oferta a precios de oferta diferentes. Se muestran los datos de todos los dispositivos y de cada tipo de dispositivo ([!UICONTROL Mobile], [!UICONTROL Computer] y [!UICONTROL Tablet]).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
+
+    **Nota:** No hay datos de previsión disponibles para un tipo de dispositivo cuando no hay suficientes datos específicos del dispositivo disponibles para generar modelos y establecer ajustes para ese tipo de dispositivo. **Nota:** Para ver la precisión de costos o de ingresos de cada unidad de oferta dentro de un portafolio que recibió un clic durante un intervalo de fechas específico, vea la vista de los detalles de precisión de costos o de ingresos del portafolio, respectivamente.
+
+  * Pestaña [!UICONTROL History]: todas las ofertas de los últimos 36 días, incluidos los datos siguientes de cada una de las ofertas: fecha y hora, impresiones, clics, coste total, CPC promedio, posición promedio e ingresos ponderados mostrados por fecha de clic. Se muestran los datos de todos los dispositivos y de cada tipo de dispositivo (móvil, equipo y tableta).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
+
+  * Pestaña [!UICONTROL Detail]: el tipo de coincidencia (cuando corresponda) y el grupo de publicidad principal, la campaña, la cuenta de red de publicidad y el portafolios al que pertenece la unidad de oferta.
+
 ## Abrir los detalles de rendimiento de un portafolio
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Haga clic en el nombre del portafolio.
+1. Mantenga el cursor sobre el nombre del portafolio y haga clic en (/help/search-social-commerce/assets/portfolio-overview.png &quot;Información general de Portfolio&quot;).
 
 1. (Opcional) En el menú **[!UICONTROL Data Aggregation]**, cambie la unidad de tiempo de los datos incluidos en cada fila: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* o *[!UICONTROL Monthly].*
 
@@ -114,13 +126,17 @@ Los detalles de cada grupo de publicidad incluyen el coste, los clics y el valor
 
 * Para ver todos los grupos de anuncios de una campaña dentro del portafolio, haga clic en la pestaña **[!UICONTROL Campaigns]** y luego haga clic en el nombre de la campaña.
 
-## Enumerar las palabras clave del portafolio
+## Mostrar y ver detalles sobre palabras clave en el portafolio
 
-Los detalles de cada palabra clave incluyen el ID de unidad de oferta; el tipo de coincidencia; el coste real y predicho, los clics y el valor objetivo; y la diferencia de coste, clics y valor objetivo.
+Los detalles de cada palabra clave incluyen el ID de unidad de oferta; el tipo de coincidencia; el coste real y predicho, los clics y el valor objetivo; y la diferencia de coste, clics y valor objetivo. Puede ver los detalles de la unidad de oferta acerca de una palabra clave individual.
 
-* Para ver todas las palabras clave del portafolio, haga clic en la ficha **[!UICONTROL Keywords]**.
+1. Enumerar las palabras clave:
 
-* Para ver todas las palabras clave de un grupo de anuncios dentro del portafolios, haga clic en la ficha **[!UICONTROL Ad Groups]** y, a continuación, haga clic en el nombre del grupo de anuncios.
+   * Para ver todas las palabras clave del portafolio, haga clic en la ficha **[!UICONTROL Keywords]**.
+
+   * Para ver todas las palabras clave de un grupo de anuncios dentro del portafolios, haga clic en la ficha **[!UICONTROL Ad Groups]** y, a continuación, haga clic en el nombre del grupo de anuncios.
+
+1. (Opcional) Para ver los detalles de una unidad de oferta específica, haga clic en el valor de la columna **[!UICONTROL Bid Unit ID]**. Haga clic en cualquier ficha de [!UICONTROL Bid Unit Details] para obtener más información.
 
 ## Ver y editar la configuración del portafolio
 
