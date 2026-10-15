@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 # (Nueva IU) Acerca de los objetivos
@@ -82,7 +82,21 @@ Puede incluir cualquiera de los siguientes elementos en sus objetivos:
 
 ## Opción para cargar objetivos en las redes de publicidad
 
-Opcionalmente, puede [cargar los objetivos de los portafolios de la cuenta a [!DNL Google Ads] y/o [!DNL Microsoft Advertising] como conversiones](/help/search-social-commerce/tools/objective-upload-to-networks.md) para poder usarlos para la optimización a nivel de campaña o de grupo de anuncios. Cuando activa la opción, Search, Social y Commerce pasan diariamente a la red de publicidad los datos de ingresos ponderados en el nivel de EF ID (ID de clic). Omite cualquier métrica rastreada en la red de anuncios.
+Opcionalmente, puede [cargar los objetivos de los portafolios de la cuenta a [!DNL Google Ads] y/o [!DNL Microsoft Advertising] como conversiones](objective-upload-to-networks.md) para poder usarlos para la optimización a nivel de campaña o de grupo de anuncios. Cuando activa la opción, Search, Social y Commerce pasan diariamente a la red de publicidad los datos de ingresos ponderados en el nivel de EF ID (ID de clic). Omite cualquier métrica rastreada en la red de anuncios.
+
+## Acciones disponibles
+
+* [Creación de un objetivo](objective-create.md)
+
+* [Editar un objetivo](objective-edit.md)
+
+* [Aplicación de recomendaciones de peso a un objetivo](objective-apply-weight-recommendations.md)
+
+* [Exportar una configuración de objetivo a una hoja de cálculo  [!DNL Microsoft Excel] &#x200B;](objective-export.md)
+
+* [Descargar datos de rendimiento para los objetivos](objective-download-performance-data.md)
+
+* [Eliminar un objetivo](objective-delete.md)
 
 >[!MORELIKETHIS]
 >
@@ -91,4 +105,5 @@ Opcionalmente, puede [cargar los objetivos de los portafolios de la cuenta a [!D
 >* [Eliminar un objetivo](objective-delete.md)
 >* [Aplicar recomendaciones de peso a un objetivo](objective-apply-weight-recommendations.md)
 >* [Configuración de objetivos](objective-settings.md)
+>* [Exportar una configuración de objetivo](objective-export.md)
 >* [Descargar datos de rendimiento para los objetivos](objective-download-performance-data.md)

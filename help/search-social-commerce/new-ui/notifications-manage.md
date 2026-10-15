@@ -8,9 +8,9 @@ product_v2:
 feature_v2:
   - id: 4a019b9f-6dd0-5c07-a60f-b60f67fd80d0
     internal-label: Search Notifications
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1724'
 ht-degree: 0%
 ---
 # (Nueva IU) Administrar notificaciones
@@ -119,14 +119,13 @@ In Campaign Management:
   * **[!UICONTROL Accuracy]**: Notifications when a portfolio's model accuracy deviates [by how much?] from expectations.
 -->
 
-
 ## Acciones disponibles
 
 * [Ver las notificaciones](#notification-view)
 
 * [Editar la configuración de notificaciones](#notification-edit)
 
-* [Marcar una notificación como leída o no leída](#notification-mark-read-unread)
+* [Marcar notificaciones como leídas o no leídas](#notification-mark-read-unread)
 
 * [Eliminación de una notificación](#notification-delete)
 
@@ -136,7 +135,7 @@ In Campaign Management:
 
 ## Ver las notificaciones {#notification-view}
 
-Una vez que se haya suscrito a [notificaciones](#notification-edit) acerca de errores de autenticación de cuenta, alertas personalizadas activadas y [!UICONTROL Advertising Insights] generadas, podrá ver las notificaciones en el panel [!UICONTROL Notifications] o en [!UICONTROL Notification Center].
+Cuando se haya suscrito a [notificaciones](#notification-edit) acerca de errores de autenticación de cuenta, alertas personalizadas activadas y [!UICONTROL Advertising Insights] generadas, podrá ver las notificaciones en el panel [!UICONTROL Notifications] o en [!UICONTROL Notification Center].
 
 ### Ver notificaciones en el panel [!UICONTROL Notifications]
 
@@ -208,7 +207,7 @@ Si lo desea, puede suscribirse a las notificaciones por correo electrónico y we
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-## Marcar una notificación como leída o no leída {#notification-mark-read-unread}
+## Marcar notificaciones como leídas o no leídas {#notification-mark-read-unread}
 
 Al marcar una notificación como *leída* o *no leída*, se cambia el número de notificaciones no leídas que se indican en el vínculo [!UICONTROL Notifications] en la parte superior de cada página (como el icono ![Notificaciones con el contador de notificaciones no leídas](/help/search-social-commerce/assets/notifications-unread.png "Icono de notificaciones con el contador de notificaciones no leídas")).
 
@@ -218,7 +217,11 @@ Las notificaciones marcadas como *leer* aparecen en un texto de color más claro
 
 1. [Abra el panel Notificaciones o el Centro de notificaciones](#notification-view).
 
-1. Mantenga el cursor sobre el nombre de la alerta y haga clic en ![Marcar como leído o no leído](/help/search-social-commerce/assets/notifications-read-unread.png "Marcar como leído o no leído").
+1. Realice una de las acciones siguientes:
+
+   * Para una sola notificación, mantenga el cursor sobre el nombre de la alerta y haga clic en ![Marcar como leído o no leído](/help/search-social-commerce/assets/notifications-read-unread.png "Marcar como leído o no leído").
+
+   * Para marcar todas las notificaciones como leídas, haga clic en **[!UICONTROL Mark all as read]**.
 
 ## Eliminación de una notificación {#notification-delete}
 

@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 249cdc80b3f918eca64479b6cda50d6d5d157d46
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2401'
 ht-degree: 0%
 ---
 # Administración de campañas
@@ -47,17 +47,19 @@ Search, Social y Commerce extrae datos de rendimiento cada hora de las cuentas s
 
 * [Editar configuración de campaña](#campaign-edit)
 
-* [Cambie el estado de una campaña o elimínela desde la fila](#campaign-status)
+* [Cambiar el estado de una campaña desde dentro de la fila](#campaign-status)
 
 * [Asignar campañas a un portafolio y eliminar campañas de un portafolio](#campaign-portfolio)
-
-* [Ver un gráfico de rendimiento en la vista [!UICONTROL Campaigns]](#campaign-performance-graph)
 
 * [Asignar restricciones de oferta a campañas y anular la asignación de restricciones de campañas](#campaign-constraints)
 
 * [Asignar restricciones de destino a campañas y anular la asignación de restricciones de destino a campañas](#campaign-target-constraints)
 
 * [Asigne clasificaciones de etiquetas a las campañas y elimine clasificaciones de etiquetas de las campañas](#campaign-classifications)
+
+* [Ver un gráfico de rendimiento en la vista [!UICONTROL Campaigns]](#campaign-performance-graph)
+
+* [Ver el historial presupuestario de la campaña](#campaign-budget-history)
 
 * [Administrar informes de vista de datos desde la vista [!UICONTROL Campaigns]](#campaign-reports)
 
@@ -377,6 +379,14 @@ Abra y configure un gráfico de rendimiento con hasta tres métricas calculadas 
 ### Ocultar un gráfico de rendimiento visible
 
 * Sobre la tabla de datos, haga clic en ![Gráficos](/help/search-social-commerce/assets/charts.png "Gráficos").
+
+## Ver el historial presupuestario de la campaña {#campaign-budget-history}
+
+El historial presupuestario enumera cada cambio en el presupuesto de la campaña, incluido el origen del cambio.
+
+1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Campaigns]**.
+
+1. Mantenga el cursor sobre el nombre de la campaña y haga clic en **[!UICONTROL ...]>[!UICONTROL Budget Change History]**.
 
 ## Administrar informes de vista de datos desde la vista [!UICONTROL Campaigns] {#campaign-reports}
 

@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '68'
 ht-degree: 0%
 ---
 # Aplicación de recomendaciones de peso a un objetivo
@@ -39,4 +39,5 @@ Para obtener instrucciones al respecto, consulte la ayuda de la interfaz de usua
 >* [Editar un objetivo](objective-edit.md)
 >* [Eliminar un objetivo](objective-delete.md)
 >* [Configuración de objetivos](objective-settings.md)
+>* [Exportar una configuración de objetivo](objective-export.md)
 >* [Descargar datos de rendimiento para los objetivos](objective-download-performance-data.md)

@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '113'
 ht-degree: 0%
 ---
 # (Nueva IU) Editar un objetivo
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
-1. Seleccione la casilla de verificación situada junto al objetivo. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar") **[!UICONTROL Edit]**.
+1. Mantenga el cursor sobre el nombre del objetivo y haga clic en **[!UICONTROL ...]>[!UICONTROL Edit]**.
 
 1. Cambie cualquiera de los ajustes del objetivo.
 
@@ -51,4 +51,5 @@ ht-degree: 0%
 >* [Eliminar un objetivo](objective-delete.md)
 >* [Aplicar recomendaciones de peso a un objetivo](objective-apply-weight-recommendations.md)
 >* [Configuración de objetivos](objective-settings.md)
+>* [Exportar una configuración de objetivo](objective-export.md)
 >* [Descargar datos de rendimiento para los objetivos](objective-download-performance-data.md)
