@@ -3,20 +3,19 @@ title: Administración de plantillas de publicidad en Creative Studio
 description: Obtenga información sobre cómo crear, importar, organizar y administrar plantillas de publicidad en la pestaña Plantillas de Creative Studio en Adobe Advertising Creative.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
 feature_v2:
   - id: d0d9f2ed-c163-44e1-97a1-4ace121416b8
+    internal-label: Creative
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: d4a041529615006a79093dccb8690f3b9f5e8cba
+    internal-label: User
+source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
 workflow-type: tm+mt
-source-wordcount: 2512
+source-wordcount: '2510'
 ht-degree: 2%
-
 ---
-
 # Administrar plantillas de publicidad en [!UICONTROL Creative Studio]
-
-*característica de Beta*
 
 Cree, importe y administre plantillas de anuncios de vídeo y visualización para utilizarlas en sesiones de generación de anuncios.
 
@@ -40,9 +39,9 @@ Probably not necessary:
 
 Creación:
 
-* [Importar plantillas de publicidad de HTML5](#templates-import)
-
 * [Creación manual de una plantilla de anuncio](#template-create)
+
+* [Importar plantillas de publicidad de HTML5](#templates-import)
 
 Acciones en las plantillas existentes:
 
@@ -97,6 +96,34 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 -->
 
+## Creación manual de una plantilla de anuncio {#template-create}
+
+Cree una visualización o una plantilla de vídeo en blanco con el editor de plantillas.
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative Studio].**
+
+1. Haga clic en la ficha **[!UICONTROL Templates]**.
+
+1. En el cuadro **[!UICONTROL Create New Ad Template]**, haga clic en **[!UICONTROL Create]** y seleccione **[!UICONTROL Display Ad Template]** o **[!UICONTROL Video Ad Template]**.
+
+1. (Mostrar anuncios) Seleccione el tamaño de la plantilla de anuncio y haga clic en **[!UICONTROL Continue]**.
+
+1. Configure las opciones de la plantilla con los [controles del editor de plantillas](#template-controls).
+
+1. (Opcional) Para descargar una copia de la plantilla tal como se definió, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Download]**.
+
+   El archivo se descarga según el procedimiento normal del explorador.
+
+1. Guarde la plantilla:
+
+   1. Realice una de las acciones siguientes:
+
+      * Haga clic en **[!UICONTROL Save]**.
+
+      * Para guardar la plantilla como borrador, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
+
+   1. Escriba **[!UICONTROL Template name]**, seleccione **[!UICONTROL Advertiser]**, opcionalmente seleccione las etiquetas existentes o agregue nuevas etiquetas a la plantilla y, a continuación, haga clic en **[!UICONTROL Save]**.
+
 ## Importar plantillas de publicidad de HTML5 {#templates-import}
 
 Cargue una o más plantillas creadas previamente de HTML5 que estén empaquetadas como archivos ZIP. Las plantillas se validan en la importación; la importación falla si el HTML supera los 200 000 caracteres, el CSS los 60 000 caracteres, la plantilla contiene más de 5000 elementos DOM o incluye etiquetas de script no admitidas.
@@ -128,34 +155,6 @@ Cargue una o más plantillas creadas previamente de HTML5 que estén empaquetada
 >[!NOTE]
 >
 >Si la importación falla, simplifique la plantilla o póngase en contacto con el equipo de cuenta de Adobe.
-
-## Creación manual de una plantilla de anuncio {#template-create}
-
-Cree una visualización o una plantilla de vídeo en blanco con el editor de plantillas.
-
-1. En el menú principal, haga clic en **[!UICONTROL Creative Studio].**
-
-1. Haga clic en la ficha **[!UICONTROL Templates]**.
-
-1. En el cuadro **[!UICONTROL Create New Ad Template]**, haga clic en **[!UICONTROL Create]** y seleccione **[!UICONTROL Display Ad Template]** o **[!UICONTROL Video Ad Template]**.
-
-1. (Mostrar anuncios) Seleccione el tamaño de la plantilla de anuncio y haga clic en **[!UICONTROL Continue]**.
-
-1. Configure las opciones de la plantilla con los [controles del editor de plantillas](#template-controls).
-
-1. (Opcional) Para descargar una copia de la plantilla tal como se definió, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Download]**.
-
-   El archivo se descarga según el procedimiento normal del explorador.
-
-1. Guarde la plantilla:
-
-   1. Realice una de las acciones siguientes:
-
-      * Haga clic en **[!UICONTROL Save]**.
-
-      * Para guardar la plantilla como borrador, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Save as Draft]**.
-
-   1. Escriba **[!UICONTROL Template name]**, seleccione **[!UICONTROL Advertiser]**, opcionalmente seleccione las etiquetas existentes o agregue nuevas etiquetas a la plantilla y, a continuación, haga clic en **[!UICONTROL Save]**.
 
 ## Edición de una plantilla de publicidad {#template-edit}
 
