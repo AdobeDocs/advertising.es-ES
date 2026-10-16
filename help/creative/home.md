@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: faa6de4fca9b018a704740bbdc3aa5369ee11721
+source-git-commit: 8569a5238e934d3170ac021ffff6a3e1fa31eaa1
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1923'
 ht-degree: 0%
 ---
 # Novedades de [!DNL Creative] 2.0
@@ -35,6 +35,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 15 de octubre de 2026 | [!DNL Creative Studio] | (Función de Beta) Ahora puede generar IA de uso en [!UICONTROL Creative Studio] para convertir una imagen de anuncio en pantalla estática existente en una plantilla de anuncio en pantalla editable. | Consulte &quot;[Administrar plantillas de publicidad en [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md)&quot;. |
 | 1 de julio de 2026 | [!DNL Creative Studio], [!DNL Brands] | Las siguientes funciones beta están disponibles:<ul><li>**[!UICONTROL Creative Studio]** usa IA generativa para ayudar a generar, cambiar el tamaño y refinar los anuncios en pantalla en varios formatos en una sola sesión. Utilice una interfaz de chat en lenguaje natural para generar y modificar contenido de publicidad: no se requiere ningún trabajo de diseño manual para los campos de contenido.</li><li>Cree y administre **[!UICONTROL brand profiles]** que reflejen la identidad visual y de mensajería de su marca, incluidos su logotipo, paleta de colores, directrices de voz, estándares de imagen y directrices para copias específicas del canal. Cuando crea anuncios en [!UICONTROL Creative Studio], el agente de IA utiliza la información del perfil de marca para generar contenido básico en la marca específica.</li></ul> | Consulte &quot;[Acerca de Creative Studio](/help/creative/creative-studio/creative-studio-about.md)&quot; y &quot;[Administrar perfiles de marca](/help/creative/brands/brand-manage.md)&quot;. |
 | 3 de junio de 2026 | [!DNL Adobe Analytics for Advertising] | Los anunciantes con Advertising Creative y [!DNL Adobe Analytics for Advertising] ahora pueden ver datos de nivel de variante y rama en Adobe Analytics. Los datos se muestran independientemente del DSP utilizado para publicar anuncios desde las experiencias de [!DNL Creative]. Si ejecuta los anuncios desde una ubicación de Advertising DSP, también verá datos de campaña y de ubicación, así como métricas relacionadas con los costes.<br><br>No se requiere ninguna configuración adicional. | Ver las [métricas de tráfico](https://experienceleague.adobe.com/es/docs/analytics/components/metrics/amo-metrics) y [clasificaciones](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id#classifications) de Advertising Creative visibles en [!DNL Analytics]. |
 | 25 de febrero de 2025 | Optimización y programación de Creative para [!DNL experiences] | Entre las mejoras se incluyen las siguientes:<ul><li>Para las experiencias con segmentación del árbol de decisiones, ahora puede asignar paquetes creativos y configurar la optimización y la programación creativas en pestañas independientes en la misma pantalla.</li><li>Las programaciones de anuncios ahora incluyen una hora de inicio y una hora de finalización. De forma predeterminada, el horario comienza a las 12:00 a.m. y finaliza a las 11:59 p.m.</li><li>La opción de rotación [!UICONTROL Weighted] incluye un botón (![Aplicar igual peso](/help/creative/assets/apply-equal-weight.png "Aplicar igual peso")) para aplicar igual peso a todos los paquetes especificados.</li></ul> | Ver instrucciones para [experiencias con segmentación](/help/creative/experiences/experience-optimization-scheduling-targeting.md) y [experiencias sin segmentación](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md). |
