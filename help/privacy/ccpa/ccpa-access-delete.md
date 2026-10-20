@@ -49,7 +49,7 @@ En este documento se describe cómo [!DNL Advertising Search, Social, & Commerce
 
 Para obtener información sobre cómo Advertising DSP admite el derecho del consumidor a no participar en la venta de información personal, consulte [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: Compatibilidad con la exclusión del consumidor de la venta](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-Para obtener más información sobre los servicios de privacidad de Adobe para la CCPA, consulte el [Centro de privacidad de Adobe](https://www.adobe.com/privacy/ccpa.html).
+Para obtener más información sobre los servicios de privacidad de Adobe para la CCPA, consulte el [Centro de privacidad de Adobe](https://www.adobe.com/es/privacy/ccpa.html).
 
 ## Tipos de solicitud de datos admitidos para Adobe Advertising
 
@@ -75,7 +75,7 @@ Para realizar solicitudes de acceso y eliminación de información personal del 
 
    >[!NOTE]
    >
-   >La eliminación de datos personales es diferente a la exclusión, lo que detiene el direccionamiento de un usuario final con segmentos de audiencia. Sin embargo, cuando un consumidor solicita eliminar datos personales de [!DNL Creative], [!DNL DSP] o [!DNL DCO], la biblioteca también envía una solicitud a Adobe Advertising para excluir al cliente de la segmentación de segmentos. Para los anunciantes con [!DNL Search, Social, & Commerce], le recomendamos que proporcione a sus clientes un vínculo a [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), que explica cómo excluirse de la segmentación de segmentos de audiencia.
+   >La eliminación de datos personales es diferente a la exclusión, lo que detiene el direccionamiento de un usuario final con segmentos de audiencia. Sin embargo, cuando un consumidor solicita eliminar datos personales de [!DNL Creative], [!DNL DSP] o [!DNL DCO], la biblioteca también envía una solicitud a Adobe Advertising para excluir al cliente de la segmentación de segmentos. Para los anunciantes con [!DNL Search, Social, & Commerce], le recomendamos que proporcione a sus clientes un vínculo a [https://www.adobe.com/es/privacy/opt-out.html#customeruse](https://www.adobe.com/es/privacy/opt-out.html#customeruse), que explica cómo excluirse de la segmentación de segmentos de audiencia.
 
 1. Identifique su ID de organización de CX Enterprise y asegúrese de que esté vinculado a sus cuentas de Adobe Advertising.
 

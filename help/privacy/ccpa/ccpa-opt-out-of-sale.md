@@ -49,7 +49,7 @@ Este documento describe cómo Adobe Advertising Demand Side Platform (DSP), como
 
 Para obtener información sobre cómo [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; y [!DNL Advertising DCO] admiten los derechos de acceso y eliminación de información personal de los consumidores, consulte [Compatibilidad de Adobe Advertising con la Ley de privacidad del consumidor de California: Acceso a datos del consumidor y eliminación de soporte](/help/privacy/ccpa/ccpa-access-delete.md).
 
-Para obtener más información sobre los servicios de privacidad de Adobe para la CCPA, consulte el [Centro de privacidad de Adobe](https://www.adobe.com/privacy/ccpa.html).
+Para obtener más información sobre los servicios de privacidad de Adobe para la CCPA, consulte el [Centro de privacidad de Adobe](https://www.adobe.com/es/privacy/ccpa.html).
 
 ## Comunicación de las solicitudes de exclusión de venta de los consumidores a Adobe Advertising
 
