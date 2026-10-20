@@ -45,7 +45,7 @@ Adobe CX Enterprise actúa como encargado del tratamiento de datos de cualquier 
 
 En este documento se describe cómo [!DNL Advertising Search, Social, & Commerce], Advertising Creative, Advertising DSP (Demand Side Platform) y [!DNL Advertising DCO] admiten los derechos de acceso y eliminación de datos del RGPD de los sujetos de datos mediante la API de Adobe Experience Platform Privacy Service y la IU de Privacy Service.
 
-Para obtener más información sobre el significado del RGPD para su empresa, consulte [RGPD y su empresa](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Para obtener más información sobre el significado del RGPD para su empresa, consulte [RGPD y su empresa](https://www.adobe.com/es/privacy/general-data-protection-regulation.html).
 
 ## Tipos de solicitud de datos admitidos para Adobe Advertising
 
@@ -71,7 +71,7 @@ Para realizar solicitudes de acceso y eliminación de datos para Adobe Advertisi
 
    >[!NOTE]
    >
-   >La eliminación de datos personales es diferente a la exclusión, que detiene el direccionamiento de un usuario final con segmentos de audiencia. Sin embargo, cuando un interesado pide que se eliminen datos personales de [!DNL Creative], [!DNL DSP] o [!DNL DCO], la biblioteca también envía una solicitud a Adobe Advertising para que excluya al interesado de la segmentación de segmentos. Para los anunciantes con [!DNL Search, Social, & Commerce], le recomendamos que proporcione a los interesados un vínculo a [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), que explica cómo excluirse de la segmentación de segmentos de audiencia.
+   >La eliminación de datos personales es diferente a la exclusión, que detiene el direccionamiento de un usuario final con segmentos de audiencia. Sin embargo, cuando un interesado pide que se eliminen datos personales de [!DNL Creative], [!DNL DSP] o [!DNL DCO], la biblioteca también envía una solicitud a Adobe Advertising para que excluya al interesado de la segmentación de segmentos. Para los anunciantes con [!DNL Search, Social, & Commerce], le recomendamos que proporcione a los interesados un vínculo a [https://www.adobe.com/es/privacy/opt-out.html](https://www.adobe.com/es/privacy/opt-out.html), que explica cómo excluirse de la segmentación de segmentos de audiencia.
 
 1. Identifique su ID de organización de CX Enterprise y asegúrese de que esté vinculado a sus cuentas de Adobe Advertising.
 
