@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 0%
-
 ---
 # Plantilla de anuncio de texto - Clasificaciones de etiquetas
 
@@ -17,15 +16,15 @@ Para cada componente de campaña al que desea asignar clasificaciones de etiquet
 
    * Para cada clasificación de etiqueta y valor que asignar al componente, haga lo siguiente:
 
-      1. Haga clic en **[!UICONTROL Add Label Classification]**.
+     1. Haga clic en **[!UICONTROL Add Label Classification]**.
 
-      1. Seleccione la clasificación de etiquetas existente y, a continuación, seleccione un valor existente o introduzca un nuevo valor.
+     1. Seleccione la clasificación de etiquetas existente y, a continuación, seleccione un valor existente o introduzca un nuevo valor.
 
-         La longitud máxima de cada valor es de 100 caracteres, y puede incluir caracteres ASCII y no ASCII.
+        La longitud máxima de cada valor es de 100 caracteres, y puede incluir caracteres ASCII y no ASCII.
 
-         Para insertar un nombre de columna como parámetro dinámico para un valor de clasificación de etiqueta, haga clic en el campo de entrada (el segundo campo) y, a continuación, haga clic en un nombre de columna en la lista de columnas.
+        Para insertar un nombre de columna como parámetro dinámico para un valor de clasificación de etiqueta, haga clic en el campo de entrada (el segundo campo) y, a continuación, haga clic en un nombre de columna en la lista de columnas.
 
-         Solo puede incluir un valor por clasificación por componente de campaña. Por ejemplo, una campaña puede tener Color=Rojo pero no Color=Rojo y Color=Azul.
+        Solo puede incluir un valor por clasificación por componente de campaña. Por ejemplo, una campaña puede tener Color=Rojo pero no Color=Rojo y Color=Azul.
 
    * Para cambiar un valor de clasificación de etiquetas existente, seleccione o introduzca un nuevo valor.
 

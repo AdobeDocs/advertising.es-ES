@@ -1,9 +1,8 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '54'
 ht-degree: 0%
-
 ---
 # Plantilla de anuncio de texto: idioma de nivel de grupo de anuncios
 
