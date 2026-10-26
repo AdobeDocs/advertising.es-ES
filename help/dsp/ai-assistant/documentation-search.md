@@ -23,7 +23,7 @@ ht-degree: 0%
 
 *Sólo soporte en inglés*
 
-Use el Asistente de IA para DSP para buscar contenido conceptual y explicativo en la [Guía de Advertising DSP](/help/dsp/home.md) y (anunciantes con Advertising Creative) en la [Guía de Advertising Creative](/help/creative/home.md) mediante una interfaz de chat. Las respuestas se basan únicamente en lo que se ha documentado para estos productos en [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
+Use el Asistente de IA para DSP para buscar contenido conceptual y explicativo en la [Guía de Advertising DSP](/help/dsp/home.md) y (anunciantes con Advertising Creative) en la [Guía de Advertising Creative](/help/creative/home.md) mediante una interfaz de chat. Las respuestas se basan únicamente en lo que se ha documentado para estos productos en [Experience League](https://experienceleague.adobe.com/es/docs/advertising).
 
 Puede preguntar sobre la administración de campañas, optimización, administración de audiencias, ofertas, informes y otras funciones del producto. Las respuestas incluyen citas, así como consultas adicionales y preguntas de seguimiento para ayudarle a refinar su consulta y encontrar más información.
 
