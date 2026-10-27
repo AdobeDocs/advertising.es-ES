@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 3d982df6837633d7e21b7acb85e8d7fd2c3e1655
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3244'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] configuración de campaña
@@ -251,9 +251,9 @@ por país. Si no selecciona ninguno, todos son de destino.
 
 **[!UICONTROL URL exclusions]:** (Campañas para las que están habilitadas [!DNL AI Max], [!UICONTROL Text customization] y [!UICONTROL Final URL expansion]) direcciones URL que se excluirán como páginas de aterrizaje generadas a partir de la expansión de dirección URL final. Opcionalmente, puede agregar la dirección URL *inclusions* (no exclusiones) en el nivel de grupo de anuncios. Para agregar una dirección URL, escriba una dirección URL o un fragmento de dirección URL en el campo de entrada y haga clic en **+**.
 
-**[!UICONTROL Brand inclusions]:** (Campañas para las que está habilitado [!DNL AI Max]) Listas de marcas para la cuenta para la que pueden coincidir las consultas relacionadas con la marca. Seleccione la casilla de verificación situada junto a cada lista de marca que desee incluir. Puede anular esta configuración en el nivel de grupo de anuncios.
+**[!UICONTROL Brand inclusions]:** (Campañas para las que está habilitado [!DNL AI Max]) Listas de marcas que incluyen marcas para las que pueden coincidir consultas relacionadas con la marca. En la lista de todas las listas de marcas configuradas para la cuenta en el editor [!DNL Google Ads], active la casilla que aparece junto a cada lista de marcas que desee incluir. Puede anular esta configuración en el nivel de grupo de anuncios.
 
-**[!UICONTROL Brand exclusions]:** (Campañas para las que está habilitado [!DNL AI Max]) Listas de marcas para la cuenta para la que es posible que no coincidan las consultas relacionadas con la marca. Seleccione la casilla de verificación situada junto a cada lista de marca que desee excluir.
+**[!UICONTROL Brand exclusions]:** (Campañas para las que está habilitado [!DNL AI Max]) Listas de marcas que incluyen marcas para las que es posible que las consultas relacionadas con la marca no coincidan. De la lista de todas las listas de marcas configuradas para la cuenta en el editor [!DNL Google Ads], seleccione la casilla de verificación situada junto a cada lista de marcas que desee excluir.
 
 ## Ficha [!UICONTROL Additional Campaign Information]
 

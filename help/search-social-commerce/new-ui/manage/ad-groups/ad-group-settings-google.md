@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 58b07a3c997005bbeb394f4925a894ea5960b9f7
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '727'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] configuración del grupo de anuncios
@@ -109,7 +109,7 @@ Si la campaña usa una estrategia de oferta de oferta inteligente (como [!UICONT
 >* Cuando la configuración [!UICONTROL Final URL expansion] en el nivel de campaña está *deshabilitada*, [!DNL Google Ads] usa solamente las direcciones URL especificadas como páginas de aterrizaje dinámicas para el grupo de anuncios.
 >* (Anuncios de búsqueda interactivos con recursos anclados) Cuando esta configuración especifica las inclusiones de direcciones URL, [!DNL Google Ads] no utiliza recursos anclados cuando la dirección URL final se enruta a una página de aterrizaje en la que la copia anclada no coincide con la intención del usuario. Para usar siempre los recursos anclados, no especifique las inclusiones de URL y deshabilite la configuración [!UICONTROL Final URL expansion] en el nivel de campaña.
 
-**[!UICONTROL Brand inclusions]:** (Campañas para las que está habilitado [!DNL AI Max]) Marcas para la cuenta para las que pueden coincidir consultas relacionadas con la marca. Seleccione la casilla de verificación situada junto a cada lista de marca que desee incluir. Esta configuración anula la configuración de nivel de campaña.
+**[!UICONTROL Brand inclusions]:** (Campañas para las que está habilitado [!DNL AI Max]) Listas de marcas que incluyen marcas para las que pueden coincidir consultas relacionadas con la marca. En la lista de todas las listas de marcas configuradas para la cuenta en el editor [!DNL Google Ads], active la casilla que aparece junto a cada lista de marcas que desee incluir. Esta configuración anula la configuración de nivel de campaña.
 
 ## Ficha [!UICONTROL URL Options]
 
