@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 8a8985dd3088be745752489b2101bd80000d4a00
+source-git-commit: b749a2b5285a9bf0ad1bcef28843bb48b9689cac
 workflow-type: tm+mt
-source-wordcount: '7840'
+source-wordcount: '7920'
 ht-degree: 0%
 ---
 # Novedades de DSP.
@@ -50,6 +50,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 26 de octubre de 2026 | [!DNL AI Assistant] en DSP | Utilice el asistente de IA de DSP para realizar cualquiera de las siguientes acciones:<ul><li>(Función de Beta) Obtenga métricas de campaña e informes completos sin crear manualmente un informe</li>(Función de Beta) Diagnosticar problemas de rendimiento y envío para paquetes y ubicaciones en directo<li><li>Busque en la documentación del producto instrucciones sobre el uso de DSP y [!UICONTROL Creative]. Esto ya estaba disponible.</li></ul> | Consulte &quot;[Acerca del Asistente de IA en Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md)&quot; e instrucciones para [Crear informes con el Asistente de IA](/help/dsp/ai-assistant/insights-agent.md) y [Solucionar problemas de rendimiento y envío con el Asistente de IA](/help/dsp/ai-assistant/troubleshooting-agent.md) |
 | 15 de octubre de 2026 | [!DNL Creative] | (Función de Beta) Ahora puede generar IA de uso en [!UICONTROL Creative Studio] para convertir una imagen de anuncio en pantalla estática existente en una plantilla de anuncio en pantalla editable. | Consulte &quot;[Administrar plantillas de publicidad en [!UICONTROL Creative Studio]](/help/creative/creative-studio/creative-studio-manage-templates.md){target="_blank"}&quot;. |
 | 8 de octubre | [!UICONTROL Insights] | (Anunciantes solo con [!DNL Analytics for Advertising]) Hay dos nuevas perspectivas disponibles basadas en el conocimiento de la audiencia de los datos de conversión de Adobe Analytics:<ul><li>[!UICONTROL Delivery Composition] le explica cómo el modelo de usuario de DSP ofrece ofertas entre usuarios con diferentes probabilidades de conversión. Utilice este insight para revisar una ubicación que realice entregas.</li><li>[!UICONTROL Organic Seed Profile] le muestra los intereses, horas, ubicaciones y dispositivos asociados con sus convertidores. Utilice esta insight para planificar el lanzamiento de un paquete o una ubicación, o para informar a la próxima campaña.</li></ul> | Consulte &quot;[Acerca de las perspectivas](/help/dsp/campaign-management/insights/insights-about.md)&quot;. |
 | 14 de agosto de 2026 | [!UICONTROL Reports] | El nuevo informe [!UICONTROL DSP Self-Attributed Conversions] muestra la contribución de Advertising DSP a las conversiones, incluidos los recorridos de clientes en los que DSP desempeñó un papel pero un contacto posterior, como un clic de búsqueda de Adobe Advertising, recibió crédito por último clic en otros informes. Es más útil para los anunciantes que utilizan Advertising DSP y Advertising Search, Social y Commerce. | Consulte &quot;[Acerca de los informes personalizados](/help/dsp/reports/report-about.md)&quot; y &quot;[Preguntas frecuentes acerca de los informes personalizados](/help/dsp/reports/faq-reports.md)&quot;. |

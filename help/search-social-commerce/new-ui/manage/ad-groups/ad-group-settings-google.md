@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 889cc027476f205f00dfc183772963f7e53c2ee2
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '712'
 ht-degree: 0%
 ---
 # [!DNL Google Ads] configuración del grupo de anuncios
@@ -100,6 +100,16 @@ Si la campaña usa una estrategia de oferta de oferta inteligente (como [!UICONT
 **[!UICONTROL AI Search Term Matching]:** (Campañas con [!DNL AI Max] habilitado solamente) Si se usa la coincidencia de términos de búsqueda impulsada por IA y sin palabras clave para mejorar el alcance y la optimización.<!--SUPPOSEDLY, BUT THIS IS OFF FOR ME:  It's enabled by default for campaigns with [!DNL AI Max], but you can disable it at the ad group level. -->
 
 **[!UICONTROL Locations of Interest]:** (campañas con [!DNL AI Max] habilitado solamente) Ubicaciones específicas de intención geográfica de direccionamiento (pero no de exclusión); los usuarios también deben cumplir con el direccionamiento geográfico de la campaña. De forma predeterminada, se segmentan los usuarios que estén en todas las ubicaciones geográficas, que estén regularmente en ellas o que estén interesados en ellas. Para reducir los objetivos, seleccione cada ubicación de destino.
+
+**[!UICONTROL URL inclusions]:** (Campañas para las que están habilitadas [!DNL AI Max] y [!UICONTROL Text customization]) las direcciones URL que se incluirán como páginas de aterrizaje generadas a partir de la expansión final de la dirección URL. Para agregar una dirección URL, escriba una dirección URL o un fragmento de dirección URL en el campo de entrada y haga clic en **+**.
+
+>[!NOTE]
+>
+>* Cuando la configuración [!UICONTROL Final URL expansion] en el nivel de campaña está *habilitada*, [!DNL Google Ads] usa las direcciones URL especificadas y las direcciones URL adicionales seleccionadas por Google como páginas de aterrizaje dinámicas para el grupo de anuncios.
+>* Cuando la configuración [!UICONTROL Final URL expansion] en el nivel de campaña está *deshabilitada*, [!DNL Google Ads] usa solamente las direcciones URL especificadas como páginas de aterrizaje dinámicas para el grupo de anuncios.
+>* (Anuncios de búsqueda interactivos con recursos anclados) Cuando esta configuración especifica las inclusiones de direcciones URL, [!DNL Google Ads] no utiliza recursos anclados cuando la dirección URL final se enruta a una página de aterrizaje en la que la copia anclada no coincide con la intención del usuario. Para usar siempre los recursos anclados, no especifique las inclusiones de URL y deshabilite la configuración [!UICONTROL Final URL expansion] en el nivel de campaña.
+
+**[!UICONTROL Brand inclusions]:** (Campañas para las que está habilitado [!DNL AI Max]) Marcas para la cuenta para las que pueden coincidir consultas relacionadas con la marca. Seleccione la casilla de verificación situada junto a cada lista de marca que desee incluir. Esta configuración anula la configuración de nivel de campaña.
 
 ## Ficha [!UICONTROL URL Options]
 

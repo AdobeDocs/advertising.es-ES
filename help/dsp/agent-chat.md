@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ba946348-465d-45f3-8d28-c42d0a2599c5
     internal-label: Creative introduction
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a461e1f9377bdb5db07dcb38cd5a1cf8fea510aa
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 ---
 # Busque documentación del producto mediante una interfaz de chat asistida por IA
@@ -63,7 +63,7 @@ Puede hacer varias preguntas en un mensaje, pero solo un mensaje a la vez. Esper
 
 1. En la parte superior derecha de cualquier página, haz clic en ![Chat agéntico](/help/dsp/assets/agent-chat.png "Chat agéntico").
 
-1. Escriba su consulta y haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
+1. Escriba la consulta y, a continuación, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud") o presione la tecla **Intro** del teclado.
 
    Para obtener más información, consulte &quot;[Escribir peticiones de datos](#writing-prompts)&quot;.
 
@@ -75,15 +75,19 @@ Puede hacer varias preguntas en un mensaje, pero solo un mensaje a la vez. Esper
 
    * Haga clic en **[!UICONTROL Documentation Sources]** para mostrar una lista de todas las páginas citadas en la respuesta y luego haga clic en el vínculo de la página.
 
-## Proporcionar comentarios sobre una respuesta
+<!-- 
 
-<!-- Not actionable in terms of improving page content -->
+Not there as of 10/22/26. Anyway, this feature isn't actionable in terms of improving page content.
 
-* Junto a la lista [!UICONTROL Documentation Sources]:
+## Provide feedback about a response
 
-  * Para obtener respuestas útiles, haz clic en ![Pulgares arriba](/help/dsp/assets/thumbs-up.png "Pulgares arriba").
+* Next to the [!UICONTROL Documentation Sources] list:
 
-  * Para obtener respuestas poco útiles, haz clic en ![Pulgares hacia abajo](/help/dsp/assets/thumbs-down.png "Pulgares hacia abajo").
+  * For helpful responses, click ![Thumbs up](/help/dsp/assets/thumbs-up.png "Thumbs up").
+
+  * For unhelpful responses, click ![Thumbs down](/help/dsp/assets/thumbs-down.png "Thumbs down").
+
+ -->
 
 ## Conceptos básicos de escritura de indicadores {#writing-prompts}
 
