@@ -15,16 +15,17 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '804'
 ht-degree: 0%
 ---
-# Solución de problemas de rendimiento y envío mediante el asistente de IA
+# Solución de problemas de rendimiento y envío mediante el Asistente de IA
+
 
 *característica de Beta*
 
-El agente de solución de problemas del asistente de IA puede identificar factores que limitan el rendimiento de los paquetes y las ubicaciones activos y proporciona recomendaciones para resolver problemas. El agente de solución de problemas puede ayudar a diagnosticar los siguientes tipos de problemas de rendimiento y envío:
+El agente de solución de problemas del asistente de IA identifica los factores que limitan el rendimiento de los paquetes y las ubicaciones activos y proporciona instrucciones paso a paso y recomendaciones basadas en datos históricos para resolver problemas. El agente de solución de problemas puede ayudar a diagnosticar los siguientes tipos de problemas de rendimiento y envío:
 
 * (Solo ubicaciones) Problemas de gasto, incluidos exceso de gasto, infrautilización y fallo de gasto. El agente evalúa los factores relacionados con el ritmo, las ofertas, el objetivo y el límite presupuestario como parte del diagnóstico.
 
@@ -32,7 +33,7 @@ El agente de solución de problemas del asistente de IA puede identificar factor
 
 Cada conversación cubre un único diagnóstico para un solo paquete o ubicación. Una vez que el agente envía un resultado, inicie una nueva conversación para preguntar sobre un problema diferente, o sobre un paquete o ubicación diferente.
 
-El agente no puede cambiar la configuración ni crear ni editar campañas o componentes de campañas. Tampoco puede diagnosticar problemas para un paquete o una ubicación en pausa, completada, archivada o programada.
+El agente no puede cambiar la configuración, crear o editar campañas o componentes de campaña, ni diagnosticar problemas para un paquete o ubicación en pausa, completada, archivada o programada.
 
 >[!IMPORTANT]
 >
@@ -87,7 +88,7 @@ Puede hacer varias preguntas en un mensaje, pero solo un mensaje a la vez. Esper
 >
 >Para preguntar sobre un problema diferente, o sobre un paquete o ubicación diferente, [inicia una nueva conversación](#conversation-new).
 
-## Enviar una consulta desde la vista [!UICONTROL Placements] o [!UICONTROL Placements]
+## Enviar una consulta desde la vista [!UICONTROL Packages] o [!UICONTROL Placements]
 
 Puede hacer varias preguntas en un mensaje, pero solo un mensaje a la vez. Espere una respuesta antes de enviar otra.
 
@@ -130,7 +131,7 @@ Puede hacer varias preguntas en un mensaje, pero solo un mensaje a la vez. Esper
 
 ## Iniciar una nueva conversación {#conversation-new}
 
-Cada conversación, o hilo de consulta, se guarda por separado para que pueda distinguir entre sus conversaciones anteriores.
+Cada conversación (o hilo de consulta) se guarda por separado para que pueda distinguir entre sus conversaciones anteriores.
 
 1. En la parte superior de [chat](#ai-assistant-open), haz clic en ![Iniciar una nueva conversación](/help/dsp/assets/new-selection.png "Iniciar una nueva conversación").
 
