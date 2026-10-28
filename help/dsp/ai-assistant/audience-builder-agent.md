@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a5cff4dbddc5c50b0678b56f8a071e19bd6af5b1
+source-git-commit: fe1a63dbe2c03335a5fbd0dfd3ab5902ca3c0527
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '268'
 ht-degree: 0%
 ---
 # Generación de audiencias reutilizables con el asistente de IA
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *Sólo soporte en inglés*
 
-Utilice el agente de Audience Builder del asistente de IA para generar audiencias reutilizables, que son grupos de segmentos de audiencia (incluidos los segmentos de origen y de terceros disponibles para usted) e incluso otras audiencias guardadas. Posteriormente, puede utilizar las audiencias como destinatarios o exclusiones para varias ubicaciones.
+Utilice el agente de creación de audiencias del Asistente de IA para generar [audiencias reutilizables](/help/dsp/audiences/audience-about.md). Las audiencias reutilizables pueden incluir cualquier segmento de origen y de terceros disponible para usted, e incluso otras audiencias guardadas.
 
 >[!IMPORTANT]
 >

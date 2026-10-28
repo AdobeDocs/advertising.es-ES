@@ -22,9 +22,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 ---
 # Acerca de Adobe Advertising DSP
@@ -43,9 +43,9 @@ Adobe Advertising DSP (DSP) mejora las estrategias de medios de los anunciantes 
 
 * [**Premiere conectó la experiencia de TV con [!DNL Roku]**](/help/dsp/inventory/roku-inventory.md): [!DNL Roku] y DSP tienen una relación única que le permite activar los datos de origen y de terceros en el inventario de [!DNL Roku] para llegar de manera eficiente a las audiencias en la pantalla grande y a escala. Al aprovechar la única plataforma con la capacidad de sincronizarse con los ID de [!DNL Roku], los especialistas en marketing pueden aprovechar la segmentación 1:1 determinística con precisión y precisión, así como acceder al inventario [!DNL Roku] y a las perspectivas de medición únicas.
 
-* [**Funciones asistidas por IA**](/help/dsp/introduction/features/ai-agents.md): DSP proporciona agentes asistidos por IA para ayudarle a crear audiencias reutilizables y encontrar instrucciones de uso del producto y prácticas recomendadas.
+* [**Funciones asistidas por IA**](/help/dsp/introduction/features/ai-agents.md): DSP proporciona agentes asistidos por IA, incluido un asistente de IA unificado para ayudarle a crear audiencias reutilizables, generar informes, solucionar problemas de rendimiento y encontrar instrucciones de uso del producto y prácticas recomendadas.
 
 >[!MORELIKETHIS]
 >
->* [Vídeo: Introducción a Advertising DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=es)
->* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=es)
+>* [Vídeo: Introducción a Advertising DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
+>* [Vídeo: estructura de cuenta de DSP e interfaz de usuario](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
