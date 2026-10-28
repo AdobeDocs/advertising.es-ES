@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ff1657a7f005eb93c83fdc7fd2e53810d9e03bd8
+source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
 workflow-type: tm+mt
-source-wordcount: '8378'
+source-wordcount: '8452'
 ht-degree: 0%
 ---
 # Apéndice: Datos de hoja de edición masiva requeridos para las cuentas de [!DNL Google Ads]
@@ -146,11 +146,11 @@ Para los campos de datos relevantes para las entidades de cuenta, consulte &quot
 | [!UICONTROL Product Group ID] | ID único que identifica un grupo de productos existente. En archivos CSV y TSV, debe ir precedido de una comilla simple (&#39;).[^1] Necesario solo cuando cambia o elimina el grupo de productos, a menos que la fila incluya a) suficientes columnas de propiedades para identificar el grupo de productos o b) un &quot;[!UICONTROL AMO ID]&quot;.&quot; |
 | [!UICONTROL Sitelink ID] | ID único que identifica un vínculo de sitio existente. En archivos CSV y TSV, debe ir precedido de una comilla simple (&#39;).[^1] Necesario solo cuando cambia o elimina el vínculo de sitio, a menos que la fila incluya a) suficientes columnas de propiedad para identificar el vínculo de sitio o b) un &quot;[!UICONTROL AMO ID]&quot;.&quot; Sin embargo, si no incluye [!UICONTROL Sitelink ID] ni [!UICONTROL AMO ID] y las columnas de propiedad coinciden con varios vínculos de sitio, el estado de uno solo de los vínculos de sitio cambiará.</p><p><b>Nota:</b> Si edita las columnas de propiedades de vínculos de sitios excepto Estado para un vínculo de sitios existente y no incluye ni [!UICONTROL Sitelink ID] ni [!UICONTROL AMO ID], se creará un nuevo vínculo de sitios y el vínculo de sitios existente no cambiará. |
 | [!UICONTROL RLSA Target ID] | Identificador exclusivo que identifica un objetivo o una exclusión de RLSA de nivel de campaña o de grupo de anuncios existente. En archivos CSV y TSV, debe ir precedido de una comilla simple (&#39;).[^1] Necesario solo cuando se cambia o se elimina el destino o la exclusión, a menos que la fila incluya un &quot;[!UICONTROL AMO ID]&quot; para el destino. |
-| [!UICONTROL Device Target ID] | <p>El ID único que identifica un destino o exclusión de dispositivo de nivel de campaña o de grupo de publicidad existente. En archivos CSV y TSV, debe ir precedido de una comilla simple (&#39;).[^1] Necesario solo cuando se cambia o se elimina el destino, a menos que la fila incluya un &quot;[!UICONTROL AMO ID]&quot; para el destino.</p> |
-| [!UICONTROL Campaign Excluded URL ID] | ID de la expresión URL excluida para la campaña. |
-| [!UICONTROL Ad Group Included URL ID] | El ID de la expresión URL incluida para el grupo de anuncios. |
-| [!UICONTROL Campaign Brand Criterion ID] | El ID de los criterios de la lista de marcas de la campaña. |
-| [!UICONTROL Ad Group Brand Criterion ID] | El ID de los criterios de la lista de marcas del grupo de publicidad. |
+| [!UICONTROL Device Target ID] | El ID único que identifica un destino o exclusión de dispositivo de nivel de campaña o de grupo de publicidad existente. En archivos CSV y TSV, debe ir precedido de una comilla simple (&#39;).[^1] Necesario solo cuando se cambia o se elimina el destino, a menos que la fila incluya un &quot;[!UICONTROL AMO ID]&quot; para el destino. |
+| [!UICONTROL Campaign Excluded URL ID] | ID únicos que identifican las direcciones URL excluidas para la campaña. Solo es necesario cuando se cambia o elimina la lista de exclusión de direcciones URL. |
+| [!UICONTROL Ad Group Included URL ID] | ID únicos que identifican las direcciones URL incluidas para el grupo de publicidad. Solo es necesario cuando se cambia o elimina la lista de inclusión de direcciones URL. |
+| [!UICONTROL Campaign Brand Criterion ID] | (Solo lectura) Los ID únicos que identifican los criterios para cada una de las listas de marcas de la campaña. [!DNL Google Ads] crea este ID después de agregar una inclusión o exclusión de lista de marca. No introduzca ni edite un valor. |
+| [!UICONTROL Ad Group Brand Criterion ID] | (Solo lectura) Los ID únicos que identifican los criterios de cada una de las listas de marcas del grupo de anuncios. [!DNL Google Ads] crea este ID después de agregar una inclusión o exclusión de lista de marca. No introduzca ni edite un valor. |
 | [!UICONTROL AMO ID] | (En hojas de edición masiva generadas) Identificador único generado por Adobe para una entidad sincronizada. Para los anuncios adaptables de búsqueda, el ID de AMO es necesario para editar o eliminar anuncios a menos que incluya el ID de anuncio. Para editar los datos de todos los demás tipos de entidades con un identificador de AMO, se requiere el identificador de AMO para editar o eliminar los datos, a menos que se incluya el identificador de entidad y el identificador de entidad principal.<br><br>Search, Social y Commerce usan el valor para determinar la identidad correcta que se debe editar, pero no publican el identificador en la red publicitaria. |
 | [!UICONTROL EF Error Message] | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de la red de publicidad con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL EF Errors] archivos. Este valor no se publica en la red de anuncios. |
 | [!UICONTROL SE Error Message] | (Incluido en hojas de edición masiva generadas con fines informativos) Marcador de posición para mostrar mensajes de error de la red de publicidad con respecto a los datos de la fila; los mensajes de error se incluyen en [!UICONTROL SE Errors] archivos. Este valor no se publica en la red de anuncios. |
