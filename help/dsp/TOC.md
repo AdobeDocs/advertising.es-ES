@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1103'
 ht-degree: 3%
 ---
 
@@ -22,13 +22,14 @@ ht-degree: 3%
     + [Soluciones entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
   + [Financiación de cuenta](/help/dsp/introduction/billing/account-funding.md)
   + [Monedas admitidas](/help/dsp/currency.md)
-  + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
-  + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
+  + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+  + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
   + [Soluciones de medición avanzadas](/help/dsp/introduction/advanced-measurement-services.md)
 + Asistente de IA en Advertising DSP {#ai-assistant}
   + [Acerca del asistente de IA en Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md)
-  + [Creación de informes con el asistente de IA](/help/dsp/ai-assistant/insights-agent.md)
-  + [Solución de problemas de rendimiento y envío mediante el asistente de IA](/help/dsp/ai-assistant/troubleshooting-agent.md)
+  + [Generación de audiencias reutilizables con el asistente de IA](/help/dsp/ai-assistant/audience-builder-agent.md)
+  + [Creación de informes con el Asistente de IA](/help/dsp/ai-assistant/insights-agent.md)
+  + [Solución de problemas de rendimiento y envío mediante el Asistente de IA](/help/dsp/ai-assistant/troubleshooting-agent.md)
   + [Buscar documentación del producto mediante el Asistente de IA](/help/dsp/ai-assistant/documentation-search.md)
   + [Trabajar con conversaciones anteriores del asistente de IA](/help/dsp/ai-assistant/previous-conversations.md)
 + Administración de campañas {#campaign-management}
@@ -80,7 +81,7 @@ ht-degree: 3%
     + [Revisar y editar los detalles de la publicidad mediante hojas de edición masiva](/help/dsp/campaign-management/ads/ad-qa.md)
     + [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
     + [Duplicación de un anuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-    + [Adjuntar y quitar anuncios de las ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=es)
+    + [Adjuntar y quitar anuncios de las ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
     + [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
     + [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
     + [Pausar o activar un anuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -239,9 +240,9 @@ ht-degree: 3%
   + Notificaciones {#notifications}
     + [Acerca de las suscripciones a alertas](/help/dsp/admin/alerts-about.md)
     + [Administrar suscripciones de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integraciones con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es)
++ [Integraciones con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Obtener ayuda](/help/dsp/get-help.md)
-+ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
++ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--

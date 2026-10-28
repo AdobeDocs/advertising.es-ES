@@ -1,6 +1,6 @@
 ---
 title: Crear una audiencia reutilizable
-description: Obtenga información sobre cómo crear audiencias reutilizables compuestas de segmentos de audiencia y otras audiencias guardadas. Si lo desea, puede utilizar un agente de audiencia asistido por IA para describir la audiencia de destino en mensajes en lenguaje natural; el agente sugiere segmentos de terceros y crea expresiones de audiencia para utilizarlas como objetivos o exclusiones.
+description: Obtenga información sobre cómo crear audiencias reutilizables para utilizarlas como destinos de ubicación o exclusiones. Cree audiencias reutilizables en Adobe Advertising DSP manualmente o con IA generativa en el asistente de IA o en la vista Todas las audiencias.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
 TQID: 'https://experienceleague.adobe.com/KhAxVTvMx4yBz3tfDtng3nOur2IodZAFFHMUQM1lKhQ'
@@ -18,26 +18,146 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: a8b5c9e6cbeb50467224496a1f52f06252da1e36
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '2104'
 ht-degree: 0%
 ---
 # Crear una audiencia reutilizable
 
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
-Puede guardar y administrar audiencias reutilizables, que son grupos de segmentos de audiencia e incluso otras audiencias guardadas, que puede utilizar como destinos o exclusiones para varias ubicaciones. Cree audiencias manualmente o utilice el agente de audiencia asistido por IA para generar nuevas audiencias reutilizables utilizando todos los segmentos de origen y de terceros disponibles para usted, según los requisitos indicados.
+Puede guardar y administrar audiencias reutilizables, que son grupos de segmentos de audiencia (incluidos los segmentos de origen y de terceros disponibles para usted) e incluso otras audiencias guardadas. Puede usar las audiencias como destinatarios o exclusiones para varias ubicaciones.
+
+Cree audiencias con el agente de audiencia asistida por IA en la vista unificada de [AI Assistant](/help/dsp/ai-assistant/ai-assistant-about.md), en la vista de [!UICONTROL Audiences] > [!UICONTROL All Audiences] o cree audiencias manualmente.
 
 >[!NOTE]
 >
 >(Anunciantes para los que DSP convierte ID de correo electrónico con hash en segmentos de RampID de LiveRamp) Los segmentos de RampID de origen que no están adjuntos a una ubicación activa, programada o en pausa se pausan. El segmento se indica en la lista de segmentos como &quot;En pausa automática&quot;.
 
-## Crear manualmente una audiencia reutilizable
+## Creación de una audiencia reutilizable mediante IA generativa con el asistente de IA
+
+*característica de Beta*
+
+*Sólo soporte en inglés*
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
+
+>[!NOTE]
+>
+>Esta función se encuentra en modo beta y está sujeta a cambios. Asegúrese de que la expresión de audiencia generada representa la audiencia que desea antes de guardar la audiencia y utilizarla en sus ubicaciones.
+
+1. Abrir asistente de IA:
+
+   * En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]>[!UICONTROL Create with AI]**.
+
+   * En la parte superior derecha de cualquier página, haz clic en ![Chat agéntico](/help/dsp/assets/agent-chat.png "Chat agéntico").
+
+1. Defina la audiencia:
+
+   1. Cree una solicitud inicial para definir la audiencia de una de las siguientes maneras:
+
+      * Introduzca su propio informe de audiencia o algunas de las características de audiencia que quiera incluir y excluir.
+
+      * Para ver ejemplos de informes de audiencias de destino y, opcionalmente, copiar uno para utilizarlo:
+
+        1. Haga clic en **[!UICONTROL Build]** para expandir la sección.
+
+        1. (Opcional) Para copiar el texto de un resumen de audiencia de ejemplo en el cuadro de mensaje:
+
+           1. Haga clic en el ejemplo.
+
+           1. (Opcional) Edite el texto para adaptarlo a sus necesidades.
+
+      Consulte &quot;[Conceptos básicos de escritura de mensajes](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
+
+   1. Para enviar la solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
+
+      Puede hacer varias preguntas de una en una, pero solo una a la vez. Espere una respuesta antes de enviar otra solicitud.
+
+      Se abre un panel en el lateral, con la definición de audiencia en la pestaña [!UICONTROL Step 1: Audience Definition]. La definición incluye todos los filtros de audiencia definidos, criterios de optimización y cualquiera de los segmentos de origen que se van a excluir.
+
+      Cuando corresponde, el asistente de IA sugiere filtros de audiencia adicionales para ayudarle a crear una información de audiencia más eficaz. Puede aceptar o rechazar las sugerencias.
+
+   1. (Opcional) Para excluir cualquiera de los segmentos de origen, pídale al Asistente de IA que lo haga o haga clic en ![Editar](/help/dsp/assets/edit-ai.png "Editar") en la sección **[!UICONTROL First-party segments to exclude]**, seleccione los segmentos que desee excluir para la audiencia y, a continuación, haga clic en **[!UICONTROL Apply]**.
+
+   1. (Opcional) Envíe mensajes de solicitud adicionales según sea necesario para describir las características de audiencia que desea incluir y excluir. Para enviar cada solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
+
+1. Cuando la definición de la audiencia cumpla sus criterios, especifique los segmentos que desea incluir:
+
+   1. Solicite al Asistente de IA que busque segmentos coincidentes. Puede decir &quot;ok&quot;, &quot;go&quot;, &quot;continue&quot;, &quot;search&quot; o cualquier término o frase relevante.
+
+      La pestaña [!UICONTROL Step 2: Audience Segments] muestra el nombre de audiencia propuesto, el tamaño y la distribución de la audiencia, la expresión de audiencia booleana y una lista de los segmentos de audiencia incluidos agrupados por característica.
+
+   1. (Opcional) En la sección [!UICONTROL Audience segments] de la parte inferior, realice una de las siguientes acciones:
+
+      * Para expandir cada grupo de segmentos de audiencia, haga clic en **[!UICONTROL >]** junto al recuento.
+
+      * Para copiar los ID de segmento de los segmentos de audiencia incluidos en el portapapeles, haga clic en **[!UICONTROL Copy rule]**.
+
+      * Para quitar segmentos de la audiencia, pídale al Asistente de IA que lo haga o haga clic en ![Editar](/help/dsp/assets/edit-ai.png "Editar"), anule la selección de los segmentos que quiera quitar de la audiencia y haga clic en **[!UICONTROL Apply]**.
+
+1. Cuando esté satisfecho con la audiencia ensamblada, haga clic en **[!UICONTROL Save Audience]** para crear la audiencia especificada.
+
+   >[!NOTE]
+   >
+   >Para editar la audiencia más adelante, [edite la expresión de audiencia manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+
+## Cree una audiencia reutilizable con IA generativa desde la vista [!UICONTROL Audiences] > [!UICONTROL All audiences]
+
+*característica de Beta*
+
+*Sólo soporte en inglés*
+
+>[!NOTE]
+>
+>Esta función se encuentra en modo beta y está sujeta a cambios. Asegúrese de que la expresión de audiencia generada representa la audiencia que desea antes de guardar la audiencia y utilizarla en sus ubicaciones.
+
+<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
 1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]**.
+
+1. En la configuración de [!UICONTROL New Audience]:
+
+   1. Escriba un(a) **[!UICONTROL Audience Name]** único.
+
+   1. (Opcional) Anule la selección de la opción **[!UICONTROL Share with all advertisers in my account]**.
+
+      Al compartir una audiencia, esta pasa a estar disponible como objetivo o exclusión para todos los anunciantes de la cuenta. Sin embargo, los segmentos individuales de la audiencia solo están disponibles para los usuarios con los que se comparten los segmentos. Por ejemplo, si comparte una audiencia que contiene segmentos de Adobe Analytics con un anunciante que no está asignado a la misma cuenta de [!DNL Analytics], el segmento no se previsualiza en esa audiencia para ese anunciante. En la audiencia solo se obtiene una vista previa de los segmentos disponibles para ese anunciante.
+
+   1. Haga clic en **[!UICONTROL Save]**.
+
+1. Cree la audiencia:
+
+   1. Introduzca uno o más indicadores para describir las características de audiencia que desea incluir y excluir. Para enviar cada solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
+
+      Para obtener más información, consulte &quot;[Instrucciones de escritura](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
+
+      Cuando corresponde, el agente sugiere filtros de segmento adicionales para ayudarle a crear una información de audiencia más eficaz. Puede aceptar o rechazar las sugerencias.
+
+      A medida que el agente de audiencia encuentra segmentos relevantes, crea una expresión de audiencia booleana basada en los criterios. También le pedirá su aprobación antes de buscar segmentos coincidentes para montar la audiencia. Si lo desea, puede ignorar la solicitud y continuar especificando criterios de audiencia adicionales.
+
+   1. Cuando el agente de audiencia presente una expresión de audiencia que describa adecuadamente su audiencia, dígale al agente de audiencia que continúe con la reunión de la audiencia.
+
+      Puede escribir &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar. El agente enumera todos los segmentos sugeridos para cada rasgo (como &quot;Padres&quot;). Para ver detalles sobre los segmentos individuales sugeridos para una característica, expanda la característica.
+
+   1. (Si es necesario) Especifique otros criterios. Cuando el agente de audiencia presente una expresión de audiencia que cumpla todos sus criterios, dígale al agente de audiencia que continúe con la combinación de la audiencia.
+
+      Para reunir la audiencia, escriba &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar. El agente enumera todos los segmentos sugeridos para cada rasgo (como &quot;Padres&quot;). Para ver detalles sobre los segmentos individuales sugeridos para una característica, expanda cualquier característica.
+
+1. Cuando esté satisfecho con la audiencia ensamblada, haga clic en **[!UICONTROL Create]** para crear la audiencia especificada.
+
+   >[!NOTE]
+   >
+   >Para editar la audiencia más adelante, [edite la expresión de audiencia manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+
+## Crear manualmente una audiencia reutilizable
+
+1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
+
+1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]>[!UICONTROL Create manually]**.
 
 1. En la configuración de [!UICONTROL New Audience]:
 
@@ -59,7 +179,7 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
    >
    >A medida que crea la audiencia, se actualizan [datos detallados del tamaño de la audiencia](audience-about.md) en el panel derecho
 
-   * Para crear manualmente la lógica del segmento, mediante los segmentos disponibles en las fichas [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] y [!UICONTROL Saved Audiences]](audience-settings.md), haga lo siguiente.
+   * Para crear la lógica del segmento manualmente, mediante los segmentos disponibles en las fichas [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] y [!UICONTROL Saved Audiences]](audience-settings.md), haga lo siguiente.
 
      * (Opcional) Busque un nombre de segmento, una descripción o una ruta.
 
@@ -107,71 +227,21 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 
 1. Haga clic en **[!UICONTROL Create]**.
 
-## Creación de una audiencia reutilizable mediante IA generativa
-
-*característica de Beta*
-
-*Sólo soporte en inglés*
-
->[!NOTE]
->
->Esta función se encuentra en modo beta y está sujeta a cambios. Asegúrese de que la expresión de audiencia generada representa la audiencia que desea antes de crear la audiencia y utilizarla para sus ubicaciones.
-
-<!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
-
-1. En el menú principal, haga clic en **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
-
-1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create]**.
-
-1. En la configuración de [!UICONTROL New Audience]:
-
-   1. Escriba un(a) **[!UICONTROL Audience Name]** único.
-
-   1. (Opcional) Anule la selección de la opción **[!UICONTROL Share with all advertisers in my account]**.
-
-      Al compartir una audiencia, esta pasa a estar disponible como objetivo o exclusión para todos los anunciantes de la cuenta. Sin embargo, los segmentos individuales de la audiencia solo están disponibles para los usuarios con los que se comparten los segmentos. Por ejemplo, si comparte una audiencia que contiene segmentos de Adobe Analytics con un anunciante que no está asignado a la misma cuenta de [!DNL Analytics], el segmento no se previsualiza en esa audiencia para ese anunciante. En la audiencia solo se obtiene una vista previa de los segmentos disponibles para ese anunciante.
-
-   1. Haga clic en **[!UICONTROL Save]**.
-
-1. Cree la audiencia:
-
-   1. Introduzca uno o más indicadores para describir las características de audiencia que desea incluir y excluir. Para enviar cada solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
-
-      Para obtener más información, consulte &quot;[Instrucciones de escritura](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
-
-      Cuando corresponde, el agente sugiere filtros de segmento adicionales para ayudarle a crear una información de audiencia más eficaz. Puede aceptar o rechazar las sugerencias.
-
-      A medida que el agente de audiencia encuentra segmentos relevantes, crea una expresión de audiencia booleana basada en los criterios. También le pedirá su aprobación antes de buscar segmentos coincidentes para montar la audiencia. Si lo desea, puede ignorar la solicitud y continuar especificando criterios de audiencia adicionales.
-
-   1. Cuando el agente de audiencia presente una expresión de audiencia que describa adecuadamente su audiencia, dígale al agente de audiencia que continúe con la reunión de la audiencia.
-
-      Puede escribir &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar. El agente enumera todos los segmentos sugeridos para cada rasgo (como &quot;Padres&quot;). Expanda cualquier rasgo para ver detalles sobre los segmentos individuales sugeridos para ese rasgo.
-
-   1. (Si es necesario) Especifique otros criterios. Cuando el agente de audiencia presente una expresión de audiencia que cumpla todos sus criterios, dígale al agente de audiencia que continúe con la combinación de la audiencia.
-
-      Para reunir la audiencia, escriba &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar. El agente enumera todos los segmentos sugeridos para cada rasgo (como &quot;Padres&quot;). Expanda cualquier rasgo para ver detalles sobre los segmentos individuales sugeridos para ese rasgo.
-
-1. Cuando esté satisfecho con la audiencia ensamblada, haga clic en **[!UICONTROL Create]** para crear la audiencia especificada.
-
-   >[!NOTE]
-   >
-   >Posteriormente, no se puede editar la audiencia con el agente de audiencia. En su lugar, [edite la expresión de audiencia manualmente](/help/dsp/audiences/reusable-audience-edit.md).
-
 ### Conceptos básicos de escritura de indicadores {#writing-prompts}
 
 <!-- Change heading level for this whole section to fit under AI procedure -->
 
-#### ¿Qué debe incluir un mensaje?
+#### Directrices para escribir mensajes a la audiencia
 
 * Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
 
-  * Puede introducir frases completas o solo una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
+  * Puede introducir frases completas o una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
 
   * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
 
   * El agente de audiencia reconoce los sinónimos más comunes.
 
-* Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Cuantos más detalles proporcione, mayores serán las posibilidades de obtener los resultados que satisfagan sus necesidades.
+* Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Proporcionar más detalles aumenta la probabilidad de obtener resultados que satisfagan sus necesidades.
 
 * Identifique ubicaciones, tipos de dispositivos y proveedores de datos para incluir o excluir.
 
@@ -179,7 +249,7 @@ Puede guardar y administrar audiencias reutilizables, que son grupos de segmento
 
 * Obtenga información sobre las sugerencias mediante la experimentación.
 
-  Si la solicitud no está clara, el agente de audiencia solo solicitará otra solicitud, para que pueda intentarlo de nuevo.
+  Si el mensaje no está claro, el agente de audiencia solicita otro mensaje para que pueda intentarlo de nuevo.
 
   El agente de audiencia no guardará automáticamente una expresión de audiencia generada como audiencia. Solo puede guardar una audiencia si hace clic en el botón [!UICONTROL Create], que se encuentra fuera del área de solicitud, para poder deshacer los cambios que no desee conservar.
 
@@ -208,7 +278,7 @@ Cuando el agente de audiencia necesite una respuesta de su parte, puede responde
 
 `If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
-Su respuesta afirmativa: &quot;continuar&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar
+Su respuesta afirmativa: &quot;proceder&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar
 
 También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
 
@@ -243,7 +313,7 @@ Incluya tantos tipos de atributos de audiencia como sea posible de la siguiente 
 
 * **Datos demográficos**
 
-  Incluye atributos como el intervalo de edad, el sexo, el estado civil, la composición del hogar (tamaño de la familia, presencia de niños, hogares multigeneracionales).
+  Incluye atributos como el intervalo de edad, la identidad de género, el estado civil, la composición del hogar (tamaño de la familia, presencia de niños, hogares multigeneracionales).
 
 * **Indicadores socioeconómicos**
 

@@ -15,14 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ffe7424d4e225a95b279b06a7df3b85bf0cbcdbf
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 0%
 ---
-# Creación de informes con el asistente de IA
+# Creación de informes con el Asistente de IA
 
 *característica de Beta*
+
+*Sólo soporte en inglés*
 
 Utilice el agente de perspectivas del asistente de IA para obtener métricas e informes completos para sus campañas, componentes de campaña, experiencias de Advertising Creative, anunciantes y objetivos de publicidad, sin necesidad de crear manualmente un informe. Puede hacer preguntas sencillas sobre una métrica específica, como gasto o CPA para una campaña, o solicitar un informe más complejo para una dimensión específica (como una sola campaña o audiencia) o entre dimensiones (para desgloses de cada campaña y anunciante). Puede descargar los resultados como archivo CSV.
 
