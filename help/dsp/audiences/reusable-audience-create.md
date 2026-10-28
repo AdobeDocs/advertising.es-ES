@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
+source-git-commit: 8385743efa75e0c44cf44d0443094b11d579216d
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2318'
 ht-degree: 0%
 ---
 # Crear una audiencia reutilizable
@@ -42,6 +42,8 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
 *característica de Beta*
 
 *Sólo soporte en inglés*
+
+Proporcione al asistente de inteligencia artificial un resumen de audiencia o describa las características de audiencia que desee incluir o excluir en las indicaciones en lenguaje natural. En la definición de la audiencia, puede refinar los criterios de optimización, los tipos de ID que se van a incluir y los segmentos de origen que se van a excluir. Una vez que el Ayudante de IA haya ensamblado una lista de los segmentos de audiencia coincidentes, puede refinar la lista de segmentos antes de guardar la audiencia.
 
 <!-- Later:  Audiences built using generative AI have the indicator [icon] in **[!UICONTROL Audiences] > [!UICONTROL All Audiences]**. -->
 
@@ -77,13 +79,19 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
 
       Puede hacer varias preguntas de una en una, pero solo una a la vez. Espere una respuesta antes de enviar otra solicitud.
 
-      Se abre un panel en el lateral, con la definición de audiencia en la pestaña [!UICONTROL Step 1: Audience Definition]. La definición incluye todos los filtros de audiencia definidos, criterios de optimización y cualquiera de los segmentos de origen que se van a excluir.
+      Se abre un panel en el lateral, con la definición de audiencia en la pestaña [!UICONTROL Step 1: Audience Definition]. La definición incluye todos los filtros de audiencia definidos, criterios de optimización (incluidos los tipos de ID de dispositivo y los tipos de ID universales que se van a incluir) y cualquier segmento de origen que se vaya a excluir. Si no ha especificado las limitaciones, los segmentos se basan en la optimización para el volumen más alto, incluidos todos los tipos de ID de dispositivo y los ID universales, así como todas las audiencias de origen.
 
       Cuando corresponde, el asistente de IA sugiere filtros de audiencia adicionales para ayudarle a crear una información de audiencia más eficaz. Puede aceptar o rechazar las sugerencias.
 
-   1. (Opcional) Para excluir cualquiera de los segmentos de origen, pídale al Asistente de IA que lo haga o haga clic en ![Editar](/help/dsp/assets/edit-ai.png "Editar") en la sección **[!UICONTROL First-party segments to exclude]**, seleccione los segmentos que desee excluir para la audiencia y, a continuación, haga clic en **[!UICONTROL Apply]**.
+   1. (Opcional) Refine la definición de audiencia:
 
-   1. (Opcional) Envíe mensajes de solicitud adicionales según sea necesario para describir las características de audiencia que desea incluir y excluir. Para enviar cada solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
+      * Para cambiar los criterios de optimización entre *[!UICONTROL Highest volume]* y *[!UICONTROL Lowest cost]*, pídale al Asistente de IA que lo haga o haga clic en ![Editar](/help/dsp/assets/edit-ai.png "Editar") junto a **[!UICONTROL Criteria]**, seleccione los criterios y haga clic en **[!UICONTROL Apply]**.
+
+      * Para cambiar entre incluir todos los tipos de ID (incluidos todos los tipos de ID de tipo de dispositivo e ID universales) y solo tipos de ID específicos, pídale al Asistente de IA que lo haga o haga clic en ![Editar](/help/dsp/assets/edit-ai.png "Editar") junto a **[!UICONTROL ID type]**, seleccione los tipos de ID que desea incluir y, a continuación, haga clic en **[!UICONTROL Apply]**.
+
+      * Para excluir cualquiera de los segmentos de origen, pídale al Asistente de IA que lo haga o haga clic en ![Editar](/help/dsp/assets/edit-ai.png "Editar") en la sección **[!UICONTROL First-party segments to exclude]**, seleccione los segmentos que desee excluir para la audiencia y, a continuación, haga clic en **[!UICONTROL Apply]**.
+
+      * Envíe mensajes adicionales según sea necesario para describir las características de audiencia que desea incluir y excluir. Para enviar cada solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
 
 1. Cuando la definición de la audiencia cumpla sus criterios, especifique los segmentos que desea incluir:
 
@@ -110,6 +118,8 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
 *característica de Beta*
 
 *Sólo soporte en inglés*
+
+Proporcione al agente de audiencia un resumen de audiencia o mensajes en lenguaje natural que describan las características de audiencia que desea incluir y excluir.
 
 >[!NOTE]
 >
@@ -154,6 +164,72 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
    >[!NOTE]
    >
    >Para editar la audiencia más adelante, [edite la expresión de audiencia manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+
+### Escribir mensajes y responder al agente de audiencia {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### Directrices para escribir mensajes a la audiencia
+
+* Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
+
+  * Puede introducir frases completas o una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
+
+  * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
+
+  * El agente de audiencia reconoce los sinónimos más comunes.
+
+* Sea específico:
+
+  * Proporcione detalles sobre todas las características de audiencia que desee incluir y las características que desee excluir específicamente. Proporcionar más detalles aumenta la probabilidad de obtener resultados que satisfagan sus necesidades.
+
+  * Identifique ubicaciones, tipos de dispositivos y proveedores de datos para incluir o excluir.
+
+  Siempre tiene la oportunidad de editar los filtros de audiencia, los criterios de optimización, los segmentos de origen que desea excluir y la lista de segmentos final antes de guardar la audiencia. Probar que todos los detalles se inicien acorta el proceso.
+
+* Proporcione iterativamente detalles para restringir los criterios y la expresión de audiencia generada antes de guardar la audiencia.
+
+* El agente de audiencia no guardará automáticamente una expresión de audiencia generada como audiencia. Solo puede guardar una audiencia si hace clic en el botón [!UICONTROL Save Audience] o [!UICONTROL Create], que se encuentran fuera del área de solicitud, de modo que puede deshacer los cambios que no desee conservar.
+
+Consulte &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot; para ver más formas de optimizar las peticiones de datos para audiencias.
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### Limitaciones de mensajes
+
+* Referencias a audiencias existentes.
+
+* Texto en otros idiomas además del inglés.
+
+#### Cómo responder al agente de audiencia
+
+Cuando el agente de audiencia necesite una respuesta de su parte, puede responder utilizando palabras clave en la solicitud o utilizando sinónimos comunes.
+
+##### Confirmar si se debe continuar
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+Su respuesta afirmativa: &quot;proceder&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar
+
+También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
+
+##### Elija entre las opciones sugeridas
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+Su respuesta: `1`, `proceed`, `2`, `maximum reach`, etc.
+
+También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
 
 ### Prácticas recomendadas para crear un informe de audiencia {#audience-brief-best-practices}
 
@@ -210,72 +286,6 @@ Incluya tantos tipos de atributos de audiencia como sea posible de la siguiente 
 El siguiente es un ejemplo de un informe de audiencia sólido para una campaña de concienciación y prueba para un servicio de suscripción a un kit de comida premium:
 
 `The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
-
-### Escribir mensajes y responder al agente de audiencia {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### Directrices para escribir mensajes a la audiencia
-
-* Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
-
-  * Puede introducir frases completas o una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
-
-  * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
-
-  * El agente de audiencia reconoce los sinónimos más comunes.
-
-* Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Proporcionar más detalles aumenta la probabilidad de obtener resultados que satisfagan sus necesidades.
-
-* Identifique ubicaciones, tipos de dispositivos y proveedores de datos para incluir o excluir.
-
-* Proporcione iterativamente detalles para restringir los criterios y la expresión de audiencia generada antes de guardar la audiencia.
-
-* Obtenga información sobre las sugerencias mediante la experimentación.
-
-  Si el mensaje no está claro, el agente de audiencia solicita otro mensaje para que pueda intentarlo de nuevo.
-
-  El agente de audiencia no guardará automáticamente una expresión de audiencia generada como audiencia. Solo puede guardar una audiencia si hace clic en el botón [!UICONTROL Create], que se encuentra fuera del área de solicitud, para poder deshacer los cambios que no desee conservar.
-
-Consulte &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot; para ver más formas de optimizar las peticiones de datos para audiencias.
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### Limitaciones de mensajes
-
-* Referencias a audiencias existentes.
-
-* Texto en otros idiomas además del inglés.
-
-#### Cómo responder al agente de audiencia
-
-Cuando el agente de audiencia necesite una respuesta de su parte, puede responder utilizando palabras clave en la solicitud o utilizando sinónimos comunes.
-
-##### Confirmar si se debe continuar
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-Su respuesta afirmativa: &quot;proceder&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar
-
-También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
-
-##### Elija entre las opciones sugeridas
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-Su respuesta: `1`, `proceed`, `2`, `maximum reach`, etc.
-
-También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
 
 ## Crear manualmente una audiencia reutilizable
 
