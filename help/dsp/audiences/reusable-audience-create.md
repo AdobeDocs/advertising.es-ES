@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
+source-git-commit: 59d4abad49f2684a4b0a5d46774757bffcd7afee
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2109'
 ht-degree: 0%
 ---
 # Crear una audiencia reutilizable
@@ -35,7 +35,9 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
 >
 >(Anunciantes para los que DSP convierte ID de correo electrónico con hash en segmentos de RampID de LiveRamp) Los segmentos de RampID de origen que no están adjuntos a una ubicación activa, programada o en pausa se pausan. El segmento se indica en la lista de segmentos como &quot;En pausa automática&quot;.
 
-## Creación de una audiencia reutilizable mediante IA generativa con el asistente de IA
+## Generación de una audiencia reutilizable mediante IA generativa
+
+### Crear una audiencia reutilizable mediante el Asistente de IA
 
 *característica de Beta*
 
@@ -69,7 +71,7 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
 
            1. (Opcional) Edite el texto para adaptarlo a sus necesidades.
 
-      Consulte &quot;[Conceptos básicos de escritura de mensajes](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
+      Consulte &quot;[Escribir mensajes y responder al agente de audiencia](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
 
    1. Para enviar la solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
 
@@ -103,7 +105,7 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
    >
    >Para editar la audiencia más adelante, [edite la expresión de audiencia manualmente](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Cree una audiencia reutilizable con IA generativa desde la vista [!UICONTROL Audiences] > [!UICONTROL All audiences]
+### Cree una audiencia reutilizable con el agente de audiencia desde la vista [!UICONTROL Audiences] > [!UICONTROL All audiences]
 
 *característica de Beta*
 
@@ -133,7 +135,7 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
 
    1. Introduzca uno o más indicadores para describir las características de audiencia que desea incluir y excluir. Para enviar cada solicitud, haga clic en ![Enviar solicitud](/help/dsp/assets/submit-prompt.png "Enviar solicitud").
 
-      Para obtener más información, consulte &quot;[Instrucciones de escritura](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
+      Para obtener más información, consulte &quot;[Escribir mensajes y responder al agente de audiencia](#writing-prompts)&quot; y &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot;.
 
       Cuando corresponde, el agente sugiere filtros de segmento adicionales para ayudarle a crear una información de audiencia más eficaz. Puede aceptar o rechazar las sugerencias.
 
@@ -152,6 +154,128 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
    >[!NOTE]
    >
    >Para editar la audiencia más adelante, [edite la expresión de audiencia manualmente](/help/dsp/audiences/reusable-audience-edit.md).
+
+### Prácticas recomendadas para crear un informe de audiencia {#audience-brief-best-practices}
+
+Un informe de audiencia es una escritura estratégica que define el público objetivo de una campaña. Una información bien diseñada ayuda al agente de audiencia de DSP a identificar los segmentos más relevantes para montar la audiencia de destino.
+
+#### Componentes de una información de audiencia efectiva
+
+Incluya tantos tipos de atributos de audiencia como sea posible de la siguiente lista en su informe. Sea específico sobre los atributos que desea excluir.
+
+<!--
+ What about these:
+
+* Device specifications
+* Presence in audiences from specific third-party data providers
+* Presence of a universal ID
+* Target cost per thousand (CPM) impressions or a total target cost
+
+-->
+
+* **Datos demográficos**
+
+  Incluye atributos como el intervalo de edad, la identidad de género, el estado civil, la composición del hogar (tamaño de la familia, presencia de niños, hogares multigeneracionales).
+
+* **Indicadores socioeconómicos**
+
+  Establece la capacidad financiera a través de las bandas de ingresos del hogar (HHI), el nivel de educación, la ocupación / títulos de trabajo, el estado laboral y el estado de propiedad de la vivienda.
+
+* **Parámetros geográficos**
+
+  Define el ámbito de ubicación, incluidos país/países, región (EMEA, APAC, NA) y densidad de población (urbana/suburbana/rural).
+
+* **Intereses y afinidades**
+
+  Identifica pasiones y preferencias como aficiones (deportes, artes, actividades al aire libre), patrones de consumo de medios, afinidades de marca y actividades de estilo de vida (viajes, restaurantes, entretenimiento).
+
+* **Psicografía**
+
+  Captura la mentalidad y los valores, incluidas las aspiraciones (búsqueda de estatus, autosuperación), los valores fundamentales (sostenibilidad, innovación, tradición), los rasgos de personalidad (personas que toman riesgos, quienes los adoptan tempranamente) y las motivaciones de compra.
+
+* **Señales de comportamiento**
+
+  Acciones observables, incluido el comportamiento de compra (frecuencia de compra, preferencias de canal, lealtad de marca), comportamiento en línea (visitas al sitio web, participación en el contenido, actividad en los medios sociales) y comportamiento sin conexión (visitas al almacén, asistencia al evento, suscripciones).
+
+* **Intención en el mercado**
+
+  Identifica la preparación para la compra a través de las categorías de producto/servicio que se investigan, el cronograma de compra (inmediato, a corto plazo, a largo plazo) y los eventos de vida relevantes que activan las decisiones de compra.
+
+* **Fase de vida**
+
+  Comprensión de la fase actual, que incluye la etapa profesional (estudiante, nivel de ingreso, mitad de la carrera, ejecutivo, jubilado), etapa familiar (recién casados, nuevos padres, nidos vacíos) y transiciones importantes en la vida.
+
+#### Ejemplo de un informe de audiencia bien estructurado para una campaña de prospección
+
+El siguiente es un ejemplo de un informe de audiencia sólido para una campaña de concienciación y prueba para un servicio de suscripción a un kit de comida premium:
+
+`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
+
+### Escribir mensajes y responder al agente de audiencia {#writing-prompts}
+
+<!-- Change heading level for this whole section to fit under AI procedure -->
+
+#### Directrices para escribir mensajes a la audiencia
+
+* Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
+
+  * Puede introducir frases completas o una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
+
+  * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
+
+  * El agente de audiencia reconoce los sinónimos más comunes.
+
+* Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Proporcionar más detalles aumenta la probabilidad de obtener resultados que satisfagan sus necesidades.
+
+* Identifique ubicaciones, tipos de dispositivos y proveedores de datos para incluir o excluir.
+
+* Proporcione iterativamente detalles para restringir los criterios y la expresión de audiencia generada antes de guardar la audiencia.
+
+* Obtenga información sobre las sugerencias mediante la experimentación.
+
+  Si el mensaje no está claro, el agente de audiencia solicita otro mensaje para que pueda intentarlo de nuevo.
+
+  El agente de audiencia no guardará automáticamente una expresión de audiencia generada como audiencia. Solo puede guardar una audiencia si hace clic en el botón [!UICONTROL Create], que se encuentra fuera del área de solicitud, para poder deshacer los cambios que no desee conservar.
+
+Consulte &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot; para ver más formas de optimizar las peticiones de datos para audiencias.
+
+<!--
+Consider starting by asking for what you should include.
+
+you can give thumbs up or down to [what exactly?].
+
+Verify what info is carried over from session to session and what starts from scratch.
+
+-->
+
+#### Limitaciones de mensajes
+
+* Referencias a audiencias existentes.
+
+* Texto en otros idiomas además del inglés.
+
+#### Cómo responder al agente de audiencia
+
+Cuando el agente de audiencia necesite una respuesta de su parte, puede responder utilizando palabras clave en la solicitud o utilizando sinónimos comunes.
+
+##### Confirmar si se debe continuar
+
+`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
+
+Su respuesta afirmativa: &quot;proceder&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar
+
+También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
+
+##### Elija entre las opciones sugeridas
+
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
+
+Su respuesta: `1`, `proceed`, `2`, `maximum reach`, etc.
+
+También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
 
 ## Crear manualmente una audiencia reutilizable
 
@@ -226,128 +350,6 @@ Cree audiencias con el agente de audiencia asistida por IA en la vista unificada
         >Si la audiencia ya incluye cualquier lógica de segmento, al pegar la nueva lógica de segmento se sobrescribe la lógica existente.
 
 1. Haga clic en **[!UICONTROL Create]**.
-
-### Conceptos básicos de escritura de indicadores {#writing-prompts}
-
-<!-- Change heading level for this whole section to fit under AI procedure -->
-
-#### Directrices para escribir mensajes a la audiencia
-
-* Utilice un lenguaje claro y descriptivo para describir la audiencia de destino.
-
-  * Puede introducir frases completas o una cadena de características. La puntuación no es necesaria excepto cuando es necesario para una mayor claridad.
-
-  * En general, los indicadores no distinguen entre mayúsculas y minúsculas.
-
-  * El agente de audiencia reconoce los sinónimos más comunes.
-
-* Sea específico y proporcione detalles sobre todas las características de audiencia que desee incluir y cualquier característica que desee excluir específicamente. Proporcionar más detalles aumenta la probabilidad de obtener resultados que satisfagan sus necesidades.
-
-* Identifique ubicaciones, tipos de dispositivos y proveedores de datos para incluir o excluir.
-
-* Proporcione iterativamente detalles para restringir los criterios y la expresión de audiencia generada antes de guardar la audiencia.
-
-* Obtenga información sobre las sugerencias mediante la experimentación.
-
-  Si el mensaje no está claro, el agente de audiencia solicita otro mensaje para que pueda intentarlo de nuevo.
-
-  El agente de audiencia no guardará automáticamente una expresión de audiencia generada como audiencia. Solo puede guardar una audiencia si hace clic en el botón [!UICONTROL Create], que se encuentra fuera del área de solicitud, para poder deshacer los cambios que no desee conservar.
-
-Consulte &quot;[Prácticas recomendadas para crear un informe de audiencia](#audience-brief-best-practices)&quot; para ver más formas de optimizar las peticiones de datos para audiencias.
-
-<!--
-Consider starting by asking for what you should include.
-
-you can give thumbs up or down to [what exactly?].
-
-Verify what info is carried over from session to session and what starts from scratch.
-
--->
-
-#### ¿Qué no se puede incluir en un mensaje?
-
-* Referencias a expresiones de audiencia existentes.
-
-* Texto en otros idiomas además del inglés.
-
-#### Ejemplos de respuestas del agente de audiencia y cómo responder
-
-Cuando el agente de audiencia necesite una respuesta de su parte, puede responder utilizando palabras clave en la solicitud o utilizando sinónimos comunes.
-
-#### El agente de audiencia le hace una pregunta
-
-`If you are okay with the proposed expression, I can start searching segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
-
-Su respuesta afirmativa: &quot;proceder&quot;, &quot;bien&quot;, &quot;bien&quot;, &quot;sí&quot; u otra palabra similar
-
-También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
-
-##### El agente de audiencia le pide que elija entre varias opciones
-
-`Would you like to:`
-`1) Proceed with this expression,`
-`2) Get maximum reach alternatives, or`
-`3) Modify the expression manually?`
-
-Su respuesta: `1`, `proceed`, `2`, `maximum reach`, etc.
-
-También puede ignorar la solicitud y seguir especificando criterios de audiencia adicionales en su lugar.
-
-### Prácticas recomendadas para crear un informe de audiencia {#audience-brief-best-practices}
-
-Un informe de audiencia es una escritura estratégica que define el público objetivo de una campaña. Una información bien diseñada ayuda al agente de audiencia de DSP a identificar los segmentos más relevantes para montar la audiencia de destino.
-
-#### Componentes esenciales de una información de audiencia efectiva
-
-Incluya tantos tipos de atributos de audiencia como sea posible de la siguiente lista en su informe. Sea específico sobre los atributos que desea excluir.
-
-<!--
- What about these:
-
-* Device specifications
-* Presence in audiences from specific third-party data providers
-* Presence of a universal ID
-* Target cost per thousand (CPM) impressions or a total target cost
-
--->
-
-* **Datos demográficos**
-
-  Incluye atributos como el intervalo de edad, la identidad de género, el estado civil, la composición del hogar (tamaño de la familia, presencia de niños, hogares multigeneracionales).
-
-* **Indicadores socioeconómicos**
-
-  Establece la capacidad financiera a través de las bandas de ingresos del hogar (HHI), el nivel de educación, la ocupación / títulos de trabajo, el estado laboral y el estado de propiedad de la vivienda.
-
-* **Parámetros geográficos**
-
-  Define el ámbito de ubicación, incluidos país/países, región (EMEA, APAC, NA) y densidad de población (urbana/suburbana/rural).
-
-* **Intereses y afinidades**
-
-  Identifica pasiones y preferencias como aficiones (deportes, artes, actividades al aire libre), patrones de consumo de medios, afinidades de marca y actividades de estilo de vida (viajes, restaurantes, entretenimiento).
-
-* **Psicografía**
-
-  Captura la mentalidad y los valores, incluidas las aspiraciones (búsqueda de estatus, autosuperación), los valores fundamentales (sostenibilidad, innovación, tradición), los rasgos de personalidad (personas que toman riesgos, quienes los adoptan tempranamente) y las motivaciones de compra.
-
-* **Señales de comportamiento**
-
-  Acciones observables, incluido el comportamiento de compra (frecuencia de compra, preferencias de canal, lealtad de marca), comportamiento en línea (visitas al sitio web, participación en el contenido, actividad en los medios sociales) y comportamiento sin conexión (visitas al almacén, asistencia al evento, suscripciones).
-
-* **Intención en el mercado**
-
-  Identifica la preparación para la compra a través de las categorías de producto/servicio que se investigan, el cronograma de compra (inmediato, a corto plazo, a largo plazo) y los eventos de vida relevantes que activan las decisiones de compra.
-
-* **Fase de vida**
-
-  Comprensión de la fase actual, que incluye la etapa profesional (estudiante, nivel de ingreso, mitad de la carrera, ejecutivo, jubilado), etapa familiar (recién casados, nuevos padres, nidos vacíos) y transiciones importantes en la vida.
-
-#### Ejemplo de un informe de audiencia bien estructurado para una campaña de prospección
-
-El siguiente es un ejemplo de un informe de audiencia sólido para una campaña de concienciación y prueba para un servicio de suscripción a un kit de comida premium:
-
-`The target audience consists of adults aged 28-45 (60% female, 40% male) with household incomes of $85K or more, college-educated professionals living in the USA. Psychographically, they are health-conscious individuals who value convenience and quality, aspire to be home cooks, and are food enthusiasts seeking better work-life balance. They actively engage with cooking and culinary content, follow health and wellness trends, shop at farmers markets, and prefer organic foods. Behaviorally, they are online grocery shoppers who use subscription services, dine out at restaurants 2+ times per week, and engage with food content on social media. They are currently in-market for meal planning solutions and food subscription services, with many focused on weight management and healthy eating programmes. The audience includes young families with children and dual-income households, as well as career-focused professionals. The brief excludes current subscribers and those following vegan/vegetarian diets as the initial launch focuses on protein-centric meal plans.`
 
 >[!MORELIKETHIS]
 >
