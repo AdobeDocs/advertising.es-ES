@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f907f445c70ce64368dfa7e77d4cd1900ecc7113
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '1504'
 ht-degree: 0%
 ---
 # Administrar [!DNL Google Ads] destinos de búsqueda dinámica
@@ -45,19 +45,21 @@ Para realizar el mejor seguimiento del rendimiento, configure la campaña con un
 
 Para obtener más información sobre [!DNL Google Ads] anuncios dinámicos de búsqueda, consulte https://support.google.com/google-ads/answer/2471185.
 
-## La vista [!UICONTROL Auto Targets]
+## La vista [!UICONTROL Auto Targets] {#auto-target-view-about}
 
 La vista [!UICONTROL Targeting] > [!UICONTROL Auto Targets] enumera todos los destinos de búsqueda dinámica en la vista filtrada de la cuenta de anunciante seleccionada. También puede administrar sus destinos de búsqueda dinámica.
 
+Para ver los datos se requiere el permiso [!UICONTROL View Auto Targets]. Para crear destinos y editar sus ofertas o estados se requiere el permiso [!UICONTROL Edit Auto Targets].
+
 ### Acciones disponibles
 
-<!--
-* Create a dynamic search target
+* [Crear un destino de búsqueda dinámica](#auto-target-create)
 
-* Edit the settings for a dynamic search target
+* [Editar la configuración de los destinos de búsqueda dinámica](#auto-target-edit)
 
-* Change the status of dynamic search targets
--->
+* [Cambiar el estado de los destinos de búsqueda dinámica o eliminarlos](#auto-target-status)
+
+* [Copiar todos los datos de las filas seleccionadas en el portapapeles](#copy-to-clipboard)
 
 * [Asignar restricciones](#constraint-assign) a los destinos de búsqueda dinámica y [quitar restricciones](#constraint-unassign) de los destinos de búsqueda dinámica
 
@@ -67,146 +69,107 @@ La vista [!UICONTROL Targeting] > [!UICONTROL Auto Targets] enumera todos los de
 >
 >Puede crear y editar grandes cantidades de datos de destino (incluidas asignaciones de etiquetas y restricciones) de una sola vez cargando [archivos de hojas de edición masiva](/help/search-social-commerce/new-ui/set-up/bulksheets/about.md) y publicándolos en la red publicitaria.
 
-<!--
-Not available yet:
+## Crear un destino de búsqueda dinámica [!DNL Google Ads] {#auto-target-create}
 
-## Create a [!DNL Google Ads] dynamic search target
+Puede crear objetivos de búsqueda dinámica para definir páginas en sus sitios web (es decir, los dominios utilizados en las URL de visualización de sus anuncios) cuyo contenido se utilice para segmentar los anuncios de búsqueda dinámica en el mismo grupo de anuncios.
 
-You can create dynamic search targets to define pages in your websites (that is, the domains used in your ads' display URLs) whose content is used to target your dynamic search ads in the same ad group.
-
-You can target all criteria or up to three individual criteria.
+Puede segmentar todas las páginas indexadas o especificar hasta tres criterios.
 
 >[!NOTE]
 >
->To best track performance, create an "[!UICONTROL All Targets]" target for only one ad group per campaign.
+>Para realizar el mejor seguimiento del rendimiento, cree un destinatario con la opción [!UICONTROL All] solo para un grupo de anuncios por campaña.
 
->[!TIP]
->
->To create many account components at once, use [campaign bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live] > [!UICONTROL Auto Targets]**.
+1. Sobre la tabla de datos, haga clic en **[!UICONTROL Create Auto Target]**.
 
-1. In the toolbar above the data table, click ![Create](/help/search-social-commerce/assets/add.png "Create").
+1. En **[!UICONTROL Basic Settings]**, seleccione la red de anuncios, la cuenta, la campaña y el grupo de anuncios.
 
-1. Select the ad network, the account, the campaign, and the ad group, and then click **[!UICONTROL Continue]**.
+1. Especifique los [ajustes de destino de búsqueda dinámica](#auto-target-create-settings) restantes.
 
-1. Specify the [dynamic search target settings](#dynamic-search-target-settings).
+1. Haga clic en **[!UICONTROL Review and Save]**.
 
-1. Click **[!UICONTROL Post]**.
+1. Revise la configuración. Para cambiar la configuración, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** en la sección correspondiente y cambie la configuración.
 
-## Edit [!DNL Google Ads] dynamic search target settings
+1. Haga clic en **[!UICONTROL Create]**.
 
-You can edit the status or maximum bid for a [!DNL Google Ads] dynamic search target. You can't change the criteria that are targeted.
+## Editar la configuración de destino de búsqueda dinámica [!DNL Google Ads] {#auto-target-edit}
 
->[!TIP]
->
->To edit large amounts of data at once, use [campaign bulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+Puede editar el estado o la oferta máxima de uno o más destinos de búsqueda dinámica. No puede cambiar los criterios a los que se dirige.
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live] > [!UICONTROL Auto Targets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
-1. Select the check box next to each row to edit.
+1. Seleccione la casilla de verificación situada junto a cada fila que desee editar.
 
-   For tips on selecting multiple rows, see "[Select multiple rows](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)."
+   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-1. In the toolbar above the data table, click ![Edit](/help/search-social-commerce/assets/edit.png "Edit").
+1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Edit]**.
 
-1. Specify the [dynamic search target settings](#dynamic-search-target-settings).
+1. En el panel **[!UICONTROL Edit Auto Targets]**, edite el [estado y la configuración de la oferta](#auto-target-edit-settings).
 
-   For multiple targets, your changes are applied to all of the selected targets. For the [!UICONTROL Bid field], you have options to change existing values to a specified value or to either increase or decrease the amount by a specified percentage or monetary amount, with a limit.
+   Los cambios se aplicarán a todos los destinos seleccionados. La configuración que no cambie conserva sus valores existentes.
 
-1. Save the data:
+   Cuando los destinos seleccionados utilizan varias divisas, la edición de ofertas está desactivada. Aún puede cambiar su estado.
 
-   * (Single targets) Click **[!UICONTROL Post]**.
-   
-   * (Multiple ad groups) Click **[!UICONTROL Post Now]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
-## Change the status of [!DNL Google Ads] dynamic search targets
+También puede editar una oferta de un solo destino directamente en la tabla de datos haciendo clic en su valor de oferta.
 
-You can pause any active dynamic search target in a supported campaign type to stop using them for dynamic search ads in the same ad group. You can later use them as targets by changing the ad status back to active.
+## Cambiar el estado de [!DNL Google Ads] destinos de búsqueda dinámica o eliminarlos {#auto-target-status}
 
-You can also delete any dynamic target.
+Puede pausar un destino de búsqueda dinámica activo para que deje de utilizarlo para los anuncios de búsqueda dinámica en el mismo grupo de anuncios. Posteriormente, puede reanudar el uso del destino cambiando su estado de nuevo a activo. También puede eliminar destinos de búsqueda dinámica.
 
-1. In the main menu, click **[!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]**. In the submenus, click **[!UICONTROL Live] > [!UICONTROL Auto Targets]**.
+1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
-1. (Optional) Filter the list to include specific dynamic targets.
+1. (Opcional) Filtre la lista para incluir destinos de búsqueda dinámica específicos.
 
-1. Do either of the following:
-   
-   * To change the status of one dynamic target, click in the **[!UICONTROL Status]** column and change the status.
-   
-   * To delete one or more dynamic targets, do the following:
-   
-     1.  Select the check box next to each dynamic target you want to delete.
-     
-        For tips on selecting multiple rows, see "[Select multiple rows](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)."
-     
-     1. In the toolbar, click ![More](/help/search-social-commerce/assets/more.png "More") and select **[!UICONTROL Delete]**.
-     
-     1. In the confirmation message, click **[!UICONTROL Delete]**.
+1. Realice una de las acciones siguientes:
 
-## [!DNL Google Ads] dynamic search target settings {#dynamic-search-target-settings}
+   * Para cambiar el estado de un destino, haga clic en su valor en la columna **[!UICONTROL Status]** y seleccione **[!UICONTROL Active]** o **[!UICONTROL Paused]**.
 
-### [!UICONTROL Auto-Target Details]
+   * Para cambiar el estado de varios destinos, active la casilla de verificación situada junto a cada destino, haga clic en **[!UICONTROL Edit]** en la barra de herramientas de acciones masivas, seleccione **[!UICONTROL Status]** en el panel **[!UICONTROL Edit Auto Targets]** y, a continuación, haga clic en **[!UICONTROL Save]**.
 
-**[!UICONTROL Auto-targets]:** (Required when you don't specify a website domain and language in the campaign's [!UICONTROL DSA Options] section; read-only for existing targets) Dynamic search targets for the ad group:
+   * Para eliminar uno o más destinos, active la casilla de verificación situada junto a cada destino, haga clic en **[!UICONTROL ...]>[!UICONTROL Delete]** en la barra de herramientas de acciones masivas y, a continuación, haga clic en **[!UICONTROL Confirm]** en el mensaje de confirmación.
 
-* *[!UICONTROL All Targets]* (the default): Targets all indexed pages.
+## Copiar todos los datos de las filas seleccionadas en el portapapeles {#copy-to-clipboard}
 
-* *\[Specific Targets\]:* Targets up to three criteria for the indexed pages. When you select this, you must specify the criteria by specifying information categories and specific values for which to target ads (for example, "URL contains shoes.example.com"). To specify more than one criteria, click **[!UICONTROL + And]**. Target criteria include:
+Copie la información visible en las filas seleccionadas, según los filtros aplicados y las columnas visibles en la vista. La información se guarda como valores separados por tabulaciones (TSV).
 
-  * *[!UICONTROL Category]:* To show ads for indexed pages with a specific [!DNL Google Ads] content category.
+1. Active la casilla de verificación situada junto a cada fila cuyos datos desee copiar.
 
-  * *[!UICONTROL URL]:* To show ads for indexed pages with a specific URL, where the value may be included anywhere within the URL.
+1. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL Copy]**.
 
-  * *[!UICONTROL Page Title]:* To show ads for indexed pages with specific text in the page title.
+## Administrar asignaciones de restricción para destinos de búsqueda dinámica {#constraints}
 
-  * *[!UICONTROL Page Content]:* To show ads for indexed pages with specific content.
-
-**Status:** The status of the target settings:
-
-* *[!UICONTROL Active]* (the default): Enables bidding.
-
-* *[!UICONTROL Paused]:* Disables bidding.
-
-* *[!UICONTROL Deleted]* (existing targets only): Deletes the target settings.
-
-### [!UICONTROL Bids]
-
-**[!UICONTROL Bid]:** The maximum cost per click (CPC) for an ad or cost per 1000 impressions (CPM) for an ad, as applicable for the ad network and campaign pricing model. This value overrides the ad group-level value.
-
->[!NOTE]
->
->If the target is in an optimized portfolio, then the specified CPC bid is applied for one day. Afterward, the optimization capability places bids according to its own calculations.
-
--->
-
-## Asignar una restricción a los destinos de búsqueda dinámica seleccionados desde la nueva vista [!UICONTROL Auto Targets] {#constraint-assign}
+### Asignar una restricción a los destinos de búsqueda dinámica {#constraint-assign}
 
 1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Seleccione la casilla de verificación situada junto a cada destino de búsqueda dinámica al que desee asignar una única restricción.
 
-1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]**.
+1. En la barra de herramientas de acciones masivas, haga clic en **+[!UICONTROL Assign]** > **[!UICONTROL Bid Constraint]**.
 
 1. Seleccione la restricción.
 
 1. Haga clic en **[!UICONTROL Assign Now]**.
 
-## Quitar restricciones de los destinos de búsqueda dinámica seleccionados de la nueva vista [!UICONTROL Auto Targets] {#constraint-unassign}
+### Eliminar restricciones de los destinos de búsqueda dinámica seleccionados {#constraint-unassign}
 
 1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
 1. Seleccione la casilla de verificación situada junto a cada destino de búsqueda dinámica del que anulará la asignación de restricciones.
 
-1. En la barra de herramientas de acciones masivas, haga clic en **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]**.
+1. En la barra de herramientas de acciones masivas, haga clic en **-[!UICONTROL Unassign]** > **[!UICONTROL Bid Constraint]**.
 
 1. Haga clic en **[!UICONTROL Confirm]**.
 
-## Asignar valores de clasificación a destinos de búsqueda dinámica {#classification-values-assign}
+## Administrar valores de clasificación para destinos de búsqueda dinámica {#classification-values}
+
+### Asignar valores de clasificación a destinos de búsqueda dinámica {#classification-values-assign}
 
 >[!NOTE]
 >
->Las entidades secundarias heredan los valores de etiquetas, por lo que no introduzca valores para entidades secundarias a menos que desee anular los valores heredados.
+>Las entidades secundarias heredan los valores de las etiquetas, por lo que no introduzca valores para los destinos de búsqueda dinámica a menos que desee anular los valores heredados.
 
 1. En el menú principal, haga clic en **[!UICONTROL Targeting]>[!UICONTROL Auto Targets]**.
 
@@ -236,7 +199,7 @@ You can also delete any dynamic target.
 
 1. Haga clic en **+[!UICONTROL Assign Now]**.
 
-## Quitar valores de clasificación de etiquetas de destinos de búsqueda dinámica {#classification-values-remove}
+### Quitar valores de clasificación de etiquetas de destinos de búsqueda dinámica {#classification-values-remove}
 
 Al eliminar un valor de clasificación, se elimina la asociación con el componente de cuenta y todos sus componentes secundarios. Los datos del informe para el valor de clasificación ya no están disponibles para esos componentes. Al eliminar un valor de clasificación, no se elimina el valor ni los componentes de la cuenta.
 
@@ -253,6 +216,64 @@ Al eliminar un valor de clasificación, se elimina la asociación con el compone
    Para seleccionar todos los valores asignados, haga clic en **[!UICONTROL Select All]**. Para anular la selección de todos los valores asignados, haga clic en **[!UICONTROL Deselect All]**.
 
 1. Haga clic en **[!UICONTROL Unassign Selected]**.
+
+## [!DNL Google Ads] configuración de destino de búsqueda dinámica {#dynamic-search-target-settings}
+
+### Configuración disponible durante la creación {#auto-target-create-settings}
+
+#### [!UICONTROL Auto Target Details]
+
+**Segmentación automática:** Las páginas indizadas cuyo contenido se usa para segmentar los anuncios dinámicos de búsqueda en el grupo de anuncios:
+
+* *[!UICONTROL All]* (valor predeterminado): segmenta todas las páginas indizadas.
+
+* *[!UICONTROL Specific]:* Páginas de destino que coinciden con hasta tres criterios. Seleccione un criterio e introduzca su valor. Para agregar otro criterio, haga clic en **[!UICONTROL And]**. Los criterios se combinan con AND, por lo que una página debe coincidir con todos los criterios especificados. Haga clic en **[!UICONTROL Reset]** para borrar los criterios.
+
+  * *[!UICONTROL Category]:* La categoría de contenido [!DNL Google Ads] de la página es igual al valor especificado. Introduzca un valor.
+
+  * *[!UICONTROL URL]:* La dirección URL de la página contiene el valor especificado, como `shoes.example.com`. Introduzca una URL válida.
+
+  * *[!UICONTROL Page Title]:* El título de la página contiene el texto especificado. Introduzca un valor.
+
+  * *[!UICONTROL Page Content]:* El contenido de la página contiene el texto especificado. Introduzca un valor.
+
+No se puede cambiar el criterio de destino después de crearlo.
+
+**[!UICONTROL Status]:** El estado del destino:
+
+* *[!UICONTROL Active]* (valor predeterminado): habilita la oferta.
+
+* *[!UICONTROL Paused]:* deshabilita las pujas.
+
+**[!UICONTROL Bid]:** El costo por clic (CPC) máximo para el destino. Este valor anula la oferta de nivel de grupo de anuncios. El campo es opcional; cuando se introduce una oferta, el valor mínimo es 0,01 en la divisa de la cuenta.
+
+>[!NOTE]
+>
+>Si el objetivo está en un portafolio optimizado, la oferta CPC especificada se aplica por un día. Después, la capacidad de optimización coloca las ofertas según sus propios cálculos.
+
+### Configuración disponible durante la edición {#auto-target-edit-settings}
+
+#### [!UICONTROL Auto Target Details]
+
+**[!UICONTROL Status]:** Seleccione **[!UICONTROL Active]** o **[!UICONTROL Paused]**.
+
+#### [!UICONTROL Bid details]
+
+La edición de ofertas está desactivada cuando los destinos seleccionados utilizan varias monedas.
+
+**[!UICONTROL Bid adjustment]:** Cómo cambiar las pujas máximas:
+
+* *[!UICONTROL Set to]:* Reemplazar cada oferta por la cantidad de [!UICONTROL Set value].
+
+* *[!UICONTROL Increase]:* Aumentar cada oferta por la cantidad o porcentaje en [!UICONTROL Set value].
+
+* *[!UICONTROL Decrease]:* Reducir cada oferta en la cantidad o porcentaje de [!UICONTROL Set value].
+
+**[!UICONTROL Modifier type]:** (Para [!UICONTROL Increase] y [!UICONTROL Decrease]) Seleccione **[!UICONTROL Currency]** o **[!UICONTROL Percentage]**.
+
+**[!UICONTROL Set value]:** La nueva oferta, o la cantidad o porcentaje por el cual cambiar cada oferta. El valor mínimo es 0,01.
+
+**[!UICONTROL Max limit]:** (opcional; para [!UICONTROL Increase] y [!UICONTROL Decrease]) Un límite en la divisa de la cuenta. Para un aumento, esta es la puja máxima resultante. Para una disminución, esta es la puja mínima resultante. Al introducir un límite, el valor mínimo es 0,01.
 
 >[!MORELIKETHIS]
 >
