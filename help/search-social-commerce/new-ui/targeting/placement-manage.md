@@ -23,9 +23,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1390'
 ht-degree: 0%
 ---
 # Administrar ubicaciones
@@ -86,7 +86,7 @@ Para ver la página se requiere el permiso [!UICONTROL View Placements]. Para cr
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
-1. Si es necesario, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** y cambie la entidad o la configuración de ubicación.
+1. Revise la configuración. Para cambiar la configuración, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** en la sección correspondiente y cambie la configuración.
 
 1. Haga clic en **[!UICONTROL Create]**.
 
@@ -114,7 +114,7 @@ Puede crear ubicaciones negativas para una campaña o grupo de anuncios [!DNL Go
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
-1. Si es necesario, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** y cambie las direcciones URL de la entidad o del sitio web negativo.
+1. Revise la configuración. Para cambiar la configuración, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** en la sección correspondiente y cambie la configuración.
 
 1. Haga clic en **[!UICONTROL Create]**.
 

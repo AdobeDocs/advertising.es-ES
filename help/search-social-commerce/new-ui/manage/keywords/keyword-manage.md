@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3bb565d689b65ae66d6ea2094abccdff3c9e891d
+source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1282'
 ht-degree: 0%
 ---
 # Administrar palabras clave
@@ -81,7 +81,7 @@ La vista [!UICONTROL Manage] > [!UICONTROL Keywords] incluye dos fichas para la 
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
-1. Si es necesario, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** y cambie la configuración de la entidad o la palabra clave.
+1. Revise la configuración. Para cambiar la configuración, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** en la sección correspondiente y cambie la configuración.
 
 1. Haga clic en **[!UICONTROL Create]**.
 
@@ -105,7 +105,7 @@ Al cambiar el texto de la palabra clave o el tipo de coincidencia, se puede elim
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
-1. Si es necesario, haz clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** y cambia la configuración de la palabra clave.
+1. Revise la configuración. Para cambiar la configuración, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** en la sección correspondiente y cambie la configuración.
 
 1. Haga clic en **[!UICONTROL Update]**.
 
@@ -147,7 +147,7 @@ Puede crear palabras clave negativas para un grupo de anuncios de búsqueda o un
 
 1. Haga clic en **[!UICONTROL Review and Save]**.
 
-1. Si es necesario, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** y cambie la entidad o las palabras clave negativas.
+1. Revise la configuración. Para cambiar la configuración, haga clic en ![Editar](/help/search-social-commerce/assets/edit-new.png "Editar") **[!UICONTROL Edit]** en la sección correspondiente y cambie la configuración.
 
 1. Haga clic en **[!UICONTROL Create]**.
 
