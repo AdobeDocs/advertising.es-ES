@@ -4,9 +4,9 @@ user-guide-title: Guía de Advertising DSP
 user-guide-description: Obtenga información acerca las principales funciones, tareas, configuraciones y otros recursos necesarios para administrar, optimizar e informar las estrategias de anuncio en pantalla con Advertising DSP.
 breadcrumb-title: Guía de DSP
 index: true
-source-git-commit: 0c921637cc45ba017c04daac2a19f3aea3d56759
+source-git-commit: bb51f0b99f757eb01d3132c1c998479600f3f487
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1116'
 ht-degree: 3%
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 3%
     + [Soluciones entre dispositivos](/help/dsp/introduction/features/cross-device-solutions.md)
   + [Financiación de cuenta](/help/dsp/introduction/billing/account-funding.md)
   + [Monedas admitidas](/help/dsp/currency.md)
-  + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
-  + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=es)
+  + [Compatibilidad con la privacidad del consumidor](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+  + [Políticas y directrices](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
   + [Soluciones de medición avanzadas](/help/dsp/introduction/advanced-measurement-services.md)
 + Asistente de IA en Advertising DSP {#ai-assistant}
   + [Acerca del asistente de IA en Advertising DSP](/help/dsp/ai-assistant/ai-assistant-about.md)
@@ -81,7 +81,7 @@ ht-degree: 3%
     + [Revisar y editar los detalles de la publicidad mediante hojas de edición masiva](/help/dsp/campaign-management/ads/ad-qa.md)
     + [Editar un anuncio](/help/dsp/campaign-management/ads/ad-edit.md)
     + [Duplicación de un anuncio](/help/dsp/campaign-management/ads/ad-duplicate.md)
-    + [Adjuntar y quitar anuncios de las ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=es)
+    + [Adjuntar y quitar anuncios de las ubicaciones](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
     + [Enumeración de las ubicaciones asociadas a un anuncio](/help/dsp/campaign-management/ads/ad-list-placements.md)
     + [Ver un informe detallado de un anuncio](/help/dsp/campaign-management/ads/ad-view-report.md)
     + [Pausar o activar un anuncio](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -111,7 +111,7 @@ ht-degree: 3%
   + [Preguntas frecuentes sobre universal video](/help/dsp/campaign-management/faq-universal-video.md)
 + Anuncios de conversación (Beta) {#conversational-ads}
   + [Administrar [!DNL ChatGPT] cuentas de anuncios conversacionales](/help/dsp/campaign-management/conversational-ads/account-manage.md)
-  + [Administrar [!DNL ChatGPT] campañas de anuncios conversacionales](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
+  + [Administrar  [!DNL ChatGPT] campañas de anuncios conversacionales, grupos de anuncios y anuncios](/help/dsp/campaign-management/conversational-ads/campaign-manage.md)
 + Optimización {#optimization}
   + [Optimización de las campañas con Advertising DSP](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
   + [Objetivos de optimización y cómo utilizarlos](/help/dsp/optimization/optimization-goals.md)
@@ -243,9 +243,9 @@ ht-degree: 3%
   + Notificaciones {#notifications}
     + [Acerca de las suscripciones a alertas](/help/dsp/admin/alerts-about.md)
     + [Administrar suscripciones de alerta](/help/dsp/admin/alerts-manage.md)
-+ [Integraciones con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=es)
++ [Integraciones con Adobe CX Enterprise](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Obtener ayuda](/help/dsp/get-help.md)
-+ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es)
++ [Notas de la versión de Adobe CX Enterprise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!--
