@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1464'
 ht-degree: 0%
 ---
 # Acerca de la gestión de público en Advertising DSP
@@ -58,7 +58,7 @@ En DSP, puede crear y administrar segmentos de audiencia y conjuntos de audienci
 
   * Incluya segmentos de terceros que contengan ID universales en sus destinos de colocación sin ningún paso adicional.
 
-* Cree una biblioteca de audiencias de [audiencias reutilizables](/help/dsp/audiences/reusable-audience-create.md). Las audiencias guardadas están compuestas por cualquiera de los segmentos de audiencia disponibles y por cualquiera de las demás audiencias guardadas. Los cambios que realice en una audiencia guardada se aplican automáticamente a todas las ubicaciones que dirijan o excluyan la audiencia, así como a todas las demás audiencias que incluyan la audiencia guardada.
+* Cree una biblioteca de audiencias de [audiencias reutilizables](/help/dsp/audiences/reusable-audience-create.md) mediante un flujo de trabajo asistido por IA o manualmente. Las audiencias guardadas están compuestas por cualquiera de los segmentos de audiencia disponibles y por cualquiera de las demás audiencias guardadas. Los cambios que realice en una audiencia guardada se aplican automáticamente a todas las ubicaciones que dirijan o excluyan la audiencia, así como a todas las demás audiencias que incluyan la audiencia guardada.
 
   Las audiencias guardadas permiten a los planificadores de medios agrupar las audiencias según sea necesario, incluyendo y excluyendo varios segmentos mediante una lógica booleana compleja. El tamaño (segmentable) de cada segmento individual y el tamaño general de la audiencia activa se indican a medida que crea una audiencia. Los ejecutores de Campaign simplemente pueden seleccionar una o más audiencias guardadas como destinos de ubicación, en lugar de configurar manualmente los destinos de audiencia para cada ubicación.
 

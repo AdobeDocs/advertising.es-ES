@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: fc59d590863f0014c5d0466019f1d7f787b23744
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 # Acerca del asistente de IA en Advertising DSP
@@ -36,6 +36,7 @@ Los siguientes flujos de trabajo pueden ayudarle a realizar su trabajo de forma 
 
 | Función | Descripción | Respuestas |
 | --- | --- | --- |
+| [Agente de Audience Builder](/help/dsp/ai-assistant/audience-builder-agent.md) | (Función de Beta) Genere audiencias reutilizables, que pueden incluir segmentos de origen y de terceros disponibles para usted, e incluso otras audiencias guardadas. | Las respuestas incluyen primero una definición de audiencia y luego los segmentos de audiencia resultantes, que pueden guardarse como audiencia. |
 | [Solución de problemas](troubleshooting-agent.md) | (Función de Beta) Diagnosticar problemas de rendimiento y envío para paquetes y ubicaciones en directo. | La respuesta incluye factores que limitan el rendimiento y proporciona instrucciones y recomendaciones paso a paso para resolver los problemas. |
 | [Datos](insights-agent.md) | (Función de Beta) Obtenga métricas de campaña e informes completos sin crear manualmente un informe. Puede descargar los resultados como archivo CSV. | Se muestran las primeras filas del informe, con vínculos para obtener una vista previa del informe completo y descargar el informe como un archivo de valores separados por comas (.csv) de [!DNL Microsoft Excel]. |
 | [Búsqueda de documentación del producto](documentation-search.md) | Busque contenido conceptual y explicativo en la [Guía de Advertising DSP](/help/dsp/home.md) y, para anunciantes con Advertising Creative, en la [Guía de Advertising Creative](/help/creative/home.md). | La respuesta incluye citas en línea y una lista [!UICONTROL Documentation Sources] expansible en la parte inferior. Haga clic en cualquier cita o lista de fuentes para abrir la página correspondiente.<br><br>La respuesta también puede incluir preguntas de seguimiento y sugerencias para ayudarle a refinar la consulta y encontrar más información. |

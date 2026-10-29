@@ -15,15 +15,16 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 41d3ab985831a1432e775277384661643a9f55c4
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '808'
 ht-degree: 0%
 ---
 # Solución de problemas de rendimiento y envío mediante el Asistente de IA
 
-
 *característica de Beta*
+
+*Sólo soporte en inglés*
 
 El agente de solución de problemas del asistente de IA identifica los factores que limitan el rendimiento de los paquetes y las ubicaciones activos y proporciona instrucciones paso a paso y recomendaciones basadas en datos históricos para resolver problemas. El agente de solución de problemas puede ayudar a diagnosticar los siguientes tipos de problemas de rendimiento y envío:
 

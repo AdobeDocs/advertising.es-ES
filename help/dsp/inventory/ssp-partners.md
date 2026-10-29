@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 9d4ed06ec7196fc10be86a3e8c5c94701c90d170
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '471'
 ht-degree: 3%
 ---
 # Socios de SSP
@@ -40,7 +40,7 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Compatibilidad con PG | Global | USD, EUR, GBP | Audio para escritorio y móvil |
 | [!DNL Cadent] | [!DNL Cadent] (anteriormente [!DNL EMX Digital]) | Adobe Advertising | — | US/CA | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] o Adobe Advertising | — | EE. UU. + EMEA | USD, EUR | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
-| [!DNL Equativ] | [!DNL Equativ] (anteriormente [!DNL Smart AdServer]) | [!DNL TubeMogul] o Adobe Advertising | — | EMEA | USD, EUR | Mostrar escritorio y móvil<br><br>Escritorio de vídeo y móvil |
+| [!DNL Equativ/Sharethrough] | [!DNL Equativ] | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br><br>Pantalla nativa<br><br>Escritorio de vídeo, móvil y CTV |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD, EUR, AUD, GBP | Escritorio de vídeo, móvil y CTV |
 | [!DNL Google Authorized Buyers] (anteriormente [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC y EU - 89185975 | Compatibilidad con PG | Global | USD, BRL | Equipo de escritorio con audio y equipo móvil<br><br>Equipo de escritorio con pantalla y equipo móvil<br><br>Equipo de escritorio con video, equipo móvil y CTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br><br>Escritorio de vídeo y móvil |
@@ -51,7 +51,6 @@ Una plataforma de suministro (SSP) es una plataforma de tecnología publicitaria
 | [!DNL Nexxen] | [!DNL Nexxen] (anteriormente [!DNL Unruly]) | Adobe Advertising | — | EE. UU. + EMEA | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] o Adobe Advertising | Compatibilidad con PG | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL PubMatic] | [!DNL Pubmatic] | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
-| [!DNL ShareThrough] |  | [!DNL TubeMogul] o Adobe Advertising | — | Global | USD | Mostrar escritorio y móvil<br><br>Pantalla nativa<br><br>Escritorio de vídeo, móvil y CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Todas las monedas | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |
 | [!DNL Taboola] |  | Adobe Advertising | — | US/CA | USD | Video escritorio y móvil |
 | [!DNL Teads] |  | [!DNL TubeMogul] o Adobe Advertising | — | Vídeo de salida = Global<br>Display = NA + EMEA | USD | Muestre equipos de escritorio y dispositivos móviles<br><br>equipos de escritorio con video, equipos móviles y CTV |

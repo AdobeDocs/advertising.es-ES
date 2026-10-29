@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2409'
 ht-degree: 2%
 ---
 # Guía de Advertising Search, Social, &amp; Commerce {#search-social-commerce}
@@ -132,8 +132,13 @@ ht-degree: 2%
         + [[!DNL Microsoft Advertising] configuración de anuncios de búsqueda adaptable](/help/search-social-commerce/new-ui/manage/ads/ad-settings-microsoft-rsa.md)
         + [[!DNL Yandex] configuración de anuncios de texto](/help/search-social-commerce/new-ui/manage/ads/ad-settings-yandex-text.md)
     + Palabras clave {#keywords}
-      + [Acerca de la vista [!UICONTROL Keywords]](/help/search-social-commerce/new-ui/manage/keywords/keyword-view-about.md)
-      + [Administrar asignaciones de restricción para palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-constraint-assignments-manage.md)
+      + [Administrar palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-manage.md)
+      + Configuración de palabras clave por red de anuncios {#keyword-settings-by-network}
+        + [[!DNL Baidu] configuración de palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-baidu.md)
+        + [[!DNL Google Ads] configuración de palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-google.md)
+        + [[!DNL LY Ads] configuración de palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yahoo-japan.md)
+        + [[!DNL Microsoft Advertising] configuración de palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-microsoft.md)
+        + [[!DNL Yandex] configuración de palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [Administrar grupos de productos de compras](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + Informes {#reports}
     + Informes programados {#scheduled}
@@ -250,9 +255,7 @@ ht-degree: 2%
     + [Administrar restricciones para buscar unidades de oferta](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + Direccionamiento {#targeting}
     + [Administrar  [!DNL Google Ads] destinos de búsqueda dinámica](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
-    + Ubicaciones {#placements}
-      + [Acerca de la vista [!UICONTROL Placements]](/help/search-social-commerce/new-ui/targeting/placements/placement-view-about.md)
-      + [Administrar asignaciones de restricción para ubicaciones](/help/search-social-commerce/new-ui/targeting/placements/placement-constraint-assignments-manage.md)
+    + [Administrar ubicaciones](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + Biblioteca {#library}
     + [Ver y crear recursos creativos](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
   + [Administrar alertas personalizadas](/help/search-social-commerce/new-ui/alerts-manage.md)
@@ -377,9 +380,9 @@ ht-degree: 2%
           + [Crear una audiencia de  [!DNL Google Ads] customer match a partir de una lista de correo electrónico de Adobe Campaign](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md)
           + [Administrar audiencias de coincidencia de clientes mediante listas de datos de clientes](/help/search-social-commerce/campaign-management/campaigns/audience-from-customer-data-list.md)
           + [Administración de audiencias de remarketing dinámico](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
-          + Destinos y exclusiones de audiencia {#audience-targets}
-            + [Administrar destinatarios de audiencia para campañas y grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-            + [Administración de exclusiones de audiencia para campañas y grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
+        + Destinos y exclusiones de audiencia {#audience-targets}
+          + [Administrar destinatarios de audiencia para campañas y grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
+          + [Administración de exclusiones de audiencia para campañas y grupos de anuncios](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
       + Extensiones de publicidad {#ad-extensions}
         + [!DNL Google Ads] extensiones de llamada {#callouts}
           + [Acerca de  [!DNL Google Ads] extensiones de llamada](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)

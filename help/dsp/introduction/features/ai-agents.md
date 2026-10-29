@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: AI features
   - id: fef5c122-6482-4d17-a8ce-4e70b906f1f4
     internal-label: Audiences
-source-git-commit: b06a31b6418db148011b5bbefe515a5be8fe1e03
+source-git-commit: 0f6d32b5409cc95f09d0b0f28cdeee72a7861892
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # Funciones asistidas por IA en Adobe Advertising DSP
@@ -29,6 +29,8 @@ DSP proporciona agentes asistidos por IA que utilizan peticiones de datos en len
 * [Buscar contenido conceptual y explicativo](/help/dsp/agent-chat.md)
 
 * Asistente de IA unificado:
+
+  * [Generar audiencias reutilizables](/help/dsp/ai-assistant/audience-builder-agent.md).
 
   * [Cree informes para sus campañas, componentes de campaña, experiencias de Advertising Creative, anunciantes y objetivos de anuncios](/help/dsp/ai-assistant/insights-agent.md).
 
