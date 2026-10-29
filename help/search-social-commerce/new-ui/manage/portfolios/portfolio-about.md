@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: ebef6e6f-6552-40b6-b842-0c5256698a4e
     internal-label: Predictive modeling
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 700d05fb39b04918ae2662ce24746ed1e84f110e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '897'
 ht-degree: 0%
 ---
 # (Nueva IU) Acerca de los portafolios
@@ -75,12 +75,7 @@ Un portafolio puede tener los siguientes estados:
 
 La vista [!UICONTROL Portfolios] enumera todos los portafolios existentes en la vista filtrada, con datos de rendimiento personalizables. Puede [personalizar las columnas dentro de la vista](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) y filtrar los datos para incluir portafolios específicos [de la barra de herramientas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) o del [encabezado de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-Sobre la tabla de datos, puede abrir un gráfico de rendimiento con hasta tres métricas totales en todos los portafolios de la vista para el intervalo de fechas especificado. También puede abrir los detalles del portafolio, incluido el rendimiento y la precisión del portafolio, así como los datos de rendimiento de cada campaña, grupo de anuncios y palabra clave del portafolio.
-
-Puede editar algunas configuraciones, incluido el estado del portafolio, directamente en la fila del portafolio. Cuando un portafolio o sus campañas asociadas y entidades de campaña secundarias están configurados con restricciones que afectan al gasto (incluidas restricciones de red, presupuesto de campaña, objetivo, límites de CPC o restricciones de unidad de oferta), haga clic en [!UICONTROL Yes] en la columna [!UICONTROL Constraints] para ver una lista de todas las restricciones, incluido el nivel y el tipo de restricción.
-<!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group,  or import/export DOW targets. -->
-
-### Acciones disponibles
+### Acciones disponibles {#available-actions}
 
 <!-- Update with any new options -->
 
@@ -90,22 +85,37 @@ Puede editar algunas configuraciones, incluido el estado del portafolio, directa
 
 * [View the constraints for a portfolio](portfolio-view-constraint.md)
 
-* [View the change history for a portfolio](portfolio-view-change-history.md)
 -->
 
 * [Crear un portafolio](portfolio-create.md)
 
 * [Duplicación de un portafolio](portfolio-duplicate.md)
 
-* [Editar configuración de portafolio](portfolio-edit.md)
+* Editar configuración:
 
-* [Edición masiva de la configuración de portafolios mediante archivos de hojas de edición masiva](portfolio-bulksheets.md)
+  * [Cambiar el nombre de un portafolio](portfolio-rename.md)
+
+  * [Editar la configuración completa del portafolio](portfolio-edit.md)
+
+  * Edite algunas configuraciones, incluido el estado del portafolio, directamente dentro de la fila del portafolio.
+
+  * [Edición masiva de la configuración de portafolios mediante archivos de hojas de edición masiva](portfolio-bulksheets.md)
+
+* Explore en profundidad las redes de anuncios, cuentas, campañas, grupos de anuncios y anuncios incluidos en el portafolio y, opcionalmente, explore en profundidad las palabras clave de una campaña incluida. Para empezar, haga clic en el nombre del portafolio. La información se enumera primero por red de anuncios en la vista [!UICONTROL Networks] filtrada. Haga clic en una red de anuncios para ver las cuentas incluidas en la vista [!UICONTROL Accounts] filtrada, haga clic en una cuenta para ver las campañas en la vista [!UICONTROL Campaigns] filtrada, etc.
+
+  Para abrir una lista de palabras clave en la vista [!UICONTROL Keywords] desde la vista [!UICONTROL Campaigns] filtrada, haga clic en el valor de la columna [!UICONTROL Keywords].
+
+* Abra una lista de todas las restricciones del portafolio, incluidos el nivel y el tipo de restricción. Para ver la lista de restricciones, haga clic en [!UICONTROL Yes] en la columna [!UICONTROL Constraints]. Esta opción está disponible cuando un portafolio o sus campañas asociadas y entidades de campaña secundarias están configuradas con cualquier restricción que afecte al gasto (incluida la red, el presupuesto de la campaña, el objetivo, los límites de CPC o las restricciones de unidad de oferta).
 
 * [Ver un gráfico de rendimiento en todos los portafolios de la vista](portfolio-view-performance-graph.md)
 
 * [Ver detalles de rendimiento del portafolio](portfolio-details.md)
 
+* [Ver el historial de cambios de un portafolio](portfolio-view-change-history.md)
+
 * [Descargar datos en la vista [!UICONTROL Portfolios]](portfolio-view-report.md)
+
+* [Agregar un portafolio a un grupo de portafolios y administrar grupos de portafolios](portfolio-group-manage.md)
 
 >[!MORELIKETHIS]
 >
