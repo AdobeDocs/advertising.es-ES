@@ -19,38 +19,72 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '448'
 ht-degree: 0%
 ---
 # Personalice las URL de seguimiento para creativos en una experiencia con segmentación del árbol de decisiones
 
 *Solo nodos de destino con creativos existentes*
 
-Para las experiencias con segmentación del árbol de decisión, puede crear hasta cinco direcciones URL de seguimiento de impresiones personalizadas, cinco direcciones URL de seguimiento de clics personalizadas y una dirección URL de página de aterrizaje personalizada para cada creativo individual utilizado para la experiencia. Puede personalizar las direcciones URL de seguimiento desde el árbol de decisión.
+Para las experiencias con segmentación del árbol de decisión, puede crear hasta cinco direcciones URL de seguimiento de impresiones personalizadas y cinco direcciones URL de seguimiento de clics personalizadas para cada creativo individual utilizado para la experiencia. Cuando la anulación de la página de aterrizaje esté disponible, también puede especificar una dirección URL de página de aterrizaje personalizada. Puede personalizar las direcciones URL de seguimiento desde cualquier editor del árbol de decisiones.
 
 Las direcciones URL personalizadas solo se usan para los anuncios creados a partir de la experiencia y no se guardan en la configuración creativa base de [!UICONTROL Creative Libraries].
 
-1. Mantenga el cursor sobre la hoja/carpeta del paquete creativo debajo del nodo de destino y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
+La anulación de la página de aterrizaje está disponible para experiencias estándar y para nodos que utilizan creativos predeterminados. Para los paquetes dinámicos asignados, las páginas de aterrizaje están determinadas por la fuente y no se muestra la pestaña de página de aterrizaje.
 
-   Las pestañas [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] y [!UICONTROL Landing URLs] enumeran los nombres de todos los creativos en los tamaños aplicables en los paquetes asignados. Los tamaños de los elementos creativos predeterminados de la experiencia determinan los tamaños disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
+## Uso del editor controlado por IA (Beta) {#ai-editor}
 
-1. En las fichas **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** y **[!UICONTROL Landing URLs]**, haga lo siguiente para cada elemento creativo según sea necesario:
+Mientras [crea](experience-create-targeting.md#ai-editor) o [edita](experience-edit-targeting.md#ai-editor) la experiencia, use los controles de lienzo:
 
-   1. Expanda la fila para el creativo.
+1. En el nodo de hoja creativa que se encuentra debajo del nodo de destino, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   1. Realice una de las siguientes acciones:
+1. Seleccione la ficha **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** o (cuando esté disponible) **[!UICONTROL Landing URL]**.
 
-      * Para añadir o editar una URL personalizada, introduzca la URL en el campo de entrada.
+   Los creativos se agrupan por paquete. Los tamaños creativos predeterminados para la experiencia determinan los tamaños creativos disponibles.
 
-      * Para agregar otra dirección URL personalizada, haga clic en **[!UICONTROL +]** e introduzca la dirección URL en el campo de entrada.
+1. Expanda el elemento creativo que desee editar y realice una de las acciones siguientes:
 
-      * Para quitar una dirección URL personalizada, mantén el cursor sobre la fila creativa y haz clic en ![Eliminar](/help/creative/assets/delete.png "Eliminar").
+   * Para añadir o editar una URL personalizada, introduzca la URL en el campo de entrada.
 
-      Puede incluir hasta cinco direcciones URL de seguimiento de impresiones personalizadas, cinco direcciones URL de seguimiento de clics personalizadas y una dirección URL de página de aterrizaje personalizada.
+   * Para agregar otra URL de seguimiento personalizada, haga clic en **[!UICONTROL Add URL]** e introduzca la URL en el campo de entrada.
 
-1. Haga clic en **[!UICONTROL Save]**.
+   * Para quitar una dirección URL personalizada, haga clic en **[!UICONTROL Delete URL]**.
+
+   Haga clic fuera de un campo editado y corrija los errores de validación antes de guardar.
+
+1. Haga clic en **[!UICONTROL Save]** en el cuadro de diálogo para actualizar el árbol de trabajo.
+
+1. [Guarde la experiencia](#save) del encabezado del árbol.
+
+## Uso del editor manual {#manual-editor}
+
+[Abra el editor manual](experience-edit-targeting.md#experience-open) antes de seguir estos pasos.
+
+1. En el nodo de hoja creativa que se encuentra debajo del nodo de destino, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
+
+1. Seleccione la ficha **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** o (cuando esté disponible) **[!UICONTROL Landing URLs]**.
+
+   Las pestañas enumeran los creativos en los paquetes asignados. Los tamaños creativos predeterminados para la experiencia determinan los tamaños creativos disponibles.<!-- There's no distinct "Creative Sizes" setting. -->
+
+1. Expanda el elemento creativo que desee editar y realice una de las acciones siguientes:
+
+   * Para añadir o editar una URL personalizada, introduzca la URL en el campo de entrada.
+
+   * Para agregar otra URL de seguimiento personalizada, haga clic en **[!UICONTROL +]** e introduzca la URL en el campo de entrada.
+
+   * Para quitar una dirección URL personalizada, mantén el cursor sobre la fila creativa y haz clic en ![Eliminar](/help/creative/assets/delete.png "Eliminar").
+
+1. Haga clic en **[!UICONTROL Save]** en el cuadro de diálogo para actualizar el árbol de trabajo.
+
+1. [Guarde la experiencia](#save) del encabezado del árbol.
+
+## Guarde la experiencia {#save}
+
+Los siguientes pasos se aplican a ambos editores. Al guardar el cuadro de diálogo de URL de seguimiento por sí solo, la experiencia no se guarda ni publica.
+
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Optimization
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 336176fe71b8835779710cabf71bcb33568df688
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 0%
 ---
 # Acerca de Adobe Advertising Creative 2.0
@@ -56,7 +56,7 @@ Las bibliotecas de Creative le permiten administrar los elementos creativos que 
 
 ## Experiencias basadas en reglas y sin segmentación
 
-* **Experiencias segmentadas y basadas en reglas:** Cree historias con un modelo de árbol de decisiones basado en reglas, para desplegar una cadena coreográfica de anuncios que se personalizan en tiempo real según lo que sepa sobre su audiencia. Por ejemplo: las historias pueden cambiar según el comportamiento del cliente, la ubicación geográfica, la demografía, el redireccionamiento, la posición en el recorrido del cliente, etc.
+* **Experiencias segmentadas y basadas en reglas:** Cree historias con un modelo de árbol de decisiones basado en reglas, para desplegar una cadena coreográfica de anuncios que se personalizan en tiempo real según lo que sepa sobre su audiencia. Por ejemplo: las historias pueden cambiar según el comportamiento del cliente, la ubicación geográfica, la demografía, el redireccionamiento, la posición en el recorrido del cliente, etc. Genere y edite el árbol de decisiones usando el [editor controlado por IA (Beta)](/help/creative/experiences/experience-decision-tree.md#ai-editor), con asistencia conversacional y controles de lienzo directos, o use el editor manual.
 
 * **Experiencias sin objetivo:** Programe y optimice los elementos de anuncio sin reducir la audiencia.
 

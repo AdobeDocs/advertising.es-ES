@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 ---
 # Acerca de las experiencias en Advertising Creative 2.0
@@ -51,6 +51,8 @@ Cada experiencia de anuncio puede incluir un tipo de anuncio (pantalla estándar
   * Tipos de dispositivos, sistemas operativos y exploradores específicos
 
   Una vez que haya creado una rama de audiencia de destinatario en el árbol de decisiones, puede emparejar la audiencia de destino con posibles creativos asignando paquetes creativos a la rama. Para cada experiencia, puede personalizar la optimización y la programación de los paquetes creativos y cambiar las páginas de aterrizaje predeterminadas y las direcciones URL de seguimiento <!-- later: and any flexible attributes --> para los creativos individuales de cada paquete.
+
+  El editor predeterminado del árbol de decisiones controlado por IA (Beta) le permite describir el árbol o los cambios que desea para el agente de IA, revisar el resultado y editar el lienzo interactivo directamente. También puede utilizar el editor manual existente. Ambos editores configuran el mismo tipo de experiencia de destino. Ver [El diseño del árbol de decisión](experience-decision-tree.md) y [Editar una experiencia con la segmentación del árbol de decisión](experience-edit-targeting.md).
 
 * **Experiencias sin segmentación en el árbol de decisiones:** [!DNL Creative] optimiza los elementos publicitarios para la experiencia publicitaria sin reducir la audiencia. Para cada experiencia, se especifican fechas de inicio y finalización y algunos ajustes predeterminados, pero gran parte del flujo de trabajo no se realiza directamente en la experiencia. En lugar de agregar elementos creativos directamente a la experiencia, use [!UICONTROL Tag Manager] para crear una etiqueta de anuncio para cada tamaño de anuncio de la experiencia y, a continuación, agregue elementos creativos, configure la optimización y la programación creativas, y personalice las páginas de aterrizaje y las direcciones URL de seguimiento<!-- later: and any flexible attributes -->.
 

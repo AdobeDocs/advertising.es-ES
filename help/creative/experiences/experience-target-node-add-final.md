@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '1225'
 ht-degree: 0%
 ---
 # Añadir un nodo de destino al nivel final de una experiencia
@@ -33,43 +33,117 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 >
 >Para insertar un nodo de destino entre los niveles existentes de un árbol de decisión, consulte &quot;[Insertar un nodo de destino entre nodos en una experiencia](experience-target-node-add-inner.md)&quot;.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Uso del editor controlado por IA (Beta) {#ai-editor}
 
-1. En el nodo en el que desea insertar el destino, haga clic en ![Agregar](/help/creative/assets/add.png "Agregar") y, a continuación, seleccione **[!UICONTROL Insert New Target]**.
+Mientras [crea](experience-create-targeting.md#ai-editor) o [edita](experience-edit-targeting.md#ai-editor) la experiencia, puede describir el nuevo destino y su rama principal al agente de IA. Revise el árbol resultante antes de guardar. Para añadir el objetivo directamente en el lienzo:
 
-1. Especifique los objetivos:
+1. Mantenga el cursor sobre el nodo principal al final de la rama y haga clic en **[!UICONTROL +]**.
 
-   * Para los destinos de audiencia, seleccione **[!UICONTROL Audience]**, haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Audience Targeting] y, a continuación, haga lo siguiente:
+1. En **[!UICONTROL New targeting level]**, seleccione la categoría de destino y haga clic en **[!UICONTROL Add targeting level]**.
 
-     * Para añadir el primer segmento, localícelo en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
+1. Especifique los valores objetivo para la categoría:
 
-     * Para agregar un segmento a un grupo de segmentos existente:
+   * Para destinos de audiencia:
 
-       1. Haga clic en el grupo de segmentos en el panel derecho.
+     * Para añadir el primer segmento, busque y seleccione el segmento de audiencia.
 
-       1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
+     * Para agregar segmentos a un grupo de segmentos existente:
 
-          *[!UICONTROL Exclude All]* no está disponible para el primer grupo de segmentos. Para una audiencia que incluya solo exclusiones, genere esta audiencia como *[!UICONTROL Include Any]* y luego excluya esa audiencia cuando la agregue a una ubicación dentro de su DSP.
+       1. Seleccione el grupo de segmentos.
 
-       1. Busque el nuevo segmento en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
+       1. (Opcional) Cambie la lógica de grupo a **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** o **[!UICONTROL Exclude All]**, según sea necesario.
 
-          El grupo de segmentos se actualiza automáticamente con el nuevo segmento.
+          **[!UICONTROL Include Any]** coincide con los usuarios de al menos un segmento seleccionado; **[!UICONTROL Include All]** requiere pertenencia en todos los segmentos seleccionados.
+
+          **[!UICONTROL Exclude All]** no está disponible para el primer grupo de segmentos. Para una audiencia que incluya solamente exclusiones, genere la audiencia con **[!UICONTROL Include Any]** y luego excluya esa audiencia cuando la agregue a una ubicación dentro de su DSP.
+
+       1. Busque y seleccione los segmentos adicionales.
 
      * Para agregar un nuevo grupo de segmentos:
 
-       1. Haga clic en **[!UICONTROL + New Group]** en el panel derecho.
+       1. Añada un grupo.
 
-       1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a *[!UICONTROL And]* o *[!UICONTROL Or]*, según sea necesario.
+       1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a **[!UICONTROL And]** o **[!UICONTROL Or]**, según sea necesario.
 
-       1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
+          **[!UICONTROL And]** requiere que los usuarios cumplan las condiciones de ambos grupos; **[!UICONTROL Or]** requiere que cumplan al menos las condiciones de un grupo.
 
-       1. (Opcional) Cambie la lógica de grupo a *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* o *[!UICONTROL Exclude All]*, según sea necesario.
+       1. Busque y seleccione los segmentos para el nuevo grupo.
+
+       1. (Opcional) Cambie la lógica de grupo a **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** o **[!UICONTROL Exclude All]**, según sea necesario.
+
+   * Para objetivos geográficos:
+
+     * Seleccione las ubicaciones dentro de la categoría geográfica que haya elegido, como países, regiones o ciudades.
+
+     * Para los destinos de código postal, seleccione el país e introduzca los códigos postales que desea incluir. Para introducir varios códigos postales de forma masiva, sepárelos con comas o coloque cada código en una línea independiente.
+
+   * Para los destinos de paso de datos, introduzca la clave y el valor que deben coincidir.
+
+     La clave de paso de datos predeterminada está configurada en el campo **[!UICONTROL Data Pass]** de la sección **[!UICONTROL Advanced]** de la [configuración general de la experiencia](experience-settings-targeting.md). Personalice la clave del destinatario si es necesario.
+
+   * Para destinos de píxel de retargeting, seleccione el píxel de retargeting y especifique los valores de los atributos de píxel necesarios para mostrar los elementos creativos.
+
+     Los atributos disponibles están configurados en la [configuración de píxeles de retargeting](/help/creative/pixels/retargeting-pixel-manage.md).
+
+   * Para los destinos de dispositivo, seleccione los valores dentro de la categoría de dispositivo que elija: tipos de dispositivo, sistemas operativos o exploradores.
+
+1. (Si está disponible; opcional) Seleccione **[!UICONTROL Split Nodes]** para crear un nodo de destino independiente para cada valor seleccionado, con sus propias asignaciones de paquete creativo. De lo contrario, los valores seleccionados se agrupan en un nodo de destino.
+
+1. Haga clic en **[!UICONTROL Add Node]**.
+
+1. (Opcional) Para cambiar el nombre de un nodo de destino definido por el usuario, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**, escriba **[!UICONTROL Node Name]** y, a continuación, haga clic en **[!UICONTROL Save]**.
+
+   No puede cambiar el nombre de un nodo &quot;Todos&quot; o &quot;Todos los demás&quot;.
+
+1. [Asigne paquetes creativos](experience-assign-creative-bundles.md#ai-editor) a los nuevos nodos finales, incluida la rama de reserva, o use elementos creativos predeterminados al [guardar la experiencia](#save).
+
+## Uso del editor manual {#manual-editor}
+
+[Abra el editor manual](experience-edit-targeting.md#experience-open) antes de seguir estos pasos.
+
+1. En el nodo en el que desea insertar el destino, haga clic en ![Agregar](/help/creative/assets/add.png "Agregar") y, a continuación, seleccione **[!UICONTROL Insert New Target]**.
+
+1. Especifique los valores objetivo para la categoría:
+
+   * Para destinos de audiencia:
+
+     1. Seleccione **[!UICONTROL Audience]** y haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de **[!UICONTROL Audience Targeting]**.
+
+     1. Configure los segmentos y grupos de audiencia:
+
+        * Para añadir el primer segmento, localícelo en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento.
+
+        * Para agregar segmentos a un grupo de segmentos existente:
+
+          1. Haga clic en el grupo de segmentos en el panel derecho.
+
+          1. (Opcional) Cambie la lógica de grupo a **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** o **[!UICONTROL Exclude All]**, según sea necesario.
+
+             **[!UICONTROL Include Any]** coincide con los usuarios de al menos un segmento seleccionado; **[!UICONTROL Include All]** requiere pertenencia en todos los segmentos seleccionados.
+
+             **[!UICONTROL Exclude All]** no está disponible para el primer grupo de segmentos. Para una audiencia que incluya solamente exclusiones, genere la audiencia con **[!UICONTROL Include Any]** y luego excluya esa audiencia cuando la agregue a una ubicación dentro de su DSP.
+
+          1. Busque el nuevo segmento en el panel izquierdo y active la casilla de verificación situada junto al nombre del segmento. Repita el proceso para cada segmento adicional.
+
+             El grupo de segmentos se actualiza automáticamente con los nuevos segmentos.
+
+        * Para agregar un nuevo grupo de segmentos:
+
+          1. Haga clic en **[!UICONTROL + New Group]** en el panel derecho.
+
+          1. (Opcional) Cambie la lógica entre el grupo anterior y el nuevo a **[!UICONTROL And]** o **[!UICONTROL Or]**, según sea necesario.
+
+             **[!UICONTROL And]** requiere que los usuarios cumplan las condiciones de ambos grupos; **[!UICONTROL Or]** requiere que cumplan al menos las condiciones de un grupo.
+
+          1. Busque los segmentos para el nuevo grupo en el panel izquierdo y seleccione las casillas de verificación situadas junto a los nombres de los segmentos.
+
+          1. (Opcional) Cambie la lógica de grupo a **[!UICONTROL Include Any]**, **[!UICONTROL Include All]** o **[!UICONTROL Exclude All]**, según sea necesario.
 
      1. Haga clic en **[!UICONTROL Create]**.
 
      1. Haga clic en **[!UICONTROL Apply]**.
 
-   * Para los destinos geográficos, seleccione una sola categoría geográfica (como [!UICONTROL Geo: Country]) y, a continuación, haga lo siguiente:
+   * Para los destinos geográficos, seleccione una sola categoría geográfica (como **[!UICONTROL Geo: Country]**) y, a continuación, haga lo siguiente:
 
      1. Haga clic en **[!UICONTROL Click to Browse]** para abrir las opciones de [!UICONTROL Geo Targeting], especificar uno o varios destinos geográficos y, a continuación, haga clic en **[!UICONTROL Save]**.
 
@@ -83,11 +157,11 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 
    * Para un destino de paso de datos, seleccione **[!UICONTROL Data Pass]**; si lo desea, personalice la clave de paso de datos, escriba un único valor de paso de datos y haga clic en **[!UICONTROL Apply]**.
 
-   Ya hay un valor predeterminado para la clave en el par clave-valor establecido en el campo **[!UICONTROL Data Pass]** de la sección [!UICONTROL Advanced] de la [configuración de la experiencia](experience-settings-targeting.md). Si lo desea, puede personalizar la clave.
+     La clave de paso de datos predeterminada está configurada en el campo **[!UICONTROL Data Pass]** de la sección **[!UICONTROL Advanced]** de la [configuración general de la experiencia](experience-settings-targeting.md). Personalice la clave del destinatario si es necesario.
 
    * Para un destino de píxel de retargeting, seleccione **[!UICONTROL RT Pixel]**, seleccione un único píxel de retargeting para usar y los valores de cualquiera de los atributos del píxel necesarios para mostrar los elementos creativos y, a continuación, haga clic en **[!UICONTROL Apply]**.
 
-     Los atributos del píxel de redireccionamiento se configuran en [configuración de píxeles de redireccionamiento](/help/creative/pixels/retargeting-pixel-manage.md).
+     Los atributos disponibles están configurados en la [configuración de píxeles de retargeting](/help/creative/pixels/retargeting-pixel-manage.md).
 
    * Para los destinos de dispositivo, haga lo siguiente:
 
@@ -109,23 +183,13 @@ Cuando agrega un nodo de destino al nivel inferior de la experiencia (ya sea el 
 
    1. Escriba **[!UICONTROL Node Name]** y haga clic en **[!UICONTROL Save]**.
 
-1. Realice una de las siguientes acciones:
+1. (Opcional) [Asigne paquetes creativos](experience-assign-creative-bundles.md#manual-editor) al nuevo nodo de destino y al nodo &quot;Todo lo demás&quot;.
 
-   * (Opcional) [Asigne elementos creativos](experience-assign-creative-bundles.md) al nuevo nodo de destino y al nodo &quot;Todo lo demás&quot;.
+## Guarde la experiencia {#save}
 
-   * (Opcional) Para guardar la experiencia:
+Los siguientes pasos se aplican a ambos editores.
 
-     1. Haga clic en **[!UICONTROL Save]** y luego en **[!UICONTROL OK]**.
-
-     1. (Si cada nodo del nivel más bajo no incluye al menos un elemento creativo): Realice una de las siguientes acciones:
-
-        * Para guardar la experiencia sin todos los paquetes creativos necesarios, haga clic en **[!UICONTROL Save as Draft]**.
-
-          No se puede crear una etiqueta de anuncio para una experiencia de borrador.
-
-        * Para asignar el elemento creativo predeterminado a cada destino al que aún no se le haya asignado un paquete creativo, haga clic en **[!UICONTROL Assign Default Creatives]**. Después de revisar el árbol actualizado con los elementos creativos predeterminados asignados, haga clic en **[!UICONTROL Save]** y **[!UICONTROL OK]**.
-
-        * Para continuar editando el árbol de decisión, haga clic en **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

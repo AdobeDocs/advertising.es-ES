@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '403'
 ht-degree: 0%
 ---
 # Copiar nodos secundarios a otro nodo de destino en el mismo nivel
@@ -29,22 +29,37 @@ Puede copiar todos los nodos secundarios de un nodo de destino principal (inclui
 
 Esta característica no afecta al destino especificado para el nodo principal, sólo afecta a los nodos secundarios.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Uso del editor controlado por IA (Beta) {#ai-editor}
+
+Mientras [crea](experience-create-targeting.md#ai-editor) o [edita](experience-edit-targeting.md#ai-editor) la experiencia, use los controles de lienzo:
+
+1. En el nodo principal cuyos elementos secundarios desee copiar, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Copy Children]**.
+
+1. En el nodo de destino en el mismo nivel, haga clic en **[!UICONTROL ...]** y, a continuación, elija una de las siguientes opciones:
+
+   * Para agregar los destinos secundarios y creativos copiados sin eliminar los elementos secundarios existentes, haga clic en **[!UICONTROL Add]**.
+
+   * Para reemplazar los elementos secundarios existentes y los elementos creativos con los elementos secundarios copiados, haga clic en **[!UICONTROL Replace]**.
+
+   Una acción se desactiva cuando la estructura de árbol no la admite. Revise las advertencias antes de continuar.
+
+1. Revise la rama de destino y [guarde la experiencia](#save).
+
+## Uso del editor manual {#manual-editor}
+
+[Abra el editor manual](experience-edit-targeting.md#experience-open) antes de seguir estos pasos.
 
 1. Haga clic en el nodo principal cuyos elementos secundarios desee copiar, haga clic en ![Agregar](/help/creative/assets/add.png "Agregar") y, a continuación, seleccione **[!UICONTROL Copy Children ctrl+c]** o b\) escriba **[!UICONTROL Ctrl+C]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-C]** ([!DNL Apple Macintosh]) en el teclado.
 
 1. Realice una de las acciones siguientes:
 
-   * Para reemplazar todos los nodos secundarios y creativos de un nodo, haga clic en el nodo en el que desea pegar la información copiada, haga clic en **...** y, a continuación, seleccione **[!UICONTROL Replace ctrl+shift+v]** o b\) escriba **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) en el teclado.
+   * Para reemplazar todos los nodos secundarios y creativos de un nodo, haga clic en el nodo en el que desea pegar la información copiada, haga clic en **[!UICONTROL ...]** y, a continuación, seleccione **[!UICONTROL Replace ctrl+shift+v]** o b\) escriba **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) en el teclado.
 
-   * (Nodos con varios destinos secundarios, sin nodos &quot;Todos&quot; y sin creativos únicamente) Para agregar todos los nodos secundarios y creativos a un nodo, sin eliminar los existentes, haga clic en el nodo al que desea pegar la información copiada, haga clic en **...** y, a\) seleccione **[!UICONTROL Add ctrl+v]** **&#x200B; o b\) escriba &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) o &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) en el teclado.
+   * (Nodos con varios destinos secundarios, sin nodos &quot;Todos&quot; y sin creativos solamente) Para agregar todos los nodos secundarios y creativos a un nodo, sin eliminar los existentes, haga clic en el nodo en el que desea pegar la información copiada, haga clic en **[!UICONTROL ...]** y, o bien, seleccione **[!UICONTROL Add ctrl+v]** o b\) escriba **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) o **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) en el teclado.
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## Guarde la experiencia {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+Los siguientes pasos se aplican a ambos editores.
 
 {{$include /help/_includes/experience-save.md}}
 

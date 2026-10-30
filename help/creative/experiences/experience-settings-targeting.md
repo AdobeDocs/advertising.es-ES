@@ -20,12 +20,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1262'
 ht-degree: 0%
 ---
 # Configuración de experiencias publicitarias segmentadas
+
+El editor del árbol de decisiones (Beta) controlado por IA y el editor manual comparten esta configuración general.
+
+Para una experiencia existente, haga clic en **[!UICONTROL Experience Form]** en el árbol de decisión. Guarde primero los cambios de árbol que desee conservar. Si se deja el editor controlado por IA, se debe confirmar y descartar los cambios de árbol no guardados. Consulte [Cambiar de editor o editar la configuración de la experiencia](experience-edit-targeting.md#switch-editors).
 
 ## [!UICONTROL Experience basics] sección
 
