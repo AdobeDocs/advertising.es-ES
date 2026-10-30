@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 ---
 # Eliminar un nodo de destino o de hoja creativa en una experiencia
@@ -27,25 +27,31 @@ ht-degree: 0%
 
 Puede eliminar un nodo de destino, incluidos todos los destinos secundarios y los paquetes creativos asignados a ellos. También puede eliminar un nodo de hoja creativo.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Uso del editor controlado por IA (Beta) {#ai-editor}
+
+Mientras [crea](experience-create-targeting.md#ai-editor) o [edita](experience-edit-targeting.md#ai-editor) la experiencia, use los controles de lienzo:
+
+1. Compruebe el nodo y sus destinos y creativos secundarios antes de eliminarlo.
+
+1. Mantenga el cursor sobre el nodo de destino o el nodo de hoja creativa y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+
+   El nodo se quitará del árbol de trabajo sin una confirmación de **[!UICONTROL Delete Node]** independiente.
+
+1. Revise las ramas restantes y [guarde la experiencia](#save).
+
+## Uso del editor manual {#manual-editor}
+
+[Abra el editor manual](experience-edit-targeting.md#experience-open) antes de seguir estos pasos.
 
 1. Mantenga el cursor sobre el nodo de destino o el nodo de hoja creativa y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
 1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete Node]**.
 
-1. (Opcional) Para guardar la experiencia:
+## Guarde la experiencia {#save}
 
-   1. Haga clic en **[!UICONTROL Save]** y luego en **[!UICONTROL OK]**.
+Los siguientes pasos se aplican a ambos editores.
 
-   1. (Si cada nodo del nivel más bajo no incluye al menos un elemento creativo): Realice una de las siguientes acciones:
-
-      * Para guardar la experiencia sin todos los paquetes creativos necesarios, haga clic en **[!UICONTROL Save as Draft]**.
-
-        No se puede crear una etiqueta de anuncio para una experiencia de borrador.
-
-      * Para asignar el elemento creativo predeterminado a cada destino al que aún no se le haya asignado un paquete creativo, haga clic en **[!UICONTROL Assign Default Creatives]**. Después de revisar el árbol actualizado con los elementos creativos predeterminados asignados, haga clic en **[!UICONTROL Save]** y **[!UICONTROL OK]**.
-
-      * Para continuar editando el árbol de decisión, haga clic en **[!UICONTROL Continue Edit]**.
+{{$include /help/_includes/experience-save.md}}
 
 >[!MORELIKETHIS]
 >

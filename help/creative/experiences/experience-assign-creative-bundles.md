@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 8a75f4a164b25ed8e73816c3d853d9650f470118
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '453'
 ht-degree: 0%
 ---
 # Asignar y cancelar la asignación de paquetes creativos a un nodo final en una experiencia
@@ -36,7 +36,31 @@ Para las experiencias de publicidad estándar, solo puede asignar paquetes creat
 >
 >Si no asigna al menos un paquete creativo a cada nodo final, puede optar por usar los elementos creativos predeterminados para cada nodo no asignado al [guardar la experiencia](experience-create-targeting.md). Para publicar una experiencia, debe asignar paquetes o utilizar los elementos creativos predeterminados para cada nodo final.
 
-<!-- 1. [ways to get to the decision tree] -->
+## Uso del editor controlado por IA (Beta) {#ai-editor}
+
+Mientras [crea](experience-create-targeting.md#ai-editor) o [edita](experience-edit-targeting.md#ai-editor) la experiencia, use los controles de lienzo:
+
+1. Realice una de las siguientes acciones:
+
+   * Para un nodo final sin paquetes, haga clic en **[!UICONTROL Assign Bundles]**.
+
+   * Para un nodo con paquetes existentes, haga clic en **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** en su nodo de hoja creativa.
+
+1. En la ficha **[!UICONTROL Assign Bundles]**, active la casilla de verificación situada junto a cada paquete que desee asignar y anule la selección de la casilla de verificación situada junto a cada paquete que desee anular la asignación.
+
+   Solo se enumeran los paquetes del tipo relevante para la experiencia (estándar o dinámica).
+
+1. (Opcional) Abra la ficha **[!UICONTROL Creative optimisation]** para [personalizar la rotación y la programación](experience-optimization-scheduling-targeting.md).
+
+1. Haga clic en **[!UICONTROL Save]** en el cuadro de diálogo para actualizar el árbol de trabajo.
+
+1. (Opcional) [Personalice las direcciones URL de seguimiento](experience-tracking-urls-targeting.md#ai-editor).
+
+1. [Guarde la experiencia](#save) del encabezado del árbol para mantener los cambios.
+
+## Uso del editor manual {#manual-editor}
+
+[Abra el editor manual](experience-edit-targeting.md#experience-open) antes de seguir estos pasos.
 
 1. Realice una de las siguientes acciones:
 
@@ -54,12 +78,9 @@ Para las experiencias de publicidad estándar, solo puede asignar paquetes creat
 
 1. (Opcional) [Personalice las direcciones URL de seguimiento para los creativos en los paquetes asignados](experience-tracking-urls-targeting.md).
 
-<!--
-1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.
-...
+## Guarde la experiencia {#save}
 
-These formatted steps are inserted automatically from text in the following file in the _includes folder, which reused in multiple places.
--->
+Los siguientes pasos se aplican a ambos editores. Al guardar el cuadro de diálogo del paquete solo, no se guarda ni publica la experiencia.
 
 {{$include /help/_includes/experience-save.md}}
 
