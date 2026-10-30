@@ -44,7 +44,7 @@ Puede configurar estos ajustes directamente en el lienzo del editor controlado p
 
 * **[!UICONTROL Algorithmic]:** Muestra las variantes de anuncio más efectivas con mayor frecuencia, según un objetivo de optimización especificado, como la tasa de pulsaciones o un objetivo personalizado de Advertising DSP.
 
-* **[!UICONTROL Sequence](editor controlado por IA) o [!UICONTROL Sequencing] (editor manual):** Muestra los paquetes creativos asociados en un orden especificado, con un número especificado de impresiones para cada paquete en la secuencia. De forma predeterminada, los paquetes se secuencian en el orden en que se agregaron a la experiencia. Los tamaños de anuncio ofrecidos están determinados por el inventario disponible. El paquete final puede servir indefinidamente (el predeterminado), o la secuencia puede volver al primer paquete.
+* **[!UICONTROL Sequence] (editor controlado por IA) o [!UICONTROL Sequencing] (editor manual):** Muestra los paquetes creativos asociados en un orden especificado, con un número especificado de impresiones para cada paquete en la secuencia. De forma predeterminada, los paquetes se secuencian en el orden en que se agregaron a la experiencia. Los tamaños de anuncio ofrecidos están determinados por el inventario disponible. El paquete final puede servir indefinidamente (el predeterminado), o la secuencia puede volver al primer paquete.
 
   Por ejemplo, una secuencia podría servir variantes de anuncio del paquete 1 para tres impresiones, el paquete 2 para una impresión y el paquete 3 para dos impresiones, y luego repetir. Sin un bucle, el paquete 3 sigue funcionando indefinidamente.
 
