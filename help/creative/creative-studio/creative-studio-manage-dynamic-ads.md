@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 88fead9ffc4eaa572be090877790422e67831036
+source-git-commit: b9a68528b3c622aae44a46bca9b3bb747019bc95
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # Administrar elementos creativos dinámicos en [!UICONTROL Creative Studio]
@@ -117,33 +117,21 @@ Asigne cada campo de catálogo al elemento correspondiente de la plantilla. Por 
 
 ## Comprobar la calidad de un creativo dinámico {#qa-dynamic-creative}
 
-Utilice el agente de control de calidad para analizar las filas del catálogo con la plantilla de un creativo dinámico, previsualizar los anuncios resultantes e identificar posibles problemas de contenido. Puede filtrar y agrupar anuncios utilizando **[!UICONTROL AI Assistant]**, revisar las alertas del catálogo y corregir manualmente los valores del catálogo antes de publicar los cambios.
-
-El agente abre la pantalla **[!UICONTROL Dynamic Creative QA]** desde [!UICONTROL Creative Libraries] o [!UICONTROL Creative Studio]. Aunque las etiquetas de menú difieren, ambos puntos de entrada proporcionan la misma funcionalidad de control de calidad. El análisis depende del creativo, el catálogo y la solicitud seleccionados.
+Utilice el asistente de control de calidad para analizar las filas del catálogo con la plantilla de un creativo dinámico, previsualizar los anuncios resultantes e identificar posibles problemas de contenido. Puede filtrar y agrupar anuncios utilizando **[!UICONTROL AI Assistant]**, revisar las alertas del catálogo y corregir manualmente los valores del catálogo antes de publicar los cambios.
 
 >[!NOTE]
 >
->El agente de control de calidad está disponible para creativos de pantallas dinámicas, no para creativos estándar o de vídeo dinámico. En [!UICONTROL Creative Libraries], la acción solo está disponible para los creativos dinámicos basados en plantillas dinámicas.
+>Puede comprobar la calidad de los elementos creativos dinámicos de [!UICONTROL Creative Studio] o [!UICONTROL Creative Libraries]. Aunque las etiquetas de menú difieren, ambos puntos de entrada abren la misma pantalla de **[!UICONTROL Dynamic Creative QA]** con la misma funcionalidad. El análisis depende del creativo, el catálogo y la solicitud seleccionados. Consulte &quot;[Comprobar la calidad de un creativo dinámico de las bibliotecas de Creative](/help/creative/creative-libraries/creative-edit-dynamic.md#qa-dynamic-creative)&quot; para el otro punto de entrada.
 
-### Abra el agente de control de calidad {#open-qa-agent}
+El asistente de control de calidad está disponible para creativos de pantallas dinámicas, no para creativos estándar o de vídeo dinámico.
 
-1. Abra un creativo dinámico guardado para control de calidad de cualquiera de las siguientes maneras:
+### Abra el asistente de control de calidad {#open-qa-agent}
 
-   * **De [!UICONTROL Creative Libraries]:**
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**.
 
-     1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+1. En la ficha **[!UICONTROL Creatives]**, busque el elemento creativo dinámico en su biblioteca creativa debajo de la sección [!UICONTROL Generate or Build Creatives].
 
-     1. Haga clic en el nombre de la biblioteca para abrirla.
-
-     1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL ...]** junto al nombre del elemento creativo dinámico y, a continuación, haga clic en **[!UICONTROL QA Agent]**.
-
-   * **De [!UICONTROL Creative Studio]:**
-
-     1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**.
-
-     1. En la ficha **[!UICONTROL Creatives]**, busque el elemento creativo dinámico en su biblioteca creativa debajo de la sección [!UICONTROL Generate or Build Creatives].
-
-     1. Mantenga el cursor sobre la tarjeta creativa y haga clic en **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**.
+1. Mantenga el cursor sobre la tarjeta creativa y haga clic en **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**.
 
    La pantalla **[!UICONTROL Dynamic Creative QA]** se abre con un lienzo de vista previa y el panel de chat **[!UICONTROL AI Assistant]**.
 
@@ -217,7 +205,7 @@ Puede editar manualmente los valores del catálogo desde una vista previa del an
      * Para un nuevo elemento creativo, en el cuadro de diálogo de confirmación **[!UICONTROL Create Dynamic Creative]**, haga clic en **[!UICONTROL Create]**.
      * Para un elemento creativo existente, en el cuadro de diálogo de confirmación **[!UICONTROL Update Dynamic Creative]**, haga clic en **[!UICONTROL Update]**.
 
-     Vuelve a la biblioteca creativa o a [!UICONTROL Creative Studio], según dónde haya abierto la pantalla de control de calidad.
+     Vuelve a [!UICONTROL Creative Studio].
 
 * Para salir sin publicar las ediciones de catálogo pendientes, haga clic en **[!UICONTROL Cancel]** en el encabezado de la página.
 

@@ -11,9 +11,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1cc477f531051d94ea88eaae0a4fb83918e95ea5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1263'
 ht-degree: 0%
 ---
 # Administrar anuncios estándar en [!UICONTROL Creative Studio]
@@ -149,11 +149,17 @@ Debe existir al menos una plantilla de anuncio en pantalla en la biblioteca de p
 
 1. Haga clic en **[!UICONTROL Update Creative]**.
 
-## Generar variaciones de anuncios para un anuncio estándar {#generate-ad-variations}
+## Generación de variaciones de anuncios para una creatividad HTML5 flexible {#generate-ad-variations}
+
+La acción **[!UICONTROL Generate Variations]** solo está disponible para creativos flexibles de HTML5. Se desactiva cuando el creativo no tiene la referencia de plantilla de anuncio principal interna requerida por el generador o mientras se inicia otra solicitud de generación de variaciones. La referencia de la plantilla de anuncio principal no es una configuración que se pueda editar.
+
+>[!NOTE]
+>
+>También puede generar variaciones de creativos HTML5 flexibles y aptos de [!UICONTROL Creative Libraries]. Ambos puntos de entrada abren el mismo [!UICONTROL Ad Variations Generator]. Consulte &quot;[Generar variaciones de elementos creativos flexibles de HTML5](/help/creative/creative-libraries/creative-generate-variations.md)&quot; para conocer otros requisitos de disponibilidad y puntos de entrada.
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative Studio]**.
 
-1. En la ficha **[!UICONTROL Creatives]**, mantenga el cursor sobre la tarjeta creativa y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Generate Ad Variations]**.
+1. En la ficha **[!UICONTROL Creatives]**, mantenga el cursor sobre la tarjeta creativa y haga clic en **[!UICONTROL ...]** > **[!UICONTROL Generate Variations]**.
 
    Se abre [!UICONTROL Ad Variations Generator] con el anuncio seleccionado precargado.
 
