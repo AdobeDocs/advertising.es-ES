@@ -1,6 +1,6 @@
 ---
 title: Administre creativos dinámicos en Creative Studio.
-description: Aprenda a crear, editar, duplicar y eliminar creativos dinámicos impulsados por catálogos en Adobe Advertising Creative Studio.
+description: Aprenda a crear, comprobar la calidad, editar, duplicar y eliminar creativos dinámicos impulsados por catálogos en Adobe Advertising Creative Studio.
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -10,20 +10,20 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 88fead9ffc4eaa572be090877790422e67831036
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1469'
 ht-degree: 0%
 ---
 # Administrar elementos creativos dinámicos en [!UICONTROL Creative Studio]
 
-La ficha **[!UICONTROL Creatives]** de [!UICONTROL Creative Studio] enumera los elementos creativos dinámicos por biblioteca. Desde aquí puede crear nuevos creativos dinámicos impulsados por catálogo, editar los detalles y la asignación de atributos de creativos existentes, ver registros de cambios, duplicar creativos y eliminar creativos.
+La ficha **[!UICONTROL Creatives]** de [!UICONTROL Creative Studio] enumera los elementos creativos dinámicos por biblioteca. Desde aquí puede crear nuevos creativos dinámicos impulsados por catálogo, creativos de comprobación de calidad con IA, editar los detalles y la asignación de atributos de creativos existentes, ver registros de cambios, duplicar creativos y eliminar creativos.
 
 ## Cree un creativo dinámico {#build-dynamic-creative}
 
 Utilice este flujo de trabajo para crear creativos dinámicos impulsados por el catálogo. Un asistente guiado de cuatro pasos le guiará a través de la selección de una plantilla, la conexión de un catálogo y la asignación de campos de catálogo a elementos de plantilla. Después de la configuración, [!UICONTROL AI Assistant] le ayudará a obtener una vista previa y a comprobar la calidad de cada combinación de anuncios generada a partir de los datos del catálogo.
 
-Los creativos dinámicos se diferencian de los anuncios estándar de una manera clave: el agente de IA no puede modificar el contenido procedente del catálogo. Puede filtrar, analizar y marcar problemas, pero para cambiar el contenido de los anuncios debe actualizar el catálogo de origen.
+Los creativos dinámicos se diferencian de los anuncios estándar de una manera clave: el agente de IA no puede modificar el contenido procedente del catálogo. Puede filtrar, analizar y marcar problemas, pero para cambiar el contenido de los anuncios debe actualizar los valores del catálogo manualmente, ya sea desde la pantalla de control de calidad o en el catálogo de origen.
 
 ### Requisitos previos
 
@@ -83,44 +83,9 @@ Asigne cada campo de catálogo al elemento correspondiente de la plantilla. Por 
 
 1. Elija si desea *[!UICONTROL Save Dynamic Creative & Skip QA]* o *[!UICONTROL Continue to QA]*.
 
-   Si continúa con el control de calidad, el lienzo muestra todas las combinaciones de anuncios generadas a partir del catálogo, mostradas como filas con una vista previa de cada entrada de catálogo representada en la plantilla.
+   Si continúa con el control de calidad, la pantalla **[!UICONTROL Dynamic Creative QA]** se abrirá con un lienzo de vista previa y el panel de chat **[!UICONTROL AI Assistant]**.
 
-1. Si continúa con el control de calidad:
-
-   1. Realice una de las siguientes acciones:
-
-      * Utilice los controles **[!UICONTROL Zoom in]** y **[!UICONTROL Zoom out]** para ajustar la vista de lienzo.
-
-      * Use los controles de paginación (**X-Y de Z**) para recorrer las filas del catálogo.
-
-      * Para editar una combinación de anuncios:
-
-        1. Mantenga el cursor sobre la fila del catálogo y haga clic en **[!UICONTROL Edit]**.
-
-        1. En el cuadro de diálogo **[!UICONTROL Edit Row]**, actualice los valores de campo.
-
-        1. Haga clic en **[!UICONTROL Save]**.
-
-        El lienzo se actualiza para reflejar los valores actualizados.
-
-      * Utilice el panel de chat **[!UICONTROL AI Assistant]** para analizar y filtrar combinaciones de catálogos. Escriba la solicitud en el campo **[!UICONTROL Ask anything]** o haga clic en una de las indicaciones sugeridas:
-
-        * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
-        * **[!UICONTROL Show me side-by-side comparisons of A/B testing creatives]**
-        * **[!UICONTROL Show me all ads for millennial women in urban markets]**
-
-        El agente de IA puede:
-
-        * Filtre el lienzo para mostrar anuncios que coincidan con un segmento de audiencia, ubicación geográfica, idioma, categoría u otro campo de catálogo específico.
-        * Compruebe problemas de calidad, como saturaciones del límite de caracteres, desbordamiento o sangrado de contenido, vínculos de imágenes rotos y visibilidad de la exención de responsabilidad legal.
-        * Compare combinaciones de anuncios para el análisis de pruebas A/B.
-        * Organice los anuncios en grupos para revisarlos en paralelo.
-
-        El agente de IA no puede modificar el contenido procedente del catálogo. Para cambiar el contenido del anuncio, actualice el catálogo de origen.
-
-   1. Guardar **[!UICONTROL Save Dynamic Creative]** en el encabezado.
-
-   1. En el mensaje de confirmación, haga clic en **[!UICONTROL Create]**.
+1. Si continúa con el control de calidad, siga los procedimientos de &quot;[Comprobar la calidad de un elemento creativo dinámico](#qa-dynamic-creative)&quot; para [analizar y filtrar anuncios](#analyze-ads), [revisar vistas previas y alertas](#review-previews) y, opcionalmente, [corregir valores de catálogo](#correct-catalog-values). Cuando haya terminado, [guarde el elemento creativo dinámico](#save-or-exit).
 
 ## Editar un elemento creativo dinámico {#edit-dynamic-creative}
 
@@ -150,13 +115,111 @@ Asigne cada campo de catálogo al elemento correspondiente de la plantilla. Por 
 
 1. Haga clic en **[!UICONTROL Update Creative]**.
 
-## Vuelva a abrir el asistente de control de calidad para un elemento creativo dinámico {#qa-dynamic-creative}
+## Comprobar la calidad de un creativo dinámico {#qa-dynamic-creative}
 
-1. En el menú principal, haga clic en **[!UICONTROL Creative Studio]**.
+Utilice el agente de control de calidad para analizar las filas del catálogo con la plantilla de un creativo dinámico, previsualizar los anuncios resultantes e identificar posibles problemas de contenido. Puede filtrar y agrupar anuncios utilizando **[!UICONTROL AI Assistant]**, revisar las alertas del catálogo y corregir manualmente los valores del catálogo antes de publicar los cambios.
 
-1. En la ficha **[!UICONTROL Creatives]**, mantenga el cursor sobre la tarjeta creativa y haga clic en **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**.
+El agente abre la pantalla **[!UICONTROL Dynamic Creative QA]** desde [!UICONTROL Creative Libraries] o [!UICONTROL Creative Studio]. Aunque las etiquetas de menú difieren, ambos puntos de entrada proporcionan la misma funcionalidad de control de calidad. El análisis depende del creativo, el catálogo y la solicitud seleccionados.
 
-   Se abre la pantalla de control de calidad. Consulte &quot;[Paso 5: previsualización y control de calidad con IA](#qa)&quot; para ver los controles de lienzo disponibles y las capacidades del asistente de IA.
+>[!NOTE]
+>
+>El agente de control de calidad está disponible para creativos de pantallas dinámicas, no para creativos estándar o de vídeo dinámico. En [!UICONTROL Creative Libraries], la acción solo está disponible para los creativos dinámicos basados en plantillas dinámicas.
+
+### Abra el agente de control de calidad {#open-qa-agent}
+
+1. Abra un creativo dinámico guardado para control de calidad de cualquiera de las siguientes maneras:
+
+   * **De [!UICONTROL Creative Libraries]:**
+
+     1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+     1. Haga clic en el nombre de la biblioteca para abrirla.
+
+     1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL ...]** junto al nombre del elemento creativo dinámico y, a continuación, haga clic en **[!UICONTROL QA Agent]**.
+
+   * **De [!UICONTROL Creative Studio]:**
+
+     1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Studio]**.
+
+     1. En la ficha **[!UICONTROL Creatives]**, busque el elemento creativo dinámico en su biblioteca creativa debajo de la sección [!UICONTROL Generate or Build Creatives].
+
+     1. Mantenga el cursor sobre la tarjeta creativa y haga clic en **[!UICONTROL ...]** > **[!UICONTROL QA Assistant]**.
+
+   La pantalla **[!UICONTROL Dynamic Creative QA]** se abre con un lienzo de vista previa y el panel de chat **[!UICONTROL AI Assistant]**.
+
+1. Si el creativo utiliza varios catálogos, seleccione el catálogo que desea revisar de **[!UICONTROL Catalog]** en el encabezado.
+
+   El asistente analiza el catálogo seleccionado. El selector de catálogo se desactiva cuando el creativo utiliza un solo catálogo.
+
+### Analizar y filtrar anuncios con IA {#analyze-ads}
+
+1. En el panel **[!UICONTROL AI Assistant]**, escriba una solicitud en **[!UICONTROL Ask anything]** y presione **[!UICONTROL Enter]**, o bien haga clic en una de las indicaciones sugeridas:
+
+   * **[!UICONTROL Run a comprehensive QA pass on this dynamic creative]**
+   * **[!UICONTROL Group ads by product]**
+   * **[!UICONTROL Filter ads by geography]**
+   * **[!UICONTROL Show all ads with headlines over 80 characters]**
+
+   El asistente responde en el panel de chat y muestra las filas de catálogo coincidentes como vistas previas de anuncios en el lienzo. Hasta que envíe una solicitud, el lienzo le pedirá que pida al asistente que analice el catálogo.
+
+1. Seguir perfeccionando la revisión con solicitudes de seguimiento. El ayudante puede ayudarle a lo siguiente:
+
+   * Filtre los anuncios por segmento de audiencia, idioma, ubicación geográfica o código postal.
+   * Compruebe las longitudes de caracteres utilizando un umbral que especifique.
+   * Compruebe si hay errores de fuentes, contenido faltante y contenido sospechoso.
+   * Revise el estado de traducción.
+   * Comparar variantes de prueba A/B.
+   * Agrupar anuncios para su revisión, como por producto o problema.
+
+   Compruebe las respuestas del asistente e inspeccione las vistas previas antes de guardar los cambios.
+
+### Revisar previsualizaciones y alertas {#review-previews}
+
+* Utilice la barra de herramientas de lienzo para:
+
+  * Ajuste el zoom.
+  * Cambiar entre **[!UICONTROL Thumbnail view]** y **[!UICONTROL Actual size]**.
+  * Haga clic en **[!UICONTROL Replay animations]** para reproducir las vistas previas.
+  * Seleccione el número de filas por página, seleccione un número de página o use **[!UICONTROL Previous page]** y **[!UICONTROL Next page]**.
+
+* Cuando el asistente agrupe los resultados, haga clic en el vínculo para ver todos los creativos de un grupo. Use **[!UICONTROL Back to groups]** para volver a los resultados agrupados o **[!UICONTROL Catalog Rows]** para salir de la vista agrupada.
+
+* Cuando una vista previa muestre **[!UICONTROL Issues detected]**, mantenga el cursor sobre el indicador para ver los detalles del problema.
+
+* Cuando haya alertas de catálogo disponibles, haga clic en **[!UICONTROL View Alerts]**. El cuadro de diálogo **[!UICONTROL Alerts]** enumera el catálogo, el número de fila, la columna y el mensaje de error de cada problema. Haga clic en **[!UICONTROL Close]** para regresar al lienzo.
+
+### Valores de catálogo correctos {#correct-catalog-values}
+
+Puede editar manualmente los valores del catálogo desde una vista previa del anuncio sin salir de la pantalla de control de calidad.
+
+1. En la vista previa que desee corregir, haga clic en **[!UICONTROL Edit]**.
+
+1. En el cuadro de diálogo de edición, seleccione las columnas que desea cambiar en **[!UICONTROL Catalog columns to edit]**. Para buscar una columna, use **[!UICONTROL Search columns]**.
+
+1. En **[!UICONTROL Columns content]**, actualice los valores de los campos seleccionados.
+
+1. Haga clic en **[!UICONTROL Update]**.
+
+   La vista previa se actualiza para reflejar los valores actualizados. Los cambios del catálogo no se publican hasta que guarde el elemento creativo dinámico.
+
+>[!IMPORTANT]
+>
+>Estas ediciones actualizan los datos del catálogo, no solo la vista previa del anuncio. Revise los valores antes de publicarlos.
+
+### Guardar cambios o salir {#save-or-exit}
+
+* Para guardar el elemento creativo dinámico y publicar cualquier edición del catálogo:
+
+  1. Haga clic en **[!UICONTROL Save Dynamic Creative]** en el encabezado.
+
+  1. Confirme el guardado:
+
+     * Para un nuevo elemento creativo, en el cuadro de diálogo de confirmación **[!UICONTROL Create Dynamic Creative]**, haga clic en **[!UICONTROL Create]**.
+     * Para un elemento creativo existente, en el cuadro de diálogo de confirmación **[!UICONTROL Update Dynamic Creative]**, haga clic en **[!UICONTROL Update]**.
+
+     Vuelve a la biblioteca creativa o a [!UICONTROL Creative Studio], según dónde haya abierto la pantalla de control de calidad.
+
+* Para salir sin publicar las ediciones de catálogo pendientes, haga clic en **[!UICONTROL Cancel]** en el encabezado de la página.
 
 ## Ver el registro de cambios de un creativo dinámico {#view-change-log}
 
@@ -187,4 +250,3 @@ Duplique un elemento creativo dinámico para añadir un nuevo elemento creativo 
 >* [Acerca de Creative Studio en Advertising Creative](creative-studio-about.md)
 >* [Administrar anuncios estándar en Creative Studio](creative-studio-manage-standard-ads.md)
 >* [Administrar plantillas en Creative Studio](creative-studio-manage-templates.md)
-
