@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: edf008b5ac23852101d29361110773030f1a2f81
+source-git-commit: 10d7adc3b3ced812ee1281139a23a573df2beeef
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2421'
 ht-degree: 2%
 ---
 # Guía de Advertising Search, Social, &amp; Commerce {#search-social-commerce}
@@ -258,6 +258,10 @@ ht-degree: 2%
     + [Administrar ubicaciones](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + Biblioteca {#library}
     + [Ver y crear recursos creativos](/help/search-social-commerce/new-ui/library/creative-asset-manage.md)
+    + Extensiones {#extensions-new-ui}
+      + [Administrar extensiones de vínculos de sitios compartidos](/help/search-social-commerce/new-ui/library/extensions/sitelink-extension-manage.md)
+      + [Administrar  [!DNL Google Ads] extensiones de llamadas compartidas](/help/search-social-commerce/new-ui/library/extensions/callout-extension-manage.md)
+      + [Administración de asociaciones de extensiones de publicidad](/help/search-social-commerce/new-ui/library/extensions/ad-extension-association-manage.md)
   + [Administrar alertas personalizadas](/help/search-social-commerce/new-ui/alerts-manage.md)
   + [Administración de notificaciones](/help/search-social-commerce/new-ui/notifications-manage.md)
   + [Administración de usuarios](/help/search-social-commerce/new-ui/user-administration.md)
