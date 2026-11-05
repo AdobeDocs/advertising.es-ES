@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
+source-git-commit: 08975638903eab9767e571c851c5c35981afdba5
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 ---
 # Organización de la interfaz de usuario
@@ -79,7 +79,7 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
 
 * Submenú **[!UICONTROL Plan]**:
 
-  * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
   * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -103,9 +103,9 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
 
 * Submenú **[!UICONTROL Targeting]**:
 
-  * **[!UICONTROL Audiences]**: abre una vista nueva que muestra todas las audiencias existentes del anunciante, todos los objetivos de audiencia y todas las exclusiones de audiencia. Para administrar las audiencias, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Audiences]**: abre una vista nueva para administrar las audiencias del anunciante, todos los objetivos de audiencia y todas las exclusiones de audiencia.
 
-  * **[!UICONTROL Auto Targets]** Abre una vista nueva para enumerar y administrar destinos automáticos para el anunciante.
+  * **[!UICONTROL Auto Targets]** Abre una vista nueva, que muestra todos los destinos automáticos existentes para el anunciante. Para administrar los destinos automáticos, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Auto Targets]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
   * **[!UICONTROL Placements]** abre una vista nueva para enumerar y administrar las ubicaciones y las ubicaciones negativas para el anunciante.
 
@@ -205,7 +205,7 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Su función det
 
 * ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar sesión.
 
-  Cuando hayas iniciado sesión a través de Adobe CX Enterprise[&#128279;](sign-in.md), también puedes editar tu perfil de CX Enterprise, incluida tu contraseña de CX Enterprise y la configuración de notificaciones.
+  Cuando hayas iniciado sesión a través de Adobe CX Enterprise](sign-in.md), también puedes editar tu perfil de CX Enterprise, incluida tu contraseña de CX Enterprise y la configuración de notificaciones.[
 
 >[!MORELIKETHIS]
 >
