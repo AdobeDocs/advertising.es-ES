@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d0763d8f2099b683ab1ed4ee93342555803f1afd
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1396'
 ht-degree: 0%
 ---
 # Organización de la interfaz de usuario
@@ -79,7 +79,7 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
 
 * Submenú **[!UICONTROL Plan]**:
 
-  * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
   * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -87,35 +87,33 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
 
   * **[!UICONTROL Bulksheets]**: abre una nueva vista de [!UICONTROL Bulksheets].
 
-  * **[!UICONTROL Label Classification]** abre una nueva vista de [!UICONTROL Label Classifications]. Puede administrar clasificaciones y asignar o dejar de asignar valores de clasificación a cualquier componente de cuenta aplicable que esté disponible en la nueva interfaz de usuario.
+  * **[!UICONTROL Label Classification]** Abre una vista nueva para administrar clasificaciones y asignar o dejar de asignar valores de clasificación a cualquier componente de cuenta aplicable que esté disponible en la nueva interfaz de usuario.
 
-  * **[!UICONTROL Manager Accounts]**: abre una nueva vista de las cuentas de administrador existentes y de las redes de anuncios. Para administrar sus cuentas de administrador, use la vista heredada [!UICONTROL Admin] > [!UICONTROL Manager Accounts]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Manager Accounts]**: abre una nueva vista para enumerar y administrar cuentas de administrador en las redes de anuncios.
 
 * Submenú **[!UICONTROL Goals]**:
 
-  * **[!UICONTROL Objectives]** Abre una nueva vista de [!UICONTROL Objectives], desde la cual puede ver todos los objetivos existentes y crear, editar y eliminar objetivos.
+  * **[!UICONTROL Objectives]** Abre una vista nueva, desde la cual puede ver todos los objetivos existentes y crear, editar y eliminar objetivos.
 
   * **[!UICONTROL Conversions]** abre una vista nueva desde la cual puede ver las métricas de conversión de un anunciante y personalizar las métricas disponibles para las vistas de administración y los informes.
 
-  * **[!UICONTROL Conversion Value Rules]** Abre una vista nueva para ver y administrar las reglas de valor de conversión a nivel de cuenta y de campaña para las cuentas de [!DNL Google Ads].
+  * **[!UICONTROL Conversion Value Rules]** abre una vista nueva para enumerar y administrar las reglas de valor de conversión a nivel de cuenta y de campaña para las cuentas de [!DNL Google Ads].
 
-  * **[!UICONTROL Constraints]** Abre una vista de sólo lectura de las restricciones existentes. Para administrar las restricciones, use la vista heredada [!UICONTROL Optimization] > [!UICONTROL Constraints]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Constraints]** Abre una vista nueva para enumerar y administrar restricciones de oferta.
 
 * Submenú **[!UICONTROL Targeting]**:
 
   * **[!UICONTROL Audiences]**: abre una vista nueva que muestra todas las audiencias existentes del anunciante, todos los objetivos de audiencia y todas las exclusiones de audiencia. Para administrar las audiencias, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Audiences]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-  * **[!UICONTROL Auto Targets]** Abre una vista nueva, que muestra todos los destinos automáticos existentes para el anunciante. Para administrar los destinos automáticos, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Auto Targets]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Auto Targets]** Abre una vista nueva para enumerar y administrar destinos automáticos para el anunciante.
 
-  * **[!UICONTROL Placements]** Abre una nueva vista [!UICONTROL Placements] que muestra las ubicaciones existentes y las negativas para el anunciante. Puede administrar asignaciones de restricción para las ubicaciones seleccionadas.
-
-    Para crear, editar y eliminar ubicaciones y ubicaciones negativas, use las vistas heredadas [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Placements]** abre una vista nueva para enumerar y administrar las ubicaciones y las ubicaciones negativas para el anunciante.
 
 * Submenú **[!UICONTROL Library]**:
 
-  * **[!UICONTROL Assets]** Abre una vista nueva, que enumera los recursos creativos existentes. Puede previsualizar cada elemento creativo. Para administrar la biblioteca de recursos, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Asset Library]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Assets]** Abre una vista nueva para mostrar y administrar los recursos creativos.
 
-  * **[!UICONTROL Extensions]** abre vistas de solo lectura de sus extensiones de publicidad existentes. Para administrar sus extensiones, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Campaigns]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
+  * **[!UICONTROL Extensions]** abre una vista nueva con fichas para enumerar y administrar las extensiones de llamadas, las extensiones de vínculos de sitios y las asociaciones entre las extensiones de anuncios y las entidades de cuenta.
 
   * **[!UICONTROL Products]** Abre vistas de solo lectura de las cuentas y productos existentes del centro de comerciantes. Para agregar una cuenta de centro comercial, use la vista heredada [!UICONTROL Campaigns] > [!UICONTROL Products]. Vuelva a la interfaz de usuario heredada al hacer clic en el botón [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
@@ -207,7 +205,7 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Su función det
 
 * ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar sesión.
 
-  Cuando hayas iniciado sesión a través de Adobe CX Enterprise[&#128279;](sign-in.md), también puedes editar tu perfil de CX Enterprise, incluida tu contraseña de CX Enterprise y la configuración de notificaciones.
+  Cuando hayas iniciado sesión a través de Adobe CX Enterprise](sign-in.md), también puedes editar tu perfil de CX Enterprise, incluida tu contraseña de CX Enterprise y la configuración de notificaciones.[
 
 >[!MORELIKETHIS]
 >
