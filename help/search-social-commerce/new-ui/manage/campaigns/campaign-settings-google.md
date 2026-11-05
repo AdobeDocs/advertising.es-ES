@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d94447fb737903f1092eea24c8d3f255b7eb21f0
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '3244'
 ht-degree: 0%
@@ -421,7 +421,7 @@ Puede escribir texto o seleccionar recursos de su [!UICONTROL Asset Library], pe
 
 >[!NOTE]
 >
->Las señales de audiencia son diferentes de [objetivos de audiencia en el nivel de campaña y de grupo de publicidad](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+>Las señales de audiencia son diferentes de [objetivos de audiencia en el nivel de campaña y de grupo de publicidad](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md).
 
 **[!UICONTROL Primary Status]:** (campo de solo lectura para grupos de recursos existentes en campañas Máximo rendimiento) Por qué el grupo de recursos está sirviendo o no a plena capacidad. Tiene en cuenta el estado del grupo de activos, así como otras señales, como las aprobaciones de políticas y de calidad. Los valores pueden incluir *ELEGIBLE,* *LIMITADO,* *NO APTO,* *PAUSADO,* *PENDIENTE,* *ELIMINADO,* *DESCONOCIDO,* o *NO ESPECIFICADO.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
 

@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 10d7adc3b3ced812ee1281139a23a573df2beeef
+source-git-commit: fd18dc1423269ce0238826318f58cfcfdce1bce1
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2440'
 ht-degree: 2%
 ---
 # Guía de Advertising Search, Social, &amp; Commerce {#search-social-commerce}
@@ -254,6 +254,10 @@ ht-degree: 2%
     + [Administrar [!DNL Google Ads] reglas de valor de conversión](/help/search-social-commerce/new-ui/goals/conversion-value-rules-manage.md)
     + [Administrar restricciones para buscar unidades de oferta](/help/search-social-commerce/new-ui/goals/constraints-manage.md)
   + Direccionamiento {#targeting}
+    + Públicos {#audiences-new-ui}
+      + [Administrar audiencias](/help/search-social-commerce/new-ui/targeting/audiences/audience-manage.md)
+      + [Administrar destinatarios de audiencia para campañas y grupos de anuncios](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md)
+      + [Administración de exclusiones de audiencia para campañas y grupos de anuncios](/help/search-social-commerce/new-ui/targeting/audiences/audience-exclusions.md)
     + [Administrar  [!DNL Google Ads] destinos de búsqueda dinámica](/help/search-social-commerce/new-ui/targeting/dynamic-search-target-manage.md)
     + [Administrar ubicaciones](/help/search-social-commerce/new-ui/targeting/placement-manage.md)
   + Biblioteca {#library}

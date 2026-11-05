@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 7e7dcde9fb195e04025a1a8d89e792ff562b053f
 workflow-type: tm+mt
 source-wordcount: '2256'
 ht-degree: 0%
@@ -337,7 +337,7 @@ Para obtener información acerca de la disponibilidad, consulte la ayuda de Micr
 **[!UICONTROL Audience Signal]:** (Opcional) [!DNL Microsoft Advertising] audiencias para usar como señales de audiencia para la campaña. [!DNL Microsoft Advertising] modelos de aprendizaje automático utilizan las audiencias para encontrar internautas similares a los de target y también pueden mostrar anuncios a audiencias que no se especifican como señales que le ayudarán a alcanzar sus objetivos de rendimiento. Elija las audiencias que tienen más probabilidades de convertirse.
 
 >[!NOTE]
->Las señales de audiencia son diferentes de [los destinos de audiencia a nivel de grupo de anuncios](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+>Las señales de audiencia son diferentes de [los destinos de audiencia a nivel de grupo de anuncios](/help/search-social-commerce/new-ui/targeting/audiences/audience-targets-manage.md).
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
