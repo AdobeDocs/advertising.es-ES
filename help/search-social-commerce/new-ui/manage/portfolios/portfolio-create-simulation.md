@@ -74,7 +74,7 @@ Puede descargar simulaciones semanales para una fecha de ejecución a la vez com
 
    El archivo se descarga según el procedimiento normal del explorador. El mensaje de finalización indica cuántos portafolios se incluyeron.
 
-Para descargar simulaciones personalizadas o seleccionar simulaciones semanales individuales, use la vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).
+Para descargar simulaciones personalizadas o seleccionar simulaciones semanales individuales, use la vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).
 
 >[!MORELIKETHIS]
 >
