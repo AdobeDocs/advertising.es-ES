@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1241'
 ht-degree: 0%
 ---
 # Acerca de las simulaciones
@@ -49,11 +49,13 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 ### Simulación semanal automatizada
 
-Los informes de simulación se ejecutan automáticamente cada semana utilizando la configuración actual del portafolio. Las simulaciones semanales automatizadas solo están disponibles para los períodos en los que el portafolio esté [optimizado o activo](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
+Search, Social y Commerce ejecutan automáticamente informes de simulación cada semana utilizando la configuración actual del portafolio. Las simulaciones semanales automatizadas solo están disponibles para los períodos en los que el portafolio esté [optimizado o activo](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
+
+Puede [descargar simulaciones semanales de hasta 100 portafolios para una fecha de ejecución seleccionada desde la vista [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create-simulation.md#download-simulations), o [descargar simulaciones individuales desde la vista [!UICONTROL Simulations]](simulation-download.md).
 
 #### Simulaciones semanales descargadas
 
-Cada simulación semanal descargada consta de un libro de trabajo. Cada libro incluye el objetivo para cada uno de los 20 niveles de paso y el coste proyectado, los clics, los ingresos ponderados (valor objetivo) y las métricas de conversión incluidas en el objetivo, según el objetivo correspondiente. No se aplicaron restricciones a las 20 primeras filas de datos, mientras que se aplicaron restricciones al resto de las filas de datos.
+Puede descargar simulaciones semanales como libros individuales o combinarlas en un libro. El informe de cada simulación incluye el objetivo de cada uno de los niveles de 20 pasos y el coste proyectado, los clics, los ingresos ponderados (valor objetivo) y las métricas de conversión del objetivo, según el objetivo correspondiente. La simulación calcula las 20 primeras filas de datos sin restricciones y las filas de datos restantes con restricciones.
 
 #### Detalles de la simulación semanal en pantalla
 
@@ -61,19 +63,19 @@ Los detalles de la simulación en pantalla muestran perspectivas visuales y tabu
 
 ##### Visualización de gráfico
 
-La vista de gráfico muestra el valor objetivo esperado u otra métrica especificada ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) para el objetivo de gasto para cada uno de los 20 niveles de gasto. El punto medio de destino se identifica y, opcionalmente, puede cambiar el punto medio de destino para ver los datos predichos utilizando ese valor. Mantenga el cursor sobre cualquier punto del gráfico para ver los datos de ese punto.
+La vista de gráfico muestra el valor objetivo esperado u otra métrica especificada ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) para el objetivo de gasto para cada uno de los 20 niveles de gasto. El gráfico identifica el punto medio de destino y, opcionalmente, puede cambiar el punto medio de destino para ver los datos predichos mediante ese valor. Mantenga el cursor sobre cualquier punto del gráfico para ver los datos de ese punto.
 
-Puede ver los datos con y sin restricciones aplicadas, con restricciones aplicadas y sin restricciones aplicadas. Cuando se ven datos que tienen en cuenta las restricciones, las restricciones aplicadas se identifican encima del gráfico.
+Puede ver datos con restricciones, sin restricciones o ambas cosas. Cuando se ven datos con restricciones, la vista identifica esas restricciones encima del gráfico.
 
 ##### Vista de tabla
 
-La vista de tabla muestra el gasto objetivo para cada uno de los 20 niveles de gasto. También incluye el coste estimado, el coste marginal al valor objetivo, los clics, el valor objetivo y las métricas de conversión correspondientes en el objetivo de la cartera para cada nivel de gasto. El punto medio de destino se identifica y, opcionalmente, puede cambiar el punto medio de destino para ver los datos predichos utilizando ese valor.
+La vista de tabla muestra el gasto objetivo para cada uno de los 20 niveles de gasto. También incluye el coste estimado, el coste marginal al valor objetivo, los clics, el valor objetivo y las métricas de conversión correspondientes en el objetivo de la cartera para cada nivel de gasto. La tabla identifica el punto medio de destino y, opcionalmente, puede cambiar el punto medio de destino para ver los datos predichos mediante ese valor.
 
-Puede ver los datos con y sin restricciones aplicadas, con restricciones aplicadas y sin restricciones aplicadas. Cuando se ven datos que tienen en cuenta las restricciones, las restricciones aplicadas se identifican encima del gráfico.
+Puede ver datos con restricciones, sin restricciones o ambas cosas. Cuando se ven datos con restricciones, la vista identifica esas restricciones encima del gráfico.
 
 ##### Configuración de simulación
 
-Los ajustes de simulación se muestran como de solo lectura debajo del gráfico o la tabla.
+La vista muestra los ajustes de simulación de solo lectura debajo del gráfico o la tabla.
 
 ##### Configuración de Portfolio
 
@@ -85,7 +87,7 @@ Puede crear un informe de simulación personalizado para un único portafolio [o
 
 #### Simulaciones personalizadas descargadas
 
-Cada simulación personalizada descargada consta de un libro. Cada libro incluye una hoja de cálculo para cada nivel de simulación de entidad especificado (portafolios, campañas, grupos de anuncios y unidades de oferta) cuando los datos están disponibles para ese nivel. Cuando se especifican datos en el nivel de dispositivo, cada hoja de cálculo incluye una columna [!UICONTROL Device]. Cada hoja de cálculo incluye una fila con datos para cada entidad aplicable y (cuando se especifica para el informe) y tipo de dispositivo para cada uno de 20 pasos (por ejemplo, una fila por campaña). Los datos de cada fila incluyen la relación coste/ingresos marginal proyectada, el coste, los clics, los ingresos ponderados (valor objetivo), el tipo de dispositivo y las métricas de conversión incluidas en el objetivo, en función del objetivo correspondiente. La hoja de cálculo de nivel de portafolio también incluye el objetivo para los niveles de paso y la hoja de cálculo de nivel de entidad incluye la red de publicidad, la cuenta, la campaña y (cuando corresponda) el grupo de publicidad.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+Puede descargar simulaciones personalizadas como libros individuales o combinarlas en un libro. El informe de cada simulación incluye una hoja de cálculo por cada nivel de entidad especificado (portafolios, campañas, grupos de anuncios y unidades de oferta) cuando los datos están disponibles para ese nivel. Cuando se especifican datos en el nivel de dispositivo, cada hoja de cálculo incluye una columna [!UICONTROL Device]. Cada hoja de cálculo incluye una fila para cada entidad aplicable y, cuando se solicitan datos de nivel de dispositivo, el tipo de dispositivo para cada uno de 20 pasos (por ejemplo, una fila por campaña). Los datos de cada fila incluyen la relación coste/ingresos marginal proyectada, el coste, los clics, los ingresos ponderados (valor objetivo), el tipo de dispositivo y las métricas de conversión del objetivo, en función del objetivo correspondiente. La hoja de cálculo de nivel de portafolio también incluye el objetivo para los niveles de paso y la hoja de cálculo de nivel de entidad incluye la red de publicidad, la cuenta, la campaña y (cuando corresponda) el grupo de publicidad.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
 
 #### Detalles de simulación personalizados en pantalla
 
@@ -93,19 +95,19 @@ Los detalles de la simulación en pantalla muestran perspectivas visuales y tabu
 
 #### Visualización de gráfico
 
-La vista de gráfico muestra el valor objetivo esperado u otra métrica especificada ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) para el destino de gasto durante el número especificado de niveles de gasto (pasos) para la simulación. Se identifica el punto medio objetivo. Mantenga el cursor sobre cualquier punto del gráfico para ver los datos de ese punto.
+La vista de gráfico muestra el valor objetivo esperado u otra métrica especificada ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) para el destino de gasto durante el número especificado de niveles de gasto (pasos) para la simulación. El gráfico identifica el punto medio de destino. Mantenga el cursor sobre cualquier punto del gráfico para ver los datos de ese punto.
 
-Cuando la simulación se ha creado teniendo en cuenta las restricciones, las restricciones aplicadas se identifican encima del gráfico.
+Cuando la simulación tiene en cuenta las restricciones, la vista identifica las restricciones por encima del gráfico.
 
 ##### Vista de tabla
 
-La vista de tabla muestra el gasto objetivo para cada uno de los niveles de gasto (pasos) especificados para la simulación. También muestra el coste estimado, el coste marginal al valor objetivo, los clics, el valor objetivo y las métricas de conversión correspondientes en el objetivo de la cartera para cada nivel de gasto. Se identifica el punto medio objetivo.
+La vista de tabla muestra el gasto objetivo para cada uno de los niveles de gasto (pasos) especificados para la simulación. También muestra el coste estimado, el coste marginal al valor objetivo, los clics, el valor objetivo y las métricas de conversión correspondientes en el objetivo de la cartera para cada nivel de gasto. La tabla identifica el punto medio de destino.
 
-Cuando la simulación se ha creado teniendo en cuenta las restricciones, las restricciones aplicadas se identifican encima del gráfico.
+Cuando la simulación tiene en cuenta las restricciones, la vista identifica las restricciones por encima del gráfico.
 
 ##### Configuración de simulación
 
-Los ajustes de simulación se muestran como de solo lectura debajo del gráfico o la tabla.
+La vista muestra los ajustes de simulación de solo lectura debajo del gráfico o la tabla.
 
 ##### Configuración de Portfolio
 
@@ -115,17 +117,19 @@ Para ver la configuración de solo lectura del portafolio aplicable, haga clic e
 
 La vista [!UICONTROL Simulations] enumera simulaciones semanales y simulaciones personalizadas. El administrador y otros tipos de usuarios <!-- Verify which --> pueden ver simulaciones personalizadas creadas por otros usuarios. El resto de usuarios solo pueden ver las simulaciones personalizadas que crean.
 
-La tabla de datos incluye el progreso de cada simulación, una columna [!UICONTROL Target Midpoint] rellenada para cada fila y columnas para predicciones de costos, impresiones, clics, valores objetivos, y precisión. Si lo desea, puede agregar columnas personalizadas adicionales (incluidas las métricas de alza, como el valor objetivo real dividido por el coste).
+La tabla de datos muestra el progreso de cada simulación; el [!UICONTROL Target Midpoint] de cada fila; y columnas para predicciones de costos/impresiones/clics/valores objetivos, valores reales y precisión. Si lo desea, puede agregar columnas personalizadas adicionales (incluidas las métricas de alza, como el valor objetivo real dividido por el coste).
 
 ### Acciones disponibles {#simulations-actions}
 
 * [Personalice la vista](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) para incluir métricas adicionales, incluidas las impresiones estimadas; el costo real, los clics, las impresiones y el valor objetivo; el valor costo-objetivo; la precisión de costo, la precisión de clic y la precisión del valor objetivo; y la diferencia (delta) entre el valor objetivo previsto y el real y el valor costo-objetivo. También puede incluir columnas para la mayoría de los ajustes de simulación y el tipo de simulación ([!UICONTROL Custom] o [!UICONTROL Weekly]).
 
-* [Generar o volver a ejecutar una simulación personalizada](simulation-create.md) para un solo portafolio. Puede crear una nueva simulación o volver a generar una simulación existente en la lista.
+* [Generar una simulación personalizada](simulation-create.md#simulation-create) para un único portafolio, utilizando la configuración actual del portafolio como valores predeterminados.
+
+* [Vuelva a ejecutar hasta 10 simulaciones con la configuración existente](simulation-create.md#rerun-a-simulation-with-the-existing-settings). Search, Social y Commerce omiten las simulaciones con un estado de [!UICONTROL Queued] o [!UICONTROL In Progress].
 
 * [Ver una simulación semanal o personalizada en pantalla](simulation-view.md).
 
-* [Descargar simulaciones semanales y personalizadas](simulation-download.md) como [!DNL Microsoft Excel] libros en archivos ZIP.
+* [Descargue hasta 10 simulaciones semanales y personalizadas](simulation-download.md) como un solo libro de [!DNL Microsoft Excel] o como libros separados en un archivo ZIP.
 
 * Con el botón [!UICONTROL Spend Planner], abra la herramienta Recomendación de gastos heredada, que le ayuda a identificar la distribución óptima del gasto en todos los portafolios.
 

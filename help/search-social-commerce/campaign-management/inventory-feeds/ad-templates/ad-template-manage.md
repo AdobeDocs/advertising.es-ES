@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1428'
 ht-degree: 0%
 ---
 # Administrar plantillas de publicidad para fuentes de inventario
@@ -26,7 +26,7 @@ Antes o después de cargar los datos, puede crear plantillas de publicidad espec
 
 Puede asociar cada plantilla con un archivo de fuente, una cuenta de [!DNL Google Merchant Center] o una cuenta de [!DNL Microsoft Merchant Center], así como asociar varias plantillas con el mismo archivo de fuente o cuenta. Una plantilla de anuncio puede incluir variables que se sustituyen por columnas de datos reales de un archivo cargado o una cuenta. En la mayoría de los casos, las variables también pueden incluir [un grupo modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) que configuró en Buscar, Social y Commerce para crear varios anuncios, palabras clave, campañas o grupos de anuncios para cada fila aplicable en el archivo de datos. Las opciones de plantilla le permiten crear una nueva estructura de cuentas (campañas, grupos de anuncios, palabras clave) para los anuncios o asignar los anuncios a la estructura de cuentas existente.
 
-Además de crear nuevas plantillas desde cero, también puede crear nuevas plantillas clonando las existentes y editando las existentes.
+Además de crear plantillas con nuevas configuraciones, también puede crear nuevas plantillas clonando las existentes y editando las existentes.
 
 Una vez creada una plantilla y asociada a un archivo de fuente de datos o a una cuenta de centro de comerciantes, se pueden propagar los datos del archivo a través de la plantilla para crear datos de campaña y estructura de cuentas. Opcionalmente, se puede crear un archivo de hoja de edición por lotes para su revisión o para su publicación inmediata en la red de anuncios.
 
@@ -40,7 +40,7 @@ Cree plantillas independientes para anuncios de texto y de texto expandido/exten
 
 1. Realice una de las siguientes acciones:
 
-   * Para crear una plantilla desde cero, haga clic en **[!UICONTROL Create/Clone]** en la barra de herramientas situada encima de la tabla de datos y, a continuación, seleccione la red de publicidad aplicable.
+   * Para crear una plantilla con nueva configuración, haga clic en **[!UICONTROL Create/Clone]** en la barra de herramientas situada encima de la tabla de datos y, a continuación, seleccione la red de publicidad aplicable.
 
    * Para clonar una plantilla existente:
 

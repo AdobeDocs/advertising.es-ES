@@ -16,16 +16,16 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '188'
 ht-degree: 0%
 ---
 # Plantillas de informe
 
 Las plantillas de informe son diseños de informe predefinidos que se pueden reutilizar cuando se generan la mayoría de los informes. El uso de plantillas le ahorra tiempo si desea utilizar parámetros no predeterminados o ejecutar variaciones del mismo informe, o si desea ejecutar el mismo informe según una programación regular. Las plantillas de informe guardadas están disponibles en la sección Plantillas de informe de la página Informes.
 
-Para cualquier tipo de informe de rendimiento, puede guardar varias plantillas de informe, creándolas desde cero o basándolas en plantillas existentes. También puede cambiar la configuración de cualquier plantilla de informe que haya creado; la nueva configuración se aplica a cualquier informe que utilice la plantilla que se genere en el futuro. Puede ejecutar informes para una o más plantillas en cualquier momento.
+Para cualquier tipo de informe de rendimiento, puede guardar varias plantillas de informe, creándolas con nuevos ajustes o basándolas en plantillas existentes. También puede cambiar la configuración de cualquier plantilla de informe que haya creado; la nueva configuración se aplica a cualquier informe que utilice la plantilla que se genere en el futuro. Puede ejecutar informes para una o más plantillas en cualquier momento.
 
 También puede eliminar cualquier plantilla disponible para usted. Cuando se elimina una plantilla que incluye una programación, ese informe no se genera en el futuro.
 

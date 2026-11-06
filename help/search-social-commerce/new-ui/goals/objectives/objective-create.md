@@ -1,6 +1,6 @@
 ---
 title: (Nueva IU) Crear un objetivo
-description: Aprenda a crear un objetivo.
+description: Aprenda a crear un objetivo o a duplicar un objetivo existente.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 21516197-d005-4703-8735-c789107dc3c4
@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 5d7cc4088d2fbb3cb8dcaf5e6c349565030a8b08
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '319'
 ht-degree: 0%
 ---
 # (Nueva IU) Crear un objetivo
@@ -41,6 +41,8 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Puede asociar un objetivo con un portafolio al [crear el portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md) o al [modificar posteriormente la configuración del portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md). Puede utilizar el mismo objetivo para varios portafolios.
+
+## Creación de un objetivo
 
 1. En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
 
@@ -55,6 +57,32 @@ Para obtener instrucciones al respecto, consulte la ayuda de la interfaz de usua
 1. Al final de la configuración, haga clic en **[!UICONTROL Save]**.
 
 Los objetivos con el prefijo &quot;`ADSP_`&quot; (sin distinción de mayúsculas y minúsculas) para su uso con paquetes de Advertising DSP están disponibles como objetivos personalizados en DSP en un plazo de dos días.
+
+## Duplicación de un objetivo {#objective-duplicate}
+
+Duplique un objetivo para crear un nuevo objetivo con la misma configuración. Si lo desea, puede cambiar el nombre por defecto del nuevo objetivo y editar la configuración del objetivo según sea necesario. El objetivo original no cambia.
+
+Duplicar un objetivo requiere el permiso [!UICONTROL Edit Objectives]. El objetivo [!UICONTROL Maximize Clicks] predeterminado no se puede duplicar.
+
+1. En el menú principal, haga clic en **[!UICONTROL Goals]>[!UICONTROL Objectives]**.
+
+1. Realice una de las acciones siguientes:
+
+   * Mantenga el cursor sobre la fila del objetivo y haga clic en **[!UICONTROL ...]>[!UICONTROL Duplicate]**.
+
+   * Seleccione la casilla de verificación situada junto al objetivo. En la barra de herramientas de acciones masivas, haga clic en ![Duplicar](/help/search-social-commerce/assets/duplicate.png "Duplicar") **[!UICONTROL Duplicate]**.
+
+     [!UICONTROL Duplicate] no está disponible cuando se seleccionan varios objetivos.
+
+1. Edite la configuración del objetivo.
+
+   De manera predeterminada, el nuevo nombre de objetivo es `<original objective name>_Copy`, como &quot;Revenue_Copy&quot;. Si el nombre original ya termina en `_Copy`, el nuevo nombre incluye un contador, como &quot;Revenue_Copy(1)&quot;. Si el nombre sugerido ya existe, escriba un **[!UICONTROL Name]** único.
+
+   Para obtener instrucciones al respecto, consulte la ayuda de la interfaz de usuario de o la Guía de optimización de, que está disponible en Search, Social y Commerce.
+
+1. Haga clic en **[!UICONTROL Save]**.
+
+   Si se muestra un cuadro de diálogo de advertencia, revise la advertencia y haga clic en **[!UICONTROL Save]** para continuar.
 
 >[!MORELIKETHIS]
 >
