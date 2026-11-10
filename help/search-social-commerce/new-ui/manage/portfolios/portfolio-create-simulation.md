@@ -13,9 +13,9 @@ feature_v2:
     internal-label: Search Portfolios
   - id: 1d0fea65-a874-543d-94c9-b4dbf9e0360a
     internal-label: Search Simulations
-source-git-commit: cb2d71e240af5ea1278cb2c00046d80040c914ce
+source-git-commit: 3e70998ad9547cecc0f3581d6cfd917051d549db
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '396'
 ht-degree: 0%
 ---
 # Ejecutar y descargar simulaciones desde la vista [!UICONTROL Portfolios]
@@ -40,7 +40,7 @@ La ejecución de una simulación personalizada requiere el permiso [!UICONTROL C
 
    * Seleccione la casilla de verificación situada junto al portafolio. En la barra de herramientas de acciones masivas, haga clic en **[!UICONTROL More]>[!UICONTROL Run Simulation]**.
 
-1. Especifique la [configuración de simulación personalizada](/help/search-social-commerce/new-ui/plan/simulations/simulation-create.md#custom-simulation-settings):
+1. Especifique la [configuración de simulación personalizada](#custom-simulation-settings):
 
    1. En la ficha **[!UICONTROL Basic Settings]**, escriba un(a) **[!UICONTROL Simulation Name]** único(a) y cambie los parámetros básicos según sea necesario.
 
@@ -74,7 +74,11 @@ Puede descargar simulaciones semanales para una fecha de ejecución a la vez com
 
    El archivo se descarga según el procedimiento normal del explorador. El mensaje de finalización indica cuántos portafolios se incluyeron.
 
-Para descargar simulaciones personalizadas o seleccionar simulaciones semanales individuales, use la vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).
+Para descargar simulaciones personalizadas o seleccionar simulaciones semanales individuales, use la vista [[!UICONTROL Simulations] ](/help/search-social-commerce/new-ui/plan/simulations/simulation-download.md).
+
+## Ajustes de simulación personalizados {#custom-simulation-settings}
+
+Para obtener más información sobre la configuración de simulación personalizada, consulte la Guía de optimización, que está disponible en Search, Social y Commerce.
 
 >[!MORELIKETHIS]
 >
