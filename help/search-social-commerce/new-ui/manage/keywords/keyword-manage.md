@@ -1,6 +1,6 @@
 ---
 title: Administrar palabras clave
-description: Aprenda a crear y administrar palabras clave pujables y negativas, y a asignar restricciones a palabras clave.
+description: Aprenda a administrar palabras clave pujables y negativas, asignar restricciones y ver y descargar el historial de unidades de oferta de palabras clave en Adobe Advertising Search, Social y Commerce.
 feature: Search Optimization, Search Campaign Management
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d3e38179ae119f35c184bee398edaaf456fab563
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1421'
 ht-degree: 0%
 ---
 # Administrar palabras clave
@@ -53,11 +53,31 @@ La vista [!UICONTROL Manage] > [!UICONTROL Keywords] incluye dos fichas para la 
 
 * [Cambiar el estado o eliminar palabras clave y palabras clave negativas](#keyword-status)
 
+* [Ver y descargar el historial de unidades de oferta](#bid-unit-history)
+
 * [Copiar todos los datos de las filas seleccionadas en el portapapeles](#copy-to-clipboard)
 
 * [Asignar restricciones a palabras clave y anular la asignación de restricciones de palabras clave](#keyword-constraints)
 
 * [Asignar clasificaciones de etiquetas](/help/search-social-commerce/new-ui/set-up/label-classifications-manage.md) a palabras clave
+
+## Ver y descargar el historial de unidades de oferta {#bid-unit-history}
+
+Cuando la columna [!UICONTROL Bid Unit ID] está disponible en la tabla de datos de palabras clave, puede abrir el historial de la unidad de oferta directamente desde el ID.
+
+1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Keywords]**.
+
+1. En la ficha **[!UICONTROL Keywords]**, haga clic en el valor de la columna **[!UICONTROL Bid Unit ID]** de la palabra clave.
+
+1. En el cuadro de diálogo [!UICONTROL Bid Unit Details], haga clic en la ficha **[!UICONTROL History]**.
+
+1. (Opcional) En el menú de dispositivos situado encima de la tabla, seleccione un tipo de dispositivo para el que ver el historial. De forma predeterminada, se muestran los datos de todos los dispositivos.
+
+1. (Opcional) Cuando haya datos de historial disponibles, haga clic en **[!UICONTROL Export as csv]** para descargar el historial mostrado.
+
+El archivo se descarga según el procedimiento normal del explorador.
+
+También puede abrir los detalles de [unidad de oferta desde los detalles de rendimiento de un portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md#bid-unit-details). Para obtener información acerca de las otras fichas del cuadro de diálogo, consulte &quot;[Ver detalles de rendimiento del portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)&quot;.
 
 ## Crear palabras clave {#keyword-create}
 
