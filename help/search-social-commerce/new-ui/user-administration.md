@@ -1,6 +1,6 @@
 ---
-title: (Nueva IU) Administración de usuarios
-description: Obtenga información sobre cómo administrar el acceso de los usuarios.
+title: (Nueva IU) Administración de usuarios para Search, Social y Commerce
+description: Obtenga información sobre cómo administrar el acceso de usuarios, las funciones de administrador, los perfiles de producto y los permisos de funciones de Adobe Advertising Search, Social y Commerce con Adobe Admin Console.
 feature: Search Introduction
 exl-id: bfc43692-cfb6-468f-90df-a808a21a0c23
 TQID: 'https://experienceleague.adobe.com/b28N5zmqqdZ6Yvg2swGLWv260fWsMUgjK2eW1DDn-uo'
@@ -18,14 +18,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 70595626157c6d39bcf65540c2eb8437e7bd0f4c
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1143'
 ht-degree: 0%
 ---
 # (Nueva IU) Administración de usuarios para Search, Social y Commerce
 
-Algunos usuarios pueden administrar el acceso a la nueva interfaz de usuario de Search, Social y Commerce usando [Adobe Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html), que es la ubicación central para administrar todos los derechos y la administración de usuarios de Adobe. Los usuarios se clasifican como usuarios finales o administradores. El equipo de cuenta de Adobe le notificará si es administrador. Si es administrador, consulte las siguientes secciones para identificar los permisos y flujos de trabajo para administrar usuarios.
+Algunos usuarios pueden administrar el acceso a la nueva interfaz de usuario de Search, Social y Commerce usando [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html), que es la ubicación central para administrar todos los derechos y la administración de usuarios de Adobe. Los usuarios se clasifican como usuarios finales o administradores. El equipo de cuenta de Adobe le notificará si es administrador. Si es administrador, consulte las siguientes secciones para identificar los permisos y flujos de trabajo para administrar usuarios.
 
 ## Tipos de administradores
 
@@ -60,6 +60,8 @@ La nueva interfaz de usuario para Search, Social y Commerce tiene los siguientes
 <!-- These don't correspond exactly to the GUI menu -->
 
 Una marca de verificación (✓) indica que el permiso está incluido en el perfil del producto.
+
+Los permisos de vista y edición son independientes. El permiso para ver una función no permite por sí solo a un usuario crear, editar o eliminar sus datos. Los perfiles de producto personalizados pueden proporcionar diferentes combinaciones de permisos de los que se muestran para los perfiles de producto predeterminados.
 
 **Administración de Portfolio**
 
@@ -137,9 +139,32 @@ Noone has permissions as of 6/1; spelling [sic]:
 | Ver cuentas MCC | ✓ | ✓ | ✓ | ✓ |
 | Editar cuentas MCC | | ✓ | | ✓ |
 
+<!--
+
+Include? And why aren't all edit permissions available for some standard profiles?
+
+### Permissions for custom product profiles
+
+When you create a custom product profile, include the view permissions for the features that users need to open and the separate permissions for the actions they need to perform. The following permissions cover additional capabilities that aren't listed in the default-profile tables above.
+
+| Capability | Permissions |
+|---|---|
+| View and create client instances | [!UICONTROL View Instances] and [!UICONTROL Create Instances] |
+| View and edit keywords and negative keywords | [!UICONTROL View Keywords] and [!UICONTROL Edit Keywords] |
+| View and edit product groups | [!UICONTROL View Product Groups] and [!UICONTROL Edit Product Groups] |
+| View and edit auto targets | [!UICONTROL View Auto Targets] and [!UICONTROL Edit Auto Targets] |
+| View and edit placements and negative placements | [!UICONTROL View Placements] and [!UICONTROL Edit Placements] |
+| View and edit extensions | [!UICONTROL View Extensions] and [!UICONTROL Edit Extensions] |
+| View and edit constraints | [!UICONTROL View Constraints] and [!UICONTROL Edit Constraints] |
+| View spreadsheet feeds | [!UICONTROL View Spreadsheets] |
+
+For example, permission to view client instances doesn't by itself allow a user to create an instance. Similarly, permission to view keywords doesn't by itself allow a user to edit keywords or negative keywords.
+
+-->
+
 ## Tareas para administradores
 
-### Inicie sesión en Adobe Admin Console y ábralo en Search, Social y Commerce
+### Inicie sesión en Adobe Admin Console y ábralo en Search, Social y Commerce {#open-admin-console}
 
 >[!PREREQUISITES]
 >
@@ -151,7 +176,7 @@ Noone has permissions as of 6/1; spelling [sic]:
 
    1. Escriba su ID de [!DNL Adobe] y haga clic en **[!UICONTROL Continue]**.
 
-   1. Seleccione **[!UICONTROL Personal Account]&quot; o &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Seleccione **[!UICONTROL Personal Account]** o **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Seleccione la organización de CX Enterprise aplicable.
 
@@ -167,9 +192,9 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
 1. [Inicie sesión en Adobe Admin Console y ábralo en Search, Social y Commerce](#open-admin-console).
 
-1. (Opcional) [Agregue otro administrador del sistema](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise) como copia de seguridad.
+1. (Opcional) [Agregue otro administrador del sistema](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) como copia de seguridad.
 
-1. Delegar la administración de productos y usuarios agregando administradores de productos[&#128279;](https://helpx.adobe.com/es/enterprise/using/admin-roles.html#enterprise).
+1. Delegar la administración de productos y usuarios agregando administradores de productos](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).[
 
 ### Flujo de trabajo para administradores de productos
 
@@ -177,9 +202,9 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
 1. [Inicie sesión en Adobe Admin Console y ábralo en Search, Social y Commerce](#open-admin-console).
 
-1. Si es necesario, cree usuarios finales [individualmente](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html) o [de forma masiva](https://helpx.adobe.com/es/enterprise/using/bulk-upload-users.html).
+1. Si es necesario, cree usuarios finales [individualmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) o [de forma masiva](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html).
 
-1. (Opcional) Cree [grupos de usuarios](https://helpx.adobe.com/es/enterprise/using/user-groups.html) para la instancia y asigne usuarios a cada grupo de usuarios.
+1. (Opcional) Cree [grupos de usuarios](https://helpx.adobe.com/enterprise/using/user-groups.html) para la instancia y asigne usuarios a cada grupo de usuarios.
 
    Si la instancia tiene muchos usuarios, cree grupos de usuarios para asegurarse de que se asignan los perfiles adecuados a los usuarios en función de su nivel de experiencia. (Consulte el paso 4 para asignar grupos de usuarios a perfiles de producto). Puede crear grupos de usuarios en función de la línea de negocio, las necesidades de acceso de los usuarios, la fecha de contratación de los usuarios u otros criterios.
 
@@ -187,7 +212,7 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
    >
    >Los nombres de los grupos de usuarios deben comunicar claramente los derechos que se deben asignar al grupo de usuarios. Por ejemplo, si desea crear un grupo de usuarios con derechos de &quot;Solo lectura&quot;, incluya &quot;Solo lectura&quot; en el nombre del grupo de usuarios, como &quot;Acme_Uk_ReadOnly&quot; o &quot;Acme_ReadOnly&quot;.
 
-1. (Opcional) [Cree perfiles de producto personalizados](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) con conjuntos de permisos definidos.
+1. (Opcional) [Cree perfiles de producto personalizados](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) con conjuntos de permisos definidos.
 
    Los perfiles personalizados se añaden a los cuatro perfiles de producto predeterminados que ya están disponibles.
 
@@ -195,10 +220,10 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
    **Precaución:** Los permisos del producto son muy granulares. Tenga cuidado al configurar perfiles de producto personalizados o puede omitir la funcionalidad que desea incluir.
 
-1. [Asigne cada usuario o grupo de usuarios al perfil de producto correspondiente](https://helpx.adobe.com/es/enterprise/using/manage-product-profiles.html) de forma manual o en lotes.
+1. [Asigne cada usuario o grupo de usuarios al perfil de producto correspondiente](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) de forma manual o en lotes.
 
 ## Guía de administración del usuario completa y vínculos adicionales
 
-* Para obtener más información acerca de la administración de usuarios mediante Adobe Admin Console, consulte &quot;[Guía de administración de Adobe Enterprise &amp; Teams](https://helpx.adobe.com/es/enterprise/admin-guide.html)&quot;, incluida la [descripción general de Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html).
+* Para obtener más información acerca de la administración de usuarios mediante Adobe Admin Console, consulte &quot;[Guía de administración de Adobe Enterprise &amp; Teams](https://helpx.adobe.com/enterprise/admin-guide.html)&quot;, incluida la [descripción general de Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
