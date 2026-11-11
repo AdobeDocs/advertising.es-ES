@@ -27,16 +27,16 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
+source-git-commit: e5b13eece252d5f0a86d86e0449dd13483c3665f
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1745'
 ht-degree: 0%
 ---
 # Acerca de los informes personalizados
 
-Los informes personalizados le permiten personalizar el contenido y el envío de los datos del informe utilizando las dimensiones de la campaña (como el anunciante, la ubicación, los sitios o los geos) y las métricas que más le importan. Puede hacer lo siguiente:
+Los informes personalizados le permiten personalizar los datos del informe utilizando las dimensiones de la campaña (como el anunciante, la ubicación, los sitios o los geos) y las métricas que más le importan. Puede hacer lo siguiente:
 
-* Configure completamente los informes de rendimiento de campaña a nivel granular.
+* Configure los informes de rendimiento de las campañas en un nivel granular.
 
 * Elija entre las plantillas de informe preconfiguradas y, si lo desea, personalícelas más.
 
@@ -59,13 +59,13 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
   * **[!UICONTROL All-in Cost]**: (Anunciantes solo con Advertising Creative y Advertising DSP) Use este informe para ver cuánto se atribuyó el gasto de Advertising DSP al servicio de publicidad para Adobe Creative. Puede ver datos creativos, de atributos, de destinatarios y de otro tipo en los niveles de campaña, paquete, ubicación y publicidad.
 
-  * **[!UICONTROL Billing]:** Use este informe para comprender las métricas de facturación clave, como las métricas de gasto para la facturación de medios por campaña. No hay datos disponibles para ubicaciones destinadas a ID universales.
+  * **[!UICONTROL Billing]:** Use este informe para comprender las métricas de facturación clave, como las métricas de gasto para la facturación de medios, por campaña. Puede ver los detalles por fecha y por los atributos de cada paquete incluido, vuelo del paquete, ubicación, segmento, fuente o dispositivo. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
     >[!NOTE]
     >
-    >Este informe incluye datos sobre el segmento de facturación. Si a un usuario o dispositivo se le sirve una impresión que pertenece a varios segmentos, solo se acredita un segmento facturable con la impresión.
+    >Este informe se basa en los segmentos a los que se atribuyen las impresiones. Cuando a un usuario o dispositivo se le sirve una impresión que pertenece a varios segmentos, solo a un segmento se le acredita la impresión y el gasto se suma al total real (facturado).
 
-  * **[!UICONTROL Content]:** Use este informe para comprender la entrega de impresiones y otras métricas según dimensiones de contenido especificadas (como género, calidad de producción y clasificación de contenido), de modo que pueda optimizar el direccionamiento y garantizar la seguridad de la marca. Además de las dimensiones de contenido, el informe incluye la mayoría de las dimensiones, métricas y filtros estándar. Los datos por dimensión de contenido están disponibles para [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] y [!DNL Triplelift]. Los editores pasan las señales de contenido durante el flujo de ofertas y están sujetas a disponibilidad.
+  * **[!UICONTROL Content]:** Use este informe para comprender la entrega de impresiones y otras métricas según dimensiones de contenido especificadas (como género, calidad de producción y clasificación de contenido), de modo que pueda optimizar el direccionamiento y garantizar la seguridad de la marca. Además de las dimensiones de contenido, el informe incluye la mayoría de las dimensiones, métricas y filtros estándar. Los datos por dimensión de contenido están disponibles para [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] y [!DNL Triplelift]. Los editores pasan señales de contenido durante el flujo de ofertas, según la disponibilidad.
 
   * **[!UICONTROL Conversion]:** Use este informe para comprender el rendimiento de sus campañas en función de las métricas de conversión capturadas mediante el seguimiento de conversiones de Adobe Advertising. Este informe incluye la atribución de múltiples contactos.
 
@@ -73,7 +73,7 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
   * **[!UICONTROL Device]:** Utilice esta plantilla rellenada previamente para ver las métricas clave según las dimensiones relacionadas con el dispositivo.
 
-  * **[!UICONTROL DSP Self-Attributed Conversions]:** Use este informe para ver la contribución de Advertising DSP a las conversiones, incluidos los recorridos de clientes en los que DSP desempeñó un papel pero un contacto posterior, como un clic de búsqueda de Adobe Advertising, recibió crédito por último clic en otros informes. Consulte &quot;[Preguntas más frecuentes acerca de informes personalizados](/help/dsp/reports/faq-reports.md)&quot; para obtener más información.
+  * **[!UICONTROL DSP Self-Attributed Conversions]:** Use este informe para ver la contribución de Advertising DSP a las conversiones, incluidos los recorridos de clientes en los que DSP desempeñó un papel pero un contacto posterior (como un clic en la búsqueda de Adobe Advertising) recibió crédito por último clic en otros informes. Consulte &quot;[Preguntas más frecuentes acerca de informes personalizados](/help/dsp/reports/faq-reports.md)&quot; para obtener más información.
 
     **Importante:** Este informe no cambia la metodología de atribución ni la atribución existentes en los informes de Adobe Analytics. Proporciona una vista complementaria específica de DSP de la contribución de conversión.
 
@@ -85,7 +85,7 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
     >* La frecuencia se calcula a partir de una muestra de datos.
     >* En algunos inventarios, los editores no transmiten un identificador de dispositivo, lo que impide el seguimiento de la frecuencia. Este informe incluye solo las impresiones para las que había un identificador de dispositivo disponible.
 
-  * **[!UICONTROL Frequency (by App/Site)]:** Use este informe para comprender a cuántos usuarios únicos llegaron sus anuncios por aplicación o por sitio. También puede ver a cuántos usuarios únicos llegaron sus anuncios a través de una aplicación o sitio en particular (&quot;usuarios únicos distintos&quot;).
+  * **[!UICONTROL Frequency (by App/Site)]:** Use este informe para comprender el alcance de los anuncios por aplicación o sitio. También puede ver cuántos usuarios únicos han visitado sus anuncios únicamente a través de una aplicación o sitio determinado (&quot;usuarios únicos distintos&quot;).
 
     >[!NOTE]
     >
@@ -98,7 +98,7 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
   * **[!UICONTROL Household Reach & Frequency]:** Use este informe para ver las impresiones, el alcance y la frecuencia de una sola dimensión en los formatos de anuncio a nivel doméstico en función de la dirección IP, en lugar de a nivel de dispositivo/cookie. Utilice las perspectivas para optimizar la combinación de medios, mejorar el rendimiento e identificar oportunidades de alcance incremental. Consulte &quot;[Preguntas más frecuentes acerca de informes personalizados](/help/dsp/reports/faq-reports.md)&quot; para obtener más información. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
-  * **[!UICONTROL Margin]:** Use este informe para ver métricas clave como margen, ganancias y otras métricas de gasto por campaña o ubicación. No hay datos disponibles para ubicaciones destinadas a ID universales.
+  * **[!UICONTROL Margin]:** Use este informe para ver los márgenes, las ganancias y otras métricas clave de gasto por campaña o ubicación. No hay datos disponibles para ubicaciones destinadas a ID universales.
 
   * **[!UICONTROL Path to Conversion]:** Use este informe para identificar cómo optimizar presupuestos y personalizar anuncios en función de secuencias de interacción de anuncios de alto rendimiento. El informe muestra la secuencia de puntos de interacción en el mismo hogar que llevan a cada una de las métricas de conversión seleccionadas en el rango de datos especificado. El informe utiliza un periodo retrospectivo especificado entre la primera interacción y una conversión y puede incluir una dimensión:
 
@@ -123,7 +123,7 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
   * **[!UICONTROL Segment]:** Utilice esta plantilla rellenada previamente para evaluar el rendimiento por segmento de audiencia de destino. El informe incluye el nombre, la descripción y la clave del segmento, así como el nombre del proveedor del segmento. Puede incluir métricas de conversión y datos de objetivos personalizados, pero no de frecuencia ni de cualquier métrica doméstica.
 
     >[!NOTE]
-    >* Una impresión que coincide con varios segmentos se atribuye a todos los segmentos coincidentes, con una fila para cada segmento. Del mismo modo, todas las métricas estándar, de gasto y de rendimiento para la impresión se atribuyen a todos los segmentos coincidentes. Por este motivo, las métricas de las filas de segmentos combinadas pueden sumar más que los totales de campaña.
+    >* Si una impresión coincide con varios segmentos, la impresión y todas sus métricas de estándar, gasto y rendimiento se atribuyen a cada segmento coincidente. Las métricas de las filas de segmentos combinadas pueden ser superiores a los totales de la campaña.
     >* Las métricas de conversión y los datos de objetivo personalizados para segmentos están disponibles a partir del 2 de agosto de 2019. El resto de los datos de los segmentos estarán disponibles a partir del 1 de junio de 2018.
 
   * **[!UICONTROL Site]:** De forma predeterminada, incluye las métricas estándar, el gasto neto total de medios y el gasto neto total facturable por sitio.
@@ -152,7 +152,7 @@ Puede crear nuevos informes personalizados, editar los informes existentes o dup
 
 * **[!UICONTROL Ready to download]:** (solo informes recurrentes) Una o más instancias del informe están disponibles para descargar y se han programado más instancias de informe.
 
-* **[!UICONTROL Failed]:** Error en el trabajo de informe. Para ver por qué las instancias de informe individuales fallaron en un grupo de informes, haga clic en ![la flecha abajo](/help/dsp/assets/chevron-down.png "la flecha abajo") junto a [!UICONTROL Download]. Los trabajos de informe con errores se indican con un icono de error (![indicador de error](/help/dsp/assets/indicator-critical.png "indicador de error")). Mantenga el cursor sobre el icono de error para ver una descripción del error.
+* **[!UICONTROL Failed]:** Error en el trabajo de informe. Para ver por qué las instancias de informe individuales fallaron en una fila de informe, haga clic en ![la flecha abajo](/help/dsp/assets/chevron-down.png "la flecha abajo") junto a [!UICONTROL Download]. Los trabajos de informe con errores se indican con un icono de error (![indicador de error](/help/dsp/assets/indicator-critical.png "indicador de error")). Mantenga el cursor sobre el icono de error para ver una descripción del error.
 
 * **[!UICONTROL Completed]:** Para informes no recurrentes, el informe se ha completado. En los informes recurrentes, todas las instancias de informe se finalizan. Puede descargar todos los informes completados en los últimos cuatro meses.
 
