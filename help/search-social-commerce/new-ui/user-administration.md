@@ -194,7 +194,7 @@ Siga este flujo de trabajo para cada instancia de cliente de Search, Social y Co
 
 1. (Opcional) [Agregue otro administrador del sistema](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) como copia de seguridad.
 
-1. Delegar la administración de productos y usuarios agregando administradores de productos](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).[
+1. Delegar la administración de productos y usuarios agregando administradores de productos[&#128279;](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).
 
 ### Flujo de trabajo para administradores de productos
 
