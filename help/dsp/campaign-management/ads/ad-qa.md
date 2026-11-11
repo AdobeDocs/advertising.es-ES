@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 ---
 # Revisar y editar los detalles de la publicidad mediante hojas de edición masiva
@@ -56,7 +56,7 @@ Un mensaje de notificación indica cuándo está disponible la descarga del arch
 
    * En el mensaje de notificación, haga clic en **[!UICONTROL Download].**
 
-   * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
+   * En la parte derecha de la barra de menú superior, haga clic en ![Administrador de trabajos](/help/creative/assets/job-manager.png "Administrador de trabajos") (**[!UICONTROL Job Manager]**). Haga clic en **[!UICONTROL Download]** junto al trabajo.
 
      El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 

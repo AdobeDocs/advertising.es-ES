@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '721'
 ht-degree: 0%
 ---
 # Revisión y edición de la configuración del paquete mediante hojas de edición masiva
@@ -61,7 +61,7 @@ Un mensaje de notificación indica cuándo está disponible la descarga del arch
 
    * En el mensaje de notificación, haga clic en **[!UICONTROL Download].**
 
-   * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
+   * En la parte derecha de la barra de menú superior, haga clic en ![Administrador de trabajos](/help/creative/assets/job-manager.png "Administrador de trabajos") (**[!UICONTROL Job Manager]**). Haga clic en **[!UICONTROL Download]** junto al trabajo.
 
      El archivo se guardará en la carpeta Descargas del explorador.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
@@ -87,7 +87,7 @@ Al descargar la configuración de paquetes específicos, el archivo de hoja de e
 
    * En el mensaje de notificación, haga clic en **[!UICONTROL Download].**
 
-   * En la parte derecha de la barra de menú superior, haga clic en ![Trabajos](/help/dsp/assets/downloads.png). Haga clic en **[!UICONTROL Download]** junto al trabajo.
+   * En la parte derecha de la barra de menú superior, haga clic en ![Administrador de trabajos](/help/creative/assets/job-manager.png "Administrador de trabajos") (**[!UICONTROL Job Manager]**). Haga clic en **[!UICONTROL Download]** junto al trabajo.
 
      El archivo se guarda en la carpeta Descargas del explorador. Consulte &quot;[Columnas de colocación en hojas de edición masiva descargadas/cargadas](#qa-sheet-columns)&quot; para obtener una lista de las columnas incluidas.
 
@@ -115,7 +115,7 @@ Puede cargar la configuración de sus paquetes, incluidas las ubicaciones y las 
 
    1. Haga clic en **[!UICONTROL Upload]**.
 
-1. (Opcional) Para comprobar que las actualizaciones se han procesado, haga clic en ![Trabajos](/help/dsp/assets/downloads.png) en la parte derecha de la barra de menús superior.
+1. (Opcional) Para comprobar que las actualizaciones se han procesado, haga clic en ![Administrador de trabajos](/help/creative/assets/job-manager.png "Administrador de trabajos") (**[!UICONTROL Job Manager]**) en la parte derecha de la barra de menús superior.
 
 Cuando falla cualquier actualización de configuración, puede descargar un archivo de error de hoja de edición masiva con codificación de color para mostrar qué configuración (filas) se guardaron y cuáles fallaron, con un motivo para cada error. A continuación, puede solucionar los problemas dentro del mismo archivo y cargarlo de nuevo para procesar la información corregida.
 

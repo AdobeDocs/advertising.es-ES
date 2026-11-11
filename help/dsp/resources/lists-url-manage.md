@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d4b37dbcc7736e69dbbb02a19808c2d71758711c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '702'
 ht-degree: 0%
 ---
 # Administración de listas de URL
@@ -73,7 +73,7 @@ Puede crear y administrar listas de direcciones URL de sitios web y aplicaciones
 
      1. Para ver el estado de la tarea, incluido el número de direcciones URL agregadas y el número de valores fallidos:
 
-        1. Haga clic en ![Trabajos](/help/dsp/assets/downloads.png) en la parte derecha de la barra de menús superior.
+        1. Haga clic en ![Administrador de trabajos](/help/creative/assets/job-manager.png "Administrador de trabajos") (**[!UICONTROL Job Manager]**) en la parte derecha de la barra de menú superior.
 
         1. (Si no se agregaron filas) Para descargar un archivo de error con los valores erróneos, haga clic en **[!UICONTROL Download]** junto al trabajo.
 
@@ -141,7 +141,7 @@ Puede crear y administrar listas de direcciones URL de sitios web y aplicaciones
 
      1. Para ver el estado de la tarea, incluido el número de direcciones URL agregadas y el número de valores fallidos:
 
-        1. Haga clic en ![Trabajos](/help/dsp/assets/downloads.png) en la parte derecha de la barra de menús superior.
+        1. Haga clic en ![Administrador de trabajos](/help/creative/assets/job-manager.png "Administrador de trabajos") (**[!UICONTROL Job Manager]**) en la parte derecha de la barra de menú superior.
 
         1. (Si no se agregaron filas) Para descargar un archivo de error con los valores erróneos, haga clic en **[!UICONTROL Download]** junto al trabajo.
 
