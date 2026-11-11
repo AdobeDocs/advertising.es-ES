@@ -1,6 +1,6 @@
 ---
 title: (Nueva IU) Ver detalles de rendimiento del portafolio
-description: Obtenga información sobre cómo ver los detalles de rendimiento del portafolio, incluidas las métricas reales y predichas a nivel de portafolio y para cada campaña asignada.
+description: Obtenga información sobre cómo ver el rendimiento del portafolio, los detalles de la unidad de oferta de palabras clave, las previsiones y el historial de ofertas, y exportar el historial de unidades de ofertas en Adobe Advertising Search, Social y Commerce.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1168'
 ht-degree: 0%
 ---
 # (Nueva IU) Ver detalles de rendimiento del portafolio
@@ -58,7 +58,7 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
   * Pestaña [!UICONTROL History]: todas las ofertas de los últimos 36 días, incluidos los datos siguientes de cada una de las ofertas: fecha y hora, impresiones, clics, coste total, CPC promedio, posición promedio e ingresos ponderados mostrados por fecha de clic. Se muestran los datos de todos los dispositivos y de cada tipo de dispositivo (móvil, equipo y tableta).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. **Note:** Whenever the optimization method changes from v6 to v7 and vice-versa, the history data is reset the same day. -->
 
-  * Pestaña [!UICONTROL Detail]: el tipo de coincidencia (cuando corresponda) y el grupo de publicidad principal, la campaña, la cuenta de red de publicidad y el portafolios al que pertenece la unidad de oferta.
+  * Pestaña [!UICONTROL Details]: la palabra clave, el tipo de coincidencia (cuando corresponda) y el grupo de anuncios principal, la campaña, la cuenta de red de anuncios y el portafolios al que pertenece la unidad de oferta.
 
 ## Abrir los detalles de rendimiento de un portafolio
 
@@ -126,7 +126,7 @@ Los detalles de cada grupo de publicidad incluyen el coste, los clics y el valor
 
 * Para ver todos los grupos de anuncios de una campaña dentro del portafolio, haga clic en la pestaña **[!UICONTROL Campaigns]** y luego haga clic en el nombre de la campaña.
 
-## Mostrar y ver detalles sobre palabras clave en el portafolio
+## Mostrar y ver detalles sobre palabras clave en el portafolio {#bid-unit-details}
 
 Los detalles de cada palabra clave incluyen el ID de unidad de oferta; el tipo de coincidencia; el coste real y predicho, los clics y el valor objetivo; y la diferencia de coste, clics y valor objetivo. Puede ver los detalles de la unidad de oferta acerca de una palabra clave individual.
 
@@ -137,6 +137,20 @@ Los detalles de cada palabra clave incluyen el ID de unidad de oferta; el tipo d
    * Para ver todas las palabras clave de un grupo de anuncios dentro del portafolios, haga clic en la ficha **[!UICONTROL Ad Groups]** y, a continuación, haga clic en el nombre del grupo de anuncios.
 
 1. (Opcional) Para ver los detalles de una unidad de oferta específica, haga clic en el valor de la columna **[!UICONTROL Bid Unit ID]**. Haga clic en cualquier ficha de [!UICONTROL Bid Unit Details] para obtener más información.
+
+### Ver y descargar el historial de una unidad de oferta individual {#bid-unit-history}
+
+1. [Abrir los detalles de la unidad de oferta](#bid-unit-details).
+
+1. Haga clic en la ficha **[!UICONTROL History]**.
+
+1. (Opcional) En el menú de dispositivos situado encima de la tabla, seleccione un tipo de dispositivo para el que ver el historial. De forma predeterminada, se muestran los datos de todos los dispositivos.
+
+1. (Opcional) Cuando haya datos de historial disponibles, haga clic en **[!UICONTROL Export as csv]** para descargar el historial mostrado.
+
+El archivo se descarga según el procedimiento normal del explorador.
+
+Para ver el historial de ofertas de todo el portafolio y cambiar su intervalo de fechas, consulte &quot;[Ver el historial de cambios de ofertas de un portafolio](portfolio-view-change-history.md#portfolio-bid-change-history)&quot;.
 
 ## Ver y editar la configuración del portafolio
 

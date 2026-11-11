@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Measurement
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 1388e37872b8e41fbe58c7a21ebe8ebf5b6b0b6c
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1751'
 ht-degree: 0%
 ---
 # Acerca de los informes personalizados
@@ -120,11 +120,10 @@ Puede generar informes una vez o programarlos diariamente, semanalmente o mensua
 
     Se muestran datos para cada longitud de ruta de hasta 10; los datos para las longitudes de ruta superiores a 10 se agrupan.
 
-  * **[!UICONTROL Segment]:** Utilice esta plantilla rellenada previamente para ver las métricas clave por segmento.
+  * **[!UICONTROL Segment]:** Utilice esta plantilla rellenada previamente para evaluar el rendimiento por segmento de audiencia de destino. El informe incluye el nombre, la descripción y la clave del segmento, así como el nombre del proveedor del segmento. Puede incluir métricas de conversión y datos de objetivos personalizados, pero no de frecuencia ni de cualquier métrica doméstica.
 
     >[!NOTE]
-    >
-    >* El objetivo de este informe es mostrar el rendimiento de los distintos segmentos segmentados. Utiliza datos de abono de segmentos. Cuando se sirve una impresión a una persona o dispositivo que pertenece a dos o más segmentos de destino, este informe incluye una fila para cada segmento. Por este motivo, es posible que los totales de este informe no coincidan con la entrega real.
+    >* Una impresión que coincide con varios segmentos se atribuye a todos los segmentos coincidentes, con una fila para cada segmento. Del mismo modo, todas las métricas estándar, de gasto y de rendimiento para la impresión se atribuyen a todos los segmentos coincidentes. Por este motivo, las métricas de las filas de segmentos combinadas pueden sumar más que los totales de campaña.
     >* Las métricas de conversión y los datos de objetivo personalizados para segmentos están disponibles a partir del 2 de agosto de 2019. El resto de los datos de los segmentos estarán disponibles a partir del 1 de junio de 2018.
 
   * **[!UICONTROL Site]:** De forma predeterminada, incluye las métricas estándar, el gasto neto total de medios y el gasto neto total facturable por sitio.
