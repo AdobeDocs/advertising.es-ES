@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: fcd97d29c5009d22100283970892d258043b2d90
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '4143'
 ht-degree: 1%
 ---
 # Administrar plantillas de publicidad en [!UICONTROL Creative Studio]
@@ -39,7 +39,9 @@ Probably not necessary:
 
 Creación:
 
-* [Generación de una plantilla de anuncio mediante IA](#template-generate)
+* [Generación de una plantilla de anuncio a partir de un mensaje de texto mediante IA](#template-generate-from-text)
+
+* [Generación de una plantilla de anuncio a partir de una imagen mediante IA](#template-generate-from-image)
 
 * [Creación manual de una plantilla de anuncio](#template-create)
 
@@ -100,23 +102,75 @@ Applied filters appear as chips below the toolbar. To refine or remove an active
 
 ## Generación de una plantilla de anuncio mediante IA {#template-generate}
 
-*característica de Beta*
+Use IA en [!UICONTROL Creative Studio] para generar una plantilla de anuncio en pantalla editable a partir de un mensaje de texto o una imagen de anuncio en pantalla estática existente.
 
-Use IA en [!UICONTROL Creative Studio] para convertir una imagen de anuncio en pantalla estática existente en una plantilla de anuncio en pantalla editable. Un asistente de tres pasos le ayuda a generar y revisar la plantilla, solicitar cambios con lenguaje natural y abrir el editor de plantillas para realizar cambios manuales y guardar la plantilla.
+### Generación de una plantilla de anuncio a partir de un mensaje de texto {#template-generate-from-text}
 
-### Requisitos previos
+Describa la plantilla que desea crear; si lo desea, seleccione un perfil de marca y una imagen y revise varias plantillas generadas. No necesita un anuncio de imagen existente.
 
-Necesita un anuncio de imagen estática en una biblioteca de Creative. Este flujo de trabajo selecciona anuncios de las bibliotecas; no carga una imagen nueva directamente en el cuadro de diálogo de generación.
+1. En el menú principal, haga clic en **[!UICONTROL Creative Studio]**.
 
-<!--
+1. Haga clic en la ficha **[!UICONTROL Templates]**.
 
-Publish this when prompt-based generation becomes available:
+1. (Opcional) Seleccione un anunciante de la lista de anunciantes en la parte superior de la página para ver los perfiles de marca de ese anunciante.
 
-To generate a template from an existing image, you need a static image ad in a Creative Library. This option selects ads from your libraries; it doesn't upload a new image directly in the generation dialog. You don't need an existing ad image to generate a template from a prompt.
+1. En el cuadro **[!UICONTROL Use AI to Generate a New Display Ad Template]**, haga clic en **[!UICONTROL Generate]**.
 
--->
+1. En el cuadro de diálogo **[!UICONTROL Generate New Ad Template]**, haga clic en la ficha **[!UICONTROL Generate from Prompt]** si aún no está seleccionada.
 
-### Paso 1: Generar y revisar la plantilla
+1. Seleccione **[!UICONTROL Template size]**.
+
+   El valor predeterminado es 300 x 250 píxeles. No puede cambiar el tamaño después de que la generación comience en la sesión actual.
+
+1. (Opcional) Seleccione un perfil de marca de la lista **[!UICONTROL Brand]** para proporcionar un contexto de marca para la generación.
+
+1. (Opcional) Para incluir una imagen en la plantilla generada:
+
+   1. Haga clic en **[!UICONTROL Add image]**.
+
+   1. En la vista **[!UICONTROL Select from Asset Library]**, seleccione una imagen existente o haga clic en **[!UICONTROL Browse files]** para cargar una.
+
+      Los formatos de carga admitidos son PNG, JPEG, GIF y TIFF. Puede adjuntar una imagen a la vez.
+
+   1. Haga clic en **[!UICONTROL Add to chat]**.
+
+1. En el campo **[!UICONTROL Generation prompt]**, describa la plantilla que desea crear. Incluya detalles como el diseño, el titular, call to action y el estilo visual.
+
+   Por ejemplo, escriba `Create a summer sale ad with a blue background, the headline "Summer Savings," and a "Shop Now" button`.
+
+1. Haga clic en **[!UICONTROL Generate]** y espere a que aparezcan las vistas previas de la plantilla.
+
+   Cada solicitud genera hasta cuatro plantillas. Revise el texto, las imágenes y el diseño antes de elegir una plantilla.
+
+1. (Opcional) Para ver más opciones, haga clic en **[!UICONTROL Generate more results]**. También puede revisar la solicitud y hacer clic en **[!UICONTROL Generate]**.
+
+   Los resultados se acumulan en el cuadro de diálogo, hasta 20 plantillas generadas por sesión.
+
+1. Mantenga el cursor sobre la plantilla que desee usar y haga clic en **[!UICONTROL Open in Editor]**.
+
+   El editor de plantillas de visualización se abre en una nueva pestaña del explorador, y los resultados generados quedan disponibles en la pestaña original.
+
+1. Revise los elementos generados y realice los cambios restantes con los [controles del editor de plantillas](#template-controls).
+
+1. Haga clic en **[!UICONTROL Save]**.
+
+1. En el cuadro de diálogo **[!UICONTROL Save As New Template]**, escriba **[!UICONTROL Template name]**, seleccione **[!UICONTROL Advertiser]**, agregue etiquetas de forma opcional y, a continuación, haga clic en **[!UICONTROL Save]**.
+
+   La plantilla se guarda como una copia nueva y la ficha del editor vuelve a la vista **[!UICONTROL Templates]**. Luego puede usar la plantilla guardada para [generar variaciones de anuncios](#ad-variations-generate).
+
+>[!NOTE]
+>
+> Una vez iniciada la generación, no puede cambiar entre la generación de texto y la de imágenes en el mismo cuadro de diálogo. Para volver a empezar con un tamaño o método de generación diferente, haga clic en **[!UICONTROL Cancel]** y vuelva a abrir el cuadro de diálogo. Guarde primero las plantillas que desee conservar en el editor.
+
+### Generación de una plantilla de anuncio a partir de una imagen {#template-generate-from-image}
+
+Convierta una imagen de anuncio en pantalla estática existente en una plantilla de anuncio en pantalla editable, solicite cambios mediante lenguaje natural y abra el editor de plantillas para realizar cambios manuales y guardar la plantilla.
+
+#### Requisitos previos
+
+Esta función requiere un anuncio de imagen estática en una biblioteca de Creative. Este flujo de trabajo selecciona anuncios de las bibliotecas; no carga una imagen nueva directamente en el cuadro de diálogo de generación.
+
+#### Paso 1: Generar y revisar la plantilla
 
 1. En el menú principal, haga clic en **[!UICONTROL Creative Studio]**.
 
@@ -126,7 +180,7 @@ To generate a template from an existing image, you need a static image ad in a C
 
 1. En el cuadro **[!UICONTROL Use AI to Generate a New Display Ad Template]**, haga clic en **[!UICONTROL Generate]**.
 
-1. En el cuadro de diálogo **[!UICONTROL Generate New Ad Template]**, seleccione **[!UICONTROL Generate from Existing Standard Ad Image]** si aún no está seleccionado.
+1. En el cuadro de diálogo **[!UICONTROL Generate New Ad Template]**, haga clic en la ficha **[!UICONTROL Generate from Existing Standard Ad Image]**.
 
 1. Seleccione la biblioteca que contiene el anuncio de imagen de la lista **[!UICONTROL Ad Library]**.
 
@@ -134,37 +188,9 @@ To generate a template from an existing image, you need a static image ad in a C
 
    La generación comienza automáticamente, utilizando la anchura y altura del anuncio seleccionado.
 
-<!--
-
-Switch to this when prompt-based generation becomes available:
-
-1. In the **[!UICONTROL Generate New Ad Template]** dialog, choose how to generate the template:
-
-   * **[!UICONTROL Generate from Prompt]:** Describe the ad template you want to create using a text prompt.
-
-   * **[!UICONTROL Generate from Existing Standard Ad Image]:** Convert an existing static image ad into an editable template.
-
-1. Follow the steps for your selected option:
-
-   * From a prompt:
-
-      1. Enter a description of the template you want to create. Include details such as the layout, headline, call to action, and visual style.
-
-      1. Follow the on-screen instructions to generate the template.
-
-   * From an existing standard ad image:
-
-      1. Select the library containing the image ad from the **[!UICONTROL Ad Library]** list.
-
-      1. Hold the cursor over the image ad card and click **[!UICONTROL Use this Standard Ad]**.
-
-         Generation begins automatically, using the selected ad's width and height.
-
--->
-
 1. [Revise y perfeccione la plantilla generada](#template-review).
 
-### Paso 2: revisar y perfeccionar la plantilla {#template-review}
+#### Paso 2: revisar y perfeccionar la plantilla {#template-review}
 
 1. Espere a que finalice la generación y, a continuación, revise la vista previa de la plantilla y el panel **[!UICONTROL Layers]**, cuando esté disponible.
 
@@ -182,7 +208,7 @@ Switch to this when prompt-based generation becomes available:
 
    La plantilla generada se abre en el editor de plantillas de visualización.
 
-### Paso 3: Editar y guardar la plantilla {#template-save}
+#### Paso 3: Editar y guardar la plantilla {#template-save}
 
 >[!TIP]
 >
@@ -206,16 +232,11 @@ Luego puede usar la plantilla para [generar variaciones de anuncios](#ad-variati
 
 | Problema | Qué hacer |
 | --- | --- |
+| La generación basada en texto falla o la solicitud es rechazada | Revise el mensaje mostrado, revise la solicitud según sea necesario y haga clic en **[!UICONTROL Generate]** para intentarlo de nuevo. |
+| La sesión ha alcanzado las 20 plantillas generadas | Guarde las plantillas que desee conservar en el editor, haga clic en **[!UICONTROL Cancel]** y vuelva a abrir el cuadro de diálogo de generación para iniciar una nueva sesión. |
+| El editor no se abre a partir de un resultado generado por texto | Habilite las ventanas emergentes para el sitio y vuelva a hacer clic en **[!UICONTROL Open in Editor]**. |
 | No se muestran bibliotecas ni anuncios de imagen al generar a partir de una imagen | Compruebe el anunciante seleccionado y **[!UICONTROL Ad Library]**. Si la biblioteca no tiene imágenes de anuncio estándar, seleccione otra biblioteca que contenga un anuncio de imagen estática existente. |
 | La generación basada en imágenes falla o no se puede convertir la imagen | Revise el mensaje mostrado, haga clic en **[!UICONTROL Back to library]** y seleccione un anuncio de imagen para intentarlo de nuevo. |
-
-<!--
-
-Add when prompt-based generation is available:
-
-| Prompt-based generation fails | Review the displayed message and revise your prompt before trying again. |
-
--->
 
 ## Creación manual de una plantilla de anuncio {#template-create}
 

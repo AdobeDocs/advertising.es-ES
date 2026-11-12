@@ -10,9 +10,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5d86237db5b3f2e37920dcb60397ee15a305e464
+source-git-commit: 1683592f2645be8911a142b5696ad481393023c3
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '999'
 ht-degree: 0%
 ---
 # Acerca de [!UICONTROL Creative Studio] en [!DNL Advertising Creative]
@@ -31,21 +31,31 @@ ht-degree: 0%
 
 ## Funcionalidades clave
 
-* **Generación de contenido de IA:** Use **[!UICONTROL Ad Variations Generator]** para generar conceptos y variaciones de anuncios a través de una interfaz de chat en lenguaje natural. El asistente de IA puede generar titulares, subtitulares, CTA, copias de cuerpo y variaciones de imagen de fondo, y puede crear nuevas plantillas de tamaño en la misma sesión. Se pueden activar hasta 10 conceptos por sesión.
+* **Crear y administrar plantillas de anuncios:**
 
-* **Compatibilidad con anuncios de vídeo y visualización:** Cree y administre plantillas de anuncios de visualización y plantillas de anuncios de vídeo. Al crear una plantilla, elija **[!UICONTROL Display Ad Template]** o **[!UICONTROL Video Ad Template]** para que coincida con el formato de su campaña.
+  * **Generar a partir de texto usando IA:** [Generar plantillas de anuncios en pantalla a partir de un mensaje de texto](creative-studio-manage-templates.md#template-generate-from-text), incluyendo opcionalmente un perfil de marca y una imagen. Revise varios resultados y, a continuación, abra una plantilla en el editor para personalizar y guardar una copia nueva.
 
-* **Carga de plantillas de HTML5:** Importe plantillas de anuncios de HTML5 existentes cargándolas como archivos ZIP. El cuadro de diálogo **[!UICONTROL Import Templates]** le permite asignar un nombre de anunciante y plantilla antes de realizar la importación.
+  * **Generar a partir de una imagen mediante IA:** [Convierta una imagen de anuncio en pantalla estática existente en una plantilla editable](creative-studio-manage-templates.md#template-generate-from-image). Seleccione un anuncio de imagen de una biblioteca de Creative, revise la plantilla generada y solicite cambios con lenguaje natural. Abra el editor de plantillas para realizar cambios manuales y guardar la plantilla.
 
-* **Compatibilidad con varios tamaños:** Cambiar el tamaño de los anuncios a dimensiones estándar IAB en un solo paso. La API ajusta automáticamente la ubicación y el tamaño del contenido para cada formato, y los controles de lienzo (ampliar/alejar, ajustar a la pantalla, reproducir animaciones) le ayudan a revisar cada tamaño.
+  * **Crear plantillas de anuncios de vídeo y visualización:** Cree y administre plantillas de anuncios de visualización y plantillas de anuncios de vídeo. Al crear una plantilla, elija **[!UICONTROL Display Ad Template]** o **[!UICONTROL Video Ad Template]** para que coincida con el formato de su campaña.
 
-* **Salidas alineadas con la marca:** Cuando se aplica el [perfil de marca](/help/creative/brands/brand-manage.md), la IA utiliza los logotipos, las paletas de color, las directrices de voz, los estándares de imagen y las directrices de canal de la marca para mantener el contenido generado dentro de la marca.
+  * **Importar plantillas de HTML5:** Importe plantillas de anuncios de HTML5 existentes cargándolas como archivos ZIP. El cuadro de diálogo **[!UICONTROL Import Templates]** le permite asignar un nombre de anunciante y plantilla antes de realizar la importación.
 
-* **Acceso a la biblioteca de recursos:** Adjunte imágenes y otros recursos directamente a los mensajes de chat de IA seleccionando en la biblioteca de recursos, para que el contexto visual esté disponible durante la generación de contenido.
+  * **Organizar plantillas:** Marque las plantillas como favoritas, aplique etiquetas y filtre por estado, formato u origen para mantener organizada la biblioteca de plantillas.
 
-* **Integración de fuentes:** Para las campañas de publicidad dinámica, conecte un catálogo de productos o de contenido para generar anuncios a escala y, a continuación, utilice el agente de IA para filtrar, previsualizar y comprobar la calidad de las combinaciones de anuncios generadas por catálogo.
+* **Crear anuncios:**
 
-* **Organización de plantillas:** Marque las plantillas como favoritas, aplique etiquetas y filtre por estado, formato u origen para mantener organizada la biblioteca de plantillas.
+  * **Generar contenido de anuncio estándar mediante IA:** Use **[!UICONTROL Ad Variations Generator]** para generar conceptos y variaciones de anuncios a través de una interfaz de chat en lenguaje natural. El asistente de IA puede generar titulares, subtitulares, CTA, copias de cuerpo y variaciones de imagen de fondo, y puede crear nuevas plantillas de tamaño en la misma sesión. Se pueden activar hasta 10 conceptos por sesión.
+
+  * **Cree elementos creativos dinámicos mediante fuentes:** Para las campañas de publicidad dinámica, conecte un catálogo de productos o de contenido para generar anuncios a escala y, a continuación, utilice el agente de IA para filtrar, previsualizar y comprobar la calidad de las combinaciones de anuncios generadas por catálogo.
+
+* **Personalizar contenido y formatos de anuncios:**
+
+  * **Aplicar directrices de marca:** Cuando se aplica el [perfil de marca](/help/creative/brands/brand-manage.md), la IA utiliza los logotipos, las paletas de color, las directrices de voz, los estándares de imagen y las directrices de canal de la marca para mantener el contenido generado dentro de la marca.
+
+  * **Adjunte recursos de la biblioteca:** Adjunte imágenes y otros recursos directamente a los mensajes de chat de IA seleccionando en la biblioteca de recursos, con lo que el contexto visual estará disponible durante la generación de contenido.
+
+  * **Cambiar tamaño de anuncios:** Cambiar el tamaño de los anuncios a dimensiones estándar IAB en un solo paso. La API ajusta automáticamente la ubicación y el tamaño del contenido para cada formato, y los controles de lienzo (ampliar/alejar, ajustar a la pantalla, reproducir animaciones) le ayudan a revisar cada tamaño.
 
 ## Flujos de trabajo de creación de anuncios
 
@@ -55,6 +65,8 @@ ht-degree: 0%
 | --- | --- |
 | [Generar anuncios estándar a partir de una plantilla](creative-studio-manage-standard-ads.md) | Seleccione una plantilla de visualización o de vídeo y utilice [!UICONTROL Ad Variations Generator] para crear variaciones de contenido generadas por IA. Es mejor cuando ya existe una plantilla y desea generar contenido asistido por IA. |
 | [Administrar elementos creativos dinámicos](creative-studio-manage-dynamic-ads.md) | Conecte un catálogo de productos o de contenido a una plantilla, asigne campos de catálogo a elementos de plantilla y, a continuación, utilice el agente de IA para previsualizar y realizar un control de calidad de todas las combinaciones de anuncios generadas. Ideal para campañas a gran escala basadas en catálogos. |
+| [Generar una plantilla a partir de texto](creative-studio-manage-templates.md#template-generate-from-text) | Describa una plantilla de anuncio en pantalla, seleccione opcionalmente un perfil de marca y una imagen y elija entre los resultados generados por IA. Es ideal cuando desea una plantilla nueva sin un diseño de anuncio existente. |
+| [Generar una plantilla a partir de una imagen](creative-studio-manage-templates.md#template-generate-from-image) | (Función de Beta) Convierta una imagen de anuncio en pantalla estática existente de una biblioteca de Creative en una plantilla editable, solicite cambios mediante lenguaje natural y edite y guarde la plantilla. Es ideal cuando desea utilizar un anuncio de imagen existente como diseño inicial. |
 | Crear una plantilla nueva | Comience desde un lienzo en blanco para crear una plantilla de visualización o vídeo. Es mejor cuando ninguna plantilla existente satisface sus necesidades. |
 | Cargar plantillas de HTML5 | Importe una o más plantillas de publicidad de HTML5 empaquetadas como archivos ZIP. Es mejor cuando tiene creativos de HTML5 listos para la producción creados fuera de [!DNL Advertising Creative]. |
 
