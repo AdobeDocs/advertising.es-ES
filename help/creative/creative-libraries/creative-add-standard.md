@@ -308,7 +308,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Las filas con un estado **[!UICONTROL Error]** no se pueden seleccionar ni importar. Puede importar las filas válidas o hacer clic en **[!UICONTROL Cancel]**, corregir la hoja de origen y cargarla de nuevo. Corrija los nombres, dimensiones o etiquetas que faltan y elimine las etiquetas de vídeo o cualquier carácter marcado como no compatible.
 
-1. Haga clic en **[!UICONTROL Importar <N> creativos ]**, donde `<N>` es el número de creativos seleccionados. Para un solo elemento creativo, haga clic en **[!UICONTROL Import 1 creative]**.
+1. Haga clic en **[!UICONTROL Importar <N> creativos &#x200B;]**, donde `<N>` es el número de creativos seleccionados. Para un solo elemento creativo, haga clic en **[!UICONTROL Import 1 creative]**.
 
    El cuadro de diálogo se cierra y una notificación confirma que la importación se ha iniciado. Los elementos creativos aparecen en la biblioteca una vez completado el procesamiento.
 
