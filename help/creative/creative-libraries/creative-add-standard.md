@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: a2a6d94329df17c332a140de428bb44fb892c97a
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '2018'
 ht-degree: 0%
 ---
 # Añadir elementos creativos estándar a una biblioteca creativa
@@ -241,15 +241,32 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Haga clic en **[!UICONTROL Create]**.
 
-## Añadir un elemento creativo de terceros a una biblioteca creativa {#creative-add-third-party}
+## Añadir elementos creativos de terceros a una biblioteca creativa {#creative-add-third-party}
 
-[!DNL Creative] admite etiquetas de seguimiento de JavaScript para creativos alojados en la mayoría de los servidores de publicidad de terceros.
+[!DNL Creative] admite etiquetas de publicidad para los elementos creativos de visualización alojados en servidores de publicidad de terceros. En la nueva interfaz de usuario, puede importar uno o más elementos creativos de una hoja de tráfico. La IU heredada admite la introducción de una etiqueta para un solo creativo.
 
 ### Desde la nueva IU
 
-1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+#### Prepare su hoja de tráfico {#third-party-sheet-requirements}
 
-1. (Opcional) [Personalice la vista](/help/creative/introduction/customize-data-views.md) para incluir bibliotecas específicas.
+* Use un archivo de Excel (`.xlsx` o `.xls`), CSV o TSV de no más de 10 MB, con no más de 500 elementos creativos.
+
+* Para archivos de Excel, coloque los elementos creativos en la primera hoja de cálculo. Solo se importa la primera hoja de cálculo. No se admiten archivos protegidos por contraseña.
+
+* Use una exportación de [!DNL Flashtalking] o [!DNL Google Campaign Manager 360], o prepare una hoja genérica. La hoja debe coincidir con el diseño del servidor de publicidad que seleccione al cargarla.
+
+* Incluya un nombre creativo, un tamaño y una etiqueta de publicidad para cada creativo. Los nombres pueden contener hasta 255 caracteres. Especifique las dimensiones en una sola columna de tamaño (como `300x250`) o en columnas independientes de ancho y alto en las exportaciones de proveedores. Usar [tamaños creativos compatibles](creative-sizes.md).
+
+* Para una hoja genérica, utilice los encabezados de columna `Creative Name`, `Size` y `Ad Tag`. Puede descargar una plantilla CSV desde el cuadro de diálogo de carga. Reemplace su fila de ejemplo con sus propios datos creativos.
+
+>[!IMPORTANT]
+>
+>* La carga masiva solo admite etiquetas de visualización. Las etiquetas de vídeo y VAST no son compatibles.
+>* La carga masiva almacena las etiquetas de anuncio tal como se suministran; no inserta macros de seguimiento ni reescribe direcciones URL de seguimiento durante la importación. Incluya [macros de seguimiento](/help/creative/creative-macros.md) necesarias en las etiquetas antes de cargar la hoja.
+
+#### Cargue y revise los elementos creativos {#third-party-bulk-upload}
+
+1. En el menú principal, haga clic en **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
 1. Abra la biblioteca mediante cualquiera de estos métodos:
 
@@ -259,11 +276,43 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. En la ficha **[!UICONTROL Creatives]**, haga clic en **[!UICONTROL Add new]** > **[!UICONTROL Upload]** > **[!UICONTROL 3rd Party]**.
 
-1. Especifique la etiqueta de JavaScript y otras opciones de configuración para el creativo en la [configuración de creativos de terceros](#creative-settings-third-party).
+   Se abre el cuadro de diálogo **[!UICONTROL Bulk upload third-party tags]**.
 
-   Puede copiar y pegar cualquiera de las [macros disponibles](/help/creative/creative-macros.md) en la etiqueta de JavaScript.
+1. Seleccione el(la) **[!UICONTROL Ad server]** que coincida con su hoja:
 
-1. Haga clic en **[!UICONTROL Create]**.
+   * **[!UICONTROL Flashtalking]**
+
+   * **[!UICONTROL Google CM360]**
+
+   * **[!UICONTROL Generic]**
+
+   Debe seleccionar un servidor de publicidad para poder cargar un archivo. El servidor de publicidad seleccionado se aplica a todos los creativos de la hoja; no se detecta a partir de etiquetas individuales.
+
+1. (Opcional) Para preparar una hoja genérica, haga clic en **[!UICONTROL Download CSV template]**, reemplace los datos de ejemplo por sus propios elementos creativos y guarde el archivo.
+
+1. Especifique la hoja de cualquiera de las siguientes maneras:
+
+   * Arrastre y suelte el archivo en el cuadro de carga.
+
+   * Haga clic en **[!UICONTROL select a file]** para localizar el archivo en su dispositivo o red.
+
+   La hoja se carga y analiza. Si el diseño no coincide con el servidor de publicidad seleccionado, corrija la hoja o seleccione el servidor de publicidad coincidente y cargue el archivo de nuevo.
+
+1. En **[!UICONTROL Review third-party creatives]**, revise **[!UICONTROL Creative name]**, **[!UICONTROL Size]**, **[!UICONTROL Type]**, **[!UICONTROL Language]** y **[!UICONTROL Status]** para cada fila.
+
+   * Si la hoja incluye varios formatos de etiqueta, seleccione la pestaña de la columna de etiqueta que desee importar. El formato seleccionado se aplica a todas las filas y no se muestran las filas sin etiqueta en esa columna. Al cambiar las pestañas, se restablece la selección a todas las filas importables para ese formato.
+
+   * Todas las filas importables están seleccionadas de forma predeterminada. Anule la selección de la casilla de verificación situada junto a cualquier elemento creativo que no desee importar.
+
+   * (Opcional) Cambie **[!UICONTROL Language]** para elementos creativos individuales. El valor predeterminado es Inglés.
+
+   * Las filas con un estado **[!UICONTROL Error]** no se pueden seleccionar ni importar. Puede importar las filas válidas o hacer clic en **[!UICONTROL Cancel]**, corregir la hoja de origen y cargarla de nuevo. Corrija los nombres, dimensiones o etiquetas que faltan y elimine las etiquetas de vídeo o cualquier carácter marcado como no compatible.
+
+1. Haga clic en **[!UICONTROL Importar <N> creativos &#x200B;]**, donde `<N>` es el número de creativos seleccionados. Para un solo elemento creativo, haga clic en **[!UICONTROL Import 1 creative]**.
+
+   El cuadro de diálogo se cierra y una notificación confirma que la importación se ha iniciado. Los elementos creativos aparecen en la biblioteca una vez completado el procesamiento.
+
+Para realizar un seguimiento de la importación, haga clic en ![Administrador de trabajos](/help/creative/assets/job-manager.png "Administrador de trabajos") (**[!UICONTROL Job Manager]**) en la parte derecha de la barra de menús superior. Si alguna fila falla durante el procesamiento, haga clic en **[!UICONTROL Download failed rows]** para el trabajo de importación, corrija la hoja descargada y cárguela de nuevo.
 
 ### Desde la IU heredada
 

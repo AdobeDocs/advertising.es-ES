@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: b7bf89dafd678490acc0749e2755ea7f0fec67f4
+source-git-commit: 1e29e61573d581d3760a2f5d95c34021ade5de31
 workflow-type: tm+mt
-source-wordcount: '1643'
+source-wordcount: '1667'
 ht-degree: 0%
 ---
 # Acerca de sus bibliotecas creativas
@@ -91,7 +91,7 @@ Cada experiencia de anuncio en pantalla estándar requiere un creativo de imagen
 
 #### Creativos de terceros
 
-Introduzca las etiquetas de seguimiento de JavaScript para creativos alojados en servidores de publicidad de terceros. La secuencia de comandos varía según el servidor de publicidad; a continuación se muestra un ejemplo:
+[Agregue creativos de terceros para mostrar](creative-add-standard.md#creative-add-third-party) alojados en servidores de publicidad externos al cargar una hoja de tráfico en la nueva interfaz de usuario o al introducir una etiqueta de JavaScript en la interfaz de usuario heredada. La carga masiva acepta archivos de Excel, CSV y TSV. La secuencia de comandos varía según el servidor de publicidad; a continuación se muestra un ejemplo:
 
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
