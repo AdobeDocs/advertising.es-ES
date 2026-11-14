@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -48,9 +48,9 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
   Si lo desea, puede abrir la configuración del portafolio para editarla.
 
-* Listas de las campañas, grupos de anuncios y palabras clave del portafolio. Para palabras clave individuales, puede ver los detalles de la unidad de oferta, incluidas las previsiones, la información histórica y la información jerárquica.
+* Listas de las campañas, grupos de anuncios y palabras clave del portafolio.
 
-  La vista [!UICONTROL Bid Unit Details] incluye las siguientes previsiones, información histórica e información jerárquica para la unidad de oferta seleccionada:
+  Para palabras clave individuales, puede ver los detalles de la unidad de oferta, incluidas las previsiones, la información histórica y la información jerárquica. La vista [!UICONTROL Bid Unit Details] incluye las siguientes previsiones, información histórica e información jerárquica para la unidad de oferta seleccionada:
 
   * Pestaña [!UICONTROL Forecast]: los clics, el coste, el coste por clic, la posición y los ingresos proyectados actualmente para la unidad de oferta a precios de oferta diferentes. Se muestran los datos de todos los dispositivos y de cada tipo de dispositivo ([!UICONTROL Mobile], [!UICONTROL Computer] y [!UICONTROL Tablet]).<!-- Probably no longer applicable: For portfolios using v6 of the optimization capability, both the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs show the combined totals for computers and tablets. For portfolios using v7, however, all data for the [!UICONTROL Computers] and [!UICONTROL Tablets] tabs is separate. -->
 

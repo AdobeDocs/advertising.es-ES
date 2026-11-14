@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a2ff8c1115487f12eb67f6db06e25f723c551e80
+source-git-commit: 9837cac1a920b1b3b88b04b150cb604832209eaf
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '391'
 ht-degree: 0%
 ---
 # Creación de una métrica personalizada
@@ -39,6 +39,24 @@ ht-degree: 0%
 1. Especifique la [configuración de métrica personalizada](custom-metric-settings.md).
 
 1. Haga clic en **[!UICONTROL Create]**.
+
+## (Nueva IU) Crear una métrica personalizada a partir de la configuración del informe o la plantilla del informe {#create-from-report-settings}
+
+1. En la configuración del informe o la plantilla de informe, vaya al paso **[!UICONTROL Columns]**.
+
+1. En la sección **[!UICONTROL Custom Metrics]**, especifique la configuración de la métrica:
+
+   * **[!UICONTROL Custom Metric Name]:** Escriba un nombre para la métrica.
+
+   * **[!UICONTROL Format]:** Seleccione **[!UICONTROL Currency]**, **[!UICONTROL Number to 2 Decimal Places]**, **[!UICONTROL Number to 3 Decimal Places]**, **[!UICONTROL Number w/out Decimal Places]** o **[!UICONTROL Percentage]**.
+
+   * **[Campo de entrada de fórmula]:** Genere la fórmula seleccionando métricas de **[!UICONTROL Insert Metric]** y haciendo clic en los botones del operador (`+`, `-`, `*`, `/`, `(` y `)`). También puede introducir la fórmula manualmente. Coloque el cursor donde desee insertar cada métrica u operador.
+
+1. Haga clic en **[!UICONTROL Add Metric]**.
+
+   Una vez creada correctamente la métrica, la lista de columnas disponibles se filtra con el nombre de la métrica. La creación de la métrica no la incluye automáticamente en el informe.
+
+1. Para incluir la métrica en el informe, selecciónela en la lista de columnas disponibles y haga clic en ![Flecha derecha](/help/search-social-commerce/assets/arrow-right-customize.png "Flecha derecha") para moverla a la lista de columnas seleccionadas.
 
 ## (IU heredada) Crear una métrica personalizada desde una vista de administración de campañas
 

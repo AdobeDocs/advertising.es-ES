@@ -1,6 +1,6 @@
 ---
 title: (Nueva IU) Cambiar el estado de un portafolio
-description: Obtenga información sobre cómo cambiar el estado de un portafolio o eliminar un portafolio inactivo sin abrir la configuración del portafolio.
+description: Obtenga información sobre cómo cambiar el estado de un portafolio o eliminar uno o más portafolios inactivos sin abrir la configuración del portafolio.
 feature: Search Portfolios, Search Optimization
 hide: true
 product_v2:
@@ -11,16 +11,16 @@ feature_v2:
     internal-label: Search Portfolios
   - id: ae57d55f-b168-5358-b114-c3974b1b3d77
     internal-label: Search Optimization
-source-git-commit: b001c57e58bab6809e83b6506eb0ae827bbe72e4
+source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '457'
 ht-degree: 0%
 ---
 # (Nueva IU) Cambiar el estado de un portafolio
 
 *característica de Beta*
 
-Puede cambiar rápidamente el estado de un [portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-statuses) sin abrir la configuración completa del portafolio.
+Puede cambiar rápidamente el estado de un [portafolio](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#portfolio-status) sin abrir la configuración completa del portafolio.
 
 Para dejar de recopilar datos de costes, clics e impresiones y datos de ingresos de las campañas relevantes, elimine el portafolio. Al eliminar un portafolio, no estará disponible en Search, Social y Commerce.
 
@@ -40,9 +40,15 @@ Todos los cambios realizados en el estado del portafolio se registran en su hist
 
    * Para activar una cartera inactiva u optimizada, seleccione **[!UICONTROL Active]**.
 
-   * Para desactivar una cartera activa, seleccione **[!UICONTROL Inactive]**.
+   * Para desactivar una cartera activa u optimizada, seleccione **[!UICONTROL Inactive]**.
 
-   * Para optimizar (iniciar) un portafolio activo, seleccione **[!UICONTROL Optimized]**.
+   * Para optimizar (iniciar) un portafolio activo:
+
+     1. Seleccione **[!UICONTROL Optimized]**.
+
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Update]**.
+
+     1. Si aparecen mensajes de confirmación adicionales, siga las indicaciones para aplicar el cambio.
 
      >[!NOTE]
      >
@@ -53,7 +59,7 @@ Todos los cambios realizados en el estado del portafolio se registran en su hist
      >* Una vez que Search, Social y Commerce empiecen a optimizar un portafolio, déjelo administrar todo el presupuesto de campaña futuro y (cuando corresponda) el cambio de oferta (cuando corresponda). Search, Social y Commerce sobrescribirán los cambios que realice desde la red de publicidad.
      >* Puede establecer temporalmente ofertas manuales para cualquier campaña CPC optimizada en el portafolio creando y publicando hojas de edición masiva de campañas. Cualquier cambio de oferta que resulte de los datos publicados es aplicable por un día. Después, Search, Social y Commerce reanudan el establecimiento de ofertas según su propia estrategia de optimización.
 
-## Eliminar un portafolio inactivo de la vista [!UICONTROL Portfolios]
+## Eliminar uno o más portafolios inactivos de la vista [!UICONTROL Portfolios]
 
 Solo puede eliminar portafolios inactivos. Si el portafolio está optimizado o activo, primero debe cambiar su estado a inactivo antes de tener la opción de eliminarlo.
 
@@ -61,11 +67,19 @@ Solo puede eliminar portafolios inactivos. Si el portafolio está optimizado o a
 
 1. Realice una de las acciones siguientes:
 
-   * Mantenga el cursor sobre la fila del portafolio y haga clic en **[!UICONTROL ...]>[!UICONTROL Delete]**.
+   * Para eliminar un solo portafolio inactivo:
 
-   * Seleccione la casilla de verificación situada junto al portafolio. En la barra de herramientas de acciones masivas, haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar").
+     1. Mantenga el cursor sobre la fila del portafolio y haga clic en **[!UICONTROL ...]>[!UICONTROL Delete]**.
 
-1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
+
+   * Para eliminar uno o varios portafolios inactivos:
+
+     1. Active la casilla de verificación situada junto a cada portafolio inactivo que desee eliminar.
+
+     1. En la barra de herramientas de acciones masivas, haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png "Eliminar").
+
+     1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
 
 >[!MORELIKETHIS]
 >
