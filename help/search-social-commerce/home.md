@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: dabc3d714941ccecfae1646d554dd3f554a83adf
+source-git-commit: 3619dd14a392381c304d91e5cc8cd4da974ab053
 workflow-type: tm+mt
-source-wordcount: '5697'
+source-wordcount: '5722'
 ht-degree: 1%
 ---
 # Novedades de Search, Social y Commerce
@@ -38,6 +38,7 @@ Las siguientes funciones son nuevas o han cambiado recientemente.
 
 | Fecha | Función | Descripción | Para obtener más información |
 | ---- | ------- | ----------- | -------------------- |
+| 16 de noviembre de 2026 | Nueva IU | La mayoría de las funcionalidades de la IU heredada ya están disponibles en la nueva IU. | Consulte &quot;[Cómo está organizada la interfaz de usuario](/help/search-social-commerce/getting-started/user-interface.md)&quot;. |
 | 4 de noviembre de 2026 | [!UICONTROL Portfolios], optimización | (Funcionalidad de inclusión para [!DNL Google Ads] campañas en portafolios con optimización de nivel de campaña o de nivel de grupo de anuncios) Search, Social y Commerce ahora pueden incluir señales de [!DNL Google Ads] recomendaciones de presupuesto de campaña, incluida la cantidad de presupuesto recomendada y el alza de conversión proyectada, para informar sus propias decisiones de control de presupuesto. Para activar esta función, póngase en contacto con el equipo de cuenta de Adobe. | — |
 | | [!UICONTROL Accounts] | Para las cuentas de API de red de anuncios, ahora puede identificar los permisos de autenticación que faltan, ver advertencias de caducidad de tokens y obtener información acerca de los pasos de recuperación en la vista [!UICONTROL Accounts]. | Consulte &quot;[Estado de autenticación y acceso de la cuenta](/help/search-social-commerce/new-ui/manage/accounts/api-accounts/api-account-manage.md#authentication-status)&quot;. |
 | 26 de octubre de 2026 | [!UICONTROL Campaigns], [!UICONTROL Bulksheets] | ([!DNL Google Ads] campañas con [!DNL AI Max] habilitado) Ahora puede establecer la siguiente configuración en la nueva interfaz de usuario de Search, Social y Commerce:<ul><li>Nivel de campaña:<ul><li>**[!UICONTROL Brand inclusions]** y **[!UICONTROL Brand exclusions]:** Especifique qué listas de marcas para la cuenta pueden coincidir en consultas relacionadas con la marca.</li><li>**[!UICONTROL URL inclusions]:** Especifique las direcciones URL que se excluirán como páginas de aterrizaje generadas a partir de la expansión final de la dirección URL. Esta configuración está disponible cuando [!UICONTROL Text customization] y [!UICONTROL Final URL expansion] están habilitados.</li></ul></li><li>Nivel de grupo de anuncios:<ul><li>**[!UICONTROL URL inclusions]:** Especifique las direcciones URL que se excluirán como páginas de aterrizaje generadas a partir de la expansión final de la dirección URL. Esta configuración está disponible en campañas para las que [!UICONTROL Text customization] está habilitado.</li></ul></li></ul>La compatibilidad con hojas masivas también está disponible para los ajustes de. | Consulte &quot;[[!DNL Google Ads] configuración de campaña](/help/search-social-commerce/new-ui/manage/campaigns/campaign-settings-google.md)&quot;, &quot;[[!DNL Google Ads] configuración de grupo de anuncios](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-settings-google.md)&quot; y &quot;[Datos de hoja de edición masiva requeridos para [!DNL Google Ads] cuentas](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)&quot;.&quot; |

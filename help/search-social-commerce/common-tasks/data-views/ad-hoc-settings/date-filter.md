@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '844'
 ht-degree: 0%
 ---
 # Filtrar datos por intervalo de fechas
@@ -77,9 +77,9 @@ Para detener la comparación de periodos, abra el control de intervalo de fechas
 
 1. Seleccione **[!UICONTROL As percentage]** o **[!UICONTROL As variance]**.
 
-   La selección se aplica a todas las métricas de comparación de la cuadrícula, no solo a la columna seleccionada. El control de intervalo de fechas se sincroniza con la selección y el formato se comparte en todas las páginas aplicables para el anunciante actual, incluidas las vistas con intervalos de fechas guardados.
+   La selección se aplica a todas las métricas de comparación de la tabla de datos, no solo a la columna seleccionada. El control de intervalo de fechas se sincroniza con la selección y el formato se comparte en todas las páginas aplicables para el anunciante actual, incluidas las vistas con intervalos de fechas guardados.
 
-   Aparecerá un mensaje de confirmación después de que la cuadrícula se actualice correctamente. Si la cuadrícula no se puede actualizar con el formato seleccionado, aparecerá un mensaje de error; intente seleccionar el formato de nuevo.
+   Aparecerá un mensaje de confirmación después de que la tabla de datos se actualice correctamente. Si la tabla de datos no se puede actualizar con el formato seleccionado, aparecerá un mensaje de error; intente seleccionar el formato de nuevo.
 
 Las opciones de ordenación y filtrado siguen estando disponibles en los menús de columna donde se admiten.
 
