@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: e7e0221adbb72127a9e6d2354b6a235b233a4a76
+source-git-commit: 48ceda965e7ebd4a62bfcb497bd0ca489ebac726
 workflow-type: tm+mt
-source-wordcount: '2443'
+source-wordcount: '2445'
 ht-degree: 2%
 ---
 # Guía de Advertising Search, Social, &amp; Commerce {#search-social-commerce}
@@ -46,7 +46,7 @@ ht-degree: 2%
     + [Administrar vistas predeterminadas y personalizadas](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md)
     + Configuración de vista ad hoc {#ad-hoc-settings}
       + [Edite el conjunto de columnas desde el menú de encabezado de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md)
-      + [Editar y ordenar el conjunto de columnas a partir del icono [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
+      + [Editar y ordenar el conjunto de columnas del control [!UICONTROL Custom Columns]](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md)
       + [Bloqueo y desbloqueo de una configuración de columna en las vistas de campaña](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md)
       + [Volver a ordenar una columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-sort.md)
       + [Filtrar datos por intervalo de fechas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md)
@@ -141,6 +141,7 @@ ht-degree: 2%
         + [[!DNL Yandex] configuración de palabras clave](/help/search-social-commerce/new-ui/manage/keywords/keyword-settings-yandex.md)
     + [Administrar grupos de productos de compras](/help/search-social-commerce/new-ui/manage/product-groups-manage.md)
   + Informes {#reports}
+    + [Datos de Advertising](/help/search-social-commerce/new-ui/reports/insights.md)
     + Informes programados {#scheduled}
       + [Acerca de los informes programados](/help/search-social-commerce/new-ui/reports/report-about.md)
       + [Las tareas de configuración iniciales para los informes](/help/search-social-commerce/new-ui/reports/initial-setup.md)

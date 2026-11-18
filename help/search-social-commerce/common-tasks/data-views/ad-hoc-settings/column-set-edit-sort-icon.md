@@ -1,5 +1,5 @@
 ---
-title: Editar y ordenar el conjunto de columnas a partir del icono [!UICONTROL Custom Columns]
+title: Editar y ordenar el conjunto de columnas del control [!UICONTROL Custom Columns]
 description: Aprenda a cambiar las columnas visibles con el personalizador de columnas.
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
@@ -15,18 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '322'
 ht-degree: 0%
 ---
-# Editar y ordenar el conjunto de columnas a partir del icono [!UICONTROL Custom Columns]
-
-<!-- The same in new UI and legacy CM views except for icon -->
+# Editar y ordenar el conjunto de columnas del control [!UICONTROL Custom Columns]
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-Puede cambiar las columnas visibles en cualquiera de las vistas desde la barra de herramientas derecha. Los cambios se aplican únicamente hasta que se dejan las vistas aplicables o se ven los datos de otro anunciante.
+Puede cambiar las columnas visibles en las vistas mediante el control [!UICONTROL Custom Columns]. Los cambios se aplican únicamente hasta que se dejan las vistas aplicables o se ven los datos de otro anunciante.
 
 >[!NOTE]
 >
@@ -34,7 +32,11 @@ Puede cambiar las columnas visibles en cualquiera de las vistas desde la barra d
 >
 >Puede guardar cambios en las columnas que se incluyen para un anunciante específico editando la vista predeterminada o [creando una vista personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
-1. A la derecha de la barra de herramientas, haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns.png "Columnas personalizadas") o ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Columnas personalizadas").
+1. Abra la configuración de columna:
+
+   * (Nueva interfaz de usuario) Haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Columnas personalizadas") en la barra de herramientas derecha. Si la barra de herramientas es demasiado estrecha para mostrar el control, haga clic en **[!UICONTROL Actions]>[!UICONTROL Custom Columns]**.
+
+   * (IU heredada) A la derecha de la barra de herramientas, haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns.png "Columnas personalizadas").
 
 1. (Opcional) [Cree una métrica personalizada](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) para incluirla como columna.
 

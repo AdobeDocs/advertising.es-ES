@@ -18,14 +18,72 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '841'
 ht-degree: 0%
 ---
 # Filtrar datos por intervalo de fechas
 
-<!-- The same in new UI and legacy CM views -->
+Utilice el filtro de intervalo de fechas para especificar el período durante el cual desea mostrar los datos de rendimiento. En las vistas que admiten la comparación de fechas, también puede comparar el rendimiento durante dos períodos.
+
+## (Nueva IU) Cambiar el intervalo de fechas {#date-filter-new-ui}
+
+1. En el encabezado de la página, haga clic en el control de intervalo de fechas con el icono de calendario.
+
+1. Especifique el intervalo de fecha:
+
+   * Para usar un intervalo preestablecido, seleccione una opción del menú situado encima del primer calendario, como **[!UICONTROL Yesterday]** o **[!UICONTROL Last 7 Days]**.
+
+   * Para usar un intervalo personalizado, seleccione **[!UICONTROL Custom Date Range]** y las fechas de inicio y finalización en el calendario. Utilice las flechas del calendario para desplazarse entre meses.
+
+1. Haga clic en **[!UICONTROL Apply]**.
+
+## (Nueva interfaz de usuario) Comparar datos de dos períodos {#compare-periods-new-ui}
+
+*Vistas que solo admiten comparación de fechas*
+
+1. En el encabezado de la página, haga clic en el control de intervalo de fechas con el icono de calendario.
+
+1. Activar **[!UICONTROL Compare Periods]**.
+
+   Se muestran dos paneles de calendario en paralelo. El primer período tiene un marcador verde azulado y el período de comparación tiene un marcador morado.
+
+1. En el primer panel, especifique el intervalo de fecha:
+
+   * Para usar un intervalo preestablecido, seleccione una opción del menú situado encima del primer calendario, como **[!UICONTROL Yesterday]** o **[!UICONTROL Last 7 Days]**.
+
+   * Para usar un intervalo personalizado, seleccione **[!UICONTROL Custom Date Range]** y las fechas de inicio y finalización en el calendario. Utilice las flechas del calendario para desplazarse entre meses.
+
+1. En el segundo panel, seleccione un ajuste preestablecido de comparación o haga clic en una fecha de inicio en el calendario.
+
+   El periodo de comparación tiene el mismo número de días que el primer periodo. Revise los intervalos de fechas completos por encima de ambos calendarios.
+
+1. En **[!UICONTROL Comparison Format]**, seleccione cómo desea mostrar la diferencia:
+
+   * **[!UICONTROL As percentage]:** Mostrar la diferencia como porcentaje.
+
+   * **[!UICONTROL As variance]:** Mostrar la diferencia como valor numérico.
+
+1. Haga clic en **[!UICONTROL Apply]**.
+
+   El control de intervalo de fechas muestra tanto los intervalos de fechas completos con sus etiquetas de período como los marcadores de color. Cada métrica comparable se agrupa en dos columnas de período y una columna **[!UICONTROL Change]**. Los campos que no son comparables permanecen como columnas únicas. Los marcadores de punto de los encabezados de columna identifican los intervalos de fechas correspondientes.
+
+Para detener la comparación de periodos, abra el control de intervalo de fechas, desactive **[!UICONTROL Compare Periods]** y haga clic en **[!UICONTROL Apply]**. Al desactivar la comparación, se borran los filtros según los datos de comparación.
+
+### Cambiar el formato de comparación desde un menú de columna
+
+1. Con la comparación de fechas habilitada, abra el menú de encabezado de columna de una columna **[!UICONTROL Change]** o cualquier columna de punto de una métrica comparable.
+
+1. Seleccione **[!UICONTROL As percentage]** o **[!UICONTROL As variance]**.
+
+   La selección se aplica a todas las métricas de comparación de la cuadrícula, no solo a la columna seleccionada. El control de intervalo de fechas se sincroniza con la selección y el formato se comparte en todas las páginas aplicables para el anunciante actual, incluidas las vistas con intervalos de fechas guardados.
+
+   Aparecerá un mensaje de confirmación después de que la cuadrícula se actualice correctamente. Si la cuadrícula no se puede actualizar con el formato seleccionado, aparecerá un mensaje de error; intente seleccionar el formato de nuevo.
+
+Las opciones de ordenación y filtrado siguen estando disponibles en los menús de columna donde se admiten.
+
+## (IU heredada) Configuración del intervalo de fechas
 
 El mismo filtro de intervalo de fechas global se aplica a la mayoría de las vistas de datos en todos los anunciantes, excepto en las vistas predeterminadas y personalizadas para las que ha guardado intervalos de fechas específicos. El intervalo de fechas predeterminado del sistema para las vistas de administración de campañas es &quot;Ayer&quot;.
 
@@ -39,7 +97,7 @@ Cuando se guarda un intervalo de fechas específico para una vista predeterminad
 >* Para ver datos anteriores, vaya a la vista [[!UICONTROL Reports] &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) y ejecute un informe básico.
 >* También puede guardar un intervalo de fechas para una [vista predeterminada o personalizada](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-## Cambio del filtro de fecha global en las vistas de campaña
+## (IU heredada) Cambiar el filtro de fecha global en las vistas de campaña
 
 1. Sobre cualquier tabla de datos de Buscar \> Campañas \> Campañas, haga clic en el intervalo de fechas actual.
 
