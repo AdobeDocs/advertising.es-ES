@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '4607'
 ht-degree: 0%
 ---
 # Administrar vistas predeterminadas y personalizadas
@@ -38,6 +38,8 @@ En la interfaz de usuario heredada, cada vista está disponible como acceso dire
 ### (Nueva IU) Aplicar una vista predeterminada o personalizada a una vista de administración
 
 1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
+
+   Si la barra de herramientas es demasiado estrecha para mostrar el nombre de la vista, haga clic en **[!UICONTROL Actions]** y abra la lista de vistas de la entidad actual.
 
 1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
 
@@ -75,6 +77,8 @@ Las vistas personalizadas son específicas de una sola vista (como la vista [!UI
 
 1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
 
+   Si la barra de herramientas es demasiado estrecha para mostrar el nombre de la vista, haga clic en **[!UICONTROL Actions]** y abra la lista de vistas de la entidad actual.
+
 1. Haga clic en **[!UICONTROL Create View]**.
 
 1. Especifique la [configuración de vista personalizada](#view-settings-new-ui).
@@ -108,6 +112,8 @@ Las vistas personalizadas solo se aplican a las vistas de administración de cam
 *Disponible en las vistas [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] y [!UICONTROL Ad Groups]*
 
 1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
+
+   Si la barra de herramientas es demasiado estrecha para mostrar el nombre de la vista, haga clic en **[!UICONTROL Actions]** y abra la lista de vistas de la entidad actual.
 
 1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
 
@@ -151,6 +157,8 @@ Las vistas personalizadas solo se aplican a las vistas de administración de cam
 
 1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
 
+   Si la barra de herramientas es demasiado estrecha para mostrar el nombre de la vista, haga clic en **[!UICONTROL Actions]** y abra la lista de vistas de la entidad actual.
+
 1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
 
 1. Mantenga el cursor sobre el nombre de la vista y haga clic en ![Clonar](/help/search-social-commerce/assets/clone-new.png).
@@ -172,6 +180,8 @@ La configuración predeterminada del sistema varía según la vista de administr
 * Desde la nueva interfaz de usuario:
 
   1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
+
+     Si la barra de herramientas es demasiado estrecha para mostrar el nombre de la vista, haga clic en **[!UICONTROL Actions]** y abra la lista de vistas de la entidad actual.
 
   1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
 
@@ -195,6 +205,8 @@ Si elimina una vista personalizada que se ha aplicado a la ficha actual, la fich
 
   1. Sobre la tabla de datos, haga clic en el nombre de la vista aplicada actualmente (![Vista](/help/search-social-commerce/assets/view.png "Vista")).
 
+     Si la barra de herramientas es demasiado estrecha para mostrar el nombre de la vista, haga clic en **[!UICONTROL Actions]** y abra la lista de vistas de la entidad actual.
+
   1. Si es necesario, haga clic en cualquiera de las fichas ([!UICONTROL All Views], [!UICONTROL Private], [!UICONTROL Shared by Me] y [!UICONTROL From Others]) para buscar la vista.
 
   1. Mantenga el cursor sobre el nombre de la vista y haga clic en ![Eliminar](/help/search-social-commerce/assets/delete-new.png).
@@ -215,6 +227,8 @@ Si elimina una vista personalizada que se ha aplicado a la ficha actual, la fich
 
 ### (Nueva IU) Configuración de vista predeterminada y personalizada {#view-settings-new-ui}
 
+Al cambiar el formato de comparación desde un menú de columna de comparación, el formato seleccionado se comparte en todas las páginas aplicables para el anunciante actual, incluidas las vistas con intervalos de fechas guardados. Consulte &quot;[Cambiar el formato de comparación de un menú de columna](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#change-the-comparison-format-from-a-column-menu).&quot;
+
 | **Ficha** | **Campo** | **Descripción** |
 | --- | --- | --- |
 | [Sobre todas las fichas] | Nombre | Un nombre único para la vista. No puede editar el nombre de una vista predeterminada.<p><b>Sugerencia:</b> Use un nombre que le ayude a identificar la ficha y la información a la que se aplica (como &quot;Campañas en pausa&quot; o &quot;Principales 50 anuncios&quot;). |
@@ -224,8 +238,8 @@ Si elimina una vista personalizada que se ha aplicado a la ficha actual, la fich
 |   | Orden de clasificación | Si se ordenan los datos en orden **Ascendente** o **Descendente**. |
 | Filtros | [Definiciones de filtros] | (Opcional) Filtros que se aplicarán a los datos. La aplicación de filtros devuelve filas únicamente cuando el valor de una columna cumple los criterios especificados.<p>Para aplicar cada filtro:<ol><li>En el menú [!UICONTROL Add Filter], seleccione un nombre de columna. La lista incluye todas las columnas disponibles y se ordena por tipo de columna, con las columnas de propiedad primero.</li><li>Defina el filtro en la columna</li></ol>(Filtros con campos de entrada) Seleccione un operador en el segundo menú y, a continuación, introduzca el valor aplicable. Los valores no distinguen entre mayúsculas y minúsculas.<p>Por ejemplo, si ha seleccionado la columna &quot;Clics&quot; y desea devolver solo filas con más de 100 clics, seleccione _\>_ e introduzca `100` en el campo de entrada.<p>Según el tipo de datos, los operadores disponibles pueden incluir <i>greater than</i>, <i>less than</i>, <i>equals</i>, <i>contains</i>, <i>no contiene</i>, <i>starts with</i>, <i>ends with</i>,<i>no value</i> o <i>has value</i> <i>antes de</i>, <i>después de</i> o <i>sin fecha</i>.<p>(Filtros sin campos de entrada) Haga clic en ![flecha abajo](/help/search-social-commerce/assets/arrow-down-expand.png) junto al menú Seleccionar elementos de lista y, a continuación, active las casillas de verificación situadas junto a cada valor que desee incluir.<p><b>Notas:</b><ul><li>Puede aplicar, pero no guardar, los cambios en los filtros a la configuración de vista predeterminada.</li><li>También puede [cambiar temporalmente los filtros aplicables](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) dentro de la vista.</li></ul> |
 | Configuración adicional | Intervalo de fechas | (Cuando se selecciona &quot;Incluir intervalo de fechas&quot;)<p>Intervalo de fecha para el que se van a generar datos. Elija una opción:<ul><li><i>[Intervalo preestablecido]</i>: Una lista de incrementos de tiempo comunes, que van desde <i>Hoy</i> hasta <i>Los últimos 180 días</i>. Elija uno de la lista; el valor predeterminado es <i>Ayer</i>. Nota: <i>Mes pasado</i>, <i>Últimos 3 meses</i> y <i>Últimos 6 meses</i> muestran datos de los meses del calendario anterior.</li><li><i>Intervalo de fechas personalizado:</i> Especifique la fecha de inicio y la fecha de finalización. Introduzca las fechas en formato MM/DD/AAAA o M/D/AAAA, o haga clic en ![icono de calendario](/help/search-social-commerce/assets/calendar.png) junto a un campo y seleccione una fecha.</li></ul> |
-|   | Comparación | Compara los datos del intervalo de fechas especificado con los datos de un segundo intervalo de fechas. Cuando seleccione esta opción, especifique el segundo intervalo de fechas. Se agregan dos columnas adicionales para cada columna de datos normal. Por ejemplo, en lugar de incluir una sola columna para &quot;Impresiones&quot;, el informe incluye columnas para &quot;Rango de impresiones 1&quot;, &quot;Rango de impresiones 2&quot; y &quot;Diferencia de impresiones&quot;.<p><b>Notas:</b><ul><li>No se muestra la columna de diferencia para las métricas derivadas.</li><li>Los informes que comparan intervalos de fechas grandes pueden tardar más en generarse.</li></ul> |
-|   | Formato de comparación | (Cuando [!UICONTROL Comparison] está habilitado) Cómo expresar la diferencia entre los datos de los dos intervalos de fechas seleccionados en la columna &quot;[_Campo de datos_] Diferencia&quot;. Elija una opción:<ul><li><i>Variance</i> (el valor predeterminado): muestra la diferencia como valor numérico.</li><li><i>% de cambio</i>: Muestra la diferencia como porcentaje.</li></ul> |
+|   | [!UICONTROL Comparison] | Compara los datos del intervalo de fechas especificado con los datos de un segundo intervalo de fechas. Cuando seleccione esta opción, especifique el periodo de comparación. En la cuadrícula, cada métrica comparable se agrupa en dos columnas de período y una columna [!UICONTROL Change]. Los campos que no son comparables permanecen como columnas únicas. Las etiquetas de periodo y los marcadores de color identifican los intervalos de fechas correspondientes. Los informes que comparan intervalos de fechas grandes pueden tardar más en generarse. |
+|   | [!UICONTROL Comparison Format] | (Cuando [!UICONTROL Comparison] está habilitado) Cómo expresar la diferencia entre los dos puntos de la columna [!UICONTROL Change]. Elija [!UICONTROL As variance] (valor predeterminado) para mostrar una diferencia numérica o [!UICONTROL As percentage] para mostrar una diferencia porcentual. |
 |   | Regla de atribución | (Anunciantes solo con el servicio de seguimiento de conversión basado en píxeles de Adobe Advertising) En la pestaña, aprenda a atribuir datos de conversión (potencialmente a través de varios canales de publicidad y portafolios) en una serie de eventos que generan una conversión. De forma predeterminada, la regla especificada en la configuración de atribución de conversión de nivel de anunciante está seleccionada.<ul><li> <i>Primer evento</i>: Atribuye la conversión al primer clic de pago de la serie dentro de la ventana retrospectiva de clics del anunciante o, si no se produjeron clics de pago, a la última impresión dentro de la ventana retrospectiva de impresiones del anunciante.</li><li><i>Más peso en el primer evento</i>: Atribuye la conversión a todos los eventos de la serie que se produjeron en la ventana retrospectiva de clics del anunciante y en la ventana retrospectiva de impresiones, pero da mayor peso al primer evento y, sucesivamente, menos peso a los siguientes eventos. Cuando la conversión va precedida de clics e impresiones de pago, el peso de anulación de impresión especificado se aplica aún más a las impresiones. Cuando la conversión solo está precedida por impresiones, las impresiones se ponderan según el peso de visualización del anunciante en lugar de según el peso de anulación de la impresión.</li><li><i>Distribución de eventos</i>: atribuye la conversión de forma equitativa a cada evento de la serie que se produjo en la ventana retrospectiva de clics del anunciante y en la ventana retrospectiva de impresiones. Cuando la conversión va precedida de clics e impresiones de pago, el peso de anulación de impresión especificado se aplica aún más a las impresiones. Cuando la conversión solo está precedida por impresiones, las impresiones se ponderan según el peso de visualización del anunciante en lugar de según el peso de anulación de la impresión.</li><li><i>Más del último evento de peso</i>: atribuye la conversión a todos los eventos de la serie que se produjeron en la ventana retrospectiva de clics del anunciante y en la ventana retrospectiva de impresiones, pero da mayor peso al último evento y, sucesivamente, menos peso a los eventos anteriores. Cuando la conversión va precedida de clics e impresiones de pago, el peso de anulación de impresión especificado se aplica aún más a las impresiones. Cuando la conversión solo está precedida por impresiones, las impresiones se ponderan según el peso de visualización del anunciante en lugar de según el peso de anulación de la impresión.</li><li><i>Último evento</i> (predeterminado): atribuye la conversión al último clic pagado de la serie dentro de la ventana retrospectiva de clics del anunciante o, si no se produjeron clics pagados, a la última impresión dentro de la ventana retrospectiva de impresiones del anunciante.</li><li><i>Forma de U</i>: atribuye la conversión a todos los eventos de la serie que se produjeron en la ventana retrospectiva de clics del anunciante y en la ventana retrospectiva de impresiones, pero da mayor peso al primer evento y a los últimos, con una ponderación sucesivamente menor a los eventos que se producen en medio de la ruta de conversión. Cuando la conversión va precedida de clics e impresiones de pago, el peso de anulación de impresión especificado se aplica aún más a las impresiones. Cuando la conversión solo está precedida por impresiones, las impresiones se ponderan según el peso de visualización del anunciante en lugar de según el peso de anulación de la impresión.</li></ul><p><b>Notas:</b><ul><li>Todas las reglas de atribución, además de Último evento, solo están disponibles para anunciantes con rastreo de clics de Adobe Advertising y con seguimiento de conversión desde Adobe Advertising o Adobe Analytics (con una integración de Analytics).</li><li>Las reglas de atribución se aplican a los clics en anuncios pagados en cualquier canal. No se aplican a las impresiones de anuncios de búsqueda de pago, que no se pueden rastrear en el nivel de evento.</li><li>Cuando se generan informes de los datos de conversión mediante cualquier regla de atribución excepto una de las reglas &quot;Último evento&quot;, los eventos que llevan a la conversión pueden producirse en varios portafolios. Cuando es así, la vista incluye datos para la conversión solo cuando los anuncios o las palabras clave de esos portafolios se incluyen en la vista.</li><li>Para las vistas predeterminadas, recomendamos que mantenga la regla de atribución predeterminada, que se usa para calcular el [valor objetivo](/help/search-social-commerce/glossary.md#o-p) (anteriormente denominado &quot;ingresos ponderados&quot;) para cada unidad de oferta durante la optimización de ofertas.</li></ul> |
 |   | Conversiones basadas en | Cómo informar sobre los datos de conversión:<ul><li><i>Fecha de clic</i>: para ver las transacciones resultantes de un clic que se produjo durante el período de tiempo especificado. Cuando un portafolio tiene un retraso significativo entre clics y transacciones, esta opción es útil para calcular los ingresos históricos por clic del portafolio, lo que indica los comportamientos de ingresos que se esperan a lo largo del tiempo.</li><li><i>Fecha de transacción</i> (valor predeterminado): para ver las transacciones cuya fecha de transacción se produjo durante el período de tiempo especificado. Indica cuántos ingresos se obtuvieron en el período de tiempo especificado.</li></ul> |
 

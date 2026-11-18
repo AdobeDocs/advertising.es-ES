@@ -13,9 +13,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # Ver datos de otro anunciante
@@ -24,9 +24,17 @@ ht-degree: 0%
 
 ## (Nueva IU) Ver datos de otro anunciante
 
-* En la barra de herramientas situada encima de la tabla de datos, seleccione el anunciante.
+1. Si el panel de navegación izquierdo está contraído, haga clic en ![Contraer/expandir](/help/search-social-commerce/assets/collapse-expand.png "Contraer/expandir") para expandirlo.
 
-  ![Selector de anunciante en la barra de herramientas](/help/search-social-commerce/assets/advertiser-selector.png "Selector de anunciante en la barra de herramientas")
+1. Sobre el campo de búsqueda en el panel de navegación izquierdo, abra la lista del anunciante y seleccione el anunciante.
+
+   Puede buscar en la lista para localizar un anunciante. La lista muestra el anunciante seleccionado actualmente.
+
+   ![Selector de anunciante arriba del menú principal](/help/search-social-commerce/assets/advertiser-selector.png "Selector de anunciante arriba del menú principal")
+
+>[!NOTE]
+>
+>El cambio de anunciante está desactivado en algunas vistas de detalles, incluidos los detalles del portafolio y los detalles de simulación. Vuelva a la vista de lista correspondiente para seleccionar otro anunciante.
 
 ## (IU heredada) Ver datos de otro anunciante
 

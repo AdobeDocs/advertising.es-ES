@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Search optimization
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 163cbaf9b1a7f22e0205125cfab1ce2558182d8f
+source-git-commit: 6b779d2f91a140cd69ed4a25ac97d376dd1ed48d
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1555'
 ht-degree: 0%
 ---
 # (Nueva IU) Ver detalles de rendimiento del portafolio
@@ -38,7 +38,7 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
 * Datos de precisión del modelo para portafolios activos, que muestran cuánto se desviaron los modelos de las predicciones. El informe muestra la precisión de coste total diaria o móvil en siete días, la precisión de clics y la precisión de valor objetivo.
 
-  Puede ver los datos por fecha de clic (la predeterminada) o por fecha de transacción. También puede ver los datos como un gráfico de tendencias (predeterminado) o como una tabla.
+  Puede ver los datos como un gráfico de tendencias (predeterminado) o como una tabla.
 
 * El gasto objetivo frente al gasto real de las carteras activas. Opcionalmente, también puede incluir los presupuestos de campaña totales para el portafolio.
 
@@ -48,7 +48,7 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
   Si lo desea, puede abrir la configuración del portafolio para editarla.
 
-* Listas de las campañas, grupos de anuncios y palabras clave del portafolio.
+* Listas de las redes de anuncios, cuentas, campañas, grupos de anuncios y palabras clave del portafolio, con datos de rendimiento.
 
   Para palabras clave individuales, puede ver los detalles de la unidad de oferta, incluidas las previsiones, la información histórica y la información jerárquica. La vista [!UICONTROL Bid Unit Details] incluye las siguientes previsiones, información histórica e información jerárquica para la unidad de oferta seleccionada:
 
@@ -64,11 +64,19 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
 1. En el menú principal, haga clic en **[!UICONTROL Manage]>[!UICONTROL Portfolios]**.
 
-1. Mantenga el cursor sobre el nombre del portafolio y haga clic en (/help/search-social-commerce/assets/portfolio-overview.png &quot;Información general de Portfolio&quot;).
+1. Mantenga el cursor sobre el nombre del portafolio y haga clic en ![Información general de Portfolio](/help/search-social-commerce/assets/portfolio-overview.png "Información general de Portfolio").
+
+1. (Opcional) Para cambiar el intervalo de fechas de los detalles del portafolio, haga clic en el intervalo de fechas en la esquina superior derecha, especifique el intervalo de fechas y, a continuación, haga clic en **[!UICONTROL Apply]**.
 
 1. (Opcional) En el menú **[!UICONTROL Data Aggregation]**, cambie la unidad de tiempo de los datos incluidos en cada fila: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* o *[!UICONTROL Monthly].*
 
-1. (Opcional) Para cambiar el intervalo de fechas de los detalles del portafolio, haga clic en el intervalo de fechas en la esquina superior derecha, especifique el intervalo de fechas y, a continuación, haga clic en **[!UICONTROL Apply]**.
+   Las opciones disponibles dependen del intervalo de fechas seleccionado. Si la agregación actual no está disponible para un nuevo intervalo de fechas, se selecciona automáticamente otra agregación disponible.
+
+1. (Opcional) En el menú **[!UICONTROL Conversion Based On]** del encabezado de la página, seleccione **[!UICONTROL Click Date]** o **[!UICONTROL Transaction Date]**.
+
+   Esta configuración se aplica a los datos de conversión de los informes de portafolio y las listas de componentes.
+
+Para ver los detalles de otro portafolio, utilice el selector de portafolios situado junto al nombre del portafolio.
 
 ## Personalizar la ficha [!UICONTROL Portfolio Overview]
 
@@ -86,15 +94,19 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
     * (En la vista de gráfico) Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
 
+    * (En la vista de gráfico) Para hacer zoom, seleccione un área del gráfico.
+
+    * (Cuando se muestran los marcadores de cambio de configuración del portafolio) Para ver el historial de cambios del portafolio para una fecha marcada, haga clic en el marcador del gráfico. Para obtener más información acerca del historial, consulte &quot;[Ver el historial de cambios de un portafolio](portfolio-view-change-history.md#portfolio-change-history)&quot;.
+
 * (Opcional) Para personalizar el gráfico de tendencias [!UICONTROL Model accuracy], realice una de las acciones siguientes:
 
   * Cambiar entre la vista de gráfico (![Vista de gráfico](/help/search-social-commerce/assets/chart-view.png "Vista de gráfico")) y la vista de tabla (![Visualización en tabla](/help/search-social-commerce/assets/table-view.png "Visualización en tabla")).
 
-  * Cambiar entre ver datos de *[!UICONTROL Click Date]* y *[!UICONTROL Transaction Date]*.
-
   * Cambiar entre ver datos sobre *[!UICONTROL Daily Accuracy]* y *[!UICONTROL 7 Day Rolling Accuracy]*.
 
     [!UICONTROL 7 Day Rolling Accuracy] es la precisión promedio de la previsión para los siete días anteriores, expresada como porcentaje. Por ejemplo, el valor para el 8 de mayo de 2025 es la precisión promedio para el período del 1 al 7 de mayo de 2025.
+
+    [!UICONTROL 7 Day Rolling Accuracy] solo está disponible cuando [!UICONTROL Data Aggregation] está establecido en [!UICONTROL Daily].
 
   * (En la vista de gráfico) Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
 
@@ -108,19 +120,50 @@ La vista de detalles del portafolio incluye la siguiente información sobre un p
 
   * Cambie la métrica de la que se ha informado a *[!UICONTROL Cost]*, *[!UICONTROL Clicks]* o *[!UICONTROL Objective Value]*.
 
+  * Cuando los datos estén disponibles para más de una red, seleccione la red en el menú situado junto al menú de métrica.
+
   * Para ver los datos de cualquier punto del gráfico, mantenga el cursor sobre ese punto.
 
-1. Haga clic en **[!UICONTROL Download report]**.
+  * Para hacer zoom, seleccione un área en el gráfico.
+
+## Personalizar las listas de componentes del portafolio
+
+Las fichas [!UICONTROL Networks], [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] y [!UICONTROL Keywords] incluyen los siguientes controles:
+
+* Para buscar por nombre, escriba texto en el campo de búsqueda situado encima de la tabla y envíe la búsqueda.
+
+* Para [filtrar los datos](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md), haga clic en ![Filtro](/help/search-social-commerce/assets/filter-new.png "Filtro"). Puede editar o eliminar los filtros aplicados utilizando los controles de filtro encima de la tabla.
+
+* Para ver los componentes de una red, cuenta, campaña o grupo de publicidad en la siguiente pestaña, haga clic en su nombre. El elemento principal seleccionado se muestra en la ruta de exploración encima de la tabla y los filtros aplicables se arrastran a medida que aumenta el detalle. Las selecciones principales pueden seguir restringiendo la lista al cambiar de pestaña.
+
+  Para quitar una selección detallada (como un nombre de cuenta o de red), haga clic en **[!UICONTROL X]** junto al nombre del componente en la ruta de exploración que se encuentra sobre la tabla. Las selecciones principales de nivel superior pueden permanecer activas. Para volver a todos los componentes del portafolio, elimine las selecciones principales restantes y cualquier otro filtro.
+
+* Para actualizar los datos, haga clic en ![Actualizar](/help/search-social-commerce/assets/refresh-new.png "Actualizar").
+
+* ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] y [!UICONTROL Keywords] solamente) Para cambiar las columnas mostradas o el orden, haga clic en ![Columnas personalizadas](/help/search-social-commerce/assets/custom-columns-new.png "Columnas personalizadas") y [edite el conjunto de columnas y las opciones de ordenación](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md).
+
+
+## Enumeración de las redes de anuncios del portafolio
+
+* Haga clic en la ficha **[!UICONTROL Networks]**.
+
+## Enumerar las cuentas del portafolio
+
+* Para ver todas las cuentas del portafolio, haga clic en la ficha **[!UICONTROL Accounts]**.
+
+* Para ver las cuentas de una red específica del portafolio, haga clic en la ficha **[!UICONTROL Networks]** y, a continuación, haga clic en el nombre de la red.
 
 ## Enumeración de las campañas del portafolio
 
 Los detalles de cada campaña incluyen la estrategia de oferta; el coste real y predicho, los clics y el valor objetivo; y el coste, los clics y la precisión del valor objetivo.
 
-* Haga clic en la ficha **[!UICONTROL Campaigns]**.
+* Para ver todas las campañas del portafolio, haga clic en la ficha **[!UICONTROL Campaigns]**.
+
+* Para ver las campañas de una cuenta específica del portafolio, haga clic en la ficha **[!UICONTROL Accounts]** y, a continuación, haga clic en el nombre de la cuenta.
 
 ## Enumeración de los grupos de anuncios del portafolios
 
-Los detalles de cada grupo de publicidad incluyen el coste, los clics y el valor objetivo.
+Los detalles de cada grupo de anuncios incluyen la red, la oferta predeterminada, el coste, los clics, el CPC, las impresiones, el valor objetivo y las métricas de conversión utilizadas en el objetivo del portafolio.
 
 * Para ver todos los grupos de anuncios del portafolios, haga clic en la ficha **[!UICONTROL Ad Groups]**.
 
@@ -160,23 +203,27 @@ Para ver el historial de ofertas de todo el portafolio y cambiar su intervalo de
 
 Para obtener más información sobre la configuración del portafolio, consulte la Guía de optimización, que está disponible en Search, Social y Commerce.
 
-## Descargar informes de rendimiento de la cartera y listas de los componentes de la cartera
+## Descargar informes y listas de rendimiento de portafolios de los componentes del portafolio
 
-* Para descargar todos los informes:
+* Para descargar informes de rendimiento y listas de componentes:
 
   1. En la barra de herramientas, haga clic en **[!UICONTROL Download report]**.
 
   1. Seleccione la casilla de verificación situada junto a cada tipo de componente de portafolio e informe de rendimiento que desee incluir.
 
-     Para algunos informes de rendimiento, puede elegir si desea descargar los datos como un gráfico o una tabla.
+     Los componentes de portafolio disponibles son *[!UICONTROL Campaigns table]*, *[!UICONTROL Ad groups table]* y *[!UICONTROL Keywords table]*. Las tablas [!UICONTROL Networks] y [!UICONTROL Accounts] no se incluyen en esta descarga.
+
+     Para los informes de rendimiento con ambas opciones, seleccione **[!UICONTROL As chart]**, **[!UICONTROL As table]** o ambos. El informe [!UICONTROL Network accuracy chart] solo está disponible como gráfico.
 
   1. Haga clic en **[!UICONTROL Download report]**.
 
-* Para descargar un informe [!DNL model accuracy] con tipos de datos específicos:
+* Para descargar un informe [!UICONTROL Model accuracy] con tipos de datos específicos:
 
-  1. En la barra de herramientas del informe, haga clic en **[!UICONTROL Download report]**.
+  1. En la barra de herramientas de [!UICONTROL Model accuracy], haga clic en **[!UICONTROL Download report]**.
 
-  1. Seleccione la casilla de verificación situada junto a cada tipo de datos que desee incluir y cómo desglosar los datos (por unidad de oferta o por volumen de clics).
+  1. Seleccione **[!UICONTROL Cost Accuracy]**, **[!UICONTROL Objective Value Accuracy]** o ambos.
+
+  1. Para cada tipo de datos seleccionado, seleccione **[!UICONTROL By Bid Unit]**, **[!UICONTROL By Click Volume]** o ambos.
 
   1. Haga clic en **[!UICONTROL Download report]**.
 
