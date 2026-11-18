@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 2f170883b2876ea4a7b39e814df598d337f7ca07
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '570'
 ht-degree: 0%
 ---
 # Acerca de la personalización de datos en vistas de administración de campañas
@@ -44,34 +44,23 @@ En la mayoría de las vistas de datos de campaña, puede personalizar los datos 
 
 * Controle si desea mostrar 25 filas, 50 filas, 100 filas, (solo interfaz de usuario heredada) 200 filas o (solo interfaz de usuario heredada) [!UICONTROL Continuous Scroll] en la parte inferior de cualquier página.
 
-<!--
 
-## (New UI) Data table tools {#grid-controls-new-ui}
+## (Nueva IU) Controles de tabla de datos {#data-table-tools-new-ui}
 
-In applicable management views, the toolbar includes the following controls:
+Utilice la barra de herramientas situada encima de la tabla de datos para administrar los datos y cambiar cómo se muestran. Las herramientas disponibles dependen de la vista y de los permisos.
 
-* On the left, the [!UICONTROL Filter] control appears before grid search. Where supported, the [!UICONTROL Conversion based on] selector follows search and lets you select [!UICONTROL Click Date] or [!UICONTROL Transaction Date].
+Si la barra de herramientas es demasiado estrecha para mostrar una herramienta, búsquela en el menú **[!UICONTROL Actions]**.
 
-* On the right, operational actions, such as [!UICONTROL Reports], appear alongside view and display controls. The available controls depend on the view and your permissions.
+Si está disponible, puede:
 
-* When the available width is reduced, controls move into the [!UICONTROL Actions] menu. This can happen when you narrow the window or open the AI Assistant panel. If a control isn't visible in the toolbar, look for it in [!UICONTROL Actions]. In wider layouts, controls remain inline.
+* Seleccione *[!UICONTROL Click Date]* o *[!UICONTROL Transaction Date]* de [!UICONTROL Conversion based on] para controlar cómo se generan los informes de los datos de conversión.
 
-* Within [!UICONTROL Actions], a horizontal divider separates operational actions from view and display controls, such as the current view, [!UICONTROL Custom Columns], [!UICONTROL Compressed Mode], and [!UICONTROL Charts], where available.
+* Compare el rendimiento durante dos períodos de tiempo y elija cómo mostrar la diferencia. Consulte &quot;[Filtrar datos por intervalo de fechas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)&quot;.
 
-* The primary create button remains outside [!UICONTROL Actions].
+* Activar o desactivar el espaciado compacto de la tabla con **[!UICONTROL Compressed Mode]** en la barra de herramientas o en el menú **[!UICONTROL Actions]**.
 
-The [!UICONTROL Refresh] icon is beside the page title in applicable views. The date range control is in the page header. For instructions on comparing two date ranges and changing the comparison format, see "[Filter data by date range](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/date-filter.md#compare-periods-new-ui)."
+  El botón de la barra de herramientas está seleccionado cuando el modo comprimido está activado. En [!UICONTROL Actions], un modificador indica el estado actual.
 
-### Change the grid density
+* Mostrar u ocultar gráficos con **[!UICONTROL Charts]** en la barra de herramientas o el menú **[!UICONTROL Actions]**.
 
-* Where available, click **[!UICONTROL Compressed Mode]** in the toolbar or **[!UICONTROL Actions]** menu to turn compact grid spacing on or off.
-
-  The toolbar button is selected when compressed mode is on. In [!UICONTROL Actions], a switch indicates the current state.
-
-### Show or hide charts
-
-* Where available, click **[!UICONTROL Charts]** in the toolbar or **[!UICONTROL Actions]** menu.
-
-  The toolbar button is selected when charts are shown. In [!UICONTROL Actions], a switch indicates whether charts are shown. Click the control again to hide the charts.
-
--->
+  El botón de la barra de herramientas se selecciona cuando se muestran gráficos. En [!UICONTROL Actions], un modificador indica si se muestran gráficos. Vuelva a hacer clic en el control para ocultar los gráficos.

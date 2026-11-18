@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b5d2d666af6062eb3bf07ae041992819a4cc6780
+source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '500'
 ht-degree: 0%
 ---
 # Aplicación de filtros de datos desde la barra de herramientas
@@ -28,7 +28,7 @@ Puede aplicar todos los filtros que desee a una vista.<!-- True only for entity 
 
 ## (Nueva IU) Aplicar filtros de datos de la barra de herramientas en las vistas de administración
 
-1. En la barra de herramientas, haga clic en el control ![Filter](/help/search-social-commerce/assets/filter-new.png "Filter") de solo icono antes de realizar la búsqueda en la cuadrícula.
+1. En la barra de herramientas, haga clic en el control ![Filter](/help/search-social-commerce/assets/filter-new.png "Filter") de solo icono antes del campo de búsqueda.
 
 1. En la configuración del filtro, realice una de las acciones siguientes:
 
