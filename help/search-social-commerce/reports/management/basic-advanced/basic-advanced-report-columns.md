@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3919'
 ht-degree: 0%
 ---
 # Columnas de informes para informes básicos y avanzados
@@ -59,6 +59,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | Las dimensiones del anuncio. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] anuncios de búsqueda adaptables) La eficacia del anuncio: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> o <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL LY Ads] y [!DNL Microsoft Advertising] campañas) El ajuste de oferta móvil actual de nivel de grupo de anuncios, que determina cómo se ajustan las ofertas cuando el anuncio se muestra en un dispositivo móvil. |
+| [!UICONTROL Adobe Tech Fees] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] y [!UICONTROL Ad Variation Report]; solo [!DNL ChatGPT Ads]) Las [!DNL Adobe] tarifas de tecnología para el gasto en medios, calculadas con las tarifas de tarifa aplicables. |
 | [!UICONTROL AI Max Bundling Required] | (Campañas dirigidas únicamente a la red de búsqueda; campañas con la función AI Max habilitada; solo lectura) Si se requiere el agrupamiento: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* o nulo. |
 | [!UICONTROL AI Max Enabled] | Si la característica [[!UICONTROL AI Max] &#x200B;](https://support.google.com/google-ads/answer/15910366) está habilitada: *[!UICONTROL true]*, *[!UICONTROL false]* o es nula. |
 | [!UICONTROL AI Max Search Term Matching] | (Campañas dirigidas a la red de búsqueda para las que la característica [AI Max](https://support.google.com/google-ads/answer/15910366) y la característica de coincidencia de términos de búsqueda en el nivel de campaña están habilitadas; solo lectura) Indica si la coincidencia de términos de búsqueda en el nivel de grupo de anuncios está habilitada: *[!UICONTROL true]*, *[!UICONTROL false]* o nula. |
@@ -67,6 +68,7 @@ ht-degree: 0%
 | [!UICONTROL Avg Position] | Posición promedio de los anuncios durante el intervalo de fechas especificado.<br><br>Estos datos solo están disponibles hasta septiembre de 2019 para las campañas [!DNL Google Ads] y [!DNL LY Ads]. Para [!DNL Microsoft Advertising], estos datos solo están disponibles hasta el 22 de enero de 2021. |
 | [!UICONTROL Base URL] | La dirección URL base de la palabra clave, incluidos los parámetros de adición configurados para la campaña o cuenta. No incluye ningún código de seguimiento y redirección de Search, Social y Commerce. |
 | [!UICONTROL Bid Strategy] | (La mayoría de las redes de publicidad) Para las campañas o los componentes de campaña, esta es la estrategia de oferta de la campaña. Para las cuentas de red de publicidad vinculadas a una cuenta de administrador, esta es la estrategia de oferta entre cuentas. Los valores disponibles varían según la red de anuncios. |
+| [!UICONTROL Billable Spend] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] y [!UICONTROL Ad Variation Report]; solo [!DNL ChatGPT Ads]) El costo de los medios más [!DNL Adobe] cargos por tecnología, sin incluir impuestos. |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising] anuncios adaptables) El nombre comercial. |
 | [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] anuncios interactivos y multimedia) call to action incluido en el anuncio. |
 | [!UICONTROL Campaign] | La campaña. |
@@ -131,6 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Est. Clicks] | ([!UICONTROL Geo Distribution Report]; buscar y mostrar solo campañas) El número estimado de clics para la combinación de grupo de anuncios/campaña/portafolio. Este valor puede ser diferente al valor proporcionado por las redes de publicidad. |
 | [!UICONTROL Estimated Cost] | El coste total estimado de los anuncios asociados de los que Search, Social y Commerce han realizado un seguimiento. Este valor puede ser diferente al valor proporcionado por las redes de publicidad. |
 | [!UICONTROL Estimated Impressions] | (Solo mostrar campañas) El número estimado de impresiones de publicidad que Search, Social y Commerce han rastreado. Este valor puede ser diferente al valor de la columna [!UICONTROL Impressions] (cuando está disponible), que muestra el valor proporcionado por las redes de anuncios. |
+| [!UICONTROL Estimated Tax] | ([!UICONTROL Search Engine Account Report], [!UICONTROL Campaign Report], [!UICONTROL Ad Group Report] y [!UICONTROL Ad Variation Report]; solo [!DNL ChatGPT Ads]) Los impuestos estimados sobre el gasto en medios y las [!DNL Adobe] tarifas de tecnología, calculados usando las tasas de impuestos aplicables. |
 | [!UICONTROL Exclude (yes/no)] | Si se excluyen las pujas (<i>[!UICONTROL Yes]</i>) o si se permiten las pujas (<i>[!UICONTROL No]</i>) para los anuncios de productos que coinciden. |
 | [!UICONTROL First Page CPC] | (Solo campañas de Google) El coste por clic (CPC) de los anuncios que aparecen en la primera página de resultados de búsqueda durante el intervalo de fechas especificado. |
 | [!UICONTROL Frequency] | ([!DNL Meta] campañas solamente) El número promedio de veces que alguien vio su anuncio. |
@@ -191,7 +194,7 @@ ht-degree: 0%
 | [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] y [!DNL Microsoft Advertising]) Las impresiones que has recibido en las ubicaciones principales (por encima de los resultados de búsqueda orgánica) divididas por el número estimado de impresiones que tenías derecho a recibir en las ubicaciones principales. Los porcentajes por debajo del 10% se indican como &quot;`<10%`&quot; o &quot;`0.0999`&quot;. |
 | [!UICONTROL Search Engine] | La red de anuncios. |
 | [!UICONTROL Search exact match IS] | El número de impresiones que recibiste por las búsquedas que coincidieron exactamente con tu palabra clave dividido por el número estimado de impresiones de coincidencia exactas que tenías derecho a recibir. Si este número es bajo, puede deberse a que la puja es demasiado baja o a que la calidad o relevancia del anuncio es baja. |
-| [!UICONTROL Search impr. share] | ([!DNL Google Ads] solamente) Las impresiones que ha recibido divididas por el número estimado de impresiones que reúne los requisitos para recibir. Los porcentajes por debajo del 10 % se indican como &quot;&lt;10 %&quot; y los porcentajes por encima del 90 % como &quot;`>90%`&quot;. |
+| [!UICONTROL Search impr. share] | ([!DNL Google Ads] solamente) Las impresiones que ha recibido divididas por el número estimado de impresiones que reúne los requisitos para recibir. Los porcentajes por debajo del 10 % se indican como &quot;&lt;10 %&quot; y los porcentajes por encima del 90 % se indican como &quot;`>90%`&quot;. |
 | [!UICONTROL Search lost abs. top IS (budget)] | ([!DNL Google Ads] y [!DNL Microsoft Advertising]) Porcentaje de tiempo que sus anuncios no fueron los primeros anuncios por encima de los resultados de búsqueda orgánica porque su presupuesto diario o mensual era demasiado bajo. Para las campañas de Google ads, los porcentajes superiores al 90% se indican como &quot;`>90%`&quot; o &quot;`0.9001`&quot;. |
 | [!UICONTROL Search lost abs. top IS (rank)] | ([!DNL Google Ads] y [!DNL Microsoft Advertising]) El porcentaje de tiempo que sus anuncios no fueron los primeros anuncios por encima de los resultados de búsqueda orgánica debido a una clasificación de anuncio deficiente. Para las campañas de Google ads, los porcentajes superiores al 90% se indican como &quot;`>90%`&quot; o &quot;`0.9001`&quot;. |
 | [!UICONTROL Search lost IS (budget)] | ([!DNL Google Ads] solamente) El porcentaje de tiempo que no se mostraron los anuncios debido a que el presupuesto diario o mensual era demasiado bajo. Esta métrica solo está disponible en el nivel de campaña. Los porcentajes superiores al 90% se indican como &quot;`>90%`&quot; o &quot;`0.9001`&quot;. |
