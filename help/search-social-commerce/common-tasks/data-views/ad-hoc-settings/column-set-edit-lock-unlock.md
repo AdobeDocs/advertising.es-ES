@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '149'
 ht-degree: 0%
 ---
 # Bloqueo y desbloqueo de una configuración de columna en las vistas de campaña
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
 
-Bloquear una columna &quot;bloquea&quot; esa columna y todas las demás columnas a su izquierda en un panel estático, y todas las columnas a la derecha en otro panel a través del cual puede desplazarse horizontalmente.
+Bloquear una columna &quot;bloquea&quot; esa columna y todas las demás columnas a su izquierda en un panel estático, y todas las columnas a la derecha en otro panel a través del cual puede desplazarse horizontalmente. En la nueva interfaz de usuario, puede cambiar el tamaño de las columnas bloqueadas aptas arrastrando el límite entre los encabezados de columna sin desbloquearlas primero.
 
 Un bloqueo sólo funciona hasta que se aleja de la vista de entidad. No puede guardarlo en la vista predeterminada o personalizada.
 

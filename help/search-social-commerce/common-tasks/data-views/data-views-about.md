@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 968023d95217d4d17b1441ae717f3e472b31f7c4
+source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '672'
 ht-degree: 0%
 ---
 # Acerca de la personalización de datos en vistas de administración de campañas
@@ -44,7 +44,6 @@ En la mayoría de las vistas de datos de campaña, puede personalizar los datos 
 
 * Controle si desea mostrar 25 filas, 50 filas, 100 filas, (solo interfaz de usuario heredada) 200 filas o (solo interfaz de usuario heredada) [!UICONTROL Continuous Scroll] en la parte inferior de cualquier página.
 
-
 ## (Nueva IU) Controles de tabla de datos {#data-table-tools-new-ui}
 
 Utilice la barra de herramientas situada encima de la tabla de datos para administrar los datos y cambiar cómo se muestran. Las herramientas disponibles dependen de la vista y de los permisos.
@@ -64,3 +63,15 @@ Si está disponible, puede:
 * Mostrar u ocultar gráficos con **[!UICONTROL Charts]** en la barra de herramientas o el menú **[!UICONTROL Actions]**.
 
   El botón de la barra de herramientas se selecciona cuando se muestran gráficos. En [!UICONTROL Actions], un modificador indica si se muestran gráficos. Vuelva a hacer clic en el control para ocultar los gráficos.
+
+## (Nueva IU) Anchos de columna y valores de tabla {#column-widths-values-new-ui}
+
+En las tablas de datos de campaña:
+
+* Cambiar el tamaño de una columna arrastrando el límite entre los encabezados de columna. También puede cambiar el tamaño de [columnas bloqueadas](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-lock-unlock.md) aptas sin desbloquearlas primero. Las anchuras mínimas ayudan a mantener los valores legibles. Algunas columnas de iconos y acciones tienen anchuras fijas y no se pueden cambiar de tamaño.
+
+* Mantenga el cursor sobre un nombre de entidad truncado para ver el nombre completo.
+
+* Para abrir los detalles de una entidad cuyo nombre es un vínculo, presione **Tab** hasta que se resalte el nombre y, a continuación, presione **Entrar**.
+
+* Un guión corto (-) indica un valor que falta, que es NULL o que no es aplicable. Los valores cero y falso permanecen visibles.
