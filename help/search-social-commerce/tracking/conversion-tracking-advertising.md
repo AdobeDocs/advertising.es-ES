@@ -16,7 +16,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Adobe Advertising realiza un seguimiento de las conversiones resultantes de los clics en las publicidades mediante las etiquetas de seguimiento de conversión de Adobe Advertising que se insertan en las páginas web que se abren cuando se produce un evento de conversión, como una página de &quot;éxito&quot;. Las etiquetas incluyen información incrustada para enviar los datos de transacción, junto con la cookie de Adobe Advertising del usuario, a un servidor de seguimiento, desde el cual la transacción se acredita al clic o impresión correspondientes del anuncio (según la configuración de atribución de conversión del anunciante).
 
-Puede [generar etiquetas de seguimiento de conversión](/help/search-social-commerce/tools/conversion-tag-generate.md) en Search, Social y Commerce o mediante etiquetas en Adobe Experience Platform (anteriormente conocido como Adobe Experience Platform Launch).
+Puede [generar etiquetas de seguimiento de conversión](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md) en Search, Social y Commerce o mediante etiquetas en Adobe Experience Platform (anteriormente conocido como Adobe Experience Platform Launch).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ El píxel de seguimiento de conversión permite a Adobe Advertising hacer lo sig
 >[!MORELIKETHIS]
 >
 >* [Opciones de seguimiento de conversión](conversion-tracking-about.md)
->* [Generar e implementar una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generar e implementar una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3](format-conversion-tag-jsv3.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](format-conversion-tag-jsv2.md)
 >* [Formato de etiquetas de seguimiento de conversión de imagen](format-conversion-tag-image.md)

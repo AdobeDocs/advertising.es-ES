@@ -1,0 +1,58 @@
+---
+title: '[!UICONTROL Forecast Accuracy (Actuals) Report]'
+description: Obtenga información acerca de [!UICONTROL Forecast Accuracy (Actuals) Report], incluidas las columnas de datos.
+exl-id: 659e11c7-5fed-4d91-a73f-7c435d36634f
+feature: Search Reports, Search Model Accuracy Reports
+TQID: 'https://experienceleague.adobe.com/wQyO42Dt5McqK23z-adEP-BAxxTrBk9RJi0I-4noP0I'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
+    internal-label: Search Reports
+  - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
+    internal-label: Search Model Accuracy Reports
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 0%
+---
+# El [!UICONTROL Forecast Accuracy (Actuals) Report]
+
+Este informe muestra los datos reales de impresión, clics, costes e ingresos de la red de publicidad por día de cada portafolio.
+
+## Columnas disponibles
+
+A continuación se indican las columnas que se incluyen automáticamente en cada informe. No se pueden agregar columnas adicionales.
+
+| Columna | ¿Predeterminado? | Descripción |
+|----|----|----|
+| [!UICONTROL Portfolio Group Name] | Predeterminado | El nombre del grupo de portafolios al que pertenece el portafolio. |
+| [!UICONTROL Portfolio ID] | Predeterminado | El ID numérico del portafolio. |
+| [!UICONTROL EF Portfolio Group ID] | Predeterminado | El ID numérico del grupo de portafolios al que pertenece el portafolio. |
+| [!UICONTROL Portfolio] | Predeterminado | El portafolio. |
+| [!UICONTROL Portfolio Status] | Predeterminado | El estado del portafolio:<ul><li><i>[!UICONTROL Optimize]:</i> La funcionalidad de optimización recopila datos de clics e ingresos para las campañas relevantes, modela los datos utilizados para la optimización y optimiza las ofertas, los presupuestos de campaña y los objetivos de estrategia de oferta de campaña (según el tipo de optimización y las estrategias de oferta).</li><li><i>[!UICONTROL Active]:</i> La funcionalidad de optimización recopila datos de clics e ingresos para las campañas relevantes y modela los datos, pero no optimiza las ofertas ni los presupuestos de campaña.</li><li><i>[!UICONTROL Inactive]:</i> La capacidad de optimización está recopilando datos de clics para las campañas relevantes con fines de creación de informes, pero no está modelando los datos ni optimizando ofertas o presupuestos de campaña. |
+| [!UICONTROL Day of Week] | Predeterminado | Se informó del día de la semana: <i>[!UICONTROL Sunday]</i>, <i>[!UICONTROL Monday]</i>, <i>[!UICONTROL Tuesday]</i>, <i>[!UICONTROL Wednesday]</i>, <i>[!UICONTROL Thursday]</i>, <i>[!UICONTROL Friday]</i> o <i>[!UICONTROL Saturday]</i>. |
+| [!UICONTROL Event Date] | Predeterminado | La fecha del informe. |
+| [!UICONTROL Device] | Predeterminado | (Google Ads, [!DNL LY Ads], Microsoft Advertising, Yahoo! Display Network y Yahoo Native campaigns) El tipo de dispositivo en el que se mostraron los anuncios: <i>[!UICONTROL Computers]</i>, <i>[!UICONTROL Mobile]</i>, <i>[!UICONTROL Tablets]</i>, <i>[!UICONTROL Other]</i> o <i>[!UICONTROL N/A]</i> (sin valor). Las filas de otras redes de anuncios tienen un valor de <i>[!UICONTROL N/A]</i>.<br><br>En las campañas de búsqueda, si las plantillas de seguimiento o las direcciones URL de destino de las palabras clave, los anuncios o las extensiones de anuncio incluían parámetros para realizar un seguimiento de los datos por dispositivo (<code>&amp;ev_dvc={device}&amp;ev_dvm={devicemodel}</code>) en el momento en que se hizo clic en el anuncio, los datos de conversión también se incluyen en la fila para cada tipo de dispositivo. De lo contrario, si los datos de conversión no pueden atribuirse a un tipo de dispositivo, se agregan en una fila independiente con un valor &quot;[!UICONTROL Device]&quot; de <i>[!UICONTROL N/A]</i>. |
+| [!UICONTROL Revenue] | Predeterminado | Los ingresos totales. |
+| [!UICONTROL Impressions] | Predeterminado | El total de impresiones. |
+| [!UICONTROL Clicks] | Predeterminado | El total de clics. |
+| [!UICONTROL Cost] | Predeterminado | El coste total. |
+
+>[!MORELIKETHIS]
+>
+>* [Acerca de los informes de precisión del modelo](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [El [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+>* [Generar un informe de precisión de modelo](model-accuracy-report-generate.md)
+>* [Configuración del informe de precisión del modelo](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-settings.md)

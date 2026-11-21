@@ -1,0 +1,79 @@
+---
+title: Requisitos previos para configurar un origen de datos de [!DNL Google Analytics]
+description: Obtenga información acerca de los pasos que debe completar antes de configurar un origen de datos de [!DNL Google Analytics].
+role: User, Admin
+exl-id: 97b0c149-5f82-4a1e-a5d9-aeab43cbd88f
+feature: Search Admin, Search Data Sources
+TQID: 'https://experienceleague.adobe.com/viBRqiwqJm2BabtLP7b3h1TMTjkeITeSVA1vMMmbrPY'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 0%
+---
+# Requisitos previos para configurar un origen de datos de [!DNL Google Analytics]
+
+Antes de configurar un origen de datos de [!DNL Google Analytics], debe establecer el parámetro de cadena de consulta &quot;ef_id&quot; de Search, Social y Commerce como clave principal para pasar datos de [!DNL Google Analytics] a Search, Social y Commerce. Configure la clave principal para cada combinación de cuenta y propiedad de [!DNL Google Analytics] para la que desee sincronizar datos. Es posible que otras personas de su organización necesiten completar estas tareas; consulte a continuación para obtener más información.
+
+Si las direcciones URL de la página de aterrizaje para los anuncios o las palabras clave aún no incluyen redirecciones de Search, Social y Commerce, agréguelas primero.
+
+## Requisito previo 1: Implementar un token de Search, Social y Commerce (parámetro de cadena de consulta &quot;ef_id&quot;) en las direcciones URL de la página de aterrizaje para todas las cuentas de publicidad aplicables
+
+En cada clic de búsqueda de pago para las campañas relevantes, se debe generar un `ef_id` único que se debe anexar a la dirección URL de la página de aterrizaje como una cadena de consulta, como `https://www.adobe.com/es?someParam=123&ef_id=abcde:123456789:s`, donde `&ef_id=abcde:123456789:s` es el símbolo de anexado, la clave `ef_id` y el valor `ef_id`. Para incluir un ef_id, las cuentas y campañas de red de anuncios relevantes deben tener [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; y [!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot;.&quot;
+
+Para cuentas y campañas existentes, es probable que el ef_id ya esté implementado.
+
+Si el ef_id no está incluido, pida ayuda a su equipo de cuenta de Adobe.
+
+Una vez cumplidos todos los requisitos previos, `ef_id` se usa como clave principal para pasar datos de [!DNL Google Analytics] a Search, Social y Commerce.
+
+## Requisito previo 2: capture el token de Search, Social y Commerce (parámetro de cadena de consulta &quot;ef_id&quot;) en una dimensión personalizada para cada propiedad [!DNL Google Analytics] relevante
+
+Repita las tareas siguientes para cada combinación de cuenta y propiedad de [!DNL Google Analytics] para la que desee sincronizar datos. Consulte [[!DNL Google Analytics] documentación sobre la creación e implementación de dimensiones personalizadas](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) para obtener ayuda con estas tareas.
+
+1. En [!DNL Google Analytics], cree una dimensión personalizada denominada &quot;`ef_id`&quot;. Establezca el ámbito de la dimensión en [!DNL User] y establezca la dimensión como activa.
+
+   >[!NOTE]
+   >
+   >Este requisito previo requiere permiso de edición para las propiedades relevantes.
+
+1. Actualice el código de seguimiento [!DNL Google Analytics] para capturar el valor del parámetro de cadena de consulta ef_id cuando esté presente en la dirección URL de la página de aterrizaje y almacenarlo en la dimensión personalizada ef_id.
+
+   >[!NOTE]
+   >
+   >El ef_id solo debe usarse en direcciones URL de páginas de aterrizaje.
+
+   Por ejemplo, si la dirección URL de la página de aterrizaje es `https://www.adobe.com/es?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`, el valor de la dimensión ef_id en [!DNL Google Analytics] es `abcde:123456789:s`.
+
+   >[!NOTE]
+   >
+   >Este requisito previo debe completarlo un desarrollador cualificado.
+
+>[!MORELIKETHIS]
+>
+>* [Acerca de la sincronización [!DNL Google Analytics] métricas de conversión](data-source-about.md)
+>* [Configurar una [!DNL Google Analytics] vista como fuente de datos](data-source-configure.md)
+>* [Editar una [!DNL Google Analytics] fuente de datos](data-source-edit.md)
+>* [Pausar la sincronización de un origen de datos](data-source-pause.md)
+>* [Volver a autenticar un [!DNL Google Analytics] origen de datos](data-source-reauthenticate.md)
+>* [[!DNL Google Analytics] configuración de origen de datos](data-source-settings.md)
+>* [Apéndice:  [!DNL Google Analytics] métricas disponibles](data-source-ga-metrics.md)

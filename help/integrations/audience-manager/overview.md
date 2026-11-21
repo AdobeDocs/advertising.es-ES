@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7845129ba6566c1aaaf160cc6f9ad33bf1731f75
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 0%
-
 ---
-
 # Integraciones de Adobe Advertising con Adobe Audience Manager
 
 Puede integrar Adobe Advertising con Audience Manager de las siguientes maneras.
@@ -46,7 +44,7 @@ Puede integrar Adobe Advertising con Audience Manager de las siguientes maneras.
 
 *Anunciantes de inclusión con [!DNL Advertising Search, Social, & Commerce] solamente*
 
-En [!DNL Search, Social, & Commerce], puede crear audiencias de coincidencia de clientes de [!DNL Google Ads] a partir de los ID de usuario utilizando los segmentos de Audience Manager existentes que tienen [!UICONTROL Adobe Media Optimizer (HTTP)] y [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] es un nombre anterior de [!DNL Search, Social, & Commerce]). Esto incluye segmentos de Adobe Analytics que se publican en Adobe CX Enterprise y segmentos que se crean con Adobe CX Enterprise [!DNL Audience Library]. Para obtener más información, consulte &quot;[Crear [!DNL Google Ads] audiencias de coincidencia de cliente a partir de [!DNL Adobe] audiencias](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)&quot;.
+En [!DNL Search, Social, & Commerce], puede crear audiencias de coincidencia de clientes de [!DNL Google Ads] a partir de los ID de usuario utilizando los segmentos de Audience Manager existentes que tienen [!UICONTROL Adobe Media Optimizer (HTTP)] y [!UICONTROL Adobe Media Optimizer Batch Destination] como destinos. ([!DNL Media Optimizer] es un nombre anterior de [!DNL Search, Social, & Commerce]). Esto incluye segmentos de Adobe Analytics que se publican en Adobe CX Enterprise y segmentos que se crean con Adobe CX Enterprise [!DNL Audience Library]. Para obtener más información, consulte &quot;[Crear [!DNL Google Ads] audiencias de coincidencia de cliente a partir de [!DNL Adobe] audiencias](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create)&quot;.
 
 Las [audiencias de coincidencia de clientes de los ID de usuario](https://support.google.com/google-ads/answer/9199250) funcionan como audiencias basadas en etiquetas de sitios web, pero se asigna un ID que no es PII a los miembros de audiencia única para obtener beneficios distintos sobre las audiencias estándar basadas en etiquetas de sitios web y las coincidencias de clientes.
 

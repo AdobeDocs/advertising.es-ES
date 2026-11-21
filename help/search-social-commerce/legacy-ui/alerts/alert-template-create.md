@@ -1,0 +1,71 @@
+---
+title: Crear una plantilla de alerta personalizada
+description: Obtenga información sobre cómo crear una plantilla para generar alertas personalizadas.
+exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
+feature: Search Alerts
+TQID: 'https://experienceleague.adobe.com/6fPMkTJdD-TiBU45ja0E-z1XJO5Ve7-8zs4pCc7sbYQ'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: d26a7c77-52b3-5c68-80ee-315aaaaee689
+    internal-label: Search Alerts
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 0%
+---
+# Crear una plantilla de alerta personalizada
+
+Puede crear una plantilla de alertas para portafolios, campañas, grupos de anuncios, palabras clave o anuncios y almacenar en déclencheur la alerta según una programación regular. Las nuevas plantillas de alerta tienen el estado &quot;[!UICONTROL Active]&quot;.
+
+## Crear una plantilla de alerta desde la vista [!UICONTROL Alert Templates]
+
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**, que se abre en la vista [!UICONTROL Alert Templates].
+
+1. En la barra de herramientas, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear") y, a continuación, seleccione el tipo de entidad que desea evaluar ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad] o [!UICONTROL Product Group]).
+
+1. En la ventana [!UICONTROL Create \[Entity\] Alert], especifique la [configuración de alertas](alert-template-settings.md) en las fichas **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** y **[!UICONTROL Scheduling and Delivery]**.
+
+   Puede moverse entre las fichas haciendo clic en el nombre de la ficha (por ejemplo, &quot;Filtros&quot;) o haciendo clic en **[!UICONTROL Next]** en la parte inferior derecha.
+
+1. En la ficha [!UICONTROL Summary], haga clic en **[!UICONTROL Create]**.
+
+## Creación de una plantilla de alerta desde una vista de administración de campañas
+
+>[!NOTE]
+>
+>Esta opción no está disponible para plantillas de alerta de nivel de portafolio.
+
+1. En la vista **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**, abra la subvista de administración de campañas para el tipo de entidad que desea evaluar ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] o [!UICONTROL Product Groups]).
+
+   Por ejemplo, para crear una plantilla de alerta de nivel de palabra clave, vaya a [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] y, a continuación, seleccione [!UICONTROL Keywords].
+
+1. En el lado derecho de la barra de herramientas sobre la tabla de datos, haz clic en ![Crear alerta](/help/search-social-commerce/assets/add-alert.png "Crear alerta").
+
+   >[!NOTE]
+   >
+   >No es necesario que seleccione filas específicas.
+
+1. En la ventana [!UICONTROL Create \[Entity type\] Alert], especifique la [configuración de alertas](alert-template-settings.md) en las fichas **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** y **[!UICONTROL Scheduling and Delivery]**.
+
+   Puede moverse entre las fichas haciendo clic en el nombre de la ficha (por ejemplo, &quot;Filtros&quot;) o haciendo clic en **[!UICONTROL Next]** en la parte inferior derecha.
+
+1. En la ficha [!UICONTROL Summary], haga clic en **[!UICONTROL Create]**.
+
+>[!MORELIKETHIS]
+>
+>* [Acerca de las alertas personalizadas](alert-about.md)
+>* [Editar una plantilla de alerta personalizada](alert-template-edit.md)
+>* [Pausar una plantilla de alerta personalizada](alert-template-pause.md)
+>* [Activar una plantilla de alerta personalizada](alert-template-activate.md)
+>* [Eliminar una plantilla de alerta personalizada](alert-template-delete.md)
+>* [Configuración de la plantilla de alertas personalizada](alert-template-settings.md)
+>* [Ver alertas personalizadas](alert-view.md)
+>* [Exportar datos para alertas personalizadas](alert-export-data.md)

@@ -20,7 +20,7 @@ topic_v2:
     internal-label: Optimization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Search, Social y Commerce pueden utilizar datos de conversión de los que se rea
 
 * **Conversiones de Adobe Analytics:** El anunciante usa el seguimiento de Adobe Analytics para todas las conversiones. Esta opción requiere una integración Adobe Advertising-Adobe Analytics. Consulte &quot;[Seguimiento de conversión de Adobe Analytics](conversion-tracking-analytics.md)&quot; para obtener más información.
 
-* **[!DNL Google Analytics]conversiones:** El anunciante usa la etiqueta [!DNL Google Analytics] para realizar el seguimiento de todas las conversiones. Consulte &quot;[[!DNL Google Ads] datos de conversión en Search, Social y Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)&quot; para obtener más información sobre las conversiones que se sincronizan automáticamente.
+* **[!DNL Google Analytics]conversiones:** El anunciante usa la etiqueta [!DNL Google Analytics] para realizar el seguimiento de todas las conversiones. Consulte &quot;[[!DNL Google Ads] datos de conversión en Search, Social y Commerce](google-conversion-data.md)&quot; para obtener más información sobre las conversiones que se sincronizan automáticamente.
 
 * **Conversiones rastreadas por el anunciante:** (solo para clientes de Search, Social y Commerce) El anunciante proporciona a Search, Social y Commerce un archivo de fuente con cualquier combinación de datos de conversión en línea y sin conexión. Consulte &quot;[Seguimiento de conversión mediante una fuente de ID de EF](feed-efid.md)&quot; y &quot;[Seguimiento de conversión mediante una fuente de ID de transacción](feed-transaction-id.md).&quot;
 

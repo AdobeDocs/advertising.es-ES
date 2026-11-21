@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfd751d4-ee56-4323-8fd1-dc174b031709
     internal-label: Analytics integration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Con la extracción de [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/inte
 
 <!-- Verify all -->
 
-En [!DNL Search, Social, & Commerce], puede crear [!DNL Google Ads] audiencias de coincidencia de clientes de Google a partir de los ID de usuario utilizando sus [!DNL Analytics] segmentos existentes. Esto incluye segmentos de Adobe Analytics que se publican en Adobe CX Enterprise y segmentos que se crean con Adobe CX Enterprise [!DNL Audience Library]. Para obtener más información, consulte &quot;[Crear [!DNL Google Ads] audiencias de coincidencia de cliente a partir de [!DNL Adobe] audiencias](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md)&quot;.
+En [!DNL Search, Social, & Commerce], puede crear [!DNL Google Ads] audiencias de coincidencia de clientes de Google a partir de los ID de usuario utilizando sus [!DNL Analytics] segmentos existentes. Esto incluye segmentos de Adobe Analytics que se publican en Adobe CX Enterprise y segmentos que se crean con Adobe CX Enterprise [!DNL Audience Library]. Para obtener más información, consulte &quot;[Crear [!DNL Google Ads] audiencias de coincidencia de cliente a partir de [!DNL Adobe] audiencias](/help/search-social-commerce/targeting/audiences/audience-manage.md#audience-adobe-create)&quot;.
 
 Las [audiencias de coincidencia de clientes de los ID de usuario](https://support.google.com/google-ads/answer/9199250) funcionan como audiencias basadas en etiquetas de sitios web, pero se asigna un ID que no es PII a los miembros de audiencia única para obtener beneficios distintos sobre las audiencias estándar basadas en etiquetas de sitios web y las coincidencias de clientes.
 

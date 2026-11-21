@@ -1,9 +1,8 @@
 ---
-source-git-commit: 287e8bd0c2a3c3aedbf5f1f9551823b0c4586a57
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
 # Fragmentos
 
@@ -50,7 +49,7 @@ Para el seguimiento de conversión de Adobe Advertising, que se aplica cuando la
 
 ## Texto y plantilla: nota que explica cómo insertar un parámetro dinámico {#inventory-feed-template-insert-dynamic-parameter}
 
-Para insertar un nombre de columna o un grupo de modificadores como parámetro dinámico, haga clic en el campo de entrada y, a continuación, haga clic en un nombre de columna en la lista de columnas o en un [nombre de modificador](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) en la lista Modificadores. Para insertar la variable [!DNL Param1] o [!DNL Param2], escriba el valor `{param1:default text}` o `{param2:default text}`, donde &quot;texto predeterminado&quot; es el texto que se utiliza si la columna de parámetro en el archivo de fuente está vacía para una fila de anuncio.
+Para insertar un nombre de columna o un grupo de modificadores como parámetro dinámico, haga clic en el campo de entrada y, a continuación, haga clic en un nombre de columna en la lista de columnas o en un [nombre de modificador](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/modifiers-manage.md) en la lista Modificadores. Para insertar la variable [!DNL Param1] o [!DNL Param2], escriba el valor `{param1:default text}` o `{param2:default text}`, donde &quot;texto predeterminado&quot; es el texto que se utiliza si la columna de parámetro en el archivo de fuente está vacía para una fila de anuncio.
 
 ## Plantilla de anuncio de texto: nota que explica cómo insertar un personalizador de publicidad {#inventory-feed-template-insert-ad-customizer}
 

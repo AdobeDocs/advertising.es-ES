@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '3529'
 ht-degree: 0%
@@ -212,7 +212,7 @@ Si la proporción de [!UICONTROL EF ID Instances] a clics es inferior al 85 %, c
 
 * ¿Le falta el rastreo de clics en la cuenta o en cualquier subnivel, o tiene un rastreo de clics duplicado (por ejemplo, en los niveles de cuenta y campaña)?
 
-  En Search, Social y Commerce, [descargue una hoja de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) para que la cuenta compruebe las direcciones URL de seguimiento.
+  En Search, Social y Commerce, [descargue una hoja de edición masiva](/help/search-social-commerce/set-up/bulksheets/download.md) para que la cuenta compruebe las direcciones URL de seguimiento.
 
   Además, en [!DNL Analytics], puede ver si el ID de AMO y el IF de EF se anexan de manera consistente usando una métrica calculada de &quot;[!DNL AMO ID] a [!DNL EF ID]&quot;, que se calcula de la siguiente manera:
 

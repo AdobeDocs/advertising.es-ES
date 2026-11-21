@@ -1,0 +1,63 @@
+---
+title: '[!DNL LY Ads] configuración de palabras clave'
+description: Hacer referencia a la configuración de las palabras clave [!DNL LY Ads].
+exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/QE-TpsuMQW3Tmqv5clGPcMvyeJIYDPMQJMiK79eOKms'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 0%
+---
+# [!DNL LY Ads] configuración de palabras clave
+
+## [!UICONTROL Keyword Details]
+
+**[!UICONTROL Keywords]:** Las palabras clave. La longitud máxima es de 80 caracteres, incluida cualquier [[!DNL LY Ads] sintaxis de tipo de coincidencia](https://ads-help.yahoo-net.jp/s/article/H000044997) para las palabras clave.
+
+Puede escribir o pegar hasta 2000 palabras clave. Separe varias palabras clave con comas o introdúzcalas en líneas independientes.
+
+>[!NOTE]
+>
+>* Puede crear palabras clave negativas desde la vista [!UICONTROL Keywords] > [!UICONTROL Negatives] y en la configuración de grupos de anuncios y campañas.
+>* LY Las palabras clave de anuncios y los tipos de coincidencia son mutables, lo que significa que puede editarlos sin eliminar la palabra clave existente.
+
+**[!UICONTROL Status]:** El estado de visualización de la palabra clave: *Activo* o *En pausa*. El valor predeterminado para las palabras clave nuevas es *Activo*.
+
+## [!UICONTROL Bids]
+
+<!-- **[!UICONTROL Bid]:** -->
+
+{{$include /help/_includes/bid-keyword.md}}
+
+## Marcadores
+
+**[!UICONTROL Param1]:** La cadena que se usará como valor de sustitución si la dirección URL base o la plantilla de seguimiento contiene `{param1}` [parámetro personalizado](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
+
+**[!UICONTROL Param2]:** La cadena que se usará como valor de sustitución si la dirección URL base o la plantilla de seguimiento contiene `{param2}` [parámetro personalizado](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
+
+## Opciones de URL
+
+<!-- **[!UICONTROL Base URl]:** -->
+
+{{$include /help/_includes/base-url-keyword-ad-sitelink.md}}
+
+<!-- **[!UICONTROL Tracking Template]:** -->
+
+{{$include /help/_includes/tracking-template-yahoo-japan.md}}
+
+>[!MORELIKETHIS]
+>
+>* [Administrar palabras clave](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/keyword-manage.md)

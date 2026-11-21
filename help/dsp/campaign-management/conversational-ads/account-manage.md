@@ -10,7 +10,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cb25ab04e8fef5d00935e5325a897b1de97e2674
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Administrará sus cuentas de anuncios conversacionales de [!DNL ChatGPT Ads], in
 
 Lo siguiente determina la idoneidad para esta función:
 
-* **Clientes existentes de [!DNL Search, Social, & Commerce]:** Si tu anunciante ya usa [!DNL Search, Social, & Commerce], [crea y administra sus [!DNL ChatGPT Ads] campañas en Search, Social y Commerce](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md) en lugar de en DSP.
+* **Clientes existentes de [!DNL Search, Social, & Commerce]:** Si tu anunciante ya usa [!DNL Search, Social, & Commerce], [crea y administra sus [!DNL ChatGPT Ads] campañas en Search, Social y Commerce](/help/search-social-commerce/manage/campaigns/campaign-manage.md) en lugar de en DSP.
 
 * **Industrias restringidas:** Los anunciantes de categorías restringidas (por ejemplo, finanzas o atención médica) no pueden crear campañas o cuentas de anuncios conversacionales.
 

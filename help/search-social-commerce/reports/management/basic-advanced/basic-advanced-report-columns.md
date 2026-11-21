@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 972ed9c0662fc3b74bc5c3597f010170fbce69d7
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -137,7 +137,7 @@ ht-degree: 0%
 | [!UICONTROL Exclude (yes/no)] | Si se excluyen las pujas (<i>[!UICONTROL Yes]</i>) o si se permiten las pujas (<i>[!UICONTROL No]</i>) para los anuncios de productos que coinciden. |
 | [!UICONTROL First Page CPC] | (Solo campañas de Google) El coste por clic (CPC) de los anuncios que aparecen en la primera página de resultados de búsqueda durante el intervalo de fechas especificado. |
 | [!UICONTROL Frequency] | ([!DNL Meta] campañas solamente) El número promedio de veces que alguien vio su anuncio. |
-| `GGL*`, `GGL_CT*` y `GGL_XD_CT*` [[!DNL Google Ads] conversiones rastreadas] | ([!DNL Google Ads] campañas en las redes de búsqueda y compras) Conversiones rastreadas por [!DNL Google Ads], con hasta tres métricas independientes para cada conversión:<ul><li>`GGL*` — (Al realizar el seguimiento) El valor de conversión de la palabra clave, comenzando por el prefijo &quot;GGL&quot; (como GGL Purchase).</li><li>`GGL_CT*`: número (recuento) de conversiones que comienzan por el prefijo &quot;GGL_CT&quot; (como GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (Cuando está disponible para el tipo de conversión, cuando se realiza el seguimiento de las mismas) El número (recuento) de conversiones entre dispositivos, medido por [!DNL Google Ads] a partir del prefijo &quot;GGL_XD_CT_&quot; (como GGL_XD_CT_Purchase).</li></ul><br>Cada conversión se registra por unidad de oferta y fecha de clic; no está disponible en el nivel de evento. Para obtener más información sobre las conversiones rastreadas por [!DNL Google Ads], consulte &quot;[[!DNL Google Ads] datos de conversión en Search, Social y Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)&quot;. |
+| `GGL*`, `GGL_CT*` y `GGL_XD_CT*` [[!DNL Google Ads] conversiones rastreadas] | ([!DNL Google Ads] campañas en las redes de búsqueda y compras) Conversiones rastreadas por [!DNL Google Ads], con hasta tres métricas independientes para cada conversión:<ul><li>`GGL*` — (Al realizar el seguimiento) El valor de conversión de la palabra clave, comenzando por el prefijo &quot;GGL&quot; (como GGL Purchase).</li><li>`GGL_CT*`: número (recuento) de conversiones que comienzan por el prefijo &quot;GGL_CT&quot; (como GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (Cuando está disponible para el tipo de conversión, cuando se realiza el seguimiento de las mismas) El número (recuento) de conversiones entre dispositivos, medido por [!DNL Google Ads] a partir del prefijo &quot;GGL_XD_CT_&quot; (como GGL_XD_CT_Purchase).</li></ul><br>Cada conversión se registra por unidad de oferta y fecha de clic; no está disponible en el nivel de evento. Para obtener más información sobre las conversiones rastreadas por [!DNL Google Ads], consulte &quot;[[!DNL Google Ads] datos de conversión en Search, Social y Commerce](/help/search-social-commerce/tracking/google-conversion-data.md)&quot;. |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] solamente) El porcentaje de impresiones de su anuncio que se muestran como el primer anuncio por encima de los resultados de búsqueda orgánica. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] solamente) El porcentaje de impresiones de su anuncio que se muestran por encima de los resultados de búsqueda orgánica. |
 | [!UICONTROL Impressions] | El número de impresiones de publicidad durante el intervalo de fechas especificado. |
@@ -228,5 +228,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes básicos y avanzados](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
->* [Generar un informe básico o avanzado](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
+>* [Generar un informe básico o avanzado](/help/search-social-commerce/reports/management/report-manage.md#generate-a-new-report)
 >* [Configuración básica y avanzada del informe](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)

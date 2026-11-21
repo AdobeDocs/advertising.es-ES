@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Keyword Assist Report]'
 description: Más información acerca de [!UICONTROL Keyword Assist Report].
-exl-id: 24e5854c-5696-43cd-ac21-64209f9f57d4
 feature: Search Reports, Search Assist Reports
-TQID: 'https://experienceleague.adobe.com/LO6nDisgA7981cjrGw31tJcy4VR6lesl-wvwU7uGlK4'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '783'
 ht-degree: 0%
 ---
 # El [!UICONTROL Keyword Assist Report]
@@ -50,7 +42,7 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 | [!UICONTROL Path Size] | Predeterminado | Número de palabras clave o ubicaciones en la ruta de conversión que se produjeron en la [ventana retrospectiva de clics del anunciante](/help/search-social-commerce/glossary.md#c-d) y en la [ventana retrospectiva de impresiones](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Predeterminado | La primera palabra clave o ubicación en la ruta de conversión. |
 | [!UICONTROL Last Keyword] | Predeterminado | La última palabra clave o ubicación que resultó en conversiones (incluso si la última palabra clave está fuera del tamaño de ruta especificado). |
-| \[Métricas personalizadas (derivadas) específicas del anunciante\] | Personalizado | El valor de una métrica personalizada que ha creado y que se calcula a partir de las métricas existentes. |
+| \[Métricas personalizadas (derivadas) específicas del anunciante\] | Personalizado | El valor de una métrica personalizada que ha creado que se calcula a partir de las métricas existentes. |
 | \[Métricas de conversión específicas del anunciante\] | Personalizado | Número de conversiones de una métrica de conversión o una métrica de participación del sitio especificadas. |
 | [!UICONTROL % of Total] \[métrica de conversión\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe para cada métrica de conversión incluida) El porcentaje de conversiones generales entre portafolios atribuido a la palabra clave o al patrón de ubicación. |
 | [!UICONTROL 6th Keyword] a [!UICONTROL 10th Keyword] | Personalizado | La ubicación o la palabra clave de búsqueda pagada sexta a décima hace clic en la ruta de conversión que se produjo en la ventana retrospectiva de [clic del anunciante](/help/search-social-commerce/glossary.md#c-d) y en la ventana retrospectiva de [impresión](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Nota:</b> Si el informe incluye ubicaciones de campañas de búsqueda habilitadas para contenido (que no incluyen palabras clave), estas columnas mostrarán los nombres de grupos de anuncios aplicables, como &quot;(contenido de grupo de anuncios) su nombre de grupo de anuncios&quot;. |
@@ -64,4 +56,4 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 >* [El [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [El [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Configuración de informe de asistencia](assist-report-settings.md)
->* [Generar un informe de asistencia](assist-report-generate.md)
+>* [Administrar informes programados](/help/search-social-commerce/reports/management/report-manage.md)

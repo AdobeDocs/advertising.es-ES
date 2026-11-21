@@ -1,9 +1,7 @@
 ---
 title: Columnas de informes para informes de especialidades
 description: Obtenga información sobre las columnas de datos disponibles para los informes de especialidades.
-exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-TQID: 'https://experienceleague.adobe.com/RI7bIXkj-J3Zf9-0cQozmrvRKZhTTDcbICnJCV22IxM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,19 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 7de556b7-2c2a-599d-853b-8c282aafa6e3
     internal-label: Search Specialty Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3223'
 ht-degree: 1%
 ---
 # Columnas de informes para informes de especialidades
@@ -54,7 +42,7 @@ ht-degree: 1%
 | [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension] informes) La tasa de conversión como porcentaje. |
 | [!UICONTROL All Conversions] | ([!UICONTROL Google AI Max Search Term Combination] y [!UICONTROL MSA Ad Extension] informes) El número total de conversiones. Para [!UICONTROL Google AI Max Search Term Combination Report], este valor incluye acciones de conversión que no están incluidas en la columna Conversiones principal. |
 | [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension] informes) El número de conversiones. |
-| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report])El valor de todas las conversiones. |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report]) El valor de todas las conversiones. |
 | [!UICONTROL All Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report]) El valor de todas las conversiones dividido por el costo total de las interacciones publicitarias (como clics o vistas de vídeo). |
 | [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] informes) El costo por conversión. |
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] informes) Ingresos totales divididos por gasto, expresados como porcentaje. |
@@ -88,6 +76,7 @@ ht-degree: 1%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads] solamente; [!UICONTROL Campaign Daily Impression Share Report]) El número de impresiones que recibió para los anuncios en la red de visualización/audiencia dividido por el número estimado de impresiones que pudo recibir. Los porcentajes por debajo del 10% se indican como &quot;`<10%`&quot; y los porcentajes por encima del 90% como &quot;`>90%`&quot;. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads] solamente; [!UICONTROL Campaign Daily Impression Share Report]) El porcentaje estimado de impresiones que sus anuncios en la red de visualización/audiencia no recibieron debido a que su presupuesto diario o mensual era demasiado bajo. Los porcentajes por debajo del 10% se indican como &quot;`<10%`&quot; y los porcentajes por encima del 90% como &quot;`>90%`&quot;. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads] solamente; [!UICONTROL Campaign Daily Impression Share Report]) El porcentaje estimado de impresiones que sus anuncios en la red de visualización/audiencia no se mostraron debido a una clasificación de anuncio deficiente. Los porcentajes por debajo del 10% se indican como &quot;`<10%`&quot; y los porcentajes por encima del 90% como &quot;`>90%`&quot;. |
+| [!UICONTROL Conversion Actions] | ([!UICONTROL Google AI Max Search Term Combination] informes) Acción de conversión que produjo conversiones. |
 | [!UICONTROL Conversion Rate] | Número de conversiones divididas por el número total de clics. |
 | [!UICONTROL Conversion Type] | El tipo de conversión definido por el usuario del que se realizó un seguimiento en el sitio web del anunciante. |
 | [!UICONTROL Conversions] | ([!UICONTROL Google AI Max Search Term Combination], [!UICONTROL Google Asset Group Performance] y [!UICONTROL MSA Ad Extension] informes) Las conversiones totales para el período especificado. Para el informe [!UICONTROL MSA Ad Extension], este es el número de clics que resultaron en una venta u otra medida de éxito. Para el informe [!UICONTROL Google AI Max Search Term Combination], este es el número total de conversiones de acciones de conversión para las que se ha habilitado &quot;Incluir en conversiones&quot; |
@@ -126,7 +115,7 @@ ht-degree: 1%
 | [!UICONTROL Final Mobile URLs] | ([!UICONTROL Google Asset Group Performance Report]) Una lista de direcciones URL finales para dispositivos móviles después de todas las redirecciones entre dominios. Las direcciones URL se pueden expandir si la expansión de la URL está habilitada para la campaña. |
 | [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] informes, [!UICONTROL MSA Network Performance Report]) El nombre del objetivo de conversión. |
 | [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] informes, [!UICONTROL MSA Network Performance Report]) El tipo de objetivo de conversión. |
-| [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) Número de conversiones en línea rastreadas por [the [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
+| [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) Número de conversiones en línea rastreadas por [the [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/tracking/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report]; obsoleto en 2016) El número de clics que produjeron una o más conversiones. |
 | [!UICONTROL Headline 1] | ([!UICONTROL Google AI Max Search Term Combination Report]) El primer titular del anuncio. |
 | [!UICONTROL Headline 2] | ([!UICONTROL Google AI Max Search Term Combination Report]) El segundo titular del anuncio. |
@@ -215,6 +204,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
->* [Generar informe de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [Configuración de informes especiales](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [Acerca de los informes de especialidad](specialty-report-about.md)
+>* [Administrar informes programados](/help/search-social-commerce/reports/management/report-manage.md)
+>* [Configuración de informes especiales](specialty-report-settings.md)

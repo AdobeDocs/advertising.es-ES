@@ -1,0 +1,40 @@
+---
+title: Eliminar asociaciones de extensión de publicidad con campañas y grupos de publicidad
+description: Obtenga información sobre cómo desasociar extensiones de publicidad con campañas y grupos de publicidad.
+exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/i9pwpxNmFmHevCZSXoO78Qdme12NW4-E2R6vtSe-LXI'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 0%
+---
+# Eliminar asociaciones de extensión de publicidad con campañas y grupos de publicidad
+
+*[!DNL Google Ads]y [!DNL Microsoft Advertising] solamente*
+
+Puede eliminar asociaciones de nivel de campaña y de grupo de publicidad con cualquier ubicación, teléfono y extensión de vínculo a sitios.
+
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. En los submenús, haga clic en **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+
+1. Active la casilla de verificación situada junto a cada asociación que desee eliminar.
+
+   Para obtener sugerencias sobre cómo seleccionar varias filas, &quot;[Seleccione varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. En la barra de herramientas, haga clic en ![Más](/help/search-social-commerce/assets/more.png "Más") y seleccione **[!UICONTROL Delete]**.
+
+1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
+
+>[!MORELIKETHIS]
+>
+>* [Administrar [!DNL Google Ads] extensiones de llamada](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/callout-extension-manage.md)
+>* [Administrar extensiones de vínculos de sitios](sitelink-extension-manage.md)

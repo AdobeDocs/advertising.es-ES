@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Forecast Accuracy Report]'
 description: Obtenga información sobre el informe de precisión de la previsión, incluidas las columnas de datos.
-exl-id: f0c42323-eb0d-461a-ab09-440fd1bfc960
 feature: Search Reports, Search Model Accuracy Reports
-TQID: 'https://experienceleague.adobe.com/FHLlU9t-6rhRH9XpgF6pxPviMDucJllzsLX-x7FEuTY'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
     internal-label: Search Model Accuracy Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '449'
 ht-degree: 0%
 ---
 # El [!UICONTROL Forecast Accuracy Report]
@@ -39,7 +29,7 @@ Puede ver los datos de los 18 meses anteriores.
 >
 >* Para las previsiones de costes, se considera aceptable una desviación del 10% en los últimos siete días, por lo que el gasto real que está entre el 90% y el 110% del gasto previsto está bien. Para las previsiones de ingresos, se considera aceptable una desviación del 15% en los últimos siete días, por lo que los ingresos reales que están entre el 85% y el 115% del gasto previsto están bien. Deben investigarse los pronósticos con desviaciones más altas.
 >
->* Cuando las palabras clave de la cartera están asociadas con restricciones de desplazamiento de ofertas, la cartera gasta más o menos de lo debido en la cantidad total causada por el cambio de ofertas. Como resultado, las columnas de coste previsto se desvían del gasto objetivo por el aumento o la disminución del gasto.
+>* Cuando las palabras clave del portafolio están asociadas con [restricciones de cambio de oferta](/help/search-social-commerce/goals/constraints-manage.md), el portafolio gasta más o menos de lo debido a la cantidad total causada por el cambio de oferta. Como resultado, las columnas de coste previsto se desvían del gasto objetivo por el aumento o la disminución del gasto.
 
 ## Columnas disponibles
 
@@ -66,7 +56,7 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [Acerca de los informes de precisión del modelo](model-accuracy-report-about.md)
 >* [El [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
->* [Generar un informe de precisión de modelo](model-accuracy-report-generate.md)
->* [Configuración del informe de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [Administrar informes programados](/help/search-social-commerce/reports/management/report-manage.md)
+>* [Configuración del informe de precisión del modelo](model-accuracy-report-settings.md)

@@ -1,0 +1,108 @@
+---
+title: (Nueva IU) Acerca de los objetivos
+description: Conozca cuáles son los objetivos para alcanzar sus metas empresariales.
+feature: Search Objectives, Search Optimization
+exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
+autotag-review: '2026-04-14T00:06:19.870Z'
+TQID: 'https://experienceleague.adobe.com/fcdOJhTTB-IML-aownM6-vyYM4NJspKpCraypmuLooE'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 2d3f1df6-4c6c-545b-abf7-bec5f20fd636
+    internal-label: Search Objectives
+  - id: ae57d55f-b168-5358-b114-c3974b1b3d77
+    internal-label: Search Optimization
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+    internal-label: Search optimization
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
+source-git-commit: 3c5c46f9f0255612e6caa6e255c79995ef2597bd
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 0%
+---
+# (Nueva IU) Acerca de los objetivos
+
+<!-- no subfeature tag for objectives -->
+
+*característica de Beta*
+
+Los objetivos son objetivos que un anunciante establece para alcanzar sus objetivos comerciales, como maximizar los beneficios o alcanzar un objetivo de ventas específico. Tanto Advertising Search, Social, Commerce y Advertising DSP usan objetivos:
+
+* Cada portafolio de Search, Social y Commerce debe tener un objetivo para que la capacidad de optimización pueda crear modelos de clics e ingresos para el portafolio.
+
+* En DSP, las metas aparecen como metas personalizadas para cuentas de DSP vinculadas a cuentas de Search, Social y Commerce. Cada paquete que utiliza los objetivos de optimización &quot;Máximo rendimiento de la inversión en publicidad (ROAS)&quot; o &quot;Menor coste por adquisición (CPA)&quot; debe incluir un objetivo personalizado que ayude a lograr el objetivo de optimización general.
+
+Un objetivo consiste en las métricas de conversión que se van a rastrear y optimizar, y los pesos relativos de esas métricas. Por ejemplo, supongamos que una revista en línea con dos niveles de suscripción en línea y un nivel de suscripción impresa y el objetivo &quot;maximizar los beneficios&quot; tiene tres métricas: &quot;suscripciones en línea básicas&quot; valoradas en 20 USD, &quot;suscripciones en línea premium&quot; valoradas en 40 USD y &quot;suscripciones impresas&quot; valoradas en 30 USD. Si la revista desea dar peso de acuerdo con el valor monetario único de la suscripción, entonces los pesos relativos de las métricas serían 1, 2 y 1,5, respectivamente.
+
+Para cada métrica del objetivo, puede:
+
+* Configure pesos independientes para las conversiones desde dispositivos móviles.
+
+* Etiquete la métrica como métrica [!UICONTROL Goal] o como métrica [!UICONTROL Assist].
+
+* Aplique recomendaciones de peso a las métricas.
+
+>[!NOTE]
+>* (Buscar, Social y Commerce) Puede asociar un objetivo con un portafolio al [crear el portafolio](/help/search-social-commerce/manage/portfolios/portfolio-create.md) o al [modificar posteriormente la configuración del portafolio](/help/search-social-commerce/manage/portfolios/portfolio-edit.md).
+>* (Anunciantes con cuentas de DSP vinculadas a cuentas de Search, Social y Commerce) En Advertising DSP, puede seleccionar un objetivo como [objetivo de optimización personalizado](/help/dsp/campaign-management/packages/package-settings.md) para un paquete con un ritmo de nivel de paquete.
+>* Puede utilizar el mismo objetivo para varios portafolios de Search, Social y Commerce o para varios paquetes de DSP.
+>* Las métricas de cada objetivo en la vista [!UICONTROL Objectives] no incluyen datos de DSP.
+
+## Métricas disponibles
+
+Puede incluir cualquiera de los siguientes elementos en sus objetivos:
+
+* Métricas que Adobe Advertising rastrea usando el [píxel de seguimiento de conversión de Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md).
+
+* [Métricas rastreadas por el anunciante a partir de archivos de fuentes de conversión](/help/search-social-commerce/tracking/conversion-tracking-about.md).<!-- Search only, or might DSP-only clients also have these? -->
+
+* (Anunciantes con [!DNL Adobe Analytics for Advertising]) [Métricas de conversión y participación del sitio sincronizadas desde Adobe Analytics](/help/integrations/analytics/overview.md).
+
+  En Search, Social y Commerce, las siguientes [métricas de participación del sitio](/help/integrations/analytics/analytics-data-in-advertising.md) se incluyen automáticamente en los algoritmos de oferta de portafolios: `timespent_secs_1stvisit`, `timespent_secs_total`, `pageviews_1stvisit`, `pageviews_total` y `bounces`.
+
+* [!DNL Google] métricas:<!-- Search only, or might DSP-only clients also have these? -->
+
+  * Conversiones [[!DNL Google Ads] seguidas &#x200B;](/help/search-social-commerce/tracking/google-conversion-data.md) desde cuentas sincronizadas [!DNL Google Ads].
+
+  * (Anunciantes con [[!DNL Google Analytics] integraciones](/help/search-social-commerce/legacy-ui/admin/data-sources/data-source-about.md)): vistas de página, sesiones, tasa de salida hacia otro sitio (calculada como salidas hacia otro sitio/sesiones) y duración de la sesión.
+
+    En Search, Social y Commerce, estas métricas se incorporan automáticamente a los algoritmos de oferta de portafolios.
+
+## Opción para cargar objetivos en las redes de publicidad
+
+Opcionalmente, puede [cargar los objetivos de los portafolios de la cuenta a [!DNL Google Ads] y/o [!DNL Microsoft Advertising] como conversiones](objective-upload-to-networks.md) para poder usarlos para la optimización a nivel de campaña o de grupo de anuncios. Cuando activa la opción, Search, Social y Commerce pasan diariamente a la red de publicidad los datos de ingresos ponderados en el nivel de EF ID (ID de clic). Omite cualquier métrica rastreada en la red de anuncios.
+
+## Acciones disponibles
+
+* [Crear un objetivo](objective-create.md) o [duplicar un objetivo existente](objective-create.md#objective-duplicate)
+
+* [Editar un objetivo](objective-edit.md)
+
+* [Aplicación de recomendaciones de peso a un objetivo](objective-apply-weight-recommendations.md)
+
+* [Exportar una configuración de objetivo a una hoja de cálculo  [!DNL Microsoft Excel] &#x200B;](objective-export.md)
+
+* [Descargar datos de rendimiento para los objetivos](objective-download-performance-data.md)
+
+* [Eliminar un objetivo](objective-delete.md)
+
+>[!MORELIKETHIS]
+>
+>* [Crear un objetivo](objective-create.md)
+>* [Editar un objetivo](objective-edit.md)
+>* [Eliminar un objetivo](objective-delete.md)
+>* [Aplicar recomendaciones de peso a un objetivo](objective-apply-weight-recommendations.md)
+>* [Configuración de objetivos](objective-settings.md)
+>* [Exportar una configuración de objetivo](objective-export.md)
+>* [Descargar datos de rendimiento para los objetivos](objective-download-performance-data.md)
