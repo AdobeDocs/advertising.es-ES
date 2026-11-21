@@ -36,7 +36,7 @@ Los archivos de hojas de edición masiva y los archivos de error se eliminan aut
 
 1. En la barra de herramientas situada encima de la tabla de datos, haga clic en **[!UICONTROL Post]**.
 
-1. En el cuadro de diálogo, escriba o seleccione información en la configuración de [[!UICONTROL Post Bulksheet] ](#bulksheet-post-settings) y, a continuación, haga clic en **[!UICONTROL Post]**.
+1. En el cuadro de diálogo, escriba o seleccione información en la configuración de [[!UICONTROL Post Bulksheet] &#x200B;](#bulksheet-post-settings) y, a continuación, haga clic en **[!UICONTROL Post]**.
 
    La misma configuración se aplica a todos los archivos que publique.
 
@@ -46,7 +46,7 @@ Cuando comienza la tarea, el estado y la fecha posterior programada de la fila s
 >
 >* Las grandes cantidades de datos tardan más en publicarse. Puede seguir el progreso del archivo en la columna [!UICONTROL Progress] de la vista [!UICONTROL Bulksheets].
 >* Todos los datos publicados están sujetos al proceso editorial de la red.
-* Antes de publicar el archivo de hoja de edición masiva, puede cancelar la publicación.
+>* Antes de publicar el archivo de hoja de edición masiva, puede cancelar la publicación.
 
 ## Configuración de publicación para hojas de edición masiva y archivos de error corregidos {#bulksheet-post-settings}
 
