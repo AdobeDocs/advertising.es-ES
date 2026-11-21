@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *Aplicable solo para unidades de oferta en campañas CPC en portafolios de nivel de palabra clave heredados*
 
-Las restricciones de unidad de oferta son reglas que restringen las ofertas optimizadas para todas las [unidades de oferta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html) con modelos de costo e ingresos asociados con la restricción.
+Las restricciones de unidad de oferta son reglas que restringen las ofertas optimizadas para todas las [unidades de oferta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/glossary.html?lang=es) con modelos de costo e ingresos asociados con la restricción.
 
 ## Acerca de las restricciones
 

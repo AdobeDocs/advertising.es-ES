@@ -38,7 +38,7 @@ Si las direcciones URL de la página de aterrizaje para los anuncios o las palab
 
 ## Requisito previo 1: Implementar un token de Search, Social y Commerce (parámetro de cadena de consulta &quot;ef_id&quot;) en las direcciones URL de la página de aterrizaje para todas las cuentas de publicidad aplicables
 
-En cada clic de búsqueda de pago para las campañas relevantes, se debe generar un `ef_id` único que se debe anexar a la dirección URL de la página de aterrizaje como una cadena de consulta, como `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s`, donde `&ef_id=abcde:123456789:s` es el símbolo de anexado, la clave `ef_id` y el valor `ef_id`. Para incluir un ef_id, las cuentas y campañas de red de anuncios relevantes deben tener [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; y [!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot;.&quot;
+En cada clic de búsqueda de pago para las campañas relevantes, se debe generar un `ef_id` único que se debe anexar a la dirección URL de la página de aterrizaje como una cadena de consulta, como `https://www.adobe.com/es?someParam=123&ef_id=abcde:123456789:s`, donde `&ef_id=abcde:123456789:s` es el símbolo de anexado, la clave `ef_id` y el valor `ef_id`. Para incluir un ef_id, las cuentas y campañas de red de anuncios relevantes deben tener [!UICONTROL Tracking Type] &quot;[!UICONTROL EF Redirect]&quot; y [!UICONTROL Redirect Type] &quot;[!UICONTROL Token]&quot;.&quot;
 
 Para cuentas y campañas existentes, es probable que el ef_id ya esté implementado.
 
@@ -62,7 +62,7 @@ Repita las tareas siguientes para cada combinación de cuenta y propiedad de [!D
    >
    >El ef_id solo debe usarse en direcciones URL de páginas de aterrizaje.
 
-   Por ejemplo, si la dirección URL de la página de aterrizaje es `https://www.adobe.com?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`, el valor de la dimensión ef_id en [!DNL Google Analytics] es `abcde:123456789:s`.
+   Por ejemplo, si la dirección URL de la página de aterrizaje es `https://www.adobe.com/es?someParam=123&ef_id=abcde:123456789:s&anotherParam=asdf`, el valor de la dimensión ef_id en [!DNL Google Analytics] es `abcde:123456789:s`.
 
    >[!NOTE]
    >
