@@ -1,0 +1,52 @@
+---
+title: Prácticas recomendadas para usar recomendaciones de editores con portafolios
+description: Conozca las prácticas recomendadas para usar las recomendaciones de [!DNL Google Ads] con sus portafolios de Search, Social y Commerce.
+exl-id: 2ed14f8a-da35-4341-86b8-776973faee66
+feature: Search Recommendations
+TQID: 'https://experienceleague.adobe.com/8pW8DgB9YGEYCd96H4rQcwjWEYwSF2l8StSgwLrC8Yk'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: ae143aa5-b8d8-5a93-93ab-45e919f0c418
+    internal-label: Search Recommendations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 0%
+---
+# Prácticas recomendadas para usar recomendaciones de editores con portafolios
+
+<!--
+ Add info for MS once we have it ..." 
+
+*[!DNL Google Ads] and [!DNL Microsoft Advertising] accounts*
+ 
+-->
+
+## [!DNL Google Ads] recomendaciones
+
+| Tipo de recomendación | Descripción | ¿Aplicar automáticamente Recommendations con portafolios de Search, Social y Commerce? | Comentarios |
+|--- |--- |--- |--- |
+| [!UICONTROL Ads] y extensiones (ahora denominados &quot;anuncios y recursos&quot; en [!DNL Google Ads]) | Recomendaciones para agregar o editar anuncios y recursos | Se puede aplicar automáticamente, pero los anunciantes deben revisar las recomendaciones manualmente. | Es necesario revisar las recomendaciones para garantizar que los anuncios de búsqueda interactivos estén alineados con los requisitos del anunciante. |
+| [!UICONTROL Automated campaigns] | Recomendaciones para campañas automatizadas (campañas locales e inteligentes) | No disponible en Buscar, Social ni Commerce. | — |
+| [!UICONTROL Bidding and budget] | Recomendaciones de oferta, presupuesto y objetivo para mejorar el rendimiento | No aplique automáticamente para campañas en portafolios optimizados. | Las recomendaciones actuales pueden ser unidimensionales para los fines que desee. Por ejemplo, [!DNL Google Ads] recomienda un aumento en la CPA de destino, sin preocuparse por el presupuesto, cuando los clics disminuyen para una campaña. |
+| [!UICONTROL Keywords and targeting] | Limpieza de palabras clave y recomendaciones de audiencia | Se puede aplicar automáticamente, pero utilice la aplicación automática de forma selectiva. | Utilice la limpieza de palabras clave y la eliminación de redundancias entre campañas, pero evite una mayor automatización (como la creación automática de anuncios dinámicos de búsqueda o la expansión automática de audiencias). |
+| [!UICONTROL Measurement] | Recomendaciones para el seguimiento de conversiones y la certificación | No disponible en Buscar, Social ni Commerce. | Estas recomendaciones pueden afectar al rendimiento. Consulte con su equipo de cuenta de Adobe para discutir los pros y los contras de cualquier recomendación antes de aplicarla. |
+| [!UICONTROL Repairs] | Recomendaciones varias para mejorar los problemas de la cuenta | No disponible en Buscar, Social ni Commerce. | Revisar manualmente y periódicamente las recomendaciones de reparación en [!DNL Google Ads]. Este tipo de recomendación es una buena manera de identificar anuncios, problemas de fuentes, problemas de seguimiento, etc. no aprobados. |
+| [!UICONTROL Other] | Recomendación de usar la aplicación móvil [!DNL Google Ads] | No disponible en Buscar, Social ni Commerce. | — |
+
+>[!MORELIKETHIS]
+>
+>* [Acerca de las recomendaciones del editor y la compatibilidad con perspectivas](recommendation-support.md)
+>* [Ver las recomendaciones del editor y las perspectivas de rendimiento](recommendation-view.md)
+>* [Aplicar o descartar una recomendación del editor](recommendation-apply-dismiss.md)
+>* [Ver el registro de recomendaciones del editor de una cuenta](recommendation-view-log.md)

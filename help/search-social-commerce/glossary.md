@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '2408'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 **variación de anuncio:** Cualquier anuncio dentro de un grupo de anuncios o estrategia de publicidad.
 
-**[ID de AMO](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-id):** Código de seguimiento que permite a Adobe Advertising compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics. Comienza con `s_kwcid=`.
+**[ID de AMO](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** Código de seguimiento que permite a Adobe Advertising compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics. Comienza con `s_kwcid=`.
 
 **unidad de oferta:** Término de búsqueda, social y Commerce para una unidad en la que se colocan ofertas.
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 **seguimiento de conversión:** El seguimiento de conversión usa cookies para rastrear: a) los clics en los anuncios de un anunciante en las redes de anuncios y b) las transacciones resultantes en el sitio web del anunciante.
 
-**precisión de costos:** (Anunciantes con portafolios) El gasto real de un portafolio dividido por el gasto previsto. [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de coste que se usan para la optimización, y [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) incluye más detalles, además de recomendaciones para mejorar la precisión del modelo.
+**precisión de costos:** (Anunciantes con portafolios) El gasto real de un portafolio dividido por el gasto previsto. [Los informes de precisión del modelo](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de coste que se usan para la optimización, y [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md) incluye más detalles, además de recomendaciones para mejorar la precisión del modelo.
 
 **modelo de costo:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice el volumen de costo, la oferta necesaria para ganar cada posición o ubicación y el CPC (búsqueda) o CPM (visualización) para cada unidad de oferta utilizando datos históricos y técnicas de previsión matemática.
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 **eCPM:** El CPM efectivo o el costo promedio pagado por 1000 impresiones durante un intervalo de fechas especificado. Los valores de eCPM se pueden calcular para campañas CPM o CPC.
 
-**[EF ID](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-ef-id):** Un código de seguimiento que permite a Adobe Advertising asociar la actividad con un clic en línea o una exposición de publicidad y compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics.
+**[EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** Un código de seguimiento que permite a Adobe Advertising asociar la actividad con un clic en línea o una exposición de publicidad y compartir datos sobre campañas con Adobe Analytics y Adobe Customer Journey Analytics.
 
 ## G-H {#g-h}
 
@@ -178,7 +178,7 @@ Tiene el mismo valor que la columna heredada Ingresos ponderados.
 
 **retorno de la inversión:** (ROI) Ingresos menos costos.
 
-**precisión de ingresos:** (Anunciantes con portafolios) Los ingresos reales de un portafolio divididos por los ingresos previstos. [Los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de ingresos que se usan para la optimización, y [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) incluye más detalles, además de recomendaciones para mejorar la precisión del modelo.
+**precisión de ingresos:** (Anunciantes con portafolios) Los ingresos reales de un portafolio divididos por los ingresos previstos. [Los informes de precisión del modelo](/help/search-social-commerce/legacy-ui/reports/management/model-accuracy/model-accuracy-report-about.md) indican la precisión de los modelos de ingresos que se usan para la optimización, y [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/legacy-ui/advertising-insights/insight-about.md) incluye más detalles, además de recomendaciones para mejorar la precisión del modelo.
 
 **modelo de ingresos:** (Anunciantes con portafolios) Tecnología de búsqueda, social y Commerce que predice la tasa de conversión y el retorno estimado para cada unidad de oferta, en función de los datos de clics (búsqueda y medios sociales) o de impresiones (visualización) y los datos de conversión del anunciante.
 

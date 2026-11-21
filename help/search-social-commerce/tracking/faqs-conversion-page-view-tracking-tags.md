@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Lo siguiente se aplica a las etiquetas de seguimiento de conversión de Adobe Ad
 >[!NOTE]
 >
 >* Todas las implementaciones nuevas utilizan JavaScript versión 3.
->* La etiqueta de JavaScript con ECID usa el [servicio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=es), así como el ef_id y el gsurferid heredados para medir las conversiones. Esta etiqueta más reciente crea [cookies s_ecid de CX Enterprise de origen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=es) y proporciona una integración más estrecha con otros productos de CX Enterprise.
+>* La etiqueta de JavaScript con ECID usa el [servicio Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html), así como el ef_id y el gsurferid heredados para medir las conversiones. Esta etiqueta más reciente crea [cookies s_ecid de CX Enterprise de origen](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) y proporciona una integración más estrecha con otros productos de CX Enterprise.
 >* Utilice las etiquetas de la versión 2 de JavaScript solo cuando ya hayan sido implementadas en las páginas web del anunciante.
 >* La práctica recomendada es utilizar etiquetas de JavaScript en lugar de etiquetas de imagen a menos que el sitio tenga una política contra su uso.
 >* Las etiquetas de JavaScript son necesarias para los anunciantes que deseen segmentar audiencias creadas en Adobe CX Enterprise, en Adobe Audience Manager o publicadas en Adobe CX Enterprise desde Audience Manager o Adobe Analytics.
@@ -48,7 +48,7 @@ Lo siguiente se aplica a las etiquetas de seguimiento de conversión de Adobe Ad
 >[!MORELIKETHIS]
 >
 >* [Acerca de las etiquetas de seguimiento de conversión de Adobe Advertising](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Generar una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Generar una etiqueta de conversión de Adobe Advertising](/help/search-social-commerce/legacy-ui/tools/conversion-tag-generate.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
 >* [Formato de las etiquetas de seguimiento de conversión de JavaScript versión 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Formato de etiquetas de seguimiento de conversión de imagen](/help/search-social-commerce/tracking/format-conversion-tag-image.md)

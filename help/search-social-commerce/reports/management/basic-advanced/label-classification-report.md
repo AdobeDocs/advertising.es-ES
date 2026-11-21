@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Label Classification Report]'
 description: Más información acerca de [!UICONTROL Label Classification Report].
-exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-TQID: 'https://experienceleague.adobe.com/75t5C8Cz-EE5vsPYYXHWHSE-6ZDhwSQaEgtAdirYHQU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,17 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 1d59f142-734e-5689-9ee3-a3bf4d5c5a51
     internal-label: Search Basic Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '228'
 ht-degree: 0%
 ---
 # [!UICONTROL Label Classification Report]
@@ -35,7 +25,7 @@ Puede ver los datos de los 36 meses anteriores.
 >
 >* Los informes de clasificaciones de etiquetas de nivel de anuncio no están disponibles para [!DNL Microsoft Advertising] campañas de anuncios dinámicos de búsqueda (DSA).
 >* Se puede aplicar más de una clasificación de etiquetas a la misma entidad, por lo que el total de cada métrica puede ser superior al total real de la entidad. Por ejemplo, supongamos que una palabra clave &quot;zapatos de ante&quot; tiene dos valores de etiqueta, &quot;ante&quot; y &quot;calzado&quot;, y la palabra clave recibió 100 clics. La columna Clics mostraría &quot;100&quot; para cada uno de esos valores de etiqueta, por lo que el total para ambas filas sería &quot;200&quot;.
->* Cualquier cambio que realice en las clasificaciones de etiquetas y en los valores de etiquetas secundarias de una entidad será visible en aproximadamente una hora.
+* Cualquier cambio que realice en las clasificaciones de etiquetas y en los valores de etiquetas secundarias de una entidad será visible en aproximadamente una hora.
 
 ## Columnas predeterminadas
 
@@ -56,5 +46,5 @@ Para obtener descripciones de todas las columnas predeterminadas y personalizada
 >[!MORELIKETHIS]
 >
 >* [Acerca de los informes básicos y avanzados](basic-advanced-report-about.md)
->* [Generar un informe básico o avanzado](basic-advanced-report-generate.md)
+>* [Administrar informes programados](/help/search-social-commerce/reports/management/report-manage.md)
 >* [Configuración básica y avanzada del informe](basic-advanced-report-settings.md)

@@ -1,39 +1,44 @@
 ---
-title: Acerca de los informes
-description: Obtenga información acerca de los informes de rendimiento, incluidos los diferentes tipos de informes disponibles y cómo automatizar los informes.
-exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
+title: (Nueva IU) Acerca de los informes programados
+description: Obtenga información acerca de los informes de rendimiento programados, incluidos los diferentes tipos de informes disponibles y cómo automatizar los informes.
 feature: Search Reports
-TQID: 'https://experienceleague.adobe.com/2Cw55tN9cx9vfc6sEHdOQfW5VcLIUZdbNtMkKdINkZM'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
 feature_v2:
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
   - id: 9166e3e1-13c1-5edf-bc2a-c6e22231df68
     internal-label: Search Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-    internal-label: Troubleshooting
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+subfeature_v2:
+  - id: e246c273-d720-4ece-b29b-7aaba7d50169
+    internal-label: Reports
+  - id: c916feea-e212-4773-b673-4daed287b8a3
+    internal-label: Assist reports
+  - id: adcb1be7-7ed0-464d-a8d4-c905c9d47742
+    internal-label: Basic reports
+  - id: ff99aaef-142d-4c93-a88c-011e979e3843
+    internal-label: Advanced reports
+  - id: fa0141e5-dc99-4fbd-9c0e-40aff66de606
+    internal-label: Model accuracy reports
+  - id: b36a77b1-3c8f-4e1c-8b0b-6e0ba3fb2664
+    internal-label: Specialty reports
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '857'
 ht-degree: 0%
 ---
-# Acerca de los informes
+# (Nueva IU) Acerca de los informes programados
 
-Los informes de rendimiento le permiten realizar un seguimiento y administrar el rendimiento de sus portafolios, redes de publicidad y entidades de cuenta de red de publicidad con el nivel de granularidad que desee. La mayoría de los informes proporcionan una visibilidad completa sobre cómo los anuncios de cada canal de marketing contribuyen a la tasa de conversión general.
+Los informes de rendimiento programados permiten realizar un seguimiento y administrar el rendimiento de los portafolios, las redes de anuncios y las entidades de cuenta de red de anuncios con el nivel de granularidad que desee. La mayoría de los informes proporcionan una visibilidad completa sobre cómo los anuncios de cada canal de marketing contribuyen a la tasa de conversión general.
 
-Los datos de un informe se compilan dinámicamente cada vez que se ejecuta el informe. Si lo desea, puede generar un informe nuevo a partir de uno existente. Los parámetros de informe disponibles varían según el tipo de informe. Para la mayoría de los informes, tiene la opción de previsualizar las primeras 50 líneas en lugar de generar todo el informe. Cuando genere un informe, puede enviar una notificación con vínculos de descarga a una o varias direcciones de correo electrónico cuando se complete el informe y los destinatarios pueden [administrar las notificaciones en [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+Los datos de un informe se compilan dinámicamente cada vez que se ejecuta el informe. Si lo desea, puede generar un informe nuevo a partir de uno existente. Los parámetros de informe disponibles varían según el tipo de informe. Para la mayoría de los informes, tiene la opción de previsualizar las primeras 50 líneas en lugar de generar todo el informe. Cuando genere un informe, puede enviar una notificación con vínculos de descarga a una o varias direcciones de correo electrónico cuando se complete el informe y los destinatarios pueden [administrar las notificaciones en [!UICONTROL Notification Center]](/help/search-social-commerce/common-tasks/notifications-manage.md).
 
 Todos los informes completados están disponibles en la sección [!UICONTROL Latest Reports] de la vista [!UICONTROL Reports] y puede verlos en formato de tabla en la ventana del explorador o abrirlos o descargarlos como archivos.
 
 ## Categorías de informe disponibles
 
-Las siguientes categorías de informes están disponibles en la vista [!UICONTROL Reports]. Es posible que no tenga acceso a todos ellos; los informes disponibles y los datos que generan están determinados por su función y por la forma en que se configura su cuenta de cliente.
+Las siguientes categorías de informes están disponibles en la vista [!UICONTROL Reports] > [!UICONTROL Reports]. Es posible que no tenga acceso a todos ellos; los informes disponibles y los datos que generan están determinados por su función y por la forma en que se configura su cuenta de cliente.
 
 | Categoría del informe | Descripción |
 | ----| ---- |
@@ -47,15 +52,15 @@ Las siguientes categorías de informes están disponibles en la vista [!UICONTRO
 
 Programe informes personalizados para que se generen automáticamente de una o ambas de las siguientes maneras:
 
-* Genere informes automáticamente cada día o un día específico de la semana o del mes, usando [plantillas de informes](/help/search-social-commerce/reports/automation/templates/template-about.md).
+* Genere informes automáticamente cada día o un día específico de la semana o del mes, usando [plantillas de informes](/help/search-social-commerce/reports/report-templates-manage.md).
 
-  Si lo desea, puede configurar el envío por FTP de [informes básicos y avanzados](/help/search-social-commerce/reports/automation/ftp-reports.md) que utilizan una plantilla.
+  Si lo desea, puede configurar el envío por FTP de [informes básicos y avanzados](/help/search-social-commerce/reports/ftp-reports.md) que utilizan una plantilla.
 
-* Siga actualizando las plantillas de hoja de cálculo personalizadas con datos de rendimiento diarios mediante [fuentes de hoja de cálculo](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md).
+* Siga actualizando las plantillas de hoja de cálculo personalizadas con datos de rendimiento diarios mediante [fuentes de hoja de cálculo](/help/search-social-commerce/reports/spreadsheet-feeds-manage.md).
 
-## Las vistas Informes
+## La vista [!UICONTROL Reports]
 
-Las vistas [!UICONTROL Reports] en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Insights & Reports] > [!UICONTROL Reports] le permiten crear y administrar informes, plantillas y fuentes de hojas de cálculo. La vista incluye dos pestañas:
+La vista [!UICONTROL Reports] > [!UICONTROL Reports] le permite crear y administrar informes, plantillas y fuentes de hojas de cálculo. La vista incluye dos pestañas:
 
 * La ficha **[!UICONTROL Latest Reports]** enumera todos los informes disponibles para usted que se solicitaron en los últimos siete días, excepto los que se eliminaron manualmente, con el informe más reciente en la parte superior de forma predeterminada. La información mostrada para cada informe incluye la programación según la cual se ejecuta (cuando corresponde), las fechas de inicio y finalización para las cuales se generaron o se generarán datos, y el estado del informe (*[!UICONTROL Finished]*, *[!UICONTROL In Progress]* o *[!UICONTROL Error]*).
 
@@ -73,14 +78,11 @@ Las vistas [!UICONTROL Reports] en [!UICONTROL Search, Social, & Commerce] > [!U
 | ---- | ---- |
 | Monitorización del rendimiento | <ul><li>[El [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md)</li><li>[El [!UICONTROL Search Engine Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-report.md)</li><li>[El [!UICONTROL Search Engine Account Report]](/help/search-social-commerce/reports/management/basic-advanced/search-engine-account-report.md)</li><li>[El [!UICONTROL Campaign Report]](/help/search-social-commerce/reports/management/basic-advanced/campaign-report.md)</li><li>[El [!UICONTROL Ad Group Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-group-report.md)</li><li>[El [!UICONTROL Forecast Accuracy Report]](/help/search-social-commerce/reports/management/model-accuracy/forecast-accuracy-report.md)</li></ul> |
 | Solución de problemas de rendimiento y análisis de tendencias | <ul><li>[El [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md)</li><li>[El [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)</li><li>[El [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md)</li><li>[El [!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)</li><li>[El [!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md) y [El [!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)</li><li>Cualquier informe básico que compare dos períodos de tiempo con la función &quot;[!UICONTROL Compare with]&quot;</li></ul> |
-| Identificación de oportunidades de crecimiento empresarial | <ul><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Anunciantes con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es)) Informes personalizados en Adobe Analytics Analysis Workspace</li></ul> |
-| Analytics | <ul><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(Anunciantes con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=es)) Informes personalizados en Adobe Analytics Analysis Workspace</li></ul> |
+| Identificación de oportunidades de crecimiento empresarial | <ul><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Geo Distribution Report]](/help/search-social-commerce/reports/management/basic-advanced/geo-distribution-report.md)</li><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Domain Referral Report]](/help/search-social-commerce/reports/management/basic-advanced/domain-referral-report.md)</li><li>(Anunciantes con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Informes personalizados en Adobe Analytics Analysis Workspace</li></ul> |
+| Analytics | <ul><li>(Anunciantes con solo seguimiento de conversión de Adobe Advertising) [El [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)</li><li>(Anunciantes con [Adobe [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html)) Informes personalizados en Adobe Analytics Analysis Workspace</li></ul> |
 
 >[!MORELIKETHIS]
 >
->* [Datos usados para informes](data-used-for-reports.md)
->* [Tareas de configuración iniciales para informes](initial-setup.md)
->* [Generar un informe básico o avanzado](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
->* [Generar un informe de precisión de modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-generate.md)
->* [Generar informe de especialidad](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
->* [Generar un informe de asistencia](/help/search-social-commerce/reports/management/assist/assist-report-generate.md)
+>* [Las tareas de configuración iniciales para los informes](initial-setup.md)
+>* [Los datos utilizados para los informes](data-used-for-reports.md)
+>* [Administrar informes programados](/help/search-social-commerce/reports/management/report-manage.md)

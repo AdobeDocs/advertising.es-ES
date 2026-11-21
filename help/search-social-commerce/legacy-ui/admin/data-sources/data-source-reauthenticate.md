@@ -1,0 +1,69 @@
+---
+title: Volver a autenticar un origen de datos de [!DNL Google Analytics]
+description: Obtenga información sobre cómo volver a autenticar un origen de datos de [!DNL Google Analytics] si cambia la contraseña asociada o si el certificado caduca.
+role: User, Admin
+exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
+feature: Search Admin, Search Data Sources
+TQID: 'https://experienceleague.adobe.com/1xjaqEk70Yr2rAcR95CteZ46OTG--xSao09B3CdCvCo'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 1003789d-7feb-5a2f-a02d-3182fd0ceb8a
+    internal-label: Search Admin
+  - id: 9bd4e165-792f-5324-bcaa-eee38dc8b8e9
+    internal-label: Search Data Sources
+  - id: aed5e38a-3e62-42fa-8d16-cd080729b2a0
+    internal-label: Search, Social, & Commerce
+subfeature_v2:
+  - id: e778848d-90fa-4520-b80f-e8dd7dfdcffc
+    internal-label: Data sources
+  - id: e55292b5-d4a1-4c98-9c20-2a2c5bea07fb
+    internal-label: Admin
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 0%
+---
+# Volver a autenticar un origen de datos de [!DNL Google Analytics]
+
+*Solo administradores de agencias, administradores de cuentas de agencias, administradores de cuentas de Adobe y administradores*
+
+Si cambia la contraseña de la cuenta de correo electrónico utilizada para un origen de datos o si caduca el certificado [!DNL OAuth] de la cuenta, todas las conexiones abiertas a la cuenta de correo electrónico se cerrarán y deberá volver a autenticarse para reanudar la sincronización de datos.
+
+1. En el menú principal, haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+
+1. Active la casilla de verificación situada junto al origen de datos que desea volver a autenticar.
+
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Editar](/help/search-social-commerce/assets/edit.png "Editar").
+
+1. Editar la [configuración de origen de datos](data-source-settings.md):
+
+   1. En la sección [!UICONTROL Connect to Google Analytics], haga lo siguiente.
+
+      1. (Si es necesario) Introduzca una nueva dirección de correo electrónico para acceder a los datos de esta fuente de datos. La dirección de correo electrónico debe estar registrada en una cuenta de [!DNL Google] y tener permisos de &quot;lectura y análisis&quot; para la cuenta de [!DNL Google Analytics]. Vea las [instrucciones para asignar permisos de usuario en [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
+
+         >[!TIP]
+         >
+         >Para asegurarse de que solo las propiedades y vistas específicas de [!DNL Google Analytics] estén disponibles en Search, Social y Commerce, inicie sesión con una dirección de correo electrónico que solo tenga acceso a esas propiedades y vistas.
+
+   1. Seleccione la casilla de verificación para autorizar a Search, Social y Commerce a acceder a las métricas de la cuenta.
+
+   1. Haga clic en **[!UICONTROL Re-Authenticate]**.
+
+1. Haga clic en **[!UICONTROL Post]**.
+
+>[!MORELIKETHIS]
+>
+>* [Acerca de la sincronización [!DNL Google Analytics] métricas de conversión](data-source-about.md)
+>* [Requisitos previos para configurar una [!DNL Google Analytics] fuente de datos](data-source-prerequisites.md)
+>* [Configurar una [!DNL Google Analytics] vista como fuente de datos](data-source-configure.md)
+>* [Editar una [!DNL Google Analytics] fuente de datos](data-source-edit.md)
+>* [Pausar la sincronización de un origen de datos](data-source-pause.md)
+>* [[!DNL Google Analytics] configuración de origen de datos](data-source-settings.md)
+>* [Apéndice:  [!DNL Google Analytics] métricas disponibles](data-source-ga-metrics.md)

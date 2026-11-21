@@ -1,0 +1,56 @@
+---
+title: Crear una clasificación de etiquetas
+description: Obtenga información sobre cómo crear una clasificación de etiquetas para agrupar los componentes de la cuenta.
+exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
+feature: Search Label Classifications
+TQID: 'https://experienceleague.adobe.com/zdshElTCMuExmxn7sV-9fXY8hyjRximonpWr7hAkDtI'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 0%
+---
+# Crear una clasificación de etiquetas
+
+Cada anunciante puede tener hasta 30 clasificaciones de etiquetas.
+
+## (Nueva IU) Crear una clasificación de etiquetas
+
+1. Haga clic en **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
+
+1. En la esquina superior derecha, haga clic en **[!UICONTROL Create Classification]**.
+
+1. Escriba un nombre de clasificación de etiqueta único y haga clic en **[!UICONTROL Create]**.
+
+   El nombre debe ser único para la cuenta del anunciante y constar de [caracteres ASCII 32-126](https://www.asciitable.com/), y la longitud máxima es de 27 caracteres de un solo byte. El nombre no puede ser idéntico al nombre de una columna de informe existente o de una columna de hoja de edición masiva existente. Vea los nombres de las columnas de hojas de edición masiva de [Baidu](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Mostrar red](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) y [Yandex](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+
+Una vez creada una clasificación de etiquetas, puede crear valores de etiqueta específicos para la clasificación y asignar los valores de etiqueta a entidades de cuenta desde las [vistas de administración de campañas](classification-values-assign-campaign-management.md) o [mediante hojas de edición por lotes](classification-values-assign-bulksheets.md).
+
+## (IU heredada) Crear una clasificación de etiquetas
+
+1. Haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Crear](/help/search-social-commerce/assets/add.png "Crear").
+
+1. Escriba un nombre de clasificación de etiqueta único y haga clic en **[!UICONTROL Save]**.
+
+   El nombre debe ser único para la cuenta del anunciante y constar de [caracteres ASCII 32-126](https://www.asciitable.com/), y la longitud máxima es de 27 caracteres de un solo byte. El nombre no puede ser idéntico al nombre de una columna de informe existente o de una columna de hoja de edición masiva existente. Vea los nombres de las columnas de hojas de edición masiva de [Baidu](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [LY Ads](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Microsoft Advertising](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Mostrar red](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) y [Yandex](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+
+Una vez creada una clasificación de etiquetas, puede crear valores de etiqueta específicos para la clasificación y asignar los valores de etiqueta a entidades de cuenta desde las [vistas de administración de campañas](classification-values-assign-campaign-management.md) o [mediante hojas de edición por lotes](classification-values-assign-bulksheets.md).
+
+>[!MORELIKETHIS]
+>
+>* [Acerca de las clasificaciones de etiquetas](classification-about.md)
+>* [Asignar valores de clasificación a componentes de cuenta desde las vistas de administración de campañas](classification-values-assign-campaign-management.md)
+>* [Asignar valores de clasificación a componentes de cuenta mediante hojas de edición masiva](classification-values-assign-bulksheets.md)
+>* [Quitar valores de clasificación de etiquetas de los componentes de la cuenta](classification-values-remove.md)
+>* [Eliminar valores de clasificación de etiquetas](classification-values-delete.md)
+>* [Eliminar clasificaciones de etiquetas](classification-delete.md)

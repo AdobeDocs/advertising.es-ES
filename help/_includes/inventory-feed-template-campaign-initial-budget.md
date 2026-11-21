@@ -1,9 +1,8 @@
 ---
-source-git-commit: 119280f9a8ceffc1bdbc534b4b80f6fa268ceea3
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
-
 ---
 # Plantilla de anuncio de texto: presupuesto inicial
 
@@ -11,4 +10,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[Agregue la campaña a un portafolio](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md) y habilite la opción del portafolio en &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; para que Search, Social y Commerce ajusten automáticamente el presupuesto para optimizar el gasto de todo el portafolio.
+>[Agregue la campaña a un portafolio](/help/search-social-commerce/legacy-ui/campaign-management/campaign-assign-to-portfolio.md) y habilite la opción del portafolio en &quot;[!UICONTROL Auto adjust campaign budget limits]&quot; para que Search, Social y Commerce ajusten automáticamente el presupuesto para optimizar el gasto de todo el portafolio.

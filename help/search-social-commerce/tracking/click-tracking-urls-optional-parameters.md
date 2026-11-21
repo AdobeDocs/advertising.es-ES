@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Todos los parámetros siguientes deben especificarse como un par clave-valor; pu
 
 | Parámetro | Descripción |
 | ---- | ---- |
-| <code>{custom_code}</code> | Para insertar datos de la columna &quot;Parámetro de URL personalizado&quot; en un archivo de hoja de edición masiva cargado en la dirección URL de seguimiento. {custom_code} solo se puede usar al final del valor de uno o más pares clave-valor en la dirección URL de seguimiento. Ejemplos: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Nota:</b> Para insertar el valor personalizado del archivo de hoja de edición masiva en la dirección URL de seguimiento, cargue el archivo de hoja de edición masiva mediante la opción &quot;Generar direcciones URL de seguimiento&quot;. Para obtener más información acerca del uso de archivos de hojas de edición masiva, consulte &quot;[Acerca de la administración de datos de campaña mediante hojas de edición masiva](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)&quot;. |
+| <code>{custom_code}</code> | Para insertar datos de la columna &quot;Parámetro de URL personalizado&quot; en un archivo de hoja de edición masiva cargado en la dirección URL de seguimiento. {custom_code} solo se puede usar al final del valor de uno o más pares clave-valor en la dirección URL de seguimiento. Ejemplos: <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Nota:</b> Para insertar el valor personalizado del archivo de hoja de edición masiva en la dirección URL de seguimiento, cargue el archivo de hoja de edición masiva mediante la opción &quot;Generar direcciones URL de seguimiento&quot;. Para obtener más información acerca del uso de archivos de hojas de edición masiva, consulte &quot;[Acerca de la administración de datos de campaña mediante hojas de edición masiva](/help/search-social-commerce/legacy-ui/campaign-management/bulksheets/bulksheet-about.md)&quot;. |
 | <code>{ef_uniqueid}</code> | Para insertar el ID único creado por Adobe Advertising. Se agrega automáticamente cuando el método de seguimiento es &quot;Redireccionamiento de EF&quot;. |
 | <code>{ef_userid}</code> | Para insertar el ID de usuario único que Adobe Advertising asigna al anunciante. |
 | <code>{ef_sid}</code> | Para insertar el identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |

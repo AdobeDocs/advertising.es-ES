@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Campaign Assist Report]'
 description: Más información acerca de [!UICONTROL Campaign Assist Report].
-exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-TQID: 'https://experienceleague.adobe.com/9CQ9aS6g0C1lCEYQbGEjctsZXEtIqjLOl5ohP45YFSU'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,13 +10,7 @@ feature_v2:
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 1%
@@ -59,7 +51,7 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[métrica de conversión\] | Automático | (No disponible en la configuración del informe, pero se incluye automáticamente en el resultado del informe) La latencia promedio en días desde el último evento (en la última campaña) hasta una conversión. |
 | [!UICONTROL EF Campaign ID] | Personalizado | El ID numérico que Search, Social y Commerce asignan a la campaña. |
 | [!UICONTROL EF Portfolio Group ID] | Personalizado | El ID numérico del grupo de portafolios al que pertenece el portafolio. |
-| [!UICONTROL EF Search Engine ID] | Personalizado | El identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo DSP], <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
+| [!UICONTROL EF Search Engine ID] | Personalizado | El identificador numérico que Search, Social y Commerce asigna a la red de anuncios: <i>[!UICONTROL 3]</i> para [!DNL Google Ads], <i>[!UICONTROL 10]</i> para [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> para [!DNL Meta], <i>[!UICONTROL 86]</i> para [!DNL Yahoo DSP] (anteriormente [!DNL Yahoo! Display Network]), <i>[!UICONTROL 87]</i> para [!DNL Naver], <i>[!UICONTROL 88]</i> para [!DNL Baidu], <i>[!UICONTROL 90]</i> para [!DNL Yandex], <i>[!UICONTROL 94]</i> para [!DNL LY Ads] (anteriormente [!DNL Yahoo! Japan Ads]), <i>[!UICONTROL 105]</i> para [!DNL Yahoo Native] (obsoleto) o <i>[!UICONTROL 106]</i> para [!DNL Pinterest] (obsoleto). |
 | [!UICONTROL Portfolio ID] | Personalizado | El ID numérico del portafolio. |
 | [!UICONTROL User SE Account ID] | Personalizado | El ID numérico que Search, Social y Commerce asignan a la red de anuncios. |
 
@@ -69,4 +61,4 @@ Las siguientes son las columnas disponibles para cada informe. Las columnas pred
 >* [El [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [El [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Configuración de informe de asistencia](assist-report-settings.md)
->* [Generar un informe de asistencia](assist-report-generate.md)
+>* [Administrar informes programados](/help/search-social-commerce/reports/management/report-manage.md)

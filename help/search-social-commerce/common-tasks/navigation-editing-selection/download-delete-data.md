@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 8d3da7978b8222b19e054d1c866ba80cb07941e4
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* Al eliminar un archivo de hoja de edición masiva, se eliminará de la lista [!UICONTROL Downloads] y también de la vista [!UICONTROL Bulksheets].
->* Consulte también la ayuda para descargar datos en la nueva interfaz de usuario desde las vistas &quot;[[!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)&quot;, &quot;[[!UICONTROL Campaigns] vista](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)&quot; y &quot;[[!UICONTROL Ad Groups] vista](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)&quot;.&quot;
+>* Consulte también la ayuda para descargar datos en la nueva interfaz de usuario desde las vistas &quot;[[!UICONTROL Portfolios]](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md)&quot;, &quot;[[!UICONTROL Campaigns] vista](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports)&quot; y &quot;[[!UICONTROL Ad Groups] vista](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports)&quot;.&quot;
 
 1. En el menú principal, haga clic en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] y abra cualquier vista de entidad.
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [(IU heredada) Descargar datos de una vista de administración de campañas](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [(nueva interfaz de usuario) Administrar informes de vista de datos desde la vista [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [(nueva interfaz de usuario) Administrar informes de vista de datos desde la vista [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-manage.md#campaign-reports)
->* [(nueva interfaz de usuario) Administrar informes de vista de datos desde la vista [!UICONTROL Ad Groups]](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+>* [(nueva interfaz de usuario) Administrar informes de vista de datos desde la vista [!UICONTROL Portfolios]](/help/search-social-commerce/manage/portfolios/portfolio-view-report.md)
+>* [(nueva interfaz de usuario) Administrar informes de vista de datos desde la vista [!UICONTROL Campaigns]](/help/search-social-commerce/manage/campaigns/campaign-manage.md#campaign-reports)
+>* [(nueva interfaz de usuario) Administrar informes de vista de datos desde la vista [!UICONTROL Ad Groups]](/help/search-social-commerce/manage/ad-groups/ad-group-manage.md#ad-group-reports)

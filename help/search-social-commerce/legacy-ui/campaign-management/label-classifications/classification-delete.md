@@ -1,0 +1,68 @@
+---
+title: Eliminar clasificaciones de etiquetas
+description: Obtenga información sobre cómo eliminar una clasificación de etiquetas.
+exl-id: ae10ff69-67ab-4eac-a78d-8af4923c7093
+feature: Search Label Classifications
+TQID: 'https://experienceleague.adobe.com/Q6BgNtx1bPMVXDNdamwGvzcxKh9I8dnm0PRj1ByIktE'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: e29095c7-c364-5fb4-ac07-691793cb92e4
+    internal-label: Search Label Classifications
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 0%
+---
+# Eliminar clasificaciones de etiquetas
+
+Al eliminar una clasificación, se eliminan todas las asociaciones entre sus valores secundarios y los componentes de cuenta. Una clasificación eliminada y sus valores no están disponibles para uso futuro. Los datos de informe para los valores de clasificación ya no están disponibles.
+
+>[!NOTE]
+>
+>Para simplemente desasociar un valor de clasificación de un componente de cuenta, consulte &quot;[Quitar valores de clasificación de los componentes de campaña](classification-values-remove.md)&quot;.
+
+## (Nueva IU) Eliminar clasificaciones de etiquetas
+
+1. Haga clic en **[!UICONTROL Setup]>[!UICONTROL Label Classifications]**.
+
+1. (Opcional) Filtre la lista para incluir clasificaciones de etiquetas específicas.
+
+1. Seleccione la casilla de verificación situada junto a cada clasificación de etiquetas que desee eliminar.
+
+   Puede eliminar hasta 200 filas a la vez.
+
+   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. En la barra de herramientas de acciones masivas, haga clic en ![Eliminar](/help/search-social-commerce/assets/delete.png "Eliminar").
+
+1. En el mensaje de confirmación, haga clic en **[!UICONTROL Confirm]**.
+
+## (IU heredada) Eliminar clasificaciones de etiquetas
+
+1. Haga clic en **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+
+1. (Opcional) Filtre la lista para incluir clasificaciones de etiquetas específicas.
+
+1. Seleccione la casilla de verificación situada junto a cada clasificación de etiquetas que desee eliminar.
+
+   Puede eliminar hasta 200 filas a la vez.
+
+   Para obtener sugerencias sobre cómo seleccionar varias filas, consulte &quot;[Seleccionar varias filas](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. En la barra de herramientas situada encima de la tabla de datos, haga clic en ![Eliminar](/help/search-social-commerce/assets/delete.png "Eliminar").
+
+1. En el mensaje de confirmación, haga clic en **[!UICONTROL Delete]**.
+
+>[!MORELIKETHIS]
+>
+>* [Acerca de las clasificaciones de etiquetas](classification-about.md)
+>* [Crear una clasificación de etiquetas](classification-create.md)
+>* [Asignar valores de clasificación a componentes de cuenta desde las vistas de administración de campañas](classification-values-assign-campaign-management.md)
+>* [Asignar valores de clasificación a componentes de cuenta mediante hojas de edición masiva](classification-values-assign-bulksheets.md)
+>* [Quitar valores de clasificación de etiquetas de los componentes de la cuenta](classification-values-remove.md)
+>* [Eliminar valores de clasificación de etiquetas](classification-values-delete.md)

@@ -1,0 +1,47 @@
+---
+title: Filtros del producto de campaña de compras
+description: Consulte los filtros de producto disponibles para grupos de productos de compras.
+exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
+feature: Search Campaign Management
+TQID: 'https://experienceleague.adobe.com/OgEEd-i6RcM98DpR7h6KFXnO8zfZiEgpJZAof8Bqgws'
+product_v2:
+  - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
+    internal-label: Advertising
+feature_v2:
+  - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
+    internal-label: Search Campaign Management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 22%
+---
+# Filtros del producto de campaña de compras
+
+Consulte también la ayuda de [!DNL Google Ads] &quot;[Administrar una campaña de compras con grupos de productos](https://support.google.com/google-ads/answer/6275317)&quot; y la ayuda de [!DNL Microsoft Advertising] &quot;[Comprender y usar grupos de productos](https://help.ads.microsoft.com/#apex/bae/en/56782)&quot;.
+
+| Red de compras | Product Dimension | Atributos | Notas |
+|----|----|----|----|
+| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!DNL Google Ads]: [!UICONTROL Category=]<br><br>Microsoft: [!UICONTROL Category 1=] a [!UICONTROL Category 5=] | \[Id. de categoría\] | — |
+| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Brand=] | \[La marca\] | — |
+| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Item ID=] | \[Id. del elemento\] | — |
+| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Condition] | [!UICONTROL New], [!UICONTROL Used], [!UICONTROL Refurbished], [!UICONTROL Unknown] | — |
+| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!DNL Google Ads]: [!UICONTROL Product Type (1st level)=] a [!UICONTROL Product Type (5th level)=]<br><br>[!DNL Microsoft]: [!UICONTROL Product Type=] | \[El tipo de producto\] | — |
+| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Custom Label 0=] a [!UICONTROL Custom Label 4=] | \[Atributo de la etiqueta personalizada\] | — |
+| [!DNL Google Ads] | Channel= | [!UICONTROL Local], [!UICONTROL Online] | Para mostrar solo anuncios de productos locales o productos en línea.<br><br><b>Nota:</b> Para crear anuncios de productos locales, debe habilitarse la opción &quot;Anuncios de inventario local&quot; y debe participar en el programa de compras local con [!DNL Google Merchant Center]. |
+| [!DNL Google Ads] | [!UICONTROL ChannelExclusivity=] | [!UICONTROL SingleChannel], [!UICONTROL MultiChannel] | Si se desea mostrar anuncios para productos que solo están disponibles para un único canal (local o solo en línea) o para varios canales (locales y en línea). |
+
+>[!MORELIKETHIS]
+>
+>* [Implementar [!DNL Google Ads] campañas de compras](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [Implementar [!DNL Microsoft Advertising] campañas de compras](/help/search-social-commerce/legacy-ui/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
+>* [Acerca de los grupos de productos de compras](product-group-about.md)
+>* [Administrar grupos de productos de compras](product-group-manage.md)
+>* [[!DNL Google Ads] configuración del grupo de productos](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/product-group-settings-google.md)
+>* [[!DNL Microsoft Advertising] configuración del grupo de productos](/help/search-social-commerce/legacy-ui/campaign-management/campaigns/product-group-settings-microsoft.md)
+>* [[!DNL Google Ads] configuración de plantillas de anuncios de compras para fuentes de inventario](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
+>* [[!DNL Microsoft Advertising] configuración de plantillas de anuncios de compras para fuentes de inventario](/help/search-social-commerce/legacy-ui/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
+>* [Datos requeridos para [!DNL Google Ads] hojas de edición masiva](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+>* [Datos requeridos para [!DNL Microsoft Advertising] hojas de edición masiva](/help/search-social-commerce/set-up/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)

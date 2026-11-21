@@ -1,9 +1,7 @@
 ---
 title: '[!UICONTROL Forecast Accuracy (Actuals) Report]'
 description: Obtenga información acerca de [!UICONTROL Forecast Accuracy (Actuals) Report], incluidas las columnas de datos.
-exl-id: 659e11c7-5fed-4d91-a73f-7c435d36634f
 feature: Search Reports, Search Model Accuracy Reports
-TQID: 'https://experienceleague.adobe.com/wQyO42Dt5McqK23z-adEP-BAxxTrBk9RJi0I-4noP0I'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,19 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: 50281ed9-148e-57a9-a8f2-ee73330272e6
     internal-label: Search Model Accuracy Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 0%
 ---
 # El [!UICONTROL Forecast Accuracy (Actuals) Report]
@@ -52,7 +40,7 @@ A continuación se indican las columnas que se incluyen automáticamente en cada
 
 >[!MORELIKETHIS]
 >
->* [Acerca de los informes de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md)
+>* [Acerca de los informes de precisión del modelo](model-accuracy-report-about.md)
 >* [El [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
->* [Generar un informe de precisión de modelo](model-accuracy-report-generate.md)
->* [Configuración del informe de precisión del modelo](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
+>* [Administrar informes programados](/help/search-social-commerce/reports/management/report-manage.md)
+>* [Configuración del informe de precisión del modelo](model-accuracy-report-settings.md)

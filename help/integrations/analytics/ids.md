@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: d446515567bfa1bae95deb3e7a09998f7b3bf5c9
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -70,13 +70,13 @@ Adobe Advertising distingue entre una entrada de pulsaciones o visualizaciones a
 
 El EF ID es un token único que Adobe Advertising utiliza para asociar la actividad con un clic en línea o la exposición de un anuncio en el nivel de navegador o dispositivo individual. Los EF ID actúan principalmente como claves para enviar datos de [!DNL Analytics] y Customer Journey Analytics a Adobe Advertising para la creación de informes y la optimización de ofertas en Adobe Advertising.
 
-Para [!DNL Analytics], el ID de EF se almacena en la dimensión [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=es) o [!DNL rVar] (reservada [!DNL eVar]) (ID de EF de Adobe Advertising).
+Para [!DNL Analytics], el ID de EF se almacena en la dimensión [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) o [!DNL rVar] (reservada [!DNL eVar]) (ID de EF de Adobe Advertising).
 
-Para Customer Journey Analytics, el identificador EF se almacena en la propiedad `trackingIdentities` del objeto `conversionDetails`, que forma parte de [el [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/es/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
+Para Customer Journey Analytics, el identificador EF se almacena en la propiedad `trackingIdentities` del objeto `conversionDetails`, que forma parte de [el [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 ### Formatos de ID de EF {#ef-id-formats}
 
-Consulte los [formatos para elementos de dimensión de EF ID](https://experienceleague.adobe.com/es/docs/analytics/components/dimensions/amo-ef-id#dimension-items) en la &quot;Guía de componentes de Adobe Analytics&quot;.
+Consulte los [formatos para elementos de dimensión de EF ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items) en la &quot;Guía de componentes de Adobe Analytics&quot;.
 
 >[!NOTE]
 >
@@ -151,7 +151,7 @@ El parámetro se añade a las direcciones URL de seguimiento de una de las sigui
 
     * Para las cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising] con la configuración [!UICONTROL Auto Upload] habilitada para la cuenta o campaña, el servidor de píxeles anexa automáticamente el parámetro s_kwcid a los sufijos de la página de aterrizaje cuando un usuario final hace clic en un anuncio con el píxel de Adobe Advertising.
 
-    * Para otras redes de anuncios o cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising] con la configuración de [!UICONTROL Auto Upload] deshabilitada, agregue manualmente el parámetro a los [parámetros de datos anexados de nivel de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que lo anexan a las direcciones URL base.
+    * Para otras redes de anuncios o cuentas de [!DNL Google Ads] y [!DNL Microsoft Advertising] con la configuración de [!UICONTROL Auto Upload] deshabilitada, agregue manualmente el parámetro a los [parámetros de datos anexados de nivel de cuenta](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}, que lo anexan a las direcciones URL base.
 
 * Cuando la función de inserción del lado del servidor no está implementada:
 
@@ -163,9 +163,9 @@ El parámetro se añade a las direcciones URL de seguimiento de una de las sigui
 
   * Clientes de Search, Social y Commerce:
 
-    * Para los anuncios ([!DNL Google Ads] y [!DNL Microsoft Advertising]), agregue manualmente el parámetro de ID de AMO a los sufijos de la página de aterrizaje. Lo ideal es hacerlo a [nivel de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, a menos que sea necesario un seguimiento diferente para los componentes de cuenta individuales.
+    * Para los anuncios ([!DNL Google Ads] y [!DNL Microsoft Advertising]), agregue manualmente el parámetro de ID de AMO a los sufijos de la página de aterrizaje. Lo ideal es hacerlo a [nivel de cuenta](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}, a menos que sea necesario un seguimiento diferente para los componentes de cuenta individuales.
 
-    * Para anuncios en todas las demás redes de anuncios, agrega manualmente el parámetro de ID de AMO a tus [parámetros de datos anexados a nivel de cuenta](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, que lo anexan a tus URL base.
+    * Para anuncios en todas las demás redes de anuncios, agrega manualmente el parámetro de ID de AMO a tus [parámetros de datos anexados a nivel de cuenta](/help/search-social-commerce/manage/accounts/api-accounts/api-account-manage.md#account-settings-api){target="_blank"}, que lo anexan a tus URL base.
 
 Para implementar la función de inserción del lado del servidor o para determinar la mejor opción para su empresa, hable con el equipo de cuenta de Adobe.
 
@@ -177,7 +177,7 @@ Para cualquier informe o auditoría dentro de [!DNL Analytics], la práctica rec
 
 ## Acerca de [!DNL Analytics] clasificaciones
 
-En [!DNL Analytics], una [clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=es) es un fragmento de metadatos para un código de seguimiento determinado, como Cuenta, Campaña o Anuncio. Adobe Advertising clasifica los datos de Adobe Advertising sin procesar mediante clasificaciones para que pueda mostrarlos de diferentes maneras (por ejemplo, por tipo de anuncio o campaña) al generar informes. Las clasificaciones forman la base de los informes de Adobe Advertising en [!DNL Analytics] y se pueden usar con las métricas de AMO, como [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] y [!UICONTROL AMO Clicks], así como con eventos personalizados y estándar en el sitio, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] y [!UICONTROL Revenue].
+En [!DNL Analytics], una [clasificación](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) es un fragmento de metadatos para un código de seguimiento determinado, como Cuenta, Campaña o Anuncio. Adobe Advertising clasifica los datos de Adobe Advertising sin procesar mediante clasificaciones para que pueda mostrarlos de diferentes maneras (por ejemplo, por tipo de anuncio o campaña) al generar informes. Las clasificaciones forman la base de los informes de Adobe Advertising en [!DNL Analytics] y se pueden usar con las métricas de AMO, como [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] y [!UICONTROL AMO Clicks], así como con eventos personalizados y estándar en el sitio, como [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] y [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

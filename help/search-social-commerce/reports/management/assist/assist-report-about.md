@@ -1,9 +1,7 @@
 ---
 title: Acerca de los informes de asistencia
 description: Obtenga información acerca de los informes que proporcionan perspectivas sobre las rutas de conversión.
-exl-id: 0962c8b1-0116-480a-8253-4e8488fec77c
 feature: Search Reports, Search Assist Reports
-TQID: 'https://experienceleague.adobe.com/dLbcQJUfyS6mDTWvujCrizdO57nXSEaMAek7hup3rlE'
 product_v2:
   - id: a829a185-511f-4bf8-8dcf-9e684f8011cf
     internal-label: Advertising
@@ -12,15 +10,9 @@ feature_v2:
     internal-label: Search Reports
   - id: ab19d4f9-a5e8-54d2-a6d6-a154af73fd6d
     internal-label: Search Assist Reports
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 6d95caf72d11c404d866e8d091e1ffa89814ae73
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '155'
 ht-degree: 0%
 ---
 # Acerca de los informes de asistencia
@@ -36,11 +28,11 @@ Los informes de asistencia proporcionan perspectivas sobre las rutas de conversi
 
 ## Tipos de informes de asistencia
 
-* [El [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
+* [El [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 
-* [El [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
+* [El [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 
-* [El [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
+* [El [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 
 >[!MORELIKETHIS]
 >
@@ -48,5 +40,5 @@ Los informes de asistencia proporcionan perspectivas sobre las rutas de conversi
 >* [El [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [El [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Configuración de informe de asistencia](assist-report-settings.md)
->* [Generar un informe de asistencia](assist-report-generate.md)
->* [Acerca de los informes](/help/search-social-commerce/reports/report-about.md)
+>* [Administrar informes programados](/help/search-social-commerce/reports/management/report-manage.md)
+

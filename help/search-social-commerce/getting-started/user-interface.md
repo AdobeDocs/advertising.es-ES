@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 7d9c610b13af9e4f64b9955fc89e71fcae708c45
+source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 Cada página incluye el menú principal y otros menús basados en tareas e información.
 
-El [perfil de producto](/help/search-social-commerce/new-ui/user-administration.md#default-product-profiles) determina las opciones disponibles, incluida la funcionalidad disponible en cada vista.
+El [perfil de producto](/help/search-social-commerce/user-administration.md#default-product-profiles) determina las opciones disponibles, incluida la funcionalidad disponible en cada vista.
 
 ## El menú principal
 
@@ -83,7 +83,7 @@ La nueva interfaz de usuario cuenta con un nuevo menú principal a la izquierda,
 
 * Submenú **[!UICONTROL Plan]**:
 
-  * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+  * **[!UICONTROL Simulations]** abre una nueva vista [[!UICONTROL Simulations] ](/help/search-social-commerce/plan/simulations/simulation-about.md) desde la cual puede ver todas las simulaciones personalizadas creadas por el usuario y las simulaciones semanales generadas automáticamente; generar nuevas simulaciones personalizadas y volver a ejecutar las simulaciones existentes. El botón [!UICONTROL Spend Planner] abre la herramienta [!UICONTROL Spend Recommendation] heredada en [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
   * **[!UICONTROL Spend Planner]** Sale del nuevo sitio y abre la vista heredada [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -213,7 +213,7 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Su función det
 
 * ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar sesión.
 
-  Cuando hayas iniciado sesión a través de Adobe CX Enterprise[&#128279;](sign-in.md), también puedes editar tu perfil de CX Enterprise, incluida tu contraseña de CX Enterprise y la configuración de notificaciones.
+  Cuando hayas iniciado sesión a través de Adobe CX Enterprise](sign-in.md), también puedes editar tu perfil de CX Enterprise, incluida tu contraseña de CX Enterprise y la configuración de notificaciones.[
 
 >[!MORELIKETHIS]
 >
