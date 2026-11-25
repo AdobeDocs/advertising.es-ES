@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: 76ac9ff6-5d89-5acb-bc0b-875761bb3320
     internal-label: Search Campaign Management
-source-git-commit: f2335fa20fd8685b13b5bcebe63c21c7e3600551
+source-git-commit: 002341eac7bccd7dd5213f399d5f12ecb91229ef
 workflow-type: tm+mt
-source-wordcount: '3141'
+source-wordcount: '3256'
 ht-degree: 0%
 ---
 # (Nueva IU) Administrar las cuentas de red de publicidad a través de la conexión API
@@ -67,6 +67,22 @@ Las acciones disponibles dependen de los permisos y del tipo de cuenta.
 * [Ver un gráfico de rendimiento en la vista [!UICONTROL Accounts]](#account-performance-graph)
 
 * [Administrar informes de vista de datos desde la vista [!UICONTROL Accounts]](#account-reports)
+
+## [!DNL Meta Ads] notificaciones de caducidad y extensión de token {#meta-token-expiration}
+
+Para cuentas de [!DNL Meta Ads], Search, Social y Commerce intentan extender automáticamente el token de autenticación 14 días antes de la caducidad de este. Si la extensión se realiza correctamente, no se envía ninguna alerta y no es necesaria ninguna acción por parte del usuario.
+
+Si la extensión falla, la vista [!UICONTROL Accounts] muestra una advertencia de caducidad de token y [!UICONTROL Notification Center] envía notificaciones por correo electrónico a todos los usuarios con acceso a la cuenta 7, 5, 2 y 1 días antes de la caducidad.
+
+Cada correo electrónico incluye:
+
+* El nombre de la cuenta y el número de días hasta que caduque el token.
+
+* El nombre y la dirección de correo electrónico del usuario autenticado, para que los destinatarios sepan quién debe actuar.
+
+* Un vínculo directo a [volver a autenticar la cuenta](#reauthenticate).
+
+* La funcionalidad que dejará de funcionar si caduca el token.
 
 ## Crear y agregar detalles de cuenta de red {#create-account}
 
