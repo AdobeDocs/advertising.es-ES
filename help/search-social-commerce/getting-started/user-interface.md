@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d7f8cc382d053cc8acc5a81acf01c2058d4b1161
+source-git-commit: 45feac9171ac5cffc301e3a24ba487c1d73ed027
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -179,11 +179,11 @@ Utilice el campo de búsqueda situado encima del menú principal para buscar opc
 
 La parte superior de cada página incluye el menú principal y otros menús basados en tareas e información.
 
-## El menú principal
+### El menú principal
 
 * **[!UICONTROL Search, Social, & Commerce]** \>: para administrar las cuentas de red de anuncios en Search, Social y Commerce, incluidas las cuentas que Search, Social y Commerce están rastreando pero no pujando.
 
-## [!UICONTROL Search] menús
+### [!UICONTROL Search] menús
 
 La opción [!UICONTROL Search] incluye los siguientes submenús. Su función determina las opciones disponibles:
 
@@ -199,7 +199,7 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Su función det
 
 * **[!UICONTROL Admin]**: el menú [!UICONTROL Admin] incluye opciones para cambiar los nombres para mostrar de las métricas de conversión de un anunciante en tablas de datos e informes, configurar opciones para sincronizar con una cuenta de Adobe Audience Manager y sincronizar métricas de conversión para una combinación de cuenta, propiedad y vista de [!DNL Google Analytics] específica. Según la función, puede permitirle administrar cuentas de anunciante, cuentas de agencia, funciones de usuario y cuentas de usuario.
 
-## Otros menús basados en tareas e información a la derecha
+### Otros menús basados en tareas e información a la derecha
 
 * (Cuando corresponda) Una lista seleccionable de los anunciantes que está administrando.
 
@@ -213,7 +213,7 @@ La opción [!UICONTROL Search] incluye los siguientes submenús. Su función det
 
 * ![Perfil de usuario](/help/search-social-commerce/assets/user-profile.png "Perfil de usuario") Un vínculo a su perfil, desde el cual puede cerrar sesión.
 
-  Cuando hayas iniciado sesión a través de Adobe CX Enterprise[&#128279;](sign-in.md), también puedes editar tu perfil de CX Enterprise, incluida tu contraseña de CX Enterprise y la configuración de notificaciones.
+  Cuando hayas iniciado sesión a través de Adobe CX Enterprise](sign-in.md), también puedes editar tu perfil de CX Enterprise, incluida tu contraseña de CX Enterprise y la configuración de notificaciones.[
 
 >[!MORELIKETHIS]
 >
