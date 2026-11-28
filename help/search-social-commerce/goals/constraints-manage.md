@@ -71,7 +71,7 @@ Algunas razones para restringir las unidades de oferta son las siguientes:
 
 Además de abrir la vista [[!UICONTROL Constraints]](#constraints-view), también puede ver información relacionada con sus restricciones de las siguientes maneras:
 
-* Todas las restricciones son valores de etiqueta para una sola [clasificación de etiqueta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/legacy-ui/campaign-management/label-classifications/classification-about.html) denominada &quot;[!UICONTROL Constraints]&quot;.
+* Todas las restricciones son valores de etiqueta para una sola [clasificación de etiqueta](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/legacy-ui/campaign-management/label-classifications/classification-about.html?lang=es) denominada &quot;[!UICONTROL Constraints]&quot;.
 
   * &quot;[!UICONTROL Constraints]&quot; está incluido en la lista &quot;[!UICONTROL Classifications]&quot; de la configuración de vista predeterminada y personalizada y en los informes programados. Puede agregar la columna siempre que desee ver las restricciones asignadas a las entidades relevantes.
 
